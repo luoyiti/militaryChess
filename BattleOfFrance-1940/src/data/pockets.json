@@ -1,0 +1,59 @@
+[
+ {
+  "id": "p.holland",
+  "name": {
+   "zh": "要塞荷兰",
+   "orig": "Vesting Holland"
+  },
+  "start": "1940-05-13T08:00",
+  "end": "1940-05-15T16:00",
+  "anchor": "@amsterdam",
+  "fate": "surrendered",
+  "units": [
+   "nl.army"
+  ],
+  "note": "鹿特丹轰炸后，荷兰陆军于5月15日投降。",
+  "sources": [
+   "frieser",
+   "horne"
+  ]
+ },
+ {
+  "id": "p.lille",
+  "name": {
+   "zh": "里尔包围圈",
+   "orig": "Poche de Lille"
+  },
+  "start": "1940-05-25T06:00",
+  "end": "1940-05-31T20:00",
+  "anchor": "@lille",
+  "fate": "surrendered",
+  "units": [
+   "fr.1a"
+  ],
+  "note": "法第1集团军残部在里尔坚持到5月31日。",
+  "sources": [
+   "frieser",
+   "horne"
+  ]
+ },
+ {
+  "id": "p.dunkirk",
+  "name": {
+   "zh": "敦刻尔克包围圈",
+   "orig": "Poche de Dunkerque"
+  },
+  "start": "1940-05-26T18:00",
+  "end": "1940-06-04T14:00",
+  "anchor": "@dunkirk",
+  "fate": "broke_out",
+  "units": [
+   "gb.bef"
+  ],
+  "note": "发电机行动撤出约33.8万人。围圈本身没有突围，而是经海路撤出。",
+  "sources": [
+   "horne",
+   "wiki_france"
+  ]
+ }
+]
