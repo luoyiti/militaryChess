@@ -1,0 +1,1334 @@
+[
+ {
+  "id": "tirana",
+  "zh": "地拉那",
+  "orig": "Tiranë",
+  "pos": [
+   19.82,
+   41.33
+  ],
+  "kind": "capital",
+  "rank": 1,
+  "country1939": "AL"
+ },
+ {
+  "id": "durres",
+  "zh": "都拉斯",
+  "orig": "Durrës / Durazzo",
+  "pos": [
+   19.45,
+   41.32
+  ],
+  "kind": "port",
+  "rank": 2,
+  "country1939": "AL"
+ },
+ {
+  "id": "shkoder",
+  "zh": "斯库台",
+  "orig": "Shkodër / Scutari",
+  "pos": [
+   19.51,
+   42.07
+  ],
+  "kind": "city",
+  "rank": 2,
+  "country1939": "AL"
+ },
+ {
+  "id": "vlore",
+  "zh": "发罗拉",
+  "orig": "Vlorë / Valona",
+  "pos": [
+   19.49,
+   40.47
+  ],
+  "kind": "port",
+  "rank": 2,
+  "country1939": "AL"
+ },
+ {
+  "id": "berat",
+  "zh": "培拉特",
+  "orig": "Berat",
+  "pos": [
+   19.95,
+   40.71
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country1939": "AL"
+ },
+ {
+  "id": "elbasan",
+  "zh": "爱尔巴桑",
+  "orig": "Elbasan",
+  "pos": [
+   20.08,
+   41.11
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country1939": "AL"
+ },
+ {
+  "id": "korce",
+  "zh": "科尔察",
+  "orig": "Korçë / Korytsa",
+  "pos": [
+   20.78,
+   40.62
+  ],
+  "kind": "city",
+  "rank": 2,
+  "country1939": "AL"
+ },
+ {
+  "id": "pogradec",
+  "zh": "波格拉德茨",
+  "orig": "Pogradec",
+  "pos": [
+   20.65,
+   40.9
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country1939": "AL"
+ },
+ {
+  "id": "erseke",
+  "zh": "埃尔塞克",
+  "orig": "Ersekë",
+  "pos": [
+   20.68,
+   40.33
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country1939": "AL"
+ },
+ {
+  "id": "leskovik",
+  "zh": "莱斯科维克",
+  "orig": "Leskovik",
+  "pos": [
+   20.6,
+   40.15
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country1939": "AL"
+ },
+ {
+  "id": "permet",
+  "zh": "佩尔梅特",
+  "orig": "Përmet",
+  "pos": [
+   20.35,
+   40.23
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country1939": "AL"
+ },
+ {
+  "id": "kelcyre",
+  "zh": "克利苏拉",
+  "orig": "Këlcyrë / Klisoura",
+  "pos": [
+   20.19,
+   40.31
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country1939": "AL"
+ },
+ {
+  "id": "tepelene",
+  "zh": "特佩莱讷",
+  "orig": "Tepelenë",
+  "pos": [
+   20.02,
+   40.3
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country1939": "AL"
+ },
+ {
+  "id": "gjirokaster",
+  "zh": "吉诺卡斯特",
+  "orig": "Gjirokastër / Argyrokastro",
+  "pos": [
+   20.14,
+   40.08
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country1939": "AL"
+ },
+ {
+  "id": "delvine",
+  "zh": "德尔维纳",
+  "orig": "Delvinë / Delvino",
+  "pos": [
+   20.1,
+   39.95
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country1939": "AL"
+ },
+ {
+  "id": "sarande",
+  "zh": "萨兰达",
+  "orig": "Sarandë / Santi Quaranta",
+  "pos": [
+   20.01,
+   39.87
+  ],
+  "kind": "port",
+  "rank": 3,
+  "country1939": "AL"
+ },
+ {
+  "id": "himare",
+  "zh": "希马拉",
+  "orig": "Himarë / Cheimarra",
+  "pos": [
+   19.74,
+   40.1
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country1939": "AL"
+ },
+ {
+  "id": "kuci",
+  "zh": "库奇山口",
+  "orig": "Kuç / Koutsi",
+  "pos": [
+   19.82,
+   40.18
+  ],
+  "kind": "crossing",
+  "rank": 4,
+  "country1939": "AL"
+ },
+ {
+  "id": "hill731",
+  "zh": "731高地一带",
+  "orig": "Height 731 sector",
+  "pos": [
+   20.22,
+   40.38
+  ],
+  "kind": "region",
+  "rank": 4,
+  "country1939": "AL"
+ },
+ {
+  "id": "athens",
+  "zh": "雅典",
+  "orig": "Athína / Athens",
+  "pos": [
+   23.73,
+   37.98
+  ],
+  "kind": "capital",
+  "rank": 1,
+  "country1939": "GR"
+ },
+ {
+  "id": "piraeus",
+  "zh": "比雷埃夫斯",
+  "orig": "Peiraiás / Piraeus",
+  "pos": [
+   23.64,
+   37.94
+  ],
+  "kind": "port",
+  "rank": 2,
+  "country1939": "GR"
+ },
+ {
+  "id": "ioannina",
+  "zh": "约阿尼纳",
+  "orig": "Ioánnina",
+  "pos": [
+   20.85,
+   39.67
+  ],
+  "kind": "city",
+  "rank": 2,
+  "country1939": "GR"
+ },
+ {
+  "id": "kalpaki",
+  "zh": "卡尔帕基",
+  "orig": "Kalpáki / Elaia",
+  "pos": [
+   20.62,
+   39.89
+  ],
+  "kind": "fort",
+  "rank": 3,
+  "country1939": "GR"
+ },
+ {
+  "id": "konitsa",
+  "zh": "科尼察",
+  "orig": "Kónitsa",
+  "pos": [
+   20.75,
+   40.05
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country1939": "GR"
+ },
+ {
+  "id": "samarina",
+  "zh": "萨马里纳",
+  "orig": "Samarína",
+  "pos": [
+   21.02,
+   40.1
+  ],
+  "kind": "village",
+  "rank": 4,
+  "country1939": "GR"
+ },
+ {
+  "id": "distrato",
+  "zh": "迪斯特拉托",
+  "orig": "Dístrato",
+  "pos": [
+   21.02,
+   40.02
+  ],
+  "kind": "village",
+  "rank": 4,
+  "country1939": "GR"
+ },
+ {
+  "id": "eptachori",
+  "zh": "埃普塔霍里",
+  "orig": "Eptachóri",
+  "pos": [
+   20.98,
+   40.22
+  ],
+  "kind": "village",
+  "rank": 4,
+  "country1939": "GR"
+ },
+ {
+  "id": "metsovo",
+  "zh": "梅措沃",
+  "orig": "Métsovo",
+  "pos": [
+   21.18,
+   39.77
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country1939": "GR"
+ },
+ {
+  "id": "kastoria",
+  "zh": "卡斯托里亚",
+  "orig": "Kastoriá",
+  "pos": [
+   21.27,
+   40.52
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country1939": "GR"
+ },
+ {
+  "id": "florina",
+  "zh": "弗洛里纳",
+  "orig": "Flórina",
+  "pos": [
+   21.41,
+   40.78
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country1939": "GR"
+ },
+ {
+  "id": "vevi",
+  "zh": "韦维",
+  "orig": "Vévi / Klidi",
+  "pos": [
+   21.62,
+   40.5
+  ],
+  "kind": "crossing",
+  "rank": 4,
+  "country1939": "GR"
+ },
+ {
+  "id": "kleisoura",
+  "zh": "克莱苏拉山口",
+  "orig": "Kleisoura, Macedonia",
+  "pos": [
+   21.47,
+   40.53
+  ],
+  "kind": "crossing",
+  "rank": 4,
+  "country1939": "GR"
+ },
+ {
+  "id": "grevena",
+  "zh": "格雷韦纳",
+  "orig": "Grevená",
+  "pos": [
+   21.43,
+   40.08
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country1939": "GR"
+ },
+ {
+  "id": "kozani",
+  "zh": "科扎尼",
+  "orig": "Kozáni",
+  "pos": [
+   21.79,
+   40.3
+  ],
+  "kind": "city",
+  "rank": 2,
+  "country1939": "GR"
+ },
+ {
+  "id": "veria",
+  "zh": "韦里亚",
+  "orig": "Véroia",
+  "pos": [
+   22.2,
+   40.52
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country1939": "GR"
+ },
+ {
+  "id": "edessa",
+  "zh": "埃德萨",
+  "orig": "Édessa",
+  "pos": [
+   22.05,
+   40.8
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country1939": "GR"
+ },
+ {
+  "id": "servia",
+  "zh": "塞尔维亚山口",
+  "orig": "Sérvia",
+  "pos": [
+   22.0,
+   40.18
+  ],
+  "kind": "crossing",
+  "rank": 4,
+  "country1939": "GR"
+ },
+ {
+  "id": "katerini",
+  "zh": "卡泰里尼",
+  "orig": "Kateríni",
+  "pos": [
+   22.5,
+   40.27
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country1939": "GR"
+ },
+ {
+  "id": "platamon",
+  "zh": "普拉塔蒙",
+  "orig": "Platamón",
+  "pos": [
+   22.62,
+   39.99
+  ],
+  "kind": "crossing",
+  "rank": 4,
+  "country1939": "GR"
+ },
+ {
+  "id": "tempe",
+  "zh": "坦佩峡谷",
+  "orig": "Témpi / Pinios Gorge",
+  "pos": [
+   22.51,
+   39.86
+  ],
+  "kind": "crossing",
+  "rank": 4,
+  "country1939": "GR"
+ },
+ {
+  "id": "elassona",
+  "zh": "埃拉索纳",
+  "orig": "Elassóna",
+  "pos": [
+   22.19,
+   39.89
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country1939": "GR"
+ },
+ {
+  "id": "larisa",
+  "zh": "拉里萨",
+  "orig": "Lárisa",
+  "pos": [
+   22.42,
+   39.64
+  ],
+  "kind": "city",
+  "rank": 2,
+  "country1939": "GR"
+ },
+ {
+  "id": "kalabaka",
+  "zh": "卡兰巴卡",
+  "orig": "Kalampáka",
+  "pos": [
+   21.63,
+   39.71
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country1939": "GR"
+ },
+ {
+  "id": "volos",
+  "zh": "沃洛斯",
+  "orig": "Vólos",
+  "pos": [
+   22.95,
+   39.36
+  ],
+  "kind": "port",
+  "rank": 2,
+  "country1939": "GR"
+ },
+ {
+  "id": "lamia",
+  "zh": "拉米亚",
+  "orig": "Lamía",
+  "pos": [
+   22.43,
+   38.9
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country1939": "GR"
+ },
+ {
+  "id": "thermopylae",
+  "zh": "温泉关",
+  "orig": "Thermopýlai",
+  "pos": [
+   22.54,
+   38.79
+  ],
+  "kind": "crossing",
+  "rank": 3,
+  "country1939": "GR"
+ },
+ {
+  "id": "thebes",
+  "zh": "底比斯",
+  "orig": "Thíva / Thebes",
+  "pos": [
+   23.32,
+   38.32
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country1939": "GR"
+ },
+ {
+  "id": "rafina",
+  "zh": "拉菲纳",
+  "orig": "Rafína",
+  "pos": [
+   24.01,
+   38.02
+  ],
+  "kind": "port",
+  "rank": 3,
+  "country1939": "GR"
+ },
+ {
+  "id": "megara",
+  "zh": "梅加拉",
+  "orig": "Mégara",
+  "pos": [
+   23.35,
+   37.99
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country1939": "GR"
+ },
+ {
+  "id": "corinth",
+  "zh": "科林斯",
+  "orig": "Kórinthos",
+  "pos": [
+   22.93,
+   37.94
+  ],
+  "kind": "crossing",
+  "rank": 2,
+  "country1939": "GR"
+ },
+ {
+  "id": "argos",
+  "zh": "阿尔戈斯",
+  "orig": "Árgos",
+  "pos": [
+   22.72,
+   37.63
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country1939": "GR"
+ },
+ {
+  "id": "nafplio",
+  "zh": "纳夫普利翁",
+  "orig": "Náfplio",
+  "pos": [
+   22.81,
+   37.57
+  ],
+  "kind": "port",
+  "rank": 3,
+  "country1939": "GR"
+ },
+ {
+  "id": "tolon",
+  "zh": "托隆",
+  "orig": "Tolón",
+  "pos": [
+   22.86,
+   37.52
+  ],
+  "kind": "port",
+  "rank": 3,
+  "country1939": "GR"
+ },
+ {
+  "id": "kalamata",
+  "zh": "卡拉马塔",
+  "orig": "Kalamáta",
+  "pos": [
+   22.11,
+   37.04
+  ],
+  "kind": "port",
+  "rank": 2,
+  "country1939": "GR"
+ },
+ {
+  "id": "monemvasia",
+  "zh": "莫奈姆瓦夏",
+  "orig": "Monemvasiá",
+  "pos": [
+   23.05,
+   36.69
+  ],
+  "kind": "port",
+  "rank": 3,
+  "country1939": "GR"
+ },
+ {
+  "id": "githion",
+  "zh": "吉雄",
+  "orig": "Gýtheio",
+  "pos": [
+   22.56,
+   36.76
+  ],
+  "kind": "port",
+  "rank": 3,
+  "country1939": "GR"
+ },
+ {
+  "id": "patras",
+  "zh": "帕特雷",
+  "orig": "Pátra / Patras",
+  "pos": [
+   21.73,
+   38.25
+  ],
+  "kind": "port",
+  "rank": 3,
+  "country1939": "GR"
+ },
+ {
+  "id": "pyrgos",
+  "zh": "皮尔戈斯",
+  "orig": "Pýrgos",
+  "pos": [
+   21.44,
+   37.67
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country1939": "GR"
+ },
+ {
+  "id": "igoumenitsa",
+  "zh": "伊古迈尼察",
+  "orig": "Igoumenítsa",
+  "pos": [
+   20.27,
+   39.5
+  ],
+  "kind": "port",
+  "rank": 3,
+  "country1939": "GR"
+ },
+ {
+  "id": "preveza",
+  "zh": "普雷韦扎",
+  "orig": "Préveza",
+  "pos": [
+   20.75,
+   38.96
+  ],
+  "kind": "port",
+  "rank": 3,
+  "country1939": "GR"
+ },
+ {
+  "id": "arta",
+  "zh": "阿尔塔",
+  "orig": "Árta",
+  "pos": [
+   20.99,
+   39.16
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country1939": "GR"
+ },
+ {
+  "id": "thessaloniki",
+  "zh": "萨洛尼卡",
+  "orig": "Thessaloníki / Salonika",
+  "pos": [
+   22.94,
+   40.64
+  ],
+  "kind": "city",
+  "rank": 2,
+  "country1939": "GR"
+ },
+ {
+  "id": "doiran",
+  "zh": "多伊兰湖一带",
+  "orig": "Doïráni",
+  "pos": [
+   22.73,
+   41.18
+  ],
+  "kind": "region",
+  "rank": 3,
+  "country1939": "GR"
+ },
+ {
+  "id": "rupel",
+  "zh": "鲁佩尔要塞",
+  "orig": "Roupel",
+  "pos": [
+   23.37,
+   41.35
+  ],
+  "kind": "fort",
+  "rank": 3,
+  "country1939": "GR"
+ },
+ {
+  "id": "serres",
+  "zh": "塞雷斯",
+  "orig": "Sérres",
+  "pos": [
+   23.55,
+   41.08
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country1939": "GR"
+ },
+ {
+  "id": "drama",
+  "zh": "德拉马",
+  "orig": "Dráma",
+  "pos": [
+   24.15,
+   41.15
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country1939": "GR"
+ },
+ {
+  "id": "xanthi",
+  "zh": "克桑西",
+  "orig": "Xánthi",
+  "pos": [
+   24.89,
+   41.14
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country1939": "GR"
+ },
+ {
+  "id": "komotini",
+  "zh": "科莫蒂尼",
+  "orig": "Komotiní",
+  "pos": [
+   25.4,
+   41.12
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country1939": "GR"
+ },
+ {
+  "id": "alexandroupoli",
+  "zh": "亚历山德鲁波利",
+  "orig": "Alexandroúpoli",
+  "pos": [
+   25.87,
+   40.85
+  ],
+  "kind": "port",
+  "rank": 3,
+  "country1939": "GR"
+ },
+ {
+  "id": "belgrade",
+  "zh": "贝尔格莱德",
+  "orig": "Beograd",
+  "pos": [
+   20.46,
+   44.82
+  ],
+  "kind": "capital",
+  "rank": 1,
+  "country1939": "YU"
+ },
+ {
+  "id": "ljubljana",
+  "zh": "卢布尔雅那",
+  "orig": "Ljubljana",
+  "pos": [
+   14.51,
+   46.06
+  ],
+  "kind": "city",
+  "rank": 2,
+  "country1939": "YU"
+ },
+ {
+  "id": "maribor",
+  "zh": "马里博尔",
+  "orig": "Maribor",
+  "pos": [
+   15.65,
+   46.55
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country1939": "YU"
+ },
+ {
+  "id": "zagreb",
+  "zh": "萨格勒布",
+  "orig": "Zagreb",
+  "pos": [
+   15.98,
+   45.81
+  ],
+  "kind": "city",
+  "rank": 2,
+  "country1939": "YU"
+ },
+ {
+  "id": "varazdin",
+  "zh": "瓦拉日丁",
+  "orig": "Varaždin",
+  "pos": [
+   16.34,
+   46.31
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country1939": "YU"
+ },
+ {
+  "id": "koprivnica",
+  "zh": "科普里夫尼察",
+  "orig": "Koprivnica",
+  "pos": [
+   16.83,
+   46.16
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country1939": "YU"
+ },
+ {
+  "id": "bjelovar",
+  "zh": "别洛瓦尔",
+  "orig": "Bjelovar",
+  "pos": [
+   16.85,
+   45.9
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country1939": "YU"
+ },
+ {
+  "id": "osijek",
+  "zh": "奥西耶克",
+  "orig": "Osijek",
+  "pos": [
+   18.7,
+   45.56
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country1939": "YU"
+ },
+ {
+  "id": "novisad",
+  "zh": "诺维萨德",
+  "orig": "Novi Sad",
+  "pos": [
+   19.84,
+   45.25
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country1939": "YU"
+ },
+ {
+  "id": "subotica",
+  "zh": "苏博蒂察",
+  "orig": "Subotica",
+  "pos": [
+   19.67,
+   46.1
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country1939": "YU"
+ },
+ {
+  "id": "pancevo",
+  "zh": "潘切沃",
+  "orig": "Pančevo",
+  "pos": [
+   20.64,
+   44.87
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country1939": "YU"
+ },
+ {
+  "id": "vrsac",
+  "zh": "弗尔沙茨",
+  "orig": "Vršac",
+  "pos": [
+   21.3,
+   45.12
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country1939": "YU"
+ },
+ {
+  "id": "sarajevo",
+  "zh": "萨拉热窝",
+  "orig": "Sarajevo",
+  "pos": [
+   18.41,
+   43.86
+  ],
+  "kind": "city",
+  "rank": 2,
+  "country1939": "YU"
+ },
+ {
+  "id": "split",
+  "zh": "斯普利特",
+  "orig": "Split",
+  "pos": [
+   16.44,
+   43.51
+  ],
+  "kind": "port",
+  "rank": 3,
+  "country1939": "YU"
+ },
+ {
+  "id": "dubrovnik",
+  "zh": "杜布罗夫尼克",
+  "orig": "Dubrovnik",
+  "pos": [
+   18.09,
+   42.65
+  ],
+  "kind": "port",
+  "rank": 3,
+  "country1939": "YU"
+ },
+ {
+  "id": "podgorica",
+  "zh": "波德戈里察",
+  "orig": "Podgorica",
+  "pos": [
+   19.26,
+   42.44
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country1939": "YU"
+ },
+ {
+  "id": "prizren",
+  "zh": "普里兹伦",
+  "orig": "Prizren",
+  "pos": [
+   20.74,
+   42.22
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country1939": "YU"
+ },
+ {
+  "id": "skopje",
+  "zh": "斯科普里",
+  "orig": "Skoplje / Skopje",
+  "pos": [
+   21.43,
+   42.0
+  ],
+  "kind": "city",
+  "rank": 2,
+  "country1939": "YU"
+ },
+ {
+  "id": "kumanovo",
+  "zh": "库马诺沃",
+  "orig": "Kumanovo",
+  "pos": [
+   21.71,
+   42.13
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country1939": "YU"
+ },
+ {
+  "id": "bitola",
+  "zh": "比托拉",
+  "orig": "Bitolj / Monastir",
+  "pos": [
+   21.33,
+   41.03
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country1939": "YU"
+ },
+ {
+  "id": "ohrid",
+  "zh": "奥赫里德",
+  "orig": "Ohrid",
+  "pos": [
+   20.8,
+   41.11
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country1939": "YU"
+ },
+ {
+  "id": "nis",
+  "zh": "尼什",
+  "orig": "Niš",
+  "pos": [
+   21.9,
+   43.32
+  ],
+  "kind": "city",
+  "rank": 2,
+  "country1939": "YU"
+ },
+ {
+  "id": "pirot",
+  "zh": "皮罗特",
+  "orig": "Pirot",
+  "pos": [
+   22.59,
+   43.15
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country1939": "YU"
+ },
+ {
+  "id": "kragujevac",
+  "zh": "克拉古耶瓦茨",
+  "orig": "Kragujevac",
+  "pos": [
+   20.91,
+   44.01
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country1939": "YU"
+ },
+ {
+  "id": "kraljevo",
+  "zh": "克拉列沃",
+  "orig": "Kraljevo",
+  "pos": [
+   20.69,
+   43.72
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country1939": "YU"
+ },
+ {
+  "id": "leskovac",
+  "zh": "莱斯科瓦茨",
+  "orig": "Leskovac",
+  "pos": [
+   21.95,
+   43.0
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country1939": "YU"
+ },
+ {
+  "id": "strumica",
+  "zh": "斯特鲁米察",
+  "orig": "Strumica",
+  "pos": [
+   22.64,
+   41.44
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country1939": "YU"
+ },
+ {
+  "id": "stip",
+  "zh": "什蒂普",
+  "orig": "Štip",
+  "pos": [
+   22.19,
+   41.74
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country1939": "YU"
+ },
+ {
+  "id": "veles",
+  "zh": "韦莱斯",
+  "orig": "Veles",
+  "pos": [
+   21.78,
+   41.72
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country1939": "YU"
+ },
+ {
+  "id": "graz",
+  "zh": "格拉茨",
+  "orig": "Graz",
+  "pos": [
+   15.44,
+   47.07
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country1939": "DE"
+ },
+ {
+  "id": "klagenfurt",
+  "zh": "克拉根福",
+  "orig": "Klagenfurt",
+  "pos": [
+   14.31,
+   46.62
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country1939": "DE"
+ },
+ {
+  "id": "rijeka",
+  "zh": "阜姆",
+  "orig": "Fiume / Rijeka",
+  "pos": [
+   14.44,
+   45.33
+  ],
+  "kind": "port",
+  "rank": 3,
+  "country1939": "IT"
+ },
+ {
+  "id": "budapest",
+  "zh": "布达佩斯",
+  "orig": "Budapest",
+  "pos": [
+   19.04,
+   47.5
+  ],
+  "kind": "capital",
+  "rank": 1,
+  "country1939": "HU"
+ },
+ {
+  "id": "nagykanizsa",
+  "zh": "瑙吉考尼饶",
+  "orig": "Nagykanizsa",
+  "pos": [
+   16.99,
+   46.45
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country1939": "HU"
+ },
+ {
+  "id": "timisoara",
+  "zh": "蒂米什瓦拉",
+  "orig": "Timișoara",
+  "pos": [
+   21.23,
+   45.75
+  ],
+  "kind": "city",
+  "rank": 2,
+  "country1939": "RO"
+ },
+ {
+  "id": "sofia",
+  "zh": "索非亚",
+  "orig": "Sofiya",
+  "pos": [
+   23.32,
+   42.7
+  ],
+  "kind": "capital",
+  "rank": 1,
+  "country1939": "BG"
+ },
+ {
+  "id": "kyustendil",
+  "zh": "丘斯滕迪尔",
+  "orig": "Kyustendil",
+  "pos": [
+   22.69,
+   42.28
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country1939": "BG"
+ },
+ {
+  "id": "petrich",
+  "zh": "佩特里奇",
+  "orig": "Petrich",
+  "pos": [
+   23.2,
+   41.4
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country1939": "BG"
+ },
+ {
+  "id": "blagoevgrad",
+  "zh": "上朱马亚",
+  "orig": "Gorna Dzhumaya",
+  "pos": [
+   23.09,
+   42.02
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country1939": "BG"
+ },
+ {
+  "id": "plovdiv",
+  "zh": "普罗夫迪夫",
+  "orig": "Plovdiv",
+  "pos": [
+   24.75,
+   42.14
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country1939": "BG"
+ },
+ {
+  "id": "svilengrad",
+  "zh": "斯维伦格勒",
+  "orig": "Svilengrad",
+  "pos": [
+   26.2,
+   41.77
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country1939": "BG"
+ },
+ {
+  "id": "matapan",
+  "zh": "马塔潘角海域",
+  "orig": "Cape Matapan waters",
+  "pos": [
+   22.5,
+   35.2
+  ],
+  "kind": "region",
+  "rank": 3,
+  "country1939": "GR"
+ }
+]

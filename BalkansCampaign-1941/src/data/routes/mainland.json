@@ -1,0 +1,870 @@
+[
+ {
+  "id": "r.it_ferrara_advance",
+  "side": "IT",
+  "unit": "it.ferrara",
+  "label": "卡尔帕基主攻",
+  "style": "main",
+  "widthKm": 12,
+  "movement": "land",
+  "waypoints": [
+   {
+    "at": "1940-10-28T12:00",
+    "pos": "@gjirokaster"
+   },
+   {
+    "at": "1940-11-02T12:00",
+    "pos": "@kalpaki"
+   }
+  ],
+  "until": "1940-11-02T12:00",
+  "sources": [
+   "land_greek_defence",
+   "land_greek_spring"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "r.it_siena_advance",
+  "side": "IT",
+  "unit": "it.siena",
+  "label": "卡拉马斯—海岸攻势",
+  "style": "secondary",
+  "widthKm": 12,
+  "movement": "land",
+  "waypoints": [
+   {
+    "at": "1940-10-28T12:00",
+    "pos": "@delvine"
+   },
+   {
+    "at": "1940-11-03T12:00",
+    "pos": "@igoumenitsa"
+   }
+  ],
+  "until": "1940-11-03T12:00",
+  "sources": [
+   "land_greek_defence",
+   "land_greek_himara"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "r.it_julia_advance",
+  "side": "IT",
+  "unit": "it.julia",
+  "label": "朱利亚师品都斯突进",
+  "style": "main",
+  "widthKm": 12,
+  "movement": "land",
+  "waypoints": [
+   {
+    "at": "1940-10-28T12:00",
+    "pos": "@leskovik"
+   },
+   {
+    "at": "1940-11-02T12:00",
+    "pos": "@samarina"
+   },
+   {
+    "at": "1940-11-04T12:00",
+    "pos": "@distrato"
+   }
+  ],
+  "until": "1940-11-04T12:00",
+  "sources": [
+   "land_greek_defence",
+   "land_greek_korce",
+   "land_greek_spring"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "r.gr_1d_advance",
+  "side": "GR",
+  "unit": "gr.1d",
+  "label": "品都斯反击",
+  "style": "counter",
+  "widthKm": 12,
+  "movement": "land",
+  "waypoints": [
+   {
+    "at": "1940-10-28T12:00",
+    "pos": "@grevena"
+   },
+   {
+    "at": "1940-11-01T12:00",
+    "pos": "@eptachori"
+   },
+   {
+    "at": "1940-11-04T12:00",
+    "pos": "@samarina"
+   }
+  ],
+  "until": "1940-11-04T12:00",
+  "sources": [
+   "land_greek_defence",
+   "land_greek_spring"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "r.gr_3d_advance",
+  "side": "GR",
+  "unit": "gr.3d",
+  "label": "萨兰达—希马拉反攻",
+  "style": "counter",
+  "widthKm": 12,
+  "movement": "land",
+  "waypoints": [
+   {
+    "at": "1940-11-06T12:00",
+    "pos": "@ioannina"
+   },
+   {
+    "at": "1940-11-22T12:00",
+    "pos": "@delvine"
+   },
+   {
+    "at": "1940-12-07T12:00",
+    "pos": "@sarande"
+   },
+   {
+    "at": "1940-12-20T12:00",
+    "pos": "@kuci"
+   },
+   {
+    "at": "1940-12-22T12:00",
+    "pos": "@himare"
+   }
+  ],
+  "until": "1940-12-22T12:00",
+  "sources": [
+   "land_greek_himara"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "r.gr_9d_advance",
+  "side": "GR",
+  "unit": "gr.9d",
+  "label": "科尔察—波格拉德茨",
+  "style": "counter",
+  "widthKm": 12,
+  "movement": "land",
+  "waypoints": [
+   {
+    "at": "1940-10-28T12:00",
+    "pos": "@kastoria"
+   },
+   {
+    "at": "1940-11-14T12:00",
+    "pos": [
+     20.95,
+     40.6
+    ]
+   },
+   {
+    "at": "1940-11-22T12:00",
+    "pos": "@korce"
+   },
+   {
+    "at": "1940-11-30T12:00",
+    "pos": "@pogradec"
+   }
+  ],
+  "until": "1940-11-30T12:00",
+  "sources": [
+   "land_greek_korce"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "r.de_11pz_advance",
+  "side": "DE",
+  "unit": "de.11pz",
+  "label": "摩拉瓦河谷：尼什—首都",
+  "style": "main",
+  "widthKm": 12,
+  "movement": "land",
+  "waypoints": [
+   {
+    "at": "1941-04-08T12:00",
+    "pos": "@pirot"
+   },
+   {
+    "at": "1941-04-09T12:00",
+    "pos": "@nis"
+   },
+   {
+    "at": "1941-04-11T12:00",
+    "pos": "@kragujevac"
+   },
+   {
+    "at": "1941-04-13T12:00",
+    "pos": "@belgrade"
+   }
+  ],
+  "until": "1941-04-13T12:00",
+  "sources": [
+   "land_us_yugoslavia"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "r.de_14pz_advance",
+  "side": "DE",
+  "unit": "de.14pz",
+  "label": "德拉瓦河—萨格勒布",
+  "style": "main",
+  "widthKm": 12,
+  "movement": "land",
+  "waypoints": [
+   {
+    "at": "1941-04-05T12:00",
+    "pos": "@nagykanizsa"
+   },
+   {
+    "at": "1941-04-09T12:00",
+    "pos": "@varazdin"
+   },
+   {
+    "at": "1941-04-10T12:00",
+    "pos": "@zagreb"
+   },
+   {
+    "at": "1941-04-12T12:00",
+    "pos": [
+     15.07,
+     45.4
+    ]
+   },
+   {
+    "at": "1941-04-15T12:00",
+    "pos": "@sarajevo"
+   }
+  ],
+  "until": "1941-04-15T12:00",
+  "sources": [
+   "land_us_yugoslavia"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "r.de_8pz_advance",
+  "side": "DE",
+  "unit": "de.8pz",
+  "label": "北路—贝尔格莱德",
+  "style": "main",
+  "widthKm": 12,
+  "movement": "land",
+  "waypoints": [
+   {
+    "at": "1941-04-05T12:00",
+    "pos": "@nagykanizsa"
+   },
+   {
+    "at": "1941-04-08T12:00",
+    "pos": "@koprivnica"
+   },
+   {
+    "at": "1941-04-11T12:00",
+    "pos": "@osijek"
+   },
+   {
+    "at": "1941-04-13T12:00",
+    "pos": "@belgrade"
+   },
+   {
+    "at": "1941-04-16T12:00",
+    "pos": "@sarajevo"
+   }
+  ],
+  "until": "1941-04-16T12:00",
+  "sources": [
+   "land_us_yugoslavia"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "r.de_reich_advance",
+  "side": "DE",
+  "unit": "de.reich",
+  "label": "罗马尼亚集结区—首都",
+  "style": "secondary",
+  "widthKm": 12,
+  "movement": "land",
+  "waypoints": [
+   {
+    "at": "1941-04-08T12:00",
+    "pos": "@timisoara"
+   },
+   {
+    "at": "1941-04-11T12:00",
+    "pos": "@vrsac"
+   },
+   {
+    "at": "1941-04-12T12:00",
+    "pos": "@pancevo"
+   },
+   {
+    "at": "1941-04-13T12:00",
+    "pos": "@belgrade"
+   }
+  ],
+  "until": "1941-04-13T12:00",
+  "sources": [
+   "land_us_yugoslavia"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "r.de_9pz_advance",
+  "side": "DE",
+  "unit": "de.9pz",
+  "label": "斯科普里—比托拉—希腊",
+  "style": "main",
+  "widthKm": 12,
+  "movement": "land",
+  "waypoints": [
+   {
+    "at": "1941-04-05T12:00",
+    "pos": "@kyustendil"
+   },
+   {
+    "at": "1941-04-07T12:00",
+    "pos": "@skopje"
+   },
+   {
+    "at": "1941-04-10T12:00",
+    "pos": "@bitola"
+   },
+   {
+    "at": "1941-04-12T12:00",
+    "pos": "@vevi"
+   },
+   {
+    "at": "1941-04-14T12:00",
+    "pos": "@kozani"
+   },
+   {
+    "at": "1941-04-18T12:00",
+    "pos": "@elassona"
+   },
+   {
+    "at": "1941-04-24T12:00",
+    "pos": "@thermopylae"
+   },
+   {
+    "at": "1941-04-27T12:00",
+    "pos": "@athens"
+   }
+  ],
+  "until": "1941-04-27T12:00",
+  "sources": [
+   "land_us_greece"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "r.de_2pz_advance",
+  "side": "DE",
+  "unit": "de.2pz",
+  "label": "迂回萨洛尼卡—海岸南下",
+  "style": "main",
+  "widthKm": 12,
+  "movement": "land",
+  "waypoints": [
+   {
+    "at": "1941-04-05T12:00",
+    "pos": "@petrich"
+   },
+   {
+    "at": "1941-04-06T12:00",
+    "pos": "@strumica"
+   },
+   {
+    "at": "1941-04-08T12:00",
+    "pos": "@doiran"
+   },
+   {
+    "at": "1941-04-09T12:00",
+    "pos": "@thessaloniki"
+   },
+   {
+    "at": "1941-04-14T12:00",
+    "pos": "@katerini"
+   },
+   {
+    "at": "1941-04-16T12:00",
+    "pos": "@platamon"
+   },
+   {
+    "at": "1941-04-18T12:00",
+    "pos": "@tempe"
+   },
+   {
+    "at": "1941-04-20T12:00",
+    "pos": "@lamia"
+   },
+   {
+    "at": "1941-04-26T12:00",
+    "pos": "@thebes"
+   },
+   {
+    "at": "1941-04-27T12:00",
+    "pos": "@athens"
+   }
+  ],
+  "until": "1941-04-27T12:00",
+  "sources": [
+   "land_us_greece"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "r.de_5pz_advance",
+  "side": "DE",
+  "unit": "de.5pz",
+  "label": "西翼迂回—伯罗奔尼撒",
+  "style": "main",
+  "widthKm": 12,
+  "movement": "land",
+  "waypoints": [
+   {
+    "at": "1941-04-08T12:00",
+    "pos": "@pirot"
+   },
+   {
+    "at": "1941-04-10T12:00",
+    "pos": "@leskovac"
+   },
+   {
+    "at": "1941-04-14T12:00",
+    "pos": "@kozani"
+   },
+   {
+    "at": "1941-04-16T12:00",
+    "pos": "@grevena"
+   },
+   {
+    "at": "1941-04-19T12:00",
+    "pos": "@kalabaka"
+   },
+   {
+    "at": "1941-04-23T12:00",
+    "pos": "@lamia"
+   },
+   {
+    "at": "1941-04-25T12:00",
+    "pos": "@thebes"
+   },
+   {
+    "at": "1941-04-27T12:00",
+    "pos": "@corinth"
+   },
+   {
+    "at": "1941-04-29T12:00",
+    "pos": "@kalamata"
+   }
+  ],
+  "until": "1941-04-29T12:00",
+  "sources": [
+   "land_us_greece"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "r.de_lssah_advance",
+  "side": "DE",
+  "unit": "de.lssah",
+  "label": "西翼：梅措沃—帕特雷",
+  "style": "secondary",
+  "widthKm": 12,
+  "movement": "land",
+  "waypoints": [
+   {
+    "at": "1941-04-05T12:00",
+    "pos": "@kyustendil"
+   },
+   {
+    "at": "1941-04-08T12:00",
+    "pos": "@skopje"
+   },
+   {
+    "at": "1941-04-11T12:00",
+    "pos": "@florina"
+   },
+   {
+    "at": "1941-04-12T12:00",
+    "pos": "@vevi"
+   },
+   {
+    "at": "1941-04-14T12:00",
+    "pos": "@kleisoura"
+   },
+   {
+    "at": "1941-04-16T12:00",
+    "pos": "@grevena"
+   },
+   {
+    "at": "1941-04-20T12:00",
+    "pos": "@metsovo"
+   },
+   {
+    "at": "1941-04-25T12:00",
+    "pos": "@patras"
+   },
+   {
+    "at": "1941-04-29T12:00",
+    "pos": "@pyrgos"
+   }
+  ],
+  "until": "1941-04-29T12:00",
+  "sources": [
+   "land_us_greece"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "r.it_2a_advance",
+  "side": "IT",
+  "unit": "it.2a",
+  "label": "意军北方攻势",
+  "style": "secondary",
+  "widthKm": 12,
+  "movement": "land",
+  "waypoints": [
+   {
+    "at": "1941-04-06T12:00",
+    "pos": "@rijeka"
+   },
+   {
+    "at": "1941-04-11T12:00",
+    "pos": "@ljubljana"
+   },
+   {
+    "at": "1941-04-15T12:00",
+    "pos": "@split"
+   },
+   {
+    "at": "1941-04-18T12:00",
+    "pos": "@split"
+   }
+  ],
+  "until": "1941-04-18T12:00",
+  "sources": [
+   "land_us_yugoslavia"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "r.hu_3a_advance",
+  "side": "HU",
+  "unit": "hu.3a",
+  "label": "匈军4月11日后越境",
+  "style": "secondary",
+  "widthKm": 12,
+  "movement": "land",
+  "waypoints": [
+   {
+    "at": "1941-04-10T12:00",
+    "pos": [
+     19.5,
+     46.25
+    ]
+   },
+   {
+    "at": "1941-04-11T12:00",
+    "pos": "@subotica"
+   },
+   {
+    "at": "1941-04-13T12:00",
+    "pos": "@novisad"
+   },
+   {
+    "at": "1941-04-18T12:00",
+    "pos": "@novisad"
+   }
+  ],
+  "until": "1941-04-18T12:00",
+  "sources": [
+   "land_us_yugoslavia"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "r.bg_occupation_advance",
+  "side": "BG",
+  "unit": "bg.occupation",
+  "label": "保军后续进驻",
+  "style": "secondary",
+  "widthKm": 12,
+  "movement": "land",
+  "waypoints": [
+   {
+    "at": "1941-04-20T12:00",
+    "pos": "@petrich"
+   },
+   {
+    "at": "1941-04-24T12:00",
+    "pos": "@drama"
+   },
+   {
+    "at": "1941-04-28T12:00",
+    "pos": "@xanthi"
+   },
+   {
+    "at": "1941-05-19T12:00",
+    "pos": "@xanthi"
+   }
+  ],
+  "until": "1941-05-19T12:00",
+  "sources": [
+   "land_us_context",
+   "land_us_greece"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "r.gr_iii_retreat",
+  "side": "GR",
+  "unit": "gr.iii",
+  "label": "西马其顿军从阿尔巴尼亚撤退",
+  "style": "retreat",
+  "widthKm": 9,
+  "movement": "land",
+  "waypoints": [
+   {
+    "at": "1941-03-16T12:00",
+    "pos": "@pogradec"
+   },
+   {
+    "at": "1941-04-16T12:00",
+    "pos": "@kastoria"
+   },
+   {
+    "at": "1941-04-20T12:00",
+    "pos": "@metsovo"
+   }
+  ],
+  "until": "1941-04-30T12:00",
+  "sources": [
+   "land_greek_korce",
+   "land_us_greece"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "r.gr_i_retreat",
+  "side": "GR",
+  "unit": "gr.i",
+  "label": "伊庇鲁斯退却",
+  "style": "retreat",
+  "widthKm": 9,
+  "movement": "land",
+  "waypoints": [
+   {
+    "at": "1941-03-16T12:00",
+    "pos": "@himare"
+   },
+   {
+    "at": "1941-04-17T12:00",
+    "pos": "@gjirokaster"
+   },
+   {
+    "at": "1941-04-23T12:00",
+    "pos": "@ioannina"
+   }
+  ],
+  "until": "1941-04-30T12:00",
+  "sources": [
+   "land_greek_himara",
+   "land_greek_defence",
+   "land_us_greece"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "r.au_6d_mainland_retreat",
+  "side": "AU",
+  "unit": "au.6d_mainland",
+  "label": "安扎克军南撤",
+  "style": "retreat",
+  "widthKm": 9,
+  "movement": "land",
+  "waypoints": [
+   {
+    "at": "1941-04-05T12:00",
+    "pos": "@veria"
+   },
+   {
+    "at": "1941-04-12T12:00",
+    "pos": "@vevi"
+   },
+   {
+    "at": "1941-04-16T12:00",
+    "pos": "@servia"
+   },
+   {
+    "at": "1941-04-19T12:00",
+    "pos": "@elassona"
+   },
+   {
+    "at": "1941-04-23T12:00",
+    "pos": "@thermopylae"
+   }
+  ],
+  "until": "1941-04-30T12:00",
+  "sources": [
+   "land_awm_greece",
+   "land_us_greece"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "r.nz_2d_mainland_retreat",
+  "side": "NZ",
+  "unit": "nz.2d_mainland",
+  "label": "奥林匹斯—温泉关退却",
+  "style": "retreat",
+  "widthKm": 9,
+  "movement": "land",
+  "waypoints": [
+   {
+    "at": "1941-03-25T12:00",
+    "pos": "@katerini"
+   },
+   {
+    "at": "1941-04-14T12:00",
+    "pos": "@platamon"
+   },
+   {
+    "at": "1941-04-18T12:00",
+    "pos": "@elassona"
+   },
+   {
+    "at": "1941-04-22T12:00",
+    "pos": "@thermopylae"
+   }
+  ],
+  "until": "1941-04-30T12:00",
+  "sources": [
+   "land_awm_greece",
+   "land_us_greece"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "r.au_17b_mainland_sea",
+  "side": "AU",
+  "unit": "au.17b_mainland",
+  "label": "海撤往埃及（图外）",
+  "style": "retreat",
+  "widthKm": 7,
+  "movement": "sea",
+  "waypoints": [
+   {
+    "at": "1941-04-27T12:00",
+    "pos": "@kalamata"
+   },
+   {
+    "at": "1941-04-28T12:00",
+    "pos": [
+     23.0,
+     34.55
+    ]
+   }
+  ],
+  "until": "1941-04-30T12:00",
+  "sources": [
+   "land_awm_greece",
+   "land_us_greece"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "r.nz_5b_mainland_sea",
+  "side": "NZ",
+  "unit": "nz.5b_mainland",
+  "label": "海撤往克里特",
+  "style": "retreat",
+  "widthKm": 7,
+  "movement": "sea",
+  "waypoints": [
+   {
+    "at": "1941-04-27T12:00",
+    "pos": "@monemvasia"
+   },
+   {
+    "at": "1941-04-28T12:00",
+    "pos": [
+     24.0,
+     35.73
+    ]
+   }
+  ],
+  "until": "1941-04-30T12:00",
+  "sources": [
+   "land_awm_greece",
+   "land_us_greece"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "r.au_19b_mainland_sea",
+  "side": "AU",
+  "unit": "au.19b_mainland",
+  "label": "海撤往克里特",
+  "style": "retreat",
+  "widthKm": 7,
+  "movement": "sea",
+  "waypoints": [
+   {
+    "at": "1941-04-25T12:00",
+    "pos": "@megara"
+   },
+   {
+    "at": "1941-04-26T12:00",
+    "pos": [
+     23.7,
+     35.72
+    ]
+   }
+  ],
+  "until": "1941-04-30T12:00",
+  "sources": [
+   "land_awm_greece",
+   "land_us_greece"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "r.gb_1armb_mainland_sea",
+  "side": "GB",
+  "unit": "gb.1armb_mainland",
+  "label": "海撤：装备多被遗弃",
+  "style": "retreat",
+  "widthKm": 7,
+  "movement": "sea",
+  "waypoints": [
+   {
+    "at": "1941-04-26T12:00",
+    "pos": "@rafina"
+   },
+   {
+    "at": "1941-04-27T12:00",
+    "pos": [
+     24.1,
+     35.75
+    ]
+   }
+  ],
+  "until": "1941-04-30T12:00",
+  "sources": [
+   "land_awm_greece",
+   "land_us_greece"
+  ],
+  "confidence": "medium"
+ }
+]

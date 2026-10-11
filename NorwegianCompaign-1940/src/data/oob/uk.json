@@ -1,0 +1,640 @@
+[
+  {
+    "id": "uk.destroyers",
+    "side": "UK",
+    "name": {
+      "zh": "英国驱逐舰突击队",
+      "orig": "2nd Destroyer Flotilla (attack group)",
+      "short": "2 Flot"
+    },
+    "type": "naval",
+    "echelon": "group",
+    "parent": null,
+    "active": {
+      "from": "1940-04-10T00:00",
+      "to": "1940-04-11T23:59"
+    },
+    "track": [
+      {
+        "at": "1940-04-10T00:00",
+        "pos": "@vestfjord",
+        "status": "active",
+        "mode": "naval"
+      },
+      {
+        "at": "1940-04-10T04:30",
+        "pos": "@narvik",
+        "status": "engaged",
+        "mode": "naval"
+      },
+      {
+        "at": "1940-04-10T12:00",
+        "pos": "@ofotfjord",
+        "status": "withdrawing",
+        "mode": "naval"
+      },
+      {
+        "at": "1940-04-11T12:00",
+        "pos": "@vestfjord",
+        "status": "withdrawing",
+        "mode": "naval"
+      }
+    ],
+    "history": "4月10日5艘英国驱逐舰突入纳尔维克。双方均损失2艘驱逐舰；英舰Hardy与Hunter损失。海战胜利没有在同日把纳尔维克城区交给盟军。",
+    "sources": [
+      "uk_ch4"
+    ],
+    "confidence": "medium",
+    "schematic": true,
+    "model": "navy_token"
+  },
+  {
+    "id": "uk.warspite",
+    "side": "UK",
+    "name": {
+      "zh": "战列舰厌战号及护航编队",
+      "orig": "HMS Warspite and destroyers",
+      "short": "Warspite"
+    },
+    "type": "naval",
+    "echelon": "group",
+    "parent": null,
+    "active": {
+      "from": "1940-04-13T00:00"
+    },
+    "track": [
+      {
+        "at": "1940-04-13T00:00",
+        "pos": "@vestfjord",
+        "status": "active",
+        "mode": "naval"
+      },
+      {
+        "at": "1940-04-13T12:00",
+        "pos": "@ofotfjord",
+        "status": "engaged",
+        "mode": "naval"
+      },
+      {
+        "at": "1940-04-14T12:00",
+        "pos": "@vestfjord",
+        "status": "active",
+        "mode": "naval"
+      },
+      {
+        "at": "1940-05-13T12:00",
+        "pos": [
+          17.42,
+          68.52
+        ],
+        "status": "engaged",
+        "mode": "naval"
+      },
+      {
+        "at": "1940-05-15T12:00",
+        "pos": "@vestfjord",
+        "status": "evacuated",
+        "mode": "naval"
+      }
+    ],
+    "history": "4月13日厌战号与英国驱逐舰进入奥福特峡湾，摧毁剩余德国驱逐舰。5月对北部两栖进攻提供舰炮支援；长时间间隔表示任务节点，不是持续航迹。",
+    "sources": [
+      "uk_ch4",
+      "uk_ch13"
+    ],
+    "confidence": "medium",
+    "schematic": true,
+    "model": "navy_token"
+  },
+  {
+    "id": "uk.146",
+    "side": "UK",
+    "name": {
+      "zh": "第146步兵旅",
+      "orig": "146th Infantry Brigade",
+      "short": "146 Bde"
+    },
+    "type": "infantry",
+    "echelon": "brigade",
+    "parent": null,
+    "active": {
+      "from": "1940-04-16T12:00"
+    },
+    "track": [
+      {
+        "at": "1940-04-16T12:00",
+        "pos": "@namsos",
+        "status": "active",
+        "mode": "land"
+      },
+      {
+        "at": "1940-04-19T12:00",
+        "pos": "@steinkjer",
+        "status": "engaged",
+        "mode": "land"
+      },
+      {
+        "at": "1940-04-23T12:00",
+        "pos": "@namsos",
+        "status": "withdrawing",
+        "mode": "land"
+      },
+      {
+        "at": "1940-05-02T12:00",
+        "pos": "@namsos",
+        "status": "withdrawing",
+        "mode": "land"
+      },
+      {
+        "at": "1940-05-03T12:00",
+        "pos": [
+          7.5,
+          65
+        ],
+        "status": "evacuated",
+        "mode": "naval"
+      }
+    ],
+    "history": "纳姆索斯登陆后的北翼攻势意在威胁特隆赫姆。斯泰因谢尔方向受德军反击与空袭，随后退回港口，5月3日撤运完成。海上终点表示离开挪威战区。",
+    "sources": [
+      "uk_ch6",
+      "uk_ch9",
+      "uk_chb"
+    ],
+    "confidence": "medium",
+    "schematic": false,
+    "model": "inf_allied"
+  },
+  {
+    "id": "uk.148",
+    "side": "UK",
+    "name": {
+      "zh": "第148步兵旅",
+      "orig": "148th Infantry Brigade",
+      "short": "148 Bde"
+    },
+    "type": "infantry",
+    "echelon": "brigade",
+    "parent": null,
+    "active": {
+      "from": "1940-04-18T12:00"
+    },
+    "track": [
+      {
+        "at": "1940-04-18T12:00",
+        "pos": "@andalsnes",
+        "status": "active",
+        "mode": "land"
+      },
+      {
+        "at": "1940-04-19T12:00",
+        "pos": "@dombas",
+        "status": "active",
+        "mode": "rail"
+      },
+      {
+        "at": "1940-04-20T12:00",
+        "pos": "@lillehammer",
+        "status": "engaged",
+        "mode": "rail"
+      },
+      {
+        "at": "1940-04-23T12:00",
+        "pos": "@tretten",
+        "status": "engaged",
+        "mode": "land"
+      },
+      {
+        "at": "1940-04-24T12:00",
+        "pos": "@tretten",
+        "status": "ineffective",
+        "mode": "land"
+      }
+    ],
+    "history": "经翁达尔斯内斯与栋博斯进入古德布兰谷支援挪军，在特雷滕受到德军重创，部分人员被俘、余部退却。淡出表示原旅作为完整作战力量不再继续，不意味着每一名士兵全部阵亡。",
+    "sources": [
+      "uk_ch7",
+      "uk_chb"
+    ],
+    "confidence": "medium",
+    "schematic": false,
+    "model": "inf_allied"
+  },
+  {
+    "id": "uk.15",
+    "side": "UK",
+    "name": {
+      "zh": "第15步兵旅",
+      "orig": "15th Infantry Brigade",
+      "short": "15 Bde"
+    },
+    "type": "infantry",
+    "echelon": "brigade",
+    "parent": null,
+    "active": {
+      "from": "1940-04-23T12:00"
+    },
+    "track": [
+      {
+        "at": "1940-04-23T12:00",
+        "pos": "@andalsnes",
+        "status": "active",
+        "mode": "land"
+      },
+      {
+        "at": "1940-04-24T12:00",
+        "pos": "@dombas",
+        "status": "active",
+        "mode": "rail"
+      },
+      {
+        "at": "1940-04-25T12:00",
+        "pos": "@otta",
+        "status": "engaged",
+        "mode": "rail"
+      },
+      {
+        "at": "1940-04-28T12:00",
+        "pos": "@dombas",
+        "status": "withdrawing",
+        "mode": "land"
+      },
+      {
+        "at": "1940-05-01T12:00",
+        "pos": "@andalsnes",
+        "status": "withdrawing",
+        "mode": "land"
+      },
+      {
+        "at": "1940-05-02T12:00",
+        "pos": [
+          3.8,
+          63
+        ],
+        "status": "evacuated",
+        "mode": "naval"
+      }
+    ],
+    "history": "英军正规旅增援中部南翼，在山谷实施迟滞战后沿罗姆斯达尔方向退到港口。5月2日撤离完成，北部纳尔维克战区仍继续作战。",
+    "sources": [
+      "uk_ch8",
+      "uk_ch9",
+      "uk_chb"
+    ],
+    "confidence": "medium",
+    "schematic": false,
+    "model": "inf_allied"
+  },
+  {
+    "id": "uk.24",
+    "side": "UK",
+    "name": {
+      "zh": "第24近卫旅 · 北部部队",
+      "orig": "24th (Guards) Brigade",
+      "short": "24 Gds"
+    },
+    "type": "infantry",
+    "echelon": "brigade",
+    "parent": null,
+    "active": {
+      "from": "1940-04-15T12:00"
+    },
+    "track": [
+      {
+        "at": "1940-04-15T12:00",
+        "pos": "@harstad",
+        "status": "active",
+        "mode": "land"
+      },
+      {
+        "at": "1940-04-26T12:00",
+        "pos": [
+          16.9,
+          68.52
+        ],
+        "status": "engaged",
+        "mode": "land"
+      },
+      {
+        "at": "1940-05-13T12:00",
+        "pos": [
+          16.93,
+          68.52
+        ],
+        "status": "active",
+        "mode": "land"
+      },
+      {
+        "at": "1940-06-04T12:00",
+        "pos": "@harstad",
+        "status": "withdrawing",
+        "mode": "land"
+      },
+      {
+        "at": "1940-06-08T12:00",
+        "pos": [
+          10,
+          69
+        ],
+        "status": "evacuated",
+        "mode": "naval"
+      }
+    ],
+    "history": "哈尔斯塔建立北部基地后在纳尔维克外围作战。部分营后来转移至摩城、博德等方向；本棋子只表示旅的北部作战部分，不把分散营的运动合成虚假的完整轨迹。",
+    "sources": [
+      "uk_ch10",
+      "uk_ch12",
+      "uk_ch14",
+      "uk_chb"
+    ],
+    "confidence": "medium",
+    "schematic": true,
+    "model": "inf_allied"
+  },
+  {
+    "id": "uk.faa",
+    "side": "UK",
+    "name": {
+      "zh": "海军航空兵 Skua 编队",
+      "orig": "Fleet Air Arm Skua attack",
+      "short": "FAA"
+    },
+    "type": "aviation",
+    "echelon": "group",
+    "parent": null,
+    "active": {
+      "from": "1940-04-10T00:00",
+      "to": "1940-04-11T23:59"
+    },
+    "track": [
+      {
+        "at": "1940-04-10T00:00",
+        "pos": "@hatston",
+        "status": "active",
+        "mode": "air"
+      },
+      {
+        "at": "1940-04-10T12:00",
+        "pos": "@bergen",
+        "status": "engaged",
+        "mode": "air"
+      },
+      {
+        "at": "1940-04-10T18:00",
+        "pos": "@hatston",
+        "status": "active",
+        "mode": "air"
+      }
+    ],
+    "history": "从奥克尼哈特斯顿起飞袭击卑尔根港的柯尼斯堡号。飞行线仅连接出发基地与打击目标，不声称重建各飞机航迹。",
+    "sources": [
+      "uk_ch4"
+    ],
+    "confidence": "medium",
+    "schematic": true,
+    "model": "air_token"
+  },
+  {
+    "id": "uk.263_south",
+    "side": "UK",
+    "name": {
+      "zh": "RAF第263中队 · 冰湖部署",
+      "orig": "No. 263 Squadron RAF (Lesjaskog)",
+      "short": "263 RAF"
+    },
+    "type": "aviation",
+    "echelon": "squadron",
+    "parent": null,
+    "active": {
+      "from": "1940-04-24T12:00"
+    },
+    "track": [
+      {
+        "at": "1940-04-24T12:00",
+        "pos": "@lesjaskog",
+        "status": "active",
+        "mode": "air"
+      },
+      {
+        "at": "1940-04-25T12:00",
+        "pos": "@lesjaskog",
+        "status": "engaged",
+        "mode": "air"
+      },
+      {
+        "at": "1940-04-26T12:00",
+        "pos": "@lesjaskog",
+        "status": "inactive",
+        "mode": "air"
+      }
+    ],
+    "history": "Gladiator战斗机4月24日飞抵冰封莱沙斯库格湖，25日受到空袭，26日因飞机与燃料不足退出。此棋子仅表示这次部署，不把全中队永久解散；5月北部重新部署另设标记。",
+    "sources": [
+      "raf_timeline",
+      "uk_chb"
+    ],
+    "confidence": "medium",
+    "schematic": false,
+    "model": "air_token"
+  },
+  {
+    "id": "uk.263_north",
+    "side": "UK",
+    "name": {
+      "zh": "RAF第263中队 · 北部部署",
+      "orig": "No. 263 Squadron RAF (Bardufoss)",
+      "short": "263 RAF"
+    },
+    "type": "aviation",
+    "echelon": "squadron",
+    "parent": null,
+    "active": {
+      "from": "1940-05-21T12:00"
+    },
+    "track": [
+      {
+        "at": "1940-05-21T12:00",
+        "pos": "@bardufoss",
+        "status": "active",
+        "mode": "air"
+      },
+      {
+        "at": "1940-05-28T12:00",
+        "pos": "@bardufoss",
+        "status": "engaged",
+        "mode": "air"
+      },
+      {
+        "at": "1940-06-07T12:00",
+        "pos": "@bardufoss",
+        "status": "withdrawing",
+        "mode": "air"
+      },
+      {
+        "at": "1940-06-08T00:00",
+        "pos": [
+          13,
+          69.3
+        ],
+        "status": "evacuated",
+        "mode": "air"
+      }
+    ],
+    "history": "5月21日在巴尔杜福斯建立新的Gladiator战斗机部署，为北部反攻提供支援。6月撤离中飞机转运回航母；舰载运输的损失另由光荣号事件说明。",
+    "sources": [
+      "uk_ch13",
+      "uk_ch14",
+      "uk_chb"
+    ],
+    "confidence": "medium",
+    "schematic": false,
+    "model": "air_token"
+  },
+  {
+    "id": "uk.46",
+    "side": "UK",
+    "name": {
+      "zh": "RAF第46中队",
+      "orig": "No. 46 Squadron RAF",
+      "short": "46 RAF"
+    },
+    "type": "aviation",
+    "echelon": "squadron",
+    "parent": null,
+    "active": {
+      "from": "1940-05-26T12:00"
+    },
+    "track": [
+      {
+        "at": "1940-05-26T12:00",
+        "pos": "@bardufoss",
+        "status": "active",
+        "mode": "air"
+      },
+      {
+        "at": "1940-05-28T12:00",
+        "pos": "@bardufoss",
+        "status": "engaged",
+        "mode": "air"
+      },
+      {
+        "at": "1940-06-07T12:00",
+        "pos": "@bardufoss",
+        "status": "withdrawing",
+        "mode": "air"
+      },
+      {
+        "at": "1940-06-08T00:00",
+        "pos": [
+          13,
+          69.3
+        ],
+        "status": "evacuated",
+        "mode": "air"
+      }
+    ],
+    "history": "Hurricane中队于5月下旬加入北部空战，最终在缺乏舰载着舰训练的条件下飞回光荣号。棋子体现机场部署与撤出，战斗机航迹为概略。",
+    "sources": [
+      "uk_ch13",
+      "uk_ch14",
+      "uk_chb"
+    ],
+    "confidence": "medium",
+    "schematic": false,
+    "model": "air_token"
+  },
+  {
+    "id": "uk.glorious",
+    "side": "UK",
+    "name": {
+      "zh": "航空母舰光荣号",
+      "orig": "HMS Glorious",
+      "short": "Glorious"
+    },
+    "type": "naval",
+    "echelon": "ship",
+    "parent": null,
+    "active": {
+      "from": "1940-06-07T12:00"
+    },
+    "track": [
+      {
+        "at": "1940-06-07T12:00",
+        "pos": [
+          13.2,
+          69.2
+        ],
+        "status": "withdrawing",
+        "mode": "naval"
+      },
+      {
+        "at": "1940-06-08T16:00",
+        "pos": "@glorious_sea",
+        "status": "engaged",
+        "mode": "naval"
+      },
+      {
+        "at": "1940-06-08T18:00",
+        "pos": "@glorious_sea",
+        "status": "destroyed",
+        "mode": "naval"
+      }
+    ],
+    "history": "6月8日返航途中，光荣号与驱逐舰Ardent、Acasta遭沙恩霍斯特、格奈森瑙拦截后沉没。外海标记只表示文献所述海域；具体舰位和分钟级航迹未复原。",
+    "sources": [
+      "uk_ch14"
+    ],
+    "confidence": "medium",
+    "schematic": false,
+    "model": "navy_token"
+  },
+  {
+    "id": "uk.devonshire",
+    "side": "UK",
+    "name": {
+      "zh": "巡洋舰德文郡号 · 政府撤运",
+      "orig": "HMS Devonshire",
+      "short": "Devonsh."
+    },
+    "type": "naval",
+    "echelon": "ship",
+    "parent": null,
+    "active": {
+      "from": "1940-06-07T12:00"
+    },
+    "track": [
+      {
+        "at": "1940-06-07T12:00",
+        "pos": "@tromso",
+        "status": "active",
+        "mode": "naval"
+      },
+      {
+        "at": "1940-06-08T12:00",
+        "pos": [
+          14,
+          70
+        ],
+        "status": "withdrawing",
+        "mode": "naval"
+      },
+      {
+        "at": "1940-06-10T12:00",
+        "pos": [
+          -2,
+          60
+        ],
+        "status": "evacuated",
+        "mode": "naval"
+      }
+    ],
+    "history": "6月7日载挪威国王、政府离开特罗姆瑟，驶向英国继续战争。轨迹终点只表示英国方向，不声称6月10日已到达最终港口。",
+    "sources": [
+      "government_archive",
+      "uk_ch14"
+    ],
+    "confidence": "medium",
+    "schematic": false,
+    "model": "navy_token"
+  }
+]

@@ -1,0 +1,57 @@
+/* 由 scripts/fonts/subset.py 生成，勿手改。字体均为 SIL OFL 1.1（Special Elite 为 Apache 2.0）。 */
+@font-face {
+  font-family: 'WB Serif SC';
+  src: url('./NotoSerifSC-400.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'WB Serif SC';
+  src: url('./NotoSerifSC-700.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'WB Hand';
+  src: url('./LXGWWenKai-400.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'WB Typewriter';
+  src: url('./SpecialElite-400.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'WB Stencil';
+  src: url('./StardosStencil-400.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'WB Stencil';
+  src: url('./StardosStencil-700.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'WB Head';
+  src: url('./Oswald-400.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'WB Head';
+  src: url('./Oswald-700.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}

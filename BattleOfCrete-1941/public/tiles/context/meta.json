@@ -1,0 +1,155 @@
+{
+  "origin": [
+    -8192,
+    -10000
+  ],
+  "bounds": [
+    -8192,
+    -10000,
+    16384,
+    11000
+  ],
+  "worldWidth": 24576,
+  "worldHeight": 21000,
+  "tileSize": 512,
+  "format": "webp",
+  "path": "tiles/context/{z}/{x}_{y}.webp",
+  "levels": [
+    {
+      "z": 0,
+      "width": 1024,
+      "height": 875,
+      "cols": 2,
+      "rows": 2,
+      "scale": 0.041666666666666664,
+      "rightEdgeWidth": 512,
+      "bottomEdgeHeight": 363
+    },
+    {
+      "z": 1,
+      "width": 2048,
+      "height": 1750,
+      "cols": 4,
+      "rows": 4,
+      "scale": 0.08333333333333333,
+      "rightEdgeWidth": 512,
+      "bottomEdgeHeight": 214
+    },
+    {
+      "z": 2,
+      "width": 4096,
+      "height": 3500,
+      "cols": 8,
+      "rows": 7,
+      "scale": 0.16666666666666666,
+      "rightEdgeWidth": 512,
+      "bottomEdgeHeight": 428
+    },
+    {
+      "z": 3,
+      "width": 8192,
+      "height": 7000,
+      "cols": 16,
+      "rows": 14,
+      "scale": 0.3333333333333333,
+      "rightEdgeWidth": 512,
+      "bottomEdgeHeight": 344
+    }
+  ],
+  "overview": "tiles/context/overview.webp",
+  "vector": "geo/context.topo.json",
+  "projection": {
+    "type": "conicConformal",
+    "parallels": [
+      35,
+      36
+    ],
+    "rotate": [
+      -24.925,
+      0
+    ],
+    "center": [
+      0,
+      35.275
+    ]
+  },
+  "frameSha256": "c55f7cbaacec2ef5f101305e5f8d8b64960854150d97bc945fe4d86c42bd3011",
+  "geographicEnvelope": [
+    19.788585597217757,
+    32.143822454337325,
+    30.06141440278224,
+    39.16944565869827
+  ],
+  "sources": [
+    {
+      "name": "Natural Earth 1:10m physical geography",
+      "url": "https://www.naturalearthdata.com/downloads/10m-physical-vectors/",
+      "license": "Public domain",
+      "layers": [
+        "land",
+        "coastline",
+        "rivers",
+        "lakes"
+      ]
+    },
+    {
+      "name": "AWS Terrain Tiles / Terrarium z8",
+      "url": "https://registry.opendata.aws/terrain-tiles/",
+      "licenseUrl": "https://github.com/tilezen/joerd/blob/master/docs/attribution.md",
+      "attribution": "Mapzen terrain; EU-DEM/Copernicus funded by the European Union; Austria open DGM; USGS SRTM/GMTED2010; NOAA ETOPO1.",
+      "tileUrl": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/{z}/{x}/{y}.png",
+      "use": "actual elevation sampled through the unchanged conic conformal projection"
+    },
+    {
+      "name": "Existing Crete core map",
+      "use": "exact world-aligned overlap and a short colour transition; never stretched outside its own extent"
+    }
+  ],
+  "elevation": {
+    "key": {
+      "frameSha256": "c55f7cbaacec2ef5f101305e5f8d8b64960854150d97bc945fe4d86c42bd3011",
+      "bounds": [
+        -8192,
+        -10000,
+        16384,
+        11000
+      ],
+      "pixelSize": [
+        8192,
+        7000
+      ],
+      "zoom": 8
+    },
+    "sourceUrl": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/{z}/{x}/{y}.png",
+    "sourceZoom": 8,
+    "sourceTileCount": 56,
+    "downloaded": 0,
+    "cacheHits": 56,
+    "tileExtent": {
+      "x": [
+        142,
+        149
+      ],
+      "y": [
+        97,
+        103
+      ]
+    },
+    "geographicEnvelope": [
+      19.788585597217757,
+      32.143822454337325,
+      30.06141440278224,
+      39.16944565869827
+    ],
+    "minElev": -5148.76025390625,
+    "maxElev": 6352.7998046875,
+    "resampling": "bicubic at projected pixel centres; no core stretching"
+  },
+  "coordinateConvention": "image pixels map to unchanged core world=(originX+x/level.scale,originY+y/level.scale)",
+  "constraints": [
+    "Physical geography only; no modern country borders or Yugoslav internal divisions.",
+    "All surrounding pixels use real projected NE land/water and Terrarium elevation.",
+    "Existing core map appears only at its true world extent; low-frequency colour offset fades outside that extent.",
+    "Core frame, SDF, campaign coordinates, base tiles and core 3D assets remain byte-identical."
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "date": "1940-10-28",
+  "objectCompatibility": "countries1939",
+  "description": "1940年开战时历史国家轮廓；与动态战线、占领区独立。",
+  "sources": [
+    {
+      "id": "historical-basemaps-1938",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/master/geojson/world_1938.geojson",
+      "license": "GPL-3.0",
+      "usage": "意属伊斯特里亚/里耶卡历史边界，匈牙利1938年扩张"
+    },
+    {
+      "id": "ne-10m",
+      "url": "https://www.naturalearthdata.com/",
+      "license": "Public domain",
+      "usage": "高精海岸、稳定国界、合并南斯拉夫及完整岛屿"
+    },
+    {
+      "id": "cshapes-2",
+      "url": "https://icr.ethz.ch/data/cshapes/",
+      "license": "CC BY-NC-SA 4.0",
+      "usage": "独立国家与日期交叉核对；二战临时占领不能直接从该数据照抄"
+    },
+    {
+      "id": "us-army-balkans",
+      "url": "https://www.ibiblio.org/hyperwar/ETO/East/Balkans/Campaigns/Campaigns-1.html",
+      "license": "US government public domain",
+      "usage": "1940年罗马尼亚领土变化，北特兰西瓦尼亚南界数字化近似"
+    },
+    {
+      "id": "hungary-boundaries-map",
+      "url": "https://mek.oszk.hu/06100/06153/06153.pdf",
+      "usage": "Hungary boundaries 1914–1945参考图"
+    }
+  ],
+  "approximateSegments": [
+    "北特兰西瓦尼亚1940年南界",
+    "扎达尔飞地市郊界",
+    "1938底图伊斯特里亚陆界"
+  ],
+  "notes": [
+    "AL为意占阿尔巴尼亚，保持独立轮廓；不得永久填入Axis home mask。",
+    "YU统一王国轮廓，无现代前南斯拉夫各国内部界。",
+    "DE包含奥地利；意大利包含伊斯特里亚、里耶卡、扎达尔与十二群岛。",
+    "国家层固定1940-10-28；后续占领由战区控制多边形表示。"
+  ],
+  "checks": 24,
+  "northTransylvaniaAreaDeg2": 5.96438
+}

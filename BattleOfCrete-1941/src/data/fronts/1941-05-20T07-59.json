@@ -1,0 +1,16 @@
+{
+  "at": "1941-05-20T07:59",
+  "DE": [],
+  "SU": [],
+  "note": "守军仍控制岛上机场；首批空降在约08时开始。",
+  "sources": [
+    "cr_usarmy",
+    "cr_awm",
+    "cr_nz_first",
+    "cr_nz_middle",
+    "cr_nz_retreat",
+    "cr_nz_evac",
+    "cr_nz_capture"
+  ],
+  "confidence": "high"
+}

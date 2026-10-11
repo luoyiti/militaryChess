@@ -1,0 +1,12 @@
+{
+  "at": "1940-08-20T12:00",
+  "raids": [],
+  "interceptions": [],
+  "sources": [
+    "hansard_few",
+    "raf_battle_overview",
+    "britain_reconstruction"
+  ],
+  "confidence": "low",
+  "note": "无持续占领区；非出击期间留空。教学空战范围并非飞机或雷达的精确覆盖。"
+}

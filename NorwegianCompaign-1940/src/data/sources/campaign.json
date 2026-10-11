@@ -1,0 +1,140 @@
+[
+  {
+    "id": "no_army",
+    "title": "挪威武装部队 · 1940年本土战役",
+    "author": "Forsvaret",
+    "url": "https://www.forsvaret.no/om-forsvaret/organisasjon/haeren/haeren-400-ar/historien/felthistorien/felthistorien-19401945-felttoget-hjemme"
+  },
+  {
+    "id": "oscarsborg_archive",
+    "title": "奥斯卡堡 4月9日警卫日志",
+    "author": "Nasjonalarkivet",
+    "url": "https://www.nasjonalarkivet.no/innbyggere-nearingsliv/norges-dokumentarv/vaktjournalen-fra-oscarsborg-9-april-1940/"
+  },
+  {
+    "id": "government_archive",
+    "title": "二战挪威政府会议记录",
+    "author": "Nasjonalarkivet",
+    "url": "https://www.nasjonalarkivet.no/regjeringsprotokoller-fra-andre-verdenskrig/"
+  },
+  {
+    "id": "raf_timeline",
+    "title": "皇家空军博物馆 · 1940航空年表",
+    "author": "RAF Museum",
+    "url": "https://www.rafmuseum.org.uk/research/research-enquiries/history-of-aviation-timeline/british-military-aviation/1940-2/"
+  },
+  {
+    "id": "gratangen",
+    "title": "格拉唐根战斗纪念地",
+    "author": "Gratangen kommune",
+    "url": "https://www.gratangen.kommune.no/tjenesteomrader/oppvekst-og-kultur/kultur/kulturminner/kulturminneskilt-minnelunden-i-gratangsbotn-og-krigsminnebautaer"
+  },
+  {
+    "id": "narvik_museum",
+    "title": "纳尔维克战争博物馆 · 62天战役",
+    "url": "https://www.kampenomnarvik.no/en/the-battle-of-narvik/"
+  },
+  {
+    "id": "natural_earth",
+    "title": "Natural Earth 1:10m 地理数据",
+    "license": "Public domain",
+    "url": "https://www.naturalearthdata.com/about/terms-of-use/"
+  },
+  {
+    "id": "terrain_tiles",
+    "title": "Mapzen / AWS Terrain Tiles 高程",
+    "url": "https://registry.opendata.aws/terrain-tiles/",
+    "license": "各高程源署名，见 LICENSES.md"
+  },
+  {
+    "id": "uk_ch3",
+    "title": "英国官方战史 · 第3章",
+    "author": "T. K. Derry / HMSO（HyperWar 转录）",
+    "year": 1952,
+    "url": "https://www.ibiblio.org/hyperwar/UN/UK/UK-NWE-Norway/UK-NWE-Norway-3.html"
+  },
+  {
+    "id": "uk_ch4",
+    "title": "英国官方战史 · 第4章",
+    "author": "T. K. Derry / HMSO（HyperWar 转录）",
+    "year": 1952,
+    "url": "https://www.ibiblio.org/hyperwar/UN/UK/UK-NWE-Norway/UK-NWE-Norway-4.html"
+  },
+  {
+    "id": "uk_ch5",
+    "title": "英国官方战史 · 第5章",
+    "author": "T. K. Derry / HMSO（HyperWar 转录）",
+    "year": 1952,
+    "url": "https://www.ibiblio.org/hyperwar/UN/UK/UK-NWE-Norway/UK-NWE-Norway-5.html"
+  },
+  {
+    "id": "uk_ch6",
+    "title": "英国官方战史 · 第6章",
+    "author": "T. K. Derry / HMSO（HyperWar 转录）",
+    "year": 1952,
+    "url": "https://www.ibiblio.org/hyperwar/UN/UK/UK-NWE-Norway/UK-NWE-Norway-6.html"
+  },
+  {
+    "id": "uk_ch7",
+    "title": "英国官方战史 · 第7章",
+    "author": "T. K. Derry / HMSO（HyperWar 转录）",
+    "year": 1952,
+    "url": "https://www.ibiblio.org/hyperwar/UN/UK/UK-NWE-Norway/UK-NWE-Norway-7.html"
+  },
+  {
+    "id": "uk_ch8",
+    "title": "英国官方战史 · 第8章",
+    "author": "T. K. Derry / HMSO（HyperWar 转录）",
+    "year": 1952,
+    "url": "https://www.ibiblio.org/hyperwar/UN/UK/UK-NWE-Norway/UK-NWE-Norway-8.html"
+  },
+  {
+    "id": "uk_ch9",
+    "title": "英国官方战史 · 第9章",
+    "author": "T. K. Derry / HMSO（HyperWar 转录）",
+    "year": 1952,
+    "url": "https://www.ibiblio.org/hyperwar/UN/UK/UK-NWE-Norway/UK-NWE-Norway-9.html"
+  },
+  {
+    "id": "uk_ch10",
+    "title": "英国官方战史 · 第10章",
+    "author": "T. K. Derry / HMSO（HyperWar 转录）",
+    "year": 1952,
+    "url": "https://www.ibiblio.org/hyperwar/UN/UK/UK-NWE-Norway/UK-NWE-Norway-10.html"
+  },
+  {
+    "id": "uk_ch11",
+    "title": "英国官方战史 · 第11章",
+    "author": "T. K. Derry / HMSO（HyperWar 转录）",
+    "year": 1952,
+    "url": "https://www.ibiblio.org/hyperwar/UN/UK/UK-NWE-Norway/UK-NWE-Norway-11.html"
+  },
+  {
+    "id": "uk_ch12",
+    "title": "英国官方战史 · 第12章",
+    "author": "T. K. Derry / HMSO（HyperWar 转录）",
+    "year": 1952,
+    "url": "https://www.ibiblio.org/hyperwar/UN/UK/UK-NWE-Norway/UK-NWE-Norway-12.html"
+  },
+  {
+    "id": "uk_ch13",
+    "title": "英国官方战史 · 第13章",
+    "author": "T. K. Derry / HMSO（HyperWar 转录）",
+    "year": 1952,
+    "url": "https://www.ibiblio.org/hyperwar/UN/UK/UK-NWE-Norway/UK-NWE-Norway-13.html"
+  },
+  {
+    "id": "uk_ch14",
+    "title": "英国官方战史 · 第14章",
+    "author": "T. K. Derry / HMSO（HyperWar 转录）",
+    "year": 1952,
+    "url": "https://www.ibiblio.org/hyperwar/UN/UK/UK-NWE-Norway/UK-NWE-Norway-14.html"
+  },
+  {
+    "id": "uk_chb",
+    "title": "英国官方战史 · 参战部队附录",
+    "author": "T. K. Derry / HMSO（HyperWar 转录）",
+    "year": 1952,
+    "url": "https://www.ibiblio.org/hyperwar/UN/UK/UK-NWE-Norway/UK-NWE-Norway-B.html"
+  }
+]

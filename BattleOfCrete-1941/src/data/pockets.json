@@ -1,0 +1,84 @@
+[
+  {
+    "id": "p.cr_retimo_airborne",
+    "name": {
+      "zh": "雷西姆诺孤立空降群"
+    },
+    "start": "1941-05-20T18:00",
+    "end": "1941-05-29T18:00",
+    "anchor": "@cr_perivolia_east",
+    "fate": "relieved",
+    "units": [
+      "de.retimo_crete"
+    ],
+    "note": "多日未能夺取机场；最后由西部地面部队接通。",
+    "sources": [
+      "cr_usarmy",
+      "cr_awm",
+      "cr_nz_evac",
+      "cr_nz_capture"
+    ]
+  },
+  {
+    "id": "p.cr_heraklion_airborne",
+    "name": {
+      "zh": "伊拉克利翁孤立空降群"
+    },
+    "start": "1941-05-20T18:00",
+    "end": "1941-05-29T12:00",
+    "anchor": [
+      25.101,
+      35.323
+    ],
+    "fate": "relieved",
+    "units": [
+      "de.heraklion_crete"
+    ],
+    "note": "以多个分散据点显示，港口与机场在守军海撤后收束。",
+    "sources": [
+      "cr_usarmy",
+      "cr_awm",
+      "cr_nz_evac",
+      "cr_nz_capture"
+    ]
+  },
+  {
+    "id": "p.cr_retimo_garrison",
+    "name": {
+      "zh": "雷西姆诺被隔离守军"
+    },
+    "start": "1941-05-28T12:00",
+    "end": "1941-05-30T12:00",
+    "anchor": "@cr_retimo_airfield",
+    "fate": "surrendered",
+    "units": [
+      "au.retimo_crete",
+      "gr.retimo_crete"
+    ],
+    "note": "未获得有效南撤指示；多数守军投降，部分人员进入山区。",
+    "sources": [
+      "cr_usarmy",
+      "cr_awm",
+      "cr_nz_evac",
+      "cr_nz_capture"
+    ]
+  },
+  {
+    "id": "p.cr_sfakia_remnant",
+    "name": {
+      "zh": "斯法基亚残留部队"
+    },
+    "start": "1941-05-30T12:00",
+    "end": "1941-06-01T12:00",
+    "anchor": "@cr_sfakia",
+    "fate": "surrendered",
+    "units": [],
+    "note": "表示未能海撤的残部，不将已撤离的澳新旅重复计入俘虏。",
+    "sources": [
+      "cr_usarmy",
+      "cr_awm",
+      "cr_nz_evac",
+      "cr_nz_capture"
+    ]
+  }
+]

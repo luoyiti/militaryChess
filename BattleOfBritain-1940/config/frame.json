@@ -1,0 +1,62 @@
+{
+  "_doc": "由 scripts/frame/emit_frame.mjs 生成，勿手改。d3.geoConicConformal().parallels(parallels).rotate(rotate).center(center).scale(scale).translate(translate)。世界坐标单位=像素@最高级瓦片(宽 width)。",
+  "projection": {
+    "type": "conicConformal",
+    "parallels": [
+      50,
+      58
+    ],
+    "rotate": [
+      -1.25,
+      0
+    ],
+    "center": [
+      0,
+      54.25
+    ]
+  },
+  "bbox": [
+    -8.5,
+    44,
+    11,
+    60.5
+  ],
+  "projectionFitBbox": [
+    -8.5,
+    48,
+    11,
+    60.5
+  ],
+  "coverageNote": "Fixed world origin and width from projectionFitBbox; height extends south to 44N. Actual raster rectangle is [0,0,width,height]; source geography/DEM cover all inverse-projected canvas edges.",
+  "width": 8192,
+  "height": 10585,
+  "scale": 35980.94370788611,
+  "translate": [
+    4096,
+    4132.476401351527
+  ],
+  "kmPerUnit": 0.17747584147129894,
+  "tiles": {
+    "size": 512,
+    "levels": [
+      1024,
+      2048,
+      4096,
+      8192
+    ],
+    "format": "webp",
+    "path": "tiles/base/{z}/{x}_{y}.webp"
+  },
+  "field": {
+    "cell": 16,
+    "w": 512,
+    "h": 662,
+    "clampKm": 60
+  },
+  "extentCheck": {
+    "minX": -347.46937692247775,
+    "maxX": 8539.469376922478,
+    "minY": 7.275957614183426e-12,
+    "maxY": 10584.558300526936
+  }
+}

@@ -1,0 +1,1236 @@
+[
+  {
+    "id": "london",
+    "zh": "伦敦",
+    "orig": "London",
+    "pos": [
+      -0.1276,
+      51.5074
+    ],
+    "kind": "capital",
+    "rank": 1,
+    "country": "GB",
+    "sources": [
+      "dowding_despatch",
+      "commons_britain_map"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "dover",
+    "zh": "多佛",
+    "orig": "Dover",
+    "pos": [
+      1.313,
+      51.126
+    ],
+    "kind": "port",
+    "rank": 2,
+    "country": "GB",
+    "sources": [
+      "dowding_despatch",
+      "commons_britain_map"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "portsmouth",
+    "zh": "朴次茅斯",
+    "orig": "Portsmouth",
+    "pos": [
+      -1.089,
+      50.799
+    ],
+    "kind": "port",
+    "rank": 2,
+    "country": "GB",
+    "sources": [
+      "dowding_despatch",
+      "commons_britain_map"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "southampton",
+    "zh": "南安普敦",
+    "orig": "Southampton",
+    "pos": [
+      -1.404,
+      50.91
+    ],
+    "kind": "port",
+    "rank": 2,
+    "country": "GB",
+    "sources": [
+      "dowding_despatch",
+      "commons_britain_map"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "portland",
+    "zh": "波特兰海军基地",
+    "orig": "Portland Harbour",
+    "pos": [
+      -2.442,
+      50.584
+    ],
+    "kind": "port",
+    "rank": 3,
+    "country": "GB",
+    "sources": [
+      "dowding_despatch",
+      "commons_britain_map"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "newcastle",
+    "zh": "纽卡斯尔",
+    "orig": "Newcastle upon Tyne",
+    "pos": [
+      -1.612,
+      54.978
+    ],
+    "kind": "city",
+    "rank": 2,
+    "country": "GB",
+    "sources": [
+      "dowding_despatch",
+      "commons_britain_map"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "sunderland",
+    "zh": "桑德兰",
+    "orig": "Sunderland",
+    "pos": [
+      -1.382,
+      54.904
+    ],
+    "kind": "city",
+    "rank": 3,
+    "country": "GB",
+    "sources": [
+      "dowding_despatch",
+      "commons_britain_map"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "driffield",
+    "zh": "德里菲尔德",
+    "orig": "RAF Driffield",
+    "pos": [
+      -0.48,
+      54.009
+    ],
+    "kind": "airfield",
+    "rank": 4,
+    "country": "GB",
+    "sources": [
+      "dowding_despatch",
+      "commons_britain_map"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "bristol",
+    "zh": "布里斯托尔",
+    "orig": "Bristol",
+    "pos": [
+      -2.588,
+      51.455
+    ],
+    "kind": "city",
+    "rank": 2,
+    "country": "GB",
+    "sources": [
+      "dowding_despatch",
+      "commons_britain_map"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "plymouth",
+    "zh": "普利茅斯",
+    "orig": "Plymouth",
+    "pos": [
+      -4.142,
+      50.376
+    ],
+    "kind": "port",
+    "rank": 2,
+    "country": "GB",
+    "sources": [
+      "dowding_despatch",
+      "commons_britain_map"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "edinburgh",
+    "zh": "爱丁堡",
+    "orig": "Edinburgh",
+    "pos": [
+      -3.19,
+      55.953
+    ],
+    "kind": "city",
+    "rank": 2,
+    "country": "GB",
+    "sources": [
+      "dowding_despatch",
+      "commons_britain_map"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "bentley_priory",
+    "zh": "本特利修道院",
+    "orig": "RAF Bentley Priory",
+    "pos": [
+      -0.34,
+      51.637
+    ],
+    "kind": "town",
+    "rank": 3,
+    "country": "GB",
+    "sources": [
+      "dowding_despatch",
+      "commons_britain_map"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "uxbridge",
+    "zh": "阿克斯布里奇",
+    "orig": "RAF Uxbridge",
+    "pos": [
+      -0.46,
+      51.544
+    ],
+    "kind": "town",
+    "rank": 3,
+    "country": "GB",
+    "sources": [
+      "dowding_despatch",
+      "commons_britain_map"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "rudloe_manor",
+    "zh": "鲁德洛庄园",
+    "orig": "RAF Rudloe Manor",
+    "pos": [
+      -2.234,
+      51.415
+    ],
+    "kind": "town",
+    "rank": 3,
+    "country": "GB",
+    "sources": [
+      "dowding_despatch",
+      "commons_britain_map"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "watnall",
+    "zh": "沃特诺",
+    "orig": "RAF Watnall",
+    "pos": [
+      -1.252,
+      53.003
+    ],
+    "kind": "town",
+    "rank": 3,
+    "country": "GB",
+    "sources": [
+      "dowding_despatch",
+      "commons_britain_map"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "kenton_bar",
+    "zh": "肯顿巴尔",
+    "orig": "RAF Kenton Bar",
+    "pos": [
+      -1.654,
+      55.009
+    ],
+    "kind": "town",
+    "rank": 3,
+    "country": "GB",
+    "sources": [
+      "dowding_despatch",
+      "commons_britain_map"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "hornchurch",
+    "zh": "霍恩彻奇",
+    "orig": "RAF Hornchurch",
+    "pos": [
+      0.204,
+      51.54
+    ],
+    "kind": "airfield",
+    "rank": 4,
+    "country": "GB",
+    "sources": [
+      "dowding_despatch",
+      "commons_britain_map"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "rochford",
+    "zh": "罗奇福德",
+    "orig": "RAF Rochford",
+    "pos": [
+      0.7,
+      51.571
+    ],
+    "kind": "airfield",
+    "rank": 4,
+    "country": "GB",
+    "sources": [
+      "dowding_despatch",
+      "commons_britain_map"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "north_weald",
+    "zh": "诺斯威尔德",
+    "orig": "RAF North Weald",
+    "pos": [
+      0.153,
+      51.721
+    ],
+    "kind": "airfield",
+    "rank": 4,
+    "country": "GB",
+    "sources": [
+      "dowding_despatch",
+      "commons_britain_map"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "kenley",
+    "zh": "肯利",
+    "orig": "RAF Kenley",
+    "pos": [
+      -0.091,
+      51.303
+    ],
+    "kind": "airfield",
+    "rank": 4,
+    "country": "GB",
+    "sources": [
+      "dowding_despatch",
+      "commons_britain_map"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "croydon",
+    "zh": "克罗伊登",
+    "orig": "RAF Croydon",
+    "pos": [
+      -0.124,
+      51.354
+    ],
+    "kind": "airfield",
+    "rank": 4,
+    "country": "GB",
+    "sources": [
+      "dowding_despatch",
+      "commons_britain_map"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "biggin_hill",
+    "zh": "比金山",
+    "orig": "RAF Biggin Hill",
+    "pos": [
+      0.034,
+      51.331
+    ],
+    "kind": "airfield",
+    "rank": 4,
+    "country": "GB",
+    "sources": [
+      "dowding_despatch",
+      "commons_britain_map"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "gravesend",
+    "zh": "格雷夫森德",
+    "orig": "RAF Gravesend",
+    "pos": [
+      0.396,
+      51.421
+    ],
+    "kind": "airfield",
+    "rank": 4,
+    "country": "GB",
+    "sources": [
+      "dowding_despatch",
+      "commons_britain_map"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "tangmere",
+    "zh": "唐米尔",
+    "orig": "RAF Tangmere",
+    "pos": [
+      -0.704,
+      50.847
+    ],
+    "kind": "airfield",
+    "rank": 4,
+    "country": "GB",
+    "sources": [
+      "dowding_despatch",
+      "commons_britain_map"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "middle_wallop",
+    "zh": "米德尔沃洛普",
+    "orig": "RAF Middle Wallop",
+    "pos": [
+      -1.569,
+      51.149
+    ],
+    "kind": "airfield",
+    "rank": 4,
+    "country": "GB",
+    "sources": [
+      "dowding_despatch",
+      "commons_britain_map"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "st_eval",
+    "zh": "圣埃瓦尔",
+    "orig": "RAF St Eval",
+    "pos": [
+      -4.991,
+      50.478
+    ],
+    "kind": "airfield",
+    "rank": 4,
+    "country": "GB",
+    "sources": [
+      "dowding_despatch",
+      "commons_britain_map"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "duxford",
+    "zh": "达克斯福德",
+    "orig": "RAF Duxford",
+    "pos": [
+      0.124,
+      52.09
+    ],
+    "kind": "airfield",
+    "rank": 4,
+    "country": "GB",
+    "sources": [
+      "dowding_despatch",
+      "commons_britain_map"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "fowlmere",
+    "zh": "福尔米尔",
+    "orig": "RAF Fowlmere",
+    "pos": [
+      0.063,
+      52.078
+    ],
+    "kind": "airfield",
+    "rank": 4,
+    "country": "GB",
+    "sources": [
+      "dowding_despatch",
+      "commons_britain_map"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "northolt",
+    "zh": "诺索尔特",
+    "orig": "RAF Northolt",
+    "pos": [
+      -0.418,
+      51.554
+    ],
+    "kind": "airfield",
+    "rank": 4,
+    "country": "GB",
+    "sources": [
+      "dowding_despatch",
+      "commons_britain_map"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "acklington",
+    "zh": "阿克灵顿",
+    "orig": "RAF Acklington",
+    "pos": [
+      -1.678,
+      55.313
+    ],
+    "kind": "airfield",
+    "rank": 4,
+    "country": "GB",
+    "sources": [
+      "dowding_despatch",
+      "commons_britain_map"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "usworth",
+    "zh": "阿斯沃思",
+    "orig": "RAF Usworth",
+    "pos": [
+      -1.462,
+      54.933
+    ],
+    "kind": "airfield",
+    "rank": 4,
+    "country": "GB",
+    "sources": [
+      "dowding_despatch",
+      "commons_britain_map"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "leconfield",
+    "zh": "莱肯菲尔德",
+    "orig": "RAF Leconfield",
+    "pos": [
+      -0.442,
+      53.877
+    ],
+    "kind": "airfield",
+    "rank": 4,
+    "country": "GB",
+    "sources": [
+      "dowding_despatch",
+      "commons_britain_map"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "drem",
+    "zh": "德雷姆",
+    "orig": "RAF Drem",
+    "pos": [
+      -2.784,
+      56.0
+    ],
+    "kind": "airfield",
+    "rank": 4,
+    "country": "GB",
+    "sources": [
+      "dowding_despatch",
+      "commons_britain_map"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "catterick",
+    "zh": "卡特里克",
+    "orig": "RAF Catterick",
+    "pos": [
+      -1.645,
+      54.359
+    ],
+    "kind": "airfield",
+    "rank": 4,
+    "country": "GB",
+    "sources": [
+      "dowding_despatch",
+      "commons_britain_map"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "coltishall",
+    "zh": "科尔蒂歇尔",
+    "orig": "RAF Coltishall",
+    "pos": [
+      1.358,
+      52.755
+    ],
+    "kind": "airfield",
+    "rank": 4,
+    "country": "GB",
+    "sources": [
+      "dowding_despatch",
+      "commons_britain_map"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "debden",
+    "zh": "德布登",
+    "orig": "RAF Debden",
+    "pos": [
+      0.277,
+      51.991
+    ],
+    "kind": "airfield",
+    "rank": 4,
+    "country": "GB",
+    "sources": [
+      "dowding_despatch",
+      "commons_britain_map"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "kirton_lindsey",
+    "zh": "柯顿林赛",
+    "orig": "RAF Kirton-in-Lindsey",
+    "pos": [
+      -0.581,
+      53.459
+    ],
+    "kind": "airfield",
+    "rank": 4,
+    "country": "GB",
+    "sources": [
+      "dowding_despatch",
+      "commons_britain_map"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "turnhouse",
+    "zh": "特恩豪斯",
+    "orig": "RAF Turnhouse",
+    "pos": [
+      -3.361,
+      55.951
+    ],
+    "kind": "airfield",
+    "rank": 4,
+    "country": "GB",
+    "sources": [
+      "dowding_despatch",
+      "commons_britain_map"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "exeter",
+    "zh": "埃克塞特",
+    "orig": "RAF Exeter",
+    "pos": [
+      -3.414,
+      50.734
+    ],
+    "kind": "airfield",
+    "rank": 4,
+    "country": "GB",
+    "sources": [
+      "dowding_despatch",
+      "commons_britain_map"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "hawkinge",
+    "zh": "霍金吉",
+    "orig": "RAF Hawkinge",
+    "pos": [
+      1.166,
+      51.101
+    ],
+    "kind": "airfield",
+    "rank": 4,
+    "country": "GB",
+    "sources": [
+      "dowding_despatch",
+      "commons_britain_map"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "manston",
+    "zh": "曼斯顿",
+    "orig": "RAF Manston",
+    "pos": [
+      1.346,
+      51.342
+    ],
+    "kind": "airfield",
+    "rank": 4,
+    "country": "GB",
+    "sources": [
+      "dowding_despatch",
+      "commons_britain_map"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "wapping",
+    "zh": "沃平港区",
+    "orig": "Wapping, London Docks",
+    "pos": [
+      -0.057,
+      51.506
+    ],
+    "kind": "port",
+    "rank": 3,
+    "country": "GB",
+    "sources": [
+      "dowding_despatch",
+      "commons_britain_map"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "dover_strait",
+    "zh": "多佛海峡",
+    "orig": "Straits of Dover",
+    "pos": [
+      1.55,
+      51.08
+    ],
+    "kind": "region",
+    "rank": 3,
+    "country": "GB",
+    "sources": [
+      "dowding_despatch",
+      "commons_britain_map"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "channel_convoy",
+    "zh": "海峡护航航道",
+    "orig": "English Channel convoy lanes",
+    "pos": [
+      0.9,
+      50.94
+    ],
+    "kind": "region",
+    "rank": 4,
+    "country": "GB",
+    "sources": [
+      "dowding_despatch",
+      "commons_britain_map"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "peewit_area",
+    "zh": "皮维特船队战区",
+    "orig": "Convoy CW9 / Peewit area",
+    "pos": [
+      -1.8,
+      50.32
+    ],
+    "kind": "region",
+    "rank": 4,
+    "country": "GB",
+    "sources": [
+      "dowding_despatch",
+      "commons_britain_map"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "north_sea",
+    "zh": "北海来袭方向",
+    "orig": "North Sea approach",
+    "pos": [
+      -0.3,
+      55.5
+    ],
+    "kind": "region",
+    "rank": 4,
+    "country": "GB",
+    "sources": [
+      "dowding_despatch",
+      "commons_britain_map"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "brussels",
+    "zh": "布鲁塞尔",
+    "orig": "Bruxelles / Luftflotte 2 HQ",
+    "pos": [
+      4.352,
+      50.846
+    ],
+    "kind": "city",
+    "rank": 2,
+    "country": "BE",
+    "sources": [
+      "dowding_despatch",
+      "commons_britain_map"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "paris",
+    "zh": "巴黎",
+    "orig": "Paris / Luftflotte 3 HQ",
+    "pos": [
+      2.35,
+      48.857
+    ],
+    "kind": "capital",
+    "rank": 2,
+    "country": "FR",
+    "sources": [
+      "dowding_despatch",
+      "commons_britain_map"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "oslo",
+    "zh": "奥斯陆",
+    "orig": "Oslo / Luftflotte 5 HQ",
+    "pos": [
+      10.752,
+      59.914
+    ],
+    "kind": "capital",
+    "rank": 2,
+    "country": "NO",
+    "sources": [
+      "dowding_despatch",
+      "commons_britain_map"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "epinoy",
+    "zh": "埃皮努瓦",
+    "orig": "Cambrai-Épinoy",
+    "pos": [
+      3.156,
+      50.221
+    ],
+    "kind": "airfield",
+    "rank": 4,
+    "country": "FR",
+    "sources": [
+      "holm_kg2"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "cormeilles",
+    "zh": "科尔梅伊昂韦克桑",
+    "orig": "Cormeilles-en-Vexin",
+    "pos": [
+      2.042,
+      49.096
+    ],
+    "kind": "airfield",
+    "rank": 4,
+    "country": "FR",
+    "sources": [
+      "holm_kg76",
+      "raf_hardest_day"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "lille_nord",
+    "zh": "里尔北机场",
+    "orig": "Lille-Nord / Marcq-en-Barœul",
+    "pos": [
+      3.075,
+      50.687
+    ],
+    "kind": "airfield",
+    "rank": 4,
+    "country": "FR",
+    "sources": [
+      "holm_kg53"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "sola",
+    "zh": "斯塔万格索拉",
+    "orig": "Stavanger-Sola",
+    "pos": [
+      5.638,
+      58.877
+    ],
+    "kind": "airfield",
+    "rank": 3,
+    "country": "NO",
+    "sources": [
+      "holm_kg26"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "forus",
+    "zh": "斯塔万格福鲁斯",
+    "orig": "Stavanger-Forus",
+    "pos": [
+      5.716,
+      58.876
+    ],
+    "kind": "airfield",
+    "rank": 4,
+    "country": "NO",
+    "sources": [
+      "holm_zg76"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "aalborg_west",
+    "zh": "奥尔堡西机场",
+    "orig": "Aalborg-West",
+    "pos": [
+      9.849,
+      57.093
+    ],
+    "kind": "airfield",
+    "rank": 3,
+    "country": "DK",
+    "sources": [
+      "holm_kg30"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "gilze_rijen",
+    "zh": "希尔泽雷延",
+    "orig": "Gilze-Rijen",
+    "pos": [
+      4.931,
+      51.568
+    ],
+    "kind": "airfield",
+    "rank": 4,
+    "country": "NL",
+    "sources": [
+      "holm_kg30"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "beauvais",
+    "zh": "博韦",
+    "orig": "Beauvais-Tillé",
+    "pos": [
+      2.112,
+      49.453
+    ],
+    "kind": "airfield",
+    "rank": 4,
+    "country": "FR",
+    "sources": [
+      "holm_kg26"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "paris_orly",
+    "zh": "巴黎奥利",
+    "orig": "Paris-Orly",
+    "pos": [
+      2.36,
+      48.726
+    ],
+    "kind": "airfield",
+    "rank": 4,
+    "country": "FR",
+    "sources": [
+      "holm_kg51"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "villaroche",
+    "zh": "维拉罗什",
+    "orig": "Melun-Villaroche",
+    "pos": [
+      2.671,
+      48.604
+    ],
+    "kind": "airfield",
+    "rank": 4,
+    "country": "FR",
+    "sources": [
+      "holm_kg51"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "falaise",
+    "zh": "法莱斯",
+    "orig": "Falaise",
+    "pos": [
+      -0.191,
+      48.9
+    ],
+    "kind": "airfield",
+    "rank": 4,
+    "country": "FR",
+    "sources": [
+      "holm_stg1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "maltot",
+    "zh": "马尔托",
+    "orig": "Maltot",
+    "pos": [
+      -0.424,
+      49.106
+    ],
+    "kind": "airfield",
+    "rank": 4,
+    "country": "FR",
+    "sources": [
+      "holm_stg77"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "audembert",
+    "zh": "奥当贝尔",
+    "orig": "Audembert",
+    "pos": [
+      1.734,
+      50.864
+    ],
+    "kind": "airfield",
+    "rank": 4,
+    "country": "FR",
+    "sources": [
+      "holm_jg26"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "brest_poulmic",
+    "zh": "布雷斯特普尔米克",
+    "orig": "Brest-Poulmic",
+    "pos": [
+      -4.427,
+      48.284
+    ],
+    "kind": "airfield",
+    "rank": 4,
+    "country": "FR",
+    "sources": [
+      "holm_jg53"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "le_touquet",
+    "zh": "勒图凯埃塔普勒",
+    "orig": "Le Touquet-Étaples",
+    "pos": [
+      1.625,
+      50.518
+    ],
+    "kind": "airfield",
+    "rank": 4,
+    "country": "FR",
+    "sources": [
+      "holm_jg53"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "yvrench",
+    "zh": "伊夫朗什",
+    "orig": "Yvrench",
+    "pos": [
+      2.002,
+      50.18
+    ],
+    "kind": "airfield",
+    "rank": 4,
+    "country": "FR",
+    "sources": [
+      "holm_zg26"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "radar_dover",
+    "zh": "多佛雷达站",
+    "orig": "Dover Chain Home",
+    "pos": [
+      1.368,
+      51.136
+    ],
+    "kind": "radar",
+    "rank": 4,
+    "country": "GB",
+    "sources": [
+      "raf_radar",
+      "raf_northern_skies",
+      "commons_britain_map"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "radar_rye",
+    "zh": "赖伊雷达站",
+    "orig": "Rye Chain Home",
+    "pos": [
+      0.617,
+      50.953
+    ],
+    "kind": "radar",
+    "rank": 4,
+    "country": "GB",
+    "sources": [
+      "raf_radar",
+      "raf_northern_skies",
+      "commons_britain_map"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "radar_pevensey",
+    "zh": "佩文西雷达站",
+    "orig": "Pevensey Chain Home",
+    "pos": [
+      0.36,
+      50.825
+    ],
+    "kind": "radar",
+    "rank": 4,
+    "country": "GB",
+    "sources": [
+      "raf_radar",
+      "raf_northern_skies",
+      "commons_britain_map"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "radar_ventnor",
+    "zh": "文特诺雷达站",
+    "orig": "Ventnor Chain Home",
+    "pos": [
+      -1.212,
+      50.601
+    ],
+    "kind": "radar",
+    "rank": 4,
+    "country": "GB",
+    "sources": [
+      "raf_radar",
+      "raf_northern_skies",
+      "commons_britain_map"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "radar_poling",
+    "zh": "波林雷达站",
+    "orig": "Poling Chain Home",
+    "pos": [
+      -0.565,
+      50.83
+    ],
+    "kind": "radar",
+    "rank": 4,
+    "country": "GB",
+    "sources": [
+      "raf_radar",
+      "raf_northern_skies",
+      "commons_britain_map"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "radar_bawdsey",
+    "zh": "鲍德西雷达站",
+    "orig": "Bawdsey Chain Home",
+    "pos": [
+      1.413,
+      51.993
+    ],
+    "kind": "radar",
+    "rank": 4,
+    "country": "GB",
+    "sources": [
+      "raf_radar",
+      "raf_northern_skies",
+      "commons_britain_map"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "radar_dunkirk",
+    "zh": "肯特敦刻尔克雷达站",
+    "orig": "Dunkirk, Kent Chain Home",
+    "pos": [
+      0.963,
+      51.292
+    ],
+    "kind": "radar",
+    "rank": 4,
+    "country": "GB",
+    "sources": [
+      "raf_radar",
+      "raf_northern_skies",
+      "commons_britain_map"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "radar_ottercops",
+    "zh": "奥特科普斯莫斯雷达站",
+    "orig": "Ottercops Moss Chain Home",
+    "pos": [
+      -2.119,
+      55.196
+    ],
+    "kind": "radar",
+    "rank": 4,
+    "country": "GB",
+    "sources": [
+      "raf_radar",
+      "raf_northern_skies",
+      "commons_britain_map"
+    ],
+    "confidence": "medium"
+  }
+]

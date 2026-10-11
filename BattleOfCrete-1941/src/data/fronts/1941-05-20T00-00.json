@@ -1,0 +1,16 @@
+{
+  "at": "1941-05-20T00:00",
+  "DE": [],
+  "SU": [],
+  "note": "空降尚未开始；克里特没有任何轴心控制区。",
+  "sources": [
+    "cr_usarmy",
+    "cr_awm",
+    "cr_nz_first",
+    "cr_nz_middle",
+    "cr_nz_retreat",
+    "cr_nz_evac",
+    "cr_nz_capture"
+  ],
+  "confidence": "high"
+}

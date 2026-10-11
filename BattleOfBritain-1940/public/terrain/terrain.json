@@ -1,0 +1,59 @@
+{
+  "width": 1024,
+  "height": 1324,
+  "worldWidth": 8192,
+  "worldHeight": 10585,
+  "encoding": "rg16",
+  "scale": 0.25,
+  "offset": -100,
+  "minElev": -60.0,
+  "maxElev": 4264.39990234375,
+  "formula": "elev_m=(R*256+G)*scale+offset; sea clamped at -60m; source mean over8x8 world pixels",
+  "albedo": {
+    "src": "terrain/albedo.webp",
+    "width": 4096,
+    "height": 5293
+  },
+  "demSource": {
+    "provider": "Mapzen/Terrarium Terrain Tiles on AWS",
+    "urlTemplate": "https://elevation-tiles-prod.s3.amazonaws.com/terrarium/{z}/{x}/{y}.png",
+    "officialMirrors": [
+      "https://elevation-tiles-prod.s3.amazonaws.com/terrarium/{z}/{x}/{y}.png",
+      "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/{z}/{x}/{y}.png",
+      "https://elevation-tiles-prod-eu.s3.eu-central-1.amazonaws.com/terrarium/{z}/{x}/{y}.png"
+    ],
+    "source": "https://registry.opendata.aws/terrain-tiles/",
+    "zoom": 9,
+    "tiles": {
+      "x": [
+        238,
+        276
+      ],
+      "y": [
+        146,
+        187
+      ],
+      "count": 1638
+    },
+    "bbox": [
+      -12.011677232545871,
+      43.49319645871158,
+      14.51167723254587,
+      60.930097843754275
+    ],
+    "frameBbox": [
+      -8.5,
+      44,
+      11,
+      60.5
+    ],
+    "shape": [
+      10585,
+      8192
+    ],
+    "resampling": "cubic spline (order=3)",
+    "minElev": -5235.888671875,
+    "maxElev": 4724.09033203125,
+    "note": "真实现代高程；地貌用于1940历史背景，不代表1940精确植被/建筑表面。"
+  }
+}

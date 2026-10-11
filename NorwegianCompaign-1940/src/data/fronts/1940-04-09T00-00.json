@@ -1,0 +1,15 @@
+{
+  "at": "1940-04-09T00:00",
+  "DE": [],
+  "AL": [],
+  "transition": "step",
+  "note": "登陆前；挪军控制范围不作整国精确推断。 控制区为据点及交通走廊示意，不是精确边界。",
+  "sources": [
+    "uk_ch3",
+    "uk_ch9",
+    "uk_ch13",
+    "uk_ch14",
+    "no_army"
+  ],
+  "confidence": "medium"
+}

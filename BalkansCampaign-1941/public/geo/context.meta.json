@@ -1,0 +1,57 @@
+{
+  "origin": [
+    -8192,
+    -4019
+  ],
+  "bounds": [
+    -8192,
+    -4019,
+    16384,
+    12057
+  ],
+  "frameSha256": "980d3c682d38465c4966746ac29ff4d8be105599677134f02418c96a797d283f",
+  "objects": {
+    "land": 1,
+    "coast": 223,
+    "rivers": 220,
+    "lakes": 305
+  },
+  "sourceFeatureCounts": {
+    "land": 1,
+    "coast": 223,
+    "rivers": 221,
+    "lakes": 305
+  },
+  "sources": [
+    {
+      "name": "Natural Earth 1:10m physical geography",
+      "url": "https://www.naturalearthdata.com/downloads/10m-physical-vectors/",
+      "license": "Public domain",
+      "layers": [
+        "land",
+        "coastline",
+        "rivers",
+        "lakes"
+      ]
+    },
+    {
+      "name": "AWS Terrain Tiles / Terrarium z8",
+      "url": "https://registry.opendata.aws/terrain-tiles/",
+      "licenseUrl": "https://github.com/tilezen/joerd/blob/master/docs/attribution.md",
+      "attribution": "Mapzen terrain; EU-DEM/Copernicus funded by the European Union; Austria open DGM; USGS SRTM/GMTED2010; NOAA ETOPO1.",
+      "tileUrl": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/{z}/{x}/{y}.png",
+      "use": "actual elevation sampled through the unchanged conic conformal projection"
+    },
+    {
+      "name": "Existing Balkan core map",
+      "use": "exact world-aligned overlap and a short colour transition; never stretched outside its own extent"
+    }
+  ],
+  "geographicEnvelope": [
+    -13.011824237522536,
+    24.865995288045344,
+    55.01182423752253,
+    55.20193965570393
+  ],
+  "note": "All geometry is preprojected into unchanged core world coordinates; origin is for images only."
+}

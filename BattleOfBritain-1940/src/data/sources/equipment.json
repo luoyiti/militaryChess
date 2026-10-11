@@ -1,0 +1,13 @@
+[
+  { "id": "eq_raf_spitfire", "title": "Supermarine Spitfire I", "author": "Royal Air Force Museum", "url": "https://www.rafmuseum.org.uk/research/collections/supermarine-spitfire-i/" },
+  { "id": "eq_raf_spitfire_guide", "title": "Battle of Britain Cosford large print guide: Supermarine Spitfire Mk I", "author": "Royal Air Force Museum", "url": "https://www.rafmuseum.org.uk/documents/LargePrintGuides/BoB_Guides/LPG_Battle_of_Britain_Cosford_web.pdf" },
+  { "id": "eq_raf_hurricane", "title": "Hawker Hurricane 1", "author": "Royal Air Force Museum", "url": "https://www.rafmuseum.org.uk/research/collections/hawker-hurricane-1/" },
+  { "id": "eq_raf_bf109", "title": "Messerschmitt Bf 109E-3", "author": "Royal Air Force Museum", "url": "https://www.rafmuseum.org.uk/research/collections/messerschmitt-bf-109e-3/" },
+  { "id": "eq_raf_bf110", "title": "Messerschmitt Bf 110G-4: history of the Bf 110 in the Battle of Britain", "author": "Royal Air Force Museum", "url": "https://www.rafmuseum.org.uk/research/collections/messerschmitt-bf-110g-2/" },
+  { "id": "eq_raf_he111", "title": "Heinkel He111H-20: H/P variants in 1940", "author": "Royal Air Force Museum", "url": "https://www.rafmuseum.org.uk/research/collections/heinkel-he111h-20/" },
+  { "id": "eq_raf_do17", "title": "Background Information about the Dornier 17: Z-2, structure and markings", "author": "Royal Air Force Museum", "url": "https://www.rafmuseum.org.uk/documents/Dornier/Dornier_Background_Info_with_logo.pdf" },
+  { "id": "eq_raf_ju87", "title": "Junkers Ju87G-2: the Stuka in the Battle of Britain", "author": "Royal Air Force Museum", "url": "https://www.rafmuseum.org.uk/research/collections/junkers-ju87g-2" },
+  { "id": "eq_raf_ju88", "title": "Junkers Ju88R-1: the Ju 88A-1 in the Battle of Britain", "author": "Royal Air Force Museum", "url": "https://www.rafmuseum.org.uk/research/collections/junkers-ju88r-1/" },
+  { "id": "eq_raf_hardest_day", "title": "The Hardest Day, 18 August 1940", "author": "Royal Air Force Museum", "url": "https://www.rafmuseum.org.uk/research/online-exhibitions/history-of-the-battle-of-britain/the-hardest-day" },
+  { "id": "eq_raf_bob_education", "title": "Battle of Britain: Secondary school learning resource", "author": "Royal Air Force Museum", "url": "https://www.rafmuseum.org.uk/documents/ALD-London/BoB_Secondary_2020.pdf" }
+]

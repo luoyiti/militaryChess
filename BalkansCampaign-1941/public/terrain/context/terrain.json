@@ -1,0 +1,69 @@
+{
+  "origin": [
+    -8192,
+    -4019
+  ],
+  "bounds": [
+    -8192,
+    -4019,
+    16384,
+    12057
+  ],
+  "worldWidth": 24576,
+  "worldHeight": 16076,
+  "width": 1024,
+  "height": 670,
+  "encoding": "rg16",
+  "scale": 0.25,
+  "offset": -100,
+  "pixelWorldSize": 24.0,
+  "minElev": -60.0,
+  "maxElev": 4666.64,
+  "formula": "elev_m=(R*256+G)*0.25-100; world=(originX+i*24,originY+j*24); bottom fractional row padded at edge",
+  "albedo": {
+    "src": "terrain/context/albedo.webp",
+    "width": 4096,
+    "height": 2680
+  },
+  "projection": {
+    "type": "conicConformal",
+    "parallels": [
+      37,
+      45
+    ],
+    "rotate": [
+      -21,
+      0
+    ],
+    "center": [
+      0,
+      41
+    ]
+  },
+  "frameSha256": "980d3c682d38465c4966746ac29ff4d8be105599677134f02418c96a797d283f",
+  "sources": [
+    {
+      "name": "Natural Earth 1:10m physical geography",
+      "url": "https://www.naturalearthdata.com/downloads/10m-physical-vectors/",
+      "license": "Public domain",
+      "layers": [
+        "land",
+        "coastline",
+        "rivers",
+        "lakes"
+      ]
+    },
+    {
+      "name": "AWS Terrain Tiles / Terrarium z8",
+      "url": "https://registry.opendata.aws/terrain-tiles/",
+      "licenseUrl": "https://github.com/tilezen/joerd/blob/master/docs/attribution.md",
+      "attribution": "Mapzen terrain; EU-DEM/Copernicus funded by the European Union; Austria open DGM; USGS SRTM/GMTED2010; NOAA ETOPO1.",
+      "tileUrl": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/{z}/{x}/{y}.png",
+      "use": "actual elevation sampled through the unchanged conic conformal projection"
+    },
+    {
+      "name": "Existing Balkan core map",
+      "use": "exact world-aligned overlap and a short colour transition; never stretched outside its own extent"
+    }
+  ]
+}

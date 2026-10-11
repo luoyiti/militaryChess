@@ -1,0 +1,19 @@
+[
+  { "id": "wiki_invasion_poland", "title": "Invasion of Poland", "author": "Wikipedia (en)", "url": "https://en.wikipedia.org/wiki/Invasion_of_Poland", "license": "CC BY-SA 4.0" },
+  { "id": "wiki_pl_kampania", "title": "Kampania wrześniowa", "author": "Wikipedia (pl)", "url": "https://pl.wikipedia.org/wiki/Kampania_wrze%C5%9Bniowa", "license": "CC BY-SA 4.0" },
+  { "id": "wiki_pl_oob", "title": "Polish army order of battle in 1939", "author": "Wikipedia (en)", "url": "https://en.wikipedia.org/wiki/Polish_army_order_of_battle_in_1939", "license": "CC BY-SA 4.0" },
+  { "id": "wiki_de_oob", "title": "German order of battle for the invasion of Poland", "author": "Wikipedia (en)", "url": "https://en.wikipedia.org/wiki/German_order_of_battle_for_the_invasion_of_Poland", "license": "CC BY-SA 4.0" },
+  { "id": "wiki_soviet_invasion", "title": "Soviet invasion of Poland", "author": "Wikipedia (en)", "url": "https://en.wikipedia.org/wiki/Soviet_invasion_of_Poland", "license": "CC BY-SA 4.0" },
+  { "id": "wiki_slovak_invasion", "title": "Slovak invasion of Poland", "author": "Wikipedia (en)", "url": "https://en.wikipedia.org/wiki/Slovak_invasion_of_Poland", "license": "CC BY-SA 4.0" },
+  { "id": "da_pam_20_255", "title": "The German Campaign in Poland (1939), DA Pamphlet 20-255", "author": "Robert M. Kennedy, U.S. Department of the Army", "year": 1956, "url": "https://history.army.mil/html/books/104/104-20/index.html", "license": "Public domain (U.S. Government work)" },
+  { "id": "zaloga_2002", "title": "Poland 1939: The Birth of Blitzkrieg (Osprey Campaign 107)", "author": "Steven J. Zaloga", "year": 2002 },
+  { "id": "zaloga_madej_1985", "title": "The Polish Campaign 1939", "author": "Steven Zaloga, Victor Madej", "year": 1985 },
+  { "id": "jurga_1990", "title": "Obrona Polski 1939", "author": "Tadeusz Jurga", "year": 1990 },
+  { "id": "porwit_1983", "title": "Komentarze do historii polskich działań obronnych 1939 roku", "author": "Marian Porwit", "year": 1983 },
+  { "id": "usma_atlas", "title": "West Point Atlas — WWII European Theater, Poland 1939 maps", "author": "U.S. Military Academy, Department of History", "url": "https://www.westpoint.edu/academics/academic-departments/history/world-war-ii-europe", "license": "Public domain (U.S. Government work)" },
+  { "id": "wiki_mr_pact", "title": "Molotov–Ribbentrop Pact", "author": "Wikipedia (en)", "url": "https://en.wikipedia.org/wiki/Molotov%E2%80%93Ribbentrop_Pact", "license": "CC BY-SA 4.0" },
+  { "id": "wiki_frontier_treaty", "title": "German–Soviet Frontier Treaty", "author": "Wikipedia (en)", "url": "https://en.wikipedia.org/wiki/German%E2%80%93Soviet_Frontier_Treaty", "license": "CC BY-SA 4.0" },
+  { "id": "ne_data", "title": "Natural Earth 1:10m physical & cultural vectors", "author": "Natural Earth", "url": "https://www.naturalearthdata.com/", "license": "Public domain" },
+  { "id": "hist_basemaps", "title": "historical-basemaps: world_1938.geojson", "author": "André Ourednik et al.", "url": "https://github.com/aourednik/historical-basemaps", "license": "GPL-3.0" },
+  { "id": "terrarium", "title": "Terrain Tiles (Terrarium) on AWS Open Data", "author": "Mapzen / Linux Foundation; SRTM, GMTED2010, ETOPO1 et al.", "url": "https://registry.opendata.aws/terrain-tiles/", "license": "见 https://github.com/tilezen/joerd/blob/master/docs/attribution.md" }
+]

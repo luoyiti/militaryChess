@@ -1,0 +1,42 @@
+{
+  "tileSize": 512,
+  "format": "webp",
+  "path": "tiles/base/{z}/{x}_{y}.webp",
+  "worldWidth": 8192,
+  "worldHeight": 10585,
+  "note": "Edge tiles are not padded; world position=(pixel/scale). All assets are offline.",
+  "levels": [
+    {
+      "z": 0,
+      "width": 1024,
+      "height": 1324,
+      "cols": 2,
+      "rows": 3,
+      "scale": 0.125
+    },
+    {
+      "z": 1,
+      "width": 2048,
+      "height": 2647,
+      "cols": 4,
+      "rows": 6,
+      "scale": 0.25
+    },
+    {
+      "z": 2,
+      "width": 4096,
+      "height": 5293,
+      "cols": 8,
+      "rows": 11,
+      "scale": 0.5
+    },
+    {
+      "z": 3,
+      "width": 8192,
+      "height": 10585,
+      "cols": 16,
+      "rows": 21,
+      "scale": 1.0
+    }
+  ]
+}

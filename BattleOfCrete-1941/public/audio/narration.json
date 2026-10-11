@@ -1,0 +1,69 @@
+{
+  "language": "en-GB",
+  "synthetic": true,
+  "voice": "macOS Daniel",
+  "createdOn": "2026-10-11",
+  "note": "现代合成英语讲解，非历史录音；英文文本为本项目按所列史料编写的概要。",
+  "phases": [
+    {
+      "id": "landing",
+      "date": "1941-05-20T08:00:00",
+      "src": "audio/narration/crete-landing.mp3",
+      "title": "空降开始 · Airborne invasion",
+      "transcript": "May twentieth, nineteen forty one. German gliders and paratroopers descend near Maleme and Canea. British Commonwealth and Greek defenders resist fiercely. Later landings at Rethymno and Heraklion meet similar resistance. By nightfall, the invasion remains dangerously uncertain.",
+      "sources": [
+        "https://nzhistory.govt.nz/war/the-battle-for-crete/the-battle-day-1-3"
+      ],
+      "durationSec": 19.264,
+      "sha256": "5545fdf5d54f32e2cc2b477c3df5ac824411d2057a0d4fa0db4d2bcc72ca71ef"
+    },
+    {
+      "id": "maleme",
+      "date": "1941-05-21T18:00:00",
+      "src": "audio/narration/crete-maleme.mp3",
+      "title": "马莱迈机场 · The airfield turns the battle",
+      "transcript": "May twenty first. After the defenders withdraw from Hill one hundred and seven, German troops secure Maleme airfield. Transport aircraft bring mountain troops into the battle despite artillery fire. A delayed New Zealand counterattack the following morning fails to recover the airfield.",
+      "sources": [
+        "https://nzhistory.govt.nz/war/the-battle-for-crete/the-battle-day-1-3"
+      ],
+      "durationSec": 18.255,
+      "sha256": "fa86609bd146e667a7cfddce48e0ec66836273a2cf6639cff293822a2bebbcb9"
+    },
+    {
+      "id": "west",
+      "date": "1941-05-24T12:00:00",
+      "src": "audio/narration/crete-west.mp3",
+      "title": "西部防线 · The western front contracts",
+      "transcript": "May twenty fourth. German reinforcements push east from Maleme and threaten the Allied flank. The defenders gather around Galatas and Canea. Rethymno and Heraklion still resist. Fighting around Galatas will force another withdrawal, despite a determined New Zealand counterattack.",
+      "sources": [
+        "https://nzhistory.govt.nz/war/the-battle-for-crete/the-battle-day-4-6"
+      ],
+      "durationSec": 18.794,
+      "sha256": "ef43d33642645e20114e9cadb9a99255cd05e4e9d1fba207f310c89886efa416"
+    },
+    {
+      "id": "retreat",
+      "date": "1941-05-27T12:00:00",
+      "src": "audio/narration/crete-retreat.mp3",
+      "title": "翻越白山 · Retreat to the south coast",
+      "transcript": "May twenty seventh. Australian and Maori troops strike back at Forty Second Street, delaying the German pursuit. The main Allied force retreats across the mountains toward Sfakia. The Royal Navy prepares evacuation, while troops at Heraklion await a separate withdrawal by sea.",
+      "sources": [
+        "https://nzhistory.govt.nz/war/the-battle-for-crete/retreat-days-7-9"
+      ],
+      "durationSec": 18.855,
+      "sha256": "c2f898bce0290f9e814c01b96bf3ec7048ae16477c63fb08873097d17a7bb43f"
+    },
+    {
+      "id": "aftermath",
+      "date": "1941-06-01T12:00:00",
+      "src": "audio/narration/crete-aftermath.mp3",
+      "title": "撤离终止 · Evacuation ends",
+      "transcript": "June first. The final evacuation ships have left Sfakia. Thousands of Allied soldiers remain on Crete and become prisoners, while some evade capture with help from local people. The airborne invasion has succeeded, but heavy German losses and the island's continuing resistance mark its aftermath.",
+      "sources": [
+        "https://nzhistory.govt.nz/war/the-battle-for-crete/capitulation-capture"
+      ],
+      "durationSec": 19.333,
+      "sha256": "8ecabd3af91504fde40732e596c8e1165b1fba0bbc6eb4423684d83a165e28af"
+    }
+  ]
+}

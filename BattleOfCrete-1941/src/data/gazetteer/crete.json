@@ -1,0 +1,394 @@
+[
+  {
+    "id": "cr_athens_airfields",
+    "zh": "雅典地区机场",
+    "orig": "Athens airfields (Eleusis)",
+    "pos": [
+      23.534,
+      38.063
+    ],
+    "kind": "region",
+    "rank": 3,
+    "country1939": "GR"
+  },
+  {
+    "id": "cr_rhodes",
+    "zh": "罗得岛（意占）",
+    "orig": "Rodi",
+    "pos": [
+      28.229,
+      36.444
+    ],
+    "kind": "port",
+    "rank": 3,
+    "country1939": "IT"
+  },
+  {
+    "id": "cr_milos",
+    "zh": "米洛斯岛",
+    "orig": "Milos",
+    "pos": [
+      24.446,
+      36.726
+    ],
+    "kind": "port",
+    "rank": 3,
+    "country1939": "GR"
+  },
+  {
+    "id": "cr_tavronitis",
+    "zh": "塔夫罗尼蒂斯河口",
+    "orig": "Tavronitis",
+    "pos": [
+      23.819,
+      35.529
+    ],
+    "kind": "river",
+    "rank": 4,
+    "country1939": "GR"
+  },
+  {
+    "id": "cr_maleme_airfield",
+    "zh": "马莱迈机场",
+    "orig": "Maleme aerodrome",
+    "pos": [
+      23.831,
+      35.53
+    ],
+    "kind": "fort",
+    "rank": 2,
+    "country1939": "GR"
+  },
+  {
+    "id": "cr_maleme",
+    "zh": "马莱迈",
+    "orig": "Maleme",
+    "pos": [
+      23.846,
+      35.522
+    ],
+    "kind": "village",
+    "rank": 3,
+    "country1939": "GR"
+  },
+  {
+    "id": "cr_hill107",
+    "zh": "107高地",
+    "orig": "Point 107",
+    "pos": [
+      23.84,
+      35.518
+    ],
+    "kind": "fort",
+    "rank": 4,
+    "country1939": "GR"
+  },
+  {
+    "id": "cr_platanias",
+    "zh": "普拉塔尼亚斯",
+    "orig": "Platanias",
+    "pos": [
+      23.909,
+      35.515
+    ],
+    "kind": "village",
+    "rank": 3,
+    "country1939": "GR"
+  },
+  {
+    "id": "cr_galatas",
+    "zh": "加拉塔斯",
+    "orig": "Galatas",
+    "pos": [
+      23.963,
+      35.5
+    ],
+    "kind": "village",
+    "rank": 2,
+    "country1939": "GR"
+  },
+  {
+    "id": "cr_prison_valley",
+    "zh": "监狱谷地",
+    "orig": "Prison Valley / Aghya",
+    "pos": [
+      23.953,
+      35.474
+    ],
+    "kind": "region",
+    "rank": 4,
+    "country1939": "GR"
+  },
+  {
+    "id": "cr_alikianos",
+    "zh": "阿利基亚诺斯",
+    "orig": "Alikianou",
+    "pos": [
+      23.913,
+      35.453
+    ],
+    "kind": "village",
+    "rank": 4,
+    "country1939": "GR"
+  },
+  {
+    "id": "cr_chania",
+    "zh": "干尼亚",
+    "orig": "Canea",
+    "pos": [
+      24.018,
+      35.513
+    ],
+    "kind": "city",
+    "rank": 2,
+    "country1939": "GR"
+  },
+  {
+    "id": "cr_perivolia_west",
+    "zh": "佩里沃利亚（干尼亚）",
+    "orig": "Perivolia, Canea",
+    "pos": [
+      23.994,
+      35.472
+    ],
+    "kind": "village",
+    "rank": 4,
+    "country1939": "GR"
+  },
+  {
+    "id": "cr_souda",
+    "zh": "苏达湾",
+    "orig": "Suda Bay",
+    "pos": [
+      24.074,
+      35.488
+    ],
+    "kind": "port",
+    "rank": 2,
+    "country1939": "GR"
+  },
+  {
+    "id": "cr_fortysecond",
+    "zh": "四十二街",
+    "orig": "42nd Street / Tsikalaria",
+    "pos": [
+      24.065,
+      35.476
+    ],
+    "kind": "region",
+    "rank": 4,
+    "country1939": "GR"
+  },
+  {
+    "id": "cr_stilos",
+    "zh": "斯蒂洛斯",
+    "orig": "Stilos",
+    "pos": [
+      24.129,
+      35.431
+    ],
+    "kind": "village",
+    "rank": 4,
+    "country1939": "GR"
+  },
+  {
+    "id": "cr_askifou",
+    "zh": "阿斯基富高原",
+    "orig": "Askifou Plain",
+    "pos": [
+      24.171,
+      35.29
+    ],
+    "kind": "region",
+    "rank": 3,
+    "country1939": "GR"
+  },
+  {
+    "id": "cr_imvros",
+    "zh": "伊姆布罗斯隘口",
+    "orig": "Imvros",
+    "pos": [
+      24.168,
+      35.251
+    ],
+    "kind": "crossing",
+    "rank": 4,
+    "country1939": "GR"
+  },
+  {
+    "id": "cr_komitadhes",
+    "zh": "科米塔德斯",
+    "orig": "Komitadhes",
+    "pos": [
+      24.173,
+      35.209
+    ],
+    "kind": "village",
+    "rank": 4,
+    "country1939": "GR"
+  },
+  {
+    "id": "cr_sfakia",
+    "zh": "斯法基亚撤离港",
+    "orig": "Sphakia",
+    "pos": [
+      24.137,
+      35.201
+    ],
+    "kind": "port",
+    "rank": 2,
+    "country1939": "GR"
+  },
+  {
+    "id": "cr_sfakia_roads",
+    "zh": "斯法基亚外海",
+    "orig": "Off Sphakia",
+    "pos": [
+      24.137,
+      35.174
+    ],
+    "kind": "region",
+    "rank": 4
+  },
+  {
+    "id": "cr_retimo",
+    "zh": "雷西姆诺",
+    "orig": "Retimo",
+    "pos": [
+      24.475,
+      35.37
+    ],
+    "kind": "town",
+    "rank": 2,
+    "country1939": "GR"
+  },
+  {
+    "id": "cr_retimo_airfield",
+    "zh": "雷西姆诺机场",
+    "orig": "Retimo aerodrome / Pigi",
+    "pos": [
+      24.613,
+      35.372
+    ],
+    "kind": "fort",
+    "rank": 3,
+    "country1939": "GR"
+  },
+  {
+    "id": "cr_perivolia_east",
+    "zh": "佩里沃利亚（雷西姆诺）",
+    "orig": "Perivolia, Retimo",
+    "pos": [
+      24.508,
+      35.367
+    ],
+    "kind": "village",
+    "rank": 4,
+    "country1939": "GR"
+  },
+  {
+    "id": "cr_heraklion",
+    "zh": "伊拉克利翁",
+    "orig": "Heraklion",
+    "pos": [
+      25.134,
+      35.339
+    ],
+    "kind": "city",
+    "rank": 2,
+    "country1939": "GR"
+  },
+  {
+    "id": "cr_heraklion_airfield",
+    "zh": "伊拉克利翁机场",
+    "orig": "Heraklion aerodrome",
+    "pos": [
+      25.179,
+      35.339
+    ],
+    "kind": "fort",
+    "rank": 3,
+    "country1939": "GR"
+  },
+  {
+    "id": "cr_heraklion_port",
+    "zh": "伊拉克利翁港",
+    "orig": "Heraklion harbour",
+    "pos": [
+      25.138,
+      35.348
+    ],
+    "kind": "port",
+    "rank": 3,
+    "country1939": "GR"
+  },
+  {
+    "id": "cr_sitia",
+    "zh": "锡蒂亚",
+    "orig": "Sitia",
+    "pos": [
+      26.104,
+      35.208
+    ],
+    "kind": "port",
+    "rank": 3,
+    "country1939": "GR"
+  },
+  {
+    "id": "cr_ierapetra",
+    "zh": "耶拉派特拉",
+    "orig": "Ierapetra",
+    "pos": [
+      25.742,
+      35.008
+    ],
+    "kind": "port",
+    "rank": 3,
+    "country1939": "GR"
+  },
+  {
+    "id": "cr_kissamos",
+    "zh": "卡斯泰利",
+    "orig": "Kastelli Kissamou",
+    "pos": [
+      23.653,
+      35.494
+    ],
+    "kind": "town",
+    "rank": 3,
+    "country1939": "GR"
+  },
+  {
+    "id": "cr_interception",
+    "zh": "北岸海运截击区",
+    "orig": "Waters north of Canea",
+    "pos": [
+      23.92,
+      35.8
+    ],
+    "kind": "region",
+    "rank": 4
+  },
+  {
+    "id": "cr_egypt_edge",
+    "zh": "赴埃及（图外）",
+    "orig": "To Alexandria, Egypt (off-map)",
+    "pos": [
+      25.11,
+      34.51
+    ],
+    "kind": "region",
+    "rank": 3
+  },
+  {
+    "id": "cr_egypt_east_edge",
+    "zh": "赴埃及东部航路（图外）",
+    "orig": "To Alexandria via eastern Crete (off-map)",
+    "pos": [
+      26.9,
+      34.51
+    ],
+    "kind": "region",
+    "rank": 4
+  }
+]

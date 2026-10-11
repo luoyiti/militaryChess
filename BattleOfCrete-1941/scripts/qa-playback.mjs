@@ -1,0 +1,13 @@
+import {chromium} from '@playwright/test';
+import fs from 'node:fs';
+const browser=await chromium.launch({executablePath:'/Applications/Google Chrome.app/Contents/MacOS/Google Chrome',args:['--use-angle=swiftshader','--enable-unsafe-swiftshader']});
+const page=await browser.newPage({viewport:{width:1440,height:900}});const errors=[];
+page.on('pageerror',e=>errors.push(e.stack));await page.route('**/*',r=>r.request().url().startsWith('http://127.0.0.1:4195/')?r.continue():r.abort());
+await page.goto('http://127.0.0.1:4195/');await page.waitForFunction(()=>window.__APP_READY__);await page.screenshot({path:'docs/qa/17-intro.png'});await page.getByRole('button',{name:'进入作战室 · 自动推演'}).click();await page.waitForTimeout(7000);
+const director=await page.evaluate(()=>({state:window.__app.store.get(),title:document.querySelector('.ec-title')?.textContent,stats:window.__app.stats()}));
+await page.evaluate(()=>window.__app.store.set({director:false,speed:8,playing:true}));await page.locator('.event-card .card-close').click();await page.waitForFunction(()=>window.__app.store.get().t>=311.98,null,{timeout:90000});
+const end=await page.evaluate(()=>({state:window.__app.store.get(),stats:window.__app.stats()}));
+if(end.state.t<311)throw new Error('Playback failed to reach final date');
+await page.screenshot({path:'docs/qa/18-playback-end.png'});
+await page.setViewportSize({width:390,height:844});await page.reload();await page.waitForFunction(()=>window.__APP_READY__);await page.getByRole('button',{name:'自由浏览',exact:true}).click();await page.waitForTimeout(1000);await page.locator('.sb-collapse').click();await page.locator('[data-chapter="retreat"]').click();await page.locator('.sb-collapse').click();await page.waitForTimeout(1200);const mobile=await page.evaluate(()=>window.__app.stats());await page.screenshot({path:'docs/qa/19-mobile-retreat.png'});
+fs.writeFileSync('docs/qa/playback.json',JSON.stringify({errors,director,end,mobile},null,2));console.log(JSON.stringify({errors,directorEvent:director.title,ended:end.state.t,mobileScale:mobile.relK}));await browser.close();
