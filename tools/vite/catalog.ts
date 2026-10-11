@@ -62,7 +62,8 @@ function coverCredit(c: DiscoveredCampaign, src: string) {
 }
 
 export function catalog(dev: boolean) {
-  return discoverCampaigns().map((c) => {
+  // 草稿只在开发服务器里出现在总台；构建产物只含已发布与筹备中的战役
+  return discoverCampaigns().filter((c) => dev || c.status !== 'draft').map((c) => {
     const m = c.manifest;
     const frame = readJson(join(c.dir, 'config/frame.json'), null) as { bbox?: [number, number, number, number] } | null;
     const hub = m.hub ?? {};
@@ -93,12 +94,14 @@ export function campaignsPlugin(): Plugin {
     load(id) { return id === '\0' + VID ? `export default ${JSON.stringify(catalog(dev))};` : null; },
     configureServer(server) {
       server.watcher.add(join(CAMPAIGNS, '*/campaign.json'));
-      server.watcher.on('change', (f) => {
+      // 新增 / 删除 / 修改任何战役清单：刷新目录并重载（总台立即出现新战役）
+      const refresh = (f: string) => {
         if (!f.endsWith('campaign.json')) return;
         const mod = server.moduleGraph.getModuleById('\0' + VID);
         if (mod) server.moduleGraph.invalidateModule(mod);
         server.ws.send({ type: 'full-reload' });
-      });
+      };
+      for (const ev of ['change', 'add', 'unlink'] as const) server.watcher.on(ev, refresh);
       server.middlewares.use((req, res, next) => {
         const m = /^\/campaigns\/([a-z0-9-]+)$/.exec(req.url?.split('?')[0] ?? '');
         if (m && existsSync(join(CAMPAIGNS, m[1], 'index.html'))) {

@@ -282,7 +282,7 @@ export class HubMap {
       const st = svg('text', { class: `stencil ${sealed ? 'sealed' : ''}`, x: (x + dx).toFixed(1), y: (y + dy).toFixed(1), 'text-anchor': anchor, 'data-id': c.id }, labels);
       st.textContent = c.hub.codenameOrig ?? c.hub.codename;
       // 火漆印（可聚焦按钮）
-      const label = `${c.title.mark} ${c.title.zh}（${c.hub.codename}）${sealed ? '：绝密，筹备中' : c.playable ? '：查看卷宗，回车进入作战室' : '：迁移中'}`;
+      const label = `${c.title.mark} ${c.title.zh}（${c.hub.codename}）${sealed ? '：绝密，筹备中' : c.playable ? '：查看卷宗，回车进入作战室' : '：尚未开放'}`;
       const pin = svg('g', { class: `pin ${sealed ? 'sealed' : ''} ${c.playable ? '' : 'locked'}`, transform: `translate(${x.toFixed(1)},${y.toFixed(1)})`, tabindex: 0, role: 'button', 'aria-label': label, 'data-id': c.id, style: `--i:${i}` }, g);
       svg('circle', { class: 'pin-pulse', r: 12 }, pin); // 时间带日期落在战役期间时扩散
       const body = svg('g', { class: 'pin-body', filter: 'url(#pin-shadow)' }, pin);

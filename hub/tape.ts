@@ -98,7 +98,8 @@ export class Tape {
     const width = this.strip.clientWidth || 1000;
     const pxPerDay = width / (this.end - this.start);
     this.strip.classList.toggle('dense', pxPerDay * 30.5 < 34); // 月宽不足时只标季度月
-    const sorted = [...this.entries].sort((a, b) => dayOf(a.time.start) - dayOf(b.time.start));
+    // 时间带只画落在窗口（occupation.json 的 window）内的战役；窗口外的战役仍在地图上
+    const sorted = this.entries.filter((c) => dayOf(c.time.end) >= this.start && dayOf(c.time.start) <= this.end).sort((a, b) => dayOf(a.time.start) - dayOf(b.time.start));
     const lanes: number[] = [];
     let html = '';
     for (const c of sorted) {

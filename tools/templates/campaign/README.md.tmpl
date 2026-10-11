@@ -1,0 +1,19 @@
+# {{title}}（{{id}}）
+
+由 `npm run new-campaign` 生成的战役包草稿（status: `{{status}}`）。完整流程见 [docs/NEW-CAMPAIGN.md](../../docs/NEW-CAMPAIGN.md)。
+
+## 清单
+
+- [ ] `config/geo.config.json`：核对开战时国界映射（`borders.ids` / `borders.merge`）、掩膜比特（`masks`）、河流湖泊中文名、林区/沼泽轮廓
+- [ ] 生成地图资产：`sh tools/geo/run.sh {{id}}`（首次会下载 Natural Earth 与 DEM 瓦片，之后走缓存）
+- [ ] `data/sources/`：补全史料来源，所有数据通过 `sources` 引用
+- [ ] `data/gazetteer/`：地名（中文、当时原名、坐标、级别）
+- [ ] `data/oob/`：各方编制与轨迹（每方一个文件，id 前缀见 campaign.json 的 sides[].prefix）
+- [ ] `data/fronts/`：控制区关键帧（文件名 = 时刻，冒号换成连字符）
+- [ ] `data/events.json`、`data/routes/`、`data/pockets.json`、`data/demarcation.json`、`data/equipment.json`、`data/forces.json`
+- [ ] `campaign.json`：阶段（phases）、时间轴标记（marks）、简报与图例文字、导演警报与配乐、总台卷宗（hub）
+- [ ] `npm run validate -- --campaign {{id}}` 无错误
+- [ ] `npm run dev` → <http://127.0.0.1:5180/campaigns/{{id}}/> 预览；总台（<http://127.0.0.1:5180/>）出现在地图上
+- [ ] 补一个封面照片到 `public/campaigns/{{id}}/photos/` 并登记署名，`hub.cover` 指向它
+- [ ] `npm run fonts` 重建字体子集（新文字字形）
+- [ ] 把 `status` 改为 `published`，`npm run verify`

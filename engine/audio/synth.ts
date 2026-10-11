@@ -508,6 +508,9 @@ function radioNoise(s: Scene, t: number, dur: number, lvl: number): void {
 
 // ---------- 导出 ----------
 
+/** 程序化合成可用的音效 id（音效 sprite 缺少时的回退；校验 event.sfx 时与 sprite 合并） */
+export const SYNTH_IDS = () => Object.keys(RECIPES);
+
 export function playSynth(ctx: AudioContext, out: AudioNode, id: string, opts: SynthOptions = {}): SynthVoice {
   const s = new Scene(ctx, out, opts.gain ?? 0.8, opts.pan ?? 0);
   const recipe = RECIPES[id] ?? RECIPES.ui_click;

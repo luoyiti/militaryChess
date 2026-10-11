@@ -607,5 +607,10 @@
     },
     "cover": "photos/ba-141-0763-warschau-brande-878f2a.webp",
     "blurb": "德军从北、西、南三面越境，苏军自东入侵；华沙围城二十天，最后一支成建制的波兰部队在科克放下武器。"
+  },
+  "validation": {
+    "slotEmptyBefore": {
+      "SU": "1939-09-17T03:00"
+    }
   }
 }

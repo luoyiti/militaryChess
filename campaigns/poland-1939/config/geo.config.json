@@ -1,0 +1,37 @@
+{
+  "_doc": "地理管线参数。本战役的地图资产由分叉时期的定制管线生成（pipeline/scripts/geo/，国界逐段修补、手工河流与林区），已随仓库提交；通用管线 tools/geo 在这里只负责 frame（node tools/geo/emit_frame.mjs <id> --check 校验投影可重算）。",
+  "legacy": "pipeline/scripts/geo",
+  "frame": {
+    "bbox": [
+      13,
+      47.3,
+      29.5,
+      56.6
+    ],
+    "parallels": [
+      49.5,
+      55
+    ],
+    "rotate": [
+      -21.25,
+      0
+    ],
+    "center": [
+      0,
+      52
+    ],
+    "width": 8192,
+    "tileLevels": [
+      1024,
+      2048,
+      4096,
+      8192
+    ],
+    "fieldCell": 16,
+    "clampKm": 60,
+    "kmProbe": [
+      21.25,
+      52
+    ]
+  }
+}

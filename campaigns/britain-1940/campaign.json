@@ -575,5 +575,12 @@
     },
     "cover": "photos/britain-he111-wapping.webp",
     "blurb": "德国空军试图夺取英国上空的制空权，皇家空军依靠雷达与地面指挥逐波迎击；九月转向伦敦的空袭最终没能换来入侵所需的制空权。"
+  },
+  "validation": {
+    "eventCount": 15,
+    "bodyLength": [
+      80,
+      140
+    ]
   }
 }

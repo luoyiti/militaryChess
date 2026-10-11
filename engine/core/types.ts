@@ -221,11 +221,11 @@ export interface Equipment {
 export interface SideSummary {
   name: string;
   commander: string;
-  men: number | null;
+  men?: number | null; // 缺省或 null = 未单独统计（显示 —）
   divisions: string;
-  tanks: number | null;
-  aircraft: number | null;
-  guns: number | null;
+  tanks?: number | null;
+  aircraft?: number | null;
+  guns?: number | null;
   fighters?: number | null;
   bombers?: number | null;
   asOf?: string;

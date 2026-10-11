@@ -95,7 +95,7 @@ export class Sidebar {
     const nullLabel = B.nullLabel ?? '—';
     const nullBar = B.nullBarWidth ?? 1.5;
     const rows: [string, (s: SideSummary) => number | null][] = [
-      ['兵力（万人）', (s) => (s.men == null ? null : s.men / 10000)], ['坦克', (s) => s.tanks], ['飞机', (s) => s.aircraft], ['火炮', (s) => s.guns],
+      ['兵力（万人）', (s) => (s.men == null ? null : s.men / 10000)], ['坦克', (s) => s.tanks ?? null], ['飞机', (s) => s.aircraft ?? null], ['火炮', (s) => s.guns ?? null],
     ];
     const fmt = (label: string, v: number | null) => v == null ? nullLabel : label.includes('万') ? v.toFixed(fixed1 || v < 10 ? 1 : 0) : v.toLocaleString();
     const bar = (label: string, get: (s: SideSummary) => number | null) => {

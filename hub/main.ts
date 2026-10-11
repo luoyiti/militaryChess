@@ -46,7 +46,7 @@ soundBtn.onclick = () => { sound.toggle(); paintSound(); sound.play('ui_click', 
 addEventListener('pointerdown', () => sound.unlock(), { once: true });
 addEventListener('keydown', () => sound.unlock(), { once: true });
 
-const published = entries.filter((c) => c.status !== 'planned');
+const published = entries.filter((c) => c.status === 'published');
 const params = new URLSearchParams(location.search);
 const dParam = params.get('d');
 const initialDay = dParam && /^\d{4}-\d{2}-\d{2}$/.test(dParam) ? dayOf(dParam) : Math.max(...published.map((c) => dayOf(c.time.end)), dayOf(occ.window.start));

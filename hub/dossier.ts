@@ -106,7 +106,7 @@ export class Dossier {
         ? '<span class="stamp locked">尚未解密</span>'
         : c.playable
           ? `<a class="btn primary" href="${c.href}" data-enter="tour">进入作战室 · 自动推演</a><a class="btn" href="${c.href}?nointro" data-enter="free">自由浏览</a>`
-          : '<span class="stamp locked">迁移中</span>'}</div>
+          : '<span class="stamp locked">尚未开放</span>'}</div>
       ${credit && !sealed ? `<div class="dz-credit">封面：${esc(credit.author)} · ${credit.url ? `<a href="${credit.url}" target="_blank" rel="noopener">${esc(credit.license)}</a>` : esc(credit.license)}</div>` : ''}`;
     // 换页动画
     this.el.classList.remove('flip');

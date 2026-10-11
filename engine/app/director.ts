@@ -94,7 +94,10 @@ export class Director {
     const s = store.get();
     const prev = this.lastT;
     this.lastT = t;
-    if (!s.playing || t <= prev || t - prev > 12) { this.queue = []; this.updateMusic(t); return; }
+    // 驻留把时间对齐回事件时刻（t 与 lastT 相同）：保留同一帧越过的后续事件
+    if (t === prev) { this.updateMusic(t); return; }
+    // 暂停时拖动、后退或大跨度跳转：清空队列与画面中的旧编队/硝烟
+    if (!s.playing || t < prev || t - prev > 12) { this.queue = []; this.cancelEffects(); this.updateMusic(t); return; }
     const crossed = this.db.events.filter((e) => e.h > prev && e.h <= t);
     const maxImp = s.speed >= 4 ? 1 : 2;
     for (const e of crossed) {
@@ -136,10 +139,11 @@ export class Director {
   present(e: REvent, hold: boolean) {
     const gen = ++this.generation;
     const m = manifest();
+    // 同步 lastT：手动打开事件时，同一微任务里发布的时间变化不会被当作跳转而取消本事件的特效
+    this.lastT = this.frameMode && hold ? e.h : store.get().t;
     if (this.frameMode) {
       // 空战：事件时刻对齐、清除部队选择，镜头框住关联航线
       this.cancelEffects();
-      this.lastT = hold ? e.h : store.get().t;
       this.active = e;
       store.set({ ...(hold ? { t: e.h } : {}), selectedEvent: e.id, selectedUnit: null, followUnit: false });
     } else {
