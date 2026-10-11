@@ -54,26 +54,34 @@ export function campaignStats(c: DiscoveredCampaign) {
   };
 }
 
+/** 封面照片的署名（取自战役 photos/index.json） */
+function coverCredit(c: DiscoveredCampaign, src: string) {
+  const index = readJson(join(ROOT, 'public/campaigns', c.id, 'photos/index.json'), {}) as Record<string, { src: string; author?: string; license?: string; caption?: string; sourceUrl?: string }>;
+  const e = Object.values(index).find((p) => p.src === src);
+  return e ? { caption: e.caption ?? '', author: e.author ?? '', license: e.license ?? '', url: e.sourceUrl ?? '' } : null;
+}
+
 export function catalog(dev: boolean) {
   return discoverCampaigns().map((c) => {
     const m = c.manifest;
-    const frame = readJson(join(c.dir, 'config/frame.json'), null) as { bbox?: number[] } | null;
+    const frame = readJson(join(c.dir, 'config/frame.json'), null) as { bbox?: [number, number, number, number] } | null;
+    const hub = m.hub ?? {};
     return {
       id: c.id,
       status: c.status,
       playable: buildable(c, dev),
       href: `campaigns/${c.id}/`,
       title: m.title,
-      time: m.time,
+      time: { start: m.time.start, end: m.time.end },
       sides: (m.sides ?? []).map((s: any) => ({ id: s.id, name: s.name, coalition: s.coalition, color: s.css?.main ?? s.counter?.bg })),
-      hub: m.hub,
-      theatre: m.hub?.theatre ?? frame?.bbox ?? null,
-      cover: m.hub?.cover ? `campaigns/${c.id}/${m.hub.cover}` : null,
+      hub: { ...hub, theatre: hub.theatre ?? (frame?.bbox ? { bbox: frame.bbox } : undefined) },
+      cover: hub.cover ? { src: `campaigns/${c.id}/${hub.cover}`, credit: coverCredit(c, hub.cover) } : null,
       phases: (m.phases ?? []).map((p: any) => ({ from: p.from, name: p.name })),
       stats: c.status === 'planned' ? null : campaignStats(c),
     };
   });
 }
+export type CatalogEntry = ReturnType<typeof catalog>[number];
 
 export function campaignsPlugin(): Plugin {
   const VID = 'virtual:campaign-catalog';

@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 2,
+  "id": "barbarossa-1941",
+  "status": "planned",
+  "title": {
+    "mark": "1941",
+    "zh": "巴巴罗萨行动",
+    "sub": "苏德战争爆发 · 筹备中",
+    "en": "Operation Barbarossa",
+    "orig": "Unternehmen Barbarossa",
+    "codename": "巴巴罗萨行动"
+  },
+  "time": {
+    "epoch": "1941-06-22T00:00",
+    "start": "1941-06-22T03:15",
+    "end": "1941-12-05T23:59",
+    "tzLabel": "柏林时间"
+  },
+  "sides": [
+    { "id": "DE", "name": "德国", "coalition": "axis", "css": { "main": "#3a5887" } },
+    { "id": "FI", "name": "芬兰", "coalition": "axis", "css": { "main": "#5d7f95" } },
+    { "id": "RO", "name": "罗马尼亚", "coalition": "axis", "css": { "main": "#7d6a8e" } },
+    { "id": "SU", "name": "苏联", "coalition": "comintern", "css": { "main": "#8f5a2b" } }
+  ],
+  "hub": {
+    "order": 7,
+    "codename": "巴巴罗萨行动",
+    "codenameOrig": "BARBAROSSA",
+    "pin": [30.5, 54.2],
+    "labelAt": "s",
+    "theatre": { "bbox": [22.5, 45.5, 40, 60.5] },
+    "blurb": "三个集团军群沿波罗的海至黑海的漫长战线同时越境，六个月内兵临列宁格勒、莫斯科与罗斯托夫城下；十二月初苏军在莫斯科城下发起反攻。"
+  }
+}

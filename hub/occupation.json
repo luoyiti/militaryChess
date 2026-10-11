@@ -1,0 +1,196 @@
+{
+  "$comment": "作战总台时间带：1938 年国界（public/hub/europe1938.topo.json 的 id）在 1939-09 至 1941-12 间的状态变化。小比例尺示意：部分领土割让（如比萨拉比亚、北特兰西瓦尼亚、卡累利阿）只写进 note，不改变整国着色。",
+  "window": { "start": "1939-08-25", "end": "1941-12-31" },
+  "statuses": {
+    "neutral": { "zh": "中立", "desc": "未参战或保持中立" },
+    "axis": { "zh": "轴心国", "desc": "德国、意大利本土及其殖民地" },
+    "axis-ally": { "zh": "轴心国阵营", "desc": "加入三国同盟或与德国共同作战" },
+    "occupied": { "zh": "被占领", "desc": "轴心国军队占领或建立保护国" },
+    "contested": { "zh": "交战中", "desc": "遭到入侵、战斗仍在进行" },
+    "allied": { "zh": "同盟国", "desc": "已对轴心国宣战或遭其进攻" },
+    "soviet": { "zh": "苏联控制", "desc": "苏联及其吞并、占领的领土" },
+    "vichy": { "zh": "维希法国", "desc": "停战后由维希政府管辖的非占领区与殖民地" }
+  },
+  "countries": {
+    "Germany": [{ "from": "1938-03-13", "status": "axis", "note": "含 1938 年 3 月合并的奥地利、1938 年 10 月并入的苏台德区" }],
+    "Italy": [{ "from": "1939-05-22", "status": "axis", "note": "1939 年 5 月与德国签订《钢铁条约》，1940 年 6 月 10 日对英法宣战", "source": "steel" }],
+    "Libya": [{ "from": "1939-05-22", "status": "axis", "note": "意属利比亚" }],
+    "Albania": [{ "from": "1939-04-07", "status": "occupied", "note": "1939 年 4 月被意大利占领" }],
+    "Czechoslovakia": [{ "from": "1939-03-15", "status": "occupied", "note": "捷克部分成为德国的波希米亚—摩拉维亚保护国，斯洛伐克成为德国附庸国（1940 年 11 月加入三国同盟）" }],
+    "Poland (W)": [
+      { "from": "1939-09-01", "status": "contested", "note": "德军自北、西、南三面入侵", "source": "pl" },
+      { "from": "1939-10-06", "status": "occupied", "note": "西部并入德国，其余设为总督府", "source": "frontier" }
+    ],
+    "Poland (E)": [
+      { "from": "1939-09-01", "status": "contested", "note": "9 月 17 日苏军自东越境", "source": "pl" },
+      { "from": "1939-09-28", "status": "soviet", "note": "《德苏边界友好条约》划定分界线，东部并入苏联", "source": "frontier" },
+      { "from": "1941-06-22", "status": "contested", "note": "巴巴罗萨行动首日即遭突击", "source": "t1941" },
+      { "from": "1941-07-05", "status": "occupied", "note": "6 月 30 日利沃夫失守，七月初全境被德军占领", "source": "t1941" }
+    ],
+    "United Kingdom": [{ "from": "1939-09-03", "status": "allied", "note": "9 月 3 日对德宣战" }],
+    "France (N)": [
+      { "from": "1939-09-03", "status": "allied", "note": "9 月 3 日对德宣战" },
+      { "from": "1940-05-10", "status": "contested", "note": "黄色方案：德军经阿登突破", "source": "fr" },
+      { "from": "1940-06-22", "status": "occupied", "note": "停战协定后的德国占领区", "source": "armistice" }
+    ],
+    "France (S)": [
+      { "from": "1939-09-03", "status": "allied", "note": "9 月 3 日对德宣战" },
+      { "from": "1940-06-22", "status": "vichy", "note": "非占领区，由维希政府管辖（至 1942 年 11 月）", "source": "armistice" }
+    ],
+    "Algeria (France)": [{ "from": "1939-09-03", "status": "allied" }, { "from": "1940-06-22", "status": "vichy", "source": "armistice" }],
+    "Morocco (France)": [{ "from": "1939-09-03", "status": "allied" }, { "from": "1940-06-22", "status": "vichy", "source": "armistice" }],
+    "Tunisia": [{ "from": "1939-09-03", "status": "allied", "note": "法国保护国" }, { "from": "1940-06-22", "status": "vichy", "source": "armistice" }],
+    "Syria (France)": [{ "from": "1939-09-03", "status": "allied" }, { "from": "1940-06-22", "status": "vichy", "note": "1941 年 7 月被英国与自由法国军队攻占", "source": "armistice" }, { "from": "1941-07-14", "status": "allied" }],
+    "Denmark": [{ "from": "1940-04-09", "status": "occupied", "note": "4 月 9 日几乎未经抵抗被占领", "source": "no" }],
+    "Norway": [
+      { "from": "1940-04-09", "status": "contested", "note": "威悉演习：德军突袭沿岸各港", "source": "no" },
+      { "from": "1940-06-10", "status": "occupied", "note": "本土守军停止抵抗，国王与政府流亡伦敦", "source": "no" }
+    ],
+    "Netherlands": [
+      { "from": "1940-05-10", "status": "contested", "source": "fr" },
+      { "from": "1940-05-15", "status": "occupied", "note": "5 月 14 日鹿特丹遭轰炸，次日荷军投降", "source": "fr" }
+    ],
+    "Belgium": [
+      { "from": "1940-05-10", "status": "contested", "source": "fr" },
+      { "from": "1940-05-28", "status": "occupied", "note": "5 月 28 日比利时军队投降", "source": "fr" }
+    ],
+    "Luxembourg": [{ "from": "1940-05-10", "status": "occupied", "note": "开战当天即被占领", "source": "fr" }],
+    "Finland": [
+      { "from": "1939-11-30", "status": "contested", "note": "冬季战争：苏联进攻芬兰", "source": "winter" },
+      { "from": "1940-03-13", "status": "neutral", "note": "《莫斯科和约》，割让卡累利阿地峡等领土", "source": "winter" },
+      { "from": "1941-06-25", "status": "axis-ally", "note": "继续战争：与德国并肩对苏作战（芬方称“共同交战国”）", "source": "t1941" }
+    ],
+    "Lithuania": [
+      { "from": "1940-06-15", "status": "soviet", "note": "苏军进驻，8 月并入苏联", "source": "baltic" },
+      { "from": "1941-06-22", "status": "contested", "source": "t1941" },
+      { "from": "1941-06-28", "status": "occupied", "note": "一周内被德军占领", "source": "t1941" }
+    ],
+    "Latvia": [
+      { "from": "1940-06-17", "status": "soviet", "note": "苏军进驻，8 月并入苏联", "source": "baltic" },
+      { "from": "1941-06-22", "status": "contested", "source": "t1941" },
+      { "from": "1941-07-08", "status": "occupied", "note": "7 月 1 日德军进入里加", "source": "t1941" }
+    ],
+    "Estonia": [
+      { "from": "1940-06-17", "status": "soviet", "note": "苏军进驻，8 月并入苏联", "source": "baltic" },
+      { "from": "1941-07-07", "status": "contested", "source": "t1941" },
+      { "from": "1941-08-28", "status": "occupied", "note": "8 月 28 日塔林失守", "source": "t1941" }
+    ],
+    "Romania": [{ "from": "1940-11-23", "status": "axis-ally", "note": "加入三国同盟；同年已被迫割让比萨拉比亚与北布科维纳（予苏联）、北特兰西瓦尼亚（予匈牙利）、南多布罗加（予保加利亚）", "source": "tripartite" }],
+    "Hungary": [{ "from": "1940-11-20", "status": "axis-ally", "note": "加入三国同盟", "source": "tripartite" }],
+    "Bulgaria": [{ "from": "1941-03-01", "status": "axis-ally", "note": "加入三国同盟，德军借道进攻希腊", "source": "tripartite" }],
+    "Yugoslavia": [
+      { "from": "1941-04-06", "status": "contested", "note": "3 月 27 日政变推翻亲轴心政府后遭多路入侵", "source": "bk" },
+      { "from": "1941-04-17", "status": "occupied", "note": "投降后被德、意、匈、保瓜分，另立克罗地亚独立国", "source": "bk" }
+    ],
+    "Greece": [
+      { "from": "1940-10-28", "status": "allied", "note": "意军自阿尔巴尼亚入侵，希军反攻入阿尔巴尼亚南部", "source": "bk" },
+      { "from": "1941-04-06", "status": "contested", "note": "德军自保加利亚入侵", "source": "bk" },
+      { "from": "1941-04-30", "status": "occupied", "note": "4 月 27 日德军进入雅典，英联邦远征军撤离本土", "source": "bk" }
+    ],
+    "Greece (Crete)": [
+      { "from": "1940-10-28", "status": "allied", "note": "英军进驻苏达湾", "source": "bk" },
+      { "from": "1941-05-20", "status": "contested", "note": "水星行动：德军空降", "source": "cr" },
+      { "from": "1941-06-01", "status": "occupied", "note": "英联邦守军撤离", "source": "cr" }
+    ],
+    "USSR": [
+      { "from": "1939-08-23", "status": "soviet", "note": "8 月 23 日签订《苏德互不侵犯条约》" },
+      { "from": "1941-06-22", "status": "contested", "note": "巴巴罗萨行动：德军入侵；年底前推进至列宁格勒—莫斯科—罗斯托夫一线", "source": "t1941" }
+    ],
+    "Armenia": [{ "from": "1939-08-23", "status": "soviet" }]
+  },
+  "labels": [
+    { "id": "Germany", "zh": "德国", "at": [10.6, 50.6], "size": 22 },
+    { "id": "Poland (W)", "zh": "波兰", "at": [22.3, 52.9], "size": 16 },
+    { "id": "France (S)", "zh": "法国", "at": [2.4, 46.4], "size": 22 },
+    { "id": "United Kingdom", "zh": "英国", "at": [-2.4, 54.7], "size": 16 },
+    { "id": "Ireland", "zh": "爱尔兰", "at": [-8.0, 53.2], "size": 11 },
+    { "id": "Spain", "zh": "西班牙", "at": [-3.7, 40.0], "size": 20 },
+    { "id": "Portugal", "zh": "葡萄牙", "at": [-8.1, 39.7], "size": 10 },
+    { "id": "Italy", "zh": "意大利", "at": [13.4, 42.4], "size": 17 },
+    { "id": "Switzerland", "zh": "瑞士", "at": [8.2, 46.8], "size": 9 },
+    { "id": "Belgium", "zh": "比利时", "at": [4.7, 50.55], "size": 8 },
+    { "id": "Netherlands", "zh": "荷兰", "at": [5.7, 52.3], "size": 9 },
+    { "id": "Denmark", "zh": "丹麦", "at": [9.2, 56.1], "size": 10 },
+    { "id": "Norway", "zh": "挪威", "at": [8.8, 61.0], "size": 15 },
+    { "id": "Sweden", "zh": "瑞典", "at": [15.2, 58.8], "size": 16 },
+    { "id": "Finland", "zh": "芬兰", "at": [26.2, 62.8], "size": 16 },
+    { "id": "Estonia", "zh": "爱沙尼亚", "at": [25.9, 58.75], "size": 8 },
+    { "id": "Latvia", "zh": "拉脱维亚", "at": [25.6, 56.9], "size": 8 },
+    { "id": "Lithuania", "zh": "立陶宛", "at": [23.9, 55.4], "size": 8 },
+    { "id": "USSR", "zh": "苏联", "at": [40.5, 57.5], "size": 26 },
+    { "id": "Czechoslovakia", "zh": "捷克斯洛伐克", "at": [17.6, 49.25], "size": 8 },
+    { "id": "Hungary", "zh": "匈牙利", "at": [19.3, 47.1], "size": 10 },
+    { "id": "Romania", "zh": "罗马尼亚", "at": [25.0, 45.9], "size": 13 },
+    { "id": "Yugoslavia", "zh": "南斯拉夫", "at": [18.6, 44.5], "size": 12 },
+    { "id": "Bulgaria", "zh": "保加利亚", "at": [25.3, 42.75], "size": 10 },
+    { "id": "Greece", "zh": "希腊", "at": [22.1, 39.4], "size": 12 },
+    { "id": "Albania", "zh": "阿尔巴尼亚", "at": [19.75, 40.55], "size": 7 },
+    { "id": "Turkey", "zh": "土耳其", "at": [33.5, 39.2], "size": 18 },
+    { "id": "Libya", "zh": "意属利比亚", "at": [17.5, 31.0], "size": 12 },
+    { "id": "Algeria (France)", "zh": "法属阿尔及利亚", "at": [3.0, 33.2], "size": 11 },
+    { "id": "Tunisia", "zh": "突尼斯", "at": [9.4, 33.9], "size": 8 },
+    { "id": "Morocco (France)", "zh": "法属摩洛哥", "at": [-6.0, 32.6], "size": 10 },
+    { "id": "@sea", "zh": "大 西 洋", "at": [-10.5, 47.5], "size": 18 },
+    { "id": "@sea", "zh": "北 海", "at": [3.6, 56.6], "size": 15 },
+    { "id": "@sea", "zh": "挪 威 海", "at": [3.0, 66.0], "size": 15 },
+    { "id": "@sea", "zh": "波 罗 的 海", "at": [18.6, 56.1], "size": 10 },
+    { "id": "@sea", "zh": "地 中 海", "at": [17.0, 34.6], "size": 17 },
+    { "id": "@sea", "zh": "黑 海", "at": [34.4, 43.2], "size": 15 },
+    { "id": "@sea", "zh": "比斯开湾", "at": [-4.6, 45.4], "size": 9 },
+    { "id": "@sea", "zh": "爱琴海", "at": [25.0, 38.9], "size": 8 }
+  ],
+  "dispatches": [
+    { "date": "1939-08-23", "text": "苏德签订互不侵犯条约，附有瓜分东欧的秘密议定书" },
+    { "date": "1939-09-01", "text": "德军越境进攻波兰" },
+    { "date": "1939-09-03", "text": "英国、法国对德宣战" },
+    { "date": "1939-09-17", "text": "苏军自东越过波兰边境" },
+    { "date": "1939-09-28", "text": "华沙投降；德苏签订边界友好条约" },
+    { "date": "1939-10-06", "text": "科克战斗结束，波兰战役落幕" },
+    { "date": "1939-11-30", "text": "苏联进攻芬兰，冬季战争爆发" },
+    { "date": "1940-03-13", "text": "苏芬签订莫斯科和约" },
+    { "date": "1940-04-09", "text": "德军占领丹麦、突袭挪威——威悉演习" },
+    { "date": "1940-05-10", "text": "德军进攻荷兰、比利时、卢森堡与法国——黄色方案" },
+    { "date": "1940-05-15", "text": "荷兰投降" },
+    { "date": "1940-05-28", "text": "比利时投降" },
+    { "date": "1940-06-04", "text": "敦刻尔克撤退结束，三十余万盟军渡过海峡" },
+    { "date": "1940-06-10", "text": "意大利对英法宣战；挪威本土停止抵抗" },
+    { "date": "1940-06-14", "text": "德军进入巴黎" },
+    { "date": "1940-06-22", "text": "法德在贡比涅签署停战协定" },
+    { "date": "1940-07-10", "text": "海峡上空的船队空战开始——不列颠空战" },
+    { "date": "1940-08-03", "text": "波罗的海三国陆续被并入苏联" },
+    { "date": "1940-08-13", "text": "鹰日：德国空军全力攻击英国机场" },
+    { "date": "1940-09-07", "text": "德国空军转向轰炸伦敦" },
+    { "date": "1940-09-15", "text": "不列颠空战日，德军昼间空袭遭重创" },
+    { "date": "1940-09-27", "text": "德意日签订三国同盟条约" },
+    { "date": "1940-10-28", "text": "意军自阿尔巴尼亚入侵希腊" },
+    { "date": "1940-10-31", "text": "不列颠空战结束（英方定义）" },
+    { "date": "1940-11-20", "text": "匈牙利、罗马尼亚、斯洛伐克相继加入三国同盟" },
+    { "date": "1941-03-01", "text": "保加利亚加入三国同盟" },
+    { "date": "1941-03-27", "text": "贝尔格莱德政变，南斯拉夫退出三国同盟" },
+    { "date": "1941-04-06", "text": "德军入侵南斯拉夫与希腊" },
+    { "date": "1941-04-17", "text": "南斯拉夫军队投降" },
+    { "date": "1941-04-27", "text": "德军进入雅典" },
+    { "date": "1941-05-20", "text": "德军空降克里特——水星行动" },
+    { "date": "1941-06-01", "text": "英联邦守军撤离克里特" },
+    { "date": "1941-06-22", "text": "德军入侵苏联——巴巴罗萨行动" },
+    { "date": "1941-06-25", "text": "芬兰对苏开战，继续战争开始" },
+    { "date": "1941-09-08", "text": "列宁格勒被围" },
+    { "date": "1941-10-02", "text": "德军发动台风行动，进逼莫斯科" },
+    { "date": "1941-12-05", "text": "苏军在莫斯科城下转入反攻" },
+    { "date": "1941-12-11", "text": "珍珠港事件后，德国对美国宣战" }
+  ],
+  "sources": {
+    "pl": { "title": "Invasion of Poland", "url": "https://en.wikipedia.org/wiki/Invasion_of_Poland" },
+    "frontier": { "title": "German–Soviet Frontier Treaty (1939-09-28)", "url": "https://en.wikipedia.org/wiki/German%E2%80%93Soviet_Frontier_Treaty" },
+    "steel": { "title": "Pact of Steel", "url": "https://en.wikipedia.org/wiki/Pact_of_Steel" },
+    "winter": { "title": "Winter War", "url": "https://en.wikipedia.org/wiki/Winter_War" },
+    "no": { "title": "Operation Weserübung", "url": "https://en.wikipedia.org/wiki/Operation_Weser%C3%BCbung" },
+    "fr": { "title": "Battle of France", "url": "https://en.wikipedia.org/wiki/Battle_of_France" },
+    "armistice": { "title": "Armistice of 22 June 1940", "url": "https://en.wikipedia.org/wiki/Armistice_of_22_June_1940" },
+    "baltic": { "title": "Occupation of the Baltic states", "url": "https://en.wikipedia.org/wiki/Occupation_of_the_Baltic_states" },
+    "tripartite": { "title": "Tripartite Pact", "url": "https://en.wikipedia.org/wiki/Tripartite_Pact" },
+    "bk": { "title": "Balkans campaign (World War II)", "url": "https://en.wikipedia.org/wiki/Balkans_campaign_(World_War_II)" },
+    "cr": { "title": "Battle of Crete", "url": "https://en.wikipedia.org/wiki/Battle_of_Crete" },
+    "t1941": { "title": "Operation Barbarossa", "url": "https://en.wikipedia.org/wiki/Operation_Barbarossa" }
+  }
+}
