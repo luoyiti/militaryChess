@@ -20,6 +20,10 @@ export interface EngineCtx {
 export interface PluginHooks {
   /** 在作战简报面板追加内容（如克里特英文讲解） */
   sidebarBrief?(pane: HTMLElement): void;
+  /** 整体接管作战简报（如不列颠空战的空军力量卡）；面板内须保留 .sb-status 容器 */
+  replaceBrief?(pane: HTMLElement): void;
+  /** 接管「当前态势」区；返回 true 表示已处理 */
+  sidebarStatus?(t: number, el: HTMLElement): boolean;
   /** 顶栏按钮（如挪威「EN 旁白」开关） */
   topbar?(buttons: HTMLElement): void;
   /** 事件卡正文后追加的 HTML */

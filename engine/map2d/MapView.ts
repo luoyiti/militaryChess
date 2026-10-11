@@ -5,10 +5,11 @@
 import { zoom as d3zoom, zoomIdentity, type ZoomBehavior, type ZoomTransform } from 'd3-zoom';
 import { select } from 'd3-selection';
 import { interpolateZoom } from 'd3-interpolate';
-import { W, H, project } from '../geo/frame';
+import { W, H, project, unproject } from '../geo/frame';
 import type { LonLat } from '../core/types';
 import { clampViewport, coverageScale, visibleWorld, type WorldBounds } from './coverage';
 import { manifest } from '../campaign/context';
+import { cameraViewport, frameFocus, type CameraFrame, type CameraFocus } from '../app/camera';
 
 export interface View { k: number; x: number; y: number }
 
@@ -56,6 +57,7 @@ export class MapView {
   private zooming = false;
   private zoomEndTimer = 0;
   private anim: number | null = null;
+  private manualListeners: (() => void)[] = [];
   insets = {
     left: window.innerWidth < 760 ? 30 : 340,
     right: 20,
@@ -99,7 +101,11 @@ export class MapView {
         return zoomIdentity.translate(v.x, v.y).scale(v.k);
       })
       .scaleExtent([0.02, 5])
-      .on('start', () => { this.zooming = true; this.root.classList.add('zooming'); })
+      .on('start', (ev: { sourceEvent?: Event }) => {
+        // 用户手动拖动/缩放：打断运镜并通知（导演停止拉回全景）
+        if (ev.sourceEvent) { this.cancelFlight(); for (const fn of this.manualListeners) fn(); }
+        this.zooming = true; this.root.classList.add('zooming');
+      })
       .on('zoom', (ev: { transform: ZoomTransform }) => {
         const t = ev.transform;
         this.view = { k: t.k, x: t.x, y: t.y };
@@ -180,8 +186,9 @@ export class MapView {
 
   /** 把整张战役地图适配到侧栏和时间轴之间的区域 */
   private computeFit() {
-    const aw = Math.max(200, this.width - this.insets.left - this.insets.right);
-    const ah = Math.max(200, this.height - this.insets.top - this.insets.bottom);
+    const vp = cameraViewport(this.width, this.height, this.insets);
+    const aw = Math.max(200, vp.width);
+    const ah = Math.max(200, vp.height);
     const [fx0, fy0, fx1, fy1] = this.fitBox;
     this.fitK = Math.min(aw / (fx1 - fx0), ah / (fy1 - fy0));
     if (!this.coverageClamp) {
@@ -204,8 +211,28 @@ export class MapView {
 
   /** 屏幕可用区域中心 */
   private viewCenter(): [number, number] {
-    return [this.insets.left + (this.width - this.insets.left - this.insets.right) / 2, this.insets.top + (this.height - this.insets.top - this.insets.bottom) / 2];
+    const v = cameraViewport(this.width, this.height, this.insets);
+    return [v.x + v.width / 2, v.y + v.height / 2];
   }
+
+  /** 当前镜头（供 2D/3D 切换时同步） */
+  get cameraFocus(): CameraFocus {
+    return { ll: unproject(this.toWorld(...this.viewCenter())), relZoom: this.relK };
+  }
+  focusFor(frame: CameraFrame): CameraFocus {
+    this.computeFit();
+    return frameFocus(frame, cameraViewport(this.width, this.height, this.insets), this.fitK);
+  }
+  /** 把一组地点（事件的关联航线等）完整框进可用画面 */
+  flyToFrame(frame: CameraFrame, ms = 1400) {
+    const focus = this.focusFor(frame);
+    this.flyTo(focus.ll, focus.relZoom, ms);
+  }
+  cancelFlight() {
+    if (this.anim !== null) cancelAnimationFrame(this.anim);
+    this.anim = null;
+  }
+  onManual(fn: () => void) { this.manualListeners.push(fn); }
 
   flyTo(ll: LonLat, relZoom: number, ms = 1400) {
     const [wx, wy] = project(ll);
@@ -214,6 +241,8 @@ export class MapView {
 
   flyToWorld(wx: number, wy: number, relZoom: number, ms = 1400) {
     if (![wx, wy, relZoom].every(Number.isFinite)) return;
+    if (manifest().map.liveInsets) this.computeFit();
+    if (window.matchMedia?.('(prefers-reduced-motion: reduce)').matches) ms = 0;
     const [cx, cy] = this.viewCenter();
     const minK = this.coverageClamp ? coverageScale(this, this.backgroundBounds) : this.fitK * 0.55;
     const k1 = Math.max(minK, Math.min(Math.max(minK, this.fitK * 16), this.fitK * relZoom));
@@ -223,7 +252,7 @@ export class MapView {
       return zoomIdentity.translate(v.x, v.y).scale(v.k);
     };
     const sel = select(this.root);
-    if (this.anim) { cancelAnimationFrame(this.anim); this.anim = null; }
+    this.cancelFlight();
     if (ms <= 0) { sel.call(this.zb.transform, toT(k1, wx, wy)); return; }
     // d3.interpolateZoom 以「视口中心 + 视野宽度」插值
     const v = this.view;

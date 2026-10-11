@@ -42,7 +42,33 @@ export class StaticLayers {
     this.labelsG = svgEl('g', { class: 'labels' }, map.screenSvg);
     this.buildDefs();
     this.buildGeography();
+    this.buildOverlays();
     this.buildLabels();
+  }
+
+  /** 叠加层（data/overlays.json）：空域分区多边形、雷达探测圈、防线；按图层键分组以便开关 */
+  readonly overlayGroups = new Map<string, SVGGElement>();
+  private buildOverlays() {
+    const polyD = (ps: number[][][][]) => ps.map((p) => p.map((r) => 'M' + r.map((q) => q.map((v) => v.toFixed(1)).join(',')).join('L') + 'Z').join('')).join('');
+    for (const o of this.db.overlays) {
+      let layer = this.overlayGroups.get(o.layer);
+      if (!layer) { layer = svgEl('g', { class: `ov-layer ov-${o.layer}` }, this.groups.overlays); this.overlayGroups.set(o.layer, layer); }
+      if (o.kind === 'polygon' && o.polygons) {
+        const g = svgEl('g', { class: `ov ov-${o.style ?? 'polygon'} raf-sector` }, layer);
+        svgEl('path', { d: polyD(o.polygons.map((p) => p.map((r) => r.map((ll) => project(ll))))), class: 'sector-line' }, g);
+        if (o.label) svgEl('title', {}, g).textContent = o.label;
+      } else if (o.kind === 'range' && o.pos && o.rangeKm) {
+        const [x, y] = project(o.pos);
+        svgEl('circle', { cx: x, cy: y, r: o.rangeKm / KM, class: `radar-range ov-${o.style ?? 'range'}` }, layer);
+        if (o.label) svgEl('title', {}, layer).textContent = o.label + ' · 示意探测范围';
+      } else if (o.kind === 'line' && o.line) {
+        svgEl('path', { d: 'M' + o.line.map((ll) => project(ll).map((v) => v.toFixed(1)).join(',')).join('L'), class: `sector-line ov-${o.style ?? 'line'}` }, layer);
+      }
+    }
+  }
+  setOverlayVisible(layer: string, v: boolean) {
+    const g = this.overlayGroups.get(layer);
+    if (g) g.style.display = v ? '' : 'none';
   }
 
   private buildDefs() {

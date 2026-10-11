@@ -102,11 +102,11 @@ export class Timeline {
     for (let d = Math.ceil(T_START / 24) * 24; d <= T_END; d += 24) {
       const date = hoursToDate(d);
       const day = date.getUTCDate(), mon = date.getUTCMonth() + 1;
-      const major = day === 1 || day % 5 === 0;
+      const major = day === 1 || day % (manifest().ui.timeline?.majorEvery ?? 5) === 0;
       frag.push(`<div class="tl-tick ${major ? 'major' : ''}" style="left:${this.x(d)}%"><span>${day === 1 ? `${mon}月1日` : day}</span></div>`);
     }
     // 关键日期标注
-    for (const [iso, name] of manifest().marks ?? []) frag.push(`<div class="tl-mark" style="left:${this.x(isoToHours(iso))}%"><span>${name}</span></div>`);
+    for (const [iso, name] of manifest().marks ?? []) frag.push(`<div class="tl-mark"${iso === manifest().time.end ? ' data-end' : ''} style="left:${this.x(isoToHours(iso))}%"><span>${name}</span></div>`);
     // 事件刻度
     for (const e of this.db.events) {
       const lanes = manifest().ui.timeline?.lanes;
@@ -116,7 +116,7 @@ export class Timeline {
     this.track.querySelectorAll<HTMLElement>('.tl-ev').forEach((el) => {
       const e = this.db.events.find((x) => x.id === el.dataset.id)!;
       el.addEventListener('pointerenter', () => {
-        this.tipEl.innerHTML = `<b>${escapeXml(e.title.zh)}</b><span>${fmtDate(e.h)}</span>`;
+        this.tipEl.innerHTML = `<b>${escapeXml(e.title.zh)}</b><span>${fmtDate(e.h, e.precision !== 'day')}</span>`;
         this.tipEl.style.display = 'block';
         const r = el.getBoundingClientRect(), pr = this.el.getBoundingClientRect();
         this.tipEl.style.left = `${Math.min(pr.width - 240, Math.max(0, r.left - pr.left - 100))}px`;

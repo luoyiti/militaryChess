@@ -53,7 +53,7 @@ class Store {
   /** 按战役清单设置初始时刻、图层缺省与音量（boot 时，在任何订阅之前调用） */
   init(m: CampaignManifest, extraLayers: { key: string; default?: boolean }[] = []) {
     this.s.t = T_START;
-    for (const l of extraLayers) this.s.layers[l.key] = l.default ?? true;
+    for (const l of [...(m.ui.extraLayers ?? []), ...extraLayers]) this.s.layers[l.key] = l.default ?? true;
     for (const [k, v] of Object.entries(m.ui.layers ?? {})) if (v?.default !== undefined) this.s.layers[k] = v.default;
     if (m.audio.musicVol !== undefined) this.s.musicVol = m.audio.musicVol;
   }

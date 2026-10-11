@@ -1,0 +1,129 @@
+[
+ {
+  "id": "spitfire",
+  "side": "GB",
+  "name": {
+   "zh": "喷火 Mk I 战斗机",
+   "orig": "Supermarine Spitfire Mk I"
+  },
+  "class": "fighter",
+  "crew": 1,
+  "gun": "8 × .303 in Browning 机枪",
+  "model": "spitfire",
+  "desc": "英国主力单座战斗机，椭圆机翼和液冷梅林发动机是其识别特征。这里展示1940年的Mk I，装八挺机枪，常与飓风共同拦截来袭机群；性能与Bf 109E接近，空战结果仍受飞行员与战术影响。",
+  "sources": [
+   "eq_raf_spitfire",
+   "eq_raf_spitfire_guide"
+  ]
+ },
+ {
+  "id": "hurricane",
+  "side": "GB",
+  "name": {
+   "zh": "飓风 Mk I 战斗机",
+   "orig": "Hawker Hurricane Mk I"
+  },
+  "class": "fighter",
+  "crew": 1,
+  "gun": "8 × .303 in Browning 机枪",
+  "model": "hurricane",
+  "desc": "1937年服役的英国单座战斗机，宽厚机翼与布面后机身便于维修。1940年的Mk I装八挺机枪，是战斗机司令部数量较多的主力；经历法国战役后，在英国本土防空中承担持续出击和拦截轰炸机的任务。",
+  "sources": [
+   "eq_raf_hurricane",
+   "eq_raf_bob_education"
+  ]
+ },
+ {
+  "id": "bf109",
+  "side": "DE",
+  "name": {
+   "zh": "Bf 109 E-3 战斗机",
+   "orig": "Messerschmitt Bf 109 E-3 Emil"
+  },
+  "class": "fighter",
+  "crew": 1,
+  "model": "bf109",
+  "desc": "德国1940年主要单座战斗机，这里采用E-3「埃米尔」型。液冷发动机和紧凑翼形是识别特征，性能可与喷火抗衡；由海峡对岸基地执行护航时，燃油与续航限制了在英国上空停留和交战的时间。",
+  "sources": [
+   "eq_raf_bf109"
+  ]
+ },
+ {
+  "id": "bf110",
+  "side": "DE",
+  "name": {
+   "zh": "Bf 110 C 重型战斗机",
+   "orig": "Messerschmitt Bf 110 C"
+  },
+  "class": "fighter",
+  "crew": 2,
+  "model": "bf110",
+  "desc": "双发双座「驱逐机」，长机身、双垂尾与双发动机是主要识别特征。这里采用1940年C型，承担远程护航和进攻任务；白昼近距护航迫使它牺牲速度，在英国战役中面对更灵活的喷火与飓风遭到重大损失。",
+  "sources": [
+   "eq_raf_bf110",
+   "eq_raf_hardest_day"
+  ]
+ },
+ {
+  "id": "he111",
+  "side": "DE",
+  "name": {
+   "zh": "He 111 H-3 轰炸机",
+   "orig": "Heinkel He 111 H-3"
+  },
+  "class": "bomber",
+  "model": "he111",
+  "desc": "德国双发中型轰炸机，这里采用1940年的H-3型，保留全玻璃机鼻与宽展机翼。它参与攻击英国港口、机场和城市，但白昼编队因速度与自卫火力不足而容易受拦截；九月中旬后逐渐转向夜间轰炸。",
+  "sources": [
+   "eq_raf_he111",
+   "eq_raf_bob_education"
+  ]
+ },
+ {
+  "id": "do17",
+  "side": "DE",
+  "name": {
+   "zh": "Do 17 Z-2 轰炸机",
+   "orig": "Dornier Do 17 Z-2"
+  },
+  "class": "bomber",
+  "crew": 4,
+  "gun": "最多 7 × 7.92 mm MG 15，约 1 t 炸弹",
+  "model": "do17",
+  "desc": "双发双垂尾轰炸机，细长机身与肩置机翼使它被称为「飞行铅笔」。这里采用1940年Z-2型，配两台星形发动机和四名机组，参与英国战役的机场攻击；博物馆打捞的同型残骸于8月26日落入古德温沙洲。",
+  "sources": [
+   "eq_raf_do17",
+   "eq_raf_hardest_day"
+  ]
+ },
+ {
+  "id": "ju87",
+  "side": "DE",
+  "name": {
+   "zh": "Ju 87 B-2 俯冲轰炸机",
+   "orig": "Junkers Ju 87 B-2 Stuka"
+  },
+  "class": "dive_bomber",
+  "crew": 2,
+  "model": "ju87",
+  "desc": "固定起落架和倒海鸥翼是「斯图卡」的识别特征，这里采用1940年B-2型。它擅长精确俯冲攻击，战役初期袭击海峡船只、沿海机场与雷达站；机动与自卫能力不足，八月遭英军战斗机重创后退出主要白昼战斗。",
+  "sources": [
+   "eq_raf_ju87",
+   "eq_raf_hardest_day"
+  ]
+ },
+ {
+  "id": "ju88",
+  "side": "DE",
+  "name": {
+   "zh": "Ju 88 A-1 轰炸机",
+   "orig": "Junkers Ju 88 A-1"
+  },
+  "class": "bomber",
+  "model": "ju88",
+  "desc": "多用途双发飞机，这里采用英国战役主要使用的A-1轰炸型，保留短翼展、集中玻璃座舱与机腹吊舱。它在战役初期袭击雷达站、机场及港口，性能和抗损能力较好，但装甲与防御武器不足，仍容易遭英国战斗机攻击。",
+  "sources": [
+   "eq_raf_ju88"
+  ]
+ }
+]

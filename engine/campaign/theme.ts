@@ -32,6 +32,7 @@ export function themeCSS(m: CampaignManifest): string {
     '--theatre-border': t.theatreBorder, '--theatre-halo': t.theatreHalo, '--rest-fill': t.restFill,
     '--slot-a-line': a.line, '--slot-b-line': b.line,
     '--slot-a-legend': a.legend, '--slot-b-legend': b.legend,
+    '--slot-a-opacity': String(a.opacity ?? 1),
     '--slot-b-opacity': String(b.opacity ?? 1),
   };
   const lines = [`:root{${Object.entries(root).map(([k, v]) => `${k}:${v}`).join(';')}}`];

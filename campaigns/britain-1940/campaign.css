@@ -1,0 +1,18 @@
+/* 不列颠空战专属版式：标题章、时间轴阶段带与末端标记。 */
+.intro-folder { max-height: 90vh; overflow: auto; } .intro h1 { font-size: 64px; letter-spacing: .12em; }
+.tl-phase-band { overflow: hidden; } .tl-phase-band > span { white-space: nowrap; }
+.tl-mark { max-width: 120px; } .tl-mark[data-end] { transform: translateX(-100%); }
+.tb-title small { letter-spacing: .1em; } .tb-mark { font-size: 38px; }
+.tb-title b, .tb-title small, .tb-btns button { white-space: nowrap; }
+.tb-btns, .seg, .seg button { flex-shrink: 0; }
+@media (max-width: 900px) {
+  .sidebar { width: 270px; } .cards { width: 320px; right: 8px; } .tb-phase { display: none; } .intro h1 { font-size: 44px; } .intro-folder { padding: 26px; }
+  .topbar { gap: 8px; padding: 0 12px; justify-content: space-between; }
+  .tb-title { gap: 8px; min-width: 0; } .tb-title small { display: none; } .tb-title b { font-size: 17px; letter-spacing: .15em; } .tb-mark { font-size: 30px; }
+  .sidebar:not(.collapsed) { z-index: 20; }
+}
+@media (max-width: 620px) {
+  .tb-home, .tb-full, .tb-volume { display: none; } .audio-panel { right: 8px; }
+  .tb-title b { font-size: 13px; letter-spacing: .05em; } .tb-mark { font-size: 22px; padding: 2px 4px; }
+  .timeline { height: 148px; padding: 10px; } .tl-date { flex-basis: 100%; margin-left: 0; line-height: 18px; text-align: center; }
+}

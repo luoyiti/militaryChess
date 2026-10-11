@@ -12,6 +12,7 @@ import { SCHEMES, type Scheme } from './paint';
 import * as V from './vehicles';
 import { infantry, cavalry, fieldGun } from './figures';
 import { navalToken, aircraftToken } from './campaignTokens';
+import * as A from './aircraft';
 
 import { MODEL_SPECS as MODEL_SPECS_REG } from './specs';
 export { MODEL_SPECS, type ModelSpec, type ModelKind } from './specs';
@@ -54,6 +55,15 @@ const DEFS: Record<string, Def> = {
   inf_allied: { scheme: { ...SCHEMES.inf_de, roles: { ...SCHEMES.inf_de.roles, uniform: '#6e7056', helmet: '#68705f' } }, build: (b) => infantry(b, 'de') },
   navy_token: { scheme: TOKEN, build: navalToken },
   air_token: { scheme: TOKEN, build: aircraftToken },
+  // 1940 年飞机（不列颠空战）
+  spitfire: { scheme: SCHEMES.raf, build: A.spitfire },
+  hurricane: { scheme: SCHEMES.raf, build: A.hurricane },
+  bf109: { scheme: SCHEMES.luftwaffe, build: A.bf109 },
+  bf110: { scheme: SCHEMES.luftwaffe, build: A.bf110 },
+  he111: { scheme: SCHEMES.luftwaffe, build: A.he111 },
+  do17: { scheme: SCHEMES.luftwaffe, build: A.do17 },
+  ju87: { scheme: SCHEMES.luftwaffe, build: A.ju87 },
+  ju88: { scheme: SCHEMES.luftwaffe, build: A.ju88 },
 
 };
 

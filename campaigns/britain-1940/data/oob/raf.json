@@ -1,0 +1,4836 @@
+[
+ {
+  "id": "gb.fighter_command",
+  "side": "GB",
+  "echelon": "command",
+  "type": "hq",
+  "parent": null,
+  "name": {
+   "zh": "RAF 战斗机司令部",
+   "orig": "RAF Fighter Command",
+   "short": "Fighter Cmd"
+  },
+  "base": "@bentley_priory",
+  "track": [
+   {
+    "at": "1940-07-10T00:00",
+    "pos": "@bentley_priory",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0,
+    "note": "固定指挥部；位置不随下属飞机飞行"
+   },
+   {
+    "at": "1940-10-31T23:59",
+    "pos": "@bentley_priory",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   }
+  ],
+  "sources": [
+   "dowding_despatch",
+   "raf_battle_overview"
+  ],
+  "confidence": "high",
+  "history": "战斗机司令部设于本特利修道院。雷达情报在过滤室汇总，再交航空群决定出击；扇区负责直接引导中队，观察哨补充越过海岸后的跟踪。它体现情报、通信、地勤和飞行员共同构成的防空体系。",
+  "commander": {
+   "zh": "休·道丁 Hugh Dowding",
+   "orig": "休·道丁 Hugh Dowding"
+  }
+ },
+ {
+  "id": "gb.group10",
+  "side": "GB",
+  "echelon": "air_group",
+  "type": "hq",
+  "parent": "gb.fighter_command",
+  "name": {
+   "zh": "第 10 航空群 · 英格兰西南及威尔士",
+   "orig": "No. 10 Group",
+   "short": "10 Group"
+  },
+  "base": "@rudloe_manor",
+  "track": [
+   {
+    "at": "1940-07-10T00:00",
+    "pos": "@rudloe_manor",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0,
+    "note": "固定指挥部；位置不随下属飞机飞行"
+   },
+   {
+    "at": "1940-10-31T23:59",
+    "pos": "@rudloe_manor",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   }
+  ],
+  "sources": [
+   "raf_raf_commanders",
+   "dowding_despatch"
+  ],
+  "confidence": "high",
+  "history": "此固定指挥节点用于展示航空指挥层级。下属仅选取有来源的代表中队或大队，未穷举完整战斗序列，也不代表指挥部本身执行飞行。",
+  "commander": {
+   "zh": "昆廷·布兰德 Quintin Brand",
+   "orig": "昆廷·布兰德 Quintin Brand"
+  }
+ },
+ {
+  "id": "gb.group11",
+  "side": "GB",
+  "echelon": "air_group",
+  "type": "hq",
+  "parent": "gb.fighter_command",
+  "name": {
+   "zh": "第 11 航空群 · 伦敦及英格兰东南",
+   "orig": "No. 11 Group",
+   "short": "11 Group"
+  },
+  "base": "@uxbridge",
+  "track": [
+   {
+    "at": "1940-07-10T00:00",
+    "pos": "@uxbridge",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0,
+    "note": "固定指挥部；位置不随下属飞机飞行"
+   },
+   {
+    "at": "1940-10-31T23:59",
+    "pos": "@uxbridge",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   }
+  ],
+  "sources": [
+   "raf_raf_commanders",
+   "dowding_despatch"
+  ],
+  "confidence": "high",
+  "history": "此固定指挥节点用于展示航空指挥层级。下属仅选取有来源的代表中队或大队，未穷举完整战斗序列，也不代表指挥部本身执行飞行。",
+  "commander": {
+   "zh": "基思·帕克 Keith Park",
+   "orig": "基思·帕克 Keith Park"
+  }
+ },
+ {
+  "id": "gb.group12",
+  "side": "GB",
+  "echelon": "air_group",
+  "type": "hq",
+  "parent": "gb.fighter_command",
+  "name": {
+   "zh": "第 12 航空群 · 英格兰中部及东部",
+   "orig": "No. 12 Group",
+   "short": "12 Group"
+  },
+  "base": "@watnall",
+  "track": [
+   {
+    "at": "1940-07-10T00:00",
+    "pos": "@watnall",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0,
+    "note": "固定指挥部；位置不随下属飞机飞行"
+   },
+   {
+    "at": "1940-10-31T23:59",
+    "pos": "@watnall",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   }
+  ],
+  "sources": [
+   "raf_raf_commanders",
+   "dowding_despatch"
+  ],
+  "confidence": "high",
+  "history": "此固定指挥节点用于展示航空指挥层级。下属仅选取有来源的代表中队或大队，未穷举完整战斗序列，也不代表指挥部本身执行飞行。",
+  "commander": {
+   "zh": "特拉福德·利马洛里 Trafford Leigh-Mallory",
+   "orig": "特拉福德·利马洛里 Trafford Leigh-Mallory"
+  }
+ },
+ {
+  "id": "gb.group13",
+  "side": "GB",
+  "echelon": "air_group",
+  "type": "hq",
+  "parent": "gb.fighter_command",
+  "name": {
+   "zh": "第 13 航空群 · 英格兰北部及苏格兰",
+   "orig": "No. 13 Group",
+   "short": "13 Group"
+  },
+  "base": "@kenton_bar",
+  "track": [
+   {
+    "at": "1940-07-10T00:00",
+    "pos": "@kenton_bar",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0,
+    "note": "固定指挥部；位置不随下属飞机飞行"
+   },
+   {
+    "at": "1940-10-31T23:59",
+    "pos": "@kenton_bar",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   }
+  ],
+  "sources": [
+   "raf_raf_commanders",
+   "dowding_despatch"
+  ],
+  "confidence": "high",
+  "history": "此固定指挥节点用于展示航空指挥层级。下属仅选取有来源的代表中队或大队，未穷举完整战斗序列，也不代表指挥部本身执行飞行。",
+  "commander": {
+   "zh": "理查德·索尔 Richard Saul",
+   "orig": "理查德·索尔 Richard Saul"
+  }
+ },
+ {
+  "id": "gb.sector_middle_wallop",
+  "side": "GB",
+  "echelon": "sector",
+  "type": "hq",
+  "parent": "gb.group10",
+  "name": {
+   "zh": "米德尔沃洛普扇区",
+   "orig": "RAF Middle Wallop Sector",
+   "short": "Middle Wallop"
+  },
+  "base": "@middle_wallop",
+  "track": [
+   {
+    "at": "1940-07-10T00:00",
+    "pos": "@middle_wallop",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0,
+    "note": "固定指挥部；位置不随下属飞机飞行"
+   },
+   {
+    "at": "1940-10-31T23:59",
+    "pos": "@middle_wallop",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   }
+  ],
+  "sources": [
+   "dowding_despatch",
+   "commons_britain_map"
+  ],
+  "confidence": "high",
+  "history": "本作按代表时期把中队归入扇区。扇区从航空群接收任务，并通过无线电引导拦截；实际转场可能跨防区，本树不重写每日完整隶属关系。固定机场符号代表指挥节点，不会跟随飞机出击。"
+ },
+ {
+  "id": "gb.sector_hornchurch",
+  "side": "GB",
+  "echelon": "sector",
+  "type": "hq",
+  "parent": "gb.group11",
+  "name": {
+   "zh": "霍恩彻奇扇区",
+   "orig": "RAF Hornchurch Sector",
+   "short": "Hornchurch"
+  },
+  "base": "@hornchurch",
+  "track": [
+   {
+    "at": "1940-07-10T00:00",
+    "pos": "@hornchurch",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0,
+    "note": "固定指挥部；位置不随下属飞机飞行"
+   },
+   {
+    "at": "1940-10-31T23:59",
+    "pos": "@hornchurch",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   }
+  ],
+  "sources": [
+   "dowding_despatch",
+   "commons_britain_map"
+  ],
+  "confidence": "high",
+  "history": "本作按代表时期把中队归入扇区。扇区从航空群接收任务，并通过无线电引导拦截；实际转场可能跨防区，本树不重写每日完整隶属关系。固定机场符号代表指挥节点，不会跟随飞机出击。"
+ },
+ {
+  "id": "gb.sector_north_weald",
+  "side": "GB",
+  "echelon": "sector",
+  "type": "hq",
+  "parent": "gb.group11",
+  "name": {
+   "zh": "诺斯威尔德扇区",
+   "orig": "RAF North Weald Sector",
+   "short": "North Weald"
+  },
+  "base": "@north_weald",
+  "track": [
+   {
+    "at": "1940-07-10T00:00",
+    "pos": "@north_weald",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0,
+    "note": "固定指挥部；位置不随下属飞机飞行"
+   },
+   {
+    "at": "1940-10-31T23:59",
+    "pos": "@north_weald",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   }
+  ],
+  "sources": [
+   "dowding_despatch",
+   "commons_britain_map"
+  ],
+  "confidence": "high",
+  "history": "本作按代表时期把中队归入扇区。扇区从航空群接收任务，并通过无线电引导拦截；实际转场可能跨防区，本树不重写每日完整隶属关系。固定机场符号代表指挥节点，不会跟随飞机出击。"
+ },
+ {
+  "id": "gb.sector_kenley",
+  "side": "GB",
+  "echelon": "sector",
+  "type": "hq",
+  "parent": "gb.group11",
+  "name": {
+   "zh": "肯利扇区",
+   "orig": "RAF Kenley Sector",
+   "short": "Kenley"
+  },
+  "base": "@kenley",
+  "track": [
+   {
+    "at": "1940-07-10T00:00",
+    "pos": "@kenley",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0,
+    "note": "固定指挥部；位置不随下属飞机飞行"
+   },
+   {
+    "at": "1940-10-31T23:59",
+    "pos": "@kenley",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   }
+  ],
+  "sources": [
+   "dowding_despatch",
+   "commons_britain_map"
+  ],
+  "confidence": "high",
+  "history": "本作按代表时期把中队归入扇区。扇区从航空群接收任务，并通过无线电引导拦截；实际转场可能跨防区，本树不重写每日完整隶属关系。固定机场符号代表指挥节点，不会跟随飞机出击。"
+ },
+ {
+  "id": "gb.sector_tangmere",
+  "side": "GB",
+  "echelon": "sector",
+  "type": "hq",
+  "parent": "gb.group11",
+  "name": {
+   "zh": "唐米尔扇区",
+   "orig": "RAF Tangmere Sector",
+   "short": "Tangmere"
+  },
+  "base": "@tangmere",
+  "track": [
+   {
+    "at": "1940-07-10T00:00",
+    "pos": "@tangmere",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0,
+    "note": "固定指挥部；位置不随下属飞机飞行"
+   },
+   {
+    "at": "1940-10-31T23:59",
+    "pos": "@tangmere",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   }
+  ],
+  "sources": [
+   "dowding_despatch",
+   "commons_britain_map"
+  ],
+  "confidence": "high",
+  "history": "本作按代表时期把中队归入扇区。扇区从航空群接收任务，并通过无线电引导拦截；实际转场可能跨防区，本树不重写每日完整隶属关系。固定机场符号代表指挥节点，不会跟随飞机出击。"
+ },
+ {
+  "id": "gb.sector_biggin_hill",
+  "side": "GB",
+  "echelon": "sector",
+  "type": "hq",
+  "parent": "gb.group11",
+  "name": {
+   "zh": "比金山扇区",
+   "orig": "RAF Biggin Hill Sector",
+   "short": "Biggin Hill"
+  },
+  "base": "@biggin_hill",
+  "track": [
+   {
+    "at": "1940-07-10T00:00",
+    "pos": "@biggin_hill",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0,
+    "note": "固定指挥部；位置不随下属飞机飞行"
+   },
+   {
+    "at": "1940-10-31T23:59",
+    "pos": "@biggin_hill",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   }
+  ],
+  "sources": [
+   "dowding_despatch",
+   "commons_britain_map"
+  ],
+  "confidence": "high",
+  "history": "本作按代表时期把中队归入扇区。扇区从航空群接收任务，并通过无线电引导拦截；实际转场可能跨防区，本树不重写每日完整隶属关系。固定机场符号代表指挥节点，不会跟随飞机出击。"
+ },
+ {
+  "id": "gb.sector_northolt",
+  "side": "GB",
+  "echelon": "sector",
+  "type": "hq",
+  "parent": "gb.group11",
+  "name": {
+   "zh": "诺索尔特扇区",
+   "orig": "RAF Northolt Sector",
+   "short": "Northolt"
+  },
+  "base": "@northolt",
+  "track": [
+   {
+    "at": "1940-07-10T00:00",
+    "pos": "@northolt",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0,
+    "note": "固定指挥部；位置不随下属飞机飞行"
+   },
+   {
+    "at": "1940-10-31T23:59",
+    "pos": "@northolt",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   }
+  ],
+  "sources": [
+   "dowding_despatch",
+   "commons_britain_map"
+  ],
+  "confidence": "high",
+  "history": "本作按代表时期把中队归入扇区。扇区从航空群接收任务，并通过无线电引导拦截；实际转场可能跨防区，本树不重写每日完整隶属关系。固定机场符号代表指挥节点，不会跟随飞机出击。"
+ },
+ {
+  "id": "gb.sector_duxford",
+  "side": "GB",
+  "echelon": "sector",
+  "type": "hq",
+  "parent": "gb.group12",
+  "name": {
+   "zh": "达克斯福德扇区",
+   "orig": "RAF Duxford Sector",
+   "short": "Duxford"
+  },
+  "base": "@duxford",
+  "track": [
+   {
+    "at": "1940-07-10T00:00",
+    "pos": "@duxford",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0,
+    "note": "固定指挥部；位置不随下属飞机飞行"
+   },
+   {
+    "at": "1940-10-31T23:59",
+    "pos": "@duxford",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   }
+  ],
+  "sources": [
+   "dowding_despatch",
+   "commons_britain_map"
+  ],
+  "confidence": "high",
+  "history": "本作按代表时期把中队归入扇区。扇区从航空群接收任务，并通过无线电引导拦截；实际转场可能跨防区，本树不重写每日完整隶属关系。固定机场符号代表指挥节点，不会跟随飞机出击。"
+ },
+ {
+  "id": "gb.sector_coltishall",
+  "side": "GB",
+  "echelon": "sector",
+  "type": "hq",
+  "parent": "gb.group12",
+  "name": {
+   "zh": "科尔蒂歇尔扇区",
+   "orig": "RAF Coltishall Sector",
+   "short": "Coltishall"
+  },
+  "base": "@coltishall",
+  "track": [
+   {
+    "at": "1940-07-10T00:00",
+    "pos": "@coltishall",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0,
+    "note": "固定指挥部；位置不随下属飞机飞行"
+   },
+   {
+    "at": "1940-10-31T23:59",
+    "pos": "@coltishall",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   }
+  ],
+  "sources": [
+   "dowding_despatch",
+   "commons_britain_map"
+  ],
+  "confidence": "high",
+  "history": "本作按代表时期把中队归入扇区。扇区从航空群接收任务，并通过无线电引导拦截；实际转场可能跨防区，本树不重写每日完整隶属关系。固定机场符号代表指挥节点，不会跟随飞机出击。"
+ },
+ {
+  "id": "gb.sector_leconfield",
+  "side": "GB",
+  "echelon": "sector",
+  "type": "hq",
+  "parent": "gb.group13",
+  "name": {
+   "zh": "莱肯菲尔德扇区",
+   "orig": "RAF Leconfield Sector",
+   "short": "Leconfield"
+  },
+  "base": "@leconfield",
+  "track": [
+   {
+    "at": "1940-07-10T00:00",
+    "pos": "@leconfield",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0,
+    "note": "固定指挥部；位置不随下属飞机飞行"
+   },
+   {
+    "at": "1940-10-31T23:59",
+    "pos": "@leconfield",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   }
+  ],
+  "sources": [
+   "dowding_despatch",
+   "commons_britain_map"
+  ],
+  "confidence": "high",
+  "history": "本作按代表时期把中队归入扇区。扇区从航空群接收任务，并通过无线电引导拦截；实际转场可能跨防区，本树不重写每日完整隶属关系。固定机场符号代表指挥节点，不会跟随飞机出击。"
+ },
+ {
+  "id": "gb.sector_acklington",
+  "side": "GB",
+  "echelon": "sector",
+  "type": "hq",
+  "parent": "gb.group13",
+  "name": {
+   "zh": "阿克灵顿扇区",
+   "orig": "RAF Acklington Sector",
+   "short": "Acklington"
+  },
+  "base": "@acklington",
+  "track": [
+   {
+    "at": "1940-07-10T00:00",
+    "pos": "@acklington",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0,
+    "note": "固定指挥部；位置不随下属飞机飞行"
+   },
+   {
+    "at": "1940-10-31T23:59",
+    "pos": "@acklington",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   }
+  ],
+  "sources": [
+   "dowding_despatch",
+   "commons_britain_map"
+  ],
+  "confidence": "high",
+  "history": "本作按代表时期把中队归入扇区。扇区从航空群接收任务，并通过无线电引导拦截；实际转场可能跨防区，本树不重写每日完整隶属关系。固定机场符号代表指挥节点，不会跟随飞机出击。"
+ },
+ {
+  "id": "gb.sector_usworth",
+  "side": "GB",
+  "echelon": "sector",
+  "type": "hq",
+  "parent": "gb.group13",
+  "name": {
+   "zh": "阿斯沃思扇区",
+   "orig": "RAF Usworth Sector",
+   "short": "Usworth"
+  },
+  "base": "@usworth",
+  "track": [
+   {
+    "at": "1940-07-10T00:00",
+    "pos": "@usworth",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0,
+    "note": "固定指挥部；位置不随下属飞机飞行"
+   },
+   {
+    "at": "1940-10-31T23:59",
+    "pos": "@usworth",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   }
+  ],
+  "sources": [
+   "dowding_despatch",
+   "commons_britain_map"
+  ],
+  "confidence": "high",
+  "history": "本作按代表时期把中队归入扇区。扇区从航空群接收任务，并通过无线电引导拦截；实际转场可能跨防区，本树不重写每日完整隶属关系。固定机场符号代表指挥节点，不会跟随飞机出击。"
+ },
+ {
+  "id": "gb.sector_drem",
+  "side": "GB",
+  "echelon": "sector",
+  "type": "hq",
+  "parent": "gb.group13",
+  "name": {
+   "zh": "德雷姆扇区",
+   "orig": "RAF Drem Sector",
+   "short": "Drem"
+  },
+  "base": "@drem",
+  "track": [
+   {
+    "at": "1940-07-10T00:00",
+    "pos": "@drem",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0,
+    "note": "固定指挥部；位置不随下属飞机飞行"
+   },
+   {
+    "at": "1940-10-31T23:59",
+    "pos": "@drem",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   }
+  ],
+  "sources": [
+   "dowding_despatch",
+   "commons_britain_map"
+  ],
+  "confidence": "high",
+  "history": "本作按代表时期把中队归入扇区。扇区从航空群接收任务，并通过无线电引导拦截；实际转场可能跨防区，本树不重写每日完整隶属关系。固定机场符号代表指挥节点，不会跟随飞机出击。"
+ },
+ {
+  "id": "gb.54_sqn",
+  "side": "GB",
+  "echelon": "squadron",
+  "type": "fighter",
+  "parent": "gb.sector_hornchurch",
+  "name": {
+   "zh": "RAF 第 54 中队",
+   "orig": "No. 54 Squadron RAF",
+   "short": "54 Sqn"
+  },
+  "model": "spitfire",
+  "base": "@rochford",
+  "strength": {
+   "aircraft": 12
+  },
+  "equipment": [
+   {
+    "id": "spitfire",
+    "count": 12
+   }
+  ],
+  "active": {
+   "from": "1940-07-10T00:00",
+   "to": "1940-10-31T23:59"
+  },
+  "track": [
+   {
+    "at": "1940-07-10T00:00",
+    "pos": "@rochford",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-07-10T11:46",
+    "pos": "@rochford",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "出击前停机；此后钟点与航迹为教学重构"
+   },
+   {
+    "at": "1940-07-10T11:47",
+    "pos": "@rochford",
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-07-10T11:54",
+    "pos": [
+     0.81,
+     51.22395
+    ],
+    "flightPhase": "outbound",
+    "altitudeM": 5500
+   },
+   {
+    "at": "1940-07-10T12:00",
+    "pos": "@channel_convoy",
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 5500,
+    "note": "代表交战位置及高度为示意，不是精确历史航迹"
+   },
+   {
+    "at": "1940-07-10T12:04",
+    "pos": [
+     1.12,
+     51.12
+    ],
+    "flightPhase": "engaged",
+    "altitudeM": 5500,
+    "note": "教学交战回旋，避免飞机悬停；不是精确历史盘旋轨迹"
+   },
+   {
+    "at": "1940-07-10T12:08",
+    "pos": [
+     0.72,
+     51.06
+    ],
+    "flightPhase": "engaged",
+    "altitudeM": 5200
+   },
+   {
+    "at": "1940-07-10T12:12",
+    "pos": [
+     0.955,
+     50.96
+    ],
+    "flightPhase": "returning",
+    "status": "withdrawing",
+    "altitudeM": 4900
+   },
+   {
+    "at": "1940-07-10T12:17",
+    "pos": [
+     0.89,
+     51.18895
+    ],
+    "flightPhase": "returning",
+    "altitudeM": 3500
+   },
+   {
+    "at": "1940-07-10T12:25",
+    "pos": "@rochford",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "当日返航完成；直到下一出击一直停在基地"
+   },
+   {
+    "at": "1940-07-10T12:26",
+    "pos": "@rochford",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-07-24T05:59",
+    "pos": "@rochford",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-07-24T06:00",
+    "pos": "@rochford",
+    "status": "active",
+    "flightPhase": "outbound",
+    "altitudeM": 0,
+    "note": "代表转场日；06:00 与飞行过程为示意。仅月级明确的德国调动以月初播放。"
+   },
+   {
+    "at": "1940-07-24T06:03",
+    "pos": [
+     0.45199999999999996,
+     51.555499999999995
+    ],
+    "flightPhase": "outbound",
+    "altitudeM": 2200
+   },
+   {
+    "at": "1940-07-24T06:07",
+    "pos": "@hornchurch",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-07-24T06:08",
+    "pos": "@hornchurch",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-09-03T05:59",
+    "pos": "@hornchurch",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-09-03T06:00",
+    "pos": "@hornchurch",
+    "status": "active",
+    "flightPhase": "outbound",
+    "altitudeM": 0,
+    "note": "代表转场日；06:00 与飞行过程为示意。仅月级明确的德国调动以月初播放。"
+   },
+   {
+    "at": "1940-09-03T06:32",
+    "pos": [
+     -0.7205,
+     52.9495
+    ],
+    "flightPhase": "outbound",
+    "altitudeM": 2200
+   },
+   {
+    "at": "1940-09-03T07:04",
+    "pos": "@catterick",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-09-03T07:05",
+    "pos": "@catterick",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-10-31T23:59",
+    "pos": "@catterick",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   }
+  ],
+  "history": "由罗奇福德／霍恩彻奇参加海峡护航与东南防空。战役初期的 Spitfire 中队承担船队掩护；9 月初转到卡特里克休整。显示机数为代表编队标尺；航迹、钟点与高度为教学重构，不是逐架作战记录。",
+  "sources": [
+   "dowding_despatch",
+   "raf_phase_1",
+   "britain_reconstruction"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "gb.56_sqn",
+  "side": "GB",
+  "echelon": "squadron",
+  "type": "fighter",
+  "parent": "gb.sector_north_weald",
+  "name": {
+   "zh": "RAF 第 56 中队",
+   "orig": "No. 56 Squadron RAF",
+   "short": "56 Sqn"
+  },
+  "model": "hurricane",
+  "base": "@north_weald",
+  "strength": {
+   "aircraft": 12
+  },
+  "equipment": [
+   {
+    "id": "hurricane",
+    "count": 12
+   }
+  ],
+  "active": {
+   "from": "1940-07-10T00:00",
+   "to": "1940-10-31T23:59"
+  },
+  "track": [
+   {
+    "at": "1940-07-10T00:00",
+    "pos": "@north_weald",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-07-10T11:42",
+    "pos": "@north_weald",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "出击前停机；此后钟点与航迹为教学重构"
+   },
+   {
+    "at": "1940-07-10T11:43",
+    "pos": "@north_weald",
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-07-10T11:52",
+    "pos": [
+     0.56385,
+     51.29145
+    ],
+    "flightPhase": "outbound",
+    "altitudeM": 5500
+   },
+   {
+    "at": "1940-07-10T12:00",
+    "pos": "@channel_convoy",
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 5500,
+    "note": "代表交战位置及高度为示意，不是精确历史航迹"
+   },
+   {
+    "at": "1940-07-10T12:04",
+    "pos": [
+     1.12,
+     51.12
+    ],
+    "flightPhase": "engaged",
+    "altitudeM": 5500,
+    "note": "教学交战回旋，避免飞机悬停；不是精确历史盘旋轨迹"
+   },
+   {
+    "at": "1940-07-10T12:08",
+    "pos": [
+     0.72,
+     51.06
+    ],
+    "flightPhase": "engaged",
+    "altitudeM": 5200
+   },
+   {
+    "at": "1940-07-10T12:12",
+    "pos": [
+     0.955,
+     50.96
+    ],
+    "flightPhase": "returning",
+    "status": "withdrawing",
+    "altitudeM": 4900
+   },
+   {
+    "at": "1940-07-10T12:19",
+    "pos": [
+     0.64385,
+     51.25645
+    ],
+    "flightPhase": "returning",
+    "altitudeM": 3500
+   },
+   {
+    "at": "1940-07-10T12:29",
+    "pos": "@north_weald",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "当日返航完成；直到下一出击一直停在基地"
+   },
+   {
+    "at": "1940-07-10T12:30",
+    "pos": "@north_weald",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-08-13T11:43",
+    "pos": "@north_weald",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "出击前停机；此后钟点与航迹为教学重构"
+   },
+   {
+    "at": "1940-08-13T11:44",
+    "pos": "@north_weald",
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-08-13T11:53",
+    "pos": [
+     0.80915,
+     51.51255
+    ],
+    "flightPhase": "outbound",
+    "altitudeM": 5500
+   },
+   {
+    "at": "1940-08-13T12:00",
+    "pos": "@manston",
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 5500,
+    "note": "代表交战位置及高度为示意，不是精确历史航迹"
+   },
+   {
+    "at": "1940-08-13T12:04",
+    "pos": [
+     1.566,
+     51.522
+    ],
+    "flightPhase": "engaged",
+    "altitudeM": 5500,
+    "note": "教学交战回旋，避免飞机悬停；不是精确历史盘旋轨迹"
+   },
+   {
+    "at": "1940-08-13T12:08",
+    "pos": [
+     1.166,
+     51.462
+    ],
+    "flightPhase": "engaged",
+    "altitudeM": 5200
+   },
+   {
+    "at": "1940-08-13T12:12",
+    "pos": [
+     1.401,
+     51.362
+    ],
+    "flightPhase": "returning",
+    "status": "withdrawing",
+    "altitudeM": 4900
+   },
+   {
+    "at": "1940-08-13T12:18",
+    "pos": [
+     0.88915,
+     51.47755
+    ],
+    "flightPhase": "returning",
+    "altitudeM": 3500
+   },
+   {
+    "at": "1940-08-13T12:28",
+    "pos": "@north_weald",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "当日返航完成；直到下一出击一直停在基地"
+   },
+   {
+    "at": "1940-08-13T12:29",
+    "pos": "@north_weald",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-08-24T11:53",
+    "pos": "@north_weald",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "出击前停机；此后钟点与航迹为教学重构"
+   },
+   {
+    "at": "1940-08-24T11:54",
+    "pos": "@north_weald",
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-08-24T11:56",
+    "pos": [
+     0.193,
+     51.656
+    ],
+    "flightPhase": "outbound",
+    "altitudeM": 5500
+   },
+   {
+    "at": "1940-08-24T12:00",
+    "pos": "@wapping",
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 5500,
+    "note": "代表交战位置及高度为示意，不是精确历史航迹"
+   },
+   {
+    "at": "1940-08-24T12:04",
+    "pos": [
+     0.163,
+     51.686
+    ],
+    "flightPhase": "engaged",
+    "altitudeM": 5500,
+    "note": "教学交战回旋，避免飞机悬停；不是精确历史盘旋轨迹"
+   },
+   {
+    "at": "1940-08-24T12:08",
+    "pos": [
+     -0.237,
+     51.626
+    ],
+    "flightPhase": "engaged",
+    "altitudeM": 5200
+   },
+   {
+    "at": "1940-08-24T12:12",
+    "pos": [
+     -0.002,
+     51.526
+    ],
+    "flightPhase": "returning",
+    "status": "withdrawing",
+    "altitudeM": 4900
+   },
+   {
+    "at": "1940-08-24T12:16",
+    "pos": [
+     0.273,
+     51.621
+    ],
+    "flightPhase": "returning",
+    "altitudeM": 3500
+   },
+   {
+    "at": "1940-08-24T12:19",
+    "pos": "@north_weald",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "当日返航完成；直到下一出击一直停在基地"
+   },
+   {
+    "at": "1940-08-24T12:20",
+    "pos": "@north_weald",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-10-29T11:39",
+    "pos": "@north_weald",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "出击前停机；此后钟点与航迹为教学重构"
+   },
+   {
+    "at": "1940-10-29T11:40",
+    "pos": "@north_weald",
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-10-29T11:51",
+    "pos": [
+     0.92135,
+     51.36845
+    ],
+    "flightPhase": "outbound",
+    "altitudeM": 5500
+   },
+   {
+    "at": "1940-10-29T12:00",
+    "pos": "@dover_strait",
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 5500,
+    "note": "代表交战位置及高度为示意，不是精确历史航迹"
+   },
+   {
+    "at": "1940-10-29T12:04",
+    "pos": [
+     1.77,
+     51.26
+    ],
+    "flightPhase": "engaged",
+    "altitudeM": 5500,
+    "note": "教学交战回旋，避免飞机悬停；不是精确历史盘旋轨迹"
+   },
+   {
+    "at": "1940-10-29T12:08",
+    "pos": [
+     1.37,
+     51.2
+    ],
+    "flightPhase": "engaged",
+    "altitudeM": 5200
+   },
+   {
+    "at": "1940-10-29T12:12",
+    "pos": [
+     1.605,
+     51.1
+    ],
+    "flightPhase": "returning",
+    "status": "withdrawing",
+    "altitudeM": 4900
+   },
+   {
+    "at": "1940-10-29T12:20",
+    "pos": [
+     1.00135,
+     51.33345
+    ],
+    "flightPhase": "returning",
+    "altitudeM": 3500
+   },
+   {
+    "at": "1940-10-29T12:32",
+    "pos": "@north_weald",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "当日返航完成；直到下一出击一直停在基地"
+   },
+   {
+    "at": "1940-10-29T12:33",
+    "pos": "@north_weald",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-10-31T23:59",
+    "pos": "@north_weald",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   }
+  ],
+  "history": "诺斯威尔德的 Hurricane 中队参与海峡防空及东南拦截。代表出击显示从内陆基地爬升、进入交战空域再返航的过程。显示机数为代表编队标尺；航迹、钟点与高度为教学重构，不是逐架作战记录。",
+  "sources": [
+   "dowding_despatch",
+   "raf_phase_2",
+   "britain_reconstruction"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "gb.64_sqn",
+  "side": "GB",
+  "echelon": "squadron",
+  "type": "fighter",
+  "parent": "gb.sector_kenley",
+  "name": {
+   "zh": "RAF 第 64 中队",
+   "orig": "No. 64 Squadron RAF",
+   "short": "64 Sqn"
+  },
+  "model": "spitfire",
+  "base": "@kenley",
+  "strength": {
+   "aircraft": 12
+  },
+  "equipment": [
+   {
+    "id": "spitfire",
+    "count": 12
+   }
+  ],
+  "active": {
+   "from": "1940-07-10T00:00",
+   "to": "1940-10-31T23:59"
+  },
+  "track": [
+   {
+    "at": "1940-07-10T00:00",
+    "pos": "@kenley",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-08-12T11:41",
+    "pos": "@kenley",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "出击前停机；此后钟点与航迹为教学重构"
+   },
+   {
+    "at": "1940-08-12T11:42",
+    "pos": "@kenley",
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-08-12T11:52",
+    "pos": [
+     -0.70755,
+     50.9169
+    ],
+    "flightPhase": "outbound",
+    "altitudeM": 5500
+   },
+   {
+    "at": "1940-08-12T12:00",
+    "pos": "@radar_ventnor",
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 5500,
+    "note": "代表交战位置及高度为示意，不是精确历史航迹"
+   },
+   {
+    "at": "1940-08-12T12:04",
+    "pos": [
+     -0.992,
+     50.781
+    ],
+    "flightPhase": "engaged",
+    "altitudeM": 5500,
+    "note": "教学交战回旋，避免飞机悬停；不是精确历史盘旋轨迹"
+   },
+   {
+    "at": "1940-08-12T12:08",
+    "pos": [
+     -1.392,
+     50.721
+    ],
+    "flightPhase": "engaged",
+    "altitudeM": 5200
+   },
+   {
+    "at": "1940-08-12T12:12",
+    "pos": [
+     -1.157,
+     50.621
+    ],
+    "flightPhase": "returning",
+    "status": "withdrawing",
+    "altitudeM": 4900
+   },
+   {
+    "at": "1940-08-12T12:20",
+    "pos": [
+     -0.62755,
+     50.8819
+    ],
+    "flightPhase": "returning",
+    "altitudeM": 3500
+   },
+   {
+    "at": "1940-08-12T12:30",
+    "pos": "@kenley",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "当日返航完成；直到下一出击一直停在基地"
+   },
+   {
+    "at": "1940-08-12T12:31",
+    "pos": "@kenley",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-08-18T11:51",
+    "pos": "@kenley",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "出击前停机；此后钟点与航迹为教学重构"
+   },
+   {
+    "at": "1940-08-18T11:52",
+    "pos": "@kenley",
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-08-18T11:56",
+    "pos": [
+     0.159,
+     51.453
+    ],
+    "flightPhase": "outbound",
+    "altitudeM": 5500
+   },
+   {
+    "at": "1940-08-18T12:00",
+    "pos": "@kenley",
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 5500,
+    "note": "代表交战位置及高度为示意，不是精确历史航迹"
+   },
+   {
+    "at": "1940-08-18T12:04",
+    "pos": [
+     0.129,
+     51.483
+    ],
+    "flightPhase": "engaged",
+    "altitudeM": 5500,
+    "note": "教学交战回旋，避免飞机悬停；不是精确历史盘旋轨迹"
+   },
+   {
+    "at": "1940-08-18T12:08",
+    "pos": [
+     -0.271,
+     51.423
+    ],
+    "flightPhase": "engaged",
+    "altitudeM": 5200
+   },
+   {
+    "at": "1940-08-18T12:12",
+    "pos": [
+     -0.036,
+     51.323
+    ],
+    "flightPhase": "returning",
+    "status": "withdrawing",
+    "altitudeM": 4900
+   },
+   {
+    "at": "1940-08-18T12:16",
+    "pos": [
+     0.239,
+     51.418
+    ],
+    "flightPhase": "returning",
+    "altitudeM": 3500
+   },
+   {
+    "at": "1940-08-18T12:21",
+    "pos": "@kenley",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "当日返航完成；直到下一出击一直停在基地"
+   },
+   {
+    "at": "1940-08-18T12:22",
+    "pos": "@kenley",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-08-19T05:59",
+    "pos": "@kenley",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-08-19T06:00",
+    "pos": "@kenley",
+    "status": "active",
+    "flightPhase": "outbound",
+    "altitudeM": 0,
+    "note": "代表转场日；06:00 与飞行过程为示意。仅月级明确的德国调动以月初播放。"
+   },
+   {
+    "at": "1940-08-19T06:27",
+    "pos": [
+     -0.2665,
+     52.59
+    ],
+    "flightPhase": "outbound",
+    "altitudeM": 2200
+   },
+   {
+    "at": "1940-08-19T06:54",
+    "pos": "@leconfield",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-08-19T06:55",
+    "pos": "@leconfield",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-10-15T05:59",
+    "pos": "@leconfield",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-10-15T06:00",
+    "pos": "@leconfield",
+    "status": "active",
+    "flightPhase": "outbound",
+    "altitudeM": 0,
+    "note": "代表转场日；06:00 与飞行过程为示意。仅月级明确的德国调动以月初播放。"
+   },
+   {
+    "at": "1940-10-15T06:16",
+    "pos": [
+     0.4580000000000001,
+     53.316
+    ],
+    "flightPhase": "outbound",
+    "altitudeM": 2200
+   },
+   {
+    "at": "1940-10-15T06:33",
+    "pos": "@coltishall",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-10-15T06:34",
+    "pos": "@coltishall",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-10-31T23:59",
+    "pos": "@coltishall",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   }
+  ],
+  "history": "肯利的 Spitfire 中队在机场受袭阶段作战，8 月 19 日与北方来的第 616 中队轮换。北方基地提供人员恢复与训练空间。显示机数为代表编队标尺；航迹、钟点与高度为教学重构，不是逐架作战记录。",
+  "sources": [
+   "dowding_despatch",
+   "rafweb_kenley",
+   "britain_reconstruction"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "gb.111_sqn",
+  "side": "GB",
+  "echelon": "squadron",
+  "type": "fighter",
+  "parent": "gb.sector_kenley",
+  "name": {
+   "zh": "RAF 第 111 中队",
+   "orig": "No. 111 Squadron RAF",
+   "short": "111 Sqn"
+  },
+  "model": "hurricane",
+  "base": "@croydon",
+  "strength": {
+   "aircraft": 12
+  },
+  "equipment": [
+   {
+    "id": "hurricane",
+    "count": 12
+   }
+  ],
+  "active": {
+   "from": "1940-07-10T00:00",
+   "to": "1940-10-31T23:59"
+  },
+  "track": [
+   {
+    "at": "1940-07-10T00:00",
+    "pos": "@croydon",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-08-18T11:51",
+    "pos": "@croydon",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "出击前停机；此后钟点与航迹为教学重构"
+   },
+   {
+    "at": "1940-08-18T11:52",
+    "pos": "@croydon",
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-08-18T11:56",
+    "pos": [
+     0.159,
+     51.453
+    ],
+    "flightPhase": "outbound",
+    "altitudeM": 5500
+   },
+   {
+    "at": "1940-08-18T12:00",
+    "pos": "@kenley",
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 5500,
+    "note": "代表交战位置及高度为示意，不是精确历史航迹"
+   },
+   {
+    "at": "1940-08-18T12:04",
+    "pos": [
+     0.129,
+     51.483
+    ],
+    "flightPhase": "engaged",
+    "altitudeM": 5500,
+    "note": "教学交战回旋，避免飞机悬停；不是精确历史盘旋轨迹"
+   },
+   {
+    "at": "1940-08-18T12:08",
+    "pos": [
+     -0.271,
+     51.423
+    ],
+    "flightPhase": "engaged",
+    "altitudeM": 5200
+   },
+   {
+    "at": "1940-08-18T12:12",
+    "pos": [
+     -0.036,
+     51.323
+    ],
+    "flightPhase": "returning",
+    "status": "withdrawing",
+    "altitudeM": 4900
+   },
+   {
+    "at": "1940-08-18T12:16",
+    "pos": [
+     0.239,
+     51.418
+    ],
+    "flightPhase": "returning",
+    "altitudeM": 3500
+   },
+   {
+    "at": "1940-08-18T12:21",
+    "pos": "@croydon",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "当日返航完成；直到下一出击一直停在基地"
+   },
+   {
+    "at": "1940-08-18T12:22",
+    "pos": "@croydon",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-09-09T05:59",
+    "pos": "@croydon",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-09-09T06:00",
+    "pos": "@croydon",
+    "status": "active",
+    "flightPhase": "outbound",
+    "altitudeM": 0,
+    "note": "代表转场日；06:00 与飞行过程为示意。仅月级明确的德国调动以月初播放。"
+   },
+   {
+    "at": "1940-09-09T06:51",
+    "pos": [
+     -1.454,
+     53.677
+    ],
+    "flightPhase": "outbound",
+    "altitudeM": 2200
+   },
+   {
+    "at": "1940-09-09T07:43",
+    "pos": "@drem",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-09-09T07:44",
+    "pos": "@drem",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-10-31T23:59",
+    "pos": "@drem",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   }
+  ],
+  "history": "使用肯利的卫星机场克罗伊登。8 月 18 日的原始战斗报告记录其 Hurricane 拦截低空 Do 17；9 月转往苏格兰休整。显示机数为代表编队标尺；航迹、钟点与高度为教学重构，不是逐架作战记录。",
+  "sources": [
+   "tna_hardest_day",
+   "raf_hardest_day",
+   "rafweb_kenley",
+   "britain_reconstruction"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "gb.501_sqn",
+  "side": "GB",
+  "echelon": "squadron",
+  "type": "fighter",
+  "parent": "gb.sector_biggin_hill",
+  "name": {
+   "zh": "RAF 第 501 中队",
+   "orig": "No. 501 Squadron RAF",
+   "short": "501 Sqn"
+  },
+  "model": "hurricane",
+  "base": "@middle_wallop",
+  "strength": {
+   "aircraft": 12
+  },
+  "equipment": [
+   {
+    "id": "hurricane",
+    "count": 12
+   }
+  ],
+  "active": {
+   "from": "1940-07-10T00:00",
+   "to": "1940-10-31T23:59"
+  },
+  "track": [
+   {
+    "at": "1940-07-10T00:00",
+    "pos": "@middle_wallop",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-07-25T05:59",
+    "pos": "@middle_wallop",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-07-25T06:00",
+    "pos": "@middle_wallop",
+    "status": "active",
+    "flightPhase": "outbound",
+    "altitudeM": 0,
+    "note": "代表转场日；06:00 与飞行过程为示意。仅月级明确的德国调动以月初播放。"
+   },
+   {
+    "at": "1940-07-25T06:13",
+    "pos": [
+     -0.5865,
+     51.285
+    ],
+    "flightPhase": "outbound",
+    "altitudeM": 2200
+   },
+   {
+    "at": "1940-07-25T06:27",
+    "pos": "@gravesend",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-07-25T06:28",
+    "pos": "@gravesend",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-08-24T11:50",
+    "pos": "@gravesend",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "出击前停机；此后钟点与航迹为教学重构"
+   },
+   {
+    "at": "1940-08-24T11:51",
+    "pos": "@gravesend",
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-08-24T11:56",
+    "pos": [
+     0.193,
+     51.656
+    ],
+    "flightPhase": "outbound",
+    "altitudeM": 5500
+   },
+   {
+    "at": "1940-08-24T12:00",
+    "pos": "@wapping",
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 5500,
+    "note": "代表交战位置及高度为示意，不是精确历史航迹"
+   },
+   {
+    "at": "1940-08-24T12:04",
+    "pos": [
+     0.163,
+     51.686
+    ],
+    "flightPhase": "engaged",
+    "altitudeM": 5500,
+    "note": "教学交战回旋，避免飞机悬停；不是精确历史盘旋轨迹"
+   },
+   {
+    "at": "1940-08-24T12:08",
+    "pos": [
+     -0.237,
+     51.626
+    ],
+    "flightPhase": "engaged",
+    "altitudeM": 5200
+   },
+   {
+    "at": "1940-08-24T12:12",
+    "pos": [
+     -0.002,
+     51.526
+    ],
+    "flightPhase": "returning",
+    "status": "withdrawing",
+    "altitudeM": 4900
+   },
+   {
+    "at": "1940-08-24T12:16",
+    "pos": [
+     0.273,
+     51.621
+    ],
+    "flightPhase": "returning",
+    "altitudeM": 3500
+   },
+   {
+    "at": "1940-08-24T12:20",
+    "pos": "@gravesend",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "当日返航完成；直到下一出击一直停在基地"
+   },
+   {
+    "at": "1940-08-24T12:21",
+    "pos": "@gravesend",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-08-31T11:53",
+    "pos": "@gravesend",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "出击前停机；此后钟点与航迹为教学重构"
+   },
+   {
+    "at": "1940-08-31T11:54",
+    "pos": "@gravesend",
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-08-31T11:56",
+    "pos": [
+     0.284,
+     51.481
+    ],
+    "flightPhase": "outbound",
+    "altitudeM": 5500
+   },
+   {
+    "at": "1940-08-31T12:00",
+    "pos": "@biggin_hill",
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 5500,
+    "note": "代表交战位置及高度为示意，不是精确历史航迹"
+   },
+   {
+    "at": "1940-08-31T12:04",
+    "pos": [
+     0.254,
+     51.511
+    ],
+    "flightPhase": "engaged",
+    "altitudeM": 5500,
+    "note": "教学交战回旋，避免飞机悬停；不是精确历史盘旋轨迹"
+   },
+   {
+    "at": "1940-08-31T12:08",
+    "pos": [
+     -0.146,
+     51.451
+    ],
+    "flightPhase": "engaged",
+    "altitudeM": 5200
+   },
+   {
+    "at": "1940-08-31T12:12",
+    "pos": [
+     0.089,
+     51.351
+    ],
+    "flightPhase": "returning",
+    "status": "withdrawing",
+    "altitudeM": 4900
+   },
+   {
+    "at": "1940-08-31T12:16",
+    "pos": [
+     0.364,
+     51.446
+    ],
+    "flightPhase": "returning",
+    "altitudeM": 3500
+   },
+   {
+    "at": "1940-08-31T12:17",
+    "pos": "@gravesend",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "当日返航完成；直到下一出击一直停在基地"
+   },
+   {
+    "at": "1940-08-31T12:18",
+    "pos": "@gravesend",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-09-07T11:50",
+    "pos": "@gravesend",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "出击前停机；此后钟点与航迹为教学重构"
+   },
+   {
+    "at": "1940-09-07T11:51",
+    "pos": "@gravesend",
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-09-07T11:56",
+    "pos": [
+     0.193,
+     51.656
+    ],
+    "flightPhase": "outbound",
+    "altitudeM": 5500
+   },
+   {
+    "at": "1940-09-07T12:00",
+    "pos": "@wapping",
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 5500,
+    "note": "代表交战位置及高度为示意，不是精确历史航迹"
+   },
+   {
+    "at": "1940-09-07T12:04",
+    "pos": [
+     0.163,
+     51.686
+    ],
+    "flightPhase": "engaged",
+    "altitudeM": 5500,
+    "note": "教学交战回旋，避免飞机悬停；不是精确历史盘旋轨迹"
+   },
+   {
+    "at": "1940-09-07T12:08",
+    "pos": [
+     -0.237,
+     51.626
+    ],
+    "flightPhase": "engaged",
+    "altitudeM": 5200
+   },
+   {
+    "at": "1940-09-07T12:12",
+    "pos": [
+     -0.002,
+     51.526
+    ],
+    "flightPhase": "returning",
+    "status": "withdrawing",
+    "altitudeM": 4900
+   },
+   {
+    "at": "1940-09-07T12:16",
+    "pos": [
+     0.273,
+     51.621
+    ],
+    "flightPhase": "returning",
+    "altitudeM": 3500
+   },
+   {
+    "at": "1940-09-07T12:20",
+    "pos": "@gravesend",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "当日返航完成；直到下一出击一直停在基地"
+   },
+   {
+    "at": "1940-09-07T12:21",
+    "pos": "@gravesend",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-09-10T05:59",
+    "pos": "@gravesend",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-09-10T06:00",
+    "pos": "@gravesend",
+    "status": "active",
+    "flightPhase": "outbound",
+    "altitudeM": 0,
+    "note": "代表转场日；06:00 与飞行过程为示意。仅月级明确的德国调动以月初播放。"
+   },
+   {
+    "at": "1940-09-10T06:03",
+    "pos": [
+     0.15250000000000002,
+     51.361999999999995
+    ],
+    "flightPhase": "outbound",
+    "altitudeM": 2200
+   },
+   {
+    "at": "1940-09-10T06:07",
+    "pos": "@kenley",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-09-10T06:08",
+    "pos": "@kenley",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-10-31T23:59",
+    "pos": "@kenley",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   }
+  ],
+  "history": "第 501 中队从法国撤回后重建，7 月 25 日驻格雷夫森德，9 月 10 日转肯利。它的 Hurricane 中队持续承担东南防空。显示机数为代表编队标尺；航迹、钟点与高度为教学重构，不是逐架作战记录。",
+  "sources": [
+   "heritage_gravesend",
+   "rafweb_kenley",
+   "dowding_despatch",
+   "britain_reconstruction"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "gb.601_sqn",
+  "side": "GB",
+  "echelon": "squadron",
+  "type": "fighter",
+  "parent": "gb.sector_tangmere",
+  "name": {
+   "zh": "RAF 第 601 中队",
+   "orig": "No. 601 Squadron RAF",
+   "short": "601 Sqn"
+  },
+  "model": "hurricane",
+  "base": "@tangmere",
+  "strength": {
+   "aircraft": 12
+  },
+  "equipment": [
+   {
+    "id": "hurricane",
+    "count": 12
+   }
+  ],
+  "active": {
+   "from": "1940-07-10T00:00",
+   "to": "1940-10-31T23:59"
+  },
+  "track": [
+   {
+    "at": "1940-07-10T00:00",
+    "pos": "@tangmere",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-08-08T11:43",
+    "pos": "@tangmere",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "出击前停机；此后钟点与航迹为教学重构"
+   },
+   {
+    "at": "1940-08-08T11:44",
+    "pos": "@tangmere",
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-08-08T11:53",
+    "pos": [
+     -1.3068,
+     50.55715
+    ],
+    "flightPhase": "outbound",
+    "altitudeM": 5500
+   },
+   {
+    "at": "1940-08-08T12:00",
+    "pos": "@peewit_area",
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 5500,
+    "note": "代表交战位置及高度为示意，不是精确历史航迹"
+   },
+   {
+    "at": "1940-08-08T12:04",
+    "pos": [
+     -1.58,
+     50.5
+    ],
+    "flightPhase": "engaged",
+    "altitudeM": 5500,
+    "note": "教学交战回旋，避免飞机悬停；不是精确历史盘旋轨迹"
+   },
+   {
+    "at": "1940-08-08T12:08",
+    "pos": [
+     -1.98,
+     50.44
+    ],
+    "flightPhase": "engaged",
+    "altitudeM": 5200
+   },
+   {
+    "at": "1940-08-08T12:12",
+    "pos": [
+     -1.745,
+     50.34
+    ],
+    "flightPhase": "returning",
+    "status": "withdrawing",
+    "altitudeM": 4900
+   },
+   {
+    "at": "1940-08-08T12:19",
+    "pos": [
+     -1.2268,
+     50.52215
+    ],
+    "flightPhase": "returning",
+    "altitudeM": 3500
+   },
+   {
+    "at": "1940-08-08T12:28",
+    "pos": "@tangmere",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "当日返航完成；直到下一出击一直停在基地"
+   },
+   {
+    "at": "1940-08-08T12:29",
+    "pos": "@tangmere",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-08-12T11:51",
+    "pos": "@tangmere",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "出击前停机；此后钟点与航迹为教学重构"
+   },
+   {
+    "at": "1940-08-12T11:52",
+    "pos": "@tangmere",
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-08-12T11:56",
+    "pos": [
+     -0.962,
+     50.751
+    ],
+    "flightPhase": "outbound",
+    "altitudeM": 5500
+   },
+   {
+    "at": "1940-08-12T12:00",
+    "pos": "@radar_ventnor",
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 5500,
+    "note": "代表交战位置及高度为示意，不是精确历史航迹"
+   },
+   {
+    "at": "1940-08-12T12:04",
+    "pos": [
+     -0.992,
+     50.781
+    ],
+    "flightPhase": "engaged",
+    "altitudeM": 5500,
+    "note": "教学交战回旋，避免飞机悬停；不是精确历史盘旋轨迹"
+   },
+   {
+    "at": "1940-08-12T12:08",
+    "pos": [
+     -1.392,
+     50.721
+    ],
+    "flightPhase": "engaged",
+    "altitudeM": 5200
+   },
+   {
+    "at": "1940-08-12T12:12",
+    "pos": [
+     -1.157,
+     50.621
+    ],
+    "flightPhase": "returning",
+    "status": "withdrawing",
+    "altitudeM": 4900
+   },
+   {
+    "at": "1940-08-12T12:16",
+    "pos": [
+     -0.882,
+     50.716
+    ],
+    "flightPhase": "returning",
+    "altitudeM": 3500
+   },
+   {
+    "at": "1940-08-12T12:20",
+    "pos": "@tangmere",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "当日返航完成；直到下一出击一直停在基地"
+   },
+   {
+    "at": "1940-08-12T12:21",
+    "pos": "@tangmere",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-08-13T11:48",
+    "pos": "@tangmere",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "出击前停机；此后钟点与航迹为教学重构"
+   },
+   {
+    "at": "1940-08-13T11:49",
+    "pos": "@tangmere",
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-08-13T11:56",
+    "pos": [
+     -1.154,
+     51.06
+    ],
+    "flightPhase": "outbound",
+    "altitudeM": 5500
+   },
+   {
+    "at": "1940-08-13T12:00",
+    "pos": "@southampton",
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 5500,
+    "note": "代表交战位置及高度为示意，不是精确历史航迹"
+   },
+   {
+    "at": "1940-08-13T12:04",
+    "pos": [
+     -1.184,
+     51.09
+    ],
+    "flightPhase": "engaged",
+    "altitudeM": 5500,
+    "note": "教学交战回旋，避免飞机悬停；不是精确历史盘旋轨迹"
+   },
+   {
+    "at": "1940-08-13T12:08",
+    "pos": [
+     -1.584,
+     51.03
+    ],
+    "flightPhase": "engaged",
+    "altitudeM": 5200
+   },
+   {
+    "at": "1940-08-13T12:12",
+    "pos": [
+     -1.349,
+     50.93
+    ],
+    "flightPhase": "returning",
+    "status": "withdrawing",
+    "altitudeM": 4900
+   },
+   {
+    "at": "1940-08-13T12:16",
+    "pos": [
+     -1.074,
+     51.025
+    ],
+    "flightPhase": "returning",
+    "altitudeM": 3500
+   },
+   {
+    "at": "1940-08-13T12:22",
+    "pos": "@tangmere",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "当日返航完成；直到下一出击一直停在基地"
+   },
+   {
+    "at": "1940-08-13T12:23",
+    "pos": "@tangmere",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-10-31T23:59",
+    "pos": "@tangmere",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   }
+  ],
+  "history": "驻唐米尔的第 601 中队以 Hurricane 作战，保护南岸港口、船队和机场。其出击用于说明南岸扇区的近距离拦截与地勤周转。显示机数为代表编队标尺；航迹、钟点与高度为教学重构，不是逐架作战记录。",
+  "sources": [
+   "dowding_despatch",
+   "raf_phase_2",
+   "britain_reconstruction"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "gb.609_sqn",
+  "side": "GB",
+  "echelon": "squadron",
+  "type": "fighter",
+  "parent": "gb.sector_middle_wallop",
+  "name": {
+   "zh": "RAF 第 609 中队",
+   "orig": "No. 609 Squadron RAF",
+   "short": "609 Sqn"
+  },
+  "model": "spitfire",
+  "base": "@middle_wallop",
+  "strength": {
+   "aircraft": 12
+  },
+  "equipment": [
+   {
+    "id": "spitfire",
+    "count": 12
+   }
+  ],
+  "active": {
+   "from": "1940-07-10T00:00",
+   "to": "1940-10-31T23:59"
+  },
+  "track": [
+   {
+    "at": "1940-07-10T00:00",
+    "pos": "@middle_wallop",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-08-08T11:43",
+    "pos": "@middle_wallop",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "出击前停机；此后钟点与航迹为教学重构"
+   },
+   {
+    "at": "1940-08-08T11:44",
+    "pos": "@middle_wallop",
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-08-08T11:53",
+    "pos": [
+     -1.69605,
+     50.69305
+    ],
+    "flightPhase": "outbound",
+    "altitudeM": 5500
+   },
+   {
+    "at": "1940-08-08T12:00",
+    "pos": "@peewit_area",
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 5500,
+    "note": "代表交战位置及高度为示意，不是精确历史航迹"
+   },
+   {
+    "at": "1940-08-08T12:04",
+    "pos": [
+     -1.58,
+     50.5
+    ],
+    "flightPhase": "engaged",
+    "altitudeM": 5500,
+    "note": "教学交战回旋，避免飞机悬停；不是精确历史盘旋轨迹"
+   },
+   {
+    "at": "1940-08-08T12:08",
+    "pos": [
+     -1.98,
+     50.44
+    ],
+    "flightPhase": "engaged",
+    "altitudeM": 5200
+   },
+   {
+    "at": "1940-08-08T12:12",
+    "pos": [
+     -1.745,
+     50.34
+    ],
+    "flightPhase": "returning",
+    "status": "withdrawing",
+    "altitudeM": 4900
+   },
+   {
+    "at": "1940-08-08T12:18",
+    "pos": [
+     -1.61605,
+     50.65805
+    ],
+    "flightPhase": "returning",
+    "altitudeM": 3500
+   },
+   {
+    "at": "1940-08-08T12:27",
+    "pos": "@middle_wallop",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "当日返航完成；直到下一出击一直停在基地"
+   },
+   {
+    "at": "1940-08-08T12:28",
+    "pos": "@middle_wallop",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-08-13T11:50",
+    "pos": "@middle_wallop",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "出击前停机；此后钟点与航迹为教学重构"
+   },
+   {
+    "at": "1940-08-13T11:51",
+    "pos": "@middle_wallop",
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-08-13T11:56",
+    "pos": [
+     -1.154,
+     51.06
+    ],
+    "flightPhase": "outbound",
+    "altitudeM": 5500
+   },
+   {
+    "at": "1940-08-13T12:00",
+    "pos": "@southampton",
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 5500,
+    "note": "代表交战位置及高度为示意，不是精确历史航迹"
+   },
+   {
+    "at": "1940-08-13T12:04",
+    "pos": [
+     -1.184,
+     51.09
+    ],
+    "flightPhase": "engaged",
+    "altitudeM": 5500,
+    "note": "教学交战回旋，避免飞机悬停；不是精确历史盘旋轨迹"
+   },
+   {
+    "at": "1940-08-13T12:08",
+    "pos": [
+     -1.584,
+     51.03
+    ],
+    "flightPhase": "engaged",
+    "altitudeM": 5200
+   },
+   {
+    "at": "1940-08-13T12:12",
+    "pos": [
+     -1.349,
+     50.93
+    ],
+    "flightPhase": "returning",
+    "status": "withdrawing",
+    "altitudeM": 4900
+   },
+   {
+    "at": "1940-08-13T12:16",
+    "pos": [
+     -1.074,
+     51.025
+    ],
+    "flightPhase": "returning",
+    "altitudeM": 3500
+   },
+   {
+    "at": "1940-08-13T12:22",
+    "pos": "@middle_wallop",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "当日返航完成；直到下一出击一直停在基地"
+   },
+   {
+    "at": "1940-08-13T12:23",
+    "pos": "@middle_wallop",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-08-18T11:46",
+    "pos": "@middle_wallop",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "出击前停机；此后钟点与航迹为教学重构"
+   },
+   {
+    "at": "1940-08-18T11:47",
+    "pos": "@middle_wallop",
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-08-18T11:54",
+    "pos": [
+     -1.0168,
+     50.97355
+    ],
+    "flightPhase": "outbound",
+    "altitudeM": 5500
+   },
+   {
+    "at": "1940-08-18T12:00",
+    "pos": "@radar_poling",
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 5500,
+    "note": "代表交战位置及高度为示意，不是精确历史航迹"
+   },
+   {
+    "at": "1940-08-18T12:04",
+    "pos": [
+     -0.345,
+     51.01
+    ],
+    "flightPhase": "engaged",
+    "altitudeM": 5500,
+    "note": "教学交战回旋，避免飞机悬停；不是精确历史盘旋轨迹"
+   },
+   {
+    "at": "1940-08-18T12:08",
+    "pos": [
+     -0.745,
+     50.95
+    ],
+    "flightPhase": "engaged",
+    "altitudeM": 5200
+   },
+   {
+    "at": "1940-08-18T12:12",
+    "pos": [
+     -0.51,
+     50.85
+    ],
+    "flightPhase": "returning",
+    "status": "withdrawing",
+    "altitudeM": 4900
+   },
+   {
+    "at": "1940-08-18T12:17",
+    "pos": [
+     -0.9368,
+     50.93855
+    ],
+    "flightPhase": "returning",
+    "altitudeM": 3500
+   },
+   {
+    "at": "1940-08-18T12:25",
+    "pos": "@middle_wallop",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "当日返航完成；直到下一出击一直停在基地"
+   },
+   {
+    "at": "1940-08-18T12:26",
+    "pos": "@middle_wallop",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-10-29T11:46",
+    "pos": "@middle_wallop",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "出击前停机；此后钟点与航迹为教学重构"
+   },
+   {
+    "at": "1940-10-29T11:47",
+    "pos": "@middle_wallop",
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-10-29T11:56",
+    "pos": [
+     -0.839,
+     50.949
+    ],
+    "flightPhase": "outbound",
+    "altitudeM": 5500
+   },
+   {
+    "at": "1940-10-29T12:00",
+    "pos": "@portsmouth",
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 5500,
+    "note": "代表交战位置及高度为示意，不是精确历史航迹"
+   },
+   {
+    "at": "1940-10-29T12:04",
+    "pos": [
+     -0.869,
+     50.979
+    ],
+    "flightPhase": "engaged",
+    "altitudeM": 5500,
+    "note": "教学交战回旋，避免飞机悬停；不是精确历史盘旋轨迹"
+   },
+   {
+    "at": "1940-10-29T12:08",
+    "pos": [
+     -1.269,
+     50.919
+    ],
+    "flightPhase": "engaged",
+    "altitudeM": 5200
+   },
+   {
+    "at": "1940-10-29T12:12",
+    "pos": [
+     -1.034,
+     50.819
+    ],
+    "flightPhase": "returning",
+    "status": "withdrawing",
+    "altitudeM": 4900
+   },
+   {
+    "at": "1940-10-29T12:16",
+    "pos": [
+     -0.759,
+     50.914
+    ],
+    "flightPhase": "returning",
+    "altitudeM": 3500
+   },
+   {
+    "at": "1940-10-29T12:26",
+    "pos": "@middle_wallop",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "当日返航完成；直到下一出击一直停在基地"
+   },
+   {
+    "at": "1940-10-29T12:27",
+    "pos": "@middle_wallop",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-10-31T23:59",
+    "pos": "@middle_wallop",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   }
+  ],
+  "history": "第 609 西赖丁中队在米德尔沃洛普使用 Spitfire，掩护朴次茅斯、南安普敦和南岸。它代表第 10 航空群支援东南主战区的力量。显示机数为代表编队标尺；航迹、钟点与高度为教学重构，不是逐架作战记录。",
+  "sources": [
+   "dowding_despatch",
+   "raf_phase_2",
+   "commons_britain_map",
+   "britain_reconstruction"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "gb.19_sqn",
+  "side": "GB",
+  "echelon": "squadron",
+  "type": "fighter",
+  "parent": "gb.sector_duxford",
+  "name": {
+   "zh": "RAF 第 19 中队",
+   "orig": "No. 19 Squadron RAF",
+   "short": "19 Sqn"
+  },
+  "model": "spitfire",
+  "base": "@duxford",
+  "strength": {
+   "aircraft": 12
+  },
+  "equipment": [
+   {
+    "id": "spitfire",
+    "count": 12
+   }
+  ],
+  "active": {
+   "from": "1940-07-10T00:00",
+   "to": "1940-10-31T23:59"
+  },
+  "track": [
+   {
+    "at": "1940-07-10T00:00",
+    "pos": "@duxford",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-09-07T11:47",
+    "pos": "@duxford",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "出击前停机；此后钟点与航迹为教学重构"
+   },
+   {
+    "at": "1940-09-07T11:48",
+    "pos": "@duxford",
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-09-07T11:56",
+    "pos": [
+     0.193,
+     51.656
+    ],
+    "flightPhase": "outbound",
+    "altitudeM": 5500
+   },
+   {
+    "at": "1940-09-07T12:00",
+    "pos": "@wapping",
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 5500,
+    "note": "代表交战位置及高度为示意，不是精确历史航迹"
+   },
+   {
+    "at": "1940-09-07T12:04",
+    "pos": [
+     0.163,
+     51.686
+    ],
+    "flightPhase": "engaged",
+    "altitudeM": 5500,
+    "note": "教学交战回旋，避免飞机悬停；不是精确历史盘旋轨迹"
+   },
+   {
+    "at": "1940-09-07T12:08",
+    "pos": [
+     -0.237,
+     51.626
+    ],
+    "flightPhase": "engaged",
+    "altitudeM": 5200
+   },
+   {
+    "at": "1940-09-07T12:12",
+    "pos": [
+     -0.002,
+     51.526
+    ],
+    "flightPhase": "returning",
+    "status": "withdrawing",
+    "altitudeM": 4900
+   },
+   {
+    "at": "1940-09-07T12:16",
+    "pos": [
+     0.273,
+     51.621
+    ],
+    "flightPhase": "returning",
+    "altitudeM": 3500
+   },
+   {
+    "at": "1940-09-07T12:25",
+    "pos": "@duxford",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "当日返航完成；直到下一出击一直停在基地"
+   },
+   {
+    "at": "1940-09-07T12:26",
+    "pos": "@duxford",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-09-15T11:47",
+    "pos": "@duxford",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "出击前停机；此后钟点与航迹为教学重构"
+   },
+   {
+    "at": "1940-09-15T11:48",
+    "pos": "@duxford",
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-09-15T11:56",
+    "pos": [
+     0.1224,
+     51.6574
+    ],
+    "flightPhase": "outbound",
+    "altitudeM": 5500
+   },
+   {
+    "at": "1940-09-15T12:00",
+    "pos": "@london",
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 5500,
+    "note": "代表交战位置及高度为示意，不是精确历史航迹"
+   },
+   {
+    "at": "1940-09-15T12:04",
+    "pos": [
+     0.0924,
+     51.6874
+    ],
+    "flightPhase": "engaged",
+    "altitudeM": 5500,
+    "note": "教学交战回旋，避免飞机悬停；不是精确历史盘旋轨迹"
+   },
+   {
+    "at": "1940-09-15T12:08",
+    "pos": [
+     -0.3076,
+     51.6274
+    ],
+    "flightPhase": "engaged",
+    "altitudeM": 5200
+   },
+   {
+    "at": "1940-09-15T12:12",
+    "pos": [
+     -0.0726,
+     51.5274
+    ],
+    "flightPhase": "returning",
+    "status": "withdrawing",
+    "altitudeM": 4900
+   },
+   {
+    "at": "1940-09-15T12:16",
+    "pos": [
+     0.2024,
+     51.6224
+    ],
+    "flightPhase": "returning",
+    "altitudeM": 3500
+   },
+   {
+    "at": "1940-09-15T12:25",
+    "pos": "@duxford",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "当日返航完成；直到下一出击一直停在基地"
+   },
+   {
+    "at": "1940-09-15T12:26",
+    "pos": "@duxford",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-10-31T23:59",
+    "pos": "@duxford",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   }
+  ],
+  "history": "第 19 中队是首个接收 Spitfire 的 RAF 中队。达克斯福德及卫星机场福尔米尔保障其出击，9 月参加支援伦敦防空的大编队行动。显示机数为代表编队标尺；航迹、钟点与高度为教学重构，不是逐架作战记录。",
+  "sources": [
+   "iwm_duxford",
+   "dowding_despatch",
+   "britain_reconstruction"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "gb.242_sqn",
+  "side": "GB",
+  "echelon": "squadron",
+  "type": "fighter",
+  "parent": "gb.sector_coltishall",
+  "name": {
+   "zh": "RAF 第 242 中队",
+   "orig": "No. 242 Squadron RAF",
+   "short": "242 Sqn"
+  },
+  "model": "hurricane",
+  "base": "@coltishall",
+  "strength": {
+   "aircraft": 12
+  },
+  "equipment": [
+   {
+    "id": "hurricane",
+    "count": 12
+   }
+  ],
+  "active": {
+   "from": "1940-07-10T00:00",
+   "to": "1940-10-31T23:59"
+  },
+  "track": [
+   {
+    "at": "1940-07-10T00:00",
+    "pos": "@coltishall",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-08-30T05:59",
+    "pos": "@coltishall",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-08-30T06:00",
+    "pos": "@coltishall",
+    "status": "active",
+    "flightPhase": "outbound",
+    "altitudeM": 0,
+    "note": "代表转场日；06:00 与飞行过程为示意。仅月级明确的德国调动以月初播放。"
+   },
+   {
+    "at": "1940-08-30T06:10",
+    "pos": [
+     0.7410000000000001,
+     52.4225
+    ],
+    "flightPhase": "outbound",
+    "altitudeM": 2200
+   },
+   {
+    "at": "1940-08-30T06:21",
+    "pos": "@duxford",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-08-30T06:22",
+    "pos": "@duxford",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-09-15T11:47",
+    "pos": "@duxford",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "出击前停机；此后钟点与航迹为教学重构"
+   },
+   {
+    "at": "1940-09-15T11:48",
+    "pos": "@duxford",
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-09-15T11:56",
+    "pos": [
+     0.1224,
+     51.6574
+    ],
+    "flightPhase": "outbound",
+    "altitudeM": 5500
+   },
+   {
+    "at": "1940-09-15T12:00",
+    "pos": "@london",
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 5500,
+    "note": "代表交战位置及高度为示意，不是精确历史航迹"
+   },
+   {
+    "at": "1940-09-15T12:04",
+    "pos": [
+     0.0924,
+     51.6874
+    ],
+    "flightPhase": "engaged",
+    "altitudeM": 5500,
+    "note": "教学交战回旋，避免飞机悬停；不是精确历史盘旋轨迹"
+   },
+   {
+    "at": "1940-09-15T12:08",
+    "pos": [
+     -0.3076,
+     51.6274
+    ],
+    "flightPhase": "engaged",
+    "altitudeM": 5200
+   },
+   {
+    "at": "1940-09-15T12:12",
+    "pos": [
+     -0.0726,
+     51.5274
+    ],
+    "flightPhase": "returning",
+    "status": "withdrawing",
+    "altitudeM": 4900
+   },
+   {
+    "at": "1940-09-15T12:16",
+    "pos": [
+     0.2024,
+     51.6224
+    ],
+    "flightPhase": "returning",
+    "altitudeM": 3500
+   },
+   {
+    "at": "1940-09-15T12:25",
+    "pos": "@duxford",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "当日返航完成；直到下一出击一直停在基地"
+   },
+   {
+    "at": "1940-09-15T12:26",
+    "pos": "@duxford",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-10-31T23:59",
+    "pos": "@duxford",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   }
+  ],
+  "history": "道格拉斯·巴德在 1940 年 6 月接掌损失严重的第 242 中队。8 月底转向达克斯福德协同作战，是后来 Duxford Wing 的核心中队之一。显示机数为代表编队标尺；航迹、钟点与高度为教学重构，不是逐架作战记录。",
+  "sources": [
+   "raf_bader",
+   "iwm_duxford",
+   "dowding_despatch",
+   "britain_reconstruction"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "gb.303_sqn",
+  "side": "GB",
+  "echelon": "squadron",
+  "type": "fighter",
+  "parent": "gb.sector_northolt",
+  "name": {
+   "zh": "RAF 第 303 中队",
+   "orig": "No. 303 Squadron RAF",
+   "short": "303 Sqn"
+  },
+  "model": "hurricane",
+  "base": "@northolt",
+  "strength": {
+   "aircraft": 12
+  },
+  "equipment": [
+   {
+    "id": "hurricane",
+    "count": 12
+   }
+  ],
+  "active": {
+   "from": "1940-08-02T00:00",
+   "to": "1940-10-31T23:59"
+  },
+  "track": [
+   {
+    "at": "1940-08-02T00:00",
+    "pos": "@northolt",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-08-31T11:47",
+    "pos": "@northolt",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "出击前停机；此后钟点与航迹为教学重构"
+   },
+   {
+    "at": "1940-08-31T11:48",
+    "pos": "@northolt",
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-08-31T11:56",
+    "pos": [
+     0.284,
+     51.481
+    ],
+    "flightPhase": "outbound",
+    "altitudeM": 5500
+   },
+   {
+    "at": "1940-08-31T12:00",
+    "pos": "@biggin_hill",
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 5500,
+    "note": "代表交战位置及高度为示意，不是精确历史航迹"
+   },
+   {
+    "at": "1940-08-31T12:04",
+    "pos": [
+     0.254,
+     51.511
+    ],
+    "flightPhase": "engaged",
+    "altitudeM": 5500,
+    "note": "教学交战回旋，避免飞机悬停；不是精确历史盘旋轨迹"
+   },
+   {
+    "at": "1940-08-31T12:08",
+    "pos": [
+     -0.146,
+     51.451
+    ],
+    "flightPhase": "engaged",
+    "altitudeM": 5200
+   },
+   {
+    "at": "1940-08-31T12:12",
+    "pos": [
+     0.089,
+     51.351
+    ],
+    "flightPhase": "returning",
+    "status": "withdrawing",
+    "altitudeM": 4900
+   },
+   {
+    "at": "1940-08-31T12:16",
+    "pos": [
+     0.364,
+     51.446
+    ],
+    "flightPhase": "returning",
+    "altitudeM": 3500
+   },
+   {
+    "at": "1940-08-31T12:25",
+    "pos": "@northolt",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "当日返航完成；直到下一出击一直停在基地"
+   },
+   {
+    "at": "1940-08-31T12:26",
+    "pos": "@northolt",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-09-07T11:48",
+    "pos": "@northolt",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "出击前停机；此后钟点与航迹为教学重构"
+   },
+   {
+    "at": "1940-09-07T11:49",
+    "pos": "@northolt",
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-09-07T11:56",
+    "pos": [
+     0.193,
+     51.656
+    ],
+    "flightPhase": "outbound",
+    "altitudeM": 5500
+   },
+   {
+    "at": "1940-09-07T12:00",
+    "pos": "@wapping",
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 5500,
+    "note": "代表交战位置及高度为示意，不是精确历史航迹"
+   },
+   {
+    "at": "1940-09-07T12:04",
+    "pos": [
+     0.163,
+     51.686
+    ],
+    "flightPhase": "engaged",
+    "altitudeM": 5500,
+    "note": "教学交战回旋，避免飞机悬停；不是精确历史盘旋轨迹"
+   },
+   {
+    "at": "1940-09-07T12:08",
+    "pos": [
+     -0.237,
+     51.626
+    ],
+    "flightPhase": "engaged",
+    "altitudeM": 5200
+   },
+   {
+    "at": "1940-09-07T12:12",
+    "pos": [
+     -0.002,
+     51.526
+    ],
+    "flightPhase": "returning",
+    "status": "withdrawing",
+    "altitudeM": 4900
+   },
+   {
+    "at": "1940-09-07T12:16",
+    "pos": [
+     0.273,
+     51.621
+    ],
+    "flightPhase": "returning",
+    "altitudeM": 3500
+   },
+   {
+    "at": "1940-09-07T12:24",
+    "pos": "@northolt",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "当日返航完成；直到下一出击一直停在基地"
+   },
+   {
+    "at": "1940-09-07T12:25",
+    "pos": "@northolt",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-09-15T11:48",
+    "pos": "@northolt",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "出击前停机；此后钟点与航迹为教学重构"
+   },
+   {
+    "at": "1940-09-15T11:49",
+    "pos": "@northolt",
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-09-15T11:56",
+    "pos": [
+     0.1224,
+     51.6574
+    ],
+    "flightPhase": "outbound",
+    "altitudeM": 5500
+   },
+   {
+    "at": "1940-09-15T12:00",
+    "pos": "@london",
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 5500,
+    "note": "代表交战位置及高度为示意，不是精确历史航迹"
+   },
+   {
+    "at": "1940-09-15T12:04",
+    "pos": [
+     0.0924,
+     51.6874
+    ],
+    "flightPhase": "engaged",
+    "altitudeM": 5500,
+    "note": "教学交战回旋，避免飞机悬停；不是精确历史盘旋轨迹"
+   },
+   {
+    "at": "1940-09-15T12:08",
+    "pos": [
+     -0.3076,
+     51.6274
+    ],
+    "flightPhase": "engaged",
+    "altitudeM": 5200
+   },
+   {
+    "at": "1940-09-15T12:12",
+    "pos": [
+     -0.0726,
+     51.5274
+    ],
+    "flightPhase": "returning",
+    "status": "withdrawing",
+    "altitudeM": 4900
+   },
+   {
+    "at": "1940-09-15T12:16",
+    "pos": [
+     0.2024,
+     51.6224
+    ],
+    "flightPhase": "returning",
+    "altitudeM": 3500
+   },
+   {
+    "at": "1940-09-15T12:23",
+    "pos": "@northolt",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "当日返航完成；直到下一出击一直停在基地"
+   },
+   {
+    "at": "1940-09-15T12:24",
+    "pos": "@northolt",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-10-11T05:59",
+    "pos": "@northolt",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-10-11T06:00",
+    "pos": "@northolt",
+    "status": "active",
+    "flightPhase": "outbound",
+    "altitudeM": 0,
+    "note": "代表转场日；06:00 与飞行过程为示意。仅月级明确的德国调动以月初播放。"
+   },
+   {
+    "at": "1940-10-11T06:24",
+    "pos": [
+     -0.43,
+     52.715500000000006
+    ],
+    "flightPhase": "outbound",
+    "altitudeM": 2200
+   },
+   {
+    "at": "1940-10-11T06:49",
+    "pos": "@leconfield",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-10-11T06:50",
+    "pos": "@leconfield",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-10-31T23:59",
+    "pos": "@leconfield",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   }
+  ],
+  "history": "第 303 波兰中队在诺索尔特以 Hurricane 作战，8 月底投入战斗，波兰飞行员的经验成为重要补充。10 月中旬转赴莱肯菲尔德休整。显示机数为代表编队标尺；航迹、钟点与高度为教学重构，不是逐架作战记录。",
+  "sources": [
+   "raf_polish",
+   "raf_303",
+   "britain_reconstruction"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "gb.72_sqn",
+  "side": "GB",
+  "echelon": "squadron",
+  "type": "fighter",
+  "parent": "gb.sector_acklington",
+  "name": {
+   "zh": "RAF 第 72 中队",
+   "orig": "No. 72 Squadron RAF",
+   "short": "72 Sqn"
+  },
+  "model": "spitfire",
+  "base": "@acklington",
+  "strength": {
+   "aircraft": 12
+  },
+  "equipment": [
+   {
+    "id": "spitfire",
+    "count": 12
+   }
+  ],
+  "active": {
+   "from": "1940-07-10T00:00",
+   "to": "1940-10-31T23:59"
+  },
+  "track": [
+   {
+    "at": "1940-07-10T00:00",
+    "pos": "@acklington",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-08-15T11:50",
+    "pos": "@acklington",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "出击前停机；此后钟点与航迹为教学重构"
+   },
+   {
+    "at": "1940-08-15T11:51",
+    "pos": "@acklington",
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-08-15T11:56",
+    "pos": [
+     -1.362,
+     55.128
+    ],
+    "flightPhase": "outbound",
+    "altitudeM": 5500
+   },
+   {
+    "at": "1940-08-15T12:00",
+    "pos": "@newcastle",
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 5500,
+    "note": "代表交战位置及高度为示意，不是精确历史航迹"
+   },
+   {
+    "at": "1940-08-15T12:04",
+    "pos": [
+     -1.392,
+     55.158
+    ],
+    "flightPhase": "engaged",
+    "altitudeM": 5500,
+    "note": "教学交战回旋，避免飞机悬停；不是精确历史盘旋轨迹"
+   },
+   {
+    "at": "1940-08-15T12:08",
+    "pos": [
+     -1.792,
+     55.098
+    ],
+    "flightPhase": "engaged",
+    "altitudeM": 5200
+   },
+   {
+    "at": "1940-08-15T12:12",
+    "pos": [
+     -1.557,
+     54.998
+    ],
+    "flightPhase": "returning",
+    "status": "withdrawing",
+    "altitudeM": 4900
+   },
+   {
+    "at": "1940-08-15T12:16",
+    "pos": [
+     -1.282,
+     55.093
+    ],
+    "flightPhase": "returning",
+    "altitudeM": 3500
+   },
+   {
+    "at": "1940-08-15T12:22",
+    "pos": "@acklington",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "当日返航完成；直到下一出击一直停在基地"
+   },
+   {
+    "at": "1940-08-15T12:23",
+    "pos": "@acklington",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-08-31T05:59",
+    "pos": "@acklington",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-08-31T06:00",
+    "pos": "@acklington",
+    "status": "active",
+    "flightPhase": "outbound",
+    "altitudeM": 0,
+    "note": "代表转场日；06:00 与飞行过程为示意。仅月级明确的德国调动以月初播放。"
+   },
+   {
+    "at": "1940-08-31T06:42",
+    "pos": [
+     -0.901,
+     53.3335
+    ],
+    "flightPhase": "outbound",
+    "altitudeM": 2200
+   },
+   {
+    "at": "1940-08-31T07:25",
+    "pos": "@croydon",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-08-31T07:26",
+    "pos": "@croydon",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-09-10T05:59",
+    "pos": "@croydon",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-09-10T06:00",
+    "pos": "@croydon",
+    "status": "active",
+    "flightPhase": "outbound",
+    "altitudeM": 0,
+    "note": "代表转场日；06:00 与飞行过程为示意。仅月级明确的德国调动以月初播放。"
+   },
+   {
+    "at": "1940-09-10T06:01",
+    "pos": [
+     -0.045,
+     51.3425
+    ],
+    "flightPhase": "outbound",
+    "altitudeM": 2200
+   },
+   {
+    "at": "1940-09-10T06:03",
+    "pos": "@biggin_hill",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-09-10T06:04",
+    "pos": "@biggin_hill",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-09-15T11:49",
+    "pos": "@biggin_hill",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "出击前停机；此后钟点与航迹为教学重构"
+   },
+   {
+    "at": "1940-09-15T11:50",
+    "pos": "@biggin_hill",
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-09-15T11:56",
+    "pos": [
+     0.1224,
+     51.6574
+    ],
+    "flightPhase": "outbound",
+    "altitudeM": 5500
+   },
+   {
+    "at": "1940-09-15T12:00",
+    "pos": "@london",
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 5500,
+    "note": "代表交战位置及高度为示意，不是精确历史航迹"
+   },
+   {
+    "at": "1940-09-15T12:04",
+    "pos": [
+     0.0924,
+     51.6874
+    ],
+    "flightPhase": "engaged",
+    "altitudeM": 5500,
+    "note": "教学交战回旋，避免飞机悬停；不是精确历史盘旋轨迹"
+   },
+   {
+    "at": "1940-09-15T12:08",
+    "pos": [
+     -0.3076,
+     51.6274
+    ],
+    "flightPhase": "engaged",
+    "altitudeM": 5200
+   },
+   {
+    "at": "1940-09-15T12:12",
+    "pos": [
+     -0.0726,
+     51.5274
+    ],
+    "flightPhase": "returning",
+    "status": "withdrawing",
+    "altitudeM": 4900
+   },
+   {
+    "at": "1940-09-15T12:16",
+    "pos": [
+     0.2024,
+     51.6224
+    ],
+    "flightPhase": "returning",
+    "altitudeM": 3500
+   },
+   {
+    "at": "1940-09-15T12:22",
+    "pos": "@biggin_hill",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "当日返航完成；直到下一出击一直停在基地"
+   },
+   {
+    "at": "1940-09-15T12:23",
+    "pos": "@biggin_hill",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-10-14T05:59",
+    "pos": "@biggin_hill",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-10-14T06:00",
+    "pos": "@biggin_hill",
+    "status": "active",
+    "flightPhase": "outbound",
+    "altitudeM": 0,
+    "note": "代表转场日；06:00 与飞行过程为示意。仅月级明确的德国调动以月初播放。"
+   },
+   {
+    "at": "1940-10-14T06:17",
+    "pos": [
+     0.6960000000000001,
+     52.043000000000006
+    ],
+    "flightPhase": "outbound",
+    "altitudeM": 2200
+   },
+   {
+    "at": "1940-10-14T06:35",
+    "pos": "@coltishall",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-10-14T06:36",
+    "pos": "@coltishall",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-10-31T23:59",
+    "pos": "@coltishall",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   }
+  ],
+  "history": "第 72 中队起初驻北方阿克灵顿。8 月 15 日，第 13 航空群抵御跨北海袭击；随后该中队南调，体现防区间的轮换和补充。显示机数为代表编队标尺；航迹、钟点与高度为教学重构，不是逐架作战记录。",
+  "sources": [
+   "dowding_despatch",
+   "raf_northern_skies",
+   "britain_reconstruction"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "gb.607_sqn",
+  "side": "GB",
+  "echelon": "squadron",
+  "type": "fighter",
+  "parent": "gb.sector_usworth",
+  "name": {
+   "zh": "RAF 第 607 中队",
+   "orig": "No. 607 Squadron RAF",
+   "short": "607 Sqn"
+  },
+  "model": "hurricane",
+  "base": "@usworth",
+  "strength": {
+   "aircraft": 12
+  },
+  "equipment": [
+   {
+    "id": "hurricane",
+    "count": 12
+   }
+  ],
+  "active": {
+   "from": "1940-07-10T00:00",
+   "to": "1940-10-31T23:59"
+  },
+  "track": [
+   {
+    "at": "1940-07-10T00:00",
+    "pos": "@usworth",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-08-15T11:51",
+    "pos": "@usworth",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "出击前停机；此后钟点与航迹为教学重构"
+   },
+   {
+    "at": "1940-08-15T11:52",
+    "pos": "@usworth",
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-08-15T11:56",
+    "pos": [
+     -1.362,
+     55.128
+    ],
+    "flightPhase": "outbound",
+    "altitudeM": 5500
+   },
+   {
+    "at": "1940-08-15T12:00",
+    "pos": "@newcastle",
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 5500,
+    "note": "代表交战位置及高度为示意，不是精确历史航迹"
+   },
+   {
+    "at": "1940-08-15T12:04",
+    "pos": [
+     -1.392,
+     55.158
+    ],
+    "flightPhase": "engaged",
+    "altitudeM": 5500,
+    "note": "教学交战回旋，避免飞机悬停；不是精确历史盘旋轨迹"
+   },
+   {
+    "at": "1940-08-15T12:08",
+    "pos": [
+     -1.792,
+     55.098
+    ],
+    "flightPhase": "engaged",
+    "altitudeM": 5200
+   },
+   {
+    "at": "1940-08-15T12:12",
+    "pos": [
+     -1.557,
+     54.998
+    ],
+    "flightPhase": "returning",
+    "status": "withdrawing",
+    "altitudeM": 4900
+   },
+   {
+    "at": "1940-08-15T12:16",
+    "pos": [
+     -1.282,
+     55.093
+    ],
+    "flightPhase": "returning",
+    "altitudeM": 3500
+   },
+   {
+    "at": "1940-08-15T12:20",
+    "pos": "@usworth",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "当日返航完成；直到下一出击一直停在基地"
+   },
+   {
+    "at": "1940-08-15T12:21",
+    "pos": "@usworth",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-08-28T05:59",
+    "pos": "@usworth",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-08-28T06:00",
+    "pos": "@usworth",
+    "status": "active",
+    "flightPhase": "outbound",
+    "altitudeM": 0,
+    "note": "代表转场日；06:00 与飞行过程为示意。仅月级明确的德国调动以月初播放。"
+   },
+   {
+    "at": "1940-08-28T06:43",
+    "pos": [
+     -1.083,
+     52.89
+    ],
+    "flightPhase": "outbound",
+    "altitudeM": 2200
+   },
+   {
+    "at": "1940-08-28T07:26",
+    "pos": "@tangmere",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-08-28T07:27",
+    "pos": "@tangmere",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-10-09T05:59",
+    "pos": "@tangmere",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-10-09T06:00",
+    "pos": "@tangmere",
+    "status": "active",
+    "flightPhase": "outbound",
+    "altitudeM": 0,
+    "note": "代表转场日；06:00 与飞行过程为示意。仅月级明确的德国调动以月初播放。"
+   },
+   {
+    "at": "1940-10-09T06:56",
+    "pos": [
+     -2.0325,
+     53.399
+    ],
+    "flightPhase": "outbound",
+    "altitudeM": 2200
+   },
+   {
+    "at": "1940-10-09T07:52",
+    "pos": "@turnhouse",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-10-09T07:53",
+    "pos": "@turnhouse",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-10-31T23:59",
+    "pos": "@turnhouse",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   }
+  ],
+  "history": "第 607 达勒姆郡辅助中队在法国作战后重建，以 Hurricane 从阿斯沃思参加北方防空。8 月 15 日与北方体系共同抵御德国航空队来袭。显示机数为代表编队标尺；航迹、钟点与高度为教学重构，不是逐架作战记录。",
+  "sources": [
+   "dowding_despatch",
+   "raf_northern_skies",
+   "britain_reconstruction"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "gb.605_sqn",
+  "side": "GB",
+  "echelon": "squadron",
+  "type": "fighter",
+  "parent": "gb.sector_drem",
+  "name": {
+   "zh": "RAF 第 605 中队",
+   "orig": "No. 605 Squadron RAF",
+   "short": "605 Sqn"
+  },
+  "model": "hurricane",
+  "base": "@drem",
+  "strength": {
+   "aircraft": 12
+  },
+  "equipment": [
+   {
+    "id": "hurricane",
+    "count": 12
+   }
+  ],
+  "active": {
+   "from": "1940-07-10T00:00",
+   "to": "1940-10-31T23:59"
+  },
+  "track": [
+   {
+    "at": "1940-07-10T00:00",
+    "pos": "@drem",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-08-15T11:37",
+    "pos": "@drem",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "出击前停机；此后钟点与航迹为教学重构"
+   },
+   {
+    "at": "1940-08-15T11:38",
+    "pos": "@drem",
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-08-15T11:50",
+    "pos": [
+     -2.1394,
+     55.4379
+    ],
+    "flightPhase": "outbound",
+    "altitudeM": 5500
+   },
+   {
+    "at": "1940-08-15T12:00",
+    "pos": "@newcastle",
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 5500,
+    "note": "代表交战位置及高度为示意，不是精确历史航迹"
+   },
+   {
+    "at": "1940-08-15T12:04",
+    "pos": [
+     -1.392,
+     55.158
+    ],
+    "flightPhase": "engaged",
+    "altitudeM": 5500,
+    "note": "教学交战回旋，避免飞机悬停；不是精确历史盘旋轨迹"
+   },
+   {
+    "at": "1940-08-15T12:08",
+    "pos": [
+     -1.792,
+     55.098
+    ],
+    "flightPhase": "engaged",
+    "altitudeM": 5200
+   },
+   {
+    "at": "1940-08-15T12:12",
+    "pos": [
+     -1.557,
+     54.998
+    ],
+    "flightPhase": "returning",
+    "status": "withdrawing",
+    "altitudeM": 4900
+   },
+   {
+    "at": "1940-08-15T12:21",
+    "pos": [
+     -2.0594,
+     55.4029
+    ],
+    "flightPhase": "returning",
+    "altitudeM": 3500
+   },
+   {
+    "at": "1940-08-15T12:34",
+    "pos": "@drem",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "当日返航完成；直到下一出击一直停在基地"
+   },
+   {
+    "at": "1940-08-15T12:35",
+    "pos": "@drem",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-09-07T05:59",
+    "pos": "@drem",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-09-07T06:00",
+    "pos": "@drem",
+    "status": "active",
+    "flightPhase": "outbound",
+    "altitudeM": 0,
+    "note": "代表转场日；06:00 与飞行过程为示意。仅月级明确的德国调动以月初播放。"
+   },
+   {
+    "at": "1940-09-07T06:51",
+    "pos": [
+     -1.454,
+     53.677
+    ],
+    "flightPhase": "outbound",
+    "altitudeM": 2200
+   },
+   {
+    "at": "1940-09-07T07:43",
+    "pos": "@croydon",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-09-07T07:44",
+    "pos": "@croydon",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-09-15T11:49",
+    "pos": "@croydon",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "出击前停机；此后钟点与航迹为教学重构"
+   },
+   {
+    "at": "1940-09-15T11:50",
+    "pos": "@croydon",
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-09-15T11:56",
+    "pos": [
+     0.1224,
+     51.6574
+    ],
+    "flightPhase": "outbound",
+    "altitudeM": 5500
+   },
+   {
+    "at": "1940-09-15T12:00",
+    "pos": "@london",
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 5500,
+    "note": "代表交战位置及高度为示意，不是精确历史航迹"
+   },
+   {
+    "at": "1940-09-15T12:04",
+    "pos": [
+     0.0924,
+     51.6874
+    ],
+    "flightPhase": "engaged",
+    "altitudeM": 5500,
+    "note": "教学交战回旋，避免飞机悬停；不是精确历史盘旋轨迹"
+   },
+   {
+    "at": "1940-09-15T12:08",
+    "pos": [
+     -0.3076,
+     51.6274
+    ],
+    "flightPhase": "engaged",
+    "altitudeM": 5200
+   },
+   {
+    "at": "1940-09-15T12:12",
+    "pos": [
+     -0.0726,
+     51.5274
+    ],
+    "flightPhase": "returning",
+    "status": "withdrawing",
+    "altitudeM": 4900
+   },
+   {
+    "at": "1940-09-15T12:16",
+    "pos": [
+     0.2024,
+     51.6224
+    ],
+    "flightPhase": "returning",
+    "altitudeM": 3500
+   },
+   {
+    "at": "1940-09-15T12:22",
+    "pos": "@croydon",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "当日返航完成；直到下一出击一直停在基地"
+   },
+   {
+    "at": "1940-09-15T12:23",
+    "pos": "@croydon",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-10-31T23:59",
+    "pos": "@croydon",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   }
+  ],
+  "history": "第 605 中队在德雷姆恢复战力，7 月 30 日重新投入作战。9 月 7 日飞行员与飞机南调克罗伊登，支援伦敦及东南防空。显示机数为代表编队标尺；航迹、钟点与高度为教学重构，不是逐架作战记录。",
+  "sources": [
+   "rafweb_605",
+   "dowding_despatch",
+   "raf_northern_skies",
+   "britain_reconstruction"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "gb.616_sqn",
+  "side": "GB",
+  "echelon": "squadron",
+  "type": "fighter",
+  "parent": "gb.sector_leconfield",
+  "name": {
+   "zh": "RAF 第 616 中队",
+   "orig": "No. 616 Squadron RAF",
+   "short": "616 Sqn"
+  },
+  "model": "spitfire",
+  "base": "@leconfield",
+  "strength": {
+   "aircraft": 12
+  },
+  "equipment": [
+   {
+    "id": "spitfire",
+    "count": 12
+   }
+  ],
+  "active": {
+   "from": "1940-07-10T00:00",
+   "to": "1940-10-31T23:59"
+  },
+  "track": [
+   {
+    "at": "1940-07-10T00:00",
+    "pos": "@leconfield",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-08-15T11:49",
+    "pos": "@leconfield",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "出击前停机；此后钟点与航迹为教学重构"
+   },
+   {
+    "at": "1940-08-15T11:50",
+    "pos": "@leconfield",
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-08-15T11:56",
+    "pos": [
+     -0.23,
+     54.159
+    ],
+    "flightPhase": "outbound",
+    "altitudeM": 5500
+   },
+   {
+    "at": "1940-08-15T12:00",
+    "pos": "@driffield",
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 5500,
+    "note": "代表交战位置及高度为示意，不是精确历史航迹"
+   },
+   {
+    "at": "1940-08-15T12:04",
+    "pos": [
+     -0.26,
+     54.189
+    ],
+    "flightPhase": "engaged",
+    "altitudeM": 5500,
+    "note": "教学交战回旋，避免飞机悬停；不是精确历史盘旋轨迹"
+   },
+   {
+    "at": "1940-08-15T12:08",
+    "pos": [
+     -0.66,
+     54.129
+    ],
+    "flightPhase": "engaged",
+    "altitudeM": 5200
+   },
+   {
+    "at": "1940-08-15T12:12",
+    "pos": [
+     -0.425,
+     54.029
+    ],
+    "flightPhase": "returning",
+    "status": "withdrawing",
+    "altitudeM": 4900
+   },
+   {
+    "at": "1940-08-15T12:16",
+    "pos": [
+     -0.15,
+     54.124
+    ],
+    "flightPhase": "returning",
+    "altitudeM": 3500
+   },
+   {
+    "at": "1940-08-15T12:22",
+    "pos": "@leconfield",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "当日返航完成；直到下一出击一直停在基地"
+   },
+   {
+    "at": "1940-08-15T12:23",
+    "pos": "@leconfield",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-08-19T05:59",
+    "pos": "@leconfield",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-08-19T06:00",
+    "pos": "@leconfield",
+    "status": "active",
+    "flightPhase": "outbound",
+    "altitudeM": 0,
+    "note": "代表转场日；06:00 与飞行过程为示意。仅月级明确的德国调动以月初播放。"
+   },
+   {
+    "at": "1940-08-19T06:27",
+    "pos": [
+     -0.2665,
+     52.59
+    ],
+    "flightPhase": "outbound",
+    "altitudeM": 2200
+   },
+   {
+    "at": "1940-08-19T06:54",
+    "pos": "@kenley",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-08-19T06:55",
+    "pos": "@kenley",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-08-31T11:49",
+    "pos": "@kenley",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "出击前停机；此后钟点与航迹为教学重构"
+   },
+   {
+    "at": "1940-08-31T11:50",
+    "pos": "@kenley",
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-08-31T11:56",
+    "pos": [
+     0.284,
+     51.481
+    ],
+    "flightPhase": "outbound",
+    "altitudeM": 5500
+   },
+   {
+    "at": "1940-08-31T12:00",
+    "pos": "@biggin_hill",
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 5500,
+    "note": "代表交战位置及高度为示意，不是精确历史航迹"
+   },
+   {
+    "at": "1940-08-31T12:04",
+    "pos": [
+     0.254,
+     51.511
+    ],
+    "flightPhase": "engaged",
+    "altitudeM": 5500,
+    "note": "教学交战回旋，避免飞机悬停；不是精确历史盘旋轨迹"
+   },
+   {
+    "at": "1940-08-31T12:08",
+    "pos": [
+     -0.146,
+     51.451
+    ],
+    "flightPhase": "engaged",
+    "altitudeM": 5200
+   },
+   {
+    "at": "1940-08-31T12:12",
+    "pos": [
+     0.089,
+     51.351
+    ],
+    "flightPhase": "returning",
+    "status": "withdrawing",
+    "altitudeM": 4900
+   },
+   {
+    "at": "1940-08-31T12:16",
+    "pos": [
+     0.364,
+     51.446
+    ],
+    "flightPhase": "returning",
+    "altitudeM": 3500
+   },
+   {
+    "at": "1940-08-31T12:22",
+    "pos": "@kenley",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "当日返航完成；直到下一出击一直停在基地"
+   },
+   {
+    "at": "1940-08-31T12:23",
+    "pos": "@kenley",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-09-03T05:59",
+    "pos": "@kenley",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-09-03T06:00",
+    "pos": "@kenley",
+    "status": "active",
+    "flightPhase": "outbound",
+    "altitudeM": 0,
+    "note": "代表转场日；06:00 与飞行过程为示意。仅月级明确的德国调动以月初播放。"
+   },
+   {
+    "at": "1940-09-03T06:18",
+    "pos": [
+     0.6335000000000001,
+     52.028999999999996
+    ],
+    "flightPhase": "outbound",
+    "altitudeM": 2200
+   },
+   {
+    "at": "1940-09-03T06:36",
+    "pos": "@coltishall",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-09-03T06:37",
+    "pos": "@coltishall",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-09-11T05:59",
+    "pos": "@coltishall",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-09-11T06:00",
+    "pos": "@coltishall",
+    "status": "active",
+    "flightPhase": "outbound",
+    "altitudeM": 0,
+    "note": "代表转场日；06:00 与飞行过程为示意。仅月级明确的德国调动以月初播放。"
+   },
+   {
+    "at": "1940-09-11T06:14",
+    "pos": [
+     0.38850000000000007,
+     53.107
+    ],
+    "flightPhase": "outbound",
+    "altitudeM": 2200
+   },
+   {
+    "at": "1940-09-11T06:29",
+    "pos": "@kirton_lindsey",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-09-11T06:30",
+    "pos": "@kirton_lindsey",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-10-31T23:59",
+    "pos": "@kirton_lindsey",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   }
+  ],
+  "history": "第 616 南约克郡辅助中队在莱肯菲尔德使用 Spitfire。8 月 15 日参与北海来袭方向的战斗，8 月 19 日转肯利替换第 64 中队。显示机数为代表编队标尺；航迹、钟点与高度为教学重构，不是逐架作战记录。",
+  "sources": [
+   "raf_northern_skies",
+   "rafweb_kenley",
+   "dowding_despatch",
+   "britain_reconstruction"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "gb.234_sqn",
+  "side": "GB",
+  "echelon": "squadron",
+  "type": "fighter",
+  "parent": "gb.sector_middle_wallop",
+  "name": {
+   "zh": "RAF 第 234 中队",
+   "orig": "No. 234 Squadron RAF",
+   "short": "234 Sqn"
+  },
+  "model": "spitfire",
+  "base": "@st_eval",
+  "strength": {
+   "aircraft": 12
+  },
+  "equipment": [
+   {
+    "id": "spitfire",
+    "count": 12
+   }
+  ],
+  "active": {
+   "from": "1940-07-10T00:00",
+   "to": "1940-10-31T23:59"
+  },
+  "track": [
+   {
+    "at": "1940-07-10T00:00",
+    "pos": "@st_eval",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-08-14T05:59",
+    "pos": "@st_eval",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-08-14T06:00",
+    "pos": "@st_eval",
+    "status": "active",
+    "flightPhase": "outbound",
+    "altitudeM": 0,
+    "note": "代表转场日；06:00 与飞行过程为示意。仅月级明确的德国调动以月初播放。"
+   },
+   {
+    "at": "1940-08-14T06:24",
+    "pos": [
+     -3.28,
+     50.813500000000005
+    ],
+    "flightPhase": "outbound",
+    "altitudeM": 2200
+   },
+   {
+    "at": "1940-08-14T06:48",
+    "pos": "@middle_wallop",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-08-14T06:49",
+    "pos": "@middle_wallop",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-08-18T11:46",
+    "pos": "@middle_wallop",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "出击前停机；此后钟点与航迹为教学重构"
+   },
+   {
+    "at": "1940-08-18T11:47",
+    "pos": "@middle_wallop",
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-08-18T11:54",
+    "pos": [
+     -1.0168,
+     50.97355
+    ],
+    "flightPhase": "outbound",
+    "altitudeM": 5500
+   },
+   {
+    "at": "1940-08-18T12:00",
+    "pos": "@radar_poling",
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 5500,
+    "note": "代表交战位置及高度为示意，不是精确历史航迹"
+   },
+   {
+    "at": "1940-08-18T12:04",
+    "pos": [
+     -0.345,
+     51.01
+    ],
+    "flightPhase": "engaged",
+    "altitudeM": 5500,
+    "note": "教学交战回旋，避免飞机悬停；不是精确历史盘旋轨迹"
+   },
+   {
+    "at": "1940-08-18T12:08",
+    "pos": [
+     -0.745,
+     50.95
+    ],
+    "flightPhase": "engaged",
+    "altitudeM": 5200
+   },
+   {
+    "at": "1940-08-18T12:12",
+    "pos": [
+     -0.51,
+     50.85
+    ],
+    "flightPhase": "returning",
+    "status": "withdrawing",
+    "altitudeM": 4900
+   },
+   {
+    "at": "1940-08-18T12:17",
+    "pos": [
+     -0.9368,
+     50.93855
+    ],
+    "flightPhase": "returning",
+    "altitudeM": 3500
+   },
+   {
+    "at": "1940-08-18T12:25",
+    "pos": "@middle_wallop",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "当日返航完成；直到下一出击一直停在基地"
+   },
+   {
+    "at": "1940-08-18T12:26",
+    "pos": "@middle_wallop",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-09-07T05:59",
+    "pos": "@middle_wallop",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-09-07T06:00",
+    "pos": "@middle_wallop",
+    "status": "active",
+    "flightPhase": "outbound",
+    "altitudeM": 0,
+    "note": "代表转场日；06:00 与飞行过程为示意。仅月级明确的德国调动以月初播放。"
+   },
+   {
+    "at": "1940-09-07T06:24",
+    "pos": [
+     -3.28,
+     50.813500000000005
+    ],
+    "flightPhase": "outbound",
+    "altitudeM": 2200
+   },
+   {
+    "at": "1940-09-07T06:48",
+    "pos": "@st_eval",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-09-07T06:49",
+    "pos": "@st_eval",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   },
+   {
+    "at": "1940-10-31T23:59",
+    "pos": "@st_eval",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0
+   }
+  ],
+  "history": "第 234 中队原在康沃尔圣埃瓦尔使用 Spitfire，8 月中旬来到米德尔沃洛普，在第 10 航空群方向承担拦截，后返回西南地区休整。显示机数为代表编队标尺；航迹、钟点与高度为教学重构，不是逐架作战记录。",
+  "sources": [
+   "dowding_despatch",
+   "raf_phase_3",
+   "britain_reconstruction"
+  ],
+  "confidence": "medium"
+ }
+]

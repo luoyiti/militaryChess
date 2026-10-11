@@ -14,6 +14,9 @@ import { isoToHours } from '../core/time';
 import { phaseAt } from '../core/phases';
 import { manifest, sideDef } from '../campaign/context';
 import type { SirenRule } from '../campaign/types';
+import { eventCameraFrame, type CameraFrame } from './camera';
+import { eventSorties } from '../model/flight';
+import type { PlaneKind } from '../map2d/fx';
 
 /** 按时间表取值：最后一个 from ≤ t 的条目；早于第一条时取第一条 */
 function cueAt<T extends { from: string }>(cues: T[], t: number): T | undefined {
@@ -32,8 +35,11 @@ export class Director {
   private lastT = store.get().t;
   private active: REvent | null = null;
   private generation = 0;
-  private fxTimer = 0;
+  private effectTimers = new Set<number>();
   onEvent3D: ((e: REvent) => void) | null = null;
+  /** frame 运镜模式下的 3D 镜头（沙盘提供） */
+  onCamera3D: ((frame: CameraFrame, ms: number) => void) | null = null;
+  private readonly frameMode = manifest().director.camera === 'frame';
   /** 插件钩子：展示事件时（如英文旁白） */
   readonly presentHooks: ((e: REvent, hold: boolean) => void)[] = [];
   readonly cancelHooks: (() => void)[] = [];
@@ -42,7 +48,37 @@ export class Director {
     store.on((s, ch) => {
       if (ch.has('t')) this.onTime(s.t);
       if (ch.has('playing') && s.playing) this.updateMusic(s.t);
+      // 切换到别的事件时取消旧事件的出击、投弹与拉回
+      if (ch.has('selectedEvent') && s.selectedEvent !== this.active?.id) { this.cancelReturn(); this.cancelEffects(); }
     });
+    // 时间跳转：清空队列与场景特效
+    clock.onSeek((t) => { this.lastT = t; this.queue = []; this.cancelEffects(); });
+    map.onManual(() => this.cancelReturn());
+  }
+
+  frameFor(e: REvent, context = false) { return eventCameraFrame(this.db, e, context); }
+  cancelReturn() { clearTimeout(this.returnTimer); this.returnTimer = 0; }
+  /** 取消全部待执行的特效回调与画面中的飞机/硝烟 */
+  cancelEffects() {
+    this.cancelReturn();
+    for (const timer of this.effectTimers) clearTimeout(timer);
+    this.effectTimers.clear();
+    this.fx.clear();
+  }
+  private schedule(ms: number, fn: () => void) {
+    const timer = window.setTimeout(() => { this.effectTimers.delete(timer); fn(); }, ms);
+    this.effectTimers.add(timer);
+  }
+  /** 2D/3D 切换后继续展示当前事件（frame 模式） */
+  reframe(ms = 0) {
+    const e = this.db.events.find((x) => x.id === store.get().selectedEvent);
+    if (e) this.moveCamera(e, false, ms);
+  }
+  private moveCamera(e: REvent, context: boolean, ms: number) {
+    const frame = this.frameFor(e, context);
+    if (store.get().mode === '2d') this.map.flyToFrame(frame, ms);
+    else if (this.onCamera3D) this.onCamera3D(frame, ms);
+    else this.onEvent3D?.(e);
   }
 
   /** 事件的镜头缩放（相对全图） */
@@ -99,31 +135,48 @@ export class Director {
   /** 展示一个事件（可由时间轴/按钮直接调用） */
   present(e: REvent, hold: boolean) {
     const gen = ++this.generation;
-    clearTimeout(this.fxTimer);
-    this.active = e;
-    store.set({ selectedEvent: e.id });
+    const m = manifest();
+    if (this.frameMode) {
+      // 空战：事件时刻对齐、清除部队选择，镜头框住关联航线
+      this.cancelEffects();
+      this.lastT = hold ? e.h : store.get().t;
+      this.active = e;
+      store.set({ ...(hold ? { t: e.h } : {}), selectedEvent: e.id, selectedUnit: null, followUnit: false });
+    } else {
+      for (const timer of this.effectTimers) clearTimeout(timer);
+      this.effectTimers.clear();
+      this.active = e;
+      store.set({ selectedEvent: e.id });
+    }
     this.dyn.selectedEvent = e.id;
     const rel = this.zoomFor(e);
     const mode = store.get().mode;
-    const m = manifest();
     this.card.show(e, { typewriter: true });
-    if (mode === '2d') {
+    if (this.frameMode) this.moveCamera(e, false, hold ? 1600 : 1100);
+    else if (mode === '2d') {
       if (e.wide && m.director.wideGoesHome) this.map.home(1100);
       else this.map.flyTo(e.ll, rel, hold ? 1600 : 1100);
     } else this.onEvent3D?.(e);
     if (hold) {
-      const dwell = this.card.dwellMs(e) + 1400;
+      const [dMin, dMax] = m.director.dwell ?? [0, Infinity];
+      const dwell = Math.min(dMax, Math.max(dMin, this.card.dwellMs(e) + 1400));
       clock.hold(dwell);
-      // 驻留结束后若短期内没有下一个重要事件，镜头拉回战略全景
-      clearTimeout(this.returnTimer);
+      // 驻留结束后若短期内没有下一个重要事件，镜头拉回战略全景（frame 模式：同战区稍拉远）
+      this.cancelReturn();
       this.returnTimer = window.setTimeout(() => {
         const s = store.get();
-        if (!s.playing || !s.director || this.queue.length || s.mode !== '2d') return;
+        if (!s.playing || !s.director || this.queue.length) return;
+        if (this.frameMode) {
+          if (this.active !== e || s.selectedEvent !== e.id) return;
+        } else if (s.mode !== '2d') return;
         const next = this.db.events.find((x) => x.h > s.t && x.importance <= (s.speed >= 4 ? 1 : 2));
-        if (!next || next.h - s.t > 10) this.returnHome(m.director.returnTo === 'home' ? 1800 : 2200);
+        if (!next || next.h - s.t > 10) {
+          if (this.frameMode) this.moveCamera(e, true, 2200);
+          else this.returnHome(m.director.returnTo === 'home' ? 1800 : 2200);
+        }
       }, dwell + 200);
     }
-    this.fxTimer = window.setTimeout(() => { if (gen === this.generation) this.fxFor(e, true); }, hold ? 1100 : 300);
+    this.schedule(hold ? 1100 : 300, () => { if (gen === this.generation) this.fxFor(e, true); });
     for (const r of m.director.sirens ?? []) if (sirenMatches(r, e)) { audio.play(r.sfx, { volume: r.volume ?? 0.55 }); break; }
     for (const h of this.presentHooks) h(e, hold);
   }
@@ -132,8 +185,10 @@ export class Director {
   cancel() {
     this.queue = [];
     this.active = null;
-    clearTimeout(this.returnTimer);
-    clearTimeout(this.fxTimer); this.generation++;
+    this.cancelReturn();
+    for (const timer of this.effectTimers) clearTimeout(timer);
+    this.effectTimers.clear();
+    this.generation++;
     clock.release();
     this.lastT = store.get().t;
     for (const h of this.cancelHooks) h();
@@ -142,9 +197,18 @@ export class Director {
   private fxFor(e: REvent, full: boolean) {
     const sfx = e.sfx ?? [];
     const vol = full ? 0.9 : 0.35;
-    sfx.slice(0, full ? 3 : 1).forEach((id, i) => window.setTimeout(() => audio.play(id, { volume: vol }), i * 650));
+    sfx.slice(0, full ? 3 : 1).forEach((id, i) => this.schedule(i * 650, () => audio.play(id, { volume: vol })));
     const air = e.category === 'air' || sfx.includes('stuka') || sfx.includes('bomber');
-    if (air && full) this.fx.planesTo(e.ll, sfx.includes('bomber') ? 'bomber' : 'stuka', (e.side && sideDef(e.side).planesFrom) || 'W');
+    const sorties = air && full ? eventSorties(this.db, e) : [];
+    if (sorties.length) {
+      // 空战：沿该事件关联出击的真实航迹重放编队（俯冲轰炸机 / 轰炸机 / 战斗机）
+      for (const sortie of sorties) {
+        const unit = this.db.units.get(sortie.unit);
+        const kind: PlaneKind = unit?.model === 'ju87' ? 'stuka' : sortie.role === 'raid' ? 'bomber' : 'fighter';
+        this.fx.planesAlong(sortie, kind);
+      }
+    } else if (air && full) this.fx.planesTo(e.ll, sfx.includes('bomber') ? 'bomber' : 'stuka', (e.side && sideDef(e.side).planesFrom) || 'W', undefined, e.side ?? 'DE');
+    else if (this.frameMode) { if (['battle', 'naval'].includes(e.category)) this.fx.burst(e.ll, full && e.importance === 1); }
     else if (['battle', 'siege', 'naval', 'atrocity'].includes(e.category)) this.fx.burst(e.ll, full && e.importance === 1);
     else if (full) this.fx.burst(e.ll, false);
   }

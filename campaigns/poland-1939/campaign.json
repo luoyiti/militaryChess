@@ -207,7 +207,7 @@
   "map": {
     "fit": {
       "bbox": [
-        14.0,
+        14,
         48.3,
         28.2,
         55.9
@@ -217,7 +217,7 @@
     "insetTop": 70,
     "home3d": [
       21.3,
-      52.0
+      52
     ],
     "focus": [
       21.3,
@@ -246,7 +246,7 @@
         [
           "波 兰",
           21.6,
-          51.0,
+          51,
           44,
           0.3
         ],
@@ -364,7 +364,7 @@
     "returnTo": "point",
     "returnCenter": [
       21.1,
-      52.0
+      52
     ],
     "defaultZoom": [
       1.9,
@@ -593,10 +593,19 @@
   "hub": {
     "order": 1,
     "codename": "白色方案",
+    "codenameOrig": "FALL WEISS",
     "pin": [
       19.4,
       52.1
     ],
+    "labelAt": "s",
+    "theatre": {
+      "countries": [
+        "Poland (W)",
+        "Poland (E)"
+      ]
+    },
+    "cover": "photos/ba-141-0763-warschau-brande-878f2a.webp",
     "blurb": "德军从北、西、南三面越境，苏军自东入侵；华沙围城二十天，最后一支成建制的波兰部队在科克放下武器。"
   }
 }

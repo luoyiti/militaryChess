@@ -7,10 +7,12 @@ import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
 import { CSS2DRenderer, CSS2DObject } from 'three/examples/jsm/renderers/CSS2DRenderer.js';
 import { gsap } from 'gsap';
 import type { DB } from '../../data/db';
-import { W, H, KM, project, GRID } from '../../geo/frame';
+import { W, H, KM, project, unproject, GRID } from '../../geo/frame';
 import type { GeomResult } from '../../geo/field/client';
 import { bitsMask } from '../../geo/field/field';
 import { unitStateAt, routeProgress, isTerminal, type RUnit } from '../../model/core';
+import { projectedHeading } from '../../model/flight';
+import { cameraViewport, frameBounds, type CameraFrame, type CameraFocus, type CameraInsets } from '../../app/camera';
 import { buildInstanceGeometry, hasModel } from '../models';
 import type { LonLat, ModelId } from '../../core/types';
 import { ECHELON_RANK } from '../../core/types';
@@ -68,7 +70,7 @@ function elevAt(t: Terrain, wx: number, wy: number): number {
 const hex = (c: string) => Number.parseInt(c.slice(1), 16);
 const vec3 = (v: readonly number[]) => `vec3(${v.map((x) => x.toFixed(3)).join(', ')})`;
 
-export function createSandbox(host: HTMLElement, db: DB) {
+export function createSandbox(host: HTMLElement, db: DB, getInsets?: () => CameraInsets) {
   const m = manifest();
   const cfg = m.sandbox ?? {};
   const EXAG = cfg.exaggeration ?? 3; // 高程夸张
@@ -85,6 +87,7 @@ export function createSandbox(host: HTMLElement, db: DB) {
   const expandedAt = (t: number) => (deferred.length ? (deferred.every((d) => t >= d.h) ? 1 : 0) : 1);
   const restTint = cfg.restTint ?? [0.9, 0.95, 1.06];
   const restStrength = cfg.restStrength ?? 0.55;
+  const air = m.control.mode === 'air'; // 空战：两个区域可重叠、跨越海面，没有剩余领土
   const airHeight = cfg.airRoute?.height ?? 170, airWidth = cfg.airRoute?.width ?? 0.2;
   const renderer = new THREE.WebGLRenderer({ antialias: true, powerPreference: 'high-performance' });
   // 软件渲染（SwiftShader / llvmpipe）时降低像素比、关闭阴影、减少地形分段
@@ -112,7 +115,7 @@ export function createSandbox(host: HTMLElement, db: DB) {
   const scene = new THREE.Scene();
   scene.background = new THREE.Color(0x2a241b);
   scene.fog = new THREE.Fog(0x3a3024, ...(cfg.fog ?? [5200, 12000]));
-  const camera = new THREE.PerspectiveCamera(38, 1, 20, 30000);
+  const camera = new THREE.PerspectiveCamera(38, 1, 20, cfg.maxDistance ? cfg.maxDistance * 2 : 30000);
   camera.position.set(0, 2300, 2600);
   const controls = new OrbitControls(camera, labelR.domElement);
   labelR.domElement.style.pointerEvents = 'auto';
@@ -121,7 +124,14 @@ export function createSandbox(host: HTMLElement, db: DB) {
   // Keep all viewport rays below the horizon so distant panning stays over real geography.
   controls.maxPolarAngle = Math.PI * (withContext ? 0.36 : 0.44);
   controls.minDistance = 250;
-  controls.maxDistance = 9000;
+  controls.maxDistance = cfg.maxDistance ?? 9000;
+  const manualListeners: (() => void)[] = [];
+  let cameraFrame: CameraFrame | null = null;
+  controls.addEventListener('start', () => {
+    cancelFlight();
+    cameraFrame = null;
+    for (const fn of manualListeners) fn();
+  });
   controls.target.set(...(worldTo3(...project(cfg.target ?? phaseAt(store.get().t).center ?? m.map.home3d), 0)));
   { const t0 = controls.target; camera.position.set(t0.x + 300, 2100, t0.z + 2300); }
   controls.screenSpacePanning = false;
@@ -148,6 +158,7 @@ export function createSandbox(host: HTMLElement, db: DB) {
   // 场纹理（DE/SU 距离，RG 通道；0.5 = 0 距离）
   const clampCells = 12;
   const fieldData = new Uint8Array(GRID.w * GRID.h * 4);
+  if (air) fieldData.fill(255); // 场到达之前不显示任何区域
   const fieldTex = new THREE.DataTexture(fieldData, GRID.w, GRID.h, THREE.RGBAFormat);
   fieldTex.magFilter = THREE.LinearFilter;
   fieldTex.minFilter = THREE.LinearFilter;
@@ -171,7 +182,7 @@ export function createSandbox(host: HTMLElement, db: DB) {
   let terrain: Terrain | null = null;
   let contextMesh: THREE.Mesh | null = null;
   let contextTerrain: Terrain | null = null;
-  let contextStatus: 'loading' | 'ready' | 'error' = 'loading';
+  let contextStatus: 'none' | 'loading' | 'ready' | 'error' = withContext ? 'loading' : 'none';
   let contextError: string | null = null;
   let limitContextView: (() => number) | null = null;
   const contextAssets = (withContext ? Promise.all([
@@ -225,20 +236,21 @@ export function createSandbox(host: HTMLElement, db: DB) {
           vec2 fuv = wp / (uFieldSize * uCell);
           vec4 f = texture2D(uField, fuv);
           vec4 m = texture2D(uMask, fuv);
-          float theater = max(m.r, m.g * uExpanded);
+          float theater = ${air ? '1.0' : 'max(m.r, m.g * uExpanded)'};
           float dDE = (f.r - 0.5) * 2.0 * uClamp; // 格子
           float dSU = (f.g - 0.5) * 2.0 * uClamp;
           float px = fwidth(dDE) + 1e-4;
           float inDE = smoothstep(px, -px, dDE) * theater * uControl;
-          float inSU = smoothstep(px, -px, dSU) * theater * (1.0 - inDE) * uControl;
+          float inSU = smoothstep(px, -px, dSU) * theater * ${air ? '1.0' : '(1.0 - inDE)'} * uControl;
           float hatch = step(0.78, fract((wp.x + wp.y) / 30.0));
           float cross2 = max(step(0.8, fract((wp.x + wp.y) / 34.0)), step(0.8, fract((wp.x - wp.y) / 34.0)));
           vec3 deCol = ${vec3(slotA.sandboxFill)};
           vec3 suCol = ${vec3(slotB.sandboxFill)};
-          diffuseColor.rgb = mix(diffuseColor.rgb, mix(diffuseColor.rgb * 0.72, deCol, 0.42 + 0.35 * hatch), inDE);
-          diffuseColor.rgb = mix(diffuseColor.rgb, mix(diffuseColor.rgb * 0.75, suCol, 0.4 + 0.35 * cross2), inSU);
+          ${air
+            ? 'diffuseColor.rgb = mix(diffuseColor.rgb, deCol, inDE * (.09 + .08 * hatch)); diffuseColor.rgb = mix(diffuseColor.rgb, suCol, inSU * (.07 + .07 * cross2));'
+            : 'diffuseColor.rgb = mix(diffuseColor.rgb, mix(diffuseColor.rgb * 0.72, deCol, 0.42 + 0.35 * hatch), inDE); diffuseColor.rgb = mix(diffuseColor.rgb, mix(diffuseColor.rgb * 0.75, suCol, 0.4 + 0.35 * cross2), inSU);'}
           // 同盟国仍控制的战区：很淡的冷色，避免盖住地形
-          float inPL = theater * (1.0 - inDE) * (1.0 - inSU);
+          float inPL = ${air ? '0.0' : 'theater * (1.0 - inDE) * (1.0 - inSU)'};
           diffuseColor.rgb = mix(diffuseColor.rgb, diffuseColor.rgb * ${vec3(restTint)}, inPL * ${restStrength.toFixed(3)} * uControl);
           // 战线发光带
           float lineDE = 1.0 - smoothstep(0.15, 0.75, abs(dDE));
@@ -247,7 +259,7 @@ export function createSandbox(host: HTMLElement, db: DB) {
           float pulse = 0.75 + 0.25 * sin(uTime * 3.0);
           diffuseColor.rgb = mix(diffuseColor.rgb, ${vec3(slotA.sandboxLine)}, lineDE * theater * uFront);
           diffuseColor.rgb = mix(diffuseColor.rgb, ${vec3(slotB.sandboxLine)}, lineSU * theater * uFront);
-          diffuseColor.rgb += vec3(1.0, 0.5, 0.15) * glow * theater * 0.32 * pulse * uFront;
+          diffuseColor.rgb += vec3(1.0, 0.5, 0.15) * glow * theater * ${air ? '0.12' : '0.32'} * pulse * uFront;
         }`);
     };
     terrainMesh = new THREE.Mesh(geo, mat);
@@ -281,10 +293,29 @@ export function createSandbox(host: HTMLElement, db: DB) {
     }
     buildLabels();
     buildRoutes();
+    buildOverlays();
   })().catch((err) => { hint.textContent = '3D 地形加载失败，请返回作战地图'; console.error(err); });
 
   function worldTo3(wx: number, wy: number, y: number): [number, number, number] { return [wx - W / 2, y, wy - H / 2]; }
   function groundY(wx: number, wy: number) { return terrain ? toY(elevAt(terrain, wx, wy)) : 0; }
+
+  // ---------- 叠加层（空域分区、雷达圈等，data/overlays.json） ----------
+  const overlayGroups = new Map<string, THREE.Group>();
+  function buildOverlays() {
+    const line = (pts: number[][], group: THREE.Group, color: number, dashed: boolean) => {
+      const geo = new THREE.BufferGeometry().setFromPoints(pts.map(([x, y]) => new THREE.Vector3(...worldTo3(x, y, groundY(x, y) + 10))));
+      const mat = dashed ? new THREE.LineDashedMaterial({ color, transparent: true, opacity: .45, dashSize: 35, gapSize: 20 }) : new THREE.LineBasicMaterial({ color, transparent: true, opacity: .35 });
+      const obj = new THREE.Line(geo, mat); obj.computeLineDistances(); group.add(obj);
+    };
+    for (const o of db.overlays) {
+      let g = overlayGroups.get(o.layer);
+      if (!g) { g = new THREE.Group(); overlayGroups.set(o.layer, g); scene.add(g); }
+      if (o.kind === 'polygon') for (const p of o.polygons ?? []) for (const r of p) { const pts = r.map((ll) => project(ll)); line([...pts, pts[0]], g, 0x8d3b3e, true); }
+      else if (o.kind === 'range' && o.pos && o.rangeKm) { const [x, y] = project(o.pos), radius = o.rangeKm / KM; line(Array.from({ length: 65 }, (_, i) => [x + radius * Math.cos((i / 64) * Math.PI * 2), y + radius * Math.sin((i / 64) * Math.PI * 2)]), g, 0x92585b, false); }
+      else if (o.kind === 'line' && o.line) line(o.line.map((ll) => project(ll)), g, 0x8d3b3e, true);
+    }
+    for (const [layer, g] of overlayGroups) g.visible = store.get().layers[layer] !== false;
+  }
 
   // ---------- 标注 ----------
   const labelObjs: CSS2DObject[] = [];
@@ -415,17 +446,20 @@ export function createSandbox(host: HTMLElement, db: DB) {
       const s = unitStateAt(u.id, db.units, T);
       if (!s || s.fade < 0.05 || hiddenInTransit(u, s, 'sandbox')) return;
       const [wx, wy] = project(s.ll);
-      const y = groundY(wx, wy);
+      let y = groundY(wx, wy);
+      const airborne = !!s.flightPhase && s.flightPhase !== 'at_base';
       const m = modelOf(u);
       const symbolic = (u.type === 'naval' || u.type === 'air') && !cfg.typeModels?.[u.type] && !u.model;
       const g = groupFor(m);
       if (g.count >= MAX_PER) return;
       const ech = ECHELON_RANK[u.echelon];
       const sc = FIG_SCALE * (ech === 0 ? 1.7 : ech === 1 ? 1.35 : 1.1) * (0.35 + 0.65 * s.fade);
+      if (airborne) y += Math.max(sc * 6.5, ((s.altitudeM ?? 2500) / 1000 / KM) * 4); // 飞机高度采用可读的视觉放大
       // 朝向：经纬度 heading → 世界坐标（北 = -z）
       const heading = s.moving ? s.heading : Math.PI * (sideDef(u.side).restHeading ?? (u.side === 'DE' ? 0 : 1));
       const dx = Math.cos(heading), dy = -Math.sin(heading);
-      tmpQ.setFromAxisAngle(new THREE.Vector3(0, 1, 0), Math.atan2(-dy, dx));
+      // 飞行中的部队用投影后的切线朝向（高纬度斜向航迹不偏转）
+      tmpQ.setFromAxisAngle(new THREE.Vector3(0, 1, 0), s.flightPhase && s.moving ? -projectedHeading(s.ll, s.heading) : Math.atan2(-dy, dx));
       tmpP.set(...worldTo3(wx, wy, y + 0.2 * sc));
       tmpS.set(sc, sc, sc);
       tmpM.compose(tmpP, tmpQ, tmpS);
@@ -433,7 +467,7 @@ export function createSandbox(host: HTMLElement, db: DB) {
       const dead = isTerminal(s.status);
       if (!symbolic) { g.setColorAt(g.count, tmpC.set(dead ? 0x888888 : 0xffffff)); g.count++; }
       // 底座
-      if (bi < 400) {
+      if (bi < 400 && !airborne) {
         const br = sc * 1.75;
         tmpM.compose(tmpP.set(...worldTo3(wx, wy, y + 0.05 * sc)), new THREE.Quaternion(), tmpS.set(br, sc, br));
         baseMesh.setMatrixAt(bi, tmpM);
@@ -456,6 +490,7 @@ export function createSandbox(host: HTMLElement, db: DB) {
       L.element.classList.toggle('sel', u.id === selected);
       L.element.classList.toggle('dead', dead);
       L.element.style.opacity = String(s.fade);
+      if (s.flightPhase) { L.element.dataset.flight = s.flightPhase; L.element.dataset.lon = s.ll[0].toFixed(5); L.element.dataset.lat = s.ll[1].toFixed(5); }
       L.position.set(...worldTo3(wx, wy, y + sc * 3.6 + 12));
       seen.add(u.id);
     };
@@ -517,17 +552,54 @@ export function createSandbox(host: HTMLElement, db: DB) {
     labelR.setSize(r.width, r.height);
     camera.aspect = r.width / Math.max(1, r.height);
     camera.updateProjectionMatrix();
+    viewWidth = r.width; viewHeight = r.height; viewportKey = '';
+    updateViewport();
   }
   new ResizeObserver(resize).observe(host);
+  // 镜头中心对准地图与卡片之间的可见区域（与 2D 一致；仅在提供实时占位时）
+  let viewWidth = 1, viewHeight = 1, viewportKey = '';
+  function updateViewport() {
+    const v = cameraViewport(viewWidth, viewHeight, getInsets ? getInsets() : { left: 0, right: 0, top: 0, bottom: 0 });
+    if (!getInsets) return v;
+    const key = `${v.x}/${v.y}/${v.width}/${v.height}`;
+    if (key !== viewportKey) {
+      viewportKey = key;
+      camera.setViewOffset(viewWidth, viewHeight, viewWidth / 2 - (v.x + v.width / 2), viewHeight / 2 - (v.y + v.height / 2), viewWidth, viewHeight);
+    }
+    return v;
+  }
+  function cancelFlight() { gsap.killTweensOf(controls.target); gsap.killTweensOf(camera.position); }
+  function cameraDirection() {
+    const dir = camera.position.clone().sub(controls.target).normalize();
+    dir.y = Math.max(.55, dir.y);
+    return dir.normalize();
+  }
+  function moveCamera(target: THREE.Vector3, dist: number, ms: number) {
+    cancelFlight();
+    updateViewport();
+    const camTo = target.clone().add(cameraDirection().multiplyScalar(Math.min(controls.maxDistance, dist)));
+    const duration = window.matchMedia?.('(prefers-reduced-motion: reduce)').matches ? 0 : ms / 1000;
+    if (duration <= 0) { controls.target.copy(target); camera.position.copy(camTo); controls.update(); unitsDirty = true; return; }
+    gsap.to(controls.target, { x: target.x, y: target.y, z: target.z, duration, ease: 'power2.inOut', onUpdate: () => { unitsDirty = true; } });
+    gsap.to(camera.position, { x: camTo.x, y: camTo.y, z: camTo.z, duration, ease: 'power2.inOut' });
+  }
   let lastDist = 0;
   function loop() {
     if (!running) return;
     raf = requestAnimationFrame(loop);
     uniforms.uTime.value = (performance.now() - t0clock) / 1000;
+    if (getInsets) updateViewport();
     controls.update();
     if (limitContextView) controls.maxDistance = limitContextView();
+    // 镜头跟随选中部队（3D）
+    const st = store.get();
+    if (cfg.follow && st.followUnit && st.selectedUnit) {
+      const fs = unitStateAt(st.selectedUnit, db.units, T);
+      if (fs) { const [fx, fz] = project(fs.ll); const target = new THREE.Vector3(...worldTo3(fx, fz, groundY(fx, fz))); const shift = target.sub(controls.target).multiplyScalar(.08); camera.position.add(shift); controls.target.add(shift); }
+    }
     for (const L of labelObjs) L.visible = store.get().layers.cities;
     const d = camera.position.distanceTo(controls.target);
+    if (cfg.distanceFog) { (scene.fog as THREE.Fog).near = Math.max(5200, d * .9); (scene.fog as THREE.Fog).far = Math.max(12000, d * 2); }
     if (Math.abs(d - lastDist) > 150) { lastDist = d; unitsDirty = true; }
     if (unitsDirty) { unitsDirty = false; updateUnits(); updateRibbons(); }
     // 阴影相机跟随视点
@@ -543,7 +615,11 @@ export function createSandbox(host: HTMLElement, db: DB) {
     if (now - fpsT > 1000) { fps = (frames * 1000) / (now - fpsT); frames = 0; fpsT = now; }
   }
 
-  store.on((s, ch) => { if (ch.has('layers')) { unitsDirty = true; uniforms.uControl.value = s.layers.control ? 1 : 0; uniforms.uFront.value = s.layers.front ? 1 : 0; } });
+  store.on((s, ch) => {
+    if (!ch.has('layers')) return;
+    unitsDirty = true; uniforms.uControl.value = s.layers.control ? 1 : 0; uniforms.uFront.value = s.layers.front ? 1 : 0;
+    for (const [layer, g] of overlayGroups) g.visible = s.layers[layer] !== false;
+  });
 
   return {
     show() { if (running) return; running = true; resize(); ready.then(() => { unitsDirty = true; }); loop(); host.classList.remove('hidden'); },
@@ -561,17 +637,38 @@ export function createSandbox(host: HTMLElement, db: DB) {
       }
       fieldTex.needsUpdate = true;
     },
-    flyTo(ll: LonLat | [number, number], rel: number) {
+    flyTo(ll: LonLat | [number, number], rel: number, ms = 1800) {
+      cameraFrame = null;
       const [wx, wy] = project(ll);
-      const y = groundY(wx, wy);
-      const target = new THREE.Vector3(...worldTo3(wx, wy, y));
-      const dist = Math.max(500, 6400 / Math.max(1, rel));
-      const dir = camera.position.clone().sub(controls.target).normalize();
-      dir.y = Math.max(0.55, dir.y); dir.normalize();
-      const camTo = target.clone().add(dir.multiplyScalar(dist));
-      gsap.to(controls.target, { x: target.x, y: target.y, z: target.z, duration: 1.8, ease: 'power2.inOut', onUpdate: () => { unitsDirty = true; } });
-      gsap.to(camera.position, { x: camTo.x, y: camTo.y, z: camTo.z, duration: 1.8, ease: 'power2.inOut' });
+      const target = new THREE.Vector3(...worldTo3(wx, wy, groundY(wx, wy)));
+      moveCamera(target, Math.max(500, 6400 / Math.max(getInsets ? .55 : 1, rel)), ms);
     },
+    /** 把一组地点完整框进可见区域（空战事件镜头） */
+    flyToFrame(frame: CameraFrame, ms = 1800) {
+      const [wx, wy] = frameBounds(frame).center;
+      const target = new THREE.Vector3(...worldTo3(wx, wy, groundY(wx, wy)));
+      const viewport = updateViewport();
+      const pad = Math.min(56, viewport.width * .12, viewport.height * .12);
+      const dir = cameraDirection();
+      const right = new THREE.Vector3(dir.z, 0, -dir.x).normalize();
+      const up = dir.clone().cross(right);
+      const tanY = Math.tan(THREE.MathUtils.degToRad(camera.fov / 2));
+      const tanX = (tanY * camera.aspect * (viewport.width - pad * 2)) / viewWidth;
+      const availableY = (tanY * (viewport.height - pad * 2)) / viewHeight;
+      let dist = Math.max(500, 6400 / Math.max(.55, frame.maxZoom));
+      for (const ll of frame.points) {
+        const [x, y] = project(ll);
+        const p = new THREE.Vector3(...worldTo3(x, y, groundY(x, y))).sub(target);
+        dist = Math.max(dist, p.dot(dir) + Math.max(Math.abs(p.dot(right)) / tanX, Math.abs(p.dot(up)) / availableY));
+      }
+      moveCamera(target, dist, ms);
+      cameraFrame = frame;
+    },
+    cameraFocus(): CameraFocus {
+      return { ll: unproject([controls.target.x + W / 2, controls.target.z + H / 2]), relZoom: 6400 / camera.position.distanceTo(controls.target) };
+    },
+    cancelFlight,
+    onManual(fn: () => void) { manualListeners.push(fn); },
     select(id: string | null) { selected = id; unitsDirty = true; },
     resize,
     stats() {
@@ -579,7 +676,7 @@ export function createSandbox(host: HTMLElement, db: DB) {
       return { fps: Math.round(fps), instances: inst, groups: groups.size, calls: renderer.info.render.calls, tris: renderer.info.render.triangles,
         ready: !!terrainMesh && (!withContext || contextStatus === 'ready'), contextReady: !!contextMesh, contextStatus, contextError,
         contextOrigin: contextTerrain?.origin, contextWorld: contextTerrain ? [contextTerrain.worldWidth, contextTerrain.worldHeight] : null,
-        maxDistance: controls.maxDistance };
+        maxDistance: controls.maxDistance, frame: cameraFrame?.points.length ?? 0 };
     },
   };
 }

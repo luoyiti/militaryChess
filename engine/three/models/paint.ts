@@ -8,9 +8,9 @@ export type Role =
   | 'track' | 'rubber' | 'dark' | 'metal' | 'rust' | 'wood' | 'glass' | 'canvas'
   | 'uniform' | 'trousers' | 'helmet' | 'skin' | 'leather' | 'boots' | 'kit' | 'coat'
   | 'horse' | 'mane' | 'hoof' | 'tack' | 'blanket'
-  | 'flagA' | 'flagB' | 'white' | 'red';
+  | 'flagA' | 'flagB' | 'white' | 'red' | 'belly' | 'blue' | 'yellow';
 
-export type CamoKind = 'de' | 'pl' | 'su' | 'cz' | 'plain';
+export type CamoKind = 'de' | 'pl' | 'su' | 'cz' | 'plain' | 'raf' | 'luftwaffe';
 
 export interface Scheme {
   camo: CamoKind;
@@ -27,6 +27,7 @@ const COMMON: Record<Role, string> = {
   boots: '#1e1b18', kit: '#6b6450', coat: '#6b6452',
   horse: '#5a3a24', mane: '#1f1712', hoof: '#2a2420', tack: '#3a2618', blanket: '#5b5a4a',
   flagA: '#e8e2d2', flagB: '#b3262e', white: '#ece6d6', red: '#a82424',
+  belly: '#b9c7bc', blue: '#163967', yellow: '#dbc13e',
 };
 
 export const SCHEMES = {
@@ -36,6 +37,10 @@ export const SCHEMES = {
   pl: { camo: 'pl', c0: '#a58d5c', c1: '#556038', c2: '#6a4c32', line: '#1c1a16', roles: {} },
   /** 苏军 4BO 橄榄绿 */
   su: { camo: 'su', c0: '#4f5634', c1: '#4f5634', c2: '#4f5634', line: '#2a2a2a', roles: {} },
+  /** 1940 RAF：Dark Earth / Dark Green 上表面，Sky 下表面。 */
+  raf: { camo: 'raf', c0: '#66543c', c1: '#3e4b36', c2: '#3e4b36', line: '#242a22', roles: { belly: '#b9c7ac', glass: '#819ba7', blue: '#173e72', red: '#9f2729', white: '#e7e1cd' } },
+  /** 1940 Luftwaffe：深绿碎片式上表面与浅蓝下表面，保留普通铁十字。 */
+  luftwaffe: { camo: 'luftwaffe', c0: '#35433b', c1: '#56634c', c2: '#56634c', line: '#28332e', roles: { belly: '#a9c5c8', glass: '#7798a7', dark: '#131a1c', white: '#e6e6db' } },
   /** 中性火炮：橄榄灰 */
   gun: { camo: 'su', c0: '#55573f', c1: '#55573f', c2: '#55573f', line: '#2a2a2a', roles: {} },
   /** 步兵/骑兵：不迷彩，按国别覆盖服装色 */
@@ -110,6 +115,10 @@ export function camoColor(s: Scheme, p: THREE.Vector3, out: THREE.Color, coarse 
       const n = fbm(x * 3, y * 3, z * 3);
       return out.set(s.c0).multiplyScalar(0.93 + 0.14 * n);
     }
+    case 'raf':
+      return out.set(Math.sin(p.x * .8 + p.z * .7 + fbm(p.x * .3, p.y * .3, p.z * .3) * 4) > 0 ? s.c1 : s.c0);
+    case 'luftwaffe':
+      return out.set(Math.sin(p.x * .7 + p.z * .45) > .1 ? s.c1 : s.c0);
     default:
       return out.set(s.c0);
   }
@@ -136,10 +145,12 @@ vec3 camo(vec3 q){
       c=mix(uLine,c,smoothstep(${CAMO.plLine.toFixed(4)}*0.7,${CAMO.plLine.toFixed(4)}*1.3,l)); }
     return c; }
   if(uMode==2){ return uC0*(0.93+0.14*fb(p*3.0)); }
+  if(uMode==5){ return mix(uC0,uC1,step(0.,sin(q.x*.8+q.z*.7+fb(q*.3)*4.))); }
+  if(uMode==6){ return mix(uC0,uC1,step(.1,sin(q.x*.7+q.z*.45))); }
   return uC0;
 }
 `;
-const MODE: Record<CamoKind, number> = { de: 0, pl: 1, su: 2, cz: 3, plain: 4 };
+const MODE: Record<CamoKind, number> = { de: 0, pl: 1, su: 2, cz: 3, plain: 4, raf: 5, luftwaffe: 6 };
 
 /** 卡片版迷彩材质：顶点色=明暗（手涂感），片元内按模型空间坐标计算迷彩色 */
 export function camoMaterial(s: Scheme): THREE.MeshStandardMaterial {

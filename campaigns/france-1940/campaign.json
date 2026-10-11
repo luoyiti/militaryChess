@@ -223,11 +223,11 @@
     "fit": "frame",
     "home3d": [
       4.3,
-      50.0
+      50
     ],
     "focus": [
       4.3,
-      50.0
+      50
     ],
     "hexKm": 18,
     "theatreCountries": [
@@ -323,14 +323,14 @@
     "figScale": 17,
     "target": [
       4.3,
-      50.0
+      50
     ]
   },
   "director": {
     "returnTo": "point",
     "returnCenter": [
       4.3,
-      50.0
+      50
     ],
     "defaultZoom": [
       1.9,
@@ -535,10 +535,22 @@
   "hub": {
     "order": 3,
     "codename": "黄色方案",
+    "codenameOrig": "FALL GELB",
     "pin": [
       3.2,
       49.8
     ],
+    "labelAt": "s",
+    "theatre": {
+      "countries": [
+        "France (N)",
+        "France (S)",
+        "Belgium",
+        "Netherlands",
+        "Luxembourg"
+      ]
+    },
+    "cover": "photos/dunkirk-26-29-may-1940-nyp68075-dabb26.webp",
     "blurb": "装甲部队穿过被认为无法通行的阿登森林，十天冲到英吉利海峡；同盟军退守敦刻尔克，六周后法国签署停战协定。"
   }
 }

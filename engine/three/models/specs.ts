@@ -38,4 +38,12 @@ export const MODEL_SPECS: Record<string, ModelSpec> = {
   inf_allied: { label: '盟军步兵符号模型', lengthM: 3.03, widthM: 2.52, heightM: 1.79, kind: 'infantry' },
   navy_token: { label: '海军符号模型（非实际舰型）', lengthM: 3.4, widthM: .65, heightM: 1.3, kind: 'naval' },
   air_token: { label: '航空符号模型（非实际机型）', lengthM: 3.245, widthM: 3.2, heightM: .71, kind: 'air' },
+  spitfire: { label: '喷火 Mk I 战斗机', lengthM: 9.12, widthM: 11.23, heightM: 3.86, kind: 'aircraft' },
+  hurricane: { label: '飓风 Mk I 战斗机', lengthM: 9.84, widthM: 12.19, heightM: 3.96, kind: 'aircraft' },
+  bf109: { label: 'Bf 109 E-3 战斗机', lengthM: 8.64, widthM: 9.87, heightM: 3.4, kind: 'aircraft' },
+  bf110: { label: 'Bf 110 C 重型战斗机', lengthM: 12.65, widthM: 16.27, heightM: 3.5, kind: 'aircraft' },
+  he111: { label: 'He 111 H-3 轰炸机', lengthM: 16.4, widthM: 22.6, heightM: 4, kind: 'aircraft' },
+  do17: { label: 'Do 17 Z-2 轰炸机', lengthM: 15.8, widthM: 18, heightM: 4.56, kind: 'aircraft' },
+  ju87: { label: 'Ju 87 B-2 俯冲轰炸机', lengthM: 11.1, widthM: 13.8, heightM: 4.23, kind: 'aircraft' },
+  ju88: { label: 'Ju 88 A-1 轰炸机', lengthM: 14.36, widthM: 18.25, heightM: 5.07, kind: 'aircraft' },
 };

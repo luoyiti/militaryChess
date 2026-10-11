@@ -75,9 +75,16 @@ export class Sidebar {
   get briefPane() { return this.el.querySelector('[data-p="brief"]') as HTMLElement; }
 
   private briefPhase = '';
+  /** 插件可整体接管简报 / 态势（见 PluginHooks.replaceBrief / sidebarStatus） */
+  briefOverride: ((pane: HTMLElement) => void) | null = null;
+  statusOverride: ((t: number, el: HTMLElement) => boolean) | null = null;
+
+  rebuildBrief() { this.buildBrief(); this.lastStatusKey = ''; this.updateStatus(store.get().t); }
+
   private buildBrief(t = store.get().t) {
     const m = manifest();
     const B = m.ui.brief;
+    if (this.briefOverride) { this.briefOverride(this.briefPane); this.statusEl = this.briefPane.querySelector('.sb-status') ?? document.createElement('div'); return; }
     if (B.layout === 'theatres') { this.buildTheatreBrief(); return; }
     const phase = phaseAt(t);
     this.briefPhase = phase.id;
@@ -146,6 +153,7 @@ export class Sidebar {
   private lastTreeKey = '';
   private updateStatus(t: number) {
     const m = manifest();
+    if (this.statusOverride?.(t, this.statusEl)) return;
     if (m.ui.brief.byPhase && phaseAt(t).id !== this.briefPhase) this.buildBrief(t);
     const S = m.ui.status;
     const key = String(Math.floor(t / (S.theatres ? 1 : 3)));
@@ -248,7 +256,7 @@ export class Sidebar {
   layerList(): [LayerKey, string][] {
     const cfg = manifest().ui.layers ?? {};
     const base = BASE_LAYERS.filter((k) => cfg[k]?.hidden !== true).map((k) => [k, cfg[k]?.label ?? LAYER_LABELS[k]] as [LayerKey, string]);
-    const extra = this.extraLayers.map((l) => [l.key, cfg[l.key]?.label ?? l.label] as [LayerKey, string]);
+    const extra = [...(manifest().ui.extraLayers ?? []), ...this.extraLayers].map((l) => [l.key, cfg[l.key]?.label ?? l.label] as [LayerKey, string]);
     const order = manifest().ui.layerOrder;
     const all = [...base, ...extra];
     return order ? order.map((k) => all.find(([key]) => key === k)).filter((x): x is [LayerKey, string] => !!x) : all;
@@ -262,22 +270,23 @@ export class Sidebar {
     const s = store.get().layers;
     const L = m.ui.legend;
     pane.innerHTML = `
-      <h3>兵种符号（北约 APP-6 风格）</h3>
+      <h3>${L.title ?? '兵种符号（北约 APP-6 风格）'}</h3>
       <div class="lg-grid">
-        ${L.counters.map(([side, type, ech, label]) => `<div>${c(side, type, ech, '')}<span>${label}</span></div>`).join('')}
+        ${L.counters.map(([side, type, ech, label]) => `<div>${c(side, type, ech, L.counterLabels ? label.split('|')[1] ?? '' : '')}<span>${label.split('|')[0]}</span></div>`).join('')}
       </div>
-      <h3>梯队标记</h3>
-      <div class="lg-ech">${L.echelons ?? '<span><b>XXXX</b> 集团军</span><span><b>XXX</b> 军/作战集群</span><span><b>XX</b> 师</span><span><b>X</b> 旅</span>'}</div>
-      <h3>阵营与状态</h3>
+      <h3>${L.echelonsTitle ?? '梯队标记'}</h3>
+      ${L.echelonsHtml ?? `<div class="lg-ech">${L.echelons ?? '<span><b>XXXX</b> 集团军</span><span><b>XXX</b> 军/作战集群</span><span><b>XX</b> 师</span><span><b>X</b> 旅</span>'}</div>`}
+      <h3>${L.listTitle ?? '阵营与状态'}</h3>
       <div class="lg-list">
-        ${sideOrder().map((k) => `<div><i class="sw side-${k}"></i>${SIDE_ZH[k]}</div>`).join('')}
+        ${L.showSides === false ? '' : sideOrder().map((k) => `<div><i class="sw side-${k}"></i>${SIDE_ZH[k]}</div>`).join('')}
         ${L.items.map((h) => `<div>${h}</div>`).join('')}
         ${L.statuses ?? `<div><span class="lg-st">★</span>${STATUS_ZH.engaged}</div><div><span class="lg-st enc">▢</span>${STATUS_ZH.encircled}</div><div><span class="lg-st">✕</span>覆灭 / 投降 / 越境</div>`}
       </div>
+      ${L.after ?? ''}
       <h3>图层</h3>
       <div class="lg-layers">${this.layerList().map(([k, name]) => `<label><input type="checkbox" data-l="${k}" ${s[k] ? 'checked' : ''}/> ${name}</label>`).join('')}</div>
       <h3>快捷键</h3>
-      <div class="lg-keys"><span><kbd>空格</kbd> 播放/暂停</span><span><kbd>←</kbd><kbd>→</kbd> 上/下一事件</span><span><kbd>,</kbd><kbd>.</kbd> 后退/前进 6 小时</span><span><kbd>H</kbd> 回到全图</span><span><kbd>M</kbd> 2D/3D 切换</span><span><kbd>Esc</kbd> 关闭卡片</span></div>`;
+      <div class="lg-keys">${L.keys ?? '<span><kbd>空格</kbd> 播放/暂停</span><span><kbd>←</kbd><kbd>→</kbd> 上/下一事件</span><span><kbd>,</kbd><kbd>.</kbd> 后退/前进 6 小时</span><span><kbd>H</kbd> 回到全图</span><span><kbd>M</kbd> 2D/3D 切换</span><span><kbd>Esc</kbd> 关闭卡片</span>'}</div>`;
     pane.querySelectorAll<HTMLInputElement>('input[data-l]').forEach((i) => (i.onchange = () => store.setLayer(i.dataset.l as LayerKey, i.checked)));
   }
 }

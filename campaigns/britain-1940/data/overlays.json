@@ -1,0 +1,242 @@
+[
+ {
+  "id": "ov.gb.group10",
+  "layer": "demarcation",
+  "kind": "polygon",
+  "label": "10 Group · 西南／威尔士（防区示意）",
+  "polygons": [
+   [
+    [
+     [
+      -6.7,
+      50
+     ],
+     [
+      -5.6,
+      53
+     ],
+     [
+      -2.35,
+      53.1
+     ],
+     [
+      -1.3,
+      51.5
+     ],
+     [
+      -1.6,
+      50.5
+     ],
+     [
+      -4.3,
+      49.8
+     ]
+    ]
+   ]
+  ],
+  "style": "sector"
+ },
+ {
+  "id": "ov.gb.group11",
+  "layer": "demarcation",
+  "kind": "polygon",
+  "label": "11 Group · 伦敦／东南（防区示意）",
+  "polygons": [
+   [
+    [
+     [
+      -1.6,
+      50.5
+     ],
+     [
+      -1.3,
+      51.5
+     ],
+     [
+      0.2,
+      52.1
+     ],
+     [
+      1.9,
+      52.1
+     ],
+     [
+      2,
+      50.9
+     ],
+     [
+      0.4,
+      50.6
+     ]
+    ]
+   ]
+  ],
+  "style": "sector"
+ },
+ {
+  "id": "ov.gb.group12",
+  "layer": "demarcation",
+  "kind": "polygon",
+  "label": "12 Group · 中部／东部（防区示意）",
+  "polygons": [
+   [
+    [
+     [
+      -2.35,
+      53.1
+     ],
+     [
+      -1.95,
+      53.8
+     ],
+     [
+      0.3,
+      53.8
+     ],
+     [
+      1.9,
+      52.1
+     ],
+     [
+      0.2,
+      52.1
+     ],
+     [
+      -1.3,
+      51.5
+     ]
+    ]
+   ]
+  ],
+  "style": "sector"
+ },
+ {
+  "id": "ov.gb.group13",
+  "layer": "demarcation",
+  "kind": "polygon",
+  "label": "13 Group · 北部／苏格兰（防区示意）",
+  "polygons": [
+   [
+    [
+     [
+      -5.9,
+      53.8
+     ],
+     [
+      -6.6,
+      57.8
+     ],
+     [
+      -3.9,
+      60.2
+     ],
+     [
+      0.2,
+      59.3
+     ],
+     [
+      0.3,
+      53.8
+     ],
+     [
+      -1.95,
+      53.8
+     ]
+    ]
+   ],
+   [
+    [
+     [
+      -8.2,
+      54
+     ],
+     [
+      -8.1,
+      55.4
+     ],
+     [
+      -5.3,
+      55.5
+     ],
+     [
+      -5.3,
+      54
+     ]
+    ]
+   ]
+  ],
+  "style": "sector"
+ },
+ {
+  "id": "ov.radar_dover",
+  "layer": "radar",
+  "kind": "range",
+  "label": "多佛雷达站 · 示意范围",
+  "pos": "@radar_dover",
+  "rangeKm": 120,
+  "style": "radar"
+ },
+ {
+  "id": "ov.radar_rye",
+  "layer": "radar",
+  "kind": "range",
+  "label": "赖伊雷达站 · 示意范围",
+  "pos": "@radar_rye",
+  "rangeKm": 120,
+  "style": "radar"
+ },
+ {
+  "id": "ov.radar_pevensey",
+  "layer": "radar",
+  "kind": "range",
+  "label": "佩文西雷达站 · 示意范围",
+  "pos": "@radar_pevensey",
+  "rangeKm": 120,
+  "style": "radar"
+ },
+ {
+  "id": "ov.radar_ventnor",
+  "layer": "radar",
+  "kind": "range",
+  "label": "文特诺雷达站 · 示意范围",
+  "pos": "@radar_ventnor",
+  "rangeKm": 120,
+  "style": "radar"
+ },
+ {
+  "id": "ov.radar_poling",
+  "layer": "radar",
+  "kind": "range",
+  "label": "波林雷达站 · 示意范围",
+  "pos": "@radar_poling",
+  "rangeKm": 120,
+  "style": "radar"
+ },
+ {
+  "id": "ov.radar_bawdsey",
+  "layer": "radar",
+  "kind": "range",
+  "label": "鲍德西雷达站 · 示意范围",
+  "pos": "@radar_bawdsey",
+  "rangeKm": 120,
+  "style": "radar"
+ },
+ {
+  "id": "ov.radar_dunkirk",
+  "layer": "radar",
+  "kind": "range",
+  "label": "肯特敦刻尔克雷达站 · 示意范围",
+  "pos": "@radar_dunkirk",
+  "rangeKm": 120,
+  "style": "radar"
+ },
+ {
+  "id": "ov.radar_ottercops",
+  "layer": "radar",
+  "kind": "range",
+  "label": "奥特科普斯莫斯雷达站 · 示意范围",
+  "pos": "@radar_ottercops",
+  "rangeKm": 120,
+  "style": "radar"
+ }
+]

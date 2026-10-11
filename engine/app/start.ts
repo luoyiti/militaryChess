@@ -24,10 +24,13 @@ import { isoToHours, isIso, T_START, T_END } from '../core/time';
 import { PHASES, phaseAt } from '../core/phases';
 import type { CampaignDef } from '../campaign/types';
 import type { PluginHooks } from '../plugins/api';
+import type { CameraFrame, CameraFocus } from './camera';
+import { ECHELON_RANK } from '../core/types';
 
 interface Sandbox {
   show(): void; hide(): void; setTime(t: number): void; setFields(g: GeomResult): void;
-  flyTo(ll: [number, number], rel: number): void; select(id: string | null): void; resize(): void; stats(): Record<string, unknown>;
+  flyTo(ll: [number, number], rel: number, ms?: number): void; flyToFrame(frame: CameraFrame, ms?: number): void; cameraFocus(): CameraFocus; cancelFlight(): void; onManual(fn: () => void): void;
+  select(id: string | null): void; resize(): void; stats(): Record<string, unknown>;
 }
 
 const div = (cls: string, parent: HTMLElement) => { const d = document.createElement('div'); d.className = cls; parent.appendChild(d); return d; };
@@ -71,11 +74,20 @@ export async function start(c: CampaignDef) {
   const phaseEl = top.querySelector('.tb-phase') as HTMLElement;
   const btns = top.querySelector('.tb-btns') as HTMLElement;
   top.querySelectorAll<HTMLButtonElement>('[data-mode]').forEach((b) => (b.onclick = () => store.set({ mode: b.dataset.mode as '2d' | '3d' })));
-  const goHome = () => (store.get().mode === '2d' ? map.home() : sandbox?.flyTo(home3d, 1));
+  const goHome = () => { manualCamera = true; director.cancelReturn(); store.set({ followUnit: false }); if (store.get().mode === '2d') map.home(); else sandbox?.flyTo(home3d, 1); };
   (top.querySelector('.tb-home') as HTMLElement).onclick = goHome;
   const soundBtn = top.querySelector('.tb-sound') as HTMLButtonElement;
   soundBtn.onclick = async () => { if (!audio.unlocked) await audio.init(); store.set({ muted: !store.get().muted }); };
   (top.querySelector('.tb-credits') as HTMLElement).onclick = () => showCredits(ui, db);
+  // 音量面板（manifest.audio.volumePanel）：背景音乐与音效分开调节
+  let volume: HTMLElement | null = null;
+  if (m.audio.volumePanel) {
+    const volumeBtn = document.createElement('button'); volumeBtn.className = 'tb-volume'; volumeBtn.textContent = '音量'; volumeBtn.title = '调节背景音乐与音效音量'; soundBtn.after(volumeBtn);
+    volume = div('audio-panel paper hidden', ui);
+    volume.innerHTML = `<b>作战室声音</b><label>背景音乐 <input aria-label="背景音乐音量" type="range" min="0" max="1" step="0.01" value="${store.get().musicVol}" data-vol="musicVol"/></label><label>音效 <input aria-label="音效音量" type="range" min="0" max="1" step="0.01" value="${store.get().sfxVol}" data-vol="sfxVol"/></label><small>${m.audio.mode === 'bed' ? '纯器乐背景 · 事件音效' : '配乐 · 战场氛围与事件音效'}</small>`;
+    volumeBtn.onclick = () => volume!.classList.toggle('hidden');
+    volume.querySelectorAll<HTMLInputElement>('input').forEach((input) => (input.oninput = () => { const v = Number(input.value); store.set(input.dataset.vol === 'musicVol' ? { musicVol: v } : { sfxVol: v }); }));
+  }
   (top.querySelector('.tb-full') as HTMLElement).onclick = () => (document.fullscreenElement ? document.exitFullscreen() : document.documentElement.requestFullscreen().catch(() => undefined));
 
   const sidebar = new Sidebar(ui, db);
@@ -86,6 +98,15 @@ export async function start(c: CampaignDef) {
   const unitCard = new UnitCard(cards, db);
   const banner = div('phase-banner', ui);
   const director = new Director(db, map, eventCard, fx, dyn);
+  // 实时占位（manifest.map.liveInsets）：侧栏右缘 / 时间轴高度随界面测量
+  if (m.map.liveInsets) {
+    Object.defineProperty(map.insets, 'left', { get: () => (sidebar.el.classList.contains('collapsed') ? 30 : sidebar.el.getBoundingClientRect().right + 16) });
+    Object.defineProperty(map.insets, 'bottom', { get: () => timeline.el.getBoundingClientRect().height + 18 });
+  }
+  /** 用户手动操作过镜头：切换 2D/3D 时保留当前视角，不再自动框选 */
+  let manualCamera = false;
+  map.onManual(() => { manualCamera = true; director.cancelReturn(); store.set({ followUnit: false }); });
+  const unitZoom = (echelonRank: number) => { const z = m.map.unitZoom ?? [2.2, 3.4, 5]; return z[Math.max(0, Math.min(2, echelonRank))]; };
 
   // 章节导航（manifest.ui.chapterNav = 'sidebar'）；分阶段简报重建后重新挂载
   const mountChapterNav = () => {
@@ -115,13 +136,14 @@ export async function start(c: CampaignDef) {
 
   // ---------- 交互 ----------
   const selectUnit = (id: string | null, fly = true) => {
+    if (fly) manualCamera = false;
     store.set({ selectedUnit: id, followUnit: id ? store.get().followUnit : false });
     if (!id) return;
     const u = db.units.get(id);
     if (!u) return;
     const s = unitStateAt(id, db.units, store.get().t);
     if (fly && s) {
-      const rel = u.echelon === 'army' ? 2.2 : u.echelon === 'corps' ? 3.4 : 5;
+      const rel = unitZoom(ECHELON_RANK[u.echelon]);
       if (store.get().mode === '2d') map.flyTo(s.ll, Math.max(map.relK, rel), 1000);
       else sandbox?.flyTo(s.ll, rel);
     }
@@ -135,7 +157,7 @@ export async function start(c: CampaignDef) {
   unitCard.onClose = () => { if (store.get().selectedUnit) store.set({ selectedUnit: null, followUnit: false }); };
   eventCard.onClose = () => { store.set({ selectedEvent: null }); dyn.selectedEvent = null; dyn.setTime(store.get().t); clock.release(); };
   eventCard.onNav = (d) => timeline.stepEvent(d);
-  const openEvent = (e: REvent) => { clock.release(); store.set({ t: e.h, playing: false }); director.present(e, false); };
+  const openEvent = (e: REvent) => { manualCamera = false; clock.release(); store.set({ t: e.h, playing: false }); director.present(e, false); };
   timeline.onEventPick = openEvent;
   sidebar.onEvent = (id) => { const e = db.events.find((x) => x.id === id); if (e) { director.cancel(); store.set({ playing: false }); clock.seek(e.h); director.present(e, false); } };
   // 跳转式时间轴广播的 campaign-seek：清空卡片与导演队列
@@ -195,12 +217,30 @@ export async function start(c: CampaignDef) {
   let sandboxLoading: Promise<Sandbox> | null = null;
   const ensureSandbox = () => {
     if (!sandboxLoading) sandboxLoading = import('../three/sandbox/Sandbox').then((mod) => {
-      sandbox = mod.createSandbox(sandboxEl, db) as Sandbox;
+      sandbox = mod.createSandbox(sandboxEl, db, m.map.liveInsets ? () => map.insets : undefined) as Sandbox;
       director.onEvent3D = (e) => sandbox!.flyTo(e.ll, director.zoomFor(e));
+      if (m.director.camera === 'frame') director.onCamera3D = (frame, ms) => sandbox!.flyToFrame(frame, ms);
+      sandbox.onManual(() => { manualCamera = true; director.cancelReturn(); store.set({ followUnit: false }); });
       return sandbox;
     });
     return sandboxLoading;
   };
+
+  /** 2D/3D 切换后的镜头：选中部队 → 当前事件框选 → 沿用上一视图的焦点（frame 运镜模式） */
+  const syncCamera = (mode: '2d' | '3d', previous?: CameraFocus) => {
+    const s = store.get();
+    if (!manualCamera && s.selectedUnit) {
+      const u = db.units.get(s.selectedUnit), state = unitStateAt(s.selectedUnit, db.units, s.t);
+      if (u && state) { const rel = unitZoom(ECHELON_RANK[u.echelon]); if (mode === '2d') map.flyTo(state.ll, rel, 0); else sandbox?.flyTo(state.ll, rel, 0); return; }
+    }
+    if (!manualCamera && s.selectedEvent) {
+      const e = db.events.find((x) => x.id === s.selectedEvent);
+      if (e) { const frame = director.frameFor(e); if (mode === '2d') map.flyToFrame(frame, 0); else sandbox?.flyToFrame(frame, 0); return; }
+    }
+    if (previous) { if (mode === '2d') map.flyTo(previous.ll, previous.relZoom, 0); else sandbox?.flyTo(previous.ll, previous.relZoom, 0); }
+  };
+  const frameCamera = m.director.camera === 'frame';
+  let lastMode: '2d' | '3d' = '2d';
 
   // ---------- 插件 ----------
   const hooks: PluginHooks[] = [];
@@ -208,6 +248,11 @@ export async function start(c: CampaignDef) {
     const h = await p.setup({ manifest: m, db, store, clock, audio, map, director, ui: { root: ui, topbarButtons: btns, briefPane: sidebar.briefPane } });
     if (h) hooks.push(h);
   }
+  const briefOwner = hooks.find((h) => h.replaceBrief);
+  if (briefOwner) sidebar.briefOverride = (pane) => briefOwner.replaceBrief!(pane);
+  const statusOwner = hooks.find((h) => h.sidebarStatus);
+  if (statusOwner) sidebar.statusOverride = (t, el) => statusOwner.sidebarStatus!(t, el);
+  if (briefOwner || statusOwner) sidebar.rebuildBrief();
   sidebar.briefRebuilt = (pane) => { mountChapterNav(); markChapter(store.get().t); for (const h of hooks) h.sidebarBrief?.(pane); };
   for (const h of hooks) {
     h.topbar?.(btns);
@@ -221,6 +266,9 @@ export async function start(c: CampaignDef) {
   // ---------- 状态响应 ----------
   let lastPhase = '';
   store.on((s, ch) => {
+    if (ch.has('selectedEvent') && s.selectedEvent) manualCamera = false;
+    if (ch.has('musicVol')) audio.setMusicVol(s.musicVol);
+    if (ch.has('sfxVol')) audio.setSfxVol(s.sfxVol);
     if (ch.has('t')) {
       dyn.setTime(s.t);
       units.setTime(s.t);
@@ -255,6 +303,7 @@ export async function start(c: CampaignDef) {
       units.setVisible(L.units);
       st.setVisible('cities', L.cities); st.setVisible('rivers', L.rivers); st.setVisible('forest', L.forest);
       st.groups.hex.style.display = L.hex ? '' : 'none';
+      for (const layer of st.overlayGroups.keys()) st.setOverlayVisible(layer, L[layer] !== false);
       map.terrainOpacity = L.terrain ? 1 : 0.35;
       map.schedule();
     }
@@ -263,15 +312,20 @@ export async function start(c: CampaignDef) {
       for (const h of hooks) h.onMute?.(s.muted);
     }
     if (ch.has('mode')) {
+      const previous = frameCamera ? (lastMode === '3d' ? sandbox?.cameraFocus() : map.cameraFocus) : undefined;
+      lastMode = s.mode;
+      if (frameCamera) { map.cancelFlight(); sandbox?.cancelFlight(); }
       top.querySelectorAll<HTMLButtonElement>('[data-mode]').forEach((b) => b.classList.toggle('on', b.dataset.mode === s.mode));
       if (s.mode === '3d') {
         mapEl.classList.add('hidden'); sandboxEl.classList.remove('hidden');
         document.body.classList.add('mode-3d');
         ensureSandbox()
           .then((sb) => {
+            if (store.get().mode !== '3d') return;
             sb.show(); sb.setTime(store.get().t);
             const p = phaseAt(store.get().t);
-            if (m.ui.sandboxPhaseFocus && p.center) sb.flyTo(p.center, Math.min(p.zoom ?? 1, 4.8));
+            if (frameCamera) { sb.select(store.get().selectedUnit); syncCamera('3d', previous); }
+            else if (m.ui.sandboxPhaseFocus && p.center) sb.flyTo(p.center, Math.min(p.zoom ?? 1, 4.8));
             requestField(store.get().t, true);
           })
           .catch((err) => { console.error('3D 沙盘加载失败', err); store.set({ mode: '2d' }); });
@@ -279,6 +333,7 @@ export async function start(c: CampaignDef) {
         sandbox?.hide(); sandboxEl.classList.add('hidden'); mapEl.classList.remove('hidden');
         document.body.classList.remove('mode-3d');
         map.resize();
+        if (frameCamera) syncCamera('2d', previous);
       }
     }
   });
@@ -338,11 +393,17 @@ export async function start(c: CampaignDef) {
     else if (ev.key === ',') clock.seek(s.t - 6);
     else if (ev.key.toLowerCase() === 'h') goHome();
     else if (ev.key.toLowerCase() === 'm') store.set({ mode: s.mode === '2d' ? '3d' : '2d' });
-    else if (ev.key === 'Escape') { if (unitCard.current) unitCard.hide(); else if (eventCard.current) eventCard.hide(); }
+    else if (ev.key === 'Escape') {
+      const modal = ui.querySelector('.modal');
+      if (modal) modal.remove();
+      else if (volume && !volume.classList.contains('hidden')) volume.classList.add('hidden');
+      else if (unitCard.current) unitCard.hide(); else if (eventCard.current) eventCard.hide();
+    }
   });
-  const sidebarInset = () => (sidebar.el.classList.contains('collapsed') ? 30 : sidebar.el.getBoundingClientRect().width + 20);
+  const sidebarInset = () => (sidebar.el.classList.contains('collapsed') ? 30
+    : m.map.sidebarInset === 'measure' ? sidebar.el.getBoundingClientRect().width + 20 : m.map.sidebarInset ?? 340);
   window.addEventListener('sidebar-toggle', () => {
-    map.insets.left = sidebarInset();
+    if (!m.map.liveInsets) map.insets.left = sidebarInset();
     map.resize();
   });
 
@@ -353,7 +414,7 @@ export async function start(c: CampaignDef) {
   const tParam = params.get('t');
   // ?t=YYYY-MM-DDTHH:mm 直接跳到指定时刻（夹在可播放区间内；格式错误时忽略）
   store.set({ t: tParam && isIso(tParam) ? Math.max(T_START, Math.min(T_END, isoToHours(tParam))) : T_START });
-  map.insets.left = sidebarInset();
+  if (!m.map.liveInsets) map.insets.left = sidebarInset();
   map.resize();
   if (!(timeline instanceof ChapterTimeline)) map.home(0);
   // 章节式时间轴更高：运镜中心按时间轴高度留白（全图缩放仍按初次适配，窗口尺寸变化时再重新适配）
@@ -365,7 +426,9 @@ export async function start(c: CampaignDef) {
   store.setLayer('units', true);
   dyn.setTime(store.get().t);
   units.setTime(store.get().t);
+  for (const layer of st.overlayGroups.keys()) st.setOverlayVisible(layer, store.get().layers[layer] !== false);
   st.update(map.view);
+  if (m.map.initialView) map.flyTo(m.map.initialView.center, m.map.initialView.zoom, 0);
   clock.start();
 
   const enter = async (tour: boolean) => {

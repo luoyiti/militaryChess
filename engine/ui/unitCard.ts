@@ -1,7 +1,7 @@
 /** 部队档案卡：卷宗风格，含军标、指挥官、隶属链、实力、装备（点击切换 3D 模型）、简史、当前状态。 */
 import type { DB } from '../data/db';
 import { unitStateAt, isTerminal, type RUnit } from '../model/core';
-import { counterSVG, STATUS_ZH, ECH_ZH, TYPE_ZH, SIDE_ZH, escapeXml } from '../map2d/symbols';
+import { counterSVG, STATUS_ZH, ECH_ZH, TYPE_ZH, SIDE_ZH, FLIGHT_ZH, escapeXml } from '../map2d/symbols';
 import { photoFor, cleanAuthor } from './eventCard';
 import type { ModelId } from '../core/types';
 import { fmtDate, stripYear } from '../core/time';
@@ -70,7 +70,7 @@ export class UnitCard {
         <div class="uc-titles">
           <h2>${escapeXml(u.name.zh)}</h2>
           <div class="uc-orig">${escapeXml(u.name.orig ?? '')}</div>
-          <div class="uc-type">${TYPE_ZH[u.type]}${u.schematic ? ' · 分遣队 / 聚合标记' : ''}${s ? ` · <span class="st st-${s.status}">${STATUS_ZH[s.status]}</span>` : ''}</div>
+          <div class="uc-type">${TYPE_ZH[u.type]}${u.schematic ? ' · 分遣队 / 聚合标记' : ''}${s ? ` · <span class="st st-${s.status}">${s.flightPhase ? FLIGHT_ZH[s.flightPhase] : STATUS_ZH[s.status]}</span>` : ''}</div>
         </div>
       </div>
       ${chain.length ? `<div class="uc-chain">${chain.map((p) => `<button class="lnk" data-u="${p.id}">${escapeXml(p.name.short ?? p.name.zh)}</button>`).join('<span>›</span>')}<span>›</span><b>${escapeXml(u.name.short ?? u.name.zh)}</b></div>` : ''}
@@ -79,6 +79,7 @@ export class UnitCard {
         ${st?.men ? `<div><label>兵力</label><span>约 ${st.men.toLocaleString()} 人</span></div>` : ''}
         ${st?.tanks ? `<div><label>坦克/装甲车</label><span>${st.tanks} 辆</span></div>` : ''}
         ${st?.guns ? `<div><label>火炮</label><span>${st.guns} 门</span></div>` : ''}
+        ${st?.aircraft ? `<div><label>编队飞机</label><span>约 ${st.aircraft} 架（示意编制）</span></div>` : ''}
         ${fate ? `<div><label>结局</label><span>${fate}</span></div>` : ''}
       </div>
       ${model ? `<div class="uc-model"><div class="uc-model-view"></div><div class="uc-model-cap"><span class="uc-model-name"></span><span class="hint">拖动旋转 · 滚轮缩放</span></div></div>` : ''}
@@ -114,6 +115,7 @@ export class UnitCard {
     const el = this.el.querySelector('.uc-type');
     if (!el) return;
     const transit = s?.movement === 'sea' ? ' · 海上转移' : s?.movement === 'air' ? ' · 空中转移' : s?.movement === 'rail' ? ' · 铁路机动' : '';
+    if (s?.flightPhase) { const label = el.querySelector('.st'); if (label) label.textContent = FLIGHT_ZH[s.flightPhase]; return; }
     const status = s ? `<span class="st st-${s.status}">${STATUS_ZH[s.status]}</span>${transit}` : t < this.current.fromH ? '尚未部署' : '已退出本战区';
     el.innerHTML = `${TYPE_ZH[this.current.type]}${this.current.schematic ? ' · 分遣队 / 聚合标记' : ''} · ${status}`;
   }

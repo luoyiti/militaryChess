@@ -23,6 +23,6 @@ run('npx', ['tsx', 'tools/parity/compare.ts', join(base, 'state.json'), join(wor
 const ui = args.indexOf('--url');
 if (ui > 0) {
   run('node', ['tools/parity/capture.mjs', '--url', args[ui + 1], '--state', join(base, 'state.json'), '--out', join(work, 'shots'), '--hide', '.tb-back']);
-  run('node', ['tools/parity/diff-shots.mjs', join(base, 'shots'), join(work, 'shots'), join(work, 'diff'), '--threshold', String(acc.threshold ?? 0.02)]);
+  run('node', ['tools/parity/diff-shots.mjs', join(base, 'shots'), join(work, 'shots'), join(work, 'diff'), '--threshold', String(acc.threshold ?? 0.02), ...(acc.skip?.length ? ['--skip', acc.skip.join(',')] : [])]);
   console.log(`报告：${join(work, 'diff/report.html')}`);
 }

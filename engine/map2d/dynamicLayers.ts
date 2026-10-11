@@ -120,6 +120,7 @@ export class DynamicLayers {
   selectedEvent: string | null = null;
   onEventClick: (e: REvent) => void = () => {};
   visible = { control: true, front: true, routes: true, routesFull: false, pockets: true, demarcation: true, events: true };
+  private readonly fullStandalone = !!manifest().map.routesFullStandalone;
 
   constructor(private map: MapView, private st: StaticLayers, private db: DB) {
     const G = st.groups;
@@ -143,7 +144,7 @@ export class DynamicLayers {
 
     const markers = manifest().map.transportStyle === 'markers';
     for (const r of db.routes) {
-      const full = svgEl('path', { class: `route-full side-${r.side} move-${r.movement ?? 'land'}` }, G.routes);
+      const full = svgEl('path', { class: `route-full side-${r.side} move-${r.movement ?? 'land'}${r.role ? ` role-${r.role}` : ''}` }, G.routes);
       const arrow = arrowOf(r.side);
       const transport = !!r.movement && r.movement !== 'land';
       let body: SVGPathElement;
@@ -207,7 +208,11 @@ export class DynamicLayers {
     const G = this.st.groups;
     if (k === 'control') for (const g of [G.fillA, G.fillB, G.fillRest]) g.style.display = v ? '' : 'none';
     if (k === 'front') G.fronts.style.display = v ? '' : 'none';
-    if (k === 'routes') { G.routes.style.display = v ? '' : 'none'; this.routeLabelsG.style.display = v ? '' : 'none'; }
+    if (k === 'routes' || (k === 'routesFull' && this.fullStandalone)) {
+      // routesFullStandalone：只开「完整航线」时也显示航线组，但隐藏当前推进箭头
+      G.routes.style.display = this.visible.routes || (this.fullStandalone && this.visible.routesFull) ? '' : 'none';
+      this.routeLabelsG.style.display = this.visible.routes ? '' : 'none';
+    }
     if (k === 'demarcation') G.demarc.style.display = v ? '' : 'none';
     if (k === 'pockets') this.pocketsG.style.display = v ? '' : 'none';
     if (k === 'events') this.eventsG.style.display = v ? '' : 'none';
@@ -229,7 +234,7 @@ export class DynamicLayers {
         continue;
       }
       const tt = Math.min(t, h1);
-      const key = `${Math.round(tt * 4)}:${this.kBucket}`;
+      const key = `${Math.round(tt * (r.fadeHours !== undefined ? 240 : 4))}:${this.kBucket}`;
       if (key !== R.lastKey || force) {
         R.lastKey = key;
         const prog = routeProgress(r, tt).map((ll) => project(ll));
@@ -245,8 +250,9 @@ export class DynamicLayers {
         (R as RouteEl & { mid?: number[] }).mid = prog.length > 1 ? prog[Math.floor(prog.length / 2)] : undefined;
       }
       const near = this.map.relK >= 4 ? 0.6 : 1;
-      const o = String(Math.max(op * near, showFull ? 0.25 : 0));
-      R.body.style.display = ''; R.hatch.style.display = '';
+      const o = String(this.fullStandalone ? op * near : Math.max(op * near, showFull ? 0.25 : 0));
+      const bodyOn = this.fullStandalone ? (this.visible.routes ? '' : 'none') : '';
+      R.body.style.display = bodyOn; R.hatch.style.display = bodyOn;
       R.body.style.opacity = o; R.hatch.style.opacity = o;
       R.label.style.opacity = String(op);
     }

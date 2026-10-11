@@ -6,7 +6,7 @@ import { ECHELON_RANK, type UnitStatus } from '../core/types';
 import { counterSVG, statusOverlay, STATUS_ZH, ECH_ZH, TYPE_ZH, SIDE_ZH, FLIGHT_ZH, escapeXml } from './symbols';
 import { campaign, manifest } from '../campaign/context';
 
-const SIZE: Record<string, number> = { army: 38, corps: 32, division: 27, brigade: 27, armygroup: 40, front: 40 };
+const SIZE: Record<string, number> = { army: 38, corps: 32, division: 27, brigade: 27, armygroup: 40, front: 40, command: 40, air_group: 38, air_fleet: 38, sector: 32, wing: 32, squadron: 27, gruppe: 27 };
 
 /** 有下属时是否直接展开（不作为棋子显示）：unit.display='container'，或 manifest.display.hqPassThrough 下的指挥部 */
 export function isContainer(u: RUnit): boolean {
@@ -97,7 +97,7 @@ export class UnitsLayer {
       if (ax < -80 || ay < -80 || ax > map.width + 80 || ay > map.height + 80) continue;
       let dir: [number, number] | null = null;
       if (s.moving) {
-        const p = unitStateAt(u.id, this.db.units, t - 3);
+        const p = unitStateAt(u.id, this.db.units, t - (s.flightPhase ? 0.025 : 3));
         if (p) {
           const [px, py] = map.llToScreen(p.ll);
           const dx = ax - px, dy = ay - py, n = Math.hypot(dx, dy);
@@ -149,6 +149,11 @@ export class UnitsLayer {
       el.g.style.opacity = String(it.s.fade * (this.highlightSide && this.highlightSide !== u.side ? 0.35 : 1));
       el.g.classList.toggle('dead', dead);
       el.g.classList.toggle('selected', u.id === this.selected);
+      if (it.s.flightPhase) {
+        el.g.dataset.flight = it.s.flightPhase;
+        el.g.dataset.lon = it.s.ll[0].toFixed(5); el.g.dataset.lat = it.s.ll[1].toFixed(5);
+        el.g.classList.toggle('airborne', it.s.flightPhase !== 'at_base');
+      }
       if (el.lastStatus !== it.s.status) {
         el.lastStatus = it.s.status;
         el.status.innerHTML = statusOverlay(it.s.status, SIZE[u.echelon] ?? 28);

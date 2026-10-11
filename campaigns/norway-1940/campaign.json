@@ -255,11 +255,11 @@
     "insetTop": 112,
     "insetBottom": 160,
     "home3d": [
-      14.0,
+      14,
       64.5
     ],
     "focus": [
-      14.0,
+      14,
       64.5
     ],
     "hexKm": 18,
@@ -284,7 +284,7 @@
         ],
         [
           "芬 兰",
-          25.0,
+          25,
           67.5,
           18,
           0.7
@@ -322,7 +322,7 @@
         ],
         [
           "北 海",
-          2.0,
+          2,
           59.4,
           21,
           false,
@@ -330,7 +330,7 @@
         ],
         [
           "斯卡格拉克海峡",
-          9.0,
+          9,
           57.8,
           11,
           false,
@@ -352,7 +352,7 @@
         "id": "all",
         "label": "全国战略",
         "center": [
-          14.0,
+          14,
           64.5
         ],
         "zoom": 1
@@ -362,7 +362,7 @@
         "label": "奥斯陆 / 南部",
         "center": [
           9.1,
-          60.0
+          60
         ],
         "zoom": 3.4
       },
@@ -370,7 +370,7 @@
         "id": "central",
         "label": "中部战区",
         "center": [
-          10.0,
+          10,
           63.2
         ],
         "zoom": 4.5
@@ -389,12 +389,13 @@
         "label": "海上战场",
         "center": [
           5.4,
-          64.0
+          64
         ],
         "zoom": 1.45
       }
     ],
-    "mapKey": "<b>N ↑</b><span>1940 / NORWAY</span><small>━━▶ 陆地 / 登陆　⚓ ┄▶ 海军　✈ ··▶ 航空</small><small>路线、位置与据点控制为概略示意</small>"
+    "mapKey": "<b>N ↑</b><span>1940 / NORWAY</span><small>━━▶ 陆地 / 登陆　⚓ ┄▶ 海军　✈ ··▶ 航空</small><small>路线、位置与据点控制为概略示意</small>",
+    "sidebarInset": "measure"
   },
   "display": {
     "statusEchelons": "markers",
@@ -404,7 +405,7 @@
     "exaggeration": 6,
     "figScale": 11,
     "target": [
-      14.0,
+      14,
       64.5
     ],
     "fog": [
@@ -704,10 +705,18 @@
   "hub": {
     "order": 2,
     "codename": "威悉演习",
+    "codenameOrig": "WESERÜBUNG",
     "pin": [
       12.5,
       63.2
     ],
+    "labelAt": "e",
+    "theatre": {
+      "countries": [
+        "Norway"
+      ]
+    },
+    "cover": "photos/narvik-naval.webp",
     "blurb": "德军以海空协同突袭挪威沿岸各港；英法波援军在峡湾和山谷反击，夺回纳尔维克后仍因法国战局恶化而撤离。"
   }
 }

@@ -4,8 +4,8 @@
  */
 import * as THREE from 'three';
 
-export type DecalKind = 'cross' | 'num' | 'star' | 'plate';
-export type Face = '+x' | '-x' | '+z' | '-z';
+export type DecalKind = 'cross' | 'num' | 'star' | 'plate' | 'roundel' | 'air_cross';
+export type Face = '+x' | '-x' | '+y' | '-y' | '+z' | '-z';
 export interface DecalSpec {
   kind: DecalKind;
   text?: string;
@@ -22,7 +22,7 @@ export function hasDOM(): boolean {
 }
 
 const cache = new Map<string, THREE.CanvasTexture>();
-const ASPECT: Record<DecalKind, number> = { cross: 1, num: 1.6, star: 1, plate: 2.6 };
+const ASPECT: Record<DecalKind, number> = { cross: 1, num: 1.6, star: 1, plate: 2.6, roundel: 1, air_cross: 1 };
 
 function draw(kind: DecalKind, text: string): THREE.CanvasTexture {
   const key = kind + ':' + text;
@@ -35,7 +35,18 @@ function draw(kind: DecalKind, text: string): THREE.CanvasTexture {
   g.clearRect(0, 0, W, H);
   // 手涂感：轻微抖动的边缘
   const rough = (fn: () => void) => { g.save(); g.translate(Math.random() * 1.5, Math.random() * 1.5); fn(); g.restore(); };
-  if (kind === 'cross') {
+  if (kind === 'roundel') {
+    for (const [r, color] of [[.46, '#173e72'], [.31, '#e7e1cd'], [.16, '#9f2729']] as const) {
+      g.fillStyle = color; g.beginPath(); g.arc(W / 2, H / 2, H * r, 0, Math.PI * 2); g.fill();
+    }
+  } else if (kind === 'air_cross') {
+    // Ordinary Balkenkreuz only. Aircraft tails deliberately have no swastika.
+    for (const [a, margin, color] of [[.16, 7, '#e6e6db'], [.095, 11, '#131a1c']] as const) {
+      g.fillStyle = color;
+      g.fillRect(W / 2 - H * a, margin, H * a * 2, H - margin * 2);
+      g.fillRect(margin, H / 2 - H * a, W - margin * 2, H * a * 2);
+    }
+  } else if (kind === 'cross') {
     rough(() => {
       g.fillStyle = '#ece6d4';
       const a = H * 0.17;
@@ -81,8 +92,12 @@ export function buildDecal(d: DecalSpec): THREE.Mesh {
   });
   const m = new THREE.Mesh(geo, mat);
   m.position.set(...d.pos);
-  const yaw = { '+z': 0, '-z': Math.PI, '+x': Math.PI / 2, '-x': -Math.PI / 2 }[d.face];
-  m.rotation.set(-(d.tilt ?? 0), yaw, 0, 'YXZ');
+  if (d.face === '+y' || d.face === '-y') {
+    m.rotation.set((d.face === '+y' ? -Math.PI / 2 : Math.PI / 2) - (d.tilt ?? 0), 0, 0);
+  } else {
+    const yaw = { '+z': 0, '-z': Math.PI, '+x': Math.PI / 2, '-x': -Math.PI / 2 }[d.face];
+    m.rotation.set(-(d.tilt ?? 0), yaw, 0, 'YXZ');
+  }
   m.receiveShadow = true;
   m.name = 'decal:' + d.kind;
   return m;

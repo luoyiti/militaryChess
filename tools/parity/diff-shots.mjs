@@ -1,7 +1,8 @@
 /**
  * 截图像素对比 + 并排 HTML 报告。
- *   node tools/parity/diff-shots.mjs <baselineDir> <newDir> <outDir> [--threshold 0.02]
+ *   node tools/parity/diff-shots.mjs <baselineDir> <newDir> <outDir> [--threshold 0.02] [--skip 3d-,…]
  * 每张图：差异像素比例（任一通道差 > 24 视为不同）；输出 diff 热图与 report.html / report.json。
+ * --skip：名称前缀列表（parity.accepted.json 的 skip），这些截图仍出现在报告中但不计入通过判定。
  */
 import fs from 'node:fs';
 import path from 'node:path';
@@ -10,6 +11,9 @@ import { PNG } from 'pngjs';
 const [baseDir, newDir, outDir] = process.argv.slice(2);
 const ti = process.argv.indexOf('--threshold');
 const threshold = ti > 0 ? Number(process.argv[ti + 1]) : 0.02;
+const si = process.argv.indexOf('--skip');
+const skip = si > 0 ? process.argv[si + 1].split(',').filter(Boolean) : [];
+const skipped = (name) => skip.some((p) => name.startsWith(p));
 fs.mkdirSync(outDir, { recursive: true });
 const names = fs.readdirSync(baseDir).filter((f) => f.endsWith('.png')).sort();
 const rows = [];
@@ -30,16 +34,18 @@ for (const name of names) {
   fs.writeFileSync(path.join(outDir, `diff-${name}`), PNG.sync.write(d));
   rows.push({ name, ratio: diff / (w * h), sizeMismatch: a.width !== b.width || a.height !== b.height });
 }
-const fail = rows.filter((r) => r.missing || r.ratio > threshold);
+for (const r of rows) r.skipped = skipped(r.name);
+const bad = (r) => !r.skipped && (r.missing || r.ratio > threshold);
+const fail = rows.filter(bad);
 const rel = (p) => path.relative(outDir, p);
 const html = `<!doctype html><meta charset="utf-8"><title>Parity report</title>
 <style>body{font:13px system-ui;margin:16px;background:#f4efe2}h1{font-size:18px}table{border-collapse:collapse}td{padding:6px;vertical-align:top;border-bottom:1px solid #ccc}img{width:420px;display:block}.bad{color:#b3262e;font-weight:700}</style>
 <h1>截图对比：${rows.length} 张，超出阈值 ${(threshold * 100).toFixed(1)}%：${fail.length} 张</h1>
 <table><tr><th>名称</th><th>旧版</th><th>统一引擎</th><th>差异</th></tr>
-${rows.map((r) => `<tr><td class="${r.missing || r.ratio > threshold ? 'bad' : ''}">${r.name}<br>${r.missing ? '缺失' : (r.ratio * 100).toFixed(2) + '%'}</td><td><img src="${rel(path.join(baseDir, r.name))}"></td><td><img src="${rel(path.join(newDir, r.name))}"></td><td>${r.missing ? '' : `<img src="diff-${r.name}">`}</td></tr>`).join('')}
+${rows.map((r) => `<tr><td class="${bad(r) ? 'bad' : ''}">${r.name}<br>${r.missing ? '缺失' : (r.ratio * 100).toFixed(2) + '%'}${r.skipped ? '<br>（已豁免）' : ''}</td><td><img src="${rel(path.join(baseDir, r.name))}"></td><td><img src="${rel(path.join(newDir, r.name))}"></td><td>${r.missing ? '' : `<img src="diff-${r.name}">`}</td></tr>`).join('')}
 </table>`;
 fs.writeFileSync(path.join(outDir, 'report.html'), html);
 fs.writeFileSync(path.join(outDir, 'report.json'), JSON.stringify({ threshold, rows }, null, 2));
-for (const r of rows) console.log(`${r.missing ? 'MISSING' : (r.ratio * 100).toFixed(2).padStart(6) + '%'}  ${r.name}`);
+for (const r of rows) console.log(`${r.missing ? 'MISSING' : (r.ratio * 100).toFixed(2).padStart(6) + '%'}  ${r.name}${r.skipped ? '  (skip)' : ''}`);
 console.log(fail.length ? `✗ ${fail.length} 张超出阈值` : '✓ 全部在阈值内');
 process.exit(fail.length ? 1 : 0);
