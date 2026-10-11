@@ -96,7 +96,7 @@ class AudioManager {
   sting() {
     const kind = this.cfg.introSting ?? 'fanfare';
     if (kind === 'none') return;
-    if (kind === 'fanfare') { this.play('fanfare'); return; }
+    if (kind !== 'hejnal') { this.play(kind, { volume: this.cfg.introStingVolume ?? 1 }); return; }
     const h = this.music.get('hejnal');
     if (!h || this.muted) { this.play('fanfare'); return; }
     this.duck(0.25, 600);

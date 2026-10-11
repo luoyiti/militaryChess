@@ -1,0 +1,629 @@
+[
+ {
+  "id": "de.69_bergen",
+  "side": "DE",
+  "name": {
+   "zh": "第69师 · 卑尔根分遣队",
+   "orig": "69. Infanterie-Division (Bergen detachment)",
+   "short": "69·B"
+  },
+  "type": "infantry",
+  "echelon": "group",
+  "parent": null,
+  "active": {
+   "from": "1940-04-09T06:00"
+  },
+  "track": [
+   {
+    "at": "1940-04-09T06:00",
+    "pos": "@bergen",
+    "status": "active",
+    "movement": "land"
+   },
+   {
+    "at": "1940-06-10T12:00",
+    "pos": "@bergen",
+    "status": "active",
+    "movement": "land"
+   }
+  ],
+  "history": "棋子表示该师在此方向参战的分遣队，不能视为全师集中在港口。史料确定登陆目标；位置和连线为概略行动方向。",
+  "sources": [
+   "uk_ch3"
+  ],
+  "confidence": "medium",
+  "schematic": true,
+  "model": "inf_de"
+ },
+ {
+  "id": "de.69_sola",
+  "side": "DE",
+  "name": {
+   "zh": "第69师 · 斯塔万格分遣队",
+   "orig": "69. Infanterie-Division (Stavanger detachment)",
+   "short": "69·S"
+  },
+  "type": "infantry",
+  "echelon": "group",
+  "parent": null,
+  "active": {
+   "from": "1940-04-09T10:00"
+  },
+  "track": [
+   {
+    "at": "1940-04-09T10:00",
+    "pos": "@stavanger",
+    "status": "active",
+    "movement": "land"
+   },
+   {
+    "at": "1940-06-10T12:00",
+    "pos": "@stavanger",
+    "status": "active",
+    "movement": "land"
+   }
+  ],
+  "history": "棋子表示该师在此方向参战的分遣队，不能视为全师集中在港口。史料确定登陆目标；位置和连线为概略行动方向。",
+  "sources": [
+   "uk_ch3"
+  ],
+  "confidence": "medium",
+  "schematic": true,
+  "model": "inf_de"
+ },
+ {
+  "id": "de.163_oslo",
+  "side": "DE",
+  "name": {
+   "zh": "第163师 · 奥斯陆分遣队",
+   "orig": "163. Infanterie-Division (Oslo detachment)",
+   "short": "163·O"
+  },
+  "type": "infantry",
+  "echelon": "group",
+  "parent": null,
+  "active": {
+   "from": "1940-04-09T09:00"
+  },
+  "track": [
+   {
+    "at": "1940-04-09T09:00",
+    "pos": "@fornebu",
+    "status": "active",
+    "movement": "land"
+   },
+   {
+    "at": "1940-04-09T14:00",
+    "pos": "@oslo",
+    "status": "active",
+    "movement": "land"
+   },
+   {
+    "at": "1940-04-20T12:00",
+    "pos": "@lillehammer",
+    "status": "engaged",
+    "movement": "rail"
+   },
+   {
+    "at": "1940-04-30T12:00",
+    "pos": "@dombas",
+    "status": "active",
+    "movement": "land"
+   }
+  ],
+  "history": "棋子表示该师在此方向参战的分遣队，不能视为全师集中在港口。史料确定登陆目标；位置和连线为概略行动方向。",
+  "sources": [
+   "uk_ch3",
+   "uk_ch9"
+  ],
+  "confidence": "medium",
+  "schematic": true,
+  "model": "inf_de"
+ },
+ {
+  "id": "de.163_south",
+  "side": "DE",
+  "name": {
+   "zh": "第163师 · 南岸分遣队",
+   "orig": "163. Infanterie-Division (Kristiansand detachment)",
+   "short": "163·K"
+  },
+  "type": "infantry",
+  "echelon": "group",
+  "parent": null,
+  "active": {
+   "from": "1940-04-09T11:00"
+  },
+  "track": [
+   {
+    "at": "1940-04-09T11:00",
+    "pos": "@kristiansand",
+    "status": "active",
+    "movement": "land"
+   },
+   {
+    "at": "1940-06-10T12:00",
+    "pos": "@kristiansand",
+    "status": "active",
+    "movement": "land"
+   }
+  ],
+  "history": "棋子表示该师在此方向参战的分遣队，不能视为全师集中在港口。史料确定登陆目标；位置和连线为概略行动方向。",
+  "sources": [
+   "uk_ch3"
+  ],
+  "confidence": "medium",
+  "schematic": true,
+  "model": "inf_de"
+ },
+ {
+  "id": "de.3geb_trondheim",
+  "side": "DE",
+  "name": {
+   "zh": "第3山地师 · 特隆赫姆分遣队",
+   "orig": "3. Gebirgs-Division (Trondheim detachment)",
+   "short": "3·T"
+  },
+  "type": "mountain",
+  "echelon": "group",
+  "parent": null,
+  "active": {
+   "from": "1940-04-09T06:00"
+  },
+  "track": [
+   {
+    "at": "1940-04-09T06:00",
+    "pos": "@trondheim",
+    "status": "active",
+    "movement": "land"
+   },
+   {
+    "at": "1940-04-21T12:00",
+    "pos": "@steinkjer",
+    "status": "engaged",
+    "movement": "land"
+   },
+   {
+    "at": "1940-05-03T12:00",
+    "pos": "@namsos",
+    "status": "active",
+    "movement": "land"
+   }
+  ],
+  "history": "棋子表示该师在此方向参战的分遣队，不能视为全师集中在港口。史料确定登陆目标；位置和连线为概略行动方向。",
+  "sources": [
+   "uk_ch3",
+   "uk_ch6"
+  ],
+  "confidence": "medium",
+  "schematic": true,
+  "model": "inf_de"
+ },
+ {
+  "id": "de.181",
+  "side": "DE",
+  "name": {
+   "zh": "第181步兵师",
+   "orig": "181. Infanterie-Division",
+   "short": "181"
+  },
+  "type": "infantry",
+  "echelon": "division",
+  "parent": null,
+  "active": {
+   "from": "1940-04-15T12:00"
+  },
+  "track": [
+   {
+    "at": "1940-04-15T12:00",
+    "pos": "@trondheim",
+    "status": "active",
+    "movement": "land"
+   },
+   {
+    "at": "1940-04-30T12:00",
+    "pos": "@storen",
+    "status": "active",
+    "movement": "land"
+   },
+   {
+    "at": "1940-06-10T12:00",
+    "pos": "@trondheim",
+    "status": "active",
+    "movement": "land"
+   }
+  ],
+  "history": "后续增援与中部驻防。初始占领特隆赫姆的分遣队属于第3山地师，不能把第181师的抵达机械提前至4月9日。标记为主要活动区域。",
+  "sources": [
+   "uk_ch3",
+   "uk_ch9"
+  ],
+  "confidence": "medium",
+  "schematic": true,
+  "model": "inf_de"
+ },
+ {
+  "id": "de.196",
+  "side": "DE",
+  "name": {
+   "zh": "第196步兵师",
+   "orig": "196. Infanterie-Division",
+   "short": "196"
+  },
+  "type": "infantry",
+  "echelon": "division",
+  "parent": null,
+  "active": {
+   "from": "1940-04-15T12:00"
+  },
+  "track": [
+   {
+    "at": "1940-04-15T12:00",
+    "pos": "@oslo",
+    "status": "active",
+    "movement": "land"
+   },
+   {
+    "at": "1940-04-24T12:00",
+    "pos": "@tretten",
+    "status": "engaged",
+    "movement": "land"
+   },
+   {
+    "at": "1940-04-28T12:00",
+    "pos": "@otta",
+    "status": "engaged",
+    "movement": "land"
+   },
+   {
+    "at": "1940-04-29T12:00",
+    "pos": "@dombas",
+    "status": "active",
+    "movement": "land"
+   },
+   {
+    "at": "1940-04-30T12:00",
+    "pos": "@bjerkaker",
+    "status": "active",
+    "movement": "land"
+   },
+   {
+    "at": "1940-05-02T12:00",
+    "pos": "@andalsnes",
+    "status": "active",
+    "movement": "land"
+   }
+  ],
+  "history": "由奥斯陆方向向内陆推进，与英挪部队在山谷内交战。轨迹用于表示古德布兰谷走廊方向，不能据此推断各营每日的位置。",
+  "sources": [
+   "uk_ch3",
+   "uk_ch7",
+   "uk_ch9"
+  ],
+  "confidence": "medium",
+  "schematic": true,
+  "model": "inf_de"
+ },
+ {
+  "id": "de.3geb_narvik",
+  "side": "DE",
+  "name": {
+   "zh": "第3山地师 · 迪特尔部队",
+   "orig": "Gruppe Dietl / 3. Gebirgs-Division",
+   "short": "Dietl"
+  },
+  "type": "mountain",
+  "echelon": "group",
+  "parent": null,
+  "active": {
+   "from": "1940-04-09T06:00"
+  },
+  "track": [
+   {
+    "at": "1940-04-09T06:00",
+    "pos": "@narvik",
+    "status": "active",
+    "movement": "land"
+   },
+   {
+    "at": "1940-04-25T12:00",
+    "pos": "@bjerkvik",
+    "status": "engaged",
+    "movement": "land"
+   },
+   {
+    "at": "1940-05-13T12:00",
+    "pos": "@narvik",
+    "status": "engaged",
+    "movement": "land"
+   },
+   {
+    "at": "1940-05-28T12:00",
+    "pos": "@narvik",
+    "status": "withdrawing",
+    "movement": "land"
+   },
+   {
+    "at": "1940-05-30T12:00",
+    "pos": "@bjornfjell",
+    "status": "withdrawing",
+    "movement": "land"
+   },
+   {
+    "at": "1940-06-10T12:00",
+    "pos": "@narvik",
+    "status": "active",
+    "movement": "land"
+   }
+  ],
+  "history": "迪特尔部队由驱逐舰运抵纳尔维克。海军运输编队被消灭后，山地兵与上岸海军人员继续抵抗。5月28日撤向铁路及瑞典边界附近，未把撤退画成进入中立瑞典。",
+  "sources": [
+   "uk_ch3",
+   "uk_ch13",
+   "uk_ch14"
+  ],
+  "confidence": "medium",
+  "schematic": true,
+  "model": "inf_de",
+  "commander": {
+   "zh": "爱德华·迪特尔",
+   "orig": "Eduard Dietl"
+  }
+ },
+ {
+  "id": "de.2geb",
+  "side": "DE",
+  "name": {
+   "zh": "第2山地师 · 北进部队",
+   "orig": "2. Gebirgs-Division",
+   "short": "2.Geb"
+  },
+  "type": "mountain",
+  "echelon": "division",
+  "parent": null,
+  "active": {
+   "from": "1940-05-04T12:00"
+  },
+  "track": [
+   {
+    "at": "1940-05-04T12:00",
+    "pos": "@trondheim",
+    "status": "active",
+    "movement": "land"
+   },
+   {
+    "at": "1940-05-06T12:00",
+    "pos": "@grong",
+    "status": "active",
+    "movement": "land"
+   },
+   {
+    "at": "1940-05-10T12:00",
+    "pos": "@mosjoen",
+    "status": "engaged",
+    "movement": "land"
+   },
+   {
+    "at": "1940-05-18T12:00",
+    "pos": "@mo",
+    "status": "engaged",
+    "movement": "land"
+   },
+   {
+    "at": "1940-05-25T12:00",
+    "pos": "@saltdal",
+    "status": "engaged",
+    "movement": "land"
+   },
+   {
+    "at": "1940-06-01T12:00",
+    "pos": "@bodo",
+    "status": "active",
+    "movement": "land"
+   },
+   {
+    "at": "1940-06-10T12:00",
+    "pos": "@bodo",
+    "status": "active",
+    "movement": "land"
+   }
+  ],
+  "history": "5月由特隆赫姆向北推进，先后通过莫舍恩、摩城与萨尔特达尔方向。博德与纳尔维克之间当时没有连续公路，轨迹止于博德，不虚构直接陆路救援纳尔维克。",
+  "sources": [
+   "uk_ch12"
+  ],
+  "confidence": "medium",
+  "schematic": true,
+  "model": "inf_de"
+ },
+ {
+  "id": "de.blucher",
+  "side": "DE",
+  "name": {
+   "zh": "重巡洋舰布吕歇尔号",
+   "orig": "Blücher",
+   "short": "Blücher"
+  },
+  "type": "naval",
+  "echelon": "ship",
+  "parent": null,
+  "active": {
+   "from": "1940-04-09T00:00"
+  },
+  "track": [
+   {
+    "at": "1940-04-09T00:00",
+    "pos": [
+     10.6,
+     59.47
+    ],
+    "status": "active",
+    "movement": "sea"
+   },
+   {
+    "at": "1940-04-09T04:25",
+    "pos": "@oscarsborg",
+    "status": "engaged",
+    "movement": "sea"
+   },
+   {
+    "at": "1940-04-09T06:30",
+    "pos": "@oscarsborg",
+    "status": "destroyed",
+    "movement": "sea"
+   }
+  ],
+  "history": "奥斯陆登陆编队旗舰。4月9日清晨遭奥斯卡堡岸炮与鱼雷重创后沉没，海上首都突袭被延缓。舰位以海峡中心表示，模型仅为海军符号。",
+  "sources": [
+   "oscarsborg_archive",
+   "uk_ch3"
+  ],
+  "confidence": "medium",
+  "schematic": false,
+  "model": "navy_token"
+ },
+ {
+  "id": "de.konigsberg",
+  "side": "DE",
+  "name": {
+   "zh": "轻巡洋舰柯尼斯堡号",
+   "orig": "Königsberg",
+   "short": "Königsb."
+  },
+  "type": "naval",
+  "echelon": "ship",
+  "parent": null,
+  "active": {
+   "from": "1940-04-09T06:00"
+  },
+  "track": [
+   {
+    "at": "1940-04-09T06:00",
+    "pos": [
+     5.29,
+     60.4
+    ],
+    "status": "engaged",
+    "movement": "sea"
+   },
+   {
+    "at": "1940-04-10T12:00",
+    "pos": [
+     5.29,
+     60.4
+    ],
+    "status": "destroyed",
+    "movement": "sea"
+   }
+  ],
+  "history": "在卑尔根登陆行动中受岸防炮火损伤，次日被从奥克尼起飞的英国海军航空兵 Skua 俯冲轰炸机击沉。",
+  "sources": [
+   "uk_ch4"
+  ],
+  "confidence": "medium",
+  "schematic": false,
+  "model": "navy_token"
+ },
+ {
+  "id": "de.narvik_destroyers",
+  "side": "DE",
+  "name": {
+   "zh": "纳尔维克德国驱逐舰编队",
+   "orig": "German Narvik destroyers",
+   "short": "10 DD"
+  },
+  "type": "naval",
+  "echelon": "group",
+  "parent": null,
+  "active": {
+   "from": "1940-04-09T00:00"
+  },
+  "track": [
+   {
+    "at": "1940-04-09T00:00",
+    "pos": "@ofotfjord",
+    "status": "active",
+    "movement": "sea"
+   },
+   {
+    "at": "1940-04-09T06:00",
+    "pos": [
+     17.37,
+     68.44
+    ],
+    "status": "active",
+    "movement": "sea"
+   },
+   {
+    "at": "1940-04-10T04:30",
+    "pos": "@ofotfjord",
+    "status": "engaged",
+    "movement": "sea"
+   },
+   {
+    "at": "1940-04-13T12:00",
+    "pos": "@ofotfjord",
+    "status": "destroyed",
+    "movement": "sea"
+   }
+  ],
+  "history": "最初10艘驱逐舰运送山地兵。4月10日损失2艘；4月13日剩余8艘被击沉或自沉。棋子聚合展示编队，不表示同一地点的一艘船。",
+  "sources": [
+   "uk_ch3",
+   "uk_ch4"
+  ],
+  "confidence": "medium",
+  "schematic": true,
+  "model": "navy_token"
+ },
+ {
+  "id": "de.luftwaffe",
+  "side": "DE",
+  "name": {
+   "zh": "德国空军 · 挪威行动",
+   "orig": "Luftwaffe Norway operations",
+   "short": "Luftw."
+  },
+  "type": "aviation",
+  "echelon": "group",
+  "parent": null,
+  "active": {
+   "from": "1940-04-09T09:00"
+  },
+  "track": [
+   {
+    "at": "1940-04-09T09:00",
+    "pos": "@sola",
+    "status": "active",
+    "movement": "air"
+   },
+   {
+    "at": "1940-04-15T12:00",
+    "pos": "@vaernes",
+    "status": "active",
+    "movement": "air"
+   },
+   {
+    "at": "1940-04-25T12:00",
+    "pos": "@vaernes",
+    "status": "engaged",
+    "movement": "air"
+   },
+   {
+    "at": "1940-06-10T12:00",
+    "pos": "@vaernes",
+    "status": "active",
+    "movement": "air"
+   }
+  ],
+  "history": "聚合标记机场支援与空中行动，不对应一支虚构航空中队。德国利用索拉、福尼布、韦尔内斯等机场进行空运与轰炸，对盟军港口和缺乏防空的内陆部队造成压力。",
+  "sources": [
+   "uk_ch3",
+   "uk_ch6",
+   "uk_ch12"
+  ],
+  "confidence": "medium",
+  "schematic": true,
+  "model": "air_token"
+ }
+]

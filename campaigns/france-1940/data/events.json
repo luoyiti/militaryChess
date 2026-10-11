@@ -1,0 +1,531 @@
+[
+ {
+  "id": "e.eben_emael",
+  "at": "1940-05-10T04:30",
+  "endAt": "1940-05-11T12:00",
+  "category": "battle",
+  "importance": 2,
+  "side": "DE",
+  "title": {
+   "zh": "埃本-埃马尔",
+   "orig": "Fort Eben-Emael"
+  },
+  "place": "@eben_emael",
+  "body": "滑翔机载着德军工兵直接降落在要塞顶部，用空心装药破坏炮塔和观察所。要塞本身在第二天中午投降。阿尔贝运河上的桥从此对第6集团军敞开。",
+  "units": [
+   "de.6a"
+  ],
+  "sfx": [
+   "explosion",
+   "mg"
+  ],
+  "sources": [
+   "frieser",
+   "horne"
+  ],
+  "confidence": "high",
+  "photo": {
+   "commons": "File:Fort Eben-Emael Koepel Noord achteraan koepel Zuid.jpg",
+   "caption": "埃本-埃马尔要塞的炮塔，摄于战后，不是 1940 年现场"
+  },
+  "zoomRel": 4.4
+ },
+ {
+  "id": "e.fall_gelb",
+  "at": "1940-05-10T05:35",
+  "category": "battle",
+  "importance": 1,
+  "side": "DE",
+  "title": {
+   "zh": "黄色方案",
+   "orig": "Fall Gelb"
+  },
+  "place": "@maastricht",
+  "body": "5月10日凌晨约5时35分，德军三个集团军群同时进入荷兰、比利时和卢森堡。空降兵夺取桥梁和埃本-埃马尔要塞，空军打击同盟国机场。西线长达八个月的“静坐战争”到此结束。",
+  "units": [
+   "de.ag_b",
+   "de.ag_a"
+  ],
+  "sfx": [
+   "artillery",
+   "bomber"
+  ],
+  "sources": [
+   "frieser",
+   "horne"
+  ],
+  "confidence": "high",
+  "zoomRel": 1.35
+ },
+ {
+  "id": "e.dinant",
+  "at": "1940-05-13T06:00",
+  "category": "battle",
+  "importance": 2,
+  "side": "DE",
+  "title": {
+   "zh": "迪南渡河",
+   "orig": "Dinant"
+  },
+  "place": "@dinant",
+  "body": "隆美尔的第7装甲师在迪南以北的乌村附近渡过默兹河，比色当稍早。法军第9集团军的正面因此从两处同时被撕开，预备队来不及堵住任何一个口子。",
+  "units": [
+   "de.7pz",
+   "fr.9a"
+  ],
+  "sfx": [
+   "artillery",
+   "tank"
+  ],
+  "sources": [
+   "frieser"
+  ],
+  "confidence": "high",
+  "zoomRel": 3.4
+ },
+ {
+  "id": "e.sedan",
+  "at": "1940-05-13T16:00",
+  "category": "battle",
+  "importance": 1,
+  "side": "DE",
+  "title": {
+   "zh": "色当渡河",
+   "orig": "Bataille de Sedan"
+  },
+  "place": "@sedan",
+  "body": "古德里安的第19摩托化军在色当强渡默兹河。俯冲轰炸机反复压制法军炮兵，步兵在当天下午建立桥头堡，夜里开始过坦克。这是整个战役的转折点。",
+  "units": [
+   "de.xix_mk",
+   "de.1pz",
+   "fr.2a"
+  ],
+  "sfx": [
+   "stuka",
+   "artillery"
+  ],
+  "sources": [
+   "frieser",
+   "horne"
+  ],
+  "confidence": "high",
+  "zoomRel": 3.4
+ },
+ {
+  "id": "e.rotterdam",
+  "at": "1940-05-14T13:30",
+  "category": "air",
+  "importance": 1,
+  "side": "DE",
+  "title": {
+   "zh": "鹿特丹轰炸",
+   "orig": "Bombardement van Rotterdam"
+  },
+  "place": "@rotterdam",
+  "body": "德军要求鹿特丹投降未果后，轰炸机群空袭了市中心。约八百至九百平民死亡，老城大片烧毁。空袭进行时和谈已经开始，部分飞机未能及时召回。次日荷兰陆军投降。",
+  "units": [
+   "de.18a",
+   "nl.army"
+  ],
+  "sfx": [
+   "bomber",
+   "siren"
+  ],
+  "sources": [
+   "wiki_france",
+   "horne"
+  ],
+  "confidence": "medium",
+  "photo": {
+   "commons": "File:Rotterdam, Laurenskerk, na bombardement van mei 1940.jpg",
+   "caption": "1940 年 5 月轰炸后的鹿特丹，圣劳伦斯教堂仍立在废墟中"
+  },
+  "zoomRel": 3.4
+ },
+ {
+  "id": "e.dutch",
+  "at": "1940-05-15T10:30",
+  "category": "surrender",
+  "importance": 1,
+  "side": "NL",
+  "title": {
+   "zh": "荷兰投降",
+   "orig": "Capitulatie van Nederland"
+  },
+  "place": "@the_hague",
+  "body": "总司令温克尔曼签署投降书，荷兰欧洲部分的陆军停止抵抗。泽兰省因与法军共同防守，战斗又延续到5月17日。王室和政府已撤往伦敦。",
+  "units": [
+   "nl.army"
+  ],
+  "sfx": [
+   "radio"
+  ],
+  "sources": [
+   "wiki_france"
+  ],
+  "confidence": "high",
+  "zoomRel": 2.6
+ },
+ {
+  "id": "e.ninth",
+  "at": "1940-05-15T18:00",
+  "category": "battle",
+  "importance": 1,
+  "side": "FR",
+  "title": {
+   "zh": "第9集团军崩溃",
+   "orig": "9e armée"
+  },
+  "place": "@montherme",
+  "body": "蒙泰尔梅、迪南和色当三处渡口都丢失后，科拉普的第9集团军失去联系和预备队。5月15日夜里，司令部已经无法指挥完整的师。缺口从此变成一条通向西面的走廊。",
+  "units": [
+   "fr.9a",
+   "de.xv_mk"
+  ],
+  "sfx": [
+   "radio",
+   "tank"
+  ],
+  "sources": [
+   "horne",
+   "frieser"
+  ],
+  "confidence": "high",
+  "zoomRel": 2.6
+ },
+ {
+  "id": "e.montcornet",
+  "at": "1940-05-17T16:00",
+  "category": "battle",
+  "importance": 2,
+  "side": "FR",
+  "title": {
+   "zh": "蒙特科尔内反击",
+   "orig": "Montcornet"
+  },
+  "place": "@montcornet",
+  "body": "戴高乐以刚拼成的第4装甲师向蒙特科尔内冲击，一度打到德军后方的交通线。缺少步兵和燃料，反击当天停住。它证明法军坦克还能打，但改变不了走廊已经形成的事实。",
+  "units": [
+   "fr.2a"
+  ],
+  "sfx": [
+   "tank",
+   "artillery"
+  ],
+  "sources": [
+   "horne"
+  ],
+  "confidence": "medium",
+  "photo": {
+   "commons": "File:Juin 1940, Aubigny-sur-Nère, Char B1 bis.jpg",
+   "caption": "1940 年 6 月被击毁的夏尔 B1 bis。戴高乐反击使用的是同一型号，不是这一辆"
+  },
+  "zoomRel": 3.4
+ },
+ {
+  "id": "e.abbeville",
+  "at": "1940-05-20T20:00",
+  "category": "movement",
+  "importance": 1,
+  "side": "DE",
+  "title": {
+   "zh": "到达阿布维尔",
+   "orig": "Abbeville"
+  },
+  "place": "@abbeville",
+  "body": "第1装甲师的前卫在5月20日晚上开到阿布维尔，看见英吉利海峡。比利时境内的同盟军和法国南部之间的陆上联系被切断。这一天通常被当作镰刀收割完成的标志。",
+  "units": [
+   "de.1pz",
+   "de.xix_mk"
+  ],
+  "sfx": [
+   "tank",
+   "engine"
+  ],
+  "sources": [
+   "frieser"
+  ],
+  "confidence": "high",
+  "photo": {
+   "commons": "File:German Panzer II in France, in May-June 1940 (242-EAPC-3-285).jpg",
+   "caption": "1940 年 5 月至 6 月，法国田野上的德军二号坦克"
+  },
+  "zoomRel": 2.6
+ },
+ {
+  "id": "e.arras",
+  "at": "1940-05-21T14:00",
+  "category": "battle",
+  "importance": 2,
+  "side": "GB",
+  "title": {
+   "zh": "阿拉斯反击",
+   "orig": "Battle of Arras"
+  },
+  "place": "@arras",
+  "body": "英军两个坦克营带少量步兵向南反击，冲进隆美尔师的侧翼，击毁一批德军反坦克炮。规模只有约两个师，当夜即停。德军一时高估了这次反击，它也常被拿来解释后来的停止前进令。",
+  "units": [
+   "gb.bef",
+   "de.7pz"
+  ],
+  "sfx": [
+   "tank",
+   "artillery"
+  ],
+  "sources": [
+   "horne",
+   "frieser"
+  ],
+  "confidence": "high",
+  "zoomRel": 3.4
+ },
+ {
+  "id": "e.halt",
+  "at": "1940-05-24T11:30",
+  "category": "movement",
+  "importance": 1,
+  "side": "DE",
+  "title": {
+   "zh": "停止前进命令",
+   "orig": "Haltebefehl"
+  },
+  "place": "@charleville",
+  "body": "希特勒批准装甲部队在运河线停止前进，先巩固走廊，把最后围歼交给空军和步兵。命令的动机至今有争论：有人强调地形和侧翼，有人强调戈林的保证。敦刻尔克因此多出了两天时间。",
+  "units": [
+   "de.pzgr_kleist"
+  ],
+  "sfx": [
+   "radio"
+  ],
+  "sources": [
+   "frieser",
+   "horne"
+  ],
+  "confidence": "medium",
+  "zoomRel": 2.6
+ },
+ {
+  "id": "e.dynamo",
+  "at": "1940-05-26T18:57",
+  "category": "naval",
+  "importance": 1,
+  "side": "GB",
+  "title": {
+   "zh": "发电机行动",
+   "orig": "Operation Dynamo"
+  },
+  "place": "@dunkirk",
+  "body": "英国海军从5月26日晚开始，用军舰和民船从敦刻尔克港与海滩撤人。到6月4日，约33.8万英法士兵渡过海峡，重装备几乎全部留下。这是撤退，不是一场打赢的防御战。",
+  "units": [
+   "gb.bef"
+  ],
+  "sfx": [
+   "ship_gun",
+   "bomber"
+  ],
+  "sources": [
+   "horne",
+   "wiki_france"
+  ],
+  "confidence": "high",
+  "photo": {
+   "commons": "File:Dunkirk 26-29 May 1940 NYP68075.jpg",
+   "caption": "1940 年 5 月 26 日至 29 日，敦刻尔克海滩上等待上船的英军"
+  },
+  "zoomRel": 2.6
+ },
+ {
+  "id": "e.belgium",
+  "at": "1940-05-28T04:00",
+  "category": "surrender",
+  "importance": 1,
+  "side": "BE",
+  "title": {
+   "zh": "比利时投降",
+   "orig": "Capitulation belge"
+  },
+  "place": "@bruges",
+  "body": "利奥波德三世在部队被压到海岸、弹药将尽后决定投降，5月28日凌晨生效。英军侧翼因此暴露，敦刻尔克围圈更小。比利时政府在法国谴责了这一决定，国王留下当了俘虏。",
+  "units": [
+   "be.army"
+  ],
+  "sfx": [
+   "radio"
+  ],
+  "sources": [
+   "horne"
+  ],
+  "confidence": "high",
+  "zoomRel": 2.6
+ },
+ {
+  "id": "e.dunkirk_end",
+  "at": "1940-06-04T18:00",
+  "category": "naval",
+  "importance": 1,
+  "side": "GB",
+  "title": {
+   "zh": "敦刻尔克结束",
+   "orig": "Dunkirk"
+  },
+  "place": "@dunkirk",
+  "body": "最后一批船在6月4日离开。后卫约四万名法军来不及上船，成为俘虏。英国远征军的师保存了下来，火炮、车辆和坦克留在岸上。同一天，德军开始把兵力转向南方。",
+  "units": [
+   "gb.bef"
+  ],
+  "sfx": [
+   "ship_gun"
+  ],
+  "sources": [
+   "horne",
+   "wiki_france"
+  ],
+  "confidence": "high",
+  "zoomRel": 2.6
+ },
+ {
+  "id": "e.fall_rot",
+  "at": "1940-06-05T04:00",
+  "category": "battle",
+  "importance": 1,
+  "side": "DE",
+  "title": {
+   "zh": "红色方案",
+   "orig": "Fall Rot"
+  },
+  "place": "@amiens",
+  "body": "6月5日，德军在索姆河和随后在埃纳河重新发起进攻，目标是剩余的法军和巴黎。魏刚把残部排成一道没有纵深的防线。几天之内，索姆河防线和塞纳河先后被渡过。",
+  "units": [
+   "de.ag_b",
+   "fr.7a"
+  ],
+  "sfx": [
+   "artillery",
+   "tank"
+  ],
+  "sources": [
+   "frieser",
+   "jackson"
+  ],
+  "confidence": "high",
+  "zoomRel": 1.9
+ },
+ {
+  "id": "e.italy",
+  "at": "1940-06-10T18:00",
+  "category": "political",
+  "importance": 2,
+  "side": "FR",
+  "title": {
+   "zh": "意大利宣战",
+   "orig": "Entrée en guerre de l'Italie"
+  },
+  "place": "@tours",
+  "body": "墨索里尼于6月10日对英法宣战。阿尔卑斯山的意军攻势要到6月下旬才展开，而且不在这张图的范围内。法国政府此时已离开巴黎，经图尔继续南迁。",
+  "sfx": [
+   "radio"
+  ],
+  "sources": [
+   "jackson",
+   "wiki_france"
+  ],
+  "confidence": "high",
+  "zoomRel": 1.9
+ },
+ {
+  "id": "e.paris",
+  "at": "1940-06-14T09:00",
+  "category": "movement",
+  "importance": 1,
+  "side": "DE",
+  "title": {
+   "zh": "德军进入巴黎",
+   "orig": "Paris, ville ouverte"
+  },
+  "place": "@paris",
+  "body": "法国政府把巴黎宣布为不设防城市，以免巷战毁掉它。6月14日早晨德军开进空城。军事上这是追击的一站，政治上它标志着第三共和国的首都已经丢掉。",
+  "units": [
+   "de.6a"
+  ],
+  "sfx": [
+   "march",
+   "engine"
+  ],
+  "sources": [
+   "jackson",
+   "horne"
+  ],
+  "confidence": "high",
+  "photo": {
+   "commons": "File:French troops barricades paris 1940.png",
+   "caption": "1940 年 6 月，巴黎街道上的法军路障。政府宣布巴黎为不设防城市后，德军未遇巷战"
+  },
+  "zoomRel": 2.6
+ },
+ {
+  "id": "e.petain",
+  "at": "1940-06-17T12:30",
+  "category": "political",
+  "importance": 1,
+  "side": "FR",
+  "title": {
+   "zh": "贝当求和",
+   "orig": "Appel du 17 juin"
+  },
+  "place": "@tours",
+  "body": "贝当在6月16日夜出任总理。17日中午他通过广播说，必须停止战斗，并向德国询问停战条件。广播时政府正在向波尔多转移，波尔多在这张图的南边以外。许多部队听到广播后自行停止抵抗。",
+  "sfx": [
+   "radio"
+  ],
+  "sources": [
+   "jackson"
+  ],
+  "confidence": "high",
+  "zoomRel": 1.9
+ },
+ {
+  "id": "e.compiegne",
+  "at": "1940-06-22T18:30",
+  "category": "political",
+  "importance": 1,
+  "side": "DE",
+  "title": {
+   "zh": "贡比涅停战",
+   "orig": "Armistice de Rethondes"
+  },
+  "place": "@compiegne",
+  "body": "停战协定签在1918年所用的那节车厢里，地点在贡比涅森林。法国陆军被解除武装，北部和大西洋沿岸由德军占领，东南部暂称自由区。协定要到6月25日凌晨才生效。",
+  "sfx": [
+   "radio",
+   "stamp"
+  ],
+  "sources": [
+   "jackson",
+   "wiki_france"
+  ],
+  "confidence": "high",
+  "zoomRel": 3.4
+ },
+ {
+  "id": "e.effective",
+  "at": "1940-06-25T01:35",
+  "category": "surrender",
+  "importance": 2,
+  "side": "FR",
+  "title": {
+   "zh": "停战生效",
+   "orig": "Cessez-le-feu"
+  },
+  "place": "@paris",
+  "body": "法德停战于6月25日凌晨1时35分生效，同意大利的停战同一时刻生效。六周之内，荷兰、比利时和法国本土的有组织抵抗都结束了。英国继续单独作战。",
+  "sfx": [
+   "bell"
+  ],
+  "sources": [
+   "wiki_france",
+   "jackson"
+  ],
+  "confidence": "high",
+  "zoomRel": 1.35
+ }
+]

@@ -158,13 +158,18 @@ export class StaticLayers {
     // 战略要点标注偏移到空白处，并用引线指回准确位置（manifest.map.labelHubs）
     const hubs: Record<string, [number, number]> = mm.labelHubs ?? {};
     const centeredBox = mm.cityLabelBox === 'centered';
+    const placeMarkers = !!mm.portMarkers; // 港口用锚形标记（挪威）
     const minRelFor = (p: Place) => (p.rank === 1 ? 0 : p.rank === 2 ? 0.95 : p.rank === 3 ? 1.9 : 3.6);
     for (const p of places.sort((a, b) => (hubs[a.id] ? 0 : a.rank) - (hubs[b.id] ? 0 : b.rank))) {
       const [wx, wy] = project(p.pos);
       const hub = hubs[p.id];
       const fs = hub ? 13.5 : p.rank === 1 ? 14 : p.rank === 2 ? 12.5 : p.rank === 3 ? 11.5 : 10.5;
       const w = p.zh.length * fs + 10, h = fs + 4;
-      const marker = p.kind === 'capital'
+      const marker = p.kind === 'airfield' ? `<path d="M0,-5 V5 M-5,0 H5 M-3,4 H3" stroke="#5b4a82" stroke-width="1.6"/><circle r="7" fill="none" stroke="#5b4a82" stroke-width=".7"/>`
+        : p.kind === 'sea' ? `<path d="M-4,0 Q-2,-3 0,0 T4,0" fill="none" stroke="#2a6474" stroke-width="1.4"/>`
+        : p.kind === 'port' && placeMarkers ? `<path d="M0,-4 V4 M-4,1 Q0,7 4,1 M-2,-2 H2" fill="none" stroke="#2a6474" stroke-width="1.5"/>`
+        : p.kind === 'radar' ? `<path d="M0,3 V-2 M-4,-5 Q0,-1 4,-5" fill="none" stroke="#5b4a82" stroke-width="1.4"/><circle r="1.6" fill="#5b4a82"/>`
+        : p.kind === 'capital'
         ? `<path class="m-cap" d="M0,-5.5 L1.6,-1.7 L5.6,-1.6 L2.5,0.9 L3.5,5 L0,2.7 L-3.5,5 L-2.5,0.9 L-5.6,-1.6 L-1.6,-1.7Z"/>`
         : p.kind === 'fort' ? `<rect class="m-fort" x="-3.2" y="-3.2" width="6.4" height="6.4" transform="rotate(45)"/>`
           : p.rank <= 2 ? `<circle class="m-city" r="3.6"/><circle class="m-city-in" r="1.4"/>` : `<circle class="m-town" r="2.3"/>`;

@@ -1,0 +1,1527 @@
+[
+ {
+  "id": "brodnica",
+  "zh": "布罗德尼察",
+  "orig": "Brodnica",
+  "pos": [
+   19.4,
+   53.26
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "PL"
+ },
+ {
+  "id": "radzyn_chelminski",
+  "zh": "拉津海乌明斯基",
+  "orig": "Radzyń Chełmiński",
+  "pos": [
+   18.94,
+   53.39
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "melno",
+  "zh": "梅乌诺",
+  "orig": "Mełno",
+  "pos": [
+   18.84,
+   53.44
+  ],
+  "kind": "village",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "czersk",
+  "zh": "切尔斯克",
+  "orig": "Czersk",
+  "pos": [
+   17.98,
+   53.8
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "swiekatowo",
+  "zh": "希维卡托沃",
+  "orig": "Świekatowo",
+  "pos": [
+   18.1,
+   53.42
+  ],
+  "kind": "village",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "solec_kujawski",
+  "zh": "索莱茨库亚夫斯基",
+  "orig": "Solec Kujawski",
+  "pos": [
+   18.23,
+   53.08
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "gniewkowo",
+  "zh": "格涅夫科沃",
+  "orig": "Gniewkowo",
+  "pos": [
+   18.41,
+   52.89
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "brzesc_kujawski",
+  "zh": "布热希奇库亚夫斯基",
+  "orig": "Brześć Kujawski",
+  "pos": [
+   18.9,
+   52.61
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "gostynin",
+  "zh": "戈斯蒂宁",
+  "orig": "Gostynin",
+  "pos": [
+   19.46,
+   52.43
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "gabin",
+  "zh": "贡宾",
+  "orig": "Gąbin",
+  "pos": [
+   19.74,
+   52.4
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "zychlin",
+  "zh": "日赫林",
+  "orig": "Żychlin",
+  "pos": [
+   19.62,
+   52.24
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "kiernozia",
+  "zh": "凯尔诺贾",
+  "orig": "Kiernozia",
+  "pos": [
+   19.87,
+   52.27
+  ],
+  "kind": "village",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "bielawy",
+  "zh": "别拉维",
+  "orig": "Bielawy",
+  "pos": [
+   19.65,
+   52.08
+  ],
+  "kind": "village",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "glowno",
+  "zh": "格沃夫诺",
+  "orig": "Głowno",
+  "pos": [
+   19.72,
+   51.96
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "strykow",
+  "zh": "斯特雷库夫",
+  "orig": "Stryków",
+  "pos": [
+   19.6,
+   51.9
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "ozorkow",
+  "zh": "奥佐尔库夫",
+  "orig": "Ozorków",
+  "pos": [
+   19.29,
+   51.96
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "uniejow",
+  "zh": "乌涅尤夫",
+  "orig": "Uniejów",
+  "pos": [
+   18.79,
+   52.05
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "kolo",
+  "zh": "科沃",
+  "orig": "Koło",
+  "pos": [
+   18.64,
+   52.2
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "PL"
+ },
+ {
+  "id": "skierniewice",
+  "zh": "斯凯尔涅维采",
+  "orig": "Skierniewice",
+  "pos": [
+   20.15,
+   51.96
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "PL"
+ },
+ {
+  "id": "lomianki",
+  "zh": "沃米扬基",
+  "orig": "Łomianki",
+  "pos": [
+   20.89,
+   52.33
+  ],
+  "kind": "village",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "palmiry",
+  "zh": "帕尔米雷",
+  "orig": "Palmiry",
+  "pos": [
+   20.79,
+   52.37
+  ],
+  "kind": "village",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "zyrardow",
+  "zh": "热拉尔杜夫",
+  "orig": "Żyrardów",
+  "pos": [
+   20.44,
+   52.05
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "brwinow",
+  "zh": "布尔维努夫",
+  "orig": "Brwinów",
+  "pos": [
+   20.72,
+   52.14
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "ozarow",
+  "zh": "奥扎鲁夫",
+  "orig": "Ożarów",
+  "pos": [
+   20.8,
+   52.21
+  ],
+  "kind": "village",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "wiazowna",
+  "zh": "文佐夫纳",
+  "orig": "Wiązowna",
+  "pos": [
+   21.3,
+   52.18
+  ],
+  "kind": "village",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "otwock",
+  "zh": "奥特沃茨克",
+  "orig": "Otwock",
+  "pos": [
+   21.26,
+   52.11
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "seroczyn",
+  "zh": "塞罗钦",
+  "orig": "Seroczyn",
+  "pos": [
+   21.93,
+   51.97
+  ],
+  "kind": "village",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "wyszkow",
+  "zh": "维什库夫",
+  "orig": "Wyszków",
+  "pos": [
+   21.46,
+   52.59
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "PL"
+ },
+ {
+  "id": "brok",
+  "zh": "布罗克",
+  "orig": "Brok",
+  "pos": [
+   21.86,
+   52.7
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "stoczek",
+  "zh": "斯托切克",
+  "orig": "Stoczek",
+  "pos": [
+   21.9,
+   52.54
+  ],
+  "kind": "village",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "dlugosiodlo",
+  "zh": "德武戈谢德沃",
+  "orig": "Długosiodło",
+  "pos": [
+   21.59,
+   52.77
+  ],
+  "kind": "village",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "goworowo",
+  "zh": "戈沃罗沃",
+  "orig": "Goworowo",
+  "pos": [
+   21.56,
+   52.9
+  ],
+  "kind": "village",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "bielsk_podlaski",
+  "zh": "别尔斯克波德拉斯基",
+  "orig": "Bielsk Podlaski",
+  "pos": [
+   23.19,
+   52.77
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "bialowieza",
+  "zh": "比亚沃维耶扎",
+  "orig": "Białowieża",
+  "pos": [
+   23.84,
+   52.7
+  ],
+  "kind": "village",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "piszczac",
+  "zh": "皮什恰茨",
+  "orig": "Piszczac",
+  "pos": [
+   23.38,
+   51.98
+  ],
+  "kind": "village",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "lidzbark",
+  "zh": "利兹巴克",
+  "orig": "Lidzbark",
+  "pos": [
+   19.83,
+   53.26
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "dzialdowo",
+  "zh": "杰乌多沃",
+  "orig": "Działdowo",
+  "pos": [
+   20.17,
+   53.24
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "plonsk",
+  "zh": "普翁斯克",
+  "orig": "Płońsk",
+  "pos": [
+   20.38,
+   52.62
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "nasielsk",
+  "zh": "纳谢尔斯克",
+  "orig": "Nasielsk",
+  "pos": [
+   20.8,
+   52.59
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "chorzele",
+  "zh": "霍热莱",
+  "orig": "Chorzele",
+  "pos": [
+   20.9,
+   53.26
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "grudusk",
+  "zh": "格鲁杜斯克",
+  "orig": "Grudusk",
+  "pos": [
+   20.65,
+   53.06
+  ],
+  "kind": "village",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "lask",
+  "zh": "瓦斯克",
+  "orig": "Łask",
+  "pos": [
+   19.13,
+   51.59
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "pabianice",
+  "zh": "帕比亚尼采",
+  "orig": "Pabianice",
+  "pos": [
+   19.35,
+   51.66
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "sieradz",
+  "zh": "谢拉兹",
+  "orig": "Sieradz",
+  "pos": [
+   18.73,
+   51.6
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "PL"
+ },
+ {
+  "id": "szadek",
+  "zh": "沙代克",
+  "orig": "Szadek",
+  "pos": [
+   18.98,
+   51.69
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "zgierz",
+  "zh": "兹盖日",
+  "orig": "Zgierz",
+  "pos": [
+   19.41,
+   51.86
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "widawa",
+  "zh": "维达瓦",
+  "orig": "Widawa",
+  "pos": [
+   19.12,
+   51.43
+  ],
+  "kind": "village",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "szczercow",
+  "zh": "什切尔楚夫",
+  "orig": "Szczerców",
+  "pos": [
+   19.11,
+   51.33
+  ],
+  "kind": "village",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "dzialoszyn",
+  "zh": "贾沃申",
+  "orig": "Działoszyn",
+  "pos": [
+   18.87,
+   51.12
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "brzeziny",
+  "zh": "布热济内",
+  "orig": "Brzeziny",
+  "pos": [
+   19.75,
+   51.8
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "jezow",
+  "zh": "耶若夫",
+  "orig": "Jeżów",
+  "pos": [
+   19.97,
+   51.81
+  ],
+  "kind": "village",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "koluszki",
+  "zh": "科卢什基",
+  "orig": "Koluszki",
+  "pos": [
+   19.82,
+   51.74
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "sulejow",
+  "zh": "苏莱尤夫",
+  "orig": "Sulejów",
+  "pos": [
+   19.88,
+   51.35
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "szydlowiec",
+  "zh": "希德沃维茨",
+  "orig": "Szydłowiec",
+  "pos": [
+   20.86,
+   51.23
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "starachowice",
+  "zh": "斯塔拉霍维采",
+  "orig": "Starachowice",
+  "pos": [
+   21.07,
+   51.04
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "lipsko",
+  "zh": "利普斯科",
+  "orig": "Lipsko",
+  "pos": [
+   21.65,
+   51.16
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "solec_wisla",
+  "zh": "索莱茨（维斯瓦河畔）",
+  "orig": "Solec nad Wisłą",
+  "pos": [
+   21.77,
+   51.14
+  ],
+  "kind": "crossing",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "maciejowice",
+  "zh": "马切约维采",
+  "orig": "Maciejowice",
+  "pos": [
+   21.56,
+   51.7
+  ],
+  "kind": "crossing",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "laskarzew",
+  "zh": "瓦斯卡热夫",
+  "orig": "Łaskarzew",
+  "pos": [
+   21.59,
+   51.79
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "olkusz",
+  "zh": "奥尔库什",
+  "orig": "Olkusz",
+  "pos": [
+   19.56,
+   50.28
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "miechow",
+  "zh": "米胡夫",
+  "orig": "Miechów",
+  "pos": [
+   20.03,
+   50.36
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "pinczow",
+  "zh": "平丘夫",
+  "orig": "Pińczów",
+  "pos": [
+   20.53,
+   50.52
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "busko",
+  "zh": "布斯科",
+  "orig": "Busko",
+  "pos": [
+   20.72,
+   50.47
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "stopnica",
+  "zh": "斯托普尼察",
+  "orig": "Stopnica",
+  "pos": [
+   20.94,
+   50.44
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "rytwiany",
+  "zh": "雷特维亚内",
+  "orig": "Rytwiany",
+  "pos": [
+   21.23,
+   50.52
+  ],
+  "kind": "village",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "nowy_korczyn",
+  "zh": "新科尔琴",
+  "orig": "Nowy Korczyn",
+  "pos": [
+   20.81,
+   50.3
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "baranow_sand",
+  "zh": "巴拉努夫桑多梅日斯基",
+  "orig": "Baranów Sandomierski",
+  "pos": [
+   21.54,
+   50.5
+  ],
+  "kind": "crossing",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "nisko",
+  "zh": "尼斯科",
+  "orig": "Nisko",
+  "pos": [
+   22.14,
+   50.52
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "krasnik",
+  "zh": "克拉希尼克",
+  "orig": "Kraśnik",
+  "pos": [
+   22.22,
+   50.92
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "zwierzyniec",
+  "zh": "兹维热涅茨",
+  "orig": "Zwierzyniec",
+  "pos": [
+   22.97,
+   50.61
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "tarnogrod",
+  "zh": "塔尔诺格鲁德",
+  "orig": "Tarnogród",
+  "pos": [
+   22.74,
+   50.36
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "cieszanow",
+  "zh": "切沙努夫",
+  "orig": "Cieszanów",
+  "pos": [
+   23.13,
+   50.25
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "oleszyce",
+  "zh": "奥莱希采",
+  "orig": "Oleszyce",
+  "pos": [
+   23.04,
+   50.17
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "lubaczow",
+  "zh": "卢巴丘夫",
+  "orig": "Lubaczów",
+  "pos": [
+   23.12,
+   50.16
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "werchrata",
+  "zh": "韦尔赫拉塔",
+  "orig": "Werchrata",
+  "pos": [
+   23.49,
+   50.25
+  ],
+  "kind": "village",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "narol",
+  "zh": "纳罗尔",
+  "orig": "Narol",
+  "pos": [
+   23.33,
+   50.35
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "komarow",
+  "zh": "科马鲁夫",
+  "orig": "Komarów",
+  "pos": [
+   23.49,
+   50.63
+  ],
+  "kind": "village",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "tyszowce",
+  "zh": "蒂绍夫采",
+  "orig": "Tyszowce",
+  "pos": [
+   23.7,
+   50.62
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "czesniki",
+  "zh": "切希尼基",
+  "orig": "Cześniki",
+  "pos": [
+   23.36,
+   50.68
+  ],
+  "kind": "village",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "rejowiec",
+  "zh": "雷约维茨",
+  "orig": "Rejowiec",
+  "pos": [
+   23.28,
+   51.1
+  ],
+  "kind": "village",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "wadowice",
+  "zh": "瓦多维采",
+  "orig": "Wadowice",
+  "pos": [
+   19.49,
+   49.88
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "zywiec",
+  "zh": "日维茨",
+  "orig": "Żywiec",
+  "pos": [
+   19.19,
+   49.69
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "rabka",
+  "zh": "拉布卡",
+  "orig": "Rabka",
+  "pos": [
+   19.96,
+   49.61
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "mszana_dolna",
+  "zh": "姆沙纳多尔纳",
+  "orig": "Mszana Dolna",
+  "pos": [
+   20.08,
+   49.67
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "wisnicz",
+  "zh": "维希尼奇",
+  "orig": "Nowy Wiśnicz",
+  "pos": [
+   20.47,
+   49.92
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "proszowice",
+  "zh": "普罗绍维采",
+  "orig": "Proszowice",
+  "pos": [
+   20.29,
+   50.19
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "mielec",
+  "zh": "米耶莱茨",
+  "orig": "Mielec",
+  "pos": [
+   21.43,
+   50.29
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "tuchow",
+  "zh": "图胡夫",
+  "orig": "Tuchów",
+  "pos": [
+   21.05,
+   49.89
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "lancut",
+  "zh": "万楚特",
+  "orig": "Łańcut",
+  "pos": [
+   22.23,
+   50.07
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "dukla",
+  "zh": "杜克拉",
+  "orig": "Dukla",
+  "pos": [
+   21.69,
+   49.56
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "grybow",
+  "zh": "格雷布夫",
+  "orig": "Grybów",
+  "pos": [
+   20.95,
+   49.62
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "bircza",
+  "zh": "比尔恰",
+  "orig": "Bircza",
+  "pos": [
+   22.48,
+   49.69
+  ],
+  "kind": "village",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "dobromil",
+  "zh": "多布罗米尔",
+  "orig": "Dobromil",
+  "pos": [
+   22.79,
+   49.57
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "mosciska",
+  "zh": "莫希奇斯卡",
+  "orig": "Mościska",
+  "pos": [
+   23.06,
+   49.8
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "sadowa_wisznia",
+  "zh": "松多瓦维什尼亚",
+  "orig": "Sądowa Wisznia",
+  "pos": [
+   23.45,
+   49.78
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "jaworow",
+  "zh": "亚沃鲁夫",
+  "orig": "Jaworów",
+  "pos": [
+   23.39,
+   49.94
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "brzuchowice",
+  "zh": "布茹霍维采",
+  "orig": "Brzuchowice",
+  "pos": [
+   23.95,
+   49.9
+  ],
+  "kind": "village",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "zboiska",
+  "zh": "兹博伊斯卡",
+  "orig": "Zboiska",
+  "pos": [
+   24.03,
+   49.88
+  ],
+  "kind": "village",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "stary_sambor",
+  "zh": "老桑博尔",
+  "orig": "Stary Sambor",
+  "pos": [
+   22.99,
+   49.44
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "skole",
+  "zh": "斯科莱",
+  "orig": "Skole",
+  "pos": [
+   23.51,
+   49.04
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "halicz",
+  "zh": "哈利奇",
+  "orig": "Halicz",
+  "pos": [
+   24.72,
+   49.12
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "kalusz",
+  "zh": "卡武什",
+  "orig": "Kałusz",
+  "pos": [
+   24.37,
+   49.02
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "brzezany",
+  "zh": "布热扎内",
+  "orig": "Brzeżany",
+  "pos": [
+   24.94,
+   49.45
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "buczacz",
+  "zh": "布恰奇",
+  "orig": "Buczacz",
+  "pos": [
+   25.39,
+   49.06
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "trembowla",
+  "zh": "特伦博夫拉",
+  "orig": "Trembowla",
+  "pos": [
+   25.73,
+   49.3
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "zbaraz",
+  "zh": "兹巴拉日",
+  "orig": "Zbaraż",
+  "pos": [
+   25.78,
+   49.66
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "horodenka",
+  "zh": "霍罗登卡",
+  "orig": "Horodenka",
+  "pos": [
+   25.5,
+   48.67
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "przelecz_tatarska",
+  "zh": "鞑靼山口",
+  "orig": "Przełęcz Tatarska",
+  "alt": "Yablunytsia Pass",
+  "pos": [
+   24.5,
+   48.3
+  ],
+  "kind": "crossing",
+  "rank": 3,
+  "country": "PL"
+ },
+ {
+  "id": "przelecz_beskid",
+  "zh": "贝斯基德山口（瓦沃奇内）",
+  "orig": "Przełęcz Beskid",
+  "pos": [
+   23.43,
+   48.86
+  ],
+  "kind": "crossing",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "slonim",
+  "zh": "斯沃尼姆",
+  "orig": "Słonim",
+  "pos": [
+   25.32,
+   53.09
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "PL"
+ },
+ {
+  "id": "nieswiez",
+  "zh": "涅斯维日",
+  "orig": "Nieśwież",
+  "pos": [
+   26.68,
+   53.22
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "kosow_poleski",
+  "zh": "科舒夫波莱斯基",
+  "orig": "Kosów Poleski",
+  "pos": [
+   25.15,
+   52.76
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "pruzany",
+  "zh": "普鲁扎内",
+  "orig": "Prużany",
+  "pos": [
+   24.46,
+   52.56
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "luniniec",
+  "zh": "武尼涅茨",
+  "orig": "Łuniniec",
+  "pos": [
+   26.8,
+   52.25
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "drohiczyn_poleski",
+  "zh": "德罗希琴波莱斯基",
+  "orig": "Drohiczyn Poleski",
+  "pos": [
+   25.16,
+   52.18
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "maloryta",
+  "zh": "马沃雷塔",
+  "orig": "Małoryta",
+  "pos": [
+   24.08,
+   51.8
+  ],
+  "kind": "village",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "ratno",
+  "zh": "拉特诺",
+  "orig": "Ratno",
+  "pos": [
+   24.52,
+   51.67
+  ],
+  "kind": "village",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "jablon",
+  "zh": "亚布翁",
+  "orig": "Jabłoń",
+  "pos": [
+   22.93,
+   51.7
+  ],
+  "kind": "village",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "serokomla",
+  "zh": "塞罗科姆拉",
+  "orig": "Serokomla",
+  "pos": [
+   22.33,
+   51.71
+  ],
+  "kind": "village",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "skidel",
+  "zh": "斯基德尔",
+  "orig": "Skidel",
+  "pos": [
+   24.25,
+   53.59
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "oszmiana",
+  "zh": "奥什米亚纳",
+  "orig": "Oszmiana",
+  "pos": [
+   25.94,
+   54.42
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "swieciany",
+  "zh": "希维恰内",
+  "orig": "Święciany",
+  "pos": [
+   26.16,
+   55.14
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "postawy",
+  "zh": "波斯塔维",
+  "orig": "Postawy",
+  "pos": [
+   26.84,
+   55.11
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "dzerzhinsk",
+  "zh": "捷尔任斯克",
+  "orig": "Дзержинск",
+  "pos": [
+   27.14,
+   53.68
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "timkovichi",
+  "zh": "季姆科维奇",
+  "orig": "Тимковичи",
+  "pos": [
+   26.99,
+   53.07
+  ],
+  "kind": "village",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "zhitkovichi",
+  "zh": "日特科维奇",
+  "orig": "Житковичи",
+  "pos": [
+   27.86,
+   52.23
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "olevsk",
+  "zh": "奥列夫斯克",
+  "orig": "Олевск",
+  "pos": [
+   27.65,
+   51.22
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU"
+ }
+]

@@ -1,0 +1,983 @@
+[
+ {
+  "id": "pz1",
+  "side": "DE",
+  "name": {
+   "zh": "I 号坦克",
+   "orig": "Panzerkampfwagen I (Sd.Kfz.101)"
+  },
+  "class": "tank_light",
+  "crew": 2,
+  "weightT": 5.8,
+  "armorMm": [
+   6,
+   13
+  ],
+  "gun": "2 × 7.92 mm MG 13",
+  "speedKmh": 40,
+  "model": "pz1",
+  "photo": {
+   "commons": "File:Bundesarchiv Bild 146-1978-120-11, Polen, Panzer I am Ufer der Brahe.jpg",
+   "caption": "1939 年 9 月，布拉赫河（Brda）岸边的 I 号坦克"
+  },
+  "desc": "德军数量最多的坦克，本是训练车，只有两挺机枪和防弹级装甲。1939 年约 1,445 辆投入波兰，是各装甲师主力，但面对波军 37 mm 反坦克炮和 7TP 损失惨重，战后被逐步撤出一线。",
+  "sources": [
+   "wiki_eq_pz1",
+   "zaloga_2002"
+  ],
+  "count": 1445
+ },
+ {
+  "id": "pz2",
+  "side": "DE",
+  "name": {
+   "zh": "II 号坦克",
+   "orig": "Panzerkampfwagen II (Sd.Kfz.121)"
+  },
+  "class": "tank_light",
+  "crew": 3,
+  "weightT": 8.9,
+  "armorMm": [
+   5,
+   14.5
+  ],
+  "gun": "20 mm KwK 30 L/55 + 7.92 mm MG 34",
+  "speedKmh": 40,
+  "model": "pz2",
+  "photo": {
+   "commons": "File:PzKpfw II Ausf. C.JPG",
+   "caption": "博物馆中的 II 号坦克 C 型"
+  },
+  "desc": "装 20 mm 机关炮的轻型坦克，1939 年约 1,223 辆参战，与 I 号一起构成装甲师的主体。火力足以对付 TKS 超轻型坦克和装甲车，但 14.5 mm 装甲在波军反坦克炮前同样脆弱。",
+  "sources": [
+   "wiki_eq_pz2",
+   "zaloga_2002"
+  ],
+  "count": 1223
+ },
+ {
+  "id": "pz3",
+  "side": "DE",
+  "name": {
+   "zh": "III 号坦克",
+   "orig": "Panzerkampfwagen III (Sd.Kfz.141)"
+  },
+  "class": "tank_medium",
+  "crew": 5,
+  "weightT": 16,
+  "armorMm": [
+   5,
+   14.5
+  ],
+  "gun": "37 mm KwK 36 L/46.5 + 3 × MG 34",
+  "speedKmh": 40,
+  "model": "pz3",
+  "photo": {
+   "commons": "File:Bundesarchiv Bild 101I-318-0083-30, Polen, Panzer III mit Panzersoldaten.jpg",
+   "caption": "1939 年 9 月，波兰境内的 III 号坦克与乘员"
+  },
+  "desc": "计划中的主力战车，1939 年仅有 A–D 型约 98 辆，多编入第 1 装甲师等单位的轻连。37 mm 炮可击穿所有波军装甲，但数量太少，早期型悬挂可靠性差，随后由扭杆悬挂的 E 型取代。",
+  "sources": [
+   "wiki_eq_pz3",
+   "zaloga_2002"
+  ],
+  "count": 98
+ },
+ {
+  "id": "pz4",
+  "side": "DE",
+  "name": {
+   "zh": "IV 号坦克",
+   "orig": "Panzerkampfwagen IV (Sd.Kfz.161)"
+  },
+  "class": "tank_medium",
+  "crew": 5,
+  "weightT": 17.7,
+  "armorMm": [
+   5,
+   30
+  ],
+  "gun": "75 mm KwK 37 L/24 + 2 × MG 34",
+  "speedKmh": 40,
+  "model": "pz4",
+  "photo": {
+   "commons": "File:Bundesarchiv Bild 183-E10524, Polen, Panzer IV in einer Stadt.jpg",
+   "caption": "1939 年 9 月，波兰某城镇中的 IV 号坦克"
+  },
+  "desc": "火力支援坦克，装 75 mm 短身管榴弹炮，主要打击碉堡、火炮阵地。1939 年 A–C 型约 211 辆参战，每营仅编一个中型连。9 月 18 日一辆 IV 号 B 型被 TKS 的 20 mm 炮击毁。",
+  "sources": [
+   "wiki_eq_pz4",
+   "zaloga_2002"
+  ],
+  "count": 211
+ },
+ {
+  "id": "pz35t",
+  "side": "DE",
+  "name": {
+   "zh": "35(t) 坦克",
+   "orig": "Panzerkampfwagen 35(t) / LT vz. 35"
+  },
+  "class": "tank_light",
+  "crew": 4,
+  "weightT": 10.5,
+  "armorMm": [
+   8,
+   25
+  ],
+  "gun": "37 mm KwK 34(t) L/40 + 2 × 7.92 mm MG",
+  "speedKmh": 34,
+  "model": "pz35t",
+  "photo": {
+   "commons": "File:LT vz. 35 (1939).jpg",
+   "caption": "1939 年 3 月的 LT vz. 35（35(t) 原型车）"
+  },
+  "desc": "吞并捷克后缴获的斯柯达 LT vz.35，铆接车体、37 mm 炮，气动转向机构娇贵。第 1 轻装师与第 11 装甲团共约 120 辆参加波兰战役，77 辆一度损坏（多为机械故障），但只有 7 辆无法修复。",
+  "sources": [
+   "wiki_eq_pz35t",
+   "zaloga_2002"
+  ],
+  "count": 120
+ },
+ {
+  "id": "pz38t",
+  "side": "DE",
+  "name": {
+   "zh": "38(t) 坦克",
+   "orig": "Panzerkampfwagen 38(t) / LT vz. 38"
+  },
+  "class": "tank_light",
+  "crew": 4,
+  "weightT": 9.5,
+  "armorMm": [
+   8,
+   25
+  ],
+  "gun": "37 mm KwK 38(t) L/47.8 + 2 × 7.92 mm MG 37(t)",
+  "speedKmh": 42,
+  "model": "pz38t",
+  "photo": {
+   "commons": "File:Bundesarchiv Bild 101I-769-0229-26, Frankreich, Panzersoldat, Panzer 38(t).jpg",
+   "caption": "1940 年法国战役中的 38(t) 坦克与乘员"
+  },
+  "desc": "ČKD 设计的 LT vz.38，四个大负重轮、机械可靠。1939 年夏刚开始交付德军，第 3 轻装师装备少量 38(t) A 型参加波兰战役，表现良好，随后成为 1940–41 年德军装甲师的重要车型。",
+  "sources": [
+   "wiki_eq_pz38t",
+   "zaloga_2002"
+  ]
+ },
+ {
+  "id": "sdkfz231",
+  "side": "DE",
+  "name": {
+   "zh": "Sd.Kfz.231 八轮重型装甲车",
+   "orig": "schwerer Panzerspähwagen (8-Rad) Sd.Kfz. 231"
+  },
+  "class": "armored_car",
+  "crew": 4,
+  "weightT": 8.3,
+  "armorMm": [
+   5,
+   14.5
+  ],
+  "gun": "20 mm KwK 30 + 7.92 mm MG 34",
+  "speedKmh": 85,
+  "model": "sdkfz231",
+  "photo": {
+   "commons": "File:D. 600, schwerer Panzerspähwagen (Sd. Kfz. 231) (8 Rad).png",
+   "caption": "德军手册 D.600 中的 Sd.Kfz. 231（8 轮）线图"
+  },
+  "desc": "八轮全驱、前后双驾驶位的重型侦察装甲车，越野性能远超同代轮式车辆。1939 年装备各装甲师和摩托化师的侦察营，担任先导侦察；20 mm 炮可压制波军骑兵和轻装甲车。",
+  "sources": [
+   "wiki_eq_sdkfz231",
+   "zaloga_2002"
+  ]
+ },
+ {
+  "id": "sdkfz222",
+  "side": "DE",
+  "name": {
+   "zh": "Sd.Kfz.222 轻型装甲侦察车",
+   "orig": "leichter Panzerspähwagen Sd.Kfz. 222"
+  },
+  "class": "armored_car",
+  "crew": 3,
+  "weightT": 4.8,
+  "armorMm": [
+   5,
+   8
+  ],
+  "gun": "20 mm KwK 30 + 7.92 mm MG 34",
+  "speedKmh": 80,
+  "photo": {
+   "commons": "File:D. 600, leichter Panzerspähwagen (Sd. Kfz. 222) mit Einheitsfahrgestell I für s. Pkw.png",
+   "caption": "德军手册 D.600 中的 Sd.Kfz. 222 线图"
+  },
+  "desc": "四轮轻型装甲侦察车，开顶炮塔覆盖防手榴弹网，装 20 mm 机关炮。1939 年是侦察营数量最多的装甲车，担任道路侦察与联络；装甲薄，常被波军步兵反坦克枪 wz.35 击穿。",
+  "sources": [
+   "wiki_eq_sdkfz222",
+   "zaloga_2002"
+  ]
+ },
+ {
+  "id": "pak36",
+  "side": "DE",
+  "name": {
+   "zh": "3.7 cm Pak 36 反坦克炮",
+   "orig": "3,7-cm-Panzerabwehrkanone 36"
+  },
+  "class": "gun",
+  "crew": 5,
+  "weightT": 0.43,
+  "gun": "37 mm L/45",
+  "model": "art_gun",
+  "photo": {
+   "commons": "File:Pak 35-36 in Kubinka.jpg",
+   "caption": "库宾卡博物馆中的 3.7 cm Pak 35/36"
+  },
+  "desc": "德军标准反坦克炮，重仅约 430 kg，可由炮组人力推动。1939 年足以击穿 7TP、TKS 和所有波兰装甲车，在布祖拉河等战斗中也被大量用于平射支援步兵。",
+  "sources": [
+   "wiki_eq_pak36",
+   "zaloga_2002"
+  ]
+ },
+ {
+  "id": "lefh18",
+  "side": "DE",
+  "name": {
+   "zh": "10.5 cm leFH 18 轻型榴弹炮",
+   "orig": "10,5-cm-leichte Feldhaubitze 18"
+  },
+  "class": "gun",
+  "crew": 6,
+  "weightT": 1.99,
+  "gun": "105 mm L/28",
+  "model": "art_gun",
+  "photo": {
+   "commons": "File:10 5 cm leFH 18 Sapun M 2009 G3.jpg",
+   "caption": "塞瓦斯托波尔萨蓬山博物馆中的 leFH 18"
+  },
+  "desc": "德国步兵师炮兵团的主力火炮，射程约 10.7 km，多由马匹牵引。波兰战役中承担绝大部分火力准备与对城市、要塞的轰击，包括华沙与莫德林围城。",
+  "sources": [
+   "wiki_eq_lefh18",
+   "zaloga_2002"
+  ]
+ },
+ {
+  "id": "ju87",
+  "side": "DE",
+  "name": {
+   "zh": "Ju 87「斯图卡」俯冲轰炸机",
+   "orig": "Junkers Ju 87 B"
+  },
+  "class": "dive_bomber",
+  "crew": 2,
+  "weightT": 4.3,
+  "gun": "2 × MG 17 + 1 × MG 15，炸弹 500 kg",
+  "speedKmh": 383,
+  "photo": {
+   "commons": "File:Junkers Ju 87 B-1 eines unbek. Stuka-Geschwaders in Einsatzvorbereitung.jpg",
+   "caption": "准备出击的 Ju 87 B-1"
+  },
+  "desc": "德国空军的标志性俯冲轰炸机，配有尖啸的「耶利哥号角」警报器。9 月 1 日清晨对维隆（Wieluń）的空袭即由 Ju 87 执行；战役中持续轰炸桥梁、铁路、部队纵队与华沙城区。",
+  "sources": [
+   "wiki_eq_ju87",
+   "zaloga_2002",
+   "wiki_invasion_poland"
+  ]
+ },
+ {
+  "id": "he111",
+  "side": "DE",
+  "name": {
+   "zh": "He 111 轰炸机",
+   "orig": "Heinkel He 111 H/P"
+  },
+  "class": "bomber",
+  "crew": 4,
+  "weightT": 14,
+  "gun": "3 × 7.92 mm MG 15，炸弹 2,000 kg",
+  "speedKmh": 440,
+  "photo": {
+   "commons": "File:German Heinkel He 111 bombing Warsaw 1939.jpg",
+   "caption": "1939 年 9 月轰炸华沙的 He 111"
+  },
+  "desc": "德国空军的主力中型轰炸机之一，与 Do 17 合计约 1,100 架。1939 年轰炸波兰机场、铁路枢纽和兵工厂，9 月下旬又参加了对被围华沙的持续轰炸。",
+  "sources": [
+   "wiki_eq_he111",
+   "zaloga_2002",
+   "wiki_invasion_poland"
+  ]
+ },
+ {
+  "id": "do17",
+  "side": "DE",
+  "name": {
+   "zh": "Do 17 轰炸机",
+   "orig": "Dornier Do 17 E/M/Z"
+  },
+  "class": "bomber",
+  "crew": 4,
+  "weightT": 8.6,
+  "gun": "4–6 × 7.92 mm MG 15，炸弹 1,000 kg",
+  "speedKmh": 410,
+  "photo": {
+   "commons": "File:Dornier Do 17 E-1, III. KG 155 (9. Staffel) Jan. 1939 (1).jpg",
+   "caption": "1939 年 1 月的 Do 17 E-1"
+  },
+  "desc": "机身细长、绰号「飞行铅笔」的双发轰炸机。1939 年 9 月第 2、第 3、第 77 轰炸机联队等部大量使用，攻击波军机场、交通线和后方集结地，也执行远程侦察任务。",
+  "sources": [
+   "wiki_eq_do17",
+   "zaloga_2002",
+   "wiki_invasion_poland"
+  ]
+ },
+ {
+  "id": "bf109",
+  "side": "DE",
+  "name": {
+   "zh": "Bf 109 战斗机",
+   "orig": "Messerschmitt Bf 109 D/E"
+  },
+  "class": "fighter",
+  "crew": 1,
+  "weightT": 2.6,
+  "gun": "4 × 7.92 mm MG 17 或 2 × MG 17 + 2 × 20 mm MG FF",
+  "speedKmh": 560,
+  "photo": {
+   "commons": "File:Messerschmitt Bf 109 E-1, Gruppenadjutant I. JG 76, Bastogne, Belgien, Mitte Mai 1940 (a).jpg",
+   "caption": "1940 年的 Bf 109 E-1"
+  },
+  "desc": "德国空军主力单座战斗机，速度约比 PZL P.11 快 170 km/h。波兰战役中多数 Bf 109 留在西线防备英法，参战部队主要执行护航与对地扫射，很快取得制空权。",
+  "sources": [
+   "wiki_eq_bf109",
+   "zaloga_2002"
+  ]
+ },
+ {
+  "id": "bf110",
+  "side": "DE",
+  "name": {
+   "zh": "Bf 110 重型战斗机",
+   "orig": "Messerschmitt Bf 110 C"
+  },
+  "class": "fighter",
+  "crew": 2,
+  "weightT": 6.75,
+  "gun": "2 × 20 mm MG FF + 4 × MG 17 + 1 × MG 15",
+  "speedKmh": 540,
+  "photo": {
+   "commons": "File:Bf 110 C, A2+BK, 2. ZG 52, Mai 1940 (1a).jpg",
+   "caption": "1940 年 5 月的 Bf 110 C"
+  },
+  "desc": "双发远程「驱逐机」，机头集中 2 门 20 mm 炮与 4 挺机枪。1939 年 9 月首次参战，为轰炸机护航并在华沙上空与波兰驱逐机旅交战，战果显著，助长了德国空军对该机型的高估。",
+  "sources": [
+   "wiki_eq_bf110",
+   "zaloga_2002"
+  ]
+ },
+ {
+  "id": "schleswig_holstein",
+  "side": "DE",
+  "name": {
+   "zh": "「石勒苏益格-荷尔斯泰因」号战列舰",
+   "orig": "Linienschiff Schleswig-Holstein"
+  },
+  "class": "ship",
+  "crew": 743,
+  "weightT": 14900,
+  "armorMm": [
+   40,
+   240
+  ],
+  "gun": "4 × 28 cm SK L/40 + 10 × 15 cm",
+  "speedKmh": 33,
+  "photo": {
+   "commons": "File:Schleswig Holstein firing Westerplatte September 1939.jpg",
+   "caption": "1939 年 9 月炮击维斯特普拉特的「石勒苏益格-荷尔斯泰因」号"
+  },
+  "desc": "一战前的老式无畏舰前战列舰，1939 年 8 月以「友好访问」名义停泊但泽港。9 月 1 日 04:45 前后向维斯特普拉特半岛开炮，被视为二战欧洲战场最早的炮声之一，随后又炮击赫尔半岛。",
+  "sources": [
+   "wiki_eq_schleswig_holstein",
+   "wiki_invasion_poland"
+  ],
+  "count": 1
+ },
+ {
+  "id": "7tp",
+  "side": "PL",
+  "name": {
+   "zh": "7TP 轻型坦克",
+   "orig": "czołg lekki 7TP"
+  },
+  "class": "tank_light",
+  "crew": 3,
+  "weightT": 9.9,
+  "armorMm": [
+   5,
+   17
+  ],
+  "gun": "37 mm armata wz. 37 (Bofors) + 7.92 mm ckm wz. 30",
+  "speedKmh": 37,
+  "model": "7tp",
+  "photo": {
+   "commons": "File:1938 Zajęcie Zaolzia, Czeski Cieszyn, defilada, czołg lekki 7TP jendowieżowy.jpg",
+   "caption": "1938 年 10 月切欣阅兵中的单炮塔 7TP"
+  },
+  "desc": "以维克斯 6 吨坦克为基础改进的波兰坦克，柴油发动机、37 mm 博福斯炮和格恩德拉赫潜望镜。1939 年约 132 辆（单炮塔约 108 辆），编成两个轻坦克营和华沙守备连，火力胜过大部分德军坦克但数量太少。",
+  "sources": [
+   "wiki_eq_7tp",
+   "zaloga_2002"
+  ],
+  "count": 132
+ },
+ {
+  "id": "tks",
+  "side": "PL",
+  "name": {
+   "zh": "TKS 超轻型坦克",
+   "orig": "tankietka TKS"
+  },
+  "class": "tankette",
+  "crew": 2,
+  "weightT": 2.6,
+  "armorMm": [
+   3,
+   10
+  ],
+  "gun": "7.92 mm ckm wz. 25 (Hotchkiss)；少数为 20 mm nkm wz. 38 FK",
+  "speedKmh": 40,
+  "model": "tks",
+  "photo": {
+   "commons": "File:TKS seryjny.jpg",
+   "caption": "量产型 TKS 超轻型坦克"
+  },
+  "desc": "由卡登-洛伊德超轻型坦克发展而来的两人车，TK-3 与 TKS 合计约 575 辆，是波军装甲兵的主体，编入骑兵旅和步兵师侦察连。只有一挺机枪，损失惨重；少数改装 20 mm 炮的车表现突出，如奥尔利克在 9 月 18 日击毁 3 辆德军坦克。",
+  "sources": [
+   "wiki_eq_tks",
+   "zaloga_2002"
+  ],
+  "count": 575
+ },
+ {
+  "id": "vickers_e",
+  "side": "PL",
+  "name": {
+   "zh": "维克斯 E 型坦克",
+   "orig": "Vickers Mk E (6-ton)"
+  },
+  "class": "tank_light",
+  "crew": 3,
+  "weightT": 7,
+  "armorMm": [
+   5,
+   13
+  ],
+  "gun": "47 mm 短身管炮 或 2 × 7.92 mm ckm wz. 30",
+  "speedKmh": 35,
+  "model": "7tp",
+  "photo": {
+   "commons": "File:Defilada 1936 Vickers E 3 1 0 6 2958 25 1 241477.jpg",
+   "caption": "1936 年华沙阅兵中的维克斯 E 型坦克"
+  },
+  "desc": "1931 年自英国购入的 38 辆维克斯 6 吨坦克，单炮塔型装 47 mm 短炮，双炮塔型装机枪。1939 年主要编入华沙装甲摩托化旅，在托马舒夫-卢别尔斯基等战斗中几乎全部损失。",
+  "sources": [
+   "wiki_eq_vickers_e",
+   "zaloga_2002",
+   "wiki_invasion_poland"
+  ],
+  "count": 38
+ },
+ {
+  "id": "r35",
+  "side": "PL",
+  "name": {
+   "zh": "雷诺 R35 坦克",
+   "orig": "Renault R35"
+  },
+  "class": "tank_light",
+  "crew": 2,
+  "weightT": 10.6,
+  "armorMm": [
+   12,
+   40
+  ],
+  "gun": "37 mm SA 18 L/21 + 7.5 mm MG",
+  "speedKmh": 20,
+  "photo": {
+   "commons": "File:French R35 tanks, January 1940.jpg",
+   "caption": "1940 年 1 月法军的 R35（同型）"
+  },
+  "desc": "1939 年 7 月才运抵的法国步兵坦克，约 50 辆，装甲厚但速度仅 20 km/h。组成第 21 轻坦克营守卫「罗马尼亚桥头堡」，9 月中下旬多数撤入罗马尼亚被拘留，只有少量参与了作战。",
+  "sources": [
+   "wiki_eq_r35",
+   "wiki_invasion_poland"
+  ],
+  "count": 50
+ },
+ {
+  "id": "wz34",
+  "side": "PL",
+  "name": {
+   "zh": "wz.34 装甲车",
+   "orig": "samochód pancerny wz. 34"
+  },
+  "class": "armored_car",
+  "crew": 2,
+  "weightT": 2.2,
+  "armorMm": [
+   6,
+   8
+  ],
+  "gun": "37 mm SA 18 或 7.92 mm ckm wz. 25",
+  "speedKmh": 50,
+  "model": "wz34",
+  "photo": {
+   "commons": "File:Uszkodzony samochód pancerny wz. 34.jpg",
+   "caption": "1939 年受损的 wz. 34 装甲车"
+  },
+  "desc": "由旧式雪铁龙-凯格雷斯半履带车改造的小型装甲车，约 87 辆，编入骑兵旅的装甲骑兵中队担任侦察。装 37 mm 炮或机枪，装甲仅 8 mm，在 1939 年多被德军反坦克炮与飞机摧毁。",
+  "sources": [
+   "wiki_eq_wz34",
+   "zaloga_2002"
+  ],
+  "count": 87
+ },
+ {
+  "id": "wz29_ursus",
+  "side": "PL",
+  "name": {
+   "zh": "wz.29「乌尔苏斯」装甲车",
+   "orig": "samochód pancerny wz. 29 „Ursus”"
+  },
+  "class": "armored_car",
+  "crew": 4,
+  "weightT": 4.8,
+  "armorMm": [
+   4,
+   10
+  ],
+  "gun": "37 mm SA 18 + 2 × 7.92 mm ckm wz. 25",
+  "speedKmh": 35,
+  "photo": {
+   "commons": "File:Defilada 1936 Ursus wz29.jpg",
+   "caption": "1936 年华沙阅兵中的 wz. 29 装甲车"
+  },
+  "desc": "波兰自行设计的重型装甲车，以乌尔苏斯卡车底盘制造，装 37 mm 炮和两挺机枪，前后均可驾驶。仅生产约 10 辆，1939 年编入华沙装甲摩托化旅的装甲中队，参与了托马舒夫-卢别尔斯基等战斗。",
+  "sources": [
+   "wiki_eq_wz29_ursus",
+   "zaloga_2002"
+  ]
+ },
+ {
+  "id": "pzl_p11",
+  "side": "PL",
+  "name": {
+   "zh": "PZL P.11 战斗机",
+   "orig": "PZL P.11c"
+  },
+  "class": "fighter",
+  "crew": 1,
+  "weightT": 1.6,
+  "gun": "2–4 × 7.92 mm KM wz. 33",
+  "speedKmh": 390,
+  "photo": {
+   "commons": "File:Samoloty PZL P.11a 1939.jpg",
+   "caption": "1939 年的 PZL P.11 战斗机"
+  },
+  "desc": "高单翼「波兰翼」全金属战斗机，1931 年首飞时颇先进，到 1939 年已明显落后。约 185 架参战，编入驱逐机旅和各集团军航空兵，凭机动性击落不少德机，但自身损失惨重。",
+  "sources": [
+   "wiki_eq_pzl_p11",
+   "wiki_invasion_poland"
+  ],
+  "count": 185
+ },
+ {
+  "id": "pzl_p7",
+  "side": "PL",
+  "name": {
+   "zh": "PZL P.7 战斗机",
+   "orig": "PZL P.7a"
+  },
+  "class": "fighter",
+  "crew": 1,
+  "weightT": 1.4,
+  "gun": "2 × 7.92 mm Vickers E",
+  "speedKmh": 327,
+  "photo": {
+   "commons": "File:PZL P7.jpg",
+   "caption": "PZL P.7 战斗机"
+  },
+  "desc": "P.11 的前身，采用星形发动机和海鸥形上单翼，速度仅约 327 km/h。1939 年约 95 架仍在使用（含训练部队），在一线主要装备部分驱逐机中队，性能远逊于德军 Bf 109 与 Bf 110。",
+  "sources": [
+   "wiki_eq_pzl_p7",
+   "wiki_invasion_poland"
+  ],
+  "count": 95
+ },
+ {
+  "id": "pzl37",
+  "side": "PL",
+  "name": {
+   "zh": "PZL.37「驼鹿」轰炸机",
+   "orig": "PZL.37 Łoś"
+  },
+  "class": "bomber",
+  "crew": 4,
+  "weightT": 8.9,
+  "gun": "3 × 7.92 mm KM wz. 37，炸弹 2,580 kg",
+  "speedKmh": 445,
+  "photo": {
+   "commons": "File:Samoloty PZL.37 Łoś wraz z załogami (1939).jpg",
+   "caption": "1939 年 PZL.37 轰炸机与机组"
+  },
+  "desc": "波兰最现代的双发中型轰炸机，载弹量 2,580 kg，性能与 He 111 相当。1939 年 9 月 1 日仅 36 架编入轰炸机旅，其余在训练部队；9 月上旬多次攻击德军装甲纵队，战役后期残机撤往罗马尼亚。",
+  "sources": [
+   "wiki_eq_pzl37",
+   "wiki_invasion_poland"
+  ],
+  "count": 36
+ },
+ {
+  "id": "pzl23",
+  "side": "PL",
+  "name": {
+   "zh": "PZL.23「鲫鱼」轻型轰炸机",
+   "orig": "PZL.23 Karaś"
+  },
+  "class": "bomber",
+  "crew": 3,
+  "weightT": 3.5,
+  "gun": "3 × 7.92 mm MG，炸弹 700 kg",
+  "speedKmh": 319,
+  "photo": {
+   "commons": "File:PZL.23.Karas.September.1939.jpg",
+   "caption": "1939 年 9 月的 PZL.23「鲫鱼」"
+  },
+  "desc": "单发三座轻型轰炸/侦察机，是 1939 年波兰空军数量最多的轰炸机。9 月初多次低空攻击德军装甲与摩托化纵队，取得一定战果，但缺乏装甲与护航，损失极重。",
+  "sources": [
+   "wiki_eq_pzl23",
+   "wiki_invasion_poland"
+  ]
+ },
+ {
+  "id": "wz35_atr",
+  "side": "PL",
+  "name": {
+   "zh": "wz.35 反坦克枪",
+   "orig": "karabin przeciwpancerny wz. 35 „Ur”"
+  },
+  "class": "small_arms",
+  "crew": 1,
+  "weightT": 0.0095,
+  "gun": "7.92 mm DS 弹",
+  "photo": {
+   "commons": "File:Polish wz35 anti-tank rifle.jpg",
+   "caption": "wz. 35 反坦克枪"
+  },
+  "desc": "战前严格保密、代号「乌拉圭」的反坦克枪，发射高初速钨芯弹，可在数百米内击穿德军轻型坦克装甲。1939 年约 3,500 支装备步兵和骑兵，足以击毁 I、II 号坦克和装甲车，但保密导致许多士兵开战时才首次使用。",
+  "sources": [
+   "wiki_eq_wz35_atr",
+   "zaloga_2002"
+  ],
+  "count": 3500
+ },
+ {
+  "id": "bofors_wz36",
+  "side": "PL",
+  "name": {
+   "zh": "37 mm 博福斯 wz.36 反坦克炮",
+   "orig": "armata przeciwpancerna 37 mm wz. 36 Bofors"
+  },
+  "class": "gun",
+  "crew": 5,
+  "weightT": 0.38,
+  "gun": "37 mm L/45",
+  "model": "art_gun",
+  "photo": {
+   "commons": "File:Armata przeciwpancerna wz. 36 Bofors na stanowisku ogniowym (1939).jpg",
+   "caption": "1939 年射击阵地上的 wz. 36 博福斯反坦克炮"
+  },
+  "desc": "波兰按瑞典博福斯许可生产的 37 mm 反坦克炮，1939 年约 1,200 门，每个步兵团 9 门、骑兵旅 12–14 门。可在 1 km 内击穿所有德军坦克，是波军最有效的反坦克武器，造成德军装甲部队大部分损失。",
+  "sources": [
+   "wiki_eq_bofors_wz36",
+   "zaloga_2002"
+  ],
+  "count": 1200
+ },
+ {
+  "id": "wz97_75mm",
+  "side": "PL",
+  "name": {
+   "zh": "75 mm wz.97 野炮",
+   "orig": "armata polowa 75 mm wz. 1897"
+  },
+  "class": "gun",
+  "crew": 6,
+  "weightT": 1.14,
+  "gun": "75 mm L/36",
+  "model": "art_gun",
+  "photo": {
+   "commons": "File:Armata polowa wz. 1897 kal. 75 mm.jpg",
+   "caption": "1937 年的 75 mm wz. 1897 野炮"
+  },
+  "desc": "法国施耐德 1897 年式 75 mm 速射野炮，是波军轻炮兵团的主力，也常直接瞄准射击坦克。1939 年射速快、可靠，在姆瓦瓦、布祖拉等战斗中给德军造成重大伤亡，但马拉机动慢，易遭空袭。",
+  "sources": [
+   "wiki_eq_wz97_75mm",
+   "zaloga_2002"
+  ]
+ },
+ {
+  "id": "orp_orzel",
+  "side": "PL",
+  "name": {
+   "zh": "「鹰」号潜艇",
+   "orig": "ORP Orzeł"
+  },
+  "class": "ship",
+  "crew": 60,
+  "weightT": 1110,
+  "gun": "1 × 105 mm 炮，12 × 550 mm 鱼雷管",
+  "speedKmh": 37,
+  "photo": {
+   "commons": "File:ORP Orzeł w Gdyni.jpg",
+   "caption": "1939 年停泊格丁尼亚的「鹰」号潜艇"
+  },
+  "desc": "荷兰建造的远洋潜艇，1939 年 2 月入役。战役初期在波罗的海巡逻，9 月 15 日驶入塔林被爱沙尼亚扣留，艇员夺回潜艇于 9 月 18 日出逃，无海图穿越波罗的海和厄勒海峡，10 月抵达英国。",
+  "sources": [
+   "wiki_eq_orp_orzel",
+   "wiki_invasion_poland"
+  ],
+  "count": 1
+ },
+ {
+  "id": "t26",
+  "side": "SU",
+  "name": {
+   "zh": "T-26 轻型坦克",
+   "orig": "Т-26 обр. 1933 г."
+  },
+  "class": "tank_light",
+  "crew": 3,
+  "weightT": 9.6,
+  "armorMm": [
+   6,
+   15
+  ],
+  "gun": "45 mm 20-K + 1–2 × 7.62 mm DT",
+  "speedKmh": 31,
+  "model": "t26",
+  "photo": {
+   "commons": "File:Parola Tank Museum 165 - T-26 m 1933 (37682189405).jpg",
+   "caption": "帕罗拉坦克博物馆中的 T-26 1933 年型"
+  },
+  "desc": "苏联按维克斯 6 吨坦克许可生产的步兵支援坦克，1933 年型为单炮塔、45 mm 炮，是红军数量最多的坦克。1939 年 9 月 17 日起大量随白俄罗斯、乌克兰方面军进入波兰东部，途中多因故障掉队。",
+  "sources": [
+   "wiki_eq_t26",
+   "wiki_soviet_invasion"
+  ]
+ },
+ {
+  "id": "bt7",
+  "side": "SU",
+  "name": {
+   "zh": "BT-7 快速坦克",
+   "orig": "БТ-7"
+  },
+  "class": "tank_light",
+  "crew": 3,
+  "weightT": 13.9,
+  "armorMm": [
+   6,
+   22
+  ],
+  "gun": "45 mm 20-K + 2 × 7.62 mm DT",
+  "speedKmh": 52,
+  "model": "bt7",
+  "photo": {
+   "commons": "File:BT 7 Pyshma.jpg",
+   "caption": "上佩什马博物馆中的 BT-7"
+  },
+  "desc": "采用克里斯蒂悬挂的快速坦克，四对大负重轮，可卸下履带以轮式行驶。1939 年编入各坦克军和骑兵机械化集群，负责快速突进，扑向格罗德诺、利沃夫等城市。",
+  "sources": [
+   "wiki_eq_bt7",
+   "wiki_soviet_invasion"
+  ]
+ },
+ {
+  "id": "bt5",
+  "side": "SU",
+  "name": {
+   "zh": "BT-5 快速坦克",
+   "orig": "БТ-5"
+  },
+  "class": "tank_light",
+  "crew": 3,
+  "weightT": 11.5,
+  "armorMm": [
+   6,
+   13
+  ],
+  "gun": "45 mm 20-K + 7.62 mm DT",
+  "speedKmh": 52,
+  "model": "bt7",
+  "photo": {
+   "commons": "File:Soviet BT-5 tank at winter war.jpg",
+   "caption": "冬季战争中的 BT-5（1940 年）"
+  },
+  "desc": "BT-7 的前身，同样采用克里斯蒂悬挂和 45 mm 炮，装甲更薄。1939 年与 BT-7 混编于红军坦克旅，参加了向格罗德诺、维尔诺和利沃夫的进军，在格罗德诺巷战中遭守军燃烧瓶攻击损失多辆。",
+  "sources": [
+   "wiki_eq_bt5",
+   "wiki_soviet_invasion"
+  ]
+ },
+ {
+  "id": "t37",
+  "side": "SU",
+  "name": {
+   "zh": "T-37A 两栖坦克",
+   "orig": "Т-37А"
+  },
+  "class": "tank_light",
+  "crew": 2,
+  "weightT": 3.2,
+  "armorMm": [
+   4,
+   9
+  ],
+  "gun": "7.62 mm DT",
+  "speedKmh": 40,
+  "photo": {
+   "commons": "File:T-37A in the Kubinka Museum.jpg",
+   "caption": "库宾卡博物馆中的 T-37A"
+  },
+  "desc": "以卡登-洛伊德为基础的两栖侦察坦克，浮筒式车体可泅渡河流，只有一挺机枪。1939 年编入步兵师和骑兵部队的侦察单位，随红军渡过兹布鲁奇河等边境河流进入波兰东部。",
+  "sources": [
+   "wiki_eq_t37",
+   "wiki_soviet_invasion"
+  ]
+ },
+ {
+  "id": "t28",
+  "side": "SU",
+  "name": {
+   "zh": "T-28 多炮塔中型坦克",
+   "orig": "Т-28"
+  },
+  "class": "tank_medium",
+  "crew": 6,
+  "weightT": 25.4,
+  "armorMm": [
+   10,
+   30
+  ],
+  "gun": "76.2 mm KT-28 + 3–4 × 7.62 mm DT",
+  "speedKmh": 42,
+  "photo": {
+   "commons": "File:T28 parola 1.jpg",
+   "caption": "帕罗拉坦克博物馆中的 T-28"
+  },
+  "desc": "三炮塔中型坦克，主炮塔装 76.2 mm 短炮，两个前部机枪塔。1939 年少量 T-28 随所属坦克旅进入波兰东部，基本未遭遇激烈战斗，随后在冬季战争中大量投入。",
+  "sources": [
+   "wiki_eq_t28",
+   "wiki_soviet_invasion"
+  ]
+ },
+ {
+  "id": "ba10",
+  "side": "SU",
+  "name": {
+   "zh": "BA-10 装甲车",
+   "orig": "БА-10"
+  },
+  "class": "armored_car",
+  "crew": 4,
+  "weightT": 5.1,
+  "armorMm": [
+   6,
+   15
+  ],
+  "gun": "45 mm 20-K + 2 × 7.62 mm DT",
+  "speedKmh": 53,
+  "photo": {
+   "commons": "File:BA-10 Lublin 1939.jpg",
+   "caption": "1939 年 9 月卢布林的苏军 BA-10"
+  },
+  "desc": "六轮重型装甲车，炮塔与 BT/T-26 同为 45 mm 炮，火力强于多数轻型坦克。1939 年编入骑兵师和坦克旅的侦察营，是苏军进入波兰东部城镇的先头车辆之一，曾出现在卢布林等地。",
+  "sources": [
+   "wiki_eq_ba10",
+   "wiki_soviet_invasion"
+  ]
+ },
+ {
+  "id": "i16",
+  "side": "SU",
+  "name": {
+   "zh": "I-16 战斗机",
+   "orig": "Поликарпов И-16"
+  },
+  "class": "fighter",
+  "crew": 1,
+  "weightT": 1.7,
+  "gun": "4 × 7.62 mm ShKAS",
+  "speedKmh": 448,
+  "photo": {
+   "commons": "File:Soviet I-16, Navy aviation.jpg",
+   "caption": "1939 年苏联海军航空兵的 I-16"
+  },
+  "desc": "世界最早服役的可收放起落架单翼战斗机之一，机身短粗、机动灵活。1939 年 9 月为进入波兰的苏军提供空中掩护，波兰空军此时已所剩无几，只发生零星空战。",
+  "sources": [
+   "wiki_eq_i16",
+   "wiki_soviet_invasion"
+  ]
+ },
+ {
+  "id": "sb2",
+  "side": "SU",
+  "name": {
+   "zh": "SB 轰炸机",
+   "orig": "Туполев СБ (АНТ-40)"
+  },
+  "class": "bomber",
+  "crew": 3,
+  "weightT": 6.4,
+  "gun": "4 × 7.62 mm ShKAS，炸弹 600 kg",
+  "speedKmh": 450,
+  "photo": {
+   "commons": "File:Tupolev SB 2.jpg",
+   "caption": "SB 轰炸机"
+  },
+  "desc": "图波列夫设计的全金属双发快速轰炸机，在西班牙内战和中国战场均有参战。1939 年 9 月主要执行侦察和威慑飞行，对波兰目标的轰炸有限，随后在冬季战争中大量出动。",
+  "sources": [
+   "wiki_eq_sb2",
+   "wiki_soviet_invasion"
+  ]
+ },
+ {
+  "id": "lt35",
+  "side": "SK",
+  "name": {
+   "zh": "LT-35 坦克（斯洛伐克）",
+   "orig": "LT vz. 35 (Slovenská armáda)"
+  },
+  "class": "tank_light",
+  "crew": 4,
+  "weightT": 10.5,
+  "armorMm": [
+   8,
+   25
+  ],
+  "gun": "37 mm ÚV vz. 34 (Škoda A3) + 2 × 7.92 mm MG",
+  "speedKmh": 34,
+  "model": "pz35t",
+  "photo": {
+   "commons": "File:LT vz. 35 tank at Slovak–Hungarian War.jpg",
+   "caption": "1939 年斯洛伐克-匈牙利战争中的 LT vz. 35"
+  },
+  "desc": "斯洛伐克独立时接收的捷克斯洛伐克 LT vz.35，共 52 辆。1939 年 9 月一个坦克连随「贝尔诺拉克」集团军参加对波兰的进攻，沿喀尔巴阡山口推进，但没有经历实战。",
+  "sources": [
+   "wiki_eq_pz35t",
+   "wiki_slovak_invasion"
+  ]
+ }
+]

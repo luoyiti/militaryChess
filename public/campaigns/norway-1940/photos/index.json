@@ -1,0 +1,32 @@
+{
+  "File:British troops arriving on the quayside at Namsos in Norway prior to evacuation, 2 May 1940. N108.jpg": {
+    "src": "photos/namsos-evacuation.webp",
+    "w": 1280,
+    "h": 950,
+    "caption": "1940年5月2日，纳姆索斯码头上的撤运准备；撤离在5月3日完成（IWM N108）",
+    "author": "Geoffrey Keating / IWM N108",
+    "license": "Public domain · PD-UKGov",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-UKGov",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:British_troops_arriving_on_the_quayside_at_Namsos_in_Norway_prior_to_evacuation,_2_May_1940._N108.jpg"
+  },
+  "File:The Second British Naval Action Off Narvik. 13 April 1940, Aerial Photographs From a Fleet Air Arm Aircraft. A33.jpg": {
+    "src": "photos/narvik-naval.webp",
+    "w": 1217,
+    "h": 1000,
+    "caption": "1940年4月13日，第二次纳尔维克海战中的英国舰艇（IWM A33）",
+    "author": "British official photograph / IWM A33",
+    "license": "Public domain · PD-UKGov",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-UKGov",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Second_British_Naval_Action_Off_Narvik._13_April_1940,_Aerial_Photographs_From_a_Fleet_Air_Arm_Aircraft._A33.jpg"
+  },
+  "File:HMS Warspite, Norway 1940.jpg": {
+    "src": "photos/warspite.webp",
+    "w": 1280,
+    "h": 925,
+    "caption": "1940年4月13日，英国厌战号在纳尔维克海战中炮击（IWM A38）",
+    "author": "British official photograph / IWM A38",
+    "license": "Public domain · PD-UKGov",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-UKGov",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:HMS_Warspite,_Norway_1940.jpg"
+  }
+}

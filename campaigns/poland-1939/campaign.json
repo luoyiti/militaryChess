@@ -1,0 +1,602 @@
+{
+  "schemaVersion": 2,
+  "id": "poland-1939",
+  "status": "published",
+  "title": {
+    "mark": "1939",
+    "zh": "九月战役",
+    "sub": "波兰战役 · 战旗推演",
+    "en": "The Invasion of Poland",
+    "orig": "Kampania wrześniowa · Fall Weiß",
+    "codename": "白色方案",
+    "html": "1939 · 九月战役 — 波兰战役战旗推演",
+    "description": "1939 年波兰战役（9 月战役）复古作战室风格战旗推演：部队推进、战线变化、时间轴与事件档案。",
+    "favicon": "#b3353b"
+  },
+  "time": {
+    "epoch": "1939-08-31T00:00",
+    "start": "1939-08-31T18:00",
+    "end": "1939-10-06T23:00",
+    "dataEnd": "1939-10-06T23:59",
+    "tzLabel": "CET（当时波兰/德国时间）"
+  },
+  "sides": [
+    {
+      "id": "DE",
+      "prefix": "de",
+      "name": "德国",
+      "coalition": "axis",
+      "counter": {
+        "bg": "#56708f",
+        "edge": "#2a3a52",
+        "text": "#f4efe2",
+        "box": "#eef0ea",
+        "ink": "#1d2a3c"
+      },
+      "css": {
+        "main": "#3a5887",
+        "dark": "#1f3558"
+      },
+      "arrow": {
+        "fill": "rgba(52,84,132,0.62)",
+        "stroke": "#1f3558"
+      },
+      "sandbox": "#3a5887",
+      "restHeading": 0
+    },
+    {
+      "id": "SK",
+      "prefix": "sk",
+      "name": "斯洛伐克",
+      "coalition": "axis",
+      "counter": {
+        "bg": "#5e8f9c",
+        "edge": "#2f5561",
+        "text": "#f4efe2",
+        "box": "#eef3f0",
+        "ink": "#1f3a42"
+      },
+      "css": {
+        "main": "#4a7a8c",
+        "dark": "#2f5561"
+      },
+      "arrow": {
+        "fill": "rgba(74,122,140,0.62)",
+        "stroke": "#2f5561"
+      },
+      "sandbox": "#4a7a8c",
+      "restHeading": 0
+    },
+    {
+      "id": "PL",
+      "prefix": "pl",
+      "name": "波兰",
+      "coalition": "allies",
+      "counter": {
+        "bg": "#b3353b",
+        "edge": "#6e1b20",
+        "text": "#fbf1e4",
+        "box": "#f7ecdc",
+        "ink": "#5a1418"
+      },
+      "css": {
+        "main": "#b3262e",
+        "dark": "#6e1b20"
+      },
+      "arrow": {
+        "fill": "rgba(179,38,46,0.62)",
+        "stroke": "#6e1b20"
+      },
+      "sandbox": "#b3262e",
+      "restHeading": 0.6
+    },
+    {
+      "id": "SU",
+      "prefix": "su",
+      "name": "苏联",
+      "coalition": "comintern",
+      "counter": {
+        "bg": "#8f5a2b",
+        "edge": "#4f2e10",
+        "text": "#fbf1e4",
+        "box": "#f5ead8",
+        "ink": "#4a2a0c"
+      },
+      "css": {
+        "main": "#8f5a2b",
+        "dark": "#4f2e10"
+      },
+      "arrow": {
+        "fill": "rgba(143,82,34,0.62)",
+        "stroke": "#4f2e10"
+      },
+      "sandbox": "#8f5a2b",
+      "restHeading": 1,
+      "planesFrom": "E"
+    }
+  ],
+  "parentExceptions": [
+    [
+      "SK",
+      "DE"
+    ]
+  ],
+  "control": {
+    "mode": "territory",
+    "landBit": 4,
+    "theatreBits": [
+      0,
+      5
+    ],
+    "slots": [
+      {
+        "key": "DE",
+        "label": "德占区（斜线）",
+        "homeBits": [
+          1,
+          2
+        ]
+      },
+      {
+        "key": "SU",
+        "label": "苏占区（交叉线）",
+        "homeBits": [
+          3
+        ],
+        "line": "#4f2e10"
+      }
+    ],
+    "remainder": {
+      "label": "波兰控制"
+    }
+  },
+  "phases": [
+    {
+      "id": "border",
+      "from": "1939-08-31T00:00",
+      "name": "第一阶段 · 边境交战",
+      "short": "边境交战",
+      "sub": "走廊被切断，西里西亚失守，波军全线后撤"
+    },
+    {
+      "id": "vistula",
+      "from": "1939-09-07T00:00",
+      "name": "第二阶段 · 维斯瓦河与布祖拉",
+      "short": "维斯瓦河与布祖拉",
+      "sub": "华沙被围，布祖拉反击，拉多姆覆灭"
+    },
+    {
+      "id": "soviet",
+      "from": "1939-09-17T00:00",
+      "to": "1939-10-07T00:00",
+      "name": "第三阶段 · 苏军入侵与最后抵抗",
+      "short": "苏军入侵与最后抵抗",
+      "sub": "两线夹击，华沙、莫德林、赫尔、科克相继投降"
+    }
+  ],
+  "marks": [
+    [
+      "1939-09-01T04:45",
+      "开战"
+    ],
+    [
+      "1939-09-03T11:00",
+      "英法宣战"
+    ],
+    [
+      "1939-09-17T03:00",
+      "苏军入侵"
+    ],
+    [
+      "1939-09-28T13:00",
+      "华沙投降"
+    ],
+    [
+      "1939-10-06T10:00",
+      "战役结束"
+    ]
+  ],
+  "theme": {
+    "accent": "#b3262e",
+    "accentDark": "#6e1b20",
+    "accentTint": "rgba(179,38,46,.07)",
+    "theatreBorder": "#7a2a25",
+    "theatreHalo": "rgba(179,38,46,.22)",
+    "restFill": "rgba(200,70,60,.045)"
+  },
+  "map": {
+    "fit": {
+      "bbox": [
+        14.0,
+        48.3,
+        28.2,
+        55.9
+      ],
+      "mode": "corners"
+    },
+    "insetTop": 70,
+    "home3d": [
+      21.3,
+      52.0
+    ],
+    "focus": [
+      21.3,
+      52.1
+    ],
+    "hexKm": 18,
+    "theatreCountries": [
+      "PL"
+    ],
+    "labels": {
+      "countries": [
+        [
+          "德 意 志 国",
+          15.3,
+          52.2,
+          30,
+          0.55
+        ],
+        [
+          "东 普 鲁 士",
+          20.9,
+          54.25,
+          22,
+          0.8
+        ],
+        [
+          "波 兰",
+          21.6,
+          51.0,
+          44,
+          0.3
+        ],
+        [
+          "苏 联",
+          28.4,
+          52.3,
+          34,
+          0.5
+        ],
+        [
+          "立 陶 宛",
+          23.9,
+          55.45,
+          18,
+          0.8
+        ],
+        [
+          "拉 脱 维 亚",
+          26.2,
+          56.35,
+          14,
+          1
+        ],
+        [
+          "斯 洛 伐 克",
+          19.6,
+          48.72,
+          18,
+          0.8
+        ],
+        [
+          "匈 牙 利",
+          21.2,
+          47.75,
+          18,
+          0.8
+        ],
+        [
+          "罗 马 尼 亚",
+          26.6,
+          47.75,
+          18,
+          0.8
+        ],
+        [
+          "波希米亚-摩拉维亚保护国",
+          15.7,
+          49.55,
+          13,
+          0.9
+        ],
+        [
+          "但泽自由市",
+          18.95,
+          54.2,
+          11,
+          1.8
+        ]
+      ],
+      "waters": [
+        [
+          "波 罗 的 海",
+          17.2,
+          55.45,
+          20,
+          false,
+          0
+        ],
+        [
+          "但泽湾",
+          19.15,
+          54.6,
+          12,
+          false,
+          0
+        ],
+        [
+          "喀 尔 巴 阡 山 脉",
+          23.2,
+          48.95,
+          13,
+          true,
+          1.2
+        ]
+      ]
+    },
+    "cityLabelBox": "centered",
+    "riverLabelCrop": [
+      1200,
+      300,
+      7600,
+      6400
+    ],
+    "returnZoom": 1.15
+  },
+  "display": {
+    "statusEchelons": "divisions"
+  },
+  "sandbox": {
+    "exaggeration": 9,
+    "figScale": 17,
+    "target": [
+      20.6,
+      52.1
+    ],
+    "restTint": [
+      1.05,
+      0.93,
+      0.9
+    ],
+    "restStrength": 0.6
+  },
+  "director": {
+    "returnTo": "point",
+    "returnCenter": [
+      21.1,
+      52.0
+    ],
+    "defaultZoom": [
+      1.9,
+      2.6
+    ],
+    "sirens": [
+      {
+        "idIncludes": "soviet",
+        "maxImportance": 1,
+        "sfx": "siren",
+        "volume": 0.7
+      }
+    ]
+  },
+  "audio": {
+    "music": [
+      {
+        "from": "1939-08-31T00:00",
+        "track": "polonaise"
+      },
+      {
+        "from": "1939-09-27T12:00",
+        "track": "elegy"
+      }
+    ],
+    "intensity": [
+      {
+        "from": "1939-08-31T00:00",
+        "value": 0.05
+      },
+      {
+        "from": "1939-09-01T04:00",
+        "value": 0.75
+      },
+      {
+        "from": "1939-09-17T03:00",
+        "value": 0.6
+      },
+      {
+        "from": "1939-09-27T12:00",
+        "value": 0.3
+      }
+    ],
+    "introSting": "hejnal",
+    "introMusic": "polonaise"
+  },
+  "ui": {
+    "layers": {
+      "demarcation": {
+        "label": "德苏分界线"
+      }
+    },
+    "chapterNav": "none",
+    "brief": {
+      "title": "1939 波兰战役",
+      "sub": "Kampania wrześniowa · Fall Weiß",
+      "sub2": "1939.8.31 — 1939.10.6",
+      "fine": "数字为常见区间，各来源口径不一；详见各方说明。"
+    },
+    "status": {
+      "cells": [
+        {
+          "sides": [
+            "PL"
+          ],
+          "metric": "act",
+          "label": "波军师/旅在战"
+        },
+        {
+          "sides": [
+            "PL"
+          ],
+          "metric": "enc",
+          "label": "被合围",
+          "cls": "enc"
+        },
+        {
+          "sides": [
+            "PL"
+          ],
+          "metric": "out",
+          "label": "已覆灭/投降/越境",
+          "cls": "out"
+        },
+        {
+          "sides": [
+            "DE",
+            "SK"
+          ],
+          "metric": "act",
+          "label": "德/斯师旅在波兰"
+        },
+        {
+          "sides": [
+            "SU"
+          ],
+          "metric": "act",
+          "label": "苏军军/旅",
+          "cls": "su",
+          "hideZero": true
+        }
+      ]
+    },
+    "legend": {
+      "counters": [
+        [
+          "DE",
+          "armor",
+          "division",
+          "装甲"
+        ],
+        [
+          "DE",
+          "motorized",
+          "division",
+          "摩托化步兵"
+        ],
+        [
+          "DE",
+          "light",
+          "division",
+          "轻装/机械化"
+        ],
+        [
+          "PL",
+          "infantry",
+          "division",
+          "步兵"
+        ],
+        [
+          "PL",
+          "cavalry",
+          "brigade",
+          "骑兵"
+        ],
+        [
+          "PL",
+          "cavalry_mech",
+          "brigade",
+          "摩托化骑兵"
+        ],
+        [
+          "PL",
+          "mountain",
+          "brigade",
+          "山地"
+        ],
+        [
+          "SU",
+          "armor",
+          "brigade",
+          "坦克旅"
+        ],
+        [
+          "PL",
+          "fortress",
+          "brigade",
+          "要塞/筑垒"
+        ],
+        [
+          "DE",
+          "hq",
+          "army",
+          "集团军指挥部"
+        ]
+      ],
+      "items": [
+        "<i class=\"lg-fill a\"></i>德占区（斜线）",
+        "<i class=\"lg-fill b\"></i>苏占区（交叉线）",
+        "<i class=\"lg-front\"></i>战线（接触线）",
+        "<i class=\"lg-demarc\"></i>德苏分界线",
+        "<i class=\"lg-pocket\"></i>包围圈"
+      ]
+    },
+    "modelLabels": {
+      "inf_de": "德军步兵班",
+      "inf_pl": "波兰步兵班",
+      "inf_su": "苏军步兵班",
+      "inf_sk": "斯洛伐克步兵班",
+      "cav_pl": "波兰骑兵",
+      "cav_su": "苏军骑兵",
+      "art_gun": "野战炮"
+    }
+  },
+  "intro": {
+    "stamp": "GEHEIM · TAJNE · 绝密",
+    "kicker": "作战档案 No. 1939/IX",
+    "title": "九月战役",
+    "en": "The Invasion of Poland · Kampania wrześniowa",
+    "dates": "1939年8月31日 — 10月6日",
+    "paragraphs": [
+      "1939年9月1日凌晨，德国从北、西、南三面越过波兰国境；9月17日，苏联红军自东面入侵。三十六天里，波兰军队在两线夹击下节节抵抗，华沙围城二十天，最后一支成建制部队在科克放下武器。"
+    ],
+    "how": "本推演以复古作战室地图的形式，按小时重现 {units} 支部队的机动、{keyframes} 个战线关键帧、{pockets} 个包围圈与 {events} 个历史事件。",
+    "note": "建议开启声音 · 支持鼠标滚轮缩放、拖动平移 · 历史示意图，边界与位置为近似",
+    "photo": "File:AGAD Łamanie szlabanu granicznego.jpg",
+    "photoFallback": "File:Bundesarchiv Bild 183-51909-0003, Polen, Schlagbaum, deutsche Soldaten.jpg",
+    "caption": "1939年9月1日，德军士兵拆除波兰边境栏杆（宣传照片）"
+  },
+  "credits": {
+    "geodata": [
+      "<b>Natural Earth 1:10m</b>（河流、湖泊、海岸、陆地）— 公有领域",
+      "<b>historical-basemaps world_1938</b>（A. Ourednik 等）— GPL-3.0；已按 1939-08-31 边界修补（保护国、斯洛伐克、喀尔巴阡乌克兰、梅梅尔、扎奥尔杰、但泽）",
+      "<b>CShapes 2.0</b>（ETH Zürich ICR）— 边界参考，CC BY-NC-SA 4.0",
+      "<b>Terrain Tiles (Terrarium)</b> — Mapzen / AWS Open Data；SRTM、GMTED2010、ETOPO1 等"
+    ],
+    "sections": [
+      [
+        "照片",
+        "photos"
+      ],
+      [
+        "音效",
+        "audio"
+      ],
+      [
+        "音乐",
+        "music"
+      ],
+      [
+        "字体",
+        "fonts"
+      ]
+    ]
+  },
+  "hub": {
+    "order": 1,
+    "codename": "白色方案",
+    "pin": [
+      19.4,
+      52.1
+    ],
+    "blurb": "德军从北、西、南三面越境，苏军自东入侵；华沙围城二十天，最后一支成建制的波兰部队在科克放下武器。"
+  }
+}

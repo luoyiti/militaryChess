@@ -1,0 +1,543 @@
+[
+ {
+  "id": "r.cr_air_maleme",
+  "side": "DE",
+  "unit": "de.maleme_crete",
+  "style": "main",
+  "label": "马莱迈空降战斗群空降",
+  "movement": "air",
+  "until": "1941-05-22T23:59",
+  "widthKm": 4,
+  "waypoints": [
+   {
+    "at": "1941-05-20T06:00",
+    "pos": "@cr_athens_airfields"
+   },
+   {
+    "at": "1941-05-20T08:00",
+    "pos": "@cr_tavronitis"
+   }
+  ],
+  "sources": [
+   "cr_usarmy",
+   "cr_awm"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "r.cr_air_chania",
+  "side": "DE",
+  "unit": "de.chania_crete",
+  "style": "main",
+  "label": "干尼亚空降战斗群空降",
+  "movement": "air",
+  "until": "1941-05-22T23:59",
+  "widthKm": 4,
+  "waypoints": [
+   {
+    "at": "1941-05-20T06:00",
+    "pos": "@cr_athens_airfields"
+   },
+   {
+    "at": "1941-05-20T08:00",
+    "pos": "@cr_prison_valley"
+   }
+  ],
+  "sources": [
+   "cr_usarmy",
+   "cr_awm"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "r.cr_air_retimo",
+  "side": "DE",
+  "unit": "de.retimo_crete",
+  "style": "main",
+  "label": "雷西姆诺空降战斗群空降",
+  "movement": "air",
+  "until": "1941-05-22T23:59",
+  "widthKm": 4,
+  "waypoints": [
+   {
+    "at": "1941-05-20T13:00",
+    "pos": "@cr_athens_airfields"
+   },
+   {
+    "at": "1941-05-20T16:00",
+    "pos": "@cr_perivolia_east"
+   }
+  ],
+  "sources": [
+   "cr_usarmy",
+   "cr_awm"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "r.cr_air_heraklion",
+  "side": "DE",
+  "unit": "de.heraklion_crete",
+  "style": "main",
+  "label": "伊拉克利翁空降战斗群空降",
+  "movement": "air",
+  "until": "1941-05-22T23:59",
+  "widthKm": 4,
+  "waypoints": [
+   {
+    "at": "1941-05-20T13:00",
+    "pos": "@cr_athens_airfields"
+   },
+   {
+    "at": "1941-05-20T16:00",
+    "pos": [
+     25.098,
+     35.326
+    ]
+   }
+  ],
+  "sources": [
+   "cr_usarmy",
+   "cr_awm"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "r.cr_air_mountain",
+  "side": "DE",
+  "unit": "de.5mountain_crete",
+  "style": "main",
+  "label": "山地增援空运",
+  "movement": "air",
+  "until": "1941-05-22T23:59",
+  "widthKm": 4,
+  "waypoints": [
+   {
+    "at": "1941-05-21T12:00",
+    "pos": "@cr_athens_airfields"
+   },
+   {
+    "at": "1941-05-21T16:00",
+    "pos": "@cr_maleme_airfield"
+   }
+  ],
+  "sources": [
+   "cr_usarmy",
+   "cr_awm"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "r.cr_west_advance",
+  "side": "DE",
+  "unit": "de.maleme_crete",
+  "style": "main",
+  "label": "马莱迈—加拉塔斯推进",
+  "until": "1941-06-01T23:59",
+  "widthKm": 5,
+  "waypoints": [
+   {
+    "at": "1941-05-20T08:00",
+    "pos": "@cr_tavronitis"
+   },
+   {
+    "at": "1941-05-21T12:00",
+    "pos": "@cr_maleme_airfield"
+   },
+   {
+    "at": "1941-05-23T12:00",
+    "pos": "@cr_platanias"
+   },
+   {
+    "at": "1941-05-25T12:00",
+    "pos": "@cr_galatas"
+   },
+   {
+    "at": "1941-05-28T12:00",
+    "pos": "@cr_chania"
+   }
+  ],
+  "sources": [
+   "cr_usarmy",
+   "cr_awm"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "r.cr_central_advance",
+  "side": "DE",
+  "unit": "de.chania_crete",
+  "style": "main",
+  "label": "谷地空降群会合",
+  "until": "1941-06-01T23:59",
+  "widthKm": 5,
+  "waypoints": [
+   {
+    "at": "1941-05-20T08:00",
+    "pos": "@cr_prison_valley"
+   },
+   {
+    "at": "1941-05-24T12:00",
+    "pos": "@cr_prison_valley"
+   },
+   {
+    "at": "1941-05-25T12:00",
+    "pos": "@cr_galatas"
+   },
+   {
+    "at": "1941-05-28T12:00",
+    "pos": "@cr_souda"
+   }
+  ],
+  "sources": [
+   "cr_usarmy",
+   "cr_awm"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "r.cr_mountain_east",
+  "side": "DE",
+  "unit": "de.5mountain_crete",
+  "style": "main",
+  "label": "山地部队北岸东进（作战重心）",
+  "until": "1941-06-01T23:59",
+  "widthKm": 5,
+  "waypoints": [
+   {
+    "at": "1941-05-21T16:00",
+    "pos": "@cr_maleme_airfield"
+   },
+   {
+    "at": "1941-05-24T12:00",
+    "pos": "@cr_platanias"
+   },
+   {
+    "at": "1941-05-25T12:00",
+    "pos": "@cr_alikianos"
+   },
+   {
+    "at": "1941-05-28T12:00",
+    "pos": "@cr_souda"
+   },
+   {
+    "at": "1941-05-29T12:00",
+    "pos": "@cr_retimo"
+   },
+   {
+    "at": "1941-05-30T12:00",
+    "pos": "@cr_heraklion"
+   }
+  ],
+  "sources": [
+   "cr_usarmy",
+   "cr_awm"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "r.cr_south_pursuit",
+  "side": "DE",
+  "unit": "de.5mountain_crete",
+  "style": "secondary",
+  "label": "山地分遣队向南追击",
+  "until": "1941-06-01T23:59",
+  "widthKm": 5,
+  "waypoints": [
+   {
+    "at": "1941-05-29T12:00",
+    "pos": "@cr_stilos"
+   },
+   {
+    "at": "1941-05-30T12:00",
+    "pos": "@cr_askifou"
+   },
+   {
+    "at": "1941-05-31T12:00",
+    "pos": "@cr_imvros"
+   },
+   {
+    "at": "1941-06-01T12:00",
+    "pos": "@cr_sfakia"
+   }
+  ],
+  "sources": [
+   "cr_usarmy",
+   "cr_awm"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "r.cr_maleme_counter",
+  "side": "NZ",
+  "unit": "nz.5b_crete",
+  "style": "counter",
+  "label": "22日马莱迈反攻",
+  "until": "1941-05-23T00:00",
+  "widthKm": 3,
+  "waypoints": [
+   {
+    "at": "1941-05-22T01:00",
+    "pos": "@cr_platanias"
+   },
+   {
+    "at": "1941-05-22T06:00",
+    "pos": "@cr_maleme"
+   },
+   {
+    "at": "1941-05-22T18:00",
+    "pos": "@cr_platanias"
+   }
+  ],
+  "sources": [
+   "cr_usarmy",
+   "cr_awm"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "r.cr_galatas_counter",
+  "side": "NZ",
+  "unit": "nz.4b_crete",
+  "style": "counter",
+  "label": "加拉塔斯夜间反击",
+  "until": "1941-05-26T12:00",
+  "widthKm": 3,
+  "waypoints": [
+   {
+    "at": "1941-05-25T20:00",
+    "pos": "@cr_chania"
+   },
+   {
+    "at": "1941-05-25T22:00",
+    "pos": "@cr_galatas"
+   }
+  ],
+  "sources": [
+   "cr_usarmy",
+   "cr_awm"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "r.cr_nz_retreat",
+  "side": "NZ",
+  "unit": "nz.5b_crete",
+  "style": "retreat",
+  "label": "新军经白山南撤",
+  "until": "1941-06-01T23:59",
+  "widthKm": 4,
+  "waypoints": [
+   {
+    "at": "1941-05-26T12:00",
+    "pos": "@cr_chania"
+   },
+   {
+    "at": "1941-05-27T12:00",
+    "pos": "@cr_fortysecond"
+   },
+   {
+    "at": "1941-05-28T12:00",
+    "pos": "@cr_stilos"
+   },
+   {
+    "at": "1941-05-29T12:00",
+    "pos": "@cr_askifou"
+   },
+   {
+    "at": "1941-05-30T12:00",
+    "pos": "@cr_komitadhes"
+   },
+   {
+    "at": "1941-05-31T12:00",
+    "pos": "@cr_sfakia"
+   }
+  ],
+  "sources": [
+   "cr_usarmy",
+   "cr_awm"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "r.cr_au_retreat",
+  "side": "AU",
+  "unit": "au.19b_crete",
+  "style": "retreat",
+  "label": "澳军后卫与南撤",
+  "until": "1941-06-01T23:59",
+  "widthKm": 4,
+  "waypoints": [
+   {
+    "at": "1941-05-27T12:00",
+    "pos": "@cr_fortysecond"
+   },
+   {
+    "at": "1941-05-28T12:00",
+    "pos": "@cr_stilos"
+   },
+   {
+    "at": "1941-05-29T12:00",
+    "pos": "@cr_askifou"
+   },
+   {
+    "at": "1941-05-30T12:00",
+    "pos": "@cr_imvros"
+   },
+   {
+    "at": "1941-05-31T12:00",
+    "pos": "@cr_sfakia"
+   }
+  ],
+  "sources": [
+   "cr_usarmy",
+   "cr_awm"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "r.cr_sfakia_evacuation",
+  "side": "GB",
+  "unit": "gb.mediterranean_crete",
+  "style": "retreat",
+  "label": "赴埃及海撤（图外）",
+  "movement": "sea",
+  "until": "1941-06-01T23:59",
+  "widthKm": 5,
+  "waypoints": [
+   {
+    "at": "1941-05-28T23:00",
+    "pos": "@cr_sfakia_roads"
+   },
+   {
+    "at": "1941-05-29T04:00",
+    "pos": [
+     24.14,
+     35.04
+    ]
+   },
+   {
+    "at": "1941-05-29T12:00",
+    "pos": "@cr_egypt_edge"
+   }
+  ],
+  "sources": [
+   "cr_usarmy",
+   "cr_awm"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "r.cr_heraklion_evacuation",
+  "side": "GB",
+  "unit": "gb.14b_crete",
+  "style": "retreat",
+  "label": "伊拉克利翁海撤，绕岛东端",
+  "movement": "sea",
+  "until": "1941-05-30T00:00",
+  "widthKm": 5,
+  "waypoints": [
+   {
+    "at": "1941-05-28T23:00",
+    "pos": "@cr_heraklion_port"
+   },
+   {
+    "at": "1941-05-29T04:00",
+    "pos": [
+     26.48,
+     35.48
+    ]
+   },
+   {
+    "at": "1941-05-29T09:00",
+    "pos": [
+     26.6,
+     35.01
+    ]
+   },
+   {
+    "at": "1941-05-29T18:00",
+    "pos": "@cr_egypt_east_edge"
+   }
+  ],
+  "sources": [
+   "cr_usarmy",
+   "cr_awm"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "r.cr_axis_convoy",
+  "side": "DE",
+  "unit": "de.sea_convoy_crete",
+  "style": "secondary",
+  "label": "海运增援遭截击",
+  "movement": "sea",
+  "until": "1941-05-22T23:59",
+  "widthKm": 4,
+  "waypoints": [
+   {
+    "at": "1941-05-21T12:00",
+    "pos": "@cr_milos"
+   },
+   {
+    "at": "1941-05-21T23:00",
+    "pos": "@cr_interception"
+   }
+  ],
+  "sources": [
+   "cr_usarmy",
+   "cr_awm"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "r.cr_italian_landing",
+  "side": "IT",
+  "unit": "it.sitia_crete",
+  "style": "secondary",
+  "label": "意军从罗得岛登陆",
+  "movement": "sea",
+  "until": "1941-05-29T23:59",
+  "widthKm": 4,
+  "waypoints": [
+   {
+    "at": "1941-05-27T12:00",
+    "pos": "@cr_rhodes"
+   },
+   {
+    "at": "1941-05-28T18:00",
+    "pos": "@cr_sitia"
+   }
+  ],
+  "sources": [
+   "cr_usarmy",
+   "cr_awm"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "r.cr_italian_east",
+  "side": "IT",
+  "unit": "it.sitia_crete",
+  "style": "secondary",
+  "label": "岛东部登陆支队推进",
+  "until": "1941-06-01T23:59",
+  "widthKm": 4,
+  "waypoints": [
+   {
+    "at": "1941-05-28T18:00",
+    "pos": "@cr_sitia"
+   },
+   {
+    "at": "1941-05-30T12:00",
+    "pos": "@cr_ierapetra"
+   }
+  ],
+  "sources": [
+   "cr_usarmy",
+   "cr_awm"
+  ],
+  "confidence": "medium"
+ }
+]

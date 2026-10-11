@@ -1,0 +1,2408 @@
+[
+ {
+  "id": "warszawa",
+  "zh": "华沙",
+  "orig": "Warszawa",
+  "pos": [
+   21.012,
+   52.23
+  ],
+  "kind": "capital",
+  "rank": 1,
+  "alt": "Warschau",
+  "country": "PL"
+ },
+ {
+  "id": "krakow",
+  "zh": "克拉科夫",
+  "orig": "Kraków",
+  "pos": [
+   19.945,
+   50.065
+  ],
+  "kind": "city",
+  "rank": 1,
+  "alt": "Krakau",
+  "country": "PL"
+ },
+ {
+  "id": "lodz",
+  "zh": "罗兹",
+  "orig": "Łódź",
+  "pos": [
+   19.457,
+   51.759
+  ],
+  "kind": "city",
+  "rank": 1,
+  "alt": "Lodsch",
+  "country": "PL"
+ },
+ {
+  "id": "poznan",
+  "zh": "波兹南",
+  "orig": "Poznań",
+  "pos": [
+   16.925,
+   52.406
+  ],
+  "kind": "city",
+  "rank": 1,
+  "alt": "Posen",
+  "country": "PL"
+ },
+ {
+  "id": "lwow",
+  "zh": "利沃夫",
+  "orig": "Lwów",
+  "pos": [
+   24.031,
+   49.842
+  ],
+  "kind": "city",
+  "rank": 1,
+  "alt": "Lemberg / 今 Lviv",
+  "country": "PL"
+ },
+ {
+  "id": "wilno",
+  "zh": "维尔诺",
+  "orig": "Wilno",
+  "pos": [
+   25.279,
+   54.687
+  ],
+  "kind": "city",
+  "rank": 1,
+  "alt": "今 Vilnius",
+  "country": "PL"
+ },
+ {
+  "id": "gdansk",
+  "zh": "但泽",
+  "orig": "Danzig",
+  "pos": [
+   18.646,
+   54.352
+  ],
+  "kind": "city",
+  "rank": 1,
+  "alt": "Gdańsk",
+  "country": "DZG"
+ },
+ {
+  "id": "westerplatte",
+  "zh": "维斯特普拉特",
+  "orig": "Westerplatte",
+  "pos": [
+   18.671,
+   54.407
+  ],
+  "kind": "fort",
+  "rank": 2,
+  "country": "DZG"
+ },
+ {
+  "id": "gdynia",
+  "zh": "格丁尼亚",
+  "orig": "Gdynia",
+  "pos": [
+   18.536,
+   54.518
+  ],
+  "kind": "port",
+  "rank": 2,
+  "alt": "Gotenhafen",
+  "country": "PL"
+ },
+ {
+  "id": "oksywie",
+  "zh": "奥克西维",
+  "orig": "Oksywie",
+  "pos": [
+   18.545,
+   54.555
+  ],
+  "kind": "town",
+  "rank": 4,
+  "alt": "Oxhöft",
+  "country": "PL"
+ },
+ {
+  "id": "hel",
+  "zh": "赫尔",
+  "orig": "Hel",
+  "pos": [
+   18.803,
+   54.608
+  ],
+  "kind": "port",
+  "rank": 3,
+  "alt": "Hela",
+  "country": "PL"
+ },
+ {
+  "id": "puck",
+  "zh": "普茨克",
+  "orig": "Puck",
+  "pos": [
+   18.407,
+   54.718
+  ],
+  "kind": "town",
+  "rank": 4,
+  "alt": "Putzig",
+  "country": "PL"
+ },
+ {
+  "id": "torun",
+  "zh": "托伦",
+  "orig": "Toruń",
+  "pos": [
+   18.598,
+   53.013
+  ],
+  "kind": "city",
+  "rank": 2,
+  "alt": "Thorn",
+  "country": "PL"
+ },
+ {
+  "id": "bydgoszcz",
+  "zh": "比得哥什",
+  "orig": "Bydgoszcz",
+  "pos": [
+   18.008,
+   53.123
+  ],
+  "kind": "city",
+  "rank": 2,
+  "alt": "Bromberg",
+  "country": "PL"
+ },
+ {
+  "id": "grudziadz",
+  "zh": "格鲁琼兹",
+  "orig": "Grudziądz",
+  "pos": [
+   18.754,
+   53.484
+  ],
+  "kind": "city",
+  "rank": 3,
+  "alt": "Graudenz",
+  "country": "PL"
+ },
+ {
+  "id": "chelmno",
+  "zh": "海乌姆诺",
+  "orig": "Chełmno",
+  "pos": [
+   18.424,
+   53.349
+  ],
+  "kind": "town",
+  "rank": 4,
+  "alt": "Culm",
+  "country": "PL"
+ },
+ {
+  "id": "swiecie",
+  "zh": "希维切",
+  "orig": "Świecie",
+  "pos": [
+   18.448,
+   53.409
+  ],
+  "kind": "town",
+  "rank": 4,
+  "alt": "Schwetz",
+  "country": "PL"
+ },
+ {
+  "id": "tczew",
+  "zh": "特切夫",
+  "orig": "Tczew",
+  "pos": [
+   18.779,
+   54.092
+  ],
+  "kind": "town",
+  "rank": 3,
+  "alt": "Dirschau",
+  "country": "PL"
+ },
+ {
+  "id": "chojnice",
+  "zh": "霍伊尼采",
+  "orig": "Chojnice",
+  "pos": [
+   17.565,
+   53.696
+  ],
+  "kind": "town",
+  "rank": 3,
+  "alt": "Konitz",
+  "country": "PL"
+ },
+ {
+  "id": "koscierzyna",
+  "zh": "科希切日纳",
+  "orig": "Kościerzyna",
+  "pos": [
+   17.981,
+   54.122
+  ],
+  "kind": "town",
+  "rank": 4,
+  "alt": "Berent",
+  "country": "PL"
+ },
+ {
+  "id": "starogard",
+  "zh": "斯塔罗加德",
+  "orig": "Starogard",
+  "pos": [
+   18.531,
+   53.964
+  ],
+  "kind": "town",
+  "rank": 4,
+  "alt": "Preußisch Stargard",
+  "country": "PL"
+ },
+ {
+  "id": "tuchola",
+  "zh": "图霍拉",
+  "orig": "Tuchola",
+  "pos": [
+   17.859,
+   53.588
+  ],
+  "kind": "town",
+  "rank": 4,
+  "alt": "Tuchel",
+  "country": "PL"
+ },
+ {
+  "id": "koronowo",
+  "zh": "科罗诺沃",
+  "orig": "Koronowo",
+  "pos": [
+   17.94,
+   53.313
+  ],
+  "kind": "town",
+  "rank": 4,
+  "alt": "Krone",
+  "country": "PL"
+ },
+ {
+  "id": "krojanty",
+  "zh": "克罗扬蒂",
+  "orig": "Krojanty",
+  "pos": [
+   17.683,
+   53.706
+  ],
+  "kind": "village",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "mlawa",
+  "zh": "姆瓦瓦",
+  "orig": "Mława",
+  "pos": [
+   20.381,
+   53.112
+  ],
+  "kind": "town",
+  "rank": 3,
+  "alt": "Mielau",
+  "country": "PL"
+ },
+ {
+  "id": "ciechanow",
+  "zh": "切哈努夫",
+  "orig": "Ciechanów",
+  "pos": [
+   20.624,
+   52.881
+  ],
+  "kind": "town",
+  "rank": 4,
+  "alt": "Zichenau",
+  "country": "PL"
+ },
+ {
+  "id": "przasnysz",
+  "zh": "普扎斯内什",
+  "orig": "Przasnysz",
+  "pos": [
+   20.879,
+   53.019
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "rozan",
+  "zh": "鲁然",
+  "orig": "Różan",
+  "pos": [
+   21.402,
+   52.885
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "pultusk",
+  "zh": "普乌图斯克",
+  "orig": "Pułtusk",
+  "pos": [
+   21.084,
+   52.702
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "serock",
+  "zh": "塞罗茨克",
+  "orig": "Serock",
+  "pos": [
+   21.07,
+   52.51
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "ostroleka",
+  "zh": "奥斯特罗文卡",
+  "orig": "Ostrołęka",
+  "pos": [
+   21.568,
+   53.087
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "PL"
+ },
+ {
+  "id": "lomza",
+  "zh": "沃姆扎",
+  "orig": "Łomża",
+  "pos": [
+   22.063,
+   53.178
+  ],
+  "kind": "town",
+  "rank": 3,
+  "alt": "Lomscha",
+  "country": "PL"
+ },
+ {
+  "id": "wizna",
+  "zh": "维兹纳",
+  "orig": "Wizna",
+  "pos": [
+   22.382,
+   53.194
+  ],
+  "kind": "village",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "nowogrod",
+  "zh": "诺沃格鲁德（纳雷夫河）",
+  "orig": "Nowogród",
+  "pos": [
+   21.88,
+   53.227
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "zambrow",
+  "zh": "赞布鲁夫",
+  "orig": "Zambrów",
+  "pos": [
+   22.245,
+   52.985
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "andrzejewo",
+  "zh": "安杰耶沃",
+  "orig": "Andrzejewo",
+  "pos": [
+   22.195,
+   52.826
+  ],
+  "kind": "village",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "bialystok",
+  "zh": "比亚韦斯托克",
+  "orig": "Białystok",
+  "pos": [
+   23.169,
+   53.133
+  ],
+  "kind": "city",
+  "rank": 2,
+  "alt": "Belostok",
+  "country": "PL"
+ },
+ {
+  "id": "grodno",
+  "zh": "格罗德诺",
+  "orig": "Grodno",
+  "pos": [
+   23.829,
+   53.678
+  ],
+  "kind": "city",
+  "rank": 2,
+  "alt": "今 Hrodna",
+  "country": "PL"
+ },
+ {
+  "id": "augustow",
+  "zh": "奥古斯图夫",
+  "orig": "Augustów",
+  "pos": [
+   22.98,
+   53.843
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "suwalki",
+  "zh": "苏瓦乌基",
+  "orig": "Suwałki",
+  "pos": [
+   22.931,
+   54.103
+  ],
+  "kind": "town",
+  "rank": 3,
+  "alt": "Suwalken",
+  "country": "PL"
+ },
+ {
+  "id": "modlin",
+  "zh": "莫德林要塞",
+  "orig": "Twierdza Modlin",
+  "pos": [
+   20.705,
+   52.438
+  ],
+  "kind": "fort",
+  "rank": 3,
+  "alt": "Festung Modlin",
+  "country": "PL"
+ },
+ {
+  "id": "plock",
+  "zh": "普沃茨克",
+  "orig": "Płock",
+  "pos": [
+   19.706,
+   52.547
+  ],
+  "kind": "city",
+  "rank": 3,
+  "alt": "Plozk",
+  "country": "PL"
+ },
+ {
+  "id": "wyszogrod",
+  "zh": "维什格鲁德",
+  "orig": "Wyszogród",
+  "pos": [
+   20.198,
+   52.39
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "sochaczew",
+  "zh": "索哈切夫",
+  "orig": "Sochaczew",
+  "pos": [
+   20.238,
+   52.23
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "kutno",
+  "zh": "库特诺",
+  "orig": "Kutno",
+  "pos": [
+   19.363,
+   52.231
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "PL"
+ },
+ {
+  "id": "leczyca",
+  "zh": "文奇察",
+  "orig": "Łęczyca",
+  "pos": [
+   19.2,
+   52.059
+  ],
+  "kind": "town",
+  "rank": 4,
+  "alt": "Lentschütz",
+  "country": "PL"
+ },
+ {
+  "id": "lowicz",
+  "zh": "沃维奇",
+  "orig": "Łowicz",
+  "pos": [
+   19.939,
+   52.107
+  ],
+  "kind": "town",
+  "rank": 4,
+  "alt": "Lowitsch",
+  "country": "PL"
+ },
+ {
+  "id": "piatek",
+  "zh": "皮翁泰克",
+  "orig": "Piątek",
+  "pos": [
+   19.48,
+   52.069
+  ],
+  "kind": "village",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "brochow",
+  "zh": "布罗胡夫",
+  "orig": "Brochów",
+  "pos": [
+   20.265,
+   52.315
+  ],
+  "kind": "village",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "kampinos",
+  "zh": "坎皮诺斯森林",
+  "orig": "Puszcza Kampinoska",
+  "pos": [
+   20.465,
+   52.33
+  ],
+  "kind": "forest",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "ilow",
+  "zh": "伊武夫",
+  "orig": "Iłów",
+  "pos": [
+   20.035,
+   52.335
+  ],
+  "kind": "village",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "wloclawek",
+  "zh": "弗沃茨瓦韦克",
+  "orig": "Włocławek",
+  "pos": [
+   19.067,
+   52.648
+  ],
+  "kind": "city",
+  "rank": 3,
+  "alt": "Leslau",
+  "country": "PL"
+ },
+ {
+  "id": "inowroclaw",
+  "zh": "伊诺弗罗茨瓦夫",
+  "orig": "Inowrocław",
+  "pos": [
+   18.259,
+   52.793
+  ],
+  "kind": "town",
+  "rank": 3,
+  "alt": "Hohensalza",
+  "country": "PL"
+ },
+ {
+  "id": "gniezno",
+  "zh": "格涅兹诺",
+  "orig": "Gniezno",
+  "pos": [
+   17.595,
+   52.535
+  ],
+  "kind": "town",
+  "rank": 3,
+  "alt": "Gnesen",
+  "country": "PL"
+ },
+ {
+  "id": "konin",
+  "zh": "科宁",
+  "orig": "Konin",
+  "pos": [
+   18.251,
+   52.223
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "kalisz",
+  "zh": "卡利什",
+  "orig": "Kalisz",
+  "pos": [
+   18.091,
+   51.763
+  ],
+  "kind": "city",
+  "rank": 3,
+  "alt": "Kalisch",
+  "country": "PL"
+ },
+ {
+  "id": "ostrow_wlkp",
+  "zh": "大波兰地区奥斯特鲁夫",
+  "orig": "Ostrów Wielkopolski",
+  "pos": [
+   17.806,
+   51.655
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "leszno",
+  "zh": "莱什诺",
+  "orig": "Leszno",
+  "pos": [
+   16.575,
+   51.842
+  ],
+  "kind": "town",
+  "rank": 4,
+  "alt": "Lissa",
+  "country": "PL"
+ },
+ {
+  "id": "zbaszyn",
+  "zh": "兹邦辛",
+  "orig": "Zbąszyń",
+  "pos": [
+   15.918,
+   52.251
+  ],
+  "kind": "town",
+  "rank": 4,
+  "alt": "Bentschen",
+  "country": "PL"
+ },
+ {
+  "id": "wielun",
+  "zh": "维隆",
+  "orig": "Wieluń",
+  "pos": [
+   18.57,
+   51.221
+  ],
+  "kind": "town",
+  "rank": 3,
+  "alt": "Welun",
+  "country": "PL"
+ },
+ {
+  "id": "mokra",
+  "zh": "莫克拉",
+  "orig": "Mokra",
+  "pos": [
+   18.81,
+   50.98
+  ],
+  "kind": "village",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "klobuck",
+  "zh": "克沃布茨克",
+  "orig": "Kłobuck",
+  "pos": [
+   18.936,
+   50.905
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "czestochowa",
+  "zh": "琴斯托霍瓦",
+  "orig": "Częstochowa",
+  "pos": [
+   19.12,
+   50.812
+  ],
+  "kind": "city",
+  "rank": 2,
+  "alt": "Tschenstochau",
+  "country": "PL"
+ },
+ {
+  "id": "piotrkow",
+  "zh": "彼得库夫",
+  "orig": "Piotrków Trybunalski",
+  "pos": [
+   19.703,
+   51.405
+  ],
+  "kind": "town",
+  "rank": 3,
+  "alt": "Petrikau",
+  "country": "PL"
+ },
+ {
+  "id": "tomaszow_maz",
+  "zh": "马佐夫舍地区托马舒夫",
+  "orig": "Tomaszów Mazowiecki",
+  "pos": [
+   20.009,
+   51.531
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "radomsko",
+  "zh": "拉多姆斯科",
+  "orig": "Radomsko",
+  "pos": [
+   19.448,
+   51.067
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "kielce",
+  "zh": "凯尔采",
+  "orig": "Kielce",
+  "pos": [
+   20.628,
+   50.866
+  ],
+  "kind": "city",
+  "rank": 2,
+  "alt": "Kielce",
+  "country": "PL"
+ },
+ {
+  "id": "radom",
+  "zh": "拉多姆",
+  "orig": "Radom",
+  "pos": [
+   21.147,
+   51.403
+  ],
+  "kind": "city",
+  "rank": 2,
+  "country": "PL"
+ },
+ {
+  "id": "ilza",
+  "zh": "伊尔扎",
+  "orig": "Iłża",
+  "pos": [
+   21.24,
+   51.163
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "skarzysko",
+  "zh": "斯卡日斯科",
+  "orig": "Skarżysko-Kamienna",
+  "pos": [
+   20.888,
+   51.117
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "sandomierz",
+  "zh": "桑多梅日",
+  "orig": "Sandomierz",
+  "pos": [
+   21.749,
+   50.682
+  ],
+  "kind": "town",
+  "rank": 3,
+  "alt": "Sandomir",
+  "country": "PL"
+ },
+ {
+  "id": "annopol",
+  "zh": "安诺波尔",
+  "orig": "Annopol",
+  "pos": [
+   21.857,
+   50.886
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "deblin",
+  "zh": "登布林要塞",
+  "orig": "Dęblin",
+  "pos": [
+   21.855,
+   51.563
+  ],
+  "kind": "fort",
+  "rank": 3,
+  "alt": "Iwangorod",
+  "country": "PL"
+ },
+ {
+  "id": "pulawy",
+  "zh": "普瓦维",
+  "orig": "Puławy",
+  "pos": [
+   21.97,
+   51.416
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "garwolin",
+  "zh": "加尔沃林",
+  "orig": "Garwolin",
+  "pos": [
+   21.614,
+   51.897
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "gora_kalwaria",
+  "zh": "古拉卡尔瓦里亚",
+  "orig": "Góra Kalwaria",
+  "pos": [
+   21.216,
+   51.977
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "minsk_maz",
+  "zh": "马佐夫舍地区明斯克",
+  "orig": "Mińsk Mazowiecki",
+  "pos": [
+   21.558,
+   52.18
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "siedlce",
+  "zh": "谢德尔采",
+  "orig": "Siedlce",
+  "pos": [
+   22.264,
+   52.168
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "PL"
+ },
+ {
+  "id": "wegrow",
+  "zh": "文格罗夫",
+  "orig": "Węgrów",
+  "pos": [
+   22.019,
+   52.399
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "malkinia",
+  "zh": "马乌基尼亚",
+  "orig": "Małkinia",
+  "pos": [
+   21.931,
+   52.702
+  ],
+  "kind": "village",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "ostrow_maz",
+  "zh": "马佐夫舍地区奥斯特鲁夫",
+  "orig": "Ostrów Mazowiecka",
+  "pos": [
+   21.894,
+   52.802
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "kock",
+  "zh": "科克",
+  "orig": "Kock",
+  "pos": [
+   22.448,
+   51.64
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "lukow",
+  "zh": "武库夫",
+  "orig": "Łuków",
+  "pos": [
+   22.382,
+   51.93
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "radzyn",
+  "zh": "拉津",
+  "orig": "Radzyń Podlaski",
+  "pos": [
+   22.62,
+   51.783
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "lublin",
+  "zh": "卢布林",
+  "orig": "Lublin",
+  "pos": [
+   22.568,
+   51.246
+  ],
+  "kind": "city",
+  "rank": 2,
+  "country": "PL"
+ },
+ {
+  "id": "chelm",
+  "zh": "海乌姆",
+  "orig": "Chełm",
+  "pos": [
+   23.472,
+   51.143
+  ],
+  "kind": "town",
+  "rank": 3,
+  "alt": "Cholm",
+  "country": "PL"
+ },
+ {
+  "id": "zamosc",
+  "zh": "扎莫希奇",
+  "orig": "Zamość",
+  "pos": [
+   23.252,
+   50.723
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "PL"
+ },
+ {
+  "id": "krasnystaw",
+  "zh": "克拉斯内斯塔夫",
+  "orig": "Krasnystaw",
+  "pos": [
+   23.169,
+   50.985
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "hrubieszow",
+  "zh": "赫鲁别舒夫",
+  "orig": "Hrubieszów",
+  "pos": [
+   23.892,
+   50.806
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "tomaszow_lub",
+  "zh": "卢布林地区托马舒夫",
+  "orig": "Tomaszów Lubelski",
+  "pos": [
+   23.418,
+   50.448
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "krasnobrod",
+  "zh": "克拉斯诺布鲁德",
+  "orig": "Krasnobród",
+  "pos": [
+   23.211,
+   50.546
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "bilgoraj",
+  "zh": "比乌戈拉伊",
+  "orig": "Biłgoraj",
+  "pos": [
+   22.721,
+   50.541
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "janow_lub",
+  "zh": "卢布林地区亚努夫",
+  "orig": "Janów Lubelski",
+  "pos": [
+   22.411,
+   50.707
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "wytyczno",
+  "zh": "维蒂切诺",
+  "orig": "Wytyczno",
+  "pos": [
+   23.35,
+   51.43
+  ],
+  "kind": "village",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "wlodawa",
+  "zh": "弗沃达瓦",
+  "orig": "Włodawa",
+  "pos": [
+   23.549,
+   51.548
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "brzesc",
+  "zh": "布列斯特",
+  "orig": "Brześć nad Bugiem",
+  "pos": [
+   23.686,
+   52.097
+  ],
+  "kind": "city",
+  "rank": 2,
+  "alt": "Brest-Litowsk / 今 Brest",
+  "country": "PL"
+ },
+ {
+  "id": "kobryn",
+  "zh": "科布林",
+  "orig": "Kobryń",
+  "pos": [
+   24.357,
+   52.214
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "pinsk",
+  "zh": "平斯克",
+  "orig": "Pińsk",
+  "pos": [
+   26.105,
+   52.114
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "PL"
+ },
+ {
+  "id": "kowel",
+  "zh": "科韦利",
+  "orig": "Kowel",
+  "pos": [
+   24.719,
+   51.215
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "PL"
+ },
+ {
+  "id": "luck",
+  "zh": "卢茨克",
+  "orig": "Łuck",
+  "pos": [
+   25.326,
+   50.747
+  ],
+  "kind": "town",
+  "rank": 3,
+  "alt": "今 Lutsk",
+  "country": "PL"
+ },
+ {
+  "id": "rowne",
+  "zh": "罗夫诺",
+  "orig": "Równe",
+  "pos": [
+   26.251,
+   50.62
+  ],
+  "kind": "town",
+  "rank": 3,
+  "alt": "今 Rivne",
+  "country": "PL"
+ },
+ {
+  "id": "sarny",
+  "zh": "萨尔内",
+  "orig": "Sarny",
+  "pos": [
+   26.605,
+   51.339
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "tarnopol",
+  "zh": "塔尔诺波尔",
+  "orig": "Tarnopol",
+  "pos": [
+   25.595,
+   49.553
+  ],
+  "kind": "town",
+  "rank": 3,
+  "alt": "今 Ternopil",
+  "country": "PL"
+ },
+ {
+  "id": "stanislawow",
+  "zh": "斯坦尼斯瓦武夫",
+  "orig": "Stanisławów",
+  "pos": [
+   24.711,
+   48.922
+  ],
+  "kind": "town",
+  "rank": 3,
+  "alt": "今 Ivano-Frankivsk",
+  "country": "PL"
+ },
+ {
+  "id": "kolomyja",
+  "zh": "科洛梅亚",
+  "orig": "Kołomyja",
+  "pos": [
+   25.04,
+   48.531
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "kuty",
+  "zh": "库蒂",
+  "orig": "Kuty",
+  "pos": [
+   25.179,
+   48.262
+  ],
+  "kind": "crossing",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "zaleszczyki",
+  "zh": "扎莱希切基",
+  "orig": "Zaleszczyki",
+  "pos": [
+   25.733,
+   48.645
+  ],
+  "kind": "crossing",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "sniatyn",
+  "zh": "斯尼亚滕",
+  "orig": "Śniatyn",
+  "pos": [
+   25.566,
+   48.45
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "stryj",
+  "zh": "斯特雷",
+  "orig": "Stryj",
+  "pos": [
+   23.851,
+   49.259
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "drohobycz",
+  "zh": "德罗霍贝奇",
+  "orig": "Drohobycz",
+  "pos": [
+   23.505,
+   49.349
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "sambor",
+  "zh": "桑博尔",
+  "orig": "Sambor",
+  "pos": [
+   23.197,
+   49.518
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "przemysl",
+  "zh": "普热梅希尔",
+  "orig": "Przemyśl",
+  "pos": [
+   22.768,
+   49.784
+  ],
+  "kind": "town",
+  "rank": 3,
+  "alt": "Przemysl",
+  "country": "PL"
+ },
+ {
+  "id": "jaroslaw",
+  "zh": "亚罗斯瓦夫",
+  "orig": "Jarosław",
+  "pos": [
+   22.678,
+   50.016
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "rzeszow",
+  "zh": "热舒夫",
+  "orig": "Rzeszów",
+  "pos": [
+   22.004,
+   50.041
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "PL"
+ },
+ {
+  "id": "krosno",
+  "zh": "克罗斯诺",
+  "orig": "Krosno",
+  "pos": [
+   21.766,
+   49.689
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "sanok",
+  "zh": "萨诺克",
+  "orig": "Sanok",
+  "pos": [
+   22.205,
+   49.557
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "jaslo",
+  "zh": "亚斯沃",
+  "orig": "Jasło",
+  "pos": [
+   21.472,
+   49.745
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "tarnow",
+  "zh": "塔尔努夫",
+  "orig": "Tarnów",
+  "pos": [
+   20.986,
+   50.012
+  ],
+  "kind": "city",
+  "rank": 3,
+  "country": "PL"
+ },
+ {
+  "id": "bochnia",
+  "zh": "博赫尼亚",
+  "orig": "Bochnia",
+  "pos": [
+   20.431,
+   49.969
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "nowy_sacz",
+  "zh": "新松奇",
+  "orig": "Nowy Sącz",
+  "pos": [
+   20.69,
+   49.625
+  ],
+  "kind": "town",
+  "rank": 3,
+  "alt": "Neu Sandez",
+  "country": "PL"
+ },
+ {
+  "id": "nowy_targ",
+  "zh": "新塔尔格",
+  "orig": "Nowy Targ",
+  "pos": [
+   20.021,
+   49.477
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "zakopane",
+  "zh": "扎科帕内",
+  "orig": "Zakopane",
+  "pos": [
+   19.95,
+   49.299
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "jordanow",
+  "zh": "约尔达努夫",
+  "orig": "Jordanów",
+  "pos": [
+   19.832,
+   49.652
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "myslenice",
+  "zh": "梅希莱尼采",
+  "orig": "Myślenice",
+  "pos": [
+   19.938,
+   49.834
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "bielsko",
+  "zh": "别尔斯科",
+  "orig": "Bielsko",
+  "pos": [
+   19.045,
+   49.822
+  ],
+  "kind": "town",
+  "rank": 3,
+  "alt": "Bielitz",
+  "country": "PL"
+ },
+ {
+  "id": "cieszyn",
+  "zh": "切申",
+  "orig": "Cieszyn",
+  "pos": [
+   18.632,
+   49.75
+  ],
+  "kind": "town",
+  "rank": 4,
+  "alt": "Teschen",
+  "country": "PL"
+ },
+ {
+  "id": "pszczyna",
+  "zh": "普什奇纳",
+  "orig": "Pszczyna",
+  "pos": [
+   18.954,
+   49.98
+  ],
+  "kind": "town",
+  "rank": 4,
+  "alt": "Pleß",
+  "country": "PL"
+ },
+ {
+  "id": "mikolow",
+  "zh": "米科武夫",
+  "orig": "Mikołów",
+  "pos": [
+   18.905,
+   50.17
+  ],
+  "kind": "town",
+  "rank": 4,
+  "alt": "Nikolai",
+  "country": "PL"
+ },
+ {
+  "id": "wegierska_gorka",
+  "zh": "文盖尔斯卡古尔卡",
+  "orig": "Węgierska Górka",
+  "pos": [
+   19.114,
+   49.604
+  ],
+  "kind": "fort",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "katowice",
+  "zh": "卡托维兹",
+  "orig": "Katowice",
+  "pos": [
+   19.024,
+   50.264
+  ],
+  "kind": "city",
+  "rank": 2,
+  "alt": "Kattowitz",
+  "country": "PL"
+ },
+ {
+  "id": "lida",
+  "zh": "利达",
+  "orig": "Lida",
+  "pos": [
+   25.302,
+   53.887
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "nowogrodek",
+  "zh": "新格鲁多克",
+  "orig": "Nowogródek",
+  "pos": [
+   25.822,
+   53.598
+  ],
+  "kind": "town",
+  "rank": 4,
+  "alt": "今 Navahrudak",
+  "country": "PL"
+ },
+ {
+  "id": "baranowicze",
+  "zh": "巴拉诺维奇",
+  "orig": "Baranowicze",
+  "pos": [
+   26.021,
+   53.132
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "PL"
+ },
+ {
+  "id": "molodeczno",
+  "zh": "莫洛杰奇诺",
+  "orig": "Mołodeczno",
+  "pos": [
+   26.851,
+   54.31
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "wolkowysk",
+  "zh": "沃尔科维斯克",
+  "orig": "Wołkowysk",
+  "pos": [
+   24.466,
+   53.157
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "szack",
+  "zh": "沙茨克",
+  "orig": "Szack",
+  "pos": [
+   23.93,
+   51.49
+  ],
+  "kind": "village",
+  "rank": 4,
+  "alt": "今 Shatsk",
+  "country": "PL"
+ },
+ {
+  "id": "kamien_koszyrski",
+  "zh": "卡缅-科希尔斯基",
+  "orig": "Kamień Koszyrski",
+  "pos": [
+   24.96,
+   51.62
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "zolkiew",
+  "zh": "若乌凯夫",
+  "orig": "Żółkiew",
+  "pos": [
+   23.96,
+   50.06
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "rawa_ruska",
+  "zh": "拉瓦鲁斯卡",
+  "orig": "Rawa Ruska",
+  "pos": [
+   23.62,
+   50.23
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "sokal",
+  "zh": "索卡尔",
+  "orig": "Sokal",
+  "pos": [
+   24.276,
+   50.487
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "wlodzimierz",
+  "zh": "弗沃基米日",
+  "orig": "Włodzimierz Wołyński",
+  "pos": [
+   24.325,
+   50.847
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "brody",
+  "zh": "布罗德",
+  "orig": "Brody",
+  "pos": [
+   25.15,
+   50.083
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "zloczow",
+  "zh": "兹沃乔夫",
+  "orig": "Złoczów",
+  "pos": [
+   24.904,
+   49.806
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "czortkow",
+  "zh": "乔尔特库夫",
+  "orig": "Czortków",
+  "pos": [
+   25.798,
+   49.017
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "ostrog",
+  "zh": "奥斯特罗格",
+  "orig": "Ostróg",
+  "pos": [
+   26.515,
+   50.33
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "korzec",
+  "zh": "科热茨",
+  "orig": "Korzec",
+  "pos": [
+   27.212,
+   50.614
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "stolpce",
+  "zh": "斯托尔普采",
+  "orig": "Stołpce",
+  "pos": [
+   26.735,
+   53.477
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "glebokie",
+  "zh": "格文博凯",
+  "orig": "Głębokie",
+  "pos": [
+   27.69,
+   55.14
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "braslaw",
+  "zh": "布拉斯瓦夫",
+  "orig": "Brasław",
+  "pos": [
+   27.04,
+   55.64
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "berlin",
+  "zh": "柏林",
+  "orig": "Berlin",
+  "pos": [
+   13.405,
+   52.52
+  ],
+  "kind": "capital",
+  "rank": 1,
+  "country": "DE"
+ },
+ {
+  "id": "koenigsberg",
+  "zh": "柯尼斯堡",
+  "orig": "Königsberg",
+  "pos": [
+   20.511,
+   54.71
+  ],
+  "kind": "city",
+  "rank": 1,
+  "alt": "今 Kaliningrad",
+  "country": "DE"
+ },
+ {
+  "id": "allenstein",
+  "zh": "阿伦施泰因",
+  "orig": "Allenstein",
+  "pos": [
+   20.49,
+   53.778
+  ],
+  "kind": "town",
+  "rank": 3,
+  "alt": "今 Olsztyn",
+  "country": "DE"
+ },
+ {
+  "id": "neidenburg",
+  "zh": "奈登堡",
+  "orig": "Neidenburg",
+  "pos": [
+   20.425,
+   53.36
+  ],
+  "kind": "town",
+  "rank": 4,
+  "alt": "今 Nidzica",
+  "country": "DE"
+ },
+ {
+  "id": "elbing",
+  "zh": "埃尔宾",
+  "orig": "Elbing",
+  "pos": [
+   19.404,
+   54.156
+  ],
+  "kind": "town",
+  "rank": 3,
+  "alt": "今 Elbląg",
+  "country": "DE"
+ },
+ {
+  "id": "marienburg",
+  "zh": "马林堡",
+  "orig": "Marienburg",
+  "pos": [
+   19.027,
+   54.036
+  ],
+  "kind": "town",
+  "rank": 4,
+  "alt": "今 Malbork",
+  "country": "DE"
+ },
+ {
+  "id": "marienwerder",
+  "zh": "马林韦尔德",
+  "orig": "Marienwerder",
+  "pos": [
+   18.932,
+   53.73
+  ],
+  "kind": "town",
+  "rank": 4,
+  "alt": "今 Kwidzyn",
+  "country": "DE"
+ },
+ {
+  "id": "lyck",
+  "zh": "吕克",
+  "orig": "Lyck",
+  "pos": [
+   22.36,
+   53.827
+  ],
+  "kind": "town",
+  "rank": 4,
+  "alt": "今 Ełk",
+  "country": "DE"
+ },
+ {
+  "id": "johannisburg",
+  "zh": "约翰尼斯堡",
+  "orig": "Johannisburg",
+  "pos": [
+   21.807,
+   53.617
+  ],
+  "kind": "town",
+  "rank": 4,
+  "alt": "今 Pisz",
+  "country": "DE"
+ },
+ {
+  "id": "memel",
+  "zh": "梅梅尔",
+  "orig": "Memel",
+  "pos": [
+   21.144,
+   55.703
+  ],
+  "kind": "port",
+  "rank": 3,
+  "alt": "今 Klaipėda",
+  "country": "DE"
+ },
+ {
+  "id": "stettin",
+  "zh": "斯德丁",
+  "orig": "Stettin",
+  "pos": [
+   14.553,
+   53.428
+  ],
+  "kind": "city",
+  "rank": 2,
+  "alt": "今 Szczecin",
+  "country": "DE"
+ },
+ {
+  "id": "stolp",
+  "zh": "施托尔普",
+  "orig": "Stolp",
+  "pos": [
+   17.028,
+   54.464
+  ],
+  "kind": "town",
+  "rank": 3,
+  "alt": "今 Słupsk",
+  "country": "DE"
+ },
+ {
+  "id": "lauenburg",
+  "zh": "劳恩堡",
+  "orig": "Lauenburg",
+  "pos": [
+   17.755,
+   54.543
+  ],
+  "kind": "town",
+  "rank": 4,
+  "alt": "今 Lębork",
+  "country": "DE"
+ },
+ {
+  "id": "schneidemuhl",
+  "zh": "施奈德米尔",
+  "orig": "Schneidemühl",
+  "pos": [
+   16.738,
+   53.151
+  ],
+  "kind": "town",
+  "rank": 3,
+  "alt": "今 Piła",
+  "country": "DE"
+ },
+ {
+  "id": "frankfurt_oder",
+  "zh": "奥得河畔法兰克福",
+  "orig": "Frankfurt (Oder)",
+  "pos": [
+   14.55,
+   52.342
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "DE"
+ },
+ {
+  "id": "breslau",
+  "zh": "布雷斯劳",
+  "orig": "Breslau",
+  "pos": [
+   17.038,
+   51.108
+  ],
+  "kind": "city",
+  "rank": 1,
+  "alt": "今 Wrocław",
+  "country": "DE"
+ },
+ {
+  "id": "oppeln",
+  "zh": "奥珀伦",
+  "orig": "Oppeln",
+  "pos": [
+   17.925,
+   50.675
+  ],
+  "kind": "town",
+  "rank": 3,
+  "alt": "今 Opole",
+  "country": "DE"
+ },
+ {
+  "id": "gleiwitz",
+  "zh": "格莱维茨",
+  "orig": "Gleiwitz",
+  "pos": [
+   18.668,
+   50.294
+  ],
+  "kind": "city",
+  "rank": 3,
+  "alt": "今 Gliwice",
+  "country": "DE"
+ },
+ {
+  "id": "beuthen",
+  "zh": "博伊滕",
+  "orig": "Beuthen",
+  "pos": [
+   18.915,
+   50.348
+  ],
+  "kind": "town",
+  "rank": 4,
+  "alt": "今 Bytom",
+  "country": "DE"
+ },
+ {
+  "id": "kreuzburg",
+  "zh": "克罗伊茨堡",
+  "orig": "Kreuzburg",
+  "pos": [
+   18.214,
+   50.973
+  ],
+  "kind": "town",
+  "rank": 4,
+  "alt": "今 Kluczbork",
+  "country": "DE"
+ },
+ {
+  "id": "prag",
+  "zh": "布拉格",
+  "orig": "Prag / Praha",
+  "pos": [
+   14.42,
+   50.088
+  ],
+  "kind": "city",
+  "rank": 2,
+  "country": "PROT"
+ },
+ {
+  "id": "bruenn",
+  "zh": "布尔诺",
+  "orig": "Brünn / Brno",
+  "pos": [
+   16.607,
+   49.195
+  ],
+  "kind": "city",
+  "rank": 3,
+  "country": "PROT"
+ },
+ {
+  "id": "maehrisch_ostrau",
+  "zh": "俄斯特拉发",
+  "orig": "Mährisch Ostrau / Ostrava",
+  "pos": [
+   18.282,
+   49.835
+  ],
+  "kind": "city",
+  "rank": 3,
+  "country": "PROT"
+ },
+ {
+  "id": "bratislava",
+  "zh": "布拉迪斯拉发",
+  "orig": "Bratislava",
+  "pos": [
+   17.107,
+   48.148
+  ],
+  "kind": "capital",
+  "rank": 2,
+  "alt": "Pressburg",
+  "country": "SK"
+ },
+ {
+  "id": "zilina",
+  "zh": "日利纳",
+  "orig": "Žilina",
+  "pos": [
+   18.74,
+   49.223
+  ],
+  "kind": "town",
+  "rank": 3,
+  "alt": "Sillein",
+  "country": "SK"
+ },
+ {
+  "id": "presov",
+  "zh": "普雷绍夫",
+  "orig": "Prešov",
+  "pos": [
+   21.239,
+   48.998
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "SK"
+ },
+ {
+  "id": "poprad",
+  "zh": "波普拉德",
+  "orig": "Poprad",
+  "pos": [
+   20.297,
+   49.056
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SK"
+ },
+ {
+  "id": "bardejov",
+  "zh": "巴尔代约夫",
+  "orig": "Bardejov",
+  "pos": [
+   21.276,
+   49.293
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SK"
+ },
+ {
+  "id": "budapest",
+  "zh": "布达佩斯",
+  "orig": "Budapest",
+  "pos": [
+   19.04,
+   47.498
+  ],
+  "kind": "capital",
+  "rank": 1,
+  "country": "HU"
+ },
+ {
+  "id": "kassa",
+  "zh": "科希策",
+  "orig": "Kassa / Košice",
+  "pos": [
+   21.258,
+   48.72
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "HU"
+ },
+ {
+  "id": "ungvar",
+  "zh": "乌日霍罗德",
+  "orig": "Ungvár / Uzhhorod",
+  "pos": [
+   22.296,
+   48.621
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "HU"
+ },
+ {
+  "id": "cernauti",
+  "zh": "切尔诺夫策",
+  "orig": "Cernăuți",
+  "pos": [
+   25.935,
+   48.292
+  ],
+  "kind": "city",
+  "rank": 3,
+  "alt": "Czernowitz",
+  "country": "RO"
+ },
+ {
+  "id": "kaunas",
+  "zh": "考纳斯",
+  "orig": "Kaunas",
+  "pos": [
+   23.904,
+   54.899
+  ],
+  "kind": "capital",
+  "rank": 2,
+  "alt": "Kowno",
+  "country": "LT"
+ },
+ {
+  "id": "daugavpils",
+  "zh": "陶格夫匹尔斯",
+  "orig": "Daugavpils",
+  "pos": [
+   26.536,
+   55.874
+  ],
+  "kind": "town",
+  "rank": 3,
+  "alt": "Dyneburg",
+  "country": "LV"
+ },
+ {
+  "id": "minsk",
+  "zh": "明斯克",
+  "orig": "Минск",
+  "pos": [
+   27.559,
+   53.9
+  ],
+  "kind": "city",
+  "rank": 2,
+  "alt": "Minsk",
+  "country": "SU"
+ },
+ {
+  "id": "polotsk",
+  "zh": "波洛茨克",
+  "orig": "Полоцк",
+  "pos": [
+   28.785,
+   55.486
+  ],
+  "kind": "town",
+  "rank": 4,
+  "alt": "Polotsk",
+  "country": "SU"
+ },
+ {
+  "id": "slutsk",
+  "zh": "斯卢茨克",
+  "orig": "Слуцк",
+  "pos": [
+   27.556,
+   53.027
+  ],
+  "kind": "town",
+  "rank": 4,
+  "alt": "Slutsk",
+  "country": "SU"
+ },
+ {
+  "id": "zhytomyr",
+  "zh": "日托米尔",
+  "orig": "Житомир",
+  "pos": [
+   28.658,
+   50.254
+  ],
+  "kind": "city",
+  "rank": 3,
+  "alt": "Zhytomyr",
+  "country": "SU"
+ },
+ {
+  "id": "shepetivka",
+  "zh": "舍佩季夫卡",
+  "orig": "Шепетовка",
+  "pos": [
+   27.063,
+   50.184
+  ],
+  "kind": "town",
+  "rank": 4,
+  "alt": "Shepetivka",
+  "country": "SU"
+ },
+ {
+  "id": "novohrad_volynskyi",
+  "zh": "新沃伦斯基",
+  "orig": "Новоград-Волынский",
+  "pos": [
+   27.62,
+   50.59
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "proskurov",
+  "zh": "普罗斯库罗夫",
+  "orig": "Проскуров",
+  "pos": [
+   26.99,
+   49.42
+  ],
+  "kind": "town",
+  "rank": 4,
+  "alt": "今 Khmelnytskyi",
+  "country": "SU"
+ },
+ {
+  "id": "volochysk",
+  "zh": "沃洛奇斯克",
+  "orig": "Волочиск",
+  "pos": [
+   26.16,
+   49.53
+  ],
+  "kind": "town",
+  "rank": 4,
+  "alt": "Volochysk",
+  "country": "SU"
+ },
+ {
+  "id": "kamianets",
+  "zh": "卡缅涅茨-波多利斯基",
+  "orig": "Каменец-Подольский",
+  "pos": [
+   26.585,
+   48.678
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "lepel",
+  "zh": "列佩利",
+  "orig": "Лепель",
+  "pos": [
+   28.694,
+   54.88
+  ],
+  "kind": "town",
+  "rank": 4,
+  "alt": "Lepel",
+  "country": "SU"
+ }
+]

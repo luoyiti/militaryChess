@@ -15,7 +15,7 @@ export default defineConfig(({ command }) => {
     plugins: [campaignsPlugin()],
     server: {
       host: '127.0.0.1', port: 5180, strictPort: true,
-      watch: { ignored: [...LEGACY.map((d) => `**/${d}/**`), '**/.work/**', '**/.cache/**', '**/.baselines/**', '**/public/campaigns/**', '**/pipeline/**'] },
+      watch: { ignored: [...LEGACY.map((d) => `**/${d}/**`), '**/.work/**', '**/.cache/**', '**/.baselines/**', '**/pipeline/**'] },
     },
     preview: { host: '127.0.0.1', port: 4180, strictPort: true },
     // 一次性预构建全部依赖，避免开发中途重新优化

@@ -1,0 +1,962 @@
+[
+ {
+  "id": "paris",
+  "zh": "巴黎",
+  "orig": "Paris",
+  "pos": [
+   2.35,
+   48.86
+  ],
+  "kind": "capital",
+  "rank": 1,
+  "country": "FR"
+ },
+ {
+  "id": "london",
+  "zh": "伦敦",
+  "orig": "London",
+  "pos": [
+   -0.12,
+   51.51
+  ],
+  "kind": "capital",
+  "rank": 1,
+  "country": "GB"
+ },
+ {
+  "id": "brussels",
+  "zh": "布鲁塞尔",
+  "orig": "Bruxelles",
+  "pos": [
+   4.35,
+   50.85
+  ],
+  "kind": "capital",
+  "rank": 1,
+  "country": "BE"
+ },
+ {
+  "id": "amsterdam",
+  "zh": "阿姆斯特丹",
+  "orig": "Amsterdam",
+  "pos": [
+   4.9,
+   52.37
+  ],
+  "kind": "capital",
+  "rank": 1,
+  "country": "NL"
+ },
+ {
+  "id": "lyon",
+  "zh": "里昂",
+  "orig": "Lyon",
+  "pos": [
+   4.83,
+   45.76
+  ],
+  "kind": "city",
+  "rank": 2,
+  "country": "FR"
+ },
+ {
+  "id": "rotterdam",
+  "zh": "鹿特丹",
+  "orig": "Rotterdam",
+  "pos": [
+   4.48,
+   51.92
+  ],
+  "kind": "city",
+  "rank": 2,
+  "country": "NL"
+ },
+ {
+  "id": "the_hague",
+  "zh": "海牙",
+  "orig": "Den Haag",
+  "pos": [
+   4.3,
+   52.08
+  ],
+  "kind": "city",
+  "rank": 2,
+  "country": "NL"
+ },
+ {
+  "id": "antwerp",
+  "zh": "安特卫普",
+  "orig": "Antwerpen",
+  "pos": [
+   4.4,
+   51.22
+  ],
+  "kind": "city",
+  "rank": 2,
+  "country": "BE"
+ },
+ {
+  "id": "liege",
+  "zh": "列日",
+  "orig": "Liège",
+  "pos": [
+   5.57,
+   50.63
+  ],
+  "kind": "city",
+  "rank": 2,
+  "country": "BE"
+ },
+ {
+  "id": "lille",
+  "zh": "里尔",
+  "orig": "Lille",
+  "pos": [
+   3.06,
+   50.63
+  ],
+  "kind": "city",
+  "rank": 2,
+  "country": "FR"
+ },
+ {
+  "id": "dunkirk",
+  "zh": "敦刻尔克",
+  "orig": "Dunkerque",
+  "pos": [
+   2.38,
+   51.04
+  ],
+  "kind": "port",
+  "rank": 2,
+  "country": "FR"
+ },
+ {
+  "id": "sedan",
+  "zh": "色当",
+  "orig": "Sedan",
+  "pos": [
+   4.94,
+   49.7
+  ],
+  "kind": "city",
+  "rank": 2,
+  "country": "FR"
+ },
+ {
+  "id": "reims",
+  "zh": "兰斯",
+  "orig": "Reims",
+  "pos": [
+   4.03,
+   49.26
+  ],
+  "kind": "city",
+  "rank": 2,
+  "country": "FR"
+ },
+ {
+  "id": "amiens",
+  "zh": "亚眠",
+  "orig": "Amiens",
+  "pos": [
+   2.3,
+   49.89
+  ],
+  "kind": "city",
+  "rank": 2,
+  "country": "FR"
+ },
+ {
+  "id": "strasbourg",
+  "zh": "斯特拉斯堡",
+  "orig": "Strasbourg",
+  "pos": [
+   7.75,
+   48.57
+  ],
+  "kind": "city",
+  "rank": 2,
+  "country": "FR"
+ },
+ {
+  "id": "metz",
+  "zh": "梅斯",
+  "orig": "Metz",
+  "pos": [
+   6.18,
+   49.12
+  ],
+  "kind": "city",
+  "rank": 2,
+  "country": "FR"
+ },
+ {
+  "id": "nancy",
+  "zh": "南锡",
+  "orig": "Nancy",
+  "pos": [
+   6.18,
+   48.69
+  ],
+  "kind": "city",
+  "rank": 2,
+  "country": "FR"
+ },
+ {
+  "id": "orleans",
+  "zh": "奥尔良",
+  "orig": "Orléans",
+  "pos": [
+   1.91,
+   47.9
+  ],
+  "kind": "city",
+  "rank": 2,
+  "country": "FR"
+ },
+ {
+  "id": "rouen",
+  "zh": "鲁昂",
+  "orig": "Rouen",
+  "pos": [
+   1.09,
+   49.44
+  ],
+  "kind": "city",
+  "rank": 2,
+  "country": "FR"
+ },
+ {
+  "id": "rennes",
+  "zh": "雷恩",
+  "orig": "Rennes",
+  "pos": [
+   -1.68,
+   48.11
+  ],
+  "kind": "city",
+  "rank": 2,
+  "country": "FR"
+ },
+ {
+  "id": "cologne",
+  "zh": "科隆",
+  "orig": "Köln",
+  "pos": [
+   6.96,
+   50.94
+  ],
+  "kind": "city",
+  "rank": 2,
+  "country": "DE"
+ },
+ {
+  "id": "dover",
+  "zh": "多佛尔",
+  "orig": "Dover",
+  "pos": [
+   1.31,
+   51.13
+  ],
+  "kind": "port",
+  "rank": 2,
+  "country": "GB"
+ },
+ {
+  "id": "luxembourg",
+  "zh": "卢森堡",
+  "orig": "Luxembourg",
+  "pos": [
+   6.13,
+   49.61
+  ],
+  "kind": "capital",
+  "rank": 2,
+  "country": "LU"
+ },
+ {
+  "id": "calais",
+  "zh": "加来",
+  "orig": "Calais",
+  "pos": [
+   1.86,
+   50.95
+  ],
+  "kind": "port",
+  "rank": 3,
+  "country": "FR"
+ },
+ {
+  "id": "boulogne",
+  "zh": "布洛涅",
+  "orig": "Boulogne",
+  "pos": [
+   1.61,
+   50.73
+  ],
+  "kind": "port",
+  "rank": 3,
+  "country": "FR"
+ },
+ {
+  "id": "abbeville",
+  "zh": "阿布维尔",
+  "orig": "Abbeville",
+  "pos": [
+   1.83,
+   50.11
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "FR"
+ },
+ {
+  "id": "arras",
+  "zh": "阿拉斯",
+  "orig": "Arras",
+  "pos": [
+   2.78,
+   50.29
+  ],
+  "kind": "city",
+  "rank": 3,
+  "country": "FR"
+ },
+ {
+  "id": "cambrai",
+  "zh": "康布雷",
+  "orig": "Cambrai",
+  "pos": [
+   3.23,
+   50.17
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "FR"
+ },
+ {
+  "id": "st_quentin",
+  "zh": "圣康坦",
+  "orig": "Saint-Quentin",
+  "pos": [
+   3.29,
+   49.85
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "FR"
+ },
+ {
+  "id": "peronne",
+  "zh": "佩罗讷",
+  "orig": "Péronne",
+  "pos": [
+   2.93,
+   49.93
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "FR"
+ },
+ {
+  "id": "laon",
+  "zh": "拉昂",
+  "orig": "Laon",
+  "pos": [
+   3.62,
+   49.56
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "FR"
+ },
+ {
+  "id": "montcornet",
+  "zh": "蒙特科尔内",
+  "orig": "Montcornet",
+  "pos": [
+   4.02,
+   49.7
+  ],
+  "kind": "village",
+  "rank": 3,
+  "country": "FR"
+ },
+ {
+  "id": "compiegne",
+  "zh": "贡比涅",
+  "orig": "Compiègne",
+  "pos": [
+   2.83,
+   49.42
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "FR"
+ },
+ {
+  "id": "dinant",
+  "zh": "迪南",
+  "orig": "Dinant",
+  "pos": [
+   4.91,
+   50.26
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "BE"
+ },
+ {
+  "id": "namur",
+  "zh": "那慕尔",
+  "orig": "Namur",
+  "pos": [
+   4.87,
+   50.47
+  ],
+  "kind": "city",
+  "rank": 3,
+  "country": "BE"
+ },
+ {
+  "id": "charleville",
+  "zh": "沙勒维尔",
+  "orig": "Charleville",
+  "pos": [
+   4.72,
+   49.77
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "FR"
+ },
+ {
+  "id": "eben_emael",
+  "zh": "埃本-埃马尔",
+  "orig": "Eben-Emael",
+  "pos": [
+   5.68,
+   50.8
+  ],
+  "kind": "fort",
+  "rank": 3,
+  "country": "BE"
+ },
+ {
+  "id": "maastricht",
+  "zh": "马斯特里赫特",
+  "orig": "Maastricht",
+  "pos": [
+   5.69,
+   50.85
+  ],
+  "kind": "city",
+  "rank": 3,
+  "country": "NL"
+ },
+ {
+  "id": "ghent",
+  "zh": "根特",
+  "orig": "Gent",
+  "pos": [
+   3.72,
+   51.05
+  ],
+  "kind": "city",
+  "rank": 3,
+  "country": "BE"
+ },
+ {
+  "id": "bruges",
+  "zh": "布鲁日",
+  "orig": "Brugge",
+  "pos": [
+   3.22,
+   51.21
+  ],
+  "kind": "city",
+  "rank": 3,
+  "country": "BE"
+ },
+ {
+  "id": "breda",
+  "zh": "布雷达",
+  "orig": "Breda",
+  "pos": [
+   4.78,
+   51.59
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "NL"
+ },
+ {
+  "id": "utrecht",
+  "zh": "乌得勒支",
+  "orig": "Utrecht",
+  "pos": [
+   5.12,
+   52.09
+  ],
+  "kind": "city",
+  "rank": 3,
+  "country": "NL"
+ },
+ {
+  "id": "groningen",
+  "zh": "格罗宁根",
+  "orig": "Groningen",
+  "pos": [
+   6.57,
+   53.22
+  ],
+  "kind": "city",
+  "rank": 3,
+  "country": "NL"
+ },
+ {
+  "id": "bastogne",
+  "zh": "巴斯托涅",
+  "orig": "Bastogne",
+  "pos": [
+   5.72,
+   50
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "BE"
+ },
+ {
+  "id": "bouillon",
+  "zh": "布永",
+  "orig": "Bouillon",
+  "pos": [
+   5.07,
+   49.79
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "BE"
+ },
+ {
+  "id": "neufchateau",
+  "zh": "讷沙托",
+  "orig": "Neufchâteau",
+  "pos": [
+   5.43,
+   49.84
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "BE"
+ },
+ {
+  "id": "gembloux",
+  "zh": "让布卢",
+  "orig": "Gembloux",
+  "pos": [
+   4.69,
+   50.56
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "BE"
+ },
+ {
+  "id": "leuven",
+  "zh": "鲁汶",
+  "orig": "Leuven",
+  "pos": [
+   4.7,
+   50.88
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "BE"
+ },
+ {
+  "id": "ostend",
+  "zh": "奥斯坦德",
+  "orig": "Oostende",
+  "pos": [
+   2.93,
+   51.22
+  ],
+  "kind": "port",
+  "rank": 3,
+  "country": "BE"
+ },
+ {
+  "id": "tours",
+  "zh": "图尔",
+  "orig": "Tours",
+  "pos": [
+   0.69,
+   47.39
+  ],
+  "kind": "city",
+  "rank": 3,
+  "country": "FR"
+ },
+ {
+  "id": "chartres",
+  "zh": "沙特尔",
+  "orig": "Chartres",
+  "pos": [
+   1.49,
+   48.45
+  ],
+  "kind": "city",
+  "rank": 3,
+  "country": "FR"
+ },
+ {
+  "id": "le_havre",
+  "zh": "勒阿弗尔",
+  "orig": "Le Havre",
+  "pos": [
+   0.11,
+   49.49
+  ],
+  "kind": "port",
+  "rank": 3,
+  "country": "FR"
+ },
+ {
+  "id": "caen",
+  "zh": "卡昂",
+  "orig": "Caen",
+  "pos": [
+   -0.37,
+   49.18
+  ],
+  "kind": "city",
+  "rank": 3,
+  "country": "FR"
+ },
+ {
+  "id": "cherbourg",
+  "zh": "瑟堡",
+  "orig": "Cherbourg",
+  "pos": [
+   -1.62,
+   49.64
+  ],
+  "kind": "port",
+  "rank": 3,
+  "country": "FR"
+ },
+ {
+  "id": "dijon",
+  "zh": "第戎",
+  "orig": "Dijon",
+  "pos": [
+   5.04,
+   47.32
+  ],
+  "kind": "city",
+  "rank": 3,
+  "country": "FR"
+ },
+ {
+  "id": "troyes",
+  "zh": "特鲁瓦",
+  "orig": "Troyes",
+  "pos": [
+   4.07,
+   48.3
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "FR"
+ },
+ {
+  "id": "verdun",
+  "zh": "凡尔登",
+  "orig": "Verdun",
+  "pos": [
+   5.38,
+   49.16
+  ],
+  "kind": "city",
+  "rank": 3,
+  "country": "FR"
+ },
+ {
+  "id": "saarbrucken",
+  "zh": "萨尔布吕肯",
+  "orig": "Saarbrücken",
+  "pos": [
+   6.99,
+   49.24
+  ],
+  "kind": "city",
+  "rank": 3,
+  "country": "DE"
+ },
+ {
+  "id": "aachen",
+  "zh": "亚琛",
+  "orig": "Aachen",
+  "pos": [
+   6.08,
+   50.78
+  ],
+  "kind": "city",
+  "rank": 3,
+  "country": "DE"
+ },
+ {
+  "id": "trier",
+  "zh": "特里尔",
+  "orig": "Trier",
+  "pos": [
+   6.64,
+   49.76
+  ],
+  "kind": "city",
+  "rank": 3,
+  "country": "DE"
+ },
+ {
+  "id": "koblenz",
+  "zh": "科布伦茨",
+  "orig": "Koblenz",
+  "pos": [
+   7.59,
+   50.36
+  ],
+  "kind": "city",
+  "rank": 3,
+  "country": "DE"
+ },
+ {
+  "id": "bitburg",
+  "zh": "比特堡",
+  "orig": "Bitburg",
+  "pos": [
+   6.52,
+   49.97
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "DE"
+ },
+ {
+  "id": "kleve",
+  "zh": "克莱沃",
+  "orig": "Kleve",
+  "pos": [
+   6.14,
+   51.79
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "DE"
+ },
+ {
+  "id": "montherme",
+  "zh": "蒙泰尔梅",
+  "orig": "Monthermé",
+  "pos": [
+   4.73,
+   49.88
+  ],
+  "kind": "village",
+  "rank": 4,
+  "country": "FR"
+ },
+ {
+  "id": "gravelines",
+  "zh": "格拉沃利讷",
+  "orig": "Gravelines",
+  "pos": [
+   2.13,
+   50.98
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "FR"
+ },
+ {
+  "id": "philippeville",
+  "zh": "菲利普维尔",
+  "orig": "Philippeville",
+  "pos": [
+   4.54,
+   50.2
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "BE"
+ },
+ {
+  "id": "landrecies",
+  "zh": "朗德勒西",
+  "orig": "Landrecies",
+  "pos": [
+   3.69,
+   50.12
+  ],
+  "kind": "village",
+  "rank": 4,
+  "country": "FR"
+ },
+ {
+  "id": "le_crotoy",
+  "zh": "勒克罗图瓦",
+  "orig": "Le Crotoy",
+  "pos": [
+   1.63,
+   50.22
+  ],
+  "kind": "village",
+  "rank": 4,
+  "country": "FR"
+ },
+ {
+  "id": "st_valery",
+  "zh": "圣瓦莱里",
+  "orig": "Saint-Valery-en-Caux",
+  "pos": [
+   0.71,
+   49.87
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "FR"
+ },
+ {
+  "id": "langres",
+  "zh": "朗格勒",
+  "orig": "Langres",
+  "pos": [
+   5.33,
+   47.86
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "FR"
+ },
+ {
+  "id": "pontarlier",
+  "zh": "蓬塔利耶",
+  "orig": "Pontarlier",
+  "pos": [
+   6.36,
+   46.9
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "FR"
+ },
+ {
+  "id": "belfort",
+  "zh": "贝尔福",
+  "orig": "Belfort",
+  "pos": [
+   6.86,
+   47.64
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "FR"
+ },
+ {
+  "id": "colmar",
+  "zh": "科尔马",
+  "orig": "Colmar",
+  "pos": [
+   7.36,
+   48.08
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "FR"
+ },
+ {
+  "id": "schleiden",
+  "zh": "施莱登",
+  "orig": "Schleiden",
+  "pos": [
+   6.47,
+   50.53
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "DE"
+ },
+ {
+  "id": "rhenen",
+  "zh": "雷嫩",
+  "orig": "Rhenen",
+  "pos": [
+   5.57,
+   51.96
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "NL"
+ },
+ {
+  "id": "bourges",
+  "zh": "布尔日",
+  "orig": "Bourges",
+  "pos": [
+   2.4,
+   47.08
+  ],
+  "kind": "city",
+  "rank": 3,
+  "country": "FR"
+ },
+ {
+  "id": "nantes",
+  "zh": "南特",
+  "orig": "Nantes",
+  "pos": [
+   -1.55,
+   47.22
+  ],
+  "kind": "city",
+  "rank": 3,
+  "country": "FR"
+ },
+ {
+  "id": "chateau_thierry",
+  "zh": "蒂耶里堡",
+  "orig": "Château-Thierry",
+  "pos": [
+   3.4,
+   49.04
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "FR"
+ },
+ {
+  "id": "rethel",
+  "zh": "勒泰勒",
+  "orig": "Rethel",
+  "pos": [
+   4.37,
+   49.51
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "FR"
+ },
+ {
+  "id": "hirson",
+  "zh": "伊尔松",
+  "orig": "Hirson",
+  "pos": [
+   4.08,
+   49.92
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "FR"
+ }
+]

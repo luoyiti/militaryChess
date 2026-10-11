@@ -1,0 +1,712 @@
+{
+  "schemaVersion": 2,
+  "id": "balkans-1941",
+  "status": "published",
+  "title": {
+    "mark": "1941",
+    "zh": "巴尔干战役",
+    "sub": "希意战争 · 南斯拉夫 · 克里特",
+    "en": "The Balkans Campaign",
+    "orig": "Greece · Yugoslavia · Crete",
+    "codename": "玛丽塔行动",
+    "html": "1940—1941 · 巴尔干战役 — 战旗推演",
+    "description": "1940 年巴尔干战役复古作战室风格战旗推演：地图、双方部队、推进路线、战线变化、时间轴与事件说明。",
+    "favicon": "#1f4e89"
+  },
+  "time": {
+    "epoch": "1940-10-28T00:00",
+    "start": "1940-10-28T00:00",
+    "end": "1941-06-01T23:59",
+    "tzLabel": "UTC+2（绘图时间）"
+  },
+  "sides": [
+    {
+      "id": "DE",
+      "prefix": "de",
+      "name": "德国",
+      "coalition": "axis",
+      "counter": {
+        "bg": "#56708f",
+        "edge": "#2a3a52",
+        "text": "#fbf6ea",
+        "box": "#f3eee0",
+        "ink": "#2a3a52"
+      },
+      "css": {
+        "main": "#3a5887",
+        "dark": "#1f3558"
+      }
+    },
+    {
+      "id": "IT",
+      "prefix": "it",
+      "name": "意大利",
+      "coalition": "axis",
+      "counter": {
+        "bg": "#788054",
+        "edge": "#424928",
+        "text": "#fbf6ea",
+        "box": "#f3eee0",
+        "ink": "#424928"
+      },
+      "css": {
+        "main": "#788054",
+        "dark": "#424928"
+      }
+    },
+    {
+      "id": "HU",
+      "prefix": "hu",
+      "name": "匈牙利",
+      "coalition": "axis",
+      "counter": {
+        "bg": "#85736e",
+        "edge": "#4d3435",
+        "text": "#fbf6ea",
+        "box": "#f3eee0",
+        "ink": "#4d3435"
+      },
+      "css": {
+        "main": "#85736e",
+        "dark": "#4d3435"
+      }
+    },
+    {
+      "id": "BG",
+      "prefix": "bg",
+      "name": "保加利亚",
+      "coalition": "axis",
+      "counter": {
+        "bg": "#866a8e",
+        "edge": "#543455",
+        "text": "#fbf6ea",
+        "box": "#f3eee0",
+        "ink": "#543455"
+      },
+      "css": {
+        "main": "#866a8e",
+        "dark": "#543455"
+      }
+    },
+    {
+      "id": "GR",
+      "prefix": "gr",
+      "name": "希腊",
+      "coalition": "allies",
+      "counter": {
+        "bg": "#2a5a94",
+        "edge": "#163864",
+        "text": "#fbf6ea",
+        "box": "#f3eee0",
+        "ink": "#163864"
+      },
+      "css": {
+        "main": "#2a5a94",
+        "dark": "#163864"
+      }
+    },
+    {
+      "id": "YU",
+      "prefix": "yu",
+      "name": "南斯拉夫",
+      "coalition": "allies",
+      "counter": {
+        "bg": "#a06145",
+        "edge": "#603c2d",
+        "text": "#fbf6ea",
+        "box": "#f3eee0",
+        "ink": "#603c2d"
+      },
+      "css": {
+        "main": "#a06145",
+        "dark": "#603c2d"
+      }
+    },
+    {
+      "id": "GB",
+      "prefix": "gb",
+      "name": "英国",
+      "coalition": "allies",
+      "counter": {
+        "bg": "#8d7346",
+        "edge": "#5c4a28",
+        "text": "#fbf6ea",
+        "box": "#f3eee0",
+        "ink": "#5c4a28"
+      },
+      "css": {
+        "main": "#8a7044",
+        "dark": "#5c4a28"
+      }
+    },
+    {
+      "id": "AU",
+      "prefix": "au",
+      "name": "澳大利亚",
+      "coalition": "allies",
+      "counter": {
+        "bg": "#b79845",
+        "edge": "#66531f",
+        "text": "#fbf6ea",
+        "box": "#f3eee0",
+        "ink": "#66531f"
+      },
+      "css": {
+        "main": "#b79845",
+        "dark": "#66531f"
+      }
+    },
+    {
+      "id": "NZ",
+      "prefix": "nz",
+      "name": "新西兰",
+      "coalition": "allies",
+      "counter": {
+        "bg": "#438079",
+        "edge": "#214a46",
+        "text": "#fbf6ea",
+        "box": "#f3eee0",
+        "ink": "#214a46"
+      },
+      "css": {
+        "main": "#438079",
+        "dark": "#214a46"
+      }
+    }
+  ],
+  "control": {
+    "mode": "territory",
+    "landBit": 4,
+    "theatreBits": [
+      0,
+      5
+    ],
+    "deferred": [
+      {
+        "bits": [
+          5
+        ],
+        "from": "1941-04-06T00:00"
+      }
+    ],
+    "slots": [
+      {
+        "key": "DE",
+        "label": "轴心国控制",
+        "homeBits": [
+          1,
+          2
+        ]
+      },
+      {
+        "key": "SU",
+        "label": "（第二占领槽，巴尔干战役不用）",
+        "homeBits": [
+          3
+        ]
+      }
+    ],
+    "remainder": {
+      "label": "盟军控制"
+    }
+  },
+  "phases": [
+    {
+      "id": "invasion",
+      "from": "1940-10-28T00:00",
+      "name": "第1章 · 意军入侵与希军阻击",
+      "short": "希意开战",
+      "sub": "伊庇鲁斯与品都斯：山地阻击使意军攻势受挫",
+      "center": [
+        20.5,
+        40.0
+      ],
+      "zoom": 2.9
+    },
+    {
+      "id": "counterattack",
+      "from": "1940-11-14T00:00",
+      "name": "第2章 · 希军反攻阿尔巴尼亚",
+      "short": "希军反攻",
+      "sub": "沿海、中央与科尔察三路反攻，战线北移",
+      "center": [
+        20.2,
+        40.4
+      ],
+      "zoom": 3.0
+    },
+    {
+      "id": "winter",
+      "from": "1941-01-11T00:00",
+      "name": "第3章 · 冬季攻防与春季攻势",
+      "short": "冬季与集结",
+      "sub": "冬季阵地战、意军春季攻势与英德两方集结",
+      "center": [
+        21.1,
+        41.1
+      ],
+      "zoom": 2.0
+    },
+    {
+      "id": "invasion1941",
+      "from": "1941-04-06T00:00",
+      "name": "第4章 · 轴心国多路入侵",
+      "short": "大陆入侵",
+      "sub": "南斯拉夫与希腊同时遭到进攻，防线被多轴突破",
+      "center": [
+        21.4,
+        43.2
+      ],
+      "zoom": 1.4
+    },
+    {
+      "id": "evacuation",
+      "from": "1941-04-18T00:00",
+      "name": "第5章 · 希腊撤退与克里特备战",
+      "short": "撤退与备战",
+      "sub": "西部希军分批投降，英联邦向南撤离并转移至克里特",
+      "center": [
+        23.1,
+        38.0
+      ],
+      "zoom": 2.2
+    },
+    {
+      "id": "crete",
+      "from": "1941-05-20T00:00",
+      "name": "第6章 · 克里特空降与撤离",
+      "short": "克里特",
+      "sub": "马莱迈、干尼亚、雷西姆诺、伊拉克利翁四个战区",
+      "center": [
+        24.65,
+        35.23
+      ],
+      "zoom": 6.8
+    }
+  ],
+  "theme": {
+    "accent": "#1f4e89",
+    "accentDark": "#163864",
+    "accentTint": "rgba(31,78,137,.08)",
+    "theatreBorder": "#1f4e89",
+    "theatreHalo": "rgba(31,78,137,.18)",
+    "restFill": "rgba(47,79,127,.07)"
+  },
+  "map": {
+    "fit": "frame",
+    "home3d": [
+      21.0,
+      41.25
+    ],
+    "focus": [
+      21.0,
+      41.25
+    ],
+    "contextTiles": true,
+    "hexKm": 18,
+    "theatreCountries": [
+      "GR",
+      "AL",
+      "YU"
+    ],
+    "labels": {
+      "countries": [
+        [
+          "南 斯 拉 夫",
+          18.7,
+          44.0,
+          30,
+          0.35
+        ],
+        [
+          "阿尔巴尼亚（意占）",
+          19.75,
+          41.8,
+          15,
+          0.85
+        ],
+        [
+          "希 腊",
+          23.2,
+          38.7,
+          25,
+          0.4
+        ],
+        [
+          "保 加 利 亚",
+          25.5,
+          42.8,
+          20,
+          0.5
+        ],
+        [
+          "匈 牙 利",
+          19.1,
+          47.2,
+          19,
+          0.65
+        ],
+        [
+          "罗 马 尼 亚",
+          25.0,
+          46.3,
+          22,
+          0.5
+        ],
+        [
+          "德国（奥地利）",
+          14.6,
+          47.3,
+          15,
+          0.75
+        ],
+        [
+          "意 大 利",
+          13.1,
+          44.2,
+          18,
+          0.7
+        ],
+        [
+          "土 耳 其",
+          28.6,
+          40.5,
+          18,
+          0.7
+        ]
+      ],
+      "waters": [
+        [
+          "亚得里亚海",
+          16.3,
+          41.5,
+          16,
+          false
+        ],
+        [
+          "爱奥尼亚海",
+          18.2,
+          38.2,
+          16,
+          false
+        ],
+        [
+          "爱 琴 海",
+          25.7,
+          38.0,
+          16,
+          false
+        ],
+        [
+          "克里特海",
+          24.5,
+          36.0,
+          14,
+          false
+        ],
+        [
+          "黑 海",
+          33.5,
+          43.2,
+          20,
+          false
+        ],
+        [
+          "地 中 海",
+          15.0,
+          34.8,
+          20,
+          false
+        ],
+        [
+          "阿尔卑斯山",
+          10.0,
+          46.4,
+          15,
+          true
+        ],
+        [
+          "迪纳拉山脉",
+          17.3,
+          43.4,
+          13,
+          true
+        ],
+        [
+          "品都斯山脉",
+          20.9,
+          40.3,
+          13,
+          true
+        ],
+        [
+          "奥林匹斯山",
+          22.3,
+          40.1,
+          12,
+          true
+        ]
+      ]
+    },
+    "cityLabelBox": "centered",
+    "mobileZoomCap": 4
+  },
+  "display": {
+    "hideTransport": {
+      "map2d": true,
+      "sandbox": true
+    },
+    "statusEchelons": "leaves"
+  },
+  "sandbox": {
+    "exaggeration": 9,
+    "figScale": 17
+  },
+  "director": {
+    "returnTo": "phase",
+    "defaultZoom": [
+      3,
+      4
+    ],
+    "sirens": [
+      {
+        "category": "air",
+        "maxImportance": 1,
+        "sfx": "siren",
+        "volume": 0.55
+      }
+    ]
+  },
+  "audio": {
+    "music": [
+      {
+        "from": "1940-10-28T00:00",
+        "track": "polonaise"
+      },
+      {
+        "from": "1941-04-18T00:00",
+        "track": "elegy"
+      }
+    ],
+    "intensity": [
+      {
+        "from": "1940-10-28T00:00",
+        "value": 0.08
+      },
+      {
+        "from": "1940-10-28T05:30",
+        "value": 0.72
+      },
+      {
+        "from": "1941-04-06T00:00",
+        "value": 0.55
+      },
+      {
+        "from": "1941-04-18T00:00",
+        "value": 0.28
+      }
+    ],
+    "introSting": "fanfare",
+    "introMusic": "polonaise"
+  },
+  "ui": {
+    "layers": {
+      "demarcation": {
+        "label": "停战线"
+      }
+    },
+    "chapterNav": "timeline",
+    "treeActiveOnly": true,
+    "sandboxPhaseFocus": true,
+    "cardYear": "keep",
+    "brief": {
+      "title": "巴尔干战役",
+      "sub": "Greece · Yugoslavia · Crete",
+      "sub2": "1940.10.28 — 1941.6.1",
+      "fine": "数字按本章投入整理，未知项显示“未详”。军团与所属师不重复计为兵力。路线与战线为战役级示意。",
+      "byPhase": true,
+      "losses": false,
+      "notes": "list",
+      "notesTitle": "编制与史料口径",
+      "nullLabel": "未详",
+      "nullBarWidth": 0,
+      "showEmptyRows": true,
+      "menFormat": "fixed1"
+    },
+    "status": {
+      "cells": [
+        {
+          "sides": [
+            "GR",
+            "YU",
+            "GB",
+            "AU",
+            "NZ"
+          ],
+          "metric": "act",
+          "label": "盟军编制在战"
+        },
+        {
+          "sides": [
+            "GR",
+            "YU",
+            "GB",
+            "AU",
+            "NZ"
+          ],
+          "metric": "enc",
+          "label": "被合围",
+          "cls": "enc"
+        },
+        {
+          "sides": [
+            "GR",
+            "YU",
+            "GB",
+            "AU",
+            "NZ"
+          ],
+          "metric": "out",
+          "label": "已投降或撤出",
+          "cls": "out"
+        },
+        {
+          "sides": [
+            "DE",
+            "IT",
+            "HU",
+            "BG"
+          ],
+          "metric": "act",
+          "label": "轴心国单位在战"
+        }
+      ]
+    },
+    "legend": {
+      "counters": [
+        [
+          "DE",
+          "armor",
+          "division",
+          "装甲"
+        ],
+        [
+          "DE",
+          "motorized",
+          "division",
+          "摩托化步兵"
+        ],
+        [
+          "GR",
+          "infantry",
+          "division",
+          "希军步兵"
+        ],
+        [
+          "GB",
+          "infantry",
+          "division",
+          "英军步兵"
+        ],
+        [
+          "IT",
+          "infantry",
+          "division",
+          "意军步兵"
+        ],
+        [
+          "DE",
+          "airborne",
+          "division",
+          "空降部队"
+        ],
+        [
+          "GR",
+          "fortress",
+          "brigade",
+          "要塞/筑垒"
+        ],
+        [
+          "DE",
+          "hq",
+          "army",
+          "集团军指挥部"
+        ]
+      ],
+      "items": [
+        "<i class=\"lg-fill a\"></i>轴心国控制（斜线）",
+        "<i class=\"lg-fill\"></i>盟军控制",
+        "<i class=\"lg-front\"></i>战线（接触线）",
+        "<i class=\"lg-demarc\"></i>停战线（示意）",
+        "<i class=\"lg-pocket\"></i>包围圈"
+      ]
+    },
+    "pocketFate": {
+      "broke_out": "撤出"
+    },
+    "modelLabels": {
+      "inf_it": "意军步兵班（示意）",
+      "inf_gr": "希军步兵班（示意）",
+      "inf_yu": "南斯拉夫步兵班（示意）",
+      "inf_gb": "英军步兵班（示意）",
+      "inf_hu": "匈军步兵班（示意）",
+      "inf_bg": "保军步兵班（示意）",
+      "inf_au": "澳军步兵班（示意）",
+      "inf_nz": "新西兰步兵班（示意）",
+      "para_de": "德军伞兵班（示意）"
+    },
+    "precisionStyle": "plain"
+  },
+  "intro": {
+    "stamp": "GEHEIM · SECRET · 绝密",
+    "kicker": "作战档案 No. 1941/B",
+    "title": "巴尔干战役",
+    "en": "The Balkans Campaign · Greece, Yugoslavia &amp; Crete",
+    "dates": "1940年10月28日 — 1941年6月1日",
+    "paragraphs": [
+      "从意军由阿尔巴尼亚入侵希腊，到希军反攻与冬季山地战；从德军多路突破南斯拉夫、希腊本土，到英联邦撤退与克里特空降。这份作战档案以连续时间轴呈现七个月的战线变化。"
+    ],
+    "how": "六个章节同步展示部队、推进方向和事件说明。全景以集团军与军团呈现，放大可查看关键师与旅；每个历史节点均附来源。路线与战线为战役级重建。",
+    "note": "建议开启声音 · 支持鼠标滚轮缩放、拖动平移 · 历史示意图，边界与位置为近似",
+    "photo": "File:Bundesarchiv Bild 101I-200-1342-17, Griechenland, Gebirgsjäger.jpg",
+    "photoFallback": "File:German paratroopers and Ju 52 over Crete 1941.jpg"
+  },
+  "credits": {
+    "disclaimer": "本页面为历史教学用示意推演。历史国界、阶段战线与部队位置依据官方战史及公开地理数据整理，存在近似与简化；有争议事件均已注明。地图完全离线自绘，未使用任何在线地图瓦片服务。",
+    "geodata": [
+      "<b>Natural Earth 1:10m</b>（河流、湖泊、海岸、陆地）— 公有领域",
+      "<b>1940年开战时国界</b> — Historical Basemaps 1938（GPL-3.0）基础，经官方史料校核修正；自然海岸由 Natural Earth 对齐。<a href=\"geo/balkans1940.meta.json\" target=\"_blank\" rel=\"noopener\">地理处理记录</a>",
+      "<b>离线周边地理背景</b> — Natural Earth物理地理与Terrarium高程，同一投影独立生成。<a href=\"geo/context.meta.json\" target=\"_blank\" rel=\"noopener\">来源与处理记录</a>"
+    ],
+    "extraHtml": "<h3>历史地图</h3><ul><li><a href=\"history/yugoslavia-1941.jpg\" target=\"_blank\" rel=\"noopener\">美国陆军 · 南斯拉夫战役图</a></li><li><a href=\"history/greece-1941.jpg\" target=\"_blank\" rel=\"noopener\">美国陆军 · 希腊本土战役图</a></li><li><a href=\"history/crete-1941.jpg\" target=\"_blank\" rel=\"noopener\">美国陆军 · 克里特空降图</a></li></ul><h3>同期英语档案</h3><p><a href=\"https://www.nzonscreen.com/videos/return-from-crete-1941/\" target=\"_blank\" rel=\"noopener\">Return from Crete（1941）· 新西兰国家电影单位原片</a>，记录撤离后的返航与讲话。此入口需联网。</p>",
+    "footerHtml": "<p class=\"fine\"><a href=\"library-credits.json\" target=\"_blank\" rel=\"noopener\">复用素材库的完整署名</a> · 页面事件照片使用本战役的新素材。</p>",
+    "sections": [
+      [
+        "照片",
+        "photos"
+      ],
+      [
+        "音效",
+        "audio"
+      ],
+      [
+        "音乐",
+        "music"
+      ],
+      [
+        "字体",
+        "fonts"
+      ]
+    ]
+  },
+  "hub": {
+    "order": 5,
+    "codename": "玛丽塔行动",
+    "pin": [
+      21.4,
+      41.4
+    ],
+    "cover": "photos/balkans/greek-korce.webp",
+    "blurb": "意军入侵希腊受挫，希军反攻入阿尔巴尼亚；半年后德军多路突入南斯拉夫与希腊，英联邦远征军一路南撤，直至克里特。"
+  }
+}

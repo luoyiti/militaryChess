@@ -1,0 +1,1844 @@
+[
+ {
+  "id": "e.gleiwitz_incident",
+  "at": "1939-08-31T20:00",
+  "category": "political",
+  "importance": 1,
+  "side": "DE",
+  "title": {
+   "zh": "格莱维茨电台事件",
+   "orig": "Überfall auf den Sender Gleiwitz"
+  },
+  "body": "8月31日晚约20时，党卫队保安处阿尔弗雷德·瑙约克斯率小队冒充波兰人，袭击德国上西里西亚的格莱维茨电台，并用波兰语短暂播出挑衅声明。现场留下被杀害的西里西亚人弗朗齐歇克·霍尼奥克的遗体作为“证据”。这是“希姆莱行动”系列伪旗事件之一，次日被纳粹宣传用作进攻波兰的借口。",
+  "place": "@gleiwitz",
+  "sfx": [
+   "radio",
+   "rifle"
+  ],
+  "photo": {
+   "commons": "File:Gleiwitz Radio Tower Contre-Jour.JPG",
+   "caption": "格莱维茨电台木制发射塔（今貌）"
+  },
+  "sources": [
+   "wiki_gleiwitz",
+   "wiki_invasion_poland"
+  ],
+  "confidence": "high",
+  "zoomRel": 4.4
+ },
+ {
+  "id": "e.tczew_bridges",
+  "at": "1939-09-01T04:30",
+  "endAt": "1939-09-01T06:40",
+  "category": "battle",
+  "importance": 2,
+  "side": "DE",
+  "title": {
+   "zh": "特切夫大桥",
+   "orig": "Brücken bei Dirschau / Mosty w Tczewie"
+  },
+  "body": "为夺取维斯瓦河上的特切夫铁路桥和公路桥，德国空军第1俯冲轰炸机联队第3中队于4时30分前后出动Ju 87，轰炸波方的起爆线路，这常被视为二战最早的空袭之一。随后德军装甲列车试图冲桥，但波兰工兵仍于清晨约6时30分炸毁两座大桥，德军夺桥计划落空。",
+  "place": "@tczew",
+  "sfx": [
+   "stuka",
+   "explosion"
+  ],
+  "photo": {
+   "commons": "File:Tczew, Most Lisewski - fotopolska.eu (309232).jpg",
+   "caption": "战前的特切夫维斯瓦河大桥"
+  },
+  "sources": [
+   "wiki_dirschau",
+   "wiki_pl_tczew"
+  ],
+  "confidence": "medium",
+  "zoomRel": 5.6
+ },
+ {
+  "id": "e.wielun_bombing",
+  "at": "1939-09-01T04:40",
+  "category": "atrocity",
+  "importance": 1,
+  "side": "DE",
+  "title": {
+   "zh": "维隆轰炸",
+   "orig": "Bombardowanie Wielunia"
+  },
+  "body": "9月1日清晨，德国空军第76俯冲轰炸机联队第1大队的Ju 87轰炸不设防的小城维隆，医院亦被命中。当日多轮空袭共投弹约46吨，市中心约七成以上建筑被毁，平民死亡估计从数百人到约1,200人不等。首次轰炸时间传统记为4时40分，部分研究认为应为5时40分。",
+  "place": "@wielun",
+  "sfx": [
+   "stuka",
+   "siren",
+   "explosion"
+  ],
+  "photo": {
+   "commons": "File:Wielun city bombing 1 September 1939.jpg",
+   "caption": "遭轰炸后的维隆市中心（1939年9月1日）"
+  },
+  "sources": [
+   "wiki_wielun"
+  ],
+  "confidence": "medium",
+  "zoomRel": 5.6
+ },
+ {
+  "id": "e.westerplatte_attack",
+  "at": "1939-09-01T04:45",
+  "endAt": "1939-09-07T10:15",
+  "category": "naval",
+  "importance": 1,
+  "side": "DE",
+  "title": {
+   "zh": "炮击维斯特普拉特",
+   "orig": "Beschießung der Westerplatte"
+  },
+  "body": "4时45分（一说4时47分），停泊在但泽港的德国旧式战列舰“石勒苏益格-荷尔斯泰因”号以280毫米主炮轰击维斯特普拉特半岛上的波兰军事转运仓库。亨里克·苏哈尔斯基少校指挥的约200名守军随后击退了德国海军突击连与但泽警察的首轮进攻。这次炮击通常被视为二战在欧洲的开端。",
+  "place": "@westerplatte",
+  "units": [
+   "de.schleswig_holstein"
+  ],
+  "sfx": [
+   "ship_gun",
+   "explosion"
+  ],
+  "photo": {
+   "commons": "File:Schleswig Holstein firing Westerplatte September 1939.jpg",
+   "caption": "“石勒苏益格-荷尔斯泰因”号炮击维斯特普拉特"
+  },
+  "sources": [
+   "wiki_westerplatte"
+  ],
+  "confidence": "high",
+  "zoomRel": 7
+ },
+ {
+  "id": "e.polish_post_danzig",
+  "at": "1939-09-01T04:45",
+  "endAt": "1939-09-01T19:00",
+  "category": "battle",
+  "importance": 2,
+  "side": "DE",
+  "title": {
+   "zh": "但泽波兰邮局保卫战",
+   "orig": "Obrona Poczty Polskiej w Gdańsku"
+  },
+  "body": "开战同时，但泽警察与党卫队“但泽本土防卫队”进攻赫维柳什广场旁的波兰邮局。约50名武装邮政职员坚守约15小时，德方在地下室引爆炸药并泼洒汽油纵火后，守军于傍晚投降。数人当场或事后伤重身亡，38名幸存者10月5日被德国军事法庭以“非法战斗人员”罪名判处死刑并枪决。",
+  "place": "@poczta_gdansk",
+  "sfx": [
+   "mg",
+   "rifle",
+   "explosion"
+  ],
+  "photo": {
+   "commons": "File:Defenders of the Polish Post Office, Gdansk, 1939.jpg",
+   "caption": "但泽波兰邮局的守卫者（1939年）"
+  },
+  "sources": [
+   "wiki_polish_post"
+  ],
+  "confidence": "high",
+  "zoomRel": 7
+ },
+ {
+  "id": "e.invasion_begins",
+  "at": "1939-09-01T04:45",
+  "category": "movement",
+  "importance": 1,
+  "side": "DE",
+  "title": {
+   "zh": "德军全线越境",
+   "orig": "Fall Weiß"
+  },
+  "body": "德国未经宣战即执行“白色方案”：博克的北方集团军群自波美拉尼亚和东普鲁士、伦德施泰特的南方集团军群自西里西亚和斯洛伐克同时越境，投入约150万人、2,700余辆坦克和约2,000架作战飞机，意图在维斯瓦河以西钳形合围波军主力。波兰7个集团军及若干独立集群沿漫长国境线展开迎战。",
+  "place": [
+   19,
+   52
+  ],
+  "units": [
+   "de.ag_nord",
+   "de.ag_sud",
+   "pl.gnw"
+  ],
+  "sfx": [
+   "artillery",
+   "tank",
+   "march"
+  ],
+  "photo": {
+   "commons": "File:AGAD Łamanie szlabanu granicznego.jpg",
+   "caption": "德军士兵拆除波兰边境栏杆（宣传照片）"
+  },
+  "sources": [
+   "wiki_invasion_poland",
+   "da_pam_20_255",
+   "zaloga_2002"
+  ],
+  "confidence": "high",
+  "zoomRel": 1,
+  "wide": true
+ },
+ {
+  "id": "e.slovak_invasion",
+  "at": "1939-09-01T05:00",
+  "endAt": "1939-09-11T18:00",
+  "category": "movement",
+  "importance": 2,
+  "side": "SK",
+  "title": {
+   "zh": "斯洛伐克越境",
+   "orig": "Slovenská poľná armáda Bernolák"
+  },
+  "body": "5时，国防部长费迪南德·恰特洛什指挥的斯洛伐克“贝尔诺拉克”集团军约5.1万人随德第14集团军越过塔特拉山区边界。第1师占领亚沃日纳和扎科帕内并向新塔尔格推进，掩护德第2山地师左翼，9月4–5日与波军交火，7日止步于境内约30公里处；第3师在东段向萨诺克方向推进至11日。",
+  "place": "@zakopane",
+  "units": [
+   "sk.bernolak",
+   "sk.1d",
+   "sk.3d"
+  ],
+  "sfx": [
+   "march",
+   "rifle"
+  ],
+  "sources": [
+   "wiki_slovak_invasion"
+  ],
+  "confidence": "high",
+  "zoomRel": 3.4
+ },
+ {
+  "id": "e.tuchola_forest",
+  "at": "1939-09-01T05:00",
+  "endAt": "1939-09-05T12:00",
+  "category": "battle",
+  "importance": 1,
+  "side": "DE",
+  "title": {
+   "zh": "图霍拉森林走廊合拢",
+   "orig": "Bitwa w Borach Tucholskich"
+  },
+  "body": "古德里安第19摩托化军自波美拉尼亚向东切断“波兰走廊”，第3装甲师9月1日傍晚渡过布尔达河，次日前出维斯瓦河畔。9月3日德第4集团军与自东普鲁士西进的第3集团军会合，走廊合拢。波美拉尼亚集团军第9、第27步兵师和波美拉尼亚骑兵旅大部被围于图霍拉森林，至9月5日基本被歼或被俘。",
+  "place": "@tuchola",
+  "units": [
+   "de.4a",
+   "de.xix_mk",
+   "de.3pz",
+   "de.2id_mot",
+   "de.20id_mot",
+   "pl.pomorze",
+   "pl.og_czersk",
+   "pl.9dp",
+   "pl.27dp",
+   "pl.bk_pomorska"
+  ],
+  "sfx": [
+   "tank",
+   "artillery",
+   "mg"
+  ],
+  "sources": [
+   "wiki_tuchola",
+   "zaloga_2002",
+   "da_pam_20_255"
+  ],
+  "confidence": "high",
+  "zoomRel": 3.4
+ },
+ {
+  "id": "e.mokra",
+  "at": "1939-09-01T06:30",
+  "endAt": "1939-09-01T17:00",
+  "category": "battle",
+  "importance": 2,
+  "side": "DE",
+  "title": {
+   "zh": "莫克拉之战",
+   "orig": "Bitwa pod Mokrą"
+  },
+  "body": "菲利波维奇上校的沃伦骑兵旅在克沃布茨克以北凭铁路路堤与森林下马防御，以37毫米博福斯反坦克炮和“勇敢”号装甲列车迎击德第4装甲师。激战至17时，德军多次进攻受挫，据估计损失约800人及装甲车辆逾百辆（其中坦克约50辆，各方口径不一）；波军伤亡约500人，入夜后奉命东撤。",
+  "place": "@mokra",
+  "units": [
+   "pl.bk_wolynska",
+   "pl.lodz",
+   "de.4pz",
+   "de.xvi_mk"
+  ],
+  "sfx": [
+   "tank",
+   "artillery",
+   "cavalry"
+  ],
+  "photo": {
+   "commons": "File:Bitwa mokra 1939.png",
+   "caption": "莫克拉之战态势示意图"
+  },
+  "sources": [
+   "wiki_mokra",
+   "zaloga_2002"
+  ],
+  "confidence": "medium",
+  "zoomRel": 5.6
+ },
+ {
+  "id": "e.warsaw_air_defense",
+  "at": "1939-09-01T07:00",
+  "endAt": "1939-09-06T18:00",
+  "category": "air",
+  "importance": 3,
+  "side": "PL",
+  "title": {
+   "zh": "驱逐机旅保卫华沙",
+   "orig": "Brygada Pościgowa"
+  },
+  "body": "开战首日德国空军即空袭华沙。波兰驱逐机旅以约54架PZL P.11和P.7战斗机升空迎击，在首都上空与He 111、Do 17轰炸机及Bf 110护航机群交战。至9月6日该旅宣称击落德机约40架，自身损失约38架，因燃料和备件匮乏被调往卢布林方向，华沙防空此后主要依靠高射炮。",
+  "place": "@warszawa",
+  "sfx": [
+   "engine",
+   "mg",
+   "siren"
+  ],
+  "sources": [
+   "wiki_pursuit_brigade",
+   "wiki_bombing_warsaw"
+  ],
+  "confidence": "medium",
+  "zoomRel": 3.4
+ },
+ {
+  "id": "e.jordanow",
+  "at": "1939-09-01T08:00",
+  "endAt": "1939-09-02T18:00",
+  "category": "battle",
+  "importance": 2,
+  "side": "DE",
+  "title": {
+   "zh": "约尔达努夫之战",
+   "orig": "Bitwa pod Jordanowem"
+  },
+  "body": "马切克上校的第10摩托化骑兵旅在贝斯基德山区约尔达努夫一线迎击从斯洛伐克北上的德第2装甲师，与国民防卫营一起依托隘路和山地阵地逐次抵抗，击毁德军坦克多辆。经两天激战，该旅于9月2日放弃约尔达努夫，但迟滞了德军向克拉科夫集团军侧后的迂回，此后多次担任该集团军的后卫。",
+  "place": "@jordanow",
+  "units": [
+   "pl.10bk",
+   "pl.krakow",
+   "de.2pz",
+   "de.xxii_mk"
+  ],
+  "sfx": [
+   "tank",
+   "mg",
+   "artillery"
+  ],
+  "sources": [
+   "wiki_jordanow",
+   "zaloga_2002"
+  ],
+  "confidence": "medium",
+  "zoomRel": 4.4
+ },
+ {
+  "id": "e.hitler_reichstag",
+  "at": "1939-09-01T10:10",
+  "category": "political",
+  "importance": 3,
+  "side": "DE",
+  "title": {
+   "zh": "希特勒国会演说",
+   "orig": "Reichstagsrede: „Seit 5.45 Uhr wird jetzt zurückgeschossen!“"
+  },
+  "body": "上午约10时，希特勒在柏林克罗尔歌剧院召开的国会会议上发表演说，声称波兰正规军前夜攻击了德国领土，宣布“自5时45分起我们开始还击”。实际进攻比这一时刻早约一小时，所谓“袭击”即格莱维茨等伪旗行动。同日，但泽自由市被宣布并入德国。",
+  "place": "@berlin",
+  "sfx": [
+   "radio",
+   "fanfare"
+  ],
+  "sources": [
+   "wiki_invasion_poland",
+   "wiki_gleiwitz"
+  ],
+  "confidence": "high",
+  "zoomRel": 1.35
+ },
+ {
+  "id": "e.mlawa",
+  "at": "1939-09-01T12:00",
+  "endAt": "1939-09-03T22:00",
+  "category": "battle",
+  "importance": 2,
+  "side": "DE",
+  "title": {
+   "zh": "姆瓦瓦防线之战",
+   "orig": "Bitwa pod Mławą"
+  },
+  "body": "莫德林集团军第20步兵师（利什卡上校）依托混凝土工事和反坦克壕固守姆瓦瓦阵地，屡次击退德第3集团军第1军与肯普夫装甲师的正面进攻。德军沃德里希军在姆瓦瓦以东迂回，波军第8步兵师反击又陷入混乱，波军遂于9月3日夜奉命南撤。德方损失约1,800人阵亡及数十辆坦克（波方称72辆）。",
+  "place": "@mlawa",
+  "units": [
+   "pl.modlin",
+   "pl.20dp",
+   "pl.8dp",
+   "pl.bk_mazowiecka",
+   "de.3a",
+   "de.i_ak",
+   "de.pz_kempf",
+   "de.korps_wodrig"
+  ],
+  "sfx": [
+   "artillery",
+   "tank",
+   "mg"
+  ],
+  "photo": {
+   "commons": "File:Grób Nieznanego Żołnierza - bitwy 1939 Mława Mokra.jpg",
+   "caption": "华沙无名烈士墓上的姆瓦瓦、莫克拉等战役铭牌"
+  },
+  "sources": [
+   "wiki_mlawa",
+   "zaloga_2002"
+  ],
+  "confidence": "medium",
+  "zoomRel": 4.4
+ },
+ {
+  "id": "e.krojanty",
+  "at": "1939-09-01T19:00",
+  "category": "battle",
+  "importance": 2,
+  "side": "PL",
+  "title": {
+   "zh": "克罗扬蒂冲锋",
+   "orig": "Szarża pod Krojantami"
+  },
+  "body": "傍晚约19时，波美拉尼亚第18乌兰团两个骑兵中队在马斯塔莱日上校率领下，于克罗扬蒂附近向德第20摩托化步兵师正在休整的一个步兵营发起马刀冲锋，将其驱散。随后赶到的德军装甲车用机枪扫射，上校等约20人阵亡。意大利记者据现场所见误传为“骑兵冲击坦克”，此说后被德苏宣传广泛利用。",
+  "place": "@krojanty",
+  "units": [
+   "pl.bk_pomorska",
+   "de.20id_mot"
+  ],
+  "sfx": [
+   "cavalry",
+   "mg"
+  ],
+  "photo": {
+   "commons": "File:Pomnik ku czci poległych w szarży żołnierzy 18 pułku ułanów pomorskich nieopodal wsi Krojanty - panoramio.jpg",
+   "caption": "克罗扬蒂附近纪念第18乌兰团冲锋的纪念碑"
+  },
+  "sources": [
+   "wiki_krojanty"
+  ],
+  "confidence": "high",
+  "zoomRel": 7
+ },
+ {
+  "id": "e.wegierska_gorka",
+  "at": "1939-09-02T06:00",
+  "endAt": "1939-09-03T12:00",
+  "category": "battle",
+  "importance": 3,
+  "side": "DE",
+  "title": {
+   "zh": "文盖尔斯卡古尔卡防御战",
+   "orig": "Obrona Węgierskiej Górki"
+  },
+  "body": "索瓦河谷的文盖尔斯卡古尔卡修筑有5座混凝土碉堡，由塔德乌什·塞姆克上尉指挥的小股守军（含国民防卫部队）据守。9月2日至3日，他们以机枪和少量火炮阻击兵力数倍于己的德军进攻，迫使对方反复强攻，因此被称为“南方的维斯特普拉特”。最后的碉堡在3日弹药耗尽后放弃。",
+  "place": "@wegierska_gorka",
+  "units": [
+   "pl.krakow"
+  ],
+  "sfx": [
+   "mg",
+   "artillery"
+  ],
+  "sources": [
+   "wiki_wegierska_gorka"
+  ],
+  "confidence": "medium",
+  "zoomRel": 5.6
+ },
+ {
+  "id": "e.danzig_bay",
+  "at": "1939-09-03T06:50",
+  "endAt": "1939-09-03T16:00",
+  "category": "naval",
+  "importance": 3,
+  "side": "DE",
+  "title": {
+   "zh": "赫尔港海空战",
+   "orig": "Bitwa w Zatoce Gdańskiej"
+  },
+  "body": "9月3日清晨，德国驱逐舰“莱贝雷希特·马斯”号和“沃尔夫冈·岑克尔”号驶近赫尔，与停泊港内的波兰驱逐舰“旋风”号、布雷舰“狮鹫”号及岸炮对射，“马斯”号中弹后撤离。当日午后德国俯冲轰炸机空袭赫尔港，击沉“旋风”号和“狮鹫”号，留守波罗的海的波兰大型水面舰艇基本损失殆尽。",
+  "place": "@hel",
+  "units": [
+   "pl.hel"
+  ],
+  "sfx": [
+   "ship_gun",
+   "stuka",
+   "explosion"
+  ],
+  "sources": [
+   "wiki_danzig_bay",
+   "wiki_hel"
+  ],
+  "confidence": "medium",
+  "zoomRel": 4.4
+ },
+ {
+  "id": "e.czestochowa_fall",
+  "at": "1939-09-03T09:00",
+  "category": "movement",
+  "importance": 3,
+  "side": "DE",
+  "title": {
+   "zh": "德军占领琴斯托霍瓦",
+   "orig": "Częstochowa"
+  },
+  "body": "德第10集团军突破克沃布茨克—莫克拉一线后，罗兹集团军与克拉科夫集团军的结合部被撕开。9月3日德军进入琴斯托霍瓦，负责该方向的波兰第7步兵师在亚努夫附近被合围，师长加西奥罗夫斯基将军被俘。德第4装甲师由此打开了通往彼得库夫和华沙的道路。",
+  "place": "@czestochowa",
+  "units": [
+   "de.10a",
+   "pl.7dp"
+  ],
+  "sfx": [
+   "march",
+   "tank"
+  ],
+  "sources": [
+   "wiki_invasion_poland",
+   "wiki_czestochowa",
+   "zaloga_2002"
+  ],
+  "confidence": "medium",
+  "zoomRel": 4.4
+ },
+ {
+  "id": "e.bydgoszcz",
+  "at": "1939-09-03T10:00",
+  "endAt": "1939-09-04T18:00",
+  "category": "atrocity",
+  "importance": 2,
+  "title": {
+   "zh": "比得哥什事件（有争议）",
+   "orig": "Krwawa niedziela / Bromberger Blutsonntag"
+  },
+  "body": "9月3日波军撤经比得哥什时城内发生枪战与处决，双方叙述差异大、存在争议：波方称遭德裔武装人员和德国特工从背后射击，德方称德裔平民遭到屠杀。研究估计德裔死亡约100至300余人，波方约40至50人。纳粹宣传将数字夸大至数千乃至5.8万；德军入城后以报复为名处决了数百名波兰居民。",
+  "place": "@bydgoszcz",
+  "sfx": [
+   "rifle",
+   "mg"
+  ],
+  "sources": [
+   "wiki_bloody_sunday"
+  ],
+  "confidence": "medium",
+  "zoomRel": 5.6
+ },
+ {
+  "id": "e.uk_france_declare_war",
+  "at": "1939-09-03T11:00",
+  "endAt": "1939-09-03T17:00",
+  "category": "political",
+  "importance": 1,
+  "title": {
+   "zh": "英法对德宣战",
+   "orig": "Britain and France declare war on Germany"
+  },
+  "body": "英国最后通牒于上午11时期满，张伯伦随即通过广播宣布英国与德国进入战争状态；法国最后通牒于17时期满后亦对德宣战，澳大利亚、新西兰当日跟进。华沙市民聚集在英法使馆前欢呼。但西线盟军仅在9月7日发动有限的萨尔攻势，未能减轻波兰正面的压力。（地图位置为示意，标于华沙）",
+  "place": "@warszawa",
+  "sfx": [
+   "radio",
+   "bell"
+  ],
+  "photo": {
+   "commons": "File:The War Illustrated 001 1939-09-16 cover iv.jpg",
+   "caption": "《战争画报》创刊号封底的张伯伦像"
+  },
+  "sources": [
+   "wiki_uk_war",
+   "wiki_fr_war"
+  ],
+  "confidence": "high",
+  "zoomRel": 1,
+  "wide": true
+ },
+ {
+  "id": "e.czestochowa_massacre",
+  "at": "1939-09-04T10:00",
+  "category": "atrocity",
+  "importance": 3,
+  "side": "DE",
+  "title": {
+   "zh": "琴斯托霍瓦枪杀平民",
+   "orig": "Krwawy poniedziałek w Częstochowie"
+  },
+  "body": "9月4日，驻琴斯托霍瓦的德军第42步兵团等部声称遭城内枪手射击，随即在主教座堂广场一带集中搜捕居民，并在市内多处枪杀被扣押者，当地称为“血腥星期一”。据波兰方面研究，遇害平民约150人至300余人，各方统计不一，其中包括犹太居民。德军推进途中类似事件在多地发生。",
+  "place": "@czestochowa",
+  "units": [
+   "de.10a"
+  ],
+  "sfx": [
+   "rifle"
+  ],
+  "sources": [
+   "wiki_czestochowa",
+   "wiki_pl_czestochowa"
+  ],
+  "confidence": "medium",
+  "zoomRel": 5.6
+ },
+ {
+  "id": "e.piotrkow",
+  "at": "1939-09-05T08:00",
+  "endAt": "1939-09-06T02:00",
+  "category": "battle",
+  "importance": 2,
+  "side": "DE",
+  "title": {
+   "zh": "彼得库夫坦克战",
+   "orig": "Bitwa pod Piotrkowem Trybunalskim"
+  },
+  "body": "霍普纳第16摩托化军（第1、第4装甲师，坦克600余辆）自罗兹普日亚渡口进攻彼得库夫，普鲁士集团军第19步兵师仓促阻击，波兰第2轻型坦克营的7TP坦克侧翼反击。9月5日14时德军再度突击后突破防线，当晚入城，第19师两个营损失逾八成。据扎洛加统计德军损失坦克17辆、装甲车14辆。",
+  "place": "@piotrkow",
+  "units": [
+   "pl.prusy",
+   "pl.19dp",
+   "pl.29dp",
+   "pl.bk_wilenska",
+   "pl.lodz",
+   "de.xvi_mk",
+   "de.1pz",
+   "de.4pz"
+  ],
+  "sfx": [
+   "tank",
+   "artillery"
+  ],
+  "photo": {
+   "commons": "File:Bundesarchiv Bild 101I-012-0016-20, Polen, Panzer IV in Ortschaft.jpg",
+   "caption": "1939年9月波兰某村镇中的德军四号坦克（地点不详）"
+  },
+  "sources": [
+   "wiki_piotrkow",
+   "zaloga_2002"
+  ],
+  "confidence": "medium",
+  "zoomRel": 4.4
+ },
+ {
+  "id": "e.krakow_falls",
+  "at": "1939-09-06T12:00",
+  "category": "movement",
+  "importance": 2,
+  "side": "DE",
+  "title": {
+   "zh": "克拉科夫失守",
+   "orig": "Kraków / Krakau"
+  },
+  "body": "西里西亚防线侧翼被迂回后，克拉科夫集团军于9月4–5日奉命向杜纳耶茨河与尼达河一线后撤，没有在古都设防死守。9月6日德第14集团军部队进入不设防的克拉科夫，城市建筑基本完好。此后该城被定为德占“总督府”首府，汉斯·弗兰克于10月底入驻瓦维尔城堡。",
+  "place": "@krakow",
+  "units": [
+   "pl.krakow",
+   "de.14a"
+  ],
+  "sfx": [
+   "march",
+   "bell"
+  ],
+  "sources": [
+   "wiki_krakow_army",
+   "wiki_invasion_poland"
+  ],
+  "confidence": "medium",
+  "zoomRel": 3.4
+ },
+ {
+  "id": "e.gnw_leaves_warsaw",
+  "at": "1939-09-06T22:00",
+  "endAt": "1939-09-07T04:00",
+  "category": "movement",
+  "importance": 2,
+  "side": "PL",
+  "title": {
+   "zh": "总司令部撤离华沙",
+   "orig": "Ewakuacja Naczelnego Wodza z Warszawy"
+  },
+  "body": "政府各部与外国使团于9月4–6日陆续撤往卢布林方向。9月6日夜，总司令里兹-希米格维元帅率统帅部离开华沙前往布列斯特，与各集团军的通信随之严重中断。同夜乌米亚斯托夫斯基上校通过电台号召首都适龄男子东撤，大批人口涌上公路。华沙防务交由丘马将军和随后到任的罗梅尔将军负责。",
+  "place": "@warszawa",
+  "units": [
+   "pl.gnw"
+  ],
+  "sfx": [
+   "radio",
+   "typewriter",
+   "engine"
+  ],
+  "photo": {
+   "commons": "File:Śmigły-Rydz portrait, 1939.png",
+   "caption": "波兰总司令里兹-希米格维元帅（1939年）"
+  },
+  "sources": [
+   "wiki_rydz",
+   "wiki_pl_umiastowski",
+   "wiki_pl_kampania"
+  ],
+  "confidence": "medium",
+  "zoomRel": 1.9
+ },
+ {
+  "id": "e.westerplatte_surrender",
+  "at": "1939-09-07T10:15",
+  "category": "surrender",
+  "importance": 1,
+  "side": "PL",
+  "title": {
+   "zh": "维斯特普拉特投降",
+   "orig": "Kapitulacja Westerplatte"
+  },
+  "body": "守军在舰炮、重炮和两次大规模俯冲轰炸下坚守七天，而战前计划只要求坚守12小时。9月7日凌晨德军再度猛轰后，因伤员无法救治、弹药饮水将尽，苏哈尔斯基少校于10时15分前后挂出白旗。约200名守军中阵亡约15人，德方伤亡数字说法不一。德方允许苏哈尔斯基佩军刀投降，以示对守军的礼遇。",
+  "place": "@westerplatte",
+  "sfx": [
+   "stamp",
+   "bell"
+  ],
+  "photo": {
+   "commons": "File:Polish officers (POW) of Westerplatte-7.09.1939.jpg",
+   "caption": "被俘的维斯特普拉特守军军官（9月7日）"
+  },
+  "sources": [
+   "wiki_westerplatte"
+  ],
+  "confidence": "high",
+  "zoomRel": 7
+ },
+ {
+  "id": "e.wizna",
+  "at": "1939-09-07T12:00",
+  "endAt": "1939-09-10T13:30",
+  "category": "battle",
+  "importance": 2,
+  "side": "DE",
+  "title": {
+   "zh": "维兹纳防御战",
+   "orig": "Obrona Wizny"
+  },
+  "body": "拉吉尼斯上尉指挥约360至720人，凭12座碉堡扼守纳雷夫河维兹纳渡口，迎战古德里安第19摩托化军第10装甲师与勒岑旅等约4万人。9月9–10日德军以炮火、空袭和工兵爆破逐一拔除碉堡。10日午后最后两座碉堡停火，重伤的拉吉尼斯拒绝投降，以手榴弹自尽。此战被称为“波兰的温泉关”。",
+  "place": "@wizna",
+  "units": [
+   "pl.sgo_narew",
+   "de.xix_mk",
+   "de.10pz"
+  ],
+  "sfx": [
+   "artillery",
+   "mg",
+   "tank"
+  ],
+  "photo": {
+   "commons": "File:Von den Polen zerstorte Brucke bei Wizna. (18545017).jpg",
+   "caption": "被波军炸毁的维兹纳纳雷夫河桥（德方照片）"
+  },
+  "sources": [
+   "wiki_wizna"
+  ],
+  "confidence": "medium",
+  "zoomRel": 5.6
+ },
+ {
+  "id": "e.radom_ilza",
+  "at": "1939-09-08T06:00",
+  "endAt": "1939-09-12T12:00",
+  "category": "battle",
+  "importance": 2,
+  "side": "DE",
+  "title": {
+   "zh": "拉多姆—伊尔扎包围战",
+   "orig": "Bitwa pod Iłżą / Kesselschlacht bei Radom"
+  },
+  "body": "普鲁士集团军南部集群在凯尔采以北展开时，即遭德第10集团军摩托化部队从南北两翼包抄。9月8–9日，伊尔扎一带的波兰第3、第12、第36步兵师多次组织夜间突围，部分部队经伊尔扎森林冲出。至9月12日包围圈肃清，德方宣称俘虏约6万人、缴获火炮约130门，残部渡过维斯瓦河东撤。",
+  "place": "@ilza",
+  "units": [
+   "pl.prusy",
+   "pl.3dp",
+   "pl.12dp",
+   "pl.36dp",
+   "de.10a",
+   "de.xiv_mk",
+   "de.xv_mk"
+  ],
+  "sfx": [
+   "tank",
+   "artillery"
+  ],
+  "sources": [
+   "wiki_radom",
+   "da_pam_20_255"
+  ],
+  "confidence": "medium",
+  "zoomRel": 3.4
+ },
+ {
+  "id": "e.ochota",
+  "at": "1939-09-08T17:00",
+  "endAt": "1939-09-09T18:00",
+  "category": "battle",
+  "importance": 1,
+  "side": "DE",
+  "title": {
+   "zh": "华沙奥霍塔之战",
+   "orig": "Obrona Warszawy: Ochota i Wola"
+  },
+  "body": "9月8日17时，德第4装甲师前卫沿格鲁耶茨卡大街突入华沙西南的奥霍塔区，德国电台随即宣称已攻占华沙。守军以街垒、75毫米野炮直瞄射击和点燃的松节油阻击，击退了冲击。9日德军增援后再攻奥霍塔与沃拉仍告失败，第4装甲师约220辆参战坦克中损失约80辆，被迫转为包围。",
+  "place": "@ochota",
+  "units": [
+   "de.4pz",
+   "de.xvi_mk",
+   "pl.warszawa"
+  ],
+  "sfx": [
+   "tank",
+   "artillery",
+   "mg"
+  ],
+  "photo": {
+   "commons": "File:Żołnierze niemieccy przy pętli tramwajowej Opaczewska na ulicy Grójeckiej we wrześniu 1939 roku.jpg",
+   "caption": "格鲁耶茨卡街电车环线旁的德军士兵（1939年9月）"
+  },
+  "sources": [
+   "wiki_siege_warsaw",
+   "wiki_pl_obrona_warszawy",
+   "zaloga_2002"
+  ],
+  "confidence": "medium",
+  "zoomRel": 5.6
+ },
+ {
+  "id": "e.lodz_occupied",
+  "at": "1939-09-09T10:00",
+  "category": "movement",
+  "importance": 3,
+  "side": "DE",
+  "title": {
+   "zh": "德军进入罗兹",
+   "orig": "Łódź / Lodsch"
+  },
+  "body": "罗兹集团军在瓦尔塔河与维德乌夫卡河一线遭德第8、第10集团军夹击，主力自9月6日起向莫德林和华沙方向后撤。9月8–9日德第8集团军部队几乎未遇抵抗便进入波兰第二大城市罗兹，当地部分德裔居民夹道迎接。罗兹后被并入德国瓦尔特兰大区，1940年4月被改名为“利茨曼施塔特”。",
+  "place": "@lodz",
+  "units": [
+   "de.8a",
+   "pl.lodz"
+  ],
+  "sfx": [
+   "march"
+  ],
+  "sources": [
+   "wiki_lodz_1939"
+  ],
+  "confidence": "medium",
+  "zoomRel": 3.4
+ },
+ {
+  "id": "e.bzura_counter",
+  "at": "1939-09-09T19:00",
+  "endAt": "1939-09-12T18:00",
+  "category": "battle",
+  "importance": 1,
+  "side": "PL",
+  "title": {
+   "zh": "布祖拉河反击",
+   "orig": "Bitwa nad Bzurą"
+  },
+  "body": "9月9日晚，库切巴将军指挥波兹南集团军和波美拉尼亚集团军一部，从库特诺一带向南渡过布祖拉河，突击德第8集团军暴露的北翼，德第30步兵师遭重创。波军一度收复文奇察、皮翁泰克并向斯特雷科夫方向推进，迫使德军从华沙方向回调第10集团军部分快速兵力。这是战役中波军规模最大的反击。",
+  "place": "@piatek",
+  "units": [
+   "pl.poznan",
+   "pl.pomorze",
+   "pl.14dp",
+   "pl.17dp",
+   "pl.25dp",
+   "de.8a",
+   "de.30id"
+  ],
+  "sfx": [
+   "artillery",
+   "cavalry",
+   "mg"
+  ],
+  "photo": {
+   "commons": "File:Polish artillery Battle of Bzura 1939.jpg",
+   "caption": "布祖拉战役中遭空袭后的波兰高射炮与车队"
+  },
+  "sources": [
+   "wiki_bzura",
+   "zaloga_2002"
+  ],
+  "confidence": "high",
+  "zoomRel": 3.4
+ },
+ {
+  "id": "e.romanian_bridgehead",
+  "at": "1939-09-10T12:00",
+  "category": "movement",
+  "importance": 3,
+  "side": "PL",
+  "title": {
+   "zh": "退守罗马尼亚桥头堡",
+   "orig": "Przedmoście rumuńskie"
+  },
+  "body": "维斯瓦河防线动摇后，里兹-希米格维于9月10日前后下令各部向东南撤退，计划依托斯特雷河、德涅斯特河和罗马尼亚、匈牙利边境建立“罗马尼亚桥头堡”，等待英法援助和经罗马尼亚港口运来的物资。统帅部随之由布列斯特迁往弗沃基米日，之后再转移至科洛梅亚地区。",
+  "place": "@kolomyja",
+  "units": [
+   "pl.gnw"
+  ],
+  "sfx": [
+   "radio",
+   "morse"
+  ],
+  "sources": [
+   "wiki_romanian_bridgehead",
+   "wiki_rydz"
+  ],
+  "confidence": "medium",
+  "zoomRel": 1.9
+ },
+ {
+  "id": "e.przemysl",
+  "at": "1939-09-11T12:00",
+  "endAt": "1939-09-15T08:00",
+  "category": "battle",
+  "importance": 3,
+  "side": "DE",
+  "title": {
+   "zh": "普热梅希尔之战",
+   "orig": "Obrona Przemyśla"
+  },
+  "body": "德第14集团军第18军强渡桑河后，于9月11日抵近普热梅希尔。该地要塞工事多为一战遗留，守军以后备和临时组建的部队为主。经数日战斗，德军于9月14日突入城区，15日完全控制该城。按德苏分界线安排，此后城市沿桑河一分为二，左岸扎萨涅归德方，右岸老城区移交苏军。",
+  "place": "@przemysl",
+  "units": [
+   "de.14a",
+   "de.xviii_ak"
+  ],
+  "sfx": [
+   "artillery",
+   "mg"
+  ],
+  "sources": [
+   "wiki_przemysl",
+   "wiki_pl_przemysl"
+  ],
+  "confidence": "medium",
+  "zoomRel": 4.4
+ },
+ {
+  "id": "e.lwow_siege",
+  "at": "1939-09-12T12:00",
+  "endAt": "1939-09-22T10:00",
+  "category": "siege",
+  "importance": 2,
+  "side": "DE",
+  "title": {
+   "zh": "利沃夫围城开始",
+   "orig": "Obrona Lwowa"
+  },
+  "body": "9月12日，舍尔纳上校率德第1山地师快速支队突至利沃夫西郊，试图一举夺城未果，围城由此开始。朗格纳将军统率的守军陆续得到溃退部队与志愿者补充，击退了德军多次进攻。9月19日起苏军从东面兵临城下，德军按德苏约定于20日开始后撤，城市随即落入苏军包围之中。",
+  "place": "@lwow",
+  "units": [
+   "de.1geb",
+   "de.xviii_ak"
+  ],
+  "sfx": [
+   "artillery",
+   "mg"
+  ],
+  "photo": {
+   "commons": "File:Polscy parlamentariusze Lwow Gródecka.jpg",
+   "caption": "利沃夫格鲁德茨卡街前线的波军军使"
+  },
+  "sources": [
+   "wiki_lwow"
+  ],
+  "confidence": "high",
+  "zoomRel": 3.4
+ },
+ {
+  "id": "e.kaluszyn",
+  "at": "1939-09-12T22:00",
+  "endAt": "1939-09-13T08:00",
+  "category": "battle",
+  "importance": 3,
+  "side": "PL",
+  "title": {
+   "zh": "卡武申夜战",
+   "orig": "Bitwa pod Kałuszynem"
+  },
+  "body": "9月12日夜，自纳雷夫河方向东撤的波兰第1军团步兵师为打开向东的通路，对驻守卡武申的德第11步兵师第44步兵团发起夜袭。双方在镇内展开激烈近战，至13日清晨波军夺回卡武申并俘获部分德军，自身伤亡亦重。此后该师继续向布格河方向转移。",
+  "place": "@kaluszyn",
+  "units": [
+   "pl.1dp",
+   "de.11id"
+  ],
+  "sfx": [
+   "mg",
+   "rifle"
+  ],
+  "sources": [
+   "wiki_kaluszyn"
+  ],
+  "confidence": "medium",
+  "zoomRel": 5.6
+ },
+ {
+  "id": "e.kepa_oksywska",
+  "at": "1939-09-14T06:00",
+  "endAt": "1939-09-19T17:00",
+  "category": "battle",
+  "importance": 3,
+  "side": "DE",
+  "title": {
+   "zh": "奥克西维高地之战",
+   "orig": "Obrona Kępy Oksywskiej"
+  },
+  "body": "达贝克上校的滨海陆上防御部队在格丁尼亚周边苦战两周后，于9月14日放弃市区，退守奥克西维高地。德军以陆军、党卫队部队及“石勒苏益格-荷尔斯泰因”号等舰炮协同围攻。9月19日守军弹尽，在巴比多维附近投降，达贝克上校拒绝被俘，饮弹自尽。至此滨海地区只剩赫尔半岛仍在波军手中。",
+  "place": "@oksywie",
+  "units": [
+   "pl.low",
+   "de.schleswig_holstein"
+  ],
+  "sfx": [
+   "artillery",
+   "ship_gun",
+   "mg"
+  ],
+  "sources": [
+   "wiki_kepa_oksywska"
+  ],
+  "confidence": "medium",
+  "zoomRel": 5.6
+ },
+ {
+  "id": "e.brest_fortress",
+  "at": "1939-09-14T12:00",
+  "endAt": "1939-09-17T06:00",
+  "category": "siege",
+  "importance": 2,
+  "side": "DE",
+  "title": {
+   "zh": "布列斯特要塞之战",
+   "orig": "Obrona Brześcia"
+  },
+  "body": "9月14日，古德里安第19摩托化军第10装甲师抵达布列斯特，普利索夫斯基将军以约2,000至4,000名临时拼凑的守军、少量FT-17坦克和装甲列车据守要塞。德军连续强攻两天，伤亡颇重；守军于16日夜至17日晨经布格河桥梁撤往捷列斯波尔，德军随后占领要塞。数日后此地按约移交苏军。",
+  "place": "@brzesc",
+  "units": [
+   "de.xix_mk",
+   "de.10pz",
+   "de.3pz",
+   "de.20id_mot",
+   "pl.sgo_polesie"
+  ],
+  "sfx": [
+   "tank",
+   "artillery",
+   "mg"
+  ],
+  "sources": [
+   "wiki_brest"
+  ],
+  "confidence": "high",
+  "zoomRel": 4.4
+ },
+ {
+  "id": "e.warsaw_encircled",
+  "at": "1939-09-15T12:00",
+  "endAt": "1939-09-27T12:00",
+  "category": "siege",
+  "importance": 1,
+  "side": "DE",
+  "title": {
+   "zh": "华沙被合围",
+   "orig": "Oblężenie Warszawy"
+  },
+  "body": "9月15日，德第3集团军从北面前出至布拉加东郊，与西南面的第10、第8集团军合围华沙。德方16日派军使要求投降遭拒，随即以重炮和空军持续轰击市区，供水、供电和医院遭严重破坏。市长斯塔任斯基每日通过电台鼓舞市民。布祖拉残部突入后，守军一度增至约12万至14万人。",
+  "place": "@warszawa",
+  "units": [
+   "de.3a",
+   "de.8a",
+   "de.10a",
+   "pl.warszawa"
+  ],
+  "sfx": [
+   "artillery",
+   "siren",
+   "bomber"
+  ],
+  "photo": {
+   "commons": "File:German Heinkel He 111 bombing Warsaw 1939.jpg",
+   "caption": "德军He 111轰炸机飞临华沙上空"
+  },
+  "sources": [
+   "wiki_siege_warsaw",
+   "wiki_bombing_warsaw"
+  ],
+  "confidence": "medium",
+  "zoomRel": 2.6
+ },
+ {
+  "id": "e.soviet_invasion",
+  "at": "1939-09-17T03:00",
+  "category": "movement",
+  "importance": 1,
+  "side": "SU",
+  "title": {
+   "zh": "苏联入侵波兰",
+   "orig": "Польский поход РККА"
+  },
+  "body": "莫斯科时间17日凌晨约3时，苏联副外交人民委员波将金向波兰大使格日博夫斯基递交照会，宣称波兰国家已不复存在。清晨（中欧时间约3时起）苏军白俄罗斯方面军和乌克兰方面军约46万至80万人越过东部边界，依苏德秘密议定书向西推进。当日里兹-希米格维下令除自卫外避免与苏军交战。",
+  "place": [
+   25.8,
+   52
+  ],
+  "units": [
+   "su.bel_front",
+   "su.ukr_front"
+  ],
+  "sfx": [
+   "tank",
+   "engine",
+   "radio"
+  ],
+  "photo": {
+   "commons": "File:The Nazi-soviet Invasion of Poland, 1939 HU87205.jpg",
+   "caption": "苏军士兵看守在罗夫诺附近击落的波兰飞机"
+  },
+  "sources": [
+   "wiki_soviet_invasion",
+   "wiki_mr_pact"
+  ],
+  "confidence": "high",
+  "zoomRel": 1.35
+ },
+ {
+  "id": "e.warsaw_castle_fire",
+  "at": "1939-09-17T11:15",
+  "category": "siege",
+  "importance": 3,
+  "side": "DE",
+  "title": {
+   "zh": "华沙王宫起火",
+   "orig": "Pożar Zamku Królewskiego"
+  },
+  "body": "9月17日上午，德军炮火击中华沙王宫，屋顶和舞厅起火，钟楼上的时钟停在11时15分。消防员、博物馆员工和志愿者冒着炮击抢救出部分油画、家具与装饰构件。王宫在1944年华沙起义失败后被德军彻底炸毁，战后重建时，钟楼时钟被特意从11时15分重新启动。",
+  "place": "@warszawa",
+  "sfx": [
+   "artillery",
+   "bell"
+  ],
+  "photo": {
+   "commons": "File:Ballroom Castle Warsaw September 17 1939.jpg",
+   "caption": "9月17日华沙王宫舞厅在炮击中起火"
+  },
+  "sources": [
+   "wiki_siege_warsaw",
+   "wiki_bombing_warsaw"
+  ],
+  "confidence": "medium",
+  "zoomRel": 5.6
+ },
+ {
+  "id": "e.gov_to_romania",
+  "at": "1939-09-17T21:00",
+  "endAt": "1939-09-18T02:00",
+  "category": "political",
+  "importance": 1,
+  "side": "PL",
+  "title": {
+   "zh": "政府越境罗马尼亚",
+   "orig": "Przekroczenie granicy rumuńskiej w Kutach"
+  },
+  "body": "苏军入侵使桥头堡计划破灭。9月17日深夜，莫希齐茨基总统、斯瓦沃伊-斯克瓦德科夫斯基总理领导的政府和里兹-希米格维统帅部，经库蒂的切列莫什河大桥进入罗马尼亚，希望借道前往法国继续作战。在德国压力下罗马尼亚将他们拘留，波兰最高领导层从此无法指挥国内仍在战斗的部队。",
+  "place": "@kuty",
+  "units": [
+   "pl.gnw"
+  ],
+  "sfx": [
+   "paper",
+   "stamp",
+   "engine"
+  ],
+  "sources": [
+   "wiki_pl_kuty",
+   "wiki_invasion_poland",
+   "wiki_rydz"
+  ],
+  "confidence": "medium",
+  "zoomRel": 4.4
+ },
+ {
+  "id": "e.orzel_escape",
+  "at": "1939-09-18T00:00",
+  "category": "naval",
+  "importance": 2,
+  "side": "PL",
+  "title": {
+   "zh": "“鹰”号潜艇出逃",
+   "orig": "Ucieczka ORP „Orzeł” z Tallinna"
+  },
+  "body": "“鹰”号潜艇因艇长患病于9月14日夜驶入中立的爱沙尼亚塔林，随即被扣留，海图与部分武器被没收。9月17日至18日夜，格鲁津斯基上尉趁港区断电割断缆绳强行出港，冒着岸上火力脱险，凭手绘海图于10月中旬抵达英国。苏联以此为借口向爱沙尼亚施压。（塔林在图幅外，标记置于母港格丁尼亚）",
+  "place": "@gdynia",
+  "sfx": [
+   "engine",
+   "mg",
+   "morse"
+  ],
+  "photo": {
+   "commons": "File:ORP Orzeł w Gdyni.jpg",
+   "caption": "1939年初“鹰”号潜艇抵达母港格丁尼亚"
+  },
+  "sources": [
+   "wiki_orzel"
+  ],
+  "confidence": "medium",
+  "zoomRel": 1.9
+ },
+ {
+  "id": "e.tomaszow_1",
+  "at": "1939-09-18T06:00",
+  "endAt": "1939-09-20T12:00",
+  "category": "battle",
+  "importance": 2,
+  "side": "PL",
+  "title": {
+   "zh": "第一次托马舒夫战役",
+   "orig": "I bitwa pod Tomaszowem Lubelskim"
+  },
+  "body": "克拉科夫和卢布林集团军残部在皮斯科尔将军统一指挥下，企图向南突破至利沃夫与罗马尼亚桥头堡。9月18日晨，罗韦茨基上校的华沙装甲摩托化旅率先突击托马舒夫，一度占领半个城镇，这是整个战役中规模最大的坦克战。连续三次攻击失败、弹药告罄后，皮斯科尔于9月20日率部投降。",
+  "place": "@tomaszow_lub",
+  "units": [
+   "pl.krakow",
+   "pl.lublin",
+   "pl.wbpm",
+   "pl.23dp",
+   "pl.55dp",
+   "pl.22dpg",
+   "de.xxii_mk",
+   "de.4le",
+   "de.2pz"
+  ],
+  "sfx": [
+   "tank",
+   "artillery",
+   "mg"
+  ],
+  "sources": [
+   "wiki_tomaszow",
+   "wiki_pl_tomaszow"
+  ],
+  "confidence": "medium",
+  "zoomRel": 3.4
+ },
+ {
+  "id": "e.wilno",
+  "at": "1939-09-18T19:00",
+  "endAt": "1939-09-19T12:00",
+  "category": "battle",
+  "importance": 2,
+  "side": "SU",
+  "title": {
+   "zh": "维尔诺失守",
+   "orig": "Obrona Wilna"
+  },
+  "body": "9月18日傍晚，苏军坦克部队抵达维尔诺郊外。城防司令奥库利奇-科扎林上校手中只有数千名后备兵和志愿者，并已奉命避免主动与苏军交战，多数部队撤向立陶宛边境。部分守军和学生在城内抵抗至19日，苏军随即占领全城。10月10日，苏联将维尔诺连同周边地区交给立陶宛。",
+  "place": "@wilno",
+  "units": [
+   "su.bel_front"
+  ],
+  "sfx": [
+   "tank",
+   "mg"
+  ],
+  "photo": {
+   "commons": "File:Soviets entering Wilno.jpg",
+   "caption": "苏军进入维尔诺（1939年9月19日）"
+  },
+  "sources": [
+   "wiki_wilno",
+   "wiki_soviet_invasion"
+  ],
+  "confidence": "medium",
+  "zoomRel": 4.4
+ },
+ {
+  "id": "e.bzura_end",
+  "at": "1939-09-19T00:00",
+  "endAt": "1939-09-21T18:00",
+  "category": "battle",
+  "importance": 2,
+  "side": "DE",
+  "title": {
+   "zh": "布祖拉战役终局",
+   "orig": "Bitwa nad Bzurą (faza końcowa)"
+  },
+  "body": "9月16日起德军从三面反扑，17日德国空军出动了整个战役中最密集的空袭。波军被压缩在布祖拉河口与坎皮诺斯森林之间，9月18–21日部分部队穿过森林进入华沙和莫德林，库切巴将军与大波兰、波多利亚骑兵旅得以突围，其余多在河畔投降。波方阵亡约1.8万至2万人，被俘约12万至17万人。",
+  "place": "@kampinos",
+  "units": [
+   "pl.poznan",
+   "pl.pomorze",
+   "pl.bk_wielkopolska",
+   "pl.bk_podolska",
+   "pl.15dp",
+   "pl.25dp",
+   "de.8a",
+   "de.10a",
+   "de.4a"
+  ],
+  "sfx": [
+   "artillery",
+   "stuka",
+   "cavalry"
+  ],
+  "photo": {
+   "commons": "File:Piechota niemiecka forsuje Bzurę (2-34).jpg",
+   "caption": "德军步兵经便桥渡过布祖拉河"
+  },
+  "sources": [
+   "wiki_bzura",
+   "zaloga_2002"
+  ],
+  "confidence": "high",
+  "zoomRel": 3.4
+ },
+ {
+  "id": "e.wolka_weglowa",
+  "at": "1939-09-19T05:00",
+  "category": "battle",
+  "importance": 3,
+  "side": "PL",
+  "title": {
+   "zh": "沃尔卡-文格洛瓦冲锋",
+   "orig": "Szarża pod Wólką Węglową"
+  },
+  "body": "9月19日清晨，冲出坎皮诺斯森林的波兰第14雅兹沃维茨乌兰团与第9小波兰乌兰团一部，在华沙西北的沃尔卡-文格洛瓦向德军阵地发起骑兵冲锋。冲锋部队穿过德军炮兵和机枪阵地，冲入华沙比耶拉尼区与守军会合，但伤亡惨重，约百余人阵亡，是这场战役中最后几次大规模骑兵冲锋之一。",
+  "place": "@wolka_weglowa",
+  "units": [
+   "pl.bk_podolska"
+  ],
+  "sfx": [
+   "cavalry",
+   "mg"
+  ],
+  "sources": [
+   "wiki_wolka_weglowa"
+  ],
+  "confidence": "medium",
+  "zoomRel": 7
+ },
+ {
+  "id": "e.grodno",
+  "at": "1939-09-20T12:00",
+  "endAt": "1939-09-22T06:00",
+  "category": "battle",
+  "importance": 2,
+  "side": "SU",
+  "title": {
+   "zh": "格罗德诺保卫战",
+   "orig": "Obrona Grodna"
+  },
+  "body": "9月20日，苏军第15坦克军先头坦克冲入格罗德诺。市长萨维茨基等组织后备营、警察、志愿者和童子军以燃烧瓶、路障抵抗，21日普热兹杰茨基将军率沃尔科维斯克骑兵旅赶来增援。经两天巷战，城区大部毁于炮火，守军于22日向立陶宛边境撤出。苏方记录阵亡57人，波方估计苏军伤亡约800人。",
+  "place": "@grodno",
+  "units": [
+   "su.kmg_dzerzhinsky",
+   "su.15tk"
+  ],
+  "sfx": [
+   "tank",
+   "mg",
+   "rifle"
+  ],
+  "sources": [
+   "wiki_grodno"
+  ],
+  "confidence": "medium",
+  "zoomRel": 4.4
+ },
+ {
+  "id": "e.tomaszow_2",
+  "at": "1939-09-21T06:00",
+  "endAt": "1939-09-26T18:00",
+  "category": "battle",
+  "importance": 2,
+  "side": "PL",
+  "title": {
+   "zh": "第二次托马舒夫战役",
+   "orig": "II bitwa pod Tomaszowem Lubelskim"
+  },
+  "body": "杜布-别尔纳茨基将军的北方方面军（约3.9万人、225门火炮）自海乌姆方向南下，欲接应已于20日投降的皮斯科尔部。21日起克鲁科维奇-普热德日米尔斯基集群猛攻托马舒夫以北德军，德方急调第2装甲师等增援。23日后各部陆续被围，杜布-别尔纳茨基下令投降后出走，余部约26日放下武器。",
+  "place": [
+   23.3,
+   50.6
+  ],
+  "units": [
+   "pl.front_polnocny",
+   "pl.bk_nowogrodzka",
+   "de.8id",
+   "de.28id",
+   "de.27id",
+   "de.2pz"
+  ],
+  "sfx": [
+   "artillery",
+   "mg",
+   "cavalry"
+  ],
+  "sources": [
+   "wiki_tomaszow",
+   "wiki_pl_tomaszow"
+  ],
+  "confidence": "medium",
+  "zoomRel": 3.4
+ },
+ {
+  "id": "e.lwow_surrender",
+  "at": "1939-09-22T10:00",
+  "category": "surrender",
+  "importance": 2,
+  "side": "PL",
+  "title": {
+   "zh": "利沃夫向苏军投降",
+   "orig": "Kapitulacja Lwowa"
+  },
+  "body": "德军撤围后，利沃夫已被苏军乌克兰方面军第6集团军包围。朗格纳将军权衡后于9月22日在温尼基与苏军签署协议交出城市，条件是士兵可解散回家、军官可自由离开。苏军入城后并未遵守协议，大批军官被扣押并押往苏联内地，其中许多人于1940年在卡廷等地遇害。",
+  "place": "@lwow",
+  "units": [
+   "su.6a",
+   "su.ukr_front"
+  ],
+  "sfx": [
+   "stamp",
+   "march"
+  ],
+  "photo": {
+   "commons": "File:Lviv 1939 Sov Cavalry.jpg",
+   "caption": "利沃夫投降后列队行进的苏联骑兵"
+  },
+  "sources": [
+   "wiki_lwow",
+   "wiki_soviet_invasion"
+  ],
+  "confidence": "medium",
+  "zoomRel": 4.4
+ },
+ {
+  "id": "e.grodno_reprisals",
+  "at": "1939-09-22T12:00",
+  "category": "atrocity",
+  "importance": 3,
+  "side": "SU",
+  "title": {
+   "zh": "格罗德诺战后处决",
+   "orig": "Zbrodnie sowieckie w Grodnie i Sopoćkiniach"
+  },
+  "body": "格罗德诺陷落后，苏军在城内及周边处决了一批被俘守军与居民，据波兰方面调查约300人遇害，其中包括参加抵抗的少年。9月22日，原第3军区司令奥尔希纳-维尔琴斯基将军在索波茨基涅附近被苏军截获，随后与副官一同遭枪杀。波兰国家记忆研究院后来就此立案调查。",
+  "place": "@sopockinie",
+  "units": [
+   "su.kmg_dzerzhinsky"
+  ],
+  "sfx": [
+   "rifle"
+  ],
+  "sources": [
+   "wiki_grodno",
+   "wiki_olszyna"
+  ],
+  "confidence": "medium",
+  "zoomRel": 5.6
+ },
+ {
+  "id": "e.brest_parade",
+  "at": "1939-09-22T16:00",
+  "category": "political",
+  "importance": 1,
+  "side": "DE",
+  "title": {
+   "zh": "布列斯特德苏联合阅兵",
+   "orig": "Deutsch-sowjetische Parade in Brest-Litowsk"
+  },
+  "body": "按德苏分界协议，古德里安的第19摩托化军把布列斯特城及要塞移交给克里沃申旅长的苏军第29轻型坦克旅。9月22日下午约16时，双方在城内举行交接仪式，古德里安与克里沃申共同检阅德军部队和苏军坦克行进，德国军旗降下、苏联国旗升起，德军随后撤至布格河以西。",
+  "place": "@brzesc",
+  "units": [
+   "de.xix_mk",
+   "su.29ltb"
+  ],
+  "sfx": [
+   "march",
+   "fanfare",
+   "tank"
+  ],
+  "photo": {
+   "commons": "File:Bundesarchiv Bild 101I-121-0011A-22, Polen, Siegesparade, Guderian, Kriwoschein.jpg",
+   "caption": "古德里安（中）与克里沃申（右）在布列斯特检阅"
+  },
+  "sources": [
+   "wiki_brest_parade",
+   "wiki_soviet_invasion"
+  ],
+  "confidence": "high",
+  "zoomRel": 4.4
+ },
+ {
+  "id": "e.krasnobrod",
+  "at": "1939-09-23T07:00",
+  "category": "battle",
+  "importance": 3,
+  "side": "PL",
+  "title": {
+   "zh": "克拉斯诺布鲁德冲锋",
+   "orig": "Szarża pod Krasnobrodem"
+  },
+  "body": "9月23日约7时，新格鲁多克骑兵旅第25大波兰乌兰团（斯塔赫莱夫斯基上校）分路向据守克拉斯诺布鲁德高地的德第8步兵师发起马刀冲锋，击退德军骑兵的反冲击后攻入镇内，夺取德军师部，俘虏约100人并解救约40名被俘波兰官兵。格尔莱茨基中尉所率中队伤亡殆尽，他本人阵亡。",
+  "place": "@krasnobrod",
+  "units": [
+   "pl.bk_nowogrodzka",
+   "de.8id"
+  ],
+  "sfx": [
+   "cavalry",
+   "mg"
+  ],
+  "sources": [
+   "wiki_krasnobrod"
+  ],
+  "confidence": "medium",
+  "zoomRel": 7
+ },
+ {
+  "id": "e.black_monday",
+  "at": "1939-09-25T08:00",
+  "endAt": "1939-09-25T18:00",
+  "category": "air",
+  "importance": 1,
+  "side": "DE",
+  "title": {
+   "zh": "华沙“黑色星期一”",
+   "orig": "Czarny poniedziałek"
+  },
+  "body": "9月25日，德军为总攻华沙进行了全天大规模轰炸。德国空军出动约1,150架次（包括用Ju 52运输机抛投燃烧弹），投下约560吨高爆弹和72吨燃烧弹，重炮同时持续轰击。城内大火四起，自来水系统瘫痪无法灭火，当日平民死亡数以千计；整个围城期间华沙平民死亡约1.8万至2.5万人。",
+  "place": "@warszawa",
+  "units": [
+   "de.8a"
+  ],
+  "sfx": [
+   "bomber",
+   "explosion",
+   "siren"
+  ],
+  "photo": {
+   "commons": "File:Płonąca oblężona Warszawa.jpg",
+   "caption": "围城中燃烧的华沙（1939年9月）"
+  },
+  "sources": [
+   "wiki_bombing_warsaw",
+   "wiki_siege_warsaw"
+  ],
+  "confidence": "medium",
+  "zoomRel": 3.4
+ },
+ {
+  "id": "e.szp_founded",
+  "at": "1939-09-27T01:00",
+  "category": "political",
+  "importance": 3,
+  "side": "PL",
+  "title": {
+   "zh": "“波兰胜利服务”成立",
+   "orig": "Służba Zwycięstwu Polski"
+  },
+  "body": "9月26日至27日夜，在华沙投降前夕，经罗梅尔将军授权，卡拉谢维奇-托卡热夫斯基将军等人在城内秘密成立地下军事组织“波兰胜利服务”，以继续武装抵抗、重建国家机构为目标。它是日后武装斗争联盟（ZWZ）和国家军（AK）的前身，也是被占领欧洲最早的地下军事组织之一。",
+  "place": "@warszawa",
+  "sfx": [
+   "typewriter",
+   "morse"
+  ],
+  "sources": [
+   "wiki_szp"
+  ],
+  "confidence": "high",
+  "zoomRel": 4.4
+ },
+ {
+  "id": "e.szack",
+  "at": "1939-09-28T08:00",
+  "endAt": "1939-09-29T12:00",
+  "category": "battle",
+  "importance": 2,
+  "side": "PL",
+  "title": {
+   "zh": "沙茨克之战",
+   "orig": "Bitwa pod Szackiem"
+  },
+  "body": "奥尔利克-吕克曼将军的边防军团集群约4,000人在向布格河撤退途中，于9月28日在沙茨克遭遇苏军第52步兵师。波军诱敌至森林边缘，用博福斯反坦克炮近距离击毁来袭的T-26坦克，随后反冲击攻占镇子并缴获苏军师部。苏方档案记载阵亡81人、坦克损失7辆；部分被俘波兰军官事后遭苏军枪杀。",
+  "place": "@szack",
+  "units": [
+   "su.4a"
+  ],
+  "sfx": [
+   "artillery",
+   "tank",
+   "mg"
+  ],
+  "sources": [
+   "wiki_szack"
+  ],
+  "confidence": "medium",
+  "zoomRel": 5.6
+ },
+ {
+  "id": "e.warsaw_capitulation",
+  "at": "1939-09-28T13:15",
+  "category": "surrender",
+  "importance": 1,
+  "side": "PL",
+  "title": {
+   "zh": "华沙投降",
+   "orig": "Kapitulacja Warszawy"
+  },
+  "body": "弹药、粮食和饮水耗尽，平民伤亡惨重，罗梅尔将军于9月26日提出停火，27日中午双方停止射击。9月28日13时15分，库切巴将军与德第8集团军司令布拉斯科维茨在拉科维茨的斯柯达工厂签署投降书。约14万名守军自29日起陆续出城成为战俘，德军于10月1日开入华沙。",
+  "place": "@warszawa",
+  "units": [
+   "pl.warszawa",
+   "de.8a"
+  ],
+  "sfx": [
+   "stamp",
+   "typewriter",
+   "bell"
+  ],
+  "photo": {
+   "commons": "File:Tadeusz Kutrzeba rozmowy kapitulacyjne 1939.jpg",
+   "caption": "库切巴将军前往谈判华沙投降事宜"
+  },
+  "sources": [
+   "wiki_pl_kapitulacja_warszawy",
+   "wiki_siege_warsaw"
+  ],
+  "confidence": "high",
+  "zoomRel": 3.4
+ },
+ {
+  "id": "e.frontier_treaty",
+  "at": "1939-09-28T23:00",
+  "category": "political",
+  "importance": 1,
+  "title": {
+   "zh": "《德苏边界友好条约》",
+   "orig": "Deutsch-Sowjetischer Grenz- und Freundschaftsvertrag"
+  },
+  "body": "9月28日深夜，里宾特洛甫与莫洛托夫在莫斯科签署《德苏边界友好条约》（落款日期为9月28日）。双方把分界线从维斯瓦河东移至布格河—桑河一线，卢布林省和华沙省东部划归德国，立陶宛则划入苏联势力范围，波兰被正式瓜分；秘密议定书还约定共同压制波兰人的抵抗。（地图位置为示意，标于华沙）",
+  "place": "@warszawa",
+  "sfx": [
+   "typewriter",
+   "stamp",
+   "paper"
+  ],
+  "photo": {
+   "commons": "File:Ribbentrop-Molotov paktum.jpg",
+   "caption": "莫洛托夫签署条约，里宾特洛甫与斯大林在后"
+  },
+  "sources": [
+   "wiki_frontier_treaty",
+   "wiki_mr_pact"
+  ],
+  "confidence": "high",
+  "zoomRel": 1.35
+ },
+ {
+  "id": "e.modlin_capitulation",
+  "at": "1939-09-29T08:00",
+  "category": "surrender",
+  "importance": 2,
+  "side": "PL",
+  "title": {
+   "zh": "莫德林要塞投降",
+   "orig": "Kapitulacja Twierdzy Modlin"
+  },
+  "body": "华沙投降后，托梅将军指挥的莫德林要塞已成孤岛。此前数日，德军对要塞进行了猛烈炮击和空袭，城内医院、粮库与弹药库严重受损，饮水亦告断绝。9月28日停火后，托梅于29日签署投降书，约2.4万至3.5万名守军放下武器，比华沙晚一天停止抵抗。",
+  "place": "@modlin",
+  "sfx": [
+   "stamp",
+   "artillery"
+  ],
+  "sources": [
+   "wiki_modlin"
+  ],
+  "confidence": "medium",
+  "zoomRel": 4.4
+ },
+ {
+  "id": "e.exile_government",
+  "at": "1939-09-30T12:00",
+  "category": "political",
+  "importance": 1,
+  "side": "PL",
+  "title": {
+   "zh": "流亡政府在巴黎成立",
+   "orig": "Rząd RP na uchodźstwie"
+  },
+  "body": "依据1935年宪法的继任条款，被拘留在罗马尼亚的莫希齐茨基总统指定瓦迪斯瓦夫·拉奇凯维奇为继任者。9月30日，拉奇凯维奇在巴黎波兰使馆宣誓就任总统，随即任命西科尔斯基将军为总理，英法予以承认，保证了波兰国家在法理上的延续。（地图位置为示意，标于华沙）",
+  "place": "@warszawa",
+  "sfx": [
+   "radio",
+   "typewriter",
+   "fanfare"
+  ],
+  "photo": {
+   "commons": "File:Wladyslaw Sikorski 2.jpg",
+   "caption": "流亡政府总理西科尔斯基将军（约1942年）"
+  },
+  "sources": [
+   "wiki_exile_gov",
+   "wiki_raczkiewicz"
+  ],
+  "confidence": "high",
+  "zoomRel": 1.35
+ },
+ {
+  "id": "e.wytyczno",
+  "at": "1939-10-01T02:00",
+  "endAt": "1939-10-01T18:00",
+  "category": "battle",
+  "importance": 3,
+  "side": "SU",
+  "title": {
+   "zh": "维蒂切诺之战",
+   "orig": "Bitwa pod Wytycznem"
+  },
+  "body": "沙茨克之战后，奥尔利克-吕克曼的边防军团部队渡过布格河西撤，10月1日在海乌姆以北的维蒂切诺附近与苏军坦克和步兵发生遭遇战。波军弹药匮乏、腹背受敌，激战至傍晚被击溃，余部分散突围，奥尔利克-吕克曼辗转经立陶宛出国。这是边防军团在战役中最后一次成建制作战。",
+  "place": "@wytyczno",
+  "sfx": [
+   "mg",
+   "tank"
+  ],
+  "sources": [
+   "wiki_wytyczno",
+   "wiki_pl_wytyczno"
+  ],
+  "confidence": "medium",
+  "zoomRel": 5.6
+ },
+ {
+  "id": "e.kock",
+  "at": "1939-10-02T08:00",
+  "endAt": "1939-10-05T19:30",
+  "category": "battle",
+  "importance": 2,
+  "side": "PL",
+  "title": {
+   "zh": "科克战役",
+   "orig": "Bitwa pod Kockiem"
+  },
+  "body": "克莱贝格将军的波列西耶独立作战集群约1.8万人原拟驰援华沙，得知华沙投降后转向登布林军火库补充弹药。10月2日起，该部在科克、沃拉古沃夫斯卡一带与维特斯海姆第14摩托化军的第13、第29摩托化步兵师激战四天，多次取得局部胜利并俘获德军约200人。5日弹药粮秣耗尽，当晚议定停火。",
+  "place": "@kock",
+  "units": [
+   "pl.sgo_polesie",
+   "de.xiv_mk",
+   "de.13id_mot",
+   "de.29id_mot"
+  ],
+  "sfx": [
+   "artillery",
+   "mg",
+   "cavalry"
+  ],
+  "photo": {
+   "commons": "File:Bitwa pod Kockiem.jpg",
+   "caption": "科克战役中的波兰士兵"
+  },
+  "sources": [
+   "wiki_kock",
+   "wiki_pl_kock"
+  ],
+  "confidence": "high",
+  "zoomRel": 4.4
+ },
+ {
+  "id": "e.hel_capitulation",
+  "at": "1939-10-02T10:00",
+  "category": "surrender",
+  "importance": 2,
+  "side": "PL",
+  "title": {
+   "zh": "赫尔投降",
+   "orig": "Kapitulacja Helu"
+  },
+  "body": "施泰耶尔指挥的赫尔筑垒地域约2,800名守军在封锁、空袭和舰炮轰击下坚守32天，是北方最后的波军据点。因补给断绝、士气低落，海军司令翁鲁格少将于10月1日下令停战并派员在索波特签署投降书，10月2日德军接管半岛，约3,600名官兵被俘。守军共约50人阵亡、150人负伤。",
+  "place": "@hel",
+  "units": [
+   "pl.hel"
+  ],
+  "sfx": [
+   "stamp",
+   "ship_gun"
+  ],
+  "photo": {
+   "commons": "File:Kapitulacja Helu001.jpg",
+   "caption": "赫尔投降时守军指挥官施泰耶尔与水兵交谈"
+  },
+  "sources": [
+   "wiki_hel"
+  ],
+  "confidence": "high",
+  "zoomRel": 5.6
+ },
+ {
+  "id": "e.warsaw_victory_parade",
+  "at": "1939-10-05T12:00",
+  "category": "political",
+  "importance": 3,
+  "side": "DE",
+  "title": {
+   "zh": "希特勒华沙阅兵",
+   "orig": "Siegesparade in Warschau"
+  },
+  "body": "10月5日，希特勒飞抵被占领的华沙，在乌亚兹多夫大街检阅德第8集团军等部的胜利阅兵，并对随行外国记者说“好好看看华沙”，以此向西方示威。波兰地下人员曾在阅兵路线下预埋炸药，但因计划变动未能引爆。阅兵结束后，希特勒当日即飞返柏林。",
+  "place": "@warszawa",
+  "units": [
+   "de.8a"
+  ],
+  "sfx": [
+   "march",
+   "fanfare"
+  ],
+  "sources": [
+   "wiki_pl_kampania",
+   "wiki_siege_warsaw"
+  ],
+  "confidence": "medium",
+  "zoomRel": 4.4
+ },
+ {
+  "id": "e.kock_surrender",
+  "at": "1939-10-06T10:00",
+  "category": "surrender",
+  "importance": 1,
+  "side": "PL",
+  "title": {
+   "zh": "克莱贝格部投降",
+   "orig": "Kapitulacja SGO „Polesie”"
+  },
+  "body": "10月6日10时，波列西耶独立作战集群约1.7万名官兵在科克附近向德军投降，克莱贝格将军在最后命令中说明，因部队被包围、弹药与粮食耗尽而停止战斗。这是波兰正规军最后一支成建制部队的投降，九月战役至此结束。此后波兰人转入地下，并在法国和英国重建军队继续作战。",
+  "place": "@kock",
+  "units": [
+   "pl.sgo_polesie",
+   "de.xiv_mk"
+  ],
+  "sfx": [
+   "stamp",
+   "bell",
+   "paper"
+  ],
+  "photo": {
+   "commons": "File:Die Kapitulation des polnischen Generals Franciszek Kleeberg (cropped).jpg",
+   "caption": "克莱贝格将军在科克附近向德军投降"
+  },
+  "sources": [
+   "wiki_kock",
+   "wiki_invasion_poland"
+  ],
+  "confidence": "high",
+  "zoomRel": 1.9
+ }
+]

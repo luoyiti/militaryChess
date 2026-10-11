@@ -96,7 +96,7 @@ function unit(u: Json): Json {
 
 const KIND: Record<string, { movement: string; role?: string }> = {
   land: { movement: 'land' }, naval: { movement: 'sea' }, air: { movement: 'air' },
-  evacuation: { movement: 'sea', role: 'evacuation' }, landing: { movement: 'sea', role: 'landing' },
+  evacuation: { movement: 'sea', role: 'evacuation' }, landing: { movement: 'land', role: 'landing' }, // 登陆按陆上箭头画
 };
 function route(r: Json): Json {
   const out: Json = { ...r };

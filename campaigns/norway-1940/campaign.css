@@ -1,0 +1,38 @@
+/* 挪威战役专属版式：时间轴带跳转控件、卡片避让战区按钮栏、窄屏布局。 */
+.route-full:is(.side-NO,.side-UK,.side-FR,.side-PL) { stroke: var(--side); }
+.chip:is(.side-NO,.side-UK,.side-FR,.side-PL), .tt-h:is(.side-NO,.side-UK,.side-FR,.side-PL) { color: var(--side-d); border-color: var(--side); }
+.cards { top: 118px; bottom: 152px; }
+.tl-controls { gap: 6px; }
+.tl-date { font-size: 17px; min-width: 260px; }
+.tl-phase { display: none; }
+.tl-track { height: 74px; }
+.tl-ev { z-index: 2; }
+.tl-needle { z-index: 3; }
+.timeline { height: 134px; }
+.lod-far .evt:not(.active) .evt-t { display: none; }
+@media (max-width: 1100px) {
+  .region-nav { left: 294px; max-width: calc(100% - 312px); }
+  .tb-phase { display: none; }
+  .tl-date { min-width: 210px; font-size: 14px; }
+  .tb-btns { gap: 4px; }
+  .region-nav button { padding: 5px 8px; }
+}
+@media (max-width: 700px) {
+  .region-nav { left: 12px; right: 12px; top: 71px; max-width: none; width: calc(100% - 24px); gap: 0; overflow-x: auto; }
+  .region-nav > span { display: none; }
+  .region-nav button { padding: 5px 8px; font-size: 10px; flex: 1; }
+  .cards { top: auto; bottom: 194px; right: 10px; left: 34px; width: auto; max-height: min(52vh,450px); }
+  .map-key { right: 10px; bottom: 196px; padding: 5px 8px; max-width: 250px; }
+  .map-key small { font-size: 8.5px; }
+  .ui:has(.event-card:not(.hidden)) .map-key, .ui:has(.unit-card:not(.hidden)) .map-key { display: none; }
+  .timeline { height: 180px; }
+  .tl-controls { display: grid; grid-template-columns: repeat(4,28px) 62px 1fr; grid-template-rows: 26px 22px 24px; gap: 4px; height: 82px; }
+  .tl-prev { grid-column: 1; grid-row: 1; } .tl-play { grid-column: 2; grid-row: 1; } .tl-next { grid-column: 3; grid-row: 1; }
+  .tl-speed { grid-column: 4; grid-row: 1; } .tl-dir { grid-column: 5; grid-row: 1; }
+  .tl-date-input { grid-column: 6; grid-row: 1; width: 100%; max-width: none; }
+  .tl-date { grid-column: 1 / -1; grid-row: 2; font-size: 12px; white-space: nowrap; width: 100%; margin: 0; min-width: 0; }
+  .tl-jump-label { grid-column: 1 / -1; grid-row: 3; width: 100%; max-width: none; }
+  .tl-jump { max-width: none; width: 100%; }
+  .tl-track-wrap { margin-top: 7px; }
+  .sidebar { bottom: 194px; }
+}

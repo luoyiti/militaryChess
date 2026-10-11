@@ -35,4 +35,7 @@ export const MODEL_SPECS: Record<string, ModelSpec> = {
   inf_nz: { label: '新西兰步兵班组（示意）', lengthM: 3.03, widthM: 2.52, heightM: 1.79, kind: 'infantry' },
   para_de: { label: '德军伞兵班组（示意）', lengthM: 3.03, widthM: 2.52, heightM: 1.79, kind: 'infantry' },
   art_gun: { label: '75 mm 野炮（带防盾）', lengthM: 4.2, widthM: 1.8, heightM: 1.55, kind: 'gun' },
+  inf_allied: { label: '盟军步兵符号模型', lengthM: 3.03, widthM: 2.52, heightM: 1.79, kind: 'infantry' },
+  navy_token: { label: '海军符号模型（非实际舰型）', lengthM: 3.4, widthM: .65, heightM: 1.3, kind: 'naval' },
+  air_token: { label: '航空符号模型（非实际机型）', lengthM: 3.245, widthM: 3.2, heightM: .71, kind: 'air' },
 };

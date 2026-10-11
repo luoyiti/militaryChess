@@ -1,0 +1,31 @@
+[
+ {
+  "id": "frieser",
+  "title": "The Blitzkrieg Legend",
+  "author": "Karl-Heinz Frieser",
+  "year": 2005,
+  "license": "引用书目"
+ },
+ {
+  "id": "horne",
+  "title": "To Lose a Battle: France 1940",
+  "author": "Alistair Horne",
+  "year": 1969,
+  "license": "引用书目"
+ },
+ {
+  "id": "jackson",
+  "title": "The Fall of France",
+  "author": "Julian Jackson",
+  "year": 2003,
+  "license": "引用书目"
+ },
+ {
+  "id": "wiki_france",
+  "title": "Battle of France",
+  "author": "Wikipedia contributors",
+  "year": 2026,
+  "url": "https://en.wikipedia.org/wiki/Battle_of_France",
+  "license": "CC BY-SA"
+ }
+]

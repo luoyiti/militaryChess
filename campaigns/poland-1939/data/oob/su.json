@@ -1,0 +1,2181 @@
+[
+ {
+  "id": "su.bel_front",
+  "side": "SU",
+  "echelon": "front",
+  "type": "hq",
+  "parent": null,
+  "name": {
+   "zh": "白俄罗斯方面军",
+   "orig": "Белорусский фронт",
+   "short": "БелФ"
+  },
+  "commander": {
+   "zh": "二级集团军级科瓦廖夫",
+   "orig": "командарм 2 ранга М. П. Ковалёв"
+  },
+  "active": {
+   "from": "1939-09-17T03:00"
+  },
+  "track": [],
+  "history": "1939 年 9 月由白俄罗斯特别军区改编而成，司令科瓦廖夫，参谋长普尔卡耶夫，辖第 3、11、10、4 集团军和捷尔任斯克骑兵机械化集群，任务是占领波兰东北部（“西白俄罗斯”）。9 月 17 日凌晨越境，数日内推进到维尔诺、格罗德诺、比亚韦斯托克和布列斯特，在维尔诺、格罗德诺遭到波兰守军抵抗。9 月 28 日德苏边界条约签订后，方面军部队在纳雷夫河—布格河以东驻止，10 月初完成接防。",
+  "sources": [
+   "wiki_su_oob",
+   "meltyukhov_2001",
+   "wiki_soviet_invasion"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "su.ukr_front",
+  "side": "SU",
+  "echelon": "front",
+  "type": "hq",
+  "parent": null,
+  "name": {
+   "zh": "乌克兰方面军",
+   "orig": "Украинский фронт",
+   "short": "УкрФ"
+  },
+  "commander": {
+   "zh": "一级集团军级铁木辛哥",
+   "orig": "командарм 1 ранга С. К. Тимошенко"
+  },
+  "active": {
+   "from": "1939-09-17T03:00"
+  },
+  "track": [],
+  "history": "由基辅特别军区改编而成，司令铁木辛哥，参谋长瓦图京，辖第 5、6、12 集团军和骑兵、坦克兵团，任务是占领波兰东南部（“西乌克兰”），切断波军退往罗马尼亚的通道。9 月 17 日越过兹布鲁奇河和旧国界，当天进入罗夫诺、塔尔诺波尔，19 日前锋抵达利沃夫郊外，9 月 22 日接受利沃夫守军投降，并沿德涅斯特河封锁罗马尼亚边境。9 月 28 日条约后退至布格河—桑河一线。",
+  "sources": [
+   "wiki_su_oob",
+   "meltyukhov_2001",
+   "wiki_soviet_invasion"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "su.3a",
+  "side": "SU",
+  "echelon": "army",
+  "type": "hq",
+  "parent": "su.bel_front",
+  "name": {
+   "zh": "第 3 集团军",
+   "orig": "3-я армия",
+   "short": "3 A"
+  },
+  "commander": {
+   "zh": "军级库兹涅佐夫",
+   "orig": "комкор В. И. Кузнецов"
+  },
+  "active": {
+   "from": "1939-09-17T03:00"
+  },
+  "track": [
+   {
+    "at": "1939-09-17T03:00",
+    "pos": [
+     28.6,
+     55.1
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1939-09-17T20:00",
+    "pos": "@glebokie",
+    "status": "engaged"
+   },
+   {
+    "at": "1939-09-18T20:00",
+    "pos": [
+     26.6,
+     54.95
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1939-09-19T12:00",
+    "pos": [
+     25.8,
+     54.85
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1939-09-21T12:00",
+    "pos": [
+     25.5,
+     54.8
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1939-10-05T12:00",
+    "pos": [
+     25.6,
+     54.85
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "由波洛茨克集团军群改编，辖第 4 步兵军和列佩尔集群（第 5 步兵师、第 24 骑兵师、第 22、25 坦克旅），在白俄罗斯方面军最北翼。9 月 17 日从波洛茨克、列佩尔一带越境，经格文博凯向西推进，一部沿拉脱维亚边境前出，快速集群 18 日晚从东北方向进抵维尔诺，与第 11 集团军一起于 19 日占领该城。此后控制维尔诺地区至立陶宛边境。",
+  "sources": [
+   "wiki_su_oob",
+   "meltyukhov_2001",
+   "wiki_soviet_invasion"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "su.24kd",
+  "side": "SU",
+  "echelon": "division",
+  "type": "cavalry",
+  "parent": "su.3a",
+  "name": {
+   "zh": "第 24 骑兵师",
+   "orig": "24-я кавалерийская дивизия",
+   "short": "24 КД"
+  },
+  "commander": {
+   "zh": "阿赫柳斯京集群",
+   "orig": "группа комбрига П. Н. Ахлюстина"
+  },
+  "model": "cav_su",
+  "active": {
+   "from": "1939-09-17T03:00"
+  },
+  "track": [
+   {
+    "at": "1939-09-17T03:00",
+    "pos": "@lepel",
+    "status": "active"
+   },
+   {
+    "at": "1939-09-17T20:00",
+    "pos": [
+     27.95,
+     54.95
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1939-09-18T20:00",
+    "pos": [
+     26.95,
+     54.88
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1939-09-19T20:00",
+    "pos": [
+     25.95,
+     54.8
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1939-09-20T12:00",
+    "pos": [
+     25.4,
+     54.72
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1939-09-21T12:00",
+    "pos": "@wilno",
+    "status": "active"
+   },
+   {
+    "at": "1939-10-05T12:00",
+    "pos": [
+     25.4,
+     54.75
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "第 3 集团军快速集群的骑兵主力，与第 22、25 坦克旅一起由阿赫柳斯京旅级指挥，9 月 17 日从列佩尔集结地出发，经多克希采向维尔诺方向急进。坦克部队 18—19 日夜先抵维尔诺东北郊，骑兵随后跟进，19—20 日进抵维尔诺周边担任警戒，直至 10 月城市移交立陶宛。",
+  "sources": [
+   "wiki_su_oob",
+   "meltyukhov_2001",
+   "wiki_soviet_invasion"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "su.25tb",
+  "side": "SU",
+  "echelon": "brigade",
+  "type": "armor",
+  "parent": "su.3a",
+  "name": {
+   "zh": "第 25 坦克旅",
+   "orig": "25-я танковая бригада",
+   "short": "25 ТБр"
+  },
+  "commander": {
+   "zh": "阿赫柳斯京集群",
+   "orig": "группа комбрига П. Н. Ахлюстина"
+  },
+  "equipment": [
+   {
+    "id": "t26"
+   },
+   {
+    "id": "ba10"
+   }
+  ],
+  "model": "t26",
+  "active": {
+   "from": "1939-09-17T03:00"
+  },
+  "track": [
+   {
+    "at": "1939-09-17T03:00",
+    "pos": "@lepel",
+    "status": "active"
+   },
+   {
+    "at": "1939-09-17T18:00",
+    "pos": "@glebokie",
+    "status": "active"
+   },
+   {
+    "at": "1939-09-18T14:00",
+    "pos": [
+     26.3,
+     54.8
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1939-09-19T02:00",
+    "pos": [
+     25.45,
+     54.74
+    ],
+    "status": "engaged",
+    "note": "从东北方向逼近维尔诺"
+   },
+   {
+    "at": "1939-09-19T12:00",
+    "pos": "@wilno",
+    "status": "engaged"
+   },
+   {
+    "at": "1939-09-22T12:00",
+    "pos": "@wilno",
+    "status": "active"
+   },
+   {
+    "at": "1939-10-05T12:00",
+    "pos": "@wilno",
+    "status": "active"
+   }
+  ],
+  "history": "第 3 集团军快速集群的坦克旅之一，与第 22 坦克旅、第 24 骑兵师编成阿赫柳斯京集群。9 月 17 日从列佩尔出发，当天经格文博凯推进约 80 公里，18—19 日夜逼近维尔诺东北郊，与守城的波兰部队交火，因燃料不足和对波军兵力估计过高，攻城推迟到 19 日上午。19 日在第 11 集团军部队配合下攻入维尔诺，并控制通往立陶宛的道路。",
+  "sources": [
+   "wiki_su_oob",
+   "meltyukhov_2001",
+   "wiki_soviet_invasion"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "su.11a",
+  "side": "SU",
+  "echelon": "army",
+  "type": "hq",
+  "parent": "su.bel_front",
+  "name": {
+   "zh": "第 11 集团军",
+   "orig": "11-я армия",
+   "short": "11 A"
+  },
+  "commander": {
+   "zh": "师级梅德韦杰夫",
+   "orig": "комдив Н. П. Медведев"
+  },
+  "active": {
+   "from": "1939-09-17T03:00"
+  },
+  "track": [
+   {
+    "at": "1939-09-17T03:00",
+    "pos": [
+     27.35,
+     54
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1939-09-17T20:00",
+    "pos": "@molodeczno",
+    "status": "engaged"
+   },
+   {
+    "at": "1939-09-18T18:00",
+    "pos": "@oszmiana",
+    "status": "active"
+   },
+   {
+    "at": "1939-09-19T18:00",
+    "pos": [
+     25.6,
+     54.4
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1939-09-21T12:00",
+    "pos": "@lida",
+    "status": "active"
+   },
+   {
+    "at": "1939-09-22T12:00",
+    "pos": [
+     24.2,
+     53.65
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1939-10-05T12:00",
+    "pos": "@grodno",
+    "status": "active"
+   }
+  ],
+  "history": "由明斯克集团军群改编，辖第 16 步兵军、第 3 骑兵军（第 7、36 骑兵师）和第 6 坦克旅。9 月 17 日从明斯克以北越境，经莫沃杰奇诺、奥什米亚纳向维尔诺推进，第 3 骑兵军和第 6 坦克旅 18—19 日从东南方向攻入维尔诺。第 16 步兵军沿利达方向推进，9 月 21—22 日参加格罗德诺战斗。条约签订后集团军控制维尔诺—格罗德诺一线。",
+  "sources": [
+   "wiki_su_oob",
+   "meltyukhov_2001",
+   "wiki_soviet_invasion"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "su.3kk",
+  "side": "SU",
+  "echelon": "corps",
+  "type": "cavalry",
+  "parent": "su.11a",
+  "name": {
+   "zh": "第 3 骑兵军",
+   "orig": "3-й кавалерийский корпус",
+   "short": "3 КК"
+  },
+  "commander": {
+   "zh": "第 3 骑兵军",
+   "orig": "3-й кавкорпус (7-я, 36-я кд)"
+  },
+  "model": "cav_su",
+  "active": {
+   "from": "1939-09-17T03:00"
+  },
+  "track": [
+   {
+    "at": "1939-09-17T03:00",
+    "pos": [
+     27.1,
+     54.1
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1939-09-17T20:00",
+    "pos": "@molodeczno",
+    "status": "active"
+   },
+   {
+    "at": "1939-09-18T20:00",
+    "pos": "@oszmiana",
+    "status": "active"
+   },
+   {
+    "at": "1939-09-19T10:00",
+    "pos": [
+     25.4,
+     54.62
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1939-09-19T20:00",
+    "pos": "@wilno",
+    "status": "engaged"
+   },
+   {
+    "at": "1939-09-23T12:00",
+    "pos": [
+     25.4,
+     54.5
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1939-10-05T12:00",
+    "pos": [
+     25.35,
+     54.6
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "第 11 集团军的快速兵团，辖第 7、36 骑兵师，配属第 6 坦克旅。9 月 17 日从明斯克西北越境，经莫沃杰奇诺、奥什米亚纳向维尔诺推进，第 36 骑兵师和第 6 坦克旅由济宾旅级指挥，从东南方向逼近维尔诺，19 日参加占领该城的战斗。此后在维尔诺以南地区驻止。",
+  "sources": [
+   "wiki_su_oob",
+   "meltyukhov_2001",
+   "wiki_soviet_invasion"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "su.6tb",
+  "side": "SU",
+  "echelon": "brigade",
+  "type": "armor",
+  "parent": "su.3kk",
+  "name": {
+   "zh": "第 6 坦克旅",
+   "orig": "6-я танковая бригада",
+   "short": "6 ТБр"
+  },
+  "commander": {
+   "zh": "旅级济宾（集群）",
+   "orig": "группа комбрига С. П. Зыбина"
+  },
+  "equipment": [
+   {
+    "id": "bt7"
+   },
+   {
+    "id": "ba10"
+   }
+  ],
+  "model": "bt7",
+  "active": {
+   "from": "1939-09-17T03:00"
+  },
+  "track": [
+   {
+    "at": "1939-09-17T03:00",
+    "pos": [
+     27.15,
+     54.05
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1939-09-17T18:00",
+    "pos": "@molodeczno",
+    "status": "active"
+   },
+   {
+    "at": "1939-09-18T07:00",
+    "pos": "@oszmiana",
+    "status": "active"
+   },
+   {
+    "at": "1939-09-18T17:00",
+    "pos": [
+     25.45,
+     54.62
+    ],
+    "status": "engaged",
+    "note": "维尔诺东南郊"
+   },
+   {
+    "at": "1939-09-19T12:00",
+    "pos": "@wilno",
+    "status": "engaged"
+   },
+   {
+    "at": "1939-10-05T12:00",
+    "pos": "@wilno",
+    "status": "active"
+   }
+  ],
+  "history": "第 3 骑兵军配属的 BT 坦克旅，与第 36 骑兵师组成济宾集群。9 月 17 日从明斯克西北出发，经莫沃杰奇诺、奥什米亚纳，18 日傍晚在维尔诺东南郊与波兰守军交火，占领机场和罗萨公墓一带。19 日上午得到步兵和骑兵增援后攻入城区，夺取桥梁。据苏方统计，维尔诺战斗中苏军损失 5 辆 BT 坦克和 1 辆 BA-10 装甲车。",
+  "sources": [
+   "wiki_su_oob",
+   "meltyukhov_2001",
+   "wiki_soviet_invasion",
+   "wiki_battle_wilno"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "su.16sk",
+  "side": "SU",
+  "echelon": "corps",
+  "type": "infantry",
+  "parent": "su.11a",
+  "name": {
+   "zh": "第 16 步兵军",
+   "orig": "16-й стрелковый корпус",
+   "short": "16 СК"
+  },
+  "commander": {
+   "zh": "第 16 步兵军",
+   "orig": "16-й ск (2-я, 100-я сд)"
+  },
+  "model": "inf_su",
+  "active": {
+   "from": "1939-09-17T03:00"
+  },
+  "track": [
+   {
+    "at": "1939-09-17T03:00",
+    "pos": [
+     27.3,
+     53.9
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1939-09-18T20:00",
+    "pos": [
+     26.4,
+     53.88
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1939-09-20T12:00",
+    "pos": "@lida",
+    "status": "active"
+   },
+   {
+    "at": "1939-09-21T18:00",
+    "pos": [
+     24.6,
+     53.62
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1939-09-22T20:00",
+    "pos": "@grodno",
+    "status": "engaged"
+   },
+   {
+    "at": "1939-10-05T12:00",
+    "pos": "@grodno",
+    "status": "active"
+   }
+  ],
+  "history": "第 11 集团军的步兵军，辖第 2、100 步兵师，沿伊维涅茨—利达方向推进，9 月 20 日前后进入利达，随后向格罗德诺前进，22 日与第 15 坦克军一起占领该城。格罗德诺战斗后，城内发生对被俘守军和平民的处决事件，波兰方面资料称约 300 人遇害。",
+  "sources": [
+   "wiki_su_oob",
+   "meltyukhov_2001",
+   "wiki_soviet_invasion",
+   "wiki_battle_grodno"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "su.kmg_dzerzhinsky",
+  "side": "SU",
+  "echelon": "army",
+  "type": "hq",
+  "parent": "su.bel_front",
+  "name": {
+   "zh": "捷尔任斯克骑兵机械化集群",
+   "orig": "Дзержинская конно-механизированная группа",
+   "short": "КМГ"
+  },
+  "commander": {
+   "zh": "军级博尔金",
+   "orig": "комкор И. В. Болдин"
+  },
+  "active": {
+   "from": "1939-09-17T03:00"
+  },
+  "track": [
+   {
+    "at": "1939-09-17T03:00",
+    "pos": "@dzerzhinsk",
+    "status": "active"
+   },
+   {
+    "at": "1939-09-18T12:00",
+    "pos": "@nowogrodek",
+    "status": "active"
+   },
+   {
+    "at": "1939-09-19T12:00",
+    "pos": "@slonim",
+    "status": "active"
+   },
+   {
+    "at": "1939-09-20T12:00",
+    "pos": "@wolkowysk",
+    "status": "active"
+   },
+   {
+    "at": "1939-09-22T12:00",
+    "pos": [
+     23.6,
+     53.4
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1939-10-05T12:00",
+    "pos": "@bialystok",
+    "status": "active"
+   }
+  ],
+  "history": "白俄罗斯方面军的机动主力，由博尔金军级指挥，辖第 6 骑兵军（第 4、6、11 骑兵师）、第 5 步兵军和第 15 坦克军。9 月 17 日从捷尔任斯克一带越境，沿新格鲁德克—斯沃尼姆—沃乌科维斯克方向高速推进，20 日第 15 坦克军抵达格罗德诺，22 日第 6 骑兵军从德军手中接收比亚韦斯托克。此后集群驻于比亚韦斯托克地区。",
+  "sources": [
+   "wiki_su_oob",
+   "meltyukhov_2001",
+   "wiki_soviet_invasion"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "su.15tk",
+  "side": "SU",
+  "echelon": "corps",
+  "type": "armor",
+  "parent": "su.kmg_dzerzhinsky",
+  "name": {
+   "zh": "第 15 坦克军",
+   "orig": "15-й танковый корпус",
+   "short": "15 ТК"
+  },
+  "commander": {
+   "zh": "师级彼得罗夫",
+   "orig": "комдив М. П. Петров"
+  },
+  "equipment": [
+   {
+    "id": "bt7"
+   },
+   {
+    "id": "ba10"
+   }
+  ],
+  "model": "bt7",
+  "active": {
+   "from": "1939-09-17T03:00"
+  },
+  "track": [
+   {
+    "at": "1939-09-17T03:00",
+    "pos": "@dzerzhinsk",
+    "status": "active"
+   },
+   {
+    "at": "1939-09-18T06:00",
+    "pos": "@nowogrodek",
+    "status": "active"
+   },
+   {
+    "at": "1939-09-19T00:00",
+    "pos": "@slonim",
+    "status": "active"
+   },
+   {
+    "at": "1939-09-19T18:00",
+    "pos": "@wolkowysk",
+    "status": "active"
+   },
+   {
+    "at": "1939-09-20T16:00",
+    "pos": [
+     23.86,
+     53.64
+    ],
+    "status": "engaged",
+    "note": "格罗德诺战斗"
+   },
+   {
+    "at": "1939-09-22T12:00",
+    "pos": "@grodno",
+    "status": "engaged"
+   },
+   {
+    "at": "1939-09-25T12:00",
+    "pos": [
+     23.6,
+     53.5
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1939-10-05T12:00",
+    "pos": [
+     23.5,
+     53.4
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "辖第 2、27 坦克旅和第 20 摩托化步兵旅，装备 BT 坦克。9 月 17 日随捷尔任斯克集群越境，沿新格鲁德克、斯沃尼姆、沃乌科维斯克急进，20 日第 27 坦克旅先头抵达格罗德诺南郊，试图夺取涅曼河大桥入城，因缺少步兵和燃料、不熟悉巷战，被守军用燃烧瓶和轻武器击退。21—22 日经激烈巷战占领格罗德诺，苏方统计损失 57 人死亡、19 辆坦克被毁。",
+  "sources": [
+   "wiki_su_oob",
+   "meltyukhov_2001",
+   "wiki_soviet_invasion",
+   "wiki_battle_grodno",
+   "magnuski_kolomiets_1994"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "su.27tb",
+  "side": "SU",
+  "echelon": "brigade",
+  "type": "armor",
+  "parent": "su.15tk",
+  "name": {
+   "zh": "第 27 轻坦克旅",
+   "orig": "27-я легкотанковая бригада",
+   "short": "27 ТБр"
+  },
+  "commander": {
+   "zh": "尤先科上校",
+   "orig": "полковник И. О. Ющук"
+  },
+  "equipment": [
+   {
+    "id": "bt7"
+   }
+  ],
+  "model": "bt7",
+  "active": {
+   "from": "1939-09-17T03:00"
+  },
+  "track": [
+   {
+    "at": "1939-09-17T03:00",
+    "pos": "@dzerzhinsk",
+    "status": "active"
+   },
+   {
+    "at": "1939-09-18T06:00",
+    "pos": "@nowogrodek",
+    "status": "active"
+   },
+   {
+    "at": "1939-09-19T00:00",
+    "pos": "@slonim",
+    "status": "active"
+   },
+   {
+    "at": "1939-09-19T18:00",
+    "pos": "@wolkowysk",
+    "status": "active"
+   },
+   {
+    "at": "1939-09-20T14:00",
+    "pos": [
+     23.85,
+     53.62
+    ],
+    "status": "engaged",
+    "note": "抵达格罗德诺南郊"
+   },
+   {
+    "at": "1939-09-21T12:00",
+    "pos": [
+     23.84,
+     53.66
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1939-09-22T12:00",
+    "pos": "@grodno",
+    "status": "engaged"
+   },
+   {
+    "at": "1939-10-05T12:00",
+    "pos": "@grodno",
+    "status": "active"
+   }
+  ],
+  "history": "第 15 坦克军的先头旅，装备 BT 坦克，旅长尤先科上校。9 月 20 日下午率先抵达格罗德诺南郊的涅曼河桥头，一部坦克冲入城区后遭守军和中学生志愿者用燃烧瓶攻击，多辆坦克被焚毁。21 日在第 16 步兵军部队配合下重新进攻，22 日波兰守军撤向立陶宛边境后占领全城。",
+  "sources": [
+   "wiki_su_oob",
+   "meltyukhov_2001",
+   "wiki_soviet_invasion",
+   "wiki_battle_grodno",
+   "magnuski_kolomiets_1994"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "su.6kk",
+  "side": "SU",
+  "echelon": "corps",
+  "type": "cavalry",
+  "parent": "su.kmg_dzerzhinsky",
+  "name": {
+   "zh": "第 6 骑兵军",
+   "orig": "6-й кавалерийский корпус",
+   "short": "6 КК"
+  },
+  "commander": {
+   "zh": "第 6 骑兵军",
+   "orig": "6-й кавкорпус (4-я, 6-я, 11-я кд)"
+  },
+  "model": "cav_su",
+  "active": {
+   "from": "1939-09-17T03:00"
+  },
+  "track": [
+   {
+    "at": "1939-09-17T03:00",
+    "pos": [
+     27.15,
+     53.55
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1939-09-18T00:00",
+    "pos": [
+     26.35,
+     53.35
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1939-09-18T20:00",
+    "pos": [
+     25.7,
+     53.2
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1939-09-19T20:00",
+    "pos": "@slonim",
+    "status": "active"
+   },
+   {
+    "at": "1939-09-20T20:00",
+    "pos": "@wolkowysk",
+    "status": "active"
+   },
+   {
+    "at": "1939-09-21T20:00",
+    "pos": [
+     23.8,
+     53.2
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1939-09-22T14:00",
+    "pos": "@bialystok",
+    "status": "active",
+    "note": "从德军手中接收比亚韦斯托克"
+   },
+   {
+    "at": "1939-10-05T12:00",
+    "pos": "@bialystok",
+    "status": "active"
+   }
+  ],
+  "history": "捷尔任斯克集群的骑兵军，辖第 4、6、11 骑兵师及所属坦克团。9 月 17 日越境后经米尔、斯沃尼姆向西推进，20 日进入沃乌科维斯克，随后向比亚韦斯托克前进。9 月 22 日第 6 骑兵师进入已由德军占领两天的比亚韦斯托克，按照分界线协议接收城市，德军随即西撤，苏军以布拉尼茨基宫为司令部。",
+  "sources": [
+   "wiki_su_oob",
+   "meltyukhov_2001",
+   "wiki_soviet_invasion",
+   "wiki_soviet_invasion"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "su.10a",
+  "side": "SU",
+  "echelon": "army",
+  "type": "hq",
+  "parent": "su.bel_front",
+  "name": {
+   "zh": "第 10 集团军",
+   "orig": "10-я армия",
+   "short": "10 A"
+  },
+  "commander": {
+   "zh": "军级扎哈尔金",
+   "orig": "комкор И. Г. Захаркин"
+  },
+  "active": {
+   "from": "1939-09-17T03:00"
+  },
+  "track": [
+   {
+    "at": "1939-09-17T03:00",
+    "pos": [
+     27.4,
+     53.3
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1939-09-19T12:00",
+    "pos": "@nieswiez",
+    "status": "active"
+   },
+   {
+    "at": "1939-09-21T12:00",
+    "pos": "@baranowicze",
+    "status": "active"
+   },
+   {
+    "at": "1939-09-24T12:00",
+    "pos": "@slonim",
+    "status": "active"
+   },
+   {
+    "at": "1939-09-27T12:00",
+    "pos": "@wolkowysk",
+    "status": "active"
+   },
+   {
+    "at": "1939-10-02T12:00",
+    "pos": [
+     23.4,
+     53
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1939-10-05T12:00",
+    "pos": [
+     23.2,
+     52.95
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "以第 11 步兵军（第 6、33、121 步兵师）等部为主，作为白俄罗斯方面军第二梯队，跟随捷尔任斯克集群之后向巴拉诺维奇—斯沃尼姆—沃乌科维斯克方向前进，负责接管和巩固占领区。9 月 28 日条约签订后，集团军部队向比亚韦斯托克以西推进，接替第一梯队，进驻纳雷夫河以东的新分界线地区。",
+  "sources": [
+   "wiki_su_oob",
+   "meltyukhov_2001",
+   "wiki_soviet_invasion"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "su.4a",
+  "side": "SU",
+  "echelon": "army",
+  "type": "hq",
+  "parent": "su.bel_front",
+  "name": {
+   "zh": "第 4 集团军",
+   "orig": "4-я армия",
+   "short": "4 A"
+  },
+  "commander": {
+   "zh": "师级崔可夫",
+   "orig": "комдив В. И. Чуйков"
+  },
+  "active": {
+   "from": "1939-09-17T03:00"
+  },
+  "track": [
+   {
+    "at": "1939-09-17T03:00",
+    "pos": [
+     27.4,
+     52.95
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1939-09-18T12:00",
+    "pos": "@baranowicze",
+    "status": "active"
+   },
+   {
+    "at": "1939-09-20T12:00",
+    "pos": "@kosow_poleski",
+    "status": "active"
+   },
+   {
+    "at": "1939-09-22T12:00",
+    "pos": "@brzesc",
+    "status": "active"
+   },
+   {
+    "at": "1939-09-26T12:00",
+    "pos": "@kobryn",
+    "status": "active"
+   },
+   {
+    "at": "1939-10-05T12:00",
+    "pos": "@brzesc",
+    "status": "active"
+   }
+  ],
+  "history": "由斯卢茨克集团军群改编，司令崔可夫，辖第 23 步兵军、第 8 步兵师和第 29、32 坦克旅，以及第聂伯河区舰队。9 月 17 日从斯卢茨克一带越境，第 29 轻坦克旅经巴拉诺维奇、科舒夫、普鲁扎内于 22 日进入布列斯特，与德军第 XIX 摩托化军交接；第 23 步兵军沿普里皮亚季河经武尼涅茨、平斯克向科布林推进，9 月 28 日在沙茨克与波兰边防军交战。",
+  "sources": [
+   "wiki_su_oob",
+   "meltyukhov_2001",
+   "wiki_soviet_invasion"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "su.29ltb",
+  "side": "SU",
+  "echelon": "brigade",
+  "type": "armor",
+  "parent": "su.4a",
+  "name": {
+   "zh": "第 29 轻坦克旅",
+   "orig": "29-я легкотанковая бригада",
+   "short": "29 ТБр"
+  },
+  "commander": {
+   "zh": "旅级克里沃舍因",
+   "orig": "комбриг С. М. Кривошеин"
+  },
+  "equipment": [
+   {
+    "id": "t26"
+   }
+  ],
+  "model": "t26",
+  "active": {
+   "from": "1939-09-17T03:00"
+  },
+  "track": [
+   {
+    "at": "1939-09-17T03:00",
+    "pos": "@timkovichi",
+    "status": "active"
+   },
+   {
+    "at": "1939-09-17T18:00",
+    "pos": "@baranowicze",
+    "status": "active"
+   },
+   {
+    "at": "1939-09-18T18:00",
+    "pos": "@kosow_poleski",
+    "status": "active"
+   },
+   {
+    "at": "1939-09-20T12:00",
+    "pos": "@pruzany",
+    "status": "active"
+   },
+   {
+    "at": "1939-09-21T20:00",
+    "pos": [
+     23.84,
+     52.4
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1939-09-22T12:00",
+    "pos": "@brzesc",
+    "status": "active",
+    "note": "与古德里安部交接布列斯特"
+   },
+   {
+    "at": "1939-09-22T16:00",
+    "pos": "@brzesc",
+    "status": "active",
+    "note": "德苏联合阅兵"
+   },
+   {
+    "at": "1939-10-05T12:00",
+    "pos": "@brzesc",
+    "status": "active"
+   }
+  ],
+  "history": "装备 T-26 坦克，旅长克里沃舍因旅级。9 月 17 日从斯卢茨克西南出发，当天进入巴拉诺维奇，随后经科舒夫波莱斯基、普鲁扎内南下。22 日抵达布列斯特，城市和要塞此前已被德军第 XIX 摩托化军攻占。当天下午，古德里安与克里沃舍因在城内检阅了德军撤出和苏军入城的交接仪式，这一场面常被称为“联合阅兵”，其性质和规模在史学界有争议。此后该旅驻守布列斯特。",
+  "sources": [
+   "wiki_su_oob",
+   "meltyukhov_2001",
+   "wiki_soviet_invasion",
+   "zaloga_2002"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "su.23sk",
+  "side": "SU",
+  "echelon": "corps",
+  "type": "infantry",
+  "parent": "su.4a",
+  "name": {
+   "zh": "第 23 步兵军",
+   "orig": "23-й стрелковый корпус",
+   "short": "23 СК"
+  },
+  "commander": {
+   "zh": "第 23 步兵军",
+   "orig": "23-й ск"
+  },
+  "model": "inf_su",
+  "active": {
+   "from": "1939-09-17T03:00"
+  },
+  "track": [
+   {
+    "at": "1939-09-17T03:00",
+    "pos": "@zhitkovichi",
+    "status": "active"
+   },
+   {
+    "at": "1939-09-19T12:00",
+    "pos": "@luniniec",
+    "status": "active"
+   },
+   {
+    "at": "1939-09-21T12:00",
+    "pos": "@pinsk",
+    "status": "active"
+   },
+   {
+    "at": "1939-09-24T12:00",
+    "pos": "@drohiczyn_poleski",
+    "status": "active"
+   },
+   {
+    "at": "1939-09-27T12:00",
+    "pos": "@kobryn",
+    "status": "active"
+   },
+   {
+    "at": "1939-10-05T12:00",
+    "pos": "@kobryn",
+    "status": "active"
+   }
+  ],
+  "history": "第 4 集团军的步兵军，下辖第 52 步兵师等部，与第聂伯河区舰队协同，沿普里皮亚季河和波列西耶沼泽地带向西推进。9 月 18 日前后进入武尼涅茨，20 日左右占领平斯克（区舰队曾与撤离的波兰河防舰队部队对峙），随后经德罗希琴波莱斯基向科布林方向推进，负责清剿布格河以东的波兰部队。",
+  "sources": [
+   "wiki_su_oob",
+   "meltyukhov_2001",
+   "wiki_soviet_invasion"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "su.52sd",
+  "side": "SU",
+  "echelon": "division",
+  "type": "infantry",
+  "parent": "su.23sk",
+  "name": {
+   "zh": "第 52 步兵师",
+   "orig": "52-я стрелковая дивизия",
+   "short": "52 СД"
+  },
+  "commander": {
+   "zh": "鲁西亚诺夫",
+   "orig": "И. Н. Руссиянов"
+  },
+  "equipment": [
+   {
+    "id": "t26"
+   }
+  ],
+  "model": "inf_su",
+  "active": {
+   "from": "1939-09-17T03:00"
+  },
+  "track": [
+   {
+    "at": "1939-09-17T03:00",
+    "pos": "@zhitkovichi",
+    "status": "active"
+   },
+   {
+    "at": "1939-09-18T20:00",
+    "pos": "@luniniec",
+    "status": "active"
+   },
+   {
+    "at": "1939-09-20T20:00",
+    "pos": "@pinsk",
+    "status": "active"
+   },
+   {
+    "at": "1939-09-22T20:00",
+    "pos": "@drohiczyn_poleski",
+    "status": "active"
+   },
+   {
+    "at": "1939-09-24T20:00",
+    "pos": "@kobryn",
+    "status": "active"
+   },
+   {
+    "at": "1939-09-27T18:00",
+    "pos": [
+     23.98,
+     51.52
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1939-09-28T08:00",
+    "pos": "@szack",
+    "status": "engaged",
+    "note": "沙茨克战斗，遭波兰边防军伏击"
+   },
+   {
+    "at": "1939-09-30T12:00",
+    "pos": [
+     23.65,
+     51.52
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1939-10-01T12:00",
+    "pos": "@wytyczno",
+    "status": "engaged",
+    "note": "维蒂切诺战斗"
+   },
+   {
+    "at": "1939-10-03T12:00",
+    "pos": [
+     23.7,
+     51.55
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1939-10-05T12:00",
+    "pos": [
+     23.8,
+     51.55
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "第 23 步兵军的步兵师，师长鲁西亚诺夫。随军沿普里皮亚季河、经平斯克、科布林西进，任务是“肃清布格河以东的波兰军官匪帮”。9 月 28 日该师一部连同坦克在沙茨克遭奥尔利克-吕克曼的边防军集群伏击，损失一批 T-26 坦克和车辆，师部文件被缴获；苏方档案记载阵亡 81 人。此后追击波兰集群至布格河，10 月 1 日参加维蒂切诺战斗（参战苏军番号另有说法）。",
+  "sources": [
+   "wiki_su_oob",
+   "meltyukhov_2001",
+   "wiki_soviet_invasion",
+   "wiki_battle_szack"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "su.5a",
+  "side": "SU",
+  "echelon": "army",
+  "type": "hq",
+  "parent": "su.ukr_front",
+  "name": {
+   "zh": "第 5 集团军",
+   "orig": "5-я армия",
+   "short": "5 A"
+  },
+  "commander": {
+   "zh": "师级索韦特尼科夫",
+   "orig": "комдив И. Г. Советников"
+  },
+  "active": {
+   "from": "1939-09-17T03:00"
+  },
+  "track": [
+   {
+    "at": "1939-09-17T03:00",
+    "pos": [
+     27.35,
+     50.62
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1939-09-17T20:00",
+    "pos": "@rowne",
+    "status": "active"
+   },
+   {
+    "at": "1939-09-19T12:00",
+    "pos": "@luck",
+    "status": "active"
+   },
+   {
+    "at": "1939-09-21T12:00",
+    "pos": "@kowel",
+    "status": "active"
+   },
+   {
+    "at": "1939-09-24T12:00",
+    "pos": "@wlodzimierz",
+    "status": "active"
+   },
+   {
+    "at": "1939-09-27T12:00",
+    "pos": [
+     23.9,
+     51.05
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1939-10-05T12:00",
+    "pos": "@wlodzimierz",
+    "status": "active",
+    "note": "条约后退回布格河以东"
+   }
+  ],
+  "history": "由舍佩托夫卡集团军群改编，辖第 8、15 步兵军和第 36 轻坦克旅，在乌克兰方面军北翼。9 月 17 日从科列茨一带越境，当晚进入罗夫诺，随后经卢茨克向科韦尔、弗沃济米日沃伦斯基推进，在萨尔内筑垒地域曾遭边防军抵抗。9 月 22 日分界线划定后，部分部队越过布格河进入海乌姆、赫鲁别舒夫一带；9 月 28 日条约将卢布林省划归德国，10 月初这些部队撤回布格河以东。",
+  "sources": [
+   "wiki_su_oob",
+   "meltyukhov_2001",
+   "wiki_soviet_invasion"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "su.15sk",
+  "side": "SU",
+  "echelon": "corps",
+  "type": "infantry",
+  "parent": "su.5a",
+  "name": {
+   "zh": "第 15 步兵军",
+   "orig": "15-й стрелковый корпус",
+   "short": "15 СК"
+  },
+  "commander": {
+   "zh": "第 15 步兵军",
+   "orig": "15-й ск (45-я, 60-я, 87-я сд)"
+  },
+  "model": "inf_su",
+  "active": {
+   "from": "1939-09-17T03:00"
+  },
+  "track": [
+   {
+    "at": "1939-09-17T03:00",
+    "pos": [
+     27.35,
+     50.6
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1939-09-18T20:00",
+    "pos": "@rowne",
+    "status": "active"
+   },
+   {
+    "at": "1939-09-20T12:00",
+    "pos": "@luck",
+    "status": "active"
+   },
+   {
+    "at": "1939-09-22T12:00",
+    "pos": [
+     24.95,
+     50.95
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1939-09-24T12:00",
+    "pos": "@kowel",
+    "status": "active"
+   },
+   {
+    "at": "1939-10-05T12:00",
+    "pos": "@kowel",
+    "status": "active"
+   }
+  ],
+  "history": "第 5 集团军的主力步兵军，辖第 45、60、87 步兵师，沿罗夫诺—卢茨克—科韦尔方向推进，接管沃里尼亚中部。9 月 17—18 日所属部队在萨尔内筑垒地域遭到波兰边防军抵抗，此后在科韦尔等地接受波兰部队缴械，并在沃里尼亚建立占领当局。",
+  "sources": [
+   "wiki_su_oob",
+   "meltyukhov_2001",
+   "wiki_soviet_invasion"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "su.36ltb",
+  "side": "SU",
+  "echelon": "brigade",
+  "type": "armor",
+  "parent": "su.5a",
+  "name": {
+   "zh": "第 36 轻坦克旅",
+   "orig": "36-я легкотанковая бригада",
+   "short": "36 ТБр"
+  },
+  "commander": {
+   "zh": "第 36 轻坦克旅",
+   "orig": "36-я лтбр"
+  },
+  "equipment": [
+   {
+    "id": "bt7"
+   }
+  ],
+  "model": "bt7",
+  "active": {
+   "from": "1939-09-17T03:00"
+  },
+  "track": [
+   {
+    "at": "1939-09-17T03:00",
+    "pos": [
+     27.35,
+     50.62
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1939-09-17T20:00",
+    "pos": "@rowne",
+    "status": "active"
+   },
+   {
+    "at": "1939-09-18T20:00",
+    "pos": "@luck",
+    "status": "active"
+   },
+   {
+    "at": "1939-09-19T20:00",
+    "pos": "@wlodzimierz",
+    "status": "active"
+   },
+   {
+    "at": "1939-09-22T12:00",
+    "pos": "@hrubieszow",
+    "status": "active"
+   },
+   {
+    "at": "1939-09-26T12:00",
+    "pos": "@chelm",
+    "status": "active",
+    "note": "越过布格河进入海乌姆"
+   },
+   {
+    "at": "1939-10-02T12:00",
+    "pos": [
+     23.9,
+     51.1
+    ],
+    "status": "active",
+    "note": "退回布格河以东"
+   },
+   {
+    "at": "1939-10-05T12:00",
+    "pos": "@wlodzimierz",
+    "status": "active"
+   }
+  ],
+  "history": "第 5 集团军的快速部队，装备 BT 坦克。9 月 17 日随集团军越境，当晚进入罗夫诺，18 日抵达卢茨克，19 日进入弗沃济米日沃伦斯基，当地波兰守军向苏军投降。按照 9 月 22 日的临时分界线越过布格河，进入赫鲁别舒夫、海乌姆一带；9 月 28 日边界条约改以布格河为界后，于 10 月初撤回河东。",
+  "sources": [
+   "wiki_su_oob",
+   "meltyukhov_2001",
+   "wiki_soviet_invasion"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "su.6a",
+  "side": "SU",
+  "echelon": "army",
+  "type": "hq",
+  "parent": "su.ukr_front",
+  "name": {
+   "zh": "第 6 集团军",
+   "orig": "6-я армия",
+   "short": "6 A"
+  },
+  "commander": {
+   "zh": "军级戈利科夫",
+   "orig": "комкор Ф. И. Голиков"
+  },
+  "active": {
+   "from": "1939-09-17T03:00"
+  },
+  "track": [
+   {
+    "at": "1939-09-17T03:00",
+    "pos": "@volochysk",
+    "status": "active"
+   },
+   {
+    "at": "1939-09-17T20:00",
+    "pos": "@tarnopol",
+    "status": "engaged"
+   },
+   {
+    "at": "1939-09-18T20:00",
+    "pos": "@zloczow",
+    "status": "active"
+   },
+   {
+    "at": "1939-09-20T12:00",
+    "pos": [
+     24.2,
+     49.83
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1939-09-22T12:00",
+    "pos": "@lwow",
+    "status": "active",
+    "note": "接受利沃夫投降"
+   },
+   {
+    "at": "1939-09-26T12:00",
+    "pos": [
+     23.6,
+     50
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1939-10-05T12:00",
+    "pos": "@lwow",
+    "status": "active"
+   }
+  ],
+  "history": "由沃洛奇斯克集团军群改编，司令戈利科夫，辖第 2 骑兵军、第 17 步兵军和第 24 轻坦克旅、第 10 重坦克旅、第 38 轻坦克旅。9 月 17 日从沃洛奇斯克越境，当天攻入塔尔诺波尔，经兹沃乔夫直趋利沃夫，19 日凌晨前锋抵达利沃夫东郊，与西面围城的德军第 1 山地师形成夹击。9 月 22 日兰格纳将军在温尼基签署投降书，苏军入城。",
+  "sources": [
+   "wiki_su_oob",
+   "meltyukhov_2001",
+   "wiki_soviet_invasion",
+   "wiki_battle_lwow"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "su.24ltb",
+  "side": "SU",
+  "echelon": "brigade",
+  "type": "armor",
+  "parent": "su.6a",
+  "name": {
+   "zh": "第 24 轻坦克旅",
+   "orig": "24-я легкотанковая бригада",
+   "short": "24 ТБр"
+  },
+  "commander": {
+   "zh": "福特琴科夫上校",
+   "orig": "полковник П. С. Фотченков"
+  },
+  "equipment": [
+   {
+    "id": "bt7",
+    "count": 237
+   }
+  ],
+  "model": "bt7",
+  "active": {
+   "from": "1939-09-17T03:00"
+  },
+  "track": [
+   {
+    "at": "1939-09-17T03:00",
+    "pos": "@volochysk",
+    "status": "active"
+   },
+   {
+    "at": "1939-09-17T18:00",
+    "pos": "@tarnopol",
+    "status": "engaged"
+   },
+   {
+    "at": "1939-09-18T12:00",
+    "pos": "@zloczow",
+    "status": "active"
+   },
+   {
+    "at": "1939-09-19T04:00",
+    "pos": [
+     24.13,
+     49.83
+    ],
+    "status": "engaged",
+    "note": "抵达利沃夫东郊温尼基"
+   },
+   {
+    "at": "1939-09-20T12:00",
+    "pos": [
+     24.1,
+     49.85
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1939-09-22T12:00",
+    "pos": "@lwow",
+    "status": "active"
+   },
+   {
+    "at": "1939-10-05T12:00",
+    "pos": "@lwow",
+    "status": "active"
+   }
+  ],
+  "history": "第 6 集团军的快速主力，装备约 237 辆 BT 坦克。9 月 17 日从沃洛奇斯克越境，当天进入塔尔诺波尔，18 日经兹沃乔夫向利沃夫急进，19 日凌晨抵达利沃夫东郊温尼基和维恰库夫，与守军短暂交火后被击退，随即在城外与德军会合合围。22 日利沃夫守军投降，该旅入城，当天记录阵亡 4 人、负伤 8 人。",
+  "sources": [
+   "wiki_su_oob",
+   "meltyukhov_2001",
+   "wiki_soviet_invasion",
+   "wiki_battle_lwow"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "su.10htb",
+  "side": "SU",
+  "echelon": "brigade",
+  "type": "armor",
+  "parent": "su.6a",
+  "name": {
+   "zh": "第 10 重坦克旅",
+   "orig": "10-я тяжёлая танковая бригада",
+   "short": "10 ТТБр"
+  },
+  "commander": {
+   "zh": "伊万诺夫上校",
+   "orig": "полковник Иванов"
+  },
+  "strength": {
+   "tanks": 78
+  },
+  "equipment": [
+   {
+    "id": "t28",
+    "count": 58
+   },
+   {
+    "id": "bt7",
+    "count": 20
+   }
+  ],
+  "model": "bt7",
+  "active": {
+   "from": "1939-09-17T03:00"
+  },
+  "track": [
+   {
+    "at": "1939-09-17T03:00",
+    "pos": [
+     26.2,
+     49.45
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1939-09-18T06:00",
+    "pos": "@tarnopol",
+    "status": "active"
+   },
+   {
+    "at": "1939-09-19T06:00",
+    "pos": "@zloczow",
+    "status": "active"
+   },
+   {
+    "at": "1939-09-20T12:00",
+    "pos": [
+     24.13,
+     49.82
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1939-09-22T12:00",
+    "pos": "@lwow",
+    "status": "active"
+   },
+   {
+    "at": "1939-10-05T12:00",
+    "pos": "@lwow",
+    "status": "active"
+   }
+  ],
+  "history": "属第 17 步兵军，装备 58 辆 T-28 中型坦克和 20 辆 BT-7。随第 6 集团军越境后经塔尔诺波尔、兹沃乔夫开往利沃夫，旅长伊万诺夫上校 9 月 19 日曾与波兰守军谈判，声称红军是来“帮助波兰对抗德国”并要求入城。22 日利沃夫投降后随集团军入城。",
+  "sources": [
+   "wiki_su_oob",
+   "meltyukhov_2001",
+   "wiki_soviet_invasion",
+   "wiki_battle_lwow"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "su.2kk",
+  "side": "SU",
+  "echelon": "corps",
+  "type": "cavalry",
+  "parent": "su.6a",
+  "name": {
+   "zh": "第 2 骑兵军",
+   "orig": "2-й кавалерийский корпус",
+   "short": "2 КК"
+  },
+  "commander": {
+   "zh": "科斯坚科",
+   "orig": "Ф. Я. Костенко"
+  },
+  "model": "cav_su",
+  "active": {
+   "from": "1939-09-17T03:00"
+  },
+  "track": [
+   {
+    "at": "1939-09-17T03:00",
+    "pos": [
+     26.25,
+     49.6
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1939-09-17T20:00",
+    "pos": "@zbaraz",
+    "status": "active"
+   },
+   {
+    "at": "1939-09-18T20:00",
+    "pos": "@zloczow",
+    "status": "active"
+   },
+   {
+    "at": "1939-09-19T20:00",
+    "pos": [
+     24.2,
+     49.9
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1939-09-20T12:00",
+    "pos": "@zboiska",
+    "status": "engaged",
+    "note": "在利沃夫北郊合围索斯恩科夫斯基集群"
+   },
+   {
+    "at": "1939-09-22T12:00",
+    "pos": "@lwow",
+    "status": "active"
+   },
+   {
+    "at": "1939-09-25T12:00",
+    "pos": [
+     23.6,
+     50.1
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1939-09-27T12:00",
+    "pos": [
+     23.4,
+     49.88
+    ],
+    "status": "engaged",
+    "note": "与安德斯集群交战"
+   },
+   {
+    "at": "1939-10-05T12:00",
+    "pos": "@rawa_ruska",
+    "status": "active"
+   }
+  ],
+  "history": "第 6 集团军的骑兵军，辖第 3（科托夫斯基）、5、14 骑兵师及所属坦克团。9 月 17 日越境后经兹巴拉日、兹沃乔夫向利沃夫北侧迂回，20 日在兹博伊斯卡、温尼基一带出现，封闭利沃夫包围圈并把城外的索斯恩科夫斯基集群截断在布茹霍维采森林中。利沃夫投降后西进至拉瓦鲁斯卡、松多瓦维什尼亚一带，9 月下旬与向匈牙利突围的安德斯骑兵集群发生战斗。",
+  "sources": [
+   "wiki_su_oob",
+   "meltyukhov_2001",
+   "wiki_soviet_invasion",
+   "wiki_battle_lwow"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "su.17sk",
+  "side": "SU",
+  "echelon": "corps",
+  "type": "infantry",
+  "parent": "su.6a",
+  "name": {
+   "zh": "第 17 步兵军",
+   "orig": "17-й стрелковый корпус",
+   "short": "17 СК"
+  },
+  "commander": {
+   "zh": "科尔加诺夫",
+   "orig": "К. С. Колганов"
+  },
+  "model": "inf_su",
+  "active": {
+   "from": "1939-09-17T03:00"
+  },
+  "track": [
+   {
+    "at": "1939-09-17T03:00",
+    "pos": [
+     26.25,
+     49.5
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1939-09-18T20:00",
+    "pos": "@tarnopol",
+    "status": "active"
+   },
+   {
+    "at": "1939-09-20T20:00",
+    "pos": "@zloczow",
+    "status": "active"
+   },
+   {
+    "at": "1939-09-22T20:00",
+    "pos": [
+     24.2,
+     49.85
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1939-09-25T20:00",
+    "pos": "@zolkiew",
+    "status": "active"
+   },
+   {
+    "at": "1939-09-27T20:00",
+    "pos": [
+     23.6,
+     50.3
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1939-09-29T20:00",
+    "pos": [
+     23.4,
+     50.45
+    ],
+    "status": "active",
+    "note": "进至托马舒夫以东"
+   },
+   {
+    "at": "1939-10-05T12:00",
+    "pos": "@rawa_ruska",
+    "status": "active",
+    "note": "条约后后撤"
+   }
+  ],
+  "history": "第 6 集团军的步兵军，辖第 96、97 步兵师，配属第 10 重坦克旅和第 38 轻坦克旅。随集团军经塔尔诺波尔、兹沃乔夫进至利沃夫，此后向若乌凯夫、拉瓦鲁斯卡方向推进，按 9 月 22 日分界线进入托马舒夫卢贝尔斯基以东地区；9 月 28 日条约签订后退回拉瓦鲁斯卡一线。",
+  "sources": [
+   "wiki_su_oob",
+   "meltyukhov_2001",
+   "wiki_soviet_invasion"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "su.12a",
+  "side": "SU",
+  "echelon": "army",
+  "type": "hq",
+  "parent": "su.ukr_front",
+  "name": {
+   "zh": "第 12 集团军",
+   "orig": "12-я армия",
+   "short": "12 A"
+  },
+  "commander": {
+   "zh": "二级集团军级秋列涅夫",
+   "orig": "командарм 2 ранга И. В. Тюленев"
+  },
+  "active": {
+   "from": "1939-09-17T03:00"
+  },
+  "track": [
+   {
+    "at": "1939-09-17T03:00",
+    "pos": "@kamianets",
+    "status": "active"
+   },
+   {
+    "at": "1939-09-17T20:00",
+    "pos": "@czortkow",
+    "status": "active"
+   },
+   {
+    "at": "1939-09-18T20:00",
+    "pos": "@stanislawow",
+    "status": "active"
+   },
+   {
+    "at": "1939-09-20T12:00",
+    "pos": "@stryj",
+    "status": "active"
+   },
+   {
+    "at": "1939-09-24T12:00",
+    "pos": "@drohobycz",
+    "status": "active"
+   },
+   {
+    "at": "1939-10-05T12:00",
+    "pos": "@stryj",
+    "status": "active"
+   }
+  ],
+  "history": "由卡缅涅茨-波多利斯基集团军群改编，司令秋列涅夫，辖第 13 步兵军、第 4、5 骑兵军（方面军骑兵集群）和第 25 坦克军。9 月 17 日越过兹布鲁奇河，向乔尔特库夫、斯坦尼斯瓦武夫方向推进，任务是沿德涅斯特河切断波军退往罗马尼亚的通道。18—20 日进入斯坦尼斯瓦武夫、科沃梅亚，前出到库蒂和罗马尼亚边境，随后向斯特雷、德罗霍贝奇推进，接替后撤的德军。",
+  "sources": [
+   "wiki_su_oob",
+   "meltyukhov_2001",
+   "wiki_soviet_invasion"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "su.25tk",
+  "side": "SU",
+  "echelon": "corps",
+  "type": "armor",
+  "parent": "su.12a",
+  "name": {
+   "zh": "第 25 坦克军",
+   "orig": "25-й танковый корпус",
+   "short": "25 ТК"
+  },
+  "commander": {
+   "zh": "第 25 坦克军",
+   "orig": "25-й тк (4-я, 5-я лтбр, 1-я мсбр)"
+  },
+  "equipment": [
+   {
+    "id": "bt7"
+   },
+   {
+    "id": "t37"
+   }
+  ],
+  "model": "bt7",
+  "active": {
+   "from": "1939-09-17T03:00"
+  },
+  "track": [
+   {
+    "at": "1939-09-17T03:00",
+    "pos": [
+     26.3,
+     49.05
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1939-09-17T18:00",
+    "pos": "@czortkow",
+    "status": "active"
+   },
+   {
+    "at": "1939-09-18T08:00",
+    "pos": "@buczacz",
+    "status": "active"
+   },
+   {
+    "at": "1939-09-18T20:00",
+    "pos": [
+     25,
+     48.95
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1939-09-19T08:00",
+    "pos": "@stanislawow",
+    "status": "active"
+   },
+   {
+    "at": "1939-09-20T12:00",
+    "pos": "@kalusz",
+    "status": "active"
+   },
+   {
+    "at": "1939-09-21T12:00",
+    "pos": "@stryj",
+    "status": "active"
+   },
+   {
+    "at": "1939-09-24T12:00",
+    "pos": "@drohobycz",
+    "status": "active"
+   },
+   {
+    "at": "1939-10-05T12:00",
+    "pos": "@stryj",
+    "status": "active"
+   }
+  ],
+  "history": "辖第 4、5 轻坦克旅和第 1 摩托化步兵旅，装备 BT 和 T-38 坦克，归第 12 集团军指挥。9 月 17 日越境后经乔尔特库夫、布恰奇向斯坦尼斯瓦武夫推进，19 日前后进入该城，截断从哈利奇、斯坦尼斯瓦武夫通往罗马尼亚的道路。随后向卡武什、斯特雷方向推进，接替从德涅斯特河上游撤回的德军，占领斯特雷和德罗霍贝奇油田地区。",
+  "sources": [
+   "wiki_su_oob",
+   "meltyukhov_2001",
+   "wiki_soviet_invasion"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "su.4kk",
+  "side": "SU",
+  "echelon": "corps",
+  "type": "cavalry",
+  "parent": "su.12a",
+  "name": {
+   "zh": "第 4 骑兵军",
+   "orig": "4-й кавалерийский корпус",
+   "short": "4 КК"
+  },
+  "commander": {
+   "zh": "第 4 骑兵军",
+   "orig": "4-й кавкорпус (32-я, 34-я кд, 26-я лтбр)"
+  },
+  "model": "cav_su",
+  "active": {
+   "from": "1939-09-17T03:00"
+  },
+  "track": [
+   {
+    "at": "1939-09-17T03:00",
+    "pos": "@kamianets",
+    "status": "active"
+   },
+   {
+    "at": "1939-09-18T06:00",
+    "pos": [
+     25.75,
+     48.75
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1939-09-18T20:00",
+    "pos": "@horodenka",
+    "status": "active"
+   },
+   {
+    "at": "1939-09-19T20:00",
+    "pos": "@kolomyja",
+    "status": "active"
+   },
+   {
+    "at": "1939-09-20T20:00",
+    "pos": "@kuty",
+    "status": "active",
+    "note": "封锁罗马尼亚边境"
+   },
+   {
+    "at": "1939-09-23T12:00",
+    "pos": [
+     24.6,
+     48.62
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1939-10-05T12:00",
+    "pos": "@stanislawow",
+    "status": "active"
+   }
+  ],
+  "history": "方面军骑兵集群的一部，辖第 32、34 骑兵师和第 26 轻坦克旅（T-26），9 月 28 日前归第 12 集团军指挥。9 月 17 日从卡缅涅茨-波多利斯基一带越境，沿德涅斯特河北岸向西推进，经霍罗登卡、科沃梅亚前出到库蒂、希尼亚滕一带的罗马尼亚边境，封锁了波兰政府、统帅部和大批部队撤往罗马尼亚的主要通道，但此前已有大量人员越境。",
+  "sources": [
+   "wiki_su_oob",
+   "meltyukhov_2001",
+   "wiki_soviet_invasion"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "su.5kk",
+  "side": "SU",
+  "echelon": "corps",
+  "type": "cavalry",
+  "parent": "su.12a",
+  "name": {
+   "zh": "第 5 骑兵军",
+   "orig": "5-й кавалерийский корпус",
+   "short": "5 КК"
+  },
+  "commander": {
+   "zh": "第 5 骑兵军",
+   "orig": "5-й кавкорпус (9-я, 16-я кд, 23-я лтбр)"
+  },
+  "model": "cav_su",
+  "active": {
+   "from": "1939-09-17T03:00"
+  },
+  "track": [
+   {
+    "at": "1939-09-17T03:00",
+    "pos": [
+     26.25,
+     49.3
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1939-09-17T20:00",
+    "pos": "@trembowla",
+    "status": "active"
+   },
+   {
+    "at": "1939-09-18T20:00",
+    "pos": "@brzezany",
+    "status": "active"
+   },
+   {
+    "at": "1939-09-19T20:00",
+    "pos": [
+     24.3,
+     49.45
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1939-09-21T12:00",
+    "pos": [
+     24.1,
+     49.7
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1939-09-24T12:00",
+    "pos": "@stryj",
+    "status": "active"
+   },
+   {
+    "at": "1939-10-05T12:00",
+    "pos": [
+     24,
+     49.5
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "方面军骑兵集群的另一部，辖第 9、16 骑兵师和第 23 轻坦克旅（BT）。9 月 17 日越境后经特伦博夫拉、布热扎内向利沃夫东南方向推进，截击从利沃夫地区向南撤往斯特雷、罗马尼亚边境的波兰部队，此后在斯特雷—米科瓦伊夫一带驻止。",
+  "sources": [
+   "wiki_su_oob",
+   "meltyukhov_2001",
+   "wiki_soviet_invasion"
+  ],
+  "confidence": "low"
+ }
+]

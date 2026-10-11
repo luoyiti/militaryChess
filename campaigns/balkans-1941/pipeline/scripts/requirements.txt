@@ -1,0 +1,7 @@
+numpy
+scipy
+Pillow
+requests
+shapely>=2
+fonttools
+brotli

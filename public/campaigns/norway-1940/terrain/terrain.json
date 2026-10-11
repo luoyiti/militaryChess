@@ -1,0 +1,17 @@
+{
+ "width": 1024,
+ "height": 894,
+ "worldWidth": 4096,
+ "worldHeight": 3576,
+ "encoding": "rg16",
+ "scale": 0.25,
+ "offset": -100,
+ "minElev": -60.0,
+ "maxElev": 2146.0,
+ "formula": "elev_m = (R*256+G)*scale + offset；海面以下截断到 -60 m；像素 (i,j) 覆盖世界坐标 [i*8,(i+1)*8)×[j*8,(j+1)*8)",
+ "albedo": {
+  "src": "terrain/albedo.webp",
+  "width": 4096,
+  "height": 3576
+ }
+}

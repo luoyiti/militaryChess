@@ -1,0 +1,673 @@
+[
+ {
+  "id": "r.pl.bzura_counter",
+  "side": "PL",
+  "unit": "pl.poznan",
+  "style": "counter",
+  "widthKm": 25,
+  "label": "布祖拉河反击",
+  "waypoints": [
+   {
+    "at": "1939-09-09T18:00",
+    "pos": [
+     19.25,
+     52.2
+    ]
+   },
+   {
+    "at": "1939-09-10T06:00",
+    "pos": "@leczyca"
+   },
+   {
+    "at": "1939-09-10T18:00",
+    "pos": "@piatek"
+   },
+   {
+    "at": "1939-09-11T18:00",
+    "pos": [
+     19.45,
+     51.95
+    ]
+   },
+   {
+    "at": "1939-09-12T12:00",
+    "pos": "@strykow"
+   }
+  ],
+  "sources": [
+   "wiki_pl_kampania",
+   "zaloga_2002",
+   "jurga_1990",
+   "rezmer_1992"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "r.pl.bzura_breakout",
+  "side": "PL",
+  "unit": "pl.poznan",
+  "style": "breakout",
+  "widthKm": 15,
+  "label": "突围坎皮诺斯—华沙",
+  "waypoints": [
+   {
+    "at": "1939-09-15T18:00",
+    "pos": "@kiernozia"
+   },
+   {
+    "at": "1939-09-16T18:00",
+    "pos": [
+     20.1,
+     52.28
+    ]
+   },
+   {
+    "at": "1939-09-17T18:00",
+    "pos": "@brochow"
+   },
+   {
+    "at": "1939-09-18T18:00",
+    "pos": "@kampinos"
+   },
+   {
+    "at": "1939-09-19T18:00",
+    "pos": "@palmiry"
+   },
+   {
+    "at": "1939-09-20T18:00",
+    "pos": "@lomianki"
+   },
+   {
+    "at": "1939-09-21T12:00",
+    "pos": "@warszawa"
+   }
+  ],
+  "sources": [
+   "wiki_pl_kampania",
+   "zaloga_2002",
+   "jurga_1990",
+   "rezmer_1992"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "r.pl.pomorze_retreat",
+  "side": "PL",
+  "unit": "pl.pomorze",
+  "style": "retreat",
+  "widthKm": 20,
+  "label": "波美拉尼亚集团军南撤",
+  "waypoints": [
+   {
+    "at": "1939-09-03T18:00",
+    "pos": [
+     18.3,
+     53.2
+    ]
+   },
+   {
+    "at": "1939-09-05T12:00",
+    "pos": "@torun"
+   },
+   {
+    "at": "1939-09-07T12:00",
+    "pos": [
+     18.8,
+     52.75
+    ]
+   },
+   {
+    "at": "1939-09-08T18:00",
+    "pos": "@wloclawek"
+   },
+   {
+    "at": "1939-09-10T12:00",
+    "pos": "@kutno"
+   }
+  ],
+  "sources": [
+   "wiki_pl_kampania",
+   "zaloga_2002",
+   "jurga_1990"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "r.pl.poznan_retreat",
+  "side": "PL",
+  "unit": "pl.poznan",
+  "style": "retreat",
+  "widthKm": 25,
+  "label": "波兹南集团军东撤",
+  "waypoints": [
+   {
+    "at": "1939-09-03T18:00",
+    "pos": "@poznan"
+   },
+   {
+    "at": "1939-09-05T12:00",
+    "pos": "@gniezno"
+   },
+   {
+    "at": "1939-09-07T12:00",
+    "pos": "@kolo"
+   },
+   {
+    "at": "1939-09-08T18:00",
+    "pos": "@kutno"
+   }
+  ],
+  "sources": [
+   "wiki_pl_kampania",
+   "zaloga_2002",
+   "jurga_1990",
+   "rezmer_1992"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "r.pl.lodz_modlin",
+  "side": "PL",
+  "unit": "pl.lodz",
+  "style": "retreat",
+  "widthKm": 15,
+  "label": "罗兹集团军残部退入莫德林",
+  "waypoints": [
+   {
+    "at": "1939-09-07T12:00",
+    "pos": "@lodz"
+   },
+   {
+    "at": "1939-09-08T18:00",
+    "pos": "@brzeziny"
+   },
+   {
+    "at": "1939-09-09T18:00",
+    "pos": "@jezow"
+   },
+   {
+    "at": "1939-09-12T18:00",
+    "pos": "@zyrardow"
+   },
+   {
+    "at": "1939-09-13T18:00",
+    "pos": "@modlin"
+   }
+  ],
+  "sources": [
+   "wiki_pl_kampania",
+   "zaloga_2002",
+   "jurga_1990",
+   "wroblewski_1975"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "r.pl.prusy_retreat",
+  "side": "PL",
+  "unit": "pl.og_prusy_pn",
+  "style": "retreat",
+  "widthKm": 15,
+  "label": "普鲁士集团军北部集群退过维斯瓦河",
+  "waypoints": [
+   {
+    "at": "1939-09-06T18:00",
+    "pos": "@tomaszow_maz"
+   },
+   {
+    "at": "1939-09-07T18:00",
+    "pos": [
+     20.28,
+     51.45
+    ]
+   },
+   {
+    "at": "1939-09-09T12:00",
+    "pos": [
+     20.85,
+     51.65
+    ]
+   },
+   {
+    "at": "1939-09-10T18:00",
+    "pos": "@maciejowice"
+   },
+   {
+    "at": "1939-09-11T18:00",
+    "pos": [
+     21.65,
+     51.72
+    ]
+   }
+  ],
+  "sources": [
+   "wiki_pl_kampania",
+   "zaloga_2002",
+   "jurga_1990",
+   "porwit_1983"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "r.pl.ilza_breakout",
+  "side": "PL",
+  "unit": "pl.og_prusy_pd",
+  "style": "breakout",
+  "widthKm": 10,
+  "label": "伊尔扎突围",
+  "waypoints": [
+   {
+    "at": "1939-09-07T18:00",
+    "pos": "@skarzysko"
+   },
+   {
+    "at": "1939-09-08T12:00",
+    "pos": "@ilza"
+   },
+   {
+    "at": "1939-09-08T22:00",
+    "pos": [
+     21.35,
+     51.16
+    ]
+   },
+   {
+    "at": "1939-09-09T18:00",
+    "pos": [
+     21.55,
+     51.15
+    ]
+   },
+   {
+    "at": "1939-09-10T12:00",
+    "pos": "@solec_wisla"
+   }
+  ],
+  "sources": [
+   "wiki_pl_kampania",
+   "zaloga_2002",
+   "jurga_1990",
+   "porwit_1983"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "r.pl.krakow_east",
+  "side": "PL",
+  "unit": "pl.krakow",
+  "style": "retreat",
+  "widthKm": 30,
+  "label": "克拉科夫集团军东撤至托马舒夫",
+  "waypoints": [
+   {
+    "at": "1939-09-04T18:00",
+    "pos": [
+     19.4,
+     50.2
+    ]
+   },
+   {
+    "at": "1939-09-06T12:00",
+    "pos": "@krakow"
+   },
+   {
+    "at": "1939-09-08T12:00",
+    "pos": "@nowy_korczyn"
+   },
+   {
+    "at": "1939-09-11T12:00",
+    "pos": "@baranow_sand"
+   },
+   {
+    "at": "1939-09-13T12:00",
+    "pos": "@nisko"
+   },
+   {
+    "at": "1939-09-16T12:00",
+    "pos": "@bilgoraj"
+   },
+   {
+    "at": "1939-09-18T12:00",
+    "pos": [
+     23.2,
+     50.52
+    ]
+   },
+   {
+    "at": "1939-09-19T12:00",
+    "pos": "@tomaszow_lub"
+   }
+  ],
+  "sources": [
+   "wiki_pl_kampania",
+   "zaloga_2002",
+   "jurga_1990",
+   "zawilski_2019"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "r.pl.front_pn_south",
+  "side": "PL",
+  "unit": "pl.front_polnocny",
+  "style": "breakout",
+  "widthKm": 25,
+  "label": "北方方面军南下突围",
+  "waypoints": [
+   {
+    "at": "1939-09-17T12:00",
+    "pos": "@chelm"
+   },
+   {
+    "at": "1939-09-19T12:00",
+    "pos": "@rejowiec"
+   },
+   {
+    "at": "1939-09-20T12:00",
+    "pos": "@krasnystaw"
+   },
+   {
+    "at": "1939-09-22T12:00",
+    "pos": "@zamosc"
+   },
+   {
+    "at": "1939-09-23T12:00",
+    "pos": "@tarnawatka"
+   },
+   {
+    "at": "1939-09-26T12:00",
+    "pos": [
+     23.3,
+     50.45
+    ]
+   }
+  ],
+  "sources": [
+   "wiki_pl_kampania",
+   "zaloga_2002",
+   "jurga_1990",
+   "glowacki_1986"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "r.pl.10bk_lwow",
+  "side": "PL",
+  "unit": "pl.10bk",
+  "style": "retreat",
+  "widthKm": 8,
+  "label": "第 10 骑兵旅退往利沃夫",
+  "waypoints": [
+   {
+    "at": "1939-09-08T22:00",
+    "pos": "@rzeszow"
+   },
+   {
+    "at": "1939-09-09T18:00",
+    "pos": "@lancut"
+   },
+   {
+    "at": "1939-09-10T18:00",
+    "pos": "@jaroslaw"
+   },
+   {
+    "at": "1939-09-13T18:00",
+    "pos": [
+     23.8,
+     49.95
+    ]
+   },
+   {
+    "at": "1939-09-14T14:00",
+    "pos": "@zboiska"
+   }
+  ],
+  "sources": [
+   "plwiki_10bk",
+   "zaloga_2002"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "r.pl.10bk_hungary",
+  "side": "PL",
+  "unit": "pl.10bk",
+  "style": "retreat",
+  "widthKm": 6,
+  "label": "第 10 骑兵旅越境匈牙利",
+  "waypoints": [
+   {
+    "at": "1939-09-17T09:00",
+    "pos": [
+     24,
+     49.9
+    ]
+   },
+   {
+    "at": "1939-09-18T07:00",
+    "pos": "@halicz"
+   },
+   {
+    "at": "1939-09-18T18:30",
+    "pos": [
+     24.6,
+     48.7
+    ]
+   },
+   {
+    "at": "1939-09-19T06:00",
+    "pos": "@przelecz_tatarska"
+   }
+  ],
+  "sources": [
+   "plwiki_10bk",
+   "zaloga_2002"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "r.pl.sosnkowski_lwow",
+  "side": "PL",
+  "unit": "pl.front_poludniowy",
+  "style": "breakout",
+  "widthKm": 15,
+  "label": "索斯恩科夫斯基集群突向利沃夫",
+  "waypoints": [
+   {
+    "at": "1939-09-12T18:00",
+    "pos": "@przemysl"
+   },
+   {
+    "at": "1939-09-14T18:00",
+    "pos": "@mosciska"
+   },
+   {
+    "at": "1939-09-16T06:00",
+    "pos": "@sadowa_wisznia"
+   },
+   {
+    "at": "1939-09-17T18:00",
+    "pos": "@janow_lwowski"
+   },
+   {
+    "at": "1939-09-19T18:00",
+    "pos": "@brzuchowice"
+   }
+  ],
+  "sources": [
+   "dalecki_1989",
+   "wiki_battle_lwow"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "r.pl.narew_retreat",
+  "side": "PL",
+  "unit": "pl.sgo_narew",
+  "style": "retreat",
+  "widthKm": 15,
+  "label": "纳雷夫集群退往比亚沃维耶扎",
+  "waypoints": [
+   {
+    "at": "1939-09-10T12:00",
+    "pos": "@zambrow"
+   },
+   {
+    "at": "1939-09-12T12:00",
+    "pos": [
+     22.4,
+     52.85
+    ]
+   },
+   {
+    "at": "1939-09-14T12:00",
+    "pos": [
+     22.9,
+     52.78
+    ]
+   },
+   {
+    "at": "1939-09-16T12:00",
+    "pos": "@bialowieza"
+   }
+  ],
+  "sources": [
+   "wiki_pl_kampania",
+   "zaloga_2002",
+   "jurga_1990"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "r.pl.sgo_polesie_kock",
+  "side": "PL",
+  "unit": "pl.sgo_polesie",
+  "style": "counter",
+  "widthKm": 12,
+  "label": "克莱贝格西进至科克",
+  "waypoints": [
+   {
+    "at": "1939-09-26T12:00",
+    "pos": "@maloryta"
+   },
+   {
+    "at": "1939-09-27T18:00",
+    "pos": "@wlodawa"
+   },
+   {
+    "at": "1939-09-29T18:00",
+    "pos": "@jablon"
+   },
+   {
+    "at": "1939-09-30T12:00",
+    "pos": "@parczew"
+   },
+   {
+    "at": "1939-10-02T12:00",
+    "pos": "@kock"
+   },
+   {
+    "at": "1939-10-05T12:00",
+    "pos": "@wola_gulowska"
+   }
+  ],
+  "sources": [
+   "plwiki_sgo_polesie",
+   "wroblewski_1989"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "r.pl.anders_breakout",
+  "side": "PL",
+  "unit": "pl.og_anders",
+  "style": "breakout",
+  "widthKm": 10,
+  "label": "安德斯骑兵集群突向匈牙利",
+  "waypoints": [
+   {
+    "at": "1939-09-21T12:00",
+    "pos": [
+     23.2,
+     51
+    ]
+   },
+   {
+    "at": "1939-09-22T18:00",
+    "pos": [
+     23.35,
+     50.62
+    ]
+   },
+   {
+    "at": "1939-09-24T18:00",
+    "pos": [
+     23.45,
+     50.4
+    ]
+   },
+   {
+    "at": "1939-09-26T12:00",
+    "pos": [
+     23.5,
+     50.1
+    ]
+   },
+   {
+    "at": "1939-09-27T18:00",
+    "pos": [
+     23.4,
+     49.85
+    ]
+   }
+  ],
+  "sources": [
+   "wiki_pl_kampania",
+   "zaloga_2002",
+   "jurga_1990",
+   "zawilski_2019"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "r.pl.kop_szack",
+  "side": "PL",
+  "unit": "pl.kop_orlik",
+  "style": "breakout",
+  "widthKm": 8,
+  "label": "边防军集群西进（沙茨克—维蒂切诺）",
+  "waypoints": [
+   {
+    "at": "1939-09-25T12:00",
+    "pos": "@kamien_koszyrski"
+   },
+   {
+    "at": "1939-09-27T18:00",
+    "pos": [
+     24.2,
+     51.52
+    ]
+   },
+   {
+    "at": "1939-09-28T08:00",
+    "pos": "@szack"
+   },
+   {
+    "at": "1939-09-30T18:00",
+    "pos": [
+     23.58,
+     51.5
+    ]
+   },
+   {
+    "at": "1939-10-01T12:00",
+    "pos": "@wytyczno"
+   }
+  ],
+  "sources": [
+   "wiki_battle_szack",
+   "wiki_soviet_invasion"
+  ],
+  "confidence": "medium"
+ }
+]

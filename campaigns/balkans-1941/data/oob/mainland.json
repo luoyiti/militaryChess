@@ -1,0 +1,4526 @@
+[
+ {
+  "id": "it.albania",
+  "side": "IT",
+  "echelon": "armygroup",
+  "type": "hq",
+  "parent": null,
+  "name": {
+   "zh": "阿尔巴尼亚战区司令部",
+   "orig": "Comando Superiore Truppe Albania",
+   "short": "AL司"
+  },
+  "track": [],
+  "active": {
+   "from": "1940-10-28T00:00",
+   "to": "1941-05-19T23:59"
+  },
+  "history": "负责从意占阿尔巴尼亚发动战争。普拉斯卡之后由索杜、卡瓦莱罗先后统筹；11月增援与重新划分第9、11集团军，也未能消除山区运输和协同困难。",
+  "sources": [
+   "land_greek_defence",
+   "land_greek_korce",
+   "land_greek_spring"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "it.9a",
+  "side": "IT",
+  "echelon": "army",
+  "type": "hq",
+  "parent": "it.albania",
+  "name": {
+   "zh": "第9集团军",
+   "orig": "9ª Armata",
+   "short": "9A"
+  },
+  "track": [
+   {
+    "at": "1940-11-09T12:00",
+    "pos": "@korce"
+   },
+   {
+    "at": "1940-11-23T12:00",
+    "pos": "@elbasan",
+    "status": "withdrawing"
+   },
+   {
+    "at": "1941-03-09T12:00",
+    "pos": "@elbasan",
+    "status": "active"
+   },
+   {
+    "at": "1941-04-23T12:00",
+    "pos": "@korce"
+   }
+  ],
+  "active": {
+   "from": "1940-11-09T00:00",
+   "to": "1941-05-19T23:59"
+  },
+  "history": "11月增援重组后负责科尔察和阿尔巴尼亚东北方向。科尔察失守后退向爱尔巴桑、波格拉德茨以北，直至1941年4月希军退却才恢复南下。",
+  "sources": [
+   "land_greek_korce",
+   "land_us_greece"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "it.11a",
+  "side": "IT",
+  "echelon": "army",
+  "type": "hq",
+  "parent": "it.albania",
+  "name": {
+   "zh": "第11集团军",
+   "orig": "11ª Armata",
+   "short": "11A"
+  },
+  "track": [
+   {
+    "at": "1940-11-09T12:00",
+    "pos": "@gjirokaster"
+   },
+   {
+    "at": "1940-12-08T12:00",
+    "pos": "@tepelene",
+    "status": "withdrawing"
+   },
+   {
+    "at": "1941-03-09T12:00",
+    "pos": "@tepelene",
+    "status": "engaged"
+   },
+   {
+    "at": "1941-04-20T12:00",
+    "pos": "@gjirokaster"
+   },
+   {
+    "at": "1941-04-27T12:00",
+    "pos": "@ioannina"
+   }
+  ],
+  "active": {
+   "from": "1940-11-09T00:00",
+   "to": "1941-05-19T23:59"
+  },
+  "history": "格洛索指挥的第11集团军承担伊庇鲁斯和阿尔巴尼亚南部战线。经历希军反攻与冬季相持，春季攻势仍未突破，最后在德国介入后向约阿尼纳推进。",
+  "sources": [
+   "land_greek_defence",
+   "land_greek_himara",
+   "land_greek_spring",
+   "land_us_greece"
+  ],
+  "confidence": "medium",
+  "commander": {
+   "zh": "卡洛·格洛索",
+   "orig": "Carlo Geloso"
+  }
+ },
+ {
+  "id": "it.xxv",
+  "side": "IT",
+  "echelon": "corps",
+  "type": "hq",
+  "parent": "it.albania",
+  "name": {
+   "zh": "第25军·查穆里亚",
+   "orig": "XXV Corpo d'Armata Ciamuria",
+   "short": "XXV"
+  },
+  "track": [
+   {
+    "at": "1940-10-28T12:00",
+    "pos": "@gjirokaster"
+   },
+   {
+    "at": "1940-11-02T12:00",
+    "pos": "@kalpaki",
+    "status": "engaged"
+   },
+   {
+    "at": "1940-11-10T12:00",
+    "pos": "@gjirokaster",
+    "status": "withdrawing"
+   },
+   {
+    "at": "1940-12-08T12:00",
+    "pos": "@tepelene",
+    "status": "engaged"
+   },
+   {
+    "at": "1941-03-16T12:00",
+    "pos": "@tepelene"
+   },
+   {
+    "at": "1941-04-25T12:00",
+    "pos": "@ioannina"
+   }
+  ],
+  "active": {
+   "from": "1940-10-28T00:00",
+   "to": "1941-05-19T23:59"
+  },
+  "history": "开局以费拉拉、锡耶纳和半人马师攻击卡尔帕基—卡拉马斯防线。希腊第8师的防御与当地地形使快速进占约阿尼纳的计划失败；编制后来纳入第11集团军方向。",
+  "sources": [
+   "land_greek_defence",
+   "land_greek_himara"
+  ],
+  "confidence": "medium",
+  "commander": {
+   "zh": "卡洛·罗西",
+   "orig": "Carlo Rossi"
+  },
+  "strength": {
+   "men": 42000
+  }
+ },
+ {
+  "id": "it.xxvi",
+  "side": "IT",
+  "echelon": "corps",
+  "type": "hq",
+  "parent": "it.albania",
+  "name": {
+   "zh": "第26军",
+   "orig": "XXVI Corpo d'Armata",
+   "short": "XXVI"
+  },
+  "track": [
+   {
+    "at": "1940-10-28T12:00",
+    "pos": "@korce"
+   },
+   {
+    "at": "1940-11-16T12:00",
+    "pos": "@korce",
+    "status": "engaged"
+   },
+   {
+    "at": "1940-11-23T12:00",
+    "pos": "@pogradec",
+    "status": "withdrawing"
+   },
+   {
+    "at": "1940-12-02T12:00",
+    "pos": "@elbasan"
+   },
+   {
+    "at": "1941-03-16T12:00",
+    "pos": "@elbasan",
+    "status": "active"
+   },
+   {
+    "at": "1941-04-24T12:00",
+    "pos": "@korce"
+   }
+  ],
+  "active": {
+   "from": "1940-10-28T00:00",
+   "to": "1941-05-19T23:59"
+  },
+  "history": "初期配置帕尔马、皮埃蒙特、威尼斯及随后赶到的阿雷佐师。反攻期间在莫拉瓦山地与希军第3军交战，丢失科尔察并退往奥赫里德湖西侧和爱尔巴桑。",
+  "sources": [
+   "land_greek_korce"
+  ],
+  "confidence": "medium",
+  "strength": {
+   "men": 44000
+  }
+ },
+ {
+  "id": "it.viii",
+  "side": "IT",
+  "echelon": "corps",
+  "type": "hq",
+  "parent": "it.11a",
+  "name": {
+   "zh": "第8军·春季攻势",
+   "orig": "VIII Corpo d'Armata",
+   "short": "VIII"
+  },
+  "track": [
+   {
+    "at": "1941-03-08T12:00",
+    "pos": "@tepelene"
+   },
+   {
+    "at": "1941-03-09T12:00",
+    "pos": "@hill731",
+    "status": "engaged"
+   },
+   {
+    "at": "1941-03-16T12:00",
+    "pos": "@tepelene",
+    "status": "active"
+   },
+   {
+    "at": "1941-04-23T12:00",
+    "pos": "@permet"
+   }
+  ],
+  "active": {
+   "from": "1941-03-08T00:00",
+   "to": "1941-05-19T23:59"
+  },
+  "history": "甘巴拉指挥第8军，在德斯尼察谷地集中攻势，企图打穿希腊第2军的防御。连续炮火和步兵攻击未能取得决定性突破；师级标记表示攻击地带而非精确驻地。",
+  "sources": [
+   "land_greek_spring"
+  ],
+  "confidence": "medium",
+  "commander": {
+   "zh": "加斯托内·甘巴拉",
+   "orig": "Gastone Gambara"
+  }
+ },
+ {
+  "id": "it.ferrara",
+  "side": "IT",
+  "echelon": "division",
+  "type": "infantry",
+  "parent": "it.xxv",
+  "name": {
+   "zh": "第23师·费拉拉",
+   "orig": "23ª Divisione Ferrara",
+   "short": "23IT"
+  },
+  "track": [
+   {
+    "at": "1940-10-28T12:00",
+    "pos": "@gjirokaster"
+   },
+   {
+    "at": "1940-11-02T12:00",
+    "pos": "@kalpaki",
+    "status": "engaged"
+   },
+   {
+    "at": "1940-11-09T12:00",
+    "pos": "@konitsa",
+    "status": "withdrawing"
+   },
+   {
+    "at": "1940-11-22T12:00",
+    "pos": "@permet"
+   },
+   {
+    "at": "1941-03-09T12:00",
+    "pos": "@tepelene",
+    "status": "engaged"
+   },
+   {
+    "at": "1941-04-23T12:00",
+    "pos": "@konitsa"
+   }
+  ],
+  "active": {
+   "from": "1940-10-28T12:00",
+   "to": "1941-05-19T23:59"
+  },
+  "history": "在伊庇鲁斯主攻轴线与半人马师配合。卡尔帕基阵地没有被正面突击夺取，11月转为边打边退，冬季在阿尔巴尼亚南部坚持。",
+  "sources": [
+   "land_greek_defence",
+   "land_greek_spring"
+  ],
+  "confidence": "medium",
+  "model": "inf_it"
+ },
+ {
+  "id": "it.siena",
+  "side": "IT",
+  "echelon": "division",
+  "type": "infantry",
+  "parent": "it.xxv",
+  "name": {
+   "zh": "第51师·锡耶纳",
+   "orig": "51ª Divisione Siena",
+   "short": "51IT"
+  },
+  "track": [
+   {
+    "at": "1940-10-28T12:00",
+    "pos": "@delvine"
+   },
+   {
+    "at": "1940-11-03T12:00",
+    "pos": "@igoumenitsa",
+    "status": "engaged"
+   },
+   {
+    "at": "1940-11-14T12:00",
+    "pos": "@delvine",
+    "status": "withdrawing"
+   },
+   {
+    "at": "1940-12-06T12:00",
+    "pos": "@sarande",
+    "status": "withdrawing"
+   },
+   {
+    "at": "1940-12-22T12:00",
+    "pos": "@himare",
+    "status": "engaged"
+   },
+   {
+    "at": "1941-04-23T12:00",
+    "pos": "@sarande"
+   }
+  ],
+  "active": {
+   "from": "1940-10-28T12:00",
+   "to": "1941-05-19T23:59"
+  },
+  "history": "向菲利亚泰斯和海岸方向推进，随后在希腊反攻中后撤。海岸线被压向希马拉以北，山区道路和天气限制了意军重新掌握主动。",
+  "sources": [
+   "land_greek_defence",
+   "land_greek_himara"
+  ],
+  "confidence": "medium",
+  "model": "inf_it"
+ },
+ {
+  "id": "it.centauro",
+  "side": "IT",
+  "echelon": "division",
+  "type": "armor",
+  "parent": "it.xxv",
+  "name": {
+   "zh": "第131师·半人马装甲",
+   "orig": "131ª Divisione Centauro",
+   "short": "131IT"
+  },
+  "track": [
+   {
+    "at": "1940-10-28T12:00",
+    "pos": "@gjirokaster"
+   },
+   {
+    "at": "1940-11-04T12:00",
+    "pos": "@kalpaki",
+    "status": "engaged"
+   },
+   {
+    "at": "1940-11-10T12:00",
+    "pos": "@gjirokaster",
+    "status": "withdrawing"
+   },
+   {
+    "at": "1941-01-06T12:00",
+    "pos": "@kelcyre",
+    "status": "engaged"
+   },
+   {
+    "at": "1941-01-11T12:00",
+    "pos": "@tepelene"
+   },
+   {
+    "at": "1941-04-23T12:00",
+    "pos": "@konitsa"
+   }
+  ],
+  "active": {
+   "from": "1940-10-28T12:00",
+   "to": "1941-05-19T23:59"
+  },
+  "history": "以轻型履带坦克为主的装甲师分队支援费拉拉师。泥泞、狭窄山路与反坦克防御削弱了装甲优势；这里描绘主作战方向，不代表全师始终集中。",
+  "sources": [
+   "land_greek_defence",
+   "land_greek_spring"
+  ],
+  "confidence": "medium",
+  "model": "inf_it",
+  "equipment": [
+   {
+    "id": "land_l3"
+   }
+  ]
+ },
+ {
+  "id": "it.julia",
+  "side": "IT",
+  "echelon": "division",
+  "type": "mountain",
+  "parent": "it.albania",
+  "name": {
+   "zh": "第3师·朱利亚山地",
+   "orig": "3ª Divisione Julia",
+   "short": "3IT"
+  },
+  "track": [
+   {
+    "at": "1940-10-28T12:00",
+    "pos": "@leskovik"
+   },
+   {
+    "at": "1940-11-02T12:00",
+    "pos": "@samarina",
+    "status": "engaged"
+   },
+   {
+    "at": "1940-11-04T12:00",
+    "pos": "@distrato",
+    "status": "encircled"
+   },
+   {
+    "at": "1940-11-08T12:00",
+    "pos": "@konitsa",
+    "status": "withdrawing"
+   },
+   {
+    "at": "1940-11-14T12:00",
+    "pos": "@leskovik"
+   },
+   {
+    "at": "1941-01-06T12:00",
+    "pos": "@kelcyre",
+    "status": "engaged"
+   },
+   {
+    "at": "1941-01-11T12:00",
+    "pos": "@tepelene"
+   },
+   {
+    "at": "1941-04-22T12:00",
+    "pos": "@permet"
+   }
+  ],
+  "active": {
+   "from": "1940-10-28T12:00",
+   "to": "1941-05-19T23:59"
+  },
+  "history": "初期独立纵队企图穿越品都斯直取梅措沃、切断希军。补给与两翼暴露导致撤退；巴里师接应使部分队伍脱险。该师后来继续参战，不能将品都斯失利写成全师歼灭。",
+  "sources": [
+   "land_greek_defence",
+   "land_greek_korce",
+   "land_greek_spring"
+  ],
+  "confidence": "medium",
+  "model": "inf_it"
+ },
+ {
+  "id": "it.parma",
+  "side": "IT",
+  "echelon": "division",
+  "type": "infantry",
+  "parent": "it.xxvi",
+  "name": {
+   "zh": "第49师·帕尔马",
+   "orig": "49ª Divisione Parma",
+   "short": "49IT"
+  },
+  "track": [
+   {
+    "at": "1940-10-28T12:00",
+    "pos": "@korce"
+   },
+   {
+    "at": "1940-11-14T12:00",
+    "pos": [
+     20.93,
+     40.63
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1940-11-22T12:00",
+    "pos": "@pogradec",
+    "status": "withdrawing"
+   },
+   {
+    "at": "1940-12-02T12:00",
+    "pos": "@elbasan"
+   },
+   {
+    "at": "1941-04-23T12:00",
+    "pos": "@korce"
+   }
+  ],
+  "active": {
+   "from": "1940-10-28T12:00",
+   "to": "1941-05-19T23:59"
+  },
+  "history": "开战时位于科尔察以东，守备通往卡斯托里亚和弗洛里纳的方向。希军在莫拉瓦山地突破后，帕尔马师与相邻意军退往阿尔巴尼亚内部。",
+  "sources": [
+   "land_greek_korce"
+  ],
+  "confidence": "medium",
+  "model": "inf_it"
+ },
+ {
+  "id": "it.piemonte",
+  "side": "IT",
+  "echelon": "division",
+  "type": "infantry",
+  "parent": "it.xxvi",
+  "name": {
+   "zh": "第29师·皮埃蒙特",
+   "orig": "29ª Divisione Piemonte",
+   "short": "29IT"
+  },
+  "track": [
+   {
+    "at": "1940-10-28T12:00",
+    "pos": [
+     20.62,
+     40.62
+    ]
+   },
+   {
+    "at": "1940-11-15T12:00",
+    "pos": "@korce",
+    "status": "engaged"
+   },
+   {
+    "at": "1940-11-23T12:00",
+    "pos": "@pogradec",
+    "status": "withdrawing"
+   },
+   {
+    "at": "1940-12-02T12:00",
+    "pos": "@elbasan"
+   },
+   {
+    "at": "1941-04-23T12:00",
+    "pos": "@korce"
+   }
+  ],
+  "active": {
+   "from": "1940-10-28T12:00",
+   "to": "1941-05-19T23:59"
+  },
+  "history": "开局部署在科尔察西侧，隶属第26军。科尔察撤退后在阿尔巴尼亚中部重整。所示部队位置以战区方向为准，不能用于推断某日具体师部。",
+  "sources": [
+   "land_greek_korce"
+  ],
+  "confidence": "medium",
+  "model": "inf_it"
+ },
+ {
+  "id": "it.venezia",
+  "side": "IT",
+  "echelon": "division",
+  "type": "infantry",
+  "parent": "it.xxvi",
+  "name": {
+   "zh": "第19师·威尼斯",
+   "orig": "19ª Divisione Venezia",
+   "short": "19IT"
+  },
+  "track": [
+   {
+    "at": "1940-10-28T12:00",
+    "pos": "@elbasan"
+   },
+   {
+    "at": "1940-11-14T12:00",
+    "pos": "@pogradec",
+    "status": "engaged"
+   },
+   {
+    "at": "1940-11-30T12:00",
+    "pos": [
+     20.56,
+     41.03
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1941-03-16T12:00",
+    "pos": [
+     20.56,
+     41.03
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-04-23T12:00",
+    "pos": "@pogradec"
+   }
+  ],
+  "active": {
+   "from": "1940-10-28T12:00",
+   "to": "1941-05-19T23:59"
+  },
+  "history": "起初分布于普雷斯帕湖至爱尔巴桑地带。希军反攻中承担科尔察和奥赫里德湖西岸方向的阻击；冬季战线稳定后继续守住北方运输通道。",
+  "sources": [
+   "land_greek_korce"
+  ],
+  "confidence": "medium",
+  "model": "inf_it"
+ },
+ {
+  "id": "it.bari",
+  "side": "IT",
+  "echelon": "division",
+  "type": "infantry",
+  "parent": "it.albania",
+  "name": {
+   "zh": "第47师·巴里",
+   "orig": "47ª Divisione Bari",
+   "short": "47IT"
+  },
+  "track": [
+   {
+    "at": "1940-11-03T12:00",
+    "pos": "@permet"
+   },
+   {
+    "at": "1940-11-06T12:00",
+    "pos": "@konitsa",
+    "status": "engaged"
+   },
+   {
+    "at": "1940-11-14T12:00",
+    "pos": "@leskovik",
+    "status": "withdrawing"
+   },
+   {
+    "at": "1941-01-11T12:00",
+    "pos": "@tepelene"
+   },
+   {
+    "at": "1941-04-23T12:00",
+    "pos": "@permet"
+   }
+  ],
+  "active": {
+   "from": "1940-11-03T12:00",
+   "to": "1941-05-19T23:59"
+  },
+  "history": "增援品都斯，接应朱利亚师从迪斯特拉托一带退却。其加入避免部分意军被完全切断，但没有扭转开局失败；后续归属与驻地有调整。",
+  "sources": [
+   "land_greek_defence",
+   "land_greek_spring"
+  ],
+  "confidence": "medium",
+  "model": "inf_it"
+ },
+ {
+  "id": "it.lupi",
+  "side": "IT",
+  "echelon": "division",
+  "type": "infantry",
+  "parent": "it.albania",
+  "name": {
+   "zh": "第7师·托斯卡纳之狼",
+   "orig": "7ª Divisione Lupi di Toscana",
+   "short": "7IT"
+  },
+  "track": [
+   {
+    "at": "1941-01-04T12:00",
+    "pos": "@tepelene"
+   },
+   {
+    "at": "1941-01-06T12:00",
+    "pos": "@kelcyre",
+    "status": "engaged"
+   },
+   {
+    "at": "1941-01-11T12:00",
+    "pos": "@tepelene",
+    "status": "withdrawing"
+   },
+   {
+    "at": "1941-03-16T12:00",
+    "pos": "@tepelene",
+    "status": "active"
+   },
+   {
+    "at": "1941-04-23T12:00",
+    "pos": "@permet"
+   }
+  ],
+  "active": {
+   "from": "1941-01-04T12:00",
+   "to": "1941-05-19T23:59"
+  },
+  "history": "1941年1月投入克利苏拉方向的增援部队。抵达后即卷入希军进攻和艰难退却，冬季补给不良、道路泥泞和严寒进一步削弱战斗力。",
+  "sources": [
+   "land_greek_spring",
+   "land_us_greece"
+  ],
+  "confidence": "medium",
+  "model": "inf_it"
+ },
+ {
+  "id": "it.2a",
+  "side": "IT",
+  "echelon": "army",
+  "type": "hq",
+  "parent": null,
+  "name": {
+   "zh": "第2集团军·南斯拉夫方向",
+   "orig": "2ª Armata",
+   "short": "2A"
+  },
+  "track": [
+   {
+    "at": "1941-04-06T12:00",
+    "pos": "@rijeka",
+    "status": "reserve"
+   },
+   {
+    "at": "1941-04-11T12:00",
+    "pos": "@ljubljana",
+    "status": "engaged"
+   },
+   {
+    "at": "1941-04-15T12:00",
+    "pos": "@split"
+   },
+   {
+    "at": "1941-04-18T12:00",
+    "pos": "@split",
+    "status": "active"
+   }
+  ],
+  "active": {
+   "from": "1941-04-06T00:00",
+   "to": "1941-05-19T23:59"
+  },
+  "history": "从意大利和亚得里亚海北岸进攻。主力于4月11日向卢布尔雅那和达尔马提亚推进，与德国北路配合；此处与阿尔巴尼亚战区分别显示。",
+  "sources": [
+   "land_us_yugoslavia"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "gr.hq",
+  "side": "GR",
+  "echelon": "armygroup",
+  "type": "hq",
+  "parent": null,
+  "name": {
+   "zh": "希腊总司令部",
+   "orig": "Genikó Stratigeío",
+   "short": "希总"
+  },
+  "track": [],
+  "active": {
+   "from": "1940-10-28T00:00",
+   "to": "1941-04-23T23:59"
+  },
+  "history": "帕帕戈斯统筹全国作战。秋冬优先击败意大利，德国介入后必须同时处理阿尔巴尼亚、马其顿与英联邦联合作战；各司令部并非全程保持同一种编制。",
+  "sources": [
+   "land_greek_defence",
+   "land_us_greece"
+  ],
+  "confidence": "medium",
+  "commander": {
+   "zh": "亚历山德罗斯·帕帕戈斯",
+   "orig": "Alexandros Papagos"
+  }
+ },
+ {
+  "id": "gr.westmac",
+  "side": "GR",
+  "echelon": "army",
+  "type": "hq",
+  "parent": "gr.hq",
+  "name": {
+   "zh": "西马其顿军团区",
+   "orig": "Tméma Stratiás Dytikís Makedonías",
+   "short": "西马"
+  },
+  "track": [
+   {
+    "at": "1940-10-28T12:00",
+    "pos": "@kozani"
+   },
+   {
+    "at": "1940-11-14T12:00",
+    "pos": "@kastoria"
+   },
+   {
+    "at": "1940-11-23T12:00",
+    "pos": "@korce"
+   },
+   {
+    "at": "1941-03-16T12:00",
+    "pos": "@korce",
+    "status": "active"
+   },
+   {
+    "at": "1941-04-16T12:00",
+    "pos": "@kastoria",
+    "status": "withdrawing"
+   },
+   {
+    "at": "1941-04-20T12:00",
+    "pos": "@metsovo",
+    "status": "surrendered"
+   }
+  ],
+  "active": {
+   "from": "1940-10-28T00:00",
+   "to": "1941-04-20T23:59"
+  },
+  "history": "初期辖第2、第3军，负责西马其顿和科尔察方向。反攻后留在阿尔巴尼亚，1941年4月德军经比托拉与克莱苏拉截击其退路。军树展示主要阶段，不表示后期所有调动。",
+  "sources": [
+   "land_greek_korce",
+   "land_us_greece"
+  ],
+  "confidence": "medium",
+  "commander": {
+   "zh": "约安尼斯·皮齐卡斯（初期）",
+   "orig": "Ioannis Pitsikas"
+  }
+ },
+ {
+  "id": "gr.i",
+  "side": "GR",
+  "echelon": "corps",
+  "type": "hq",
+  "parent": "gr.hq",
+  "name": {
+   "zh": "第1军",
+   "orig": "A' Sóma Stratoú",
+   "short": "I"
+  },
+  "track": [
+   {
+    "at": "1940-11-03T12:00",
+    "pos": "@ioannina"
+   },
+   {
+    "at": "1940-11-20T12:00",
+    "pos": "@gjirokaster",
+    "status": "engaged"
+   },
+   {
+    "at": "1940-12-08T12:00",
+    "pos": "@sarande"
+   },
+   {
+    "at": "1940-12-22T12:00",
+    "pos": "@himare",
+    "status": "engaged"
+   },
+   {
+    "at": "1941-03-16T12:00",
+    "pos": "@himare",
+    "status": "active"
+   },
+   {
+    "at": "1941-04-17T12:00",
+    "pos": "@gjirokaster",
+    "status": "withdrawing"
+   },
+   {
+    "at": "1941-04-23T12:00",
+    "pos": "@ioannina",
+    "status": "surrendered"
+   }
+  ],
+  "active": {
+   "from": "1940-11-03T00:00",
+   "to": "1941-04-23T23:59"
+  },
+  "history": "动员后进入伊庇鲁斯并向海岸和德里诺河谷反攻。12月由第3、第4师等攻击希马拉和特佩莱讷方向，冬季仍面临坚固阵地与艰难补给。",
+  "sources": [
+   "land_greek_himara",
+   "land_greek_defence",
+   "land_us_greece"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "gr.ii",
+  "side": "GR",
+  "echelon": "corps",
+  "type": "hq",
+  "parent": "gr.westmac",
+  "name": {
+   "zh": "第2军",
+   "orig": "B' Sóma Stratoú",
+   "short": "II"
+  },
+  "track": [
+   {
+    "at": "1940-10-28T12:00",
+    "pos": "@grevena"
+   },
+   {
+    "at": "1940-11-04T12:00",
+    "pos": "@samarina",
+    "status": "engaged"
+   },
+   {
+    "at": "1940-11-22T12:00",
+    "pos": "@permet"
+   },
+   {
+    "at": "1941-01-10T12:00",
+    "pos": "@kelcyre",
+    "status": "engaged"
+   },
+   {
+    "at": "1941-03-09T12:00",
+    "pos": "@hill731",
+    "status": "engaged"
+   },
+   {
+    "at": "1941-04-16T12:00",
+    "pos": "@permet",
+    "status": "withdrawing"
+   },
+   {
+    "at": "1941-04-23T12:00",
+    "pos": "@konitsa",
+    "status": "surrendered"
+   }
+  ],
+  "active": {
+   "from": "1940-10-28T00:00",
+   "to": "1941-04-23T23:59"
+  },
+  "history": "初期参与品都斯增援，随后转向阿尔巴尼亚中部。1月夺取克利苏拉，3月以第1师为核心顶住意军春季攻势；军的指挥归属在战役中有调整。",
+  "sources": [
+   "land_greek_korce",
+   "land_greek_spring",
+   "land_us_greece"
+  ],
+  "confidence": "medium",
+  "commander": {
+   "zh": "迪米特里奥斯·帕帕多普洛斯（初期）",
+   "orig": "Dimitrios Papadopoulos"
+  }
+ },
+ {
+  "id": "gr.iii",
+  "side": "GR",
+  "echelon": "corps",
+  "type": "hq",
+  "parent": "gr.westmac",
+  "name": {
+   "zh": "第3军",
+   "orig": "C' Sóma Stratoú",
+   "short": "III"
+  },
+  "track": [
+   {
+    "at": "1940-10-28T12:00",
+    "pos": "@kastoria"
+   },
+   {
+    "at": "1940-11-14T12:00",
+    "pos": [
+     20.95,
+     40.62
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1940-11-22T12:00",
+    "pos": "@korce"
+   },
+   {
+    "at": "1940-11-30T12:00",
+    "pos": "@pogradec"
+   },
+   {
+    "at": "1941-03-16T12:00",
+    "pos": "@pogradec",
+    "status": "active"
+   },
+   {
+    "at": "1941-04-16T12:00",
+    "pos": "@kastoria",
+    "status": "withdrawing"
+   },
+   {
+    "at": "1941-04-20T12:00",
+    "pos": "@metsovo",
+    "status": "surrendered"
+   }
+  ],
+  "active": {
+   "from": "1940-10-28T00:00",
+   "to": "1941-04-20T23:59"
+  },
+  "history": "楚拉科格鲁指挥第3军进行科尔察方向反攻，以山地迂回迫使意军撤出城市。1941年4月部队南撤，楚拉科格鲁在未获总司令批准的情况下与德国协商投降。",
+  "sources": [
+   "land_greek_korce",
+   "land_us_greece"
+  ],
+  "confidence": "medium",
+  "commander": {
+   "zh": "乔治斯·楚拉科格鲁",
+   "orig": "Georgios Tsolakoglou"
+  }
+ },
+ {
+  "id": "gr.eastmac",
+  "side": "GR",
+  "echelon": "army",
+  "type": "hq",
+  "parent": "gr.hq",
+  "name": {
+   "zh": "东马其顿军团区",
+   "orig": "Tméma Stratiás Anatolikís Makedonías",
+   "short": "东马"
+  },
+  "track": [
+   {
+    "at": "1941-03-01T12:00",
+    "pos": "@thessaloniki"
+   },
+   {
+    "at": "1941-04-06T12:00",
+    "pos": "@serres",
+    "status": "engaged"
+   },
+   {
+    "at": "1941-04-09T12:00",
+    "pos": "@thessaloniki",
+    "status": "surrendered"
+   }
+  ],
+  "active": {
+   "from": "1941-03-01T00:00",
+   "to": "1941-04-09T23:59"
+  },
+  "history": "巴科普洛斯统辖梅塔克萨斯防线和保加利亚边界部队。要塞正面抵抗顽强，但德军经南斯拉夫绕向萨洛尼卡，使该军团区被截断，4月9日接受投降。",
+  "sources": [
+   "land_us_greece"
+  ],
+  "confidence": "medium",
+  "commander": {
+   "zh": "康斯坦丁诺斯·巴科普洛斯",
+   "orig": "Konstantinos Bakopoulos"
+  },
+  "strength": {
+   "men": 70000
+  }
+ },
+ {
+  "id": "gr.8d",
+  "side": "GR",
+  "echelon": "division",
+  "type": "infantry",
+  "parent": "gr.hq",
+  "name": {
+   "zh": "第8师",
+   "orig": "8th Infantry Division",
+   "short": "8GR"
+  },
+  "track": [
+   {
+    "at": "1940-10-28T12:00",
+    "pos": "@kalpaki",
+    "status": "engaged"
+   },
+   {
+    "at": "1940-11-13T12:00",
+    "pos": "@konitsa",
+    "status": "active"
+   },
+   {
+    "at": "1940-12-08T12:00",
+    "pos": "@gjirokaster"
+   },
+   {
+    "at": "1941-03-16T12:00",
+    "pos": "@tepelene",
+    "status": "engaged"
+   },
+   {
+    "at": "1941-04-19T12:00",
+    "pos": "@konitsa",
+    "status": "withdrawing"
+   },
+   {
+    "at": "1941-04-23T12:00",
+    "pos": "@ioannina",
+    "status": "surrendered"
+   }
+  ],
+  "active": {
+   "from": "1940-10-28T00:00",
+   "to": "1941-04-23T23:59"
+  },
+  "history": "最初是独立加强师，保卫卡尔帕基—卡拉马斯主防线。卡齐米特罗斯利用地形组织防御，挡住意军主攻，为全国动员和反攻争取时间。",
+  "sources": [
+   "land_greek_defence",
+   "land_greek_himara"
+  ],
+  "confidence": "medium",
+  "model": "inf_gr",
+  "commander": {
+   "zh": "哈拉兰博斯·卡齐米特罗斯",
+   "orig": "Charalambos Katsimitros"
+  },
+  "strength": {
+   "men": 35000
+  }
+ },
+ {
+  "id": "gr.1d",
+  "side": "GR",
+  "echelon": "division",
+  "type": "infantry",
+  "parent": "gr.ii",
+  "name": {
+   "zh": "第1师",
+   "orig": "1st Infantry Division",
+   "short": "1GR"
+  },
+  "track": [
+   {
+    "at": "1940-10-28T12:00",
+    "pos": "@grevena"
+   },
+   {
+    "at": "1940-11-01T12:00",
+    "pos": "@eptachori",
+    "status": "engaged"
+   },
+   {
+    "at": "1940-11-04T12:00",
+    "pos": "@samarina",
+    "status": "engaged"
+   },
+   {
+    "at": "1940-11-20T12:00",
+    "pos": "@leskovik"
+   },
+   {
+    "at": "1941-01-10T12:00",
+    "pos": "@kelcyre",
+    "status": "engaged"
+   },
+   {
+    "at": "1941-03-09T12:00",
+    "pos": "@hill731",
+    "status": "engaged"
+   },
+   {
+    "at": "1941-03-16T12:00",
+    "pos": "@hill731"
+   },
+   {
+    "at": "1941-04-19T12:00",
+    "pos": "@konitsa",
+    "status": "withdrawing"
+   },
+   {
+    "at": "1941-04-23T12:00",
+    "pos": "@ioannina",
+    "status": "surrendered"
+   }
+  ],
+  "active": {
+   "from": "1940-10-28T00:00",
+   "to": "1941-04-23T23:59"
+  },
+  "history": "弗拉赫诺斯指挥第1师增援品都斯，反击朱利亚师。1941年3月在731高地和德斯尼察谷地地段成为抵挡意军春季攻势的核心部队。",
+  "sources": [
+   "land_greek_defence",
+   "land_greek_spring"
+  ],
+  "confidence": "medium",
+  "model": "inf_gr",
+  "commander": {
+   "zh": "瓦西利斯·弗拉赫诺斯",
+   "orig": "Vasileios Vrachnos"
+  }
+ },
+ {
+  "id": "gr.3d",
+  "side": "GR",
+  "echelon": "division",
+  "type": "infantry",
+  "parent": "gr.i",
+  "name": {
+   "zh": "第3师",
+   "orig": "3rd Infantry Division",
+   "short": "3GR"
+  },
+  "track": [
+   {
+    "at": "1940-11-06T12:00",
+    "pos": "@ioannina"
+   },
+   {
+    "at": "1940-11-22T12:00",
+    "pos": "@delvine",
+    "status": "engaged"
+   },
+   {
+    "at": "1940-12-07T12:00",
+    "pos": "@sarande"
+   },
+   {
+    "at": "1940-12-20T12:00",
+    "pos": "@kuci",
+    "status": "engaged"
+   },
+   {
+    "at": "1940-12-22T12:00",
+    "pos": "@himare"
+   },
+   {
+    "at": "1941-03-16T12:00",
+    "pos": "@kuci",
+    "status": "active"
+   },
+   {
+    "at": "1941-04-18T12:00",
+    "pos": "@sarande",
+    "status": "withdrawing"
+   },
+   {
+    "at": "1941-04-23T12:00",
+    "pos": "@ioannina",
+    "status": "surrendered"
+   }
+  ],
+  "active": {
+   "from": "1940-11-06T00:00",
+   "to": "1941-04-23T23:59"
+  },
+  "history": "隶属第1军，在沿海和库奇山口方向反攻。第3师的山地行动与希马拉作战密切相关；12月推进并未意味着发罗拉已经落入希军手中。",
+  "sources": [
+   "land_greek_himara"
+  ],
+  "confidence": "medium",
+  "model": "inf_gr"
+ },
+ {
+  "id": "gr.4d",
+  "side": "GR",
+  "echelon": "division",
+  "type": "infantry",
+  "parent": "gr.i",
+  "name": {
+   "zh": "第4师",
+   "orig": "4th Infantry Division",
+   "short": "4GR"
+  },
+  "track": [
+   {
+    "at": "1940-11-06T12:00",
+    "pos": "@ioannina"
+   },
+   {
+    "at": "1940-11-25T12:00",
+    "pos": "@gjirokaster",
+    "status": "engaged"
+   },
+   {
+    "at": "1940-12-08T12:00",
+    "pos": "@gjirokaster"
+   },
+   {
+    "at": "1940-12-20T12:00",
+    "pos": "@tepelene",
+    "status": "engaged"
+   },
+   {
+    "at": "1941-03-16T12:00",
+    "pos": [
+     20.08,
+     40.24
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-04-18T12:00",
+    "pos": "@gjirokaster",
+    "status": "withdrawing"
+   },
+   {
+    "at": "1941-04-23T12:00",
+    "pos": "@ioannina",
+    "status": "surrendered"
+   }
+  ],
+  "active": {
+   "from": "1940-11-06T00:00",
+   "to": "1941-04-23T23:59"
+  },
+  "history": "第1军内的第4师沿德里诺河谷攻击特佩莱讷方向。希军在12月收复吉诺卡斯特，但没能随即夺取特佩莱讷交通枢纽，冬季前线就此相持。",
+  "sources": [
+   "land_greek_himara"
+  ],
+  "confidence": "medium",
+  "model": "inf_gr"
+ },
+ {
+  "id": "gr.9d",
+  "side": "GR",
+  "echelon": "division",
+  "type": "infantry",
+  "parent": "gr.iii",
+  "name": {
+   "zh": "第9师",
+   "orig": "9th Infantry Division",
+   "short": "9GR"
+  },
+  "track": [
+   {
+    "at": "1940-10-28T12:00",
+    "pos": "@kastoria"
+   },
+   {
+    "at": "1940-11-14T12:00",
+    "pos": [
+     20.95,
+     40.6
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1940-11-22T12:00",
+    "pos": "@korce"
+   },
+   {
+    "at": "1940-11-30T12:00",
+    "pos": "@pogradec"
+   },
+   {
+    "at": "1941-03-16T12:00",
+    "pos": "@pogradec",
+    "status": "active"
+   },
+   {
+    "at": "1941-04-16T12:00",
+    "pos": "@kastoria",
+    "status": "withdrawing"
+   },
+   {
+    "at": "1941-04-20T12:00",
+    "pos": "@metsovo",
+    "status": "surrendered"
+   }
+  ],
+  "active": {
+   "from": "1940-10-28T00:00",
+   "to": "1941-04-20T23:59"
+  },
+  "history": "科尔察反攻中参加第3军山地作战，原先军属有变动。部署示意突出卡斯托里亚、莫拉瓦和波格拉德茨轴线，不能解释为整个师逐日沿一条公路行军。",
+  "sources": [
+   "land_greek_korce"
+  ],
+  "confidence": "medium",
+  "model": "inf_gr"
+ },
+ {
+  "id": "gr.10d",
+  "side": "GR",
+  "echelon": "division",
+  "type": "infantry",
+  "parent": "gr.iii",
+  "name": {
+   "zh": "第10师",
+   "orig": "10th Infantry Division",
+   "short": "10GR"
+  },
+  "track": [
+   {
+    "at": "1940-10-28T12:00",
+    "pos": "@florina"
+   },
+   {
+    "at": "1940-11-14T12:00",
+    "pos": [
+     20.98,
+     40.76
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1940-11-22T12:00",
+    "pos": "@korce"
+   },
+   {
+    "at": "1941-03-16T12:00",
+    "pos": [
+     20.71,
+     40.8
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-04-16T12:00",
+    "pos": "@kastoria",
+    "status": "withdrawing"
+   },
+   {
+    "at": "1941-04-20T12:00",
+    "pos": "@metsovo",
+    "status": "surrendered"
+   }
+  ],
+  "active": {
+   "from": "1940-10-28T00:00",
+   "to": "1941-04-20T23:59"
+  },
+  "history": "初期隶属于西马其顿方向第3军，参加科尔察东侧山地攻势。后续前线轮换和部队调动复杂，轨迹表示主要活动区域及4月撤退结局。",
+  "sources": [
+   "land_greek_korce",
+   "land_us_greece"
+  ],
+  "confidence": "medium",
+  "model": "inf_gr"
+ },
+ {
+  "id": "gr.11d",
+  "side": "GR",
+  "echelon": "division",
+  "type": "infantry",
+  "parent": "gr.iii",
+  "name": {
+   "zh": "第11师",
+   "orig": "11th Infantry Division",
+   "short": "11GR"
+  },
+  "track": [
+   {
+    "at": "1940-10-28T12:00",
+    "pos": "@thessaloniki",
+    "status": "reserve"
+   },
+   {
+    "at": "1940-11-13T12:00",
+    "pos": "@florina"
+   },
+   {
+    "at": "1940-11-22T12:00",
+    "pos": "@korce",
+    "status": "engaged"
+   },
+   {
+    "at": "1941-03-16T12:00",
+    "pos": [
+     20.73,
+     40.74
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-04-16T12:00",
+    "pos": "@kastoria",
+    "status": "withdrawing"
+   },
+   {
+    "at": "1941-04-20T12:00",
+    "pos": "@metsovo",
+    "status": "surrendered"
+   }
+  ],
+  "active": {
+   "from": "1940-10-28T00:00",
+   "to": "1941-04-20T23:59"
+  },
+  "history": "动员后从萨洛尼卡地区赴西马其顿，参与科尔察方向作战。主力在阿尔巴尼亚留下到德国进攻之后，随西部希军退往梅措沃一带。",
+  "sources": [
+   "land_greek_korce",
+   "land_us_greece"
+  ],
+  "confidence": "medium",
+  "model": "inf_gr"
+ },
+ {
+  "id": "gr.15d",
+  "side": "GR",
+  "echelon": "division",
+  "type": "infantry",
+  "parent": "gr.iii",
+  "name": {
+   "zh": "第15师",
+   "orig": "15th Infantry Division",
+   "short": "15GR"
+  },
+  "track": [
+   {
+    "at": "1940-11-13T12:00",
+    "pos": "@kastoria"
+   },
+   {
+    "at": "1940-11-14T12:00",
+    "pos": [
+     20.92,
+     40.52
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1940-11-22T12:00",
+    "pos": "@korce"
+   },
+   {
+    "at": "1941-03-16T12:00",
+    "pos": [
+     20.72,
+     40.68
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-04-16T12:00",
+    "pos": "@kastoria",
+    "status": "withdrawing"
+   },
+   {
+    "at": "1941-04-20T12:00",
+    "pos": "@metsovo",
+    "status": "surrendered"
+   }
+  ],
+  "active": {
+   "from": "1940-11-13T00:00",
+   "to": "1941-04-20T23:59"
+  },
+  "history": "科尔察反攻中的关键师之一，利用莫拉瓦山地地形推动意军撤退。冬季作战以巩固防线和有限攻击为主，未发生一路持续北进到地拉那的情景。",
+  "sources": [
+   "land_greek_korce",
+   "land_us_greece"
+  ],
+  "confidence": "medium",
+  "model": "inf_gr"
+ },
+ {
+  "id": "gr.cav",
+  "side": "GR",
+  "echelon": "division",
+  "type": "cavalry",
+  "parent": "gr.westmac",
+  "name": {
+   "zh": "骑兵师",
+   "orig": "Cavalry Division",
+   "short": "骑兵GR"
+  },
+  "track": [
+   {
+    "at": "1940-11-03T12:00",
+    "pos": "@grevena"
+   },
+   {
+    "at": "1940-11-05T12:00",
+    "pos": "@distrato",
+    "status": "engaged"
+   },
+   {
+    "at": "1940-11-13T12:00",
+    "pos": "@konitsa"
+   },
+   {
+    "at": "1941-03-16T12:00",
+    "pos": "@korce",
+    "status": "active"
+   },
+   {
+    "at": "1941-04-15T12:00",
+    "pos": "@grevena",
+    "status": "engaged"
+   },
+   {
+    "at": "1941-04-20T12:00",
+    "pos": "@metsovo",
+    "status": "surrendered"
+   }
+  ],
+  "active": {
+   "from": "1940-11-03T00:00",
+   "to": "1941-04-20T23:59"
+  },
+  "history": "斯塔诺塔斯指挥骑兵师增援品都斯，步骑协同促使朱利亚师撤出深远突进的突出部。1941年4月又参与西部退路的阻击和撤退。",
+  "sources": [
+   "land_greek_defence",
+   "land_us_greece"
+  ],
+  "confidence": "medium",
+  "model": "inf_gr",
+  "commander": {
+   "zh": "乔治斯·斯塔诺塔斯",
+   "orig": "Georgios Stanotas"
+  }
+ },
+ {
+  "id": "gr.7d",
+  "side": "GR",
+  "echelon": "division",
+  "type": "infantry",
+  "parent": "gr.eastmac",
+  "name": {
+   "zh": "第7师",
+   "orig": "7th Infantry Division",
+   "short": "7GR"
+  },
+  "track": [
+   {
+    "at": "1941-03-01T12:00",
+    "pos": "@drama"
+   },
+   {
+    "at": "1941-04-06T12:00",
+    "pos": "@drama",
+    "status": "engaged"
+   },
+   {
+    "at": "1941-04-09T12:00",
+    "pos": "@drama",
+    "status": "surrendered"
+   }
+  ],
+  "active": {
+   "from": "1941-03-01T00:00",
+   "to": "1941-04-09T23:59"
+  },
+  "history": "位于斯特里蒙河以东的梅塔克萨斯防线，抵挡德军步兵军从保加利亚方向进攻。军团区投降协议及各要塞实际停止抵抗时间并不完全相同。",
+  "sources": [
+   "land_us_greece"
+  ],
+  "confidence": "medium",
+  "model": "inf_gr"
+ },
+ {
+  "id": "gr.14d",
+  "side": "GR",
+  "echelon": "division",
+  "type": "fortress",
+  "parent": "gr.eastmac",
+  "name": {
+   "zh": "第14师",
+   "orig": "14th Infantry Division",
+   "short": "14GR"
+  },
+  "track": [
+   {
+    "at": "1941-03-01T12:00",
+    "pos": "@rupel"
+   },
+   {
+    "at": "1941-04-06T12:00",
+    "pos": "@rupel",
+    "status": "engaged"
+   },
+   {
+    "at": "1941-04-10T12:00",
+    "pos": "@rupel",
+    "status": "surrendered"
+   }
+  ],
+  "active": {
+   "from": "1941-03-01T00:00",
+   "to": "1941-04-10T23:59"
+  },
+  "history": "守备鲁佩尔等重要要塞地带，在德国山地师和航空兵攻击下继续抵抗。萨洛尼卡被迂回夺取后，东马其顿失去后方联系；鲁佩尔到4月10日才停止抵抗。",
+  "sources": [
+   "land_us_greece"
+  ],
+  "confidence": "medium",
+  "model": "inf_gr"
+ },
+ {
+  "id": "gr.18d",
+  "side": "GR",
+  "echelon": "division",
+  "type": "infantry",
+  "parent": "gr.eastmac",
+  "name": {
+   "zh": "第18师",
+   "orig": "18th Infantry Division",
+   "short": "18GR"
+  },
+  "track": [
+   {
+    "at": "1941-03-01T12:00",
+    "pos": [
+     23.13,
+     41.25
+    ]
+   },
+   {
+    "at": "1941-04-06T12:00",
+    "pos": [
+     23.13,
+     41.25
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-04-09T12:00",
+    "pos": "@serres",
+    "status": "surrendered"
+   }
+  ],
+  "active": {
+   "from": "1941-03-01T00:00",
+   "to": "1941-04-09T23:59"
+  },
+  "history": "担任斯特里蒙河以西的国境防御。德国第6山地师越过原以为难以通行的山地，随后绕入交通线，使守军的要塞体系遭到迂回。",
+  "sources": [
+   "land_us_greece"
+  ],
+  "confidence": "medium",
+  "model": "inf_gr"
+ },
+ {
+  "id": "gr.19mot",
+  "side": "GR",
+  "echelon": "division",
+  "type": "motorized",
+  "parent": "gr.eastmac",
+  "name": {
+   "zh": "第19摩托化师",
+   "orig": "19th Mechanized Division",
+   "short": "19GR"
+  },
+  "track": [
+   {
+    "at": "1941-03-01T12:00",
+    "pos": "@thessaloniki",
+    "status": "reserve"
+   },
+   {
+    "at": "1941-04-06T12:00",
+    "pos": "@doiran",
+    "status": "engaged"
+   },
+   {
+    "at": "1941-04-09T12:00",
+    "pos": "@thessaloniki",
+    "status": "surrendered"
+   }
+  ],
+  "active": {
+   "from": "1941-03-01T00:00",
+   "to": "1941-04-09T23:59"
+  },
+  "history": "希腊新组建的第19摩托化师在多伊兰湖以南担任机动预备队。装备和训练尚未成熟，无法阻挡德国第2装甲师经南斯拉夫绕到萨洛尼卡。",
+  "sources": [
+   "land_us_greece"
+  ],
+  "confidence": "medium",
+  "model": "inf_gr"
+ },
+ {
+  "id": "gr.12d",
+  "side": "GR",
+  "echelon": "division",
+  "type": "infantry",
+  "parent": "gr.hq",
+  "name": {
+   "zh": "第12师",
+   "orig": "12th Infantry Division",
+   "short": "12GR"
+  },
+  "track": [
+   {
+    "at": "1941-03-28T12:00",
+    "pos": "@veria"
+   },
+   {
+    "at": "1941-04-12T12:00",
+    "pos": "@veria",
+    "status": "engaged"
+   },
+   {
+    "at": "1941-04-16T12:00",
+    "pos": "@servia",
+    "status": "withdrawing"
+   },
+   {
+    "at": "1941-04-20T12:00",
+    "pos": "@elassona",
+    "status": "disbanded"
+   }
+  ],
+  "active": {
+   "from": "1941-03-28T00:00",
+   "to": "1941-04-20T23:59"
+  },
+  "history": "3月28日起在作战上归威尔逊指挥，防守韦尔米翁阵地南段。英希协同受语言、通信和不同退却计划影响，德军突破后该师队伍逐步瓦解。",
+  "sources": [
+   "land_us_greece",
+   "land_awm_greece"
+  ],
+  "confidence": "medium",
+  "model": "inf_gr"
+ },
+ {
+  "id": "gr.20d",
+  "side": "GR",
+  "echelon": "division",
+  "type": "infantry",
+  "parent": "gr.hq",
+  "name": {
+   "zh": "第20师",
+   "orig": "20th Infantry Division",
+   "short": "20GR"
+  },
+  "track": [
+   {
+    "at": "1941-03-28T12:00",
+    "pos": "@edessa"
+   },
+   {
+    "at": "1941-04-12T12:00",
+    "pos": "@vevi",
+    "status": "engaged"
+   },
+   {
+    "at": "1941-04-14T12:00",
+    "pos": "@kleisoura",
+    "status": "withdrawing"
+   },
+   {
+    "at": "1941-04-18T12:00",
+    "pos": "@grevena",
+    "status": "disbanded"
+   }
+  ],
+  "active": {
+   "from": "1941-03-28T00:00",
+   "to": "1941-04-18T23:59"
+  },
+  "history": "配合W Force防守韦尔米翁北段，靠近南斯拉夫边境和弗洛里纳缺口。新动员部队重装备不足，韦维败退后通信和队伍组织遭到严重破坏。",
+  "sources": [
+   "land_us_greece",
+   "land_awm_greece"
+  ],
+  "confidence": "medium",
+  "model": "inf_gr"
+ },
+ {
+  "id": "gr.pindus",
+  "side": "GR",
+  "echelon": "brigade",
+  "type": "mountain",
+  "parent": "gr.hq",
+  "name": {
+   "zh": "品都斯支队",
+   "orig": "Apóspasma Píndou",
+   "short": "品都"
+  },
+  "track": [
+   {
+    "at": "1940-10-28T12:00",
+    "pos": "@eptachori",
+    "status": "engaged"
+   },
+   {
+    "at": "1940-10-31T12:00",
+    "pos": "@samarina",
+    "status": "withdrawing"
+   },
+   {
+    "at": "1940-11-04T12:00",
+    "pos": "@eptachori",
+    "status": "engaged"
+   },
+   {
+    "at": "1940-11-13T12:00",
+    "pos": "@konitsa",
+    "status": "disbanded"
+   }
+  ],
+  "active": {
+   "from": "1940-10-28T00:00",
+   "to": "1940-11-13T23:59"
+  },
+  "history": "达瓦基斯率领约2000人的加强支队防卫品都斯。第1师与骑兵增援后，这个初期独立支队融入更大的作战组织；结束标记表示改编，不是全体人员战死。",
+  "sources": [
+   "land_greek_defence"
+  ],
+  "confidence": "medium",
+  "model": "inf_gr",
+  "commander": {
+   "zh": "康斯坦丁诺斯·达瓦基斯",
+   "orig": "Konstantinos Davakis"
+  },
+  "strength": {
+   "men": 2000
+  }
+ },
+ {
+  "id": "de.12a",
+  "side": "DE",
+  "echelon": "army",
+  "type": "hq",
+  "parent": null,
+  "name": {
+   "zh": "第12集团军",
+   "orig": "12. Armee",
+   "short": "12A"
+  },
+  "track": [
+   {
+    "at": "1941-03-02T12:00",
+    "pos": "@sofia"
+   },
+   {
+    "at": "1941-04-05T12:00",
+    "pos": "@blagoevgrad"
+   },
+   {
+    "at": "1941-04-09T12:00",
+    "pos": "@thessaloniki"
+   },
+   {
+    "at": "1941-04-19T12:00",
+    "pos": "@larisa"
+   },
+   {
+    "at": "1941-04-27T12:00",
+    "pos": "@athens"
+   }
+  ],
+  "active": {
+   "from": "1941-03-02T00:00",
+   "to": "1941-05-19T23:59"
+  },
+  "history": "李斯特统辖经保加利亚进入南斯拉夫南部和希腊的攻势。第18山地军与第40装甲军分别沿瓦尔达尔、比托拉轴线迂回防御，随后追击到伯罗奔尼撒。",
+  "sources": [
+   "land_us_greece"
+  ],
+  "confidence": "medium",
+  "commander": {
+   "zh": "威廉·李斯特",
+   "orig": "Wilhelm List"
+  }
+ },
+ {
+  "id": "de.2a",
+  "side": "DE",
+  "echelon": "army",
+  "type": "hq",
+  "parent": null,
+  "name": {
+   "zh": "第2集团军",
+   "orig": "2. Armee",
+   "short": "2A"
+  },
+  "track": [
+   {
+    "at": "1941-04-05T12:00",
+    "pos": "@graz"
+   },
+   {
+    "at": "1941-04-11T12:00",
+    "pos": "@maribor"
+   },
+   {
+    "at": "1941-04-14T12:00",
+    "pos": "@zagreb"
+   },
+   {
+    "at": "1941-04-18T12:00",
+    "pos": "@sarajevo"
+   }
+  ],
+  "active": {
+   "from": "1941-04-05T00:00",
+   "to": "1941-04-30T23:59"
+  },
+  "history": "魏克斯指挥北路军队，从德属奥地利及匈牙利展开。装甲纵队越过德拉瓦河向萨格勒布、贝尔格莱德推进；主力随后追击南斯拉夫内陆。",
+  "sources": [
+   "land_us_yugoslavia"
+  ],
+  "confidence": "medium",
+  "commander": {
+   "zh": "马克西米连·冯·魏克斯",
+   "orig": "Maximilian von Weichs"
+  }
+ },
+ {
+  "id": "de.pzgrp1",
+  "side": "DE",
+  "echelon": "army",
+  "type": "hq",
+  "parent": null,
+  "name": {
+   "zh": "第1装甲集群",
+   "orig": "Panzergruppe 1",
+   "short": "PzG1"
+  },
+  "track": [
+   {
+    "at": "1941-04-05T12:00",
+    "pos": "@sofia"
+   },
+   {
+    "at": "1941-04-09T12:00",
+    "pos": "@nis",
+    "status": "engaged"
+   },
+   {
+    "at": "1941-04-13T12:00",
+    "pos": "@belgrade"
+   },
+   {
+    "at": "1941-04-17T12:00",
+    "pos": "@sarajevo"
+   }
+  ],
+  "active": {
+   "from": "1941-04-05T00:00",
+   "to": "1941-04-30T23:59"
+  },
+  "history": "克莱斯特从保加利亚方向经尼什突向贝尔格莱德。南斯拉夫政变后临时改变任务；原定投入希腊的第5装甲师在尼什附近又转向南方。",
+  "sources": [
+   "land_us_yugoslavia",
+   "land_us_greece"
+  ],
+  "confidence": "medium",
+  "commander": {
+   "zh": "埃瓦尔德·冯·克莱斯特",
+   "orig": "Ewald von Kleist"
+  }
+ },
+ {
+  "id": "de.xviii",
+  "side": "DE",
+  "echelon": "corps",
+  "type": "hq",
+  "parent": "de.12a",
+  "name": {
+   "zh": "第18山地军",
+   "orig": "XVIII. Gebirgskorps",
+   "short": "XVIII"
+  },
+  "track": [
+   {
+    "at": "1941-04-05T12:00",
+    "pos": "@petrich"
+   },
+   {
+    "at": "1941-04-09T12:00",
+    "pos": "@thessaloniki"
+   },
+   {
+    "at": "1941-04-14T12:00",
+    "pos": "@katerini"
+   },
+   {
+    "at": "1941-04-19T12:00",
+    "pos": "@larisa"
+   },
+   {
+    "at": "1941-04-25T12:00",
+    "pos": "@thermopylae"
+   },
+   {
+    "at": "1941-04-27T12:00",
+    "pos": "@athens"
+   }
+  ],
+  "active": {
+   "from": "1941-04-05T12:00",
+   "to": "1941-05-19T23:59"
+  },
+  "history": "伯梅以山地师强攻、装甲师迂回梅塔克萨斯线，随后越过阿利阿克蒙河和奥林匹斯山麓，沿坦佩—拉里萨—温泉关追击。",
+  "sources": [
+   "land_us_greece"
+  ],
+  "confidence": "medium",
+  "commander": {
+   "zh": "弗兰茨·伯梅",
+   "orig": "Franz Böhme"
+  }
+ },
+ {
+  "id": "de.xl",
+  "side": "DE",
+  "echelon": "corps",
+  "type": "hq",
+  "parent": "de.12a",
+  "name": {
+   "zh": "第40装甲军",
+   "orig": "XL. Panzerkorps",
+   "short": "XL"
+  },
+  "track": [
+   {
+    "at": "1941-04-05T12:00",
+    "pos": "@kyustendil"
+   },
+   {
+    "at": "1941-04-07T12:00",
+    "pos": "@skopje"
+   },
+   {
+    "at": "1941-04-10T12:00",
+    "pos": "@bitola"
+   },
+   {
+    "at": "1941-04-13T12:00",
+    "pos": "@kozani"
+   },
+   {
+    "at": "1941-04-20T12:00",
+    "pos": "@metsovo"
+   },
+   {
+    "at": "1941-04-26T12:00",
+    "pos": "@patras"
+   }
+  ],
+  "active": {
+   "from": "1941-04-05T12:00",
+   "to": "1941-05-19T23:59"
+  },
+  "history": "斯图梅以第9装甲师、党卫军警卫旗队和第73步兵师切断南斯拉夫与希腊联系，再穿过比托拉缺口；第5装甲师随后加入该军方向。",
+  "sources": [
+   "land_us_greece"
+  ],
+  "confidence": "medium",
+  "commander": {
+   "zh": "乔治·斯图梅",
+   "orig": "Georg Stumme"
+  }
+ },
+ {
+  "id": "de.xiv",
+  "side": "DE",
+  "echelon": "corps",
+  "type": "hq",
+  "parent": "de.pzgrp1",
+  "name": {
+   "zh": "第14装甲军",
+   "orig": "XIV. Panzerkorps",
+   "short": "XIV"
+  },
+  "track": [
+   {
+    "at": "1941-04-08T12:00",
+    "pos": "@pirot"
+   },
+   {
+    "at": "1941-04-09T12:00",
+    "pos": "@nis"
+   },
+   {
+    "at": "1941-04-11T12:00",
+    "pos": "@kragujevac"
+   },
+   {
+    "at": "1941-04-13T12:00",
+    "pos": "@belgrade"
+   }
+  ],
+  "active": {
+   "from": "1941-04-08T12:00",
+   "to": "1941-04-30T23:59"
+  },
+  "history": "经皮罗特—尼什和摩拉瓦河谷推进，绕过交通困难的山区，在南斯拉夫动员完成前切入其主力后方。4月12—13日与另两路部队会合。",
+  "sources": [
+   "land_us_yugoslavia"
+  ],
+  "confidence": "medium",
+  "commander": {
+   "zh": "古斯塔夫·冯·维特斯海姆",
+   "orig": "Gustav von Wietersheim"
+  }
+ },
+ {
+  "id": "de.xlvi",
+  "side": "DE",
+  "echelon": "corps",
+  "type": "hq",
+  "parent": "de.2a",
+  "name": {
+   "zh": "第46装甲军",
+   "orig": "XLVI. Panzerkorps",
+   "short": "XLVI"
+  },
+  "track": [
+   {
+    "at": "1941-04-05T12:00",
+    "pos": "@nagykanizsa"
+   },
+   {
+    "at": "1941-04-10T12:00",
+    "pos": "@zagreb"
+   },
+   {
+    "at": "1941-04-12T12:00",
+    "pos": "@osijek"
+   },
+   {
+    "at": "1941-04-14T12:00",
+    "pos": "@belgrade"
+   },
+   {
+    "at": "1941-04-17T12:00",
+    "pos": "@sarajevo"
+   }
+  ],
+  "active": {
+   "from": "1941-04-05T12:00",
+   "to": "1941-04-30T23:59"
+  },
+  "history": "菲廷霍夫指挥第8、第14装甲师与第16摩托化师。军的分兵分别向萨格勒布、贝尔格莱德推进，随后转向萨拉热窝。军部轨迹仅表示作战重心。",
+  "sources": [
+   "land_us_yugoslavia"
+  ],
+  "confidence": "medium",
+  "commander": {
+   "zh": "海因里希·冯·菲廷霍夫",
+   "orig": "Heinrich von Vietinghoff"
+  }
+ },
+ {
+  "id": "de.xli",
+  "side": "DE",
+  "echelon": "corps",
+  "type": "hq",
+  "parent": null,
+  "name": {
+   "zh": "第41装甲军",
+   "orig": "XLI. Panzerkorps",
+   "short": "XLI"
+  },
+  "track": [
+   {
+    "at": "1941-04-08T12:00",
+    "pos": "@timisoara"
+   },
+   {
+    "at": "1941-04-11T12:00",
+    "pos": "@vrsac"
+   },
+   {
+    "at": "1941-04-12T12:00",
+    "pos": "@pancevo"
+   },
+   {
+    "at": "1941-04-13T12:00",
+    "pos": "@belgrade"
+   }
+  ],
+  "active": {
+   "from": "1941-04-08T12:00",
+   "to": "1941-04-30T23:59"
+  },
+  "history": "赖因哈特指挥来自罗马尼亚西部的独立机动集团。大德意志部队和党卫军师经弗尔沙茨、潘切沃接近首都；罗马尼亚主要提供集结与通行条件。",
+  "sources": [
+   "land_us_yugoslavia"
+  ],
+  "confidence": "medium",
+  "commander": {
+   "zh": "格奥尔格·汉斯·赖因哈特",
+   "orig": "Georg-Hans Reinhardt"
+  }
+ },
+ {
+  "id": "de.xlix",
+  "side": "DE",
+  "echelon": "corps",
+  "type": "hq",
+  "parent": "de.2a",
+  "name": {
+   "zh": "第49山地军",
+   "orig": "XLIX. Gebirgskorps",
+   "short": "XLIX"
+  },
+  "track": [
+   {
+    "at": "1941-04-06T12:00",
+    "pos": "@klagenfurt"
+   },
+   {
+    "at": "1941-04-10T12:00",
+    "pos": [
+     14.9,
+     46.35
+    ]
+   },
+   {
+    "at": "1941-04-12T12:00",
+    "pos": "@ljubljana"
+   },
+   {
+    "at": "1941-04-16T12:00",
+    "pos": "@zagreb"
+   }
+  ],
+  "active": {
+   "from": "1941-04-06T12:00",
+   "to": "1941-04-30T23:59"
+  },
+  "history": "屈布勒从克拉根福方向进入南斯拉夫西北部，与意军配合切断卢布尔雅那盆地守军。初期仅部分师及时集结，不能把计划编成等同于已全部参战。",
+  "sources": [
+   "land_us_yugoslavia"
+  ],
+  "confidence": "medium",
+  "commander": {
+   "zh": "路德维希·屈布勒",
+   "orig": "Ludwig Kübler"
+  }
+ },
+ {
+  "id": "de.xxx",
+  "side": "DE",
+  "echelon": "corps",
+  "type": "hq",
+  "parent": "de.12a",
+  "name": {
+   "zh": "第30步兵军",
+   "orig": "XXX. Armeekorps",
+   "short": "XXX"
+  },
+  "track": [
+   {
+    "at": "1941-04-05T12:00",
+    "pos": "@plovdiv"
+   },
+   {
+    "at": "1941-04-08T12:00",
+    "pos": "@xanthi",
+    "status": "engaged"
+   },
+   {
+    "at": "1941-04-10T12:00",
+    "pos": "@drama"
+   },
+   {
+    "at": "1941-04-20T12:00",
+    "pos": "@thessaloniki"
+   }
+  ],
+  "active": {
+   "from": "1941-04-05T12:00",
+   "to": "1941-05-19T23:59"
+  },
+  "history": "哈特曼统辖第50、第164师，由保加利亚向西色雷斯和爱琴海推进。该战区由德军首先突破，不能将4月6日的攻势标成保加利亚步兵发动。",
+  "sources": [
+   "land_us_greece"
+  ],
+  "confidence": "medium",
+  "commander": {
+   "zh": "奥托·哈特曼",
+   "orig": "Otto Hartmann"
+  }
+ },
+ {
+  "id": "de.2pz",
+  "side": "DE",
+  "echelon": "division",
+  "type": "armor",
+  "parent": "de.xviii",
+  "name": {
+   "zh": "第2装甲师",
+   "orig": "2. Panzer-Division",
+   "short": "2.Pz"
+  },
+  "track": [
+   {
+    "at": "1941-04-05T12:00",
+    "pos": "@petrich"
+   },
+   {
+    "at": "1941-04-06T12:00",
+    "pos": "@strumica",
+    "status": "engaged"
+   },
+   {
+    "at": "1941-04-08T12:00",
+    "pos": "@doiran"
+   },
+   {
+    "at": "1941-04-09T12:00",
+    "pos": "@thessaloniki"
+   },
+   {
+    "at": "1941-04-14T12:00",
+    "pos": "@katerini"
+   },
+   {
+    "at": "1941-04-16T12:00",
+    "pos": "@platamon",
+    "status": "engaged"
+   },
+   {
+    "at": "1941-04-18T12:00",
+    "pos": "@tempe",
+    "status": "engaged"
+   },
+   {
+    "at": "1941-04-20T12:00",
+    "pos": "@lamia"
+   },
+   {
+    "at": "1941-04-26T12:00",
+    "pos": "@thebes"
+   },
+   {
+    "at": "1941-04-27T12:00",
+    "pos": "@athens"
+   }
+  ],
+  "active": {
+   "from": "1941-04-05T12:00",
+   "to": "1941-05-19T23:59"
+  },
+  "history": "经斯特鲁米察和多伊兰湖迂回，4月9日进入萨洛尼卡。随后沿海岸突破普拉塔蒙和坦佩阻击阵地；坦克在狭窄山路上同样受到爆破与运输瓶颈制约。",
+  "sources": [
+   "land_us_greece"
+  ],
+  "confidence": "medium",
+  "model": "pz3",
+  "equipment": [
+   {
+    "id": "land_pz3"
+   },
+   {
+    "id": "land_pz2"
+   }
+  ]
+ },
+ {
+  "id": "de.9pz",
+  "side": "DE",
+  "echelon": "division",
+  "type": "armor",
+  "parent": "de.xl",
+  "name": {
+   "zh": "第9装甲师",
+   "orig": "9. Panzer-Division",
+   "short": "9.Pz"
+  },
+  "track": [
+   {
+    "at": "1941-04-05T12:00",
+    "pos": "@kyustendil"
+   },
+   {
+    "at": "1941-04-07T12:00",
+    "pos": "@skopje"
+   },
+   {
+    "at": "1941-04-10T12:00",
+    "pos": "@bitola"
+   },
+   {
+    "at": "1941-04-12T12:00",
+    "pos": "@vevi",
+    "status": "engaged"
+   },
+   {
+    "at": "1941-04-14T12:00",
+    "pos": "@kozani"
+   },
+   {
+    "at": "1941-04-18T12:00",
+    "pos": "@elassona"
+   },
+   {
+    "at": "1941-04-24T12:00",
+    "pos": "@thermopylae",
+    "status": "engaged"
+   },
+   {
+    "at": "1941-04-27T12:00",
+    "pos": "@athens"
+   }
+  ],
+  "active": {
+   "from": "1941-04-05T12:00",
+   "to": "1941-05-19T23:59"
+  },
+  "history": "第40军的装甲矛头，经南斯拉夫南部进入比托拉缺口。韦维战斗后突向科扎尼，迫使英希部队放弃阿利阿克蒙防线。",
+  "sources": [
+   "land_us_greece"
+  ],
+  "confidence": "medium",
+  "model": "pz3",
+  "equipment": [
+   {
+    "id": "land_pz3"
+   },
+   {
+    "id": "land_pz2"
+   }
+  ]
+ },
+ {
+  "id": "de.5pz",
+  "side": "DE",
+  "echelon": "division",
+  "type": "armor",
+  "parent": "de.pzgrp1",
+  "name": {
+   "zh": "第5装甲师",
+   "orig": "5. Panzer-Division",
+   "short": "5.Pz"
+  },
+  "track": [
+   {
+    "at": "1941-04-08T12:00",
+    "pos": "@pirot"
+   },
+   {
+    "at": "1941-04-10T12:00",
+    "pos": "@leskovac"
+   },
+   {
+    "at": "1941-04-14T12:00",
+    "pos": "@kozani"
+   },
+   {
+    "at": "1941-04-16T12:00",
+    "pos": "@grevena"
+   },
+   {
+    "at": "1941-04-19T12:00",
+    "pos": "@kalabaka"
+   },
+   {
+    "at": "1941-04-23T12:00",
+    "pos": "@lamia"
+   },
+   {
+    "at": "1941-04-25T12:00",
+    "pos": "@thebes"
+   },
+   {
+    "at": "1941-04-27T12:00",
+    "pos": "@corinth"
+   },
+   {
+    "at": "1941-04-29T12:00",
+    "pos": "@kalamata"
+   }
+  ],
+  "active": {
+   "from": "1941-04-08T12:00",
+   "to": "1941-05-19T23:59"
+  },
+  "history": "原属第1装甲集群，尼什方向突破后转归第40军进入希腊。绕经格雷韦纳和卡兰巴卡，最后越科林斯追向卡拉马塔；军树保留最初归属，行动体现调动。",
+  "sources": [
+   "land_us_greece"
+  ],
+  "confidence": "medium",
+  "model": "pz4",
+  "equipment": [
+   {
+    "id": "land_pz4"
+   },
+   {
+    "id": "land_pz3"
+   }
+  ]
+ },
+ {
+  "id": "de.11pz",
+  "side": "DE",
+  "echelon": "division",
+  "type": "armor",
+  "parent": "de.xiv",
+  "name": {
+   "zh": "第11装甲师",
+   "orig": "11. Panzer-Division",
+   "short": "11.Pz"
+  },
+  "track": [
+   {
+    "at": "1941-04-08T12:00",
+    "pos": "@pirot"
+   },
+   {
+    "at": "1941-04-09T12:00",
+    "pos": "@nis",
+    "status": "engaged"
+   },
+   {
+    "at": "1941-04-11T12:00",
+    "pos": "@kragujevac",
+    "status": "engaged"
+   },
+   {
+    "at": "1941-04-13T12:00",
+    "pos": "@belgrade"
+   }
+  ],
+  "active": {
+   "from": "1941-04-08T12:00",
+   "to": "1941-04-30T23:59"
+  },
+  "history": "第14装甲军先头部队，从尼什向摩拉瓦河谷推进。其迅速进击破坏了南斯拉夫在首都以南建立连续防御的企图。",
+  "sources": [
+   "land_us_yugoslavia"
+  ],
+  "confidence": "medium",
+  "model": "pz3",
+  "equipment": [
+   {
+    "id": "land_pz3"
+   },
+   {
+    "id": "land_pz2"
+   }
+  ]
+ },
+ {
+  "id": "de.8pz",
+  "side": "DE",
+  "echelon": "division",
+  "type": "armor",
+  "parent": "de.xlvi",
+  "name": {
+   "zh": "第8装甲师",
+   "orig": "8. Panzer-Division",
+   "short": "8.Pz"
+  },
+  "track": [
+   {
+    "at": "1941-04-05T12:00",
+    "pos": "@nagykanizsa"
+   },
+   {
+    "at": "1941-04-08T12:00",
+    "pos": "@koprivnica"
+   },
+   {
+    "at": "1941-04-11T12:00",
+    "pos": "@osijek"
+   },
+   {
+    "at": "1941-04-13T12:00",
+    "pos": "@belgrade"
+   },
+   {
+    "at": "1941-04-16T12:00",
+    "pos": "@sarajevo"
+   }
+  ],
+  "active": {
+   "from": "1941-04-05T12:00",
+   "to": "1941-04-30T23:59"
+  },
+  "history": "从匈牙利集结区过德拉瓦河，沿北部交通线向首都推进。贝尔格莱德陷落后参加向萨拉热窝方向追击，部分部队随后为对苏作战撤出。",
+  "sources": [
+   "land_us_yugoslavia"
+  ],
+  "confidence": "medium",
+  "model": "pz38t",
+  "equipment": [
+   {
+    "id": "land_pz38t"
+   }
+  ]
+ },
+ {
+  "id": "de.14pz",
+  "side": "DE",
+  "echelon": "division",
+  "type": "armor",
+  "parent": "de.xlvi",
+  "name": {
+   "zh": "第14装甲师",
+   "orig": "14. Panzer-Division",
+   "short": "14.Pz"
+  },
+  "track": [
+   {
+    "at": "1941-04-05T12:00",
+    "pos": "@nagykanizsa"
+   },
+   {
+    "at": "1941-04-09T12:00",
+    "pos": "@varazdin"
+   },
+   {
+    "at": "1941-04-10T12:00",
+    "pos": "@zagreb"
+   },
+   {
+    "at": "1941-04-12T12:00",
+    "pos": [
+     15.07,
+     45.4
+    ]
+   },
+   {
+    "at": "1941-04-15T12:00",
+    "pos": "@sarajevo"
+   }
+  ],
+  "active": {
+   "from": "1941-04-05T12:00",
+   "to": "1941-04-30T23:59"
+  },
+  "history": "从德拉瓦河方向迅速到达萨格勒布，继而向西南与意军接触并向萨拉热窝追击。城市投降、内部政治分裂与军事突破共同加速了南斯拉夫瓦解。",
+  "sources": [
+   "land_us_yugoslavia"
+  ],
+  "confidence": "medium",
+  "model": "pz3",
+  "equipment": [
+   {
+    "id": "land_pz3"
+   },
+   {
+    "id": "land_pz2"
+   }
+  ]
+ },
+ {
+  "id": "de.16mot",
+  "side": "DE",
+  "echelon": "division",
+  "type": "motorized",
+  "parent": "de.xlvi",
+  "name": {
+   "zh": "第16摩托化师",
+   "orig": "16. Infanterie-Division (mot.)",
+   "short": "16.mot"
+  },
+  "track": [
+   {
+    "at": "1941-04-05T12:00",
+    "pos": "@nagykanizsa"
+   },
+   {
+    "at": "1941-04-10T12:00",
+    "pos": "@koprivnica"
+   },
+   {
+    "at": "1941-04-13T12:00",
+    "pos": "@belgrade"
+   },
+   {
+    "at": "1941-04-17T12:00",
+    "pos": "@sarajevo"
+   }
+  ],
+  "active": {
+   "from": "1941-04-05T12:00",
+   "to": "1941-04-30T23:59"
+  },
+  "history": "属于第46装甲军，为沿德拉瓦—萨瓦河谷推进的装甲部队提供摩托化步兵力量。地图以军的行军轴线表示活动范围，不声称每个节点均为师部。",
+  "sources": [
+   "land_us_yugoslavia"
+  ],
+  "confidence": "medium",
+  "model": "inf_de"
+ },
+ {
+  "id": "de.1geb",
+  "side": "DE",
+  "echelon": "division",
+  "type": "mountain",
+  "parent": "de.xlix",
+  "name": {
+   "zh": "第1山地师",
+   "orig": "1. Gebirgs-Division",
+   "short": "1.Geb"
+  },
+  "track": [
+   {
+    "at": "1941-04-06T12:00",
+    "pos": "@klagenfurt"
+   },
+   {
+    "at": "1941-04-10T12:00",
+    "pos": [
+     14.9,
+     46.35
+    ]
+   },
+   {
+    "at": "1941-04-12T12:00",
+    "pos": "@ljubljana"
+   },
+   {
+    "at": "1941-04-16T12:00",
+    "pos": "@zagreb"
+   }
+  ],
+  "active": {
+   "from": "1941-04-06T12:00",
+   "to": "1941-04-30T23:59"
+  },
+  "history": "第49军山地部队从阿尔卑斯山口进入南斯拉夫西北，协助切断卢布尔雅那地区退路。它不是在4月初由保加利亚突破梅塔克萨斯线的两个山地师之一。",
+  "sources": [
+   "land_us_yugoslavia"
+  ],
+  "confidence": "medium",
+  "model": "inf_de"
+ },
+ {
+  "id": "de.5geb",
+  "side": "DE",
+  "echelon": "division",
+  "type": "mountain",
+  "parent": "de.xviii",
+  "name": {
+   "zh": "第5山地师",
+   "orig": "5. Gebirgs-Division",
+   "short": "5.Geb"
+  },
+  "track": [
+   {
+    "at": "1941-04-05T12:00",
+    "pos": "@petrich"
+   },
+   {
+    "at": "1941-04-06T12:00",
+    "pos": "@rupel",
+    "status": "engaged"
+   },
+   {
+    "at": "1941-04-10T12:00",
+    "pos": "@serres"
+   },
+   {
+    "at": "1941-04-14T12:00",
+    "pos": "@veria"
+   },
+   {
+    "at": "1941-04-19T12:00",
+    "pos": "@larisa"
+   },
+   {
+    "at": "1941-04-25T12:00",
+    "pos": "@thebes"
+   },
+   {
+    "at": "1941-05-01T12:00",
+    "pos": "@athens",
+    "status": "reserve"
+   }
+  ],
+  "active": {
+   "from": "1941-04-05T12:00",
+   "to": "1941-05-19T23:59"
+  },
+  "history": "参与梅塔克萨斯线作战，随后经萨洛尼卡南下。大陆战役结束后在雅典地区整补、准备克里特行动；进入岛上作战的部队在克里特章节单独展示。",
+  "sources": [
+   "land_us_greece"
+  ],
+  "confidence": "medium",
+  "model": "inf_de"
+ },
+ {
+  "id": "de.6geb",
+  "side": "DE",
+  "echelon": "division",
+  "type": "mountain",
+  "parent": "de.xviii",
+  "name": {
+   "zh": "第6山地师",
+   "orig": "6. Gebirgs-Division",
+   "short": "6.Geb"
+  },
+  "track": [
+   {
+    "at": "1941-04-05T12:00",
+    "pos": "@petrich"
+   },
+   {
+    "at": "1941-04-07T12:00",
+    "pos": [
+     23.13,
+     41.16
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-04-09T12:00",
+    "pos": "@serres"
+   },
+   {
+    "at": "1941-04-12T12:00",
+    "pos": "@edessa"
+   },
+   {
+    "at": "1941-04-15T12:00",
+    "pos": "@veria"
+   },
+   {
+    "at": "1941-04-18T12:00",
+    "pos": "@tempe",
+    "status": "engaged"
+   },
+   {
+    "at": "1941-04-23T12:00",
+    "pos": "@thermopylae",
+    "status": "engaged"
+   },
+   {
+    "at": "1941-04-27T12:00",
+    "pos": "@athens"
+   }
+  ],
+  "active": {
+   "from": "1941-04-05T12:00",
+   "to": "1941-05-19T23:59"
+  },
+  "history": "越过希方原以为难通行的山地迂回要塞。追击中通过韦里亚和坦佩峡谷，又在温泉关西侧山区迂回，体现山地部队在道路受限战场中的作用。",
+  "sources": [
+   "land_us_greece"
+  ],
+  "confidence": "medium",
+  "model": "inf_de"
+ },
+ {
+  "id": "de.73id",
+  "side": "DE",
+  "echelon": "division",
+  "type": "infantry",
+  "parent": "de.xl",
+  "name": {
+   "zh": "第73步兵师",
+   "orig": "73. Infanterie-Division",
+   "short": "73.ID"
+  },
+  "track": [
+   {
+    "at": "1941-04-05T12:00",
+    "pos": "@kyustendil"
+   },
+   {
+    "at": "1941-04-09T12:00",
+    "pos": "@stip"
+   },
+   {
+    "at": "1941-04-13T12:00",
+    "pos": "@bitola"
+   },
+   {
+    "at": "1941-04-17T12:00",
+    "pos": "@florina"
+   },
+   {
+    "at": "1941-04-21T12:00",
+    "pos": "@kozani"
+   }
+  ],
+  "active": {
+   "from": "1941-04-05T12:00",
+   "to": "1941-05-19T23:59"
+  },
+  "history": "作为第40军步兵跟进部队，保障南斯拉夫南部交通线并向希腊推进。其步兵主力没有与最前沿装甲矛头同步到达每座城市。",
+  "sources": [
+   "land_us_greece"
+  ],
+  "confidence": "medium",
+  "model": "inf_de"
+ },
+ {
+  "id": "de.72id",
+  "side": "DE",
+  "echelon": "division",
+  "type": "infantry",
+  "parent": "de.xviii",
+  "name": {
+   "zh": "第72步兵师",
+   "orig": "72. Infanterie-Division",
+   "short": "72.ID"
+  },
+  "track": [
+   {
+    "at": "1941-04-05T12:00",
+    "pos": "@petrich"
+   },
+   {
+    "at": "1941-04-08T12:00",
+    "pos": "@rupel",
+    "status": "engaged"
+   },
+   {
+    "at": "1941-04-12T12:00",
+    "pos": "@thessaloniki"
+   },
+   {
+    "at": "1941-04-16T12:00",
+    "pos": "@katerini"
+   },
+   {
+    "at": "1941-04-20T12:00",
+    "pos": "@larisa"
+   }
+  ],
+  "active": {
+   "from": "1941-04-05T12:00",
+   "to": "1941-05-19T23:59"
+  },
+  "history": "跟随第18军作战，参与要塞线攻击和萨洛尼卡方向推进。步兵、山地与装甲部队行进速度不同，队尾常受狭窄山路和补给交通堵塞影响。",
+  "sources": [
+   "land_us_greece"
+  ],
+  "confidence": "medium",
+  "model": "inf_de"
+ },
+ {
+  "id": "de.50id",
+  "side": "DE",
+  "echelon": "division",
+  "type": "infantry",
+  "parent": "de.xxx",
+  "name": {
+   "zh": "第50步兵师",
+   "orig": "50. Infanterie-Division",
+   "short": "50.ID"
+  },
+  "track": [
+   {
+    "at": "1941-04-05T12:00",
+    "pos": "@plovdiv"
+   },
+   {
+    "at": "1941-04-08T12:00",
+    "pos": "@komotini",
+    "status": "engaged"
+   },
+   {
+    "at": "1941-04-12T12:00",
+    "pos": "@xanthi"
+   },
+   {
+    "at": "1941-04-18T12:00",
+    "pos": "@drama"
+   }
+  ],
+  "active": {
+   "from": "1941-04-05T12:00",
+   "to": "1941-05-19T23:59"
+  },
+  "history": "第30军从保加利亚向西色雷斯推进，绕过或攻打东部防御据点。该师行动与保军随后进驻占领区应在时间轴上区分。",
+  "sources": [
+   "land_us_greece"
+  ],
+  "confidence": "medium",
+  "model": "inf_de"
+ },
+ {
+  "id": "de.164id",
+  "side": "DE",
+  "echelon": "division",
+  "type": "infantry",
+  "parent": "de.xxx",
+  "name": {
+   "zh": "第164步兵师",
+   "orig": "164. Infanterie-Division",
+   "short": "164.ID"
+  },
+  "track": [
+   {
+    "at": "1941-04-05T12:00",
+    "pos": "@plovdiv"
+   },
+   {
+    "at": "1941-04-08T12:00",
+    "pos": "@xanthi",
+    "status": "engaged"
+   },
+   {
+    "at": "1941-04-12T12:00",
+    "pos": "@drama"
+   },
+   {
+    "at": "1941-04-20T12:00",
+    "pos": "@thessaloniki"
+   }
+  ],
+  "active": {
+   "from": "1941-04-05T12:00",
+   "to": "1941-05-19T23:59"
+  },
+  "history": "与第50师一起从保加利亚进入希腊东部，逼近爱琴海岸。后续驻防是另一阶段任务，不能等同于意军在阿尔巴尼亚的正面推进。",
+  "sources": [
+   "land_us_greece"
+  ],
+  "confidence": "medium",
+  "model": "inf_de"
+ },
+ {
+  "id": "de.lssah",
+  "side": "DE",
+  "echelon": "brigade",
+  "type": "motorized",
+  "parent": "de.xl",
+  "name": {
+   "zh": "党卫军警卫旗队",
+   "orig": "Leibstandarte SS Adolf Hitler",
+   "short": "LSSAH"
+  },
+  "track": [
+   {
+    "at": "1941-04-05T12:00",
+    "pos": "@kyustendil"
+   },
+   {
+    "at": "1941-04-08T12:00",
+    "pos": "@skopje"
+   },
+   {
+    "at": "1941-04-11T12:00",
+    "pos": "@florina"
+   },
+   {
+    "at": "1941-04-12T12:00",
+    "pos": "@vevi",
+    "status": "engaged"
+   },
+   {
+    "at": "1941-04-14T12:00",
+    "pos": "@kleisoura",
+    "status": "engaged"
+   },
+   {
+    "at": "1941-04-16T12:00",
+    "pos": "@grevena"
+   },
+   {
+    "at": "1941-04-20T12:00",
+    "pos": "@metsovo"
+   },
+   {
+    "at": "1941-04-25T12:00",
+    "pos": "@patras"
+   },
+   {
+    "at": "1941-04-29T12:00",
+    "pos": "@pyrgos"
+   }
+  ],
+  "active": {
+   "from": "1941-04-05T12:00",
+   "to": "1941-05-19T23:59"
+  },
+  "history": "当时为加强摩托化团而非后来装甲师。参加韦维、克莱苏拉和西部迂回，切断阿尔巴尼亚希军退路；其后经西海岸进入伯罗奔尼撒。",
+  "sources": [
+   "land_us_greece"
+  ],
+  "confidence": "medium",
+  "model": "inf_de"
+ },
+ {
+  "id": "de.reich",
+  "side": "DE",
+  "echelon": "division",
+  "type": "motorized",
+  "parent": "de.xli",
+  "name": {
+   "zh": "党卫军第2摩托化师",
+   "orig": "SS-Division Reich",
+   "short": "Reich"
+  },
+  "track": [
+   {
+    "at": "1941-04-08T12:00",
+    "pos": "@timisoara"
+   },
+   {
+    "at": "1941-04-11T12:00",
+    "pos": "@vrsac"
+   },
+   {
+    "at": "1941-04-12T12:00",
+    "pos": "@pancevo"
+   },
+   {
+    "at": "1941-04-13T12:00",
+    "pos": "@belgrade"
+   }
+  ],
+  "active": {
+   "from": "1941-04-08T12:00",
+   "to": "1941-04-30T23:59"
+  },
+  "history": "组成从罗马尼亚西部指向首都的独立推进臂。其小股先头部队4月12日进入贝尔格莱德，不能由此推断全师已经在同一时刻占领市区。",
+  "sources": [
+   "land_us_yugoslavia"
+  ],
+  "confidence": "medium",
+  "model": "inf_de"
+ },
+ {
+  "id": "yu.hq",
+  "side": "YU",
+  "echelon": "armygroup",
+  "type": "hq",
+  "parent": null,
+  "name": {
+   "zh": "南斯拉夫最高统帅部",
+   "orig": "Vrhovna komanda",
+   "short": "南总"
+  },
+  "track": [],
+  "active": {
+   "from": "1941-04-05T00:00",
+   "to": "1941-04-18T12:00"
+  },
+  "history": "政变后仓促动员，在边境展开大量部队，同时计划对阿尔巴尼亚进攻。德军从数条交通线突入、通信遭轰炸与内部政治分裂，妨碍了统一撤退和集中抵抗。",
+  "sources": [
+   "land_us_yugoslavia"
+  ],
+  "confidence": "medium",
+  "commander": {
+   "zh": "杜尚·西莫维奇",
+   "orig": "Dušan Simović"
+  }
+ },
+ {
+  "id": "yu.7a",
+  "side": "YU",
+  "echelon": "army",
+  "type": "hq",
+  "parent": "yu.hq",
+  "name": {
+   "zh": "第7集团军",
+   "orig": "Yugoslav 7 Army",
+   "short": "7YU"
+  },
+  "track": [
+   {
+    "at": "1941-04-05T12:00",
+    "pos": "@ljubljana"
+   },
+   {
+    "at": "1941-04-09T12:00",
+    "pos": "@zagreb",
+    "status": "engaged"
+   },
+   {
+    "at": "1941-04-14T12:00",
+    "pos": "@sarajevo",
+    "status": "withdrawing"
+   },
+   {
+    "at": "1941-04-18T12:00",
+    "pos": "@sarajevo",
+    "status": "surrendered"
+   }
+  ],
+  "active": {
+   "from": "1941-04-05T00:00",
+   "to": "1941-04-18T12:00"
+  },
+  "history": "守备德国、意大利方向。德军与意军在卢布尔雅那盆地两侧展开，撤退道路被机动部队切断。棋子描绘军级指挥活动中心，未完成动员的编制数不能当作已到位战斗力。",
+  "sources": [
+   "land_us_yugoslavia"
+  ],
+  "confidence": "medium",
+  "model": "inf_yu"
+ },
+ {
+  "id": "yu.4a",
+  "side": "YU",
+  "echelon": "army",
+  "type": "hq",
+  "parent": "yu.hq",
+  "name": {
+   "zh": "第4集团军",
+   "orig": "Yugoslav 4 Army",
+   "short": "4YU"
+  },
+  "track": [
+   {
+    "at": "1941-04-05T12:00",
+    "pos": "@bjelovar"
+   },
+   {
+    "at": "1941-04-09T12:00",
+    "pos": "@zagreb",
+    "status": "engaged"
+   },
+   {
+    "at": "1941-04-14T12:00",
+    "pos": "@sarajevo",
+    "status": "withdrawing"
+   },
+   {
+    "at": "1941-04-18T12:00",
+    "pos": "@sarajevo",
+    "status": "surrendered"
+   }
+  ],
+  "active": {
+   "from": "1941-04-05T00:00",
+   "to": "1941-04-18T12:00"
+  },
+  "history": "沿德拉瓦河守备匈牙利边界。部分单位出现兵变与瓦解，德军第14装甲师遂迅速进入萨格勒布。棋子描绘军级指挥活动中心，未完成动员的编制数不能当作已到位战斗力。",
+  "sources": [
+   "land_us_yugoslavia"
+  ],
+  "confidence": "medium",
+  "model": "inf_yu"
+ },
+ {
+  "id": "yu.2a",
+  "side": "YU",
+  "echelon": "army",
+  "type": "hq",
+  "parent": "yu.hq",
+  "name": {
+   "zh": "第2集团军",
+   "orig": "Yugoslav 2 Army",
+   "short": "2YU"
+  },
+  "track": [
+   {
+    "at": "1941-04-05T12:00",
+    "pos": "@osijek"
+   },
+   {
+    "at": "1941-04-09T12:00",
+    "pos": "@novisad",
+    "status": "engaged"
+   },
+   {
+    "at": "1941-04-14T12:00",
+    "pos": "@sarajevo",
+    "status": "withdrawing"
+   },
+   {
+    "at": "1941-04-18T12:00",
+    "pos": "@sarajevo",
+    "status": "surrendered"
+   }
+  ],
+  "active": {
+   "from": "1941-04-05T00:00",
+   "to": "1941-04-18T12:00"
+  },
+  "history": "守备北部德拉瓦—多瑙河地段，德军越过桥头并沿河谷突破后不得不撤向内陆。棋子描绘军级指挥活动中心，未完成动员的编制数不能当作已到位战斗力。",
+  "sources": [
+   "land_us_yugoslavia"
+  ],
+  "confidence": "medium",
+  "model": "inf_yu"
+ },
+ {
+  "id": "yu.1a",
+  "side": "YU",
+  "echelon": "army",
+  "type": "hq",
+  "parent": "yu.hq",
+  "name": {
+   "zh": "第1集团军",
+   "orig": "Yugoslav 1 Army",
+   "short": "1YU"
+  },
+  "track": [
+   {
+    "at": "1941-04-05T12:00",
+    "pos": "@subotica"
+   },
+   {
+    "at": "1941-04-09T12:00",
+    "pos": "@novisad",
+    "status": "engaged"
+   },
+   {
+    "at": "1941-04-14T12:00",
+    "pos": "@belgrade",
+    "status": "withdrawing"
+   },
+   {
+    "at": "1941-04-18T12:00",
+    "pos": "@belgrade",
+    "status": "surrendered"
+   }
+  ],
+  "active": {
+   "from": "1941-04-05T00:00",
+   "to": "1941-04-18T12:00"
+  },
+  "history": "部署在多瑙河与蒂萨河之间。德军突入及匈牙利4月11日参战后，北部防御迅速崩溃。棋子描绘军级指挥活动中心，未完成动员的编制数不能当作已到位战斗力。",
+  "sources": [
+   "land_us_yugoslavia"
+  ],
+  "confidence": "medium",
+  "model": "inf_yu"
+ },
+ {
+  "id": "yu.5a",
+  "side": "YU",
+  "echelon": "army",
+  "type": "hq",
+  "parent": "yu.hq",
+  "name": {
+   "zh": "第5集团军",
+   "orig": "Yugoslav 5 Army",
+   "short": "5YU"
+  },
+  "track": [
+   {
+    "at": "1941-04-05T12:00",
+    "pos": "@nis"
+   },
+   {
+    "at": "1941-04-09T12:00",
+    "pos": "@leskovac",
+    "status": "engaged"
+   },
+   {
+    "at": "1941-04-14T12:00",
+    "pos": "@kraljevo",
+    "status": "withdrawing"
+   },
+   {
+    "at": "1941-04-18T12:00",
+    "pos": "@kraljevo",
+    "status": "surrendered"
+   }
+  ],
+  "active": {
+   "from": "1941-04-05T00:00",
+   "to": "1941-04-18T12:00"
+  },
+  "history": "负责东部边境并承受第1装甲集群的尼什轴线进攻。前沿失守后，向摩拉瓦河组织防御的计划来不及完成。棋子描绘军级指挥活动中心，未完成动员的编制数不能当作已到位战斗力。",
+  "sources": [
+   "land_us_yugoslavia"
+  ],
+  "confidence": "medium",
+  "model": "inf_yu"
+ },
+ {
+  "id": "yu.6a",
+  "side": "YU",
+  "echelon": "army",
+  "type": "hq",
+  "parent": "yu.hq",
+  "name": {
+   "zh": "第6集团军",
+   "orig": "Yugoslav 6 Army",
+   "short": "6YU"
+  },
+  "track": [
+   {
+    "at": "1941-04-05T12:00",
+    "pos": "@kragujevac"
+   },
+   {
+    "at": "1941-04-09T12:00",
+    "pos": "@kraljevo",
+    "status": "engaged"
+   },
+   {
+    "at": "1941-04-14T12:00",
+    "pos": "@sarajevo",
+    "status": "withdrawing"
+   },
+   {
+    "at": "1941-04-18T12:00",
+    "pos": "@sarajevo",
+    "status": "surrendered"
+   }
+  ],
+  "active": {
+   "from": "1941-04-05T00:00",
+   "to": "1941-04-18T12:00"
+  },
+  "history": "在中部与首都周边协助抵抗。4月12日南翼被经摩拉瓦河谷前进的德军机动部队突入，成建制抵抗瓦解。棋子描绘军级指挥活动中心，未完成动员的编制数不能当作已到位战斗力。",
+  "sources": [
+   "land_us_yugoslavia"
+  ],
+  "confidence": "medium",
+  "model": "inf_yu"
+ },
+ {
+  "id": "yu.3a",
+  "side": "YU",
+  "echelon": "army",
+  "type": "hq",
+  "parent": "yu.hq",
+  "name": {
+   "zh": "第3集团军",
+   "orig": "Yugoslav 3 Army",
+   "short": "3YU"
+  },
+  "track": [
+   {
+    "at": "1941-04-05T12:00",
+    "pos": "@podgorica"
+   },
+   {
+    "at": "1941-04-09T12:00",
+    "pos": "@prizren",
+    "status": "engaged"
+   },
+   {
+    "at": "1941-04-14T12:00",
+    "pos": "@podgorica",
+    "status": "withdrawing"
+   },
+   {
+    "at": "1941-04-18T12:00",
+    "pos": "@podgorica",
+    "status": "surrendered"
+   }
+  ],
+  "active": {
+   "from": "1941-04-05T00:00",
+   "to": "1941-04-18T12:00"
+  },
+  "history": "沿阿尔巴尼亚边界展开，企图配合希腊进攻意军。局部进攻并未能补救斯科普里交通线被德军切断的局面。棋子描绘军级指挥活动中心，未完成动员的编制数不能当作已到位战斗力。",
+  "sources": [
+   "land_us_yugoslavia"
+  ],
+  "confidence": "medium",
+  "model": "inf_yu"
+ },
+ {
+  "id": "yu.3territorial",
+  "side": "YU",
+  "echelon": "army",
+  "type": "hq",
+  "parent": "yu.hq",
+  "name": {
+   "zh": "第3军区军队",
+   "orig": "Yugoslav 3区 Army",
+   "short": "3区YU"
+  },
+  "track": [
+   {
+    "at": "1941-04-05T12:00",
+    "pos": "@skopje"
+   },
+   {
+    "at": "1941-04-09T12:00",
+    "pos": "@ohrid",
+    "status": "engaged"
+   },
+   {
+    "at": "1941-04-14T12:00",
+    "pos": "@prizren",
+    "status": "withdrawing"
+   },
+   {
+    "at": "1941-04-18T12:00",
+    "pos": "@prizren",
+    "status": "surrendered"
+   }
+  ],
+  "active": {
+   "from": "1941-04-05T00:00",
+   "to": "1941-04-18T12:00"
+  },
+  "history": "承担马其顿地区防御，与希腊盟军相联的斯科普里—比托拉交通轴线迅速被切断。这里区分第3集团军与第3军区部队。棋子描绘军级指挥活动中心，未完成动员的编制数不能当作已到位战斗力。",
+  "sources": [
+   "land_us_yugoslavia"
+  ],
+  "confidence": "medium",
+  "model": "inf_yu"
+ },
+ {
+  "id": "gb.wforce",
+  "side": "GB",
+  "echelon": "army",
+  "type": "hq",
+  "parent": null,
+  "name": {
+   "zh": "W Force司令部",
+   "orig": "W Force",
+   "short": "W Force"
+  },
+  "track": [
+   {
+    "at": "1941-03-07T12:00",
+    "pos": "@athens"
+   },
+   {
+    "at": "1941-04-05T12:00",
+    "pos": "@larisa"
+   },
+   {
+    "at": "1941-04-15T12:00",
+    "pos": "@lamia",
+    "note": "英联邦南撤分段使用卡车等车辆运输；旅师轨迹表示作战重心，时间为阶段示意。"
+   },
+   {
+    "at": "1941-04-24T12:00",
+    "pos": "@athens",
+    "note": "英联邦南撤分段使用卡车等车辆运输；旅师轨迹表示作战重心，时间为阶段示意。"
+   },
+   {
+    "at": "1941-04-26T12:00",
+    "pos": "@piraeus",
+    "status": "withdrawing",
+    "movement": "sea"
+   },
+   {
+    "at": "1941-04-27T12:00",
+    "pos": [
+     24,
+     35.72
+    ],
+    "status": "withdrawing",
+    "movement": "sea",
+    "note": "海路/空路接续点；抵达后的编组见克里特章节或图外埃及。"
+   }
+  ],
+  "active": {
+   "from": "1941-03-07T00:00",
+   "to": "1941-04-27T23:59"
+  },
+  "history": "威尔逊指挥来自英国、澳大利亚和新西兰的远征军，并协调两支希腊师。各国部队在战斗序列中保留独立国家树，W Force本棋子只代表联合指挥活动。",
+  "sources": [
+   "land_awm_greece",
+   "land_us_greece"
+  ],
+  "confidence": "medium",
+  "model": "inf_gb",
+  "commander": {
+   "zh": "亨利·梅特兰·威尔逊",
+   "orig": "Henry Maitland Wilson"
+  }
+ },
+ {
+  "id": "gb.1armb_mainland",
+  "side": "GB",
+  "echelon": "brigade",
+  "type": "armor",
+  "parent": "gb.wforce",
+  "name": {
+   "zh": "第1装甲旅",
+   "orig": "1st Armoured Brigade",
+   "short": "1 Armd"
+  },
+  "track": [
+   {
+    "at": "1941-03-07T12:00",
+    "pos": "@piraeus"
+   },
+   {
+    "at": "1941-03-24T12:00",
+    "pos": "@thessaloniki"
+   },
+   {
+    "at": "1941-04-10T12:00",
+    "pos": "@vevi",
+    "status": "engaged"
+   },
+   {
+    "at": "1941-04-14T12:00",
+    "pos": "@kozani",
+    "status": "withdrawing",
+    "note": "英联邦南撤分段使用卡车等车辆运输；旅师轨迹表示作战重心，时间为阶段示意。"
+   },
+   {
+    "at": "1941-04-18T12:00",
+    "pos": "@elassona",
+    "note": "英联邦南撤分段使用卡车等车辆运输；旅师轨迹表示作战重心，时间为阶段示意。"
+   },
+   {
+    "at": "1941-04-23T12:00",
+    "pos": "@thermopylae",
+    "status": "engaged",
+    "note": "英联邦南撤分段使用卡车等车辆运输；旅师轨迹表示作战重心，时间为阶段示意。"
+   },
+   {
+    "at": "1941-04-26T12:00",
+    "pos": "@rafina",
+    "status": "withdrawing",
+    "movement": "sea"
+   },
+   {
+    "at": "1941-04-27T12:00",
+    "pos": [
+     24.1,
+     35.75
+    ],
+    "status": "withdrawing",
+    "movement": "sea",
+    "note": "海路/空路接续点；抵达后的编组见克里特章节或图外埃及。"
+   }
+  ],
+  "active": {
+   "from": "1941-03-07T00:00",
+   "to": "1941-04-27T23:59"
+  },
+  "history": "由英国第2装甲师抽出的旅级部队，3月海运进入希腊。承担机动掩护、撤退阻击；撤离时许多重装备无法带走，不能画成坦克沿海面开往克里特。",
+  "sources": [
+   "land_awm_greece",
+   "land_us_greece"
+  ],
+  "confidence": "medium",
+  "model": "inf_gb"
+ },
+ {
+  "id": "gb.raf_greece",
+  "side": "GB",
+  "echelon": "brigade",
+  "type": "air",
+  "parent": null,
+  "name": {
+   "zh": "英国皇家空军驻希腊部队",
+   "orig": "RAF contingent in Greece",
+   "short": "RAF"
+  },
+  "track": [
+   {
+    "at": "1940-11-04T12:00",
+    "pos": "@athens"
+   },
+   {
+    "at": "1940-11-14T12:00",
+    "pos": "@ioannina"
+   },
+   {
+    "at": "1941-03-01T12:00",
+    "pos": "@larisa"
+   },
+   {
+    "at": "1941-04-18T12:00",
+    "pos": "@athens",
+    "status": "withdrawing",
+    "note": "英联邦南撤分段使用卡车等车辆运输；旅师轨迹表示作战重心，时间为阶段示意。"
+   },
+   {
+    "at": "1941-04-21T12:00",
+    "pos": "@athens",
+    "status": "withdrawing",
+    "movement": "air"
+   },
+   {
+    "at": "1941-04-22T12:00",
+    "pos": [
+     24,
+     35.72
+    ],
+    "status": "withdrawing",
+    "movement": "air",
+    "note": "海路/空路接续点；抵达后的编组见克里特章节或图外埃及。"
+   }
+  ],
+  "active": {
+   "from": "1940-11-04T00:00",
+   "to": "1941-04-22T23:59"
+  },
+  "history": "自1940年11月起以数量有限的轰炸机、战斗机支援希军。3月远征军增援与此前空中援助是两个阶段；德军进攻后空军遭受损失，于4月下旬撤出大陆。",
+  "sources": [
+   "land_us_context",
+   "land_awm_greece"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "au.1corps_mainland",
+  "side": "AU",
+  "echelon": "corps",
+  "type": "hq",
+  "parent": null,
+  "name": {
+   "zh": "澳大利亚第1军·安扎克军",
+   "orig": "I Australian / ANZAC Corps",
+   "short": "ANZAC"
+  },
+  "track": [
+   {
+    "at": "1941-03-19T12:00",
+    "pos": "@piraeus"
+   },
+   {
+    "at": "1941-04-05T12:00",
+    "pos": "@veria"
+   },
+   {
+    "at": "1941-04-12T12:00",
+    "pos": "@vevi",
+    "status": "engaged",
+    "note": "英联邦南撤分段使用卡车等车辆运输；旅师轨迹表示作战重心，时间为阶段示意。"
+   },
+   {
+    "at": "1941-04-16T12:00",
+    "pos": "@servia",
+    "status": "withdrawing",
+    "note": "英联邦南撤分段使用卡车等车辆运输；旅师轨迹表示作战重心，时间为阶段示意。"
+   },
+   {
+    "at": "1941-04-19T12:00",
+    "pos": "@elassona",
+    "note": "英联邦南撤分段使用卡车等车辆运输；旅师轨迹表示作战重心，时间为阶段示意。"
+   },
+   {
+    "at": "1941-04-23T12:00",
+    "pos": "@thermopylae",
+    "status": "engaged",
+    "note": "英联邦南撤分段使用卡车等车辆运输；旅师轨迹表示作战重心，时间为阶段示意。"
+   },
+   {
+    "at": "1941-04-26T12:00",
+    "pos": "@megara",
+    "status": "withdrawing",
+    "movement": "sea"
+   },
+   {
+    "at": "1941-04-27T12:00",
+    "pos": [
+     23.7,
+     35.75
+    ],
+    "status": "withdrawing",
+    "movement": "sea",
+    "note": "海路/空路接续点；抵达后的编组见克里特章节或图外埃及。"
+   }
+  ],
+  "active": {
+   "from": "1941-03-19T00:00",
+   "to": "1941-04-27T23:59"
+  },
+  "history": "布莱米指挥澳大利亚第1军，在希腊与新西兰师合编为安扎克军。各国部队保持国家行政编制；军级棋子主要表示共同防御和撤退指挥中心。",
+  "sources": [
+   "land_awm_greece",
+   "land_us_greece"
+  ],
+  "confidence": "medium",
+  "model": "inf_au",
+  "commander": {
+   "zh": "托马斯·布莱米",
+   "orig": "Thomas Blamey"
+  }
+ },
+ {
+  "id": "au.6d_mainland",
+  "side": "AU",
+  "echelon": "division",
+  "type": "infantry",
+  "parent": "au.1corps_mainland",
+  "name": {
+   "zh": "澳大利亚第6师",
+   "orig": "6th Australian Division",
+   "short": "6 AU"
+  },
+  "track": [
+   {
+    "at": "1941-03-19T12:00",
+    "pos": "@piraeus"
+   },
+   {
+    "at": "1941-04-05T12:00",
+    "pos": "@veria"
+   },
+   {
+    "at": "1941-04-12T12:00",
+    "pos": "@vevi",
+    "status": "engaged",
+    "note": "英联邦南撤分段使用卡车等车辆运输；旅师轨迹表示作战重心，时间为阶段示意。"
+   },
+   {
+    "at": "1941-04-16T12:00",
+    "pos": "@servia",
+    "status": "withdrawing",
+    "note": "英联邦南撤分段使用卡车等车辆运输；旅师轨迹表示作战重心，时间为阶段示意。"
+   },
+   {
+    "at": "1941-04-19T12:00",
+    "pos": "@elassona",
+    "note": "英联邦南撤分段使用卡车等车辆运输；旅师轨迹表示作战重心，时间为阶段示意。"
+   },
+   {
+    "at": "1941-04-23T12:00",
+    "pos": "@thermopylae",
+    "status": "engaged",
+    "note": "英联邦南撤分段使用卡车等车辆运输；旅师轨迹表示作战重心，时间为阶段示意。"
+   },
+   {
+    "at": "1941-04-26T12:00",
+    "pos": "@megara",
+    "status": "withdrawing",
+    "movement": "sea"
+   },
+   {
+    "at": "1941-04-27T12:00",
+    "pos": [
+     23.7,
+     35.75
+    ],
+    "status": "withdrawing",
+    "movement": "sea",
+    "note": "海路/空路接续点；抵达后的编组见克里特章节或图外埃及。"
+   }
+  ],
+  "active": {
+   "from": "1941-03-19T00:00",
+   "to": "1941-04-27T23:59"
+  },
+  "history": "麦凯指挥第6师，由北非转运希腊。部队在韦维、塞尔维亚与坦佩等地分散阻击，随后南撤。部分人员转往克里特，其余撤至埃及；大陆轨迹在海撤阶段结束。",
+  "sources": [
+   "land_awm_greece",
+   "land_us_greece"
+  ],
+  "confidence": "medium",
+  "model": "inf_au",
+  "commander": {
+   "zh": "伊文·麦凯",
+   "orig": "Iven Mackay"
+  },
+  "equipment": [
+   {
+    "id": "land_bren"
+   },
+   {
+    "id": "land_25pdr"
+   }
+  ]
+ },
+ {
+  "id": "au.16b_mainland",
+  "side": "AU",
+  "echelon": "brigade",
+  "type": "infantry",
+  "parent": "au.6d_mainland",
+  "name": {
+   "zh": "澳大利亚第16旅",
+   "orig": "16th Australian Brigade",
+   "short": "16 AU"
+  },
+  "track": [
+   {
+    "at": "1941-03-19T12:00",
+    "pos": "@piraeus"
+   },
+   {
+    "at": "1941-04-05T12:00",
+    "pos": "@veria"
+   },
+   {
+    "at": "1941-04-15T12:00",
+    "pos": "@servia",
+    "status": "engaged",
+    "note": "英联邦南撤分段使用卡车等车辆运输；旅师轨迹表示作战重心，时间为阶段示意。"
+   },
+   {
+    "at": "1941-04-18T12:00",
+    "pos": "@tempe",
+    "status": "engaged",
+    "note": "英联邦南撤分段使用卡车等车辆运输；旅师轨迹表示作战重心，时间为阶段示意。"
+   },
+   {
+    "at": "1941-04-22T12:00",
+    "pos": "@thermopylae",
+    "note": "英联邦南撤分段使用卡车等车辆运输；旅师轨迹表示作战重心，时间为阶段示意。"
+   },
+   {
+    "at": "1941-04-26T12:00",
+    "pos": "@megara",
+    "status": "withdrawing",
+    "movement": "sea"
+   },
+   {
+    "at": "1941-04-27T12:00",
+    "pos": [
+     23.75,
+     35.73
+    ],
+    "status": "withdrawing",
+    "movement": "sea",
+    "note": "海路/空路接续点；抵达后的编组见克里特章节或图外埃及。"
+   }
+  ],
+  "active": {
+   "from": "1941-03-19T12:00",
+   "to": "1941-04-27T12:00"
+  },
+  "history": "第16旅在阿利阿克蒙地区部署，部分营又被调至坦佩峡谷。主力撤退路线与各营分遣任务并不一致，轨迹以旅级作战方向表示。",
+  "sources": [
+   "land_awm_greece",
+   "land_us_greece"
+  ],
+  "confidence": "medium",
+  "model": "inf_au"
+ },
+ {
+  "id": "au.17b_mainland",
+  "side": "AU",
+  "echelon": "brigade",
+  "type": "infantry",
+  "parent": "au.6d_mainland",
+  "name": {
+   "zh": "澳大利亚第17旅",
+   "orig": "17th Australian Brigade",
+   "short": "17 AU"
+  },
+  "track": [
+   {
+    "at": "1941-03-28T12:00",
+    "pos": "@piraeus"
+   },
+   {
+    "at": "1941-04-08T12:00",
+    "pos": "@kozani"
+   },
+   {
+    "at": "1941-04-14T12:00",
+    "pos": "@grevena",
+    "status": "engaged",
+    "note": "英联邦南撤分段使用卡车等车辆运输；旅师轨迹表示作战重心，时间为阶段示意。"
+   },
+   {
+    "at": "1941-04-18T12:00",
+    "pos": "@elassona",
+    "status": "withdrawing",
+    "note": "英联邦南撤分段使用卡车等车辆运输；旅师轨迹表示作战重心，时间为阶段示意。"
+   },
+   {
+    "at": "1941-04-24T12:00",
+    "pos": "@thebes",
+    "note": "英联邦南撤分段使用卡车等车辆运输；旅师轨迹表示作战重心，时间为阶段示意。"
+   },
+   {
+    "at": "1941-04-27T12:00",
+    "pos": "@kalamata",
+    "status": "withdrawing",
+    "movement": "sea"
+   },
+   {
+    "at": "1941-04-28T12:00",
+    "pos": [
+     23,
+     34.55
+    ],
+    "status": "withdrawing",
+    "movement": "sea",
+    "note": "海路/空路接续点；抵达后的编组见克里特章节或图外埃及。"
+   }
+  ],
+  "active": {
+   "from": "1941-03-28T12:00",
+   "to": "1941-04-28T12:00"
+  },
+  "history": "第17旅在西侧山地及撤退途中担任阻击。部分部队经伯罗奔尼撒港口直接撤往埃及；航路到图幅南缘结束，不能把埃及画到希腊地图内。",
+  "sources": [
+   "land_awm_greece",
+   "land_us_greece"
+  ],
+  "confidence": "medium",
+  "model": "inf_au"
+ },
+ {
+  "id": "au.19b_mainland",
+  "side": "AU",
+  "echelon": "brigade",
+  "type": "infantry",
+  "parent": "au.6d_mainland",
+  "name": {
+   "zh": "澳大利亚第19旅",
+   "orig": "19th Australian Brigade",
+   "short": "19 AU"
+  },
+  "track": [
+   {
+    "at": "1941-03-27T12:00",
+    "pos": "@piraeus"
+   },
+   {
+    "at": "1941-04-10T12:00",
+    "pos": "@vevi",
+    "status": "engaged"
+   },
+   {
+    "at": "1941-04-12T12:00",
+    "pos": "@vevi",
+    "status": "engaged",
+    "note": "英联邦南撤分段使用卡车等车辆运输；旅师轨迹表示作战重心，时间为阶段示意。"
+   },
+   {
+    "at": "1941-04-15T12:00",
+    "pos": "@servia",
+    "status": "withdrawing",
+    "note": "英联邦南撤分段使用卡车等车辆运输；旅师轨迹表示作战重心，时间为阶段示意。"
+   },
+   {
+    "at": "1941-04-22T12:00",
+    "pos": "@thermopylae",
+    "note": "英联邦南撤分段使用卡车等车辆运输；旅师轨迹表示作战重心，时间为阶段示意。"
+   },
+   {
+    "at": "1941-04-25T12:00",
+    "pos": "@megara",
+    "status": "withdrawing",
+    "movement": "sea"
+   },
+   {
+    "at": "1941-04-26T12:00",
+    "pos": [
+     23.7,
+     35.72
+    ],
+    "status": "withdrawing",
+    "movement": "sea",
+    "note": "海路/空路接续点；抵达后的编组见克里特章节或图外埃及。"
+   }
+  ],
+  "active": {
+   "from": "1941-03-27T12:00",
+   "to": "1941-04-26T12:00"
+  },
+  "history": "第19旅在麦凯临时集群内防卫韦维缺口。冷雨、风雪与德军突击使阵地崩溃，旅随后随安扎克军南撤，转往克里特的人员在该章接续出现。",
+  "sources": [
+   "land_awm_greece",
+   "land_us_greece"
+  ],
+  "confidence": "medium",
+  "model": "inf_au"
+ },
+ {
+  "id": "nz.2d_mainland",
+  "side": "NZ",
+  "echelon": "division",
+  "type": "infantry",
+  "parent": null,
+  "name": {
+   "zh": "新西兰第2师",
+   "orig": "2nd New Zealand Division",
+   "short": "2 NZ"
+  },
+  "track": [
+   {
+    "at": "1941-03-07T12:00",
+    "pos": "@piraeus"
+   },
+   {
+    "at": "1941-03-25T12:00",
+    "pos": "@katerini"
+   },
+   {
+    "at": "1941-04-14T12:00",
+    "pos": "@platamon",
+    "status": "engaged",
+    "note": "英联邦南撤分段使用卡车等车辆运输；旅师轨迹表示作战重心，时间为阶段示意。"
+   },
+   {
+    "at": "1941-04-18T12:00",
+    "pos": "@elassona",
+    "status": "withdrawing",
+    "note": "英联邦南撤分段使用卡车等车辆运输；旅师轨迹表示作战重心，时间为阶段示意。"
+   },
+   {
+    "at": "1941-04-22T12:00",
+    "pos": "@thermopylae",
+    "status": "engaged",
+    "note": "英联邦南撤分段使用卡车等车辆运输；旅师轨迹表示作战重心，时间为阶段示意。"
+   },
+   {
+    "at": "1941-04-27T12:00",
+    "pos": "@monemvasia",
+    "status": "withdrawing",
+    "movement": "sea"
+   },
+   {
+    "at": "1941-04-28T12:00",
+    "pos": [
+     24,
+     35.73
+    ],
+    "status": "withdrawing",
+    "movement": "sea",
+    "note": "海路/空路接续点；抵达后的编组见克里特章节或图外埃及。"
+   }
+  ],
+  "active": {
+   "from": "1941-03-07T00:00",
+   "to": "1941-04-28T23:59"
+  },
+  "history": "弗赖伯格指挥第2师，担任奥林匹斯山和阿利阿克蒙防线的重要部分。4月在山口和峡谷连续阻击，南撤后部分人员登陆克里特，后来担负岛防任务。",
+  "sources": [
+   "land_awm_greece",
+   "land_us_greece"
+  ],
+  "confidence": "medium",
+  "model": "inf_nz",
+  "commander": {
+   "zh": "伯纳德·弗赖伯格",
+   "orig": "Bernard Freyberg"
+  },
+  "equipment": [
+   {
+    "id": "land_bren"
+   },
+   {
+    "id": "land_25pdr"
+   }
+  ]
+ },
+ {
+  "id": "nz.4b_mainland",
+  "side": "NZ",
+  "echelon": "brigade",
+  "type": "infantry",
+  "parent": "nz.2d_mainland",
+  "name": {
+   "zh": "新西兰第4旅",
+   "orig": "4th New Zealand Brigade",
+   "short": "4 NZ"
+  },
+  "track": [
+   {
+    "at": "1941-03-07T12:00",
+    "pos": "@piraeus"
+   },
+   {
+    "at": "1941-04-05T12:00",
+    "pos": "@servia"
+   },
+   {
+    "at": "1941-04-14T12:00",
+    "pos": "@servia",
+    "status": "engaged",
+    "note": "英联邦南撤分段使用卡车等车辆运输；旅师轨迹表示作战重心，时间为阶段示意。"
+   },
+   {
+    "at": "1941-04-18T12:00",
+    "pos": "@elassona",
+    "status": "withdrawing",
+    "note": "英联邦南撤分段使用卡车等车辆运输；旅师轨迹表示作战重心，时间为阶段示意。"
+   },
+   {
+    "at": "1941-04-22T12:00",
+    "pos": "@thermopylae",
+    "note": "英联邦南撤分段使用卡车等车辆运输；旅师轨迹表示作战重心，时间为阶段示意。"
+   },
+   {
+    "at": "1941-04-26T12:00",
+    "pos": "@rafina",
+    "status": "withdrawing",
+    "movement": "sea"
+   },
+   {
+    "at": "1941-04-27T12:00",
+    "pos": [
+     24,
+     35.73
+    ],
+    "status": "withdrawing",
+    "movement": "sea",
+    "note": "海路/空路接续点；抵达后的编组见克里特章节或图外埃及。"
+   }
+  ],
+  "active": {
+   "from": "1941-03-07T12:00",
+   "to": "1941-04-27T12:00"
+  },
+  "history": "第4旅在塞尔维亚山口方向构成安扎克防线的一部分，掩护南撤。大陆结束时的旅番号不应与克里特作战重新编组后的支队混为一个固定位置。",
+  "sources": [
+   "land_awm_greece",
+   "land_us_greece"
+  ],
+  "confidence": "medium",
+  "model": "inf_nz"
+ },
+ {
+  "id": "nz.5b_mainland",
+  "side": "NZ",
+  "echelon": "brigade",
+  "type": "infantry",
+  "parent": "nz.2d_mainland",
+  "name": {
+   "zh": "新西兰第5旅",
+   "orig": "5th New Zealand Brigade",
+   "short": "5 NZ"
+  },
+  "track": [
+   {
+    "at": "1941-03-07T12:00",
+    "pos": "@piraeus"
+   },
+   {
+    "at": "1941-04-05T12:00",
+    "pos": "@katerini"
+   },
+   {
+    "at": "1941-04-14T12:00",
+    "pos": "@platamon",
+    "status": "engaged",
+    "note": "英联邦南撤分段使用卡车等车辆运输；旅师轨迹表示作战重心，时间为阶段示意。"
+   },
+   {
+    "at": "1941-04-16T12:00",
+    "pos": "@tempe",
+    "status": "engaged",
+    "note": "英联邦南撤分段使用卡车等车辆运输；旅师轨迹表示作战重心，时间为阶段示意。"
+   },
+   {
+    "at": "1941-04-18T12:00",
+    "pos": "@elassona",
+    "status": "withdrawing",
+    "note": "英联邦南撤分段使用卡车等车辆运输；旅师轨迹表示作战重心，时间为阶段示意。"
+   },
+   {
+    "at": "1941-04-23T12:00",
+    "pos": "@thermopylae",
+    "note": "英联邦南撤分段使用卡车等车辆运输；旅师轨迹表示作战重心，时间为阶段示意。"
+   },
+   {
+    "at": "1941-04-27T12:00",
+    "pos": "@monemvasia",
+    "status": "withdrawing",
+    "movement": "sea"
+   },
+   {
+    "at": "1941-04-28T12:00",
+    "pos": [
+     24,
+     35.73
+    ],
+    "status": "withdrawing",
+    "movement": "sea",
+    "note": "海路/空路接续点；抵达后的编组见克里特章节或图外埃及。"
+   }
+  ],
+  "active": {
+   "from": "1941-03-07T12:00",
+   "to": "1941-04-28T12:00"
+  },
+  "history": "第5旅的部队防守奥林匹斯和普拉塔蒙；第21营等先后转移到坦佩。德军的海岸和山地迂回迫使撤退，部分部队经南部港口转赴克里特。",
+  "sources": [
+   "land_awm_greece",
+   "land_us_greece"
+  ],
+  "confidence": "medium",
+  "model": "inf_nz"
+ },
+ {
+  "id": "nz.6b_mainland",
+  "side": "NZ",
+  "echelon": "brigade",
+  "type": "infantry",
+  "parent": "nz.2d_mainland",
+  "name": {
+   "zh": "新西兰第6旅",
+   "orig": "6th New Zealand Brigade",
+   "short": "6 NZ"
+  },
+  "track": [
+   {
+    "at": "1941-03-07T12:00",
+    "pos": "@piraeus"
+   },
+   {
+    "at": "1941-04-05T12:00",
+    "pos": "@katerini"
+   },
+   {
+    "at": "1941-04-16T12:00",
+    "pos": "@elassona",
+    "note": "英联邦南撤分段使用卡车等车辆运输；旅师轨迹表示作战重心，时间为阶段示意。"
+   },
+   {
+    "at": "1941-04-18T12:00",
+    "pos": "@elassona",
+    "status": "engaged",
+    "note": "英联邦南撤分段使用卡车等车辆运输；旅师轨迹表示作战重心，时间为阶段示意。"
+   },
+   {
+    "at": "1941-04-22T12:00",
+    "pos": "@thermopylae",
+    "status": "engaged",
+    "note": "英联邦南撤分段使用卡车等车辆运输；旅师轨迹表示作战重心，时间为阶段示意。"
+   },
+   {
+    "at": "1941-04-27T12:00",
+    "pos": "@monemvasia",
+    "status": "withdrawing",
+    "movement": "sea"
+   },
+   {
+    "at": "1941-04-28T12:00",
+    "pos": [
+     24,
+     35.73
+    ],
+    "status": "withdrawing",
+    "movement": "sea",
+    "note": "海路/空路接续点；抵达后的编组见克里特章节或图外埃及。"
+   }
+  ],
+  "active": {
+   "from": "1941-03-07T12:00",
+   "to": "1941-04-28T12:00"
+  },
+  "history": "第6旅在埃拉索纳等撤退阻击阵地作战，最后参与温泉关掩护。并非所有人员都留在克里特，重装备遗弃及分批装船造成了下一阶段重新编组。",
+  "sources": [
+   "land_awm_greece",
+   "land_us_greece"
+  ],
+  "confidence": "medium",
+  "model": "inf_nz"
+ },
+ {
+  "id": "hu.3a",
+  "side": "HU",
+  "echelon": "army",
+  "type": "infantry",
+  "parent": null,
+  "name": {
+   "zh": "匈牙利第3集团军",
+   "orig": "Magyar 3. hadsereg",
+   "short": "3 HU"
+  },
+  "track": [
+   {
+    "at": "1941-04-10T12:00",
+    "pos": [
+     19.5,
+     46.25
+    ],
+    "status": "reserve"
+   },
+   {
+    "at": "1941-04-11T12:00",
+    "pos": "@subotica",
+    "status": "engaged"
+   },
+   {
+    "at": "1941-04-13T12:00",
+    "pos": "@novisad"
+   },
+   {
+    "at": "1941-04-18T12:00",
+    "pos": "@novisad",
+    "status": "active"
+   }
+  ],
+  "active": {
+   "from": "1941-04-10T00:00",
+   "to": "1941-05-19T23:59"
+  },
+  "history": "匈牙利部队4月11日才越境，主要占领巴奇卡等北部地区。它提供通行和后续参战，但不是4月6日从保加利亚突破希腊防线的军队。",
+  "sources": [
+   "land_us_yugoslavia"
+  ],
+  "confidence": "medium",
+  "model": "inf_hu"
+ },
+ {
+  "id": "bg.occupation",
+  "side": "BG",
+  "echelon": "army",
+  "type": "infantry",
+  "parent": null,
+  "name": {
+   "zh": "保加利亚进驻部队",
+   "orig": "Bulgarian occupation forces",
+   "short": "BG占"
+  },
+  "track": [
+   {
+    "at": "1941-04-20T12:00",
+    "pos": "@petrich",
+    "status": "active"
+   },
+   {
+    "at": "1941-04-24T12:00",
+    "pos": "@drama"
+   },
+   {
+    "at": "1941-04-28T12:00",
+    "pos": "@xanthi"
+   },
+   {
+    "at": "1941-05-19T12:00",
+    "pos": "@xanthi"
+   }
+  ],
+  "active": {
+   "from": "1941-04-20T00:00",
+   "to": "1941-05-19T23:59"
+  },
+  "history": "保加利亚允许德军通过和集结；在德军突破、希军投降后，其部队进入马其顿和西色雷斯占领区。轨迹是后续进驻方向，不表示参加4月6日的首轮突破。",
+  "sources": [
+   "land_us_context",
+   "land_us_greece"
+  ],
+  "confidence": "low",
+  "model": "inf_bg"
+ }
+]

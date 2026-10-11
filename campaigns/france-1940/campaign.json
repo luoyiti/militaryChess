@@ -1,0 +1,544 @@
+{
+  "schemaVersion": 2,
+  "id": "france-1940",
+  "status": "published",
+  "title": {
+    "mark": "1940",
+    "zh": "法国战役",
+    "sub": "黄色方案 · 战旗推演",
+    "en": "The Battle of France",
+    "orig": "Fall Gelb · Fall Rot",
+    "codename": "黄色方案",
+    "html": "1940 · 法国战役 — 战旗推演",
+    "description": "1940 年法国战役复古作战室风格战旗推演：地图、双方部队、推进路线、战线变化、时间轴与事件说明。",
+    "favicon": "#1f4e89"
+  },
+  "time": {
+    "epoch": "1940-05-09T00:00",
+    "start": "1940-05-10T04:00",
+    "end": "1940-06-25T20:00",
+    "dataEnd": "1940-06-25T23:59",
+    "tzLabel": "德国夏令时（MESZ，UTC+2）"
+  },
+  "sides": [
+    {
+      "id": "DE",
+      "prefix": "de",
+      "name": "德国",
+      "coalition": "axis",
+      "counter": {
+        "bg": "#56708f",
+        "edge": "#2a3a52",
+        "text": "#f4efe2",
+        "box": "#eef0ea",
+        "ink": "#1d2a3c"
+      },
+      "css": {
+        "main": "#3a5887",
+        "dark": "#1f3558"
+      },
+      "arrow": {
+        "fill": "rgba(52,84,132,0.62)",
+        "stroke": "#1f3558"
+      },
+      "planesFrom": "E",
+      "sandbox": "#3a5887"
+    },
+    {
+      "id": "FR",
+      "prefix": "fr",
+      "name": "法国",
+      "coalition": "allies",
+      "counter": {
+        "bg": "#2a5a94",
+        "edge": "#163864",
+        "text": "#f4efe2",
+        "box": "#eef3f8",
+        "ink": "#163864"
+      },
+      "css": {
+        "main": "#1f4e89",
+        "dark": "#163864"
+      },
+      "arrow": {
+        "fill": "rgba(36,78,140,0.62)",
+        "stroke": "#163864"
+      },
+      "sandbox": "#1f4e89",
+      "defaultModel": "inf_pl"
+    },
+    {
+      "id": "GB",
+      "prefix": "gb",
+      "name": "英国",
+      "coalition": "allies",
+      "counter": {
+        "bg": "#8d7346",
+        "edge": "#5c4a28",
+        "text": "#fbf6ea",
+        "box": "#f6efe0",
+        "ink": "#4a3a1c"
+      },
+      "css": {
+        "main": "#8a7044",
+        "dark": "#5c4a28"
+      },
+      "arrow": {
+        "fill": "rgba(122,98,58,0.66)",
+        "stroke": "#5c4a28"
+      },
+      "sandbox": "#8a7044",
+      "defaultModel": "inf_pl"
+    },
+    {
+      "id": "BE",
+      "prefix": "be",
+      "name": "比利时",
+      "coalition": "allies",
+      "counter": {
+        "bg": "#c4a35a",
+        "edge": "#6e5424",
+        "text": "#2b2418",
+        "box": "#f7f1e2",
+        "ink": "#4a3814"
+      },
+      "css": {
+        "main": "#a6843c",
+        "dark": "#6e5420"
+      },
+      "arrow": {
+        "fill": "rgba(168,138,64,0.7)",
+        "stroke": "#6e5424"
+      },
+      "sandbox": "#a6843c",
+      "defaultModel": "inf_pl"
+    },
+    {
+      "id": "NL",
+      "prefix": "nl",
+      "name": "荷兰",
+      "coalition": "allies",
+      "counter": {
+        "bg": "#d07a32",
+        "edge": "#8a4518",
+        "text": "#fff8ef",
+        "box": "#f8efe4",
+        "ink": "#6a3010"
+      },
+      "css": {
+        "main": "#c46a2a",
+        "dark": "#8a4518"
+      },
+      "arrow": {
+        "fill": "rgba(184,98,40,0.66)",
+        "stroke": "#8a4518"
+      },
+      "sandbox": "#c46a2a",
+      "defaultModel": "inf_pl"
+    }
+  ],
+  "control": {
+    "mode": "territory",
+    "landBit": 4,
+    "theatreBits": [
+      0,
+      5
+    ],
+    "slots": [
+      {
+        "key": "DE",
+        "label": "德占区",
+        "homeBits": [
+          1,
+          2
+        ]
+      },
+      {
+        "key": "SU",
+        "label": "（第二占领槽，法国战役不用）",
+        "homeBits": [
+          3
+        ]
+      }
+    ],
+    "remainder": {
+      "label": "同盟国控制"
+    }
+  },
+  "phases": [
+    {
+      "id": "gelb",
+      "from": "1940-05-09T00:00",
+      "name": "第一阶段 · 黄色方案",
+      "short": "黄色方案",
+      "sub": "低地国家与阿登突破，默兹河渡口失守"
+    },
+    {
+      "id": "dunkirk",
+      "from": "1940-05-17T00:00",
+      "name": "第二阶段 · 海峡与敦刻尔克",
+      "short": "海峡与敦刻尔克",
+      "sub": "装甲部队到达海岸，北方同盟军被切断"
+    },
+    {
+      "id": "rot",
+      "from": "1940-06-05T00:00",
+      "to": "1940-06-26T00:00",
+      "name": "第三阶段 · 红色方案",
+      "short": "红色方案",
+      "sub": "索姆河再度进攻，巴黎陷落，贡比涅停战"
+    }
+  ],
+  "marks": [
+    [
+      "1940-05-10T05:35",
+      "开战"
+    ],
+    [
+      "1940-05-20T20:00",
+      "到达海峡"
+    ],
+    [
+      "1940-06-04T18:00",
+      "敦刻尔克"
+    ],
+    [
+      "1940-06-14T10:00",
+      "巴黎"
+    ],
+    [
+      "1940-06-22T18:30",
+      "停战"
+    ]
+  ],
+  "theme": {
+    "accent": "#1f4e89",
+    "accentDark": "#163864",
+    "accentTint": "rgba(31,78,137,.08)",
+    "theatreBorder": "#1f4e89",
+    "theatreHalo": "rgba(31,78,137,.18)",
+    "restFill": "rgba(47,79,127,.07)"
+  },
+  "map": {
+    "fit": "frame",
+    "home3d": [
+      4.3,
+      50.0
+    ],
+    "focus": [
+      4.3,
+      50.0
+    ],
+    "hexKm": 18,
+    "theatreCountries": [
+      "FR",
+      "BE",
+      "NL",
+      "LU"
+    ],
+    "labels": {
+      "countries": [
+        [
+          "法 国",
+          1.6,
+          47.4,
+          40,
+          0.3
+        ],
+        [
+          "比 利 时",
+          4.4,
+          50.55,
+          16,
+          0.85
+        ],
+        [
+          "荷 兰",
+          5.4,
+          52.35,
+          18,
+          0.75
+        ],
+        [
+          "卢森堡",
+          6.13,
+          49.75,
+          11,
+          1.5
+        ],
+        [
+          "德 国",
+          7.7,
+          50.6,
+          26,
+          0.55
+        ],
+        [
+          "英 国",
+          -0.1,
+          51.45,
+          18,
+          0.9
+        ],
+        [
+          "瑞 士",
+          7.4,
+          46.7,
+          14,
+          1.3
+        ]
+      ],
+      "waters": [
+        [
+          "英吉利海峡",
+          0.2,
+          50.55,
+          16,
+          false,
+          0
+        ],
+        [
+          "北 海",
+          3.2,
+          52.85,
+          16,
+          false,
+          0
+        ],
+        [
+          "阿 登",
+          5.45,
+          50.05,
+          14,
+          true,
+          1.2
+        ]
+      ]
+    },
+    "cityLabelBox": "centered",
+    "returnZoom": 1.15
+  },
+  "sandbox": {
+    "exaggeration": 9,
+    "figScale": 17,
+    "target": [
+      4.3,
+      50.0
+    ]
+  },
+  "director": {
+    "returnTo": "point",
+    "returnCenter": [
+      4.3,
+      50.0
+    ],
+    "defaultZoom": [
+      1.9,
+      2.6
+    ],
+    "sirens": [
+      {
+        "events": [
+          "e.rotterdam",
+          "e.paris"
+        ],
+        "maxImportance": 1,
+        "sfx": "siren",
+        "volume": 0.55
+      }
+    ]
+  },
+  "audio": {
+    "music": [],
+    "intensity": [
+      {
+        "from": "1940-05-09T00:00",
+        "value": 0.08
+      },
+      {
+        "from": "1940-05-10T05:00",
+        "value": 0.72
+      },
+      {
+        "from": "1940-05-20T20:00",
+        "value": 0.55
+      },
+      {
+        "from": "1940-06-14T08:00",
+        "value": 0.28
+      }
+    ],
+    "introSting": "fanfare"
+  },
+  "ui": {
+    "layers": {
+      "demarcation": {
+        "label": "停战线"
+      }
+    },
+    "chapterNav": "none",
+    "brief": {
+      "title": "1940 法国战役",
+      "sub": "Fall Gelb · Fall Rot",
+      "sub2": "1940.5.10 — 1940.6.25",
+      "fine": "数字为常见区间，各来源口径不一；详见各方说明。"
+    },
+    "status": {
+      "cells": [
+        {
+          "sides": [
+            "FR",
+            "GB",
+            "BE",
+            "NL"
+          ],
+          "metric": "act",
+          "label": "同盟军单位在战"
+        },
+        {
+          "sides": [
+            "FR",
+            "GB",
+            "BE",
+            "NL"
+          ],
+          "metric": "enc",
+          "label": "被合围",
+          "cls": "enc"
+        },
+        {
+          "sides": [
+            "FR",
+            "GB",
+            "BE",
+            "NL"
+          ],
+          "metric": "out",
+          "label": "已投降或撤出",
+          "cls": "out"
+        },
+        {
+          "sides": [
+            "DE"
+          ],
+          "metric": "act",
+          "label": "德军单位在战"
+        }
+      ]
+    },
+    "legend": {
+      "counters": [
+        [
+          "DE",
+          "armor",
+          "division",
+          "装甲"
+        ],
+        [
+          "DE",
+          "motorized",
+          "division",
+          "摩托化步兵"
+        ],
+        [
+          "FR",
+          "infantry",
+          "division",
+          "法军步兵"
+        ],
+        [
+          "GB",
+          "infantry",
+          "division",
+          "英军步兵"
+        ],
+        [
+          "BE",
+          "infantry",
+          "division",
+          "比军步兵"
+        ],
+        [
+          "NL",
+          "infantry",
+          "division",
+          "荷军步兵"
+        ],
+        [
+          "FR",
+          "fortress",
+          "brigade",
+          "要塞/筑垒"
+        ],
+        [
+          "DE",
+          "hq",
+          "army",
+          "集团军指挥部"
+        ]
+      ],
+      "items": [
+        "<i class=\"lg-fill a\"></i>德占区（斜线）",
+        "<i class=\"lg-fill\"></i>同盟国控制",
+        "<i class=\"lg-front\"></i>战线（接触线）",
+        "<i class=\"lg-demarc\"></i>停战线（示意）",
+        "<i class=\"lg-pocket\"></i>包围圈"
+      ]
+    },
+    "pocketFate": {
+      "broke_out": "撤出"
+    },
+    "modelLabels": {
+      "inf_de": "德军步兵班（示意）",
+      "inf_pl": "步兵班（示意，非该国制服）"
+    }
+  },
+  "intro": {
+    "stamp": "GEHEIM · SECRET · 绝密",
+    "kicker": "作战档案 No. 1940/V",
+    "title": "法国战役",
+    "en": "Fall Gelb · The Battle of France",
+    "dates": "1940年5月10日 — 6月25日",
+    "paragraphs": [
+      "5月10日拂晓，德军以黄色方案攻入荷兰、比利时和卢森堡，装甲部队穿过阿登，在色当渡过默兹河，十天后到达英吉利海峡。北方的同盟军退入敦刻尔克。6月5日红色方案展开，6月14日巴黎陷落，6月22日在贡比涅签署停战协定。"
+    ],
+    "how": "这是可播放的基础版：集团军和几支著名装甲部队、{keyframes} 个战线关键帧、若干推进箭头，以及时间轴上的简短事件。位置是示意，不是实测阵地图。",
+    "note": "建议开启声音 · 支持鼠标滚轮缩放、拖动平移 · 历史示意图，边界与位置为近似",
+    "photo": "File:Bundesarchiv Bild 101I-126-0347-09A, Frankreich, Panzer IV.jpg",
+    "photoFallback": "File:Dunkirk 26-29 May 1940 NYP68075.jpg"
+  },
+  "credits": {
+    "geodata": [
+      "<b>Natural Earth 1:10m</b>（河流、湖泊、海岸、陆地）— 公有领域",
+      "<b>Natural Earth 1:10m 国界</b> — 本图幅内 1940 年 5 月的法、比、荷、卢与德国西界，和今天的国界一致，因此直接采用 NE 海岸线",
+      "<b>Terrain Tiles (Terrarium)</b> — Mapzen / AWS Open Data；SRTM、GMTED2010、ETOPO1 等"
+    ],
+    "sections": [
+      [
+        "照片",
+        "photos"
+      ],
+      [
+        "音效",
+        "audio"
+      ],
+      [
+        "音乐",
+        "music"
+      ],
+      [
+        "字体",
+        "fonts"
+      ]
+    ]
+  },
+  "hub": {
+    "order": 3,
+    "codename": "黄色方案",
+    "pin": [
+      3.2,
+      49.8
+    ],
+    "blurb": "装甲部队穿过被认为无法通行的阿登森林，十天冲到英吉利海峡；同盟军退守敦刻尔克，六周后法国签署停战协定。"
+  }
+}

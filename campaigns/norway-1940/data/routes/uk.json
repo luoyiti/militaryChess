@@ -1,0 +1,407 @@
+[
+ {
+  "id": "r.skua",
+  "side": "UK",
+  "unit": "uk.faa",
+  "style": "main",
+  "widthKm": 7,
+  "label": "Skua · 卑尔根袭击",
+  "waypoints": [
+   {
+    "at": "1940-04-10T00:00",
+    "pos": "@hatston"
+   },
+   {
+    "at": "1940-04-10T12:00",
+    "pos": "@bergen"
+   }
+  ],
+  "sources": [
+   "uk_ch4"
+  ],
+  "confidence": "medium",
+  "schematic": true,
+  "movement": "air"
+ },
+ {
+  "id": "r.naval_first",
+  "side": "UK",
+  "unit": "uk.destroyers",
+  "style": "main",
+  "widthKm": 7,
+  "label": "首次纳尔维克海战",
+  "waypoints": [
+   {
+    "at": "1940-04-10T00:00",
+    "pos": "@vestfjord"
+   },
+   {
+    "at": "1940-04-10T04:00",
+    "pos": "@ofotfjord"
+   },
+   {
+    "at": "1940-04-10T04:30",
+    "pos": "@narvik"
+   }
+  ],
+  "sources": [
+   "uk_ch4"
+  ],
+  "confidence": "medium",
+  "schematic": true,
+  "movement": "sea"
+ },
+ {
+  "id": "r.naval_second",
+  "side": "UK",
+  "unit": "uk.warspite",
+  "style": "main",
+  "widthKm": 7,
+  "label": "厌战号 · 奥福特峡湾",
+  "waypoints": [
+   {
+    "at": "1940-04-13T00:00",
+    "pos": "@vestfjord"
+   },
+   {
+    "at": "1940-04-13T12:00",
+    "pos": "@ofotfjord"
+   }
+  ],
+  "sources": [
+   "uk_ch4"
+  ],
+  "confidence": "medium",
+  "schematic": true,
+  "movement": "sea"
+ },
+ {
+  "id": "r.allied_namsos",
+  "side": "UK",
+  "unit": "uk.146",
+  "style": "main",
+  "widthKm": 7,
+  "label": "盟军增援",
+  "waypoints": [
+   {
+    "at": "1940-04-16T00:00",
+    "pos": [
+     9.4,
+     64.6
+    ]
+   },
+   {
+    "at": "1940-04-16T12:00",
+    "pos": "@namsos"
+   }
+  ],
+  "sources": [
+   "uk_chb",
+   "uk_ch10"
+  ],
+  "confidence": "medium",
+  "schematic": true,
+  "role": "landing"
+ },
+ {
+  "id": "r.allied_andalsnes",
+  "side": "UK",
+  "unit": "uk.148",
+  "style": "main",
+  "widthKm": 7,
+  "label": "盟军增援",
+  "waypoints": [
+   {
+    "at": "1940-04-18T00:00",
+    "pos": [
+     5.8,
+     63.2
+    ]
+   },
+   {
+    "at": "1940-04-18T12:00",
+    "pos": "@andalsnes"
+   }
+  ],
+  "sources": [
+   "uk_chb",
+   "uk_ch10"
+  ],
+  "confidence": "medium",
+  "schematic": true,
+  "role": "landing"
+ },
+ {
+  "id": "r.allied_harstad",
+  "side": "UK",
+  "unit": "uk.24",
+  "style": "main",
+  "widthKm": 7,
+  "label": "盟军增援",
+  "waypoints": [
+   {
+    "at": "1940-04-15T00:00",
+    "pos": [
+     14.8,
+     69.2
+    ]
+   },
+   {
+    "at": "1940-04-15T12:00",
+    "pos": "@harstad"
+   }
+  ],
+  "sources": [
+   "uk_chb",
+   "uk_ch10"
+  ],
+  "confidence": "medium",
+  "schematic": true,
+  "role": "landing"
+ },
+ {
+  "id": "r.north_pincer",
+  "side": "UK",
+  "unit": "uk.146",
+  "style": "main",
+  "widthKm": 7,
+  "label": "中部北翼：特隆赫姆方向",
+  "waypoints": [
+   {
+    "at": "1940-04-16T12:00",
+    "pos": "@namsos"
+   },
+   {
+    "at": "1940-04-19T12:00",
+    "pos": "@steinkjer"
+   }
+  ],
+  "sources": [
+   "uk_ch6"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "r.south_valley",
+  "side": "UK",
+  "unit": "uk.148",
+  "style": "main",
+  "widthKm": 7,
+  "label": "中部南翼：经栋博斯支援",
+  "waypoints": [
+   {
+    "at": "1940-04-18T12:00",
+    "pos": "@andalsnes"
+   },
+   {
+    "at": "1940-04-19T12:00",
+    "pos": "@dombas"
+   },
+   {
+    "at": "1940-04-20T12:00",
+    "pos": "@lillehammer"
+   }
+  ],
+  "sources": [
+   "uk_ch7"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "r.central_evacuate_a",
+  "side": "UK",
+  "unit": "uk.15",
+  "style": "retreat",
+  "widthKm": 7,
+  "label": "翁达尔斯内斯撤运",
+  "waypoints": [
+   {
+    "at": "1940-05-01T12:00",
+    "pos": "@andalsnes"
+   },
+   {
+    "at": "1940-05-02T00:00",
+    "pos": [
+     5.8,
+     63.2
+    ]
+   },
+   {
+    "at": "1940-05-02T12:00",
+    "pos": [
+     3.8,
+     63
+    ]
+   }
+  ],
+  "sources": [
+   "uk_ch9"
+  ],
+  "confidence": "medium",
+  "schematic": true,
+  "movement": "sea",
+  "role": "evacuation"
+ },
+ {
+  "id": "r.central_evacuate_n",
+  "side": "UK",
+  "unit": "uk.146",
+  "style": "retreat",
+  "widthKm": 7,
+  "label": "纳姆索斯撤运",
+  "waypoints": [
+   {
+    "at": "1940-05-02T12:00",
+    "pos": "@namsos"
+   },
+   {
+    "at": "1940-05-03T00:00",
+    "pos": [
+     9.4,
+     64.6
+    ]
+   },
+   {
+    "at": "1940-05-03T12:00",
+    "pos": [
+     7.5,
+     65
+    ]
+   }
+  ],
+  "sources": [
+   "uk_ch9"
+  ],
+  "confidence": "medium",
+  "schematic": true,
+  "movement": "sea",
+  "role": "evacuation"
+ },
+ {
+  "id": "r.raf_north",
+  "side": "UK",
+  "unit": "uk.263_north",
+  "style": "main",
+  "widthKm": 7,
+  "label": "北部空中支援",
+  "waypoints": [
+   {
+    "at": "1940-05-21T00:00",
+    "pos": [
+     15,
+     69.6
+    ]
+   },
+   {
+    "at": "1940-05-21T12:00",
+    "pos": "@bardufoss"
+   }
+  ],
+  "sources": [
+   "uk_ch13"
+  ],
+  "confidence": "medium",
+  "schematic": true,
+  "movement": "air"
+ },
+ {
+  "id": "r.alphabet",
+  "side": "UK",
+  "unit": "uk.24",
+  "style": "retreat",
+  "widthKm": 10,
+  "label": "Alphabet · 北部撤离",
+  "waypoints": [
+   {
+    "at": "1940-06-04T12:00",
+    "pos": "@harstad"
+   },
+   {
+    "at": "1940-06-05T12:00",
+    "pos": [
+     14,
+     69.2
+    ]
+   },
+   {
+    "at": "1940-06-08T12:00",
+    "pos": [
+     7,
+     68.5
+    ]
+   }
+  ],
+  "sources": [
+   "uk_ch14"
+  ],
+  "confidence": "medium",
+  "schematic": true,
+  "movement": "sea",
+  "role": "evacuation"
+ },
+ {
+  "id": "r.government",
+  "side": "UK",
+  "unit": "uk.devonshire",
+  "style": "retreat",
+  "widthKm": 7,
+  "label": "王室与政府赴英国",
+  "waypoints": [
+   {
+    "at": "1940-06-07T12:00",
+    "pos": "@tromso"
+   },
+   {
+    "at": "1940-06-08T12:00",
+    "pos": [
+     14,
+     70
+    ]
+   },
+   {
+    "at": "1940-06-10T12:00",
+    "pos": [
+     -2,
+     60
+    ]
+   }
+  ],
+  "sources": [
+   "government_archive",
+   "uk_ch14"
+  ],
+  "confidence": "medium",
+  "schematic": true,
+  "movement": "sea",
+  "role": "evacuation"
+ },
+ {
+  "id": "r.glorious",
+  "side": "UK",
+  "unit": "uk.glorious",
+  "style": "retreat",
+  "widthKm": 7,
+  "label": "光荣号返航 / 海战",
+  "waypoints": [
+   {
+    "at": "1940-06-07T12:00",
+    "pos": [
+     13.2,
+     69.2
+    ]
+   },
+   {
+    "at": "1940-06-08T16:00",
+    "pos": "@glorious_sea"
+   }
+  ],
+  "sources": [
+   "uk_ch14"
+  ],
+  "confidence": "medium",
+  "schematic": true,
+  "movement": "sea"
+ }
+]

@@ -1,0 +1,2260 @@
+{
+ "events": [
+  {
+   "id": "e.ultimatum",
+   "at": "1940-10-28T03:00",
+   "precision": "minute",
+   "category": "political",
+   "importance": 1,
+   "title": {
+    "zh": "希腊拒绝意大利最后通牒"
+   },
+   "body": "意大利大使向梅塔克萨斯要求允许意军占据希腊战略地点。希腊拒绝后，驻阿尔巴尼亚意军开始准备越境。战争首先是意大利与希腊的冲突，德国、匈牙利和保加利亚尚未在这一刻发动地面进攻。",
+   "place": "@athens",
+   "sources": [
+    "land_greek_defence",
+    "land_awm_greece"
+   ],
+   "confidence": "high",
+   "zoom": 2,
+   "side": "GR",
+   "sfx": [
+    "morse",
+    "paper"
+   ]
+  },
+  {
+   "id": "e.italian_invasion",
+   "at": "1940-10-28T05:30",
+   "precision": "minute",
+   "category": "battle",
+   "importance": 1,
+   "title": {
+    "zh": "意军从阿尔巴尼亚入侵"
+   },
+   "body": "意军由伊庇鲁斯海岸、卡尔帕基和品都斯山区展开攻势。希腊边境掩护部队边打边退向预设防线；意占阿尔巴尼亚是进攻起点，地图初始控制色不表示意军已经占领希腊。",
+   "place": "@kalpaki",
+   "sources": [
+    "land_greek_defence",
+    "land_greek_korce"
+   ],
+   "confidence": "high",
+   "zoom": 4,
+   "side": "IT",
+   "units": [
+    "it.xxv",
+    "it.julia",
+    "gr.8d"
+   ],
+   "sfx": [
+    "artillery",
+    "rifle"
+   ]
+  },
+  {
+   "id": "e.pindus_attack",
+   "at": "1940-10-29T12:00",
+   "precision": "day",
+   "category": "battle",
+   "importance": 2,
+   "title": {
+    "zh": "朱利亚师向品都斯纵深推进"
+   },
+   "body": "朱利亚山地师企图经崎岖山地向梅措沃推进，切断伊庇鲁斯与西马其顿希军的联系。达瓦基斯的品都斯支队人数有限，因而逐步后撤；天气、补给线和暴露的两翼使意軍突出部越深入越脆弱。",
+   "place": "@eptachori",
+   "sources": [
+    "land_greek_defence",
+    "land_greek_korce"
+   ],
+   "confidence": "high",
+   "zoom": 4,
+   "side": "IT",
+   "units": [
+    "it.julia",
+    "gr.pindus"
+   ],
+   "endAt": "1940-10-31T12:00",
+   "sfx": [
+    "artillery",
+    "rifle"
+   ]
+  },
+  {
+   "id": "e.pindus_counter",
+   "at": "1940-11-01T07:30",
+   "precision": "minute",
+   "category": "battle",
+   "importance": 1,
+   "title": {
+    "zh": "希军在品都斯反击"
+   },
+   "body": "第1师在达瓦基斯支队周边组织反击，先攻击朱利亚师左翼。接下来骑兵和步兵逐步收复萨马里纳等村镇，意军向南突进的分队有被切断危险；这是局部转折，尚不是整条前线的总反攻。",
+   "place": "@eptachori",
+   "sources": [
+    "land_greek_defence"
+   ],
+   "confidence": "high",
+   "zoom": 4,
+   "side": "GR",
+   "units": [
+    "gr.1d",
+    "gr.pindus",
+    "it.julia"
+   ],
+   "sfx": [
+    "artillery",
+    "rifle"
+   ]
+  },
+  {
+   "id": "e.kalpaki_battle",
+   "at": "1940-11-02T12:00",
+   "precision": "day",
+   "category": "battle",
+   "importance": 1,
+   "title": {
+    "zh": "卡尔帕基—卡拉马斯防线守住"
+   },
+   "body": "加强的希腊第8师利用预设阵地、水障和山地组织防御。费拉拉师与半人马装甲分队正面攻击未取得计划中的突破，锡耶纳师的侧翼推进也未夺取约阿尼纳。防御为全国动员争取了时间。",
+   "place": "@kalpaki",
+   "sources": [
+    "land_greek_defence"
+   ],
+   "confidence": "high",
+   "zoom": 4,
+   "side": "GR",
+   "units": [
+    "gr.8d",
+    "it.ferrara",
+    "it.centauro",
+    "it.siena"
+   ],
+   "endAt": "1940-11-08T12:00",
+   "sfx": [
+    "artillery",
+    "rifle"
+   ]
+  },
+  {
+   "id": "e.british_air_aid",
+   "at": "1940-11-04T12:00",
+   "precision": "day",
+   "category": "air",
+   "importance": 2,
+   "title": {
+    "zh": "英国空中援助开始发挥作用"
+   },
+   "body": "英国皇家空军由希腊机场攻击意军交通和港口，支持希腊地面作战。当时援助规模有限，英国主力仍在北非；1941年3月澳新陆军登陆应与这批较早的空中、地勤和防空援助分开理解。",
+   "place": "@ioannina",
+   "sources": [
+    "land_us_context",
+    "land_awm_greece"
+   ],
+   "confidence": "high",
+   "zoom": 3,
+   "side": "GB",
+   "units": [
+    "gb.raf_greece"
+   ],
+   "sfx": [
+    "bomber",
+    "siren"
+   ]
+  },
+  {
+   "id": "e.julia_retreat",
+   "at": "1940-11-06T12:00",
+   "precision": "day",
+   "category": "battle",
+   "importance": 2,
+   "title": {
+    "zh": "朱利亚师后撤，巴里师接应"
+   },
+   "body": "希军第1师和骑兵加紧进攻品都斯突出部。朱利亚师遭受严重损失，但巴里师增援掩护了部分队伍退向科尼察，不能把这次失利描述为全师被彻底消灭。至13日前后，原防御线大体恢复。",
+   "place": "@distrato",
+   "sources": [
+    "land_greek_defence"
+   ],
+   "confidence": "high",
+   "zoom": 4,
+   "side": "GR",
+   "units": [
+    "it.julia",
+    "it.bari",
+    "gr.1d",
+    "gr.cav"
+   ],
+   "endAt": "1940-11-13T12:00",
+   "sfx": [
+    "artillery",
+    "rifle"
+   ]
+  },
+  {
+   "id": "e.italian_reorganisation",
+   "at": "1940-11-09T12:00",
+   "precision": "day",
+   "category": "movement",
+   "importance": 2,
+   "title": {
+    "zh": "意军更换指挥并增援"
+   },
+   "body": "开局计划受挫后，意方撤换普拉斯卡，索杜接任并重组阿尔巴尼亚战区。第9、第11集团军分担东北和伊庇鲁斯方向，增援陆续海运抵达；番号增加并不立即解决狭窄道路、港口吞吐和协同的问题。",
+   "place": "@tirana",
+   "sources": [
+    "land_greek_korce",
+    "land_us_context",
+    "land_greek_spring"
+   ],
+   "confidence": "medium",
+   "zoom": 2,
+   "side": "IT",
+   "units": [
+    "it.9a",
+    "it.11a"
+   ],
+   "sfx": [
+    "morse",
+    "paper"
+   ]
+  },
+  {
+   "id": "e.greek_counteroffensive",
+   "at": "1940-11-14T12:00",
+   "precision": "day",
+   "category": "battle",
+   "importance": 1,
+   "title": {
+    "zh": "希腊转入全面反攻"
+   },
+   "body": "完成进一步动员后，希军由防御转为跨境反攻。第3军在科尔察方向攻击莫拉瓦山地，第1、第2军也向阿尔巴尼亚南部推进。控制区因此出现意军退缩，不能把整个战役画成轴心国单向扩张。",
+   "place": "@kastoria",
+   "sources": [
+    "land_greek_korce",
+    "land_greek_himara",
+    "land_us_greece"
+   ],
+   "confidence": "high",
+   "zoom": 2,
+   "side": "GR",
+   "units": [
+    "gr.i",
+    "gr.ii",
+    "gr.iii"
+   ],
+   "sfx": [
+    "artillery",
+    "rifle"
+   ]
+  },
+  {
+   "id": "e.morava_battle",
+   "at": "1940-11-17T12:00",
+   "precision": "day",
+   "category": "battle",
+   "importance": 2,
+   "title": {
+    "zh": "莫拉瓦山地打开科尔察通路"
+   },
+   "body": "第3军以多支步兵师向科尔察周边高地进攻，通过山地机动威胁意军交通。城市并非孤立据点；意军守住周边山脊的企图失败后，帕尔马、皮埃蒙特等师被迫准备撤出科尔察地区。",
+   "place": "@korce",
+   "sources": [
+    "land_greek_korce"
+   ],
+   "confidence": "high",
+   "zoom": 4,
+   "side": "GR",
+   "units": [
+    "gr.9d",
+    "gr.10d",
+    "gr.15d",
+    "it.parma",
+    "it.piemonte"
+   ],
+   "endAt": "1940-11-21T12:00",
+   "sfx": [
+    "artillery",
+    "rifle"
+   ]
+  },
+  {
+   "id": "e.korce_liberation",
+   "at": "1940-11-22T12:00",
+   "precision": "day",
+   "category": "battle",
+   "importance": 1,
+   "title": {
+    "zh": "科尔察落入希军手中"
+   },
+   "body": "希军第3军部队进入科尔察，意军撤向阿尔巴尼亚内部。胜利不仅推进国境外战线，也改善了希军士气；地图所示是战区尺度的控制变化，不能解释为每个师在当天都驻扎于城市中心。",
+   "place": "@korce",
+   "sources": [
+    "land_greek_korce",
+    "land_greek_himara"
+   ],
+   "confidence": "high",
+   "zoom": 3,
+   "side": "GR",
+   "units": [
+    "gr.iii",
+    "it.xxvi"
+   ],
+   "sfx": [
+    "artillery",
+    "rifle"
+   ]
+  },
+  {
+   "id": "e.pogradec",
+   "at": "1940-11-30T12:00",
+   "precision": "day",
+   "category": "battle",
+   "importance": 2,
+   "title": {
+    "zh": "希军推进到波格拉德茨"
+   },
+   "body": "科尔察战斗后，希军继续向奥赫里德湖西岸推进，进入波格拉德茨。意军仍控制更北方的爱尔巴桑及主要交通线。随着山地严寒与补给困难加重，反攻速度逐渐降低，未能持续直抵地拉那。",
+   "place": "@pogradec",
+   "sources": [
+    "land_greek_himara",
+    "land_greek_korce"
+   ],
+   "confidence": "high",
+   "zoom": 4,
+   "side": "GR",
+   "units": [
+    "gr.iii",
+    "it.venezia"
+   ],
+   "sfx": [
+    "artillery",
+    "rifle"
+   ]
+  },
+  {
+   "id": "e.sarande",
+   "at": "1940-12-06T12:00",
+   "precision": "day",
+   "category": "battle",
+   "importance": 2,
+   "title": {
+    "zh": "萨兰达海岸交通受到威胁"
+   },
+   "body": "12月初希军推进至德尔维纳和萨兰达方向，意军失去南部若干重要城镇。地形把沿海、德里诺河谷和内陆山路分成不同作战轴线；海岸推进并没有自动打开通往发罗拉港的道路。",
+   "place": "@sarande",
+   "sources": [
+    "land_greek_himara"
+   ],
+   "confidence": "medium",
+   "zoom": 4,
+   "side": "GR",
+   "units": [
+    "gr.3d",
+    "it.siena"
+   ],
+   "sfx": [
+    "artillery",
+    "rifle"
+   ]
+  },
+  {
+   "id": "e.gjirokaster",
+   "at": "1940-12-08T12:00",
+   "precision": "day",
+   "category": "battle",
+   "importance": 2,
+   "title": {
+    "zh": "希军进入吉诺卡斯特"
+   },
+   "body": "希军取得德里诺河谷的重要城镇吉诺卡斯特，并继续向特佩莱讷方向施压。意军仍占据更北的交通枢纽，山口、河谷和坏天气减慢追击。希军的进展是一系列分区战斗，不能画成毫无阻滞的整齐直线。",
+   "place": "@gjirokaster",
+   "sources": [
+    "land_greek_himara",
+    "land_us_greece"
+   ],
+   "confidence": "medium",
+   "zoom": 4,
+   "side": "GR",
+   "units": [
+    "gr.i",
+    "gr.4d",
+    "it.11a"
+   ],
+   "sfx": [
+    "artillery",
+    "rifle"
+   ]
+  },
+  {
+   "id": "e.marita_directive",
+   "at": "1940-12-13T12:00",
+   "precision": "day",
+   "category": "political",
+   "importance": 2,
+   "title": {
+    "zh": "德国下令筹备玛丽塔行动"
+   },
+   "body": "德国制定从保加利亚方向进攻希腊的玛丽塔计划，筹划把部队经罗马尼亚运输到南方。此时尚处集结与外交阶段；地图以索非亚方向作战略注记，不表示德国在12月已经侵入希腊。",
+   "place": "@sofia",
+   "sources": [
+    "land_us_context",
+    "land_us_greece"
+   ],
+   "confidence": "medium",
+   "zoom": 1,
+   "side": "DE",
+   "sfx": [
+    "morse",
+    "paper"
+   ]
+  },
+  {
+   "id": "e.himare",
+   "at": "1940-12-22T12:00",
+   "precision": "day",
+   "category": "battle",
+   "importance": 1,
+   "title": {
+    "zh": "希马拉战斗告捷"
+   },
+   "body": "第1军在12月20至22日攻击库奇山口和海岸阵地，第3師等部队取得希马拉方向的进展。意军退向发罗拉以南的山地；胜利威胁港口交通，但发罗拉并未在这个冬季被希军占领。",
+   "place": "@himare",
+   "sources": [
+    "land_greek_himara"
+   ],
+   "confidence": "high",
+   "zoom": 4,
+   "side": "GR",
+   "units": [
+    "gr.i",
+    "gr.3d",
+    "it.siena"
+   ],
+   "endAt": "1940-12-22T12:00",
+   "sfx": [
+    "artillery",
+    "rifle"
+   ]
+  },
+  {
+   "id": "e.kelcyre",
+   "at": "1941-01-10T12:00",
+   "precision": "day",
+   "category": "battle",
+   "importance": 1,
+   "title": {
+    "zh": "希军夺取克利苏拉隘口"
+   },
+   "body": "第2军于1月初在克利苏拉方向进攻，取得重要隘口与河谷节点。意军增援和恶劣天气使后续作战艰难；特佩莱讷仍未陷落，希军最终在比国境更北的阿尔巴尼亚南部形成冬季战线。",
+   "place": "@kelcyre",
+   "sources": [
+    "land_greek_spring",
+    "land_us_greece"
+   ],
+   "confidence": "medium",
+   "zoom": 4,
+   "side": "GR",
+   "units": [
+    "gr.ii",
+    "gr.1d",
+    "it.lupi",
+    "it.julia"
+   ],
+   "sfx": [
+    "artillery",
+    "rifle"
+   ]
+  },
+  {
+   "id": "e.winter_front",
+   "at": "1941-01-11T12:00",
+   "precision": "day",
+   "category": "movement",
+   "importance": 1,
+   "title": {
+    "zh": "冬季相持：补给决定行动上限"
+   },
+   "body": "严寒、积雪、泥泞和驮畜运输使双方难以维持大规模机动。希军守住秋冬反攻取得的地区，意军继续增援阿尔巴尼亚港口。地图在这一时期保持大体稳定，零星战斗和轮换不虚构成每天推进的战线。",
+   "place": "@tepelene",
+   "sources": [
+    "land_greek_spring",
+    "land_awm_greece",
+    "land_us_greece"
+   ],
+   "confidence": "high",
+   "zoom": 2,
+   "sfx": [
+    "morse",
+    "paper"
+   ]
+  },
+  {
+   "id": "e.greek_rejects_small_force",
+   "at": "1941-01-13T12:00",
+   "precision": "day",
+   "category": "political",
+   "importance": 2,
+   "title": {
+    "zh": "希方担心小规模英国陆军增援"
+   },
+   "body": "面对德国介入的危险，英国与希腊讨论派遣地面部队。希方认为数量不足的援军可能刺激德国，却不足以阻止进攻，因此1月未立即接受这项方案；两国在后续2月会谈中才转向更大的远征军计划。",
+   "place": "@athens",
+   "sources": [
+    "land_us_context",
+    "land_awm_greece"
+   ],
+   "confidence": "high",
+   "zoom": 2,
+   "side": "GR",
+   "sfx": [
+    "morse",
+    "paper"
+   ]
+  },
+  {
+   "id": "e.metaxas_death",
+   "at": "1941-01-29T12:00",
+   "precision": "day",
+   "category": "political",
+   "importance": 2,
+   "title": {
+    "zh": "梅塔克萨斯逝世，希腊继续作战"
+   },
+   "body": "梅塔克萨斯逝世后，科里齐斯领导政府继续抵抗意大利。前线仍在阿尔巴尼亚，德国从罗马尼亚向南的筹备却不断加强。政治领导变化并未使冬季战线立即发生地理位移。",
+   "place": "@athens",
+   "sources": [
+    "land_awm_greece",
+    "land_us_context"
+   ],
+   "confidence": "high",
+   "zoom": 2,
+   "side": "GR",
+   "sfx": [
+    "morse",
+    "paper"
+   ]
+  },
+  {
+   "id": "e.allied_agreement",
+   "at": "1941-02-22T12:00",
+   "precision": "day",
+   "category": "political",
+   "importance": 1,
+   "title": {
+    "zh": "英希商议派遣远征军"
+   },
+   "body": "英国与希腊商讨德国威胁和防线选择，决定推动较大规模地面援军。希军不愿放弃阿尔巴尼亚既得阵地，英军又无力守住全部国境，结果阿利阿克蒙—韦尔米翁防线与梅塔克萨斯线分离。",
+   "place": "@athens",
+   "sources": [
+    "land_awm_greece",
+    "land_us_greece"
+   ],
+   "confidence": "high",
+   "zoom": 2,
+   "side": "GB",
+   "sfx": [
+    "morse",
+    "paper"
+   ]
+  },
+  {
+   "id": "e.bulgaria_pact",
+   "at": "1941-03-01T12:00",
+   "precision": "day",
+   "category": "political",
+   "importance": 1,
+   "title": {
+    "zh": "保加利亚加入三国同盟"
+   },
+   "body": "保加利亚加入三国同盟，允许德军集结与通行。其边界成为德国进攻希腊和南斯拉夫南部的出发方向。保加利亚军队与德国军队的角色必须区分：4月6日主要突破由德军实施。",
+   "place": "@sofia",
+   "sources": [
+    "land_us_context"
+   ],
+   "confidence": "high",
+   "zoom": 2,
+   "side": "BG",
+   "sfx": [
+    "morse",
+    "paper"
+   ]
+  },
+  {
+   "id": "e.germans_enter_bulgaria",
+   "at": "1941-03-02T12:00",
+   "precision": "day",
+   "category": "movement",
+   "importance": 2,
+   "title": {
+    "zh": "德军进入保加利亚集结"
+   },
+   "body": "德军经罗马尼亚和多瑙河通道进入保加利亚，第12集团军逐步转移到希腊及南斯拉夫边界。雪、坏路和缺少铁路运力拖慢集结，地图只显示战区活动中心，不把筹划中的兵力全部提前放到希腊境内。",
+   "place": "@sofia",
+   "sources": [
+    "land_us_context",
+    "land_us_greece"
+   ],
+   "confidence": "high",
+   "zoom": 2,
+   "side": "DE",
+   "units": [
+    "de.12a"
+   ],
+   "sfx": [
+    "morse",
+    "paper"
+   ]
+  },
+  {
+   "id": "e.lustre_landings",
+   "at": "1941-03-07T12:00",
+   "precision": "day",
+   "category": "movement",
+   "importance": 1,
+   "title": {
+    "zh": "光泽行动：英联邦援军登陆"
+   },
+   "body": "英国装甲旅、澳大利亚与新西兰部队开始经海路运入希腊，主要在比雷埃夫斯和沃洛斯卸载后向北部署。希腊已有的英军空中援助早于这次登陆；登陆与展开分批进行，不是所有师旅同日到位。",
+   "place": "@piraeus",
+   "sources": [
+    "land_awm_greece",
+    "land_us_greece"
+   ],
+   "confidence": "high",
+   "zoom": 3,
+   "side": "GB",
+   "units": [
+    "gb.wforce",
+    "gb.1armb_mainland",
+    "nz.2d_mainland"
+   ],
+   "sfx": [
+    "morse",
+    "paper"
+   ]
+  },
+  {
+   "id": "e.spring_offensive",
+   "at": "1941-03-09T12:00",
+   "precision": "day",
+   "category": "battle",
+   "importance": 1,
+   "title": {
+    "zh": "意军发动春季攻势"
+   },
+   "body": "意军第8军集中炮兵和步兵，在德斯尼察谷地、特雷贝希纳及731高地周围进攻希腊第2军。墨索里尼亲临阿尔巴尼亚，希望在德国介入前取得突破；密集攻击仍未打开预期通路。",
+   "place": "@hill731",
+   "sources": [
+    "land_greek_spring"
+   ],
+   "confidence": "high",
+   "zoom": 5,
+   "side": "IT",
+   "units": [
+    "it.viii",
+    "gr.ii",
+    "gr.1d"
+   ],
+   "endAt": "1941-03-16T12:00",
+   "sfx": [
+    "artillery",
+    "rifle"
+   ]
+  },
+  {
+   "id": "e.spring_offensive_fails",
+   "at": "1941-03-16T12:00",
+   "precision": "day",
+   "category": "battle",
+   "importance": 1,
+   "title": {
+    "zh": "希军守住春季攻势主战区"
+   },
+   "body": "连续数日战斗后，意军未能在第1师防守的核心地段取得决定性进展。双方承受伤亡，阿尔巴尼亚南部的总体战线仍保持稳定。这里以区域节点说明作战，不把731高地标记解释为经过勘测的阵地精确坐标。",
+   "place": "@hill731",
+   "sources": [
+    "land_greek_spring",
+    "land_us_greece"
+   ],
+   "confidence": "high",
+   "zoom": 4,
+   "side": "GR",
+   "units": [
+    "gr.1d",
+    "it.viii"
+   ],
+   "sfx": [
+    "artillery",
+    "rifle"
+   ]
+  },
+  {
+   "id": "e.yugoslavia_pact",
+   "at": "1941-03-25T12:00",
+   "precision": "day",
+   "category": "political",
+   "importance": 1,
+   "title": {
+    "zh": "南斯拉夫政府加入三国同盟"
+   },
+   "body": "摄政政府在轴心国压力下加入三国同盟，国内反对情绪迅速升高。地图以贝尔格莱德作为政治中心注记，签署地点实际在图外维也纳；这次外交决定并不表示南斯拉夫已被军事占领。",
+   "place": "@belgrade",
+   "sources": [
+    "land_us_yugoslavia",
+    "land_awm_greece"
+   ],
+   "confidence": "high",
+   "zoom": 2,
+   "side": "YU",
+   "sfx": [
+    "morse",
+    "paper"
+   ]
+  },
+  {
+   "id": "e.yugoslav_coup",
+   "at": "1941-03-27T12:00",
+   "precision": "day",
+   "category": "political",
+   "importance": 1,
+   "title": {
+    "zh": "贝尔格莱德政变改变德国计划"
+   },
+   "body": "军官发动政变，彼得二世提前亲政，西莫维奇组建政府。希特勒决定把进攻南斯拉夫加入既定希腊行动，德国各路军队在很短时间内重新集结。南斯拉夫仓促动员，未能与英希建立有效统一指挥。",
+   "place": "@belgrade",
+   "sources": [
+    "land_us_yugoslavia",
+    "land_awm_greece"
+   ],
+   "confidence": "high",
+   "zoom": 2,
+   "side": "YU",
+   "sfx": [
+    "morse",
+    "paper"
+   ]
+  },
+  {
+   "id": "e.matapan",
+   "at": "1941-03-28T12:00",
+   "precision": "day",
+   "category": "naval",
+   "importance": 2,
+   "title": {
+    "zh": "马塔潘海战保住援军海路"
+   },
+   "body": "英国地中海舰队与澳大利亚军舰参与拦截意大利舰队，在夜战中击沉意方重巡洋舰等舰艇。战果降低了意大利水面舰队干扰海运的能力，但没有消除德国航空兵对希腊港口和撤离船只的威胁。",
+   "place": "@matapan",
+   "sources": [
+    "land_awm_greece"
+   ],
+   "confidence": "high",
+   "zoom": 2,
+   "side": "GB",
+   "endAt": "1941-03-29T12:00",
+   "sfx": [
+    "ship_gun",
+    "explosion"
+   ]
+  },
+  {
+   "id": "e.allied_coordination",
+   "at": "1941-04-03T12:00",
+   "precision": "day",
+   "category": "political",
+   "importance": 2,
+   "title": {
+    "zh": "英希南会谈仍未建立统一防御"
+   },
+   "body": "英国、希腊和南斯拉夫代表商议合作，仍希望南斯拉夫部队能阻断德军并对阿尔巴尼亚意军进攻。计划没有及时转化为有效协同；斯科普里与萨洛尼卡一旦失守，几个战区会迅速分离。",
+   "place": "@florina",
+   "sources": [
+    "land_us_greece"
+   ],
+   "confidence": "medium",
+   "zoom": 2,
+   "sfx": [
+    "morse",
+    "paper"
+   ]
+  },
+  {
+   "id": "e.belgrade_bombing",
+   "at": "1941-04-06T12:00",
+   "precision": "day",
+   "category": "air",
+   "importance": 1,
+   "title": {
+    "zh": "贝尔格莱德遭到轰炸"
+   },
+   "body": "德国空军猛烈攻击贝尔格莱德，打击首都及通信指挥系统并造成平民伤亡。与此同时，德国地面部队从数个方向进攻。空袭、仓促动员与分散部署共同削弱了南斯拉夫组织连续抵抗的能力。",
+   "place": "@belgrade",
+   "sources": [
+    "land_us_yugoslavia",
+    "land_awm_greece"
+   ],
+   "confidence": "high",
+   "zoom": 3,
+   "side": "DE",
+   "units": [
+    "yu.hq"
+   ],
+   "sfx": [
+    "bomber",
+    "siren"
+   ]
+  },
+  {
+   "id": "e.drava_bridges",
+   "at": "1941-04-06T12:00",
+   "precision": "day",
+   "category": "battle",
+   "importance": 2,
+   "title": {
+    "zh": "德军抢夺德拉瓦河桥头"
+   },
+   "body": "德国北路部队在主力尚未全部集结时，先攻击边境桥梁和通路，争取避免南斯拉夫守军完成爆破。这些有限目标进攻为随后装甲纵队沿德拉瓦、萨瓦河谷前进创造条件。",
+   "place": "@koprivnica",
+   "sources": [
+    "land_us_yugoslavia"
+   ],
+   "confidence": "high",
+   "zoom": 3,
+   "side": "DE",
+   "units": [
+    "de.xlvi",
+    "yu.4a"
+   ],
+   "sfx": [
+    "artillery",
+    "rifle"
+   ]
+  },
+  {
+   "id": "e.marita_begins",
+   "at": "1941-04-06T12:00",
+   "precision": "day",
+   "category": "battle",
+   "importance": 1,
+   "title": {
+    "zh": "玛丽塔与南斯拉夫攻势同时开始"
+   },
+   "body": "德国第12集团军从保加利亚进攻希腊和南斯拉夫南部，北路第2集团军也夺取边境桥头。希军主力仍远在阿尔巴尼亚；保军此时主要提供通行条件，不能在地图上冒充突破梅塔克萨斯线的进攻部队。",
+   "place": "@rupel",
+   "sources": [
+    "land_us_yugoslavia",
+    "land_us_greece"
+   ],
+   "confidence": "high",
+   "zoom": 2,
+   "side": "DE",
+   "units": [
+    "de.12a",
+    "de.xviii",
+    "de.xl"
+   ],
+   "sfx": [
+    "artillery",
+    "rifle"
+   ]
+  },
+  {
+   "id": "e.skopje",
+   "at": "1941-04-07T12:00",
+   "precision": "day",
+   "category": "battle",
+   "importance": 1,
+   "title": {
+    "zh": "斯科普里失守切断盟军交通"
+   },
+   "body": "德国第40装甲军部队进入斯科普里，切断南斯拉夫与希腊之间的铁路和道路联系。其主力随后转向比托拉缺口，威胁英希防线北端；对阿尔巴尼亚进攻的南斯拉夫计划也失去主要交通支持。",
+   "place": "@skopje",
+   "sources": [
+    "land_us_greece",
+    "land_us_yugoslavia"
+   ],
+   "confidence": "high",
+   "zoom": 3,
+   "side": "DE",
+   "units": [
+    "de.xl",
+    "de.9pz",
+    "yu.3territorial"
+   ],
+   "sfx": [
+    "artillery",
+    "rifle"
+   ]
+  },
+  {
+   "id": "e.nis_attack",
+   "at": "1941-04-08T12:00",
+   "precision": "day",
+   "category": "battle",
+   "importance": 2,
+   "title": {
+    "zh": "第1装甲集群冲向尼什"
+   },
+   "body": "克莱斯特从保加利亚方向发动经皮罗特至尼什的进攻，打开摩拉瓦河谷通路。南斯拉夫第5集团军的撤退和重新布防来不及完成，德国机动部队很快转向贝尔格莱德。",
+   "place": "@nis",
+   "sources": [
+    "land_us_yugoslavia"
+   ],
+   "confidence": "high",
+   "zoom": 3,
+   "side": "DE",
+   "units": [
+    "de.pzgrp1",
+    "de.11pz",
+    "yu.5a"
+   ],
+   "endAt": "1941-04-09T12:00",
+   "sfx": [
+    "artillery",
+    "rifle"
+   ]
+  },
+  {
+   "id": "e.salonika",
+   "at": "1941-04-09T12:00",
+   "precision": "day",
+   "category": "battle",
+   "importance": 1,
+   "title": {
+    "zh": "萨洛尼卡陷落，东马其顿投降"
+   },
+   "body": "德国第2装甲师经南斯拉夫绕过要塞线，进入萨洛尼卡，截断东马其顿守军后方。巴科普洛斯接受投降，一些要塞到次日才停止抵抗。要塞正面未被迅速攻破，并不等于整个防御体系仍能维持。",
+   "place": "@thessaloniki",
+   "sources": [
+    "land_us_greece",
+    "land_awm_greece"
+   ],
+   "confidence": "high",
+   "zoom": 3,
+   "side": "DE",
+   "units": [
+    "de.2pz",
+    "gr.eastmac"
+   ],
+   "sfx": [
+    "artillery",
+    "rifle"
+   ]
+  },
+  {
+   "id": "e.zagreb",
+   "at": "1941-04-10T12:00",
+   "precision": "day",
+   "category": "battle",
+   "importance": 1,
+   "title": {
+    "zh": "萨格勒布陷落与克罗地亚分裂"
+   },
+   "body": "德国第14装甲师进入萨格勒布，克罗地亚独立国家同时宣布成立。南斯拉夫北部军队的内部瓦解和道路、桥梁失守加快了轴心国进击；地图保持1940年国界底图，政治变化由事件解释。",
+   "place": "@zagreb",
+   "sources": [
+    "land_us_yugoslavia"
+   ],
+   "confidence": "high",
+   "zoom": 3,
+   "side": "DE",
+   "units": [
+    "de.14pz",
+    "yu.4a"
+   ],
+   "sfx": [
+    "artillery",
+    "rifle"
+   ]
+  },
+  {
+   "id": "e.hungarian_entry",
+   "at": "1941-04-11T12:00",
+   "precision": "day",
+   "category": "movement",
+   "importance": 2,
+   "title": {
+    "zh": "匈军越境，意军西北推进"
+   },
+   "body": "匈牙利第3集团军从苏博蒂察和奥西耶克以北越境，意大利第2集团军也向卢布尔雅那与达尔马提亚推进。其加入晚于德国4月6日的首轮攻势，应在时间轴上分别出现。",
+   "place": "@subotica",
+   "sources": [
+    "land_us_yugoslavia"
+   ],
+   "confidence": "high",
+   "zoom": 2,
+   "side": "HU",
+   "units": [
+    "hu.3a",
+    "it.2a"
+   ],
+   "sfx": [
+    "morse",
+    "paper"
+   ]
+  },
+  {
+   "id": "e.belgrade_falls",
+   "at": "1941-04-12T12:00",
+   "precision": "day",
+   "category": "battle",
+   "importance": 1,
+   "title": {
+    "zh": "德军三路逼近并进入贝尔格莱德"
+   },
+   "body": "来自摩拉瓦河谷、罗马尼亚西部和北部河谷的德军接近首都，小股先头部队率先入城。南斯拉夫军队转向内陆的计划受到快速追击；当天的入城不意味着所有德军纵队都已同时到达。",
+   "place": "@belgrade",
+   "sources": [
+    "land_us_yugoslavia"
+   ],
+   "confidence": "high",
+   "zoom": 3,
+   "side": "DE",
+   "units": [
+    "de.xli",
+    "de.reich",
+    "de.xiv",
+    "de.xlvi"
+   ],
+   "endAt": "1941-04-13T12:00",
+   "sfx": [
+    "artillery",
+    "rifle"
+   ]
+  },
+  {
+   "id": "e.vevi",
+   "at": "1941-04-12T12:00",
+   "precision": "day",
+   "category": "battle",
+   "importance": 1,
+   "title": {
+    "zh": "韦维缺口的英希阻击失败"
+   },
+   "body": "麦凯临时集群在寒冷风雪中守卫韦维缺口，澳大利亚第19旅与英希部队迎击德军。德军突击迫使阵地撤退，阿利阿克蒙防线北端暴露；各部队疲惫、通信和补给困难影响了后续协同。",
+   "place": "@vevi",
+   "sources": [
+    "land_awm_greece",
+    "land_us_greece"
+   ],
+   "confidence": "high",
+   "zoom": 5,
+   "side": "DE",
+   "units": [
+    "de.lssah",
+    "de.9pz",
+    "au.19b_mainland",
+    "gr.20d"
+   ],
+   "sfx": [
+    "artillery",
+    "rifle"
+   ]
+  },
+  {
+   "id": "e.albania_withdrawal",
+   "at": "1941-04-13T12:00",
+   "precision": "day",
+   "category": "movement",
+   "importance": 1,
+   "title": {
+    "zh": "希腊西部主力开始从阿尔巴尼亚撤退"
+   },
+   "body": "德军从比托拉缺口进入希腊，阿尔巴尼亚前线的希軍必须南撤才能避免退路被切断。部队经历数月山地战争，撤退道路狭窄且缺乏机动车；意军压力和德国快速侧击共同压缩了可用时间。",
+   "place": "@korce",
+   "sources": [
+    "land_us_greece",
+    "land_awm_greece"
+   ],
+   "confidence": "high",
+   "zoom": 2,
+   "side": "GR",
+   "units": [
+    "gr.westmac",
+    "gr.i",
+    "gr.ii",
+    "gr.iii"
+   ],
+   "sfx": [
+    "morse",
+    "paper"
+   ]
+  },
+  {
+   "id": "e.kleisoura_pass",
+   "at": "1941-04-14T12:00",
+   "precision": "day",
+   "category": "battle",
+   "importance": 2,
+   "title": {
+    "zh": "克莱苏拉山口被德军突破"
+   },
+   "body": "警卫旗队等德军在克莱苏拉和卡斯托里亚方向突破希军阻击，使西马其顿军团区退路更危险。这里的克莱苏拉在希腊马其顿，必须与1月阿尔巴尼亚克利苏拉隘口区分，两个地名的相近译法不能混用。",
+   "place": "@kleisoura",
+   "sources": [
+    "land_us_greece",
+    "land_awm_greece"
+   ],
+   "confidence": "high",
+   "zoom": 5,
+   "side": "DE",
+   "units": [
+    "de.lssah",
+    "gr.20d",
+    "gr.westmac"
+   ],
+   "sfx": [
+    "artillery",
+    "rifle"
+   ]
+  },
+  {
+   "id": "e.sarajevo",
+   "at": "1941-04-15T12:00",
+   "precision": "day",
+   "category": "battle",
+   "importance": 2,
+   "title": {
+    "zh": "轴心国追击到南斯拉夫内陆"
+   },
+   "body": "贝尔格莱德陷落后，德军机动部队向萨拉热窝方向追击，防止南斯拉夫军队在山区重新集中。西北的意军也向达尔马提亚海岸推进，国家层面的成建制抵抗已经迅速衰弱。",
+   "place": "@sarajevo",
+   "sources": [
+    "land_us_yugoslavia"
+   ],
+   "confidence": "medium",
+   "zoom": 3,
+   "side": "DE",
+   "units": [
+    "de.14pz",
+    "de.8pz",
+    "yu.6a"
+   ],
+   "sfx": [
+    "artillery",
+    "rifle"
+   ]
+  },
+  {
+   "id": "e.platamon",
+   "at": "1941-04-16T12:00",
+   "precision": "day",
+   "category": "battle",
+   "importance": 2,
+   "title": {
+    "zh": "普拉塔蒙守军退向坦佩"
+   },
+   "body": "新西兰部队在奥林匹斯山与爱琴海之间的狭窄通路阻挡第2装甲师。阵地最终遭到迂回，守军撤向皮尼奥斯河峡谷；爆破隧道和道路拖慢了德国坦克，山地师则试图越过周边高地。",
+   "place": "@platamon",
+   "sources": [
+    "land_awm_greece",
+    "land_us_greece"
+   ],
+   "confidence": "high",
+   "zoom": 5,
+   "side": "NZ",
+   "units": [
+    "nz.5b_mainland",
+    "de.2pz"
+   ],
+   "sfx": [
+    "artillery",
+    "rifle"
+   ]
+  },
+  {
+   "id": "e.yugoslav_surrender_signed",
+   "at": "1941-04-17T12:00",
+   "precision": "day",
+   "category": "surrender",
+   "importance": 1,
+   "title": {
+    "zh": "南斯拉夫签署投降协议"
+   },
+   "body": "南斯拉夫代表签署无条件投降文件，停战在18日中午生效。投降结束的是正规军战役层面的抵抗；占领并没有消除之后的游击战争。时间轴区分签署与生效，避免所有部队在17日提前消失。",
+   "place": "@belgrade",
+   "sources": [
+    "land_us_yugoslavia"
+   ],
+   "confidence": "high",
+   "zoom": 2,
+   "side": "YU",
+   "units": [
+    "yu.hq"
+   ],
+   "sfx": [
+    "morse",
+    "paper"
+   ]
+  },
+  {
+   "id": "e.tempe",
+   "at": "1941-04-18T12:00",
+   "precision": "day",
+   "category": "battle",
+   "importance": 1,
+   "title": {
+    "zh": "坦佩峡谷与埃拉索纳后卫战"
+   },
+   "body": "新西兰及澳大利亚部队在坦佩峡谷和埃拉索纳一带实施后卫战，为主力南撤争取时间。德国装甲与山地部队通过渡河、山地迂回和修复道路追击；盟軍虽遭损失，不能简单写成新西兰部队全被歼灭。",
+   "place": "@tempe",
+   "sources": [
+    "land_awm_greece",
+    "land_us_greece"
+   ],
+   "confidence": "high",
+   "zoom": 5,
+   "side": "NZ",
+   "units": [
+    "nz.5b_mainland",
+    "nz.6b_mainland",
+    "au.16b_mainland",
+    "de.6geb"
+   ],
+   "sfx": [
+    "artillery",
+    "rifle"
+   ]
+  },
+  {
+   "id": "e.yugoslav_armistice_effective",
+   "at": "1941-04-18T12:00",
+   "precision": "minute",
+   "category": "surrender",
+   "importance": 2,
+   "title": {
+    "zh": "南斯拉夫停战生效"
+   },
+   "body": "签署次日中午，南斯拉夫正规军停战协议生效，残余部队被解除武装。地图从这一刻显示全国战区处于轴心国控制；棋子随后淡出，表现投降后的组织终止，而不是在地理上从一座城市瞬间跳到另一座。",
+   "place": "@sarajevo",
+   "sources": [
+    "land_us_yugoslavia"
+   ],
+   "confidence": "high",
+   "zoom": 1,
+   "side": "YU",
+   "sfx": [
+    "morse",
+    "paper"
+   ]
+  },
+  {
+   "id": "e.larisa",
+   "at": "1941-04-19T12:00",
+   "precision": "day",
+   "category": "battle",
+   "importance": 2,
+   "title": {
+    "zh": "德军进入拉里萨"
+   },
+   "body": "德国第18军部队进入拉里萨，接近希腊中部的重要道路和机场。盟军撤向温泉关方向，德军利用缴获补给继续追击；西翼第5装甲师同时沿格雷韦纳—卡兰巴卡路线南下。",
+   "place": "@larisa",
+   "sources": [
+    "land_us_greece",
+    "land_awm_greece"
+   ],
+   "confidence": "high",
+   "zoom": 3,
+   "side": "DE",
+   "units": [
+    "de.xviii",
+    "de.5pz",
+    "gb.wforce"
+   ],
+   "sfx": [
+    "artillery",
+    "rifle"
+   ]
+  },
+  {
+   "id": "e.bulgarian_occupation",
+   "at": "1941-04-20T12:00",
+   "precision": "day",
+   "category": "movement",
+   "importance": 2,
+   "title": {
+    "zh": "保军在德军突破后进驻占领区"
+   },
+   "body": "德国已突破东马其顿和色雷斯，希军军团区也已投降，保加利亚随后开始进驻部分占领区。地图按国家显示部队身份，控制填色按轴心国合并；进驻与4月6日的战斗突破不是同一件事。",
+   "place": "@drama",
+   "sources": [
+    "land_us_context",
+    "land_us_greece"
+   ],
+   "confidence": "medium",
+   "zoom": 2,
+   "side": "BG",
+   "units": [
+    "bg.occupation"
+   ],
+   "sfx": [
+    "morse",
+    "paper"
+   ]
+  },
+  {
+   "id": "e.greek_first_surrender",
+   "at": "1941-04-20T12:00",
+   "precision": "day",
+   "category": "surrender",
+   "importance": 1,
+   "title": {
+    "zh": "楚拉科格鲁自行接洽投降"
+   },
+   "body": "西部希军面临梅措沃和约阿尼纳交通线被切断，楚拉科格鲁未获帕帕戈斯批准便与德军接洽投降。20日至23日先后出现不同协议，意大利要求参与；本事件不等于全国全部希军在20日统一停火。",
+   "place": "@metsovo",
+   "sources": [
+    "land_us_greece",
+    "land_awm_greece"
+   ],
+   "confidence": "high",
+   "zoom": 3,
+   "side": "GR",
+   "units": [
+    "gr.iii",
+    "gr.westmac",
+    "de.lssah"
+   ],
+   "sfx": [
+    "morse",
+    "paper"
+   ]
+  },
+  {
+   "id": "e.raf_withdrawal",
+   "at": "1941-04-21T12:00",
+   "precision": "day",
+   "category": "movement",
+   "importance": 2,
+   "title": {
+    "zh": "英国空军撤离大陆"
+   },
+   "body": "德国掌握空中优势，英国驻希腊航空兵在机场遭到损失，剩余飞机和地勤陆续转往克里特及埃及。地面军队随后经多个小港口夜间装船，失去足够空中掩护使撤离船舶和港口更加脆弱。",
+   "place": "@athens",
+   "sources": [
+    "land_us_greece",
+    "land_awm_greece"
+   ],
+   "confidence": "high",
+   "zoom": 3,
+   "side": "GB",
+   "units": [
+    "gb.raf_greece"
+   ],
+   "sfx": [
+    "morse",
+    "paper"
+   ]
+  },
+  {
+   "id": "e.greek_final_surrender",
+   "at": "1941-04-23T12:00",
+   "precision": "day",
+   "category": "surrender",
+   "importance": 1,
+   "title": {
+    "zh": "西部希军向德意两国正式投降"
+   },
+   "body": "在此前单独接洽和修改协议之后，西部希军正式向德国与意大利签署投降文件。阿尔巴尼亚主力被解除武装；英联邦部队仍在温泉关及撤离道路上作战，希腊政府和部分军人继续转移到克里特。",
+   "place": "@ioannina",
+   "sources": [
+    "land_us_greece",
+    "land_awm_greece"
+   ],
+   "confidence": "high",
+   "zoom": 2,
+   "side": "GR",
+   "units": [
+    "gr.i",
+    "gr.ii",
+    "it.11a"
+   ],
+   "sfx": [
+    "morse",
+    "paper"
+   ]
+  },
+  {
+   "id": "e.demon_evacuation",
+   "at": "1941-04-24T12:00",
+   "precision": "day",
+   "category": "naval",
+   "importance": 1,
+   "title": {
+    "zh": "恶魔行动：从希腊本土撤离"
+   },
+   "body": "盟军由拉菲纳、梅加拉、纳夫普利翁和伯罗奔尼撒其他港口分批撤离，主要在夜间装船。部队目的地包括克里特和图外埃及，许多重装备不得不遗弃；海路箭头表示运输，不把地面棋子画成渡海推进。",
+   "place": "@piraeus",
+   "sources": [
+    "land_awm_greece",
+    "land_us_greece"
+   ],
+   "confidence": "high",
+   "zoom": 2,
+   "side": "GB",
+   "units": [
+    "gb.wforce",
+    "au.6d_mainland",
+    "nz.2d_mainland"
+   ],
+   "endAt": "1941-04-30T12:00",
+   "sfx": [
+    "ship_gun",
+    "morse"
+   ]
+  },
+  {
+   "id": "e.thermopylae",
+   "at": "1941-04-24T12:00",
+   "precision": "day",
+   "category": "battle",
+   "importance": 1,
+   "title": {
+    "zh": "温泉关后卫战掩护海撤"
+   },
+   "body": "安扎克与英国部队利用温泉关地区地形守住通向雅典的道路，为各港口装船争取时间。德军装甲和山地部队继续试探、迂回。盟军在24日至25日夜间放弃阵地，并不是打算长期固守整条希腊本土战线。",
+   "place": "@thermopylae",
+   "sources": [
+    "land_awm_greece",
+    "land_us_greece"
+   ],
+   "confidence": "high",
+   "zoom": 5,
+   "side": "NZ",
+   "units": [
+    "nz.6b_mainland",
+    "au.6d_mainland",
+    "gb.1armb_mainland",
+    "de.5pz"
+   ],
+   "endAt": "1941-04-25T12:00",
+   "sfx": [
+    "artillery",
+    "rifle"
+   ]
+  },
+  {
+   "id": "e.corinth_airborne",
+   "at": "1941-04-26T12:00",
+   "precision": "day",
+   "category": "air",
+   "importance": 1,
+   "title": {
+    "zh": "德军空降科林斯运河"
+   },
+   "body": "德国伞兵在科林斯地峡降落，试图截断英联邦部队向伯罗奔尼撒撤退。运河桥在爆炸中被毁，给德国后续坦克造成困难；临时架桥后机动部队继续追向南岸港口。",
+   "place": "@corinth",
+   "sources": [
+    "land_us_greece",
+    "land_awm_greece"
+   ],
+   "confidence": "high",
+   "zoom": 5,
+   "side": "DE",
+   "units": [
+    "de.5pz"
+   ],
+   "sfx": [
+    "bomber",
+    "explosion"
+   ]
+  },
+  {
+   "id": "e.athens_falls",
+   "at": "1941-04-27T12:00",
+   "precision": "day",
+   "category": "movement",
+   "importance": 1,
+   "title": {
+    "zh": "德军进入雅典"
+   },
+   "body": "德国装甲先头部队进入雅典，希腊大陆政治与交通中心被占领。盟军尚在伯罗奔尼撒和沿海港口装船，政府与军人已转移；雅典陷落并不意味着克里特在同一天落入轴心国控制。",
+   "place": "@athens",
+   "sources": [
+    "land_us_greece",
+    "land_awm_greece"
+   ],
+   "confidence": "high",
+   "zoom": 3,
+   "side": "DE",
+   "units": [
+    "de.2pz",
+    "de.12a"
+   ],
+   "sfx": [
+    "morse",
+    "paper"
+   ]
+  },
+  {
+   "id": "e.kalamata",
+   "at": "1941-04-29T12:00",
+   "precision": "day",
+   "category": "battle",
+   "importance": 1,
+   "title": {
+    "zh": "德军到达卡拉马塔，撤离进入尾声"
+   },
+   "body": "德军第5装甲师分队到达伯罗奔尼撒南岸，未及时登船的盟军官兵仍在港口周边作战或等待运输。舰艇无法救走所有人，部分人员被俘；不同港口的撤离完成时间也不相同。",
+   "place": "@kalamata",
+   "sources": [
+    "land_us_greece",
+    "land_awm_greece"
+   ],
+   "confidence": "high",
+   "zoom": 4,
+   "side": "DE",
+   "units": [
+    "de.5pz",
+    "au.17b_mainland"
+   ],
+   "sfx": [
+    "artillery",
+    "rifle"
+   ]
+  },
+  {
+   "id": "e.mainland_end",
+   "at": "1941-04-30T12:00",
+   "precision": "day",
+   "category": "movement",
+   "importance": 1,
+   "title": {
+    "zh": "大陆战役结束，战场转向克里特"
+   },
+   "body": "南斯拉夫与希腊大陆的正规战役告一段落，轴心国控制大陆主要战区。海撤的盟军在克里特或埃及重新组织，德国开始准备岛上空降行动。主地图仍将克里特留在盟军控制，岛内战线从5月20日开始变化。",
+   "place": "@monemvasia",
+   "sources": [
+    "land_us_greece",
+    "land_awm_greece"
+   ],
+   "confidence": "high",
+   "zoom": 1,
+   "side": "DE",
+   "sfx": [
+    "morse",
+    "paper"
+   ]
+  },
+  {
+   "id": "e.crete_preparation_mainland",
+   "at": "1941-05-15T12:00",
+   "precision": "day",
+   "category": "movement",
+   "importance": 2,
+   "title": {
+    "zh": "大陆机场与港口准备克里特行动"
+   },
+   "body": "德国在希腊大陆整补航空兵、运输机和山地部队，盟军则在克里特安排防御。大陆战线在这段时间保持稳定；出现在雅典地区的集结单位不表示它们已经登陆岛上，空降和海运将由后续章节展示。",
+   "place": "@athens",
+   "sources": [
+    "land_us_greece",
+    "land_awm_greece"
+   ],
+   "confidence": "medium",
+   "zoom": 2,
+   "side": "DE",
+   "units": [
+    "de.5geb"
+   ],
+   "sfx": [
+    "morse",
+    "paper"
+   ]
+  }
+ ],
+ "pockets": [],
+ "equipment": [
+  {
+   "id": "land_pz2",
+   "side": "DE",
+   "name": {
+    "zh": "二号坦克",
+    "orig": "Panzer II",
+    "short": "Pz.II"
+   },
+   "class": "tank_light",
+   "crew": 3,
+   "gun": "20毫米机关炮",
+   "model": "pz2",
+   "desc": "德军装甲师中的轻型坦克，用于侦察和支援机动步兵。巴尔干山区限制其道路选择，数量和轻装甲不能替代桥梁、通信、炮兵与步兵协同。",
+   "sources": [
+    "land_us_yugoslavia",
+    "land_us_greece"
+   ]
+  },
+  {
+   "id": "land_pz3",
+   "side": "DE",
+   "name": {
+    "zh": "三号坦克",
+    "orig": "Panzer III",
+    "short": "Pz.III"
+   },
+   "class": "tank_medium",
+   "crew": 5,
+   "model": "pz3",
+   "desc": "德军装甲师的主力型号之一，与其他轻、中型坦克共同组成纵队。装甲部队的快速推进依靠无线电、道路和补给；在峡谷和被爆破的桥梁前仍需等待工兵和步兵。",
+   "sources": [
+    "land_us_greece"
+   ]
+  },
+  {
+   "id": "land_pz4",
+   "side": "DE",
+   "name": {
+    "zh": "四号坦克",
+    "orig": "Panzer IV",
+    "short": "Pz.IV"
+   },
+   "class": "tank_medium",
+   "crew": 5,
+   "gun": "75毫米短管炮",
+   "model": "pz4",
+   "desc": "1941年主要承担火力支援任务，以短管75毫米炮打击据点和步兵目标。沙盘模型表现早期四号坦克，巴尔干进攻中不应使用后期长管重型型号替代。",
+   "sources": [
+    "land_us_greece"
+   ]
+  },
+  {
+   "id": "land_pz38t",
+   "side": "DE",
+   "name": {
+    "zh": "38(t)坦克",
+    "orig": "Panzer 38(t)",
+    "short": "38(t)"
+   },
+   "class": "tank_light",
+   "crew": 4,
+   "model": "pz38t",
+   "desc": "原捷克制造的轻型坦克，被编入德军装甲部队，第8装甲师以其为重要装备。地图中的德军机动突破仍受山路、桥梁和交通堵塞制约，不能仅用单车性能解释胜负。",
+   "sources": [
+    "land_us_yugoslavia"
+   ]
+  },
+  {
+   "id": "land_l3",
+   "side": "IT",
+   "name": {
+    "zh": "L3轻型坦克",
+    "orig": "Carro Veloce L3/33–L3/35",
+    "short": "L3"
+   },
+   "class": "tankette",
+   "crew": 2,
+   "desc": "意军半人马师使用的轻型履带车辆，火力与防护有限。狭窄山路、泥泞和希军反坦克火力削弱了装甲冲击效果，车辆往往以小股分队支援步兵，难以形成平原上的集中突破。",
+   "sources": [
+    "land_greek_defence",
+    "land_greek_korce"
+   ]
+  },
+  {
+   "id": "land_bren",
+   "side": "GB",
+   "name": {
+    "zh": "布伦轻机枪",
+    "orig": "Bren light machine gun",
+    "short": "Bren"
+   },
+   "class": "small_arms",
+   "desc": "英联邦步兵班的重要自动武器，澳大利亚、新西兰和英国部队均使用。撤退中的山口与峡谷阻击需要机枪、迫击炮和炮兵配合；许多支援装备在海撤前被遗弃或破坏。",
+   "sources": [
+    "land_awm_greece"
+   ]
+  },
+  {
+   "id": "land_25pdr",
+   "side": "GB",
+   "name": {
+    "zh": "25磅野战炮",
+    "orig": "Ordnance QF 25-pounder",
+    "short": "25 pdr"
+   },
+   "class": "gun",
+   "model": "art_gun",
+   "desc": "英联邦炮兵的主要野战炮之一，在山口和后卫战中支援步兵。这里的手办是通用野战炮示意，重点是炮兵如何掩护撤退；具体炮位和撤离数量随部队不同而变化。",
+   "sources": [
+    "land_awm_greece"
+   ]
+  }
+ ],
+ "forces": {
+  "sides": {
+   "IT": {
+    "name": "意大利",
+    "commander": "普拉斯卡→索杜→卡瓦莱罗；第11集团军由格洛索指挥",
+    "men": null,
+    "divisions": "开战主攻约8个师，冬季持续增援",
+    "tanks": null,
+    "aircraft": null,
+    "guns": null,
+    "losses": {
+     "killed": "各阶段与来源统计口径不同",
+     "wounded": "未统一估计",
+     "captured": "见各阶段投降与撤离事件"
+    },
+    "note": "开局第25军约4.2万人、第26军约4.4万人、朱利亚师约1.08万人。各数字为方向或单位口径，不加成全国参战总数。"
+   },
+   "GR": {
+    "name": "希腊",
+    "commander": "帕帕戈斯；第8师卡齐米特罗斯；西部军团区指挥随阶段变化",
+    "men": null,
+    "divisions": "动员后14个师左右投入阿尔巴尼亚前线",
+    "tanks": null,
+    "aircraft": null,
+    "guns": null,
+    "losses": {
+     "killed": "各阶段与来源统计口径不同",
+     "wounded": "未统一估计",
+     "captured": "见各阶段投降与撤离事件"
+    },
+    "note": "第8师加强后约3.5万人；1941年东马其顿国境防御约7万人。两者是不同地域、时期，不能作为全军兵力直接比较。"
+   },
+   "DE": {
+    "name": "德国",
+    "commander": "李斯特、魏克斯与克莱斯特",
+    "men": null,
+    "divisions": "第12、第2集团军及独立机动集团",
+    "tanks": null,
+    "aircraft": null,
+    "guns": null,
+    "losses": {
+     "killed": "各阶段与来源统计口径不同",
+     "wounded": "未统一估计",
+     "captured": "见各阶段投降与撤离事件"
+    },
+    "note": "第1装甲集群临时改向南斯拉夫；计划编制与及时赶到的攻击部队并不完全相同。"
+   },
+   "YU": {
+    "name": "南斯拉夫",
+    "commander": "西莫维奇；最高统帅部与各集团军",
+    "men": null,
+    "divisions": "多支集团军，动员尚未完成",
+    "tanks": null,
+    "aircraft": null,
+    "guns": null,
+    "losses": {
+     "killed": "各阶段与来源统计口径不同",
+     "wounded": "未统一估计",
+     "captured": "见各阶段投降与撤离事件"
+    },
+    "note": "正规军编制数不等于已到位、可协同作战的战斗力；4/17签署投降、4/18中午生效。"
+   },
+   "GB": {
+    "name": "英国与W Force指挥",
+    "commander": "威尔逊；英国第1装甲旅及空地勤部队",
+    "men": null,
+    "divisions": "1940年秋已有RAF援助，1941年3月海运陆军增援",
+    "tanks": null,
+    "aircraft": null,
+    "guns": null,
+    "losses": {
+     "killed": "各阶段与来源统计口径不同",
+     "wounded": "未统一估计",
+     "captured": "见各阶段投降与撤离事件"
+    },
+    "note": "W Force总规模约数取决于是否包括空军、后勤与希腊单位；澳新兵力在各自栏显示，不再计入英国总数。"
+   },
+   "AU": {
+    "name": "澳大利亚",
+    "commander": "布莱米；第6师麦凯",
+    "men": null,
+    "divisions": "第1军司令部、第6师及16/17/19旅",
+    "tanks": null,
+    "aircraft": null,
+    "guns": null,
+    "losses": {
+     "killed": "各阶段与来源统计口径不同",
+     "wounded": "未统一估计",
+     "captured": "见各阶段投降与撤离事件"
+    },
+    "note": "3月分批登陆，4月南撤后部分人员往克里特、其余往埃及。"
+   },
+   "NZ": {
+    "name": "新西兰",
+    "commander": "弗赖伯格",
+    "men": null,
+    "divisions": "第2师及4/5/6旅",
+    "tanks": null,
+    "aircraft": null,
+    "guns": null,
+    "losses": {
+     "killed": "各阶段与来源统计口径不同",
+     "wounded": "未统一估计",
+     "captured": "见各阶段投降与撤离事件"
+    },
+    "note": "不是4月6日才首次参战；3月已完成主要登陆和北部展开。"
+   },
+   "HU": {
+    "name": "匈牙利",
+    "commander": "第3集团军",
+    "men": null,
+    "divisions": "4月11日起越境，占领北部地区",
+    "tanks": null,
+    "aircraft": null,
+    "guns": null,
+    "losses": {
+     "killed": "各阶段与来源统计口径不同",
+     "wounded": "未统一估计",
+     "captured": "见各阶段投降与撤离事件"
+    },
+    "note": "提供德军通行及后续北部攻势，未参与梅塔克萨斯线最初突破。"
+   },
+   "BG": {
+    "name": "保加利亚",
+    "commander": "保加利亚政府与军方",
+    "men": null,
+    "divisions": "德军通行、集结及后续占领区进驻",
+    "tanks": null,
+    "aircraft": null,
+    "guns": null,
+    "losses": {
+     "killed": "各阶段与来源统计口径不同",
+     "wounded": "未统一估计",
+     "captured": "见各阶段投降与撤离事件"
+    },
+    "note": "3月加入三国同盟；4月6日进攻矛头是德军，保军随后进驻占领区。"
+   }
+  },
+  "byPhase": {
+   "invasion": {
+    "IT": {
+     "name": "意大利",
+     "commander": "普拉斯卡→索杜→卡瓦莱罗；第11集团军由格洛索指挥",
+     "men": null,
+     "divisions": "第25、26军与独立朱利亚师等",
+     "tanks": null,
+     "aircraft": null,
+     "guns": null,
+     "losses": {
+      "killed": "各阶段与来源统计口径不同",
+      "wounded": "未统一估计",
+      "captured": "见各阶段投降与撤离事件"
+     },
+     "note": "开局第25军约4.2万人、第26军约4.4万人、朱利亚师约1.08万人。各数字为方向或单位口径，不加成全国参战总数。"
+    },
+    "GR": {
+     "name": "希腊",
+     "commander": "帕帕戈斯；第8师卡齐米特罗斯；西部军团区指挥随阶段变化",
+     "men": null,
+     "divisions": "第8加强师、品都斯支队及逐步动员部队",
+     "tanks": null,
+     "aircraft": null,
+     "guns": null,
+     "losses": {
+      "killed": "各阶段与来源统计口径不同",
+      "wounded": "未统一估计",
+      "captured": "见各阶段投降与撤离事件"
+     },
+     "note": "第8师加强后约3.5万人；1941年东马其顿国境防御约7万人。两者是不同地域、时期，不能作为全军兵力直接比较。"
+    },
+    "GB": {
+     "name": "英国与W Force指挥",
+     "commander": "威尔逊；英国第1装甲旅及空地勤部队",
+     "men": null,
+     "divisions": "有限RAF与地勤、防空援助；大陆远征军尚未登陆",
+     "tanks": null,
+     "aircraft": null,
+     "guns": null,
+     "losses": {
+      "killed": "各阶段与来源统计口径不同",
+      "wounded": "未统一估计",
+      "captured": "见各阶段投降与撤离事件"
+     },
+     "note": "W Force总规模约数取决于是否包括空军、后勤与希腊单位；澳新兵力在各自栏显示，不再计入英国总数。"
+    }
+   },
+   "counterattack": {
+    "IT": {
+     "name": "意大利",
+     "commander": "普拉斯卡→索杜→卡瓦莱罗；第11集团军由格洛索指挥",
+     "men": null,
+     "divisions": "第9、第11集团军不断获得增援",
+     "tanks": null,
+     "aircraft": null,
+     "guns": null,
+     "losses": {
+      "killed": "各阶段与来源统计口径不同",
+      "wounded": "未统一估计",
+      "captured": "见各阶段投降与撤离事件"
+     },
+     "note": "开局第25军约4.2万人、第26军约4.4万人、朱利亚师约1.08万人。各数字为方向或单位口径，不加成全国参战总数。"
+    },
+    "GR": {
+     "name": "希腊",
+     "commander": "帕帕戈斯；第8师卡齐米特罗斯；西部军团区指挥随阶段变化",
+     "men": null,
+     "divisions": "第1、第2、第3军沿各轴线反攻",
+     "tanks": null,
+     "aircraft": null,
+     "guns": null,
+     "losses": {
+      "killed": "各阶段与来源统计口径不同",
+      "wounded": "未统一估计",
+      "captured": "见各阶段投降与撤离事件"
+     },
+     "note": "第8师加强后约3.5万人；1941年东马其顿国境防御约7万人。两者是不同地域、时期，不能作为全军兵力直接比较。"
+    },
+    "GB": {
+     "name": "英国与W Force指挥",
+     "commander": "威尔逊；英国第1装甲旅及空地勤部队",
+     "men": null,
+     "divisions": "航空援助；无澳新主力大陆师",
+     "tanks": null,
+     "aircraft": null,
+     "guns": null,
+     "losses": {
+      "killed": "各阶段与来源统计口径不同",
+      "wounded": "未统一估计",
+      "captured": "见各阶段投降与撤离事件"
+     },
+     "note": "W Force总规模约数取决于是否包括空军、后勤与希腊单位；澳新兵力在各自栏显示，不再计入英国总数。"
+    }
+   },
+   "winter": {
+    "IT": {
+     "name": "意大利",
+     "commander": "普拉斯卡→索杜→卡瓦莱罗；第11集团军由格洛索指挥",
+     "men": null,
+     "divisions": "1月初约19师在阿尔巴尼亚；3月春季攻势集中第8军",
+     "tanks": null,
+     "aircraft": null,
+     "guns": null,
+     "losses": {
+      "killed": "各阶段与来源统计口径不同",
+      "wounded": "未统一估计",
+      "captured": "见各阶段投降与撤离事件"
+     },
+     "note": "开局第25军约4.2万人、第26军约4.4万人、朱利亚师约1.08万人。各数字为方向或单位口径，不加成全国参战总数。"
+    },
+    "GR": {
+     "name": "希腊",
+     "commander": "帕帕戈斯；第8师卡齐米特罗斯；西部军团区指挥随阶段变化",
+     "men": null,
+     "divisions": "1月初约14师在阿尔巴尼亚；3月英联邦主力开始登陆",
+     "tanks": null,
+     "aircraft": null,
+     "guns": null,
+     "losses": {
+      "killed": "各阶段与来源统计口径不同",
+      "wounded": "未统一估计",
+      "captured": "见各阶段投降与撤离事件"
+     },
+     "note": "第8师加强后约3.5万人；1941年东马其顿国境防御约7万人。两者是不同地域、时期，不能作为全军兵力直接比较。"
+    },
+    "GB": {
+     "name": "英国与W Force指挥",
+     "commander": "威尔逊；英国第1装甲旅及空地勤部队",
+     "men": null,
+     "divisions": "1940年秋已有RAF援助，1941年3月海运陆军增援",
+     "tanks": null,
+     "aircraft": null,
+     "guns": null,
+     "losses": {
+      "killed": "各阶段与来源统计口径不同",
+      "wounded": "未统一估计",
+      "captured": "见各阶段投降与撤离事件"
+     },
+     "note": "W Force总规模约数取决于是否包括空军、后勤与希腊单位；澳新兵力在各自栏显示，不再计入英国总数。"
+    },
+    "AU": {
+     "name": "澳大利亚",
+     "commander": "布莱米；第6师麦凯",
+     "men": null,
+     "divisions": "第1军司令部、第6师及16/17/19旅",
+     "tanks": null,
+     "aircraft": null,
+     "guns": null,
+     "losses": {
+      "killed": "各阶段与来源统计口径不同",
+      "wounded": "未统一估计",
+      "captured": "见各阶段投降与撤离事件"
+     },
+     "note": "3月分批登陆，4月南撤后部分人员往克里特、其余往埃及。"
+    },
+    "NZ": {
+     "name": "新西兰",
+     "commander": "弗赖伯格",
+     "men": null,
+     "divisions": "第2师及4/5/6旅",
+     "tanks": null,
+     "aircraft": null,
+     "guns": null,
+     "losses": {
+      "killed": "各阶段与来源统计口径不同",
+      "wounded": "未统一估计",
+      "captured": "见各阶段投降与撤离事件"
+     },
+     "note": "不是4月6日才首次参战；3月已完成主要登陆和北部展开。"
+    },
+    "DE": {
+     "name": "德国",
+     "commander": "李斯特、魏克斯与克莱斯特",
+     "men": null,
+     "divisions": "3月进入保加利亚集结；尚未入侵希腊",
+     "tanks": null,
+     "aircraft": null,
+     "guns": null,
+     "losses": {
+      "killed": "各阶段与来源统计口径不同",
+      "wounded": "未统一估计",
+      "captured": "见各阶段投降与撤离事件"
+     },
+     "note": "第1装甲集群临时改向南斯拉夫；计划编制与及时赶到的攻击部队并不完全相同。"
+    }
+   },
+   "invasion1941": {
+    "DE": {
+     "name": "德国",
+     "commander": "李斯特、魏克斯与克莱斯特",
+     "men": null,
+     "divisions": "第12、第2集团军及独立机动集团",
+     "tanks": null,
+     "aircraft": null,
+     "guns": null,
+     "losses": {
+      "killed": "各阶段与来源统计口径不同",
+      "wounded": "未统一估计",
+      "captured": "见各阶段投降与撤离事件"
+     },
+     "note": "第1装甲集群临时改向南斯拉夫；计划编制与及时赶到的攻击部队并不完全相同。"
+    },
+    "IT": {
+     "name": "意大利",
+     "commander": "普拉斯卡→索杜→卡瓦莱罗；第11集团军由格洛索指挥",
+     "men": null,
+     "divisions": "开战主攻约8个师，冬季持续增援",
+     "tanks": null,
+     "aircraft": null,
+     "guns": null,
+     "losses": {
+      "killed": "各阶段与来源统计口径不同",
+      "wounded": "未统一估计",
+      "captured": "见各阶段投降与撤离事件"
+     },
+     "note": "开局第25军约4.2万人、第26军约4.4万人、朱利亚师约1.08万人。各数字为方向或单位口径，不加成全国参战总数。"
+    },
+    "GR": {
+     "name": "希腊",
+     "commander": "帕帕戈斯；第8师卡齐米特罗斯；西部军团区指挥随阶段变化",
+     "men": null,
+     "divisions": "动员后14个师左右投入阿尔巴尼亚前线",
+     "tanks": null,
+     "aircraft": null,
+     "guns": null,
+     "losses": {
+      "killed": "各阶段与来源统计口径不同",
+      "wounded": "未统一估计",
+      "captured": "见各阶段投降与撤离事件"
+     },
+     "note": "第8师加强后约3.5万人；1941年东马其顿国境防御约7万人。两者是不同地域、时期，不能作为全军兵力直接比较。"
+    },
+    "YU": {
+     "name": "南斯拉夫",
+     "commander": "西莫维奇；最高统帅部与各集团军",
+     "men": null,
+     "divisions": "多支集团军，动员尚未完成",
+     "tanks": null,
+     "aircraft": null,
+     "guns": null,
+     "losses": {
+      "killed": "各阶段与来源统计口径不同",
+      "wounded": "未统一估计",
+      "captured": "见各阶段投降与撤离事件"
+     },
+     "note": "正规军编制数不等于已到位、可协同作战的战斗力；4/17签署投降、4/18中午生效。"
+    },
+    "GB": {
+     "name": "英国与W Force指挥",
+     "commander": "威尔逊；英国第1装甲旅及空地勤部队",
+     "men": null,
+     "divisions": "1940年秋已有RAF援助，1941年3月海运陆军增援",
+     "tanks": null,
+     "aircraft": null,
+     "guns": null,
+     "losses": {
+      "killed": "各阶段与来源统计口径不同",
+      "wounded": "未统一估计",
+      "captured": "见各阶段投降与撤离事件"
+     },
+     "note": "W Force总规模约数取决于是否包括空军、后勤与希腊单位；澳新兵力在各自栏显示，不再计入英国总数。"
+    },
+    "AU": {
+     "name": "澳大利亚",
+     "commander": "布莱米；第6师麦凯",
+     "men": null,
+     "divisions": "第1军司令部、第6师及16/17/19旅",
+     "tanks": null,
+     "aircraft": null,
+     "guns": null,
+     "losses": {
+      "killed": "各阶段与来源统计口径不同",
+      "wounded": "未统一估计",
+      "captured": "见各阶段投降与撤离事件"
+     },
+     "note": "3月分批登陆，4月南撤后部分人员往克里特、其余往埃及。"
+    },
+    "NZ": {
+     "name": "新西兰",
+     "commander": "弗赖伯格",
+     "men": null,
+     "divisions": "第2师及4/5/6旅",
+     "tanks": null,
+     "aircraft": null,
+     "guns": null,
+     "losses": {
+      "killed": "各阶段与来源统计口径不同",
+      "wounded": "未统一估计",
+      "captured": "见各阶段投降与撤离事件"
+     },
+     "note": "不是4月6日才首次参战；3月已完成主要登陆和北部展开。"
+    },
+    "HU": {
+     "name": "匈牙利",
+     "commander": "第3集团军",
+     "men": null,
+     "divisions": "4月11日起越境，占领北部地区",
+     "tanks": null,
+     "aircraft": null,
+     "guns": null,
+     "losses": {
+      "killed": "各阶段与来源统计口径不同",
+      "wounded": "未统一估计",
+      "captured": "见各阶段投降与撤离事件"
+     },
+     "note": "提供德军通行及后续北部攻势，未参与梅塔克萨斯线最初突破。"
+    },
+    "BG": {
+     "name": "保加利亚",
+     "commander": "保加利亚政府与军方",
+     "men": null,
+     "divisions": "德军通行、集结及后续占领区进驻",
+     "tanks": null,
+     "aircraft": null,
+     "guns": null,
+     "losses": {
+      "killed": "各阶段与来源统计口径不同",
+      "wounded": "未统一估计",
+      "captured": "见各阶段投降与撤离事件"
+     },
+     "note": "3月加入三国同盟；4月6日进攻矛头是德军，保军随后进驻占领区。"
+    }
+   },
+   "evacuation": {
+    "DE": {
+     "name": "德国",
+     "commander": "李斯特、魏克斯与克莱斯特",
+     "men": null,
+     "divisions": "第12、第2集团军及独立机动集团",
+     "tanks": null,
+     "aircraft": null,
+     "guns": null,
+     "losses": {
+      "killed": "各阶段与来源统计口径不同",
+      "wounded": "未统一估计",
+      "captured": "见各阶段投降与撤离事件"
+     },
+     "note": "第1装甲集群临时改向南斯拉夫；计划编制与及时赶到的攻击部队并不完全相同。"
+    },
+    "IT": {
+     "name": "意大利",
+     "commander": "普拉斯卡→索杜→卡瓦莱罗；第11集团军由格洛索指挥",
+     "men": null,
+     "divisions": "开战主攻约8个师，冬季持续增援",
+     "tanks": null,
+     "aircraft": null,
+     "guns": null,
+     "losses": {
+      "killed": "各阶段与来源统计口径不同",
+      "wounded": "未统一估计",
+      "captured": "见各阶段投降与撤离事件"
+     },
+     "note": "开局第25军约4.2万人、第26军约4.4万人、朱利亚师约1.08万人。各数字为方向或单位口径，不加成全国参战总数。"
+    },
+    "GR": {
+     "name": "希腊",
+     "commander": "帕帕戈斯；第8师卡齐米特罗斯；西部军团区指挥随阶段变化",
+     "men": null,
+     "divisions": "动员后14个师左右投入阿尔巴尼亚前线",
+     "tanks": null,
+     "aircraft": null,
+     "guns": null,
+     "losses": {
+      "killed": "各阶段与来源统计口径不同",
+      "wounded": "未统一估计",
+      "captured": "见各阶段投降与撤离事件"
+     },
+     "note": "第8师加强后约3.5万人；1941年东马其顿国境防御约7万人。两者是不同地域、时期，不能作为全军兵力直接比较。"
+    },
+    "GB": {
+     "name": "英国与W Force指挥",
+     "commander": "威尔逊；英国第1装甲旅及空地勤部队",
+     "men": null,
+     "divisions": "1940年秋已有RAF援助，1941年3月海运陆军增援",
+     "tanks": null,
+     "aircraft": null,
+     "guns": null,
+     "losses": {
+      "killed": "各阶段与来源统计口径不同",
+      "wounded": "未统一估计",
+      "captured": "见各阶段投降与撤离事件"
+     },
+     "note": "W Force总规模约数取决于是否包括空军、后勤与希腊单位；澳新兵力在各自栏显示，不再计入英国总数。"
+    },
+    "AU": {
+     "name": "澳大利亚",
+     "commander": "布莱米；第6师麦凯",
+     "men": null,
+     "divisions": "第1军司令部、第6师及16/17/19旅",
+     "tanks": null,
+     "aircraft": null,
+     "guns": null,
+     "losses": {
+      "killed": "各阶段与来源统计口径不同",
+      "wounded": "未统一估计",
+      "captured": "见各阶段投降与撤离事件"
+     },
+     "note": "3月分批登陆，4月南撤后部分人员往克里特、其余往埃及。"
+    },
+    "NZ": {
+     "name": "新西兰",
+     "commander": "弗赖伯格",
+     "men": null,
+     "divisions": "第2师及4/5/6旅",
+     "tanks": null,
+     "aircraft": null,
+     "guns": null,
+     "losses": {
+      "killed": "各阶段与来源统计口径不同",
+      "wounded": "未统一估计",
+      "captured": "见各阶段投降与撤离事件"
+     },
+     "note": "不是4月6日才首次参战；3月已完成主要登陆和北部展开。"
+    },
+    "BG": {
+     "name": "保加利亚",
+     "commander": "保加利亚政府与军方",
+     "men": null,
+     "divisions": "德军通行、集结及后续占领区进驻",
+     "tanks": null,
+     "aircraft": null,
+     "guns": null,
+     "losses": {
+      "killed": "各阶段与来源统计口径不同",
+      "wounded": "未统一估计",
+      "captured": "见各阶段投降与撤离事件"
+     },
+     "note": "3月加入三国同盟；4月6日进攻矛头是德军，保军随后进驻占领区。"
+    }
+   }
+  },
+  "sources": [
+   "land_greek_defence",
+   "land_greek_korce",
+   "land_greek_spring",
+   "land_us_yugoslavia",
+   "land_us_greece",
+   "land_awm_greece"
+  ]
+ }
+}

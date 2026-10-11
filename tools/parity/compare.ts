@@ -28,13 +28,14 @@ for (const e of L.events) {
   if (e.zoom != null && n.zoomRel == null) note(`event ${e.id} lost zoom`);
   if (e.zoom != null && Number.isInteger(e.zoom) && n.zoomRel !== ZOOM_REL[e.zoom] && Math.abs(n.zoomRel - e.zoom) > 1e-9) note(`event ${e.id} zoom ${e.zoom} → ${n.zoomRel}`);
 }
-// 部队状态（旧版无 movement 字段时视为 land）
-const norm = (v: any[] | undefined) => (v ? [...v.slice(0, 6), v[6] ?? 'land'] : v);
+// 部队状态（旧版状态里没有 movement 时视为「未建模」，只比较前 6 项）
+const norm = (v: any[] | undefined, legacyMovement: boolean) => (v ? (legacyMovement ? [...v.slice(0, 6), v[6] ?? 'land'] : v.slice(0, 6)) : v);
 let diffs = 0;
+const legacyHasMovement = Object.values(L.states).some((row: any) => Object.values(row).some((v: any) => v[6] != null));
 for (const iso of Object.keys(L.states)) {
   const ls = L.states[iso], ns = N.states[iso] ?? {};
   for (const id of new Set([...Object.keys(ls), ...Object.keys(ns)])) {
-    const x = JSON.stringify(norm(ls[id])), y = JSON.stringify(norm(ns[id]));
+    const x = JSON.stringify(norm(ls[id], legacyHasMovement)), y = JSON.stringify(norm(ns[id], legacyHasMovement));
     if (x !== y && !accepted.state?.includes(id)) { diffs++; note(`state ${iso} ${id}: ${x} → ${y}`); }
   }
 }

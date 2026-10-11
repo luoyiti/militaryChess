@@ -1,0 +1,81 @@
+[
+ {
+  "id": "r.allied_french",
+  "side": "FR",
+  "unit": "fr.13dble",
+  "style": "main",
+  "widthKm": 7,
+  "label": "盟军增援",
+  "waypoints": [
+   {
+    "at": "1940-05-06T00:00",
+    "pos": [
+     14.8,
+     69.2
+    ]
+   },
+   {
+    "at": "1940-05-06T12:00",
+    "pos": "@harstad"
+   }
+  ],
+  "sources": [
+   "uk_chb",
+   "uk_ch10"
+  ],
+  "confidence": "medium",
+  "schematic": true,
+  "role": "landing"
+ },
+ {
+  "id": "r.bjerkvik",
+  "side": "FR",
+  "unit": "fr.13dble",
+  "style": "counter",
+  "widthKm": 5,
+  "label": "比耶克维克两栖进攻",
+  "waypoints": [
+   {
+    "at": "1940-05-12T12:00",
+    "pos": [
+     17.42,
+     68.52
+    ]
+   },
+   {
+    "at": "1940-05-13T12:00",
+    "pos": "@bjerkvik"
+   }
+  ],
+  "sources": [
+   "uk_ch13"
+  ],
+  "confidence": "medium",
+  "schematic": true,
+  "role": "landing"
+ },
+ {
+  "id": "r.narvik_landing",
+  "side": "FR",
+  "unit": "fr.13dble",
+  "style": "counter",
+  "widthKm": 3,
+  "label": "罗姆巴克峡湾短渡",
+  "waypoints": [
+   {
+    "at": "1940-05-28T00:00",
+    "pos": "@oyjord"
+   },
+   {
+    "at": "1940-05-28T12:00",
+    "pos": "@narvik"
+   }
+  ],
+  "sources": [
+   "uk_ch13"
+  ],
+  "confidence": "medium",
+  "schematic": true,
+  "role": "landing"
+ }
+]

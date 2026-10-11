@@ -26,6 +26,7 @@ export class Timeline {
   onEventPick: (e: REvent) => void = () => {};
 
   constructor(parent: HTMLElement, private db: DB) {
+    const opt = manifest().ui.timeline ?? {};
     this.el = document.createElement('div');
     this.el.className = 'timeline paper';
     this.el.innerHTML = `
@@ -36,7 +37,7 @@ export class Timeline {
         <button class="tl-btn tl-speed" title="播放速度">1×</button>
         <button class="tl-btn tl-dir on" title="导演模式：遇重要事件自动停留、运镜、讲解">导演模式</button>
         <div class="tl-date"><span class="tl-date-main"></span></div>
-        <div class="tl-phase"></div>
+        ${opt.jump ? '<label class="tl-jump-label"><select class="tl-jump" aria-label="选择历史事件"><option value="">跳转历史事件…</option></select></label>' : ''}${opt.dateInput ? `<input class="tl-date-input" type="date" min="${manifest().time.start.slice(0, 10)}" max="${manifest().time.end.slice(0, 10)}" aria-label="跳转日期"/>` : ''}<div class="tl-phase"></div>
       </div>
       <div class="tl-track-wrap"><div class="tl-track"><div class="tl-needle"><div class="tl-needle-head"></div></div></div></div>
       <div class="tl-tip"></div>`;
@@ -58,11 +59,19 @@ export class Timeline {
     this.dirBtn.onclick = () => store.set({ director: !store.get().director });
     (this.el.querySelector('.tl-prev') as HTMLButtonElement).onclick = () => this.stepEvent(-1);
     (this.el.querySelector('.tl-next') as HTMLButtonElement).onclick = () => this.stepEvent(1);
+    if (opt.jump) {
+      const jump = this.el.querySelector<HTMLSelectElement>('.tl-jump')!;
+      jump.insertAdjacentHTML('beforeend', db.events.map((e) => `<option value="${e.id}">${e.at.slice(5, 10)} · ${escapeXml(e.title.zh)}</option>`).join(''));
+      jump.onchange = () => { const e = db.events.find((x) => x.id === jump.value); if (e) { this.seek(e.h); this.onEventPick(e); } jump.value = ''; };
+    }
+    if (opt.dateInput) {
+      const dateInput = this.el.querySelector<HTMLInputElement>('.tl-date-input')!;
+      dateInput.onchange = () => { if (!dateInput.value || !dateInput.validity.valid) return; this.seek(isoToHours(dateInput.value + 'T12:00')); };
+    }
     const onPos = (ev: PointerEvent) => {
       const r = this.track.getBoundingClientRect();
       const u = Math.max(0, Math.min(1, (ev.clientX - r.left) / r.width));
-      clock.release();
-      clock.seek(T_START + u * (T_END - T_START));
+      this.seek(T_START + u * (T_END - T_START));
     };
     this.track.addEventListener('pointerdown', (ev) => {
       if ((ev.target as HTMLElement).classList.contains('tl-ev')) return;
@@ -100,7 +109,8 @@ export class Timeline {
     for (const [iso, name] of manifest().marks ?? []) frag.push(`<div class="tl-mark" style="left:${this.x(isoToHours(iso))}%"><span>${name}</span></div>`);
     // 事件刻度
     for (const e of this.db.events) {
-      frag.push(`<div class="tl-ev imp${e.importance}" data-id="${e.id}" style="left:${this.x(e.h)}%;background:${CAT_COLOR[e.category] ?? '#444'}"></div>`);
+      const lanes = manifest().ui.timeline?.lanes;
+      frag.push(`<div class="tl-ev imp${e.importance}" data-id="${e.id}"${lanes ? ` title="${escapeXml(e.title.zh)}"` : ''} style="${lanes ? `top:${30 + (e.idx % lanes) * 13}px;` : ''}left:${this.x(e.h)}%;background:${CAT_COLOR[e.category] ?? '#444'}"></div>`);
     }
     this.track.insertAdjacentHTML('afterbegin', frag.join(''));
     this.track.querySelectorAll<HTMLElement>('.tl-ev').forEach((el) => {
@@ -112,7 +122,7 @@ export class Timeline {
         this.tipEl.style.left = `${Math.min(pr.width - 240, Math.max(0, r.left - pr.left - 100))}px`;
       });
       el.addEventListener('pointerleave', () => { this.tipEl.style.display = 'none'; });
-      el.addEventListener('click', (ev) => { ev.stopPropagation(); clock.release(); clock.seek(e.h); this.onEventPick(e); });
+      el.addEventListener('click', (ev) => { ev.stopPropagation(); this.seek(e.h); this.onEventPick(e); });
     });
   }
 
@@ -120,7 +130,9 @@ export class Timeline {
   private lastPhase = '';
   private renderTime(t: number) {
     this.needle.style.left = `${this.x(t)}%`;
-    this.dateEl.textContent = fmtDate(t);
+    this.dateEl.textContent = fmtDate(t) + (manifest().ui.timeline?.dateSuffix ?? '');
+    const dateInput = this.el.querySelector<HTMLInputElement>('.tl-date-input');
+    if (dateInput && document.activeElement !== dateInput) dateInput.value = hoursToDate(t).toISOString().slice(0, 10);
     const d = Math.floor(t / 24);
     if (d !== this.lastDay || phaseAt(t).id !== this.lastPhase) {
       this.lastPhase = phaseAt(t).id;
@@ -147,6 +159,13 @@ export class Timeline {
     const t = store.get().t;
     const evs = this.db.events.filter((e) => e.importance <= 2);
     const e = dir > 0 ? evs.find((x) => x.h > t + 0.01) : [...evs].reverse().find((x) => x.h < t - 0.01);
-    if (e) { clock.release(); clock.seek(e.h); this.onEventPick(e); }
+    if (e) { this.seek(e.h); this.onEventPick(e); }
+  }
+
+  /** 跳转：释放导演驻留；跳转式时间轴（挪威）同时暂停并广播 campaign-seek，清理卡片与导演队列 */
+  private seek(t: number) {
+    clock.release();
+    if (manifest().ui.timeline?.jump) { store.set({ playing: false }); window.dispatchEvent(new Event('campaign-seek')); }
+    clock.seek(t);
   }
 }

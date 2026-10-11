@@ -85,12 +85,17 @@ export function createSandbox(host: HTMLElement, db: DB) {
   const expandedAt = (t: number) => (deferred.length ? (deferred.every((d) => t >= d.h) ? 1 : 0) : 1);
   const restTint = cfg.restTint ?? [0.9, 0.95, 1.06];
   const restStrength = cfg.restStrength ?? 0.55;
+  const airHeight = cfg.airRoute?.height ?? 170, airWidth = cfg.airRoute?.width ?? 0.2;
   const renderer = new THREE.WebGLRenderer({ antialias: true, powerPreference: 'high-performance' });
-  renderer.setPixelRatio(Math.min(1.5, window.devicePixelRatio || 1));
+  // 软件渲染（SwiftShader / llvmpipe）时降低像素比、关闭阴影、减少地形分段
+  const gl = renderer.getContext();
+  const glInfo = gl.getExtension('WEBGL_debug_renderer_info');
+  const software = /SwiftShader|llvmpipe|software/i.test(glInfo ? String(gl.getParameter(glInfo.UNMASKED_RENDERER_WEBGL)) : '');
+  renderer.setPixelRatio(software && cfg.softwareFallback ? 0.8 : Math.min(1.5, window.devicePixelRatio || 1));
   renderer.outputColorSpace = THREE.SRGBColorSpace;
   renderer.toneMapping = THREE.ACESFilmicToneMapping;
   renderer.toneMappingExposure = 0.98;
-  renderer.shadowMap.enabled = true;
+  renderer.shadowMap.enabled = !(software && cfg.softwareFallback);
   renderer.shadowMap.type = THREE.PCFShadowMap;
   host.appendChild(renderer.domElement);
   const labelR = new CSS2DRenderer();
@@ -101,12 +106,12 @@ export function createSandbox(host: HTMLElement, db: DB) {
   host.appendChild(labelR.domElement);
   const hint = document.createElement('div');
   hint.className = 'sb3-hint';
-  hint.textContent = '左键拖动旋转 · 右键平移 · 滚轮缩放 · 点击部队标签查看档案';
+  hint.textContent = '左键拖动旋转 · 右键平移 · 滚轮缩放 · 点击部队标签查看档案' + (software && cfg.softwareFallback ? ' · 软件渲染精简模式' : '');
   host.appendChild(hint);
 
   const scene = new THREE.Scene();
   scene.background = new THREE.Color(0x2a241b);
-  scene.fog = new THREE.Fog(0x3a3024, 5200, 12000);
+  scene.fog = new THREE.Fog(0x3a3024, ...(cfg.fog ?? [5200, 12000]));
   const camera = new THREE.PerspectiveCamera(38, 1, 20, 30000);
   camera.position.set(0, 2300, 2600);
   const controls = new OrbitControls(camera, labelR.domElement);
@@ -196,7 +201,7 @@ export function createSandbox(host: HTMLElement, db: DB) {
     masksTex.magFilter = THREE.LinearFilter; masksTex.minFilter = THREE.LinearFilter; masksTex.needsUpdate = true;
     uniforms.uMask.value = masksTex;
     // 地形网格
-    const segX = 560, segY = Math.round((560 * H) / W);
+    const segX = software && cfg.softwareFallback ? 160 : cfg.segments ?? 560, segY = Math.round((560 * H) / W);
     const geo = new THREE.PlaneGeometry(W, H, segX, segY);
     geo.rotateX(-Math.PI / 2);
     const pos = geo.attributes.position as THREE.BufferAttribute;
@@ -276,7 +281,7 @@ export function createSandbox(host: HTMLElement, db: DB) {
     }
     buildLabels();
     buildRoutes();
-  })();
+  })().catch((err) => { hint.textContent = '3D 地形加载失败，请返回作战地图'; console.error(err); });
 
   function worldTo3(wx: number, wy: number, y: number): [number, number, number] { return [wx - W / 2, y, wy - H / 2]; }
   function groundY(wx: number, wy: number) { return terrain ? toY(elevAt(terrain, wx, wy)) : 0; }
@@ -312,7 +317,7 @@ export function createSandbox(host: HTMLElement, db: DB) {
         for (let k = 0; k < n; k++) { const t = k / n; dense.push([a[0] + (b[0] - a[0]) * t, a[1] + (b[1] - a[1]) * t]); hs.push(r.wps[i].h + (r.wps[i + 1].h - r.wps[i].h) * t); }
       }
       dense.push(pts[pts.length - 1]); hs.push(r.wps[r.wps.length - 1].h);
-      const width = (r.widthKm / KM) * 0.2;
+      const width = (r.widthKm / KM) * (r.movement === 'air' ? airWidth : 0.2);
       const pos: number[] = [], uv: number[] = [], idx: number[] = [];
       let acc = 0;
       const cum = [0];
@@ -324,7 +329,7 @@ export function createSandbox(host: HTMLElement, db: DB) {
         const taper = Math.min(1, cum[i] / (acc * 0.2 + 1)) * 0.6 + 0.4;
         for (const s of [-1, 1]) {
           const x = dense[i][0] + nx * width * taper * s, y = dense[i][1] + ny * width * taper * s;
-          pos.push(...worldTo3(x, y, (r.movement === 'air' ? 170 : r.movement === 'sea' ? 8 : groundY(x, y) + 6)));
+          pos.push(...worldTo3(x, y, (r.movement === 'air' ? airHeight : r.movement === 'sea' ? 8 : groundY(x, y) + 6)));
           uv.push(acc > 0 ? cum[i] / acc : 0, (s + 1) / 2);
         }
         if (i < dense.length - 1) { const k = i * 2; idx.push(k, k + 1, k + 2, k + 1, k + 3, k + 2); }
@@ -377,6 +382,7 @@ export function createSandbox(host: HTMLElement, db: DB) {
   const unitLabels = new Map<string, CSS2DObject>();
   const modelOf = (u: RUnit): ModelId => {
     if (u.model) return u.model;
+    if (cfg.typeModels?.[u.type]) return cfg.typeModels[u.type];
     for (const q of u.equipment ?? []) { const e = db.equipment.get(q.id); if (e?.model) return e.model; }
     for (const c of u.children) { const cu = db.units.get(c); if (cu?.model) return cu.model; }
     const fallback = sideDef(u.side).defaultModel ?? `inf_${u.side.toLowerCase()}`;
@@ -411,7 +417,7 @@ export function createSandbox(host: HTMLElement, db: DB) {
       const [wx, wy] = project(s.ll);
       const y = groundY(wx, wy);
       const m = modelOf(u);
-      const symbolic = u.type === 'naval' || u.type === 'air';
+      const symbolic = (u.type === 'naval' || u.type === 'air') && !cfg.typeModels?.[u.type] && !u.model;
       const g = groupFor(m);
       if (g.count >= MAX_PER) return;
       const ech = ECHELON_RANK[u.echelon];

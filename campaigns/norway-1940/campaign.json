@@ -1,0 +1,713 @@
+{
+  "schemaVersion": 2,
+  "id": "norway-1940",
+  "status": "published",
+  "title": {
+    "mark": "1940",
+    "zh": "挪威战役",
+    "sub": "海陆空 · 战旗推演",
+    "en": "The Norwegian Campaign",
+    "orig": "Operation Weserübung",
+    "codename": "威悉演习",
+    "html": "1940 · 挪威战役 — 海陆空战旗推演",
+    "description": "1940 年挪威战役动态历史地图：多港口登陆、海陆空协同、纳尔维克、中部撤离与事件档案。",
+    "favicon": "#b3353b"
+  },
+  "time": {
+    "epoch": "1940-04-09T00:00",
+    "start": "1940-04-09T00:00",
+    "end": "1940-06-10T23:59",
+    "tzLabel": "CET"
+  },
+  "sides": [
+    {
+      "id": "DE",
+      "prefix": "de",
+      "name": "德国",
+      "coalition": "axis",
+      "counter": {
+        "bg": "#56708f",
+        "edge": "#2a3a52",
+        "text": "#f4efe2",
+        "box": "#eef0ea",
+        "ink": "#1d2a3c"
+      },
+      "css": {
+        "main": "#3a5887",
+        "dark": "#1f3558"
+      },
+      "arrow": {
+        "fill": "rgba(52,84,132,0.62)",
+        "stroke": "#1f3558"
+      },
+      "sandbox": "#3a5887",
+      "restHeading": 0,
+      "planesFrom": "E",
+      "defaultModel": "inf_de"
+    },
+    {
+      "id": "NO",
+      "prefix": "no",
+      "name": "挪威",
+      "coalition": "allies",
+      "counter": {
+        "bg": "#b3353b",
+        "edge": "#6e1b20",
+        "text": "#fbf1e4",
+        "box": "#f7ecdc",
+        "ink": "#5a1418"
+      },
+      "css": {
+        "main": "#b3353b",
+        "dark": "#6e1b20"
+      },
+      "arrow": {
+        "fill": "rgba(179,38,46,0.62)",
+        "stroke": "#6e1b20"
+      },
+      "sandbox": "#b3262e",
+      "restHeading": 1,
+      "defaultModel": "inf_allied"
+    },
+    {
+      "id": "UK",
+      "prefix": "uk",
+      "name": "英国",
+      "coalition": "allies",
+      "counter": {
+        "bg": "#85703a",
+        "edge": "#514119",
+        "text": "#fbf1e4",
+        "box": "#f5ead8",
+        "ink": "#4a390c"
+      },
+      "css": {
+        "main": "#85703a",
+        "dark": "#514119"
+      },
+      "arrow": {
+        "fill": "rgba(133,112,58,0.62)",
+        "stroke": "#514119"
+      },
+      "sandbox": "#85703a",
+      "restHeading": 0,
+      "defaultModel": "inf_allied",
+      "nation": "GB"
+    },
+    {
+      "id": "FR",
+      "prefix": "fr",
+      "name": "法国",
+      "coalition": "allies",
+      "counter": {
+        "bg": "#428578",
+        "edge": "#235b52",
+        "text": "#f4efe2",
+        "box": "#edf4ee",
+        "ink": "#1f423b"
+      },
+      "css": {
+        "main": "#428578",
+        "dark": "#235b52"
+      },
+      "arrow": {
+        "fill": "rgba(66,133,120,0.62)",
+        "stroke": "#235b52"
+      },
+      "sandbox": "#428578",
+      "restHeading": 0,
+      "defaultModel": "inf_allied"
+    },
+    {
+      "id": "PL",
+      "prefix": "pl",
+      "name": "波兰",
+      "coalition": "allies",
+      "counter": {
+        "bg": "#84608d",
+        "edge": "#583e62",
+        "text": "#fbf1e4",
+        "box": "#f7ecdc",
+        "ink": "#44264f"
+      },
+      "css": {
+        "main": "#84608d",
+        "dark": "#583e62"
+      },
+      "arrow": {
+        "fill": "rgba(132,96,141,0.62)",
+        "stroke": "#583e62"
+      },
+      "sandbox": "#84608d",
+      "restHeading": 0.6,
+      "defaultModel": "inf_pl"
+    }
+  ],
+  "control": {
+    "mode": "territory",
+    "landBit": 4,
+    "theatreBits": [
+      0
+    ],
+    "slots": [
+      {
+        "key": "DE",
+        "label": "德军据点（斜线）",
+        "homeBits": [
+          1,
+          2
+        ]
+      },
+      {
+        "key": "AL",
+        "label": "盟军据点（交叉线）",
+        "homeBits": [
+          3
+        ],
+        "line": "#235b52",
+        "pattern": {
+          "size": 10,
+          "svg": "<rect width=\"10\" height=\"10\" fill=\"rgba(48,130,112,0.14)\"/><path d=\"M0,10 L10,0 M-2,2 L2,-2 M8,12 L12,8 M0,0 L10,10 M-2,8 L2,12 M8,-2 L12,2\" stroke=\"rgba(32,101,86,0.45)\" stroke-width=\"0.9\"/>"
+        },
+        "legend": "repeating-linear-gradient(45deg, transparent 0 4px, #42857888 4px 5px), repeating-linear-gradient(-45deg, transparent 0 4px, #42857888 4px 5px)",
+        "sandboxFill": [
+          0.18,
+          0.52,
+          0.44
+        ]
+      }
+    ],
+    "remainder": {
+      "label": "未着色挪威区"
+    }
+  },
+  "phases": [
+    {
+      "id": "raid",
+      "from": "1940-04-09T00:00",
+      "name": "第一阶段 · 多港口突袭",
+      "short": "多港口突袭",
+      "sub": "威悉演习、海峡阻击与两次纳尔维克海战"
+    },
+    {
+      "id": "central",
+      "from": "1940-04-14T00:00",
+      "name": "第二阶段 · 中部争夺",
+      "short": "中部争夺",
+      "sub": "盟军南北登陆、山谷迟滞与中部撤运；北部并行展开"
+    },
+    {
+      "id": "north",
+      "from": "1940-05-04T00:00",
+      "name": "第三阶段 · 北部反攻",
+      "short": "北部反攻",
+      "sub": "比耶克维克、纳尔维克与北部南翼迟滞战"
+    },
+    {
+      "id": "evacuation",
+      "from": "1940-06-04T00:00",
+      "to": "1940-06-10T23:59",
+      "name": "第四阶段 · 撤离与占领",
+      "short": "撤离与占领",
+      "sub": "Alphabet 撤运、政府流亡与本土战役结束"
+    }
+  ],
+  "marks": [
+    [
+      "1940-04-09T00:00",
+      "多港口入侵"
+    ],
+    [
+      "1940-04-18T12:00",
+      "中部登陆"
+    ],
+    [
+      "1940-05-03T12:00",
+      "中部撤离"
+    ],
+    [
+      "1940-05-28T12:00",
+      "夺回纳尔维克"
+    ],
+    [
+      "1940-06-10T12:00",
+      "本土结束"
+    ]
+  ],
+  "theme": {
+    "accent": "#84608d",
+    "accentDark": "#583e62",
+    "accentTint": "rgba(179,38,46,.07)",
+    "theatreBorder": "#7a2a25",
+    "theatreHalo": "rgba(179,38,46,.22)",
+    "restFill": "rgba(200,70,60,.045)"
+  },
+  "map": {
+    "fit": {
+      "bbox": [
+        3.8,
+        57.5,
+        31.5,
+        71.4
+      ],
+      "mode": "envelope"
+    },
+    "insetTop": 112,
+    "insetBottom": 160,
+    "home3d": [
+      14.0,
+      64.5
+    ],
+    "focus": [
+      14.0,
+      64.5
+    ],
+    "hexKm": 18,
+    "theatreCountries": [
+      "NO"
+    ],
+    "labels": {
+      "countries": [
+        [
+          "挪 威",
+          15.7,
+          67.1,
+          28,
+          0.4
+        ],
+        [
+          "瑞 典 · 中 立",
+          17.2,
+          63.4,
+          25,
+          0.5
+        ],
+        [
+          "芬 兰",
+          25.0,
+          67.5,
+          18,
+          0.7
+        ],
+        [
+          "丹 麦",
+          9.2,
+          56.5,
+          16,
+          1.2
+        ],
+        [
+          "德 国",
+          11.2,
+          54.7,
+          17,
+          1.2
+        ],
+        [
+          "英 国",
+          -3.8,
+          57.4,
+          16,
+          1.2
+        ]
+      ],
+      "waters": [
+        [
+          "挪 威 海",
+          5.8,
+          66.1,
+          24,
+          false,
+          0
+        ],
+        [
+          "北 海",
+          2.0,
+          59.4,
+          21,
+          false,
+          0
+        ],
+        [
+          "斯卡格拉克海峡",
+          9.0,
+          57.8,
+          11,
+          false,
+          0
+        ]
+      ]
+    },
+    "cityLabelBox": "centered",
+    "riverLabelCrop": [
+      1200,
+      300,
+      7600,
+      6400
+    ],
+    "portMarkers": true,
+    "transportStyle": "markers",
+    "regions": [
+      {
+        "id": "all",
+        "label": "全国战略",
+        "center": [
+          14.0,
+          64.5
+        ],
+        "zoom": 1
+      },
+      {
+        "id": "south",
+        "label": "奥斯陆 / 南部",
+        "center": [
+          9.1,
+          60.0
+        ],
+        "zoom": 3.4
+      },
+      {
+        "id": "central",
+        "label": "中部战区",
+        "center": [
+          10.0,
+          63.2
+        ],
+        "zoom": 4.5
+      },
+      {
+        "id": "narvik",
+        "label": "纳尔维克",
+        "center": [
+          17.15,
+          68.65
+        ],
+        "zoom": 9
+      },
+      {
+        "id": "sea",
+        "label": "海上战场",
+        "center": [
+          5.4,
+          64.0
+        ],
+        "zoom": 1.45
+      }
+    ],
+    "mapKey": "<b>N ↑</b><span>1940 / NORWAY</span><small>━━▶ 陆地 / 登陆　⚓ ┄▶ 海军　✈ ··▶ 航空</small><small>路线、位置与据点控制为概略示意</small>"
+  },
+  "display": {
+    "statusEchelons": "markers",
+    "counterSideCode": true
+  },
+  "sandbox": {
+    "exaggeration": 6,
+    "figScale": 11,
+    "target": [
+      14.0,
+      64.5
+    ],
+    "fog": [
+      6500,
+      18000
+    ],
+    "segments": 320,
+    "softwareFallback": true,
+    "restTint": [
+      1.05,
+      0.93,
+      0.9
+    ],
+    "restStrength": 0.6,
+    "airRoute": {
+      "height": 80,
+      "width": 0.15
+    },
+    "typeModels": {
+      "naval": "navy_token",
+      "aviation": "air_token"
+    }
+  },
+  "director": {
+    "returnTo": "home",
+    "wideGoesHome": true,
+    "defaultZoom": [
+      1.9,
+      2.6
+    ]
+  },
+  "audio": {
+    "music": [],
+    "intensity": [
+      {
+        "from": "1940-04-09T00:00",
+        "value": 0.6
+      },
+      {
+        "from": "1940-06-04T12:00",
+        "value": 0.25
+      }
+    ],
+    "introSting": "morse",
+    "introStingVolume": 0.3
+  },
+  "ui": {
+    "layers": {
+      "units": {
+        "label": "部队 / 舰艇 / 航空棋子"
+      },
+      "control": {
+        "label": "据点控制示意"
+      },
+      "front": {
+        "label": "控制边缘"
+      },
+      "routes": {
+        "label": "海陆空行动"
+      },
+      "routesFull": {
+        "label": "完整概略路线（含尚未发生）"
+      },
+      "events": {
+        "label": "历史事件标记"
+      },
+      "cities": {
+        "label": "城市 / 港口 / 机场"
+      },
+      "hex": {
+        "label": "18 km 六角格",
+        "default": false
+      },
+      "terrain": {
+        "label": "真实高程晕渲"
+      },
+      "pockets": {
+        "hidden": true,
+        "default": false
+      },
+      "demarcation": {
+        "hidden": true,
+        "default": false
+      },
+      "forest": {
+        "hidden": true,
+        "default": false
+      }
+    },
+    "chapterNav": "none",
+    "precisionStyle": "dot",
+    "tourOpensFirstEvent": true,
+    "timeline": {
+      "jump": true,
+      "dateInput": true,
+      "lanes": 3,
+      "dateSuffix": " · 编排"
+    },
+    "brief": {
+      "layout": "theatres",
+      "stamp": "北欧战区 · 作战档案",
+      "title": "1940 挪威战役",
+      "sub": "Norwegian Campaign · Weserübung",
+      "sub2": "1940.4.9 — 1940.6.10",
+      "fine": "",
+      "paragraphs": [
+        "{units}个作战标记 · {routes}条行动 · {events}个事件。棋子是代表性单位、舰艇或分遣队，不是完整编制清单。数字表示标记数量，未作为实际兵力比例。",
+        "据点控制以斜线表示；海面不作陆上占领区。路线是概略行动方向，浅虚线完整路线包含未来行动。单日史实的时分仅为播放编排。",
+        "瑞典保持中立；挪威本土战役6月10日结束，流亡政府、海外部队继续战争。"
+      ]
+    },
+    "status": {
+      "cells": [
+        {
+          "sides": [
+            "DE"
+          ],
+          "metric": "act",
+          "label": "德国活动标记"
+        },
+        {
+          "sides": [
+            "NO",
+            "UK",
+            "FR",
+            "PL"
+          ],
+          "metric": "act",
+          "label": "挪威 / 盟军活动标记"
+        }
+      ],
+      "theatres": {
+        "rows": [
+          [
+            "南部",
+            [
+              [
+                "1940-04-09T14:00",
+                "海峡阻击 / 空降突袭"
+              ],
+              [
+                "1940-05-10T12:00",
+                "内陆迟滞 / 分批结束抵抗"
+              ],
+              [
+                null,
+                "德军占领南部"
+              ]
+            ]
+          ],
+          [
+            "中部",
+            [
+              [
+                "1940-04-14T12:00",
+                "德军港口据点"
+              ],
+              [
+                "1940-05-03T12:00",
+                "盟军两翼登陆 / 迟滞与撤运"
+              ],
+              [
+                null,
+                "盟军退出中部"
+              ]
+            ]
+          ],
+          [
+            "北部",
+            [
+              [
+                "1940-05-28T12:00",
+                "德军据港 / 盟军山地反攻"
+              ],
+              [
+                "1940-06-04T12:00",
+                "盟军夺回纳尔维克"
+              ],
+              [
+                "1940-06-08T23:00",
+                "Alphabet 撤运"
+              ],
+              [
+                "1940-06-10T12:00",
+                "盟军撤出 / 挪军孤立"
+              ],
+              [
+                null,
+                "本土战役结束"
+              ]
+            ]
+          ]
+        ]
+      },
+      "latestEvent": true
+    },
+    "legend": {
+      "counters": [
+        [
+          "DE",
+          "infantry",
+          "division",
+          "步兵"
+        ],
+        [
+          "NO",
+          "mountain",
+          "division",
+          "山地兵"
+        ],
+        [
+          "UK",
+          "naval",
+          "ship",
+          "舰艇 / 编队"
+        ],
+        [
+          "UK",
+          "aviation",
+          "squadron",
+          "航空兵"
+        ],
+        [
+          "NO",
+          "fortress",
+          "group",
+          "岸防 / 要塞"
+        ],
+        [
+          "FR",
+          "infantry",
+          "regiment",
+          "团 / 半旅"
+        ]
+      ],
+      "items": [
+        "<i class=\"lg-fill a\"></i>德军据点（斜线）",
+        "<i class=\"lg-fill b\"></i>盟军据点（交叉线）",
+        "<i class=\"lg-front\"></i>控制区概略边缘",
+        "━━▶ 陆军推进 / 登陆",
+        "⚓ ┄┄▶ 海军行动",
+        "✈ ···▶ 空中行动",
+        "┄┄▶ 撤退 / 撤运"
+      ],
+      "statuses": "<div><span class=\"lg-st\">★</span>交战中</div><div><span class=\"lg-st enc\">▢</span>被合围</div><div><span class=\"lg-st\">✕</span>损失 / 投降 / 撤离</div>"
+    },
+    "modelLabels": {
+      "inf_de": "德军步兵班",
+      "inf_pl": "波兰步兵班",
+      "inf_su": "苏军步兵班",
+      "inf_sk": "斯洛伐克步兵班",
+      "cav_pl": "波兰骑兵",
+      "cav_su": "苏军骑兵"
+    }
+  },
+  "intro": {
+    "stamp": "GEHEIM · NORGE · 档案",
+    "kicker": "作战档案 No. 1940/IV",
+    "title": "挪威战役",
+    "en": "Norwegian Campaign · Operation Weserübung",
+    "dates": "1940年4月9日 — 6月10日",
+    "paragraphs": [
+      "从奥斯陆峡湾的岸炮，到纳尔维克的雪山与海战。德国以多港口突袭占据挪威海岸，挪威、英国、法国与波兰部队在山谷和峡湾反击；夺回纳尔维克之后，盟军仍因法国战局恶化撤离。"
+    ],
+    "how": "沿用统一作战室引擎，通过{events}个历史事件、{units}个作战标记、海陆空行动与{keyframes}个控制关键帧，观察四条并行战役主线。",
+    "note": "可选音效与合成英语旁白 · 支持鼠标滚轮缩放、拖动平移 · 历史示意图，边界与位置为近似",
+    "photo": "File:HMS Warspite, Norway 1940.jpg",
+    "caption": "1940年4月13日，英国厌战号参加第二次纳尔维克海战（IWM A38）"
+  },
+  "credits": {
+    "disclaimer": "本页面为历史教学用示意推演。主要据点、行动日期与参战单位依据所列史料整理；控制区是主要据点与交通走廊示意，路线不是精确航迹。地图完全离线自绘，未使用任何在线地图瓦片服务。",
+    "geodata": [
+      "<b>Natural Earth 1:10m</b>（河流、湖泊、海岸、陆地）— 公有领域",
+      "<b>Natural Earth countries</b> — 挪威/瑞典陆界与现代周边背景边界；芬兰/苏联1940年变动未作复原，不作为战役控制区依据",
+      "<b>Terrain Tiles (Terrarium, z6)</b> — Mapzen / AWS Open Data；真实高程约公里级，已生成离线纸质瓦片与3D地形"
+    ],
+    "sections": [
+      [
+        "照片",
+        "photos"
+      ],
+      [
+        "音效",
+        "audio"
+      ],
+      [
+        "音乐",
+        "music"
+      ],
+      [
+        "字体",
+        "fonts"
+      ]
+    ],
+    "footerHtml": "<p class=\"fine\">英语旁白为原创摘要，由可选浏览器声音合成；非历史广播录音。兵棋引擎为统一作战室引擎（D3 / SDF / Three.js / 音频系统）。</p>"
+  },
+  "hub": {
+    "order": 2,
+    "codename": "威悉演习",
+    "pin": [
+      12.5,
+      63.2
+    ],
+    "blurb": "德军以海空协同突袭挪威沿岸各港；英法波援军在峡湾和山谷反击，夺回纳尔维克后仍因法国战局恶化而撤离。"
+  }
+}

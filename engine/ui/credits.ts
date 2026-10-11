@@ -25,6 +25,7 @@ export async function showCredits(parent: HTMLElement, db: DB) {
     </ul>
     ${C.extraHtml ?? ''}
     ${sections.map(([title, key]) => sec(title, c[key])).join('')}
+    ${C.footerHtml ?? ''}
     <h3>史料（${srcs.length}）</h3>
     <ul class="src-list">${srcs.map((s) => `<li>${s.url ? `<a href="${s.url}" target="_blank" rel="noopener">${escapeXml(s.title)}</a>` : escapeXml(s.title)}${s.author ? ` — ${escapeXml(s.author)}` : ''}${s.year ? `，${s.year}` : ''}</li>`).join('')}</ul>
   </div>`;

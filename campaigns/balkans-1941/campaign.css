@@ -1,0 +1,6 @@
+/* 巴尔干战役专属样式：章节色带、空/海运路线的线型约定（海运虚线、空运点线）。 */
+.tl-phase-band:nth-child(4) { background:rgba(166,42,45,.16); } .tl-phase-band:nth-child(5) { background:rgba(95,113,145,.18); } .tl-phase-band:nth-child(6) { background:rgba(74,121,109,.16); }
+.arrow.move-sea,.arrow.move-air { fill:none!important; stroke-width:2.4; stroke-dasharray:8 5; vector-effect:non-scaling-stroke; }
+.arrow.move-air { stroke-dasharray:3 5; stroke-width:2.7; }
+.arrow.move-sea { stroke:inherit; }
+.route-full.move-sea { stroke-dasharray:8 5; } .route-full.move-air { stroke-dasharray:3 5; }

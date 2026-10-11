@@ -11,12 +11,14 @@ import { B } from './builder';
 import { SCHEMES, type Scheme } from './paint';
 import * as V from './vehicles';
 import { infantry, cavalry, fieldGun } from './figures';
+import { navalToken, aircraftToken } from './campaignTokens';
 
 import { MODEL_SPECS as MODEL_SPECS_REG } from './specs';
 export { MODEL_SPECS, type ModelSpec, type ModelKind } from './specs';
 export { countTriangles } from './builder';
 
 export interface Def { scheme: Scheme; build: (b: B) => void }
+const TOKEN: Scheme = { camo: 'plain', c0: '#60746e', c1: '', c2: '', line: '', roles: {} };
 
 /** 模型注册表：id → 涂装 + 构建函数。新战役的模型在此登记（或由插件 registerModel 追加）。 */
 const DEFS: Record<string, Def> = {
@@ -48,6 +50,10 @@ const DEFS: Record<string, Def> = {
   inf_bg: { scheme: SCHEMES.inf_bg, build: (b) => infantry(b, 'pl') },
   inf_nz: { scheme: SCHEMES.inf_nz, build: (b) => infantry(b, 'pl') },
   para_de: { scheme: SCHEMES.para_de, build: (b) => infantry(b, 'de') },
+  // 符号化棋子（挪威）：不代表真实舰型、机型或制服
+  inf_allied: { scheme: { ...SCHEMES.inf_de, roles: { ...SCHEMES.inf_de.roles, uniform: '#6e7056', helmet: '#68705f' } }, build: (b) => infantry(b, 'de') },
+  navy_token: { scheme: TOKEN, build: navalToken },
+  air_token: { scheme: TOKEN, build: aircraftToken },
 
 };
 

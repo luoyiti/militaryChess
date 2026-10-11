@@ -92,7 +92,8 @@ export interface CampaignManifest {
     restFill: string; // 剩余战区（守方控制）底色
   };
   map: {
-    fit?: 'frame' | [number, number, number, number]; // 全图适配：整个画布，或经纬度框 [w,n,e,s]
+    /** 全图适配：整个画布；或经纬度框 [minLon,minLat,maxLon,maxLat]，corners = 投影左上/右下两角，envelope = 投影后边框包络（狭长战区） */
+    fit?: 'frame' | { bbox: [number, number, number, number]; mode?: 'corners' | 'envelope' };
     home3d: LonLat;
     focus?: LonLat; // 测试钩子 setZoom 缺省中心 / 回全图中心
     contextTiles?: boolean; // 周边背景瓦片/地形（BK/CR）
@@ -103,17 +104,21 @@ export interface CampaignManifest {
     labels?: { countries?: [string, number, number, number, number][]; waters?: [string, number, number, number, boolean, number?][] };
     labelHubs?: Record<string, [number, number]>; // 地名 id → 标注偏移（带引线）
     cityLabelBox?: 'baseline' | 'centered'; // 城市标注避让框（旧版波兰系为 centered）
+    portMarkers?: boolean; // 港口用锚形标记
     riverLabelCrop?: [number, number, number, number]; // 河名候选中点的世界坐标范围，缺省画布内 2%–98%
     regions?: { id: string; label: string; center: LonLat; zoom: number }[];
     returnZoom?: number; // 导演回全景缩放（缺省 1.15）
     insetTop?: number; // 顶栏占位（缺省 64）
+    insetBottom?: number; // 时间轴占位（缺省 150）
+    mapKey?: string; // 右下角图例条（HTML）
+    transportStyle?: 'dashed' | 'markers'; // 海/空运路线：虚线（缺省）或带箭头标记的行动线
     mobileZoomCap?: number;
   };
   display?: {
     hqPassThrough?: boolean; // 有下属的指挥部不显示为棋子，直接展开下属（单个部队用 unit.display='container'）
     hideTransport?: { map2d?: boolean; sandbox?: boolean }; // 海/空运途中的地面部队不显示
     counterSideCode?: boolean; // 棋子左上角显示阵营代码
-    statusEchelons?: 'all' | 'divisions'; // 侧栏态势统计口径
+    statusEchelons?: 'all' | 'divisions' | 'leaves' | 'markers'; // 侧栏态势统计口径：全部 / 仅师旅 / 仅末级编制 / 全部可见标记
   };
   sandbox?: {
     exaggeration?: number; // 高程夸张（缺省 3）
@@ -121,6 +126,11 @@ export interface CampaignManifest {
     restTint?: [number, number, number]; // 剩余战区着色（缺省冷色）
     restStrength?: number;
     target?: LonLat; // 初始视点（缺省当前阶段中心 / map.home3d）
+    fog?: [number, number];
+    segments?: number; // 地形网格横向分段（缺省 560）
+    airRoute?: { height?: number; width?: number }; // 空中路线丝带高度/宽度系数（缺省 170 / 0.2）
+    typeModels?: Record<string, ModelId>; // 按兵种指定 3D 模型（如 naval → navy_token）
+    softwareFallback?: boolean; // 检测到软件渲染时降级（像素比、阴影、地形分段）
   };
   director: {
     /** 驻留后回全景：point=飞到 returnCenter（缺省 home3d）@ map.returnZoom；home=回全图；phase=当前阶段中心 */
@@ -136,7 +146,8 @@ export interface CampaignManifest {
     sfxAlias?: Record<string, { to: string; gain?: number }>; // 音效替换（如 radio→paper）
     music: MusicCue[]; // 按时间切换的配乐（共享配乐库 id：polonaise / elegy / hejnal / operations）
     intensity: IntensityCue[]; // 战场氛围强度
-    introSting?: 'fanfare' | 'hejnal' | 'none'; // 进入作战室时的号角
+    introSting?: string; // 进入作战室时的号角：hejnal（配乐库）/ none / 任一音效 id（缺省 fanfare）
+    introStingVolume?: number;
     introMusic?: string;
     battleSfx?: string[]; // 交战闪光伴随音效（缺省 artillery/mg）
     musicVol?: number; // 缺省 0.5
@@ -145,16 +156,34 @@ export interface CampaignManifest {
     layers?: Partial<Record<string, { label?: string; default?: boolean; hidden?: boolean }>>;
     layerOrder?: string[];
     chapterNav?: 'sidebar' | 'timeline' | 'none';
+    treeActiveOnly?: boolean; // 战斗序列只列当前在场部队
+    /** 日精度事件的日期写法：note =「（当日，定位时间为示意）」（缺省）；dot =「 · 当日」；plain = 只写日期 */
+    precisionStyle?: 'note' | 'dot' | 'plain';
+    timeline?: { jump?: boolean; dateInput?: boolean; lanes?: number; dateSuffix?: string };
+    tourOpensFirstEvent?: boolean; // 自动推演开始时先展示第一个事件
+    sandboxPhaseFocus?: boolean; // 进入 3D 时飞到当前阶段中心
     brief: {
+      layout?: 'forces' | 'theatres'; // forces = 兵力对比表（缺省）；theatres = 各方折叠说明 + 读图说明 + 并行战区态势
+      paragraphs?: string[]; // theatres 布局的「怎样读这张地图」段落（HTML，可用 {units} 等计数占位）
       title: string; sub: string; sub2: string; stamp?: string;
       fine: string;
-      forceNotes?: boolean; // 显示各方兵力口径折叠说明
+      forceNotes?: boolean; // 显示各方兵力口径折叠说明（= notes: 'details'）
+      notes?: 'details' | 'list' | 'none'; // 兵力口径说明：折叠 / 列表 / 不显示
+      notesTitle?: string;
       menFormat?: 'auto' | 'fixed1';
       sideColumns?: 2 | 3;
+      byPhase?: boolean; // 按当前阶段显示 forces.byPhase
+      losses?: boolean; // 伤亡表（缺省显示）
+      nullLabel?: string; // 未知数字（缺省 —）
+      nullBarWidth?: number; // 未知数字的条形宽度（缺省 1.5%）
+      showEmptyRows?: boolean; // 各方都未知的行也显示
     };
     status: {
       cells: { sides: Side[]; metric: 'act' | 'enc' | 'out'; label: string; cls?: string; hideZero?: boolean }[];
       pocketsLabel?: string;
+      /** 并行战区态势：[战区名, [[截止时刻, 文字], …, [null, 最后文字]]] */
+      theatres?: { title?: string; rows: [string, [string | null, string][]][] };
+      latestEvent?: boolean; // 显示「最近事件」按钮
     };
     legend: {
       counters: [Side, UnitType, Echelon, string][];
@@ -180,6 +209,7 @@ export interface CampaignManifest {
     geodata: string[]; // <li> 内容（HTML）
     disclaimer?: string;
     extraHtml?: string; // 地理数据之后的附加段落（HTML）
+    footerHtml?: string; // 素材许可之后、史料清单之前的附注（HTML）
     sections?: [string, string][]; // [标题, credits.json 键]，缺省 照片/音效/音乐/英语旁白/字体
   };
   hub: {

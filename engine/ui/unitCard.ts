@@ -12,8 +12,11 @@ const MODEL_LABELS: Record<string, string> = {
   inf_de: '德军步兵班（示意）', para_de: '德军伞兵（简化模型）', inf_gr: '希军步兵（简化模型）', inf_gb: '英军步兵（简化模型）', inf_nz: '新西兰步兵（简化模型）',
   inf_au: '澳军步兵（简化模型）', inf_it: '意军步兵（简化模型）', inf_pl: '步兵班（示意，非该国制服）', inf_su: '步兵班（示意）', inf_sk: '步兵班（示意）',
   cav_pl: '骑兵（示意）', cav_su: '骑兵（示意）', art_gun: '野战炮',
+  inf_allied: '盟军步兵符号模型', navy_token: '海军符号模型（非实际舰型）', air_token: '航空符号模型（非实际机型）',
 };
 const yearOf = (s: string) => (manifest().ui.cardYear === 'keep' ? s : stripYear(s));
+/** 符号化模型（不代表真实舰型/机型/制服）：卡片上附说明 */
+const SYMBOLIC_MODELS = new Set(['navy_token', 'air_token', 'inf_allied']);
 
 type Viewer = { show(id: ModelId): void; dispose(): void };
 
@@ -67,7 +70,7 @@ export class UnitCard {
         <div class="uc-titles">
           <h2>${escapeXml(u.name.zh)}</h2>
           <div class="uc-orig">${escapeXml(u.name.orig ?? '')}</div>
-          <div class="uc-type">${TYPE_ZH[u.type]}${s ? ` · <span class="st st-${s.status}">${STATUS_ZH[s.status]}</span>` : ''}</div>
+          <div class="uc-type">${TYPE_ZH[u.type]}${u.schematic ? ' · 分遣队 / 聚合标记' : ''}${s ? ` · <span class="st st-${s.status}">${STATUS_ZH[s.status]}</span>` : ''}</div>
         </div>
       </div>
       ${chain.length ? `<div class="uc-chain">${chain.map((p) => `<button class="lnk" data-u="${p.id}">${escapeXml(p.name.short ?? p.name.zh)}</button>`).join('<span>›</span>')}<span>›</span><b>${escapeXml(u.name.short ?? u.name.zh)}</b></div>` : ''}
@@ -97,10 +100,22 @@ export class UnitCard {
       this.showEquipment(e.id);
       this.el.querySelectorAll('.eq').forEach((x) => x.classList.toggle('on', x === b));
     }));
+    if (model && SYMBOLIC_MODELS.has(model)) this.el.querySelector('.uc-model-cap')?.insertAdjacentHTML('afterend', '<div class="model-note">示意棋子：不作为实际舰型、机型或制服复原。</div>');
     if (model) {
       const eqWithModel = eq.find((x) => x.e!.model === model);
       this.showModel(model, eqWithModel?.e!.name.zh ?? this.modelLabel(model));
     } else this.disposeViewer();
+  }
+
+  /** 卡片打开时随时间刷新状态行（含海上/空中转移） */
+  updateTime(t: number) {
+    if (!this.current) return;
+    const s = unitStateAt(this.current.id, this.db.units, t);
+    const el = this.el.querySelector('.uc-type');
+    if (!el) return;
+    const transit = s?.movement === 'sea' ? ' · 海上转移' : s?.movement === 'air' ? ' · 空中转移' : s?.movement === 'rail' ? ' · 铁路机动' : '';
+    const status = s ? `<span class="st st-${s.status}">${STATUS_ZH[s.status]}</span>${transit}` : t < this.current.fromH ? '尚未部署' : '已退出本战区';
+    el.innerHTML = `${TYPE_ZH[this.current.type]}${this.current.schematic ? ' · 分遣队 / 聚合标记' : ''} · ${status}`;
   }
 
   private modelLabel(m: ModelId): string {

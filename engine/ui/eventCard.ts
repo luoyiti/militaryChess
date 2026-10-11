@@ -34,6 +34,7 @@ export const eventCardExtras: ((e: REvent) => string | null)[] = [];
 let catInit = false;
 const catZh = (c: string) => { if (!catInit) { Object.assign(CAT_ZH, manifest().ui.categoryLabels ?? {}); catInit = true; } return CAT_ZH[c] ?? ''; };
 const yearOf = (s: string) => (manifest().ui.cardYear === 'keep' ? s : stripYear(s));
+const DAY_NOTE = { note: '（当日，定位时间为示意）', dot: ' · 当日', plain: '' };
 
 export class EventCard {
   el: HTMLElement;
@@ -58,13 +59,14 @@ export class EventCard {
     this.el.innerHTML = `
       <button class="card-close" title="关闭">×</button>
       <div class="ec-stamp cat-${e.category}">${catZh(e.category)}</div>
-      <div class="ec-meta"><span class="ec-date">${fmtDate(e.h, e.precision !== 'day')}${e.precision === 'day' ? '（当日，定位时间为示意）' : ''}${e.endAt ? ` — ${yearOf(fmtDate(e.h1, false))}` : ''}</span><span class="ec-place">📍 ${escapeXml(placeName)}</span></div>
+      <div class="ec-meta"><span class="ec-date">${fmtDate(e.h, e.precision !== 'day')}${e.precision === 'day' ? DAY_NOTE[manifest().ui.precisionStyle ?? 'note'] : ''}${e.endAt ? ` — ${yearOf(fmtDate(e.h1, false))}` : ''}</span><span class="ec-place">📍 ${escapeXml(placeName)}</span></div>
       <h2 class="ec-title">${escapeXml(e.title.zh)}</h2>
       ${e.title.orig ? `<div class="ec-orig">${escapeXml(e.title.orig)}</div>` : ''}
       ${ph ? `<figure class="polaroid"><img src="${ph.src}" alt="" loading="lazy"/><figcaption>${escapeXml(e.photo?.caption ?? ph.caption ?? '')}</figcaption>
         <div class="credit">${escapeXml(cleanAuthor(ph.author))} · <a href="${ph.sourceUrl ?? '#'}" target="_blank" rel="noopener">${escapeXml(ph.license ?? '')}</a></div></figure>` : ''}
       <p class="ec-body typewriter"></p>
       ${eventCardExtras.map((f) => f(e) ?? '').join('')}
+      ${e.mapNote ? `<p class="ec-map-note">${escapeXml(e.mapNote)}</p>` : ''}
       ${units.length ? `<div class="ec-units">${units.map((u) => `<button class="chip side-${u!.side}" data-u="${u!.id}">${escapeXml(u!.name.zh)}</button>`).join('')}</div>` : ''}
       <div class="ec-foot">
         <div class="ec-src">来源：${srcs.map((s) => s!.url ? `<a href="${s!.url}" target="_blank" rel="noopener">${escapeXml(s!.title)}</a>` : escapeXml(s!.title)).join('；')}${e.confidence !== 'high' ? `<span class="conf">（可信度：${e.confidence === 'medium' ? '中' : '低'}）</span>` : ''}</div>
@@ -82,7 +84,7 @@ export class EventCard {
     const body = this.el.querySelector('.ec-body') as HTMLElement;
     cancelAnimationFrame(this.typing);
     const reduced = window.matchMedia?.('(prefers-reduced-motion: reduce)').matches;
-    if (opts.typewriter === false || reduced) { body.textContent = e.body; return; }
+    if (opts.typewriter === false || reduced) { body.textContent = e.body; body.classList.add('done'); return; }
     const text = [...e.body];
     let i = 0, last = 0;
     const cps = 38;

@@ -1,0 +1,65 @@
+[
+ {
+  "id": "poczta_gdansk",
+  "zh": "但泽波兰邮局",
+  "orig": "Poczta Polska w Gdańsku",
+  "alt": "Polnische Post, Heveliusplatz",
+  "pos": [
+   18.655,
+   54.356
+  ],
+  "kind": "fort",
+  "rank": 4,
+  "country": "DZG"
+ },
+ {
+  "id": "ochota",
+  "zh": "奥霍塔区",
+  "orig": "Ochota",
+  "alt": "Warszawa-Ochota",
+  "pos": [
+   20.98,
+   52.215
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "kaluszyn",
+  "zh": "卡武申",
+  "orig": "Kałuszyn",
+  "pos": [
+   21.81,
+   52.21
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "wolka_weglowa",
+  "zh": "沃尔卡-文格洛瓦",
+  "orig": "Wólka Węglowa",
+  "pos": [
+   20.89,
+   52.31
+  ],
+  "kind": "village",
+  "rank": 4,
+  "country": "PL"
+ },
+ {
+  "id": "sopockinie",
+  "zh": "索波茨基涅",
+  "orig": "Sopoćkinie",
+  "alt": "Сопоцкин",
+  "pos": [
+   23.66,
+   53.83
+  ],
+  "kind": "village",
+  "rank": 4,
+  "country": "PL"
+ }
+]

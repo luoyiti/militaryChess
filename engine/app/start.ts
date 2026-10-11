@@ -13,6 +13,7 @@ import { FieldClient, fieldCfg, type GeomResult } from '../geo/field/client';
 import { project } from '../geo/frame';
 import { unitStateAt } from '../model/core';
 import { Timeline } from '../ui/timeline';
+import { ChapterTimeline } from '../ui/timelineChapters';
 import { Sidebar } from '../ui/sidebar';
 import { EventCard, loadPhotoIndex, eventCardExtras } from '../ui/eventCard';
 import { UnitCard } from '../ui/unitCard';
@@ -79,26 +80,28 @@ export async function start(c: CampaignDef) {
 
   const sidebar = new Sidebar(ui, db);
   sidebar.extraLayers = c.plugins.flatMap((p) => p.layers ?? []);
-  const timeline = new Timeline(ui, db);
+  const timeline = m.ui.chapterNav === 'timeline' ? new ChapterTimeline(ui, db) : new Timeline(ui, db);
   const cards = div('cards', ui);
   const eventCard = new EventCard(cards, db);
   const unitCard = new UnitCard(cards, db);
   const banner = div('phase-banner', ui);
   const director = new Director(db, map, eventCard, fx, dyn);
 
-  // 章节导航（manifest.ui.chapterNav = 'sidebar'）
-  const chapterNav = sidebar.el.querySelector('.chapter-nav');
-  if (chapterNav) {
-    chapterNav.innerHTML = PHASES.map((p) => `<button data-chapter="${p.id}" title="${p.sub}">${p.short}</button>`).join('');
-    chapterNav.querySelectorAll<HTMLButtonElement>('button').forEach((b) => (b.onclick = () => {
+  // 章节导航（manifest.ui.chapterNav = 'sidebar'）；分阶段简报重建后重新挂载
+  const mountChapterNav = () => {
+    const nav = sidebar.el.querySelector('.chapter-nav');
+    if (!nav) return;
+    nav.innerHTML = PHASES.map((p) => `<button data-chapter="${p.id}" title="${p.sub}">${p.short}</button>`).join('');
+    nav.querySelectorAll<HTMLButtonElement>('button').forEach((b) => (b.onclick = () => {
       const p = PHASES.find((x) => x.id === b.dataset.chapter)!;
       clock.release(); store.set({ t: p.from, playing: false, selectedEvent: null, selectedUnit: null, followUnit: false });
       eventCard.hide(); unitCard.hide();
       const center = p.center ?? focus, zoom = p.zoom ?? 1;
       if (store.get().mode === '2d') map.flyTo(center, zoom, 900); else sandbox?.flyTo(center, zoom);
     }));
-  }
-  const markChapter = (t: number) => chapterNav?.querySelectorAll<HTMLButtonElement>('button').forEach((b) => b.classList.toggle('on', b.dataset.chapter === phaseAt(t).id));
+  };
+  mountChapterNav();
+  const markChapter = (t: number) => sidebar.el.querySelectorAll<HTMLButtonElement>('.chapter-nav button').forEach((b) => b.classList.toggle('on', b.dataset.chapter === phaseAt(t).id));
 
   // 右侧卡片占位：运镜时把目标放在未被遮挡的区域中心
   Object.defineProperty(map.insets, 'right', {
@@ -134,6 +137,33 @@ export async function start(c: CampaignDef) {
   eventCard.onNav = (d) => timeline.stepEvent(d);
   const openEvent = (e: REvent) => { clock.release(); store.set({ t: e.h, playing: false }); director.present(e, false); };
   timeline.onEventPick = openEvent;
+  sidebar.onEvent = (id) => { const e = db.events.find((x) => x.id === id); if (e) { director.cancel(); store.set({ playing: false }); clock.seek(e.h); director.present(e, false); } };
+  // 跳转式时间轴广播的 campaign-seek：清空卡片与导演队列
+  window.addEventListener('campaign-seek', () => { director.cancel(); eventCard.hide(); unitCard.hide(); store.set({ selectedUnit: null, selectedEvent: null, followUnit: false }); });
+
+  // 战区视角按钮（manifest.map.regions）
+  if (m.map.regions?.length) {
+    const regions = div('region-nav paper', ui);
+    regions.setAttribute('aria-label', '战区视角');
+    regions.innerHTML = `<span>战区</span>${m.map.regions.map((r, i) => `<button data-region="${r.id}" class="${i === 0 ? 'on' : ''}">${r.label}</button>`).join('')}`;
+    regions.querySelectorAll<HTMLButtonElement>('[data-region]').forEach((btn) => (btn.onclick = () => {
+      const r = m.map.regions!.find((x) => x.id === btn.dataset.region)!;
+      store.set({ followUnit: false });
+      if (store.get().mode === '2d') { if (r.zoom <= 1) map.home(); else map.flyTo(r.center, r.zoom, 950); }
+      else sandbox?.flyTo(r.center, r.zoom);
+      regions.querySelectorAll('button').forEach((x) => x.classList.toggle('on', x === btn));
+    }));
+  }
+  // 右下角读图条（manifest.map.mapKey）
+  if (m.map.mapKey) div('map-key paper', ui).innerHTML = m.map.mapKey;
+  if (timeline instanceof ChapterTimeline) timeline.onChapter = (p) => {
+    director.cancel();
+    eventCard.hide(); unitCard.hide();
+    store.set({ selectedEvent: null, selectedUnit: null, followUnit: false });
+    const center = p.center ?? focus, zoom = p.zoom ?? 1;
+    if (store.get().mode === '2d') map.flyTo(center, window.innerWidth < 760 ? Math.min(zoom, m.map.mobileZoomCap ?? 4) : zoom, 900);
+    else ensureSandbox().then((sb) => sb.flyTo(center, zoom));
+  };
   dyn.onEventClick = openEvent;
   mapEl.addEventListener('click', () => { if (store.get().selectedUnit) selectUnit(null); });
 
@@ -178,6 +208,7 @@ export async function start(c: CampaignDef) {
     const h = await p.setup({ manifest: m, db, store, clock, audio, map, director, ui: { root: ui, topbarButtons: btns, briefPane: sidebar.briefPane } });
     if (h) hooks.push(h);
   }
+  sidebar.briefRebuilt = (pane) => { mountChapterNav(); markChapter(store.get().t); for (const h of hooks) h.sidebarBrief?.(pane); };
   for (const h of hooks) {
     h.topbar?.(btns);
     h.sidebarBrief?.(sidebar.briefPane);
@@ -195,6 +226,7 @@ export async function start(c: CampaignDef) {
       units.setTime(s.t);
       requestField(s.t);
       if (s.selectedUnit) dyn.showTrack(db.units.get(s.selectedUnit) ?? null, s.t);
+      unitCard.updateTime(s.t);
       sandbox?.setTime(s.t);
       const p = phaseAt(s.t);
       markChapter(s.t);
@@ -236,7 +268,12 @@ export async function start(c: CampaignDef) {
         mapEl.classList.add('hidden'); sandboxEl.classList.remove('hidden');
         document.body.classList.add('mode-3d');
         ensureSandbox()
-          .then((sb) => { sb.show(); sb.setTime(store.get().t); requestField(store.get().t, true); })
+          .then((sb) => {
+            sb.show(); sb.setTime(store.get().t);
+            const p = phaseAt(store.get().t);
+            if (m.ui.sandboxPhaseFocus && p.center) sb.flyTo(p.center, Math.min(p.zoom ?? 1, 4.8));
+            requestField(store.get().t, true);
+          })
           .catch((err) => { console.error('3D 沙盘加载失败', err); store.set({ mode: '2d' }); });
       } else {
         sandbox?.hide(); sandboxEl.classList.add('hidden'); mapEl.classList.remove('hidden');
@@ -303,8 +340,9 @@ export async function start(c: CampaignDef) {
     else if (ev.key.toLowerCase() === 'm') store.set({ mode: s.mode === '2d' ? '3d' : '2d' });
     else if (ev.key === 'Escape') { if (unitCard.current) unitCard.hide(); else if (eventCard.current) eventCard.hide(); }
   });
+  const sidebarInset = () => (sidebar.el.classList.contains('collapsed') ? 30 : sidebar.el.getBoundingClientRect().width + 20);
   window.addEventListener('sidebar-toggle', () => {
-    map.insets.left = sidebar.el.classList.contains('collapsed') ? 30 : 340;
+    map.insets.left = sidebarInset();
     map.resize();
   });
 
@@ -315,8 +353,15 @@ export async function start(c: CampaignDef) {
   const tParam = params.get('t');
   // ?t=YYYY-MM-DDTHH:mm 直接跳到指定时刻（夹在可播放区间内；格式错误时忽略）
   store.set({ t: tParam && isIso(tParam) ? Math.max(T_START, Math.min(T_END, isoToHours(tParam))) : T_START });
-  map.insets.left = sidebar.el.classList.contains('collapsed') ? 30 : 340;
+  map.insets.left = sidebarInset();
   map.resize();
+  if (!(timeline instanceof ChapterTimeline)) map.home(0);
+  // 章节式时间轴更高：运镜中心按时间轴高度留白（全图缩放仍按初次适配，窗口尺寸变化时再重新适配）
+  if (timeline instanceof ChapterTimeline) {
+    const fitInsets = () => { map.insets.top = window.innerWidth < 760 ? 104 : 64; map.insets.bottom = timeline.el.getBoundingClientRect().height + 26; };
+    fitInsets();
+    window.addEventListener('resize', () => { fitInsets(); map.resize(); });
+  }
   store.setLayer('units', true);
   dyn.setTime(store.get().t);
   units.setTime(store.get().t);
@@ -327,6 +372,7 @@ export async function start(c: CampaignDef) {
     await audio.init();
     store.set({ started: true, director: tour });
     audio.sting();
+    if (tour && m.ui.tourOpensFirstEvent && db.events[0]) window.setTimeout(() => director.present(db.events[0], true), 1800);
     window.setTimeout(() => {
       if (m.audio.introMusic) audio.playMusic(m.audio.introMusic, 4000);
       audio.startAmbience();

@@ -22,7 +22,7 @@ const polyD = (polys: number[][][][]) => {
   }
   return d;
 };
-const lineD = (lines: number[][][]) => lines.map((l) => 'M' + l.map((p) => `${p[0].toFixed(1)},${p[1].toFixed(1)}`).join('L')).join('');
+export const lineD = (lines: number[][][]) => lines.filter((l) => l.length >= 2).map((l) => 'M' + l.map((p) => `${p[0].toFixed(1)},${p[1].toFixed(1)}`).join('L')).join('');
 
 /** Catmull-Rom 加密 */
 function smooth(pts: number[][], seg = 8): number[][] {
@@ -141,10 +141,25 @@ export class DynamicLayers {
     this.pocketsG = svgEl('g', { class: 'pockets' }, map.screenSvg);
     this.eventsG = svgEl('g', { class: 'events' }, map.screenSvg);
 
+    const markers = manifest().map.transportStyle === 'markers';
     for (const r of db.routes) {
       const full = svgEl('path', { class: `route-full side-${r.side} move-${r.movement ?? 'land'}` }, G.routes);
       const arrow = arrowOf(r.side);
-      const body = svgEl('path', { class: `arrow side-${r.side} st-${r.style} move-${r.movement ?? 'land'}${r.role ? ` role-${r.role}` : ''}`, fill: arrow.fill, stroke: arrow.stroke }, G.routes);
+      const transport = !!r.movement && r.movement !== 'land';
+      let body: SVGPathElement;
+      if (transport && markers) {
+        // 海/空运与撤运：细线 + 箭头标记 + 悬停说明（manifest.map.transportStyle = 'markers'）
+        const kind = r.role === 'evacuation' ? 'evacuation' : r.movement === 'sea' ? 'naval' : r.movement!;
+        const markerId = `op-head-${r.side}`;
+        if (!map.defs.querySelector(`#${markerId}`)) {
+          const marker = svgEl('marker', { id: markerId, markerWidth: 7, markerHeight: 7, refX: 5.5, refY: 3.5, orient: 'auto', markerUnits: 'strokeWidth' }, map.defs);
+          marker.innerHTML = `<path d="M0,0 L7,3.5 L0,7 L1.8,3.5Z" fill="${arrow.stroke}"/>`;
+        }
+        body = svgEl('path', { class: `operation-line kind-${kind} side-${r.side} st-${r.style}`, fill: 'none', stroke: arrow.stroke, 'marker-end': `url(#${markerId})` }, G.routes);
+      } else {
+        body = svgEl('path', { class: `arrow side-${r.side} st-${r.style} move-${r.movement ?? 'land'}${r.role ? ` role-${r.role} kind-${r.role}` : ''}`, fill: arrow.fill, stroke: arrow.stroke }, G.routes);
+      }
+      if (markers) { const title = svgEl('title', {}, body); title.textContent = `${r.label ?? ''}（概略行动方向）`; }
       const hatch = svgEl('path', { class: 'arrow-hatch' }, G.routes);
       const label = svgEl('g', { class: `route-label side-${r.side}` }, this.routeLabelsG);
       label.innerHTML = r.label ? `<text>${escapeXml(r.label)}</text>` : '';

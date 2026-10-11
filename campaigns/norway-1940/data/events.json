@@ -1,0 +1,1071 @@
+[
+ {
+  "id": "e.weser",
+  "at": "1940-04-09T00:00",
+  "title": {
+   "zh": "威悉演习 · 多港口同时入侵",
+   "orig": "Operation Weserübung"
+  },
+  "body": "德国以海军运输、空降与空运突袭挪威战略港口和机场。纳尔维克、特隆赫姆、卑尔根、克里斯蒂安桑及奥斯陆方向同时遭攻击；德军先形成彼此分离的沿海据点，再向内陆扩展。长海岸与峡湾使这场战役从一开始就是多个海陆空战场并行。",
+  "place": "@trondheim",
+  "category": "movement",
+  "side": "DE",
+  "units": [
+   "de.69_bergen",
+   "de.3geb_trondheim",
+   "de.3geb_narvik"
+  ],
+  "sources": [
+   "uk_ch3",
+   "no_army"
+  ],
+  "confidence": "high",
+  "importance": 1,
+  "mapNote": "城市/机场为地理锚点；路线与控制区为概略作战示意。该日时分仅用于播放排序。",
+  "sfx": [
+   "morse"
+  ],
+  "narration": "On the ninth of April, Germany attacked Norway at several ports at once. Sea landings and airborne forces created separate bridgeheads along the coast.",
+  "zoomRel": 1,
+  "wide": true,
+  "precision": "day"
+ },
+ {
+  "id": "e.blucher",
+  "at": "1940-04-09T06:30",
+  "title": {
+   "zh": "奥斯卡堡击沉布吕歇尔号",
+   "orig": "Blücher at Oscarsborg"
+  },
+  "body": "奥斯陆峡湾里的奥斯卡堡以岸炮与鱼雷重创德军登陆编队旗舰布吕歇尔号，舰船随后沉没。突入首都的海上行动受阻，为挪威王室、政府撤出争取时间。海上阻击并未阻止德军当天经机场与陆路夺取奥斯陆，但改变了政治领导层的处境。",
+  "place": "@oscarsborg",
+  "category": "naval",
+  "side": "NO",
+  "units": [
+   "no.oscarsborg",
+   "de.blucher"
+  ],
+  "sources": [
+   "oscarsborg_archive",
+   "uk_ch3"
+  ],
+  "confidence": "high",
+  "importance": 1,
+  "mapNote": "城市/机场为地理锚点；路线与控制区为概略作战示意。该日时分仅用于播放排序。",
+  "sfx": [
+   "ship_gun"
+  ],
+  "narration": "At Oscarsborg, coastal guns and torpedoes sank the German cruiser Blücher. The delay helped Norway’s government and king escape capture.",
+  "zoomRel": 5.6,
+  "precision": "day"
+ },
+ {
+  "id": "e.narvik_landing",
+  "at": "1940-04-09T07:00",
+  "title": {
+   "zh": "纳尔维克 · 铁矿港被夺取",
+   "orig": "Narvik landings"
+  },
+  "body": "德国10艘驱逐舰输送第3山地师所属部队进入纳尔维克，挪威岸防舰艾兹沃尔号与挪威号被击沉。港口是瑞典铁矿的重要冬季出口。德军夺取城区后，挪威第6师仍在北部集结，海战与山地反攻将围绕这个孤立据点持续进行。",
+  "place": "@narvik",
+  "category": "naval",
+  "side": "DE",
+  "units": [
+   "de.3geb_narvik",
+   "de.narvik_destroyers",
+   "no.norge",
+   "no.eidsvold"
+  ],
+  "sources": [
+   "uk_ch3",
+   "no_army"
+  ],
+  "confidence": "high",
+  "importance": 1,
+  "mapNote": "城市/机场为地理锚点；路线与控制区为概略作战示意。该日时分仅用于播放排序。",
+  "sfx": [
+   "ship_gun"
+  ],
+  "zoomRel": 4.4,
+  "precision": "day"
+ },
+ {
+  "id": "e.trondheim",
+  "at": "1940-04-09T08:00",
+  "title": {
+   "zh": "特隆赫姆 · 中部登陆支点",
+   "orig": "Trondheim and Værnes"
+  },
+  "body": "德军突破特隆赫姆峡湾岸防，输送第3山地师的分遣队占据港口，并利用韦尔内斯机场建立增援和航空基地。第181步兵师属于后续增援。中部这一据点与奥斯陆尚未陆路连通，盟军随后从其南北两侧登陆，试图夺回特隆赫姆。",
+  "place": "@trondheim",
+  "category": "movement",
+  "side": "DE",
+  "units": [
+   "de.3geb_trondheim"
+  ],
+  "sources": [
+   "uk_ch3"
+  ],
+  "confidence": "high",
+  "importance": 2,
+  "mapNote": "城市/机场为地理锚点；路线与控制区为概略作战示意。该日时分仅用于播放排序。",
+  "sfx": [
+   "morse"
+  ],
+  "zoomRel": 3.4,
+  "precision": "day"
+ },
+ {
+  "id": "e.sola",
+  "at": "1940-04-09T10:00",
+  "title": {
+   "zh": "索拉机场与西南港口",
+   "orig": "Sola / Stavanger"
+  },
+  "body": "德军空降与空运夺取索拉机场，在斯塔万格、埃格尔松等西南沿海地点建立据点。机场让后续人员、补给和空军力量能直接进入挪威。地图把空中行动与港口登陆分开显示；部队标记表示分遣队，不能将一个师机械放在多个城市。",
+  "place": "@sola",
+  "category": "air",
+  "side": "DE",
+  "units": [
+   "de.69_sola",
+   "de.luftwaffe"
+  ],
+  "sources": [
+   "uk_ch3"
+  ],
+  "confidence": "high",
+  "importance": 2,
+  "mapNote": "城市/机场为地理锚点；路线与控制区为概略作战示意。该日时分仅用于播放排序。",
+  "sfx": [
+   "bomber"
+  ],
+  "zoomRel": 3.4,
+  "precision": "day"
+ },
+ {
+  "id": "e.south_ports",
+  "at": "1940-04-09T11:00",
+  "title": {
+   "zh": "卑尔根与克里斯蒂安桑登陆",
+   "orig": "Bergen / Kristiansand"
+  },
+  "body": "德军海军编队在岸防炮火下进入卑尔根与克里斯蒂安桑，分别支持第69师、第163师所属分遣队登陆。这些港口分布很远，各自形成桥头堡。卑尔根的柯尼斯堡号受损后留在港内，次日成为英国海军航空兵的打击目标。",
+  "place": "@bergen",
+  "category": "naval",
+  "side": "DE",
+  "units": [
+   "de.69_bergen",
+   "de.163_south",
+   "de.konigsberg"
+  ],
+  "sources": [
+   "uk_ch3"
+  ],
+  "confidence": "high",
+  "importance": 2,
+  "mapNote": "城市/机场为地理锚点；路线与控制区为概略作战示意。该日时分仅用于播放排序。",
+  "sfx": [
+   "ship_gun"
+  ],
+  "zoomRel": 1.9,
+  "precision": "day"
+ },
+ {
+  "id": "e.oslo",
+  "at": "1940-04-09T14:00",
+  "title": {
+   "zh": "奥斯陆失守 · 政府离开首都",
+   "orig": "Fornebu and Oslo"
+  },
+  "body": "福尼布机场的德军机降与后续部队进入奥斯陆，首都在4月9日被占领。王室、政府及议会已经离开，之后转往内陆坚持抵抗。海峡阻击与首都失守需分开理解：一个是海军突袭受挫，另一个是德国凭航空与陆上力量实现的港城占领。",
+  "place": "@oslo",
+  "category": "movement",
+  "side": "DE",
+  "units": [
+   "de.163_oslo",
+   "no.south"
+  ],
+  "sources": [
+   "uk_ch3",
+   "no_army"
+  ],
+  "confidence": "high",
+  "importance": 1,
+  "mapNote": "城市/机场为地理锚点；路线与控制区为概略作战示意。该日时分仅用于播放排序。",
+  "sfx": [
+   "morse"
+  ],
+  "zoomRel": 3.4,
+  "precision": "day"
+ },
+ {
+  "id": "e.first_narvik",
+  "at": "1940-04-10T04:30",
+  "title": {
+   "zh": "第一次纳尔维克海战",
+   "orig": "First Battle of Narvik"
+  },
+  "body": "英国5艘驱逐舰清晨突入纳尔维克港及奥福特峡湾，与德国驱逐舰交战。双方各损失2艘驱逐舰；英国Hardy、Hunter损失，突击队随后退出。地图只改变海军态势，不把城区涂成盟军占领：迪特尔的山地兵仍控制港城。",
+  "place": "@ofotfjord",
+  "category": "naval",
+  "side": "UK",
+  "units": [
+   "uk.destroyers",
+   "de.narvik_destroyers"
+  ],
+  "sources": [
+   "uk_ch4"
+  ],
+  "confidence": "high",
+  "importance": 1,
+  "mapNote": "城市/机场为地理锚点；路线与控制区为概略作战示意。该日时分仅用于播放排序。",
+  "sfx": [
+   "ship_gun"
+  ],
+  "narration": "British destroyers struck Narvik on the tenth of April. Both sides lost ships, but German mountain troops still held the town.",
+  "zoomRel": 4.4,
+  "precision": "day"
+ },
+ {
+  "id": "e.konigsberg",
+  "at": "1940-04-10T12:00",
+  "title": {
+   "zh": "卑尔根港 · 柯尼斯堡号被击沉",
+   "orig": "Skua raid on Königsberg"
+  },
+  "body": "英国海军航空兵的Skua俯冲轰炸机从奥克尼哈特斯顿起飞，袭击留在卑尔根港内的柯尼斯堡号并将其击沉。远距离空中行动说明海岸据点也受到英国海军反制。飞行线仅连接已知出发基地与打击目标，不能解读为逐分钟航迹。",
+  "place": "@bergen",
+  "category": "air",
+  "side": "UK",
+  "units": [
+   "uk.faa",
+   "de.konigsberg"
+  ],
+  "sources": [
+   "uk_ch4"
+  ],
+  "confidence": "high",
+  "importance": 2,
+  "mapNote": "城市/机场为地理锚点；路线与控制区为概略作战示意。该日时分仅用于播放排序。",
+  "sfx": [
+   "bomber"
+  ],
+  "zoomRel": 3.4,
+  "precision": "day"
+ },
+ {
+  "id": "e.ruge",
+  "at": "1940-04-12T12:00",
+  "title": {
+   "zh": "挪威集结 · 内陆迟滞抵抗",
+   "orig": "Norwegian resistance under Ruge"
+  },
+  "body": "鲁格于4月10日接任挪威军队指挥，随后组织南部抵抗，等待盟军支援。挪军利用内陆山谷和交通走廊迟滞德军，由米约萨湖及利勒哈默尔一带逐步北撤。这里的集群棋子表示多支部队的作战方向，不是一支虚构番号的统一军团。",
+  "place": "@lillehammer",
+  "category": "battle",
+  "side": "NO",
+  "units": [
+   "no.south"
+  ],
+  "sources": [
+   "no_army",
+   "uk_ch7"
+  ],
+  "confidence": "high",
+  "importance": 2,
+  "mapNote": "城市/机场为地理锚点；路线与控制区为概略作战示意。该日时分仅用于播放排序。",
+  "sfx": [
+   "artillery"
+  ],
+  "zoomRel": 2.6,
+  "precision": "day"
+ },
+ {
+  "id": "e.second_narvik",
+  "at": "1940-04-13T12:00",
+  "title": {
+   "zh": "第二次纳尔维克海战",
+   "orig": "Warspite in Ofotfjord"
+  },
+  "body": "厌战号战列舰与英国驱逐舰进入奥福特峡湾，摧毁余下德国驱逐舰。失去运输舰艇的德军仍在陆地抵抗，上岸海军人员也加入战斗。海军编队的消失和山地部队的存在同时显示，解释为什么海上胜利没有立即带来纳尔维克易手。",
+  "place": "@ofotfjord",
+  "category": "naval",
+  "side": "UK",
+  "units": [
+   "uk.warspite",
+   "de.narvik_destroyers",
+   "de.3geb_narvik"
+  ],
+  "sources": [
+   "uk_ch4"
+  ],
+  "confidence": "high",
+  "importance": 1,
+  "mapNote": "城市/机场为地理锚点；路线与控制区为概略作战示意。该日时分仅用于播放排序。",
+  "sfx": [
+   "ship_gun"
+  ],
+  "narration": "Warspite and British destroyers destroyed the remaining German destroyers. The naval battle was won, but the land campaign had only begun.",
+  "photo": {
+   "commons": "File:The Second British Naval Action Off Narvik. 13 April 1940, Aerial Photographs From a Fleet Air Arm Aircraft. A33.jpg",
+   "caption": "1940年4月13日，第二次纳尔维克海战中的英国舰艇（IWM A33）"
+  },
+  "zoomRel": 4.4,
+  "precision": "day"
+ },
+ {
+  "id": "e.namsos_advance",
+  "at": "1940-04-14T12:00",
+  "title": {
+   "zh": "纳姆索斯先遣登陆",
+   "orig": "Namsos naval advance party"
+  },
+  "body": "英国海军先遣队抵达纳姆索斯，准备为随后到来的部队建立港口基地。第146步兵旅从4月16日起登陆，法国山地猎兵随后加入。盟军计划从北面逼近特隆赫姆，登陆日期与陆军正式投入作战的日期在地图中分开编排。",
+  "place": "@namsos",
+  "category": "movement",
+  "side": "UK",
+  "units": [],
+  "sources": [
+   "uk_ch6"
+  ],
+  "confidence": "high",
+  "importance": 2,
+  "mapNote": "城市/机场为地理锚点；路线与控制区为概略作战示意。该日时分仅用于播放排序。",
+  "sfx": [
+   "morse"
+  ],
+  "zoomRel": 3.4,
+  "precision": "day"
+ },
+ {
+  "id": "e.harstad",
+  "at": "1940-04-15T12:00",
+  "title": {
+   "zh": "哈尔斯塔 · 北部盟军基地",
+   "orig": "Harstad landings"
+  },
+  "body": "英国第24近卫旅在哈尔斯塔登陆，以此作为纳尔维克方向的基地。海军与陆军对行动节奏存在分歧，山区和峡湾也限制推进。盟军在港城外围逐步展开，同时挪威第6师从北部内陆施压，这与中部特隆赫姆行动是两个并行战场。",
+  "place": "@harstad",
+  "category": "movement",
+  "side": "UK",
+  "units": [
+   "uk.24",
+   "no.6div"
+  ],
+  "sources": [
+   "uk_ch10",
+   "uk_chb"
+  ],
+  "confidence": "high",
+  "importance": 2,
+  "mapNote": "城市/机场为地理锚点；路线与控制区为概略作战示意。该日时分仅用于播放排序。",
+  "sfx": [
+   "morse"
+  ],
+  "zoomRel": 2.6,
+  "precision": "day"
+ },
+ {
+  "id": "e.namsos",
+  "at": "1940-04-16T12:00",
+  "title": {
+   "zh": "中部北翼 · 第146旅登陆",
+   "orig": "146th Brigade at Namsos"
+  },
+  "body": "第146步兵旅在纳姆索斯展开，向斯泰因谢尔方向推进，意在从北面威胁特隆赫姆。法国山地猎兵随后支援。狭长交通走廊与德军空袭使港口和补给极易受损；这条箭头表示行动方向，不表示盟军已经控制整条峡湾或到达特隆赫姆。",
+  "place": "@namsos",
+  "category": "movement",
+  "side": "UK",
+  "units": [
+   "uk.146",
+   "fr.alp_namsos"
+  ],
+  "sources": [
+   "uk_ch6",
+   "uk_chb"
+  ],
+  "confidence": "high",
+  "importance": 1,
+  "mapNote": "城市/机场为地理锚点；路线与控制区为概略作战示意。该日时分仅用于播放排序。",
+  "sfx": [
+   "morse"
+  ],
+  "zoomRel": 2.6,
+  "precision": "day"
+ },
+ {
+  "id": "e.andalsnes",
+  "at": "1940-04-18T12:00",
+  "title": {
+   "zh": "中部南翼 · 翁达尔斯内斯登陆",
+   "orig": "Åndalsnes and the Gudbrandsdal"
+  },
+  "body": "17日海军先遣队抵达，18日英国第148旅登陆。部队经罗姆斯达尔谷地和栋博斯向南支援挪军，而原先夺回特隆赫姆的计划逐步转向防御。地图用折线路径经过已知交通节点，避免把港口至利勒哈默尔画成穿越山体的直线。",
+  "place": "@andalsnes",
+  "category": "movement",
+  "side": "UK",
+  "units": [
+   "uk.148",
+   "no.south"
+  ],
+  "sources": [
+   "uk_ch7",
+   "uk_ch9",
+   "uk_chb"
+  ],
+  "confidence": "high",
+  "importance": 1,
+  "mapNote": "城市/机场为地理锚点；路线与控制区为概略作战示意。该日时分仅用于播放排序。",
+  "sfx": [
+   "morse"
+  ],
+  "zoomRel": 2.6,
+  "precision": "day"
+ },
+ {
+  "id": "e.namsos_bomb",
+  "at": "1940-04-20T12:00",
+  "title": {
+   "zh": "纳姆索斯遭轰炸 · 补给承压",
+   "orig": "Air raids on Namsos"
+  },
+  "body": "德军空袭严重破坏纳姆索斯的港区和城区，盟军的补给、集结与防空受到压力。占据韦尔内斯等机场让德国能反复打击中部登陆基地。空中线只表示航空基地与目标的关系，海港部队仍需继续在陆地抵抗，不能用一次空袭替代整场战斗。",
+  "place": "@namsos",
+  "category": "air",
+  "side": "DE",
+  "units": [
+   "de.luftwaffe",
+   "uk.146"
+  ],
+  "sources": [
+   "uk_ch6"
+  ],
+  "confidence": "high",
+  "importance": 2,
+  "mapNote": "城市/机场为地理锚点；路线与控制区为概略作战示意。该日时分仅用于播放排序。",
+  "sfx": [
+   "bomber"
+  ],
+  "zoomRel": 3.4,
+  "precision": "day"
+ },
+ {
+  "id": "e.steinkjer",
+  "at": "1940-04-22T12:00",
+  "title": {
+   "zh": "斯泰因谢尔方向 · 德军反击",
+   "orig": "Steinkjer and Vist"
+  },
+  "body": "德军从特隆赫姆向北推进，并利用峡湾侧翼登陆威胁英挪军队。斯泰因谢尔及周边战斗使盟军北钳形攻势受挫，部队被迫退回纳姆索斯方向。陆路推进、海上包抄与空中优势相互配合，不能被压缩成一条简单的北向前线。",
+  "place": "@steinkjer",
+  "category": "battle",
+  "side": "DE",
+  "units": [
+   "de.3geb_trondheim",
+   "uk.146"
+  ],
+  "sources": [
+   "uk_ch6"
+  ],
+  "confidence": "high",
+  "importance": 2,
+  "mapNote": "城市/机场为地理锚点；路线与控制区为概略作战示意。该日时分仅用于播放排序。",
+  "sfx": [
+   "artillery"
+  ],
+  "zoomRel": 3.4,
+  "precision": "day"
+ },
+ {
+  "id": "e.tretten",
+  "at": "1940-04-23T12:00",
+  "title": {
+   "zh": "特雷滕战斗 · 英军遭重创",
+   "orig": "Battle of Tretten"
+  },
+  "body": "第148旅在古德布兰谷的特雷滕遭德军攻击，出现严重伤亡和被俘，原旅作为完整作战力量难以继续。第15旅随后投入迟滞战。棋子淡出表示旅的作战组织失去完整性，不能理解为全旅人员全部阵亡或在同一时刻投降。",
+  "place": "@tretten",
+  "category": "battle",
+  "side": "DE",
+  "units": [
+   "uk.148",
+   "uk.15",
+   "de.196",
+   "no.south"
+  ],
+  "sources": [
+   "uk_ch7",
+   "uk_ch8",
+   "uk_chb"
+  ],
+  "confidence": "high",
+  "importance": 2,
+  "mapNote": "城市/机场为地理锚点；路线与控制区为概略作战示意。该日时分仅用于播放排序。",
+  "sfx": [
+   "artillery"
+  ],
+  "zoomRel": 3.4,
+  "precision": "day"
+ },
+ {
+  "id": "e.lesjaskog",
+  "at": "1940-04-24T12:00",
+  "title": {
+   "zh": "RAF抵达冰湖机场",
+   "orig": "No. 263 Squadron at Lesjaskog"
+  },
+  "body": "英国皇家空军第263中队的Gladiator战斗机飞抵冰封莱沙斯库格湖，尝试支援中部地面部队。25日德国空袭破坏了飞机与基地，26日因可用飞机、燃料不足退出。这次短暂部署显示盟军在挪威建立空中支援的困难。",
+  "place": "@lesjaskog",
+  "category": "air",
+  "side": "UK",
+  "units": [
+   "uk.263_south"
+  ],
+  "sources": [
+   "raf_timeline"
+  ],
+  "confidence": "high",
+  "importance": 2,
+  "mapNote": "城市/机场为地理锚点；路线与控制区为概略作战示意。该日时分仅用于播放排序。",
+  "sfx": [
+   "bomber"
+  ],
+  "zoomRel": 3.4,
+  "precision": "day"
+ },
+ {
+  "id": "e.lesjaskog_raid",
+  "at": "1940-04-25T12:00",
+  "title": {
+   "zh": "冰湖基地遭空袭",
+   "orig": "Lesjaskog airfield under attack"
+  },
+  "body": "德军袭击莱沙斯库格冰湖基地，第263中队的飞机和补给受到破坏。抵达与受袭并非同一天：24日部署，25日受袭，26日退出中部行动。保持这些节点分开，能看到航空基地生存能力怎样限制地面部队获得持续空中掩护。",
+  "place": "@lesjaskog",
+  "category": "air",
+  "side": "DE",
+  "units": [
+   "uk.263_south",
+   "de.luftwaffe"
+  ],
+  "sources": [
+   "raf_timeline"
+  ],
+  "confidence": "high",
+  "importance": 2,
+  "mapNote": "城市/机场为地理锚点；路线与控制区为概略作战示意。该日时分仅用于播放排序。",
+  "sfx": [
+   "bomber"
+  ],
+  "zoomRel": 3.4,
+  "precision": "day"
+ },
+ {
+  "id": "e.gratangen",
+  "at": "1940-04-25T12:00",
+  "title": {
+   "zh": "格拉唐根 · 挪军山地抵抗",
+   "orig": "Gratangen"
+  },
+  "body": "纳尔维克北面的格拉唐根发生激烈战斗，挪威第6师战区内的I/IR12营遭德国反击并损失严重。山区抵抗仍继续，为后续挪法协同反攻铺路。地图的师级棋子表示整个战区的方向，不把一个营的损失写成第6师覆灭。",
+  "place": "@gratangen",
+  "category": "battle",
+  "side": "NO",
+  "units": [
+   "no.6div",
+   "de.3geb_narvik"
+  ],
+  "sources": [
+   "gratangen",
+   "uk_ch10"
+  ],
+  "confidence": "high",
+  "importance": 2,
+  "mapNote": "城市/机场为地理锚点；路线与控制区为概略作战示意。该日时分仅用于播放排序。",
+  "sfx": [
+   "artillery"
+  ],
+  "zoomRel": 4.4,
+  "precision": "day"
+ },
+ {
+  "id": "e.linkup",
+  "at": "1940-04-30T12:00",
+  "title": {
+   "zh": "南北德军会师 · 中部连接",
+   "orig": "Oslo–Trondheim link-up"
+  },
+  "body": "由奥斯陆向北与由特隆赫姆向南的德军在斯特伦以南接通，建立了较稳固的中部陆路联系。盟军南北钳形行动已难达成夺回特隆赫姆的目标，撤离成为主要决策。连接只发生在中部，不能延伸成一直通往纳尔维克的连续德军前线。",
+  "place": "@bjerkaker",
+  "category": "movement",
+  "side": "DE",
+  "units": [
+   "de.196",
+   "de.181"
+  ],
+  "sources": [
+   "uk_ch9"
+  ],
+  "confidence": "high",
+  "importance": 1,
+  "mapNote": "城市/机场为地理锚点；路线与控制区为概略作战示意。该日时分仅用于播放排序。",
+  "sfx": [
+   "morse"
+  ],
+  "zoomRel": 1.9,
+  "precision": "day"
+ },
+ {
+  "id": "e.andalsnes_evacuate",
+  "at": "1940-05-02T12:00",
+  "title": {
+   "zh": "翁达尔斯内斯与莫尔德撤离完成",
+   "orig": "Central withdrawal: Åndalsnes / Molde"
+  },
+  "body": "英军经翁达尔斯内斯、莫尔德撤出中部南翼，海上撤运在5月2日完成。挪军随后面对独立继续抵抗的困境，但不能将这一日期写成挪威全境停止作战。中部港口的盟军棋子撤出，北部哈尔斯塔与纳尔维克战区仍保持活动。",
+  "place": "@andalsnes",
+  "category": "movement",
+  "side": "UK",
+  "units": [
+   "uk.15",
+   "no.south"
+  ],
+  "sources": [
+   "uk_ch9",
+   "no_army"
+  ],
+  "confidence": "high",
+  "importance": 1,
+  "mapNote": "城市/机场为地理锚点；路线与控制区为概略作战示意。该日时分仅用于播放排序。",
+  "sfx": [
+   "morse"
+  ],
+  "zoomRel": 2.6,
+  "precision": "day"
+ },
+ {
+  "id": "e.namsos_evacuate",
+  "at": "1940-05-03T12:00",
+  "title": {
+   "zh": "纳姆索斯撤离完成",
+   "orig": "Namsos evacuation"
+  },
+  "body": "盟军于2日到3日夜间撤出纳姆索斯，完成中部北翼撤运。返航受到德军空袭，英国Afridi与法国Bison驱逐舰损失。盟军从中部退出，并不等于失去所有海上运输能力；北部法国、波兰增援仍继续进入纳尔维克战区。",
+  "place": "@namsos",
+  "category": "movement",
+  "side": "UK",
+  "units": [
+   "uk.146",
+   "fr.alp_namsos"
+  ],
+  "sources": [
+   "uk_ch9"
+  ],
+  "confidence": "high",
+  "importance": 1,
+  "mapNote": "城市/机场为地理锚点；路线与控制区为概略作战示意。该日时分仅用于播放排序。",
+  "sfx": [
+   "morse"
+  ],
+  "photo": {
+   "commons": "File:British troops arriving on the quayside at Namsos in Norway prior to evacuation, 2 May 1940. N108.jpg",
+   "caption": "1940年5月2日，纳姆索斯码头上的撤运准备；撤离在5月3日完成（IWM N108）"
+  },
+  "zoomRel": 2.6,
+  "precision": "day"
+ },
+ {
+  "id": "e.hegra",
+  "at": "1940-05-05T12:00",
+  "title": {
+   "zh": "赫格拉要塞停止抵抗",
+   "orig": "Hegra fortress surrenders"
+  },
+  "body": "特隆赫姆东侧的赫格拉要塞在长期孤立抵抗后停止作战。此前中部盟军已经撤走，但要塞一直维持独立抵抗，南部个别地区战斗还会持续至5月10日。本节点只改变要塞守军状态，不能写成挪威全国投降或北部战役结束。",
+  "place": "@hegra",
+  "category": "surrender",
+  "side": "NO",
+  "units": [
+   "no.hegra"
+  ],
+  "sources": [
+   "uk_ch9",
+   "no_army"
+  ],
+  "confidence": "high",
+  "importance": 2,
+  "mapNote": "城市/机场为地理锚点；路线与控制区为概略作战示意。该日时分仅用于播放排序。",
+  "sfx": [
+   "bell"
+  ],
+  "zoomRel": 4.4,
+  "precision": "day"
+ },
+ {
+  "id": "e.french_reinforce",
+  "at": "1940-05-06T12:00",
+  "title": {
+   "zh": "法国外籍军团增援北部",
+   "orig": "13e DBLE lands in North Norway"
+  },
+  "body": "法国外籍军团第13半旅抵达北部，与此前法国山地猎兵和英国部队一同准备反攻。哈尔斯塔仍是主要运输基地。法国不同部队以独立标记表示，避免将山地猎兵与外籍军团揉成一支不存在的统一旅；具体舰次和营级位置未复原。",
+  "place": "@harstad",
+  "category": "movement",
+  "side": "FR",
+  "units": [
+   "fr.13dble",
+   "fr.alp_north"
+  ],
+  "sources": [
+   "uk_ch13",
+   "uk_chb"
+  ],
+  "confidence": "high",
+  "importance": 2,
+  "mapNote": "城市/机场为地理锚点；路线与控制区为概略作战示意。该日时分仅用于播放排序。",
+  "sfx": [
+   "morse"
+  ],
+  "zoomRel": 2.6,
+  "precision": "day"
+ },
+ {
+  "id": "e.polish_reinforce",
+  "at": "1940-05-09T12:00",
+  "title": {
+   "zh": "波兰独立山地旅抵达",
+   "orig": "Polish Independent Highland Brigade"
+  },
+  "body": "波兰独立山地旅抵达北部，随后在纳尔维克南翼安克内斯、拜斯峡湾方向投入战斗。波兰军人的参战与德国入侵波兰后的海外继续作战相联系。国家颜色与单位卡单独标明波军，不能用法国或英国标识代替实际的参战力量。",
+  "place": "@harstad",
+  "category": "movement",
+  "side": "PL",
+  "units": [
+   "pl.podhale"
+  ],
+  "sources": [
+   "uk_ch13",
+   "uk_chb"
+  ],
+  "confidence": "high",
+  "importance": 2,
+  "mapNote": "城市/机场为地理锚点；路线与控制区为概略作战示意。该日时分仅用于播放排序。",
+  "sfx": [
+   "morse"
+  ],
+  "zoomRel": 2.6,
+  "precision": "day"
+ },
+ {
+  "id": "e.hemnes",
+  "at": "1940-05-10T12:00",
+  "title": {
+   "zh": "海姆内斯贝格 · 海空包抄",
+   "orig": "Hemnesberget landing"
+  },
+  "body": "德军利用沿海轮船Nord-Norge和水上飞机在海姆内斯贝格实施包抄，威胁莫舍恩至摩城方向的后方交通。第2山地师同时由南向北推进。海上登陆与陆上北进分开绘制，展示崎岖地形中沿海运输怎样绕过盟军的山谷迟滞线。",
+  "place": "@hemnesberget",
+  "category": "naval",
+  "side": "DE",
+  "units": [
+   "de.2geb"
+  ],
+  "sources": [
+   "uk_ch12"
+  ],
+  "confidence": "high",
+  "importance": 2,
+  "mapNote": "城市/机场为地理锚点；路线与控制区为概略作战示意。该日时分仅用于播放排序。",
+  "sfx": [
+   "ship_gun"
+  ],
+  "zoomRel": 3.4,
+  "precision": "day"
+ },
+ {
+  "id": "e.bjerkvik",
+  "at": "1940-05-13T12:00",
+  "title": {
+   "zh": "比耶克维克 · 两栖反攻",
+   "orig": "Allied landing at Bjerkvik"
+  },
+  "body": "法国第13外籍军团半旅在英国舰炮支援下从赫尔扬峡湾登陆比耶克维克，挪法山地部队从格拉唐根方向施压。海上登陆和山地推进共同压缩迪特尔部队。登陆箭头与挪军陆上箭头同时显示，说明这场反攻的多国与协同性质。",
+  "place": "@bjerkvik",
+  "category": "battle",
+  "side": "FR",
+  "units": [
+   "fr.13dble",
+   "no.6div",
+   "uk.warspite",
+   "de.3geb_narvik"
+  ],
+  "sources": [
+   "uk_ch13"
+  ],
+  "confidence": "high",
+  "importance": 1,
+  "mapNote": "城市/机场为地理锚点；路线与控制区为概略作战示意。该日时分仅用于播放排序。",
+  "sfx": [
+   "artillery"
+  ],
+  "narration": "At Bjerkvik, French Foreign Legion troops landed under British naval gunfire. Norwegian and French troops pressed south through the mountains.",
+  "zoomRel": 5.6,
+  "precision": "day"
+ },
+ {
+  "id": "e.raf_north",
+  "at": "1940-05-21T12:00",
+  "title": {
+   "zh": "巴尔杜福斯 · 北部空中支援",
+   "orig": "RAF returns to Bardufoss"
+  },
+  "body": "第263中队5月21日进驻巴尔杜福斯，第46中队在26日加入北部行动。Gladiator与Hurricane战斗机为纳尔维克反攻提供支援，但数量、基地和补给仍有限。地图以机场标记与概略空中行动线表达支援范围，不声称恢复每一次空战。",
+  "place": "@bardufoss",
+  "category": "air",
+  "side": "UK",
+  "units": [
+   "uk.263_north"
+  ],
+  "sources": [
+   "uk_ch13",
+   "uk_chb"
+  ],
+  "confidence": "high",
+  "importance": 2,
+  "mapNote": "城市/机场为地理锚点；路线与控制区为概略作战示意。该日时分仅用于播放排序。",
+  "sfx": [
+   "bomber"
+  ],
+  "zoomRel": 2.6,
+  "precision": "day"
+ },
+ {
+  "id": "e.withdrawal_decision",
+  "at": "1940-05-25T12:00",
+  "title": {
+   "zh": "法国战局改变优先级 · 撤离指示",
+   "orig": "Decision to withdraw from North Norway"
+  },
+  "body": "法国战局恶化后，盟军决定撤出挪威北部，前线在5月25日收到指示。军事行动仍继续，以掩护撤运并破坏德军据点。此时只标记战略决策，不提前清空部队或取消5月28日夺城；战术胜利与战略撤离将在随后同时出现。",
+  "place": "@harstad",
+  "category": "political",
+  "side": "UK",
+  "units": [
+   "uk.24",
+   "fr.13dble",
+   "pl.podhale"
+  ],
+  "sources": [
+   "uk_ch13",
+   "uk_ch14"
+  ],
+  "confidence": "high",
+  "importance": 2,
+  "mapNote": "城市/机场为地理锚点；路线与控制区为概略作战示意。该日时分仅用于播放排序。",
+  "sfx": [
+   "radio"
+  ],
+  "zoomRel": 1.9,
+  "precision": "day"
+ },
+ {
+  "id": "e.raf46",
+  "at": "1940-05-26T12:00",
+  "title": {
+   "zh": "Hurricane中队加入北部",
+   "orig": "No. 46 Squadron RAF"
+  },
+  "body": "皇家空军第46中队的Hurricane战斗机抵达北部，转用巴尔杜福斯基地，与第263中队共同支援纳尔维克地区。盟军已有撤离指示，却仍需要空中掩护地面攻击和运输。机场棋子显示部署变化，不将整个挪威上空画成盟军制空区。",
+  "place": "@bardufoss",
+  "category": "air",
+  "side": "UK",
+  "units": [
+   "uk.46",
+   "uk.263_north"
+  ],
+  "sources": [
+   "uk_ch13",
+   "uk_chb"
+  ],
+  "confidence": "high",
+  "importance": 2,
+  "mapNote": "城市/机场为地理锚点；路线与控制区为概略作战示意。该日时分仅用于播放排序。",
+  "sfx": [
+   "bomber"
+  ],
+  "zoomRel": 3.4,
+  "precision": "day"
+ },
+ {
+  "id": "e.bodo",
+  "at": "1940-05-27T12:00",
+  "title": {
+   "zh": "博德空袭 · 北进战场的压力",
+   "orig": "Air attack on Bodø"
+  },
+  "body": "德国空袭重创博德，南面第2山地师沿莫舍恩、摩城及萨尔特达尔方向北进。盟军在北部南翼实施迟滞并准备撤退。博德与纳尔维克之间没有连续公路，本图将这两个战区分开，避免用一条贯穿海岸的陆上箭头制造错误联系。",
+  "place": "@bodo",
+  "category": "air",
+  "side": "DE",
+  "units": [
+   "de.2geb",
+   "de.luftwaffe"
+  ],
+  "sources": [
+   "uk_ch12"
+  ],
+  "confidence": "high",
+  "importance": 2,
+  "mapNote": "城市/机场为地理锚点；路线与控制区为概略作战示意。该日时分仅用于播放排序。",
+  "sfx": [
+   "bomber"
+  ],
+  "zoomRel": 3.4,
+  "precision": "day"
+ },
+ {
+  "id": "e.narvik_recapture",
+  "at": "1940-05-28T12:00",
+  "title": {
+   "zh": "盟军夺回纳尔维克",
+   "orig": "Recapture of Narvik"
+  },
+  "body": "挪威与法国部队从罗姆巴克峡湾渡海攻击，波兰部队在安克内斯、拜斯峡湾方向从南翼推进，英国海军提供支援。德军向铁路和瑞典边界附近退却。盟军夺回城区，是重要的局部胜利；但法国战局已决定撤离，胜利未能转化为长期控制。",
+  "place": "@narvik",
+  "category": "battle",
+  "side": "FR",
+  "units": [
+   "fr.13dble",
+   "no.6div",
+   "pl.podhale",
+   "de.3geb_narvik"
+  ],
+  "sources": [
+   "uk_ch13",
+   "no_army"
+  ],
+  "confidence": "high",
+  "importance": 1,
+  "mapNote": "城市/机场为地理锚点；路线与控制区为概略作战示意。该日时分仅用于播放排序。",
+  "sfx": [
+   "artillery"
+  ],
+  "narration": "On May twenty-eighth, Norwegian and French troops recaptured Narvik, while Polish troops attacked on the southern flank. Germany lost the town, but Allied evacuation orders were already in place.",
+  "zoomRel": 5.6,
+  "precision": "day"
+ },
+ {
+  "id": "e.alphabet",
+  "at": "1940-06-04T12:00",
+  "title": {
+   "zh": "Alphabet行动 · 北部撤运开始",
+   "orig": "Operation Alphabet"
+  },
+  "body": "盟军主力开始从北部港口登船，计划将人员运回英国，随后在6月8日完成撤离。纳尔维克的攻城胜利没有改变撤运安排。海上撤离线与仍在内陆的挪军标记同时存在，说明盟军离开和挪威本土停止抵抗是不同的时间节点。",
+  "place": "@harstad",
+  "category": "movement",
+  "side": "UK",
+  "units": [
+   "uk.24",
+   "fr.13dble",
+   "pl.podhale"
+  ],
+  "sources": [
+   "uk_ch14"
+  ],
+  "confidence": "high",
+  "importance": 1,
+  "mapNote": "城市/机场为地理锚点；路线与控制区为概略作战示意。该日时分仅用于播放排序。",
+  "sfx": [
+   "morse"
+  ],
+  "narration": "Operation Alphabet evacuated Allied troops from northern Norway. The withdrawal was completed by June eighth, leaving Norway’s army without its foreign partners.",
+  "zoomRel": 1.9,
+  "precision": "day"
+ },
+ {
+  "id": "e.government",
+  "at": "1940-06-07T12:00",
+  "title": {
+   "zh": "王室与政府从特罗姆瑟赴英",
+   "orig": "Norwegian government goes into exile"
+  },
+  "body": "挪威国王和政府在特罗姆瑟进行最后的本土政府会议，随后乘德文郡号离开，赴英国继续战争。海上轨迹只表示赴英方向。本土战局即将结束，但合法政府、海外部队与挪威抵抗并未随之消失，不能将流亡等同于政治上的投降。",
+  "place": "@tromso",
+  "category": "political",
+  "side": "NO",
+  "units": [
+   "uk.devonshire",
+   "no.6div"
+  ],
+  "sources": [
+   "government_archive",
+   "uk_ch14"
+  ],
+  "confidence": "high",
+  "importance": 1,
+  "mapNote": "城市/机场为地理锚点；路线与控制区为概略作战示意。该日时分仅用于播放排序。",
+  "sfx": [
+   "radio"
+  ],
+  "zoomRel": 2.6,
+  "precision": "day"
+ },
+ {
+  "id": "e.glorious",
+  "at": "1940-06-08T18:00",
+  "title": {
+   "zh": "光荣号及护航舰被击沉",
+   "orig": "Loss of HMS Glorious"
+  },
+  "body": "光荣号携返运飞机离开北部后，在挪威海外海遭德国沙恩霍斯特与格奈森瑙拦截。航母与Ardent、Acasta两艘驱逐舰沉没，造成严重人员损失。此时盟军主力撤运已接近完成，海战仍暴露了撤离行动的风险；沉船标记为概略海域。",
+  "place": "@glorious_sea",
+  "category": "naval",
+  "side": "DE",
+  "units": [
+   "uk.glorious"
+  ],
+  "sources": [
+   "uk_ch14"
+  ],
+  "confidence": "high",
+  "importance": 1,
+  "mapNote": "城市/机场为地理锚点；路线与控制区为概略作战示意。该日时分仅用于播放排序。",
+  "sfx": [
+   "ship_gun"
+  ],
+  "narration": "The carrier Glorious and her two escort destroyers were sunk by German warships on June eighth, during the withdrawal from Norway.",
+  "zoomRel": 1.9,
+  "precision": "day"
+ },
+ {
+  "id": "e.end",
+  "at": "1940-06-10T12:00",
+  "title": {
+   "zh": "本土战役结束 · 抵抗延续",
+   "orig": "End of the campaign in mainland Norway"
+  },
+  "body": "盟军撤离后，挪威本土部队停止抵抗，德国建立对挪威的军事占领。6月10日标志这场本土战役结束，而不是挪威政府和海外部队退出战争。长海岸的港口、机场与海上基地落入德国控制，也为此后的北大西洋战争带来持续影响。",
+  "place": "@narvik",
+  "category": "surrender",
+  "side": "NO",
+  "units": [
+   "no.6div",
+   "de.3geb_narvik"
+  ],
+  "sources": [
+   "no_army",
+   "uk_ch14"
+  ],
+  "confidence": "high",
+  "importance": 1,
+  "mapNote": "城市/机场为地理锚点；路线与控制区为概略作战示意。该日时分仅用于播放排序。",
+  "sfx": [
+   "bell"
+  ],
+  "narration": "On June tenth, Norway’s mainland forces ceased resistance. The government in exile and Norwegian forces abroad continued the war.",
+  "zoomRel": 1,
+  "wide": true,
+  "precision": "day"
+ }
+]

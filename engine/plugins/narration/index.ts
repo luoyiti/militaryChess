@@ -52,30 +52,36 @@ function clips(store: import('../api').EngineCtx['store']): PluginHooks {
 
 function tts(store: import('../api').EngineCtx['store']): PluginHooks {
   let enabled = false;
-  const synth = typeof window !== 'undefined' ? window.speechSynthesis : undefined;
+  const synth = typeof window !== 'undefined' && 'speechSynthesis' in window ? window.speechSynthesis : undefined;
   const stop = () => synth?.cancel();
-  const speak = (text?: string) => {
-    if (!enabled || !synth || !text || store.get().muted) return;
-    synth.cancel();
-    const u = new SpeechSynthesisUtterance(text);
-    u.lang = 'en-GB';
-    u.rate = 0.96;
-    const voice = synth.getVoices().find((v) => v.lang.startsWith('en-GB')) ?? synth.getVoices().find((v) => v.lang.startsWith('en'));
-    if (voice) u.voice = voice;
-    synth.speak(u);
+  /** 原创英文摘要，由可选的浏览器语音朗读，绝不冒充历史录音 */
+  const speak = (text?: string, force = false) => {
+    if (!synth || !text || store.get().muted || (!force && !enabled)) return;
+    stop();
+    const line = new SpeechSynthesisUtterance(text);
+    line.lang = 'en-GB'; line.rate = 0.95; line.volume = 0.75;
+    const voices = synth.getVoices();
+    line.voice = voices.find((v) => v.lang === 'en-GB') ?? voices.find((v) => v.lang.startsWith('en')) ?? null;
+    synth.speak(line);
   };
+  let current: REvent | null = null;
+  document.addEventListener('click', (ev) => {
+    if (!(ev.target as HTMLElement).closest?.('.ec-speak')) return;
+    ev.preventDefault();
+    speak(current?.narration, true);
+  });
   return {
     topbar(btns) {
-      if (!synth) return;
       const b = document.createElement('button');
-      b.className = 'tb-narr';
-      b.title = '英文旁白（浏览器语音合成）';
+      b.className = 'tb-narrate';
+      b.title = '可选合成英语旁白；非历史录音';
       b.textContent = 'EN 旁白';
       b.onclick = () => { enabled = !enabled; b.classList.toggle('on', enabled); if (!enabled) stop(); };
-      btns.insertBefore(b, btns.querySelector('.tb-credits'));
+      btns.querySelector('.tb-sound')?.insertAdjacentElement('afterend', b);
     },
     eventCardExtra(e: REvent) {
-      return e.narration ? `<details class="ec-narr"><summary>English narration</summary><p>${escapeXml(e.narration)}</p></details>${e.mapNote ? `<p class="ec-mapnote">${escapeXml(e.mapNote)}</p>` : ''}` : null;
+      current = e;
+      return e.narration ? `<details class="ec-narration"><summary>English briefing · <button class="ec-speak" type="button">朗读</button></summary><p>${escapeXml(e.narration)}</p><small>可选浏览器合成英语声音 · 非历史录音</small></details>` : null;
     },
     onPresent(e, hold) { if (hold) speak(e.narration); },
     onCancel: stop,

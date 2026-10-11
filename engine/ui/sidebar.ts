@@ -5,6 +5,9 @@ import { unitStateAt, isTerminal, type RUnit } from '../model/core';
 import { counterSVG, SIDE_ZH, STATUS_ZH, escapeXml, SIDE_COUNTER } from '../map2d/symbols';
 import { ECHELON_RANK, type Side, type SideSummary } from '../core/types';
 import { manifest, sideOrder } from '../campaign/context';
+import { phaseAt } from '../core/phases';
+import { isoToHours } from '../core/time';
+import { fillCounts } from './intro';
 
 const LAYER_LABELS: Record<string, string> = {
   units: '部队棋子', control: '占领区', front: '战线', routes: '推进箭头', routesFull: '完整推进路线',
@@ -71,70 +74,140 @@ export class Sidebar {
   /** 简报面板（插件可替换：见 PluginHooks.sidebarBrief） */
   get briefPane() { return this.el.querySelector('[data-p="brief"]') as HTMLElement; }
 
-  private buildBrief() {
+  private briefPhase = '';
+  private buildBrief(t = store.get().t) {
     const m = manifest();
     const B = m.ui.brief;
-    const f = this.db.forces.sides;
+    if (B.layout === 'theatres') { this.buildTheatreBrief(); return; }
+    const phase = phaseAt(t);
+    this.briefPhase = phase.id;
+    // 分阶段兵力（manifest.ui.brief.byPhase + forces.byPhase）
+    const f = (B.byPhase ? this.db.forces.byPhase?.[phase.id] : undefined) ?? this.db.forces.sides;
     const sides = sideOrder().filter((k) => f[k]);
     const fixed1 = B.menFormat === 'fixed1';
+    const nullLabel = B.nullLabel ?? '—';
+    const nullBar = B.nullBarWidth ?? 1.5;
     const rows: [string, (s: SideSummary) => number | null][] = [
       ['兵力（万人）', (s) => (s.men == null ? null : s.men / 10000)], ['坦克', (s) => s.tanks], ['飞机', (s) => s.aircraft], ['火炮', (s) => s.guns],
     ];
-    const fmt = (label: string, v: number | null) => v == null ? '—' : label.includes('万') ? v.toFixed(fixed1 || v < 10 ? 1 : 0) : v.toLocaleString();
+    const fmt = (label: string, v: number | null) => v == null ? nullLabel : label.includes('万') ? v.toFixed(fixed1 || v < 10 ? 1 : 0) : v.toLocaleString();
     const bar = (label: string, get: (s: SideSummary) => number | null) => {
       const vals = sides.map((k) => get(f[k]));
       const max = Math.max(1, ...vals.map((v) => v ?? 0));
-      return `<div class="fc-row"><div class="fc-label">${label}</div>${sides.map((k, i) => `<div class="fc-bar"><i class="side-${k}" style="width:${Math.max(1.5, ((vals[i] ?? 0) / max) * 100)}%"></i><span>${fmt(label, vals[i])}</span></div>`).join('')}</div>`;
+      return `<div class="fc-row"><div class="fc-label">${label}</div>${sides.map((k, i) => `<div class="fc-bar"><i class="side-${k}" style="width:${vals[i] == null ? nullBar : Math.max(1.5, ((vals[i] ?? 0) / max) * 100)}%"></i><span>${fmt(label, vals[i])}</span></div>`).join('')}</div>`;
     };
+    const notes = B.notes ?? (B.forceNotes ? 'details' : 'none');
+    const notesHtml = notes === 'details'
+      ? sides.map((k) => `<details class="force-note"><summary>${SIDE_ZH[k]} · 兵力口径</summary><p>${escapeXml(f[k].note ?? f[k].divisions)}</p></details>`).join('')
+      : notes === 'list'
+        ? `<h3>${B.notesTitle ?? '编制与史料口径'}</h3>${sides.map((k) => `<p class="force-note list"><b>${SIDE_ZH[k]}</b> · ${escapeXml(f[k].divisions)}<br/><span>${escapeXml(f[k].note ?? '')}</span></p>`).join('')}`
+        : '';
+    const losses = B.losses === false ? '' : `
+      <h3>伤亡与损失</h3>
+      <table class="losses"><tr><th></th><th>阵亡</th><th>被俘/失踪</th></tr>
+        ${sides.map((k) => `<tr><td><i class="sw side-${k}"></i>${SIDE_ZH[k]}</td><td>${escapeXml(shorten(f[k].losses.killed))}</td><td>${escapeXml(shorten(f[k].losses.captured ?? '—'))}</td></tr>`).join('')}</table>`;
+    const rowsHtml = rows.filter(([, g]) => B.showEmptyRows || sides.some((k) => g(f[k]) != null)).map(([l, g]) => bar(l, g)).join('');
+    const pane = this.briefPane;
+    pane.innerHTML = `
+      <div class="brief-title"><div class="stamp-top">${B.stamp ?? '绝密 · 作战简报'}</div><h1>${B.title}</h1><div class="sub">${B.sub}</div><div class="sub2">${B.sub2}</div></div>
+      ${m.ui.chapterNav === 'sidebar' ? '<div class="chapter-nav"></div>' : ''}<div class="sb-status"></div>
+      <h3>${B.byPhase ? `${escapeXml(phase.short)} · ` : ''}交战各方</h3>
+      <div class="fc-sides${B.sideColumns === 3 ? ' cols-3' : ''}">${sides.map((k) => `<div class="fc-side"><i class="sw side-${k}"></i><b>${SIDE_ZH[k]}</b><small>${escapeXml(f[k].commander.split(/[；;，,]/)[0])}</small></div>`).join('')}</div>
+      <div class="fc">${rowsHtml}<div class="fc-legend">${sides.map((k) => `<span><i class="sw side-${k}"></i>${SIDE_ZH[k]}</span>`).join('')}</div></div>
+      ${losses}
+      ${notes === 'list' ? `${notesHtml}<p class="fine">${B.fine}</p>` : `<p class="fine">${B.fine}</p>${notesHtml}`}`;
+    const prev = this.statusEl?.innerHTML;
+    this.statusEl = pane.querySelector('.sb-status')!;
+    if (prev) this.statusEl.innerHTML = prev;
+    this.briefRebuilt?.(pane);
+  }
+
+  /** 并行战区式简报（挪威）：各方折叠说明 + 读图说明；态势区显示各战区阶段与最近事件 */
+  private buildTheatreBrief() {
+    const m = manifest();
+    const B = m.ui.brief;
+    const f = this.db.forces.sides;
     const pane = this.briefPane;
     pane.innerHTML = `
       <div class="brief-title"><div class="stamp-top">${B.stamp ?? '绝密 · 作战简报'}</div><h1>${B.title}</h1><div class="sub">${B.sub}</div><div class="sub2">${B.sub2}</div></div>
       ${m.ui.chapterNav === 'sidebar' ? '<div class="chapter-nav"></div>' : ''}<div class="sb-status"></div>
       <h3>交战各方</h3>
-      <div class="fc-sides${B.sideColumns === 3 ? ' cols-3' : ''}">${sides.map((k) => `<div class="fc-side"><i class="sw side-${k}"></i><b>${SIDE_ZH[k]}</b><small>${escapeXml(f[k].commander.split(/[；;，,]/)[0])}</small></div>`).join('')}</div>
-      <div class="fc">${rows.filter(([, g]) => sides.some((k) => g(f[k]) != null)).map(([l, g]) => bar(l, g)).join('')}<div class="fc-legend">${sides.map((k) => `<span><i class="sw side-${k}"></i>${SIDE_ZH[k]}</span>`).join('')}</div></div>
-      <h3>伤亡与损失</h3>
-      <table class="losses"><tr><th></th><th>阵亡</th><th>被俘/失踪</th></tr>
-        ${sides.map((k) => `<tr><td><i class="sw side-${k}"></i>${SIDE_ZH[k]}</td><td>${escapeXml(shorten(f[k].losses.killed))}</td><td>${escapeXml(shorten(f[k].losses.captured ?? '—'))}</td></tr>`).join('')}</table>
-      <p class="fine">${B.fine}</p>${B.forceNotes ? sides.map((k) => `<details class="force-note"><summary>${SIDE_ZH[k]} · 兵力口径</summary><p>${escapeXml(f[k].note ?? f[k].divisions)}</p></details>`).join('') : ''}`;
+      <div class="campaign-forces">${sideOrder().filter((k) => f[k]).map((k) => `<details class="force-entry"><summary><i class="sw side-${k}"></i><b>${SIDE_ZH[k]}</b><small>${escapeXml(f[k].commander.split('；')[0])}</small></summary><p>${escapeXml(f[k].divisions)}<br/>${escapeXml(f[k].note ?? '')}</p></details>`).join('')}</div>
+      <h3>怎样读这张地图</h3>
+      ${(B.paragraphs ?? []).map((p) => `<p class="fine">${fillCounts(p, this.db)}</p>`).join('\n      ')}`;
     this.statusEl = pane.querySelector('.sb-status')!;
   }
+  /** 「最近事件」按钮回调 */
+  onEvent: (id: string) => void = () => {};
 
+  /** 分阶段简报重建后回调（章节导航、插件面板需要重新挂载） */
+  briefRebuilt: ((pane: HTMLElement) => void) | null = null;
   private lastStatusKey = '';
+  private lastTreeKey = '';
   private updateStatus(t: number) {
-    const key = String(Math.floor(t / 3));
+    const m = manifest();
+    if (m.ui.brief.byPhase && phaseAt(t).id !== this.briefPhase) this.buildBrief(t);
+    const S = m.ui.status;
+    const key = String(Math.floor(t / (S.theatres ? 1 : 3)));
     if (key === this.lastStatusKey) return;
     this.lastStatusKey = key;
-    const m = manifest();
+    const markersOnly = m.display?.statusEchelons === 'markers';
     const divisionsOnly = m.display?.statusEchelons === 'divisions';
+    const leafOnly = m.display?.statusEchelons === 'leaves';
     const count: Record<string, { act: number; enc: number; out: number }> = {};
     for (const u of this.db.unitList) {
       if (divisionsOnly ? u.echelon !== 'division' && u.echelon !== 'brigade' : ECHELON_RANK[u.echelon] < 0) continue;
+      if (leafOnly && u.children.some((id) => !!unitStateAt(id, this.db.units, t))) continue;
       const s = unitStateAt(u.id, this.db.units, t);
-      if (!s || t < u.fromH) continue;
+      if (!s || (markersOnly ? s.fade <= 0.05 : t < u.fromH)) continue;
       const c = count[u.side] ?? (count[u.side] = { act: 0, enc: 0, out: 0 });
       if (isTerminal(s.status)) c.out++;
       else if (s.status === 'encircled') c.enc++;
       else c.act++;
     }
     const pockets = this.db.pockets.filter((p) => t >= p.h0 && t <= p.h1);
-    const cells = m.ui.status.cells.map((c) => {
+    const cells = S.cells.map((c) => {
       const n = c.sides.reduce((sum, k) => sum + (count[k]?.[c.metric] ?? 0), 0);
       return c.hideZero && !n ? '' : `<div${c.cls ? ` class="${c.cls}"` : ''}><b>${n}</b><span>${c.label}</span></div>`;
     });
-    this.statusEl.innerHTML = `<h3>当前态势</h3>
+    if (S.theatres) {
+      // 并行战区：每个战区按时间表显示当前阶段
+      const rows = S.theatres.rows.map(([name, states]) => {
+        const cur = states.find(([until]) => until === null || t < isoToHours(until)) ?? states[states.length - 1];
+        return `<div><b>${name}</b><span>${cur[1]}</span></div>`;
+      }).join('');
+      const latest = S.latestEvent ? [...this.db.events].reverse().find((e) => e.h <= t) : undefined;
+      this.statusEl.innerHTML = `<h3>${S.theatres.title ?? '并行战区态势'}</h3><div class="theater-status">${rows}</div>
+      <div class="st-grid">${cells.join('')}</div>
+      ${latest ? `<button class="latest-event" data-e="${latest.id}"><small>最近事件 · 点击查看</small><b>${escapeXml(latest.title.zh)}</b></button>` : ''}`;
+      this.statusEl.querySelector<HTMLButtonElement>('[data-e]')?.addEventListener('click', (ev) => this.onEvent((ev.currentTarget as HTMLElement).dataset.e!));
+    } else {
+      this.statusEl.innerHTML = `<h3>当前态势</h3>
       <div class="st-grid">
         ${cells.join('\n        ')}
       </div>
-      ${pockets.length ? `<div class="st-pockets">${m.ui.status.pocketsLabel ?? '包围圈'}：${pockets.map((p) => escapeXml(p.name.zh.replace('包围圈', ''))).join('、')}</div>` : ''}`;
+      ${pockets.length ? `<div class="st-pockets">${S.pocketsLabel ?? '包围圈'}：${pockets.map((p) => escapeXml(p.name.zh.replace('包围圈', ''))).join('、')}</div>` : ''}`;
+    }
+    // 序列树只列当前在场的部队（manifest.ui.treeActiveOnly）：在场集合变化时才重建
+    if (m.ui.treeActiveOnly) {
+      const treeKey = this.db.unitList.filter((u) => this.activeAt(u, t)).map((u) => u.id).join(',');
+      if (treeKey !== this.lastTreeKey) { this.lastTreeKey = treeKey; this.buildTree(); }
+    }
+  }
+
+  private activeAt(u: RUnit, t: number): boolean {
+    return (t >= u.fromH && t <= u.toH + 48) || u.children.some((id) => !!unitStateAt(id, this.db.units, t));
   }
 
   private buildTree() {
     const q = this.filter;
     const match = (u: RUnit): boolean =>
       !q || [u.name.zh, u.name.orig, u.name.short, u.commander?.zh, u.commander?.orig].some((s) => s?.toLowerCase().includes(q)) || u.children.some((c) => match(this.db.units.get(c)!));
+    const activeOnly = !!manifest().ui.treeActiveOnly;
+    const t = store.get().t;
     const node = (u: RUnit, depth: number): string => {
       if (!match(u)) return '';
+      if (activeOnly && !q && !this.activeAt(u, t)) return '';
       const kids = u.children.map((c) => this.db.units.get(c)!).filter(Boolean);
       const open = q ? true : this.openNodes.has(u.id);
       const mini = `<svg viewBox="-13 -12 26 24" width="24" height="22">${counterSVG({ side: u.side, type: u.type, echelon: u.echelon, label: '', size: 22 })}</svg>`;

@@ -1,0 +1,42 @@
+{
+ "tileSize": 512,
+ "format": "webp",
+ "path": "tiles/base/{z}/{x}_{y}.webp",
+ "worldWidth": 8192,
+ "worldHeight": 6996,
+ "note": "边缘瓦片不补齐（尺寸 < 512）；每级 scale = width / worldWidth；图像像素 (px,py) ↔ 世界坐标 (px/scale, py/scale)",
+ "levels": [
+  {
+   "z": 0,
+   "width": 1024,
+   "height": 875,
+   "cols": 2,
+   "rows": 2,
+   "scale": 0.125
+  },
+  {
+   "z": 1,
+   "width": 2048,
+   "height": 1749,
+   "cols": 4,
+   "rows": 4,
+   "scale": 0.25
+  },
+  {
+   "z": 2,
+   "width": 4096,
+   "height": 3498,
+   "cols": 8,
+   "rows": 7,
+   "scale": 0.5
+  },
+  {
+   "z": 3,
+   "width": 8192,
+   "height": 6996,
+   "cols": 16,
+   "rows": 14,
+   "scale": 1.0
+  }
+ ]
+}

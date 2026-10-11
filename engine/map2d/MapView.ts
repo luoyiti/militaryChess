@@ -60,16 +60,26 @@ export class MapView {
     left: window.innerWidth < 760 ? 30 : 340,
     right: 20,
     top: manifest().map.insetTop ?? 64,
-    bottom: window.innerWidth < 760 ? 118 : 150,
+    bottom: manifest().map.insetBottom ?? (window.innerWidth < 760 ? 118 : 150),
   };
 
   constructor(root: HTMLElement) {
     this.root = root;
     root.classList.add('map-root');
     const fit = manifest().map.fit;
-    if (Array.isArray(fit)) {
-      const a = project([fit[0], fit[1]]), b = project([fit[2], fit[3]]);
-      this.fitBox = [a[0], a[1], b[0], b[1]];
+    if (fit && fit !== 'frame') {
+      const [w, s, e, n] = fit.bbox;
+      if (fit.mode === 'envelope') {
+        const pts: number[][] = [];
+        for (let i = 0; i <= 40; i++) {
+          const lon = w + ((e - w) * i) / 40, lat = s + ((n - s) * i) / 40;
+          pts.push(project([lon, s]), project([lon, n]), project([w, lat]), project([e, lat]));
+        }
+        this.fitBox = [Math.min(...pts.map((p) => p[0])), Math.min(...pts.map((p) => p[1])), Math.max(...pts.map((p) => p[0])), Math.max(...pts.map((p) => p[1]))];
+      } else {
+        const a = project([w, n]), b = project([e, s]);
+        this.fitBox = [a[0], a[1], b[0], b[1]];
+      }
     }
     this.base = document.createElement('canvas');
     this.base.className = 'map-base';

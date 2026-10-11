@@ -1,0 +1,477 @@
+[
+ {
+  "id": "r.weser_narvik",
+  "side": "DE",
+  "unit": "de.3geb_narvik",
+  "style": "main",
+  "widthKm": 9,
+  "label": "登陆 · 纳尔维克",
+  "waypoints": [
+   {
+    "at": "1940-04-09T00:00",
+    "pos": [
+     14.8,
+     67.4
+    ]
+   },
+   {
+    "at": "1940-04-09T03:00",
+    "pos": "@ofotfjord"
+   },
+   {
+    "at": "1940-04-09T06:00",
+    "pos": "@narvik"
+   }
+  ],
+  "sources": [
+   "uk_ch3"
+  ],
+  "confidence": "medium",
+  "schematic": true,
+  "role": "landing"
+ },
+ {
+  "id": "r.weser_trondheim",
+  "side": "DE",
+  "unit": "de.3geb_trondheim",
+  "style": "main",
+  "widthKm": 9,
+  "label": "登陆 · 特隆赫姆",
+  "waypoints": [
+   {
+    "at": "1940-04-09T00:00",
+    "pos": [
+     7.6,
+     63.7
+    ]
+   },
+   {
+    "at": "1940-04-09T03:00",
+    "pos": [
+     9.8,
+     63.6
+    ]
+   },
+   {
+    "at": "1940-04-09T06:00",
+    "pos": "@trondheim"
+   }
+  ],
+  "sources": [
+   "uk_ch3"
+  ],
+  "confidence": "medium",
+  "schematic": true,
+  "role": "landing"
+ },
+ {
+  "id": "r.weser_bergen",
+  "side": "DE",
+  "unit": "de.69_bergen",
+  "style": "main",
+  "widthKm": 9,
+  "label": "登陆 · 卑尔根",
+  "waypoints": [
+   {
+    "at": "1940-04-09T00:00",
+    "pos": [
+     3.9,
+     59.8
+    ]
+   },
+   {
+    "at": "1940-04-09T03:00",
+    "pos": [
+     4.9,
+     60.1
+    ]
+   },
+   {
+    "at": "1940-04-09T06:00",
+    "pos": "@bergen"
+   }
+  ],
+  "sources": [
+   "uk_ch3"
+  ],
+  "confidence": "medium",
+  "schematic": true,
+  "role": "landing"
+ },
+ {
+  "id": "r.weser_stavanger",
+  "side": "DE",
+  "unit": "de.69_sola",
+  "style": "main",
+  "widthKm": 9,
+  "label": "登陆 · 斯塔万格",
+  "waypoints": [
+   {
+    "at": "1940-04-09T00:00",
+    "pos": [
+     4.9,
+     58.3
+    ]
+   },
+   {
+    "at": "1940-04-09T03:00",
+    "pos": [
+     5.4,
+     58.6
+    ]
+   },
+   {
+    "at": "1940-04-09T10:00",
+    "pos": "@stavanger"
+   }
+  ],
+  "sources": [
+   "uk_ch3"
+  ],
+  "confidence": "medium",
+  "schematic": true,
+  "role": "landing"
+ },
+ {
+  "id": "r.weser_kristiansand",
+  "side": "DE",
+  "unit": "de.163_south",
+  "style": "main",
+  "widthKm": 9,
+  "label": "登陆 · 克里斯蒂安桑",
+  "waypoints": [
+   {
+    "at": "1940-04-09T00:00",
+    "pos": [
+     8.5,
+     57.5
+    ]
+   },
+   {
+    "at": "1940-04-09T03:00",
+    "pos": [
+     8.1,
+     57.9
+    ]
+   },
+   {
+    "at": "1940-04-09T11:00",
+    "pos": "@kristiansand"
+   }
+  ],
+  "sources": [
+   "uk_ch3"
+  ],
+  "confidence": "medium",
+  "schematic": true,
+  "role": "landing"
+ },
+ {
+  "id": "r.weser_oslo",
+  "side": "DE",
+  "unit": "de.blucher",
+  "style": "main",
+  "widthKm": 9,
+  "label": "登陆 · 奥斯卡堡",
+  "waypoints": [
+   {
+    "at": "1940-04-09T00:00",
+    "pos": [
+     10.65,
+     58.6
+    ]
+   },
+   {
+    "at": "1940-04-09T03:00",
+    "pos": [
+     10.6,
+     59.4
+    ]
+   },
+   {
+    "at": "1940-04-09T04:25",
+    "pos": "@oscarsborg"
+   }
+  ],
+  "sources": [
+   "uk_ch3"
+  ],
+  "confidence": "medium",
+  "schematic": true,
+  "role": "landing"
+ },
+ {
+  "id": "r.air_sola",
+  "side": "DE",
+  "unit": "de.luftwaffe",
+  "style": "main",
+  "widthKm": 7,
+  "label": "空降索拉",
+  "waypoints": [
+   {
+    "at": "1940-04-09T00:00",
+    "pos": [
+     9,
+     55.5
+    ]
+   },
+   {
+    "at": "1940-04-09T09:00",
+    "pos": "@sola"
+   }
+  ],
+  "sources": [
+   "uk_ch3"
+  ],
+  "confidence": "medium",
+  "schematic": true,
+  "movement": "air"
+ },
+ {
+  "id": "r.air_fornebu",
+  "side": "DE",
+  "unit": "de.163_oslo",
+  "style": "main",
+  "widthKm": 7,
+  "label": "空运福尼布",
+  "waypoints": [
+   {
+    "at": "1940-04-09T00:00",
+    "pos": [
+     10,
+     56
+    ]
+   },
+   {
+    "at": "1940-04-09T09:00",
+    "pos": "@fornebu"
+   }
+  ],
+  "sources": [
+   "uk_ch3"
+  ],
+  "confidence": "medium",
+  "schematic": true,
+  "movement": "air"
+ },
+ {
+  "id": "r.german_valley",
+  "side": "DE",
+  "unit": "de.196",
+  "style": "main",
+  "widthKm": 7,
+  "label": "古德布兰谷推进",
+  "waypoints": [
+   {
+    "at": "1940-04-20T12:00",
+    "pos": "@lillehammer"
+   },
+   {
+    "at": "1940-04-24T12:00",
+    "pos": "@tretten"
+   },
+   {
+    "at": "1940-04-28T12:00",
+    "pos": "@otta"
+   },
+   {
+    "at": "1940-04-30T12:00",
+    "pos": "@dombas"
+   }
+  ],
+  "sources": [
+   "uk_ch7",
+   "uk_ch9"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "r.steinkjer",
+  "side": "DE",
+  "unit": "de.3geb_trondheim",
+  "style": "main",
+  "widthKm": 7,
+  "label": "特隆赫姆北向反击",
+  "waypoints": [
+   {
+    "at": "1940-04-18T12:00",
+    "pos": "@trondheim"
+   },
+   {
+    "at": "1940-04-20T12:00",
+    "pos": "@verdal"
+   },
+   {
+    "at": "1940-04-22T12:00",
+    "pos": "@steinkjer"
+   }
+  ],
+  "sources": [
+   "uk_ch6"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "r.namsos_air",
+  "side": "DE",
+  "unit": "de.luftwaffe",
+  "style": "main",
+  "widthKm": 7,
+  "label": "港口 / 补给空袭",
+  "waypoints": [
+   {
+    "at": "1940-04-20T00:00",
+    "pos": "@vaernes"
+   },
+   {
+    "at": "1940-04-20T12:00",
+    "pos": "@namsos"
+   }
+  ],
+  "sources": [
+   "uk_ch6"
+  ],
+  "confidence": "medium",
+  "schematic": true,
+  "movement": "air"
+ },
+ {
+  "id": "r.lesjaskog_air",
+  "side": "DE",
+  "unit": "de.luftwaffe",
+  "style": "main",
+  "widthKm": 7,
+  "label": "冰湖机场空袭",
+  "waypoints": [
+   {
+    "at": "1940-04-25T00:00",
+    "pos": "@vaernes"
+   },
+   {
+    "at": "1940-04-25T12:00",
+    "pos": "@lesjaskog"
+   }
+  ],
+  "sources": [
+   "raf_timeline"
+  ],
+  "confidence": "medium",
+  "schematic": true,
+  "movement": "air"
+ },
+ {
+  "id": "r.german_north",
+  "side": "DE",
+  "unit": "de.2geb",
+  "style": "main",
+  "widthKm": 7,
+  "label": "第2山地师分段北进",
+  "waypoints": [
+   {
+    "at": "1940-05-04T12:00",
+    "pos": "@trondheim"
+   },
+   {
+    "at": "1940-05-06T12:00",
+    "pos": "@grong"
+   },
+   {
+    "at": "1940-05-10T12:00",
+    "pos": "@mosjoen"
+   },
+   {
+    "at": "1940-05-18T12:00",
+    "pos": "@mo"
+   },
+   {
+    "at": "1940-05-25T12:00",
+    "pos": "@saltdal"
+   },
+   {
+    "at": "1940-06-01T12:00",
+    "pos": "@bodo"
+   }
+  ],
+  "sources": [
+   "uk_ch12"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "r.hemnes_landing",
+  "side": "DE",
+  "unit": "de.2geb",
+  "style": "secondary",
+  "widthKm": 7,
+  "label": "沿海运输 / 后方包抄",
+  "waypoints": [
+   {
+    "at": "1940-05-09T12:00",
+    "pos": [
+     12.1,
+     65.6
+    ]
+   },
+   {
+    "at": "1940-05-10T12:00",
+    "pos": "@hemnesberget"
+   }
+  ],
+  "sources": [
+   "uk_ch12"
+  ],
+  "confidence": "medium",
+  "schematic": true,
+  "role": "landing"
+ },
+ {
+  "id": "r.dietl_retreat",
+  "side": "DE",
+  "unit": "de.3geb_narvik",
+  "style": "retreat",
+  "widthKm": 4,
+  "label": "德军向边界附近退却",
+  "waypoints": [
+   {
+    "at": "1940-05-28T12:00",
+    "pos": "@narvik"
+   },
+   {
+    "at": "1940-05-30T12:00",
+    "pos": "@bjornfjell"
+   }
+  ],
+  "sources": [
+   "uk_ch13"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "r.bodo_air",
+  "side": "DE",
+  "unit": "de.luftwaffe",
+  "style": "main",
+  "widthKm": 7,
+  "label": "博德遭空袭",
+  "waypoints": [
+   {
+    "at": "1940-05-27T00:00",
+    "pos": "@vaernes"
+   },
+   {
+    "at": "1940-05-27T12:00",
+    "pos": "@bodo"
+   }
+  ],
+  "sources": [
+   "uk_ch12"
+  ],
+  "confidence": "medium",
+  "schematic": true,
+  "movement": "air"
+ }
+]
