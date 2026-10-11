@@ -1,0 +1,63 @@
+[
+ {
+  "id": "polonaise",
+  "title": "A 大调波兰舞曲“军队”，Op. 40 No. 1",
+  "composer": "弗雷德里克·肖邦（Fryderyk Chopin）",
+  "performer": "Aya Higuchi（Musopen）",
+  "license": "Public domain",
+  "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chopin_-_Polonaise_No._3_in_A_major,_Op._40_No._1_%27Military%27_(Aya_Higuchi).flac",
+  "durationSec": 313.7,
+  "commonsFile": "Chopin - Polonaise No. 3 in A major, Op. 40 No. 1 'Military' (Aya Higuchi).flac",
+  "note": "1939 年 9 月华沙围城期间，波兰电台反复播放肖邦作品。",
+  "files": [
+   "polonaise.webm",
+   "polonaise.m4a"
+  ]
+ },
+ {
+  "id": "elegy",
+  "title": "降 b 小调第二钢琴奏鸣曲 Op. 35 第三乐章“葬礼进行曲”（节选：进行曲主段）",
+  "composer": "弗雷德里克·肖邦（Fryderyk Chopin）",
+  "performer": "Paul Pitman（Musopen）",
+  "license": "Public Domain",
+  "licenseUrl": "https://web.archive.org/web/20230926203737/https://creativecommons.org/licenses/publicdomain/",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chopin_Pitman_sonata_no_2_in_b_flat_minor_funeral_march_III_marche_funebre_lento.ogg",
+  "durationSec": 149.8,
+  "commonsFile": "Chopin Pitman sonata no 2 in b flat minor funeral march III marche funebre lento.ogg",
+  "files": [
+   "elegy.webm",
+   "elegy.m4a"
+  ]
+ },
+ {
+  "id": "hejnal",
+  "title": "克拉科夫圣母教堂号角（Hejnał mariacki）",
+  "composer": "波兰传统号角曲",
+  "performer": "克拉科夫圣母教堂号手",
+  "license": "Public domain",
+  "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cracow_trumpet_signal.ogg",
+  "durationSec": 38.2,
+  "commonsFile": "Cracow trumpet signal.ogg",
+  "files": [
+   "hejnal.webm",
+   "hejnal.m4a"
+  ],
+  "oneShot": true
+ },
+ {
+  "id": "operations",
+  "title": "英伦作战室 · 纯器乐背景",
+  "composer": "本项目原创",
+  "performer": "离线程序化钢琴与弦乐音色",
+  "license": "本项目原创器乐",
+  "durationSec": 64,
+  "note": "无旁白、无人声、无无线电噪声。周期相位与包络用于平滑循环。 统一引擎由原 WAV 转码为 Opus/AAC。",
+  "files": [
+   "operations-room.webm",
+   "operations-room.m4a"
+  ],
+  "html5": false
+ }
+]

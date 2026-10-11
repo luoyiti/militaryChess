@@ -1,0 +1,69 @@
+{
+  "origin": [
+    -8192,
+    -10000
+  ],
+  "bounds": [
+    -8192,
+    -10000,
+    16384,
+    11000
+  ],
+  "worldWidth": 24576,
+  "worldHeight": 21000,
+  "width": 1024,
+  "height": 875,
+  "encoding": "rg16",
+  "scale": 0.25,
+  "offset": -100,
+  "pixelWorldSize": 24.0,
+  "minElev": -60.0,
+  "maxElev": 2902.35,
+  "formula": "elev_m=(R*256+G)*0.25-100; world=(originX+i*24,originY+j*24); bottom fractional row padded at edge",
+  "albedo": {
+    "src": "terrain/context/albedo.webp",
+    "width": 4096,
+    "height": 3500
+  },
+  "projection": {
+    "type": "conicConformal",
+    "parallels": [
+      35,
+      36
+    ],
+    "rotate": [
+      -24.925,
+      0
+    ],
+    "center": [
+      0,
+      35.275
+    ]
+  },
+  "frameSha256": "c55f7cbaacec2ef5f101305e5f8d8b64960854150d97bc945fe4d86c42bd3011",
+  "sources": [
+    {
+      "name": "Natural Earth 1:10m physical geography",
+      "url": "https://www.naturalearthdata.com/downloads/10m-physical-vectors/",
+      "license": "Public domain",
+      "layers": [
+        "land",
+        "coastline",
+        "rivers",
+        "lakes"
+      ]
+    },
+    {
+      "name": "AWS Terrain Tiles / Terrarium z8",
+      "url": "https://registry.opendata.aws/terrain-tiles/",
+      "licenseUrl": "https://github.com/tilezen/joerd/blob/master/docs/attribution.md",
+      "attribution": "Mapzen terrain; EU-DEM/Copernicus funded by the European Union; Austria open DGM; USGS SRTM/GMTED2010; NOAA ETOPO1.",
+      "tileUrl": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/{z}/{x}/{y}.png",
+      "use": "actual elevation sampled through the unchanged conic conformal projection"
+    },
+    {
+      "name": "Existing Crete core map",
+      "use": "exact world-aligned overlap and a short colour transition; never stretched outside its own extent"
+    }
+  ]
+}

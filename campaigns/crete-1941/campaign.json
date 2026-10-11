@@ -1,0 +1,154 @@
+{
+  "schemaVersion": 2,
+  "id": "crete-1941",
+  "status": "published",
+  "title": {
+    "mark": "1941",
+    "zh": "克里特岛战役",
+    "sub": "水星行动 · 战旗推演",
+    "en": "The Battle of Crete",
+    "orig": "Unternehmen Merkur · Operation Mercury",
+    "codename": "水星行动",
+    "html": "1941 · 克里特岛战役 — 战旗推演",
+    "description": "1941 年克里特岛战役复古作战室风格战旗推演：地图、双方部队、推进路线、战线变化、时间轴与事件说明。",
+    "favicon": "#1f4e89"
+  },
+  "time": { "epoch": "1941-05-20T00:00", "start": "1941-05-20T00:00", "end": "1941-06-01T23:59", "tzLabel": "UTC+2（战场叙事时间）" },
+  "sides": [
+    { "id": "DE", "prefix": "de", "name": "德国", "coalition": "axis", "planesFrom": "E",
+      "counter": { "bg": "#56708f", "edge": "#2a3a52", "text": "#fbf6ea", "box": "#f3eee0", "ink": "#2a3a52" }, "css": { "main": "#3a5887", "dark": "#1f3558" } },
+    { "id": "GB", "prefix": "gb", "name": "英国", "coalition": "allies",
+      "counter": { "bg": "#8d7346", "edge": "#5c4a28", "text": "#fbf6ea", "box": "#f3eee0", "ink": "#5c4a28" }, "css": { "main": "#8a7044", "dark": "#5c4a28" } },
+    { "id": "GR", "prefix": "gr", "name": "希腊", "coalition": "allies",
+      "counter": { "bg": "#2a5a94", "edge": "#163864", "text": "#fbf6ea", "box": "#f3eee0", "ink": "#163864" }, "css": { "main": "#1f4e89", "dark": "#163864" } },
+    { "id": "NZ", "prefix": "nz", "name": "新西兰", "coalition": "allies",
+      "counter": { "bg": "#438079", "edge": "#214a46", "text": "#fbf6ea", "box": "#f3eee0", "ink": "#214a46" }, "css": { "main": "#438079", "dark": "#214a46" } },
+    { "id": "AU", "prefix": "au", "name": "澳大利亚", "coalition": "allies",
+      "counter": { "bg": "#b79845", "edge": "#66531f", "text": "#fbf6ea", "box": "#f3eee0", "ink": "#66531f" }, "css": { "main": "#b79845", "dark": "#66531f" } },
+    { "id": "IT", "prefix": "it", "name": "意大利", "coalition": "axis",
+      "counter": { "bg": "#788054", "edge": "#424928", "text": "#fbf6ea", "box": "#f3eee0", "ink": "#424928" }, "css": { "main": "#788054", "dark": "#424928" } }
+  ],
+  "control": {
+    "mode": "territory",
+    "landBit": 4,
+    "theatreBits": [0, 5],
+    "slots": [
+      { "key": "DE", "label": "德占区", "homeBits": [1, 2] },
+      { "key": "SU", "label": "（第二占领槽，克里特战役不用）", "homeBits": [3] }
+    ],
+    "remainder": { "label": "盟军控制" }
+  },
+  "phases": [
+    { "id": "landing", "from": "1941-05-20T00:00", "name": "第1阶段 · 空降突袭", "short": "空降突袭", "sub": "水星行动：四处空降，守军分区抵抗", "center": [24.62, 35.23], "zoom": 1 },
+    { "id": "maleme", "from": "1941-05-21T18:00", "name": "第2阶段 · 马莱迈转折", "short": "马莱迈转折", "sub": "机场争夺与空运增援改变西部力量对比", "center": [23.86, 35.51], "zoom": 3 },
+    { "id": "west", "from": "1941-05-24T12:00", "name": "第3阶段 · 西部战线东移", "short": "西部战线东移", "sub": "加拉塔斯争夺，干尼亚与苏达湾受压", "center": [24.02, 35.49], "zoom": 2.5 },
+    { "id": "retreat", "from": "1941-05-27T12:00", "name": "第4阶段 · 撤向南岸", "short": "撤向南岸", "sub": "后卫战掩护穿越白山，海军分批撤离", "center": [24.16, 35.31], "zoom": 1.8 },
+    { "id": "aftermath", "from": "1941-06-01T00:00", "name": "第5阶段 · 撤离结束", "short": "撤离结束", "sub": "最后一夜撤运结束，留岛部队投降或转入抵抗", "center": [24.62, 35.23], "zoom": 1 }
+  ],
+  "marks": [["1941-05-20T08:00", "空降"], ["1941-05-22T12:00", "机场增援"], ["1941-05-25T18:00", "加拉塔斯"], ["1941-05-28T12:00", "撤离"], ["1941-06-01T04:00", "结束"]],
+  "theme": {
+    "accent": "#1f4e89", "accentDark": "#163864", "accentTint": "rgba(31,78,137,.08)",
+    "theatreBorder": "#1f4e89", "theatreHalo": "rgba(31,78,137,.18)", "restFill": "rgba(47,79,127,.07)"
+  },
+  "map": {
+    "fit": "frame",
+    "home3d": [24.62, 35.23],
+    "focus": [24.62, 35.23],
+    "contextTiles": true,
+    "hexKm": 3,
+    "theatreCountries": ["GR"],
+    "labels": {
+      "countries": [["克 里 特 岛", 25.0, 35.05, 23, 0.35]],
+      "waters": [
+        ["克 里 特 海", 24.8, 35.70, 17, false], ["利 比 亚 海", 24.8, 34.85, 17, false],
+        ["爱 琴 海", 25.1, 36.6, 19, false], ["白 山 山 脉", 24.00, 35.30, 12, true],
+        ["伊达山", 24.85, 35.20, 12, true], ["季克季山脉", 25.48, 35.09, 12, true]
+      ]
+    },
+    "labelHubs": { "cr_maleme_airfield": [-92, -26], "cr_chania": [-28, -64], "cr_souda": [14, 30], "cr_retimo": [10, -25], "cr_heraklion": [10, -25], "cr_sfakia": [10, 34] },
+    "returnZoom": 1.15
+  },
+  "display": { "hqPassThrough": true, "hideTransport": { "map2d": false, "sandbox": true } },
+  "sandbox": { "exaggeration": 3, "figScale": 17 },
+  "director": {
+    "returnTo": "point",
+    "returnCenter": [24.62, 35.23],
+    "defaultZoom": [1.9, 2.6],
+    "sirens": [{ "events": ["e.crete_maleme", "e.crete_chania"], "maxImportance": 1, "sfx": "siren", "volume": 0.55 }]
+  },
+  "audio": {
+    "music": [],
+    "intensity": [
+      { "from": "1941-05-20T00:00", "value": 0.08 },
+      { "from": "1941-05-20T08:00", "value": 0.72 },
+      { "from": "1941-05-22T12:00", "value": 0.55 },
+      { "from": "1941-05-27T12:00", "value": 0.28 }
+    ],
+    "introSting": "fanfare"
+  },
+  "ui": {
+    "layers": { "routes": { "label": "空降 / 推进 / 撤退" }, "demarcation": { "label": "防御线" } },
+    "chapterNav": "sidebar",
+    "brief": {
+      "title": "1941 克里特岛战役",
+      "sub": "Unternehmen Merkur · Operation Mercury",
+      "sub2": "1941.5.20 — 1941.6.1",
+      "fine": "兵力按不同参战时点统计，不宜简单相加；— 表示未单独统计。地图位置与时刻为战役级示意。",
+      "forceNotes": true,
+      "menFormat": "fixed1",
+      "sideColumns": 3
+    },
+    "status": {
+      "cells": [
+        { "sides": ["GR", "GB", "NZ", "AU"], "metric": "act", "label": "盟军单位在战" },
+        { "sides": ["GR", "GB", "NZ", "AU"], "metric": "enc", "label": "被合围", "cls": "enc" },
+        { "sides": ["GR", "GB", "NZ", "AU"], "metric": "out", "label": "已投降或撤出", "cls": "out" },
+        { "sides": ["DE", "IT"], "metric": "act", "label": "轴心军单位在战" }
+      ]
+    },
+    "legend": {
+      "counters": [
+        ["DE", "airborne", "division", "空降兵"], ["DE", "mountain", "division", "山地步兵"],
+        ["GR", "infantry", "division", "希军步兵"], ["GB", "infantry", "division", "英军步兵"],
+        ["NZ", "infantry", "division", "新西兰步兵"], ["AU", "infantry", "division", "澳军步兵"],
+        ["GR", "fortress", "brigade", "要塞/筑垒"], ["DE", "hq", "army", "集团军指挥部"]
+      ],
+      "items": [
+        "<i class=\"lg-fill a\"></i>德占区（斜线）", "<i class=\"lg-fill\"></i>盟军控制",
+        "┄┄ 空降 / 空运（虚线）", "···· 海上运输 / 撤离（点线）", "<i class=\"lg-front\"></i>战线（接触线）", "<i class=\"lg-demarc\"></i>防御线（示意）",
+        "<i class=\"lg-pocket\"></i>包围圈"
+      ]
+    },
+    "categoryLabels": { "air": "空中行动" },
+    "pocketFate": { "broke_out": "撤出" }
+  },
+  "intro": {
+    "stamp": "OPERATIONS · 作战档案",
+    "kicker": "地中海战区 · No. 1941/V",
+    "title": "克里特岛战役",
+    "en": "THE BATTLE OF CRETE · OPERATION MERCURY",
+    "dates": "1941年5月20日 — 6月1日",
+    "paragraphs": ["空降兵落在岛屿北岸，守军分散保卫机场和港口。马莱迈机场的失守打开了德军空运增援的通道；西部防线逐步东移，英联邦部队随后翻越山地，撤往南岸。皇家海军在空袭下完成分批撤运。"],
+    "how": "沿时间轴观察四处空降战区、地面控制区和撤退路线。选择部队查看编制与经历，或开启导演模式，按事件逐步推演。路线、位置及部分时刻为史料支持的示意重建。",
+    "note": "滚轮缩放 · 拖动地图 · 空格播放 · H 全岛 · M 切换 3D",
+    "photo": "File:German paratroopers and Ju 52 over Crete 1941.jpg",
+    "photoAlt": "克里特岛战役历史照片",
+    "operation": { "code": "MERKUR", "coords": "35° N / 25° E", "label": "CRETE · MAY 1941" }
+  },
+  "credits": {
+    "historyMaps": [{ "href": "history/crete-1941.jpg", "alt": "1953 年美国陆军战史克里特岛行动示意图", "caption": "美国陆军《The German Campaigns in the Balkans》，1953 年，第 7 图。战后战史示意图；点击查看完整图。<a href=\"https://www.ibiblio.org/hyperwar/ETO/East/Balkans/Campaigns/index.html\" target=\"_blank\" rel=\"noopener\">出版来源</a>" }],
+    "geodata": [
+      "<b>Natural Earth 1:10m</b>（河流、湖泊、海岸、陆地）— 公有领域",
+      "<b>Natural Earth 1:10m 国界</b> — 以克里特岛及周边真实海岸线为地理基础；战役控制区单独叠加，不把空袭、空降航线或海上行动视为占领",
+      "<b>Terrain Tiles (Terrarium)</b> — Mapzen / AWS Open Data；SRTM、GMTED2010、ETOPO1 等"
+    ]
+  },
+  "hub": {
+    "order": 6,
+    "codename": "水星行动",
+    "pin": [24.9, 35.3],
+    "cover": "photos/balkans/airdrop.webp",
+    "blurb": "史上第一次以空降兵为主力夺取一座岛屿。德军伞兵付出惨重代价拿下马莱迈机场，英联邦守军翻越白山撤往南岸。",
+    "parent": "balkans-1941"
+  }
+}

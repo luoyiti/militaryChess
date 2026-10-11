@@ -1,0 +1,27 @@
+import {chromium} from '@playwright/test';
+import fs from 'node:fs';
+const out='docs/qa';fs.mkdirSync(out,{recursive:true});
+const browser=await chromium.launch({executablePath:'/Applications/Google Chrome.app/Contents/MacOS/Google Chrome',args:['--use-angle=swiftshader','--enable-unsafe-swiftshader','--ignore-gpu-blocklist']});
+const page=await browser.newPage({viewport:{width:1600,height:950},deviceScaleFactor:1});
+const errors=[];const checks=[];
+page.on('pageerror',e=>errors.push(e.stack ?? e.message));page.on('response',r=>{if(r.status()>=400)errors.push(`${r.status()} ${r.url()}`)});page.on('requestfailed',r=>{if(!r.failure()?.errorText.includes('ERR_ABORTED'))errors.push(`${r.url()} ${r.failure()?.errorText}`)});
+await page.route('**/*',route=>route.request().url().startsWith('http://127.0.0.1:4195/')||route.request().url().startsWith('data:')?route.continue():route.abort());
+await page.goto('http://127.0.0.1:4195/?nointro');await page.waitForFunction(()=>window.__APP_READY__,null,{timeout:60000});
+const shot=async(name)=>{await page.waitForTimeout(1200);await page.screenshot({path:`${out}/${name}.png`});console.log(name);checks.push({name,stats:await page.evaluate(()=>window.__app.stats()),overflow:await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth)});fs.writeFileSync(`${out}/report.json`,JSON.stringify({errors,checks},null,2));};
+await shot('01-overview');
+await page.evaluate(()=>window.__app.setTime('1941-05-20T18:00'));await shot('02-landings');
+await page.locator('[data-chapter="maleme"]').click();await shot('03-maleme');
+await page.locator('[data-chapter="retreat"]').click();await shot('04-retreat');
+await page.evaluate(()=>window.__app.setTime('1941-06-01T23:59'));await page.keyboard.press('h');await shot('05-end');
+await page.setViewportSize({width:3440,height:1440});await page.keyboard.press('h');await shot('06-wide');
+await page.evaluate(()=>window.__app.setZoom(.1));await shot('07-minzoom');
+for(const [name,lon,lat] of [['north',25,89],['south',25,-20],['east',100,35],['west',-50,35]]){await page.evaluate(([lon,lat])=>window.__app.setZoom(.5,lon,lat),[lon,lat]);await shot(`08-edge-${name}`);}
+await page.setViewportSize({width:1600,height:950});await page.keyboard.press('h');await page.locator('[data-chapter="west"]').click();await page.getByRole('button',{name:'3D 沙盘',exact:true}).click();await page.waitForTimeout(4500);await shot('09-3d');await page.getByRole('button',{name:'作战地图',exact:true}).click();await page.keyboard.press('h');await shot('10-return');
+await page.locator('.tl-next').click();await page.waitForTimeout(5000);await shot('11-event');
+await page.locator('.event-card .card-close').click();
+await page.locator('[data-t="oob"]').click();await page.locator('.tn-row').first().click();await page.waitForTimeout(1800);await shot('12-unit');
+await page.locator('.unit-card .card-close').click();await page.locator('[data-t="legend"]').click();await page.locator('input[data-l="hex"]').uncheck();await page.locator('input[data-l="routesFull"]').check();await shot('13-layers');
+await page.locator('[data-t="brief"]').click();await page.locator('.narration-panel button').click();await page.waitForTimeout(800);checks.push({name:'audio',label:await page.locator('.narration-panel button').innerText()});await page.locator('.narration-panel button').click();
+await page.locator('.tb-credits').click();await shot('14-sources');await page.locator('.modal .card-close').click();
+await page.setViewportSize({width:390,height:844});await page.reload();await page.waitForFunction(()=>window.__APP_READY__);await page.keyboard.press('h');await shot('15-mobile');await page.locator('.tl-next').click();await page.waitForTimeout(4000);await shot('16-mobile-event');
+fs.writeFileSync(`${out}/report.json`,JSON.stringify({errors,checks},null,2));console.log(JSON.stringify({errors,states:checks.length,failedCoverage:checks.filter(c=>c.stats && (!Number.isFinite(c.stats.relK)||c.stats.coverage.tileErrors||c.stats.coverage.visible.some((v,i)=>!Number.isFinite(v)||(i<2?v<c.stats.coverage.bounds[i]-0.01:v>c.stats.coverage.bounds[i]+0.01)))),overflow:checks.filter(c=>c.overflow)},null,2));await browser.close();

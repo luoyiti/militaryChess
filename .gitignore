@@ -1,0 +1,16 @@
+# deps / builds
+node_modules/
+dist/
+.baselines/
+# work & caches (never commit)
+.work/
+.debug/
+.cache/
+scripts/.cache/
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+# third-party agent tool state
+.workbuddy/
+.wbapp_*

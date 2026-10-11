@@ -1,0 +1,177 @@
+{
+  "errors": [],
+  "director": {
+    "state": {
+      "t": 8.0004,
+      "playing": true,
+      "speed": 1,
+      "director": true,
+      "mode": "2d",
+      "selectedUnit": null,
+      "selectedEvent": "e.cr_merkur",
+      "followUnit": false,
+      "layers": {
+        "terrain": true,
+        "hex": true,
+        "rivers": true,
+        "forest": true,
+        "cities": true,
+        "control": true,
+        "front": true,
+        "routes": true,
+        "routesFull": false,
+        "pockets": true,
+        "demarcation": true,
+        "events": true,
+        "units": true
+      },
+      "muted": false,
+      "musicVol": 0.5,
+      "sfxVol": 0.8,
+      "started": true
+    },
+    "title": "“水星”行动：上午空降",
+    "stats": {
+      "units": {
+        "shown": 14,
+        "overlap": 0
+      },
+      "lod": 0,
+      "relK": 1.242290784387882,
+      "geomCount": 22,
+      "t": 8.0004,
+      "coverage": {
+        "bounds": [
+          -8192,
+          -10000,
+          16384,
+          11000
+        ],
+        "visible": [
+          -2228.170755823109,
+          -1033.4035517523841,
+          6564.188331062194,
+          4461.820877550931
+        ],
+        "minScale": 0.05859375,
+        "view": {
+          "k": 0.1637785702073868,
+          "x": 364.9266205666212,
+          "y": 169.2493561532407
+        },
+        "size": {
+          "width": 1440,
+          "height": 900
+        },
+        "tilesReady": 26,
+        "tileErrors": 0
+      },
+      "sandbox": null
+    }
+  },
+  "end": {
+    "state": {
+      "t": 311.98333333333335,
+      "playing": false,
+      "speed": 8,
+      "director": false,
+      "mode": "2d",
+      "selectedUnit": null,
+      "selectedEvent": "e.cr_capitulation",
+      "followUnit": false,
+      "layers": {
+        "terrain": true,
+        "hex": true,
+        "rivers": true,
+        "forest": true,
+        "cities": true,
+        "control": true,
+        "front": true,
+        "routes": true,
+        "routesFull": false,
+        "pockets": true,
+        "demarcation": true,
+        "events": true,
+        "units": true
+      },
+      "muted": false,
+      "musicVol": 0.5,
+      "sfxVol": 0.8,
+      "started": true
+    },
+    "stats": {
+      "units": {
+        "shown": 7,
+        "overlap": 0
+      },
+      "lod": 1,
+      "relK": 2.04,
+      "geomCount": 116,
+      "t": 311.98333333333335,
+      "coverage": {
+        "bounds": [
+          -8192,
+          -10000,
+          16384,
+          11000
+        ],
+        "visible": [
+          -536.4553694152371,
+          563.6158683950628,
+          4817.792996597835,
+          3910.0210971532324
+        ],
+        "minScale": 0.05859375,
+        "view": {
+          "k": 0.26894531250000003,
+          "x": 144.27715696968392,
+          "y": -151.58184585546906
+        },
+        "size": {
+          "width": 1440,
+          "height": 900
+        },
+        "tilesReady": 78,
+        "tileErrors": 0
+      },
+      "sandbox": null
+    }
+  },
+  "mobile": {
+    "units": {
+      "shown": 18,
+      "overlap": 0
+    },
+    "lod": 0,
+    "relK": 0.9999216029380052,
+    "geomCount": 2,
+    "t": 180,
+    "coverage": {
+      "bounds": [
+        -8192,
+        -10000,
+        16384,
+        11000
+      ],
+      "visible": [
+        -724.1001442429916,
+        -9337.029657492494,
+        8673.342470001171,
+        11000
+      ],
+      "minScale": 0.04019047619047619,
+      "view": {
+        "k": 0.041500652465688695,
+        "x": 30.05062843658345,
+        "y": 387.4928228774244
+      },
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "tilesReady": 16,
+      "tileErrors": 0
+    },
+    "sandbox": null
+  }
+}

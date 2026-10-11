@@ -1,0 +1,715 @@
+[
+ {
+  "id": "e.cr_merkur",
+  "at": "1941-05-20T08:00",
+  "category": "air",
+  "importance": 1,
+  "title": {
+   "zh": "“水星”行动：上午空降"
+  },
+  "body": "德军运输机和滑翔机自希腊大陆机场出发，上午首先在马莱迈与干尼亚附近投下部队。新西兰、英国、澳大利亚和希腊守军已分区设防。空降兵在着陆时受到密集射击，首批幸存者形成彼此隔离的小据点，战役没有立即成为整岛被占的单向推进。",
+  "place": "@cr_maleme",
+  "units": [
+   "de.xi_air_crete",
+   "de.7air_crete",
+   "nz.creforce_crete"
+  ],
+  "sources": [
+   "cr_usarmy",
+   "cr_awm",
+   "cr_nz_first"
+  ],
+  "confidence": "high",
+  "sfx": [
+   "bomber",
+   "mg"
+  ],
+  "side": "DE",
+  "photo": {
+   "commons": "File:German paratroopers and Ju 52 over Crete 1941.jpg",
+   "caption": "1941年5月20日，德军伞兵和Ju 52运输机出现在克里特上空；澳大利亚战争纪念馆档案。"
+  },
+  "zoomRel": 2.04
+ },
+ {
+  "id": "e.cr_maleme_defence",
+  "at": "1941-05-20T12:00",
+  "category": "battle",
+  "precision": "day",
+  "importance": 2,
+  "title": {
+   "zh": "107高地与马莱迈机场防御"
+  },
+  "body": "新西兰第5旅所属第22营守住机场边缘及107高地。德军在塔夫罗尼蒂斯河床西侧获得掩蔽，而降到守军阵地之间的部队损失惨重。电话线路受破坏、增援迟滞和对前沿状况的误判，使高地守军难以保持完整联系，机场成为战局的关键。",
+  "place": "@cr_hill107",
+  "units": [
+   "nz.5b_crete",
+   "de.maleme_crete"
+  ],
+  "sources": [
+   "cr_usarmy",
+   "cr_awm",
+   "cr_nz_first"
+  ],
+  "confidence": "high",
+  "sfx": [
+   "mg",
+   "rifle"
+  ],
+  "side": "NZ",
+  "zoomRel": 3.6
+ },
+ {
+  "id": "e.cr_prison_valley",
+  "at": "1941-05-20T12:00",
+  "category": "battle",
+  "precision": "day",
+  "importance": 2,
+  "title": {
+   "zh": "干尼亚：监狱谷地孤立据点"
+  },
+  "body": "干尼亚方向的滑翔机和伞兵未能夺取苏达港及盟军司令部。部分德国部队在加拉塔斯以南的监狱谷地重新集结，威胁新西兰各防区之间的交通。希腊守军与新军持续阻击，双方围绕村庄、橄榄林和山坡展开战斗，局势仍十分分散。",
+  "place": "@cr_prison_valley",
+  "units": [
+   "de.chania_crete",
+   "nz.10b_crete",
+   "gr.west_crete"
+  ],
+  "sources": [
+   "cr_usarmy",
+   "cr_awm",
+   "cr_nz_first"
+  ],
+  "confidence": "high",
+  "sfx": [
+   "rifle",
+   "mg"
+  ],
+  "side": "DE",
+  "zoomRel": 3.6
+ },
+ {
+  "id": "e.cr_retimo_drop",
+  "at": "1941-05-20T16:00",
+  "category": "air",
+  "precision": "hour",
+  "importance": 2,
+  "title": {
+   "zh": "雷西姆诺：下午空降受阻"
+  },
+  "body": "下午投下的德国伞兵在雷西姆诺城东及机场附近遭澳大利亚和希腊守军打击。空降群没有拿下机场，部分部队被困在各自落地区域，无法与岛西部友军取得稳定联系。此防区持续抵抗多日，不能用马莱迈机场的得失代替它的独立战况。",
+  "place": "@cr_retimo_airfield",
+  "units": [
+   "de.retimo_crete",
+   "au.retimo_crete",
+   "gr.retimo_crete"
+  ],
+  "sources": [
+   "cr_usarmy",
+   "cr_awm",
+   "cr_nz_first"
+  ],
+  "confidence": "high",
+  "sfx": [
+   "bomber",
+   "mg"
+  ],
+  "side": "DE",
+  "zoomRel": 3.6
+ },
+ {
+  "id": "e.cr_heraklion_drop",
+  "at": "1941-05-20T17:00",
+  "category": "air",
+  "precision": "hour",
+  "importance": 2,
+  "title": {
+   "zh": "伊拉克利翁：港口与机场守住"
+  },
+  "body": "伊拉克利翁方向的下午空降同样遭到强烈抵抗。英国第14旅、澳军分遣队与希腊守军保住港口及机场，迫使德国伞兵在城西和城东分散坚守。首日结束时，德军尚未获得一个完全安全的机场，东部战斗仍有自己的防御与撤离节奏。",
+  "place": "@cr_heraklion",
+  "units": [
+   "de.heraklion_crete",
+   "gb.14b_crete",
+   "au.heraklion_crete",
+   "gr.heraklion_crete"
+  ],
+  "sources": [
+   "cr_usarmy",
+   "cr_awm",
+   "cr_nz_first"
+  ],
+  "confidence": "high",
+  "sfx": [
+   "bomber",
+   "rifle"
+  ],
+  "side": "DE",
+  "zoomRel": 3.6
+ },
+ {
+  "id": "e.cr_hill107_withdrawal",
+  "at": "1941-05-21T05:00",
+  "category": "movement",
+  "precision": "hour",
+  "importance": 1,
+  "title": {
+   "zh": "107高地撤出，机场形势逆转"
+  },
+  "body": "20—21日夜间，新西兰部队因通信困难和增援未及时到达而撤出107高地及机场部分阵地。德军清晨发现防御已收缩，随即巩固马莱迈。机场仍受炮火威胁，但失去关键制高点改变了空运条件；这一局部变化对整场战役产生重大影响。",
+  "place": "@cr_hill107",
+  "units": [
+   "nz.5b_crete",
+   "de.maleme_crete"
+  ],
+  "sources": [
+   "cr_usarmy",
+   "cr_awm",
+   "cr_nz_first"
+  ],
+  "confidence": "high",
+  "sfx": [
+   "radio",
+   "artillery"
+  ],
+  "side": "NZ",
+  "zoomRel": 3.6
+ },
+ {
+  "id": "e.cr_mountain_airlift",
+  "at": "1941-05-21T16:00",
+  "category": "air",
+  "precision": "hour",
+  "importance": 1,
+  "title": {
+   "zh": "第5山地师开始空运增援"
+  },
+  "body": "Ju 52运输机在马莱迈机场仍遭零星炮火时送入第5山地师先头部队。飞机、物资和重武器不断到达，跑道上出现受损机体，德军同时清理障碍。此前依赖轻装备和有限弹药的西部空降群，开始获得能持续推进的地面增援。",
+  "place": "@cr_maleme_airfield",
+  "units": [
+   "de.5mountain_crete",
+   "de.maleme_crete"
+  ],
+  "sources": [
+   "cr_usarmy",
+   "cr_awm",
+   "cr_nz_first"
+  ],
+  "confidence": "high",
+  "sfx": [
+   "engine",
+   "artillery"
+  ],
+  "side": "DE",
+  "photo": {
+   "commons": "File:Maleme airfield Crete with Ju 52s 1941.jpg",
+   "caption": "1941年5月，马莱迈机场上的德军Ju 52运输机；英国皇家空军档案照片。"
+  },
+  "zoomRel": 3.6
+ },
+ {
+  "id": "e.cr_convoy_intercepted",
+  "at": "1941-05-21T23:00",
+  "category": "naval",
+  "precision": "hour",
+  "importance": 2,
+  "title": {
+   "zh": "皇家海军截击海运增援"
+  },
+  "body": "21—22日夜间，英国巡洋舰和驱逐舰在干尼亚以北海域遇到载运德军山地部队的机帆船队。多艘运输船被击沉，意大利护航舰掩护残部，另一路增援船队随后撤回。德军未能按计划依靠海运补齐重装备，只能继续依赖马莱迈空运。",
+  "place": "@cr_interception",
+  "units": [
+   "gb.mediterranean_crete",
+   "de.sea_convoy_crete"
+  ],
+  "sources": [
+   "cr_usarmy",
+   "cr_awm",
+   "cr_cunningham",
+   "cr_nz_first"
+  ],
+  "confidence": "high",
+  "sfx": [
+   "ship_gun",
+   "explosion"
+  ],
+  "side": "GB",
+  "zoomRel": 3.6
+ },
+ {
+  "id": "e.cr_maleme_counterattack",
+  "at": "1941-05-22T04:00",
+  "category": "battle",
+  "precision": "hour",
+  "importance": 1,
+  "title": {
+   "zh": "马莱迈反攻失败"
+  },
+  "body": "新西兰部队在夜间向机场发起反攻，但换防和通信问题使出发推迟。到天亮时，攻击者还未完成夺取机场的任务，德军空袭与地面火力使其难以前进。反攻最终退回出发地域，第5旅随后收缩到普拉塔尼亚斯，机场继续供德国运输机使用。",
+  "place": "@cr_maleme_airfield",
+  "units": [
+   "nz.5b_crete",
+   "de.maleme_crete",
+   "de.5mountain_crete"
+  ],
+  "sources": [
+   "cr_usarmy",
+   "cr_awm",
+   "cr_nz_first"
+  ],
+  "confidence": "high",
+  "sfx": [
+   "rifle",
+   "bomber"
+  ],
+  "side": "NZ",
+  "zoomRel": 3.6
+ },
+ {
+  "id": "e.cr_navy_air_losses",
+  "at": "1941-05-22T12:00",
+  "category": "naval",
+  "precision": "day",
+  "importance": 2,
+  "title": {
+   "zh": "海上拦截付出高昂代价"
+  },
+  "body": "皇家海军在缺少持续战斗机保护的海域遭到密集空袭。部分巡洋舰和驱逐舰被击沉或受损，舰队被迫调整白昼行动。虽然海军阻止了主要轴心增援船队登陆，德军的空中优势仍削弱了岛上守军的补给，并增加了后来撤离航行的危险。",
+  "place": "@cr_interception",
+  "units": [
+   "gb.mediterranean_crete",
+   "de.viii_air_crete"
+  ],
+  "sources": [
+   "cr_usarmy",
+   "cr_awm",
+   "cr_cunningham"
+  ],
+  "confidence": "high",
+  "sfx": [
+   "stuka",
+   "ship_gun"
+  ],
+  "side": "DE",
+  "photo": {
+   "commons": "File:Junkers Ju 52 burning over Crete 1941.jpg",
+   "caption": "1941年5月，一架遭防空火力击中的Ju 52在克里特上空燃烧；皇家海军官方摄影。"
+  },
+  "zoomRel": 3.6
+ },
+ {
+  "id": "e.cr_platanias_retreat",
+  "at": "1941-05-23T12:00",
+  "category": "movement",
+  "precision": "day",
+  "importance": 2,
+  "title": {
+   "zh": "普拉塔尼亚斯防线再度收缩"
+  },
+  "body": "马莱迈失守后，新西兰第5旅在普拉塔尼亚斯建立新防线。德国山地部队从南侧山路逼近，试图与监狱谷地的空降群会合，迫使守军继续向加拉塔斯靠拢。西部多个桥头堡逐渐相连，但雷西姆诺和伊拉克利翁的德国部队仍处于孤立状态。",
+  "place": "@cr_platanias",
+  "units": [
+   "nz.5b_crete",
+   "de.5mountain_crete",
+   "de.chania_crete"
+  ],
+  "sources": [
+   "cr_usarmy",
+   "cr_awm",
+   "cr_nz_middle"
+  ],
+  "confidence": "high",
+  "sfx": [
+   "march",
+   "artillery"
+  ],
+  "side": "NZ",
+  "zoomRel": 3.6
+ },
+ {
+  "id": "e.cr_galatas_pressure",
+  "at": "1941-05-24T12:00",
+  "category": "battle",
+  "precision": "day",
+  "importance": 2,
+  "title": {
+   "zh": "增援累积，压力转向加拉塔斯"
+  },
+  "body": "林格尔组织西部空降与山地部队，将推进重点转向加拉塔斯及干尼亚附近道路。盟军反复整理受损部队，粮食、弹药和运输能力却不断减少。希腊与澳新部队利用村庄和高地继续防守，德军以北岸正面和南侧山径共同施加压力。",
+  "place": "@cr_galatas",
+  "units": [
+   "de.5mountain_crete",
+   "nz.4b_crete",
+   "gr.west_crete"
+  ],
+  "sources": [
+   "cr_usarmy",
+   "cr_awm",
+   "cr_nz_middle"
+  ],
+  "confidence": "high",
+  "sfx": [
+   "artillery",
+   "rifle"
+  ],
+  "side": "DE",
+  "zoomRel": 3.6
+ },
+ {
+  "id": "e.cr_galatas_assault",
+  "at": "1941-05-25T18:00",
+  "category": "battle",
+  "precision": "hour",
+  "importance": 1,
+  "title": {
+   "zh": "加拉塔斯遭突破"
+  },
+  "body": "德军山地步兵与空降部队集中攻击加拉塔斯村及周边高地。新西兰守军已严重减员，仍用临时拼合的步兵、炮兵人员和小股预备队维持防线。到傍晚村庄失守，西部防御出现裂口，英联邦指挥官面临继续反攻还是尽快撤退的选择。",
+  "place": "@cr_galatas",
+  "units": [
+   "de.5mountain_crete",
+   "de.maleme_crete",
+   "nz.4b_crete"
+  ],
+  "sources": [
+   "cr_usarmy",
+   "cr_awm",
+   "cr_nz_middle"
+  ],
+  "confidence": "high",
+  "sfx": [
+   "artillery",
+   "mg"
+  ],
+  "side": "DE",
+  "zoomRel": 3.6
+ },
+ {
+  "id": "e.cr_galatas_counterattack",
+  "at": "1941-05-25T20:00",
+  "category": "battle",
+  "precision": "hour",
+  "importance": 2,
+  "title": {
+   "zh": "夜间反击暂时夺回村庄"
+  },
+  "body": "基彭伯格协调新西兰步兵，在两辆英国轻型坦克支持下向加拉塔斯反击。步兵快速突入村庄，近距离战斗迫使德国部队后退。这次成功为重新组织防线争取了时间，但守军缺少兵员、炮火和空中支持，随后仍决定放弃村庄，撤向干尼亚。",
+  "place": "@cr_galatas",
+  "units": [
+   "nz.4b_crete",
+   "nz.10b_crete"
+  ],
+  "sources": [
+   "cr_usarmy",
+   "cr_awm",
+   "cr_nz_middle"
+  ],
+  "confidence": "high",
+  "sfx": [
+   "tank",
+   "rifle"
+  ],
+  "side": "NZ",
+  "zoomRel": 3.6
+ },
+ {
+  "id": "e.cr_evacuation_request",
+  "at": "1941-05-26T12:00",
+  "category": "movement",
+  "precision": "day",
+  "importance": 1,
+  "title": {
+   "zh": "弗赖伯格请求撤离"
+  },
+  "body": "连续作战、补给不足和敌方空袭使守军难以维持岛西部防线。弗赖伯格向埃及的中东指挥部请求尽快决定撤离，以保存还能有组织行动的部队。新西兰与澳大利亚后卫在干尼亚以东重新设防；撤离准备并不意味着各防区同时停止抵抗。",
+  "place": "@cr_chania",
+  "units": [
+   "nz.creforce_crete",
+   "nz.2d_crete",
+   "au.19b_crete"
+  ],
+  "sources": [
+   "cr_usarmy",
+   "cr_awm",
+   "cr_nz_retreat"
+  ],
+  "confidence": "high",
+  "sfx": [
+   "radio",
+   "morse"
+  ],
+  "side": "NZ",
+  "zoomRel": 3.6
+ },
+ {
+  "id": "e.cr_fortysecond_charge",
+  "at": "1941-05-27T12:00",
+  "category": "battle",
+  "precision": "day",
+  "importance": 2,
+  "title": {
+   "zh": "四十二街后卫反击"
+  },
+  "body": "在苏达—干尼亚公路附近的四十二街，澳大利亚第19旅和新西兰第5旅的后卫遇到德军追击。澳军与毛利营等部队突然发起刺刀反击，暂时打退先头敌军。这次局部行动为主力脱离北岸争取了时间，两旅随后在夜间向斯蒂洛斯及南方山路撤退。",
+  "place": "@cr_fortysecond",
+  "units": [
+   "au.19b_crete",
+   "nz.5b_crete",
+   "de.5mountain_crete"
+  ],
+  "sources": [
+   "cr_usarmy",
+   "cr_awm",
+   "cr_nz_retreat"
+  ],
+  "confidence": "high",
+  "sfx": [
+   "rifle",
+   "mg"
+  ],
+  "side": "AU",
+  "photo": {
+   "commons": "File:Australian sign at Forty Second Street on Crete 1941 (AWM P03731 001).jpg",
+   "caption": "四十二街的战时路牌，约1941年5月26日；该处次日发生澳新军后卫反击。"
+  },
+  "zoomRel": 3.6
+ },
+ {
+  "id": "e.cr_evacuation_authorised",
+  "at": "1941-05-27T12:00",
+  "category": "movement",
+  "precision": "day",
+  "importance": 2,
+  "title": {
+   "zh": "南岸撤离获准，东方防区仍孤立"
+  },
+  "body": "Creforce收到撤往埃及的批准，主力开始转向斯法基亚。雷西姆诺和伊拉克利翁仍在抵抗，通信困难使撤离指示无法完整传达。伊拉克利翁计划由海军直接接走，雷西姆诺守军却未获得有效南撤安排，整个撤离过程因此出现不同结局。",
+  "place": "@cr_souda",
+  "units": [
+   "nz.creforce_crete",
+   "gb.14b_crete",
+   "au.retimo_crete"
+  ],
+  "sources": [
+   "cr_usarmy",
+   "cr_awm",
+   "cr_nz_retreat"
+  ],
+  "confidence": "high",
+  "sfx": [
+   "radio",
+   "paper"
+  ],
+  "side": "NZ",
+  "zoomRel": 3.6
+ },
+ {
+  "id": "e.cr_white_mountains",
+  "at": "1941-05-28T12:00",
+  "category": "movement",
+  "precision": "day",
+  "importance": 2,
+  "title": {
+   "zh": "越过白山，通往斯法基亚"
+  },
+  "body": "盟军主力通过斯蒂洛斯、阿斯基富高原和伊姆布罗斯山路向南岸移动。道路陡峭，车辆不足，疲惫步兵在轰炸威胁下弃置重装备。后卫保持隘口通道，德军主力则仍向北岸东部推进，没有立即把全部兵力投入对南撤部队的追击。",
+  "place": "@cr_askifou",
+  "units": [
+   "nz.4b_crete",
+   "nz.5b_crete",
+   "au.19b_crete"
+  ],
+  "sources": [
+   "cr_usarmy",
+   "cr_awm",
+   "cr_nz_retreat"
+  ],
+  "confidence": "high",
+  "sfx": [
+   "march",
+   "engine"
+  ],
+  "side": "NZ",
+  "zoomRel": 3.6
+ },
+ {
+  "id": "e.cr_sitia_landing",
+  "at": "1941-05-28T18:00",
+  "category": "naval",
+  "precision": "hour",
+  "importance": 2,
+  "title": {
+   "zh": "意军登陆岛东锡蒂亚"
+  },
+  "body": "一支意大利部队由罗得岛出发，在克里特东端锡蒂亚湾登陆，随后向当地港口和内陆方向移动。登陆发生在西部德军已突破、盟军开始南撤之际，后来与德军先遣队接触。它是独立海运行动，不能与20日四处德国空降合成一条推进路线。",
+  "place": "@cr_sitia",
+  "units": [
+   "it.sitia_crete"
+  ],
+  "sources": [
+   "cr_usarmy",
+   "cr_awm",
+   "cr_italian_history"
+  ],
+  "confidence": "high",
+  "sfx": [
+   "engine",
+   "ship_gun"
+  ],
+  "side": "IT",
+  "zoomRel": 3.6
+ },
+ {
+  "id": "e.cr_heraklion_evacuated",
+  "at": "1941-05-29T03:00",
+  "category": "naval",
+  "precision": "hour",
+  "importance": 1,
+  "title": {
+   "zh": "伊拉克利翁守军海撤"
+  },
+  "body": "28—29日夜，巡洋舰和驱逐舰从伊拉克利翁港接走英联邦守军。港口和机场随后被德军接收，归航船只却在白昼遭空袭，船上人员蒙受伤亡。这里的路线绕过克里特东端再转向埃及；希腊当地守军和未能登舰者的处境与已撤离主力不同。",
+  "place": "@cr_heraklion_port",
+  "units": [
+   "gb.14b_crete",
+   "au.heraklion_crete",
+   "gb.mediterranean_crete"
+  ],
+  "sources": [
+   "cr_usarmy",
+   "cr_awm",
+   "cr_nz_evac"
+  ],
+  "confidence": "high",
+  "sfx": [
+   "engine",
+   "stuka"
+  ],
+  "side": "GB",
+  "photo": {
+   "commons": "File:The Battle For Crete, 20 - 31 May 1941 E3295.jpg",
+   "caption": "从克里特撤离的官兵抵达埃及港口后领取茶水；英国陆军摄影队档案，并非战斗当天现场。"
+  },
+  "zoomRel": 3.6
+ },
+ {
+  "id": "e.cr_askifou_rearguard",
+  "at": "1941-05-29T12:00",
+  "category": "battle",
+  "precision": "day",
+  "importance": 2,
+  "title": {
+   "zh": "阿斯基富高原后卫战"
+  },
+  "body": "新西兰后卫在阿斯基富高原北部拦阻德国山地部队，掩护第5旅和澳大利亚部队向港口移动。步兵缺少粮食、饮水和弹药，却仍保持道路防御。皇家海军夜间接近斯法基亚，将能到达海滩的部队分批带走，山口战斗与海撤同时继续。",
+  "place": "@cr_askifou",
+  "units": [
+   "nz.5b_crete",
+   "au.19b_crete",
+   "de.100mountain_crete"
+  ],
+  "sources": [
+   "cr_usarmy",
+   "cr_awm",
+   "cr_nz_evac"
+  ],
+  "confidence": "high",
+  "sfx": [
+   "rifle",
+   "artillery"
+  ],
+  "side": "NZ",
+  "zoomRel": 3.6
+ },
+ {
+  "id": "e.cr_retimo_surrender",
+  "at": "1941-05-30T12:00",
+  "category": "surrender",
+  "precision": "day",
+  "importance": 2,
+  "title": {
+   "zh": "雷西姆诺守军投降"
+  },
+  "body": "西部德军抵达后，雷西姆诺防区已难以继续独立维持。未收到有效撤离指示的澳大利亚和希腊守军在补给与弹药不足下投降，另有一部分人员分散进入山区。此前德国伞兵多日未能拿下机场，这里的结局来自战区隔离和地面增援到达。",
+  "place": "@cr_retimo_airfield",
+  "units": [
+   "au.retimo_crete",
+   "gr.retimo_crete",
+   "de.retimo_crete"
+  ],
+  "sources": [
+   "cr_usarmy",
+   "cr_awm",
+   "cr_nz_evac"
+  ],
+  "confidence": "high",
+  "sfx": [
+   "stamp",
+   "paper"
+  ],
+  "side": "AU",
+  "zoomRel": 3.6
+ },
+ {
+  "id": "e.cr_last_evacuation",
+  "at": "1941-05-31T23:00",
+  "category": "naval",
+  "precision": "hour",
+  "importance": 1,
+  "title": {
+   "zh": "斯法基亚最后一夜海撤"
+  },
+  "body": "指挥部决定31日夜间为最后一次有组织撤离。船位有限，优先登舰的是还能整队行动的步兵和伤员；更多人员仍在岸上等待。皇家海军在空袭损失与舰艇故障下继续执行任务，澳新部队及部分陆战队离岛后，仍留下数千名盟军士兵。",
+  "place": "@cr_sfakia",
+  "units": [
+   "gb.mediterranean_crete",
+   "nz.5b_crete",
+   "au.19b_crete"
+  ],
+  "sources": [
+   "cr_usarmy",
+   "cr_awm",
+   "cr_nz_evac"
+  ],
+  "confidence": "high",
+  "sfx": [
+   "engine",
+   "ship_gun"
+  ],
+  "side": "GB",
+  "photo": {
+   "commons": "File:ANZAC troops arriving in Alexandria after the Crete campaign 7477379.JPG",
+   "caption": "1941年6月1日，从克里特撤出的澳新军在亚历山大港下船；George Silk摄。"
+  },
+  "zoomRel": 2.04
+ },
+ {
+  "id": "e.cr_capitulation",
+  "at": "1941-06-01T12:00",
+  "category": "surrender",
+  "precision": "day",
+  "importance": 1,
+  "title": {
+   "zh": "克里特有组织抵抗结束"
+  },
+  "body": "最后一批军舰离开后，仍在斯法基亚及岛上其他地区的盟军残部面临被俘，有组织抵抗于1日结束。部分人员继续在山区躲避搜捕或设法逃往埃及。战役控制图在此完成岛屿收束，但并不表示所有个人抵抗及后续占领事件也在当天结束。",
+  "place": "@cr_sfakia",
+  "units": [
+   "gb.suda_crete",
+   "gr.west_crete",
+   "de.5mountain_crete"
+  ],
+  "sources": [
+   "cr_usarmy",
+   "cr_awm",
+   "cr_nz_capture"
+  ],
+  "confidence": "high",
+  "sfx": [
+   "stamp",
+   "radio"
+  ],
+  "side": "GB",
+  "zoomRel": 2.04
+ }
+]

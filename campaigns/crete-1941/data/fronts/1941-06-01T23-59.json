@@ -1,0 +1,38 @@
+{
+ "at": "1941-06-01T23:59",
+ "control": {
+  "DE": [
+   [
+    [
+     [
+      23.49,
+      34.925
+     ],
+     [
+      26.49,
+      34.925
+     ],
+     [
+      26.49,
+      35.735
+     ],
+     [
+      23.49,
+      35.735
+     ]
+    ]
+   ]
+  ]
+ },
+ "note": "克里特战役结束；海上撤离目的地为图外埃及，山区仍存在抵抗。",
+ "sources": [
+  "cr_usarmy",
+  "cr_awm",
+  "cr_nz_first",
+  "cr_nz_middle",
+  "cr_nz_retreat",
+  "cr_nz_evac",
+  "cr_nz_capture"
+ ],
+ "confidence": "medium"
+}

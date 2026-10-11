@@ -1,0 +1,38 @@
+{
+ "at": "1941-06-01T12:00",
+ "control": {
+  "DE": [
+   [
+    [
+     [
+      23.49,
+      34.925
+     ],
+     [
+      26.49,
+      34.925
+     ],
+     [
+      26.49,
+      35.735
+     ],
+     [
+      23.49,
+      35.735
+     ]
+    ]
+   ]
+  ]
+ },
+ "note": "残留盟军有组织抵抗结束。控制图代表战役结局，仍有个人逃脱与山区抵抗。",
+ "sources": [
+  "cr_usarmy",
+  "cr_awm",
+  "cr_nz_first",
+  "cr_nz_middle",
+  "cr_nz_retreat",
+  "cr_nz_evac",
+  "cr_nz_capture"
+ ],
+ "confidence": "medium"
+}
