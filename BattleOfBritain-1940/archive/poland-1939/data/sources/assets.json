@@ -1,9 +1,0 @@
-[
-  { "id": "wikimedia_commons", "title": "Wikimedia Commons（历史照片、音效与录音）", "author": "Wikimedia Commons contributors", "url": "https://commons.wikimedia.org/", "license": "逐文件标注：公有领域 / CC0 / CC BY / CC BY-SA（见 public/credits.json）" },
-  { "id": "bundesarchiv_commons", "title": "Bundesarchiv 图片（经 Wikimedia Commons）", "author": "Bundesarchiv", "url": "https://commons.wikimedia.org/wiki/Commons:Bundesarchiv", "license": "CC BY-SA 3.0 DE" },
-  { "id": "julien_bryan_warsaw", "title": "Julien Bryan 1939 年华沙围城摄影", "author": "Julien Bryan", "year": 1939, "url": "https://commons.wikimedia.org/wiki/Category:Photographs_by_Julien_Bryan", "license": "Public domain" },
-  { "id": "freesound_cc0", "title": "Freesound.org CC0 音效（公开预览）", "author": "Freesound contributors", "url": "https://freesound.org/", "license": "CC0 1.0" },
-  { "id": "musopen", "title": "Musopen 公有领域古典音乐录音（经 Wikimedia Commons）", "author": "Musopen", "url": "https://musopen.org/", "license": "Public domain" },
-  { "id": "google_fonts", "title": "Google Fonts 开源字体仓库", "author": "Google Fonts contributors", "url": "https://github.com/google/fonts", "license": "SIL OFL 1.1 / Apache 2.0" },
-  { "id": "lxgw_wenkai", "title": "霞鹜文楷 LXGW WenKai", "author": "LXGW", "url": "https://github.com/lxgw/LxgwWenKai", "license": "SIL OFL 1.1" }
-]

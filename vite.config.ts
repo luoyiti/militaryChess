@@ -2,7 +2,6 @@ import { defineConfig } from 'vite';
 import { campaignsPlugin, discoverCampaigns, buildable } from './tools/vite/catalog';
 
 /** 旧版独立战役目录（迁移完成后删除）：排除出监听与依赖扫描 */
-const LEGACY = ['InvasionOfPoland-1939', 'BattleOfFrance-1940', 'NorwegianCompaign-1940', 'BattleOfBritain-1940', 'BalkansCampaign-1941', 'BattleOfCrete-1941', 'barbarossa-1941'];
 
 export default defineConfig(({ command }) => {
   const dev = command === 'serve';
@@ -15,7 +14,7 @@ export default defineConfig(({ command }) => {
     plugins: [campaignsPlugin()],
     server: {
       host: '127.0.0.1', port: 5180, strictPort: true,
-      watch: { ignored: [...LEGACY.map((d) => `**/${d}/**`), '**/.work/**', '**/.cache/**', '**/.baselines/**', '**/pipeline/**'] },
+      watch: { ignored: ['**/.work/**', '**/.cache/**', '**/.baselines/**', '**/pipeline/**'] },
     },
     preview: { host: '127.0.0.1', port: 4180, strictPort: true },
     // 一次性预构建全部依赖，避免开发中途重新优化

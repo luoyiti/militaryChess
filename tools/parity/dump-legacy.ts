@@ -3,6 +3,11 @@
  * Run with the fork's tsx so its node_modules resolve:
  *   <fork>/node_modules/.bin/tsx tools/parity/dump-legacy.ts <forkDir> <out.json>
  * Output keys are absolute ISO minutes (not hours), so they compare across epochs.
+ *
+ * 旧版分叉目录已在 M6 删除；baseline 已导出在 .baselines/<fork>/state.json（npm run parity 直接使用）。
+ * 如需重新导出旧版状态，先从标签 pre-merge 取回旧代码：
+ *   git worktree add ../war-room-legacy pre-merge && (cd ../war-room-legacy/<fork> && npm ci)
+ *   ../war-room-legacy/<fork>/node_modules/.bin/tsx tools/parity/dump-legacy.ts ../war-room-legacy/<fork> <out.json>
  */
 import { readFileSync, readdirSync, existsSync, writeFileSync, mkdirSync } from 'node:fs';
 import { resolve, dirname } from 'node:path';

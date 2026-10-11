@@ -1,5 +1,0 @@
-{"dateContext":"1940-07-10 to 1940-10-31", "mapMethod":"固定国家地理背景；空域为独立动态数据。现代真实高程配合1940荷兰海岸校正。森林与湿地轮廓为概化近似。", "sources":[
- {"name":"Natural Earth 1:10m physical/cultural vectors","url":"https://www.naturalearthdata.com/","license":"Public domain","terms":"https://www.naturalearthdata.com/about/terms-of-use/"},
- {"name":"Mapzen Terrarium Terrain Tiles on AWS","url":"https://registry.opendata.aws/terrain-tiles/","terms":"https://github.com/tilezen/joerd/blob/master/docs/attribution.md","attribution":"Mapzen; Europe terrain data produced using Copernicus data and information funded by the European Union - EU-DEM layers; Norway terrain data © Kartverket; United Kingdom terrain data © Environment Agency copyright and/or database right 2015; Global ETOPO1 terrain data U.S. National Oceanic and Atmospheric Administration; SRTM and GMTED2010 terrain data courtesy of the U.S. Geological Survey."},
- {"name":"Rijkswaterstaat:100 jaar Zuiderzeewerken","url":"https://www.rijkswaterstaat.nl/water/waterbeheer/bescherming-tegen-het-water/100-jaar-zuiderzeewet","use":"Noordoostpolder1942, easternFlevoland1957, southernFlevoland1968 dates; removed from1940 land"}
-]}

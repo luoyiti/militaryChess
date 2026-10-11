@@ -1,8 +1,0 @@
-node_modules/
-.venv/
-.work/
-scripts/.cache/
-dist/
-.work/
-.debug/
-scripts/.cache/

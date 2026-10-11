@@ -7,6 +7,7 @@
  *   public/**        → public/campaigns/<id>/**（去掉共享的字体、音效、配乐与仅供校验的战区 geojson）
  *   scripts/ docs/ tests/ README LICENSES → campaigns/<id>/pipeline|docs|tests
  * 不修改旧目录；重复运行会覆盖目标中的同名文件。
+ * 迁移已完成，旧目录在 M6 删除；需要重跑时从标签 pre-merge 取回（git worktree add ../war-room-legacy pre-merge）。
  */
 import { cpSync, existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync, statSync } from 'node:fs';
 import { join, resolve, basename, dirname } from 'node:path';
