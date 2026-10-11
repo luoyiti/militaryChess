@@ -183,7 +183,6 @@ export class StaticLayers {
     const places = this.db.places.filter((p) => !['forest', 'river', 'region'].includes(p.kind));
     // 战略要点标注偏移到空白处，并用引线指回准确位置（manifest.map.labelHubs）
     const hubs: Record<string, [number, number]> = mm.labelHubs ?? {};
-    const centeredBox = mm.cityLabelBox === 'centered';
     const placeMarkers = !!mm.portMarkers; // 港口用锚形标记（挪威）
     const minRelFor = (p: Place) => (p.rank === 1 ? 0 : p.rank === 2 ? 0.95 : p.rank === 3 ? 1.9 : 3.6);
     for (const p of places.sort((a, b) => (hubs[a.id] ? 0 : a.rank) - (hubs[b.id] ? 0 : b.rank))) {
@@ -201,7 +200,7 @@ export class StaticLayers {
           : p.rank <= 2 ? `<circle class="m-city" r="3.6"/><circle class="m-city-in" r="1.4"/>` : `<circle class="m-town" r="2.3"/>`;
       const [dx, baseline] = hub ?? [6, 4];
       const leader = hub ? `<path d="M0,0 L${dx},${baseline - 5}" fill="none" stroke="#73664d" stroke-width="0.8" opacity="0.72"/>` : '';
-      this.addLabel({ wx, wy, w, h, minRel: hub ? 0 : minRelFor(p), prio: hub ? 1 : p.rank, kind: 'city', dx, dy: centeredBox && !hub ? -h / 2 : baseline - fs },
+      this.addLabel({ wx, wy, w, h, minRel: hub ? 0 : minRelFor(p), prio: hub ? 1 : p.rank, kind: 'city', dx, dy: baseline - fs },
         `${leader}${marker}<text class="city r${hub ? 1 : p.rank}" x="${dx}" y="${baseline}" font-size="${fs}">${p.zh}</text>`, `l-city r${hub ? 1 : p.rank}`);
     }
     // 河流名：同名河取最长折线中点

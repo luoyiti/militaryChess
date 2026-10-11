@@ -306,20 +306,12 @@
         ]
       ]
     },
-    "cityLabelBox": "centered",
-    "riverLabelCrop": [
-      1200,
-      300,
-      7600,
-      6400
-    ],
     "unitZoom": [
       2.2,
       3.4,
       5.8
     ],
-    "routesFullStandalone": true,
-    "insetTop": 70
+    "routesFullStandalone": true
   },
   "display": {},
   "sandbox": {

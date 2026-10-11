@@ -401,7 +401,7 @@ export async function start(c: CampaignDef) {
     }
   });
   const sidebarInset = () => (sidebar.el.classList.contains('collapsed') ? 30
-    : m.map.sidebarInset === 'measure' ? sidebar.el.getBoundingClientRect().width + 20 : m.map.sidebarInset ?? 340);
+    : typeof m.map.sidebarInset === 'number' ? m.map.sidebarInset : sidebar.el.getBoundingClientRect().width + 20);
   window.addEventListener('sidebar-toggle', () => {
     if (!m.map.liveInsets) map.insets.left = sidebarInset();
     map.resize();

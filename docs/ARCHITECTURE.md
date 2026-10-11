@@ -60,4 +60,4 @@ await import('./app/start')   构建界面；插件在这里 setup
 
 - `npm run validate`：清单与数据的结构、引用、时间窗、坐标范围、轨迹时序与速度、多边形自相交、照片与资产完整性，以及清单里声明的战役专属规则（`manifest.validation`）。
 - `npm test`：引擎（场模型、模型库、时间、移动、视图约束、边界检查、音频库）与各战役（`campaigns/<id>/tests/`）的单元测试。
-- `npm run parity`：迁移期使用的旧版对比工具——逐时刻比较部队状态与控制区几何，并对确定性截图做像素差异（`tools/parity/`，接受的差异记录在 `campaigns/<id>/parity.accepted.json`）。
+- `npm run parity -- <id> --url http://127.0.0.1:5180/campaigns/<id>/`：逐时刻比较部队状态与控制区几何（始终对照旧版导出的 `.baselines/<旧目录>/state.json`），并对确定性截图做像素差异（`tools/parity/`）。迁移期截图对照旧版画面；M7 升级后 `parity.accepted.json` 的 `baseline` 指向升级后的统一引擎画面（`shots-m7`），用于回归检查，接受的差异写在同一文件里。

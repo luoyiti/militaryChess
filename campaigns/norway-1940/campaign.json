@@ -338,13 +338,6 @@
         ]
       ]
     },
-    "cityLabelBox": "centered",
-    "riverLabelCrop": [
-      1200,
-      300,
-      7600,
-      6400
-    ],
     "portMarkers": true,
     "transportStyle": "markers",
     "regions": [
@@ -394,8 +387,7 @@
         "zoom": 1.45
       }
     ],
-    "mapKey": "<b>N ↑</b><span>1940 / NORWAY</span><small>━━▶ 陆地 / 登陆　⚓ ┄▶ 海军　✈ ··▶ 航空</small><small>路线、位置与据点控制为概略示意</small>",
-    "sidebarInset": "measure"
+    "mapKey": "<b>N ↑</b><span>1940 / NORWAY</span><small>━━▶ 陆地 / 登陆　⚓ ┄▶ 海军　✈ ··▶ 航空</small><small>路线、位置与据点控制为概略示意</small>"
   },
   "display": {
     "statusEchelons": "markers",

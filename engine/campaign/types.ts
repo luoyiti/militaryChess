@@ -104,7 +104,6 @@ export interface CampaignManifest {
     /** 国家大字 [名称, 经, 纬, 字号, 最小相对缩放]；海域/山脉 [名称, 经, 纬, 字号, 是否山脉, 最小相对缩放?] */
     labels?: { countries?: [string, number, number, number, number][]; waters?: [string, number, number, number, boolean, number?][] };
     labelHubs?: Record<string, [number, number]>; // 地名 id → 标注偏移（带引线）
-    cityLabelBox?: 'baseline' | 'centered'; // 城市标注避让框（旧版波兰系为 centered）
     portMarkers?: boolean; // 港口用锚形标记
     riverLabelCrop?: [number, number, number, number]; // 河名候选中点的世界坐标范围，缺省画布内 2%–98%
     regions?: { id: string; label: string; center: LonLat; zoom: number }[];
@@ -112,7 +111,7 @@ export interface CampaignManifest {
     insetTop?: number; // 顶栏占位（缺省 64）
     insetBottom?: number; // 时间轴占位（缺省 150）
     liveInsets?: boolean; // 侧栏/时间轴占位随界面实时测量（每次运镜重新适配）
-    sidebarInset?: 'measure' | number; // 展开侧栏时的左侧占位：固定像素（缺省 340）或按侧栏实际宽度 + 20
+    sidebarInset?: 'measure' | number; // 展开侧栏时的左侧占位：缺省按侧栏实际宽度 + 20，或固定像素
     routesFullStandalone?: boolean; // 「完整路线」可单独显示（不叠加当前推进箭头）
     initialView?: { center: LonLat; zoom: number }; // 启动后的初始镜头（缺省全图）
     unitZoom?: [number, number, number]; // 选中部队时的缩放：集团军/军/师级
