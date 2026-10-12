@@ -2,8 +2,8 @@
  * 新建战役包：npm run new-campaign -- <id> --title <中文名> --en <English title> --start <ISO> --end <ISO>
  *                                      --bbox <西,南,东,北> --sides <ID:中文名:阵营[:1938年国名+…],…> [选项]
  * 选项：--orig <原文名> --codename <行动代号> --pin <经,纬> --status draft|planned（缺省 draft）
- *       --width 8192|4096（画布宽，缺省 8192）--force（覆盖已存在的目录）
- * 阵营：axis | allies | comintern | neutral。第一个阵营是进攻方（控制区 A 槽），与之对立的阵营的国家构成战区。
+ *       --region <总台分区，见 hub/world.json 的 theatres> --width 8192|4096（画布宽，缺省 8192）--force（覆盖已存在的目录）
+ * 阵营：axis | allies | comintern | neutral。第一个阵营是推进方（控制区 A 槽，任何阵营都可以），与之对立的阵营的国家构成战区。
  * 1938 年国名取自 historical-basemaps world_1938（如 Germany、USSR、Poland），用于国界映射与场掩膜。
  *
  * 生成 campaigns/<id>/（清单、入口、配置、能通过校验的最小数据）与 public/campaigns/<id>/（署名、照片索引）。
@@ -83,6 +83,7 @@ const hub = {
   order: 99,
   codename,
   codenameOrig: opt('orig')?.toUpperCase(),
+  region: opt('region'),
   pin,
   labelAt: 's',
   theatre: { bbox },

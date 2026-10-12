@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 2,
+  "id": "guadalcanal-1942",
+  "status": "planned",
+  "title": {
+    "mark": "1942",
+    "zh": "瓜达尔卡纳尔岛战役",
+    "sub": "瞭望塔行动 · 筹备中",
+    "en": "The Guadalcanal Campaign",
+    "orig": "Operation Watchtower · ガダルカナル島の戦い",
+    "codename": "瞭望塔行动"
+  },
+  "time": {
+    "epoch": "1942-08-07T00:00",
+    "start": "1942-08-07T06:00",
+    "end": "1943-02-09T23:59",
+    "tzLabel": "UTC+11"
+  },
+  "sides": [
+    { "id": "US", "name": "美国", "coalition": "allies", "css": { "main": "#3f5f7f" } },
+    { "id": "JP", "name": "日本", "coalition": "axis", "css": { "main": "#8a6d3b" } }
+  ],
+  "hub": {
+    "order": 10,
+    "codename": "瞭望塔行动",
+    "codenameOrig": "WATCHTOWER",
+    "stencil": "GUADALCANAL",
+    "pin": [160.0, -9.45],
+    "labelAt": "s",
+    "theatre": { "bbox": [159.5, -9.95, 160.9, -9.05] },
+    "blurb": "美军登陆瓜岛并夺取日军在建的机场；此后半年，双方围绕亨德森机场与铁底湾反复争夺，七次大型海战与持续的陆上攻防之后，日军于 1943 年 2 月撤出全岛。"
+  }
+}

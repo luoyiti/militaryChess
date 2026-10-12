@@ -23,7 +23,7 @@ export interface SideDef {
   /** 3D 底座/丝带色，缺省 = counter.bg */
   sandbox?: string;
   defaultModel?: ModelId; // 3D 沙盘找不到模型时的兜底，缺省 inf_<id小写>
-  restHeading?: number; // 3D 静止朝向（π 的倍数：0=向东，1=向西），缺省 DE=0 其他=1
+  restHeading?: number; // 3D 静止朝向（π 的倍数：0=向东，1=向西），缺省第一个阵营 0、其余 1
   commandMark?: string; // command 梯队棋子上的标记（如 RAF / LW）
   planesFrom?: 'W' | 'N' | 'E'; // 导演特效：该方飞机入场方向
   planeColor?: string; // 导演特效飞机剪影颜色（缺省 #2d3036）
@@ -237,11 +237,13 @@ export interface CampaignManifest {
 /** 总台（作战地图桌）上的条目：火漆印位置、战区轮廓、档案夹内容 */
 export interface HubEntry {
   order?: number;
-  codename: string; // 档案夹上的行动代号（中文）
-  codenameOrig?: string; // 地图上的模板字代号（原文大写，如 FALL WEISS）
+  codename: string; // 档案夹上的行动代号（中文；没有代号的战役写通行名称）
+  codenameOrig?: string; // 档案夹上的原文代号（如 FALL WEISS、WATCHTOWER）
+  stencil?: string; // 地图上火漆印旁的模板字（拉丁字母大写），缺省为 title.en 去掉冠词后大写
+  region?: string; // 总台分区（hub/world.json 的 theatres[].id），缺省按火漆印落在哪个分区的取景框内
   pin: LonLat; // 火漆印位置
-  labelAt?: 'n' | 's' | 'e' | 'w'; // 代号标签相对火漆印的方位（缺省 s）
-  /** 战区轮廓：总台底图中的国家/分区 id（public/hub/europe1938.topo.json），或经纬度框；缺省取 frame.bbox */
+  labelAt?: 'n' | 's' | 'e' | 'w'; // 模板字相对火漆印的方位（缺省 s）
+  /** 战区轮廓：总台底图中的国家/分区 id（public/hub/world1938.topo.json），或经纬度框；缺省取 frame.bbox */
   theatre?: { countries?: string[]; bbox?: [number, number, number, number]; kind?: 'land' | 'air' };
   cover?: string; // 封面照片（相对战役资源目录，须在 photos/index.json 中以便署名）
   blurb: string;

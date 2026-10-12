@@ -44,7 +44,7 @@ class AudioManager {
     for (const id of ids) {
       const t = musicTrack(id);
       if (!t) continue;
-      this.music.set(id, new Howl({ src: t.src, html5: t.html5 ?? true, loop: !t.oneShot, volume: 0, preload: id === (this.cfg.introMusic ?? this.cfg.bedTrack) }));
+      this.music.set(id, new Howl({ src: t.src, html5: t.html5 ?? true, loop: !t.oneShot, volume: 0, preload: id === (this.cfg.introMusic ?? this.cfg.bedTrack) || (id === 'hejnal' && this.cfg.introSting === 'hejnal') })); // 未预载的 html5 Howl 首次播放时会把整个 src 数组当成一个地址
     }
     // 解锁 WebAudio
     const ctx = Howler.ctx;

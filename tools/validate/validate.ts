@@ -292,13 +292,15 @@ export function validateCampaign(id: string): Report {
   return { id, errors, warns, stats };
 }
 
-/** 总台卷宗：战区国家须存在于总台底图，封面须有署名，嵌套战役须存在 */
+/** 总台卷宗：战区国家须存在于总台底图，分区须存在，封面须有署名，嵌套战役须存在 */
 function hubChecks(m: CampaignManifest, E: (s: string) => void, W: (s: string) => void, photos: Record<string, { src: string }> | null) {
-  const topoPath = join(ROOT, 'public/hub/europe1938.topo.json');
+  const topoPath = join(ROOT, 'public/hub/world1938.topo.json');
   if (existsSync(topoPath) && m.hub?.theatre?.countries) {
     const ids = new Set(readJson<{ objects: { countries: { geometries: { properties: { id: string } }[] } } }>(topoPath).objects.countries.geometries.map((g) => g.properties.id));
-    for (const c of m.hub.theatre.countries) if (!ids.has(c)) E(`hub.theatre.countries: 「${c}」不在总台底图中（可用 id 见 public/hub/europe1938.topo.json）`);
+    for (const c of m.hub.theatre.countries) if (!ids.has(c)) E(`hub.theatre.countries: 「${c}」不在总台底图中（可用 id 见 public/hub/world1938.topo.json）`);
   }
+  const world = readJson<{ theatres: { id: string }[] }>(join(ROOT, 'hub/world.json'));
+  if (m.hub?.region && !world.theatres.some((t) => t.id === m.hub.region)) E(`hub.region: 「${m.hub.region}」不是总台分区（hub/world.json 的 theatres：${world.theatres.map((t) => t.id).join('、')}）`);
   if (!m.hub?.theatre) W('hub.theatre 未设置：总台以 frame.bbox 作战区轮廓');
   if (m.hub?.parent && !existsSync(join(campaignDir(m.hub.parent), 'campaign.json'))) E(`hub.parent: 战役 ${m.hub.parent} 不存在`);
   if (m.hub?.cover && photos) { if (!Object.values(photos).some((p) => p.src === m.hub.cover)) E(`hub.cover: ${m.hub.cover} 不在 photos/index.json 中（总台需要它的署名）`); }

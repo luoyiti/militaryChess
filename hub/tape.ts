@@ -1,11 +1,11 @@
 /**
- * 电报纸带：1939—1941 的时间线。拖动或播放时，地图按日期为各国着色、点亮进行中的战区；
- * 纸带上方打出当时最新的一条电报。战役跨度条来自 catalog，电报来自 occupation.json。
+ * 电报纸带：world.json 的时间窗（1937—1945）。拖动或播放时，地图按日期为各国着色、点亮进行中的战区；
+ * 纸带上方打出当时最新的一条电报。战役跨度条来自 catalog（颜色取发起方所属阵营），电报来自 world.json。
  */
-import type { CatalogEntry, OccupationData } from './types';
+import type { CatalogEntry, WorldData } from './types';
 import { dayOf, fmtLong, fmtDot, weekday, monthStart, yearOf, monthOf } from './dates';
 
-const PLAY_DAYS_PER_SEC = 18;
+const PLAY_DAYS_PER_SEC = 32;
 
 export class Tape {
   readonly el: HTMLElement;
@@ -25,17 +25,19 @@ export class Tape {
   private raf = 0;
   private lastDispatch = -1;
   private typing = 0;
+  private filter: Set<string> | null = null;
   onChange: (day: number) => void = () => {};
   onSpan: (c: CatalogEntry) => void = () => {};
   onType: () => void = () => {};
 
-  constructor(host: HTMLElement, private entries: CatalogEntry[], private occ: OccupationData, initial: number, private reduced: boolean) {
-    this.start = dayOf(occ.window.start);
-    this.end = dayOf(occ.window.end);
+  constructor(host: HTMLElement, private entries: CatalogEntry[], private world: WorldData, initial: number, private reduced: boolean) {
+    this.start = dayOf(world.window.start);
+    this.end = dayOf(world.window.end);
     this.day = Math.max(this.start, Math.min(this.end, initial));
+    const y0 = yearOf(this.start), y1 = yearOf(this.end);
     this.el = document.createElement('section');
-    this.el.className = 'tape';
-    this.el.setAttribute('aria-label', '电报纸带：1939—1941 年时间线');
+    this.el.className = 'tape hud';
+    this.el.setAttribute('aria-label', `电报纸带：${y0}—${y1} 年时间线`);
     this.el.innerHTML = `
       <div class="tape-controls">
         <button class="tape-play" type="button" aria-label="播放时间线" title="播放 / 暂停（空格）"><span>▶</span></button>
@@ -88,7 +90,7 @@ export class Tape {
 
   private buildMarks() {
     const host = this.el.querySelector('.tape-marks')!;
-    host.innerHTML = this.occ.dispatches
+    host.innerHTML = this.world.dispatches
       .filter((d) => dayOf(d.date) >= this.start && dayOf(d.date) <= this.end)
       .map((d) => `<i style="left:${this.pct(dayOf(d.date)).toFixed(3)}%" title="${fmtDot(dayOf(d.date))} ${d.text}"></i>`).join('');
   }
@@ -97,8 +99,10 @@ export class Tape {
   private layoutSpans() {
     const width = this.strip.clientWidth || 1000;
     const pxPerDay = width / (this.end - this.start);
-    this.strip.classList.toggle('dense', pxPerDay * 30.5 < 34); // 月宽不足时只标季度月
-    // 时间带只画落在窗口（occupation.json 的 window）内的战役；窗口外的战役仍在地图上
+    const monthPx = pxPerDay * 30.5;
+    this.strip.classList.toggle('dense', monthPx < 34); // 月宽不足时只标季度月
+    this.strip.classList.toggle('sparse', monthPx < 15); // 再窄只标年份
+    // 时间带只画落在窗口内的战役；窗口外的战役仍在地图上
     const sorted = this.entries.filter((c) => dayOf(c.time.end) >= this.start && dayOf(c.time.start) <= this.end).sort((a, b) => dayOf(a.time.start) - dayOf(b.time.start));
     const lanes: number[] = [];
     let html = '';
@@ -112,8 +116,9 @@ export class Tape {
       let lane = lanes.findIndex((end) => end < from);
       if (lane < 0) { lane = lanes.length; lanes.push(0); }
       lanes[lane] = reach;
-      const color = c.sides.find((x) => x.coalition !== 'axis')?.color ?? '#7a2f2f';
-      html += `<button type="button" class="tape-span lbl-${place} ${c.status === 'planned' ? 'planned' : ''}" data-id="${c.id}" style="left:${this.pct(s).toFixed(3)}%;width:${Math.max(0.35, this.pct(e) - this.pct(s)).toFixed(3)}%;--lane:${lane};--c:${color}" title="${c.title.zh} ${fmtDot(s)}—${fmtDot(e)}"><span>${c.title.zh}</span></button>`;
+      // 跨度条颜色 = 发起方（第一个阵营）所属阵营的颜色
+      const color = this.world.blocs[c.sides[0]?.coalition ?? '']?.color ?? '#7a6a52';
+      html += `<button type="button" class="tape-span lbl-${place} ${c.status === 'planned' ? 'planned' : ''}" data-id="${c.id}" style="left:${this.pct(s).toFixed(3)}%;width:${Math.max(0.3, this.pct(e) - this.pct(s)).toFixed(3)}%;--lane:${lane};--c:${color}" title="${c.title.zh} ${fmtDot(s)}—${fmtDot(e)}"><span>${c.title.zh}</span></button>`;
     }
     this.strip.style.setProperty('--lanes', String(Math.max(1, lanes.length)));
     this.spansEl.innerHTML = html;
@@ -121,6 +126,7 @@ export class Tape {
       b.onclick = (ev) => { ev.stopPropagation(); const c = this.entries.find((x) => x.id === b.dataset.id); if (c) this.onSpan(c); };
     });
     this.markSpans();
+    this.setFilter(this.filter);
   }
 
   private markSpans() {
@@ -130,6 +136,10 @@ export class Tape {
     });
   }
   highlight(id: string | null) { this.spansEl.querySelectorAll<HTMLElement>('.tape-span').forEach((b) => b.classList.toggle('on', b.dataset.id === id)); }
+  setFilter(ids: Set<string> | null) {
+    this.filter = ids;
+    this.spansEl.querySelectorAll<HTMLElement>('.tape-span').forEach((b) => b.classList.toggle('dim', !!ids && !ids.has(b.dataset.id!)));
+  }
 
   private bindInput() {
     const fromX = (clientX: number) => {
@@ -211,12 +221,12 @@ export class Tape {
     this.markSpans();
     // 最新电报
     let idx = -1;
-    this.occ.dispatches.forEach((d, i) => { if (dayOf(d.date) <= this.day) idx = i; });
+    this.world.dispatches.forEach((d, i) => { if (dayOf(d.date) <= this.day) idx = i; });
     if (idx === this.lastDispatch) return;
     this.lastDispatch = idx;
-    const d = this.occ.dispatches[idx];
+    const d = this.world.dispatches[idx];
     this.tgDate.textContent = d ? fmtDot(dayOf(d.date)) : '';
-    const text = d ? `${d.text}　STOP` : '欧洲尚未开战　STOP';
+    const text = d ? `${d.text}　STOP` : '战火尚未燃起　STOP';
     clearInterval(this.typing);
     if (!typed || this.reduced || this.playing) { this.tgText.textContent = text; return; }
     let n = 0;

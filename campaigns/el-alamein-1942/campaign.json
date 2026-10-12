@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 2,
+  "id": "el-alamein-1942",
+  "status": "planned",
+  "title": {
+    "mark": "1942",
+    "zh": "阿拉曼战役",
+    "sub": "第二次阿拉曼战役 · 筹备中",
+    "en": "The Second Battle of El Alamein",
+    "orig": "Operation Lightfoot · Operation Supercharge",
+    "codename": "捷足行动"
+  },
+  "time": {
+    "epoch": "1942-10-23T00:00",
+    "start": "1942-10-23T21:40",
+    "end": "1942-11-11T23:59",
+    "tzLabel": "UTC+2"
+  },
+  "sides": [
+    { "id": "GB", "name": "英联邦", "coalition": "allies", "css": { "main": "#8a7044" } },
+    { "id": "DE", "name": "德国", "coalition": "axis", "css": { "main": "#3a5887" } },
+    { "id": "IT", "name": "意大利", "coalition": "axis", "css": { "main": "#4a7a8c" } }
+  ],
+  "hub": {
+    "order": 9,
+    "codename": "捷足行动",
+    "codenameOrig": "LIGHTFOOT",
+    "stencil": "EL ALAMEIN",
+    "pin": [28.95, 30.84],
+    "labelAt": "s",
+    "theatre": { "bbox": [27.6, 29.8, 30.2, 31.2] },
+    "blurb": "蒙哥马利指挥英联邦第八集团军在雷区密布的阿拉曼防线前发起夜间炮击与突破，十余天的消耗战后撕开轴心国阵地，隆美尔的德意装甲集团军被迫向利比亚撤退。"
+  }
+}

@@ -58,7 +58,7 @@ describe('编队的实际 Canvas 朝向与生命周期', () => {
   it('法国出发的编队在真实起点和目标之间运动，机头沿投影后的西北航向', () => {
     const { fx, draws } = canvasMap();
     const origin: LonLat = [-.424, 49.106], target: LonLat = [-1.8, 50.32];
-    fx.planesTo(target, 'fighter', 'E', origin);
+    fx.planesTo(target, 'fighter', 'E', origin, 'GB');
     fx.draw(3100);
     const plane = draws.find((d) => d.color === '#8e3636')!;
     const midpoint = project([-1.112, 49.713]);

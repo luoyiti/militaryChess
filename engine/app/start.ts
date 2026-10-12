@@ -61,7 +61,7 @@ export async function start(c: CampaignDef) {
   // ---------- 顶栏 ----------
   const top = div('topbar', ui);
   top.innerHTML = `
-    <a class="tb-back" href="../../" title="返回作战总台">‹ 总台</a>
+    <a class="tb-back" href="../../" title="返回作战总台（镜头拉回世界地图）">‹ 总台</a>
     <div class="tb-title"><span class="tb-mark">${m.title.mark}</span><div><b>${m.title.zh}</b><small>${m.title.sub}</small></div></div>
     <div class="tb-phase"></div>
     <div class="tb-btns">
@@ -72,6 +72,10 @@ export async function start(c: CampaignDef) {
       <button class="tb-full" title="全屏">⛶</button>
     </div>`;
   const phaseEl = top.querySelector('.tb-phase') as HTMLElement;
+  // 返回总台：留下记号，总台据此从本战役的战区拉远镜头（浏览器后退同样适用）
+  const markReturn = () => { try { sessionStorage.setItem('warroom:return', JSON.stringify({ id: m.id, at: Date.now() })); } catch { /* 隐私模式 */ } };
+  (top.querySelector('.tb-back') as HTMLElement).addEventListener('click', markReturn);
+  window.addEventListener('pagehide', markReturn);
   const btns = top.querySelector('.tb-btns') as HTMLElement;
   top.querySelectorAll<HTMLButtonElement>('[data-mode]').forEach((b) => (b.onclick = () => store.set({ mode: b.dataset.mode as '2d' | '3d' })));
   const goHome = () => { manualCamera = true; director.cancelReturn(); store.set({ followUnit: false }); if (store.get().mode === '2d') map.home(); else sandbox?.flyTo(home3d, 1); };
@@ -431,10 +435,11 @@ export async function start(c: CampaignDef) {
   if (m.map.initialView) map.flyTo(m.map.initialView.center, m.map.initialView.zoom, 0);
   clock.start();
 
-  const enter = async (tour: boolean) => {
-    await audio.init();
+  // 首次交互后解锁音频；从总台带 ?tour 进入时没有页面内的点击，音频在浏览器允许时（或下一次点击时）才开始
+  const enter = (tour: boolean) => {
+    const audioReady = audio.init();
     store.set({ started: true, director: tour });
-    audio.sting();
+    void audioReady.then(() => audio.sting());
     if (tour && m.ui.tourOpensFirstEvent && db.events[0]) window.setTimeout(() => director.present(db.events[0], true), 1800);
     window.setTimeout(() => {
       if (m.audio.introMusic) audio.playMusic(m.audio.introMusic, 4000);
@@ -448,8 +453,21 @@ export async function start(c: CampaignDef) {
       }, 1800);
     }
   };
+  // 从总台进入：?tour 直接开始自动推演，?nointro 自由浏览；直接打开页面时显示开场档案袋
+  const tourFromHub = params.has('tour');
   if (params.has('nointro')) store.set({ started: true, director: false });
-  else showIntro(ui, db, enter);
+  else if (!tourFromHub) showIntro(ui, db, enter);
+
+  // 转场揭幕：总台的推进快照覆盖在页面上，等底图瓦片与第一帧控制区就位后再放大淡出
+  const handoff = (window as unknown as { __wrHandoff?: { arriving(): boolean; reveal(): void } }).__wrHandoff;
+  const arriving = !!handoff?.arriving();
+  const settle = async () => {
+    const t0 = performance.now();
+    while (performance.now() - t0 < 2600 && (map.tilesPending() > 0 || geomCount === 0)) await new Promise((r) => setTimeout(r, 80));
+    await new Promise((r) => requestAnimationFrame(() => requestAnimationFrame(r)));
+  };
+  if (arriving) void settle().then(() => { handoff!.reveal(); if (tourFromHub) window.setTimeout(() => enter(true), 650); });
+  else if (tourFromHub) enter(true);
 
   // ---------- 测试钩子（parity / QA 脚本使用） ----------
   const w = window as unknown as Record<string, unknown>;

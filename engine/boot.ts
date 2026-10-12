@@ -30,6 +30,7 @@ export async function boot(c: CampaignDef) {
     await start(c);
   } catch (e) {
     console.error(e);
+    (window as unknown as { __wrHandoff?: { reveal(): void } }).__wrHandoff?.reveal(); // 揭开总台转场幕布，露出错误信息
     const msg = e instanceof Error ? e.message : String(e);
     document.body.insertAdjacentHTML('beforeend', `<div class="fatal">加载失败：${msg}<br/><a href="../../">返回作战总台</a></div>`);
   }

@@ -42,6 +42,8 @@ const HubEntry = z.object({
   order: z.number().optional(),
   codename: z.string().min(1),
   codenameOrig: z.string().optional(),
+  stencil: z.string().regex(/^[A-Z0-9 .'’\-ÄÖÜÉÈ]+$/, 'stencil 只用拉丁字母大写（模板字字体）').optional(),
+  region: z.string().optional(),
   pin: LonLat,
   labelAt: z.enum(['n', 's', 'e', 'w']).optional(),
   theatre: z.object({ countries: z.array(z.string()).optional(), bbox: z.tuple([z.number(), z.number(), z.number(), z.number()]).optional(), kind: z.enum(['land', 'air']).optional() }).optional(),

@@ -9,6 +9,7 @@
   - `published`：构建并出现在总台；`draft`：只在开发服务器里出现；`planned`：只在总台显示加封卷宗，没有页面。
   - 提供虚拟模块 `virtual:campaign-catalog`：每个战役的标题、时间、交战方、总台卷宗（`hub`）、封面署名，以及构建时统计的部队/事件/态势帧/照片数（永远与数据一致）。
   - 开发时 `/campaigns/<id>` 自动 301 到带斜杠的地址；新增、删除或修改清单会刷新目录并重载页面。
+  - 每个战役页面内联注入转场幕布 `shared/handoff/`（`<head>` 里的样式与 View Transition 声明、`<body>` 开头的脚本），保证从总台进入时第一帧就是总台交来的画面。
 - **大体积资产**在 `public/campaigns/<id>/`（瓦片、矢量、地形、照片、署名），由 Vite 自带的 public 目录服务并原样复制。战役页面与它的资产同一路径，所以页面内的相对请求（`geo/vectors.topo.json`、`tiles/base/…`、`photos/index.json`）不需要任何改写。
 - **共享资源**在 `shared/`：字体子集（`fonts.css` 由引擎 CSS `@import`）、音效 sprite 与音乐库（`?url` 导入），打包后带内容哈希，所有页面共用一份缓存。
 
@@ -54,7 +55,28 @@ await import('./app/start')   构建界面；插件在这里 setup
 
 ## 5. 作战总台
 
-`hub/` 是一个独立页面：`map.ts`（d3-geo 等角圆锥投影的 SVG 地图桌）、`dossier.ts`（档案夹）、`tape.ts`（电报纸带）、`sound.ts`。数据来自 `virtual:campaign-catalog` 与 `hub/occupation.json`（各国状态时间表、电报、地名、来源）。底图 `public/hub/europe1938.topo.json` 由 `tools/hub/build_hub_map.mjs` 从 world_1938 生成，波兰、法国、希腊按示意线拆成两块以表现瓜分与分区占领。进入战役时镜头推进到战区再跳转，跨页 View Transition 衔接开场。
+`hub/` 是一个独立页面，地图铺满屏幕，其余界面都是浮在地图上的面板：
+
+| 模块 | 职责 |
+|---|---|
+| `geo.ts` | 米勒圆柱投影（中央经线 39°E，切口在 141°W，太平洋战区完整），世界坐标与经纬度框换算 |
+| `basemap.ts` | Canvas 底图：几何一次性投影成 Path2D，每帧只换变换矩阵；阵营着色、国界与分界线、河湖、经纬网、地名避让、图框刻度、转场快照 |
+| `map.ts` | SVG 覆盖层（战区、火漆印避让与引线、模板字、红线）、d3-zoom 镜头与 van Wijk 平滑飞行、阵营时间表（殖民地继承宗主国）、分区取景 |
+| `dossier.ts` | 卷宗面板：索引（交战国筛选、按分区排列）与卷宗页 |
+| `tape.ts` | 电报纸带：时间窗来自 `world.json`，跨度条颜色取发起方阵营 |
+| `transition.ts` | 进入 / 返回战役的转场（见下） |
+
+**数据**：`virtual:campaign-catalog` 与 `hub/world.json`——时间窗、阵营（`blocs`，id 与 `sides[].coalition` 一致）、各国状态时间表（`countries`）、分区（`theatres`）、交战国代码表（`nations`）、补充的宗主国（`sovereign`）、地名、电报与来源。状态写法 `<阵营>` / `<阵营>-aligned` / `<阵营>-occupied` / `contested` / `neutral`，没有时间表的殖民地继承宗主国的交战国与附庸状态。`tests/hub/world.test.ts` 检查它与底图、各战役清单对得上。
+
+**底图** `public/hub/world1938.topo.json` 由 `tools/hub/build_hub_map.mjs` 从 world_1938 生成：修正数据集里的名称与重复要素，波兰、法国、希腊、丹麦（冰岛、格陵兰）、英属印度（缅甸）、澳大利亚（新几内亚）按示意线拆分，补上缺失的马耳他与塞浦路斯，每个国家带宗主国 `sov`。
+
+**转场**：
+1. 进入：浮动面板退场，镜头推进到战役页面开场的取景（`catalog.view`，按战役页面的侧栏 / 顶栏 / 时间轴留白计算；超过底图精度的部分记为 `zs`），同时预取战役页面的入口模块与首屏数据；
+2. 截取地图快照，与标题卡一起写进 `sessionStorage`（`shared/handoff/handoff.js` 的 `save`），铺上幕布后跳转（`?tour` 自动推演，`?nointro` 自由浏览）；
+3. 战役页面 `<body>` 开头的内联脚本在第一帧画出同一张幕布；`engine/app/start.ts` 等底图瓦片与第一帧控制区就位后调用 `reveal()`，快照按 `zs` 继续放大、模糊、淡出，随后开始自动推演；
+4. 返回：战役页面在离开时留下 `warroom:return`，总台从该战役的推进终点开始，拉远到离开前保存的视角（浏览器后退与往返缓存同样处理）。
+
+支持跨页 View Transition 的浏览器会把两张相同的幕布交叉淡入淡出；不支持的浏览器也一样衔接，因为幕布本身就在两个页面里。
 
 ## 6. 质量保障
 

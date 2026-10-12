@@ -20,9 +20,10 @@ npm run new-campaign -- barbarossa-1941 --title 巴巴罗萨行动 --en "Operati
   --force    # 已有筹备中的清单时覆盖
 ```
 
-- `--sides` 每项 `阵营id:中文名:阵营类别[:1938年国名+…]`。**第一个阵营是进攻方**（控制区 A 槽），与之对立的阵营的国家构成战区。1938 年国名取自 historical-basemaps 的 world_1938（Germany、USSR、Poland、Romania…），用于国界映射与场掩膜。
+- `--sides` 每项 `阵营id:中文名:阵营类别[:1938年国名+…]`，阵营类别为 `axis` / `allies` / `comintern` / `neutral`。**第一个阵营是推进方**（控制区 A 槽，任何阵营都可以——太平洋的美国、阿拉曼的英联邦、淞沪的日本），与之对立的阵营的国家构成战区。1938 年国名取自 historical-basemaps 的 world_1938（Germany、USSR、Empire of Japan、China…），用于国界映射与场掩膜。
 - `--width 4096` 画布更小、管线更快（小战区可以用）；缺省 8192。
-- `--status planned` 只写总台卷宗所需的清单，战役先以「绝密 · 筹备中」的加封卷宗出现在总台上。
+- `--status planned` 只写总台卷宗所需的清单，战役先以「绝密 · 筹备中」的加封卷宗出现在总台上（参考 `campaigns/shanghai-1937`、`el-alamein-1942`、`guadalcanal-1942`）。
+- `--region europe|med|china|pacific` 指定总台分区（缺省按火漆印位置判断）。
 
 生成的内容：`campaign.json`（草稿，带全部缺省设置）、入口文件、`config/geo.config.json`、`config/lod.json`、能通过校验的最小数据（一个来源、一个地名、每方一个指挥部、开战关键帧、一个事件、兵力表），以及 `public/campaigns/<id>/` 的署名与照片索引。`campaigns/<id>/README.md` 是待办清单。
 
@@ -73,11 +74,15 @@ npm run dev                                         # http://127.0.0.1:5180/camp
 
 `campaign.json` 的 `hub`：
 
-- `pin` 火漆印位置，`labelAt` 原文代号的方位（n/s/e/w），`codenameOrig` 地图上的模板字。
-- `theatre`：用总台底图的国家 id 勾出战区（`{"countries": ["USSR"]}`，可用 id 见 `public/hub/europe1938.topo.json`，波兰、法国、希腊各拆成两块），或经纬度框（`{"bbox": [...]}`，`kind: "air"` 画成点线空域）。
+- `pin` 火漆印位置；`stencil` 地图上的模板字（拉丁字母大写，缺省为 `title.en` 去掉冠词后大写），`labelAt` 模板字的方位（n/s/e/w）。
+- `codename` / `codenameOrig` 卷宗上的代号章（中文 / 原文）。没有行动代号的战役写通行名称，代号属于哪一方都可以——总台不预设哪个阵营在前。
+- `region` 总台分区（`hub/world.json` 的 `theatres`：europe、med、china、pacific），缺省按火漆印落在哪个分区的取景框内。新战区（如东非、阿留申）需要单独的分区时，在 `theatres` 里加一项即可，顶栏自动出现。
+- `theatre`：用总台底图的国家 id 勾出战区（`{"countries": ["USSR"]}`，可用 id 见 `public/hub/world1938.topo.json`，波兰、法国、希腊、丹麦、英属印度、澳大利亚已按示意线拆分），或经纬度框（`{"bbox": [...]}`，`kind: "air"` 画成点线空域）。
 - `cover` 封面照片（必须在 `photos/index.json` 里，总台会显示它的署名），`blurb` 一句话简介，`parent` 嵌套于哪个战役。
 
-如果战役在 1939-09 至 1941-12 之外，总台照样把它放上地图，但电报纸带只画窗口内的战役。要把它纳入纸带，扩展 `hub/occupation.json`：`window`、相关国家的状态变化（`countries`）与电报（`dispatches`），并注明来源（`sources`）。
+电报纸带的时间窗是 1937-07-07 至 1945-09-02，各国的阵营状态与电报在 `hub/world.json`。战役涉及的国家如果还没有时间表（或需要更细的变化），在 `countries` 里补上状态变化并注明来源（`sources`）；阵营代码不在 `nations` 里时，交战国筛选用 `sides[].name` 显示，补一项可以合并别名（如 UK → GB）。`npm test` 会检查拼错的国家 id、越界的日期与不存在的分区。
+
+从总台进入战役的转场不需要任何配置：推进终点取 `map.fit` 的经纬度框（缺省为 `frame.bbox`），幕布由构建插件自动注入页面。
 
 ## 6. 发布
 

@@ -289,6 +289,9 @@ export class MapView {
   llToScreen(ll: LonLat | readonly number[]): [number, number] { const [x, y] = project(ll); return this.toScreen(x, y); }
   toWorld(sx: number, sy: number): [number, number] { return [(sx - this.view.x) / this.view.k, (sy - this.view.y) / this.view.k]; }
 
+  /** 正在加载的瓦片数（转场揭幕前等待可见瓦片就位） */
+  tilesPending() { let n = 0; for (const t of this.tiles.values()) if (t === 'loading') n++; return n; }
+
   coverage() {
     return {
       bounds: this.backgroundBounds, visible: visibleWorld(this.view, this), minScale: coverageScale(this, this.backgroundBounds),

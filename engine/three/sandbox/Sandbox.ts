@@ -456,7 +456,7 @@ export function createSandbox(host: HTMLElement, db: DB, getInsets?: () => Camer
       const sc = FIG_SCALE * (ech === 0 ? 1.7 : ech === 1 ? 1.35 : 1.1) * (0.35 + 0.65 * s.fade);
       if (airborne) y += Math.max(sc * 6.5, ((s.altitudeM ?? 2500) / 1000 / KM) * 4); // 飞机高度采用可读的视觉放大
       // 朝向：经纬度 heading → 世界坐标（北 = -z）
-      const heading = s.moving ? s.heading : Math.PI * (sideDef(u.side).restHeading ?? (u.side === 'DE' ? 0 : 1));
+      const heading = s.moving ? s.heading : Math.PI * (sideDef(u.side).restHeading ?? (u.side === manifest().sides[0].id ? 0 : 1));
       const dx = Math.cos(heading), dy = -Math.sin(heading);
       // 飞行中的部队用投影后的切线朝向（高纬度斜向航迹不偏转）
       tmpQ.setFromAxisAngle(new THREE.Vector3(0, 1, 0), s.flightPhase && s.moving ? -projectedHeading(s.ll, s.heading) : Math.atan2(-dy, dx));

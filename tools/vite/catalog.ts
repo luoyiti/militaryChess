@@ -3,6 +3,7 @@
  *  - discoverCampaigns()：扫描 campaigns/<id>/campaign.json
  *  - campaignsPlugin()：提供 virtual:campaign-catalog（总台用的战役清单 + 构建时统计），
  *    开发时把无尾斜杠的 /campaigns/<id> 重定向到 /campaigns/<id>/
+ *  - 每个战役页面内联注入总台转场幕布（shared/handoff/），从总台进入时第一帧就接上总台的推进镜头
  * 战役资源在 public/campaigns/<id>/ 下，由 Vite 自带的 public 服务与构建复制处理。
  */
 import { readFileSync, readdirSync, existsSync } from 'node:fs';
@@ -74,8 +75,10 @@ export function catalog(dev: boolean) {
       href: `campaigns/${c.id}/`,
       title: m.title,
       time: { start: m.time.start, end: m.time.end },
-      sides: (m.sides ?? []).map((s: any) => ({ id: s.id, name: s.name, coalition: s.coalition, color: s.css?.main ?? s.counter?.bg })),
+      sides: (m.sides ?? []).map((s: any) => ({ id: s.id, nation: s.nation ?? s.id, name: s.name, coalition: s.coalition, color: s.css?.main ?? s.counter?.bg })),
       hub: { ...hub, theatre: hub.theatre ?? (frame?.bbox ? { bbox: frame.bbox } : undefined) },
+      // 战役页面开场的地图范围：map.fit 的经纬度框，缺省为整幅画布（frame.bbox）
+      view: typeof m.map?.fit === 'object' && m.map.fit.bbox ? { bbox: m.map.fit.bbox } : frame?.bbox ? { bbox: frame.bbox } : null,
       cover: hub.cover ? { src: `campaigns/${c.id}/${hub.cover}`, credit: coverCredit(c, hub.cover) } : null,
       phases: (m.phases ?? []).map((p: any) => ({ from: p.from, name: p.name })),
       stats: c.status === 'planned' ? null : campaignStats(c),
@@ -84,12 +87,25 @@ export function catalog(dev: boolean) {
 }
 export type CatalogEntry = ReturnType<typeof catalog>[number];
 
+const HANDOFF = join(ROOT, 'shared/handoff');
+
 export function campaignsPlugin(): Plugin {
   const VID = 'virtual:campaign-catalog';
   let dev = true;
   return {
     name: 'campaign-catalog',
     configResolved(cfg) { dev = cfg.command === 'serve'; },
+    // 战役页面：内联转场幕布的样式与脚本（第一帧之前执行，不经过打包）
+    transformIndexHtml: {
+      order: 'pre',
+      handler(html, ctx) {
+        if (!/(^|\/)campaigns\/[a-z0-9-]+\/index\.html$/.test(ctx.path ?? ctx.filename ?? '')) return html;
+        return [
+          { tag: 'style', attrs: { 'data-handoff': '' }, children: readFileSync(join(HANDOFF, 'handoff.css'), 'utf8'), injectTo: 'head' },
+          { tag: 'script', attrs: { 'data-handoff': '' }, children: readFileSync(join(HANDOFF, 'handoff.js'), 'utf8'), injectTo: 'body-prepend' },
+        ];
+      },
+    },
     resolveId(id) { return id === VID ? '\0' + VID : null; },
     load(id) { return id === '\0' + VID ? `export default ${JSON.stringify(catalog(dev))};` : null; },
     configureServer(server) {

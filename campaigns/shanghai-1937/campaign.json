@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 2,
+  "id": "shanghai-1937",
+  "status": "planned",
+  "title": {
+    "mark": "1937",
+    "zh": "淞沪会战",
+    "sub": "八一三抗战 · 筹备中",
+    "en": "The Battle of Shanghai",
+    "orig": "淞滬會戰 · 第二次上海事変",
+    "codename": "淞沪会战"
+  },
+  "time": {
+    "epoch": "1937-08-13T00:00",
+    "start": "1937-08-13T09:00",
+    "end": "1937-11-26T23:59",
+    "tzLabel": "UTC+8"
+  },
+  "sides": [
+    { "id": "CN", "name": "中国", "coalition": "allies", "css": { "main": "#2f5d8c" } },
+    { "id": "JP", "name": "日本", "coalition": "axis", "css": { "main": "#8a6d3b" } }
+  ],
+  "hub": {
+    "order": 8,
+    "codename": "淞沪会战",
+    "codenameOrig": "八一三",
+    "stencil": "SHANGHAI 1937",
+    "pin": [121.47, 31.23],
+    "labelAt": "e",
+    "theatre": { "bbox": [119.6, 30.5, 122.2, 32.1] },
+    "blurb": "日军在上海登陆受阻，中日双方投入近百万兵力在市区与郊野鏖战三个月；日军自杭州湾金山卫登陆迂回后，中国军队西撤，日军随即进逼南京。"
+  }
+}

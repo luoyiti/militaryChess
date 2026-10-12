@@ -56,7 +56,7 @@ export class FxLayer {
   }
 
   /** 兼容单次掠过调用；有真实起点时，终点不再由屏幕边缘推算。 */
-  planesTo(ll: LonLat, kind: PlaneKind, fromSide: 'W' | 'N' | 'E' = 'W', origin?: LonLat, side = kind === 'fighter' ? 'GB' : 'DE') {
+  planesTo(ll: LonLat, kind: PlaneKind, fromSide: 'W' | 'N' | 'E', origin: LonLat | undefined, side: string) {
     const [sx, sy] = this.map.llToScreen(ll);
     const x0 = fromSide === 'E' ? this.map.width + 80 : fromSide === 'N' ? sx - 200 : -80;
     const y0 = fromSide === 'N' ? -60 : sy - 140;

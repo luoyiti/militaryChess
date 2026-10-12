@@ -211,7 +211,7 @@ export class Director {
         const kind: PlaneKind = unit?.model === 'ju87' ? 'stuka' : sortie.role === 'raid' ? 'bomber' : 'fighter';
         this.fx.planesAlong(sortie, kind);
       }
-    } else if (air && full) this.fx.planesTo(e.ll, sfx.includes('bomber') ? 'bomber' : 'stuka', (e.side && sideDef(e.side).planesFrom) || 'W', undefined, e.side ?? 'DE');
+    } else if (air && full) this.fx.planesTo(e.ll, sfx.includes('bomber') ? 'bomber' : 'stuka', (e.side && sideDef(e.side).planesFrom) || 'W', undefined, e.side ?? manifest().sides[0].id);
     else if (this.frameMode) { if (['battle', 'naval'].includes(e.category)) this.fx.burst(e.ll, full && e.importance === 1); }
     else if (['battle', 'siege', 'naval', 'atrocity'].includes(e.category)) this.fx.burst(e.ll, full && e.importance === 1);
     else if (full) this.fx.burst(e.ll, false);

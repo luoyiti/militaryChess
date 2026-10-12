@@ -27,7 +27,7 @@ STAMP = CACHE / ".subset_stamp.json"
 SCAN_GLOBS = [
     "index.html",
     "engine/**/*.ts", "engine/**/*.css",
-    "hub/**/*.ts", "hub/**/*.css", "hub/**/*.json",
+    "hub/**/*.ts", "hub/**/*.css", "hub/**/*.json", "shared/handoff/*.js",
     "campaigns/*/campaign.json", "campaigns/*/campaign.ts", "campaigns/*/campaign.css", "campaigns/*/index.html",
     "campaigns/*/plugins/**/*.ts",
     "campaigns/*/data/**/*.json",
