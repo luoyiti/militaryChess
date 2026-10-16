@@ -1,0 +1,930 @@
+{
+ "signals": [
+  {
+   "id": "sig.dynamo_start",
+   "at": "1940-05-26T18:57",
+   "from": "gb.dover_cmd",
+   "kind": "order",
+   "text": "Operation Dynamo is to commence. The Admiralty directs that the evacuation of the BEF from Dunkirk proceed with the utmost despatch, using all available naval and mercantile craft.",
+   "zh": "「发电机行动」开始。海军部命令：以最快速度从敦刻尔克撤出英国远征军，动用一切可用的海军与商船船只。——1940 年 5 月 26 日 18:57，多佛指挥部作战室收到此令，拉姆齐海军中将随即签发第一批航渡命令。",
+   "sources": [
+    "dynamo_despatch",
+    "national_archives_dynamo",
+    "churchill_1949"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "sig.tennant_mole",
+   "at": "1940-05-27T23:00",
+   "from": "gb.dover_cmd",
+   "to": "gb.dover_cmd",
+   "kind": "signal",
+   "text": "Send every available ship alongside the East Mole. We can load from the mole faster than from the beaches.",
+   "zh": "让所有能靠的船都靠上东防波堤。从防波堤装载比从海滩快得多。——Tennant 上校 5 月 27 日抵达敦刻尔克后，发现港内码头已被炸毁、海滩装载太慢，遂把撤离改到东、西两道防波堤；此后近 20 万人由此登船。",
+   "sources": [
+    "dynamo_despatch",
+    "lord_1982",
+    "atkin_1990"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "sig.ramsay_smallcraft",
+   "at": "1940-05-27T09:00",
+   "from": "gb.dover_cmd",
+   "kind": "radio",
+   "text": "The Admiralty calls upon all owners of self-propelled pleasure craft between 30 and 100 feet in length to send full particulars to the Admiralty within fourteen days.",
+   "zh": "海军部呼吁：凡拥有 30 至 100 英尺自航游艇者，请在十四日内向海军部申报全部船况。——5 月 27 日起 BBC 反复播送这条征用令，到 5 月 31 日已有近四百艘小艇自发渡海，成为「敦刻尔克小艇船队」。",
+   "sources": [
+    "dynamo_despatch",
+    "divine_1940",
+    "lord_1982"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "sig.ramsay_40k",
+   "at": "1940-05-28T04:00",
+   "from": "gb.dover_cmd",
+   "kind": "order",
+   "text": "It is hoped to evacuate 45,000 men of the BEF within two days. Assault shipping and small craft are to work the beaches at La Panne and Bray by night.",
+   "zh": "计划在两天内撤出英国远征军 45,000 人。运输船与小艇须趁夜在拉帕讷、布雷迪讷海滩作业。——原定计划只打算救出 45,000 人；到 5 月 28 日实际运出 17,804 人，海军部开始意识到行动规模必须一再扩大。",
+   "sources": [
+    "dynamo_despatch",
+    "dynamo_admiralty",
+    "thompson_1956"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "sig.pound_destroyers",
+   "at": "1940-05-29T20:00",
+   "from": "gb.dover_cmd",
+   "kind": "order",
+   "text": "The First Sea Lord directs that the eight most modern destroyers be withdrawn from Operation Dynamo forthwith. Older destroyers, minesweepers and small craft are to continue.",
+   "zh": "第一海务大臣令：最现代化的八艘驱逐舰立即撤出「发电机行动」，由较旧的驱逐舰、扫雷舰与小艇继续。——5 月 29 日一天之内英法损失 19 艘军舰与 3 艘大型征用船，海军部不愿把本土防卫的骨干一次赔光。",
+   "sources": [
+    "dynamo_despatch",
+    "dynamo_admiralty",
+    "atkin_1990"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "sig.darlan_equal",
+   "at": "1940-05-31T15:00",
+   "from": "fr.abrial",
+   "kind": "diplomatic",
+   "text": "L'évacuation doit se poursuivre à égalité entre les troupes britanniques et françaises. Les Britanniques formeront l'arrière-garde.",
+   "zh": "撤离必须在英法部队之间平等进行，英军应担任殿后。——5 月 31 日达尔朗海军上将在巴黎会议上提出此要求；此前英舰常优先搭载英军，法方对此深感不满。此后英舰开始大量运送法军，约 102,250 名法军由英舰撤出。",
+   "sources": [
+    "dynamo_despatch",
+    "churchill_1949",
+    "abrial_1940"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "sig.french_night_2",
+   "at": "1940-06-02T18:00",
+   "from": "gb.dover_cmd",
+   "kind": "order",
+   "text": "Owing to heavy air attack by day, evacuation is to be carried out at night only. French troops to be embarked on an equal footing with our own.",
+   "zh": "因白昼空袭猛烈，撤离改为只在夜间进行。法军部队须与英军同等登船。——6 月 1 日白天德军在敦刻尔克外海击沉 3 艘驱逐舰后，拉姆齐下令停止昼间撤离；6 月 2 日至 4 日夜又撤出约 7.5 万名法军。",
+   "sources": [
+    "dynamo_despatch",
+    "dynamo_admiralty",
+    "thompson_1956"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "sig.operation_complete",
+   "at": "1940-06-04T10:30",
+   "from": "gb.dover_cmd",
+   "kind": "order",
+   "text": "Operation Dynamo is terminated. The evacuation from Dunkirk is completed.",
+   "zh": "「发电机行动」终止，敦刻尔克撤离结束。——1940 年 6 月 4 日 10:30，拉姆齐海军中将在多佛宣布行动结束。九昼夜共撤出 338,226 人；同日 09:00，桥头堡内的 4 万名法军殿后部队向德军投降。",
+   "sources": [
+    "dynamo_despatch",
+    "dynamo_admiralty",
+    "national_archives_dynamo"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "sig.churchill_beaches",
+   "at": "1940-06-04T15:30",
+   "from": "gb.dover_cmd",
+   "kind": "report",
+   "text": "We shall fight on the beaches, we shall fight on the landing grounds, we shall fight in the fields and in the streets, we shall never surrender.",
+   "zh": "我们将在海滩上作战，我们将在敌人登陆地点作战，我们将在田野和街道上作战，我们决不投降。——丘吉尔 6 月 4 日在下院的演说。他同时提醒：「战争不是靠撤退赢得的」，但把这次救援称为「一个奇迹般的解脱」。",
+   "sources": [
+    "churchill_1949",
+    "hansard_1940",
+    "commons_dunkirk"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "sig.tennant_arrive",
+   "at": "1940-05-27T13:00",
+   "from": "gb.dover_cmd",
+   "kind": "signal",
+   "text": "Captain W. G. Tennant, Senior Naval Officer, is to proceed to Dunkirk in HMS Wolfhound and assume command of all evacuation operations ashore.",
+   "zh": "高级海军军官 Tennant 上校乘「猎狼犬」号前往敦刻尔克，接管滩头全部撤离作业。——随行的还有 12 名军官与 160 名水兵组成的「海滩海军岸勤队」（Force A），他们的任务是把散在沙滩上的部队组织成队列，再送上有船的海滩与防波堤。",
+   "sources": [
+    "dynamo_despatch",
+    "national_archives_dynamo",
+    "lord_1982"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "sig.wakeful_distress",
+   "at": "1940-05-29T00:45",
+   "from": "gb.wakeful",
+   "kind": "distress",
+   "text": "Torpedoed and sinking. Two hits, forward boiler room flooded. Survivors in the water — close all ships to pick up.",
+   "zh": "中雷下沉。命中两条，前锅炉舱进水。幸存者落水，附近船只靠拢救援。——「韦克福」号在 Kwinte 浮标附近发出此电。约 640 名士兵与 97 名舰员随舰丧生；「格拉夫顿」号因停下来救人，一小时后也被 U-62 号潜艇击中。此后海军部下令：任何船只不得停航救援。",
+   "sources": [
+    "national_archives_dynamo",
+    "admiralty_losses_1947",
+    "sebag_2006"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "sig.grafton_stopped",
+   "at": "1940-05-29T03:30",
+   "from": "gb.grafton",
+   "kind": "report",
+   "text": "Have picked up 25 survivors from Wakeful. Am stopped, damaged by torpedo, back broken. Request assistance and permission to abandon.",
+   "zh": "已救起「韦克福」号 25 名幸存者。本舰停车，被鱼雷命中，舰体折断。请求救援并许可弃舰。——「格拉夫顿」号舰长罗宾逊中校与 15 名舰员在此次命中中阵亡；幸存者由「伊万霍」号与运兵船「马利讷斯」号接下，「伊万霍」号随后以炮火将该舰击沉。",
+   "sources": [
+    "national_archives_dynamo",
+    "wiki_ships_dunkirk",
+    "admiralty_losses_1947"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "sig.mole_200k",
+   "at": "1940-06-01T12:00",
+   "from": "gb.dover_cmd",
+   "kind": "report",
+   "text": "Approximately 200,000 officers and men have now been embarked from the East Mole since 28 May, and the flow continues.",
+   "zh": "自 5 月 28 日以来，已有近 20 万名官兵经东防波堤登船，装载仍在继续。——东防波堤长近一英里，本不是用来靠船的混凝土防波堤，却在九天里成为整个行动的主通道；至 6 月 4 日，经港口撤出 239,555 人，经海滩撤出 98,671 人。",
+   "sources": [
+    "dynamo_despatch",
+    "atkin_1990",
+    "lord_1982"
+   ],
+   "confidence": "high"
+  }
+ ],
+ "damage": [
+  {
+   "ship": "gb.wakeful",
+   "at": "1940-05-29T00:45",
+   "integrity": 0.05,
+   "speedKn": 0,
+   "fire": true,
+   "listDeg": -12,
+   "note": "00:45 在 Kwinte 浮标附近被德军鱼雷艇击中两条鱼雷（Ramsay 战报 §27），一条打穿前锅炉舱；舰体断为两半、两段在 15 秒内沉没。载员 640 人（维基）／650 人（Ellis 官方战史）两说，其中约 635 名士兵与 98 名舰员丧生，仅 25 名舰员与 5 名士兵获救。攻击者见命中记录",
+   "sources": [
+    "national_archives_dynamo",
+    "admiralty_losses_1947",
+    "sebag_2006",
+    "wiki_ships_dunkirk"
+   ]
+  },
+  {
+   "ship": "gb.grafton",
+   "at": "1940-05-29T02:50",
+   "integrity": 0.15,
+   "speedKn": 0,
+   "gunsOut": [
+    "A",
+    "B"
+   ],
+   "fire": true,
+   "listDeg": 9,
+   "note": "02:50 停车救援「韦克福」号幸存者时舰艉被鱼雷命中（Ramsay 战报 §27），舰体折断、舰桥二次爆炸；攻击者一作 U-62（维基），一作 U-69（Ellis 官方战史），两说无法裁决。舰长罗宾逊中校等 15 人阵亡；幸存者由「伊万霍」号与运兵船「马利讷斯」号接下，05:30 由「伊万霍」号炮火击沉",
+   "sources": [
+    "national_archives_dynamo",
+    "wiki_ships_dunkirk",
+    "admiralty_losses_1947",
+    "sebag_2006"
+   ]
+  },
+  {
+   "ship": "gb.grenade",
+   "at": "1940-05-29T17:00",
+   "integrity": 0.12,
+   "speedKn": 0,
+   "gunsOut": [
+    "A",
+    "B",
+    "X"
+   ],
+   "fire": true,
+   "listDeg": 14,
+   "note": "16:02 停在港内泊位时被施图卡俯冲轰炸机两枚炸弹命中起火，14 人阵亡、4 人伤重不治；当夜弹药库爆炸，舰体在港外西侧沉没",
+   "sources": [
+    "national_archives_dynamo",
+    "wiki_ships_dunkirk",
+    "admiralty_losses_1947",
+    "dildy_2010"
+   ]
+  },
+  {
+   "ship": "gb.havant",
+   "at": "1940-06-01T09:05",
+   "integrity": 0.1,
+   "speedKn": 0,
+   "gunsOut": [
+    "A",
+    "B"
+   ],
+   "fire": true,
+   "listDeg": 11,
+   "note": "09:05 在敦刻尔克外海被施图卡两枚炸弹命中机舱、一枚在舰底爆炸；8 名舰员与至少 25 名士兵阵亡，25 名舰员受伤；拖带失败，由扫雷舰「萨尔塔什」号击沉于西浮标外 5 海里",
+   "sources": [
+    "national_archives_dynamo",
+    "wiki_ships_dunkirk",
+    "admiralty_losses_1947",
+    "dildy_2010"
+   ]
+  },
+  {
+   "ship": "gb.basilisk",
+   "at": "1940-06-01T08:00",
+   "integrity": 0.3,
+   "speedKn": 0,
+   "gunsOut": [
+    "A",
+    "B"
+   ],
+   "note": "08:00 被德军近失弹打坏全部机械：一枚炸弹在 3 号锅炉舱内爆炸，机炉人员全部阵亡，蒸汽管路断裂；此后日间又在敦刻尔克被炸",
+   "sources": [
+    "national_archives_dynamo",
+    "wiki_ships_dunkirk",
+    "admiralty_losses_1947"
+   ]
+  },
+  {
+   "ship": "gb.basilisk",
+   "at": "1940-06-01T12:00",
+   "integrity": 0.05,
+   "speedKn": 0,
+   "fire": true,
+   "listDeg": 15,
+   "note": "约 12:00 第三波空袭将其击沉于 51°08′16″N 2°35′06″E 浅水；法籍渔船「美丽的吉祥物」号两次试图拖带，第二次被迫放弃，最后正是这艘法船救起大半舰员（8 名军官与 123 名舰员），残骸由「白厅」号以炮火与鱼雷摧毁",
+   "sources": [
+    "national_archives_dynamo",
+    "wiki_ships_dunkirk",
+    "admiralty_losses_1947"
+   ]
+  },
+  {
+   "ship": "gb.keith",
+   "at": "1940-06-01T09:15",
+   "integrity": 0.06,
+   "speedKn": 0,
+   "fire": true,
+   "listDeg": 13,
+   "note": "先在敦刻尔克被近失弹击伤，准备离港时于 09:15 再次被德机轰炸而沉没；33 名舰员阵亡，舰长伯顿上校与副长负伤，幸存者由「圣阿布斯」号等拖船与荷兰汽船「希尔达」号救起",
+   "sources": [
+    "national_archives_dynamo",
+    "admiralty_losses_1947",
+    "dynamo_despatch"
+   ]
+  },
+  {
+   "ship": "gb.ivanhoe",
+   "at": "1940-06-01T08:05",
+   "integrity": 0.42,
+   "speedKn": 6,
+   "gunsOut": [
+    "A",
+    "B"
+   ],
+   "note": "已装载部队时被德机炸弹命中上层甲板，两个前锅炉舱进水，26 人阵亡（含 5 名士兵），多人受伤；伤员与大部分部队由扫雷舰「斯皮德韦尔」号与驱逐舰「阿文特」号接走，本舰靠 3 号锅炉舱自行返航多佛",
+   "sources": [
+    "national_archives_dynamo",
+    "wiki_ships_dunkirk",
+    "admiralty_losses_1947"
+   ]
+  },
+  {
+   "ship": "fr.bourrasque",
+   "at": "1940-05-30T04:30",
+   "integrity": 0.12,
+   "speedKn": 0,
+   "fire": true,
+   "listDeg": -18,
+   "note": "在尼乌波特外海触雷，随后又被德方岸炮击中，舰体断裂沉没；舰上 1,100 余名官兵与士兵中约 500 人丧生。时刻一说 5 月 30 日 04:30 触雷，一说同日更早，无分钟级定论，此处取 04:30",
+   "sources": [
+    "national_archives_dynamo",
+    "wiki_ships_dunkirk",
+    "admiralty_losses_1947",
+    "thompson_1956"
+   ]
+  },
+  {
+   "ship": "fr.sirocco",
+   "at": "1940-05-31T02:30",
+   "integrity": 0.03,
+   "speedKn": 0,
+   "listDeg": -20,
+   "note": "在韦斯特欣德灯船附近被两艘德军鱼雷艇夹击（见命中记录），全舰 930 名官兵与士兵中约 660 人丧生；法军第 92 步兵团团旗随舰沉没",
+   "sources": [
+    "national_archives_dynamo",
+    "wiki_ships_dunkirk",
+    "admiralty_losses_1947"
+   ]
+  },
+  {
+   "ship": "fr.foudroyant",
+   "at": "1940-06-01T13:00",
+   "integrity": 0.04,
+   "speedKn": 0,
+   "fire": true,
+   "note": "08:00 由多佛出发，在白昼空袭中被德机炸沉于敦刻尔克外海；137 名舰员与 83 名士兵被法籍渔船「贝尔纳黛特」号与巡逻拖船「加瓦」号救起",
+   "sources": [
+    "national_archives_dynamo",
+    "wiki_ships_dunkirk",
+    "admiralty_losses_1947"
+   ]
+  },
+  {
+   "ship": "gb.mona_queen",
+   "at": "1940-05-29T17:40",
+   "integrity": 0.0,
+   "speedKn": 0,
+   "listDeg": -22,
+   "note": "在敦刻尔克防波堤东侧半海里触雷沉没，26 人丧生；幸存者由驱逐舰「万基舍尔」号救起运回多佛。马恩岛邮船公司在这场行动中损失了三艘班轮中的两艘",
+   "sources": [
+    "national_archives_dynamo",
+    "wiki_ships_dunkirk",
+    "admiralty_losses_1947",
+    "adls_register"
+   ]
+  },
+  {
+   "ship": "gb.aden",
+   "at": "1940-05-27T10:00",
+   "integrity": 0.0,
+   "speedKn": 0,
+   "fire": true,
+   "note": "8,033 吨的货客船在敦刻尔克港内被德军轰炸机（KG 54「黑狮」联队）炸沉，港区码头设施同时被毁；这是撤离初期损失的最大商船，此后装载只能改到东防波堤与海滩",
+   "sources": [
+    "national_archives_dynamo",
+    "admiralty_losses_1947",
+    "wiki_ships_dunkirk"
+   ]
+  },
+  {
+   "ship": "gb.cote_d_azur",
+   "at": "1940-05-30T14:00",
+   "integrity": 0.0,
+   "speedKn": 0,
+   "fire": true,
+   "note": "在敦刻尔克外海被德军俯冲轰炸机炸沉；同日还有明轮防空船「克里斯特德鹰」号（伤亡惨重）与「洛琳娜」号、「诺曼尼亚」号等铁路渡轮被击沉或烧毁",
+   "sources": [
+    "national_archives_dynamo",
+    "admiralty_losses_1947",
+    "wiki_ships_dunkirk"
+   ]
+  },
+  {
+   "ship": "gb.brighton_belle",
+   "at": "1940-05-29T18:00",
+   "integrity": 0.0,
+   "speedKn": 0,
+   "listDeg": -8,
+   "note": "返航途中在多佛港外撞上沉船残骸而进水沉没；船上人员全部由并肩航行的「梅德韦女王」号接下，无人死亡",
+   "sources": [
+    "national_archives_dynamo",
+    "admiralty_losses_1947",
+    "wiki_ships_dunkirk"
+   ]
+  }
+ ],
+ "hits": [
+  {
+   "id": "h.grafton_torp",
+   "at": "1940-05-29T03:00",
+   "shooter": "de.u62",
+   "target": "gb.grafton",
+   "weapon": "tt",
+   "location": "舰艉与后部机舱",
+   "effect": "U-62 号潜艇的一条鱼雷命中舰艉，舰体折断、后部机舱进水，同时引发二次爆炸掀掉舰桥；舰长罗宾逊中校与 15 名舰员阵亡。艇长误以为击沉的是一艘商船",
+   "severity": 1,
+   "precision": "approx",
+   "sources": [
+    "national_archives_dynamo",
+    "wiki_ships_dunkirk",
+    "sebag_2006"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "h.wakeful_torp",
+   "at": "1940-05-29T00:40",
+   "shooter": "de.s30",
+   "target": "gb.wakeful",
+   "weapon": "tt",
+   "location": "前锅炉舱（左舷）",
+   "effect": "S-30 号发射的两条鱼雷命中「韦克福」号，一条打穿前锅炉舱；舰体迅速断裂沉没，640 名士兵中约 635 人、以及 98 名舰员丧生，仅 25 名舰员与 5 名士兵获救——这是撤离行动中单舰死亡人数最多的一次",
+   "severity": 1,
+   "killed": 733,
+   "sources": [
+    "national_archives_dynamo",
+    "admiralty_losses_1947",
+    "sebag_2006",
+    "wiki_ships_dunkirk"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "h.grenade_bomb",
+   "at": "1940-05-29T16:02",
+   "shooter": "de.stg2",
+   "target": "gb.grenade",
+   "weapon": "A",
+   "location": "港内泊位（舰舯与艉部）",
+   "effect": "施图卡俯冲轰炸机两枚炸弹命中停在泊位上的「格内德」号，全舰起火；14 人阵亡、4 人伤重不治，当夜弹药库爆炸，舰体在港外西侧沉没",
+   "severity": 1,
+   "killed": 18,
+   "precision": "minute",
+   "sources": [
+    "national_archives_dynamo",
+    "wiki_ships_dunkirk",
+    "dildy_2010"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "h.havant_bomb1",
+   "at": "1940-06-01T09:05",
+   "shooter": "de.stg2",
+   "target": "gb.havant",
+   "weapon": "A",
+   "location": "机舱（两枚直接命中）",
+   "effect": "两枚炸弹落进机舱，另一枚在舰底爆炸；8 名舰员与至少 25 名士兵阵亡、25 名舰员受伤，全舰失去动力与电力",
+   "severity": 1,
+   "killed": 33,
+   "wounded": 25,
+   "precision": "minute",
+   "sources": [
+    "national_archives_dynamo",
+    "wiki_ships_dunkirk",
+    "dildy_2010"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "h.basilisk_bomb1",
+   "at": "1940-06-01T08:00",
+   "shooter": "de.stg2",
+   "target": "gb.basilisk",
+   "weapon": "A",
+   "location": "3 号锅炉舱",
+   "effect": "一枚炸弹在 3 号锅炉舱内爆炸，机炉人员全部阵亡，蒸汽管路断裂、全部机械失能；同波次近失弹压弯舰体侧板与上甲板",
+   "severity": 1,
+   "precision": "approx",
+   "sources": [
+    "national_archives_dynamo",
+    "wiki_ships_dunkirk"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "h.basilisk_bomb2",
+   "at": "1940-06-01T12:00",
+   "shooter": "de.stg2",
+   "target": "gb.basilisk",
+   "weapon": "A",
+   "location": "舰体中部（浅水沉没）",
+   "effect": "约 12:00 的第三波空袭把已失能的「巴兹利斯克」号炸沉在 51°08′16″N 2°35′06″E 浅水；法籍渔船「美丽的吉祥物」号两次拖带未成，最后救起 8 名军官与 123 名舰员，残骸由「白厅」号摧毁",
+   "severity": 1,
+   "killed": 9,
+   "precision": "minute",
+   "sources": [
+    "national_archives_dynamo",
+    "wiki_ships_dunkirk",
+    "admiralty_losses_1947"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "h.keith_bomb",
+   "at": "1940-06-01T09:15",
+   "shooter": "de.stg2",
+   "target": "gb.keith",
+   "weapon": "A",
+   "location": "离港前的泊位附近（舰体中部）",
+   "effect": "先被近失弹击伤，准备离港时又被直接命中而沉没；33 名舰员阵亡，舰长伯顿上校与副长负伤；幸存者由拖船与荷兰汽船救起。同日拖船「圣阿布斯」号载着幸存者触雷沉没，又损失百余人",
+   "severity": 1,
+   "killed": 33,
+   "precision": "minute",
+   "sources": [
+    "national_archives_dynamo",
+    "admiralty_losses_1947",
+    "dynamo_despatch"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "h.ivanhoe_bomb",
+   "at": "1940-06-01T08:05",
+   "shooter": "de.kg3",
+   "target": "gb.ivanhoe",
+   "weapon": "A",
+   "location": "上层甲板 → 两个前锅炉舱",
+   "effect": "两枚炸弹在左右舷近失，第三枚在上层甲板上方爆炸，两个前锅炉舱进水；26 人阵亡（含 5 名士兵），大批部队与伤员由扫雷舰「斯皮德韦尔」号与「阿文特」号接走",
+   "severity": 1,
+   "killed": 26,
+   "precision": "minute",
+   "sources": [
+    "national_archives_dynamo",
+    "wiki_ships_dunkirk"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "h.bourrasque_mine",
+   "at": "1940-05-30T04:30",
+   "shooter": "de.a18",
+   "target": "fr.bourrasque",
+   "location": "尼乌波特外海（舰体后部）",
+   "effect": "触雷后又被德方岸炮击中，舰体断裂沉没；1,100 余名官兵与士兵中约 500 人丧生。德军第 18 集团军此时已推进到尼乌波特—拉帕讷一线，其岸炮可以覆盖近岸航道",
+   "severity": 1,
+   "killed": 500,
+   "precision": "approx",
+   "sources": [
+    "national_archives_dynamo",
+    "wiki_ships_dunkirk",
+    "thompson_1956"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "h.sirocco_torp",
+   "at": "1940-05-31T02:30",
+   "shooter": "de.s23",
+   "target": "fr.sirocco",
+   "weapon": "tt",
+   "location": "左舷舰体中部",
+   "effect": "S-23 号发射的鱼雷命中满载士兵返航的「西罗科」号，该舰中雷后数分钟内倾覆；930 名官兵与士兵中约 660 人丧生，法军第 92 步兵团团旗随舰沉没",
+   "severity": 1,
+   "killed": 660,
+   "precision": "approx",
+   "sources": [
+    "national_archives_dynamo",
+    "wiki_ships_dunkirk",
+    "admiralty_losses_1947"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "h.foudroyant_bomb",
+   "at": "1940-06-01T13:00",
+   "shooter": "de.stg2",
+   "target": "fr.foudroyant",
+   "weapon": "A",
+   "location": "舰体中部",
+   "effect": "白昼空袭中被德机炸沉于敦刻尔克外海；137 名舰员与 83 名士兵被法籍渔船「贝尔纳黛特」号与巡逻拖船「加瓦」号救起",
+   "severity": 1,
+   "precision": "approx",
+   "sources": [
+    "national_archives_dynamo",
+    "wiki_ships_dunkirk",
+    "admiralty_losses_1947"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "h.cyclone_torp",
+   "at": "1940-05-31T01:30",
+   "shooter": "de.s24",
+   "weapon": "tt",
+   "target": "fr.cyclone",
+   "location": "舰艏",
+   "effect": "S-24 号鱼雷艇的一条鱼雷炸掉「西克洛纳」号的舰艏，2 名舰员失踪，最高航速降到 5 节；由波兰驱逐舰「闪电」号护航返回多佛",
+   "severity": 2,
+   "precision": "approx",
+   "sources": [
+    "national_archives_dynamo",
+    "wiki_ships_dunkirk"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "h.mistral_bomb",
+   "at": "1940-05-29T19:10",
+   "shooter": "de.stg2",
+   "target": "fr.mistral",
+   "weapon": "A",
+   "location": "东防波堤旁的泊位（舰艉与机舱）",
+   "effect": "在东防波堤旁被德机炸成重伤，X 炮位被打哑，未能装载部队；舰长拉韦纳少校伤重不治，由吉扬东中尉接替指挥",
+   "severity": 1,
+   "wounded": 1,
+   "precision": "approx",
+   "sources": [
+    "national_archives_dynamo",
+    "wiki_ships_dunkirk"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "h.mona_queen_mine",
+   "at": "1940-05-29T17:40",
+   "shooter": "de.a18",
+   "target": "gb.mona_queen",
+   "location": "防波堤东侧半海里（舰体后部）",
+   "effect": "触发水雷沉没，26 人丧生；幸存者由驱逐舰「万基舍尔」号救起运回多佛。马恩岛邮船公司在这场行动中损失了两艘班轮",
+   "severity": 1,
+   "killed": 26,
+   "precision": "approx",
+   "sources": [
+    "national_archives_dynamo",
+    "wiki_ships_dunkirk",
+    "admiralty_losses_1947"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "h.aden_bomb",
+   "at": "1940-05-27T10:00",
+   "shooter": "de.kg54",
+   "target": "gb.aden",
+   "weapon": "A",
+   "location": "港内泊位（舰体中部）",
+   "effect": "KG 54「黑狮」联队的轰炸机在港内将其炸沉。8,033 吨的「亚丁」号是撤离初期损失的最大商船，港内码头设施同时被毁，此后只能靠防波堤装载",
+   "severity": 1,
+   "precision": "approx",
+   "sources": [
+    "national_archives_dynamo",
+    "admiralty_losses_1947",
+    "wiki_ships_dunkirk"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "h.cote_d_azur_bomb",
+   "at": "1940-05-30T14:00",
+   "shooter": "de.stg2",
+   "target": "gb.cote_d_azur",
+   "weapon": "A",
+   "location": "港外锚地（舰体中部）",
+   "effect": "被施图卡俯冲轰炸机炸沉。同一天德方还炸沉了明轮防空船「克里斯特德鹰」号（该舰伤亡惨重）与「洛琳娜」号、「诺曼尼亚」号等渡轮",
+   "severity": 1,
+   "precision": "approx",
+   "sources": [
+    "national_archives_dynamo",
+    "admiralty_losses_1947",
+    "adls_register"
+   ],
+   "confidence": "medium"
+  }
+ ],
+ "torpedoes": [
+  {
+   "id": "t.s30_wakeful",
+   "at": "1940-05-29T00:36",
+   "shooter": "de.s30",
+   "count": 2,
+   "target": "gb.wakeful",
+   "speedKn": 30,
+   "rangeKm": 6,
+   "spreadDeg": 4,
+   "result": "两条鱼雷命中「韦克福」号，一条打穿前锅炉舱；舰体迅速断裂沉没，约 733 人丧生，仅 25 名舰员与 5 名士兵获救",
+   "sources": [
+    "national_archives_dynamo",
+    "admiralty_losses_1947",
+    "sebag_2006"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "t.u62_grafton",
+   "at": "1940-05-29T03:00",
+   "shooter": "de.u62",
+   "count": 1,
+   "target": "gb.grafton",
+   "bearing": 200,
+   "speedKn": 30,
+   "rangeKm": 4,
+   "result": "U-62 号在水面跟踪救援中的英舰后发射一条鱼雷，命中停车救人的「格拉夫顿」号舰艉；艇长误以为击沉的是一艘商船",
+   "sources": [
+    "national_archives_dynamo",
+    "wiki_ships_dunkirk",
+    "sebag_2006"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "t.s23_sirocco",
+   "at": "1940-05-31T02:26",
+   "shooter": "de.s23",
+   "count": 2,
+   "target": "fr.sirocco",
+   "speedKn": 30,
+   "rangeKm": 5,
+   "spreadDeg": 5,
+   "result": "与 S-26 号同时发射鱼雷，「西罗科」号被命中后迅速倾覆，930 名官兵与士兵中约 660 人丧生，法军第 92 步兵团团旗随舰沉没",
+   "sources": [
+    "national_archives_dynamo",
+    "wiki_ships_dunkirk",
+    "admiralty_losses_1947"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "t.s26_sirocco",
+   "at": "1940-05-31T02:26",
+   "shooter": "de.s26",
+   "count": 2,
+   "target": "fr.sirocco",
+   "speedKn": 30,
+   "rangeKm": 5,
+   "spreadDeg": 5,
+   "result": "与 S-23 号夹击「西罗科」号；该舰当时满载从敦刻尔克撤出的士兵，中雷后数分钟内倾覆",
+   "sources": [
+    "national_archives_dynamo",
+    "wiki_ships_dunkirk"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "t.s24_cyclone",
+   "at": "1940-05-31T01:28",
+   "shooter": "de.s24",
+   "count": 1,
+   "target": "fr.cyclone",
+   "speedKn": 30,
+   "rangeKm": 4,
+   "result": "一条鱼雷炸掉「西克洛纳」号的舰艏，2 名舰员失踪，最高航速降到 5 节；由波兰驱逐舰「闪电」号护航返回多佛",
+   "sources": [
+    "national_archives_dynamo",
+    "wiki_ships_dunkirk"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "t.s34_abukir",
+   "at": "1940-05-28T01:30",
+   "shooter": "de.s34",
+   "count": 2,
+   "speedKn": 30,
+   "rangeKm": 3,
+   "result": "在 51°29′N 2°16′E 击沉从奥斯坦德撤出的英国汽船「阿布基尔」号（694 吨）；21 名船员与 210 名乘客中 16 名船员、189 名乘客丧生，33 名幸存者被随后赶到的驱逐舰救起",
+   "sources": [
+    "national_archives_dynamo",
+    "admiralty_losses_1947"
+   ],
+   "confidence": "high"
+  }
+ ],
+ "fire": [
+  {
+   "id": "f.calcutta_aa_27",
+   "shooter": "gb.calcutta",
+   "target": "de.kg2",
+   "weapon": "A",
+   "from": "1940-05-27T19:00",
+   "to": "1940-05-29T06:00",
+   "note": "「加尔各答」号以 4 英寸高射炮与八联装「砰砰」炮在拉帕讷—敦刻尔克锚地间对来袭的德军轰炸机持续射击，是泊位上唯一的远程防空火力",
+   "sources": [
+    "scott_1941",
+    "dynamo_despatch",
+    "national_archives_dynamo"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "f.coventry_aa",
+   "shooter": "gb.coventry",
+   "target": "de.stg2",
+   "weapon": "A",
+   "from": "1940-05-31T22:00",
+   "to": "1940-06-02T12:00",
+   "note": "「考文垂」号在锚地为靠泊装载的船团提供高射火力，迫使德军俯冲轰炸机在投弹前拉升",
+   "sources": [
+    "scott_1941",
+    "dynamo_despatch"
+   ],
+   "confidence": "low"
+  },
+  {
+   "id": "f.keith_aa",
+   "shooter": "gb.keith",
+   "target": "de.stg2",
+   "weapon": "aa",
+   "from": "1940-06-01T07:00",
+   "to": "1940-06-01T09:15",
+   "note": "「基思」号与靠泊的驱逐舰用 4.7 英寸炮与 0.5 英寸高射机枪对施图卡编队射击；当天德机从 6,000 英尺俯冲投弹，命中率极高",
+   "sources": [
+    "national_archives_dynamo",
+    "dildy_2010"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "f.leopard_shore",
+   "shooter": "fr.leopard",
+   "target": "de.a18",
+   "weapon": "A",
+   "from": "1940-05-28T06:00",
+   "to": "1940-05-28T10:00",
+   "note": "「莱奥帕尔」号与「豺」号等舰炮击向格拉沃利讷与布洛涅推进的德军先头部队；5 月 24 日中午在布洛涅打出了该城防御战的最后一批炮弹",
+   "sources": [
+    "national_archives_dynamo",
+    "wiki_ships_dunkirk"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "f.wakeful_shore",
+   "shooter": "gb.wakeful",
+   "target": "de.a18",
+   "weapon": "A",
+   "from": "1940-05-28T19:00",
+   "to": "1940-05-28T20:30",
+   "note": "5 月 27 日夜起，英舰以 4 英寸炮对布雷迪讷—尼乌波特一带的德军阵地进行压制射击，掩护海滩装载；「韦克福」号也在其中",
+   "sources": [
+    "national_archives_dynamo",
+    "coastal_forces"
+   ],
+   "confidence": "low"
+  },
+  {
+   "id": "f.halcyon_shore",
+   "shooter": "gb.halcyon",
+   "target": "de.a18",
+   "weapon": "A",
+   "from": "1940-05-28T20:00",
+   "to": "1940-05-29T05:00",
+   "note": "扫雷舰与小艇以 4 英寸炮和机枪压制贴近海滩的德军巡逻队，掩护在拉帕讷与马洛海滩上排队的部队登船",
+   "sources": [
+    "dynamo_despatch",
+    "coastal_forces"
+   ],
+   "confidence": "low"
+  }
+ ],
+ "smoke": [
+  {
+   "id": "s.grenade_smoke",
+   "ship": "gb.grenade",
+   "from": "1940-05-29T16:05",
+   "to": "1940-05-29T21:00",
+   "kind": "screen",
+   "widthKm": 0.4,
+   "persistMin": 90,
+   "driftDeg": 60,
+   "note": "「格内德」号中弹后在全舰范围内起火，浓烟盖住港内泊位，反而掩护了相邻泊位上的船只",
+   "sources": [
+    "national_archives_dynamo",
+    "wiki_ships_dunkirk"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "s.aden_smoke",
+   "ship": "gb.aden",
+   "from": "1940-05-27T10:00",
+   "to": "1940-05-27T18:00",
+   "kind": "screen",
+   "widthKm": 0.5,
+   "persistMin": 120,
+   "driftDeg": 45,
+   "note": "「亚丁」号在港内被炸后燃烧一整天，黑烟成为港区最醒目的坐标，迫使后续船只改在防波堤装载",
+   "sources": [
+    "national_archives_dynamo",
+    "admiralty_losses_1947"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "s.mona_queen_smoke",
+   "ship": "gb.mona_queen",
+   "from": "1940-05-29T17:40",
+   "to": "1940-05-29T20:00",
+   "kind": "screen",
+   "widthKm": 0.3,
+   "persistMin": 60,
+   "driftDeg": 70,
+   "note": "「莫纳女王」号触雷后迅速下沉并冒烟，其残骸此后长期留在防波堤东侧，成为航行障碍",
+   "sources": [
+    "national_archives_dynamo",
+    "wiki_ships_dunkirk"
+   ],
+   "confidence": "low"
+  }
+ ]
+}

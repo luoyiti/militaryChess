@@ -1,0 +1,5939 @@
+[
+ {
+  "side": "GB",
+  "echelon": "ship",
+  "type": "naval",
+  "parent": "gb.dover_cmd",
+  "id": "gb.calcutta",
+  "name": {
+   "zh": "加尔各答号",
+   "orig": "HMS Calcutta",
+   "short": "Calcutta"
+  },
+  "commander": {
+   "zh": "帕里什上校",
+   "orig": "Captain D. M. Lees"
+  },
+  "strength": {
+   "men": 400
+  },
+  "ship": {
+   "kind": "light_cruiser",
+   "class": {
+    "zh": "C 级防空巡洋舰（卡莱尔组）",
+    "orig": "C-class anti-aircraft cruiser"
+   },
+   "lengthM": 137.2,
+   "beamM": 13.3,
+   "tonnage": 4290,
+   "tonnageKind": "std",
+   "maxKn": 29,
+   "crew": 400,
+   "pennant": "D82",
+   "silhouette": "leander",
+   "weapons": [
+    {
+     "id": "A",
+     "label": "前部 4 英寸高射炮群",
+     "cal": "4 in QF Mk V",
+     "kind": "aa",
+     "mounts": 3,
+     "perMount": 1,
+     "rangeKm": 9.6,
+     "atPct": 20
+    },
+    {
+     "id": "B",
+     "label": "后部 4 英寸高射炮群",
+     "cal": "4 in QF Mk V",
+     "kind": "aa",
+     "mounts": 3,
+     "perMount": 1,
+     "rangeKm": 9.6,
+     "atPct": 74
+    },
+    {
+     "id": "C",
+     "label": "八联装 2 磅「砰砰」炮",
+     "cal": "40 mm pom-pom",
+     "kind": "aa",
+     "mounts": 1,
+     "perMount": 8,
+     "rangeKm": 3.4,
+     "atPct": 52
+    }
+   ]
+  },
+  "history": "1939 年改装为防空巡洋舰。5 月 27/28 夜在拉帕讷外海撤出 656 人，28/29 夜再撤 1,200 人，是海滩与泊位上唯一的远程防空火力；6 月 2 日被近失弹轻微击伤。",
+  "equipment": [
+   {
+    "id": "ship_aa_cruiser",
+    "count": 1
+   }
+  ],
+  "track": [
+   {
+    "at": "1940-05-26T22:00",
+    "pos": "@dover",
+    "course": 96,
+    "speedKn": 18
+   },
+   {
+    "at": "1940-05-27T00:03",
+    "pos": "@dunkirk_roads",
+    "course": 96,
+    "speedKn": 18
+   },
+   {
+    "at": "1940-05-27T03:13",
+    "pos": "@dunkirk_roads",
+    "course": 276,
+    "speedKn": 18
+   },
+   {
+    "at": "1940-05-27T03:57",
+    "pos": "@dunkirk_roads",
+    "course": 260,
+    "speedKn": 12
+   },
+   {
+    "at": "1940-05-27T08:57",
+    "pos": "@dunkirk_roads",
+    "course": 80,
+    "speedKn": 12
+   },
+   {
+    "at": "1940-05-27T09:54",
+    "pos": "@la_panne",
+    "course": 80,
+    "speedKn": 12
+   },
+   {
+    "at": "1940-05-28T18:00",
+    "pos": "@dover",
+    "course": 96,
+    "speedKn": 18
+   },
+   {
+    "at": "1940-05-28T20:03",
+    "pos": "@dunkirk_roads",
+    "course": 96,
+    "speedKn": 18
+   },
+   {
+    "at": "1940-05-28T23:23",
+    "pos": "@dunkirk_roads",
+    "course": 276,
+    "speedKn": 18
+   },
+   {
+    "at": "1940-05-28T23:57",
+    "pos": "@dunkirk_roads",
+    "course": 260,
+    "speedKn": 12
+   },
+   {
+    "at": "1940-05-29T05:57",
+    "pos": "@dunkirk_roads",
+    "course": 80,
+    "speedKn": 12
+   },
+   {
+    "at": "1940-05-29T06:54",
+    "pos": "@la_panne",
+    "course": 80,
+    "speedKn": 12
+   },
+   {
+    "at": "1940-05-31T22:20",
+    "pos": "@dunkirk_roads",
+    "course": 95,
+    "speedKn": 16
+   },
+   {
+    "at": "1940-06-01T00:40",
+    "pos": "@dunkirk_roads",
+    "course": 275,
+    "speedKn": 15
+   },
+   {
+    "at": "1940-06-01T03:00",
+    "pos": "@dover",
+    "course": 275,
+    "speedKn": 16
+   },
+   {
+    "at": "1940-06-02T06:00",
+    "pos": "@dover",
+    "course": 95,
+    "speedKn": 16
+   },
+   {
+    "at": "1940-06-02T08:30",
+    "pos": "@dunkirk_roads",
+    "course": 95,
+    "speedKn": 14
+   },
+   {
+    "at": "1940-06-02T12:00",
+    "pos": "@dover",
+    "course": 275,
+    "speedKn": 16,
+    "status": "active",
+    "note": "6 月 2 日被德军近失弹轻伤，仍完成掩护任务"
+   }
+  ],
+  "sources": [
+   "scott_1941",
+   "wiki_ships_dunkirk",
+   "dynamo_despatch",
+   "admiralty_losses_1947",
+   "dynamo_admiralty"
+  ],
+  "confidence": "high"
+ },
+ {
+  "side": "GB",
+  "echelon": "ship",
+  "type": "naval",
+  "parent": "gb.dover_cmd",
+  "id": "gb.coventry",
+  "name": {
+   "zh": "考文垂号",
+   "orig": "HMS Coventry",
+   "short": "Coventry"
+  },
+  "strength": {
+   "men": 400
+  },
+  "ship": {
+   "kind": "light_cruiser",
+   "class": {
+    "zh": "C 级防空巡洋舰（卡莱尔组）",
+    "orig": "C-class anti-aircraft cruiser"
+   },
+   "lengthM": 137.2,
+   "beamM": 13.3,
+   "tonnage": 4290,
+   "tonnageKind": "std",
+   "maxKn": 29,
+   "crew": 400,
+   "pennant": "D43",
+   "silhouette": "leander",
+   "weapons": [
+    {
+     "id": "A",
+     "label": "前部 4 英寸高射炮群",
+     "cal": "4 in QF Mk V",
+     "kind": "aa",
+     "mounts": 3,
+     "perMount": 1,
+     "rangeKm": 9.6,
+     "atPct": 20
+    },
+    {
+     "id": "B",
+     "label": "后部 4 英寸高射炮群",
+     "cal": "4 in QF Mk V",
+     "kind": "aa",
+     "mounts": 3,
+     "perMount": 1,
+     "rangeKm": 9.6,
+     "atPct": 74
+    },
+    {
+     "id": "C",
+     "label": "八联装 2 磅「砰砰」炮",
+     "cal": "40 mm pom-pom",
+     "kind": "aa",
+     "mounts": 1,
+     "perMount": 8,
+     "rangeKm": 3.4,
+     "atPct": 52
+    }
+   ]
+  },
+  "history": "与「加尔各答」号同型的防空巡洋舰。5 月末在唐斯锚地与敦刻尔克之间轮值，为航道上的船团撑起高射火力网；6 月 2 日遭近失弹轻伤。",
+  "equipment": [
+   {
+    "id": "ship_aa_cruiser",
+    "count": 1
+   }
+  ],
+  "track": [
+   {
+    "at": "1940-05-27T18:00",
+    "pos": "@the_downs",
+    "course": 108,
+    "speedKn": 16
+   },
+   {
+    "at": "1940-05-27T20:06",
+    "pos": "@dunkirk_roads",
+    "course": 108,
+    "speedKn": 16
+   },
+   {
+    "at": "1940-05-27T23:06",
+    "pos": "@dunkirk_roads",
+    "course": 289,
+    "speedKn": 16
+   },
+   {
+    "at": "1940-05-28T01:30",
+    "pos": "@the_downs",
+    "course": 275,
+    "speedKn": 15
+   },
+   {
+    "at": "1940-05-29T19:00",
+    "pos": "@the_downs",
+    "course": 108,
+    "speedKn": 16
+   },
+   {
+    "at": "1940-05-29T21:06",
+    "pos": "@dunkirk_roads",
+    "course": 108,
+    "speedKn": 16
+   },
+   {
+    "at": "1940-05-30T02:06",
+    "pos": "@dunkirk_roads",
+    "course": 289,
+    "speedKn": 16
+   },
+   {
+    "at": "1940-05-30T05:30",
+    "pos": "@dover",
+    "course": 275,
+    "speedKn": 15
+   },
+   {
+    "at": "1940-05-31T22:00",
+    "pos": "@dover",
+    "course": 96,
+    "speedKn": 16
+   },
+   {
+    "at": "1940-06-01T00:19",
+    "pos": "@dunkirk_roads",
+    "course": 96,
+    "speedKn": 16
+   },
+   {
+    "at": "1940-06-01T04:39",
+    "pos": "@dunkirk_roads",
+    "course": 276,
+    "speedKn": 16
+   },
+   {
+    "at": "1940-06-01T07:30",
+    "pos": "@dover",
+    "course": 275,
+    "speedKn": 15
+   },
+   {
+    "at": "1940-06-02T05:00",
+    "pos": "@dover",
+    "course": 95,
+    "speedKn": 16
+   },
+   {
+    "at": "1940-06-02T07:30",
+    "pos": "@dunkirk_roads",
+    "course": 95,
+    "speedKn": 14
+   },
+   {
+    "at": "1940-06-02T12:00",
+    "pos": "@dover",
+    "course": 275,
+    "speedKn": 16,
+    "status": "active",
+    "note": "6 月 2 日近失弹轻伤"
+   }
+  ],
+  "sources": [
+   "scott_1941",
+   "wiki_ships_dunkirk",
+   "dynamo_admiralty"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "side": "GB",
+  "echelon": "ship",
+  "type": "naval",
+  "parent": "gb.dover_cmd",
+  "id": "gb.wakeful",
+  "name": {
+   "zh": "韦克福号",
+   "orig": "HMS Wakeful",
+   "short": "Wakeful"
+  },
+  "strength": {
+   "men": 134
+  },
+  "equipment": [
+   {
+    "id": "ship_destroyer",
+    "count": 1
+   }
+  ],
+  "ship": {
+   "kind": "destroyer",
+   "class": {
+    "zh": "V&W 级（1917 年 W 级）驱逐舰",
+    "orig": "V and W-class destroyer"
+   },
+   "lengthM": 95.1,
+   "beamM": 8.15,
+   "tonnage": 1100,
+   "tonnageKind": "std",
+   "maxKn": 34,
+   "crew": 134,
+   "pennant": "H88",
+   "silhouette": "destroyer",
+   "weapons": [
+    {
+     "id": "A",
+     "label": "A 炮位（单装）",
+     "cal": "4 in QF Mk V",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 13.7,
+     "atPct": 16
+    },
+    {
+     "id": "B",
+     "label": "B 炮位（单装）",
+     "cal": "4 in QF Mk V",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 13.7,
+     "atPct": 26
+    },
+    {
+     "id": "X",
+     "label": "X 炮位（单装）",
+     "cal": "4 in QF Mk V",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 13.7,
+     "atPct": 72
+    },
+    {
+     "id": "Y",
+     "label": "Y 炮位（单装）",
+     "cal": "4 in QF Mk V",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 13.7,
+     "atPct": 84
+    },
+    {
+     "id": "tt",
+     "label": "四联装 21 英寸鱼雷发射管",
+     "cal": "21 in Mk IX",
+     "kind": "torpedo",
+     "mounts": 2,
+     "perMount": 4,
+     "rangeKm": 11,
+     "atPct": 57
+    },
+    {
+     "id": "aa",
+     "label": "0.5 英寸维克斯四联高射机枪",
+     "cal": "0.5 in Vickers Mk III",
+     "kind": "aa",
+     "mounts": 2,
+     "perMount": 4,
+     "rangeKm": 1.8,
+     "atPct": 45
+    }
+   ]
+  },
+  "history": "一战老舰，5 月 27 日由普利茅斯赶到多佛后立即投入撤离：27 日运出 631 人、28 日再装 640 人。5 月 29 日凌晨在返航途中被德军 S-30 号鱼雷艇击中两条鱼雷，锅炉舱进水，00:45 断裂沉没，船上载员 640 人（维基）／650 人（Ellis 官方战史）两说，其中约 635 名士兵与 98 名舰员丧生，仅 25 名舰员与 5 名士兵获救。",
+  "track": [
+   {
+    "at": "1940-05-27T16:00",
+    "pos": "@dover",
+    "course": 96,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-05-27T17:51",
+    "pos": "@dunkirk_roads",
+    "course": 96,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-05-27T20:21",
+    "pos": "@dunkirk_roads",
+    "course": 276,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-05-27T22:12",
+    "pos": "@dover",
+    "course": 276,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-05-27T23:30",
+    "pos": "@dover",
+    "course": 275,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-05-28T17:00",
+    "pos": "@dover",
+    "course": 96,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-05-28T18:51",
+    "pos": "@dunkirk_roads",
+    "course": 96,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-05-28T22:21",
+    "pos": "@dunkirk_roads",
+    "course": 276,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-05-29T00:45",
+    "pos": [
+     2.75,
+     51.33
+    ],
+    "course": 235,
+    "speedKn": 15,
+    "status": "destroyed",
+    "note": "00:45 被德军 S-30 号鱼雷艇击中两条鱼雷（Ramsay 战报 §27），前锅炉舱进水、舰体断为两半，两段在 15 秒内沉没；载员 640（维基）／650（Ellis）说并存"
+   }
+  ],
+  "sources": [
+   "national_archives_dynamo",
+   "admiralty_losses_1947",
+   "sebag_2006",
+   "wiki_ships_dunkirk",
+   "lord_1982"
+  ],
+  "confidence": "high"
+ },
+ {
+  "side": "GB",
+  "echelon": "ship",
+  "type": "naval",
+  "parent": "gb.dover_cmd",
+  "id": "gb.grafton",
+  "name": {
+   "zh": "格拉夫顿号",
+   "orig": "HMS Grafton",
+   "short": "Grafton"
+  },
+  "commander": {
+   "zh": "罗宾逊中校",
+   "orig": "Commander C. E. C. Robinson"
+  },
+  "strength": {
+   "men": 145
+  },
+  "equipment": [
+   {
+    "id": "ship_destroyer",
+    "count": 1
+   }
+  ],
+  "ship": {
+   "kind": "destroyer",
+   "class": {
+    "zh": "G 级驱逐舰",
+    "orig": "G-class destroyer"
+   },
+   "lengthM": 98.5,
+   "beamM": 10.1,
+   "tonnage": 1350,
+   "tonnageKind": "std",
+   "maxKn": 36,
+   "crew": 145,
+   "pennant": "H89",
+   "silhouette": "destroyer",
+   "weapons": [
+    {
+     "id": "A",
+     "label": "A 炮位（单装）",
+     "cal": "4.7 in QF Mk IX",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 15.5,
+     "atPct": 16
+    },
+    {
+     "id": "B",
+     "label": "B 炮位（单装）",
+     "cal": "4.7 in QF Mk IX",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 15.5,
+     "atPct": 26
+    },
+    {
+     "id": "X",
+     "label": "X 炮位（单装）",
+     "cal": "4.7 in QF Mk IX",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 15.5,
+     "atPct": 72
+    },
+    {
+     "id": "Y",
+     "label": "Y 炮位（单装）",
+     "cal": "4.7 in QF Mk IX",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 15.5,
+     "atPct": 84
+    },
+    {
+     "id": "tt",
+     "label": "四联装 21 英寸鱼雷发射管",
+     "cal": "21 in Mk IX",
+     "kind": "torpedo",
+     "mounts": 2,
+     "perMount": 4,
+     "rangeKm": 11,
+     "atPct": 57
+    },
+    {
+     "id": "aa",
+     "label": "0.5 英寸维克斯四联高射机枪",
+     "cal": "0.5 in Vickers Mk III",
+     "kind": "aa",
+     "mounts": 2,
+     "perMount": 4,
+     "rangeKm": 1.8,
+     "atPct": 45
+    }
+   ]
+  },
+  "history": "5 月 27 日在拉帕讷与布雷迪讷海滩撤出 1,600 余人。29 日凌晨奉命前去救援被鱼雷击沉的韦克福号幸存者，02:50 停下时舰艉被鱼雷命中（U-62 说／U-69 说并存），舰体折断、舰桥二次爆炸，舰长与 15 名舰员阵亡；幸存者由伊万霍号与马利讷斯号运兵船接下，伊万霍号以炮火将其击沉。",
+  "track": [
+   {
+    "at": "1940-05-27T15:30",
+    "pos": "@dover",
+    "course": 92,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-05-27T17:54",
+    "pos": "@la_panne",
+    "course": 92,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-05-27T21:14",
+    "pos": "@la_panne",
+    "course": 273,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-05-28T02:00",
+    "pos": "@dover",
+    "course": 275,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-05-28T20:00",
+    "pos": "@dover",
+    "course": 96,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-05-28T21:51",
+    "pos": "@dunkirk_roads",
+    "course": 96,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-05-29T01:51",
+    "pos": "@dunkirk_roads",
+    "course": 276,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-05-29T02:50",
+    "pos": [
+     2.78,
+     51.36
+    ],
+    "course": 200,
+    "speedKn": 8,
+    "status": "engaged",
+    "note": "02:50 停车救援韦克福号幸存者时舰艉被鱼雷命中（Ramsay 战报 §27；攻击者一作 U-62，一作 U-69／Ellis 官方战史）"
+   },
+   {
+    "at": "1940-05-29T05:30",
+    "pos": [
+     2.75,
+     51.37
+    ],
+    "course": 200,
+    "speedKn": 0,
+    "status": "destroyed",
+    "note": "舰体折断已无法拖带，05:30 由伊万霍号以舰炮击沉"
+   }
+  ],
+  "sources": [
+   "national_archives_dynamo",
+   "wiki_ships_dunkirk",
+   "admiralty_losses_1947",
+   "sebag_2006"
+  ],
+  "confidence": "high"
+ },
+ {
+  "side": "GB",
+  "echelon": "ship",
+  "type": "naval",
+  "parent": "gb.dover_cmd",
+  "id": "gb.grenade",
+  "name": {
+   "zh": "格内德号",
+   "orig": "HMS Grenade",
+   "short": "Grenade"
+  },
+  "strength": {
+   "men": 145
+  },
+  "equipment": [
+   {
+    "id": "ship_destroyer",
+    "count": 1
+   }
+  ],
+  "ship": {
+   "kind": "destroyer",
+   "class": {
+    "zh": "G 级驱逐舰",
+    "orig": "G-class destroyer"
+   },
+   "lengthM": 98.5,
+   "beamM": 10.1,
+   "tonnage": 1350,
+   "tonnageKind": "std",
+   "maxKn": 36,
+   "crew": 145,
+   "pennant": "H86",
+   "silhouette": "destroyer",
+   "weapons": [
+    {
+     "id": "A",
+     "label": "A 炮位（单装）",
+     "cal": "4.7 in QF Mk IX",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 15.5,
+     "atPct": 16
+    },
+    {
+     "id": "B",
+     "label": "B 炮位（单装）",
+     "cal": "4.7 in QF Mk IX",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 15.5,
+     "atPct": 26
+    },
+    {
+     "id": "X",
+     "label": "X 炮位（单装）",
+     "cal": "4.7 in QF Mk IX",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 15.5,
+     "atPct": 72
+    },
+    {
+     "id": "Y",
+     "label": "Y 炮位（单装）",
+     "cal": "4.7 in QF Mk IX",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 15.5,
+     "atPct": 84
+    },
+    {
+     "id": "tt",
+     "label": "四联装 21 英寸鱼雷发射管",
+     "cal": "21 in Mk IX",
+     "kind": "torpedo",
+     "mounts": 2,
+     "perMount": 4,
+     "rangeKm": 11,
+     "atPct": 57
+    },
+    {
+     "id": "aa",
+     "label": "0.5 英寸维克斯四联高射机枪",
+     "cal": "0.5 in Vickers Mk III",
+     "kind": "aa",
+     "mounts": 2,
+     "perMount": 4,
+     "rangeKm": 1.8,
+     "atPct": 45
+    }
+   ]
+  },
+  "history": "28 日在海峡北部掩护船团，并救起被 S-34 号击沉的阿布基尔号 33 名幸存者；当夜首次驶入敦刻尔克。29 日白天停在港内泊位时被施图卡俯冲轰炸机两枚炸弹命中起火，14 人阵亡、4 人伤重不治；当夜弹药库爆炸，舰体在港外西侧沉没。",
+  "track": [
+   {
+    "at": "1940-05-28T16:00",
+    "pos": "@sheerness",
+    "course": 111,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-05-28T19:05",
+    "pos": "@dunkirk_roads",
+    "course": 111,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-05-28T23:25",
+    "pos": "@dunkirk_roads",
+    "course": 292,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-05-29T17:00",
+    "pos": "@east_mole",
+    "course": 95,
+    "speedKn": 0,
+    "status": "destroyed",
+    "note": "16:02 在港内被两枚炸弹命中起火，当夜弹药库爆炸沉没"
+   }
+  ],
+  "sources": [
+   "national_archives_dynamo",
+   "wiki_ships_dunkirk",
+   "admiralty_losses_1947",
+   "dildy_2010"
+  ],
+  "confidence": "high"
+ },
+ {
+  "side": "GB",
+  "echelon": "ship",
+  "type": "naval",
+  "parent": "gb.dover_cmd",
+  "id": "gb.havant",
+  "name": {
+   "zh": "阿文特号",
+   "orig": "HMS Havant",
+   "short": "Havant"
+  },
+  "strength": {
+   "men": 145
+  },
+  "equipment": [
+   {
+    "id": "ship_destroyer",
+    "count": 1
+   }
+  ],
+  "ship": {
+   "kind": "destroyer",
+   "class": {
+    "zh": "H 级驱逐舰（原巴西 Javary 号）",
+    "orig": "H-class destroyer"
+   },
+   "lengthM": 98.5,
+   "beamM": 10.1,
+   "tonnage": 1340,
+   "tonnageKind": "std",
+   "maxKn": 35,
+   "crew": 145,
+   "pennant": "H32",
+   "silhouette": "destroyer",
+   "weapons": [
+    {
+     "id": "A",
+     "label": "A 炮位（单装）",
+     "cal": "4.7 in QF Mk IX",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 15.5,
+     "atPct": 15
+    },
+    {
+     "id": "B",
+     "label": "B 炮位（单装）",
+     "cal": "4.7 in QF Mk IX",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 15.5,
+     "atPct": 25
+    },
+    {
+     "id": "Y",
+     "label": "Y 炮位（单装）",
+     "cal": "4.7 in QF Mk IX",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 15.5,
+     "atPct": 84
+    },
+    {
+     "id": "tt",
+     "label": "四联装 21 英寸鱼雷发射管",
+     "cal": "21 in Mk IX",
+     "kind": "torpedo",
+     "mounts": 2,
+     "perMount": 4,
+     "rangeKm": 11,
+     "atPct": 57
+    },
+    {
+     "id": "aa",
+     "label": "0.5 英寸维克斯四联高射机枪",
+     "cal": "0.5 in Vickers Mk III",
+     "kind": "aa",
+     "mounts": 2,
+     "perMount": 4,
+     "rangeKm": 1.8,
+     "atPct": 45
+    }
+   ]
+  },
+  "history": "5 月 29 日加入撤离，到 6 月 1 日三天里救出 2,300 余人；最后是因靠帮接运被打瘫的「伊万霍」号上的人员而遭空袭。6 月 1 日晨装完 500 人后又靠上被炸伤的伊万霍号，接下其全部兵员与伤员；返航途中在敦刻尔克外海被施图卡两枚炸弹击中机舱、一枚在舰底爆炸，8 名舰员与至少 25 名士兵阵亡，拖带失败后由扫雷舰萨尔塔什号击沉。",
+  "track": [
+   {
+    "at": "1940-05-29T18:00",
+    "pos": "@dover",
+    "course": 96,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-05-29T19:51",
+    "pos": "@dunkirk_roads",
+    "course": 96,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-05-29T23:11",
+    "pos": "@dunkirk_roads",
+    "course": 276,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-05-30T05:00",
+    "pos": "@dover",
+    "course": 275,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-05-31T19:00",
+    "pos": "@dover",
+    "course": 96,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-05-31T20:51",
+    "pos": "@dunkirk_roads",
+    "course": 96,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-06-01T00:51",
+    "pos": "@dunkirk_roads",
+    "course": 276,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-06-01T09:05",
+    "pos": "@dunkirk_roads",
+    "course": 275,
+    "speedKn": 8,
+    "status": "destroyed",
+    "note": "09:05 在敦刻尔克外海被施图卡两枚炸弹击中机舱、一枚在舰底爆炸；拖带失败后由扫雷舰萨尔塔什号击沉于西浮标外 5 海里"
+   }
+  ],
+  "sources": [
+   "national_archives_dynamo",
+   "wiki_ships_dunkirk",
+   "admiralty_losses_1947",
+   "dildy_2010"
+  ],
+  "confidence": "high"
+ },
+ {
+  "side": "GB",
+  "echelon": "ship",
+  "type": "naval",
+  "parent": "gb.dover_cmd",
+  "id": "gb.basilisk",
+  "name": {
+   "zh": "巴兹利斯克号",
+   "orig": "HMS Basilisk",
+   "short": "Basilisk"
+  },
+  "commander": {
+   "zh": "里奇蒙中校",
+   "orig": "Commander M. Richmond"
+  },
+  "strength": {
+   "men": 138
+  },
+  "equipment": [
+   {
+    "id": "ship_destroyer",
+    "count": 1
+   }
+  ],
+  "ship": {
+   "kind": "destroyer",
+   "class": {
+    "zh": "B 级驱逐舰",
+    "orig": "B-class destroyer"
+   },
+   "lengthM": 98.5,
+   "beamM": 9.83,
+   "tonnage": 1360,
+   "tonnageKind": "std",
+   "maxKn": 35,
+   "crew": 138,
+   "pennant": "H11",
+   "silhouette": "destroyer",
+   "weapons": [
+    {
+     "id": "A",
+     "label": "A 炮位（单装）",
+     "cal": "4.7 in QF Mk IX",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 15.5,
+     "atPct": 16
+    },
+    {
+     "id": "B",
+     "label": "B 炮位（单装）",
+     "cal": "4.7 in QF Mk IX",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 15.5,
+     "atPct": 26
+    },
+    {
+     "id": "X",
+     "label": "X 炮位（单装）",
+     "cal": "4.7 in QF Mk IX",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 15.5,
+     "atPct": 72
+    },
+    {
+     "id": "Y",
+     "label": "Y 炮位（单装）",
+     "cal": "4.7 in QF Mk IX",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 15.5,
+     "atPct": 84
+    },
+    {
+     "id": "tt",
+     "label": "四联装 21 英寸鱼雷发射管",
+     "cal": "21 in Mk IX",
+     "kind": "torpedo",
+     "mounts": 2,
+     "perMount": 4,
+     "rangeKm": 11,
+     "atPct": 57
+    },
+    {
+     "id": "aa",
+     "label": "0.5 英寸维克斯四联高射机枪",
+     "cal": "0.5 in Vickers Mk III",
+     "kind": "aa",
+     "mounts": 2,
+     "perMount": 4,
+     "rangeKm": 1.8,
+     "atPct": 45
+    }
+   ]
+  },
+  "history": "5 月 30 日调入撤离序列，次日在多佛与敦刻尔克之间往返两趟，共运出 695 人。6 月 1 日晨回拉帕讷装载部队，第一波炸弹命中 3 号锅炉舱、机炉人员全部阵亡；法籍拖船「美丽的吉祥物」号拖带失败，正午第三波空袭将其击沉于浅水，残骸由白厅号以炮火与鱼雷摧毁。",
+  "track": [
+   {
+    "at": "1940-05-31T01:00",
+    "pos": "@dover",
+    "course": 92,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-05-31T03:24",
+    "pos": "@la_panne",
+    "course": 92,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-05-31T07:04",
+    "pos": "@la_panne",
+    "course": 273,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-05-31T12:00",
+    "pos": "@dover",
+    "course": 275,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-05-31T20:00",
+    "pos": "@dover",
+    "course": 95,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-05-31T22:00",
+    "pos": "@la_panne",
+    "course": 95,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-06-01T08:00",
+    "pos": "@la_panne",
+    "course": 275,
+    "speedKn": 0,
+    "status": "engaged",
+    "note": "08:00 被近失弹打坏全部机械"
+   },
+   {
+    "at": "1940-06-01T12:00",
+    "pos": [
+     2.588,
+     51.138
+    ],
+    "course": 275,
+    "speedKn": 0,
+    "status": "destroyed",
+    "note": "约 12:00 第三波空袭将其击沉于 51°08′16″N 2°35′06″E 浅水；法籍渔船「美丽的吉祥物」号两次拖带未成，最后救起大半舰员，残骸由白厅号摧毁"
+   }
+  ],
+  "sources": [
+   "national_archives_dynamo",
+   "wiki_ships_dunkirk",
+   "admiralty_losses_1947"
+  ],
+  "confidence": "high"
+ },
+ {
+  "side": "GB",
+  "echelon": "ship",
+  "type": "naval",
+  "parent": "gb.dover_cmd",
+  "id": "gb.keith",
+  "name": {
+   "zh": "基思号",
+   "orig": "HMS Keith",
+   "short": "Keith"
+  },
+  "commander": {
+   "zh": "伯顿上校",
+   "orig": "Captain E. L. Berthon"
+  },
+  "strength": {
+   "men": 138
+  },
+  "equipment": [
+   {
+    "id": "ship_destroyer",
+    "count": 1
+   }
+  ],
+  "ship": {
+   "kind": "destroyer",
+   "class": {
+    "zh": "B 级驱逐舰（驱逐舰分队领舰）",
+    "orig": "B-class destroyer (flotilla leader)"
+   },
+   "lengthM": 98.5,
+   "beamM": 9.83,
+   "tonnage": 1360,
+   "tonnageKind": "std",
+   "maxKn": 35,
+   "crew": 138,
+   "pennant": "H06",
+   "silhouette": "destroyer",
+   "weapons": [
+    {
+     "id": "A",
+     "label": "A 炮位（单装）",
+     "cal": "4.7 in QF Mk IX",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 15.5,
+     "atPct": 16
+    },
+    {
+     "id": "B",
+     "label": "B 炮位（单装）",
+     "cal": "4.7 in QF Mk IX",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 15.5,
+     "atPct": 26
+    },
+    {
+     "id": "X",
+     "label": "X 炮位（单装）",
+     "cal": "4.7 in QF Mk IX",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 15.5,
+     "atPct": 72
+    },
+    {
+     "id": "Y",
+     "label": "Y 炮位（单装）",
+     "cal": "4.7 in QF Mk IX",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 15.5,
+     "atPct": 84
+    },
+    {
+     "id": "tt",
+     "label": "四联装 21 英寸鱼雷发射管",
+     "cal": "21 in Mk IX",
+     "kind": "torpedo",
+     "mounts": 2,
+     "perMount": 4,
+     "rangeKm": 11,
+     "atPct": 57
+    },
+    {
+     "id": "aa",
+     "label": "0.5 英寸维克斯四联高射机枪",
+     "cal": "0.5 in Vickers Mk III",
+     "kind": "aa",
+     "mounts": 2,
+     "perMount": 4,
+     "rangeKm": 1.8,
+     "atPct": 45
+    }
+   ]
+  },
+  "history": "5 月 29 日起担任东防波堤泊位的指挥舰之一，持续疏导靠泊与装载。6 月 1 日在敦刻尔克被近失弹击伤，正准备离港时于 09:15 再次遭轰炸而沉没，33 名舰员阵亡，舰长与副长负伤；幸存者由圣阿布斯号等拖船与荷兰汽船希尔达号救起。",
+  "track": [
+   {
+    "at": "1940-05-29T02:00",
+    "pos": "@dover",
+    "course": 96,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-05-29T04:01",
+    "pos": "@east_mole",
+    "course": 96,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-05-29T07:21",
+    "pos": "@east_mole",
+    "course": 277,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-05-29T12:00",
+    "pos": "@dover",
+    "course": 275,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-05-31T19:00",
+    "pos": "@dover",
+    "course": 96,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-05-31T21:01",
+    "pos": "@east_mole",
+    "course": 96,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-06-01T00:41",
+    "pos": "@east_mole",
+    "course": 277,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-06-01T09:15",
+    "pos": "@east_mole",
+    "course": 275,
+    "speedKn": 0,
+    "status": "destroyed",
+    "note": "09:15 在离港前被德机炸沉（英方战报）；33 名舰员阵亡"
+   }
+  ],
+  "sources": [
+   "national_archives_dynamo",
+   "admiralty_losses_1947",
+   "dynamo_despatch"
+  ],
+  "confidence": "high"
+ },
+ {
+  "side": "GB",
+  "echelon": "ship",
+  "type": "naval",
+  "parent": "gb.dover_cmd",
+  "id": "gb.ivanhoe",
+  "name": {
+   "zh": "伊万霍号",
+   "orig": "HMS Ivanhoe",
+   "short": "Ivanhoe"
+  },
+  "commander": {
+   "zh": "哈多中校",
+   "orig": "Commander P. H. Hadow"
+  },
+  "strength": {
+   "men": 145
+  },
+  "ship": {
+   "kind": "destroyer",
+   "class": {
+    "zh": "I 级驱逐舰（可快速改装为布雷舰）",
+    "orig": "I-class destroyer"
+   },
+   "lengthM": 98.5,
+   "beamM": 10.05,
+   "tonnage": 1370,
+   "tonnageKind": "std",
+   "maxKn": 35,
+   "crew": 145,
+   "pennant": "D16",
+   "silhouette": "destroyer",
+   "weapons": [
+    {
+     "id": "A",
+     "label": "A 炮位（单装）",
+     "cal": "4.7 in QF Mk IX",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 15.5,
+     "atPct": 16
+    },
+    {
+     "id": "B",
+     "label": "B 炮位（单装）",
+     "cal": "4.7 in QF Mk IX",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 15.5,
+     "atPct": 26
+    },
+    {
+     "id": "X",
+     "label": "X 炮位（单装）",
+     "cal": "4.7 in QF Mk IX",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 15.5,
+     "atPct": 72
+    },
+    {
+     "id": "Y",
+     "label": "Y 炮位（单装）",
+     "cal": "4.7 in QF Mk IX",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 15.5,
+     "atPct": 84
+    },
+    {
+     "id": "tt",
+     "label": "四联装 21 英寸鱼雷发射管",
+     "cal": "21 in Mk IX",
+     "kind": "torpedo",
+     "mounts": 2,
+     "perMount": 4,
+     "rangeKm": 11,
+     "atPct": 57
+    },
+    {
+     "id": "aa",
+     "label": "0.5 英寸维克斯四联高射机枪",
+     "cal": "0.5 in Vickers Mk III",
+     "kind": "aa",
+     "mounts": 2,
+     "perMount": 4,
+     "rangeKm": 1.8,
+     "atPct": 45
+    }
+   ]
+  },
+  "history": "5 月 29 日运出 930 人，并接下格拉夫顿号舰员、以炮火将该舰击沉；30 日因「过于宝贵」被撤回，31 日又重新加入并运出 1,290 人。6 月 1 日晨已装载部队时被德机炸弹命中上层甲板，两个前锅炉舱进水、26 人阵亡（含 5 名士兵），由扫雷舰与阿文特号接下伤员，靠 3 号锅炉舱自行返航多佛。",
+  "track": [
+   {
+    "at": "1940-05-29T02:00",
+    "pos": "@dover",
+    "course": 96,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-05-29T03:51",
+    "pos": "@dunkirk_roads",
+    "course": 96,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-05-29T07:11",
+    "pos": "@dunkirk_roads",
+    "course": 276,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-05-29T12:00",
+    "pos": "@dover",
+    "course": 275,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-05-31T18:00",
+    "pos": "@dover",
+    "course": 96,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-05-31T19:51",
+    "pos": "@dunkirk_roads",
+    "course": 96,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-05-31T23:51",
+    "pos": "@dunkirk_roads",
+    "course": 276,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-06-01T08:05",
+    "pos": "@dunkirk_roads",
+    "course": 275,
+    "speedKn": 6,
+    "status": "active",
+    "note": "08:05 被炸弹命中上层甲板，前锅炉舱进水、26 人阵亡；由拖船波斯号拖回英格兰"
+   }
+  ],
+  "sources": [
+   "national_archives_dynamo",
+   "wiki_ships_dunkirk",
+   "admiralty_losses_1947"
+  ],
+  "confidence": "high"
+ },
+ {
+  "side": "GB",
+  "echelon": "ship",
+  "type": "naval",
+  "parent": "gb.dover_cmd",
+  "id": "gb.esk",
+  "name": {
+   "zh": "埃斯克号",
+   "orig": "HMS Esk",
+   "short": "Esk"
+  },
+  "strength": {
+   "men": 145
+  },
+  "equipment": [
+   {
+    "id": "ship_destroyer",
+    "count": 1
+   }
+  ],
+  "ship": {
+   "kind": "destroyer",
+   "class": {
+    "zh": "E 级驱逐舰（布雷型）",
+    "orig": "E-class destroyer"
+   },
+   "lengthM": 100.3,
+   "beamM": 10.1,
+   "tonnage": 1405,
+   "tonnageKind": "std",
+   "maxKn": 36,
+   "crew": 145,
+   "pennant": "H15",
+   "silhouette": "destroyer",
+   "weapons": [
+    {
+     "id": "A",
+     "label": "A 炮位（单装）",
+     "cal": "4.7 in QF Mk IX",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 15.5,
+     "atPct": 16
+    },
+    {
+     "id": "B",
+     "label": "B 炮位（单装）",
+     "cal": "4.7 in QF Mk IX",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 15.5,
+     "atPct": 26
+    },
+    {
+     "id": "X",
+     "label": "X 炮位（单装）",
+     "cal": "4.7 in QF Mk IX",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 15.5,
+     "atPct": 72
+    },
+    {
+     "id": "Y",
+     "label": "Y 炮位（单装）",
+     "cal": "4.7 in QF Mk IX",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 15.5,
+     "atPct": 84
+    },
+    {
+     "id": "tt",
+     "label": "四联装 21 英寸鱼雷发射管",
+     "cal": "21 in Mk IX",
+     "kind": "torpedo",
+     "mounts": 2,
+     "perMount": 4,
+     "rangeKm": 11,
+     "atPct": 57
+    },
+    {
+     "id": "aa",
+     "label": "0.5 英寸维克斯四联高射机枪",
+     "cal": "0.5 in Vickers Mk III",
+     "kind": "aa",
+     "mounts": 2,
+     "perMount": 4,
+     "rangeKm": 1.8,
+     "atPct": 45
+    }
+   ]
+  },
+  "history": "5 月 29 日加入撤离，到 6 月 3 日共运出 3,904 人。6 月 1 日从被炸起火的运兵船「斯科舍」号上接下 1,000 余名法军士兵，是当日白天最重要的救援之一。撤离期间受的轻伤修理后即重返布雷任务。",
+  "track": [
+   {
+    "at": "1940-05-29T14:00",
+    "pos": "@dover",
+    "course": 96,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-05-29T15:51",
+    "pos": "@dunkirk_roads",
+    "course": 96,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-05-29T19:11",
+    "pos": "@dunkirk_roads",
+    "course": 276,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-05-30T05:00",
+    "pos": "@dover",
+    "course": 275,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-05-31T18:00",
+    "pos": "@dover",
+    "course": 96,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-05-31T19:51",
+    "pos": "@dunkirk_roads",
+    "course": 96,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-05-31T23:31",
+    "pos": "@dunkirk_roads",
+    "course": 276,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-06-01T13:00",
+    "pos": "@dover",
+    "course": 275,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-06-02T20:00",
+    "pos": "@dover",
+    "course": 95,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-06-02T22:00",
+    "pos": "@dunkirk_roads",
+    "course": 95,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-06-03T02:00",
+    "pos": "@dover",
+    "course": 275,
+    "speedKn": 20
+   }
+  ],
+  "sources": [
+   "national_archives_dynamo",
+   "wiki_ships_dunkirk",
+   "wiki_ships_dunkirk",
+   "dynamo_despatch"
+  ],
+  "confidence": "high"
+ },
+ {
+  "side": "GB",
+  "echelon": "ship",
+  "type": "naval",
+  "parent": "gb.dover_cmd",
+  "id": "gb.express",
+  "name": {
+   "zh": "埃克斯普雷斯号",
+   "orig": "HMS Express",
+   "short": "Express"
+  },
+  "strength": {
+   "men": 145
+  },
+  "equipment": [
+   {
+    "id": "ship_destroyer",
+    "count": 1
+   }
+  ],
+  "ship": {
+   "kind": "destroyer",
+   "class": {
+    "zh": "E 级驱逐舰（布雷型）",
+    "orig": "E-class destroyer"
+   },
+   "lengthM": 100.3,
+   "beamM": 10.1,
+   "tonnage": 1405,
+   "tonnageKind": "std",
+   "maxKn": 36,
+   "crew": 145,
+   "pennant": "H61",
+   "silhouette": "destroyer",
+   "weapons": [
+    {
+     "id": "A",
+     "label": "A 炮位（单装）",
+     "cal": "4.7 in QF Mk IX",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 15.5,
+     "atPct": 16
+    },
+    {
+     "id": "B",
+     "label": "B 炮位（单装）",
+     "cal": "4.7 in QF Mk IX",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 15.5,
+     "atPct": 26
+    },
+    {
+     "id": "X",
+     "label": "X 炮位（单装）",
+     "cal": "4.7 in QF Mk IX",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 15.5,
+     "atPct": 72
+    },
+    {
+     "id": "Y",
+     "label": "Y 炮位（单装）",
+     "cal": "4.7 in QF Mk IX",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 15.5,
+     "atPct": 84
+    },
+    {
+     "id": "tt",
+     "label": "四联装 21 英寸鱼雷发射管",
+     "cal": "21 in Mk IX",
+     "kind": "torpedo",
+     "mounts": 2,
+     "perMount": 4,
+     "rangeKm": 11,
+     "atPct": 57
+    },
+    {
+     "id": "aa",
+     "label": "0.5 英寸维克斯四联高射机枪",
+     "cal": "0.5 in Vickers Mk III",
+     "kind": "aa",
+     "mounts": 2,
+     "perMount": 4,
+     "rangeKm": 1.8,
+     "atPct": 45
+    }
+   ]
+  },
+  "history": "与埃斯克号同属第 20 驱逐舰分队。5 月 29 日各运出 500 人并在此后多次往返，撤离期间舰体与设备受损但未失能；同年 8 月 31 日在特塞尔海域触雷被炸掉舰艏。",
+  "track": [
+   {
+    "at": "1940-05-29T15:00",
+    "pos": "@dover",
+    "course": 96,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-05-29T16:51",
+    "pos": "@dunkirk_roads",
+    "course": 96,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-05-29T20:01",
+    "pos": "@dunkirk_roads",
+    "course": 276,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-05-30T05:00",
+    "pos": "@dover",
+    "course": 275,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-05-31T17:00",
+    "pos": "@sheerness",
+    "course": 111,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-05-31T20:05",
+    "pos": "@dunkirk_roads",
+    "course": 111,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-06-01T00:05",
+    "pos": "@dunkirk_roads",
+    "course": 292,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-06-01T08:00",
+    "pos": "@sheerness",
+    "course": 275,
+    "speedKn": 20,
+    "status": "active",
+    "note": "撤离期间受损，返港修理"
+   }
+  ],
+  "sources": [
+   "national_archives_dynamo",
+   "wiki_ships_dunkirk",
+   "dynamo_despatch"
+  ],
+  "confidence": "high"
+ },
+ {
+  "side": "GB",
+  "echelon": "ship",
+  "type": "naval",
+  "parent": "gb.dover_cmd",
+  "id": "gb.shikari",
+  "name": {
+   "zh": "希卡里号",
+   "orig": "HMS Shikari",
+   "short": "Shikari"
+  },
+  "strength": {
+   "men": 90
+  },
+  "equipment": [
+   {
+    "id": "ship_destroyer",
+    "count": 1
+   }
+  ],
+  "ship": {
+   "kind": "destroyer",
+   "class": {
+    "zh": "S 级驱逐舰（1918 年海军部 S 型）",
+    "orig": "Admiralty S-class destroyer"
+   },
+   "lengthM": 84.1,
+   "beamM": 7.9,
+   "tonnage": 1075,
+   "tonnageKind": "std",
+   "maxKn": 36,
+   "crew": 90,
+   "pennant": "D34",
+   "silhouette": "destroyer",
+   "weapons": [
+    {
+     "id": "A",
+     "label": "A 炮位（单装）",
+     "cal": "4 in QF Mk IV",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 13.7,
+     "atPct": 15
+    },
+    {
+     "id": "B",
+     "label": "B 炮位（单装）",
+     "cal": "4 in QF Mk IV",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 13.7,
+     "atPct": 25
+    },
+    {
+     "id": "Y",
+     "label": "Y 炮位（单装）",
+     "cal": "4 in QF Mk IV",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 13.7,
+     "atPct": 84
+    },
+    {
+     "id": "tt",
+     "label": "四联装 21 英寸鱼雷发射管",
+     "cal": "21 in Mk IX",
+     "kind": "torpedo",
+     "mounts": 2,
+     "perMount": 4,
+     "rangeKm": 11,
+     "atPct": 57
+    },
+    {
+     "id": "aa",
+     "label": "0.5 英寸维克斯四联高射机枪",
+     "cal": "0.5 in Vickers Mk III",
+     "kind": "aa",
+     "mounts": 2,
+     "perMount": 4,
+     "rangeKm": 1.8,
+     "atPct": 45
+    }
+   ]
+  },
+  "history": "5 月 28 日首次驶入敦刻尔克，此后七次往返共运出 3,349 人。6 月 1 日与被炸伤的汽船「布拉格」号会合，与单桅舰希沃特号一起接下 3,000 名法军，当日自身亦被炸伤。6 月 4 日 03:40，它是最后一艘离开敦刻尔克的军舰。",
+  "track": [
+   {
+    "at": "1940-05-28T16:00",
+    "pos": "@dover",
+    "course": 96,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-05-28T17:51",
+    "pos": "@dunkirk_roads",
+    "course": 96,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-05-28T21:11",
+    "pos": "@dunkirk_roads",
+    "course": 276,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-05-29T05:00",
+    "pos": "@dover",
+    "course": 275,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-05-29T18:00",
+    "pos": "@dover",
+    "course": 96,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-05-29T19:51",
+    "pos": "@dunkirk_roads",
+    "course": 96,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-05-29T23:31",
+    "pos": "@dunkirk_roads",
+    "course": 276,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-05-30T07:00",
+    "pos": "@dover",
+    "course": 275,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-05-31T19:00",
+    "pos": "@dover",
+    "course": 96,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-05-31T20:51",
+    "pos": "@dunkirk_roads",
+    "course": 96,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-06-01T00:51",
+    "pos": "@dunkirk_roads",
+    "course": 276,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-06-01T09:00",
+    "pos": "@dover",
+    "course": 275,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-06-01T20:00",
+    "pos": "@dover",
+    "course": 95,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-06-01T22:00",
+    "pos": "@dunkirk_roads",
+    "course": 95,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-06-02T06:00",
+    "pos": "@dunkirk_roads",
+    "course": 275,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-06-02T08:00",
+    "pos": "@dover",
+    "course": 275,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-06-03T20:00",
+    "pos": "@dover",
+    "course": 95,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-06-03T22:00",
+    "pos": "@dunkirk_roads",
+    "course": 95,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-06-04T03:40",
+    "pos": "@dunkirk_roads",
+    "course": 275,
+    "speedKn": 20,
+    "status": "active",
+    "note": "最后一艘离开敦刻尔克的军舰"
+   },
+   {
+    "at": "1940-06-04T05:40",
+    "pos": "@dover",
+    "course": 275,
+    "speedKn": 20
+   }
+  ],
+  "sources": [
+   "national_archives_dynamo",
+   "wiki_ships_dunkirk",
+   "dynamo_despatch",
+   "admiralty_losses_1947"
+  ],
+  "confidence": "high"
+ },
+ {
+  "side": "GB",
+  "echelon": "ship",
+  "type": "naval",
+  "parent": "gb.dover_cmd",
+  "id": "gb.winchelsea",
+  "name": {
+   "zh": "温切尔西号",
+   "orig": "HMS Winchelsea",
+   "short": "Winchelsea"
+  },
+  "strength": {
+   "men": 134
+  },
+  "equipment": [
+   {
+    "id": "ship_destroyer",
+    "count": 1
+   }
+  ],
+  "ship": {
+   "kind": "destroyer",
+   "class": {
+    "zh": "V&W 级驱逐舰（1917 年 W 级）",
+    "orig": "V and W-class destroyer"
+   },
+   "lengthM": 95.1,
+   "beamM": 8.15,
+   "tonnage": 1100,
+   "tonnageKind": "std",
+   "maxKn": 34,
+   "crew": 134,
+   "pennant": "D46",
+   "silhouette": "destroyer",
+   "weapons": [
+    {
+     "id": "A",
+     "label": "A 炮位（单装）",
+     "cal": "4 in QF Mk V",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 13.7,
+     "atPct": 16
+    },
+    {
+     "id": "B",
+     "label": "B 炮位（单装）",
+     "cal": "4 in QF Mk V",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 13.7,
+     "atPct": 26
+    },
+    {
+     "id": "X",
+     "label": "X 炮位（单装）",
+     "cal": "4 in QF Mk V",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 13.7,
+     "atPct": 72
+    },
+    {
+     "id": "Y",
+     "label": "Y 炮位（单装）",
+     "cal": "4 in QF Mk V",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 13.7,
+     "atPct": 84
+    },
+    {
+     "id": "tt",
+     "label": "四联装 21 英寸鱼雷发射管",
+     "cal": "21 in Mk IX",
+     "kind": "torpedo",
+     "mounts": 2,
+     "perMount": 4,
+     "rangeKm": 11,
+     "atPct": 57
+    },
+    {
+     "id": "aa",
+     "label": "0.5 英寸维克斯四联高射机枪",
+     "cal": "0.5 in Vickers Mk III",
+     "kind": "aa",
+     "mounts": 2,
+     "perMount": 4,
+     "rangeKm": 1.8,
+     "atPct": 45
+    }
+   ]
+  },
+  "history": "一战老舰，5 月 27 日起承担航线护航与渡海运输。29 日「最黑暗的一天」后，海军部撤走八艘新式驱逐舰，这类老旧驱逐舰与扫雷舰反而成为撤离的主力。",
+  "track": [
+   {
+    "at": "1940-05-28T19:00",
+    "pos": "@dover",
+    "course": 96,
+    "speedKn": 18
+   },
+   {
+    "at": "1940-05-28T21:03",
+    "pos": "@dunkirk_roads",
+    "course": 96,
+    "speedKn": 18
+   },
+   {
+    "at": "1940-05-29T00:23",
+    "pos": "@dunkirk_roads",
+    "course": 276,
+    "speedKn": 18
+   },
+   {
+    "at": "1940-05-29T08:00",
+    "pos": "@dover",
+    "course": 275,
+    "speedKn": 18
+   },
+   {
+    "at": "1940-05-30T20:00",
+    "pos": "@dover",
+    "course": 96,
+    "speedKn": 18
+   },
+   {
+    "at": "1940-05-30T22:03",
+    "pos": "@dunkirk_roads",
+    "course": 96,
+    "speedKn": 18
+   },
+   {
+    "at": "1940-05-31T02:03",
+    "pos": "@dunkirk_roads",
+    "course": 276,
+    "speedKn": 18
+   },
+   {
+    "at": "1940-06-01T04:00",
+    "pos": "@dover",
+    "course": 275,
+    "speedKn": 18
+   },
+   {
+    "at": "1940-06-02T19:00",
+    "pos": "@dover",
+    "course": 95,
+    "speedKn": 18
+   },
+   {
+    "at": "1940-06-02T21:00",
+    "pos": "@dunkirk_roads",
+    "course": 95,
+    "speedKn": 18
+   },
+   {
+    "at": "1940-06-03T03:00",
+    "pos": "@dover",
+    "course": 275,
+    "speedKn": 18,
+    "status": "active"
+   }
+  ],
+  "sources": [
+   "national_archives_dynamo",
+   "dynamo_despatch",
+   "wiki_ships_dunkirk"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "side": "GB",
+  "echelon": "ship",
+  "type": "naval",
+  "parent": "gb.dover_cmd",
+  "id": "gb.wolsey",
+  "name": {
+   "zh": "伍尔西号",
+   "orig": "HMS Wolsey",
+   "short": "Wolsey"
+  },
+  "strength": {
+   "men": 134
+  },
+  "equipment": [
+   {
+    "id": "ship_destroyer",
+    "count": 1
+   }
+  ],
+  "ship": {
+   "kind": "destroyer",
+   "class": {
+    "zh": "V&W 级驱逐舰（1917 年 W 级）",
+    "orig": "V and W-class destroyer"
+   },
+   "lengthM": 95.1,
+   "beamM": 8.15,
+   "tonnage": 1100,
+   "tonnageKind": "std",
+   "maxKn": 34,
+   "crew": 134,
+   "pennant": "L02",
+   "silhouette": "destroyer",
+   "weapons": [
+    {
+     "id": "A",
+     "label": "A 炮位（单装）",
+     "cal": "4 in QF Mk V",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 13.7,
+     "atPct": 16
+    },
+    {
+     "id": "B",
+     "label": "B 炮位（单装）",
+     "cal": "4 in QF Mk V",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 13.7,
+     "atPct": 26
+    },
+    {
+     "id": "X",
+     "label": "X 炮位（单装）",
+     "cal": "4 in QF Mk V",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 13.7,
+     "atPct": 72
+    },
+    {
+     "id": "Y",
+     "label": "Y 炮位（单装）",
+     "cal": "4 in QF Mk V",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 13.7,
+     "atPct": 84
+    },
+    {
+     "id": "tt",
+     "label": "四联装 21 英寸鱼雷发射管",
+     "cal": "21 in Mk IX",
+     "kind": "torpedo",
+     "mounts": 2,
+     "perMount": 4,
+     "rangeKm": 11,
+     "atPct": 57
+    },
+    {
+     "id": "aa",
+     "label": "0.5 英寸维克斯四联高射机枪",
+     "cal": "0.5 in Vickers Mk III",
+     "kind": "aa",
+     "mounts": 2,
+     "perMount": 4,
+     "rangeKm": 1.8,
+     "atPct": 45
+    }
+   ]
+  },
+  "history": "5 月 27 日夜与伍尔弗欣德号一起护送两艘拖网渔船返航，此后持续往返运送部队；28 日在敦刻尔克被水下残骸打坏螺旋桨。",
+  "track": [
+   {
+    "at": "1940-05-27T20:00",
+    "pos": "@dover",
+    "course": 96,
+    "speedKn": 18
+   },
+   {
+    "at": "1940-05-27T22:03",
+    "pos": "@dunkirk_roads",
+    "course": 96,
+    "speedKn": 18
+   },
+   {
+    "at": "1940-05-28T01:43",
+    "pos": "@dunkirk_roads",
+    "course": 276,
+    "speedKn": 18
+   },
+   {
+    "at": "1940-05-28T08:00",
+    "pos": "@dover",
+    "course": 275,
+    "speedKn": 18
+   },
+   {
+    "at": "1940-05-29T19:00",
+    "pos": "@dover",
+    "course": 96,
+    "speedKn": 18
+   },
+   {
+    "at": "1940-05-29T21:03",
+    "pos": "@dunkirk_roads",
+    "course": 96,
+    "speedKn": 18
+   },
+   {
+    "at": "1940-05-30T00:43",
+    "pos": "@dunkirk_roads",
+    "course": 276,
+    "speedKn": 18
+   },
+   {
+    "at": "1940-05-30T07:00",
+    "pos": "@dover",
+    "course": 275,
+    "speedKn": 18,
+    "status": "active",
+    "note": "螺旋桨被残骸打坏"
+   }
+  ],
+  "sources": [
+   "national_archives_dynamo",
+   "dynamo_despatch",
+   "wiki_ships_dunkirk"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "side": "GB",
+  "echelon": "ship",
+  "type": "naval",
+  "parent": "gb.dover_cmd",
+  "id": "gb.whitshed",
+  "name": {
+   "zh": "惠特谢德号",
+   "orig": "HMS Whitshed",
+   "short": "Whitshed"
+  },
+  "strength": {
+   "men": 134
+  },
+  "equipment": [
+   {
+    "id": "ship_destroyer",
+    "count": 1
+   }
+  ],
+  "ship": {
+   "kind": "destroyer",
+   "class": {
+    "zh": "V&W 级（1918 年改装 W 级）驱逐舰",
+    "orig": "Modified W-class destroyer"
+   },
+   "lengthM": 95.1,
+   "beamM": 8.15,
+   "tonnage": 1140,
+   "tonnageKind": "std",
+   "maxKn": 34,
+   "crew": 134,
+   "pennant": "D77",
+   "silhouette": "destroyer",
+   "weapons": [
+    {
+     "id": "A",
+     "label": "A 炮位（单装）",
+     "cal": "4.7 in QF Mk IX",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 15.5,
+     "atPct": 16
+    },
+    {
+     "id": "B",
+     "label": "B 炮位（单装）",
+     "cal": "4.7 in QF Mk IX",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 15.5,
+     "atPct": 26
+    },
+    {
+     "id": "X",
+     "label": "X 炮位（单装）",
+     "cal": "4.7 in QF Mk IX",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 15.5,
+     "atPct": 72
+    },
+    {
+     "id": "Y",
+     "label": "Y 炮位（单装）",
+     "cal": "4.7 in QF Mk IX",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 15.5,
+     "atPct": 84
+    },
+    {
+     "id": "tt",
+     "label": "四联装 21 英寸鱼雷发射管",
+     "cal": "21 in Mk IX",
+     "kind": "torpedo",
+     "mounts": 2,
+     "perMount": 4,
+     "rangeKm": 11,
+     "atPct": 57
+    },
+    {
+     "id": "aa",
+     "label": "0.5 英寸维克斯四联高射机枪",
+     "cal": "0.5 in Vickers Mk III",
+     "kind": "aa",
+     "mounts": 2,
+     "perMount": 4,
+     "rangeKm": 1.8,
+     "atPct": 45
+    }
+   ]
+  },
+  "history": "第 9 驱逐舰分队的老舰，5 月末投入撤离，在多佛与敦刻尔克之间往返运送部队与伤员。",
+  "track": [
+   {
+    "at": "1940-05-28T20:00",
+    "pos": "@dover",
+    "course": 96,
+    "speedKn": 18
+   },
+   {
+    "at": "1940-05-28T22:03",
+    "pos": "@dunkirk_roads",
+    "course": 96,
+    "speedKn": 18
+   },
+   {
+    "at": "1940-05-29T01:23",
+    "pos": "@dunkirk_roads",
+    "course": 276,
+    "speedKn": 18
+   },
+   {
+    "at": "1940-05-29T09:00",
+    "pos": "@dover",
+    "course": 275,
+    "speedKn": 18
+   },
+   {
+    "at": "1940-05-31T20:00",
+    "pos": "@dover",
+    "course": 96,
+    "speedKn": 18
+   },
+   {
+    "at": "1940-05-31T22:03",
+    "pos": "@dunkirk_roads",
+    "course": 96,
+    "speedKn": 18
+   },
+   {
+    "at": "1940-06-01T01:43",
+    "pos": "@dunkirk_roads",
+    "course": 276,
+    "speedKn": 18
+   },
+   {
+    "at": "1940-06-01T09:00",
+    "pos": "@dover",
+    "course": 275,
+    "speedKn": 18,
+    "status": "active"
+   }
+  ],
+  "sources": [
+   "national_archives_dynamo",
+   "dynamo_despatch"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "side": "GB",
+  "echelon": "ship",
+  "type": "naval",
+  "parent": "gb.dover_cmd",
+  "id": "gb.sabre",
+  "name": {
+   "zh": "萨布尔号",
+   "orig": "HMS Sabre",
+   "short": "Sabre"
+  },
+  "strength": {
+   "men": 90
+  },
+  "equipment": [
+   {
+    "id": "ship_destroyer",
+    "count": 1
+   }
+  ],
+  "ship": {
+   "kind": "destroyer",
+   "class": {
+    "zh": "海军部 S 级驱逐舰",
+    "orig": "Admiralty S-class destroyer"
+   },
+   "lengthM": 84.1,
+   "beamM": 7.9,
+   "tonnage": 1075,
+   "tonnageKind": "std",
+   "maxKn": 36,
+   "crew": 90,
+   "pennant": "D63",
+   "silhouette": "destroyer",
+   "weapons": [
+    {
+     "id": "A",
+     "label": "A 炮位（单装）",
+     "cal": "4 in QF Mk IV",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 13.7,
+     "atPct": 15
+    },
+    {
+     "id": "B",
+     "label": "B 炮位（单装）",
+     "cal": "4 in QF Mk IV",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 13.7,
+     "atPct": 25
+    },
+    {
+     "id": "Y",
+     "label": "Y 炮位（单装）",
+     "cal": "4 in QF Mk IV",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 13.7,
+     "atPct": 84
+    },
+    {
+     "id": "tt",
+     "label": "四联装 21 英寸鱼雷发射管",
+     "cal": "21 in Mk IX",
+     "kind": "torpedo",
+     "mounts": 2,
+     "perMount": 4,
+     "rangeKm": 11,
+     "atPct": 57
+    },
+    {
+     "id": "aa",
+     "label": "0.5 英寸维克斯四联高射机枪",
+     "cal": "0.5 in Vickers Mk III",
+     "kind": "aa",
+     "mounts": 2,
+     "perMount": 4,
+     "rangeKm": 1.8,
+     "atPct": 45
+    }
+   ]
+  },
+  "history": "5 月 27 日起加入撤离。6 月 1 日从东防波堤一次运出 500 人，是当日白天少数仍能靠泊装载的老舰之一。",
+  "track": [
+   {
+    "at": "1940-05-28T19:00",
+    "pos": "@dover",
+    "course": 96,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-05-28T21:01",
+    "pos": "@east_mole",
+    "course": 96,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-05-29T00:21",
+    "pos": "@east_mole",
+    "course": 277,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-05-29T08:00",
+    "pos": "@dover",
+    "course": 275,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-06-01T02:00",
+    "pos": "@dover",
+    "course": 96,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-06-01T04:01",
+    "pos": "@east_mole",
+    "course": 96,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-06-01T06:41",
+    "pos": "@east_mole",
+    "course": 277,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-06-01T09:00",
+    "pos": "@dover",
+    "course": 275,
+    "speedKn": 20,
+    "status": "active",
+    "note": "6 月 1 日一次运出 500 人"
+   }
+  ],
+  "sources": [
+   "national_archives_dynamo",
+   "dynamo_despatch"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "side": "GB",
+  "echelon": "ship",
+  "type": "naval",
+  "parent": "gb.dover_cmd",
+  "id": "gb.venomous",
+  "name": {
+   "zh": "维诺莫斯号",
+   "orig": "HMS Venomous",
+   "short": "Venomous"
+  },
+  "strength": {
+   "men": 90
+  },
+  "equipment": [
+   {
+    "id": "ship_destroyer",
+    "count": 1
+   }
+  ],
+  "ship": {
+   "kind": "destroyer",
+   "class": {
+    "zh": "V&W 级驱逐舰",
+    "orig": "V and W-class destroyer"
+   },
+   "lengthM": 95.1,
+   "beamM": 8.15,
+   "tonnage": 1100,
+   "tonnageKind": "std",
+   "maxKn": 34,
+   "crew": 134,
+   "pennant": "D75",
+   "silhouette": "destroyer",
+   "weapons": [
+    {
+     "id": "A",
+     "label": "A 炮位（单装）",
+     "cal": "4 in QF Mk V",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 13.7,
+     "atPct": 16
+    },
+    {
+     "id": "B",
+     "label": "B 炮位（单装）",
+     "cal": "4 in QF Mk V",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 13.7,
+     "atPct": 26
+    },
+    {
+     "id": "X",
+     "label": "X 炮位（单装）",
+     "cal": "4 in QF Mk V",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 13.7,
+     "atPct": 72
+    },
+    {
+     "id": "Y",
+     "label": "Y 炮位（单装）",
+     "cal": "4 in QF Mk V",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 13.7,
+     "atPct": 84
+    },
+    {
+     "id": "tt",
+     "label": "四联装 21 英寸鱼雷发射管",
+     "cal": "21 in Mk IX",
+     "kind": "torpedo",
+     "mounts": 2,
+     "perMount": 4,
+     "rangeKm": 11,
+     "atPct": 57
+    },
+    {
+     "id": "aa",
+     "label": "0.5 英寸维克斯四联高射机枪",
+     "cal": "0.5 in Vickers Mk III",
+     "kind": "aa",
+     "mounts": 2,
+     "perMount": 4,
+     "rangeKm": 1.8,
+     "atPct": 45
+    }
+   ]
+  },
+  "history": "5 月末投入撤离，负责运送部队与在东防波堤泊位之间调度小艇；6 月 2—3 日夜航阶段仍往返渡海。",
+  "track": [
+   {
+    "at": "1940-05-29T20:00",
+    "pos": "@dover",
+    "course": 96,
+    "speedKn": 18
+   },
+   {
+    "at": "1940-05-29T22:03",
+    "pos": "@dunkirk_roads",
+    "course": 96,
+    "speedKn": 18
+   },
+   {
+    "at": "1940-05-30T01:23",
+    "pos": "@dunkirk_roads",
+    "course": 276,
+    "speedKn": 18
+   },
+   {
+    "at": "1940-05-30T09:00",
+    "pos": "@dover",
+    "course": 275,
+    "speedKn": 18
+   },
+   {
+    "at": "1940-06-02T20:00",
+    "pos": "@dover",
+    "course": 95,
+    "speedKn": 18
+   },
+   {
+    "at": "1940-06-02T22:10",
+    "pos": "@east_mole",
+    "course": 95,
+    "speedKn": 18
+   },
+   {
+    "at": "1940-06-03T02:00",
+    "pos": "@dover",
+    "course": 275,
+    "speedKn": 18,
+    "status": "active"
+   }
+  ],
+  "sources": [
+   "national_archives_dynamo",
+   "dynamo_despatch"
+  ],
+  "confidence": "low"
+ },
+ {
+  "side": "GB",
+  "echelon": "ship",
+  "type": "naval",
+  "parent": "gb.dover_cmd",
+  "id": "gb.mackay",
+  "name": {
+   "zh": "麦凯号",
+   "orig": "HMS Mackay",
+   "short": "Mackay"
+  },
+  "strength": {
+   "men": 164
+  },
+  "ship": {
+   "kind": "destroyer",
+   "class": {
+    "zh": "斯科特级驱逐舰分队领舰",
+    "orig": "Scott-class flotilla leader"
+   },
+   "lengthM": 101.3,
+   "beamM": 9.68,
+   "tonnage": 1801,
+   "tonnageKind": "std",
+   "maxKn": 36,
+   "crew": 164,
+   "pennant": "D70",
+   "silhouette": "destroyer",
+   "weapons": [
+    {
+     "id": "A",
+     "label": "A 炮位（单装）",
+     "cal": "4.7 in QF Mk IX",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 15.5,
+     "atPct": 16
+    },
+    {
+     "id": "B",
+     "label": "B 炮位（单装）",
+     "cal": "4.7 in QF Mk IX",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 15.5,
+     "atPct": 26
+    },
+    {
+     "id": "X",
+     "label": "X 炮位（单装）",
+     "cal": "4.7 in QF Mk IX",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 15.5,
+     "atPct": 72
+    },
+    {
+     "id": "Y",
+     "label": "Y 炮位（单装）",
+     "cal": "4.7 in QF Mk IX",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 15.5,
+     "atPct": 84
+    },
+    {
+     "id": "tt",
+     "label": "四联装 21 英寸鱼雷发射管",
+     "cal": "21 in Mk IX",
+     "kind": "torpedo",
+     "mounts": 2,
+     "perMount": 4,
+     "rangeKm": 11,
+     "atPct": 57
+    },
+    {
+     "id": "aa",
+     "label": "0.5 英寸维克斯四联高射机枪",
+     "cal": "0.5 in Vickers Mk III",
+     "kind": "aa",
+     "mounts": 2,
+     "perMount": 4,
+     "rangeKm": 1.8,
+     "atPct": 45
+    }
+   ]
+  },
+  "history": "5 月 28 日 01:36 在驶往布雷迪讷途中于祖伊德科特水道搁浅，螺旋桨严重受损，趁高潮自行脱浅后返回希尔内斯，未能参加当日撤离。",
+  "track": [
+   {
+    "at": "1940-05-27T23:30",
+    "pos": "@dover",
+    "course": 95,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-05-28T01:36",
+    "pos": "@zuydcoote",
+    "course": 95,
+    "speedKn": 12,
+    "status": "engaged",
+    "note": "在祖伊德科特水道搁浅，螺旋桨受损"
+   },
+   {
+    "at": "1940-05-28T04:00",
+    "pos": "@sheerness",
+    "course": 275,
+    "speedKn": 8,
+    "status": "active",
+    "note": "高潮脱浅后返回希尔内斯，30 日进泰晤士河坞修"
+   }
+  ],
+  "sources": [
+   "national_archives_dynamo",
+   "dynamo_despatch"
+  ],
+  "confidence": "high"
+ },
+ {
+  "side": "GB",
+  "echelon": "ship",
+  "type": "naval",
+  "parent": "gb.dover_cmd",
+  "id": "gb.montrose",
+  "name": {
+   "zh": "蒙特罗斯号",
+   "orig": "HMS Montrose",
+   "short": "Montrose"
+  },
+  "strength": {
+   "men": 164
+  },
+  "ship": {
+   "kind": "destroyer",
+   "class": {
+    "zh": "斯科特级驱逐舰分队领舰",
+    "orig": "Scott-class flotilla leader"
+   },
+   "lengthM": 101.3,
+   "beamM": 9.68,
+   "tonnage": 1801,
+   "tonnageKind": "std",
+   "maxKn": 36,
+   "crew": 164,
+   "pennant": "D01",
+   "silhouette": "destroyer",
+   "weapons": [
+    {
+     "id": "A",
+     "label": "A 炮位（单装）",
+     "cal": "4.7 in QF Mk IX",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 15.5,
+     "atPct": 16
+    },
+    {
+     "id": "B",
+     "label": "B 炮位（单装）",
+     "cal": "4.7 in QF Mk IX",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 15.5,
+     "atPct": 26
+    },
+    {
+     "id": "X",
+     "label": "X 炮位（单装）",
+     "cal": "4.7 in QF Mk IX",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 15.5,
+     "atPct": 72
+    },
+    {
+     "id": "Y",
+     "label": "Y 炮位（单装）",
+     "cal": "4.7 in QF Mk IX",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 15.5,
+     "atPct": 84
+    },
+    {
+     "id": "tt",
+     "label": "四联装 21 英寸鱼雷发射管",
+     "cal": "21 in Mk IX",
+     "kind": "torpedo",
+     "mounts": 2,
+     "perMount": 4,
+     "rangeKm": 11,
+     "atPct": 57
+    },
+    {
+     "id": "aa",
+     "label": "0.5 英寸维克斯四联高射机枪",
+     "cal": "0.5 in Vickers Mk III",
+     "kind": "aa",
+     "mounts": 2,
+     "perMount": 4,
+     "rangeKm": 1.8,
+     "atPct": 45
+    }
+   ]
+  },
+  "history": "5 月 28 日抵达多佛投入撤离。29 日在格里内角外海被空袭与岸炮重创，舰艏严重受损、舰体折断十余英尺，由拖船「布拉西夫人」号与西姆拉号倒拖回多佛，随后进泰晤士河坞修。",
+  "track": [
+   {
+    "at": "1940-05-28T18:00",
+    "pos": "@dover",
+    "course": 96,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-05-28T19:51",
+    "pos": "@dunkirk_roads",
+    "course": 96,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-05-28T23:11",
+    "pos": "@dunkirk_roads",
+    "course": 276,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-05-29T09:00",
+    "pos": "@cap_gris_nez",
+    "course": 60,
+    "speedKn": 6,
+    "status": "active",
+    "note": "在格里内角外海被重创，舰艏损毁，由拖船倒拖回多佛"
+   }
+  ],
+  "sources": [
+   "national_archives_dynamo",
+   "dynamo_despatch"
+  ],
+  "confidence": "high"
+ },
+ {
+  "side": "GB",
+  "echelon": "ship",
+  "type": "naval",
+  "parent": "gb.dover_cmd",
+  "id": "gb.vimy",
+  "name": {
+   "zh": "维米号",
+   "orig": "HMS Vimy",
+   "short": "Vimy"
+  },
+  "strength": {
+   "men": 134
+  },
+  "equipment": [
+   {
+    "id": "ship_destroyer",
+    "count": 1
+   }
+  ],
+  "ship": {
+   "kind": "destroyer",
+   "class": {
+    "zh": "V 级驱逐舰（分队领舰）",
+    "orig": "V-class destroyer (leader)"
+   },
+   "lengthM": 95.1,
+   "beamM": 8.15,
+   "tonnage": 1325,
+   "tonnageKind": "std",
+   "maxKn": 34,
+   "crew": 134,
+   "pennant": "D33",
+   "silhouette": "destroyer",
+   "weapons": [
+    {
+     "id": "A",
+     "label": "A 炮位（单装）",
+     "cal": "4 in QF Mk V",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 13.7,
+     "atPct": 16
+    },
+    {
+     "id": "B",
+     "label": "B 炮位（单装）",
+     "cal": "4 in QF Mk V",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 13.7,
+     "atPct": 26
+    },
+    {
+     "id": "X",
+     "label": "X 炮位（单装）",
+     "cal": "4 in QF Mk V",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 13.7,
+     "atPct": 72
+    },
+    {
+     "id": "Y",
+     "label": "Y 炮位（单装）",
+     "cal": "4 in QF Mk V",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 13.7,
+     "atPct": 84
+    },
+    {
+     "id": "tt",
+     "label": "四联装 21 英寸鱼雷发射管",
+     "cal": "21 in Mk IX",
+     "kind": "torpedo",
+     "mounts": 2,
+     "perMount": 4,
+     "rangeKm": 11,
+     "atPct": 57
+    },
+    {
+     "id": "aa",
+     "label": "0.5 英寸维克斯四联高射机枪",
+     "cal": "0.5 in Vickers Mk III",
+     "kind": "aa",
+     "mounts": 2,
+     "perMount": 4,
+     "rangeKm": 1.8,
+     "atPct": 45
+    }
+   ]
+  },
+  "history": "5 月 27 日随舰队在敦刻尔克外海作业，此后多次渡海运送部队，是撤离舰队中最资深的舰只之一。",
+  "track": [
+   {
+    "at": "1940-05-27T21:00",
+    "pos": "@dover",
+    "course": 96,
+    "speedKn": 18
+   },
+   {
+    "at": "1940-05-27T23:03",
+    "pos": "@dunkirk_roads",
+    "course": 96,
+    "speedKn": 18
+   },
+   {
+    "at": "1940-05-28T02:43",
+    "pos": "@dunkirk_roads",
+    "course": 276,
+    "speedKn": 18
+   },
+   {
+    "at": "1940-05-28T09:00",
+    "pos": "@dover",
+    "course": 275,
+    "speedKn": 18
+   },
+   {
+    "at": "1940-05-30T19:00",
+    "pos": "@dover",
+    "course": 96,
+    "speedKn": 18
+   },
+   {
+    "at": "1940-05-30T21:03",
+    "pos": "@dunkirk_roads",
+    "course": 96,
+    "speedKn": 18
+   },
+   {
+    "at": "1940-05-31T01:03",
+    "pos": "@dunkirk_roads",
+    "course": 276,
+    "speedKn": 18
+   },
+   {
+    "at": "1940-05-31T08:00",
+    "pos": "@dover",
+    "course": 275,
+    "speedKn": 18,
+    "status": "active"
+   }
+  ],
+  "sources": [
+   "national_archives_dynamo",
+   "dynamo_despatch"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "side": "GB",
+  "echelon": "ship",
+  "type": "naval",
+  "parent": "gb.dover_cmd",
+  "id": "gb.vega",
+  "name": {
+   "zh": "维加号",
+   "orig": "HMS Vega",
+   "short": "Vega"
+  },
+  "strength": {
+   "men": 134
+  },
+  "equipment": [
+   {
+    "id": "ship_destroyer",
+    "count": 1
+   }
+  ],
+  "ship": {
+   "kind": "destroyer",
+   "class": {
+    "zh": "V 级驱逐舰",
+    "orig": "V-class destroyer"
+   },
+   "lengthM": 95.1,
+   "beamM": 8.15,
+   "tonnage": 1100,
+   "tonnageKind": "std",
+   "maxKn": 34,
+   "crew": 134,
+   "pennant": "L41",
+   "silhouette": "destroyer",
+   "weapons": [
+    {
+     "id": "A",
+     "label": "A 炮位（单装）",
+     "cal": "4 in QF Mk V",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 13.7,
+     "atPct": 16
+    },
+    {
+     "id": "B",
+     "label": "B 炮位（单装）",
+     "cal": "4 in QF Mk V",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 13.7,
+     "atPct": 26
+    },
+    {
+     "id": "X",
+     "label": "X 炮位（单装）",
+     "cal": "4 in QF Mk V",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 13.7,
+     "atPct": 72
+    },
+    {
+     "id": "Y",
+     "label": "Y 炮位（单装）",
+     "cal": "4 in QF Mk V",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 13.7,
+     "atPct": 84
+    },
+    {
+     "id": "tt",
+     "label": "四联装 21 英寸鱼雷发射管",
+     "cal": "21 in Mk IX",
+     "kind": "torpedo",
+     "mounts": 2,
+     "perMount": 4,
+     "rangeKm": 11,
+     "atPct": 57
+    },
+    {
+     "id": "aa",
+     "label": "0.5 英寸维克斯四联高射机枪",
+     "cal": "0.5 in Vickers Mk III",
+     "kind": "aa",
+     "mounts": 2,
+     "perMount": 4,
+     "rangeKm": 1.8,
+     "atPct": 45
+    }
+   ]
+  },
+  "history": "5 月 28 日起投入撤离运输，主要在夜间渡海，白天隐蔽在唐斯锚地。",
+  "track": [
+   {
+    "at": "1940-05-29T19:00",
+    "pos": "@dover",
+    "course": 96,
+    "speedKn": 18
+   },
+   {
+    "at": "1940-05-29T21:03",
+    "pos": "@dunkirk_roads",
+    "course": 96,
+    "speedKn": 18
+   },
+   {
+    "at": "1940-05-30T00:23",
+    "pos": "@dunkirk_roads",
+    "course": 276,
+    "speedKn": 18
+   },
+   {
+    "at": "1940-05-30T08:00",
+    "pos": "@the_downs",
+    "course": 275,
+    "speedKn": 18
+   },
+   {
+    "at": "1940-05-31T20:00",
+    "pos": "@the_downs",
+    "course": 95,
+    "speedKn": 18
+   },
+   {
+    "at": "1940-05-31T22:00",
+    "pos": "@dunkirk_roads",
+    "course": 95,
+    "speedKn": 18
+   },
+   {
+    "at": "1940-06-01T04:00",
+    "pos": "@the_downs",
+    "course": 275,
+    "speedKn": 18,
+    "status": "active"
+   }
+  ],
+  "sources": [
+   "national_archives_dynamo",
+   "dynamo_despatch"
+  ],
+  "confidence": "low"
+ },
+ {
+  "side": "GB",
+  "echelon": "ship",
+  "type": "naval",
+  "parent": "gb.dover_cmd",
+  "id": "gb.windsor",
+  "name": {
+   "zh": "温莎号",
+   "orig": "HMS Windsor",
+   "short": "Windsor"
+  },
+  "strength": {
+   "men": 134
+  },
+  "equipment": [
+   {
+    "id": "ship_destroyer",
+    "count": 1
+   }
+  ],
+  "ship": {
+   "kind": "destroyer",
+   "class": {
+    "zh": "V&W 级（1918 年改装 W 级）驱逐舰",
+    "orig": "Modified W-class destroyer"
+   },
+   "lengthM": 95.1,
+   "beamM": 8.15,
+   "tonnage": 1140,
+   "tonnageKind": "std",
+   "maxKn": 34,
+   "crew": 134,
+   "pennant": "L94",
+   "silhouette": "destroyer",
+   "weapons": [
+    {
+     "id": "A",
+     "label": "A 炮位（单装）",
+     "cal": "4.7 in QF Mk IX",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 15.5,
+     "atPct": 16
+    },
+    {
+     "id": "B",
+     "label": "B 炮位（单装）",
+     "cal": "4.7 in QF Mk IX",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 15.5,
+     "atPct": 26
+    },
+    {
+     "id": "X",
+     "label": "X 炮位（单装）",
+     "cal": "4.7 in QF Mk IX",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 15.5,
+     "atPct": 72
+    },
+    {
+     "id": "Y",
+     "label": "Y 炮位（单装）",
+     "cal": "4.7 in QF Mk IX",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 15.5,
+     "atPct": 84
+    },
+    {
+     "id": "tt",
+     "label": "四联装 21 英寸鱼雷发射管",
+     "cal": "21 in Mk IX",
+     "kind": "torpedo",
+     "mounts": 2,
+     "perMount": 4,
+     "rangeKm": 11,
+     "atPct": 57
+    },
+    {
+     "id": "aa",
+     "label": "0.5 英寸维克斯四联高射机枪",
+     "cal": "0.5 in Vickers Mk III",
+     "kind": "aa",
+     "mounts": 2,
+     "perMount": 4,
+     "rangeKm": 1.8,
+     "atPct": 45
+    }
+   ]
+  },
+  "history": "5 月 27 日护送被炸伤的武装巡逻船「莫纳岛」号返航多佛，此后持续往返接送部队，直到 6 月 3 日夜仍在航道护航。",
+  "track": [
+   {
+    "at": "1940-05-27T22:00",
+    "pos": "@dover",
+    "course": 96,
+    "speedKn": 18
+   },
+   {
+    "at": "1940-05-28T00:03",
+    "pos": "@dunkirk_roads",
+    "course": 96,
+    "speedKn": 18
+   },
+   {
+    "at": "1940-05-28T04:03",
+    "pos": "@dunkirk_roads",
+    "course": 276,
+    "speedKn": 18
+   },
+   {
+    "at": "1940-05-28T10:00",
+    "pos": "@dover",
+    "course": 275,
+    "speedKn": 18
+   },
+   {
+    "at": "1940-05-30T20:00",
+    "pos": "@dover",
+    "course": 96,
+    "speedKn": 18
+   },
+   {
+    "at": "1940-05-30T22:03",
+    "pos": "@dunkirk_roads",
+    "course": 96,
+    "speedKn": 18
+   },
+   {
+    "at": "1940-05-31T01:43",
+    "pos": "@dunkirk_roads",
+    "course": 276,
+    "speedKn": 18
+   },
+   {
+    "at": "1940-06-01T09:00",
+    "pos": "@dover",
+    "course": 275,
+    "speedKn": 18
+   },
+   {
+    "at": "1940-06-03T20:00",
+    "pos": "@dover",
+    "course": 95,
+    "speedKn": 18
+   },
+   {
+    "at": "1940-06-03T22:10",
+    "pos": "@dunkirk_roads",
+    "course": 95,
+    "speedKn": 18
+   },
+   {
+    "at": "1940-06-04T03:00",
+    "pos": "@dover",
+    "course": 275,
+    "speedKn": 18,
+    "status": "active"
+   }
+  ],
+  "sources": [
+   "national_archives_dynamo",
+   "dynamo_despatch"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "gb.halcyon",
+  "side": "GB",
+  "echelon": "ship",
+  "type": "naval",
+  "parent": "gb.dover_cmd",
+  "name": {
+   "zh": "哈尔西恩号",
+   "orig": "HMS Halcyon",
+   "short": "Halcyon"
+  },
+  "strength": {
+   "men": 120
+  },
+  "ship": {
+   "kind": "auxiliary",
+   "class": {
+    "zh": "哈尔西恩级扫雷舰",
+    "orig": "Halcyon-class minesweeper"
+   },
+   "lengthM": 74.9,
+   "beamM": 10.3,
+   "tonnage": 815,
+   "tonnageKind": "std",
+   "maxKn": 16.5,
+   "crew": 120,
+   "pennant": "J42",
+   "silhouette": "destroyer",
+   "weapons": [
+    {
+     "id": "A",
+     "label": "前部 4 英寸高射炮",
+     "cal": "4 in QF Mk V",
+     "kind": "aa",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 9.6,
+     "atPct": 22
+    },
+    {
+     "id": "B",
+     "label": "后部 12 磅炮",
+     "cal": "12 pdr QF",
+     "kind": "secondary",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 9,
+     "atPct": 84
+    },
+    {
+     "id": "aa",
+     "label": "0.5 英寸高射机枪",
+     "cal": "0.5 in Vickers",
+     "kind": "aa",
+     "mounts": 2,
+     "perMount": 2,
+     "rangeKm": 1.8,
+     "atPct": 50
+    }
+   ]
+  },
+  "history": "5 月 27 日与斯基普杰克号一起为「X 航线」扫雷、设浮标，此后往返于拉帕讷与敦刻尔克之间，用小艇把士兵从海滩摆渡上大船。扫雷舰吃水浅、抗沉性好，是三条航线上最不起眼也最不可缺少的一环。",
+  "equipment": [
+   {
+    "id": "ship_minesweeper",
+    "count": 1
+   }
+  ],
+  "track": [
+   {
+    "at": "1940-05-27T06:00",
+    "pos": "@dover",
+    "course": 93,
+    "speedKn": 12
+   },
+   {
+    "at": "1940-05-27T08:47",
+    "pos": "@ruytingen_bank",
+    "course": 93,
+    "speedKn": 12
+   },
+   {
+    "at": "1940-05-27T11:47",
+    "pos": "@ruytingen_bank",
+    "course": 273,
+    "speedKn": 12
+   },
+   {
+    "at": "1940-05-28T04:00",
+    "pos": "@dover",
+    "course": 275,
+    "speedKn": 12
+   },
+   {
+    "at": "1940-05-28T20:00",
+    "pos": "@dover",
+    "course": 92,
+    "speedKn": 12
+   },
+   {
+    "at": "1940-05-29T00:01",
+    "pos": "@la_panne",
+    "course": 92,
+    "speedKn": 12
+   },
+   {
+    "at": "1940-05-29T04:21",
+    "pos": "@la_panne",
+    "course": 273,
+    "speedKn": 12
+   },
+   {
+    "at": "1940-05-29T10:00",
+    "pos": "@dover",
+    "course": 275,
+    "speedKn": 12
+   },
+   {
+    "at": "1940-05-31T19:00",
+    "pos": "@dover",
+    "course": 96,
+    "speedKn": 12
+   },
+   {
+    "at": "1940-05-31T22:05",
+    "pos": "@dunkirk_roads",
+    "course": 96,
+    "speedKn": 12
+   },
+   {
+    "at": "1940-06-01T03:05",
+    "pos": "@dunkirk_roads",
+    "course": 276,
+    "speedKn": 12
+   },
+   {
+    "at": "1940-06-01T10:00",
+    "pos": "@dover",
+    "course": 275,
+    "speedKn": 12
+   },
+   {
+    "at": "1940-06-03T19:00",
+    "pos": "@dover",
+    "course": 95,
+    "speedKn": 12
+   },
+   {
+    "at": "1940-06-03T23:00",
+    "pos": "@dunkirk_roads",
+    "course": 95,
+    "speedKn": 12
+   },
+   {
+    "at": "1940-06-04T04:00",
+    "pos": "@dover",
+    "course": 275,
+    "speedKn": 12,
+    "status": "active",
+    "note": "6 月 4 日凌晨随最后一批船返回多佛"
+   }
+  ],
+  "sources": [
+   "national_archives_dynamo",
+   "dynamo_despatch",
+   "coastal_forces"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "gb.sutton",
+  "side": "GB",
+  "echelon": "ship",
+  "type": "naval",
+  "parent": "gb.dover_cmd",
+  "name": {
+   "zh": "萨顿号",
+   "orig": "HMS Sutton",
+   "short": "Sutton"
+  },
+  "strength": {
+   "men": 60
+  },
+  "ship": {
+   "kind": "tug",
+   "class": {
+    "zh": "港口拖船（租用）",
+    "orig": "Harbour tug"
+   },
+   "lengthM": 43,
+   "beamM": 10.4,
+   "tonnage": 700,
+   "tonnageKind": "grt",
+   "maxKn": 11,
+   "crew": 25,
+   "silhouette": "tug",
+   "weapons": [
+    {
+     "id": "aa",
+     "label": "应急防空机枪",
+     "cal": "0.303 in Lewis",
+     "kind": "aa",
+     "mounts": 1,
+     "perMount": 2,
+     "rangeKm": 1.2,
+     "atPct": 50
+    }
+   ]
+  },
+  "history": "多佛的港口拖船。5 月 28—29 日与扫雷舰「火蜥蜴」号一起把 1,856 人从拉帕讷海滩摆渡到防空巡洋舰加尔各答号上；此后一直往返于海滩与大船之间，把满载的驳船与小艇拖回航道。",
+  "equipment": [
+   {
+    "id": "ship_tug",
+    "count": 1
+   }
+  ],
+  "track": [
+   {
+    "at": "1940-05-28T19:00",
+    "pos": "@dover",
+    "course": 92,
+    "speedKn": 10
+   },
+   {
+    "at": "1940-05-28T23:49",
+    "pos": "@la_panne",
+    "course": 92,
+    "speedKn": 10
+   },
+   {
+    "at": "1940-05-29T04:49",
+    "pos": "@la_panne",
+    "course": 273,
+    "speedKn": 10
+   },
+   {
+    "at": "1940-05-29T11:00",
+    "pos": "@dover",
+    "course": 275,
+    "speedKn": 10
+   },
+   {
+    "at": "1940-05-29T19:00",
+    "pos": "@la_panne",
+    "course": 95,
+    "speedKn": 10
+   },
+   {
+    "at": "1940-05-30T04:00",
+    "pos": "@la_panne",
+    "course": 275,
+    "speedKn": 10
+   },
+   {
+    "at": "1940-05-30T16:00",
+    "pos": "@dover",
+    "course": 275,
+    "speedKn": 10
+   },
+   {
+    "at": "1940-06-01T18:00",
+    "pos": "@dover",
+    "course": 95,
+    "speedKn": 10
+   },
+   {
+    "at": "1940-06-02T01:00",
+    "pos": "@dunkirk_roads",
+    "course": 95,
+    "speedKn": 10
+   },
+   {
+    "at": "1940-06-02T14:00",
+    "pos": "@dover",
+    "course": 275,
+    "speedKn": 10,
+    "status": "active"
+   }
+  ],
+  "sources": [
+   "national_archives_dynamo",
+   "coastal_forces",
+   "dynamo_despatch"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "gb.massey_shaw",
+  "side": "GB",
+  "echelon": "ship",
+  "type": "naval",
+  "parent": "gb.dover_cmd",
+  "name": {
+   "zh": "马西·肖号",
+   "orig": "Massey Shaw",
+   "short": "Massey Shaw"
+  },
+  "strength": {
+   "men": 12
+  },
+  "ship": {
+   "kind": "auxiliary",
+   "class": {
+    "zh": "伦敦消防局消防船",
+    "orig": "London Fire Brigade fire float"
+   },
+   "lengthM": 24.4,
+   "beamM": 5.5,
+   "tonnage": 50,
+   "tonnageKind": "grt",
+   "maxKn": 12,
+   "crew": 12,
+   "silhouette": "boat",
+   "weapons": [
+    {
+     "id": "aa",
+     "label": "应急防空机枪",
+     "cal": "0.303 in Lewis",
+     "kind": "aa",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 1.2,
+     "atPct": 45
+    }
+   ]
+  },
+  "history": "泰晤士河上的消防船，5 月 30 日由伦敦消防局志愿船员驾往敦刻尔克，与另一艘消防船一起在海滩外运送士兵，并扑救被炸起火的船只。",
+  "track": [
+   {
+    "at": "1940-05-30T06:00",
+    "pos": "@sheerness",
+    "course": 95,
+    "speedKn": 10
+   },
+   {
+    "at": "1940-05-30T18:00",
+    "pos": "@dunkirk_roads",
+    "course": 95,
+    "speedKn": 10
+   },
+   {
+    "at": "1940-05-31T06:00",
+    "pos": "@dunkirk_roads",
+    "course": 275,
+    "speedKn": 10
+   },
+   {
+    "at": "1940-05-31T18:00",
+    "pos": "@sheerness",
+    "course": 275,
+    "speedKn": 10,
+    "status": "active"
+   }
+  ],
+  "sources": [
+   "adls_register",
+   "divine_1940"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "side": "GB",
+  "echelon": "ship",
+  "type": "naval",
+  "parent": "gb.dover_cmd",
+  "id": "gb.mona_queen",
+  "name": {
+   "zh": "莫纳女王号",
+   "orig": "TSS Mona's Queen",
+   "short": "Mona's Q"
+  },
+  "strength": {
+   "men": 83
+  },
+  "ship": {
+   "kind": "liner",
+   "class": {
+    "zh": "马恩岛邮船公司班轮（1934 年）",
+    "orig": "Isle of Man Steam Packet Company steamer"
+   },
+   "lengthM": 105.8,
+   "beamM": 14.6,
+   "tonnage": 2756,
+   "tonnageKind": "grt",
+   "maxKn": 22,
+   "crew": 83,
+   "silhouette": "liner",
+   "weapons": [
+    {
+     "id": "aa",
+     "label": "应急防空机枪",
+     "cal": "0.303 in Lewis",
+     "kind": "aa",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 1.2,
+     "atPct": 55
+    }
+   ]
+  },
+  "history": "马恩岛邮船公司 1934 年建造的班轮，可载 2,486 人。5 月 27 日夜首航即带回 1,200 人；5 月 29 日它满载淡水水罐去给缺水的海滩部队送水，在防波堤东侧半海里处触发磁性水雷，两分钟内沉没，26 人丧生，幸存者由驱逐舰万基舍尔号救起运回多佛。",
+  "track": [
+   {
+    "at": "1940-05-28T18:00",
+    "pos": "@dover",
+    "course": 95,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-05-28T20:30",
+    "pos": "@dunkirk_roads",
+    "course": 95,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-05-29T09:48",
+    "pos": "@dover",
+    "course": 95,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-05-29T12:20",
+    "pos": "@dunkirk_roads",
+    "course": 95,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-05-29T15:30",
+    "pos": "@east_mole",
+    "course": 95,
+    "speedKn": 6,
+    "status": "engaged",
+    "note": "在防波堤外装载部队"
+   },
+   {
+    "at": "1940-05-29T17:40",
+    "pos": [
+     2.383,
+     51.05
+    ],
+    "course": 275,
+    "speedKn": 8,
+    "status": "destroyed",
+    "note": "在防波堤东侧半海里触雷沉没，26 人丧生"
+   }
+  ],
+  "sources": [
+   "national_archives_dynamo",
+   "wiki_ships_dunkirk",
+   "admiralty_losses_1947",
+   "adls_register"
+  ],
+  "confidence": "high"
+ },
+ {
+  "side": "GB",
+  "echelon": "ship",
+  "type": "naval",
+  "parent": "gb.dover_cmd",
+  "id": "gb.lady_of_mann",
+  "name": {
+   "zh": "曼岛之女号",
+   "orig": "RMS Lady of Mann",
+   "short": "Lady of Mann"
+  },
+  "strength": {
+   "men": 90
+  },
+  "ship": {
+   "kind": "liner",
+   "class": {
+    "zh": "马恩岛邮船公司班轮（1930 年）",
+    "orig": "Isle of Man Steam Packet Company steamer"
+   },
+   "lengthM": 107.4,
+   "beamM": 14.9,
+   "tonnage": 3124,
+   "tonnageKind": "grt",
+   "maxKn": 23,
+   "crew": 90,
+   "silhouette": "liner",
+   "weapons": [
+    {
+     "id": "aa",
+     "label": "应急防空机枪",
+     "cal": "0.303 in Lewis",
+     "kind": "aa",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 1.2,
+     "atPct": 55
+    }
+   ]
+  },
+  "history": "5 月 31 日在敦刻尔克港内停留六小时，遭岸炮与轰炸仍运出 4,262 人；6 月 1 日凌晨再入港接走 1,500 名伤员，6 月 4 日凌晨 01:00 前后靠东防波堤，一个多小时装完 1,244 人离开，是撤离行动后期的功勋船之一。",
+  "track": [
+   {
+    "at": "1940-05-30T20:00",
+    "pos": "@dover",
+    "course": 95,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-05-30T22:40",
+    "pos": "@dunkirk_roads",
+    "course": 95,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-05-31T06:00",
+    "pos": "@east_mole",
+    "course": 95,
+    "speedKn": 6
+   },
+   {
+    "at": "1940-05-31T14:00",
+    "pos": "@east_mole",
+    "course": 275,
+    "speedKn": 12
+   },
+   {
+    "at": "1940-05-31T17:00",
+    "pos": "@dover",
+    "course": 275,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-06-01T00:30",
+    "pos": "@dover",
+    "course": 95,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-06-01T03:10",
+    "pos": "@east_mole",
+    "course": 95,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-06-01T09:00",
+    "pos": "@dover",
+    "course": 275,
+    "speedKn": 20,
+    "status": "active",
+    "note": "6 月 1 日凌晨接走 1,500 名伤员"
+   },
+   {
+    "at": "1940-06-03T20:30",
+    "pos": "@dover",
+    "course": 95,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-06-03T23:50",
+    "pos": "@east_mole",
+    "course": 95,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-06-04T01:20",
+    "pos": "@east_mole",
+    "course": 275,
+    "speedKn": 15
+   },
+   {
+    "at": "1940-06-04T04:00",
+    "pos": "@dover",
+    "course": 275,
+    "speedKn": 20,
+    "status": "active",
+    "note": "凌晨离港前一个多小时装完 1,244 人"
+   }
+  ],
+  "sources": [
+   "wiki_ships_dunkirk",
+   "national_archives_dynamo",
+   "admiralty_losses_1947"
+  ],
+  "confidence": "high"
+ },
+ {
+  "side": "GB",
+  "echelon": "ship",
+  "type": "naval",
+  "parent": "gb.dover_cmd",
+  "id": "gb.aden",
+  "name": {
+   "zh": "亚丁号",
+   "orig": "SS Aden",
+   "short": "Aden"
+  },
+  "strength": {
+   "men": 60
+  },
+  "ship": {
+   "kind": "merchant",
+   "class": {
+    "zh": "英印轮船公司货客船（1905 年）",
+    "orig": "British India Steam Navigation Co. steamer"
+   },
+   "lengthM": 122,
+   "beamM": 15.5,
+   "tonnage": 8033,
+   "tonnageKind": "grt",
+   "maxKn": 14,
+   "crew": 60,
+   "silhouette": "merchant",
+   "weapons": [
+    {
+     "id": "A",
+     "label": "艉部防御火炮（12 磅炮）",
+     "cal": "12 pdr QF",
+     "kind": "secondary",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 9,
+     "atPct": 88
+    },
+    {
+     "id": "aa",
+     "label": "高射机枪（刘易斯/维克斯）",
+     "cal": "0.303 in Lewis",
+     "kind": "aa",
+     "mounts": 1,
+     "perMount": 2,
+     "rangeKm": 1.5,
+     "atPct": 60
+    }
+   ]
+  },
+  "history": "8,000 吨级货客船，5 月 27 日在敦刻尔克港内被德军轰炸机（KG 54 联队）炸沉，是撤离初期损失的最大商船之一。",
+  "track": [
+   {
+    "at": "1940-05-26T18:00",
+    "pos": "@sheerness",
+    "course": 95,
+    "speedKn": 13
+   },
+   {
+    "at": "1940-05-27T04:00",
+    "pos": "@dunkirk_port",
+    "course": 95,
+    "speedKn": 13
+   },
+   {
+    "at": "1940-05-27T10:00",
+    "pos": "@dunkirk_port",
+    "course": 275,
+    "speedKn": 0,
+    "status": "destroyed",
+    "note": "在港内卸下补给后登船装载部队，被 KG 54 轰炸机炸沉"
+   }
+  ],
+  "sources": [
+   "national_archives_dynamo",
+   "admiralty_losses_1947",
+   "wiki_ships_dunkirk"
+  ],
+  "confidence": "high"
+ },
+ {
+  "side": "GB",
+  "echelon": "ship",
+  "type": "naval",
+  "parent": "gb.dover_cmd",
+  "id": "gb.cote_d_azur",
+  "name": {
+   "zh": "蔚蓝海岸号",
+   "orig": "TSS Côte d'Azur",
+   "short": "Côte d'Azur"
+  },
+  "strength": {
+   "men": 70
+  },
+  "ship": {
+   "kind": "liner",
+   "class": {
+    "zh": "南方铁路公司海峡渡轮",
+    "orig": "Southern Railway cross-Channel steamer"
+   },
+   "lengthM": 97,
+   "beamM": 12.5,
+   "tonnage": 3047,
+   "tonnageKind": "grt",
+   "maxKn": 21,
+   "crew": 70,
+   "silhouette": "liner",
+   "weapons": [
+    {
+     "id": "aa",
+     "label": "应急防空机枪",
+     "cal": "0.303 in Lewis",
+     "kind": "aa",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 1.2,
+     "atPct": 55
+    }
+   ]
+  },
+  "history": "海峡渡轮，5 月末投入运兵。5 月 30 日在敦刻尔克港外被德军俯冲轰炸机炸沉，成为撤离期间损失的大型渡轮之一。",
+  "track": [
+   {
+    "at": "1940-05-29T20:00",
+    "pos": "@dover",
+    "course": 95,
+    "speedKn": 18
+   },
+   {
+    "at": "1940-05-29T22:30",
+    "pos": "@dunkirk_roads",
+    "course": 95,
+    "speedKn": 18
+   },
+   {
+    "at": "1940-05-30T14:00",
+    "pos": "@dunkirk_roads",
+    "course": 275,
+    "speedKn": 18,
+    "status": "destroyed",
+    "note": "在敦刻尔克外海被施图卡俯冲轰炸机炸沉"
+   }
+  ],
+  "sources": [
+   "national_archives_dynamo",
+   "admiralty_losses_1947",
+   "adls_register"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "side": "GB",
+  "echelon": "ship",
+  "type": "naval",
+  "parent": "gb.dover_cmd",
+  "id": "gb.brighton_belle",
+  "name": {
+   "zh": "布赖顿美女号",
+   "orig": "PS Brighton Belle",
+   "short": "Brighton Belle"
+  },
+  "strength": {
+   "men": 40
+  },
+  "ship": {
+   "kind": "merchant",
+   "class": {
+    "zh": "明轮蒸汽渡船（南方铁路公司）",
+    "orig": "Paddle steamer"
+   },
+   "lengthM": 67,
+   "beamM": 7.9,
+   "tonnage": 489,
+   "tonnageKind": "grt",
+   "maxKn": 15,
+   "crew": 20,
+   "silhouette": "merchant",
+   "weapons": [
+    {
+     "id": "aa",
+     "label": "应急防空机枪",
+     "cal": "0.303 in Lewis",
+     "kind": "aa",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 1.2,
+     "atPct": 55
+    }
+   ]
+  },
+  "history": "泰晤士河与南岸的明轮蒸汽船，5 月 28 日夜随小艇船队渡海。返航途中在多佛港外撞上沉船残骸而进水沉没，船上人员全部由并肩航行的梅德韦女王号接下，无人死亡。",
+  "track": [
+   {
+    "at": "1940-05-28T20:00",
+    "pos": "@ramsgate",
+    "course": 95,
+    "speedKn": 12
+   },
+   {
+    "at": "1940-05-29T04:00",
+    "pos": "@malo_les_bains",
+    "course": 95,
+    "speedKn": 12
+   },
+   {
+    "at": "1940-05-29T12:00",
+    "pos": "@dunkirk_roads",
+    "course": 275,
+    "speedKn": 12
+   },
+   {
+    "at": "1940-05-29T18:00",
+    "pos": "@dover",
+    "course": 275,
+    "speedKn": 12,
+    "status": "destroyed",
+    "note": "在多佛港外撞上残骸进水沉没，人员由梅德韦女王号全部救起"
+   }
+  ],
+  "sources": [
+   "adls_register",
+   "wiki_ships_dunkirk",
+   "divine_1940"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "side": "GB",
+  "echelon": "ship",
+  "type": "naval",
+  "parent": "gb.dover_cmd",
+  "id": "gb.ferry",
+  "name": {
+   "zh": "海峡渡轮群",
+   "orig": "Channel ferries",
+   "short": "Ferries"
+  },
+  "strength": {
+   "men": 300
+  },
+  "ship": {
+   "kind": "liner",
+   "class": {
+    "zh": "海峡渡轮（代表船：坎特伯雷号、马尔岛等）",
+    "orig": "Cross-Channel ferries"
+   },
+   "lengthM": 100,
+   "beamM": 13,
+   "tonnage": 3000,
+   "tonnageKind": "grt",
+   "maxKn": 21,
+   "crew": 70,
+   "silhouette": "liner",
+   "weapons": [
+    {
+     "id": "aa",
+     "label": "应急防空机枪",
+     "cal": "0.303 in Lewis",
+     "kind": "aa",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 1.2,
+     "atPct": 55
+    }
+   ]
+  },
+  "history": "南方铁路公司与大西部铁路公司的海峡渡轮群。它们可靠东防波堤直接装载上千人，是 5 月 28 日以后运量的骨干；到 6 月 4 日为止，渡轮与邮船合计运出十余万人。",
+  "track": [
+   {
+    "at": "1940-05-28T19:00",
+    "pos": "@dover",
+    "course": 95,
+    "speedKn": 18
+   },
+   {
+    "at": "1940-05-28T21:40",
+    "pos": "@east_mole",
+    "course": 95,
+    "speedKn": 18
+   },
+   {
+    "at": "1940-05-29T03:00",
+    "pos": "@dover",
+    "course": 275,
+    "speedKn": 18
+   },
+   {
+    "at": "1940-05-31T19:00",
+    "pos": "@dover",
+    "course": 95,
+    "speedKn": 18
+   },
+   {
+    "at": "1940-05-31T21:40",
+    "pos": "@east_mole",
+    "course": 95,
+    "speedKn": 18
+   },
+   {
+    "at": "1940-06-01T03:00",
+    "pos": "@dover",
+    "course": 275,
+    "speedKn": 18,
+    "status": "active"
+   },
+   {
+    "at": "1940-06-03T19:00",
+    "pos": "@dover",
+    "course": 95,
+    "speedKn": 18
+   },
+   {
+    "at": "1940-06-03T21:40",
+    "pos": "@east_mole",
+    "course": 95,
+    "speedKn": 18
+   },
+   {
+    "at": "1940-06-04T03:00",
+    "pos": "@dover",
+    "course": 275,
+    "speedKn": 18,
+    "status": "active"
+   }
+  ],
+  "sources": [
+   "national_archives_dynamo",
+   "admiralty_losses_1947",
+   "dynamo_despatch"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "side": "GB",
+  "echelon": "ship",
+  "type": "naval",
+  "parent": "gb.dover_cmd",
+  "id": "gb.medway_queen",
+  "name": {
+   "zh": "梅德韦女王号",
+   "orig": "PS Medway Queen",
+   "short": "Medway Queen"
+  },
+  "strength": {
+   "men": 20
+  },
+  "ship": {
+   "kind": "merchant",
+   "class": {
+    "zh": "明轮蒸汽船（新梅德韦女王号，1924 年）",
+    "orig": "Paddle steamer"
+   },
+   "lengthM": 48.8,
+   "beamM": 4.9,
+   "tonnage": 316,
+   "tonnageKind": "grt",
+   "maxKn": 13,
+   "crew": 20,
+   "silhouette": "merchant",
+   "weapons": [
+    {
+     "id": "aa",
+     "label": "应急防空机枪",
+     "cal": "0.303 in Lewis",
+     "kind": "aa",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 1.2,
+     "atPct": 55
+    }
+   ]
+  },
+  "history": "「敦刻尔克小艇」中最著名的一艘。七次渡海，共运出 7,000 余人：第一次就在拉帕讷海滩用小艇把约 600 人摆渡上船，返航时还击落一架德军飞机，并把撞上残骸的布赖顿美女号船员全部接下。",
+  "track": [
+   {
+    "at": "1940-05-28T21:00",
+    "pos": "@sheerness",
+    "course": 95,
+    "speedKn": 11
+   },
+   {
+    "at": "1940-05-29T05:00",
+    "pos": "@la_panne",
+    "course": 95,
+    "speedKn": 11
+   },
+   {
+    "at": "1940-05-29T13:00",
+    "pos": "@dunkirk_roads",
+    "course": 275,
+    "speedKn": 11
+   },
+   {
+    "at": "1940-05-29T19:00",
+    "pos": "@sheerness",
+    "course": 275,
+    "speedKn": 11
+   },
+   {
+    "at": "1940-05-31T20:00",
+    "pos": "@sheerness",
+    "course": 95,
+    "speedKn": 11
+   },
+   {
+    "at": "1940-06-01T04:00",
+    "pos": "@malo_les_bains",
+    "course": 95,
+    "speedKn": 11
+   },
+   {
+    "at": "1940-06-01T12:00",
+    "pos": "@dunkirk_roads",
+    "course": 275,
+    "speedKn": 11
+   },
+   {
+    "at": "1940-06-01T18:00",
+    "pos": "@sheerness",
+    "course": 275,
+    "speedKn": 11
+   },
+   {
+    "at": "1940-06-03T20:00",
+    "pos": "@sheerness",
+    "course": 95,
+    "speedKn": 11
+   },
+   {
+    "at": "1940-06-04T04:00",
+    "pos": "@dunkirk_roads",
+    "course": 95,
+    "speedKn": 11,
+    "status": "active",
+    "note": "七次渡海共运出 7,000 余人"
+   }
+  ],
+  "sources": [
+   "adls_register",
+   "wiki_ships_dunkirk",
+   "divine_1940",
+   "lord_1982"
+  ],
+  "confidence": "high"
+ },
+ {
+  "side": "GB",
+  "echelon": "ship",
+  "type": "naval",
+  "parent": "gb.dover_cmd",
+  "id": "gb.little_ship_sundowner",
+  "name": {
+   "zh": "森德沃纳号",
+   "orig": "MV Sundowner",
+   "short": "Sundowner"
+  },
+  "strength": {
+   "men": 4
+  },
+  "ship": {
+   "kind": "boat",
+   "class": {
+    "zh": "柴油游艇（「小艇船队」代表船）",
+    "orig": "Motor yacht — Little Ship"
+   },
+   "lengthM": 18.3,
+   "beamM": 4.3,
+   "tonnage": 26,
+   "tonnageKind": "grt",
+   "maxKn": 9,
+   "crew": 4,
+   "silhouette": "boat",
+   "weapons": []
+  },
+  "history": "「小艇船队」的代表：5 月 28 日由拉姆斯盖特渡海，在敦刻尔克东防波堤旁往返摆渡，把士兵从海滩送到泊位外的大船上。到 5 月 31 日为止，像它这样 30 英尺上下的小船已有近四百艘，渡海途中被炸沉者不计其数。",
+  "track": [
+   {
+    "at": "1940-05-28T18:00",
+    "pos": "@ramsgate",
+    "course": 95,
+    "speedKn": 8
+   },
+   {
+    "at": "1940-05-28T23:00",
+    "pos": "@malo_les_bains",
+    "course": 95,
+    "speedKn": 8
+   },
+   {
+    "at": "1940-05-29T08:00",
+    "pos": "@malo_les_bains",
+    "course": 275,
+    "speedKn": 8
+   },
+   {
+    "at": "1940-05-29T13:00",
+    "pos": "@dunkirk_roads",
+    "course": 275,
+    "speedKn": 8
+   },
+   {
+    "at": "1940-05-29T19:00",
+    "pos": "@ramsgate",
+    "course": 275,
+    "speedKn": 8
+   },
+   {
+    "at": "1940-05-31T18:00",
+    "pos": "@ramsgate",
+    "course": 95,
+    "speedKn": 8
+   },
+   {
+    "at": "1940-05-31T23:00",
+    "pos": "@dunkirk_roads",
+    "course": 95,
+    "speedKn": 8
+   },
+   {
+    "at": "1940-06-01T08:00",
+    "pos": "@dunkirk_roads",
+    "course": 275,
+    "speedKn": 8
+   },
+   {
+    "at": "1940-06-01T13:00",
+    "pos": "@ramsgate",
+    "course": 275,
+    "speedKn": 8,
+    "status": "active"
+   }
+  ],
+  "sources": [
+   "adls_register",
+   "wiki_ships_dunkirk",
+   "divine_1940"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "side": "FR",
+  "echelon": "ship",
+  "type": "naval",
+  "parent": "fr.marine",
+  "id": "fr.bourrasque",
+  "name": {
+   "zh": "布拉斯克号",
+   "orig": "Bourrasque",
+   "short": "Bourrasque"
+  },
+  "strength": {
+   "men": 140
+  },
+  "ship": {
+   "kind": "destroyer",
+   "class": {
+    "zh": "布拉斯克级大型驱逐舰",
+    "orig": "Bourrasque-class contre-torpilleur"
+   },
+   "lengthM": 105.6,
+   "beamM": 9.7,
+   "tonnage": 1319,
+   "tonnageKind": "std",
+   "maxKn": 33,
+   "crew": 140,
+   "silhouette": "destroyer",
+   "weapons": [
+    {
+     "id": "A",
+     "label": "A 炮位（单装 130 毫米）",
+     "cal": "130 mm Mle 1919",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 18.7,
+     "atPct": 15
+    },
+    {
+     "id": "B",
+     "label": "B 炮位（单装 130 毫米）",
+     "cal": "130 mm Mle 1919",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 18.7,
+     "atPct": 25
+    },
+    {
+     "id": "X",
+     "label": "X 炮位（单装 130 毫米）",
+     "cal": "130 mm Mle 1919",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 18.7,
+     "atPct": 72
+    },
+    {
+     "id": "Y",
+     "label": "Y 炮位（单装 130 毫米）",
+     "cal": "130 mm Mle 1919",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 18.7,
+     "atPct": 84
+    },
+    {
+     "id": "tt",
+     "label": "三联装 550 毫米鱼雷发射管",
+     "cal": "550 mm Mle 1917",
+     "kind": "torpedo",
+     "mounts": 2,
+     "perMount": 3,
+     "rangeKm": 9,
+     "atPct": 57
+    }
+   ]
+  },
+  "history": "5 月 30 日在尼乌波特外海触雷，随后又被德方岸炮击中，舰体断裂沉没。舰上载有 1,100 余人（船员与士兵），约 500 人丧生，是当日法国海军最惨重的损失。",
+  "track": [
+   {
+    "at": "1940-05-30T00:30",
+    "pos": "@dover",
+    "course": 95,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-05-30T03:00",
+    "pos": "@nieuwpoort",
+    "course": 95,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-05-30T04:30",
+    "pos": [
+     2.72,
+     51.15
+    ],
+    "course": 240,
+    "speedKn": 10,
+    "status": "engaged",
+    "note": "在尼乌波特外海触雷，又被岸炮击中"
+   },
+   {
+    "at": "1940-05-30T06:00",
+    "pos": [
+     2.7,
+     51.16
+    ],
+    "course": 240,
+    "speedKn": 0,
+    "status": "destroyed",
+    "note": "舰体断裂沉没，约 500 人丧生"
+   }
+  ],
+  "sources": [
+   "national_archives_dynamo",
+   "wiki_ships_dunkirk",
+   "admiralty_losses_1947",
+   "thompson_1956"
+  ],
+  "confidence": "high"
+ },
+ {
+  "side": "FR",
+  "echelon": "ship",
+  "type": "naval",
+  "parent": "fr.marine",
+  "id": "fr.sirocco",
+  "name": {
+   "zh": "西罗科号",
+   "orig": "Siroco",
+   "short": "Siroco"
+  },
+  "strength": {
+   "men": 140
+  },
+  "ship": {
+   "kind": "destroyer",
+   "class": {
+    "zh": "布拉斯克级大型驱逐舰",
+    "orig": "Bourrasque-class contre-torpilleur"
+   },
+   "lengthM": 105.6,
+   "beamM": 9.7,
+   "tonnage": 1319,
+   "tonnageKind": "std",
+   "maxKn": 33,
+   "crew": 140,
+   "silhouette": "destroyer",
+   "weapons": [
+    {
+     "id": "A",
+     "label": "A 炮位（单装 130 毫米）",
+     "cal": "130 mm Mle 1919",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 18.7,
+     "atPct": 15
+    },
+    {
+     "id": "B",
+     "label": "B 炮位（单装 130 毫米）",
+     "cal": "130 mm Mle 1919",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 18.7,
+     "atPct": 25
+    },
+    {
+     "id": "X",
+     "label": "X 炮位（单装 130 毫米）",
+     "cal": "130 mm Mle 1919",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 18.7,
+     "atPct": 72
+    },
+    {
+     "id": "Y",
+     "label": "Y 炮位（单装 130 毫米）",
+     "cal": "130 mm Mle 1919",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 18.7,
+     "atPct": 84
+    },
+    {
+     "id": "tt",
+     "label": "三联装 550 毫米鱼雷发射管",
+     "cal": "550 mm Mle 1917",
+     "kind": "torpedo",
+     "mounts": 2,
+     "perMount": 3,
+     "rangeKm": 9,
+     "atPct": 57
+    }
+   ]
+  },
+  "history": "5 月 29 日撤出 509 人，31 日凌晨再满载士兵返航。在韦斯特欣德灯船附近被德军 S-23、S-26 号鱼雷艇击中，全舰 930 名官兵与士兵中约 660 人丧生，法军第 92 步兵团团旗随舰沉没。",
+  "track": [
+   {
+    "at": "1940-05-29T18:00",
+    "pos": "@dover",
+    "course": 95,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-05-29T20:40",
+    "pos": "@dunkirk_roads",
+    "course": 95,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-05-29T23:00",
+    "pos": "@dover",
+    "course": 275,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-05-30T21:00",
+    "pos": "@dover",
+    "course": 95,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-05-30T23:40",
+    "pos": "@east_mole",
+    "course": 95,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-05-31T01:30",
+    "pos": "@east_mole",
+    "course": 275,
+    "speedKn": 18
+   },
+   {
+    "at": "1940-05-31T02:30",
+    "pos": [
+     1.92,
+     51.42
+    ],
+    "course": 240,
+    "speedKn": 12,
+    "status": "destroyed",
+    "note": "在韦斯特欣德灯船附近被 S-23、S-26 号鱼雷击中，约 660 人丧生"
+   }
+  ],
+  "sources": [
+   "national_archives_dynamo",
+   "wiki_ships_dunkirk",
+   "admiralty_losses_1947"
+  ],
+  "confidence": "high"
+ },
+ {
+  "side": "FR",
+  "echelon": "ship",
+  "type": "naval",
+  "parent": "fr.marine",
+  "id": "fr.foudroyant",
+  "name": {
+   "zh": "富德罗扬号",
+   "orig": "Foudroyant",
+   "short": "Foudroyant"
+  },
+  "strength": {
+   "men": 140
+  },
+  "ship": {
+   "kind": "destroyer",
+   "class": {
+    "zh": "布拉斯克级大型驱逐舰",
+    "orig": "Bourrasque-class contre-torpilleur"
+   },
+   "lengthM": 105.6,
+   "beamM": 9.7,
+   "tonnage": 1319,
+   "tonnageKind": "std",
+   "maxKn": 33,
+   "crew": 140,
+   "silhouette": "destroyer",
+   "weapons": [
+    {
+     "id": "A",
+     "label": "A 炮位（单装 130 毫米）",
+     "cal": "130 mm Mle 1919",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 18.7,
+     "atPct": 15
+    },
+    {
+     "id": "B",
+     "label": "B 炮位（单装 130 毫米）",
+     "cal": "130 mm Mle 1919",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 18.7,
+     "atPct": 25
+    },
+    {
+     "id": "X",
+     "label": "X 炮位（单装 130 毫米）",
+     "cal": "130 mm Mle 1919",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 18.7,
+     "atPct": 72
+    },
+    {
+     "id": "Y",
+     "label": "Y 炮位（单装 130 毫米）",
+     "cal": "130 mm Mle 1919",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 18.7,
+     "atPct": 84
+    },
+    {
+     "id": "tt",
+     "label": "三联装 550 毫米鱼雷发射管",
+     "cal": "550 mm Mle 1917",
+     "kind": "torpedo",
+     "mounts": 2,
+     "perMount": 3,
+     "rangeKm": 9,
+     "atPct": 57
+    }
+   ]
+  },
+  "history": "6 月 1 日 08:00 由多佛出发，在白昼空袭中被德机炸沉于敦刻尔克外海；137 名舰员与 83 名士兵被法籍渔船贝尔纳黛特号与巡逻拖船加瓦号救起。",
+  "track": [
+   {
+    "at": "1940-06-01T08:00",
+    "pos": "@dover",
+    "course": 95,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-06-01T10:40",
+    "pos": "@dunkirk_roads",
+    "course": 95,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-06-01T13:00",
+    "pos": "@dunkirk_roads",
+    "course": 275,
+    "speedKn": 20,
+    "status": "destroyed",
+    "note": "在白昼空袭中被德机炸沉"
+   }
+  ],
+  "sources": [
+   "national_archives_dynamo",
+   "wiki_ships_dunkirk",
+   "admiralty_losses_1947"
+  ],
+  "confidence": "high"
+ },
+ {
+  "side": "FR",
+  "echelon": "ship",
+  "type": "naval",
+  "parent": "fr.marine",
+  "id": "fr.cyclone",
+  "name": {
+   "zh": "西克洛纳号",
+   "orig": "Cyclone",
+   "short": "Cyclone"
+  },
+  "strength": {
+   "men": 140
+  },
+  "ship": {
+   "kind": "destroyer",
+   "class": {
+    "zh": "布拉斯克级大型驱逐舰",
+    "orig": "Bourrasque-class contre-torpilleur"
+   },
+   "lengthM": 105.6,
+   "beamM": 9.7,
+   "tonnage": 1319,
+   "tonnageKind": "std",
+   "maxKn": 33,
+   "crew": 140,
+   "silhouette": "destroyer",
+   "weapons": [
+    {
+     "id": "A",
+     "label": "A 炮位（单装 130 毫米）",
+     "cal": "130 mm Mle 1919",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 18.7,
+     "atPct": 15
+    },
+    {
+     "id": "B",
+     "label": "B 炮位（单装 130 毫米）",
+     "cal": "130 mm Mle 1919",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 18.7,
+     "atPct": 25
+    },
+    {
+     "id": "X",
+     "label": "X 炮位（单装 130 毫米）",
+     "cal": "130 mm Mle 1919",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 18.7,
+     "atPct": 72
+    },
+    {
+     "id": "Y",
+     "label": "Y 炮位（单装 130 毫米）",
+     "cal": "130 mm Mle 1919",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 18.7,
+     "atPct": 84
+    },
+    {
+     "id": "tt",
+     "label": "三联装 550 毫米鱼雷发射管",
+     "cal": "550 mm Mle 1917",
+     "kind": "torpedo",
+     "mounts": 2,
+     "perMount": 3,
+     "rangeKm": 9,
+     "atPct": 57
+    }
+   ]
+  },
+  "history": "5 月 29 日一次运出 733 人（含单桅舰比德福德号 158 名官兵）。31 日凌晨由多佛出航时舰艏被 S-24 号鱼雷艇炸掉，最高航速降到 5 节，由波兰驱逐舰「闪电」号护航勉强返回多佛。",
+  "track": [
+   {
+    "at": "1940-05-29T16:00",
+    "pos": "@dover",
+    "course": 95,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-05-29T18:40",
+    "pos": "@east_mole",
+    "course": 95,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-05-30T00:30",
+    "pos": "@dover",
+    "course": 275,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-05-31T01:30",
+    "pos": [
+     1.55,
+     51.15
+    ],
+    "course": 95,
+    "speedKn": 20,
+    "status": "engaged",
+    "note": "舰艏被 S-24 号鱼雷炸掉，最高航速降至 5 节"
+   },
+   {
+    "at": "1940-05-31T12:00",
+    "pos": "@dover",
+    "course": 95,
+    "speedKn": 5,
+    "status": "active",
+    "note": "由波兰驱逐舰闪电号护航返回多佛"
+   }
+  ],
+  "sources": [
+   "national_archives_dynamo",
+   "wiki_ships_dunkirk",
+   "admiralty_losses_1947"
+  ],
+  "confidence": "high"
+ },
+ {
+  "side": "FR",
+  "echelon": "ship",
+  "type": "naval",
+  "parent": "fr.marine",
+  "id": "fr.mistral",
+  "name": {
+   "zh": "米斯特拉尔号",
+   "orig": "Mistral",
+   "short": "Mistral"
+  },
+  "strength": {
+   "men": 140
+  },
+  "ship": {
+   "kind": "destroyer",
+   "class": {
+    "zh": "布拉斯克级大型驱逐舰",
+    "orig": "Bourrasque-class contre-torpilleur"
+   },
+   "lengthM": 105.6,
+   "beamM": 9.7,
+   "tonnage": 1319,
+   "tonnageKind": "std",
+   "maxKn": 33,
+   "crew": 140,
+   "silhouette": "destroyer",
+   "weapons": [
+    {
+     "id": "A",
+     "label": "A 炮位（单装 130 毫米）",
+     "cal": "130 mm Mle 1919",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 18.7,
+     "atPct": 15
+    },
+    {
+     "id": "B",
+     "label": "B 炮位（单装 130 毫米）",
+     "cal": "130 mm Mle 1919",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 18.7,
+     "atPct": 25
+    },
+    {
+     "id": "X",
+     "label": "X 炮位（单装 130 毫米）",
+     "cal": "130 mm Mle 1919",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 18.7,
+     "atPct": 72
+    },
+    {
+     "id": "Y",
+     "label": "Y 炮位（单装 130 毫米）",
+     "cal": "130 mm Mle 1919",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 18.7,
+     "atPct": 84
+    },
+    {
+     "id": "tt",
+     "label": "三联装 550 毫米鱼雷发射管",
+     "cal": "550 mm Mle 1917",
+     "kind": "torpedo",
+     "mounts": 2,
+     "perMount": 3,
+     "rangeKm": 9,
+     "atPct": 57
+    }
+   ]
+  },
+  "history": "5 月 29 日在东防波堤旁被德机炸成重伤，未能装载部队，舰长拉韦纳少校伤重不治，由吉扬东中尉接替指挥。此后被拖回土伦大修。",
+  "track": [
+   {
+    "at": "1940-05-29T15:00",
+    "pos": "@dover",
+    "course": 95,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-05-29T17:40",
+    "pos": "@east_mole",
+    "course": 95,
+    "speedKn": 20
+   },
+   {
+    "at": "1940-05-29T19:10",
+    "pos": "@east_mole",
+    "course": 275,
+    "speedKn": 4,
+    "status": "engaged",
+    "note": "在东防波堤旁被炸成重伤，舰长拉韦纳少校伤重不治"
+   },
+   {
+    "at": "1940-05-30T02:00",
+    "pos": "@dover",
+    "course": 275,
+    "speedKn": 8,
+    "status": "active",
+    "note": "由拖船拖回多佛"
+   }
+  ],
+  "sources": [
+   "national_archives_dynamo",
+   "wiki_ships_dunkirk"
+  ],
+  "confidence": "high"
+ },
+ {
+  "side": "FR",
+  "echelon": "ship",
+  "type": "naval",
+  "parent": "fr.marine",
+  "id": "fr.leopard",
+  "name": {
+   "zh": "莱奥帕尔号",
+   "orig": "Léopard",
+   "short": "Léopard"
+  },
+  "strength": {
+   "men": 150
+  },
+  "ship": {
+   "kind": "destroyer",
+   "class": {
+    "zh": "「豹」级大型驱逐舰（原训练舰）",
+    "orig": "Chacal-class contre-torpilleur"
+   },
+   "lengthM": 126.8,
+   "beamM": 11.1,
+   "tonnage": 2126,
+   "tonnageKind": "std",
+   "maxKn": 35,
+   "crew": 150,
+   "silhouette": "destroyer",
+   "weapons": [
+    {
+     "id": "A",
+     "label": "A 炮位（单装 130 毫米）",
+     "cal": "130 mm Mle 1924",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 18.7,
+     "atPct": 15
+    },
+    {
+     "id": "B",
+     "label": "B 炮位（单装 130 毫米）",
+     "cal": "130 mm Mle 1924",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 18.7,
+     "atPct": 25
+    },
+    {
+     "id": "X",
+     "label": "X 炮位（单装 130 毫米）",
+     "cal": "130 mm Mle 1924",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 18.7,
+     "atPct": 72
+    },
+    {
+     "id": "Y",
+     "label": "Y 炮位（单装 130 毫米）",
+     "cal": "130 mm Mle 1924",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 18.7,
+     "atPct": 84
+    },
+    {
+     "id": "tt",
+     "label": "三联装 550 毫米鱼雷发射管",
+     "cal": "550 mm Mle 1923D",
+     "kind": "torpedo",
+     "mounts": 2,
+     "perMount": 3,
+     "rangeKm": 9,
+     "atPct": 57
+    }
+   ]
+  },
+  "history": "5 月 24 日与「豺」号一起炮击向布洛涅推进的德军，打出该城防御战的最后一批炮弹；28 日起编入拉德里奥少将的「加来海峡」分舰队支援敦刻尔克撤离，6 月 3 日还从一条小艇上救起 19 名英军士兵送往英格兰。",
+  "track": [
+   {
+    "at": "1940-05-28T04:00",
+    "pos": "@dover",
+    "course": 95,
+    "speedKn": 18
+   },
+   {
+    "at": "1940-05-28T06:40",
+    "pos": "@gravelines",
+    "course": 95,
+    "speedKn": 18
+   },
+   {
+    "at": "1940-05-28T10:00",
+    "pos": "@gravelines",
+    "course": 275,
+    "speedKn": 18
+   },
+   {
+    "at": "1940-05-28T12:40",
+    "pos": "@dover",
+    "course": 275,
+    "speedKn": 18
+   },
+   {
+    "at": "1940-06-03T02:00",
+    "pos": "@dover",
+    "course": 95,
+    "speedKn": 18
+   },
+   {
+    "at": "1940-06-03T04:40",
+    "pos": "@dunkirk_roads",
+    "course": 95,
+    "speedKn": 18
+   },
+   {
+    "at": "1940-06-03T09:00",
+    "pos": "@dover",
+    "course": 275,
+    "speedKn": 18,
+    "status": "active",
+    "note": "6 月 3 日救起 19 名英军士兵送往英格兰"
+   }
+  ],
+  "sources": [
+   "national_archives_dynamo",
+   "wiki_ships_dunkirk",
+   "admiralty_losses_1947"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "de.s30",
+  "side": "DE",
+  "echelon": "ship",
+  "type": "naval",
+  "parent": null,
+  "name": {
+   "zh": "S-30 号鱼雷艇",
+   "orig": "Schnellboot S-30",
+   "short": "S-30"
+  },
+  "strength": {
+   "men": 24
+  },
+  "ship": {
+   "kind": "destroyer",
+   "class": {
+    "zh": "S 艇（1939 型鱼雷艇）",
+    "orig": "Schnellboot Type 1939"
+   },
+   "lengthM": 34.9,
+   "beamM": 5.3,
+   "tonnage": 100,
+   "tonnageKind": "std",
+   "maxKn": 39,
+   "crew": 24,
+   "silhouette": "destroyer",
+   "weapons": [
+    {
+     "id": "tt",
+     "label": "双联装 533 毫米鱼雷发射管",
+     "cal": "53.3 cm G7a T1",
+     "kind": "torpedo",
+     "mounts": 2,
+     "perMount": 1,
+     "rangeKm": 8,
+     "atPct": 40
+    },
+    {
+     "id": "A",
+     "label": "前部 20 毫米机炮",
+     "cal": "2 cm Flak 30",
+     "kind": "aa",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 4.8,
+     "atPct": 12
+    }
+   ]
+  },
+  "history": "第 2 鱼雷艇分队（2. S-Flottille）的 S 艇。5 月 28 日下午随 S-25、S-34 由威廉港出发前往敦刻尔克海域，29 日凌晨在北 Kwinte 浮标附近（51°20′N 2°45′E）以两条鱼雷击中驱逐舰韦克福号。",
+  "track": [
+   {
+    "at": "1940-05-28T16:00",
+    "pos": [
+     2.9,
+     51.35
+    ],
+    "course": 235,
+    "speedKn": 30,
+    "note": "由威廉港出发前往敦刻尔克海域"
+   },
+   {
+    "at": "1940-05-29T00:40",
+    "pos": [
+     2.75,
+     51.33
+    ],
+    "course": 240,
+    "speedKn": 26,
+    "status": "engaged",
+    "note": "在 Kwinte 浮标附近以两条鱼雷击沉「韦克福」号"
+   }
+  ],
+  "sources": [
+   "national_archives_dynamo",
+   "admiralty_losses_1947",
+   "sebag_2006"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "de.s23",
+  "side": "DE",
+  "echelon": "ship",
+  "type": "naval",
+  "parent": null,
+  "name": {
+   "zh": "S-23 号鱼雷艇",
+   "orig": "Schnellboot S-23",
+   "short": "S-23"
+  },
+  "strength": {
+   "men": 24
+  },
+  "ship": {
+   "kind": "destroyer",
+   "class": {
+    "zh": "S 艇（1939 型鱼雷艇）",
+    "orig": "Schnellboot Type 1939"
+   },
+   "lengthM": 34.9,
+   "beamM": 5.3,
+   "tonnage": 100,
+   "tonnageKind": "std",
+   "maxKn": 39,
+   "crew": 24,
+   "silhouette": "destroyer",
+   "weapons": [
+    {
+     "id": "tt",
+     "label": "双联装 533 毫米鱼雷发射管",
+     "cal": "53.3 cm G7a T1",
+     "kind": "torpedo",
+     "mounts": 2,
+     "perMount": 1,
+     "rangeKm": 8,
+     "atPct": 40
+    },
+    {
+     "id": "A",
+     "label": "前部 20 毫米机炮",
+     "cal": "2 cm Flak 30",
+     "kind": "aa",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 4.8,
+     "atPct": 12
+    }
+   ]
+  },
+  "history": "与 S-26 号一起在 5 月 31 日凌晨于韦斯特欣德灯船附近击沉法国大型驱逐舰西罗科号，舰上约 660 人丧生。",
+  "track": [
+   {
+    "at": "1940-05-30T22:00",
+    "pos": [
+     2.9,
+     51.5
+    ],
+    "course": 250,
+    "speedKn": 30,
+    "note": "由荷兰沿岸南下进入多佛海峡"
+   },
+   {
+    "at": "1940-05-31T02:30",
+    "pos": [
+     1.92,
+     51.42
+    ],
+    "course": 240,
+    "speedKn": 28,
+    "status": "engaged",
+    "note": "与 S-26 号共同击沉法国大型驱逐舰「西罗科」号"
+   }
+  ],
+  "sources": [
+   "national_archives_dynamo",
+   "admiralty_losses_1947",
+   "wiki_ships_dunkirk"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "de.s26",
+  "side": "DE",
+  "echelon": "ship",
+  "type": "naval",
+  "parent": null,
+  "name": {
+   "zh": "S-26 号鱼雷艇",
+   "orig": "Schnellboot S-26",
+   "short": "S-26"
+  },
+  "strength": {
+   "men": 24
+  },
+  "ship": {
+   "kind": "destroyer",
+   "class": {
+    "zh": "S 艇（1939 型鱼雷艇）",
+    "orig": "Schnellboot Type 1939"
+   },
+   "lengthM": 34.9,
+   "beamM": 5.3,
+   "tonnage": 100,
+   "tonnageKind": "std",
+   "maxKn": 39,
+   "crew": 24,
+   "silhouette": "destroyer",
+   "weapons": [
+    {
+     "id": "tt",
+     "label": "双联装 533 毫米鱼雷发射管",
+     "cal": "53.3 cm G7a T1",
+     "kind": "torpedo",
+     "mounts": 2,
+     "perMount": 1,
+     "rangeKm": 8,
+     "atPct": 40
+    },
+    {
+     "id": "A",
+     "label": "前部 20 毫米机炮",
+     "cal": "2 cm Flak 30",
+     "kind": "aa",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 4.8,
+     "atPct": 12
+    }
+   ]
+  },
+  "history": "5 月 31 日凌晨与 S-23 号共同击沉西罗科号；同一夜德方 S 艇群还在海峡中击沉多艘英法小型船只。",
+  "track": [
+   {
+    "at": "1940-05-30T22:15",
+    "pos": [
+     2.92,
+     51.48
+    ],
+    "course": 250,
+    "speedKn": 30,
+    "note": "与 S-23 号编队出击"
+   },
+   {
+    "at": "1940-05-31T02:30",
+    "pos": [
+     1.9,
+     51.43
+    ],
+    "course": 240,
+    "speedKn": 28,
+    "status": "engaged",
+    "note": "在韦斯特欣德灯船附近发射鱼雷"
+   }
+  ],
+  "sources": [
+   "national_archives_dynamo",
+   "admiralty_losses_1947",
+   "wiki_ships_dunkirk"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "de.s24",
+  "side": "DE",
+  "echelon": "ship",
+  "type": "naval",
+  "parent": null,
+  "name": {
+   "zh": "S-24 号鱼雷艇",
+   "orig": "Schnellboot S-24",
+   "short": "S-24"
+  },
+  "strength": {
+   "men": 24
+  },
+  "ship": {
+   "kind": "destroyer",
+   "class": {
+    "zh": "S 艇（1939 型鱼雷艇）",
+    "orig": "Schnellboot Type 1939"
+   },
+   "lengthM": 34.9,
+   "beamM": 5.3,
+   "tonnage": 100,
+   "tonnageKind": "std",
+   "maxKn": 39,
+   "crew": 24,
+   "silhouette": "destroyer",
+   "weapons": [
+    {
+     "id": "tt",
+     "label": "双联装 533 毫米鱼雷发射管",
+     "cal": "53.3 cm G7a T1",
+     "kind": "torpedo",
+     "mounts": 2,
+     "perMount": 1,
+     "rangeKm": 8,
+     "atPct": 40
+    },
+    {
+     "id": "A",
+     "label": "前部 20 毫米机炮",
+     "cal": "2 cm Flak 30",
+     "kind": "aa",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 4.8,
+     "atPct": 12
+    }
+   ]
+  },
+  "history": "5 月 31 日凌晨在多佛海峡东口用一条鱼雷炸掉法国大型驱逐舰「西克洛纳」号的舰艏，使其最高航速降到 5 节；同一夜其僚艇 S-23、S-26 击沉了「西罗科」号。",
+  "track": [
+   {
+    "at": "1940-05-30T23:00",
+    "pos": [
+     2.6,
+     51.35
+    ],
+    "course": 250,
+    "speedKn": 30,
+    "note": "由泽布吕赫外海南下"
+   },
+   {
+    "at": "1940-05-31T01:30",
+    "pos": [
+     1.55,
+     51.15
+    ],
+    "course": 90,
+    "speedKn": 28,
+    "status": "engaged",
+    "note": "以一条鱼雷炸掉法国大型驱逐舰「西克洛纳」号舰艏"
+   }
+  ],
+  "sources": [
+   "national_archives_dynamo",
+   "wiki_ships_dunkirk",
+   "admiralty_losses_1947"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "de.s34",
+  "side": "DE",
+  "echelon": "ship",
+  "type": "naval",
+  "parent": null,
+  "name": {
+   "zh": "S-34 号鱼雷艇",
+   "orig": "Schnellboot S-34",
+   "short": "S-34"
+  },
+  "strength": {
+   "men": 24
+  },
+  "ship": {
+   "kind": "destroyer",
+   "class": {
+    "zh": "S 艇（1939 型鱼雷艇）",
+    "orig": "Schnellboot Type 1939"
+   },
+   "lengthM": 34.9,
+   "beamM": 5.3,
+   "tonnage": 100,
+   "tonnageKind": "std",
+   "maxKn": 39,
+   "crew": 24,
+   "silhouette": "destroyer",
+   "weapons": [
+    {
+     "id": "tt",
+     "label": "双联装 533 毫米鱼雷发射管",
+     "cal": "53.3 cm G7a T1",
+     "kind": "torpedo",
+     "mounts": 2,
+     "perMount": 1,
+     "rangeKm": 8,
+     "atPct": 40
+    },
+    {
+     "id": "A",
+     "label": "前部 20 毫米机炮",
+     "cal": "2 cm Flak 30",
+     "kind": "aa",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 4.8,
+     "atPct": 12
+    }
+   ]
+  },
+  "history": "5 月 28 日 01:30 在 51°29′N 2°16′E 用鱼雷击沉从奥斯坦德撤出的英国汽船「阿布基尔」号（694 吨）；该船 21 名船员与 210 名乘客中 16 名船员、189 名乘客丧生，33 名幸存者被随后赶到的驱逐舰救起。",
+  "track": [
+   {
+    "at": "1940-05-27T23:00",
+    "pos": [
+     2.6,
+     51.5
+    ],
+    "course": 225,
+    "speedKn": 28,
+    "note": "在奥斯坦德—敦刻尔克航道上搜索"
+   },
+   {
+    "at": "1940-05-28T01:30",
+    "pos": [
+     2.27,
+     51.48
+    ],
+    "course": 235,
+    "speedKn": 26,
+    "status": "engaged",
+    "note": "击沉从奥斯坦德撤出的英国汽船「阿布基尔」号"
+   }
+  ],
+  "sources": [
+   "national_archives_dynamo",
+   "admiralty_losses_1947"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "de.u62",
+  "side": "DE",
+  "echelon": "ship",
+  "type": "naval",
+  "parent": null,
+  "name": {
+   "zh": "U-62 号潜艇",
+   "orig": "U-62",
+   "short": "U-62"
+  },
+  "strength": {
+   "men": 46
+  },
+  "ship": {
+   "kind": "submarine",
+   "class": {
+    "zh": "IX C 型远洋潜艇",
+    "orig": "Type IXC U-boat"
+   },
+   "lengthM": 76.8,
+   "beamM": 6.8,
+   "tonnage": 1120,
+   "tonnageKind": "std",
+   "maxKn": 18.2,
+   "crew": 48,
+   "silhouette": "submarine",
+   "weapons": [
+    {
+     "id": "tt",
+     "label": "艏部鱼雷发射管",
+     "cal": "53.3 cm G7a T1",
+     "kind": "torpedo",
+     "mounts": 1,
+     "perMount": 4,
+     "rangeKm": 8,
+     "atPct": 22
+    },
+    {
+     "id": "gun",
+     "label": "甲板炮",
+     "cal": "10.5 cm SK C/32",
+     "kind": "secondary",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 15,
+     "atPct": 32
+    }
+   ]
+  },
+  "history": "5 月 29 日凌晨在敦刻尔克以北发射鱼雷，命中正在救援韦克福号幸存者的驱逐舰格拉夫顿号舰艉；艇长误以为击沉的是一艘商船。",
+  "track": [
+   {
+    "at": "1940-05-29T02:00",
+    "pos": [
+     2.72,
+     51.36
+    ],
+    "course": 200,
+    "speedKn": 4,
+    "note": "在水面跟踪救援中的英舰"
+   },
+   {
+    "at": "1940-05-29T04:20",
+    "pos": [
+     2.78,
+     51.37
+    ],
+    "course": 200,
+    "speedKn": 4,
+    "status": "engaged",
+    "note": "以鱼雷命中正在救援「韦克福」号幸存者的「格拉夫顿」号舰艉"
+   }
+  ],
+  "sources": [
+   "national_archives_dynamo",
+   "wiki_ships_dunkirk",
+   "sebag_2006"
+  ],
+  "confidence": "high"
+ },
+ {
+  "side": "GB",
+  "echelon": "ship",
+  "type": "naval",
+  "parent": "gb.dover_cmd",
+  "id": "gb.lancastria",
+  "name": {
+   "zh": "兰卡斯特里亚号",
+   "orig": "RMS Lancastria",
+   "short": "Lancastria"
+  },
+  "strength": {
+   "men": 350
+  },
+  "ship": {
+   "kind": "liner",
+   "class": {
+    "zh": "丘纳德公司远洋客轮（1922 年，征用为运兵船）",
+    "orig": "Cunard liner, requisitioned troopship"
+   },
+   "lengthM": 176.8,
+   "beamM": 21.9,
+   "tonnage": 16243,
+   "tonnageKind": "grt",
+   "maxKn": 16.5,
+   "crew": 350,
+   "silhouette": "liner",
+   "weapons": [
+    {
+     "id": "aa",
+     "label": "应急防空机枪",
+     "cal": "0.303 in Lewis",
+     "kind": "aa",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 1.2,
+     "atPct": 55
+    }
+   ]
+  },
+  "history": "16,243 吨的丘纳德客轮，1940 年 5 月刚参加完挪威撤运，随即投入法国沿岸的运兵任务。6 月 17 日「空中行动」期间在圣纳泽尔外海被德军轰炸机炸沉，约 3,500 人丧生，是英国航海史上最惨重的一次海难——那已是发电机行动结束十三天之后的事，本战役窗口只保留它作为尾声的对照。",
+  "track": [
+   {
+    "at": "1940-06-04T12:00",
+    "pos": "@dover",
+    "status": "active",
+    "note": "本战役窗口内停泊于多佛；6 月 17 日在圣纳泽尔外海被炸沉（超出本战役时间窗）"
+   }
+  ],
+  "sources": [
+   "lancastria_1940",
+   "churchill_1949",
+   "ellis_1953"
+  ],
+  "confidence": "high"
+ }
+]

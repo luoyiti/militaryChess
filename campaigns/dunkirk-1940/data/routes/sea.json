@@ -1,0 +1,306 @@
+[
+  {
+    "id": "r.dk_sea_route_z",
+    "side": "GB",
+    "unit": "gb.wakeful",
+    "style": "main",
+    "widthKm": 2.5,
+    "movement": "sea",
+    "role": "evacuation",
+    "label": "Z 航线 · 史载 39 海里 · 本航迹折线 44 海里 / 81 km · 贴法国海岸，最短但白天受岸炮威胁",
+    "waypoints": [
+      {
+        "at": "1940-05-26T23:10",
+        "pos": "@dunkirk_roads"
+      },
+      {
+        "at": "1940-05-26T23:40",
+        "pos": [
+          2.09,
+          51.01
+        ]
+      },
+      {
+        "at": "1940-05-27T00:10",
+        "pos": [
+          1.85,
+          50.97
+        ]
+      },
+      {
+        "at": "1940-05-27T00:45",
+        "pos": [
+          1.5833,
+          50.93
+        ]
+      },
+      {
+        "at": "1940-05-27T01:10",
+        "pos": "@dover"
+      }
+    ],
+    "sources": [
+      "dynamo_despatch",
+      "dynamo_admiralty",
+      "atkin_1990",
+      "thompson_1956"
+    ],
+    "confidence": "high",
+    "fadeHours": 2
+  },
+  {
+    "id": "r.dk_sea_route_x",
+    "side": "GB",
+    "unit": "gb.keith",
+    "style": "main",
+    "widthKm": 2.5,
+    "movement": "sea",
+    "role": "evacuation",
+    "label": "X 航线 · 史载 51 海里 / 95 km · 本航迹折线 48 海里 / 88 km · 经吕坦让水道—北古德温灯船—绕古德温沙洲南行，最避岸炮但两侧是雷区",
+    "waypoints": [
+      {
+        "at": "1940-05-26T22:20",
+        "pos": "@dunkirk_roads"
+      },
+      {
+        "at": "1940-05-26T22:50",
+        "pos": "@ruytingen_bank"
+      },
+      {
+        "at": "1940-05-27T00:00",
+        "pos": [
+          1.95,
+          51.23
+        ]
+      },
+      {
+        "at": "1940-05-27T01:30",
+        "pos": [
+          1.5,
+          51.29
+        ]
+      },
+      {
+        "at": "1940-05-27T01:55",
+        "pos": "@goodwin_sands"
+      },
+      {
+        "at": "1940-05-27T02:30",
+        "pos": [
+          1.45,
+          51.15
+        ]
+      },
+      {
+        "at": "1940-05-27T02:50",
+        "pos": "@dover"
+      }
+    ],
+    "sources": [
+      "dynamo_despatch",
+      "atkin_1990",
+      "thompson_1956",
+      "dildy_2010"
+    ],
+    "confidence": "high",
+    "fadeHours": 2
+  },
+  {
+    "id": "r.dk_sea_route_y",
+    "side": "GB",
+    "unit": "gb.shikari",
+    "style": "main",
+    "widthKm": 2.5,
+    "movement": "sea",
+    "role": "evacuation",
+    "label": "Y 航线 · 史载 94 海里 / 175 km · 本航迹折线 92 海里 / 170 km · 沿法国海岸至布雷迪讷，向东北经 Kwinte 浮标与西欣德灯船折向西，最易遭 S 艇与潜艇攻击",
+    "waypoints": [
+      {
+        "at": "1940-05-26T20:40",
+        "pos": "@dunkirk_roads"
+      },
+      {
+        "at": "1940-05-26T21:00",
+        "pos": "@bray_dunes"
+      },
+      {
+        "at": "1940-05-26T22:40",
+        "pos": [
+          2.8,
+          51.37
+        ]
+      },
+      {
+        "at": "1940-05-26T23:30",
+        "pos": [
+          2.35,
+          51.45
+        ]
+      },
+      {
+        "at": "1940-05-27T00:20",
+        "pos": [
+          1.5,
+          51.29
+        ]
+      },
+      {
+        "at": "1940-05-27T00:35",
+        "pos": "@the_downs"
+      },
+      {
+        "at": "1940-05-27T00:50",
+        "pos": "@dover"
+      }
+    ],
+    "sources": [
+      "dynamo_despatch",
+      "atkin_1990",
+      "thompson_1956",
+      "dildy_2010"
+    ],
+    "confidence": "high",
+    "fadeHours": 2
+  },
+  {
+    "id": "r.dk_sea_beach_shuttle",
+    "side": "GB",
+    "unit": "gb.medway_queen",
+    "style": "secondary",
+    "widthKm": 0.8,
+    "movement": "sea",
+    "role": "shuttle",
+    "label": "马洛海滩 ↔ 锚地小艇驳运（往返，单程约 4.4 海里）",
+    "waypoints": [
+      {
+        "at": "1940-05-28T21:00",
+        "pos": "@malo_les_bains"
+      },
+      {
+        "at": "1940-05-28T21:35",
+        "pos": "@dunkirk_roads"
+      },
+      {
+        "at": "1940-05-28T22:10",
+        "pos": "@malo_les_bains"
+      },
+      {
+        "at": "1940-05-28T22:45",
+        "pos": "@dunkirk_roads"
+      },
+      {
+        "at": "1940-05-28T23:20",
+        "pos": "@malo_les_bains"
+      },
+      {
+        "at": "1940-05-28T23:55",
+        "pos": "@dunkirk_roads"
+      },
+      {
+        "at": "1940-05-29T00:30",
+        "pos": "@malo_les_bains"
+      }
+    ],
+    "sources": [
+      "adls_register",
+      "divine_1940",
+      "lord_1982"
+    ],
+    "confidence": "medium",
+    "fadeHours": 3
+  },
+  {
+    "id": "r.dk_sea_mole_shuttle",
+    "side": "GB",
+    "unit": "gb.sutton",
+    "style": "secondary",
+    "widthKm": 0.8,
+    "movement": "sea",
+    "role": "shuttle",
+    "label": "东防波堤泊位调度与拖带（往返，单程约 3.2 海里）",
+    "waypoints": [
+      {
+        "at": "1940-05-29T02:00",
+        "pos": "@east_mole"
+      },
+      {
+        "at": "1940-05-29T02:40",
+        "pos": "@dunkirk_roads"
+      },
+      {
+        "at": "1940-05-29T04:00",
+        "pos": "@east_mole"
+      },
+      {
+        "at": "1940-05-29T04:40",
+        "pos": "@dunkirk_roads"
+      },
+      {
+        "at": "1940-05-30T02:00",
+        "pos": "@east_mole"
+      },
+      {
+        "at": "1940-05-30T02:40",
+        "pos": "@dunkirk_roads"
+      },
+      {
+        "at": "1940-06-01T02:00",
+        "pos": "@east_mole"
+      },
+      {
+        "at": "1940-06-01T02:40",
+        "pos": "@dunkirk_roads"
+      }
+    ],
+    "sources": [
+      "dynamo_despatch",
+      "coastal_forces",
+      "national_archives_dynamo"
+    ],
+    "confidence": "medium",
+    "fadeHours": 3
+  },
+  {
+    "id": "r.dk_sea_lapanne_shuttle",
+    "side": "GB",
+    "unit": "gb.halcyon",
+    "style": "secondary",
+    "widthKm": 1.2,
+    "movement": "sea",
+    "role": "shuttle",
+    "label": "拉帕讷海滩 ↔ 锚地驳运（往返，单程约 11.5 海里）",
+    "waypoints": [
+      {
+        "at": "1940-05-28T19:00",
+        "pos": "@la_panne"
+      },
+      {
+        "at": "1940-05-28T20:30",
+        "pos": "@dunkirk_roads"
+      },
+      {
+        "at": "1940-05-28T22:00",
+        "pos": "@la_panne"
+      },
+      {
+        "at": "1940-05-28T23:30",
+        "pos": "@dunkirk_roads"
+      },
+      {
+        "at": "1940-05-29T19:00",
+        "pos": "@la_panne"
+      },
+      {
+        "at": "1940-05-29T20:30",
+        "pos": "@dunkirk_roads"
+      }
+    ],
+    "sources": [
+      "dynamo_despatch",
+      "coastal_forces",
+      "divine_1940"
+    ],
+    "confidence": "medium",
+    "fadeHours": 3
+  }
+]

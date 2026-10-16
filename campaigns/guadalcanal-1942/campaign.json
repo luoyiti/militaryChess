@@ -21,7 +21,7 @@
     { "id": "JP", "name": "日本", "coalition": "axis", "css": { "main": "#8a6d3b" } }
   ],
   "hub": {
-    "order": 10,
+    "order": 12,
     "codename": "瞭望塔行动",
     "codenameOrig": "WATCHTOWER",
     "stencil": "GUADALCANAL",

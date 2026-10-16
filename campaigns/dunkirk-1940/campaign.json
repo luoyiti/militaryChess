@@ -1,0 +1,993 @@
+{
+  "schemaVersion": 2,
+  "id": "dunkirk-1940",
+  "status": "published",
+  "title": {
+    "mark": "1940",
+    "zh": "敦刻尔克大撤退",
+    "sub": "发电机行动 · 战旗推演",
+    "en": "The Dunkirk Evacuation",
+    "orig": "Operation Dynamo",
+    "codename": "发电机行动",
+    "html": "1940 · 敦刻尔克大撤退 — 战旗推演",
+    "description": "1940 年 5 月 26 日至 6 月 4 日，英国远征军与法、比盟军被围困在佛兰德海岸：加来与布洛涅相继陷落，比利时投降，德军十九个师压向敦刻尔克桥头堡。三十三万八千人从东防波堤与海滩登船撤回英国。复古作战室风格战旗推演：部队推进、战线变化、时间轴与事件档案。",
+    "favicon": "#b3262e"
+  },
+  "time": {
+    "epoch": "1940-05-22T00:00",
+    "start": "1940-05-26T00:00",
+    "end": "1940-06-04T14:23",
+    "dataEnd": "1940-06-04T23:59",
+    "tzLabel": "英国夏令时 BST（UTC+1）· 与法国、比利时当地时间相同",
+    "hoursPerSec": 6,
+    "utcOffset": 1,
+    "pace": [
+      {
+        "from": "1940-05-26T00:00",
+        "hoursPerSec": 6
+      },
+      {
+        "from": "1940-05-27T06:00",
+        "hoursPerSec": 4
+      },
+      {
+        "from": "1940-05-28T00:00",
+        "hoursPerSec": 3
+      },
+      {
+        "from": "1940-05-29T00:00",
+        "hoursPerSec": 2.4
+      },
+      {
+        "from": "1940-05-31T00:00",
+        "hoursPerSec": 1.8
+      },
+      {
+        "from": "1940-06-01T00:00",
+        "hoursPerSec": 1.2
+      },
+      {
+        "from": "1940-06-02T20:00",
+        "hoursPerSec": 0.8
+      },
+      {
+        "from": "1940-06-03T20:00",
+        "hoursPerSec": 0.5
+      }
+    ]
+  },
+  "sides": [
+    {
+      "id": "DE",
+      "prefix": "de",
+      "name": "德国",
+      "nation": "DE",
+      "coalition": "axis",
+      "counter": {
+        "bg": "#56708f",
+        "edge": "#2a3a52",
+        "text": "#f4efe2",
+        "box": "#eef0ea",
+        "ink": "#1f3558"
+      },
+      "css": {
+        "main": "#3a5887",
+        "dark": "#1f3558"
+      },
+      "arrow": {
+        "fill": "rgba(52,84,132,0.62)",
+        "stroke": "#1f3558"
+      },
+      "planesFrom": "E",
+      "sandbox": "#3a5887",
+      "defaultModel": "inf_de"
+    },
+    {
+      "id": "GB",
+      "prefix": "gb",
+      "name": "英国",
+      "nation": "GB",
+      "coalition": "allies",
+      "counter": {
+        "bg": "#b8443f",
+        "edge": "#6e1f1f",
+        "text": "#f4efe2",
+        "box": "#f7eeee",
+        "ink": "#7a1a1f"
+      },
+      "css": {
+        "main": "#b3262e",
+        "dark": "#7a1a1f"
+      },
+      "arrow": {
+        "fill": "rgba(179,38,46,0.62)",
+        "stroke": "#7a1a1f"
+      },
+      "planesFrom": "W",
+      "sandbox": "#b3262e",
+      "defaultModel": "inf_gb",
+      "commandMark": "BEF"
+    },
+    {
+      "id": "FR",
+      "prefix": "fr",
+      "name": "法国",
+      "nation": "FR",
+      "coalition": "allies",
+      "counter": {
+        "bg": "#2a5a94",
+        "edge": "#163864",
+        "text": "#f4efe2",
+        "box": "#eef3f8",
+        "ink": "#163864"
+      },
+      "css": {
+        "main": "#1f4e89",
+        "dark": "#163864"
+      },
+      "arrow": {
+        "fill": "rgba(36,78,140,0.62)",
+        "stroke": "#163864"
+      },
+      "sandbox": "#1f4e89",
+      "defaultModel": "inf_pl",
+      "commandMark": "AN"
+    },
+    {
+      "id": "BE",
+      "prefix": "be",
+      "name": "比利时",
+      "nation": "BE",
+      "coalition": "allies",
+      "counter": {
+        "bg": "#8d7346",
+        "edge": "#5c4a28",
+        "text": "#fbf6ea",
+        "box": "#f6efe0",
+        "ink": "#5c4a28"
+      },
+      "css": {
+        "main": "#8a7044",
+        "dark": "#5c4a28"
+      },
+      "arrow": {
+        "fill": "rgba(122,98,58,0.66)",
+        "stroke": "#5c4a28"
+      },
+      "sandbox": "#8a7044",
+      "defaultModel": "inf_pl"
+    }
+  ],
+  "sideOrder": [
+    "DE",
+    "GB",
+    "FR",
+    "BE"
+  ],
+  "control": {
+    "mode": "territory",
+    "landBit": 4,
+    "theatreBits": [
+      0
+    ],
+    "slots": [
+      {
+        "key": "DE",
+        "label": "德军控制区（斜线）",
+        "homeBits": [
+          1,
+          6
+        ]
+      },
+      {
+        "key": "AL",
+        "label": "（第二占领槽，敦刻尔克战役不用）",
+        "homeBits": [
+          2,
+          3
+        ]
+      }
+    ],
+    "remainder": {
+      "label": "同盟国控制（敦刻尔克桥头堡）",
+      "fill": "rgba(179,38,46,0.07)"
+    }
+  },
+  "phases": [
+    {
+      "id": "p.launch",
+      "from": "1940-05-26T00:00",
+      "to": "1940-05-28T00:00",
+      "name": "第一阶段 · 发电机启动",
+      "short": "发电机启动",
+      "sub": "加来陷落；第一批部队从敦刻尔克港登船",
+      "center": [
+        2.2,
+        50.95
+      ],
+      "zoom": 2.6
+    },
+    {
+      "id": "p.crisis",
+      "from": "1940-05-28T00:00",
+      "to": "1940-06-01T00:00",
+      "name": "第二阶段 · 桥头堡与海滩",
+      "short": "桥头堡与海滩",
+      "sub": "比利时投降、利斯河防线崩溃；东防波堤成为主通道，卡塞尔与贝尔格血战",
+      "center": [
+        2.5,
+        50.95
+      ],
+      "zoom": 2.4
+    },
+    {
+      "id": "p.night",
+      "from": "1940-06-01T00:00",
+      "to": "1940-06-04T14:23",
+      "name": "第三阶段 · 夜航与殿后",
+      "short": "夜航与殿后",
+      "sub": "昼间撤离被迫停止；法军殿后部队坚守到 6 月 4 日上午投降",
+      "center": [
+        2.42,
+        51.02
+      ],
+      "zoom": 2.8
+    }
+  ],
+  "marks": [
+    [
+      "1940-05-26T16:00",
+      "加来陷落"
+    ],
+    [
+      "1940-05-26T18:57",
+      "发电机启动"
+    ],
+    [
+      "1940-05-28T04:00",
+      "比利时投降"
+    ],
+    [
+      "1940-05-28T22:00",
+      "退入桥头堡"
+    ],
+    [
+      "1940-05-30T06:00",
+      "卡塞尔陷落"
+    ],
+    [
+      "1940-05-31T23:59",
+      "里尔口袋投降（午夜停火）"
+    ],
+    [
+      "1940-06-01T12:00",
+      "最后的昼间撤离"
+    ],
+    [
+      "1940-06-02T07:00",
+      "昼间撤离停止"
+    ],
+    [
+      "1940-06-02T22:00",
+      "贝尔格陷落"
+    ],
+    [
+      "1940-06-04T09:00",
+      "法军投降"
+    ],
+    [
+      "1940-06-04T14:23",
+      "行动终止"
+    ]
+  ],
+  "theme": {
+    "accent": "#b3262e",
+    "accentDark": "#7a1a1f",
+    "accentTint": "rgba(179,38,46,.08)",
+    "theatreBorder": "#8a7044",
+    "theatreHalo": "rgba(138,112,68,.20)",
+    "restFill": "rgba(179,38,46,.07)"
+  },
+  "map": {
+    "fit": "frame",
+    "home3d": [
+      2.45,
+      50.98
+    ],
+    "focus": [
+      2.45,
+      50.98
+    ],
+    "hexKm": 8,
+    "hexOverSea": false,
+    "theatreCountries": [
+      "BE",
+      "FR"
+    ],
+    "labels": {
+      "countries": [
+        [
+          "法 国",
+          1.35,
+          50.25,
+          26,
+          0.35
+        ],
+        [
+          "比 利 时",
+          3.55,
+          50.85,
+          20,
+          0.5
+        ],
+        [
+          "荷 兰",
+          4.15,
+          51.62,
+          15,
+          1.1
+        ],
+        [
+          "英 国",
+          0.95,
+          51.72,
+          22,
+          0.75
+        ],
+        [
+          "德 国",
+          6.05,
+          51.65,
+          15,
+          1.6
+        ]
+      ],
+      "waters": [
+        [
+          "英 吉 利 海 峡",
+          0.92,
+          50.62,
+          20,
+          false,
+          0
+        ],
+        [
+          "加 来 海 峡",
+          1.78,
+          51.12,
+          14,
+          false,
+          0.55
+        ],
+        [
+          "北 海",
+          3.2,
+          51.72,
+          18,
+          false,
+          0
+        ],
+        [
+          "多 佛 海 峡",
+          1.45,
+          51.02,
+          11,
+          false,
+          1.4
+        ],
+        [
+          "敦 刻 尔 克 锚 地",
+          2.2,
+          51.09,
+          10,
+          false,
+          2.2
+        ],
+        [
+          "佛 兰 德",
+          2.95,
+          50.95,
+          15,
+          false,
+          1.2
+        ],
+        [
+          "阿 登 讷",
+          4.85,
+          50.05,
+          14,
+          true,
+          1.2
+        ]
+      ]
+    },
+    "portMarkers": true,
+    "labelHubs": {
+      "dunkirk": [
+        26,
+        -14
+      ],
+      "east_mole": [
+        34,
+        8
+      ],
+      "dover": [
+        -30,
+        10
+      ],
+      "calais": [
+        -24,
+        -12
+      ],
+      "boulogne": [
+        -28,
+        8
+      ],
+      "oostende": [
+        16,
+        12
+      ],
+      "nieuwpoort": [
+        -10,
+        16
+      ],
+      "la_panne": [
+        -32,
+        -14
+      ],
+      "bergues": [
+        12,
+        14
+      ],
+      "cassel": [
+        -12,
+        -14
+      ],
+      "lille": [
+        10,
+        -16
+      ],
+      "brugge": [
+        14,
+        -12
+      ],
+      "gent": [
+        14,
+        10
+      ],
+      "ramsgate": [
+        22,
+        12
+      ]
+    },
+    "regions": [
+      {
+        "id": "dunkirk",
+        "label": "敦刻尔克",
+        "center": [
+          2.42,
+          51.03
+        ],
+        "zoom": 5
+      },
+      {
+        "id": "beaches",
+        "label": "海滩",
+        "center": [
+          2.55,
+          51.08
+        ],
+        "zoom": 4.6
+      },
+      {
+        "id": "east",
+        "label": "东段与尼乌波特",
+        "center": [
+          2.75,
+          51.1
+        ],
+        "zoom": 3.4
+      },
+      {
+        "id": "perimeter",
+        "label": "桥头堡运河线",
+        "center": [
+          2.45,
+          50.95
+        ],
+        "zoom": 3
+      },
+      {
+        "id": "channel",
+        "label": "海峡与航线",
+        "center": [
+          1.85,
+          51.05
+        ],
+        "zoom": 1.9
+      },
+      {
+        "id": "lys",
+        "label": "利斯河与里尔",
+        "center": [
+          2.95,
+          50.72
+        ],
+        "zoom": 2.2
+      }
+    ],
+    "returnZoom": 1.12,
+    "maxZoom": 26,
+    "initialView": {
+      "center": [
+        2.45,
+        50.98
+      ],
+      "zoom": 1.6
+    },
+    "unitZoom": [
+      2.4,
+      3.4,
+      5
+    ],
+    "mobileZoomCap": 8,
+    "mapKey": "<b>1940 年 5 月 26 日 — 6 月 4 日</b>：德军控制区（斜线）· 敦刻尔克桥头堡（红）· 三条撤离航线（X / Y / Z）· 东防波堤为主要登船点"
+  },
+  "naval": {
+    "tacticalZoom": 9,
+    "shipPx": [
+      24,
+      84
+    ],
+    "trackTicks": 20,
+    "fleetTicks": 12,
+    "wakeMin": 25,
+    "chartGrid": 5,
+    "rangeUnit": "nm",
+    "signals": true
+  },
+  "display": {
+    "hqPassThrough": true,
+    "counterSideCode": true,
+    "statusEchelons": "divisions"
+  },
+  "sandbox": {
+    "kind": "terrain",
+    "exaggeration": 4,
+    "figScale": 15,
+    "target": [
+      2.45,
+      50.98
+    ],
+    "typeModels": {
+      "naval": "navy_token",
+      "air": "air_token",
+      "aviation": "air_token",
+      "fighter": "air_token",
+      "bomber": "air_token",
+      "airborne": "para_de",
+      "marine": "inf_allied",
+      "artillery": "art_gun"
+    },
+    "softwareFallback": true
+  },
+  "director": {
+    "camera": "frame",
+    "dwell": [
+      5200,
+      8000
+    ],
+    "returnTo": "point",
+    "returnCenter": [
+      2.45,
+      50.98
+    ],
+    "wideGoesHome": true,
+    "defaultZoom": [
+      4.2,
+      2.4
+    ],
+    "sirens": [
+      {
+        "events": [
+          "e.dk_air_27may",
+          "e.dk_air_29may",
+          "e.dk_air_1jun"
+        ],
+        "maxImportance": 2,
+        "sfx": "air_siren",
+        "volume": 0.5
+      },
+      {
+        "category": "surrender",
+        "maxImportance": 2,
+        "sfx": "radio",
+        "volume": 0.42
+      }
+    ]
+  },
+  "audio": {
+    "music": [
+      {
+        "from": "1940-05-26T00:00",
+        "track": "elegy"
+      },
+      {
+        "from": "1940-05-28T00:00",
+        "track": "operations"
+      },
+      {
+        "from": "1940-05-31T12:00",
+        "track": "polonaise"
+      },
+      {
+        "from": "1940-06-03T12:00",
+        "track": "elegy"
+      }
+    ],
+    "intensity": [
+      {
+        "from": "1940-05-25T00:00",
+        "value": 0.12
+      },
+      {
+        "from": "1940-05-26T00:00",
+        "value": 0.42
+      },
+      {
+        "from": "1940-05-27T12:00",
+        "value": 0.62
+      },
+      {
+        "from": "1940-05-28T04:00",
+        "value": 0.78
+      },
+      {
+        "from": "1940-05-29T06:00",
+        "value": 0.88
+      },
+      {
+        "from": "1940-05-31T00:00",
+        "value": 0.8
+      },
+      {
+        "from": "1940-06-02T00:00",
+        "value": 0.55
+      },
+      {
+        "from": "1940-06-04T09:00",
+        "value": 0.22
+      }
+    ],
+    "battleSfx": [
+      "artillery",
+      "mg",
+      "ship_gun"
+    ],
+    "introSting": "hejnal",
+    "introStingVolume": 0.5,
+    "volumePanel": true
+  },
+  "ui": {
+    "layers": {
+      "control": {
+        "label": "控制区"
+      },
+      "front": {
+        "label": "战线（接触线）"
+      },
+      "routes": {
+        "label": "当前推进与撤离"
+      },
+      "routesFull": {
+        "label": "完整路线"
+      },
+      "pockets": {
+        "label": "包围圈"
+      },
+      "demarcation": {
+        "label": "撤离线与桥头堡界线"
+      },
+      "events": {
+        "label": "历史事件"
+      },
+      "cities": {
+        "label": "城镇与港口"
+      }
+    },
+    "extraLayers": [
+      {
+        "key": "defences",
+        "label": "桥头堡与防线",
+        "default": true
+      },
+      {
+        "key": "airbases",
+        "label": "机场与雷达",
+        "default": false
+      },
+      {
+        "key": "evacuation",
+        "label": "撤离航线示意",
+        "default": true
+      }
+    ],
+    "layerOrder": [
+      "units",
+      "control",
+      "front",
+      "routes",
+      "routesFull",
+      "pockets",
+      "demarcation",
+      "defences",
+      "airbases",
+      "evacuation",
+      "events",
+      "cities",
+      "rivers",
+      "forest",
+      "marsh",
+      "hex",
+      "terrain"
+    ],
+    "chapterNav": "timeline",
+    "precisionStyle": "dot",
+    "timeline": {
+      "jump": true,
+      "dateInput": true,
+      "dateSuffix": " · 1940"
+    },
+    "tourOpensFirstEvent": true,
+    "labels": {
+      "echelons": {
+        "ship": "舰船"
+      },
+      "types": {
+        "naval": "海军",
+        "air": "航空兵",
+        "fighter": "战斗机",
+        "bomber": "轰炸机",
+        "fortress": "要塞"
+      }
+    },
+    "brief": {
+      "title": "1940 敦刻尔克大撤退",
+      "sub": "Operation Dynamo · 发电机行动",
+      "sub2": "1940.5.26 — 1940.6.4",
+      "stamp": "MOST SECRET · 绝密",
+      "fine": "兵力与损失数字为常见区间，各方口径不一（见下方口径说明）。地图上的舰队位置为登船与航渡的示意，不是逐舰实测航迹。",
+      "notes": "details",
+      "notesTitle": "数字口径",
+      "sideColumns": 2,
+      "byPhase": true,
+      "losses": true,
+      "menFormat": "auto"
+    },
+    "status": {
+      "cells": [
+        {
+          "sides": [
+            "GB"
+          ],
+          "metric": "out",
+          "label": "英军已撤离或退出战斗",
+          "cls": "out"
+        },
+        {
+          "sides": [
+            "GB",
+            "FR",
+            "BE"
+          ],
+          "metric": "act",
+          "label": "盟军单位在战"
+        },
+        {
+          "sides": [
+            "FR"
+          ],
+          "metric": "enc",
+          "label": "被围法军",
+          "cls": "enc"
+        },
+        {
+          "sides": [
+            "FR",
+            "BE"
+          ],
+          "metric": "out",
+          "label": "已投降或撤出",
+          "cls": "out"
+        },
+        {
+          "sides": [
+            "DE"
+          ],
+          "metric": "act",
+          "label": "德军单位在战"
+        }
+      ]
+    },
+    "legend": {
+      "title": "棋子与图例",
+      "counterLabels": true,
+      "counters": [
+        [
+          "DE",
+          "armor",
+          "division",
+          "德军装甲师|Pz"
+        ],
+        [
+          "DE",
+          "motorized",
+          "division",
+          "德军摩托化师|mot"
+        ],
+        [
+          "DE",
+          "infantry",
+          "division",
+          "德军步兵师|Inf"
+        ],
+        [
+          "GB",
+          "infantry",
+          "division",
+          "英军步兵师|BEF"
+        ],
+        [
+          "GB",
+          "fighter",
+          "squadron",
+          "RAF 战斗机中队|RAF"
+        ],
+        [
+          "FR",
+          "infantry",
+          "division",
+          "法军步兵师|DI"
+        ],
+        [
+          "BE",
+          "infantry",
+          "division",
+          "比军步兵师|BE"
+        ],
+        [
+          "DE",
+          "hq",
+          "army",
+          "集团军指挥部"
+        ],
+        [
+          "GB",
+          "naval",
+          "ship",
+          "皇家海军舰船|RN"
+        ]
+      ],
+      "items": [
+        "<i class=\"lg-fill a\"></i>德军控制区（斜线）",
+        "<i class=\"lg-fill\"></i>同盟国控制（敦刻尔克桥头堡）",
+        "<i class=\"lg-front\"></i>战线（接触线）",
+        "<i class=\"lg-pocket\"></i>包围圈（加来、布洛涅、里尔、敦刻尔克）",
+        "<i class=\"lg-demarc\"></i>桥头堡界线与撤离线（示意）",
+        "<i class=\"lg-route\"></i>推进箭头 · <i class=\"lg-sea\"></i>撤离航线（X / Y / Z）"
+      ],
+      "statuses": "交战 · 被围 · 撤退 · 已撤离 · 投降 · 覆灭",
+      "after": "撤离人数以英方海军部战后统计为准（338,226 人）；德军控制区为示意，界线沿运河与公路网简化。"
+    },
+    "pocketFate": {
+      "surrendered": "投降",
+      "broke_out": "突围",
+      "relieved": "解围",
+      "destroyed": "被歼",
+      "handed_over": "移交"
+    },
+    "modelLabels": {
+      "inf_de": "德军步兵班（示意）",
+      "inf_gb": "英军步兵班（示意）",
+      "inf_pl": "步兵班（示意，非法军/比军制服）",
+      "navy_token": "舰船标记（缩略示意）",
+      "air_token": "飞机标记（缩略示意）"
+    },
+    "categoryLabels": {
+      "air": "空袭",
+      "naval": "海上",
+      "movement": "转进",
+      "siege": "围城"
+    }
+  },
+  "intro": {
+    "stamp": "MOST SECRET · 绝密",
+    "kicker": "作战档案 No. 1940 / DYNAMO",
+    "title": "敦刻尔克大撤退",
+    "en": "Operation Dynamo · The Dunkirk Evacuation",
+    "dates": "1940年5月26日 — 6月4日",
+    "paragraphs": [
+      "5 月 10 日德军发动黄色方案，装甲部队穿过阿登，5 月 20 日抵达英吉利海峡，把北方盟军四十余万人截断在佛兰德。5 月 24 日希特勒下令装甲部队停止前进，盟军赢得三昼夜喘息。5 月 26 日傍晚，英国海军部下令启动发电机行动。",
+      "加来在 26 日黄昏陷落，布洛涅两天前已失守。5 月 28 日凌晨比利时军队停止抵抗，敦刻尔克东侧出现二十英里空隙；英军第一军与第二军退入沿运河构成的桥头堡。德军十九个师从南、东两面压上，卡塞尔、贝尔格、尼乌波特逐村血战。",
+      "东防波堤——一条本不适合靠泊的狭长栈桥——成了最大的登船点：近二十万人在此上船。英国海军出动 39 艘驱逐舰、上百艘扫雷舰与拖网渔船，加上近七百艘征用的游艇、明轮船与泰晤士驳船，九昼夜往返海峡。6 月 4 日上午九时，殿后的四万法军投降。三十三万八千人撤回英国，代价是全部重装备与四万被俘的同伴。"
+    ],
+    "operation": {
+      "code": "DYNAMO",
+      "coords": "51°02′N 02°22′E",
+      "label": "行动区：敦刻尔克—多佛"
+    },
+    "how": "共 {units} 支部队、{events} 个历史事件、{keyframes} 个战线关键帧。战线为运河与公路网的简化示意，部队位置按日记与战史逐日布点，不是实测阵地图。",
+    "note": "建议开启声音 · 鼠标滚轮缩放、拖动平移 · 支持时间轴跳转与导演模式 · 历史示意图，边界与位置为近似",
+    "photo": "File:Dunkirk 26-29 May 1940 NYP68075.jpg",
+    "caption": "1940 年 5 月 26—29 日，英军士兵在敦刻尔克海滩排队等待登船"
+  },
+  "credits": {
+    "geodata": [
+      "<b>Natural Earth 1:10m</b>（陆地、海岸线、河流、湖泊）— 公有领域",
+      "<b>Natural Earth 1:10m 国界</b> — 1940 年 5 月法国本土南界、比荷德边界与今日一致（欧本—马尔梅迪 1920 年起属比利时），故直接采用现代海岸与国界",
+      "<b>historical-basemaps world_1938</b>（A. Ourednik 等）— GPL-3.0，用于核对 1940 年的国界形态",
+      "<b>Terrain Tiles (Terrarium)</b> — Mapzen / AWS Open Data；SRTM、GMTED2010、ETOPO1 等（3D 沙盘高程与海图水深）"
+    ],
+    "disclaimer": "本战役为历史教学与推演用途，不作任何政治或军事主张。所有历史事件、部队番号、指挥官与数字均注明来源；地图上的部队位置为按战史逐日编排的示意。",
+    "extraHtml": "<p>1940 年 5 月 26 日时，本图幅内的国家状况：德国（含 1940 年 5 月 15 日投降后的荷兰）由德军控制，比利时正在被入侵，法国本土西部与敦刻尔克桥头堡仍由盟军据守，英国本土为盟军后方。加来与布洛涅在此前已是孤立的围城据点。</p>",
+    "sections": [
+      [
+        "照片",
+        "photos"
+      ],
+      [
+        "音效",
+        "audio"
+      ],
+      [
+        "音乐",
+        "music"
+      ],
+      [
+        "字体",
+        "fonts"
+      ]
+    ]
+  },
+  "hub": {
+    "order": 4,
+    "codename": "发电机行动",
+    "codenameOrig": "OPERATION DYNAMO",
+    "stencil": "DUNKIRK",
+    "pin": [
+      2.42,
+      51.03
+    ],
+    "labelAt": "w",
+    "region": "europe",
+    "theatre": {
+      "bbox": [
+        0.55,
+        49.92,
+        4.62,
+        51.85
+      ],
+      "kind": "land"
+    },
+    "blurb": "装甲部队冲到海峡岸边，把四十万盟军关进佛兰德海岸。九昼夜，三十九艘驱逐舰与近七百艘小船往返加来海峡，从东防波堤与海滩上撤出三十三万八千人。",
+    "cover": "photos/dunkirk-26-29-may-1940-nyp68075-dabb26.webp"
+  },
+  "validation": {
+    "speeds": {
+      "infantry": 52,
+      "motorized": 110,
+      "armor": 110,
+      "hq": 140,
+      "cavalry": 70,
+      "artillery": 55,
+      "reserve": 52
+    },
+    "bodyLength": [
+      80,
+      175
+    ],
+    "slotEmptyBefore": {
+      "AL": "1940-06-04T23:59"
+    }
+  }
+}

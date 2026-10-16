@@ -1,0 +1,63 @@
+{
+ "at": "1940-06-01T12:00",
+ "control": {
+  "DE": [
+   [
+    [
+     [
+      -1.6,
+      48.3
+     ],
+     [
+      6.6,
+      48.3
+     ],
+     [
+      6.6,
+      52.9
+     ],
+     [
+      4.2483,
+      52.9
+     ],
+     "@terneuzen",
+     "@eeklo",
+     "@brugge",
+     "@oostende",
+     "@nieuwpoort",
+     "@adinkerke",
+     "@ghyvelde",
+     [
+      2.5,
+      50.925
+     ],
+     [
+      2.4,
+      50.915
+     ],
+     "@spycker",
+     "@grande_synthe",
+     "@loon_plage",
+     [
+      2.1558,
+      52.9
+     ],
+     [
+      -1.6,
+      52.9
+     ]
+    ]
+   ]
+  ]
+ },
+ "note": "德军猛攻贝尔格；东段退向尼乌波特—拉帕讷",
+ "sources": [
+  "ellis_1953",
+  "frieser_2005",
+  "guderian_ktb",
+  "kleist_ktb",
+  "hyperwar_dunkirk",
+  "sebag_2006"
+ ],
+ "confidence": "medium"
+}

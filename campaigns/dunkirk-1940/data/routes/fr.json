@@ -1,0 +1,671 @@
+[
+  {
+    "id": "r.dk_fr_retreat_1ca",
+    "side": "FR",
+    "unit": "fr.1ca_det",
+    "style": "retreat",
+    "widthKm": 9,
+    "label": "第 1 军方向撤向敦刻尔克",
+    "waypoints": [
+      {
+        "at": "1940-05-26T00:00",
+        "pos": "@lille"
+      },
+      {
+        "at": "1940-05-28T00:00",
+        "pos": [
+          2.9,
+          50.66
+        ]
+      },
+      {
+        "at": "1940-05-29T12:00",
+        "pos": [
+          2.62,
+          50.82
+        ]
+      },
+      {
+        "at": "1940-05-31T12:00",
+        "pos": "@dunkirk"
+      }
+    ],
+    "sources": [
+      "french_army_1940",
+      "ellis_lille_1952",
+      "lord_1982"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "r.dk_fr_12dim_retreat",
+    "side": "FR",
+    "unit": "fr.12dim",
+    "style": "retreat",
+    "widthKm": 8,
+    "label": "第 12 摩托化步兵师退入桥头堡西段",
+    "waypoints": [
+      {
+        "at": "1940-05-26T00:00",
+        "pos": [
+          3.05,
+          50.5
+        ]
+      },
+      {
+        "at": "1940-05-28T12:00",
+        "pos": [
+          2.7,
+          50.75
+        ]
+      },
+      {
+        "at": "1940-05-30T12:00",
+        "pos": "@bourbourg"
+      }
+    ],
+    "sources": [
+      "vaillant_1940",
+      "sumner_1998",
+      "sebag_2006"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "r.dk_fr_12dim_canal",
+    "side": "FR",
+    "unit": "fr.12dim",
+    "style": "counter",
+    "widthKm": 6,
+    "label": "洛翁普拉日—布尔堡运河防御",
+    "waypoints": [
+      {
+        "at": "1940-05-30T12:00",
+        "pos": "@bourbourg"
+      },
+      {
+        "at": "1940-06-01T12:00",
+        "pos": "@loon_plage"
+      },
+      {
+        "at": "1940-06-03T12:00",
+        "pos": "@cappelle_la_grande"
+      },
+      {
+        "at": "1940-06-04T06:00",
+        "pos": "@malo_les_bains"
+      }
+    ],
+    "sources": [
+      "vaillant_1940",
+      "sumner_1998",
+      "atkin_1990"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "r.dk_fr_262di_bergues",
+    "side": "FR",
+    "unit": "fr.262di",
+    "style": "counter",
+    "widthKm": 6,
+    "label": "第 262 步兵师贝尔格运河线",
+    "waypoints": [
+      {
+        "at": "1940-05-26T12:00",
+        "pos": "@bergues"
+      },
+      {
+        "at": "1940-05-30T12:00",
+        "pos": "@spycker"
+      },
+      {
+        "at": "1940-06-01T12:00",
+        "pos": "@hoymille"
+      },
+      {
+        "at": "1940-06-02T23:00",
+        "pos": "@dunkirk"
+      }
+    ],
+    "sources": [
+      "lutfalla_1973",
+      "french_army_1940",
+      "sumner_1998",
+      "abrial_1940"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "r.dk_fr_68di_east",
+    "side": "FR",
+    "unit": "fr.68di",
+    "style": "retreat",
+    "widthKm": 8,
+    "label": "第 68 步兵师退守东段",
+    "waypoints": [
+      {
+        "at": "1940-05-26T00:00",
+        "pos": [
+          3.05,
+          51.12
+        ]
+      },
+      {
+        "at": "1940-05-28T12:00",
+        "pos": "@veurne"
+      },
+      {
+        "at": "1940-06-01T12:00",
+        "pos": "@la_panne"
+      },
+      {
+        "at": "1940-06-03T12:00",
+        "pos": "@bray_dunes"
+      }
+    ],
+    "sources": [
+      "french_army_1940",
+      "sebag_2006",
+      "atkin_1990"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "r.dk_fr_60di_ysser",
+    "side": "FR",
+    "unit": "fr.60di",
+    "style": "retreat",
+    "widthKm": 7,
+    "label": "第 60 步兵师伊瑟河—马洛海滩",
+    "waypoints": [
+      {
+        "at": "1940-05-26T00:00",
+        "pos": [
+          2.87,
+          51.03
+        ]
+      },
+      {
+        "at": "1940-05-30T12:00",
+        "pos": "@adinkerke"
+      },
+      {
+        "at": "1940-06-01T12:00",
+        "pos": "@la_panne"
+      },
+      {
+        "at": "1940-06-03T20:00",
+        "pos": "@malo_les_bains"
+      }
+    ],
+    "sources": [
+      "french_army_1940",
+      "sebag_2006",
+      "ellis_1953"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "r.dk_fr_16ca_west",
+    "side": "FR",
+    "unit": "fr.16ca",
+    "style": "counter",
+    "widthKm": 8,
+    "label": "桥头堡西段格拉沃利讷—洛翁普拉日防线",
+    "waypoints": [
+      {
+        "at": "1940-05-26T00:00",
+        "pos": "@gravelines"
+      },
+      {
+        "at": "1940-05-27T12:00",
+        "pos": "@bourbourg"
+      },
+      {
+        "at": "1940-05-29T00:00",
+        "pos": "@loon_plage"
+      },
+      {
+        "at": "1940-06-01T12:00",
+        "pos": "@dunkirk"
+      }
+    ],
+    "sources": [
+      "abrial_1940",
+      "french_army_1940",
+      "ellis_1953"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "r.dk_fr_lille_defense",
+    "side": "FR",
+    "unit": "fr.5ca",
+    "style": "counter",
+    "widthKm": 7,
+    "label": "里尔口袋防御",
+    "waypoints": [
+      {
+        "at": "1940-05-26T00:00",
+        "pos": "@lille"
+      },
+      {
+        "at": "1940-05-28T19:30",
+        "pos": [
+          2.99,
+          50.61
+        ]
+      },
+      {
+        "at": "1940-05-30T12:00",
+        "pos": "@lille"
+      },
+      {
+        "at": "1940-05-31T12:00",
+        "pos": "@lille"
+      }
+    ],
+    "sources": [
+      "ellis_lille_1952",
+      "french_army_1940",
+      "sebag_2006",
+      "ellis_1953"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "r.dk_fr_lille_breakout",
+    "side": "FR",
+    "unit": "fr.3ca",
+    "style": "breakout",
+    "widthKm": 4,
+    "label": "里尔口袋向西突围",
+    "waypoints": [
+      {
+        "at": "1940-05-28T19:30",
+        "pos": "@lille"
+      },
+      {
+        "at": "1940-05-28T23:00",
+        "pos": [
+          2.95,
+          50.6
+        ]
+      },
+      {
+        "at": "1940-05-29T10:00",
+        "pos": [
+          2.92,
+          50.59
+        ]
+      }
+    ],
+    "sources": [
+      "ellis_lille_1952",
+      "french_army_1940",
+      "sebag_2006",
+      "ellis_1953"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "r.dk_fr_sect_fort",
+    "side": "FR",
+    "unit": "fr.sect_fort",
+    "style": "counter",
+    "widthKm": 5,
+    "label": "佛兰德要塞区防线",
+    "waypoints": [
+      {
+        "at": "1940-05-26T00:00",
+        "pos": "@bray_dunes"
+      },
+      {
+        "at": "1940-05-29T12:00",
+        "pos": "@ghyvelde"
+      },
+      {
+        "at": "1940-06-02T23:00",
+        "pos": "@dunkirk"
+      }
+    ],
+    "sources": [
+      "french_army_1940",
+      "sumner_1998"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "r.dk_fr_east_mole",
+    "side": "FR",
+    "unit": "fr.1ca_det",
+    "style": "retreat",
+    "widthKm": 3,
+    "movement": "land",
+    "role": "evacuation",
+    "label": "经东防波堤登船",
+    "waypoints": [
+      {
+        "at": "1940-05-31T12:00",
+        "pos": "@dunkirk"
+      },
+      {
+        "at": "1940-06-01T02:00",
+        "pos": "@dunkirk_port"
+      },
+      {
+        "at": "1940-06-01T03:00",
+        "pos": "@east_mole"
+      }
+    ],
+    "sources": [
+      "lord_1982",
+      "atkin_1990",
+      "hyperwar_dunkirk"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "r.dk_fr_malo_beach",
+    "side": "FR",
+    "unit": "fr.60di",
+    "style": "retreat",
+    "widthKm": 5,
+    "movement": "land",
+    "role": "evacuation",
+    "label": "马洛莱班海滩集结",
+    "waypoints": [
+      {
+        "at": "1940-06-01T12:00",
+        "pos": "@la_panne"
+      },
+      {
+        "at": "1940-06-03T12:00",
+        "pos": "@bray_dunes"
+      },
+      {
+        "at": "1940-06-03T20:00",
+        "pos": "@malo_les_bains"
+      }
+    ],
+    "sources": [
+      "sebag_2006",
+      "atkin_1990",
+      "lord_1982"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "r.dk_fr_night_embark",
+    "side": "FR",
+    "unit": "fr.16ca",
+    "style": "retreat",
+    "widthKm": 4,
+    "movement": "land",
+    "role": "evacuation",
+    "label": "6-2 至 6-4 夜航前集结",
+    "waypoints": [
+      {
+        "at": "1940-06-02T00:00",
+        "pos": "@dunkirk"
+      },
+      {
+        "at": "1940-06-03T22:00",
+        "pos": "@dunkirk_port"
+      },
+      {
+        "at": "1940-06-04T01:00",
+        "pos": "@east_mole"
+      },
+      {
+        "at": "1940-06-04T03:00",
+        "pos": "@dunkirk_roads"
+      }
+    ],
+    "sources": [
+      "lord_1982",
+      "hyperwar_dunkirk",
+      "dildy_2010"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "r.dk_fr_2dlm_retreat",
+    "side": "FR",
+    "unit": "fr.2dlm",
+    "style": "retreat",
+    "widthKm": 8,
+    "label": "第 2 轻型机械化师殿后",
+    "waypoints": [
+      {
+        "at": "1940-05-26T00:00",
+        "pos": [
+          3.32,
+          50.72
+        ]
+      },
+      {
+        "at": "1940-05-30T12:00",
+        "pos": "@hazebrouck"
+      },
+      {
+        "at": "1940-06-01T12:00",
+        "pos": "@bergues"
+      },
+      {
+        "at": "1940-06-03T12:00",
+        "pos": "@bray_dunes"
+      }
+    ],
+    "sources": [
+      "french_army_1940",
+      "sumner_1998",
+      "atkin_1990"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "r.dk_fr_3dlm_retreat",
+    "side": "FR",
+    "unit": "fr.3dlm",
+    "style": "retreat",
+    "widthKm": 8,
+    "label": "第 3 轻型机械化师残部撤入桥头堡",
+    "waypoints": [
+      {
+        "at": "1940-05-26T00:00",
+        "pos": [
+          3.15,
+          50.79
+        ]
+      },
+      {
+        "at": "1940-05-30T12:00",
+        "pos": [
+          2.65,
+          50.85
+        ]
+      },
+      {
+        "at": "1940-05-31T12:00",
+        "pos": "@dunkirk"
+      }
+    ],
+    "sources": [
+      "french_army_1940",
+      "sumner_1998",
+      "ellis_1953"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "r.dk_fr_110ri_dunkirk",
+    "side": "FR",
+    "unit": "fr.110ri",
+    "style": "retreat",
+    "widthKm": 5,
+    "label": "第 110 步兵团团部撤往敦刻尔克",
+    "waypoints": [
+      {
+        "at": "1940-05-29T12:00",
+        "pos": [
+          3,
+          50.6
+        ]
+      },
+      {
+        "at": "1940-05-31T12:00",
+        "pos": "@dunkirk"
+      },
+      {
+        "at": "1940-06-01T02:00",
+        "pos": "@east_mole"
+      }
+    ],
+    "sources": [
+      "perez_1946",
+      "french_army_1940"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "r.dk_fr_137ri_fort_dunes",
+    "side": "FR",
+    "unit": "fr.137ri",
+    "style": "counter",
+    "widthKm": 5,
+    "label": "第 137 步兵团沙丘堡防御",
+    "waypoints": [
+      {
+        "at": "1940-05-26T12:00",
+        "pos": [
+          2.75,
+          51.02
+        ]
+      },
+      {
+        "at": "1940-05-29T12:00",
+        "pos": "@bergues"
+      },
+      {
+        "at": "1940-06-01T12:00",
+        "pos": "@fort_des_dunes"
+      },
+      {
+        "at": "1940-06-04T06:00",
+        "pos": "@fort_des_dunes"
+      }
+    ],
+    "sources": [
+      "french_army_1940",
+      "sumner_1998",
+      "sebag_2006"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "r.dk_fr_1dmar_lille",
+    "side": "FR",
+    "unit": "fr.1dmar",
+    "style": "counter",
+    "widthKm": 6,
+    "label": "第 1 摩洛哥步兵师里尔城内防御",
+    "waypoints": [
+      {
+        "at": "1940-05-26T00:00",
+        "pos": [
+          3.02,
+          50.61
+        ]
+      },
+      {
+        "at": "1940-05-28T20:00",
+        "pos": [
+          2.98,
+          50.6
+        ]
+      },
+      {
+        "at": "1940-05-31T12:00",
+        "pos": "@lille"
+      }
+    ],
+    "sources": [
+      "ellis_lille_1952",
+      "french_army_1940",
+      "sebag_2006",
+      "ellis_1953"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "r.dk_fr_2dina_sequedin",
+    "side": "FR",
+    "unit": "fr.2dina",
+    "style": "breakout",
+    "widthKm": 4,
+    "label": "第 2 北非步兵师瑟克丹桥突围",
+    "waypoints": [
+      {
+        "at": "1940-05-28T19:30",
+        "pos": [
+          2.98,
+          50.62
+        ]
+      },
+      {
+        "at": "1940-05-28T23:00",
+        "pos": [
+          2.94,
+          50.6
+        ]
+      },
+      {
+        "at": "1940-05-29T10:00",
+        "pos": [
+          2.96,
+          50.6
+        ]
+      }
+    ],
+    "sources": [
+      "ellis_lille_1952",
+      "sebag_2006"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "r.dk_fr_grca18_screen",
+    "side": "FR",
+    "unit": "fr.grca_18",
+    "style": "secondary",
+    "widthKm": 5,
+    "label": "第 18 侦察群东段屏护",
+    "waypoints": [
+      {
+        "at": "1940-05-26T00:00",
+        "pos": [
+          2.45,
+          50.95
+        ]
+      },
+      {
+        "at": "1940-05-30T12:00",
+        "pos": [
+          2.6,
+          51
+        ]
+      },
+      {
+        "at": "1940-06-03T12:00",
+        "pos": "@bray_dunes"
+      }
+    ],
+    "sources": [
+      "french_army_1940",
+      "sumner_1998"
+    ],
+    "confidence": "medium"
+  }
+]

@@ -1,0 +1,3770 @@
+[
+  {
+    "id": "de.ob_west",
+    "side": "DE",
+    "echelon": "front",
+    "type": "hq",
+    "parent": null,
+    "display": "container",
+    "name": {
+      "zh": "西线总司令部",
+      "orig": "Oberbefehlshaber West",
+      "short": "西线"
+    },
+    "track": [
+      {
+        "at": "1940-05-22T00:00",
+        "pos": "@mons",
+        "status": "active"
+      },
+      {
+        "at": "1940-05-24T12:00",
+        "pos": "@saint_quentin",
+        "status": "active",
+        "note": "夏尔维尔大本营；12:45 由伦德施泰特签发停止前进令"
+      },
+      {
+        "at": "1940-06-01T00:00",
+        "pos": "@saint_quentin",
+        "status": "active"
+      },
+      {
+        "at": "1940-06-02T12:00",
+        "pos": "@saint_quentin",
+        "status": "active"
+      },
+      {
+        "at": "1940-06-04T20:00",
+        "pos": "@saint_quentin",
+        "status": "active"
+      }
+    ],
+    "history": "西线总司令部统辖 A、B、C 三个集团军群。本战役窗口内，A 集团军群（伦德施泰特）自海峡一线压缩包围圈，B 集团军群（博克）自东面压向利斯河与伊瑟河。5 月 24 日 12:45 的停止前进令由 A 集团军群签发、希特勒认可，5 月 26 日 15:30 由希特勒下令解除；6 月 1 日 2 时起敦刻尔克围攻整体移交 B 集团军群第 18 集团军。",
+    "sources": [
+      "halder_diary",
+      "rundstedt_nuremberg",
+      "hitler_weisung13",
+      "okw_anlage"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "de.hgr_a",
+    "side": "DE",
+    "echelon": "armygroup",
+    "type": "hq",
+    "parent": "de.ob_west",
+    "display": "container",
+    "name": {
+      "zh": "A 集团军群",
+      "orig": "Heeresgruppe A",
+      "short": "A集"
+    },
+    "commander": {
+      "zh": "格德·冯·伦德施泰特",
+      "orig": "Gerd von Rundstedt"
+    },
+    "track": [
+      {
+        "at": "1940-05-22T00:00",
+        "pos": "@mons",
+        "status": "active"
+      },
+      {
+        "at": "1940-05-24T12:00",
+        "pos": "@saint_quentin",
+        "status": "active",
+        "note": "12:45 签发停止前进令"
+      },
+      {
+        "at": "1940-05-26T18:00",
+        "pos": "@saint_quentin",
+        "status": "active",
+        "note": "令解除，装甲部队恢复进攻"
+      },
+      {
+        "at": "1940-06-01T02:00",
+        "pos": "@saint_quentin",
+        "status": "active",
+        "note": "敦刻尔克方向移交 B 集团军群"
+      },
+      {
+        "at": "1940-06-03T12:00",
+        "pos": "@saint_quentin",
+        "status": "active"
+      },
+      {
+        "at": "1940-06-04T20:00",
+        "pos": "@saint_quentin",
+        "status": "active"
+      }
+    ],
+    "history": "A 集团军群以克莱斯特装甲集群由阿登突向海峡，5 月 20 日抵达索姆河口，合围了北部盟军。5 月 24 日伦德施泰特下令装甲部队在运河线停止前进，5 月 26 日傍晚解除；此间盟军得以加固敦刻尔克桥头堡。5 月 28 日克莱斯特集群开始撤出三个装甲师准备南下「法尔罗特」，6 月 1 日起敦刻尔克围攻转由 B 集团军群统一指挥。",
+    "sources": [
+      "kleist_ktb",
+      "aok4_ktb",
+      "frieser_2005",
+      "korth_1958",
+      "halder_diary"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "de.hgr_b",
+    "side": "DE",
+    "echelon": "armygroup",
+    "type": "hq",
+    "parent": "de.ob_west",
+    "display": "container",
+    "name": {
+      "zh": "B 集团军群",
+      "orig": "Heeresgruppe B",
+      "short": "B集"
+    },
+    "commander": {
+      "zh": "费多尔·冯·博克",
+      "orig": "Fedor von Bock"
+    },
+    "track": [
+      {
+        "at": "1940-05-22T00:00",
+        "pos": "@brussel",
+        "status": "active"
+      },
+      {
+        "at": "1940-05-26T12:00",
+        "pos": "@gent",
+        "status": "active"
+      },
+      {
+        "at": "1940-05-29T12:00",
+        "pos": "@brugge",
+        "status": "active"
+      },
+      {
+        "at": "1940-06-02T12:00",
+        "pos": "@oostende",
+        "status": "active"
+      },
+      {
+        "at": "1940-06-04T09:00",
+        "pos": "@oostende",
+        "status": "active"
+      }
+    ],
+    "history": "B 集团军群自北面压向利斯河，5 月 27、28 日在伊珀尔—科米讷一线猛攻英军第 5、50、3 师，与 A 集团军群的克莱斯特集群对进，企图在凯默尔会师。比军 5 月 28 日投降后，集团军群沿伊瑟河与纽波特运河追击，5 月 31 日接管整个敦刻尔克围攻，6 月 1 日以第 18 集团军统一指挥全线总攻。",
+    "sources": [
+      "bock_diary",
+      "aok6_ktb",
+      "ellis_1953",
+      "frieser_2005"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "de.pg_kleist",
+    "side": "DE",
+    "echelon": "army",
+    "type": "armor",
+    "parent": "de.hgr_a",
+    "display": "container",
+    "name": {
+      "zh": "克莱斯特装甲集群",
+      "orig": "Panzergruppe Kleist",
+      "short": "克集群"
+    },
+    "commander": {
+      "zh": "埃瓦尔德·冯·克莱斯特",
+      "orig": "Ewald von Kleist"
+    },
+    "track": [
+      {
+        "at": "1940-05-22T00:00",
+        "pos": "@saint_quentin",
+        "status": "active"
+      },
+      {
+        "at": "1940-05-24T12:45",
+        "pos": "@aire_sur_la_lys",
+        "status": "engaged",
+        "note": "停在运河线，等待停止前进令"
+      },
+      {
+        "at": "1940-05-26T18:00",
+        "pos": "@aire_sur_la_lys",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-28T12:00",
+        "pos": "@saint_omer",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-06-01T12:00",
+        "pos": "@bethune",
+        "status": "reserve",
+        "note": "转入「法尔罗特」准备"
+      },
+      {
+        "at": "1940-06-03T12:00",
+        "pos": "@bethune",
+        "status": "reserve"
+      },
+      {
+        "at": "1940-06-04T20:00",
+        "pos": "@bethune",
+        "status": "reserve"
+      }
+    ],
+    "history": "克莱斯特装甲集群下辖古德里安第 XIX 摩托化军、赖因哈特第 XLI 摩托化军与维特斯海姆第 XIV 摩托化军，5 月 22 日起沿海峡北上，是唯一能抢先冲进敦刻尔克的力量。5 月 23 日集群报告「对强敌已损失达 50% 坦克，不足以向东进攻」，成为 5 月 24 日停止前进令的直接借口。5 月 26 日傍晚恢复进攻后，集群主力沿阿河运河—布尔堡—贝尔格方向压缩桥头堡；5 月 28 日同意将三个装甲师撤出整补。",
+    "sources": [
+      "kleist_ktb",
+      "korth_1958",
+      "guderian_ktb",
+      "frieser_2005",
+      "aok4_ktb"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "de.xix",
+    "side": "DE",
+    "echelon": "corps",
+    "type": "armor",
+    "parent": "de.pg_kleist",
+    "name": {
+      "zh": "第 XIX 摩托化军",
+      "orig": "XIX. Armeekorps (mot.)",
+      "short": "XIX军"
+    },
+    "commander": {
+      "zh": "海因茨·古德里安",
+      "orig": "Heinz Guderian"
+    },
+    "track": [
+      {
+        "at": "1940-05-22T00:00",
+        "pos": "@marquise",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-24T14:00",
+        "pos": "@gravelines",
+        "status": "engaged",
+        "note": "停在阿河运河西岸，停止前进令"
+      },
+      {
+        "at": "1940-05-26T18:00",
+        "pos": "@gravelines",
+        "status": "engaged",
+        "note": "限令解除，准备次日再攻"
+      },
+      {
+        "at": "1940-05-28T12:00",
+        "pos": "@bourbourg",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-30T12:00",
+        "pos": "@saint_omer",
+        "status": "reserve",
+        "note": "三个装甲师撤出整补"
+      },
+      {
+        "at": "1940-06-02T12:00",
+        "pos": "@arras",
+        "status": "reserve"
+      },
+      {
+        "at": "1940-06-04T20:00",
+        "pos": "@arras",
+        "status": "reserve"
+      }
+    ],
+    "history": "古德里安的第 XIX 摩托化军是冲向海峡的矛头，5 月 22 日其第 2 装甲师围攻布洛涅、第 10 装甲师扑向加来、第 1 装甲师在德夫尔被法军第 21 师挡住。5 月 24 日中午部队停在格拉沃利讷—圣奥梅尔的运河线，古德里安在日记里抱怨白昼停住装甲部队是荒唐的。5 月 26 日傍晚令解除后，第 1 装甲师沿马尔迪克—布尔堡海岸推进；5 月 28 日该军报告坦克仅剩约五成，克莱斯特集群同意三个装甲师撤出战场转用「法尔罗特」。",
+    "sources": [
+      "guderian_ktb",
+      "guderian_1951",
+      "klee_1940",
+      "kleist_ktb",
+      "ellis_1953"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "de.xli",
+    "side": "DE",
+    "echelon": "corps",
+    "type": "armor",
+    "parent": "de.pg_kleist",
+    "name": {
+      "zh": "第 XLI 摩托化军",
+      "orig": "XXXXI. Armeekorps (mot.)",
+      "short": "XLI军"
+    },
+    "commander": {
+      "zh": "格奥尔格-汉斯·赖因哈特",
+      "orig": "Georg-Hans Reinhardt"
+    },
+    "track": [
+      {
+        "at": "1940-05-22T00:00",
+        "pos": "@arras",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-24T12:00",
+        "pos": "@estaires",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-26T12:00",
+        "pos": "@hazebrouck",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-28T12:00",
+        "pos": "@cassel",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-30T12:00",
+        "pos": "@bailleul",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-06-01T12:00",
+        "pos": "@bergues",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-06-03T12:00",
+        "pos": "@dunkirk",
+        "status": "engaged"
+      }
+    ],
+    "history": "赖因哈特军在阿拉斯反击战后于 5 月 24 日调到利斯河一线，与第 6 集团军对进，企图在凯默尔完成合围。5 月 27、28 日该军在阿兹布鲁克、卡塞尔、黑山一带被英军第 44、48 师顽强阻击，军部日记承认「攻打卡塞尔与阿兹布鲁克伤亡惨重，对付固守村落的敌人，装甲师并不合适」。6 月 1 日起该军协同第 18 集团军猛攻贝尔格，6 月 3 日进抵敦刻尔克城郊。",
+    "sources": [
+      "kleist_ktb",
+      "aok4_ktb",
+      "ellis_1953",
+      "frieser_2005"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "de.xiv",
+    "side": "DE",
+    "echelon": "corps",
+    "type": "motorized",
+    "parent": "de.pg_kleist",
+    "name": {
+      "zh": "第 XIV 摩托化军",
+      "orig": "XIV. Armeekorps (mot.)",
+      "short": "XIV军"
+    },
+    "commander": {
+      "zh": "古斯塔夫·安东·冯·维特斯海姆",
+      "orig": "Gustav Anton von Wietersheim"
+    },
+    "track": [
+      {
+        "at": "1940-05-22T00:00",
+        "pos": "@saint_quentin",
+        "status": "active"
+      },
+      {
+        "at": "1940-05-25T12:00",
+        "pos": "@cambrai",
+        "status": "active"
+      },
+      {
+        "at": "1940-05-27T12:00",
+        "pos": "@doornik",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-29T12:00",
+        "pos": "@comines",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-06-01T12:00",
+        "pos": "@poperinge",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-06-03T12:00",
+        "pos": "@hondschoote",
+        "status": "engaged"
+      }
+    ],
+    "history": "维特斯海姆的摩托化军辖第 2、13、29 摩托化步兵师，是克莱斯特集群的跟进梯队，5 月 27 日进至利斯河一线，配合第 6 集团军压迫伊珀尔—科米讷正面。5 月 31 日起该军归第 18 集团军指挥，担任敦刻尔克桥头堡东段的向心突击，6 月 2 日进抵翁斯科特—基勒姆一线。",
+    "sources": [
+      "kleist_ktb",
+      "ellis_1953",
+      "frieser_2005"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "de.xv",
+    "side": "DE",
+    "echelon": "corps",
+    "type": "armor",
+    "parent": "de.a4",
+    "name": {
+      "zh": "第 XV 摩托化军",
+      "orig": "XV. Armeekorps (mot.)",
+      "short": "XV军"
+    },
+    "commander": {
+      "zh": "赫尔曼·霍特",
+      "orig": "Hermann Hoth"
+    },
+    "track": [
+      {
+        "at": "1940-05-22T00:00",
+        "pos": "@arras",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-24T12:00",
+        "pos": "@la_bassee",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-27T12:00",
+        "pos": "@bethune",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-29T12:00",
+        "pos": "@hazebrouck",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-06-01T12:00",
+        "pos": "@aire_sur_la_lys",
+        "status": "reserve",
+        "note": "装甲师撤出，转入「法尔罗特」准备"
+      },
+      {
+        "at": "1940-06-04T20:00",
+        "pos": "@saint_omer",
+        "status": "reserve"
+      }
+    ],
+    "history": "霍特军（第 3、4、5、7 装甲师与「骷髅」摩托化师）在阿拉斯反击战后由拉巴塞运河一线北上，5 月 27 日在莱帕拉迪、贝蒂讷一带突破英军第 2 师防线，该军在日记中承认两天的停顿使「已无时间有效截击由里尔地区西撤的英法部队」。5 月 28 日与克莱斯特集群对进，5 月 29 日进至阿兹布鲁克、波珀灵厄方向。",
+    "sources": [
+      "aok4_ktb",
+      "ellis_1953",
+      "frieser_2005"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "de.a18",
+    "side": "DE",
+    "echelon": "army",
+    "type": "infantry",
+    "parent": "de.hgr_b",
+    "name": {
+      "zh": "第 18 集团军",
+      "orig": "18. Armee",
+      "short": "第18集"
+    },
+    "commander": {
+      "zh": "格奥尔格·冯·屈希勒",
+      "orig": "Georg von Küchler"
+    },
+    "track": [
+      {
+        "at": "1940-05-22T00:00",
+        "pos": "@antwerpen",
+        "status": "active"
+      },
+      {
+        "at": "1940-05-25T12:00",
+        "pos": "@gent",
+        "status": "active"
+      },
+      {
+        "at": "1940-05-28T12:00",
+        "pos": "@brugge",
+        "status": "active"
+      },
+      {
+        "at": "1940-05-31T06:00",
+        "pos": "@oostende",
+        "status": "active",
+        "note": "2:00 起接管敦刻尔克全部德军"
+      },
+      {
+        "at": "1940-06-02T12:00",
+        "pos": "@adinkerke",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-06-04T09:00",
+        "pos": "@dunkirk",
+        "status": "engaged"
+      }
+    ],
+    "history": "屈希勒的第 18 集团军自荷兰、比利时一路西进，5 月 28 日比军投降后沿伊瑟河与纽波特运河压向海岸。5 月 31 日 2 时起，全部敦刻尔克围攻部队（第 IX、X、XIV、XXVI 军）归其指挥；他计划 6 月 1 日 11:00 全线总攻，并因忽视英军正撤出东段的情报而错判主攻方向。6 月 2 日夜攻占贝尔格，6 月 4 日上午进占敦刻尔克港。",
+    "sources": [
+      "aok6_ktb",
+      "ellis_1953",
+      "frieser_2005",
+      "bock_diary"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "de.a6",
+    "side": "DE",
+    "echelon": "army",
+    "type": "infantry",
+    "parent": "de.hgr_b",
+    "name": {
+      "zh": "第 6 集团军",
+      "orig": "6. Armee",
+      "short": "第6集"
+    },
+    "commander": {
+      "zh": "瓦尔特·冯·赖歇瑙",
+      "orig": "Walter von Reichenau"
+    },
+    "track": [
+      {
+        "at": "1940-05-22T00:00",
+        "pos": "@brussel",
+        "status": "active"
+      },
+      {
+        "at": "1940-05-25T12:00",
+        "pos": "@doornik",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-28T12:00",
+        "pos": "@oudenaarde",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-31T12:00",
+        "pos": "@kortrijk",
+        "status": "active"
+      },
+      {
+        "at": "1940-06-02T12:00",
+        "pos": "@tielt",
+        "status": "active"
+      },
+      {
+        "at": "1940-06-04T20:00",
+        "pos": "@tielt",
+        "status": "active"
+      }
+    ],
+    "history": "赖歇瑙的第 6 集团军 5 月 27、28 日在伊珀尔—科米讷地段以三个师猛攻英军第 5 师，是「凯默尔钳形攻势」的北钳，但被弗兰克林少将的部队挡住，损失惨重而无进展。比利时投降后该集团军转入伊瑟河方向，配合第 18 集团军封锁桥头堡东段；其装甲力量（赫普纳第 XVI 摩托化军）不在本战役记录范围内。",
+    "sources": [
+      "aok6_ktb",
+      "bock_diary",
+      "ellis_1953"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "de.a4",
+    "side": "DE",
+    "echelon": "army",
+    "type": "infantry",
+    "parent": "de.hgr_a",
+    "name": {
+      "zh": "第 4 集团军",
+      "orig": "4. Armee",
+      "short": "第4集"
+    },
+    "commander": {
+      "zh": "京特·冯·克卢格",
+      "orig": "Günther von Kluge"
+    },
+    "track": [
+      {
+        "at": "1940-05-22T00:00",
+        "pos": "@mons",
+        "status": "active"
+      },
+      {
+        "at": "1940-05-24T12:00",
+        "pos": "@valenciennes",
+        "status": "active"
+      },
+      {
+        "at": "1940-05-27T12:00",
+        "pos": "@douai",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-31T12:00",
+        "pos": "@lille",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-06-02T12:00",
+        "pos": "@lens",
+        "status": "active"
+      },
+      {
+        "at": "1940-06-04T20:00",
+        "pos": "@lens",
+        "status": "active"
+      }
+    ],
+    "history": "克卢格的第 4 集团军下辖克莱斯特与霍特两个快速集群，是包围圈的西钳。5 月 23 日 OKH 曾令其改隶 B 集团军群，希特勒 5 月 24 日推翻该令，随后 12:45 下达停止前进令，理由正是等第 II、第 VIII 军等步兵军赶上来。5 月 28 至 31 日其步兵军合围并受降里尔法军，6 月初转入索姆河方向准备「法尔罗特」。",
+    "sources": [
+      "aok4_ktb",
+      "hitler_weisung13",
+      "halder_diary",
+      "ellis_1953",
+      "frieser_2005"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "de.ii",
+    "side": "DE",
+    "echelon": "corps",
+    "type": "infantry",
+    "parent": "de.a4",
+    "name": {
+      "zh": "第 II 军",
+      "orig": "II. Armeekorps",
+      "short": "II军"
+    },
+    "commander": {
+      "zh": "阿道夫·施特劳斯",
+      "orig": "Adolf Strauss"
+    },
+    "track": [
+      {
+        "at": "1940-05-22T00:00",
+        "pos": "@mons",
+        "status": "active"
+      },
+      {
+        "at": "1940-05-25T12:00",
+        "pos": "@valenciennes",
+        "status": "active"
+      },
+      {
+        "at": "1940-05-28T12:00",
+        "pos": "@seclin",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-06-01T12:00",
+        "pos": "@lille",
+        "status": "active"
+      },
+      {
+        "at": "1940-06-03T12:00",
+        "pos": "@lille",
+        "status": "active"
+      },
+      {
+        "at": "1940-06-04T20:00",
+        "pos": "@lille",
+        "status": "active"
+      }
+    ],
+    "history": "第 II 军是停止前进令中点名必须赶上来的步兵军之一（另一为第 VIII 军），5 月 24 日尚在阿登出口，5 月底经瓦朗谢讷北上。其部队参与对里尔口袋的合围与占领，5 月 31 日法军 35,000 人投降后接管城区。军长施特劳斯 5 月 30 日去职，由施蒂尔普纳格尔接任。",
+    "sources": [
+      "aok4_ktb",
+      "hitler_weisung13",
+      "ellis_1953"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "de.viii",
+    "side": "DE",
+    "echelon": "corps",
+    "type": "infantry",
+    "parent": "de.a4",
+    "name": {
+      "zh": "第 VIII 军",
+      "orig": "VIII. Armeekorps",
+      "short": "VIII军"
+    },
+    "commander": {
+      "zh": "瓦尔特·海茨",
+      "orig": "Walter Heitz"
+    },
+    "track": [
+      {
+        "at": "1940-05-22T00:00",
+        "pos": "@cambrai",
+        "status": "active"
+      },
+      {
+        "at": "1940-05-25T12:00",
+        "pos": "@douai",
+        "status": "active"
+      },
+      {
+        "at": "1940-05-28T12:00",
+        "pos": "@lens",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-06-01T12:00",
+        "pos": "@bethune",
+        "status": "active"
+      },
+      {
+        "at": "1940-06-03T12:00",
+        "pos": "@bethune",
+        "status": "active"
+      },
+      {
+        "at": "1940-06-04T20:00",
+        "pos": "@bethune",
+        "status": "active"
+      }
+    ],
+    "history": "第 VIII 军与第 II 军同属 5 月 24 日停止前进令中被等待的步兵军，5 月下旬由阿登经康布雷、杜埃北上，担任里尔以南的封锁与扫荡。6 月初该军转到拉巴塞—贝蒂讷一线，作为「法尔罗特」南向进攻的出发阵地。",
+    "sources": [
+      "aok4_ktb",
+      "hitler_weisung13",
+      "halder_diary"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "de.ix",
+    "side": "DE",
+    "echelon": "corps",
+    "type": "infantry",
+    "parent": "de.a18",
+    "name": {
+      "zh": "第 IX 军",
+      "orig": "IX. Armeekorps",
+      "short": "IX军"
+    },
+    "commander": {
+      "zh": "赫尔曼·盖尔",
+      "orig": "Hermann Geyer"
+    },
+    "track": [
+      {
+        "at": "1940-05-22T00:00",
+        "pos": "@brussel",
+        "status": "active"
+      },
+      {
+        "at": "1940-05-25T12:00",
+        "pos": "@gent",
+        "status": "active"
+      },
+      {
+        "at": "1940-05-28T12:00",
+        "pos": "@brugge",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-31T12:00",
+        "pos": "@oostende",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-06-02T12:00",
+        "pos": "@diksmuide",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-06-04T09:00",
+        "pos": "@dunkirk",
+        "status": "engaged"
+      }
+    ],
+    "history": "盖尔的第 IX 军 5 月 31 日起列入第 18 集团军序列参与敦刻尔克围攻，负责东段纽波特运河与伊瑟河方向。该军在比利时投降后于 5 月 29、30 日以炮火与步兵攻击压迫英军第 3、4 师正面，6 月 1 日在弗尔讷附近渡运河未成。",
+    "sources": [
+      "aok6_ktb",
+      "ellis_1953"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "de.x",
+    "side": "DE",
+    "echelon": "corps",
+    "type": "infantry",
+    "parent": "de.a18",
+    "name": {
+      "zh": "第 X 军",
+      "orig": "X. Armeekorps",
+      "short": "X军"
+    },
+    "commander": {
+      "zh": "克里斯蒂安·汉森",
+      "orig": "Christian Hansen"
+    },
+    "track": [
+      {
+        "at": "1940-05-22T00:00",
+        "pos": "@antwerpen",
+        "status": "active"
+      },
+      {
+        "at": "1940-05-25T12:00",
+        "pos": "@gent",
+        "status": "active"
+      },
+      {
+        "at": "1940-05-28T12:00",
+        "pos": "@brugge",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-31T12:00",
+        "pos": "@nieuwpoort",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-06-02T12:00",
+        "pos": "@adinkerke",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-06-04T09:00",
+        "pos": "@dunkirk",
+        "status": "engaged"
+      }
+    ],
+    "history": "汉森的第 X 军在比军投降后占领布鲁日、奥斯坦德，5 月 30 日进抵纽波特运河。5 月 31 日起该军归第 18 集团军指挥，与第 IX、XXVI 军一同担任桥头堡东段的向心突击，6 月 1 日起以第 61 步兵师等部猛攻阿丁凯尔克—拉帕讷方向。",
+    "sources": [
+      "aok6_ktb",
+      "ellis_1953",
+      "frieser_2005"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "de.xxvi",
+    "side": "DE",
+    "echelon": "corps",
+    "type": "infantry",
+    "parent": "de.a18",
+    "name": {
+      "zh": "第 XXVI 军",
+      "orig": "XXVI. Armeekorps",
+      "short": "XXVI军"
+    },
+    "commander": {
+      "zh": "阿尔贝特·沃德里希",
+      "orig": "Albert Wodrig"
+    },
+    "track": [
+      {
+        "at": "1940-05-22T00:00",
+        "pos": "@sint_niklaas",
+        "status": "active"
+      },
+      {
+        "at": "1940-05-25T12:00",
+        "pos": "@eeklo",
+        "status": "active"
+      },
+      {
+        "at": "1940-05-28T12:00",
+        "pos": "@oostende",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-31T12:00",
+        "pos": "@nieuwpoort",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-06-02T12:00",
+        "pos": "@la_panne",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-06-04T09:00",
+        "pos": "@dunkirk",
+        "status": "engaged"
+      }
+    ],
+    "history": "沃德里希的第 XXVI 军原在荷兰方向作战，5 月 28 日后沿比利时海岸西进，5 月 31 日列入第 18 集团军参加敦刻尔克围攻。其第 256 步兵师在纽波特夺取一座未被炸毁的桥梁建立小桥头堡，但当日后续攻击均被英军第 4 师击退；6 月 2 日进至拉帕讷—祖伊德科特海滩。",
+    "sources": [
+      "aok6_ktb",
+      "ellis_1953",
+      "frieser_2005"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "de.xxvii",
+    "side": "DE",
+    "echelon": "corps",
+    "type": "infantry",
+    "parent": "de.a6",
+    "name": {
+      "zh": "第 XXVII 军",
+      "orig": "XXVII. Armeekorps",
+      "short": "XXVII军"
+    },
+    "commander": {
+      "zh": "阿尔弗雷德·韦格",
+      "orig": "Alfred Wäger"
+    },
+    "track": [
+      {
+        "at": "1940-05-22T00:00",
+        "pos": "@mons",
+        "status": "active"
+      },
+      {
+        "at": "1940-05-25T12:00",
+        "pos": "@valenciennes",
+        "status": "active"
+      },
+      {
+        "at": "1940-05-28T12:00",
+        "pos": "@seclin",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-31T23:00",
+        "pos": "@lille",
+        "status": "engaged",
+        "note": "守军午夜投降，1 日举行荣誉受降"
+      },
+      {
+        "at": "1940-06-02T12:00",
+        "pos": "@lille",
+        "status": "active"
+      },
+      {
+        "at": "1940-06-04T20:00",
+        "pos": "@lille",
+        "status": "active"
+      }
+    ],
+    "history": "韦格的 XXVII 军负责攻取里尔，与第 XI 军及霍特的装甲师一同围住法军第 1 集团军残部。5 月 28 日下午其第 253 步兵师师长屈内被法军巡逻队俘获，作战计划落入守军之手。5 月 31 日午夜守军投降，经韦格同意，法军于 6 月 1 日全副武装列队走过大广场受「荣誉受降」；希特勒 6 月 2 日在康布雷得知后大怒，将韦格撤职。",
+    "sources": [
+      "ellis_lille_1952",
+      "ellis_1953",
+      "frieser_2005",
+      "aok6_ktb"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "de.1pz",
+    "side": "DE",
+    "echelon": "division",
+    "type": "armor",
+    "parent": "de.xix",
+    "name": {
+      "zh": "第 1 装甲师",
+      "orig": "1. Panzer-Division",
+      "short": "1.Pz"
+    },
+    "commander": {
+      "zh": "弗里德里希·基希纳",
+      "orig": "Friedrich Kirchner"
+    },
+    "model": "pz3",
+    "strength": {
+      "men": 14000,
+      "tanks": 145
+    },
+    "equipment": [
+      {
+        "id": "pz3_ausf_f",
+        "count": 60
+      },
+      {
+        "id": "pz4_ausf_d",
+        "count": 20
+      }
+    ],
+    "track": [
+      {
+        "at": "1940-05-22T00:00",
+        "pos": "@marquise",
+        "status": "engaged",
+        "note": "与法军第 21 师在德夫尔一带苦战"
+      },
+      {
+        "at": "1940-05-23T12:00",
+        "pos": "@marquise",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-24T06:00",
+        "pos": "@sangatte",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-24T14:30",
+        "pos": "@gravelines",
+        "status": "engaged",
+        "note": "12:45 停止前进令，部队停在阿河运河西岸"
+      },
+      {
+        "at": "1940-05-26T18:00",
+        "pos": "@gravelines",
+        "status": "engaged",
+        "note": "15:30 元首令恢复进攻"
+      },
+      {
+        "at": "1940-05-27T08:00",
+        "pos": "@bourbourg",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-28T06:00",
+        "pos": "@fort_mardyck",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-29T12:00",
+        "pos": "@fort_mardyck",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-31T12:00",
+        "pos": "@saint_pol",
+        "status": "engaged",
+        "note": "逼近敦刻尔克西郊"
+      },
+      {
+        "at": "1940-06-02T12:00",
+        "pos": "@saint_pol",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-06-04T09:00",
+        "pos": "@dunkirk",
+        "status": "engaged"
+      }
+    ],
+    "history": "第 1 装甲师是冲向敦刻尔克最近的德军部队，5 月 23 日在德夫尔被法军第 21 师挡住，5 月 24 日中午进至格拉沃利讷以东时接到停止前进令，距城仅约 15 公里。5 月 26 日傍晚令解除后，该师沿马尔迪克、布尔堡海岸线推进，5 月 28 日进抵马尔迪克堡。该师作战参谋克莱上尉留下《敦刻尔克：第 1 装甲师战史》，成为研究停止前进令的一手材料；6 月 4 日上午该师进占港区。",
+    "sources": [
+      "klee_1940",
+      "guderian_ktb",
+      "kleist_ktb",
+      "frieser_2005",
+      "jacobsen_1957"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "de.2pz",
+    "side": "DE",
+    "echelon": "division",
+    "type": "armor",
+    "parent": "de.xix",
+    "name": {
+      "zh": "第 2 装甲师",
+      "orig": "2. Panzer-Division",
+      "short": "2.Pz"
+    },
+    "commander": {
+      "zh": "鲁道夫·法伊尔",
+      "orig": "Rudolf Veiel"
+    },
+    "model": "pz3",
+    "strength": {
+      "men": 14000,
+      "tanks": 160
+    },
+    "equipment": [
+      {
+        "id": "pz3_ausf_f",
+        "count": 70
+      },
+      {
+        "id": "pz4_ausf_d",
+        "count": 24
+      }
+    ],
+    "track": [
+      {
+        "at": "1940-05-22T00:00",
+        "pos": "@boulogne",
+        "status": "engaged",
+        "note": "5 月 20 日首个抵达海峡的德军师"
+      },
+      {
+        "at": "1940-05-23T12:00",
+        "pos": "@boulogne",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-24T18:00",
+        "pos": "@wimereux",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-25T18:00",
+        "pos": "@boulogne",
+        "status": "active",
+        "note": "占领布洛涅港，英军第 20 近卫旅已于夜间撤走"
+      },
+      {
+        "at": "1940-05-26T12:00",
+        "pos": "@marquise",
+        "status": "active"
+      },
+      {
+        "at": "1940-05-27T08:00",
+        "pos": "@saint_omer",
+        "status": "engaged",
+        "note": "运河线恢复进攻"
+      },
+      {
+        "at": "1940-05-28T12:00",
+        "pos": "@watten",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-30T12:00",
+        "pos": "@aire_sur_la_lys",
+        "status": "reserve",
+        "note": "随 XIX 军撤出整补"
+      },
+      {
+        "at": "1940-06-01T12:00",
+        "pos": "@bethune",
+        "status": "reserve"
+      },
+      {
+        "at": "1940-06-03T12:00",
+        "pos": "@lens",
+        "status": "reserve"
+      }
+    ],
+    "history": "第 2 装甲师 5 月 20 日率先抵达阿布维尔，成为第一个到达海峡的德军师。5 月 22 日它与装备不足的法军第 48 团在布洛涅城外交手，随后直接冲进港口；5 月 25 日占领布洛涅。此后该师转入圣奥梅尔、瓦滕的运河线，参与对加来与敦刻尔克之间地段的封锁，5 月 28 日主力撤出，准备南下的「法尔罗特」。",
+    "sources": [
+      "guderian_ktb",
+      "ellis_1953",
+      "kleist_ktb",
+      "frieser_2005"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "de.10pz",
+    "side": "DE",
+    "echelon": "division",
+    "type": "armor",
+    "parent": "de.xix",
+    "name": {
+      "zh": "第 10 装甲师",
+      "orig": "10. Panzer-Division",
+      "short": "10.Pz"
+    },
+    "commander": {
+      "zh": "费迪南德·沙尔",
+      "orig": "Ferdinand Schaal"
+    },
+    "model": "pz4",
+    "strength": {
+      "men": 15000,
+      "tanks": 280
+    },
+    "equipment": [
+      {
+        "id": "pz3_ausf_f",
+        "count": 48
+      },
+      {
+        "id": "pz4_ausf_d",
+        "count": 38
+      }
+    ],
+    "track": [
+      {
+        "at": "1940-05-22T12:00",
+        "pos": "@marquise",
+        "status": "engaged",
+        "note": "由南面逼近加来"
+      },
+      {
+        "at": "1940-05-23T18:00",
+        "pos": "@calais",
+        "status": "engaged",
+        "note": "包围加来，开始四天围城"
+      },
+      {
+        "at": "1940-05-24T12:00",
+        "pos": "@calais",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-25T12:00",
+        "pos": "@calais",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-26T16:00",
+        "pos": "@calais",
+        "status": "engaged",
+        "note": "16:00 守军投降"
+      },
+      {
+        "at": "1940-05-27T12:00",
+        "pos": "@gravelines",
+        "status": "active"
+      },
+      {
+        "at": "1940-05-28T12:00",
+        "pos": "@bourbourg",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-29T12:00",
+        "pos": "@spycker",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-31T12:00",
+        "pos": "@saint_omer",
+        "status": "reserve"
+      },
+      {
+        "at": "1940-06-02T12:00",
+        "pos": "@arras",
+        "status": "reserve"
+      },
+      {
+        "at": "1940-06-04T12:00",
+        "pos": "@saint_quentin",
+        "status": "reserve"
+      }
+    ],
+    "history": "第 10 装甲师是围攻加来的主力，5 月 24 日英军退守旧城墙后开始攻城，当日晚间报告约半数坦克被击毁、三分之一步兵伤亡。5 月 26 日下午守军崩溃，尼科尔森准将率约 4,000 人投降；该师随后东调参加对敦刻尔克西侧运河线的封锁。6 月初撤出，转入索姆河方向的「法尔罗特」。",
+    "sources": [
+      "guderian_ktb",
+      "ellis_1953",
+      "frieser_2005",
+      "divine_1940"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "de.6pz",
+    "side": "DE",
+    "echelon": "division",
+    "type": "armor",
+    "parent": "de.xli",
+    "name": {
+      "zh": "第 6 装甲师",
+      "orig": "6. Panzer-Division",
+      "short": "6.Pz"
+    },
+    "commander": {
+      "zh": "维尔纳·肯普夫",
+      "orig": "Werner Kempf"
+    },
+    "model": "pz38t",
+    "strength": {
+      "men": 14000,
+      "tanks": 153
+    },
+    "equipment": [
+      {
+        "id": "pz35t",
+        "count": 75
+      },
+      {
+        "id": "pz4_ausf_d",
+        "count": 27
+      }
+    ],
+    "track": [
+      {
+        "at": "1940-05-22T12:00",
+        "pos": "@estaires",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-23T12:00",
+        "pos": "@merville",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-24T18:00",
+        "pos": "@hazebrouck",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-26T06:00",
+        "pos": "@hazebrouck",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-27T08:00",
+        "pos": "@cassel",
+        "status": "engaged",
+        "note": "被英军第 145 旅吸在卡塞尔城下"
+      },
+      {
+        "at": "1940-05-28T10:00",
+        "pos": "@cassel",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-29T14:00",
+        "pos": "@bailleul",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-30T12:00",
+        "pos": "@tourcoing",
+        "status": "engaged",
+        "note": "转向里尔以东，封闭口袋"
+      },
+      {
+        "at": "1940-05-31T12:00",
+        "pos": "@roubaix",
+        "status": "engaged",
+        "note": "里尔法军投降"
+      },
+      {
+        "at": "1940-06-01T08:00",
+        "pos": "@comines",
+        "status": "active"
+      },
+      {
+        "at": "1940-06-02T04:00",
+        "pos": "@bergues",
+        "status": "engaged",
+        "note": "参加对贝尔格的猛攻"
+      },
+      {
+        "at": "1940-06-03T12:00",
+        "pos": "@uxem",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-06-04T09:00",
+        "pos": "@dunkirk",
+        "status": "engaged"
+      }
+    ],
+    "history": "第 6 装甲师 5 月 20 日在努瓦耶勒首抵海峡，5 月 24 日后在利斯河一线作战。该师装备 35(t) 坦克，机械可靠性差、维修手册还是捷克文。5 月 27 日它被英军第 145 旅在卡塞尔吸引，未能按计划攻击波珀灵厄方向的英军第 44 师，被史家视为德军错失战机最明显的一例。该师 5 月 30 日转向里尔以东封闭口袋，6 月 1 日北上参加对贝尔格的猛攻，6 月 4 日进占敦刻尔克。",
+    "sources": [
+      "kleist_ktb",
+      "aok4_ktb",
+      "ellis_1953",
+      "frieser_2005",
+      "korth_1958"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "de.8pz",
+    "side": "DE",
+    "echelon": "division",
+    "type": "armor",
+    "parent": "de.xli",
+    "name": {
+      "zh": "第 8 装甲师",
+      "orig": "8. Panzer-Division",
+      "short": "8.Pz"
+    },
+    "commander": {
+      "zh": "阿道夫-弗里德里希·孔岑",
+      "orig": "Adolf-Friedrich Kuntzen"
+    },
+    "model": "pz38t",
+    "strength": {
+      "men": 14000,
+      "tanks": 150
+    },
+    "equipment": [
+      {
+        "id": "pz38t",
+        "count": 80
+      },
+      {
+        "id": "pz4_ausf_d",
+        "count": 20
+      }
+    ],
+    "track": [
+      {
+        "at": "1940-05-22T12:00",
+        "pos": "@aire_sur_la_lys",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-24T06:00",
+        "pos": "@hazebrouck",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-26T06:00",
+        "pos": "@hazebrouck",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-27T10:00",
+        "pos": "@cassel",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-28T08:00",
+        "pos": "@mont_des_cats",
+        "status": "engaged",
+        "note": "正面是英军第 44 师"
+      },
+      {
+        "at": "1940-05-29T08:00",
+        "pos": "@mont_des_cats",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-30T12:00",
+        "pos": "@poperinge",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-31T12:00",
+        "pos": "@poperinge",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-06-01T12:00",
+        "pos": "@bollezeele",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-06-02T12:00",
+        "pos": "@bergues",
+        "status": "engaged",
+        "note": "贝尔格陷落"
+      },
+      {
+        "at": "1940-06-03T12:00",
+        "pos": "@hoymille",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-06-04T09:00",
+        "pos": "@dunkirk",
+        "status": "engaged"
+      }
+    ],
+    "history": "第 8 装甲师 5 月 24 日由利斯河转向阿兹布鲁克，5 月 28、29 日在黑山（Mont des Cats）一带持续攻击英军第 44 师，配合第 XIX 军第 3、4、7 装甲师对英军第 2 师的攻势。5 月 30 日后越过波珀灵厄北上，6 月 1 日加入对贝尔格的总攻，6 月 2 日夜该城陷落。",
+    "sources": [
+      "kleist_ktb",
+      "ellis_1953",
+      "aok4_ktb",
+      "frieser_2005"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "de.9pz",
+    "side": "DE",
+    "echelon": "division",
+    "type": "armor",
+    "parent": "de.a18",
+    "name": {
+      "zh": "第 9 装甲师",
+      "orig": "9. Panzer-Division",
+      "short": "9.Pz"
+    },
+    "commander": {
+      "zh": "阿尔弗雷德·里特尔·冯·胡比茨基",
+      "orig": "Alfred Ritter von Hubicki"
+    },
+    "model": "pz38t",
+    "strength": {
+      "men": 14000,
+      "tanks": 140
+    },
+    "equipment": [
+      {
+        "id": "pz38t",
+        "count": 70
+      },
+      {
+        "id": "pz3_ausf_f",
+        "count": 30
+      }
+    ],
+    "track": [
+      {
+        "at": "1940-05-22T00:00",
+        "pos": "@antwerpen",
+        "status": "active"
+      },
+      {
+        "at": "1940-05-23T12:00",
+        "pos": "@dendermonde",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-24T18:00",
+        "pos": "@gent",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-25T18:00",
+        "pos": "@oudenaarde",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-26T06:00",
+        "pos": "@waregem",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-26T16:00",
+        "pos": "@kortrijk",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-27T06:00",
+        "pos": "@menen",
+        "status": "engaged",
+        "note": "利斯河下游，与英军第 12 枪骑兵接触"
+      },
+      {
+        "at": "1940-05-27T18:00",
+        "pos": "@roeselare",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-28T12:00",
+        "pos": "@tielt",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-29T12:00",
+        "pos": "@diksmuide",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-30T12:00",
+        "pos": "@veurne",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-31T12:00",
+        "pos": "@adinkerke",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-06-01T12:00",
+        "pos": "@adinkerke",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-06-02T12:00",
+        "pos": "@la_panne",
+        "status": "active"
+      },
+      {
+        "at": "1940-06-03T12:00",
+        "pos": "@la_panne",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-06-04T12:00",
+        "pos": "@dunkirk",
+        "status": "engaged"
+      }
+    ],
+    "history": "第 9 装甲师是第 18 集团军唯一的机械化部队，由荷兰一路南转西进，5 月 26 日在利斯河下游的瓦勒海姆、科特赖克、梅嫩一线与英军第 12 枪骑兵接触。5 月 27 日起转向蒂尔特、鲁瑟拉勒推进，5 月 29 日进至迪克斯梅德，随后沿伊瑟河压向阿丁凯尔克—拉帕讷。全战役中该师行军里程居德军各师之首。",
+    "sources": [
+      "aok6_ktb",
+      "ellis_1953",
+      "frieser_2005",
+      "bock_diary"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "de.gd",
+    "side": "DE",
+    "echelon": "regiment",
+    "type": "motorized",
+    "parent": "de.a18",
+    "name": {
+      "zh": "「大德意志」摩托化步兵团",
+      "orig": "Infanterie-Regiment (mot.) Großdeutschland",
+      "short": "GD团"
+    },
+    "commander": {
+      "zh": "威廉-胡贝图斯·冯·施托克豪森",
+      "orig": "Wilhelm-Hubertus von Stockhausen"
+    },
+    "model": "inf_de",
+    "strength": {
+      "men": 4000
+    },
+    "track": [
+      {
+        "at": "1940-05-22T00:00",
+        "pos": "@estaires",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-24T12:00",
+        "pos": "@bethune",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-26T12:00",
+        "pos": "@aire_sur_la_lys",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-28T06:00",
+        "pos": "@bollezeele",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-29T12:00",
+        "pos": "@bergues",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-30T12:00",
+        "pos": "@warhem",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-31T12:00",
+        "pos": "@ghyvelde",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-06-01T12:00",
+        "pos": "@hondschoote",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-06-02T12:00",
+        "pos": "@killem",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-06-03T12:00",
+        "pos": "@tetegham",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-06-04T09:00",
+        "pos": "@dunkirk",
+        "status": "engaged"
+      }
+    ],
+    "history": "「大德意志」团随克莱斯特集群抵达海峡后，5 月 29 日与第 20 摩托化师一同在贝尔格、夸迪普尔、维尔德一带攻击英军第 42、48 师。5 月 31 日起该团划归第 18 集团军，担任东段向心突击，6 月 1 日至 3 日在翁斯科特、基勒姆、泰特冈一线逐村推进。",
+    "sources": [
+      "ellis_1953",
+      "aok6_ktb",
+      "kleist_ktb"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "de.2id_mot",
+    "side": "DE",
+    "echelon": "division",
+    "type": "motorized",
+    "parent": "de.xiv",
+    "name": {
+      "zh": "第 2 摩托化步兵师",
+      "orig": "2. Infanterie-Division (mot.)",
+      "short": "2.ID(mot)"
+    },
+    "commander": {
+      "zh": "保罗·巴德尔",
+      "orig": "Paul Bader"
+    },
+    "model": "inf_de",
+    "strength": {
+      "men": 14000
+    },
+    "track": [
+      {
+        "at": "1940-05-22T00:00",
+        "pos": "@valenciennes",
+        "status": "active"
+      },
+      {
+        "at": "1940-05-24T12:00",
+        "pos": "@saint_amand",
+        "status": "active"
+      },
+      {
+        "at": "1940-05-26T12:00",
+        "pos": "@estaires",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-28T12:00",
+        "pos": "@hazebrouck",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-30T12:00",
+        "pos": "@poperinge",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-06-01T12:00",
+        "pos": "@ghyvelde",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-06-03T12:00",
+        "pos": "@uxem",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-06-04T09:00",
+        "pos": "@dunkirk",
+        "status": "engaged"
+      }
+    ],
+    "history": "第 2 摩托化步兵师随第 XIV 摩托化军跟进，5 月底在利斯河一线投入战斗，5 月 30 日经波珀灵厄北上。6 月 1 日起该师归第 18 集团军，加入对桥头堡东段的向心突击，6 月 3 日进至于克塞姆。",
+    "sources": [
+      "kleist_ktb",
+      "ellis_1953"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "de.13id_mot",
+    "side": "DE",
+    "echelon": "division",
+    "type": "motorized",
+    "parent": "de.xiv",
+    "name": {
+      "zh": "第 13 摩托化步兵师",
+      "orig": "13. Infanterie-Division (mot.)",
+      "short": "13.ID(mot)"
+    },
+    "commander": {
+      "zh": "弗里德里希-威廉·冯·罗特基希",
+      "orig": "Friedrich-Wilhelm von Rothkirch und Panthen"
+    },
+    "model": "inf_de",
+    "strength": {
+      "men": 14000
+    },
+    "track": [
+      {
+        "at": "1940-05-22T00:00",
+        "pos": "@saint_quentin",
+        "status": "active"
+      },
+      {
+        "at": "1940-05-24T12:00",
+        "pos": "@cambrai",
+        "status": "active"
+      },
+      {
+        "at": "1940-05-26T12:00",
+        "pos": "@doornik",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-28T12:00",
+        "pos": "@comines",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-30T12:00",
+        "pos": "@ieper",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-06-01T12:00",
+        "pos": "@poperinge",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-06-02T12:00",
+        "pos": "@vlamertinge",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-06-03T12:00",
+        "pos": "@hondschoote",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-06-04T09:00",
+        "pos": "@dunkirk",
+        "status": "engaged"
+      }
+    ],
+    "history": "第 13 摩托化步兵师随克莱斯特集群行动，5 月 26 日经图尔奈转至利斯河—科米讷方向，配合第 6 集团军压缩盟军走廊。6 月 1 日起该师在第 18 集团军编成内参加桥头堡总攻，6 月 3 日推进至翁斯科特。",
+    "sources": [
+      "kleist_ktb",
+      "ellis_1953"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "de.20id_mot",
+    "side": "DE",
+    "echelon": "division",
+    "type": "motorized",
+    "parent": "de.pg_kleist",
+    "name": {
+      "zh": "第 20 摩托化步兵师",
+      "orig": "20. Infanterie-Division (mot.)",
+      "short": "20.ID(mot)"
+    },
+    "commander": {
+      "zh": "毛里茨·冯·维克托林",
+      "orig": "Mauritz von Wiktorin"
+    },
+    "model": "inf_de",
+    "strength": {
+      "men": 14000
+    },
+    "track": [
+      {
+        "at": "1940-05-22T00:00",
+        "pos": "@arras",
+        "status": "active",
+        "note": "克莱斯特集群经阿尔贝特运河、阿拉斯开进"
+      },
+      {
+        "at": "1940-05-24T12:00",
+        "pos": "@bethune",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-26T12:00",
+        "pos": "@aire_sur_la_lys",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-27T18:00",
+        "pos": "@bourbourg",
+        "status": "engaged",
+        "note": "布尔堡方向德军推进轴线（5-27 夜起）"
+      },
+      {
+        "at": "1940-05-29T06:00",
+        "pos": "@bollezeele",
+        "status": "engaged",
+        "note": "与「大德意志」团一同攻击英军第 42、48 师"
+      },
+      {
+        "at": "1940-05-30T12:00",
+        "pos": "@bray_dunes",
+        "status": "engaged",
+        "note": "克莱斯特集群报告该师「正向布雷迪讷推进」；左翼受阻于贝尔格与格拉沃利讷的运河线"
+      },
+      {
+        "at": "1940-05-31T02:00",
+        "pos": "@bergues",
+        "status": "engaged",
+        "note": "02:00 起敦刻尔克全部德军归第 18 集团军；该师列为集团军预备队"
+      },
+      {
+        "at": "1940-06-01T12:00",
+        "pos": "@ghyvelde",
+        "status": "engaged",
+        "note": "6-01 11:00 全线总攻"
+      },
+      {
+        "at": "1940-06-02T12:00",
+        "pos": "@hondschoote",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-06-03T12:00",
+        "pos": "@killem",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-06-04T09:00",
+        "pos": "@dunkirk",
+        "status": "engaged"
+      }
+    ],
+    "history": "第 20 摩托化步兵师随克莱斯特集群经阿尔贝特运河、阿拉斯抵达海峡，5 月 27 日夜起沿布尔堡方向西进，5 月 29 日与「大德意志」团一同在贝尔格、夸迪普尔、维尔德一带猛攻英军第 42、48 师。5 月 30 日克莱斯特集群向第 4 集团军报告该师「正向布雷迪讷推进」，但其左翼被阻于贝尔格与格拉沃利讷之间的运河线。5 月 31 日 2 时起敦刻尔克全部德军转归第 18 集团军，该师被列为集团军预备队，随后参加 6 月 1 日的全线总攻，6 月 4 日进入敦刻尔克。",
+    "sources": [
+      "kleist_ktb",
+      "ellis_1953",
+      "aok6_ktb"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "de.29id_mot",
+    "side": "DE",
+    "echelon": "division",
+    "type": "motorized",
+    "parent": "de.xiv",
+    "name": {
+      "zh": "第 29 摩托化步兵师",
+      "orig": "29. Infanterie-Division (mot.)",
+      "short": "29.ID(mot)"
+    },
+    "commander": {
+      "zh": "维利巴尔德·冯·朗格曼·翁德·埃伦坎普",
+      "orig": "Willibald Freiherr von Langermann und Erlencamp"
+    },
+    "model": "inf_de",
+    "strength": {
+      "men": 14000
+    },
+    "track": [
+      {
+        "at": "1940-05-22T00:00",
+        "pos": "@mons",
+        "status": "active"
+      },
+      {
+        "at": "1940-05-25T12:00",
+        "pos": "@oudenaarde",
+        "status": "active"
+      },
+      {
+        "at": "1940-05-28T12:00",
+        "pos": "@gent",
+        "status": "reserve"
+      },
+      {
+        "at": "1940-05-30T12:00",
+        "pos": "@brugge",
+        "status": "reserve"
+      },
+      {
+        "at": "1940-06-01T12:00",
+        "pos": "@oostende",
+        "status": "reserve",
+        "note": "敦刻尔克战役中担任战略预备队"
+      },
+      {
+        "at": "1940-06-03T12:00",
+        "pos": "@diksmuide",
+        "status": "reserve"
+      }
+    ],
+    "history": "第 29 摩托化步兵师 5 月 7 日由朗格曼·翁德·埃伦坎普接任师长，随第 XIV 摩托化军向海峡推进。6 月初该师进至奥斯坦德、迪克斯梅德一带，在敦刻尔克战斗中担任战略预备队，未投入桥头堡正面的消耗战。",
+    "sources": [
+      "kleist_ktb",
+      "ellis_1953"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "de.sstk",
+    "side": "DE",
+    "echelon": "division",
+    "type": "motorized",
+    "parent": "de.xv",
+    "name": {
+      "zh": "SS「骷髅」师",
+      "orig": "SS-Division „Totenkopf“",
+      "short": "SS骷髅"
+    },
+    "commander": {
+      "zh": "特奥多尔·艾克",
+      "orig": "Theodor Eicke"
+    },
+    "model": "inf_de",
+    "strength": {
+      "men": 17000
+    },
+    "track": [
+      {
+        "at": "1940-05-22T00:00",
+        "pos": "@cambrai",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-23T12:00",
+        "pos": "@arras",
+        "status": "engaged",
+        "note": "阿拉斯反击战中担任霍特军南翼"
+      },
+      {
+        "at": "1940-05-24T12:00",
+        "pos": "@la_bassee",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-26T12:00",
+        "pos": "@bethune",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-27T12:00",
+        "pos": "@le_paradis",
+        "status": "engaged",
+        "note": "在勒帕拉迪枪杀英军第 2 皇家诺福克团战俘"
+      },
+      {
+        "at": "1940-05-29T12:00",
+        "pos": "@bailleul",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-31T12:00",
+        "pos": "@poperinge",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-06-01T12:00",
+        "pos": "@hondschoote",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-06-02T12:00",
+        "pos": "@killem",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-06-03T12:00",
+        "pos": "@ghyvelde",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-06-04T09:00",
+        "pos": "@dunkirk",
+        "status": "engaged"
+      }
+    ],
+    "history": "「骷髅」师隶属霍特的第 XV 摩托化军，5 月 21 日在阿拉斯反击战中首次投入，随后沿拉巴塞运河北上。5 月 27 日该师在勒帕拉迪附近将英军第 2 皇家诺福克团约百名战俘集体枪杀，是 1940 年德军最著名的战争罪行之一。此后该师转向波珀灵厄、翁斯科特方向，参与对桥头堡东段的攻击。",
+    "sources": [
+      "ellis_1953",
+      "frieser_2005",
+      "aok4_ktb",
+      "sebag_2006"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "de.3id",
+    "side": "DE",
+    "echelon": "division",
+    "type": "infantry",
+    "parent": "de.ii",
+    "name": {
+      "zh": "第 3 步兵师",
+      "orig": "3. Infanterie-Division",
+      "short": "3.ID"
+    },
+    "commander": {
+      "zh": "瓦尔特·利歇尔",
+      "orig": "Walter Lichel"
+    },
+    "model": "inf_de",
+    "strength": {
+      "men": 16000
+    },
+    "track": [
+      {
+        "at": "1940-05-22T00:00",
+        "pos": "@mons",
+        "status": "active"
+      },
+      {
+        "at": "1940-05-24T12:00",
+        "pos": "@valenciennes",
+        "status": "active"
+      },
+      {
+        "at": "1940-05-26T12:00",
+        "pos": "@denain",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-28T12:00",
+        "pos": "@seclin",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-30T12:00",
+        "pos": "@lille",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-06-01T12:00",
+        "pos": "@lille",
+        "status": "active",
+        "note": "里尔受降后担任城防"
+      },
+      {
+        "at": "1940-06-04T09:00",
+        "pos": "@lille",
+        "status": "active"
+      }
+    ],
+    "history": "第 3 步兵师随第 II 军经蒙斯、瓦朗谢讷北上，5 月 28 日进至里尔南郊的塞克兰，参与合围法军第 1 集团军残部。5 月 31 日里尔守军投降后，该师担任城区警备，6 月初转入「法尔罗特」准备。",
+    "sources": [
+      "aok4_ktb",
+      "ellis_lille_1952",
+      "ellis_1953"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "de.32id",
+    "side": "DE",
+    "echelon": "division",
+    "type": "infantry",
+    "parent": "de.ii",
+    "name": {
+      "zh": "第 32 步兵师",
+      "orig": "32. Infanterie-Division",
+      "short": "32.ID"
+    },
+    "commander": {
+      "zh": "弗朗茨·伯梅",
+      "orig": "Franz Böhme"
+    },
+    "model": "inf_de",
+    "strength": {
+      "men": 16000
+    },
+    "track": [
+      {
+        "at": "1940-05-22T00:00",
+        "pos": "@valenciennes",
+        "status": "active"
+      },
+      {
+        "at": "1940-05-24T12:00",
+        "pos": "@saint_amand",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-26T12:00",
+        "pos": "@carvin",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-28T12:00",
+        "pos": "@seclin",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-30T12:00",
+        "pos": "@lille",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-06-01T12:00",
+        "pos": "@lille",
+        "status": "active"
+      },
+      {
+        "at": "1940-06-04T12:00",
+        "pos": "@lille",
+        "status": "active"
+      }
+    ],
+    "history": "第 32 步兵师与第 3 步兵师同属第 II 军，5 月 24 日经圣阿芒渡过斯卡尔普河，5 月 26 日在卡尔万与法军后卫激战，随后参与对里尔口袋的压缩。6 月 1 日该师接防里尔附近地区。",
+    "sources": [
+      "aok4_ktb",
+      "ellis_lille_1952"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "de.24id",
+    "side": "DE",
+    "echelon": "division",
+    "type": "infantry",
+    "parent": "de.viii",
+    "name": {
+      "zh": "第 24 步兵师",
+      "orig": "24. Infanterie-Division",
+      "short": "24.ID"
+    },
+    "commander": {
+      "zh": "尤斯廷·冯·奥伯尼茨",
+      "orig": "Justin von Obernitz"
+    },
+    "model": "inf_de",
+    "strength": {
+      "men": 16000
+    },
+    "track": [
+      {
+        "at": "1940-05-22T00:00",
+        "pos": "@cambrai",
+        "status": "active"
+      },
+      {
+        "at": "1940-05-24T12:00",
+        "pos": "@valenciennes",
+        "status": "active"
+      },
+      {
+        "at": "1940-05-26T12:00",
+        "pos": "@denain",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-28T12:00",
+        "pos": "@douai",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-30T12:00",
+        "pos": "@lens",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-06-01T12:00",
+        "pos": "@la_bassee",
+        "status": "active"
+      },
+      {
+        "at": "1940-06-04T12:00",
+        "pos": "@bethune",
+        "status": "reserve"
+      }
+    ],
+    "history": "第 24 步兵师 5 月 10 日随第 12 集团军经卢森堡、色当渡过马斯河，5 月下旬编入第 VIII 军北上。5 月 28 日至 30 日在杜埃、朗斯一线扫荡并封锁里尔以南地区，6 月初转至拉巴塞—贝蒂讷，准备「法尔罗特」。",
+    "sources": [
+      "aok4_ktb",
+      "hitler_weisung13",
+      "frieser_2005"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "de.23id",
+    "side": "DE",
+    "echelon": "division",
+    "type": "infantry",
+    "parent": "de.ix",
+    "name": {
+      "zh": "第 23 步兵师",
+      "orig": "23. Infanterie-Division",
+      "short": "23.ID"
+    },
+    "commander": {
+      "zh": "瓦尔特·冯·布罗克多夫-阿勒费尔特",
+      "orig": "Walter Graf von Brockdorff-Ahlefeldt"
+    },
+    "model": "inf_de",
+    "strength": {
+      "men": 16000
+    },
+    "track": [
+      {
+        "at": "1940-05-22T00:00",
+        "pos": "@saint_quentin",
+        "status": "active"
+      },
+      {
+        "at": "1940-05-24T12:00",
+        "pos": "@cambrai",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-26T12:00",
+        "pos": "@douai",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-28T12:00",
+        "pos": "@comines",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-30T12:00",
+        "pos": "@ieper",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-06-01T12:00",
+        "pos": "@poperinge",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-06-02T12:00",
+        "pos": "@vlamertinge",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-06-03T12:00",
+        "pos": "@hondschoote",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-06-04T09:00",
+        "pos": "@dunkirk",
+        "status": "engaged"
+      }
+    ],
+    "history": "第 23 步兵师 5 月 10 日随第 12 集团军渡过马斯河，经杜埃转用于利斯河一线，5 月 28 日在科米讷方向投入对英军第 5 师的攻击。6 月 1 日起在第 IX 军编成内参加桥头堡东段总攻，6 月 3 日推进至翁斯科特。",
+    "sources": [
+      "aok6_ktb",
+      "ellis_1953"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "de.61id",
+    "side": "DE",
+    "echelon": "division",
+    "type": "infantry",
+    "parent": "de.x",
+    "name": {
+      "zh": "第 61 步兵师",
+      "orig": "61. Infanterie-Division",
+      "short": "61.ID"
+    },
+    "commander": {
+      "zh": "西格弗里德·黑尼克",
+      "orig": "Siegfried Haenicke"
+    },
+    "model": "inf_de",
+    "strength": {
+      "men": 16000
+    },
+    "track": [
+      {
+        "at": "1940-05-22T00:00",
+        "pos": "@leuven",
+        "status": "active"
+      },
+      {
+        "at": "1940-05-24T12:00",
+        "pos": "@aalst",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-26T12:00",
+        "pos": "@gent",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-28T12:00",
+        "pos": "@brugge",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-29T12:00",
+        "pos": "@oostende",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-30T12:00",
+        "pos": "@diksmuide",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-31T12:00",
+        "pos": "@nieuwpoort",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-06-01T12:00",
+        "pos": "@nieuwpoort",
+        "status": "engaged",
+        "note": "6 月 1 日 11:00 全线总攻"
+      },
+      {
+        "at": "1940-06-02T12:00",
+        "pos": "@adinkerke",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-06-03T12:00",
+        "pos": "@la_panne",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-06-04T09:00",
+        "pos": "@dunkirk",
+        "status": "engaged"
+      }
+    ],
+    "history": "第 61 步兵师 5 月中旬自东普鲁士经东比利时、阿尔贝特运河追击西进，5 月底编入第 X 军担任纽波特方向的主攻。5 月 31 日该师在纽波特运河方向取得进展，6 月 1 日参加屈希勒下令的 11:00 全线总攻，沿新港—阿丁凯尔克—拉帕讷轴线推进，并参与最终攻占敦刻尔克。",
+    "sources": [
+      "aok6_ktb",
+      "ellis_1953",
+      "frieser_2005"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "de.216id",
+    "side": "DE",
+    "echelon": "division",
+    "type": "infantry",
+    "parent": "de.xxvi",
+    "name": {
+      "zh": "第 216 步兵师",
+      "orig": "216. Infanterie-Division",
+      "short": "216.ID"
+    },
+    "commander": {
+      "zh": "赫尔曼·伯特歇尔",
+      "orig": "Hermann Böttcher"
+    },
+    "model": "inf_de",
+    "strength": {
+      "men": 15000
+    },
+    "track": [
+      {
+        "at": "1940-05-22T00:00",
+        "pos": "@roeselare",
+        "status": "active"
+      },
+      {
+        "at": "1940-05-24T12:00",
+        "pos": "@gent",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-26T12:00",
+        "pos": "@brugge",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-28T12:00",
+        "pos": "@diksmuide",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-30T12:00",
+        "pos": "@veurne",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-31T12:00",
+        "pos": "@adinkerke",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-06-01T12:00",
+        "pos": "@adinkerke",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-06-02T12:00",
+        "pos": "@la_panne",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-06-03T12:00",
+        "pos": "@la_panne",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-06-04T10:00",
+        "pos": "@bray_dunes",
+        "status": "engaged"
+      }
+    ],
+    "history": "第 216 步兵师原为第 6 集团军预备队，5 月下旬随第 XXVI 军沿比利时海岸西进，敦刻尔克战役期间位于弗尔讷与阿丁凯尔克之间。6 月 1 日起该师从东面猛攻桥头堡，6 月 3 日进抵拉帕讷—布雷迪讷海滩，是最后压缩桥头堡的部队之一。",
+    "sources": [
+      "aok6_ktb",
+      "ellis_1953"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "de.254id",
+    "side": "DE",
+    "echelon": "division",
+    "type": "infantry",
+    "parent": "de.x",
+    "name": {
+      "zh": "第 254 步兵师",
+      "orig": "254. Infanterie-Division",
+      "short": "254.ID"
+    },
+    "commander": {
+      "zh": "瓦尔特·贝施尼特",
+      "orig": "Walter Behschnitt"
+    },
+    "model": "inf_de",
+    "strength": {
+      "men": 15000
+    },
+    "track": [
+      {
+        "at": "1940-05-22T00:00",
+        "pos": "@antwerpen",
+        "status": "active"
+      },
+      {
+        "at": "1940-05-24T12:00",
+        "pos": "@sint_niklaas",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-26T12:00",
+        "pos": "@eeklo",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-28T12:00",
+        "pos": "@tielt",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-30T12:00",
+        "pos": "@roeselare",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-06-01T12:00",
+        "pos": "@diksmuide",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-06-02T12:00",
+        "pos": "@nieuwpoort",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-06-04T09:00",
+        "pos": "@la_panne",
+        "status": "engaged"
+      }
+    ],
+    "history": "第 254 步兵师随第 XXVI 军参加荷兰、比利时作战，5 月下旬转用于佛兰德，敦刻尔克战役中由蒂尔特、鲁瑟拉勒方向压向海岸。6 月 2 日该师进抵纽波特运河以东，参与对桥头堡东段的最后攻击。",
+    "sources": [
+      "aok6_ktb",
+      "ellis_1953"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "de.256id",
+    "side": "DE",
+    "echelon": "division",
+    "type": "infantry",
+    "parent": "de.xxvi",
+    "name": {
+      "zh": "第 256 步兵师",
+      "orig": "256. Infanterie-Division",
+      "short": "256.ID"
+    },
+    "commander": {
+      "zh": "格哈德·考夫曼",
+      "orig": "Gerhard Kauffmann"
+    },
+    "model": "inf_de",
+    "strength": {
+      "men": 15000
+    },
+    "track": [
+      {
+        "at": "1940-05-22T00:00",
+        "pos": "@aalter",
+        "status": "active"
+      },
+      {
+        "at": "1940-05-24T12:00",
+        "pos": "@brugge",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-26T12:00",
+        "pos": "@oostende",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-28T12:00",
+        "pos": "@nieuwpoort",
+        "status": "engaged",
+        "note": "比军 04:00 投降后抢占未炸毁的桥梁"
+      },
+      {
+        "at": "1940-05-29T12:00",
+        "pos": "@nieuwpoort",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-30T12:00",
+        "pos": "@adinkerke",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-06-01T12:00",
+        "pos": "@la_panne",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-06-02T12:00",
+        "pos": "@zuydcoote",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-06-03T12:00",
+        "pos": "@bray_dunes",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-06-04T09:00",
+        "pos": "@dunkirk",
+        "status": "engaged"
+      }
+    ],
+    "history": "第 256 步兵师在比利时投降后 5 月 28 日上午抢先抵达纽波特与海岸之间，夺占一座未被炸毁的桥梁并建立小型桥头堡，此后当日攻击均被英军击退。6 月 1 日起该师从东面沿拉帕讷、祖伊德科特海滩压向敦刻尔克，6 月 4 日进入市区。",
+    "sources": [
+      "aok6_ktb",
+      "ellis_1953",
+      "frieser_2005"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "de.253id",
+    "side": "DE",
+    "echelon": "division",
+    "type": "infantry",
+    "parent": "de.xxvii",
+    "name": {
+      "zh": "第 253 步兵师",
+      "orig": "253. Infanterie-Division",
+      "short": "253.ID"
+    },
+    "commander": {
+      "zh": "弗里茨·屈内",
+      "orig": "Fritz Kühne"
+    },
+    "model": "inf_de",
+    "strength": {
+      "men": 15000
+    },
+    "track": [
+      {
+        "at": "1940-05-22T00:00",
+        "pos": "@mons",
+        "status": "active"
+      },
+      {
+        "at": "1940-05-24T12:00",
+        "pos": "@valenciennes",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-26T12:00",
+        "pos": "@saint_amand",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-28T12:00",
+        "pos": "@seclin",
+        "status": "engaged",
+        "note": "师长屈内当日下午被法军巡逻队俘获"
+      },
+      {
+        "at": "1940-05-29T12:00",
+        "pos": "@lille",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-31T12:00",
+        "pos": "@lille",
+        "status": "active",
+        "note": "里尔守军午夜投降"
+      },
+      {
+        "at": "1940-06-02T12:00",
+        "pos": "@roubaix",
+        "status": "active"
+      },
+      {
+        "at": "1940-06-04T12:00",
+        "pos": "@tourcoing",
+        "status": "reserve"
+      }
+    ],
+    "history": "第 253 步兵师属韦格的第 XXVII 军，是围攻里尔的主力之一。5 月 28 日下午师长屈内中将在里尔城南被法军巡逻队俘获，随身携带的德军攻城计划落入守军手中，莫利涅将军据此制定了突围方案。6 月 1 日该师参加里尔的荣誉受降。",
+    "sources": [
+      "ellis_lille_1952",
+      "ellis_1953",
+      "frieser_2005"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "de.267id",
+    "side": "DE",
+    "echelon": "division",
+    "type": "infantry",
+    "parent": "de.xxvii",
+    "name": {
+      "zh": "第 267 步兵师",
+      "orig": "267. Infanterie-Division",
+      "short": "267.ID"
+    },
+    "commander": {
+      "zh": "恩斯特·费斯曼",
+      "orig": "Ernst Feßmann"
+    },
+    "model": "inf_de",
+    "strength": {
+      "men": 15000
+    },
+    "track": [
+      {
+        "at": "1940-05-22T00:00",
+        "pos": "@cambrai",
+        "status": "active"
+      },
+      {
+        "at": "1940-05-24T12:00",
+        "pos": "@douai",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-26T12:00",
+        "pos": "@carvin",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-28T12:00",
+        "pos": "@seclin",
+        "status": "engaged",
+        "note": "当日其后方地区发生对平民的屠杀"
+      },
+      {
+        "at": "1940-05-29T12:00",
+        "pos": "@lille",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-31T12:00",
+        "pos": "@lille",
+        "status": "active"
+      },
+      {
+        "at": "1940-06-01T12:00",
+        "pos": "@lille",
+        "status": "active"
+      },
+      {
+        "at": "1940-06-02T06:00",
+        "pos": "@armentieres",
+        "status": "active",
+        "note": "里尔受降后北调敦刻尔克南翼"
+      },
+      {
+        "at": "1940-06-02T18:00",
+        "pos": "@bailleul",
+        "status": "active"
+      },
+      {
+        "at": "1940-06-03T08:00",
+        "pos": "@cassel",
+        "status": "active"
+      },
+      {
+        "at": "1940-06-03T18:00",
+        "pos": "@esquelbecq",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-06-04T09:00",
+        "pos": "@wormhout",
+        "status": "engaged"
+      }
+    ],
+    "history": "第 267 步兵师由第 XXVII 军指挥，5 月底在里尔以南作战；5 月 28 日其部队在瓦尼和库里耶尔杀害至少 114 名平民，是 1940—1944 年德军在法国最大的一起陆军屠杀。6 月 1 日里尔守军投降后该师北调，6 月 3 日经卡塞尔进至埃斯凯尔贝克、沃尔穆特，参与对敦刻尔克南翼的最后压缩。",
+    "sources": [
+      "ellis_lille_1952",
+      "ellis_1953",
+      "frieser_2005"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "de.lw2",
+    "side": "DE",
+    "echelon": "air_fleet",
+    "type": "hq",
+    "parent": "de.ob_west",
+    "display": "container",
+    "name": {
+      "zh": "第 2 航空队",
+      "orig": "Luftflotte 2",
+      "short": "第2航队"
+    },
+    "commander": {
+      "zh": "阿尔贝特·凯塞林",
+      "orig": "Albert Kesselring"
+    },
+    "track": [
+      {
+        "at": "1940-05-22T00:00",
+        "pos": "@brussels_airfield",
+        "status": "active"
+      },
+      {
+        "at": "1940-05-26T00:00",
+        "pos": "@brussel",
+        "status": "active"
+      },
+      {
+        "at": "1940-06-04T09:00",
+        "pos": "@brussel",
+        "status": "active"
+      }
+    ],
+    "history": "凯塞林第 2 航空队支援 B 集团军群，5 月 27 日以后承担对敦刻尔克的主力空袭，5 月 29 日与 6 月 1 日出动强度最高。戈林曾向希特勒保证单靠空军即可给被困盟军「慈悲一击」解决，这一承诺未能兑现；9 天行动中德国空军损失 156 架飞机。",
+    "sources": [
+      "kesselring_1953",
+      "balke_1989",
+      "ellis_1953"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "de.lw3",
+    "side": "DE",
+    "echelon": "air_fleet",
+    "type": "hq",
+    "parent": "de.ob_west",
+    "display": "container",
+    "name": {
+      "zh": "第 3 航空队",
+      "orig": "Luftflotte 3",
+      "short": "第3航队"
+    },
+    "commander": {
+      "zh": "胡戈·施佩勒",
+      "orig": "Hugo Sperrle"
+    },
+    "track": [
+      {
+        "at": "1940-05-22T00:00",
+        "pos": "@cambrai_airfield",
+        "status": "active"
+      },
+      {
+        "at": "1940-06-01T00:00",
+        "pos": "@saint_quentin",
+        "status": "active"
+      },
+      {
+        "at": "1940-06-03T12:00",
+        "pos": "@saint_quentin",
+        "status": "active"
+      },
+      {
+        "at": "1940-06-04T20:00",
+        "pos": "@saint_quentin",
+        "status": "active"
+      }
+    ],
+    "history": "施佩勒第 3 航空队支援 A 集团军群，负责加来、布洛涅与敦刻尔克方向的轰炸。5 月 25、26 日其兵力主要用在加来与里尔口袋，5 月 29 日起全力投入敦刻尔克港区与海滩。",
+    "sources": [
+      "balke_1989",
+      "ellis_1953",
+      "kesselring_1953"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "de.viii_fk",
+    "side": "DE",
+    "echelon": "air_group",
+    "type": "hq",
+    "parent": "de.lw2",
+    "display": "container",
+    "name": {
+      "zh": "第 VIII 航空军",
+      "orig": "VIII. Fliegerkorps",
+      "short": "VIII航军"
+    },
+    "commander": {
+      "zh": "沃尔弗拉姆·冯·里希特霍芬",
+      "orig": "Wolfram von Richthofen"
+    },
+    "track": [
+      {
+        "at": "1940-05-22T00:00",
+        "pos": "@st_omer_airfield",
+        "status": "active"
+      },
+      {
+        "at": "1940-05-26T00:00",
+        "pos": "@lille_airfield",
+        "status": "active"
+      },
+      {
+        "at": "1940-05-31T00:00",
+        "pos": "@merville_airfield",
+        "status": "active"
+      },
+      {
+        "at": "1940-06-04T09:00",
+        "pos": "@lille_airfield",
+        "status": "active"
+      }
+    ],
+    "history": "里希特霍芬的第 VIII 航空军是俯冲轰炸与近距支援的核心，5 月 29 日克莱斯特集群还专门请求该军轰炸敦刻尔克。它与第 2、3 航空队一同在 5 月 27 日至 6 月 4 日之间反复攻击港区、防波堤与海滩上的登船队列。",
+    "sources": [
+      "balke_1989",
+      "ellis_1953"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "de.kg2",
+    "side": "DE",
+    "echelon": "gruppe",
+    "type": "bomber",
+    "parent": "de.viii_fk",
+    "name": {
+      "zh": "KG 2「霍尔茨豪尔」轰炸机联队",
+      "orig": "Kampfgeschwader 2 „Holzhammer“",
+      "short": "KG2"
+    },
+    "commander": {
+      "zh": "约翰内斯·芬克",
+      "orig": "Johannes Fink"
+    },
+    "model": "do17",
+    "base": "@lille_airfield",
+    "strength": {
+      "men": 2200,
+      "aircraft": 90
+    },
+    "track": [
+      {
+        "at": "1940-05-26T05:00",
+        "pos": "@lille_airfield",
+        "status": "active",
+        "flightPhase": "at_base"
+      },
+      {
+        "at": "1940-05-26T07:30",
+        "pos": "@calais",
+        "status": "engaged",
+        "flightPhase": "outbound"
+      },
+      {
+        "at": "1940-05-26T08:30",
+        "pos": "@calais",
+        "status": "engaged",
+        "flightPhase": "engaged",
+        "altitudeM": 3000
+      },
+      {
+        "at": "1940-05-26T10:00",
+        "pos": "@lille_airfield",
+        "status": "active",
+        "flightPhase": "returning"
+      },
+      {
+        "at": "1940-05-27T06:00",
+        "pos": "@lille_airfield",
+        "status": "active",
+        "flightPhase": "at_base"
+      },
+      {
+        "at": "1940-05-27T08:00",
+        "pos": "@dunkirk",
+        "status": "engaged",
+        "flightPhase": "engaged",
+        "altitudeM": 2500
+      },
+      {
+        "at": "1940-05-27T10:00",
+        "pos": "@lille_airfield",
+        "status": "active",
+        "flightPhase": "returning"
+      },
+      {
+        "at": "1940-05-29T05:30",
+        "pos": "@lille_airfield",
+        "status": "active",
+        "flightPhase": "at_base"
+      },
+      {
+        "at": "1940-05-29T07:00",
+        "pos": "@dunkirk_port",
+        "status": "engaged",
+        "flightPhase": "engaged",
+        "altitudeM": 2000,
+        "note": "撤离高峰，轰炸码头与锚地"
+      },
+      {
+        "at": "1940-05-29T09:30",
+        "pos": "@lille_airfield",
+        "status": "active",
+        "flightPhase": "returning"
+      },
+      {
+        "at": "1940-06-01T05:00",
+        "pos": "@lille_airfield",
+        "status": "active",
+        "flightPhase": "at_base"
+      },
+      {
+        "at": "1940-06-01T07:00",
+        "pos": "@dunkirk_port",
+        "status": "engaged",
+        "flightPhase": "engaged",
+        "altitudeM": 2500
+      },
+      {
+        "at": "1940-06-01T09:00",
+        "pos": "@lille_airfield",
+        "status": "active",
+        "flightPhase": "returning"
+      },
+      {
+        "at": "1940-06-03T06:00",
+        "pos": "@lille_airfield",
+        "status": "active",
+        "flightPhase": "at_base"
+      },
+      {
+        "at": "1940-06-03T08:00",
+        "pos": "@dunkirk",
+        "status": "engaged",
+        "flightPhase": "engaged",
+        "altitudeM": 2500
+      },
+      {
+        "at": "1940-06-03T10:00",
+        "pos": "@lille_airfield",
+        "status": "active",
+        "flightPhase": "returning"
+      }
+    ],
+    "history": "KG 2 装备 Do 17，属第 2 航空队，5 月 25、26 日参与对加来与里尔的轰炸，5 月 27 日起由法国北部前进机场出动，转入对敦刻尔克港区与海滩的攻击。5 月 29 日撤离高峰当天反复轰炸码头和防波堤外的锚地，但未能阻止登船。",
+    "sources": [
+      "balke_1989",
+      "ellis_1953",
+      "kesselring_1953"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "de.kg3",
+    "side": "DE",
+    "echelon": "gruppe",
+    "type": "bomber",
+    "parent": "de.viii_fk",
+    "name": {
+      "zh": "KG 3「闪电」轰炸机联队",
+      "orig": "Kampfgeschwader 3 „Blitz“",
+      "short": "KG3"
+    },
+    "commander": {
+      "zh": "沃尔夫冈·冯·沙米尔-格利琴斯基",
+      "orig": "Wolfgang von Chamier-Glisczinski"
+    },
+    "model": "do17",
+    "base": "@cambrai_airfield",
+    "strength": {
+      "men": 2200,
+      "aircraft": 90
+    },
+    "track": [
+      {
+        "at": "1940-05-26T06:00",
+        "pos": "@cambrai_airfield",
+        "status": "active",
+        "flightPhase": "at_base"
+      },
+      {
+        "at": "1940-05-26T08:00",
+        "pos": "@calais",
+        "status": "engaged",
+        "flightPhase": "engaged",
+        "altitudeM": 3000
+      },
+      {
+        "at": "1940-05-26T10:00",
+        "pos": "@cambrai_airfield",
+        "status": "active",
+        "flightPhase": "returning"
+      },
+      {
+        "at": "1940-05-28T05:30",
+        "pos": "@cambrai_airfield",
+        "status": "active",
+        "flightPhase": "at_base"
+      },
+      {
+        "at": "1940-05-28T07:30",
+        "pos": "@dunkirk_port",
+        "status": "engaged",
+        "flightPhase": "engaged",
+        "altitudeM": 2500
+      },
+      {
+        "at": "1940-05-28T09:30",
+        "pos": "@cambrai_airfield",
+        "status": "active",
+        "flightPhase": "returning"
+      },
+      {
+        "at": "1940-05-31T05:30",
+        "pos": "@cambrai_airfield",
+        "status": "active",
+        "flightPhase": "at_base"
+      },
+      {
+        "at": "1940-05-31T07:30",
+        "pos": "@dunkirk_port",
+        "status": "engaged",
+        "flightPhase": "engaged",
+        "altitudeM": 2500
+      },
+      {
+        "at": "1940-05-31T09:30",
+        "pos": "@cambrai_airfield",
+        "status": "active",
+        "flightPhase": "returning"
+      },
+      {
+        "at": "1940-06-02T06:00",
+        "pos": "@cambrai_airfield",
+        "status": "active",
+        "flightPhase": "at_base"
+      },
+      {
+        "at": "1940-06-02T08:00",
+        "pos": "@bergues",
+        "status": "engaged",
+        "flightPhase": "engaged",
+        "altitudeM": 2000,
+        "note": "支援贝尔格攻击"
+      },
+      {
+        "at": "1940-06-02T10:00",
+        "pos": "@cambrai_airfield",
+        "status": "active",
+        "flightPhase": "returning"
+      },
+      {
+        "at": "1940-06-04T06:00",
+        "pos": "@cambrai_airfield",
+        "status": "active",
+        "flightPhase": "at_base"
+      },
+      {
+        "at": "1940-06-04T08:00",
+        "pos": "@dunkirk",
+        "status": "engaged",
+        "flightPhase": "engaged",
+        "altitudeM": 2500
+      },
+      {
+        "at": "1940-06-04T10:00",
+        "pos": "@cambrai_airfield",
+        "status": "active",
+        "flightPhase": "returning"
+      }
+    ],
+    "history": "KG 3 装备 Do 17Z，5 月 26 日参与对加来的轰炸，随后转入对敦刻尔克港区的攻击。6 月 2 日该联队支援对贝尔格的攻击，6 月 4 日上午轰炸最后一批法军阵地，配合地面部队进占港区。",
+    "sources": [
+      "balke_1989",
+      "ellis_1953",
+      "kesselring_1953"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "de.kg54",
+    "side": "DE",
+    "echelon": "gruppe",
+    "type": "bomber",
+    "parent": "de.viii_fk",
+    "name": {
+      "zh": "KG 54「黑狮」轰炸机联队",
+      "orig": "Kampfgeschwader 54 „Totenkopf“",
+      "short": "KG54"
+    },
+    "commander": {
+      "zh": "瓦尔特·拉克纳",
+      "orig": "Walter Lackner"
+    },
+    "model": "he111",
+    "base": "@merville_airfield",
+    "strength": {
+      "men": 2300,
+      "aircraft": 95
+    },
+    "equipment": [
+      {
+        "id": "he111",
+        "count": 0
+      }
+    ],
+    "track": [
+      {
+        "at": "1940-05-27T05:30",
+        "pos": "@merville_airfield",
+        "status": "active",
+        "flightPhase": "at_base"
+      },
+      {
+        "at": "1940-05-27T07:30",
+        "pos": "@dunkirk_port",
+        "status": "engaged",
+        "flightPhase": "engaged",
+        "altitudeM": 3000
+      },
+      {
+        "at": "1940-05-27T09:30",
+        "pos": "@merville_airfield",
+        "status": "active",
+        "flightPhase": "returning"
+      },
+      {
+        "at": "1940-05-29T05:00",
+        "pos": "@merville_airfield",
+        "status": "active",
+        "flightPhase": "at_base"
+      },
+      {
+        "at": "1940-05-29T07:00",
+        "pos": "@dunkirk_port",
+        "status": "engaged",
+        "flightPhase": "engaged",
+        "altitudeM": 2500,
+        "note": "29 日空袭：多艘运输船与驱逐舰受损"
+      },
+      {
+        "at": "1940-05-29T10:00",
+        "pos": "@merville_airfield",
+        "status": "active",
+        "flightPhase": "returning"
+      },
+      {
+        "at": "1940-06-01T05:00",
+        "pos": "@merville_airfield",
+        "status": "active",
+        "flightPhase": "at_base"
+      },
+      {
+        "at": "1940-06-01T07:00",
+        "pos": "@dunkirk_port",
+        "status": "engaged",
+        "flightPhase": "engaged",
+        "altitudeM": 3000
+      },
+      {
+        "at": "1940-06-01T09:00",
+        "pos": "@merville_airfield",
+        "status": "active",
+        "flightPhase": "returning"
+      },
+      {
+        "at": "1940-06-03T06:00",
+        "pos": "@merville_airfield",
+        "status": "active",
+        "flightPhase": "at_base"
+      },
+      {
+        "at": "1940-06-03T08:00",
+        "pos": "@dunkirk",
+        "status": "engaged",
+        "flightPhase": "engaged",
+        "altitudeM": 2500
+      },
+      {
+        "at": "1940-06-03T10:00",
+        "pos": "@merville_airfield",
+        "status": "active",
+        "flightPhase": "returning"
+      }
+    ],
+    "history": "KG 54 装备 He 111，属第 2 航空队，5 月 27 日起反复轰炸敦刻尔克港区。5 月 29 日是该联队出动强度最高的一天，港内多艘运输船与驱逐舰被炸伤；6 月 3 日起改为压制桥头堡残存阵地。",
+    "sources": [
+      "balke_1989",
+      "ellis_1953",
+      "kesselring_1953"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "de.stg2",
+    "side": "DE",
+    "echelon": "gruppe",
+    "type": "bomber",
+    "parent": "de.viii_fk",
+    "name": {
+      "zh": "StG 2「殷麦曼」俯冲轰炸机联队",
+      "orig": "Sturzkampfgeschwader 2 „Immelmann“",
+      "short": "StG2"
+    },
+    "commander": {
+      "zh": "奥斯卡·迪诺特",
+      "orig": "Oskar Dinort"
+    },
+    "model": "ju87",
+    "base": "@st_omer_airfield",
+    "strength": {
+      "men": 2000,
+      "aircraft": 90
+    },
+    "equipment": [
+      {
+        "id": "ju87b",
+        "count": 0
+      }
+    ],
+    "track": [
+      {
+        "at": "1940-05-26T07:00",
+        "pos": "@st_omer_airfield",
+        "status": "active",
+        "flightPhase": "at_base"
+      },
+      {
+        "at": "1940-05-26T09:00",
+        "pos": "@calais",
+        "status": "engaged",
+        "flightPhase": "engaged",
+        "altitudeM": 1500,
+        "note": "对加来城区的俯冲轰炸"
+      },
+      {
+        "at": "1940-05-26T10:30",
+        "pos": "@st_omer_airfield",
+        "status": "active",
+        "flightPhase": "returning"
+      },
+      {
+        "at": "1940-05-28T06:00",
+        "pos": "@st_omer_airfield",
+        "status": "active",
+        "flightPhase": "at_base"
+      },
+      {
+        "at": "1940-05-28T08:00",
+        "pos": "@bergues",
+        "status": "engaged",
+        "flightPhase": "engaged",
+        "altitudeM": 1200
+      },
+      {
+        "at": "1940-05-28T09:30",
+        "pos": "@st_omer_airfield",
+        "status": "active",
+        "flightPhase": "returning"
+      },
+      {
+        "at": "1940-05-29T06:00",
+        "pos": "@st_omer_airfield",
+        "status": "active",
+        "flightPhase": "at_base"
+      },
+      {
+        "at": "1940-05-29T08:00",
+        "pos": "@dunkirk_port",
+        "status": "engaged",
+        "flightPhase": "engaged",
+        "altitudeM": 1200
+      },
+      {
+        "at": "1940-05-29T10:00",
+        "pos": "@st_omer_airfield",
+        "status": "active",
+        "flightPhase": "returning"
+      },
+      {
+        "at": "1940-06-01T06:00",
+        "pos": "@st_omer_airfield",
+        "status": "active",
+        "flightPhase": "at_base"
+      },
+      {
+        "at": "1940-06-01T08:00",
+        "pos": "@hoymille",
+        "status": "engaged",
+        "flightPhase": "engaged",
+        "altitudeM": 1200,
+        "note": "6 月 1 日总攻的俯冲轰炸支援"
+      },
+      {
+        "at": "1940-06-01T10:00",
+        "pos": "@st_omer_airfield",
+        "status": "active",
+        "flightPhase": "returning"
+      },
+      {
+        "at": "1940-06-03T07:00",
+        "pos": "@st_omer_airfield",
+        "status": "active",
+        "flightPhase": "at_base"
+      },
+      {
+        "at": "1940-06-03T09:00",
+        "pos": "@dunkirk_port",
+        "status": "engaged",
+        "flightPhase": "engaged",
+        "altitudeM": 1200
+      },
+      {
+        "at": "1940-06-03T11:00",
+        "pos": "@st_omer_airfield",
+        "status": "active",
+        "flightPhase": "returning"
+      }
+    ],
+    "history": "StG 2 装备 Ju 87B，是第 VIII 航空军最有效的近距支援力量，5 月 26 日以俯冲轰炸配合第 10 装甲师攻下加来。5 月 28 日起转用于贝尔格与桥头堡正面，6 月 1 日屈希勒下令的总攻中得到该联队的直接支援，但恶劣天气与皇家空军的拦截使其效果大打折扣。",
+    "sources": [
+      "balke_1989",
+      "ellis_1953",
+      "kesselring_1953"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "de.jg26",
+    "side": "DE",
+    "echelon": "gruppe",
+    "type": "fighter",
+    "parent": "de.lw2",
+    "name": {
+      "zh": "JG 26「施拉格特」战斗机联队",
+      "orig": "Jagdgeschwader 26 „Schlageter“",
+      "short": "JG26"
+    },
+    "commander": {
+      "zh": "爱德华·冯·施莱希",
+      "orig": "Eduard von Schleich"
+    },
+    "model": "bf109",
+    "base": "@ursel",
+    "strength": {
+      "men": 1200,
+      "aircraft": 100
+    },
+    "equipment": [
+      {
+        "id": "bf109e",
+        "count": 0
+      }
+    ],
+    "track": [
+      {
+        "at": "1940-05-27T06:00",
+        "pos": "@ursel",
+        "status": "active",
+        "flightPhase": "at_base"
+      },
+      {
+        "at": "1940-05-27T08:00",
+        "pos": "@dunkirk",
+        "status": "engaged",
+        "flightPhase": "engaged",
+        "altitudeM": 5000
+      },
+      {
+        "at": "1940-05-27T09:30",
+        "pos": "@ursel",
+        "status": "active",
+        "flightPhase": "returning"
+      },
+      {
+        "at": "1940-05-29T06:00",
+        "pos": "@ursel",
+        "status": "active",
+        "flightPhase": "at_base"
+      },
+      {
+        "at": "1940-05-29T08:00",
+        "pos": "@dunkirk",
+        "status": "engaged",
+        "flightPhase": "engaged",
+        "altitudeM": 5000
+      },
+      {
+        "at": "1940-05-29T10:00",
+        "pos": "@ursel",
+        "status": "active",
+        "flightPhase": "returning"
+      },
+      {
+        "at": "1940-06-01T06:00",
+        "pos": "@ursel",
+        "status": "active",
+        "flightPhase": "at_base"
+      },
+      {
+        "at": "1940-06-01T08:00",
+        "pos": "@dunkirk",
+        "status": "engaged",
+        "flightPhase": "engaged",
+        "altitudeM": 4500
+      },
+      {
+        "at": "1940-06-01T10:00",
+        "pos": "@ursel",
+        "status": "active",
+        "flightPhase": "returning"
+      },
+      {
+        "at": "1940-06-03T06:00",
+        "pos": "@ursel",
+        "status": "active",
+        "flightPhase": "at_base"
+      },
+      {
+        "at": "1940-06-03T08:00",
+        "pos": "@dunkirk",
+        "status": "engaged",
+        "flightPhase": "engaged",
+        "altitudeM": 5000
+      },
+      {
+        "at": "1940-06-03T10:00",
+        "pos": "@ursel",
+        "status": "active",
+        "flightPhase": "returning"
+      }
+    ],
+    "history": "JG 26 装备 Bf 109E，属第 2 航空队，负责为敦刻尔克上空的轰炸机护航。它与皇家空军第 11 大队的喷火、飓风在 5 月 27 日至 6 月 3 日之间反复交锋，是德军未能取得敦刻尔克上空绝对制空权的原因之一。",
+    "sources": [
+      "balke_1989",
+      "kesselring_1953",
+      "franks_2006"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "de.jg27",
+    "side": "DE",
+    "echelon": "gruppe",
+    "type": "fighter",
+    "parent": "de.lw3",
+    "name": {
+      "zh": "JG 27 战斗机联队",
+      "orig": "Jagdgeschwader 27",
+      "short": "JG27"
+    },
+    "commander": {
+      "zh": "马克斯-约瑟夫·伊贝尔",
+      "orig": "Max-Josef Ibel"
+    },
+    "model": "bf109",
+    "base": "@cambrai_airfield",
+    "strength": {
+      "men": 1200,
+      "aircraft": 100
+    },
+    "equipment": [
+      {
+        "id": "bf109e",
+        "count": 0
+      }
+    ],
+    "track": [
+      {
+        "at": "1940-05-26T07:00",
+        "pos": "@cambrai_airfield",
+        "status": "active",
+        "flightPhase": "at_base"
+      },
+      {
+        "at": "1940-05-26T09:00",
+        "pos": "@calais",
+        "status": "engaged",
+        "flightPhase": "engaged",
+        "altitudeM": 5000
+      },
+      {
+        "at": "1940-05-26T10:30",
+        "pos": "@cambrai_airfield",
+        "status": "active",
+        "flightPhase": "returning"
+      },
+      {
+        "at": "1940-05-29T06:00",
+        "pos": "@cambrai_airfield",
+        "status": "active",
+        "flightPhase": "at_base"
+      },
+      {
+        "at": "1940-05-29T08:00",
+        "pos": "@dunkirk",
+        "status": "engaged",
+        "flightPhase": "engaged",
+        "altitudeM": 5000
+      },
+      {
+        "at": "1940-05-29T10:00",
+        "pos": "@cambrai_airfield",
+        "status": "active",
+        "flightPhase": "returning"
+      },
+      {
+        "at": "1940-06-01T06:00",
+        "pos": "@cambrai_airfield",
+        "status": "active",
+        "flightPhase": "at_base"
+      },
+      {
+        "at": "1940-06-01T08:00",
+        "pos": "@dunkirk",
+        "status": "engaged",
+        "flightPhase": "engaged",
+        "altitudeM": 5000
+      },
+      {
+        "at": "1940-06-01T10:00",
+        "pos": "@cambrai_airfield",
+        "status": "active",
+        "flightPhase": "returning"
+      },
+      {
+        "at": "1940-06-04T06:00",
+        "pos": "@cambrai_airfield",
+        "status": "active",
+        "flightPhase": "at_base"
+      },
+      {
+        "at": "1940-06-04T08:00",
+        "pos": "@dunkirk",
+        "status": "engaged",
+        "flightPhase": "engaged",
+        "altitudeM": 4500
+      },
+      {
+        "at": "1940-06-04T10:00",
+        "pos": "@cambrai_airfield",
+        "status": "active",
+        "flightPhase": "returning"
+      }
+    ],
+    "history": "JG 27 装备 Bf 109E，随第 3 航空队行动，5 月 23 日一天宣称击落 18 架盟军飞机。5 月底该联队转至加来与敦刻尔克方向，为轰炸加来、贝尔格与港区的编队提供护航，6 月 4 日仍在敦刻尔克上空活动。",
+    "sources": [
+      "balke_1989",
+      "franks_2006",
+      "kesselring_1953"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "de.zg26",
+    "side": "DE",
+    "echelon": "gruppe",
+    "type": "fighter",
+    "parent": "de.viii_fk",
+    "name": {
+      "zh": "ZG 26「霍斯特·韦塞尔」重型战斗机联队",
+      "orig": "Zerstörergeschwader 26 „Horst Wessel“",
+      "short": "ZG26"
+    },
+    "commander": {
+      "zh": "库尔特·贝特拉姆·冯·德林",
+      "orig": "Kurt Bertram von Döring"
+    },
+    "model": "bf110",
+    "base": "@st_omer_airfield",
+    "strength": {
+      "men": 1100,
+      "aircraft": 90
+    },
+    "equipment": [
+      {
+        "id": "bf110c",
+        "count": 0
+      }
+    ],
+    "track": [
+      {
+        "at": "1940-05-27T07:00",
+        "pos": "@st_omer_airfield",
+        "status": "active",
+        "flightPhase": "at_base"
+      },
+      {
+        "at": "1940-05-27T09:00",
+        "pos": "@dunkirk_roads",
+        "status": "engaged",
+        "flightPhase": "engaged",
+        "altitudeM": 3000,
+        "note": "攻击锚地船只"
+      },
+      {
+        "at": "1940-05-27T10:30",
+        "pos": "@st_omer_airfield",
+        "status": "active",
+        "flightPhase": "returning"
+      },
+      {
+        "at": "1940-05-29T06:00",
+        "pos": "@st_omer_airfield",
+        "status": "active",
+        "flightPhase": "at_base"
+      },
+      {
+        "at": "1940-05-29T08:00",
+        "pos": "@dunkirk_roads",
+        "status": "engaged",
+        "flightPhase": "engaged",
+        "altitudeM": 2500
+      },
+      {
+        "at": "1940-05-29T10:00",
+        "pos": "@st_omer_airfield",
+        "status": "active",
+        "flightPhase": "returning"
+      },
+      {
+        "at": "1940-06-01T07:00",
+        "pos": "@st_omer_airfield",
+        "status": "active",
+        "flightPhase": "at_base"
+      },
+      {
+        "at": "1940-06-01T09:00",
+        "pos": "@dunkirk_roads",
+        "status": "engaged",
+        "flightPhase": "engaged",
+        "altitudeM": 2500
+      },
+      {
+        "at": "1940-06-01T11:00",
+        "pos": "@st_omer_airfield",
+        "status": "active",
+        "flightPhase": "returning"
+      },
+      {
+        "at": "1940-06-03T08:00",
+        "pos": "@dunkirk_roads",
+        "status": "engaged",
+        "flightPhase": "engaged",
+        "altitudeM": 2500
+      },
+      {
+        "at": "1940-06-03T10:00",
+        "pos": "@st_omer_airfield",
+        "status": "active",
+        "flightPhase": "returning"
+      }
+    ],
+    "history": "ZG 26 装备 Bf 110C，隶属第 VIII 航空军，任务是攻击敦刻尔克锚地与航渡中的船只。5 月 29 日它与轰炸机联队一同出击，声称击伤多艘英方舰船；但在皇家空军单座战斗机的拦截下损失严重，暴露了 Bf 110 在制空作战中的弱点。",
+    "sources": [
+      "balke_1989",
+      "kesselring_1953",
+      "franks_2006"
+    ],
+    "confidence": "medium"
+  }
+]

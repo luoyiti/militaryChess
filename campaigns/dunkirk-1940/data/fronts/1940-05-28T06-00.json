@@ -1,0 +1,62 @@
+{
+ "at": "1940-05-28T06:00",
+ "control": {
+  "DE": [
+   [
+    [
+     [
+      -1.6,
+      48.3
+     ],
+     [
+      6.6,
+      48.3
+     ],
+     [
+      6.6,
+      52.9
+     ],
+     [
+      4.2483,
+      52.9
+     ],
+     "@terneuzen",
+     "@gent",
+     "@deinze",
+     "@waregem",
+     "@kortrijk",
+     "@ieper",
+     "@poperinge",
+     [
+      2.57,
+      50.755
+     ],
+     [
+      2.42,
+      50.775
+     ],
+     "@bollezeele",
+     "@bourbourg",
+     [
+      2.1272,
+      52.9
+     ],
+     [
+      -1.6,
+      52.9
+     ]
+    ]
+   ]
+  ]
+ },
+ "note": "比利时军 04:00 停止抵抗；德军进入伊珀尔、波珀灵厄",
+ "sources": [
+  "ellis_1953",
+  "frieser_2005",
+  "guderian_ktb",
+  "kleist_ktb",
+  "hyperwar_dunkirk",
+  "sebag_2006"
+ ],
+ "confidence": "medium"
+}

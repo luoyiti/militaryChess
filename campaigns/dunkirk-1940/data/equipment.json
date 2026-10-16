@@ -1,0 +1,648 @@
+[
+ {
+  "id": "pz3_ausf_f",
+  "side": "DE",
+  "name": {
+   "zh": "三号坦克 F 型",
+   "orig": "Panzerkampfwagen III Ausf. F"
+  },
+  "class": "tank_light",
+  "crew": 5,
+  "weightT": 19.8,
+  "armorMm": [
+   30,
+   30
+  ],
+  "gun": "37 mm KwK 36 L/45",
+  "speedKmh": 40,
+  "count": 350,
+  "model": "pz3",
+  "desc": "1940 年 5 月德军在西线共有约 350 辆三号坦克，是装甲师的主力中型坦克，但 37 毫米炮穿甲力不足，遇到法军 SOMUA S35 与英军玛蒂尔达 II 时几乎打不穿对方装甲。到敦刻尔克外围时，多数三号坦克已因机械磨损停在路边。",
+  "sources": [
+   "frieser_2005",
+   "blitzkrieg_legend",
+   "dildy_2010"
+  ]
+ },
+ {
+  "id": "pz4_ausf_d",
+  "side": "DE",
+  "name": {
+   "zh": "四号坦克 D 型",
+   "orig": "Panzerkampfwagen IV Ausf. D"
+  },
+  "class": "tank_medium",
+  "crew": 5,
+  "weightT": 20,
+  "armorMm": [
+   30,
+   20
+  ],
+  "gun": "75 mm KwK 37 L/24",
+  "speedKmh": 42,
+  "count": 280,
+  "model": "pz4",
+  "desc": "装 75 毫米短管炮，本为支援步兵而设计，配榴弹时反而成为德军对付法军重装甲坦克最有效的手段。1940 年 5 月全德军只有约 280 辆，主要配属第 1、2、6、8 装甲师，数量少到不足以改变敦刻尔克外围的坦克对比。",
+  "sources": [
+   "frieser_2005",
+   "guderian_1951",
+   "dildy_2010"
+  ]
+ },
+ {
+  "id": "pz35t",
+  "side": "DE",
+  "name": {
+   "zh": "35(t) 坦克",
+   "orig": "Panzerkampfwagen 35(t)"
+  },
+  "class": "tank_light",
+  "crew": 4,
+  "weightT": 10.5,
+  "armorMm": [
+   25,
+   16
+  ],
+  "gun": "37 mm KwK 34(t) L/40",
+  "speedKmh": 34,
+  "count": 218,
+  "model": "pz35t",
+  "desc": "吞并捷克后接手的斯柯达轻型坦克，可靠性好、机械故障少，是第 6 装甲师的核心装备。1940 年 5 月德军共有约 218 辆，从阿登一路开到敦刻尔克外围，其中一部分因缺少备件在加来海峡沿岸被弃置。",
+  "sources": [
+   "frieser_2005",
+   "blitzkrieg_legend",
+   "klee_1940"
+  ]
+ },
+ {
+  "id": "pz38t",
+  "side": "DE",
+  "name": {
+   "zh": "38(t) 坦克",
+   "orig": "Panzerkampfwagen 38(t)"
+  },
+  "class": "tank_light",
+  "crew": 4,
+  "weightT": 9.5,
+  "armorMm": [
+   25,
+   15
+  ],
+  "gun": "37 mm KwK 38(t) L/48",
+  "speedKmh": 42,
+  "count": 202,
+  "model": "pz38t",
+  "desc": "捷克 CKD 厂出品，炮管比 35(t) 更长、初速更高。第 7、8 装甲师靠它一口气冲过阿登与索姆河，5 月底抵达敦刻尔克南面的运河线。全德军 1940 年 5 月约有 202 辆，是德军数量最多的捷克造坦克。",
+  "sources": [
+   "frieser_2005",
+   "dildy_2010",
+   "guderian_ktb"
+  ]
+ },
+ {
+  "id": "sdkfz231",
+  "side": "DE",
+  "name": {
+   "zh": "Sd.Kfz. 231 八轮重装甲车",
+   "orig": "Sd.Kfz. 231 (8-rad)"
+  },
+  "class": "armored_car",
+  "crew": 4,
+  "weightT": 8.3,
+  "armorMm": [
+   15,
+   8
+  ],
+  "gun": "20 mm KwK 30 机关炮",
+  "speedKmh": 85,
+  "count": 123,
+  "model": "sdkfz231",
+  "desc": "八轮全驱、前后都能驾驶的侦察装甲车，公路时速可达 85 公里。德军 1940 年 5 月约有 123 辆，配属装甲师的侦察营，在敦刻尔克桥头堡外围负责沿运河与海滩公路的搜索，也是最早看见英军登船队列的德军单位之一。",
+  "sources": [
+   "frieser_2005",
+   "mollo_1987",
+   "aok6_ktb"
+  ]
+ },
+ {
+  "id": "ju87b",
+  "side": "DE",
+  "name": {
+   "zh": "Ju 87 B「斯图卡」",
+   "orig": "Junkers Ju 87 B Stuka"
+  },
+  "class": "dive_bomber",
+  "crew": 2,
+  "weightT": 4.4,
+  "gun": "250 kg 炸弹 + 4 × 50 kg",
+  "speedKmh": 383,
+  "count": 320,
+  "model": "ju87",
+  "desc": "俯冲时发出的耶利哥号笛声是敦刻尔克海滩上最恐怖的声音。第 8 航空军 1940 年 5 月约有 320 架，5 月 29 日一天就炸沉驱逐舰「格内德」号、炸伤「美洲豹」号与「米斯特拉尔」号；6 月 1 日又击沉「基思」号、「巴兹利斯克」号与「阿文特」号。",
+  "sources": [
+   "dildy_2010",
+   "kesselring_1953",
+   "usaaf_study"
+  ]
+ },
+ {
+  "id": "bf109e",
+  "side": "DE",
+  "name": {
+   "zh": "Bf 109 E 战斗机",
+   "orig": "Messerschmitt Bf 109 E"
+  },
+  "class": "fighter",
+  "crew": 1,
+  "weightT": 2.7,
+  "gun": "2 × 7.92 mm MG 17 + 2 × 20 mm MG FF",
+  "speedKmh": 560,
+  "count": 1000,
+  "model": "bf109",
+  "desc": "1940 年 5 月德军在西线约有 1,000 架 Bf 109，性能全面压过法军 MS.406 与英军「无畏」式。它把皇家空军第 11 大队的战斗机牢牢牵制在多佛海峡上空，使德军轰炸机得以在敦刻尔克自由选择攻击时机。",
+  "sources": [
+   "kesselring_1953",
+   "mason_1969",
+   "franks_2006"
+  ]
+ },
+ {
+  "id": "he111",
+  "side": "DE",
+  "name": {
+   "zh": "He 111 中型轰炸机",
+   "orig": "Heinkel He 111 H"
+  },
+  "class": "bomber",
+  "crew": 5,
+  "weightT": 13.6,
+  "gun": "2,000 kg 炸弹",
+  "speedKmh": 390,
+  "count": 600,
+  "model": "he111",
+  "desc": "德国空军 1940 年 5 月在西线约有 600 架 He 111，是水平轰炸的主力。KG 54「黑狮」联队 5 月 27 日在港内炸沉 8,033 吨的「亚丁」号，也炸毁了敦刻尔克港的码头设施，迫使英军把装载点改到东防波堤与海滩。",
+  "sources": [
+   "kesselring_1953",
+   "dildy_2010",
+   "usaaf_study"
+  ]
+ },
+ {
+  "id": "bf110c",
+  "side": "DE",
+  "name": {
+   "zh": "Bf 110 C 重型战斗机",
+   "orig": "Messerschmitt Bf 110 C"
+  },
+  "class": "fighter",
+  "crew": 2,
+  "weightT": 7,
+  "gun": "4 × 7.92 mm MG 17 + 2 × 20 mm MG FF",
+  "speedKmh": 560,
+  "count": 230,
+  "model": "bf110",
+  "desc": "双发战斗机，ZG 26 联队的主力。它航程远、火力猛，适合为轰炸机护航与扫射海滩，但机动性不如单发战斗机，在英军喷火与飓风的拦截下损失惨重；到 5 月底已不得不由 Bf 109 掩护出航。",
+  "sources": [
+   "kesselring_1953",
+   "franks_2006",
+   "priller_1950"
+  ]
+ },
+ {
+  "id": "matilda_ii",
+  "side": "GB",
+  "name": {
+   "zh": "玛蒂尔达 II 步兵坦克",
+   "orig": "Infantry Tank Mk II Matilda II"
+  },
+  "class": "tank_medium",
+  "crew": 4,
+  "weightT": 26.9,
+  "armorMm": [
+   78,
+   70
+  ],
+  "gun": "2 磅炮（40 mm）",
+  "speedKmh": 24,
+  "count": 23,
+  "model": "pz1",
+  "desc": "1940 年 5 月随英国远征军到法国的玛蒂尔达 II 只有 23 辆，集中在第 7 皇家坦克团。它的 78 毫米前装甲能挡住德军全部反坦克炮，阿拉斯反击战中一度冲乱第 7 装甲师的步兵线，但速度慢、数量太少，未能改变大局。",
+  "sources": [
+   "ellis_1953",
+   "atkin_1990",
+   "gudmundsson_2004"
+  ]
+ },
+ {
+  "id": "cruiser_a13",
+  "side": "GB",
+  "name": {
+   "zh": "A13 巡洋坦克 Mk II",
+   "orig": "Cruiser Tank Mk IV (A13 Mk II)"
+  },
+  "class": "tank_light",
+  "crew": 4,
+  "weightT": 14.5,
+  "armorMm": [
+   30,
+   14
+  ],
+  "gun": "2 磅炮（40 mm）",
+  "speedKmh": 48,
+  "count": 114,
+  "model": "pz1",
+  "desc": "第 1 装甲师 1940 年 5 月带往法国的约 114 辆巡洋坦克中，A13 Mk II 是最多的一型。它借鉴了苏联克里斯蒂悬挂，公路时速 48 公里，但装甲薄、机械可靠性差，长途行军后大量坦克被遗弃在通往敦刻尔克的公路上。",
+  "sources": [
+   "ellis_1953",
+   "gudmundsson_2004",
+   "dildy_2010"
+  ]
+ },
+ {
+  "id": "bren_gun",
+  "side": "GB",
+  "name": {
+   "zh": "布伦轻机枪",
+   "orig": "Bren light machine gun"
+  },
+  "class": "small_arms",
+  "crew": 2,
+  "gun": "7.7 mm（.303）",
+  "count": 30000,
+  "model": "inf_gb",
+  "desc": "英国远征军步兵班的核心自动火力，每班一挺。撤退中大量布伦机枪连同弹药被丢在敦刻尔克的海滩与公路上：按 Ellis 口径，火炮损失 2,472 门、车辆损失 63,879 辆，步兵武器几乎一件不剩。",
+  "sources": [
+   "ellis_1953",
+   "gort_despatch",
+   "atkin_1990"
+  ]
+ },
+ {
+  "id": "qf_25pdr",
+  "side": "GB",
+  "name": {
+   "zh": "25 磅炮",
+   "orig": "QF 25-pounder gun-howitzer"
+  },
+  "class": "gun",
+  "crew": 6,
+  "weightT": 1.8,
+  "gun": "87.6 mm（25 磅）",
+  "count": 114,
+  "model": "art_gun",
+  "desc": "英军新一代野战炮，兼作榴弹炮与反坦克炮。到 1940 年 5 月总共只造出约 114 门，远征军的炮兵主力仍是一战老炮。按 Ellis 口径火炮运往法国 2,794 门、损失 2,472 门、带回 322 门，这些崭新的 25 磅炮大多是在弹药耗尽后被推入运河或炸毁的。",
+  "sources": [
+   "ellis_1953",
+   "gort_despatch",
+   "barker_1941"
+  ]
+ },
+ {
+  "id": "spitfire_mk1",
+  "side": "GB",
+  "name": {
+   "zh": "喷火 Mk I 战斗机",
+   "orig": "Supermarine Spitfire Mk I"
+  },
+  "class": "fighter",
+  "crew": 1,
+  "weightT": 2.6,
+  "gun": "8 × 7.7 mm 勃朗宁机枪",
+  "speedKmh": 580,
+  "count": 90,
+  "model": "spitfire",
+  "desc": "第 11 大队的第 19、54、64、74、92 中队装备喷火，五个中队编制约 90 架。它的机动性足以与 Bf 109 缠斗，但航程有限，只能在敦刻尔克上空停留很短时间；九天里皇家空军损失 145 架飞机，其中喷火至少 42 架。",
+  "sources": [
+   "fighter_command",
+   "terraine_1985",
+   "battle_of_britain_raf"
+  ]
+ },
+ {
+  "id": "hurricane_mk1",
+  "side": "GB",
+  "name": {
+   "zh": "飓风 Mk I 战斗机",
+   "orig": "Hawker Hurricane Mk I"
+  },
+  "class": "fighter",
+  "crew": 1,
+  "weightT": 3,
+  "gun": "8 × 7.7 mm 勃朗宁机枪",
+  "speedKmh": 550,
+  "count": 126,
+  "model": "hurricane",
+  "desc": "投入敦刻尔克的第 1、17、32、145、213、601、605 等中队编制约 126 架，是皇家空军在撤退上空的绝对主力。它比喷火结实、好修，被德军轰炸机机组视为最难缠的对手；九天中皇家空军共损失 145 架。",
+  "sources": [
+   "fighter_command",
+   "bowhill_1941",
+   "battle_of_britain_raf"
+  ]
+ },
+ {
+  "id": "defiant_mk1",
+  "side": "GB",
+  "name": {
+   "zh": "无畏式战斗机",
+   "orig": "Boulton Paul Defiant Mk I"
+  },
+  "class": "fighter",
+  "crew": 2,
+  "weightT": 3.9,
+  "gun": "4 挺 7.7 mm 机枪（动力炮塔）",
+  "speedKmh": 489,
+  "count": 24,
+  "model": "hurricane",
+  "desc": "没有前向机枪，全部四挺机枪装在座舱后的动力炮塔上。第 264 中队 5 月 28—31 日在敦刻尔克上空出奇制胜，德军飞行员把它当成飓风从后方逼近，结果一批 Bf 109 被反手打下来；一旦被识破，它的战损便直线上升。",
+  "sources": [
+   "fighter_command",
+   "mason_1969",
+   "raf_aircomponent"
+  ]
+ },
+ {
+  "id": "sunderland",
+  "side": "GB",
+  "name": {
+   "zh": "桑德兰水上飞机",
+   "orig": "Short Sunderland"
+  },
+  "class": "seaplane",
+  "crew": 11,
+  "weightT": 22.5,
+  "gun": "8 × 7.7 mm 机枪 + 深水炸弹",
+  "speedKmh": 336,
+  "count": 30,
+  "model": "walrus",
+  "desc": "海岸司令部的四发水上飞机，1940 年 5 月约 30 架。它从英吉利海峡与北海起飞执行远程反潜巡逻，在敦刻尔克航道两侧盯住德军 U 艇与 S 艇；其厚重机身与密集机枪也让德军战斗机难以击落，被称作「会飞的豪猪」。",
+  "sources": [
+   "coastal_forces",
+   "iwm_dunkirk",
+   "ellis_1953"
+  ]
+ },
+ {
+  "id": "ship_destroyer",
+  "side": "GB",
+  "name": {
+   "zh": "皇家海军驱逐舰",
+   "orig": "Royal Navy destroyer"
+  },
+  "class": "ship",
+  "crew": 145,
+  "weightT": 1370,
+  "gun": "4 × 4.7 英寸（120 mm）",
+  "speedKmh": 65,
+  "count": 39,
+  "model": "leander",
+  "desc": "39 艘英国驱逐舰参加了发电机行动，是防波堤装载的主力，一艘一次可运 900 人。代价同样惊人：沉 6 艘、伤 19 艘。5 月 29 日一夜之间，「韦克福」「格拉夫顿」「格内德」三舰相继沉没，海军部随后把八艘最新式的驱逐舰撤出行动。",
+  "sources": [
+   "dynamo_despatch",
+   "admiralty_losses_1947",
+   "scott_1941"
+  ]
+ },
+ {
+  "id": "ship_aa_cruiser",
+  "side": "GB",
+  "name": {
+   "zh": "C 级防空巡洋舰",
+   "orig": "C-class anti-aircraft cruiser"
+  },
+  "class": "ship",
+  "crew": 400,
+  "weightT": 4290,
+  "gun": "8 × 4 英寸（102 mm）高射炮 + 八联装 2 磅炮",
+  "speedKmh": 54,
+  "count": 2,
+  "model": "leander",
+  "desc": "「加尔各答」号与「考文垂」号在 1939 年被拆掉 6 英寸主炮、改装为专用的防空巡洋舰，每舰十门 4 英寸高射炮加一座八联装「砰砰」炮。它们是敦刻尔克锚地上唯一的远程防空火力，5 月 27 日至 6 月 2 日轮番值班，为靠泊装载的船团撑起火力网。",
+  "sources": [
+   "scott_1941",
+   "dynamo_despatch",
+   "wiki_ships_dunkirk"
+  ]
+ },
+ {
+  "id": "ship_minesweeper",
+  "side": "GB",
+  "name": {
+   "zh": "哈尔西恩级扫雷舰",
+   "orig": "Halcyon-class minesweeper"
+  },
+  "class": "ship",
+  "crew": 120,
+  "weightT": 815,
+  "gun": "1 × 4 英寸高射炮 + 1 × 12 磅炮",
+  "speedKmh": 31,
+  "count": 36,
+  "model": "leander",
+  "desc": "吃水浅、抗沉性好，本是用来扫雷与设浮标的。36 艘扫雷舰参加了发电机行动，先在三条航线上清扫水雷、布设浮标，再从拉帕讷与马洛海滩用小艇把士兵摆渡上大船。它们不起眼，运量却仅次于驱逐舰，代价是沉 5 艘、伤 7 艘。",
+  "sources": [
+   "dynamo_despatch",
+   "coastal_forces",
+   "admiralty_losses_1947"
+  ]
+ },
+ {
+  "id": "ship_tug",
+  "side": "GB",
+  "name": {
+   "zh": "港口拖船与驳船",
+   "orig": "Tug and harbour craft"
+  },
+  "class": "ship",
+  "crew": 25,
+  "weightT": 700,
+  "gun": "应急防空机枪",
+  "speedKmh": 20,
+  "count": 34,
+  "model": "merchant",
+  "desc": "34 艘拖船参加了撤离，多佛的「萨顿」号与「布拉西夫人」号是其中的代表。它们把满载的驳船、小艇与受损的驱逐舰拖回航道，也把靠泊装载完的船拽离防波堤给下一艘让位。拖船「圣阿布斯」号 6 月 1 日载着「基思」号幸存者触雷沉没，百余人丧生。",
+  "sources": [
+   "dynamo_despatch",
+   "coastal_forces",
+   "national_archives_dynamo"
+  ]
+ },
+ {
+  "id": "somua_s35",
+  "side": "FR",
+  "name": {
+   "zh": "SOMUA S35 骑兵坦克",
+   "orig": "SOMUA S35"
+  },
+  "class": "tank_medium",
+  "crew": 3,
+  "weightT": 19.5,
+  "armorMm": [
+   40,
+   20
+  ],
+  "gun": "47 mm SA 35 L/35",
+  "speedKmh": 40,
+  "count": 244,
+  "model": "inf_pl",
+  "desc": "1940 年 5 月法军约有 244 辆 SOMUA S35，是当时西方最好的中型坦克：铸造车体、47 毫米炮能穿透任何德军坦克。汉纳特之战中第 1、2、3 轻型机械化师的 S35 与德军装甲师硬碰硬；但它是一人炮塔，车长既瞄准又装填，反应慢半拍。",
+  "sources": [
+   "french_army_1940",
+   "sumner_1998",
+   "holland_belgium_1940"
+  ]
+ },
+ {
+  "id": "char_b1bis",
+  "side": "FR",
+  "name": {
+   "zh": "Char B1 bis 重型坦克",
+   "orig": "Char B1 bis"
+  },
+  "class": "tank_medium",
+  "crew": 4,
+  "weightT": 31.5,
+  "armorMm": [
+   60,
+   60
+  ],
+  "gun": "47 mm SA 35 + 75 mm 车体榴弹炮",
+  "speedKmh": 28,
+  "count": 189,
+  "model": "inf_pl",
+  "desc": "战场上的庞然大物：60 毫米装甲挡住德军全部反坦克炮，车体还装一门 75 毫米榴弹炮。1940 年 5 月约有 189 辆在作战部队。缺点是油耗惊人、行程只有 130 公里，需要油罐车跟随；许多 B1 bis 在燃料耗尽后被车组自行炸毁。",
+  "sources": [
+   "french_army_1940",
+   "sumner_1998",
+   "vaillant_1940"
+  ]
+ },
+ {
+  "id": "hotchkiss_h39",
+  "side": "FR",
+  "name": {
+   "zh": "哈奇开斯 H39 轻型坦克",
+   "orig": "Hotchkiss H39"
+  },
+  "class": "tank_light",
+  "crew": 2,
+  "weightT": 12.1,
+  "armorMm": [
+   40,
+   40
+  ],
+  "gun": "37 mm SA 38 L/33",
+  "speedKmh": 36,
+  "count": 500,
+  "model": "inf_pl",
+  "desc": "法军数量最多的坦克，1940 年 5 月约有 500 辆在部队。H39 的 37 毫米 SA 38 炮长身管、初速高，正面装甲 40 毫米，性能并不差；但车长一人要指挥、瞄准、装填、射击，无线电又只有营连长车才有，只能靠旗语协同。",
+  "sources": [
+   "french_army_1940",
+   "sumner_1998",
+   "ellis_lille_1952"
+  ]
+ },
+ {
+  "id": "ms406",
+  "side": "FR",
+  "name": {
+   "zh": "MS.406 战斗机",
+   "orig": "Morane-Saulnier MS.406"
+  },
+  "class": "fighter",
+  "crew": 1,
+  "weightT": 2.7,
+  "gun": "1 × 20 mm HS.404 + 2 × 7.5 mm MAC 1934",
+  "speedKmh": 486,
+  "count": 570,
+  "model": "hurricane",
+  "desc": "法国空军 1940 年 5 月的一线主力，约 570 架。它速度与爬升都不如 Bf 109 E，机炮又常卡壳，但数量足、结构结实，在北部战场上仍出击了数百架次，为敦刻尔克上空的英军战斗机分担了一部分压力。",
+  "sources": [
+   "french_army_1940",
+   "sumner_1998",
+   "perez_1946"
+  ]
+ },
+ {
+  "id": "d520",
+  "side": "FR",
+  "name": {
+   "zh": "D.520 战斗机",
+   "orig": "Dewoitine D.520"
+  },
+  "class": "fighter",
+  "crew": 1,
+  "weightT": 2.8,
+  "gun": "1 × 20 mm HS.404 + 4 × 7.5 mm MAC 1934",
+  "speedKmh": 535,
+  "count": 36,
+  "model": "hurricane",
+  "desc": "法国最现代化的战斗机，性能接近 Bf 109 E，却来得太晚：到 1940 年 5 月 10 日只交付了约 36 架，多数还在训练单位手里。敦刻尔克撤退期间只有极少数 D.520 参战，法国投降时它才刚开始成批服役。",
+  "sources": [
+   "french_army_1940",
+   "sumner_1998",
+   "perez_1946"
+  ]
+ },
+ {
+  "id": "lebel_rifle",
+  "side": "FR",
+  "name": {
+   "zh": "勒贝尔 1886 步枪",
+   "orig": "Fusil Lebel Mle 1886 M93"
+  },
+  "class": "small_arms",
+  "crew": 1,
+  "gun": "8 mm Lebel",
+  "count": 2000000,
+  "model": "inf_pl",
+  "desc": "世界上第一种使用无烟火药的军用步枪，到 1940 年仍在法军库存与二线部队中大量存在，总数约二百万支。管状弹仓装弹慢、8 毫米弹道弯曲，一线部队已换装贝蒂埃与 MAS-36，但敦刻尔克桥头堡里的守备部队仍扛着它。",
+  "sources": [
+   "french_army_1940",
+   "vaillant_1940",
+   "lutfalla_1973"
+  ]
+ },
+ {
+  "id": "t13_tank_destroyer",
+  "side": "BE",
+  "name": {
+   "zh": "T-13 自行反坦克炮",
+   "orig": "T-13 B2 / B3"
+  },
+  "class": "armored_car",
+  "crew": 4,
+  "weightT": 7.8,
+  "armorMm": [
+   13,
+   13
+  ],
+  "gun": "47 mm FRC L/32",
+  "speedKmh": 40,
+  "count": 296,
+  "model": "inf_allied",
+  "desc": "在维克斯轻型坦克底盘上加装 47 毫米炮的旋转炮塔，1940 年 5 月比利时陆军约有 296 辆，是一款相当成功的自行反坦克炮。它在阿尔贝运河与利斯河防线上击穿过德军坦克，但比利时 5 月 28 日投降后，残余车辆大多落入德军手中。",
+  "sources": [
+   "belgian_army_1947",
+   "holland_belgium_1940",
+   "dildy_2010"
+  ]
+ },
+ {
+  "id": "fn_mauser_rifle",
+  "side": "BE",
+  "name": {
+   "zh": "FN 毛瑟步枪",
+   "orig": "Fusil Mle 1889 / FN Mauser 7.65 mm"
+  },
+  "class": "small_arms",
+  "crew": 1,
+  "gun": "7.65 mm Mauser",
+  "count": 500000,
+  "model": "inf_allied",
+  "desc": "比利时陆军 1940 年 5 月动员了 60 余万人，制式步枪是 1889 年毛瑟型的 7.65 毫米 FN 步枪，库存约 50 万支，数量不足以武装全部动员兵，部分二线部队只能使用旧式武器。18 天战役中大部分步兵武器被丢弃或被缴获。",
+  "sources": [
+   "belgian_army_1947",
+   "holland_belgium_1940",
+   "belgian_commission_1950"
+  ]
+ }
+]

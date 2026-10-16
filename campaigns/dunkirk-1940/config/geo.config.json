@@ -1,0 +1,73 @@
+{
+  "_doc": "地理管线参数（sh tools/geo/run.sh dunkirk-1940）。frame 决定投影与画布：以敦刻尔克（2.377,51.034）为中央经线以西 0.1°、两条标准纬线 50.9/51.3 夹住海峡两岸，使英法两海岸在图上的比例几乎一致。dem.zoom 12（≈38 m/像素）是为了让加来海峡两岸的沙洲、低地与运河线可见。borders 段：1940 年 5 月开战时，本图幅内除卢森堡外各国与 1938 年底图一致；卢森堡 1940-05-10 当天即被占领，故并入 DE。",
+  "frame": {
+    "bbox": [0.55, 49.92, 4.62, 51.85],
+    "parallels": [50.9, 51.3],
+    "rotate": [-2.58, 0],
+    "center": [0, 50.9],
+    "width": 4096,
+    "tileLevels": [1024, 2048, 4096],
+    "fieldCell": 8,
+    "clampKm": 60,
+    "kmProbe": [2.58, 50.9]
+  },
+  "region": [-2, 48, 8, 54],
+  "clip": [0.2, 49.6, 5.2, 52.2],
+  "dem": { "zoom": 12 },
+  "seed": 1940,
+  "borders": {
+    "source": "ne_10m_admin_0_countries",
+    "script": "pipeline/geo/borders_1940.py",
+    "zh": { "DE": "德国", "GB": "英国", "FR": "法国", "BE": "比利时", "NL": "荷兰" }
+  },
+  "masks": {
+    "landBit": 4,
+    "bits": {
+      "0": ["BE", "FR"],
+      "1": ["DE", "NL"],
+      "2": ["GB"],
+      "3": []
+    },
+    "otherLandBit": 6
+  },
+  "rivers": {
+    "maxRank": 10,
+    "names": {
+      "Maas": ["Maas / Meuse", "马斯河", 1],
+      "Schelde": ["Escaut / Schelde", "斯海尔德河", 2],
+      "Waal": ["Waal", "瓦尔河", 3],
+      "Somme": ["Somme", "索姆河", 1],
+      "Grote Gete": ["Grote Gete", "大海特河", 4]
+    }
+  },
+  "lakes": {
+    "maxRank": 6,
+    "keep": ["Veerse Meer"],
+    "zh": { "Veerse Meer": "费尔湖（1940 年为旧 Veerse Gat 水道）" },
+    "drop": []
+  },
+  "forest": [
+    { "zh": "尼约波尔特森林", "name": "Forêt de Nieppe", "blobs": [[2.62, 50.72, 8, 7, 0, 11]] },
+    { "zh": "克拉马克森林", "name": "Forêt de Clairmarais", "blobs": [[2.28, 50.77, 7, 5, 10, 12]] },
+    { "zh": "图尔讷昂森林", "name": "Forêt de Tournehem", "blobs": [[2.05, 50.72, 6, 5, 0, 13]] },
+    { "zh": "德潘讷—科克赛德沙丘林", "name": "Duinen", "blobs": [[2.62, 51.08, 8, 2.5, 5, 14]] },
+    { "zh": "布洛讷森林", "name": "Forêt de Boulogne", "blobs": [[1.68, 50.72, 9, 7, 0, 15]] },
+    { "zh": "代勒河畔林区", "name": "", "blobs": [[2.9, 50.53, 7, 5, 0, 16]] },
+    { "zh": "圣奥梅尔林区", "name": "Forêt de Rihoult", "blobs": [[2.28, 50.79, 5, 4, 0, 17]] },
+    { "zh": "卡塞尔林区", "name": "Forêt de Cassel", "blobs": [[2.49, 50.80, 5, 4, 0, 18]] },
+    { "zh": "阿登讷森林", "name": "Forêt d'Andaines", "blobs": [[2.42, 50.62, 5, 4, 0, 19]] },
+    { "zh": "肯特郡林区", "name": "Kent woods", "blobs": [[0.85, 51.25, 12, 8, 0, 20], [1.12, 51.15, 8, 6, 0, 21]] }
+  ],
+  "marsh": [
+    { "zh": "莱厄河洼地", "name": "Leievallei", "blobs": [[2.75, 50.92, 14, 4, 0, 31]] },
+    { "zh": "阿尔德河沼泽", "name": "Audomarois", "blobs": [[2.28, 50.83, 9, 5, 0, 32]] },
+    { "zh": "加来海峡滨海沼泽", "name": "Marais de Guînes", "blobs": [[1.93, 50.86, 8, 4, 0, 33]] },
+    { "zh": "斯海尔德河口滩涂", "name": "Scheldemonding", "blobs": [[3.9, 51.42, 14, 7, 0, 34]] },
+    { "zh": "伊瑟河泛滥区", "name": "IJzervlakte", "blobs": [[2.83, 51.00, 10, 3.5, 0, 35]] },
+    { "zh": "布鲁日低地", "name": "", "blobs": [[3.20, 51.16, 8, 5, 0, 36]] }
+  ],
+  "sea": {
+    "_doc": "海战式海图设色：加来海峡与多佛海峡的沙洲与陡岸在水深上很直观（古德温沙、拉特尼浅滩等）。",
+    "bathymetry": true
+  }
+}

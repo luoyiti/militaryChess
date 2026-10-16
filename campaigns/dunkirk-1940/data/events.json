@@ -1,0 +1,2438 @@
+[
+  {
+    "id": "e.dk_gb_boulogne_defence",
+    "at": "1940-05-22T09:00",
+    "category": "battle",
+    "precision": "hour",
+    "importance": 2,
+    "side": "GB",
+    "title": {
+      "zh": "布洛涅：近卫旅上岸",
+      "orig": "20th Guards Brigade lands at Boulogne"
+    },
+    "body": "福克斯-皮特准将的第 20 近卫旅 5 月 22 日上午在布洛涅上岸：爱尔兰近卫守西南、威尔士近卫守东北，外围防线约六英里，与法军第 21 步兵师共同设防。港口要塞由法军海军守备队负责，英军只带来少量高炮与搜索灯部队。这支部队原为增援而来，却成了港口之战的守军。",
+    "place": "@boulogne",
+    "units": [
+      "gb.20gds_bde"
+    ],
+    "sources": [
+      "thompson_1956",
+      "sebag_2006",
+      "ellis_1953"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "e.dk_gb_air_boulogne",
+    "at": "1940-05-23T13:00",
+    "category": "air",
+    "precision": "hour",
+    "importance": 2,
+    "side": "GB",
+    "title": {
+      "zh": "第九十二中队掩护布洛涅的驱逐舰",
+      "orig": "No. 92 Squadron over Boulogne"
+    },
+    "body": "5 月 23 日，皇家空军第 92 中队的喷火从坦米尔出动，为靠泊布洛涅的驱逐舰提供空中掩护。当日该中队在加来方向宣称击落四架 Bf 109，但自己也损失五名飞行员，其中布歇尔少校被俘——他后来策划了著名的「木马」越狱。同日晨，第 74 中队在加来与布洛涅之间击落一架 Ju 88。",
+    "place": "@boulogne",
+    "units": [
+      "gb.no92sqn",
+      "gb.no74sqn"
+    ],
+    "sources": [
+      "franks_2006",
+      "sebag_2006",
+      "battle_of_britain_raf"
+    ],
+    "confidence": "medium",
+    "sfx": [
+      "fighter"
+    ]
+  },
+  {
+    "id": "e.dk_gb_calais_siege_begin",
+    "at": "1940-05-23T16:00",
+    "category": "siege",
+    "precision": "hour",
+    "importance": 2,
+    "side": "GB",
+    "title": {
+      "zh": "加来：三十旅进城，围城开始",
+      "orig": "Siege of Calais begins"
+    },
+    "body": "5 月 23 日下午，尼科尔森准将的第 30 步兵旅与第 3 皇家坦克团、维多利亚女王步枪队先后抵达加来。他们本奉命接应布洛涅并押送一批口粮去敦刻尔克，抵达后却发现德军已切断南面与西南的公路。尼科尔森以两个步兵营据守外垒：步枪旅守东侧，国王皇家步枪队守西侧，当晚完成收缩。",
+    "place": "@calais",
+    "units": [
+      "gb.30bde"
+    ],
+    "sources": [
+      "sebag_2006",
+      "national_archives_dynamo",
+      "ellis_1953"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "e.dk_stophalt",
+    "at": "1940-05-24T12:45",
+    "category": "political",
+    "precision": "minute",
+    "importance": 1,
+    "side": "DE",
+    "title": {
+      "zh": "停止前进令",
+      "orig": "Haltebefehl"
+    },
+    "body": "5 月 24 日上午，希特勒在伦德施泰特的 A 集团军群司令部撤销了 OKH 前一天把第 4 集团军群转隶 B 集团军群的命令；中午 12 时 45 分下达停止前进令，令装甲部队止步于阿运河—利斯河一线。伦德施泰特主张保存装甲留待南下，戈林请缨由空军解决包围圈。装甲部队在距敦刻尔克十余公里处停驻到 26 日傍晚。",
+    "place": "@bourbourg",
+    "zoomRel": 2.2,
+    "mapNote": "停止线：格拉沃利讷—圣奥梅尔—利斯河一线（5 月 24 日 12:45）",
+    "sources": [
+      "haltebefehl_1940",
+      "rundstedt_nuremberg",
+      "halder_diary",
+      "korth_1958",
+      "frieser_2005",
+      "hitler_weisung13"
+    ],
+    "confidence": "high",
+    "photo": {
+      "commons": "File:The British Army in France 1940 F2104.jpg",
+      "caption": "1940 年在法国的英军装甲部队"
+    }
+  },
+  {
+    "id": "e.dk_gb_calais_evac_refused",
+    "at": "1940-05-24T23:23",
+    "category": "political",
+    "precision": "minute",
+    "importance": 1,
+    "side": "GB",
+    "title": {
+      "zh": "加来不得撤离：一道来自伦敦的命令",
+      "orig": "Calais ordered to fight on"
+    },
+    "body": "5 月 24 日 23 时 23 分，帝国总参谋长艾恩赛德电告尼科尔森：法军海峡港口司令法加尔德已禁止撤离，加来守军必须遵从；港口既已失去意义，尼科尔森可就地选择最有利的阵地继续战斗，弹药可补，援军没有。25 日港外曾有十五艘小船与约一千八百人的运力待命，却只等到「继续战斗」的命令。",
+    "place": "@calais",
+    "units": [
+      "gb.30bde"
+    ],
+    "sources": [
+      "ellis_1953",
+      "sebag_2006",
+      "national_archives_dynamo"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "e.dk_boulogne_fall",
+    "at": "1940-05-25T13:00",
+    "category": "battle",
+    "precision": "hour",
+    "importance": 2,
+    "side": "GB",
+    "title": {
+      "zh": "布洛涅陷落：一场边打边撤的撤离",
+      "orig": "Fall of Boulogne"
+    },
+    "body": "5 月 23 日德军南北夹击，守军被迫退入城内；当晚十八时前后接令从海上撤出，驱逐舰在斯图卡轰炸下靠泊码头。至 24 日凌晨，约一千四百人返英。留在城内的威尔士近卫第 3 连与约三百名近卫军士兵，弹药耗尽后于 25 日 13 时投降。布洛涅之战牵制了德军第 2 装甲师两天。",
+    "place": "@boulogne",
+    "units": [
+      "gb.20gds_bde"
+    ],
+    "sources": [
+      "thompson_1956",
+      "sebag_2006",
+      "scott_1941"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "e.dk_gb_calais_refuse",
+    "at": "1940-05-25T15:00",
+    "category": "battle",
+    "precision": "hour",
+    "importance": 2,
+    "side": "GB",
+    "title": {
+      "zh": "「英军的职责和德军一样是战斗」",
+      "orig": "Nicholson refuses to surrender"
+    },
+    "body": "5 月 25 日，德军第 10 装甲师师长沙尔两度派人劝降，尼科尔森两度拒绝，答复是：英军的职责和德军一样是战斗。当日下午他下令以十一辆布伦机枪车与两辆坦克出击，企图绕到德军侧后，但机枪车陷入沙地，突围失败。步枪旅旅长霍斯金斯阵亡，该旅残部退回港区。",
+    "place": "@calais",
+    "units": [
+      "gb.30bde"
+    ],
+    "sources": [
+      "sebag_2006",
+      "ellis_1953",
+      "mason_1969"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "e.dk_prayer_sunday",
+    "at": "1940-05-26T11:00",
+    "category": "political",
+    "precision": "hour",
+    "importance": 2,
+    "side": "GB",
+    "title": {
+      "zh": "全国祈祷日"
+    },
+    "body": "5 月 26 日是英国指定的全国祈祷日。乔治六世出席威斯敏斯特大教堂的特别礼拜，坎特伯雷大主教兰格为「身处险境的士兵」领祷；全国教堂与犹太会堂同日举行祈祷。报纸只字未提撤退，但举国已明白佛兰德的军队处境危急。当晚丘吉尔下令启动发电机行动。",
+    "place": "@dover",
+    "zoomRel": 1.8,
+    "sources": [
+      "churchill_1949",
+      "divine_1940",
+      "hansard_1940"
+    ],
+    "confidence": "medium",
+    "mapNote": "伦敦威斯敏斯特大教堂（图外）；地图定位在多佛"
+  },
+  {
+    "id": "e.dk_eden_telegram",
+    "at": "1940-05-26T11:00",
+    "category": "political",
+    "precision": "hour",
+    "importance": 2,
+    "side": "GB",
+    "title": {
+      "zh": "「唯一任务是尽可能多地把部队撤回英国」"
+    },
+    "body": "5 月 26 日上午，英国陆军部电令戈特勋爵：唯一任务是尽可能多地把部队撤回英国。此前一天战时内阁已判定，一旦法国停战，远征军必须自行撤离。同日上午法军北方军群司令布朗夏尔发布第 30 号作战命令，要求以敦刻尔克为支点建立「不存退意」的桥头堡——撤退是英法共同的正式决定。",
+    "place": "@dover",
+    "zoomRel": 2.0,
+    "mapNote": "伦敦陆军部电报（图外）；地图定位在多佛",
+    "sources": [
+      "ellis_1953",
+      "gort_despatch",
+      "churchill_1949",
+      "cab_1940",
+      "hyperwar_dunkirk",
+      "sebag_2006"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "e.dk_gb_lys_withdraw",
+    "at": "1940-05-26T12:00",
+    "category": "movement",
+    "precision": "hour",
+    "importance": 1,
+    "side": "GB",
+    "title": {
+      "zh": "利斯河防线支撑不住",
+      "orig": "The Lys line gives way"
+    },
+    "body": "5 月 26 日，戈特把利斯河一线的部队陆续西撤。I 军退向巴约勒、黑山方向，II 军布鲁克以第 3、4、5、50 师在伊珀尔—科米讷运河上组织掩护，第 2、48 师则在拉巴塞运河与圣奥梅尔—海岸运河上殿后。东侧同时抽调兵力填补与比军之间的空隙，全军开始向海岸收拢。",
+    "place": "@comines",
+    "units": [
+      "gb.i_corps",
+      "gb.ii_corps",
+      "gb.2div",
+      "gb.48div"
+    ],
+    "sources": [
+      "ellis_1953",
+      "gort_despatch",
+      "brooke_2001"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "e.dk_de_canal_line_held",
+    "at": "1940-05-26T12:00",
+    "category": "movement",
+    "precision": "hour",
+    "importance": 2,
+    "side": "DE",
+    "title": {
+      "zh": "运河线上的第三天：十五公里外的教堂尖顶",
+      "orig": "Dritter Tag am Haltebefehl"
+    },
+    "body": "停止前进令已生效两天，古德里安第 XIX 摩托化军的先头仍停在格拉沃利讷以东的阿河运河西岸，第 1 装甲师距敦刻尔克仅约十五公里。士兵在堤上架起火炮，望得见对岸的教堂尖顶，却奉命不得渡河。军官反复请求续攻均被驳回，直到当日傍晚限令解除。",
+    "place": "@gravelines",
+    "units": [
+      "de.1pz",
+      "de.2pz",
+      "de.xix",
+      "de.pg_kleist"
+    ],
+    "sfx": [
+      "engine",
+      "tank",
+      "radio"
+    ],
+    "zoomRel": 7,
+    "sources": [
+      "klee_1940",
+      "guderian_ktb",
+      "kleist_ktb",
+      "korth_1958",
+      "frieser_2005"
+    ],
+    "confidence": "high",
+    "mapNote": "先头自 5 月 24 日 14:30 起停在此线，至 26 日 18:00 令解"
+  },
+  {
+    "id": "e.dk_de_boulogne_aftermath",
+    "at": "1940-05-26T12:00",
+    "category": "battle",
+    "precision": "hour",
+    "importance": 2,
+    "side": "DE",
+    "title": {
+      "zh": "布洛涅到手，却是一座废港",
+      "orig": "Boulogne nach der Einnahme"
+    },
+    "body": "第 2 装甲师自阿布维尔北上，二十二日与装备不足的法军第 48 团在布洛涅城外交手后直接冲进港口区。英军第 20 近卫旅已于二十三日夜由海上撤走，法军海军守备队据守旧城至二十五日。德军占领后发现码头设施已被破坏，无法用于补给，该师随即转向圣奥梅尔运河线。",
+    "place": "@boulogne",
+    "units": [
+      "de.2pz",
+      "de.xix",
+      "gb.20gds_bde",
+      "fr.marine"
+    ],
+    "sfx": [
+      "tank",
+      "artillery",
+      "explosion"
+    ],
+    "zoomRel": 9,
+    "sources": [
+      "guderian_ktb",
+      "ellis_1953",
+      "frieser_2005"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "e.dk_gb_air_calais",
+    "at": "1940-05-26T12:00",
+    "category": "air",
+    "precision": "hour",
+    "importance": 2,
+    "side": "GB",
+    "title": {
+      "zh": "加来上空：击落斯图卡的最后两天",
+      "orig": "RAF over Calais, 25–26 May"
+    },
+    "body": "加来在皇家空军战斗机航程之内，两天里成为空战焦点。5 月 25 日第 17 中队宣称击落三架斯图卡与一架 Do 17，第 605 中队宣称击落四架 Ju 87 与一架 Hs 126；26 日第 17 与第 605 中队再度拦截俯冲轰炸机群，当日皇家空军在加来附近出动约二百架次，自身损失数架。",
+    "place": "@calais",
+    "units": [
+      "gb.no17sqn",
+      "gb.no605sqn",
+      "gb.30bde"
+    ],
+    "sources": [
+      "franks_2006",
+      "battle_of_britain_raf",
+      "terraine_1985"
+    ],
+    "confidence": "medium",
+    "sfx": [
+      "fighter"
+    ]
+  },
+  {
+    "id": "e.dk_de_stophalt_pretext",
+    "at": "1940-05-26T15:00",
+    "category": "political",
+    "precision": "hour",
+    "importance": 2,
+    "side": "DE",
+    "title": {
+      "zh": "「坦克已损失五成」：一份被当作借口的报告",
+      "orig": "Meldung über 50 % Panzerverluste"
+    },
+    "body": "克莱斯特装甲集群此前向上级报告，连日作战已使坦克损失达五成，对当面「强敌」不足以继续向东进攻。这份措辞悲观的报告被 A 集团军群当作下达停止前进令的现成依据。战后集群作战参谋科尔特点明，该报告实为对频繁分派次要任务的抗议，却无意中改写了战役走向。",
+    "place": "@saint_omer",
+    "units": [
+      "de.pg_kleist",
+      "de.xix"
+    ],
+    "sfx": [
+      "typewriter",
+      "radio"
+    ],
+    "zoomRel": 5,
+    "sources": [
+      "kleist_ktb",
+      "korth_1958",
+      "frieser_2005",
+      "aok4_ktb"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "e.dk_calais_fall",
+    "at": "1940-05-26T16:00",
+    "category": "siege",
+    "precision": "hour",
+    "importance": 1,
+    "side": "DE",
+    "title": {
+      "zh": "加来陷落"
+    },
+    "body": "尼科尔森准将的第 30 步兵旅与皇家坦克团在加来死守四天。5 月 25 日德军劝降被拒，26 日 15 时总攻开始，16 时前后城西防线崩溃，尼科尔森在指挥所被俘，守军残部停止抵抗。四千余人中约两千五百人被俘。加来的四天拖延为敦刻尔克赢得了加固运河线的时间。",
+    "place": "@calais",
+    "units": [
+      "gb.30bde",
+      "de.10pz"
+    ],
+    "sfx": [
+      "artillery",
+      "explosion"
+    ],
+    "zoomRel": 4.5,
+    "sources": [
+      "ellis_1953",
+      "sebag_2006",
+      "churchill_1949",
+      "hyperwar_dunkirk"
+    ],
+    "confidence": "high",
+    "photo": {
+      "commons": "File:Bundesarchiv Bild 183-B14898, Calais, britische Kriegsgefangene.jpg",
+      "caption": "加来陷落后被俘的英军士兵（德国联邦档案馆）"
+    }
+  },
+  {
+    "id": "e.dk_de_calais_honours",
+    "at": "1940-05-26T16:30",
+    "category": "surrender",
+    "precision": "hour",
+    "importance": 2,
+    "side": "DE",
+    "title": {
+      "zh": "加来受降：四天围城的代价",
+      "orig": "Kapitulation von Calais"
+    },
+    "body": "第 10 装甲师在加来城下苦战四天，一度报告半数坦克被击毁、三分之一步兵伤亡。守军防线于下午崩溃，尼科尔森准将以下约四千人被俘。德军进城时发现旧城墙内已成瓦砾。这场围城把该师钉在加来，使它错过了向敦刻尔克冲刺的最佳时机。",
+    "place": "@calais",
+    "units": [
+      "de.10pz",
+      "de.xix",
+      "gb.30bde"
+    ],
+    "sfx": [
+      "artillery",
+      "stuka",
+      "rifle"
+    ],
+    "zoomRel": 9,
+    "sources": [
+      "guderian_ktb",
+      "ellis_1953",
+      "divine_1940",
+      "frieser_2005"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "e.dk_de_resume_attack",
+    "at": "1940-05-26T18:00",
+    "category": "movement",
+    "precision": "hour",
+    "importance": 1,
+    "side": "DE",
+    "title": {
+      "zh": "限令解除，装甲部队重新启动",
+      "orig": "Wiederaufnahme des Angriffs"
+    },
+    "body": "下午三时三十分，希特勒下令装甲部队继续前进，但多数部队又用了约十六小时才真正发起攻击。第十八集团军方向已从南岸压来，克莱斯特集群则沿海岸线转向布尔堡、贝尔格。德军急于抢在盟军撤空港口前抵达海岸，却迎面撞上已经加固两天的敦刻尔克桥头堡。",
+    "place": "@bourbourg",
+    "units": [
+      "de.pg_kleist",
+      "de.xix",
+      "de.1pz",
+      "de.10pz"
+    ],
+    "sfx": [
+      "engine",
+      "tank",
+      "artillery"
+    ],
+    "zoomRel": 6,
+    "sources": [
+      "hitler_weisung13",
+      "kleist_ktb",
+      "ellis_1953",
+      "frieser_2005"
+    ],
+    "confidence": "high",
+    "mapNote": "限令于 5 月 26 日 15:30 下达，18:00 起生效"
+  },
+  {
+    "id": "e.dk_stophalt_lift",
+    "at": "1940-05-26T18:00",
+    "category": "political",
+    "precision": "hour",
+    "importance": 2,
+    "side": "DE",
+    "title": {
+      "zh": "停止前进令解除"
+    },
+    "body": "5 月 26 日傍晚，OKH 解除装甲部队的停止令，第 1、2、10 装甲师获准向加来海峡方向恢复进攻。三天停滞已让盟军得以加固敦刻尔克外围，并把格拉沃利讷—贝尔格—弗尔讷的运河线组织成桥头堡。哈尔德在日记中为这三天痛惜不已，而德国空军已无法独力阻止海上撤离。",
+    "place": "@bourbourg",
+    "zoomRel": 2.2,
+    "sources": [
+      "halder_diary",
+      "kleist_ktb",
+      "frieser_2005",
+      "okw_anlage",
+      "korth_1958"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "e.dk_dynamo_start",
+    "at": "1940-05-26T18:57",
+    "category": "naval",
+    "precision": "minute",
+    "importance": 1,
+    "side": "GB",
+    "title": {
+      "zh": "发电机行动启动",
+      "orig": "Operation Dynamo"
+    },
+    "body": "5 月 26 日 18 时 57 分，英国海军部向多佛指挥部发出「发电机行动开始」的密码电报。拉姆齐海军中将的作战室设于多佛堡内一处废弃发电机房，「发电机」之名由此而来。首批计划在两天内撤出四万五千人，实际预计德军很快会封锁海滩。当晚第一批船只出航，从敦刻尔克港运回一千余人。",
+    "place": "@dover_castle",
+    "units": [
+      "gb.dover_cmd"
+    ],
+    "sfx": [
+      "morse",
+      "radio"
+    ],
+    "zoomRel": 1.6,
+    "mapNote": "多佛堡：发电机作战室",
+    "sources": [
+      "dynamo_despatch",
+      "divine_1940",
+      "scott_1941",
+      "lord_1982",
+      "hyperwar_dunkirk"
+    ],
+    "confidence": "high",
+    "photo": {
+      "commons": "File:Lord Gort.jpg",
+      "caption": "英国远征军总司令戈特勋爵，5 月 26 日决定接受海军部的撤离方案"
+    }
+  },
+  {
+    "id": "e.dk_nv_dynamo_start",
+    "at": "1940-05-26T18:57",
+    "category": "naval",
+    "importance": 3,
+    "title": {
+      "zh": "发电机行动启动",
+      "orig": "Operation Dynamo begins"
+    },
+    "body": "海军部向多佛指挥部下达「发电机行动开始」的命令。拉姆齐海军中将的作战室里只有不到二十名军官，计划两天内撤出四万五千人。当天已有二万八千人先期上船，然而谁也不知道桥头堡还能守几天，首批只调集了三十余艘渡船与驱逐舰。",
+    "place": "@dover",
+    "units": [
+      "gb.dover_cmd",
+      "gb.force_a"
+    ],
+    "sfx": [
+      "radio",
+      "typewriter"
+    ],
+    "zoomRel": 6,
+    "sources": [
+      "dynamo_despatch",
+      "national_archives_dynamo",
+      "atkin_1990"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "e.dk_first_night",
+    "at": "1940-05-27T04:00",
+    "category": "naval",
+    "precision": "hour",
+    "importance": 1,
+    "side": "GB",
+    "title": {
+      "zh": "第一夜：港口登船"
+    },
+    "body": "5 月 26 日夜至 27 日凌晨，第一批撤离船队进入敦刻尔克港，从码头撤出七千六百六十九人。此时海滩登船尚未组织起来，船只主要依靠港口设备与防波堤。海军部同时清查东南沿海的船坞，征用能往返海滩与大船之间的小艇，并以广播呼吁船主把船开往指定港口。",
+    "place": "@dunkirk_port",
+    "units": [
+      "gb.dover_cmd",
+      "gb.force_a"
+    ],
+    "sfx": [
+      "ship_gun",
+      "morse"
+    ],
+    "zoomRel": 4,
+    "sources": [
+      "dynamo_despatch",
+      "divine_1940",
+      "coastal_forces",
+      "lord_1982",
+      "hyperwar_dunkirk"
+    ],
+    "confidence": "high",
+    "photo": {
+      "commons": "File:Dunkirk 1940 HU1149.jpg",
+      "caption": "挤满撤离士兵的皇家海军驱逐舰"
+    }
+  },
+  {
+    "id": "e.dk_nv_first_convoy",
+    "at": "1940-05-27T04:00",
+    "category": "naval",
+    "importance": 2,
+    "title": {
+      "zh": "第一夜：从港口登船",
+      "orig": "First night of embarkation"
+    },
+    "body": "首批船队趁夜色从敦刻尔克港内码头装载。港区仍在英军手中，起重机和泊位尚可使用，驱逐舰一次能装走数百人。这一夜到次日共撤出 7,669 人，是行动开始以来唯一依靠码头设施的一夜——第二天上午德军就把港区码头炸成了废墟。",
+    "place": "@dunkirk_port",
+    "units": [
+      "gb.dover_cmd",
+      "gb.wakeful",
+      "gb.ivanhoe"
+    ],
+    "sfx": [
+      "ship_gun",
+      "radio"
+    ],
+    "zoomRel": 8,
+    "sources": [
+      "dynamo_despatch",
+      "dynamo_admiralty",
+      "thompson_1956"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "e.dk_air_27may",
+    "at": "1940-05-27T06:00",
+    "category": "air",
+    "precision": "hour",
+    "importance": 2,
+    "side": "GB",
+    "title": {
+      "zh": "十六个中队的掩护"
+    },
+    "body": "5 月 27 日，皇家空军第 11 大队出动 22 次巡逻、287 架次，掩护海峡与敦刻尔克上空，宣称击落 38 架德机、自损 14 架。空战多发生在海滩视野之外，等待登船的士兵很少看到本方战斗机，回国后普遍指责空军「什么都没做」，成为敦刻尔克记忆中最深的裂痕之一。",
+    "place": "@dunkirk_roads",
+    "units": [
+      "gb.11group",
+      "gb.no74sqn",
+      "gb.no92sqn",
+      "de.jg26"
+    ],
+    "sfx": [
+      "fighter",
+      "engine"
+    ],
+    "wide": true,
+    "zoomRel": 1.9,
+    "sources": [
+      "fighter_command",
+      "terraine_1985",
+      "franks_2006",
+      "priller_1950",
+      "battle_of_britain_raf"
+    ],
+    "confidence": "medium",
+    "photo": {
+      "commons": "File:Royal Air Force- France, 1939-1940. C119.jpg",
+      "caption": "1940 年在法国作战的皇家空军部队"
+    }
+  },
+  {
+    "id": "e.dk_nv_aden_sunk",
+    "at": "1940-05-27T10:00",
+    "category": "naval",
+    "importance": 2,
+    "title": {
+      "zh": "八千吨的亚丁号在港内被炸沉",
+      "orig": "SS Aden bombed in harbour"
+    },
+    "body": "KG 54「黑狮」联队的轰炸机在光天化日之下扑向敦刻尔克港。八零三三吨的货客船「亚丁」号中弹后烧了一整天，黑烟成为港区最醒目的坐标。码头、起重机与船闸同时被毁，安特卫普式的正规港口装载从此不可再用，撤离只能转向防波堤与海滩。",
+    "place": "@dunkirk_port",
+    "units": [
+      "gb.aden"
+    ],
+    "sfx": [
+      "bomber",
+      "explosion"
+    ],
+    "zoomRel": 10,
+    "sources": [
+      "dynamo_despatch",
+      "admiralty_losses_1947",
+      "wiki_ships_dunkirk"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "e.dk_mole_discovered",
+    "at": "1940-05-27T14:00",
+    "category": "naval",
+    "precision": "hour",
+    "importance": 1,
+    "side": "GB",
+    "title": {
+      "zh": "东防波堤：把船靠上来"
+    },
+    "body": "5 月 27 日下午，海滩登船进展缓慢，坦南特上校在敦刻尔克港发现东防波堤的混凝土堤面高出水面两米余、可容船只直接靠泊，遂用旗语与信号灯引导船只沿堤停靠，并请上级派驱逐舰前来。当夜首批大船靠上东防波堤，此后近二十万人经此登船，超过总撤离人数的三分之二。",
+    "place": "@east_mole",
+    "units": [
+      "gb.force_a",
+      "gb.dover_cmd"
+    ],
+    "sfx": [
+      "radio",
+      "ship_gun"
+    ],
+    "zoomRel": 6,
+    "mapNote": "东防波堤：长逾一海里，本非码头",
+    "sources": [
+      "dynamo_despatch",
+      "coastal_forces",
+      "lord_1982",
+      "sebag_2006",
+      "divine_1940"
+    ],
+    "confidence": "high",
+    "photo": {
+      "commons": "File:Dunkirk 1940 HU1153.jpg",
+      "caption": "士兵从东防波堤的跳板上登船"
+    }
+  },
+  {
+    "id": "e.dk_dunkirk_bombed",
+    "at": "1940-05-27T15:30",
+    "category": "air",
+    "precision": "hour",
+    "importance": 1,
+    "side": "DE",
+    "title": {
+      "zh": "敦刻尔克大轰炸"
+    },
+    "body": "5 月 27 日，德国空军出动三百架轰炸机、五百五十架次战斗机，分十二波空袭敦刻尔克，投下一万五千枚高爆弹与三万枚燃烧弹。港区油罐起火，供水系统被毁，火势无法扑救，约一千名平民死亡，占城内余下人口的三分之一。港区从此瘫痪，撤离重心转向东防波堤与海滩。",
+    "place": "@dunkirk",
+    "units": [
+      "de.lw2",
+      "de.viii_fk",
+      "de.kg2",
+      "de.kg3",
+      "de.kg54"
+    ],
+    "sfx": [
+      "bomber",
+      "explosion",
+      "siren"
+    ],
+    "zoomRel": 4.5,
+    "sources": [
+      "franks_2006",
+      "terraine_1985",
+      "balke_1989",
+      "germany_op_1940",
+      "chamberlain_1940"
+    ],
+    "confidence": "medium",
+    "photo": {
+      "commons": "File:Dunkirk 26-29 May 1940 H1695.jpg",
+      "caption": "敦刻尔克港区燃烧的油罐浓烟"
+    }
+  },
+  {
+    "id": "e.dk_leparadis",
+    "at": "1940-05-27T17:15",
+    "category": "atrocity",
+    "precision": "hour",
+    "importance": 2,
+    "side": "DE",
+    "title": {
+      "zh": "帕拉迪屠杀",
+      "orig": "Le Paradis massacre"
+    },
+    "body": "5 月 27 日，皇家诺福克团第 2 营在帕拉迪附近的农场被党卫军「骷髅」师合围，弹尽后 99 名幸存者举旗投降。他们被押到谷仓旁排成一列，遭两挺机枪扫射，随后被刺刀补刺，仅两人重伤生还。英军当日即获完整报告，德军陆军当局未予惩处；下令的克内希莱因上尉战后被英国军事法庭判处死刑，1949 年执行。",
+    "place": "@le_paradis",
+    "units": [
+      "gb.2div",
+      "de.sstk"
+    ],
+    "sfx": [
+      "mg",
+      "rifle"
+    ],
+    "zoomRel": 6.5,
+    "sources": [
+      "ellis_1953",
+      "sebag_2006",
+      "hyperwar_dunkirk",
+      "dunkirk_pocket_diary",
+      "atkin_1990"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "e.dk_de_cassel_attrition",
+    "at": "1940-05-27T20:00",
+    "category": "battle",
+    "precision": "hour",
+    "importance": 2,
+    "side": "DE",
+    "title": {
+      "zh": "卡塞尔：装甲师陷在城下",
+      "orig": "Kampf um Cassel"
+    },
+    "body": "第 6 装甲师当日被英军第 145 旅吸在卡塞尔城下，从南面与东南面反复突击，始终未能拿下这座糖面包形山丘上的城镇，却在巷战中损失惨重。它的主力因此没有按计划转向波珀灵厄攻击英军第 44 师侧翼。史家汤普森称这一失误「令人震惊」，是德军在整场战役中最具体的错失战机。",
+    "place": "@cassel",
+    "units": [
+      "de.6pz",
+      "de.xli",
+      "de.8pz",
+      "gb.5div"
+    ],
+    "sfx": [
+      "artillery",
+      "tank",
+      "mg"
+    ],
+    "zoomRel": 8,
+    "sources": [
+      "ellis_1953",
+      "kleist_ktb",
+      "aok4_ktb",
+      "frieser_2005"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "e.dk_gb_messines_counter",
+    "at": "1940-05-27T20:00",
+    "category": "battle",
+    "precision": "hour",
+    "importance": 2,
+    "side": "GB",
+    "title": {
+      "zh": "梅森岭与伊珀尔—科米讷运河的反击",
+      "orig": "Counter-attack at Messines"
+    },
+    "body": "5 月 27 日中午，德军三个师在伊珀尔以南进攻，步兵渗透进守军阵地。布鲁克令蒙哥马利向左延伸第 3 师正面，腾出第 4 师的第 10、11 旅，会同第 5 师在梅森岭反击，把德军逐出高地。同时第 1 师的近卫第 3 营与北斯塔福德第 2 营向运河反击，一度打到运河边却无法固守。",
+    "place": "@mesen",
+    "units": [
+      "gb.4div",
+      "gb.5div",
+      "gb.3div",
+      "gb.1div"
+    ],
+    "sources": [
+      "montgomery_1958",
+      "brooke_2001",
+      "ellis_1953"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "e.dk_nv_tennant_mole",
+    "at": "1940-05-27T23:00",
+    "category": "naval",
+    "importance": 3,
+    "title": {
+      "zh": "把船靠上东防波堤",
+      "orig": "Send every ship alongside the East Mole"
+    },
+    "body": "Tennant 上校乘「猎狼犬」号抵达敦刻尔克接管滩头指挥。他发现港内码头已被炸毁，海滩装载太慢，遂下令把所有能靠的船集中到东、西两道防波堤。那道近一英里长的混凝土防波堤本不是用来靠船的，此后七天却成了近 200,000 人离开欧洲的主通道。",
+    "place": "@east_mole",
+    "units": [
+      "gb.force_a",
+      "gb.dover_cmd",
+      "gb.keith"
+    ],
+    "sfx": [
+      "radio",
+      "ship_gun"
+    ],
+    "zoomRel": 12,
+    "sources": [
+      "dynamo_despatch",
+      "national_archives_dynamo",
+      "lord_1982"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "e.dk_belgian_surrender",
+    "at": "1940-05-28T04:00",
+    "category": "surrender",
+    "precision": "minute",
+    "importance": 1,
+    "side": "BE",
+    "title": {
+      "zh": "比利时军队停止抵抗"
+    },
+    "body": "5 月 28 日凌晨 4 时，比利时国王利奥波德三世命令军队停止抵抗。比军自 5 月 10 日以来连续作战十八天，利斯河防线 25 日夜被突破，部队在佛兰德平原被压缩。约五十万人被俘。投降在敦刻尔克东侧留下二十英里空隙，英军急调第 12、23 师填补，第 2 军也把防线向东延伸。",
+    "place": "@brugge",
+    "units": [
+      "be.ghq",
+      "gb.ii_corps",
+      "gb.23div"
+    ],
+    "sfx": [
+      "radio"
+    ],
+    "zoomRel": 2.2,
+    "sources": [
+      "belgian_army_1947",
+      "ellis_1953",
+      "belgian_commission_1950",
+      "lord_1982",
+      "sebag_2006"
+    ],
+    "confidence": "high",
+    "photo": {
+      "commons": "File:Belgian refugees during the Battle of Belgium.jpg",
+      "caption": "比利时战役中逃难的平民"
+    }
+  },
+  {
+    "id": "e.dk_gb_belgian_gap",
+    "at": "1940-05-28T06:00",
+    "category": "movement",
+    "precision": "hour",
+    "importance": 1,
+    "side": "GB",
+    "title": {
+      "zh": "比利时投降后：二十英里的缺口",
+      "orig": "Filling the gap after the Belgian surrender"
+    },
+    "body": "5 月 28 日凌晨比军投降，远征军东翼露出约二十英里的缺口。戈特急调刚下火线的第 3、4、50 师北上填补，第 23 与第 12 师残部被派往纽波特—弗尔讷—迪克斯梅德一线；第 12 皇家枪骑兵团的装甲车当日在纽波特挡住德军第 256 步兵师的迂回，为各师进入位置赢得时间。",
+    "place": "@nieuwpoort",
+    "units": [
+      "gb.12lancers",
+      "gb.23div",
+      "gb.12div",
+      "gb.3div",
+      "gb.50div"
+    ],
+    "sources": [
+      "ellis_1953",
+      "hyperwar_dunkirk",
+      "barker_1941"
+    ],
+    "confidence": "high",
+    "sfx": [
+      "engine"
+    ]
+  },
+  {
+    "id": "e.dk_nv_small_ships",
+    "at": "1940-05-28T06:00",
+    "category": "movement",
+    "importance": 3,
+    "title": {
+      "zh": "小艇船队渡海",
+      "orig": "The little ships cross over"
+    },
+    "body": "BBC 连日播送海军部征用三十至一百英尺自航游艇的呼吁，第一批小艇于二十八日抵达敦刻尔克。它们吃水浅，能贴到离岸一百码处，把士兵一批批摆渡上锚地外的大船。到三十一日已有近四百艘小艇自发渡海，拖船、明轮船、消防船甚至泰晤士河上的游船都在其中。",
+    "place": "@malo_les_bains",
+    "units": [
+      "gb.medway_queen",
+      "gb.little_ship_sundowner",
+      "gb.massey_shaw"
+    ],
+    "sfx": [
+      "engine",
+      "radio"
+    ],
+    "zoomRel": 10,
+    "sources": [
+      "dynamo_despatch",
+      "divine_1940",
+      "adls_register",
+      "lord_1982"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "e.dk_de_nieuport_bridgehead",
+    "at": "1940-05-28T11:00",
+    "category": "movement",
+    "precision": "hour",
+    "importance": 2,
+    "side": "DE",
+    "title": {
+      "zh": "纽波特：抢下一座未炸毁的桥",
+      "orig": "Brückenkopf bei Nieuport"
+    },
+    "body": "比利时军队清晨四时停火后，德军先头仅七小时便抵达纽波特与海岸之间。第 256 步兵师抢占了伊瑟河上一座未被炸毁的桥梁，在东岸建立小型桥头堡。但英军第 4 师当日即以炮火与反击封住缺口，德军此后数日的攻击均被击退，桥头堡始终未能扩大。",
+    "place": "@nieuwpoort",
+    "units": [
+      "de.256id",
+      "de.xxvi",
+      "gb.4div"
+    ],
+    "sfx": [
+      "rifle",
+      "artillery",
+      "engine"
+    ],
+    "zoomRel": 8,
+    "sources": [
+      "aok6_ktb",
+      "ellis_1953",
+      "frieser_2005"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "e.dk_de_panzers_withdrawn",
+    "at": "1940-05-28T12:00",
+    "category": "movement",
+    "precision": "hour",
+    "importance": 2,
+    "side": "DE",
+    "title": {
+      "zh": "装甲师撤出：为下一场战役保存实力",
+      "orig": "Herausziehen der Panzerdivisionen"
+    },
+    "body": "克莱斯特集群当日同意将三个装甲师撤出敦刻尔克方向。古德里安在巡行前线后向集群参谋长指出，继续进攻「代价高昂而无必要」，装甲部队仅剩约五成坦克，装备亟待整修。德军由此把重心转向即将开始的南下作战，敦刻尔克正面改由步兵军承担，包围圈逐村收紧。",
+    "place": "@saint_omer",
+    "units": [
+      "de.pg_kleist",
+      "de.xix",
+      "de.1pz",
+      "de.10pz"
+    ],
+    "sfx": [
+      "engine",
+      "typewriter"
+    ],
+    "zoomRel": 5,
+    "sources": [
+      "guderian_ktb",
+      "kleist_ktb",
+      "ellis_1953",
+      "frieser_2005"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "e.dk_de_kuehne_captured",
+    "at": "1940-05-28T16:00",
+    "category": "battle",
+    "precision": "hour",
+    "importance": 2,
+    "side": "DE",
+    "title": {
+      "zh": "第 253 师师长被俘，作战计划落入守军手中",
+      "orig": "Gefangennahme des Divisionskommandeurs"
+    },
+    "body": "下午，第 253 步兵师师长屈内中将在里尔城南的法布尔德波斯被法军巡逻队俘获，随身携带的德军攻城计划一并落入守军之手。守军指挥官莫利尼据此判明德军将从西、北、东北、东南、南五个方向同时进攻，随即着手制定突围方案。这次意外却未能改变里尔最终的结局。",
+    "place": "@seclin",
+    "units": [
+      "de.253id",
+      "de.xxvii",
+      "fr.1ca"
+    ],
+    "sfx": [
+      "radio",
+      "paper"
+    ],
+    "zoomRel": 8,
+    "sources": [
+      "ellis_lille_1952",
+      "ellis_1953",
+      "frieser_2005"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "e.dk_nv_la_panne_shuttle",
+    "at": "1940-05-28T19:00",
+    "category": "naval",
+    "importance": 2,
+    "title": {
+      "zh": "加尔各答号在拉帕讷接运一千八百人",
+      "orig": "Calcutta off La Panne"
+    },
+    "body": "防空巡洋舰「加尔各答」号在拉帕讷海滩外抛锚，由扫雷舰「火蜥蜴」号、「萨顿」号与拖船「爪哇」号及八艘小船把士兵一船船摆渡过来，共接上一千八百五十六人。这是行动中最早一次「海滩—大船」规模化驳运，证明只要防空火力撑得住，海滩的运量并不比港口差。",
+    "place": "@la_panne",
+    "units": [
+      "gb.calcutta",
+      "gb.sutton",
+      "gb.halcyon"
+    ],
+    "sfx": [
+      "ship_gun",
+      "engine"
+    ],
+    "zoomRel": 14,
+    "sources": [
+      "national_archives_dynamo",
+      "scott_1941",
+      "dynamo_despatch"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "e.dk_withdraw_coast",
+    "at": "1940-05-28T22:00",
+    "category": "movement",
+    "precision": "hour",
+    "importance": 1,
+    "wide": true,
+    "title": {
+      "zh": "退入敦刻尔克桥头堡"
+    },
+    "body": "5 月 28 日夜，戈特勋爵下令英国远征军全部退入敦刻尔克桥头堡。第二军军长布鲁克此前已把撤退方案拟好：以第 5、50 师掩护，第 1、2、48 师依次东撤，沿贝尔格—弗尔讷运河构成环形阵地，正面约四十公里。桥头堡内集结了十余万士兵、上万车辆与成堆的补给，全部挤在低洼的运河圩田里。",
+    "place": "@bergues",
+    "units": [
+      "gb.ghq",
+      "gb.i_corps",
+      "gb.ii_corps",
+      "gb.iii_corps"
+    ],
+    "sfx": [
+      "march",
+      "engine"
+    ],
+    "zoomRel": 2.4,
+    "sources": [
+      "gort_despatch",
+      "ellis_1953",
+      "brooke_2001",
+      "montgomery_1958",
+      "hyperwar_dunkirk"
+    ],
+    "confidence": "high",
+    "photo": {
+      "commons": "File:Dunkirk and the Retreat From France 1940 HU104611.jpg",
+      "caption": "向敦刻尔克撤退途中的英军"
+    }
+  },
+  {
+    "id": "e.dk_nv_wakeful_sunk",
+    "at": "1940-05-29T00:40",
+    "category": "naval",
+    "importance": 3,
+    "title": {
+      "zh": "韦克福号：一夜之间七百余人葬身海底",
+      "orig": "HMS Wakeful torpedoed"
+    },
+    "body": "「韦克福」号载着六百余人返航，在北 Kwinte 浮标附近被德军 S-30 号鱼雷艇的两条鱼雷命中，一条打穿前锅炉舱。军舰在几分钟内断裂沉没，约六百五十名士兵与近百名舰员丧生，仅二十五名舰员与五名士兵获救——这是整个撤离行动中单舰死亡最多的一次。",
+    "place": "@dunkirk_roads",
+    "units": [
+      "gb.wakeful",
+      "de.s30"
+    ],
+    "sfx": [
+      "explosion",
+      "radio"
+    ],
+    "zoomRel": 16,
+    "sources": [
+      "national_archives_dynamo",
+      "admiralty_losses_1947",
+      "sebag_2006",
+      "wiki_ships_dunkirk"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "e.dk_nv_u69_or_u62",
+    "at": "1940-05-29T02:50",
+    "category": "naval",
+    "importance": 2,
+    "title": {
+      "zh": "谁击沉了格拉夫顿号",
+      "orig": "Who sank HMS Grafton?"
+    },
+    "body": "「格拉夫顿」号停车救援时舰艉被鱼雷命中。攻击者是谁，至今两说：维基百科记 U-62 号，Ellis 的英国官方战史记 U-69 号。两艇当日都在敦刻尔克以北海域活动，德方战报也不足以裁决。舰长罗宾逊中校等十五人阵亡，本舰随后由「伊万霍」号以炮火击沉。",
+    "place": "@dunkirk_roads",
+    "units": [
+      "gb.grafton",
+      "gb.ivanhoe"
+    ],
+    "sfx": [
+      "explosion",
+      "radio"
+    ],
+    "zoomRel": 16,
+    "sources": [
+      "national_archives_dynamo",
+      "wiki_ships_dunkirk",
+      "ellis_1953"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "e.dk_nv_grafton_sunk",
+    "at": "1940-05-29T03:00",
+    "category": "naval",
+    "importance": 3,
+    "title": {
+      "zh": "停下来救人的格拉夫顿号",
+      "orig": "HMS Grafton torpedoed by U-62"
+    },
+    "body": "「格拉夫顿」号刚把「韦克福」号的二十五名幸存者拉上甲板，舰艉就被 U-62 号潜艇的鱼雷命中，舰体折断、舰桥被二次爆炸掀掉，舰长罗宾逊中校等十五人阵亡。「伊万霍」号接下幸存者后以炮火将其击沉。海军部随即下令：任何船只不得再停航救援。",
+    "place": "@dunkirk_roads",
+    "units": [
+      "gb.grafton",
+      "de.u62",
+      "gb.ivanhoe"
+    ],
+    "sfx": [
+      "explosion",
+      "radio"
+    ],
+    "zoomRel": 16,
+    "sources": [
+      "national_archives_dynamo",
+      "wiki_ships_dunkirk",
+      "admiralty_losses_1947",
+      "sebag_2006"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "e.dk_nv_french_shipping",
+    "at": "1940-05-29T12:00",
+    "category": "naval",
+    "importance": 2,
+    "title": {
+      "zh": "法国海军的运力有多少",
+      "orig": "French naval shipping"
+    },
+    "body": "法军撤出较少，有结构性原因。按拉姆齐战报附录，法国海军投入的是 9 艘驱逐舰、4 艘 avisos、3 艘快速摩托艇、3 艘猎潜艇、6 艘辅助扫雷舰，以及 167 艘拖网与漂网渔船；英方投入 861 艘船。法国的大中型军舰大多在土伦与布雷斯特，能来海峡的本来就不多。",
+    "place": "@dunkirk",
+    "units": [
+      "fr.marine",
+      "fr.bourrasque",
+      "gb.dover_cmd"
+    ],
+    "sfx": [
+      "radio",
+      "engine"
+    ],
+    "zoomRel": 8,
+    "sources": [
+      "dynamo_despatch",
+      "dynamo_admiralty",
+      "abrial_1940"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "e.dk_air_29may",
+    "at": "1940-05-29T16:00",
+    "category": "air",
+    "precision": "hour",
+    "importance": 1,
+    "side": "DE",
+    "title": {
+      "zh": "最惨重的一天：三艘驱逐舰沉没"
+    },
+    "body": "5 月 29 日德国空军全力压制海峡。凌晨 3 时，格拉夫顿号在敦刻尔克外海被 U-62 的鱼雷击中，次日自沉；下午掷弹兵号在港内被炸沉；夜里 11 时，清醒号在返航途中被 S-30 的鱼雷击沉，船上六百余人仅少数获救。当日仍有四万七千余人撤出，是行动开始以来最多的一天。",
+    "place": "@dunkirk_roads",
+    "units": [
+      "gb.wakeful",
+      "gb.grafton",
+      "gb.grenade",
+      "de.u62",
+      "de.s30",
+      "de.stg2"
+    ],
+    "sfx": [
+      "bomber",
+      "explosion",
+      "ship_gun"
+    ],
+    "zoomRel": 3.4,
+    "sources": [
+      "dynamo_despatch",
+      "divine_1940",
+      "franks_2006",
+      "sturdy_ship",
+      "lord_1982",
+      "admiralty_losses_1947"
+    ],
+    "confidence": "high",
+    "photo": {
+      "commons": "File:HMS Wakeful WWII IWM FL 12547.jpg",
+      "caption": "皇家海军清醒号驱逐舰，5 月 29 日夜被 S-30 击沉"
+    }
+  },
+  {
+    "id": "e.dk_nv_darkest_day",
+    "at": "1940-05-29T16:02",
+    "category": "naval",
+    "importance": 3,
+    "title": {
+      "zh": "最黑暗的一天：三艘驱逐舰沉没",
+      "orig": "Three destroyers lost in one day"
+    },
+    "body": "施图卡俯冲轰炸机让这一天成了海军最惨的日子：港内泊位上的「格内德」号被两枚炸弹命中起火，当夜弹药库爆炸沉没；靠在外舷的「美洲豹」号锅炉舱失能、十三人阵亡；东防波堤旁「米斯特拉尔」号被炸成重伤。「莫纳女王」号又在堤外触雷。当天英法共损失十九艘军舰与三艘大型征用船。",
+    "place": "@east_mole",
+    "units": [
+      "gb.grenade",
+      "fr.mistral",
+      "gb.mona_queen",
+      "de.stg2"
+    ],
+    "sfx": [
+      "stuka",
+      "explosion",
+      "ship_gun"
+    ],
+    "zoomRel": 14,
+    "sources": [
+      "national_archives_dynamo",
+      "admiralty_losses_1947",
+      "dildy_2010",
+      "atkin_1990"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "e.dk_nv_mona_queen_water",
+    "at": "1940-05-29T17:40",
+    "category": "naval",
+    "importance": 2,
+    "title": {
+      "zh": "运水船莫纳女王号",
+      "orig": "Mona's Queen, carrying water"
+    },
+    "body": "「莫纳女王」号首航（五月二十七日夜）就带回 1,200 人。二十九日它的货舱里装的不是士兵，而是一排排淡水水罐——海滩上的部队已经断水。驶近防波堤东侧半海里处，磁雷引爆，两分钟后它沉没了，二十六人丧生，幸存者由驱逐舰「万基舍尔」号救起。",
+    "place": "@dunkirk_roads",
+    "units": [
+      "gb.mona_queen",
+      "gb.lady_of_mann"
+    ],
+    "sfx": [
+      "explosion",
+      "radio"
+    ],
+    "zoomRel": 14,
+    "sources": [
+      "wiki_ships_dunkirk",
+      "national_archives_dynamo",
+      "admiralty_losses_1947"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "e.dk_cassel",
+    "at": "1940-05-29T20:00",
+    "category": "battle",
+    "precision": "hour",
+    "importance": 1,
+    "title": {
+      "zh": "卡塞尔山与利斯河桥头堡的最后一战"
+    },
+    "body": "卡塞尔山是佛兰德平原上唯一的制高点。5 月 27 日起，英军第 145 旅与第 5 师残部在此顶住德军第 6 装甲师的反复冲锋；弹药耗尽后，守军在 29 日夜突围，大部被俘。同日德军第 8 装甲师与第 256 步兵师在利斯运河一线压向桥头堡，双方在圩田与运河间逐屋争夺。",
+    "place": "@cassel",
+    "units": [
+      "de.6pz",
+      "de.8pz",
+      "gb.5div"
+    ],
+    "sfx": [
+      "tank",
+      "artillery"
+    ],
+    "zoomRel": 5,
+    "sources": [
+      "ellis_1953",
+      "sebag_2006",
+      "frieser_2005",
+      "dunkirk_pocket_diary",
+      "lord_1982"
+    ],
+    "confidence": "medium",
+    "photo": {
+      "commons": "File:The British Expeditionary Force (BEF) in France 1939-1940 F4865.jpg",
+      "caption": "在法国的英国远征军部队"
+    }
+  },
+  {
+    "id": "e.dk_nv_mole_miracle",
+    "at": "1940-05-29T20:00",
+    "category": "naval",
+    "importance": 3,
+    "title": {
+      "zh": "东防波堤上的奇迹",
+      "orig": "The East Mole"
+    },
+    "body": "五月二十九日一天撤出 47,310 人，其中绝大多数是从东防波堤登船的。长长的混凝土堤面只容两人并行，士兵们排成单列走上几小时，靠泊的驱逐舰一次装走九百人。到行动结束，经港口撤出 239,555 人、经海滩 98,671 人，防波堤承担了大半。",
+    "place": "@east_mole",
+    "units": [
+      "gb.force_a",
+      "gb.keith",
+      "gb.sabre"
+    ],
+    "sfx": [
+      "ship_gun",
+      "radio"
+    ],
+    "zoomRel": 14,
+    "sources": [
+      "dynamo_despatch",
+      "atkin_1990",
+      "lord_1982",
+      "thompson_1956"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "e.dk_nv_pound_withdraw",
+    "at": "1940-05-29T20:30",
+    "category": "naval",
+    "importance": 2,
+    "title": {
+      "zh": "八艘最新式驱逐舰撤出行动",
+      "orig": "Modern destroyers withdrawn"
+    },
+    "body": "一天之内损失三艘驱逐舰后，第一海务大臣庞德下令把八艘最现代化的驱逐舰立即撤出「发电机行动」。本土防卫不能一次赔光，剩下的活儿交给一战时期的老驱逐舰、扫雷舰与小艇。此后几天，正是这些「过时」的旧舰把运量顶了下来。",
+    "place": "@dover",
+    "units": [
+      "gb.dover_cmd"
+    ],
+    "sfx": [
+      "radio",
+      "morse"
+    ],
+    "zoomRel": 8,
+    "sources": [
+      "dynamo_despatch",
+      "dynamo_admiralty",
+      "atkin_1990"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "e.dk_cassel_laststand",
+    "at": "1940-05-29T21:30",
+    "category": "battle",
+    "precision": "hour",
+    "importance": 2,
+    "title": {
+      "zh": "卡塞尔守军夜间突围"
+    },
+    "body": "卡塞尔守军（第 145 步兵旅与第 5 师残部）在弹药耗尽后，于 5 月 29 日 21 时 30 分沿公路向敦刻尔克突围。德军已在公路两侧布好机枪与炮兵，突围队伍被打散，大部分被俘，只有少数人抵达桥头堡。卡塞尔山是佛兰德平原上唯一的制高点，失守后德军可以俯瞰整个桥头堡的运河水网。",
+    "place": "@cassel",
+    "units": [
+      "gb.5div",
+      "de.6pz"
+    ],
+    "sfx": [
+      "mg",
+      "artillery"
+    ],
+    "zoomRel": 5.5,
+    "sources": [
+      "ellis_1953",
+      "sebag_2006",
+      "dunkirk_pocket_diary",
+      "frieser_2005",
+      "lord_1982"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "e.dk_nv_bourrasque_mine",
+    "at": "1940-05-30T04:30",
+    "category": "naval",
+    "importance": 2,
+    "title": {
+      "zh": "布拉斯克号在尼乌波特触雷",
+      "orig": "Bourrasque mined off Nieuwpoort"
+    },
+    "body": "法国大型驱逐舰「布拉斯克」号在尼乌波特外海触雷，随后又遭德方岸炮射击，舰体断裂沉没。舰上一千一百余名官兵与士兵中约五百人丧生。德军第 18 集团军此时已推进到尼乌波特—拉帕讷一线，其岸炮可以直接覆盖近岸航道，最短的 Z 航线因此更加危险。",
+    "place": "@nieuwpoort",
+    "units": [
+      "fr.bourrasque",
+      "de.a18"
+    ],
+    "sfx": [
+      "explosion",
+      "artillery"
+    ],
+    "zoomRel": 12,
+    "sources": [
+      "national_archives_dynamo",
+      "wiki_ships_dunkirk",
+      "thompson_1956"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "e.dk_nv_next_of_kin",
+    "at": "1940-05-30T07:00",
+    "category": "movement",
+    "importance": 1,
+    "title": {
+      "zh": "船队昼夜不停的三条航线",
+      "orig": "Three routes, day and night"
+    },
+    "body": "拉姆齐把渡海船队分派到三条航线上：最短的 Z 航线贴法国海岸，只有三十九海里、约两小时，却全程暴露在德军岸炮下；最安全的 X 航线要绕行吕坦让水道与北古德温灯船，五十一海里；最长的 Y 航线沿法国海岸到布雷迪讷再向东北折向西，九十四海里、四小时，最易遭 S 艇与潜艇伏击。",
+    "place": "@the_downs",
+    "units": [
+      "gb.dover_cmd",
+      "gb.winchelsea",
+      "gb.montrose"
+    ],
+    "sfx": [
+      "engine",
+      "radio"
+    ],
+    "zoomRel": 4,
+    "sources": [
+      "dynamo_despatch",
+      "atkin_1990",
+      "thompson_1956",
+      "dildy_2010"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "e.dk_nv_peak_30_31",
+    "at": "1940-05-30T12:00",
+    "category": "naval",
+    "importance": 3,
+    "title": {
+      "zh": "高峰：两天撤出十二万人",
+      "orig": "Peak of the evacuation"
+    },
+    "body": "五月三十日撤出 53,823 人，低云压制了德军俯冲轰炸机，防波堤与海滩同时满负荷运转。三十一日戈特勋爵本人离开，桥头堡交给亚历山大少将指挥。这两天运量达到整个行动的顶峰，也是「防波堤奇迹」最集中的两天。",
+    "place": "@dunkirk_roads",
+    "units": [
+      "gb.dover_cmd",
+      "gb.lady_of_mann",
+      "gb.calcutta"
+    ],
+    "sfx": [
+      "engine",
+      "radio"
+    ],
+    "zoomRel": 8,
+    "sources": [
+      "dynamo_despatch",
+      "thompson_1956",
+      "churchill_1949"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "e.dk_gb_division_lift",
+    "at": "1940-05-30T22:00",
+    "category": "movement",
+    "precision": "hour",
+    "importance": 2,
+    "side": "GB",
+    "title": {
+      "zh": "三个师先撤：撤离进入高峰",
+      "orig": "Divisions lifted"
+    },
+    "body": "5 月 30 日，蒙哥马利的第 3 师、第 4 师与第 50 师成为最早成批撤出的建制师。至当日夜共有五万三千余人登船，是行动开始以来最多的一天；布鲁克在前一日把 II 军交给蒙哥马利后返英。海滩与东防波堤同时启用，此前撤出的多是后勤部队与伤员。",
+    "place": "@bray_dunes",
+    "units": [
+      "gb.3div",
+      "gb.4div",
+      "gb.50div",
+      "gb.ii_corps"
+    ],
+    "sources": [
+      "ellis_1953",
+      "montgomery_1958",
+      "lord_1982"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "e.dk_de_18th_army_command",
+    "at": "1940-05-31T02:00",
+    "category": "political",
+    "precision": "hour",
+    "importance": 2,
+    "side": "DE",
+    "title": {
+      "zh": "第 18 集团军接管敦刻尔克全线",
+      "orig": "Übernahme des Angriffs durch die 18. Armee"
+    },
+    "body": "凌晨二时起，对敦刻尔克的全部作战由屈希勒的第 18 集团军统一指挥，下辖第 IX、X、XIV、XXVI 四个军，并得到第 9、11 摩托化旅、「大德意志」团与第 20 摩托化师等部。A 集团军群自此不再过问桥头堡，伦德施泰特转入筹划南下。屈希勒随即下令六月一日上午十一时全线总攻。",
+    "place": "@oostende",
+    "units": [
+      "de.a18",
+      "de.ix",
+      "de.x",
+      "de.xiv",
+      "de.xxvi",
+      "de.gd",
+      "de.20id_mot"
+    ],
+    "sfx": [
+      "typewriter",
+      "radio",
+      "morse"
+    ],
+    "zoomRel": 4,
+    "sources": [
+      "aok6_ktb",
+      "ellis_1953",
+      "frieser_2005",
+      "bock_diary"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "e.dk_nv_siroco_sunk",
+    "at": "1940-05-31T02:30",
+    "category": "naval",
+    "importance": 3,
+    "title": {
+      "zh": "西罗科号：九百三十人中六百六十人丧生",
+      "orig": "Siroco sunk by S-boats"
+    },
+    "body": "满载士兵返航的法国大型驱逐舰「西罗科」号在韦斯特欣德灯船附近被德军 S-23、S-26 号鱼雷艇夹击。两条鱼雷命中后军舰迅速倾覆，九百三十名官兵与士兵中约六百六十人丧生，法军第九十二步兵团团旗随舰沉没。同一夜，「西克洛纳」号被炸掉舰艏，勉强拖着五节航速回到多佛。",
+    "place": "@the_downs",
+    "units": [
+      "fr.sirocco",
+      "de.s23",
+      "de.s26",
+      "fr.cyclone"
+    ],
+    "sfx": [
+      "explosion",
+      "radio"
+    ],
+    "zoomRel": 16,
+    "sources": [
+      "national_archives_dynamo",
+      "wiki_ships_dunkirk",
+      "admiralty_losses_1947"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "e.dk_darlan_equal",
+    "at": "1940-05-31T10:00",
+    "category": "political",
+    "precision": "hour",
+    "importance": 2,
+    "side": "FR",
+    "title": {
+      "zh": "「平等撤离」：达尔朗的干预"
+    },
+    "body": "5 月 31 日，法国海军总司令达尔朗在巴黎会议上要求撤退按同等优先权进行，英军应担任殿后。此前英方优先撤出本国部队，法军对此愤懑。此后英舰开始成批运送法军，最终约十二万三千名法军脱险，其中十万二千余人由英舰运出。但留在桥头堡殿后的四万法军仍成为俘虏。",
+    "place": "@dunkirk",
+    "zoomRel": 2.4,
+    "sources": [
+      "churchill_1949",
+      "abrial_1940",
+      "french_army_1940",
+      "lord_1982",
+      "sumner_1998"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "e.dk_evac_peak",
+    "at": "1940-05-31T12:00",
+    "category": "naval",
+    "precision": "hour",
+    "importance": 1,
+    "side": "GB",
+    "title": {
+      "zh": "高峰期：一日撤出六万八千人"
+    },
+    "body": "5 月 30 日与 31 日进入撤离高峰。低云压制了德国空军，东防波堤与海滩同时作业，驱逐舰、海峡渡轮与拖网渔船昼夜往返。5 月 31 日撤出六万八千零一十四人，其中包括戈特勋爵本人；他把指挥权交给第一军军长亚历山大少将，留下继续指挥桥头堡的防御。",
+    "place": "@east_mole",
+    "units": [
+      "gb.dover_cmd",
+      "gb.force_a",
+      "gb.ghq"
+    ],
+    "sfx": [
+      "ship_gun",
+      "radio"
+    ],
+    "zoomRel": 4.6,
+    "mapNote": "31 日：68,014 人登船",
+    "sources": [
+      "dynamo_despatch",
+      "coastal_forces",
+      "lord_1982",
+      "hyperwar_dunkirk",
+      "scott_1941"
+    ],
+    "confidence": "high",
+    "photo": {
+      "commons": "File:Dunkirk 26-29 May 1940 H1631.jpg",
+      "caption": "从敦刻尔克撤出的士兵在防波堤上等待登船"
+    }
+  },
+  {
+    "id": "e.dk_nv_french_equal",
+    "at": "1940-05-31T15:00",
+    "category": "political",
+    "importance": 2,
+    "title": {
+      "zh": "英法平等撤离",
+      "orig": "Evacuation on equal terms"
+    },
+    "body": "达尔朗海军上将在巴黎会议上要求撤离必须在英法部队之间平等进行，英军应担任殿后。此前英舰常优先搭载英军，法方积怨甚深。此后英舰开始大量运送法军，最终约 123,000 名法军撤离，其中 102,250 人由英舰运出，占法军撤离总数的八成以上。",
+    "place": "@dunkirk",
+    "units": [
+      "fr.abrial",
+      "gb.dover_cmd"
+    ],
+    "sfx": [
+      "radio",
+      "typewriter"
+    ],
+    "zoomRel": 6,
+    "sources": [
+      "dynamo_despatch",
+      "churchill_1949",
+      "abrial_1940"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "e.dk_nv_gort_leaves",
+    "at": "1940-05-31T23:30",
+    "category": "naval",
+    "importance": 2,
+    "title": {
+      "zh": "戈特离法：一天撤出六万八千人",
+      "orig": "Gort leaves France"
+    },
+    "body": "五月三十一日共有 68,014 人登船，是九昼夜里运量第二高的一天。戈特勋爵本人也在这一天离开法国，把桥头堡交给亚历山大少将指挥。英军主力由此基本撤完，此后留在敦刻尔克的只剩下殿后部队与大批法军。",
+    "place": "@dover",
+    "units": [
+      "gb.dover_cmd",
+      "gb.lady_of_mann",
+      "gb.calcutta"
+    ],
+    "sfx": [
+      "radio",
+      "engine"
+    ],
+    "zoomRel": 8,
+    "sources": [
+      "dynamo_despatch",
+      "thompson_1956",
+      "churchill_1949"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "e.dk_lille_fall",
+    "at": "1940-05-31T23:59",
+    "category": "surrender",
+    "precision": "hour",
+    "importance": 1,
+    "side": "FR",
+    "title": {
+      "zh": "里尔口袋投降，德军给予荣誉受降"
+    },
+    "body": "法国第 1 军在里尔被七个德国师（含两个装甲师）合围，自 5 月 28 日起依托工厂区死守。弹药与粮食耗尽后，莫利尼将军于 5 月 31 日率三万五千余人投降。德军第 4 集团军司令冯·克鲁格以荣誉受降礼相待，守军在军乐声中列队出城。里尔多守的三天，让更多盟军得以撤回海岸。",
+    "place": "@lille",
+    "units": [
+      "fr.1ca",
+      "fr.5ca",
+      "de.a4",
+      "de.6pz"
+    ],
+    "sfx": [
+      "march",
+      "artillery"
+    ],
+    "zoomRel": 4.2,
+    "sources": [
+      "ellis_lille_1952",
+      "french_army_1940",
+      "ellis_1953",
+      "sebag_2006",
+      "sumner_1998"
+    ],
+    "confidence": "high",
+    "photo": {
+      "commons": "File:The British Army in France 1940 F4833.jpg",
+      "caption": "1940 年在法国的英军步兵"
+    },
+    "mapNote": "投降生效于 5 月 31 日／6 月 1 日午夜"
+  },
+  {
+    "id": "e.dk_nv_daylight_halted",
+    "at": "1940-06-01T09:15",
+    "category": "naval",
+    "importance": 3,
+    "title": {
+      "zh": "白昼撤离被迫停止",
+      "orig": "Daylight evacuation halted"
+    },
+    "body": "六月一日白天，德军倾全力空袭敦刻尔克锚地：「基思」号在离港前被炸沉，三十三人阵亡；「巴兹利斯克」号锅炉舱中弹后失去全部动力，正午被第三波空袭击沉；「阿文特」号被命中上层甲板、二十六人阵亡；法国「富德罗扬」号也在港外被炸沉。当天撤出六万四千余人后，拉姆齐下令此后只在夜间撤离。",
+    "place": "@dunkirk_roads",
+    "units": [
+      "gb.keith",
+      "gb.basilisk",
+      "gb.havant",
+      "gb.ivanhoe",
+      "fr.foudroyant",
+      "de.stg2"
+    ],
+    "sfx": [
+      "stuka",
+      "explosion",
+      "ship_gun"
+    ],
+    "zoomRel": 14,
+    "sources": [
+      "national_archives_dynamo",
+      "admiralty_losses_1947",
+      "dildy_2010",
+      "thompson_1956"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "e.dk_de_lille_honours",
+    "at": "1940-06-01T10:00",
+    "category": "surrender",
+    "precision": "hour",
+    "importance": 1,
+    "side": "DE",
+    "title": {
+      "zh": "里尔荣誉受降：法军武装列队走过大广场",
+      "orig": "Ehrenvolle Kapitulation von Lille"
+    },
+    "body": "里尔守军午夜投降后，第 XXVII 军军长韦格批准给予「荣誉受降」：法军官兵全副武装、由军乐队前导，列队走过里尔大广场，德军士兵向其敬礼。此举在德军内部引来非议，希特勒六月二日在康布雷得知后勃然大怒，将韦格撤职，理由是这延误了向敦刻尔克的推进。",
+    "place": "@lille",
+    "units": [
+      "de.xxvii",
+      "de.253id",
+      "de.267id",
+      "fr.1ca",
+      "fr.5ca"
+    ],
+    "sfx": [
+      "march",
+      "bell"
+    ],
+    "zoomRel": 6,
+    "sources": [
+      "ellis_lille_1952",
+      "ellis_1953",
+      "frieser_2005"
+    ],
+    "confidence": "high",
+    "mapNote": "守军于 5 月 31 日午夜投降，受降仪式在 6 月 1 日上午"
+  },
+  {
+    "id": "e.dk_nv_jolie_mascotte",
+    "at": "1940-06-01T12:00",
+    "category": "naval",
+    "importance": 2,
+    "title": {
+      "zh": "法国渔船两次拖带巴兹利斯克号",
+      "orig": "Jolie Mascotte tows Basilisk"
+    },
+    "body": "「巴兹利斯克」号被炸瘫在浅水里，一艘法国渔船「美丽的吉祥物」号靠上来拖带。第一次拖缆绷断，它重新上前；第二轮空袭逼得它不得不松手。最后正是这艘法国渔船和驱逐舰「白厅」号一起，从水里救起了八名军官与一百二十三名舰员。",
+    "place": "@la_panne",
+    "units": [
+      "gb.basilisk",
+      "gb.havant"
+    ],
+    "sfx": [
+      "explosion",
+      "radio"
+    ],
+    "zoomRel": 14,
+    "sources": [
+      "wiki_ships_dunkirk",
+      "national_archives_dynamo",
+      "admiralty_losses_1947"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "e.dk_nv_mole_yielded",
+    "at": "1940-06-02T02:00",
+    "category": "naval",
+    "importance": 2,
+    "title": {
+      "zh": "英军把防波堤让给法军",
+      "orig": "Mole handed over to the French"
+    },
+    "body": "凌晨两点，桥头堡内的英军殿后部队接到命令：改从海滩而不是东防波堤登船。原因很简单——防波堤上挤满了等待撤离的法军。在最后关头，英方把运量最大的通道让给了盟友。这也让「英国人只顾自己逃命」的说法失去了最有力的证据。",
+    "place": "@east_mole",
+    "units": [
+      "gb.shikari",
+      "gb.force_a",
+      "fr.abrial"
+    ],
+    "sfx": [
+      "radio",
+      "morse"
+    ],
+    "zoomRel": 12,
+    "sources": [
+      "dynamo_despatch",
+      "thompson_1956",
+      "lord_1982"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "e.dk_daylight_stop",
+    "at": "1940-06-02T07:00",
+    "category": "naval",
+    "precision": "hour",
+    "importance": 1,
+    "side": "GB",
+    "title": {
+      "zh": "昼间撤离停止"
+    },
+    "body": "6 月 1 日是最后一次大规模昼间撤离。当天德国空军集中攻击海峡内的船队，驱逐舰巴西利斯克号与基思号被炸沉，伊卡洛斯号与温莎号重创，扫雷舰与渡轮损失多艘。6 月 2 日晨 7 时，海军部下令停止在敦刻尔克的撤离作业，此后只剩夜间航运，由法军殿后掩护。",
+    "place": "@dunkirk_roads",
+    "units": [
+      "gb.basilisk",
+      "gb.keith",
+      "de.stg2",
+      "de.kg2",
+      "gb.dover_cmd"
+    ],
+    "sfx": [
+      "bomber",
+      "explosion",
+      "ship_gun"
+    ],
+    "zoomRel": 3.2,
+    "sources": [
+      "dynamo_despatch",
+      "franks_2006",
+      "sturdy_ship",
+      "lord_1982",
+      "admiralty_losses_1947"
+    ],
+    "confidence": "high",
+    "photo": {
+      "commons": "File:Dunkirk 26-29 May 1940 C1721.jpg",
+      "caption": "敦刻尔克港内被击沉的船只（空中侦察照片）"
+    }
+  },
+  {
+    "id": "e.dk_nv_night_lifts",
+    "at": "1940-06-02T20:00",
+    "category": "movement",
+    "importance": 2,
+    "title": {
+      "zh": "夜航运法军",
+      "orig": "Nightly lift of the French rearguard"
+    },
+    "body": "昼间撤离停止后，船队改为天黑出海、天亮前返航。六月二日夜撤出 26,256 人，此后两夜仍将按同一节奏往返：官兵在黑暗中沿防波堤摸索前行，靠手电与口令维持队列，德军岸炮的弹着点全凭声音判断。",
+    "place": "@east_mole",
+    "units": [
+      "gb.shikari",
+      "gb.venomous",
+      "gb.windsor",
+      "fr.leopard"
+    ],
+    "sfx": [
+      "engine",
+      "morse"
+    ],
+    "zoomRel": 10,
+    "sources": [
+      "dynamo_despatch",
+      "thompson_1956",
+      "lord_1982"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "e.dk_de_bergues_assault",
+    "at": "1940-06-02T22:00",
+    "category": "battle",
+    "precision": "hour",
+    "importance": 1,
+    "side": "DE",
+    "title": {
+      "zh": "贝尔格夜战：桥头堡的南门被撞开",
+      "orig": "Angriff auf Bergues"
+    },
+    "body": "自六月一日上午十一时起，第 18 集团军对桥头堡全线总攻，主攻点正是贝尔格与瓦伊米勒。德军以炮火、斯图卡与逐屋巷战反复冲击，英军第 46 师与法军部队死守一日，前沿被撕开后又以反冲击夺回。当夜德军终于突入城区，守军退往敦刻尔克—弗尔讷运河一线，桥头堡的南门由此洞开。",
+    "place": "@bergues",
+    "units": [
+      "de.8pz",
+      "de.6pz",
+      "de.20id_mot",
+      "de.a18"
+    ],
+    "sfx": [
+      "artillery",
+      "stuka",
+      "mg",
+      "explosion"
+    ],
+    "zoomRel": 8,
+    "sources": [
+      "ellis_1953",
+      "aok6_ktb",
+      "frieser_2005",
+      "lutfalla_1973"
+    ],
+    "confidence": "high",
+    "mapNote": "6 月 1 日 11:00 全线总攻，贝尔格于 2 日夜陷落"
+  },
+  {
+    "id": "e.dk_bergues_fall",
+    "at": "1940-06-02T22:00",
+    "category": "battle",
+    "precision": "hour",
+    "importance": 1,
+    "side": "FR",
+    "title": {
+      "zh": "贝尔格陷落"
+    },
+    "body": "贝尔格是桥头堡运河线的枢纽，由法军第 262 步兵师与要塞部队据守。6 月 1 日起德军第 256、267 步兵师与第 9 装甲师轮番猛攻，法军在城内外反复反击。6 月 2 日夜德军突入城中，运河线的东段随之瓦解，桥头堡被压缩到敦刻尔克城郊与马尔迪克运河一线。",
+    "place": "@bergues",
+    "units": [
+      "fr.262di",
+      "de.256id",
+      "de.267id",
+      "de.9pz"
+    ],
+    "sfx": [
+      "artillery",
+      "explosion"
+    ],
+    "zoomRel": 5.5,
+    "sources": [
+      "french_army_1940",
+      "lutfalla_1973",
+      "ellis_1953",
+      "sumner_1998",
+      "dunkirk_pocket_diary"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "e.dk_rearguard",
+    "at": "1940-06-02T23:00",
+    "category": "movement",
+    "precision": "hour",
+    "importance": 2,
+    "side": "GB",
+    "title": {
+      "zh": "英军殿后部队撤离"
+    },
+    "body": "6 月 2 日夜至 3 日凌晨，亚历山大少将率最后四千名英军从东防波堤登船，英国远征军在法国的战斗至此结束。留下的第 51 高地师仍在索姆河以南，6 月 12 日在圣瓦莱里被俘；敦刻尔克城内还有英军医院与后勤人员，后来成为俘虏。此后两夜，撤离全部由法军殿后掩护。",
+    "place": "@east_mole",
+    "units": [
+      "gb.iii_corps",
+      "gb.dover_cmd",
+      "fr.12dim"
+    ],
+    "sfx": [
+      "morse",
+      "radio"
+    ],
+    "zoomRel": 4.4,
+    "sources": [
+      "gort_dispatch_2",
+      "ellis_1953",
+      "lord_1982",
+      "longden_2008",
+      "hyperwar_dunkirk"
+    ],
+    "confidence": "high",
+    "photo": {
+      "commons": "File:Troops evacuated from Dunkirk on a destroyer about to berth at Dover, 31 May 1940. H1637.jpg",
+      "caption": "满载撤离士兵的驱逐舰即将靠上多佛码头"
+    }
+  },
+  {
+    "id": "e.dk_nv_idle_capacity",
+    "at": "1940-06-03T03:00",
+    "category": "naval",
+    "importance": 2,
+    "title": {
+      "zh": "被空置的一万人运力",
+      "orig": "10,000 berths left unfilled"
+    },
+    "body": "六月三日午夜到凌晨三点，多佛的船队在敦刻尔克外海等了整整三个小时，约 10,000 人的运载能力被白白空置——法军部队没能按时抵达防波堤。这是撤离末期最具体的一次损失：不是没有船，而是人没能走到船边。夜航只能在黑暗中维持到天亮前。",
+    "place": "@dunkirk_roads",
+    "units": [
+      "gb.shikari",
+      "gb.dover_cmd",
+      "fr.abrial"
+    ],
+    "sfx": [
+      "engine",
+      "morse"
+    ],
+    "zoomRel": 12,
+    "sources": [
+      "dynamo_despatch",
+      "dynamo_admiralty",
+      "thompson_1956"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "e.dk_nv_last_night",
+    "at": "1940-06-03T23:00",
+    "category": "naval",
+    "importance": 2,
+    "title": {
+      "zh": "最后两夜：六万三千人",
+      "orig": "The last two nights"
+    },
+    "body": "六月三日夜里又撤出 26,746 人。船队把泊位排到防波堤尽头，士兵从运河桥上摸黑走上堤面，一次只能过两个人。德军炮火不时打断队列，工兵在弹坑上铺木板。到天亮时，桥头堡里只剩下走不到海边的殿后部队。",
+    "place": "@east_mole",
+    "units": [
+      "gb.shikari",
+      "gb.venomous",
+      "gb.windsor",
+      "fr.leopard"
+    ],
+    "sfx": [
+      "engine",
+      "morse"
+    ],
+    "zoomRel": 12,
+    "sources": [
+      "dynamo_despatch",
+      "thompson_1956",
+      "lord_1982"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "e.dk_last_salute",
+    "at": "1940-06-04T03:20",
+    "category": "movement",
+    "precision": "minute",
+    "importance": 2,
+    "side": "FR",
+    "title": {
+      "zh": "码头上的最后敬礼"
+    },
+    "body": "6 月 4 日凌晨 3 时 20 分，最后一批法军在东防波堤登船。据在场英国军官特鲁普报告：晨光中看不清他们的面孔，身后的火焰把钢盔照得发亮；法军士兵在跳板上列队，向留在码头上的同伴敬礼，然后登船离岸。留在岸上的是约四万人的殿后部队，天亮后成为俘虏。",
+    "place": "@east_mole",
+    "units": [
+      "fr.12dim",
+      "fr.68di"
+    ],
+    "sfx": [
+      "morse",
+      "ship_gun"
+    ],
+    "zoomRel": 6.0,
+    "sources": [
+      "ellis_1953",
+      "dynamo_despatch",
+      "abrial_1940",
+      "french_army_1940",
+      "lord_1982"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "e.dk_nv_shikari_last",
+    "at": "1940-06-04T03:40",
+    "category": "naval",
+    "importance": 3,
+    "title": {
+      "zh": "最后一艘离开敦刻尔克的军舰",
+      "orig": "HMS Shikari departs"
+    },
+    "body": "凌晨三点四十分，「希卡里」号载着最后一批士兵离开敦刻尔克。这艘一战时期的老驱逐舰七次往返，共运出三千三百四十九人。它离港时港内已空无一人，只有燃烧的油罐与德军炮火的闪光。几小时后，桥头堡内四万名法军殿后部队投降。",
+    "place": "@dunkirk_roads",
+    "units": [
+      "gb.shikari"
+    ],
+    "sfx": [
+      "engine",
+      "siren"
+    ],
+    "zoomRel": 14,
+    "sources": [
+      "national_archives_dynamo",
+      "wiki_ships_dunkirk",
+      "dynamo_despatch"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "e.dk_de_enter_dunkirk",
+    "at": "1940-06-04T09:00",
+    "category": "surrender",
+    "precision": "hour",
+    "importance": 1,
+    "side": "DE",
+    "title": {
+      "zh": "进占敦刻尔克：得到一座空港",
+      "orig": "Einmarsch in Dünkirchen"
+    },
+    "body": "上午九时，法军殿后部队约四万人停止抵抗，德军进占敦刻尔克市区与港区。士兵们涌向海滩与防波堤，看到的只有烧毁的卡车、被遗弃的火炮与成排的装备，盟军已在当夜撤走最后一批人。德军当日下午在码头升起卅字旗，宣扬这是「世界史上最大的围歼战」，但猎物早已渡海。",
+    "place": "@dunkirk_port",
+    "units": [
+      "de.a18",
+      "de.1pz",
+      "de.61id",
+      "de.256id",
+      "fr.68di",
+      "fr.2dlm"
+    ],
+    "sfx": [
+      "march",
+      "bell",
+      "explosion"
+    ],
+    "zoomRel": 10,
+    "sources": [
+      "aok6_ktb",
+      "ellis_1953",
+      "frieser_2005",
+      "abrial_1940"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "e.dk_french_final",
+    "at": "1940-06-04T09:00",
+    "category": "surrender",
+    "precision": "minute",
+    "importance": 1,
+    "side": "FR",
+    "title": {
+      "zh": "法军殿后部队投降，行动结束"
+    },
+    "body": "6 月 4 日上午 9 时，阿布里亚尔海军上将下令桥头堡内剩余法军停止抵抗。第 12 摩托化步兵师、第 68 步兵师与要塞部队共约四万人被俘，其中许多人刚在 6 月 3 日夜掩护完最后一船。下午 2 时 23 分，海军部电报正式终止发电机行动。九昼夜共撤出三十三万八千二百二十六人。",
+    "place": "@dunkirk",
+    "units": [
+      "fr.12dim",
+      "fr.68di",
+      "fr.abrial",
+      "de.9pz"
+    ],
+    "sfx": [
+      "radio",
+      "typewriter"
+    ],
+    "zoomRel": 4.8,
+    "sources": [
+      "dynamo_despatch",
+      "abrial_1940",
+      "french_army_1940",
+      "lord_1982",
+      "hyperwar_dunkirk"
+    ],
+    "confidence": "high",
+    "photo": {
+      "commons": "File:Wounded French soldier after evacuation from Dunkirk.jpg",
+      "caption": "从敦刻尔克撤出的法国伤兵"
+    }
+  },
+  {
+    "id": "e.dk_german_flag",
+    "at": "1940-06-04T10:20",
+    "category": "political",
+    "precision": "hour",
+    "importance": 2,
+    "side": "DE",
+    "title": {
+      "zh": "德军进占敦刻尔克"
+    },
+    "body": "6 月 4 日上午 9 时法军停止抵抗，10 时 20 分德军先头部队进入敦刻尔克市区与港区，在海堤上升起旗帜。码头上还堆着英军来不及运走的物资：成排的卡车、火炮与弹药箱。同日德国空军仍在对已无目标的港口投弹。撤退结束，但被留下的人与物资成了这场「胜利」的实物证明。",
+    "place": "@dunkirk_port",
+    "units": [
+      "de.9pz"
+    ],
+    "sfx": [
+      "tank",
+      "engine"
+    ],
+    "zoomRel": 5.0,
+    "mapNote": "6 月 4 日 10:20 德军进占港区",
+    "sources": [
+      "ellis_1953",
+      "frieser_2005",
+      "halder_diary",
+      "aok4_ktb",
+      "lord_1982"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "e.dk_nv_operation_end",
+    "at": "1940-06-04T10:30",
+    "category": "naval",
+    "importance": 3,
+    "title": {
+      "zh": "行动结束：三十三万八千二百二十六人",
+      "orig": "Operation Dynamo terminated"
+    },
+    "body": "上午十点三十分，拉姆齐海军中将在多佛宣布「发电机行动」终止。九昼夜共撤出 338,226 人：英国及帝国部队约 198,000 人、法军约 123,000 人（其中 102,250 人由英舰运出）、比利时部队约一万五千人。最后一天还运走 26,175 人，代价是英法二百余艘船沉没。",
+    "place": "@dover",
+    "units": [
+      "gb.dover_cmd",
+      "gb.force_a"
+    ],
+    "sfx": [
+      "bell",
+      "radio"
+    ],
+    "zoomRel": 6,
+    "sources": [
+      "dynamo_despatch",
+      "dynamo_admiralty",
+      "national_archives_dynamo"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "e.dk_materiel",
+    "at": "1940-06-04T12:00",
+    "category": "movement",
+    "precision": "hour",
+    "importance": 2,
+    "wide": true,
+    "title": {
+      "zh": "海滩上的全部家当"
+    },
+    "body": "撤出的三十三万人几乎空手而归。英国远征军在法国损失火炮二千四百七十二门、摩托车两万辆、其他车辆近六万五千辆、坦克四百四十五辆，另有七万吨弹药与四十一万六千吨军用物资。海滩上排列的卡车、火炮与补给堆成数公里长，成为德军宣传照片中最常出现的画面。",
+    "place": "@malo_les_bains",
+    "sfx": [
+      "tank",
+      "engine"
+    ],
+    "zoomRel": 2.6,
+    "sources": [
+      "ellis_1953",
+      "bef_casualties_1940",
+      "longden_2008",
+      "churchill_1949",
+      "dunkirk_veterans"
+    ],
+    "confidence": "medium",
+    "photo": {
+      "commons": "File:Dunkirk 1940 HU2280.jpg",
+      "caption": "敦刻尔克海滩全景：沙滩上排列的车辆与被丢弃的物资"
+    }
+  },
+  {
+    "id": "e.dk_speech",
+    "at": "1940-06-04T15:30",
+    "category": "political",
+    "precision": "hour",
+    "importance": 1,
+    "side": "GB",
+    "title": {
+      "zh": "「我们将在海滩上战斗」"
+    },
+    "body": "6 月 4 日下午，丘吉尔在下议院报告撤退结果，并警告「战争不是靠撤退取胜的」。他随后说出那段著名的话：我们将在海滩上战斗，我们将在登陆场上战斗，我们将在田野和街道上战斗，我们将在山丘上战斗；我们决不投降。撤退被叙述为「灾难转化为胜利」，成为英国战时精神的核心文本。",
+    "place": "@dover",
+    "sfx": [
+      "typewriter",
+      "radio"
+    ],
+    "zoomRel": 1.8,
+    "sources": [
+      "hansard_1940",
+      "churchill_1949",
+      "blaxland_1980",
+      "atkin_1990"
+    ],
+    "confidence": "high",
+    "mapNote": "威斯敏斯特宫下议院（图外）；地图定位在多佛",
+    "photo": {
+      "commons": "File:The British Army in the UK- Evacuation From Dunkirk, May-June 1940 H1640.jpg",
+      "caption": "多佛车站的撤离士兵"
+    }
+  },
+  {
+    "id": "e.dk_german_claim",
+    "at": "1940-06-04T20:00",
+    "category": "political",
+    "precision": "hour",
+    "importance": 2,
+    "side": "DE",
+    "title": {
+      "zh": "德方宣布「世界史上最大的围歼战」"
+    },
+    "body": "6 月 5 日，希特勒宣称「敦刻尔克陷落！四万英法军队是昔日大军仅存者，缴获的物资不可计量」，国防军统帅部把此役宣布为「世界史上最大的围歼战」。德国民众由此相信这是一场决定性胜利。德军将领在战后才公开承认，装甲部队的停滞与海上撤离的成功改变了战争的走向。",
+    "place": "@antwerpen",
+    "sfx": [
+      "radio",
+      "typewriter"
+    ],
+    "zoomRel": 1.8,
+    "sources": [
+      "halder_diary",
+      "frieser_2005",
+      "jacobsen_1957",
+      "haupt_1965",
+      "warlimont_1962"
+    ],
+    "confidence": "medium",
+    "mapNote": "柏林国防军统帅部公报（图外）；地图定位在安特卫普"
+  },
+  {
+    "id": "e.dk_myth",
+    "at": "1940-06-04T20:00",
+    "category": "political",
+    "precision": "hour",
+    "importance": 2,
+    "side": "GB",
+    "title": {
+      "zh": "「必要的神话」"
+    },
+    "body": "撤退在国内被呈现为「灾难转为胜利」：左翼作家普里斯特利把它叙述为「人民的战争」的开端，小船船队成为全民动员的象征；保守派则强调加来、布洛涅等「港口之战」中军队的专业与英勇。两种叙事争夺记忆，前者最终胜出。史家提醒：敦刻尔克撤出的是人，丢掉的是装备，四万余人成为战俘。",
+    "place": "@dover",
+    "zoomRel": 1.7,
+    "sources": [
+      "blaxland_1980",
+      "atkin_1990",
+      "longden_2008",
+      "levine_2017",
+      "mason_1969"
+    ],
+    "confidence": "medium",
+    "mapNote": "英国报界与政界的叙事争论；地图定位在多佛"
+  },
+  {
+    "id": "e.dk_nv_lancastria_epilogue",
+    "at": "1940-06-04T23:59",
+    "category": "naval",
+    "importance": 2,
+    "title": {
+      "zh": "尾声的对照：十三天后的圣纳泽尔",
+      "orig": "Epilogue: RMS Lancastria"
+    },
+    "body": "敦刻尔克并不是结束。英军随即又从法国西部港口撤运（「空中行动」）。六月十七日，一万六千二百四十三吨的客轮「兰卡斯特里亚」号在圣纳泽尔外海被德军轰炸机炸沉，约三千五百人丧生——比「泰坦尼克」号还多，是英国航海史上最惨重的一次海难。丘吉尔下令禁止报道，消息被压了数周。（此为窗口内的追述）",
+    "place": "@dover",
+    "units": [
+      "gb.lancastria"
+    ],
+    "sfx": [
+      "bomber",
+      "explosion"
+    ],
+    "zoomRel": 6,
+    "sources": [
+      "lancastria_1940",
+      "churchill_1949",
+      "ellis_1953"
+    ],
+    "confidence": "high"
+  }
+]

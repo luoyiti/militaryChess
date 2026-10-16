@@ -21,7 +21,7 @@
     { "id": "JP", "name": "日本", "coalition": "axis", "css": { "main": "#8a6d3b" } }
   ],
   "hub": {
-    "order": 8,
+    "order": 10,
     "codename": "淞沪会战",
     "codenameOrig": "八一三",
     "stencil": "SHANGHAI 1937",

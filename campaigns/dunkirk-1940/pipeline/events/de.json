@@ -1,0 +1,430 @@
+[
+  {
+    "id": "e.dk_de_canal_line_held",
+    "at": "1940-05-26T12:00",
+    "category": "movement",
+    "precision": "hour",
+    "importance": 2,
+    "side": "DE",
+    "title": {
+      "zh": "运河线上的第三天：十五公里外的教堂尖顶",
+      "orig": "Dritter Tag am Haltebefehl"
+    },
+    "body": "停止前进令已生效两天，古德里安第 XIX 摩托化军的先头仍停在格拉沃利讷以东的阿河运河西岸，第 1 装甲师距敦刻尔克仅约十五公里。士兵在堤上架起火炮，望得见对岸的教堂尖顶，却奉命不得渡河。军官反复请求续攻均被驳回，直到当日傍晚限令解除。",
+    "place": "@gravelines",
+    "units": [
+      "de.1pz",
+      "de.2pz",
+      "de.xix",
+      "de.pg_kleist"
+    ],
+    "sfx": [
+      "engine",
+      "tank",
+      "radio"
+    ],
+    "zoomRel": 7,
+    "sources": [
+      "klee_1940",
+      "guderian_ktb",
+      "kleist_ktb",
+      "korth_1958",
+      "frieser_2005"
+    ],
+    "confidence": "high",
+    "mapNote": "先头自 5 月 24 日 14:30 起停在此线，至 26 日 18:00 令解"
+  },
+  {
+    "id": "e.dk_de_stophalt_pretext",
+    "at": "1940-05-26T15:00",
+    "category": "political",
+    "precision": "hour",
+    "importance": 2,
+    "side": "DE",
+    "title": {
+      "zh": "「坦克已损失五成」：一份被当作借口的报告",
+      "orig": "Meldung über 50 % Panzerverluste"
+    },
+    "body": "克莱斯特装甲集群此前向上级报告，连日作战已使坦克损失达五成，对当面「强敌」不足以继续向东进攻。这份措辞悲观的报告被 A 集团军群当作下达停止前进令的现成依据。战后集群作战参谋科尔特点明，该报告实为对频繁分派次要任务的抗议，却无意中改写了战役走向。",
+    "place": "@saint_omer",
+    "units": [
+      "de.pg_kleist",
+      "de.xix"
+    ],
+    "sfx": [
+      "typewriter",
+      "radio"
+    ],
+    "zoomRel": 5,
+    "sources": [
+      "kleist_ktb",
+      "korth_1958",
+      "frieser_2005",
+      "aok4_ktb"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "e.dk_de_boulogne_aftermath",
+    "at": "1940-05-26T12:00",
+    "category": "battle",
+    "precision": "hour",
+    "importance": 2,
+    "side": "DE",
+    "title": {
+      "zh": "布洛涅到手，却是一座废港",
+      "orig": "Boulogne nach der Einnahme"
+    },
+    "body": "第 2 装甲师自阿布维尔北上，二十二日与装备不足的法军第 48 团在布洛涅城外交手后直接冲进港口区。英军第 20 近卫旅已于二十三日夜由海上撤走，法军海军守备队据守旧城至二十五日。德军占领后发现码头设施已被破坏，无法用于补给，该师随即转向圣奥梅尔运河线。",
+    "place": "@boulogne",
+    "units": [
+      "de.2pz",
+      "de.xix",
+      "gb.20gds_bde",
+      "fr.marine"
+    ],
+    "sfx": [
+      "tank",
+      "artillery",
+      "explosion"
+    ],
+    "zoomRel": 9,
+    "sources": [
+      "guderian_ktb",
+      "ellis_1953",
+      "frieser_2005"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "e.dk_de_resume_attack",
+    "at": "1940-05-26T18:00",
+    "category": "movement",
+    "precision": "hour",
+    "importance": 1,
+    "side": "DE",
+    "title": {
+      "zh": "限令解除，装甲部队重新启动",
+      "orig": "Wiederaufnahme des Angriffs"
+    },
+    "body": "下午三时三十分，希特勒下令装甲部队继续前进，但多数部队又用了约十六小时才真正发起攻击。第十八集团军方向已从南岸压来，克莱斯特集群则沿海岸线转向布尔堡、贝尔格。德军急于抢在盟军撤空港口前抵达海岸，却迎面撞上已经加固两天的敦刻尔克桥头堡。",
+    "place": "@bourbourg",
+    "units": [
+      "de.pg_kleist",
+      "de.xix",
+      "de.1pz",
+      "de.10pz"
+    ],
+    "sfx": [
+      "engine",
+      "tank",
+      "artillery"
+    ],
+    "zoomRel": 6,
+    "sources": [
+      "hitler_weisung13",
+      "kleist_ktb",
+      "ellis_1953",
+      "frieser_2005"
+    ],
+    "confidence": "high",
+    "mapNote": "限令于 5 月 26 日 15:30 下达，18:00 起生效"
+  },
+  {
+    "id": "e.dk_de_calais_honours",
+    "at": "1940-05-26T16:30",
+    "category": "surrender",
+    "precision": "hour",
+    "importance": 2,
+    "side": "DE",
+    "title": {
+      "zh": "加来受降：四天围城的代价",
+      "orig": "Kapitulation von Calais"
+    },
+    "body": "第 10 装甲师在加来城下苦战四天，一度报告半数坦克被击毁、三分之一步兵伤亡。守军防线于下午崩溃，尼科尔森准将以下约四千人被俘。德军进城时发现旧城墙内已成瓦砾。这场围城把该师钉在加来，使它错过了向敦刻尔克冲刺的最佳时机。",
+    "place": "@calais",
+    "units": [
+      "de.10pz",
+      "de.xix",
+      "gb.30bde"
+    ],
+    "sfx": [
+      "artillery",
+      "stuka",
+      "rifle"
+    ],
+    "zoomRel": 9,
+    "sources": [
+      "guderian_ktb",
+      "ellis_1953",
+      "divine_1940",
+      "frieser_2005"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "e.dk_de_cassel_attrition",
+    "at": "1940-05-27T20:00",
+    "category": "battle",
+    "precision": "hour",
+    "importance": 2,
+    "side": "DE",
+    "title": {
+      "zh": "卡塞尔：装甲师陷在城下",
+      "orig": "Kampf um Cassel"
+    },
+    "body": "第 6 装甲师当日被英军第 145 旅吸在卡塞尔城下，从南面与东南面反复突击，始终未能拿下这座糖面包形山丘上的城镇，却在巷战中损失惨重。它的主力因此没有按计划转向波珀灵厄攻击英军第 44 师侧翼。史家汤普森称这一失误「令人震惊」，是德军在整场战役中最具体的错失战机。",
+    "place": "@cassel",
+    "units": [
+      "de.6pz",
+      "de.xli",
+      "de.8pz",
+      "gb.5div"
+    ],
+    "sfx": [
+      "artillery",
+      "tank",
+      "mg"
+    ],
+    "zoomRel": 8,
+    "sources": [
+      "ellis_1953",
+      "kleist_ktb",
+      "aok4_ktb",
+      "frieser_2005"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "e.dk_de_lille_honours",
+    "at": "1940-06-01T10:00",
+    "category": "surrender",
+    "precision": "hour",
+    "importance": 1,
+    "side": "DE",
+    "title": {
+      "zh": "里尔荣誉受降：法军武装列队走过大广场",
+      "orig": "Ehrenvolle Kapitulation von Lille"
+    },
+    "body": "里尔守军午夜投降后，第 XXVII 军军长韦格批准给予「荣誉受降」：法军官兵全副武装、由军乐队前导，列队走过里尔大广场，德军士兵向其敬礼。此举在德军内部引来非议，希特勒六月二日在康布雷得知后勃然大怒，将韦格撤职，理由是这延误了向敦刻尔克的推进。",
+    "place": "@lille",
+    "units": [
+      "de.xxvii",
+      "de.253id",
+      "de.267id",
+      "fr.1ca",
+      "fr.5ca"
+    ],
+    "sfx": [
+      "march",
+      "bell"
+    ],
+    "zoomRel": 6,
+    "sources": [
+      "ellis_lille_1952",
+      "ellis_1953",
+      "frieser_2005"
+    ],
+    "confidence": "high",
+    "mapNote": "守军于 5 月 31 日午夜投降，受降仪式在 6 月 1 日上午"
+  },
+  {
+    "id": "e.dk_de_kuehne_captured",
+    "at": "1940-05-28T16:00",
+    "category": "battle",
+    "precision": "hour",
+    "importance": 2,
+    "side": "DE",
+    "title": {
+      "zh": "第 253 师师长被俘，作战计划落入守军手中",
+      "orig": "Gefangennahme des Divisionskommandeurs"
+    },
+    "body": "下午，第 253 步兵师师长屈内中将在里尔城南的法布尔德波斯被法军巡逻队俘获，随身携带的德军攻城计划一并落入守军之手。守军指挥官莫利尼据此判明德军将从西、北、东北、东南、南五个方向同时进攻，随即着手制定突围方案。这次意外却未能改变里尔最终的结局。",
+    "place": "@seclin",
+    "units": [
+      "de.253id",
+      "de.xxvii",
+      "fr.1ca"
+    ],
+    "sfx": [
+      "radio",
+      "paper"
+    ],
+    "zoomRel": 8,
+    "sources": [
+      "ellis_lille_1952",
+      "ellis_1953",
+      "frieser_2005"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "e.dk_de_nieuport_bridgehead",
+    "at": "1940-05-28T11:00",
+    "category": "movement",
+    "precision": "hour",
+    "importance": 2,
+    "side": "DE",
+    "title": {
+      "zh": "纽波特：抢下一座未炸毁的桥",
+      "orig": "Brückenkopf bei Nieuport"
+    },
+    "body": "比利时军队清晨四时停火后，德军先头仅七小时便抵达纽波特与海岸之间。第 256 步兵师抢占了伊瑟河上一座未被炸毁的桥梁，在东岸建立小型桥头堡。但英军第 4 师当日即以炮火与反击封住缺口，德军此后数日的攻击均被击退，桥头堡始终未能扩大。",
+    "place": "@nieuwpoort",
+    "units": [
+      "de.256id",
+      "de.xxvi",
+      "gb.4div"
+    ],
+    "sfx": [
+      "rifle",
+      "artillery",
+      "engine"
+    ],
+    "zoomRel": 8,
+    "sources": [
+      "aok6_ktb",
+      "ellis_1953",
+      "frieser_2005"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "e.dk_de_bergues_assault",
+    "at": "1940-06-02T22:00",
+    "category": "battle",
+    "precision": "hour",
+    "importance": 1,
+    "side": "DE",
+    "title": {
+      "zh": "贝尔格夜战：桥头堡的南门被撞开",
+      "orig": "Angriff auf Bergues"
+    },
+    "body": "自六月一日上午十一时起，第 18 集团军对桥头堡全线总攻，主攻点正是贝尔格与瓦伊米勒。德军以炮火、斯图卡与逐屋巷战反复冲击，英军第 46 师与法军部队死守一日，前沿被撕开后又以反冲击夺回。当夜德军终于突入城区，守军退往敦刻尔克—弗尔讷运河一线，桥头堡的南门由此洞开。",
+    "place": "@bergues",
+    "units": [
+      "de.8pz",
+      "de.6pz",
+      "de.20id_mot",
+      "de.a18"
+    ],
+    "sfx": [
+      "artillery",
+      "stuka",
+      "mg",
+      "explosion"
+    ],
+    "zoomRel": 8,
+    "sources": [
+      "ellis_1953",
+      "aok6_ktb",
+      "frieser_2005",
+      "lutfalla_1973"
+    ],
+    "confidence": "high",
+    "mapNote": "6 月 1 日 11:00 全线总攻，贝尔格于 2 日夜陷落"
+  },
+  {
+    "id": "e.dk_de_enter_dunkirk",
+    "at": "1940-06-04T09:00",
+    "category": "surrender",
+    "precision": "hour",
+    "importance": 1,
+    "side": "DE",
+    "title": {
+      "zh": "进占敦刻尔克：得到一座空港",
+      "orig": "Einmarsch in Dünkirchen"
+    },
+    "body": "上午九时，法军殿后部队约四万人停止抵抗，德军进占敦刻尔克市区与港区。士兵们涌向海滩与防波堤，看到的只有烧毁的卡车、被遗弃的火炮与成排的装备，盟军已在当夜撤走最后一批人。德军当日下午在码头升起卅字旗，宣扬这是「世界史上最大的围歼战」，但猎物早已渡海。",
+    "place": "@dunkirk_port",
+    "units": [
+      "de.a18",
+      "de.1pz",
+      "de.61id",
+      "de.256id",
+      "fr.68di",
+      "fr.2dlm"
+    ],
+    "sfx": [
+      "march",
+      "bell",
+      "explosion"
+    ],
+    "zoomRel": 10,
+    "sources": [
+      "aok6_ktb",
+      "ellis_1953",
+      "frieser_2005",
+      "abrial_1940"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "e.dk_de_panzers_withdrawn",
+    "at": "1940-05-28T12:00",
+    "category": "movement",
+    "precision": "hour",
+    "importance": 2,
+    "side": "DE",
+    "title": {
+      "zh": "装甲师撤出：为下一场战役保存实力",
+      "orig": "Herausziehen der Panzerdivisionen"
+    },
+    "body": "克莱斯特集群当日同意将三个装甲师撤出敦刻尔克方向。古德里安在巡行前线后向集群参谋长指出，继续进攻「代价高昂而无必要」，装甲部队仅剩约五成坦克，装备亟待整修。德军由此把重心转向即将开始的南下作战，敦刻尔克正面改由步兵军承担，包围圈逐村收紧。",
+    "place": "@saint_omer",
+    "units": [
+      "de.pg_kleist",
+      "de.xix",
+      "de.1pz",
+      "de.10pz"
+    ],
+    "sfx": [
+      "engine",
+      "typewriter"
+    ],
+    "zoomRel": 5,
+    "sources": [
+      "guderian_ktb",
+      "kleist_ktb",
+      "ellis_1953",
+      "frieser_2005"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "e.dk_de_18th_army_command",
+    "at": "1940-05-31T02:00",
+    "category": "political",
+    "precision": "hour",
+    "importance": 2,
+    "side": "DE",
+    "title": {
+      "zh": "第 18 集团军接管敦刻尔克全线",
+      "orig": "Übernahme des Angriffs durch die 18. Armee"
+    },
+    "body": "凌晨二时起，对敦刻尔克的全部作战由屈希勒的第 18 集团军统一指挥，下辖第 IX、X、XIV、XXVI 四个军，并得到第 9、11 摩托化旅、「大德意志」团与第 20 摩托化师等部。A 集团军群自此不再过问桥头堡，伦德施泰特转入筹划南下。屈希勒随即下令六月一日上午十一时全线总攻。",
+    "place": "@oostende",
+    "units": [
+      "de.a18",
+      "de.ix",
+      "de.x",
+      "de.xiv",
+      "de.xxvi",
+      "de.gd",
+      "de.20id_mot"
+    ],
+    "sfx": [
+      "typewriter",
+      "radio",
+      "morse"
+    ],
+    "zoomRel": 4,
+    "sources": [
+      "aok6_ktb",
+      "ellis_1953",
+      "frieser_2005",
+      "bock_diary"
+    ],
+    "confidence": "high"
+  }
+]

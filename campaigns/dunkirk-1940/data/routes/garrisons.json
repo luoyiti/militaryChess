@@ -1,0 +1,111 @@
+[
+ {
+  "id": "r.dk_gb_calais_defence",
+  "side": "GB",
+  "unit": "gb.30bde",
+  "style": "counter",
+  "widthKm": 3,
+  "label": "加来围城防御（5-23 → 5-26）",
+  "waypoints": [
+   { "at": "1940-05-23T16:00", "pos": "@calais" },
+   { "at": "1940-05-24T08:00", "pos": "@calais" },
+   { "at": "1940-05-24T22:00", "pos": "@calais" },
+   { "at": "1940-05-25T15:00", "pos": "@calais" },
+   { "at": "1940-05-26T15:00", "pos": "@calais" }
+  ],
+  "sources": ["sebag_2006","ellis_1953","mason_1969"],
+  "confidence": "high"
+ },
+ {
+  "id": "r.dk_gb_calais_outpost",
+  "side": "GB",
+  "unit": "gb.30bde",
+  "style": "secondary",
+  "widthKm": 4,
+  "label": "加来外围哨线（桑加特—夸莱—马克运河）向内收缩（5-23 → 5-24）",
+  "waypoints": [
+   { "at": "1940-05-23T12:00", "pos": "@sangatte" },
+   { "at": "1940-05-24T10:00", "pos": "@sangatte" },
+   { "at": "1940-05-24T22:00", "pos": "@calais" }
+  ],
+  "sources": ["sebag_2006","national_archives_dynamo","mason_1969"],
+  "confidence": "medium"
+ },
+ {
+  "id": "r.dk_gb_calais_breakout",
+  "side": "GB",
+  "unit": "gb.30bde",
+  "style": "breakout",
+  "widthKm": 3,
+  "label": "加来守军 5-24/25 夜突围尝试（被击退）",
+  "waypoints": [
+   { "at": "1940-05-24T22:00", "pos": "@calais" },
+   { "at": "1940-05-25T01:00", "pos": "@sangatte" },
+   { "at": "1940-05-25T05:00", "pos": "@calais" }
+  ],
+  "sources": ["sebag_2006","ellis_1953","mason_1969"],
+  "confidence": "medium"
+ },
+ {
+  "id": "r.dk_gb_calais_final",
+  "side": "GB",
+  "unit": "gb.30bde",
+  "style": "secondary",
+  "widthKm": 3,
+  "label": "加来最后阵地：旧城、城堡与港口（5-25 → 5-26 投降）",
+  "waypoints": [
+   { "at": "1940-05-25T18:00", "pos": "@calais" },
+   { "at": "1940-05-26T08:00", "pos": "@calais" },
+   { "at": "1940-05-26T15:00", "pos": "@calais" }
+  ],
+  "sources": ["sebag_2006","longden_2008","mason_1969"],
+  "confidence": "high"
+ },
+ {
+  "id": "r.dk_gb_boulogne_defence",
+  "side": "GB",
+  "unit": "gb.20gds_bde",
+  "style": "counter",
+  "widthKm": 4,
+  "label": "布洛涅外围 6 英里防线（5-22 → 5-23）",
+  "waypoints": [
+   { "at": "1940-05-22T09:00", "pos": "@boulogne" },
+   { "at": "1940-05-22T18:00", "pos": "@wimereux" },
+   { "at": "1940-05-23T04:00", "pos": "@boulogne" },
+   { "at": "1940-05-23T10:00", "pos": "@boulogne" }
+  ],
+  "sources": ["thompson_1956","sebag_2006","mason_1969"],
+  "confidence": "high"
+ },
+ {
+  "id": "r.dk_gb_boulogne_quay",
+  "side": "GB",
+  "unit": "gb.20gds_bde",
+  "style": "retreat",
+  "widthKm": 3,
+  "label": "布洛涅守军退向码头并从海上撤出（5-23 → 5-24）",
+  "waypoints": [
+   { "at": "1940-05-23T15:00", "pos": "@boulogne" },
+   { "at": "1940-05-23T18:00", "pos": "@boulogne" },
+   { "at": "1940-05-24T01:30", "pos": "@boulogne" },
+   { "at": "1940-05-24T04:00", "pos": "@boulogne" }
+  ],
+  "sources": ["thompson_1956","scott_1941","mason_1969"],
+  "confidence": "high"
+ },
+ {
+  "id": "r.dk_gb_boulogne_breakout",
+  "side": "GB",
+  "unit": "gb.20gds_bde",
+  "style": "breakout",
+  "widthKm": 3,
+  "label": "威尔士近卫第 3 连与散兵向东北的突围尝试（5-24 夜，失败）",
+  "waypoints": [
+   { "at": "1940-05-24T20:00", "pos": "@boulogne" },
+   { "at": "1940-05-24T23:00", "pos": "@wimereux" },
+   { "at": "1940-05-25T04:00", "pos": "@boulogne" }
+  ],
+  "sources": ["thompson_1956","sebag_2006","mason_1969"],
+  "confidence": "medium"
+ }
+]

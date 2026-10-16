@@ -1,0 +1,4923 @@
+[
+ {
+  "id": "gb.ghq",
+  "side": "GB",
+  "echelon": "army",
+  "type": "hq",
+  "parent": null,
+  "display": "container",
+  "name": { "zh": "英国远征军总司令部", "orig": "General Headquarters, British Expeditionary Force", "short": "BEF GHQ" },
+  "commander": { "zh": "戈特勋爵（陆军上将，VC）", "orig": "General Lord Gort VC" },
+  "model": "inf_gb",
+  "strength": { "men": 2200 },
+  "sources": ["gort_despatch","gort_dispatch_2","ellis_1953"],
+  "confidence": "high",
+  "track": [
+   { "at": "1940-05-22T08:00", "pos": "@hazebrouck", "status": "active", "note": "利斯河防线纵深，GHQ 位于阿兹布鲁克以东" },
+   { "at": "1940-05-25T20:00", "pos": "@cassel", "status": "active", "note": "加来、布洛涅告急后，戈特 5-25 定下退向海岸的决心" },
+   { "at": "1940-05-27T18:00", "pos": "@hondschoote", "status": "withdrawing" },
+   { "at": "1940-05-28T18:00", "pos": "@fort_des_dunes", "status": "active", "note": "5-28 夜全军退入桥头堡；亚当的第 3 军负责筑垒" },
+   {
+    "at": "1940-05-31T06:00",
+    "pos": "@dunkirk",
+    "status": "withdrawing",
+    "note": "5-31 戈特把指挥权交给亚历山大后登船返英，GHQ 当日关闭"
+   },
+   { "at": "1940-06-01T08:00", "pos": "@east_mole", "status": "evacuated" }
+  ],
+  "history": "戈特 5-19 即判断只能退向敦刻尔克，5-26 获战时内阁批准启动发电机行动。他不顾法军反对抽调兵力守加来与布洛涅，为桥头堡争取了三天。"
+ },
+ {
+  "id": "gb.i_corps",
+  "side": "GB",
+  "echelon": "corps",
+  "type": "hq",
+  "parent": "gb.ghq",
+  "display": "container",
+  "name": { "zh": "第 1 军", "orig": "I Corps", "short": "I Corps" },
+  "commander": {
+   "zh": "迪尔（4 月移交）→ 巴克；5-29 起由亚历山大代掌",
+   "orig": "Lt-Gen Sir John Dill → Lt-Gen M. G. H. Barker → Maj-Gen H. Alexander"
+  },
+  "model": "inf_gb",
+  "sources": ["barker_1941","ellis_1953","montgomery_1958"],
+  "confidence": "high",
+  "track": [
+   { "at": "1940-05-22T08:00", "pos": "@armentieres", "status": "active", "note": "利斯河一线，辖第 1、2、48 师" },
+   { "at": "1940-05-27T12:00", "pos": "@bailleul", "status": "engaged" },
+   { "at": "1940-05-28T22:00", "pos": "@bergues", "status": "withdrawing", "note": "退入桥头堡西段" },
+   { "at": "1940-05-31T20:00", "pos": "@fort_mardyck", "status": "active" },
+   {
+    "at": "1940-06-02T22:00",
+    "pos": "@malo_les_bains",
+    "status": "evacuated",
+    "note": "6-2 夜最后一批英国部队离岸，拉姆齐收到「BEF evacuated」"
+   }
+  ],
+  "history": "蒙哥马利向戈特进言，认为巴克已不适合担任最后指挥，改由第 1 师师长亚历山大负责殿后收容。I 军主体因此得以成建制撤出。"
+ },
+ {
+  "id": "gb.ii_corps",
+  "side": "GB",
+  "echelon": "corps",
+  "type": "hq",
+  "parent": "gb.ghq",
+  "display": "container",
+  "name": { "zh": "第 2 军", "orig": "II Corps", "short": "II Corps" },
+  "commander": { "zh": "布鲁克（5-29 返英，蒙哥马利代理）", "orig": "Lt-Gen Alan Brooke → Maj-Gen B. L. Montgomery (acting)" },
+  "model": "inf_gb",
+  "sources": ["brooke_2001","montgomery_1958"],
+  "confidence": "high",
+  "track": [
+   { "at": "1940-05-22T08:00", "pos": "@comines", "status": "active", "note": "伊珀尔—科米讷运河一线" },
+   { "at": "1940-05-27T14:00", "pos": "@menen", "status": "engaged", "note": "德军三个师午后猛攻伊珀尔以南，步兵渗透防线" },
+   { "at": "1940-05-28T20:00", "pos": "@vlamertinge", "status": "withdrawing" },
+   { "at": "1940-05-29T22:00", "pos": "@ghyvelde", "status": "withdrawing", "note": "补上比利时投降后暴露的东段" },
+   { "at": "1940-05-31T10:00", "pos": "@bray_dunes", "status": "evacuated" }
+  ],
+  "history": "II 军以第 3、4、5、50 师守住运河线，掩护其余部队西撤。5-27 布鲁克令蒙哥马利向左延伸接替第 4 师正面，腾出第 10、11 旅去梅森岭反击。布鲁克在日记中称第 5 师「救了 II 军和远征军」。"
+ },
+ {
+  "id": "gb.iii_corps",
+  "side": "GB",
+  "echelon": "corps",
+  "type": "hq",
+  "parent": "gb.ghq",
+  "display": "container",
+  "name": { "zh": "第 3 军", "orig": "III Corps", "short": "III Corps" },
+  "commander": { "zh": "亚当（5-26 后军部交沃森）", "orig": "Lt-Gen Sir Ronald Adam → Lt-Gen S. R. Wason" },
+  "model": "inf_gb",
+  "sources": ["ellis_1953","gort_despatch","hyperwar_dunkirk"],
+  "confidence": "medium",
+  "track": [
+   { "at": "1940-05-22T08:00", "pos": "@bethune", "status": "active", "note": "拉巴塞运河一线，辖第 42、44 师" },
+   { "at": "1940-05-25T12:00", "pos": "@saint_omer", "status": "withdrawing" },
+   { "at": "1940-05-27T06:00", "pos": "@bergues", "status": "active", "note": "亚当奉命先期进入敦刻尔克组织桥头堡防御" },
+   { "at": "1940-05-30T12:00", "pos": "@uxem", "status": "engaged", "note": "5-30 起负责桥头堡东段" },
+   { "at": "1940-06-01T20:00", "pos": "@dunkirk", "status": "evacuated", "note": "亚当 5-29 晨返英，桥头堡由 II 军接续" }
+  ],
+  "history": "第 3 军 1940 年 3 月才在法国编成。5-26 戈特派军长亚当兼管桥头堡筑垒，把运河线、贝尔格与东段串成一道半圆形阵地，与法军 16 军（法加尔德）分工：法军守西段，英军守东段。"
+ },
+ {
+  "id": "gb.1div",
+  "side": "GB",
+  "echelon": "division",
+  "type": "infantry",
+  "parent": "gb.i_corps",
+  "name": { "zh": "第 1 师", "orig": "1st Infantry Division", "short": "1 Div" },
+  "commander": { "zh": "亚历山大少将（5-29 起兼 I 军）", "orig": "Maj-Gen H. R. L. G. Alexander" },
+  "model": "inf_gb",
+  "strength": { "men": 12000 },
+  "sources": ["ellis_1953","montgomery_1958"],
+  "confidence": "high",
+  "history": "I 军主力师。5-27 以近卫旅和北斯塔福德团反击，一度打到伊珀尔—科米讷运河边。5-29 亚历山大接掌 I 军后，该师承担最后的殿后收容，6-2 夜撤出。",
+  "track": [
+   { "at": "1940-05-22T06:00", "pos": "@armentieres", "status": "active", "note": "利斯河防线南段" },
+   { "at": "1940-05-26T18:00", "pos": "@bailleul", "status": "engaged" },
+   { "at": "1940-05-27T22:00", "pos": "@vlamertinge", "status": "engaged", "note": "以近卫第 3 营与北斯塔福德第 2 营反击伊珀尔—科米讷运河" },
+   { "at": "1940-05-28T20:00", "pos": "@mont_des_cats", "status": "withdrawing" },
+   { "at": "1940-05-29T18:00", "pos": "@bergues", "status": "active" },
+   { "at": "1940-05-31T12:00", "pos": "@fort_mardyck", "status": "engaged" },
+   { "at": "1940-06-02T20:00", "pos": "@malo_les_bains", "status": "evacuated", "note": "I 军殿后部队，6-2 夜最后离岸" }
+  ]
+ },
+ {
+  "id": "gb.2div",
+  "side": "GB",
+  "echelon": "division",
+  "type": "infantry",
+  "parent": "gb.i_corps",
+  "name": { "zh": "第 2 师", "orig": "2nd Infantry Division", "short": "2 Div" },
+  "commander": { "zh": "劳埃德少将", "orig": "Maj-Gen Charles Loyd" },
+  "model": "inf_gb",
+  "strength": { "men": 13000 },
+  "sources": ["ellis_1953","sebag_2006","bef_casualties_1940"],
+  "confidence": "high",
+  "history": "受命坚守拉巴塞运河直到 5-28，为全军打开退路，是远征军中最艰巨的任务之一。埃利斯在官方战史中写道，该师「牺牲自己保住了撤退线」。",
+  "track": [
+   { "at": "1940-05-22T06:00", "pos": "@estaires", "status": "active", "note": "守拉巴塞运河一线" },
+   { "at": "1940-05-25T12:00", "pos": "@le_paradis", "status": "engaged" },
+   { "at": "1940-05-27T06:00", "pos": "@le_paradis", "status": "engaged", "note": "皇家诺福克第 2 营在勒帕拉迪被骷髅师屠杀 97 人" },
+   {
+    "at": "1940-05-28T22:00",
+    "pos": "@mont_des_cats",
+    "status": "withdrawing",
+    "note": "被第 3、7 装甲师与骷髅师猛攻，兵力从 13,000 降到约 2,500"
+   },
+   { "at": "1940-05-29T22:00", "pos": "@bergues", "status": "withdrawing" },
+   { "at": "1940-05-31T20:00", "pos": "@bray_dunes", "status": "active" },
+   { "at": "1940-06-01T22:00", "pos": "@bray_dunes", "status": "evacuated" }
+  ]
+ },
+ {
+  "id": "gb.3div",
+  "side": "GB",
+  "echelon": "division",
+  "type": "infantry",
+  "parent": "gb.ii_corps",
+  "name": { "zh": "第 3 师", "orig": "3rd Infantry Division", "short": "3 Div" },
+  "commander": { "zh": "蒙哥马利少将（5-29 起代理 II 军）", "orig": "Maj-Gen B. L. Montgomery" },
+  "model": "inf_gb",
+  "strength": { "men": 13000 },
+  "sources": ["montgomery_1958","brooke_2001"],
+  "confidence": "high",
+  "history": "因蒙哥马利的严格训练，该师伤亡相对较轻。5-30 蒙哥马利接掌 II 军，布莱根丁·安德森暂代师长。5-31 从海滩撤出。",
+  "track": [
+   { "at": "1940-05-22T06:00", "pos": "@comines", "status": "active", "note": "伊珀尔—科米讷运河" },
+   { "at": "1940-05-26T12:00", "pos": "@menen", "status": "engaged" },
+   { "at": "1940-05-27T16:00", "pos": "@mesen", "status": "engaged", "note": "奉命向左延伸，接替第 4 师正面" },
+   { "at": "1940-05-28T18:00", "pos": "@vlamertinge", "status": "withdrawing", "note": "侧移补上比利时投降后的缺口" },
+   { "at": "1940-05-29T20:00", "pos": "@ghyvelde", "status": "withdrawing" },
+   { "at": "1940-05-30T14:00", "pos": "@bray_dunes", "status": "active", "note": "最早成批撤出的师之一" },
+   { "at": "1940-05-31T06:00", "pos": "@bray_dunes", "status": "evacuated" }
+  ]
+ },
+ {
+  "id": "gb.4div",
+  "side": "GB",
+  "echelon": "division",
+  "type": "infantry",
+  "parent": "gb.ii_corps",
+  "name": { "zh": "第 4 师", "orig": "4th Infantry Division", "short": "4 Div" },
+  "commander": { "zh": "约翰逊少将", "orig": "Maj-Gen Dudley Johnson" },
+  "model": "inf_gb",
+  "strength": { "men": 13000 },
+  "sources": ["brooke_2001","ellis_1953"],
+  "confidence": "high",
+  "history": "II 军右翼。5-27/28 以第 10、11 旅参加梅森岭反击，把德军逐出维茨哈特以东高地。5-30 前后经马洛海滩撤出。",
+  "track": [
+   { "at": "1940-05-22T06:00", "pos": "@menen", "status": "active" },
+   { "at": "1940-05-26T20:00", "pos": "@mesen", "status": "engaged" },
+   { "at": "1940-05-27T20:00", "pos": "@mesen", "status": "engaged", "note": "第 10、11 旅清剿梅森岭德军，5-28 在维茨哈特以东转入固守" },
+   { "at": "1940-05-28T22:00", "pos": "@vlamertinge", "status": "withdrawing" },
+   { "at": "1940-05-29T22:00", "pos": "@cappelle_la_grande", "status": "withdrawing" },
+   { "at": "1940-05-30T20:00", "pos": "@malo_les_bains", "status": "evacuated" }
+  ]
+ },
+ {
+  "id": "gb.5div",
+  "side": "GB",
+  "echelon": "division",
+  "type": "infantry",
+  "parent": "gb.ii_corps",
+  "name": { "zh": "第 5 师", "orig": "5th Infantry Division", "short": "5 Div" },
+  "commander": { "zh": "弗兰克林少将", "orig": "Maj-Gen Harold Franklyn" },
+  "model": "inf_gb",
+  "strength": { "men": 13000 },
+  "sources": ["brooke_2001","ellis_1953"],
+  "confidence": "high",
+  "history": "5-21 曾在阿拉斯以南与第 1 装甲旅一同反击。5-26 至 5-28 守住伊珀尔—科米讷运河。师长弗兰克林是阿拉斯反击的指挥官。",
+  "track": [
+   { "at": "1940-05-22T06:00", "pos": "@armentieres", "status": "active" },
+   { "at": "1940-05-25T12:00", "pos": "@le_paradis", "status": "engaged" },
+   { "at": "1940-05-27T18:00", "pos": "@mesen", "status": "engaged", "note": "守伊珀尔—科米讷运河，布鲁克称此役「救了 II 军和 BEF」" },
+   { "at": "1940-05-29T12:00", "pos": "@vlamertinge", "status": "withdrawing" },
+   { "at": "1940-05-30T22:00", "pos": "@ghyvelde", "status": "engaged" },
+   { "at": "1940-06-01T22:00", "pos": "@bray_dunes", "status": "evacuated", "note": "主力 6-1 返英" }
+  ]
+ },
+ {
+  "id": "gb.42div",
+  "side": "GB",
+  "echelon": "division",
+  "type": "infantry",
+  "parent": "gb.iii_corps",
+  "name": { "zh": "第 42（东兰开夏）师", "orig": "42nd (East Lancashire) Division", "short": "42 Div" },
+  "commander": { "zh": "霍姆斯少将", "orig": "Maj-Gen William Holmes" },
+  "model": "inf_gb",
+  "strength": { "men": 11000 },
+  "sources": ["ellis_1953","mollo_1987"],
+  "confidence": "high",
+  "history": "本土郡师，4 月随第 3 军入法。先在拉巴塞运河与瓦滕一线迟滞德军，退入桥头堡西段后成建制撤出。",
+  "track": [
+   { "at": "1940-05-22T06:00", "pos": "@bethune", "status": "active", "note": "属第 3 军，守拉巴塞运河" },
+   { "at": "1940-05-25T18:00", "pos": "@watten", "status": "withdrawing" },
+   { "at": "1940-05-27T12:00", "pos": "@bollezeele", "status": "engaged" },
+   { "at": "1940-05-29T18:00", "pos": "@spycker", "status": "withdrawing" },
+   { "at": "1940-05-30T22:00", "pos": "@fort_mardyck", "status": "active" },
+   { "at": "1940-06-01T06:00", "pos": "@malo_les_bains", "status": "evacuated" }
+  ]
+ },
+ {
+  "id": "gb.44div",
+  "side": "GB",
+  "echelon": "division",
+  "type": "infantry",
+  "parent": "gb.iii_corps",
+  "name": { "zh": "第 44（本土郡）师", "orig": "44th (Home Counties) Division", "short": "44 Div" },
+  "commander": { "zh": "奥斯本少将", "orig": "Maj-Gen Edmund Osborne" },
+  "model": "inf_gb",
+  "strength": { "men": 11000 },
+  "sources": ["ellis_1953","blaxland_1980"],
+  "confidence": "high",
+  "history": "在波珀灵厄至卡山之间几乎丢光了火炮和卡车，是撤退途中损失最重的师之一。残部与第 48 师一同配属 I 军，6-1 撤出。",
+  "track": [
+   { "at": "1940-05-22T06:00", "pos": "@bethune", "status": "active", "note": "参加圣奥梅尔—拉巴塞之战" },
+   { "at": "1940-05-26T12:00", "pos": "@saint_omer", "status": "engaged" },
+   { "at": "1940-05-27T18:00", "pos": "@poperinge", "status": "withdrawing", "note": "波珀灵厄桥头 5-27 被空袭两小时，八成车辆被毁" },
+   { "at": "1940-05-28T22:00", "pos": "@vlamertinge", "status": "withdrawing" },
+   { "at": "1940-05-30T12:00", "pos": "@hoymille", "status": "active" },
+   { "at": "1940-06-01T10:00", "pos": "@malo_les_bains", "status": "evacuated" }
+  ]
+ },
+ {
+  "id": "gb.46div",
+  "side": "GB",
+  "echelon": "division",
+  "type": "infantry",
+  "parent": "gb.iii_corps",
+  "name": { "zh": "第 46（北米德兰）师", "orig": "46th (North Midland) Division", "short": "46 Div" },
+  "commander": { "zh": "（本土郡师，分散配属第 3 军各段）", "orig": "Territorial Army, attached to III Corps" },
+  "model": "inf_gb",
+  "strength": { "men": 8000 },
+  "sources": ["ellis_1953","atkin_1990"],
+  "confidence": "high",
+  "history": "任务与装备都不适合一线作战，第 138 旅在运河线被打散，第 137 旅辎重途中被空袭。第 139 旅退入敦刻尔克桥头堡并参加防御。",
+  "track": [
+   { "at": "1940-05-22T06:00", "pos": "@estaires", "status": "active", "note": "4 月才入法，只带轻武器，任筑垒与劳动任务" },
+   { "at": "1940-05-26T12:00", "pos": "@bethune", "status": "withdrawing" },
+   { "at": "1940-05-28T18:00", "pos": "@bollezeele", "status": "withdrawing", "note": "第 139 旅在斯卡尔普河迟滞德军" },
+   { "at": "1940-05-30T12:00", "pos": "@bergues", "status": "active", "note": "参加桥头堡防御" },
+   { "at": "1940-06-01T20:00", "pos": "@malo_les_bains", "status": "evacuated" }
+  ]
+ },
+ {
+  "id": "gb.48div",
+  "side": "GB",
+  "echelon": "division",
+  "type": "infantry",
+  "parent": "gb.i_corps",
+  "name": { "zh": "第 48（南米德兰）师", "orig": "48th (South Midland) Division", "short": "48 Div" },
+  "commander": { "zh": "索恩少将", "orig": "Maj-Gen Andrew Thorne" },
+  "model": "inf_gb",
+  "strength": { "men": 11000 },
+  "sources": ["gort_despatch","ellis_1953"],
+  "confidence": "high",
+  "history": "戈特在战报中称其「在走廊西侧的坚守使许多战友得以安全通过」。卡塞尔 5-29 陷落，第 145 旅旅部被歼；残部配属 I 军，至 5-31 撤离。戈特的说法是第 44、48 师残部「5-30 最后离滩」，两说并存，此处取较晚的一说。",
+  "track": [
+   { "at": "1940-05-22T06:00", "pos": "@saint_omer", "status": "active", "note": "5-23 起沿圣奥梅尔—海岸运河布防" },
+   { "at": "1940-05-25T12:00", "pos": "@cassel", "status": "engaged", "note": "第 145 旅守卡塞尔与阿兹布鲁克" },
+   { "at": "1940-05-27T12:00", "pos": "@hazebrouck", "status": "engaged" },
+   { "at": "1940-05-28T22:00", "pos": "@wormhout", "status": "withdrawing", "note": "第 144 旅在沃尔穆特抵抗，防线动摇后夜间撤出" },
+   { "at": "1940-05-30T08:00", "pos": "@bergues", "status": "withdrawing", "note": "残部配属 I 军，留在桥头堡西段" },
+   {
+    "at": "1940-05-31T20:00",
+    "pos": "@malo_les_bains",
+    "status": "evacuated",
+    "note": "随 I 军最后一批离滩；戈特战报称该师残部 5-30 即有部分离滩"
+   }
+  ]
+ },
+ {
+  "id": "gb.50div",
+  "side": "GB",
+  "echelon": "division",
+  "type": "infantry",
+  "parent": "gb.ii_corps",
+  "name": { "zh": "第 50（诺森伯兰）摩托化师", "orig": "50th (Northumbrian) Motor Division", "short": "50 Div" },
+  "commander": { "zh": "马特尔少将", "orig": "Maj-Gen Giffard Le Quesne Martel" },
+  "model": "inf_gb",
+  "strength": { "men": 9000 },
+  "sources": ["ellis_1953","brooke_2001"],
+  "confidence": "high",
+  "history": "最早进入桥头堡东端的师之一。5-31 接收第 23 师残部补充，6-1 夜从海滩与东防波堤撤出。",
+  "track": [
+   { "at": "1940-05-22T06:00", "pos": "@armentieres", "status": "active", "note": "摩托化师，机动使用" },
+   { "at": "1940-05-27T20:00", "pos": "@ieper", "status": "engaged", "note": "赶到伊珀尔时阵地已在炮击之下" },
+   { "at": "1940-05-28T22:00", "pos": "@vlamertinge", "status": "withdrawing", "note": "与第 3 师并肩构成敦刻尔克走廊南缘" },
+   { "at": "1940-05-29T18:00", "pos": "@hondschoote", "status": "engaged" },
+   { "at": "1940-05-30T12:00", "pos": "@bray_dunes", "status": "active", "note": "布鲁克 5-30 估计该师仅余 2,400 人，奉命撤到海滩" },
+   { "at": "1940-06-01T22:00", "pos": "@bray_dunes", "status": "evacuated", "note": "150 旅与炮兵走海滩、151 旅走东防波堤" }
+  ]
+ },
+ {
+  "id": "gb.23div",
+  "side": "GB",
+  "echelon": "division",
+  "type": "infantry",
+  "parent": "gb.iii_corps",
+  "name": { "zh": "第 23（诺森伯兰）师", "orig": "23rd (Northumbrian) Division", "short": "23 Div" },
+  "commander": { "zh": "赫伯特少将", "orig": "Maj-Gen William Norman Herbert" },
+  "model": "inf_gb",
+  "strength": { "men": 7000 },
+  "sources": ["ellis_1953","longden_2008"],
+  "confidence": "high",
+  "history": "4 月 21 日才入法的劳动师，缺重武器与车辆。余部退入桥头堡东段，5-31 配属 II 军并交出布伦机枪给第 50 师，6-1 撤出。",
+  "track": [
+   { "at": "1940-05-22T06:00", "pos": "@bethune", "status": "active", "note": "劳动师，第 70 旅 5-20 已在运河线被打散" },
+   { "at": "1940-05-26T18:00", "pos": "@esquelbecq", "status": "withdrawing" },
+   { "at": "1940-05-28T12:00", "pos": "@killem", "status": "withdrawing", "note": "在基勒姆销毁全部剩余车辆与辎重" },
+   { "at": "1940-05-29T12:00", "pos": "@veurne", "status": "active", "note": "填比利时投降后暴露的东段" },
+   { "at": "1940-05-31T12:00", "pos": "@adinkerke", "status": "engaged" },
+   { "at": "1940-06-01T20:00", "pos": "@bray_dunes", "status": "evacuated" }
+  ]
+ },
+ {
+  "id": "gb.12div",
+  "side": "GB",
+  "echelon": "division",
+  "type": "infantry",
+  "parent": "gb.iii_corps",
+  "name": { "zh": "第 12（东部）师", "orig": "12th (Eastern) Division", "short": "12 Div" },
+  "commander": { "zh": "皮特少将", "orig": "Maj-Gen Roderic Petre" },
+  "model": "inf_gb",
+  "strength": { "men": 5000 },
+  "sources": ["ellis_1953","blaxland_1980"],
+  "confidence": "high",
+  "history": "同为劳动师，被投入阿拉斯—阿布维尔之间的运河线。5-20 遭德军装甲部队各个击破，5-25 Petreforce 撤销。残部被派去填比利时投降后的东段空隙，与第 23 师一同守纽波特—弗尔讷一线，6-1 前后撤出。",
+  "track": [
+   {
+    "at": "1940-05-22T06:00",
+    "pos": "@douai",
+    "status": "active",
+    "note": "5-20 在运河线被三个装甲师打散，师部失去建制；皮特曾指挥杂编的 Petreforce"
+   },
+   { "at": "1940-05-28T12:00", "pos": "@veurne", "status": "withdrawing", "note": "残部被派去填比利时投降后暴露的东段空隙" },
+   { "at": "1940-05-30T12:00", "pos": "@nieuwpoort", "status": "engaged", "note": "与第 23 师一同在纽波特—迪克斯梅德—弗尔讷一线设防" },
+   { "at": "1940-05-31T20:00", "pos": "@adinkerke", "status": "withdrawing" },
+   {
+    "at": "1940-06-01T12:00",
+    "pos": "@dunkirk",
+    "status": "evacuated",
+    "note": "第 36 旅经敦刻尔克撤出，余部从瑟堡走 Operation Aerial"
+   }
+  ]
+ },
+ {
+  "id": "gb.1armd",
+  "side": "GB",
+  "echelon": "division",
+  "type": "armor",
+  "parent": "gb.ghq",
+  "name": { "zh": "第 1 装甲师", "orig": "1st Armoured Division", "short": "1 Armd" },
+  "commander": { "zh": "埃文斯少将", "orig": "Maj-Gen Roger Evans" },
+  "model": "pz1",
+  "modelNote": "英军无对应 3D 模型，用 pz1「坦克」示意，非实物；该师装备巡洋坦克与轻型坦克",
+  "strength": { "men": 9000, "tanks": 220 },
+  "sources": ["ellis_1953","brooke_2001"],
+  "confidence": "medium",
+  "track": [
+   { "at": "1940-05-22T12:00", "pos": "@somme_river", "status": "active", "note": "在诺曼底与索姆河以南集结，命令互相冲突、坦克尚未卸完" },
+   { "at": "1940-05-31T12:00", "pos": "@abbeville", "status": "engaged", "note": "6-1 起与第 51 师接替法军，面对阿布维尔—圣瓦莱里桥头堡" },
+   { "at": "1940-06-04T12:00", "pos": "@saint_valery", "status": "withdrawing", "note": "索姆河以南，不在敦刻尔克桥头堡内" }
+  ],
+  "history": "5-22 起在鲁昂以南逐步集结，BEF、乔治和法国第 7 集团军给它的命令互相矛盾，埃文斯认为以现有兵力哪一个都无法完成。该师未进入敦刻尔克，6 月中旬经布雷斯特、瑟堡撤回英国，仅带回 13 辆坦克。"
+ },
+ {
+  "id": "gb.51div",
+  "side": "GB",
+  "echelon": "division",
+  "type": "infantry",
+  "parent": "gb.ghq",
+  "name": { "zh": "第 51（高地）师", "orig": "51st (Highland) Division", "short": "51 Div" },
+  "commander": { "zh": "福琼少将", "orig": "Maj-Gen Victor Fortune" },
+  "model": "inf_gb",
+  "strength": { "men": 10000 },
+  "sources": ["ellis_1953","longden_2008","commonwealth_dunkirk","churchill_1949"],
+  "confidence": "high",
+  "track": [
+   { "at": "1940-05-22T06:00", "pos": "@abbeville", "status": "active", "note": "原「萨尔部队」，配属法国第 10 集团军守索姆河" },
+   { "at": "1940-05-25T12:00", "pos": "@saint_valery", "status": "engaged", "note": "守索姆河下游—圣瓦莱里一线" },
+   { "at": "1940-06-02T12:00", "pos": "@le_crotoy", "status": "engaged", "note": "6-4 发电机行动结束后德军转向南方" },
+   {
+    "at": "1940-06-04T22:00",
+    "pos": "@saint_valery",
+    "status": "encircled",
+    "note": "已被索姆河以南的德军切断；6-12 该师大部在圣瓦莱里被俘"
+   }
+  ],
+  "history": "**被切断的部队**：5-10 时该师位于萨尔前线，敦刻尔克撤退期间它始终在索姆河以南，与桥头堡隔河相望、无法会合。发电机行动结束后德军转向南方，该师随法国第 9 军退向海岸。6-12 晨法军先投降，半小时后福琼率第 51 师残部在圣瓦莱里投降，约 10,000 人被俘；第 154 旅编成的 Arkforce 约 11,000 人则于 6-13 从勒阿弗尔撤出。"
+ },
+ {
+  "id": "gb.1gds_bde",
+  "side": "GB",
+  "echelon": "brigade",
+  "type": "infantry",
+  "parent": "gb.1div",
+  "name": { "zh": "第 1（近卫）旅", "orig": "1st (Guards) Brigade", "short": "1 Gds Bde" },
+  "commander": { "zh": "（近卫旅）", "orig": "Guards Brigade" },
+  "model": "inf_gb",
+  "sources": ["montgomery_1958","ellis_1953"],
+  "confidence": "medium",
+  "history": "5-27 布鲁克下令由该旅的近卫第 3 营与第 2 北斯塔福德团发起反击，打乱了德军节奏，为全军多争取了一天时间。",
+  "track": [
+   { "at": "1940-05-22T06:00", "pos": "@armentieres", "status": "active" },
+   {
+    "at": "1940-05-27T20:00",
+    "pos": "@vlamertinge",
+    "status": "engaged",
+    "note": "近卫第 3 营反击伊珀尔—科米讷运河，一度到达运河边但无法固守"
+   },
+   { "at": "1940-05-30T12:00", "pos": "@bergues", "status": "withdrawing" },
+   { "at": "1940-06-02T20:00", "pos": "@malo_les_bains", "status": "evacuated" }
+  ]
+ },
+ {
+  "id": "gb.2bde",
+  "side": "GB",
+  "echelon": "brigade",
+  "type": "infantry",
+  "parent": "gb.1div",
+  "name": { "zh": "第 2 步兵旅", "orig": "2nd Infantry Brigade", "short": "2 Bde" },
+  "model": "inf_gb",
+  "sources": ["ellis_1953"],
+  "confidence": "medium",
+  "history": "第 1 师所辖两个步兵旅之一，随师沿利斯河—巴约勒—桥头堡一线西撤。",
+  "track": [
+   { "at": "1940-05-22T06:00", "pos": "@armentieres", "status": "active" },
+   { "at": "1940-05-28T12:00", "pos": "@bailleul", "status": "withdrawing" },
+   { "at": "1940-06-01T20:00", "pos": "@malo_les_bains", "status": "evacuated" }
+  ]
+ },
+ {
+  "id": "gb.4bde",
+  "side": "GB",
+  "echelon": "brigade",
+  "type": "infantry",
+  "parent": "gb.2div",
+  "name": { "zh": "第 4 步兵旅", "orig": "4th Infantry Brigade", "short": "4 Bde" },
+  "model": "inf_gb",
+  "sources": ["sebag_2006","ellis_1953"],
+  "confidence": "medium",
+  "history": "皇家诺福克第 2 营、皇家苏格兰第 1 营等在此担任殿后。5-27 勒帕拉迪屠杀即发生在该旅地段。",
+  "track": [
+   { "at": "1940-05-22T06:00", "pos": "@estaires", "status": "active", "note": "守拉巴塞运河" },
+   { "at": "1940-05-27T06:00", "pos": "@le_paradis", "status": "engaged", "note": "皇家诺福克第 2 营在此被骷髅师屠杀" },
+   { "at": "1940-05-28T22:00", "pos": "@mont_des_cats", "status": "withdrawing" },
+   { "at": "1940-06-01T22:00", "pos": "@bray_dunes", "status": "evacuated" }
+  ]
+ },
+ {
+  "id": "gb.6bde",
+  "side": "GB",
+  "echelon": "brigade",
+  "type": "infantry",
+  "parent": "gb.2div",
+  "name": { "zh": "第 6 步兵旅", "orig": "6th Infantry Brigade", "short": "6 Bde" },
+  "model": "inf_gb",
+  "sources": ["ellis_1953"],
+  "confidence": "medium",
+  "history": "第 2 师另一主力旅。该师在拉巴塞运河被打残后，旅级建制多次被临时拆散补充。",
+  "track": [
+   { "at": "1940-05-22T06:00", "pos": "@estaires", "status": "active" },
+   { "at": "1940-05-28T12:00", "pos": "@nieppe_forest", "status": "withdrawing" },
+   { "at": "1940-06-01T12:00", "pos": "@bray_dunes", "status": "evacuated" }
+  ]
+ },
+ {
+  "id": "gb.7gds_bde",
+  "side": "GB",
+  "echelon": "brigade",
+  "type": "infantry",
+  "parent": "gb.3div",
+  "name": { "zh": "第 7 近卫旅", "orig": "7th Guards Brigade", "short": "7 Gds Bde" },
+  "model": "inf_gb",
+  "sources": ["montgomery_1958"],
+  "confidence": "medium",
+  "history": "蒙哥马利第 3 师的近卫旅。5-31 弗尔讷附近友军溃退，冷溪近卫第 2 营奉命上前，以射击与刺刀把溃兵赶回防线，稳住东段。",
+  "track": [
+   { "at": "1940-05-22T06:00", "pos": "@comines", "status": "active" },
+   { "at": "1940-05-27T18:00", "pos": "@mesen", "status": "engaged" },
+   { "at": "1940-05-29T20:00", "pos": "@ghyvelde", "status": "withdrawing", "note": "冷溪近卫第 2 营 5-31 在弗尔讷一带以刺刀恢复秩序" },
+   { "at": "1940-05-31T08:00", "pos": "@bray_dunes", "status": "evacuated" }
+  ]
+ },
+ {
+  "id": "gb.8bde",
+  "side": "GB",
+  "echelon": "brigade",
+  "type": "infantry",
+  "parent": "gb.3div",
+  "name": { "zh": "第 8 步兵旅", "orig": "8th Infantry Brigade", "short": "8 Bde" },
+  "model": "inf_gb",
+  "sources": ["montgomery_1958"],
+  "confidence": "medium",
+  "history": "第 3 师所辖，随师在运河线与桥头堡东段作战。",
+  "track": [
+   { "at": "1940-05-22T06:00", "pos": "@comines", "status": "active" },
+   { "at": "1940-05-28T20:00", "pos": "@vlamertinge", "status": "withdrawing" },
+   { "at": "1940-05-31T06:00", "pos": "@bray_dunes", "status": "evacuated" }
+  ]
+ },
+ {
+  "id": "gb.10bde",
+  "side": "GB",
+  "echelon": "brigade",
+  "type": "infantry",
+  "parent": "gb.4div",
+  "name": { "zh": "第 10 步兵旅", "orig": "10th Infantry Brigade", "short": "10 Bde" },
+  "model": "inf_gb",
+  "sources": ["brooke_2001"],
+  "confidence": "medium",
+  "history": "5-27 布鲁克令蒙哥马利接手正面后，该旅得以抽身与第 11 旅一同反击梅森岭，把德军逐出高地。",
+  "track": [
+   { "at": "1940-05-22T06:00", "pos": "@menen", "status": "active" },
+   { "at": "1940-05-27T20:00", "pos": "@mesen", "status": "engaged", "note": "清剿梅森岭德军，5-28 在维茨哈特以东固守" },
+   { "at": "1940-05-30T20:00", "pos": "@malo_les_bains", "status": "evacuated" }
+  ]
+ },
+ {
+  "id": "gb.11bde",
+  "side": "GB",
+  "echelon": "brigade",
+  "type": "infantry",
+  "parent": "gb.4div",
+  "name": { "zh": "第 11 步兵旅", "orig": "11th Infantry Brigade", "short": "11 Bde" },
+  "model": "inf_gb",
+  "sources": ["brooke_2001"],
+  "confidence": "medium",
+  "history": "与第 10 旅一同参加 5-27/28 的梅森岭反击。",
+  "track": [
+   { "at": "1940-05-22T06:00", "pos": "@menen", "status": "active" },
+   { "at": "1940-05-27T22:00", "pos": "@mesen", "status": "engaged" },
+   { "at": "1940-05-30T18:00", "pos": "@malo_les_bains", "status": "evacuated" }
+  ]
+ },
+ {
+  "id": "gb.13bde",
+  "side": "GB",
+  "echelon": "brigade",
+  "type": "infantry",
+  "parent": "gb.5div",
+  "name": { "zh": "第 13 步兵旅", "orig": "13th Infantry Brigade", "short": "13 Bde" },
+  "model": "inf_gb",
+  "sources": ["ellis_1953","brooke_2001"],
+  "confidence": "medium",
+  "history": "第 5 师主力旅之一，旅长登普西后来在意大利战场指挥第 13 军。",
+  "track": [
+   { "at": "1940-05-22T06:00", "pos": "@armentieres", "status": "active" },
+   { "at": "1940-05-27T18:00", "pos": "@mesen", "status": "engaged", "note": "守伊珀尔—科米讷运河" },
+   { "at": "1940-06-01T20:00", "pos": "@bray_dunes", "status": "evacuated" }
+  ]
+ },
+ {
+  "id": "gb.17bde",
+  "side": "GB",
+  "echelon": "brigade",
+  "type": "infantry",
+  "parent": "gb.5div",
+  "name": { "zh": "第 17 步兵旅", "orig": "17th Infantry Brigade", "short": "17 Bde" },
+  "model": "inf_gb",
+  "sources": ["ellis_1953"],
+  "confidence": "medium",
+  "history": "第 5 师另一主力旅。该师 5-26/28 的运河防御被布鲁克视为挽救远征军的关键。",
+  "track": [
+   { "at": "1940-05-22T06:00", "pos": "@armentieres", "status": "active" },
+   { "at": "1940-05-27T20:00", "pos": "@mesen", "status": "engaged" },
+   { "at": "1940-06-01T18:00", "pos": "@bray_dunes", "status": "evacuated" }
+  ]
+ },
+ {
+  "id": "gb.125bde",
+  "side": "GB",
+  "echelon": "brigade",
+  "type": "infantry",
+  "parent": "gb.42div",
+  "name": { "zh": "第 125（兰开夏燧发枪）旅", "orig": "125th (Lancashire Fusiliers) Brigade", "short": "125 Bde" },
+  "model": "inf_gb",
+  "sources": ["ellis_1953"],
+  "confidence": "medium",
+  "history": "第 42 师所辖三个旅之一，随师在第 3 军地段迟滞德军后撤入桥头堡。",
+  "track": [
+   { "at": "1940-05-22T06:00", "pos": "@bethune", "status": "active" },
+   { "at": "1940-05-27T18:00", "pos": "@bollezeele", "status": "engaged" },
+   { "at": "1940-06-01T06:00", "pos": "@malo_les_bains", "status": "evacuated" }
+  ]
+ },
+ {
+  "id": "gb.132bde",
+  "side": "GB",
+  "echelon": "brigade",
+  "type": "infantry",
+  "parent": "gb.44div",
+  "name": { "zh": "第 132 步兵旅", "orig": "132nd Infantry Brigade", "short": "132 Bde" },
+  "model": "inf_gb",
+  "sources": ["ellis_1953","blaxland_1980"],
+  "confidence": "medium",
+  "history": "第 44 师所辖。该师在波珀灵厄—卡山之间几乎丢光火炮与运输车辆。",
+  "track": [
+   { "at": "1940-05-22T06:00", "pos": "@bethune", "status": "active" },
+   { "at": "1940-05-27T18:00", "pos": "@poperinge", "status": "withdrawing", "note": "波珀灵厄桥头堵车，被空袭两小时" },
+   { "at": "1940-06-01T10:00", "pos": "@malo_les_bains", "status": "evacuated" }
+  ]
+ },
+ {
+  "id": "gb.144bde",
+  "side": "GB",
+  "echelon": "brigade",
+  "type": "infantry",
+  "parent": "gb.48div",
+  "name": { "zh": "第 144 步兵旅", "orig": "144th Infantry Brigade", "short": "144 Bde" },
+  "model": "inf_gb",
+  "sources": ["gort_despatch","ellis_1953"],
+  "confidence": "medium",
+  "history": "第 48 师西段。沃尔穆特一带的战斗为走廊争取了时间，埃斯凯尔贝克与沃尔穆特也是德军屠杀战俘的地点。",
+  "track": [
+   { "at": "1940-05-22T06:00", "pos": "@saint_omer", "status": "active", "note": "沿圣奥梅尔—海岸运河布防" },
+   { "at": "1940-05-28T06:00", "pos": "@wormhout", "status": "engaged", "note": "在沃尔穆特抵抗德军进攻" },
+   { "at": "1940-05-29T22:00", "pos": "@bergues", "status": "withdrawing" },
+   { "at": "1940-05-30T22:00", "pos": "@malo_les_bains", "status": "evacuated" }
+  ]
+ },
+ {
+  "id": "gb.145bde",
+  "side": "GB",
+  "echelon": "brigade",
+  "type": "infantry",
+  "parent": "gb.48div",
+  "name": { "zh": "第 145 步兵旅", "orig": "145th Infantry Brigade", "short": "145 Bde" },
+  "model": "inf_gb",
+  "sources": ["gort_despatch","ellis_1953"],
+  "confidence": "medium",
+  "history": "5-23 起守卡塞尔与阿兹布鲁克两块孤立据点。5-28 阿兹布鲁克守备队被歼，5-29 卡塞尔陷落，旅部覆灭，只有零散人员退回桥头堡。",
+  "track": [
+   { "at": "1940-05-22T06:00", "pos": "@aire_sur_la_lys", "status": "active" },
+   { "at": "1940-05-25T12:00", "pos": "@cassel", "status": "engaged", "note": "守卡塞尔与阿兹布鲁克" },
+   { "at": "1940-05-28T18:00", "pos": "@hazebrouck", "status": "engaged", "note": "阿兹布鲁克守备队被歼" },
+   { "at": "1940-05-29T18:00", "pos": "@cassel", "status": "engaged", "note": "卡塞尔 5-29 陷落，旅部被歼" },
+   { "at": "1940-05-30T22:00", "pos": "@bergues", "status": "destroyed", "note": "该旅大部在卡塞尔—阿兹布鲁克被歼或被俘" }
+  ]
+ },
+ {
+  "id": "gb.150bde",
+  "side": "GB",
+  "echelon": "brigade",
+  "type": "infantry",
+  "parent": "gb.50div",
+  "name": { "zh": "第 150 步兵旅", "orig": "150th Infantry Brigade", "short": "150 Bde" },
+  "model": "inf_gb",
+  "sources": ["ellis_1953"],
+  "confidence": "medium",
+  "history": "第 50 师三个旅之一。6-1 夜该旅与师属炮兵从布雷迪讷海滩撤出。",
+  "track": [
+   { "at": "1940-05-22T06:00", "pos": "@armentieres", "status": "active" },
+   { "at": "1940-05-28T12:00", "pos": "@vlamertinge", "status": "engaged" },
+   { "at": "1940-05-30T18:00", "pos": "@bray_dunes", "status": "active", "note": "奉命撤到海滩" },
+   { "at": "1940-06-01T20:00", "pos": "@bray_dunes", "status": "evacuated", "note": "与 RASC、炮兵一同从海滩登船" }
+  ]
+ },
+ {
+  "id": "gb.151bde",
+  "side": "GB",
+  "echelon": "brigade",
+  "type": "infantry",
+  "parent": "gb.50div",
+  "name": { "zh": "第 151 步兵旅", "orig": "151st Infantry Brigade", "short": "151 Bde" },
+  "model": "inf_gb",
+  "sources": ["ellis_1953"],
+  "confidence": "medium",
+  "history": "第 50 师东端旅。6-1 该旅与第 23 师残部经东防波堤撤出；此前曾准备发起一次掩护撤退的牵制性攻击。",
+  "track": [
+   { "at": "1940-05-22T06:00", "pos": "@armentieres", "status": "active" },
+   { "at": "1940-05-29T12:00", "pos": "@hondschoote", "status": "engaged" },
+   { "at": "1940-05-31T18:00", "pos": "@bray_dunes", "status": "active", "note": "曾准备以两路纵队发起掩护性反击，后不必执行" },
+   { "at": "1940-06-01T22:00", "pos": "@east_mole", "status": "evacuated", "note": "经东防波堤登船" }
+  ]
+ },
+ {
+  "id": "gb.139bde",
+  "side": "GB",
+  "echelon": "brigade",
+  "type": "infantry",
+  "parent": "gb.46div",
+  "name": { "zh": "第 139（舍伍德森林）旅", "orig": "139th (Sherwood Foresters) Brigade", "short": "139 Bde" },
+  "model": "inf_gb",
+  "sources": ["ellis_1953","atkin_1990"],
+  "confidence": "medium",
+  "history": "第 46 师唯一成建制参加敦刻尔克桥头堡防御的旅，先在斯卡尔普河迟滞德军，再退入贝尔格—敦刻尔克一线。",
+  "track": [
+   { "at": "1940-05-22T06:00", "pos": "@estaires", "status": "active" },
+   { "at": "1940-05-26T18:00", "pos": "@bethune", "status": "engaged", "note": "在斯卡尔普河一线迟滞德军" },
+   { "at": "1940-05-30T12:00", "pos": "@bergues", "status": "active", "note": "参加桥头堡防御" },
+   { "at": "1940-06-01T18:00", "pos": "@malo_les_bains", "status": "evacuated" }
+  ]
+ },
+ {
+  "id": "gb.25bde",
+  "side": "GB",
+  "echelon": "brigade",
+  "type": "infantry",
+  "parent": "gb.50div",
+  "name": { "zh": "第 25 步兵旅（Polforce）", "orig": "25th Infantry Brigade (Polforce)", "short": "25 Bde" },
+  "model": "inf_gb",
+  "sources": ["ellis_1953","hyperwar_dunkirk"],
+  "confidence": "medium",
+  "history": "临时编成的 Polforce 以该旅为主干，在贝蒂讷—拉巴塞之间守运河线，掩护 BEF 南翼；任务完成后归还第 50 师建制。",
+  "track": [
+   { "at": "1940-05-22T06:00", "pos": "@bethune", "status": "active", "note": "配属 Polforce，守贝蒂讷—拉巴塞之间运河线" },
+   { "at": "1940-05-26T12:00", "pos": "@la_bassee", "status": "engaged", "note": "与其后方的波兰旅级部队一同守运河线" },
+   { "at": "1940-05-28T12:00", "pos": "@bollezeele", "status": "withdrawing" },
+   { "at": "1940-06-01T20:00", "pos": "@bray_dunes", "status": "evacuated" }
+  ]
+ },
+ {
+  "id": "gb.30bde",
+  "side": "GB",
+  "echelon": "brigade",
+  "type": "infantry",
+  "parent": "gb.ghq",
+  "name": { "zh": "第 30 步兵旅（加来）", "orig": "30th Infantry Brigade", "short": "30 Bde" },
+  "commander": { "zh": "尼科尔森准将", "orig": "Brigadier Claude Nicholson" },
+  "model": "inf_gb",
+  "strength": { "men": 4000 },
+  "sources": ["sebag_2006","ellis_1953","national_archives_dynamo","mason_1969"],
+  "confidence": "high",
+  "track": [
+   { "at": "1940-05-23T16:00", "pos": "@calais", "status": "active", "note": "5-23 下午与第 3 皇家坦克团、维多利亚女王步枪队一同抵达加来" },
+   { "at": "1940-05-24T22:00", "pos": "@calais", "status": "engaged", "note": "退守旧城与外垒，马克运河一线" },
+   { "at": "1940-05-25T15:00", "pos": "@calais", "status": "engaged", "note": "两次拒绝劝降：「英军的职责和德军一样是战斗」" },
+   { "at": "1940-05-26T15:00", "pos": "@calais", "status": "surrendered", "note": "5-26 傍晚弹尽，约 4,000 人投降" }
+  ],
+  "history": "5-22/23 分批从多佛渡海，任务本是接应布洛涅并押送 35 万份口粮去敦刻尔克，结果被命令死守加来。守军以 3 辆尚能开动的巡洋坦克和两个步兵营抵抗第 10 装甲师四天，牵制了本可转用于敦刻尔克的德军装甲力量。"
+ },
+ {
+  "id": "gb.20gds_bde",
+  "side": "GB",
+  "echelon": "brigade",
+  "type": "infantry",
+  "parent": "gb.ghq",
+  "name": { "zh": "第 20 近卫旅（布洛涅）", "orig": "20th Guards Brigade", "short": "20 Gds Bde" },
+  "commander": { "zh": "福克斯-皮特准将", "orig": "Brigadier William Fox-Pitt" },
+  "model": "inf_gb",
+  "strength": { "men": 2000 },
+  "sources": ["thompson_1956","sebag_2006","mason_1969"],
+  "confidence": "high",
+  "track": [
+   {
+    "at": "1940-05-22T09:00",
+    "pos": "@boulogne",
+    "status": "active",
+    "note": "5-22 上午抵达，爱尔兰近卫与威尔士近卫分守两翼，外围 6 英里防线"
+   },
+   { "at": "1940-05-23T10:00", "pos": "@boulogne", "status": "engaged", "note": "德军南北夹击，守军被迫退入城内" },
+   { "at": "1940-05-23T18:00", "pos": "@boulogne", "status": "withdrawing", "note": "18:00 前后接令从海上撤出，边打边退向码头" },
+   {
+    "at": "1940-05-24T04:00",
+    "pos": "@wimereux",
+    "status": "evacuated",
+    "note": "大部分人员于 5-23 夜至 5-24 凌晨由驱逐舰撤出，共约 1,400 人"
+   }
+  ],
+  "history": "5-22 上午在布洛涅上岸，与法军第 21 步兵师共同防御。罗斯福（HMS Vimy、Keith、Vimiera、Whitshed、Venomous、Wild Swan、Windsor 等）在斯图卡轰炸下靠泊接人。5-24 凌晨 Vimiera 最后一次进港，约 1,400 人返英。3 连（温莎·刘易斯少校）与 300 名威尔士近卫被留城内，5-25 13:00 投降。"
+ },
+ {
+  "id": "gb.12lancers",
+  "side": "GB",
+  "echelon": "regiment",
+  "type": "cavalry_mech",
+  "parent": "gb.ghq",
+  "name": { "zh": "第 12 皇家枪骑兵团", "orig": "12th Royal Lancers (Prince of Wales)", "short": "12 L" },
+  "commander": { "zh": "（师属装甲侦察团）", "orig": "Armoured Car Regiment" },
+  "model": "inf_gb",
+  "sources": ["ellis_1953","sebag_2006"],
+  "confidence": "medium",
+  "track": [
+   { "at": "1940-05-22T06:00", "pos": "@menen", "status": "active", "note": "装甲车侦察团，掩护 BEF 东翼" },
+   { "at": "1940-05-28T12:00", "pos": "@nieuwpoort", "status": "engaged", "note": "5-28 在纽波特以装甲车挡住德军第 256 步兵师的迂回" },
+   { "at": "1940-05-30T12:00", "pos": "@adinkerke", "status": "withdrawing", "note": "东段机动掩护" },
+   { "at": "1940-06-01T22:00", "pos": "@bray_dunes", "status": "evacuated", "note": "车辆销毁后人员撤出" }
+  ],
+  "history": "5-10 该团装甲车率先越过比利时边界，受到比利时民众欢迎。5-28 比利时投降、东段暴露时，该团装甲车在纽波特挡住了德军第 256 步兵师的迂回，为第 3、4、50 师进入位置赢得时间。"
+ },
+ {
+  "id": "gb.mg_bn",
+  "side": "GB",
+  "echelon": "group",
+  "type": "infantry",
+  "parent": "gb.ghq",
+  "name": { "zh": "机枪营群（第 1/7 米德尔塞克斯等）", "orig": "Machine-Gun Battalions (1/7th Middlesex et al.)", "short": "MG Bn" },
+  "commander": { "zh": "（军属机枪营）", "orig": "Corps Machine-Gun Battalions" },
+  "model": "inf_gb",
+  "sources": ["ellis_1953","longden_2008"],
+  "confidence": "medium",
+  "track": [
+   { "at": "1940-05-22T06:00", "pos": "@bethune", "status": "active", "note": "以维克斯重机枪加强拉巴塞运河防线" },
+   { "at": "1940-05-27T18:00", "pos": "@bollezeele", "status": "engaged", "note": "" },
+   { "at": "1940-05-30T12:00", "pos": "@coudekerque", "status": "engaged", "note": "在桥头堡南缘以固定火力掩护海滩" },
+   { "at": "1940-06-01T12:00", "pos": "@coudekerque", "status": "engaged", "note": "殿后火力掩护，部分人员被留在最后" },
+   { "at": "1940-06-04T09:00", "pos": "@dunkirk", "status": "surrendered", "note": "未能撤离的机枪营、工兵与医院人员在敦刻尔克被俘" }
+  ],
+  "history": "军属机枪营在桥头堡南缘以重机枪实施间接火力，是殿后阶段最后撤出的步兵火力之一。因装备无法随人携带，一批机枪手、工兵和医院人员被留在敦刻尔克，6-4 城破时被俘。"
+ },
+ {
+  "id": "gb.beauman",
+  "side": "GB",
+  "echelon": "division",
+  "type": "infantry",
+  "parent": "gb.ghq",
+  "name": { "zh": "博曼师（临时编成）", "orig": "Beauman Division", "short": "Beauman" },
+  "commander": { "zh": "博曼准将", "orig": "Acting Brigadier Archibald Bentley Beauman" },
+  "model": "inf_gb",
+  "strength": { "men": 9000 },
+  "sources": ["ellis_1953","atkin_1990"],
+  "confidence": "medium",
+  "track": [
+   { "at": "1940-05-22T12:00", "pos": "@abbeville", "status": "active", "note": "5-22 索姆河失守后失去与 GHQ 的联系，就地收拢后勤部队" },
+   {
+    "at": "1940-05-30T12:00",
+    "pos": "@somme_river",
+    "status": "engaged",
+    "note": "以 Beauforce、Vicforce 编成，沿昂代勒河与贝蒂讷河设防"
+   },
+   { "at": "1940-06-04T12:00", "pos": "@somme_river", "status": "withdrawing", "note": "索姆河以南，不在敦刻尔克桥头堡内" }
+  ],
+  "history": "5-22 德军推进到索姆河口后，BEF 后勤区与 GHQ 断了联系。博曼就地以两个步兵营、四个机枪排和一个工兵连编成 Beauforce，又把基地仓库的五个暂编营编成 Vicforce，守住从鲁昂东南到迪耶普的 55 英里防线。该师始终在索姆河以南，未参加敦刻尔克撤退，6 月中旬经瑟堡等地撤回。"
+ },
+ {
+  "id": "gb.polforce",
+  "side": "GB",
+  "echelon": "brigade",
+  "type": "infantry",
+  "parent": "gb.ghq",
+  "name": { "zh": "Polforce（波兰旅级部队）", "orig": "Polforce (Polish Brigade Group)", "short": "Polforce" },
+  "commander": { "zh": "（波兰旅级集群，配属 BEF）", "orig": "Polish Brigade Group under BEF" },
+  "model": "inf_gb",
+  "sources": ["ellis_1953","hyperwar_dunkirk"],
+  "confidence": "low",
+  "track": [
+   { "at": "1940-05-22T06:00", "pos": "@la_bassee", "status": "active", "note": "与第 25 步兵旅一同守贝蒂讷—拉巴塞之间的运河线" },
+   { "at": "1940-05-27T12:00", "pos": "@bethune", "status": "engaged", "note": "" },
+   { "at": "1940-05-31T12:00", "pos": "@bollezeele", "status": "withdrawing", "note": "掩护 BEF 南翼后向西退却" }
+  ],
+  "history": "记录很少的波兰旅级部队，1940 年 5 月配属 BEF 守运河线，与英军第 25 步兵旅一同编在临时组建的 Polforce 之内，任务是掩护 BEF 的南翼。此处按其战前位置示意，具体战斗经过待考。"
+ },
+ {
+  "id": "gb.raf_ac",
+  "side": "GB",
+  "echelon": "command",
+  "type": "hq",
+  "parent": null,
+  "display": "container",
+  "name": { "zh": "RAF 驻法航空队（BEF 航空队）", "orig": "RAF Air Component, BEF", "short": "Air Cmp" },
+  "commander": { "zh": "鲍希尔空军中将", "orig": "Air Chief Marshal Sir Frederick Bowhill" },
+  "base": "@hawkinge",
+  "sources": ["bowhill_1941","raf_aircomponent","terraine_1985"],
+  "confidence": "high",
+  "track": [
+   {
+    "at": "1940-05-22T08:00",
+    "pos": "@hawkinge",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0,
+    "note": "固定指挥部；位置不随下属飞机飞行"
+   },
+   { "at": "1940-06-04T12:00", "pos": "@hawkinge", "flightPhase": "at_base", "altitudeM": 0 }
+  ],
+  "history": "驻法航空队随 BEF 前进，共约 500 架飞机，5 月逐渐被压回本土并转向掩护撤退。它没有自己的战斗序列分支在本图中展开，本图只把它的指挥关系画出来。"
+ },
+ {
+  "id": "gb.11group",
+  "side": "GB",
+  "echelon": "air_group",
+  "type": "hq",
+  "parent": null,
+  "display": "container",
+  "name": { "zh": "RAF 第 11 大队", "orig": "No. 11 Group RAF", "short": "11 Gp" },
+  "commander": { "zh": "帕克空军少将", "orig": "Air Vice-Marshal Keith Park" },
+  "base": "@manston",
+  "sources": ["fighter_command","terraine_1985","chamberlain_1940","battle_of_britain_raf"],
+  "confidence": "high",
+  "track": [
+   {
+    "at": "1940-05-22T08:00",
+    "pos": "@hornchurch",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0,
+    "note": "指挥部在阿克斯布里奇（Hillingdon House）；@hornchurch 为图内最近的可代表机场"
+   },
+   { "at": "1940-06-04T12:00", "pos": "@hornchurch", "flightPhase": "at_base", "altitudeM": 0 }
+  ],
+  "history": "第 11 大队是伦敦与东南方向的战斗机大队，敦刻尔克在它的作战半径边缘。5-27 至 6-1 它共组织多批巡逻，掩护海滩、港口与英吉利海峡上的船队。"
+ },
+ {
+  "id": "gb.no1sqn",
+  "side": "GB",
+  "echelon": "squadron",
+  "type": "fighter",
+  "parent": "gb.11group",
+  "name": { "zh": "第 1 中队（飓风 Mk I）", "orig": "No. 1 Squadron RAF", "short": "No.1 Sqn" },
+  "base": "@hawkinge",
+  "strength": { "aircraft": 12 },
+  "equipment": [
+   { "id": "hurricane_mk1", "count": 12 }
+  ],
+  "sources": ["franks_2006","fighter_command","chamberlain_1940"],
+  "confidence": "medium",
+  "history": "1940 年 5 月随高级航空打击部队驻法，基地被炸后一路后撤，6-18 才离法。本图把它在 5 月末掩护加来—敦刻尔克航段的活动画出来。",
+  "active": { "from": "1940-05-22T07:00", "to": "1940-06-04T12:00" },
+  "track": [
+   {
+    "at": "1940-05-22T07:00",
+    "pos": "@tangmere",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0,
+    "note": "驻扎地在本图范围外；5 月末以 @hawkinge 为前进机场连续出击"
+   },
+   {
+    "at": "1940-05-22T10:00",
+    "pos": "@hawkinge",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0,
+    "note": "转场至前进机场"
+   },
+   {
+    "at": "1940-05-25T07:00",
+    "pos": "@hawkinge",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "第 1 中队 第 1 次出击：起飞前停机"
+   },
+   {
+    "at": "1940-05-25T07:03",
+    "pos": [1.158, 51.109],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-05-25T07:11",
+    "pos": [1.7065, 51.0754],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 3200
+   },
+   {
+    "at": "1940-05-25T07:19",
+    "pos": [2.2549, 51.0419],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 4500,
+    "note": "交战位置上空高度为教学重构，不是精确历史航迹"
+   },
+   {
+    "at": "1940-05-25T07:33",
+    "pos": [2.0355, 51.0553],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 5200
+   },
+   {
+    "at": "1940-05-25T07:45",
+    "pos": [1.5846, 51.0829],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 3100
+   },
+   {
+    "at": "1940-05-25T07:55",
+    "pos": [1.158, 51.109],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-05-25T08:00",
+    "pos": "@hawkinge",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "归队"
+   },
+   {
+    "at": "1940-05-27T12:00",
+    "pos": "@hawkinge",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "第 1 中队 第 2 次出击：起飞前停机"
+   },
+   {
+    "at": "1940-05-27T12:03",
+    "pos": [1.158, 51.109],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-05-27T12:11",
+    "pos": [1.7724, 51.095],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 4300
+   },
+   {
+    "at": "1940-05-27T12:19",
+    "pos": [2.3868, 51.0809],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 5600,
+    "note": "交战位置上空高度为教学重构，不是精确历史航迹"
+   },
+   {
+    "at": "1940-05-27T12:33",
+    "pos": [2.141, 51.0865],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 6300
+   },
+   {
+    "at": "1940-05-27T12:45",
+    "pos": [1.6359, 51.0981],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 4200
+   },
+   {
+    "at": "1940-05-27T12:55",
+    "pos": [1.158, 51.109],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-05-27T13:00",
+    "pos": "@hawkinge",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "归队"
+   },
+   {
+    "at": "1940-05-29T16:00",
+    "pos": "@hawkinge",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "第 1 中队 第 3 次出击：起飞前停机"
+   },
+   {
+    "at": "1940-05-29T16:03",
+    "pos": [1.158, 51.109],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-05-29T16:11",
+    "pos": [1.4733, 51.038],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 4900
+   },
+   {
+    "at": "1940-05-29T16:19",
+    "pos": [1.7886, 50.9671],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 6200,
+    "note": "交战位置上空高度为教学重构，不是精确历史航迹"
+   },
+   {
+    "at": "1940-05-29T16:33",
+    "pos": [1.6625, 50.9955],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 6900
+   },
+   {
+    "at": "1940-05-29T16:45",
+    "pos": [1.4032, 51.0538],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 4800
+   },
+   {
+    "at": "1940-05-29T16:55",
+    "pos": [1.158, 51.109],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-05-29T17:00",
+    "pos": "@hawkinge",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "归队"
+   },
+   {
+    "at": "1940-05-31T07:00",
+    "pos": "@hawkinge",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "第 1 中队 第 4 次出击：起飞前停机"
+   },
+   {
+    "at": "1940-05-31T07:03",
+    "pos": [1.158, 51.109],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-05-31T07:11",
+    "pos": [1.7065, 51.0754],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 3900
+   },
+   {
+    "at": "1940-05-31T07:19",
+    "pos": [2.2549, 51.0419],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 5200,
+    "note": "交战位置上空高度为教学重构，不是精确历史航迹"
+   },
+   {
+    "at": "1940-05-31T07:33",
+    "pos": [2.0355, 51.0553],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 5900
+   },
+   {
+    "at": "1940-05-31T07:45",
+    "pos": [1.5846, 51.0829],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 3800
+   },
+   {
+    "at": "1940-05-31T07:55",
+    "pos": [1.158, 51.109],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-05-31T08:00",
+    "pos": "@hawkinge",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "归队"
+   },
+   {
+    "at": "1940-06-01T15:00",
+    "pos": "@hawkinge",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "第 1 中队 第 5 次出击：起飞前停机"
+   },
+   {
+    "at": "1940-06-01T15:03",
+    "pos": [1.158, 51.109],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-06-01T15:11",
+    "pos": [1.7724, 51.095],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 5500
+   },
+   {
+    "at": "1940-06-01T15:19",
+    "pos": [2.3868, 51.0809],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 6800,
+    "note": "交战位置上空高度为教学重构，不是精确历史航迹"
+   },
+   {
+    "at": "1940-06-01T15:33",
+    "pos": [2.141, 51.0865],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 7500
+   },
+   {
+    "at": "1940-06-01T15:45",
+    "pos": [1.6359, 51.0981],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 5400
+   },
+   {
+    "at": "1940-06-01T15:55",
+    "pos": [1.158, 51.109],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-06-01T16:00",
+    "pos": "@hawkinge",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "归队"
+   }
+  ],
+  "model": "hurricane"
+ },
+ {
+  "id": "gb.no17sqn",
+  "side": "GB",
+  "echelon": "squadron",
+  "type": "fighter",
+  "parent": "gb.11group",
+  "name": { "zh": "第 17 中队（飓风 Mk I）", "orig": "No. 17 Squadron RAF", "short": "No.17 Sqn" },
+  "base": "@manston",
+  "strength": { "aircraft": 12 },
+  "equipment": [
+   { "id": "hurricane_mk1", "count": 12 }
+  ],
+  "sources": ["franks_2006","battle_of_britain_raf","chamberlain_1940"],
+  "confidence": "medium",
+  "history": "5-25 在加来上空击落 3 架斯图卡、击伤 3 架并击落 1 架 Do 17；5-26 又攻击 StG 2 的斯图卡。本图按 5-25、5-26 加来与 5-27 后的敦刻尔克巡逻布点。",
+  "active": { "from": "1940-05-22T07:00", "to": "1940-06-04T12:00" },
+  "track": [
+   {
+    "at": "1940-05-22T07:00",
+    "pos": "@debden",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0,
+    "note": "驻扎地在本图范围外；5 月末以 @manston 为前进机场连续出击"
+   },
+   {
+    "at": "1940-05-22T10:00",
+    "pos": "@manston",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0,
+    "note": "转场至前进机场"
+   },
+   {
+    "at": "1940-05-25T06:00",
+    "pos": "@manston",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "第 17 中队 第 1 次出击：起飞前停机"
+   },
+   {
+    "at": "1940-05-25T06:03",
+    "pos": [1.346, 51.346],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-05-25T06:11",
+    "pos": [1.8099, 51.2058],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 3200
+   },
+   {
+    "at": "1940-05-25T06:19",
+    "pos": [2.2737, 51.0656],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 4500,
+    "note": "交战位置上空高度为教学重构，不是精确历史航迹"
+   },
+   {
+    "at": "1940-05-25T06:33",
+    "pos": [2.0882, 51.1216],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 5200
+   },
+   {
+    "at": "1940-05-25T06:45",
+    "pos": [1.7068, 51.2369],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 3100
+   },
+   {
+    "at": "1940-05-25T06:55",
+    "pos": [1.346, 51.346],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-05-25T07:00",
+    "pos": "@manston",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "归队"
+   },
+   {
+    "at": "1940-05-26T10:30",
+    "pos": "@manston",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "第 17 中队 第 2 次出击：起飞前停机"
+   },
+   {
+    "at": "1940-05-26T10:33",
+    "pos": [1.346, 51.346],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-05-26T10:41",
+    "pos": [1.8758, 51.2253],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 4300
+   },
+   {
+    "at": "1940-05-26T10:49",
+    "pos": [2.4056, 51.1046],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 5600,
+    "note": "交战位置上空高度为教学重构，不是精确历史航迹"
+   },
+   {
+    "at": "1940-05-26T11:03",
+    "pos": [2.1937, 51.1529],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 6300
+   },
+   {
+    "at": "1940-05-26T11:15",
+    "pos": [1.7581, 51.2521],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 4200
+   },
+   {
+    "at": "1940-05-26T11:25",
+    "pos": [1.346, 51.346],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-05-26T11:30",
+    "pos": "@manston",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "归队"
+   },
+   {
+    "at": "1940-05-28T11:00",
+    "pos": "@manston",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "第 17 中队 第 3 次出击：起飞前停机"
+   },
+   {
+    "at": "1940-05-28T11:03",
+    "pos": [1.346, 51.346],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-05-28T11:11",
+    "pos": [1.5767, 51.1684],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 4900
+   },
+   {
+    "at": "1940-05-28T11:19",
+    "pos": [1.8074, 50.9908],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 6200,
+    "note": "交战位置上空高度为教学重构，不是精确历史航迹"
+   },
+   {
+    "at": "1940-05-28T11:33",
+    "pos": [1.7151, 51.0618],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 6900
+   },
+   {
+    "at": "1940-05-28T11:45",
+    "pos": [1.5254, 51.2079],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 4800
+   },
+   {
+    "at": "1940-05-28T11:55",
+    "pos": [1.346, 51.346],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-05-28T12:00",
+    "pos": "@manston",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "归队"
+   },
+   {
+    "at": "1940-05-30T16:00",
+    "pos": "@manston",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "第 17 中队 第 4 次出击：起飞前停机"
+   },
+   {
+    "at": "1940-05-30T16:03",
+    "pos": [1.346, 51.346],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-05-30T16:11",
+    "pos": [1.8099, 51.2058],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 3900
+   },
+   {
+    "at": "1940-05-30T16:19",
+    "pos": [2.2737, 51.0656],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 5200,
+    "note": "交战位置上空高度为教学重构，不是精确历史航迹"
+   },
+   {
+    "at": "1940-05-30T16:33",
+    "pos": [2.0882, 51.1216],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 5900
+   },
+   {
+    "at": "1940-05-30T16:45",
+    "pos": [1.7068, 51.2369],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 3800
+   },
+   {
+    "at": "1940-05-30T16:55",
+    "pos": [1.346, 51.346],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-05-30T17:00",
+    "pos": "@manston",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "归队"
+   },
+   {
+    "at": "1940-06-01T07:00",
+    "pos": "@manston",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "第 17 中队 第 5 次出击：起飞前停机"
+   },
+   {
+    "at": "1940-06-01T07:03",
+    "pos": [1.346, 51.346],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-06-01T07:11",
+    "pos": [1.8758, 51.2253],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 5500
+   },
+   {
+    "at": "1940-06-01T07:19",
+    "pos": [2.4056, 51.1046],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 6800,
+    "note": "交战位置上空高度为教学重构，不是精确历史航迹"
+   },
+   {
+    "at": "1940-06-01T07:33",
+    "pos": [2.1937, 51.1529],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 7500
+   },
+   {
+    "at": "1940-06-01T07:45",
+    "pos": [1.7581, 51.2521],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 5400
+   },
+   {
+    "at": "1940-06-01T07:55",
+    "pos": [1.346, 51.346],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-06-01T08:00",
+    "pos": "@manston",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "归队"
+   }
+  ],
+  "model": "hurricane"
+ },
+ {
+  "id": "gb.no19sqn",
+  "side": "GB",
+  "echelon": "squadron",
+  "type": "fighter",
+  "parent": "gb.11group",
+  "name": { "zh": "第 19 中队（喷火 Mk I）", "orig": "No. 19 Squadron RAF", "short": "No.19 Sqn" },
+  "base": "@manston",
+  "strength": { "aircraft": 12 },
+  "equipment": [
+   { "id": "spitfire_mk1", "count": 12 }
+  ],
+  "sources": ["franks_2006","terraine_1985","chamberlain_1940"],
+  "confidence": "medium",
+  "history": "RAF 第一个装备喷火的中队，5 月至 6 月为敦刻尔克海滩提供空中掩护。本图以 5-27、5-29、5-31、6-1 的巡逻为代表。",
+  "active": { "from": "1940-05-22T07:00", "to": "1940-06-04T12:00" },
+  "track": [
+   {
+    "at": "1940-05-22T07:00",
+    "pos": "@debden",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0,
+    "note": "驻扎地在本图范围外；5 月末以 @manston 为前进机场连续出击"
+   },
+   {
+    "at": "1940-05-22T10:00",
+    "pos": "@manston",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0,
+    "note": "转场至前进机场"
+   },
+   {
+    "at": "1940-05-27T08:00",
+    "pos": "@manston",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "第 19 中队 第 1 次出击：起飞前停机"
+   },
+   {
+    "at": "1940-05-27T08:03",
+    "pos": [1.346, 51.346],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-05-27T08:11",
+    "pos": [1.8099, 51.2058],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 3200
+   },
+   {
+    "at": "1940-05-27T08:19",
+    "pos": [2.2737, 51.0656],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 4500,
+    "note": "交战位置上空高度为教学重构，不是精确历史航迹"
+   },
+   {
+    "at": "1940-05-27T08:33",
+    "pos": [2.0882, 51.1216],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 5200
+   },
+   {
+    "at": "1940-05-27T08:45",
+    "pos": [1.7068, 51.2369],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 3100
+   },
+   {
+    "at": "1940-05-27T08:55",
+    "pos": [1.346, 51.346],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-05-27T09:00",
+    "pos": "@manston",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "归队"
+   },
+   {
+    "at": "1940-05-29T06:30",
+    "pos": "@manston",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "第 19 中队 第 2 次出击：起飞前停机"
+   },
+   {
+    "at": "1940-05-29T06:33",
+    "pos": [1.346, 51.346],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-05-29T06:41",
+    "pos": [1.8758, 51.2253],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 4300
+   },
+   {
+    "at": "1940-05-29T06:49",
+    "pos": [2.4056, 51.1046],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 5600,
+    "note": "交战位置上空高度为教学重构，不是精确历史航迹"
+   },
+   {
+    "at": "1940-05-29T07:03",
+    "pos": [2.1937, 51.1529],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 6300
+   },
+   {
+    "at": "1940-05-29T07:15",
+    "pos": [1.7581, 51.2521],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 4200
+   },
+   {
+    "at": "1940-05-29T07:25",
+    "pos": [1.346, 51.346],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-05-29T07:30",
+    "pos": "@manston",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "归队"
+   },
+   {
+    "at": "1940-05-31T13:00",
+    "pos": "@manston",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "第 19 中队 第 3 次出击：起飞前停机"
+   },
+   {
+    "at": "1940-05-31T13:03",
+    "pos": [1.346, 51.346],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-05-31T13:11",
+    "pos": [1.5767, 51.1684],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 4900
+   },
+   {
+    "at": "1940-05-31T13:19",
+    "pos": [1.8074, 50.9908],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 6200,
+    "note": "交战位置上空高度为教学重构，不是精确历史航迹"
+   },
+   {
+    "at": "1940-05-31T13:33",
+    "pos": [1.7151, 51.0618],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 6900
+   },
+   {
+    "at": "1940-05-31T13:45",
+    "pos": [1.5254, 51.2079],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 4800
+   },
+   {
+    "at": "1940-05-31T13:55",
+    "pos": [1.346, 51.346],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-05-31T14:00",
+    "pos": "@manston",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "归队"
+   },
+   {
+    "at": "1940-06-01T08:00",
+    "pos": "@manston",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "第 19 中队 第 4 次出击：起飞前停机"
+   },
+   {
+    "at": "1940-06-01T08:03",
+    "pos": [1.346, 51.346],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-06-01T08:11",
+    "pos": [1.8099, 51.2058],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 3900
+   },
+   {
+    "at": "1940-06-01T08:19",
+    "pos": [2.2737, 51.0656],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 5200,
+    "note": "交战位置上空高度为教学重构，不是精确历史航迹"
+   },
+   {
+    "at": "1940-06-01T08:33",
+    "pos": [2.0882, 51.1216],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 5900
+   },
+   {
+    "at": "1940-06-01T08:45",
+    "pos": [1.7068, 51.2369],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 3800
+   },
+   {
+    "at": "1940-06-01T08:55",
+    "pos": [1.346, 51.346],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-06-01T09:00",
+    "pos": "@manston",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "归队"
+   }
+  ],
+  "model": "spitfire"
+ },
+ {
+  "id": "gb.no32sqn",
+  "side": "GB",
+  "echelon": "squadron",
+  "type": "fighter",
+  "parent": "gb.11group",
+  "name": { "zh": "第 32 中队（飓风 Mk I）", "orig": "No. 32 Squadron RAF", "short": "No.32 Sqn" },
+  "base": "@hawkinge",
+  "strength": { "aircraft": 12 },
+  "equipment": [
+   { "id": "hurricane_mk1", "count": 12 }
+  ],
+  "sources": ["franks_2006","fighter_command","chamberlain_1940"],
+  "confidence": "medium",
+  "history": "驻比金山，敦刻尔克期间每日从霍金奇前进机场出击，巡逻北法与东南英格兰上空。",
+  "active": { "from": "1940-05-22T07:00", "to": "1940-06-04T12:00" },
+  "track": [
+   {
+    "at": "1940-05-22T07:00",
+    "pos": "@biggin_hill",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0,
+    "note": "驻扎地在本图范围外；5 月末以 @hawkinge 为前进机场连续出击"
+   },
+   {
+    "at": "1940-05-22T10:00",
+    "pos": "@hawkinge",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0,
+    "note": "转场至前进机场"
+   },
+   {
+    "at": "1940-05-25T07:30",
+    "pos": "@hawkinge",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "第 32 中队 第 1 次出击：起飞前停机"
+   },
+   {
+    "at": "1940-05-25T07:33",
+    "pos": [1.158, 51.109],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-05-25T07:41",
+    "pos": [1.7065, 51.0754],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 3200
+   },
+   {
+    "at": "1940-05-25T07:49",
+    "pos": [2.2549, 51.0419],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 4500,
+    "note": "交战位置上空高度为教学重构，不是精确历史航迹"
+   },
+   {
+    "at": "1940-05-25T08:03",
+    "pos": [2.0355, 51.0553],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 5200
+   },
+   {
+    "at": "1940-05-25T08:15",
+    "pos": [1.5846, 51.0829],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 3100
+   },
+   {
+    "at": "1940-05-25T08:25",
+    "pos": [1.158, 51.109],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-05-25T08:30",
+    "pos": "@hawkinge",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "归队"
+   },
+   {
+    "at": "1940-05-27T06:00",
+    "pos": "@hawkinge",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "第 32 中队 第 2 次出击：起飞前停机"
+   },
+   {
+    "at": "1940-05-27T06:03",
+    "pos": [1.158, 51.109],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-05-27T06:11",
+    "pos": [1.7724, 51.095],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 4300
+   },
+   {
+    "at": "1940-05-27T06:19",
+    "pos": [2.3868, 51.0809],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 5600,
+    "note": "交战位置上空高度为教学重构，不是精确历史航迹"
+   },
+   {
+    "at": "1940-05-27T06:33",
+    "pos": [2.141, 51.0865],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 6300
+   },
+   {
+    "at": "1940-05-27T06:45",
+    "pos": [1.6359, 51.0981],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 4200
+   },
+   {
+    "at": "1940-05-27T06:55",
+    "pos": [1.158, 51.109],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-05-27T07:00",
+    "pos": "@hawkinge",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "归队"
+   },
+   {
+    "at": "1940-05-28T14:00",
+    "pos": "@hawkinge",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "第 32 中队 第 3 次出击：起飞前停机"
+   },
+   {
+    "at": "1940-05-28T14:03",
+    "pos": [1.158, 51.109],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-05-28T14:11",
+    "pos": [1.4733, 51.038],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 4900
+   },
+   {
+    "at": "1940-05-28T14:19",
+    "pos": [1.7886, 50.9671],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 6200,
+    "note": "交战位置上空高度为教学重构，不是精确历史航迹"
+   },
+   {
+    "at": "1940-05-28T14:33",
+    "pos": [1.6625, 50.9955],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 6900
+   },
+   {
+    "at": "1940-05-28T14:45",
+    "pos": [1.4032, 51.0538],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 4800
+   },
+   {
+    "at": "1940-05-28T14:55",
+    "pos": [1.158, 51.109],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-05-28T15:00",
+    "pos": "@hawkinge",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "归队"
+   },
+   {
+    "at": "1940-05-31T06:30",
+    "pos": "@hawkinge",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "第 32 中队 第 4 次出击：起飞前停机"
+   },
+   {
+    "at": "1940-05-31T06:33",
+    "pos": [1.158, 51.109],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-05-31T06:41",
+    "pos": [1.7065, 51.0754],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 3900
+   },
+   {
+    "at": "1940-05-31T06:49",
+    "pos": [2.2549, 51.0419],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 5200,
+    "note": "交战位置上空高度为教学重构，不是精确历史航迹"
+   },
+   {
+    "at": "1940-05-31T07:03",
+    "pos": [2.0355, 51.0553],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 5900
+   },
+   {
+    "at": "1940-05-31T07:15",
+    "pos": [1.5846, 51.0829],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 3800
+   },
+   {
+    "at": "1940-05-31T07:25",
+    "pos": [1.158, 51.109],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-05-31T07:30",
+    "pos": "@hawkinge",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "归队"
+   },
+   {
+    "at": "1940-06-02T07:00",
+    "pos": "@hawkinge",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "第 32 中队 第 5 次出击：起飞前停机"
+   },
+   {
+    "at": "1940-06-02T07:03",
+    "pos": [1.158, 51.109],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-06-02T07:11",
+    "pos": [1.7724, 51.095],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 5500
+   },
+   {
+    "at": "1940-06-02T07:19",
+    "pos": [2.3868, 51.0809],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 6800,
+    "note": "交战位置上空高度为教学重构，不是精确历史航迹"
+   },
+   {
+    "at": "1940-06-02T07:33",
+    "pos": [2.141, 51.0865],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 7500
+   },
+   {
+    "at": "1940-06-02T07:45",
+    "pos": [1.6359, 51.0981],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 5400
+   },
+   {
+    "at": "1940-06-02T07:55",
+    "pos": [1.158, 51.109],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-06-02T08:00",
+    "pos": "@hawkinge",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "归队"
+   }
+  ],
+  "model": "hurricane"
+ },
+ {
+  "id": "gb.no54sqn",
+  "side": "GB",
+  "echelon": "squadron",
+  "type": "fighter",
+  "parent": "gb.11group",
+  "name": { "zh": "第 54 中队（喷火 Mk I）", "orig": "No. 54 Squadron RAF", "short": "No.54 Sqn" },
+  "base": "@manston",
+  "strength": { "aircraft": 12 },
+  "equipment": [
+   { "id": "spitfire_mk1", "count": 12 }
+  ],
+  "sources": ["franks_2006","battle_of_britain_raf","chamberlain_1940"],
+  "confidence": "medium",
+  "history": "5 月为敦刻尔克撤退提供空中掩护，宣称击落 31 架，自身损失 4 名飞行员、7 架喷火。5-24 在加来上空击落 3 架斯图卡。",
+  "active": { "from": "1940-05-22T07:00", "to": "1940-06-04T12:00" },
+  "track": [
+   {
+    "at": "1940-05-22T07:00",
+    "pos": "@hornchurch",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0,
+    "note": "驻扎地在本图范围外；5 月末以 @manston 为前进机场连续出击"
+   },
+   {
+    "at": "1940-05-22T10:00",
+    "pos": "@manston",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0,
+    "note": "转场至前进机场"
+   },
+   {
+    "at": "1940-05-24T18:30",
+    "pos": "@manston",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "第 54 中队 第 1 次出击：起飞前停机"
+   },
+   {
+    "at": "1940-05-24T18:33",
+    "pos": [1.346, 51.346],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-05-24T18:41",
+    "pos": [1.8099, 51.2058],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 3200
+   },
+   {
+    "at": "1940-05-24T18:49",
+    "pos": [2.2737, 51.0656],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 4500,
+    "note": "交战位置上空高度为教学重构，不是精确历史航迹"
+   },
+   {
+    "at": "1940-05-24T19:03",
+    "pos": [2.0882, 51.1216],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 5200
+   },
+   {
+    "at": "1940-05-24T19:15",
+    "pos": [1.7068, 51.2369],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 3100
+   },
+   {
+    "at": "1940-05-24T19:25",
+    "pos": [1.346, 51.346],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-05-24T19:30",
+    "pos": "@manston",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "归队"
+   },
+   {
+    "at": "1940-05-26T06:00",
+    "pos": "@manston",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "第 54 中队 第 2 次出击：起飞前停机"
+   },
+   {
+    "at": "1940-05-26T06:03",
+    "pos": [1.346, 51.346],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-05-26T06:11",
+    "pos": [1.8758, 51.2253],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 4300
+   },
+   {
+    "at": "1940-05-26T06:19",
+    "pos": [2.4056, 51.1046],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 5600,
+    "note": "交战位置上空高度为教学重构，不是精确历史航迹"
+   },
+   {
+    "at": "1940-05-26T06:33",
+    "pos": [2.1937, 51.1529],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 6300
+   },
+   {
+    "at": "1940-05-26T06:45",
+    "pos": [1.7581, 51.2521],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 4200
+   },
+   {
+    "at": "1940-05-26T06:55",
+    "pos": [1.346, 51.346],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-05-26T07:00",
+    "pos": "@manston",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "归队"
+   },
+   {
+    "at": "1940-05-27T15:00",
+    "pos": "@manston",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "第 54 中队 第 3 次出击：起飞前停机"
+   },
+   {
+    "at": "1940-05-27T15:03",
+    "pos": [1.346, 51.346],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-05-27T15:11",
+    "pos": [1.5767, 51.1684],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 4900
+   },
+   {
+    "at": "1940-05-27T15:19",
+    "pos": [1.8074, 50.9908],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 6200,
+    "note": "交战位置上空高度为教学重构，不是精确历史航迹"
+   },
+   {
+    "at": "1940-05-27T15:33",
+    "pos": [1.7151, 51.0618],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 6900
+   },
+   {
+    "at": "1940-05-27T15:45",
+    "pos": [1.5254, 51.2079],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 4800
+   },
+   {
+    "at": "1940-05-27T15:55",
+    "pos": [1.346, 51.346],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-05-27T16:00",
+    "pos": "@manston",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "归队"
+   },
+   {
+    "at": "1940-05-29T07:00",
+    "pos": "@manston",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "第 54 中队 第 4 次出击：起飞前停机"
+   },
+   {
+    "at": "1940-05-29T07:03",
+    "pos": [1.346, 51.346],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-05-29T07:11",
+    "pos": [1.8099, 51.2058],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 3900
+   },
+   {
+    "at": "1940-05-29T07:19",
+    "pos": [2.2737, 51.0656],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 5200,
+    "note": "交战位置上空高度为教学重构，不是精确历史航迹"
+   },
+   {
+    "at": "1940-05-29T07:33",
+    "pos": [2.0882, 51.1216],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 5900
+   },
+   {
+    "at": "1940-05-29T07:45",
+    "pos": [1.7068, 51.2369],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 3800
+   },
+   {
+    "at": "1940-05-29T07:55",
+    "pos": [1.346, 51.346],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-05-29T08:00",
+    "pos": "@manston",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "归队"
+   },
+   {
+    "at": "1940-05-31T12:00",
+    "pos": "@manston",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "第 54 中队 第 5 次出击：起飞前停机"
+   },
+   {
+    "at": "1940-05-31T12:03",
+    "pos": [1.346, 51.346],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-05-31T12:11",
+    "pos": [1.8758, 51.2253],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 5500
+   },
+   {
+    "at": "1940-05-31T12:19",
+    "pos": [2.4056, 51.1046],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 6800,
+    "note": "交战位置上空高度为教学重构，不是精确历史航迹"
+   },
+   {
+    "at": "1940-05-31T12:33",
+    "pos": [2.1937, 51.1529],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 7500
+   },
+   {
+    "at": "1940-05-31T12:45",
+    "pos": [1.7581, 51.2521],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 5400
+   },
+   {
+    "at": "1940-05-31T12:55",
+    "pos": [1.346, 51.346],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-05-31T13:00",
+    "pos": "@manston",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "归队"
+   },
+   {
+    "at": "1940-06-01T06:30",
+    "pos": "@manston",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "第 54 中队 第 6 次出击：起飞前停机"
+   },
+   {
+    "at": "1940-06-01T06:33",
+    "pos": [1.346, 51.346],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-06-01T06:41",
+    "pos": [1.5767, 51.1684],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 3200
+   },
+   {
+    "at": "1940-06-01T06:49",
+    "pos": [1.8074, 50.9908],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 4500,
+    "note": "交战位置上空高度为教学重构，不是精确历史航迹"
+   },
+   {
+    "at": "1940-06-01T07:03",
+    "pos": [1.7151, 51.0618],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 5200
+   },
+   {
+    "at": "1940-06-01T07:15",
+    "pos": [1.5254, 51.2079],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 3100
+   },
+   {
+    "at": "1940-06-01T07:25",
+    "pos": [1.346, 51.346],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-06-01T07:30",
+    "pos": "@manston",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "归队"
+   }
+  ],
+  "model": "spitfire"
+ },
+ {
+  "id": "gb.no64sqn",
+  "side": "GB",
+  "echelon": "squadron",
+  "type": "fighter",
+  "parent": "gb.11group",
+  "name": { "zh": "第 64 中队（喷火 Mk I）", "orig": "No. 64 Squadron RAF", "short": "No.64 Sqn" },
+  "base": "@hawkinge",
+  "strength": { "aircraft": 12 },
+  "equipment": [
+   { "id": "spitfire_mk1", "count": 12 }
+  ],
+  "sources": ["franks_2006","terraine_1985","chamberlain_1940"],
+  "confidence": "medium",
+  "history": "1940 年 4 月换装喷火后立即投入掩护敦刻尔克撤退，5-16 起以肯利为主基地。",
+  "active": { "from": "1940-05-22T07:00", "to": "1940-06-04T12:00" },
+  "track": [
+   {
+    "at": "1940-05-22T07:00",
+    "pos": "@kenley",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0,
+    "note": "驻扎地在本图范围外；5 月末以 @hawkinge 为前进机场连续出击"
+   },
+   {
+    "at": "1940-05-22T10:00",
+    "pos": "@hawkinge",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0,
+    "note": "转场至前进机场"
+   },
+   {
+    "at": "1940-05-26T08:00",
+    "pos": "@hawkinge",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "第 64 中队 第 1 次出击：起飞前停机"
+   },
+   {
+    "at": "1940-05-26T08:03",
+    "pos": [1.158, 51.109],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-05-26T08:11",
+    "pos": [1.7065, 51.0754],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 3200
+   },
+   {
+    "at": "1940-05-26T08:19",
+    "pos": [2.2549, 51.0419],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 4500,
+    "note": "交战位置上空高度为教学重构，不是精确历史航迹"
+   },
+   {
+    "at": "1940-05-26T08:33",
+    "pos": [2.0355, 51.0553],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 5200
+   },
+   {
+    "at": "1940-05-26T08:45",
+    "pos": [1.5846, 51.0829],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 3100
+   },
+   {
+    "at": "1940-05-26T08:55",
+    "pos": [1.158, 51.109],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-05-26T09:00",
+    "pos": "@hawkinge",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "归队"
+   },
+   {
+    "at": "1940-05-28T06:30",
+    "pos": "@hawkinge",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "第 64 中队 第 2 次出击：起飞前停机"
+   },
+   {
+    "at": "1940-05-28T06:33",
+    "pos": [1.158, 51.109],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-05-28T06:41",
+    "pos": [1.7724, 51.095],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 4300
+   },
+   {
+    "at": "1940-05-28T06:49",
+    "pos": [2.3868, 51.0809],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 5600,
+    "note": "交战位置上空高度为教学重构，不是精确历史航迹"
+   },
+   {
+    "at": "1940-05-28T07:03",
+    "pos": [2.141, 51.0865],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 6300
+   },
+   {
+    "at": "1940-05-28T07:15",
+    "pos": [1.6359, 51.0981],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 4200
+   },
+   {
+    "at": "1940-05-28T07:25",
+    "pos": [1.158, 51.109],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-05-28T07:30",
+    "pos": "@hawkinge",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "归队"
+   },
+   {
+    "at": "1940-05-30T15:00",
+    "pos": "@hawkinge",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "第 64 中队 第 3 次出击：起飞前停机"
+   },
+   {
+    "at": "1940-05-30T15:03",
+    "pos": [1.158, 51.109],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-05-30T15:11",
+    "pos": [1.4733, 51.038],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 4900
+   },
+   {
+    "at": "1940-05-30T15:19",
+    "pos": [1.7886, 50.9671],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 6200,
+    "note": "交战位置上空高度为教学重构，不是精确历史航迹"
+   },
+   {
+    "at": "1940-05-30T15:33",
+    "pos": [1.6625, 50.9955],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 6900
+   },
+   {
+    "at": "1940-05-30T15:45",
+    "pos": [1.4032, 51.0538],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 4800
+   },
+   {
+    "at": "1940-05-30T15:55",
+    "pos": [1.158, 51.109],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-05-30T16:00",
+    "pos": "@hawkinge",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "归队"
+   },
+   {
+    "at": "1940-06-02T06:30",
+    "pos": "@hawkinge",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "第 64 中队 第 4 次出击：起飞前停机"
+   },
+   {
+    "at": "1940-06-02T06:33",
+    "pos": [1.158, 51.109],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-06-02T06:41",
+    "pos": [1.7065, 51.0754],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 3900
+   },
+   {
+    "at": "1940-06-02T06:49",
+    "pos": [2.2549, 51.0419],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 5200,
+    "note": "交战位置上空高度为教学重构，不是精确历史航迹"
+   },
+   {
+    "at": "1940-06-02T07:03",
+    "pos": [2.0355, 51.0553],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 5900
+   },
+   {
+    "at": "1940-06-02T07:15",
+    "pos": [1.5846, 51.0829],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 3800
+   },
+   {
+    "at": "1940-06-02T07:25",
+    "pos": [1.158, 51.109],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-06-02T07:30",
+    "pos": "@hawkinge",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "归队"
+   }
+  ],
+  "model": "spitfire"
+ },
+ {
+  "id": "gb.no74sqn",
+  "side": "GB",
+  "echelon": "squadron",
+  "type": "fighter",
+  "parent": "gb.11group",
+  "name": { "zh": "第 74 中队（喷火 Mk I）", "orig": "No. 74 Squadron RAF", "short": "No.74 Sqn" },
+  "base": "@manston",
+  "strength": { "aircraft": 12 },
+  "equipment": [
+   { "id": "spitfire_mk1", "count": 12 }
+  ],
+  "sources": ["franks_2006","fighter_command","chamberlain_1940"],
+  "confidence": "medium",
+  "history": "属第 12 大队，5 月首次在敦刻尔克撤退中参战，战斗对飞行员和飞机都极为消耗。5-23 曾在加来—布洛涅之间击落 1 架 Ju 88。",
+  "active": { "from": "1940-05-22T07:00", "to": "1940-06-04T12:00" },
+  "track": [
+   {
+    "at": "1940-05-22T07:00",
+    "pos": "@north_weald",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0,
+    "note": "驻扎地在本图范围外；5 月末以 @manston 为前进机场连续出击"
+   },
+   {
+    "at": "1940-05-22T10:00",
+    "pos": "@manston",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0,
+    "note": "转场至前进机场"
+   },
+   {
+    "at": "1940-05-23T09:00",
+    "pos": "@manston",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "第 74 中队 第 1 次出击：起飞前停机"
+   },
+   {
+    "at": "1940-05-23T09:03",
+    "pos": [1.346, 51.346],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-05-23T09:11",
+    "pos": [1.8099, 51.2058],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 3200
+   },
+   {
+    "at": "1940-05-23T09:19",
+    "pos": [2.2737, 51.0656],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 4500,
+    "note": "交战位置上空高度为教学重构，不是精确历史航迹"
+   },
+   {
+    "at": "1940-05-23T09:33",
+    "pos": [2.0882, 51.1216],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 5200
+   },
+   {
+    "at": "1940-05-23T09:45",
+    "pos": [1.7068, 51.2369],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 3100
+   },
+   {
+    "at": "1940-05-23T09:55",
+    "pos": [1.346, 51.346],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-05-23T10:00",
+    "pos": "@manston",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "归队"
+   },
+   {
+    "at": "1940-05-27T07:00",
+    "pos": "@manston",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "第 74 中队 第 2 次出击：起飞前停机"
+   },
+   {
+    "at": "1940-05-27T07:03",
+    "pos": [1.346, 51.346],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-05-27T07:11",
+    "pos": [1.8758, 51.2253],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 4300
+   },
+   {
+    "at": "1940-05-27T07:19",
+    "pos": [2.4056, 51.1046],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 5600,
+    "note": "交战位置上空高度为教学重构，不是精确历史航迹"
+   },
+   {
+    "at": "1940-05-27T07:33",
+    "pos": [2.1937, 51.1529],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 6300
+   },
+   {
+    "at": "1940-05-27T07:45",
+    "pos": [1.7581, 51.2521],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 4200
+   },
+   {
+    "at": "1940-05-27T07:55",
+    "pos": [1.346, 51.346],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-05-27T08:00",
+    "pos": "@manston",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "归队"
+   },
+   {
+    "at": "1940-05-29T14:00",
+    "pos": "@manston",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "第 74 中队 第 3 次出击：起飞前停机"
+   },
+   {
+    "at": "1940-05-29T14:03",
+    "pos": [1.346, 51.346],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-05-29T14:11",
+    "pos": [1.5767, 51.1684],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 4900
+   },
+   {
+    "at": "1940-05-29T14:19",
+    "pos": [1.8074, 50.9908],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 6200,
+    "note": "交战位置上空高度为教学重构，不是精确历史航迹"
+   },
+   {
+    "at": "1940-05-29T14:33",
+    "pos": [1.7151, 51.0618],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 6900
+   },
+   {
+    "at": "1940-05-29T14:45",
+    "pos": [1.5254, 51.2079],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 4800
+   },
+   {
+    "at": "1940-05-29T14:55",
+    "pos": [1.346, 51.346],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-05-29T15:00",
+    "pos": "@manston",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "归队"
+   },
+   {
+    "at": "1940-05-31T07:30",
+    "pos": "@manston",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "第 74 中队 第 4 次出击：起飞前停机"
+   },
+   {
+    "at": "1940-05-31T07:33",
+    "pos": [1.346, 51.346],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-05-31T07:41",
+    "pos": [1.8099, 51.2058],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 3900
+   },
+   {
+    "at": "1940-05-31T07:49",
+    "pos": [2.2737, 51.0656],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 5200,
+    "note": "交战位置上空高度为教学重构，不是精确历史航迹"
+   },
+   {
+    "at": "1940-05-31T08:03",
+    "pos": [2.0882, 51.1216],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 5900
+   },
+   {
+    "at": "1940-05-31T08:15",
+    "pos": [1.7068, 51.2369],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 3800
+   },
+   {
+    "at": "1940-05-31T08:25",
+    "pos": [1.346, 51.346],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-05-31T08:30",
+    "pos": "@manston",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "归队"
+   },
+   {
+    "at": "1940-06-01T16:00",
+    "pos": "@manston",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "第 74 中队 第 5 次出击：起飞前停机"
+   },
+   {
+    "at": "1940-06-01T16:03",
+    "pos": [1.346, 51.346],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-06-01T16:11",
+    "pos": [1.8758, 51.2253],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 5500
+   },
+   {
+    "at": "1940-06-01T16:19",
+    "pos": [2.4056, 51.1046],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 6800,
+    "note": "交战位置上空高度为教学重构，不是精确历史航迹"
+   },
+   {
+    "at": "1940-06-01T16:33",
+    "pos": [2.1937, 51.1529],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 7500
+   },
+   {
+    "at": "1940-06-01T16:45",
+    "pos": [1.7581, 51.2521],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 5400
+   },
+   {
+    "at": "1940-06-01T16:55",
+    "pos": [1.346, 51.346],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-06-01T17:00",
+    "pos": "@manston",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "归队"
+   }
+  ],
+  "model": "spitfire"
+ },
+ {
+  "id": "gb.no92sqn",
+  "side": "GB",
+  "echelon": "squadron",
+  "type": "fighter",
+  "parent": "gb.11group",
+  "name": { "zh": "第 92 中队（喷火 Mk I）", "orig": "No. 92 Squadron RAF", "short": "No.92 Sqn" },
+  "base": "@hawkinge",
+  "strength": { "aircraft": 12 },
+  "equipment": [
+   { "id": "spitfire_mk1", "count": 12 }
+  ],
+  "sources": ["franks_2006","sebag_2006","chamberlain_1940"],
+  "confidence": "medium",
+  "history": "5-23 在布洛涅上空为驱逐舰提供掩护，损失 5 名飞行员（含被俘的布歇尔少校）；同日在加来击落 4 架 Bf 109。",
+  "active": { "from": "1940-05-22T07:00", "to": "1940-06-04T12:00" },
+  "track": [
+   {
+    "at": "1940-05-22T07:00",
+    "pos": "@tangmere",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0,
+    "note": "驻扎地在本图范围外；5 月末以 @hawkinge 为前进机场连续出击"
+   },
+   {
+    "at": "1940-05-22T10:00",
+    "pos": "@hawkinge",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0,
+    "note": "转场至前进机场"
+   },
+   {
+    "at": "1940-05-23T13:00",
+    "pos": "@hawkinge",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "第 92 中队 第 1 次出击：起飞前停机"
+   },
+   {
+    "at": "1940-05-23T13:03",
+    "pos": [1.158, 51.109],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-05-23T13:11",
+    "pos": [1.7065, 51.0754],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 3200
+   },
+   {
+    "at": "1940-05-23T13:19",
+    "pos": [2.2549, 51.0419],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 4500,
+    "note": "交战位置上空高度为教学重构，不是精确历史航迹"
+   },
+   {
+    "at": "1940-05-23T13:33",
+    "pos": [2.0355, 51.0553],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 5200
+   },
+   {
+    "at": "1940-05-23T13:45",
+    "pos": [1.5846, 51.0829],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 3100
+   },
+   {
+    "at": "1940-05-23T13:55",
+    "pos": [1.158, 51.109],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-05-23T14:00",
+    "pos": "@hawkinge",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "归队"
+   },
+   {
+    "at": "1940-05-24T15:00",
+    "pos": "@hawkinge",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "第 92 中队 第 2 次出击：起飞前停机"
+   },
+   {
+    "at": "1940-05-24T15:03",
+    "pos": [1.158, 51.109],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-05-24T15:11",
+    "pos": [1.7724, 51.095],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 4300
+   },
+   {
+    "at": "1940-05-24T15:19",
+    "pos": [2.3868, 51.0809],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 5600,
+    "note": "交战位置上空高度为教学重构，不是精确历史航迹"
+   },
+   {
+    "at": "1940-05-24T15:33",
+    "pos": [2.141, 51.0865],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 6300
+   },
+   {
+    "at": "1940-05-24T15:45",
+    "pos": [1.6359, 51.0981],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 4200
+   },
+   {
+    "at": "1940-05-24T15:55",
+    "pos": [1.158, 51.109],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-05-24T16:00",
+    "pos": "@hawkinge",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "归队"
+   },
+   {
+    "at": "1940-05-26T09:00",
+    "pos": "@hawkinge",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "第 92 中队 第 3 次出击：起飞前停机"
+   },
+   {
+    "at": "1940-05-26T09:03",
+    "pos": [1.158, 51.109],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-05-26T09:11",
+    "pos": [1.4733, 51.038],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 4900
+   },
+   {
+    "at": "1940-05-26T09:19",
+    "pos": [1.7886, 50.9671],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 6200,
+    "note": "交战位置上空高度为教学重构，不是精确历史航迹"
+   },
+   {
+    "at": "1940-05-26T09:33",
+    "pos": [1.6625, 50.9955],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 6900
+   },
+   {
+    "at": "1940-05-26T09:45",
+    "pos": [1.4032, 51.0538],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 4800
+   },
+   {
+    "at": "1940-05-26T09:55",
+    "pos": [1.158, 51.109],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-05-26T10:00",
+    "pos": "@hawkinge",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "归队"
+   },
+   {
+    "at": "1940-05-29T08:00",
+    "pos": "@hawkinge",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "第 92 中队 第 4 次出击：起飞前停机"
+   },
+   {
+    "at": "1940-05-29T08:03",
+    "pos": [1.158, 51.109],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-05-29T08:11",
+    "pos": [1.7065, 51.0754],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 3900
+   },
+   {
+    "at": "1940-05-29T08:19",
+    "pos": [2.2549, 51.0419],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 5200,
+    "note": "交战位置上空高度为教学重构，不是精确历史航迹"
+   },
+   {
+    "at": "1940-05-29T08:33",
+    "pos": [2.0355, 51.0553],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 5900
+   },
+   {
+    "at": "1940-05-29T08:45",
+    "pos": [1.5846, 51.0829],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 3800
+   },
+   {
+    "at": "1940-05-29T08:55",
+    "pos": [1.158, 51.109],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-05-29T09:00",
+    "pos": "@hawkinge",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "归队"
+   },
+   {
+    "at": "1940-06-01T17:00",
+    "pos": "@hawkinge",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "第 92 中队 第 5 次出击：起飞前停机"
+   },
+   {
+    "at": "1940-06-01T17:03",
+    "pos": [1.158, 51.109],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-06-01T17:11",
+    "pos": [1.7724, 51.095],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 5500
+   },
+   {
+    "at": "1940-06-01T17:19",
+    "pos": [2.3868, 51.0809],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 6800,
+    "note": "交战位置上空高度为教学重构，不是精确历史航迹"
+   },
+   {
+    "at": "1940-06-01T17:33",
+    "pos": [2.141, 51.0865],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 7500
+   },
+   {
+    "at": "1940-06-01T17:45",
+    "pos": [1.6359, 51.0981],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 5400
+   },
+   {
+    "at": "1940-06-01T17:55",
+    "pos": [1.158, 51.109],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-06-01T18:00",
+    "pos": "@hawkinge",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "归队"
+   }
+  ],
+  "model": "spitfire"
+ },
+ {
+  "id": "gb.no145sqn",
+  "side": "GB",
+  "echelon": "squadron",
+  "type": "fighter",
+  "parent": "gb.11group",
+  "name": { "zh": "第 145 中队（飓风 Mk I）", "orig": "No. 145 Squadron RAF", "short": "No.145 Sqn" },
+  "base": "@manston",
+  "strength": { "aircraft": 12 },
+  "equipment": [
+   { "id": "hurricane_mk1", "count": 12 }
+  ],
+  "sources": ["franks_2006","battle_of_britain_raf","chamberlain_1940"],
+  "confidence": "medium",
+  "history": "1939 年 10 月重建，1940 年 3 月接装飓风，在敦刻尔克上空作战后参加不列颠空战。",
+  "active": { "from": "1940-05-22T07:00", "to": "1940-06-04T12:00" },
+  "track": [
+   {
+    "at": "1940-05-22T07:00",
+    "pos": "@tangmere",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0,
+    "note": "驻扎地在本图范围外；5 月末以 @manston 为前进机场连续出击"
+   },
+   {
+    "at": "1940-05-22T10:00",
+    "pos": "@manston",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0,
+    "note": "转场至前进机场"
+   },
+   {
+    "at": "1940-05-27T06:30",
+    "pos": "@manston",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "第 145 中队 第 1 次出击：起飞前停机"
+   },
+   {
+    "at": "1940-05-27T06:33",
+    "pos": [1.346, 51.346],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-05-27T06:41",
+    "pos": [1.8099, 51.2058],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 3200
+   },
+   {
+    "at": "1940-05-27T06:49",
+    "pos": [2.2737, 51.0656],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 4500,
+    "note": "交战位置上空高度为教学重构，不是精确历史航迹"
+   },
+   {
+    "at": "1940-05-27T07:03",
+    "pos": [2.0882, 51.1216],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 5200
+   },
+   {
+    "at": "1940-05-27T07:15",
+    "pos": [1.7068, 51.2369],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 3100
+   },
+   {
+    "at": "1940-05-27T07:25",
+    "pos": [1.346, 51.346],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-05-27T07:30",
+    "pos": "@manston",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "归队"
+   },
+   {
+    "at": "1940-05-29T13:00",
+    "pos": "@manston",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "第 145 中队 第 2 次出击：起飞前停机"
+   },
+   {
+    "at": "1940-05-29T13:03",
+    "pos": [1.346, 51.346],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-05-29T13:11",
+    "pos": [1.8758, 51.2253],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 4300
+   },
+   {
+    "at": "1940-05-29T13:19",
+    "pos": [2.4056, 51.1046],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 5600,
+    "note": "交战位置上空高度为教学重构，不是精确历史航迹"
+   },
+   {
+    "at": "1940-05-29T13:33",
+    "pos": [2.1937, 51.1529],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 6300
+   },
+   {
+    "at": "1940-05-29T13:45",
+    "pos": [1.7581, 51.2521],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 4200
+   },
+   {
+    "at": "1940-05-29T13:55",
+    "pos": [1.346, 51.346],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-05-29T14:00",
+    "pos": "@manston",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "归队"
+   },
+   {
+    "at": "1940-05-31T15:00",
+    "pos": "@manston",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "第 145 中队 第 3 次出击：起飞前停机"
+   },
+   {
+    "at": "1940-05-31T15:03",
+    "pos": [1.346, 51.346],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-05-31T15:11",
+    "pos": [1.5767, 51.1684],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 4900
+   },
+   {
+    "at": "1940-05-31T15:19",
+    "pos": [1.8074, 50.9908],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 6200,
+    "note": "交战位置上空高度为教学重构，不是精确历史航迹"
+   },
+   {
+    "at": "1940-05-31T15:33",
+    "pos": [1.7151, 51.0618],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 6900
+   },
+   {
+    "at": "1940-05-31T15:45",
+    "pos": [1.5254, 51.2079],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 4800
+   },
+   {
+    "at": "1940-05-31T15:55",
+    "pos": [1.346, 51.346],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-05-31T16:00",
+    "pos": "@manston",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "归队"
+   },
+   {
+    "at": "1940-06-02T09:00",
+    "pos": "@manston",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "第 145 中队 第 4 次出击：起飞前停机"
+   },
+   {
+    "at": "1940-06-02T09:03",
+    "pos": [1.346, 51.346],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-06-02T09:11",
+    "pos": [1.8099, 51.2058],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 3900
+   },
+   {
+    "at": "1940-06-02T09:19",
+    "pos": [2.2737, 51.0656],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 5200,
+    "note": "交战位置上空高度为教学重构，不是精确历史航迹"
+   },
+   {
+    "at": "1940-06-02T09:33",
+    "pos": [2.0882, 51.1216],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 5900
+   },
+   {
+    "at": "1940-06-02T09:45",
+    "pos": [1.7068, 51.2369],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 3800
+   },
+   {
+    "at": "1940-06-02T09:55",
+    "pos": [1.346, 51.346],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-06-02T10:00",
+    "pos": "@manston",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "归队"
+   }
+  ],
+  "model": "hurricane"
+ },
+ {
+  "id": "gb.no213sqn",
+  "side": "GB",
+  "echelon": "squadron",
+  "type": "fighter",
+  "parent": "gb.11group",
+  "name": { "zh": "第 213 中队（飓风 Mk I）", "orig": "No. 213 Squadron RAF", "short": "No.213 Sqn" },
+  "base": "@manston",
+  "strength": { "aircraft": 12 },
+  "equipment": [
+   { "id": "hurricane_mk1", "count": 12 }
+  ],
+  "sources": ["franks_2006","raf_aircomponent","chamberlain_1940"],
+  "confidence": "medium",
+  "history": "曾作为 BEF 的一部分驻法，随后在敦刻尔克上空作战，再转战不列颠与中东。",
+  "active": { "from": "1940-05-22T07:00", "to": "1940-06-04T12:00" },
+  "track": [
+   {
+    "at": "1940-05-22T07:00",
+    "pos": "@north_weald",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0,
+    "note": "驻扎地在本图范围外；5 月末以 @manston 为前进机场连续出击"
+   },
+   {
+    "at": "1940-05-22T10:00",
+    "pos": "@manston",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0,
+    "note": "转场至前进机场"
+   },
+   {
+    "at": "1940-05-26T07:00",
+    "pos": "@manston",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "第 213 中队 第 1 次出击：起飞前停机"
+   },
+   {
+    "at": "1940-05-26T07:03",
+    "pos": [1.346, 51.346],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-05-26T07:11",
+    "pos": [1.8099, 51.2058],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 3200
+   },
+   {
+    "at": "1940-05-26T07:19",
+    "pos": [2.2737, 51.0656],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 4500,
+    "note": "交战位置上空高度为教学重构，不是精确历史航迹"
+   },
+   {
+    "at": "1940-05-26T07:33",
+    "pos": [2.0882, 51.1216],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 5200
+   },
+   {
+    "at": "1940-05-26T07:45",
+    "pos": [1.7068, 51.2369],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 3100
+   },
+   {
+    "at": "1940-05-26T07:55",
+    "pos": [1.346, 51.346],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-05-26T08:00",
+    "pos": "@manston",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "归队"
+   },
+   {
+    "at": "1940-05-28T16:00",
+    "pos": "@manston",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "第 213 中队 第 2 次出击：起飞前停机"
+   },
+   {
+    "at": "1940-05-28T16:03",
+    "pos": [1.346, 51.346],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-05-28T16:11",
+    "pos": [1.8758, 51.2253],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 4300
+   },
+   {
+    "at": "1940-05-28T16:19",
+    "pos": [2.4056, 51.1046],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 5600,
+    "note": "交战位置上空高度为教学重构，不是精确历史航迹"
+   },
+   {
+    "at": "1940-05-28T16:33",
+    "pos": [2.1937, 51.1529],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 6300
+   },
+   {
+    "at": "1940-05-28T16:45",
+    "pos": [1.7581, 51.2521],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 4200
+   },
+   {
+    "at": "1940-05-28T16:55",
+    "pos": [1.346, 51.346],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-05-28T17:00",
+    "pos": "@manston",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "归队"
+   },
+   {
+    "at": "1940-05-30T06:00",
+    "pos": "@manston",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "第 213 中队 第 3 次出击：起飞前停机"
+   },
+   {
+    "at": "1940-05-30T06:03",
+    "pos": [1.346, 51.346],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-05-30T06:11",
+    "pos": [1.5767, 51.1684],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 4900
+   },
+   {
+    "at": "1940-05-30T06:19",
+    "pos": [1.8074, 50.9908],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 6200,
+    "note": "交战位置上空高度为教学重构，不是精确历史航迹"
+   },
+   {
+    "at": "1940-05-30T06:33",
+    "pos": [1.7151, 51.0618],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 6900
+   },
+   {
+    "at": "1940-05-30T06:45",
+    "pos": [1.5254, 51.2079],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 4800
+   },
+   {
+    "at": "1940-05-30T06:55",
+    "pos": [1.346, 51.346],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-05-30T07:00",
+    "pos": "@manston",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "归队"
+   },
+   {
+    "at": "1940-06-01T14:00",
+    "pos": "@manston",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "第 213 中队 第 4 次出击：起飞前停机"
+   },
+   {
+    "at": "1940-06-01T14:03",
+    "pos": [1.346, 51.346],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-06-01T14:11",
+    "pos": [1.8099, 51.2058],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 3900
+   },
+   {
+    "at": "1940-06-01T14:19",
+    "pos": [2.2737, 51.0656],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 5200,
+    "note": "交战位置上空高度为教学重构，不是精确历史航迹"
+   },
+   {
+    "at": "1940-06-01T14:33",
+    "pos": [2.0882, 51.1216],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 5900
+   },
+   {
+    "at": "1940-06-01T14:45",
+    "pos": [1.7068, 51.2369],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 3800
+   },
+   {
+    "at": "1940-06-01T14:55",
+    "pos": [1.346, 51.346],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-06-01T15:00",
+    "pos": "@manston",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "归队"
+   }
+  ],
+  "model": "hurricane"
+ },
+ {
+  "id": "gb.no222sqn",
+  "side": "GB",
+  "echelon": "squadron",
+  "type": "fighter",
+  "parent": "gb.11group",
+  "name": { "zh": "第 222 中队（喷火 Mk I）", "orig": "No. 222 Squadron RAF", "short": "No.222 Sqn" },
+  "base": "@manston",
+  "strength": { "aircraft": 12 },
+  "equipment": [
+   { "id": "spitfire_mk1", "count": 12 }
+  ],
+  "sources": ["franks_2006","terraine_1985","chamberlain_1940"],
+  "confidence": "medium",
+  "history": "1939 年 10 月在达克斯福德以布伦海姆夜间战斗机重建，1940 年 3 月换装喷火转为昼间战斗机，随即参加敦刻尔克上空的战斗。",
+  "active": { "from": "1940-05-22T07:00", "to": "1940-06-04T12:00" },
+  "track": [
+   {
+    "at": "1940-05-22T07:00",
+    "pos": "@hornchurch",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0,
+    "note": "驻扎地在本图范围外；5 月末以 @manston 为前进机场连续出击"
+   },
+   {
+    "at": "1940-05-22T10:00",
+    "pos": "@manston",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0,
+    "note": "转场至前进机场"
+   },
+   {
+    "at": "1940-05-27T09:30",
+    "pos": "@manston",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "第 222 中队 第 1 次出击：起飞前停机"
+   },
+   {
+    "at": "1940-05-27T09:33",
+    "pos": [1.346, 51.346],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-05-27T09:41",
+    "pos": [1.8099, 51.2058],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 3200
+   },
+   {
+    "at": "1940-05-27T09:49",
+    "pos": [2.2737, 51.0656],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 4500,
+    "note": "交战位置上空高度为教学重构，不是精确历史航迹"
+   },
+   {
+    "at": "1940-05-27T10:03",
+    "pos": [2.0882, 51.1216],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 5200
+   },
+   {
+    "at": "1940-05-27T10:15",
+    "pos": [1.7068, 51.2369],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 3100
+   },
+   {
+    "at": "1940-05-27T10:25",
+    "pos": [1.346, 51.346],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-05-27T10:30",
+    "pos": "@manston",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "归队"
+   },
+   {
+    "at": "1940-05-29T15:00",
+    "pos": "@manston",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "第 222 中队 第 2 次出击：起飞前停机"
+   },
+   {
+    "at": "1940-05-29T15:03",
+    "pos": [1.346, 51.346],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-05-29T15:11",
+    "pos": [1.8758, 51.2253],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 4300
+   },
+   {
+    "at": "1940-05-29T15:19",
+    "pos": [2.4056, 51.1046],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 5600,
+    "note": "交战位置上空高度为教学重构，不是精确历史航迹"
+   },
+   {
+    "at": "1940-05-29T15:33",
+    "pos": [2.1937, 51.1529],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 6300
+   },
+   {
+    "at": "1940-05-29T15:45",
+    "pos": [1.7581, 51.2521],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 4200
+   },
+   {
+    "at": "1940-05-29T15:55",
+    "pos": [1.346, 51.346],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-05-29T16:00",
+    "pos": "@manston",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "归队"
+   },
+   {
+    "at": "1940-05-31T08:00",
+    "pos": "@manston",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "第 222 中队 第 3 次出击：起飞前停机"
+   },
+   {
+    "at": "1940-05-31T08:03",
+    "pos": [1.346, 51.346],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-05-31T08:11",
+    "pos": [1.5767, 51.1684],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 4900
+   },
+   {
+    "at": "1940-05-31T08:19",
+    "pos": [1.8074, 50.9908],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 6200,
+    "note": "交战位置上空高度为教学重构，不是精确历史航迹"
+   },
+   {
+    "at": "1940-05-31T08:33",
+    "pos": [1.7151, 51.0618],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 6900
+   },
+   {
+    "at": "1940-05-31T08:45",
+    "pos": [1.5254, 51.2079],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 4800
+   },
+   {
+    "at": "1940-05-31T08:55",
+    "pos": [1.346, 51.346],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-05-31T09:00",
+    "pos": "@manston",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "归队"
+   },
+   {
+    "at": "1940-06-02T14:00",
+    "pos": "@manston",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "第 222 中队 第 4 次出击：起飞前停机"
+   },
+   {
+    "at": "1940-06-02T14:03",
+    "pos": [1.346, 51.346],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-06-02T14:11",
+    "pos": [1.8099, 51.2058],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 3900
+   },
+   {
+    "at": "1940-06-02T14:19",
+    "pos": [2.2737, 51.0656],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 5200,
+    "note": "交战位置上空高度为教学重构，不是精确历史航迹"
+   },
+   {
+    "at": "1940-06-02T14:33",
+    "pos": [2.0882, 51.1216],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 5900
+   },
+   {
+    "at": "1940-06-02T14:45",
+    "pos": [1.7068, 51.2369],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 3800
+   },
+   {
+    "at": "1940-06-02T14:55",
+    "pos": [1.346, 51.346],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-06-02T15:00",
+    "pos": "@manston",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "归队"
+   }
+  ],
+  "model": "spitfire"
+ },
+ {
+  "id": "gb.no601sqn",
+  "side": "GB",
+  "echelon": "squadron",
+  "type": "fighter",
+  "parent": "gb.11group",
+  "name": { "zh": "第 601（伦敦郡）中队（飓风 Mk I）", "orig": "No. 601 (County of London) Squadron RAuxAF", "short": "No.601 Sqn" },
+  "base": "@hawkinge",
+  "strength": { "aircraft": 12 },
+  "equipment": [
+   { "id": "hurricane_mk1", "count": 12 }
+  ],
+  "sources": ["franks_2006","battle_of_britain_raf","chamberlain_1940"],
+  "confidence": "medium",
+  "history": "「百万富翁中队」，1939-12 至 1940-6-1 驻坦米尔，并派分遣队驻法国梅维尔与圣瓦莱里。",
+  "active": { "from": "1940-05-22T07:00", "to": "1940-06-04T12:00" },
+  "track": [
+   {
+    "at": "1940-05-22T07:00",
+    "pos": "@tangmere",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0,
+    "note": "驻扎地在本图范围外；5 月末以 @hawkinge 为前进机场连续出击"
+   },
+   {
+    "at": "1940-05-22T10:00",
+    "pos": "@hawkinge",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0,
+    "note": "转场至前进机场"
+   },
+   {
+    "at": "1940-05-26T06:30",
+    "pos": "@hawkinge",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "第 601（伦敦郡）中队 第 1 次出击：起飞前停机"
+   },
+   {
+    "at": "1940-05-26T06:33",
+    "pos": [1.158, 51.109],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-05-26T06:41",
+    "pos": [1.7065, 51.0754],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 3200
+   },
+   {
+    "at": "1940-05-26T06:49",
+    "pos": [2.2549, 51.0419],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 4500,
+    "note": "交战位置上空高度为教学重构，不是精确历史航迹"
+   },
+   {
+    "at": "1940-05-26T07:03",
+    "pos": [2.0355, 51.0553],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 5200
+   },
+   {
+    "at": "1940-05-26T07:15",
+    "pos": [1.5846, 51.0829],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 3100
+   },
+   {
+    "at": "1940-05-26T07:25",
+    "pos": [1.158, 51.109],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-05-26T07:30",
+    "pos": "@hawkinge",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "归队"
+   },
+   {
+    "at": "1940-05-28T08:00",
+    "pos": "@hawkinge",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "第 601（伦敦郡）中队 第 2 次出击：起飞前停机"
+   },
+   {
+    "at": "1940-05-28T08:03",
+    "pos": [1.158, 51.109],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-05-28T08:11",
+    "pos": [1.7724, 51.095],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 4300
+   },
+   {
+    "at": "1940-05-28T08:19",
+    "pos": [2.3868, 51.0809],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 5600,
+    "note": "交战位置上空高度为教学重构，不是精确历史航迹"
+   },
+   {
+    "at": "1940-05-28T08:33",
+    "pos": [2.141, 51.0865],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 6300
+   },
+   {
+    "at": "1940-05-28T08:45",
+    "pos": [1.6359, 51.0981],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 4200
+   },
+   {
+    "at": "1940-05-28T08:55",
+    "pos": [1.158, 51.109],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-05-28T09:00",
+    "pos": "@hawkinge",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "归队"
+   },
+   {
+    "at": "1940-05-31T16:00",
+    "pos": "@hawkinge",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "第 601（伦敦郡）中队 第 3 次出击：起飞前停机"
+   },
+   {
+    "at": "1940-05-31T16:03",
+    "pos": [1.158, 51.109],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-05-31T16:11",
+    "pos": [1.4733, 51.038],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 4900
+   },
+   {
+    "at": "1940-05-31T16:19",
+    "pos": [1.7886, 50.9671],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 6200,
+    "note": "交战位置上空高度为教学重构，不是精确历史航迹"
+   },
+   {
+    "at": "1940-05-31T16:33",
+    "pos": [1.6625, 50.9955],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 6900
+   },
+   {
+    "at": "1940-05-31T16:45",
+    "pos": [1.4032, 51.0538],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 4800
+   },
+   {
+    "at": "1940-05-31T16:55",
+    "pos": [1.158, 51.109],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-05-31T17:00",
+    "pos": "@hawkinge",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "归队"
+   },
+   {
+    "at": "1940-06-01T07:30",
+    "pos": "@hawkinge",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "第 601（伦敦郡）中队 第 4 次出击：起飞前停机"
+   },
+   {
+    "at": "1940-06-01T07:33",
+    "pos": [1.158, 51.109],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-06-01T07:41",
+    "pos": [1.7065, 51.0754],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 3900
+   },
+   {
+    "at": "1940-06-01T07:49",
+    "pos": [2.2549, 51.0419],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 5200,
+    "note": "交战位置上空高度为教学重构，不是精确历史航迹"
+   },
+   {
+    "at": "1940-06-01T08:03",
+    "pos": [2.0355, 51.0553],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 5900
+   },
+   {
+    "at": "1940-06-01T08:15",
+    "pos": [1.5846, 51.0829],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 3800
+   },
+   {
+    "at": "1940-06-01T08:25",
+    "pos": [1.158, 51.109],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-06-01T08:30",
+    "pos": "@hawkinge",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "归队"
+   }
+  ],
+  "model": "hurricane"
+ },
+ {
+  "id": "gb.no605sqn",
+  "side": "GB",
+  "echelon": "squadron",
+  "type": "fighter",
+  "parent": "gb.11group",
+  "name": { "zh": "第 605（沃里克郡）中队（飓风 Mk I）", "orig": "No. 605 (County of Warwick) Squadron RAuxAF", "short": "No.605 Sqn" },
+  "base": "@hawkinge",
+  "strength": { "aircraft": 12 },
+  "equipment": [
+   { "id": "hurricane_mk1", "count": 12 }
+  ],
+  "sources": ["franks_2006","battle_of_britain_raf","chamberlain_1940"],
+  "confidence": "medium",
+  "history": "5-21 从苏格兰转场到霍金奇，5-25 在加来上空宣称击落 4 架 Ju 87 与 1 架 Hs 126（另有 5 架未确认），5-28 返回苏格兰。",
+  "active": { "from": "1940-05-22T07:00", "to": "1940-06-04T12:00" },
+  "track": [
+   {
+    "at": "1940-05-22T07:00",
+    "pos": "@hawkinge",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0,
+    "note": "驻扎地在本图范围外；5 月末以 @hawkinge 为前进机场连续出击"
+   },
+   {
+    "at": "1940-05-22T10:00",
+    "pos": "@hawkinge",
+    "status": "active",
+    "flightPhase": "at_base",
+    "altitudeM": 0,
+    "note": "转场至前进机场"
+   },
+   {
+    "at": "1940-05-25T06:00",
+    "pos": "@hawkinge",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "第 605（沃里克郡）中队 第 1 次出击：起飞前停机"
+   },
+   {
+    "at": "1940-05-25T06:03",
+    "pos": [1.158, 51.109],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-05-25T06:11",
+    "pos": [1.7065, 51.0754],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 3200
+   },
+   {
+    "at": "1940-05-25T06:19",
+    "pos": [2.2549, 51.0419],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 4500,
+    "note": "交战位置上空高度为教学重构，不是精确历史航迹"
+   },
+   {
+    "at": "1940-05-25T06:33",
+    "pos": [2.0355, 51.0553],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 5200
+   },
+   {
+    "at": "1940-05-25T06:45",
+    "pos": [1.5846, 51.0829],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 3100
+   },
+   {
+    "at": "1940-05-25T06:55",
+    "pos": [1.158, 51.109],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-05-25T07:00",
+    "pos": "@hawkinge",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "归队"
+   },
+   {
+    "at": "1940-05-26T17:54",
+    "pos": "@hawkinge",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "第 605（沃里克郡）中队 第 2 次出击：起飞前停机"
+   },
+   {
+    "at": "1940-05-26T17:57",
+    "pos": [1.158, 51.109],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-05-26T18:05",
+    "pos": [1.7724, 51.095],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 4300
+   },
+   {
+    "at": "1940-05-26T18:13",
+    "pos": [2.3868, 51.0809],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 5600,
+    "note": "交战位置上空高度为教学重构，不是精确历史航迹"
+   },
+   {
+    "at": "1940-05-26T18:27",
+    "pos": [2.141, 51.0865],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 6300
+   },
+   {
+    "at": "1940-05-26T18:39",
+    "pos": [1.6359, 51.0981],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 4200
+   },
+   {
+    "at": "1940-05-26T18:49",
+    "pos": [1.158, 51.109],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-05-26T18:54",
+    "pos": "@hawkinge",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "归队"
+   },
+   {
+    "at": "1940-05-27T08:00",
+    "pos": "@hawkinge",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "第 605（沃里克郡）中队 第 3 次出击：起飞前停机"
+   },
+   {
+    "at": "1940-05-27T08:03",
+    "pos": [1.158, 51.109],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-05-27T08:11",
+    "pos": [1.4733, 51.038],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 4900
+   },
+   {
+    "at": "1940-05-27T08:19",
+    "pos": [1.7886, 50.9671],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 6200,
+    "note": "交战位置上空高度为教学重构，不是精确历史航迹"
+   },
+   {
+    "at": "1940-05-27T08:33",
+    "pos": [1.6625, 50.9955],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 6900
+   },
+   {
+    "at": "1940-05-27T08:45",
+    "pos": [1.4032, 51.0538],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 4800
+   },
+   {
+    "at": "1940-05-27T08:55",
+    "pos": [1.158, 51.109],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-05-27T09:00",
+    "pos": "@hawkinge",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "归队"
+   },
+   {
+    "at": "1940-05-28T06:00",
+    "pos": "@hawkinge",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "第 605（沃里克郡）中队 第 4 次出击：起飞前停机"
+   },
+   {
+    "at": "1940-05-28T06:03",
+    "pos": [1.158, 51.109],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-05-28T06:11",
+    "pos": [1.7065, 51.0754],
+    "flightPhase": "outbound",
+    "status": "active",
+    "altitudeM": 3900
+   },
+   {
+    "at": "1940-05-28T06:19",
+    "pos": [2.2549, 51.0419],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 5200,
+    "note": "交战位置上空高度为教学重构，不是精确历史航迹"
+   },
+   {
+    "at": "1940-05-28T06:33",
+    "pos": [2.0355, 51.0553],
+    "flightPhase": "engaged",
+    "status": "engaged",
+    "altitudeM": 5900
+   },
+   {
+    "at": "1940-05-28T06:45",
+    "pos": [1.5846, 51.0829],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 3800
+   },
+   {
+    "at": "1940-05-28T06:55",
+    "pos": [1.158, 51.109],
+    "flightPhase": "returning",
+    "status": "active",
+    "altitudeM": 3000
+   },
+   {
+    "at": "1940-05-28T07:00",
+    "pos": "@hawkinge",
+    "flightPhase": "at_base",
+    "status": "active",
+    "altitudeM": 0,
+    "note": "归队"
+   }
+  ],
+  "model": "hurricane"
+ },
+ {
+  "id": "gb.dover_cmd",
+  "side": "GB",
+  "echelon": "command",
+  "type": "hq",
+  "parent": null,
+  "display": "container",
+  "name": { "zh": "多佛指挥部", "orig": "Dover Command", "short": "Dover" },
+  "commander": { "zh": "拉姆齐海军中将", "orig": "Vice-Admiral Sir Bertram Ramsay" },
+  "model": "navy_token",
+  "sources": ["dynamo_despatch","scott_1941","coastal_forces","lord_1982"],
+  "confidence": "high",
+  "track": [
+   { "at": "1940-05-22T00:00", "pos": "@dover_castle", "status": "active", "note": "多佛城堡下的指挥部；发电机行动的指挥中枢" }
+  ],
+  "history": "拉姆齐 5-20 起在多佛城堡下的指挥部筹划撤离，5-26 18:57 接到「开始发电机行动」的电令。三条航线、防波堤靠泊方案与岸勤组织都出自这里。"
+ },
+ {
+  "id": "gb.force_a",
+  "side": "GB",
+  "echelon": "group",
+  "type": "naval",
+  "parent": "gb.dover_cmd",
+  "name": { "zh": "Force A / 敦刻尔克海军岸勤", "orig": "Force A — Naval Beach Organisation, Dunkirk", "short": "Force A" },
+  "commander": { "zh": "坦南特上校", "orig": "Captain William Tennant" },
+  "model": "navy_token",
+  "sources": ["coastal_forces","dynamo_despatch","national_archives_dynamo","lord_1982","mason_1969"],
+  "confidence": "high",
+  "track": [
+   { "at": "1940-05-27T14:00", "pos": "@east_mole", "status": "active", "note": "5-27 坦南特抵达，接管海滩与防波堤登船组织" },
+   { "at": "1940-05-29T12:00", "pos": "@east_mole", "status": "active", "note": "把主要登船点从海滩改到东防波堤，一周内经此撤出近 20 万人" },
+   {
+    "at": "1940-06-02T23:00",
+    "pos": "@dunkirk_roads",
+    "status": "evacuated",
+    "note": "6-3 00:00 前后「BEF evacuated」，坦南特返航多佛；6-4 夜法军最后一批撤出"
+   }
+  ],
+  "history": "坦南特率岸勤分队在东防波堤组织登船，克劳斯顿（Clouston）负责防波堤上的调度。防波堤不是为靠泊设计的，但最终近 20 万人从这里登船，超过海滩撤出人数的两倍。"
+ }
+]

@@ -1,0 +1,1186 @@
+[
+  {
+    "id": "r.dk_de_kleist_coast",
+    "side": "DE",
+    "unit": "de.pg_kleist",
+    "style": "main",
+    "widthKm": 8,
+    "label": "克莱斯特装甲集群：运河线—海岸",
+    "waypoints": [
+      {
+        "at": "1940-05-22T00:00",
+        "pos": "@saint_quentin"
+      },
+      {
+        "at": "1940-05-23T12:00",
+        "pos": "@aire_sur_la_lys"
+      },
+      {
+        "at": "1940-05-24T12:45",
+        "pos": "@saint_omer"
+      },
+      {
+        "at": "1940-05-26T18:00",
+        "pos": "@aire_sur_la_lys"
+      },
+      {
+        "at": "1940-05-28T12:00",
+        "pos": "@bollezeele"
+      },
+      {
+        "at": "1940-06-01T12:00",
+        "pos": "@bergues"
+      }
+    ],
+    "sources": [
+      "kleist_ktb",
+      "korth_1958",
+      "frieser_2005",
+      "aok4_ktb"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "r.dk_de_xix_stopline",
+    "side": "DE",
+    "unit": "de.xix",
+    "style": "main",
+    "widthKm": 6,
+    "label": "第 XIX 摩托化军：加来—格拉沃利讷停止线",
+    "waypoints": [
+      {
+        "at": "1940-05-22T00:00",
+        "pos": "@marquise"
+      },
+      {
+        "at": "1940-05-23T18:00",
+        "pos": "@calais"
+      },
+      {
+        "at": "1940-05-24T14:30",
+        "pos": "@gravelines"
+      },
+      {
+        "at": "1940-05-26T18:00",
+        "pos": "@bourbourg"
+      },
+      {
+        "at": "1940-05-28T06:00",
+        "pos": "@fort_mardyck"
+      },
+      {
+        "at": "1940-05-31T12:00",
+        "pos": "@saint_pol"
+      }
+    ],
+    "sources": [
+      "guderian_ktb",
+      "kleist_ktb",
+      "klee_1940",
+      "jacobsen_1957"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "r.dk_de_1pz_canal",
+    "side": "DE",
+    "unit": "de.1pz",
+    "style": "main",
+    "widthKm": 5,
+    "label": "第 1 装甲师：加来—敦刻尔克",
+    "waypoints": [
+      {
+        "at": "1940-05-22T00:00",
+        "pos": "@marquise"
+      },
+      {
+        "at": "1940-05-23T18:00",
+        "pos": "@sangatte"
+      },
+      {
+        "at": "1940-05-24T14:30",
+        "pos": "@gravelines"
+      },
+      {
+        "at": "1940-05-27T08:00",
+        "pos": "@bourbourg"
+      },
+      {
+        "at": "1940-05-28T06:00",
+        "pos": "@fort_mardyck"
+      },
+      {
+        "at": "1940-05-31T12:00",
+        "pos": "@saint_pol"
+      },
+      {
+        "at": "1940-06-04T09:00",
+        "pos": "@dunkirk"
+      }
+    ],
+    "sources": [
+      "klee_1940",
+      "guderian_ktb",
+      "frieser_2005"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "r.dk_de_1pz_stop",
+    "side": "DE",
+    "unit": "de.1pz",
+    "style": "secondary",
+    "widthKm": 3,
+    "label": "第 1 装甲师：阿河运河停止线（5-24 → 5-26）",
+    "waypoints": [
+      {
+        "at": "1940-05-24T14:30",
+        "pos": "@gravelines"
+      },
+      {
+        "at": "1940-05-25T12:00",
+        "pos": "@petit_fort_philippe"
+      },
+      {
+        "at": "1940-05-26T12:00",
+        "pos": "@loon_plage"
+      },
+      {
+        "at": "1940-05-26T18:00",
+        "pos": "@gravelines"
+      }
+    ],
+    "sources": [
+      "klee_1940",
+      "hitler_weisung13",
+      "haltebefehl_1940"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "r.dk_de_2pz_boulogne",
+    "side": "DE",
+    "unit": "de.2pz",
+    "style": "main",
+    "widthKm": 5,
+    "label": "第 2 装甲师：布洛涅—圣奥梅尔",
+    "waypoints": [
+      {
+        "at": "1940-05-22T00:00",
+        "pos": "@etaples"
+      },
+      {
+        "at": "1940-05-23T12:00",
+        "pos": "@boulogne"
+      },
+      {
+        "at": "1940-05-24T18:00",
+        "pos": "@wimereux"
+      },
+      {
+        "at": "1940-05-25T18:00",
+        "pos": "@boulogne"
+      },
+      {
+        "at": "1940-05-27T08:00",
+        "pos": "@saint_omer"
+      },
+      {
+        "at": "1940-05-28T12:00",
+        "pos": "@watten"
+      },
+      {
+        "at": "1940-05-30T12:00",
+        "pos": "@aire_sur_la_lys"
+      }
+    ],
+    "sources": [
+      "guderian_ktb",
+      "ellis_1953",
+      "kleist_ktb"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "r.dk_de_10pz_calais",
+    "side": "DE",
+    "unit": "de.10pz",
+    "style": "main",
+    "widthKm": 4,
+    "label": "第 10 装甲师：加来围城",
+    "waypoints": [
+      {
+        "at": "1940-05-22T12:00",
+        "pos": "@marquise"
+      },
+      {
+        "at": "1940-05-23T18:00",
+        "pos": "@calais"
+      },
+      {
+        "at": "1940-05-25T12:00",
+        "pos": "@sangatte"
+      },
+      {
+        "at": "1940-05-26T16:00",
+        "pos": "@calais"
+      },
+      {
+        "at": "1940-05-28T12:00",
+        "pos": "@bourbourg"
+      },
+      {
+        "at": "1940-05-29T12:00",
+        "pos": "@spycker"
+      }
+    ],
+    "sources": [
+      "guderian_ktb",
+      "ellis_1953",
+      "divine_1940"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "r.dk_de_10pz_east",
+    "side": "DE",
+    "unit": "de.10pz",
+    "style": "secondary",
+    "widthKm": 4,
+    "label": "第 10 装甲师：加来受降后东调",
+    "waypoints": [
+      {
+        "at": "1940-05-27T06:00",
+        "pos": "@calais"
+      },
+      {
+        "at": "1940-05-27T18:00",
+        "pos": "@gravelines"
+      },
+      {
+        "at": "1940-05-29T06:00",
+        "pos": "@spycker"
+      },
+      {
+        "at": "1940-05-31T12:00",
+        "pos": "@saint_omer"
+      },
+      {
+        "at": "1940-06-02T12:00",
+        "pos": "@arras"
+      }
+    ],
+    "sources": [
+      "guderian_ktb",
+      "kleist_ktb",
+      "frieser_2005"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "r.dk_de_6pz_lys",
+    "side": "DE",
+    "unit": "de.6pz",
+    "style": "main",
+    "widthKm": 6,
+    "label": "第 6 装甲师：利斯河—卡塞尔",
+    "waypoints": [
+      {
+        "at": "1940-05-22T12:00",
+        "pos": "@estaires"
+      },
+      {
+        "at": "1940-05-23T12:00",
+        "pos": "@merville"
+      },
+      {
+        "at": "1940-05-24T18:00",
+        "pos": "@hazebrouck"
+      },
+      {
+        "at": "1940-05-26T06:00",
+        "pos": "@bailleul"
+      },
+      {
+        "at": "1940-05-27T08:00",
+        "pos": "@cassel"
+      },
+      {
+        "at": "1940-05-28T10:00",
+        "pos": "@mont_cassel"
+      }
+    ],
+    "sources": [
+      "kleist_ktb",
+      "aok4_ktb",
+      "ellis_1953"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "r.dk_de_6pz_turn",
+    "side": "DE",
+    "unit": "de.6pz",
+    "style": "main",
+    "widthKm": 6,
+    "label": "第 6 装甲师：卡塞尔—里尔以东—贝尔格",
+    "waypoints": [
+      {
+        "at": "1940-05-29T14:00",
+        "pos": "@cassel"
+      },
+      {
+        "at": "1940-05-30T12:00",
+        "pos": "@tourcoing"
+      },
+      {
+        "at": "1940-05-31T12:00",
+        "pos": "@roubaix"
+      },
+      {
+        "at": "1940-06-01T08:00",
+        "pos": "@comines"
+      },
+      {
+        "at": "1940-06-02T04:00",
+        "pos": "@bergues"
+      },
+      {
+        "at": "1940-06-03T12:00",
+        "pos": "@uxem"
+      },
+      {
+        "at": "1940-06-04T09:00",
+        "pos": "@dunkirk"
+      }
+    ],
+    "sources": [
+      "kleist_ktb",
+      "aok4_ktb",
+      "ellis_1953",
+      "frieser_2005"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "r.dk_de_8pz_monts",
+    "side": "DE",
+    "unit": "de.8pz",
+    "style": "main",
+    "widthKm": 6,
+    "label": "第 8 装甲师：利斯河—黑山—贝尔格",
+    "waypoints": [
+      {
+        "at": "1940-05-22T12:00",
+        "pos": "@aire_sur_la_lys"
+      },
+      {
+        "at": "1940-05-24T06:00",
+        "pos": "@hazebrouck"
+      },
+      {
+        "at": "1940-05-26T06:00",
+        "pos": "@bailleul"
+      },
+      {
+        "at": "1940-05-28T08:00",
+        "pos": "@mont_des_cats"
+      },
+      {
+        "at": "1940-05-30T12:00",
+        "pos": "@poperinge"
+      },
+      {
+        "at": "1940-06-01T12:00",
+        "pos": "@bollezeele"
+      },
+      {
+        "at": "1940-06-02T12:00",
+        "pos": "@bergues"
+      },
+      {
+        "at": "1940-06-03T12:00",
+        "pos": "@hoymille"
+      },
+      {
+        "at": "1940-06-04T09:00",
+        "pos": "@dunkirk"
+      }
+    ],
+    "sources": [
+      "kleist_ktb",
+      "ellis_1953",
+      "aok4_ktb"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "r.dk_de_8pz_bergues",
+    "side": "DE",
+    "unit": "de.8pz",
+    "style": "secondary",
+    "widthKm": 4,
+    "label": "第 8 装甲师：6-1 贝尔格突击",
+    "waypoints": [
+      {
+        "at": "1940-06-01T05:00",
+        "pos": "@bollezeele"
+      },
+      {
+        "at": "1940-06-01T14:00",
+        "pos": "@socx"
+      },
+      {
+        "at": "1940-06-02T04:00",
+        "pos": "@bergues"
+      },
+      {
+        "at": "1940-06-02T18:00",
+        "pos": "@warhem"
+      }
+    ],
+    "sources": [
+      "ellis_1953",
+      "aok6_ktb",
+      "frieser_2005"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "r.dk_de_9pz_menen",
+    "side": "DE",
+    "unit": "de.9pz",
+    "style": "main",
+    "widthKm": 7,
+    "label": "第 9 装甲师：利斯河下游—梅嫩",
+    "waypoints": [
+      {
+        "at": "1940-05-22T00:00",
+        "pos": "@antwerpen"
+      },
+      {
+        "at": "1940-05-24T18:00",
+        "pos": "@gent"
+      },
+      {
+        "at": "1940-05-26T06:00",
+        "pos": "@waregem"
+      },
+      {
+        "at": "1940-05-26T16:00",
+        "pos": "@kortrijk"
+      },
+      {
+        "at": "1940-05-27T06:00",
+        "pos": "@menen"
+      },
+      {
+        "at": "1940-05-27T18:00",
+        "pos": "@roeselare"
+      }
+    ],
+    "sources": [
+      "aok6_ktb",
+      "ellis_1953",
+      "frieser_2005"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "r.dk_de_9pz_tielt",
+    "side": "DE",
+    "unit": "de.9pz",
+    "style": "main",
+    "widthKm": 7,
+    "label": "第 9 装甲师：蒂尔特—鲁瑟拉勒—海岸",
+    "waypoints": [
+      {
+        "at": "1940-05-27T18:00",
+        "pos": "@menen"
+      },
+      {
+        "at": "1940-05-28T12:00",
+        "pos": "@tielt"
+      },
+      {
+        "at": "1940-05-29T12:00",
+        "pos": "@diksmuide"
+      },
+      {
+        "at": "1940-05-30T12:00",
+        "pos": "@veurne"
+      },
+      {
+        "at": "1940-05-31T12:00",
+        "pos": "@adinkerke"
+      },
+      {
+        "at": "1940-06-02T12:00",
+        "pos": "@la_panne"
+      },
+      {
+        "at": "1940-06-04T12:00",
+        "pos": "@dunkirk"
+      }
+    ],
+    "sources": [
+      "aok6_ktb",
+      "ellis_1953",
+      "bock_diary"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "r.dk_de_xli_cassel",
+    "side": "DE",
+    "unit": "de.xli",
+    "style": "main",
+    "widthKm": 7,
+    "label": "第 XLI 摩托化军：利斯河—卡塞尔—贝尔格",
+    "waypoints": [
+      {
+        "at": "1940-05-22T00:00",
+        "pos": "@arras"
+      },
+      {
+        "at": "1940-05-24T12:00",
+        "pos": "@estaires"
+      },
+      {
+        "at": "1940-05-26T12:00",
+        "pos": "@hazebrouck"
+      },
+      {
+        "at": "1940-05-28T12:00",
+        "pos": "@cassel"
+      },
+      {
+        "at": "1940-05-30T12:00",
+        "pos": "@bailleul"
+      },
+      {
+        "at": "1940-06-01T12:00",
+        "pos": "@bergues"
+      },
+      {
+        "at": "1940-06-03T12:00",
+        "pos": "@dunkirk"
+      }
+    ],
+    "sources": [
+      "kleist_ktb",
+      "aok4_ktb",
+      "ellis_1953"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "r.dk_de_xiv_ypres",
+    "side": "DE",
+    "unit": "de.xiv",
+    "style": "secondary",
+    "widthKm": 6,
+    "label": "第 XIV 摩托化军：利斯河—伊珀尔",
+    "waypoints": [
+      {
+        "at": "1940-05-25T12:00",
+        "pos": "@cambrai"
+      },
+      {
+        "at": "1940-05-27T12:00",
+        "pos": "@doornik"
+      },
+      {
+        "at": "1940-05-29T12:00",
+        "pos": "@comines"
+      },
+      {
+        "at": "1940-06-01T12:00",
+        "pos": "@poperinge"
+      },
+      {
+        "at": "1940-06-03T12:00",
+        "pos": "@hondschoote"
+      }
+    ],
+    "sources": [
+      "kleist_ktb",
+      "ellis_1953"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "r.dk_de_a18_coast",
+    "side": "DE",
+    "unit": "de.a18",
+    "style": "main",
+    "widthKm": 8,
+    "label": "第 18 集团军：比利时海岸西进",
+    "waypoints": [
+      {
+        "at": "1940-05-22T00:00",
+        "pos": "@antwerpen"
+      },
+      {
+        "at": "1940-05-25T12:00",
+        "pos": "@gent"
+      },
+      {
+        "at": "1940-05-28T12:00",
+        "pos": "@brugge"
+      },
+      {
+        "at": "1940-05-31T06:00",
+        "pos": "@oostende"
+      },
+      {
+        "at": "1940-06-02T12:00",
+        "pos": "@adinkerke"
+      },
+      {
+        "at": "1940-06-04T09:00",
+        "pos": "@dunkirk"
+      }
+    ],
+    "sources": [
+      "aok6_ktb",
+      "ellis_1953",
+      "frieser_2005"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "r.dk_de_61id_nieuport",
+    "side": "DE",
+    "unit": "de.61id",
+    "style": "main",
+    "widthKm": 5,
+    "label": "第 61 步兵师：新港—拉帕讷向心突击",
+    "waypoints": [
+      {
+        "at": "1940-05-26T12:00",
+        "pos": "@gent"
+      },
+      {
+        "at": "1940-05-28T12:00",
+        "pos": "@brugge"
+      },
+      {
+        "at": "1940-05-30T12:00",
+        "pos": "@diksmuide"
+      },
+      {
+        "at": "1940-05-31T12:00",
+        "pos": "@nieuwpoort"
+      },
+      {
+        "at": "1940-06-01T12:00",
+        "pos": "@adinkerke"
+      },
+      {
+        "at": "1940-06-03T12:00",
+        "pos": "@la_panne"
+      },
+      {
+        "at": "1940-06-04T09:00",
+        "pos": "@dunkirk"
+      }
+    ],
+    "sources": [
+      "aok6_ktb",
+      "ellis_1953",
+      "frieser_2005"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "r.dk_de_256id_bridgehead",
+    "side": "DE",
+    "unit": "de.256id",
+    "style": "main",
+    "widthKm": 5,
+    "label": "第 256 步兵师：新港桥头堡—祖伊德科特",
+    "waypoints": [
+      {
+        "at": "1940-05-24T12:00",
+        "pos": "@aalter"
+      },
+      {
+        "at": "1940-05-26T12:00",
+        "pos": "@oostende"
+      },
+      {
+        "at": "1940-05-28T12:00",
+        "pos": "@nieuwpoort"
+      },
+      {
+        "at": "1940-05-30T12:00",
+        "pos": "@adinkerke"
+      },
+      {
+        "at": "1940-06-01T12:00",
+        "pos": "@la_panne"
+      },
+      {
+        "at": "1940-06-02T12:00",
+        "pos": "@zuydcoote"
+      },
+      {
+        "at": "1940-06-04T09:00",
+        "pos": "@dunkirk"
+      }
+    ],
+    "sources": [
+      "aok6_ktb",
+      "ellis_1953",
+      "frieser_2005"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "r.dk_de_216id_bray",
+    "side": "DE",
+    "unit": "de.216id",
+    "style": "main",
+    "widthKm": 5,
+    "label": "第 216 步兵师：弗尔讷—布雷迪讷海滩",
+    "waypoints": [
+      {
+        "at": "1940-05-26T12:00",
+        "pos": "@brugge"
+      },
+      {
+        "at": "1940-05-28T12:00",
+        "pos": "@diksmuide"
+      },
+      {
+        "at": "1940-05-30T12:00",
+        "pos": "@veurne"
+      },
+      {
+        "at": "1940-05-31T12:00",
+        "pos": "@adinkerke"
+      },
+      {
+        "at": "1940-06-02T12:00",
+        "pos": "@la_panne"
+      },
+      {
+        "at": "1940-06-04T10:00",
+        "pos": "@bray_dunes"
+      }
+    ],
+    "sources": [
+      "aok6_ktb",
+      "ellis_1953"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "r.dk_de_9pz_la_panne",
+    "side": "DE",
+    "unit": "de.9pz",
+    "style": "secondary",
+    "widthKm": 4,
+    "label": "第 9 装甲师：拉帕讷海滩压缩",
+    "waypoints": [
+      {
+        "at": "1940-06-01T12:00",
+        "pos": "@veurne"
+      },
+      {
+        "at": "1940-06-02T12:00",
+        "pos": "@adinkerke"
+      },
+      {
+        "at": "1940-06-03T12:00",
+        "pos": "@la_panne"
+      },
+      {
+        "at": "1940-06-04T12:00",
+        "pos": "@dunkirk"
+      }
+    ],
+    "sources": [
+      "aok6_ktb",
+      "ellis_1953"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "r.dk_de_gd_east",
+    "side": "DE",
+    "unit": "de.gd",
+    "style": "main",
+    "widthKm": 4,
+    "label": "「大德意志」团：贝尔格—翁斯科特",
+    "waypoints": [
+      {
+        "at": "1940-05-28T06:00",
+        "pos": "@bollezeele"
+      },
+      {
+        "at": "1940-05-29T12:00",
+        "pos": "@bergues"
+      },
+      {
+        "at": "1940-05-31T12:00",
+        "pos": "@ghyvelde"
+      },
+      {
+        "at": "1940-06-01T12:00",
+        "pos": "@hondschoote"
+      },
+      {
+        "at": "1940-06-03T12:00",
+        "pos": "@tetegham"
+      },
+      {
+        "at": "1940-06-04T09:00",
+        "pos": "@dunkirk"
+      }
+    ],
+    "sources": [
+      "ellis_1953",
+      "aok6_ktb"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "r.dk_de_xv_canal",
+    "side": "DE",
+    "unit": "de.xv",
+    "style": "secondary",
+    "widthKm": 6,
+    "label": "第 XV 摩托化军：拉巴塞运河—波珀灵厄",
+    "waypoints": [
+      {
+        "at": "1940-05-24T12:00",
+        "pos": "@la_bassee"
+      },
+      {
+        "at": "1940-05-27T12:00",
+        "pos": "@bethune"
+      },
+      {
+        "at": "1940-05-29T12:00",
+        "pos": "@hazebrouck"
+      },
+      {
+        "at": "1940-06-01T12:00",
+        "pos": "@poperinge"
+      }
+    ],
+    "sources": [
+      "aok4_ktb",
+      "ellis_1953"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "r.dk_de_sstk_paradis",
+    "side": "DE",
+    "unit": "de.sstk",
+    "style": "secondary",
+    "widthKm": 5,
+    "label": "SS「骷髅」师：拉巴塞运河—勒帕拉迪—翁斯科特",
+    "waypoints": [
+      {
+        "at": "1940-05-24T12:00",
+        "pos": "@la_bassee"
+      },
+      {
+        "at": "1940-05-26T12:00",
+        "pos": "@bethune"
+      },
+      {
+        "at": "1940-05-27T12:00",
+        "pos": "@le_paradis"
+      },
+      {
+        "at": "1940-05-29T12:00",
+        "pos": "@bailleul"
+      },
+      {
+        "at": "1940-05-31T12:00",
+        "pos": "@poperinge"
+      },
+      {
+        "at": "1940-06-01T12:00",
+        "pos": "@hondschoote"
+      },
+      {
+        "at": "1940-06-03T12:00",
+        "pos": "@ghyvelde"
+      }
+    ],
+    "sources": [
+      "ellis_1953",
+      "aok4_ktb",
+      "sebag_2006"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "r.dk_de_lille_ring",
+    "side": "DE",
+    "unit": "de.xxvii",
+    "style": "main",
+    "widthKm": 6,
+    "label": "第 XXVII 军：里尔合围",
+    "waypoints": [
+      {
+        "at": "1940-05-25T12:00",
+        "pos": "@valenciennes"
+      },
+      {
+        "at": "1940-05-27T12:00",
+        "pos": "@saint_amand"
+      },
+      {
+        "at": "1940-05-28T12:00",
+        "pos": "@seclin"
+      },
+      {
+        "at": "1940-05-30T12:00",
+        "pos": "@lille"
+      },
+      {
+        "at": "1940-05-31T23:00",
+        "pos": "@roubaix"
+      }
+    ],
+    "sources": [
+      "ellis_lille_1952",
+      "ellis_1953",
+      "aok6_ktb"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "r.dk_de_ii_lille",
+    "side": "DE",
+    "unit": "de.ii",
+    "style": "secondary",
+    "widthKm": 5,
+    "label": "第 II 军：瓦朗谢讷—里尔",
+    "waypoints": [
+      {
+        "at": "1940-05-25T12:00",
+        "pos": "@mons"
+      },
+      {
+        "at": "1940-05-27T12:00",
+        "pos": "@saint_amand"
+      },
+      {
+        "at": "1940-05-29T12:00",
+        "pos": "@seclin"
+      },
+      {
+        "at": "1940-06-01T12:00",
+        "pos": "@lille"
+      }
+    ],
+    "sources": [
+      "aok4_ktb",
+      "hitler_weisung13",
+      "ellis_lille_1952"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "r.dk_de_267id_north",
+    "side": "DE",
+    "unit": "de.267id",
+    "style": "secondary",
+    "widthKm": 5,
+    "label": "第 267 步兵师：里尔—卡塞尔—沃尔穆特",
+    "waypoints": [
+      {
+        "at": "1940-06-01T12:00",
+        "pos": "@lille"
+      },
+      {
+        "at": "1940-06-02T12:00",
+        "pos": "@bailleul"
+      },
+      {
+        "at": "1940-06-03T08:00",
+        "pos": "@cassel"
+      },
+      {
+        "at": "1940-06-03T18:00",
+        "pos": "@esquelbecq"
+      },
+      {
+        "at": "1940-06-04T09:00",
+        "pos": "@wormhout"
+      }
+    ],
+    "sources": [
+      "ellis_1953",
+      "ellis_lille_1952"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "r.dk_de_dunkirk_final",
+    "side": "DE",
+    "unit": "de.a18",
+    "style": "main",
+    "widthKm": 8,
+    "label": "第 18 集团军：6-1 起对贝尔格与敦刻尔克的猛攻",
+    "waypoints": [
+      {
+        "at": "1940-06-01T11:00",
+        "pos": "@adinkerke"
+      },
+      {
+        "at": "1940-06-01T18:00",
+        "pos": "@ghyvelde"
+      },
+      {
+        "at": "1940-06-02T12:00",
+        "pos": "@bergues"
+      },
+      {
+        "at": "1940-06-03T12:00",
+        "pos": "@coudekerque"
+      },
+      {
+        "at": "1940-06-04T09:00",
+        "pos": "@dunkirk_port"
+      }
+    ],
+    "sources": [
+      "aok6_ktb",
+      "ellis_1953",
+      "frieser_2005",
+      "lutfalla_1973"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "r.dk_de_jg26_cover",
+    "side": "DE",
+    "unit": "de.jg26",
+    "style": "secondary",
+    "widthKm": 3,
+    "movement": "air",
+    "role": "escort",
+    "label": "JG 26：敦刻尔克上空护航",
+    "waypoints": [
+      {
+        "at": "1940-05-27T06:00",
+        "pos": "@ursel"
+      },
+      {
+        "at": "1940-05-27T08:00",
+        "pos": "@dunkirk"
+      },
+      {
+        "at": "1940-05-27T09:30",
+        "pos": "@ursel"
+      },
+      {
+        "at": "1940-05-29T08:00",
+        "pos": "@dunkirk_roads"
+      },
+      {
+        "at": "1940-06-01T08:00",
+        "pos": "@dunkirk"
+      },
+      {
+        "at": "1940-06-03T08:00",
+        "pos": "@dunkirk"
+      }
+    ],
+    "sources": [
+      "balke_1989",
+      "kesselring_1953"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "r.dk_de_stg2_bergues",
+    "side": "DE",
+    "unit": "de.stg2",
+    "style": "secondary",
+    "widthKm": 3,
+    "movement": "air",
+    "role": "interdiction",
+    "label": "StG 2：俯冲轰炸贝尔格与港区",
+    "waypoints": [
+      {
+        "at": "1940-05-26T07:00",
+        "pos": "@st_omer_airfield"
+      },
+      {
+        "at": "1940-05-26T09:00",
+        "pos": "@calais"
+      },
+      {
+        "at": "1940-05-28T08:00",
+        "pos": "@bergues"
+      },
+      {
+        "at": "1940-05-29T08:00",
+        "pos": "@dunkirk_port"
+      },
+      {
+        "at": "1940-06-01T08:00",
+        "pos": "@hoymille"
+      },
+      {
+        "at": "1940-06-03T09:00",
+        "pos": "@dunkirk_port"
+      }
+    ],
+    "sources": [
+      "balke_1989",
+      "ellis_1953"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "r.dk_de_20idmot_bray",
+    "side": "DE",
+    "unit": "de.20id_mot",
+    "style": "main",
+    "widthKm": 4,
+    "label": "第 20 摩托化步兵师：贝尔格—布雷迪讷",
+    "waypoints": [
+      {
+        "at": "1940-05-26T12:00",
+        "pos": "@aire_sur_la_lys"
+      },
+      {
+        "at": "1940-05-28T12:00",
+        "pos": "@bollezeele"
+      },
+      {
+        "at": "1940-05-30T12:00",
+        "pos": "@bergues"
+      },
+      {
+        "at": "1940-06-01T12:00",
+        "pos": "@ghyvelde"
+      },
+      {
+        "at": "1940-06-03T12:00",
+        "pos": "@killem"
+      },
+      {
+        "at": "1940-06-04T09:00",
+        "pos": "@dunkirk"
+      }
+    ],
+    "sources": [
+      "kleist_ktb",
+      "ellis_1953",
+      "aok6_ktb"
+    ],
+    "confidence": "high"
+  }
+]

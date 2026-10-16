@@ -1,0 +1,115 @@
+[
+  {
+    "id": "p.dk_boulogne",
+    "name": {
+      "zh": "布洛涅口袋",
+      "orig": "Poche de Boulogne",
+      "short": "布洛涅"
+    },
+    "start": "1940-05-22T00:00",
+    "end": "1940-05-25T18:00",
+    "anchor": "@boulogne",
+    "fate": "surrendered",
+    "units": [
+      "de.2pz",
+      "de.10pz",
+      "gb.20gds_bde",
+      "fr.marine"
+    ],
+    "note": "古德里安第 XIX 摩托化军第 2 装甲师 5 月 22 日合围布洛涅港，英军第 20 近卫旅与法军海军守备队据守旧城四天。5 月 23 日夜起英军由海上撤走约 4,300 人，法军残部 5 月 25 日投降，德军当日占领港口。",
+    "sources": [
+      "guderian_ktb",
+      "ellis_1953",
+      "frieser_2005",
+      "divine_1940"
+    ]
+  },
+  {
+    "id": "p.dk_calais",
+    "name": {
+      "zh": "加来口袋",
+      "orig": "Poche de Calais",
+      "short": "加来"
+    },
+    "start": "1940-05-23T00:00",
+    "end": "1940-05-26T16:00",
+    "anchor": "@calais",
+    "fate": "surrendered",
+    "units": [
+      "de.10pz",
+      "gb.30bde",
+      "fr.sect_fort"
+    ],
+    "note": "第 10 装甲师 5 月 23 日包围加来，英军第 30 步兵旅与法军要塞部队退守 1670 年代的旧城墙。5 月 24 日德军报告约半数坦克被击毁、三分之一步兵伤亡；5 月 26 日 16:00 守军崩溃，尼科尔森准将以下约 4,000 人投降。",
+    "sources": [
+      "guderian_ktb",
+      "ellis_1953",
+      "frieser_2005",
+      "divine_1940"
+    ]
+  },
+  {
+    "id": "p.dk_lille",
+    "name": {
+      "zh": "里尔口袋",
+      "orig": "Kessel von Lille",
+      "short": "里尔"
+    },
+    "start": "1940-05-27T00:00",
+    "end": "1940-05-31T23:59",
+    "anchor": "@lille",
+    "fate": "surrendered",
+    "units": [
+      "de.xxvii",
+      "de.253id",
+      "de.267id",
+      "de.6pz",
+      "fr.1ca",
+      "fr.5ca",
+      "fr.3ca",
+      "fr.4ca"
+    ],
+    "note": "法军第 1 集团军残部约 35,000 人被七个德国师（含三个装甲师）合围于里尔，5 月 28 至 31 日抵抗四天，牵制了本可用于敦刻尔克的德军兵力。5 月 31 日午夜守军投降，德军准其 6 月 1 日全副武装列队走过大广场，给予「荣誉受降」。",
+    "sources": [
+      "ellis_lille_1952",
+      "ellis_1953",
+      "frieser_2005",
+      "aok4_ktb",
+      "churchill_1949"
+    ]
+  },
+  {
+    "id": "p.dk_dunkirk",
+    "name": {
+      "zh": "敦刻尔克桥头堡",
+      "orig": "Brückenkopf Dünkirchen",
+      "short": "敦刻尔克"
+    },
+    "start": "1940-05-28T06:00",
+    "end": "1940-06-04T09:00",
+    "anchor": "@dunkirk",
+    "fate": "surrendered",
+    "units": [
+      "de.a18",
+      "de.61id",
+      "de.20id_mot",
+      "de.256id",
+      "de.267id",
+      "fr.262di",
+      "fr.68di",
+      "fr.2dlm",
+      "fr.12dim",
+      "gb.1div",
+      "gb.4div",
+      "gb.46div"
+    ],
+    "note": "5 月 28 日英军退入运河线，桥头堡自格拉沃利讷经贝尔格、弗尔讷延伸至纽波特。德军 6 月 1 日 11:00 全线总攻，6 月 2 日夜攻占贝尔格，6 月 3 日压缩到城郊。6 月 4 日 09:00 法军约 40,000 人投降，德军进占港区。",
+    "sources": [
+      "aok6_ktb",
+      "ellis_1953",
+      "frieser_2005",
+      "lutfalla_1973",
+      "abrial_1940"
+    ]
+  }
+]

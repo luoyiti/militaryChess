@@ -1,0 +1,58 @@
+{
+ "at": "1940-06-03T12:00",
+ "control": {
+  "DE": [
+   [
+    [
+     [
+      -1.6,
+      48.3
+     ],
+     [
+      6.6,
+      48.3
+     ],
+     [
+      6.6,
+      52.9
+     ],
+     [
+      4.2483,
+      52.9
+     ],
+     "@terneuzen",
+     "@eeklo",
+     "@brugge",
+     "@oostende",
+     "@nieuwpoort",
+     "@la_panne",
+     "@bray_dunes",
+     "@uxem",
+     "@tetegham",
+     "@coudekerque",
+     "@saint_pol",
+     "@fort_mardyck",
+     "@loon_plage",
+     [
+      2.1558,
+      52.9
+     ],
+     [
+      -1.6,
+      52.9
+     ]
+    ]
+   ]
+  ]
+ },
+ "note": "桥头堡压缩到城郊；夜航撤出法军",
+ "sources": [
+  "ellis_1953",
+  "frieser_2005",
+  "guderian_ktb",
+  "kleist_ktb",
+  "hyperwar_dunkirk",
+  "sebag_2006"
+ ],
+ "confidence": "medium"
+}

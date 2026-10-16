@@ -1,0 +1,63 @@
+{
+ "at": "1940-05-26T00:00",
+ "control": {
+  "DE": [
+   [
+    [
+     [
+      -1.6,
+      48.3
+     ],
+     [
+      6.6,
+      48.3
+     ],
+     [
+      6.6,
+      52.9
+     ],
+     [
+      4.2483,
+      52.9
+     ],
+     "@terneuzen",
+     "@gent",
+     "@oudenaarde",
+     "@kortrijk",
+     "@menen",
+     "@armentieres",
+     "@estaires",
+     "@aire_sur_la_lys",
+     "@saint_omer",
+     "@gravelines",
+     [
+      1.87,
+      50.9
+     ],
+     [
+      1.72,
+      51.03
+     ],
+     [
+      1.65,
+      52.9
+     ],
+     [
+      -1.6,
+      52.9
+     ]
+    ]
+   ]
+  ]
+ },
+ "note": "开战：装甲部队止步于 Aa 运河—利斯河一线，加来仍在围城中",
+ "sources": [
+  "ellis_1953",
+  "frieser_2005",
+  "guderian_ktb",
+  "kleist_ktb",
+  "hyperwar_dunkirk",
+  "sebag_2006"
+ ],
+ "confidence": "medium"
+}

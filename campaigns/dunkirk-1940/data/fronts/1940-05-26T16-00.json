@@ -1,0 +1,56 @@
+{
+ "at": "1940-05-26T16:00",
+ "control": {
+  "DE": [
+   [
+    [
+     [
+      -1.6,
+      48.3
+     ],
+     [
+      6.6,
+      48.3
+     ],
+     [
+      6.6,
+      52.9
+     ],
+     [
+      4.2483,
+      52.9
+     ],
+     "@terneuzen",
+     "@gent",
+     "@oudenaarde",
+     "@kortrijk",
+     "@menen",
+     "@armentieres",
+     "@estaires",
+     "@aire_sur_la_lys",
+     "@saint_omer",
+     "@gravelines",
+     [
+      2.0578000000000003,
+      52.9
+     ],
+     [
+      -1.6,
+      52.9
+     ]
+    ]
+   ]
+  ]
+ },
+ "note": "加来守军 16:00 前后投降，加来口袋消失；战线未动",
+ "transition": "step",
+ "sources": [
+  "ellis_1953",
+  "frieser_2005",
+  "guderian_ktb",
+  "kleist_ktb",
+  "hyperwar_dunkirk",
+  "sebag_2006"
+ ],
+ "confidence": "medium"
+}

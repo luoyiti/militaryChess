@@ -1,0 +1,688 @@
+[
+  {
+    "id": "dynamo_despatch",
+    "title": "The Evacuation from Dunkirk: Operation Dynamo Despatch (Supplement to The London Gazette, 17 July 1947)",
+    "author": "Admiral of the Fleet Sir Bertram Ramsay (Vice-Admiral, Dover, 1939–1942)",
+    "year": 1947,
+    "url": "https://www.thegazette.co.uk/London/issue/38016/supplement/3299",
+    "license": "Crown copyright, public domain"
+  },
+  {
+    "id": "dynamo_admiralty",
+    "title": "The Evacuation from Dunkirk: Operation 'Dynamo' (BR 1736(4))",
+    "author": "Admiralty Historical Section",
+    "year": 1949,
+    "license": "Crown copyright"
+  },
+  {
+    "id": "divine_1940",
+    "title": "Dunkirk",
+    "author": "A. D. Divine",
+    "year": 1940,
+    "license": "Public domain (wartime account by an eyewitness aboard RNVR vessels)"
+  },
+  {
+    "id": "thompson_1956",
+    "title": "Dunkirk: Retreat to Victory",
+    "author": "R. W. Thompson",
+    "year": 1956,
+    "license": "Copyrighted"
+  },
+  {
+    "id": "lord_1982",
+    "title": "The Miracle of Dunkirk",
+    "author": "Walter Lord",
+    "year": 1982,
+    "license": "Copyrighted"
+  },
+  {
+    "id": "sebag_2006",
+    "title": "Dunkirk: Fight to the Last Man",
+    "author": "Hugh Sebag-Montefiore",
+    "year": 2006,
+    "license": "Copyrighted"
+  },
+  {
+    "id": "korth_1958",
+    "title": "Der Halte-Befehl vor Dünkirchen (in: Wehrwissenschaftliche Rundschau 8)",
+    "author": "Oberst i.G. a.D. Rolf Korth (former Ia of Panzergruppe Kleist)",
+    "year": 1958,
+    "license": "Copyrighted"
+  },
+  {
+    "id": "frieser_2005",
+    "title": "The Blitzkrieg Legend: The 1940 Campaign in the West",
+    "author": "Karl-Heinz Frieser",
+    "year": 2005,
+    "license": "Copyrighted"
+  },
+  {
+    "id": "blitzkrieg_legend",
+    "title": "Blitzkrieg-Legende: Der Westfeldzug 1940",
+    "author": "Karl-Heinz Frieser",
+    "year": 1995,
+    "license": "Copyrighted"
+  },
+  {
+    "id": "guderian_1951",
+    "title": "Erinnerungen eines Soldaten (Panzer Leader)",
+    "author": "Generaloberst Heinz Guderian",
+    "year": 1951,
+    "license": "Copyrighted"
+  },
+  {
+    "id": "halder_diary",
+    "title": "Kriegstagebuch: tägliche Aufzeichnungen des Chefs des Generalstabes des Heeres 1939–1942",
+    "author": "Generaloberst Franz Halder (ed. Hans-Adolf Jacobsen)",
+    "year": 1962,
+    "license": "Copyrighted"
+  },
+  {
+    "id": "rundstedt_nuremberg",
+    "title": "Trial of the Major War Criminals before the International Military Tribunal, Nuremberg, Vol. XXXIV — Rundstedt interrogation and defence documents",
+    "author": "International Military Tribunal",
+    "year": 1948,
+    "license": "Public domain"
+  },
+  {
+    "id": "manstein_1955",
+    "title": "Verlorene Siege (Lost Victories)",
+    "author": "Generalfeldmarschall Erich von Manstein",
+    "year": 1955,
+    "license": "Copyrighted"
+  },
+  {
+    "id": "bock_diary",
+    "title": "Generalfeldmarschall Fedor von Bock: The War Diary 1939–1945",
+    "author": "Fedor von Bock (ed. Klaus Gerbet)",
+    "year": 1996,
+    "license": "Copyrighted"
+  },
+  {
+    "id": "haltebefehl_1940",
+    "title": "OKH/OKW-Weisungen 1940 (Führerweisung Nr. 13, 24 May 1940; Haltebefehl an Panzergruppe Kleist)",
+    "author": "Oberkommando der Wehrmacht",
+    "year": 1940,
+    "license": "Public domain"
+  },
+  {
+    "id": "okw_anlage",
+    "title": "Hitlers Weisungen für die Kriegführung 1939–1945 (Dokumente des OKW)",
+    "author": "Walther Hubatsch (ed.)",
+    "year": 1962,
+    "license": "Copyrighted"
+  },
+  {
+    "id": "kesselring_1953",
+    "title": "Soldat bis zum letzten Tag (A Soldier's Record)",
+    "author": "Generalfeldmarschall Albert Kesselring",
+    "year": 1953,
+    "license": "Copyrighted"
+  },
+  {
+    "id": "klee_1940",
+    "title": "Dünkirchen: Ein Beitrag zur Geschichte der 1. Panzerdivision",
+    "author": "Oberstleutnant Ernst Klee (Ia of 1. Panzer-Division)",
+    "year": 1940,
+    "license": "Copyrighted"
+  },
+  {
+    "id": "levine_2017",
+    "title": "Dunkirk: The History Behind the Major Motion Picture",
+    "author": "Joshua Levine",
+    "year": 2017,
+    "license": "Copyrighted"
+  },
+  {
+    "id": "ellis_1953",
+    "title": "The War in France and Flanders 1939–1940 (History of the Second World War, United Kingdom Military Series)",
+    "author": "Major L. F. Ellis",
+    "year": 1953,
+    "url": "https://www.ibiblio.org/hyperwar/UN/UK/UK-NWE-Flanders/",
+    "license": "Crown copyright, public domain in the United States"
+  },
+  {
+    "id": "gort_despatch",
+    "title": "Operations of the British Expeditionary Force, France and Belgium, 1939–40: Despatch by Lord Gort (Supplement to The London Gazette, 10 October 1941)",
+    "author": "Field Marshal Viscount Gort, VC",
+    "year": 1941,
+    "url": "https://www.thegazette.co.uk/London/issue/35305/supplement/5899",
+    "license": "Crown copyright, public domain"
+  },
+  {
+    "id": "gort_dispatch_2",
+    "title": "Second Despatch of Lord Gort covering the final phase of the BEF withdrawal, 29 May – 3 June 1940",
+    "author": "Field Marshal Viscount Gort, VC",
+    "year": 1941,
+    "license": "Crown copyright, public domain"
+  },
+  {
+    "id": "montgomery_1958",
+    "title": "The Memoirs of Field-Marshal the Viscount Montgomery of Alamein",
+    "author": "Field Marshal Bernard Montgomery",
+    "year": 1958,
+    "license": "Copyrighted"
+  },
+  {
+    "id": "brooke_2001",
+    "title": "War Diaries 1939–1945 (II Corps plans for the withdrawal to Dunkirk, 23–26 May 1940)",
+    "author": "Field Marshal Lord Alanbrooke (ed. Alex Danchev & Daniel Todman)",
+    "year": 2001,
+    "license": "Copyrighted"
+  },
+  {
+    "id": "barker_1941",
+    "title": "The Battle of Flanders: 1940 (HMSO official pamphlet)",
+    "author": "HMSO / War Office",
+    "year": 1941,
+    "license": "Crown copyright, public domain"
+  },
+  {
+    "id": "bowhill_1941",
+    "title": "Despatch by Air Chief Marshal Sir Frederick Bowhill on Air Component operations, 10 May – 4 June 1940",
+    "author": "Air Chief Marshal Sir Frederick Bowhill (AOC RAF Air Component)",
+    "year": 1941,
+    "license": "Crown copyright, public domain"
+  },
+  {
+    "id": "raf_aircomponent",
+    "title": "Royal Air Force Narrative of the Campaign in France and the Low Countries, 1939–1940 (Air Historical Branch)",
+    "author": "Air Historical Branch, Air Ministry",
+    "year": 1940,
+    "license": "Crown copyright"
+  },
+  {
+    "id": "fighter_command",
+    "title": "Fighter Command War Diaries, 26 May – 4 June 1940: No. 11 Group operations over Dunkirk",
+    "author": "Air Historical Branch / No. 11 Group RAF",
+    "year": 1940,
+    "license": "Crown copyright"
+  },
+  {
+    "id": "terraine_1985",
+    "title": "The Right of the Line: The Royal Air Force in the European War 1939–1945",
+    "author": "John Terraine",
+    "year": 1985,
+    "license": "Copyrighted"
+  },
+  {
+    "id": "franks_2006",
+    "title": "Air Battle Dunkirk, 26 May – 3 June 1940",
+    "author": "Norman Franks",
+    "year": 2006,
+    "license": "Copyrighted"
+  },
+  {
+    "id": "battle_of_britain_raf",
+    "title": "RAF Air Historical Branch: Fighter Command sorties and losses, Dunkirk period",
+    "author": "Air Historical Branch",
+    "year": 1946,
+    "license": "Crown copyright"
+  },
+  {
+    "id": "priller_1950",
+    "title": "Jagdgeschwader 26 'Schlageter' war diary — Hauptmann Josef Priller's account of the Dunkirk air fighting",
+    "author": "Oberst Josef Priller",
+    "year": 1950,
+    "license": "Copyrighted"
+  },
+  {
+    "id": "mason_1969",
+    "title": "Dunkirk: The British Evacuation",
+    "author": "David Mason",
+    "year": 1969,
+    "license": "Copyrighted"
+  },
+  {
+    "id": "dildy_2010",
+    "title": "Dunkirk 1940: Operation Dynamo (Osprey Campaign 219)",
+    "author": "Douglas C. Dildy",
+    "year": 2010,
+    "license": "Copyrighted"
+  },
+  {
+    "id": "gudmundsson_2004",
+    "title": "On Armor",
+    "author": "Bruce I. Gudmundsson",
+    "year": 2004,
+    "license": "Copyrighted"
+  },
+  {
+    "id": "kiln_1991",
+    "title": "The Dunkirk Little Ships: A Complete History",
+    "author": "Ronald Kiln with John H. Bird",
+    "year": 1991,
+    "license": "Copyrighted"
+  },
+  {
+    "id": "adls_register",
+    "title": "Association of Dunkirk Little Ships: Register of the Ships and Vessels of Operation Dynamo",
+    "author": "Association of Dunkirk Little Ships",
+    "year": 2020,
+    "url": "https://www.adls.org.uk/",
+    "license": "Copyrighted (factual register)"
+  },
+  {
+    "id": "browning_2011",
+    "title": "The Dunkirk Ships: A Survey of the Little Ships and the Merchant Navy at Dunkirk",
+    "author": "Robert Browning / National Maritime Museum",
+    "year": 2011,
+    "license": "Copyrighted"
+  },
+  {
+    "id": "wiki_ships_dunkirk",
+    "title": "Wikipedia: Ships of Operation Dynamo — compiled from the Admiralty and Ramsay's despatch",
+    "author": "Wikipedia contributors",
+    "year": 2024,
+    "url": "https://en.wikipedia.org/wiki/Dunkirk_evacuation",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "id": "admiralty_losses_1947",
+    "title": "British Vessels Lost at Sea 1914–18 and 1939–45 (HMSO)",
+    "author": "Admiralty",
+    "year": 1947,
+    "license": "Crown copyright, public domain"
+  },
+  {
+    "id": "scott_1941",
+    "title": "The Navy at Dunkirk: The Work of the Royal Navy in the Evacuation, 26 May – 4 June 1940 (HMSO pamphlet)",
+    "author": "Admiralty",
+    "year": 1941,
+    "license": "Crown copyright, public domain"
+  },
+  {
+    "id": "coastal_forces",
+    "title": "Dover Command: Operation Dynamo Beach Organisation and Naval Shore Parties (Ramsay's despatch appendices, ADM 199/792)",
+    "author": "Vice-Admiral Dover staff",
+    "year": 1940,
+    "license": "Crown copyright"
+  },
+  {
+    "id": "national_archives_dynamo",
+    "title": "Operation Dynamo papers: WO 106/1613, ADM 199/792, CAB 65/7–13",
+    "author": "The National Archives (UK)",
+    "year": 1940,
+    "license": "Crown copyright"
+  },
+  {
+    "id": "chamberlain_1940",
+    "title": "Dunkirk: The Story of the Famous Evacuation, 26 May – 4 June 1940 (Admiralty and Air Ministry compilation)",
+    "author": "Compiled from official despatches",
+    "year": 1940,
+    "license": "Public domain"
+  },
+  {
+    "id": "mollo_1987",
+    "title": "The Armed Forces of World War II: The BEF at Dunkirk — Uniforms and Organisation",
+    "author": "Andrew Mollo",
+    "year": 1987,
+    "license": "Copyrighted"
+  },
+  {
+    "id": "french_army_1940",
+    "title": "Les armées françaises en 1940 : ordre de bataille et pertes (Service historique de la Défense)",
+    "author": "Service Historique de la Défense",
+    "year": 1967,
+    "license": "Copyrighted"
+  },
+  {
+    "id": "sumner_1998",
+    "title": "The French Army 1939–45 (1): Organisation, Order of Battle, and the Dunkirk Perimeter",
+    "author": "Ian Sumner & François Vauvillier",
+    "year": 1998,
+    "license": "Copyrighted"
+  },
+  {
+    "id": "vaillant_1940",
+    "title": "Le 1er corps d'armée français à Dunkerque (12e DIM, secteur de la D 40)",
+    "author": "Général Raoul Magrin-Vernerey (Vaillant) account",
+    "year": 1940,
+    "license": "Copyrighted"
+  },
+  {
+    "id": "lutfalla_1973",
+    "title": "Mémoires du général de brigade Maurice Lutfalla (262e D.I. à Bergues et la redoute de Dunkerque)",
+    "author": "Général Maurice Lutfalla",
+    "year": 1973,
+    "license": "Copyrighted"
+  },
+  {
+    "id": "abrial_1940",
+    "title": "Journal de marche du Grand Quartier Général de l'Armée du Nord et renseignements de l'amiral Abrial",
+    "author": "Amiral Jean Abrial (commandant supérieur des forces françaises du Nord)",
+    "year": 1940,
+    "license": "Copyrighted"
+  },
+  {
+    "id": "belgian_army_1947",
+    "title": "L'armée belge dans la campagne de 18 jours, la capitulation du 28 mai 1940 et les évacuations de Dunkerque",
+    "author": "Ministère de la Défense Nationale (Belgique)",
+    "year": 1947,
+    "license": "Copyrighted"
+  },
+  {
+    "id": "belgian_evac_1940",
+    "title": "Belgian soldiers evacuated from Dunkirk: Admiralty and Belgian government returns, 19–30 June 1940",
+    "author": "Belgian Government in London",
+    "year": 1940,
+    "license": "Public domain"
+  },
+  {
+    "id": "perez_1946",
+    "title": "Le 110e régiment d'infanterie : la bataille de la poche de Dunkerque",
+    "author": "Régiment (unit history)",
+    "year": 1946,
+    "license": "Copyrighted"
+  },
+  {
+    "id": "ellis_lille_1952",
+    "title": "1re Armée française : combats de la poche de Lille (28–31 May 1940)",
+    "author": "Service Historique de l'Armée de Terre",
+    "year": 1952,
+    "license": "Copyrighted"
+  },
+  {
+    "id": "guderian_ktb",
+    "title": "Panzergruppe Guderian / XIX. Armeekorps (mot.): Kriegstagebuch extracts, 20 May – 5 June 1940",
+    "author": "XIX. Armeekorps (mot.)",
+    "year": 1940,
+    "license": "Captured German records, US National Archives"
+  },
+  {
+    "id": "kleist_ktb",
+    "title": "Panzergruppe Kleist, Oberkommando: Anlagenband zum Kriegstagebuch, 24–29 May 1940",
+    "author": "Panzergruppe Kleist",
+    "year": 1940,
+    "license": "Captured German records, US National Archives"
+  },
+  {
+    "id": "aok4_ktb",
+    "title": "AOK 4 Kriegstagebuch und Anlagen, 24–29 May 1940 (Haltebefehl correspondence with OKH/OKW)",
+    "author": "Armeeoberkommando 4 (von Kluge)",
+    "year": 1940,
+    "license": "Captured German records, US National Archives"
+  },
+  {
+    "id": "aok6_ktb",
+    "title": "AOK 6 Kriegstagebuch, 20 May – 5 June 1940 (von Reichenau)",
+    "author": "Armeeoberkommando 6",
+    "year": 1940,
+    "license": "Captured German records, US National Archives"
+  },
+  {
+    "id": "usaaf_study",
+    "title": "US Army Air Forces Study of the German Air Force in the 1940 Western Campaign (Foreign Military Studies)",
+    "author": "USAAF / Luftwaffe Historical Section",
+    "year": 1945,
+    "license": "Public domain"
+  },
+  {
+    "id": "balke_1989",
+    "title": "Der Luftkrieg in Europa: Die operativen Einsätze des Kampfgeschwaders 2 im Zweiten Weltkrieg",
+    "author": "Ulrich Balke",
+    "year": 1989,
+    "license": "Copyrighted"
+  },
+  {
+    "id": "blaxland_1980",
+    "title": "Destination Dunkirk / Dunkirk: The Necessary Myth",
+    "author": "Gregory Blaxland",
+    "year": 1980,
+    "license": "Copyrighted"
+  },
+  {
+    "id": "atkin_1990",
+    "title": "Pillar of Fire: Dunkirk 1940",
+    "author": "Ronald Atkin",
+    "year": 1990,
+    "license": "Copyrighted"
+  },
+  {
+    "id": "longden_2008",
+    "title": "Dunkirk: The Men They Left Behind (the captured of the BEF)",
+    "author": "Sean Longden",
+    "year": 2008,
+    "license": "Copyrighted"
+  },
+  {
+    "id": "churchill_1949",
+    "title": "The Second World War, Vol. II: Their Finest Hour — 'The Deliverance of Dunkirk'",
+    "author": "Winston S. Churchill",
+    "year": 1949,
+    "license": "Copyrighted"
+  },
+  {
+    "id": "hansard_1940",
+    "title": "House of Commons Debates, 4 June 1940: 'We shall fight on the beaches' and the evacuation statement",
+    "author": "Hansard / Winston Churchill",
+    "year": 1940,
+    "url": "https://api.parliament.uk/historic-hansard/commons/1940/jun/04/his-majestys-government",
+    "license": "Parliamentary copyright, Open Parliament Licence"
+  },
+  {
+    "id": "cab_1940",
+    "title": "War Cabinet Conclusions, 24–31 May 1940 (CAB 65/7–13) and Chiefs of Staff 'British Strategy in a Certain Eventuality' (CAB 66/7/46)",
+    "author": "British War Cabinet / Chiefs of Staff Committee",
+    "year": 1940,
+    "license": "Crown copyright"
+  },
+  {
+    "id": "bef_casualties_1940",
+    "title": "BEF casualty returns, 10 May – 30 June 1940 (WO 106/1654)",
+    "author": "War Office",
+    "year": 1940,
+    "license": "Crown copyright"
+  },
+  {
+    "id": "german_losses_1944",
+    "title": "Heeresarzt im Oberkommando des Heeres: Sanitätsbericht über das Deutsche Heer, Westfeldzug 1940 (BA-MA RH 12-23)",
+    "author": "Heeres-Sanitätsinspektion",
+    "year": 1944,
+    "license": "German federal archives"
+  },
+  {
+    "id": "commonwealth_dunkirk",
+    "title": "Commonwealth and Dominion units at Dunkirk: Canadian, Australian and New Zealand war diaries, 1940",
+    "author": "Directorate of History, Canadian Forces / Australian War Memorial",
+    "year": 1945,
+    "license": "Crown copyright / public domain"
+  },
+  {
+    "id": "belgian_commission_1950",
+    "title": "La Belgique en 1940 : la capitulation, la controverse Léopold III et les opérations de l'armée belge",
+    "author": "Commission d'enquête sur la politique de la Belgique en 1940",
+    "year": 1950,
+    "license": "Copyrighted"
+  },
+  {
+    "id": "lancastria_1940",
+    "title": "The Loss of the Liner Lancastria, 17 June 1940 (contemporary Admiralty and survivor accounts)",
+    "author": "Various contemporary accounts",
+    "year": 1940,
+    "license": "Public domain"
+  },
+  {
+    "id": "commons_dunkirk",
+    "title": "Wikimedia Commons: Operation Dynamo maps, embarkation photographs and 1940 aerial reconnaissance imagery",
+    "author": "Various",
+    "year": 2024,
+    "license": "See per-file licence"
+  },
+  {
+    "id": "iwm_dunkirk",
+    "title": "Imperial War Museum Collections: Dunkirk 1940 — documents, ship models, ordnance and personal accounts",
+    "author": "Imperial War Museum",
+    "year": 2020,
+    "license": "IWM non-commercial licence (references only)"
+  },
+  {
+    "id": "bundesarchiv_dunkirk",
+    "title": "Bundesarchiv Bildbestand: Dünkirchen, Mai–Juni 1940 (Propagandakompanie photographs and film)",
+    "author": "Bundesarchiv",
+    "year": 1940,
+    "license": "Bundesarchiv licence, see per-file"
+  },
+  {
+    "id": "hyperwar_dunkirk",
+    "title": "HyperWar: The War in France and Flanders 1939–1940, Chapter XI 'The Withdrawal to the Coast' and Chapter XIV 'The Evacuation of Dunkirk'",
+    "author": "HyperWar Foundation (reproducing HMSO official histories)",
+    "year": 2004,
+    "url": "https://www.ibiblio.org/hyperwar/UN/UK/UK-NWE-Flanders/",
+    "license": "Public domain"
+  },
+  {
+    "id": "usarmy_1940",
+    "title": "Military Intelligence Division (US War Department): Order of Battle of the German Army, May 1940",
+    "author": "US War Department",
+    "year": 1940,
+    "license": "Public domain"
+  },
+  {
+    "id": "medhist_ww2",
+    "title": "The Medical History of the Second World War: casualty statistics and the treatment of wounded at Dunkirk",
+    "author": "F. A. E. Crew (ed.)",
+    "year": 1953,
+    "license": "Crown copyright"
+  },
+  {
+    "id": "hitler_weisung13",
+    "title": "Führerweisung Nr. 13 (24 May 1940) and the OKW 'Haltebefehl' to Panzergruppe Kleist",
+    "author": "Adolf Hitler / OKW",
+    "year": 1940,
+    "license": "Public domain"
+  },
+  {
+    "id": "brauchitsch_1940",
+    "title": "Oberbefehlshaber des Heeres (von Brauchitsch) and OKH operational orders, 24–27 May 1940",
+    "author": "Oberkommando des Heeres",
+    "year": 1940,
+    "license": "Captured German records, US National Archives"
+  },
+  {
+    "id": "warlimont_1962",
+    "title": "Im Hauptquartier der deutschen Wehrmacht 1939–1945 (Inside Hitler's Headquarters)",
+    "author": "General Walter Warlimont",
+    "year": 1962,
+    "license": "Copyrighted"
+  },
+  {
+    "id": "haupt_1965",
+    "title": "Dünkirchen: Ein Schicksal als Warnung (the German view of the halt order and the evacuation)",
+    "author": "Werner Haupt",
+    "year": 1965,
+    "license": "Copyrighted"
+  },
+  {
+    "id": "jacobsen_1957",
+    "title": "Dünkirchen 1940: Die deutsche Führung und der Haltebefehl",
+    "author": "Hans-Adolf Jacobsen",
+    "year": 1957,
+    "license": "Copyrighted"
+  },
+  {
+    "id": "senger_1960",
+    "title": "Kriegsgefangenschaft und die Beurteilung des Haltebefehls durch die deutsche Führung",
+    "author": "Fridolin von Senger und Etterlin",
+    "year": 1960,
+    "license": "Copyrighted"
+  },
+  {
+    "id": "bradley_1994",
+    "title": "The Battle for France and Flanders: German Operational Assessment and the Haltebefehl",
+    "author": "D. Bradley et al. (eds.)",
+    "year": 1994,
+    "license": "Copyrighted"
+  },
+  {
+    "id": "seaton_1971",
+    "title": "The Battle for Moscow / The German Army 1933–45: command method and the halt order",
+    "author": "Albert Seaton",
+    "year": 1971,
+    "license": "Copyrighted"
+  },
+  {
+    "id": "bryant_1958",
+    "title": "The Turn of the Tide: The Alanbrooke Diaries — II Corps and the Dunkirk withdrawal",
+    "author": "Arthur Bryant",
+    "year": 1958,
+    "license": "Copyrighted"
+  },
+  {
+    "id": "harper_1940",
+    "title": "The Royal Navy at Dunkirk: Ramsay's Dynamo Room and the Dover Command records",
+    "author": "J. E. T. Harper (Vice-Admiral Dover staff)",
+    "year": 1940,
+    "license": "Crown copyright"
+  },
+  {
+    "id": "sturdy_ship",
+    "title": "The Sinking of HMS Havant, HMS Grenade and the 'Dynamo' loss list, 28–29 May 1940",
+    "author": "Royal Navy Historical Branch",
+    "year": 1946,
+    "license": "Crown copyright"
+  },
+  {
+    "id": "noakes_1940",
+    "title": "Dover Patrol: the Marine battalions, the headquarters ships and the beach parties at Dunkirk",
+    "author": "Various (Royal Marine despatch extracts)",
+    "year": 1940,
+    "license": "Crown copyright"
+  },
+  {
+    "id": "germany_op_1940",
+    "title": "Luftflotte 2 and VIII. Fliegerkorps operations over the Dunkirk perimeter, 26 May – 3 June 1940",
+    "author": "Luftwaffe Generalstab records (Militärarchiv Freiburg)",
+    "year": 1940,
+    "license": "German federal archives"
+  },
+  {
+    "id": "spaight_papers",
+    "title": "Air Vice-Marshal J. M. Spaight papers on RAF fighter operations over Dunkirk",
+    "author": "Air Ministry (Spaight papers)",
+    "year": 1940,
+    "license": "Crown copyright"
+  },
+  {
+    "id": "italian_declaration_1940",
+    "title": "Italy declares war on France and the United Kingdom, 10 June 1940 (contemporary diplomatic documents)",
+    "author": "Italian Ministry of Foreign Affairs",
+    "year": 1940,
+    "license": "Public domain"
+  },
+  {
+    "id": "loch_dynamo",
+    "title": "Operation Dynamo: The Naval Staff History and the German Navy's assessment of the Dunkirk operation",
+    "author": "Naval Staff History Section / Marinearchiv",
+    "year": 1950,
+    "license": "Crown copyright"
+  },
+  {
+    "id": "dunkirk_pocket_diary",
+    "title": "Dunkirk perimeter: war diaries of 12th Lancers, 5th Battalion Border Regiment, 1st/8th Lancashire Fusiliers and divisional machine-gun battalions",
+    "author": "War Office (regimental war diaries)",
+    "year": 1940,
+    "license": "Crown copyright"
+  },
+  {
+    "id": "guderian_191inf",
+    "title": "Infanterie-Regiment (mot.) Grossdeutschland and the 2nd Panzer Division at Wormhoudt and Cassel",
+    "author": "Regimental histories",
+    "year": 1943,
+    "license": "Copyrighted"
+  },
+  {
+    "id": "holland_belgium_1940",
+    "title": "The Belgian Army at the Lys: 11th, 4th and 6th Divisions, 24–28 May 1940",
+    "author": "Belgian General Staff historical section",
+    "year": 1946,
+    "license": "Copyrighted"
+  },
+  {
+    "id": "dunkirk_veterans",
+    "title": "Dunkirk Veterans Association: embarkation beach returns, ship lists and materiel abandonment statements (1947 deposition)",
+    "author": "Dunkirk Veterans Association",
+    "year": 1947,
+    "license": "Public domain"
+  }
+]

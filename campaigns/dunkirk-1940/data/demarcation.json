@@ -1,0 +1,195 @@
+[
+  {
+    "id": "d.dk_perimeter",
+    "name": {
+      "zh": "敦刻尔克桥头堡界线（5 月 30 日，示意）",
+      "orig": "Dunkirk perimeter, 30 May 1940"
+    },
+    "at": "1940-05-28T22:00",
+    "until": "1940-06-04T09:00",
+    "style": "pact",
+    "line": [
+      "@gravelines",
+      "@bourbourg",
+      "@spycker",
+      "@bergues",
+      "@hoymille",
+      "@ghyvelde",
+      "@adinkerke",
+      "@nieuwpoort"
+    ],
+    "note": "沿阿河运河—贝尔格运河—穆尔运河—弗尔讷运河（Nieuwpoort–Veurne 运河）构成的环形阵地，正面约 40 公里，由英军第一军（西段）、第三军（东段）与法军第 16 军（敦刻尔克正面）分段据守。",
+    "sources": [
+      "ellis_1953",
+      "gort_despatch",
+      "hyperwar_dunkirk",
+      "dunkirk_pocket_diary"
+    ]
+  },
+  {
+    "id": "d.dk_canal_line",
+    "name": {
+      "zh": "贝尔格—弗尔讷运河线（内圈，6 月 1 日）"
+    },
+    "at": "1940-06-01T00:00",
+    "until": "1940-06-04T09:00",
+    "style": "pact",
+    "line": [
+      "@bourbourg",
+      "@spycker",
+      "@hoymille",
+      "@bergues",
+      "@uxem",
+      "@bray_dunes",
+      "@la_panne"
+    ],
+    "note": "6 月 1 日德军攻占贝尔格后，法军退守敦刻尔克近郊的马尔迪克运河与城北沙丘一线。",
+    "sources": [
+      "french_army_1940",
+      "lutfalla_1973",
+      "ellis_1953",
+      "abrial_1940"
+    ]
+  },
+  {
+    "id": "d.dk_final_line",
+    "name": {
+      "zh": "最后阵地：敦刻尔克城郊与港区（6 月 3 日）"
+    },
+    "at": "1940-06-03T00:00",
+    "until": "1940-06-04T09:00",
+    "style": "final",
+    "line": [
+      "@loon_plage",
+      "@fort_mardyck",
+      "@saint_pol",
+      "@coudekerque",
+      "@tetegham",
+      "@bray_dunes"
+    ],
+    "note": "6 月 3 日夜最后一批法军登船后，桥头堡只剩敦刻尔克城郊、马尔迪克运河西岸与格拉沃利讷—洛翁一线的残部。",
+    "sources": [
+      "dynamo_despatch",
+      "abrial_1940",
+      "french_army_1940",
+      "lord_1982"
+    ]
+  },
+  {
+    "id": "d.dk_lys_line",
+    "name": {
+      "zh": "利斯河防线（5 月 26 日，示意）"
+    },
+    "at": "1940-05-26T00:00",
+    "until": "1940-05-28T06:00",
+    "style": "pact",
+    "line": [
+      "@aire_sur_la_lys",
+      "@estaires",
+      "@armentieres",
+      "@comines",
+      "@menen"
+    ],
+    "note": "英国远征军与比利时军在利斯河—拉巴塞运河一线的最后一条完整防线；5 月 25 日夜德军在科米讷与梅嫩之间强渡，27 日防线全面崩溃。",
+    "sources": [
+      "ellis_1953",
+      "belgian_army_1947",
+      "gort_despatch",
+      "sebag_2006"
+    ]
+  },
+  {
+    "id": "d.dk_evac_route_z",
+    "name": {
+      "zh": "撤离航线 Z（最短，紧贴法国海岸）"
+    },
+    "at": "1940-05-26T20:00",
+    "until": "1940-06-04T10:30",
+    "style": "final",
+    "line": [
+      "@dunkirk_roads",
+      [
+        2.1,
+        51.01
+      ],
+      "@gravelines",
+      "@cap_gris_nez",
+      [
+        1.45,
+        51.05
+      ],
+      "@dover"
+    ],
+    "note": "约 39 海里，单程两小时；紧贴加来海岸，昼间暴露于德军岸炮之下，夜间与低云时才大规模使用。",
+    "sources": [
+      "dynamo_despatch",
+      "divine_1940",
+      "scott_1941",
+      "loch_dynamo"
+    ]
+  },
+  {
+    "id": "d.dk_evac_route_x",
+    "name": {
+      "zh": "撤离航线 X（经吕坦让水道与古德温沙洲北侧）"
+    },
+    "at": "1940-05-26T20:00",
+    "until": "1940-06-04T10:30",
+    "style": "final",
+    "line": [
+      "@dunkirk_roads",
+      "@ruytingen_bank",
+      [
+        2.05,
+        51.42
+      ],
+      [
+        1.62,
+        51.44
+      ],
+      "@the_downs",
+      "@dover"
+    ],
+    "note": "约 51 海里，单程三小时半；避开岸炮但穿过雷区，夜间与低能见度时不可用。三条航线中最平衡的一条。",
+    "sources": [
+      "dynamo_despatch",
+      "dynamo_admiralty",
+      "scott_1941",
+      "loch_dynamo"
+    ]
+  },
+  {
+    "id": "d.dk_evac_route_y",
+    "name": {
+      "zh": "撤离航线 Y（沿法国海岸外绕，最长）"
+    },
+    "at": "1940-05-26T20:00",
+    "until": "1940-06-04T10:30",
+    "style": "final",
+    "line": [
+      "@dunkirk_roads",
+      "@bray_dunes",
+      [
+        2.9,
+        51.29
+      ],
+      [
+        2.55,
+        51.44
+      ],
+      [
+        1.9,
+        51.45
+      ],
+      "@the_downs",
+      "@dover"
+    ],
+    "note": "约 94 海里（一说 175 km），单程四小时——是 Z 航线的两倍；最易遭德国水面舰艇、潜艇与空军的攻击。",
+    "sources": [
+      "dynamo_despatch",
+      "divine_1940",
+      "scott_1941",
+      "loch_dynamo"
+    ]
+  }
+]

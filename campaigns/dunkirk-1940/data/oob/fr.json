@@ -1,0 +1,2366 @@
+[
+  {
+    "id": "fr.gqg_nord",
+    "side": "FR",
+    "echelon": "armygroup",
+    "type": "hq",
+    "parent": null,
+    "name": {
+      "zh": "北方集团军群（第 1 集团军群）",
+      "orig": "Groupe d'armées 1 / Armée du Nord",
+      "short": "法北集"
+    },
+    "commander": {
+      "zh": "加斯东·比约特 → 乔治·布朗夏尔",
+      "orig": "Gaston Billotte → Georges Blanchard"
+    },
+    "display": "container",
+    "track": [
+      {
+        "at": "1940-05-26T00:00",
+        "pos": "@lille",
+        "status": "active",
+        "note": "比约特 5-21 车祸重伤、5-23 不治；布朗夏尔接任集团军群司令"
+      },
+      {
+        "at": "1940-05-27T12:00",
+        "pos": [
+          2.95,
+          50.66
+        ],
+        "status": "withdrawing",
+        "note": "司令部西移"
+      },
+      {
+        "at": "1940-05-29T12:00",
+        "pos": [
+          2.62,
+          50.75
+        ],
+        "status": "disbanded",
+        "note": "集团军群司令部撤编，北方法军指挥权移交阿布里亚尔"
+      }
+    ],
+    "history": "1940 年 5 月统辖法国第 1 集团军及配属部队。比约特 5 月 21 日在伊珀尔附近车祸重伤、23 日去世，布朗夏尔接任军群司令。5 月 29 日军群司令部撤编，敦刻尔克桥头堡的法军最高指挥权移交北方法军总司令、海军上将阿布里亚尔；布朗夏尔本人留在北方直至最后阶段。",
+    "sources": [
+      "french_army_1940",
+      "ellis_1953",
+      "abrial_1940",
+      "blaxland_1980"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "fr.abrial",
+    "side": "FR",
+    "echelon": "command",
+    "type": "hq",
+    "parent": "fr.gqg_nord",
+    "name": {
+      "zh": "北方法军最高指挥（敦刻尔克要塞）",
+      "orig": "Commandant supérieur des forces françaises du Nord",
+      "short": "阿布里亚尔"
+    },
+    "commander": {
+      "zh": "让-马里·夏尔·阿布里亚尔（海军上将）",
+      "orig": "Amiral Jean-Marie Charles Abrial"
+    },
+    "track": [
+      {
+        "at": "1940-05-26T00:00",
+        "pos": "@dunkirk",
+        "status": "active",
+        "note": "司令部设于敦刻尔克 32 号堡垒（Bastion 32）"
+      },
+      {
+        "at": "1940-05-29T12:00",
+        "pos": "@dunkirk",
+        "status": "active",
+        "note": "接掌北方全部法军指挥"
+      },
+      {
+        "at": "1940-06-04T10:00",
+        "pos": "@dunkirk",
+        "status": "surrendered",
+        "note": "拒绝离队，与守备部队一同被俘"
+      }
+    ],
+    "history": "1940 年 5 月任北方法军总司令，司令部设在敦刻尔克港的 32 号堡垒。5 月 29 日集团军群司令部撤编后成为桥头堡法军最高指挥官，协调法军与英军的分段防御及登船次序。6 月 4 日晨拒绝抛下部下撤离，与残部一同被俘，后经达尔朗交涉获释。",
+    "sources": [
+      "abrial_1940",
+      "french_army_1940",
+      "ellis_1953",
+      "lord_1982"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "fr.1ca",
+    "side": "FR",
+    "echelon": "corps",
+    "type": "hq",
+    "parent": "fr.gqg_nord",
+    "name": {
+      "zh": "第 1 军",
+      "orig": "1er Corps d'Armée",
+      "short": "法第1军"
+    },
+    "commander": {
+      "zh": "勒内·普里乌",
+      "orig": "René Prioux"
+    },
+    "active": {
+      "to": "1940-05-31T12:00"
+    },
+    "track": [
+      {
+        "at": "1940-05-26T00:00",
+        "pos": "@lille",
+        "status": "active"
+      },
+      {
+        "at": "1940-05-28T00:00",
+        "pos": [
+          2.9,
+          50.66
+        ],
+        "status": "engaged",
+        "note": "5-27/28 夜掩护部队越过利斯河，军主力仍困于口袋"
+      },
+      {
+        "at": "1940-05-29T12:00",
+        "pos": [
+          2.96,
+          50.62
+        ],
+        "status": "encircled",
+        "note": "里尔合围圈闭合"
+      },
+      {
+        "at": "1940-05-31T06:00",
+        "pos": "@lille",
+        "status": "encircled",
+        "note": "城内逐屋战斗，弹药将尽"
+      },
+      {
+        "at": "1940-05-31T12:00",
+        "pos": "@lille",
+        "status": "surrendered",
+        "note": "随里尔口袋投降（史实为 31 日午夜停火，图上归入 5-31 正午关键帧）"
+      }
+    ],
+    "history": "第 1 集团军建制内的军级司令部。普里乌 5 月 26 日接任第 1 集团军司令，5 月 29 日被俘。包围里尔的德军为 A 集团军群第 4 集团军（von Kluge）及 Kleist 装甲集群所辖第 6、第 8 装甲师等约 7 个师（含 3 个装甲师）。军主力随里尔口袋于 5 月 31 日投降（35,000 余人，受荣誉受降）；5 月 27/28 夜掩护英军越过利斯河后脱出的军部与残部另立 fr.1ca_det 条记载，其经敦刻尔克东防波堤登船撤往英国。",
+    "sources": [
+      "french_army_1940",
+      "ellis_lille_1952",
+      "sebag_2006",
+      "lord_1982"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "fr.1ca_det",
+    "side": "FR",
+    "echelon": "brigade",
+    "type": "hq",
+    "parent": "fr.1ca",
+    "name": {
+      "zh": "第 1 军脱出支队（军部与残部）",
+      "orig": "1er Corps d'Armée — détachement évacué",
+      "short": "法1军支队"
+    },
+    "active": {
+      "to": "1940-06-01T10:00"
+    },
+    "track": [
+      {
+        "at": "1940-05-28T00:00",
+        "pos": [
+          2.9,
+          50.66
+        ],
+        "status": "withdrawing",
+        "note": "5-27/28 夜随掩护部队越过利斯河，脱离里尔合围圈"
+      },
+      {
+        "at": "1940-05-29T12:00",
+        "pos": [
+          2.62,
+          50.82
+        ],
+        "status": "withdrawing"
+      },
+      {
+        "at": "1940-05-31T12:00",
+        "pos": "@dunkirk",
+        "status": "withdrawing",
+        "note": "退入敦刻尔克桥头堡"
+      },
+      {
+        "at": "1940-06-01T02:00",
+        "pos": "@dunkirk",
+        "status": "withdrawing",
+        "movement": "sea",
+        "note": "夜间在东防波堤集结登船"
+      },
+      {
+        "at": "1940-06-01T10:00",
+        "pos": "@dover",
+        "status": "evacuated"
+      }
+    ],
+    "history": "5 月 27/28 夜，里尔合围圈闭合前越过利斯河脱出的第 1 军军部与部分残部（法军记载中真正成建制脱出的是德·拉·洛朗西的第 3 军方向）。这支部队此后一路退向海岸，5 月 31 日进入敦刻尔克桥头堡，6 月 1 日凌晨由东防波堤登船撤往英国。留在里尔城内、随口袋投降的军主力另见 fr.1ca 条。",
+    "sources": [
+      "french_army_1940",
+      "ellis_lille_1952",
+      "sebag_2006",
+      "lord_1982"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "fr.2ca",
+    "side": "FR",
+    "echelon": "corps",
+    "type": "hq",
+    "parent": "fr.gqg_nord",
+    "name": {
+      "zh": "第 2 军（残部）",
+      "orig": "2e Corps d'Armée",
+      "short": "法第2军"
+    },
+    "commander": {
+      "zh": "让·布费（5-16 阵亡）",
+      "orig": "Jean Bouffet"
+    },
+    "schematic": true,
+    "active": {
+      "to": "1940-05-28T12:00"
+    },
+    "track": [
+      {
+        "at": "1940-05-26T00:00",
+        "pos": [
+          4.3,
+          50.3
+        ],
+        "status": "ineffective",
+        "note": "军部 5-16 迪南之战后已失去建制"
+      },
+      {
+        "at": "1940-05-28T12:00",
+        "pos": [
+          4.1,
+          50.35
+        ],
+        "status": "disbanded"
+      }
+    ],
+    "history": "开战时属第 9 集团军，1940 年 5 月 15—16 日在默兹河迪南一线被德军装甲部队击溃，军长布费 5 月 16 日阵亡。军部随后解散，残余人员编入其他部队，未参加敦刻尔克阶段战斗。本条只作编制记录保留（位置示意）。",
+    "sources": [
+      "french_army_1940",
+      "ellis_1953"
+    ],
+    "confidence": "low"
+  },
+  {
+    "id": "fr.3ca",
+    "side": "FR",
+    "echelon": "corps",
+    "type": "hq",
+    "parent": "fr.gqg_nord",
+    "name": {
+      "zh": "第 3 军",
+      "orig": "3e Corps d'Armée",
+      "short": "法第3军"
+    },
+    "commander": {
+      "zh": "莱昂·德·拉·洛朗西",
+      "orig": "Léon de la Laurencie"
+    },
+    "active": {
+      "to": "1940-05-31T12:00"
+    },
+    "track": [
+      {
+        "at": "1940-05-26T00:00",
+        "pos": "@lille",
+        "status": "active"
+      },
+      {
+        "at": "1940-05-27T12:00",
+        "pos": [
+          3.02,
+          50.66
+        ],
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-28T20:00",
+        "pos": [
+          2.96,
+          50.62
+        ],
+        "status": "encircled"
+      },
+      {
+        "at": "1940-05-30T12:00",
+        "pos": "@lille",
+        "status": "encircled",
+        "note": "里尔城内逐屋战斗，弹药将尽"
+      },
+      {
+        "at": "1940-05-31T12:00",
+        "pos": "@lille",
+        "status": "surrendered",
+        "note": "5-31 午夜（6-1 零时）投降"
+      }
+    ],
+    "history": "里尔口袋内的三个军之一。5 月 27/28 夜军部与部分师越过利斯河脱出，留在城内的部队（第 1 摩托化步兵师、第 2 北非步兵师等）由莫利涅统率继续抵抗德军约 7 个师（含 3 个装甲师，来自 A 集团军群第 4 集团军与 Kleist 装甲集群），5 月 31 日午夜弹尽粮绝后在里尔大广场投降，德军准予「荣誉受降」。",
+    "sources": [
+      "ellis_lille_1952",
+      "french_army_1940",
+      "sebag_2006",
+      "ellis_1953"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "fr.4ca",
+    "side": "FR",
+    "echelon": "corps",
+    "type": "hq",
+    "parent": "fr.gqg_nord",
+    "name": {
+      "zh": "第 4 军",
+      "orig": "4e Corps d'Armée",
+      "short": "法第4军"
+    },
+    "commander": {
+      "zh": "安德烈·鲍里斯",
+      "orig": "André Boris"
+    },
+    "active": {
+      "to": "1940-05-31T12:00"
+    },
+    "track": [
+      {
+        "at": "1940-05-26T00:00",
+        "pos": "@lille",
+        "status": "active"
+      },
+      {
+        "at": "1940-05-28T19:30",
+        "pos": [
+          2.98,
+          50.6
+        ],
+        "status": "encircled",
+        "note": "向西朝利斯河方向的突围尝试失败"
+      },
+      {
+        "at": "1940-05-29T12:00",
+        "pos": [
+          2.96,
+          50.6
+        ],
+        "status": "encircled"
+      },
+      {
+        "at": "1940-05-31T12:00",
+        "pos": "@lille",
+        "status": "surrendered"
+      }
+    ],
+    "history": "里尔口袋内与第 5 军并肩防御。5 月 28 日 19:30 向西突围：所属北非部队试图经瑟克丹桥越过德勒河、经桑特公路的「红磨坊桥」脱出，均被德军火力封死；5 月 29 日上午再试，两辆法军坦克与两个步兵连渡河后被击退。5 月 31 日里尔口袋投降（史实为 31 日午夜/6 月 1 日零时停火，图上归入 5-31 正午关键帧）。",
+    "sources": [
+      "ellis_lille_1952",
+      "french_army_1940",
+      "sebag_2006",
+      "ellis_1953"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "fr.5ca",
+    "side": "FR",
+    "echelon": "corps",
+    "type": "hq",
+    "parent": "fr.gqg_nord",
+    "name": {
+      "zh": "第 5 军",
+      "orig": "5e Corps d'Armée",
+      "short": "法第5军"
+    },
+    "commander": {
+      "zh": "达里乌斯·保罗·布洛赫（达索）",
+      "orig": "Darius Paul Bloch (Dassault)"
+    },
+    "active": {
+      "to": "1940-05-31T12:00"
+    },
+    "track": [
+      {
+        "at": "1940-05-26T00:00",
+        "pos": "@lille",
+        "status": "active"
+      },
+      {
+        "at": "1940-05-28T19:30",
+        "pos": [
+          2.99,
+          50.61
+        ],
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-29T10:00",
+        "pos": [
+          2.97,
+          50.6
+        ],
+        "status": "encircled"
+      },
+      {
+        "at": "1940-05-31T06:00",
+        "pos": "@lille",
+        "status": "encircled"
+      },
+      {
+        "at": "1940-05-31T12:00",
+        "pos": "@lille",
+        "status": "surrendered"
+      }
+    ],
+    "history": "里尔口袋的核心防御力量。5 月 28 日 19:30 与第 4 军同时向西突围，所属第 5 北非步兵师在桑特公路「红磨坊桥」受阻。此后与德军在里尔近郊逐屋巷战，牵制德军约 7 个师达四天，为敦刻尔克的撤退争取时间。5 月 31 日投降（史实为 31 日午夜停火，图上归入 5-31 正午关键帧），德军以「荣誉受降」相待。",
+    "sources": [
+      "ellis_lille_1952",
+      "french_army_1940",
+      "sebag_2006",
+      "ellis_1953"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "fr.16ca",
+    "side": "FR",
+    "echelon": "corps",
+    "type": "hq",
+    "parent": "fr.gqg_nord",
+    "name": {
+      "zh": "第 16 军（敦刻尔克桥头堡西段）",
+      "orig": "16e Corps d'Armée",
+      "short": "法第16军"
+    },
+    "commander": {
+      "zh": "贝特朗·法加尔德",
+      "orig": "Bertrand Fagalde"
+    },
+    "active": {
+      "to": "1940-06-02T10:00"
+    },
+    "track": [
+      {
+        "at": "1940-05-26T00:00",
+        "pos": "@gravelines",
+        "status": "active",
+        "note": "5-24 奉命统一指挥敦刻尔克、加来、布洛涅防御"
+      },
+      {
+        "at": "1940-05-27T12:00",
+        "pos": "@bourbourg",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-29T00:00",
+        "pos": "@loon_plage",
+        "status": "engaged",
+        "note": "沿敦刻尔克运河与科勒姆运河组织西段防御"
+      },
+      {
+        "at": "1940-06-01T12:00",
+        "pos": "@dunkirk",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-06-02T02:00",
+        "pos": "@dunkirk",
+        "status": "evacuated",
+        "movement": "sea",
+        "note": "军部由东防波堤登船"
+      },
+      {
+        "at": "1940-06-02T10:00",
+        "pos": "@dover",
+        "status": "evacuated"
+      }
+    ],
+    "history": "5 月 24 日奉命统一指挥敦刻尔克、加来与布洛涅防御。加来 5 月 26 日、布洛涅 5 月 25 日相继陷落后，第 16 军负责桥头堡西段格拉沃利讷—布尔堡—洛翁普拉日一线，与英军分担半圆形阵地。6 月 2 日军部登船撤往英国，随后在诺曼底以撤出人员重建（法加尔德本人 6 月 18 日在诺曼底被俘）。另有史料称法加尔德 5 月 27 日在格拉沃利讷被俘，与本条采用的法方记载不符，此处从法方记载。",
+    "sources": [
+      "french_army_1940",
+      "abrial_1940",
+      "ellis_1953",
+      "sumner_1998"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "fr.12dim",
+    "side": "FR",
+    "echelon": "division",
+    "type": "motorized",
+    "parent": "fr.16ca",
+    "name": {
+      "zh": "第 12 摩托化步兵师",
+      "orig": "12e Division d'Infanterie Motorisée",
+      "short": "法12DIM"
+    },
+    "commander": {
+      "zh": "加斯东·扬森",
+      "orig": "Gaston Janssen"
+    },
+    "strength": {
+      "men": 8000
+    },
+    "model": "inf_pl",
+    "modelNote": "示意：3D 借用波兰步兵班组模型，非法军制服与编制。",
+    "active": {
+      "to": "1940-06-04T08:00"
+    },
+    "track": [
+      {
+        "at": "1940-05-26T00:00",
+        "pos": [
+          3.05,
+          50.5
+        ],
+        "status": "withdrawing",
+        "note": "阿弗兰、布吕艾一带，昼战夜行穿越德军合围圈"
+      },
+      {
+        "at": "1940-05-28T12:00",
+        "pos": [
+          2.7,
+          50.75
+        ],
+        "status": "withdrawing"
+      },
+      {
+        "at": "1940-05-30T12:00",
+        "pos": "@bourbourg",
+        "status": "engaged",
+        "note": "进入桥头堡西段，与第 262 步兵师共同防守"
+      },
+      {
+        "at": "1940-06-01T12:00",
+        "pos": "@loon_plage",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-06-03T12:00",
+        "pos": "@cappelle_la_grande",
+        "status": "engaged",
+        "note": "桥头堡压缩到城郊"
+      },
+      {
+        "at": "1940-06-04T08:00",
+        "pos": "@malo_les_bains",
+        "status": "surrendered",
+        "note": "6-4 上午在马洛莱班海滩被俘"
+      }
+    ],
+    "history": "开战时属第 5 军、第 1 集团军，在让布卢一线顶住德军第 3 装甲师。此后边打边退、昼战夜行，穿过德军合围圈抵达敦刻尔克时全师仅剩约 8,000 人，奉命防守桥头堡的西段与正面（洛翁普拉日—布尔堡—格拉沃利讷）达九天，与第 262 步兵师（吕特法拉）共同构成法军骨干。6 月 4 日上午在敦刻尔克以东的马洛莱班海滩被俘；第 150 步兵团的军旗在最后时刻被焚毁以免落入德军之手。",
+    "sources": [
+      "vaillant_1940",
+      "sumner_1998",
+      "french_army_1940",
+      "sebag_2006",
+      "atkin_1990"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "fr.262di",
+    "side": "FR",
+    "echelon": "division",
+    "type": "infantry",
+    "parent": "fr.16ca",
+    "name": {
+      "zh": "第 262 步兵师",
+      "orig": "262e Division d'Infanterie",
+      "short": "法262DI"
+    },
+    "commander": {
+      "zh": "莫里斯·吕特法拉",
+      "orig": "Maurice Lutfalla"
+    },
+    "model": "inf_pl",
+    "modelNote": "示意：3D 借用波兰步兵班组模型，非法军制服与编制。",
+    "active": {
+      "to": "1940-06-04T07:00"
+    },
+    "track": [
+      {
+        "at": "1940-05-26T00:00",
+        "pos": "@bergues",
+        "status": "active",
+        "note": "占领贝尔格周围的运河与低地防线"
+      },
+      {
+        "at": "1940-05-30T12:00",
+        "pos": "@spycker",
+        "status": "engaged",
+        "note": "与第 12 摩托化步兵师共同固守桥头堡南面"
+      },
+      {
+        "at": "1940-06-01T12:00",
+        "pos": "@hoymille",
+        "status": "engaged",
+        "note": "德军猛攻贝尔格正面"
+      },
+      {
+        "at": "1940-06-02T23:00",
+        "pos": "@dunkirk",
+        "status": "withdrawing",
+        "note": "贝尔格当夜陷落，退守敦刻尔克城郊据点"
+      },
+      {
+        "at": "1940-06-04T07:00",
+        "pos": "@dunkirk",
+        "status": "surrendered"
+      }
+    ],
+    "history": "吕特法拉指挥的 B 类预备师，1940 年 5 月下旬起扼守贝尔格及其周围的运河、低地与「敦刻尔克堡垒」，与第 12 摩托化步兵师一起构成桥头堡的法军骨干。贝尔格在 6 月 2 日夜失守后仍据守城郊据点，直至 6 月 4 日晨才随桥头堡一同投降。",
+    "sources": [
+      "lutfalla_1973",
+      "french_army_1940",
+      "sumner_1998",
+      "abrial_1940"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "fr.68di",
+    "side": "FR",
+    "echelon": "division",
+    "type": "infantry",
+    "parent": "fr.16ca",
+    "name": {
+      "zh": "第 68 步兵师",
+      "orig": "68e Division d'Infanterie",
+      "short": "法68DI"
+    },
+    "model": "inf_pl",
+    "modelNote": "示意：3D 借用波兰步兵班组模型，非法军制服与编制。",
+    "active": {
+      "to": "1940-06-04T09:00"
+    },
+    "track": [
+      {
+        "at": "1940-05-26T00:00",
+        "pos": [
+          3.05,
+          51.12
+        ],
+        "status": "active",
+        "note": "布鲁日地区，与第 60 步兵师共同支援比军"
+      },
+      {
+        "at": "1940-05-28T12:00",
+        "pos": "@veurne",
+        "status": "withdrawing",
+        "note": "比军投降后向西退向弗尔讷"
+      },
+      {
+        "at": "1940-05-30T12:00",
+        "pos": "@adinkerke",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-06-01T12:00",
+        "pos": "@la_panne",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-06-03T12:00",
+        "pos": "@bray_dunes",
+        "status": "engaged",
+        "note": "桥头堡东段最后阵地"
+      },
+      {
+        "at": "1940-06-04T09:00",
+        "pos": "@bray_dunes",
+        "status": "surrendered",
+        "note": "6-4 上午在敦刻尔克以东停止抵抗"
+      }
+    ],
+    "history": "B 类预备师，由年纪较大的预备役人员编成，战前负责法国北部海岸防御。5 月下旬与第 60 步兵师一起在布鲁日地区支援比军。比军 5 月 28 日投降后，该师退守尼乌波特—拉帕讷—布雷迪讷一线，与第 2 轻型机械化师共同掩护桥头堡东段。6 月 4 日上午在敦刻尔克以东投降，是被俘约 40,000 名法军（含第 12 摩托化步兵师残部与要塞守备）的主要组成部分。",
+    "sources": [
+      "french_army_1940",
+      "sebag_2006",
+      "atkin_1990",
+      "lord_1982",
+      "ellis_1953"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "fr.2dlm",
+    "side": "FR",
+    "echelon": "division",
+    "type": "light",
+    "parent": "fr.1ca",
+    "name": {
+      "zh": "第 2 轻型机械化师",
+      "orig": "2e Division Légère Mécanique",
+      "short": "法2DLM"
+    },
+    "commander": {
+      "zh": "加布里埃尔·布格兰",
+      "orig": "Gabriel Bougrain"
+    },
+    "model": "pz1",
+    "modelNote": "示意：3D 借用德军 I 号坦克模型，非 SOMUA S35 / Hotchkiss H35。",
+    "active": {
+      "to": "1940-06-04T09:00"
+    },
+    "track": [
+      {
+        "at": "1940-05-26T00:00",
+        "pos": [
+          3.32,
+          50.72
+        ],
+        "status": "withdrawing"
+      },
+      {
+        "at": "1940-05-28T12:00",
+        "pos": [
+          2.98,
+          50.72
+        ],
+        "status": "withdrawing"
+      },
+      {
+        "at": "1940-05-30T12:00",
+        "pos": "@hazebrouck",
+        "status": "withdrawing"
+      },
+      {
+        "at": "1940-06-01T12:00",
+        "pos": "@bergues",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-06-03T12:00",
+        "pos": "@bray_dunes",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-06-04T09:00",
+        "pos": "@bray_dunes",
+        "status": "surrendered",
+        "note": "与第 68 步兵师同为最后投降的部队"
+      }
+    ],
+    "history": "与第 3 轻型机械化师同属普里乌的骑兵军，5 月 12—14 日在阿努特、让布卢一线阻滞德军装甲部队，损失相对较轻；5 月 16 日在班什掩护第 1 集团军退却，随后被合围在北方，一路殿后打到敦刻尔克。部分残部于 5 月 30/31 日登船赴英；随第 68 步兵师留在东段掩护的最后一批于 6 月 4 日上午投降。本条按后者的命运记为 6 月 4 日投降。",
+    "sources": [
+      "french_army_1940",
+      "sumner_1998",
+      "sebag_2006",
+      "atkin_1990"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "fr.3dlm",
+    "side": "FR",
+    "echelon": "division",
+    "type": "light",
+    "parent": "fr.1ca",
+    "name": {
+      "zh": "第 3 轻型机械化师",
+      "orig": "3e Division Légère Mécanique",
+      "short": "法3DLM"
+    },
+    "model": "pz1",
+    "modelNote": "示意：3D 借用德军 I 号坦克模型，非 SOMUA S35 / Hotchkiss H35。",
+    "active": {
+      "to": "1940-06-01T06:00"
+    },
+    "track": [
+      {
+        "at": "1940-05-26T00:00",
+        "pos": [
+          3.15,
+          50.79
+        ],
+        "status": "withdrawing"
+      },
+      {
+        "at": "1940-05-28T12:00",
+        "pos": [
+          2.9,
+          50.78
+        ],
+        "status": "withdrawing"
+      },
+      {
+        "at": "1940-05-30T12:00",
+        "pos": [
+          2.65,
+          50.85
+        ],
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-31T12:00",
+        "pos": "@dunkirk",
+        "status": "engaged",
+        "movement": "sea"
+      },
+      {
+        "at": "1940-06-01T06:00",
+        "pos": "@dover",
+        "status": "evacuated"
+      }
+    ],
+    "history": "1940 年 2 月刚编成，5 月 12—14 日在阿努特承受德军第 3、第 4 装甲师的主要打击，第 1 胸甲骑兵团损失惨重，全师缩编为一个战斗群。此后随第 1 集团军退却，被合围于北方，残部于 5 月 31 日至 6 月 1 日退入敦刻尔克并登船赴英，6 月解散。",
+    "sources": [
+      "french_army_1940",
+      "sumner_1998",
+      "ellis_1953",
+      "sebag_2006"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "fr.60di",
+    "side": "FR",
+    "echelon": "division",
+    "type": "infantry",
+    "parent": "fr.16ca",
+    "name": {
+      "zh": "第 60 步兵师",
+      "orig": "60e Division d'Infanterie",
+      "short": "法60DI"
+    },
+    "commander": {
+      "zh": "马塞尔·德洛朗（5-17 阵亡）→ 泰塞雷",
+      "orig": "Marcel Deslaurens → Tesseire"
+    },
+    "model": "inf_pl",
+    "modelNote": "示意：3D 借用波兰步兵班组模型，非法军制服与编制。",
+    "active": {
+      "to": "1940-06-04T08:00"
+    },
+    "track": [
+      {
+        "at": "1940-05-26T00:00",
+        "pos": [
+          2.87,
+          51.03
+        ],
+        "status": "engaged",
+        "note": "伊瑟河（迪克斯梅德）一线迟滞德军"
+      },
+      {
+        "at": "1940-05-28T12:00",
+        "pos": "@veurne",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-30T12:00",
+        "pos": "@adinkerke",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-06-01T12:00",
+        "pos": "@la_panne",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-06-03T20:00",
+        "pos": "@malo_les_bains",
+        "status": "withdrawing",
+        "note": "最后约 3,500 人奉命毁弃武器、前往马洛莱班海滩登船"
+      },
+      {
+        "at": "1940-06-04T08:00",
+        "pos": "@malo_les_bains",
+        "status": "surrendered",
+        "note": "整夜无船靠滩，6-4 上午被俘"
+      }
+    ],
+    "history": "B 类预备师，师部设于埃斯凯尔贝克，防线从莱穆埃尔低地延伸到敦刻尔克。师长德洛朗 5 月 17 日在泽兰战死。比军投降后该师在伊瑟河一线迟滞德军，随后参加桥头堡防御直至 6 月 4 日。6 月 3 日最后约 3,500 人被压到海岸，奉命毁弃武器前往马洛莱班海滩，仅留第 270 步兵团第 2 营一个连掩护；整夜无船靠滩，6 月 4 日晨被俘。",
+    "sources": [
+      "french_army_1940",
+      "sebag_2006",
+      "atkin_1990",
+      "ellis_1953",
+      "lord_1982"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "fr.32di",
+    "side": "FR",
+    "echelon": "division",
+    "type": "infantry",
+    "parent": "fr.16ca",
+    "name": {
+      "zh": "第 32 步兵师（残部）",
+      "orig": "32e Division d'Infanterie",
+      "short": "法32DI"
+    },
+    "model": "inf_pl",
+    "modelNote": "示意：3D 借用波兰步兵班组模型，非法军制服与编制。",
+    "active": {
+      "to": "1940-06-04T08:00"
+    },
+    "track": [
+      {
+        "at": "1940-05-26T00:00",
+        "pos": [
+          2.5,
+          50.95
+        ],
+        "status": "engaged",
+        "note": "布尔堡以东掩护西段运河线"
+      },
+      {
+        "at": "1940-05-28T12:00",
+        "pos": [
+          2.4,
+          50.93
+        ],
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-30T12:00",
+        "pos": [
+          2.35,
+          50.9
+        ],
+        "status": "ineffective",
+        "note": "第 16 军 5-30 战斗序列记为「丧失战斗力」"
+      },
+      {
+        "at": "1940-06-04T08:00",
+        "pos": "@dunkirk",
+        "status": "surrendered"
+      }
+    ],
+    "history": "第 16 军建制内的步兵师，5 月下旬在西段运河线上被逐步消耗。据法加尔德本人记述，5 月 30 日第 16 军的战斗序列中该师已记为「丧失战斗力」，余部并入桥头堡其他部队继续防守，6 月 4 日随桥头堡一同被俘。",
+    "sources": [
+      "french_army_1940",
+      "abrial_1940",
+      "ellis_1953"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "fr.25dim",
+    "side": "FR",
+    "echelon": "division",
+    "type": "motorized",
+    "parent": "fr.3ca",
+    "name": {
+      "zh": "第 25 摩托化步兵师",
+      "orig": "25e Division d'Infanterie Motorisée",
+      "short": "法25DIM"
+    },
+    "commander": {
+      "zh": "让-巴蒂斯特·莫利涅",
+      "orig": "Jean-Baptiste Molinié"
+    },
+    "model": "inf_pl",
+    "modelNote": "示意：3D 借用波兰步兵班组模型，非法军制服与编制。",
+    "active": {
+      "to": "1940-05-31T12:00"
+    },
+    "track": [
+      {
+        "at": "1940-05-26T00:00",
+        "pos": "@lille",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-28T19:30",
+        "pos": [
+          2.98,
+          50.63
+        ],
+        "status": "engaged",
+        "note": "向西突围未果"
+      },
+      {
+        "at": "1940-05-30T12:00",
+        "pos": "@lille",
+        "status": "encircled",
+        "note": "在里尔近郊逐屋巷战"
+      },
+      {
+        "at": "1940-05-31T12:00",
+        "pos": "@lille",
+        "status": "surrendered",
+        "note": "里尔大广场受降"
+      }
+    ],
+    "history": "师长莫利涅在里尔被围后出任口袋守备总指挥，统辖第 1 集团军约 5 个师的残部。一次巡逻偶然俘获德军第 253 步兵师师长屈内并缴获合围部署文件，莫利涅据此于 5 月 28 日组织突围，未果。此后在里尔郊区逐屋抵抗，牵制德军约 7 个师四天。5 月 31 日投降（史实为 31 日午夜停火，图上归入 5-31 正午关键帧），莫利涅以下 349 名军官、34,600 名士兵在里尔大广场受降，德军准予「荣誉受降」。",
+    "sources": [
+      "ellis_lille_1952",
+      "french_army_1940",
+      "sebag_2006",
+      "ellis_1953"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "fr.1dim",
+    "side": "FR",
+    "echelon": "division",
+    "type": "motorized",
+    "parent": "fr.1ca",
+    "name": {
+      "zh": "第 1 摩托化步兵师",
+      "orig": "1re Division d'Infanterie Motorisée",
+      "short": "法1DIM"
+    },
+    "commander": {
+      "zh": "马利沃瓦尔·德·卡马",
+      "orig": "Malivoire-Filhol de Camas"
+    },
+    "model": "inf_pl",
+    "modelNote": "示意：3D 借用波兰步兵班组模型，非法军制服与编制。",
+    "active": {
+      "to": "1940-05-31T12:00"
+    },
+    "track": [
+      {
+        "at": "1940-05-26T00:00",
+        "pos": [
+          3.15,
+          50.55
+        ],
+        "status": "withdrawing",
+        "note": "阿弗兰一带向里尔方向退却"
+      },
+      {
+        "at": "1940-05-28T12:00",
+        "pos": [
+          3,
+          50.62
+        ],
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-30T12:00",
+        "pos": "@lille",
+        "status": "encircled"
+      },
+      {
+        "at": "1940-05-31T12:00",
+        "pos": "@lille",
+        "status": "surrendered"
+      }
+    ],
+    "history": "开战时属第 3 军、第 1 集团军，5 月 11—14 日在让布卢正面顶住德军第 3 装甲师。此后一路转战撤向里尔，被合围于里尔口袋，5 月 31 日随口袋投降（史实为 31 日午夜停火，图上归入 5-31 正午关键帧）。该师第 110 步兵团的一部（团部与摩托化分队）另行抵达敦刻尔克并于 6 月 1 日登船。",
+    "sources": [
+      "ellis_lille_1952",
+      "french_army_1940",
+      "sebag_2006",
+      "ellis_1953"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "fr.15dim",
+    "side": "FR",
+    "echelon": "division",
+    "type": "motorized",
+    "parent": "fr.4ca",
+    "name": {
+      "zh": "第 15 摩托化步兵师",
+      "orig": "15e Division d'Infanterie Motorisée",
+      "short": "法15DIM"
+    },
+    "commander": {
+      "zh": "阿尔方斯·朱安",
+      "orig": "Alphonse Juin"
+    },
+    "model": "inf_pl",
+    "modelNote": "示意：3D 借用波兰步兵班组模型，非法军制服与编制。",
+    "active": {
+      "to": "1940-05-29T12:00"
+    },
+    "track": [
+      {
+        "at": "1940-05-26T00:00",
+        "pos": [
+          3,
+          50.6
+        ],
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-28T20:00",
+        "pos": [
+          2.97,
+          50.61
+        ],
+        "status": "encircled"
+      },
+      {
+        "at": "1940-05-29T12:00",
+        "pos": "@lille",
+        "status": "surrendered",
+        "note": "5-29 在里尔停止抵抗"
+      }
+    ],
+    "history": "属第 4 军，里尔口袋中最早力竭的师之一。5 月 28 日随第 4、第 5 军向西突围未果，5 月 29 日在里尔放下武器。师长朱安（后为法国元帅）被俘，在柯尼希施泰因要塞度过大部分战俘岁月。",
+    "sources": [
+      "ellis_lille_1952",
+      "french_army_1940",
+      "sebag_2006",
+      "ellis_1953"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "fr.1di",
+    "side": "FR",
+    "echelon": "division",
+    "type": "infantry",
+    "parent": "fr.3ca",
+    "name": {
+      "zh": "第 1 步兵师（里尔守备梯队）",
+      "orig": "1re Division d'Infanterie (éléments)",
+      "short": "法1DI"
+    },
+    "model": "inf_pl",
+    "modelNote": "示意：3D 借用波兰步兵班组模型，非法军制服与编制。",
+    "schematic": true,
+    "active": {
+      "to": "1940-05-31T12:00"
+    },
+    "track": [
+      {
+        "at": "1940-05-26T00:00",
+        "pos": "@lille",
+        "status": "active"
+      },
+      {
+        "at": "1940-05-28T19:00",
+        "pos": [
+          2.97,
+          50.62
+        ],
+        "status": "encircled"
+      },
+      {
+        "at": "1940-05-31T12:00",
+        "pos": "@lille",
+        "status": "surrendered"
+      }
+    ],
+    "history": "1940 年法国的「第 1 步兵师」已改编为第 1 摩托化步兵师（1re DIM）。本条按编制表单列，代表该师留在里尔的步兵梯队、补充营与守备分队；其命运与里尔口袋一致，5 月 31 日投降。位置与编成为示意。",
+    "sources": [
+      "french_army_1940",
+      "ellis_lille_1952"
+    ],
+    "confidence": "low"
+  },
+  {
+    "id": "fr.4di",
+    "side": "FR",
+    "echelon": "division",
+    "type": "infantry",
+    "parent": "fr.4ca",
+    "name": {
+      "zh": "第 4 步兵师",
+      "orig": "4e Division d'Infanterie",
+      "short": "法4DI"
+    },
+    "model": "inf_pl",
+    "modelNote": "示意：3D 借用波兰步兵班组模型，非法军制服与编制。",
+    "active": {
+      "to": "1940-05-31T12:00"
+    },
+    "track": [
+      {
+        "at": "1940-05-26T00:00",
+        "pos": [
+          3.02,
+          50.61
+        ],
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-28T20:00",
+        "pos": [
+          2.99,
+          50.6
+        ],
+        "status": "encircled"
+      },
+      {
+        "at": "1940-05-31T12:00",
+        "pos": "@lille",
+        "status": "surrendered"
+      }
+    ],
+    "history": "里尔口袋内第 4 军方向的步兵师之一。合围时该师参谋长菲利普·德·奥特克洛克上尉（后化名勒克莱尔，法国元帅）成功脱出重围，辗转抵达索姆河以南的第 7 集团军。师主力则随里尔口袋于 5 月 31 日投降（史实为 31 日午夜停火，图上归入 5-31 正午关键帧）。",
+    "sources": [
+      "ellis_lille_1952",
+      "french_army_1940",
+      "sebag_2006",
+      "ellis_1953"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "fr.4dina",
+    "side": "FR",
+    "echelon": "division",
+    "type": "infantry",
+    "parent": "fr.4ca",
+    "name": {
+      "zh": "第 4 北非步兵师（残部）",
+      "orig": "4e Division d'Infanterie Nord-Africaine",
+      "short": "法4DINA"
+    },
+    "commander": {
+      "zh": "夏尔-欧仁·桑塞尔姆",
+      "orig": "Charles-Eugène Sancelme"
+    },
+    "model": "inf_pl",
+    "modelNote": "示意：3D 借用波兰步兵班组模型，非法军制服与编制。",
+    "schematic": true,
+    "active": {
+      "to": "1940-05-31T12:00"
+    },
+    "track": [
+      {
+        "at": "1940-05-26T00:00",
+        "pos": [
+          3.05,
+          50.6
+        ],
+        "status": "ineffective",
+        "note": "主力 5-15 已在默兹河畔被歼，此处为北方重新集结的残部"
+      },
+      {
+        "at": "1940-05-28T12:00",
+        "pos": [
+          2.97,
+          50.6
+        ],
+        "status": "encircled"
+      },
+      {
+        "at": "1940-05-31T12:00",
+        "pos": "@lille",
+        "status": "surrendered"
+      }
+    ],
+    "history": "第 4 北非步兵师（第 23、25 阿尔及利亚步兵团与第 13 佐阿夫团）1940 年 5 月 15 日在默兹河迪南—菲利普维尔一线被德军装甲部队击溃，作为建制师已不复存在。本条代表此后在北方重新集结的该师残部与补充营，随里尔口袋于 5 月 31 日投降（史实为 31 日午夜停火，图上归入 5-31 正午关键帧）。编成与位置为示意。",
+    "sources": [
+      "french_army_1940",
+      "ellis_lille_1952"
+    ],
+    "confidence": "low"
+  },
+  {
+    "id": "fr.1dmar",
+    "side": "FR",
+    "echelon": "division",
+    "type": "infantry",
+    "parent": "fr.4ca",
+    "name": {
+      "zh": "第 1 摩洛哥步兵师",
+      "orig": "1re Division Marocaine",
+      "short": "法1DM"
+    },
+    "model": "inf_pl",
+    "modelNote": "示意：3D 借用波兰步兵班组模型，非法军制服与编制。",
+    "active": {
+      "to": "1940-05-31T12:00"
+    },
+    "track": [
+      {
+        "at": "1940-05-26T00:00",
+        "pos": [
+          3.02,
+          50.61
+        ],
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-28T20:00",
+        "pos": [
+          2.98,
+          50.6
+        ],
+        "status": "encircled"
+      },
+      {
+        "at": "1940-05-31T12:00",
+        "pos": "@lille",
+        "status": "surrendered"
+      }
+    ],
+    "history": "属第 4 军，5 月 28—31 日在里尔口袋内抵抗，5 月 31 日随口袋投降（史实为 31 日午夜停火，图上归入 5-31 正午关键帧）。其第 1 摩洛哥步兵团（1er RTM）在让布卢一战中表现突出，随后退入里尔。",
+    "sources": [
+      "ellis_lille_1952",
+      "french_army_1940",
+      "sebag_2006",
+      "ellis_1953"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "fr.2dina",
+    "side": "FR",
+    "echelon": "division",
+    "type": "infantry",
+    "parent": "fr.3ca",
+    "name": {
+      "zh": "第 2 北非步兵师",
+      "orig": "2e Division d'Infanterie Nord-Africaine",
+      "short": "法2DINA"
+    },
+    "commander": {
+      "zh": "皮埃尔·达姆",
+      "orig": "Pierre Dame"
+    },
+    "model": "inf_pl",
+    "modelNote": "示意：3D 借用波兰步兵班组模型，非法军制服与编制。",
+    "active": {
+      "to": "1940-05-31T12:00"
+    },
+    "track": [
+      {
+        "at": "1940-05-26T00:00",
+        "pos": [
+          3,
+          50.6
+        ],
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-28T19:30",
+        "pos": [
+          2.98,
+          50.62
+        ],
+        "status": "engaged",
+        "note": "强攻瑟克丹桥越过德勒河，被德军火力封死"
+      },
+      {
+        "at": "1940-05-29T12:00",
+        "pos": [
+          2.97,
+          50.6
+        ],
+        "status": "encircled"
+      },
+      {
+        "at": "1940-05-31T12:00",
+        "pos": "@lille",
+        "status": "surrendered"
+      }
+    ],
+    "history": "属第 3 军。5 月 28 日 19:30 口袋内法军向西突围时，该师奉命抢占里尔西南瑟克丹的德勒河桥；德军已布好火力，渡河分队被压回。5 月 29 日上午再次尝试，两辆坦克与两个步兵连一度渡河，随即被击退。5 月 31 日里尔口袋投降（史实为 31 日午夜/6 月 1 日零时停火，图上归入 5-31 正午关键帧）。",
+    "sources": [
+      "ellis_lille_1952",
+      "french_army_1940",
+      "sebag_2006",
+      "ellis_1953"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "fr.5dina",
+    "side": "FR",
+    "echelon": "division",
+    "type": "infantry",
+    "parent": "fr.5ca",
+    "name": {
+      "zh": "第 5 北非步兵师",
+      "orig": "5e Division d'Infanterie Nord-Africaine",
+      "short": "法5DINA"
+    },
+    "commander": {
+      "zh": "奥古斯丁·阿格利亚尼",
+      "orig": "Augustin Agliany"
+    },
+    "model": "inf_pl",
+    "modelNote": "示意：3D 借用波兰步兵班组模型，非法军制服与编制。",
+    "active": {
+      "to": "1940-05-31T12:00"
+    },
+    "track": [
+      {
+        "at": "1940-05-26T00:00",
+        "pos": [
+          3,
+          50.61
+        ],
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-28T19:30",
+        "pos": [
+          2.96,
+          50.6
+        ],
+        "status": "engaged",
+        "note": "沿桑特公路强攻「红磨坊桥」"
+      },
+      {
+        "at": "1940-05-29T10:00",
+        "pos": [
+          2.95,
+          50.6
+        ],
+        "status": "encircled"
+      },
+      {
+        "at": "1940-05-31T12:00",
+        "pos": "@lille",
+        "status": "surrendered"
+      }
+    ],
+    "history": "属第 5 军，是里尔口袋中突围的主力之一。5 月 28 日 19:30 该师沿桑特公路强攻奥布尔丹以南的「红磨坊桥」，试图渡河向利斯河方向突围，被德军预备火力击退。此后在里尔城内逐屋巷战至 5 月 31 日午夜，随口袋投降，获德军「荣誉受降」。",
+    "sources": [
+      "ellis_lille_1952",
+      "french_army_1940",
+      "sebag_2006",
+      "ellis_1953"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "fr.21di",
+    "side": "FR",
+    "echelon": "division",
+    "type": "infantry",
+    "parent": "fr.1ca",
+    "name": {
+      "zh": "第 21 步兵师",
+      "orig": "21e Division d'Infanterie",
+      "short": "法21DI"
+    },
+    "commander": {
+      "zh": "皮埃尔·朗克托",
+      "orig": "Pierre Louis Félix Lanquetot"
+    },
+    "model": "inf_pl",
+    "modelNote": "示意：3D 借用波兰步兵班组模型，非法军制服与编制。",
+    "active": {
+      "to": "1940-05-26T00:00"
+    },
+    "track": [
+      {
+        "at": "1940-05-26T00:00",
+        "pos": "@boulogne",
+        "status": "surrendered",
+        "note": "布洛涅 5-25 陷落后被俘"
+      }
+    ],
+    "history": "第 7 集团军建制内的现役师，1940 年 5 月 22—25 日防守布洛涅，在英军撤退、法军侧翼被突破后被俘，师长朗克托以下全部被俘。该师第 137 步兵团的部分兵力另行随北方军退入敦刻尔克桥头堡，战至 6 月 4 日（见 fr.137ri）。",
+    "sources": [
+      "french_army_1940",
+      "ellis_1953",
+      "sebag_2006"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "fr.110ri",
+    "side": "FR",
+    "echelon": "regiment",
+    "type": "infantry",
+    "parent": "fr.1dim",
+    "name": {
+      "zh": "第 110 步兵团",
+      "orig": "110e Régiment d'Infanterie",
+      "short": "法110RI"
+    },
+    "model": "inf_pl",
+    "modelNote": "示意：3D 借用波兰步兵班组模型，非法军制服与编制。",
+    "active": {
+      "to": "1940-06-01T12:00"
+    },
+    "track": [
+      {
+        "at": "1940-05-26T00:00",
+        "pos": "@lille",
+        "status": "engaged",
+        "note": "胡勒村 13 名被俘官兵遭党卫军「警卫旗队」枪杀"
+      },
+      {
+        "at": "1940-05-29T12:00",
+        "pos": [
+          3,
+          50.6
+        ],
+        "status": "withdrawing"
+      },
+      {
+        "at": "1940-05-31T12:00",
+        "pos": "@dunkirk",
+        "status": "engaged",
+        "note": "团部与摩托化分队抵达敦刻尔克"
+      },
+      {
+        "at": "1940-06-01T02:00",
+        "pos": "@dunkirk",
+        "status": "evacuated",
+        "movement": "sea",
+        "note": "由东防波堤登船，6-5 在布雷斯特上陆"
+      },
+      {
+        "at": "1940-06-01T12:00",
+        "pos": "@dover",
+        "status": "evacuated"
+      }
+    ],
+    "history": "属第 1 摩托化步兵师，5 月 11—14 日在让布卢正面顶住德军第 3 装甲师。5 月 26 日撤至胡勒村时，13 名被俘官兵被党卫军「警卫旗队」枪杀。该团步行分队困于里尔口袋，在洛斯莱里尔坚守至 5 月 31 日弹药耗尽，随残部获「荣誉受降」；团部与摩托化分队则抵达敦刻尔克，6 月 1 日登船赴英，6 月 5 日在布雷斯特上陆，编入重建的第 17 轻步兵师。",
+    "sources": [
+      "perez_1946",
+      "french_army_1940",
+      "sebag_2006",
+      "ellis_lille_1952"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "fr.127ri",
+    "side": "FR",
+    "echelon": "regiment",
+    "type": "infantry",
+    "parent": null,
+    "name": {
+      "zh": "第 127 步兵团（埃纳河方向）",
+      "orig": "127e Régiment d'Infanterie",
+      "short": "法127RI"
+    },
+    "model": "inf_pl",
+    "modelNote": "示意：3D 借用波兰步兵班组模型，非法军制服与编制。",
+    "schematic": true,
+    "active": {
+      "to": "1940-06-04T10:00"
+    },
+    "track": [
+      {
+        "at": "1940-05-26T00:00",
+        "pos": "@peronne",
+        "status": "active",
+        "note": "索姆河—埃纳河掩护线，不属敦刻尔克战区（位置取图幅南缘示意）"
+      },
+      {
+        "at": "1940-05-31T12:00",
+        "pos": [
+          3.3,
+          49.95
+        ],
+        "status": "engaged"
+      },
+      {
+        "at": "1940-06-04T10:00",
+        "pos": [
+          3.9,
+          49.95
+        ],
+        "status": "engaged",
+        "note": "雷泰勒之战（实际位置在埃纳河畔，图外）"
+      }
+    ],
+    "history": "属第 2 步兵师序列，1940 年 5 月部署在埃纳河—雷泰勒方向，并不在敦刻尔克战区。该团 6 月 4—10 日在雷泰勒之战中被歼，军旗在佩尔特村由团部军官焚毁，6 月 18 日番号撤销。本条按契约单列，代表北方战区之外的法国守军；图上位置取图幅南缘的索姆河掩护线，为示意。",
+    "sources": [
+      "french_army_1940",
+      "ellis_1953"
+    ],
+    "confidence": "low"
+  },
+  {
+    "id": "fr.137ri",
+    "side": "FR",
+    "echelon": "regiment",
+    "type": "infantry",
+    "parent": "fr.21di",
+    "name": {
+      "zh": "第 137 步兵团（敦刻尔克）",
+      "orig": "137e Régiment d'Infanterie",
+      "short": "法137RI"
+    },
+    "model": "inf_pl",
+    "modelNote": "示意：3D 借用波兰步兵班组模型，非法军制服与编制。",
+    "active": {
+      "to": "1940-06-04T08:00"
+    },
+    "track": [
+      {
+        "at": "1940-05-26T00:00",
+        "pos": [
+          2.75,
+          51.02
+        ],
+        "status": "withdrawing",
+        "note": "随北方军退向海岸"
+      },
+      {
+        "at": "1940-05-29T12:00",
+        "pos": "@bergues",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-06-01T12:00",
+        "pos": "@fort_des_dunes",
+        "status": "engaged",
+        "note": "上校默努在沙丘堡阵亡"
+      },
+      {
+        "at": "1940-06-04T08:00",
+        "pos": "@fort_des_dunes",
+        "status": "surrendered"
+      }
+    ],
+    "history": "第 21 步兵师第 137 步兵团。1940 年 5 月下旬脱离师建制随北方军退入敦刻尔克桥头堡，团旗上因此留下「1940 年敦刻尔克防御」的战功，上校默努在沙丘堡阵亡。该团属于最后坚守的约 35,000 名法军之列，6 月 4 日晨被俘。",
+    "sources": [
+      "french_army_1940",
+      "sumner_1998",
+      "sebag_2006",
+      "atkin_1990"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "fr.1rtm",
+    "side": "FR",
+    "echelon": "regiment",
+    "type": "infantry",
+    "parent": "fr.1dmar",
+    "name": {
+      "zh": "第 1 摩洛哥步兵团",
+      "orig": "1er Régiment de Tirailleurs Marocains",
+      "short": "法1RTM"
+    },
+    "model": "inf_pl",
+    "modelNote": "示意：3D 借用波兰步兵班组模型，非法军制服与编制。",
+    "active": {
+      "to": "1940-05-31T12:00"
+    },
+    "track": [
+      {
+        "at": "1940-05-26T00:00",
+        "pos": [
+          3,
+          50.62
+        ],
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-28T12:00",
+        "pos": [
+          2.96,
+          50.6
+        ],
+        "status": "encircled"
+      },
+      {
+        "at": "1940-05-31T12:00",
+        "pos": "@lille",
+        "status": "surrendered"
+      }
+    ],
+    "history": "属第 1 摩洛哥步兵师。5 月 15 日在让布卢一战中以白刃冲锋稳住战线，随后退往里尔，在里尔口袋内抵抗至 5 月 31 日被俘（史实为 31 日午夜停火）。该团 1940 年的战功中包括「让布卢 1940」与比利时十字军功章。",
+    "sources": [
+      "ellis_lille_1952",
+      "french_army_1940",
+      "sebag_2006",
+      "ellis_1953"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "fr.sect_fort",
+    "side": "FR",
+    "echelon": "sector",
+    "type": "fortress",
+    "parent": "fr.16ca",
+    "name": {
+      "zh": "佛兰德要塞区",
+      "orig": "Secteur Fortifié des Flandres",
+      "short": "佛兰德要塞"
+    },
+    "model": "inf_pl",
+    "modelNote": "示意：3D 借用波兰步兵班组模型，非法军制服与编制。",
+    "active": {
+      "to": "1940-06-04T06:00"
+    },
+    "track": [
+      {
+        "at": "1940-05-26T00:00",
+        "pos": "@bray_dunes",
+        "status": "active",
+        "note": "马斯内防线北端：布雷迪讷「鹦鹉沙丘」25 座碉堡封锁 D60 公路"
+      },
+      {
+        "at": "1940-05-29T12:00",
+        "pos": "@ghyvelde",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-06-02T23:00",
+        "pos": "@dunkirk",
+        "status": "withdrawing"
+      },
+      {
+        "at": "1940-06-04T06:00",
+        "pos": "@dunkirk",
+        "status": "surrendered"
+      }
+    ],
+    "history": "马其诺防线的北端延伸段，沿法比边界从布雷迪讷海滩经吉费尔德、贝尔格、阿尔芒蒂耶尔延伸，是「马斯内防线」的一部分。工事以 MOM 碉堡为主（16 座 STG 掩体、6 座 FCR 加固工事与约 200 座 MOM 碉堡），部分配 25 毫米反坦克炮与 75 毫米炮。1939 年 11 月起先后隶属第 3 军、第 16 军与第 7 集团军，桥头堡阶段作为守备兵力参战，6 月 4 日晨随桥头堡投降。",
+    "sources": [
+      "french_army_1940",
+      "sumner_1998",
+      "ellis_1953"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "fr.marine",
+    "side": "FR",
+    "echelon": "group",
+    "type": "marine",
+    "parent": "fr.abrial",
+    "name": {
+      "zh": "敦刻尔克海军守备队",
+      "orig": "Défense maritime de Dunkerque",
+      "short": "敦港守备"
+    },
+    "model": "inf_allied",
+    "modelNote": "示意：3D 使用盟军步兵符号模型。",
+    "active": {
+      "to": "1940-06-04T09:00"
+    },
+    "track": [
+      {
+        "at": "1940-05-26T00:00",
+        "pos": "@dunkirk",
+        "status": "active",
+        "note": "守卫港口设施与东、西防波堤"
+      },
+      {
+        "at": "1940-06-02T12:00",
+        "pos": "@east_mole",
+        "status": "engaged",
+        "note": "维持登船秩序，掩护最后一批登船"
+      },
+      {
+        "at": "1940-06-04T09:00",
+        "pos": "@dunkirk_port",
+        "status": "surrendered"
+      }
+    ],
+    "history": "由海军与殖民地部队抽调人员编成的港口守备队，负责敦刻尔克港区、船坞与东、西防波堤的防御和登船秩序；法国海军派驻敦刻尔克的舰艇亦归其节制。6 月 2 日起英军撤离完毕，港口由法军独立坚守，直至 6 月 4 日晨被俘。",
+    "sources": [
+      "abrial_1940",
+      "sumner_1998",
+      "lord_1982",
+      "dildy_2010"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "fr.art_lourde",
+    "side": "FR",
+    "echelon": "group",
+    "type": "artillery",
+    "parent": "fr.16ca",
+    "name": {
+      "zh": "第 16 军重炮群",
+      "orig": "Groupes d'artillerie lourde du 16e CA",
+      "short": "法16军重炮"
+    },
+    "model": "art_gun",
+    "active": {
+      "to": "1940-06-04T06:00"
+    },
+    "track": [
+      {
+        "at": "1940-05-26T00:00",
+        "pos": [
+          2.3,
+          50.95
+        ],
+        "status": "active"
+      },
+      {
+        "at": "1940-05-30T12:00",
+        "pos": [
+          2.33,
+          50.98
+        ],
+        "status": "engaged"
+      },
+      {
+        "at": "1940-06-04T06:00",
+        "pos": "@dunkirk",
+        "status": "surrendered",
+        "note": "炮毁人俘"
+      }
+    ],
+    "history": "第 16 军属两个重炮群，5 月下旬在布尔堡—斯皮凯尔一线支援桥头堡西段防御。弹药耗尽后按命令破坏火炮，人员随桥头堡于 6 月 4 日被俘。",
+    "sources": [
+      "french_army_1940",
+      "abrial_1940",
+      "ellis_1953"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "fr.grca_18",
+    "side": "FR",
+    "echelon": "group",
+    "type": "cavalry_mech",
+    "parent": "fr.16ca",
+    "name": {
+      "zh": "第 18 军属侦察群",
+      "orig": "18e Groupe de Reconnaissance de Corps d'Armée",
+      "short": "法18GRCA"
+    },
+    "model": "pz1",
+    "modelNote": "示意：3D 借用德军 I 号坦克模型，非法军装甲车。",
+    "active": {
+      "to": "1940-06-04T08:00"
+    },
+    "track": [
+      {
+        "at": "1940-05-26T00:00",
+        "pos": [
+          2.45,
+          50.95
+        ],
+        "status": "active"
+      },
+      {
+        "at": "1940-05-30T12:00",
+        "pos": [
+          2.6,
+          51
+        ],
+        "status": "engaged"
+      },
+      {
+        "at": "1940-06-03T12:00",
+        "pos": "@bray_dunes",
+        "status": "engaged"
+      },
+      {
+        "at": "1940-06-04T08:00",
+        "pos": "@bray_dunes",
+        "status": "surrendered"
+      }
+    ],
+    "history": "第 16 军属侦察群，桥头堡东段的机动屏护兵力。5 月 30 日法加尔德第 16 军战斗序列中记载该群加强有第 7 步兵师侦察群，另有来自骑兵军的两个 SOMUA S35 中队与一个 Hotchkiss H35 中队。6 月 4 日晨随桥头堡被俘。",
+    "sources": [
+      "french_army_1940",
+      "sumner_1998",
+      "ellis_1953"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "fr.pionniers_616",
+    "side": "FR",
+    "echelon": "regiment",
+    "type": "infantry",
+    "parent": "fr.16ca",
+    "name": {
+      "zh": "第 616 工兵（开路）团",
+      "orig": "616e Régiment de Pionniers",
+      "short": "法616工兵"
+    },
+    "model": "inf_pl",
+    "modelNote": "示意：3D 借用波兰步兵班组模型，非法军制服与编制。",
+    "active": {
+      "to": "1940-06-04T08:00"
+    },
+    "track": [
+      {
+        "at": "1940-05-26T00:00",
+        "pos": "@bergues",
+        "status": "active"
+      },
+      {
+        "at": "1940-06-02T23:00",
+        "pos": "@dunkirk",
+        "status": "withdrawing",
+        "note": "破坏运河桥梁后西撤"
+      },
+      {
+        "at": "1940-06-04T08:00",
+        "pos": "@dunkirk",
+        "status": "surrendered"
+      }
+    ],
+    "history": "第 16 军属工兵（开路）团，负责运河线的爆破、障碍设置与桥梁破坏，1939 年 12 月起随第 16 军进入佛兰德。贝尔格失守后继续在敦刻尔克城郊设置障碍，6 月 4 日晨被俘。",
+    "sources": [
+      "french_army_1940",
+      "ellis_1953"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "fr.aerienne",
+    "side": "FR",
+    "echelon": "air_group",
+    "type": "air",
+    "parent": "fr.gqg_nord",
+    "name": {
+      "zh": "法国空军北部作战区",
+      "orig": "Armée de l'Air — Zone d'Opérations Aériennes Nord",
+      "short": "法空军北区"
+    },
+    "model": "air_token",
+    "modelNote": "示意：3D 使用航空符号模型，非实际机型。",
+    "base": "@lille_airfield",
+    "track": [
+      {
+        "at": "1940-05-26T06:00",
+        "pos": "@lille_airfield",
+        "status": "active",
+        "flightPhase": "at_base"
+      },
+      {
+        "at": "1940-05-26T07:00",
+        "pos": [
+          2.45,
+          51.02
+        ],
+        "flightPhase": "outbound",
+        "altitudeM": 3000,
+        "note": "掩护敦刻尔克—加来航段"
+      },
+      {
+        "at": "1940-05-26T08:30",
+        "pos": [
+          2.45,
+          51.02
+        ],
+        "flightPhase": "engaged",
+        "altitudeM": 2500
+      },
+      {
+        "at": "1940-05-26T09:30",
+        "pos": "@lille_airfield",
+        "flightPhase": "returning",
+        "altitudeM": 3000
+      },
+      {
+        "at": "1940-05-26T10:30",
+        "pos": "@lille_airfield",
+        "flightPhase": "at_base"
+      },
+      {
+        "at": "1940-05-28T06:00",
+        "pos": "@cambrai_airfield",
+        "flightPhase": "at_base",
+        "note": "基地南移康布雷"
+      },
+      {
+        "at": "1940-05-28T07:00",
+        "pos": [
+          2.4,
+          51
+        ],
+        "flightPhase": "outbound",
+        "altitudeM": 3500
+      },
+      {
+        "at": "1940-05-28T08:30",
+        "pos": [
+          2.4,
+          51
+        ],
+        "flightPhase": "engaged",
+        "altitudeM": 2800
+      },
+      {
+        "at": "1940-05-28T09:30",
+        "pos": "@cambrai_airfield",
+        "flightPhase": "returning",
+        "altitudeM": 3500
+      },
+      {
+        "at": "1940-05-28T10:30",
+        "pos": "@cambrai_airfield",
+        "flightPhase": "at_base"
+      },
+      {
+        "at": "1940-05-31T06:00",
+        "pos": "@cambrai_airfield",
+        "flightPhase": "at_base"
+      },
+      {
+        "at": "1940-05-31T07:00",
+        "pos": [
+          2.35,
+          51
+        ],
+        "flightPhase": "outbound",
+        "altitudeM": 3500,
+        "note": "掩护 6 月 1 日前的白天登船"
+      },
+      {
+        "at": "1940-05-31T08:30",
+        "pos": [
+          2.35,
+          51
+        ],
+        "flightPhase": "engaged",
+        "altitudeM": 2600
+      },
+      {
+        "at": "1940-05-31T09:30",
+        "pos": "@cambrai_airfield",
+        "flightPhase": "returning",
+        "altitudeM": 3500
+      },
+      {
+        "at": "1940-05-31T10:30",
+        "pos": "@cambrai_airfield",
+        "flightPhase": "at_base"
+      },
+      {
+        "at": "1940-06-03T06:00",
+        "pos": "@cambrai_airfield",
+        "flightPhase": "at_base"
+      },
+      {
+        "at": "1940-06-03T07:00",
+        "pos": [
+          2.35,
+          51
+        ],
+        "flightPhase": "outbound",
+        "altitudeM": 3000,
+        "note": "6 月 2 日起登船改为夜航，昼间仅能零星出动"
+      },
+      {
+        "at": "1940-06-03T08:30",
+        "pos": [
+          2.35,
+          51
+        ],
+        "flightPhase": "engaged",
+        "altitudeM": 2200
+      },
+      {
+        "at": "1940-06-03T09:30",
+        "pos": "@cambrai_airfield",
+        "flightPhase": "returning",
+        "altitudeM": 3000
+      },
+      {
+        "at": "1940-06-03T10:30",
+        "pos": "@cambrai_airfield",
+        "flightPhase": "at_base"
+      }
+    ],
+    "history": "法国空军北部作战区（ZOAN），统辖支援北方集团军群的战斗机、轰炸机与侦察部队，基地随战线南移（里尔 → 康布雷）。在敦刻尔克阶段主要执行桥头堡上空的巡逻、对德军装甲纵队与渡口的轰炸，以及掩护航道的任务。法国空军在 5 月 26 日至 6 月 4 日期间损失惨重，但仍逐日出动。",
+    "sources": [
+      "french_army_1940",
+      "dildy_2010",
+      "ellis_1953",
+      "sumner_1998"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "fr.gb_i12",
+    "side": "FR",
+    "echelon": "group",
+    "type": "bomber",
+    "parent": "fr.aerienne",
+    "name": {
+      "zh": "第 I/12 轰炸机大队",
+      "orig": "Groupe de Bombardement I/12",
+      "short": "法GB I/12"
+    },
+    "model": "air_token",
+    "modelNote": "示意：3D 使用航空符号模型，非实际机型。",
+    "base": "@cambrai_airfield",
+    "track": [
+      {
+        "at": "1940-05-27T05:00",
+        "pos": "@cambrai_airfield",
+        "status": "active",
+        "flightPhase": "at_base"
+      },
+      {
+        "at": "1940-05-27T06:00",
+        "pos": [
+          2.55,
+          50.95
+        ],
+        "flightPhase": "outbound",
+        "altitudeM": 2000,
+        "note": "LeO 451 轰炸运河线渡口"
+      },
+      {
+        "at": "1940-05-27T07:30",
+        "pos": [
+          2.55,
+          50.95
+        ],
+        "flightPhase": "engaged",
+        "altitudeM": 1500
+      },
+      {
+        "at": "1940-05-27T08:30",
+        "pos": "@cambrai_airfield",
+        "flightPhase": "returning",
+        "altitudeM": 2000
+      },
+      {
+        "at": "1940-05-27T09:30",
+        "pos": "@cambrai_airfield",
+        "flightPhase": "at_base"
+      },
+      {
+        "at": "1940-06-01T05:00",
+        "pos": "@cambrai_airfield",
+        "flightPhase": "at_base"
+      },
+      {
+        "at": "1940-06-01T06:00",
+        "pos": [
+          2.5,
+          50.95
+        ],
+        "flightPhase": "outbound",
+        "altitudeM": 2000
+      },
+      {
+        "at": "1940-06-01T07:30",
+        "pos": [
+          2.5,
+          50.95
+        ],
+        "flightPhase": "engaged",
+        "altitudeM": 1500
+      },
+      {
+        "at": "1940-06-01T08:30",
+        "pos": "@cambrai_airfield",
+        "flightPhase": "returning",
+        "altitudeM": 2000
+      },
+      {
+        "at": "1940-06-01T09:30",
+        "pos": "@cambrai_airfield",
+        "flightPhase": "at_base"
+      }
+    ],
+    "history": "装备 LeO 451 双发轰炸机的法军轰炸机大队，5 月下旬至 6 月初反复轰炸贝尔格—敦刻尔克运河沿线的渡口与德军集结地，出击时由莫拉纳-索尔尼耶 M.S.406 战斗机掩护，损失很大。",
+    "sources": [
+      "french_army_1940",
+      "dildy_2010",
+      "ellis_1953"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "fr.gb_ii12",
+    "side": "FR",
+    "echelon": "group",
+    "type": "bomber",
+    "parent": "fr.aerienne",
+    "name": {
+      "zh": "第 II/12 轰炸机大队",
+      "orig": "Groupe de Bombardement II/12",
+      "short": "法GB II/12"
+    },
+    "model": "air_token",
+    "modelNote": "示意：3D 使用航空符号模型，非实际机型。",
+    "base": "@cambrai_airfield",
+    "track": [
+      {
+        "at": "1940-05-28T05:00",
+        "pos": "@cambrai_airfield",
+        "status": "active",
+        "flightPhase": "at_base"
+      },
+      {
+        "at": "1940-05-28T06:00",
+        "pos": [
+          2.5,
+          50.92
+        ],
+        "flightPhase": "outbound",
+        "altitudeM": 2000
+      },
+      {
+        "at": "1940-05-28T07:30",
+        "pos": [
+          2.5,
+          50.92
+        ],
+        "flightPhase": "engaged",
+        "altitudeM": 1600
+      },
+      {
+        "at": "1940-05-28T08:30",
+        "pos": "@cambrai_airfield",
+        "flightPhase": "returning",
+        "altitudeM": 2000
+      },
+      {
+        "at": "1940-05-28T09:30",
+        "pos": "@cambrai_airfield",
+        "flightPhase": "at_base"
+      },
+      {
+        "at": "1940-06-02T05:00",
+        "pos": "@cambrai_airfield",
+        "flightPhase": "at_base"
+      },
+      {
+        "at": "1940-06-02T06:00",
+        "pos": [
+          2.45,
+          50.95
+        ],
+        "flightPhase": "outbound",
+        "altitudeM": 1800
+      },
+      {
+        "at": "1940-06-02T07:30",
+        "pos": [
+          2.45,
+          50.95
+        ],
+        "flightPhase": "engaged",
+        "altitudeM": 1400
+      },
+      {
+        "at": "1940-06-02T08:30",
+        "pos": "@cambrai_airfield",
+        "flightPhase": "returning",
+        "altitudeM": 1800
+      },
+      {
+        "at": "1940-06-02T09:30",
+        "pos": "@cambrai_airfield",
+        "flightPhase": "at_base"
+      }
+    ],
+    "history": "与第 I/12 大队同属第 12 轰炸机联队的 LeO 451 大队，负责轰炸里尔—贝尔格方向德军装甲纵队与桥梁。6 月 2 日贝尔格陷落当天仍出动支援，此后因机场受威胁而转移。",
+    "sources": [
+      "french_army_1940",
+      "dildy_2010",
+      "ellis_1953"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "fr.gc_iii3",
+    "side": "FR",
+    "echelon": "group",
+    "type": "fighter",
+    "parent": "fr.aerienne",
+    "name": {
+      "zh": "第 III/3 战斗机大队",
+      "orig": "Groupe de Chasse III/3",
+      "short": "法GC III/3"
+    },
+    "model": "air_token",
+    "modelNote": "示意：3D 使用航空符号模型，非实际机型。",
+    "base": "@cambrai_airfield",
+    "track": [
+      {
+        "at": "1940-05-27T05:00",
+        "pos": "@cambrai_airfield",
+        "status": "active",
+        "flightPhase": "at_base"
+      },
+      {
+        "at": "1940-05-27T06:00",
+        "pos": [
+          2.45,
+          51.02
+        ],
+        "flightPhase": "outbound",
+        "altitudeM": 4000,
+        "note": "M.S.406 为轰炸机护航并拦截德军编队"
+      },
+      {
+        "at": "1940-05-27T07:30",
+        "pos": [
+          2.45,
+          51.02
+        ],
+        "flightPhase": "engaged",
+        "altitudeM": 3500
+      },
+      {
+        "at": "1940-05-27T08:30",
+        "pos": "@cambrai_airfield",
+        "flightPhase": "returning",
+        "altitudeM": 4000
+      },
+      {
+        "at": "1940-05-27T09:30",
+        "pos": "@cambrai_airfield",
+        "flightPhase": "at_base"
+      },
+      {
+        "at": "1940-06-02T05:00",
+        "pos": "@cambrai_airfield",
+        "flightPhase": "at_base"
+      },
+      {
+        "at": "1940-06-02T06:00",
+        "pos": [
+          2.4,
+          51
+        ],
+        "flightPhase": "outbound",
+        "altitudeM": 4200
+      },
+      {
+        "at": "1940-06-02T07:30",
+        "pos": [
+          2.4,
+          51
+        ],
+        "flightPhase": "engaged",
+        "altitudeM": 3800
+      },
+      {
+        "at": "1940-06-02T08:30",
+        "pos": "@cambrai_airfield",
+        "flightPhase": "returning",
+        "altitudeM": 4200
+      },
+      {
+        "at": "1940-06-02T09:30",
+        "pos": "@cambrai_airfield",
+        "flightPhase": "at_base"
+      }
+    ],
+    "history": "装备莫拉纳-索尔尼耶 M.S.406 战斗机的法军战斗机大队，在比利时战役中为轰炸机护航并在敦刻尔克上空与德军 Bf 109 交战。法军战斗机大队数量有限，出动强度远低于德国空军与英国皇家空军。",
+    "sources": [
+      "french_army_1940",
+      "dildy_2010",
+      "ellis_1953"
+    ],
+    "confidence": "medium"
+  }
+]

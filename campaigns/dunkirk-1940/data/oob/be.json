@@ -1,0 +1,1865 @@
+[
+  {
+    "id": "be.ghq",
+    "side": "BE",
+    "echelon": "armygroup",
+    "type": "hq",
+    "parent": null,
+    "name": {
+      "zh": "比利时陆军总司令部",
+      "orig": "Grand Quartier Général de l'Armée belge",
+      "short": "比军总司"
+    },
+    "commander": {
+      "zh": "利奥波德三世国王 / 奥斯卡·米希尔斯中将",
+      "orig": "Léopold III / Lt-Gen Oscar Michiels"
+    },
+    "display": "container",
+    "active": {
+      "to": "1940-05-28T04:00"
+    },
+    "track": [
+      {
+        "at": "1940-05-26T00:00",
+        "pos": "@brugge",
+        "status": "active",
+        "note": "总司令部设在布鲁日附近的圣安德里斯"
+      },
+      {
+        "at": "1940-05-26T18:00",
+        "pos": [
+          2.82,
+          51.18
+        ],
+        "status": "withdrawing",
+        "note": "18:00 布吕曼将军通报英军将退向里尔—伊珀尔线；当晚总司令部迁往米德尔凯尔克（位置示意）"
+      },
+      {
+        "at": "1940-05-27T20:00",
+        "pos": [
+          2.82,
+          51.18
+        ],
+        "status": "engaged",
+        "note": "20:00 发出最后撤退令；17:00 已派德鲁索少将赴德军第 18 集团军请求停战"
+      },
+      {
+        "at": "1940-05-27T23:00",
+        "pos": [
+          2.82,
+          51.18
+        ],
+        "status": "engaged",
+        "note": "23:00 国王接受「无条件放下武器」，约定 04:00 停火，枪炮未停"
+      },
+      {
+        "at": "1940-05-28T04:00",
+        "pos": [
+          2.82,
+          51.18
+        ],
+        "status": "surrendered",
+        "note": "比军停止抵抗（布鲁塞尔时间 04:00）"
+      }
+    ],
+    "history": "利奥波德三世以国王身份亲任总司令，米希尔斯中将任总参谋长。1940 年 5 月 26 日比军已「接近忍耐极限」；27 日 11:00 前线在马尔德海姆以北、乌尔瑟尔与蒂尔特—鲁瑟拉勒三处被突破，17:00 国王派德鲁索少将赴德军第 18 集团军请求停战，22:00 得到「元首要求无条件放下武器」的答复，23:00 接受，约定 28 日 04:00 停火（鲁瑟拉勒—伊珀尔线因通信不畅战至 06:00）。约 500,000 名比军被俘，国王本人留在比利时。",
+    "sources": [
+      "belgian_army_1947",
+      "belgian_commission_1950",
+      "holland_belgium_1940",
+      "sebag_2006"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "be.1ca",
+    "side": "BE",
+    "echelon": "corps",
+    "type": "hq",
+    "parent": "be.ghq",
+    "name": {
+      "zh": "比利时第 1 军",
+      "orig": "1er Corps d'Armée belge",
+      "short": "比第1军"
+    },
+    "commander": {
+      "zh": "亚历克西斯·范德维肯中将",
+      "orig": "Alexis Vander Veken"
+    },
+    "active": {
+      "to": "1940-05-28T04:00"
+    },
+    "track": [
+      {
+        "at": "1940-05-26T00:00",
+        "pos": [
+          3.46,
+          51
+        ],
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-27T12:00",
+        "pos": [
+          3.35,
+          51.03
+        ],
+        "status": "withdrawing"
+      },
+      {
+        "at": "1940-05-28T04:00",
+        "pos": [
+          3.35,
+          51.03
+        ],
+        "status": "surrendered"
+      }
+    ],
+    "history": "辖第 4、第 7 步兵师，5 月 10 日在阿尔贝特运河迪彭贝克—艾根比岑段迎击德军。第 7 师当日在埃本埃马尔要塞正面被击溃，第 4 师苦战至 11 日 15:00 侧翼被穿透。此后随全军退往利斯河与代因泽方向，5 月 28 日 04:00 随全军停止抵抗。",
+    "sources": [
+      "belgian_army_1947",
+      "belgian_commission_1950",
+      "ellis_1953"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "be.2ca",
+    "side": "BE",
+    "echelon": "corps",
+    "type": "hq",
+    "parent": "be.ghq",
+    "name": {
+      "zh": "比利时第 2 军",
+      "orig": "2e Corps d'Armée belge",
+      "short": "比第2军"
+    },
+    "commander": {
+      "zh": "维克托·米舍姆中将",
+      "orig": "Victor Michem"
+    },
+    "active": {
+      "to": "1940-05-28T04:00"
+    },
+    "track": [
+      {
+        "at": "1940-05-26T00:00",
+        "pos": [
+          3.12,
+          50.94
+        ],
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-27T06:00",
+        "pos": [
+          3.1,
+          50.96
+        ],
+        "status": "engaged",
+        "note": "在利斯河一线发起反击并俘获约 200 名德军"
+      },
+      {
+        "at": "1940-05-28T04:00",
+        "pos": [
+          3.1,
+          50.96
+        ],
+        "status": "surrendered"
+      }
+    ],
+    "history": "辖第 6、第 9 步兵师。5 月 24—26 日在利斯河（科特赖克—鲁瑟拉勒段）组织反击，一度俘获约 200 名德军，是比军在战役后期少有的战术得手；但德军掌握制空权，炮兵与步兵遭反复轰炸后被迫后撤。5 月 28 日 04:00 随全军投降。",
+    "sources": [
+      "holland_belgium_1940",
+      "belgian_army_1947",
+      "sebag_2006",
+      "dildy_2010"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "be.3ca",
+    "side": "BE",
+    "echelon": "corps",
+    "type": "hq",
+    "parent": "be.ghq",
+    "name": {
+      "zh": "比利时第 3 军",
+      "orig": "3e Corps d'Armée belge",
+      "short": "比第3军"
+    },
+    "commander": {
+      "zh": "约瑟夫·德·克拉埃中将",
+      "orig": "Joseph de Krahe"
+    },
+    "active": {
+      "to": "1940-05-28T04:00"
+    },
+    "track": [
+      {
+        "at": "1940-05-26T00:00",
+        "pos": [
+          3.27,
+          50.83
+        ],
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-27T12:00",
+        "pos": [
+          3.2,
+          50.87
+        ],
+        "status": "withdrawing"
+      },
+      {
+        "at": "1940-05-28T04:00",
+        "pos": [
+          3.2,
+          50.87
+        ],
+        "status": "surrendered"
+      }
+    ],
+    "history": "辖第 2、第 3 步兵师，原守列日筑垒地域（绍方丹—昂日段）。5 月下旬第 3 师调至利斯河一线参加科特赖克防御，是 5 月 24 日德军强渡利斯河时的首批接战部队之一。5 月 28 日 04:00 随全军投降。",
+    "sources": [
+      "holland_belgium_1940",
+      "belgian_army_1947",
+      "sebag_2006",
+      "dildy_2010"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "be.4ca",
+    "side": "BE",
+    "echelon": "corps",
+    "type": "hq",
+    "parent": "be.ghq",
+    "name": {
+      "zh": "比利时第 4 军",
+      "orig": "4e Corps d'Armée belge",
+      "short": "比第4军"
+    },
+    "commander": {
+      "zh": "安德烈·博加茨中将",
+      "orig": "André Bogaerts"
+    },
+    "active": {
+      "to": "1940-05-28T04:00"
+    },
+    "track": [
+      {
+        "at": "1940-05-26T00:00",
+        "pos": [
+          3.33,
+          50.94
+        ],
+        "status": "engaged",
+        "note": "德军第 6 集团军 4 个师猛攻第 4 军科特赖克段阵地"
+      },
+      {
+        "at": "1940-05-27T12:00",
+        "pos": [
+          3.28,
+          50.96
+        ],
+        "status": "withdrawing"
+      },
+      {
+        "at": "1940-05-28T04:00",
+        "pos": [
+          3.28,
+          50.96
+        ],
+        "status": "surrendered"
+      }
+    ],
+    "history": "辖第 12、第 15、第 18 步兵师。5 月 24 日下午德军第 6 集团军以 4 个师猛攻科特赖克段利斯河防线，当夜渡河并在韦尔维克—科特赖克之间 13 英里正面上突入约 1 英里。第 15 步兵团正面最先崩溃，邻近第 7、第 11 团被围。该军是利斯河之战中承受主要打击的建制。5 月 28 日 04:00 随全军投降。",
+    "sources": [
+      "holland_belgium_1940",
+      "belgian_army_1947",
+      "sebag_2006",
+      "dildy_2010"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "be.5ca",
+    "side": "BE",
+    "echelon": "corps",
+    "type": "hq",
+    "parent": "be.ghq",
+    "name": {
+      "zh": "比利时第 5 军",
+      "orig": "5e Corps d'Armée belge",
+      "short": "比第5军"
+    },
+    "commander": {
+      "zh": "爱德华·范登贝亨中将",
+      "orig": "Edouard Van Den Bergen"
+    },
+    "active": {
+      "to": "1940-05-28T04:00"
+    },
+    "track": [
+      {
+        "at": "1940-05-26T00:00",
+        "pos": [
+          3.57,
+          51.11
+        ],
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-27T12:00",
+        "pos": [
+          3.5,
+          51.14
+        ],
+        "status": "withdrawing",
+        "note": "马尔德海姆以北防线被突破"
+      },
+      {
+        "at": "1940-05-28T04:00",
+        "pos": [
+          3.5,
+          51.14
+        ],
+        "status": "surrendered"
+      }
+    ],
+    "history": "辖第 13、第 17 步兵师，原守安特卫普筑垒地域。5 月下旬转入根特—埃克洛方向，5 月 27 日 11:00 前线在马尔德海姆以北被德军突破，此后向布鲁日方向收缩。5 月 28 日 04:00 随全军投降。",
+    "sources": [
+      "belgian_army_1947",
+      "belgian_commission_1950",
+      "ellis_1953"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "be.6ca",
+    "side": "BE",
+    "echelon": "corps",
+    "type": "hq",
+    "parent": "be.ghq",
+    "name": {
+      "zh": "比利时第 6 军",
+      "orig": "6e Corps d'Armée belge",
+      "short": "比第6军"
+    },
+    "commander": {
+      "zh": "费尔南·韦斯特拉滕中将",
+      "orig": "Fernand Verstraeten"
+    },
+    "active": {
+      "to": "1940-05-28T04:00"
+    },
+    "track": [
+      {
+        "at": "1940-05-26T00:00",
+        "pos": [
+          3.02,
+          50.86
+        ],
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-27T12:00",
+        "pos": [
+          2.98,
+          50.9
+        ],
+        "status": "withdrawing"
+      },
+      {
+        "at": "1940-05-28T04:00",
+        "pos": [
+          2.98,
+          50.9
+        ],
+        "status": "surrendered"
+      }
+    ],
+    "history": "辖第 5、第 10 步兵师。5 月 26 日德军一个师自梅嫩向伊珀尔推进、企图切断比军与英军的联系时，第 2 骑兵旅与第 6 步兵师赶到该方向顶住攻势。该军随后在伊珀尔—帕斯尚尔—鲁瑟拉勒一线用铁路货车构成临时反坦克屏障。5 月 28 日 04:00 随全军投降（鲁瑟拉勒—伊珀尔段因通信不畅战至 06:00）。",
+    "sources": [
+      "holland_belgium_1940",
+      "belgian_army_1947",
+      "sebag_2006",
+      "dildy_2010"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "be.7ca",
+    "side": "BE",
+    "echelon": "corps",
+    "type": "hq",
+    "parent": "be.ghq",
+    "name": {
+      "zh": "比利时第 7 军",
+      "orig": "7e Corps d'Armée belge",
+      "short": "比第7军"
+    },
+    "commander": {
+      "zh": "乔治·德丰坦中将",
+      "orig": "Georges Deffontaine"
+    },
+    "active": {
+      "to": "1940-05-28T04:00"
+    },
+    "track": [
+      {
+        "at": "1940-05-26T00:00",
+        "pos": [
+          2.95,
+          51.05
+        ],
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-27T12:00",
+        "pos": [
+          2.9,
+          51.06
+        ],
+        "status": "withdrawing"
+      },
+      {
+        "at": "1940-05-28T04:00",
+        "pos": [
+          2.9,
+          51.06
+        ],
+        "status": "surrendered"
+      }
+    ],
+    "history": "辖第 8 步兵师与第 2 阿登猎兵师，原守那慕尔与默兹河昂日—安德讷段，5 月中旬退往佛兰德西部。5 月下旬与第 5、第 2、第 6、第 4 军并肩列阵于伊瑟河—迪克斯梅德方向。5 月 28 日 04:00 随全军投降。",
+    "sources": [
+      "belgian_army_1947",
+      "belgian_commission_1950",
+      "ellis_1953"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "be.1div",
+    "side": "BE",
+    "echelon": "division",
+    "type": "infantry",
+    "parent": "be.3ca",
+    "name": {
+      "zh": "比利时第 1 步兵师",
+      "orig": "1re Division d'Infanterie belge",
+      "short": "比1师"
+    },
+    "model": "inf_pl",
+    "modelNote": "示意：3D 借用波兰步兵班组模型，非法军制服与编制。",
+    "active": {
+      "to": "1940-05-28T04:00"
+    },
+    "track": [
+      {
+        "at": "1940-05-26T00:00",
+        "pos": [
+          3.33,
+          50.86
+        ],
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-27T12:00",
+        "pos": [
+          3.28,
+          50.88
+        ],
+        "status": "withdrawing"
+      },
+      {
+        "at": "1940-05-28T04:00",
+        "pos": [
+          3.28,
+          50.88
+        ],
+        "status": "surrendered"
+      }
+    ],
+    "history": "5 月 24 日德军在科特赖克强渡利斯河时，该师与第 3 师同守该段，是被迫后撤的首批部队之一。5 月 28 日 04:00 随全军投降。",
+    "sources": [
+      "belgian_army_1947",
+      "belgian_commission_1950",
+      "ellis_1953"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "be.2div",
+    "side": "BE",
+    "echelon": "division",
+    "type": "infantry",
+    "parent": "be.3ca",
+    "name": {
+      "zh": "比利时第 2 步兵师",
+      "orig": "2de Infanteriedivisie",
+      "short": "比2师"
+    },
+    "model": "inf_pl",
+    "modelNote": "示意：3D 借用波兰步兵班组模型，非法军制服与编制。",
+    "active": {
+      "to": "1940-05-28T04:00"
+    },
+    "track": [
+      {
+        "at": "1940-05-26T00:00",
+        "pos": [
+          3.2,
+          50.95
+        ],
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-27T12:00",
+        "pos": [
+          3.15,
+          50.98
+        ],
+        "status": "withdrawing"
+      },
+      {
+        "at": "1940-05-28T04:00",
+        "pos": [
+          3.15,
+          50.98
+        ],
+        "status": "surrendered"
+      }
+    ],
+    "history": "属第 3 军，原守列日筑垒地域绍方丹—昂日段。5 月下旬随军退往佛兰德西部，5 月 28 日 04:00 随全军投降。",
+    "sources": [
+      "belgian_army_1947",
+      "belgian_commission_1950",
+      "ellis_1953"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "be.3div",
+    "side": "BE",
+    "echelon": "division",
+    "type": "infantry",
+    "parent": "be.3ca",
+    "name": {
+      "zh": "比利时第 3 步兵师",
+      "orig": "3e Division d'Infanterie belge",
+      "short": "比3师"
+    },
+    "model": "inf_pl",
+    "modelNote": "示意：3D 借用波兰步兵班组模型，非法军制服与编制。",
+    "active": {
+      "to": "1940-05-28T04:00"
+    },
+    "track": [
+      {
+        "at": "1940-05-26T00:00",
+        "pos": [
+          3.3,
+          50.85
+        ],
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-27T12:00",
+        "pos": [
+          3.26,
+          50.88
+        ],
+        "status": "withdrawing"
+      },
+      {
+        "at": "1940-05-28T04:00",
+        "pos": [
+          3.26,
+          50.88
+        ],
+        "status": "surrendered"
+      }
+    ],
+    "history": "原守列日筑垒地域谢塔尔—绍方丹段，5 月下旬调至利斯河参加科特赖克防御，在德军第 6 集团军渡河正面苦战。5 月 28 日 04:00 随全军投降。",
+    "sources": [
+      "belgian_army_1947",
+      "belgian_commission_1950",
+      "ellis_1953"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "be.4div",
+    "side": "BE",
+    "echelon": "division",
+    "type": "infantry",
+    "parent": "be.4ca",
+    "name": {
+      "zh": "比利时第 4 步兵师",
+      "orig": "4de Infanteriedivisie",
+      "short": "比4师"
+    },
+    "model": "inf_pl",
+    "modelNote": "示意：3D 借用波兰步兵班组模型，非法军制服与编制。",
+    "active": {
+      "to": "1940-05-28T04:00"
+    },
+    "track": [
+      {
+        "at": "1940-05-26T00:00",
+        "pos": [
+          3.5,
+          51.05
+        ],
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-27T12:00",
+        "pos": [
+          3.42,
+          51.06
+        ],
+        "status": "withdrawing"
+      },
+      {
+        "at": "1940-05-28T04:00",
+        "pos": [
+          3.42,
+          51.06
+        ],
+        "status": "surrendered"
+      }
+    ],
+    "history": "5 月 10 日在阿尔贝特运河迪彭贝克—艾根比岑段迎战，11 日 15:00 侧翼被穿透，仅因德军摩托化部队转向阿努特才免于被围。此后两次退却使兵力减半、三分之二反坦克炮与几乎全部迫击炮、重机枪损失。5 月 25 日德军进攻时第 15 团正面迅速崩溃，至日终德军自利斯河向芬克特推进 6 公里，该师已无力再战。5 月 28 日 04:00 随全军投降。",
+    "sources": [
+      "holland_belgium_1940",
+      "belgian_army_1947",
+      "sebag_2006",
+      "dildy_2010"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "be.5div",
+    "side": "BE",
+    "echelon": "division",
+    "type": "infantry",
+    "parent": "be.6ca",
+    "name": {
+      "zh": "比利时第 5 步兵师",
+      "orig": "5de Infanteriedivisie",
+      "short": "比5师"
+    },
+    "model": "inf_pl",
+    "modelNote": "示意：3D 借用波兰步兵班组模型，非法军制服与编制。",
+    "active": {
+      "to": "1940-05-28T04:00"
+    },
+    "track": [
+      {
+        "at": "1940-05-26T00:00",
+        "pos": [
+          3.6,
+          50.9
+        ],
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-27T12:00",
+        "pos": [
+          3.55,
+          50.95
+        ],
+        "status": "withdrawing"
+      },
+      {
+        "at": "1940-05-28T04:00",
+        "pos": [
+          3.55,
+          50.95
+        ],
+        "status": "surrendered"
+      }
+    ],
+    "history": "原属第 6 军，守哈勒—尼诺弗横断阵地。5 月 25 日部分部队（第 5、第 17 团）士气低落，在未接敌的情况下放弃了梅海姆桥头堡，与军官命令直接相违。此后退往根特方向，5 月 28 日 04:00 随全军投降。",
+    "sources": [
+      "belgian_army_1947",
+      "belgian_commission_1950",
+      "ellis_1953"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "be.6div",
+    "side": "BE",
+    "echelon": "division",
+    "type": "infantry",
+    "parent": "be.2ca",
+    "name": {
+      "zh": "比利时第 6 步兵师",
+      "orig": "6de Infanteriedivisie",
+      "short": "比6师"
+    },
+    "model": "inf_pl",
+    "modelNote": "示意：3D 借用波兰步兵班组模型，非法军制服与编制。",
+    "active": {
+      "to": "1940-05-28T04:00"
+    },
+    "track": [
+      {
+        "at": "1940-05-26T00:00",
+        "pos": [
+          3.02,
+          50.83
+        ],
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-27T12:00",
+        "pos": [
+          2.98,
+          50.87
+        ],
+        "status": "withdrawing"
+      },
+      {
+        "at": "1940-05-28T04:00",
+        "pos": [
+          2.98,
+          50.87
+        ],
+        "status": "surrendered"
+      }
+    ],
+    "history": "5 月 26 日与第 2 骑兵旅一同驰援梅嫩—伊珀尔方向，顶住企图切断比军与英军联系的德军。此后在伊珀尔—鲁瑟拉勒线以铁路货车构成临时反坦克屏障。5 月 28 日 04:00 随全军投降。",
+    "sources": [
+      "holland_belgium_1940",
+      "belgian_army_1947",
+      "sebag_2006",
+      "dildy_2010"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "be.7div",
+    "side": "BE",
+    "echelon": "division",
+    "type": "infantry",
+    "parent": "be.1ca",
+    "name": {
+      "zh": "比利时第 7 步兵师（残部）",
+      "orig": "7de Infanteriedivisie",
+      "short": "比7师"
+    },
+    "model": "inf_pl",
+    "modelNote": "示意：3D 借用波兰步兵班组模型，非法军制服与编制。",
+    "active": {
+      "to": "1940-05-28T04:00"
+    },
+    "track": [
+      {
+        "at": "1940-05-26T00:00",
+        "pos": [
+          3.7,
+          51.06
+        ],
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-27T12:00",
+        "pos": [
+          3.62,
+          51.07
+        ],
+        "status": "withdrawing"
+      },
+      {
+        "at": "1940-05-28T04:00",
+        "pos": [
+          3.62,
+          51.07
+        ],
+        "status": "surrendered"
+      }
+    ],
+    "history": "5 月 10 日在阿尔贝特运河最东段正对埃本埃马尔要塞，德军以空降与俯冲轰炸摧毁要塞并夺取坎讷、弗龙霍芬、费尔德韦泽尔特三座桥梁中的两座。11 日上午第 18 线与第 2 卡宾枪团解体，师参谋长与三名团长被俘，阵亡约 483 人。残部被送往鲁汶与法国整补，留在比利时的人员于 5 月 28 日 04:00 随全军投降。",
+    "sources": [
+      "belgian_army_1947",
+      "belgian_commission_1950",
+      "ellis_1953"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "be.8div",
+    "side": "BE",
+    "echelon": "division",
+    "type": "infantry",
+    "parent": "be.7ca",
+    "name": {
+      "zh": "比利时第 8 步兵师",
+      "orig": "8de Infanteriedivisie",
+      "short": "比8师"
+    },
+    "model": "inf_pl",
+    "modelNote": "示意：3D 借用波兰步兵班组模型，非法军制服与编制。",
+    "active": {
+      "to": "1940-05-28T04:00"
+    },
+    "track": [
+      {
+        "at": "1940-05-26T00:00",
+        "pos": [
+          3.45,
+          51.02
+        ],
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-27T12:00",
+        "pos": [
+          3.4,
+          51.04
+        ],
+        "status": "withdrawing"
+      },
+      {
+        "at": "1940-05-28T04:00",
+        "pos": [
+          3.4,
+          51.04
+        ],
+        "status": "surrendered"
+      }
+    ],
+    "history": "属第 7 军，原守那慕尔筑垒地域。5 月中旬默兹河防线失守后随军长途退往佛兰德西部，是比军退却距离最长的师之一。5 月 28 日 04:00 随全军投降。",
+    "sources": [
+      "belgian_army_1947",
+      "belgian_commission_1950",
+      "ellis_1953"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "be.9div",
+    "side": "BE",
+    "echelon": "division",
+    "type": "infantry",
+    "parent": "be.2ca",
+    "name": {
+      "zh": "比利时第 9 步兵师",
+      "orig": "9de Infanteriedivisie",
+      "short": "比9师"
+    },
+    "model": "inf_pl",
+    "modelNote": "示意：3D 借用波兰步兵班组模型，非法军制服与编制。",
+    "active": {
+      "to": "1940-05-28T04:00"
+    },
+    "track": [
+      {
+        "at": "1940-05-26T00:00",
+        "pos": [
+          3.2,
+          50.9
+        ],
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-27T12:00",
+        "pos": [
+          3.16,
+          50.93
+        ],
+        "status": "withdrawing"
+      },
+      {
+        "at": "1940-05-28T04:00",
+        "pos": [
+          3.16,
+          50.93
+        ],
+        "status": "surrendered"
+      }
+    ],
+    "history": "5 月 24 日与第 1、第 3、第 10 师一同驰援利斯河，多次反击并俘获德军。此后随第 2 军退却，5 月 28 日 04:00 随全军投降。",
+    "sources": [
+      "belgian_army_1947",
+      "belgian_commission_1950",
+      "ellis_1953"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "be.10div",
+    "side": "BE",
+    "echelon": "division",
+    "type": "infantry",
+    "parent": "be.6ca",
+    "name": {
+      "zh": "比利时第 10 步兵师",
+      "orig": "10de Infanteriedivisie",
+      "short": "比10师"
+    },
+    "model": "inf_pl",
+    "modelNote": "示意：3D 借用波兰步兵班组模型，非法军制服与编制。",
+    "active": {
+      "to": "1940-05-28T04:00"
+    },
+    "track": [
+      {
+        "at": "1940-05-26T00:00",
+        "pos": [
+          3.15,
+          50.92
+        ],
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-27T12:00",
+        "pos": [
+          3.1,
+          50.95
+        ],
+        "status": "withdrawing"
+      },
+      {
+        "at": "1940-05-28T04:00",
+        "pos": [
+          3.1,
+          50.95
+        ],
+        "status": "surrendered"
+      }
+    ],
+    "history": "原守 KW 线鲁汶段。5 月 24 日驰援利斯河并参加反击，5 月 26 日又与第 2、第 6 师及第 10 骑兵师一同阻止德军利用梅嫩—伊珀尔空隙向纵深扩张。5 月 28 日 04:00 随全军投降。",
+    "sources": [
+      "belgian_army_1947",
+      "belgian_commission_1950",
+      "ellis_1953"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "be.11div",
+    "side": "BE",
+    "echelon": "division",
+    "type": "infantry",
+    "parent": "be.4ca",
+    "name": {
+      "zh": "比利时第 11 步兵师",
+      "orig": "11de Infanteriedivisie",
+      "short": "比11师"
+    },
+    "model": "inf_pl",
+    "modelNote": "示意：3D 借用波兰步兵班组模型，非法军制服与编制。",
+    "active": {
+      "to": "1940-05-28T04:00"
+    },
+    "track": [
+      {
+        "at": "1940-05-26T00:00",
+        "pos": [
+          3.42,
+          50.99
+        ],
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-27T12:00",
+        "pos": [
+          3.38,
+          51.01
+        ],
+        "status": "withdrawing"
+      },
+      {
+        "at": "1940-05-28T04:00",
+        "pos": [
+          3.38,
+          51.01
+        ],
+        "status": "surrendered"
+      }
+    ],
+    "history": "陆军总预备队（贝弗洛营），5 月下旬最先投入利斯河方向填补缺口，与第 4、第 6 师同在利斯河正面苦战。5 月 28 日 04:00 随全军投降。",
+    "sources": [
+      "holland_belgium_1940",
+      "belgian_army_1947",
+      "sebag_2006",
+      "dildy_2010"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "be.12div",
+    "side": "BE",
+    "echelon": "division",
+    "type": "infantry",
+    "parent": "be.4ca",
+    "name": {
+      "zh": "比利时第 12 步兵师",
+      "orig": "12de Infanteriedivisie",
+      "short": "比12师"
+    },
+    "model": "inf_pl",
+    "modelNote": "示意：3D 借用波兰步兵班组模型，非法军制服与编制。",
+    "active": {
+      "to": "1940-05-28T04:00"
+    },
+    "track": [
+      {
+        "at": "1940-05-26T00:00",
+        "pos": [
+          3.25,
+          51.15
+        ],
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-27T12:00",
+        "pos": [
+          3.2,
+          51.16
+        ],
+        "status": "withdrawing"
+      },
+      {
+        "at": "1940-05-28T04:00",
+        "pos": [
+          3.2,
+          51.16
+        ],
+        "status": "surrendered"
+      }
+    ],
+    "history": "属第 4 军，原守安特卫普筑垒地域圣约布因特古尔—马森霍芬段。5 月下旬退守布鲁日—蒂尔特一线，5 月 27 日中央防线在伊泽海姆—蒂尔特段崩溃时正处其中。5 月 28 日 04:00 随全军投降。",
+    "sources": [
+      "belgian_army_1947",
+      "belgian_commission_1950",
+      "ellis_1953"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "be.13div",
+    "side": "BE",
+    "echelon": "division",
+    "type": "infantry",
+    "parent": "be.5ca",
+    "name": {
+      "zh": "比利时第 13 步兵师",
+      "orig": "13de Infanteriedivisie",
+      "short": "比13师"
+    },
+    "model": "inf_pl",
+    "modelNote": "示意：3D 借用波兰步兵班组模型，非法军制服与编制。",
+    "active": {
+      "to": "1940-05-28T04:00"
+    },
+    "track": [
+      {
+        "at": "1940-05-26T00:00",
+        "pos": [
+          3.48,
+          51.2
+        ],
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-27T12:00",
+        "pos": [
+          3.44,
+          51.21
+        ],
+        "status": "withdrawing"
+      },
+      {
+        "at": "1940-05-28T04:00",
+        "pos": [
+          3.44,
+          51.21
+        ],
+        "status": "surrendered"
+      }
+    ],
+    "history": "属第 5 军，原守安特卫普筑垒地域卡佩伦—蒂伦豪特运河段。5 月下旬转往马尔德海姆—埃克洛方向，5 月 27 日该段防线被德军第 256 步兵师突破。5 月 28 日 04:00 随全军投降。",
+    "sources": [
+      "belgian_army_1947",
+      "belgian_commission_1950",
+      "ellis_1953"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "be.15div",
+    "side": "BE",
+    "echelon": "division",
+    "type": "infantry",
+    "parent": "be.4ca",
+    "name": {
+      "zh": "比利时第 15 步兵师",
+      "orig": "15de Infanteriedivisie",
+      "short": "比15师"
+    },
+    "model": "inf_pl",
+    "modelNote": "示意：3D 借用波兰步兵班组模型，非法军制服与编制。",
+    "active": {
+      "to": "1940-05-28T04:00"
+    },
+    "track": [
+      {
+        "at": "1940-05-26T00:00",
+        "pos": [
+          3.4,
+          51.06
+        ],
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-27T12:00",
+        "pos": [
+          3.34,
+          51.07
+        ],
+        "status": "withdrawing"
+      },
+      {
+        "at": "1940-05-28T04:00",
+        "pos": [
+          3.34,
+          51.07
+        ],
+        "status": "surrendered"
+      }
+    ],
+    "history": "属第 4 军，原守阿尔贝特运河马森霍芬—海伦塔尔斯段。5 月 25 日利斯河之战中该师方向的第 15 团正面迅速崩溃，是芬克特血战的直接背景。5 月 28 日 04:00 随全军投降。",
+    "sources": [
+      "belgian_army_1947",
+      "belgian_commission_1950",
+      "ellis_1953"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "be.16div",
+    "side": "BE",
+    "echelon": "division",
+    "type": "infantry",
+    "parent": "be.ghq",
+    "name": {
+      "zh": "比利时第 16 步兵师",
+      "orig": "16de Infanteriedivisie",
+      "short": "比16师"
+    },
+    "model": "inf_pl",
+    "modelNote": "示意：3D 借用波兰步兵班组模型，非法军制服与编制。",
+    "active": {
+      "to": "1940-05-28T04:00"
+    },
+    "track": [
+      {
+        "at": "1940-05-26T00:00",
+        "pos": [
+          3.73,
+          51.05
+        ],
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-27T12:00",
+        "pos": [
+          3.68,
+          51.07
+        ],
+        "status": "withdrawing"
+      },
+      {
+        "at": "1940-05-28T04:00",
+        "pos": [
+          3.68,
+          51.07
+        ],
+        "status": "surrendered"
+      }
+    ],
+    "history": "陆军总预备队，驻根特桥头堡。5 月下旬用于掩护向海岸的总退却与根特方向的后卫作战。5 月 28 日 04:00 随全军投降。",
+    "sources": [
+      "belgian_army_1947",
+      "belgian_commission_1950",
+      "ellis_1953"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "be.17div",
+    "side": "BE",
+    "echelon": "division",
+    "type": "infantry",
+    "parent": "be.5ca",
+    "name": {
+      "zh": "比利时第 17 步兵师",
+      "orig": "17de Infanteriedivisie",
+      "short": "比17师"
+    },
+    "model": "inf_pl",
+    "modelNote": "示意：3D 借用波兰步兵班组模型，非法军制服与编制。",
+    "active": {
+      "to": "1940-05-28T04:00"
+    },
+    "track": [
+      {
+        "at": "1940-05-26T00:00",
+        "pos": [
+          3.5,
+          51.25
+        ],
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-27T12:00",
+        "pos": [
+          3.46,
+          51.26
+        ],
+        "status": "withdrawing"
+      },
+      {
+        "at": "1940-05-28T04:00",
+        "pos": [
+          3.46,
+          51.26
+        ],
+        "status": "surrendered"
+      }
+    ],
+    "history": "属第 5 军，原守安特卫普筑垒地域贝伦德雷赫特—卡佩伦段，5 月下旬转往马尔德海姆方向。5 月 28 日 04:00 随全军投降。",
+    "sources": [
+      "belgian_army_1947",
+      "belgian_commission_1950",
+      "ellis_1953"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "be.18div",
+    "side": "BE",
+    "echelon": "division",
+    "type": "infantry",
+    "parent": "be.4ca",
+    "name": {
+      "zh": "比利时第 18 步兵师",
+      "orig": "18de Infanteriedivisie",
+      "short": "比18师"
+    },
+    "model": "inf_pl",
+    "modelNote": "示意：3D 借用波兰步兵班组模型，非法军制服与编制。",
+    "active": {
+      "to": "1940-05-28T04:00"
+    },
+    "track": [
+      {
+        "at": "1940-05-26T00:00",
+        "pos": [
+          3.55,
+          51.1
+        ],
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-27T12:00",
+        "pos": [
+          3.5,
+          51.12
+        ],
+        "status": "withdrawing"
+      },
+      {
+        "at": "1940-05-28T04:00",
+        "pos": [
+          3.5,
+          51.12
+        ],
+        "status": "surrendered"
+      }
+    ],
+    "history": "属第 4 军，原守前进阵地圣莱纳尔茨—德塞尔段。5 月下旬随军退往根特—埃克洛方向。5 月 28 日 04:00 随全军投降。",
+    "sources": [
+      "belgian_army_1947",
+      "belgian_commission_1950",
+      "ellis_1953"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "be.chasseurs",
+    "side": "BE",
+    "echelon": "division",
+    "type": "infantry",
+    "parent": "be.7ca",
+    "name": {
+      "zh": "阿登猎兵师",
+      "orig": "Division des Chasseurs Ardennais",
+      "short": "阿登猎兵"
+    },
+    "model": "inf_pl",
+    "modelNote": "示意：3D 借用波兰步兵班组模型，非法军制服与编制。",
+    "active": {
+      "to": "1940-05-28T04:00"
+    },
+    "track": [
+      {
+        "at": "1940-05-26T00:00",
+        "pos": [
+          3.5,
+          51.03
+        ],
+        "status": "engaged",
+        "note": "在芬克特村顶住德军第 56 步兵师多次进攻"
+      },
+      {
+        "at": "1940-05-27T16:00",
+        "pos": [
+          3.48,
+          51.02
+        ],
+        "status": "withdrawing",
+        "note": "16:00 被迫放弃芬克特，阵亡 39 人、毙敌约 170 人"
+      },
+      {
+        "at": "1940-05-28T04:00",
+        "pos": [
+          3.44,
+          51.03
+        ],
+        "status": "surrendered"
+      }
+    ],
+    "history": "比利时的精锐猎兵部队，原守默兹河昂日—安德讷段，后退往佛兰德。5 月 26—27 日在代因泽附近的芬克特村以寡敌众，连续击退德军第 56 步兵师的进攻（该师随后被第 225 步兵师替换），27 日 16:00 被迫放弃村庄，阵亡 39 人而毙敌约 170 人。德军随后在芬克特屠杀 86 名平民。5 月 28 日 04:00 随全军投降。",
+    "sources": [
+      "holland_belgium_1940",
+      "belgian_army_1947",
+      "sebag_2006",
+      "dildy_2010"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "be.cav",
+    "side": "BE",
+    "echelon": "corps",
+    "type": "cavalry",
+    "parent": "be.ghq",
+    "name": {
+      "zh": "比利时骑兵军",
+      "orig": "Corps de Cavalerie belge",
+      "short": "比骑兵军"
+    },
+    "commander": {
+      "zh": "马克西米连·德·内韦·德·罗登中将",
+      "orig": "Maximilien de Neve de Roden"
+    },
+    "model": "cav_pl",
+    "modelNote": "示意：3D 借用波兰枪骑兵模型，非比利时骑兵制服。",
+    "active": {
+      "to": "1940-05-28T04:00"
+    },
+    "track": [
+      {
+        "at": "1940-05-26T00:00",
+        "pos": [
+          2.95,
+          51
+        ],
+        "status": "engaged"
+      },
+      {
+        "at": "1940-05-27T12:00",
+        "pos": [
+          2.9,
+          51.02
+        ],
+        "status": "withdrawing"
+      },
+      {
+        "at": "1940-05-28T04:00",
+        "pos": [
+          2.9,
+          51.02
+        ],
+        "status": "surrendered"
+      }
+    ],
+    "history": "辖第 2 骑兵师与第 1、第 14 步兵师。5 月 22 日在泰尔讷曾方向阻止德军推进；5 月 26 日第 2 骑兵旅驰援梅嫩—伊珀尔方向，与第 6 步兵师一同顶住德军，避免了比军与英军被切断。5 月 28 日 04:00 随全军投降。",
+    "sources": [
+      "holland_belgium_1940",
+      "belgian_army_1947",
+      "sebag_2006",
+      "dildy_2010"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "be.chass_cycl",
+    "side": "BE",
+    "echelon": "brigade",
+    "type": "infantry",
+    "parent": "be.5ca",
+    "name": {
+      "zh": "第 4 卡宾枪自行车营",
+      "orig": "4e Bataillon de Carabiniers Cyclistes",
+      "short": "比4自行营"
+    },
+    "model": "inf_pl",
+    "modelNote": "示意：3D 借用波兰步兵班组模型，非法军制服与编制。",
+    "active": {
+      "to": "1940-05-28T04:00"
+    },
+    "track": [
+      {
+        "at": "1940-05-27T08:00",
+        "pos": [
+          3.42,
+          51.1
+        ],
+        "status": "engaged",
+        "note": "在克内塞拉勒反击，俘获德军 120–200 人"
+      },
+      {
+        "at": "1940-05-27T18:00",
+        "pos": [
+          3.38,
+          51.12
+        ],
+        "status": "withdrawing"
+      },
+      {
+        "at": "1940-05-28T04:00",
+        "pos": [
+          3.38,
+          51.12
+        ],
+        "status": "surrendered"
+      }
+    ],
+    "history": "比利时边防自行车部队之一。5 月 27 日比军全线动摇之际，该营在克内塞拉勒实施反击，俘获德军 120 至 200 人，是当日比军唯一成功的战术反击。当晚随第 5 军向西北退却，5 月 28 日 04:00 随全军停止抵抗。",
+    "sources": [
+      "holland_belgium_1940",
+      "belgian_army_1947",
+      "sebag_2006",
+      "dildy_2010"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "be.air",
+    "side": "BE",
+    "echelon": "air_group",
+    "type": "air",
+    "parent": "be.ghq",
+    "name": {
+      "zh": "比利时航空队",
+      "orig": "Aéronautique Militaire Belge",
+      "short": "比航空队"
+    },
+    "model": "air_token",
+    "modelNote": "示意：3D 使用航空符号模型，非实际机型。",
+    "base": "@ursel",
+    "active": {
+      "to": "1940-05-28T04:00"
+    },
+    "track": [
+      {
+        "at": "1940-05-26T05:00",
+        "pos": "@ursel",
+        "status": "active",
+        "flightPhase": "at_base"
+      },
+      {
+        "at": "1940-05-26T06:00",
+        "pos": [
+          3.35,
+          51.05
+        ],
+        "flightPhase": "outbound",
+        "altitudeM": 2500,
+        "note": "Fairey Fox / Renard R.31 侦察与对地支援"
+      },
+      {
+        "at": "1940-05-26T07:30",
+        "pos": [
+          3.35,
+          51.05
+        ],
+        "flightPhase": "engaged",
+        "altitudeM": 2000
+      },
+      {
+        "at": "1940-05-26T09:00",
+        "pos": "@ursel",
+        "flightPhase": "returning",
+        "altitudeM": 2500
+      },
+      {
+        "at": "1940-05-26T10:00",
+        "pos": "@ursel",
+        "flightPhase": "at_base"
+      },
+      {
+        "at": "1940-05-27T05:00",
+        "pos": "@ursel",
+        "flightPhase": "at_base"
+      },
+      {
+        "at": "1940-05-27T06:00",
+        "pos": [
+          3.1,
+          50.95
+        ],
+        "flightPhase": "outbound",
+        "altitudeM": 2500,
+        "note": "掩护利斯河方向比军退却"
+      },
+      {
+        "at": "1940-05-27T07:30",
+        "pos": [
+          3.1,
+          50.95
+        ],
+        "flightPhase": "engaged",
+        "altitudeM": 2000
+      },
+      {
+        "at": "1940-05-27T09:00",
+        "pos": "@ursel",
+        "flightPhase": "returning",
+        "altitudeM": 2500
+      },
+      {
+        "at": "1940-05-27T10:00",
+        "pos": "@ursel",
+        "flightPhase": "at_base"
+      },
+      {
+        "at": "1940-05-28T04:00",
+        "pos": "@ursel",
+        "status": "surrendered",
+        "flightPhase": "at_base",
+        "note": "比军停止抵抗，幸存的少数飞机此前已飞往法国与英国"
+      }
+    ],
+    "history": "比利时航空队编有 3 个航空团（第 1 团观察与陆军协同、第 2 团战斗机、第 3 团侦察与轰炸），主力机型为 Fairey Fox、Renard R.31、Fairey Battle、Gloster Gladiator 与 Fiat CR.42。5 月 10—11 日在轰炸阿尔贝特运河桥梁的行动中损失惨重（6 架 Battle 被击落、多架受损，另有 6 架 Blenheim 在机场被炸毁）。此后基地不断西移，乌尔瑟尔机场于 5 月 27 日被德军占领，幸存的少数飞机飞往法国与英国。",
+    "sources": [
+      "belgian_army_1947",
+      "belgian_commission_1950",
+      "holland_belgium_1940",
+      "dildy_2010"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "be.ghq_evac",
+    "side": "BE",
+    "echelon": "command",
+    "type": "hq",
+    "parent": "be.ghq",
+    "name": {
+      "zh": "比利时陆军总司令部（撤出人员）",
+      "orig": "GQG belge — éléments évacués",
+      "short": "比军总司(撤)"
+    },
+    "active": {
+      "to": "1940-05-28T06:00"
+    },
+    "track": [
+      {
+        "at": "1940-05-27T18:00",
+        "pos": [
+          2.82,
+          51.18
+        ],
+        "status": "withdrawing",
+        "note": "比军投降后继续与英军并肩撤退"
+      },
+      {
+        "at": "1940-05-28T06:00",
+        "pos": [
+          2.75,
+          51.1333
+        ],
+        "status": "evacuated",
+        "movement": "sea",
+        "note": "由英舰撤出（敦刻尔克约撤出 15,000—16,000 名比利时军人）"
+      },
+      {
+        "at": "1940-05-28T14:00",
+        "pos": "@dover",
+        "status": "evacuated"
+      }
+    ],
+    "history": "1940 年 5 月 27 日夜间，英国皇家海军自米德尔凯尔克与布鲁日以东的圣安德里斯撤出比军总司令部人员。参谋长米希尔斯等高级军官随后留在比利时处理投降与善后，5 月 30 日还向全体高级军官发表告别演说。国王利奥波德三世本人留在比利时，未随司令部撤出。",
+    "sources": [
+      "belgian_evac_1940",
+      "belgian_army_1947",
+      "lord_1982",
+      "dildy_2010"
+    ],
+    "confidence": "low"
+  },
+  {
+    "id": "be.4div_rem",
+    "side": "BE",
+    "echelon": "brigade",
+    "type": "infantry",
+    "parent": "be.ghq",
+    "name": {
+      "zh": "比利时第 4 步兵师残部",
+      "orig": "4de Infanteriedivisie — restanten",
+      "short": "比4师残部"
+    },
+    "model": "inf_pl",
+    "modelNote": "示意：3D 借用波兰步兵班组模型，非法军制服与编制。",
+    "active": {
+      "to": "1940-06-02T10:00"
+    },
+    "track": [
+      {
+        "at": "1940-05-27T20:00",
+        "pos": [
+          3.42,
+          51.06
+        ],
+        "status": "withdrawing",
+        "note": "比军投降后继续与英军并肩撤退"
+      },
+      {
+        "at": "1940-06-02T10:00",
+        "pos": [
+          2.75,
+          51.1333
+        ],
+        "status": "evacuated",
+        "movement": "sea",
+        "note": "由英舰撤出（敦刻尔克约撤出 15,000—16,000 名比利时军人）"
+      },
+      {
+        "at": "1940-06-02T18:00",
+        "pos": "@dover",
+        "status": "evacuated"
+      }
+    ],
+    "history": "第 4 步兵师在利斯河之战中损失殆尽、已无力继续作战。约 1,500 名残部（含第 11 团一部与师属工兵）拒绝在 5 月 28 日放下武器，穿过比军投降线退向海岸，经尼乌波特转敦刻尔克，由英舰撤往英国。",
+    "sources": [
+      "belgian_evac_1940",
+      "belgian_army_1947",
+      "lord_1982",
+      "dildy_2010"
+    ],
+    "confidence": "low"
+  },
+  {
+    "id": "be.7div_rem",
+    "side": "BE",
+    "echelon": "brigade",
+    "type": "infantry",
+    "parent": "be.ghq",
+    "name": {
+      "zh": "比利时第 7 步兵师残部",
+      "orig": "7de Infanteriedivisie — restanten",
+      "short": "比7师残部"
+    },
+    "model": "inf_pl",
+    "modelNote": "示意：3D 借用波兰步兵班组模型，非法军制服与编制。",
+    "active": {
+      "to": "1940-06-02T22:00"
+    },
+    "track": [
+      {
+        "at": "1940-05-27T12:00",
+        "pos": [
+          3.62,
+          51.07
+        ],
+        "status": "withdrawing",
+        "note": "比军投降后继续与英军并肩撤退"
+      },
+      {
+        "at": "1940-06-02T22:00",
+        "pos": [
+          2.59,
+          51.0967
+        ],
+        "status": "evacuated",
+        "movement": "sea",
+        "note": "由英舰撤出（敦刻尔克约撤出 15,000—16,000 名比利时军人）"
+      },
+      {
+        "at": "1940-06-03T06:00",
+        "pos": "@dover",
+        "status": "evacuated"
+      }
+    ],
+    "history": "第 7 步兵师 5 月 11 日在阿尔贝特运河解体后，残部被调往鲁汶与法国整补（鲁汶 5 月中旬即已失守）。留在比利时境内重新集结的人员驻于根特桥头堡后方，其中一部分未随全军投降，而是沿布鲁日—根特运河西退，经拉帕讷转敦刻尔克登船。",
+    "sources": [
+      "belgian_evac_1940",
+      "belgian_army_1947",
+      "lord_1982",
+      "dildy_2010"
+    ],
+    "confidence": "low"
+  },
+  {
+    "id": "be.art_evac",
+    "side": "BE",
+    "echelon": "brigade",
+    "type": "infantry",
+    "parent": "be.ghq",
+    "name": {
+      "zh": "比利时炮兵残部",
+      "orig": "Artillerie belge — restanten",
+      "short": "比炮兵残部"
+    },
+    "model": "inf_pl",
+    "modelNote": "示意：3D 借用波兰步兵班组模型，非法军制服与编制。",
+    "active": {
+      "to": "1940-06-01T22:00"
+    },
+    "track": [
+      {
+        "at": "1940-05-27T22:00",
+        "pos": [
+          3.2,
+          50.95
+        ],
+        "status": "withdrawing",
+        "note": "比军投降后继续与英军并肩撤退"
+      },
+      {
+        "at": "1940-06-01T22:00",
+        "pos": [
+          2.6,
+          51.0733
+        ],
+        "status": "evacuated",
+        "movement": "sea",
+        "note": "由英舰撤出（敦刻尔克约撤出 15,000—16,000 名比利时军人）"
+      },
+      {
+        "at": "1940-06-02T06:00",
+        "pos": "@dover",
+        "status": "evacuated"
+      }
+    ],
+    "history": "比军在退却途中不断破坏火炮，但仍保存了一批 75 毫米炮。这批炮兵残部与辎重人员经阿丁凯尔克撤往敦刻尔克，由英舰运出，是敦刻尔克撤出的约 15,000—16,000 名比利时军人中的一部分。",
+    "sources": [
+      "belgian_evac_1940",
+      "belgian_army_1947",
+      "lord_1982",
+      "dildy_2010"
+    ],
+    "confidence": "low"
+  },
+  {
+    "id": "be.genie_evac",
+    "side": "BE",
+    "echelon": "brigade",
+    "type": "infantry",
+    "parent": "be.ghq",
+    "name": {
+      "zh": "比利时工兵残部",
+      "orig": "Génie belge — restanten",
+      "short": "比工兵残部"
+    },
+    "model": "inf_pl",
+    "modelNote": "示意：3D 借用波兰步兵班组模型，非法军制服与编制。",
+    "active": {
+      "to": "1940-06-02T02:00"
+    },
+    "track": [
+      {
+        "at": "1940-05-28T02:00",
+        "pos": [
+          3.05,
+          51.05
+        ],
+        "status": "withdrawing",
+        "note": "比军投降后继续与英军并肩撤退"
+      },
+      {
+        "at": "1940-06-02T02:00",
+        "pos": "@dunkirk",
+        "status": "evacuated",
+        "movement": "sea",
+        "note": "由英舰撤出（敦刻尔克约撤出 15,000—16,000 名比利时军人）"
+      },
+      {
+        "at": "1940-06-02T10:00",
+        "pos": "@dover",
+        "status": "evacuated"
+      }
+    ],
+    "history": "比军工兵在退却中负责破坏桥梁、堵塞运河与设置障碍。比军投降后，一部工兵与筑垒部队未及归队，自行退向敦刻尔克，在东防波堤由英舰撤出。",
+    "sources": [
+      "belgian_evac_1940",
+      "belgian_army_1947",
+      "lord_1982",
+      "dildy_2010"
+    ],
+    "confidence": "low"
+  },
+  {
+    "id": "be.cav_evac",
+    "side": "BE",
+    "echelon": "brigade",
+    "type": "infantry",
+    "parent": "be.ghq",
+    "name": {
+      "zh": "比利时骑兵残部",
+      "orig": "Cavalerie belge — restanten",
+      "short": "比骑兵残部"
+    },
+    "model": "inf_pl",
+    "modelNote": "示意：3D 借用波兰步兵班组模型，非法军制服与编制。",
+    "active": {
+      "to": "1940-06-03T02:00"
+    },
+    "track": [
+      {
+        "at": "1940-05-28T05:00",
+        "pos": [
+          2.9,
+          51.02
+        ],
+        "status": "withdrawing",
+        "note": "比军投降后继续与英军并肩撤退"
+      },
+      {
+        "at": "1940-06-03T02:00",
+        "pos": [
+          2.59,
+          51.0967
+        ],
+        "status": "evacuated",
+        "movement": "sea",
+        "note": "由英舰撤出（敦刻尔克约撤出 15,000—16,000 名比利时军人）"
+      },
+      {
+        "at": "1940-06-03T10:00",
+        "pos": "@dover",
+        "status": "evacuated"
+      }
+    ],
+    "history": "骑兵军各团的马匹在退却中大批损失，人员多数下马作战。一部骑兵与自行车侦察兵随比军左翼退向拉帕讷，6 月 2/3 日夜在敦刻尔克海滩由英舰撤出。",
+    "sources": [
+      "belgian_evac_1940",
+      "belgian_army_1947",
+      "lord_1982",
+      "dildy_2010"
+    ],
+    "confidence": "low"
+  }
+]

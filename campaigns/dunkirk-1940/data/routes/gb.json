@@ -1,0 +1,493 @@
+[
+ {
+  "id": "r.dk_gb_lys",
+  "side": "GB",
+  "unit": "gb.ghq",
+  "style": "retreat",
+  "widthKm": 16,
+  "label": "利斯河防线撤退（5-26 → 5-28）",
+  "waypoints": [
+   { "at": "1940-05-26T06:00", "pos": "@armentieres" },
+   { "at": "1940-05-26T18:00", "pos": "@bailleul" },
+   { "at": "1940-05-27T12:00", "pos": "@mont_des_cats" },
+   { "at": "1940-05-27T23:00", "pos": "@poperinge" },
+   { "at": "1940-05-28T12:00", "pos": "@vlamertinge" },
+   { "at": "1940-05-28T23:00", "pos": "@bergues" }
+  ],
+  "sources": ["ellis_1953","gort_despatch","hyperwar_dunkirk","mason_1969"],
+  "confidence": "high"
+ },
+ {
+  "id": "r.dk_gb_lys_icorps",
+  "side": "GB",
+  "unit": "gb.i_corps",
+  "style": "retreat",
+  "widthKm": 9,
+  "label": "I 军退向桥头堡西段",
+  "waypoints": [
+   { "at": "1940-05-26T06:00", "pos": "@armentieres" },
+   { "at": "1940-05-27T18:00", "pos": "@bailleul" },
+   { "at": "1940-05-28T22:00", "pos": "@bergues" },
+   { "at": "1940-05-31T20:00", "pos": "@fort_mardyck" },
+   { "at": "1940-06-02T20:00", "pos": "@malo_les_bains" }
+  ],
+  "sources": ["barker_1941","ellis_1953"],
+  "confidence": "high"
+ },
+ {
+  "id": "r.dk_gb_lys_iicorps",
+  "side": "GB",
+  "unit": "gb.ii_corps",
+  "style": "retreat",
+  "widthKm": 10,
+  "label": "II 军沿伊珀尔—科米讷运河掩护后撤",
+  "waypoints": [
+   { "at": "1940-05-26T06:00", "pos": "@comines" },
+   { "at": "1940-05-27T14:00", "pos": "@menen" },
+   { "at": "1940-05-28T20:00", "pos": "@vlamertinge" },
+   { "at": "1940-05-29T22:00", "pos": "@ghyvelde" },
+   { "at": "1940-05-31T08:00", "pos": "@bray_dunes" }
+  ],
+  "sources": ["brooke_2001","montgomery_1958"],
+  "confidence": "high"
+ },
+ {
+  "id": "r.dk_gb_lys_iiicorps",
+  "side": "GB",
+  "unit": "gb.iii_corps",
+  "style": "retreat",
+  "widthKm": 10,
+  "label": "III 军自拉巴塞运河经圣奥梅尔入桥头堡",
+  "waypoints": [
+   { "at": "1940-05-22T06:00", "pos": "@bethune" },
+   { "at": "1940-05-25T12:00", "pos": "@saint_omer" },
+   { "at": "1940-05-27T06:00", "pos": "@bergues" },
+   { "at": "1940-05-30T12:00", "pos": "@uxem" },
+   { "at": "1940-06-01T18:00", "pos": "@dunkirk" }
+  ],
+  "sources": ["ellis_1953","gort_despatch"],
+  "confidence": "medium"
+ },
+ {
+  "id": "r.dk_gb_1div",
+  "side": "GB",
+  "unit": "gb.1div",
+  "style": "retreat",
+  "widthKm": 6,
+  "label": "第 1 师自利斯河退向马洛海滩",
+  "waypoints": [
+   { "at": "1940-05-22T06:00", "pos": "@armentieres" },
+   { "at": "1940-05-27T22:00", "pos": "@vlamertinge" },
+   { "at": "1940-05-29T18:00", "pos": "@bergues" },
+   { "at": "1940-06-02T20:00", "pos": "@malo_les_bains" }
+  ],
+  "sources": ["ellis_1953","gort_despatch"],
+  "confidence": "high"
+ },
+ {
+  "id": "r.dk_gb_2div",
+  "side": "GB",
+  "unit": "gb.2div",
+  "style": "retreat",
+  "widthKm": 6,
+  "label": "第 2 师自拉巴塞运河殿后退入桥头堡",
+  "waypoints": [
+   { "at": "1940-05-22T06:00", "pos": "@estaires" },
+   { "at": "1940-05-27T06:00", "pos": "@le_paradis" },
+   { "at": "1940-05-28T22:00", "pos": "@mont_des_cats" },
+   { "at": "1940-06-01T22:00", "pos": "@bray_dunes" }
+  ],
+  "sources": ["ellis_1953","gort_despatch"],
+  "confidence": "high"
+ },
+ {
+  "id": "r.dk_gb_3div",
+  "side": "GB",
+  "unit": "gb.3div",
+  "style": "retreat",
+  "widthKm": 6,
+  "label": "第 3 师沿运河线侧移后撤出",
+  "waypoints": [
+   { "at": "1940-05-22T06:00", "pos": "@comines" },
+   { "at": "1940-05-27T16:00", "pos": "@mesen" },
+   { "at": "1940-05-29T20:00", "pos": "@ghyvelde" },
+   { "at": "1940-05-31T06:00", "pos": "@bray_dunes" }
+  ],
+  "sources": ["ellis_1953","gort_despatch"],
+  "confidence": "high"
+ },
+ {
+  "id": "r.dk_gb_4div",
+  "side": "GB",
+  "unit": "gb.4div",
+  "style": "retreat",
+  "widthKm": 6,
+  "label": "第 4 师经梅森岭反击后退向海滩",
+  "waypoints": [
+   { "at": "1940-05-22T06:00", "pos": "@menen" },
+   { "at": "1940-05-27T20:00", "pos": "@mesen" },
+   { "at": "1940-05-29T12:00", "pos": "@cappelle_la_grande" },
+   { "at": "1940-05-30T20:00", "pos": "@malo_les_bains" }
+  ],
+  "sources": ["ellis_1953","gort_despatch"],
+  "confidence": "high"
+ },
+ {
+  "id": "r.dk_gb_5div",
+  "side": "GB",
+  "unit": "gb.5div",
+  "style": "retreat",
+  "widthKm": 6,
+  "label": "第 5 师自伊珀尔—科米讷运河后撤",
+  "waypoints": [
+   { "at": "1940-05-22T06:00", "pos": "@armentieres" },
+   { "at": "1940-05-27T18:00", "pos": "@mesen" },
+   { "at": "1940-05-30T22:00", "pos": "@ghyvelde" },
+   { "at": "1940-06-01T22:00", "pos": "@bray_dunes" }
+  ],
+  "sources": ["ellis_1953","gort_despatch"],
+  "confidence": "high"
+ },
+ {
+  "id": "r.dk_gb_42div",
+  "side": "GB",
+  "unit": "gb.42div",
+  "style": "retreat",
+  "widthKm": 6,
+  "label": "第 42 师自拉巴塞运河退入桥头堡西段",
+  "waypoints": [
+   { "at": "1940-05-22T06:00", "pos": "@bethune" },
+   { "at": "1940-05-25T18:00", "pos": "@watten" },
+   { "at": "1940-05-29T18:00", "pos": "@spycker" },
+   { "at": "1940-06-01T06:00", "pos": "@malo_les_bains" }
+  ],
+  "sources": ["ellis_1953","gort_despatch"],
+  "confidence": "high"
+ },
+ {
+  "id": "r.dk_gb_44div",
+  "side": "GB",
+  "unit": "gb.44div",
+  "style": "retreat",
+  "widthKm": 6,
+  "label": "第 44 师经波珀灵厄、卡山撤退",
+  "waypoints": [
+   { "at": "1940-05-22T06:00", "pos": "@bethune" },
+   { "at": "1940-05-27T18:00", "pos": "@poperinge" },
+   { "at": "1940-05-30T12:00", "pos": "@hoymille" },
+   { "at": "1940-06-01T10:00", "pos": "@malo_les_bains" }
+  ],
+  "sources": ["ellis_1953","gort_despatch"],
+  "confidence": "high"
+ },
+ {
+  "id": "r.dk_gb_48div",
+  "side": "GB",
+  "unit": "gb.48div",
+  "style": "retreat",
+  "widthKm": 6,
+  "label": "第 48 师沿圣奥梅尔—海岸运河殿后",
+  "waypoints": [
+   { "at": "1940-05-22T06:00", "pos": "@saint_omer" },
+   { "at": "1940-05-27T12:00", "pos": "@hazebrouck" },
+   { "at": "1940-05-28T22:00", "pos": "@wormhout" },
+   { "at": "1940-05-31T20:00", "pos": "@malo_les_bains" }
+  ],
+  "sources": ["ellis_1953","gort_despatch"],
+  "confidence": "high"
+ },
+ {
+  "id": "r.dk_gb_50div",
+  "side": "GB",
+  "unit": "gb.50div",
+  "style": "retreat",
+  "widthKm": 6,
+  "label": "第 50（诺森伯兰）师退向布雷迪讷海滩",
+  "waypoints": [
+   { "at": "1940-05-22T06:00", "pos": "@armentieres" },
+   { "at": "1940-05-27T20:00", "pos": "@ieper" },
+   { "at": "1940-05-29T18:00", "pos": "@hondschoote" },
+   { "at": "1940-06-01T22:00", "pos": "@bray_dunes" }
+  ],
+  "sources": ["ellis_1953","gort_despatch"],
+  "confidence": "high"
+ },
+ {
+  "id": "r.dk_gb_23div",
+  "side": "GB",
+  "unit": "gb.23div",
+  "style": "retreat",
+  "widthKm": 6,
+  "label": "第 23 师经基勒姆退入桥头堡东段",
+  "waypoints": [
+   { "at": "1940-05-22T06:00", "pos": "@bethune" },
+   { "at": "1940-05-28T12:00", "pos": "@killem" },
+   { "at": "1940-05-29T12:00", "pos": "@veurne" },
+   { "at": "1940-05-31T12:00", "pos": "@adinkerke" },
+   { "at": "1940-06-01T20:00", "pos": "@bray_dunes" }
+  ],
+  "sources": ["ellis_1953","gort_despatch"],
+  "confidence": "high"
+ },
+ {
+  "id": "r.dk_gb_12div",
+  "side": "GB",
+  "unit": "gb.12div",
+  "style": "retreat",
+  "widthKm": 6,
+  "label": "第 12 师残部经弗尔讷—纽波特填东段空隙",
+  "waypoints": [
+   { "at": "1940-05-22T06:00", "pos": "@douai" },
+   { "at": "1940-05-28T12:00", "pos": "@veurne" },
+   { "at": "1940-05-30T12:00", "pos": "@nieuwpoort" },
+   { "at": "1940-06-01T12:00", "pos": "@dunkirk" }
+  ],
+  "sources": ["ellis_1953","blaxland_1980"],
+  "confidence": "medium"
+ },
+ {
+  "id": "r.dk_gb_46div",
+  "side": "GB",
+  "unit": "gb.46div",
+  "style": "retreat",
+  "widthKm": 6,
+  "label": "第 46 师自斯卡尔普河退入贝尔格运河线",
+  "waypoints": [
+   { "at": "1940-05-22T06:00", "pos": "@estaires" },
+   { "at": "1940-05-26T18:00", "pos": "@bethune" },
+   { "at": "1940-05-30T12:00", "pos": "@bergues" },
+   { "at": "1940-05-31T12:00", "pos": "@uxem" },
+   { "at": "1940-06-01T18:00", "pos": "@malo_les_bains" }
+  ],
+  "sources": ["ellis_1953","gort_despatch"],
+  "confidence": "high"
+ },
+ {
+  "id": "r.dk_gb_perimeter_beach",
+  "side": "GB",
+  "unit": "gb.ghq",
+  "style": "secondary",
+  "widthKm": 12,
+  "label": "桥头堡内向海滩与东防波堤的收拢（5-29 → 6-3）",
+  "waypoints": [
+   { "at": "1940-05-29T06:00", "pos": "@bergues" },
+   { "at": "1940-05-30T18:00", "pos": "@hoymille" },
+   { "at": "1940-05-31T18:00", "pos": "@coudekerque" },
+   { "at": "1940-06-01T22:00", "pos": "@dunkirk" },
+   { "at": "1940-06-02T22:00", "pos": "@east_mole" },
+   { "at": "1940-06-03T02:00", "pos": "@dunkirk_roads" }
+  ],
+  "sources": ["ellis_1953","dynamo_despatch","gort_dispatch_2","mason_1969"],
+  "confidence": "high"
+ },
+ {
+  "id": "r.dk_gb_east_mole",
+  "side": "GB",
+  "unit": "gb.force_a",
+  "style": "secondary",
+  "widthKm": 2,
+  "label": "东防波堤登船主线（5-27 → 6-3）",
+  "role": "evacuation",
+  "waypoints": [
+   { "at": "1940-05-27T22:00", "pos": "@dunkirk_port" },
+   { "at": "1940-05-29T12:00", "pos": "@east_mole" },
+   { "at": "1940-06-01T12:00", "pos": "@east_mole" },
+   { "at": "1940-06-03T00:00", "pos": "@dunkirk_roads" }
+  ],
+  "sources": ["coastal_forces","dynamo_despatch","dynamo_admiralty"],
+  "confidence": "high"
+ },
+ {
+  "id": "r.dk_gb_beach_bray",
+  "side": "GB",
+  "unit": "gb.50div",
+  "style": "secondary",
+  "widthKm": 4,
+  "label": "布雷迪讷—祖伊德科特海滩收容线",
+  "role": "evacuation",
+  "waypoints": [
+   { "at": "1940-05-30T06:00", "pos": "@bray_dunes" },
+   { "at": "1940-05-31T12:00", "pos": "@zuydcoote" },
+   { "at": "1940-06-01T12:00", "pos": "@leffrinckoucke" },
+   { "at": "1940-06-01T22:00", "pos": "@malo_les_bains" }
+  ],
+  "sources": ["ellis_1953","lord_1982","dynamo_admiralty"],
+  "confidence": "medium"
+ },
+ {
+  "id": "r.dk_gb_messines_counter",
+  "side": "GB",
+  "unit": "gb.4div",
+  "style": "counter",
+  "widthKm": 5,
+  "label": "第 10、11 旅梅森岭反击（5-27/28）",
+  "waypoints": [
+   { "at": "1940-05-27T20:00", "pos": "@menen" },
+   { "at": "1940-05-28T02:00", "pos": "@mesen" },
+   { "at": "1940-05-28T10:00", "pos": "@ploegsteert" },
+   { "at": "1940-05-28T18:00", "pos": "@mesen" }
+  ],
+  "sources": ["brooke_2001","montgomery_1958"],
+  "confidence": "medium"
+ },
+ {
+  "id": "r.dk_gb_ypres_counter",
+  "side": "GB",
+  "unit": "gb.1gds_bde",
+  "style": "counter",
+  "widthKm": 4,
+  "label": "近卫旅与北斯塔福德团对伊珀尔—科米讷运河的反击（5-27）",
+  "waypoints": [
+   { "at": "1940-05-27T12:00", "pos": "@vlamertinge" },
+   { "at": "1940-05-27T22:00", "pos": "@ieper" },
+   { "at": "1940-05-28T06:00", "pos": "@comines" }
+  ],
+  "sources": ["montgomery_1958","ellis_1953"],
+  "confidence": "medium"
+ },
+ {
+  "id": "r.dk_gb_nieuwpoort_hold",
+  "side": "GB",
+  "unit": "gb.12lancers",
+  "style": "counter",
+  "widthKm": 7,
+  "label": "第 12 枪骑兵团在纽波特—尼乌波特一线的装甲车迟滞（5-28/29）",
+  "waypoints": [
+   { "at": "1940-05-28T06:00", "pos": "@veurne" },
+   { "at": "1940-05-28T12:00", "pos": "@nieuwpoort" },
+   { "at": "1940-05-29T12:00", "pos": "@adinkerke" }
+  ],
+  "sources": ["ellis_1953","hyperwar_dunkirk"],
+  "confidence": "medium"
+ },
+ {
+  "id": "r.dk_gb_la_bassee_hold",
+  "side": "GB",
+  "unit": "gb.2div",
+  "style": "counter",
+  "widthKm": 7,
+  "label": "拉巴塞运河防御与勒帕拉迪殿后（5-23 → 5-28）",
+  "waypoints": [
+   { "at": "1940-05-23T06:00", "pos": "@estaires" },
+   { "at": "1940-05-25T12:00", "pos": "@bethune" },
+   { "at": "1940-05-27T06:00", "pos": "@le_paradis" },
+   { "at": "1940-05-28T22:00", "pos": "@mont_des_cats" }
+  ],
+  "sources": ["ellis_1953","sebag_2006"],
+  "confidence": "high"
+ },
+ {
+  "id": "r.dk_gb_air_25may",
+  "side": "GB",
+  "unit": "gb.no17sqn",
+  "style": "secondary",
+  "widthKm": 2,
+  "movement": "air",
+  "role": "intercept",
+  "label": "5-25 加来上空拦截斯图卡（17、605 中队）",
+  "waypoints": [
+   { "at": "1940-05-25T06:00", "pos": "@manston" },
+   { "at": "1940-05-25T06:20", "pos": "@channel_narrows" },
+   { "at": "1940-05-25T06:40", "pos": "@calais" },
+   { "at": "1940-05-25T07:00", "pos": "@sangatte" },
+   { "at": "1940-05-25T07:30", "pos": "@manston" }
+  ],
+  "sources": ["franks_2006","battle_of_britain_raf","chamberlain_1940"],
+  "confidence": "medium"
+ },
+ {
+  "id": "r.dk_gb_air_boulogne",
+  "side": "GB",
+  "unit": "gb.no92sqn",
+  "style": "secondary",
+  "widthKm": 2,
+  "movement": "air",
+  "role": "intercept",
+  "label": "5-23 布洛涅上空掩护驱逐舰（92 中队）",
+  "waypoints": [
+   { "at": "1940-05-23T13:00", "pos": "@hawkinge" },
+   { "at": "1940-05-23T13:25", "pos": "@boulogne" },
+   { "at": "1940-05-23T13:45", "pos": "@wimereux" },
+   { "at": "1940-05-23T14:10", "pos": "@channel_narrows" },
+   { "at": "1940-05-23T14:40", "pos": "@hawkinge" }
+  ],
+  "sources": ["franks_2006","sebag_2006","chamberlain_1940"],
+  "confidence": "medium"
+ },
+ {
+  "id": "r.dk_gb_air_27may",
+  "side": "GB",
+  "unit": "gb.no54sqn",
+  "style": "secondary",
+  "widthKm": 2,
+  "movement": "air",
+  "role": "intercept",
+  "label": "5-27 敦刻尔克港与海滩上空大规模巡逻（54 中队）",
+  "waypoints": [
+   { "at": "1940-05-27T06:00", "pos": "@manston" },
+   { "at": "1940-05-27T06:25", "pos": "@dunkirk_roads" },
+   { "at": "1940-05-27T06:50", "pos": "@bray_dunes" },
+   { "at": "1940-05-27T07:15", "pos": "@zuydcoote" },
+   { "at": "1940-05-27T07:45", "pos": "@manston" }
+  ],
+  "sources": ["franks_2006","terraine_1985","chamberlain_1940"],
+  "confidence": "medium"
+ },
+ {
+  "id": "r.dk_gb_air_29may",
+  "side": "GB",
+  "unit": "gb.no64sqn",
+  "style": "secondary",
+  "widthKm": 2,
+  "movement": "air",
+  "role": "intercept",
+  "label": "5-29 船队上空拦截（64 中队）",
+  "waypoints": [
+   { "at": "1940-05-29T06:30", "pos": "@hawkinge" },
+   { "at": "1940-05-29T06:55", "pos": "@dunkirk_roads" },
+   { "at": "1940-05-29T07:15", "pos": "@ruytingen_bank" },
+   { "at": "1940-05-29T07:40", "pos": "@goodwin_sands" },
+   { "at": "1940-05-29T08:10", "pos": "@hawkinge" }
+  ],
+  "sources": ["franks_2006","battle_of_britain_raf","chamberlain_1940"],
+  "confidence": "medium"
+ },
+ {
+  "id": "r.dk_gb_air_31may",
+  "side": "GB",
+  "unit": "gb.no74sqn",
+  "style": "secondary",
+  "widthKm": 2,
+  "movement": "air",
+  "role": "intercept",
+  "label": "5-31 布雷迪讷—尼乌波特一线巡逻（74 中队）",
+  "waypoints": [
+   { "at": "1940-05-31T07:30", "pos": "@manston" },
+   { "at": "1940-05-31T07:55", "pos": "@la_panne" },
+   { "at": "1940-05-31T08:20", "pos": "@bray_dunes" },
+   { "at": "1940-05-31T08:45", "pos": "@dunkirk" },
+   { "at": "1940-05-31T09:15", "pos": "@manston" }
+  ],
+  "sources": ["franks_2006","fighter_command","chamberlain_1940"],
+  "confidence": "medium"
+ },
+ {
+  "id": "r.dk_gb_air_1jun",
+  "side": "GB",
+  "unit": "gb.no213sqn",
+  "style": "secondary",
+  "widthKm": 2,
+  "movement": "air",
+  "role": "intercept",
+  "label": "6-1 德军全线进攻日的空中拦截（213 中队）",
+  "waypoints": [
+   { "at": "1940-06-01T14:00", "pos": "@manston" },
+   { "at": "1940-06-01T14:25", "pos": "@ghyvelde" },
+   { "at": "1940-06-01T14:50", "pos": "@dunkirk_port" },
+   { "at": "1940-06-01T15:15", "pos": "@malo_les_bains" },
+   { "at": "1940-06-01T15:45", "pos": "@manston" }
+  ],
+  "sources": ["franks_2006","raf_aircomponent","chamberlain_1940"],
+  "confidence": "medium"
+ }
+]

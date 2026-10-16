@@ -22,7 +22,7 @@
     { "id": "IT", "name": "意大利", "coalition": "axis", "css": { "main": "#4a7a8c" } }
   ],
   "hub": {
-    "order": 9,
+    "order": 11,
     "codename": "捷足行动",
     "codenameOrig": "LIGHTFOOT",
     "stencil": "EL ALAMEIN",

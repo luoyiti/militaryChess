@@ -1,0 +1,343 @@
+[
+ {
+  "id": "ov.dk_dunkirk_canal_line",
+  "layer": "defences",
+  "kind": "line",
+  "style": "canal",
+  "label": "敦刻尔克桥头堡运河防线（贝尔格—弗尔讷运河与穆尔运河）",
+  "line": ["@bergues","@hoymille","@tetegham","@uxem","@ghyvelde","@adinkerke"],
+  "sources": ["ellis_1953","gort_despatch","hyperwar_dunkirk","mason_1969"]
+ },
+ {
+  "id": "ov.dk_dunkirk_canal_line_east",
+  "layer": "defences",
+  "kind": "line",
+  "style": "canal",
+  "label": "东段延伸：吉费尔德—阿丁凯尔克—拉帕讷（比利时投降后 5-28 起）",
+  "line": ["@adinkerke","@la_panne","@koksijde","@oostduinkerke","@nieuwpoort"],
+  "sources": ["ellis_1953","brooke_2001"]
+ },
+ {
+  "id": "ov.dk_dunkirk_inner_ring",
+  "layer": "defences",
+  "kind": "line",
+  "style": "inner",
+  "label": "桥头堡内圈：库德凯尔克—泰特冈—马洛莱班（6-1 后收缩）",
+  "line": ["@coudekerque","@tetegham","@uxem","@bray_dunes","@malo_les_bains"],
+  "sources": ["hyperwar_dunkirk","dunkirk_pocket_diary"]
+ },
+ {
+  "id": "ov.dk_bergues_sector",
+  "layer": "defences",
+  "kind": "line",
+  "style": "sector",
+  "label": "贝尔格支撑点群（5-28 → 6-2 夜陷落）",
+  "line": ["@socx","@bergues","@hoymille","@warhem"],
+  "sources": ["ellis_1953","atkin_1990","mason_1969"]
+ },
+ {
+  "id": "ov.dk_la_bassee_line",
+  "layer": "defences",
+  "kind": "line",
+  "style": "canal",
+  "label": "拉巴塞防线与运河线（贝蒂讷—拉巴塞，5-22 → 5-28）",
+  "line": ["@bethune","@la_bassee","@carvin"],
+  "sources": ["ellis_1953","sebag_2006"]
+ },
+ {
+  "id": "ov.dk_st_omer_canal_line",
+  "layer": "defences",
+  "kind": "line",
+  "style": "canal",
+  "label": "圣奥梅尔—海岸运河线（第 48 师西侧走廊，5-23 → 5-29）",
+  "line": ["@aire_sur_la_lys","@watten","@saint_omer","@bollezeele","@wormhout","@bergues"],
+  "sources": ["gort_despatch","ellis_1953"]
+ },
+ {
+  "id": "ov.dk_ypres_comines_line",
+  "layer": "defences",
+  "kind": "line",
+  "style": "sector",
+  "label": "伊珀尔—科米讷运河防线（II 军，5-26 → 5-28）",
+  "line": ["@ieper","@comines","@menen","@mesen","@ploegsteert"],
+  "sources": ["brooke_2001","montgomery_1958"]
+ },
+ {
+  "id": "ov.dk_lys_line",
+  "layer": "defences",
+  "kind": "line",
+  "style": "sector",
+  "label": "利斯河防线（5-26 起点，含卡塞尔—阿兹布鲁克支撑点）",
+  "line": ["@armentieres","@estaires","@merville","@le_paradis","@bethune"],
+  "sources": ["ellis_1953","gort_despatch"]
+ },
+ {
+  "id": "ov.dk_calais_perimeter",
+  "layer": "defences",
+  "kind": "range",
+  "style": "perimeter",
+  "label": "加来桥头堡圈（外垒半径约 4 km；5-23 → 5-26 投降）",
+  "pos": "@calais",
+  "rangeKm": 4,
+  "sources": ["sebag_2006","ellis_1953"]
+ },
+ {
+  "id": "ov.dk_boulogne_perimeter",
+  "layer": "defences",
+  "kind": "range",
+  "style": "perimeter",
+  "label": "布洛涅桥头堡圈（外围 6 英里防线，半径约 5 km；5-22 → 5-25）",
+  "pos": "@boulogne",
+  "rangeKm": 5,
+  "sources": ["thompson_1956","sebag_2006"]
+ },
+ {
+  "id": "ov.dk_calais_citadel",
+  "layer": "defences",
+  "kind": "range",
+  "style": "perimeter",
+  "label": "加来旧城、城堡与港口最后据点（5-25 起，半径约 1.5 km）",
+  "pos": "@calais",
+  "rangeKm": 1.5,
+  "sources": ["sebag_2006","national_archives_dynamo"]
+ },
+ {
+  "id": "ov.dk_gravelines_perimeter",
+  "layer": "defences",
+  "kind": "range",
+  "style": "perimeter",
+  "label": "格拉沃利讷据点圈（桥头堡西端外围，半径约 3 km）",
+  "pos": "@gravelines",
+  "rangeKm": 3,
+  "sources": ["ellis_1953","hyperwar_dunkirk"]
+ },
+ {
+  "id": "ov.dk_raf_hawkinge",
+  "layer": "airbases",
+  "kind": "range",
+  "style": "airfield",
+  "label": "RAF 霍金奇（前进机场，战斗机巡逻半径约 8 km 示意圈）",
+  "pos": "@hawkinge",
+  "rangeKm": 8,
+  "sources": ["fighter_command","franks_2006","chamberlain_1940"]
+ },
+ {
+  "id": "ov.dk_raf_manston",
+  "layer": "airbases",
+  "kind": "range",
+  "style": "airfield",
+  "label": "RAF 曼斯顿（前进机场，战斗机巡逻半径约 8 km 示意圈）",
+  "pos": "@manston",
+  "rangeKm": 8,
+  "sources": ["fighter_command","terraine_1985","chamberlain_1940"]
+ },
+ {
+  "id": "ov.dk_raf_hornchurch",
+  "layer": "airbases",
+  "kind": "range",
+  "style": "airfield",
+  "label": "RAF 霍恩彻奇（第 11 大队主要基地，半径约 8 km）",
+  "pos": "@hornchurch",
+  "rangeKm": 8,
+  "sources": ["fighter_command","raf_aircomponent","chamberlain_1940"]
+ },
+ {
+  "id": "ov.dk_raf_north_weald",
+  "layer": "airbases",
+  "kind": "range",
+  "style": "airfield",
+  "label": "RAF 北威尔德（第 12 大队，半径约 8 km）",
+  "pos": "@north_weald",
+  "rangeKm": 8,
+  "sources": ["fighter_command","franks_2006","chamberlain_1940"]
+ },
+ {
+  "id": "ov.dk_raf_debden",
+  "layer": "airbases",
+  "kind": "range",
+  "style": "airfield",
+  "label": "RAF 德布登（第 12 大队，半径约 8 km）",
+  "pos": "@debden",
+  "rangeKm": 8,
+  "sources": ["fighter_command","franks_2006","chamberlain_1940"]
+ },
+ {
+  "id": "ov.dk_dunkirk_airfield",
+  "layer": "airbases",
+  "kind": "range",
+  "style": "airfield",
+  "label": "敦刻尔克—马尔迪克机场（桥头堡内，6-2 前仍受炮击）",
+  "pos": "@dunkirk_airfield",
+  "rangeKm": 4,
+  "sources": ["ellis_1953","hyperwar_dunkirk"]
+ },
+ {
+  "id": "ov.dk_st_omer_airfield",
+  "layer": "airbases",
+  "kind": "range",
+  "style": "airfield",
+  "label": "圣奥梅尔机场（德军 I/JG 27 前沿基地，5-23 起）",
+  "pos": "@st_omer_airfield",
+  "rangeKm": 6,
+  "sources": ["franks_2006","priller_1950"]
+ },
+ {
+  "id": "ov.dk_merville_airfield",
+  "layer": "airbases",
+  "kind": "range",
+  "style": "airfield",
+  "label": "梅维尔机场（英军前进机场，5 月中旬后失守）",
+  "pos": "@merville_airfield",
+  "rangeKm": 6,
+  "sources": ["raf_aircomponent","bowhill_1941"]
+ },
+ {
+  "id": "ov.dk_radar_dover",
+  "layer": "airbases",
+  "kind": "range",
+  "style": "radar",
+  "label": "多佛雷达站（Chain Home，探测半径约 60 km 示意）",
+  "pos": "@dover",
+  "rangeKm": 60,
+  "sources": ["fighter_command","battle_of_britain_raf","chamberlain_1940"]
+ },
+ {
+  "id": "ov.dk_radar_ramsgate",
+  "layer": "airbases",
+  "kind": "range",
+  "style": "radar",
+  "label": "拉姆斯盖特雷达站（探测半径约 60 km 示意）",
+  "pos": "@ramsgate",
+  "rangeKm": 60,
+  "sources": ["fighter_command","battle_of_britain_raf","chamberlain_1940"]
+ },
+ {
+  "id": "ov.dk_radar_margate",
+  "layer": "airbases",
+  "kind": "range",
+  "style": "radar",
+  "label": "马盖特雷达站（探测半径约 60 km 示意）",
+  "pos": "@margate",
+  "rangeKm": 60,
+  "sources": ["fighter_command","terraine_1985","chamberlain_1940"]
+ },
+ {
+  "id": "ov.dk_radar_deal",
+  "layer": "airbases",
+  "kind": "range",
+  "style": "radar",
+  "label": "迪尔雷达站（探测半径约 60 km 示意）",
+  "pos": "@deal",
+  "rangeKm": 60,
+  "sources": ["fighter_command","terraine_1985","chamberlain_1940"]
+ },
+ {
+  "id": "ov.dk_radar_sandwich",
+  "layer": "airbases",
+  "kind": "range",
+  "style": "radar",
+  "label": "桑威奇雷达站（探测半径约 60 km 示意）",
+  "pos": "@sandwich",
+  "rangeKm": 60,
+  "sources": ["fighter_command","battle_of_britain_raf","chamberlain_1940"]
+ },
+ {
+  "id": "ov.dk_route_z",
+  "layer": "evacuation",
+  "kind": "line",
+  "style": "route-z",
+  "label": "Route Z（敦刻尔克→加来沿岸→多佛，最短，约 39 海里）",
+  "line": ["@dunkirk","@gravelines","@calais","@cap_gris_nez","@channel_narrows","@dover"],
+  "sources": ["dynamo_despatch","scott_1941","dildy_2010","dynamo_admiralty"]
+ },
+ {
+  "id": "ov.dk_route_x",
+  "layer": "evacuation",
+  "kind": "line",
+  "style": "route-x",
+  "label": "Route X（经吕坦让浅滩→北古德温灯船→绕古德温沙洲南下，最安全）",
+  "line": ["@dunkirk","@ruytingen_bank","@goodwin_sands","@the_downs","@dover"],
+  "sources": ["dynamo_despatch","scott_1941","dildy_2010","dynamo_admiralty"]
+ },
+ {
+  "id": "ov.dk_route_y",
+  "layer": "evacuation",
+  "kind": "line",
+  "style": "route-y",
+  "label": "Route Y（沿法国海岸至布雷迪讷→东北转西，最长约 87 海里，最险）",
+  "line": ["@dunkirk","@bray_dunes","@oostduinkerke","@nieuwpoort","@goodwin_sands","@dover"],
+  "sources": ["dynamo_despatch","scott_1941","dildy_2010","dynamo_admiralty"]
+ },
+ {
+  "id": "ov.dk_evac_beach_zone",
+  "layer": "evacuation",
+  "kind": "line",
+  "style": "beach",
+  "label": "海滩登船区：布雷迪讷—祖伊德科特—莱弗兰库克—马洛莱班",
+  "line": ["@bray_dunes","@zuydcoote","@leffrinckoucke","@fort_des_dunes","@malo_les_bains"],
+  "sources": ["coastal_forces","dynamo_despatch","dynamo_admiralty"]
+ },
+ {
+  "id": "ov.dk_evac_dover_reception",
+  "layer": "evacuation",
+  "kind": "line",
+  "style": "beach",
+  "label": "英方接收港：多佛—迪尔—唐斯锚地—拉姆斯盖特",
+  "line": ["@dover","@deal","@the_downs","@ramsgate"],
+  "sources": ["dynamo_despatch","scott_1941","dynamo_admiralty"]
+ },
+ {
+  "id": "ov.dk_transit_biggin_hawkinge",
+  "layer": "airbases",
+  "kind": "line",
+  "style": "transit",
+  "label": "比金山—霍金奇转场线（11 大队中队经此前出）",
+  "line": ["@biggin_hill","@kent","@hawkinge"],
+  "sources": ["fighter_command","franks_2006","chamberlain_1940"]
+ },
+ {
+  "id": "ov.dk_transit_hornchurch_manston",
+  "layer": "airbases",
+  "kind": "line",
+  "style": "transit",
+  "label": "霍恩彻奇—曼斯顿转场线（54、222 等中队的前出路线）",
+  "line": ["@hornchurch","@thames_estuary","@manston"],
+  "sources": ["fighter_command","raf_aircomponent","chamberlain_1940"]
+ },
+ {
+  "id": "ov.dk_transit_north_weald_manston",
+  "layer": "airbases",
+  "kind": "line",
+  "style": "transit",
+  "label": "北威尔德—曼斯顿转场线（12 大队中队的前出路线）",
+  "line": ["@north_weald","@thames_estuary","@manston"],
+  "sources": ["fighter_command","terraine_1985","chamberlain_1940"]
+ },
+ {
+  "id": "ov.dk_transit_debden_manston",
+  "layer": "airbases",
+  "kind": "line",
+  "style": "transit",
+  "label": "德布登—曼斯顿转场线（17、19 中队的前出路线）",
+  "line": ["@debden","@thames_estuary","@manston"],
+  "sources": ["fighter_command","franks_2006","chamberlain_1940"]
+ },
+ {
+  "id": "ov.dk_transit_tangmere_hawkinge",
+  "layer": "airbases",
+  "kind": "line",
+  "style": "transit",
+  "label": "坦米尔—霍金奇转场线（1、92、601 中队的前出路线）",
+  "line": ["@tangmere","@kent","@hawkinge"],
+  "sources": ["fighter_command","battle_of_britain_raf","chamberlain_1940"]
+ },
+ {
+  "id": "ov.dk_transit_kenley_hawkinge",
+  "layer": "airbases",
+  "kind": "line",
+  "style": "transit",
+  "label": "肯利—霍金奇转场线（64 中队的前出路线）",
+  "line": ["@kenley","@kent","@hawkinge"],
+  "sources": ["fighter_command","terraine_1985","chamberlain_1940"]
+ }
+]

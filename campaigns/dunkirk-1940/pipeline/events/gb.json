@@ -1,0 +1,280 @@
+[
+  {
+    "id": "e.dk_gb_boulogne_defence",
+    "at": "1940-05-22T09:00",
+    "category": "battle",
+    "precision": "hour",
+    "importance": 2,
+    "side": "GB",
+    "title": {
+      "zh": "布洛涅：近卫旅上岸",
+      "orig": "20th Guards Brigade lands at Boulogne"
+    },
+    "body": "福克斯-皮特准将的第 20 近卫旅 5 月 22 日上午在布洛涅上岸：爱尔兰近卫守西南、威尔士近卫守东北，外围防线约六英里，与法军第 21 步兵师共同设防。港口要塞由法军海军守备队负责，英军只带来少量高炮与搜索灯部队。这支部队原为增援而来，却成了港口之战的守军。",
+    "place": "@boulogne",
+    "units": [
+      "gb.20gds_bde"
+    ],
+    "sources": [
+      "thompson_1956",
+      "sebag_2006",
+      "ellis_1953"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "e.dk_gb_air_boulogne",
+    "at": "1940-05-23T13:00",
+    "category": "air",
+    "precision": "hour",
+    "importance": 2,
+    "side": "GB",
+    "title": {
+      "zh": "第九十二中队掩护布洛涅的驱逐舰",
+      "orig": "No. 92 Squadron over Boulogne"
+    },
+    "body": "5 月 23 日，皇家空军第 92 中队的喷火从坦米尔出动，为靠泊布洛涅的驱逐舰提供空中掩护。当日该中队在加来方向宣称击落四架 Bf 109，但自己也损失五名飞行员，其中布歇尔少校被俘——他后来策划了著名的「木马」越狱。同日晨，第 74 中队在加来与布洛涅之间击落一架 Ju 88。",
+    "place": "@boulogne",
+    "units": [
+      "gb.no92sqn",
+      "gb.no74sqn"
+    ],
+    "sources": [
+      "franks_2006",
+      "sebag_2006",
+      "battle_of_britain_raf"
+    ],
+    "confidence": "medium",
+    "sfx": [
+      "fighter"
+    ]
+  },
+  {
+    "id": "e.dk_gb_calais_siege_begin",
+    "at": "1940-05-23T16:00",
+    "category": "siege",
+    "precision": "hour",
+    "importance": 2,
+    "side": "GB",
+    "title": {
+      "zh": "加来：三十旅进城，围城开始",
+      "orig": "Siege of Calais begins"
+    },
+    "body": "5 月 23 日下午，尼科尔森准将的第 30 步兵旅与第 3 皇家坦克团、维多利亚女王步枪队先后抵达加来。他们本奉命接应布洛涅并押送一批口粮去敦刻尔克，抵达后却发现德军已切断南面与西南的公路。尼科尔森以两个步兵营据守外垒：步枪旅守东侧，国王皇家步枪队守西侧，当晚完成收缩。",
+    "place": "@calais",
+    "units": [
+      "gb.30bde"
+    ],
+    "sources": [
+      "sebag_2006",
+      "national_archives_dynamo",
+      "ellis_1953"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "e.dk_gb_calais_evac_refused",
+    "at": "1940-05-24T23:23",
+    "category": "political",
+    "precision": "minute",
+    "importance": 1,
+    "side": "GB",
+    "title": {
+      "zh": "加来不得撤离：一道来自伦敦的命令",
+      "orig": "Calais ordered to fight on"
+    },
+    "body": "5 月 24 日 23 时 23 分，帝国总参谋长艾恩赛德电告尼科尔森：法军海峡港口司令法加尔德已禁止撤离，加来守军必须遵从；港口既已失去意义，尼科尔森可就地选择最有利的阵地继续战斗，弹药可补，援军没有。25 日港外曾有十五艘小船与约一千八百人的运力待命，却只等到「继续战斗」的命令。",
+    "place": "@calais",
+    "units": [
+      "gb.30bde"
+    ],
+    "sources": [
+      "ellis_1953",
+      "sebag_2006",
+      "national_archives_dynamo"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "e.dk_boulogne_fall",
+    "at": "1940-05-25T13:00",
+    "category": "battle",
+    "precision": "hour",
+    "importance": 2,
+    "side": "GB",
+    "title": {
+      "zh": "布洛涅陷落：一场边打边撤的撤离",
+      "orig": "Fall of Boulogne"
+    },
+    "body": "5 月 23 日德军南北夹击，守军被迫退入城内；当晚十八时前后接令从海上撤出，驱逐舰在斯图卡轰炸下靠泊码头。至 24 日凌晨，约一千四百人返英。留在城内的威尔士近卫第 3 连与约三百名近卫军士兵，弹药耗尽后于 25 日 13 时投降。布洛涅之战牵制了德军第 2 装甲师两天。",
+    "place": "@boulogne",
+    "units": [
+      "gb.20gds_bde"
+    ],
+    "sources": [
+      "thompson_1956",
+      "sebag_2006",
+      "scott_1941"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "e.dk_gb_calais_refuse",
+    "at": "1940-05-25T15:00",
+    "category": "battle",
+    "precision": "hour",
+    "importance": 2,
+    "side": "GB",
+    "title": {
+      "zh": "「英军的职责和德军一样是战斗」",
+      "orig": "Nicholson refuses to surrender"
+    },
+    "body": "5 月 25 日，德军第 10 装甲师师长沙尔两度派人劝降，尼科尔森两度拒绝，答复是：英军的职责和德军一样是战斗。当日下午他下令以十一辆布伦机枪车与两辆坦克出击，企图绕到德军侧后，但机枪车陷入沙地，突围失败。步枪旅旅长霍斯金斯阵亡，该旅残部退回港区。",
+    "place": "@calais",
+    "units": [
+      "gb.30bde"
+    ],
+    "sources": [
+      "sebag_2006",
+      "ellis_1953",
+      "mason_1969"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "e.dk_gb_air_calais",
+    "at": "1940-05-26T12:00",
+    "category": "air",
+    "precision": "hour",
+    "importance": 2,
+    "side": "GB",
+    "title": {
+      "zh": "加来上空：击落斯图卡的最后两天",
+      "orig": "RAF over Calais, 25–26 May"
+    },
+    "body": "加来在皇家空军战斗机航程之内，两天里成为空战焦点。5 月 25 日第 17 中队宣称击落三架斯图卡与一架 Do 17，第 605 中队宣称击落四架 Ju 87 与一架 Hs 126；26 日第 17 与第 605 中队再度拦截俯冲轰炸机群，当日皇家空军在加来附近出动约二百架次，自身损失数架。",
+    "place": "@calais",
+    "units": [
+      "gb.no17sqn",
+      "gb.no605sqn",
+      "gb.30bde"
+    ],
+    "sources": [
+      "franks_2006",
+      "battle_of_britain_raf",
+      "terraine_1985"
+    ],
+    "confidence": "medium",
+    "sfx": [
+      "fighter"
+    ]
+  },
+  {
+    "id": "e.dk_gb_lys_withdraw",
+    "at": "1940-05-26T12:00",
+    "category": "movement",
+    "precision": "hour",
+    "importance": 1,
+    "side": "GB",
+    "title": {
+      "zh": "利斯河防线支撑不住",
+      "orig": "The Lys line gives way"
+    },
+    "body": "5 月 26 日，戈特把利斯河一线的部队陆续西撤。I 军退向巴约勒、黑山方向，II 军布鲁克以第 3、4、5、50 师在伊珀尔—科米讷运河上组织掩护，第 2、48 师则在拉巴塞运河与圣奥梅尔—海岸运河上殿后。东侧同时抽调兵力填补与比军之间的空隙，全军开始向海岸收拢。",
+    "place": "@comines",
+    "units": [
+      "gb.i_corps",
+      "gb.ii_corps",
+      "gb.2div",
+      "gb.48div"
+    ],
+    "sources": [
+      "ellis_1953",
+      "gort_despatch",
+      "brooke_2001"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "e.dk_gb_messines_counter",
+    "at": "1940-05-27T20:00",
+    "category": "battle",
+    "precision": "hour",
+    "importance": 2,
+    "side": "GB",
+    "title": {
+      "zh": "梅森岭与伊珀尔—科米讷运河的反击",
+      "orig": "Counter-attack at Messines"
+    },
+    "body": "5 月 27 日中午，德军三个师在伊珀尔以南进攻，步兵渗透进守军阵地。布鲁克令蒙哥马利向左延伸第 3 师正面，腾出第 4 师的第 10、11 旅，会同第 5 师在梅森岭反击，把德军逐出高地。同时第 1 师的近卫第 3 营与北斯塔福德第 2 营向运河反击，一度打到运河边却无法固守。",
+    "place": "@mesen",
+    "units": [
+      "gb.4div",
+      "gb.5div",
+      "gb.3div",
+      "gb.1div"
+    ],
+    "sources": [
+      "montgomery_1958",
+      "brooke_2001",
+      "ellis_1953"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "e.dk_gb_belgian_gap",
+    "at": "1940-05-28T06:00",
+    "category": "movement",
+    "precision": "hour",
+    "importance": 1,
+    "side": "GB",
+    "title": {
+      "zh": "比利时投降后：二十英里的缺口",
+      "orig": "Filling the gap after the Belgian surrender"
+    },
+    "body": "5 月 28 日凌晨比军投降，远征军东翼露出约二十英里的缺口。戈特急调刚下火线的第 3、4、50 师北上填补，第 23 与第 12 师残部被派往纽波特—弗尔讷—迪克斯梅德一线；第 12 皇家枪骑兵团的装甲车当日在纽波特挡住德军第 256 步兵师的迂回，为各师进入位置赢得时间。",
+    "place": "@nieuwpoort",
+    "units": [
+      "gb.12lancers",
+      "gb.23div",
+      "gb.12div",
+      "gb.3div",
+      "gb.50div"
+    ],
+    "sources": [
+      "ellis_1953",
+      "hyperwar_dunkirk",
+      "barker_1941"
+    ],
+    "confidence": "high",
+    "sfx": [
+      "engine"
+    ]
+  },
+  {
+    "id": "e.dk_gb_division_lift",
+    "at": "1940-05-30T22:00",
+    "category": "movement",
+    "precision": "hour",
+    "importance": 2,
+    "side": "GB",
+    "title": {
+      "zh": "三个师先撤：撤离进入高峰",
+      "orig": "Divisions lifted"
+    },
+    "body": "5 月 30 日，蒙哥马利的第 3 师、第 4 师与第 50 师成为最早成批撤出的建制师。至当日夜共有五万三千余人登船，是行动开始以来最多的一天；布鲁克在前一日把 II 军交给蒙哥马利后返英。海滩与东防波堤同时启用，此前撤出的多是后勤部队与伤员。",
+    "place": "@bray_dunes",
+    "units": [
+      "gb.3div",
+      "gb.4div",
+      "gb.50div",
+      "gb.ii_corps"
+    ],
+    "sources": [
+      "ellis_1953",
+      "montgomery_1958",
+      "lord_1982"
+    ],
+    "confidence": "high"
+  }
+]
