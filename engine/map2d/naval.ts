@@ -22,6 +22,7 @@ import {
 import { shipLayout, drawShip, drawBeam, traceHull, calLabel, hitLocation, WEAPON_KIND_ZH, type ShipLayout, type ShipPalette, type LTurret } from './navalSilhouettes';
 import { sideDef, manifest } from '../campaign/context';
 import { audio } from '../audio/audio';
+import { relaxLayout, type RelaxItem } from './layout';
 import '../styles/naval.css';
 
 // ---------- 常量与小工具 ----------
@@ -92,7 +93,6 @@ export class NavalLayer {
   private byId = new Map<string, Drawn>();
   private drawn: Drawn[] = [];
   private nDrawn = 0;
-  private offsets = new Map<string, [number, number]>();
   private t = 0;
   private dirty = true;
   private layers = { units: true, tracks: true, gunfire: true, ranges: false, chart: true };
@@ -312,41 +312,26 @@ export class NavalLayer {
       const m = d.L + 40;
       d.on = ax > -m && ay > -m && ax < map.width + m && ay < map.height + m;
       d.dmg = d.on && this.db.naval.any ? damageAt(this.db.naval, u.id, t) : null;
-      const off = this.offsets.get(u.id);
-      d.x = ax + (off ? off[0] : 0); d.y = ay + (off ? off[1] : 0);
+      // 一律从锚点冷启动：不沿用上一帧的避让量。否则收敛点取决于相机走过的路径，
+      // 平移一个来回时舰船回不到原位（与棋子层同一个 bug，见 engine/map2d/layout.ts）。
+      d.x = ax; d.y = ay;
       this.byId.set(u.id, d);
       n++;
     }
     this.nDrawn = n;
-    // 碰撞松弛（港内、编队密集时）：大洋缩放下推开，战术缩放下只轻推，保留引线指向真实位置
+    // 碰撞松弛（港内、编队密集时）：大洋缩放下推开，战术缩放下只轻推，保留引线指向真实位置。
+    // 与棋子层同源，用共享的 Jacobi 求解器：每轮位移先累加再统一应用，因此与遍历顺序无关
+    // （可见舰船集合每帧都在变，顺序相关的求解会让整片舰船重排 = 闪烁）。
     const tactical = relK >= this.cfg.tacticalZoom;
-    const items = this.drawn;
-    for (let it = 0; it < 8; it++) {
-      for (let i = 0; i < n; i++) {
-        const a = items[i];
-        if (!a.on) continue;
-        for (let j = i + 1; j < n; j++) {
-          const b = items[j];
-          if (!b.on) continue;
-          const min = (a.L + b.L) * (tactical ? 0.2 : 0.42);
-          let dx = b.x - a.x, dy = b.y - a.y;
-          const d2 = dx * dx + dy * dy;
-          if (d2 >= min * min) continue;
-          let dd = Math.sqrt(d2);
-          if (dd < 0.01) { dx = Math.cos(i * 2.4 + j); dy = Math.sin(i * 2.4 + j); dd = 1; }
-          const push = (min - dd) / 2, ux = dx / dd, uy = dy / dd;
-          // 主力舰（排序靠前）少动
-          const wa = a.rec.prio <= b.rec.prio ? 0.35 : 0.65;
-          a.x -= ux * push * 2 * wa; a.y -= uy * push * 2 * wa;
-          b.x += ux * push * 2 * (1 - wa); b.y += uy * push * 2 * (1 - wa);
-        }
-      }
-      for (let i = 0; i < n; i++) { const a = items[i]; a.x += (a.ax - a.x) * 0.08; a.y += (a.ay - a.y) * 0.08; }
-    }
-    for (let i = 0; i < n; i++) {
-      const a = items[i], ox = a.x - a.ax, oy = a.y - a.ay;
-      if (Math.abs(ox) < 0.3 && Math.abs(oy) < 0.3) this.offsets.delete(a.rec.u.id); else this.offsets.set(a.rec.u.id, [ox, oy]);
-    }
+    // Drawn 自带 ax/ay/x/y，结构上就是 RelaxItem；这里只补上求解器需要的「半径」语义
+    const items = this.drawn as unknown as (RelaxItem & Drawn)[];
+    relaxLayout(items, 8, 0.08, {
+      active: (a) => (a as unknown as Drawn).on,
+      minDist: (a, b) => ((a as unknown as Drawn).L + (b as unknown as Drawn).L) * (tactical ? 0.2 : 0.42),
+      // 主力舰（prio 小）少动，让小船让位
+      weight: (a, b) => ((a as unknown as Drawn).rec.prio <= (b as unknown as Drawn).rec.prio ? 0.35 : 0.65),
+      ids: this.drawn.map((d) => d.rec.u.id),
+    });
   }
 
   // ---------- 舰船 ----------

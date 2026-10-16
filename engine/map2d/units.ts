@@ -5,6 +5,7 @@ import { unitStateAt, isTerminal, type RUnit, type UnitState } from '../model/co
 import { ECHELON_RANK, type UnitStatus } from '../core/types';
 import { counterSVG, statusOverlay, STATUS_ZH, ECH_ZH, TYPE_ZH, SIDE_ZH, FLIGHT_ZH, escapeXml } from './symbols';
 import { campaign, manifest } from '../campaign/context';
+import { relaxLayout, overlapCount } from './layout';
 
 const SIZE: Record<string, number> = { army: 38, corps: 32, division: 27, brigade: 27, armygroup: 40, front: 40, command: 40, air_group: 38, air_fleet: 38, sector: 32, wing: 32, squadron: 27, gruppe: 27 };
 
@@ -28,7 +29,6 @@ export class UnitsLayer {
   private g: SVGGElement;
   private leaders: SVGPathElement;
   private els = new Map<string, El>();
-  private offsets = new Map<string, [number, number]>();
   private items: Item[] = [];
   private t = 0;
   selected: string | null = null;
@@ -107,43 +107,19 @@ export class UnitsLayer {
           if (n > 1.5) dir = [dx / n, dy / n];
         }
       }
-      const off = this.offsets.get(u.id) ?? [0, 0];
-      items.push({ u, s, ax, ay, x: ax + off[0], y: ay + off[1], r: (SIZE[u.echelon] ?? 28) * 0.56, dir });
+      items.push({ u, s, ax, ay, x: ax, y: ay, r: (SIZE[u.echelon] ?? 28) * 0.56, dir });
     }
-    // 碰撞松弛
-    for (let it = 0; it < 10; it++) {
-      for (let i = 0; i < items.length; i++) {
-        const a = items[i];
-        for (let j = i + 1; j < items.length; j++) {
-          const b = items[j];
-          let dx = b.x - a.x, dy = b.y - a.y;
-          const min = (a.r + b.r) * 0.98;
-          const d2 = dx * dx + dy * dy;
-          if (d2 >= min * min) continue;
-          let d = Math.sqrt(d2);
-          if (d < 0.01) { dx = Math.cos(i + j); dy = Math.sin(i + j); d = 1; }
-          const push = (min - d) / 2;
-          const ux = dx / d, uy = dy / d;
-          a.x -= ux * push; a.y -= uy * push;
-          b.x += ux * push; b.y += uy * push;
-        }
-      }
-      for (const a of items) { a.x += (a.ax - a.x) * 0.06; a.y += (a.ay - a.y) * 0.06; }
-    }
-    // 统计重叠
-    let overlap = 0;
-    for (let i = 0; i < items.length; i++) for (let j = i + 1; j < items.length; j++) {
-      const a = items[i], b = items[j];
-      if (Math.hypot(a.x - b.x, a.y - b.y) < (a.r + b.r) * 0.7) overlap++;
-    }
-    this.stats = { shown: items.length, overlap: items.length ? overlap / items.length : 0 };
+    // 碰撞松弛：一律从锚点冷启动（见 layout.ts 的说明）。
+    // 不能拿上一帧的避让量热启动 —— 那会让收敛点取决于相机走过的路径，
+    // 平移一个来回时棋子回不到原位，看起来就是整片棋子抖动。
+    relaxLayout(items, 60, 0.1, { ids: items.map((a) => a.u.id) });
+    this.stats = { shown: items.length, overlap: items.length ? overlapCount(items) / items.length : 0 };
     // 渲染
     const seen = new Set<string>();
     let leaders = '';
     for (const it of items) {
       const u = it.u;
       seen.add(u.id);
-      this.offsets.set(u.id, [it.x - it.ax, it.y - it.ay]);
       let el = this.els.get(u.id);
       if (!el) el = this.create(u);
       el.g.style.display = '';
