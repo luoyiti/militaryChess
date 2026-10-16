@@ -1,0 +1,17 @@
+{
+ "w": 512,
+ "h": 593,
+ "cell": 16,
+ "dtype": "uint8",
+ "order": "row-major (j*w+i)",
+ "cellCenter": "((i+0.5)*cell, (j+0.5)*cell) 世界坐标",
+ "bits": {
+  "4": "陆地",
+  "0": "SU",
+  "1": "DE",
+  "2": "RO+HU+SK",
+  "3": "FI",
+  "6": "其余陆地"
+ },
+ "source": "tools/geo/masks.py：countries1939 + Natural Earth 陆地，经 d3 投影后点内判定"
+}

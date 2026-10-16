@@ -1,0 +1,1802 @@
+[
+ {
+  "id": "r.de.pzgr3_minsk",
+  "side": "DE",
+  "unit": "de.xxxix_mk",
+  "style": "main",
+  "widthKm": 28,
+  "label": "第 3 装甲集群北钳：阿利图斯—维尔纽斯—明斯克",
+  "waypoints": [
+   {
+    "at": "1941-06-22T03:15",
+    "pos": [
+     23.3,
+     54.25
+    ]
+   },
+   {
+    "at": "1941-06-22T20:00",
+    "pos": "@alytus"
+   },
+   {
+    "at": "1941-06-24T06:00",
+    "pos": "@vilnius"
+   },
+   {
+    "at": "1941-06-26T12:00",
+    "pos": "@molodechno"
+   },
+   {
+    "at": "1941-06-28T12:00",
+    "pos": "@minsk"
+   }
+  ],
+  "sources": [
+   "glantz_initial",
+   "center_wiki_bialystok",
+   "kirchubel_ag",
+   "center_hoth"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "r.de.pzgr2_minsk",
+  "side": "DE",
+  "unit": "de.xlvii_mk",
+  "style": "main",
+  "widthKm": 28,
+  "label": "第 2 装甲集群南钳：斯洛尼姆—明斯克",
+  "waypoints": [
+   {
+    "at": "1941-06-22T03:15",
+    "pos": [
+     23.42,
+     52.25
+    ]
+   },
+   {
+    "at": "1941-06-23T18:00",
+    "pos": "@pruzhany"
+   },
+   {
+    "at": "1941-06-25T12:00",
+    "pos": "@slonim"
+   },
+   {
+    "at": "1941-06-27T12:00",
+    "pos": "@baranovichi"
+   },
+   {
+    "at": "1941-06-28T12:00",
+    "pos": "@dzerzhinsk"
+   },
+   {
+    "at": "1941-06-29T12:00",
+    "pos": [
+     27.55,
+     53.8
+    ]
+   }
+  ],
+  "sources": [
+   "glantz_initial",
+   "center_wiki_bialystok",
+   "kirchubel_ag",
+   "center_guderian"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "r.de.xxiv_bobruisk",
+  "side": "DE",
+  "unit": "de.xxiv_mk",
+  "style": "main",
+  "widthKm": 25,
+  "label": "XXIV 摩托化军：布列斯特—博布鲁伊斯克—第聂伯河",
+  "waypoints": [
+   {
+    "at": "1941-06-22T03:15",
+    "pos": [
+     23.62,
+     51.94
+    ]
+   },
+   {
+    "at": "1941-06-23T18:00",
+    "pos": "@kobrin"
+   },
+   {
+    "at": "1941-06-24T18:00",
+    "pos": "@bereza"
+   },
+   {
+    "at": "1941-06-26T18:00",
+    "pos": "@slutsk"
+   },
+   {
+    "at": "1941-06-28T12:00",
+    "pos": "@bobruisk"
+   },
+   {
+    "at": "1941-07-10T06:00",
+    "pos": "@bykhov"
+   },
+   {
+    "at": "1941-07-15T12:00",
+    "pos": "@propoisk"
+   },
+   {
+    "at": "1941-07-20T12:00",
+    "pos": "@krichev"
+   }
+  ],
+  "sources": [
+   "glantz_initial",
+   "center_wiki_bialystok",
+   "kirchubel_ag",
+   "center_guderian"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "r.de.xlvii_smolensk",
+  "side": "DE",
+  "unit": "de.29idmot",
+  "style": "main",
+  "widthKm": 25,
+  "label": "XLVII 摩托化军：鲍里索夫—科佩斯—斯摩棱斯克",
+  "waypoints": [
+   {
+    "at": "1941-06-30T12:00",
+    "pos": [
+     27.8,
+     53.9
+    ]
+   },
+   {
+    "at": "1941-07-01T06:00",
+    "pos": "@borisov"
+   },
+   {
+    "at": "1941-07-05T12:00",
+    "pos": "@krupki"
+   },
+   {
+    "at": "1941-07-07T12:00",
+    "pos": "@tolochin"
+   },
+   {
+    "at": "1941-07-12T12:00",
+    "pos": "@kopys"
+   },
+   {
+    "at": "1941-07-15T12:00",
+    "pos": "@krasny"
+   },
+   {
+    "at": "1941-07-16T12:00",
+    "pos": "@smolensk"
+   }
+  ],
+  "sources": [
+   "glantz_derailed",
+   "center_wiki_smolensk",
+   "kirchubel_ag",
+   "center_guderian"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "r.de.xlvi_yelnya",
+  "side": "DE",
+  "unit": "de.10pz",
+  "style": "main",
+  "widthKm": 22,
+  "label": "XLVI 摩托化军：什克洛夫—叶利尼亚",
+  "waypoints": [
+   {
+    "at": "1941-07-11T12:00",
+    "pos": "@shklov"
+   },
+   {
+    "at": "1941-07-14T12:00",
+    "pos": "@gorki"
+   },
+   {
+    "at": "1941-07-18T12:00",
+    "pos": "@pochinok"
+   },
+   {
+    "at": "1941-07-20T12:00",
+    "pos": "@yelnya"
+   }
+  ],
+  "sources": [
+   "glantz_derailed",
+   "center_wiki_smolensk",
+   "kirchubel_ag",
+   "center_wiki_yelnya"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "r.de.xxxix_yartsevo",
+  "side": "DE",
+  "unit": "de.7pz",
+  "style": "main",
+  "widthKm": 25,
+  "label": "XXXIX 摩托化军：列佩利—维捷布斯克—亚尔采沃",
+  "waypoints": [
+   {
+    "at": "1941-07-03T12:00",
+    "pos": [
+     28.3,
+     54.3
+    ]
+   },
+   {
+    "at": "1941-07-04T12:00",
+    "pos": "@lepel"
+   },
+   {
+    "at": "1941-07-07T12:00",
+    "pos": "@ulla"
+   },
+   {
+    "at": "1941-07-09T20:00",
+    "pos": "@vitebsk"
+   },
+   {
+    "at": "1941-07-13T18:00",
+    "pos": "@demidov"
+   },
+   {
+    "at": "1941-07-15T20:00",
+    "pos": "@yartsevo"
+   }
+  ],
+  "sources": [
+   "glantz_derailed",
+   "center_wiki_smolensk",
+   "kirchubel_ag",
+   "center_hoth"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "r.de.lvii_nevel",
+  "side": "DE",
+  "unit": "de.19pz",
+  "style": "secondary",
+  "widthKm": 18,
+  "label": "LVII 摩托化军：季斯纳—涅韦尔—大卢基",
+  "waypoints": [
+   {
+    "at": "1941-07-03T12:00",
+    "pos": [
+     27.5,
+     55.1
+    ]
+   },
+   {
+    "at": "1941-07-06T12:00",
+    "pos": "@disna"
+   },
+   {
+    "at": "1941-07-13T12:00",
+    "pos": "@gorodok"
+   },
+   {
+    "at": "1941-07-16T12:00",
+    "pos": "@nevel"
+   },
+   {
+    "at": "1941-07-19T18:00",
+    "pos": "@velikie_luki"
+   }
+  ],
+  "sources": [
+   "glantz_derailed",
+   "center_wiki_smolensk",
+   "kirchubel_ag"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "r.de.roslavl",
+  "side": "DE",
+  "unit": "de.xxiv_mk",
+  "style": "secondary",
+  "widthKm": 18,
+  "label": "罗斯拉夫尔合围",
+  "waypoints": [
+   {
+    "at": "1941-07-30T12:00",
+    "pos": "@krichev"
+   },
+   {
+    "at": "1941-08-01T12:00",
+    "pos": [
+     32.4,
+     53.8
+    ]
+   },
+   {
+    "at": "1941-08-03T12:00",
+    "pos": "@roslavl"
+   }
+  ],
+  "sources": [
+   "glantz_derailed",
+   "center_wiki_smolensk",
+   "kirchubel_ag",
+   "center_guderian"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "r.de.lvii_vluki",
+  "side": "DE",
+  "unit": "de.lvii_mk",
+  "style": "main",
+  "widthKm": 22,
+  "label": "大卢基—托罗佩茨",
+  "waypoints": [
+   {
+    "at": "1941-08-21T12:00",
+    "pos": [
+     30.8,
+     55.85
+    ]
+   },
+   {
+    "at": "1941-08-24T12:00",
+    "pos": [
+     30.9,
+     56.1
+    ]
+   },
+   {
+    "at": "1941-08-26T12:00",
+    "pos": "@velikie_luki"
+   },
+   {
+    "at": "1941-08-29T12:00",
+    "pos": "@toropets"
+   }
+  ],
+  "sources": [
+   "glantz_derailed",
+   "center_wiki_smolensk",
+   "kirchubel_ag"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "r.de.gomel",
+  "side": "DE",
+  "unit": "de.xliii_ak",
+  "style": "secondary",
+  "widthKm": 18,
+  "label": "第 2 集团军攻占戈梅利",
+  "waypoints": [
+   {
+    "at": "1941-08-10T12:00",
+    "pos": "@zhlobin"
+   },
+   {
+    "at": "1941-08-15T12:00",
+    "pos": [
+     30.5,
+     52.6
+    ]
+   },
+   {
+    "at": "1941-08-19T12:00",
+    "pos": "@gomel"
+   }
+  ],
+  "sources": [
+   "glantz_derailed",
+   "center_wiki_smolensk",
+   "kirchubel_ag",
+   "center_wiki_rogachev"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "r.de.guderian_kiev",
+  "side": "DE",
+  "unit": "de.3pz",
+  "style": "main",
+  "widthKm": 32,
+  "label": "古德里安南下：德斯纳河—罗姆内—洛赫维察",
+  "waypoints": [
+   {
+    "at": "1941-08-22T12:00",
+    "pos": "@starodub"
+   },
+   {
+    "at": "1941-08-26T06:00",
+    "pos": "@novgorod_seversky"
+   },
+   {
+    "at": "1941-09-03T12:00",
+    "pos": [
+     33.25,
+     51.6
+    ]
+   },
+   {
+    "at": "1941-09-07T12:00",
+    "pos": "@konotop"
+   },
+   {
+    "at": "1941-09-10T06:00",
+    "pos": "@romny"
+   },
+   {
+    "at": "1941-09-14T18:00",
+    "pos": "@lokhvitsa"
+   }
+  ],
+  "sources": [
+   "stahel_kiev",
+   "center_wiki_kiev",
+   "center_guderian"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "r.de.xxxix_leningrad",
+  "side": "DE",
+  "unit": "de.xxxix_mk",
+  "style": "main",
+  "widthKm": 22,
+  "label": "XXXIX 摩托化军：丘多沃—柳班—姆加—什利谢利堡",
+  "waypoints": [
+   {
+    "at": "1941-08-19T12:00",
+    "pos": "@novgorod"
+   },
+   {
+    "at": "1941-08-21T12:00",
+    "pos": [
+     31.68,
+     59.1
+    ]
+   },
+   {
+    "at": "1941-08-26T12:00",
+    "pos": [
+     31.25,
+     59.35
+    ]
+   },
+   {
+    "at": "1941-08-30T12:00",
+    "pos": [
+     31.06,
+     59.75
+    ]
+   },
+   {
+    "at": "1941-09-08T12:00",
+    "pos": "@shlisselburg"
+   }
+  ],
+  "sources": [
+   "glantz_leningrad",
+   "center_wiki_18idmot"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "r.de.tikhvin",
+  "side": "DE",
+  "unit": "de.12pz",
+  "style": "main",
+  "widthKm": 22,
+  "label": "季赫温攻势",
+  "waypoints": [
+   {
+    "at": "1941-10-16T12:00",
+    "pos": [
+     31.9,
+     59.17
+    ]
+   },
+   {
+    "at": "1941-10-23T12:00",
+    "pos": [
+     32.47,
+     59.29
+    ]
+   },
+   {
+    "at": "1941-10-31T12:00",
+    "pos": [
+     33.05,
+     59.5
+    ]
+   },
+   {
+    "at": "1941-11-08T12:00",
+    "pos": "@tikhvin"
+   }
+  ],
+  "sources": [
+   "center_wiki_tikhvin",
+   "glantz_leningrad"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "r.de.typhoon_north",
+  "side": "DE",
+  "unit": "de.7pz",
+  "style": "main",
+  "widthKm": 30,
+  "label": "台风行动北钳：杜霍夫希纳—维亚济马",
+  "waypoints": [
+   {
+    "at": "1941-10-02T05:30",
+    "pos": [
+     32.6,
+     55.4
+    ]
+   },
+   {
+    "at": "1941-10-04T12:00",
+    "pos": "@kholm_zhirkovsky"
+   },
+   {
+    "at": "1941-10-06T12:00",
+    "pos": [
+     34.0,
+     55.4
+    ]
+   },
+   {
+    "at": "1941-10-07T10:00",
+    "pos": "@vyazma"
+   }
+  ],
+  "sources": [
+   "stahel_typhoon",
+   "center_wiki_vyazma",
+   "center_lopukhovsky",
+   "center_hoth"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "r.de.typhoon_south",
+  "side": "DE",
+  "unit": "de.10pz",
+  "style": "main",
+  "widthKm": 30,
+  "label": "台风行动南钳：罗斯拉夫尔公路—尤赫诺夫—维亚济马",
+  "waypoints": [
+   {
+    "at": "1941-10-02T05:30",
+    "pos": [
+     33.3,
+     54.25
+    ]
+   },
+   {
+    "at": "1941-10-04T12:00",
+    "pos": [
+     34.3,
+     54.45
+    ]
+   },
+   {
+    "at": "1941-10-05T18:00",
+    "pos": "@yukhnov"
+   },
+   {
+    "at": "1941-10-07T10:00",
+    "pos": "@vyazma"
+   }
+  ],
+  "sources": [
+   "stahel_typhoon",
+   "center_wiki_vyazma",
+   "center_lopukhovsky"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "r.de.mozhaisk",
+  "side": "DE",
+  "unit": "de.xl_mk",
+  "style": "secondary",
+  "widthKm": 22,
+  "label": "格扎茨克—博罗季诺—莫扎伊斯克",
+  "waypoints": [
+   {
+    "at": "1941-10-08T12:00",
+    "pos": "@vyazma"
+   },
+   {
+    "at": "1941-10-09T12:00",
+    "pos": "@gzhatsk"
+   },
+   {
+    "at": "1941-10-14T12:00",
+    "pos": "@borodino"
+   },
+   {
+    "at": "1941-10-18T12:00",
+    "pos": "@mozhaisk"
+   }
+  ],
+  "sources": [
+   "stahel_typhoon",
+   "center_wiki_vyazma",
+   "center_lopukhovsky",
+   "center_wiki_mozhaisk"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "r.de.maloyaroslavets",
+  "side": "DE",
+  "unit": "de.lvii_mk",
+  "style": "secondary",
+  "widthKm": 20,
+  "label": "LVII 摩托化军：尤赫诺夫—梅登—小雅罗斯拉韦茨",
+  "waypoints": [
+   {
+    "at": "1941-10-06T12:00",
+    "pos": [
+     34.5,
+     54.4
+    ]
+   },
+   {
+    "at": "1941-10-10T12:00",
+    "pos": "@yukhnov"
+   },
+   {
+    "at": "1941-10-14T12:00",
+    "pos": "@medyn"
+   },
+   {
+    "at": "1941-10-18T12:00",
+    "pos": "@maloyaroslavets"
+   }
+  ],
+  "sources": [
+   "stahel_typhoon",
+   "center_wiki_vyazma",
+   "center_lopukhovsky",
+   "center_wiki_mozhaisk"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "r.de.orel",
+  "side": "DE",
+  "unit": "de.4pz",
+  "style": "main",
+  "widthKm": 30,
+  "label": "古德里安：格卢霍夫—奥廖尔—姆岑斯克",
+  "waypoints": [
+   {
+    "at": "1941-09-30T05:00",
+    "pos": "@glukhov"
+   },
+   {
+    "at": "1941-10-01T18:00",
+    "pos": "@sevsk"
+   },
+   {
+    "at": "1941-10-02T18:00",
+    "pos": "@kromy"
+   },
+   {
+    "at": "1941-10-03T18:00",
+    "pos": "@orel"
+   },
+   {
+    "at": "1941-10-06T12:00",
+    "pos": [
+     36.35,
+     53.15
+    ]
+   },
+   {
+    "at": "1941-10-11T12:00",
+    "pos": "@mtsensk"
+   }
+  ],
+  "sources": [
+   "center_wiki_bryansk",
+   "center_wiki_mtsensk",
+   "center_guderian"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "r.de.bryansk",
+  "side": "DE",
+  "unit": "de.17pz",
+  "style": "main",
+  "widthKm": 22,
+  "label": "XLVII 摩托化军：德米特罗夫斯克—卡拉切夫—布良斯克",
+  "waypoints": [
+   {
+    "at": "1941-09-30T05:00",
+    "pos": [
+     33.85,
+     51.95
+    ]
+   },
+   {
+    "at": "1941-10-02T12:00",
+    "pos": [
+     34.4,
+     52.2
+    ]
+   },
+   {
+    "at": "1941-10-04T12:00",
+    "pos": "@dmitrovsk"
+   },
+   {
+    "at": "1941-10-05T18:00",
+    "pos": "@karachev"
+   },
+   {
+    "at": "1941-10-06T12:00",
+    "pos": "@bryansk"
+   }
+  ],
+  "sources": [
+   "center_wiki_bryansk",
+   "center_guderian"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "r.de.tula",
+  "side": "DE",
+  "unit": "de.xxiv_mk",
+  "style": "main",
+  "widthKm": 22,
+  "label": "埃伯巴赫战斗群：姆岑斯克—普拉夫斯克—图拉",
+  "waypoints": [
+   {
+    "at": "1941-10-23T12:00",
+    "pos": "@mtsensk"
+   },
+   {
+    "at": "1941-10-24T12:00",
+    "pos": "@chern"
+   },
+   {
+    "at": "1941-10-26T12:00",
+    "pos": "@plavsk"
+   },
+   {
+    "at": "1941-10-29T12:00",
+    "pos": "@yasnaya_polyana"
+   },
+   {
+    "at": "1941-10-30T12:00",
+    "pos": [
+     37.6,
+     54.13
+    ]
+   }
+  ],
+  "sources": [
+   "center_wiki_tula",
+   "center_guderian"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "r.de.klin_yakhroma",
+  "side": "DE",
+  "unit": "de.7pz",
+  "style": "main",
+  "widthKm": 22,
+  "label": "第 3 装甲集群：克林—罗加乔沃—亚赫罗马",
+  "waypoints": [
+   {
+    "at": "1941-11-15T06:00",
+    "pos": [
+     35.9,
+     56.4
+    ]
+   },
+   {
+    "at": "1941-11-20T12:00",
+    "pos": [
+     36.4,
+     56.4
+    ]
+   },
+   {
+    "at": "1941-11-23T12:00",
+    "pos": "@klin"
+   },
+   {
+    "at": "1941-11-26T12:00",
+    "pos": [
+     37.1,
+     56.43
+    ]
+   },
+   {
+    "at": "1941-11-28T06:00",
+    "pos": "@yakhroma"
+   }
+  ],
+  "sources": [
+   "center_shaposhnikov_moscow",
+   "stahel_moscow",
+   "center_wiki_klin"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "r.de.krasnaya_polyana",
+  "side": "DE",
+  "unit": "de.2pz",
+  "style": "main",
+  "widthKm": 22,
+  "label": "第 4 装甲集群：索尔涅奇诺戈尔斯克—红波利亚纳",
+  "waypoints": [
+   {
+    "at": "1941-11-16T06:00",
+    "pos": [
+     36.1,
+     55.98
+    ]
+   },
+   {
+    "at": "1941-11-21T12:00",
+    "pos": [
+     36.5,
+     56.1
+    ]
+   },
+   {
+    "at": "1941-11-24T12:00",
+    "pos": "@solnechnogorsk"
+   },
+   {
+    "at": "1941-11-28T12:00",
+    "pos": [
+     37.3,
+     56.05
+    ]
+   },
+   {
+    "at": "1941-11-30T18:00",
+    "pos": "@krasnaya_polyana"
+   }
+  ],
+  "sources": [
+   "center_shaposhnikov_moscow",
+   "stahel_moscow",
+   "center_wiki_klin"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "r.de.istra",
+  "side": "DE",
+  "unit": "de.ss_reich",
+  "style": "secondary",
+  "widthKm": 18,
+  "label": "鲁扎—伊斯特拉—列宁诺",
+  "waypoints": [
+   {
+    "at": "1941-11-16T12:00",
+    "pos": [
+     36.4,
+     55.8
+    ]
+   },
+   {
+    "at": "1941-11-23T12:00",
+    "pos": [
+     36.7,
+     55.88
+    ]
+   },
+   {
+    "at": "1941-11-27T12:00",
+    "pos": "@istra"
+   },
+   {
+    "at": "1941-12-02T12:00",
+    "pos": [
+     37.05,
+     55.88
+    ]
+   }
+  ],
+  "sources": [
+   "center_shaposhnikov_moscow",
+   "stahel_moscow"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "r.de.kashira",
+  "side": "DE",
+  "unit": "de.17pz",
+  "style": "main",
+  "widthKm": 22,
+  "label": "第 2 装甲集团军：绕过图拉指向卡希拉",
+  "waypoints": [
+   {
+    "at": "1941-11-18T12:00",
+    "pos": [
+     37.8,
+     53.85
+    ]
+   },
+   {
+    "at": "1941-11-21T16:00",
+    "pos": [
+     38.15,
+     53.97
+    ]
+   },
+   {
+    "at": "1941-11-24T12:00",
+    "pos": [
+     38.35,
+     54.35
+    ]
+   },
+   {
+    "at": "1941-11-25T18:00",
+    "pos": [
+     38.15,
+     54.78
+    ]
+   }
+  ],
+  "sources": [
+   "center_wiki_tula",
+   "center_guderian"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "r.de.naro_fominsk",
+  "side": "DE",
+  "unit": "de.258id",
+  "style": "secondary",
+  "widthKm": 14,
+  "label": "纳罗-福明斯克突击",
+  "waypoints": [
+   {
+    "at": "1941-12-01T06:00",
+    "pos": "@naro_fominsk"
+   },
+   {
+    "at": "1941-12-02T12:00",
+    "pos": [
+     36.95,
+     55.55
+    ]
+   }
+  ],
+  "sources": [
+   "center_shaposhnikov_moscow",
+   "stahel_moscow"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "r.su.boldin_grodno",
+  "side": "SU",
+  "unit": "su.6mk",
+  "style": "counter",
+  "widthKm": 22,
+  "label": "博尔金集群反突击格罗德诺",
+  "waypoints": [
+   {
+    "at": "1941-06-23T06:00",
+    "pos": [
+     23.4,
+     53.25
+    ]
+   },
+   {
+    "at": "1941-06-24T12:00",
+    "pos": [
+     23.65,
+     53.5
+    ]
+   },
+   {
+    "at": "1941-06-25T12:00",
+    "pos": [
+     23.75,
+     53.55
+    ]
+   }
+  ],
+  "sources": [
+   "glantz_initial",
+   "center_wiki_bialystok",
+   "kirchubel_ag",
+   "center_boldin"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "r.su.10a_breakout",
+  "side": "SU",
+  "unit": "su.10a",
+  "style": "breakout",
+  "widthKm": 25,
+  "label": "第 10 集团军向斯洛尼姆突围",
+  "waypoints": [
+   {
+    "at": "1941-06-26T12:00",
+    "pos": [
+     23.8,
+     53.2
+    ]
+   },
+   {
+    "at": "1941-06-28T12:00",
+    "pos": [
+     24.6,
+     53.2
+    ]
+   },
+   {
+    "at": "1941-06-30T12:00",
+    "pos": "@zelva"
+   },
+   {
+    "at": "1941-07-02T12:00",
+    "pos": [
+     25.2,
+     53.15
+    ]
+   }
+  ],
+  "sources": [
+   "glantz_initial",
+   "center_wiki_bialystok",
+   "kirchubel_ag"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "r.su.lepel_5mk",
+  "side": "SU",
+  "unit": "su.5mk",
+  "style": "counter",
+  "widthKm": 22,
+  "label": "列佩利反突击：第 5 机械化军",
+  "waypoints": [
+   {
+    "at": "1941-07-06T06:00",
+    "pos": [
+     30.4,
+     54.5
+    ]
+   },
+   {
+    "at": "1941-07-07T12:00",
+    "pos": [
+     30.0,
+     54.65
+    ]
+   },
+   {
+    "at": "1941-07-08T12:00",
+    "pos": "@senno"
+   }
+  ],
+  "sources": [
+   "glantz_derailed",
+   "center_wiki_smolensk",
+   "kirchubel_ag",
+   "center_wiki_lepel"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "r.su.lepel_7mk",
+  "side": "SU",
+  "unit": "su.7mk",
+  "style": "counter",
+  "widthKm": 22,
+  "label": "列佩利反突击：第 7 机械化军",
+  "waypoints": [
+   {
+    "at": "1941-07-06T06:00",
+    "pos": [
+     30.1,
+     54.85
+    ]
+   },
+   {
+    "at": "1941-07-07T12:00",
+    "pos": [
+     29.7,
+     54.95
+    ]
+   },
+   {
+    "at": "1941-07-08T12:00",
+    "pos": "@beshenkovichi"
+   }
+  ],
+  "sources": [
+   "glantz_derailed",
+   "center_wiki_smolensk",
+   "kirchubel_ag",
+   "center_wiki_lepel"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "r.su.vitebsk",
+  "side": "SU",
+  "unit": "su.19a",
+  "style": "counter",
+  "widthKm": 18,
+  "label": "第 19 集团军反攻维捷布斯克",
+  "waypoints": [
+   {
+    "at": "1941-07-11T06:00",
+    "pos": [
+     30.55,
+     55.05
+    ]
+   },
+   {
+    "at": "1941-07-12T12:00",
+    "pos": [
+     30.35,
+     55.12
+    ]
+   },
+   {
+    "at": "1941-07-13T12:00",
+    "pos": [
+     30.25,
+     55.17
+    ]
+   }
+  ],
+  "sources": [
+   "glantz_derailed",
+   "center_wiki_smolensk",
+   "kirchubel_ag"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "r.su.rogachev",
+  "side": "SU",
+  "unit": "su.63sk",
+  "style": "counter",
+  "widthKm": 22,
+  "label": "罗加乔夫—日洛宾反攻",
+  "waypoints": [
+   {
+    "at": "1941-07-13T03:00",
+    "pos": [
+     30.2,
+     52.95
+    ]
+   },
+   {
+    "at": "1941-07-14T12:00",
+    "pos": "@rogachev"
+   },
+   {
+    "at": "1941-07-17T12:00",
+    "pos": [
+     29.8,
+     53.1
+    ]
+   },
+   {
+    "at": "1941-07-20T12:00",
+    "pos": [
+     29.6,
+     53.12
+    ]
+   }
+  ],
+  "sources": [
+   "center_wiki_rogachev",
+   "glantz_derailed"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "r.su.kachalov",
+  "side": "SU",
+  "unit": "su.28a",
+  "style": "counter",
+  "widthKm": 22,
+  "label": "卡恰洛夫集群向斯摩棱斯克突击",
+  "waypoints": [
+   {
+    "at": "1941-07-23T06:00",
+    "pos": [
+     32.9,
+     54.0
+    ]
+   },
+   {
+    "at": "1941-07-25T12:00",
+    "pos": [
+     32.7,
+     54.15
+    ]
+   },
+   {
+    "at": "1941-07-28T12:00",
+    "pos": "@pochinok"
+   }
+  ],
+  "sources": [
+   "glantz_derailed",
+   "center_wiki_smolensk",
+   "kirchubel_ag"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "r.su.khomenko",
+  "side": "SU",
+  "unit": "su.30a",
+  "style": "counter",
+  "widthKm": 20,
+  "label": "霍缅科集群向杜霍夫希纳反突击",
+  "waypoints": [
+   {
+    "at": "1941-07-24T06:00",
+    "pos": [
+     32.5,
+     55.7
+    ]
+   },
+   {
+    "at": "1941-07-27T12:00",
+    "pos": [
+     32.3,
+     55.45
+    ]
+   },
+   {
+    "at": "1941-08-01T12:00",
+    "pos": [
+     32.3,
+     55.35
+    ]
+   }
+  ],
+  "sources": [
+   "glantz_derailed",
+   "center_wiki_smolensk",
+   "kirchubel_ag"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "r.su.smolensk_breakout",
+  "side": "SU",
+  "unit": "su.20a",
+  "style": "breakout",
+  "widthKm": 20,
+  "label": "第 16、第 20 集团军经索洛维约沃渡口突围",
+  "waypoints": [
+   {
+    "at": "1941-08-01T12:00",
+    "pos": [
+     32.3,
+     54.85
+    ]
+   },
+   {
+    "at": "1941-08-03T12:00",
+    "pos": [
+     32.6,
+     54.9
+    ]
+   },
+   {
+    "at": "1941-08-04T12:00",
+    "pos": "@solovyevo"
+   },
+   {
+    "at": "1941-08-05T12:00",
+    "pos": [
+     32.95,
+     54.95
+    ]
+   }
+  ],
+  "sources": [
+   "glantz_derailed",
+   "center_wiki_smolensk",
+   "kirchubel_ag",
+   "center_rokossovsky"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "r.su.dukhovshchina",
+  "side": "SU",
+  "unit": "su.19a",
+  "style": "counter",
+  "widthKm": 22,
+  "label": "杜霍夫希纳进攻",
+  "waypoints": [
+   {
+    "at": "1941-08-17T06:00",
+    "pos": [
+     32.65,
+     55.25
+    ]
+   },
+   {
+    "at": "1941-08-22T12:00",
+    "pos": [
+     32.45,
+     55.22
+    ]
+   },
+   {
+    "at": "1941-09-08T12:00",
+    "pos": [
+     32.4,
+     55.22
+    ]
+   }
+  ],
+  "sources": [
+   "glantz_derailed",
+   "center_wiki_smolensk",
+   "kirchubel_ag"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "r.su.yelnya_north",
+  "side": "SU",
+  "unit": "su.100sd",
+  "style": "counter",
+  "widthKm": 18,
+  "label": "叶利尼亚攻势：北钳",
+  "waypoints": [
+   {
+    "at": "1941-08-30T06:00",
+    "pos": [
+     33.15,
+     54.68
+    ]
+   },
+   {
+    "at": "1941-09-03T12:00",
+    "pos": [
+     33.05,
+     54.62
+    ]
+   },
+   {
+    "at": "1941-09-05T12:00",
+    "pos": [
+     33.0,
+     54.57
+    ]
+   }
+  ],
+  "sources": [
+   "center_wiki_yelnya",
+   "center_zhukov"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "r.su.yelnya_south",
+  "side": "SU",
+  "unit": "su.24a",
+  "style": "counter",
+  "widthKm": 18,
+  "label": "叶利尼亚攻势：南钳",
+  "waypoints": [
+   {
+    "at": "1941-08-30T06:00",
+    "pos": [
+     33.35,
+     54.5
+    ]
+   },
+   {
+    "at": "1941-09-03T12:00",
+    "pos": [
+     33.15,
+     54.5
+    ]
+   },
+   {
+    "at": "1941-09-06T12:00",
+    "pos": "@yelnya"
+   }
+  ],
+  "sources": [
+   "center_wiki_yelnya",
+   "center_zhukov"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "r.su.bryansk_counter",
+  "side": "SU",
+  "unit": "su.108td",
+  "style": "counter",
+  "widthKm": 20,
+  "label": "布良斯克方面军：罗斯拉夫尔—新济布科夫进攻",
+  "waypoints": [
+   {
+    "at": "1941-08-30T06:00",
+    "pos": [
+     33.6,
+     53.35
+    ]
+   },
+   {
+    "at": "1941-09-02T12:00",
+    "pos": [
+     33.35,
+     53.15
+    ]
+   },
+   {
+    "at": "1941-09-06T12:00",
+    "pos": [
+     33.4,
+     53.05
+    ]
+   }
+  ],
+  "sources": [
+   "center_eremenko",
+   "stahel_kiev"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "r.su.kholm_zhirkovsky",
+  "side": "SU",
+  "unit": "su.og_boldin",
+  "style": "counter",
+  "widthKm": 18,
+  "label": "博尔金集群在霍尔姆-日尔科夫斯基反突击",
+  "waypoints": [
+   {
+    "at": "1941-10-03T06:00",
+    "pos": [
+     33.75,
+     55.45
+    ]
+   },
+   {
+    "at": "1941-10-04T12:00",
+    "pos": [
+     33.55,
+     55.45
+    ]
+   },
+   {
+    "at": "1941-10-05T12:00",
+    "pos": "@kholm_zhirkovsky"
+   }
+  ],
+  "sources": [
+   "stahel_typhoon",
+   "center_wiki_vyazma",
+   "center_lopukhovsky",
+   "center_boldin"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "r.su.vyazma_breakout",
+  "side": "SU",
+  "unit": "su.19a",
+  "style": "breakout",
+  "widthKm": 18,
+  "label": "卢金集群在维亚济马以北突围",
+  "waypoints": [
+   {
+    "at": "1941-10-10T18:00",
+    "pos": [
+     34.0,
+     55.2
+    ]
+   },
+   {
+    "at": "1941-10-11T12:00",
+    "pos": [
+     34.1,
+     55.3
+    ]
+   },
+   {
+    "at": "1941-10-12T12:00",
+    "pos": [
+     34.3,
+     55.45
+    ]
+   }
+  ],
+  "sources": [
+   "stahel_typhoon",
+   "center_wiki_vyazma",
+   "center_lopukhovsky"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "r.su.3a_breakout",
+  "side": "SU",
+  "unit": "su.3a",
+  "style": "breakout",
+  "widthKm": 20,
+  "label": "第 3 集团军由特鲁布切夫斯克突围",
+  "waypoints": [
+   {
+    "at": "1941-10-08T22:00",
+    "pos": "@trubchevsk"
+   },
+   {
+    "at": "1941-10-15T12:00",
+    "pos": [
+     34.4,
+     52.4
+    ]
+   },
+   {
+    "at": "1941-10-22T12:00",
+    "pos": [
+     35.3,
+     52.45
+    ]
+   },
+   {
+    "at": "1941-10-27T12:00",
+    "pos": [
+     36.0,
+     52.5
+    ]
+   }
+  ],
+  "sources": [
+   "center_wiki_bryansk",
+   "boe_1941"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "r.su.50a_breakout",
+  "side": "SU",
+  "unit": "su.50a",
+  "style": "breakout",
+  "widthKm": 20,
+  "label": "第 50 集团军向别廖夫突围",
+  "waypoints": [
+   {
+    "at": "1941-10-10T12:00",
+    "pos": [
+     34.6,
+     53.4
+    ]
+   },
+   {
+    "at": "1941-10-16T12:00",
+    "pos": [
+     35.2,
+     53.5
+    ]
+   },
+   {
+    "at": "1941-10-20T12:00",
+    "pos": [
+     35.6,
+     53.6
+    ]
+   },
+   {
+    "at": "1941-10-24T12:00",
+    "pos": "@belyov"
+   }
+  ],
+  "sources": [
+   "center_wiki_bryansk",
+   "boe_1941"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "r.su.13a_breakout",
+  "side": "SU",
+  "unit": "su.13a",
+  "style": "breakout",
+  "widthKm": 18,
+  "label": "第 13 集团军由谢夫斯克方向突围",
+  "waypoints": [
+   {
+    "at": "1941-10-07T12:00",
+    "pos": [
+     34.5,
+     52.3
+    ]
+   },
+   {
+    "at": "1941-10-12T12:00",
+    "pos": [
+     35.0,
+     52.2
+    ]
+   },
+   {
+    "at": "1941-10-18T12:00",
+    "pos": [
+     36.0,
+     52.2
+    ]
+   }
+  ],
+  "sources": [
+   "center_wiki_bryansk",
+   "boe_1941"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "r.su.kalinin_raid",
+  "side": "SU",
+  "unit": "su.21tbr",
+  "style": "counter",
+  "widthKm": 10,
+  "label": "第 21 坦克旅突袭加里宁",
+  "waypoints": [
+   {
+    "at": "1941-10-17T04:00",
+    "pos": [
+     36.1,
+     56.95
+    ]
+   },
+   {
+    "at": "1941-10-17T10:00",
+    "pos": "@kalinin"
+   },
+   {
+    "at": "1941-10-17T18:00",
+    "pos": [
+     35.8,
+     56.85
+    ]
+   }
+  ],
+  "sources": [
+   "center_wiki_kalinin"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "r.su.kashira",
+  "side": "SU",
+  "unit": "su.2kk",
+  "style": "counter",
+  "widthKm": 18,
+  "label": "别洛夫骑兵军卡希拉反击",
+  "waypoints": [
+   {
+    "at": "1941-11-27T06:00",
+    "pos": [
+     38.15,
+     54.82
+    ]
+   },
+   {
+    "at": "1941-11-28T12:00",
+    "pos": [
+     38.2,
+     54.7
+    ]
+   },
+   {
+    "at": "1941-11-30T12:00",
+    "pos": [
+     38.28,
+     54.58
+    ]
+   }
+  ],
+  "sources": [
+   "center_belov",
+   "center_wiki_tula"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "r.su.yakhroma",
+  "side": "SU",
+  "unit": "su.1ua",
+  "style": "counter",
+  "widthKm": 16,
+  "label": "第 1 突击集团军在亚赫罗马反击",
+  "waypoints": [
+   {
+    "at": "1941-11-29T06:00",
+    "pos": [
+     37.65,
+     56.32
+    ]
+   },
+   {
+    "at": "1941-11-29T18:00",
+    "pos": "@yakhroma"
+   },
+   {
+    "at": "1941-11-30T12:00",
+    "pos": [
+     37.38,
+     56.3
+    ]
+   }
+  ],
+  "sources": [
+   "center_shaposhnikov_moscow",
+   "stahel_moscow",
+   "center_wiki_klin"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "r.su.kalinin_offensive",
+  "side": "SU",
+  "unit": "su.31a",
+  "style": "counter",
+  "widthKm": 18,
+  "label": "加里宁方面军反攻：第 31 集团军渡伏尔加河",
+  "waypoints": [
+   {
+    "at": "1941-12-05T03:00",
+    "pos": [
+     36.1,
+     56.8
+    ]
+   },
+   {
+    "at": "1941-12-05T23:00",
+    "pos": [
+     35.98,
+     56.74
+    ]
+   }
+  ],
+  "sources": [
+   "center_shaposhnikov_moscow",
+   "stahel_moscow",
+   "center_wiki_kalinin"
+  ],
+  "confidence": "medium"
+ }
+]

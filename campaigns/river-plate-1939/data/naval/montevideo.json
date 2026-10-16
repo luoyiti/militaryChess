@@ -1,0 +1,188 @@
+{
+ "signals": [
+  {
+   "id": "sig.uy_48h",
+   "at": "1939-12-14T13:00",
+   "from": "乌拉圭海事当局",
+   "to": "de.graf_spee",
+   "kind": "diplomatic",
+   "text": "[Uruguayan maritime authorities: 48 hours permitted, extendable for repairs]",
+   "zh": "乌拉圭海事当局口头准许停留 48 小时，可因修理延长；朗斯多夫要求 14 天。",
+   "sources": [
+    "frus_1939_v5"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "sig.harwood_delay",
+   "at": "1939-12-14T18:00",
+   "from": "gb.ajax",
+   "to": "英国公使",
+   "kind": "diplomatic",
+   "text": "[To British Minister: delay Graf Spee's departure by every means — sail British ships, invoke the 24-hour rule]",
+   "zh": "哈伍德请英国公使米林顿-德雷克用一切办法拖延施佩伯爵号出港：让英国商船出港，援引「24 小时规则」。",
+   "sources": [
+    "harwood_despatch"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "sig.uy_72h",
+   "at": "1939-12-15T12:00",
+   "from": "乌拉圭政府",
+   "to": "de.graf_spee",
+   "kind": "diplomatic",
+   "text": "[Uruguay extends the stay to 72 hours — to expire 20:00 local time, 17 December]",
+   "zh": "乌拉圭政府把停留期延长到 72 小时，至 17 日当地时间 20:00 届满，否则拘留。",
+   "sources": [
+    "harwood_despatch",
+    "frus_1939_v5"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "sig.harwood_object",
+   "at": "1939-12-15T11:35",
+   "from": "gb.ajax",
+   "kind": "order",
+   "text": "My object destruction.",
+   "zh": "我的目标：歼灭。——哈伍德致各舰的方针电（时间组 1135/15）：坎伯兰号白天在蒙得维的亚外显露身影。",
+   "sources": [
+    "harwood_despatch"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "sig.langsdorff_skl",
+   "at": "1939-12-16T02:00",
+   "from": "de.graf_spee",
+   "to": "de.skl",
+   "kind": "radio",
+   "text": "Strategic position off Montevideo: besides the cruisers and destroyers, Ark Royal and Renown. Close blockade at night. Escape into open sea and break-through to home waters hopeless.",
+   "zh": "蒙得维的亚外的态势：除巡洋舰与驱逐舰外还有皇家方舟号与声望号，夜间严密封锁，冲向大洋、突破回国无望。拟驶到中立水域边界，若能以剩余弹药打出一条路就去布宜诺斯艾利斯。请决定：河口水浅仍应自沉，还是宁可被拘留？",
+   "sources": [
+    "fuehrer_conf_161239"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "sig.adm_0219",
+   "at": "1939-12-16T02:19",
+   "from": "gb.admiralty",
+   "to": "gb.ajax",
+   "kind": "order",
+   "text": "[You may engage Graf Spee anywhere outside the three-mile limit]",
+   "zh": "海军部 0219/16：可在三海里领海线以外的任何地点与施佩伯爵号交战。",
+   "sources": [
+    "harwood_despatch"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "sig.raeder_1347",
+   "at": "1939-12-16T14:07",
+   "from": "de.skl",
+   "to": "de.graf_spee",
+   "kind": "radio",
+   "text": "1. Attempt by all means to extend the time in neutral waters in order to guarantee freedom of action as long as possible. 2. Approved: Fight your way through to Buenos Aires if possible. 3. No internment in Uruguay. Attempt effective destruction if ship is scuttled.",
+   "zh": "一、尽一切办法延长在中立水域的时间，以尽可能保持行动自由。二、同意：如有可能，杀出一条路去布宜诺斯艾利斯。三、不得在乌拉圭被拘留。若自沉，务求彻底破坏。——雷德尔（无线电 1347/16，柏林时间 17:07）",
+   "sources": [
+    "fuehrer_conf_161239"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "sig.harwood_kcb",
+   "at": "1939-12-16T18:30",
+   "from": "gb.admiralty",
+   "to": "gb.ajax",
+   "kind": "signal",
+   "text": "[His Majesty has been graciously pleased to appoint Commodore Harwood KCB and promote him Rear-Admiral; Captains Bell, Woodhouse and Parry CB]",
+   "zh": "国王授予哈伍德巴斯勋章（KCB）并晋升海军少将（自 13 日起），贝尔、伍德豪斯、帕里三位舰长获 CB 勋位。哈伍德当晚通报各舰。",
+   "sources": [
+    "harwood_despatch"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "sig.raeder_2239",
+   "at": "1939-12-16T21:40",
+   "from": "de.skl",
+   "to": "de.graf_spee",
+   "kind": "radio",
+   "text": "As Envoy reports impossibility of extending time limit, instructions 2 and 3 of radiogram 1347/16 remain in force.",
+   "zh": "公使报告无法延长期限，故 1347/16 号电第二、三项继续有效。（无线电 2239/16，柏林时间 17 日 00:40）",
+   "sources": [
+    "fuehrer_conf_161239"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "sig.tacoma_transfer",
+   "at": "1939-12-17T15:40",
+   "from": "岸上情报",
+   "to": "gb.ajax",
+   "kind": "report",
+   "text": "[Report from shore: Graf Spee transferring 300–400 men to German ship Tacoma]",
+   "zh": "岸上报告：施佩伯爵号正把三四百人转到德国货轮塔科马号上；17:20 又报已转移 700 余人及行李。",
+   "sources": [
+    "harwood_despatch"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "sig.gs_sailing",
+   "at": "1939-12-17T19:15",
+   "from": "岸上情报",
+   "to": "gb.ajax",
+   "kind": "report",
+   "text": "[Graf Spee left harbour, proceeding west; Tacoma following]",
+   "zh": "施佩伯爵号出港西行，塔科马号跟随。分舰队以 25 节驶向惠斯尔浮标，各舰进入战位。",
+   "sources": [
+    "harwood_despatch",
+    "wiki_de_ags"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "sig.ajax_blown",
+   "at": "1939-12-17T20:54",
+   "from": "gb.ajax",
+   "to": "gb.ajax",
+   "kind": "report",
+   "text": "Graf Spee has blown herself up.",
+   "zh": "施佩伯爵号已经自爆。——阿贾克斯号飞机报告（当地时间 19:54）。",
+   "sources": [
+    "harwood_despatch",
+    "frus_1939_v5"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "sig.langsdorff_log",
+   "at": "1939-12-17T21:00",
+   "from": "de.graf_spee",
+   "kind": "signal",
+   "text": "[Log entry: Admiral Graf Spee decommissioned 17 December 1939, 20:00]",
+   "zh": "朗斯多夫令记入航海日志：「施佩伯爵海军上将号于 1939 年 12 月 17 日 20:00 退役。」",
+   "sources": [
+    "hmsajax_langsdorff"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "sig.langsdorff_letter",
+   "at": "1939-12-20T02:00",
+   "from": "朗斯多夫",
+   "to": "德国驻阿根廷大使",
+   "kind": "diplomatic",
+   "text": "[Letter to the German Ambassador, Buenos Aires, dated 19 Dec: he alone bears responsibility for the scuttling and will prove by his death that the fighting services of the Third Reich are ready to die for the honour of the flag]",
+   "zh": "朗斯多夫留给驻阿根廷大使的信：自沉的责任由他一人承担，他将以死证明德国军人愿为军旗的荣誉而死。随后在布宜诺斯艾利斯的寓所中自杀。",
+   "sources": [
+    "wiki_en_langsdorff",
+    "time_1940"
+   ],
+   "confidence": "medium"
+  }
+ ]
+}

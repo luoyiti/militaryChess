@@ -9,7 +9,8 @@ export interface PhotoMeta { src: string; w: number; h: number; title?: string; 
 let photoIndex: Record<string, PhotoMeta> | null = null;
 export async function loadPhotoIndex(): Promise<Record<string, PhotoMeta>> {
   if (photoIndex) return photoIndex;
-  try { photoIndex = await fetch('photos/index.json').then((r) => r.json()); } catch { photoIndex = {}; }
+  try { photoIndex = await fetch('photos/index.json').then((r) => { if (!r.ok) throw new Error(String(r.status)); return r.json(); }); } catch (error) { console.warn('照片索引加载失败', error); photoIndex = {}; }
+  window.dispatchEvent(new Event('photos-ready'));
   return photoIndex!;
 }
 export function photoFor(commons?: string): PhotoMeta | null {

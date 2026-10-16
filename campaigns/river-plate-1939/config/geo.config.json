@@ -1,0 +1,366 @@
+{
+  "_doc": "地理管线参数（sh tools/geo/run.sh <id>）。frame 段决定投影与画布，改动后需重新生成全部地图资产并核对已有坐标。本战役是第一个海战战役：frame 为南大西洋全幅（南半球圆锥，两条标准纬线夹住战场与好望角），sea 段启用水深设色与等深线，dem.insets 为拉普拉塔河口补充高精度水深。",
+  "frame": {
+    "bbox": [
+      -70,
+      -56,
+      40,
+      16
+    ],
+    "parallels": [
+      -8,
+      -42
+    ],
+    "rotate": [
+      15,
+      0
+    ],
+    "center": [
+      0,
+      -20
+    ],
+    "width": 8192,
+    "tileLevels": [
+      1024,
+      2048,
+      4096,
+      8192
+    ],
+    "fieldCell": 16,
+    "clampKm": 60,
+    "kmProbe": [
+      -55,
+      -35
+    ],
+    "_doc": "bbox 70°W–40°E、56°S–16°N；标准纬线 8°S、42°S（战场 35°S 与好望角 34°S 处比例误差<1%，北缘 16°N 放大约 28%、南缘 56°S 约 16%）；中央经线 15°W。南半球圆锥：纬线向上弓起，画布上缘左右两角为空角（落在 bbox 之外）。"
+  },
+  "borders": {
+    "source": "world_1938",
+    "ids": {
+      "Germany": "DE",
+      "United Kingdom": "GB",
+      "New Zealand": "NZ",
+      "France": "FR",
+      "Uruguay": "UY",
+      "Argentina": "AR",
+      "Brazil": "BR",
+      "Paraguay": "PY",
+      "Bolivia": "BO",
+      "Chile": "CL",
+      "Peru": "PE",
+      "Venezuela": "VE",
+      "Colombia": "CO",
+      "Ecuador": "EC",
+      "Guyana": "GY",
+      "Suriname": "SUR",
+      "French Guiana": "GF",
+      "Union of South Africa": "ZA",
+      "Angola (Portugal)": "AO",
+      "Mozambique (Portugal)": "MZ",
+      "French West Africa": "AOF",
+      "French Equatorial Africa": "AEF",
+      "French Cameroons": "CMF",
+      "Belgian Congo": "BCG",
+      "Rwanda (Belgium)": "RU",
+      "Sierra Leone": "SL",
+      "Gold Coast": "GC",
+      "Nigeria": "NG",
+      "Liberia": "LR",
+      "Guinea-Bissau": "PTG",
+      "Gambia, The": "GM",
+      "Togo": "TG",
+      "Equatorial Guinea": "GQ",
+      "Tanzania, United Republic of": "TZ",
+      "Kenya": "KE",
+      "Uganda": "UG",
+      "Northern Rhodesia": "NRH",
+      "Southern Rhodesia": "SRH",
+      "Malawi": "NYA",
+      "Botswana": "BEC",
+      "Lesotho": "BAS",
+      "Swaziland": "SWZ",
+      "Sudan": "SD",
+      "Ethiopia (Italy)": "IEA",
+      "Madagascar (France)": "MG",
+      "Saudi Arabia": "SA",
+      "Trinidad": "TT",
+      "Netherlands Antilles": "ANT",
+      "Dominica": "DM",
+      "Martinique": "MQ",
+      "Saint Lucia": "LC",
+      "Barbados": "BB",
+      "Grenada": "GD",
+      "Saint Vincent and the Grenadines": "VC"
+    },
+    "zh": {
+      "DE": "德国",
+      "GB": "英国",
+      "NZ": "新西兰",
+      "FR": "法国",
+      "UY": "乌拉圭",
+      "AR": "阿根廷",
+      "BR": "巴西",
+      "PY": "巴拉圭",
+      "BO": "玻利维亚",
+      "CL": "智利",
+      "PE": "秘鲁",
+      "VE": "委内瑞拉",
+      "CO": "哥伦比亚",
+      "EC": "厄瓜多尔",
+      "GY": "英属圭亚那",
+      "SUR": "荷属苏里南",
+      "GF": "法属圭亚那",
+      "ZA": "南非联邦",
+      "SWA": "西南非洲（南非托管）",
+      "AO": "葡属安哥拉",
+      "MZ": "葡属莫桑比克",
+      "AOF": "法属西非",
+      "AEF": "法属赤道非洲",
+      "CMF": "法属喀麦隆",
+      "BCG": "比属刚果",
+      "RU": "卢安达-乌隆迪（比）",
+      "SL": "塞拉利昂（英）",
+      "GC": "黄金海岸（英）",
+      "NG": "尼日利亚（英）",
+      "LR": "利比里亚",
+      "PTG": "葡属几内亚",
+      "GM": "冈比亚（英）",
+      "TG": "多哥（托管地）",
+      "GQ": "西属几内亚",
+      "TZ": "坦噶尼喀（英）",
+      "KE": "肯尼亚（英）",
+      "UG": "乌干达（英）",
+      "NRH": "北罗得西亚（英）",
+      "SRH": "南罗得西亚（英）",
+      "NYA": "尼亚萨兰（英）",
+      "BEC": "贝专纳兰（英）",
+      "BAS": "巴苏陀兰（英）",
+      "SWZ": "斯威士兰（英）",
+      "SD": "英埃苏丹",
+      "IEA": "意属东非",
+      "MG": "马达加斯加（法）",
+      "SA": "沙特阿拉伯",
+      "TT": "特立尼达（英）",
+      "ANT": "荷属安的列斯",
+      "DM": "多米尼克（英）",
+      "MQ": "法属马提尼克",
+      "LC": "圣卢西亚（英）",
+      "BB": "巴巴多斯（英）",
+      "GD": "格林纳达（英）",
+      "VC": "圣文森特（英）",
+      "FK": "福克兰群岛（英）",
+      "SG": "南乔治亚（英）",
+      "SH": "圣赫勒拿·阿森松·特里斯坦达库尼亚（英）",
+      "CV": "葡属佛得角",
+      "ST": "葡属圣多美和普林西比",
+      "MU": "毛里求斯（英）",
+      "KM": "科摩罗（法）"
+    },
+    "merge": {
+      "Union of South Africa": [
+        "Walbis Bay"
+      ],
+      "French Equatorial Africa": [
+        "Congo (France)"
+      ],
+      "Ethiopia (Italy)": [
+        "Eritrea (Italy)",
+        "Italian Somaliland"
+      ],
+      "Rwanda (Belgium)": [
+        "Burundi"
+      ]
+    },
+    "_doc": "1938 年国界（historical-basemaps world_1938）。carve：从南非联邦切出西南非洲托管地；ne：1938 数据里没有的岛屿（福克兰、南乔治亚、圣赫勒拿等）取自 Natural Earth；merge：并入同一宗主国的飞地与分区。",
+    "carve": [
+      {
+        "from": "Union of South Africa",
+        "ne": "Namibia",
+        "id": "SWA",
+        "zh": "西南非洲（南非托管）"
+      }
+    ],
+    "ne": {
+      "Falkland Islands": "FK",
+      "South Georgia and the Islands": "SG",
+      "Saint Helena": "SH",
+      "Cabo Verde": "CV",
+      "São Tomé and Principe": "ST",
+      "Brazil": "BR",
+      "Mauritius": "MU",
+      "Comoros": "KM",
+      "France": "FR"
+    }
+  },
+  "masks": {
+    "landBit": 4,
+    "air": true,
+    "otherLandBit": 6
+  },
+  "rivers": {
+    "maxRank": 6,
+    "names": {
+      "Amazonas": [
+        "Amazonas",
+        "亚马孙河",
+        1
+      ],
+      "Paraná": [
+        "Paraná",
+        "巴拉那河",
+        2
+      ],
+      "Uruguay": [
+        "Uruguay",
+        "乌拉圭河",
+        2
+      ],
+      "Paraguay": [
+        "Paraguay",
+        "巴拉圭河",
+        2
+      ],
+      "São  Francisco": [
+        "São Francisco",
+        "圣弗朗西斯科河",
+        2
+      ],
+      "Orange": [
+        "Orange",
+        "奥兰治河",
+        2
+      ],
+      "Congo": [
+        "Congo",
+        "刚果河",
+        1
+      ],
+      "Niger": [
+        "Niger",
+        "尼日尔河",
+        2
+      ],
+      "Zambezi": [
+        "Zambezi",
+        "赞比西河",
+        2
+      ],
+      "Limpopo": [
+        "Limpopo",
+        "林波波河",
+        3
+      ],
+      "Orinoco": [
+        "Orinoco",
+        "奥里诺科河",
+        2
+      ],
+      "Madeira": [
+        "Madeira",
+        "马德拉河",
+        3
+      ],
+      "Tocantins": [
+        "Tocantins",
+        "托坎廷斯河",
+        3
+      ],
+      "Sénégal": [
+        "Sénégal",
+        "塞内加尔河",
+        3
+      ],
+      "Benue": [
+        "Benue",
+        "贝努埃河",
+        3
+      ],
+      "Kasai": [
+        "Kasai",
+        "开赛河",
+        3
+      ],
+      "Colorado": [
+        "Colorado",
+        "科罗拉多河",
+        3
+      ],
+      "Pilcomayo": [
+        "Pilcomayo",
+        "皮科马约河",
+        3
+      ],
+      "Vaal": [
+        "Vaal",
+        "瓦尔河",
+        3
+      ]
+    }
+  },
+  "lakes": {
+    "maxRank": 6,
+    "zh": {
+      "Lagoa Mirim": "米林潟湖",
+      "Lagoa dos Patos": "帕图斯潟湖",
+      "Lago Titicaca": "的的喀喀湖",
+      "Lake Victoria": "维多利亚湖",
+      "Lake Tanganyika": "坦噶尼喀湖",
+      "Lake Malawi": "尼亚萨湖",
+      "Lake Chad": "乍得湖",
+      "Lake Albert": "艾伯特湖",
+      "Lake Turkana": "鲁道夫湖",
+      "Lac Moeru": "姆韦鲁湖",
+      "Lake Bangweulu": "班韦乌卢湖",
+      "Lake Tana": "塔纳湖",
+      "Lake Kivu": "基伍湖",
+      "Lake Edward": "爱德华湖",
+      "Mar Chiquita": "奇基塔湖"
+    },
+    "drop": []
+  },
+  "forest": [],
+  "marsh": [],
+  "dem": {
+    "zoom": 6,
+    "insets": [
+      {
+        "bbox": [
+          -59.5,
+          -37.5,
+          -52,
+          -33.3
+        ],
+        "zoom": 9,
+        "ss": 4,
+        "feather": 0.3,
+        "_doc": "拉普拉塔河口（布宜诺斯艾利斯—蒙得维的亚—东角城—洛沃斯岛—英国浅滩）：z9 ≈ 250 m/像素，按 4 倍超采样出等深线"
+      }
+    ]
+  },
+  "sea": {
+    "_doc": "水深设色与等深线（可选；缺省不启用）。isobaths：水深（米，负数）；tint：[高程米, 颜色] 由浅到深，缺省为复古海图配色。",
+    "bathymetry": true,
+    "isobaths": [
+      -5,
+      -10,
+      -20,
+      -50,
+      -200,
+      -1000,
+      -3000,
+      -5000
+    ]
+  },
+  "clip": [
+    -108,
+    -63,
+    78,
+    26
+  ],
+  "region": [
+    -110,
+    -64,
+    80,
+    27.5
+  ]
+}

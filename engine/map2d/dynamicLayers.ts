@@ -6,7 +6,7 @@ import type { DB, REvent, RPocket } from '../data/db';
 import type { GeomResult } from '../geo/field/client';
 import { routeProgress, routeOpacity, type RRoute, type RUnit } from '../model/core';
 import type { LonLat } from '../core/types';
-import { fmtShort } from '../core/time';
+import { fmtShort, hasPace, playSec } from '../core/time';
 import { SIDE_COUNTER, escapeXml } from './symbols';
 import { manifest, sideDef } from '../campaign/context';
 
@@ -272,9 +272,14 @@ export class DynamicLayers {
         g.classList.toggle('ended', t > p.h1);
       }
     }
+    // 变速播放（time.pace）时按播放时长换算显示窗口：分钟级交火中的事件不会同时铺满战场
+    const paced = hasPace(), base = manifest().time.hoursPerSec ?? 4, ps = paced ? playSec(t) : 0;
     for (const e of this.db.events) {
       const g = this.eventEls.get(e.id)!;
-      const on = t >= e.h - 2 && t <= Math.max(e.h1, e.h) + (e.importance === 1 ? 30 : 16);
+      const post = e.importance === 1 ? 30 : 16;
+      const on = paced
+        ? ps >= playSec(e.h) - 2 / base && ps <= playSec(Math.max(e.h1, e.h)) + post / base
+        : t >= e.h - 2 && t <= Math.max(e.h1, e.h) + post;
       g.style.display = on || e.id === this.selectedEvent ? '' : 'none';
       g.classList.toggle('active', e.id === this.selectedEvent);
     }

@@ -524,3 +524,6 @@ button:focus-visible, select:focus-visible, input:focus-visible { outline: 2px s
 .air-strength p { grid-column: 1/-1; font-size: 11px; line-height: 1.6; margin: 4px 0 0; color: var(--ink-soft); }
 .audio-panel { position: absolute; right: 72px; top: 64px; z-index: 40; width: 235px; padding: 14px; pointer-events: auto; border: 1px solid #8a7856; }
 .audio-panel b { font-size: 14px; } .audio-panel label { display: flex; align-items: center; gap: 12px; font-size: 12px; margin: 10px 0; } .audio-panel input { width: 150px; accent-color: #9b333a; } .audio-panel small { font-size: 10px; color: var(--ink-soft); }
+/* 变速播放（manifest.time.pace）：放慢的时段补小时刻度 */
+.tl-tick.tl-hour { height: 7px; background: rgba(43,36,24,.32); }
+.tl-tick.tl-hour span { display: block; bottom: 8px; left: -14px; width: 28px; font-size: 9px; color: #6a5a40; }

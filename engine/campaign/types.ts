@@ -71,7 +71,13 @@ export interface CampaignManifest {
     description: string;
     favicon?: string; // 主色
   };
-  time: { epoch: string; start: string; end: string; dataEnd?: string; tzLabel: string; hoursPerSec?: number };
+  time: {
+    epoch: string; start: string; end: string; dataEnd?: string; tzLabel: string; hoursPerSec?: number;
+    /** 变速播放：从 from 起每秒推进 hoursPerSec 小时（覆盖 time.hoursPerSec）。设置后时间轴按播放时长等比展开（海战的分钟级交火与数周航行同在一条轴上） */
+    pace?: { from: string; hoursPerSec: number }[];
+    /** 叙事时钟相对 UTC 的小时数（如 -2）：3D 沙盘据此计算太阳高度与昼夜 */
+    utcOffset?: number;
+  };
   sides: SideDef[];
   /** 兵力/图例/序列树的阵营顺序（缺省 = sides 顺序） */
   sideOrder?: Side[];
@@ -98,7 +104,7 @@ export interface CampaignManifest {
     home3d: LonLat;
     focus?: LonLat; // 测试钩子 setZoom 缺省中心 / 回全图中心
     contextTiles?: boolean; // 周边背景瓦片/地形（BK/CR）
-    hexKm?: number; // 缺省 18
+    hexKm?: number; // 缺省 18；0 = 不画六角格
     hexOverSea?: boolean;
     theatreCountries: string[]; // vectors.topo countries1939 中加粗边界的国家 id
     /** 国家大字 [名称, 经, 纬, 字号, 最小相对缩放]；海域/山脉 [名称, 经, 纬, 字号, 是否山脉, 最小相对缩放?] */
@@ -118,6 +124,27 @@ export interface CampaignManifest {
     mapKey?: string; // 右下角图例条（HTML）
     transportStyle?: 'dashed' | 'markers'; // 海/空运路线：虚线（缺省）或带箭头标记的行动线
     mobileZoomCap?: number;
+    maxZoom?: number; // 最大相对缩放（缺省 16）；海战从大洋全图放大到分钟级交火需要更大
+  };
+  /** 海战显示（有 unit.ship 的部队、data/naval/*.json）：引擎海战层的参数，缺省值适合 1939–1945 年的水面战 */
+  naval?: {
+    /** 舰船剪影按真实舰长放大的起始相对缩放（低于此值时画成固定大小的棋子剪影），缺省 10 */
+    tacticalZoom?: number;
+    /** 剪影的像素长度范围 [最小, 最大]，缺省 [26, 96] */
+    shipPx?: [number, number];
+    /** 航迹图时刻刻度间隔（分钟），缺省 10；fleetTicks 为战术缩放以下的刻度间隔（小时），缺省 24 */
+    trackTicks?: number;
+    fleetTicks?: number;
+    /** 尾迹长度（叙事分钟），缺省 12 */
+    wakeMin?: number;
+    /** 海图网格（经纬度分格 + 海里比例尺）出现的相对缩放，缺省 6；false 关闭 */
+    chartGrid?: number | false;
+    /** 距离标注单位：yd（码，英方战报）/ km / nm，缺省 'yd' */
+    rangeUnit?: 'yd' | 'km' | 'nm';
+    /** 射击线与弹道颜色按阵营（缺省 sides[].css.main） */
+    shellColor?: Record<string, string>;
+    /** 电文纸带（data/naval signals）：缺省显示 */
+    signals?: boolean;
   };
   display?: {
     hqPassThrough?: boolean; // 有下属的指挥部不显示为棋子，直接展开下属（单个部队用 unit.display='container'）
@@ -126,6 +153,8 @@ export interface CampaignManifest {
     statusEchelons?: 'all' | 'divisions' | 'leaves' | 'markers'; // 侧栏态势统计口径：全部 / 仅师旅 / 仅末级编制 / 全部可见标记
   };
   sandbox?: {
+    /** 3D 视图：terrain = 地形沙盘（缺省）；naval = 海战沙盘（海面、舰船模型、炮火、烟幕，镜头跟随交战海域） */
+    kind?: 'terrain' | 'naval';
     exaggeration?: number; // 高程夸张（缺省 3）
     figScale?: number; // 手办放大（缺省 17）
     restTint?: [number, number, number]; // 剩余战区着色（缺省冷色）
@@ -243,8 +272,8 @@ export interface HubEntry {
   region?: string; // 总台分区（hub/world.json 的 theatres[].id），缺省按火漆印落在哪个分区的取景框内
   pin: LonLat; // 火漆印位置
   labelAt?: 'n' | 's' | 'e' | 'w'; // 模板字相对火漆印的方位（缺省 s）
-  /** 战区轮廓：总台底图中的国家/分区 id（public/hub/world1938.topo.json），或经纬度框；缺省取 frame.bbox */
-  theatre?: { countries?: string[]; bbox?: [number, number, number, number]; kind?: 'land' | 'air' };
+  /** 战区轮廓：总台底图中的国家/分区 id（public/hub/world1938.topo.json）、经纬度框或经纬度多边形（海域）；缺省取 frame.bbox。kind：land / air（点线空域）/ sea（点划线海域） */
+  theatre?: { countries?: string[]; bbox?: [number, number, number, number]; polygon?: LonLat[]; kind?: 'land' | 'air' | 'sea' };
   cover?: string; // 封面照片（相对战役资源目录，须在 photos/index.json 中以便署名）
   blurb: string;
   parent?: string; // 嵌套于另一战役（如克里特之于巴尔干）

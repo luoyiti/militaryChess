@@ -1,0 +1,135 @@
+[
+ {
+  "id": "south_wiki_places",
+  "title": "维基百科各地名条目（坐标核对）",
+  "author": "Wikipedia",
+  "url": "https://en.wikipedia.org/"
+ },
+ {
+  "id": "south_wiki_brody_ru",
+  "title": "Сражение в районе Дубно — Луцк — Броды（俄文维基百科）",
+  "author": "Википедия",
+  "url": "https://ru.wikipedia.org/wiki/Сражение_в_районе_Дубно_—_Луцк_—_Броды"
+ },
+ {
+  "id": "south_wiki_brody_en",
+  "title": "Battle of Brody (1941)（英文维基百科）",
+  "author": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Battle_of_Brody_(1941)"
+ },
+ {
+  "id": "south_wiki_uman",
+  "title": "Battle of Uman（英文维基百科）",
+  "author": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Battle_of_Uman"
+ },
+ {
+  "id": "south_wiki_kiev",
+  "title": "Battle of Kiev (1941)（英文维基百科）",
+  "author": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Battle_of_Kiev_(1941)"
+ },
+ {
+  "id": "south_lexikon_korps",
+  "title": "Lexikon der Wehrmacht：各军 Gliederung / Unterstellung 表（1941）",
+  "author": "lexikon-der-wehrmacht.de",
+  "url": "https://www.lexikon-der-wehrmacht.de/Gliederungen/Korps/"
+ },
+ {
+  "id": "south_lexikon_div",
+  "title": "Lexikon der Wehrmacht：各师沿革与 1941 年隶属表",
+  "author": "lexikon-der-wehrmacht.de",
+  "url": "https://www.lexikon-der-wehrmacht.de/Gliederungen/"
+ },
+ {
+  "id": "south_szeghy_2009",
+  "title": "A magyar királyi 1. gyorshadtest ukrajnai hadművelete 1941（匈牙利快速军 1941 年乌克兰作战，博士论文）",
+  "author": "Andaházi Szeghy Viktor",
+  "year": 2009,
+  "url": "https://uni-nke.hu/document/uni-nke-hu/andahazi_szeghy_viktor.pdf"
+ },
+ {
+  "id": "south_wiki_gyorshadtest",
+  "title": "Gyorshadtest（英文维基百科）",
+  "author": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Gyorshadtest"
+ },
+ {
+  "id": "south_wiki_csir_it",
+  "title": "Corpo di spedizione italiano in Russia（意大利文维基百科）",
+  "author": "Wikipedia",
+  "url": "https://it.wikipedia.org/wiki/Corpo_di_spedizione_italiano_in_Russia"
+ },
+ {
+  "id": "south_messe_1947",
+  "title": "La guerra al fronte russo: il Corpo di spedizione italiano (CSIR)",
+  "author": "Giovanni Messe",
+  "year": 1947
+ },
+ {
+  "id": "south_wiki_sk_rapid",
+  "title": "Rýchla divízia（斯洛伐克文维基百科）",
+  "author": "Wikipédia",
+  "url": "https://sk.wikipedia.org/wiki/Rýchla_divízia"
+ },
+ {
+  "id": "south_wiki_sk_army",
+  "title": "Slovak Expeditionary Army Group（英文维基百科）",
+  "author": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Slovak_Expeditionary_Army_Group"
+ },
+ {
+  "id": "south_axworthy",
+  "title": "Third Axis, Fourth Ally: Romanian Armed Forces in the European War, 1941–1945",
+  "author": "Mark Axworthy, Cornel Scafeș, Cristian Crăciunoiu",
+  "year": 1995
+ },
+ {
+  "id": "south_wiki_odessa_ru",
+  "title": "Оборона Одессы (1941)（俄文维基百科）",
+  "author": "Википедия",
+  "url": "https://ru.wikipedia.org/wiki/Оборона_Одессы_(1941)"
+ },
+ {
+  "id": "south_wiki_odessa_en",
+  "title": "Siege of Odessa (1941)（英文维基百科）",
+  "author": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Siege_of_Odessa_(1941)"
+ },
+ {
+  "id": "south_wiki_9a_ru",
+  "title": "9-я армия (СССР)（俄文维基百科）",
+  "author": "Википедия",
+  "url": "https://ru.wikipedia.org/wiki/9-я_армия_(СССР)"
+ },
+ {
+  "id": "south_wiki_18a_ru",
+  "title": "18-я армия (СССР)（俄文维基百科）",
+  "author": "Википедия",
+  "url": "https://ru.wikipedia.org/wiki/18-я_армия_(СССР)"
+ },
+ {
+  "id": "south_wiki_38a_ru",
+  "title": "38-я армия (СССР)（俄文维基百科）",
+  "author": "Википедия",
+  "url": "https://ru.wikipedia.org/wiki/38-я_армия_(СССР)"
+ },
+ {
+  "id": "south_wiki_rostov_ru",
+  "title": "Ростовская наступательная операция (1941)（俄文维基百科）",
+  "author": "Википедия",
+  "url": "https://ru.wikipedia.org/wiki/Ростовская_наступательная_операция_(1941)"
+ },
+ {
+  "id": "south_wiki_crimea_ru",
+  "title": "Крымская оборонительная операция (1941)（俄文维基百科）",
+  "author": "Википедия",
+  "url": "https://ru.wikipedia.org/wiki/Крымская_оборонительная_операция"
+ },
+ {
+  "id": "south_wiki_99sd_ru",
+  "title": "99-я стрелковая дивизия (1-го формирования)（俄文维基百科）",
+  "author": "Википедия",
+  "url": "https://ru.wikipedia.org/wiki/99-я_стрелковая_дивизия_(1-го_формирования)"
+ }
+]

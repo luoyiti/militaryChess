@@ -1,12 +1,13 @@
 /**
  * 步兵小组、骑兵、野炮。人物用关节点 + 两段式 IK 摆姿势（身高约 1.75 m）。
- * 钢盔：德 M1935（前沿短、两侧/后沿外翻）、波 wz.31（圆顶窄檐）、苏 SSh-36（宽外翻檐 + 顶部脊）、斯洛伐克/捷 vz.32（圆顶、侧后沿下垂）。
+ * 钢盔：德 M1935（前沿短、两侧/后沿外翻）、波 wz.31（圆顶窄檐）、苏 SSh-36（宽外翻檐 + 顶部脊）、斯洛伐克/捷 vz.32（圆顶、侧后沿下垂）、
+ * 芬兰（德制 M/35、M/40，沿用德式外形）、罗马尼亚 M1938（荷兰 M34 式：高圆顶 + 一圈均匀外翻的宽檐）。
  */
 import * as THREE from 'three';
 import { B, type V3 } from './builder';
 import type { Role } from './paint';
 
-export type Nation = 'de' | 'pl' | 'su' | 'sk';
+export type Nation = 'de' | 'pl' | 'su' | 'sk' | 'fi' | 'ro';
 const V = (a: V3) => new THREE.Vector3(...a);
 const A = (v: THREE.Vector3): V3 => [v.x, v.y, v.z];
 
@@ -27,8 +28,8 @@ function helmet(b: B, n: Nation, c: THREE.Vector3, yaw: number, pitch: number): 
   const lathe = b.lathe.bind(b);
   const lp = (pts: [number, number][]) => (b.hi ? pts : pts.filter((_, i) => i % 2 === 0 || i === pts.length - 1));
   b.with({ p: A(c), r: [0, yaw, pitch] }, () => {
-    if (n === 'de') {
-      // M1935：前檐短，两侧与后沿外翻（「煤斗」）
+    if (n === 'de' || n === 'fi') {
+      // M1935（芬兰 1941 年主要装备德制 M/35、M/40）：前檐短，两侧与后沿外翻（「煤斗」）
       lathe(lp([[0.155, -0.075], [0.14, -0.04], [0.128, -0.01], [0.126, 0.03], [0.112, 0.075], [0.08, 0.11], [0.04, 0.128], [0.001, 0.132]]), seg, [0, 0.02, 0], 'helmet', (v) => {
         const front = Math.max(0, v.x / 0.155);
         if (v.y < 0.0) v.y += (-v.y) * 0.85 * Math.pow(front, 1.5);
@@ -47,6 +48,11 @@ function helmet(b: B, n: Nation, c: THREE.Vector3, yaw: number, pitch: number): 
         if (v.y < -0.02) v.y += (-v.y - 0.02) * 0.6 * front;
       });
       b.box([0.18, 0.025, 0.035], [-0.01, 0.155, 0], 'helmet');
+    } else if (n === 'ro') {
+      // M1938（荷兰 M34 式）：高圆顶，帽檐一圈均匀外翻，前后略长
+      lathe(lp([[0.168, -0.074], [0.15, -0.052], [0.134, -0.024], [0.128, 0.025], [0.115, 0.075], [0.085, 0.112], [0.045, 0.133], [0.001, 0.139]]), seg, [0, 0.02, 0], 'helmet', (v) => {
+        if (v.y < -0.02) v.x *= 1.05;
+      });
     } else {
       // vz.32：圆顶较高，侧后沿斜向下垂、前檐短而平
       lathe(lp([[0.15, -0.085], [0.138, -0.05], [0.13, -0.015], [0.127, 0.04], [0.11, 0.09], [0.075, 0.122], [0.035, 0.138], [0.001, 0.142]]), seg, [0, 0.015, 0], 'helmet', (v) => {
@@ -60,7 +66,7 @@ function helmet(b: B, n: Nation, c: THREE.Vector3, yaw: number, pitch: number): 
 }
 
 // ---------- 武器 ----------
-export type Rifle = 'kar98' | 'wz29' | 'mosin' | 'vz24';
+export type Rifle = 'kar98' | 'wz29' | 'mosin' | 'vz24' | 'm39';
 function rifle(b: B, butt: THREE.Vector3, muzzle: THREE.Vector3, kind: Rifle, slung = false): void {
   const d = muzzle.clone().sub(butt);
   const L = d.length();
@@ -137,7 +143,7 @@ export function figure(b: B, n: Nation, p: Pose): void {
       if (n === 'de') {
         b.cyl(pt(P, 0.02, -0.14, 0.13), pt(P, 0.3, -0.16, 0.13), 0.055, 0.055, 10, 'kit'); // 防毒面具罐
         b.box([0.05, 0.16, 0.12], pt(P, 0.14, -0.1, -0.17), 'canvas');
-      } else if (n === 'pl' || n === 'sk') {
+      } else if (n === 'pl' || n === 'sk' || n === 'fi' || n === 'ro') {
         b.box([0.1, 0.26, 0.26], pt(P, 0.34, -0.17, 0), 'kit');
         b.box([0.05, 0.14, 0.12], pt(P, 0.12, -0.08, 0.17), 'canvas');
       }
@@ -192,8 +198,9 @@ export function figure(b: B, n: Nation, p: Pose): void {
 }
 
 // ---------- 步兵小组 ----------
-const RIFLE: Record<Nation, Rifle> = { de: 'kar98', pl: 'wz29', su: 'mosin', sk: 'vz24' };
-const LMG: Record<Nation, Lmg> = { de: 'mg34', pl: 'wz28', su: 'dp27', sk: 'vz26' };
+// 芬兰：M/39 莫辛步枪（不上刺刀）+ 拉赫蒂-萨洛兰塔 M/26（顶装弹匣，外形同 vz26）；罗马尼亚：ZB vz.24 + ZB vz.30
+const RIFLE: Record<Nation, Rifle> = { de: 'kar98', pl: 'wz29', su: 'mosin', sk: 'vz24', fi: 'm39', ro: 'vz24' };
+const LMG: Record<Nation, Lmg> = { de: 'mg34', pl: 'wz28', su: 'dp27', sk: 'vz26', fi: 'vz26', ro: 'vz26' };
 
 export function infantry(b: B, n: Nation): void {
   const rf = RIFLE[n];

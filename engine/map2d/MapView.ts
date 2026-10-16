@@ -44,16 +44,20 @@ export class MapView {
   height = 0;
   dpr = 1;
   terrainOpacity = 1;
+  /** 最大相对缩放（manifest.map.maxZoom，缺省 16） */
+  readonly maxZoom = manifest().map.maxZoom ?? 16;
   private zb: ZoomBehavior<HTMLElement, unknown>;
   private pyramids: TilePyramid[] = [];
   private backgroundBounds: WorldBounds = [0, 0, W, H];
   /** 全图适配框（世界坐标）：整个画布或 manifest.map.fit 经纬度框 */
   private fitBox: WorldBounds = [0, 0, W, H];
-  /** true：有周边背景瓦片时把视口夹在背景范围内（BK/CR）；false：缩放 0.55–16 倍、平移外扩 10% */
+  /** true：有周边背景瓦片时把视口夹在背景范围内（BK/CR）；false：缩放 0.55–maxZoom 倍、平移外扩 10% */
   private coverageClamp = false;
   private tiles = new Map<string, HTMLImageElement | 'loading' | 'error'>();
   private viewListeners: ((v: View, zooming: boolean) => void)[] = [];
   private raf = 0;
+  private active = true;
+  draws = 0;
   private zooming = false;
   private zoomEndTimer = 0;
   private anim: number | null = null;
@@ -118,6 +122,7 @@ export class MapView {
     select(root).call(this.zb).on('dblclick.zoom', null);
     new ResizeObserver(() => this.resize()).observe(root);
     this.resize();
+    document.addEventListener('visibilitychange', () => { if (!document.hidden) this.schedule(); });
   }
 
   async loadTiles(metaUrl: string, base: string) {
@@ -192,12 +197,12 @@ export class MapView {
     const [fx0, fy0, fx1, fy1] = this.fitBox;
     this.fitK = Math.min(aw / (fx1 - fx0), ah / (fy1 - fy0));
     if (!this.coverageClamp) {
-      this.zb.scaleExtent([this.fitK * 0.55, this.fitK * 16]);
+      this.zb.scaleExtent([this.fitK * 0.55, this.fitK * this.maxZoom]);
       this.zb.translateExtent([[-W * 0.1, -H * 0.1], [W * 1.1, H * 1.1]]);
       return;
     }
     const minK = coverageScale(this, this.backgroundBounds);
-    this.zb.scaleExtent([minK, Math.max(minK, this.fitK * 16)]);
+    this.zb.scaleExtent([minK, Math.max(minK, this.fitK * this.maxZoom)]);
     this.zb.extent([[0, 0], [this.width, this.height]]);
     this.zb.translateExtent([[this.backgroundBounds[0], this.backgroundBounds[1]], [this.backgroundBounds[2], this.backgroundBounds[3]]]);
   }
@@ -245,7 +250,7 @@ export class MapView {
     if (window.matchMedia?.('(prefers-reduced-motion: reduce)').matches) ms = 0;
     const [cx, cy] = this.viewCenter();
     const minK = this.coverageClamp ? coverageScale(this, this.backgroundBounds) : this.fitK * 0.55;
-    const k1 = Math.max(minK, Math.min(Math.max(minK, this.fitK * 16), this.fitK * relZoom));
+    const k1 = Math.max(minK, Math.min(Math.max(minK, this.fitK * this.maxZoom), this.fitK * relZoom));
     const toT = (k: number, wx2: number, wy2: number) => {
       if (!this.coverageClamp) return zoomIdentity.translate(cx - wx2 * k, cy - wy2 * k).scale(k);
       const v = clampViewport({ k, x: cx - wx2 * k, y: cy - wy2 * k }, this, this.backgroundBounds);
@@ -275,10 +280,17 @@ export class MapView {
 
   onView(fn: (v: View, zooming: boolean) => void) { this.viewListeners.push(fn); }
 
+  setActive(active: boolean) {
+    this.active = active;
+    if (!active) { cancelAnimationFrame(this.raf); this.raf = 0; this.cancelFlight(); }
+    else this.schedule();
+  }
   schedule() {
-    if (this.raf) return;
+    if (!this.active || document.hidden || this.raf) return;
     this.raf = requestAnimationFrame(() => {
       this.raf = 0;
+      if (!this.active) return;
+      this.draws++;
       this.zoomG.setAttribute('transform', `translate(${this.view.x},${this.view.y}) scale(${this.view.k})`);
       this.drawTiles();
       for (const l of this.viewListeners) l(this.view, this.zooming);

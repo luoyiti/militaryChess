@@ -16,6 +16,7 @@
   "theatres": [
     { "id": "europe", "zh": "欧洲", "en": "Europe", "view": [-11, 43, 42, 71] },
     { "id": "med", "zh": "地中海与非洲", "en": "Mediterranean & Africa", "view": [-12, 22, 42, 46] },
+    { "id": "atlantic", "zh": "大西洋", "en": "Atlantic", "view": [-75, -48, 30, 40] },
     { "id": "china", "zh": "中国", "en": "China", "view": [97, 18, 128, 46] },
     { "id": "pacific", "zh": "太平洋", "en": "Pacific", "view": [100, -25, 200, 48] }
   ],
@@ -459,8 +460,14 @@
     "Paraguay": [{ "from": "1945-02-07", "status": "allies", "source": "latam" }],
     "Peru": [{ "from": "1945-02-12", "status": "allies", "source": "latam" }],
     "Venezuela": [{ "from": "1945-02-16", "status": "allies", "source": "latam" }],
-    "Uruguay": [{ "from": "1945-02-22", "status": "allies", "source": "latam" }],
-    "Argentina": [{ "from": "1945-03-27", "status": "allies", "source": "latam" }],
+    "Uruguay": [
+      { "from": "1942-01-25", "status": "neutral", "note": "里约热内卢外长会议期间与轴心国断交，仍未参战（1939 年 12 月“施佩伯爵”号曾在蒙得维的亚港停留 72 小时）", "source": "latam" },
+      { "from": "1945-02-22", "status": "allies", "source": "latam" }
+    ],
+    "Argentina": [
+      { "from": "1944-01-26", "status": "neutral", "note": "与德、日断交，仍保持中立（1939 年 12 月“施佩伯爵”号自沉后，其官兵被送往阿根廷拘留）", "source": "latam" },
+      { "from": "1945-03-27", "status": "allies", "source": "latam" }
+    ],
     "Chile": [{ "from": "1945-04-11", "status": "allies", "note": "对日宣战", "source": "latam" }]
   },
   "labels": [
@@ -564,6 +571,10 @@
     { "id": "Chile", "zh": "智利", "at": [-71, -30], "size": 8 },
     { "id": "@sea", "zh": "大 西 洋", "at": [-10.5, 47.5], "size": 18 },
     { "id": "@sea", "zh": "大 西 洋", "at": [-38, 30], "size": 30 },
+    { "id": "@sea", "zh": "南 大 西 洋", "at": [-14, -23], "size": 30 },
+    { "id": "@sea", "zh": "拉普拉塔河口", "at": [-56.3, -35.6], "size": 6 },
+    { "id": "Uruguay", "zh": "乌拉圭", "at": [-56, -32.8], "size": 6 },
+    { "id": "Paraguay", "zh": "巴拉圭", "at": [-58.2, -23.2], "size": 7 },
     { "id": "@sea", "zh": "北 海", "at": [3.6, 56.6], "size": 15 },
     { "id": "@sea", "zh": "挪 威 海", "at": [3.0, 66.0], "size": 15 },
     { "id": "@sea", "zh": "巴伦支海", "at": [42, 72.5], "size": 11 },
@@ -614,6 +625,8 @@
     { "date": "1939-09-28", "text": "华沙投降；德苏签订边界友好条约" },
     { "date": "1939-10-06", "text": "科克战斗结束，波兰战役落幕" },
     { "date": "1939-11-30", "text": "苏联进攻芬兰，冬季战争爆发" },
+    { "date": "1939-12-13", "text": "拉普拉塔河口海战：英国巡洋舰围攻“施佩伯爵”号，该舰退入蒙得维的亚" },
+    { "date": "1939-12-17", "text": "“施佩伯爵”号在河口外自沉" },
     { "date": "1940-03-13", "text": "苏芬签订莫斯科和约" },
     { "date": "1940-04-09", "text": "德军占领丹麦、突袭挪威——威悉演习" },
     { "date": "1940-05-10", "text": "德军进攻荷兰、比利时、卢森堡与法国——黄色方案" },

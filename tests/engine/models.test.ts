@@ -29,10 +29,10 @@ describe('3D 模型注册表', () => {
         expect(Math.abs(bb.min.x + bb.max.x) / 2).toBeLessThan(1e-3);
         expect(Math.abs(bb.min.z + bb.max.z) / 2).toBeLessThan(1e-3);
       });
-      it('实例版：单一几何、≤1.5k 三角形、带 color、尺寸误差 <5%', () => {
+      it('实例版：单一几何、≤1.5k 三角形（舰船 ≤3k）、带 color、尺寸误差 <5%', () => {
         const geo = buildInstanceGeometry(id);
         expect(geo.index).toBeNull();
-        expect(geo.getAttribute('position').count / 3).toBeLessThanOrEqual(1500);
+        expect(geo.getAttribute('position').count / 3).toBeLessThanOrEqual(spec.kind === 'naval' ? 3000 : 1500);
         const col = geo.getAttribute('color');
         expect(col).toBeTruthy();
         expect(col.count).toBe(geo.getAttribute('position').count);

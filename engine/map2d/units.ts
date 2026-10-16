@@ -34,6 +34,8 @@ export class UnitsLayer {
   selected: string | null = null;
   highlightSide: string | null = null;
   onSelect: (id: string | null) => void = () => {};
+  /** 由其他图层绘制的部队（如海战层画舰船剪影）：不作为棋子显示 */
+  skip: ((u: RUnit) => boolean) | null = null;
   visible = true;
   private tip: HTMLDivElement;
   stats = { shown: 0, overlap: 0 };
@@ -69,8 +71,8 @@ export class UnitsLayer {
     const U = this.db.units;
     const visit = (u: RUnit) => {
       const r = ECHELON_RANK[u.echelon];
-      if (t < u.fromH - 1 || t > u.toH + 48) return;
-      const kids = u.children.map((c) => U.get(c)!).filter((c) => t >= c.fromH - 1 && t <= c.toH + 48);
+      if (t < u.fromH - 1 || t > u.toH + u.fadeH) return;
+      const kids = u.children.map((c) => U.get(c)!).filter((c) => t >= c.fromH - 1 && t <= c.toH + c.fadeH);
       if (r < 0 || (kids.length && isContainer(u))) { kids.forEach(visit); return; }
       if (r >= L || !kids.length) { out.push(u); return; }
       if (L === 1 && !kids.some((c) => ECHELON_RANK[c.echelon] === 1)) { out.push(u); return; }
@@ -91,6 +93,7 @@ export class UnitsLayer {
     const set = this.displaySet(t);
     const items: Item[] = [];
     for (const u of set) {
+      if (this.skip?.(u)) continue;
       const s = unitStateAt(u.id, this.db.units, t);
       if (!s || hiddenInTransit(u, s) || s.fade <= 0.03) continue;
       const [ax, ay] = map.llToScreen(s.ll);
@@ -192,7 +195,8 @@ export class UnitsLayer {
     return el;
   }
 
-  private showTip(u: RUnit, ev: PointerEvent) {
+  /** 悬停提示（海战层的舰船剪影共用） */
+  showTip(u: RUnit, ev: PointerEvent) {
     const s = unitStateAt(u.id, this.db.units, this.t);
     const parent = u.parent ? this.db.units.get(u.parent) : null;
     this.tip.innerHTML = `<div class="tt-h side-${u.side}">${escapeXml(u.name.zh)}</div>
@@ -200,16 +204,18 @@ export class UnitsLayer {
       <div class="tt-r">${SIDE_ZH[u.side]} · ${ECH_ZH[u.echelon]} · ${TYPE_ZH[u.type]}</div>
       ${u.commander ? `<div class="tt-r">指挥官：${escapeXml(u.commander.zh)}${u.commander.orig ? `（${escapeXml(u.commander.orig)}）` : ''}</div>` : ''}
       ${parent ? `<div class="tt-r">隶属：${escapeXml(parent.name.zh)}</div>` : ''}
+      ${u.ship?.class ? `<div class="tt-r">${escapeXml(u.ship.class.zh)}${u.ship.lengthM ? ` · 舰长 ${u.ship.lengthM} 米` : ''}</div>` : ''}
+      ${u.ship && s?.courseDeg !== undefined ? `<div class="tt-r tt-nav">航向 ${String(Math.round(s.courseDeg) % 360).padStart(3, '0')}° · 航速 ${Math.round(s.speedKn ?? 0)} 节</div>` : ''}
       ${s ? `<div class="tt-s st-${s.status}">${s.flightPhase ? FLIGHT_ZH[s.flightPhase] : STATUS_ZH[s.status]}</div>` : ''}
       <div class="tt-hint">点击查看部队档案</div>`;
     this.tip.style.display = 'block';
     this.moveTip(ev);
   }
-  private moveTip(ev: PointerEvent) {
+  moveTip(ev: PointerEvent) {
     const x = Math.min(window.innerWidth - 280, ev.clientX + 16), y = Math.min(window.innerHeight - 160, ev.clientY + 14);
     this.tip.style.transform = `translate(${x}px,${y}px)`;
   }
-  private hideTip() { this.tip.style.display = 'none'; }
+  hideTip() { this.tip.style.display = 'none'; }
 
   setVisible(v: boolean) { this.visible = v; this.layout(); }
   screenPosOf(id: string): [number, number] | null {

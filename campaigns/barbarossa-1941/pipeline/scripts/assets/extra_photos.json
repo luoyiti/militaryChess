@@ -1,0 +1,342 @@
+{
+ "File:German troops crossing the Soviet border.jpg": {
+  "topic": "border_crossing",
+  "role": "intro",
+  "caption": "1941 年 6 月，德军步兵拖着 75 mm 轻型步兵炮越过苏联国界（宣传连约翰内斯·黑勒摄）"
+ },
+ "File:Początek wojny niemiecko-radzieckiej (2-646).jpg": {
+  "topic": "border_crossing",
+  "role": "intro_fallback",
+  "caption": "1941 年 6 月 22 日，德军部队经边境哨卡进入苏联控制的领土"
+ },
+ "File:Первый день войны. Объявление о начале Великой Отечественной войны. Улица 25-го Октября.jpg": {
+  "topic": "molotov_radio",
+  "role": "pool",
+  "caption": "1941 年 6 月 22 日正午，莫斯科十月二十五日大街，市民在扩音器下收听莫洛托夫宣布德国入侵（叶夫根尼·哈尔杰伊摄）"
+ },
+ "File:Жители Ленинграда слушают сообщение о нападении фашистской Германии на СССР.jpg": {
+  "topic": "molotov_radio",
+  "role": "pool",
+  "caption": "1941 年 6 月 22 日，列宁格勒市民收听德国进攻苏联的广播（鲍里斯·洛辛摄）"
+ },
+ "File:Kaunas airfield, June 22, 1941.jpg": {
+  "topic": "airfields",
+  "role": "pool",
+  "caption": "1941 年 6 月 22 日，考纳斯机场上被德国空军炸毁的苏军第 15 歼击航空团飞机"
+ },
+ "File:Russische soldaten hebben zich overgegeven in de vesting Brest, Bestanddeelnr 29059 018.tif": {
+  "topic": "brest",
+  "role": "pool",
+  "caption": "1941 年 6 月底，布列斯特要塞中放下武器的苏军守军（德方战地记者摄）"
+ },
+ "File:Białystok smouldering ruins 1941.jpg": {
+  "topic": "bialystok",
+  "role": "pool",
+  "caption": "1941 年 6 月，战火中冒烟的比亚韦斯托克废墟"
+ },
+ "File:На одной из улиц в Минске после налета немецкой авиации.jpg": {
+  "topic": "minsk",
+  "role": "pool",
+  "caption": "1941 年 6 月下旬，德军空袭后的明斯克街道（达维德·明斯克尔摄）"
+ },
+ "File:Беженцы на дороге в Белорусской ССР конец июня 1941 г. фото Минскера.jpg": {
+  "topic": "refugees",
+  "role": "pool",
+  "caption": "1941 年 6 月底，白俄罗斯公路上东撤的难民（达维德·明斯克尔摄）"
+ },
+ "File:Bundesarchiv Bild 146-1982-077-11, Russland, Minsk, gefangene sowjetische Soldaten.jpg": {
+  "topic": "pow",
+  "role": "pool",
+  "caption": "1941 年 7 月，明斯克附近被俘的苏军士兵；比亚韦斯托克—明斯克包围战德方报称俘虏约 32 万人"
+ },
+ "File:Lwów, ul.Kazimierzowska, tank -05.jpg": {
+  "topic": "t34_wreck",
+  "role": "pool",
+  "caption": "1941 年 6 月底，利沃夫卡齐米日街上被遗弃的苏军 T-34 坦克"
+ },
+ "File:German soldiers inspecting KV-2 tank, 1941.jpg": {
+  "topic": "kv_wreck",
+  "role": "pool",
+  "caption": "1941 年夏，德军士兵察看一辆受损后被遗弃的苏军 KV-2 重型坦克"
+ },
+ "File:Kowno Panzerschlacht 1941 04 (RaBoe).jpg": {
+  "topic": "baltic",
+  "role": "pool",
+  "caption": "1941 年 6 月，考纳斯附近坦克战后被击毁的苏军 T-28 中型坦克"
+ },
+ "File:Przeprawa wojsk niemieckich przez Berezynę (2-709).jpg": {
+  "topic": "berezina",
+  "role": "pool",
+  "caption": "1941 年 7 月初，德军部队渡过别列津纳河"
+ },
+ "File:Kilőtt T-26-os harckocsi a Kamenyec-Podolszk és Tulcsin közötti úton. Fortepan 78310.jpg": {
+  "topic": "hungary",
+  "role": "pool",
+  "caption": "1941 年 7 月，匈牙利快速军推进途中、卡缅涅茨-波多利斯基至图利钦公路旁被击毁的苏军 T-26"
+ },
+ "File:Duits-Hongaarse opmars in het oosten. Hongaarse tanks rukken op, Bestanddeelnr 29010 057.tif": {
+  "topic": "hungary",
+  "role": "pool",
+  "caption": "1941 年 8 月，乌克兰境内推进中的装甲纵队（荷兰档案原说明为匈牙利快速军坦克）"
+ },
+ "File:Roemeens pantserafweergeschut in stelling, Bestanddeelnr 29039 043.tif": {
+  "topic": "romania",
+  "role": "pool",
+  "caption": "1941 年 7 月，比萨拉比亚战线上占领阵地的罗马尼亚反坦克炮"
+ },
+ "File:Odessa Soviet artillery, 1941.jpg": {
+  "topic": "odessa",
+  "role": "pool",
+  "caption": "1941 年敖德萨保卫战中开火的苏军炮兵"
+ },
+ "File:Roemeense soldaten marcheren de zojuist door de Duitsers en Roemenen veroverde havenstad Odessa in Oekraïne binnen 108005.jpg": {
+  "topic": "odessa",
+  "role": "pool",
+  "caption": "1941 年 10 月中旬，苏军海运撤离后开进敖德萨的罗马尼亚部队"
+ },
+ "File:RIAN archive 2415 Before the defense of Smolensk.jpg": {
+  "topic": "smolensk",
+  "role": "pool",
+  "caption": "1941 年 7 月，即将投入斯摩棱斯克防御的苏军士兵（彼得·伯恩斯坦摄）"
+ },
+ "File:RIAN archive 76 On the battlefield.jpg": {
+  "topic": "smolensk",
+  "role": "pool",
+  "caption": "1941 年夏，在第聂伯河岸作战的苏军第 20 集团军士兵"
+ },
+ "File:Wkroczenie wojsk niemieckich do Smoleńska (2-930).jpg": {
+  "topic": "smolensk",
+  "role": "pool",
+  "caption": "1941 年 7 月 16 日前后，德军开进斯摩棱斯克"
+ },
+ "File:Регистрация добровольцев в народное ополчение.jpg": {
+  "topic": "militia",
+  "role": "pool",
+  "caption": "1941 年 7 月，莫斯科红普列斯尼亚区登记加入民兵（ДНО）的志愿者，其中有内战老兵"
+ },
+ "File:RIAN archive 887721 Defense of Moscow.jpg": {
+  "topic": "moscow_air",
+  "role": "pool",
+  "caption": "莫斯科市中心楼顶上的高射炮手，1941 年 7 月 21–22 日夜德国空军首次空袭莫斯科"
+ },
+ "File:Жительницы Ленинграда роют противотанковый ров.jpg": {
+  "topic": "leningrad",
+  "role": "pool",
+  "caption": "1941 年夏，列宁格勒妇女在城郊挖掘反坦克壕（列昂尼德·韦利克扎宁摄）"
+ },
+ "File:RIAN archive 604176 Workers at Kirovsky Plant walking to front line.jpg": {
+  "topic": "leningrad",
+  "role": "pool",
+  "caption": "1941 年秋，列宁格勒基洛夫工厂的工人步行开赴近在城郊的前线"
+ },
+ "File:RIAN archive 888 Nurses helping people wounded in the first bombardment in Leningrad.jpg": {
+  "topic": "leningrad",
+  "role": "pool",
+  "caption": "列宁格勒首次遭炮击后，护士救护受伤的市民（1941 年 9 月）"
+ },
+ "File:Anti aircraft Leningrad 1941.JPG": {
+  "topic": "leningrad",
+  "role": "pool",
+  "caption": "1941 年，以圣以撒大教堂为背景的列宁格勒高射炮阵地（鲍里斯·库多亚罗夫摄）"
+ },
+ "File:RIAN archive 907 Leningradians queueing up for water.jpg": {
+  "topic": "leningrad_famine",
+  "role": "pool",
+  "caption": "围城的第一个冬天，列宁格勒市民在涅瓦大街的弹坑中取水（鲍里斯·库多亚罗夫摄）"
+ },
+ "File:RIAN archive 397 Cutters carrying foodstuffs to besieged Leningrad on Ladoga Lake.jpg": {
+  "topic": "ladoga",
+  "role": "pool",
+  "caption": "1941 年秋，拉多加湖上为被围的列宁格勒运送粮食的小艇（鲍里斯·库多亚罗夫摄）"
+ },
+ "File:Аэросани РФ-8-ГАЗ-98 на ледовой дороге через Ладожское озеро.jpg": {
+  "topic": "road_of_life",
+  "role": "pool",
+  "caption": "拉多加湖冰上“生命之路”上的 РФ-8 雪橇车（鲍里斯·洛辛摄）"
+ },
+ "File:Finnish forces cross Vuoksi in Baryshevo (Äyräpää) in 1941.jpg": {
+  "topic": "finland",
+  "role": "pool",
+  "caption": "1941 年 8 月，芬兰军队经浮桥在于雷派（Äyräpää）渡过武克西河，进军卡累利阿地峡"
+ },
+ "File:Continuation War 1941.jpg": {
+  "topic": "finland",
+  "role": "pool",
+  "caption": "1941 年 7 月，托赫马耶尔维附近越过 1940 年边界的芬兰士兵"
+ },
+ "File:CSIR a Gorlowka.jpg": {
+  "topic": "italy",
+  "role": "pool",
+  "caption": "1941 年 11 月 2 日，意大利远征军（CSIR）在顿巴斯的戈尔洛夫卡进攻"
+ },
+ "File:1941. Итальянские мотоциклисты-берсальеры в пригороде Сталино.jpeg": {
+  "topic": "italy",
+  "role": "pool",
+  "caption": "1941 年秋，斯大林诺（顿涅茨克）郊外的意大利狙击兵摩托车部队"
+ },
+ "File:Wkroczenie wojsk niemieckich do Kijowa (2-836).jpg": {
+  "topic": "kiev",
+  "role": "pool",
+  "caption": "1941 年 9 月 19 日，德军第 6 集团军开进基辅"
+ },
+ "File:Bundesarchiv Bild 183-B12190, Kiew, Brand in der Hauptstraße.jpg": {
+  "topic": "kiev",
+  "role": "pool",
+  "caption": "1941 年 9 月 24 日起，基辅克列夏季克大街因苏方预埋的遥控炸药接连爆炸而燃起大火（德方宣传连照片）"
+ },
+ "File:Prigionieri Armata Rossa sacca di Kiev.jpg": {
+  "topic": "pow",
+  "role": "pool",
+  "caption": "1941 年 9 月，基辅包围圈中被俘的苏军战俘长队"
+ },
+ "File:Russische krijgsgevangenen marcheren naar een interneringskamp, Bestanddeelnr 29059 109.tif": {
+  "topic": "pow",
+  "role": "pool",
+  "caption": "1941 年 8 月，被押往战俘营的苏军战俘；1941 年被俘者约有 200 万人在当年冬天前死亡"
+ },
+ "File:Babi Yar 17.jpg": {
+  "topic": "babi_yar",
+  "role": "pool",
+  "caption": "基辅娘子谷（巴比亚尔）遇难者纪念碑；1941 年 9 月 29–30 日，特别行动队在此杀害 33,771 名犹太人"
+ },
+ "File:Przeprawa wojsk niemieckich przez Dniepr (2-732).jpg": {
+  "topic": "dnieper",
+  "role": "pool",
+  "caption": "1941 年 8–9 月，德军渡过第聂伯河"
+ },
+ "File:Wojska niemieckie na przesmyku Perekop (2-907).jpg": {
+  "topic": "crimea",
+  "role": "pool",
+  "caption": "1941 年 9–10 月，彼列科普地峡上的德军第 11 集团军部队"
+ },
+ "File:Duitse tanks rukken op tijdens de Kesselschlacht bij Wjasma (2155 078762b).jpg": {
+  "topic": "vyazma",
+  "role": "pool",
+  "caption": "1941 年 10 月，维亚济马包围战中推进的德军坦克"
+ },
+ "File:Bundesarchiv Bild 101I-140-1220-17A, Russland-Mitte, PKW im Schlamm.jpg": {
+  "topic": "rasputitsa",
+  "role": "pool",
+  "caption": "1941 年 10 月秋汛泥泞期（拉斯普季察），德军士兵推动陷入泥沼的汽车"
+ },
+ "File:Bundesarchiv Bild 101I-140-1210-26A, Russland-Mitte, Schützenpanzer im Schlamm.jpg": {
+  "topic": "rasputitsa",
+  "role": "pool",
+  "caption": "1941 年 10 月，莫斯科方向陷入泥泞的德军半履带车"
+ },
+ "File:Zajęcie przez wojska niemieckie miasta Kalinin (2-800).jpg": {
+  "topic": "kalinin",
+  "role": "pool",
+  "caption": "1941 年 10 月 14 日前后，德军进入加里宁（特维尔）"
+ },
+ "File:Walki uliczne w Charkowie (2-724).jpg": {
+  "topic": "kharkov",
+  "role": "pool",
+  "caption": "1941 年 10 月下旬，哈尔科夫巷战中的德军"
+ },
+ "File:Wkroczenie wojsk niemieckich do Taganrogu (2-949).jpg": {
+  "topic": "rostov",
+  "role": "pool",
+  "caption": "1941 年 10 月，德军进入亚速海边的塔甘罗格"
+ },
+ "File:RIAN archive 789 People digging trenches.jpg": {
+  "topic": "moscow_defense",
+  "role": "pool",
+  "caption": "1941 年秋，莫斯科市民修筑反坦克工事"
+ },
+ "File:Protivotankovy yozh 01 1941.jpg": {
+  "topic": "moscow_defense",
+  "role": "pool",
+  "caption": "1941 年秋冬，莫斯科街头的反坦克拒马（“刺猬”）"
+ },
+ "File:Строительство баррикады на Смоленской улице в Москве.jpg": {
+  "topic": "moscow_siege",
+  "role": "pool",
+  "caption": "1941 年 10 月莫斯科宣布戒严后，市民在斯摩棱斯克大街修筑街垒（列昂尼德·多连斯基摄）"
+ },
+ "File:Солдаты-сибиряки едут на защиту Москвы 1.jpg": {
+  "topic": "siberians",
+  "role": "pool",
+  "caption": "乘“暖车”闷罐车开赴莫斯科的西伯利亚部队士兵（马克·马尔科夫-格林贝格摄）"
+ },
+ "File:RIAN archive 669663 Soviet troops head to front lines after 1941 Red Square parade.jpg": {
+  "topic": "parade",
+  "role": "cover",
+  "caption": "1941 年 11 月 7 日，红场阅兵后直接开赴前线的苏军部队（阿纳托利·加拉宁摄）"
+ },
+ "File:Панфилов, Сребряков, Егоров.jpg": {
+  "topic": "volokolamsk",
+  "role": "pool",
+  "caption": "1941 年 11 月，第 316 步兵师师长潘菲洛夫少将（左）、参谋长谢列布里亚科夫上校与师政委叶戈罗夫（米哈伊尔·卡拉什尼科夫摄）"
+ },
+ "File:A Soviet machine gunner covers the infantry attacking near Tula.jpg": {
+  "topic": "tula",
+  "role": "pool",
+  "caption": "图拉附近，苏军机枪手掩护步兵冲击（当时报纸刊登照片）"
+ },
+ "File:T-34 ambush near Volokolamskoye Highway.jpg": {
+  "topic": "moscow_defense",
+  "role": "pool",
+  "caption": "1941 年秋，沃洛科拉姆斯克公路远接近地上设伏的 T-34 坦克"
+ },
+ "File:Soldiers on guard in December 1941 to the west of Moscow.jpg": {
+  "topic": "frost",
+  "role": "pool",
+  "caption": "1941 年 12 月，莫斯科以西严寒中站岗的两名德军士兵"
+ },
+ "File:RIAN archive 284 The war in winter.jpg": {
+  "topic": "counteroffensive",
+  "role": "pool",
+  "caption": "莫斯科州森林边缘身披白色伪装衣的苏军士兵（奥列格·克诺林格摄）"
+ },
+ "File:Soviet T-34 with desant rushing into village.jpg": {
+  "topic": "counteroffensive",
+  "role": "pool",
+  "caption": "1941 年 12 月，西方面军的 T-34 搭载坦克步兵冲向德军据守的村庄"
+ },
+ "File:RIAN archive 2564 Soviet planes flying over Nazi positions near Moscow.jpg": {
+  "topic": "air",
+  "role": "pool",
+  "caption": "莫斯科附近飞越德军阵地的苏军伊尔-2 强击机"
+ },
+ "File:Soviet damaged I-16 fighters captured by the Germans at Riga airfield. June 1941.jpg": {
+  "topic": "airfields",
+  "role": "pool",
+  "caption": "1941 年 6 月，德军在里加机场缴获的受损苏军 I-16 战斗机"
+ },
+ "File:Bundesarchiv Bild 101I-136-0882-12, Sowjetunion, Deutsches Sturmgeschütz.jpg": {
+  "topic": "stug",
+  "role": "pool",
+  "caption": "1941 年夏，苏联境内的德军 III 号突击炮"
+ },
+ "File:Ростов на Дону бои за освобождение города 1941.jpg": {
+  "topic": "rostov",
+  "role": "pool",
+  "caption": "1941 年 11 月底，罗斯托夫解放战斗中的苏军（第一次收复被德军占领的大城市）"
+ },
+ "File:Kommissarbefehl 001.jpg": {
+  "topic": "commissar_order",
+  "role": "pool",
+  "caption": "1941 年 6 月 6 日国防军最高统帅部《关于对待政治委员的方针》（“政委命令”）首页"
+ },
+ "File:Дмитрий Григорьевич Павлов.jpg": {
+  "topic": "pavlov",
+  "role": "pool",
+  "caption": "西方面军司令员德米特里·巴甫洛夫大将（战前照片），1941 年 7 月 22 日被判处死刑"
+ },
+ "File:Bundesarchiv Bild 183-1985-1003-020, Richard Sorge.jpg": {
+  "topic": "sorge",
+  "role": "pool",
+  "caption": "苏联军事情报员理查德·佐尔格，以德国记者身份潜伏东京"
+ },
+ "File:ПРАВДАобращениесталина.jpg": {
+  "topic": "stalin_speech",
+  "role": "pool",
+  "caption": "1941 年 7 月 3 日《真理报》头版刊登斯大林的广播讲话"
+ },
+ "File:Äänislinna capture.jpg": {
+  "topic": "finland",
+  "role": "pool",
+  "caption": "1941 年 10 月初，芬兰军队攻占彼得罗扎沃茨克（芬兰称 Äänislinna）后，卡累利阿集团军司令海因里希斯中将检阅入城部队（坦克为缴获的苏军 T-26）"
+ }
+}

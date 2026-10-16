@@ -28,7 +28,7 @@ export function eventCameraFrame(db: DB, e: REvent, context = false): CameraFram
     if (state) points.push(state.ll);
   }
   const [major, minor] = manifest().director.defaultZoom ?? [2.8, 3.4];
-  const maxZoom = Math.max(.55, Math.min(8, e.zoomRel ?? (e.importance === 1 ? major : minor)));
+  const maxZoom = Math.max(.55, Math.min(manifest().map.maxZoom ?? 8, e.zoomRel ?? (e.importance === 1 ? major : minor)));
   return { points, maxZoom: context ? maxZoom * .78 : maxZoom };
 }
 
@@ -47,7 +47,7 @@ export function frameFocus(frame: CameraFrame, viewport: CameraViewport, fitK: n
     (viewport.width - pad * 2) / Math.max(1, bounds.x1 - bounds.x0),
     (viewport.height - pad * 2) / Math.max(1, bounds.y1 - bounds.y0),
   );
-  return { ll: unproject(bounds.center), relZoom: Math.max(.55, Math.min(16, k / fitK)) };
+  return { ll: unproject(bounds.center), relZoom: Math.max(.55, Math.min(manifest().map.maxZoom ?? 16, k / fitK)) };
 }
 
 export function theatreFit(viewport: CameraViewport) { return Math.min(viewport.width / W, viewport.height / H); }

@@ -1,0 +1,1049 @@
+[
+ {
+  "id": "r.de.lvi_dvinsk",
+  "side": "DE",
+  "unit": "de.8pz",
+  "style": "main",
+  "widthKm": 24,
+  "label": "LVI 军奔袭陶格夫匹尔斯",
+  "waypoints": [
+   {
+    "at": "1941-06-22T03:15",
+    "pos": [
+     22.6,
+     55.08
+    ]
+   },
+   {
+    "at": "1941-06-22T20:00",
+    "pos": "@ariogala"
+   },
+   {
+    "at": "1941-06-24T12:00",
+    "pos": "@ukmerge"
+   },
+   {
+    "at": "1941-06-25T12:00",
+    "pos": [
+     25.6,
+     55.55
+    ]
+   },
+   {
+    "at": "1941-06-26T08:00",
+    "pos": "@dvinsk"
+   }
+  ],
+  "sources": [
+   "north_wiki_ru_baltic_op",
+   "glantz_leningrad",
+   "kirchubel_ag"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "r.de.xli_dvina",
+  "side": "DE",
+  "unit": "de.1pz",
+  "style": "main",
+  "widthKm": 24,
+  "label": "XLI 军经拉塞尼艾抵德维纳河",
+  "waypoints": [
+   {
+    "at": "1941-06-22T03:15",
+    "pos": [
+     21.98,
+     55.18
+    ]
+   },
+   {
+    "at": "1941-06-22T20:00",
+    "pos": "@taurage"
+   },
+   {
+    "at": "1941-06-26T20:00",
+    "pos": [
+     23.15,
+     55.45
+    ]
+   },
+   {
+    "at": "1941-06-28T20:00",
+    "pos": "@panevezys"
+   },
+   {
+    "at": "1941-06-30T20:00",
+    "pos": "@jekabpils"
+   }
+  ],
+  "sources": [
+   "north_wiki_ru_baltic_op",
+   "glantz_leningrad",
+   "kirchubel_ag",
+   "north_wiki_raseiniai"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "r.su.raseiniai_counter",
+  "side": "SU",
+  "unit": "su.2td",
+  "style": "counter",
+  "widthKm": 16,
+  "label": "苏第 3 机械化军反击",
+  "waypoints": [
+   {
+    "at": "1941-06-23T06:00",
+    "pos": [
+     24.1,
+     55.12
+    ]
+   },
+   {
+    "at": "1941-06-23T18:00",
+    "pos": [
+     23.55,
+     55.3
+    ]
+   },
+   {
+    "at": "1941-06-24T12:00",
+    "pos": [
+     23.15,
+     55.4
+    ]
+   }
+  ],
+  "sources": [
+   "north_wiki_raseiniai",
+   "glantz_initial"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "r.su.21mk_dvinsk",
+  "side": "SU",
+  "unit": "su.21mk",
+  "style": "counter",
+  "widthKm": 16,
+  "label": "第 21 机械化军反击桥头堡",
+  "waypoints": [
+   {
+    "at": "1941-06-27T20:00",
+    "pos": [
+     27.3,
+     56.15
+    ]
+   },
+   {
+    "at": "1941-06-28T06:00",
+    "pos": [
+     26.9,
+     56.0
+    ]
+   },
+   {
+    "at": "1941-06-28T20:00",
+    "pos": [
+     26.65,
+     55.95
+    ]
+   }
+  ],
+  "sources": [
+   "north_wiki_ru_baltic_op",
+   "glantz_initial"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "r.de.18a_riga",
+  "side": "DE",
+  "unit": "de.1id",
+  "style": "main",
+  "widthKm": 22,
+  "label": "第 18 集团军直取里加",
+  "waypoints": [
+   {
+    "at": "1941-06-22T03:15",
+    "pos": [
+     21.85,
+     55.4
+    ]
+   },
+   {
+    "at": "1941-06-25T20:00",
+    "pos": [
+     22.9,
+     55.9
+    ]
+   },
+   {
+    "at": "1941-06-27T20:00",
+    "pos": "@siauliai"
+   },
+   {
+    "at": "1941-06-29T12:00",
+    "pos": "@jelgava"
+   },
+   {
+    "at": "1941-07-01T20:00",
+    "pos": "@riga"
+   }
+  ],
+  "sources": [
+   "north_wiki_ru_baltic_op",
+   "glantz_leningrad",
+   "kirchubel_ag"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "r.de.xli_ostrov_pskov",
+  "side": "DE",
+  "unit": "de.1pz",
+  "style": "main",
+  "widthKm": 22,
+  "label": "XLI 军突破斯大林防线",
+  "waypoints": [
+   {
+    "at": "1941-07-02T20:00",
+    "pos": [
+     26.0,
+     56.6
+    ]
+   },
+   {
+    "at": "1941-07-03T20:00",
+    "pos": "@gulbene"
+   },
+   {
+    "at": "1941-07-04T18:00",
+    "pos": "@ostrov"
+   },
+   {
+    "at": "1941-07-09T20:00",
+    "pos": "@pskov"
+   }
+  ],
+  "sources": [
+   "north_wiki_ru_baltic_op",
+   "glantz_leningrad",
+   "kirchubel_ag"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "r.de.xli_luga",
+  "side": "DE",
+  "unit": "de.6pz",
+  "style": "main",
+  "widthKm": 20,
+  "label": "转向卢加河下游",
+  "waypoints": [
+   {
+    "at": "1941-07-10T20:00",
+    "pos": "@pskov"
+   },
+   {
+    "at": "1941-07-12T20:00",
+    "pos": [
+     28.7,
+     58.5
+    ]
+   },
+   {
+    "at": "1941-07-14T18:00",
+    "pos": "@porechye"
+   }
+  ],
+  "sources": [
+   "north_wiki_ru_leningrad_op",
+   "glantz_leningrad"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "r.de.lvi_soltsy",
+  "side": "DE",
+  "unit": "de.8pz",
+  "style": "main",
+  "widthKm": 18,
+  "until": "1941-07-22T20:00",
+  "label": "LVI 军冒进索利齐",
+  "waypoints": [
+   {
+    "at": "1941-07-09T18:00",
+    "pos": [
+     28.95,
+     57.05
+    ]
+   },
+   {
+    "at": "1941-07-11T20:00",
+    "pos": "@porkhov"
+   },
+   {
+    "at": "1941-07-13T20:00",
+    "pos": "@soltsy"
+   },
+   {
+    "at": "1941-07-14T12:00",
+    "pos": [
+     30.4,
+     58.15
+    ]
+   }
+  ],
+  "sources": [
+   "north_wiki_ru_leningrad_op",
+   "glantz_leningrad",
+   "north_wiki_ru_soltsy"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "r.su.soltsy_counter",
+  "side": "SU",
+  "unit": "su.11a",
+  "style": "counter",
+  "widthKm": 16,
+  "label": "索利齐反击",
+  "waypoints": [
+   {
+    "at": "1941-07-14T06:00",
+    "pos": [
+     30.35,
+     58.45
+    ]
+   },
+   {
+    "at": "1941-07-15T20:00",
+    "pos": [
+     30.28,
+     58.25
+    ]
+   },
+   {
+    "at": "1941-07-16T20:00",
+    "pos": "@soltsy"
+   }
+  ],
+  "sources": [
+   "north_wiki_ru_soltsy",
+   "glantz_leningrad"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "r.de.estonia",
+  "side": "DE",
+  "unit": "de.xxvi_ak",
+  "style": "secondary",
+  "widthKm": 18,
+  "label": "割裂爱沙尼亚",
+  "waypoints": [
+   {
+    "at": "1941-07-03T20:00",
+    "pos": "@riga"
+   },
+   {
+    "at": "1941-07-08T20:00",
+    "pos": "@parnu"
+   },
+   {
+    "at": "1941-07-22T20:00",
+    "pos": [
+     25.5,
+     58.8
+    ]
+   },
+   {
+    "at": "1941-08-04T20:00",
+    "pos": "@tapa"
+   },
+   {
+    "at": "1941-08-07T20:00",
+    "pos": "@kunda"
+   }
+  ],
+  "sources": [
+   "north_wiki_ru_leningrad_op",
+   "glantz_leningrad",
+   "north_wiki_ru_8a"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "r.su.tallinn_evac",
+  "side": "SU",
+  "unit": "su.kbf",
+  "style": "retreat",
+  "widthKm": 12,
+  "movement": "sea",
+  "role": "evacuation",
+  "label": "塔林撤退",
+  "waypoints": [
+   {
+    "at": "1941-08-28T21:00",
+    "pos": "@tallinn"
+   },
+   {
+    "at": "1941-08-29T06:00",
+    "pos": "@juminda"
+   },
+   {
+    "at": "1941-08-29T18:00",
+    "pos": "@gogland"
+   },
+   {
+    "at": "1941-08-30T12:00",
+    "pos": "@kronstadt"
+   }
+  ],
+  "sources": [
+   "north_wiki_ru_leningrad_op",
+   "glantz_leningrad"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "r.de.luga_breakout",
+  "side": "DE",
+  "unit": "de.1pz",
+  "style": "main",
+  "widthKm": 24,
+  "label": "突破卢加防线",
+  "waypoints": [
+   {
+    "at": "1941-08-08T09:00",
+    "pos": [
+     29.02,
+     59.16
+    ]
+   },
+   {
+    "at": "1941-08-10T20:00",
+    "pos": [
+     29.15,
+     59.27
+    ]
+   },
+   {
+    "at": "1941-08-16T20:00",
+    "pos": "@volosovo"
+   },
+   {
+    "at": "1941-08-21T20:00",
+    "pos": [
+     29.95,
+     59.48
+    ]
+   }
+  ],
+  "sources": [
+   "north_wiki_ru_leningrad_op",
+   "glantz_leningrad"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "r.de.leningrad_assault",
+  "side": "DE",
+  "unit": "de.xli_mk",
+  "style": "main",
+  "widthKm": 20,
+  "label": "强攻列宁格勒南郊",
+  "waypoints": [
+   {
+    "at": "1941-09-09T06:00",
+    "pos": [
+     30.0,
+     59.56
+    ]
+   },
+   {
+    "at": "1941-09-11T20:00",
+    "pos": [
+     30.05,
+     59.69
+    ]
+   },
+   {
+    "at": "1941-09-13T20:00",
+    "pos": "@krasnoye_selo"
+   },
+   {
+    "at": "1941-09-16T20:00",
+    "pos": [
+     30.15,
+     59.8
+    ]
+   }
+  ],
+  "sources": [
+   "north_wiki_ru_leningrad_op",
+   "glantz_leningrad"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "r.de.oranienbaum_cut",
+  "side": "DE",
+  "unit": "de.1id",
+  "style": "secondary",
+  "widthKm": 14,
+  "label": "抵芬兰湾",
+  "waypoints": [
+   {
+    "at": "1941-09-08T20:00",
+    "pos": [
+     29.75,
+     59.68
+    ]
+   },
+   {
+    "at": "1941-09-14T20:00",
+    "pos": [
+     29.98,
+     59.8
+    ]
+   },
+   {
+    "at": "1941-09-16T20:00",
+    "pos": "@strelna"
+   }
+  ],
+  "sources": [
+   "north_wiki_ru_leningrad_op",
+   "glantz_leningrad"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "r.de.novgorod",
+  "side": "DE",
+  "unit": "de.21id",
+  "style": "main",
+  "widthKm": 18,
+  "label": "希姆斯克突击群",
+  "waypoints": [
+   {
+    "at": "1941-08-10T04:00",
+    "pos": "@shimsk"
+   },
+   {
+    "at": "1941-08-14T20:00",
+    "pos": [
+     31.0,
+     58.45
+    ]
+   },
+   {
+    "at": "1941-08-16T20:00",
+    "pos": "@novgorod"
+   },
+   {
+    "at": "1941-08-20T20:00",
+    "pos": "@chudovo"
+   }
+  ],
+  "sources": [
+   "north_wiki_ru_leningrad_op",
+   "glantz_leningrad"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "r.su.34a_counter",
+  "side": "SU",
+  "unit": "su.34a",
+  "style": "counter",
+  "widthKm": 20,
+  "until": "1941-08-26T20:00",
+  "label": "第 34 集团军旧鲁萨反击",
+  "waypoints": [
+   {
+    "at": "1941-08-12T05:00",
+    "pos": [
+     31.8,
+     57.75
+    ]
+   },
+   {
+    "at": "1941-08-13T20:00",
+    "pos": [
+     31.3,
+     57.75
+    ]
+   },
+   {
+    "at": "1941-08-14T20:00",
+    "pos": [
+     30.9,
+     57.85
+    ]
+   },
+   {
+    "at": "1941-08-15T20:00",
+    "pos": [
+     30.75,
+     57.85
+    ]
+   }
+  ],
+  "sources": [
+   "north_wiki_ru_34a",
+   "glantz_leningrad"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "r.de.lvi_flank",
+  "side": "DE",
+  "unit": "de.lvi_mk",
+  "style": "counter",
+  "widthKm": 18,
+  "label": "曼施坦因侧击",
+  "waypoints": [
+   {
+    "at": "1941-08-18T20:00",
+    "pos": [
+     30.1,
+     57.8
+    ]
+   },
+   {
+    "at": "1941-08-19T06:00",
+    "pos": [
+     30.5,
+     57.78
+    ]
+   },
+   {
+    "at": "1941-08-20T20:00",
+    "pos": [
+     30.9,
+     57.8
+    ]
+   },
+   {
+    "at": "1941-08-22T20:00",
+    "pos": [
+     31.3,
+     57.8
+    ]
+   },
+   {
+    "at": "1941-08-25T20:00",
+    "pos": [
+     31.55,
+     57.82
+    ]
+   }
+  ],
+  "sources": [
+   "north_wiki_ru_34a",
+   "north_wiki_ru_leningrad_op"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "r.de.demyansk",
+  "side": "DE",
+  "unit": "de.ii_ak",
+  "style": "secondary",
+  "widthKm": 18,
+  "label": "合围杰米扬斯克",
+  "waypoints": [
+   {
+    "at": "1941-09-01T20:00",
+    "pos": "@kholm"
+   },
+   {
+    "at": "1941-09-05T20:00",
+    "pos": [
+     31.9,
+     57.45
+    ]
+   },
+   {
+    "at": "1941-09-08T20:00",
+    "pos": "@demyansk"
+   },
+   {
+    "at": "1941-09-12T20:00",
+    "pos": [
+     32.7,
+     57.2
+    ]
+   }
+  ],
+  "sources": [
+   "north_wiki_ru_leningrad_op",
+   "glantz_leningrad"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "r.de.malaya_vishera",
+  "side": "DE",
+  "unit": "de.8pz",
+  "style": "secondary",
+  "widthKm": 16,
+  "until": "1941-11-22T20:00",
+  "label": "攻向小维舍拉",
+  "waypoints": [
+   {
+    "at": "1941-10-18T20:00",
+    "pos": [
+     31.95,
+     59.15
+    ]
+   },
+   {
+    "at": "1941-10-21T20:00",
+    "pos": [
+     32.1,
+     58.95
+    ]
+   },
+   {
+    "at": "1941-10-23T20:00",
+    "pos": "@malaya_vishera"
+   }
+  ],
+  "sources": [
+   "north_wiki_ru_tikhvin_def"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "r.su.52a_counter",
+  "side": "SU",
+  "unit": "su.52a",
+  "style": "counter",
+  "widthKm": 16,
+  "label": "收复小维舍拉",
+  "waypoints": [
+   {
+    "at": "1941-11-12T20:00",
+    "pos": [
+     32.55,
+     58.8
+    ]
+   },
+   {
+    "at": "1941-11-16T20:00",
+    "pos": [
+     32.38,
+     58.83
+    ]
+   },
+   {
+    "at": "1941-11-20T20:00",
+    "pos": "@malaya_vishera"
+   }
+  ],
+  "sources": [
+   "north_wiki_ru_tikhvin_def"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "r.su.ice_road",
+  "side": "SU",
+  "unit": "su.f_len",
+  "style": "secondary",
+  "widthKm": 6,
+  "role": "supply",
+  "label": "「生命之路」冰上运输线",
+  "waypoints": [
+   {
+    "at": "1941-11-22T06:00",
+    "pos": "@kobona"
+   },
+   {
+    "at": "1941-11-22T18:00",
+    "pos": "@osinovets"
+   }
+  ],
+  "sources": [
+   "glantz_leningrad"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "r.fi.ladoga",
+  "side": "FI",
+  "unit": "fi.1jpr",
+  "style": "main",
+  "widthKm": 20,
+  "label": "直插拉多加湖",
+  "waypoints": [
+   {
+    "at": "1941-07-10T02:00",
+    "pos": [
+     30.95,
+     62.1
+    ]
+   },
+   {
+    "at": "1941-07-13T20:00",
+    "pos": [
+     31.3,
+     61.9
+    ]
+   },
+   {
+    "at": "1941-07-16T20:00",
+    "pos": "@koirinoja"
+   },
+   {
+    "at": "1941-07-21T20:00",
+    "pos": "@salmi"
+   },
+   {
+    "at": "1941-07-24T20:00",
+    "pos": "@tuloksa"
+   }
+  ],
+  "sources": [
+   "north_wiki_ladoga_karelia",
+   "north_wiki_isthmus_1941",
+   "north_wiki_east_karelia"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "r.fi.svir",
+  "side": "FI",
+  "unit": "fi.vi_ak",
+  "style": "main",
+  "widthKm": 20,
+  "label": "进抵斯维里河",
+  "waypoints": [
+   {
+    "at": "1941-09-04T05:00",
+    "pos": "@tuloksa"
+   },
+   {
+    "at": "1941-09-05T20:00",
+    "pos": "@olonets"
+   },
+   {
+    "at": "1941-09-07T20:00",
+    "pos": [
+     33.5,
+     60.8
+    ]
+   },
+   {
+    "at": "1941-09-22T20:00",
+    "pos": "@podporozhye"
+   }
+  ],
+  "sources": [
+   "north_wiki_ladoga_karelia",
+   "north_wiki_isthmus_1941",
+   "north_wiki_east_karelia"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "r.fi.petrozavodsk",
+  "side": "FI",
+  "unit": "fi.11d",
+  "style": "secondary",
+  "widthKm": 16,
+  "label": "攻向彼得罗扎沃茨克",
+  "waypoints": [
+   {
+    "at": "1941-09-04T20:00",
+    "pos": [
+     32.8,
+     61.35
+    ]
+   },
+   {
+    "at": "1941-09-08T20:00",
+    "pos": "@pryazha"
+   },
+   {
+    "at": "1941-09-28T20:00",
+    "pos": [
+     34.25,
+     61.75
+    ]
+   },
+   {
+    "at": "1941-10-01T20:00",
+    "pos": "@petrozavodsk"
+   }
+  ],
+  "sources": [
+   "north_wiki_ladoga_karelia",
+   "north_wiki_isthmus_1941",
+   "north_wiki_east_karelia"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "r.fi.isthmus_east",
+  "side": "FI",
+  "unit": "fi.ii_ak",
+  "style": "main",
+  "widthKm": 18,
+  "label": "拉多加湖西岸",
+  "waypoints": [
+   {
+    "at": "1941-07-31T04:00",
+    "pos": [
+     29.3,
+     61.3
+    ]
+   },
+   {
+    "at": "1941-08-11T20:00",
+    "pos": "@hiitola"
+   },
+   {
+    "at": "1941-08-21T20:00",
+    "pos": "@kexholm"
+   },
+   {
+    "at": "1941-09-07T20:00",
+    "pos": [
+     30.3,
+     60.35
+    ]
+   }
+  ],
+  "sources": [
+   "north_wiki_ladoga_karelia",
+   "north_wiki_isthmus_1941",
+   "north_wiki_east_karelia"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "r.fi.vyborg",
+  "side": "FI",
+  "unit": "fi.iv_ak",
+  "style": "main",
+  "widthKm": 18,
+  "label": "收复维堡",
+  "waypoints": [
+   {
+    "at": "1941-08-22T04:00",
+    "pos": [
+     28.6,
+     60.85
+    ]
+   },
+   {
+    "at": "1941-08-24T20:00",
+    "pos": [
+     28.65,
+     60.62
+    ]
+   },
+   {
+    "at": "1941-08-29T20:00",
+    "pos": "@vyborg"
+   },
+   {
+    "at": "1941-09-02T20:00",
+    "pos": "@koivisto"
+   },
+   {
+    "at": "1941-09-09T20:00",
+    "pos": [
+     29.8,
+     60.2
+    ]
+   }
+  ],
+  "sources": [
+   "north_wiki_ladoga_karelia",
+   "north_wiki_isthmus_1941",
+   "north_wiki_east_karelia"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "r.su.hanko_evac",
+  "side": "SU",
+  "unit": "su.hanko",
+  "style": "retreat",
+  "widthKm": 10,
+  "movement": "sea",
+  "role": "evacuation",
+  "label": "汉科撤离",
+  "waypoints": [
+   {
+    "at": "1941-12-02T18:00",
+    "pos": "@hanko"
+   },
+   {
+    "at": "1941-12-03T12:00",
+    "pos": [
+     24.5,
+     59.75
+    ]
+   },
+   {
+    "at": "1941-12-04T06:00",
+    "pos": "@gogland"
+   },
+   {
+    "at": "1941-12-05T12:00",
+    "pos": "@kronstadt"
+   }
+  ],
+  "sources": [
+   "glantz_leningrad"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "r.de.xli_kalinin",
+  "side": "DE",
+  "unit": "de.1pz",
+  "style": "main",
+  "widthKm": 18,
+  "label": "XLI 军冲向加里宁",
+  "waypoints": [
+   {
+    "at": "1941-10-10T20:00",
+    "pos": [
+     34.28,
+     55.83
+    ]
+   },
+   {
+    "at": "1941-10-11T20:00",
+    "pos": [
+     34.59,
+     56.17
+    ]
+   },
+   {
+    "at": "1941-10-13T20:00",
+    "pos": [
+     35.64,
+     56.23
+    ]
+   },
+   {
+    "at": "1941-10-14T18:00",
+    "pos": "@kalinin"
+   }
+  ],
+  "sources": [
+   "north_wiki_ru_kalinin_def",
+   "stahel_typhoon"
+  ],
+  "confidence": "medium"
+ }
+]

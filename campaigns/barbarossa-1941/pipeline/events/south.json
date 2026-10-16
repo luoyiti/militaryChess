@@ -1,0 +1,1371 @@
+[
+ {
+  "id": "e.bug_sokal",
+  "at": "1941-06-22T03:15",
+  "category": "battle",
+  "importance": 2,
+  "side": "DE",
+  "title": {
+   "zh": "克莱斯特渡布格河",
+   "orig": "Übergang über den Bug bei Sokal"
+  },
+  "body": "6 月 22 日 3 时 15 分，南方集团军群在普里皮亚季沼泽以南发起进攻。克莱斯特第 1 装甲集群在弗拉基米尔-沃伦斯基与索卡尔之间强渡布格河，第 III 摩托化军指向卢茨克，第 XLVIII 摩托化军指向杜布诺，目标是撕开苏军第 5 与第 6 集团军的结合部，直插基辅。",
+  "place": "@sokal",
+  "units": [
+   "de.pzgr1",
+   "de.iii_mk",
+   "de.xlviii_mk",
+   "de.11pz",
+   "de.13pz"
+  ],
+  "sfx": [
+   "artillery",
+   "tank"
+  ],
+  "zoomRel": 4.5,
+  "sources": [
+   "kirchubel_ag",
+   "dra_4"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "e.przemysl_recaptured",
+  "at": "1941-06-23T12:00",
+  "category": "battle",
+  "precision": "day",
+  "importance": 3,
+  "side": "SU",
+  "title": {
+   "zh": "收复普热梅希尔",
+   "orig": "Контрудар у Перемышля"
+  },
+  "body": "开战次日，苏军第 99 步兵师会同边防军和当地民兵发起反击，夺回被德军攻占的普热梅希尔桑河右岸城区，恢复了这一段边界，并坚守到 6 月 27 日奉命撤出。这是苏军在开战头几天少有的收复失地战例，该师于 7 月 22 日获得红旗勋章。",
+  "place": "@przemysl",
+  "units": [
+   "su.99sd",
+   "su.8sk"
+  ],
+  "sfx": [
+   "rifle",
+   "mg"
+  ],
+  "zoomRel": 6,
+  "sources": [
+   "south_wiki_99sd_ru",
+   "boe_1941"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "e.radekhov",
+  "at": "1941-06-23T14:00",
+  "category": "battle",
+  "precision": "day",
+  "importance": 3,
+  "side": "SU",
+  "title": {
+   "zh": "拉杰霍夫坦克战",
+   "orig": "Бой под Радеховом"
+  },
+  "body": "6 月 23 日，苏军第 15 机械化军第 10 坦克师在拉杰霍夫迎战德军第 11 装甲师，这是乌克兰战场最早的大规模坦克交战之一。苏方声称击毁约 20 辆德军坦克，自损 6 辆 T-34 和 20 辆 BT，终因弹药不足撤出；德军当晚便夺取了别列斯捷奇科的斯特里河渡口。",
+  "place": "@radekhov",
+  "units": [
+   "su.10td",
+   "su.15mk",
+   "de.11pz"
+  ],
+  "sfx": [
+   "tank",
+   "artillery"
+  ],
+  "zoomRel": 6.5,
+  "sources": [
+   "south_wiki_brody_ru",
+   "south_wiki_brody_en"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "e.dubno_brody",
+  "at": "1941-06-24T06:00",
+  "endAt": "1941-06-30T20:00",
+  "category": "battle",
+  "importance": 1,
+  "side": "SU",
+  "title": {
+   "zh": "杜布诺—布罗迪坦克战",
+   "orig": "Сражение в районе Дубно — Луцк — Броды"
+  },
+  "body": "6 月 24–30 日，西南方面军以第 8、9、15、19、22 机械化军从南北两面反击德军第 1 装甲集群的突破口，双方投入坦克数千辆。苏军各军长途行军后零散投入、缺乏协同与空中掩护，第 22 机械化军军长孔德鲁谢夫阵亡，最终损失绝大部分坦克，但迟滞了克莱斯特约一周。",
+  "place": "@dubno",
+  "units": [
+   "su.8mk",
+   "su.9mk",
+   "su.15mk",
+   "su.19mk",
+   "su.22mk",
+   "de.11pz",
+   "de.13pz",
+   "de.14pz",
+   "de.16pz"
+  ],
+  "sfx": [
+   "tank",
+   "artillery",
+   "stuka"
+  ],
+  "zoomRel": 4.5,
+  "sources": [
+   "south_wiki_brody_ru",
+   "south_wiki_brody_en",
+   "glantz_initial"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "e.popel_dubno",
+  "at": "1941-06-27T14:00",
+  "category": "battle",
+  "importance": 2,
+  "side": "SU",
+  "title": {
+   "zh": "波佩尔突入杜布诺",
+   "orig": "Прорыв группы Попеля к Дубно"
+  },
+  "body": "6 月 27 日 14 时，旅级政委波佩尔率第 34 坦克师等组成的集群从南面突袭，傍晚冲到杜布诺郊外，缴获德军第 11 装甲师大批后勤车辆。次日德军调来第 16 摩托化师、第 75、111 步兵师和第 16 装甲师将其合围，师长瓦西里耶夫阵亡，残部转入森林突围。",
+  "place": [
+   25.715,
+   50.358
+  ],
+  "units": [
+   "su.34td",
+   "su.8mk",
+   "de.16idmot",
+   "de.75id",
+   "de.111id",
+   "de.11pz"
+  ],
+  "sfx": [
+   "tank",
+   "mg"
+  ],
+  "zoomRel": 7,
+  "sources": [
+   "south_wiki_brody_ru",
+   "south_wiki_brody_en"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "e.lvov_falls",
+  "at": "1941-06-30T04:30",
+  "category": "battle",
+  "importance": 2,
+  "side": "DE",
+  "title": {
+   "zh": "利沃夫失守",
+   "orig": "Einnahme von Lemberg"
+  },
+  "body": "6 月 30 日清晨，德军第 1 山地师和随行的乌克兰民族主义者“夜莺”营进入苏军已经撤出的利沃夫。苏军第 6 集团军为避免被围，于 6 月 29–30 日退向佐洛乔夫。当天乌克兰民族主义者组织班德拉派在城内宣布“恢复乌克兰国家”，不久即被德国当局取缔。",
+  "place": "@lvov",
+  "units": [
+   "de.1gd",
+   "de.xlix_gk",
+   "su.6a"
+  ],
+  "sfx": [
+   "march",
+   "rifle"
+  ],
+  "zoomRel": 6,
+  "sources": [
+   "kirchubel_ag",
+   "dra_4"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "e.carpathian_group",
+  "at": "1941-07-01T06:00",
+  "category": "battle",
+  "importance": 3,
+  "side": "HU",
+  "title": {
+   "zh": "匈军越过喀尔巴阡山",
+   "orig": "A Kárpát-csoport támadása"
+  },
+  "body": "匈牙利在卡绍遭轰炸后对苏宣战，7 月 1 日松鲍特海伊的喀尔巴阡集群约 4 万人越过鞑靼山口等喀尔巴阡山口，进攻苏军第 12 集团军，经科洛梅亚、斯尼亚滕进抵德涅斯特河。步兵旅行动迟缓，集群于 7 月 9 日撤销，米克洛什的快速军改归德军指挥继续东进。",
+  "place": [
+   24.56,
+   48.345
+  ],
+  "units": [
+   "hu.carpathian_group",
+   "hu.mobile_corps",
+   "hu.1mtn_bde",
+   "hu.8border_bde"
+  ],
+  "sfx": [
+   "march",
+   "rifle"
+  ],
+  "zoomRel": 5,
+  "sources": [
+   "south_szeghy_2009",
+   "south_wiki_gyorshadtest"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "e.lviv_pogrom",
+  "at": "1941-07-01T09:00",
+  "endAt": "1941-07-02T20:00",
+  "category": "atrocity",
+  "precision": "day",
+  "importance": 2,
+  "side": "DE",
+  "title": {
+   "zh": "利沃夫屠犹",
+   "orig": "Lwiw-Pogrom"
+  },
+  "body": "德军进城后，以内务部监狱屠杀为借口，民兵和暴徒在德国人默许下于 6 月 30 日至 7 月 2 日在利沃夫殴打、羞辱和杀害犹太居民，死者数以千计；7 月下旬又发生“彼得留拉日”屠杀。佐洛乔夫、捷尔诺波尔等地同时发生类似暴行，党卫队“维京”师等部队亦卷入其中。",
+  "place": "@lvov",
+  "units": [
+   "de.ss_wiking"
+  ],
+  "sfx": [
+   "bell"
+  ],
+  "zoomRel": 6,
+  "sources": [
+   "kirchubel_ag",
+   "dra_4"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "e.operation_munchen",
+  "at": "1941-07-02T03:00",
+  "category": "battle",
+  "importance": 2,
+  "side": "DE",
+  "title": {
+   "zh": "“慕尼黑”行动",
+   "orig": "Unternehmen München / Operațiunea München"
+  },
+  "body": "7 月 2 日，德军第 11 集团军与罗马尼亚第 3、4 集团军在普鲁特河一线发起“慕尼黑”行动，从斯库莱尼等桥头堡攻入比萨拉比亚和北布科维纳。罗马尼亚山地军 7 月 5 日收复切尔诺夫策，第 1 装甲师 16 日进入基希讷乌，苏军第 9 集团军下旬退过德涅斯特河。",
+  "place": "@sculeni",
+  "units": [
+   "de.11a",
+   "de.xxx_ak",
+   "de.xi_ak",
+   "de.liv_ak",
+   "ro.3a",
+   "ro.4a",
+   "ro.mtn_corps",
+   "su.9a"
+  ],
+  "sfx": [
+   "artillery",
+   "march"
+  ],
+  "zoomRel": 4.5,
+  "sources": [
+   "south_axworthy",
+   "south_lexikon_korps",
+   "kirchubel_ag"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "e.stalin_line",
+  "at": "1941-07-07T12:00",
+  "category": "battle",
+  "precision": "day",
+  "importance": 2,
+  "side": "DE",
+  "title": {
+   "zh": "突破斯大林防线",
+   "orig": "Durchbruch durch die Stalinlinie"
+  },
+  "body": "7 月 7 日前后，第 1 装甲集群在诺沃格勒-沃伦斯基与旧康斯坦丁诺夫之间突破旧国界上的“斯大林防线”，第 11 装甲师当天攻占别尔基切夫，第 XIV 摩托化军在波德沃洛奇斯克方向打开缺口。这些筑垒地域多数在 1939 年后被拆空，守军不足，未能挡住德军装甲部队。",
+  "place": "@berdichev",
+  "units": [
+   "de.11pz",
+   "de.xlviii_mk",
+   "de.xiv_mk",
+   "de.9pz",
+   "su.6a"
+  ],
+  "sfx": [
+   "tank",
+   "artillery"
+  ],
+  "zoomRel": 5,
+  "sources": [
+   "south_wiki_kiev",
+   "kirchubel_ag"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "e.berdichev_counter",
+  "at": "1941-07-10T06:00",
+  "endAt": "1941-07-16T20:00",
+  "category": "battle",
+  "precision": "day",
+  "importance": 3,
+  "side": "SU",
+  "title": {
+   "zh": "别尔基切夫反击",
+   "orig": "Контрудар под Бердичевом"
+  },
+  "body": "7 月 10–16 日，苏军第 6 集团军以第 4、15、16 机械化军残部组成“别尔基切夫集群”，向攻占别尔基切夫的德军第 11 装甲师反复反击，北面第 5 集团军同时打击日托米尔走廊。反击未能夺回城市，但第 11 装甲师在此伤亡约 2,000 人，德军南下乌曼的行动被推迟。",
+  "place": [
+   28.583,
+   49.844
+  ],
+  "units": [
+   "su.4mk",
+   "su.16mk",
+   "su.15mk",
+   "su.6a",
+   "de.11pz",
+   "de.xlviii_mk"
+  ],
+  "sfx": [
+   "tank",
+   "artillery"
+  ],
+  "zoomRel": 6,
+  "sources": [
+   "south_wiki_uman",
+   "kirchubel_ag"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "e.irpen_kiev",
+  "at": "1941-07-11T16:00",
+  "category": "battle",
+  "importance": 2,
+  "side": "DE",
+  "title": {
+   "zh": "兵临伊尔平河",
+   "orig": "Vorstoß an den Irpen"
+  },
+  "body": "7 月 9 日第 13 装甲师攻占日托米尔，11 日前锋沿“日托米尔大道”进抵基辅以西约 15 公里的伊尔平河。哈尔德禁止装甲部队强攻基辅筑垒地域，第 III 摩托化军只得在狭长的“日托米尔走廊”内承受苏军第 5、26 集团军从南北两面的侧击。",
+  "place": "@irpen",
+  "units": [
+   "de.13pz",
+   "de.iii_mk",
+   "de.25idmot",
+   "su.5a"
+  ],
+  "sfx": [
+   "tank",
+   "artillery"
+  ],
+  "zoomRel": 5.5,
+  "sources": [
+   "stahel_kiev",
+   "south_wiki_kiev"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "e.kishinev",
+  "at": "1941-07-16T12:00",
+  "category": "battle",
+  "precision": "day",
+  "importance": 3,
+  "side": "RO",
+  "title": {
+   "zh": "收复基希讷乌",
+   "orig": "Eliberarea Chișinăului"
+  },
+  "body": "7 月 16 日，罗马尼亚第 1 装甲师在德军第 LIV 军配合下进入比萨拉比亚首府基希讷乌，苏军第 9 集团军向德涅斯特河后撤。罗马尼亚此后数周收复整个比萨拉比亚和北布科维纳，随即开始驱逐和屠杀当地犹太人，大批人被押往德涅斯特河以东的“外涅斯特里亚”。",
+  "place": "@kishinev",
+  "units": [
+   "ro.1armd",
+   "ro.4a",
+   "de.liv_ak",
+   "su.9a"
+  ],
+  "sfx": [
+   "tank",
+   "march"
+  ],
+  "zoomRel": 6,
+  "sources": [
+   "south_axworthy",
+   "kirchubel_ag"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "e.lipovets",
+  "at": "1941-07-22T10:00",
+  "category": "battle",
+  "precision": "day",
+  "importance": 3,
+  "side": "SK",
+  "title": {
+   "zh": "利波韦茨之战",
+   "orig": "Boj pri Lipovci"
+  },
+  "body": "7 月 22 日，斯洛伐克皮尔福塞克快速旅在文尼察以东的利波韦茨向苏军阵地发起进攻，遭到炮火和反击，伤亡惨重，次日苏军才主动撤离小镇。恰特洛什随即宣布该旅不宜再战，撤到伊林齐休整，8 月与远征军余部改编为快速师。这是斯洛伐克军队在东线的第一次重大损失。",
+  "place": "@lipovets",
+  "units": [
+   "sk.rapid_bde",
+   "sk.army_group"
+  ],
+  "sfx": [
+   "mg",
+   "artillery"
+  ],
+  "zoomRel": 6.5,
+  "sources": [
+   "south_wiki_sk_rapid",
+   "south_wiki_sk_army"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "e.uman_pocket",
+  "at": "1941-08-02T12:00",
+  "endAt": "1941-08-08T20:00",
+  "category": "battle",
+  "importance": 1,
+  "side": "DE",
+  "title": {
+   "zh": "乌曼包围战",
+   "orig": "Kesselschlacht bei Uman"
+  },
+  "body": "第 1 装甲集群与第 17 集团军向乌曼合拢，8 月 2 日第 1 山地师在辛纽哈河与第 9 装甲师会合，3 日第 16 装甲师又在佩尔沃迈斯克与匈牙利快速军会合，把苏军第 6、12 集团军围在约 10×10 公里的地区。至 8 月 8 日约 10 万人被俘，包括两名集团军司令。",
+  "place": "@podvysokoye",
+  "units": [
+   "de.pzgr1",
+   "de.17a",
+   "de.1gd",
+   "de.9pz",
+   "de.16pz",
+   "hu.mobile_corps",
+   "su.6a",
+   "su.12a"
+  ],
+  "sfx": [
+   "artillery",
+   "stuka",
+   "tank"
+  ],
+  "zoomRel": 4.5,
+  "sources": [
+   "south_wiki_uman",
+   "kirchubel_ag",
+   "dra_4"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "e.pervomaisk_linkup",
+  "at": "1941-08-03T15:00",
+  "category": "battle",
+  "importance": 3,
+  "side": "HU",
+  "title": {
+   "zh": "佩尔沃迈斯克会师",
+   "orig": "Találkozás Pervomajszknál"
+  },
+  "body": "8 月 3 日下午，匈牙利快速军第 2 摩托化旅的前锋在大雨后的泥泞中抵达佩尔沃迈斯克以西 3 公里的路口，与从北面南下的德军第 16 装甲师会合，同日攻占佩尔沃迈斯克，在乌曼口袋外构成第二道更坚固的包围环，切断苏军第 6、12 集团军南撤的退路。",
+  "place": "@pervomaisk",
+  "units": [
+   "hu.mobile_corps",
+   "hu.2mot_bde",
+   "de.16pz"
+  ],
+  "sfx": [
+   "tank",
+   "engine"
+  ],
+  "zoomRel": 6,
+  "sources": [
+   "south_szeghy_2009",
+   "south_wiki_uman"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "e.green_brama",
+  "at": "1941-08-07T04:00",
+  "category": "surrender",
+  "precision": "hour",
+  "importance": 2,
+  "side": "SU",
+  "title": {
+   "zh": "绿色布拉马",
+   "orig": "Зелёная брама"
+  },
+  "body": "8 月 6 日夜，第 6 集团军的特别纵队向南突围，被德军第 LII 军和第 9 装甲师击溃，司令穆济琴科负伤被俘；7 日夜第 12 集团军和第 2 机械化军向东北突围，只有小股冲出，司令波涅杰林被俘。7 日下午起，波德维索科耶附近“绿色布拉马”森林里的残部陆续放下武器。",
+  "place": "@podvysokoye",
+  "units": [
+   "su.6a",
+   "su.12a",
+   "su.2mk",
+   "de.1gd",
+   "de.lii_ak"
+  ],
+  "sfx": [
+   "mg",
+   "rifle",
+   "bell"
+  ],
+  "zoomRel": 6.5,
+  "sources": [
+   "south_wiki_uman",
+   "kirchubel_ag"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "e.goloseevo",
+  "at": "1941-08-08T06:00",
+  "endAt": "1941-08-16T20:00",
+  "category": "battle",
+  "precision": "day",
+  "importance": 3,
+  "side": "SU",
+  "title": {
+   "zh": "戈洛谢耶沃森林",
+   "orig": "Бои в Голосеевском лесу"
+  },
+  "body": "8 月初，德军第 6 集团军的第 XXIX 军试图从西南强攻基辅，在戈洛谢耶沃森林和城南郊区遭到新组建的第 37 集团军顽强抵抗，空降第 5 旅（罗季姆采夫）与基辅民兵也投入反击。8 月 12 日希特勒下令停止对基辅的正面进攻，基辅守军由此坚持到 9 月。",
+  "place": "@goloseevo",
+  "units": [
+   "su.37a",
+   "su.175sd",
+   "su.206sd",
+   "de.xxix_ak"
+  ],
+  "sfx": [
+   "artillery",
+   "mg"
+  ],
+  "zoomRel": 6.5,
+  "sources": [
+   "stahel_kiev",
+   "south_wiki_kiev"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "e.odessa_siege",
+  "at": "1941-08-13T12:00",
+  "endAt": "1941-10-16T05:30",
+  "category": "siege",
+  "importance": 1,
+  "side": "RO",
+  "title": {
+   "zh": "敖德萨被围",
+   "orig": "Asediul Odesei / Оборона Одессы"
+  },
+  "body": "8 月 13 日，罗马尼亚第 4 集团军切断最后一条铁路并抵达城东海岸，将滨海集团军从陆上合围在敖德萨。守军依托三道防线和黑海舰队的海上补给坚守 73 天，罗军兵力一度增至 18 个师，屡次总攻都在城外 8–15 公里处受阻，伤亡约 9.25 万人，其中阵亡约 1.8 万人。",
+  "place": "@odessa",
+  "units": [
+   "ro.4a",
+   "ro.iii_corps",
+   "ro.v_corps",
+   "su.primorsk",
+   "su.bsf"
+  ],
+  "sfx": [
+   "artillery",
+   "ship_gun",
+   "siren"
+  ],
+  "zoomRel": 5,
+  "sources": [
+   "south_wiki_odessa_ru",
+   "south_wiki_odessa_en",
+   "south_axworthy"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "e.nikolaev",
+  "at": "1941-08-16T12:00",
+  "category": "battle",
+  "precision": "day",
+  "importance": 3,
+  "side": "DE",
+  "title": {
+   "zh": "尼古拉耶夫陷落",
+   "orig": "Einnahme von Nikolajew"
+  },
+  "body": "8 月 10–16 日，德军第 16 装甲师和匈牙利快速军两个摩托化旅在南布格河与因古尔河之间推进，苏军第 9 集团军一部在尼古拉耶夫附近被围，经激战向东突围。16 日德匈军队进入这座黑海造船中心，苏军来不及运走的在建舰船落入敌手。",
+  "place": "@nikolaev",
+  "units": [
+   "de.16pz",
+   "hu.mobile_corps",
+   "hu.1mot_bde",
+   "su.9a",
+   "su.48sk"
+  ],
+  "sfx": [
+   "artillery",
+   "tank"
+  ],
+  "zoomRel": 6,
+  "sources": [
+   "south_szeghy_2009",
+   "south_wiki_9a_ru"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "e.okuninovo_bridge",
+  "at": "1941-08-23T18:00",
+  "category": "battle",
+  "precision": "day",
+  "importance": 3,
+  "side": "DE",
+  "title": {
+   "zh": "奥库尼诺沃大桥",
+   "orig": "Dnjepr-Brücke bei Okuninowo"
+  },
+  "body": "8 月 23 日，德军第 6 集团军所部（一说为第 11 装甲师的战斗群）在基辅以北的戈尔诺斯塔伊波尔—奥库尼诺沃奇袭得手，夺取一座长约 800 米、苏军未及炸毁的第聂伯河木桥，在东岸建立桥头堡，为 9 月从北面包抄基辅、与古德里安南下的部队配合创造了条件。",
+  "place": "@okuninovo",
+  "units": [
+   "de.11pz",
+   "de.6a"
+  ],
+  "sfx": [
+   "engine",
+   "mg"
+  ],
+  "zoomRel": 6.5,
+  "sources": [
+   "stahel_kiev",
+   "south_wiki_kiev"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "e.uman_visit",
+  "at": "1941-08-28T12:00",
+  "category": "political",
+  "precision": "day",
+  "importance": 3,
+  "side": "DE",
+  "title": {
+   "zh": "希特勒与墨索里尼巡视乌曼",
+   "orig": "Hitler und Mussolini in Uman"
+  },
+  "body": "8 月 28 日，希特勒与墨索里尼在伦德施泰特陪同下飞抵乌曼，视察战场并检阅正在开赴第聂伯河的意大利远征军部队。墨索里尼借此强调意大利在东线的作用，并承诺增派兵力。此行前后，德军正就是否先南取基辅、后攻莫斯科作出最终决定。",
+  "place": "@uman",
+  "units": [
+   "it.csir",
+   "de.hgr_sued"
+  ],
+  "sfx": [
+   "engine"
+  ],
+  "zoomRel": 6,
+  "sources": [
+   "south_wiki_csir_it",
+   "kirchubel_ag"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "e.derievka",
+  "at": "1941-08-31T05:00",
+  "category": "battle",
+  "importance": 2,
+  "side": "DE",
+  "title": {
+   "zh": "杰里耶夫卡桥头堡",
+   "orig": "Brückenkopf Derijewka"
+  },
+  "body": "8 月 31 日，第 17 集团军第 LII 军在克列缅丘格东南的杰里耶夫卡强渡第聂伯河，在左岸建立桥头堡。苏军第 38 集团军连日反击未能将其摧毁，德军随即架桥并把第 1 装甲集群主力调入桥头堡，为 9 月 12 日北上与古德里安会师、合围基辅创造了条件。",
+  "place": "@derievka",
+  "units": [
+   "de.lii_ak",
+   "de.17a",
+   "de.97lid",
+   "de.100lid",
+   "su.38a"
+  ],
+  "sfx": [
+   "artillery",
+   "engine"
+  ],
+  "zoomRel": 6,
+  "sources": [
+   "stahel_kiev",
+   "south_wiki_kiev",
+   "south_lexikon_korps"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "e.kremenchug_breakout",
+  "at": "1941-09-12T06:00",
+  "category": "battle",
+  "importance": 2,
+  "side": "DE",
+  "title": {
+   "zh": "克列缅丘格突击",
+   "orig": "Ausbruch aus dem Brückenkopf Krementschug"
+  },
+  "body": "9 月 12 日清晨，克莱斯特第 1 装甲集群以第 16、9 装甲师从克列缅丘格桥头堡向北突击，冒雨在泥泞中撕开苏军第 38 集团军防线，13 日攻占卢布内，14–15 日在洛赫维察附近与古德里安会师。西南方面军的第 5、21、26、37 集团军由此陷入合围。",
+  "place": "@kremenchug",
+  "units": [
+   "de.pzgr1",
+   "de.xlviii_mk",
+   "de.16pz",
+   "de.9pz",
+   "de.14pz",
+   "su.38a"
+  ],
+  "sfx": [
+   "tank",
+   "artillery"
+  ],
+  "zoomRel": 5.5,
+  "sources": [
+   "stahel_kiev",
+   "south_wiki_kiev"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "e.schobert_killed",
+  "at": "1941-09-12T12:00",
+  "category": "air",
+  "precision": "day",
+  "importance": 3,
+  "side": "DE",
+  "title": {
+   "zh": "朔贝特之死",
+   "orig": "Tod Eugen von Schoberts"
+  },
+  "body": "9 月 12 日，第 11 集团军司令朔贝特乘坐菲泽勒“鹳”式联络机视察前线，在尼古拉耶夫以东降落时误入苏军布设的雷区，与飞行员一同身亡，成为东线第一位阵亡的德军集团军司令。曼施坦因从北方集团军群调来，于 9 月 17 日接任司令。",
+  "place": [
+   32.295,
+   47.025
+  ],
+  "units": [
+   "de.11a"
+  ],
+  "sfx": [
+   "engine",
+   "explosion"
+  ],
+  "zoomRel": 6,
+  "sources": [
+   "kirchubel_ag",
+   "dra_4"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "e.kiev_falls",
+  "at": "1941-09-19T12:00",
+  "category": "battle",
+  "importance": 2,
+  "side": "DE",
+  "title": {
+   "zh": "基辅陷落",
+   "orig": "Einnahme von Kiew"
+  },
+  "body": "斯大林迟至 9 月 17 日夜才同意放弃基辅，第 37 集团军 18 日起撤离，炸毁第聂伯河上的桥梁。9 月 19 日，德军第 XXIX 军的第 71、95、296 步兵师从西面和北面攻入乌克兰首府，在城堡上升起德国国旗。几天后，市中心克列夏季克大街遭苏军预埋炸弹连环爆炸。",
+  "place": "@kiev",
+  "units": [
+   "de.xxix_ak",
+   "de.xvii_ak",
+   "de.71id",
+   "de.95id",
+   "de.296id",
+   "su.37a"
+  ],
+  "sfx": [
+   "march",
+   "explosion"
+  ],
+  "zoomRel": 6,
+  "sources": [
+   "stahel_kiev",
+   "south_wiki_kiev"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "e.kirponos_killed",
+  "at": "1941-09-20T14:00",
+  "category": "battle",
+  "importance": 2,
+  "side": "SU",
+  "title": {
+   "zh": "基尔波诺斯阵亡",
+   "orig": "Гибель Кирпоноса"
+  },
+  "body": "9 月 20 日，西南方面军司令部和第 5 集团军司令部的突围纵队在洛赫维察西南的舒梅科沃树林被德军包围。方面军司令基尔波诺斯在战斗中阵亡，参谋长图皮科夫亦战死，第 5 集团军司令波塔波夫负伤被俘。西南方面军的指挥体系就此瓦解。",
+  "place": "@shumeikovo",
+  "units": [
+   "su.5a"
+  ],
+  "sfx": [
+   "mg",
+   "rifle"
+  ],
+  "zoomRel": 7,
+  "sources": [
+   "stahel_kiev",
+   "south_wiki_kiev",
+   "erickson_road"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "e.grigorievka_landing",
+  "at": "1941-09-22T01:30",
+  "category": "naval",
+  "importance": 3,
+  "side": "SU",
+  "title": {
+   "zh": "格里戈里耶夫卡登陆",
+   "orig": "Григорьевский десант"
+  },
+  "body": "9 月 22 日凌晨，黑海舰队把陆战队第 3 团约 1,900 人送上敖德萨以东的格里戈里耶夫卡，同时空降一支小分队破坏敌后通信。第 157、421 步兵师随即从东段出击，击溃罗马尼亚第 13、15 步兵师，把敌军逐退 5–8 公里，暂时解除了罗军炮兵对港口的威胁。",
+  "place": "@grigorievka",
+  "units": [
+   "su.bsf",
+   "su.157sd",
+   "su.421sd",
+   "su.primorsk",
+   "ro.13id",
+   "ro.15id"
+  ],
+  "sfx": [
+   "ship_gun",
+   "mg"
+  ],
+  "zoomRel": 6.5,
+  "sources": [
+   "south_wiki_odessa_ru",
+   "south_wiki_odessa_en"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "e.perekop",
+  "at": "1941-09-24T05:00",
+  "endAt": "1941-09-27T20:00",
+  "category": "battle",
+  "importance": 2,
+  "side": "DE",
+  "title": {
+   "zh": "突破彼列科普",
+   "orig": "Durchbruch bei Perekop"
+  },
+  "body": "9 月 24 日，第 11 集团军第 LIV 军在宽仅 7 公里、没有任何掩蔽的彼列科普地峡强攻古老的“土耳其墙”，第 46、73 步兵师在炮火和斯图卡支援下激战三天，26 日突破防线，27 日攻占亚美尼亚斯克。苏军第 51 集团军退守南面的伊顺阵地，克里米亚门户已被撬开。",
+  "place": "@perekop",
+  "units": [
+   "de.liv_ak",
+   "de.46id",
+   "de.73id",
+   "su.51a",
+   "su.156sd"
+  ],
+  "sfx": [
+   "artillery",
+   "stuka"
+  ],
+  "zoomRel": 6,
+  "sources": [
+   "south_wiki_crimea_ru",
+   "kirchubel_ag"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "e.nogai_counter",
+  "at": "1941-09-26T06:00",
+  "endAt": "1941-09-30T20:00",
+  "category": "battle",
+  "precision": "day",
+  "importance": 3,
+  "side": "SU",
+  "title": {
+   "zh": "诺盖草原反攻",
+   "orig": "Наступление в Ногайской степи"
+  },
+  "body": "趁曼施坦因主力攻击彼列科普，苏军南方面军以第 9、18 集团军于 9 月 26 日在梅利托波尔以北发起反攻，重点打击罗马尼亚第 3 集团军。曼施坦因急调“警卫旗队”和第 XLIX 山地军堵住缺口，反攻数日后停顿，为德军第 1 装甲集团军的侧后包抄提供了机会。",
+  "place": [
+   35.167,
+   46.999
+  ],
+  "units": [
+   "su.9a",
+   "su.18a",
+   "ro.3a",
+   "ro.4mtn",
+   "de.lssah",
+   "de.xlix_gk",
+   "de.xxx_ak"
+  ],
+  "sfx": [
+   "artillery",
+   "tank"
+  ],
+  "zoomRel": 5.5,
+  "sources": [
+   "south_wiki_18a_ru",
+   "south_lexikon_korps",
+   "south_axworthy"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "e.kiev_pocket_end",
+  "at": "1941-09-26T12:00",
+  "category": "surrender",
+  "importance": 1,
+  "side": "DE",
+  "title": {
+   "zh": "基辅包围战结束",
+   "orig": "Kesselschlacht um Kiew"
+  },
+  "body": "9 月 26 日，基辅以东口袋内的抵抗基本停止，西南方面军第 5、21、26、37 集团军大部被歼。德方宣称俘虏约 66.5 万人，苏方统计西南方面军在基辅战役中不可恢复损失约 61.6 万人。这是战争史上规模最大的合围战，但耗去德军一个月时间，莫斯科攻势推迟到 10 月。",
+  "place": [
+   32.9,
+   49.99
+  ],
+  "units": [
+   "su.5a",
+   "su.26a",
+   "su.37a",
+   "de.6a",
+   "de.pzgr1",
+   "de.17a"
+  ],
+  "sfx": [
+   "bell",
+   "stamp"
+  ],
+  "zoomRel": 4.5,
+  "sources": [
+   "stahel_kiev",
+   "south_wiki_kiev",
+   "krivosheev"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "e.petrikovka",
+  "at": "1941-09-30T12:00",
+  "endAt": "1941-09-30T20:00",
+  "category": "battle",
+  "precision": "day",
+  "importance": 3,
+  "side": "IT",
+  "title": {
+   "zh": "彼得里科夫卡合围",
+   "orig": "Battaglia di Petrikovka"
+  },
+  "body": "9 月 28–30 日，意大利远征军从第聂伯河右岸桥头堡发起钳形攻势，“帕苏比奥”师渡过奥列利河从察里琴卡南下，“都灵”师和第 3 快速师从南面推进，30 日在彼得里科夫卡合拢，俘获约 1 万名苏军。意军自身伤亡不足 300 人，这是远征军在东线的第一次大胜。",
+  "place": "@petrikovka",
+  "units": [
+   "it.csir",
+   "it.pasubio",
+   "it.torino",
+   "it.celere"
+  ],
+  "sfx": [
+   "artillery",
+   "cavalry"
+  ],
+  "zoomRel": 6,
+  "sources": [
+   "south_wiki_csir_it",
+   "south_messe_1947"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "e.azov_pocket",
+  "at": "1941-10-07T12:00",
+  "endAt": "1941-10-10T20:00",
+  "category": "battle",
+  "importance": 2,
+  "side": "DE",
+  "title": {
+   "zh": "亚速海战役",
+   "orig": "Schlacht am Asowschen Meer"
+  },
+  "body": "10 月 1 日起，第 1 装甲集团军从第聂伯罗彼得罗夫斯克—扎波罗热桥头堡向东南猛插，7 日在奥西片科以北与沿海岸东进的“警卫旗队”会合，把苏军第 9、18 集团军主力围困在切尔尼戈夫卡一带。第 18 集团军司令斯米尔诺夫突围时阵亡，德方称俘虏约 10 万人。",
+  "place": "@chernigovka",
+  "units": [
+   "de.pzgr1",
+   "de.xiv_mk",
+   "de.iii_mk",
+   "de.14pz",
+   "de.lssah",
+   "su.18a",
+   "su.9a",
+   "ro.3a"
+  ],
+  "sfx": [
+   "tank",
+   "stuka"
+  ],
+  "zoomRel": 5,
+  "sources": [
+   "south_wiki_18a_ru",
+   "south_lexikon_korps",
+   "kirchubel_ag"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "e.odessa_evacuation",
+  "at": "1941-10-16T05:30",
+  "category": "naval",
+  "importance": 2,
+  "side": "SU",
+  "title": {
+   "zh": "撤离敖德萨",
+   "orig": "Эвакуация Одессы"
+  },
+  "body": "大本营 9 月 30 日下令放弃敖德萨，加强克里米亚。10 月 1–16 日，黑海舰队在罗军毫无察觉的情况下运走约 8.6 万名官兵、1.5 万名居民和 462 门火炮，最后一批船于 16 日 5 时 30 分离港。当晚罗马尼亚军队进入这座空城，结束了历时 73 天的围攻。",
+  "place": "@odessa",
+  "units": [
+   "su.primorsk",
+   "su.bsf",
+   "ro.4a"
+  ],
+  "sfx": [
+   "ship_gun",
+   "siren"
+  ],
+  "zoomRel": 5.5,
+  "sources": [
+   "south_wiki_odessa_ru",
+   "south_wiki_odessa_en"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "e.ishun",
+  "at": "1941-10-18T06:00",
+  "endAt": "1941-10-28T20:00",
+  "category": "battle",
+  "importance": 1,
+  "side": "DE",
+  "title": {
+   "zh": "伊顺突破与克里米亚",
+   "orig": "Durchbruch bei Ischun"
+  },
+  "body": "10 月 18–28 日，曼施坦因以第 LIV、XXX 军在伊顺湖群间的狭窄地带强攻苏军第 51 集团军，从敖德萨调来的滨海集团军仓促投入反击。苏军防线 28 日崩溃，德军随即分兵追击：一路经辛菲罗波尔扑向塞瓦斯托波尔，一路东进刻赤。11 月中旬除塞瓦斯托波尔外，克里米亚尽失。",
+  "place": "@ishun",
+  "units": [
+   "de.11a",
+   "de.liv_ak",
+   "de.xxx_ak",
+   "de.22id",
+   "su.51a",
+   "su.primorsk"
+  ],
+  "sfx": [
+   "artillery",
+   "stuka",
+   "tank"
+  ],
+  "zoomRel": 5,
+  "sources": [
+   "south_wiki_crimea_ru",
+   "kirchubel_ag",
+   "south_lexikon_korps"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "e.stalino",
+  "at": "1941-10-20T12:00",
+  "category": "battle",
+  "precision": "day",
+  "importance": 3,
+  "side": "DE",
+  "title": {
+   "zh": "斯大林诺陷落",
+   "orig": "Einnahme von Stalino"
+  },
+  "body": "10 月 20 日，第 XLIX 山地军和意大利远征军在泥泞和初雪中攻入顿巴斯工业中心斯大林诺，意军第 3 狙击兵团夺取西北车站。苏军南方面军在撤退前炸毁矿井和工厂，大批设备和工人东迁，德军得到的是一座停摆的工业城市。11 月 2 日意军又攻占戈尔洛夫卡。",
+  "place": "@stalino",
+  "units": [
+   "de.xlix_gk",
+   "de.1gd",
+   "it.csir",
+   "it.celere",
+   "su.12a_2"
+  ],
+  "sfx": [
+   "artillery",
+   "rifle"
+  ],
+  "zoomRel": 6,
+  "sources": [
+   "south_wiki_csir_it",
+   "kirchubel_ag"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "e.odessa_massacre",
+  "at": "1941-10-22T17:35",
+  "endAt": "1941-10-24T20:00",
+  "category": "atrocity",
+  "importance": 2,
+  "side": "RO",
+  "title": {
+   "zh": "敖德萨大屠杀",
+   "orig": "Masacrul de la Odesa"
+  },
+  "body": "10 月 22 日傍晚，苏军撤退时预埋的炸弹炸毁罗马尼亚军事司令部所在的原内务部大楼，炸死包括格洛戈扬努将军在内的数十人。安东内斯库下令报复，罗马尼亚军队和宪兵在 22–24 日枪杀、绞死和烧死敖德萨犹太居民，达利尼克等地的屠杀遇难者估计达 2.5 万至 3.4 万人。",
+  "place": "@odessa",
+  "units": [
+   "ro.4a"
+  ],
+  "sfx": [
+   "explosion",
+   "bell"
+  ],
+  "zoomRel": 6,
+  "sources": [
+   "south_wiki_odessa_en",
+   "south_axworthy"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "e.kharkov_falls",
+  "at": "1941-10-24T12:00",
+  "category": "battle",
+  "importance": 2,
+  "side": "DE",
+  "title": {
+   "zh": "哈尔科夫陷落",
+   "orig": "Einnahme von Charkow"
+  },
+  "body": "10 月 20–24 日，第 6 集团军第 LV、XVII 军冒着秋雨从西面和西南面攻打苏联第四大城市哈尔科夫，第 57 步兵师和第 101 轻步兵师于 24 日攻入城区。苏军第 38 集团军边打边撤，此前已把拖拉机厂、坦克厂等大批工厂设备东迁。同日德军亦攻占别尔哥罗德。",
+  "place": "@kharkov",
+  "units": [
+   "de.6a",
+   "de.lv_ak",
+   "de.xvii_ak",
+   "de.57id",
+   "de.101lid",
+   "su.38a",
+   "su.216sd"
+  ],
+  "sfx": [
+   "artillery",
+   "rifle"
+  ],
+  "zoomRel": 6,
+  "sources": [
+   "south_lexikon_korps",
+   "kirchubel_ag"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "e.kursk_falls",
+  "at": "1941-11-02T12:00",
+  "category": "battle",
+  "precision": "day",
+  "importance": 3,
+  "side": "DE",
+  "title": {
+   "zh": "库尔斯克陷落",
+   "orig": "Einnahme von Kursk"
+  },
+  "body": "泥泞季节过后，第 XLVIII 摩托化军于 11 月 1 日恢复推进，第 9 装甲师和第 95 步兵师 2 日攻占库尔斯克。德军第 2 集团军随后向东攻往季姆、希格雷和叶列茨方向，但在严寒和苏军第 40、13 集团军的抵抗下，12 月初在希格雷一带停顿。",
+  "place": "@kursk",
+  "units": [
+   "de.xlviii_mk",
+   "de.9pz",
+   "de.95id",
+   "su.40a"
+  ],
+  "sfx": [
+   "tank"
+  ],
+  "zoomRel": 6,
+  "sources": [
+   "south_lexikon_div",
+   "south_lexikon_korps"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "e.sevastopol_assault",
+  "at": "1941-11-11T06:00",
+  "endAt": "1941-11-21T20:00",
+  "category": "siege",
+  "importance": 2,
+  "side": "DE",
+  "title": {
+   "zh": "第一次强攻塞瓦斯托波尔",
+   "orig": "Erster Angriff auf Sewastopol"
+  },
+  "body": "10 月底德军进抵塞瓦斯托波尔外围，未能从行进中夺城。11 月 11 日，第 11 集团军以约 6 万人发起第一次强攻，主攻巴拉克拉瓦方向，在滨海集团军、陆战队和黑海舰队舰炮的抵抗下仅推进 1–4 公里，21 日后转入围困。要塞此后又坚守了七个多月。",
+  "place": [
+   33.7,
+   44.55
+  ],
+  "units": [
+   "de.11a",
+   "de.liv_ak",
+   "de.xxx_ak",
+   "su.primorsk",
+   "su.bsf",
+   "su.25sd"
+  ],
+  "sfx": [
+   "artillery",
+   "ship_gun"
+  ],
+  "zoomRel": 6,
+  "sources": [
+   "south_lexikon_korps",
+   "south_wiki_crimea_ru"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "e.kerch_falls",
+  "at": "1941-11-16T12:00",
+  "category": "battle",
+  "importance": 2,
+  "side": "DE",
+  "title": {
+   "zh": "刻赤失守",
+   "orig": "Einnahme von Kertsch"
+  },
+  "body": "伊顺突破后，德军沿克里米亚北部草原向东追击苏军第 51 集团军，11 月 3 日攻占费奥多西亚，16 日第 46、170 步兵师攻占刻赤。苏军残部在黑海舰队掩护下渡过刻赤海峡撤到塔曼半岛，克里米亚东部尽失；一个多月后苏军又在此发动刻赤—费奥多西亚登陆。",
+  "place": "@kerch",
+  "units": [
+   "de.46id",
+   "de.170id",
+   "su.51a",
+   "su.156sd"
+  ],
+  "sfx": [
+   "artillery",
+   "ship_gun"
+  ],
+  "zoomRel": 6,
+  "sources": [
+   "south_wiki_crimea_ru",
+   "kirchubel_ag"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "e.rostov_falls",
+  "at": "1941-11-21T12:00",
+  "category": "battle",
+  "importance": 2,
+  "side": "DE",
+  "title": {
+   "zh": "罗斯托夫陷落",
+   "orig": "Einnahme von Rostow"
+  },
+  "body": "11 月 17 日，第 1 装甲集团军第 III 摩托化军在严寒中恢复进攻，第 13、14 装甲师、第 60 摩托化师和“警卫旗队”从西北面突入，21 日攻占“高加索门户”罗斯托夫，“警卫旗队”夺取顿河大桥。苏军第 56 集团军退过顿河，但德军战线已过度延伸，侧翼暴露。",
+  "place": "@rostov",
+  "units": [
+   "de.iii_mk",
+   "de.lssah",
+   "de.13pz",
+   "de.14pz",
+   "de.60idmot",
+   "su.56a"
+  ],
+  "sfx": [
+   "tank",
+   "artillery"
+  ],
+  "zoomRel": 5.5,
+  "sources": [
+   "south_wiki_rostov_ru",
+   "kirchubel_ag"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "e.rostov_liberated",
+  "at": "1941-11-29T12:00",
+  "endAt": "1941-12-02T20:00",
+  "category": "battle",
+  "importance": 1,
+  "side": "SU",
+  "title": {
+   "zh": "收复罗斯托夫",
+   "orig": "Ростовская наступательная операция"
+  },
+  "body": "11 月 17 日起，苏军第 37 集团军从北面向第 1 装甲集团军后方突击；27 日第 56 集团军踏冰渡过顿河，与第 9 集团军经三天巷战于 29 日收复罗斯托夫。克莱斯特被迫退向米乌斯河，这是德军在东线第一次被迫放弃攻占的大城市，也是苏军冬季反攻的序幕。",
+  "place": "@rostov",
+  "units": [
+   "su.56a",
+   "su.9a",
+   "su.37a_2",
+   "su.18a",
+   "de.iii_mk",
+   "de.lssah"
+  ],
+  "sfx": [
+   "artillery",
+   "tank",
+   "rifle"
+  ],
+  "zoomRel": 5,
+  "sources": [
+   "south_wiki_rostov_ru",
+   "kirchubel_ag"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "e.rundstedt_dismissed",
+  "at": "1941-12-01T12:00",
+  "category": "political",
+  "precision": "day",
+  "importance": 2,
+  "side": "DE",
+  "title": {
+   "zh": "伦德施泰特被撤职",
+   "orig": "Entlassung Rundstedts"
+  },
+  "body": "伦德施泰特批准第 1 装甲集团军退守米乌斯河，希特勒下令停止后撤。伦德施泰特回电称若不收回成命就请另择他人，希特勒于 12 月 1 日解除其职务，由赖歇瑙接任。赖歇瑙很快也承认必须撤到米乌斯河，希特勒随后亲赴马里乌波尔，最终认可了这一后撤。",
+  "place": "@mariupol",
+  "units": [
+   "de.hgr_sued",
+   "de.pzgr1",
+   "de.6a"
+  ],
+  "sfx": [
+   "typewriter",
+   "radio"
+  ],
+  "zoomRel": 4,
+  "sources": [
+   "kirchubel_ag",
+   "dra_4",
+   "south_wiki_rostov_ru"
+  ],
+  "confidence": "high"
+ }
+]

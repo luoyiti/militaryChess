@@ -1,0 +1,10 @@
+{
+ "at": "1939-12-13T06:00",
+ "control": {},
+ "transition": "step",
+ "note": "交战开始：此后态势由舰船航迹、射击与命中直接表示。",
+ "sources": [
+  "harwood_despatch"
+ ],
+ "confidence": "high"
+}

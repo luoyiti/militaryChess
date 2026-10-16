@@ -34,13 +34,14 @@ parity.accepted.json     迁移期的旧版对比记录（新战役不需要）
 |---|---|
 | `id` `status` | id 须与目录名一致，形如 `<地名>-<年份>`；status：`published` / `draft`（只在开发服务器）/ `planned`（只在总台） |
 | `title` | 年份章、中文名、副题、英文名、原文名、行动代号、页面标题与描述、图标色 |
-| `time` | `epoch`（相对小时的零点）、`start` / `end`（可播放区间）、`dataEnd`、`tzLabel`、`hoursPerSec` |
+| `time` | `epoch`（相对小时的零点）、`start` / `end`（可播放区间）、`dataEnd`、`tzLabel`、`hoursPerSec`、`pace`（分段变速播放，时间轴按播放时长展开）、`utcOffset`（叙事时钟相对 UTC，3D 昼夜） |
 | `sides` | 每方：`id` `prefix` `name` `coalition`（axis/allies/comintern/neutral）、棋子配色 `counter`、页面色 `css`、箭头色、3D 色、缺省模型、导演飞机颜色与入场方向 |
 | `control` | `mode`（territory / air）、`landBit`、`theatreBits`、`deferred`（延迟并入战区的比特与时刻）、`slots`（1–2 个占领槽：`key` 对应 fronts 文件里的键、图例文字、本土比特、纹样与配色）、`remainder`（剩余战区） |
 | `phases` `marks` | 阶段（开始时刻、名称、简称、说明、可选镜头中心）、时间轴标记 |
 | `theme` | 主题色、战区国界色、剩余战区底色 |
-| `map` | 全图适配（整个画布或经纬度框）、3D 起始中心、六角格尺寸、加粗边界的国家、国家与海域大字、地名引线偏移、区域按钮、实时占位等 |
-| `sandbox` | 3D：高程夸张、手办尺寸、镜头、雾、软件渲染回退 |
+| `map` | 全图适配（整个画布或经纬度框）、最大缩放 `maxZoom`、3D 起始中心、六角格尺寸、加粗边界的国家、国家与海域大字、地名引线偏移、区域按钮、实时占位等 |
+| `sandbox` | 3D：`kind`（terrain 地形沙盘 / naval 海战沙盘）、高程夸张、手办尺寸、镜头、雾、软件渲染回退 |
+| `naval` | 海战层：剪影放大的缩放、航迹图刻度、尾迹、海图网格、距离单位、电文纸带（见 [NAVAL.md](NAVAL.md)） |
 | `director` | 运镜方式（point / frame）、驻留后的回位方式、驻留时长、缺省缩放、警报规则 |
 | `audio` | 配乐时间表或单曲底乐、战场氛围强度曲线、开场号角、音效别名、音量面板 |
 | `ui` | 图层开关、章节导航、时间轴选项、简报/态势/图例/战斗序列的文字与布局、部队模型说明 |
@@ -65,6 +66,7 @@ parity.accepted.json     迁移期的旧版对比记录（新战役不需要）
 | `overlays.json` | `Overlay[]` 静态叠加层（空域分区、雷达圈、防线） |
 | `equipment.json` | `Equipment[]` 装备卡 |
 | `forces.json` | 兵力概况 |
+| `naval/*.json` | 海战数据（射击、命中、鱼雷、烟幕、损伤、电文），多个文件合并，见 [NAVAL.md](NAVAL.md) |
 | `ext/<插件>/<名>.json` | 插件自有数据，原样交给插件（`db.ext[插件][名]`） |
 
 不认识的文件会被校验报错，避免数据放错位置后静默失效。
@@ -85,6 +87,7 @@ parity.accepted.json     迁移期的旧版对比记录（新战役不需要）
 - `type`：hq armor light motorized infantry mountain cavalry cavalry_mech border fortress naval marine artillery reserve airborne air aviation fighter bomber
 - `track[]`：时间严格递增；`status` 从该点起生效（reserve active engaged encircled withdrawing destroyed surrendered interned disbanded evacuated ineffective inactive，后七种为终止状态，之后淡出）；`movement`（land/sea/air/rail）表示从该点到下一点的移动方式；空战用 `flightPhase`（at_base/outbound/engaged/returning）与 `altitudeM`
 - 上级单位可以没有轨迹（取下属质心）；`display: "container"` 表示有下属时不作为棋子显示；`base` 为空军基地；`schematic` 表示位置是编排示意
+- 舰船：`ship` 档案（舰种、舰级、尺寸、航速、武器布置）让部队画成俯视剪影，海上航段按轨迹点的 `course`（航向，度）/ `speedKn`（航速，节）做曲线插值，见 [NAVAL.md](NAVAL.md)
 
 ### Route（推进路线）
 
@@ -119,4 +122,4 @@ parity.accepted.json     迁移期的旧版对比记录（新战役不需要）
 
 ## 3D 模型
 
-`model` 与 `sides[].defaultModel` 必须是已注册的模型（`engine/three/models/`）：坦克与装甲车（pz1–pz4、pz35t、pz38t、sdkfz231、7tp、tks、wz34、t26、bt7）、步兵与骑兵（inf_de、inf_pl、inf_su、inf_gb、inf_gr…、cav_pl、cav_su、para_de）、火炮 art_gun、示意标记（navy_token、air_token、inf_allied）、1940 年飞机（spitfire、hurricane、bf109、bf110、he111、do17、ju87、ju88）。新模型用 `registerModel(id, def, spec)` 注册并在 `specs.ts` 写明真实尺寸，`tests/engine/models.test.ts` 会检查三角形预算与尺寸误差。
+`model` 与 `sides[].defaultModel` 必须是已注册的模型（`engine/three/models/`）：坦克与装甲车（pz1–pz4、pz35t、pz38t、stug3、sdkfz231、7tp、tks、wz34、t26、bt7、t34、kv1）、步兵与骑兵（inf_de、inf_pl、inf_su、inf_gb、inf_gr、inf_fi、inf_ro…、cav_pl、cav_su、para_de）、火炮 art_gun、示意标记（navy_token、air_token、inf_allied）、1940 年飞机（spitfire、hurricane、bf109、bf110、he111、do17、ju87、ju88）。新模型用 `registerModel(id, def, spec)` 注册并在 `specs.ts` 写明真实尺寸，`tests/engine/models.test.ts` 会检查三角形预算与尺寸误差。

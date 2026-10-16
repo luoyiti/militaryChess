@@ -1,0 +1,2284 @@
+[
+ {
+  "id": "ro.3a",
+  "side": "RO",
+  "echelon": "army",
+  "type": "hq",
+  "parent": "de.11a",
+  "name": {
+   "zh": "罗马尼亚第 3 集团军",
+   "orig": "Armata a 3-a",
+   "short": "RO 3.A"
+  },
+  "commander": {
+   "zh": "杜米特雷斯库",
+   "orig": "Petre Dumitrescu"
+  },
+  "strength": {
+   "men": 75000
+  },
+  "model": "inf_ro",
+  "track": [
+   {
+    "at": "1941-06-22T03:15",
+    "pos": [
+     26.467,
+     47.8
+    ],
+    "status": "active",
+    "note": "布科维纳与摩尔达维亚北部"
+   },
+   {
+    "at": "1941-07-03T20:00",
+    "pos": [
+     26.17,
+     48.05
+    ],
+    "status": "engaged",
+    "note": "收复北布科维纳"
+   },
+   {
+    "at": "1941-07-08T20:00",
+    "pos": [
+     26.49,
+     48.457
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-07-17T20:00",
+    "pos": [
+     27.398,
+     48.446
+    ],
+    "status": "engaged",
+    "note": "强渡德涅斯特河"
+   },
+   {
+    "at": "1941-07-30T20:00",
+    "pos": [
+     28.6,
+     48.3
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-08-12T20:00",
+    "pos": [
+     30.1,
+     47.9
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-08-22T20:00",
+    "pos": [
+     31.3,
+     47.45
+    ],
+    "status": "active",
+    "note": "进抵南布格河"
+   },
+   {
+    "at": "1941-09-03T20:00",
+    "pos": [
+     33.1,
+     46.84
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-09-20T20:00",
+    "pos": [
+     34.4,
+     46.75
+    ],
+    "status": "engaged",
+    "note": "在诺盖草原掩护第 11 集团军左翼"
+   },
+   {
+    "at": "1941-09-28T20:00",
+    "pos": [
+     35.067,
+     46.699
+    ],
+    "status": "engaged",
+    "note": "苏军第 9、18 集团军反攻"
+   },
+   {
+    "at": "1941-10-07T20:00",
+    "pos": [
+     35.867,
+     46.849
+    ],
+    "status": "engaged",
+    "note": "亚速海战役"
+   },
+   {
+    "at": "1941-10-20T20:00",
+    "pos": [
+     34.9,
+     46.35
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-11-10T20:00",
+    "pos": [
+     34.81,
+     46.17
+    ],
+    "status": "active",
+    "note": "集团军部回国整补，山地军留在克里米亚"
+   },
+   {
+    "at": "1941-11-20T20:00",
+    "pos": [
+     34.76,
+     46.19
+    ],
+    "status": "inactive",
+    "note": "撤回国内"
+   }
+  ],
+  "history": "罗马尼亚第 3 集团军由杜米特雷斯库指挥，辖山地军、骑兵军等，开战时归德军第 11 集团军指挥。7 月初收复北布科维纳，5 日进入切尔诺夫策，17 日起强渡德涅斯特河，随后在第 11 集团军左翼越过南布格河、进抵第聂伯河。9 月下旬在梅利托波尔以北的诺盖草原首当其冲承受苏军第 9、18 集团军的反攻，第 4 山地旅一度后撤，10 月初随德军反击参加亚速海战役。年底集团军部回国，山地军和部分骑兵旅留在克里米亚。",
+  "sources": [
+   "south_axworthy",
+   "wiki_barbarossa_oob",
+   "kirchubel_ag"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "ro.mtn_corps",
+  "side": "RO",
+  "echelon": "corps",
+  "type": "mountain",
+  "parent": "ro.3a",
+  "name": {
+   "zh": "罗马尼亚山地军",
+   "orig": "Corpul de Munte",
+   "short": "RO CMun"
+  },
+  "commander": {
+   "zh": "阿夫拉梅斯库",
+   "orig": "Gheorghe Avramescu"
+  },
+  "strength": {
+   "men": 30000
+  },
+  "model": "inf_ro",
+  "track": [
+   {
+    "at": "1941-06-22T03:15",
+    "pos": [
+     26.02,
+     47.89
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-07-03T20:00",
+    "pos": [
+     25.72,
+     48.11
+    ],
+    "status": "engaged",
+    "note": "攻入北布科维纳"
+   },
+   {
+    "at": "1941-07-05T20:00",
+    "pos": "@chernovtsy",
+    "status": "engaged",
+    "note": "收复切尔诺夫策"
+   },
+   {
+    "at": "1941-07-09T20:00",
+    "pos": [
+     26.54,
+     48.507
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-07-17T20:00",
+    "pos": [
+     27.298,
+     48.426
+    ],
+    "status": "engaged",
+    "note": "第 1、4 山地旅率先渡德涅斯特河"
+   },
+   {
+    "at": "1941-07-29T20:00",
+    "pos": [
+     28.55,
+     48.4
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-08-12T20:00",
+    "pos": [
+     30.2,
+     48.0
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-08-22T20:00",
+    "pos": [
+     31.25,
+     47.5
+    ],
+    "status": "active",
+    "note": "渡南布格河"
+   },
+   {
+    "at": "1941-09-05T20:00",
+    "pos": [
+     33.15,
+     46.82
+    ],
+    "status": "active",
+    "note": "渡第聂伯河"
+   },
+   {
+    "at": "1941-09-20T20:00",
+    "pos": [
+     34.45,
+     46.65
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-09-28T20:00",
+    "pos": [
+     35.017,
+     46.649
+    ],
+    "status": "engaged",
+    "note": "诺盖草原苦战"
+   },
+   {
+    "at": "1941-10-07T20:00",
+    "pos": [
+     35.717,
+     46.749
+    ],
+    "status": "engaged",
+    "note": "亚速海战役"
+   },
+   {
+    "at": "1941-10-20T20:00",
+    "pos": [
+     34.6,
+     46.2
+    ],
+    "status": "active",
+    "note": "南下克里米亚"
+   },
+   {
+    "at": "1941-10-30T20:00",
+    "pos": [
+     33.95,
+     45.74
+    ],
+    "status": "engaged",
+    "note": "随德军突入克里米亚"
+   },
+   {
+    "at": "1941-11-06T20:00",
+    "pos": [
+     34.25,
+     44.85
+    ],
+    "status": "engaged",
+    "note": "肃清克里米亚山区"
+   },
+   {
+    "at": "1941-11-20T20:00",
+    "pos": [
+     34.0,
+     44.7
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-05T20:00",
+    "pos": [
+     33.773,
+     44.65
+    ],
+    "status": "engaged",
+    "note": "围困塞瓦斯托波尔"
+   }
+  ],
+  "history": "罗马尼亚山地军由阿夫拉梅斯库指挥，辖第 1、2、4 山地旅，7 月初经斯托罗日涅茨、米海伊莱尼—霍京方向收复北布科维纳，17 日第 1、4 山地旅率先渡德涅斯特河，此后在德军第 11 集团军左翼越过南布格河和第聂伯河，参加诺盖草原防御和亚速海战役。10 月底进入克里米亚，在山区清剿并参加对塞瓦斯托波尔的围攻，11 月第 2 山地旅回国。",
+  "sources": [
+   "south_axworthy",
+   "wiki_barbarossa_oob",
+   "kirchubel_ag"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "ro.1mtn",
+  "side": "RO",
+  "echelon": "brigade",
+  "type": "mountain",
+  "parent": "ro.mtn_corps",
+  "name": {
+   "zh": "罗马尼亚第 1 山地旅",
+   "orig": "Brigada 1 Mixtă Munte",
+   "short": "RO 1.Mt"
+  },
+  "commander": {
+   "zh": "拉斯卡尔",
+   "orig": "Mihail Lascăr"
+  },
+  "strength": {
+   "men": 12000
+  },
+  "model": "inf_ro",
+  "track": [
+   {
+    "at": "1941-06-22T03:15",
+    "pos": [
+     26.07,
+     47.94
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-07-03T20:00",
+    "pos": [
+     25.77,
+     48.16
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-07-06T20:00",
+    "pos": [
+     25.986,
+     48.342
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-07-10T20:00",
+    "pos": [
+     26.54,
+     48.557
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-07-17T20:00",
+    "pos": [
+     27.348,
+     48.476
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-07-29T20:00",
+    "pos": [
+     28.6,
+     48.45
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-08-12T20:00",
+    "pos": [
+     30.25,
+     48.05
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-08-22T20:00",
+    "pos": [
+     31.3,
+     47.55
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-09-05T20:00",
+    "pos": [
+     33.25,
+     46.87
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-09-20T20:00",
+    "pos": [
+     34.5,
+     46.7
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-09-28T20:00",
+    "pos": [
+     35.067,
+     46.699
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-07T20:00",
+    "pos": [
+     35.767,
+     46.799
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-20T20:00",
+    "pos": [
+     34.65,
+     46.25
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-30T20:00",
+    "pos": [
+     34.0,
+     45.79
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-06T20:00",
+    "pos": [
+     34.3,
+     44.9
+    ],
+    "status": "engaged",
+    "note": "克里米亚山区清剿"
+   },
+   {
+    "at": "1941-11-20T20:00",
+    "pos": [
+     34.05,
+     44.75
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-05T20:00",
+    "pos": [
+     33.798,
+     44.675
+    ],
+    "status": "engaged"
+   }
+  ],
+  "history": "第 1 山地旅参加收复北布科维纳和强渡德涅斯特河，随山地军转战南布格河、第聂伯河和诺盖草原，10 月底进入克里米亚，在山区清剿游击队并参加塞瓦斯托波尔外围作战，1941 年后留驻克里米亚。",
+  "sources": [
+   "south_axworthy",
+   "wiki_barbarossa_oob",
+   "kirchubel_ag"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "ro.2mtn",
+  "side": "RO",
+  "echelon": "brigade",
+  "type": "mountain",
+  "parent": "ro.mtn_corps",
+  "name": {
+   "zh": "罗马尼亚第 2 山地旅",
+   "orig": "Brigada 2 Mixtă Munte",
+   "short": "RO 2.Mt"
+  },
+  "commander": {
+   "zh": "杜米特拉凯",
+   "orig": "Ioan Dumitrache"
+  },
+  "strength": {
+   "men": 12000
+  },
+  "model": "inf_ro",
+  "track": [
+   {
+    "at": "1941-06-22T03:15",
+    "pos": [
+     25.94,
+     47.84
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-07-03T20:00",
+    "pos": [
+     25.64,
+     48.06
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-07-06T20:00",
+    "pos": [
+     25.856,
+     48.242
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-07-10T20:00",
+    "pos": [
+     26.41,
+     48.457
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-07-17T20:00",
+    "pos": [
+     27.218,
+     48.376
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-07-29T20:00",
+    "pos": [
+     28.47,
+     48.35
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-08-12T20:00",
+    "pos": [
+     30.12,
+     47.95
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-08-22T20:00",
+    "pos": [
+     31.17,
+     47.45
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-09-05T20:00",
+    "pos": [
+     33.12,
+     46.77
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-09-20T20:00",
+    "pos": [
+     34.37,
+     46.6
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-09-28T20:00",
+    "pos": [
+     34.937,
+     46.599
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-07T20:00",
+    "pos": [
+     35.637,
+     46.699
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-20T20:00",
+    "pos": [
+     34.52,
+     46.15
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-30T20:00",
+    "pos": [
+     34.4,
+     46.15
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-11-10T20:00",
+    "pos": [
+     34.71,
+     46.22
+    ],
+    "status": "inactive",
+    "note": "回国休整"
+   }
+  ],
+  "history": "第 2 山地旅由杜米特拉凯指挥，沿米海伊莱尼—霍京方向进攻比萨拉比亚北部，随后渡德涅斯特河、南布格河和第聂伯河，参加亚速海战役。五个月作战伤亡 1,926 人，11 月轮换回国。",
+  "sources": [
+   "south_axworthy",
+   "wiki_barbarossa_oob",
+   "kirchubel_ag"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "ro.4mtn",
+  "side": "RO",
+  "echelon": "brigade",
+  "type": "mountain",
+  "parent": "ro.mtn_corps",
+  "name": {
+   "zh": "罗马尼亚第 4 山地旅",
+   "orig": "Brigada 4 Mixtă Munte",
+   "short": "RO 4.Mt"
+  },
+  "commander": {
+   "zh": "马诺留",
+   "orig": "Gheorghe Manoliu"
+  },
+  "strength": {
+   "men": 12000
+  },
+  "model": "inf_ro",
+  "track": [
+   {
+    "at": "1941-06-22T03:15",
+    "pos": [
+     26.14,
+     47.81
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-07-03T20:00",
+    "pos": [
+     25.84,
+     48.03
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-07-06T20:00",
+    "pos": [
+     26.056,
+     48.212
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-07-10T20:00",
+    "pos": [
+     26.61,
+     48.427
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-07-17T20:00",
+    "pos": [
+     27.418,
+     48.346
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-07-29T20:00",
+    "pos": [
+     28.67,
+     48.32
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-08-12T20:00",
+    "pos": [
+     30.32,
+     47.92
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-08-22T20:00",
+    "pos": [
+     31.37,
+     47.42
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-09-05T20:00",
+    "pos": [
+     33.32,
+     46.74
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-09-20T20:00",
+    "pos": [
+     34.57,
+     46.57
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-09-27T20:00",
+    "pos": [
+     34.917,
+     46.699
+    ],
+    "status": "engaged",
+    "note": "苏军反攻中被迫后撤"
+   },
+   {
+    "at": "1941-09-30T20:00",
+    "pos": [
+     34.667,
+     46.599
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1941-10-07T20:00",
+    "pos": [
+     35.837,
+     46.669
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-20T20:00",
+    "pos": [
+     34.72,
+     46.12
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-30T20:00",
+    "pos": [
+     34.07,
+     45.66
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-06T20:00",
+    "pos": [
+     34.37,
+     44.77
+    ],
+    "status": "engaged",
+    "note": "克里米亚山区清剿"
+   },
+   {
+    "at": "1941-11-20T20:00",
+    "pos": [
+     34.12,
+     44.62
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-05T20:00",
+    "pos": [
+     33.833,
+     44.61
+    ],
+    "status": "engaged"
+   }
+  ],
+  "history": "第 4 山地旅由马诺留指挥，7 月 17 日率先渡德涅斯特河。9 月 26–30 日在梅利托波尔以北承受苏军反攻，被迫后撤，10 月初随德军反击，此后进入克里米亚留驻。",
+  "sources": [
+   "south_axworthy",
+   "wiki_barbarossa_oob",
+   "kirchubel_ag"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "ro.cav_corps",
+  "side": "RO",
+  "echelon": "corps",
+  "type": "cavalry",
+  "parent": "ro.3a",
+  "name": {
+   "zh": "罗马尼亚骑兵军",
+   "orig": "Corpul de Cavalerie",
+   "short": "RO CCav"
+  },
+  "commander": {
+   "zh": "拉科维策",
+   "orig": "Mihail Racoviță"
+  },
+  "strength": {
+   "men": 20000
+  },
+  "model": "inf_ro",
+  "track": [
+   {
+    "at": "1941-06-22T03:15",
+    "pos": [
+     26.767,
+     47.85
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-07-03T20:00",
+    "pos": [
+     27.1,
+     47.94
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-07-09T20:00",
+    "pos": [
+     27.7,
+     48.21
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-07-20T20:00",
+    "pos": [
+     28.2,
+     48.31
+    ],
+    "status": "engaged",
+    "note": "渡德涅斯特河"
+   },
+   {
+    "at": "1941-07-30T20:00",
+    "pos": [
+     28.9,
+     48.15
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-08-12T20:00",
+    "pos": [
+     30.5,
+     47.8
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-08-22T20:00",
+    "pos": [
+     31.5,
+     47.25
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-09-05T20:00",
+    "pos": [
+     33.3,
+     46.79
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-09-25T20:00",
+    "pos": [
+     34.8,
+     46.45
+    ],
+    "status": "engaged",
+    "note": "诺盖草原南段"
+   },
+   {
+    "at": "1941-10-04T20:00",
+    "pos": [
+     35.6,
+     46.55
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-08T20:00",
+    "pos": [
+     36.69,
+     46.76
+    ],
+    "status": "engaged",
+    "note": "沿亚速海岸追击"
+   },
+   {
+    "at": "1941-10-20T20:00",
+    "pos": [
+     34.86,
+     46.2
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-11-01T20:00",
+    "pos": [
+     34.5,
+     45.61
+    ],
+    "status": "active",
+    "note": "进入克里米亚"
+   },
+   {
+    "at": "1941-11-16T20:00",
+    "pos": [
+     35.28,
+     45.08
+    ],
+    "status": "active",
+    "note": "守卫克里米亚东部海岸"
+   },
+   {
+    "at": "1941-12-05T20:00",
+    "pos": [
+     35.23,
+     45.08
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "罗马尼亚骑兵军由拉科维策指挥，辖第 5、6、8 骑兵旅，在第 3 集团军右翼经比萨拉比亚北部推进，7 月下旬渡德涅斯特河，8 月渡南布格河，9 月在诺盖草原南段作战，10 月亚速海战役中沿海岸追击至奥西片科，此后第 8 骑兵旅等进入克里米亚担任海岸警戒。",
+  "sources": [
+   "south_axworthy",
+   "wiki_barbarossa_oob",
+   "kirchubel_ag"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "ro.5cav",
+  "side": "RO",
+  "echelon": "brigade",
+  "type": "cavalry",
+  "parent": "ro.cav_corps",
+  "name": {
+   "zh": "罗马尼亚第 5 骑兵旅",
+   "orig": "Brigada 5 Cavalerie",
+   "short": "RO 5.Cv"
+  },
+  "strength": {
+   "men": 6500
+  },
+  "model": "inf_ro",
+  "track": [
+   {
+    "at": "1941-06-22T03:15",
+    "pos": [
+     26.817,
+     47.9
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-07-03T20:00",
+    "pos": [
+     27.15,
+     47.99
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-07-09T20:00",
+    "pos": [
+     27.75,
+     48.26
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-07-20T20:00",
+    "pos": [
+     28.25,
+     48.36
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-07-30T20:00",
+    "pos": [
+     28.95,
+     48.2
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-08-12T20:00",
+    "pos": [
+     30.55,
+     47.85
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-08-22T20:00",
+    "pos": [
+     31.55,
+     47.3
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-09-05T20:00",
+    "pos": [
+     33.35,
+     46.84
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-09-25T20:00",
+    "pos": [
+     34.85,
+     46.5
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-04T20:00",
+    "pos": [
+     35.65,
+     46.6
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-08T20:00",
+    "pos": [
+     36.74,
+     46.81
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-20T20:00",
+    "pos": [
+     34.91,
+     46.25
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-11-05T20:00",
+    "pos": [
+     35.11,
+     46.37
+    ],
+    "status": "active",
+    "note": "亚速海北岸警戒"
+   },
+   {
+    "at": "1941-12-05T20:00",
+    "pos": [
+     35.16,
+     46.42
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "第 5 骑兵旅随骑兵军经比萨拉比亚北部推进，渡德涅斯特河和南布格河，在诺盖草原和亚速海战役中作战，年底在亚速海北岸担任警戒。",
+  "sources": [
+   "south_axworthy",
+   "wiki_barbarossa_oob",
+   "kirchubel_ag"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "ro.8cav",
+  "side": "RO",
+  "echelon": "brigade",
+  "type": "cavalry",
+  "parent": "ro.cav_corps",
+  "name": {
+   "zh": "罗马尼亚第 8 骑兵旅",
+   "orig": "Brigada 8 Cavalerie",
+   "short": "RO 8.Cv"
+  },
+  "strength": {
+   "men": 6500
+  },
+  "model": "inf_ro",
+  "track": [
+   {
+    "at": "1941-06-22T03:15",
+    "pos": [
+     26.717,
+     47.8
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-07-03T20:00",
+    "pos": [
+     27.05,
+     47.89
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-07-09T20:00",
+    "pos": [
+     27.65,
+     48.16
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-07-20T20:00",
+    "pos": [
+     28.15,
+     48.26
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-07-30T20:00",
+    "pos": [
+     28.85,
+     48.1
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-08-12T20:00",
+    "pos": [
+     30.45,
+     47.75
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-08-22T20:00",
+    "pos": [
+     31.45,
+     47.2
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-09-05T20:00",
+    "pos": [
+     33.25,
+     46.74
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-09-25T20:00",
+    "pos": [
+     34.75,
+     46.4
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-04T20:00",
+    "pos": [
+     35.55,
+     46.5
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-08T20:00",
+    "pos": [
+     36.64,
+     46.71
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-20T20:00",
+    "pos": [
+     34.81,
+     46.15
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-11-01T20:00",
+    "pos": [
+     34.4,
+     45.66
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-11-16T20:00",
+    "pos": [
+     35.18,
+     45.11
+    ],
+    "status": "active",
+    "note": "克里米亚东部海岸警戒"
+   },
+   {
+    "at": "1941-12-05T20:00",
+    "pos": [
+     35.18,
+     45.11
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "第 8 骑兵旅随骑兵军转战比萨拉比亚、南布格河和诺盖草原，亚速海战役后进入克里米亚，在刻赤半岛西侧和费奥多西亚一带担任海岸警戒。",
+  "sources": [
+   "south_axworthy",
+   "wiki_barbarossa_oob",
+   "kirchubel_ag"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "ro.6cav",
+  "side": "RO",
+  "echelon": "brigade",
+  "type": "cavalry",
+  "parent": "de.xi_ak",
+  "name": {
+   "zh": "罗马尼亚第 6 骑兵旅",
+   "orig": "Brigada 6 Cavalerie",
+   "short": "RO 6.Cv"
+  },
+  "strength": {
+   "men": 6500
+  },
+  "model": "inf_ro",
+  "track": [
+   {
+    "at": "1941-06-22T03:15",
+    "pos": [
+     27.15,
+     47.74
+    ],
+    "status": "active",
+    "note": "隶属德军第 XI 军"
+   },
+   {
+    "at": "1941-07-03T20:00",
+    "pos": [
+     27.5,
+     47.84
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-07-09T20:00",
+    "pos": [
+     27.629,
+     48.012
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-07-18T20:00",
+    "pos": [
+     27.798,
+     48.346
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-07-30T20:00",
+    "pos": [
+     28.95,
+     48.4
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-08-12T20:00",
+    "pos": [
+     30.4,
+     47.95
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-08-25T20:00",
+    "pos": [
+     31.7,
+     47.25
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-09-10T20:00",
+    "pos": [
+     33.5,
+     46.84
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-09-26T20:00",
+    "pos": [
+     34.9,
+     46.6
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-08T20:00",
+    "pos": [
+     36.79,
+     46.81
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-25T20:00",
+    "pos": [
+     35.01,
+     46.27
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-12-05T20:00",
+    "pos": [
+     35.06,
+     46.32
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "第 6 骑兵旅开战时配属德军第 XI 军，7 月初随其渡普鲁特河、进抵德涅斯特河，此后回归骑兵军，参加诺盖草原和亚速海战役，年底在亚速海北岸警戒。",
+  "sources": [
+   "south_axworthy",
+   "wiki_barbarossa_oob",
+   "kirchubel_ag"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "ro.4a",
+  "side": "RO",
+  "echelon": "army",
+  "type": "hq",
+  "parent": "de.11a",
+  "name": {
+   "zh": "罗马尼亚第 4 集团军",
+   "orig": "Armata a 4-a",
+   "short": "RO 4.A"
+  },
+  "commander": {
+   "zh": "丘佩尔克",
+   "orig": "Nicolae Ciupercă"
+  },
+  "strength": {
+   "men": 160000
+  },
+  "model": "inf_ro",
+  "track": [
+   {
+    "at": "1941-06-22T03:15",
+    "pos": [
+     28.15,
+     46.67
+    ],
+    "status": "active",
+    "note": "普鲁特河下游"
+   },
+   {
+    "at": "1941-07-04T20:00",
+    "pos": [
+     28.17,
+     46.7
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-07-16T20:00",
+    "pos": [
+     28.763,
+     46.96
+    ],
+    "status": "engaged",
+    "note": "收复基希讷乌"
+   },
+   {
+    "at": "1941-07-26T20:00",
+    "pos": [
+     29.38,
+     46.88
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-08-06T20:00",
+    "pos": [
+     29.88,
+     46.78
+    ],
+    "status": "engaged",
+    "note": "渡德涅斯特河"
+   },
+   {
+    "at": "1941-08-13T20:00",
+    "pos": [
+     30.18,
+     46.793
+    ],
+    "status": "engaged",
+    "note": "敖德萨陆上被围"
+   },
+   {
+    "at": "1941-08-28T20:00",
+    "pos": [
+     30.373,
+     46.532
+    ],
+    "status": "engaged",
+    "note": "第二次总攻"
+   },
+   {
+    "at": "1941-09-09T20:00",
+    "pos": [
+     30.373,
+     46.532
+    ],
+    "status": "engaged",
+    "note": "亚科比奇接任司令"
+   },
+   {
+    "at": "1941-10-04T20:00",
+    "pos": [
+     30.423,
+     46.532
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-16T20:00",
+    "pos": [
+     30.673,
+     46.482
+    ],
+    "status": "engaged",
+    "note": "罗军进入敖德萨"
+   },
+   {
+    "at": "1941-10-30T20:00",
+    "pos": [
+     30.423,
+     46.582
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-11-10T20:00",
+    "pos": [
+     29.48,
+     46.83
+    ],
+    "status": "inactive",
+    "note": "撤回国内整编"
+   }
+  ],
+  "history": "罗马尼亚第 4 集团军由丘佩尔克指挥，7 月从普鲁特河下游收复比萨拉比亚南部，16 日进入基希讷乌，8 月初在蒂吉纳与杜伯萨雷之间渡德涅斯特河，8 月 13 日将敖德萨从陆上合围。此后两个多月的强攻在三道防线前伤亡惨重，9 月 9 日亚科比奇接任司令，兵力一度增至 18 个师。10 月 1–16 日苏军经海路撤走守军，16 日罗军进入空城，此战罗军伤亡约 9.25 万人，其中阵亡约 1.8 万。随后集团军撤回国内整编。",
+  "sources": [
+   "south_wiki_odessa_ru",
+   "south_wiki_odessa_en",
+   "south_axworthy",
+   "kirchubel_ag"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "ro.iii_corps",
+  "side": "RO",
+  "echelon": "corps",
+  "type": "infantry",
+  "parent": "ro.4a",
+  "name": {
+   "zh": "罗马尼亚第 III 军",
+   "orig": "Corpul 3 Armată",
+   "short": "RO III"
+  },
+  "commander": {
+   "zh": "阿塔纳修",
+   "orig": "Vasile Atanasiu"
+  },
+  "model": "inf_ro",
+  "track": [
+   {
+    "at": "1941-06-22T03:15",
+    "pos": [
+     28.14,
+     46.3
+    ],
+    "status": "active",
+    "note": "弗尔丘桥头堡"
+   },
+   {
+    "at": "1941-07-04T20:00",
+    "pos": [
+     28.39,
+     46.4
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-07-16T20:00",
+    "pos": [
+     28.963,
+     46.86
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-07-26T20:00",
+    "pos": [
+     29.48,
+     46.78
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-08-06T20:00",
+    "pos": [
+     29.83,
+     46.73
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-08-12T20:00",
+    "pos": [
+     30.23,
+     46.693
+    ],
+    "status": "engaged",
+    "note": "沿拉兹杰利纳亚—敖德萨轴线进攻"
+   },
+   {
+    "at": "1941-08-20T20:00",
+    "pos": [
+     30.35,
+     46.47
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-09-10T20:00",
+    "pos": [
+     30.43,
+     46.45
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-16T20:00",
+    "pos": [
+     30.623,
+     46.482
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-01T20:00",
+    "pos": [
+     30.35,
+     46.47
+    ],
+    "status": "inactive",
+    "note": "回国"
+   }
+  ],
+  "history": "第 III 军开战时在普鲁特河下游弗尔丘一带，7 月收复比萨拉比亚中部，8 月沿拉兹杰利纳亚—敖德萨轴线从西面进攻敖德萨，在别利亚耶夫卡—达利尼克方向的苏军防线前反复强攻，10 月 16 日进入城区。",
+  "sources": [
+   "south_wiki_odessa_ru",
+   "south_wiki_odessa_en",
+   "south_axworthy"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "ro.v_corps",
+  "side": "RO",
+  "echelon": "corps",
+  "type": "infantry",
+  "parent": "ro.4a",
+  "name": {
+   "zh": "罗马尼亚第 V 军",
+   "orig": "Corpul 5 Armată",
+   "short": "RO V"
+  },
+  "commander": {
+   "zh": "莱文蒂",
+   "orig": "Gheorghe Leventi"
+  },
+  "model": "inf_ro",
+  "track": [
+   {
+    "at": "1941-06-22T03:15",
+    "pos": [
+     28.295,
+     46.005
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-07-12T20:00",
+    "pos": [
+     28.35,
+     46.48
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-07-20T20:00",
+    "pos": [
+     29.28,
+     46.98
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-08-06T20:00",
+    "pos": [
+     29.265,
+     47.212
+    ],
+    "status": "engaged",
+    "note": "在蒂吉纳与杜伯萨雷之间强渡德涅斯特河"
+   },
+   {
+    "at": "1941-08-10T20:00",
+    "pos": [
+     30.3,
+     47.0
+    ],
+    "status": "engaged",
+    "note": "向北迂回卡塔尔吉后南下"
+   },
+   {
+    "at": "1941-08-16T20:00",
+    "pos": [
+     30.62,
+     46.64
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-09-22T20:00",
+    "pos": [
+     30.72,
+     46.66
+    ],
+    "status": "engaged",
+    "note": "苏军东段反击"
+   },
+   {
+    "at": "1941-10-16T20:00",
+    "pos": [
+     30.723,
+     46.562
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-01T20:00",
+    "pos": [
+     30.62,
+     46.64
+    ],
+    "status": "inactive",
+    "note": "回国"
+   }
+  ],
+  "history": "第 V 军辖第 15 步兵师、第 1 骑兵旅，并于 8 月 5–6 日夜加强罗马尼亚第 1 装甲师，在蒂吉纳与杜伯萨雷之间强渡德涅斯特河，向北迂回卡塔尔吉后南下，从北面压向敖德萨。9 月 22 日苏军东段反击时，该方向第 13、15 步兵师遭受重创。",
+  "sources": [
+   "south_wiki_odessa_ru",
+   "south_wiki_odessa_en",
+   "south_axworthy"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "ro.1armd",
+  "side": "RO",
+  "echelon": "division",
+  "type": "armor",
+  "parent": "ro.v_corps",
+  "name": {
+   "zh": "罗马尼亚第 1 装甲师",
+   "orig": "Divizia 1 Blindată",
+   "short": "RO 1.Bl"
+  },
+  "commander": {
+   "zh": "西昂",
+   "orig": "Ioan Sion"
+  },
+  "strength": {
+   "men": 12000,
+   "tanks": 126
+  },
+  "equipment": [
+   {
+    "id": "r2",
+    "count": 105
+   }
+  ],
+  "model": "pz35t",
+  "track": [
+   {
+    "at": "1941-06-22T03:15",
+    "pos": [
+     27.638,
+     47.259
+    ],
+    "status": "reserve",
+    "note": "配属德军第 XI 军"
+   },
+   {
+    "at": "1941-07-03T20:00",
+    "pos": [
+     27.76,
+     47.33
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-07-10T20:00",
+    "pos": [
+     28.3,
+     47.3
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-07-16T20:00",
+    "pos": "@kishinev",
+    "status": "engaged",
+    "note": "首先进入基希讷乌"
+   },
+   {
+    "at": "1941-07-25T20:00",
+    "pos": [
+     29.38,
+     46.93
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-08-06T20:00",
+    "pos": [
+     29.265,
+     47.162
+    ],
+    "status": "engaged",
+    "note": "加强第 V 军渡河"
+   },
+   {
+    "at": "1941-08-14T20:00",
+    "pos": [
+     30.5,
+     46.72
+    ],
+    "status": "engaged",
+    "note": "强攻敖德萨北面防线"
+   },
+   {
+    "at": "1941-08-24T20:00",
+    "pos": [
+     30.55,
+     46.68
+    ],
+    "status": "engaged",
+    "note": "坦克损失惨重"
+   },
+   {
+    "at": "1941-09-08T20:00",
+    "pos": [
+     29.98,
+     46.893
+    ],
+    "status": "withdrawing",
+    "note": "撤出前线"
+   },
+   {
+    "at": "1941-09-20T20:00",
+    "pos": [
+     29.28,
+     46.83
+    ],
+    "status": "ineffective",
+    "note": "撤回国内重建"
+   }
+  ],
+  "history": "罗马尼亚第 1 装甲师由西昂指挥，装备约 105 辆捷克制 R-2 轻型坦克，开战时配属德军第 XI 军，7 月 16 日首先进入基希讷乌。8 月加强第 V 军进攻敖德萨，在城北坚固阵地前坦克损失惨重，9 月撤回国内重建。",
+  "sources": [
+   "south_wiki_odessa_ru",
+   "south_wiki_odessa_en",
+   "south_axworthy",
+   "south_axworthy",
+   "wiki_barbarossa_oob",
+   "kirchubel_ag"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "ro.1gd",
+  "side": "RO",
+  "echelon": "division",
+  "type": "infantry",
+  "parent": "ro.iii_corps",
+  "name": {
+   "zh": "罗马尼亚近卫师",
+   "orig": "Divizia 1 Gardă",
+   "short": "RO Gd"
+  },
+  "commander": {
+   "zh": "绍瓦",
+   "orig": "Nicolae Șova"
+  },
+  "strength": {
+   "men": 15000
+  },
+  "model": "inf_ro",
+  "track": [
+   {
+    "at": "1941-06-22T03:15",
+    "pos": [
+     28.19,
+     46.38
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-07-04T20:00",
+    "pos": [
+     28.44,
+     46.45
+    ],
+    "status": "engaged",
+    "note": "弗尔丘桥头堡"
+   },
+   {
+    "at": "1941-07-18T20:00",
+    "pos": [
+     28.963,
+     46.81
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-08-06T20:00",
+    "pos": [
+     29.78,
+     46.68
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-08-14T20:00",
+    "pos": [
+     30.5,
+     46.42
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-08-28T20:00",
+    "pos": [
+     30.55,
+     46.4
+    ],
+    "status": "engaged",
+    "note": "达利尼克方向强攻"
+   },
+   {
+    "at": "1941-09-25T20:00",
+    "pos": [
+     30.58,
+     46.42
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-16T20:00",
+    "pos": [
+     30.673,
+     46.442
+    ],
+    "status": "engaged",
+    "note": "进入敖德萨"
+   },
+   {
+    "at": "1941-11-01T20:00",
+    "pos": [
+     30.423,
+     46.492
+    ],
+    "status": "inactive",
+    "note": "回国整编"
+   }
+  ],
+  "history": "近卫师在弗尔丘桥头堡打响比萨拉比亚战役，随后参加收复基希讷乌，8 月起在西南面达利尼克方向强攻敖德萨，伤亡惨重。",
+  "sources": [
+   "south_wiki_odessa_ru",
+   "south_wiki_odessa_en",
+   "south_axworthy",
+   "south_axworthy",
+   "wiki_barbarossa_oob",
+   "kirchubel_ag"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "ro.15id",
+  "side": "RO",
+  "echelon": "division",
+  "type": "infantry",
+  "parent": "ro.v_corps",
+  "name": {
+   "zh": "罗马尼亚第 15 步兵师",
+   "orig": "Divizia 15 Infanterie",
+   "short": "RO 15.D"
+  },
+  "commander": {
+   "zh": "波佩斯库",
+   "orig": "Cosma Marin Popescu"
+  },
+  "strength": {
+   "men": 15000
+  },
+  "model": "inf_ro",
+  "track": [
+   {
+    "at": "1941-06-22T03:15",
+    "pos": [
+     28.05,
+     46.57
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-07-10T20:00",
+    "pos": [
+     28.55,
+     46.62
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-07-20T20:00",
+    "pos": [
+     29.013,
+     46.96
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-08-06T20:00",
+    "pos": [
+     29.165,
+     47.212
+    ],
+    "status": "engaged",
+    "note": "强渡德涅斯特河"
+   },
+   {
+    "at": "1941-08-16T20:00",
+    "pos": [
+     30.67,
+     46.67
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-09-22T20:00",
+    "pos": [
+     30.79,
+     46.64
+    ],
+    "status": "engaged",
+    "note": "被苏军格里戈里耶夫卡登陆反击击溃"
+   },
+   {
+    "at": "1941-10-02T20:00",
+    "pos": [
+     30.77,
+     46.66
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-16T20:00",
+    "pos": [
+     30.753,
+     46.542
+    ],
+    "status": "engaged",
+    "note": "进入敖德萨"
+   },
+   {
+    "at": "1941-11-01T20:00",
+    "pos": [
+     30.503,
+     46.592
+    ],
+    "status": "inactive",
+    "note": "回国整编"
+   }
+  ],
+  "history": "第 15 步兵师在杜伯萨雷附近强渡德涅斯特河，8 月中旬起在北面和东北面围攻敖德萨，9 月 22 日苏军以第 157、421 师和陆战队在格里戈里耶夫卡登陆反击，该师与第 13 师被击溃，损失大量火炮。",
+  "sources": [
+   "south_wiki_odessa_ru",
+   "south_wiki_odessa_en",
+   "south_axworthy",
+   "south_axworthy",
+   "wiki_barbarossa_oob",
+   "kirchubel_ag"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "ro.13id",
+  "side": "RO",
+  "echelon": "division",
+  "type": "infantry",
+  "parent": "ro.v_corps",
+  "name": {
+   "zh": "罗马尼亚第 13 步兵师",
+   "orig": "Divizia 13 Infanterie",
+   "short": "RO 13.D"
+  },
+  "commander": {
+   "zh": "罗津",
+   "orig": "Gheorghe Rozin"
+  },
+  "strength": {
+   "men": 15000
+  },
+  "model": "inf_ro",
+  "track": [
+   {
+    "at": "1941-06-22T03:15",
+    "pos": [
+     27.66,
+     47.38
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-07-03T20:00",
+    "pos": [
+     27.81,
+     47.38
+    ],
+    "status": "engaged",
+    "note": "随德军第 XXX 军渡普鲁特河"
+   },
+   {
+    "at": "1941-07-12T20:00",
+    "pos": [
+     28.029,
+     47.862
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-07-25T20:00",
+    "pos": [
+     28.6,
+     47.6
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-08-12T20:00",
+    "pos": [
+     29.8,
+     47.1
+    ],
+    "status": "active",
+    "note": "南调敖德萨"
+   },
+   {
+    "at": "1941-08-25T20:00",
+    "pos": [
+     30.74,
+     46.66
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-09-22T20:00",
+    "pos": [
+     30.82,
+     46.65
+    ],
+    "status": "engaged",
+    "note": "遭苏军反击重创"
+   },
+   {
+    "at": "1941-10-02T20:00",
+    "pos": [
+     30.78,
+     46.67
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-16T20:00",
+    "pos": [
+     30.773,
+     46.552
+    ],
+    "status": "engaged",
+    "note": "进入敖德萨"
+   },
+   {
+    "at": "1941-11-01T20:00",
+    "pos": [
+     30.523,
+     46.602
+    ],
+    "status": "inactive",
+    "note": "回国整编"
+   }
+  ],
+  "history": "第 13 步兵师开战时配属德军第 XXX 军，7 月初渡普鲁特河进攻伯尔齐方向，8 月南调敖德萨东北面，9 月 22 日在苏军格里戈里耶夫卡登陆反击中遭到重创。",
+  "sources": [
+   "south_wiki_odessa_ru",
+   "south_wiki_odessa_en",
+   "south_axworthy",
+   "south_axworthy",
+   "wiki_barbarossa_oob",
+   "kirchubel_ag"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "ro.border_div",
+  "side": "RO",
+  "echelon": "division",
+  "type": "infantry",
+  "parent": "ro.iii_corps",
+  "name": {
+   "zh": "罗马尼亚边防师",
+   "orig": "Divizia de Grăniceri",
+   "short": "RO Gr"
+  },
+  "commander": {
+   "zh": "波托佩亚努",
+   "orig": "Gheorghe Potopeanu"
+  },
+  "strength": {
+   "men": 15000
+  },
+  "model": "inf_ro",
+  "track": [
+   {
+    "at": "1941-06-22T03:15",
+    "pos": [
+     28.245,
+     45.855
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-07-12T20:00",
+    "pos": [
+     28.245,
+     45.935
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-07-22T20:00",
+    "pos": [
+     28.545,
+     46.105
+    ],
+    "status": "engaged",
+    "note": "肃清比萨拉比亚南部"
+   },
+   {
+    "at": "1941-07-28T20:00",
+    "pos": [
+     29.95,
+     46.24
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-08-06T20:00",
+    "pos": [
+     30.35,
+     46.34
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-08-18T20:00",
+    "pos": [
+     30.57,
+     46.36
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-09-20T20:00",
+    "pos": [
+     30.6,
+     46.38
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-16T20:00",
+    "pos": [
+     30.673,
+     46.402
+    ],
+    "status": "engaged",
+    "note": "进入敖德萨"
+   },
+   {
+    "at": "1941-11-01T20:00",
+    "pos": [
+     30.423,
+     46.452
+    ],
+    "status": "inactive",
+    "note": "回国整编"
+   }
+  ],
+  "history": "边防师开战时守普鲁特河下游与多瑙河一线，7 月肃清比萨拉比亚南部，8 月经阿克尔曼一带渡德涅斯特河口，从南面奥维季奥波尔方向进攻敖德萨。",
+  "sources": [
+   "south_wiki_odessa_ru",
+   "south_wiki_odessa_en",
+   "south_axworthy",
+   "south_axworthy",
+   "wiki_barbarossa_oob",
+   "kirchubel_ag"
+  ],
+  "confidence": "low"
+ }
+]

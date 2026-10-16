@@ -73,6 +73,10 @@ export interface TrackPoint {
   movement?: Movement; // 从此航点至下一航点的移动方式（缺省 land）
   flightPhase?: FlightPhase; // 空战：飞行阶段（设置后线性插值）
   altitudeM?: number;
+  /** 海战：该点的航向（度，真北顺时针）。舰船（unit.ship）的海上航段按航向/航速做三次 Hermite 曲线插值 */
+  course?: number;
+  /** 海战：该点的航速（节） */
+  speedKn?: number;
 }
 
 export interface Unit {
@@ -94,8 +98,137 @@ export interface Unit {
   display?: 'container';
   schematic?: boolean; // 位置为编排示意
   modelNote?: string;
+  /** 舰船档案（海战）：设置后 2D 画成俯视剪影、轨迹按航向曲线插值、部队卡显示损伤图 */
+  ship?: ShipInfo;
   sources: string[];
   confidence: Conf;
+}
+
+// ---------- 舰船（海战） ----------
+export const SHIP_KINDS = [
+  'battleship', 'battlecruiser', 'pocket_battleship', 'carrier', 'heavy_cruiser', 'light_cruiser', 'destroyer', 'submarine',
+  'auxiliary', 'tanker', 'merchant', 'liner', 'tug', 'boat',
+] as const;
+export type ShipKind = (typeof SHIP_KINDS)[number];
+/** 舰炮 / 鱼雷：射程圈、开火特效与损伤图（atPct = 自舰艏起的位置百分比） */
+export interface ShipWeapon {
+  id: string; // 'main' / 'A' / 'tt_port' …（hits.gunsOut、fire.weapon 引用）
+  label: string; // '28 厘米主炮（前炮塔「安东」）'
+  cal: string; // '28 cm SK C/28'
+  kind: 'main' | 'secondary' | 'aa' | 'torpedo';
+  mounts?: number;
+  perMount?: number;
+  rangeKm?: number;
+  atPct?: number;
+}
+export interface ShipInfo {
+  kind: ShipKind;
+  class?: I18n; // 舰级
+  pennant?: string; // 舷号
+  flag?: string; // 船旗国（商船）
+  lengthM?: number;
+  beamM?: number;
+  tonnage?: number; // 军舰：标准排水量（吨）；商船：总吨位
+  tonnageKind?: 'std' | 'full' | 'grt';
+  maxKn?: number;
+  crew?: number;
+  weapons?: ShipWeapon[];
+  /** 2D 剪影样式（缺省按 kind）：graf_spee / county / york / leander / merchant … */
+  silhouette?: string;
+}
+
+// ---------- 海战数据 data/naval/*.json ----------
+/** 射击时段：shooter 在 [from, to] 内持续向 target 射击（特效按武器的齐射间隔重放；暂停时画射击线） */
+export interface FirePeriod {
+  id: string;
+  shooter: string;
+  target: string;
+  weapon: string; // shooter.ship.weapons[].id，或 'main' / 'secondary'
+  from: ISO;
+  to: ISO;
+  rounds?: number; // 本时段发射弹数（史料）
+  salvoSec?: number; // 齐射间隔（秒，缺省按武器）
+  note?: string;
+  sources: string[];
+  confidence: Conf;
+}
+/** 命中：目标闪光、损伤记录；gunsOut 列出被打哑的武器 id */
+export interface NavalHit {
+  id: string;
+  at: ISO;
+  shooter?: string;
+  target: string;
+  weapon?: string;
+  location?: string; // 中文部位：「B 炮塔」「舰桥」
+  effect: string; // 中文后果
+  killed?: number;
+  wounded?: number;
+  severity: 1 | 2 | 3; // 1 = 致命/重创 … 3 = 轻伤
+  gunsOut?: string[];
+  precision?: 'minute' | 'approx';
+  sources: string[];
+  confidence: Conf;
+}
+/** 鱼雷齐射：从发射舰当时位置沿 bearing（缺省指向 target）扇形航行 */
+export interface TorpedoLaunch {
+  id: string;
+  at: ISO;
+  shooter: string;
+  count: number;
+  target?: string;
+  bearing?: number; // 度，真北顺时针
+  spreadDeg?: number; // 扇面总角（缺省 count×2°）
+  speedKn?: number; // 缺省 30
+  rangeKm?: number; // 缺省 12
+  result?: string; // 中文结果
+  sources: string[];
+  confidence: Conf;
+}
+/** 烟幕：沿 ship 在 [from, to] 的航迹铺设，结束后 persistMin 分钟内消散 */
+export interface SmokeScreen {
+  id: string;
+  ship: string;
+  from: ISO;
+  to: ISO;
+  kind?: 'screen' | 'funnel';
+  widthKm?: number; // 缺省 0.8
+  persistMin?: number; // 缺省 25
+  driftDeg?: number; // 风向下游（度，真北顺时针，缺省不漂移）
+  note?: string;
+  sources: string[];
+  confidence?: Conf;
+}
+/** 损伤状态：从 at 起生效，直到下一条 */
+export interface DamageState {
+  ship: string;
+  at: ISO;
+  integrity: number; // 0..1（1 = 完好）
+  speedKn?: number; // 当前最大航速
+  gunsOut?: string[];
+  fire?: boolean;
+  listDeg?: number;
+  note: string;
+  sources: string[];
+}
+/** 电文 / 信号：电文纸带逐条打出 */
+export interface Signal {
+  id: string;
+  at: ISO;
+  from: string; // 部队 id 或文字
+  to?: string;
+  kind?: 'signal' | 'distress' | 'radio' | 'order' | 'report' | 'diplomatic';
+  text: string; // 原文
+  zh: string; // 中文
+  sources: string[];
+  confidence?: Conf;
+}
+export interface NavalData {
+  fire?: FirePeriod[];
+  hits?: NavalHit[];
+  torpedoes?: TorpedoLaunch[];
+  smoke?: SmokeScreen[];
+  damage?: DamageState[];
+  signals?: Signal[];
 }
 
 // ---------- 推进路线 ----------
@@ -199,7 +332,7 @@ export interface HistEvent {
 }
 
 // ---------- 装备 ----------
-export type EquipmentClass = 'tank_light' | 'tank_medium' | 'tankette' | 'armored_car' | 'fighter' | 'bomber' | 'dive_bomber' | 'ship' | 'gun' | 'small_arms' | 'transport' | 'glider';
+export type EquipmentClass = 'tank_light' | 'tank_medium' | 'tankette' | 'armored_car' | 'fighter' | 'bomber' | 'dive_bomber' | 'ship' | 'gun' | 'small_arms' | 'transport' | 'glider' | 'seaplane' | 'torpedo';
 export interface Equipment {
   id: string;
   side: Side;

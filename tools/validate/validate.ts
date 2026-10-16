@@ -153,7 +153,7 @@ export function validateCampaign(id: string): Report {
   for (const [slot, iso] of Object.entries(rules.slotEmptyBefore ?? {})) for (const f of fronts) if (f.h < isoH(iso) && f.control[slot]?.length) E(`fronts/${f.at}: ${iso} 之前 ${slot} 槽应为空`);
 
   // ---------- 部队 ----------
-  type U = { id: string; side: string; echelon: Echelon; type: string; parent: string | null; track: { at: string; pos: Pos; status?: string; movement?: string; flightPhase?: string }[]; equipment?: { id: string }[]; name: { short?: string }; sources: string[]; base?: Pos };
+  type U = { id: string; side: string; echelon: Echelon; type: string; parent: string | null; track: { at: string; pos: Pos; status?: string; movement?: string; flightPhase?: string; course?: number; speedKn?: number }[]; equipment?: { id: string }[]; name: { short?: string }; sources: string[]; base?: Pos; ship?: { maxKn?: number; weapons?: { id: string; kind: string }[] } };
   const units = new Map<string, U>();
   for (const k of pick(DATA_LAYOUT.oob)) (files[k] as unknown[]).forEach((u, i) => {
     const v = check(S.Unit, u, `${k}[${i}]`, E, W) as U | null;
@@ -186,7 +186,12 @@ export function validateCampaign(id: string): Report {
       // 离场集结 / 撤离目的地可以在图外（引擎按图边裁剪），只汇总提示
       const ll = pos(p.pos, `${where}.track[${i}]`, false);
       if (ll && !inFrame(ll, true)) offMap++;
-      if (ll && prevLL && h > prevH && !AIR_TYPES.has(u.type) && !p.flightPhase) {
+      if (ll && prevLL && h > prevH && u.ship) {
+        // 舰船：按节计算航段速度（分钟级航迹不受「每天」下限影响）
+        const kn = haversineKm(prevLL, ll) / (h - prevH) / 1.852;
+        const lim = u.ship.maxKn ?? 33;
+        if (kn > lim * 1.12 && haversineKm(prevLL, ll) > 1) W(`${where}.track[${i}]: 航段速度 ${kn.toFixed(1)} 节，超过最大航速 ${lim} 节`);
+      } else if (ll && prevLL && h > prevH && !AIR_TYPES.has(u.type) && !p.flightPhase) {
         const prev = u.track[i - 1];
         const days = Math.max((h - prevH) / 24, 1 / 24);
         const v = haversineKm(prevLL, ll) / days;
@@ -235,6 +240,43 @@ export function validateCampaign(id: string): Report {
     const layers = new Set([...(m.ui as { extraLayers?: { key: string }[] }).extraLayers?.map((l) => l.key) ?? [], 'demarcation', 'labels', 'rivers']);
     if (!layers.has(v.layer)) W(`叠加层 ${v.id}: 图层 ${v.layer} 不在 ui.extraLayers 中，无法单独开关`);
   });
+
+  // ---------- 海战 data/naval/*.json ----------
+  const navalIds = new Set<string>();
+  const shipRef = (id: string | undefined, where: string, needShip = true) => {
+    if (!id) return;
+    const u = units.get(id);
+    if (!u) E(`${where}: 部队 ${id} 不存在`);
+    else if (needShip && !u.ship) W(`${where}: 部队 ${id} 没有 ship 档案（不会画成舰船）`);
+  };
+  const navalSpan = (from: string, to: string, where: string) => { if (hours(to, where) < hours(from, where)) E(`${where}: 结束早于开始`); };
+  for (const k of pick(DATA_LAYOUT.naval)) {
+    const v = check(S.NavalData, files[k], k, E, W, S.NavalData);
+    if (!v) continue;
+    const seen = (id: string, where: string) => { if (navalIds.has(id)) E(`${where}: 海战数据 id 重复 ${id}`); navalIds.add(id); };
+    for (const f of v.fire ?? []) {
+      const where = `${k} ${f.id}`;
+      seen(f.id, where); srcs(f.sources, where); navalSpan(f.from, f.to, where);
+      shipRef(f.shooter, where); shipRef(f.target, where, false);
+      const sh = units.get(f.shooter);
+      if (sh?.ship?.weapons && !sh.ship.weapons.some((w) => w.id === f.weapon || w.kind === f.weapon)) W(`${where}: 武器 ${f.weapon} 不在 ${f.shooter} 的 ship.weapons 中`);
+    }
+    for (const x of v.hits ?? []) {
+      const where = `${k} ${x.id}`;
+      seen(x.id, where); srcs(x.sources, where); hours(x.at, where);
+      shipRef(x.target, where, false); shipRef(x.shooter, where, false);
+      const tg = units.get(x.target);
+      for (const g of x.gunsOut ?? []) if (tg?.ship?.weapons && !tg.ship.weapons.some((w) => w.id === g)) W(`${where}: gunsOut ${g} 不在 ${x.target} 的 ship.weapons 中`);
+    }
+    for (const t of v.torpedoes ?? []) { const where = `${k} ${t.id}`; seen(t.id, where); srcs(t.sources, where); hours(t.at, where); shipRef(t.shooter, where); shipRef(t.target, where, false); }
+    for (const sm of v.smoke ?? []) { const where = `${k} ${sm.id}`; seen(sm.id, where); srcs(sm.sources, where); navalSpan(sm.from, sm.to, where); shipRef(sm.ship, where); }
+    for (const d of v.damage ?? []) { const where = `${k} 损伤 ${d.ship}@${d.at}`; srcs(d.sources, where); hours(d.at, where); shipRef(d.ship, where); }
+    for (const sg of v.signals ?? []) {
+      const where = `${k} ${sg.id}`;
+      seen(sg.id, where); srcs(sg.sources, where); hours(sg.at, where);
+      for (const ref of [sg.from, sg.to]) if (ref && prefixLike(ref, m) && !units.has(ref)) W(`${where}: ${ref} 像部队 id 但不存在`);
+    }
+  }
 
   // ---------- 事件 ----------
   const photos = existsSync(join(pub, 'photos/index.json')) ? readJson<Record<string, { src: string }>>(join(pub, 'photos/index.json')) : {};
@@ -288,7 +330,7 @@ export function validateCampaign(id: string): Report {
 
   const unused = [...sourceIds].filter((s) => !usedSources.has(s));
   if (unused.length) W(`有 ${unused.length} 个来源未被引用：${unused.slice(0, 6).join('、')}${unused.length > 6 ? '…' : ''}`);
-  Object.assign(stats, { 地名: gaz.size, 部队: units.size, 路线: routeIds.size, 关键帧: fronts.length, 事件: eventIds.size, 装备: equipIds.size, 来源: sourceIds.size });
+  Object.assign(stats, { 地名: gaz.size, 部队: units.size, 路线: routeIds.size, 关键帧: fronts.length, 事件: eventIds.size, 装备: equipIds.size, 来源: sourceIds.size, ...(navalIds.size ? { 海战条目: navalIds.size } : {}) });
   return { id, errors, warns, stats };
 }
 
@@ -306,6 +348,9 @@ function hubChecks(m: CampaignManifest, E: (s: string) => void, W: (s: string) =
   if (m.hub?.cover && photos) { if (!Object.values(photos).some((p) => p.src === m.hub.cover)) E(`hub.cover: ${m.hub.cover} 不在 photos/index.json 中（总台需要它的署名）`); }
   else if (m.status !== 'planned' && !m.hub?.cover) W('hub.cover 未设置：总台卷宗不显示封面照片');
 }
+
+/** 形如部队 id（<阵营前缀>.xxx） */
+function prefixLike(ref: string, m: CampaignManifest) { return m.sides.some((s) => ref.startsWith(s.prefix + '.')) && /^[a-z0-9_.-]+$/.test(ref); }
 
 function isoH(iso: string) {
   if (!isCalendarIso(iso)) return NaN;

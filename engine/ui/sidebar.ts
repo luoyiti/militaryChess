@@ -204,7 +204,7 @@ export class Sidebar {
   }
 
   private activeAt(u: RUnit, t: number): boolean {
-    return (t >= u.fromH && t <= u.toH + 48) || u.children.some((id) => !!unitStateAt(id, this.db.units, t));
+    return (t >= u.fromH && t <= u.toH + u.fadeH) || u.children.some((id) => !!unitStateAt(id, this.db.units, t));
   }
 
   private buildTree() {

@@ -2,7 +2,7 @@
 // 再用 mapshaper 合并、化简、量化为 public/campaigns/<id>/geo/vectors.topo.json。
 //   node tools/geo/project.mjs <campaignId>
 import { geoConicConformal } from 'd3-geo';
-import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
+import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'node:fs';
 import { resolve, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import mapshaper from 'mapshaper';
@@ -16,6 +16,8 @@ mkdirSync(XY, { recursive: true });
 const r2 = (v) => Math.round(v * 100) / 100;
 const walk = (c) => (typeof c[0] === 'number' ? proj(c).map(r2) : c.map(walk));
 const layers = ['land', 'countries1939', 'rivers', 'lakes', 'marsh', 'forest'];
+// 可选图层：海战战役的等深线（geo.config.json 的 sea.isobaths）
+if (existsSync(resolve(LL, 'isobaths.geojson'))) layers.push('isobaths');
 const files = {};
 for (const name of [...layers, 'land_render']) {
   const fc = JSON.parse(readFileSync(resolve(LL, name + '.geojson'), 'utf8'));
@@ -27,8 +29,11 @@ for (const name of [...layers, 'land_render']) {
 const out = resolve(ROOT, 'public/campaigns', id, 'geo/vectors.topo.json');
 mkdirSync(dirname(out), { recursive: true });
 const res = await mapshaper.applyCommands(
-  `-i ${layers.map((l) => l + '.geojson').join(' ')} combine-files snap -simplify planar interval=0.25 keep-shapes -filter-slivers min-area=2 -filter 'true' remove-empty -o target=* format=topojson quantization=100000 out.topo.json`,
+  `-i ${layers.map((l) => l + '.geojson').join(' ')} combine-files snap -simplify planar interval=0.25 keep-shapes -filter-slivers min-area=2 -filter 'true' remove-empty target=* -o target=* format=topojson quantization=100000 out.topo.json`,
   files,
 );
-writeFileSync(out, Object.values(res)[0]);
+// 量化后退化为空的要素（极短的河段等）mapshaper 仍会输出为 type: null，浏览器端不处理空几何，这里去掉
+const topo = JSON.parse(Object.values(res)[0]);
+for (const o of Object.values(topo.objects)) if (o.geometries) o.geometries = o.geometries.filter((g) => g.type);
+writeFileSync(out, JSON.stringify(topo));
 console.log(`[project:${id}] →`, out);

@@ -1,0 +1,112 @@
+[
+ {
+  "id": "gun_28cm",
+  "side": "DE",
+  "name": {
+   "zh": "28 厘米 SK C/28 舰炮",
+   "orig": "28 cm SK C/28"
+  },
+  "class": "gun",
+  "gun": "弹重 300 kg",
+  "count": 6,
+  "desc": "施佩伯爵号的六门主炮，分装两座三联装炮塔。炮弹重 300 千克，射程 36.5 公里，比英国巡洋舰的 8 英寸炮远约 10 公里——朗斯多夫本可在射程外慢慢打，却选择了迎头冲上去。",
+  "sources": [
+   "navweaps_28cm"
+  ]
+ },
+ {
+  "id": "gun_8in",
+  "side": "GB",
+  "name": {
+   "zh": "8 英寸 Mk VIII 舰炮",
+   "orig": "8 in BL Mk VIII"
+  },
+  "class": "gun",
+  "gun": "弹重 116 kg",
+  "count": 6,
+  "desc": "埃克塞特号与坎伯兰号的主炮。炮弹重约 116 千克，射程约 26.5 公里，是英方唯一能有效击穿施佩伯爵号装甲的火炮；埃克塞特号的两发命中打坏了它的燃油净化设备。",
+  "sources": [
+   "navweaps_8in"
+  ]
+ },
+ {
+  "id": "gun_6in",
+  "side": "GB",
+  "name": {
+   "zh": "6 英寸 Mk XXIII 舰炮",
+   "orig": "6 in BL Mk XXIII"
+  },
+  "class": "gun",
+  "gun": "弹重 50.8 kg",
+  "count": 16,
+  "desc": "利安德级轻巡洋舰的主炮，每舰八门。炮弹轻、穿甲力弱，但射速快，阿贾克斯号与阿喀琉斯号合计命中约 18 发，打坏了施佩伯爵号的上层建筑、厨房与测距仪。",
+  "sources": [
+   "navweaps_6in"
+  ]
+ },
+ {
+  "id": "torpedo_21in",
+  "side": "GB",
+  "name": {
+   "zh": "21 英寸鱼雷",
+   "orig": "21 in Mk VII / Mk IX torpedo"
+  },
+  "class": "torpedo",
+  "count": 10,
+  "desc": "英国巡洋舰舷侧的三联装或四联装发射管所用的鱼雷。海战中埃克塞特号两次各射出 3 条、阿贾克斯号射出 4 条，都被施佩伯爵号及时转向避开。",
+  "sources": [
+   "harwood_despatch"
+  ]
+ },
+ {
+  "id": "ar196",
+  "side": "DE",
+  "name": {
+   "zh": "Ar 196 A-1 水上侦察机",
+   "orig": "Arado Ar 196 A-1"
+  },
+  "class": "seaplane",
+  "crew": 2,
+  "count": 1,
+  "model": "ar196",
+  "desc": "施佩伯爵号舰中部弹射器上的水上侦察机，负责在地平线外搜寻商船与敌舰。9 月 11 日曾发现坎伯兰号，使袭击舰及时避开；12 月 11–12 日发动机故障无法修复，海战当天不能起飞。",
+  "sources": [
+   "wiki_en_ar196",
+   "wiki_en_graf_spee"
+  ]
+ },
+ {
+  "id": "seafox",
+  "side": "GB",
+  "name": {
+   "zh": "费尔雷「海狐」水上侦察机",
+   "orig": "Fairey Seafox"
+  },
+  "class": "seaplane",
+  "crew": 2,
+  "count": 1,
+  "model": "seafox",
+  "desc": "阿贾克斯号搭载的双座侦察机，最高时速约 200 公里。12 月 13 日在炮战中弹射升空，为第一分队校正弹着、报告鱼雷航迹；17 日黄昏又飞临蒙得维的亚上空，报告了施佩伯爵号的自沉。",
+  "sources": [
+   "wiki_en_seafox",
+   "faaoa_lewin"
+  ]
+ },
+ {
+  "id": "walrus",
+  "side": "GB",
+  "name": {
+   "zh": "超级马林「海象」水陆两栖机",
+   "orig": "Supermarine Walrus"
+  },
+  "class": "seaplane",
+  "crew": 4,
+  "count": 2,
+  "model": "walrus",
+  "desc": "埃克塞特号原载两架。06:23 一发 28 厘米近失弹的弹片打穿机身、油箱漏油，为防起火被舰员推下海，埃克塞特号因此失去了自己的空中观测。",
+  "sources": [
+   "harwood_despatch",
+   "wiki_en_walrus"
+  ]
+ }
+]

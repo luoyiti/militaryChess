@@ -6,6 +6,7 @@ import { photoFor, cleanAuthor } from './eventCard';
 import type { ModelId } from '../core/types';
 import { fmtDate, stripYear } from '../core/time';
 import { manifest } from '../campaign/context';
+import { shipHeadSVG, shipSectionHTML, ShipPanel } from './shipPanel';
 
 /** 卡片上的 3D 模型名（无对应装备时）；战役可在 manifest.ui.modelLabels 覆盖 */
 const MODEL_LABELS: Record<string, string> = {
@@ -25,6 +26,8 @@ export class UnitCard {
   current: RUnit | null = null;
   private viewer: Viewer | null = null;
   private viewerLoading: Promise<void> | null = null;
+  /** 舰船档案（unit.ship）：损伤图与命中记录随时间刷新 */
+  private shipPanel: ShipPanel | null = null;
   onUnit: (id: string) => void = () => {};
   onFollow: (id: string) => void = () => {};
   onClose: () => void = () => {};
@@ -66,7 +69,7 @@ export class UnitCard {
       <button class="card-close" title="关闭">×</button>
       <div class="uc-tab side-${u.side}">${SIDE_ZH[u.side]} · ${ECH_ZH[u.echelon]}</div>
       <div class="uc-head">
-        <svg class="uc-counter" viewBox="-26 -24 52 48" width="78" height="72">${counterSVG({ side: u.side, type: u.type, echelon: u.echelon, label: u.name.short ?? '', size: 44 })}</svg>
+        ${u.ship ? shipHeadSVG(u) : `<svg class="uc-counter" viewBox="-26 -24 52 48" width="78" height="72">${counterSVG({ side: u.side, type: u.type, echelon: u.echelon, label: u.name.short ?? '', size: 44 })}</svg>`}
         <div class="uc-titles">
           <h2>${escapeXml(u.name.zh)}</h2>
           <div class="uc-orig">${escapeXml(u.name.orig ?? '')}</div>
@@ -82,6 +85,7 @@ export class UnitCard {
         ${st?.aircraft ? `<div><label>编队飞机</label><span>约 ${st.aircraft} 架（示意编制）</span></div>` : ''}
         ${fate ? `<div><label>结局</label><span>${fate}</span></div>` : ''}
       </div>
+      ${u.ship ? shipSectionHTML(u) : ''}
       ${model ? `<div class="uc-model"><div class="uc-model-view"></div><div class="uc-model-cap"><span class="uc-model-name"></span><span class="hint">拖动旋转 · 滚轮缩放</span></div></div>` : ''}
       ${eq.length ? `<div class="uc-eq"><label>主要装备</label>${eq.map(({ q, e }) => `<button class="eq ${e!.model ? 'has3d' : ''}" data-m="${e!.model ?? ''}" data-e="${e!.id}" title="${escapeXml(e!.desc)}">${escapeXml(e!.name.zh)}${q.count ? ` <b>×${q.count}</b>` : ''}</button>`).join('')}</div>` : ''}
       <div class="uc-eq-detail"></div>
@@ -92,6 +96,9 @@ export class UnitCard {
     this.el.classList.remove('hidden', 'enter');
     void this.el.offsetWidth;
     this.el.classList.add('enter');
+    const shipEl = this.el.querySelector('.uc-ship') as HTMLElement | null;
+    this.shipPanel = u.ship && shipEl ? new ShipPanel(shipEl, u, this.db) : null;
+    this.shipPanel?.update(t);
     (this.el.querySelector('.card-close') as HTMLElement).onclick = () => this.hide();
     (this.el.querySelector('.uc-follow') as HTMLElement).onclick = () => this.onFollow(u.id);
     this.el.querySelectorAll<HTMLElement>('[data-u]').forEach((b) => (b.onclick = () => this.onUnit(b.dataset.u!)));
@@ -112,12 +119,14 @@ export class UnitCard {
   updateTime(t: number) {
     if (!this.current) return;
     const s = unitStateAt(this.current.id, this.db.units, t);
+    this.shipPanel?.update(t);
     const el = this.el.querySelector('.uc-type');
     if (!el) return;
-    const transit = s?.movement === 'sea' ? ' · 海上转移' : s?.movement === 'air' ? ' · 空中转移' : s?.movement === 'rail' ? ' · 铁路机动' : '';
+    const transit = this.current.ship ? '' : s?.movement === 'sea' ? ' · 海上转移' : s?.movement === 'air' ? ' · 空中转移' : s?.movement === 'rail' ? ' · 铁路机动' : '';
     if (s?.flightPhase) { const label = el.querySelector('.st'); if (label) label.textContent = FLIGHT_ZH[s.flightPhase]; return; }
     const status = s ? `<span class="st st-${s.status}">${STATUS_ZH[s.status]}</span>${transit}` : t < this.current.fromH ? '尚未部署' : '已退出本战区';
-    el.innerHTML = `${TYPE_ZH[this.current.type]}${this.current.schematic ? ' · 分遣队 / 聚合标记' : ''} · ${status}`;
+    const html = `${TYPE_ZH[this.current.type]}${this.current.schematic ? ' · 分遣队 / 聚合标记' : ''} · ${status}`;
+    if (el.innerHTML !== html) el.innerHTML = html;
   }
 
   private modelLabel(m: ModelId): string {
@@ -160,6 +169,7 @@ export class UnitCard {
     this.el.classList.add('hidden');
     this.disposeViewer();
     this.current = null;
+    this.shipPanel = null;
     this.onClose();
   }
 }

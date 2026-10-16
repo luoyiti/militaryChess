@@ -10,8 +10,11 @@ const MAX_KMH = 800; // 1940 年代战斗机/轰炸机巡航与俯冲都不可�
 const MAX_SORTIE_H = 6;
 
 type Track = { at: string; pos: Pos; flightPhase?: string }[];
-export function airRules(c: Ctx, units: Map<string, { id: string; track: Track }>, routes: { id: string; role?: string; waypoints: { at: string; pos: Pos }[] }[]) {
+const AIR_TYPES = new Set(['air', 'aviation', 'fighter', 'bomber']);
+export function airRules(c: Ctx, units: Map<string, { id: string; type?: string; track: Track }>, routes: { id: string; role?: string; movement?: string; waypoints: { at: string; pos: Pos }[] }[]) {
   for (const u of units.values()) {
+    // 只检查航空单位（海战战役也用空战模式的跨海区域，舰船与地面部队不在此列）
+    if (u.type && !AIR_TYPES.has(u.type) && !u.track.some((p) => p.flightPhase)) continue;
     let prev: { h: number; ll: LonLat | null; phase?: string } | null = null;
     for (const p of u.track) {
       const h = c.hours(p.at), ll = c.pos(p.pos, `${u.id}`, false);
@@ -24,6 +27,7 @@ export function airRules(c: Ctx, units: Map<string, { id: string; track: Track }
     }
   }
   for (const r of routes) {
+    if (r.movement && r.movement !== 'air') continue;
     const w = r.waypoints;
     for (let i = 1; i < w.length; i++) {
       const a = c.pos(w[i - 1].pos, r.id, false), b = c.pos(w[i].pos, r.id, false), dt = c.hours(w[i].at) - c.hours(w[i - 1].at);

@@ -40,6 +40,8 @@ button { font: inherit; color: inherit; }
 .theatre .th-fill { fill: transparent; pointer-events: visiblePainted; transition: fill .25s; }
 .theatre .th-line { fill: none; stroke: var(--red-pencil); stroke-width: 1.7; stroke-dasharray: 7 3; stroke-linejoin: round; opacity: .5; pointer-events: none; vector-effect: non-scaling-stroke; transition: opacity .25s, stroke-width .25s; }
 .theatre.air .th-line { stroke-dasharray: .1 4.2; stroke-linecap: round; stroke-width: 2.4; }
+.theatre.sea .th-line { stroke: #2a5a74; stroke-dasharray: 10 3 1.5 3; stroke-linecap: round; }
+.theatre.sea.on .th-fill { fill: rgba(42, 90, 116, .1); }
 .theatre.active .th-line { opacity: .95; animation: theatre-pulse 1.3s ease-in-out infinite alternate; }
 @keyframes theatre-pulse { from { stroke-width: 1.6; } to { stroke-width: 3; } }
 .theatre.on .th-fill { fill: rgba(179, 38, 46, .1); }

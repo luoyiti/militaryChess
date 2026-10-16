@@ -1,0 +1,497 @@
+[
+ {
+  "id": "sk.army_group",
+  "side": "SK",
+  "echelon": "army",
+  "type": "hq",
+  "parent": "de.17a",
+  "name": {
+   "zh": "斯洛伐克远征军集团",
+   "orig": "Slovenská armádna skupina",
+   "short": "SlArmSk"
+  },
+  "commander": {
+   "zh": "恰特洛什",
+   "orig": "Ferdinand Čatloš"
+  },
+  "strength": {
+   "men": 45000
+  },
+  "model": "inf_sk",
+  "track": [
+   {
+    "at": "1941-06-23T20:00",
+    "pos": [
+     21.955,
+     49.32
+    ],
+    "status": "reserve",
+    "note": "6 月 23 日对苏宣战"
+   },
+   {
+    "at": "1941-06-26T20:00",
+    "pos": [
+     22.33,
+     49.47
+    ],
+    "status": "active",
+    "note": "越过前苏联边界"
+   },
+   {
+    "at": "1941-07-03T20:00",
+    "pos": [
+     23.198,
+     49.518
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-07-20T20:00",
+    "pos": [
+     23.931,
+     49.692
+    ],
+    "status": "active",
+    "note": "跟随第 17 集团军"
+   },
+   {
+    "at": "1941-08-10T20:00",
+    "pos": [
+     23.881,
+     49.642
+    ],
+    "status": "disbanded",
+    "note": "集团解散，组建快速师与保安师"
+   }
+  ],
+  "history": "斯洛伐克远征军集团由国防部长恰特洛什亲自指挥，约 4.5 万人，辖第 1、2 步兵师和皮尔福塞克快速集群，6 月下旬从梅济拉博尔采一带越过喀尔巴阡山，经莱斯科、桑博尔跟随德军第 17 集团军推进，但步兵师缺乏机动能力。8 月集团解散，主力回国，留下快速师和保安师。",
+  "sources": [
+   "south_wiki_sk_rapid",
+   "south_wiki_sk_army",
+   "kirchubel_ag"
+  ],
+  "confidence": "medium",
+  "active": {
+   "from": "1941-06-23T20:00"
+  }
+ },
+ {
+  "id": "sk.1id",
+  "side": "SK",
+  "echelon": "division",
+  "type": "infantry",
+  "parent": "sk.army_group",
+  "name": {
+   "zh": "斯洛伐克第 1 步兵师",
+   "orig": "1. pešia divízia",
+   "short": "SK 1.PD"
+  },
+  "model": "inf_sk",
+  "track": [
+   {
+    "at": "1941-06-24T20:00",
+    "pos": [
+     22.055,
+     49.37
+    ],
+    "status": "reserve"
+   },
+   {
+    "at": "1941-06-28T20:00",
+    "pos": [
+     22.48,
+     49.52
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-07-08T20:00",
+    "pos": [
+     23.348,
+     49.568
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-07-25T20:00",
+    "pos": [
+     23.981,
+     49.592
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-08-10T20:00",
+    "pos": [
+     23.931,
+     49.542
+    ],
+    "status": "disbanded",
+    "note": "解散改编"
+   }
+  ],
+  "history": "斯洛伐克第 1 步兵师 6 月下旬越境，在第 17 集团军后方经莱斯科、桑博尔向利沃夫方向行军，未参加大规模战斗，8 月远征军集团改组时撤销，部分兵员编入快速师。",
+  "sources": [
+   "south_wiki_sk_rapid",
+   "south_wiki_sk_army",
+   "kirchubel_ag"
+  ],
+  "confidence": "low",
+  "active": {
+   "from": "1941-06-24T20:00"
+  }
+ },
+ {
+  "id": "sk.2id",
+  "side": "SK",
+  "echelon": "division",
+  "type": "infantry",
+  "parent": "sk.army_group",
+  "name": {
+   "zh": "斯洛伐克第 2 步兵师",
+   "orig": "2. pešia divízia",
+   "short": "SK 2.PD"
+  },
+  "model": "inf_sk",
+  "track": [
+   {
+    "at": "1941-06-24T20:00",
+    "pos": [
+     21.805,
+     49.37
+    ],
+    "status": "reserve"
+   },
+   {
+    "at": "1941-06-29T20:00",
+    "pos": [
+     22.28,
+     49.57
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-07-10T20:00",
+    "pos": [
+     23.248,
+     49.668
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-07-28T20:00",
+    "pos": [
+     23.781,
+     49.642
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-08-10T20:00",
+    "pos": [
+     23.731,
+     49.592
+    ],
+    "status": "disbanded",
+    "note": "解散改编"
+   }
+  ],
+  "history": "斯洛伐克第 2 步兵师随远征军集团越境，担任第 17 集团军后方警戒，8 月集团改组时撤销，兵员一部组成保安师。",
+  "sources": [
+   "south_wiki_sk_rapid",
+   "south_wiki_sk_army",
+   "kirchubel_ag"
+  ],
+  "confidence": "low",
+  "active": {
+   "from": "1941-06-24T20:00"
+  }
+ },
+ {
+  "id": "sk.rapid_bde",
+  "side": "SK",
+  "echelon": "brigade",
+  "type": "motorized",
+  "parent": "de.17a",
+  "name": {
+   "zh": "皮尔福塞克快速旅",
+   "orig": "Rýchla brigáda (Pilfousek)",
+   "short": "Pilf"
+  },
+  "commander": {
+   "zh": "皮尔福塞克",
+   "orig": "Rudolf Pilfousek"
+  },
+  "strength": {
+   "men": 4000
+  },
+  "equipment": [
+   {
+    "id": "pz35t"
+   },
+   {
+    "id": "pz38t"
+   }
+  ],
+  "model": "pz35t",
+  "track": [
+   {
+    "at": "1941-06-24T20:00",
+    "pos": [
+     22.155,
+     49.42
+    ],
+    "status": "reserve",
+    "note": "在梅济拉博尔采组建快速集群"
+   },
+   {
+    "at": "1941-06-25T20:00",
+    "pos": [
+     22.45,
+     49.5
+    ],
+    "status": "engaged",
+    "note": "越过桑河，首战伤亡 7 人"
+   },
+   {
+    "at": "1941-06-27T20:00",
+    "pos": [
+     22.205,
+     49.557
+    ],
+    "status": "active",
+    "note": "肃清萨诺克一带工事"
+   },
+   {
+    "at": "1941-07-02T20:00",
+    "pos": [
+     23.248,
+     49.568
+    ],
+    "status": "reserve",
+    "note": "在桑博尔休整"
+   },
+   {
+    "at": "1941-07-07T20:00",
+    "pos": [
+     24.031,
+     49.842
+    ],
+    "status": "active",
+    "note": "扩编为快速旅"
+   },
+   {
+    "at": "1941-07-11T20:00",
+    "pos": [
+     25.594,
+     49.553
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-07-15T20:00",
+    "pos": [
+     26.58,
+     49.17
+    ],
+    "status": "active",
+    "note": "进抵旧国界"
+   },
+   {
+    "at": "1941-07-20T20:00",
+    "pos": [
+     28.218,
+     49.283
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-07-22T20:00",
+    "pos": [
+     29.056,
+     49.217
+    ],
+    "status": "engaged",
+    "note": "利波韦茨战斗，损失惨重"
+   },
+   {
+    "at": "1941-07-24T20:00",
+    "pos": [
+     29.2,
+     49.105
+    ],
+    "status": "ineffective",
+    "note": "撤至伊林齐，失去战斗力"
+   }
+  ],
+  "history": "快速集群由皮尔福塞克上校指挥，6 月 25 日越过桑河向沃伊特科瓦推进，7 月 7 日扩编为快速旅，经利沃夫、捷尔诺波尔东进。7 月 22 日在文尼察以东的利波韦茨对苏军阵地发动进攻，遭到重大伤亡，次日苏军才撤离该镇。恰特洛什随即宣布该旅不宜再战，撤至伊林齐休整，8 月并入新组建的快速师。",
+  "sources": [
+   "south_wiki_sk_rapid",
+   "south_wiki_sk_army",
+   "kirchubel_ag"
+  ],
+  "confidence": "medium",
+  "active": {
+   "from": "1941-06-24T20:00"
+  }
+ },
+ {
+  "id": "sk.rapid_div",
+  "side": "SK",
+  "echelon": "division",
+  "type": "motorized",
+  "parent": "de.pzgr1",
+  "name": {
+   "zh": "斯洛伐克快速师",
+   "orig": "Rýchla divízia",
+   "short": "SK RD"
+  },
+  "commander": {
+   "zh": "图拉内茨",
+   "orig": "Jozef Turanec"
+  },
+  "strength": {
+   "men": 8415
+  },
+  "model": "inf_sk",
+  "active": {
+   "from": "1941-08-20T20:00"
+  },
+  "track": [
+   {
+    "at": "1941-08-20T20:00",
+    "pos": [
+     29.23,
+     49.125
+    ],
+    "status": "reserve",
+    "note": "以快速旅和远征军余部组建"
+   },
+   {
+    "at": "1941-09-14T20:00",
+    "pos": [
+     30.64,
+     50.21
+    ],
+    "status": "active",
+    "note": "接防霍多索夫卡—乌克兰卡的第聂伯河右岸"
+   },
+   {
+    "at": "1941-09-28T20:00",
+    "pos": [
+     30.8,
+     50.15
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-10T20:00",
+    "pos": [
+     30.612,
+     49.397
+    ],
+    "status": "active",
+    "note": "南调顿巴斯，车辆大多陷入泥泞"
+   },
+   {
+    "at": "1941-10-25T20:00",
+    "pos": [
+     32.862,
+     48.608
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-11-08T20:00",
+    "pos": [
+     35.146,
+     48.365
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-11-20T20:00",
+    "pos": [
+     37.655,
+     47.196
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-11-28T20:00",
+    "pos": [
+     38.78,
+     47.51
+    ],
+    "status": "engaged",
+    "note": "在库姆沙茨基一带接防"
+   },
+   {
+    "at": "1941-12-05T20:00",
+    "pos": [
+     38.83,
+     47.48
+    ],
+    "status": "engaged",
+    "note": "退守米乌斯河防线"
+   }
+  ],
+  "history": "快速师 8 月以快速旅和远征军余部组建，8,415 人，先由图拉内茨上校、11 月 27 日起由马拉尔上校指挥。9 月 14 日接防基辅以南霍多索夫卡至乌克兰卡之间的第聂伯河右岸，基辅陷落后南调顿巴斯，车辆大多陷在秋季泥泞中。11 月部署在塔甘罗格以北，12 月退守米乌斯河。",
+  "sources": [
+   "south_wiki_sk_rapid",
+   "south_wiki_sk_army",
+   "kirchubel_ag"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "sk.security_div",
+  "side": "SK",
+  "echelon": "division",
+  "type": "infantry",
+  "parent": "de.hgr_sued",
+  "name": {
+   "zh": "斯洛伐克保安师",
+   "orig": "Zaisťovacia divízia",
+   "short": "SK ZD"
+  },
+  "model": "inf_sk",
+  "active": {
+   "from": "1941-08-20T20:00"
+  },
+  "track": [
+   {
+    "at": "1941-08-20T20:00",
+    "pos": [
+     28.359,
+     50.154
+    ],
+    "status": "active",
+    "note": "组建，担任后方警戒"
+   },
+   {
+    "at": "1941-10-01T20:00",
+    "pos": [
+     28.459,
+     50.204
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-12-05T20:00",
+    "pos": [
+     28.459,
+     50.204
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "保安师 8 月以远征军集团留下的部队组建，在乌克兰西部日托米尔一带的后方地区担任交通线警戒和清剿任务，不参加正面作战。",
+  "sources": [
+   "south_wiki_sk_rapid",
+   "south_wiki_sk_army",
+   "kirchubel_ag"
+  ],
+  "confidence": "low"
+ }
+]

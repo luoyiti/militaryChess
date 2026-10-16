@@ -1,0 +1,639 @@
+[
+ {
+  "id": "p.brest_fortress",
+  "name": {
+   "zh": "布列斯特要塞",
+   "orig": "Брестская крепость"
+  },
+  "start": "1941-06-22T04:00",
+  "end": "1941-06-30T12:00",
+  "anchor": [
+   23.655,
+   52.083
+  ],
+  "fate": "destroyed",
+  "note": "开战即被德第 45 步兵师包围，守军为苏第 6、42 步兵师各一部与边防、内务部队约 9000 人；6/29 东堡被 1800 公斤炸弹击毁后有组织抵抗结束，德方称俘约 7000 人，零星抵抗延续到 7 月下旬（加夫里洛夫少校 7/23 负伤被俘）。",
+  "sources": [
+   "fronts_wiki_en_brest_fortress",
+   "fronts_glantz_atlas_border",
+   "dra_4"
+  ],
+  "units": [
+   "su.brest_fort"
+  ]
+ },
+ {
+  "id": "p.liepaja",
+  "name": {
+   "zh": "利耶帕亚",
+   "orig": "Liepāja / Libau"
+  },
+  "start": "1941-06-25T00:00",
+  "end": "1941-06-29T18:00",
+  "anchor": [
+   21.06,
+   56.51
+  ],
+  "fate": "destroyed",
+  "note": "海军基地与苏第 67 步兵师被德第 291 步兵师围困，6/27 守军向北突围失败，6/29 德军入城，残部抵抗至 7/1。",
+  "sources": [
+   "fronts_wiki_ru_baltic_op",
+   "fronts_glantz_atlas_border"
+  ],
+  "units": [
+   "su.67sd"
+  ]
+ },
+ {
+  "id": "p.bialystok",
+  "name": {
+   "zh": "比亚韦斯托克—沃尔科维斯克包围圈",
+   "orig": "Białystok–Wołkowysk"
+  },
+  "start": "1941-06-28T12:00",
+  "end": "1941-07-01T12:00",
+  "anchor": [
+   24.3,
+   53.15
+  ],
+  "fate": "destroyed",
+  "note": "德第 9、4 集团军 6/28 在泽尔瓦会师，苏第 10 集团军与第 3 集团军一部被围于沃尔科维斯克以西；与新格鲁多克包围圈合计，德方称俘 32.4 万人、缴获坦克 3332 辆，苏西方面军 6/22–7/9 不可恢复损失约 34.1 万人。",
+  "sources": [
+   "fronts_wiki_en_bialystok_minsk",
+   "krivosheev",
+   "fronts_isaev_kotly"
+  ],
+  "units": [
+   "su.10a",
+   "su.11mk",
+   "su.13mk",
+   "su.1sk",
+   "su.5sk",
+   "su.6kk",
+   "su.6mk"
+  ]
+ },
+ {
+  "id": "p.minsk",
+  "name": {
+   "zh": "明斯克—新格鲁多克包围圈",
+   "orig": "Minsk–Nowogródek"
+  },
+  "start": "1941-06-28T18:00",
+  "end": "1941-07-08T20:00",
+  "anchor": [
+   26.35,
+   53.8
+  ],
+  "fate": "destroyed",
+  "note": "霍特与古德里安的装甲钳 6/28 在明斯克合拢，苏第 3、10、13 集团军残部被围于明斯克以西的新格鲁多克与纳利博基森林，德步兵军逐步压缩，7/8–9 抵抗基本结束，部分人员化整为零转入敌后。",
+  "sources": [
+   "fronts_wiki_en_bialystok_minsk",
+   "krivosheev",
+   "fronts_isaev_kotly"
+  ],
+  "units": [
+   "su.3a",
+   "su.17mk",
+   "su.21sk",
+   "su.44sk",
+   "su.4sk",
+   "su.24sd",
+   "su.64sd"
+  ]
+ },
+ {
+  "id": "p.raseiniai",
+  "name": {
+   "zh": "拉塞尼艾（苏第 2 坦克师）",
+   "orig": "Raseiniai"
+  },
+  "start": "1941-06-25T12:00",
+  "end": "1941-06-27T12:00",
+  "anchor": [
+   23.2,
+   55.42
+  ],
+  "fate": "destroyed",
+  "note": "苏第 3 机械化军第 2 坦克师在杜比萨河一线反击第 4 装甲集群，以 KV 坦克一度阻滞第 6 装甲师；6/25 起被第 1、6 装甲师与第 36 摩托化步兵师合围，燃料弹药耗尽，6/26–27 被歼，师长索良金阵亡。",
+  "sources": [
+   "fronts_wiki_ru_baltic_op",
+   "fronts_glantz_atlas_border",
+   "glantz_initial"
+  ],
+  "units": [
+   "su.11a",
+   "su.16sk",
+   "su.3mk",
+   "su.188sd",
+   "su.2td",
+   "su.33sd",
+   "su.5td",
+   "su.84md"
+  ]
+ },
+ {
+  "id": "p.gdov",
+  "name": {
+   "zh": "格多夫（苏第 118 步兵师）",
+   "orig": "Гдов"
+  },
+  "start": "1941-07-17T12:00",
+  "end": "1941-07-22T12:00",
+  "anchor": [
+   27.75,
+   58.8
+  ],
+  "fate": "destroyed",
+  "note": "德第 XXXVIII 军 7/17 攻占格多夫，苏第 118 步兵师一部被围于楚德湖东北岸，至 7/22 被肃清，余部沿湖岸向纳尔瓦方向突出。",
+  "sources": [
+   "fronts_wiki_ru_leningrad_op",
+   "glantz_leningrad"
+  ],
+  "units": [
+   "su.118sd"
+  ]
+ },
+ {
+  "id": "p.kilpola",
+  "name": {
+   "zh": "基尔波拉—拉赫登波赫亚（拉多加湖西北岸）",
+   "orig": "Kilpola / Lahdenpohja"
+  },
+  "start": "1941-08-11T12:00",
+  "end": "1941-08-23T12:00",
+  "anchor": [
+   30.25,
+   61.2
+  ],
+  "fate": "broke_out",
+  "note": "芬兰第 II 军 8 月上旬在拉赫登波赫亚抵拉多加湖，苏第 23 集团军第 168 步兵师等部被压至湖岸岛屿与半岛（基尔波拉岛一带）；拉多加湖区舰队 8 月中下旬分批将其经瓦拉姆岛撤往卡累利阿地峡，重装备大多遗弃。",
+  "sources": [
+   "fronts_wiki_en_finn_karelia_1941",
+   "fronts_mannerheim_finland"
+  ],
+  "units": [
+   "su.142sd",
+   "su.168sd",
+   "su.198md"
+  ]
+ },
+ {
+  "id": "p.porlampi",
+  "name": {
+   "zh": "波尔兰皮包围圈（维堡东南）",
+   "orig": "Porlampi / Порлампи"
+  },
+  "start": "1941-08-29T00:00",
+  "end": "1941-09-01T12:00",
+  "anchor": [
+   28.8,
+   60.55
+  ],
+  "fate": "destroyed",
+  "note": "芬兰第 IV 军 8/29 攻占维堡后在其东南切断沿海公路，苏第 43、115、123 步兵师被围于波尔兰皮一带森林，9/1 前后被肃清；一部经科伊维斯托由海路撤出，芬方称俘约 9000 人（一说）。",
+  "sources": [
+   "fronts_wiki_en_finn_karelia_1941",
+   "fronts_raunio_kilin"
+  ]
+ },
+ {
+  "id": "p.mogilev",
+  "name": {
+   "zh": "莫吉廖夫",
+   "orig": "Могилёв"
+  },
+  "start": "1941-07-16T12:00",
+  "end": "1941-07-26T18:00",
+  "anchor": [
+   30.33,
+   53.89
+  ],
+  "fate": "destroyed",
+  "note": "苏第 61 步兵军（第 172 步兵师等）在第聂伯河两岸坚守莫吉廖夫，7/16 前后被德第 VII 军与古德里安后续部队包围，7/26 夜突围失败，城市陷落；德方称俘 3.5 万人。布伊尼奇田野之战即发生于此。",
+  "sources": [
+   "fronts_wiki_ru_mogilev",
+   "fronts_glantz_smolensk_atlas"
+  ],
+  "units": [
+   "su.61sk",
+   "su.172sd"
+  ]
+ },
+ {
+  "id": "p.smolensk",
+  "name": {
+   "zh": "斯摩棱斯克包围圈",
+   "orig": "Смоленский котёл"
+  },
+  "start": "1941-07-27T12:00",
+  "end": "1941-08-05T12:00",
+  "anchor": [
+   32.35,
+   54.9
+  ],
+  "fate": "destroyed",
+  "note": "苏第 16、20 集团军与第 19 集团军一部在斯摩棱斯克东北被围，7/27 第 20 摩托化步兵师与第 17 装甲师封闭索洛维约沃渡口；罗科索夫斯基集群反复冲击，部分部队夜间渡过第聂伯河撤出。德方称连同罗斯拉夫尔共俘约 31 万人。",
+  "sources": [
+   "fronts_wiki_en_smolensk",
+   "glantz_derailed",
+   "fronts_glantz_smolensk_atlas"
+  ],
+  "units": [
+   "su.16a",
+   "su.20a"
+  ]
+ },
+ {
+  "id": "p.roslavl",
+  "name": {
+   "zh": "罗斯拉夫尔包围圈（卡恰洛夫集群）",
+   "orig": "Рославль"
+  },
+  "start": "1941-08-02T12:00",
+  "end": "1941-08-05T12:00",
+  "anchor": [
+   32.45,
+   54.05
+  ],
+  "fate": "destroyed",
+  "note": "古德里安 8/1 发起罗斯拉夫尔战役，合围向斯摩棱斯克反攻的第 28 集团军卡恰洛夫集群（三个步兵师与第 104 坦克师），卡恰洛夫中将 8/4 在斯塔林卡附近阵亡；德方称俘 3.8 万人。",
+  "sources": [
+   "glantz_derailed",
+   "fronts_glantz_smolensk_atlas",
+   "fronts_isaev_kotly"
+  ],
+  "units": [
+   "su.28a"
+  ]
+ },
+ {
+  "id": "p.uman",
+  "name": {
+   "zh": "乌曼包围圈",
+   "orig": "Уманский котёл"
+  },
+  "start": "1941-08-02T18:00",
+  "end": "1941-08-08T18:00",
+  "anchor": [
+   30.45,
+   48.5
+  ],
+  "fate": "surrendered",
+  "note": "第 1 装甲集群与第 17 集团军 8/2 在佩尔沃迈斯克会师，苏第 6、12 集团军与第 18 集团军一部被围于乌曼以南的波德维索科耶（「绿门」林区）；两位集团军司令穆济琴科、波涅杰林被俘。德方称俘 10.3 万人，苏方统计约 6.5 万人未能突围。",
+  "sources": [
+   "fronts_wiki_en_uman",
+   "fronts_isaev_kotly",
+   "stahel_kiev"
+  ],
+  "units": [
+   "su.12a",
+   "su.6a",
+   "su.13sk",
+   "su.16mk",
+   "su.2mk",
+   "su.6sk",
+   "su.8sk",
+   "su.11td",
+   "su.41sd",
+   "su.44gsd",
+   "su.99sd"
+  ]
+ },
+ {
+  "id": "p.odessa",
+  "name": {
+   "zh": "敖德萨",
+   "orig": "Одесса"
+  },
+  "start": "1941-08-13T00:00",
+  "end": "1941-10-16T06:00",
+  "anchor": "@odessa",
+  "fate": "broke_out",
+  "note": "罗马尼亚第 4 集团军 8/5 起围攻，8/13 陆上联系被切断；独立滨海集团军依托海运坚守 73 天，9/22 格里戈里耶夫卡登陆后一度击退东段之敌。因克里米亚告急，10/1–16 约 8.6 万人经海路撤往塞瓦斯托波尔。罗方伤亡约 9 万人。",
+  "sources": [
+   "fronts_wiki_en_odessa",
+   "fronts_axworthy_romania"
+  ],
+  "units": [
+   "su.primorsk",
+   "su.25sd",
+   "su.421sd",
+   "su.95sd"
+  ]
+ },
+ {
+  "id": "p.tallinn",
+  "name": {
+   "zh": "塔林",
+   "orig": "Tallinn / Reval"
+  },
+  "start": "1941-08-07T18:00",
+  "end": "1941-08-28T12:00",
+  "anchor": "@tallinn",
+  "fate": "broke_out",
+  "note": "德军 8/7 在昆达抵芬兰湾后，苏第 8 集团军第 10 步兵军与波罗的海舰队陆战队被隔断在塔林；8/27–28 舰队携守军撤往喀琅施塔得，在尤明达角雷区损失大批舰船，死亡人数一说逾 1.2 万人。",
+  "sources": [
+   "fronts_wiki_en_tallinn_evac",
+   "fronts_wiki_en_estonia_1941"
+  ],
+  "units": [
+   "su.kbf",
+   "su.10sk",
+   "su.10sd"
+  ]
+ },
+ {
+  "id": "p.luga",
+  "name": {
+   "zh": "卢加包围圈",
+   "orig": "Лужский котёл"
+  },
+  "start": "1941-08-25T00:00",
+  "end": "1941-09-15T12:00",
+  "anchor": [
+   30.05,
+   59.02
+  ],
+  "fate": "destroyed",
+  "note": "8/24 卢加失守后，卢加集群南段（第 41 步兵军等）约 4.3 万人被围于卢加以北的森林沼泽，坚持到 9 月中旬，约 2 万人被俘，余部小股突回列宁格勒。",
+  "sources": [
+   "fronts_wiki_ru_leningrad_op",
+   "glantz_leningrad"
+  ],
+  "units": [
+   "su.41sk",
+   "su.111sd",
+   "su.177sd",
+   "su.235sd",
+   "su.24td",
+   "su.70sd"
+  ]
+ },
+ {
+  "id": "p.velikie_luki",
+  "name": {
+   "zh": "大卢基包围圈",
+   "orig": "Великие Луки"
+  },
+  "start": "1941-08-23T00:00",
+  "end": "1941-08-27T12:00",
+  "anchor": [
+   31.1,
+   56.55
+  ],
+  "fate": "broke_out",
+  "note": "第 LVII 摩托化军 8/22 起合围苏第 22 集团军第 51、62 步兵军，8/26 攻占大卢基；被围部队向东北托罗佩茨方向突围，损失惨重，德方称俘约 3 万人。",
+  "sources": [
+   "glantz_derailed",
+   "fronts_glantz_smolensk_atlas"
+  ],
+  "units": [
+   "su.22a"
+  ]
+ },
+ {
+  "id": "p.kiev",
+  "name": {
+   "zh": "基辅包围圈",
+   "orig": "Киевский котёл"
+  },
+  "start": "1941-09-14T18:00",
+  "end": "1941-09-26T12:00",
+  "anchor": [
+   32.55,
+   50.1
+  ],
+  "fate": "destroyed",
+  "note": "9/14 第 3 装甲师与第 9 装甲师在洛赫维察会师，西南方面军第 5、21、26、37 集团军被围；9/19 基辅陷落，9/20 方面军司令基尔波诺斯在舒梅伊科沃阵亡。德方称俘 66.5 万人，苏方统计西南方面军不可恢复损失约 61.6 万人。",
+  "sources": [
+   "fronts_wiki_en_kiev",
+   "stahel_kiev",
+   "krivosheev"
+  ],
+  "units": [
+   "su.21a",
+   "su.26a",
+   "su.37a",
+   "su.5a",
+   "su.27sk",
+   "su.31sk",
+   "su.124sd",
+   "su.147sd",
+   "su.175sd",
+   "su.206sd",
+   "su.284sd",
+   "su.45sd",
+   "su.62sd",
+   "su.87sd"
+  ]
+ },
+ {
+  "id": "p.oranienbaum",
+  "name": {
+   "zh": "奥拉宁鲍姆桥头堡",
+   "orig": "Ораниенбаумский плацдарм"
+  },
+  "start": "1941-09-16T18:00",
+  "end": "1941-12-06T23:59",
+  "anchor": [
+   29.45,
+   59.85
+  ],
+  "fate": "relieved",
+  "note": "德军 9/16 在乌里茨克抵芬兰湾，苏第 8 集团军被隔断在奥拉宁鲍姆—彼得戈夫以西的滨海地带，依托喀琅施塔得要塞炮火坚守，桥头堡一直保持到 1944 年 1 月解围。",
+  "sources": [
+   "glantz_leningrad",
+   "fronts_wiki_ru_leningrad_op"
+  ],
+  "units": [
+   "su.8a"
+  ]
+ },
+ {
+  "id": "p.saaremaa",
+  "name": {
+   "zh": "萨列马岛—瑟尔韦半岛",
+   "orig": "Saaremaa / Sõrve"
+  },
+  "start": "1941-08-28T12:00",
+  "end": "1941-10-05T12:00",
+  "anchor": [
+   22.08,
+   57.95
+  ],
+  "fate": "surrendered",
+  "note": "塔林失守后蒙海峡群岛守军（约 2.3 万人，一说）孤悬敌后；德第 61 步兵师 9/14 登陆穆胡岛，9/21 攻占库雷萨雷，残部退守瑟尔韦半岛至 10/5 投降。",
+  "sources": [
+   "fronts_wiki_en_beowulf"
+  ],
+  "units": [
+   "su.moonsund"
+  ]
+ },
+ {
+  "id": "p.hiiumaa",
+  "name": {
+   "zh": "希乌马岛",
+   "orig": "Hiiumaa / Dagö"
+  },
+  "start": "1941-08-28T12:00",
+  "end": "1941-10-21T12:00",
+  "anchor": [
+   22.62,
+   58.9
+  ],
+  "fate": "surrendered",
+  "note": "德军 10/12 在希乌马岛登陆，守军抵抗到 10/21，部分人员乘船撤往汉科；蒙海峡群岛战役中德方称共俘约 1.5 万人。",
+  "sources": [
+   "fronts_wiki_en_beowulf"
+  ],
+  "units": [
+   "su.moonsund"
+  ]
+ },
+ {
+  "id": "p.vyazma",
+  "name": {
+   "zh": "维亚济马包围圈",
+   "orig": "Вяземский котёл"
+  },
+  "start": "1941-10-07T12:00",
+  "end": "1941-10-13T12:00",
+  "anchor": [
+   33.75,
+   55.1
+  ],
+  "fate": "destroyed",
+  "note": "第 7、10 装甲师 10/7 在维亚济马以东会师，西方面军与预备队方面军的第 16（司令部撤出）、19、20、24、32 集团军与博尔金集群被围，卢金中将受伤被俘；与布良斯克合计德方称俘 67.3 万人，苏方估计两地损失约 50–60 万人。",
+  "sources": [
+   "fronts_wiki_en_vyazma",
+   "stahel_typhoon",
+   "fronts_isaev_kotly"
+  ],
+  "units": [
+   "su.19a",
+   "su.20a",
+   "su.24a",
+   "su.32a",
+   "su.og_boldin"
+  ]
+ },
+ {
+  "id": "p.bryansk_north",
+  "name": {
+   "zh": "布良斯克北包围圈",
+   "orig": "Брянский котёл (северный)"
+  },
+  "start": "1941-10-06T12:00",
+  "end": "1941-10-17T12:00",
+  "anchor": [
+   34.25,
+   53.5
+  ],
+  "fate": "broke_out",
+  "note": "第 17 装甲师 10/6 攻占布良斯克，苏第 50 集团军被围于布良斯克以北的森林，集团军司令彼得罗夫少将在突围中负伤身亡，残部向东突出。",
+  "sources": [
+   "fronts_wiki_en_vyazma",
+   "stahel_typhoon",
+   "fronts_glantz_atlas_moscow"
+  ],
+  "units": [
+   "su.50a",
+   "su.108td",
+   "su.154sd"
+  ]
+ },
+ {
+  "id": "p.bryansk_south",
+  "name": {
+   "zh": "布良斯克南包围圈",
+   "orig": "Брянский котёл (южный)"
+  },
+  "start": "1941-10-06T12:00",
+  "end": "1941-10-23T12:00",
+  "anchor": [
+   33.85,
+   52.55
+  ],
+  "fate": "broke_out",
+  "note": "苏第 3、13 集团军被围于特鲁布切夫斯克—纳夫利亚之间，10 月中下旬分批向东南突围，在法捷日—德米特罗夫斯克一线重新建立防线，损失大量重装备。",
+  "sources": [
+   "fronts_wiki_en_vyazma",
+   "stahel_typhoon",
+   "fronts_glantz_atlas_moscow"
+  ],
+  "units": [
+   "su.13a",
+   "su.3a"
+  ]
+ },
+ {
+  "id": "p.chernigovka",
+  "name": {
+   "zh": "切尔尼戈夫卡包围圈",
+   "orig": "Черниговка"
+  },
+  "start": "1941-10-06T12:00",
+  "end": "1941-10-11T00:00",
+  "anchor": [
+   36.2,
+   47.2
+  ],
+  "fate": "destroyed",
+  "note": "第 1 装甲集团军自第聂伯罗彼得罗夫斯克桥头堡南下，10/6–7 抵亚速海别尔江斯克，苏南方面军第 18 集团军与第 9 集团军一部被围于切尔尼戈夫卡一带，集团军司令斯米尔诺夫中将阵亡；德方称俘 6.5 万人。",
+  "sources": [
+   "fronts_wiki_en_azov",
+   "fronts_isaev_kotly"
+  ],
+  "units": [
+   "su.18a",
+   "su.9a",
+   "su.60gsd"
+  ]
+ },
+ {
+  "id": "p.sevastopol",
+  "name": {
+   "zh": "塞瓦斯托波尔",
+   "orig": "Севастополь"
+  },
+  "start": "1941-10-30T12:00",
+  "end": "1941-12-06T23:59",
+  "anchor": "@sevastopol",
+  "fate": "surrendered",
+  "note": "德第 11 集团军 10/30 起围攻要塞区，滨海集团军从敖德萨、伊顺方向经山路退入，与黑海舰队陆战队共守；11 月第一次强攻被击退，围城持续到 1942 年 7 月初要塞才陷落（结局一栏指 1942 年）。",
+  "sources": [
+   "fronts_wiki_en_sevastopol",
+   "fronts_wiki_en_crimea"
+  ],
+  "units": [
+   "su.bsf",
+   "su.primorsk",
+   "su.25sd",
+   "su.95sd"
+  ]
+ },
+ {
+  "id": "p.hanko",
+  "name": {
+   "zh": "汉科",
+   "orig": "Hanko / Hangö"
+  },
+  "start": "1941-06-25T12:00",
+  "end": "1941-12-02T12:00",
+  "anchor": [
+   23.05,
+   59.85
+  ],
+  "fate": "broke_out",
+  "note": "1940 年租借给苏联的汉科海军基地（约 2.5 万人）开战后被芬军封锁，守军顶住了 7 月初的进攻；10 月底至 12/2 分批经海路撤往列宁格勒，途中「约瑟夫·斯大林」号运输船触雷。芬军 12/4 进入。",
+  "sources": [
+   "fronts_wiki_en_hanko",
+   "fronts_mannerheim_finland"
+  ],
+  "units": [
+   "su.hanko"
+  ]
+ }
+]

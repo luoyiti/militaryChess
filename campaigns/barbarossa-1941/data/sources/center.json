@@ -1,0 +1,191 @@
+[
+ {
+  "id": "center_guderian",
+  "title": "Erinnerungen eines Soldaten",
+  "author": "Heinz Guderian",
+  "year": 1951
+ },
+ {
+  "id": "center_bock_ktb",
+  "title": "Zwischen Pflicht und Verweigerung: Das Kriegstagebuch",
+  "author": "Fedor von Bock（Klaus Gerbet 编）",
+  "year": 1995
+ },
+ {
+  "id": "center_hoth",
+  "title": "Panzer-Operationen: Die Panzergruppe 3 und der operative Gedanke der deutschen Führung, Sommer 1941",
+  "author": "Hermann Hoth",
+  "year": 1956
+ },
+ {
+  "id": "center_haupt",
+  "title": "Heeresgruppe Mitte 1941–1945",
+  "author": "Werner Haupt",
+  "year": 1968
+ },
+ {
+  "id": "center_zhukov",
+  "title": "Воспоминания и размышления",
+  "author": "Г. К. Жуков",
+  "year": 1969,
+  "url": "http://militera.lib.ru/memo/russian/zhukov1/index.html"
+ },
+ {
+  "id": "center_rokossovsky",
+  "title": "Солдатский долг",
+  "author": "К. К. Рокоссовский",
+  "year": 1968,
+  "url": "http://militera.lib.ru/memo/russian/rokossovsky/index.html"
+ },
+ {
+  "id": "center_sandalov",
+  "title": "Пережитое / Боевые действия войск 4-й армии в начальный период Великой Отечественной войны",
+  "author": "Л. М. Сандалов",
+  "year": 1961,
+  "url": "http://militera.lib.ru/memo/russian/sandalov1/index.html"
+ },
+ {
+  "id": "center_boldin",
+  "title": "Страницы жизни",
+  "author": "И. В. Болдин",
+  "year": 1961,
+  "url": "http://militera.lib.ru/memo/russian/boldin/index.html"
+ },
+ {
+  "id": "center_eremenko",
+  "title": "В начале войны",
+  "author": "А. И. Ерёменко",
+  "year": 1964,
+  "url": "http://militera.lib.ru/memo/russian/eremenko_ai2/index.html"
+ },
+ {
+  "id": "center_lelyushenko",
+  "title": "Москва — Сталинград — Берлин — Прага",
+  "author": "Д. Д. Лелюшенко",
+  "year": 1970,
+  "url": "http://militera.lib.ru/memo/russian/lelyushenko/index.html"
+ },
+ {
+  "id": "center_katukov",
+  "title": "На острие главного удара",
+  "author": "М. Е. Катуков",
+  "year": 1974,
+  "url": "http://militera.lib.ru/memo/russian/katukov/index.html"
+ },
+ {
+  "id": "center_belov",
+  "title": "За нами Москва",
+  "author": "П. А. Белов",
+  "year": 1963,
+  "url": "http://militera.lib.ru/memo/russian/belov_pa/index.html"
+ },
+ {
+  "id": "center_isaev_kotly",
+  "title": "Котлы 41-го. История ВОВ, которую мы не знали",
+  "author": "А. В. Исаев",
+  "year": 2005
+ },
+ {
+  "id": "center_lopukhovsky",
+  "title": "Вяземская катастрофа 41-го года",
+  "author": "Л. Н. Лопуховский",
+  "year": 2006
+ },
+ {
+  "id": "center_shaposhnikov_moscow",
+  "title": "Битва за Москву: Московская операция Западного фронта 16 ноября 1941 г. – 31 января 1942 г.",
+  "author": "Под ред. Б. М. Шапошникова",
+  "year": 1943,
+  "url": "http://militera.lib.ru/h/moscow_battle/index.html"
+ },
+ {
+  "id": "center_wiki_bialystok",
+  "title": "Kesselschlacht bei Białystok und Minsk（德文维基百科）",
+  "url": "https://de.wikipedia.org/wiki/Kesselschlacht_bei_Białystok_und_Minsk"
+ },
+ {
+  "id": "center_wiki_brest",
+  "title": "Defense of Brest Fortress / Оборона Брестской крепости（英、俄文维基百科）",
+  "url": "https://en.wikipedia.org/wiki/Defense_of_Brest_Fortress"
+ },
+ {
+  "id": "center_wiki_lepel",
+  "title": "Лепельский контрудар（俄文维基百科）",
+  "url": "https://ru.wikipedia.org/wiki/Лепельский_контрудар"
+ },
+ {
+  "id": "center_wiki_mogilev",
+  "title": "Оборона Могилёва（俄文维基百科）",
+  "url": "https://ru.wikipedia.org/wiki/Оборона_Могилёва"
+ },
+ {
+  "id": "center_wiki_smolensk",
+  "title": "Battle of Smolensk (1941)（英文维基百科）",
+  "url": "https://en.wikipedia.org/wiki/Battle_of_Smolensk_(1941)"
+ },
+ {
+  "id": "center_wiki_yelnya",
+  "title": "Yelnya offensive / Ельнинская операция（英、俄文维基百科）",
+  "url": "https://en.wikipedia.org/wiki/Yelnya_offensive"
+ },
+ {
+  "id": "center_wiki_rogachev",
+  "title": "Рогачёвско-Жлобинская операция（俄文维基百科）",
+  "url": "https://ru.wikipedia.org/wiki/Рогачёвско-Жлобинская_операция"
+ },
+ {
+  "id": "center_wiki_kiev",
+  "title": "Battle of Kiev (1941)（英文维基百科）",
+  "url": "https://en.wikipedia.org/wiki/Battle_of_Kiev_(1941)"
+ },
+ {
+  "id": "center_wiki_typhoon",
+  "title": "Battle of Moscow / Operation Typhoon（英文维基百科）",
+  "url": "https://en.wikipedia.org/wiki/Battle_of_Moscow"
+ },
+ {
+  "id": "center_wiki_vyazma",
+  "title": "Вяземская операция（俄文维基百科）",
+  "url": "https://ru.wikipedia.org/wiki/Вяземская_операция"
+ },
+ {
+  "id": "center_wiki_bryansk",
+  "title": "Орловско-Брянская оборонительная операция（俄文维基百科）",
+  "url": "https://ru.wikipedia.org/wiki/Орловско-Брянская_оборонительная_операция"
+ },
+ {
+  "id": "center_wiki_mtsensk",
+  "title": "Battle of Mtsensk（英文维基百科）",
+  "url": "https://en.wikipedia.org/wiki/Battle_of_Mtsensk"
+ },
+ {
+  "id": "center_wiki_tula",
+  "title": "Тульская оборонительная операция（俄文维基百科）",
+  "url": "https://ru.wikipedia.org/wiki/Тульская_оборонительная_операция"
+ },
+ {
+  "id": "center_wiki_kalinin",
+  "title": "Калининская оборонительная операция（俄文维基百科）",
+  "url": "https://ru.wikipedia.org/wiki/Калининская_оборонительная_операция"
+ },
+ {
+  "id": "center_wiki_klin",
+  "title": "Клинско-Солнечногорская оборонительная операция（俄文维基百科）",
+  "url": "https://ru.wikipedia.org/wiki/Клинско-Солнечногорская_оборонительная_операция"
+ },
+ {
+  "id": "center_wiki_mozhaisk",
+  "title": "Можайско-Малоярославецкая оборонительная операция（俄文维基百科）",
+  "url": "https://ru.wikipedia.org/wiki/Можайско-Малоярославецкая_оборонительная_операция"
+ },
+ {
+  "id": "center_wiki_tikhvin",
+  "title": "Тихвинская оборонительная операция（俄文维基百科）",
+  "url": "https://ru.wikipedia.org/wiki/Тихвинская_оборонительная_операция"
+ },
+ {
+  "id": "center_wiki_18idmot",
+  "title": "18. Infanterie-Division (Wehrmacht)（德文维基百科）",
+  "url": "https://de.wikipedia.org/wiki/18._Infanterie-Division_(Wehrmacht)"
+ }
+]

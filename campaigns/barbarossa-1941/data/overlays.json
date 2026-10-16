@@ -1,0 +1,945 @@
+[
+ {
+  "id": "fl.molotov_telsiai",
+  "layer": "fortlines",
+  "kind": "line",
+  "label": "莫洛托夫防线 · 泰尔希艾筑垒地域",
+  "line": [
+   [
+    21.25,
+    56.0
+   ],
+   [
+    21.55,
+    55.75
+   ],
+   [
+    21.95,
+    55.55
+   ]
+  ],
+  "style": "fortline",
+  "sources": [
+   "fronts_wiki_ru_molotov_line",
+   "fronts_melnikov_ur"
+  ]
+ },
+ {
+  "id": "fl.molotov_kaunas",
+  "layer": "fortlines",
+  "kind": "line",
+  "label": "莫洛托夫防线 · 考纳斯筑垒地域",
+  "line": [
+   [
+    22.65,
+    55.15
+   ],
+   [
+    22.85,
+    54.85
+   ],
+   [
+    23.0,
+    54.55
+   ]
+  ],
+  "style": "fortline",
+  "sources": [
+   "fronts_wiki_ru_molotov_line",
+   "fronts_melnikov_ur"
+  ]
+ },
+ {
+  "id": "fl.molotov_grodno",
+  "layer": "fortlines",
+  "kind": "line",
+  "label": "莫洛托夫防线 · 格罗德诺筑垒地域",
+  "line": [
+   [
+    23.5,
+    54.05
+   ],
+   [
+    23.6,
+    53.85
+   ],
+   [
+    23.65,
+    53.65
+   ],
+   [
+    23.55,
+    53.45
+   ]
+  ],
+  "style": "fortline",
+  "sources": [
+   "fronts_wiki_ru_molotov_line",
+   "fronts_melnikov_ur"
+  ]
+ },
+ {
+  "id": "fl.molotov_osowiec",
+  "layer": "fortlines",
+  "kind": "line",
+  "label": "莫洛托夫防线 · 奥索维茨筑垒地域",
+  "line": [
+   [
+    22.6,
+    53.6
+   ],
+   [
+    22.55,
+    53.45
+   ],
+   [
+    22.35,
+    53.3
+   ]
+  ],
+  "style": "fortline",
+  "sources": [
+   "fronts_wiki_ru_molotov_line",
+   "fronts_melnikov_ur"
+  ]
+ },
+ {
+  "id": "fl.molotov_zambrow",
+  "layer": "fortlines",
+  "kind": "line",
+  "label": "莫洛托夫防线 · 赞布鲁夫筑垒地域",
+  "line": [
+   [
+    22.1,
+    53.15
+   ],
+   [
+    22.25,
+    52.95
+   ],
+   [
+    22.55,
+    52.75
+   ]
+  ],
+  "style": "fortline",
+  "sources": [
+   "fronts_wiki_ru_molotov_line",
+   "fronts_melnikov_ur"
+  ]
+ },
+ {
+  "id": "fl.molotov_brest",
+  "layer": "fortlines",
+  "kind": "line",
+  "label": "莫洛托夫防线 · 布列斯特筑垒地域",
+  "line": [
+   [
+    23.0,
+    52.42
+   ],
+   [
+    23.4,
+    52.27
+   ],
+   [
+    23.65,
+    52.05
+   ],
+   [
+    23.7,
+    51.8
+   ]
+  ],
+  "style": "fortline",
+  "sources": [
+   "fronts_wiki_ru_molotov_line",
+   "fronts_melnikov_ur"
+  ]
+ },
+ {
+  "id": "fl.molotov_vladimir",
+  "layer": "fortlines",
+  "kind": "line",
+  "label": "莫洛托夫防线 · 弗拉基米尔-沃伦斯基筑垒地域",
+  "line": [
+   [
+    24.05,
+    51.1
+   ],
+   [
+    24.2,
+    50.9
+   ],
+   [
+    24.2,
+    50.7
+   ]
+  ],
+  "style": "fortline",
+  "sources": [
+   "fronts_wiki_ru_molotov_line",
+   "fronts_melnikov_ur"
+  ]
+ },
+ {
+  "id": "fl.molotov_strumilov",
+  "layer": "fortlines",
+  "kind": "line",
+  "label": "莫洛托夫防线 · 斯特鲁米洛夫筑垒地域",
+  "line": [
+   [
+    24.15,
+    50.42
+   ],
+   [
+    24.3,
+    50.28
+   ],
+   [
+    24.3,
+    50.1
+   ]
+  ],
+  "style": "fortline",
+  "sources": [
+   "fronts_wiki_ru_molotov_line",
+   "fronts_melnikov_ur"
+  ]
+ },
+ {
+  "id": "fl.molotov_rava",
+  "layer": "fortlines",
+  "kind": "line",
+  "label": "莫洛托夫防线 · 拉瓦-鲁斯卡筑垒地域",
+  "line": [
+   [
+    23.3,
+    50.3
+   ],
+   [
+    23.65,
+    50.27
+   ],
+   [
+    23.95,
+    50.3
+   ]
+  ],
+  "style": "fortline",
+  "sources": [
+   "fronts_wiki_ru_molotov_line",
+   "fronts_melnikov_ur"
+  ]
+ },
+ {
+  "id": "fl.molotov_przemysl",
+  "layer": "fortlines",
+  "kind": "line",
+  "label": "莫洛托夫防线 · 普热梅希尔筑垒地域",
+  "line": [
+   [
+    22.8,
+    49.95
+   ],
+   [
+    22.88,
+    49.78
+   ],
+   [
+    22.65,
+    49.65
+   ],
+   [
+    22.45,
+    49.45
+   ]
+  ],
+  "style": "fortline",
+  "sources": [
+   "fronts_wiki_ru_molotov_line",
+   "fronts_melnikov_ur"
+  ]
+ },
+ {
+  "id": "fl.stalin_karelian",
+  "layer": "fortlines",
+  "kind": "line",
+  "label": "斯大林防线 · 卡累利阿筑垒地域",
+  "line": [
+   [
+    29.98,
+    60.15
+   ],
+   [
+    30.1,
+    60.3
+   ],
+   [
+    30.35,
+    60.42
+   ],
+   [
+    30.7,
+    60.45
+   ]
+  ],
+  "style": "fortline",
+  "sources": [
+   "fronts_wiki_ru_stalin_line",
+   "fronts_melnikov_ur"
+  ]
+ },
+ {
+  "id": "fl.stalin_pskov",
+  "layer": "fortlines",
+  "kind": "line",
+  "label": "斯大林防线 · 普斯科夫筑垒地域",
+  "line": [
+   [
+    28.05,
+    57.95
+   ],
+   [
+    28.1,
+    57.75
+   ],
+   [
+    28.15,
+    57.6
+   ]
+  ],
+  "style": "fortline",
+  "sources": [
+   "fronts_wiki_ru_stalin_line",
+   "fronts_melnikov_ur"
+  ]
+ },
+ {
+  "id": "fl.stalin_ostrov",
+  "layer": "fortlines",
+  "kind": "line",
+  "label": "斯大林防线 · 奥斯特罗夫筑垒地域",
+  "line": [
+   [
+    28.1,
+    57.48
+   ],
+   [
+    28.2,
+    57.3
+   ],
+   [
+    28.3,
+    57.15
+   ]
+  ],
+  "style": "fortline",
+  "sources": [
+   "fronts_wiki_ru_stalin_line",
+   "fronts_melnikov_ur"
+  ]
+ },
+ {
+  "id": "fl.stalin_sebezh",
+  "layer": "fortlines",
+  "kind": "line",
+  "label": "斯大林防线 · 谢别日筑垒地域",
+  "line": [
+   [
+    28.2,
+    56.48
+   ],
+   [
+    28.3,
+    56.3
+   ],
+   [
+    28.38,
+    56.12
+   ]
+  ],
+  "style": "fortline",
+  "sources": [
+   "fronts_wiki_ru_stalin_line",
+   "fronts_melnikov_ur"
+  ]
+ },
+ {
+  "id": "fl.stalin_polotsk",
+  "layer": "fortlines",
+  "kind": "line",
+  "label": "斯大林防线 · 波洛茨克筑垒地域",
+  "line": [
+   [
+    28.1,
+    55.72
+   ],
+   [
+    28.45,
+    55.42
+   ],
+   [
+    28.7,
+    55.25
+   ]
+  ],
+  "style": "fortline",
+  "sources": [
+   "fronts_wiki_ru_stalin_line",
+   "fronts_melnikov_ur"
+  ]
+ },
+ {
+  "id": "fl.stalin_minsk",
+  "layer": "fortlines",
+  "kind": "line",
+  "label": "斯大林防线 · 明斯克筑垒地域",
+  "line": [
+   [
+    26.95,
+    54.32
+   ],
+   [
+    27.15,
+    53.95
+   ],
+   [
+    27.35,
+    53.7
+   ]
+  ],
+  "style": "fortline",
+  "sources": [
+   "fronts_wiki_ru_stalin_line",
+   "fronts_melnikov_ur"
+  ]
+ },
+ {
+  "id": "fl.stalin_slutsk",
+  "layer": "fortlines",
+  "kind": "line",
+  "label": "斯大林防线 · 斯卢茨克筑垒地域",
+  "line": [
+   [
+    27.05,
+    53.25
+   ],
+   [
+    27.1,
+    52.95
+   ],
+   [
+    27.3,
+    52.7
+   ]
+  ],
+  "style": "fortline",
+  "sources": [
+   "fronts_wiki_ru_stalin_line",
+   "fronts_melnikov_ur"
+  ]
+ },
+ {
+  "id": "fl.stalin_mozyr",
+  "layer": "fortlines",
+  "kind": "line",
+  "label": "斯大林防线 · 莫济里筑垒地域",
+  "line": [
+   [
+    27.7,
+    52.2
+   ],
+   [
+    28.1,
+    51.95
+   ],
+   [
+    28.55,
+    51.7
+   ]
+  ],
+  "style": "fortline",
+  "sources": [
+   "fronts_wiki_ru_stalin_line",
+   "fronts_melnikov_ur"
+  ]
+ },
+ {
+  "id": "fl.stalin_korosten",
+  "layer": "fortlines",
+  "kind": "line",
+  "label": "斯大林防线 · 科罗斯坚筑垒地域",
+  "line": [
+   [
+    27.95,
+    51.2
+   ],
+   [
+    28.15,
+    50.95
+   ],
+   [
+    28.3,
+    50.7
+   ]
+  ],
+  "style": "fortline",
+  "sources": [
+   "fronts_wiki_ru_stalin_line",
+   "fronts_melnikov_ur"
+  ]
+ },
+ {
+  "id": "fl.stalin_novograd",
+  "layer": "fortlines",
+  "kind": "line",
+  "label": "斯大林防线 · 新沃伦斯克筑垒地域",
+  "line": [
+   [
+    27.4,
+    50.85
+   ],
+   [
+    27.55,
+    50.6
+   ],
+   [
+    27.5,
+    50.35
+   ]
+  ],
+  "style": "fortline",
+  "sources": [
+   "fronts_wiki_ru_stalin_line",
+   "fronts_melnikov_ur"
+  ]
+ },
+ {
+  "id": "fl.stalin_shepetovka",
+  "layer": "fortlines",
+  "kind": "line",
+  "label": "斯大林防线 · 舍佩托夫卡与旧康斯坦丁诺夫筑垒地域",
+  "line": [
+   [
+    27.05,
+    50.3
+   ],
+   [
+    27.15,
+    50.05
+   ],
+   [
+    27.35,
+    49.8
+   ]
+  ],
+  "style": "fortline",
+  "sources": [
+   "fronts_wiki_ru_stalin_line",
+   "fronts_melnikov_ur"
+  ]
+ },
+ {
+  "id": "fl.stalin_letichev",
+  "layer": "fortlines",
+  "kind": "line",
+  "label": "斯大林防线 · 列季切夫筑垒地域",
+  "line": [
+   [
+    27.4,
+    49.6
+   ],
+   [
+    27.7,
+    49.38
+   ],
+   [
+    27.8,
+    49.1
+   ]
+  ],
+  "style": "fortline",
+  "sources": [
+   "fronts_wiki_ru_stalin_line",
+   "fronts_melnikov_ur"
+  ]
+ },
+ {
+  "id": "fl.stalin_mogilev_yampol",
+  "layer": "fortlines",
+  "kind": "line",
+  "label": "斯大林防线 · 莫吉廖夫-波多利斯基与亚姆波尔筑垒地域",
+  "line": [
+   [
+    27.55,
+    48.55
+   ],
+   [
+    27.85,
+    48.45
+   ],
+   [
+    28.1,
+    48.35
+   ],
+   [
+    28.4,
+    48.15
+   ]
+  ],
+  "style": "fortline",
+  "sources": [
+   "fronts_wiki_ru_stalin_line",
+   "fronts_melnikov_ur"
+  ]
+ },
+ {
+  "id": "fl.stalin_rybnitsa",
+  "layer": "fortlines",
+  "kind": "line",
+  "label": "斯大林防线 · 雷布尼察筑垒地域",
+  "line": [
+   [
+    28.7,
+    47.98
+   ],
+   [
+    28.95,
+    47.75
+   ],
+   [
+    29.1,
+    47.6
+   ]
+  ],
+  "style": "fortline",
+  "sources": [
+   "fronts_wiki_ru_stalin_line",
+   "fronts_melnikov_ur"
+  ]
+ },
+ {
+  "id": "fl.stalin_tiraspol",
+  "layer": "fortlines",
+  "kind": "line",
+  "label": "斯大林防线 · 蒂拉斯波尔筑垒地域",
+  "line": [
+   [
+    29.35,
+    47.15
+   ],
+   [
+    29.65,
+    46.85
+   ],
+   [
+    29.9,
+    46.55
+   ]
+  ],
+  "style": "fortline",
+  "sources": [
+   "fronts_wiki_ru_stalin_line",
+   "fronts_melnikov_ur"
+  ]
+ },
+ {
+  "id": "fl.stalin_kiev",
+  "layer": "fortlines",
+  "kind": "line",
+  "label": "基辅筑垒地域（伊尔片河一线）",
+  "line": [
+   [
+    30.25,
+    50.72
+   ],
+   [
+    30.15,
+    50.5
+   ],
+   [
+    30.22,
+    50.33
+   ],
+   [
+    30.45,
+    50.24
+   ],
+   [
+    30.7,
+    50.28
+   ]
+  ],
+  "style": "fortline",
+  "sources": [
+   "fronts_wiki_ru_stalin_line",
+   "fronts_melnikov_ur",
+   "fronts_wiki_en_kiev"
+  ]
+ },
+ {
+  "id": "fl.luga_line",
+  "layer": "fortlines",
+  "kind": "line",
+  "label": "卢加防线（1941 年 7 月）",
+  "line": [
+   [
+    28.286,
+    59.678
+   ],
+   [
+    28.201,
+    59.598
+   ],
+   [
+    28.263,
+    59.495
+   ],
+   [
+    28.402,
+    59.437
+   ],
+   [
+    28.578,
+    59.392
+   ],
+   [
+    28.677,
+    59.313
+   ],
+   [
+    28.844,
+    59.256
+   ],
+   [
+    28.963,
+    59.169
+   ],
+   [
+    29.133,
+    59.106
+   ],
+   [
+    29.337,
+    59.107
+   ],
+   [
+    29.521,
+    59.053
+   ],
+   [
+    29.681,
+    58.986
+   ],
+   [
+    29.813,
+    58.912
+   ],
+   [
+    29.95,
+    58.831
+   ],
+   [
+    30.1,
+    58.6
+   ],
+   [
+    30.45,
+    58.45
+   ],
+   [
+    30.85,
+    58.3
+   ],
+   [
+    31.15,
+    58.35
+   ]
+  ],
+  "style": "fortline",
+  "sources": [
+   "fronts_wiki_ru_luga_line",
+   "fronts_wiki_ru_leningrad_op"
+  ]
+ },
+ {
+  "id": "fl.rzhev_vyazma",
+  "layer": "fortlines",
+  "kind": "line",
+  "label": "勒热夫—维亚济马防线（1941 年 7–10 月）",
+  "line": [
+   [
+    33.1,
+    57.1
+   ],
+   [
+    33.4,
+    56.6
+   ],
+   [
+    33.75,
+    56.05
+   ],
+   [
+    33.9,
+    55.55
+   ],
+   [
+    34.05,
+    55.15
+   ],
+   [
+    34.3,
+    54.8
+   ],
+   [
+    34.4,
+    54.4
+   ],
+   [
+    34.35,
+    54.05
+   ]
+  ],
+  "style": "fortline",
+  "sources": [
+   "fronts_wiki_ru_rzhev_vyazma_line"
+  ]
+ },
+ {
+  "id": "fl.mozhaisk",
+  "layer": "fortlines",
+  "kind": "line",
+  "label": "莫扎伊斯克防线（1941 年 10 月）",
+  "line": [
+   [
+    35.95,
+    56.1
+   ],
+   [
+    35.95,
+    55.8
+   ],
+   [
+    35.9,
+    55.55
+   ],
+   [
+    36.1,
+    55.3
+   ],
+   [
+    36.35,
+    55.05
+   ],
+   [
+    36.3,
+    54.7
+   ],
+   [
+    36.25,
+    54.45
+   ]
+  ],
+  "style": "fortline",
+  "sources": [
+   "fronts_wiki_ru_mozhaisk_line",
+   "fronts_glantz_atlas_moscow"
+  ]
+ },
+ {
+  "id": "fl.moscow_canal",
+  "layer": "fortlines",
+  "kind": "line",
+  "label": "莫斯科防御区 · 莫斯科—伏尔加运河防线",
+  "line": [
+   [
+    37.52,
+    56.34
+   ],
+   [
+    37.47,
+    56.2
+   ],
+   [
+    37.48,
+    56.05
+   ],
+   [
+    37.45,
+    55.9
+   ]
+  ],
+  "style": "fortline",
+  "sources": [
+   "fronts_wiki_ru_moscow_zone",
+   "fronts_glantz_atlas_moscow"
+  ]
+ },
+ {
+  "id": "fl.moscow_zone",
+  "layer": "fortlines",
+  "kind": "line",
+  "label": "莫斯科防御区 · 主防御地带",
+  "line": [
+   [
+    37.45,
+    55.9
+   ],
+   [
+    37.25,
+    55.82
+   ],
+   [
+    37.22,
+    55.62
+   ],
+   [
+    37.42,
+    55.48
+   ],
+   [
+    37.7,
+    55.45
+   ],
+   [
+    37.95,
+    55.55
+   ]
+  ],
+  "style": "fortline",
+  "sources": [
+   "fronts_wiki_ru_moscow_zone",
+   "fronts_glantz_atlas_moscow"
+  ]
+ },
+ {
+  "id": "fl.perekop",
+  "layer": "fortlines",
+  "kind": "line",
+  "label": "彼列科普土耳其壁与伊顺阵地",
+  "line": [
+   [
+    33.62,
+    46.17
+   ],
+   [
+    33.9,
+    46.14
+   ],
+   [
+    34.0,
+    45.98
+   ],
+   [
+    33.7,
+    45.95
+   ]
+  ],
+  "style": "fortline",
+  "sources": [
+   "fronts_wiki_en_crimea"
+  ]
+ }
+]

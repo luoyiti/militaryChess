@@ -4,6 +4,7 @@
 输出（public/campaigns/<id>/）：tiles/base/{z}/{x}_{y}.webp + meta.json、tiles/overview.webp、
      terrain/albedo.webp（无晕渲，3D 沙盘贴图）、terrain/height.png（rg16）、terrain/terrain.json。
 配色：campaigns/<id>/config/palette.json，缺省 tools/geo/palette.json。
+可选 sea.bathymetry（海战战役）：海面按 DEM 水深设色（近岸极浅、外海略深的海图蓝灰），取代按离岸距离加深；sea.tint 可覆盖配色。
     GEO_CAMPAIGN=<id> python tools/geo/render.py
 """
 import json, math, os, sys, time
@@ -20,6 +21,10 @@ W, H = F['width'], F['height']
 _pal = os.path.join(CDIR, 'config', 'palette.json')
 PAL = json.load(open(_pal if os.path.exists(_pal) else os.path.join(os.path.dirname(__file__), 'palette.json')))
 rng = np.random.default_rng(int(CFG.get('seed', 1939)))
+SEA = CFG.get('sea') or {}
+# 复古海图水深色阶：[高程 m（负），颜色]，近岸几乎是纸色，随水深渐入蓝灰
+SEA_TINT = SEA.get('tint') or [[0, '#e6e9dc'], [-5, '#dfe6da'], [-10, '#d8e2d9'], [-20, '#d0ddd7'], [-50, '#c8d9d4'], [-100, '#c2d5d1'],
+                               [-200, '#bcd1cd'], [-1000, '#b4cbc9'], [-3000, '#abc5c5'], [-5000, '#a3bdbd']]
 
 
 def hexrgb(h):
@@ -168,6 +173,13 @@ wcol_sea = hexrgb(PAL['water']['sea']); wdeep = hexrgb(PAL['water']['seaDeep']);
 deep_t = np.clip(dist_sea / 900, 0, 1) ** 0.8
 wcol = wcol_sea[None, None, :] * (1 - deep_t[..., None]) + wdeep[None, None, :] * deep_t[..., None]
 is_lake = (lakes > 0.5) & wat_b
+if SEA.get('bathymetry'):
+    # 水深设色：在 sqrt(水深) 空间里线性插值，浅水段变化更细
+    _dep = np.sqrt(np.clip(-ndimage.gaussian_filter(dem, 1.0), 0, None))
+    _st = sorted(SEA_TINT, key=lambda t: -t[0])
+    _x = np.sqrt(np.array([max(-t[0], 0) for t in _st], np.float32))
+    wcol = np.stack([np.interp(_dep, _x, [hexrgb(t[1])[c] for t in _st]) for c in range(3)], -1).astype(np.float32)
+    del _dep
 wcol[is_lake] = wlake
 # 雕版水波纹：离岸等距细线，间距逐渐增大、向外渐淡；沿岸线方向略有断续
 waves = np.zeros((H, W), np.float32)

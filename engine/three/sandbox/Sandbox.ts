@@ -436,8 +436,8 @@ export function createSandbox(host: HTMLElement, db: DB, getInsets?: () => Camer
     showEch = dist > 5200 ? 0 : dist > 2600 ? 1 : 2;
     const visit = (u: RUnit) => {
       const r = ECHELON_RANK[u.echelon];
-      if (T < u.fromH - 1 || T > u.toH + 48) return;
-      const kids = u.children.map((c) => db.units.get(c)!).filter((c) => c && T >= c.fromH - 1 && T <= c.toH + 48);
+      if (T < u.fromH - 1 || T > u.toH + u.fadeH) return;
+      const kids = u.children.map((c) => db.units.get(c)!).filter((c) => c && T >= c.fromH - 1 && T <= c.toH + c.fadeH);
       if (r < 0 || (kids.length && isContainer(u))) { kids.forEach(visit); return; }
       if (r >= showEch || !kids.length) { place(u); return; }
       kids.forEach(visit);

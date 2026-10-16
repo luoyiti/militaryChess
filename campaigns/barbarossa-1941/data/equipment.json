@@ -1,0 +1,861 @@
+[
+ {
+  "id": "pz2",
+  "side": "DE",
+  "name": {
+   "zh": "II 号坦克",
+   "orig": "Panzerkampfwagen II (Sd.Kfz. 121)"
+  },
+  "class": "tank_light",
+  "crew": 3,
+  "weightT": 9.5,
+  "armorMm": [
+   10,
+   35
+  ],
+  "gun": "20 mm KwK 30/38 L/55 + 7.92 mm MG 34",
+  "speedKmh": 40,
+  "count": 746,
+  "model": "pz2",
+  "photo": {
+   "commons": "File:Bundesarchiv Bild 101I-265-0003-18A, Russland, Panzer II.jpg",
+   "caption": "1941 年夏，苏联境内的德军 II 号坦克"
+  },
+  "desc": "1941 年仍有 746 辆随装甲师进入苏联，多数编在侦察排与轻型连。20 mm 机关炮对付苏军装甲车和 T-26 尚可，面对 T-34、KV 毫无办法；秋季以后损耗殆尽，逐步退出一线。",
+  "sources": [
+   "media_jentz",
+   "media_wiki_eq_de"
+  ]
+ },
+ {
+  "id": "pz3",
+  "side": "DE",
+  "name": {
+   "zh": "III 号坦克",
+   "orig": "Panzerkampfwagen III (Sd.Kfz. 141)"
+  },
+  "class": "tank_medium",
+  "crew": 5,
+  "weightT": 21.5,
+  "armorMm": [
+   10,
+   60
+  ],
+  "gun": "50 mm KwK 38 L/42（约 700 辆）或 37 mm KwK 36 L/46.5",
+  "speedKmh": 40,
+  "count": 965,
+  "model": "pz3",
+  "photo": {
+   "commons": "File:11. PzD Barbarossa.jpg",
+   "caption": "巴巴罗萨行动初期第 11 装甲师的 III 号坦克"
+  },
+  "desc": "巴巴罗萨中德军装甲师的主力战车，开战时约 965 辆，其中约 700 辆已换装 50 mm 短身管炮。乘员五人、车长指挥塔与无线电带来战术优势，但其火炮在常规距离上难以击穿 T-34 和 KV 的正面装甲。",
+  "sources": [
+   "media_jentz",
+   "media_forczyk_tanks",
+   "media_wiki_eq_de"
+  ]
+ },
+ {
+  "id": "pz4",
+  "side": "DE",
+  "name": {
+   "zh": "IV 号坦克",
+   "orig": "Panzerkampfwagen IV (Sd.Kfz. 161)"
+  },
+  "class": "tank_medium",
+  "crew": 5,
+  "weightT": 22.3,
+  "armorMm": [
+   10,
+   50
+  ],
+  "gun": "75 mm KwK 37 L/24 + 2 × MG 34",
+  "speedKmh": 40,
+  "count": 439,
+  "model": "pz4",
+  "photo": {
+   "commons": "File:Bundesarchiv Bild 101I-209-0052-35A, Russland-Nord, zerstörte Brücke mit Panzer IV.jpg",
+   "caption": "1941 年 6 月，北方集团军群战区一座被炸毁的桥边的 IV 号坦克"
+  },
+  "desc": "装 75 mm 短身管炮的支援坦克，开战时东线约 439 辆，每个装甲营一个中型连。低初速榴弹适合摧毁火力点和反坦克炮，却难以对付苏军新式坦克；1942 年起换装长身管炮后才成为主力。",
+  "sources": [
+   "media_jentz",
+   "media_wiki_eq_de"
+  ]
+ },
+ {
+  "id": "pz38t",
+  "side": "DE",
+  "name": {
+   "zh": "38(t) 坦克",
+   "orig": "Panzerkampfwagen 38(t)"
+  },
+  "class": "tank_light",
+  "crew": 4,
+  "weightT": 9.7,
+  "armorMm": [
+   8,
+   50
+  ],
+  "gun": "37 mm KwK 38(t) L/47.8 + 2 × MG 37(t)",
+  "speedKmh": 42,
+  "count": 623,
+  "model": "pz38t",
+  "photo": {
+   "commons": "File:7 PzD 1941.jpg",
+   "caption": "巴巴罗萨行动开始时第 7 装甲师的 38(t) 坦克连"
+  },
+  "desc": "捷克斯洛伐克设计、由布拉格 BMM 厂为德军生产，开战时约 623 辆（一说 750 余辆含指挥车），装备第 7、8、12、19、20 装甲师。机械可靠、速度快，但 37 mm 炮与铆接装甲在 1941 年已显不足。",
+  "sources": [
+   "media_jentz",
+   "media_forczyk_tanks",
+   "media_wiki_eq_de"
+  ]
+ },
+ {
+  "id": "pz35t",
+  "side": "DE",
+  "name": {
+   "zh": "35(t) 坦克",
+   "orig": "Panzerkampfwagen 35(t)"
+  },
+  "class": "tank_light",
+  "crew": 4,
+  "weightT": 10.5,
+  "armorMm": [
+   8,
+   25
+  ],
+  "gun": "37 mm KwK 34(t) L/40 + 2 × MG 37(t)",
+  "speedKmh": 34,
+  "count": 149,
+  "model": "pz35t",
+  "photo": {
+   "commons": "File:Bundesarchiv Bild 101I-209-0090-28, Russland-Nord, Infanterie und Panzer 35t.jpg",
+   "caption": "1941 年夏，北方集团军群的步兵与第 6 装甲师的 35(t) 坦克"
+  },
+  "desc": "原捷克斯洛伐克 LT vz.35，1941 年只剩第 6 装甲师成建制装备，约 149 辆（一说 155 辆）。6 月在拉塞尼艾与 KV 坦克苦战，压缩空气辅助的转向系统在严寒中频频失灵，到年底几乎全部损失。",
+  "sources": [
+   "media_jentz",
+   "media_wiki_eq_de"
+  ]
+ },
+ {
+  "id": "stug3",
+  "side": "DE",
+  "name": {
+   "zh": "III 号突击炮",
+   "orig": "Sturmgeschütz III Ausf. B–E"
+  },
+  "class": "tank_medium",
+  "crew": 4,
+  "weightT": 22,
+  "armorMm": [
+   10,
+   50
+  ],
+  "gun": "75 mm StuK 37 L/24",
+  "speedKmh": 40,
+  "count": 259,
+  "model": "stug3",
+  "photo": {
+   "commons": "File:Bundesarchiv Bild 101I-136-0882-12, Sowjetunion, Deutsches Sturmgeschütz.jpg",
+   "caption": "1941 年夏，苏联境内的 III 号突击炮"
+  },
+  "desc": "III 号坦克底盘上的无炮塔自行火炮，属炮兵编制，以营或连配属步兵军直接支援步兵突击。开战时约 250 余辆（11 个营又 5 个独立连）。车身低矮、正面装甲 50 mm，在东线伤亡比极佳，产量随之猛增。",
+  "sources": [
+   "media_liedtke",
+   "wiki_barbarossa",
+   "media_wiki_eq_de"
+  ]
+ },
+ {
+  "id": "sdkfz251",
+  "side": "DE",
+  "name": {
+   "zh": "Sd.Kfz. 251 半履带装甲运兵车",
+   "orig": "Mittlerer Schützenpanzerwagen Sd.Kfz. 251"
+  },
+  "class": "armored_car",
+  "crew": 12,
+  "weightT": 7.8,
+  "armorMm": [
+   6,
+   14.5
+  ],
+  "gun": "1–2 × 7.92 mm MG 34",
+  "speedKmh": 52,
+  "photo": {
+   "commons": "File:Bundesarchiv Bild 101I-209-0056-06, Russland-Nord, Schützenpanzer mit Besatzung.jpg",
+   "caption": "1941 年夏，第 1 装甲师的 Sd.Kfz. 251 及其乘员"
+  },
+  "desc": "可载一个步兵班随坦克越野推进的半履带装甲车。1941 年数量仍少，通常每个装甲师只有一个步兵营装备，其余步兵乘卡车。秋季泥泞期和冬季，半履带车是少数仍能在莫斯科方向道路上行驶的车辆。",
+  "sources": [
+   "media_liedtke",
+   "media_wiki_eq_de"
+  ]
+ },
+ {
+  "id": "pak36",
+  "side": "DE",
+  "name": {
+   "zh": "37 mm 反坦克炮",
+   "orig": "3,7-cm-Panzerabwehrkanone 36 (Pak 36)"
+  },
+  "class": "gun",
+  "crew": 5,
+  "weightT": 0.43,
+  "gun": "37 mm L/45，穿甲约 35 mm／500 m",
+  "photo": {
+   "commons": "File:Zajęcie Grodna przez wojska niemieckie (2-780).jpg",
+   "caption": "1941 年 6 月，格罗德诺街头的德军 37 mm Pak 36 反坦克炮"
+  },
+  "desc": "1941 年德军步兵团反坦克连的标准装备，轻便易藏，对 T-26、BT 绰绰有余，打在 T-34 和 KV 上却只能弹开，被士兵戏称为“敲门器”。同年配发的 50 mm Pak 38 数量尚少，师级反坦克能力由此暴露短板。",
+  "sources": [
+   "media_wiki_eq_de",
+   "dra_4"
+  ]
+ },
+ {
+  "id": "pak38",
+  "side": "DE",
+  "name": {
+   "zh": "50 mm 反坦克炮",
+   "orig": "5-cm-Panzerabwehrkanone 38 (Pak 38)"
+  },
+  "class": "gun",
+  "crew": 5,
+  "weightT": 1.0,
+  "gun": "50 mm L/60，钨芯弹穿甲约 100 mm／500 m",
+  "photo": {
+   "commons": "File:Bundesarchiv Bild 101I-297-1701-14, Nachschub per Eisenbahn, 5-cm Pak 38.jpg",
+   "caption": "铁路输送中的 50 mm Pak 38 反坦克炮"
+  },
+  "desc": "1940 年底开始列装的长身管反坦克炮，使用钨芯穿甲弹时能在近距离击穿 T-34 正面。1941 年夏只配发到部分师的反坦克营，钨芯弹也极为紧缺，遭遇 KV 时德军常不得不调来 88 mm 高射炮或重炮直瞄射击。",
+  "sources": [
+   "media_wiki_eq_de",
+   "media_liedtke"
+  ]
+ },
+ {
+  "id": "flak88",
+  "side": "DE",
+  "name": {
+   "zh": "88 mm 高射炮",
+   "orig": "8,8-cm-Flak 18/36"
+  },
+  "class": "gun",
+  "crew": 9,
+  "weightT": 7.4,
+  "gun": "88 mm L/56，射速 15–20 发/分",
+  "photo": {
+   "commons": "File:8.8 cm Flak 18-36-37 1.jpg",
+   "caption": "博物馆中的 88 mm Flak 18/36/37 高射炮"
+  },
+  "desc": "空军高炮部队的重型高射炮，平射时是 1941 年德军手中少数能在远距离击毁 KV 坦克的武器。高炮营常被配属给装甲集群担任“救火队”，如 6 月拉塞尼艾一辆 KV-2 就是被 88 mm 炮配合工兵摧毁的。",
+  "sources": [
+   "media_wiki_eq_de",
+   "media_zaloga_kv"
+  ]
+ },
+ {
+  "id": "nebelwerfer",
+  "side": "DE",
+  "name": {
+   "zh": "150 mm 六管火箭炮",
+   "orig": "15-cm-Nebelwerfer 41"
+  },
+  "class": "gun",
+  "crew": 5,
+  "weightT": 0.54,
+  "gun": "6 × 158.5 mm 火箭弹，射程约 6.9 km",
+  "photo": {
+   "commons": "File:Bundesarchiv Bild 101I-022-2943-20, Russland, Nebelwerfer.jpg",
+   "caption": "东线的 15 cm Nebelwerfer 41 六管火箭炮"
+  },
+  "desc": "名为“烟幕抛射器”的德军火箭炮，由化学兵（发烟部队）操作，10 秒内可射出六枚火箭弹。巴巴罗萨首日即用于炮击布列斯特要塞，尖啸声令苏军称之为“驴子”，后来与苏军“喀秋莎”互为对照。",
+  "sources": [
+   "media_wiki_eq_de",
+   "dra_4"
+  ]
+ },
+ {
+  "id": "bf109",
+  "side": "DE",
+  "name": {
+   "zh": "Bf 109 战斗机",
+   "orig": "Messerschmitt Bf 109 F-2 / E-7"
+  },
+  "class": "fighter",
+  "crew": 1,
+  "gun": "15 mm MG 151 机炮 + 2 × 7.92 mm MG 17（F-2）",
+  "speedKmh": 600,
+  "model": "bf109",
+  "photo": {
+   "commons": "File:Bundesarchiv Bild 101I-395-1533-06A, Russland, Wartung einer Me 109.jpg",
+   "caption": "1942 年初，东线野战机场上维护中的 Bf 109 F"
+  },
+  "desc": "德国空军东线唯一的单发战斗机，开战时约 800 架可用（多为新式 F 型）。凭借编队战术与经验，在开战头几周对苏军歼击机取得压倒性战果；7 月 15 日莫尔德斯成为首位击落 100 架的飞行员。",
+  "sources": [
+   "bergstrom_barbarossa",
+   "media_wiki_air_barbarossa",
+   "media_wiki_eq_de"
+  ]
+ },
+ {
+  "id": "ju87",
+  "side": "DE",
+  "name": {
+   "zh": "Ju 87“斯图卡”俯冲轰炸机",
+   "orig": "Junkers Ju 87 B-2 / R"
+  },
+  "class": "dive_bomber",
+  "crew": 2,
+  "gun": "2 × 7.92 mm MG 17 + 后座 MG 15；炸弹 500 kg",
+  "speedKmh": 390,
+  "model": "ju87",
+  "photo": {
+   "commons": "File:Bundesarchiv Bild 101I-393-1402-06A, Russland, Junkers Ju 87.jpg",
+   "caption": "东线的 Ju 87 俯冲轰炸机"
+  },
+  "desc": "装甲集群的“空中炮兵”，开战时第 1、2、77 俯冲轰炸机联队约 300 余架，专门打击渡口、桥梁和坦克集群。9 月 23 日鲁德尔驾驶 Ju 87 在喀琅施塔得重创苏联战列舰“马拉”号，苏方空中拦截薄弱是其能够横行的前提。",
+  "sources": [
+   "bergstrom_barbarossa",
+   "media_wiki_eq_de"
+  ]
+ },
+ {
+  "id": "he111",
+  "side": "DE",
+  "name": {
+   "zh": "He 111 轰炸机",
+   "orig": "Heinkel He 111 H"
+  },
+  "class": "bomber",
+  "crew": 5,
+  "gun": "5–7 × 7.92 mm MG；炸弹 2,000 kg",
+  "speedKmh": 435,
+  "model": "he111",
+  "photo": {
+   "commons": "File:Bundesarchiv Bild 101I-331-3026-01A, Russland, He 111.jpg",
+   "caption": "东线的 He 111 轰炸机"
+  },
+  "desc": "德国空军东线的主力中型轰炸机之一。开战拂晓与 Ju 88、Do 17 一起突袭苏军前沿机场，此后主要遮断铁路与支援地面战；7 月 21–22 日夜首次空袭莫斯科的约 195 架飞机中以 He 111 为主力。",
+  "sources": [
+   "bergstrom_barbarossa",
+   "media_wiki_moscow_bombing",
+   "media_wiki_eq_de"
+  ]
+ },
+ {
+  "id": "ju88",
+  "side": "DE",
+  "name": {
+   "zh": "Ju 88 轰炸机",
+   "orig": "Junkers Ju 88 A-4 / A-5"
+  },
+  "class": "bomber",
+  "crew": 4,
+  "gun": "3–4 × 7.92 mm MG；炸弹 1,400–2,000 kg",
+  "speedKmh": 470,
+  "model": "ju88",
+  "photo": {
+   "commons": "File:Bundesarchiv Bild 146-1980-122-26, Flugzeuge Junkers Ju 88, Montage.jpg",
+   "caption": "德国工厂总装线上的 Ju 88"
+  },
+  "desc": "速度最快的德军中型轰炸机，可作俯冲投弹，开战时编有第 1、3、30、51、54、76、77 轰炸机联队等。22 日首日即参与对苏军 66 个前沿机场的突袭，此后在列宁格勒方向轰炸喀琅施塔得与拉多加湖航运。",
+  "sources": [
+   "bergstrom_barbarossa",
+   "media_wiki_air_barbarossa",
+   "media_wiki_eq_de"
+  ]
+ },
+ {
+  "id": "t26",
+  "side": "SU",
+  "name": {
+   "zh": "T-26 轻型坦克",
+   "orig": "Т-26 обр. 1933/1939 г."
+  },
+  "class": "tank_light",
+  "crew": 3,
+  "weightT": 10.3,
+  "armorMm": [
+   6,
+   20
+  ],
+  "gun": "45 mm 20-K L/46 + 1–2 × 7.62 mm DT",
+  "speedKmh": 30,
+  "count": 4221,
+  "model": "t26",
+  "photo": {
+   "commons": "File:Sovjet Tank Jul1941 02.jpg",
+   "caption": "1941 年 7 月，路边被遗弃的苏军 T-26（1939 年型）"
+  },
+  "desc": "以英国维克斯 6 吨坦克为蓝本的步兵支援坦克，是红军数量最多的车型。1941 年 6 月西部军区约 4,200 辆（含双炮塔与喷火型），45 mm 炮可击穿德军坦克，但装甲薄、车况差，大量因缺乏零件和燃料而遗弃。",
+  "sources": [
+   "media_tankarchives_1941",
+   "media_zaloga_grandsen",
+   "media_wiki_eq_su"
+  ]
+ },
+ {
+  "id": "bt7",
+  "side": "SU",
+  "name": {
+   "zh": "BT-7 快速坦克",
+   "orig": "БТ-7 / БТ-7М"
+  },
+  "class": "tank_light",
+  "crew": 3,
+  "weightT": 14,
+  "armorMm": [
+   6,
+   22
+  ],
+  "gun": "45 mm 20-K L/46 + 2 × 7.62 mm DT",
+  "speedKmh": 52,
+  "count": 3287,
+  "model": "bt7",
+  "photo": {
+   "commons": "File:BT-7.JPG",
+   "caption": "1941 年在立陶宛被德军拍下的 BT-7 快速坦克"
+  },
+  "desc": "源自克里斯蒂悬挂的轮履两用快速坦克，去掉履带后公路时速可达 70 余 km。1941 年 6 月西部军区约 3,300 辆 BT-7 与 BT-7M，是机械化军的主力之一，在杜布诺、列佩利等反突击中成批损失。",
+  "sources": [
+   "media_tankarchives_1941",
+   "media_zaloga_grandsen",
+   "media_wiki_eq_su"
+  ]
+ },
+ {
+  "id": "t34",
+  "side": "SU",
+  "name": {
+   "zh": "T-34 中型坦克",
+   "orig": "Т-34 обр. 1940/1941 г."
+  },
+  "class": "tank_medium",
+  "crew": 4,
+  "weightT": 26.8,
+  "armorMm": [
+   15,
+   45
+  ],
+  "gun": "76.2 mm L-11 / F-34 + 2 × 7.62 mm DT",
+  "speedKmh": 54,
+  "count": 832,
+  "model": "t34",
+  "photo": {
+   "commons": "File:T-34 model 1941 in Kubinka Tank Museum.JPG",
+   "caption": "库宾卡坦克博物馆中的 1941 年型 T-34"
+  },
+  "desc": "倾斜装甲、76 mm 长身管炮与柴油机的组合令德军震惊。1941 年 6 月 1 日全军约 892 辆、西部军区约 832 辆，集中在少数机械化军；乘员缺乏训练、车况与补给问题使其早期战果有限，10 月姆岑斯克一战后声名大噪。",
+  "sources": [
+   "media_tankarchives_1941",
+   "media_zaloga_t34",
+   "media_wiki_eq_su"
+  ]
+ },
+ {
+  "id": "kv1",
+  "side": "SU",
+  "name": {
+   "zh": "KV-1 重型坦克",
+   "orig": "КВ-1 обр. 1940/1941 г."
+  },
+  "class": "tank_medium",
+  "crew": 5,
+  "weightT": 47,
+  "armorMm": [
+   20,
+   90
+  ],
+  "gun": "76.2 mm L-11 / F-32 + 3 × 7.62 mm DT",
+  "speedKmh": 34,
+  "count": 337,
+  "model": "kv1",
+  "photo": {
+   "commons": "File:KV-1 Model 1941 in the Breakthrough of the Siege of Leningrad Museum.jpg",
+   "caption": "基洛夫斯克“突破列宁格勒封锁”博物馆旁的 KV-1"
+  },
+  "desc": "以列宁格勒基洛夫工厂命名的重型坦克，75 mm 装甲几乎不怕德军所有反坦克炮。6 月 1 日西部军区约 337 辆，单车多次拖住整支德军纵队；但传动可靠性差、油耗高，大批因故障与缺油被乘员自行炸毁。",
+  "sources": [
+   "media_tankarchives_1941",
+   "media_zaloga_kv",
+   "media_wiki_eq_su"
+  ]
+ },
+ {
+  "id": "kv2",
+  "side": "SU",
+  "name": {
+   "zh": "KV-2 重型坦克",
+   "orig": "КВ-2"
+  },
+  "class": "tank_medium",
+  "crew": 6,
+  "weightT": 52,
+  "armorMm": [
+   20,
+   75
+  ],
+  "gun": "152 mm M-10T 榴弹炮 + 3 × 7.62 mm DT",
+  "speedKmh": 25,
+  "count": 132,
+  "photo": {
+   "commons": "File:German soldiers inspecting KV-2 tank, 1941.jpg",
+   "caption": "1941 年夏，德军士兵察看一辆被遗弃的 KV-2"
+  },
+  "desc": "在 KV 底盘上装巨大高炮塔与 152 mm 榴弹炮的“破碉堡坦克”，西部军区约 132 辆。6 月 23–24 日拉塞尼艾附近一辆 KV-2 独自堵住第 6 装甲师劳斯战斗群的补给路线近一天，最终被 88 mm 炮与工兵炸药摧毁。",
+  "sources": [
+   "media_tankarchives_1941",
+   "media_zaloga_kv",
+   "media_wiki_eq_su"
+  ]
+ },
+ {
+  "id": "t28",
+  "side": "SU",
+  "name": {
+   "zh": "T-28 多炮塔中型坦克",
+   "orig": "Т-28"
+  },
+  "class": "tank_medium",
+  "crew": 6,
+  "weightT": 28,
+  "armorMm": [
+   10,
+   30
+  ],
+  "gun": "76.2 mm L-10 + 3–4 × 7.62 mm DT（三个炮塔）",
+  "speedKmh": 42,
+  "count": 424,
+  "photo": {
+   "commons": "File:Kowno Panzerschlacht 1941 04 (RaBoe).jpg",
+   "caption": "1941 年 6 月，考纳斯附近被击毁的 T-28"
+  },
+  "desc": "列宁格勒基洛夫工厂制造的三炮塔中型坦克，1933–1940 年共产约 500 辆，1941 年 6 月西部军区约 424 辆。车体高大、装甲薄、零件早已停产，在边境交战中多因故障抛锚，少数在列宁格勒保卫战中坚持到冬季。",
+  "sources": [
+   "media_tankarchives_1941",
+   "media_zaloga_grandsen",
+   "media_wiki_eq_su"
+  ]
+ },
+ {
+  "id": "t35",
+  "side": "SU",
+  "name": {
+   "zh": "T-35 重型坦克",
+   "orig": "Т-35"
+  },
+  "class": "tank_medium",
+  "crew": 11,
+  "weightT": 50,
+  "armorMm": [
+   10,
+   30
+  ],
+  "gun": "76.2 mm KT-28 + 2 × 45 mm 20-K + 5–6 × 7.62 mm DT（五个炮塔）",
+  "speedKmh": 28,
+  "count": 51,
+  "photo": {
+   "commons": "File:T-35A Heavy Tank (36933524573) (2).jpg",
+   "caption": "库宾卡爱国者公园中现存唯一的 T-35"
+  },
+  "desc": "世界上唯一量产的五炮塔重型坦克，共造 61 辆。1941 年约 48 辆集中在第 8 机械化军第 34 坦克师，参加杜布诺—布罗迪反突击；行军途中绝大多数因传动故障抛锚而被弃，被德军击毁者只占少数。",
+  "sources": [
+   "media_tankarchives_1941",
+   "media_kolomiets_t35",
+   "media_wiki_eq_su"
+  ]
+ },
+ {
+  "id": "t40",
+  "side": "SU",
+  "name": {
+   "zh": "T-40 两栖轻型坦克",
+   "orig": "Т-40"
+  },
+  "class": "tank_light",
+  "crew": 2,
+  "weightT": 5.5,
+  "armorMm": [
+   7,
+   14
+  ],
+  "gun": "12.7 mm DShK + 7.62 mm DT",
+  "speedKmh": 45,
+  "count": 115,
+  "photo": {
+   "commons": "File:T-40 in ambush.jpg",
+   "caption": "西方面军一辆在伏击阵地的 T-40"
+  },
+  "desc": "取代 T-37/T-38 的两栖侦察坦克，靠尾部螺旋桨在水中航行。开战时西部军区只有约 115 辆；秋季又生产了去掉浮渡能力的 T-40S 和 T-60，冬季大量出现在莫斯科城下的坦克旅中。",
+  "sources": [
+   "media_tankarchives_1941",
+   "media_zaloga_grandsen",
+   "media_wiki_eq_su"
+  ]
+ },
+ {
+  "id": "ba10",
+  "side": "SU",
+  "name": {
+   "zh": "BA-10 装甲车",
+   "orig": "БА-10"
+  },
+  "class": "armored_car",
+  "crew": 4,
+  "weightT": 5.1,
+  "armorMm": [
+   6,
+   15
+  ],
+  "gun": "45 mm 20-K + 2 × 7.62 mm DT",
+  "speedKmh": 53,
+  "photo": {
+   "commons": "File:Бронеавтомобиль БА-10 в Музее отечественной военной истории.jpg",
+   "caption": "帕季科沃祖国军事史博物馆中的 BA-10 装甲车"
+  },
+  "desc": "伊若尔斯克工厂在 GAZ-AAA 卡车底盘上制造的重型装甲车，1938–1941 年共生产约 3,300 辆，装与 T-26 相同的 45 mm 炮。配属骑兵师、坦克师侦察营，越野能力差，在 1941 年夏季交战中损失大半。",
+  "sources": [
+   "media_zaloga_grandsen",
+   "media_wiki_eq_su"
+  ]
+ },
+ {
+  "id": "m1931_122",
+  "side": "SU",
+  "name": {
+   "zh": "122 mm 加农炮 M1931/37",
+   "orig": "122-мм пушка обр. 1931/37 гг. (А-19)"
+  },
+  "class": "gun",
+  "crew": 9,
+  "weightT": 7.1,
+  "gun": "122 mm L/46，射程 20.4 km",
+  "photo": {
+   "commons": "File:122 mm howitzer M1938 (M-30) museum on Sapun Mountain Sevastopol 1.jpg",
+   "caption": "塞瓦斯托波尔萨蓬山博物馆中的 122 mm M-30 榴弹炮（同口径的师属榴弹炮）"
+  },
+  "desc": "红军军属炮兵与统帅部预备队的远程加农炮，与师属的 122 mm M-30 榴弹炮共同构成苏军炮兵骨干。1941 年夏大批火炮因缺乏牵引车在包围圈中丢失，据克里沃舍耶夫统计，苏军全年损失火炮与迫击炮约 10.1 万门。",
+  "sources": [
+   "krivosheev",
+   "media_wiki_eq_su"
+  ]
+ },
+ {
+  "id": "zis3",
+  "side": "SU",
+  "name": {
+   "zh": "76 mm 师属加农炮",
+   "orig": "76-мм пушка обр. 1939 г. (Ф-22УСВ) / ЗИС-3"
+  },
+  "class": "gun",
+  "crew": 6,
+  "weightT": 1.5,
+  "gun": "76.2 mm，射程 13 km，可兼作反坦克炮",
+  "photo": {
+   "commons": "File:Kiev 76mm ZIS-3 2018 G2.jpg",
+   "caption": "基辅二战博物馆中的 76 mm ZiS-3 加农炮"
+  },
+  "desc": "1941 年师属炮兵的主力是 F-22USV，直瞄射击可击毁德军所有坦克。格拉宾设计局更轻便的 ZiS-3 在高尔基第 92 厂于当年下半年未经批准先行投产，1942 年 2 月才正式列装，后来成为产量最大的苏军火炮。",
+  "sources": [
+   "media_wiki_eq_su"
+  ]
+ },
+ {
+  "id": "katyusha",
+  "side": "SU",
+  "name": {
+   "zh": "BM-13“喀秋莎”火箭炮",
+   "orig": "БМ-13 «Катюша»"
+  },
+  "class": "gun",
+  "crew": 6,
+  "weightT": 7.2,
+  "gun": "16 × 132 mm M-13 火箭弹，射程约 8.5 km",
+  "photo": {
+   "commons": "File:Dykanka Katiushi IMG 6036 53-210-0030.JPG",
+   "caption": "乌克兰季坎卡的 BM-13 纪念碑；1941 年 9 月 25 日喀秋莎在此附近齐射"
+  },
+  "desc": "装在 ZiS-6 卡车上的多管火箭炮。1941 年 7 月 14 日，弗廖罗夫上尉的试验炮兵连在奥尔沙火车站进行首次实战齐射。因高度保密，部队起初称之为“喀秋莎”或近卫迫击炮，年底已扩编为数十个营。",
+  "sources": [
+   "media_wiki_eq_su",
+   "glantz_derailed"
+  ]
+ },
+ {
+  "id": "i16",
+  "side": "SU",
+  "name": {
+   "zh": "I-16 战斗机",
+   "orig": "И-16 тип 24/29"
+  },
+  "class": "fighter",
+  "crew": 1,
+  "gun": "2 × 7.62 mm ShKAS + 2 × 20 mm ShVAK 或 12.7 mm BS",
+  "speedKmh": 470,
+  "photo": {
+   "commons": "File:Soviet damaged I-16 fighters captured by the Germans at Riga airfield. June 1941.jpg",
+   "caption": "1941 年 6 月，德军在里加机场缴获的受损 I-16"
+  },
+  "desc": "世界上第一种可收放起落架的单翼战斗机，1941 年仍是苏军歼击航空兵数量最多的机型。速度不及 Bf 109，但转弯灵活；开战首日大批在机场被毁，飞行员以撞击战术与损失换取时间。",
+  "sources": [
+   "bergstrom_barbarossa",
+   "media_hardesty",
+   "media_wiki_eq_su"
+  ]
+ },
+ {
+  "id": "mig3",
+  "side": "SU",
+  "name": {
+   "zh": "米格-3 战斗机",
+   "orig": "МиГ-3"
+  },
+  "class": "fighter",
+  "crew": 1,
+  "gun": "12.7 mm BS + 2 × 7.62 mm ShKAS",
+  "speedKmh": 640,
+  "photo": {
+   "commons": "File:Operation Barbarossa - Russian plane.jpg",
+   "caption": "1941 年被毁的苏军米格-3"
+  },
+  "desc": "为高空截击设计的新式歼击机，7,800 m 高度时速约 640 km，1941 年 6 月已生产约 1,300 架，是西部军区数量最多的新机型。中低空性能和火力不足，许多飞行员尚未改装完成；秋冬主要用于莫斯科防空。",
+  "sources": [
+   "media_wiki_air_barbarossa",
+   "media_gordon_soviet_air",
+   "media_wiki_eq_su"
+  ]
+ },
+ {
+  "id": "il2",
+  "side": "SU",
+  "name": {
+   "zh": "伊尔-2 强击机",
+   "orig": "Ил-2 (одноместный)"
+  },
+  "class": "bomber",
+  "crew": 1,
+  "gun": "2 × 20 mm ShVAK 或 23 mm VYa + 2 × ShKAS；炸弹 400 kg 或 8 × RS-82",
+  "speedKmh": 414,
+  "photo": {
+   "commons": "File:RIAN archive 2564 Soviet planes flying over Nazi positions near Moscow.jpg",
+   "caption": "莫斯科附近飞越德军阵地的伊尔-2"
+  },
+  "desc": "座舱与发动机由承力装甲壳包覆的低空强击机，开战时只生产了约 249 架。6 月 27 日起第 4 强击航空团在别列津纳河渡口首次参战；早期单座型缺乏后射机枪，损失极重，但被德军步兵视为最可怕的苏军飞机。",
+  "sources": [
+   "media_wiki_air_barbarossa",
+   "media_hardesty",
+   "media_wiki_eq_su"
+  ]
+ },
+ {
+  "id": "sb",
+  "side": "SU",
+  "name": {
+   "zh": "SB 轰炸机",
+   "orig": "СБ (АНТ-40)"
+  },
+  "class": "bomber",
+  "crew": 3,
+  "gun": "4 × 7.62 mm ShKAS；炸弹 600 kg",
+  "speedKmh": 450,
+  "photo": {
+   "commons": "File:Tupolev SB 2M-100A 3.jpg",
+   "caption": "莫尼诺空军博物馆中的 SB 轰炸机"
+  },
+  "desc": "图波列夫设计的全金属高速轰炸机，1941 年仍是苏军数量最多的前线轰炸机。开战头几天按命令在白天无护航成群攻击德军渡口与纵队，被 Bf 109 和高射炮成批击落，6 月下旬西方面军的轰炸航空兵损失过半。",
+  "sources": [
+   "bergstrom_barbarossa",
+   "media_hardesty",
+   "media_wiki_eq_su"
+  ]
+ },
+ {
+  "id": "r2",
+  "side": "RO",
+  "name": {
+   "zh": "R-2 轻型坦克",
+   "orig": "R-2 (LT vz. 35)"
+  },
+  "class": "tank_light",
+  "crew": 4,
+  "weightT": 10.5,
+  "armorMm": [
+   8,
+   25
+  ],
+  "gun": "37 mm Škoda A3 L/40 + 2 × 7.92 mm MG",
+  "speedKmh": 34,
+  "model": "pz35t",
+  "photo": {
+   "commons": "File:Romanian R-2c tank.jpg",
+   "caption": "罗马尼亚 R-2 坦克（图为后期 R-2c 改进型）"
+  },
+  "desc": "罗马尼亚 1938–1940 年购入的 126 辆捷克 LT vz.35，与德军 35(t) 同型，编为第 1 装甲师主力。1941 年夏随第 3、第 4 集团军收复比萨拉比亚，8–9 月在敖德萨城下损失惨重，随后撤回国内整补。",
+  "sources": [
+   "media_axworthy",
+   "media_wiki_eq_axis"
+  ]
+ },
+ {
+  "id": "toldi",
+  "side": "HU",
+  "name": {
+   "zh": "“托尔迪”轻型坦克",
+   "orig": "38M Toldi I"
+  },
+  "class": "tank_light",
+  "crew": 3,
+  "weightT": 8.5,
+  "armorMm": [
+   6,
+   13
+  ],
+  "gun": "20 mm 36M 反坦克枪 + 8 mm 34/37M 机枪",
+  "speedKmh": 50,
+  "count": 95,
+  "photo": {
+   "commons": "File:Toldi I tank kub.jpg",
+   "caption": "库宾卡坦克博物馆中的“托尔迪 I”"
+  },
+  "desc": "以瑞典 L-60 为基础、在匈牙利许可生产的轻型坦克。1941 年匈牙利快速军约有 95 辆（一说 80 余辆），随德军第 17 集团军与第 1 装甲集群一路打到顿涅茨河；装甲与火力过弱，到 11 月撤回国内时多已损坏。",
+  "sources": [
+   "media_ungvary_hu",
+   "media_wiki_hu_mobile",
+   "media_wiki_eq_axis"
+  ]
+ },
+ {
+  "id": "l3",
+  "side": "IT",
+  "name": {
+   "zh": "L3/35 超轻型坦克",
+   "orig": "Carro Veloce L3/35 (CV-35)"
+  },
+  "class": "tankette",
+  "crew": 2,
+  "weightT": 3.2,
+  "armorMm": [
+   6,
+   14
+  ],
+  "gun": "2 × 8 mm Breda 38 机枪",
+  "speedKmh": 42,
+  "count": 61,
+  "photo": {
+   "commons": "File:Carro Veloce CV-35 (L3-35) - Patriot Museum, Kubinka (37687204344).jpg",
+   "caption": "库宾卡爱国者公园中的意大利 L3/35 超轻型坦克"
+  },
+  "desc": "意大利远征军（CSIR）唯一的装甲车辆，“圣乔治”快速坦克营约 61 辆随第 3“阿梅迪奥公爵”快速师行动。只有机枪武装，在第聂伯河与顿巴斯作战中主要担任侦察和联络，面对苏军坦克毫无还手之力。",
+  "sources": [
+   "media_csir_ussme",
+   "media_wiki_csir",
+   "media_wiki_eq_axis"
+  ]
+ }
+]

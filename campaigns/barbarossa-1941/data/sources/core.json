@@ -1,0 +1,23 @@
+[
+  { "id": "glantz_derailed", "title": "Barbarossa Derailed: The Battle for Smolensk, 10 July – 10 September 1941 (Vol. 1–4)", "author": "David M. Glantz", "year": 2010 },
+  { "id": "glantz_initial", "title": "The Initial Period of War on the Eastern Front, 22 June – August 1941", "author": "David M. Glantz (ed.)", "year": 1993 },
+  { "id": "glantz_barbarossa", "title": "Barbarossa: Hitler's Invasion of Russia 1941", "author": "David M. Glantz", "year": 2001 },
+  { "id": "glantz_house", "title": "When Titans Clashed: How the Red Army Stopped Hitler", "author": "David M. Glantz, Jonathan M. House", "year": 1995 },
+  { "id": "glantz_leningrad", "title": "The Battle for Leningrad, 1941–1944", "author": "David M. Glantz", "year": 2002 },
+  { "id": "erickson_road", "title": "The Road to Stalingrad: Stalin's War with Germany, Vol. 1", "author": "John Erickson", "year": 1975 },
+  { "id": "stahel_barbarossa", "title": "Operation Barbarossa and Germany's Defeat in the East", "author": "David Stahel", "year": 2009 },
+  { "id": "stahel_kiev", "title": "Kiev 1941: Hitler's Battle for Supremacy in the East", "author": "David Stahel", "year": 2012 },
+  { "id": "stahel_typhoon", "title": "Operation Typhoon: Hitler's March on Moscow, October 1941", "author": "David Stahel", "year": 2013 },
+  { "id": "stahel_moscow", "title": "The Battle for Moscow", "author": "David Stahel", "year": 2015 },
+  { "id": "dra_4", "title": "Das Deutsche Reich und der Zweite Weltkrieg, Bd. 4: Der Angriff auf die Sowjetunion", "author": "Horst Boog, Jürgen Förster, Joachim Hoffmann, Ernst Klink, Rolf-Dieter Müller, Gerd R. Ueberschär (MGFA)", "year": 1983 },
+  { "id": "krivosheev", "title": "Soviet Casualties and Combat Losses in the Twentieth Century", "author": "G. F. Krivosheev (ed.)", "year": 1997 },
+  { "id": "bergstrom_barbarossa", "title": "Barbarossa: The Air Battle, July–December 1941", "author": "Christer Bergström", "year": 2007 },
+  { "id": "clark_barbarossa", "title": "Barbarossa: The Russian-German Conflict, 1941–45", "author": "Alan Clark", "year": 1965 },
+  { "id": "kirchubel_ag", "title": "Operation Barbarossa 1941 (1) Army Group South; (2) Army Group North; (3) Army Group Center (Osprey Campaign 129/132/148)", "author": "Robert Kirchubel", "year": 2003 },
+  { "id": "boe_1941", "title": "Боевой состав Советской армии, ч. 1 (июнь–декабрь 1941 г.)", "author": "Военно-научное управление Генерального штаба", "year": 1963 },
+  { "id": "lexikon_wehrmacht", "title": "Lexikon der Wehrmacht（部队沿革与编制）", "url": "https://www.lexikon-der-wehrmacht.de/" },
+  { "id": "wiki_barbarossa", "title": "Operation Barbarossa（英文维基百科条目）", "url": "https://en.wikipedia.org/wiki/Operation_Barbarossa", "license": "CC BY-SA 4.0" },
+  { "id": "wiki_barbarossa_oob", "title": "Order of battle for Operation Barbarossa（英文维基百科）", "url": "https://en.wikipedia.org/wiki/Order_of_battle_for_Operation_Barbarossa", "license": "CC BY-SA 4.0" },
+  { "id": "wiki_ru_vov1941", "title": "Великая Отечественная война / Операция «Барбаросса»（俄文维基百科）", "url": "https://ru.wikipedia.org/wiki/План_«Барбаросса»", "license": "CC BY-SA 4.0" },
+  { "id": "usma_atlas", "title": "West Point Atlas: World War II, European Theater — Eastern Front 1941 maps", "author": "United States Military Academy, Department of History", "url": "https://www.westpoint.edu/academics/academic-departments/history/world-war-ii-european-theater" }
+]

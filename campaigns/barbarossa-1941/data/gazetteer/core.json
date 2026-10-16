@@ -1,0 +1,1562 @@
+[
+ {
+  "id": "moscow",
+  "zh": "莫斯科",
+  "orig": "Москва",
+  "alt": "Moskau",
+  "pos": [
+   37.618,
+   55.751
+  ],
+  "kind": "capital",
+  "rank": 1,
+  "country": "SU"
+ },
+ {
+  "id": "leningrad",
+  "zh": "列宁格勒",
+  "orig": "Ленинград",
+  "alt": "今圣彼得堡",
+  "pos": [
+   30.316,
+   59.939
+  ],
+  "kind": "city",
+  "rank": 1,
+  "country": "SU"
+ },
+ {
+  "id": "kiev",
+  "zh": "基辅",
+  "orig": "Киев",
+  "alt": "Київ / Kiew",
+  "pos": [
+   30.523,
+   50.45
+  ],
+  "kind": "city",
+  "rank": 1,
+  "country": "SU"
+ },
+ {
+  "id": "minsk",
+  "zh": "明斯克",
+  "orig": "Минск",
+  "alt": "Minsk",
+  "pos": [
+   27.567,
+   53.9
+  ],
+  "kind": "city",
+  "rank": 1,
+  "country": "SU"
+ },
+ {
+  "id": "riga",
+  "zh": "里加",
+  "orig": "Рига",
+  "alt": "Rīga",
+  "pos": [
+   24.105,
+   56.949
+  ],
+  "kind": "city",
+  "rank": 1,
+  "country": "SU"
+ },
+ {
+  "id": "tallinn",
+  "zh": "塔林",
+  "orig": "Таллин",
+  "alt": "Tallinn / Reval",
+  "pos": [
+   24.745,
+   59.437
+  ],
+  "kind": "port",
+  "rank": 1,
+  "country": "SU"
+ },
+ {
+  "id": "vilnius",
+  "zh": "维尔纽斯",
+  "orig": "Вильнюс",
+  "alt": "Vilnius / Wilno",
+  "pos": [
+   25.279,
+   54.687
+  ],
+  "kind": "city",
+  "rank": 1,
+  "country": "SU"
+ },
+ {
+  "id": "kaunas",
+  "zh": "考纳斯",
+  "orig": "Каунас",
+  "alt": "Kaunas / Kowno",
+  "pos": [
+   23.904,
+   54.898
+  ],
+  "kind": "city",
+  "rank": 2,
+  "country": "SU"
+ },
+ {
+  "id": "kishinev",
+  "zh": "基希讷乌",
+  "orig": "Кишинёв",
+  "alt": "Chişinău",
+  "pos": [
+   28.863,
+   47.01
+  ],
+  "kind": "city",
+  "rank": 2,
+  "country": "SU"
+ },
+ {
+  "id": "odessa",
+  "zh": "敖德萨",
+  "orig": "Одесса",
+  "alt": "Odessa",
+  "pos": [
+   30.723,
+   46.482
+  ],
+  "kind": "port",
+  "rank": 1,
+  "country": "SU"
+ },
+ {
+  "id": "kharkov",
+  "zh": "哈尔科夫",
+  "orig": "Харьков",
+  "alt": "Харків / Charkow",
+  "pos": [
+   36.231,
+   49.994
+  ],
+  "kind": "city",
+  "rank": 1,
+  "country": "SU"
+ },
+ {
+  "id": "smolensk",
+  "zh": "斯摩棱斯克",
+  "orig": "Смоленск",
+  "alt": "Smolensk",
+  "pos": [
+   32.045,
+   54.782
+  ],
+  "kind": "city",
+  "rank": 1,
+  "country": "SU"
+ },
+ {
+  "id": "bucharest",
+  "zh": "布加勒斯特",
+  "orig": "București",
+  "alt": "Bukarest",
+  "pos": [
+   26.103,
+   44.427
+  ],
+  "kind": "capital",
+  "rank": 1,
+  "country": "RO"
+ },
+ {
+  "id": "helsinki",
+  "zh": "赫尔辛基",
+  "orig": "Helsinki",
+  "alt": "Helsingfors",
+  "pos": [
+   24.938,
+   60.17
+  ],
+  "kind": "capital",
+  "rank": 1,
+  "country": "FI"
+ },
+ {
+  "id": "konigsberg",
+  "zh": "柯尼斯堡",
+  "orig": "Königsberg",
+  "alt": "今加里宁格勒",
+  "pos": [
+   20.511,
+   54.71
+  ],
+  "kind": "city",
+  "rank": 1,
+  "country": "DE"
+ },
+ {
+  "id": "warsaw",
+  "zh": "华沙",
+  "orig": "Warschau",
+  "alt": "Warszawa",
+  "pos": [
+   21.012,
+   52.23
+  ],
+  "kind": "city",
+  "rank": 1,
+  "country": "DE"
+ },
+ {
+  "id": "lvov",
+  "zh": "利沃夫",
+  "orig": "Львов",
+  "alt": "Lwów / Lemberg / 今 Lviv",
+  "pos": [
+   24.031,
+   49.842
+  ],
+  "kind": "city",
+  "rank": 1,
+  "country": "SU"
+ },
+ {
+  "id": "brest",
+  "zh": "布列斯特",
+  "orig": "Брест",
+  "alt": "Brest-Litowsk / Brześć",
+  "pos": [
+   23.686,
+   52.093
+  ],
+  "kind": "city",
+  "rank": 2,
+  "country": "SU"
+ },
+ {
+  "id": "bialystok",
+  "zh": "比亚韦斯托克",
+  "orig": "Белосток",
+  "alt": "Białystok",
+  "pos": [
+   23.164,
+   53.133
+  ],
+  "kind": "city",
+  "rank": 2,
+  "country": "SU"
+ },
+ {
+  "id": "grodno",
+  "zh": "格罗德诺",
+  "orig": "Гродно",
+  "alt": "Grodno / Hrodna",
+  "pos": [
+   23.832,
+   53.678
+  ],
+  "kind": "city",
+  "rank": 2,
+  "country": "SU"
+ },
+ {
+  "id": "dvinsk",
+  "zh": "陶格夫匹尔斯",
+  "orig": "Даугавпилс",
+  "alt": "Dünaburg / Dvinsk",
+  "pos": [
+   26.536,
+   55.875
+  ],
+  "kind": "city",
+  "rank": 2,
+  "country": "SU"
+ },
+ {
+  "id": "pskov",
+  "zh": "普斯科夫",
+  "orig": "Псков",
+  "alt": "Pleskau",
+  "pos": [
+   28.332,
+   57.819
+  ],
+  "kind": "city",
+  "rank": 2,
+  "country": "SU"
+ },
+ {
+  "id": "novgorod",
+  "zh": "诺夫哥罗德",
+  "orig": "Новгород",
+  "alt": "Nowgorod",
+  "pos": [
+   31.275,
+   58.522
+  ],
+  "kind": "city",
+  "rank": 2,
+  "country": "SU"
+ },
+ {
+  "id": "vitebsk",
+  "zh": "维捷布斯克",
+  "orig": "Витебск",
+  "alt": "Witebsk",
+  "pos": [
+   30.205,
+   55.19
+  ],
+  "kind": "city",
+  "rank": 2,
+  "country": "SU"
+ },
+ {
+  "id": "mogilev",
+  "zh": "莫吉廖夫",
+  "orig": "Могилёв",
+  "alt": "Mogilew",
+  "pos": [
+   30.331,
+   53.894
+  ],
+  "kind": "city",
+  "rank": 2,
+  "country": "SU"
+ },
+ {
+  "id": "gomel",
+  "zh": "戈梅利",
+  "orig": "Гомель",
+  "alt": "Homel",
+  "pos": [
+   30.975,
+   52.442
+  ],
+  "kind": "city",
+  "rank": 2,
+  "country": "SU"
+ },
+ {
+  "id": "bobruisk",
+  "zh": "博布鲁伊斯克",
+  "orig": "Бобруйск",
+  "alt": "Babrujsk",
+  "pos": [
+   29.221,
+   53.145
+  ],
+  "kind": "city",
+  "rank": 3,
+  "country": "SU"
+ },
+ {
+  "id": "orsha",
+  "zh": "奥尔沙",
+  "orig": "Орша",
+  "alt": "Orscha",
+  "pos": [
+   30.426,
+   54.509
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "SU"
+ },
+ {
+  "id": "borisov",
+  "zh": "鲍里索夫",
+  "orig": "Борисов",
+  "alt": "Baryssau",
+  "pos": [
+   28.505,
+   54.227
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "SU"
+ },
+ {
+  "id": "polotsk",
+  "zh": "波洛茨克",
+  "orig": "Полоцк",
+  "alt": "Polozk",
+  "pos": [
+   28.783,
+   55.486
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "SU"
+ },
+ {
+  "id": "velikie_luki",
+  "zh": "大卢基",
+  "orig": "Великие Луки",
+  "alt": "Welikije Luki",
+  "pos": [
+   30.531,
+   56.343
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "SU"
+ },
+ {
+  "id": "yelnya",
+  "zh": "叶利尼亚",
+  "orig": "Ельня",
+  "alt": "Jelnja",
+  "pos": [
+   33.176,
+   54.574
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "SU"
+ },
+ {
+  "id": "roslavl",
+  "zh": "罗斯拉夫尔",
+  "orig": "Рославль",
+  "alt": "Roslawl",
+  "pos": [
+   32.858,
+   53.951
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "SU"
+ },
+ {
+  "id": "vyazma",
+  "zh": "维亚济马",
+  "orig": "Вязьма",
+  "alt": "Wjasma",
+  "pos": [
+   34.296,
+   55.211
+  ],
+  "kind": "town",
+  "rank": 2,
+  "country": "SU"
+ },
+ {
+  "id": "bryansk",
+  "zh": "布良斯克",
+  "orig": "Брянск",
+  "alt": "Brjansk",
+  "pos": [
+   34.363,
+   53.243
+  ],
+  "kind": "city",
+  "rank": 2,
+  "country": "SU"
+ },
+ {
+  "id": "orel",
+  "zh": "奥廖尔",
+  "orig": "Орёл",
+  "alt": "Orjol",
+  "pos": [
+   36.065,
+   52.968
+  ],
+  "kind": "city",
+  "rank": 2,
+  "country": "SU"
+ },
+ {
+  "id": "tula",
+  "zh": "图拉",
+  "orig": "Тула",
+  "alt": "Tula",
+  "pos": [
+   37.617,
+   54.193
+  ],
+  "kind": "city",
+  "rank": 2,
+  "country": "SU"
+ },
+ {
+  "id": "kalinin",
+  "zh": "加里宁",
+  "orig": "Калинин",
+  "alt": "今特维尔 Тверь",
+  "pos": [
+   35.913,
+   56.858
+  ],
+  "kind": "city",
+  "rank": 2,
+  "country": "SU"
+ },
+ {
+  "id": "mozhaisk",
+  "zh": "莫扎伊斯克",
+  "orig": "Можайск",
+  "alt": "Moschaisk",
+  "pos": [
+   36.027,
+   55.505
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "SU"
+ },
+ {
+  "id": "kaluga",
+  "zh": "卡卢加",
+  "orig": "Калуга",
+  "alt": "Kaluga",
+  "pos": [
+   36.274,
+   54.513
+  ],
+  "kind": "city",
+  "rank": 3,
+  "country": "SU"
+ },
+ {
+  "id": "klin",
+  "zh": "克林",
+  "orig": "Клин",
+  "alt": "Klin",
+  "pos": [
+   36.729,
+   56.333
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "SU"
+ },
+ {
+  "id": "volokolamsk",
+  "zh": "沃洛科拉姆斯克",
+  "orig": "Волоколамск",
+  "alt": "Wolokolamsk",
+  "pos": [
+   35.957,
+   56.035
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "SU"
+ },
+ {
+  "id": "rzhev",
+  "zh": "勒热夫",
+  "orig": "Ржев",
+  "alt": "Rschew",
+  "pos": [
+   34.327,
+   56.262
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "SU"
+ },
+ {
+  "id": "kursk",
+  "zh": "库尔斯克",
+  "orig": "Курск",
+  "alt": "Kursk",
+  "pos": [
+   36.193,
+   51.73
+  ],
+  "kind": "city",
+  "rank": 2,
+  "country": "SU"
+ },
+ {
+  "id": "belgorod",
+  "zh": "别尔哥罗德",
+  "orig": "Белгород",
+  "alt": "Bjelgorod",
+  "pos": [
+   36.587,
+   50.595
+  ],
+  "kind": "city",
+  "rank": 3,
+  "country": "SU"
+ },
+ {
+  "id": "voronezh",
+  "zh": "沃罗涅日",
+  "orig": "Воронеж",
+  "alt": "Woronesch",
+  "pos": [
+   39.2,
+   51.66
+  ],
+  "kind": "city",
+  "rank": 2,
+  "country": "SU"
+ },
+ {
+  "id": "rostov",
+  "zh": "罗斯托夫",
+  "orig": "Ростов-на-Дону",
+  "alt": "Rostow am Don",
+  "pos": [
+   39.72,
+   47.222
+  ],
+  "kind": "city",
+  "rank": 1,
+  "country": "SU"
+ },
+ {
+  "id": "taganrog",
+  "zh": "塔甘罗格",
+  "orig": "Таганрог",
+  "alt": "Taganrog",
+  "pos": [
+   38.897,
+   47.209
+  ],
+  "kind": "port",
+  "rank": 3,
+  "country": "SU"
+ },
+ {
+  "id": "stalino",
+  "zh": "斯大林诺",
+  "orig": "Сталино",
+  "alt": "今顿涅茨克 Донецк",
+  "pos": [
+   37.803,
+   48.003
+  ],
+  "kind": "city",
+  "rank": 2,
+  "country": "SU"
+ },
+ {
+  "id": "dnepropetrovsk",
+  "zh": "第聂伯罗彼得罗夫斯克",
+  "orig": "Днепропетровск",
+  "alt": "今第聂伯 Дніпро",
+  "pos": [
+   35.046,
+   48.465
+  ],
+  "kind": "city",
+  "rank": 2,
+  "country": "SU"
+ },
+ {
+  "id": "zaporozhye",
+  "zh": "扎波罗热",
+  "orig": "Запорожье",
+  "alt": "Saporischschja",
+  "pos": [
+   35.139,
+   47.838
+  ],
+  "kind": "city",
+  "rank": 2,
+  "country": "SU"
+ },
+ {
+  "id": "nikolaev",
+  "zh": "尼古拉耶夫",
+  "orig": "Николаев",
+  "alt": "Mykolajiw",
+  "pos": [
+   31.995,
+   46.975
+  ],
+  "kind": "port",
+  "rank": 2,
+  "country": "SU"
+ },
+ {
+  "id": "kherson",
+  "zh": "赫尔松",
+  "orig": "Херсон",
+  "alt": "Cherson",
+  "pos": [
+   32.617,
+   46.636
+  ],
+  "kind": "port",
+  "rank": 3,
+  "country": "SU"
+ },
+ {
+  "id": "sevastopol",
+  "zh": "塞瓦斯托波尔",
+  "orig": "Севастополь",
+  "alt": "Sewastopol",
+  "pos": [
+   33.523,
+   44.6
+  ],
+  "kind": "port",
+  "rank": 1,
+  "country": "SU"
+ },
+ {
+  "id": "simferopol",
+  "zh": "辛菲罗波尔",
+  "orig": "Симферополь",
+  "alt": "Simferopol",
+  "pos": [
+   34.1,
+   44.952
+  ],
+  "kind": "city",
+  "rank": 2,
+  "country": "SU"
+ },
+ {
+  "id": "kerch",
+  "zh": "刻赤",
+  "orig": "Керчь",
+  "alt": "Kertsch",
+  "pos": [
+   36.471,
+   45.357
+  ],
+  "kind": "port",
+  "rank": 3,
+  "country": "SU"
+ },
+ {
+  "id": "perekop",
+  "zh": "彼列科普",
+  "orig": "Перекоп",
+  "alt": "Perekop",
+  "pos": [
+   33.794,
+   46.153
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "SU"
+ },
+ {
+  "id": "uman",
+  "zh": "乌曼",
+  "orig": "Умань",
+  "alt": "Uman",
+  "pos": [
+   30.221,
+   48.749
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "SU"
+ },
+ {
+  "id": "vinnitsa",
+  "zh": "文尼察",
+  "orig": "Винница",
+  "alt": "Winniza",
+  "pos": [
+   28.468,
+   49.233
+  ],
+  "kind": "city",
+  "rank": 2,
+  "country": "SU"
+ },
+ {
+  "id": "zhitomir",
+  "zh": "日托米尔",
+  "orig": "Житомир",
+  "alt": "Schytomyr",
+  "pos": [
+   28.659,
+   50.254
+  ],
+  "kind": "city",
+  "rank": 2,
+  "country": "SU"
+ },
+ {
+  "id": "berdichev",
+  "zh": "别尔基切夫",
+  "orig": "Бердичев",
+  "alt": "Berdytschiw",
+  "pos": [
+   28.583,
+   49.894
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "SU"
+ },
+ {
+  "id": "rovno",
+  "zh": "罗夫诺",
+  "orig": "Ровно",
+  "alt": "Równe / 今 Rivne",
+  "pos": [
+   26.251,
+   50.62
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "SU"
+ },
+ {
+  "id": "dubno",
+  "zh": "杜布诺",
+  "orig": "Дубно",
+  "alt": "Dubno",
+  "pos": [
+   25.735,
+   50.398
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "SU"
+ },
+ {
+  "id": "lutsk",
+  "zh": "卢茨克",
+  "orig": "Луцк",
+  "alt": "Łuck",
+  "pos": [
+   25.325,
+   50.747
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "SU"
+ },
+ {
+  "id": "brody",
+  "zh": "布罗迪",
+  "orig": "Броды",
+  "alt": "Brody",
+  "pos": [
+   25.15,
+   50.086
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "tarnopol",
+  "zh": "捷尔诺波尔",
+  "orig": "Тарнополь",
+  "alt": "Tarnopol / 今 Ternopil",
+  "pos": [
+   25.594,
+   49.553
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "SU"
+ },
+ {
+  "id": "przemysl",
+  "zh": "普热梅希尔",
+  "orig": "Перемышль",
+  "alt": "Przemyśl（桑河分界，东岸属苏）",
+  "pos": [
+   22.768,
+   49.784
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "SU"
+ },
+ {
+  "id": "chernigov",
+  "zh": "切尔尼戈夫",
+  "orig": "Чернигов",
+  "alt": "Tschernihiw",
+  "pos": [
+   31.289,
+   51.494
+  ],
+  "kind": "city",
+  "rank": 3,
+  "country": "SU"
+ },
+ {
+  "id": "konotop",
+  "zh": "科诺托普",
+  "orig": "Конотоп",
+  "alt": "Konotop",
+  "pos": [
+   33.2,
+   51.24
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "SU"
+ },
+ {
+  "id": "lokhvitsa",
+  "zh": "洛赫维察",
+  "orig": "Лохвица",
+  "alt": "Lochwyzja",
+  "pos": [
+   33.267,
+   50.367
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "lubny",
+  "zh": "卢布内",
+  "orig": "Лубны",
+  "alt": "Lubny",
+  "pos": [
+   32.996,
+   50.019
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "poltava",
+  "zh": "波尔塔瓦",
+  "orig": "Полтава",
+  "alt": "Poltawa",
+  "pos": [
+   34.552,
+   49.589
+  ],
+  "kind": "city",
+  "rank": 2,
+  "country": "SU"
+ },
+ {
+  "id": "kremenchug",
+  "zh": "克列缅丘格",
+  "orig": "Кременчуг",
+  "alt": "Krementschuk",
+  "pos": [
+   33.413,
+   49.066
+  ],
+  "kind": "city",
+  "rank": 3,
+  "country": "SU"
+ },
+ {
+  "id": "cherkassy",
+  "zh": "切尔卡瑟",
+  "orig": "Черкассы",
+  "alt": "Tscherkassy",
+  "pos": [
+   32.059,
+   49.444
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "SU"
+ },
+ {
+  "id": "kirovograd",
+  "zh": "基洛沃格勒",
+  "orig": "Кировоград",
+  "alt": "今克罗皮夫尼茨基",
+  "pos": [
+   32.262,
+   48.508
+  ],
+  "kind": "city",
+  "rank": 3,
+  "country": "SU"
+ },
+ {
+  "id": "melitopol",
+  "zh": "梅利托波尔",
+  "orig": "Мелитополь",
+  "alt": "Melitopol",
+  "pos": [
+   35.367,
+   46.849
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "SU"
+ },
+ {
+  "id": "mariupol",
+  "zh": "马里乌波尔",
+  "orig": "Мариуполь",
+  "alt": "Mariupol",
+  "pos": [
+   37.555,
+   47.096
+  ],
+  "kind": "port",
+  "rank": 3,
+  "country": "SU"
+ },
+ {
+  "id": "tikhvin",
+  "zh": "季赫温",
+  "orig": "Тихвин",
+  "alt": "Tichwin",
+  "pos": [
+   33.6,
+   59.645
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "SU"
+ },
+ {
+  "id": "volkhovstroy",
+  "zh": "沃尔霍夫斯特罗伊",
+  "orig": "Волховстрой",
+  "alt": "今沃尔霍夫",
+  "pos": [
+   32.338,
+   59.925
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "SU"
+ },
+ {
+  "id": "shlisselburg",
+  "zh": "什利谢利堡",
+  "orig": "Шлиссельбург",
+  "alt": "Schlüsselburg",
+  "pos": [
+   31.034,
+   59.944
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "SU"
+ },
+ {
+  "id": "kronstadt",
+  "zh": "喀琅施塔得",
+  "orig": "Кронштадт",
+  "alt": "Kronstadt",
+  "pos": [
+   29.768,
+   59.991
+  ],
+  "kind": "port",
+  "rank": 3,
+  "country": "SU"
+ },
+ {
+  "id": "oranienbaum",
+  "zh": "奥拉宁鲍姆",
+  "orig": "Ораниенбаум",
+  "alt": "今罗蒙诺索夫",
+  "pos": [
+   29.772,
+   59.916
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "luga",
+  "zh": "卢加",
+  "orig": "Луга",
+  "alt": "Luga",
+  "pos": [
+   29.846,
+   58.737
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "SU"
+ },
+ {
+  "id": "kingisepp",
+  "zh": "金吉谢普",
+  "orig": "Кингисепп",
+  "alt": "Jamburg",
+  "pos": [
+   28.613,
+   59.373
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "narva",
+  "zh": "纳尔瓦",
+  "orig": "Нарва",
+  "alt": "Narva",
+  "pos": [
+   28.19,
+   59.377
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "SU"
+ },
+ {
+  "id": "staraya_russa",
+  "zh": "旧鲁萨",
+  "orig": "Старая Русса",
+  "alt": "Staraja Russa",
+  "pos": [
+   31.355,
+   57.99
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "SU"
+ },
+ {
+  "id": "demyansk",
+  "zh": "杰米扬斯克",
+  "orig": "Демянск",
+  "alt": "Demjansk",
+  "pos": [
+   32.473,
+   57.643
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "kholm",
+  "zh": "霍尔姆",
+  "orig": "Холм",
+  "alt": "Cholm",
+  "pos": [
+   31.14,
+   57.145
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "ostrov",
+  "zh": "奥斯特罗夫",
+  "orig": "Остров",
+  "alt": "Ostrow",
+  "pos": [
+   28.357,
+   57.345
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "vyborg",
+  "zh": "维堡",
+  "orig": "Выборг",
+  "alt": "Viipuri",
+  "pos": [
+   28.753,
+   60.71
+  ],
+  "kind": "city",
+  "rank": 2,
+  "country": "SU"
+ },
+ {
+  "id": "petrozavodsk",
+  "zh": "彼得罗扎沃茨克",
+  "orig": "Петрозаводск",
+  "alt": "Äänislinna（芬占时期）",
+  "pos": [
+   34.361,
+   61.789
+  ],
+  "kind": "city",
+  "rank": 2,
+  "country": "SU"
+ },
+ {
+  "id": "sortavala",
+  "zh": "索尔塔瓦拉",
+  "orig": "Сортавала",
+  "alt": "Sortavala",
+  "pos": [
+   30.693,
+   61.703
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "lodeynoye_pole",
+  "zh": "洛杰伊诺耶波列",
+  "orig": "Лодейное Поле",
+  "alt": "Lodeinoje Pole",
+  "pos": [
+   33.553,
+   60.731
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "hanko",
+  "zh": "汉科",
+  "orig": "Hanko",
+  "alt": "Ханко / Hangö（苏联租借海军基地）",
+  "pos": [
+   22.95,
+   59.823
+  ],
+  "kind": "port",
+  "rank": 4,
+  "country": "FI"
+ },
+ {
+  "id": "siauliai",
+  "zh": "希奥利艾",
+  "orig": "Šiauliai",
+  "alt": "Шяуляй / Schaulen",
+  "pos": [
+   23.316,
+   55.934
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "SU"
+ },
+ {
+  "id": "raseiniai",
+  "zh": "拉塞尼艾",
+  "orig": "Raseiniai",
+  "alt": "Россиены / Rossieny",
+  "pos": [
+   23.117,
+   55.38
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "tilsit",
+  "zh": "蒂尔西特",
+  "orig": "Tilsit",
+  "alt": "今苏维埃茨克",
+  "pos": [
+   21.88,
+   55.083
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "DE"
+ },
+ {
+  "id": "lublin",
+  "zh": "卢布林",
+  "orig": "Lublin",
+  "alt": "Lublin",
+  "pos": [
+   22.568,
+   51.247
+  ],
+  "kind": "city",
+  "rank": 2,
+  "country": "DE"
+ },
+ {
+  "id": "kovel",
+  "zh": "科韦利",
+  "orig": "Ковель",
+  "alt": "Kowel",
+  "pos": [
+   24.716,
+   51.214
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "SU"
+ },
+ {
+  "id": "pinsk",
+  "zh": "平斯克",
+  "orig": "Пинск",
+  "alt": "Pinsk",
+  "pos": [
+   26.103,
+   52.122
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "SU"
+ },
+ {
+  "id": "mozyr",
+  "zh": "莫济里",
+  "orig": "Мозырь",
+  "alt": "Masyr",
+  "pos": [
+   29.245,
+   52.049
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "slutsk",
+  "zh": "斯卢茨克",
+  "orig": "Слуцк",
+  "alt": "Sluzk",
+  "pos": [
+   27.56,
+   53.026
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "baranovichi",
+  "zh": "巴拉诺维奇",
+  "orig": "Барановичи",
+  "alt": "Baranowitschi",
+  "pos": [
+   26.008,
+   53.133
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "SU"
+ },
+ {
+  "id": "novogrudok",
+  "zh": "新格鲁多克",
+  "orig": "Новогрудок",
+  "alt": "Nowogródek",
+  "pos": [
+   25.825,
+   53.597
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "volkovysk",
+  "zh": "沃尔科维斯克",
+  "orig": "Волковыск",
+  "alt": "Wołkowysk",
+  "pos": [
+   24.465,
+   53.155
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "slonim",
+  "zh": "斯洛尼姆",
+  "orig": "Слоним",
+  "alt": "Słonim",
+  "pos": [
+   25.319,
+   53.093
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "lepel",
+  "zh": "列佩利",
+  "orig": "Лепель",
+  "alt": "Lepel",
+  "pos": [
+   28.693,
+   54.882
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "nevel",
+  "zh": "涅韦尔",
+  "orig": "Невель",
+  "alt": "Newel",
+  "pos": [
+   29.924,
+   56.021
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "toropets",
+  "zh": "托罗佩茨",
+  "orig": "Торопец",
+  "alt": "Toropez",
+  "pos": [
+   31.633,
+   56.501
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "iasi",
+  "zh": "雅西",
+  "orig": "Iași",
+  "alt": "Jassy",
+  "pos": [
+   27.588,
+   47.159
+  ],
+  "kind": "city",
+  "rank": 2,
+  "country": "RO"
+ },
+ {
+  "id": "chernovtsy",
+  "zh": "切尔诺夫策",
+  "orig": "Черновцы",
+  "alt": "Cernăuți / Czernowitz / 今切尔尼夫齐",
+  "pos": [
+   25.936,
+   48.292
+  ],
+  "kind": "city",
+  "rank": 2,
+  "country": "SU"
+ },
+ {
+  "id": "beltsy",
+  "zh": "伯尔齐",
+  "orig": "Бельцы",
+  "alt": "Bălți",
+  "pos": [
+   27.929,
+   47.762
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "SU"
+ },
+ {
+  "id": "tiraspol",
+  "zh": "蒂拉斯波尔",
+  "orig": "Тирасполь",
+  "alt": "Tiraspol",
+  "pos": [
+   29.643,
+   46.84
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "SU"
+ },
+ {
+  "id": "galati",
+  "zh": "加拉茨",
+  "orig": "Galați",
+  "alt": "Galatz",
+  "pos": [
+   28.051,
+   45.435
+  ],
+  "kind": "port",
+  "rank": 3,
+  "country": "RO"
+ },
+ {
+  "id": "izmail",
+  "zh": "伊兹梅尔",
+  "orig": "Измаил",
+  "alt": "Ismajil",
+  "pos": [
+   28.836,
+   45.351
+  ],
+  "kind": "port",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "mogilev_podolsky",
+  "zh": "莫吉廖夫-波多利斯基",
+  "orig": "Могилёв-Подольский",
+  "alt": "Mohyliw-Podilskyj",
+  "pos": [
+   27.798,
+   48.446
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "kamenets_podolsky",
+  "zh": "卡缅涅茨-波多利斯基",
+  "orig": "Каменец-Подольский",
+  "alt": "Kamjanez-Podilskyj",
+  "pos": [
+   26.585,
+   48.678
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "proskurov",
+  "zh": "普罗斯库罗夫",
+  "orig": "Проскуров",
+  "alt": "今赫梅利尼茨基",
+  "pos": [
+   26.987,
+   49.422
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "kassa",
+  "zh": "卡绍",
+  "orig": "Kassa",
+  "alt": "Košice / Kaschau",
+  "pos": [
+   21.258,
+   48.717
+  ],
+  "kind": "city",
+  "rank": 3,
+  "country": "HU"
+ },
+ {
+  "id": "ungvar",
+  "zh": "乌日哥罗德",
+  "orig": "Ungvár",
+  "alt": "Užhorod / Ужгород",
+  "pos": [
+   22.296,
+   48.621
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "HU"
+ }
+]

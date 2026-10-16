@@ -1,6 +1,6 @@
 /** 章节式时间轴（manifest.ui.chapterNav = 'timeline'）：章节入口、按像素分组的事件（点击弹出选择）、每旬刻度。长战役（巴尔干 7 个月）用。 */
 import { store, type Speed } from '../app/store';
-import { fmtDate, hoursToDate, T_START, T_END } from '../core/time';
+import { fmtDate, hoursToDate, T_START, T_END, timeToU, uToTime } from '../core/time';
 import { PHASES, phaseAt, type Phase } from '../core/phases';
 
 import { clock } from '../app/clock';
@@ -55,7 +55,7 @@ export class ChapterTimeline {
       const p = PHASES.find((x) => x.id === b.dataset.chapter)!;
       clock.release(); this.menu.classList.add('hidden'); store.set({ playing: false }); clock.seek(p.from); this.onChapter(p);
     });
-    const onPos = (ev: PointerEvent) => { const r = this.track.getBoundingClientRect(); const u = Math.max(0, Math.min(1, (ev.clientX - r.left) / r.width)); clock.release(); this.menu.classList.add('hidden'); clock.seek(T_START + u * (T_END - T_START)); };
+    const onPos = (ev: PointerEvent) => { const r = this.track.getBoundingClientRect(); const u = Math.max(0, Math.min(1, (ev.clientX - r.left) / r.width)); clock.release(); this.menu.classList.add('hidden'); clock.seek(uToTime(u)); };
     this.track.addEventListener('pointerdown', (ev) => { if ((ev.target as HTMLElement).closest('.tl-ev')) return; this.dragging = true; this.track.setPointerCapture(ev.pointerId); onPos(ev); });
     this.track.addEventListener('pointermove', (ev) => { if (this.dragging) onPos(ev); });
     this.track.addEventListener('pointerup', () => { this.dragging = false; });
@@ -71,7 +71,7 @@ export class ChapterTimeline {
     this.renderTime(store.get().t);
   }
 
-  private x(t: number) { return (t - T_START) / (T_END - T_START) * 100; }
+  private x(t: number) { return timeToU(t) * 100; }
   private pick(e: REvent) { this.menu.classList.add('hidden'); clock.release(); clock.seek(e.h); this.onEventPick(e); }
   private buildTrack() {
     const width = this.track.clientWidth || window.innerWidth - 60;

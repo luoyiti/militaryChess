@@ -12,10 +12,10 @@ export function fillCounts(s: string, db: DB): string {
 
 export function showIntro(parent: HTMLElement, db: DB, onEnter: (withTour: boolean) => void) {
   const I = manifest().intro;
-  const ph = photoFor(I.photo) ?? photoFor(I.photoFallback);
+  let ph = photoFor(I.photo) ?? photoFor(I.photoFallback);
   const el = document.createElement('div');
   el.className = 'intro';
-  const figure = ph
+  const figureHTML = () => ph
     ? `<figure class="polaroid intro-photo"><img src="${ph.src}" alt="${I.photoAlt ?? ''}"/><figcaption>${I.caption ?? ph.title ?? ''}</figcaption><div class="credit">${cleanAuthor(ph.author)} · ${ph.license ?? ''}</div></figure>`
     : I.operation ? `<div class="intro-operation"><span>${I.operation.code}</span><b>${I.operation.coords}</b><small>${I.operation.label}</small></div>` : '';
   el.innerHTML = `
@@ -36,9 +36,14 @@ export function showIntro(parent: HTMLElement, db: DB, onEnter: (withTour: boole
         </div>
         <div class="intro-note">${I.note}</div>
       </div>
-      ${figure}
+      ${figureHTML()}
     </div>`;
   parent.appendChild(el);
+  if (!ph) window.addEventListener('photos-ready', () => {
+    if (!el.isConnected) return;
+    ph = photoFor(I.photo) ?? photoFor(I.photoFallback);
+    if (ph) { el.querySelector('.intro-operation')?.remove(); el.querySelector('.intro-folder')?.insertAdjacentHTML('beforeend', figureHTML()); }
+  }, { once: true });
   const go = (tour: boolean) => {
     el.classList.add('leaving');
     window.setTimeout(() => el.remove(), 900);

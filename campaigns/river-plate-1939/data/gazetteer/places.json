@@ -1,0 +1,416 @@
+[
+ {
+  "id": "montevideo",
+  "zh": "蒙得维的亚",
+  "orig": "Montevideo",
+  "pos": [
+   -56.19,
+   -34.905
+  ],
+  "kind": "capital",
+  "rank": 1,
+  "country": "UY",
+  "sources": [
+   "natural_earth"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "buenos_aires",
+  "zh": "布宜诺斯艾利斯",
+  "orig": "Buenos Aires",
+  "pos": [
+   -58.38,
+   -34.6
+  ],
+  "kind": "capital",
+  "rank": 1,
+  "country": "AR",
+  "sources": [
+   "natural_earth"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "rio",
+  "zh": "里约热内卢",
+  "orig": "Rio de Janeiro",
+  "pos": [
+   -43.17,
+   -22.91
+  ],
+  "kind": "capital",
+  "rank": 1,
+  "country": "BR",
+  "sources": [
+   "natural_earth"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "recife",
+  "zh": "伯南布哥（累西腓）",
+  "orig": "Pernambuco (Recife)",
+  "pos": [
+   -34.88,
+   -8.05
+  ],
+  "kind": "port",
+  "rank": 2,
+  "country": "BR",
+  "sources": [
+   "natural_earth"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "bahia",
+  "zh": "巴伊亚",
+  "orig": "Bahia (Salvador)",
+  "pos": [
+   -38.5,
+   -12.97
+  ],
+  "kind": "port",
+  "rank": 3,
+  "country": "BR",
+  "sources": [
+   "natural_earth"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "santos",
+  "zh": "桑托斯",
+  "orig": "Santos",
+  "pos": [
+   -46.33,
+   -23.96
+  ],
+  "kind": "port",
+  "rank": 3,
+  "country": "BR",
+  "sources": [
+   "natural_earth"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "freetown",
+  "zh": "弗里敦",
+  "orig": "Freetown",
+  "pos": [
+   -13.23,
+   8.48
+  ],
+  "kind": "port",
+  "rank": 2,
+  "country": "GB",
+  "sources": [
+   "natural_earth"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "dakar",
+  "zh": "达喀尔",
+  "orig": "Dakar",
+  "pos": [
+   -17.44,
+   14.69
+  ],
+  "kind": "port",
+  "rank": 2,
+  "country": "FR",
+  "sources": [
+   "natural_earth"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "cape_town",
+  "zh": "开普敦",
+  "orig": "Cape Town",
+  "pos": [
+   18.42,
+   -33.92
+  ],
+  "kind": "port",
+  "rank": 2,
+  "country": "ZA",
+  "sources": [
+   "natural_earth"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "simonstown",
+  "zh": "西蒙斯敦",
+  "orig": "Simon’s Town",
+  "pos": [
+   18.43,
+   -34.19
+  ],
+  "kind": "port",
+  "rank": 3,
+  "country": "ZA",
+  "sources": [
+   "natural_earth"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "durban",
+  "zh": "德班",
+  "orig": "Durban",
+  "pos": [
+   31.03,
+   -29.86
+  ],
+  "kind": "port",
+  "rank": 3,
+  "country": "ZA",
+  "sources": [
+   "natural_earth"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "lourenco_marques",
+  "zh": "洛伦索马贵斯",
+  "orig": "Lourenço Marques",
+  "pos": [
+   32.57,
+   -25.97
+  ],
+  "kind": "port",
+  "rank": 3,
+  "country": "PT",
+  "sources": [
+   "natural_earth"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "zavora",
+  "zh": "扎沃拉角",
+  "orig": "Ponta da Zavora",
+  "pos": [
+   35.52,
+   -24.52
+  ],
+  "kind": "region",
+  "rank": 4,
+  "country": "PT",
+  "sources": [
+   "wiki_en_graf_spee"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "port_stanley",
+  "zh": "斯坦利港",
+  "orig": "Port Stanley",
+  "pos": [
+   -57.85,
+   -51.69
+  ],
+  "kind": "port",
+  "rank": 2,
+  "country": "GB",
+  "sources": [
+   "natural_earth"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "st_helena",
+  "zh": "圣赫勒拿岛",
+  "orig": "St Helena (Jamestown)",
+  "pos": [
+   -5.72,
+   -15.92
+  ],
+  "kind": "port",
+  "rank": 3,
+  "country": "GB",
+  "sources": [
+   "natural_earth"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "tristan",
+  "zh": "特里斯坦—达库尼亚",
+  "orig": "Tristan da Cunha",
+  "pos": [
+   -12.28,
+   -37.11
+  ],
+  "kind": "region",
+  "rank": 3,
+  "country": "GB",
+  "sources": [
+   "wiki_en_graf_spee"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "ascension",
+  "zh": "阿森松岛",
+  "orig": "Ascension Island",
+  "pos": [
+   -14.36,
+   -7.95
+  ],
+  "kind": "region",
+  "rank": 4,
+  "country": "GB",
+  "sources": [
+   "wiki_en_graf_spee"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "st_paul_rocks",
+  "zh": "圣保罗岩",
+  "orig": "St Peter and St Paul Rocks",
+  "pos": [
+   -29.35,
+   0.92
+  ],
+  "kind": "region",
+  "rank": 4,
+  "country": "BR",
+  "sources": [
+   "wiki_en_graf_spee"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "punta_del_este",
+  "zh": "埃斯特角",
+  "orig": "Punta del Este",
+  "pos": [
+   -54.95,
+   -34.97
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "UY",
+  "sources": [
+   "natural_earth"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "cabo_santa_maria",
+  "zh": "圣玛丽亚角",
+  "orig": "Cabo Santa María",
+  "pos": [
+   -54.15,
+   -34.67
+  ],
+  "kind": "region",
+  "rank": 4,
+  "country": "UY",
+  "sources": [
+   "harwood_despatch"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "lobos",
+  "zh": "洛沃斯岛",
+  "orig": "Isla de Lobos",
+  "pos": [
+   -54.88,
+   -35.03
+  ],
+  "kind": "region",
+  "rank": 4,
+  "country": "UY",
+  "sources": [
+   "harwood_despatch"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "punta_negra",
+  "zh": "黑角",
+  "orig": "Punta Negra",
+  "pos": [
+   -55.23,
+   -34.9
+  ],
+  "kind": "region",
+  "rank": 4,
+  "country": "UY",
+  "sources": [
+   "harwood_despatch"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "english_bank",
+  "zh": "英格利希浅滩",
+  "orig": "English Bank (Banco Inglés)",
+  "pos": [
+   -55.95,
+   -35.18
+  ],
+  "kind": "region",
+  "rank": 4,
+  "sources": [
+   "harwood_despatch"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "whistle_buoy",
+  "zh": "惠斯尔浮标",
+  "orig": "Whistle Buoy",
+  "pos": [
+   -56.235,
+   -34.98
+  ],
+  "kind": "region",
+  "rank": 4,
+  "sources": [
+   "harwood_despatch"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "cabo_san_antonio",
+  "zh": "圣安东尼奥角",
+  "orig": "Cabo San Antonio",
+  "pos": [
+   -56.68,
+   -36.31
+  ],
+  "kind": "region",
+  "rank": 4,
+  "country": "AR",
+  "sources": [
+   "harwood_despatch"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "wreck",
+  "zh": "施佩伯爵号残骸",
+  "orig": "Wreck of Admiral Graf Spee",
+  "pos": [
+   -56.2983,
+   -34.9717
+  ],
+  "kind": "region",
+  "rank": 4,
+  "country": "UY",
+  "sources": [
+   "wiki_en_graf_spee"
+  ],
+  "confidence": "medium"
+ }
+]

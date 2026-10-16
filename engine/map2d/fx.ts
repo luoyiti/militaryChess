@@ -14,6 +14,7 @@ export class FxLayer {
   private ps: P[] = [];
   private planes: Plane[] = [];
   private drawnPlanes: DrawnPlane[] = [];
+  private painted = false;
   private ctx: CanvasRenderingContext2D;
   reduced = window.matchMedia?.('(prefers-reduced-motion: reduce)').matches ?? false;
   enabled = true;
@@ -77,6 +78,8 @@ export class FxLayer {
   get busy() { return this.ps.length > 0 || this.planes.length > 0; }
 
   draw(now: number) {
+    if (!this.busy && !this.painted) return;
+    this.painted = this.busy;
     const ctx = this.ctx, map = this.map;
     const dpr = map.dpr;
     ctx.setTransform(1, 0, 0, 1, 0, 0);

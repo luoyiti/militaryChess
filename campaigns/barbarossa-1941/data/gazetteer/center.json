@@ -1,0 +1,1232 @@
+[
+ {
+  "id": "alytus",
+  "zh": "阿利图斯",
+  "orig": "Alytus",
+  "alt": "Olita",
+  "pos": [
+   24.046,
+   54.396
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "brest_fortress",
+  "zh": "布列斯特要塞",
+  "orig": "Брестская крепость",
+  "alt": "Festung Brest-Litowsk",
+  "pos": [
+   23.655,
+   52.083
+  ],
+  "kind": "fort",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "kobrin",
+  "zh": "科布林",
+  "orig": "Кобрин",
+  "alt": "Kobryn",
+  "pos": [
+   24.356,
+   52.214
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "pruzhany",
+  "zh": "普鲁扎内",
+  "orig": "Пружаны",
+  "alt": "Prużana",
+  "pos": [
+   24.458,
+   52.556
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "bereza",
+  "zh": "别廖扎",
+  "orig": "Берёза-Картузская",
+  "alt": "Bereza Kartuska",
+  "pos": [
+   24.979,
+   52.537
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "zelva",
+  "zh": "泽尔瓦",
+  "orig": "Зельва",
+  "alt": "Zelwa",
+  "pos": [
+   24.818,
+   53.15
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "lida",
+  "zh": "利达",
+  "orig": "Лида",
+  "alt": "Lida",
+  "pos": [
+   25.285,
+   53.888
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "SU"
+ },
+ {
+  "id": "stolbtsy",
+  "zh": "斯托尔布齐",
+  "orig": "Столбцы",
+  "alt": "Stołpce",
+  "pos": [
+   26.744,
+   53.479
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "dzerzhinsk",
+  "zh": "捷尔任斯克",
+  "orig": "Дзержинск",
+  "alt": "Koidanowo",
+  "pos": [
+   27.137,
+   53.683
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "molodechno",
+  "zh": "莫洛杰奇诺",
+  "orig": "Молодечно",
+  "alt": "Mołodeczno",
+  "pos": [
+   26.865,
+   54.319
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "oshmyany",
+  "zh": "奥什米亚内",
+  "orig": "Ошмяны",
+  "alt": "Oszmiana",
+  "pos": [
+   25.936,
+   54.425
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "radoshkovichi",
+  "zh": "拉多什科维奇",
+  "orig": "Радошковичи",
+  "alt": "Radoszkowice",
+  "pos": [
+   27.243,
+   54.154
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "smolevichi",
+  "zh": "斯莫列维奇",
+  "orig": "Смолевичи",
+  "pos": [
+   28.088,
+   54.03
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "krupki",
+  "zh": "克鲁普基",
+  "orig": "Крупки",
+  "pos": [
+   29.137,
+   54.32
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "tolochin",
+  "zh": "托洛钦",
+  "orig": "Толочин",
+  "pos": [
+   29.696,
+   54.411
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "senno",
+  "zh": "先诺",
+  "orig": "Сенно",
+  "alt": "Sienno",
+  "pos": [
+   29.708,
+   54.811
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "beshenkovichi",
+  "zh": "别申科维奇",
+  "orig": "Бешенковичи",
+  "pos": [
+   29.457,
+   55.046
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "ulla",
+  "zh": "乌拉",
+  "orig": "Улла",
+  "pos": [
+   29.257,
+   55.226
+  ],
+  "kind": "crossing",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "disna",
+  "zh": "季斯纳",
+  "orig": "Дисна",
+  "alt": "Dzisna",
+  "pos": [
+   28.215,
+   55.567
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "gorodok",
+  "zh": "戈罗多克",
+  "orig": "Городок",
+  "pos": [
+   29.993,
+   55.463
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "surazh",
+  "zh": "苏拉日",
+  "orig": "Сураж",
+  "pos": [
+   30.723,
+   55.419
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "shklov",
+  "zh": "什克洛夫",
+  "orig": "Шклов",
+  "pos": [
+   30.287,
+   54.214
+  ],
+  "kind": "crossing",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "kopys",
+  "zh": "科佩斯",
+  "orig": "Копысь",
+  "pos": [
+   30.293,
+   54.315
+  ],
+  "kind": "crossing",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "bykhov",
+  "zh": "贝霍夫",
+  "orig": "Быхов",
+  "alt": "Старый Быхов",
+  "pos": [
+   30.246,
+   53.52
+  ],
+  "kind": "crossing",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "rogachev",
+  "zh": "罗加乔夫",
+  "orig": "Рогачёв",
+  "pos": [
+   30.049,
+   53.092
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "SU"
+ },
+ {
+  "id": "zhlobin",
+  "zh": "日洛宾",
+  "orig": "Жлобин",
+  "pos": [
+   30.024,
+   52.892
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "propoisk",
+  "zh": "普罗波伊斯克",
+  "orig": "Пропойск",
+  "alt": "Славгород",
+  "pos": [
+   31.0,
+   53.442
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "krichev",
+  "zh": "克里切夫",
+  "orig": "Кричев",
+  "pos": [
+   31.715,
+   53.712
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "gorki",
+  "zh": "戈尔基",
+  "orig": "Горки",
+  "pos": [
+   30.986,
+   54.284
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "velizh",
+  "zh": "韦利日",
+  "orig": "Велиж",
+  "pos": [
+   31.193,
+   55.605
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "demidov",
+  "zh": "杰米多夫",
+  "orig": "Демидов",
+  "pos": [
+   31.512,
+   55.267
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "dukhovshchina",
+  "zh": "杜霍夫希纳",
+  "orig": "Духовщина",
+  "pos": [
+   32.415,
+   55.196
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "yartsevo",
+  "zh": "亚尔采沃",
+  "orig": "Ярцево",
+  "pos": [
+   32.692,
+   55.067
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "SU"
+ },
+ {
+  "id": "solovyevo",
+  "zh": "索洛维约沃渡口",
+  "orig": "Соловьёвская переправа",
+  "pos": [
+   32.745,
+   54.935
+  ],
+  "kind": "crossing",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "krasny",
+  "zh": "克拉斯内",
+  "orig": "Красный",
+  "pos": [
+   31.426,
+   54.561
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "pochinok",
+  "zh": "波奇诺克",
+  "orig": "Починок",
+  "pos": [
+   32.44,
+   54.406
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "dorogobuzh",
+  "zh": "多罗戈布日",
+  "orig": "Дорогобуж",
+  "pos": [
+   33.302,
+   54.914
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "bely",
+  "zh": "别雷",
+  "orig": "Белый",
+  "pos": [
+   32.938,
+   55.836
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "kholm_zhirkovsky",
+  "zh": "霍尔姆-日尔科夫斯基",
+  "orig": "Холм-Жирковский",
+  "pos": [
+   33.49,
+   55.503
+  ],
+  "kind": "village",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "sychevka",
+  "zh": "瑟乔夫卡",
+  "orig": "Сычёвка",
+  "pos": [
+   34.278,
+   55.83
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "spas_demensk",
+  "zh": "斯帕斯-杰缅斯克",
+  "orig": "Спас-Деменск",
+  "pos": [
+   34.017,
+   54.409
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "kirov_kaluga",
+  "zh": "基洛夫",
+  "orig": "Киров",
+  "alt": "Песочня",
+  "pos": [
+   34.305,
+   54.085
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "mosalsk",
+  "zh": "莫萨利斯克",
+  "orig": "Мосальск",
+  "pos": [
+   34.985,
+   54.492
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "yukhnov",
+  "zh": "尤赫诺夫",
+  "orig": "Юхнов",
+  "pos": [
+   35.233,
+   54.744
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "medyn",
+  "zh": "梅登",
+  "orig": "Медынь",
+  "pos": [
+   35.858,
+   54.969
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "gzhatsk",
+  "zh": "格扎茨克",
+  "orig": "Гжатск",
+  "pos": [
+   35.005,
+   55.553
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "borodino",
+  "zh": "博罗季诺",
+  "orig": "Бородино",
+  "pos": [
+   35.823,
+   55.522
+  ],
+  "kind": "village",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "andreapol",
+  "zh": "安德烈亚波尔",
+  "orig": "Андреаполь",
+  "pos": [
+   32.262,
+   56.651
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "ostashkov",
+  "zh": "奥斯塔什科夫",
+  "orig": "Осташков",
+  "pos": [
+   33.105,
+   57.149
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "selizharovo",
+  "zh": "谢利扎罗沃",
+  "orig": "Селижарово",
+  "pos": [
+   33.451,
+   56.855
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "staritsa",
+  "zh": "斯塔里察",
+  "orig": "Старица",
+  "pos": [
+   34.934,
+   56.508
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "zubtsov",
+  "zh": "祖布佐夫",
+  "orig": "Зубцов",
+  "pos": [
+   34.584,
+   56.174
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "torzhok",
+  "zh": "托尔若克",
+  "orig": "Торжок",
+  "pos": [
+   34.979,
+   57.029
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "lotoshino",
+  "zh": "洛托希诺",
+  "orig": "Лотошино",
+  "pos": [
+   35.644,
+   56.231
+  ],
+  "kind": "village",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "solnechnogorsk",
+  "zh": "索尔涅奇诺戈尔斯克",
+  "orig": "Солнечногорск",
+  "pos": [
+   36.981,
+   56.181
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "istra",
+  "zh": "伊斯特拉",
+  "orig": "Истра",
+  "pos": [
+   36.86,
+   55.917
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "kryukovo",
+  "zh": "克留科沃",
+  "orig": "Крюково",
+  "pos": [
+   37.18,
+   55.98
+  ],
+  "kind": "village",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "krasnaya_polyana",
+  "zh": "红波利亚纳",
+  "orig": "Красная Поляна",
+  "pos": [
+   37.468,
+   55.993
+  ],
+  "kind": "village",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "yakhroma",
+  "zh": "亚赫罗马",
+  "orig": "Яхрома",
+  "pos": [
+   37.484,
+   56.289
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "dmitrov",
+  "zh": "德米特罗夫",
+  "orig": "Дмитров",
+  "pos": [
+   37.52,
+   56.344
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "khimki",
+  "zh": "希姆基",
+  "orig": "Химки",
+  "pos": [
+   37.445,
+   55.889
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "zvenigorod",
+  "zh": "兹韦尼哥罗德",
+  "orig": "Звенигород",
+  "pos": [
+   36.855,
+   55.729
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "ruza",
+  "zh": "鲁扎",
+  "orig": "Руза",
+  "pos": [
+   36.195,
+   55.701
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "kubinka",
+  "zh": "库宾卡",
+  "orig": "Кубинка",
+  "pos": [
+   36.7,
+   55.58
+  ],
+  "kind": "village",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "naro_fominsk",
+  "zh": "纳罗-福明斯克",
+  "orig": "Наро-Фоминск",
+  "pos": [
+   36.734,
+   55.386
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "borovsk",
+  "zh": "博罗夫斯克",
+  "orig": "Боровск",
+  "pos": [
+   36.486,
+   55.207
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "vereya",
+  "zh": "韦列亚",
+  "orig": "Верея",
+  "pos": [
+   36.186,
+   55.343
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "maloyaroslavets",
+  "zh": "小雅罗斯拉韦茨",
+  "orig": "Малоярославец",
+  "pos": [
+   36.462,
+   55.011
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "podolsk",
+  "zh": "波多利斯克",
+  "orig": "Подольск",
+  "pos": [
+   37.53,
+   55.38
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "serpukhov",
+  "zh": "谢尔普霍夫",
+  "orig": "Серпухов",
+  "pos": [
+   37.43,
+   54.93
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "SU"
+ },
+ {
+  "id": "tarusa",
+  "zh": "塔鲁萨",
+  "orig": "Таруса",
+  "pos": [
+   37.179,
+   54.723
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "aleksin",
+  "zh": "阿列克辛",
+  "orig": "Алексин",
+  "pos": [
+   37.094,
+   54.514
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "kolomna",
+  "zh": "科洛姆纳",
+  "orig": "Коломна",
+  "pos": [
+   38.785,
+   55.08
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "ryazan",
+  "zh": "梁赞",
+  "orig": "Рязань",
+  "pos": [
+   39.72,
+   54.62
+  ],
+  "kind": "city",
+  "rank": 3,
+  "country": "SU"
+ },
+ {
+  "id": "kashira",
+  "zh": "卡希拉",
+  "orig": "Кашира",
+  "pos": [
+   38.152,
+   54.834
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "venev",
+  "zh": "韦尼奥夫",
+  "orig": "Венёв",
+  "pos": [
+   38.267,
+   54.354
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "mikhailov",
+  "zh": "米哈伊洛夫",
+  "orig": "Михайлов",
+  "pos": [
+   39.031,
+   54.231
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "stalinogorsk",
+  "zh": "斯大林诺戈尔斯克",
+  "orig": "Сталиногорск",
+  "alt": "Новомосковск",
+  "pos": [
+   38.289,
+   54.011
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "yasnaya_polyana",
+  "zh": "亚斯纳亚波良纳",
+  "orig": "Ясная Поляна",
+  "pos": [
+   37.527,
+   54.073
+  ],
+  "kind": "village",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "plavsk",
+  "zh": "普拉夫斯克",
+  "orig": "Плавск",
+  "pos": [
+   37.29,
+   53.708
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "chern",
+  "zh": "切尔恩",
+  "orig": "Чернь",
+  "pos": [
+   36.912,
+   53.452
+  ],
+  "kind": "village",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "mtsensk",
+  "zh": "姆岑斯克",
+  "orig": "Мценск",
+  "pos": [
+   36.547,
+   53.265
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "bolkhov",
+  "zh": "博尔霍夫",
+  "orig": "Болхов",
+  "pos": [
+   36.003,
+   53.443
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "belyov",
+  "zh": "别廖夫",
+  "orig": "Белёв",
+  "pos": [
+   36.135,
+   53.81
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "kozelsk",
+  "zh": "科泽利斯克",
+  "orig": "Козельск",
+  "pos": [
+   35.783,
+   54.035
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "sukhinichi",
+  "zh": "苏希尼奇",
+  "orig": "Сухиничи",
+  "pos": [
+   35.343,
+   54.103
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "yefremov",
+  "zh": "叶夫列莫夫",
+  "orig": "Ефремов",
+  "pos": [
+   38.122,
+   53.149
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "yelets",
+  "zh": "叶列茨",
+  "orig": "Елец",
+  "pos": [
+   38.5,
+   52.6
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "SU"
+ },
+ {
+  "id": "karachev",
+  "zh": "卡拉切夫",
+  "orig": "Карачев",
+  "pos": [
+   34.985,
+   53.122
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "kromy",
+  "zh": "克罗梅",
+  "orig": "Кромы",
+  "pos": [
+   35.794,
+   52.689
+  ],
+  "kind": "village",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "dmitrovsk",
+  "zh": "德米特罗夫斯克",
+  "orig": "Дмитровск-Орловский",
+  "pos": [
+   35.143,
+   52.505
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "sevsk",
+  "zh": "谢夫斯克",
+  "orig": "Севск",
+  "pos": [
+   34.493,
+   52.15
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "trubchevsk",
+  "zh": "特鲁布切夫斯克",
+  "orig": "Трубчевск",
+  "pos": [
+   33.766,
+   52.578
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "pochep",
+  "zh": "波切普",
+  "orig": "Почеп",
+  "pos": [
+   33.45,
+   52.928
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "unecha",
+  "zh": "乌涅恰",
+  "orig": "Унеча",
+  "pos": [
+   32.677,
+   52.846
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "starodub",
+  "zh": "斯塔罗杜布",
+  "orig": "Стародуб",
+  "pos": [
+   32.76,
+   52.584
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "novgorod_seversky",
+  "zh": "诺夫哥罗德-谢韦尔斯基",
+  "orig": "Новгород-Северский",
+  "pos": [
+   33.263,
+   51.985
+  ],
+  "kind": "crossing",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "shostka",
+  "zh": "绍斯特卡",
+  "orig": "Шостка",
+  "pos": [
+   33.48,
+   51.873
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "glukhov",
+  "zh": "格卢霍夫",
+  "orig": "Глухов",
+  "pos": [
+   33.908,
+   51.678
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "bakhmach",
+  "zh": "巴赫马奇",
+  "orig": "Бахмач",
+  "pos": [
+   32.821,
+   51.184
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU"
+ },
+ {
+  "id": "romny",
+  "zh": "罗姆内",
+  "orig": "Ромны",
+  "pos": [
+   33.475,
+   50.751
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU"
+ }
+]

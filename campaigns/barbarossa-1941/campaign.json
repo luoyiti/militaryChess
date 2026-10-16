@@ -1,34 +1,898 @@
 {
   "schemaVersion": 2,
   "id": "barbarossa-1941",
-  "status": "planned",
+  "status": "published",
   "title": {
     "mark": "1941",
     "zh": "巴巴罗萨行动",
-    "sub": "苏德战争爆发 · 筹备中",
+    "sub": "巴巴罗萨行动 · 东线战旗推演",
     "en": "Operation Barbarossa",
     "orig": "Unternehmen Barbarossa",
-    "codename": "巴巴罗萨行动"
+    "codename": "巴巴罗萨行动",
+    "html": "1941 · 巴巴罗萨行动 — 战旗推演",
+    "description": "1941 年巴巴罗萨行动复古作战室风格战旗推演：从 6 月 22 日越境到 12 月 5 日莫斯科城下反攻，按小时重现部队推进、包围圈、战线变化与历史事件档案。",
+    "favicon": "#9b2d24"
   },
   "time": {
     "epoch": "1941-06-22T00:00",
     "start": "1941-06-22T03:15",
     "end": "1941-12-05T23:59",
-    "tzLabel": "柏林时间"
+    "dataEnd": "1941-12-06T23:59",
+    "tzLabel": "柏林时间（中欧夏令时；莫斯科时间 = 柏林时间 + 1 小时）",
+    "hoursPerSec": 6
   },
   "sides": [
-    { "id": "DE", "name": "德国", "coalition": "axis", "css": { "main": "#3a5887" } },
-    { "id": "FI", "name": "芬兰", "coalition": "axis", "css": { "main": "#5d7f95" } },
-    { "id": "RO", "name": "罗马尼亚", "coalition": "axis", "css": { "main": "#7d6a8e" } },
-    { "id": "SU", "name": "苏联", "coalition": "comintern", "css": { "main": "#8f5a2b" } }
+    {
+      "id": "DE",
+      "prefix": "de",
+      "name": "德国",
+      "coalition": "axis",
+      "counter": {
+        "bg": "#56708f",
+        "edge": "#2a3a52",
+        "text": "#f4efe2",
+        "box": "#eef0ea",
+        "ink": "#1f3558"
+      },
+      "css": {
+        "main": "#3a5887",
+        "dark": "#1f3558"
+      },
+      "arrow": {
+        "fill": "rgba(58,88,135,0.62)",
+        "stroke": "#1f3558"
+      },
+      "sandbox": "#3a5887",
+      "restHeading": 0,
+      "planesFrom": "W"
+    },
+    {
+      "id": "FI",
+      "prefix": "fi",
+      "name": "芬兰",
+      "coalition": "axis",
+      "counter": {
+        "bg": "#7b98b8",
+        "edge": "#3d5a7a",
+        "text": "#f4efe2",
+        "box": "#eef0ea",
+        "ink": "#34506e"
+      },
+      "css": {
+        "main": "#5a7fa8",
+        "dark": "#34506e"
+      },
+      "arrow": {
+        "fill": "rgba(90,127,168,0.62)",
+        "stroke": "#34506e"
+      },
+      "sandbox": "#5a7fa8",
+      "restHeading": 0,
+      "planesFrom": "W"
+    },
+    {
+      "id": "RO",
+      "prefix": "ro",
+      "name": "罗马尼亚",
+      "coalition": "axis",
+      "counter": {
+        "bg": "#8a8f6a",
+        "edge": "#4d5236",
+        "text": "#f4efe2",
+        "box": "#eef0ea",
+        "ink": "#4d5236"
+      },
+      "css": {
+        "main": "#788054",
+        "dark": "#4d5236"
+      },
+      "arrow": {
+        "fill": "rgba(120,128,84,0.62)",
+        "stroke": "#4d5236"
+      },
+      "sandbox": "#788054",
+      "restHeading": 0,
+      "planesFrom": "W"
+    },
+    {
+      "id": "HU",
+      "prefix": "hu",
+      "name": "匈牙利",
+      "coalition": "axis",
+      "counter": {
+        "bg": "#8e7f98",
+        "edge": "#4f4458",
+        "text": "#f4efe2",
+        "box": "#eef0ea",
+        "ink": "#4f4458"
+      },
+      "css": {
+        "main": "#7d6a8e",
+        "dark": "#4f4458"
+      },
+      "arrow": {
+        "fill": "rgba(125,106,142,0.62)",
+        "stroke": "#4f4458"
+      },
+      "sandbox": "#7d6a8e",
+      "restHeading": 0,
+      "planesFrom": "W"
+    },
+    {
+      "id": "SK",
+      "prefix": "sk",
+      "name": "斯洛伐克",
+      "coalition": "axis",
+      "counter": {
+        "bg": "#5e8f9c",
+        "edge": "#2f5561",
+        "text": "#f4efe2",
+        "box": "#eef0ea",
+        "ink": "#2f5561"
+      },
+      "css": {
+        "main": "#4a7a8c",
+        "dark": "#2f5561"
+      },
+      "arrow": {
+        "fill": "rgba(74,122,140,0.62)",
+        "stroke": "#2f5561"
+      },
+      "sandbox": "#4a7a8c",
+      "restHeading": 0,
+      "planesFrom": "W"
+    },
+    {
+      "id": "IT",
+      "prefix": "it",
+      "name": "意大利",
+      "coalition": "axis",
+      "counter": {
+        "bg": "#9a8a6e",
+        "edge": "#5a4a30",
+        "text": "#f4efe2",
+        "box": "#eef0ea",
+        "ink": "#5a4a30"
+      },
+      "css": {
+        "main": "#8a7652",
+        "dark": "#5a4a30"
+      },
+      "arrow": {
+        "fill": "rgba(138,118,82,0.62)",
+        "stroke": "#5a4a30"
+      },
+      "sandbox": "#8a7652",
+      "restHeading": 0,
+      "planesFrom": "W"
+    },
+    {
+      "id": "SU",
+      "prefix": "su",
+      "name": "苏联",
+      "coalition": "comintern",
+      "counter": {
+        "bg": "#a0683a",
+        "edge": "#5e3a1c",
+        "text": "#f4efe2",
+        "box": "#eef0ea",
+        "ink": "#5e3a1c"
+      },
+      "css": {
+        "main": "#8f5a2b",
+        "dark": "#5e3a1c"
+      },
+      "arrow": {
+        "fill": "rgba(143,90,43,0.62)",
+        "stroke": "#5e3a1c"
+      },
+      "sandbox": "#8f5a2b",
+      "restHeading": 1,
+      "planesFrom": "E"
+    }
   ],
+  "control": {
+    "mode": "territory",
+    "landBit": 4,
+    "theatreBits": [
+      0
+    ],
+    "slots": [
+      {
+        "key": "DE",
+        "label": "轴心国占领区（斜线）",
+        "homeBits": [
+          1,
+          2
+        ]
+      },
+      {
+        "key": "FI",
+        "label": "芬兰占领区（交叉线）",
+        "homeBits": [
+          3
+        ],
+        "line": "#2c4c58"
+      }
+    ],
+    "remainder": {
+      "label": "苏联控制"
+    }
+  },
+  "phases": [
+    {
+      "id": "border",
+      "from": "1941-06-22T00:00",
+      "name": "第一阶段 · 边境交战",
+      "short": "边境交战",
+      "sub": "明斯克合围，杜布诺坦克战，波罗的海三国沦陷，德军强渡西德维纳河",
+      "center": [
+        26.5,
+        53.5
+      ],
+      "zoom": 1.25
+    },
+    {
+      "id": "smolensk",
+      "from": "1941-07-10T00:00",
+      "name": "第二阶段 · 斯摩棱斯克与乌曼",
+      "short": "斯摩棱斯克与乌曼",
+      "sub": "斯摩棱斯克鏖战，叶利尼亚突出部，乌曼合围，卢加防线与敖德萨被围",
+      "center": [
+        30.5,
+        53.0
+      ],
+      "zoom": 1.2
+    },
+    {
+      "id": "kiev",
+      "from": "1941-08-25T00:00",
+      "name": "第三阶段 · 基辅与列宁格勒",
+      "short": "基辅与列宁格勒",
+      "sub": "基辅大包围，列宁格勒遭封锁，塔林撤退，德军叩开克里米亚门户",
+      "center": [
+        31.5,
+        53.0
+      ],
+      "zoom": 1.15
+    },
+    {
+      "id": "typhoon",
+      "from": "1941-09-30T00:00",
+      "name": "第四阶段 · 台风行动",
+      "short": "台风行动",
+      "sub": "维亚济马—布良斯克合围，泥泞期，莫扎伊斯克防线，哈尔科夫与季赫温失守",
+      "center": [
+        34.5,
+        53.5
+      ],
+      "zoom": 1.3
+    },
+    {
+      "id": "moscow",
+      "from": "1941-11-15T00:00",
+      "to": "1941-12-07T00:00",
+      "name": "第五阶段 · 兵临莫斯科",
+      "short": "兵临莫斯科",
+      "sub": "冻土上的最后攻势，罗斯托夫光复，季赫温反击，红军转入反攻",
+      "center": [
+        35.5,
+        54.5
+      ],
+      "zoom": 1.35
+    }
+  ],
+  "marks": [
+    [
+      "1941-06-22T03:15",
+      "开战"
+    ],
+    [
+      "1941-06-28T18:00",
+      "明斯克失守"
+    ],
+    [
+      "1941-07-16T12:00",
+      "斯摩棱斯克"
+    ],
+    [
+      "1941-09-08T12:00",
+      "列宁格勒被围"
+    ],
+    [
+      "1941-09-19T12:00",
+      "基辅陷落"
+    ],
+    [
+      "1941-10-02T05:30",
+      "台风行动"
+    ],
+    [
+      "1941-10-19T21:00",
+      "莫斯科戒严"
+    ],
+    [
+      "1941-12-05T06:00",
+      "莫斯科反攻"
+    ]
+  ],
+  "theme": {
+    "accent": "#9b2d24",
+    "accentDark": "#5e1a14",
+    "accentTint": "rgba(155,45,36,.07)",
+    "theatreBorder": "#7a2a25",
+    "theatreHalo": "rgba(155,45,36,.2)",
+    "restFill": "rgba(170,60,40,.04)"
+  },
+  "map": {
+    "fit": {
+      "bbox": [
+        21.0,
+        44.2,
+        41.6,
+        61.9
+      ],
+      "mode": "envelope"
+    },
+    "home3d": [
+      31.5,
+      53.5
+    ],
+    "focus": [
+      31.5,
+      53.5
+    ],
+    "hexKm": 30,
+    "theatreCountries": [
+      "SU"
+    ],
+    "labels": {
+      "countries": [
+        [
+          "苏 联",
+          40.6,
+          52.6,
+          44,
+          0.3
+        ],
+        [
+          "芬 兰",
+          26.2,
+          61.4,
+          26,
+          0.4
+        ],
+        [
+          "罗 马 尼 亚",
+          25.0,
+          45.7,
+          24,
+          0.4
+        ],
+        [
+          "匈 牙 利",
+          21.0,
+          47.3,
+          16,
+          0.7
+        ],
+        [
+          "斯 洛 伐 克",
+          20.9,
+          49.2,
+          12,
+          0.9
+        ],
+        [
+          "东 普 鲁 士",
+          21.4,
+          54.25,
+          15,
+          0.7
+        ],
+        [
+          "波 兰 总 督 府",
+          21.0,
+          51.2,
+          13,
+          0.8
+        ],
+        [
+          "乌 克 兰",
+          31.8,
+          49.0,
+          22,
+          0.6
+        ],
+        [
+          "白 俄 罗 斯",
+          28.2,
+          53.6,
+          18,
+          0.7
+        ],
+        [
+          "立 陶 宛",
+          23.9,
+          55.45,
+          13,
+          1.0
+        ],
+        [
+          "拉 脱 维 亚",
+          25.8,
+          56.85,
+          13,
+          1.0
+        ],
+        [
+          "爱 沙 尼 亚",
+          25.8,
+          58.75,
+          13,
+          1.0
+        ]
+      ],
+      "waters": [
+        [
+          "波 罗 的 海",
+          20.5,
+          57.6,
+          20,
+          false,
+          0
+        ],
+        [
+          "芬 兰 湾",
+          25.6,
+          59.85,
+          13,
+          false,
+          0.6
+        ],
+        [
+          "里 加 湾",
+          23.6,
+          57.6,
+          11,
+          false,
+          0.9
+        ],
+        [
+          "黑 海",
+          31.3,
+          44.7,
+          24,
+          false,
+          0
+        ],
+        [
+          "亚 速 海",
+          36.6,
+          46.2,
+          14,
+          false,
+          0.5
+        ],
+        [
+          "普 里 皮 亚 季 沼 泽",
+          27.6,
+          51.85,
+          13,
+          false,
+          0.6
+        ],
+        [
+          "喀 尔 巴 阡 山 脉",
+          23.9,
+          48.45,
+          13,
+          true,
+          0.8
+        ],
+        [
+          "瓦 尔 代 丘 陵",
+          33.0,
+          57.45,
+          12,
+          true,
+          1.2
+        ],
+        [
+          "顿 涅 茨 岭",
+          38.6,
+          48.25,
+          11,
+          true,
+          1.2
+        ]
+      ]
+    },
+    "returnZoom": 1.15,
+    "unitZoom": [
+      2.6,
+      4.2,
+      6.5
+    ]
+  },
+  "sandbox": {
+    "exaggeration": 10,
+    "figScale": 26,
+    "target": [
+      31.5,
+      53.5
+    ],
+    "restTint": [
+      1.05,
+      0.93,
+      0.9
+    ],
+    "restStrength": 0.6
+  },
+  "director": {
+    "returnTo": "phase",
+    "defaultZoom": [
+      2.4,
+      3.4
+    ],
+    "sirens": [
+      {
+        "category": "air",
+        "maxImportance": 2,
+        "sfx": "air_siren",
+        "volume": 0.6
+      }
+    ]
+  },
+  "audio": {
+    "music": [
+      {
+        "from": "1941-06-22T00:00",
+        "track": "operations"
+      },
+      {
+        "from": "1941-09-19T12:00",
+        "track": "elegy"
+      },
+      {
+        "from": "1941-10-02T05:00",
+        "track": "operations"
+      }
+    ],
+    "intensity": [
+      {
+        "from": "1941-06-22T00:00",
+        "value": 0.1
+      },
+      {
+        "from": "1941-06-22T03:15",
+        "value": 0.8
+      },
+      {
+        "from": "1941-07-10T00:00",
+        "value": 0.6
+      },
+      {
+        "from": "1941-08-25T00:00",
+        "value": 0.65
+      },
+      {
+        "from": "1941-10-02T05:00",
+        "value": 0.75
+      },
+      {
+        "from": "1941-10-20T00:00",
+        "value": 0.45
+      },
+      {
+        "from": "1941-11-15T00:00",
+        "value": 0.6
+      },
+      {
+        "from": "1941-12-05T00:00",
+        "value": 0.8
+      }
+    ],
+    "introSting": "radio",
+    "introMusic": "operations"
+  },
+  "ui": {
+    "layers": {
+      "demarcation": {
+        "hidden": true
+      }
+    },
+    "chapterNav": "none",
+    "brief": {
+      "title": "1941 巴巴罗萨行动",
+      "sub": "Unternehmen Barbarossa · Великая Отечественная война",
+      "sub2": "1941.6.22 — 1941.12.5",
+      "fine": "数字为常见区间，各来源口径不一：苏方损失取克里沃舍耶夫统计（“不可挽回”含阵亡、失踪与被俘），德方取陆军卫生报告与哈尔德日记的累计伤亡；统计截止 1941 年 12 月 5 日前后。展开各方说明可见分阶段数字。",
+      "byPhase": false,
+      "notes": "details"
+    },
+    "status": {
+      "cells": [
+        {
+          "sides": [
+            "SU"
+          ],
+          "metric": "act",
+          "label": "苏军单位在战"
+        },
+        {
+          "sides": [
+            "SU"
+          ],
+          "metric": "enc",
+          "label": "被合围",
+          "cls": "enc"
+        },
+        {
+          "sides": [
+            "SU"
+          ],
+          "metric": "out",
+          "label": "已覆灭/投降",
+          "cls": "out"
+        },
+        {
+          "sides": [
+            "DE"
+          ],
+          "metric": "act",
+          "label": "德军单位在战"
+        },
+        {
+          "sides": [
+            "RO",
+            "HU",
+            "SK",
+            "IT"
+          ],
+          "metric": "act",
+          "label": "罗/匈/斯/意单位",
+          "hideZero": true
+        },
+        {
+          "sides": [
+            "FI"
+          ],
+          "metric": "act",
+          "label": "芬军单位在战",
+          "hideZero": true
+        }
+      ],
+      "latestEvent": true
+    },
+    "legend": {
+      "counters": [
+        [
+          "DE",
+          "hq",
+          "army",
+          "集团军/装甲集群"
+        ],
+        [
+          "DE",
+          "armor",
+          "division",
+          "装甲师"
+        ],
+        [
+          "DE",
+          "motorized",
+          "division",
+          "摩托化步兵师"
+        ],
+        [
+          "DE",
+          "infantry",
+          "division",
+          "步兵师"
+        ],
+        [
+          "DE",
+          "mountain",
+          "division",
+          "山地师"
+        ],
+        [
+          "SU",
+          "armor",
+          "corps",
+          "机械化军/坦克师"
+        ],
+        [
+          "SU",
+          "infantry",
+          "division",
+          "步兵师"
+        ],
+        [
+          "SU",
+          "cavalry",
+          "division",
+          "骑兵师"
+        ],
+        [
+          "FI",
+          "infantry",
+          "division",
+          "芬兰步兵师"
+        ],
+        [
+          "RO",
+          "mountain",
+          "brigade",
+          "罗马尼亚山地旅"
+        ],
+        [
+          "HU",
+          "motorized",
+          "brigade",
+          "匈牙利摩托化旅"
+        ],
+        [
+          "IT",
+          "infantry",
+          "division",
+          "意大利步兵师"
+        ],
+        [
+          "SK",
+          "motorized",
+          "division",
+          "斯洛伐克快速师"
+        ]
+      ],
+      "items": [
+        "<i class=\"lg-fill a\"></i>轴心国占领区（斜线）",
+        "<i class=\"lg-fill b\"></i>芬兰占领区（交叉线）",
+        "<i class=\"lg-fill\"></i>苏联控制",
+        "<i class=\"lg-front\"></i>战线（接触线）",
+        "<i class=\"lg-pocket\"></i>包围圈",
+        "<i class=\"lg-fort\"></i>筑垒地域与防线（1941 年）"
+      ]
+    },
+    "extraLayers": [
+      {
+        "key": "fortlines",
+        "label": "筑垒地域与防线",
+        "default": true
+      }
+    ],
+    "modelLabels": {
+      "inf_de": "德军步兵班",
+      "inf_su": "苏军步兵班",
+      "inf_fi": "芬兰步兵班",
+      "inf_ro": "罗马尼亚步兵班",
+      "inf_hu": "匈牙利步兵班",
+      "inf_it": "意大利步兵班",
+      "inf_sk": "斯洛伐克步兵班",
+      "cav_su": "苏军骑兵",
+      "art_gun": "野战炮",
+      "t34": "T-34 中型坦克（1941 年型）",
+      "kv1": "KV-1 重型坦克",
+      "stug3": "三号突击炮",
+      "pz3": "三号坦克",
+      "pz4": "四号坦克",
+      "pz38t": "38(t) 坦克",
+      "pz2": "二号坦克",
+      "pz35t": "35(t) 坦克",
+      "t26": "T-26 轻型坦克",
+      "bt7": "BT-7 快速坦克",
+      "sdkfz231": "Sd.Kfz. 231 装甲车"
+    }
+  },
+  "intro": {
+    "stamp": "GEHEIM · СЕКРЕТНО · 绝密",
+    "kicker": "作战档案 No. 1941/VI",
+    "title": "巴巴罗萨行动",
+    "en": "Operation Barbarossa · Unternehmen Barbarossa",
+    "dates": "1941年6月22日 — 12月5日",
+    "paragraphs": [
+      "1941 年 6 月 22 日凌晨 3 时 15 分（莫斯科时间 4 时 15 分），德国撕毁互不侵犯条约，以约三百万人、三千余辆坦克从波罗的海到黑海全线越境，芬兰、罗马尼亚、匈牙利、斯洛伐克和意大利相继参战。北方集团军群扑向列宁格勒，中央集团军群直指莫斯科，南方集团军群夺取乌克兰。",
+      "比亚韦斯托克—明斯克、斯摩棱斯克、乌曼、基辅、维亚济马—布良斯克，一个接一个的包围圈吞没了数百万红军；列宁格勒被围，基辅、敖德萨、哈尔科夫相继失守。然而泥泞、严寒和源源不断的新集团军拖垮了闪电战，12 月 5 日，红军在莫斯科城下转入反攻。"
+    ],
+    "how": "本推演以复古作战室地图的形式，按小时重现 {units} 支部队的机动、{keyframes} 个战线关键帧、{pockets} 个包围圈与 {events} 个历史事件。",
+    "note": "建议开启声音 · 支持鼠标滚轮缩放、拖动平移 · 时间为柏林时间（莫斯科时间 +1 小时）· 历史示意图，边界与位置为近似",
+    "photo": "File:German troops crossing the Soviet border.jpg",
+    "photoFallback": "File:Początek wojny niemiecko-radzieckiej (2-646).jpg",
+    "caption": "1941 年 6 月，越过苏联国界界桩的德军步兵与 75 mm 轻型步兵炮（宣传连约翰内斯·黑勒摄）",
+    "photoAlt": "德军士兵拖着火炮走过苏联国界界桩，远处浓烟升起"
+  },
+  "credits": {
+    "geodata": [
+      "<b>Natural Earth 1:10m</b>（国界、河流、湖泊、海岸、陆地）— 公有领域；1941 年 6 月 22 日国界在今国界基础上修补（pipeline/geo/borders_1941.py）：苏德之间取 1939 年 9 月 28 日《德苏边界友好条约》分界线，梅梅尔与东普鲁士属德国，汉科租借区属苏联",
+      "<b>historical-basemaps world_1938</b>（A. Ourednik 等）— GPL-3.0；经巴尔干与波兰战役修补的 1939–1940 年国界（北特兰西瓦尼亚、喀尔巴阡乌克兰、梅梅尔）",
+      "<b>Terrain Tiles (Terrarium)</b> — Mapzen / AWS Open Data；SRTM、GMTED2010、ETOPO1 等"
+    ],
+    "sections": [
+      [
+        "照片",
+        "photos"
+      ],
+      [
+        "音效",
+        "audio"
+      ],
+      [
+        "音乐",
+        "music"
+      ],
+      [
+        "字体",
+        "fonts"
+      ]
+    ]
+  },
   "hub": {
     "order": 7,
     "codename": "巴巴罗萨行动",
     "codenameOrig": "BARBAROSSA",
-    "pin": [30.5, 54.2],
+    "pin": [
+      30.5,
+      54.2
+    ],
     "labelAt": "s",
-    "theatre": { "bbox": [22.5, 45.5, 40, 60.5] },
-    "blurb": "三个集团军群沿波罗的海至黑海的漫长战线同时越境，六个月内兵临列宁格勒、莫斯科与罗斯托夫城下；十二月初苏军在莫斯科城下发起反攻。"
+    "theatre": {
+      "bbox": [
+        22.5,
+        45.5,
+        40,
+        60.5
+      ]
+    },
+    "blurb": "三个集团军群沿波罗的海至黑海的漫长战线越境，包围圈接连吞没数百万红军；列宁格勒被围、基辅陷落，攻势终在莫斯科城下被严寒与反攻所阻。",
+    "region": "europe",
+    "cover": "photos/rian-archive-669663-soviet-troops-head-to-front-lines-af-0505de.webp"
+  },
+  "parentExceptions": [
+    [
+      "FI",
+      "DE"
+    ],
+    [
+      "RO",
+      "DE"
+    ],
+    [
+      "HU",
+      "DE"
+    ],
+    [
+      "SK",
+      "DE"
+    ],
+    [
+      "IT",
+      "DE"
+    ],
+    [
+      "DE",
+      "RO"
+    ],
+    [
+      "DE",
+      "FI"
+    ]
+  ],
+  "validation": {
+    "slotEmptyBefore": {
+      "FI": "1941-07-10T00:00"
+    }
+  },
+  "sideOrder": [
+    "DE",
+    "FI",
+    "RO",
+    "HU",
+    "SK",
+    "IT",
+    "SU"
+  ],
+  "display": {
+    "statusEchelons": "leaves"
   }
 }

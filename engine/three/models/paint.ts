@@ -57,6 +57,25 @@ export const SCHEMES = {
   inf_au: { camo: 'plain', c0: '#887757', c1: '', c2: '', line: '', roles: { uniform: '#887757', trousers: '#887757', helmet: '#555b45' } },
   inf_nz: { camo: 'plain', c0: '#817259', c1: '', c2: '', line: '', roles: { uniform: '#817259', trousers: '#817259', helmet: '#555b45' } },
   para_de: { camo: 'plain', c0: '#626850', c1: '', c2: '', line: '', roles: { uniform: '#626850', trousers: '#626850', helmet: '#555b45' } },
+  /** 芬兰 M/36 野战灰制服 + 浅灰绿钢盔、黑色皮靴、棕色皮具 */
+  inf_fi: { camo: 'plain', c0: '#6c6e61', c1: '', c2: '', line: '', roles: { uniform: '#6c6e61', trousers: '#66685c', helmet: '#69705f', boots: '#1d1a17', leather: '#3e2c1f', kit: '#686752' } },
+  /** 罗马尼亚 1939 式卡其褐制服 + 橄榄褐钢盔、棕色皮具 */
+  inf_ro: { camo: 'plain', c0: '#7a6a4a', c1: '', c2: '', line: '', roles: { uniform: '#7a6a4a', trousers: '#726345', helmet: '#5e5a3d', boots: '#2a1f17', leather: '#4a3424', kit: '#6e6248' } },
+  // ---------- 1939 年舰船（ships.ts：paint=舰体/上层，wood=甲板，dark=水线黑带，red=防污漆，belly=次要灰） ----------
+  /** 德国海军 1939 浅灰（施佩伯爵号）：舰体 #9ea3a6，甲板 #6e6a60 */
+  km_grey: { camo: 'plain', c0: '#9ea3a6', c1: '', c2: '', line: '', roles: { wood: '#6e6a60', dark: '#1d1e20', red: '#6b2a24', metal: '#7d8285', glass: '#1f262b', canvas: '#b4b09a', belly: '#8b9093', white: '#d9d8cf' } },
+  /** 德国海军补给舰（阿尔特马克号）：深灰舰体、浅灰上层 */
+  km_supply: { camo: 'plain', c0: '#5f6467', c1: '', c2: '', line: '', roles: { wood: '#6d675b', dark: '#1b1c1e', red: '#6b2a24', metal: '#55595b', glass: '#1f262b', canvas: '#a9a48e', belly: '#7c8184', white: '#a9adae' } },
+  /** 皇家海军 1939 中灰（南美分舰队）：甲板为风化的柚木/油毡色 */
+  rn_grey: { camo: 'plain', c0: '#868c8f', c1: '', c2: '', line: '', roles: { wood: '#8f8670', dark: '#1c1d1f', red: '#6b2a24', metal: '#666c6f', glass: '#1e252a', canvas: '#bfb89f', belly: '#767c80', white: '#dedcd2', flagA: '#ece8dc', flagB: '#b3262e' } },
+  /** 皇家海军本土舰队深灰（声望号、皇家方舟号）；方舟号飞行甲板用 wood 色 */
+  rn_dark: { camo: 'plain', c0: '#6f7477', c1: '', c2: '', line: '', roles: { wood: '#5d5e5a', dark: '#18191b', red: '#6b2a24', metal: '#585d60', glass: '#1e252a', canvas: '#b5ae95', belly: '#626669', white: '#d8d6cc', flagA: '#ece8dc', flagB: '#b3262e' } },
+  /** 商船：黑色船体、白色上层、浅黄烟囱、红色船底 */
+  merchant: { camo: 'plain', c0: '#2a2826', c1: '', c2: '', line: '', roles: { wood: '#8a7859', dark: '#141312', red: '#7a2b22', metal: '#55524c', glass: '#262a2c', canvas: '#7d7258', belly: '#6a5d4b', white: '#e2dac8', yellow: '#c8a467' } },
+  /** 1939 年舰队航空兵：银色涂料（海狐式、海象式） */
+  faa_silver: { camo: 'plain', c0: '#b5b9b5', c1: '', c2: '', line: '', roles: { belly: '#b5b9b5', glass: '#7d97a5', blue: '#173e72', red: '#9f2729', white: '#e7e1cd', dark: '#222426' } },
+  /** 德国海军航空兵 Ar 196：上表面 RLM 72/73 深绿，下表面 RLM 65 浅蓝 */
+  km_air: { camo: 'luftwaffe', c0: '#3d4a43', c1: '#2f3b36', c2: '#2f3b36', line: '#28332e', roles: { belly: '#a9c5c8', glass: '#7798a7', dark: '#131a1c', white: '#e6e6db' } },
 } satisfies Record<string, Scheme>;
 export type SchemeId = keyof typeof SCHEMES;
 

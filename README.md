@@ -11,7 +11,7 @@
 | 不列颠空战 | `campaigns/britain-1940` | 1940.7.10 — 10.31 |
 | 巴尔干战役 | `campaigns/balkans-1941` | 1940.10.28 — 1941.6.1 |
 | 克里特岛战役 | `campaigns/crete-1941` | 1941.5.20 — 6.1 |
-| 巴巴罗萨行动（筹备中） | `campaigns/barbarossa-1941` | 1941.6.22 — 12.5 |
+| 巴巴罗萨行动 | `campaigns/barbarossa-1941` | 1941.6.22 — 12.5 |
 | 淞沪会战（筹备中） | `campaigns/shanghai-1937` | 1937.8.13 — 11.26 |
 | 阿拉曼战役（筹备中） | `campaigns/el-alamein-1942` | 1942.10.23 — 11.11 |
 | 瓜达尔卡纳尔岛战役（筹备中） | `campaigns/guadalcanal-1942` | 1942.8.7 — 1943.2.9 |

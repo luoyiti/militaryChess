@@ -1,0 +1,1454 @@
+[
+ {
+  "id": "de.skl",
+  "side": "DE",
+  "echelon": "command",
+  "type": "hq",
+  "parent": null,
+  "name": {
+   "zh": "德国海军战争指挥部",
+   "orig": "Seekriegsleitung (SKL)",
+   "short": "SKL"
+  },
+  "commander": {
+   "zh": "雷德尔海军元帅",
+   "orig": "Großadmiral Erich Raeder"
+  },
+  "display": "container",
+  "history": "柏林的海军最高指挥机构。9 月 26 日授权施佩伯爵号开始对商船作战，此后以无线电与「会合线」遥控袭击舰与补给船，12 月 16 日下达「不得在乌拉圭被拘留」的指令。",
+  "track": [],
+  "sources": [
+   "ktb_skl"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "de.graf_spee",
+  "side": "DE",
+  "echelon": "ship",
+  "type": "naval",
+  "parent": "de.skl",
+  "name": {
+   "zh": "施佩伯爵海军上将号",
+   "orig": "Panzerschiff Admiral Graf Spee",
+   "short": "Graf Spee"
+  },
+  "commander": {
+   "zh": "朗斯多夫上校",
+   "orig": "Kapitän zur See Hans Langsdorff"
+  },
+  "model": "graf_spee",
+  "strength": {
+   "men": 1100,
+   "guns": 6
+  },
+  "ship": {
+   "kind": "pocket_battleship",
+   "class": {
+    "zh": "德意志级装甲舰（「袖珍战列舰」）",
+    "orig": "Deutschland-Klasse Panzerschiff"
+   },
+   "lengthM": 186,
+   "beamM": 21.65,
+   "tonnage": 11887,
+   "tonnageKind": "std",
+   "maxKn": 28.5,
+   "crew": 1100,
+   "silhouette": "graf_spee",
+   "weapons": [
+    {
+     "id": "A",
+     "label": "前主炮塔「安东」（三联装 28 厘米）",
+     "cal": "28 cm SK C/28",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 3,
+     "rangeKm": 36.5,
+     "atPct": 27
+    },
+    {
+     "id": "B",
+     "label": "后主炮塔「布鲁诺」（三联装 28 厘米）",
+     "cal": "28 cm SK C/28",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 3,
+     "rangeKm": 36.5,
+     "atPct": 76
+    },
+    {
+     "id": "sec",
+     "label": "15 厘米副炮（单装 ×8，两舷各 4）",
+     "cal": "15 cm SK C/28",
+     "kind": "secondary",
+     "mounts": 8,
+     "perMount": 1,
+     "rangeKm": 23,
+     "atPct": 50
+    },
+    {
+     "id": "aa",
+     "label": "10.5 厘米高射炮（双联装 ×3）",
+     "cal": "10.5 cm SK C/33",
+     "kind": "aa",
+     "mounts": 3,
+     "perMount": 2,
+     "rangeKm": 17.7,
+     "atPct": 62
+    },
+    {
+     "id": "tt",
+     "label": "53.3 厘米鱼雷发射管（四联装 ×2，后甲板）",
+     "cal": "53.3 cm G7a",
+     "kind": "torpedo",
+     "mounts": 2,
+     "perMount": 4,
+     "rangeKm": 12,
+     "atPct": 88
+    }
+   ]
+  },
+  "history": "1936 年服役的柴油动力装甲舰，航程远、火力强于任何能追上它的巡洋舰。1939 年 8 月 21 日出港潜入南大西洋，9 月 26 日起截击英国商船九艘（共约 5 万总吨），未杀一人。12 月 13 日在拉普拉塔河口与哈伍德的三艘巡洋舰交战受创，驶入蒙得维的亚；17 日黄昏自沉。",
+  "modelNote": "1939 年 12 月状态：塔式舰桥顶部为 Seetakt 雷达天线，舰艏涂有假舰艏浪；战前加装的假烟囱与假炮塔已于 12 月 11–12 日拆除。",
+  "track": [],
+  "sources": [
+   "wiki_en_graf_spee",
+   "wiki_de_graf_spee",
+   "navweaps_28cm",
+   "harwood_despatch",
+   "admiralty_track_chart"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "de.altmark",
+  "side": "DE",
+  "echelon": "ship",
+  "type": "naval",
+  "parent": "de.skl",
+  "name": {
+   "zh": "阿尔特马克号补给油船",
+   "orig": "Trossschiff Altmark",
+   "short": "Altmark"
+  },
+  "commander": {
+   "zh": "道船长",
+   "orig": "Kapitän Heinrich Dau"
+  },
+  "model": "tanker",
+  "ship": {
+   "kind": "tanker",
+   "class": {
+    "zh": "迪特马申级补给油船",
+    "orig": "Dithmarschen-Klasse Trossschiff"
+   },
+   "lengthM": 178.3,
+   "beamM": 22.3,
+   "tonnage": 10698,
+   "tonnageKind": "grt",
+   "maxKn": 21,
+   "crew": 133,
+   "silhouette": "tanker"
+  },
+  "history": "施佩伯爵号的补给与「监狱船」。按预先编好的会合线在大西洋腹地等待，前后为袭击舰加油九次，接收被击沉商船的船员约三百人。伪装成挪威船「Sogne」。1940 年 2 月在挪威约辛峡湾被英舰「哥萨克人」号登临，船上俘虏获救。",
+  "track": [],
+  "sources": [
+   "wiki_en_altmark",
+   "wiki_de_altmark",
+   "hmsajax_org",
+   "ktb_skl"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "de.tacoma",
+  "side": "DE",
+  "echelon": "ship",
+  "type": "naval",
+  "parent": null,
+  "name": {
+   "zh": "塔科马号",
+   "orig": "Dampfer Tacoma (HAPAG)",
+   "short": "Tacoma"
+  },
+  "model": "merchant",
+  "ship": {
+   "kind": "merchant",
+   "class": {
+    "zh": "德国货轮（汉堡—美洲航运公司）",
+    "orig": "Frachtdampfer, Hamburg-Amerika Linie"
+   },
+   "lengthM": 140,
+   "beamM": 18,
+   "tonnage": 8268,
+   "tonnageKind": "grt",
+   "maxKn": 12,
+   "silhouette": "merchant"
+  },
+  "active": {
+   "from": "1939-12-14T00:00"
+  },
+  "history": "滞留蒙得维的亚的德国货轮。12 月 17 日下午接收施佩伯爵号的大部分舰员，随舰驶出港外，自沉后被乌拉圭海军押回港内，月底被宣布为交战国辅助船并遭扣留。",
+  "track": [],
+  "sources": [
+   "gub_uy_archivo",
+   "frus_1939_v5",
+   "harwood_despatch"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "gb.admiralty",
+  "side": "GB",
+  "echelon": "command",
+  "type": "hq",
+  "parent": null,
+  "name": {
+   "zh": "英国海军部",
+   "orig": "Admiralty",
+   "short": "Admiralty"
+  },
+  "commander": {
+   "zh": "第一海务大臣庞德海军元帅",
+   "orig": "Admiral of the Fleet Sir Dudley Pound"
+  },
+  "display": "container",
+  "history": "10 月 5 日确认南大西洋有袭击舰后，海军部与法国海军组成八个「猎杀群」（F–N 舰队），动用 3 艘航空母舰、2 艘战列巡洋舰与十余艘巡洋舰，分驻各航运要冲。",
+  "track": [],
+  "sources": [
+   "roskill_1954"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "gb.force_g",
+  "side": "GB",
+  "echelon": "group",
+  "type": "naval",
+  "parent": "gb.admiralty",
+  "name": {
+   "zh": "南美分舰队（G 舰队）",
+   "orig": "South America Division (Force G)",
+   "short": "Force G"
+  },
+  "commander": {
+   "zh": "哈伍德准将",
+   "orig": "Commodore Henry Harwood"
+  },
+  "display": "container",
+  "history": "南美洲东岸的英国巡洋舰分队，负责拉普拉塔河口至里约热内卢的航运。哈伍德判断袭击舰会在 12 月 12–13 日前后到达河口，提前集中三舰迎击。",
+  "track": [],
+  "sources": [
+   "harwood_despatch",
+   "roskill_1954"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "gb.exeter",
+  "side": "GB",
+  "echelon": "ship",
+  "type": "naval",
+  "parent": "gb.force_g",
+  "name": {
+   "zh": "埃克塞特号",
+   "orig": "HMS Exeter",
+   "short": "Exeter"
+  },
+  "commander": {
+   "zh": "贝尔上校",
+   "orig": "Captain F. S. Bell"
+  },
+  "model": "exeter",
+  "strength": {
+   "men": 630,
+   "guns": 6
+  },
+  "ship": {
+   "kind": "heavy_cruiser",
+   "class": {
+    "zh": "约克级重巡洋舰",
+    "orig": "York-class heavy cruiser"
+   },
+   "lengthM": 175.3,
+   "beamM": 17.7,
+   "tonnage": 8390,
+   "tonnageKind": "std",
+   "maxKn": 32,
+   "pennant": "68",
+   "crew": 630,
+   "silhouette": "york",
+   "weapons": [
+    {
+     "id": "A",
+     "label": "A 炮塔（双联装 8 英寸）",
+     "cal": "8 in BL Mk VIII",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 2,
+     "rangeKm": 26.5,
+     "atPct": 22
+    },
+    {
+     "id": "B",
+     "label": "B 炮塔（双联装 8 英寸）",
+     "cal": "8 in BL Mk VIII",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 2,
+     "rangeKm": 26.5,
+     "atPct": 30
+    },
+    {
+     "id": "Y",
+     "label": "Y 炮塔（双联装 8 英寸）",
+     "cal": "8 in BL Mk VIII",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 2,
+     "rangeKm": 26.5,
+     "atPct": 82
+    },
+    {
+     "id": "aa",
+     "label": "4 英寸高射炮（单装 ×4）",
+     "cal": "4 in QF Mk V",
+     "kind": "aa",
+     "mounts": 4,
+     "perMount": 1,
+     "rangeKm": 15,
+     "atPct": 55
+    },
+    {
+     "id": "tt_s",
+     "label": "右舷鱼雷发射管（三联装）",
+     "cal": "21 in Mk VII",
+     "kind": "torpedo",
+     "mounts": 1,
+     "perMount": 3,
+     "rangeKm": 12,
+     "atPct": 58
+    },
+    {
+     "id": "tt_p",
+     "label": "左舷鱼雷发射管（三联装）",
+     "cal": "21 in Mk VII",
+     "kind": "torpedo",
+     "mounts": 1,
+     "perMount": 3,
+     "rangeKm": 12,
+     "atPct": 58
+    }
+   ]
+  },
+  "history": "1931 年服役的重巡洋舰，6 门 8 英寸炮。12 月 13 日单独从西侧夹击，吸引了施佩伯爵号大部分 28 厘米炮火：A、B 炮塔被毁，舰桥人员几乎全部死伤，阵亡 61 人。凭借 Y 炮塔坚持射击到 07:30，随后退出，16 日抵达福克兰群岛斯坦利港。",
+  "track": [],
+  "sources": [
+   "wiki_en_exeter",
+   "navweaps_8in",
+   "atwill_1977",
+   "cussen_diary",
+   "harwood_despatch",
+   "admiralty_track_chart"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "gb.ajax",
+  "side": "GB",
+  "echelon": "ship",
+  "type": "naval",
+  "parent": "gb.force_g",
+  "name": {
+   "zh": "阿贾克斯号",
+   "orig": "HMS Ajax",
+   "short": "Ajax"
+  },
+  "commander": {
+   "zh": "伍德豪斯上校",
+   "orig": "Captain C. H. L. Woodhouse"
+  },
+  "model": "leander",
+  "strength": {
+   "men": 570,
+   "guns": 8
+  },
+  "ship": {
+   "kind": "light_cruiser",
+   "class": {
+    "zh": "利安德级轻巡洋舰",
+    "orig": "Leander-class light cruiser"
+   },
+   "lengthM": 169,
+   "beamM": 17,
+   "tonnage": 6985,
+   "tonnageKind": "std",
+   "maxKn": 32.5,
+   "pennant": "22",
+   "crew": 570,
+   "silhouette": "leander",
+   "weapons": [
+    {
+     "id": "A",
+     "label": "A 炮塔（双联装 6 英寸）",
+     "cal": "6 in BL Mk XXIII",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 2,
+     "rangeKm": 23.3,
+     "atPct": 20
+    },
+    {
+     "id": "B",
+     "label": "B 炮塔（双联装 6 英寸）",
+     "cal": "6 in BL Mk XXIII",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 2,
+     "rangeKm": 23.3,
+     "atPct": 27
+    },
+    {
+     "id": "X",
+     "label": "X 炮塔（双联装 6 英寸）",
+     "cal": "6 in BL Mk XXIII",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 2,
+     "rangeKm": 23.3,
+     "atPct": 75
+    },
+    {
+     "id": "Y",
+     "label": "Y 炮塔（双联装 6 英寸）",
+     "cal": "6 in BL Mk XXIII",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 2,
+     "rangeKm": 23.3,
+     "atPct": 84
+    },
+    {
+     "id": "aa",
+     "label": "4 英寸高射炮（单装 ×4）",
+     "cal": "4 in QF Mk V",
+     "kind": "aa",
+     "mounts": 4,
+     "perMount": 1,
+     "rangeKm": 15,
+     "atPct": 55
+    },
+    {
+     "id": "tt_p",
+     "label": "左舷鱼雷发射管（四联装）",
+     "cal": "21 in Mk IX",
+     "kind": "torpedo",
+     "mounts": 1,
+     "perMount": 4,
+     "rangeKm": 12,
+     "atPct": 60
+    },
+    {
+     "id": "tt_s",
+     "label": "右舷鱼雷发射管（四联装）",
+     "cal": "21 in Mk IX",
+     "kind": "torpedo",
+     "mounts": 1,
+     "perMount": 4,
+     "rangeKm": 12,
+     "atPct": 60
+    }
+   ]
+  },
+  "history": "哈伍德准将的旗舰。与阿喀琉斯号组成第一分队从东侧集中射击，07:25 被一发延期引信 28 厘米弹打哑 X、Y 两座炮塔，07:40 主桅被打断。此后与阿喀琉斯号一路尾随施佩伯爵号到蒙得维的亚。",
+  "track": [],
+  "sources": [
+   "wiki_en_ajax",
+   "navweaps_6in",
+   "harwood_despatch",
+   "admiralty_track_chart"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "gb.seafox",
+  "side": "GB",
+  "echelon": "squadron",
+  "type": "air",
+  "parent": "gb.ajax",
+  "name": {
+   "zh": "阿贾克斯号的「海狐」水上飞机",
+   "orig": "Fairey Seafox (718 Catapult Flight, HMS Ajax)",
+   "short": "Seafox"
+  },
+  "model": "seafox",
+  "active": {
+   "from": "1939-12-13T06:37",
+   "to": "1939-12-13T09:12"
+  },
+  "commander": {
+   "zh": "卢因上尉（飞行员）、卡尼上尉（观察员）",
+   "orig": "Lt E. D. G. Lewin / Lt R. E. N. Kearney"
+  },
+  "history": "06:37 在炮战中弹射升空，为第一分队校正弹着，07:31 报告「鱼雷来袭，将从你舰前方通过」。共飞行 2 小时 35 分钟，是英国舰载机首次在海战中为舰炮观测。卢因因此获颁优异服务十字勋章。",
+  "track": [],
+  "sources": [
+   "harwood_despatch",
+   "faaoa_lewin",
+   "wiki_en_seafox"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "nz.achilles",
+  "side": "NZ",
+  "echelon": "ship",
+  "type": "naval",
+  "parent": "gb.force_g",
+  "name": {
+   "zh": "阿喀琉斯号",
+   "orig": "HMS Achilles (New Zealand Division)",
+   "short": "Achilles"
+  },
+  "commander": {
+   "zh": "帕里上校",
+   "orig": "Captain W. E. Parry"
+  },
+  "model": "leander",
+  "strength": {
+   "men": 550,
+   "guns": 8
+  },
+  "active": {
+   "from": "1939-10-22T00:00"
+  },
+  "ship": {
+   "kind": "light_cruiser",
+   "class": {
+    "zh": "利安德级轻巡洋舰",
+    "orig": "Leander-class light cruiser"
+   },
+   "lengthM": 169,
+   "beamM": 17,
+   "tonnage": 7030,
+   "tonnageKind": "std",
+   "maxKn": 32.5,
+   "pennant": "70",
+   "crew": 550,
+   "silhouette": "leander",
+   "weapons": [
+    {
+     "id": "A",
+     "label": "A 炮塔（双联装 6 英寸）",
+     "cal": "6 in BL Mk XXIII",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 2,
+     "rangeKm": 23.3,
+     "atPct": 20
+    },
+    {
+     "id": "B",
+     "label": "B 炮塔（双联装 6 英寸）",
+     "cal": "6 in BL Mk XXIII",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 2,
+     "rangeKm": 23.3,
+     "atPct": 27
+    },
+    {
+     "id": "X",
+     "label": "X 炮塔（双联装 6 英寸）",
+     "cal": "6 in BL Mk XXIII",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 2,
+     "rangeKm": 23.3,
+     "atPct": 75
+    },
+    {
+     "id": "Y",
+     "label": "Y 炮塔（双联装 6 英寸）",
+     "cal": "6 in BL Mk XXIII",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 2,
+     "rangeKm": 23.3,
+     "atPct": 84
+    },
+    {
+     "id": "aa",
+     "label": "4 英寸高射炮（单装 ×4）",
+     "cal": "4 in QF Mk V",
+     "kind": "aa",
+     "mounts": 4,
+     "perMount": 1,
+     "rangeKm": 15,
+     "atPct": 55
+    },
+    {
+     "id": "tt_p",
+     "label": "左舷鱼雷发射管（四联装）",
+     "cal": "21 in Mk IX",
+     "kind": "torpedo",
+     "mounts": 1,
+     "perMount": 4,
+     "rangeKm": 12,
+     "atPct": 60
+    },
+    {
+     "id": "tt_s",
+     "label": "右舷鱼雷发射管（四联装）",
+     "cal": "21 in Mk IX",
+     "kind": "torpedo",
+     "mounts": 1,
+     "perMount": 4,
+     "rangeKm": 12,
+     "atPct": 60
+    }
+   ]
+  },
+  "history": "皇家海军新西兰分队的巡洋舰，舰员多为新西兰人，战斗中升新西兰军旗。06:40 一发近失弹的弹片射入射击指挥塔，4 人阵亡。白昼战斗后紧贴施佩伯爵号右后方尾随，夜间追到距其 5 海里。",
+  "track": [],
+  "sources": [
+   "wiki_en_achilles",
+   "waters_1956",
+   "harwood_despatch",
+   "admiralty_track_chart"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "gb.cumberland",
+  "side": "GB",
+  "echelon": "ship",
+  "type": "naval",
+  "parent": "gb.force_g",
+  "name": {
+   "zh": "坎伯兰号",
+   "orig": "HMS Cumberland",
+   "short": "Cumberland"
+  },
+  "commander": {
+   "zh": "法洛菲尔德上校",
+   "orig": "Captain W. H. G. Fallowfield"
+  },
+  "model": "county",
+  "strength": {
+   "men": 680,
+   "guns": 8
+  },
+  "ship": {
+   "kind": "heavy_cruiser",
+   "class": {
+    "zh": "肯特级重巡洋舰",
+    "orig": "County (Kent)-class heavy cruiser"
+   },
+   "lengthM": 192,
+   "beamM": 20.8,
+   "tonnage": 9750,
+   "tonnageKind": "std",
+   "maxKn": 31.5,
+   "pennant": "57",
+   "crew": 680,
+   "silhouette": "county",
+   "weapons": [
+    {
+     "id": "A",
+     "label": "A 炮塔（双联装 8 英寸）",
+     "cal": "8 in BL Mk VIII",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 2,
+     "rangeKm": 26.5,
+     "atPct": 21
+    },
+    {
+     "id": "B",
+     "label": "B 炮塔（双联装 8 英寸）",
+     "cal": "8 in BL Mk VIII",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 2,
+     "rangeKm": 26.5,
+     "atPct": 28
+    },
+    {
+     "id": "X",
+     "label": "X 炮塔（双联装 8 英寸）",
+     "cal": "8 in BL Mk VIII",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 2,
+     "rangeKm": 26.5,
+     "atPct": 74
+    },
+    {
+     "id": "Y",
+     "label": "Y 炮塔（双联装 8 英寸）",
+     "cal": "8 in BL Mk VIII",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 2,
+     "rangeKm": 26.5,
+     "atPct": 82
+    },
+    {
+     "id": "aa",
+     "label": "4 英寸高射炮",
+     "cal": "4 in QF Mk V",
+     "kind": "aa",
+     "mounts": 4,
+     "perMount": 2,
+     "rangeKm": 15,
+     "atPct": 55
+    }
+   ]
+  },
+  "history": "哈伍德分舰队的第四艘巡洋舰，海战当日在福克兰群岛自行检修，闻讯后全速北上，航行 34 小时于 14 日 22:00 抵达河口，成为封锁蒙得维的亚时唯一的 8 英寸炮舰。",
+  "track": [],
+  "sources": [
+   "wiki_en_cumberland",
+   "harwood_despatch",
+   "uboat_net_renown"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "gb.force_k",
+  "side": "GB",
+  "echelon": "group",
+  "type": "naval",
+  "parent": "gb.admiralty",
+  "name": {
+   "zh": "K 舰队（猎杀群）",
+   "orig": "Force K",
+   "short": "Force K"
+  },
+  "display": "container",
+  "commander": {
+   "zh": "韦尔斯中将",
+   "orig": "Vice-Admiral L. V. Wells"
+  },
+  "history": "以战列巡洋舰声望号与航空母舰皇家方舟号组成的最强猎杀群，驻弗里敦与伯南布哥之间。12 月初移往开普敦，海战后奉命驰援拉普拉塔，但直到 17 日才到里约热内卢加油；英国的宣传让德方相信它们已在河口外。",
+  "track": [],
+  "sources": [
+   "roskill_1954",
+   "uboat_net_renown"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "gb.renown",
+  "side": "GB",
+  "echelon": "ship",
+  "type": "naval",
+  "parent": "gb.force_k",
+  "name": {
+   "zh": "声望号",
+   "orig": "HMS Renown",
+   "short": "Renown"
+  },
+  "model": "renown",
+  "active": {
+   "from": "1939-10-12T00:00"
+  },
+  "ship": {
+   "kind": "battlecruiser",
+   "class": {
+    "zh": "声望级战列巡洋舰（1939 年重建）",
+    "orig": "Renown-class battlecruiser"
+   },
+   "lengthM": 242,
+   "beamM": 31.2,
+   "tonnage": 32000,
+   "tonnageKind": "std",
+   "maxKn": 30,
+   "pennant": "72",
+   "crew": 1200,
+   "silhouette": "renown",
+   "weapons": [
+    {
+     "id": "A",
+     "label": "A 炮塔（双联装 15 英寸）",
+     "cal": "15 in BL Mk I",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 2,
+     "rangeKm": 33,
+     "atPct": 25
+    },
+    {
+     "id": "B",
+     "label": "B 炮塔（双联装 15 英寸）",
+     "cal": "15 in BL Mk I",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 2,
+     "rangeKm": 33,
+     "atPct": 32
+    },
+    {
+     "id": "Y",
+     "label": "Y 炮塔（双联装 15 英寸）",
+     "cal": "15 in BL Mk I",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 2,
+     "rangeKm": 33,
+     "atPct": 80
+    },
+    {
+     "id": "sec",
+     "label": "4.5 英寸两用炮（双联装 ×10）",
+     "cal": "4.5 in QF Mk I",
+     "kind": "secondary",
+     "mounts": 10,
+     "perMount": 2,
+     "rangeKm": 18.7,
+     "atPct": 52
+    }
+   ]
+  },
+  "track": [],
+  "sources": [
+   "wiki_en_renown",
+   "uboat_net_renown"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "gb.ark_royal",
+  "side": "GB",
+  "echelon": "ship",
+  "type": "naval",
+  "parent": "gb.force_k",
+  "name": {
+   "zh": "皇家方舟号",
+   "orig": "HMS Ark Royal",
+   "short": "Ark Royal"
+  },
+  "model": "ark_royal",
+  "active": {
+   "from": "1939-10-12T00:00"
+  },
+  "ship": {
+   "kind": "carrier",
+   "class": {
+    "zh": "皇家方舟号航空母舰",
+    "orig": "Aircraft carrier Ark Royal"
+   },
+   "lengthM": 243.8,
+   "beamM": 28.9,
+   "tonnage": 22000,
+   "tonnageKind": "std",
+   "maxKn": 30.75,
+   "pennant": "91",
+   "crew": 1580,
+   "silhouette": "ark_royal"
+  },
+  "track": [],
+  "sources": [
+   "wiki_en_ark_royal",
+   "uboat_net_renown"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "gb.dorsetshire",
+  "side": "GB",
+  "echelon": "ship",
+  "type": "naval",
+  "parent": "gb.admiralty",
+  "name": {
+   "zh": "多塞特郡号",
+   "orig": "HMS Dorsetshire",
+   "short": "Dorsetshire"
+  },
+  "model": "county",
+  "ship": {
+   "kind": "heavy_cruiser",
+   "class": {
+    "zh": "诺福克级重巡洋舰",
+    "orig": "County (Norfolk)-class heavy cruiser"
+   },
+   "lengthM": 192,
+   "beamM": 20.1,
+   "tonnage": 9975,
+   "tonnageKind": "std",
+   "maxKn": 32.3,
+   "pennant": "40",
+   "crew": 710,
+   "silhouette": "county",
+   "weapons": [
+    {
+     "id": "A",
+     "label": "A 炮塔（双联装 8 英寸）",
+     "cal": "8 in BL Mk VIII",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 2,
+     "rangeKm": 26.5,
+     "atPct": 21
+    },
+    {
+     "id": "B",
+     "label": "B 炮塔（双联装 8 英寸）",
+     "cal": "8 in BL Mk VIII",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 2,
+     "rangeKm": 26.5,
+     "atPct": 28
+    },
+    {
+     "id": "X",
+     "label": "X 炮塔（双联装 8 英寸）",
+     "cal": "8 in BL Mk VIII",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 2,
+     "rangeKm": 26.5,
+     "atPct": 74
+    },
+    {
+     "id": "Y",
+     "label": "Y 炮塔（双联装 8 英寸）",
+     "cal": "8 in BL Mk VIII",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 2,
+     "rangeKm": 26.5,
+     "atPct": 82
+    },
+    {
+     "id": "aa",
+     "label": "4 英寸高射炮",
+     "cal": "4 in QF Mk V",
+     "kind": "aa",
+     "mounts": 4,
+     "perMount": 2,
+     "rangeKm": 15,
+     "atPct": 55
+    }
+   ]
+  },
+  "active": {
+   "from": "1939-12-13T00:00"
+  },
+  "track": [],
+  "sources": [
+   "wiki_en_dorsetshire",
+   "nh_kindell_1939_12"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "gb.shropshire",
+  "side": "GB",
+  "echelon": "ship",
+  "type": "naval",
+  "parent": "gb.admiralty",
+  "name": {
+   "zh": "什罗普郡号",
+   "orig": "HMS Shropshire",
+   "short": "Shropshire"
+  },
+  "model": "county",
+  "ship": {
+   "kind": "heavy_cruiser",
+   "class": {
+    "zh": "伦敦级重巡洋舰",
+    "orig": "County (London)-class heavy cruiser"
+   },
+   "lengthM": 192.8,
+   "beamM": 20.1,
+   "tonnage": 9830,
+   "tonnageKind": "std",
+   "maxKn": 32.3,
+   "pennant": "73",
+   "crew": 710,
+   "silhouette": "county",
+   "weapons": [
+    {
+     "id": "A",
+     "label": "A 炮塔（双联装 8 英寸）",
+     "cal": "8 in BL Mk VIII",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 2,
+     "rangeKm": 26.5,
+     "atPct": 21
+    },
+    {
+     "id": "B",
+     "label": "B 炮塔（双联装 8 英寸）",
+     "cal": "8 in BL Mk VIII",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 2,
+     "rangeKm": 26.5,
+     "atPct": 28
+    },
+    {
+     "id": "X",
+     "label": "X 炮塔（双联装 8 英寸）",
+     "cal": "8 in BL Mk VIII",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 2,
+     "rangeKm": 26.5,
+     "atPct": 74
+    },
+    {
+     "id": "Y",
+     "label": "Y 炮塔（双联装 8 英寸）",
+     "cal": "8 in BL Mk VIII",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 2,
+     "rangeKm": 26.5,
+     "atPct": 82
+    },
+    {
+     "id": "aa",
+     "label": "4 英寸高射炮",
+     "cal": "4 in QF Mk V",
+     "kind": "aa",
+     "mounts": 4,
+     "perMount": 2,
+     "rangeKm": 15,
+     "atPct": 55
+    }
+   ]
+  },
+  "active": {
+   "from": "1939-12-15T00:00"
+  },
+  "track": [],
+  "sources": [
+   "wiki_en_shropshire",
+   "nh_kindell_1939_12"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "fr.dupleix",
+  "side": "FR",
+  "echelon": "ship",
+  "type": "naval",
+  "parent": null,
+  "name": {
+   "zh": "迪普莱号（X 舰队）",
+   "orig": "Croiseur lourd Dupleix (Force X)",
+   "short": "Dupleix"
+  },
+  "model": "county",
+  "ship": {
+   "kind": "heavy_cruiser",
+   "class": {
+    "zh": "絮弗伦级重巡洋舰",
+    "orig": "Croiseur lourd classe Suffren"
+   },
+   "lengthM": 194,
+   "beamM": 19.3,
+   "tonnage": 10000,
+   "tonnageKind": "std",
+   "maxKn": 30,
+   "crew": 750,
+   "silhouette": "county"
+  },
+  "active": {
+   "from": "1939-10-12T00:00"
+  },
+  "history": "法国海军以达喀尔为基地的重巡洋舰，与福煦号及英国航母竞技神号组成 X 舰队，在塞内加尔与巴西之间的大西洋狭窄处巡逻搜索袭击舰。",
+  "modelNote": "3D 借用英国郡级重巡洋舰模型示意。",
+  "track": [],
+  "sources": [
+   "roskill_1954",
+   "navweaps_rp"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "gb.mn",
+  "side": "GB",
+  "echelon": "group",
+  "type": "naval",
+  "parent": null,
+  "name": {
+   "zh": "英国商船（被截击）",
+   "orig": "British merchant ships intercepted by Graf Spee",
+   "short": "Merchant Navy"
+  },
+  "display": "container",
+  "history": "施佩伯爵号在 1939 年 9 月 30 日至 12 月 7 日间截击并击沉英国商船九艘，共 50,089 总吨。朗斯多夫按《战利品法规》先让船员离船，无一人死亡；船员先关在袭击舰上，后转往阿尔特马克号。",
+  "track": [],
+  "sources": [
+   "wiki_en_graf_spee",
+   "maritimequest"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "gb.m_clement",
+  "side": "GB",
+  "echelon": "ship",
+  "type": "naval",
+  "parent": "gb.mn",
+  "name": {
+   "zh": "克莱门特号",
+   "orig": "SS Clement (Booth Line)",
+   "short": "Clement"
+  },
+  "commander": {
+   "zh": "船长 F. C. P. Harris",
+   "orig": "Master F. C. P. Harris"
+  },
+  "model": "merchant",
+  "ship": {
+   "kind": "merchant",
+   "class": {
+    "zh": "英国商船",
+    "orig": "British merchant ship"
+   },
+   "lengthM": 115,
+   "beamM": 15,
+   "tonnage": 5051,
+   "tonnageKind": "grt",
+   "maxKn": 12,
+   "silhouette": "merchant"
+  },
+  "active": {
+   "from": "1939-09-30T03:00"
+  },
+  "history": "从伯南布哥驶往巴伊亚的布斯公司货轮，9 月 30 日成为施佩伯爵号的第一个猎物。船员乘救生艇离开，袭击舰随后以「舍尔海军上将号」的名义电告伯南布哥岸台前来救人，让英国人一度以为来的是另一艘袖珍战列舰。",
+  "track": [],
+  "sources": [
+   "wiki_en_clement",
+   "maritimequest"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "gb.m_newton_beech",
+  "side": "GB",
+  "echelon": "ship",
+  "type": "naval",
+  "parent": "gb.mn",
+  "name": {
+   "zh": "牛顿·比奇号",
+   "orig": "SS Newton Beech",
+   "short": "Newton Beech"
+  },
+  "commander": {
+   "zh": "船长 J. Robison",
+   "orig": "Master J. Robison"
+  },
+  "model": "merchant",
+  "ship": {
+   "kind": "merchant",
+   "class": {
+    "zh": "英国商船",
+    "orig": "British merchant ship"
+   },
+   "lengthM": 115,
+   "beamM": 15,
+   "tonnage": 4651,
+   "tonnageKind": "grt",
+   "maxKn": 12,
+   "silhouette": "merchant"
+  },
+  "active": {
+   "from": "1939-10-05T05:00"
+  },
+  "history": "从开普敦驶往弗里敦途中被截，先作为关押俘虏的捕获船随袭击舰航行三天，因航速太慢于 10 月 8 日被凿沉。报务员发出的求救电文被德方以假报文搅乱。",
+  "track": [],
+  "sources": [
+   "maritimequest",
+   "ktb_skl"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "gb.m_ashlea",
+  "side": "GB",
+  "echelon": "ship",
+  "type": "naval",
+  "parent": "gb.mn",
+  "name": {
+   "zh": "阿什利号",
+   "orig": "SS Ashlea",
+   "short": "Ashlea"
+  },
+  "commander": {
+   "zh": "船长 C. Pottinger",
+   "orig": "Master C. Pottinger"
+  },
+  "model": "merchant",
+  "ship": {
+   "kind": "merchant",
+   "class": {
+    "zh": "英国商船",
+    "orig": "British merchant ship"
+   },
+   "lengthM": 115,
+   "beamM": 15,
+   "tonnage": 4222,
+   "tonnageKind": "grt",
+   "maxKn": 12,
+   "silhouette": "merchant"
+  },
+  "active": {
+   "from": "1939-10-07T04:00"
+  },
+  "history": "载糖从德班驶往英国，10 月 7 日被截。船长波廷杰后来成为被俘船长们的代表，12 月 21 日赴布宜诺斯艾利斯参加朗斯多夫的葬礼。",
+  "track": [],
+  "sources": [
+   "maritimequest",
+   "ktb_skl"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "gb.m_huntsman",
+  "side": "GB",
+  "echelon": "ship",
+  "type": "naval",
+  "parent": "gb.mn",
+  "name": {
+   "zh": "猎人号",
+   "orig": "SS Huntsman (Harrison Line)",
+   "short": "Huntsman"
+  },
+  "commander": {
+   "zh": "船长 A. H. Brown",
+   "orig": "Master A. H. Brown"
+  },
+  "model": "merchant",
+  "ship": {
+   "kind": "merchant",
+   "class": {
+    "zh": "英国商船",
+    "orig": "British merchant ship"
+   },
+   "lengthM": 130,
+   "beamM": 17,
+   "tonnage": 8196,
+   "tonnageKind": "grt",
+   "maxKn": 12,
+   "silhouette": "merchant"
+  },
+  "active": {
+   "from": "1939-10-10T04:00"
+  },
+  "history": "哈里森公司货轮，满载茶叶与杂货自加尔各答驶来。被俘后由捕获船员押往大西洋腹地与阿尔特马克号会合，船员与物资转移完毕后于 10 月 17 日被炸沉。",
+  "track": [],
+  "sources": [
+   "maritimequest",
+   "bs26"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "gb.m_trevanion",
+  "side": "GB",
+  "echelon": "ship",
+  "type": "naval",
+  "parent": "gb.mn",
+  "name": {
+   "zh": "特雷瓦尼恩号",
+   "orig": "SS Trevanion",
+   "short": "Trevanion"
+  },
+  "commander": {
+   "zh": "船长 J. N. Edwards",
+   "orig": "Master J. N. Edwards"
+  },
+  "model": "merchant",
+  "ship": {
+   "kind": "merchant",
+   "class": {
+    "zh": "英国商船",
+    "orig": "British merchant ship"
+   },
+   "lengthM": 115,
+   "beamM": 15,
+   "tonnage": 5299,
+   "tonnageKind": "grt",
+   "maxKn": 12,
+   "silhouette": "merchant"
+  },
+  "active": {
+   "from": "1939-10-22T04:00"
+  },
+  "history": "载精矿从澳大利亚驶往弗里敦，被截时报务员坚持发出「RRR」求救信号，被德舰开炮制止。英国人由此第一次确知袭击舰已转到非洲西南海域。",
+  "track": [],
+  "sources": [
+   "ktb_skl",
+   "gazette_34815"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "gb.m_africa_shell",
+  "side": "GB",
+  "echelon": "ship",
+  "type": "naval",
+  "parent": "gb.mn",
+  "name": {
+   "zh": "非洲壳牌号",
+   "orig": "MV Africa Shell",
+   "short": "Africa Shell"
+  },
+  "commander": {
+   "zh": "船长 P. G. G. Dove",
+   "orig": "Master P. G. G. Dove"
+  },
+  "model": "merchant",
+  "ship": {
+   "kind": "tanker",
+   "class": {
+    "zh": "英国小型油轮",
+    "orig": "British merchant ship"
+   },
+   "lengthM": 60,
+   "beamM": 10,
+   "tonnage": 706,
+   "tonnageKind": "grt",
+   "maxKn": 12,
+   "silhouette": "tanker"
+  },
+  "active": {
+   "from": "1939-11-15T04:00"
+  },
+  "history": "一艘小油轮，在莫桑比克扎沃拉角外被截击——就在葡萄牙领海边缘。这是袭击舰在印度洋的唯一战果，意在把英国猎杀群吸引到东非。船长多夫后来与朗斯多夫成了朋友。",
+  "track": [],
+  "sources": [
+   "wiki_en_africa_shell",
+   "wiki_en_dove"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "gb.m_doric_star",
+  "side": "GB",
+  "echelon": "ship",
+  "type": "naval",
+  "parent": "gb.mn",
+  "name": {
+   "zh": "多里克之星号",
+   "orig": "MV Doric Star (Blue Star Line)",
+   "short": "Doric Star"
+  },
+  "commander": {
+   "zh": "船长 W. Stubbs",
+   "orig": "Master W. Stubbs"
+  },
+  "model": "merchant",
+  "ship": {
+   "kind": "merchant",
+   "class": {
+    "zh": "英国商船",
+    "orig": "British merchant ship"
+   },
+   "lengthM": 130,
+   "beamM": 17,
+   "tonnage": 10086,
+   "tonnageKind": "grt",
+   "maxKn": 12,
+   "silhouette": "merchant"
+  },
+  "active": {
+   "from": "1939-12-02T05:00"
+  },
+  "history": "蓝星公司冷藏船，载冻肉、羊毛与奶制品自新西兰回国。报务员冒着炮火发出「RRR」与位置，被南大西洋司令部收到——这份电报让哈伍德判断袭击舰下一步会去拉普拉塔河口。",
+  "track": [],
+  "sources": [
+   "wiki_en_doric_star",
+   "harwood_despatch"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "gb.m_tairoa",
+  "side": "GB",
+  "echelon": "ship",
+  "type": "naval",
+  "parent": "gb.mn",
+  "name": {
+   "zh": "泰罗阿号",
+   "orig": "SS Tairoa (Shaw Savill)",
+   "short": "Tairoa"
+  },
+  "commander": {
+   "zh": "船长 W. B. S. Starr",
+   "orig": "Master W. B. S. Starr"
+  },
+  "model": "merchant",
+  "ship": {
+   "kind": "merchant",
+   "class": {
+    "zh": "英国商船",
+    "orig": "British merchant ship"
+   },
+   "lengthM": 130,
+   "beamM": 17,
+   "tonnage": 7983,
+   "tonnageKind": "grt",
+   "maxKn": 12,
+   "silhouette": "merchant"
+  },
+  "active": {
+   "from": "1939-12-02T20:00"
+  },
+  "history": "多里克之星号被击沉的第二天清晨被截，报务员同样发出了求救信号，德舰开炮打掉电台，三名船员受伤——这是袭击航程中唯一的人员受伤。",
+  "track": [],
+  "sources": [
+   "wiki_en_tairoa",
+   "naval_history_net"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "gb.m_streonshalh",
+  "side": "GB",
+  "echelon": "ship",
+  "type": "naval",
+  "parent": "gb.mn",
+  "name": {
+   "zh": "斯特雷翁沙尔号",
+   "orig": "SS Streonshalh",
+   "short": "Streonshalh"
+  },
+  "commander": {
+   "zh": "船长 J. Robinson",
+   "orig": "Master J. Robinson"
+  },
+  "model": "merchant",
+  "ship": {
+   "kind": "merchant",
+   "class": {
+    "zh": "英国商船",
+    "orig": "British merchant ship"
+   },
+   "lengthM": 115,
+   "beamM": 15,
+   "tonnage": 3895,
+   "tonnageKind": "grt",
+   "maxKn": 12,
+   "silhouette": "merchant"
+  },
+  "active": {
+   "from": "1939-12-07T07:00"
+  },
+  "history": "载小麦从蒙得维的亚驶往弗里敦，是施佩伯爵号的最后一个猎物。德方从船上缴获的文件里得知拉普拉塔河口的商船往来，以及坎伯兰号新涂装的照片，坚定了朗斯多夫前往河口的决心。",
+  "track": [],
+  "sources": [
+   "maritimequest",
+   "wiki_en_graf_spee"
+  ],
+  "confidence": "medium"
+ }
+]

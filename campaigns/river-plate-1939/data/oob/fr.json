@@ -1,0 +1,86 @@
+[
+ {
+  "id": "fr.dupleix",
+  "side": "FR",
+  "echelon": "ship",
+  "type": "naval",
+  "parent": null,
+  "name": {
+   "zh": "迪普莱号（X 舰队）",
+   "orig": "Croiseur lourd Dupleix (Force X)",
+   "short": "Dupleix"
+  },
+  "model": "county",
+  "ship": {
+   "kind": "heavy_cruiser",
+   "class": {
+    "zh": "絮弗伦级重巡洋舰",
+    "orig": "Croiseur lourd classe Suffren"
+   },
+   "lengthM": 194,
+   "beamM": 19.3,
+   "tonnage": 10000,
+   "tonnageKind": "std",
+   "maxKn": 30,
+   "crew": 750,
+   "silhouette": "county"
+  },
+  "active": {
+   "from": "1939-10-12T00:00"
+  },
+  "history": "法国海军以达喀尔为基地的重巡洋舰，与福煦号及英国航母竞技神号组成 X 舰队，在塞内加尔与巴西之间的大西洋狭窄处巡逻搜索袭击舰。",
+  "modelNote": "3D 借用英国郡级重巡洋舰模型示意。",
+  "track": [
+   {
+    "at": "1939-10-12T00:00",
+    "pos": [
+     -17.5,
+     14.6
+    ],
+    "note": "X 猎杀群驻达喀尔（位置示意）",
+    "status": "active"
+   },
+   {
+    "at": "1939-10-25T00:00",
+    "pos": [
+     -27.0,
+     1.0
+    ],
+    "note": "巡逻非洲—巴西狭窄处"
+   },
+   {
+    "at": "1939-11-10T00:00",
+    "pos": [
+     -17.6,
+     14.5
+    ]
+   },
+   {
+    "at": "1939-11-28T00:00",
+    "pos": [
+     -24.0,
+     -2.0
+    ]
+   },
+   {
+    "at": "1939-12-12T00:00",
+    "pos": [
+     -17.6,
+     14.55
+    ]
+   },
+   {
+    "at": "1939-12-21T18:00",
+    "pos": [
+     -22.0,
+     6.0
+    ]
+   }
+  ],
+  "sources": [
+   "roskill_1954",
+   "navweaps_rp"
+  ],
+  "confidence": "low"
+ }
+]

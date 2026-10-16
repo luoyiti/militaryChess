@@ -1,0 +1,1201 @@
+{
+ "fire": [
+  {
+   "id": "f.gs_a_ex",
+   "shooter": "de.graf_spee",
+   "target": "gb.exeter",
+   "weapon": "A",
+   "from": "1939-12-13T06:18",
+   "to": "1939-12-13T06:41",
+   "note": "首次齐射落在埃克塞特号前方约 300 码，第三次齐射夹叉",
+   "sources": [
+    "harwood_despatch",
+    "waters_1956",
+    "kaack_2010"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "f.gs_b_aj",
+   "shooter": "de.graf_spee",
+   "target": "gb.ajax",
+   "weapon": "B",
+   "from": "1939-12-13T06:18",
+   "to": "1939-12-13T06:22",
+   "note": "开战时后炮塔射向第一分队",
+   "sources": [
+    "harwood_despatch"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "f.gs_b_ex",
+   "shooter": "de.graf_spee",
+   "target": "gb.exeter",
+   "weapon": "B",
+   "from": "1939-12-13T06:22",
+   "to": "1939-12-13T06:30",
+   "note": "两座炮塔集中射击埃克塞特号",
+   "sources": [
+    "harwood_despatch",
+    "admiralty_1940"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "f.gs_b_fd",
+   "shooter": "de.graf_spee",
+   "target": "gb.ajax",
+   "weapon": "B",
+   "from": "1939-12-13T06:30",
+   "to": "1939-12-13T06:56",
+   "note": "一座 28 厘米炮塔转向第一分队，阿贾克斯号三次被夹叉",
+   "sources": [
+    "harwood_despatch",
+    "admiralty_1940"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "f.gs_sec_fd",
+   "shooter": "de.graf_spee",
+   "target": "nz.achilles",
+   "weapon": "sec",
+   "from": "1939-12-13T06:30",
+   "to": "1939-12-13T06:58",
+   "note": "15 厘米副炮交替射击两艘轻巡洋舰，散布大、无效",
+   "sources": [
+    "harwood_despatch"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "f.gs_a_ex2",
+   "shooter": "de.graf_spee",
+   "target": "gb.exeter",
+   "weapon": "A",
+   "from": "1939-12-13T06:45",
+   "to": "1939-12-13T07:00",
+   "note": "在烟幕间隙继续追打转向西行的埃克塞特号，落点偏远",
+   "sources": [
+    "harwood_despatch",
+    "atwill_1977"
+   ],
+   "confidence": "low"
+  },
+  {
+   "id": "f.gs_b_fd2",
+   "shooter": "de.graf_spee",
+   "target": "nz.achilles",
+   "weapon": "B",
+   "from": "1939-12-13T07:00",
+   "to": "1939-12-13T07:16",
+   "sources": [
+    "harwood_despatch"
+   ],
+   "confidence": "low"
+  },
+  {
+   "id": "f.gs_a_ex3",
+   "shooter": "de.graf_spee",
+   "target": "gb.exeter",
+   "weapon": "A",
+   "from": "1939-12-13T07:16",
+   "to": "1939-12-13T07:20",
+   "note": "在烟幕下急转，一度直指受创的埃克塞特号",
+   "sources": [
+    "harwood_despatch"
+   ],
+   "confidence": "low"
+  },
+  {
+   "id": "f.gs_ab_aj",
+   "shooter": "de.graf_spee",
+   "target": "gb.ajax",
+   "weapon": "A",
+   "from": "1939-12-13T07:20",
+   "to": "1939-12-13T07:40",
+   "note": "打开全部射界，28 厘米炮集中射击第一分队；阿贾克斯号在 11,000 码被夹叉",
+   "sources": [
+    "harwood_despatch"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "f.gs_b_aj2",
+   "shooter": "de.graf_spee",
+   "target": "gb.ajax",
+   "weapon": "B",
+   "from": "1939-12-13T07:20",
+   "to": "1939-12-13T07:40",
+   "sources": [
+    "harwood_despatch"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "f.gs_sec_fd2",
+   "shooter": "de.graf_spee",
+   "target": "nz.achilles",
+   "weapon": "sec",
+   "from": "1939-12-13T07:20",
+   "to": "1939-12-13T07:40",
+   "note": "副炮射击散乱偏高",
+   "sources": [
+    "harwood_despatch"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "f.ex_a",
+   "shooter": "gb.exeter",
+   "target": "de.graf_spee",
+   "weapon": "A",
+   "from": "1939-12-13T06:20",
+   "to": "1939-12-13T06:38",
+   "note": "18,700 码开火，发射 8 次齐射后 B 炮塔被毁",
+   "sources": [
+    "harwood_despatch",
+    "waters_1956"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "f.ex_b",
+   "shooter": "gb.exeter",
+   "target": "de.graf_spee",
+   "weapon": "B",
+   "from": "1939-12-13T06:20",
+   "to": "1939-12-13T06:24",
+   "sources": [
+    "harwood_despatch"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "f.ex_y",
+   "shooter": "gb.exeter",
+   "target": "de.graf_spee",
+   "weapon": "Y",
+   "from": "1939-12-13T06:22",
+   "to": "1939-12-13T07:29",
+   "note": "Y 炮塔局部控制射击，直到进水断电",
+   "sources": [
+    "harwood_despatch",
+    "admiralty_1940",
+    "atwill_1977"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "f.ac_main",
+   "shooter": "nz.achilles",
+   "target": "de.graf_spee",
+   "weapon": "A",
+   "from": "1939-12-13T06:21",
+   "to": "1939-12-13T07:40",
+   "note": "全战超过 200 次齐射；06:46 射击控制电台失灵后改为独立射击",
+   "sources": [
+    "harwood_despatch",
+    "waters_1956",
+    "nzhistory_battle"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "f.ac_b",
+   "shooter": "nz.achilles",
+   "target": "de.graf_spee",
+   "weapon": "B",
+   "from": "1939-12-13T06:21",
+   "to": "1939-12-13T07:40",
+   "sources": [
+    "harwood_despatch",
+    "waters_1956"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "f.ac_x",
+   "shooter": "nz.achilles",
+   "target": "de.graf_spee",
+   "weapon": "X",
+   "from": "1939-12-13T06:21",
+   "to": "1939-12-13T07:40",
+   "note": "X 炮塔一门炮全战打出 287 发",
+   "sources": [
+    "harwood_despatch",
+    "waters_1956"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "f.ac_y",
+   "shooter": "nz.achilles",
+   "target": "de.graf_spee",
+   "weapon": "Y",
+   "from": "1939-12-13T06:21",
+   "to": "1939-12-13T07:40",
+   "sources": [
+    "harwood_despatch",
+    "waters_1956"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "f.aj_a",
+   "shooter": "gb.ajax",
+   "target": "de.graf_spee",
+   "weapon": "A",
+   "from": "1939-12-13T06:23",
+   "to": "1939-12-13T07:40",
+   "note": "A 炮塔连续射击 81 分钟",
+   "sources": [
+    "harwood_despatch",
+    "waters_1956"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "f.aj_b",
+   "shooter": "gb.ajax",
+   "target": "de.graf_spee",
+   "weapon": "B",
+   "from": "1939-12-13T06:23",
+   "to": "1939-12-13T07:40",
+   "sources": [
+    "harwood_despatch"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "f.aj_x",
+   "shooter": "gb.ajax",
+   "target": "de.graf_spee",
+   "weapon": "X",
+   "from": "1939-12-13T06:23",
+   "to": "1939-12-13T07:25",
+   "note": "06:37 弹射飞机时 X、Y 炮塔正向前方射击",
+   "sources": [
+    "harwood_despatch"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "f.aj_y",
+   "shooter": "gb.ajax",
+   "target": "de.graf_spee",
+   "weapon": "Y",
+   "from": "1939-12-13T06:23",
+   "to": "1939-12-13T07:25",
+   "sources": [
+    "harwood_despatch"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "f.gs_a_ac_1005",
+   "shooter": "de.graf_spee",
+   "target": "nz.achilles",
+   "weapon": "A",
+   "from": "1939-12-13T10:05",
+   "to": "1939-12-13T10:07",
+   "rounds": 6,
+   "note": "阿喀琉斯号追得太近（23,000 码），施佩伯爵号以前炮塔两次三发齐射",
+   "sources": [
+    "harwood_despatch",
+    "waters_1956"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "f.gs_b_aj_1915",
+   "shooter": "de.graf_spee",
+   "target": "gb.ajax",
+   "weapon": "B",
+   "from": "1939-12-13T19:15",
+   "to": "1939-12-13T19:17",
+   "rounds": 6,
+   "note": "约 26,000 码两次齐射，第二次落在阿贾克斯号转向的尾迹里",
+   "sources": [
+    "harwood_despatch",
+    "admiralty_1940"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "f.gs_b_ac_2055",
+   "shooter": "de.graf_spee",
+   "target": "nz.achilles",
+   "weapon": "B",
+   "from": "1939-12-13T20:55",
+   "to": "1939-12-13T20:59",
+   "rounds": 9,
+   "note": "日落后对着西天剪影射击，第三次齐射很近",
+   "sources": [
+    "harwood_despatch",
+    "waters_1956"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "f.ac_a_2055",
+   "shooter": "nz.achilles",
+   "target": "de.graf_spee",
+   "weapon": "A",
+   "from": "1939-12-13T20:56",
+   "to": "1939-12-13T21:00",
+   "note": "还击 5 次齐射后在烟幕中转开",
+   "sources": [
+    "harwood_despatch",
+    "waters_1956"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "f.gs_b_ac_2132",
+   "shooter": "de.graf_spee",
+   "target": "nz.achilles",
+   "weapon": "B",
+   "from": "1939-12-13T21:32",
+   "to": "1939-12-13T21:44",
+   "rounds": 9,
+   "note": "21:32、21:40、21:43 三次单发齐射，阿喀琉斯号不还击以免暴露",
+   "sources": [
+    "harwood_despatch",
+    "admiralty_1940"
+   ],
+   "confidence": "medium"
+  }
+ ],
+ "hits": [
+  {
+   "id": "h.ex_near",
+   "at": "1939-12-13T06:23",
+   "shooter": "de.graf_spee",
+   "target": "gb.exeter",
+   "weapon": "A",
+   "location": "右舷舰中部（近失弹）",
+   "effect": "28 厘米弹在右舷近失爆炸，弹片杀死右舷鱼雷发射管全组，打坏通信、烟囱与探照灯；两架「海象」水上飞机被弹片击毁，随后推下海",
+   "severity": 2,
+   "sources": [
+    "harwood_despatch",
+    "atwill_1977"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "h.ex_b",
+   "at": "1939-12-13T06:24",
+   "shooter": "de.graf_spee",
+   "target": "gb.exeter",
+   "weapon": "A",
+   "location": "B 炮塔正面",
+   "effect": "B 炮塔被直接命中，两门 8 英寸炮报废，塔内约八人阵亡；弹片扫过舰桥，除舰长与另两人外全部死伤，舵轮室通信被毁",
+   "severity": 1,
+   "gunsOut": [
+    "B"
+   ],
+   "sources": [
+    "harwood_despatch",
+    "atwill_1977"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "h.ex_fwd",
+   "at": "1939-12-13T06:27",
+   "shooter": "de.graf_spee",
+   "target": "gb.exeter",
+   "weapon": "A",
+   "location": "艏楼与锚链舱",
+   "effect": "两发 28 厘米弹命中舰艏，锚与前甲板炸裂、起火，艏部多舱进水",
+   "severity": 2,
+   "sources": [
+    "atwill_1977",
+    "harwood_despatch"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "h.gs_8in",
+   "at": "1939-12-13T06:28",
+   "shooter": "gb.exeter",
+   "target": "de.graf_spee",
+   "weapon": "A",
+   "location": "舰体中部（装甲甲板）",
+   "effect": "一发 8 英寸弹穿过上层建筑与甲板，在机舱上方爆炸，打坏燃油与润滑油净化设备——施佩伯爵号从此无法长途返航",
+   "severity": 2,
+   "precision": "approx",
+   "sources": [
+    "kaack_2010",
+    "waters_1956"
+   ],
+   "confidence": "low"
+  },
+  {
+   "id": "h.ex_a",
+   "at": "1939-12-13T06:38",
+   "shooter": "de.graf_spee",
+   "target": "gb.exeter",
+   "weapon": "A",
+   "location": "A 炮塔正面装甲",
+   "effect": "A 炮塔被击中报废",
+   "severity": 1,
+   "gunsOut": [
+    "A"
+   ],
+   "sources": [
+    "harwood_despatch"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "h.ex_cpo",
+   "at": "1939-12-13T06:38",
+   "shooter": "de.graf_spee",
+   "target": "gb.exeter",
+   "weapon": "A",
+   "location": "左舷上甲板 → 士官舱平台",
+   "effect": "一发 28 厘米弹从左舷上甲板入舰，穿过两道舱壁在士官舱平台爆炸，引起大火；4 英寸弹药库因水管破裂进水；罗经复示器全毁，舰长改用小艇罗经操舰",
+   "severity": 1,
+   "killed": 20,
+   "sources": [
+    "harwood_despatch",
+    "atwill_1977"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "h.ex_wt",
+   "at": "1939-12-13T06:39",
+   "shooter": "de.graf_spee",
+   "target": "gb.exeter",
+   "location": "电报室与右舷 1 号 4 英寸炮",
+   "effect": "一发 28 厘米弹穿过军械室与电报室（5 名电报员阵亡），在右舷 1 号 4 英寸炮炮管上爆炸，引燃备用弹药；见习军官卡梅伦等人把发烫的炮弹扔下海",
+   "severity": 2,
+   "killed": 5,
+   "sources": [
+    "atwill_1977",
+    "nh_kindell_casualties"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "h.gs_6in_bow",
+   "at": "1939-12-13T06:40",
+   "shooter": "nz.achilles",
+   "target": "de.graf_spee",
+   "weapon": "A",
+   "location": "舰艏（水线以上）",
+   "effect": "6 英寸弹在舰艏打出约 6×6 英尺的大洞；朗斯多夫被弹片擦伤，随后被气浪掀倒，昏迷数分钟",
+   "severity": 2,
+   "precision": "approx",
+   "sources": [
+    "waters_1956",
+    "kaack_2010",
+    "avalanche_werbaneth"
+   ],
+   "confidence": "low"
+  },
+  {
+   "id": "h.ac_dct",
+   "at": "1939-12-13T06:40",
+   "shooter": "de.graf_spee",
+   "target": "nz.achilles",
+   "weapon": "A",
+   "location": "舰桥正横的海面（近失弹）",
+   "effect": "28 厘米弹在舰桥正横水面炸开，弹片射入射击指挥塔：4 人阵亡、3 人重伤，炮术长沃什伯恩被震晕，帕里舰长腿部受伤",
+   "severity": 3,
+   "killed": 4,
+   "wounded": 9,
+   "sources": [
+    "harwood_despatch",
+    "waters_1956",
+    "nzhistory_battle"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "h.gs_8in_2",
+   "at": "1939-12-13T06:45",
+   "shooter": "gb.exeter",
+   "target": "de.graf_spee",
+   "weapon": "Y",
+   "location": "前桅塔",
+   "effect": "第二发 8 英寸弹命中塔式舰桥上部（德方自计全战被 8 英寸弹命中 2 发）",
+   "severity": 3,
+   "precision": "approx",
+   "sources": [
+    "waters_1956"
+   ],
+   "confidence": "low"
+  },
+  {
+   "id": "h.gs_6in_galley",
+   "at": "1939-12-13T07:10",
+   "shooter": "gb.ajax",
+   "target": "de.graf_spee",
+   "weapon": "A",
+   "location": "上层建筑与厨房",
+   "effect": "6 英寸弹打毁除司令厨房外的全部厨房，面粉与给养舱进水，淡水设备损坏",
+   "severity": 3,
+   "precision": "approx",
+   "sources": [
+    "waters_1956",
+    "kaack_2010"
+   ],
+   "confidence": "low"
+  },
+  {
+   "id": "h.gs_fire",
+   "at": "1939-12-13T07:20",
+   "shooter": "gb.ajax",
+   "target": "de.graf_spee",
+   "weapon": "B",
+   "location": "舰中部",
+   "effect": "舰中部起火（哈伍德观察到）；德方统计全战被 6 英寸弹命中 18 发",
+   "severity": 2,
+   "sources": [
+    "harwood_despatch",
+    "waters_1956"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "h.gs_6in_rf",
+   "at": "1939-12-13T07:32",
+   "shooter": "nz.achilles",
+   "target": "de.graf_spee",
+   "weapon": "A",
+   "location": "主炮测距仪与副炮",
+   "effect": "一座主炮测距仪与两门 15 厘米副炮被打坏",
+   "severity": 3,
+   "precision": "approx",
+   "sources": [
+    "waters_1956"
+   ],
+   "confidence": "low"
+  },
+  {
+   "id": "h.aj_xy",
+   "at": "1939-12-13T07:25",
+   "shooter": "de.graf_spee",
+   "target": "gb.ajax",
+   "weapon": "B",
+   "location": "后上层建筑 → X 炮塔座圈",
+   "effect": "一发延期引信 28 厘米弹从后上层建筑入舰，穿过数间舱室与 X 炮塔座圈，在准将卧舱爆炸；弹底碎片卡死 Y 炮塔的回转齿条，X、Y 炮塔同时报废；X 塔 4 人阵亡、6 人受伤",
+   "severity": 2,
+   "gunsOut": [
+    "X",
+    "Y"
+   ],
+   "killed": 4,
+   "wounded": 6,
+   "sources": [
+    "harwood_despatch"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "h.aj_mast",
+   "at": "1939-12-13T07:40",
+   "shooter": "de.graf_spee",
+   "target": "gb.ajax",
+   "weapon": "A",
+   "location": "主桅",
+   "effect": "最后一次齐射打断主桅，天线被毁，数人受伤",
+   "severity": 3,
+   "sources": [
+    "harwood_despatch"
+   ],
+   "confidence": "high"
+  }
+ ],
+ "torpedoes": [
+  {
+   "id": "t.ex_stbd",
+   "at": "1939-12-13T06:32",
+   "shooter": "gb.exeter",
+   "count": 3,
+   "target": "de.graf_spee",
+   "spreadDeg": 6,
+   "result": "施佩伯爵号随即左转 150° 并施放烟幕，鱼雷落空",
+   "sources": [
+    "harwood_despatch",
+    "admiralty_1940"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "t.ex_port",
+   "at": "1939-12-13T06:43",
+   "shooter": "gb.exeter",
+   "count": 3,
+   "target": "de.graf_spee",
+   "spreadDeg": 6,
+   "result": "在大角度右转后由左舷发射，未命中",
+   "sources": [
+    "harwood_despatch",
+    "admiralty_1940"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "t.gs_aj",
+   "at": "1939-12-13T07:22",
+   "shooter": "de.graf_spee",
+   "count": 1,
+   "target": "gb.ajax",
+   "speedKn": 30,
+   "result": "德方记述：鱼雷齐射时本舰正急左转，只有一条离管；07:31 海狐号报告「鱼雷来袭」，哈伍德转向正南规避",
+   "sources": [
+    "waters_1956",
+    "harwood_despatch"
+   ],
+   "confidence": "low"
+  },
+  {
+   "id": "t.aj_port",
+   "at": "1939-12-13T07:24",
+   "shooter": "gb.ajax",
+   "count": 4,
+   "target": "de.graf_spee",
+   "spreadDeg": 5,
+   "result": "9,000 码由左舷发射；施佩伯爵号立即左转约 130° 并施放烟幕，三分钟后才恢复西北航向",
+   "sources": [
+    "harwood_despatch",
+    "admiralty_1940"
+   ],
+   "confidence": "high"
+  }
+ ],
+ "smoke": [
+  {
+   "id": "s.gs_0634",
+   "ship": "de.graf_spee",
+   "from": "1939-12-13T06:34",
+   "to": "1939-12-13T06:41",
+   "kind": "screen",
+   "widthKm": 0.8,
+   "persistMin": 20,
+   "driftDeg": 315,
+   "note": "躲避埃克塞特号鱼雷时向左转向，在烟幕下转向西北",
+   "sources": [
+    "admiralty_1940",
+    "usni_cambareri_1983"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "s.gs_0700",
+   "ship": "de.graf_spee",
+   "from": "1939-12-13T07:00",
+   "to": "1939-12-13T07:20",
+   "kind": "screen",
+   "widthKm": 1.0,
+   "persistMin": 30,
+   "driftDeg": 315,
+   "note": "大量施放烟幕（化学发烟器与烟雾浮标），频繁变向",
+   "sources": [
+    "harwood_despatch"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "s.gs_0724",
+   "ship": "de.graf_spee",
+   "from": "1939-12-13T07:24",
+   "to": "1939-12-13T07:30",
+   "kind": "screen",
+   "widthKm": 0.8,
+   "persistMin": 20,
+   "driftDeg": 315,
+   "note": "规避阿贾克斯号的鱼雷",
+   "sources": [
+    "harwood_despatch",
+    "admiralty_1940"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "s.gs_0732",
+   "ship": "de.graf_spee",
+   "from": "1939-12-13T07:32",
+   "to": "1939-12-13T07:40",
+   "kind": "screen",
+   "widthKm": 0.8,
+   "persistMin": 25,
+   "driftDeg": 315,
+   "note": "转向西南，之字航行并施放烟幕",
+   "sources": [
+    "harwood_despatch"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "s.aj_0740",
+   "ship": "gb.ajax",
+   "from": "1939-12-13T07:40",
+   "to": "1939-12-13T07:46",
+   "kind": "screen",
+   "widthKm": 0.8,
+   "persistMin": 25,
+   "driftDeg": 315,
+   "note": "第一分队在烟幕掩护下转向东脱离",
+   "sources": [
+    "harwood_despatch"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "s.ac_0740",
+   "ship": "nz.achilles",
+   "from": "1939-12-13T07:40",
+   "to": "1939-12-13T07:46",
+   "kind": "screen",
+   "widthKm": 0.8,
+   "persistMin": 25,
+   "driftDeg": 315,
+   "sources": [
+    "harwood_despatch"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "s.ac_1005",
+   "ship": "nz.achilles",
+   "from": "1939-12-13T10:06",
+   "to": "1939-12-13T10:12",
+   "kind": "screen",
+   "widthKm": 0.8,
+   "persistMin": 20,
+   "driftDeg": 315,
+   "note": "被齐射后在烟幕下全速转开",
+   "sources": [
+    "harwood_despatch",
+    "waters_1956"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "s.aj_1915",
+   "ship": "gb.ajax",
+   "from": "1939-12-13T19:15",
+   "to": "1939-12-13T19:20",
+   "kind": "screen",
+   "widthKm": 0.8,
+   "persistMin": 20,
+   "driftDeg": 315,
+   "sources": [
+    "harwood_despatch"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "s.ac_2056",
+   "ship": "nz.achilles",
+   "from": "1939-12-13T20:56",
+   "to": "1939-12-13T21:02",
+   "kind": "screen",
+   "widthKm": 0.8,
+   "persistMin": 25,
+   "driftDeg": 315,
+   "sources": [
+    "harwood_despatch",
+    "waters_1956"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "s.gs_2126",
+   "ship": "de.graf_spee",
+   "from": "1939-12-13T21:26",
+   "to": "1939-12-13T21:34",
+   "kind": "screen",
+   "widthKm": 0.8,
+   "persistMin": 30,
+   "driftDeg": 315,
+   "sources": [
+    "harwood_despatch",
+    "admiralty_1940"
+   ],
+   "confidence": "medium"
+  }
+ ],
+ "damage": [
+  {
+   "ship": "gb.exeter",
+   "at": "1939-12-13T06:24",
+   "integrity": 0.75,
+   "gunsOut": [
+    "B"
+   ],
+   "note": "B 炮塔被毁，舰桥人员几乎全部死伤，改由后部指挥位操舰",
+   "sources": [
+    "harwood_despatch"
+   ]
+  },
+  {
+   "ship": "gb.exeter",
+   "at": "1939-12-13T06:27",
+   "integrity": 0.65,
+   "gunsOut": [
+    "B"
+   ],
+   "fire": true,
+   "note": "舰艏中弹起火，艏部进水",
+   "sources": [
+    "atwill_1977"
+   ]
+  },
+  {
+   "ship": "gb.exeter",
+   "at": "1939-12-13T06:38",
+   "integrity": 0.45,
+   "gunsOut": [
+    "A",
+    "B"
+   ],
+   "fire": true,
+   "listDeg": 5,
+   "note": "A 炮塔被毁；士官舱平台大火，4 英寸弹药库进水，罗经全毁",
+   "sources": [
+    "harwood_despatch",
+    "atwill_1977"
+   ]
+  },
+  {
+   "ship": "gb.exeter",
+   "at": "1939-12-13T06:50",
+   "integrity": 0.4,
+   "gunsOut": [
+    "A",
+    "B"
+   ],
+   "fire": true,
+   "listDeg": 7,
+   "speedKn": 28,
+   "note": "右倾约 7°，艏沉，仅 Y 炮塔局部控制射击",
+   "sources": [
+    "harwood_despatch"
+   ]
+  },
+  {
+   "ship": "gb.exeter",
+   "at": "1939-12-13T07:00",
+   "integrity": 0.35,
+   "gunsOut": [
+    "A",
+    "B"
+   ],
+   "fire": true,
+   "listDeg": 8,
+   "speedKn": 24,
+   "note": "只剩 Y 炮塔与 1 门 4 英寸炮能射击；电话全断，艏沉约 4 英尺，右倾约 8°",
+   "sources": [
+    "atwill_1977"
+   ]
+  },
+  {
+   "ship": "gb.exeter",
+   "at": "1939-12-13T07:30",
+   "integrity": 0.3,
+   "gunsOut": [
+    "A",
+    "B",
+    "Y"
+   ],
+   "fire": true,
+   "listDeg": 8,
+   "speedKn": 20,
+   "note": "Y 炮塔进水断电，全部主炮失效，退出战斗",
+   "sources": [
+    "harwood_despatch",
+    "atwill_1977"
+   ]
+  },
+  {
+   "ship": "gb.exeter",
+   "at": "1939-12-13T11:05",
+   "integrity": 0.35,
+   "gunsOut": [
+    "A",
+    "B",
+    "Y"
+   ],
+   "listDeg": 6,
+   "speedKn": 18,
+   "note": "火势控制；艏部淹至 14 号隔舱壁，可以 18 节航行。奉命前往福克兰群岛",
+   "sources": [
+    "harwood_despatch"
+   ]
+  },
+  {
+   "ship": "nz.achilles",
+   "at": "1939-12-13T06:40",
+   "integrity": 0.92,
+   "note": "射击指挥塔被弹片击中，4 人阵亡；数分钟后恢复",
+   "sources": [
+    "harwood_despatch",
+    "waters_1956"
+   ]
+  },
+  {
+   "ship": "gb.ajax",
+   "at": "1939-12-13T07:25",
+   "integrity": 0.75,
+   "gunsOut": [
+    "X",
+    "Y"
+   ],
+   "note": "X、Y 炮塔被毁，剩 A、B 两座炮塔",
+   "sources": [
+    "harwood_despatch"
+   ]
+  },
+  {
+   "ship": "gb.ajax",
+   "at": "1939-12-13T07:40",
+   "integrity": 0.7,
+   "gunsOut": [
+    "X",
+    "Y"
+   ],
+   "note": "主桅被打断，天线损毁；传来弹药只剩 20% 的报告（后证实只限 A 炮塔）",
+   "sources": [
+    "harwood_despatch"
+   ]
+  },
+  {
+   "ship": "de.graf_spee",
+   "at": "1939-12-13T06:28",
+   "integrity": 0.9,
+   "note": "燃油与润滑油净化设备被 8 英寸弹打坏",
+   "sources": [
+    "kaack_2010",
+    "waters_1956"
+   ]
+  },
+  {
+   "ship": "de.graf_spee",
+   "at": "1939-12-13T06:40",
+   "integrity": 0.85,
+   "note": "舰艏中弹开洞；朗斯多夫两次负伤",
+   "sources": [
+    "waters_1956",
+    "kaack_2010"
+   ]
+  },
+  {
+   "ship": "de.graf_spee",
+   "at": "1939-12-13T07:20",
+   "integrity": 0.75,
+   "fire": true,
+   "note": "舰中部起火；厨房与给养舱被毁",
+   "sources": [
+    "harwood_despatch",
+    "waters_1956"
+   ]
+  },
+  {
+   "ship": "de.graf_spee",
+   "at": "1939-12-13T07:40",
+   "integrity": 0.7,
+   "fire": true,
+   "speedKn": 23,
+   "note": "全战被命中约 20 发（8 英寸 2 发、6 英寸 18 发），阵亡 36 人、伤 60 人；28 厘米弹只剩约 40%（306 发）",
+   "sources": [
+    "waters_1956",
+    "kaack_2010"
+   ]
+  },
+  {
+   "ship": "de.graf_spee",
+   "at": "1939-12-13T09:00",
+   "integrity": 0.72,
+   "speedKn": 23,
+   "note": "火已扑灭；朗斯多夫巡视全舰后决定驶往蒙得维的亚修理",
+   "sources": [
+    "kaack_2010"
+   ]
+  }
+ ],
+ "signals": [
+  {
+   "id": "sig.harwood_policy",
+   "at": "1939-12-12T12:00",
+   "from": "gb.ajax",
+   "kind": "order",
+   "text": "My policy with three cruisers in company versus one pocket battleship. Attack at once by day or night.",
+   "zh": "我对付一艘袖珍战列舰的方针：三舰同行，无论昼夜，立即进攻。白天分作两队，第一分队与埃克塞特号分开，以便侧向校正弹着。",
+   "sources": [
+    "harwood_despatch"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "sig.ajax_smoke",
+   "at": "1939-12-13T06:14",
+   "from": "gb.ajax",
+   "kind": "report",
+   "text": "[Smoke bearing 320 — Exeter to close and investigate]",
+   "zh": "左舷正横后方 320° 发现烟迹，命令埃克塞特号前出查看。",
+   "sources": [
+    "harwood_despatch",
+    "admiralty_1940"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "sig.exeter_pb",
+   "at": "1939-12-13T06:16",
+   "from": "gb.exeter",
+   "to": "gb.ajax",
+   "kind": "signal",
+   "text": "I think it is a pocket battleship.",
+   "zh": "我认为那是一艘袖珍战列舰。",
+   "sources": [
+    "harwood_despatch"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "sig.ajax_enemy",
+   "at": "1939-12-13T06:34",
+   "from": "gb.ajax",
+   "kind": "report",
+   "text": "[Enemy report: one pocket battleship, position, course and speed — amplified 0640, 0646, 0722]",
+   "zh": "向海军部与南大西洋各舰发出敌情报告：一艘袖珍战列舰，位置、航向、航速；06:40、06:46、07:22 补报。",
+   "sources": [
+    "harwood_despatch"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "sig.seafox_exeter",
+   "at": "1939-12-13T06:40",
+   "from": "gb.seafox",
+   "kind": "report",
+   "text": "Exeter completely disappeared in smoke and flame … emerged and re-entered the action.",
+   "zh": "海狐号观察员：埃克塞特号完全淹没在烟与火里……又冲了出来，重新加入战斗。",
+   "sources": [
+    "admiralty_1940"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "sig.seafox_torp",
+   "at": "1939-12-13T07:31",
+   "from": "gb.seafox",
+   "to": "gb.ajax",
+   "kind": "report",
+   "text": "Torpedoes approaching. They will pass ahead of you.",
+   "zh": "鱼雷来袭，将从你舰前方通过。",
+   "sources": [
+    "harwood_despatch"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "sig.harwood_break",
+   "at": "1939-12-13T07:40",
+   "from": "gb.ajax",
+   "kind": "order",
+   "text": "[Break off the day action; shadow from astern — Achilles on the starboard quarter, Ajax on the port quarter]",
+   "zh": "停止白昼战斗，转入尾随：阿喀琉斯号在敌右后方，阿贾克斯号在左后方，保持约 15 海里。",
+   "sources": [
+    "harwood_despatch"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "sig.achilles_bcast",
+   "at": "1939-12-13T08:07",
+   "from": "nz.achilles",
+   "kind": "radio",
+   "text": "[Broadcast: Graf Spee position, course 270, speed 22]",
+   "zh": "阿喀琉斯号代替天线被毁的旗舰，向各方播发施佩伯爵号的位置、航向与航速；此后每小时一次。",
+   "sources": [
+    "harwood_despatch"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "sig.harwood_cumberland",
+   "at": "1939-12-13T09:46",
+   "from": "gb.ajax",
+   "to": "gb.cumberland",
+   "kind": "order",
+   "text": "[Cumberland to proceed to the Plate at full speed]",
+   "zh": "命令福克兰群岛的坎伯兰号全速开往拉普拉塔河口。",
+   "sources": [
+    "harwood_despatch"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "sig.gs_lifeboats",
+   "at": "1939-12-13T11:04",
+   "from": "de.graf_spee",
+   "to": "gb.ajax",
+   "kind": "signal",
+   "text": "Please pick up lifeboats of English steamer.",
+   "zh": "请救起英国轮船的救生艇。——施佩伯爵号以战前呼号向阿贾克斯号发报（那艘莎士比亚号其实并未放艇）。",
+   "sources": [
+    "harwood_despatch"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "sig.exeter_state",
+   "at": "1939-12-13T11:05",
+   "from": "gb.exeter",
+   "to": "gb.ajax",
+   "kind": "report",
+   "text": "[All turrets out of action; flooded forward to No. 14 bulkhead; can steam 18 knots]",
+   "zh": "全部炮塔失效，艏部淹至 14 号隔舱壁，尚能以 18 节航行。哈伍德令其前往福克兰群岛。",
+   "sources": [
+    "harwood_despatch"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "sig.achilles_delane",
+   "at": "1939-12-13T15:43",
+   "from": "nz.achilles",
+   "kind": "report",
+   "text": "Enemy in sight 297.",
+   "zh": "发现敌舰，方位 297。——16 分钟后更正：是流线型烟囱的英国商船德莱恩号。",
+   "sources": [
+    "harwood_despatch"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "sig.gs_skl",
+   "at": "1939-12-13T19:37",
+   "from": "de.graf_spee",
+   "to": "de.skl",
+   "kind": "radio",
+   "text": "[To SKL: 15 hits, galleys and provisions destroyed — entering Montevideo]",
+   "zh": "致海军战争指挥部：中弹 15 发，厨房与存粮被毁，驶入蒙得维的亚。",
+   "sources": [
+    "ktb_skl"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "sig.harwood_withdraw",
+   "at": "1939-12-13T23:50",
+   "from": "gb.ajax",
+   "kind": "order",
+   "text": "[Withdraw from the estuary; Achilles to patrol north of English Bank, Ajax to the south]",
+   "zh": "撤出河口，划分巡逻区：阿喀琉斯号守英格利希浅滩以北，阿贾克斯号守以南，防止施佩伯爵号夜间突围。",
+   "sources": [
+    "harwood_despatch"
+   ],
+   "confidence": "high"
+  }
+ ]
+}

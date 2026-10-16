@@ -1,6 +1,6 @@
-/** 播放时钟：1× = 每秒推进 manifest.time.hoursPerSec 小时（缺省 4，一天约 6 秒）。导演模式驻留时暂停推进。 */
+/** 播放时钟：1× = 每秒推进 manifest.time.hoursPerSec 小时（缺省 4，一天约 6 秒；manifest.time.pace 分段变速）。导演模式驻留时暂停推进。 */
 import { store } from './store';
-import { T_END, T_START, HOURS_PER_SEC } from '../core/time';
+import { T_END, T_START, paceAt } from '../core/time';
 
 class Clock {
   private raf = 0;
@@ -12,12 +12,20 @@ class Clock {
   start() {
     if (this.raf) return;
     this.last = performance.now();
+    const visibility = () => {
+      cancelAnimationFrame(this.raf); this.raf = 0;
+      this.last = performance.now();
+      for (const f of this.seekers) f(store.get().t);
+      if (!document.hidden) this.raf = requestAnimationFrame(loop);
+    };
+    document.addEventListener('visibilitychange', visibility);
     const loop = (now: number) => {
+      if (document.hidden) { this.raf = 0; return; }
       const dt = Math.min(100, now - this.last);
       this.last = now;
       const s = store.get();
       if (s.playing && now >= this.holdUntil) {
-        let t = s.t + (dt / 1000) * HOURS_PER_SEC * s.speed;
+        let t = s.t + (dt / 1000) * paceAt(s.t) * s.speed;
         if (t >= T_END) { t = T_END; store.set({ t, playing: false }); }
         else store.set({ t });
       }

@@ -1,0 +1,4434 @@
+{
+ "de.graf_spee": [
+  {
+   "at": "1939-12-13T05:52",
+   "pos": [
+    -49.3445,
+    -34.2765
+   ],
+   "status": "active",
+   "course": 125,
+   "speedKn": 15,
+   "note": "G：GS 瞭望员见英舰桅顶（≈17 nm，航迹图倒推相距 16.6 nm），Langsdorff 以为是护航船队的护卫舰；约 15 kn，航向约 125°。位置按 0614 倒推"
+  },
+  {
+   "at": "1939-12-13T06:00",
+   "pos": [
+    -49.3114,
+    -34.2956
+   ],
+   "status": "active",
+   "course": 125,
+   "speedKn": 20,
+   "note": "德方“Klar Schiff zum Gefecht”，Langsdorff 令提速（柴油机即时加速）、直扑英舰"
+  },
+  {
+   "at": "1939-12-13T06:06",
+   "pos": [
+    -49.2784,
+    -34.3147
+   ],
+   "status": "active",
+   "course": 125,
+   "speedKn": 20,
+   "note": "按 NID 航迹图（相对位置）/航迹推算插值"
+  },
+  {
+   "at": "1939-12-13T06:10",
+   "pos": [
+    -49.2563,
+    -34.3275
+   ],
+   "status": "active",
+   "course": 125,
+   "speedKn": 20,
+   "note": "航向约 125°，增速中；位置为向 0614 倒推"
+  },
+  {
+   "at": "1939-12-13T06:14",
+   "pos": [
+    -49.2343,
+    -34.3402
+   ],
+   "status": "active",
+   "course": 124,
+   "speedKn": 23,
+   "note": "英方此时见其烟：Ajax→GS 方位 319°、距 10.8 nm（航迹图）；公文“smoke bearing 320”"
+  },
+  {
+   "at": "1939-12-13T06:16",
+   "pos": [
+    -49.2278,
+    -34.3436
+   ],
+   "status": "active",
+   "course": 121,
+   "speedKn": 23,
+   "note": "Exeter 报告“I think it is a pocket battleship”"
+  },
+  {
+   "at": "1939-12-13T06:18",
+   "pos": [
+    -49.221,
+    -34.3464
+   ],
+   "status": "engaged",
+   "course": 113,
+   "speedKn": 23,
+   "note": "开火（德方 0617）：一座 28cm 塔打 Exeter、一座打 Ajax；射距≈19 800 码；首轮齐射 3 发，落于 Exeter 前约 300 码"
+  },
+  {
+   "at": "1939-12-13T06:20",
+   "pos": [
+    -49.2139,
+    -34.3486
+   ],
+   "status": "engaged",
+   "course": 113,
+   "speedKn": 23,
+   "note": "航迹图：左转/S 形机动；打 Exeter（对 FD 以副炮 15cm 为主）"
+  },
+  {
+   "at": "1939-12-13T06:22",
+   "pos": [
+    -49.2034,
+    -34.3509
+   ],
+   "status": "engaged",
+   "course": 71,
+   "speedKn": 23,
+   "note": "第三轮夹叉 Exeter"
+  },
+  {
+   "at": "1939-12-13T06:24",
+   "pos": [
+    -49.1981,
+    -34.3438
+   ],
+   "status": "engaged",
+   "course": 16,
+   "speedKn": 23,
+   "note": "28cm 直射弹命中 Exeter B 炮塔、舰桥受弹片重创"
+  },
+  {
+   "at": "1939-12-13T06:26",
+   "pos": [
+    -49.1952,
+    -34.3347
+   ],
+   "status": "engaged",
+   "course": 46,
+   "speedKn": 23,
+   "note": "S 形机动后转向右；主炮集中打 Exeter（德方称 Exeter 数次重创后急转避开）；Exeter 8 英寸弹击中 GS 右舷高炮位并贯穿（德方）"
+  },
+  {
+   "at": "1939-12-13T06:28",
+   "pos": [
+    -49.1843,
+    -34.3336
+   ],
+   "status": "engaged",
+   "course": 92,
+   "speedKn": 23,
+   "note": "按 NID 航迹图（相对位置）/航迹推算插值"
+  },
+  {
+   "at": "1939-12-13T06:30",
+   "pos": [
+    -49.1734,
+    -34.3353
+   ],
+   "status": "engaged",
+   "course": 107,
+   "speedKn": 23,
+   "note": "0630 将一座 28cm 塔转向 FD；副炮交替打 Ajax/Achilles（无效）"
+  },
+  {
+   "at": "1939-12-13T06:32",
+   "pos": [
+    -49.1631,
+    -34.3388
+   ],
+   "status": "engaged",
+   "course": 115,
+   "speedKn": 20,
+   "note": "Admiralty 1940：约 0632 因英炮火太猛，在烟幕下向左转 150° 避开 Exeter 右舷鱼雷"
+  },
+  {
+   "at": "1939-12-13T06:34",
+   "pos": [
+    -49.153,
+    -34.3425
+   ],
+   "status": "engaged",
+   "course": 100,
+   "speedKn": 20,
+   "note": "GS 日志：“About 0634 the Exeter turned sharply away after heavy hits — only [one] turret still firing … heavy smoke”"
+  },
+  {
+   "at": "1939-12-13T06:36",
+   "pos": [
+    -49.1442,
+    -34.3402
+   ],
+   "status": "engaged",
+   "course": 20,
+   "speedKn": 20,
+   "note": "航迹图东端回转点；一座 28cm 塔打 FD，另一座继续打 Exeter；施烟幕"
+  },
+  {
+   "at": "1939-12-13T06:37",
+   "pos": [
+    -49.1456,
+    -34.3363
+   ],
+   "status": "engaged",
+   "course": 352,
+   "speedKn": 20,
+   "note": "公文：0637 左转约 150°，在烟幕下转向西北"
+  },
+  {
+   "at": "1939-12-13T06:38",
+   "pos": [
+    -49.147,
+    -34.3325
+   ],
+   "status": "engaged",
+   "course": 333,
+   "speedKn": 20,
+   "note": "转向 NW 逃遁；Exeter 左舷鱼雷将放（GS 左转避雷）"
+  },
+  {
+   "at": "1939-12-13T06:40",
+   "pos": [
+    -49.1532,
+    -34.3264
+   ],
+   "status": "engaged",
+   "course": 307,
+   "speedKn": 20,
+   "note": "NW 向；近失弹击中 Achilles DCT 一带"
+  },
+  {
+   "at": "1939-12-13T06:42",
+   "pos": [
+    -49.1612,
+    -34.322
+   ],
+   "status": "engaged",
+   "course": 308,
+   "speedKn": 20,
+   "note": "按 NID 航迹图（相对位置）/航迹推算插值"
+  },
+  {
+   "at": "1939-12-13T06:44",
+   "pos": [
+    -49.169,
+    -34.3171
+   ],
+   "status": "engaged",
+   "course": 303,
+   "speedKn": 20,
+   "note": "按 NID 航迹图（相对位置）/航迹推算插值"
+  },
+  {
+   "at": "1939-12-13T06:46",
+   "pos": [
+    -49.1774,
+    -34.3131
+   ],
+   "status": "engaged",
+   "course": 296,
+   "speedKn": 20,
+   "note": "航迹图：距 FD 8½ nm，距 Exeter 6 nm；继续 NW，施烟"
+  },
+  {
+   "at": "1939-12-13T06:48",
+   "pos": [
+    -49.1913,
+    -34.3083
+   ],
+   "status": "engaged",
+   "course": 293,
+   "speedKn": 20,
+   "note": "按 NID 航迹图（相对位置）/航迹推算插值"
+  },
+  {
+   "at": "1939-12-13T06:50",
+   "pos": [
+    -49.2052,
+    -34.3034
+   ],
+   "status": "engaged",
+   "course": 291,
+   "speedKn": 20,
+   "note": "仍对 Exeter 射击（弹着偏远）；Langsdorff 约 0638–0700 间被气浪掀倒昏迷数分钟"
+  },
+  {
+   "at": "1939-12-13T06:52",
+   "pos": [
+    -49.2195,
+    -34.2995
+   ],
+   "status": "engaged",
+   "course": 284,
+   "speedKn": 20,
+   "note": "按 NID 航迹图（相对位置）/航迹推算插值"
+  },
+  {
+   "at": "1939-12-13T06:54",
+   "pos": [
+    -49.2343,
+    -34.298
+   ],
+   "status": "engaged",
+   "course": 270,
+   "speedKn": 20,
+   "note": "按 NID 航迹图（相对位置）/航迹推算插值"
+  },
+  {
+   "at": "1939-12-13T06:56",
+   "pos": [
+    -49.2493,
+    -34.2988
+   ],
+   "status": "engaged",
+   "course": 262,
+   "speedKn": 20,
+   "note": "FD 转 NW 开 A 弧；GS 频繁变向"
+  },
+  {
+   "at": "1939-12-13T06:58",
+   "pos": [
+    -49.26,
+    -34.3012
+   ],
+   "status": "engaged",
+   "course": 255,
+   "speedKn": 20,
+   "note": "按 NID 航迹图（相对位置）/航迹推算插值"
+  },
+  {
+   "at": "1939-12-13T07:00",
+   "pos": [
+    -49.2707,
+    -34.3036
+   ],
+   "status": "engaged",
+   "course": 264,
+   "speedKn": 20,
+   "note": "起大量施烟（含 chloro-sulphonic 装置与烟雾浮标）"
+  },
+  {
+   "at": "1939-12-13T07:02",
+   "pos": [
+    -49.2869,
+    -34.3023
+   ],
+   "status": "engaged",
+   "course": 283,
+   "speedKn": 20,
+   "note": "按 NID 航迹图（相对位置）/航迹推算插值"
+  },
+  {
+   "at": "1939-12-13T07:04",
+   "pos": [
+    -49.3022,
+    -34.2975
+   ],
+   "status": "engaged",
+   "course": 294,
+   "speedKn": 20,
+   "note": "按 NID 航迹图（相对位置）/航迹推算插值"
+  },
+  {
+   "at": "1939-12-13T07:06",
+   "pos": [
+    -49.3177,
+    -34.2926
+   ],
+   "status": "engaged",
+   "course": 279,
+   "speedKn": 20,
+   "note": "航迹图：施烟/之字；距 FD 8.4 nm"
+  },
+  {
+   "at": "1939-12-13T07:08",
+   "pos": [
+    -49.3297,
+    -34.293
+   ],
+   "status": "engaged",
+   "course": 271,
+   "speedKn": 20,
+   "note": "按 NID 航迹图（相对位置）/航迹推算插值"
+  },
+  {
+   "at": "1939-12-13T07:10",
+   "pos": [
+    -49.3413,
+    -34.2938
+   ],
+   "status": "engaged",
+   "course": 257,
+   "speedKn": 20,
+   "note": "距 FD 约 16 000 码；FD 转西加速接近"
+  },
+  {
+   "at": "1939-12-13T07:12",
+   "pos": [
+    -49.3527,
+    -34.2962
+   ],
+   "status": "engaged",
+   "course": 266,
+   "speedKn": 20,
+   "note": "按 NID 航迹图（相对位置）/航迹推算插值"
+  },
+  {
+   "at": "1939-12-13T07:14",
+   "pos": [
+    -49.3647,
+    -34.296
+   ],
+   "status": "engaged",
+   "course": 271,
+   "speedKn": 20,
+   "note": "按 NID 航迹图（相对位置）/航迹推算插值"
+  },
+  {
+   "at": "1939-12-13T07:16",
+   "pos": [
+    -49.3767,
+    -34.2959
+   ],
+   "status": "engaged",
+   "course": 249,
+   "speedKn": 20,
+   "note": "在烟幕下向左急转，几乎直指受创 Exeter"
+  },
+  {
+   "at": "1939-12-13T07:18",
+   "pos": [
+    -49.3823,
+    -34.3025
+   ],
+   "status": "engaged",
+   "course": 208,
+   "speedKn": 20,
+   "note": "按 NID 航迹图（相对位置）/航迹推算插值"
+  },
+  {
+   "at": "1939-12-13T07:20",
+   "pos": [
+    -49.3881,
+    -34.3093
+   ],
+   "status": "engaged",
+   "course": 249,
+   "speedKn": 20,
+   "note": "转 NW，A 弧全开，28cm 全部对 FD；Ajax 被夹叉 3 次（11 000 码）；GS 舰中部起火"
+  },
+  {
+   "at": "1939-12-13T07:22",
+   "pos": [
+    -49.3977,
+    -34.3074
+   ],
+   "status": "engaged",
+   "course": 296,
+   "speedKn": 20,
+   "note": "德方记述：欲射鱼雷齐射，因舰正急左转仅 1 条发出"
+  },
+  {
+   "at": "1939-12-13T07:24",
+   "pos": [
+    -49.407,
+    -34.3031
+   ],
+   "status": "engaged",
+   "course": 305,
+   "speedKn": 20,
+   "note": "Ajax 射 4 条鱼雷后，GS 左转约 130° 避雷，施烟"
+  },
+  {
+   "at": "1939-12-13T07:25",
+   "pos": [
+    -49.411,
+    -34.3003
+   ],
+   "status": "engaged",
+   "course": 300,
+   "speedKn": 20,
+   "note": "28cm 命中 Ajax（X、Y 炮塔失能）；距离约 5 nm"
+  },
+  {
+   "at": "1939-12-13T07:26",
+   "pos": [
+    -49.4149,
+    -34.2973
+   ],
+   "status": "engaged",
+   "course": 286,
+   "speedKn": 20,
+   "note": "按 NID 航迹图（相对位置）/航迹推算插值"
+  },
+  {
+   "at": "1939-12-13T07:28",
+   "pos": [
+    -49.4281,
+    -34.2985
+   ],
+   "status": "engaged",
+   "course": 279,
+   "speedKn": 20,
+   "note": "约 0727 回到 NW 向"
+  },
+  {
+   "at": "1939-12-13T07:30",
+   "pos": [
+    -49.4377,
+    -34.2926
+   ],
+   "status": "engaged",
+   "course": 326,
+   "speedKn": 20,
+   "note": "按 NID 航迹图（相对位置）/航迹推算插值"
+  },
+  {
+   "at": "1939-12-13T07:32",
+   "pos": [
+    -49.4449,
+    -34.2838
+   ],
+   "status": "engaged",
+   "course": 299,
+   "speedKn": 20,
+   "note": "转西，大量施烟、之字航行"
+  },
+  {
+   "at": "1939-12-13T07:34",
+   "pos": [
+    -49.458,
+    -34.2827
+   ],
+   "status": "engaged",
+   "course": 270,
+   "speedKn": 20,
+   "note": "按 NID 航迹图（相对位置）/航迹推算插值"
+  },
+  {
+   "at": "1939-12-13T07:36",
+   "pos": [
+    -49.4712,
+    -34.2834
+   ],
+   "status": "engaged",
+   "course": 246,
+   "speedKn": 20,
+   "note": "转西南，全炮对 FD；距 FD 约 4.3 nm"
+  },
+  {
+   "at": "1939-12-13T07:38",
+   "pos": [
+    -49.4832,
+    -34.2917
+   ],
+   "status": "engaged",
+   "course": 232,
+   "speedKn": 20,
+   "note": "距 8 000 码；GS 最后几轮 28cm 之一打断 Ajax 主桅"
+  },
+  {
+   "at": "1939-12-13T07:40",
+   "pos": [
+    -49.4962,
+    -34.2988
+   ],
+   "status": "withdrawing",
+   "course": 240,
+   "speedKn": 22,
+   "note": "脱离：不追击，转向拉普拉塔（德方：0730 起战斗间歇），航向约 255–270°、22–23 kn"
+  },
+  {
+   "at": "1939-12-13T07:42",
+   "pos": [
+    -49.5103,
+    -34.304
+   ],
+   "status": "withdrawing",
+   "course": 252,
+   "speedKn": 22,
+   "note": "按 NID 航迹图（相对位置）/航迹推算插值"
+  },
+  {
+   "at": "1939-12-13T07:44",
+   "pos": [
+    -49.5254,
+    -34.3071
+   ],
+   "status": "withdrawing",
+   "course": 256,
+   "speedKn": 22,
+   "note": "按 NID 航迹图（相对位置）/航迹推算插值"
+  },
+  {
+   "at": "1939-12-13T07:46",
+   "pos": [
+    -49.5406,
+    -34.3102
+   ],
+   "status": "withdrawing",
+   "course": 257,
+   "speedKn": 22,
+   "note": "继续西行，距 FD 约 9 nm"
+  },
+  {
+   "at": "1939-12-13T07:50",
+   "pos": [
+    -49.5716,
+    -34.3156
+   ],
+   "status": "withdrawing",
+   "course": 258,
+   "speedKn": 22,
+   "note": "按 NID 航迹图（相对位置）/航迹推算插值"
+  },
+  {
+   "at": "1939-12-13T07:56",
+   "pos": [
+    -49.6183,
+    -34.3237
+   ],
+   "status": "withdrawing",
+   "course": 258,
+   "speedKn": 22,
+   "note": "航迹图终点（“To Montevideo”）；Harwood：一般趋势 ~255°"
+  },
+  {
+   "at": "1939-12-13T08:00",
+   "pos": [
+    -49.6477,
+    -34.3287
+   ],
+   "status": "withdrawing",
+   "course": 259,
+   "speedKn": 22,
+   "note": "FD 在其东侧 ~12–15 nm 尾随；GS 22–23 kn 西行"
+  },
+  {
+   "at": "1939-12-13T08:15",
+   "pos": [
+    -49.7581,
+    -34.3472
+   ],
+   "status": "withdrawing",
+   "course": 259,
+   "speedKn": 22,
+   "note": "航迹推算（22 kn 西行，终抵蒙得维的亚）"
+  },
+  {
+   "at": "1939-12-13T08:30",
+   "pos": [
+    -49.8685,
+    -34.3657
+   ],
+   "status": "withdrawing",
+   "course": 259,
+   "speedKn": 22,
+   "note": "航迹推算（22 kn 西行，终抵蒙得维的亚）"
+  },
+  {
+   "at": "1939-12-13T09:00",
+   "pos": [
+    -50.0893,
+    -34.4028
+   ],
+   "status": "withdrawing",
+   "course": 259,
+   "speedKn": 22,
+   "note": "Langsdorff 决定入蒙得维的亚（IT 维基称 0930 召集军官宣布）"
+  },
+  {
+   "at": "1939-12-13T09:12",
+   "pos": [
+    -50.1776,
+    -34.4176
+   ],
+   "status": "withdrawing",
+   "course": 259,
+   "speedKn": 22,
+   "note": "航迹推算（22 kn 西行，终抵蒙得维的亚）"
+  },
+  {
+   "at": "1939-12-13T09:30",
+   "pos": [
+    -50.3101,
+    -34.4398
+   ],
+   "status": "withdrawing",
+   "course": 258,
+   "speedKn": 22,
+   "note": "航迹推算（22 kn 西行，终抵蒙得维的亚）"
+  },
+  {
+   "at": "1939-12-13T10:00",
+   "pos": [
+    -50.5309,
+    -34.4769
+   ],
+   "status": "withdrawing",
+   "course": 258,
+   "speedKn": 22,
+   "note": "航迹推算（22 kn 西行，终抵蒙得维的亚）"
+  },
+  {
+   "at": "1939-12-13T10:05",
+   "pos": [
+    -50.5677,
+    -34.483
+   ],
+   "status": "withdrawing",
+   "course": 258,
+   "speedKn": 22,
+   "note": "转向以前炮塔对 Achilles（23 000 码）打两轮 3 发齐射；Achilles 转避，GS 复西行"
+  },
+  {
+   "at": "1939-12-13T10:10",
+   "pos": [
+    -50.6045,
+    -34.4892
+   ],
+   "status": "withdrawing",
+   "course": 258,
+   "speedKn": 22,
+   "note": "航迹推算（22 kn 西行，终抵蒙得维的亚）"
+  },
+  {
+   "at": "1939-12-13T10:30",
+   "pos": [
+    -50.7517,
+    -34.5139
+   ],
+   "status": "withdrawing",
+   "course": 258,
+   "speedKn": 22,
+   "note": "航迹推算（22 kn 西行，终抵蒙得维的亚）"
+  },
+  {
+   "at": "1939-12-13T11:00",
+   "pos": [
+    -50.9725,
+    -34.551
+   ],
+   "status": "withdrawing",
+   "course": 261,
+   "speedKn": 22,
+   "note": "航迹推算（22 kn 西行，终抵蒙得维的亚）"
+  },
+  {
+   "at": "1939-12-13T11:03",
+   "pos": [
+    -50.995,
+    -34.5531
+   ],
+   "status": "withdrawing",
+   "course": 263,
+   "speedKn": 22,
+   "note": "遇英轮 Shakespeare，令其停船/弃船；未击沉，改发 W/T “please pick up lifeboats of English steamer”（约 1104–1110）"
+  },
+  {
+   "at": "1939-12-13T11:30",
+   "pos": [
+    -51.1973,
+    -34.5721
+   ],
+   "status": "withdrawing",
+   "course": 263,
+   "speedKn": 22,
+   "note": "航迹推算（22 kn 西行，终抵蒙得维的亚）"
+  },
+  {
+   "at": "1939-12-13T12:00",
+   "pos": [
+    -51.422,
+    -34.5932
+   ],
+   "status": "withdrawing",
+   "course": 263,
+   "speedKn": 22,
+   "note": "航迹推算（22 kn 西行，终抵蒙得维的亚）"
+  },
+  {
+   "at": "1939-12-13T13:00",
+   "pos": [
+    -51.8715,
+    -34.6355
+   ],
+   "status": "withdrawing",
+   "course": 263,
+   "speedKn": 22,
+   "note": "航迹推算（22 kn 西行，终抵蒙得维的亚）"
+  },
+  {
+   "at": "1939-12-13T14:00",
+   "pos": [
+    -52.321,
+    -34.6777
+   ],
+   "status": "withdrawing",
+   "course": 263,
+   "speedKn": 22,
+   "note": "航迹推算（22 kn 西行，终抵蒙得维的亚）"
+  },
+  {
+   "at": "1939-12-13T15:00",
+   "pos": [
+    -52.7705,
+    -34.72
+   ],
+   "status": "withdrawing",
+   "course": 263,
+   "speedKn": 22,
+   "note": "航迹推算（22 kn 西行，终抵蒙得维的亚）"
+  },
+  {
+   "at": "1939-12-13T15:43",
+   "pos": [
+    -53.0926,
+    -34.7503
+   ],
+   "status": "withdrawing",
+   "course": 263,
+   "speedKn": 22,
+   "note": "航迹推算（22 kn 西行，终抵蒙得维的亚）"
+  },
+  {
+   "at": "1939-12-13T16:00",
+   "pos": [
+    -53.22,
+    -34.7622
+   ],
+   "status": "withdrawing",
+   "course": 263,
+   "speedKn": 22,
+   "note": "航迹推算（22 kn 西行，终抵蒙得维的亚）"
+  },
+  {
+   "at": "1939-12-13T17:00",
+   "pos": [
+    -53.6695,
+    -34.8045
+   ],
+   "status": "withdrawing",
+   "course": 263,
+   "speedKn": 22,
+   "note": "航迹推算（22 kn 西行，终抵蒙得维的亚）"
+  },
+  {
+   "at": "1939-12-13T18:00",
+   "pos": [
+    -54.119,
+    -34.8468
+   ],
+   "status": "withdrawing",
+   "course": 263,
+   "speedKn": 22,
+   "note": "航迹推算（22 kn 西行，终抵蒙得维的亚）"
+  },
+  {
+   "at": "1939-12-13T19:00",
+   "pos": [
+    -54.5685,
+    -34.889
+   ],
+   "status": "withdrawing",
+   "course": 263,
+   "speedKn": 22,
+   "note": "航迹推算（22 kn 西行，终抵蒙得维的亚）"
+  },
+  {
+   "at": "1939-12-13T19:15",
+   "pos": [
+    -54.6808,
+    -34.8996
+   ],
+   "status": "withdrawing",
+   "course": 263,
+   "speedKn": 22,
+   "note": "转向对 Ajax 两次齐射（约 26 000 码/13 nm），Ajax 在烟幕下转避（另有来源作 1852）"
+  },
+  {
+   "at": "1939-12-13T19:42",
+   "pos": [
+    -54.8831,
+    -34.9186
+   ],
+   "status": "withdrawing",
+   "course": 263,
+   "speedKn": 22,
+   "note": "大幅转向西北（Achilles 随之规避），随后继续入河口"
+  },
+  {
+   "at": "1939-12-13T20:00",
+   "pos": [
+    -55.018,
+    -34.9313
+   ],
+   "status": "withdrawing",
+   "course": 263,
+   "speedKn": 22,
+   "note": "航迹推算（22 kn 西行，终抵蒙得维的亚）"
+  },
+  {
+   "at": "1939-12-13T20:30",
+   "pos": [
+    -55.2427,
+    -34.9524
+   ],
+   "status": "withdrawing",
+   "course": 263,
+   "speedKn": 22,
+   "note": "航迹推算（22 kn 西行，终抵蒙得维的亚）"
+  },
+  {
+   "at": "1939-12-13T20:48",
+   "pos": [
+    -55.3776,
+    -34.9651
+   ],
+   "status": "withdrawing",
+   "course": 263,
+   "speedKn": 22,
+   "note": "日落；GS 轮廓衬西天，距 Achilles 12½ nm"
+  },
+  {
+   "at": "1939-12-13T20:55",
+   "pos": [
+    -55.43,
+    -34.97
+   ],
+   "status": "engaged",
+   "course": 266,
+   "speedKn": 17,
+   "note": "烟幕下转向，对 Achilles 三次齐射（22 000 码），Achilles 回 5 轮"
+  },
+  {
+   "at": "1939-12-13T21:00",
+   "pos": [
+    -55.4542,
+    -34.9704
+   ],
+   "status": "engaged",
+   "course": 269,
+   "speedKn": 17,
+   "note": "航迹推算（22 kn 西行，终抵蒙得维的亚）"
+  },
+  {
+   "at": "1939-12-13T21:30",
+   "pos": [
+    -55.5996,
+    -34.9727
+   ],
+   "status": "withdrawing",
+   "course": 269,
+   "speedKn": 17,
+   "note": "2126 施烟；2132、2140、2143 单次齐射打 Achilles（不回射）；开始减速"
+  },
+  {
+   "at": "1939-12-13T22:00",
+   "pos": [
+    -55.745,
+    -34.975
+   ],
+   "status": "withdrawing",
+   "course": 269,
+   "speedKn": 17,
+   "note": "Achilles 距其约 5 nm，GS 将过英国浅滩北侧"
+  },
+  {
+   "at": "1939-12-13T22:13",
+   "pos": [
+    -55.8392,
+    -34.9764
+   ],
+   "status": "withdrawing",
+   "course": 269,
+   "speedKn": 17,
+   "note": "航迹推算（22 kn 西行，终抵蒙得维的亚）"
+  },
+  {
+   "at": "1939-12-13T22:30",
+   "pos": [
+    -55.9625,
+    -34.9781
+   ],
+   "status": "active",
+   "course": 269,
+   "speedKn": 12,
+   "note": "蒙得维的亚灯火入视（德方约 2230）；速度降低"
+  },
+  {
+   "at": "1939-12-13T22:48",
+   "pos": [
+    -56.093,
+    -34.98
+   ],
+   "status": "active",
+   "course": 269,
+   "speedKn": 12,
+   "note": "约在 Whistle Buoy 以东 7 nm（Admiralty）"
+  },
+  {
+   "at": "1939-12-13T23:00",
+   "pos": [
+    -56.1406,
+    -34.98
+   ],
+   "status": "active",
+   "course": 270,
+   "speedKn": 12,
+   "note": "航迹推算（22 kn 西行，终抵蒙得维的亚）"
+  },
+  {
+   "at": "1939-12-13T23:15",
+   "pos": [
+    -56.2,
+    -34.98
+   ],
+   "status": "active",
+   "course": 274,
+   "speedKn": 8,
+   "note": "无引水员、无拖船，凭战俘商船船长引航，减速入港"
+  },
+  {
+   "at": "1939-12-13T23:30",
+   "pos": [
+    -56.235,
+    -34.975
+   ],
+   "status": "active",
+   "course": 321,
+   "speedKn": 8,
+   "note": "经 Whistle Buoy，进入疏浚航道"
+  },
+  {
+   "at": "1939-12-13T23:45",
+   "pos": [
+    -56.23,
+    -34.95
+   ],
+   "status": "active",
+   "course": 16,
+   "speedKn": 8,
+   "note": "沿疏浚航道入蒙得维的亚外锚地（Rada exterior）"
+  },
+  {
+   "at": "1939-12-13T23:50",
+   "pos": [
+    -56.227,
+    -34.945
+   ],
+   "status": "active",
+   "course": 26,
+   "speedKn": 8,
+   "note": "航迹推算（22 kn 西行，终抵蒙得维的亚）"
+  },
+  {
+   "at": "1939-12-14T00:00",
+   "pos": [
+    -56.221,
+    -34.935
+   ],
+   "status": "active",
+   "course": 26,
+   "speedKn": 8,
+   "note": "德方：“午夜”；准备抛锚"
+  },
+  {
+   "at": "1939-12-14T00:10",
+   "pos": [
+    -56.215,
+    -34.925
+   ],
+   "status": "active",
+   "course": 250,
+   "speedKn": 0,
+   "note": "抛锚于蒙得维的亚外锚地：Admiralty 1940/EN 维基 0010；Harwood 公文 0050（见争议）"
+  }
+ ],
+ "gb.exeter": [
+  {
+   "at": "1939-12-13T05:20",
+   "pos": [
+    -49.2973,
+    -34.5734
+   ],
+   "status": "active",
+   "course": 60,
+   "speedKn": 14,
+   "note": "同编队 0520（紧随 Ajax 之后）"
+  },
+  {
+   "at": "1939-12-13T05:40",
+   "pos": [
+    -49.243,
+    -34.5478
+   ],
+   "status": "active",
+   "course": 60,
+   "speedKn": 14,
+   "note": "解除战位，重组单列纵队 Ajax–Achilles–Exeter，060°（之字平均 NE by E），14 kn"
+  },
+  {
+   "at": "1939-12-13T05:52",
+   "pos": [
+    -49.1832,
+    -34.5193
+   ],
+   "status": "active",
+   "course": 60,
+   "speedKn": 14,
+   "note": "单列纵队最后一舰，060°/14 kn（位置由 0614 倒推；DE 维基：在 Achilles 后约 1.5 km）"
+  },
+  {
+   "at": "1939-12-13T06:00",
+   "pos": [
+    -49.1505,
+    -34.5038
+   ],
+   "status": "active",
+   "course": 60,
+   "speedKn": 14,
+   "note": "按 NID 航迹图（相对位置）插值"
+  },
+  {
+   "at": "1939-12-13T06:06",
+   "pos": [
+    -49.126,
+    -34.4921
+   ],
+   "status": "active",
+   "course": 60,
+   "speedKn": 14,
+   "note": "按 NID 航迹图（相对位置）插值"
+  },
+  {
+   "at": "1939-12-13T06:10",
+   "pos": [
+    -49.1096,
+    -34.4843
+   ],
+   "status": "active",
+   "course": 60,
+   "speedKn": 14,
+   "note": "按 NID 航迹图（相对位置）插值"
+  },
+  {
+   "at": "1939-12-13T06:14",
+   "pos": [
+    -49.09,
+    -34.475
+   ],
+   "status": "active",
+   "course": 30,
+   "speedKn": 22,
+   "note": "奉命前出查看烟；转向 NW（预定计划）"
+  },
+  {
+   "at": "1939-12-13T06:16",
+   "pos": [
+    -49.0941,
+    -34.468
+   ],
+   "status": "active",
+   "course": 305,
+   "speedKn": 22,
+   "note": "灯光信号“I think it is a pocket battleship”，升 N 旗"
+  },
+  {
+   "at": "1939-12-13T06:18",
+   "pos": [
+    -49.1038,
+    -34.4659
+   ],
+   "status": "active",
+   "course": 273,
+   "speedKn": 22,
+   "note": "出列转向西（初始约 280°），全速；GS 开火"
+  },
+  {
+   "at": "1939-12-13T06:20",
+   "pos": [
+    -49.1138,
+    -34.4668
+   ],
+   "status": "engaged",
+   "course": 266,
+   "speedKn": 24,
+   "note": "A、B 塔开火（18 700 码）"
+  },
+  {
+   "at": "1939-12-13T06:22",
+   "pos": [
+    -49.1239,
+    -34.4667
+   ],
+   "status": "engaged",
+   "course": 282,
+   "speedKn": 24,
+   "note": "Y 塔开火"
+  },
+  {
+   "at": "1939-12-13T06:24",
+   "pos": [
+    -49.1329,
+    -34.4633
+   ],
+   "status": "engaged",
+   "course": 301,
+   "speedKn": 24,
+   "note": "B 炮塔与舰桥被命中，全舰失控数分钟，改由后部指挥位+传令链操舵"
+  },
+  {
+   "at": "1939-12-13T06:26",
+   "pos": [
+    -49.1415,
+    -34.4589
+   ],
+   "status": "engaged",
+   "course": 302,
+   "speedKn": 24,
+   "note": "一度右偏，鱼雷长令拉回；前部再中 2 发"
+  },
+  {
+   "at": "1939-12-13T06:28",
+   "pos": [
+    -49.1523,
+    -34.4532
+   ],
+   "status": "engaged",
+   "course": 296,
+   "speedKn": 24,
+   "note": "按 NID 航迹图（相对位置）插值"
+  },
+  {
+   "at": "1939-12-13T06:30",
+   "pos": [
+    -49.1644,
+    -34.4498
+   ],
+   "status": "engaged",
+   "course": 294,
+   "speedKn": 24,
+   "note": "按 NID 航迹图（相对位置）插值"
+  },
+  {
+   "at": "1939-12-13T06:32",
+   "pos": [
+    -49.1741,
+    -34.4438
+   ],
+   "status": "engaged",
+   "course": 322,
+   "speedKn": 24,
+   "note": "右舷鱼雷发射（局部控制）"
+  },
+  {
+   "at": "1939-12-13T06:34",
+   "pos": [
+    -49.1805,
+    -34.4348
+   ],
+   "status": "engaged",
+   "course": 320,
+   "speedKn": 24,
+   "note": "按 NID 航迹图（相对位置）插值"
+  },
+  {
+   "at": "1939-12-13T06:36",
+   "pos": [
+    -49.1904,
+    -34.4281
+   ],
+   "status": "engaged",
+   "course": 312,
+   "speedKn": 24,
+   "note": "向 NE/右转，准备发射左舷鱼雷（航迹图转折点）"
+  },
+  {
+   "at": "1939-12-13T06:37",
+   "pos": [
+    -49.1938,
+    -34.4251
+   ],
+   "status": "engaged",
+   "course": 320,
+   "speedKn": 24,
+   "note": "按 NID 航迹图（相对位置）插值"
+  },
+  {
+   "at": "1939-12-13T06:38",
+   "pos": [
+    -49.1967,
+    -34.4217
+   ],
+   "status": "engaged",
+   "course": 340,
+   "speedKn": 24,
+   "note": "A 炮塔被命中；CPO 平台中弹起大火；仅 Y 塔局部控制射击；罗经复示器全毁"
+  },
+  {
+   "at": "1939-12-13T06:40",
+   "pos": [
+    -49.195,
+    -34.4146
+   ],
+   "status": "engaged",
+   "course": 49,
+   "speedKn": 24,
+   "note": "按 NID 航迹图（相对位置）插值"
+  },
+  {
+   "at": "1939-12-13T06:42",
+   "pos": [
+    -49.1855,
+    -34.4126
+   ],
+   "status": "engaged",
+   "course": 83,
+   "speedKn": 24,
+   "note": "左舷鱼雷发射（~0643）；Seafox 观察员见其“消失在烟火中”"
+  },
+  {
+   "at": "1939-12-13T06:44",
+   "pos": [
+    -49.1756,
+    -34.4113
+   ],
+   "status": "engaged",
+   "course": 76,
+   "speedKn": 24,
+   "note": "按 NID 航迹图（相对位置）插值"
+  },
+  {
+   "at": "1939-12-13T06:46",
+   "pos": [
+    -49.166,
+    -34.4087
+   ],
+   "status": "engaged",
+   "course": 49,
+   "speedKn": 22,
+   "note": "转向 NE 接近 FD 后约 0645 转西；右倾 7°，艏沉"
+  },
+  {
+   "at": "1939-12-13T06:48",
+   "pos": [
+    -49.1636,
+    -34.4013
+   ],
+   "status": "engaged",
+   "course": 352,
+   "speedKn": 22,
+   "note": "按 NID 航迹图（相对位置）插值"
+  },
+  {
+   "at": "1939-12-13T06:50",
+   "pos": [
+    -49.1686,
+    -34.395
+   ],
+   "status": "engaged",
+   "course": 301,
+   "speedKn": 18,
+   "note": "转西，调整航向使 Y 塔可射；GS 弹着偏远"
+  },
+  {
+   "at": "1939-12-13T06:52",
+   "pos": [
+    -49.178,
+    -34.3937
+   ],
+   "status": "engaged",
+   "course": 274,
+   "speedKn": 18,
+   "note": "按 NID 航迹图（相对位置）插值"
+  },
+  {
+   "at": "1939-12-13T06:54",
+   "pos": [
+    -49.1877,
+    -34.393
+   ],
+   "status": "engaged",
+   "course": 274,
+   "speedKn": 18,
+   "note": "按 NID 航迹图（相对位置）插值"
+  },
+  {
+   "at": "1939-12-13T06:56",
+   "pos": [
+    -49.1975,
+    -34.3926
+   ],
+   "status": "engaged",
+   "course": 271,
+   "speedKn": 18,
+   "note": "按 NID 航迹图（相对位置）插值"
+  },
+  {
+   "at": "1939-12-13T06:58",
+   "pos": [
+    -49.2072,
+    -34.3926
+   ],
+   "status": "engaged",
+   "course": 270,
+   "speedKn": 18,
+   "note": "按 NID 航迹图（相对位置）插值"
+  },
+  {
+   "at": "1939-12-13T07:00",
+   "pos": [
+    -49.217,
+    -34.3926
+   ],
+   "status": "engaged",
+   "course": 270,
+   "speedKn": 15,
+   "note": "仅 Y 塔可射；1 门 4 英寸；电话/无线电全毁；右倾约 8°，艏沉约 4 英尺"
+  },
+  {
+   "at": "1939-12-13T07:02",
+   "pos": [
+    -49.2267,
+    -34.3928
+   ],
+   "status": "engaged",
+   "course": 263,
+   "speedKn": 15,
+   "note": "按 NID 航迹图（相对位置）插值"
+  },
+  {
+   "at": "1939-12-13T07:04",
+   "pos": [
+    -49.2362,
+    -34.3947
+   ],
+   "status": "engaged",
+   "course": 254,
+   "speedKn": 15,
+   "note": "按 NID 航迹图（相对位置）插值"
+  },
+  {
+   "at": "1939-12-13T07:06",
+   "pos": [
+    -49.2456,
+    -34.3969
+   ],
+   "status": "engaged",
+   "course": 255,
+   "speedKn": 15,
+   "note": "按 NID 航迹图（相对位置）插值"
+  },
+  {
+   "at": "1939-12-13T07:08",
+   "pos": [
+    -49.255,
+    -34.399
+   ],
+   "status": "engaged",
+   "course": 251,
+   "speedKn": 15,
+   "note": "按 NID 航迹图（相对位置）插值"
+  },
+  {
+   "at": "1939-12-13T07:10",
+   "pos": [
+    -49.2639,
+    -34.4022
+   ],
+   "status": "engaged",
+   "course": 246,
+   "speedKn": 11,
+   "note": "按 NID 航迹图（相对位置）插值"
+  },
+  {
+   "at": "1939-12-13T07:12",
+   "pos": [
+    -49.2728,
+    -34.4056
+   ],
+   "status": "engaged",
+   "course": 243,
+   "speedKn": 11,
+   "note": "按 NID 航迹图（相对位置）插值"
+  },
+  {
+   "at": "1939-12-13T07:14",
+   "pos": [
+    -49.2814,
+    -34.4094
+   ],
+   "status": "engaged",
+   "course": 240,
+   "speedKn": 11,
+   "note": "按 NID 航迹图（相对位置）插值"
+  },
+  {
+   "at": "1939-12-13T07:16",
+   "pos": [
+    -49.2895,
+    -34.4138
+   ],
+   "status": "engaged",
+   "course": 234,
+   "speedKn": 11,
+   "note": "GS 向左急转直指 Exeter，但被 FD 火力迫回"
+  },
+  {
+   "at": "1939-12-13T07:18",
+   "pos": [
+    -49.2974,
+    -34.4185
+   ],
+   "status": "engaged",
+   "course": 235,
+   "speedKn": 11,
+   "note": "按 NID 航迹图（相对位置）插值"
+  },
+  {
+   "at": "1939-12-13T07:20",
+   "pos": [
+    -49.3054,
+    -34.4231
+   ],
+   "status": "engaged",
+   "course": 235,
+   "speedKn": 9,
+   "note": "按 NID 航迹图（相对位置）插值"
+  },
+  {
+   "at": "1939-12-13T07:22",
+   "pos": [
+    -49.3133,
+    -34.4279
+   ],
+   "status": "engaged",
+   "course": 234,
+   "speedKn": 9,
+   "note": "按 NID 航迹图（相对位置）插值"
+  },
+  {
+   "at": "1939-12-13T07:24",
+   "pos": [
+    -49.3212,
+    -34.4326
+   ],
+   "status": "engaged",
+   "course": 236,
+   "speedKn": 9,
+   "note": "按 NID 航迹图（相对位置）插值"
+  },
+  {
+   "at": "1939-12-13T07:25",
+   "pos": [
+    -49.3254,
+    -34.4347
+   ],
+   "status": "engaged",
+   "course": 238,
+   "speedKn": 9,
+   "note": "按 NID 航迹图（相对位置）插值"
+  },
+  {
+   "at": "1939-12-13T07:26",
+   "pos": [
+    -49.3295,
+    -34.4369
+   ],
+   "status": "engaged",
+   "course": 238,
+   "speedKn": 9,
+   "note": "按 NID 航迹图（相对位置）插值"
+  },
+  {
+   "at": "1939-12-13T07:28",
+   "pos": [
+    -49.3378,
+    -34.4411
+   ],
+   "status": "engaged",
+   "course": 237,
+   "speedKn": 9,
+   "note": "按 NID 航迹图（相对位置）插值"
+  },
+  {
+   "at": "1939-12-13T07:30",
+   "pos": [
+    -49.3459,
+    -34.4456
+   ],
+   "status": "engaged",
+   "course": 236,
+   "speedKn": 7,
+   "note": "Y 塔因进水失电，停止射击；落在战斗之后"
+  },
+  {
+   "at": "1939-12-13T07:32",
+   "pos": [
+    -49.3541,
+    -34.45
+   ],
+   "status": "engaged",
+   "course": 238,
+   "speedKn": 7,
+   "note": "按 NID 航迹图（相对位置）插值"
+  },
+  {
+   "at": "1939-12-13T07:34",
+   "pos": [
+    -49.3625,
+    -34.454
+   ],
+   "status": "engaged",
+   "course": 242,
+   "speedKn": 7,
+   "note": "按 NID 航迹图（相对位置）插值"
+  },
+  {
+   "at": "1939-12-13T07:36",
+   "pos": [
+    -49.3714,
+    -34.4574
+   ],
+   "status": "engaged",
+   "course": 249,
+   "speedKn": 7,
+   "note": "按 NID 航迹图（相对位置）插值"
+  },
+  {
+   "at": "1939-12-13T07:38",
+   "pos": [
+    -49.3804,
+    -34.4603
+   ],
+   "status": "engaged",
+   "course": 228,
+   "speedKn": 7,
+   "note": "按 NID 航迹图（相对位置）插值"
+  },
+  {
+   "at": "1939-12-13T07:40",
+   "pos": [
+    -49.3846,
+    -34.4673
+   ],
+   "status": "withdrawing",
+   "course": 179,
+   "speedKn": 8,
+   "note": "转向东南，低速，开始抢修（公文）"
+  },
+  {
+   "at": "1939-12-13T07:42",
+   "pos": [
+    -49.3811,
+    -34.4707
+   ],
+   "status": "withdrawing",
+   "course": 140,
+   "speedKn": 8,
+   "note": "航迹推算（低置信）"
+  },
+  {
+   "at": "1939-12-13T07:44",
+   "pos": [
+    -49.3776,
+    -34.4741
+   ],
+   "status": "withdrawing",
+   "course": 140,
+   "speedKn": 8,
+   "note": "航迹推算（低置信）"
+  },
+  {
+   "at": "1939-12-13T07:46",
+   "pos": [
+    -49.3742,
+    -34.4775
+   ],
+   "status": "withdrawing",
+   "course": 140,
+   "speedKn": 8,
+   "note": "航迹推算（低置信）"
+  },
+  {
+   "at": "1939-12-13T07:50",
+   "pos": [
+    -49.3672,
+    -34.4843
+   ],
+   "status": "withdrawing",
+   "course": 140,
+   "speedKn": 8,
+   "note": "航迹推算（低置信）"
+  },
+  {
+   "at": "1939-12-13T07:56",
+   "pos": [
+    -49.3568,
+    -34.4945
+   ],
+   "status": "withdrawing",
+   "course": 140,
+   "speedKn": 8,
+   "note": "航迹推算（低置信）"
+  },
+  {
+   "at": "1939-12-13T08:00",
+   "pos": [
+    -49.3499,
+    -34.5014
+   ],
+   "status": "withdrawing",
+   "course": 140,
+   "speedKn": 8,
+   "note": "航迹推算（低置信）"
+  },
+  {
+   "at": "1939-12-13T08:15",
+   "pos": [
+    -49.3239,
+    -34.5269
+   ],
+   "status": "withdrawing",
+   "course": 140,
+   "speedKn": 8,
+   "note": "已在东南方视距外；Harwood 令 Seafox 通知其靠拢（~0814）"
+  },
+  {
+   "at": "1939-12-13T08:30",
+   "pos": [
+    -49.2979,
+    -34.5524
+   ],
+   "status": "withdrawing",
+   "course": 211,
+   "speedKn": 8,
+   "note": "航迹推算（低置信）"
+  },
+  {
+   "at": "1939-12-13T09:00",
+   "pos": [
+    -49.412,
+    -34.5866
+   ],
+   "status": "withdrawing",
+   "course": 250,
+   "speedKn": 8,
+   "note": "航迹推算（低置信）"
+  },
+  {
+   "at": "1939-12-13T09:12",
+   "pos": [
+    -49.4577,
+    -34.6003
+   ],
+   "status": "withdrawing",
+   "course": 259,
+   "speedKn": 10,
+   "note": "舰向不稳，只有小艇罗经；未能与 FD 会合，改驶最近陆地（西，约 200 海里）"
+  },
+  {
+   "at": "1939-12-13T09:30",
+   "pos": [
+    -49.5184,
+    -34.6003
+   ],
+   "status": "withdrawing",
+   "course": 270,
+   "speedKn": 10,
+   "note": "航迹推算（低置信）"
+  },
+  {
+   "at": "1939-12-13T10:00",
+   "pos": [
+    -49.6197,
+    -34.6003
+   ],
+   "status": "withdrawing",
+   "course": 270,
+   "speedKn": 10,
+   "note": "航迹推算（低置信）"
+  },
+  {
+   "at": "1939-12-13T10:05",
+   "pos": [
+    -49.6365,
+    -34.6003
+   ],
+   "status": "withdrawing",
+   "course": 270,
+   "speedKn": 10,
+   "note": "航迹推算（低置信）"
+  },
+  {
+   "at": "1939-12-13T10:10",
+   "pos": [
+    -49.6534,
+    -34.6003
+   ],
+   "status": "withdrawing",
+   "course": 270,
+   "speedKn": 10,
+   "note": "航迹推算（低置信）"
+  },
+  {
+   "at": "1939-12-13T10:30",
+   "pos": [
+    -49.7209,
+    -34.6003
+   ],
+   "status": "withdrawing",
+   "course": 270,
+   "speedKn": 10,
+   "note": "航迹推算（低置信）"
+  },
+  {
+   "at": "1939-12-13T11:00",
+   "pos": [
+    -49.8221,
+    -34.6003
+   ],
+   "status": "withdrawing",
+   "course": 270,
+   "speedKn": 10,
+   "note": "航迹推算（低置信）"
+  },
+  {
+   "at": "1939-12-13T11:03",
+   "pos": [
+    -49.8323,
+    -34.6003
+   ],
+   "status": "withdrawing",
+   "course": 270,
+   "speedKn": 10,
+   "note": "1105 报告：全部炮塔失能，艏部淹至 14 号隔舱壁，仍可 18 kn；Harwood 令赴福克兰"
+  },
+  {
+   "at": "1939-12-13T11:30",
+   "pos": [
+    -49.8961,
+    -34.701
+   ],
+   "status": "withdrawing",
+   "course": 205,
+   "speedKn": 16,
+   "note": "航迹推算（低置信）"
+  },
+  {
+   "at": "1939-12-13T12:00",
+   "pos": [
+    -49.9647,
+    -34.8218
+   ],
+   "status": "withdrawing",
+   "course": 205,
+   "speedKn": 16,
+   "note": "转向西南赴 Port Stanley，约 16 kn"
+  },
+  {
+   "at": "1939-12-13T13:00",
+   "pos": [
+    -50.1032,
+    -35.0635
+   ],
+   "status": "withdrawing",
+   "course": 205,
+   "speedKn": 16,
+   "note": "航迹推算（低置信）"
+  },
+  {
+   "at": "1939-12-13T14:00",
+   "pos": [
+    -50.2417,
+    -35.3052
+   ],
+   "status": "withdrawing",
+   "course": 205,
+   "speedKn": 16,
+   "note": "航迹推算（低置信）"
+  },
+  {
+   "at": "1939-12-13T15:00",
+   "pos": [
+    -50.3802,
+    -35.5469
+   ],
+   "status": "withdrawing",
+   "course": 205,
+   "speedKn": 16,
+   "note": "航迹推算（低置信）"
+  },
+  {
+   "at": "1939-12-13T15:43",
+   "pos": [
+    -50.4795,
+    -35.7201
+   ],
+   "status": "withdrawing",
+   "course": 205,
+   "speedKn": 16,
+   "note": "航迹推算（低置信）"
+  },
+  {
+   "at": "1939-12-13T16:00",
+   "pos": [
+    -50.5187,
+    -35.7886
+   ],
+   "status": "withdrawing",
+   "course": 205,
+   "speedKn": 16,
+   "note": "航迹推算（低置信）"
+  },
+  {
+   "at": "1939-12-13T17:00",
+   "pos": [
+    -50.6573,
+    -36.0303
+   ],
+   "status": "withdrawing",
+   "course": 205,
+   "speedKn": 16,
+   "note": "航迹推算（低置信）"
+  },
+  {
+   "at": "1939-12-13T18:00",
+   "pos": [
+    -50.7958,
+    -36.2719
+   ],
+   "status": "withdrawing",
+   "course": 205,
+   "speedKn": 16,
+   "note": "航迹推算（低置信）"
+  },
+  {
+   "at": "1939-12-13T19:00",
+   "pos": [
+    -50.9369,
+    -36.5136
+   ],
+   "status": "withdrawing",
+   "course": 205,
+   "speedKn": 16,
+   "note": "航迹推算（低置信）"
+  },
+  {
+   "at": "1939-12-13T19:15",
+   "pos": [
+    -50.9721,
+    -36.574
+   ],
+   "status": "withdrawing",
+   "course": 205,
+   "speedKn": 16,
+   "note": "航迹推算（低置信）"
+  },
+  {
+   "at": "1939-12-13T19:42",
+   "pos": [
+    -51.0356,
+    -36.6828
+   ],
+   "status": "withdrawing",
+   "course": 205,
+   "speedKn": 16,
+   "note": "航迹推算（低置信）"
+  },
+  {
+   "at": "1939-12-13T20:00",
+   "pos": [
+    -51.078,
+    -36.7553
+   ],
+   "status": "withdrawing",
+   "course": 205,
+   "speedKn": 16,
+   "note": "航迹推算（低置信）"
+  },
+  {
+   "at": "1939-12-13T20:30",
+   "pos": [
+    -51.1485,
+    -36.8761
+   ],
+   "status": "withdrawing",
+   "course": 205,
+   "speedKn": 16,
+   "note": "航迹推算（低置信）"
+  },
+  {
+   "at": "1939-12-13T20:48",
+   "pos": [
+    -51.1909,
+    -36.9487
+   ],
+   "status": "withdrawing",
+   "course": 205,
+   "speedKn": 16,
+   "note": "航迹推算（低置信）"
+  },
+  {
+   "at": "1939-12-13T20:55",
+   "pos": [
+    -51.2073,
+    -36.9768
+   ],
+   "status": "withdrawing",
+   "course": 205,
+   "speedKn": 16,
+   "note": "航迹推算（低置信）"
+  },
+  {
+   "at": "1939-12-13T21:00",
+   "pos": [
+    -51.2191,
+    -36.997
+   ],
+   "status": "withdrawing",
+   "course": 205,
+   "speedKn": 16,
+   "note": "航迹推算（低置信）"
+  },
+  {
+   "at": "1939-12-13T21:30",
+   "pos": [
+    -51.2896,
+    -37.1178
+   ],
+   "status": "withdrawing",
+   "course": 205,
+   "speedKn": 16,
+   "note": "航迹推算（低置信）"
+  },
+  {
+   "at": "1939-12-13T22:00",
+   "pos": [
+    -51.3602,
+    -37.2387
+   ],
+   "status": "withdrawing",
+   "course": 205,
+   "speedKn": 16,
+   "note": "航迹推算（低置信）"
+  },
+  {
+   "at": "1939-12-13T22:13",
+   "pos": [
+    -51.3908,
+    -37.291
+   ],
+   "status": "withdrawing",
+   "course": 205,
+   "speedKn": 16,
+   "note": "航迹推算（低置信）"
+  },
+  {
+   "at": "1939-12-13T22:30",
+   "pos": [
+    -51.4307,
+    -37.3595
+   ],
+   "status": "withdrawing",
+   "course": 205,
+   "speedKn": 16,
+   "note": "航迹推算（低置信）"
+  },
+  {
+   "at": "1939-12-13T22:48",
+   "pos": [
+    -51.4731,
+    -37.432
+   ],
+   "status": "withdrawing",
+   "course": 205,
+   "speedKn": 16,
+   "note": "航迹推算（低置信）"
+  },
+  {
+   "at": "1939-12-13T23:00",
+   "pos": [
+    -51.5013,
+    -37.4804
+   ],
+   "status": "withdrawing",
+   "course": 205,
+   "speedKn": 16,
+   "note": "航迹推算（低置信）"
+  },
+  {
+   "at": "1939-12-13T23:15",
+   "pos": [
+    -51.5366,
+    -37.5408
+   ],
+   "status": "withdrawing",
+   "course": 205,
+   "speedKn": 16,
+   "note": "航迹推算（低置信）"
+  },
+  {
+   "at": "1939-12-13T23:30",
+   "pos": [
+    -51.5719,
+    -37.6012
+   ],
+   "status": "withdrawing",
+   "course": 205,
+   "speedKn": 16,
+   "note": "航迹推算（低置信）"
+  },
+  {
+   "at": "1939-12-13T23:45",
+   "pos": [
+    -51.6071,
+    -37.6616
+   ],
+   "status": "withdrawing",
+   "course": 205,
+   "speedKn": 16,
+   "note": "航迹推算（低置信）"
+  },
+  {
+   "at": "1939-12-13T23:50",
+   "pos": [
+    -51.6189,
+    -37.6818
+   ],
+   "status": "withdrawing",
+   "course": 205,
+   "speedKn": 16,
+   "note": "航迹推算（低置信）"
+  },
+  {
+   "at": "1939-12-14T00:00",
+   "pos": [
+    -51.6424,
+    -37.722
+   ],
+   "status": "withdrawing",
+   "course": 270,
+   "speedKn": 16,
+   "note": "继续赴福克兰（沿途三次海葬；12-16 正午抵 Port Stanley）"
+  },
+  {
+   "at": "1939-12-14T12:00",
+   "pos": [
+    -53.6,
+    -40.5
+   ],
+   "status": "withdrawing",
+   "course": 205,
+   "speedKn": 15,
+   "note": "赴福克兰途中（粗略航迹推算）"
+  },
+  {
+   "at": "1939-12-15T12:00",
+   "pos": [
+    -56.0,
+    -46.4
+   ],
+   "status": "withdrawing",
+   "course": 205,
+   "speedKn": 15,
+   "note": "赴福克兰途中（粗略航迹推算）"
+  },
+  {
+   "at": "1939-12-16T12:00",
+   "pos": [
+    -57.85,
+    -51.693
+   ],
+   "status": "active",
+   "course": 180,
+   "speedKn": 0,
+   "note": "12-16 正午抵达 Port Stanley（福克兰）"
+  }
+ ],
+ "gb.ajax": [
+  {
+   "at": "1939-12-13T05:20",
+   "pos": [
+    -49.2833,
+    -34.5667
+   ],
+   "status": "active",
+   "course": 60,
+   "speedKn": 14,
+   "note": "Harwood 0520 定位 34°34′S 49°17′W（Ajax），060°/14 kn；利用最后的曙光演练机动信号"
+  },
+  {
+   "at": "1939-12-13T05:40",
+   "pos": [
+    -49.229,
+    -34.5411
+   ],
+   "status": "active",
+   "course": 60,
+   "speedKn": 14,
+   "note": "解除战位，重组单列纵队 Ajax–Achilles–Exeter，060°（之字平均 NE by E），14 kn"
+  },
+  {
+   "at": "1939-12-13T05:52",
+   "pos": [
+    -49.1799,
+    -34.5178
+   ],
+   "status": "active",
+   "course": 60,
+   "speedKn": 14,
+   "note": "060°/14 kn，单列纵队 Ajax–Achilles–Exeter（位置由 0520 定位倒推/0614 回推）"
+  },
+  {
+   "at": "1939-12-13T06:00",
+   "pos": [
+    -49.1472,
+    -34.5022
+   ],
+   "status": "active",
+   "course": 60,
+   "speedKn": 14,
+   "note": "14 kn，之字平均航向 NE by E（056°）"
+  },
+  {
+   "at": "1939-12-13T06:06",
+   "pos": [
+    -49.1227,
+    -34.4906
+   ],
+   "status": "active",
+   "course": 60,
+   "speedKn": 14,
+   "note": "按 NID 航迹图（相对位置）插值"
+  },
+  {
+   "at": "1939-12-13T06:10",
+   "pos": [
+    -49.1063,
+    -34.4828
+   ],
+   "status": "active",
+   "course": 60,
+   "speedKn": 14,
+   "note": "按 NID 航迹图（相对位置）插值"
+  },
+  {
+   "at": "1939-12-13T06:14",
+   "pos": [
+    -49.09,
+    -34.475
+   ],
+   "status": "active",
+   "course": 61,
+   "speedKn": 20,
+   "note": "Ajax 瞭望发现烟（方位 320）；Harwood 令 Exeter 前出查看。位置：0520 定位 + DR（见 battle.md §3），±3 nm"
+  },
+  {
+   "at": "1939-12-13T06:16",
+   "pos": [
+    -49.0811,
+    -34.4711
+   ],
+   "status": "active",
+   "course": 62,
+   "speedKn": 20,
+   "note": "按 NID 航迹图（相对位置）插值"
+  },
+  {
+   "at": "1939-12-13T06:18",
+   "pos": [
+    -49.0722,
+    -34.4672
+   ],
+   "status": "active",
+   "course": 62,
+   "speedKn": 20,
+   "note": "FD 同时转 340° 缩短距离；全舰增速"
+  },
+  {
+   "at": "1939-12-13T06:20",
+   "pos": [
+    -49.0633,
+    -34.4633
+   ],
+   "status": "engaged",
+   "course": 53,
+   "speedKn": 26,
+   "note": "速度已 >25 kn（Waters）；航迹图 FD 向北折转"
+  },
+  {
+   "at": "1939-12-13T06:22",
+   "pos": [
+    -49.0549,
+    -34.4563
+   ],
+   "status": "engaged",
+   "course": 27,
+   "speedKn": 26,
+   "note": "Achilles 0621 先开火；Ajax 0623 开火；先单舰射击，约 0625 W/T 联络后转集中射击"
+  },
+  {
+   "at": "1939-12-13T06:24",
+   "pos": [
+    -49.0547,
+    -34.4474
+   ],
+   "status": "engaged",
+   "course": 345,
+   "speedKn": 26,
+   "note": "按 NID 航迹图（相对位置）插值"
+  },
+  {
+   "at": "1939-12-13T06:26",
+   "pos": [
+    -49.0585,
+    -34.438
+   ],
+   "status": "engaged",
+   "course": 358,
+   "speedKn": 26,
+   "note": "集中射击，迅速接近并在方位上超越 GS"
+  },
+  {
+   "at": "1939-12-13T06:28",
+   "pos": [
+    -49.0555,
+    -34.4261
+   ],
+   "status": "engaged",
+   "course": 15,
+   "speedKn": 26,
+   "note": "按 NID 航迹图（相对位置）插值"
+  },
+  {
+   "at": "1939-12-13T06:30",
+   "pos": [
+    -49.0504,
+    -34.4148
+   ],
+   "status": "engaged",
+   "course": 34,
+   "speedKn": 28,
+   "note": "GS 将一座 28cm 塔转向 FD"
+  },
+  {
+   "at": "1939-12-13T06:32",
+   "pos": [
+    -49.0393,
+    -34.4073
+   ],
+   "status": "engaged",
+   "course": 58,
+   "speedKn": 28,
+   "note": "约 0631 Ajax 被夹叉 3 次；FD 小幅转离，0634 回转向左缩短距离"
+  },
+  {
+   "at": "1939-12-13T06:34",
+   "pos": [
+    -49.0267,
+    -34.401
+   ],
+   "status": "engaged",
+   "course": 50,
+   "speedKn": 28,
+   "note": "按 NID 航迹图（相对位置）插值"
+  },
+  {
+   "at": "1939-12-13T06:36",
+   "pos": [
+    -49.0172,
+    -34.3918
+   ],
+   "status": "engaged",
+   "course": 39,
+   "speedKn": 28,
+   "note": "FD 航速 28 kn（Admiralty）"
+  },
+  {
+   "at": "1939-12-13T06:37",
+   "pos": [
+    -49.0116,
+    -34.3862
+   ],
+   "status": "engaged",
+   "course": 39,
+   "speedKn": 28,
+   "note": "Ajax 弹射 Seafox；GS 转向 NW，FD 先转北再转西，暂失 A 弧"
+  },
+  {
+   "at": "1939-12-13T06:38",
+   "pos": [
+    -49.0061,
+    -34.3805
+   ],
+   "status": "engaged",
+   "course": 37,
+   "speedKn": 28,
+   "note": "按 NID 航迹图（相对位置）插值"
+  },
+  {
+   "at": "1939-12-13T06:40",
+   "pos": [
+    -48.9966,
+    -34.3683
+   ],
+   "status": "engaged",
+   "course": 26,
+   "speedKn": 31,
+   "note": "28cm 近失弹在 Achilles 舰桥正横炸裂，DCT 4 死"
+  },
+  {
+   "at": "1939-12-13T06:42",
+   "pos": [
+    -48.9916,
+    -34.3547
+   ],
+   "status": "engaged",
+   "course": 7,
+   "speedKn": 31,
+   "note": "按 NID 航迹图（相对位置）插值"
+  },
+  {
+   "at": "1939-12-13T06:44",
+   "pos": [
+    -48.992,
+    -34.3401
+   ],
+   "status": "engaged",
+   "course": 347,
+   "speedKn": 31,
+   "note": "按 NID 航迹图（相对位置）插值"
+  },
+  {
+   "at": "1939-12-13T06:46",
+   "pos": [
+    -48.9994,
+    -34.327
+   ],
+   "status": "engaged",
+   "course": 319,
+   "speedKn": 31,
+   "note": "航迹图：东端最远点，距 GS 8½ nm；Achilles 射击控制 W/T 失灵，转个别射击"
+  },
+  {
+   "at": "1939-12-13T06:48",
+   "pos": [
+    -49.0138,
+    -34.3189
+   ],
+   "status": "engaged",
+   "course": 298,
+   "speedKn": 31,
+   "note": "按 NID 航迹图（相对位置）插值"
+  },
+  {
+   "at": "1939-12-13T06:50",
+   "pos": [
+    -49.03,
+    -34.3138
+   ],
+   "status": "engaged",
+   "course": 281,
+   "speedKn": 31,
+   "note": "按 NID 航迹图（相对位置）插值"
+  },
+  {
+   "at": "1939-12-13T06:52",
+   "pos": [
+    -49.0472,
+    -34.3136
+   ],
+   "status": "engaged",
+   "course": 273,
+   "speedKn": 31,
+   "note": "按 NID 航迹图（相对位置）插值"
+  },
+  {
+   "at": "1939-12-13T06:54",
+   "pos": [
+    -49.0643,
+    -34.3115
+   ],
+   "status": "engaged",
+   "course": 280,
+   "speedKn": 31,
+   "note": "按 NID 航迹图（相对位置）插值"
+  },
+  {
+   "at": "1939-12-13T06:56",
+   "pos": [
+    -49.0816,
+    -34.3094
+   ],
+   "status": "engaged",
+   "course": 289,
+   "speedKn": 31,
+   "note": "公文：转向西北以打开 A 弧（Admiralty：转右舷使全炮可射）"
+  },
+  {
+   "at": "1939-12-13T06:58",
+   "pos": [
+    -49.0989,
+    -34.3016
+   ],
+   "status": "engaged",
+   "course": 306,
+   "speedKn": 31,
+   "note": "按 NID 航迹图（相对位置）插值"
+  },
+  {
+   "at": "1939-12-13T07:00",
+   "pos": [
+    -49.1134,
+    -34.2904
+   ],
+   "status": "engaged",
+   "course": 317,
+   "speedKn": 31,
+   "note": "按 NID 航迹图（相对位置）插值"
+  },
+  {
+   "at": "1939-12-13T07:02",
+   "pos": [
+    -49.1261,
+    -34.2779
+   ],
+   "status": "engaged",
+   "course": 321,
+   "speedKn": 31,
+   "note": "按 NID 航迹图（相对位置）插值"
+  },
+  {
+   "at": "1939-12-13T07:04",
+   "pos": [
+    -49.1386,
+    -34.2653
+   ],
+   "status": "engaged",
+   "course": 316,
+   "speedKn": 31,
+   "note": "按 NID 航迹图（相对位置）插值"
+  },
+  {
+   "at": "1939-12-13T07:06",
+   "pos": [
+    -49.1535,
+    -34.2545
+   ],
+   "status": "engaged",
+   "course": 309,
+   "speedKn": 31,
+   "note": "速度约 29–31 kn（航迹图）"
+  },
+  {
+   "at": "1939-12-13T07:08",
+   "pos": [
+    -49.1694,
+    -34.2458
+   ],
+   "status": "engaged",
+   "course": 290,
+   "speedKn": 31,
+   "note": "按 NID 航迹图（相对位置）插值"
+  },
+  {
+   "at": "1939-12-13T07:10",
+   "pos": [
+    -49.1886,
+    -34.2437
+   ],
+   "status": "engaged",
+   "course": 269,
+   "speedKn": 31,
+   "note": "Harwood 决定接近：转向西、放弃 A 弧，全速（距 GS ≈16 000 码）"
+  },
+  {
+   "at": "1939-12-13T07:12",
+   "pos": [
+    -49.2079,
+    -34.2455
+   ],
+   "status": "engaged",
+   "course": 258,
+   "speedKn": 31,
+   "note": "按 NID 航迹图（相对位置）插值"
+  },
+  {
+   "at": "1939-12-13T07:14",
+   "pos": [
+    -49.2262,
+    -34.2508
+   ],
+   "status": "engaged",
+   "course": 248,
+   "speedKn": 31,
+   "note": "按 NID 航迹图（相对位置）插值"
+  },
+  {
+   "at": "1939-12-13T07:16",
+   "pos": [
+    -49.244,
+    -34.2574
+   ],
+   "status": "engaged",
+   "course": 250,
+   "speedKn": 31,
+   "note": "GS 向左急转时 FD 转向敌人"
+  },
+  {
+   "at": "1939-12-13T07:18",
+   "pos": [
+    -49.2617,
+    -34.2622
+   ],
+   "status": "engaged",
+   "course": 251,
+   "speedKn": 31,
+   "note": "按 NID 航迹图（相对位置）插值"
+  },
+  {
+   "at": "1939-12-13T07:20",
+   "pos": [
+    -49.2793,
+    -34.2666
+   ],
+   "status": "engaged",
+   "course": 269,
+   "speedKn": 31,
+   "note": "FD 转右舷使全炮可射；Ajax 被夹叉（11 000 码）"
+  },
+  {
+   "at": "1939-12-13T07:22",
+   "pos": [
+    -49.2975,
+    -34.2633
+   ],
+   "status": "engaged",
+   "course": 285,
+   "speedKn": 31,
+   "note": "按 NID 航迹图（相对位置）插值"
+  },
+  {
+   "at": "1939-12-13T07:24",
+   "pos": [
+    -49.3152,
+    -34.2587
+   ],
+   "status": "engaged",
+   "course": 296,
+   "speedKn": 31,
+   "note": "Ajax 右转射 4 条鱼雷（9 000 码，左舷管）"
+  },
+  {
+   "at": "1939-12-13T07:25",
+   "pos": [
+    -49.3232,
+    -34.2548
+   ],
+   "status": "engaged",
+   "course": 306,
+   "speedKn": 31,
+   "note": "Ajax 被 28cm 延期弹命中，X、Y 塔失能（X 塔 4 死 6 伤）"
+  },
+  {
+   "at": "1939-12-13T07:26",
+   "pos": [
+    -49.3305,
+    -34.2501
+   ],
+   "status": "engaged",
+   "course": 314,
+   "speedKn": 31,
+   "note": "按 NID 航迹图（相对位置）插值"
+  },
+  {
+   "at": "1939-12-13T07:28",
+   "pos": [
+    -49.3405,
+    -34.2403
+   ],
+   "status": "engaged",
+   "course": 297,
+   "speedKn": 31,
+   "note": "FD 转 ~260° 继续逼近"
+  },
+  {
+   "at": "1939-12-13T07:30",
+   "pos": [
+    -49.3557,
+    -34.24
+   ],
+   "status": "engaged",
+   "course": 259,
+   "speedKn": 31,
+   "note": "按 NID 航迹图（相对位置）插值"
+  },
+  {
+   "at": "1939-12-13T07:32",
+   "pos": [
+    -49.3704,
+    -34.2444
+   ],
+   "status": "engaged",
+   "course": 237,
+   "speedKn": 31,
+   "note": "0731 飞机报告鱼雷将掠过船首，Ajax 转 180°（南）并令 Achilles 从其尾后穿过"
+  },
+  {
+   "at": "1939-12-13T07:34",
+   "pos": [
+    -49.3799,
+    -34.254
+   ],
+   "status": "engaged",
+   "course": 210,
+   "speedKn": 31,
+   "note": "按 NID 航迹图（相对位置）插值"
+  },
+  {
+   "at": "1939-12-13T07:36",
+   "pos": [
+    -49.3873,
+    -34.2651
+   ],
+   "status": "engaged",
+   "course": 218,
+   "speedKn": 31,
+   "note": "距 GS 约 4.3 nm"
+  },
+  {
+   "at": "1939-12-13T07:38",
+   "pos": [
+    -49.3976,
+    -34.2757
+   ],
+   "status": "engaged",
+   "course": 201,
+   "speedKn": 31,
+   "note": "距 8 000 码；Ajax 称 A 塔弹药仅余 20%（A 塔），仅 3 门炮可用"
+  },
+  {
+   "at": "1939-12-13T07:40",
+   "pos": [
+    -49.3983,
+    -34.2892
+   ],
+   "status": "engaged",
+   "course": 166,
+   "speedKn": 28,
+   "note": "Harwood 脱离日间战斗，在烟幕下转向东；Ajax 主桅被 28cm 打断"
+  },
+  {
+   "at": "1939-12-13T07:42",
+   "pos": [
+    -49.39,
+    -34.3008
+   ],
+   "status": "engaged",
+   "course": 126,
+   "speedKn": 28,
+   "note": "按 NID 航迹图（相对位置）插值"
+  },
+  {
+   "at": "1939-12-13T07:44",
+   "pos": [
+    -49.3743,
+    -34.3034
+   ],
+   "status": "engaged",
+   "course": 92,
+   "speedKn": 28,
+   "note": "按 NID 航迹图（相对位置）插值"
+  },
+  {
+   "at": "1939-12-13T07:46",
+   "pos": [
+    -49.3577,
+    -34.3036
+   ],
+   "status": "engaged",
+   "course": 92,
+   "speedKn": 24,
+   "note": "脱离 6 分钟后再转西，准备尾随"
+  },
+  {
+   "at": "1939-12-13T07:50",
+   "pos": [
+    -49.3255,
+    -34.3164
+   ],
+   "status": "engaged",
+   "course": 189,
+   "speedKn": 24,
+   "note": "按 NID 航迹图（相对位置）插值"
+  },
+  {
+   "at": "1939-12-13T07:56",
+   "pos": [
+    -49.3821,
+    -34.3263
+   ],
+   "status": "active",
+   "course": 271,
+   "speedKn": 24,
+   "note": "进入尾随：Achilles 在 A 区（GS 右后），Ajax 在 B 区（左后），距约 15 nm（航迹图终点）"
+  },
+  {
+   "at": "1939-12-13T08:00",
+   "pos": [
+    -49.4158,
+    -34.3263
+   ],
+   "status": "active",
+   "course": 254,
+   "speedKn": 24,
+   "note": "距 GS 约 12–15 nm；Ajax 天线被毁、Achilles 奉命代播 GS 位置（0807）"
+  },
+  {
+   "at": "1939-12-13T08:15",
+   "pos": [
+    -49.5007,
+    -34.3773
+   ],
+   "status": "active",
+   "course": 234,
+   "speedKn": 24,
+   "note": "航迹推算（尾随 GS，距约 12–15 nm）"
+  },
+  {
+   "at": "1939-12-13T09:00",
+   "pos": [
+    -49.8082,
+    -34.4964
+   ],
+   "status": "active",
+   "course": 254,
+   "speedKn": 24,
+   "note": "航迹推算（尾随 GS，距约 12–15 nm）"
+  },
+  {
+   "at": "1939-12-13T09:12",
+   "pos": [
+    -49.8965,
+    -34.5112
+   ],
+   "status": "active",
+   "course": 258,
+   "speedKn": 24,
+   "note": "Ajax 回收 Seafox（升空 2 h 35 min）"
+  },
+  {
+   "at": "1939-12-13T09:30",
+   "pos": [
+    -50.0289,
+    -34.5335
+   ],
+   "status": "active",
+   "course": 258,
+   "speedKn": 24,
+   "note": "航迹推算（尾随 GS，距约 12–15 nm）"
+  },
+  {
+   "at": "1939-12-13T10:00",
+   "pos": [
+    -50.2496,
+    -34.5705
+   ],
+   "status": "active",
+   "course": 258,
+   "speedKn": 24,
+   "note": "航迹推算（尾随 GS，距约 12–15 nm）"
+  },
+  {
+   "at": "1939-12-13T10:05",
+   "pos": [
+    -50.2864,
+    -34.5767
+   ],
+   "status": "active",
+   "course": 258,
+   "speedKn": 24,
+   "note": "Achilles 高估 GS 航速，接近至 23 000 码，GS 以前炮塔齐射 2×3 发，Achilles 在烟幕下转避"
+  },
+  {
+   "at": "1939-12-13T10:10",
+   "pos": [
+    -50.3231,
+    -34.5829
+   ],
+   "status": "active",
+   "course": 258,
+   "speedKn": 24,
+   "note": "航迹推算（尾随 GS，距约 12–15 nm）"
+  },
+  {
+   "at": "1939-12-13T10:30",
+   "pos": [
+    -50.4702,
+    -34.6076
+   ],
+   "status": "active",
+   "course": 258,
+   "speedKn": 24,
+   "note": "航迹推算（尾随 GS，距约 12–15 nm）"
+  },
+  {
+   "at": "1939-12-13T11:00",
+   "pos": [
+    -50.6909,
+    -34.6446
+   ],
+   "status": "active",
+   "course": 261,
+   "speedKn": 24,
+   "note": "航迹推算（尾随 GS，距约 12–15 nm）"
+  },
+  {
+   "at": "1939-12-13T11:03",
+   "pos": [
+    -50.7134,
+    -34.6467
+   ],
+   "status": "active",
+   "course": 263,
+   "speedKn": 24,
+   "note": "发现停船喷汽商船（Shakespeare）；约 1115 Ajax 上前询问，答称无需援助"
+  },
+  {
+   "at": "1939-12-13T11:30",
+   "pos": [
+    -50.9156,
+    -34.6657
+   ],
+   "status": "active",
+   "course": 263,
+   "speedKn": 24,
+   "note": "航迹推算（尾随 GS，距约 12–15 nm）"
+  },
+  {
+   "at": "1939-12-13T12:00",
+   "pos": [
+    -51.1403,
+    -34.6869
+   ],
+   "status": "active",
+   "course": 263,
+   "speedKn": 24,
+   "note": "航迹推算（尾随 GS，距约 12–15 nm）"
+  },
+  {
+   "at": "1939-12-13T13:00",
+   "pos": [
+    -51.5896,
+    -34.7291
+   ],
+   "status": "active",
+   "course": 263,
+   "speedKn": 24,
+   "note": "航迹推算（尾随 GS，距约 12–15 nm）"
+  },
+  {
+   "at": "1939-12-13T14:00",
+   "pos": [
+    -52.0423,
+    -34.7726
+   ],
+   "status": "active",
+   "course": 263,
+   "speedKn": 24,
+   "note": "航迹推算（尾随 GS，距约 12–15 nm）"
+  },
+  {
+   "at": "1939-12-13T15:00",
+   "pos": [
+    -52.495,
+    -34.816
+   ],
+   "status": "active",
+   "course": 263,
+   "speedKn": 24,
+   "note": "航迹推算（尾随 GS，距约 12–15 nm）"
+  },
+  {
+   "at": "1939-12-13T15:43",
+   "pos": [
+    -52.8195,
+    -34.8471
+   ],
+   "status": "active",
+   "course": 263,
+   "speedKn": 24,
+   "note": "Achilles 报“Enemy in sight 297”，1559 更正为英船 Delane"
+  },
+  {
+   "at": "1939-12-13T16:00",
+   "pos": [
+    -52.9477,
+    -34.8594
+   ],
+   "status": "active",
+   "course": 263,
+   "speedKn": 24,
+   "note": "航迹推算（尾随 GS，距约 12–15 nm）"
+  },
+  {
+   "at": "1939-12-13T17:00",
+   "pos": [
+    -53.4004,
+    -34.9028
+   ],
+   "status": "active",
+   "course": 264,
+   "speedKn": 24,
+   "note": "航迹推算（尾随 GS，距约 12–15 nm）"
+  },
+  {
+   "at": "1939-12-13T18:00",
+   "pos": [
+    -53.8601,
+    -34.9435
+   ],
+   "status": "active",
+   "course": 264,
+   "speedKn": 24,
+   "note": "航迹推算（尾随 GS，距约 12–15 nm）"
+  },
+  {
+   "at": "1939-12-13T19:00",
+   "pos": [
+    -54.3197,
+    -34.9841
+   ],
+   "status": "active",
+   "course": 265,
+   "speedKn": 24,
+   "note": "航迹推算（尾随 GS，距约 12–15 nm）"
+  },
+  {
+   "at": "1939-12-13T19:15",
+   "pos": [
+    -54.4413,
+    -34.9911
+   ],
+   "status": "active",
+   "course": 265,
+   "speedKn": 24,
+   "note": "GS 向 Ajax 两次齐射（约 13 nm），Ajax 在烟幕下转避；1902 起 Harwood 令 Achilles 追入河口、Ajax 绕英国浅滩以南"
+  },
+  {
+   "at": "1939-12-13T19:42",
+   "pos": [
+    -54.6435,
+    -35.0102
+   ],
+   "status": "active",
+   "course": 263,
+   "speedKn": 24,
+   "note": "航迹推算（尾随 GS，距约 12–15 nm）"
+  },
+  {
+   "at": "1939-12-13T20:00",
+   "pos": [
+    -54.7783,
+    -35.0228
+   ],
+   "status": "active",
+   "course": 240,
+   "speedKn": 26,
+   "note": "Ajax：在 Lobos 岛外（距 English Bank 约 50 nm）转向西南绕行南侧；Achilles：自 Lobos 与大陆之间穿过，贴近乌拉圭海岸"
+  },
+  {
+   "at": "1939-12-13T20:30",
+   "pos": [
+    -54.96,
+    -35.196
+   ],
+   "status": "active",
+   "course": 228,
+   "speedKn": 26,
+   "note": "航迹推算（尾随 GS，距约 12–15 nm）"
+  },
+  {
+   "at": "1939-12-13T20:48",
+   "pos": [
+    -55.086,
+    -35.268
+   ],
+   "status": "active",
+   "course": 235,
+   "speedKn": 26,
+   "note": "日落；Achilles 距 GS 12½ nm，转 NW 利用余晖"
+  },
+  {
+   "at": "1939-12-13T20:55",
+   "pos": [
+    -55.135,
+    -35.296
+   ],
+   "status": "engaged",
+   "course": 235,
+   "speedKn": 26,
+   "note": "GS 向 Achilles 三次齐射（22 000 码），Achilles 回 5 轮并转避施烟，位置刚过 Punta Negra；随后以 30 kn 西行续尾随"
+  },
+  {
+   "at": "1939-12-13T21:00",
+   "pos": [
+    -55.17,
+    -35.316
+   ],
+   "status": "engaged",
+   "course": 236,
+   "speedKn": 26,
+   "note": "航迹推算（尾随 GS，距约 12–15 nm）"
+  },
+  {
+   "at": "1939-12-13T21:30",
+   "pos": [
+    -55.345,
+    -35.408
+   ],
+   "status": "active",
+   "course": 237,
+   "speedKn": 26,
+   "note": "2115 乌拉圭炮舰 Uruguay 接近 Ajax；GS 2132/2140/2143 单发齐射，Achilles 不回射"
+  },
+  {
+   "at": "1939-12-13T22:00",
+   "pos": [
+    -55.52,
+    -35.5
+   ],
+   "status": "active",
+   "course": 242,
+   "speedKn": 26,
+   "note": "Achilles 距 GS 约 5 nm，判断其将经英国浅滩北侧"
+  },
+  {
+   "at": "1939-12-13T22:13",
+   "pos": [
+    -55.6153,
+    -35.5347
+   ],
+   "status": "active",
+   "course": 246,
+   "speedKn": 26,
+   "note": "Achilles 转南使 GS 衬于蒙得维的亚灯光"
+  },
+  {
+   "at": "1939-12-13T22:30",
+   "pos": [
+    -55.74,
+    -35.58
+   ],
+   "status": "active",
+   "course": 246,
+   "speedKn": 26,
+   "note": "航迹推算（尾随 GS，距约 12–15 nm）"
+  },
+  {
+   "at": "1939-12-13T22:48",
+   "pos": [
+    -55.8338,
+    -35.6191
+   ],
+   "status": "active",
+   "course": 86,
+   "speedKn": 26,
+   "note": "GS 约在 Whistle Buoy 以东 7 nm，入港意图明确"
+  },
+  {
+   "at": "1939-12-13T23:00",
+   "pos": [
+    -55.7692,
+    -35.6154
+   ],
+   "status": "active",
+   "course": 86,
+   "speedKn": 26,
+   "note": "航迹推算（尾随 GS，距约 12–15 nm）"
+  },
+  {
+   "at": "1939-12-13T23:15",
+   "pos": [
+    -55.6885,
+    -35.6108
+   ],
+   "status": "withdrawing",
+   "course": 86,
+   "speedKn": 26,
+   "note": "约 2317 Achilles 收到 Harwood 脱离信号（公文作 2350：撤出河口并划分巡逻区）"
+  },
+  {
+   "at": "1939-12-13T23:30",
+   "pos": [
+    -55.6077,
+    -35.6062
+   ],
+   "status": "withdrawing",
+   "course": 86,
+   "speedKn": 26,
+   "note": "航迹推算（尾随 GS，距约 12–15 nm）"
+  },
+  {
+   "at": "1939-12-13T23:45",
+   "pos": [
+    -55.5269,
+    -35.6015
+   ],
+   "status": "withdrawing",
+   "course": 86,
+   "speedKn": 26,
+   "note": "航迹推算（尾随 GS，距约 12–15 nm）"
+  },
+  {
+   "at": "1939-12-13T23:50",
+   "pos": [
+    -55.5,
+    -35.6
+   ],
+   "status": "withdrawing",
+   "course": 77,
+   "speedKn": 26,
+   "note": "按令撤出至外海：Achilles 守岸侧至英国浅滩线，Ajax 守南区"
+  },
+  {
+   "at": "1939-12-14T00:00",
+   "pos": [
+    -55.4643,
+    -35.5857
+   ],
+   "status": "withdrawing",
+   "course": 64,
+   "speedKn": 18,
+   "note": "夜间在外海巡逻，破晓前避免被衬于东方曙光"
+  },
+  {
+   "at": "1939-12-14T00:10",
+   "pos": [
+    -55.4286,
+    -35.5714
+   ],
+   "status": "withdrawing",
+   "course": 64,
+   "speedKn": 18,
+   "note": "GS 抛锚时舰队已在外海"
+  }
+ ],
+ "nz.achilles": [
+  {
+   "at": "1939-12-13T05:20",
+   "pos": [
+    -49.2886,
+    -34.5692
+   ],
+   "status": "active",
+   "course": 60,
+   "speedKn": 14,
+   "note": "同编队 0520（紧随 Ajax 之后）"
+  },
+  {
+   "at": "1939-12-13T05:40",
+   "pos": [
+    -49.2342,
+    -34.5436
+   ],
+   "status": "active",
+   "course": 60,
+   "speedKn": 14,
+   "note": "解除战位，重组单列纵队 Ajax–Achilles–Exeter，060°（之字平均 NE by E），14 kn"
+  },
+  {
+   "at": "1939-12-13T05:52",
+   "pos": [
+    -49.184,
+    -34.5197
+   ],
+   "status": "active",
+   "course": 60,
+   "speedKn": 14,
+   "note": "060°/14 kn，单列纵队 Ajax–Achilles–Exeter（位置由 0520 定位倒推/0614 回推）"
+  },
+  {
+   "at": "1939-12-13T06:00",
+   "pos": [
+    -49.1513,
+    -34.5042
+   ],
+   "status": "active",
+   "course": 60,
+   "speedKn": 14,
+   "note": "14 kn，之字平均航向 NE by E（056°）"
+  },
+  {
+   "at": "1939-12-13T06:06",
+   "pos": [
+    -49.1268,
+    -34.4925
+   ],
+   "status": "active",
+   "course": 60,
+   "speedKn": 14,
+   "note": "按 NID 航迹图（相对位置）插值"
+  },
+  {
+   "at": "1939-12-13T06:10",
+   "pos": [
+    -49.1104,
+    -34.4847
+   ],
+   "status": "active",
+   "course": 60,
+   "speedKn": 14,
+   "note": "按 NID 航迹图（相对位置）插值"
+  },
+  {
+   "at": "1939-12-13T06:14",
+   "pos": [
+    -49.0941,
+    -34.4769
+   ],
+   "status": "active",
+   "course": 60,
+   "speedKn": 20,
+   "note": "Achilles 在 Ajax 后约 0.3 nm；0614 同时看到 GS 烟"
+  },
+  {
+   "at": "1939-12-13T06:16",
+   "pos": [
+    -49.0856,
+    -34.473
+   ],
+   "status": "active",
+   "course": 62,
+   "speedKn": 20,
+   "note": "按 NID 航迹图（相对位置）插值"
+  },
+  {
+   "at": "1939-12-13T06:18",
+   "pos": [
+    -49.0767,
+    -34.4691
+   ],
+   "status": "active",
+   "course": 62,
+   "speedKn": 20,
+   "note": "FD 同时转 340° 缩短距离；全舰增速"
+  },
+  {
+   "at": "1939-12-13T06:20",
+   "pos": [
+    -49.0678,
+    -34.4652
+   ],
+   "status": "engaged",
+   "course": 59,
+   "speedKn": 26,
+   "note": "升新西兰军旗；0621 开火"
+  },
+  {
+   "at": "1939-12-13T06:22",
+   "pos": [
+    -49.0591,
+    -34.4598
+   ],
+   "status": "engaged",
+   "course": 47,
+   "speedKn": 26,
+   "note": "0621 开火（德方记 0622）"
+  },
+  {
+   "at": "1939-12-13T06:24",
+   "pos": [
+    -49.0533,
+    -34.4522
+   ],
+   "status": "engaged",
+   "course": 5,
+   "speedKn": 26,
+   "note": "按 NID 航迹图（相对位置）插值"
+  },
+  {
+   "at": "1939-12-13T06:26",
+   "pos": [
+    -49.0566,
+    -34.4427
+   ],
+   "status": "engaged",
+   "course": 348,
+   "speedKn": 26,
+   "note": "集中射击，迅速接近并在方位上超越 GS"
+  },
+  {
+   "at": "1939-12-13T06:28",
+   "pos": [
+    -49.057,
+    -34.4321
+   ],
+   "status": "engaged",
+   "course": 8,
+   "speedKn": 26,
+   "note": "按 NID 航迹图（相对位置）插值"
+  },
+  {
+   "at": "1939-12-13T06:30",
+   "pos": [
+    -49.0533,
+    -34.4204
+   ],
+   "status": "engaged",
+   "course": 21,
+   "speedKn": 28,
+   "note": "GS 将一座 28cm 塔转向 FD"
+  },
+  {
+   "at": "1939-12-13T06:32",
+   "pos": [
+    -49.0456,
+    -34.4104
+   ],
+   "status": "engaged",
+   "course": 48,
+   "speedKn": 28,
+   "note": "约 0631 Ajax 被夹叉 3 次；FD 小幅转离，0634 回转向左缩短距离"
+  },
+  {
+   "at": "1939-12-13T06:34",
+   "pos": [
+    -49.033,
+    -34.4042
+   ],
+   "status": "engaged",
+   "course": 57,
+   "speedKn": 28,
+   "note": "按 NID 航迹图（相对位置）插值"
+  },
+  {
+   "at": "1939-12-13T06:36",
+   "pos": [
+    -49.0219,
+    -34.3965
+   ],
+   "status": "engaged",
+   "course": 43,
+   "speedKn": 28,
+   "note": "FD 航速 28 kn（Admiralty）"
+  },
+  {
+   "at": "1939-12-13T06:37",
+   "pos": [
+    -49.0172,
+    -34.3918
+   ],
+   "status": "engaged",
+   "course": 39,
+   "speedKn": 28,
+   "note": "Ajax 弹射 Seafox；GS 转向 NW，FD 先转北再转西，暂失 A 弧"
+  },
+  {
+   "at": "1939-12-13T06:38",
+   "pos": [
+    -49.0116,
+    -34.3862
+   ],
+   "status": "engaged",
+   "course": 39,
+   "speedKn": 28,
+   "note": "按 NID 航迹图（相对位置）插值"
+  },
+  {
+   "at": "1939-12-13T06:40",
+   "pos": [
+    -49.0007,
+    -34.3747
+   ],
+   "status": "engaged",
+   "course": 33,
+   "speedKn": 31,
+   "note": "近失弹弹片击中 DCT：4 死 3 重伤；炮术长 Washbourn 受伤，Parry 腿伤；ACP 接管"
+  },
+  {
+   "at": "1939-12-13T06:42",
+   "pos": [
+    -48.9924,
+    -34.3619
+   ],
+   "status": "engaged",
+   "course": 16,
+   "speedKn": 31,
+   "note": "按 NID 航迹图（相对位置）插值"
+  },
+  {
+   "at": "1939-12-13T06:44",
+   "pos": [
+    -48.9914,
+    -34.3474
+   ],
+   "status": "engaged",
+   "course": 357,
+   "speedKn": 31,
+   "note": "按 NID 航迹图（相对位置）插值"
+  },
+  {
+   "at": "1939-12-13T06:46",
+   "pos": [
+    -48.9953,
+    -34.3334
+   ],
+   "status": "engaged",
+   "course": 333,
+   "speedKn": 31,
+   "note": "射击控制 W/T 失灵，转个别射击；此后约 20 分钟弹着偏短"
+  },
+  {
+   "at": "1939-12-13T06:48",
+   "pos": [
+    -49.0064,
+    -34.3227
+   ],
+   "status": "engaged",
+   "course": 308,
+   "speedKn": 31,
+   "note": "按 NID 航迹图（相对位置）插值"
+  },
+  {
+   "at": "1939-12-13T06:50",
+   "pos": [
+    -49.0217,
+    -34.3159
+   ],
+   "status": "engaged",
+   "course": 291,
+   "speedKn": 31,
+   "note": "按 NID 航迹图（相对位置）插值"
+  },
+  {
+   "at": "1939-12-13T06:52",
+   "pos": [
+    -49.0386,
+    -34.3128
+   ],
+   "status": "engaged",
+   "course": 274,
+   "speedKn": 31,
+   "note": "按 NID 航迹图（相对位置）插值"
+  },
+  {
+   "at": "1939-12-13T06:54",
+   "pos": [
+    -49.0558,
+    -34.3128
+   ],
+   "status": "engaged",
+   "course": 276,
+   "speedKn": 31,
+   "note": "按 NID 航迹图（相对位置）插值"
+  },
+  {
+   "at": "1939-12-13T06:56",
+   "pos": [
+    -49.0729,
+    -34.3101
+   ],
+   "status": "engaged",
+   "course": 282,
+   "speedKn": 31,
+   "note": "公文：转向西北以打开 A 弧（Admiralty：转右舷使全炮可射）"
+  },
+  {
+   "at": "1939-12-13T06:58",
+   "pos": [
+    -49.0902,
+    -34.3055
+   ],
+   "status": "engaged",
+   "course": 298,
+   "speedKn": 31,
+   "note": "按 NID 航迹图（相对位置）插值"
+  },
+  {
+   "at": "1939-12-13T07:00",
+   "pos": [
+    -49.1062,
+    -34.296
+   ],
+   "status": "engaged",
+   "course": 311,
+   "speedKn": 31,
+   "note": "按 NID 航迹图（相对位置）插值"
+  },
+  {
+   "at": "1939-12-13T07:02",
+   "pos": [
+    -49.1198,
+    -34.2842
+   ],
+   "status": "engaged",
+   "course": 319,
+   "speedKn": 31,
+   "note": "按 NID 航迹图（相对位置）插值"
+  },
+  {
+   "at": "1939-12-13T07:04",
+   "pos": [
+    -49.1324,
+    -34.2716
+   ],
+   "status": "engaged",
+   "course": 319,
+   "speedKn": 31,
+   "note": "按 NID 航迹图（相对位置）插值"
+  },
+  {
+   "at": "1939-12-13T07:06",
+   "pos": [
+    -49.146,
+    -34.2599
+   ],
+   "status": "engaged",
+   "course": 313,
+   "speedKn": 31,
+   "note": "速度约 29–31 kn（航迹图）"
+  },
+  {
+   "at": "1939-12-13T07:08",
+   "pos": [
+    -49.1605,
+    -34.249
+   ],
+   "status": "engaged",
+   "course": 302,
+   "speedKn": 31,
+   "note": "按 NID 航迹图（相对位置）插值"
+  },
+  {
+   "at": "1939-12-13T07:10",
+   "pos": [
+    -49.1789,
+    -34.2441
+   ],
+   "status": "engaged",
+   "course": 278,
+   "speedKn": 31,
+   "note": "Harwood 决定接近：转向西、放弃 A 弧，全速（距 GS ≈16 000 码）"
+  },
+  {
+   "at": "1939-12-13T07:12",
+   "pos": [
+    -49.1983,
+    -34.2444
+   ],
+   "status": "engaged",
+   "course": 263,
+   "speedKn": 31,
+   "note": "按 NID 航迹图（相对位置）插值"
+  },
+  {
+   "at": "1939-12-13T07:14",
+   "pos": [
+    -49.2173,
+    -34.2476
+   ],
+   "status": "engaged",
+   "course": 251,
+   "speedKn": 31,
+   "note": "按 NID 航迹图（相对位置）插值"
+  },
+  {
+   "at": "1939-12-13T07:16",
+   "pos": [
+    -49.2351,
+    -34.2541
+   ],
+   "status": "engaged",
+   "course": 247,
+   "speedKn": 31,
+   "note": "GS 向左急转时 FD 转向敌人"
+  },
+  {
+   "at": "1939-12-13T07:18",
+   "pos": [
+    -49.2529,
+    -34.2597
+   ],
+   "status": "engaged",
+   "course": 249,
+   "speedKn": 31,
+   "note": "按 NID 航迹图（相对位置）插值"
+  },
+  {
+   "at": "1939-12-13T07:20",
+   "pos": [
+    -49.2701,
+    -34.2653
+   ],
+   "status": "engaged",
+   "course": 256,
+   "speedKn": 31,
+   "note": "FD 转右舷使全炮可射；Ajax 被夹叉（11 000 码）"
+  },
+  {
+   "at": "1939-12-13T07:22",
+   "pos": [
+    -49.2885,
+    -34.2654
+   ],
+   "status": "engaged",
+   "course": 279,
+   "speedKn": 31,
+   "note": "按 NID 航迹图（相对位置）插值"
+  },
+  {
+   "at": "1939-12-13T07:24",
+   "pos": [
+    -49.3065,
+    -34.2615
+   ],
+   "status": "engaged",
+   "course": 289,
+   "speedKn": 31,
+   "note": "Ajax 右转射 4 条鱼雷（9 000 码，左舷管）"
+  },
+  {
+   "at": "1939-12-13T07:25",
+   "pos": [
+    -49.3152,
+    -34.2587
+   ],
+   "status": "engaged",
+   "course": 296,
+   "speedKn": 31,
+   "note": "Ajax 被 28cm 延期弹命中，X、Y 塔失能（X 塔 4 死 6 伤）"
+  },
+  {
+   "at": "1939-12-13T07:26",
+   "pos": [
+    -49.3232,
+    -34.2548
+   ],
+   "status": "engaged",
+   "course": 306,
+   "speedKn": 31,
+   "note": "按 NID 航迹图（相对位置）插值"
+  },
+  {
+   "at": "1939-12-13T07:28",
+   "pos": [
+    -49.3348,
+    -34.2447
+   ],
+   "status": "engaged",
+   "course": 313,
+   "speedKn": 31,
+   "note": "FD 转 ~260° 继续逼近"
+  },
+  {
+   "at": "1939-12-13T07:30",
+   "pos": [
+    -49.3479,
+    -34.2392
+   ],
+   "status": "engaged",
+   "course": 275,
+   "speedKn": 31,
+   "note": "按 NID 航迹图（相对位置）插值"
+  },
+  {
+   "at": "1939-12-13T07:32",
+   "pos": [
+    -49.3632,
+    -34.2418
+   ],
+   "status": "engaged",
+   "course": 249,
+   "speedKn": 31,
+   "note": "奉令从 Ajax 尾后穿过以尽量缩短遮蔽时间；射击精准"
+  },
+  {
+   "at": "1939-12-13T07:34",
+   "pos": [
+    -49.3768,
+    -34.2481
+   ],
+   "status": "engaged",
+   "course": 220,
+   "speedKn": 31,
+   "note": "按 NID 航迹图（相对位置）插值"
+  },
+  {
+   "at": "1939-12-13T07:36",
+   "pos": [
+    -49.3824,
+    -34.2601
+   ],
+   "status": "engaged",
+   "course": 211,
+   "speedKn": 31,
+   "note": "距 GS 约 4.3 nm"
+  },
+  {
+   "at": "1939-12-13T07:38",
+   "pos": [
+    -49.3933,
+    -34.2698
+   ],
+   "status": "engaged",
+   "course": 215,
+   "speedKn": 31,
+   "note": "距 8 000 码；Ajax 称 A 塔弹药仅余 20%（A 塔），仅 3 门炮可用"
+  },
+  {
+   "at": "1939-12-13T07:40",
+   "pos": [
+    -49.3992,
+    -34.2824
+   ],
+   "status": "engaged",
+   "course": 184,
+   "speedKn": 28,
+   "note": "Harwood 脱离日间战斗，在烟幕下转向东；Ajax 主桅被 28cm 打断"
+  },
+  {
+   "at": "1939-12-13T07:42",
+   "pos": [
+    -49.3951,
+    -34.2955
+   ],
+   "status": "engaged",
+   "course": 149,
+   "speedKn": 28,
+   "note": "按 NID 航迹图（相对位置）插值"
+  },
+  {
+   "at": "1939-12-13T07:44",
+   "pos": [
+    -49.3826,
+    -34.3036
+   ],
+   "status": "engaged",
+   "course": 105,
+   "speedKn": 28,
+   "note": "按 NID 航迹图（相对位置）插值"
+  },
+  {
+   "at": "1939-12-13T07:46",
+   "pos": [
+    -49.366,
+    -34.3033
+   ],
+   "status": "engaged",
+   "course": 91,
+   "speedKn": 24,
+   "note": "脱离 6 分钟后再转西，准备尾随"
+  },
+  {
+   "at": "1939-12-13T07:50",
+   "pos": [
+    -49.3282,
+    -34.3082
+   ],
+   "status": "engaged",
+   "course": 143,
+   "speedKn": 24,
+   "note": "按 NID 航迹图（相对位置）插值"
+  },
+  {
+   "at": "1939-12-13T07:56",
+   "pos": [
+    -49.3711,
+    -34.3219
+   ],
+   "status": "active",
+   "course": 288,
+   "speedKn": 24,
+   "note": "进入尾随：Achilles 在 A 区（GS 右后），Ajax 在 B 区（左后），距约 15 nm（航迹图终点）"
+  },
+  {
+   "at": "1939-12-13T08:00",
+   "pos": [
+    -49.4109,
+    -34.312
+   ],
+   "status": "active",
+   "course": 282,
+   "speedKn": 24,
+   "note": "奉令播发 GS 位置/航向/航速（0807）"
+  },
+  {
+   "at": "1939-12-13T08:15",
+   "pos": [
+    -49.507,
+    -34.2989
+   ],
+   "status": "active",
+   "course": 279,
+   "speedKn": 24,
+   "note": "航迹推算（尾随 GS，距约 12–15 nm）"
+  },
+  {
+   "at": "1939-12-13T09:00",
+   "pos": [
+    -49.822,
+    -34.2854
+   ],
+   "status": "active",
+   "course": 264,
+   "speedKn": 24,
+   "note": "航迹推算（尾随 GS，距约 12–15 nm）"
+  },
+  {
+   "at": "1939-12-13T09:12",
+   "pos": [
+    -49.9183,
+    -34.3018
+   ],
+   "status": "active",
+   "course": 258,
+   "speedKn": 24,
+   "note": "Ajax 回收 Seafox（升空 2 h 35 min）"
+  },
+  {
+   "at": "1939-12-13T09:30",
+   "pos": [
+    -50.0628,
+    -34.3267
+   ],
+   "status": "active",
+   "course": 257,
+   "speedKn": 24,
+   "note": "航迹推算（尾随 GS，距约 12–15 nm）"
+  },
+  {
+   "at": "1939-12-13T10:00",
+   "pos": [
+    -50.3244,
+    -34.3785
+   ],
+   "status": "active",
+   "course": 260,
+   "speedKn": 24,
+   "note": "航迹推算（尾随 GS，距约 12–15 nm）"
+  },
+  {
+   "at": "1939-12-13T10:05",
+   "pos": [
+    -50.3741,
+    -34.3832
+   ],
+   "status": "active",
+   "course": 262,
+   "speedKn": 24,
+   "note": "Achilles 高估 GS 航速，接近至 23 000 码，GS 以前炮塔齐射 2×3 发，Achilles 在烟幕下转避"
+  },
+  {
+   "at": "1939-12-13T10:10",
+   "pos": [
+    -50.3975,
+    -34.3866
+   ],
+   "status": "active",
+   "course": 259,
+   "speedKn": 24,
+   "note": "航迹推算（尾随 GS，距约 12–15 nm）"
+  },
+  {
+   "at": "1939-12-13T10:30",
+   "pos": [
+    -50.4929,
+    -34.4004
+   ],
+   "status": "active",
+   "course": 259,
+   "speedKn": 24,
+   "note": "航迹推算（尾随 GS，距约 12–15 nm）"
+  },
+  {
+   "at": "1939-12-13T11:00",
+   "pos": [
+    -50.7047,
+    -34.4336
+   ],
+   "status": "active",
+   "course": 261,
+   "speedKn": 24,
+   "note": "航迹推算（尾随 GS，距约 12–15 nm）"
+  },
+  {
+   "at": "1939-12-13T11:03",
+   "pos": [
+    -50.7272,
+    -34.4357
+   ],
+   "status": "active",
+   "course": 263,
+   "speedKn": 24,
+   "note": "发现停船喷汽商船（Shakespeare）；约 1115 Ajax 上前询问，答称无需援助"
+  },
+  {
+   "at": "1939-12-13T11:30",
+   "pos": [
+    -50.9294,
+    -34.4547
+   ],
+   "status": "active",
+   "course": 263,
+   "speedKn": 24,
+   "note": "航迹推算（尾随 GS，距约 12–15 nm）"
+  },
+  {
+   "at": "1939-12-13T12:00",
+   "pos": [
+    -51.1541,
+    -34.4758
+   ],
+   "status": "active",
+   "course": 263,
+   "speedKn": 24,
+   "note": "航迹推算（尾随 GS，距约 12–15 nm）"
+  },
+  {
+   "at": "1939-12-13T13:00",
+   "pos": [
+    -51.6034,
+    -34.5181
+   ],
+   "status": "active",
+   "course": 263,
+   "speedKn": 24,
+   "note": "航迹推算（尾随 GS，距约 12–15 nm）"
+  },
+  {
+   "at": "1939-12-13T14:00",
+   "pos": [
+    -52.0528,
+    -34.5604
+   ],
+   "status": "active",
+   "course": 263,
+   "speedKn": 24,
+   "note": "航迹推算（尾随 GS，距约 12–15 nm）"
+  },
+  {
+   "at": "1939-12-13T15:00",
+   "pos": [
+    -52.5021,
+    -34.6026
+   ],
+   "status": "active",
+   "course": 263,
+   "speedKn": 24,
+   "note": "航迹推算（尾随 GS，距约 12–15 nm）"
+  },
+  {
+   "at": "1939-12-13T15:43",
+   "pos": [
+    -52.8242,
+    -34.6329
+   ],
+   "status": "active",
+   "course": 261,
+   "speedKn": 24,
+   "note": "Achilles 报“Enemy in sight 297”，1559 更正为英船 Delane"
+  },
+  {
+   "at": "1939-12-13T16:00",
+   "pos": [
+    -52.9489,
+    -34.6522
+   ],
+   "status": "active",
+   "course": 259,
+   "speedKn": 24,
+   "note": "航迹推算（尾随 GS，距约 12–15 nm）"
+  },
+  {
+   "at": "1939-12-13T17:00",
+   "pos": [
+    -53.3913,
+    -34.7205
+   ],
+   "status": "active",
+   "course": 259,
+   "speedKn": 24,
+   "note": "航迹推算（尾随 GS，距约 12–15 nm）"
+  },
+  {
+   "at": "1939-12-13T18:00",
+   "pos": [
+    -53.8373,
+    -34.7887
+   ],
+   "status": "active",
+   "course": 260,
+   "speedKn": 24,
+   "note": "航迹推算（尾随 GS，距约 12–15 nm）"
+  },
+  {
+   "at": "1939-12-13T19:00",
+   "pos": [
+    -54.2868,
+    -34.8565
+   ],
+   "status": "active",
+   "course": 258,
+   "speedKn": 24,
+   "note": "航迹推算（尾随 GS，距约 12–15 nm）"
+  },
+  {
+   "at": "1939-12-13T19:15",
+   "pos": [
+    -54.4076,
+    -34.88
+   ],
+   "status": "active",
+   "course": 255,
+   "speedKn": 24,
+   "note": "GS 向 Ajax 两次齐射（约 13 nm），Ajax 在烟幕下转避；1902 起 Harwood 令 Achilles 追入河口、Ajax 绕英国浅滩以南"
+  },
+  {
+   "at": "1939-12-13T19:42",
+   "pos": [
+    -54.6337,
+    -34.9329
+   ],
+   "status": "active",
+   "course": 255,
+   "speedKn": 24,
+   "note": "航迹推算（尾随 GS，距约 12–15 nm）"
+  },
+  {
+   "at": "1939-12-13T20:00",
+   "pos": [
+    -54.7877,
+    -34.9645
+   ],
+   "status": "active",
+   "course": 255,
+   "speedKn": 26,
+   "note": "自 Lobos 岛与大陆之间穿过，贴近乌拉圭海岸（公文：inside Lobos Island and close to the Uruguayan coast）"
+  },
+  {
+   "at": "1939-12-13T20:30",
+   "pos": [
+    -55.004,
+    -34.994
+   ],
+   "status": "active",
+   "course": 274,
+   "speedKn": 26,
+   "note": "航迹推算（尾随 GS，距约 12–15 nm）"
+  },
+  {
+   "at": "1939-12-13T20:48",
+   "pos": [
+    -55.1385,
+    -34.9822
+   ],
+   "status": "active",
+   "course": 274,
+   "speedKn": 26,
+   "note": "日落；Achilles 距 GS 12½ nm，转 NW 利用余晖"
+  },
+  {
+   "at": "1939-12-13T20:55",
+   "pos": [
+    -55.2105,
+    -34.9763
+   ],
+   "status": "engaged",
+   "course": 272,
+   "speedKn": 26,
+   "note": "GS 向 Achilles 三次齐射（22 000 码），Achilles 回 5 轮并转避施烟，位置刚过 Punta Negra；随后以 30 kn 西行续尾随"
+  },
+  {
+   "at": "1939-12-13T21:00",
+   "pos": [
+    -55.2429,
+    -34.9777
+   ],
+   "status": "engaged",
+   "course": 267,
+   "speedKn": 26,
+   "note": "航迹推算（尾随 GS，距约 12–15 nm）"
+  },
+  {
+   "at": "1939-12-13T21:30",
+   "pos": [
+    -55.4375,
+    -34.9843
+   ],
+   "status": "active",
+   "course": 268,
+   "speedKn": 26,
+   "note": "2115 乌拉圭炮舰 Uruguay 接近 Ajax；GS 2132/2140/2143 单发齐射，Achilles 不回射"
+  },
+  {
+   "at": "1939-12-13T22:00",
+   "pos": [
+    -55.6448,
+    -34.9895
+   ],
+   "status": "active",
+   "course": 267,
+   "speedKn": 24,
+   "note": "Achilles 距 GS 约 5 nm，判断其将经英国浅滩北侧"
+  },
+  {
+   "at": "1939-12-13T22:13",
+   "pos": [
+    -55.741,
+    -34.9979
+   ],
+   "status": "active",
+   "course": 265,
+   "speedKn": 24,
+   "note": "Achilles 转南使 GS 衬于蒙得维的亚灯光"
+  },
+  {
+   "at": "1939-12-13T22:30",
+   "pos": [
+    -55.856,
+    -35.0055
+   ],
+   "status": "active",
+   "course": 265,
+   "speedKn": 24,
+   "note": "航迹推算（尾随 GS，距约 12–15 nm）"
+  },
+  {
+   "at": "1939-12-13T22:48",
+   "pos": [
+    -55.9783,
+    -35.0142
+   ],
+   "status": "active",
+   "course": 263,
+   "speedKn": 24,
+   "note": "GS 约在 Whistle Buoy 以东 7 nm，入港意图明确"
+  },
+  {
+   "at": "1939-12-13T23:00",
+   "pos": [
+    -56.01,
+    -35.0189
+   ],
+   "status": "active",
+   "course": 260,
+   "speedKn": 24,
+   "note": "航迹推算（尾随 GS，距约 12–15 nm）"
+  },
+  {
+   "at": "1939-12-13T23:15",
+   "pos": [
+    -56.0497,
+    -35.0248
+   ],
+   "status": "withdrawing",
+   "course": 261,
+   "speedKn": 24,
+   "note": "约 2317 Achilles 收到 Harwood 脱离信号（公文作 2350：撤出河口并划分巡逻区）"
+  },
+  {
+   "at": "1939-12-13T23:30",
+   "pos": [
+    -55.9329,
+    -35.0151
+   ],
+   "status": "withdrawing",
+   "course": 84,
+   "speedKn": 26,
+   "note": "航迹推算（尾随 GS，距约 12–15 nm）"
+  },
+  {
+   "at": "1939-12-13T23:45",
+   "pos": [
+    -55.7957,
+    -35.0038
+   ],
+   "status": "withdrawing",
+   "course": 84,
+   "speedKn": 26,
+   "note": "航迹推算（尾随 GS，距约 12–15 nm）"
+  },
+  {
+   "at": "1939-12-13T23:50",
+   "pos": [
+    -55.75,
+    -35.0
+   ],
+   "status": "withdrawing",
+   "course": 81,
+   "speedKn": 26,
+   "note": "按令撤出至外海：Achilles 守岸侧至英国浅滩线，Ajax 守南区"
+  },
+  {
+   "at": "1939-12-14T00:00",
+   "pos": [
+    -55.7214,
+    -34.9929
+   ],
+   "status": "withdrawing",
+   "course": 73,
+   "speedKn": 18,
+   "note": "夜间在外海巡逻，破晓前避免被衬于东方曙光"
+  },
+  {
+   "at": "1939-12-14T00:10",
+   "pos": [
+    -55.6929,
+    -34.9857
+   ],
+   "status": "withdrawing",
+   "course": 73,
+   "speedKn": 18,
+   "note": "GS 抛锚时舰队已在外海"
+  }
+ ],
+ "gb.seafox": [
+  {
+   "at": "1939-12-13T06:37",
+   "pos": [
+    -49.0116,
+    -34.3862
+   ],
+   "flightPhase": "outbound",
+   "altitudeM": 0,
+   "status": "active",
+   "note": "Ajax 弹射 Seafox（飞行员 Lt E.D.G. Lewin，观察员 Lt R.E.N. Kearney；X、Y 炮塔向前射击，炮口风使飞机剧烈摆动）"
+  },
+  {
+   "at": "1939-12-13T06:40",
+   "pos": [
+    -49.0091,
+    -34.3463
+   ],
+   "flightPhase": "engaged",
+   "altitudeM": 600,
+   "status": "active",
+   "note": "占位于 6 英寸巡洋舰“无战斗舷”舰首外侧"
+  },
+  {
+   "at": "1939-12-13T06:54",
+   "pos": [
+    -49.0781,
+    -34.2802
+   ],
+   "flightPhase": "engaged",
+   "altitudeM": 600,
+   "status": "active",
+   "note": "首份空中观测报告（W/T 联络延迟）"
+  },
+  {
+   "at": "1939-12-13T07:10",
+   "pos": [
+    -49.2138,
+    -34.2076
+   ],
+   "flightPhase": "engaged",
+   "altitudeM": 600,
+   "status": "active",
+   "note": "继续观测落弹；误把 Achilles 的短弹报告报给 Ajax 导致 Ajax 弹着过远"
+  },
+  {
+   "at": "1939-12-13T07:25",
+   "pos": [
+    -49.3428,
+    -34.2852
+   ],
+   "flightPhase": "engaged",
+   "altitudeM": 600,
+   "status": "active",
+   "note": "飞近 GS 观察其受损情形，受 GS 高炮射击后退出"
+  },
+  {
+   "at": "1939-12-13T07:31",
+   "pos": [
+    -49.3529,
+    -34.2459
+   ],
+   "flightPhase": "engaged",
+   "altitudeM": 600,
+   "status": "active",
+   "note": "报告“Torpedoes approaching. They will pass ahead of you.”"
+  },
+  {
+   "at": "1939-12-13T07:46",
+   "pos": [
+    -49.3439,
+    -34.2722
+   ],
+   "flightPhase": "engaged",
+   "altitudeM": 600,
+   "status": "active",
+   "note": "跟随 FD；报告 Achilles 射击“beautiful shooting”"
+  },
+  {
+   "at": "1939-12-13T08:14",
+   "pos": [
+    -49.4647,
+    -34.4172
+   ],
+   "flightPhase": "engaged",
+   "altitudeM": 600,
+   "status": "active",
+   "note": "奉 Harwood 令飞往东南通知 Exeter 靠拢"
+  },
+  {
+   "at": "1939-12-13T08:30",
+   "pos": [
+    -49.2979,
+    -34.5358
+   ],
+   "flightPhase": "engaged",
+   "altitudeM": 600,
+   "status": "active",
+   "note": "飞至 Exeter 上空侦察"
+  },
+  {
+   "at": "1939-12-13T08:50",
+   "pos": [
+    -49.4347,
+    -34.4886
+   ],
+   "flightPhase": "engaged",
+   "altitudeM": 600,
+   "status": "active",
+   "note": "返航寻找 Ajax"
+  },
+  {
+   "at": "1939-12-13T09:10",
+   "pos": [
+    -49.8533,
+    -34.5173
+   ],
+   "flightPhase": "returning",
+   "altitudeM": 600,
+   "status": "active",
+   "note": "报告“Exeter is badly damaged, but is joining you as best she can”"
+  },
+  {
+   "at": "1939-12-13T09:12",
+   "pos": [
+    -49.8965,
+    -34.5112
+   ],
+   "flightPhase": "returning",
+   "altitudeM": 0,
+   "status": "active",
+   "note": "Ajax 回收（升空共 2 h 35 min；Woodhouse 与 Lewin 操作出色）"
+  }
+ ]
+}

@@ -4,7 +4,7 @@
  * 这些「随战役变化」的枚举由 makeDataSchemas(manifest, registries) 按战役生成。
  */
 import { z } from 'zod';
-import { ECHELONS, UNIT_TYPES, UNIT_STATUSES, MOVEMENTS, FLIGHT_PHASES, EVENT_CATS } from '../core/types';
+import { ECHELONS, UNIT_TYPES, UNIT_STATUSES, MOVEMENTS, FLIGHT_PHASES, EVENT_CATS, SHIP_KINDS } from '../core/types';
 import type { CampaignManifest } from '../campaign/types';
 
 const ISO_RE = /^(\d{4})-(\d{2})-(\d{2})T(\d{2}):(\d{2})$/;
@@ -46,7 +46,7 @@ const HubEntry = z.object({
   region: z.string().optional(),
   pin: LonLat,
   labelAt: z.enum(['n', 's', 'e', 'w']).optional(),
-  theatre: z.object({ countries: z.array(z.string()).optional(), bbox: z.tuple([z.number(), z.number(), z.number(), z.number()]).optional(), kind: z.enum(['land', 'air']).optional() }).optional(),
+  theatre: z.object({ countries: z.array(z.string()).optional(), bbox: z.tuple([z.number(), z.number(), z.number(), z.number()]).optional(), polygon: z.array(LonLat).min(3).optional(), kind: z.enum(['land', 'air', 'sea']).optional() }).optional(),
   cover: z.string().optional(),
   blurb: z.string().min(10),
   parent: z.string().optional(),
@@ -59,7 +59,11 @@ export const ManifestSchema = z.object({
   id: z.string().regex(/^[a-z0-9]+(-[a-z0-9]+)*-\d{4}$/, 'id 形如 <地名>-<年份>，小写连字符'),
   status: z.enum(['published', 'draft']),
   title: Title,
-  time: z.object({ epoch: ISO, start: ISO, end: ISO, dataEnd: ISO.optional(), tzLabel: z.string(), hoursPerSec: z.number().positive().optional() }),
+  time: z.object({
+    epoch: ISO, start: ISO, end: ISO, dataEnd: ISO.optional(), tzLabel: z.string(), hoursPerSec: z.number().positive().optional(),
+    pace: z.array(z.object({ from: ISO, hoursPerSec: z.number().positive() })).optional(),
+    utcOffset: z.number().min(-14).max(14).optional(),
+  }),
   sides: z.array(SideDef).min(2),
   sideOrder: z.array(z.string()).optional(),
   parentExceptions: z.array(z.tuple([z.string(), z.string()])).optional(),
@@ -125,6 +129,20 @@ export function makeDataSchemas(m: CampaignManifest, reg: Registries) {
     movement: z.enum(MOVEMENTS).optional(),
     flightPhase: z.enum(FLIGHT_PHASES).optional(),
     altitudeM: z.number().min(0).max(15000).optional(),
+    course: z.number().min(0).max(360).optional(),
+    speedKn: z.number().min(0).max(40).optional(),
+  });
+  const ShipWeapon = z.object({
+    id: z.string().regex(/^[A-Za-z0-9_]+$/), label: z.string(), cal: z.string(), kind: z.enum(['main', 'secondary', 'aa', 'torpedo']),
+    mounts: z.number().int().positive().optional(), perMount: z.number().int().positive().optional(),
+    rangeKm: z.number().positive().max(60).optional(), atPct: z.number().min(0).max(100).optional(),
+  });
+  const ShipInfo = z.object({
+    kind: z.enum(SHIP_KINDS), class: I18n.optional(), pennant: z.string().optional(), flag: z.string().optional(),
+    lengthM: z.number().positive().max(400).optional(), beamM: z.number().positive().max(60).optional(),
+    tonnage: z.number().positive().optional(), tonnageKind: z.enum(['std', 'full', 'grt']).optional(),
+    maxKn: z.number().positive().max(40).optional(), crew: z.number().int().positive().optional(),
+    weapons: z.array(ShipWeapon).optional(), silhouette: z.string().regex(/^[a-z0-9_]+$/).optional(),
   });
   const Unit = z.object({
     id: z.string().regex(prefixRe, `部队 id 须为 <阵营前缀>.<名称>，前缀：${m.sides.map((s) => s.prefix).join('/')}`),
@@ -144,6 +162,7 @@ export function makeDataSchemas(m: CampaignManifest, reg: Registries) {
     display: z.literal('container').optional(),
     schematic: z.boolean().optional(),
     modelNote: z.string().optional(),
+    ship: ShipInfo.optional(),
     sources: SourceIds,
     confidence: Conf,
   });
@@ -198,7 +217,7 @@ export function makeDataSchemas(m: CampaignManifest, reg: Registries) {
     units: z.array(z.string()).optional(),
     photo: Photo.optional(),
     sfx: z.array(SfxId).optional(),
-    zoomRel: z.number().min(0.5).max(16).optional(),
+    zoomRel: z.number().min(0.5).max(120).optional(),
     wide: z.boolean().optional(),
     narration: z.string().optional(),
     mapNote: z.string().optional(),
@@ -208,7 +227,7 @@ export function makeDataSchemas(m: CampaignManifest, reg: Registries) {
   });
   const Equipment = z.object({
     id: z.string().regex(/^[a-z0-9_]+$/), side: Side, name: I18n,
-    class: z.enum(['tank_light', 'tank_medium', 'tankette', 'armored_car', 'fighter', 'bomber', 'dive_bomber', 'ship', 'gun', 'small_arms', 'transport', 'glider']),
+    class: z.enum(['tank_light', 'tank_medium', 'tankette', 'armored_car', 'fighter', 'bomber', 'dive_bomber', 'ship', 'gun', 'small_arms', 'transport', 'glider', 'seaplane', 'torpedo']),
     crew: z.number().optional(), weightT: z.number().optional(), armorMm: z.tuple([z.number(), z.number()]).optional(), gun: z.string().optional(),
     speedKmh: z.number().optional(), count: z.number().optional(), model: ModelId.optional(), photo: Photo.optional(),
     desc: z.string().min(1), sources: SourceIds,
@@ -225,6 +244,44 @@ export function makeDataSchemas(m: CampaignManifest, reg: Registries) {
     byPhase: z.record(z.string(), z.partialRecord(Side, SideSummary)).optional(),
     sources: SourceIds,
   });
-  return { Side, Source, Place, Unit, Route, ControlKeyframe, Pocket, Demarcation, Overlay, HistEvent, Equipment, ForcesSummary };
+  // ---------- 海战 data/naval/*.json ----------
+  const NavalId = (p: string) => z.string().regex(new RegExp(`^${p}\\.[a-z0-9_.-]+$`), `id 须为 ${p}.<名称>`);
+  const FirePeriod = z.object({
+    id: NavalId('f'), shooter: z.string(), target: z.string(), weapon: z.string(), from: ISO, to: ISO,
+    rounds: z.number().int().nonnegative().optional(), salvoSec: z.number().positive().max(600).optional(), note: z.string().optional(),
+    sources: SourceIds, confidence: Conf,
+  });
+  const NavalHit = z.object({
+    id: NavalId('h'), at: ISO, shooter: z.string().optional(), target: z.string(), weapon: z.string().optional(),
+    location: z.string().optional(), effect: z.string().min(1), killed: z.number().int().nonnegative().optional(), wounded: z.number().int().nonnegative().optional(),
+    severity: z.union([z.literal(1), z.literal(2), z.literal(3)]), gunsOut: z.array(z.string()).optional(), precision: z.enum(['minute', 'approx']).optional(),
+    sources: SourceIds, confidence: Conf,
+  });
+  const TorpedoLaunch = z.object({
+    id: NavalId('t'), at: ISO, shooter: z.string(), count: z.number().int().positive().max(16), target: z.string().optional(),
+    bearing: z.number().min(0).max(360).optional(), spreadDeg: z.number().min(0).max(60).optional(),
+    speedKn: z.number().positive().max(60).optional(), rangeKm: z.number().positive().max(30).optional(), result: z.string().optional(),
+    sources: SourceIds, confidence: Conf,
+  });
+  const SmokeScreen = z.object({
+    id: NavalId('s'), ship: z.string(), from: ISO, to: ISO, kind: z.enum(['screen', 'funnel']).optional(),
+    widthKm: z.number().positive().max(5).optional(), persistMin: z.number().positive().max(240).optional(), driftDeg: z.number().min(0).max(360).optional(),
+    note: z.string().optional(), sources: SourceIds, confidence: Conf.optional(),
+  });
+  const DamageState = z.object({
+    ship: z.string(), at: ISO, integrity: z.number().min(0).max(1), speedKn: z.number().min(0).max(40).optional(),
+    gunsOut: z.array(z.string()).optional(), fire: z.boolean().optional(), listDeg: z.number().min(-45).max(45).optional(),
+    note: z.string().min(1), sources: SourceIds,
+  });
+  const Signal = z.object({
+    id: NavalId('sig'), at: ISO, from: z.string(), to: z.string().optional(),
+    kind: z.enum(['signal', 'distress', 'radio', 'order', 'report', 'diplomatic']).optional(),
+    text: z.string().min(1), zh: z.string().min(1), sources: SourceIds, confidence: Conf.optional(),
+  });
+  const NavalData = z.object({
+    fire: z.array(FirePeriod).optional(), hits: z.array(NavalHit).optional(), torpedoes: z.array(TorpedoLaunch).optional(),
+    smoke: z.array(SmokeScreen).optional(), damage: z.array(DamageState).optional(), signals: z.array(Signal).optional(),
+  }).strict();
+  return { Side, Source, Place, Unit, Route, ControlKeyframe, Pocket, Demarcation, Overlay, HistEvent, Equipment, ForcesSummary, NavalData, FirePeriod, NavalHit, TorpedoLaunch, SmokeScreen, DamageState, Signal };
 }
 export type DataSchemas = ReturnType<typeof makeDataSchemas>;

@@ -1,0 +1,566 @@
+[
+ {
+  "id": "it.csir",
+  "side": "IT",
+  "echelon": "corps",
+  "type": "hq",
+  "parent": "de.pzgr1",
+  "name": {
+   "zh": "意大利驻俄远征军",
+   "orig": "Corpo di Spedizione Italiano in Russia",
+   "short": "CSIR"
+  },
+  "commander": {
+   "zh": "梅塞",
+   "orig": "Giovanni Messe"
+  },
+  "strength": {
+   "men": 62000
+  },
+  "model": "inf_it",
+  "active": {
+   "from": "1941-07-25T20:00"
+  },
+  "track": [
+   {
+    "at": "1941-07-25T20:00",
+    "pos": [
+     24.02,
+     47.93
+    ],
+    "status": "reserve",
+    "note": "216 列军列运抵喀尔巴阡山下"
+   },
+   {
+    "at": "1941-08-03T20:00",
+    "pos": [
+     26.555,
+     47.751
+    ],
+    "status": "reserve",
+    "note": "在罗马尼亚北部集结"
+   },
+   {
+    "at": "1941-08-14T20:00",
+    "pos": [
+     29.4,
+     47.8
+    ],
+    "status": "active",
+    "note": "归克莱斯特装甲集群指挥"
+   },
+   {
+    "at": "1941-08-24T20:00",
+    "pos": [
+     31.8,
+     47.85
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-09-02T20:00",
+    "pos": [
+     33.4,
+     48.35
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-09-15T20:00",
+    "pos": [
+     34.33,
+     48.605
+    ],
+    "status": "active",
+    "note": "第聂伯河右岸"
+   },
+   {
+    "at": "1941-09-30T20:00",
+    "pos": [
+     34.58,
+     48.78
+    ],
+    "status": "engaged",
+    "note": "彼得里科夫卡合围"
+   },
+   {
+    "at": "1941-10-11T20:00",
+    "pos": [
+     35.87,
+     48.58
+    ],
+    "status": "engaged",
+    "note": "协同攻占巴甫洛格勒"
+   },
+   {
+    "at": "1941-10-21T20:00",
+    "pos": [
+     37.803,
+     48.053
+    ],
+    "status": "engaged",
+    "note": "斯大林诺"
+   },
+   {
+    "at": "1941-11-03T20:00",
+    "pos": [
+     38.01,
+     48.27
+    ],
+    "status": "engaged",
+    "note": "戈尔洛夫卡"
+   },
+   {
+    "at": "1941-11-20T20:00",
+    "pos": [
+     38.06,
+     48.25
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-12-05T20:00",
+    "pos": [
+     38.11,
+     48.25
+    ],
+    "status": "engaged",
+    "note": "冬季阵地"
+   }
+  ],
+  "history": "意大利驻俄远征军由梅塞指挥（原任津加莱斯 7 月中旬病倒），约 6.2 万人，辖“帕苏比奥”“都灵”两个汽车运输步兵师和第 3 快速师“阿梅德奥·德·奥斯塔亲王”。7 月 10 日至 8 月 5 日用 216 列军列运抵喀尔巴阡山下，许多部队随后徒步或骑马行军数百公里。8 月中旬归克莱斯特指挥，9 月 28–30 日在第聂伯河弯的彼得里科夫卡合围苏军，10 月参加攻占巴甫洛格勒和斯大林诺，11 月 2 日攻占戈尔洛夫卡，此后在顿巴斯越冬。",
+  "sources": [
+   "south_wiki_csir_it",
+   "south_messe_1947",
+   "kirchubel_ag"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "it.pasubio",
+  "side": "IT",
+  "echelon": "division",
+  "type": "motorized",
+  "parent": "it.csir",
+  "name": {
+   "zh": "“帕苏比奥”汽车运输步兵师",
+   "orig": "9ª Divisione fanteria autotrasportabile \"Pasubio\"",
+   "short": "Pasubio"
+  },
+  "commander": {
+   "zh": "乔瓦内利",
+   "orig": "Vittorio Giovanelli"
+  },
+  "strength": {
+   "men": 11000
+  },
+  "model": "inf_it",
+  "active": {
+   "from": "1941-07-20T20:00"
+  },
+  "track": [
+   {
+    "at": "1941-07-20T20:00",
+    "pos": [
+     24.12,
+     47.88
+    ],
+    "status": "reserve"
+   },
+   {
+    "at": "1941-07-30T20:00",
+    "pos": [
+     26.755,
+     47.651
+    ],
+    "status": "active",
+    "note": "应马肯森要求紧急开赴前线"
+   },
+   {
+    "at": "1941-08-05T20:00",
+    "pos": [
+     29.3,
+     47.8
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-08-10T20:00",
+    "pos": [
+     31.283,
+     47.717
+    ],
+    "status": "active",
+    "note": "抵达沃兹涅先斯克以北的布格河"
+   },
+   {
+    "at": "1941-08-13T20:00",
+    "pos": [
+     31.033,
+     47.617
+    ],
+    "status": "engaged",
+    "note": "“两河之战”：在波克罗夫斯科耶击败一个苏军团"
+   },
+   {
+    "at": "1941-08-18T20:00",
+    "pos": [
+     32.9,
+     48.1
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-08-21T20:00",
+    "pos": [
+     34.33,
+     48.655
+    ],
+    "status": "active",
+    "note": "进抵第聂伯河"
+   },
+   {
+    "at": "1941-09-21T20:00",
+    "pos": [
+     34.45,
+     48.775
+    ],
+    "status": "engaged",
+    "note": "全军发起进攻"
+   },
+   {
+    "at": "1941-09-23T20:00",
+    "pos": [
+     34.48,
+     48.94
+    ],
+    "status": "engaged",
+    "note": "在察里琴卡夺取奥列利河桥头堡"
+   },
+   {
+    "at": "1941-09-30T20:00",
+    "pos": [
+     34.63,
+     48.76
+    ],
+    "status": "engaged",
+    "note": "彼得里科夫卡合围完成"
+   },
+   {
+    "at": "1941-10-11T20:00",
+    "pos": [
+     35.92,
+     48.53
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-20T20:00",
+    "pos": [
+     37.4,
+     48.1
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-29T20:00",
+    "pos": [
+     37.9,
+     48.25
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-02T20:00",
+    "pos": "@gorlovka",
+    "status": "engaged",
+    "note": "巷战攻占戈尔洛夫卡"
+   },
+   {
+    "at": "1941-11-08T20:00",
+    "pos": "@nikitovka",
+    "status": "engaged",
+    "note": "第 80 团在尼基托夫卡被围"
+   },
+   {
+    "at": "1941-11-13T20:00",
+    "pos": [
+     38.06,
+     48.34
+    ],
+    "status": "engaged",
+    "note": "解围"
+   },
+   {
+    "at": "1941-12-05T20:00",
+    "pos": [
+     38.24,
+     48.3
+    ],
+    "status": "engaged",
+    "note": "哈采佩托夫卡战斗开始"
+   }
+  ],
+  "history": "“帕苏比奥”师是远征军的先头师，7 月 30 日应马肯森要求紧急开赴前线，8 月 10 日抵达沃兹涅先斯克以北的布格河，12–13 日在波克罗夫斯科耶一带打赢意军在苏联的首战“两河之战”。9 月下旬渡奥列利河，30 日在彼得里科夫卡与德军合围苏军。11 月 2 日经巷战攻占戈尔洛夫卡，第 80 团在尼基托夫卡被围数日后突围。",
+  "sources": [
+   "south_wiki_csir_it",
+   "south_messe_1947",
+   "kirchubel_ag"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "it.torino",
+  "side": "IT",
+  "echelon": "division",
+  "type": "infantry",
+  "parent": "it.csir",
+  "name": {
+   "zh": "“都灵”汽车运输步兵师",
+   "orig": "52ª Divisione fanteria autotrasportabile \"Torino\"",
+   "short": "Torino"
+  },
+  "commander": {
+   "zh": "曼齐",
+   "orig": "Luigi Manzi"
+  },
+  "strength": {
+   "men": 11000
+  },
+  "model": "inf_it",
+  "active": {
+   "from": "1941-07-28T20:00"
+  },
+  "track": [
+   {
+    "at": "1941-07-28T20:00",
+    "pos": [
+     24.17,
+     47.98
+    ],
+    "status": "reserve"
+   },
+   {
+    "at": "1941-08-05T20:00",
+    "pos": [
+     26.455,
+     47.801
+    ],
+    "status": "active",
+    "note": "大部徒步行军"
+   },
+   {
+    "at": "1941-08-16T20:00",
+    "pos": [
+     28.3,
+     47.75
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-08-27T20:00",
+    "pos": [
+     30.6,
+     47.85
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-09-05T20:00",
+    "pos": [
+     34.18,
+     48.575
+    ],
+    "status": "active",
+    "note": "非摩托化部队抵达第聂伯河"
+   },
+   {
+    "at": "1941-09-28T20:00",
+    "pos": [
+     34.43,
+     48.68
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-09-30T20:00",
+    "pos": [
+     34.58,
+     48.69
+    ],
+    "status": "engaged",
+    "note": "彼得里科夫卡合围"
+   },
+   {
+    "at": "1941-10-12T20:00",
+    "pos": [
+     35.77,
+     48.48
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-22T20:00",
+    "pos": [
+     37.2,
+     47.95
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-11-10T20:00",
+    "pos": [
+     37.8,
+     48.15
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-19T20:00",
+    "pos": [
+     37.95,
+     48.2
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-05T20:00",
+    "pos": [
+     38.0,
+     48.22
+    ],
+    "status": "engaged"
+   }
+  ],
+  "history": "“都灵”师名为汽车运输师，实际大部靠徒步行军，8 月从罗马尼亚北部一路走到第聂伯河，9 月 5 日非摩托化部队才抵达河岸。9 月底参加彼得里科夫卡合围，10 月随远征军东进顿巴斯，11 月在斯大林诺—戈尔洛夫卡一带作战。",
+  "sources": [
+   "south_wiki_csir_it",
+   "south_messe_1947",
+   "kirchubel_ag"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "it.celere",
+  "side": "IT",
+  "echelon": "division",
+  "type": "cavalry",
+  "parent": "it.csir",
+  "name": {
+   "zh": "第 3 快速师",
+   "orig": "3ª Divisione celere \"Principe Amedeo Duca d'Aosta\"",
+   "short": "3.Celere"
+  },
+  "commander": {
+   "zh": "马拉扎尼",
+   "orig": "Mario Marazzani"
+  },
+  "strength": {
+   "men": 8000
+  },
+  "model": "inf_it",
+  "active": {
+   "from": "1941-07-25T20:00"
+  },
+  "track": [
+   {
+    "at": "1941-07-25T20:00",
+    "pos": [
+     24.07,
+     47.98
+    ],
+    "status": "reserve"
+   },
+   {
+    "at": "1941-08-05T20:00",
+    "pos": [
+     26.655,
+     47.701
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-08-15T20:00",
+    "pos": [
+     28.9,
+     47.75
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-08-25T20:00",
+    "pos": [
+     31.5,
+     47.9
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-09-10T20:00",
+    "pos": [
+     34.38,
+     48.605
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-09-30T20:00",
+    "pos": [
+     34.71,
+     48.73
+    ],
+    "status": "engaged",
+    "note": "彼得里科夫卡合围"
+   },
+   {
+    "at": "1941-10-11T20:00",
+    "pos": [
+     35.92,
+     48.61
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-20T20:00",
+    "pos": [
+     37.773,
+     48.033
+    ],
+    "status": "engaged",
+    "note": "第 3 狙击兵团夺取斯大林诺西北车站"
+   },
+   {
+    "at": "1941-11-01T20:00",
+    "pos": [
+     38.21,
+     48.23
+    ],
+    "status": "engaged",
+    "note": "狙击兵攻占雷科沃"
+   },
+   {
+    "at": "1941-11-20T20:00",
+    "pos": [
+     38.26,
+     48.18
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-05T20:00",
+    "pos": [
+     38.26,
+     48.15
+    ],
+    "status": "engaged"
+   }
+  ],
+  "history": "第 3 快速师下辖萨沃亚骑兵团、诺瓦拉枪骑兵团和第 3 狙击兵团，是远征军机动性最强的部队。9 月底参加彼得里科夫卡合围，10 月 20 日第 3 狙击兵团夺取斯大林诺西北车站，11 月 1 日攻占雷科沃，此后在顿巴斯防守，12 月底承受苏军“圣诞战役”的冲击。",
+  "sources": [
+   "south_wiki_csir_it",
+   "south_messe_1947",
+   "kirchubel_ag"
+  ],
+  "confidence": "medium"
+ }
+]

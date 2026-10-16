@@ -13,6 +13,7 @@ import * as V from './vehicles';
 import { infantry, cavalry, fieldGun } from './figures';
 import { navalToken, aircraftToken } from './campaignTokens';
 import * as A from './aircraft';
+import * as S from './ships';
 
 import { MODEL_SPECS as MODEL_SPECS_REG } from './specs';
 export { MODEL_SPECS, type ModelSpec, type ModelKind } from './specs';
@@ -30,11 +31,14 @@ const DEFS: Record<string, Def> = {
   pz35t: { scheme: SCHEMES.de, build: V.pz35t },
   pz38t: { scheme: SCHEMES.de, build: V.pz38t },
   sdkfz231: { scheme: SCHEMES.de, build: V.sdkfz231 },
+  stug3: { scheme: SCHEMES.de, build: V.stug3 },
   '7tp': { scheme: SCHEMES.pl, build: V.sevenTP },
   tks: { scheme: SCHEMES.pl, build: V.tks },
   wz34: { scheme: SCHEMES.pl, build: V.wz34 },
   t26: { scheme: SCHEMES.su, build: V.t26 },
   bt7: { scheme: SCHEMES.su, build: V.bt7 },
+  t34: { scheme: SCHEMES.su, build: V.t34 },
+  kv1: { scheme: SCHEMES.su, build: V.kv1 },
   inf_de: { scheme: SCHEMES.inf_de, build: (b) => infantry(b, 'de') },
   inf_pl: { scheme: SCHEMES.inf_pl, build: (b) => infantry(b, 'pl') },
   inf_su: { scheme: SCHEMES.inf_su, build: (b) => infantry(b, 'su') },
@@ -51,6 +55,8 @@ const DEFS: Record<string, Def> = {
   inf_bg: { scheme: SCHEMES.inf_bg, build: (b) => infantry(b, 'pl') },
   inf_nz: { scheme: SCHEMES.inf_nz, build: (b) => infantry(b, 'pl') },
   para_de: { scheme: SCHEMES.para_de, build: (b) => infantry(b, 'de') },
+  inf_fi: { scheme: SCHEMES.inf_fi, build: (b) => infantry(b, 'fi') },
+  inf_ro: { scheme: SCHEMES.inf_ro, build: (b) => infantry(b, 'ro') },
   // 符号化棋子（挪威）：不代表真实舰型、机型或制服
   inf_allied: { scheme: { ...SCHEMES.inf_de, roles: { ...SCHEMES.inf_de.roles, uniform: '#6e7056', helmet: '#68705f' } }, build: (b) => infantry(b, 'de') },
   navy_token: { scheme: TOKEN, build: navalToken },
@@ -64,6 +70,18 @@ const DEFS: Record<string, Def> = {
   do17: { scheme: SCHEMES.luftwaffe, build: A.do17 },
   ju87: { scheme: SCHEMES.luftwaffe, build: A.ju87 },
   ju88: { scheme: SCHEMES.luftwaffe, build: A.ju88 },
+  // 1939 年舰船与舰载机（拉普拉塔河口海战）
+  graf_spee: { scheme: SCHEMES.km_grey, build: S.grafSpee },
+  exeter: { scheme: SCHEMES.rn_grey, build: S.exeter },
+  leander: { scheme: SCHEMES.rn_grey, build: S.leander },
+  county: { scheme: SCHEMES.rn_grey, build: S.county },
+  renown: { scheme: SCHEMES.rn_dark, build: S.renown },
+  ark_royal: { scheme: SCHEMES.rn_dark, build: S.arkRoyal },
+  tanker: { scheme: SCHEMES.km_supply, build: S.tanker },
+  merchant: { scheme: SCHEMES.merchant, build: S.merchant },
+  ar196: { scheme: SCHEMES.km_air, build: S.ar196 },
+  seafox: { scheme: SCHEMES.faa_silver, build: S.seafox },
+  walrus: { scheme: SCHEMES.faa_silver, build: S.walrus },
 
 };
 

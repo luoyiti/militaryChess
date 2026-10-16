@@ -1,0 +1,667 @@
+{
+  "schemaVersion": 2,
+  "id": "river-plate-1939",
+  "status": "published",
+  "title": {
+    "mark": "1939",
+    "zh": "拉普拉塔河口海战",
+    "sub": "施佩伯爵号的猎杀 · 1939 年南大西洋",
+    "en": "Battle of the River Plate",
+    "orig": "Batalla del Río de la Plata",
+    "codename": "拉普拉塔河口海战",
+    "html": "1939 · 拉普拉塔河口海战 — 战旗推演",
+    "description": "1939 年拉普拉塔河口海战复古作战室推演：施佩伯爵号的南大西洋袭击航程、英法猎杀群、12 月 13 日的分钟级炮战、蒙得维的亚的外交角力与自沉。",
+    "favicon": "#b3262e"
+  },
+  "time": {
+    "epoch": "1939-09-26T00:00",
+    "start": "1939-09-26T00:00",
+    "end": "1939-12-21T18:00",
+    "dataEnd": "1939-12-21T18:00",
+    "tzLabel": "英方舰钟 Zone +2（UTC−2；蒙得维的亚当地时间 = 舰钟 − 1 小时）",
+    "hoursPerSec": 12,
+    "utcOffset": -2,
+    "pace": [
+      {
+        "from": "1939-09-26T00:00",
+        "hoursPerSec": 12
+      },
+      {
+        "from": "1939-12-12T00:00",
+        "hoursPerSec": 3
+      },
+      {
+        "from": "1939-12-13T05:45",
+        "hoursPerSec": 0.035
+      },
+      {
+        "from": "1939-12-13T07:50",
+        "hoursPerSec": 0.5
+      },
+      {
+        "from": "1939-12-14T01:00",
+        "hoursPerSec": 3
+      },
+      {
+        "from": "1939-12-17T18:30",
+        "hoursPerSec": 0.12
+      },
+      {
+        "from": "1939-12-17T21:45",
+        "hoursPerSec": 4
+      }
+    ]
+  },
+  "sides": [
+    {
+      "id": "DE",
+      "prefix": "de",
+      "name": "德国",
+      "coalition": "axis",
+      "counter": {
+        "bg": "#56708f",
+        "edge": "#2a3a52",
+        "text": "#f4efe2",
+        "box": "#eef0ea",
+        "ink": "#1f3558"
+      },
+      "css": {
+        "main": "#3a5887",
+        "dark": "#1f3558"
+      },
+      "arrow": {
+        "fill": "rgba(58,88,135,0.62)",
+        "stroke": "#1f3558"
+      },
+      "sandbox": "#3a5887"
+    },
+    {
+      "id": "GB",
+      "prefix": "gb",
+      "name": "英国",
+      "coalition": "allies",
+      "counter": {
+        "bg": "#b8443f",
+        "edge": "#6e1f1f",
+        "text": "#f4efe2",
+        "box": "#eef0ea",
+        "ink": "#7a1a1f"
+      },
+      "css": {
+        "main": "#b3262e",
+        "dark": "#7a1a1f"
+      },
+      "arrow": {
+        "fill": "rgba(179,38,46,0.62)",
+        "stroke": "#7a1a1f"
+      },
+      "sandbox": "#b3262e"
+    },
+    {
+      "id": "NZ",
+      "prefix": "nz",
+      "name": "新西兰",
+      "coalition": "allies",
+      "counter": {
+        "bg": "#2a5a94",
+        "edge": "#163864",
+        "text": "#f4efe2",
+        "box": "#eef0ea",
+        "ink": "#163864"
+      },
+      "css": {
+        "main": "#1f4e89",
+        "dark": "#163864"
+      },
+      "arrow": {
+        "fill": "rgba(31,78,137,0.62)",
+        "stroke": "#163864"
+      },
+      "sandbox": "#1f4e89"
+    },
+    {
+      "id": "FR",
+      "prefix": "fr",
+      "name": "法国",
+      "coalition": "allies",
+      "counter": {
+        "bg": "#8d7346",
+        "edge": "#5c4a28",
+        "text": "#f4efe2",
+        "box": "#eef0ea",
+        "ink": "#5c4a28"
+      },
+      "css": {
+        "main": "#8a7044",
+        "dark": "#5c4a28"
+      },
+      "arrow": {
+        "fill": "rgba(138,112,68,0.62)",
+        "stroke": "#5c4a28"
+      },
+      "sandbox": "#8a7044"
+    }
+  ],
+  "control": {
+    "mode": "air",
+    "landBit": 4,
+    "theatreBits": [],
+    "slots": [
+      {
+        "key": "raider",
+        "label": "袭击舰活动海域（英方研判）",
+        "opacity": 0.7
+      },
+      {
+        "key": "hunt",
+        "label": "英法搜索群警戒海域",
+        "opacity": 0.6,
+        "line": "#6e1b20"
+      }
+    ]
+  },
+  "phases": [
+    {
+      "id": "raid",
+      "from": "1939-09-26T00:00",
+      "name": "通商破坏",
+      "short": "袭击",
+      "sub": "施佩伯爵号在南大西洋截击英国商船，英法组成猎杀群四处搜索",
+      "center": [
+        -12,
+        -18
+      ]
+    },
+    {
+      "id": "indian",
+      "from": "1939-10-29T00:00",
+      "name": "印度洋佯动",
+      "short": "佯动",
+      "sub": "绕过好望角击沉非洲壳牌号，把猎杀群引向东非后折返",
+      "center": [
+        12,
+        -30
+      ]
+    },
+    {
+      "id": "return",
+      "from": "1939-11-20T00:00",
+      "name": "重返大西洋",
+      "short": "折返",
+      "sub": "伪装成战列巡洋舰，在圣赫勒拿以南连沉两船，哈伍德判断它将去拉普拉塔",
+      "center": [
+        -14,
+        -24
+      ]
+    },
+    {
+      "id": "battle",
+      "from": "1939-12-13T05:45",
+      "name": "拉普拉塔河口海战",
+      "short": "海战",
+      "sub": "一艘袖珍战列舰对三艘巡洋舰：82 分钟的白昼炮战",
+      "center": [
+        -49.2,
+        -34.4
+      ]
+    },
+    {
+      "id": "shadow",
+      "from": "1939-12-13T07:50",
+      "name": "尾随追踪",
+      "short": "尾随",
+      "sub": "阿贾克斯号与阿喀琉斯号一路跟踪，德舰驶入蒙得维的亚",
+      "center": [
+        -52.5,
+        -34.9
+      ]
+    },
+    {
+      "id": "montevideo",
+      "from": "1939-12-14T01:00",
+      "name": "蒙得维的亚",
+      "short": "外交",
+      "sub": "72 小时的期限、英国的拖延与虚张声势、柏林的指令",
+      "center": [
+        -55.8,
+        -35.2
+      ]
+    },
+    {
+      "id": "scuttle",
+      "from": "1939-12-17T18:30",
+      "name": "自沉",
+      "short": "自沉",
+      "sub": "施佩伯爵号驶出港外，在浅水中炸毁自己",
+      "center": [
+        -56.25,
+        -35.0
+      ]
+    },
+    {
+      "id": "aftermath",
+      "from": "1939-12-18T00:00",
+      "name": "余波",
+      "short": "余波",
+      "sub": "舰员被拘留于阿根廷，朗斯多夫自杀",
+      "center": [
+        -57.2,
+        -35.0
+      ]
+    }
+  ],
+  "marks": [
+    [
+      "1939-09-30T11:00",
+      "克莱门特号"
+    ],
+    [
+      "1939-10-05T12:00",
+      "猎杀群"
+    ],
+    [
+      "1939-11-15T10:00",
+      "非洲壳牌号"
+    ],
+    [
+      "1939-12-02T13:30",
+      "多里克之星号"
+    ],
+    [
+      "1939-12-13T06:18",
+      "开火"
+    ],
+    [
+      "1939-12-13T07:40",
+      "脱离"
+    ],
+    [
+      "1939-12-14T00:10",
+      "入港"
+    ],
+    [
+      "1939-12-17T20:54",
+      "自沉"
+    ]
+  ],
+  "theme": {
+    "accent": "#b3262e",
+    "accentDark": "#7a1a1f",
+    "accentTint": "rgba(0,0,0,.06)",
+    "theatreBorder": "#b3262e",
+    "theatreHalo": "rgba(0,0,0,.14)",
+    "restFill": "rgba(0,0,0,.05)"
+  },
+  "map": {
+    "fit": "frame",
+    "home3d": [
+      -49.3,
+      -34.4
+    ],
+    "focus": [
+      -20,
+      -22
+    ],
+    "hexKm": 0,
+    "theatreCountries": [
+      "UY"
+    ],
+    "labels": {
+      "countries": [
+        [
+          "巴 西",
+          -50,
+          -12,
+          26,
+          0.5
+        ],
+        [
+          "阿 根 廷",
+          -64,
+          -36,
+          20,
+          0.55
+        ],
+        [
+          "乌 拉 圭",
+          -56,
+          -32.7,
+          9,
+          0.8
+        ],
+        [
+          "南 非",
+          24,
+          -30,
+          18,
+          0.6
+        ],
+        [
+          "安 哥 拉",
+          17.5,
+          -12,
+          14,
+          0.6
+        ]
+      ],
+      "waters": [
+        [
+          "南 大 西 洋",
+          -15,
+          -30,
+          30,
+          false,
+          0
+        ],
+        [
+          "印 度 洋",
+          36,
+          -40,
+          22,
+          false,
+          0
+        ],
+        [
+          "拉 普 拉 塔 河",
+          -57.3,
+          -35.35,
+          7,
+          false,
+          -28
+        ],
+        [
+          "几 内 亚 湾",
+          3,
+          1,
+          14,
+          false,
+          0
+        ],
+        [
+          "泛 美 安 全 区 界 线",
+          -38.6,
+          -38.5,
+          9,
+          true,
+          -49
+        ]
+      ]
+    },
+    "returnZoom": 1.15,
+    "maxZoom": 120,
+    "portMarkers": true
+  },
+  "sandbox": {
+    "kind": "naval",
+    "target": [
+      -49.2,
+      -34.4
+    ]
+  },
+  "director": {
+    "returnTo": "point",
+    "returnCenter": [
+      -15,
+      -22
+    ],
+    "defaultZoom": [
+      1.6,
+      2.2
+    ],
+    "dwell": [
+      14000,
+      19000
+    ]
+  },
+  "audio": {
+    "mode": "bed",
+    "bedTrack": "operations",
+    "musicVol": 0.2,
+    "volumePanel": true,
+    "music": [],
+    "intensity": [
+      {
+        "from": "1939-09-26T00:00",
+        "value": 0.15
+      },
+      {
+        "from": "1939-12-13T06:10",
+        "value": 0.85
+      },
+      {
+        "from": "1939-12-13T07:50",
+        "value": 0.35
+      },
+      {
+        "from": "1939-12-14T01:00",
+        "value": 0.2
+      },
+      {
+        "from": "1939-12-17T19:00",
+        "value": 0.6
+      },
+      {
+        "from": "1939-12-17T21:30",
+        "value": 0.15
+      }
+    ],
+    "introSting": "fanfare",
+    "introStingVolume": 0.2,
+    "battleSfx": [
+      "ship_gun"
+    ]
+  },
+  "ui": {
+    "layers": {},
+    "chapterNav": "none",
+    "brief": {
+      "title": "1939 拉普拉塔河口海战",
+      "sub": "Battle of the River Plate · Batalla del Río de la Plata",
+      "sub2": "1939.9.26 — 1939.12.21",
+      "fine": "时刻一律为英方舰钟（UTC−2），与德方记录相差不到几分钟；蒙得维的亚当地时间早一小时。战斗日航迹按哈伍德战报的 05:20 定位与海军情报处航迹图重建，远洋航程为示意。"
+    },
+    "status": {
+      "cells": [
+        {
+          "sides": [
+            "DE"
+          ],
+          "metric": "act",
+          "label": "德方舰船在航"
+        },
+        {
+          "sides": [
+            "GB",
+            "NZ",
+            "FR"
+          ],
+          "metric": "act",
+          "label": "盟军舰船在航"
+        },
+        {
+          "sides": [
+            "GB"
+          ],
+          "metric": "out",
+          "label": "被击沉的商船",
+          "cls": "out"
+        }
+      ]
+    },
+    "legend": {
+      "title": "舰船标绘",
+      "counterLabels": true,
+      "counters": [
+        [
+          "DE",
+          "naval",
+          "ship",
+          "德国舰船|DE"
+        ],
+        [
+          "GB",
+          "naval",
+          "ship",
+          "英国舰船|GB"
+        ],
+        [
+          "NZ",
+          "naval",
+          "ship",
+          "新西兰分队|NZ"
+        ],
+        [
+          "FR",
+          "naval",
+          "ship",
+          "法国舰船|FR"
+        ]
+      ],
+      "listTitle": "海图与态势",
+      "showSides": false,
+      "items": [
+        "<i class=\"sw side-DE\"></i>德国海军 · 蓝色",
+        "<i class=\"sw side-GB\"></i>英国与英联邦 · 红色",
+        "<i class=\"lg-fill a\"></i>英方研判的袭击舰活动海域",
+        "<i class=\"lg-fill b\"></i>猎杀群警戒海域",
+        "<i class=\"lg-demarc\"></i>泛美中立安全区界线",
+        "细实线：航迹图，刻度为时刻"
+      ],
+      "statuses": "",
+      "after": "<p class=\"fine\">放大到交战海域后，舰船按真实舰长画成俯视剪影，可以看到炮口闪光、弹道、水柱、鱼雷与烟幕；暂停时显示射击线与距离（码）。点击舰船查看损伤图与命中记录。</p>",
+      "keys": "<span><kbd>空格</kbd> 播放／暂停</span><span><kbd>←</kbd><kbd>→</kbd> 上／下一事件</span><span><kbd>H</kbd> 全战区</span><span><kbd>M</kbd> 2D／3D</span><span><kbd>Esc</kbd> 关闭卡片</span>"
+    },
+    "extraLayers": [
+      {
+        "key": "tracks",
+        "label": "航迹图",
+        "default": true
+      },
+      {
+        "key": "gunfire",
+        "label": "炮火与鱼雷",
+        "default": true
+      },
+      {
+        "key": "ranges",
+        "label": "射程圈",
+        "default": false
+      },
+      {
+        "key": "chart",
+        "label": "海图网格",
+        "default": true
+      },
+      {
+        "key": "zones",
+        "label": "泛美安全区",
+        "default": true
+      }
+    ]
+  },
+  "intro": {
+    "stamp": "GEHEIM · MOST SECRET · 绝密",
+    "kicker": "作战档案 No. 1939/XII",
+    "title": "拉普拉塔河口海战",
+    "en": "Battle of the River Plate",
+    "dates": "1939年9月26日 — 12月21日",
+    "paragraphs": [
+      "1939 年秋，德国袖珍战列舰施佩伯爵号潜入南大西洋，十周内击沉九艘英国商船，没有杀死一个船员。英法两国组成八个猎杀群在大洋上搜寻它。南美分舰队的哈伍德准将算准了它的去向：12 月 13 日清晨，三艘英国巡洋舰在拉普拉塔河口外截住了它。",
+      "这是第二次世界大战中第一场大规模海战：一艘 28 厘米炮的装甲舰对两艘轻巡洋舰和一艘重巡洋舰，打了 82 分钟。随后是四天的外交角力——蒙得维的亚的 72 小时期限、英国的拖延与虚张声势、柏林的电令——直到 17 日黄昏，施佩伯爵号在港外的浅水中自沉。"
+    ],
+    "how": "共 {units} 艘舰船、{events} 个历史事件。时间轴按播放时长展开：十周的航程几分钟走完，交战的 82 分钟放慢到逐分钟。",
+    "note": "建议开启声音 · 滚轮放大到交战海域可看到舰船剪影与炮火 · 航迹为依据战报重建的示意",
+    "photo": "File:The German pocket battleship ADMIRAL GRAF SPEE in flames after being scuttled off Montevideo, Uruguay, after the Battle of the River Plate, 17 December 1939. A6.jpg",
+    "caption": "1939 年 12 月 17 日黄昏，施佩伯爵号在蒙得维的亚港外自沉"
+  },
+  "credits": {
+    "disclaimer": "本页面为历史教学用示意推演。战斗日航迹依据哈伍德战报、英国海军情报处航迹图与新西兰官方史重建，远洋航程、猎杀群范围为示意；有争议的时刻已在事件与电文中注明。",
+    "geodata": [
+      "<b>Natural Earth 1:10m</b>（海岸、陆地、河流、湖泊）— 公有领域",
+      "<b>GEBCO / ETOPO1</b> 等深线 — 公有领域",
+      "<b>historical-basemaps world_1938</b>（A. Ourednik 等）— GPL-3.0"
+    ],
+    "extraHtml": "<h3>主要史料</h3><p>哈伍德致海军部战报《The River Plate Battle》（London Gazette 37989，1947）· 英国海军部《The Battle of the River Plate》（1940，附航迹图）· S. D. Waters《The Royal New Zealand Navy》（1956）· 德国海军战争指挥部战争日志（ONI 译本）· 《美国对外关系文件 1939》第五卷 · 《元首海军会议记录》1939-12-16。</p>"
+  },
+  "hub": {
+    "order": 5,
+    "codename": "拉普拉塔河口海战",
+    "codenameOrig": "BATTLE OF THE RIVER PLATE",
+    "stencil": "RIVER PLATE",
+    "pin": [
+      -55.2,
+      -35.1
+    ],
+    "labelAt": "s",
+    "region": "atlantic",
+    "theatre": {
+      "kind": "sea",
+      "polygon": [
+        [
+          -58,
+          -37
+        ],
+        [
+          -50,
+          -25
+        ],
+        [
+          -34,
+          -6
+        ],
+        [
+          -14,
+          6
+        ],
+        [
+          -8,
+          -10
+        ],
+        [
+          10,
+          -16
+        ],
+        [
+          22,
+          -32
+        ],
+        [
+          38,
+          -22
+        ],
+        [
+          40,
+          -34
+        ],
+        [
+          20,
+          -42
+        ],
+        [
+          -14,
+          -38
+        ],
+        [
+          -48,
+          -40
+        ]
+      ]
+    },
+    "blurb": "1939 年 12 月，德国袖珍战列舰施佩伯爵号在南大西洋袭击十周后，于拉普拉塔河口与三艘英国巡洋舰激战，退入蒙得维的亚，四天后自沉。",
+    "cover": "photos/graf-spee-scuttled-a6.webp"
+  },
+  "naval": {
+    "tacticalZoom": 10,
+    "trackTicks": 10,
+    "fleetTicks": 24,
+    "rangeUnit": "yd",
+    "chartGrid": 6,
+    "signals": true
+  },
+  "parentExceptions": [
+    [
+      "NZ",
+      "GB"
+    ]
+  ]
+}

@@ -3,13 +3,14 @@
  * 按目录约定解析成可查询结构。离线已由 tools/validate 校验，这里不再做 schema 校验。浏览器与 Node 共用。
  */
 import type {
-  Place, Unit, Route, ControlKeyframe, Pocket, Demarcation, HistEvent, Equipment, ForcesSummary, Source, LonLat, Pos, Overlay,
+  Place, Unit, Route, ControlKeyframe, Pocket, Demarcation, HistEvent, Equipment, ForcesSummary, Source, LonLat, Pos, Overlay, NavalData,
 } from '../core/types';
 import { ECHELON_RANK } from '../core/types';
 import { isoToHours } from '../core/time';
 import { buildGazetteer, resolveUnits, resolveRoutes, resolvePos, type RUnit, type RRoute, type Gazetteer } from '../model/core';
 import type { CampaignManifest } from '../campaign/types';
 import { campaign } from '../campaign/context';
+import { resolveNaval, type RNaval } from '../naval/model';
 
 export interface RKeyframe { at: string; h: number; a: LonLat[][][]; b: LonLat[][][]; transition?: 'smooth' | 'step'; note?: string }
 export interface RPocket extends Omit<Pocket, 'anchor'> { anchor: LonLat; h0: number; h1: number }
@@ -32,6 +33,8 @@ export interface DB {
   forces: ForcesSummary;
   sources: Map<string, Source>;
   overlays: ROverlay[];
+  /** 海战：射击、命中、鱼雷、烟幕、损伤与电文（data/naval/*.json 合并） */
+  naval: RNaval;
   /** 插件自有数据：data/ext/<plugin>/<name>.json → ext[plugin][name] */
   ext: Record<string, Record<string, unknown>>;
 }
@@ -44,6 +47,7 @@ export const DATA_LAYOUT = {
   fronts: /^\.\/data\/fronts\/[^/]+\.json$/,
   sources: /^\.\/data\/sources\/[^/]+\.json$/,
   ext: /^\.\/data\/ext\/([^/]+)\/([^/]+)\.json$/,
+  naval: /^\.\/data\/naval\/[^/]+\.json$/,
   single: /^\.\/data\/(events|pockets|demarcation|equipment|forces|overlays)\.json$/,
 } as const;
 
@@ -103,9 +107,10 @@ export function buildDB(files: Record<string, unknown>, manifest: CampaignManife
     const m = DATA_LAYOUT.ext.exec(k);
     if (m) (ext[m[1]] ??= {})[m[2]] = files[k];
   }
+  const naval = resolveNaval(pick<NavalData>(files, DATA_LAYOUT.naval));
   const places = [...gaz.values()];
   const forces = single<ForcesSummary>(files, 'forces', { sides: {}, sources: [] });
-  return { gaz, places, units, unitList, roots, routes, keyframes, pockets, demarcation, events, equipment, forces, sources, overlays, ext };
+  return { gaz, places, units, unitList, roots, routes, keyframes, pockets, demarcation, events, equipment, forces, sources, overlays, naval, ext };
 }
 
 let _db: DB | null = null;

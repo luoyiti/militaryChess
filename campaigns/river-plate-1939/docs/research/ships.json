@@ -1,0 +1,2045 @@
+{
+ "graf_spee": {
+  "name": {
+   "zh": "施佩海军上将号（袖珍战列舰）",
+   "orig": "Panzerschiff Admiral Graf Spee"
+  },
+  "class": "Deutschland-class Panzerschiff (heavy cruiser, 'pocket battleship'), Kriegsmarine; as fitted Dec 1939",
+  "lengthM": 186.0,
+  "lengthWlM": 181.7,
+  "beamM": 21.65,
+  "draughtM": 7.34,
+  "dispT": {
+   "std": 11887,
+   "full": 16280,
+   "note": "metric t; std = Gröner/Conway via wiki_de; EN wiki design 14,890 t; full load 16,020 long tons = 16,280 t"
+  },
+  "speedKn": 28.5,
+  "enduranceNm": {
+   "at13kn": 8900,
+   "note": "wiki_de/Gröner; wiki_en gives 16,300 nm at 18.7 kn; fuel up to ~2,500 t diesel"
+  },
+  "machinery": "8 x MAN M9Z 42/58 9-cyl double-acting 2-stroke diesels, ~54,000 PS, 2 shafts, 3-blade props 4.4 m",
+  "crew": 1100,
+  "crewNote": "complement 951-1,150 (30-33 officers); ~1,100 on the cruise; plus ~60 British merchant masters/officers held aboard as prisoners on 13 Dec (to verify, Pope)",
+  "armament": [
+   {
+    "mount": "Anton",
+    "guns": 3,
+    "cal": "28 cm SK C/28 L/52",
+    "turret": "Drh LC/28 triple, fore",
+    "shellKg": 300,
+    "shellType": "APC L/3,7 and HE L/4,2 (both 300 kg)",
+    "mvMs": 910,
+    "rangeKm": 36.5,
+    "maxElevDeg": 40,
+    "rofPerMin": 2.5,
+    "tofS": {
+     "10": 13.6,
+     "15": 22.9,
+     "20": 34.4
+    },
+    "tofNote": "derived (G7 drag model fitted to navweaps range table, +-3%)",
+    "rounds": "105-120 per gun"
+   },
+   {
+    "mount": "Bruno",
+    "guns": 3,
+    "cal": "28 cm SK C/28 L/52",
+    "turret": "Drh LC/28 triple, aft",
+    "shellKg": 300,
+    "mvMs": 910,
+    "rangeKm": 36.5,
+    "maxElevDeg": 40,
+    "rofPerMin": 2.5,
+    "tofS": {
+     "10": 13.6,
+     "15": 22.9,
+     "20": 34.4
+    }
+   },
+   {
+    "mount": "15 cm 1-8 (4 per side amidships, shielded MPL/28 single)",
+    "guns": 8,
+    "cal": "15 cm SK C/28 L/55",
+    "shellKg": 45.3,
+    "mvMs": 875,
+    "rangeKm": 23.0,
+    "maxElevDeg": 35,
+    "rofPerMin": 6,
+    "tofS": {
+     "10": 18.0,
+     "15": 34.4,
+     "20": 54.5
+    },
+    "tofNote": "derived, low-medium confidence (only two navweaps range points)",
+    "rounds": "~150 per gun"
+   },
+   {
+    "mount": "10.5 cm twin Dop. L. C/31 (3 mounts)",
+    "guns": 6,
+    "cal": "10.5 cm SK C/33 L/65 (HA/DP)",
+    "shellKg": 15.1,
+    "mvMs": 900,
+    "rangeKm": 17.7,
+    "ceilingKm": 12.5,
+    "maxElevDeg": 80,
+    "rofPerMin": 15
+   },
+   {
+    "mount": "3.7 cm SK C/30 twin (4 mounts)",
+    "guns": 8,
+    "cal": "3.7 cm SK C/30 L/83",
+    "mvMs": 1000,
+    "rofPerMin": 30,
+    "note": "8 barrels in 4 twin mounts (wiki_de, maritimequest); wiki_en infobox says 8 twin = 16? - not supported"
+   },
+   {
+    "mount": "2 cm C/30 single",
+    "guns": 8,
+    "cal": "2 cm C/30 L/65",
+    "note": "10 originally; 2 transferred to Altmark 1 Sep 1939 (wiki_en) -> 8; wiki_de lists 10"
+   },
+   {
+    "mount": "Torpedo tubes (2 x quadruple, quarterdeck)",
+    "guns": 8,
+    "cal": "53.3 cm (G7a)",
+    "note": "trainable quad banks on the quarterdeck; not fired 13 Dec"
+   }
+  ],
+  "armourMm": {
+   "belt": 80,
+   "deck": 45,
+   "turret": 140,
+   "conningTower": 150,
+   "note": "belt 80 mm midships tapering to 30/10 (Conway via wiki_de), wiki_en says 100 mm; deck 18-45 mm (wiki_de 18-40, 45 fore/aft, 30 mid); turret face 140, sides 85, roofs 85-105, barbettes 100; fwd CT 150 mm"
+  },
+  "fireControl": "Main battery directed from the foretop rangefinder/director on the tower mast (large stereoscopic rangefinder in revolving armoured hood, base length not sourced; ~10 m class) plus after director in the aft fire-control position; 15 cm and 10.5 cm have own directors (3 x SL-4 HA posts). Radar: GEMA FMG 39 G(gO) 'Seetakt' (prototype of FuMO 22), 0.8 x 1.8 m mattress antenna on the face of the foretop rangefinder, ~368 MHz, quoted max range ~8 nm (15 km) - reportedly out of action for most of the 13 Dec battle.",
+  "aircraft": "1 x Arado Ar 196 A-1 on the amidships catapult (no hangar); u/s from 12 Dec (broke down, unrepairable)",
+  "silhouette": [
+   {
+    "part": "stem (clipper-type raked bow, coat-of-arms shield + painted false bow wave)",
+    "atPct": 0,
+    "heightM": 8.5,
+    "note": "forecastle deck at stem ~8-9 m above WL"
+   },
+   {
+    "part": "turret Anton (28 cm triple, centre of barbette)",
+    "atPct": 31,
+    "heightM": 11.5,
+    "note": "roof ~11.5 m; barrels 14.8 m long; barbette dia ~ 11 m; face 140 mm; forecastle deck ~8 m"
+   },
+   {
+    "part": "forward 15 cm single mounts + low superstructure ahead of tower",
+    "atPct": 38,
+    "heightM": 9,
+    "note": "first pair of 15 cm shields on each side, deckhouses ~ 9 m"
+   },
+   {
+    "part": "tower mast ('pagoda'; armoured conning tower base + tiered platforms)",
+    "atPct": 46,
+    "heightM": 32.5,
+    "note": "base width ~14 m, tapering; bridge level ~12 m; searchlight platform ~17 m; AA/FC platform ~22 m; revolving main rangefinder drum ~28 m; Seetakt radar frame + small cupola top ~32.5 m"
+   },
+   {
+    "part": "signal/antenna pole on after side of tower",
+    "atPct": 49,
+    "heightM": 37,
+    "note": "thin pole with yards, tip ~37 m (1936 photo)"
+   },
+   {
+    "part": "funnel (single, large drum with flat cap and searchlight platform)",
+    "atPct": 56,
+    "heightM": 21,
+    "note": "width ~ 12 m fore-aft ~ 9 m; cap top ~21 m"
+   },
+   {
+    "part": "mainmast (pole with 3 HF yards) abaft funnel",
+    "atPct": 58,
+    "heightM": 33
+   },
+   {
+    "part": "15 cm shields 5-8 + 10.5 cm twin mounts + 3.7 cm twins (staggered amidships)",
+    "atPct": 52,
+    "heightM": 9,
+    "note": "15 cm: four per side between ~38 % and ~66 %; 10.5 cm twin mounts on superstructure deck flanking funnel/catapult (exact placing: check NHHC NH 59662/80976 photos)",
+    "spanPct": [
+     38,
+     70
+    ]
+   },
+   {
+    "part": "aircraft crane (slewing boom, usually raised 45 deg) + catapult with Ar 196",
+    "atPct": 65,
+    "heightM": 12,
+    "note": "athwartships catapult between funnel and after fire-control position; aircraft top ~11.5 m"
+   },
+   {
+    "part": "after fire-control tower / aft director",
+    "atPct": 70,
+    "heightM": 15,
+    "note": "rangefinder cupola ~15 m"
+   },
+   {
+    "part": "turret Bruno (28 cm triple)",
+    "atPct": 78,
+    "heightM": 10.5,
+    "note": "barrels point aft in the 1936 photo"
+   },
+   {
+    "part": "quarterdeck torpedo tube banks (2 x 4)",
+    "atPct": 91,
+    "heightM": 6.5,
+    "note": "between Bruno and stern, trainable"
+   },
+   {
+    "part": "stern / ensign staff",
+    "atPct": 100,
+    "heightM": 5.0,
+    "note": "flag staff; Reichskriegsflagge; quarterdeck ~5 m above WL"
+   }
+  ],
+  "silhouetteNote": "Percentages measured from IWM photo 'Panzerschiff Admiral Graf Spee in 1936' (broadside, 1300 px) with LOA 186 m; heights read off the same photo (+-1.5 m); positions +-2 %. Dec 1939 differences: Seetakt radar added on the foretop rangefinder (1939), camouflage pattern, 10.5 cm AA fitted since build, dummy turret/funnel (built 17-26 Nov) REMOVED by ~12 Dec. Confidence: medium-high for positions, medium for heights.",
+  "disguise": {
+   "dummyTurret": "dummy 'B' turret on the bridge roof/forecastle (wood+canvas) built 17-26 Nov 1939 during Altmark replenishment, removed ~12 Dec (wiki_en)",
+   "dummyFunnel": "dummy second funnel behind catapult, same dates",
+   "towerStripes": "Oct 1939 dark stripes on tower edges so it read as a tripod mast (finescale thread, unverified)",
+   "falseBowWave": "white false bow wave painted on hull (visible in Montevideo photo SFA022803470)"
+  },
+  "paint": {
+   "hull": "#6A7078",
+   "deck": "#A58B63",
+   "superstructure": "#9AA0A5",
+   "boottopping": "#2E3033",
+   "underwater": "#6B2E24",
+   "camoDark": "#5E646A",
+   "camoLight": "#B9BDC0",
+   "falseBowWave": "#E8E8E4",
+   "note": "Dec 1939: hull Dunkelgrau 51 (KM 02), superstructure/turrets Hellgrau 50 (KM 01) with disruptive wavy pattern of Dunkelgrau 51 / Dunkelgrau 2 (KM 06) added by crew shortly before 13 Dec; main deck unpainted wood, other decks very dark grey; white false bow wave. Hex values are modelling suggestions (grey-scale photos only)."
+  },
+  "refImages": [
+   "File:Panzerschiff Admiral Graf Spee in 1936.jpg",
+   "File:Graf Spee at Spithead.jpg",
+   "File:Graf Spee Seetakt.jpg",
+   "File:Graf Spee Arado.jpg",
+   "File:Graf Spee Arado 2.jpg",
+   "File:Graf Spee achtern.jpg",
+   "File:Eerste zeeslag Tweede Wereldoorlog slag bij Montevideo, 1939, SFA022803470.jpg",
+   "File:Cruiser Admiral Graf Spee in 1936, Kiel.jpg"
+  ],
+  "src": [
+   "wiki_en_graf_spee",
+   "wiki_de_graf_spee",
+   "navweaps_28cm",
+   "navweaps_15cm",
+   "navweaps_105",
+   "navweaps_radar",
+   "modelingmadness_gs",
+   "finescale_gs",
+   "nhhc_nh59663",
+   "ballistic_fit",
+   "own_photo_measure"
+  ]
+ },
+ "exeter": {
+  "name": {
+   "zh": "埃克塞特号（约克级重巡洋舰）",
+   "orig": "HMS Exeter (68)"
+  },
+  "class": "York-class heavy cruiser (Royal Navy)",
+  "lengthM": 175.3,
+  "lengthWlM": 164.6,
+  "beamM": 17.7,
+  "draughtM": 6.2,
+  "dispT": {
+   "std": 8390,
+   "full": 10620,
+   "note": "long tons; York article gives 10,410 deep"
+  },
+  "speedKn": 32,
+  "enduranceNm": {
+   "at14kn": 10000
+  },
+  "machinery": "4 Parsons geared turbines, 8 Admiralty 3-drum boilers, 80,000 shp, 4 shafts; 1,900 t oil",
+  "crew": 630,
+  "crewNote": "peacetime 630; ~650 in action; 61 killed 13 Dec",
+  "armament": [
+   {
+    "mount": "A",
+    "guns": 2,
+    "cal": "8-in BL Mk VIII (Mk II* twin)",
+    "shellKg": 116.1,
+    "shellType": "SAPC Mk Ib (256 lb); HE 255 lb",
+    "mvMs": 855,
+    "rangeKm": 28.0,
+    "maxElevDeg": 50,
+    "rofPerMin": 3.5,
+    "tofS": {
+     "10": 16.1,
+     "15": 28.5,
+     "20": 44.9
+    },
+    "tofNote": "interpolated from navweaps range table (MV 831 m/s table)"
+   },
+   {
+    "mount": "B",
+    "guns": 2,
+    "cal": "8-in BL Mk VIII (Mk II* twin, superfiring)",
+    "shellKg": 116.1,
+    "mvMs": 855,
+    "rangeKm": 28.0,
+    "maxElevDeg": 50,
+    "rofPerMin": 3.5
+   },
+   {
+    "mount": "Y",
+    "guns": 2,
+    "cal": "8-in BL Mk VIII (Mk II* twin)",
+    "shellKg": 116.1,
+    "mvMs": 855,
+    "rangeKm": 28.0,
+    "maxElevDeg": 50,
+    "rofPerMin": 3.5
+   },
+   {
+    "mount": "4-in HA",
+    "guns": 4,
+    "cal": "QF 4-in Mk V single",
+    "shellKg": 14.1,
+    "mvMs": 728,
+    "rangeKm": 11.5,
+    "ceilingKm": 8.8,
+    "rofPerMin": 12,
+    "note": "mount count 4 per wiki_en Exeter (York article infobox: 6)"
+   },
+   {
+    "mount": "MG",
+    "guns": 8,
+    "cal": "2 x quad 0.5-in Vickers",
+    "note": "replaced 2-pdr pom-poms 1934-35 (wiki_en)"
+   },
+   {
+    "mount": "torpedo tubes",
+    "guns": 6,
+    "cal": "21-in Mk IX, 2 triple banks above water, one per beam amidships",
+    "note": "not fired 13 Dec (torpedo fire from Exeter reported in despatch? verify)"
+   }
+  ],
+  "armourMm": {
+   "belt": 76,
+   "deck": 38,
+   "turret": 25,
+   "magazineCrown": 140,
+   "note": "belt 3 in over machinery & magazines, transverse bulkheads 3.5 in, magazine tops 5.5 in, deck 1.5 in over steering/1.25 in machinery, turrets 1 in (face 2 in per some sources)"
+  },
+  "fireControl": "Admiralty Fire Control Table; director control tower atop the bridge (DCT) with 15-ft rangefinder; 8-in turrets have 15-ft (4.6 m) rangefinders in A/Y? (verify); NO radar in Dec 1939 (Type 279/284 added at the 1940-41 refit)",
+  "aircraft": "2 x Supermarine Walrus (780/K8341, 769/K8343) on two fixed V-angled catapults amidships; jettisoned early on 13 Dec after splinter damage",
+  "silhouette": [
+   {
+    "part": "stem (flared, raked)",
+    "atPct": 0,
+    "heightM": 8.0
+   },
+   {
+    "part": "turret A (8-in twin)",
+    "atPct": 19,
+    "heightM": 9.0,
+    "note": "roof ~9 m; barrels ~ 10.5 m"
+   },
+   {
+    "part": "turret B (8-in twin, superfiring over A)",
+    "atPct": 27,
+    "heightM": 12.0
+   },
+   {
+    "part": "bridge block (low, enclosed, streamlined; DCT atop)",
+    "atPct": 35,
+    "heightM": 16.0,
+    "note": "from ~31 % to ~39 %; compass platform ~14 m; DCT/rangefinder housing top ~16-17 m",
+    "spanPct": [
+     31,
+     39
+    ]
+   },
+   {
+    "part": "foremast (upright pole, no tripod; control top at ~29 m)",
+    "atPct": 41.4,
+    "heightM": 46.0,
+    "note": "tip ~46 m (1939 photo); yards at ~31 m; control top 28-30 m"
+   },
+   {
+    "part": "funnel 1 (straight, upright, oval)",
+    "atPct": 48.7,
+    "heightM": 21.0
+   },
+   {
+    "part": "funnel 2 (straight, upright, oval)",
+    "atPct": 56.0,
+    "heightM": 21.0,
+    "note": "funnels ~7 m fore-aft, ~9 m wide, spaced ~13 m"
+   },
+   {
+    "part": "catapults (2, fixed, V-angled) + Walrus + crane (starboard)",
+    "atPct": 62.0,
+    "heightM": 15.5,
+    "note": "aircraft top ~15 m; catapult deck ~9 m",
+    "spanPct": [
+     58,
+     67
+    ]
+   },
+   {
+    "part": "mainmast (upright pole)",
+    "atPct": 71.7,
+    "heightM": 44.0
+   },
+   {
+    "part": "turret Y (8-in twin)",
+    "atPct": 79.0,
+    "heightM": 7.5,
+    "note": "fires aft; low"
+   },
+   {
+    "part": "quarterdeck / stern",
+    "atPct": 100,
+    "heightM": 5.0
+   }
+  ],
+  "silhouetteNote": "Measured from USN photo 'HMS Exeter (68) off Coco Solo c1939' (broadside, 1920 px) with LOA 175.3 m; positions +-1.5 %, heights +-1 m. Confidence: high.",
+  "paint": {
+   "hull": "#B4B8B9",
+   "deck": "#9C8460",
+   "superstructure": "#B4B8B9",
+   "boottopping": "#3A3D40",
+   "underwater": "#7A2E24",
+   "turretTops": "#7B7F82",
+   "note": "Pre-war light grey (very pale in the 1939 Coco Solo photo); Dec 1939 probably still light/tropical grey on the SA Division (cf. IWM photo of Achilles from Ajax, watercolour) - Exeter at Plymouth Feb 1940 looks mid-grey (Home Fleet grey). Confidence medium-low on exact tone."
+  },
+  "refImages": [
+   "File:HMS Exeter (68) off Coco Solo c1939.jpg",
+   "File:HMS Exeter (68) at anchor in the 1930s.jpg",
+   "File:Supermarine Walrus abaord HMS Exeter (68) in the 1930s.jpg",
+   "File:Exeter'sDamage1939.jpg",
+   "File:Cruiser HMS Exeter (68) coming into Plymouth on February the 14th 1940 after returning from the battle of The River Plate, December 1939 . - Flickr - tormentor4555.jpg"
+  ],
+  "src": [
+   "wiki_en_exeter",
+   "wiki_en_york",
+   "navweaps_8in",
+   "hmsajax_aircraft",
+   "own_photo_measure"
+  ]
+ },
+ "ajax": {
+  "name": {
+   "zh": "阿贾克斯号（利安德级轻巡洋舰）",
+   "orig": "HMS Ajax (22)"
+  },
+  "class": "Leander-class light cruiser (Royal Navy), flagship of Commodore Harwood",
+  "lengthM": 169.1,
+  "lengthWlM": null,
+  "beamM": 17.1,
+  "draughtM": 5.8,
+  "dispT": {
+   "std": 7270,
+   "full": 9740,
+   "note": "long tons (wiki_en); Conway lists ~7,030 std for the group"
+  },
+  "speedKn": 32.5,
+  "enduranceNm": {
+   "at13kn": 5730
+  },
+  "machinery": "4 Parsons geared turbines, 6 Admiralty 3-drum boilers, 72,000 shp, 4 shafts; ALL boilers in one group exhausting into ONE funnel",
+  "crew": 570,
+  "crewNote": "550 peacetime / 680 wartime max; ~570 on 13 Dec; 7 killed",
+  "armament": [
+   {
+    "mount": "A",
+    "guns": 2,
+    "cal": "6-in BL Mk XXIII (Mk XXI twin)",
+    "shellKg": 45.4,
+    "shellType": "CPBC/HE 100 lb on Leander class (navweaps); 112 lb (50.8 kg) elsewhere",
+    "mvMs": 841,
+    "rangeKm": 23.3,
+    "maxElevDeg": 60,
+    "rofPerMin": 6,
+    "tofS": {
+     "10": 18.4,
+     "15": 34.4,
+     "20": 57.3
+    },
+    "tofNote": "interpolated from navweaps range table for 112 lb shell; 100 lb shell slightly faster"
+   },
+   {
+    "mount": "B",
+    "guns": 2,
+    "cal": "6-in BL Mk XXIII (superfiring over A)",
+    "shellKg": 45.4,
+    "mvMs": 841,
+    "rangeKm": 23.3,
+    "maxElevDeg": 60,
+    "rofPerMin": 6
+   },
+   {
+    "mount": "X",
+    "guns": 2,
+    "cal": "6-in BL Mk XXIII",
+    "shellKg": 45.4,
+    "mvMs": 841,
+    "rangeKm": 23.3,
+    "maxElevDeg": 60,
+    "rofPerMin": 6
+   },
+   {
+    "mount": "Y",
+    "guns": 2,
+    "cal": "6-in BL Mk XXIII (superfiring over X)",
+    "shellKg": 45.4,
+    "mvMs": 841,
+    "rangeKm": 23.3,
+    "maxElevDeg": 60,
+    "rofPerMin": 6
+   },
+   {
+    "mount": "4-in HA",
+    "guns": 4,
+    "cal": "QF 4-in Mk V single (HA Mk III/IV)",
+    "shellKg": 14.1,
+    "mvMs": 728,
+    "rangeKm": 15.0,
+    "ceilingKm": 8.8,
+    "rofPerMin": 12
+   },
+   {
+    "mount": "MG",
+    "guns": 12,
+    "cal": "3 x quad 0.5-in Vickers"
+   },
+   {
+    "mount": "torpedo tubes",
+    "guns": 8,
+    "cal": "21-in Mk IX, 2 x quadruple above water (one per beam abaft funnel)",
+    "note": "Ajax fired none 13 Dec; 4 fired by Achilles? - verify in battle notes"
+   }
+  ],
+  "armourMm": {
+   "belt": 89,
+   "deck": 38,
+   "turret": 25,
+   "note": "magazine box 3 in (76 mm), main belt 3.5-4 in over machinery (wiki_en Ajax: 4 in), ends 2.5 in, deck 1-2 in, turrets 1 in; ~845 t armour"
+  },
+  "fireControl": "Admiralty fire control table; director control tower on the bridge top (DCT); no radar in Dec 1939 (Type 284/286 etc. added 1940+)",
+  "aircraft": "2 x Fairey Seafox (K8582, K8591), 718 Catapult Flight; one flown (Lt E.D.G. Lewin pilot, Lt R.E.N. Kearney observer) - first RN ship-borne aircraft to spot for ship gunfire in a sea battle; catapult + crane between funnel and mainmast",
+  "silhouette": [
+   {
+    "part": "stem (raked, flared)",
+    "atPct": 0,
+    "heightM": 7.0
+   },
+   {
+    "part": "turret A (6-in twin)",
+    "atPct": 13,
+    "heightM": 8.0,
+    "note": "roof ~8 m"
+   },
+   {
+    "part": "turret B (6-in twin, superfiring)",
+    "atPct": 20,
+    "heightM": 10.5
+   },
+   {
+    "part": "bridge structure (tall, with DCT atop)",
+    "atPct": 29,
+    "heightM": 17.5,
+    "note": "compass platform ~14 m, DCT/rangefinder top ~18 m",
+    "spanPct": [
+     25,
+     33
+    ]
+   },
+   {
+    "part": "foremast (single pole, stepped abaft bridge, W/T yards)",
+    "atPct": 34,
+    "heightM": 36.0,
+    "note": "tip ~35-37 m; control top at ~25 m"
+   },
+   {
+    "part": "funnel (single, very large, oval, trunked - unique in RN cruisers)",
+    "atPct": 44,
+    "heightM": 19.0,
+    "note": "~9 m fore-aft x ~6 m wide; top ~18-19 m; raked cap slightly"
+   },
+   {
+    "part": "catapult (centreline? on a gantry) + crane + Seafox",
+    "atPct": 54,
+    "heightM": 12.0,
+    "note": "between funnel and mainmast; aircraft top ~12 m",
+    "spanPct": [
+     50,
+     58
+    ]
+   },
+   {
+    "part": "mainmast (pole, with after DCT/HA director at its foot)",
+    "atPct": 62,
+    "heightM": 30.0,
+    "note": "tip ~30 m"
+   },
+   {
+    "part": "turret X (6-in twin)",
+    "atPct": 74,
+    "heightM": 8.0
+   },
+   {
+    "part": "turret Y (6-in twin, superfiring)",
+    "atPct": 83,
+    "heightM": 10.5
+   },
+   {
+    "part": "stern / ensign staff",
+    "atPct": 100,
+    "heightM": 5.0
+   }
+  ],
+  "silhouetteNote": "Positions are APPROXIMATE (+-4 %): derived from class arrangement drawings/photos (turret order, relative spacing in USN/IWM/AWM photos, Chatham museum model), NOT measured from an orthographic profile. Confidence: medium-low for percentages, medium for heights. Use Wikimedia photos (see refImages) to verify.",
+  "paint": {
+   "hull": "#9AA1A5",
+   "deck": "#9C8460",
+   "superstructure": "#9AA1A5",
+   "boottopping": "#3A3D40",
+   "underwater": "#7A2E24",
+   "turretTops": "#7B7F82",
+   "note": "Dec 1939 RN South America Division cruisers were in pale/light grey overall (tropical station scheme; IWM/NZ photos show very light hulls, darker turret roofs); Exeter at Plymouth Feb 1940 looks Home-Fleet mid-grey. Hex values are modelling suggestions only (grey-scale photos)."
+  },
+  "refImages": [
+   "File:HMS Ajax.jpg",
+   "File:HMS Ajax (47246702452).jpg",
+   "File:HMS Achilles (70).jpg",
+   "File:The Royal Navy during the Second World War HMS Ajax at Portsmouth A 20903.jpg",
+   "File:Cruiser HMS Leander (1931) (49683162366).jpg"
+  ],
+  "src": [
+   "wiki_en_ajax",
+   "wiki_en_leander",
+   "navweaps_6in",
+   "hmsajax_aircraft",
+   "own_photo_measure"
+  ]
+ },
+ "achilles": {
+  "name": {
+   "zh": "阿喀琉斯号（利安德级轻巡洋舰，新西兰分舰队）",
+   "orig": "HMS Achilles (70) / HMNZS Achilles from Oct 1941"
+  },
+  "class": "Leander-class light cruiser; New Zealand Division, Royal Navy (loaned; Capt W.E. Parry RN)",
+  "lengthM": 169.3,
+  "lengthWlM": null,
+  "beamM": 17.1,
+  "draughtM": 5.8,
+  "dispT": {
+   "std": 7270,
+   "full": 9740,
+   "note": "long tons (wiki_en)"
+  },
+  "speedKn": 32.5,
+  "enduranceNm": {
+   "at13kn": 5730
+  },
+  "machinery": "4 Parsons geared turbines, 6 boilers, 73,280 shp (wiki_en); single funnel",
+  "crew": 570,
+  "crewNote": "~570; roughly 60 % New Zealanders in the NZ Division; 4 killed (+1 died of wounds?) on 13 Dec",
+  "armament": [
+   {
+    "mount": "A",
+    "guns": 2,
+    "cal": "6-in BL Mk XXIII (Mk XXI twin)",
+    "shellKg": 45.4,
+    "mvMs": 841,
+    "rangeKm": 23.3,
+    "maxElevDeg": 60,
+    "rofPerMin": 6,
+    "tofS": {
+     "10": 18.4,
+     "15": 34.4,
+     "20": 57.3
+    }
+   },
+   {
+    "mount": "B",
+    "guns": 2,
+    "cal": "6-in BL Mk XXIII",
+    "shellKg": 45.4,
+    "mvMs": 841,
+    "rangeKm": 23.3,
+    "maxElevDeg": 60,
+    "rofPerMin": 5,
+    "note": "B turret averaged ~5 rpm at River Plate (navweaps)"
+   },
+   {
+    "mount": "X",
+    "guns": 2,
+    "cal": "6-in BL Mk XXIII",
+    "shellKg": 45.4,
+    "mvMs": 841,
+    "rangeKm": 23.3,
+    "maxElevDeg": 60,
+    "rofPerMin": 6
+   },
+   {
+    "mount": "Y",
+    "guns": 2,
+    "cal": "6-in BL Mk XXIII",
+    "shellKg": 45.4,
+    "mvMs": 841,
+    "rangeKm": 23.3,
+    "maxElevDeg": 60,
+    "rofPerMin": 10,
+    "note": "Y turret reached ~10 rpm for a few minutes, then ~6 (navweaps); Y turret is now displayed at Devonport NZ"
+   },
+   {
+    "mount": "4-in HA",
+    "guns": 4,
+    "cal": "QF 4-in Mk V single",
+    "shellKg": 14.1,
+    "mvMs": 728,
+    "rangeKm": 15.0,
+    "ceilingKm": 8.8,
+    "rofPerMin": 12
+   },
+   {
+    "mount": "MG",
+    "guns": 12,
+    "cal": "3 x quad 0.5-in Vickers"
+   },
+   {
+    "mount": "torpedo tubes",
+    "guns": 8,
+    "cal": "21-in Mk IX, 2 x quadruple above water"
+   }
+  ],
+  "armourMm": {
+   "belt": 89,
+   "deck": 38,
+   "turret": 25,
+   "note": "as Ajax"
+  },
+  "fireControl": "as Ajax (DCT + fire control table); no radar in Dec 1939; Achilles' fire control was damaged by splinters (Captain Parry wounded, radio/FC positions hit)",
+  "aircraft": "NONE embarked at the battle (hmsajax.org: reports of an Achilles Seafox are incorrect; one Walrus believed lost earlier) - catapult/crane fitted",
+  "silhouette": "same as ajax",
+  "silhouetteNote": "Same hull/superstructure arrangement as Ajax (sister ship; built Cammell Laird). Differences: none structurally significant in 1939; Achilles flew the White Ensign (RN ship on NZ loan; HMNZS only from 1 Oct 1941); NZ crest on bow.",
+  "paint": {
+   "hull": "#9AA1A5",
+   "deck": "#9C8460",
+   "superstructure": "#9AA1A5",
+   "boottopping": "#3A3D40",
+   "underwater": "#7A2E24",
+   "turretTops": "#7B7F82",
+   "ensign": "White Ensign (the ensign flown at River Plate is displayed in Christ Church Cathedral, Stanley); NZ Division - no NZ ensign flown",
+   "note": "Dec 1939 RN South America Division cruisers were in pale/light grey overall (tropical station scheme; IWM/NZ photos show very light hulls, darker turret roofs); Exeter at Plymouth Feb 1940 looks Home-Fleet mid-grey. Hex values are modelling suggestions only (grey-scale photos)."
+  },
+  "refImages": [
+   "File:HMS Achilles (70).jpg",
+   "File:HMNZS Achilles (AWM P03626-012).jpg",
+   "File:StateLibQld 1 165067 Achilles (ship).jpg",
+   "File:HMNZS Achilles (46575831344).jpg",
+   "File:Rear Admiral Henry Harwood on HMNZS Achilles.jpg",
+   "File:HMNZS Achilles Gun.jpg"
+  ],
+  "src": [
+   "wiki_en_achilles",
+   "wiki_en_leander",
+   "navweaps_6in",
+   "hmsajax_aircraft"
+  ]
+ },
+ "cumberland": {
+  "name": {
+   "zh": "坎伯兰号（郡级/肯特级重巡洋舰）",
+   "orig": "HMS Cumberland (57)"
+  },
+  "class": "County-class (Kent sub-class) heavy cruiser; 2nd Cruiser Squadron, South America Division (flagship of Cdre Harwood's reinforcement force)",
+  "lengthM": 190.0,
+  "lengthWlM": 180.0,
+  "beamM": 20.8,
+  "draughtM": 5.3,
+  "dispT": {
+   "std": 9750,
+   "full": 13450,
+   "note": "long tons (wiki_en Cumberland); Kent sub-class 10,400-10,570 std with bulges, 14,150 full"
+  },
+  "speedKn": 31.5,
+  "enduranceNm": {
+   "at12kn": 13300,
+   "at31.5kn": 3100
+  },
+  "machinery": "8 Admiralty 3-drum boilers, 4 Brown-Curtis geared turbines, 80,000 shp, 4 shafts; 3,400 t oil",
+  "crew": 679,
+  "crewNote": "679 (710 as flagship)",
+  "armament": [
+   {
+    "mount": "A",
+    "guns": 2,
+    "cal": "8-in BL Mk VIII (Mk I twin)",
+    "shellKg": 116.1,
+    "mvMs": 855,
+    "rangeKm": 28.0,
+    "maxElevDeg": 70,
+    "rofPerMin": 4,
+    "tofS": {
+     "10": 16.1,
+     "15": 28.5,
+     "20": 44.9
+    }
+   },
+   {
+    "mount": "B",
+    "guns": 2,
+    "cal": "8-in BL Mk VIII (superfiring over A)",
+    "shellKg": 116.1,
+    "mvMs": 855,
+    "rangeKm": 28.0,
+    "maxElevDeg": 70,
+    "rofPerMin": 4
+   },
+   {
+    "mount": "X",
+    "guns": 2,
+    "cal": "8-in BL Mk VIII",
+    "shellKg": 116.1,
+    "mvMs": 855,
+    "rangeKm": 28.0,
+    "maxElevDeg": 70,
+    "rofPerMin": 4
+   },
+   {
+    "mount": "Y",
+    "guns": 2,
+    "cal": "8-in BL Mk VIII (superfiring over X)",
+    "shellKg": 116.1,
+    "mvMs": 855,
+    "rangeKm": 28.0,
+    "maxElevDeg": 70,
+    "rofPerMin": 4
+   },
+   {
+    "mount": "4-in HA",
+    "guns": 8,
+    "cal": "QF 4-in Mk V (singles; 4 original + 4 added abreast funnels 1930s)",
+    "shellKg": 14.1,
+    "mvMs": 728,
+    "rangeKm": 15.0,
+    "ceilingKm": 8.8,
+    "rofPerMin": 12,
+    "note": "wiki_en Dorsetshire: 8; Cumberland count 4-8 (to verify)"
+   },
+   {
+    "mount": "pom-pom",
+    "guns": 16,
+    "cal": "2 x octuple? 2-pdr (Kent class: 8 in quad Mk VII; Berwick/Cornwall octuple)"
+   },
+   {
+    "mount": "MG",
+    "guns": 8,
+    "cal": "2 x quad 0.5-in"
+   },
+   {
+    "mount": "torpedo tubes",
+    "guns": 0,
+    "cal": "21-in tubes removed from 1935"
+   }
+  ],
+  "armourMm": {
+   "belt": 114,
+   "deck": 38,
+   "turret": 25,
+   "note": "4.5 in belt over machinery (added 1935-36 refit; wiki_en County class), lower deck 1.25-1.5 in, magazine boxes 1-4 in, turrets 1 in"
+  },
+  "fireControl": "DCT on the bridge + 2 high-angle control positions; no radar in Dec 1939",
+  "aircraft": "1 catapult (fixed, athwartships, on hangar roof) + hangar for 2 aircraft: Supermarine Walrus (1-2; hmsajax 'reportedly three, unconfirmed')",
+  "silhouette": [
+   {
+    "part": "stem",
+    "atPct": 0,
+    "heightM": 7.5
+   },
+   {
+    "part": "turret A (8-in twin)",
+    "atPct": 23,
+    "heightM": 9.0
+   },
+   {
+    "part": "turret B (8-in twin, superfiring)",
+    "atPct": 33,
+    "heightM": 12.5
+   },
+   {
+    "part": "bridge + tower foremast (pole mast abaft; DCT top)",
+    "atPct": 42,
+    "heightM": 19.0,
+    "note": "bridge block ~36-47 %; compass platform ~15 m; DCT ~19 m; pole mast tip ~40 m",
+    "spanPct": [
+     36,
+     47
+    ]
+   },
+   {
+    "part": "funnel 1 (tall, oval; raised ~4.6 m after completion)",
+    "atPct": 50.6,
+    "heightM": 27.0
+   },
+   {
+    "part": "funnel 2 (thick central funnel = two combined uptakes)",
+    "atPct": 56.7,
+    "heightM": 27.0
+   },
+   {
+    "part": "funnel 3",
+    "atPct": 62.6,
+    "heightM": 27.0,
+    "note": "three funnels, equal height ~26-28 m above WL (estimate)"
+   },
+   {
+    "part": "mainmast (pole) at hangar",
+    "atPct": 72,
+    "heightM": 33.0,
+    "note": "after control position on hangar roof; tip ~33 m"
+   },
+   {
+    "part": "hangar + athwartships catapult (aircraft on top)",
+    "atPct": 80,
+    "heightM": 13.0,
+    "note": "hangar roof ~ 9 m, aircraft ~ 13 m",
+    "spanPct": [
+     72,
+     88
+    ]
+   },
+   {
+    "part": "turret X",
+    "atPct": 68,
+    "heightM": 8.0,
+    "note": "(verify: lies forward of hangar)"
+   },
+   {
+    "part": "turret Y (superfiring over X)",
+    "atPct": 92,
+    "heightM": 10.0,
+    "note": "(verify)"
+   },
+   {
+    "part": "stern",
+    "atPct": 100,
+    "heightM": 5.0
+   }
+  ],
+  "silhouetteNote": "LOW-MEDIUM confidence. Funnel positions from the 1930 Vickers photo (File:HMS Cumberland at sea.jpg; bow-to-stern scaling with LOA 190 m). A/B turrets, bridge from the same photo. X/Y positions and heights from class drawings/knowledge: re-check with photos before modelling. Three funnels is certain; Kent-sub-class superstructure rebuilt at the aft end with hangar (Cumberland/Suffolk).",
+  "paint": {
+   "hull": "#9AA1A5",
+   "deck": "#9C8460",
+   "superstructure": "#9AA1A5",
+   "boottopping": "#3A3D40",
+   "underwater": "#7A2E24",
+   "turretTops": "#7B7F82",
+   "note": "Dec 1939 RN South America Division cruisers were in pale/light grey overall (tropical station scheme; IWM/NZ photos show very light hulls, darker turret roofs); Exeter at Plymouth Feb 1940 looks Home-Fleet mid-grey. Hex values are modelling suggestions only (grey-scale photos)."
+  },
+  "refImages": [
+   "File:HMS Cumberland (57).jpg",
+   "File:HMS Cumberland at sea.jpg",
+   "File:William McDowell - The heavy cruiser H.M.S. Cumberland.jpg"
+  ],
+  "src": [
+   "wiki_en_cumberland",
+   "wiki_en_county",
+   "navweaps_8in",
+   "hmsajax_aircraft",
+   "own_photo_measure"
+  ]
+ },
+ "altmark": {
+  "name": {
+   "zh": "阿尔特马克号（迪特马申级补给油轮）",
+   "orig": "Troßschiff Altmark (Troßschiff A)"
+  },
+  "class": "Dithmarschen-class fleet tanker/supply ship (Kriegsmarine), Howaldtswerke Kiel; Kapitänleutnant d.R. Heinrich Dau",
+  "lengthM": 178.25,
+  "lengthWlM": 174.65,
+  "beamM": 22.0,
+  "draughtM": 9.3,
+  "dispT": {
+   "std": null,
+   "full": 20858,
+   "note": "full load"
+  },
+  "speedKn": 21.1,
+  "speedNote": "wiki_en 21.1 kn; wiki_de infobox 25 kn (probably trial/max) - contested",
+  "enduranceNm": {
+   "at15kn": 12500
+  },
+  "machinery": "4 x MAN 9-cyl diesels, 22,000 PS, 2 shafts (4-blade 5.2 m)",
+  "crew": 105,
+  "crewNote": "94-208 over career (wiki); ~100-110 in Dec 1939 (low confidence) plus ~300 British merchant seamen aboard by Feb 1940 (299 freed by HMS Cossack)",
+  "armament": [
+   {
+    "mount": "15 cm Tbts K C/36 L/48",
+    "guns": 3,
+    "cal": "15 cm L/48",
+    "note": "torpedo-boat gun; hidden/disguised when passing as a neutral"
+   },
+   {
+    "mount": "3.7 cm Flak",
+    "guns": 2,
+    "cal": "3.7 cm"
+   },
+   {
+    "mount": "2 cm Flak",
+    "guns": 4,
+    "cal": "2 cm"
+   },
+   {
+    "mount": "MG",
+    "guns": 8,
+    "cal": "MG"
+   }
+  ],
+  "armourMm": {
+   "belt": 0,
+   "deck": 0,
+   "turret": 0
+  },
+  "fireControl": "none (merchant-style bridge); no radar",
+  "aircraft": "none",
+  "silhouette": [
+   {
+    "part": "stem (raked, tanker bow with short forecastle)",
+    "atPct": 0,
+    "heightM": 7.0
+   },
+   {
+    "part": "forecastle deck / anchor gear",
+    "atPct": 8,
+    "heightM": 7.0
+   },
+   {
+    "part": "foremast (pole) on forward bridge island",
+    "atPct": 36,
+    "heightM": 27.0,
+    "note": "approximate"
+   },
+   {
+    "part": "bridge / accommodation house (midships-forward)",
+    "atPct": 38,
+    "heightM": 16.0,
+    "note": "approximate; low confidence"
+   },
+   {
+    "part": "tank deck with catwalk, derrick posts (long open deck)",
+    "atPct": 50,
+    "heightM": 6.0,
+    "note": "flush tank deck ~ 5-6 m above WL; kingposts ~ 15 m",
+    "spanPct": [
+     28,
+     75
+    ]
+   },
+   {
+    "part": "funnel (single, thick, squared top) on after superstructure",
+    "atPct": 62,
+    "heightM": 22.0,
+    "note": "approximate"
+   },
+   {
+    "part": "mainmast (pole)",
+    "atPct": 56,
+    "heightM": 26.0,
+    "note": "approximate"
+   },
+   {
+    "part": "aft deckhouse / poop with 15 cm gun",
+    "atPct": 90,
+    "heightM": 9.0
+   },
+   {
+    "part": "stern",
+    "atPct": 100,
+    "heightM": 5.0
+   }
+  ],
+  "silhouetteNote": "LOW confidence: derived from the 'Altmark schiff norwegen joessingfjord' postcard and RAF aerial photos only; verify against photos. Tanker with long flush tank deck, superstructure + single funnel roughly amidships/after-mid, short forecastle.",
+  "paint": {
+   "hull": "#1F2124",
+   "deck": "#6F6A5E",
+   "superstructure": "#8C9094",
+   "funnel": "#B5A24A",
+   "boottopping": "#7A2E24",
+   "note": "In the Feb 1940 Jossingfjord photos: black hull with light-grey upperworks; Altmark was disguised as a Norwegian ship (primed black & grey, yellow funnel, Norwegian flag stripes) per warhistory.org; during the Graf Spee supply operations (Aug-Dec 1939) she wore the same neutral disguise (low confidence)."
+  },
+  "refImages": [
+   "File:Altmark schiff norwegen joessingfjord.jpg",
+   "File:Altmark in Jøssingfjord.jpg",
+   "File:Norway, Altmark - Royal Air Force Coastal Command, 1939-1945. C2573.jpg",
+   "File:Niemiecki statek zaopatrzeniowy \"Altmark\" (2-2534).jpg"
+  ],
+  "src": [
+   "wiki_en_altmark",
+   "wiki_de_altmark",
+   "warhistory_altmark"
+  ]
+ },
+ "renown": {
+  "name": {
+   "zh": "声望号（战列巡洋舰，K 编队旗舰）",
+   "orig": "HMS Renown (72)"
+  },
+  "class": "Renown-class battlecruiser (rebuilt 1936-39) - with Ark Royal formed Force K; flagship Vice-Adm Sir Geoffrey Layton? (to verify)",
+  "lengthM": 242.0,
+  "lengthWlM": 228.6,
+  "beamM": 27.4,
+  "draughtM": 9.4,
+  "dispT": {
+   "std": null,
+   "full": 36080,
+   "note": "deep load 1939 (long tons); normal ~32,000"
+  },
+  "speedKn": 31,
+  "enduranceNm": {
+   "at18kn": 6580
+  },
+  "machinery": "8 boilers, 4 geared turbines, 120,000 shp (rebuilt)",
+  "crew": 1200,
+  "armament": [
+   {
+    "mount": "A",
+    "guns": 2,
+    "cal": "15-in BL Mk I (Mk I*/N twin, +30 deg)",
+    "shellKg": 879,
+    "mvMs": 746,
+    "rangeKm": 29.7,
+    "maxElevDeg": 30,
+    "rofPerMin": 2,
+    "tofS": {
+     "10": 12.9,
+     "15": 20.7,
+     "20": 29.7
+    },
+    "tofNote": "navweaps 6crh SC280 table converted: 14.11/22.64/32.52 s at 10/15/20 kyd"
+   },
+   {
+    "mount": "B",
+    "guns": 2,
+    "cal": "15-in BL Mk I",
+    "shellKg": 879,
+    "mvMs": 746,
+    "rangeKm": 29.7,
+    "rofPerMin": 2
+   },
+   {
+    "mount": "Y",
+    "guns": 2,
+    "cal": "15-in BL Mk I",
+    "shellKg": 879,
+    "mvMs": 746,
+    "rangeKm": 29.7,
+    "rofPerMin": 2
+   },
+   {
+    "mount": "4.5-in DP",
+    "guns": 20,
+    "cal": "QF 4.5-in Mk I-V, 10 twin",
+    "shellKg": 24.9
+   },
+   {
+    "mount": "pom-pom",
+    "guns": 24,
+    "cal": "3 x octuple 2-pdr"
+   }
+  ],
+  "armourMm": {
+   "belt": 152,
+   "deck": 76,
+   "turret": 279,
+   "note": "as-built 6 in belt (some 9 in), 1-3 in decks (+1930s rebuild), turrets up to 11 in; Wikipedia gives belt 3-6 in, barbettes 4-7 in, turrets 7-11 in, CT 10 in"
+  },
+  "fireControl": "15-in director (DCT) atop tall tower bridge; HACS for 4.5 in; no radar Dec 1939",
+  "aircraft": "up to 4 floatplanes (Walrus/Swordfish floatplane); 1 catapult between aft funnel and aft superstructure",
+  "silhouette": [
+   {
+    "part": "stem",
+    "atPct": 0,
+    "heightM": 10.0
+   },
+   {
+    "part": "turret A",
+    "atPct": 14,
+    "heightM": 13.0
+   },
+   {
+    "part": "turret B (superfiring)",
+    "atPct": 21,
+    "heightM": 16.0
+   },
+   {
+    "part": "tower bridge + DCT (tall rebuilt superstructure)",
+    "atPct": 32,
+    "heightM": 34.0,
+    "note": "tower + director tip; foremast pole to ~45 m"
+   },
+   {
+    "part": "funnel 1",
+    "atPct": 45,
+    "heightM": 25.0
+   },
+   {
+    "part": "funnel 2",
+    "atPct": 55,
+    "heightM": 25.0
+   },
+   {
+    "part": "hangars + catapult between aft funnel and aft superstructure",
+    "atPct": 66,
+    "heightM": 15.0
+   },
+   {
+    "part": "mainmast / aft tower",
+    "atPct": 70,
+    "heightM": 32.0
+   },
+   {
+    "part": "turret Y",
+    "atPct": 83,
+    "heightM": 13.0
+   },
+   {
+    "part": "stern",
+    "atPct": 100,
+    "heightM": 7.0
+   }
+  ],
+  "silhouetteNote": "BRIEF/LOW confidence: arrangement from Wikipedia text + 'HMS Renown (1939) profile drawing' thumbnail; percentages +-4 %. Two funnels in 1939.",
+  "paint": {
+   "hull": "#7E868B",
+   "deck": "#8A7B5E",
+   "superstructure": "#7E868B",
+   "note": "Home Fleet/Force K grey (mid-dark) in late 1939 - low confidence"
+  },
+  "refImages": [
+   "File:HMS Renown (1939) profile drawing.png",
+   "File:H.M.S. Renown and Ark Royal.jpg"
+  ],
+  "src": [
+   "wiki_en_renown",
+   "navweaps_15in"
+  ]
+ },
+ "ark_royal": {
+  "name": {
+   "zh": "皇家方舟号（航空母舰）",
+   "orig": "HMS Ark Royal (91)"
+  },
+  "class": "Ark Royal-class aircraft carrier (Force K with Renown, Dec 1939)",
+  "lengthM": 243.8,
+  "lengthWlM": 219.8,
+  "beamM": 28.7,
+  "draughtM": 8.2,
+  "dispT": {
+   "std": 22000,
+   "full": 27720
+  },
+  "speedKn": 31,
+  "enduranceNm": {
+   "at20kn": 7600
+  },
+  "machinery": "6 boilers, 3 geared turbines, 102,000 shp, 3 shafts",
+  "crew": 1580,
+  "armament": [
+   {
+    "mount": "4.5-in DP twin",
+    "guns": 16,
+    "cal": "QF 4.5-in, 8 twin",
+    "shellKg": 24.9
+   },
+   {
+    "mount": "pom-pom",
+    "guns": 32,
+    "cal": "4 x octuple 2-pdr"
+   },
+   {
+    "mount": "MG",
+    "guns": 32,
+    "cal": "0.5-in quad x 8"
+   }
+  ],
+  "armourMm": {
+   "belt": 114,
+   "deck": 89,
+   "turret": 0,
+   "note": "4.5 in belt, 3.5 in flight/hangar deck over machinery/magazines"
+  },
+  "fireControl": "4.5-in HACS directors; no radar (Type 72 later)",
+  "aircraft": "Dec 1939: Swordfish (810, 818, 820 Sqns) + Skua (800, 803 Sqns) - about 50-60; 2 catapults, 3 lifts",
+  "silhouette": [
+   {
+    "part": "bow (flight deck overhang)",
+    "atPct": 0,
+    "heightM": 16.0,
+    "note": "flight deck ~16 m above WL"
+   },
+   {
+    "part": "flight deck",
+    "atPct": 50,
+    "heightM": 16.0,
+    "note": "full-length, ~ 3 m above hangar deck; width ~ 29 m",
+    "spanPct": [
+     0,
+     100
+    ]
+   },
+   {
+    "part": "island (starboard) with bridge, funnel, masts",
+    "atPct": 55,
+    "heightM": 31.0,
+    "note": "island ~ 60 m long? (approx 20 % of length), top of funnel ~ 31 m",
+    "spanPct": [
+     45,
+     62
+    ]
+   },
+   {
+    "part": "stern",
+    "atPct": 100,
+    "heightM": 12.0
+   }
+  ],
+  "silhouetteNote": "BRIEF/LOW confidence.",
+  "paint": {
+   "hull": "#7E868B",
+   "deck": "#5B4C3D",
+   "superstructure": "#7E868B",
+   "note": "Home Fleet grey; flight deck dark brown/ red-brown planking - low confidence"
+  },
+  "refImages": [
+   "File:HMS Ark Royal h79167.jpg",
+   "File:H.M.S. Renown and Ark Royal.jpg"
+  ],
+  "src": [
+   "wiki_en_ark_royal"
+  ]
+ },
+ "dorsetshire": {
+  "name": {
+   "zh": "多塞特郡号（诺福克级重巡洋舰）",
+   "orig": "HMS Dorsetshire (40)"
+  },
+  "class": "Norfolk-class heavy cruiser (County class); Cape of Good Hope / SA station, hunting group",
+  "lengthM": 192.6,
+  "lengthWlM": null,
+  "beamM": 20.1,
+  "draughtM": 5.5,
+  "dispT": {
+   "std": 10035,
+   "full": 13420
+  },
+  "speedKn": 31.5,
+  "enduranceNm": {
+   "at12kn": 12000
+  },
+  "machinery": "8 boilers, 4 shafts, 80,000 shp",
+  "crew": 653,
+  "armament": [
+   {
+    "mount": "A,B,X,Y",
+    "guns": 8,
+    "cal": "8-in BL Mk VIII (Mk II twin)",
+    "shellKg": 116.1,
+    "mvMs": 855,
+    "rangeKm": 28.0,
+    "maxElevDeg": 70,
+    "rofPerMin": 4
+   },
+   {
+    "mount": "4-in HA",
+    "guns": 8,
+    "cal": "QF 4-in Mk V",
+    "note": "4 in 1939 (singles) -> 8"
+   },
+   {
+    "mount": "torpedo tubes",
+    "guns": 8,
+    "cal": "21-in 2 quad"
+   }
+  ],
+  "armourMm": {
+   "belt": 114,
+   "deck": 38,
+   "turret": 25
+  },
+  "fireControl": "DCT; no radar",
+  "aircraft": "1 catapult, Walrus/Seafox? (1-2 Walrus)",
+  "silhouette": [
+   {
+    "part": "stem",
+    "atPct": 0,
+    "heightM": 8.0
+   },
+   {
+    "part": "turret A",
+    "atPct": 20,
+    "heightM": 9.0
+   },
+   {
+    "part": "turret B",
+    "atPct": 28,
+    "heightM": 12.0
+   },
+   {
+    "part": "bridge/tripod",
+    "atPct": 38,
+    "heightM": 19.0
+   },
+   {
+    "part": "funnels (3)",
+    "atPct": 55,
+    "heightM": 26.0,
+    "note": "three funnels"
+   },
+   {
+    "part": "turrets X,Y",
+    "atPct": 76,
+    "heightM": 10.0
+   },
+   {
+    "part": "stern",
+    "atPct": 100,
+    "heightM": 5.0
+   }
+  ],
+  "silhouetteNote": "BRIEF/LOW confidence.",
+  "paint": {
+   "hull": "#9AA1A5",
+   "deck": "#9C8460",
+   "superstructure": "#9AA1A5",
+   "note": "light/tropical grey (Sydney 1938 photo very pale); wartime grey in Dec 1939"
+  },
+  "refImages": [
+   "File:HMS Dorsetshire (40).jpg"
+  ],
+  "src": [
+   "wiki_en_dorsetshire",
+   "wiki_en_county"
+  ]
+ },
+ "shropshire": {
+  "name": {
+   "zh": "什罗普郡号（伦敦级重巡洋舰）",
+   "orig": "HMS Shropshire (73)"
+  },
+  "class": "London-sub-class County-class heavy cruiser",
+  "lengthM": 192.9,
+  "lengthWlM": null,
+  "beamM": 20.1,
+  "draughtM": 6.4,
+  "dispT": {
+   "std": 9750,
+   "full": 13315
+  },
+  "speedKn": 32,
+  "enduranceNm": {
+   "at12kn": 10800
+  },
+  "machinery": "8 boilers, 4 shafts, 80,000 shp",
+  "crew": 690,
+  "armament": [
+   {
+    "mount": "A,B,X,Y",
+    "guns": 8,
+    "cal": "8-in BL Mk VIII (Mk I twin)",
+    "shellKg": 116.1,
+    "mvMs": 855,
+    "rangeKm": 28.0,
+    "rofPerMin": 4
+   },
+   {
+    "mount": "4-in HA",
+    "guns": 4,
+    "cal": "QF 4-in Mk V single"
+   },
+   {
+    "mount": "torpedo tubes",
+    "guns": 8,
+    "cal": "21-in 2 quad"
+   }
+  ],
+  "armourMm": {
+   "belt": 114,
+   "deck": 35,
+   "turret": 25
+  },
+  "fireControl": "DCT; no radar",
+  "aircraft": "1 catapult, 1 aircraft (Walrus in 1939)",
+  "silhouette": [
+   {
+    "part": "stem",
+    "atPct": 0,
+    "heightM": 8.0
+   },
+   {
+    "part": "turret A",
+    "atPct": 19,
+    "heightM": 9.0
+   },
+   {
+    "part": "turret B",
+    "atPct": 27,
+    "heightM": 12.0
+   },
+   {
+    "part": "bridge",
+    "atPct": 38,
+    "heightM": 18.0
+   },
+   {
+    "part": "funnels (3)",
+    "atPct": 55,
+    "heightM": 26.0
+   },
+   {
+    "part": "turrets X,Y",
+    "atPct": 76,
+    "heightM": 10.0
+   },
+   {
+    "part": "stern",
+    "atPct": 100,
+    "heightM": 5.0
+   }
+  ],
+  "silhouetteNote": "BRIEF/LOW confidence.",
+  "paint": {
+   "hull": "#9AA1A5",
+   "deck": "#9C8460",
+   "superstructure": "#9AA1A5"
+  },
+  "refImages": [
+   "File:HMS Shropshire (73).jpg"
+  ],
+  "src": [
+   "wiki_en_shropshire",
+   "wiki_en_county"
+  ]
+ },
+ "sussex": {
+  "name": {
+   "zh": "萨塞克斯号（伦敦级重巡洋舰）",
+   "orig": "HMS Sussex (96)"
+  },
+  "class": "London-sub-class County-class heavy cruiser",
+  "lengthM": 192.9,
+  "lengthWlM": null,
+  "beamM": 20.1,
+  "draughtM": 6.4,
+  "dispT": {
+   "std": 9750,
+   "full": 13315
+  },
+  "speedKn": 32,
+  "enduranceNm": {
+   "at12kn": 10800
+  },
+  "machinery": "8 boilers, 4 shafts, 80,000 shp",
+  "crew": 650,
+  "armament": [
+   {
+    "mount": "A,B,X,Y",
+    "guns": 8,
+    "cal": "8-in BL Mk VIII (Mk I twin)",
+    "shellKg": 116.1,
+    "mvMs": 855,
+    "rangeKm": 28.0,
+    "rofPerMin": 4
+   },
+   {
+    "mount": "4-in HA",
+    "guns": 4,
+    "cal": "QF 4-in Mk V single",
+    "note": "Sussex lacked the additional 4-in guns added to other County-class (wiki_en)"
+   },
+   {
+    "mount": "torpedo tubes",
+    "guns": 8,
+    "cal": "21-in 2 quad"
+   }
+  ],
+  "armourMm": {
+   "belt": 114,
+   "deck": 35,
+   "turret": 25
+  },
+  "fireControl": "DCT; no radar",
+  "aircraft": "1 catapult, 1 aircraft",
+  "silhouette": [
+   {
+    "part": "stem",
+    "atPct": 0,
+    "heightM": 8.0
+   },
+   {
+    "part": "turret A",
+    "atPct": 19,
+    "heightM": 9.0
+   },
+   {
+    "part": "turret B",
+    "atPct": 27,
+    "heightM": 12.0
+   },
+   {
+    "part": "bridge",
+    "atPct": 38,
+    "heightM": 18.0
+   },
+   {
+    "part": "funnels (3)",
+    "atPct": 55,
+    "heightM": 26.0
+   },
+   {
+    "part": "turrets X,Y",
+    "atPct": 76,
+    "heightM": 10.0
+   },
+   {
+    "part": "stern",
+    "atPct": 100,
+    "heightM": 5.0
+   }
+  ],
+  "silhouetteNote": "BRIEF/LOW confidence.",
+  "paint": {
+   "hull": "#9AA1A5",
+   "deck": "#9C8460",
+   "superstructure": "#9AA1A5"
+  },
+  "refImages": [
+   "File:HMS Sussex (96).jpg"
+  ],
+  "src": [
+   "wiki_en_sussex",
+   "wiki_en_county"
+  ]
+ },
+ "tacoma": {
+  "name": {
+   "zh": "塔科马号（德国货轮）",
+   "orig": "Tacoma (German merchant steamer, Montevideo)"
+  },
+  "class": "German cargo steamer (HAPAG? unverified); took Graf Spee's crew from Montevideo roads on 17 Dec 1939",
+  "lengthM": 135.0,
+  "beamM": 17.0,
+  "draughtM": 8.0,
+  "dispT": {
+   "std": null,
+   "full": null,
+   "note": "~8,268 GRT per a MARAD record (ship identity/year 1930 unverified)"
+  },
+  "speedKn": 13,
+  "crew": 60,
+  "crewNote": "unknown; low confidence; Uruguayan archive has crew lists",
+  "armament": [],
+  "armourMm": {
+   "belt": 0,
+   "deck": 0,
+   "turret": 0
+  },
+  "fireControl": "none",
+  "aircraft": "none",
+  "silhouette": [
+   {
+    "part": "stem",
+    "atPct": 0,
+    "heightM": 7.0
+   },
+   {
+    "part": "forecastle / foremast with derricks",
+    "atPct": 12,
+    "heightM": 22.0
+   },
+   {
+    "part": "bridge house (midships)",
+    "atPct": 40,
+    "heightM": 15.0
+   },
+   {
+    "part": "funnel",
+    "atPct": 50,
+    "heightM": 20.0
+   },
+   {
+    "part": "mainmast",
+    "atPct": 72,
+    "heightM": 22.0
+   },
+   {
+    "part": "poop",
+    "atPct": 92,
+    "heightM": 9.0
+   },
+   {
+    "part": "stern",
+    "atPct": 100,
+    "heightM": 5.0
+   }
+  ],
+  "silhouetteNote": "GENERIC cargo-steamer placeholder; dimensions are estimates from tonnage only (LOW). Spanish press called Tacoma a tanker ('petrolero') - contested.",
+  "paint": {
+   "hull": "#1F2124",
+   "deck": "#7A6E58",
+   "superstructure": "#C9C3B0",
+   "funnel": "#C0392B",
+   "note": "generic; German merchant ships typically black hull, buff/white upperworks (low confidence)"
+  },
+  "refImages": [],
+  "src": [
+   "gub_uy_tacoma",
+   "maritimequest_gs"
+  ]
+ },
+ "cargo_liner": {
+  "name": {
+   "zh": "典型英国货轮（以多里克之星号/克莱门特号为模版）",
+   "orig": "Typical British cargo liner (SS Doric Star / SS Clement)"
+  },
+  "class": "British refrigerated cargo liner / cargo steamer, 1920-34",
+  "lengthM": 161.5,
+  "lengthWlM": null,
+  "beamM": 19.5,
+  "draughtM": 8.2,
+  "dispT": {
+   "std": null,
+   "full": null,
+   "note": "Doric Star 10,086 (DE wiki)/10,441 GRT (EN); Clement 5,051 GRT; Tairoa 7,983 GRT"
+  },
+  "speedKn": 13,
+  "crew": 64,
+  "crewNote": "Doric Star 64; Clement 50; Tairoa 81",
+  "variants": {
+   "doric_star": {
+    "lengthM": 161.5,
+    "beamM": 19.5,
+    "grt": 10441,
+    "built": 1921,
+    "builder": "Lithgows",
+    "crew": 64,
+    "speedKn": 13
+   },
+   "clement": {
+    "lengthM": 125.6,
+    "beamM": 17.0,
+    "draughtM": 7.8,
+    "grt": 5051,
+    "built": 1934,
+    "builder": "Cammell Laird",
+    "crew": 50,
+    "speedKn": 13
+   },
+   "tairoa": {
+    "lengthM": 150.6,
+    "beamM": 19.3,
+    "draughtM": 7.8,
+    "grt": 7983,
+    "built": 1920,
+    "builder": "Armstrong Whitworth",
+    "crew": 81,
+    "speedKn": 13.5
+   }
+  },
+  "armament": [],
+  "armourMm": {
+   "belt": 0,
+   "deck": 0,
+   "turret": 0
+  },
+  "fireControl": "none (wireless: RRR/QQQ distress call)",
+  "aircraft": "none",
+  "silhouette": [
+   {
+    "part": "stem",
+    "atPct": 0,
+    "heightM": 8.0
+   },
+   {
+    "part": "forecastle + foremast + derricks",
+    "atPct": 10,
+    "heightM": 20.0
+   },
+   {
+    "part": "hatches 1-2 with cargo gear",
+    "atPct": 22,
+    "heightM": 8.0
+   },
+   {
+    "part": "bridge/accommodation island (midships)",
+    "atPct": 42,
+    "heightM": 16.0
+   },
+   {
+    "part": "funnel",
+    "atPct": 50,
+    "heightM": 22.0,
+    "note": "single, buff/black topped"
+   },
+   {
+    "part": "hatches 3-5 + mainmast with derricks",
+    "atPct": 66,
+    "heightM": 22.0
+   },
+   {
+    "part": "poop deckhouse",
+    "atPct": 90,
+    "heightM": 9.0
+   },
+   {
+    "part": "stern",
+    "atPct": 100,
+    "heightM": 6.0
+   }
+  ],
+  "silhouetteNote": "Generic 3-island cargo liner placeholder. LOW confidence for positions; use per-victim photos where available (Clement: StateLibQld photo; Newton Beech: museum model).",
+  "paint": {
+   "hull": "#1F2124",
+   "deck": "#7A6E58",
+   "superstructure": "#C9C3B0",
+   "funnel": "#B3342C",
+   "boottopping": "#7A2E24",
+   "note": "Peacetime company colours (black hull, red boot-topping, buff upperworks; funnel colours by line); by Dec 1939 many ships were already painted grey overall (low confidence)."
+  },
+  "refImages": [
+   "File:StateLibQld 1 126639 Clement (ship).jpg",
+   "File:Model of the SS Newton Beech.jpg"
+  ],
+  "src": [
+   "wiki_en_doric_star",
+   "wiki_en_clement",
+   "wiki_en_tairoa"
+  ]
+ },
+ "ar196": {
+  "name": {
+   "zh": "阿拉多 Ar 196 A-1 水上侦察机",
+   "orig": "Arado Ar 196 A-1 (Graf Spee's bordflugzeug)"
+  },
+  "class": "Floatplane (twin-float low-wing monoplane), Kriegsmarine/Bordfliegergruppe 196",
+  "lengthM": 11.0,
+  "wingspanM": 12.4,
+  "heightM": 4.45,
+  "beamM": 12.4,
+  "draughtM": 0.0,
+  "dispT": {
+   "std": 2990,
+   "full": 3730,
+   "note": "kg (empty/MTOW) - Ar 196 A-3 figures from wiki_en"
+  },
+  "speedKn": 179,
+  "speedNote": "332 km/h max (A-3 spec; A-1 ~310 km/h) = 179 kn",
+  "rangeKm": 1080,
+  "crew": 2,
+  "armament": [
+   {
+    "mount": "observer",
+    "guns": 1,
+    "cal": "7.92 mm MG 15/81Z flexible"
+   },
+   {
+    "mount": "fixed",
+    "guns": 3,
+    "cal": "1 x MG 17 + 2 x 20 mm MG FF (A-3); A-1 had 1-2 fixed MG 17",
+    "note": "2 x 50 kg bombs"
+   }
+  ],
+  "armourMm": {
+   "belt": 0,
+   "deck": 0,
+   "turret": 0
+  },
+  "fireControl": "observer / W/T for spotting",
+  "silhouette": [
+   {
+    "part": "nose / BMW 132 radial",
+    "atPct": 0,
+    "heightM": 2.0
+   },
+   {
+    "part": "wing (mid)",
+    "atPct": 35,
+    "heightM": 2.5,
+    "note": "span 12.4 m, low wing"
+   },
+   {
+    "part": "fin & rudder tip",
+    "atPct": 100,
+    "heightM": 4.45
+   },
+   {
+    "part": "floats (twin)",
+    "atPct": 20,
+    "heightM": 0.0,
+    "note": "two long floats ~ 8 m"
+   }
+  ],
+  "silhouetteNote": "A-1 on catapult stowed amidships on Graf Spee (no hangar); wings fold? (not for A-1)",
+  "paint": {
+   "hull": "#7C838A",
+   "deck": "#9AA1A5",
+   "superstructure": "#B8BDC1",
+   "note": "RLM 72/73-style grey-green upper surfaces? (Kriegsmarine seaplanes: dark grey-green upper, light grey lower) - low confidence; Balkenkreuz + swastika"
+  },
+  "refImages": [
+   "File:Graf Spee Arado.jpg",
+   "File:Graf Spee Arado 2.jpg",
+   "File:Bundesarchiv Bild 101II-MW-6081-11, Seeflugzeug Arado Ar 196.jpg"
+  ],
+  "src": [
+   "wiki_en_ar196"
+  ]
+ },
+ "seafox": {
+  "name": {
+   "zh": "费尔雷“海狐”水上侦察机",
+   "orig": "Fairey Seafox (K8582 / K8591, Ajax's 718 Catapult Flight)"
+  },
+  "class": "Biplane floatplane, 2-seat spotter-reconnaissance (Spec S.11/32)",
+  "lengthM": 10.2,
+  "wingspanM": 12.2,
+  "heightM": 3.7,
+  "beamM": 12.2,
+  "draughtM": 0.0,
+  "dispT": {
+   "std": 1726,
+   "full": 2459,
+   "note": "kg (3,805 lb empty / 5,420 lb gross)"
+  },
+  "speedKn": 108,
+  "speedNote": "124 mph max at 5,860 ft; 106 mph cruise; 58 mph alighting",
+  "rangeKm": 710,
+  "enduranceH": 4.25,
+  "crew": 2,
+  "armament": [
+   {
+    "mount": "observer",
+    "guns": 1,
+    "cal": "0.303 in Vickers K"
+   }
+  ],
+  "armourMm": {
+   "belt": 0,
+   "deck": 0,
+   "turret": 0
+  },
+  "fireControl": "wireless; spotting of fall of shot",
+  "aircraft": "",
+  "silhouette": [
+   {
+    "part": "nose / Napier Rapier VI H-16, 395 hp",
+    "atPct": 0,
+    "heightM": 2.0
+   },
+   {
+    "part": "wing",
+    "atPct": 35,
+    "heightM": 3.3,
+    "note": "span 12.2 m (40 ft), staggered biplane"
+   },
+   {
+    "part": "tail",
+    "atPct": 100,
+    "heightM": 3.7,
+    "note": "height 3.7 m (12 ft 2 in)"
+   }
+  ],
+  "silhouetteNote": "",
+  "paint": {
+   "hull": "#C9CDD0",
+   "deck": "#C9CDD0",
+   "superstructure": "#C9CDD0",
+   "note": "silver (aluminium) dope overall with FAA markings is most likely in Dec 1939 - low confidence; serial in black on rear fuselage"
+  },
+  "refImages": [
+   "File:Fairey Seafox.jpg",
+   "File:Walrus and Seafox seaplanes at RNAS Bermuda in the North Yard of HMD Bermuda 1938-05-01.png"
+  ],
+  "src": [
+   "wiki_en_seafox",
+   "hmsajax_aircraft"
+  ]
+ },
+ "walrus": {
+  "name": {
+   "zh": "超级马林“海象”水陆两栖飞机",
+   "orig": "Supermarine Walrus (Exeter's 780/K8341 and 769/K8343)"
+  },
+  "class": "Biplane amphibian (pusher), 3-seat spotter/rescue",
+  "lengthM": 11.45,
+  "wingspanM": 13.97,
+  "heightM": 4.65,
+  "beamM": 13.97,
+  "draughtM": 0.0,
+  "dispT": {
+   "std": 2223,
+   "full": 3265,
+   "note": "kg (4,900 lb empty / 7,200 lb gross)"
+  },
+  "speedKn": 117,
+  "speedNote": "135 mph max at 4,750 ft; 92 mph cruise",
+  "rangeKm": 966,
+  "crew": 3,
+  "armament": [
+   {
+    "mount": "nose & dorsal",
+    "guns": 2,
+    "cal": "0.303 in Vickers K"
+   }
+  ],
+  "armourMm": {
+   "belt": 0,
+   "deck": 0,
+   "turret": 0
+  },
+  "fireControl": "wireless; spotting",
+  "aircraft": "",
+  "silhouette": [
+   {
+    "part": "nose",
+    "atPct": 0,
+    "heightM": 2.5
+   },
+   {
+    "part": "wing (upper)",
+    "atPct": 40,
+    "heightM": 4.6
+   },
+   {
+    "part": "pusher engine (Bristol Pegasus VI, 750 hp) above hull",
+    "atPct": 45,
+    "heightM": 4.6
+   },
+   {
+    "part": "tail",
+    "atPct": 100,
+    "heightM": 4.65
+   }
+  ],
+  "silhouetteNote": "Exeter's two Walruses were jettisoned on 13 Dec (splinter damage).",
+  "paint": {
+   "hull": "#C9CDD0",
+   "deck": "#C9CDD0",
+   "superstructure": "#C9CDD0",
+   "note": "silver dope overall, pre-war FAA markings; yellow top wings for training - low confidence"
+  },
+  "refImages": [
+   "File:Supermarine Walrus abaord HMS Exeter (68) in the 1930s.jpg",
+   "File:Walrus and Seafox seaplanes at RNAS Bermuda in the North Yard of HMD Bermuda 1938-05-01.png"
+  ],
+  "src": [
+   "wiki_en_walrus",
+   "hmsajax_aircraft"
+  ]
+ }
+}

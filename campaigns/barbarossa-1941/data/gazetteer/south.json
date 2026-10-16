@@ -1,0 +1,1359 @@
+[
+ {
+  "id": "vladimir_volynsky",
+  "zh": "弗拉基米尔-沃伦斯基",
+  "orig": "Владимир-Волынский",
+  "pos": [
+   24.324,
+   50.848
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "SU",
+  "sources": [
+   "south_wiki_places"
+  ]
+ },
+ {
+  "id": "sokal",
+  "zh": "索卡尔",
+  "orig": "Сокаль",
+  "pos": [
+   24.276,
+   50.481
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU",
+  "sources": [
+   "south_wiki_places"
+  ]
+ },
+ {
+  "id": "radekhov",
+  "zh": "拉杰霍夫",
+  "orig": "Радехов",
+  "pos": [
+   24.636,
+   50.28
+  ],
+  "kind": "village",
+  "rank": 4,
+  "country": "SU",
+  "sources": [
+   "south_wiki_places"
+  ]
+ },
+ {
+  "id": "berestechko",
+  "zh": "别列斯捷奇科",
+  "orig": "Берестечко",
+  "pos": [
+   25.112,
+   50.358
+  ],
+  "kind": "village",
+  "rank": 4,
+  "country": "SU",
+  "sources": [
+   "south_wiki_places"
+  ]
+ },
+ {
+  "id": "zolochev",
+  "zh": "佐洛乔夫",
+  "orig": "Золочев",
+  "pos": [
+   24.904,
+   49.807
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU",
+  "sources": [
+   "south_wiki_places"
+  ]
+ },
+ {
+  "id": "rava_russkaya",
+  "zh": "拉瓦-鲁斯卡亚",
+  "orig": "Рава-Русская",
+  "pos": [
+   23.617,
+   50.233
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU",
+  "sources": [
+   "south_wiki_places"
+  ]
+ },
+ {
+  "id": "drogobych",
+  "zh": "德罗戈贝奇",
+  "orig": "Дрогобыч",
+  "pos": [
+   23.505,
+   49.35
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "SU",
+  "sources": [
+   "south_wiki_places"
+  ]
+ },
+ {
+  "id": "stryi",
+  "zh": "斯特雷",
+  "orig": "Стрый",
+  "pos": [
+   23.85,
+   49.262
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU",
+  "sources": [
+   "south_wiki_places"
+  ]
+ },
+ {
+  "id": "stanislav",
+  "zh": "斯坦尼斯拉夫",
+  "orig": "Станислав",
+  "pos": [
+   24.711,
+   48.922
+  ],
+  "kind": "city",
+  "rank": 3,
+  "country": "SU",
+  "sources": [
+   "south_wiki_places"
+  ]
+ },
+ {
+  "id": "kolomyja",
+  "zh": "科洛梅亚",
+  "orig": "Коломыя",
+  "pos": [
+   25.04,
+   48.531
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU",
+  "sources": [
+   "south_wiki_places"
+  ]
+ },
+ {
+  "id": "korosmezo",
+  "zh": "克勒什梅泽",
+  "orig": "Kőrösmező",
+  "alt": "Ясиня",
+  "pos": [
+   24.25,
+   48.32
+  ],
+  "kind": "village",
+  "rank": 4,
+  "country": "HU",
+  "sources": [
+   "south_wiki_places"
+  ]
+ },
+ {
+  "id": "mlynov",
+  "zh": "姆雷诺夫",
+  "orig": "Млынов",
+  "pos": [
+   25.611,
+   50.513
+  ],
+  "kind": "village",
+  "rank": 4,
+  "country": "SU",
+  "sources": [
+   "south_wiki_places"
+  ]
+ },
+ {
+  "id": "kremenets",
+  "zh": "克列梅涅茨",
+  "orig": "Кременец",
+  "pos": [
+   25.721,
+   50.1
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU",
+  "sources": [
+   "south_wiki_places"
+  ]
+ },
+ {
+  "id": "ostrog",
+  "zh": "奥斯特罗格",
+  "orig": "Острог",
+  "pos": [
+   26.516,
+   50.329
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU",
+  "sources": [
+   "south_wiki_places"
+  ]
+ },
+ {
+  "id": "shepetovka",
+  "zh": "舍佩托夫卡",
+  "orig": "Шепетовка",
+  "pos": [
+   27.063,
+   50.183
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "SU",
+  "sources": [
+   "south_wiki_places"
+  ]
+ },
+ {
+  "id": "novograd_volynsky",
+  "zh": "诺沃格勒-沃伦斯基",
+  "orig": "Новоград-Волынский",
+  "pos": [
+   27.617,
+   50.594
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "SU",
+  "sources": [
+   "south_wiki_places"
+  ]
+ },
+ {
+  "id": "korosten",
+  "zh": "科罗斯坚",
+  "orig": "Коростень",
+  "pos": [
+   28.636,
+   50.957
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "SU",
+  "sources": [
+   "south_wiki_places"
+  ]
+ },
+ {
+  "id": "ovruch",
+  "zh": "奥夫鲁奇",
+  "orig": "Овруч",
+  "pos": [
+   28.806,
+   51.324
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU",
+  "sources": [
+   "south_wiki_places"
+  ]
+ },
+ {
+  "id": "starokonstantinov",
+  "zh": "旧康斯坦丁诺夫",
+  "orig": "Староконстантинов",
+  "pos": [
+   27.215,
+   49.756
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU",
+  "sources": [
+   "south_wiki_places"
+  ]
+ },
+ {
+  "id": "kazatin",
+  "zh": "卡扎京",
+  "orig": "Казатин",
+  "pos": [
+   28.84,
+   49.716
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU",
+  "sources": [
+   "south_wiki_places"
+  ]
+ },
+ {
+  "id": "fastov",
+  "zh": "法斯托夫",
+  "orig": "Фастов",
+  "pos": [
+   29.914,
+   50.077
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU",
+  "sources": [
+   "south_wiki_places"
+  ]
+ },
+ {
+  "id": "belaya_tserkov",
+  "zh": "白采尔科维",
+  "orig": "Белая Церковь",
+  "pos": [
+   30.112,
+   49.797
+  ],
+  "kind": "city",
+  "rank": 3,
+  "country": "SU",
+  "sources": [
+   "south_wiki_places"
+  ]
+ },
+ {
+  "id": "irpen",
+  "zh": "伊尔平河",
+  "orig": "Ирпень",
+  "pos": [
+   30.25,
+   50.52
+  ],
+  "kind": "river",
+  "rank": 4,
+  "country": "SU",
+  "sources": [
+   "south_wiki_places"
+  ]
+ },
+ {
+  "id": "goloseevo",
+  "zh": "戈洛谢耶沃",
+  "orig": "Голосеево",
+  "pos": [
+   30.505,
+   50.385
+  ],
+  "kind": "forest",
+  "rank": 4,
+  "country": "SU",
+  "sources": [
+   "south_wiki_places"
+  ]
+ },
+ {
+  "id": "kanev",
+  "zh": "卡涅夫",
+  "orig": "Канев",
+  "pos": [
+   31.462,
+   49.75
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU",
+  "sources": [
+   "south_wiki_places"
+  ]
+ },
+ {
+  "id": "lipovets",
+  "zh": "利波韦茨",
+  "orig": "Липовец",
+  "pos": [
+   29.056,
+   49.217
+  ],
+  "kind": "village",
+  "rank": 4,
+  "country": "SU",
+  "sources": [
+   "south_wiki_places"
+  ]
+ },
+ {
+  "id": "gaisin",
+  "zh": "盖辛",
+  "orig": "Гайсин",
+  "pos": [
+   29.39,
+   48.81
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU",
+  "sources": [
+   "south_wiki_places"
+  ]
+ },
+ {
+  "id": "novoarkhangelsk",
+  "zh": "新阿尔汉格尔斯克",
+  "orig": "Новоархангельск",
+  "pos": [
+   30.805,
+   48.66
+  ],
+  "kind": "village",
+  "rank": 4,
+  "country": "SU",
+  "sources": [
+   "south_wiki_places"
+  ]
+ },
+ {
+  "id": "podvysokoye",
+  "zh": "波德维索科耶",
+  "orig": "Подвысокое",
+  "alt": "Зелёная брама",
+  "pos": [
+   30.54,
+   48.58
+  ],
+  "kind": "village",
+  "rank": 4,
+  "country": "SU",
+  "sources": [
+   "south_wiki_places"
+  ]
+ },
+ {
+  "id": "golovanevsk",
+  "zh": "戈洛瓦涅夫斯克",
+  "orig": "Голованевск",
+  "pos": [
+   30.45,
+   48.38
+  ],
+  "kind": "village",
+  "rank": 4,
+  "country": "SU",
+  "sources": [
+   "south_wiki_places"
+  ]
+ },
+ {
+  "id": "pervomaisk",
+  "zh": "佩尔沃迈斯克",
+  "orig": "Первомайск",
+  "pos": [
+   30.851,
+   48.044
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "SU",
+  "sources": [
+   "south_wiki_places"
+  ]
+ },
+ {
+  "id": "krivoi_rog",
+  "zh": "克里沃罗格",
+  "orig": "Кривой Рог",
+  "pos": [
+   33.391,
+   47.91
+  ],
+  "kind": "city",
+  "rank": 3,
+  "country": "SU",
+  "sources": [
+   "south_wiki_places"
+  ]
+ },
+ {
+  "id": "nikopol",
+  "zh": "尼科波尔",
+  "orig": "Никополь",
+  "pos": [
+   34.396,
+   47.57
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "SU",
+  "sources": [
+   "south_wiki_places"
+  ]
+ },
+ {
+  "id": "berislav",
+  "zh": "别里斯拉夫",
+  "orig": "Берислав",
+  "pos": [
+   33.2,
+   46.84
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU",
+  "sources": [
+   "south_wiki_places"
+  ]
+ },
+ {
+  "id": "kakhovka",
+  "zh": "卡霍夫卡",
+  "orig": "Каховка",
+  "pos": [
+   33.48,
+   46.817
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU",
+  "sources": [
+   "south_wiki_places"
+  ]
+ },
+ {
+  "id": "voznesensk",
+  "zh": "沃兹涅先斯克",
+  "orig": "Вознесенск",
+  "pos": [
+   31.333,
+   47.567
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU",
+  "sources": [
+   "south_wiki_places"
+  ]
+ },
+ {
+  "id": "ochakov",
+  "zh": "奥恰科夫",
+  "orig": "Очаков",
+  "pos": [
+   31.54,
+   46.618
+  ],
+  "kind": "port",
+  "rank": 4,
+  "country": "SU",
+  "sources": [
+   "south_wiki_places"
+  ]
+ },
+ {
+  "id": "balta",
+  "zh": "巴尔塔",
+  "orig": "Балта",
+  "pos": [
+   29.62,
+   47.938
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU",
+  "sources": [
+   "south_wiki_places"
+  ]
+ },
+ {
+  "id": "dubossary",
+  "zh": "杜伯萨雷",
+  "orig": "Дубоссары",
+  "pos": [
+   29.165,
+   47.262
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU",
+  "sources": [
+   "south_wiki_places"
+  ]
+ },
+ {
+  "id": "khotin",
+  "zh": "霍京",
+  "orig": "Хотин",
+  "alt": "Hotin",
+  "pos": [
+   26.49,
+   48.507
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU",
+  "sources": [
+   "south_wiki_places"
+  ]
+ },
+ {
+  "id": "bender",
+  "zh": "本德尔",
+  "orig": "Бендеры",
+  "alt": "Tighina",
+  "pos": [
+   29.48,
+   46.83
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU",
+  "sources": [
+   "south_wiki_places"
+  ]
+ },
+ {
+  "id": "sculeni",
+  "zh": "斯库莱尼",
+  "orig": "Sculeni",
+  "alt": "Скуляны",
+  "pos": [
+   27.61,
+   47.33
+  ],
+  "kind": "village",
+  "rank": 4,
+  "country": "SU",
+  "sources": [
+   "south_wiki_places"
+  ]
+ },
+ {
+  "id": "akkerman",
+  "zh": "阿克尔曼",
+  "orig": "Аккерман",
+  "alt": "Cetatea Albă",
+  "pos": [
+   30.35,
+   46.19
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU",
+  "sources": [
+   "south_wiki_places"
+  ]
+ },
+ {
+  "id": "dalnik",
+  "zh": "达利尼克",
+  "orig": "Дальник",
+  "pos": [
+   30.61,
+   46.41
+  ],
+  "kind": "village",
+  "rank": 4,
+  "country": "SU",
+  "sources": [
+   "south_wiki_places"
+  ]
+ },
+ {
+  "id": "grigorievka",
+  "zh": "格里戈里耶夫卡",
+  "orig": "Григорьевка",
+  "pos": [
+   30.95,
+   46.63
+  ],
+  "kind": "village",
+  "rank": 4,
+  "country": "SU",
+  "sources": [
+   "south_wiki_places"
+  ]
+ },
+ {
+  "id": "derievka",
+  "zh": "杰里耶夫卡",
+  "orig": "Дериевка",
+  "pos": [
+   33.79,
+   48.93
+  ],
+  "kind": "village",
+  "rank": 4,
+  "country": "SU",
+  "sources": [
+   "south_wiki_places"
+  ]
+ },
+ {
+  "id": "khorol",
+  "zh": "霍罗尔",
+  "orig": "Хорол",
+  "pos": [
+   33.272,
+   49.785
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU",
+  "sources": [
+   "south_wiki_places"
+  ]
+ },
+ {
+  "id": "mirgorod",
+  "zh": "米尔戈罗德",
+  "orig": "Миргород",
+  "pos": [
+   33.606,
+   49.966
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU",
+  "sources": [
+   "south_wiki_places"
+  ]
+ },
+ {
+  "id": "piryatin",
+  "zh": "皮里亚京",
+  "orig": "Пирятин",
+  "pos": [
+   32.508,
+   50.24
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU",
+  "sources": [
+   "south_wiki_places"
+  ]
+ },
+ {
+  "id": "priluki",
+  "zh": "普里卢基",
+  "orig": "Прилуки",
+  "pos": [
+   32.4,
+   50.59
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU",
+  "sources": [
+   "south_wiki_places"
+  ]
+ },
+ {
+  "id": "orzhitsa",
+  "zh": "奥尔日察",
+  "orig": "Оржица",
+  "pos": [
+   32.7,
+   49.79
+  ],
+  "kind": "village",
+  "rank": 4,
+  "country": "SU",
+  "sources": [
+   "south_wiki_places"
+  ]
+ },
+ {
+  "id": "borispol",
+  "zh": "鲍里斯波尔",
+  "orig": "Борисполь",
+  "pos": [
+   30.955,
+   50.352
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU",
+  "sources": [
+   "south_wiki_places"
+  ]
+ },
+ {
+  "id": "shumeikovo",
+  "zh": "舒梅科沃树林",
+  "orig": "урочище Шумейково",
+  "pos": [
+   33.12,
+   50.26
+  ],
+  "kind": "forest",
+  "rank": 4,
+  "country": "SU",
+  "sources": [
+   "south_wiki_places"
+  ]
+ },
+ {
+  "id": "okuninovo",
+  "zh": "奥库尼诺沃",
+  "orig": "Окуниново",
+  "pos": [
+   30.47,
+   50.98
+  ],
+  "kind": "crossing",
+  "rank": 4,
+  "country": "SU",
+  "sources": [
+   "south_wiki_places"
+  ]
+ },
+ {
+  "id": "nezhin",
+  "zh": "涅任",
+  "orig": "Нежин",
+  "pos": [
+   31.88,
+   51.05
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU",
+  "sources": [
+   "south_wiki_places"
+  ]
+ },
+ {
+  "id": "sumy",
+  "zh": "苏梅",
+  "orig": "Сумы",
+  "pos": [
+   34.798,
+   50.907
+  ],
+  "kind": "city",
+  "rank": 3,
+  "country": "SU",
+  "sources": [
+   "south_wiki_places"
+  ]
+ },
+ {
+  "id": "akhtyrka",
+  "zh": "阿赫特尔卡",
+  "orig": "Ахтырка",
+  "pos": [
+   34.91,
+   50.31
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU",
+  "sources": [
+   "south_wiki_places"
+  ]
+ },
+ {
+  "id": "krasnograd",
+  "zh": "克拉斯诺格勒",
+  "orig": "Красноград",
+  "pos": [
+   35.29,
+   49.38
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU",
+  "sources": [
+   "south_wiki_places"
+  ]
+ },
+ {
+  "id": "lozovaya",
+  "zh": "洛佐瓦亚",
+  "orig": "Лозовая",
+  "pos": [
+   36.27,
+   48.89
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU",
+  "sources": [
+   "south_wiki_places"
+  ]
+ },
+ {
+  "id": "pavlograd",
+  "zh": "巴甫洛格勒",
+  "orig": "Павлоград",
+  "pos": [
+   35.87,
+   48.53
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU",
+  "sources": [
+   "south_wiki_places"
+  ]
+ },
+ {
+  "id": "petrikovka",
+  "zh": "彼得里科夫卡",
+  "orig": "Петриковка",
+  "pos": [
+   34.63,
+   48.73
+  ],
+  "kind": "village",
+  "rank": 4,
+  "country": "SU",
+  "sources": [
+   "south_wiki_places"
+  ]
+ },
+ {
+  "id": "chuguev",
+  "zh": "丘古耶夫",
+  "orig": "Чугуев",
+  "pos": [
+   36.68,
+   49.835
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU",
+  "sources": [
+   "south_wiki_places"
+  ]
+ },
+ {
+  "id": "izium",
+  "zh": "伊久姆",
+  "orig": "Изюм",
+  "pos": [
+   37.26,
+   49.21
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "SU",
+  "sources": [
+   "south_wiki_places"
+  ]
+ },
+ {
+  "id": "slavyansk",
+  "zh": "斯拉维扬斯克",
+  "orig": "Славянск",
+  "pos": [
+   37.62,
+   48.85
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU",
+  "sources": [
+   "south_wiki_places"
+  ]
+ },
+ {
+  "id": "artemovsk",
+  "zh": "阿尔乔莫夫斯克",
+  "orig": "Артёмовск",
+  "pos": [
+   38.0,
+   48.595
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU",
+  "sources": [
+   "south_wiki_places"
+  ]
+ },
+ {
+  "id": "gorlovka",
+  "zh": "戈尔洛夫卡",
+  "orig": "Горловка",
+  "pos": [
+   38.06,
+   48.3
+  ],
+  "kind": "city",
+  "rank": 3,
+  "country": "SU",
+  "sources": [
+   "south_wiki_places"
+  ]
+ },
+ {
+  "id": "debaltsevo",
+  "zh": "杰巴利采沃",
+  "orig": "Дебальцево",
+  "pos": [
+   38.4,
+   48.34
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU",
+  "sources": [
+   "south_wiki_places"
+  ]
+ },
+ {
+  "id": "voroshilovgrad",
+  "zh": "伏罗希洛夫格勒",
+  "orig": "Ворошиловград",
+  "pos": [
+   39.307,
+   48.574
+  ],
+  "kind": "city",
+  "rank": 2,
+  "country": "SU",
+  "sources": [
+   "south_wiki_places"
+  ]
+ },
+ {
+  "id": "shakhty",
+  "zh": "沙赫特",
+  "orig": "Шахты",
+  "pos": [
+   40.215,
+   47.71
+  ],
+  "kind": "city",
+  "rank": 3,
+  "country": "SU",
+  "sources": [
+   "south_wiki_places"
+  ]
+ },
+ {
+  "id": "novocherkassk",
+  "zh": "新切尔卡斯克",
+  "orig": "Новочеркасск",
+  "pos": [
+   40.1,
+   47.42
+  ],
+  "kind": "city",
+  "rank": 3,
+  "country": "SU",
+  "sources": [
+   "south_wiki_places"
+  ]
+ },
+ {
+  "id": "matveev_kurgan",
+  "zh": "马特维耶夫库尔干",
+  "orig": "Матвеев Курган",
+  "pos": [
+   38.86,
+   47.565
+  ],
+  "kind": "village",
+  "rank": 4,
+  "country": "SU",
+  "sources": [
+   "south_wiki_places"
+  ]
+ },
+ {
+  "id": "sambek",
+  "zh": "桑贝克河",
+  "orig": "Самбек",
+  "pos": [
+   39.02,
+   47.3
+  ],
+  "kind": "river",
+  "rank": 4,
+  "country": "SU",
+  "sources": [
+   "south_wiki_places"
+  ]
+ },
+ {
+  "id": "mius_mouth",
+  "zh": "米乌斯河口",
+  "orig": "река Миус",
+  "pos": [
+   38.9,
+   47.26
+  ],
+  "kind": "river",
+  "rank": 4,
+  "country": "SU",
+  "sources": [
+   "south_wiki_places"
+  ]
+ },
+ {
+  "id": "osipenko",
+  "zh": "奥西片科",
+  "orig": "Осипенко",
+  "alt": "别尔江斯克",
+  "pos": [
+   36.79,
+   46.76
+  ],
+  "kind": "port",
+  "rank": 4,
+  "country": "SU",
+  "sources": [
+   "south_wiki_places"
+  ]
+ },
+ {
+  "id": "chernigovka",
+  "zh": "切尔尼戈夫卡",
+  "orig": "Черниговка",
+  "pos": [
+   36.2,
+   47.19
+  ],
+  "kind": "village",
+  "rank": 4,
+  "country": "SU",
+  "sources": [
+   "south_wiki_places"
+  ]
+ },
+ {
+  "id": "genichesk",
+  "zh": "赫尼切斯克",
+  "orig": "Геническ",
+  "pos": [
+   34.81,
+   46.17
+  ],
+  "kind": "port",
+  "rank": 4,
+  "country": "SU",
+  "sources": [
+   "south_wiki_places"
+  ]
+ },
+ {
+  "id": "chongar",
+  "zh": "琼加尔",
+  "orig": "Чонгар",
+  "pos": [
+   34.42,
+   46.04
+  ],
+  "kind": "crossing",
+  "rank": 4,
+  "country": "SU",
+  "sources": [
+   "south_wiki_places"
+  ]
+ },
+ {
+  "id": "armyansk",
+  "zh": "亚美尼亚斯克",
+  "orig": "Армянск",
+  "pos": [
+   33.69,
+   46.11
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU",
+  "sources": [
+   "south_wiki_places"
+  ]
+ },
+ {
+  "id": "ishun",
+  "zh": "伊顺",
+  "orig": "Ишунь",
+  "pos": [
+   33.85,
+   45.89
+  ],
+  "kind": "village",
+  "rank": 4,
+  "country": "SU",
+  "sources": [
+   "south_wiki_places"
+  ]
+ },
+ {
+  "id": "dzhankoy",
+  "zh": "占科伊",
+  "orig": "Джанкой",
+  "pos": [
+   34.4,
+   45.71
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU",
+  "sources": [
+   "south_wiki_places"
+  ]
+ },
+ {
+  "id": "evpatoria",
+  "zh": "叶夫帕托里亚",
+  "orig": "Евпатория",
+  "pos": [
+   33.37,
+   45.19
+  ],
+  "kind": "port",
+  "rank": 4,
+  "country": "SU",
+  "sources": [
+   "south_wiki_places"
+  ]
+ },
+ {
+  "id": "yalta",
+  "zh": "雅尔塔",
+  "orig": "Ялта",
+  "pos": [
+   34.16,
+   44.495
+  ],
+  "kind": "port",
+  "rank": 4,
+  "country": "SU",
+  "sources": [
+   "south_wiki_places"
+  ]
+ },
+ {
+  "id": "feodosia",
+  "zh": "费奥多西亚",
+  "orig": "Феодосия",
+  "pos": [
+   35.38,
+   45.03
+  ],
+  "kind": "port",
+  "rank": 3,
+  "country": "SU",
+  "sources": [
+   "south_wiki_places"
+  ]
+ },
+ {
+  "id": "ak_monai",
+  "zh": "阿克莫奈",
+  "orig": "Ак-Монай",
+  "pos": [
+   35.65,
+   45.28
+  ],
+  "kind": "village",
+  "rank": 4,
+  "country": "SU",
+  "sources": [
+   "south_wiki_places"
+  ]
+ },
+ {
+  "id": "taman",
+  "zh": "塔曼",
+  "orig": "Тамань",
+  "pos": [
+   36.72,
+   45.21
+  ],
+  "kind": "port",
+  "rank": 4,
+  "country": "SU",
+  "sources": [
+   "south_wiki_places"
+  ]
+ },
+ {
+  "id": "novorossiysk",
+  "zh": "新罗西斯克",
+  "orig": "Новороссийск",
+  "pos": [
+   37.77,
+   44.72
+  ],
+  "kind": "port",
+  "rank": 3,
+  "country": "SU",
+  "sources": [
+   "south_wiki_places"
+  ]
+ },
+ {
+  "id": "fatezh",
+  "zh": "法捷日",
+  "orig": "Фатеж",
+  "pos": [
+   35.86,
+   52.09
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU",
+  "sources": [
+   "south_wiki_places"
+  ]
+ },
+ {
+  "id": "shchigry",
+  "zh": "希格雷",
+  "orig": "Щигры",
+  "pos": [
+   36.91,
+   51.88
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU",
+  "sources": [
+   "south_wiki_places"
+  ]
+ },
+ {
+  "id": "tim",
+  "zh": "季姆",
+  "orig": "Тим",
+  "pos": [
+   37.11,
+   51.62
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU",
+  "sources": [
+   "south_wiki_places"
+  ]
+ },
+ {
+  "id": "nikitovka",
+  "zh": "尼基托夫卡",
+  "orig": "Никитовка",
+  "pos": [
+   38.04,
+   48.36
+  ],
+  "kind": "village",
+  "rank": 4,
+  "country": "SU",
+  "sources": [
+   "south_wiki_places"
+  ]
+ }
+]

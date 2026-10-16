@@ -1,0 +1,148 @@
+{
+ "signals": [
+  {
+   "id": "sig.skl_0926",
+   "at": "1939-09-26T16:43",
+   "from": "de.skl",
+   "to": "de.graf_spee",
+   "kind": "radio",
+   "text": "[Resume war against merchant shipping according to prize regulations; French ships still to be spared]",
+   "zh": "恢复对商船作战，依《战利品法规》行事；暂不攻击法国船只。（无线电 1743/26，柏林时间）",
+   "sources": [
+    "ktb_skl",
+    "roskill_1954"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "sig.clement_rrr",
+   "at": "1939-09-30T11:30",
+   "from": "gb.m_clement",
+   "kind": "distress",
+   "text": "RRR 0905S 3405W",
+   "zh": "「RRR」——遭袭击舰攻击，位置南纬 9°05′、西经 34°05′。",
+   "sources": [
+    "wiki_en_clement",
+    "maritimequest"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "sig.gs_pernambuco",
+   "at": "1939-09-30T15:30",
+   "from": "de.graf_spee",
+   "kind": "radio",
+   "text": "[To Pernambuco radio, signing as \"Admiral Scheer\": lifeboats of steamer Clement at sea, please pick up]",
+   "zh": "施佩伯爵号以「舍尔海军上将号」的名义电告伯南布哥岸台，请其救起克莱门特号的救生艇——英国人因此以为来的是舍尔号。",
+   "sources": [
+    "wiki_en_graf_spee",
+    "roskill_1954"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "sig.admiralty_hunt",
+   "at": "1939-10-05T12:00",
+   "from": "gb.admiralty",
+   "kind": "order",
+   "text": "[Formation of hunting groups F–N in the Atlantic and Indian Oceans]",
+   "zh": "海军部与法国海军组成八个猎杀群：南美东岸的 G 群（坎伯兰号、埃克塞特号）、弗里敦的 K 群（声望号、皇家方舟号）、开普敦的 H 群、达喀尔的 X 群等。",
+   "sources": [
+    "roskill_1954",
+    "naval_history_net"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "sig.gs_skl_1010",
+   "at": "1939-10-10T18:00",
+   "from": "de.graf_spee",
+   "to": "de.skl",
+   "kind": "radio",
+   "text": "[To SKL: six days in square FN; captured Huntsman, sunk Newton Beech and Ashlea; crews taken over; proceeding to Altmark]",
+   "zh": "致柏林：六天来在 FN 方格作战，俘获猎人号，击沉牛顿·比奇号与阿什利号，船员已接收；前往阿尔特马克号。",
+   "sources": [
+    "ktb_skl"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "sig.trevanion_rrr",
+   "at": "1939-10-22T12:10",
+   "from": "gb.m_trevanion",
+   "kind": "distress",
+   "text": "[RRR — raider attack, position 19°40′S 04°02′E]",
+   "zh": "「RRR」——报务员在炮火下坚持发报，英国人第一次得知袭击舰到了非洲西南海域。",
+   "sources": [
+    "gazette_34815",
+    "ktb_skl"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "sig.gs_skl_1022",
+   "at": "1939-10-22T20:00",
+   "from": "de.graf_spee",
+   "to": "de.skl",
+   "kind": "radio",
+   "text": "[To SKL: 8,000 t heavy oil remaining; dockyard period needed in January; intend to break back home]",
+   "zh": "致柏林：剩余重柴油 8,000 吨，一月需进坞修理，拟在此之前突破返国。",
+   "sources": [
+    "ktb_skl"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "sig.gs_skl_1115",
+   "at": "1939-11-15T18:00",
+   "from": "de.graf_spee",
+   "to": "de.skl",
+   "kind": "radio",
+   "text": "[To SKL: Africa Shell sunk; ship's aircraft unserviceable; rendezvous line 4 to be moved 700 miles east]",
+   "zh": "致柏林：击沉非洲壳牌号；舰载机失修；请阿尔特马克号把第 4 会合线东移 700 海里。",
+   "sources": [
+    "ktb_skl"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "sig.doric_rrr",
+   "at": "1939-12-02T13:30",
+   "from": "gb.m_doric_star",
+   "kind": "distress",
+   "text": "RRR 1915S 0505E",
+   "zh": "「RRR」——南纬 19°15′、东经 5°05′。南大西洋总司令在格林尼治时间 15:30 收到。",
+   "sources": [
+    "ktb_skl",
+    "bs26",
+    "harwood_despatch"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "sig.tairoa_rrr",
+   "at": "1939-12-03T04:10",
+   "from": "gb.m_tairoa",
+   "kind": "distress",
+   "text": "[RRR — raider, position 21°38′S 03°13′E]",
+   "zh": "「RRR」——又一艘商船在多里克之星号西南约 170 海里处报告遭袭。",
+   "sources": [
+    "wiki_en_tairoa",
+    "harwood_despatch"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "sig.harwood_appr",
+   "at": "1939-12-03T12:00",
+   "from": "gb.ajax",
+   "kind": "order",
+   "text": "[Appreciation: raider may be expected off Rio de Janeiro on 12 December, off the Plate on 12 or 13 December, Falkland Islands on 14 December]",
+   "zh": "哈伍德的判断：袭击舰若驶向南美，最早 12 日到里约热内卢，12 或 13 日到拉普拉塔河口，14 日到福克兰群岛。他认定河口是要害，下令三舰 12 日在河口外集中。",
+   "sources": [
+    "harwood_despatch"
+   ],
+   "confidence": "high"
+  }
+ ]
+}

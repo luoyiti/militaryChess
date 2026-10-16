@@ -1,0 +1,9 @@
+[
+ {
+  "id": "e.luftwaffe_first_strike", "at": "1941-06-22T03:30", "endAt": "1941-06-22T20:00", "category": "air", "importance": 1, "side": "DE",
+  "title": { "zh": "开战首日的机场突袭", "orig": "Luftschläge gegen sowjetische Flugplätze" },
+  "body": "6 月 22 日拂晓起，德国空军第 1、第 2、第 4 航空队轮番突袭苏联西部各军区的 66 个机场。苏军飞机大多成排停放、未加伪装，开战第一天即损失约 1,200 架（其中约 800 架毁于地面），德方仅损失 35 架左右。空中优势就此易手，红军地面部队此后数周几乎得不到空中掩护。",
+  "place": [26.5, 53.2], "wide": true, "zoomRel": 1.2, "sfx": ["stuka", "bomber", "explosion"],
+  "sources": ["bergstrom_barbarossa", "wiki_barbarossa", "glantz_initial"], "confidence": "high"
+ }
+]

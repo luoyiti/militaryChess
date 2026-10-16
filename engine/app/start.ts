@@ -9,6 +9,8 @@ import { StaticLayers } from '../map2d/staticLayers';
 import { DynamicLayers } from '../map2d/dynamicLayers';
 import { UnitsLayer } from '../map2d/units';
 import { FxLayer } from '../map2d/fx';
+import { NavalLayer } from '../map2d/naval';
+import { SignalTape } from '../ui/signals';
 import { FieldClient, fieldCfg, type GeomResult } from '../geo/field/client';
 import { project } from '../geo/frame';
 import { unitStateAt } from '../model/core';
@@ -37,6 +39,8 @@ const div = (cls: string, parent: HTMLElement) => { const d = document.createEle
 
 export async function start(c: CampaignDef) {
   const m = c.manifest;
+  const perf = { mapReadyMs: 0, sandboxCreateMs: 0, updates2d: 0 };
+  const navalSandbox = m.sandbox?.kind === 'naval';
   const db = getDB();
   const app = document.getElementById('app')!;
   const mapEl = div('map', app);
@@ -48,12 +52,17 @@ export async function start(c: CampaignDef) {
     fetch('geo/vectors.topo.json').then((r) => r.json() as Promise<Topology>),
     m.map.contextTiles ? fetch('geo/context.topo.json').then((r) => r.json() as Promise<Topology>) : Promise.resolve(undefined),
     map.loadTiles('tiles/base/meta.json', 'tiles/base'),
-    photosP,
+
   ]);
   const st = new StaticLayers(map, topo, db, contextTopo);
   const dyn = new DynamicLayers(map, st, db);
   const units = new UnitsLayer(map, db);
   const fx = new FxLayer(map);
+  // 海战层：有舰船档案（unit.ship）或海战数据（data/naval/）时启用；舰船由海战层画成剪影，不再作为棋子
+  const naval = db.unitList.some((u) => u.ship) || db.naval.any ? new NavalLayer(map, db, units) : null;
+  if (naval) units.skip = (u) => !!u.ship;
+  /** 选中部队的航迹：舰船的航迹（按航向曲线、带时刻刻度）由海战层自己画 */
+  const trackOf = (u: (typeof db.unitList)[number] | undefined) => (u && !(naval && u.ship) ? u : null);
   const field = new FieldClient(db.keyframes, 'geo/field_masks.bin', fieldCfg(m.control));
   const home3d = m.map.home3d;
   const focus = m.map.focus ?? home3d;
@@ -101,12 +110,8 @@ export async function start(c: CampaignDef) {
   const eventCard = new EventCard(cards, db);
   const unitCard = new UnitCard(cards, db);
   const banner = div('phase-banner', ui);
+  const signals = naval && db.naval.signals.length && m.naval?.signals !== false ? new SignalTape(ui, db) : null;
   const director = new Director(db, map, eventCard, fx, dyn);
-  // 实时占位（manifest.map.liveInsets）：侧栏右缘 / 时间轴高度随界面测量
-  if (m.map.liveInsets) {
-    Object.defineProperty(map.insets, 'left', { get: () => (sidebar.el.classList.contains('collapsed') ? 30 : sidebar.el.getBoundingClientRect().right + 16) });
-    Object.defineProperty(map.insets, 'bottom', { get: () => timeline.el.getBoundingClientRect().height + 18 });
-  }
   /** 用户手动操作过镜头：切换 2D/3D 时保留当前视角，不再自动框选 */
   let manualCamera = false;
   map.onManual(() => { manualCamera = true; director.cancelReturn(); store.set({ followUnit: false }); });
@@ -128,15 +133,33 @@ export async function start(c: CampaignDef) {
   mountChapterNav();
   const markChapter = (t: number) => sidebar.el.querySelectorAll<HTMLButtonElement>('.chapter-nav button').forEach((b) => b.classList.toggle('on', b.dataset.chapter === phaseAt(t).id));
 
-  // 右侧卡片占位：运镜时把目标放在未被遮挡的区域中心
-  Object.defineProperty(map.insets, 'right', {
-    get: () => {
-      const open = [...cards.children].filter((el) => !el.classList.contains('hidden'));
-      if (!open.length) return 20;
-      const left = Math.min(...open.map((el) => el.getBoundingClientRect().left));
-      return Math.max(20, window.innerWidth - left + 16);
-    },
-  });
+  // Measure layout only when its geometry/visibility changes, never in a render loop.
+  let rightInset = 20, leftInset = map.insets.left, bottomInset = map.insets.bottom;
+  let insetRAF = 0;
+  const measureInsets = () => {
+    insetRAF = 0;
+    const open = [...cards.children].filter(el => !el.classList.contains('hidden'));
+    const right = open.length ? Math.max(20, window.innerWidth - Math.min(...open.map(el => el.getBoundingClientRect().left)) + 16) : 20;
+    const left = sidebar.el.classList.contains('collapsed') ? 30 : sidebar.el.getBoundingClientRect().right + 16;
+    const bottom = timeline.el.getBoundingClientRect().height + 18;
+    if (right === rightInset && left === leftInset && bottom === bottomInset) return;
+    rightInset=right;leftInset=left;bottomInset=bottom;
+    map.schedule();
+    if (store.get().mode === '3d') sandbox?.resize();
+  };
+  const queueInsets = () => { if (!insetRAF) insetRAF = requestAnimationFrame(measureInsets); };
+  Object.defineProperty(map.insets, 'right', { get: () => rightInset });
+  if (m.map.liveInsets) {
+    Object.defineProperty(map.insets, 'left', { configurable: true, get: () => leftInset });
+    Object.defineProperty(map.insets, 'bottom', { configurable: true, get: () => bottomInset });
+  }
+  const insetObserver = new ResizeObserver(queueInsets);
+  for (const el of [sidebar.el, timeline.el, ...cards.children]) insetObserver.observe(el);
+  const insetVisibility = new MutationObserver(queueInsets);
+  for (const el of cards.children) insetVisibility.observe(el, { attributes: true, attributeFilter: ['class'] });
+  window.addEventListener('resize', queueInsets);
+  window.addEventListener('sidebar-toggle', queueInsets);
+  queueInsets();
 
   // ---------- 交互 ----------
   const selectUnit = (id: string | null, fly = true) => {
@@ -164,6 +187,7 @@ export async function start(c: CampaignDef) {
   const openEvent = (e: REvent) => { manualCamera = false; clock.release(); store.set({ t: e.h, playing: false }); director.present(e, false); };
   timeline.onEventPick = openEvent;
   sidebar.onEvent = (id) => { const e = db.events.find((x) => x.id === id); if (e) { director.cancel(); store.set({ playing: false }); clock.seek(e.h); director.present(e, false); } };
+  clock.onSeek(() => naval?.clearFx());
   // 跳转式时间轴广播的 campaign-seek：清空卡片与导演队列
   window.addEventListener('campaign-seek', () => { director.cancel(); eventCard.hide(); unitCard.hide(); store.set({ selectedUnit: null, selectedEvent: null, followUnit: false }); });
 
@@ -196,23 +220,30 @@ export async function start(c: CampaignDef) {
   // ---------- 场几何 ----------
   let lastReq = -1e9;
   const requestField = (t: number, force = false) => {
+    const state = store.get();
+    if (navalSandbox && state.mode === '3d') return;
+    if (!force && state.mode === '2d' && !state.layers.control && !state.layers.front) return;
     if (!force && Math.abs(t - lastReq) < 0.15) return;
     lastReq = t;
     field.request(t, store.get().mode === '3d');
   };
   let geomCount = 0;
-  field.onGeom((g) => { dyn.setGeometry(g); if (g.fA) sandbox?.setFields(g); geomCount++; });
+  field.onGeom((g) => { if (store.get().mode === '2d') dyn.setGeometry(g); if (g.fA && !navalSandbox) sandbox?.setFields(g); geomCount++; });
   field.whenReady().then(() => {
     st.buildHex(field.masks);
     st.groups.hex.style.display = store.get().layers.hex ? '' : 'none';
     requestField(store.get().t, true);
-    field.warm();
+    const warm = () => field.warm();
+    if ('requestIdleCallback' in window) window.requestIdleCallback(warm, { timeout: 5000 });
+    else setTimeout(warm, 1500);
   });
 
   map.onView((v, zooming) => {
+    if (store.get().mode !== '2d') return;
     st.update(v);
     dyn.updateView(v, zooming);
     units.updateView(v);
+    naval?.updateView(v);
     map.root.classList.toggle('is-zooming', zooming);
   });
 
@@ -220,11 +251,17 @@ export async function start(c: CampaignDef) {
   let sandbox: Sandbox | null = null;
   let sandboxLoading: Promise<Sandbox> | null = null;
   const ensureSandbox = () => {
-    if (!sandboxLoading) sandboxLoading = import('../three/sandbox/Sandbox').then((mod) => {
-      sandbox = mod.createSandbox(sandboxEl, db, m.map.liveInsets ? () => map.insets : undefined) as Sandbox;
+    if (sandboxLoading) return sandboxLoading;
+    const start = performance.now();
+    const load: Promise<{ create: (host: HTMLElement, d: typeof db, insets?: () => typeof map.insets) => unknown }> = m.sandbox?.kind === 'naval'
+      ? import('../three/naval/NavalSandbox').then((mod) => ({ create: mod.createNavalSandbox }))
+      : import('../three/sandbox/Sandbox').then((mod) => ({ create: mod.createSandbox }));
+    if (!sandboxLoading) sandboxLoading = load.then((mod) => {
+      sandbox = mod.create(sandboxEl, db, m.map.liveInsets ? () => map.insets : undefined) as Sandbox;
       director.onEvent3D = (e) => sandbox!.flyTo(e.ll, director.zoomFor(e));
       if (m.director.camera === 'frame') director.onCamera3D = (frame, ms) => sandbox!.flyToFrame(frame, ms);
       sandbox.onManual(() => { manualCamera = true; director.cancelReturn(); store.set({ followUnit: false }); });
+      perf.sandboxCreateMs = performance.now() - start;
       return sandbox;
     });
     return sandboxLoading;
@@ -274,14 +311,14 @@ export async function start(c: CampaignDef) {
     if (ch.has('musicVol')) audio.setMusicVol(s.musicVol);
     if (ch.has('sfxVol')) audio.setSfxVol(s.sfxVol);
     if (ch.has('t')) {
-      dyn.setTime(s.t);
-      units.setTime(s.t);
+      if (s.mode === '2d') { perf.updates2d++; dyn.setTime(s.t); units.setTime(s.t); naval?.setTime(s.t); }
+      signals?.setTime(s.t);
       requestField(s.t);
-      if (s.selectedUnit) dyn.showTrack(db.units.get(s.selectedUnit) ?? null, s.t);
+      if (s.mode === '2d' && s.selectedUnit) dyn.showTrack(trackOf(db.units.get(s.selectedUnit)), s.t);
       unitCard.updateTime(s.t);
       sandbox?.setTime(s.t);
       const p = phaseAt(s.t);
-      markChapter(s.t);
+      if (p.name !== lastPhase) markChapter(s.t);
       if (p.name !== lastPhase) {
         const first = lastPhase === '';
         lastPhase = p.name;
@@ -293,13 +330,14 @@ export async function start(c: CampaignDef) {
     if (ch.has('playing')) for (const h of hooks) h.onPlaying?.(s.playing);
     if (ch.has('selectedUnit')) {
       units.selected = s.selectedUnit;
-      units.setTime(s.t);
+      if (naval) { naval.selected = s.selectedUnit; naval.setTime(s.t); }
+      if (s.mode === '2d') units.setTime(s.t);
       sandbox?.select(s.selectedUnit);
       const u = s.selectedUnit ? db.units.get(s.selectedUnit) ?? null : null;
-      dyn.showTrack(u, s.t);
+      if (s.mode === '2d') dyn.showTrack(trackOf(u ?? undefined), s.t);
       if (u) unitCard.show(u, s.t); else if (unitCard.current) unitCard.hide();
     }
-    if (ch.has('layers')) {
+    if ((ch.has('layers') || ch.has('mode')) && s.mode === '2d') {
       const L = s.layers;
       dyn.setVisible('control', L.control); dyn.setVisible('front', L.front); dyn.setVisible('routes', L.routes);
       dyn.setVisible('routesFull', L.routesFull); dyn.setVisible('pockets', L.pockets); dyn.setVisible('demarcation', L.demarcation);
@@ -309,13 +347,16 @@ export async function start(c: CampaignDef) {
       st.groups.hex.style.display = L.hex ? '' : 'none';
       for (const layer of st.overlayGroups.keys()) st.setOverlayVisible(layer, L[layer] !== false);
       map.terrainOpacity = L.terrain ? 1 : 0.35;
+      naval?.setLayers(L);
       map.schedule();
+      requestField(s.t, true);
     }
     if (ch.has('muted')) {
       audio.setMuted(s.muted); soundBtn.textContent = s.muted ? '🔇' : '🔊';
       for (const h of hooks) h.onMute?.(s.muted);
     }
     if (ch.has('mode')) {
+      map.setActive(s.mode === '2d');
       const previous = frameCamera ? (lastMode === '3d' ? sandbox?.cameraFocus() : map.cameraFocus) : undefined;
       lastMode = s.mode;
       if (frameCamera) { map.cancelFlight(); sandbox?.cancelFlight(); }
@@ -336,6 +377,10 @@ export async function start(c: CampaignDef) {
       } else {
         sandbox?.hide(); sandboxEl.classList.add('hidden'); mapEl.classList.remove('hidden');
         document.body.classList.remove('mode-3d');
+        dyn.setTime(s.t); units.setTime(s.t); naval?.setTime(s.t); naval?.clearFx();
+        dyn.showTrack(trackOf(s.selectedUnit ? db.units.get(s.selectedUnit) : undefined), s.t);
+        if (field.last) dyn.setGeometry(field.last);
+        requestField(s.t, true);
         map.resize();
         if (frameCamera) syncCamera('2d', previous);
       }
@@ -357,6 +402,7 @@ export async function start(c: CampaignDef) {
     const s = store.get();
     director.tick();
     if (s.mode !== '2d') return;
+    naval?.tick(dt, now, s.playing && !clock.holding);
     if (s.playing && !clock.holding) {
       battleAcc += dt * s.speed;
       if (battleAcc > 700) {
@@ -430,6 +476,9 @@ export async function start(c: CampaignDef) {
   store.setLayer('units', true);
   dyn.setTime(store.get().t);
   units.setTime(store.get().t);
+  naval?.setLayers(store.get().layers);
+  naval?.setTime(store.get().t);
+  signals?.setTime(store.get().t);
   for (const layer of st.overlayGroups.keys()) st.setOverlayVisible(layer, store.get().layers[layer] !== false);
   st.update(map.view);
   if (m.map.initialView) map.flyTo(m.map.initialView.center, m.map.initialView.zoom, 0);
@@ -475,12 +524,15 @@ export async function start(c: CampaignDef) {
     campaign: m.id,
     setTime: (iso: string) => store.set({ t: isoToHours(iso), playing: false }),
     setZoom: (rel: number, lon?: number, lat?: number) => (lon != null && lat != null ? map.flyTo([lon, lat], rel, 0) : rel === 1 ? map.home(0) : map.flyTo(focus, rel, 0)),
+    setCamera: (rel: number, lon: number, lat: number) => store.get().mode === '3d' ? sandbox?.flyTo([lon, lat], rel, 0) : map.flyTo([lon, lat], rel, 0),
+    resetScene: (iso: string) => { director.cancel(); clock.release(); eventCard.hide(); unitCard.hide(); store.set({ selectedUnit: null, selectedEvent: null, playing: false, director: false, followUnit: false }); clock.seek(isoToHours(iso)); },
     setMode: (mode: '2d' | '3d') => store.set({ mode }),
     select: (id: string | null) => selectUnit(id, false),
     openEvent: (id: string) => { const e = db.events.find((x) => x.id === id); if (e) openEvent(e); },
-    stats: () => ({ units: units.stats, lod: units.level, relK: map.relK, geomCount, t: store.get().t, coverage: map.coverage(), sandbox: sandbox?.stats() ?? null }),
+    stats: () => ({ performance: { ...perf, mapDraws: map.draws }, units: units.stats, lod: units.level, relK: map.relK, geomCount, t: store.get().t, coverage: map.coverage(), sandbox: sandbox?.stats() ?? null, naval: (naval as unknown as { stats?: () => unknown } | null)?.stats?.() ?? null }),
     store,
     db,
   };
-  field.whenReady().then(() => { w.__APP_READY__ = true; });
+  field.whenReady().then(() => requestAnimationFrame(() => requestAnimationFrame(() => { perf.mapReadyMs = performance.now(); w.__APP_READY__ = true; })));
+  void photosP.then(() => { if (eventCard.current) eventCard.show(eventCard.current, { typewriter: false }); });
 }

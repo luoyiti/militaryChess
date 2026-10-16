@@ -1,0 +1,4 @@
+/* 巴巴罗萨行动专属样式：筑垒地域与防线（data/overlays.json，图层 fortlines）画成一串粗圆点，与虚线战线、分界线区分。 */
+.sector-line.ov-fortline { stroke: #5c3826; stroke-width: 2.4; stroke-dasharray: 0.1 5.5; stroke-linecap: round; opacity: .72; }
+.lg-fort { display: inline-block; width: 26px; height: 0; margin-right: 6px; vertical-align: middle;
+  border-top: 3px dotted #5c3826; opacity: .8; }

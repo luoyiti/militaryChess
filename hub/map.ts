@@ -143,6 +143,13 @@ export class HubMap {
       const b = geoPath(projection).bounds(geom);
       return { d, path: new Path2D(d), rect: [b[0][0], b[0][1], b[1][0], b[1][1]] };
     }
+    if (th?.polygon && th.polygon.length >= 3) {
+      // 海域 / 空域轮廓：经纬度多边形（海战的作战海域不贴合国界）
+      const pts = th.polygon.map((ll) => projection(ll as [number, number])!);
+      const d = `M${pts.map((p) => `${p[0].toFixed(1)},${p[1].toFixed(1)}`).join('L')}Z`;
+      const xs = pts.map((p) => p[0]), ys = pts.map((p) => p[1]);
+      return { d, path: new Path2D(d), rect: [Math.min(...xs), Math.min(...ys), Math.max(...xs), Math.max(...ys)] };
+    }
     if (th?.bbox) {
       const r = worldRect(th.bbox);
       const d = `M${r[0]},${r[1]}H${r[2]}V${r[3]}H${r[0]}Z`;
@@ -157,7 +164,8 @@ export class HubMap {
     for (const c of list) {
       const g = this.theatreGeometry(c);
       if (!g) continue;
-      const tg = svg('g', { class: `theatre ${c.status === 'planned' ? 'sealed' : ''} ${c.hub.theatre?.kind === 'air' ? 'air' : ''}`, 'data-id': c.id }, this.gTheatres);
+      const kind = c.hub.theatre?.kind;
+      const tg = svg('g', { class: `theatre ${c.status === 'planned' ? 'sealed' : ''} ${kind === 'air' || kind === 'sea' ? kind : ''}`, 'data-id': c.id }, this.gTheatres);
       svg('path', { class: 'th-fill', d: g.d }, tg);
       svg('path', { class: 'th-line', d: g.d }, tg);
       tg.addEventListener('pointerenter', (ev) => { if (ev.pointerType === 'mouse') this.onHover(c); });

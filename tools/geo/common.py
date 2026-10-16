@@ -43,7 +43,7 @@ for d in (WORK, LL, XY):
 _b = CFG['frame']['bbox']
 # 处理范围：画布四角在圆锥投影下会超出 bbox，默认外扩 3°（geo.config.json 的 region 可覆盖）
 REGION = box(*(CFG.get('region') or [_b[0] - 3, _b[1] - 3, _b[2] + 3, _b[3] + 3]))
-CLIP = box(_b[0] - 1, _b[1] - 1, _b[2] + 1, _b[3] + 1)
+CLIP = box(*CFG['clip']) if CFG.get('clip') else box(_b[0] - 1, _b[1] - 1, _b[2] + 1, _b[3] + 1)  # 矢量裁剪范围（config 的 clip 可覆盖，如画布空角里也有陆地的大幅面圆锥）
 
 
 def log(step, *a):
