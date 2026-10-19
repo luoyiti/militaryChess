@@ -1,0 +1,109 @@
+[
+  {
+    "id": "ladoga-water-long-map",
+    "key": "siegeWaterLongVisible",
+    "label": "新拉多加—奥西诺韦茨长航线",
+    "segments": [
+      {
+        "from": "1941-09-12T00:00",
+        "state": "regular",
+        "note": "首批驳船9月12日抵奥西诺韦茨；秋季常规水运逐渐受到风暴、低温和结冰限制。",
+        "sources": [
+          "civil_source_water_1941",
+          "civil_source_kovalchuk_water1"
+        ],
+        "until": "1941-11-10T00:00"
+      },
+      {
+        "from": "1941-11-10T00:00",
+        "state": "restricted",
+        "note": "11月10日前后驳船运输受阻，官方概述常以15日作首季终点；较强船舶仍于11月27日、12月4日送达粮食。这不是每天连续可航的保证。",
+        "sources": [
+          "civil_source_kovalchuk_water1",
+          "civil_source_water_1941"
+        ],
+        "until": "1941-12-05T00:00"
+      },
+      {
+        "from": "1942-05-28T00:00",
+        "state": "regular",
+        "note": "5月28日新拉多加长航线开航。几何为港口间近似示意。",
+        "sources": [
+          "civil_source_kovalchuk_water2"
+        ],
+        "until": "1942-11-09T00:00"
+      },
+      {
+        "from": "1942-11-09T00:00",
+        "state": "restricted",
+        "note": "小型船停运后大船继续，长线末批常规船队11月29日出发；按日显示包含29日。",
+        "sources": [
+          "civil_source_kovalchuk_water2"
+        ],
+        "until": "1942-11-30T00:00"
+      }
+    ]
+  },
+  {
+    "id": "ladoga-water-short-map",
+    "key": "siegeWaterShortVisible",
+    "label": "科博纳—奥西诺韦茨短航线",
+    "segments": [
+      {
+        "from": "1942-05-22T00:00",
+        "state": "restricted",
+        "note": "22日首批面粉抵湖西岸，23日短线开始常规运行。",
+        "sources": [
+          "civil_source_kovalchuk_water2"
+        ],
+        "until": "1942-05-23T00:00"
+      },
+      {
+        "from": "1942-05-23T00:00",
+        "state": "regular",
+        "note": "科博纳短线常规运输；并不代表每日航行安全或固定运力。",
+        "sources": [
+          "civil_source_kovalchuk_water2"
+        ],
+        "until": "1942-11-09T00:00"
+      },
+      {
+        "from": "1942-11-09T00:00",
+        "state": "restricted",
+        "note": "短线末批常规船队11月30日出发；按日显示包含30日。",
+        "sources": [
+          "civil_source_kovalchuk_water2"
+        ],
+        "until": "1942-12-01T00:00"
+      },
+      {
+        "from": "1942-12-13T00:00",
+        "state": "restricted",
+        "note": "冰区特殊军运继续至1月8日，与冰道并行；不应将这一窗口套给新拉多加长线。",
+        "sources": [
+          "civil_source_kovalchuk_water2",
+          "civil_source_overlap_report"
+        ],
+        "until": "1943-01-09T00:00"
+      },
+      {
+        "from": "1943-04-02T00:00",
+        "state": "restricted",
+        "note": "科博纳—奥西诺韦茨短线。4月2日已有首批货船抵达，浮冰使部分船舶被困；4月26日清水航运恢复。不能以整个4月一律畅通或一律停航。",
+        "sources": [
+          "civil_source_river_transport"
+        ],
+        "until": "1943-04-26T00:00"
+      },
+      {
+        "from": "1943-04-26T00:00",
+        "state": "uncertain",
+        "note": "科博纳—奥西诺韦茨短线。已证实1943年春夏秋继续运送军需、燃料和木材，铁路开通未使湖运消失；本轮未核实晚期终航日。此未定终点不证明1943年冬季每天可航。",
+        "sources": [
+          "civil_source_river_transport",
+          "civil_source_navigation1943_order"
+        ]
+      }
+    ]
+  }
+]

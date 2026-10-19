@@ -1,0 +1,442 @@
+{
+  "batetskiy": {
+    "id": "batetskiy",
+    "zh": "巴捷茨基",
+    "orig": "Батецкий",
+    "kind": "village",
+    "rank": 3,
+    "country": "SU"
+  },
+  "borisova_griva": {
+    "id": "borisova_griva",
+    "zh": "鲍里索瓦格里瓦",
+    "orig": "Борисова Грива",
+    "kind": "village",
+    "rank": 4,
+    "country": "SU"
+  },
+  "duderhof": {
+    "id": "duderhof",
+    "zh": "杜德霍夫",
+    "orig": "Дудергоф",
+    "kind": "region",
+    "rank": 4,
+    "country": "SU"
+  },
+  "gaytolovo": {
+    "id": "gaytolovo",
+    "zh": "盖托洛沃旧村",
+    "orig": "Гайтолово",
+    "kind": "village",
+    "rank": 4,
+    "country": "SU"
+  },
+  "gostilitsy": {
+    "id": "gostilitsy",
+    "zh": "戈斯季利齐",
+    "orig": "Гостилицы",
+    "kind": "village",
+    "rank": 4,
+    "country": "SU"
+  },
+  "khvoynaya": {
+    "id": "khvoynaya",
+    "zh": "赫沃伊纳亚",
+    "orig": "Хвойная",
+    "kind": "airfield",
+    "rank": 3,
+    "country": "SU"
+  },
+  "kokkorevo": {
+    "id": "kokkorevo",
+    "zh": "科科列沃",
+    "orig": "Коккорево",
+    "kind": "port",
+    "rank": 3,
+    "country": "SU"
+  },
+  "krasny_bor": {
+    "id": "krasny_bor",
+    "zh": "红博尔",
+    "orig": "Красный Бор",
+    "kind": "town",
+    "rank": 3,
+    "country": "SU"
+  },
+  "lembolovo": {
+    "id": "lembolovo",
+    "zh": "伦博洛沃地区",
+    "orig": "Лемболово / Lempaala",
+    "kind": "region",
+    "rank": 4,
+    "country": "SU"
+  },
+  "lipka": {
+    "id": "lipka",
+    "zh": "利普卡旧村",
+    "orig": "Липка",
+    "kind": "village",
+    "rank": 4,
+    "country": "SU"
+  },
+  "lyubolyady": {
+    "id": "lyubolyady",
+    "zh": "柳博利亚德",
+    "orig": "Люболяды",
+    "kind": "village",
+    "rank": 4,
+    "country": "SU"
+  },
+  "marino": {
+    "id": "marino",
+    "zh": "马里诺",
+    "orig": "Марьино",
+    "kind": "crossing",
+    "rank": 4,
+    "country": "SU"
+  },
+  "mshinskaya": {
+    "id": "mshinskaya",
+    "zh": "姆申斯卡亚",
+    "orig": "Мшинская",
+    "kind": "village",
+    "rank": 4,
+    "country": "SU"
+  },
+  "myasnoy_bor": {
+    "id": "myasnoy_bor",
+    "zh": "米亚斯诺伊博尔",
+    "orig": "Мясной Бор",
+    "kind": "village",
+    "rank": 3,
+    "country": "SU"
+  },
+  "nevskaya_dubrovka": {
+    "id": "nevskaya_dubrovka",
+    "zh": "涅瓦杜布罗夫卡",
+    "orig": "Невская Дубровка",
+    "kind": "town",
+    "rank": 3,
+    "country": "SU"
+  },
+  "novaya_ladoga": {
+    "id": "novaya_ladoga",
+    "zh": "新拉多加",
+    "orig": "Новая Ладога",
+    "kind": "port",
+    "rank": 3,
+    "country": "SU"
+  },
+  "pavlovsk": {
+    "id": "pavlovsk",
+    "zh": "巴甫洛夫斯克",
+    "orig": "Павловск",
+    "kind": "town",
+    "rank": 3,
+    "country": "SU"
+  },
+  "podberezye": {
+    "id": "podberezye",
+    "zh": "波德别列济耶",
+    "orig": "Подберезье",
+    "kind": "village",
+    "rank": 4,
+    "country": "SU"
+  },
+  "pogostye": {
+    "id": "pogostye",
+    "zh": "波戈斯季耶",
+    "orig": "Погостье",
+    "kind": "village",
+    "rank": 4,
+    "country": "SU"
+  },
+  "polyany": {
+    "id": "polyany",
+    "zh": "波利亚内车站",
+    "orig": "Поляны (станция)",
+    "kind": "town",
+    "rank": 4,
+    "country": "SU"
+  },
+  "porechye_mga": {
+    "id": "porechye_mga",
+    "zh": "波列奇耶旧村（姆加）",
+    "orig": "Поречье (Мгинское)",
+    "kind": "village",
+    "rank": 4,
+    "country": "SU"
+  },
+  "rabochiy_1": {
+    "id": "rabochiy_1",
+    "zh": "第1工人村地区",
+    "orig": "Рабочий посёлок № 1",
+    "kind": "region",
+    "rank": 4,
+    "country": "SU"
+  },
+  "rabochiy_5": {
+    "id": "rabochiy_5",
+    "zh": "第5工人村",
+    "orig": "Рабочий посёлок № 5",
+    "kind": "village",
+    "rank": 4,
+    "country": "SU"
+  },
+  "rabochiy_8": {
+    "id": "rabochiy_8",
+    "zh": "第8工人村地区",
+    "orig": "Рабочий посёлок № 8",
+    "kind": "region",
+    "rank": 4,
+    "country": "SU"
+  },
+  "sestroretsk": {
+    "id": "sestroretsk",
+    "zh": "谢斯特罗列茨克",
+    "orig": "Сестрорецк",
+    "kind": "town",
+    "rank": 3,
+    "country": "SU"
+  },
+  "sitomlya": {
+    "id": "sitomlya",
+    "zh": "锡托姆利亚",
+    "orig": "Ситомля",
+    "kind": "village",
+    "rank": 4,
+    "country": "SU"
+  },
+  "smerdynya": {
+    "id": "smerdynya",
+    "zh": "斯梅尔德尼亚",
+    "orig": "Смердыня",
+    "kind": "village",
+    "rank": 4,
+    "country": "SU"
+  },
+  "spasskaya_polist": {
+    "id": "spasskaya_polist",
+    "zh": "斯帕斯卡亚波利斯季",
+    "orig": "Спасская Полисть",
+    "kind": "village",
+    "rank": 4,
+    "country": "SU"
+  },
+  "toksovo": {
+    "id": "toksovo",
+    "zh": "托克索沃",
+    "orig": "Токсово",
+    "kind": "town",
+    "rank": 4,
+    "country": "SU"
+  },
+  "tortolovo": {
+    "id": "tortolovo",
+    "zh": "托尔托洛沃旧村",
+    "orig": "Тортолово",
+    "kind": "village",
+    "rank": 4,
+    "country": "SU"
+  },
+  "ust_izhora": {
+    "id": "ust_izhora",
+    "zh": "乌斯季伊若拉",
+    "orig": "Усть-Ижора",
+    "kind": "village",
+    "rank": 4,
+    "country": "SU"
+  },
+  "voronovo": {
+    "id": "voronovo",
+    "zh": "沃罗诺沃旧村",
+    "orig": "Вороново",
+    "kind": "village",
+    "rank": 4,
+    "country": "SU"
+  },
+  "vsevolozhsk": {
+    "id": "vsevolozhsk",
+    "zh": "弗谢沃洛日斯克",
+    "orig": "Всеволожский",
+    "kind": "town",
+    "rank": 3,
+    "country": "SU"
+  },
+  "vyra": {
+    "id": "vyra",
+    "zh": "维拉",
+    "orig": "Выра",
+    "kind": "village",
+    "rank": 4,
+    "country": "SU"
+  },
+  "vyritsa": {
+    "id": "vyritsa",
+    "zh": "维里察",
+    "orig": "Вырица",
+    "kind": "town",
+    "rank": 4,
+    "country": "SU"
+  },
+  "memel": {
+    "id": "memel",
+    "zh": "梅梅尔",
+    "orig": "Memel",
+    "kind": "port",
+    "rank": 3,
+    "country": "DE"
+  },
+  "gumbinnen": {
+    "id": "gumbinnen",
+    "zh": "贡宾嫩",
+    "orig": "Gumbinnen",
+    "kind": "town",
+    "rank": 3,
+    "country": "DE"
+  },
+  "taurogen": {
+    "id": "taurogen",
+    "zh": "陶拉格",
+    "orig": "Tauragė / Tauroggen",
+    "kind": "town",
+    "rank": 3,
+    "country": "SU"
+  },
+  "bolshoy_sabsk": {
+    "id": "bolshoy_sabsk",
+    "zh": "大萨布斯克",
+    "orig": "Большой Сабск",
+    "kind": "crossing",
+    "rank": 4,
+    "country": "SU"
+  },
+  "korpiselka": {
+    "id": "korpiselka",
+    "zh": "科尔皮塞尔凯",
+    "orig": "Korpiselkä",
+    "kind": "village",
+    "rank": 4,
+    "country": "SU"
+  },
+  "tuulosjoki": {
+    "id": "tuulosjoki",
+    "zh": "图洛克萨河止步线",
+    "orig": "Tuulosjoki / Тулокса",
+    "kind": "river",
+    "rank": 4,
+    "country": "SU"
+  },
+  "russko_vysotskoye": {
+    "id": "russko_vysotskoye",
+    "zh": "鲁斯科维索茨科耶",
+    "orig": "Русско-Высоцкое",
+    "kind": "village",
+    "rank": 4,
+    "country": "SU"
+  },
+  "sinyavino_modern": {
+    "id": "sinyavino_modern",
+    "zh": "现代锡尼亚维诺镇",
+    "orig": "Синявино (современный посёлок)",
+    "kind": "town",
+    "rank": 4,
+    "country": "SU"
+  },
+  "kobona": {
+    "id": "kobona",
+    "zh": "科博纳",
+    "orig": "Кобона",
+    "kind": "port",
+    "rank": 3,
+    "country": "SU"
+  },
+  "osinovets": {
+    "id": "osinovets",
+    "zh": "奥西诺韦茨角",
+    "orig": "Мыс Осиновец",
+    "kind": "port",
+    "rank": 3,
+    "country": "SU"
+  },
+  "vaganovo": {
+    "id": "vaganovo",
+    "zh": "瓦加诺沃",
+    "orig": "Ваганово",
+    "kind": "village",
+    "rank": 4,
+    "country": "SU"
+  },
+  "sinyavino_43_3": {
+    "id": "sinyavino_43_3",
+    "zh": "锡尼亚维诺43.3高地",
+    "orig": "Синявинская высота 43,3",
+    "kind": "region",
+    "rank": 4,
+    "country": "SU"
+  },
+  "sinyavino_50_1": {
+    "id": "sinyavino_50_1",
+    "zh": "锡尼亚维诺50.1高地地区",
+    "orig": "Синявинская высота 50,1",
+    "kind": "region",
+    "rank": 4,
+    "country": "SU"
+  },
+  "kobona_harbour": {
+    "id": "kobona_harbour",
+    "zh": "科博纳港区",
+    "orig": "Кобоно-Кареджинский порт (Кобона)",
+    "kind": "port",
+    "rank": 4,
+    "country": "SU"
+  },
+  "shlisselburg_bridge": {
+    "id": "shlisselburg_bridge",
+    "zh": "什利谢利堡铁路渡桥",
+    "orig": "Железнодорожная переправа через Неву",
+    "kind": "crossing",
+    "rank": 4,
+    "country": "SU"
+  },
+  "victory_rail_mid": {
+    "id": "victory_rail_mid",
+    "zh": "胜利之路铁路旧线",
+    "orig": "Дорога Победы (Приладожский)",
+    "kind": "crossing",
+    "rank": 4,
+    "country": "SU"
+  },
+  "gontovaya_lipka": {
+    "id": "gontovaya_lipka",
+    "zh": "贡托瓦亚利普卡旧村",
+    "orig": "Гонтовая Липка",
+    "kind": "village",
+    "rank": 4,
+    "country": "SU"
+  },
+  "kareji": {
+    "id": "kareji",
+    "zh": "卡列日角",
+    "orig": "Мыс Кареджский нос",
+    "kind": "region",
+    "rank": 4,
+    "country": "SU"
+  },
+  "ilmen_north": {
+    "id": "ilmen_north",
+    "zh": "伊尔门湖北岸水域",
+    "orig": "Северная часть озера Ильмень",
+    "kind": "region",
+    "rank": 4,
+    "country": "SU"
+  },
+  "oreshek": {
+    "id": "oreshek",
+    "zh": "奥列舍克要塞",
+    "orig": "Крепость Орешек / Schlüsselburg",
+    "kind": "fort",
+    "rank": 3,
+    "country": "SU"
+  }
+}

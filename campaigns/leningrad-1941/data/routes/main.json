@@ -1,0 +1,1169 @@
+[
+  {
+    "id": "r.de_shlisselburg_1941",
+    "side": "DE",
+    "unit": "de.20idmot",
+    "style": "main",
+    "widthKm": 10,
+    "label": "第 20 摩步师突击什利谢利堡（9.1—9.8）",
+    "until": "1941-10-05T00:00",
+    "fadeHours": 96,
+    "waypoints": [
+      {
+        "at": "1941-09-01T00:00",
+        "pos": "@mga"
+      },
+      {
+        "at": "1941-09-05T12:00",
+        "pos": "@sinyavino"
+      },
+      {
+        "at": "1941-09-08T12:00",
+        "pos": "@shlisselburg"
+      }
+    ],
+    "sources": [
+      "mil_cmh_decision_3"
+    ],
+    "confidence": "medium",
+    "schematic": true,
+    "illustrative": true,
+    "role": "作战轴线示意；非逐日道路、司令部驻地或占领区边界。"
+  },
+  {
+    "id": "r.de_pulkovo_1941",
+    "side": "DE",
+    "unit": "de.xli_mk",
+    "style": "main",
+    "widthKm": 12,
+    "label": "第 4 装甲集群强攻杜德霍夫—普尔科沃（9.9—9.18）",
+    "until": "1941-10-05T00:00",
+    "fadeHours": 96,
+    "waypoints": [
+      {
+        "at": "1941-09-09T06:00",
+        "pos": [
+          29.75,
+          59.52
+        ]
+      },
+      {
+        "at": "1941-09-11T14:00",
+        "pos": "@duderhof"
+      },
+      {
+        "at": "1941-09-13T12:00",
+        "pos": "@krasnoye_selo"
+      },
+      {
+        "at": "1941-09-16T12:00",
+        "pos": [
+          30.28,
+          59.74
+        ]
+      }
+    ],
+    "sources": [
+      "mil_cmh_decision_3"
+    ],
+    "confidence": "medium",
+    "schematic": true,
+    "illustrative": true,
+    "role": "作战轴线示意；非逐日道路、司令部驻地或占领区边界。"
+  },
+  {
+    "id": "r.de_strelna_1941",
+    "side": "DE",
+    "unit": "de.xxxviii_ak",
+    "style": "secondary",
+    "widthKm": 9,
+    "label": "第 XXXVIII 军切入芬兰湾隔断奥拉宁鲍姆（9.8—9.16）",
+    "until": "1941-10-05T00:00",
+    "fadeHours": 96,
+    "waypoints": [
+      {
+        "at": "1941-09-08T08:00",
+        "pos": [
+          29.65,
+          59.58
+        ]
+      },
+      {
+        "at": "1941-09-14T12:00",
+        "pos": "@ropsha"
+      },
+      {
+        "at": "1941-09-16T18:00",
+        "pos": "@strelna"
+      }
+    ],
+    "sources": [
+      "mil_cmh_decision_3"
+    ],
+    "confidence": "medium",
+    "schematic": true,
+    "illustrative": true,
+    "role": "作战轴线示意；非逐日道路、司令部驻地或占领区边界。"
+  },
+  {
+    "id": "r.fi_svir_1941",
+    "side": "FI",
+    "unit": "fi.karelian_army",
+    "style": "main",
+    "widthKm": 11,
+    "label": "芬军斯维里河方向推进；洛杰伊诺耶波列未克",
+    "until": "1941-10-15T00:00",
+    "fadeHours": 120,
+    "waypoints": [
+      {
+        "at": "1941-09-04T05:00",
+        "pos": [
+          32.72,
+          61.18
+        ]
+      },
+      {
+        "at": "1941-09-05T18:00",
+        "pos": "@olonets"
+      },
+      {
+        "at": "1941-09-07T18:00",
+        "pos": [
+          33.35,
+          60.82
+        ]
+      },
+      {
+        "at": "1941-09-18T12:00",
+        "pos": "@svirstroy"
+      }
+    ],
+    "sources": [
+      "mil_finn_svir_2011"
+    ],
+    "confidence": "medium",
+    "schematic": true,
+    "illustrative": true,
+    "role": "作战轴线示意；非逐日道路、司令部驻地或占领区边界。"
+  },
+  {
+    "id": "r.de_tikhvin_1941",
+    "side": "DE",
+    "unit": "de.xxxix_mk",
+    "style": "main",
+    "widthKm": 12,
+    "label": "第 XXXIX 摩托化军季赫温攻势（10.16—11.8）",
+    "until": "1941-11-25T00:00",
+    "fadeHours": 120,
+    "waypoints": [
+      {
+        "at": "1941-10-16T06:00",
+        "pos": "@gruzino"
+      },
+      {
+        "at": "1941-10-23T12:00",
+        "pos": "@budogoshch"
+      },
+      {
+        "at": "1941-11-01T12:00",
+        "pos": "@sitomlya"
+      },
+      {
+        "at": "1941-11-08T22:00",
+        "pos": "@tikhvin"
+      }
+    ],
+    "sources": [
+      "mil_cmh_decision_3"
+    ],
+    "confidence": "medium",
+    "schematic": true,
+    "illustrative": true,
+    "role": "作战轴线示意；非逐日道路、司令部驻地或占领区边界。"
+  },
+  {
+    "id": "r.su_tikhvin_counter_1941",
+    "side": "SU",
+    "unit": "su.4a",
+    "style": "counter",
+    "widthKm": 13,
+    "label": "梅列茨科夫第 4 集团军收复季赫温反攻（11.19—12.28）",
+    "until": "1942-01-10T00:00",
+    "fadeHours": 120,
+    "waypoints": [
+      {
+        "at": "1941-11-19T08:00",
+        "pos": [
+          33.78,
+          59.7
+        ]
+      },
+      {
+        "at": "1941-12-09T09:00",
+        "pos": "@tikhvin"
+      },
+      {
+        "at": "1941-12-18T12:00",
+        "pos": "@sitomlya"
+      },
+      {
+        "at": "1941-12-26T12:00",
+        "pos": "@budogoshch"
+      },
+      {
+        "at": "1941-12-30T12:00",
+        "pos": [
+          32.12,
+          59.42
+        ]
+      }
+    ],
+    "sources": [
+      "mil_cmh_decision_3"
+    ],
+    "confidence": "medium",
+    "schematic": true,
+    "illustrative": true,
+    "role": "作战轴线示意；非逐日道路、司令部驻地或占领区边界。"
+  },
+  {
+    "id": "r.su_malaya_vishera_1941",
+    "side": "SU",
+    "unit": "su.52a",
+    "style": "counter",
+    "widthKm": 10,
+    "label": "第 52 集团军解放小维舍拉（11.12—12.20）",
+    "until": "1942-01-05T00:00",
+    "fadeHours": 120,
+    "waypoints": [
+      {
+        "at": "1941-11-12T08:00",
+        "pos": [
+          32.55,
+          58.82
+        ]
+      },
+      {
+        "at": "1941-11-20T12:00",
+        "pos": "@malaya_vishera"
+      },
+      {
+        "at": "1941-12-18T12:00",
+        "pos": [
+          31.95,
+          59.05
+        ]
+      }
+    ],
+    "sources": [
+      "mil_cmh_decision_3"
+    ],
+    "confidence": "medium",
+    "schematic": true,
+    "illustrative": true,
+    "role": "作战轴线示意；非逐日道路、司令部驻地或占领区边界。"
+  },
+  {
+    "id": "r.su_lyuban_1942",
+    "side": "SU",
+    "unit": "su.2sh_a",
+    "style": "main",
+    "widthKm": 12,
+    "label": "第 2 突击集团军柳班突击（1942.1—3）",
+    "until": "1942-05-15T00:00",
+    "fadeHours": 168,
+    "waypoints": [
+      {
+        "at": "1942-01-07T08:00",
+        "pos": [
+          31.55,
+          58.84
+        ]
+      },
+      {
+        "at": "1942-01-24T12:00",
+        "pos": "@myasnoy_bor"
+      },
+      {
+        "at": "1942-02-12T12:00",
+        "pos": [
+          31.05,
+          59.1
+        ]
+      },
+      {
+        "at": "1942-02-28T12:00",
+        "pos": [
+          31.05,
+          59.1
+        ]
+      }
+    ],
+    "sources": [
+      "mil_cmh_decision_8",
+      "mil_cmh_decision_9"
+    ],
+    "confidence": "medium",
+    "schematic": true,
+    "illustrative": true,
+    "role": "作战轴线示意；非逐日道路、司令部驻地或占领区边界。"
+  },
+  {
+    "id": "r.de_raubtier_1942",
+    "side": "DE",
+    "unit": "de.i_ak",
+    "style": "counter",
+    "widthKm": 9,
+    "label": "德军「猛兽行动」切断米亚斯诺伊博尔瓶颈（1942.3）",
+    "until": "1942-06-28T00:00",
+    "fadeHours": 120,
+    "waypoints": [
+      {
+        "at": "1942-03-15T06:00",
+        "pos": "@spasskaya_polist"
+      },
+      {
+        "at": "1942-03-19T18:00",
+        "pos": "@myasnoy_bor"
+      }
+    ],
+    "sources": [
+      "mil_cmh_decision_8",
+      "mil_cmh_decision_9"
+    ],
+    "confidence": "medium",
+    "schematic": true,
+    "illustrative": true,
+    "role": "作战轴线示意；非逐日道路、司令部驻地或占领区边界。"
+  },
+  {
+    "id": "r.su_sinyavino_1942",
+    "side": "SU",
+    "unit": "su.8a",
+    "style": "main",
+    "widthKm": 10,
+    "label": "第三次锡尼亚维诺攻势（1942.8.27—9.10）",
+    "until": "1942-09-28T00:00",
+    "fadeHours": 96,
+    "waypoints": [
+      {
+        "at": "1942-08-27T08:00",
+        "pos": [
+          31.42,
+          59.83
+        ]
+      },
+      {
+        "at": "1942-08-29T12:00",
+        "pos": "@gaytolovo"
+      },
+      {
+        "at": "1942-09-05T12:00",
+        "pos": [
+          31.08,
+          59.84
+        ]
+      }
+    ],
+    "sources": [
+      "mil_cmh_decision_20"
+    ],
+    "confidence": "medium",
+    "schematic": true,
+    "illustrative": true,
+    "role": "作战轴线示意；非逐日道路、司令部驻地或占领区边界。"
+  },
+  {
+    "id": "r.de_manstein_1942",
+    "side": "DE",
+    "unit": "de.11a",
+    "style": "counter",
+    "widthKm": 10,
+    "label": "曼施坦因第 11 集团军夹击盖托洛沃（1942.9.21—9.25）",
+    "until": "1942-10-12T00:00",
+    "fadeHours": 96,
+    "waypoints": [
+      {
+        "at": "1942-09-21T06:00",
+        "pos": "@mga"
+      },
+      {
+        "at": "1942-09-23T12:00",
+        "pos": "@tortolovo"
+      },
+      {
+        "at": "1942-09-25T16:00",
+        "pos": "@gaytolovo"
+      }
+    ],
+    "sources": [
+      "mil_cmh_decision_20"
+    ],
+    "confidence": "medium",
+    "schematic": true,
+    "illustrative": true,
+    "role": "作战轴线示意；非逐日道路、司令部驻地或占领区边界。"
+  },
+  {
+    "id": "r.su_iskra_west_1943",
+    "side": "SU",
+    "unit": "su.67a",
+    "style": "main",
+    "widthKm": 11,
+    "label": "「火花行动」第 67 集团军渡涅瓦河东进（1943.1.12—1.18）",
+    "until": "1943-02-15T00:00",
+    "fadeHours": 120,
+    "waypoints": [
+      {
+        "at": "1943-01-12T09:30",
+        "pos": "@marino"
+      },
+      {
+        "at": "1943-01-15T12:00",
+        "pos": "@shlisselburg"
+      },
+      {
+        "at": "1943-01-18T09:30",
+        "pos": "@rabochiy_5"
+      }
+    ],
+    "sources": [
+      "mil_reglib_1943",
+      "mil_prlib_iskra"
+    ],
+    "confidence": "medium",
+    "schematic": true,
+    "illustrative": true,
+    "role": "作战轴线示意；非逐日道路、司令部驻地或占领区边界。"
+  },
+  {
+    "id": "r.su_iskra_east_1943",
+    "side": "SU",
+    "unit": "su.2sh_rebuilt",
+    "style": "main",
+    "widthKm": 11,
+    "label": "「火花行动」第 2 突击集团军西进会师（1943.1.12—1.18）",
+    "until": "1943-02-15T00:00",
+    "fadeHours": 120,
+    "waypoints": [
+      {
+        "at": "1943-01-12T09:30",
+        "pos": [
+          31.34,
+          59.91
+        ]
+      },
+      {
+        "at": "1943-01-15T12:00",
+        "pos": "@rabochiy_8"
+      },
+      {
+        "at": "1943-01-18T09:30",
+        "pos": "@rabochiy_5"
+      }
+    ],
+    "sources": [
+      "mil_reglib_1943",
+      "mil_prlib_iskra"
+    ],
+    "confidence": "medium",
+    "schematic": true,
+    "illustrative": true,
+    "role": "作战轴线示意；非逐日道路、司令部驻地或占领区边界。"
+  },
+  {
+    "id": "r.su_krasny_bor_1943",
+    "side": "SU",
+    "unit": "su.55a",
+    "style": "secondary",
+    "widthKm": 9,
+    "label": "第 55 集团军红博尔攻势（1943.2.10—2.15）",
+    "until": "1943-03-10T00:00",
+    "fadeHours": 120,
+    "waypoints": [
+      {
+        "at": "1943-02-10T08:40",
+        "pos": "@kolpino"
+      },
+      {
+        "at": "1943-02-12T12:00",
+        "pos": "@krasny_bor"
+      },
+      {
+        "at": "1943-02-15T12:00",
+        "pos": [
+          30.72,
+          59.64
+        ]
+      }
+    ],
+    "sources": [
+      "mil_reglib_1943",
+      "mil_prlib_iskra"
+    ],
+    "confidence": "medium",
+    "schematic": true,
+    "illustrative": true,
+    "role": "作战轴线示意；非逐日道路、司令部驻地或占领区边界。"
+  },
+  {
+    "id": "r.su_thunder_2sh_1944",
+    "side": "SU",
+    "unit": "su.2sh_rebuilt",
+    "style": "main",
+    "widthKm": 13,
+    "label": "第2突击集团军向卢加河推进；1月底止于金吉谢普接近地",
+    "waypoints": [
+      {
+        "at": "1944-01-14T09:35",
+        "pos": "@oranienbaum"
+      },
+      {
+        "at": "1944-01-16T12:00",
+        "pos": "@gostilitsy"
+      },
+      {
+        "at": "1944-01-19T16:00",
+        "pos": "@ropsha"
+      },
+      {
+        "at": "1944-01-25T12:00",
+        "pos": "@volosovo"
+      },
+      {
+        "at": "1944-01-31T18:00",
+        "pos": [
+          28.78,
+          59.4
+        ]
+      }
+    ],
+    "sources": [
+      "mil_cmh_defeat_12",
+      "mil_ganino_2025"
+    ],
+    "confidence": "medium",
+    "schematic": true,
+    "illustrative": true,
+    "role": "作战轴线示意；非逐日道路、司令部驻地或占领区边界。"
+  },
+  {
+    "id": "r.su_thunder_42a_1944",
+    "side": "SU",
+    "unit": "su.42a",
+    "style": "main",
+    "widthKm": 13,
+    "label": "「一月雷霆」第 42 集团军自普尔科沃突击（1944.1.15—1.31）",
+    "waypoints": [
+      {
+        "at": "1944-01-15T09:20",
+        "pos": "@pulkovo"
+      },
+      {
+        "at": "1944-01-19T12:00",
+        "pos": "@krasnoye_selo"
+      },
+      {
+        "at": "1944-01-20T09:00",
+        "pos": "@ropsha"
+      },
+      {
+        "at": "1944-01-26T12:00",
+        "pos": "@krasnogvardeysk"
+      },
+      {
+        "at": "1944-01-31T18:00",
+        "pos": [
+          29.35,
+          59.15
+        ]
+      }
+    ],
+    "sources": [
+      "mil_cmh_defeat_12",
+      "mil_ganino_2025"
+    ],
+    "confidence": "medium",
+    "schematic": true,
+    "illustrative": true,
+    "role": "作战轴线示意；非逐日道路、司令部驻地或占领区边界。"
+  },
+  {
+    "id": "r.su_67a_mga_1944",
+    "side": "SU",
+    "unit": "su.67a",
+    "style": "main",
+    "widthKm": 11,
+    "label": "第 67 集团军收复姆加、普希金与托斯诺（1944.1.21—1.31）",
+    "waypoints": [
+      {
+        "at": "1944-01-20T08:00",
+        "pos": "@sinyavino"
+      },
+      {
+        "at": "1944-01-21T12:00",
+        "pos": "@mga"
+      },
+      {
+        "at": "1944-01-24T12:00",
+        "pos": "@pushkin"
+      },
+      {
+        "at": "1944-01-26T12:00",
+        "pos": "@tosno"
+      },
+      {
+        "at": "1944-01-31T18:00",
+        "pos": "@vyritsa"
+      }
+    ],
+    "sources": [
+      "mil_cmh_defeat_12",
+      "mil_ganino_2025"
+    ],
+    "confidence": "medium",
+    "schematic": true,
+    "illustrative": true,
+    "role": "作战轴线示意；非逐日道路、司令部驻地或占领区边界。"
+  },
+  {
+    "id": "r.su_54a_lyuban_1944",
+    "side": "SU",
+    "unit": "su.54a",
+    "style": "secondary",
+    "widthKm": 10,
+    "label": "第 54 集团军解放留班打通十月铁路（1944.1.16—1.31）",
+    "waypoints": [
+      {
+        "at": "1944-01-16T08:00",
+        "pos": "@pogostye"
+      },
+      {
+        "at": "1944-01-24T12:00",
+        "pos": "@smerdynya"
+      },
+      {
+        "at": "1944-01-28T12:00",
+        "pos": "@lyuban"
+      },
+      {
+        "at": "1944-01-31T18:00",
+        "pos": [
+          30.65,
+          59.1
+        ]
+      }
+    ],
+    "sources": [
+      "mil_cmh_decision_8",
+      "mil_cmh_decision_9"
+    ],
+    "confidence": "medium",
+    "schematic": true,
+    "illustrative": true,
+    "role": "作战轴线示意；非逐日道路、司令部驻地或占领区边界。"
+  },
+  {
+    "id": "r.su_59a_novgorod_1944",
+    "side": "SU",
+    "unit": "su.59a",
+    "style": "main",
+    "widthKm": 13,
+    "label": "第59集团军南翼越伊尔门湖北部冰面至西岸，再向诺夫哥罗德与卢加推进",
+    "waypoints": [
+      {
+        "at": "1944-01-14T00:00",
+        "pos": [
+          31.3,
+          58.4
+        ]
+      },
+      {
+        "at": "1944-01-14T08:00",
+        "pos": [
+          31.15,
+          58.36
+        ]
+      },
+      {
+        "at": "1944-01-20T12:00",
+        "pos": "@novgorod"
+      },
+      {
+        "at": "1944-01-31T18:00",
+        "pos": [
+          30.6,
+          58.64
+        ]
+      }
+    ],
+    "sources": [
+      "mil_cmh_defeat_12",
+      "mil_ganino_2025"
+    ],
+    "confidence": "medium",
+    "schematic": true,
+    "illustrative": true,
+    "role": "作战轴线示意；非逐日道路、司令部驻地或占领区边界。"
+  },
+  {
+    "id": "r.de_retreat_1944",
+    "side": "DE",
+    "unit": "de.18a",
+    "style": "retreat",
+    "widthKm": 11,
+    "label": "德第 18 集团军向卢加防线总退却（1944.1.20—1.31）",
+    "waypoints": [
+      {
+        "at": "1944-01-20T12:00",
+        "pos": "@krasnogvardeysk"
+      },
+      {
+        "at": "1944-01-25T12:00",
+        "pos": "@siverskaya"
+      },
+      {
+        "at": "1944-01-28T12:00",
+        "pos": "@mshinskaya"
+      },
+      {
+        "at": "1944-01-31T18:00",
+        "pos": "@luga"
+      }
+    ],
+    "sources": [
+      "mil_cmh_defeat_12",
+      "mil_ganino_2025"
+    ],
+    "confidence": "medium",
+    "schematic": true,
+    "illustrative": true,
+    "role": "作战轴线示意；非逐日道路、司令部驻地或占领区边界。"
+  },
+  {
+    "id": "r.de_baltic_coast",
+    "side": "DE",
+    "unit": "de.18a",
+    "style": "main",
+    "widthKm": 10,
+    "label": "沿海轴线：东普鲁士—里加—爱沙尼亚",
+    "until": "1941-08-29T23:59",
+    "fadeHours": 72,
+    "waypoints": [
+      {
+        "at": "1941-06-22T00:00",
+        "pos": "@memel"
+      },
+      {
+        "at": "1941-07-01T12:00",
+        "pos": "@riga"
+      },
+      {
+        "at": "1941-07-20T12:00",
+        "pos": "@tartu"
+      },
+      {
+        "at": "1941-08-07T12:00",
+        "pos": "@kunda"
+      },
+      {
+        "at": "1941-08-29T12:00",
+        "pos": "@tallinn"
+      }
+    ],
+    "schematic": true,
+    "illustrative": true,
+    "role": "战略序章代表性作战轴线；不表示每一支下属部队或实测道路。",
+    "sources": [
+      "mil_cmh_decision_2",
+      "mil_latvia_museum",
+      "mil_naval_tallinn"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "r.de_dvina_lvi",
+    "side": "DE",
+    "unit": "de.lvi_mk",
+    "style": "main",
+    "widthKm": 10,
+    "label": "第LVI军：西德维纳河突破与索尔齐方向",
+    "until": "1941-07-19T23:59",
+    "fadeHours": 72,
+    "waypoints": [
+      {
+        "at": "1941-06-22T00:00",
+        "pos": "@tilsit"
+      },
+      {
+        "at": "1941-06-26T12:00",
+        "pos": "@dvinsk"
+      },
+      {
+        "at": "1941-07-14T12:00",
+        "pos": "@soltsy"
+      },
+      {
+        "at": "1941-07-19T12:00",
+        "pos": [
+          29.6,
+          58.0
+        ]
+      }
+    ],
+    "schematic": true,
+    "illustrative": true,
+    "role": "战略序章代表性作战轴线；不表示每一支下属部队或实测道路。",
+    "sources": [
+      "mil_daugavpils_city",
+      "mil_soltsy_city"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "r.de_pskov_luga",
+    "side": "DE",
+    "unit": "de.xli_mk",
+    "style": "main",
+    "widthKm": 10,
+    "label": "第XLI军：奥斯特罗夫—普斯科夫—卢加桥头堡",
+    "until": "1941-08-24T23:59",
+    "fadeHours": 72,
+    "waypoints": [
+      {
+        "at": "1941-06-22T00:00",
+        "pos": "@taurogen"
+      },
+      {
+        "at": "1941-07-04T12:00",
+        "pos": "@ostrov"
+      },
+      {
+        "at": "1941-07-09T12:00",
+        "pos": "@pskov"
+      },
+      {
+        "at": "1941-07-14T12:00",
+        "pos": "@bolshoy_sabsk"
+      },
+      {
+        "at": "1941-08-24T12:00",
+        "pos": "@luga"
+      }
+    ],
+    "schematic": true,
+    "illustrative": true,
+    "role": "战略序章代表性作战轴线；不表示每一支下属部队或实测道路。",
+    "sources": [
+      "mil_ostrov_museum",
+      "mil_pskov_museum",
+      "mil_luga_archive"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "r.de_16a_eastern_flank",
+    "side": "DE",
+    "unit": "de.16a",
+    "style": "secondary",
+    "widthKm": 14,
+    "label": "第16集团军：北方集团军群东侧步兵轴线",
+    "until": "1941-08-19T23:59",
+    "fadeHours": 72,
+    "waypoints": [
+      {
+        "at": "1941-06-22T00:00",
+        "pos": "@gumbinnen"
+      },
+      {
+        "at": "1941-06-29T12:00",
+        "pos": [
+          26.3,
+          55.7
+        ]
+      },
+      {
+        "at": "1941-07-20T12:00",
+        "pos": [
+          29.4,
+          57.5
+        ]
+      },
+      {
+        "at": "1941-08-19T12:00",
+        "pos": "@novgorod"
+      }
+    ],
+    "schematic": true,
+    "illustrative": true,
+    "role": "战略序章代表性作战轴线；不表示每一支下属部队或实测道路。",
+    "sources": [
+      "mil_cmh_decision_2",
+      "mil_ganino_2025"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "r.su_8a_baltic_retreat",
+    "side": "SU",
+    "unit": "su.8a",
+    "style": "retreat",
+    "widthKm": 10,
+    "label": "第8集团军波罗的海撤退",
+    "until": "1941-08-28T23:59",
+    "fadeHours": 72,
+    "waypoints": [
+      {
+        "at": "1941-06-22T00:00",
+        "pos": [
+          22.6,
+          55.85
+        ]
+      },
+      {
+        "at": "1941-07-01T12:00",
+        "pos": [
+          24.4,
+          57.1
+        ]
+      },
+      {
+        "at": "1941-07-20T12:00",
+        "pos": "@tartu"
+      },
+      {
+        "at": "1941-08-28T12:00",
+        "pos": [
+          27.8,
+          59.3
+        ]
+      }
+    ],
+    "schematic": true,
+    "illustrative": true,
+    "role": "战略序章代表性作战轴线；不表示每一支下属部队或实测道路。",
+    "sources": [
+      "mil_cmh_atlas_1941",
+      "mil_naval_tallinn"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "r.su_soltsy_counter",
+    "side": "SU",
+    "unit": "su.11a",
+    "style": "counter",
+    "widthKm": 8,
+    "label": "索尔齐反突击与随后防线后移",
+    "until": "1941-07-19T23:59",
+    "fadeHours": 72,
+    "waypoints": [
+      {
+        "at": "1941-07-14T12:00",
+        "pos": [
+          30.6,
+          58.2
+        ]
+      },
+      {
+        "at": "1941-07-16T12:00",
+        "pos": "@soltsy"
+      },
+      {
+        "at": "1941-07-19T12:00",
+        "pos": [
+          29.8,
+          58.05
+        ]
+      }
+    ],
+    "schematic": true,
+    "illustrative": true,
+    "role": "战略序章代表性作战轴线；不表示每一支下属部队或实测道路。",
+    "sources": [
+      "mil_soltsy_city"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "r.su_luga_breakout",
+    "side": "SU",
+    "unit": "su.og_luga",
+    "style": "breakout",
+    "widthKm": 6,
+    "label": "卢加残部经林沼向北突围",
+    "until": "1941-09-15T23:59",
+    "fadeHours": 72,
+    "waypoints": [
+      {
+        "at": "1941-08-24T12:00",
+        "pos": "@luga"
+      },
+      {
+        "at": "1941-09-06T12:00",
+        "pos": "@mshinskaya"
+      },
+      {
+        "at": "1941-09-15T12:00",
+        "pos": [
+          29.9,
+          59.3
+        ]
+      }
+    ],
+    "schematic": true,
+    "illustrative": true,
+    "role": "战略序章代表性作战轴线；不表示每一支下属部队或实测道路。",
+    "sources": [
+      "mil_luga_archive"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "r.fi_karelian_prelude",
+    "side": "FI",
+    "unit": "fi.vi_ak",
+    "style": "main",
+    "widthKm": 10,
+    "label": "卡累利阿集团军主突击方向",
+    "until": "1941-07-24T23:59",
+    "fadeHours": 72,
+    "waypoints": [
+      {
+        "at": "1941-07-10T16:00",
+        "pos": "@korpiselka"
+      },
+      {
+        "at": "1941-07-16T12:00",
+        "pos": "@koirinoja"
+      },
+      {
+        "at": "1941-07-24T12:00",
+        "pos": "@tuulosjoki"
+      }
+    ],
+    "schematic": true,
+    "illustrative": true,
+    "role": "战略序章代表性作战轴线；不表示每一支下属部队或实测道路。",
+    "sources": [
+      "mil_finn_svir_2011",
+      "mil_fndu_2026"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "r.fi_ii_ladoga",
+    "side": "FI",
+    "unit": "fi.ii_ak",
+    "style": "main",
+    "widthKm": 10,
+    "label": "第II军向湖西北交通节点推进",
+    "until": "1941-08-24T23:59",
+    "fadeHours": 72,
+    "waypoints": [
+      {
+        "at": "1941-07-31T12:00",
+        "pos": [
+          29.3,
+          61.2
+        ]
+      },
+      {
+        "at": "1941-08-09T12:00",
+        "pos": "@hiitola"
+      },
+      {
+        "at": "1941-08-24T12:00",
+        "pos": [
+          29.9,
+          60.8
+        ]
+      }
+    ],
+    "schematic": true,
+    "illustrative": true,
+    "role": "战略序章代表性作战轴线；不表示每一支下属部队或实测道路。",
+    "sources": [
+      "mil_finn_isthmus_2011",
+      "mil_fndu_2026"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "r.fi_iv_vyborg",
+    "side": "FI",
+    "unit": "fi.iv_ak",
+    "style": "main",
+    "widthKm": 10,
+    "label": "第IV军西地峡攻势与维堡占领",
+    "until": "1941-09-04T23:59",
+    "fadeHours": 72,
+    "waypoints": [
+      {
+        "at": "1941-08-22T12:00",
+        "pos": [
+          28.7,
+          60.8
+        ]
+      },
+      {
+        "at": "1941-08-29T12:00",
+        "pos": "@vyborg"
+      },
+      {
+        "at": "1941-09-04T12:00",
+        "pos": "@terijoki"
+      }
+    ],
+    "schematic": true,
+    "illustrative": true,
+    "role": "战略序章代表性作战轴线；不表示每一支下属部队或实测道路。",
+    "sources": [
+      "mil_vyborg_sshs",
+      "mil_fndu_2026"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "r.su_tallinn_sea_evac",
+    "side": "SU",
+    "unit": "su.kbf",
+    "style": "retreat",
+    "widthKm": 7,
+    "label": "塔林—喀琅施塔得海上撤离",
+    "until": "1941-08-29T23:00",
+    "fadeHours": 72,
+    "waypoints": [
+      {
+        "at": "1941-08-28T12:00",
+        "pos": "@tallinn"
+      },
+      {
+        "at": "1941-08-28T23:00",
+        "pos": [
+          25.5,
+          59.6
+        ]
+      },
+      {
+        "at": "1941-08-29T12:00",
+        "pos": [
+          27.2,
+          59.9
+        ]
+      },
+      {
+        "at": "1941-08-29T23:00",
+        "pos": "@kronstadt"
+      }
+    ],
+    "schematic": true,
+    "illustrative": true,
+    "role": "1941年8月28—29日主航渡的概括航向；中间时点为动画控制点，非舰队实际统一航海日志。",
+    "sources": [
+      "mil_naval_tallinn"
+    ],
+    "confidence": "medium",
+    "movement": "sea"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "id": "cn_infantry", "side": "CN", "name": { "zh": "中国步兵武器与阵地", "short": "步兵火力" }, "class": "small_arms", "model": "inf_allied",
+    "desc": "中国军队以步枪、机枪和支援火力在街区、河浜及村镇组织抵抗。各师装备、训练与补给不一，不能由少数精锐师推成全军统一配备。本卡用通用步兵符号概括作战方式，不给未经核实的型号、编制数量，也不复原一九三七年制服。",
+    "sources": ["nmm_shanghai_overview", "sihang_museum_2024", "yang_shenbao_2017"]
+  },
+  {
+    "id": "cn_hawk3", "side": "CN", "name": { "zh": "霍克III型（第四大队关联空战）", "orig": "Curtiss Hawk III", "short": "霍克III" }, "class": "fighter", "model": "air_token",
+    "desc": "中国空军第四大队在八月十四日杭州筧桥方向使用霍克三型迎战日本海军航空兵。这里记录可核型号，不把后来飞虎队组织提前到一九三七年。筧桥在本图之外，不移动机场坐标；通用飞机标记只是象征，并非霍克机体或准确参战数量的复原。",
+    "sources": ["cacw_jianqiao"]
+  },
+  {
+    "id": "jp_infantry", "side": "JP", "name": { "zh": "日本步兵与火力支援", "short": "步兵火力" }, "class": "small_arms", "model": "inf_allied",
+    "desc": "日军陆军师团和海军陆战队依托步兵、机枪及炮火推进，但两者是不同军种组织。河浜和市区据点使火力与输送条件格外重要。本卡不从后期装备表补造一九三七年逐师数量，通用步兵外形亦不代表当时日本制服、枪型或真实兵员规模。",
+    "sources": ["sanlian_chronology_2005", "nmm_shanghai_overview"]
+  },
+  {
+    "id": "jp_naval_air", "side": "JP", "name": { "zh": "日本海军陆上攻击机", "short": "海军航空兵" }, "class": "bomber", "model": "air_token",
+    "desc": "日本陆海军各有航空兵，不存在本卷所称独立日本空军。八月十四日筧桥相关空战的对手为海军鹿屋航空队陆上攻击机。本轮不将全国飞机总量当上海同时在场数，也不借共享的一九四〇年代专用机型冒充一九三七年真品，只用通用飞机符号。",
+    "sources": ["cacw_jianqiao", "frus_gauss_19371004"]
+  },
+  {
+    "id": "jp_sealift", "side": "JP", "name": { "zh": "登陆舟艇与海上输送", "short": "海上输送" }, "class": "transport", "model": "navy_token",
+    "desc": "海上运输与海军协同使日军能在沿江及杭州湾北岸另开登陆场。第十军档案目录摘要确认十一月五日开始上陆，但本轮没有逐舟逐时日志。本卡仅表示输送能力，不虚填船名、舟艇型号或各师精确滩头；海上虚线路径不能读作陆地推进箭头。",
+    "sources": ["jacar_hangzhou_landing", "feng_command_2021"]
+  },
+  {
+    "id": "jp_izumo", "side": "JP", "name": { "zh": "出云（第三舰队旗舰）", "orig": "出雲", "short": "出云" }, "class": "ship", "model": "navy_token",
+    "desc": "出云代表日本海军在上海的舰炮、通信与海上补给存在，曾成为中国飞机攻击的目标。照片可证当时舰船背景，却不能据此确定某日具体锚位。本卷未核实击沉或重创战果，不绘假精确巡航记录；沙盘使用通用舰船标记，不宣称复原舰级、尺寸或火炮布置。",
+    "photo": { "commons": "File:1937 Japan navy flagship in Shanghai.jpg", "caption": "1937年上海的出云；具体拍摄日与锚位未证，图像权利见署名索引。" },
+    "sources": ["sanlian_chronology_2005", "shanghai_sites_2017", "commons_shanghai_gallery"]
+  }
+]

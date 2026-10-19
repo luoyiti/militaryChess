@@ -1,0 +1,315 @@
+{
+ "photos": [
+  {
+   "src": "photos/street-position.webp", "w": 473, "h": 327,
+   "title": "上海街角的中国军队", "author": "作者不详（Commons编目）",
+   "license": "Public domain", "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Shanghai1937KMT_street88th.jpg",
+   "caption": "1937年上海街角阵地上的中国军人；Commons编目为第88师，具体拍摄日未详。"
+  },
+  {
+   "src": "photos/trench-position.webp", "w": 300, "h": 371,
+   "title": "淞沪会战中的中国军队壕阵", "author": "作者不详（Commons编目）",
+   "license": "Public domain", "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Shanghai1937KMT_trench.jpg",
+   "caption": "1937年淞沪会战中的中国军队壕阵；具体日期与阵地位置未详。"
+  },
+  {
+   "src": "photos/izumo-1937.webp", "w": 400, "h": 201,
+   "title": "1937年上海附近的出云号", "author": "作者不详（Commons编目）",
+   "license": "Public domain", "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:1937_Japan_navy_flagship_in_Shanghai.jpg",
+   "caption": "1937年上海附近的日本海军出云号；照片不用于确定某日锚位或证明受创战果。"
+  }
+ ],
+ "audio": [
+  {
+   "file": "audio/sfx.webm#typewriter",
+   "title": "typewriter：WWS Typewriter.ogg",
+   "author": "Work With Sounds / Konrad Gutkowski",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:WWS_Typewriter.ogg"
+  },
+  {
+   "file": "audio/sfx.webm#bell",
+   "title": "bell：406243 stubb typewriter-ding-near-mono.wav",
+   "author": "_stubb",
+   "license": "CC0",
+   "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:406243_stubb_typewriter-ding-near-mono.wav"
+  },
+  {
+   "file": "audio/sfx.webm#stamp",
+   "title": "stamp：traditional stamp.wav by I.fekry",
+   "author": "Unknown",
+   "license": "CC0 1.0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "sourceUrl": "https://freesound.org/people/I.fekry/sounds/470710/"
+  },
+  {
+   "file": "audio/sfx.webm#paper",
+   "title": "paper：PageRustle by Tomoyo Ichijouji",
+   "author": "Unknown",
+   "license": "CC0 1.0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "sourceUrl": "https://freesound.org/people/Tomoyo%20Ichijouji/sounds/211246/"
+  },
+  {
+   "file": "audio/sfx.webm#explosion",
+   "title": "explosion：Explosion 10.ogg",
+   "author": "tcpp",
+   "license": "Public domain",
+   "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Explosion_10.ogg"
+  },
+  {
+   "file": "audio/sfx.webm#artillery",
+   "title": "artillery：Sexton artillery firing.oga",
+   "author": "LouiseBrown1981",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sexton_artillery_firing.oga"
+  },
+  {
+   "file": "audio/sfx.webm#stuka",
+   "title": "stuka：property War Airplane Stuka Siren Sound Effect by Mastersoundboy2005",
+   "author": "Unknown",
+   "license": "CC0 1.0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "sourceUrl": "https://freesound.org/people/Mastersoundboy2005/sounds/758467/"
+  },
+  {
+   "file": "audio/sfx.webm#bomber",
+   "title": "bomber：War Planes Overhead! by SoundsExciting",
+   "author": "Unknown",
+   "license": "CC0 1.0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "sourceUrl": "https://freesound.org/people/SoundsExciting/sounds/213099/"
+  },
+  {
+   "file": "audio/sfx.webm#engine",
+   "title": "engine：G14-16-Old Truck with Sputtering Idle.wav by craigsmith",
+   "author": "Unknown",
+   "license": "CC0 1.0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "sourceUrl": "https://freesound.org/people/craigsmith/sounds/438085/"
+  },
+  {
+   "file": "audio/sfx.webm#tank",
+   "title": "tank：t26_moving_01.wav by greatmganga",
+   "author": "Unknown",
+   "license": "CC0 1.0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "sourceUrl": "https://freesound.org/people/greatmganga/sounds/329800/"
+  },
+  {
+   "file": "audio/sfx.webm#ship_gun",
+   "title": "ship_gun：Cannon Shot by qubodup",
+   "author": "Unknown",
+   "license": "CC0 1.0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "sourceUrl": "https://freesound.org/people/qubodup/sounds/187767/"
+  },
+  {
+   "file": "audio/sfx.webm#siren",
+   "title": "siren：Motorsirene - Feuerwehralarm.ogg",
+   "author": "Nallchen",
+   "license": "Public domain",
+   "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Motorsirene_-_Feuerwehralarm.ogg"
+  },
+  {
+   "file": "audio/sfx.webm#radio",
+   "title": "radio：Static B.wav",
+   "author": "Oreocooke",
+   "license": "CC0",
+   "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Static_B.wav"
+  },
+  {
+   "file": "audio/sfx.webm#morse",
+   "title": "morse：SOS.ogg",
+   "author": "Dave Aton",
+   "license": "Public domain",
+   "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:SOS.ogg"
+  },
+  {
+   "file": "audio/sfx.webm#mg",
+   "title": "mg：Heavy Machine Gun by ShawnyBoy",
+   "author": "Unknown",
+   "license": "CC0 1.0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "sourceUrl": "https://freesound.org/people/ShawnyBoy/sounds/165394/"
+  },
+  {
+   "file": "audio/sfx.webm#rifle",
+   "title": "rifle：Gunshots 8.ogg",
+   "author": "aradlaw",
+   "license": "Public domain",
+   "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gunshots_8.ogg"
+  },
+  {
+   "file": "audio/sfx.webm#march",
+   "title": "march：marching-concrete-loop.aif by stib",
+   "author": "Unknown",
+   "license": "CC0 1.0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "sourceUrl": "https://freesound.org/people/stib/sounds/240732/"
+  },
+  {
+   "file": "audio/sfx.webm#cavalry",
+   "title": "cavalry：Six Horses Galloping By.ogg",
+   "author": "Freesound Community https://pixabay.com/users/freesound_community-46691455/ Bruno Auzet https://pixabay.com/sound-effects/nature-6-horses-gallopwav-14467/",
+   "license": "CC0",
+   "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Six_Horses_Galloping_By.ogg"
+  },
+  {
+   "file": "audio/sfx.webm#ui_click",
+   "title": "ui_click：Computer mouse single click.ogg",
+   "author": "Darklanlan",
+   "license": "CC0",
+   "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Computer_mouse_single_click.ogg"
+  },
+  {
+   "file": "audio/sfx.webm#fanfare",
+   "title": "fanfare：Cracow trumpet signal.ogg",
+   "author": "uploader Szczebrzeszynski",
+   "license": "Public domain",
+   "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cracow_trumpet_signal.ogg"
+  },
+  {
+   "file": "audio/sfx.webm#amb_wind",
+   "title": "amb_wind：Wind in Swedish pine forest at 25 mps.ogg",
+   "author": "W.carter",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wind_in_Swedish_pine_forest_at_25_mps.ogg"
+  },
+  {
+   "file": "audio/sfx.webm#amb_front",
+   "title": "amb_front：Explosion Distant  by Johnnyfarmer",
+   "author": "Unknown",
+   "license": "CC0 1.0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "sourceUrl": "https://freesound.org/people/Johnnyfarmer/sounds/209769/"
+  },
+  {
+   "file": "audio/sfx.webm#amb_radio",
+   "title": "amb_radio：am band static.wav by cognito perceptu",
+   "author": "Unknown",
+   "license": "CC0 1.0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "sourceUrl": "https://freesound.org/people/cognito%20perceptu/sounds/38693/"
+  }
+ ],
+ "music": [
+  {
+   "file": "audio/music/operations-room.webm, audio/music/operations-room.m4a",
+   "title": "作战室纯器乐背景（共享现代背景，非1937实录）",
+   "author": "本项目原创；离线程序化钢琴与弦乐音色",
+   "license": "本项目原创器乐"
+  },
+  {
+   "file": "audio/music/elegy.webm, audio/music/elegy.m4a",
+   "title": "肖邦降b小调第二钢琴奏鸣曲第三乐章节选（现代背景配乐，非1937实录）",
+   "author": "作曲：弗雷德里克·肖邦；演奏：Paul Pitman（Musopen）",
+   "license": "Public Domain",
+   "licenseUrl": "https://web.archive.org/web/20230926203737/https://creativecommons.org/licenses/publicdomain/",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chopin_Pitman_sonata_no_2_in_b_flat_minor_funeral_march_III_marche_funebre_lento.ogg"
+  }
+ ],
+ "fonts": [
+  {
+   "file": "fonts/NotoSerifSC-400.woff2, fonts/NotoSerifSC-700.woff2",
+   "title": "Noto Serif SC（思源宋体，子集）",
+   "author": "Google / Adobe",
+   "license": "SIL Open Font License 1.1",
+   "licenseUrl": "https://openfontlicense.org/",
+   "sourceUrl": "https://github.com/google/fonts/tree/main/ofl/notoserifsc"
+  },
+  {
+   "file": "fonts/LXGWWenKai-400.woff2",
+   "title": "霞鹜文楷 LXGW WenKai（子集）",
+   "author": "LXGW（落霞与孤鹜）",
+   "license": "SIL Open Font License 1.1",
+   "licenseUrl": "https://openfontlicense.org/",
+   "sourceUrl": "https://github.com/lxgw/LxgwWenKai"
+  },
+  {
+   "file": "fonts/SpecialElite-400.woff2",
+   "title": "Special Elite",
+   "author": "Astigmatic",
+   "license": "Apache License 2.0",
+   "licenseUrl": "https://www.apache.org/licenses/LICENSE-2.0",
+   "sourceUrl": "https://github.com/google/fonts/tree/main/apache/specialelite"
+  },
+  {
+   "file": "fonts/StardosStencil-400.woff2, fonts/StardosStencil-700.woff2",
+   "title": "Stardos Stencil",
+   "author": "Vernon Adams",
+   "license": "SIL Open Font License 1.1",
+   "licenseUrl": "https://openfontlicense.org/",
+   "sourceUrl": "https://github.com/google/fonts/tree/main/ofl/stardosstencil"
+  },
+  {
+   "file": "fonts/Oswald-400.woff2, fonts/Oswald-700.woff2",
+   "title": "Oswald",
+   "author": "Vernon Adams, Kalapi Gajjar, Cyreal",
+   "license": "SIL Open Font License 1.1",
+   "licenseUrl": "https://openfontlicense.org/",
+   "sourceUrl": "https://github.com/google/fonts/tree/main/ofl/oswald"
+  }
+ ],
+ "geography": [
+  {
+   "file": "geo/vectors.topo.json, geo/field_masks.bin, tiles/**, terrain/**",
+   "title": "Natural Earth 1:10m 现代陆地、海岸与粗略水系：并非1937岸线；长江口与杭州湾围垦、滩涂变化不能反推原滩。NE粗岸将宝山县城/临江公园误画入水，故仅其邻域按缓存现代DEM正高程、约250米采样补陆地；此修补也不是1937岸线或城墙复原。",
+   "author": "Natural Earth contributors",
+   "license": "Public domain",
+   "licenseUrl": "https://www.naturalearthdata.com/about/terms-of-use/",
+   "sourceUrl": "https://www.naturalearthdata.com/"
+  },
+  {
+   "file": "terrain/height.png, terrain/terrain.json, terrain/albedo.webp, tiles/**",
+   "title": "Mapzen Terrarium z9 现代高程（本区约260米原始像元）：非1937地形，城市建筑、林冠、河道整治及插值误差不可作战术高地或河深测量；高度图下采样与视觉夸张仅供沙盘。",
+   "author": "Mapzen / Tilezen；SRTM 与 GMTED2010：USGS；全球海底地形 ETOPO1：NOAA；详见原始数据许可与署名",
+   "license": "Underlying source licences and attribution apply",
+   "licenseUrl": "https://github.com/tilezen/joerd/blob/master/docs/attribution.md",
+   "sourceUrl": "https://registry.opendata.aws/terrain-tiles/"
+  },
+  {
+   "file": "geo/vectors.topo.json, geo/field_masks.bin, tiles/**, terrain/**",
+   "title": "黄浦江、苏州河、蕰藻浜补图：部分承接Natural Earth，城市河段按已核地标、河口和文献方位作近似连线，河弯、河宽是示意；未取得完整现代OSM水系或可地理配准的1937精图，不宣称复原逐米历史河岸。",
+   "author": "本战役地理整理；位置关系参照四行仓库纪念馆、上海历史地标资料与FRUS 1937上海电报",
+   "license": "Original schematic compilation; historical text references linked, not copied map imagery",
+   "sourceUrl": "https://history.state.gov/historicaldocuments/frus1937v04/d444"
+  },
+  {
+   "file": "geo/field_masks.bin, geo/vectors.topo.json; campaigns/shanghai-1937/data/overlays.json",
+   "title": "外国守备核心（近似）：仅保守的中心公共租界、法租界内区，不是完整租界界线或1937外军防线实测，也不表示免于炮击。虹口、杨树浦不在豁免区；沪西苏州河南岸仍可作战。11月12日华界失守不等于租界整体被日军占领。",
+   "author": "本战役示意整理；依据FRUS上海电报、四行仓库馆与上海历史地标资料",
+   "license": "Original schematic, not an authoritative historical boundary",
+   "sourceUrl": "https://history.state.gov/historicaldocuments/frus1937v04/d444"
+  },
+  {
+   "file": "geo/field_masks.bin, geo/vectors.topo.json",
+   "title": "战区与控制掩膜：中国陆地归CN战区，JP本土位在此bbox内为零；日军据点与推进由1937逐时控制帧表达。缓存world_1938不用于认定1937占领或把中国改成日军本土。场网格约63米，以保留四行北岸，仍不能推断精确河岸、渡点或逐栋控制。",
+   "author": "本战役历史地理整理",
+   "license": "Schematic educational cartography",
+   "sourceUrl": "https://www.19371213.com.cn/sylm/xwzx/202208/t20220816_3673882.html"
+  },
+  {
+   "file": "campaigns/shanghai-1937/data/gazetteer/places.json",
+   "title": "中文历史地名：旧北站在天目东路，旧南站在南车站路；北部川沙口/小川沙是宝山罗泾地域而非浦东川沙。除有坐标的建筑馆址外，多数点仅旧镇、作战地域中心；罗泾文保点、羁留点和登陆带不等于1937原滩或营门实测。北川沙/狮子林地名锚点落在概化底图水格，不代表1937海滩；作战标记另用邻近陆上示意点。",
+   "author": "本战役整理；历史识别参照上海地标资料，个别现代馆址坐标参照维基百科",
+   "license": "Original gazetteer compilation; references retain their own rights",
+   "sourceUrl": "https://m.krzzjn.com/show-909-59331.html"
+  }
+ ]
+}

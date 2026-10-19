@@ -1,0 +1,278 @@
+[
+  {
+    "id": "fl.kaur",
+    "layer": "fortlines",
+    "kind": "line",
+    "label": "卡累利阿筑垒地域（КаУР，第 22 筑垒地域）",
+    "line": [
+      [
+        29.96,
+        60.12
+      ],
+      [
+        30.12,
+        60.2
+      ],
+      [
+        30.35,
+        60.35
+      ],
+      [
+        30.68,
+        60.38
+      ],
+      [
+        31.02,
+        60.15
+      ]
+    ],
+    "style": "fortline",
+    "sources": [
+      "mil_finn_journal34"
+    ]
+  },
+  {
+    "id": "fl.pulkovo_line",
+    "layer": "fortlines",
+    "kind": "line",
+    "label": "列宁格勒南郊内环防线（乌里茨克—普尔科沃—科尔皮诺）",
+    "line": [
+      [
+        30.15,
+        59.84
+      ],
+      [
+        30.25,
+        59.79
+      ],
+      [
+        30.33,
+        59.77
+      ],
+      [
+        30.48,
+        59.76
+      ],
+      [
+        30.6,
+        59.75
+      ],
+      [
+        30.68,
+        59.8
+      ]
+    ],
+    "style": "fortline",
+    "sources": [
+      "mil_cmh_decision_3",
+      "mil_naval_1944"
+    ]
+  },
+  {
+    "id": "fl.krur",
+    "layer": "fortlines",
+    "kind": "line",
+    "label": "红卫城筑垒地域（КрУР，1941 年 8—9 月）",
+    "line": [
+      [
+        29.65,
+        59.68
+      ],
+      [
+        29.88,
+        59.58
+      ],
+      [
+        30.08,
+        59.52
+      ],
+      [
+        30.35,
+        59.56
+      ],
+      [
+        30.58,
+        59.65
+      ]
+    ],
+    "style": "fortline",
+    "sources": [
+      "mil_cmh_decision_3",
+      "mil_naval_1944"
+    ]
+  },
+  {
+    "id": "fl.oranienbaum_perimeter",
+    "layer": "fortlines",
+    "kind": "line",
+    "label": "奥拉宁鲍姆桥头堡防线（1941.9—1944.1）",
+    "line": [
+      [
+        28.98,
+        59.8
+      ],
+      [
+        29.1,
+        59.74
+      ],
+      [
+        29.38,
+        59.74
+      ],
+      [
+        29.62,
+        59.78
+      ],
+      [
+        29.8,
+        59.84
+      ],
+      [
+        29.85,
+        59.9
+      ]
+    ],
+    "style": "fortline",
+    "sources": [
+      "mil_cmh_decision_3",
+      "mil_naval_1944"
+    ]
+  },
+  {
+    "id": "fl.nordwall",
+    "layer": "fortlines",
+    "kind": "line",
+    "label": "德军围城防御带（1943年后期概略，跨时期参考）",
+    "line": [
+      [
+        30.08,
+        59.84
+      ],
+      [
+        30.12,
+        59.74
+      ],
+      [
+        30.38,
+        59.71
+      ],
+      [
+        30.65,
+        59.68
+      ],
+      [
+        30.96,
+        59.82
+      ],
+      [
+        31.02,
+        59.92
+      ]
+    ],
+    "style": "fortline",
+    "sources": [
+      "mil_cmh_defeat_12"
+    ]
+  },
+  {
+    "id": "ll.road_of_life_ice",
+    "layer": "siegeIceVisible",
+    "kind": "line",
+    "label": "湖上冰道代表线：科科列沃—科博纳；非逐日车辙",
+    "line": [
+      "@kokkorevo",
+      [
+        31.3,
+        60.045
+      ],
+      "@kobona_harbour"
+    ],
+    "style": "lifeline-ice",
+    "sources": [
+      "civil_source_kovalchuk_ice1",
+      "civil_source_kovalchuk_ice2",
+      "geo_osm"
+    ]
+  },
+  {
+    "id": "ll.road_of_life_water",
+    "layer": "siegeWaterLongVisible",
+    "kind": "line",
+    "label": "拉多加湖长航线代表线：奥西诺韦茨—新拉多加",
+    "line": [
+      "@osinovets",
+      [
+        31.45,
+        60.24
+      ],
+      [
+        31.9,
+        60.2
+      ],
+      "@novaya_ladoga"
+    ],
+    "style": "lifeline-water",
+    "sources": [
+      "civil_source_kovalchuk_water1",
+      "civil_source_kovalchuk_water2"
+    ]
+  },
+  {
+    "id": "ll.road_of_life_water_short",
+    "layer": "siegeWaterShortVisible",
+    "kind": "line",
+    "label": "湖上短航线参考：奥西诺韦茨—科博纳；具体航次依时期变化",
+    "line": [
+      "@osinovets",
+      [
+        31.3,
+        60.11
+      ],
+      "@kobona_harbour"
+    ],
+    "style": "lifeline-water",
+    "sources": [
+      "civil_source_kovalchuk_water2",
+      "civil_source_overlap_report"
+    ]
+  },
+  {
+    "id": "ll.road_of_victory",
+    "layer": "siegeRailVisible",
+    "kind": "line",
+    "label": "胜利铁路近似走向：什利谢利堡临时桥—波利亚内车站；1943年2月恢复直达货运",
+    "line": [
+      "@shlisselburg_bridge",
+      [
+        31.06,
+        59.929
+      ],
+      [
+        31.18,
+        59.917
+      ],
+      "@victory_rail_mid",
+      "@polyany"
+    ],
+    "style": "lifeline-rail",
+    "sources": [
+      "civil_source_victory_rail",
+      "geo_osm"
+    ]
+  },
+  {
+    "id": "ll.pipeline",
+    "layer": "siegePipelineVisible",
+    "kind": "line",
+    "label": "卡列日角—瓦加诺沃两岸区域连接示意；非1942年管线测绘",
+    "line": [
+      "@kareji",
+      "@vaganovo"
+    ],
+    "style": "lifeline-pipeline",
+    "sources": [
+      "civil_source_pipeline_report",
+      "geo_osm"
+    ]
+  }
+]

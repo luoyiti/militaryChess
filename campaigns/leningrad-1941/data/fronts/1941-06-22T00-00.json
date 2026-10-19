@@ -1,0 +1,14 @@
+{
+  "at": "1941-06-22T00:00",
+  "control": {
+    "DE": [],
+    "FI": []
+  },
+  "transition": "step",
+  "note": "开战前部署：德国与芬兰本土由1941年国界掩膜给定；波罗的海地区和维堡按当时苏军控制显示。 西部与南部占领背景为战略概览，未描绘全巴巴罗萨战场。",
+  "sources": [
+    "mil_finlex_1940",
+    "mil_latvia_museum"
+  ],
+  "confidence": "medium"
+}

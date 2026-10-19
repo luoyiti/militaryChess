@@ -1,0 +1,74 @@
+[
+  {
+    "id": "r.wusong_sealift", "side": "JP", "unit": "jp.3div", "style": "secondary", "widthKm": 0.7, "movement": "sea", "role": "landing", "schematic": true,
+    "label": "吴淞方向海运接近（非实测航道）", "until": "1937-08-24T23:59",
+    "waypoints": [{ "at": "1937-08-22T18:00", "pos": [121.73,31.47] }, { "at": "1937-08-22T23:00", "pos": [121.6,31.43] }, { "at": "1937-08-23T00:00", "pos": "@wusong" }],
+    "sources": ["sanlian_chronology_2005", "shanghai_sites_2017"], "confidence": "low"
+  },
+  {
+    "id": "r.north_chuansha_sealift", "side": "JP", "unit": "jp.11div", "style": "secondary", "widthKm": 0.7, "movement": "sea", "role": "landing", "schematic": true,
+    "label": "北川沙地域海运接近（末点连接登陆后陆上示意，非原滩）", "until": "1937-08-24T23:59",
+    "waypoints": [{ "at": "1937-08-22T18:00", "pos": [121.67,31.6] }, { "at": "1937-08-22T23:00", "pos": [121.47,31.55] }, { "at": "1937-08-23T00:00", "pos": [121.353,31.477] }],
+    "sources": ["sanlian_chronology_2005", "shanghai_sites_2017"], "confidence": "low"
+  },
+  {
+    "id": "r.hangzhou_sealift", "side": "JP", "unit": "jp.6div", "style": "secondary", "widthKm": 0.8, "movement": "sea", "role": "landing", "schematic": true,
+    "label": "第10军海上输送方向（未核逐舟航迹）", "until": "1937-11-06T23:59",
+    "waypoints": [{ "at": "1937-11-04T18:00", "pos": [121.56,30.62] }, { "at": "1937-11-04T23:00", "pos": [121.32,30.65] }, { "at": "1937-11-05T00:00", "pos": "@jinshanwei" }],
+    "sources": ["jacar_hangzhou_landing", "feng_command_2021"], "confidence": "low"
+  },
+  {
+    "id": "r.wusong_to_jiangwan", "side": "JP", "unit": "jp.3div", "style": "main", "widthKm": 1.1, "movement": "land", "role": "advance", "schematic": true,
+    "label": "吴淞—江湾作战地域（示意）",
+    "waypoints": [{ "at": "1937-08-23T00:00", "pos": "@wusong" }, { "at": "1937-09-12T12:00", "pos": "@jiangwan" }],
+    "sources": ["sanlian_chronology_2005", "japanese_oob_tables"], "confidence": "medium"
+  },
+  {
+    "id": "r.luodian_axis", "side": "JP", "unit": "jp.11div", "style": "main", "widthKm": 1.2, "movement": "land", "role": "advance", "schematic": true,
+    "label": "北川沙登陆后陆上示意—罗店—刘行（非史址实测连线）",
+    "waypoints": [{ "at": "1937-08-23T00:00", "pos": [121.353,31.477] }, { "at": "1937-08-28T12:00", "pos": "@luodian" }, { "at": "1937-09-12T12:00", "pos": "@liuhang" }],
+    "sources": ["shanghai_sites_2017", "sanlian_chronology_2005", "feng_command_2021"], "confidence": "medium"
+  },
+  {
+    "id": "r.dachang_axis", "side": "JP", "unit": "jp.9div", "style": "main", "widthKm": 1.2, "movement": "land", "role": "advance", "schematic": true,
+    "label": "蕰藻浜—大场—苏州河作战方向",
+    "waypoints": [{ "at": "1937-10-01T00:00", "pos": "@wenzaobang" }, { "at": "1937-10-26T12:00", "pos": "@dachang" }, { "at": "1937-11-02T12:00", "pos": "@suzhou_creek" }],
+    "sources": ["feng_command_2021", "sanlian_chronology_2005"], "confidence": "medium"
+  },
+  {
+    "id": "r.guangxi_counter", "side": "CN", "unit": "cn.21army", "style": "counter", "widthKm": 1.1, "movement": "land", "role": "counterattack", "schematic": true,
+    "label": "桂军反击地域概括（非精确突破线）",
+    "waypoints": [{ "at": "1937-10-21T00:00", "pos": [121.36,31.29] }, { "at": "1937-10-23T12:00", "pos": "@wenzaobang" }],
+    "sources": ["sanlian_chronology_2005"], "confidence": "low"
+  },
+  {
+    "id": "r.jinshan_songjiang", "side": "JP", "unit": "jp.6div", "style": "main", "widthKm": 1.8, "movement": "land", "role": "flanking", "schematic": true,
+    "label": "金山卫—松江—青浦迂回方向（示意）",
+    "waypoints": [{ "at": "1937-11-05T00:00", "pos": "@jinshanwei" }, { "at": "1937-11-08T12:00", "pos": "@songjiang" }, { "at": "1937-11-12T23:59", "pos": "@qingpu" }],
+    "sources": ["jacar_hangzhou_landing", "nmm_shanghai_overview", "sanlian_chronology_2005"], "confidence": "medium"
+  },
+  {
+    "id": "r.pinghu_jiashan", "side": "JP", "unit": "jp.18div", "style": "secondary", "widthKm": 1.3, "movement": "land", "role": "flanking", "schematic": true,
+    "label": "登陆后的平湖—嘉善方向（地域示意）",
+    "waypoints": [{ "at": "1937-11-05T00:00", "pos": "@jinshanwei" }, { "at": "1937-11-09T12:00", "pos": "@pinghu" }, { "at": "1937-11-12T23:59", "pos": "@jiashan" }],
+    "sources": ["jacar_hangzhou_landing", "sanlian_chronology_2005"], "confidence": "medium"
+  },
+  {
+    "id": "r.qingpu_retreat", "side": "CN", "unit": "cn.88div", "style": "retreat", "widthKm": 1.3, "movement": "land", "role": "withdrawal", "schematic": true,
+    "label": "向青浦、昆山西撤（示意，非全师同路）",
+    "waypoints": [{ "at": "1937-10-27T12:00", "pos": [121.44,31.23] }, { "at": "1937-11-09T12:00", "pos": "@qingpu" }, { "at": "1937-11-12T23:59", "pos": [120.92,31.25] }],
+    "sources": ["nmm_shanghai_overview", "feng_command_2021", "sanlian_chronology_2005"], "confidence": "low"
+  },
+  {
+    "id": "r.nanxiang_kunshan_retreat", "side": "CN", "unit": "cn.87div", "style": "retreat", "widthKm": 1.3, "movement": "land", "role": "withdrawal", "schematic": true,
+    "label": "向南翔、昆山西撤（示意）",
+    "waypoints": [{ "at": "1937-10-27T12:00", "pos": "@suzhou_creek" }, { "at": "1937-11-09T12:00", "pos": "@nanxiang" }, { "at": "1937-11-12T23:59", "pos": "@kunshan" }],
+    "sources": ["nmm_shanghai_overview", "feng_command_2021", "sanlian_chronology_2005"], "confidence": "low"
+  },
+  {
+    "id": "r.songjiang_rearguard", "side": "CN", "unit": "cn.67corps", "style": "retreat", "widthKm": 1.1, "movement": "land", "role": "withdrawal", "schematic": true,
+    "label": "松江阻击后退却方向（不表示全军覆灭）",
+    "waypoints": [{ "at": "1937-11-08T00:00", "pos": "@songjiang" }, { "at": "1937-11-10T12:00", "pos": "@qingpu" }],
+    "sources": ["sanlian_chronology_2005"], "confidence": "low"
+  }
+]

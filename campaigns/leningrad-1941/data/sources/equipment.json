@@ -1,0 +1,64 @@
+[
+  {
+    "id": "eq_tiger",
+    "title": "The Tank Museum：Tiger I，馆藏说明与技术表",
+    "url": "https://tankmuseum.org/tank-nuts/tank-collection/tiger-i"
+  },
+  {
+    "id": "eq_t34",
+    "title": "The Tank Museum：T-34/76，早期车辆馆藏说明",
+    "url": "https://tankmuseum.org/tank-nuts/tank-collection/t-34-76"
+  },
+  {
+    "id": "eq_pz3",
+    "title": "The Tank Museum：Panzer III L，型号发展与馆藏说明",
+    "url": "https://tankmuseum.org/tank-nuts/tank-collection/panzer-iii-l/"
+  },
+  {
+    "id": "eq_pz4",
+    "title": "The Tank Museum：Panzer IV，型号发展与馆藏说明",
+    "url": "https://tankmuseum.org/tank-nuts/tank-collection/panzer-iv/"
+  },
+  {
+    "id": "eq_t26",
+    "title": "胜利博物馆：1933年式单炮塔T-26的研制与装备",
+    "url": "https://victorymuseum.ru/about/museum-collection/armament/legkiy-odnobashennyy-tank-t-26-obraztsa-1933-g/"
+  },
+  {
+    "id": "eq_kv",
+    "title": "胜利博物馆：KV系列与KV-1S的历史说明（非KV-1统一规格表）",
+    "url": "https://victorymuseum.ru/external-navigation/bronetekhnika/38142/"
+  },
+  {
+    "id": "eq_bm13",
+    "title": "胜利博物馆：BM-13N火箭炮馆藏说明",
+    "url": "https://victorymuseum.ru/external-navigation/bronetekhnika/38140/"
+  },
+  {
+    "id": "eq_b13",
+    "title": "中央海军博物馆：生命之路沿线舰炮修复与B-13用途",
+    "url": "https://navalmuseum.ru/about/restoration/finish/guns"
+  },
+  {
+    "id": "eq_i16",
+    "title": "胜利博物馆：I-16战斗机研制、型号与战斗使用",
+    "url": "https://victorymuseum.ru/encyclopedia/technic/voenno-vozdushnye-sily/samolet-istrebitel-i-16-sssr/"
+  },
+  {
+    "id": "eq_pz38",
+    "title": "Steven J. Zaloga：Panzer 38(t)，出版社原书预览第4—5页",
+    "url": "https://api.pageplace.de/preview/DT0400.9781782003960_A26653827/preview-9781782003960_A26653827.pdf",
+    "author": "Steven J. Zaloga",
+    "year": 2014
+  },
+  {
+    "id": "eq_flak",
+    "title": "帝国战争博物馆：克虏伯8.8厘米高射炮演示原始影片档案",
+    "url": "https://film.iwmcollections.org.uk/record/19327"
+  },
+  {
+    "id": "eq_ju87",
+    "title": "英国皇家空军博物馆：Ju 87俯冲轰炸机的战术限制",
+    "url": "https://www.rafmuseum.org.uk/research/online-exhibitions/history-of-the-battle-of-britain/the-new-tactics/"
+  }
+]

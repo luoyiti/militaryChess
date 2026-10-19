@@ -1,0 +1,116 @@
+
+> military-chess@0.2.0 verify
+> npm run typecheck && npm run test && npm run validate -- --quiet && vite build
+
+
+> military-chess@0.2.0 typecheck
+> tsc --noEmit -p tsconfig.json && tsc --noEmit -p tsconfig.node.json
+
+
+> military-chess@0.2.0 test
+> vitest run
+
+
+ RUN  v5.0.2 /Users/luoyiti/Project/VibeCoding/militaryChess
+
+
+ Test Files  29 passed (29)
+      Tests  433 passed (433)
+   Start at  12:14:20
+   Duration  15.41s (tests 86%, transform 8%, import 6%)
+
+
+> military-chess@0.2.0 validate
+> tsx tools/validate/validate.ts --all --quiet
+
+✓ balkans-1941  地名 144 · 部队 114 · 路线 43 · 关键帧 54 · 事件 83 · 装备 14 · 来源 20  — 0 错误，4 警告
+✓ barbarossa-1941  地名 406 · 部队 444 · 路线 112 · 关键帧 51 · 事件 154 · 装备 34 · 来源 207  — 0 错误，0 警告
+✓ britain-1940  地名 73 · 部队 60 · 路线 122 · 关键帧 39 · 事件 15 · 装备 8 · 来源 52  — 0 错误，1 警告
+✓ crete-1941  地名 33 · 部队 28 · 路线 18 · 关键帧 16 · 事件 24 · 装备 7 · 来源 11  — 0 错误，24 警告
+✓ dunkirk-1940  地名 239 · 部队 228 · 路线 105 · 关键帧 12 · 事件 82 · 装备 29 · 来源 97 · 海战条目 44  — 0 错误，53 警告
+✓ el-alamein-1942  （筹备中，只检查卷宗）  — 0 错误，0 警告
+✓ france-1940  地名 80 · 部队 26 · 路线 12 · 关键帧 10 · 事件 20 · 装备 4 · 来源 4  — 0 错误，0 警告
+✓ guadalcanal-1942  （筹备中，只检查卷宗）  — 0 错误，0 警告
+✓ leningrad-1941  地名 120 · 部队 88 · 路线 31 · 关键帧 48 · 事件 109 · 装备 14 · 来源 102  — 0 错误，0 警告
+✓ norway-1940  地名 50 · 部队 35 · 路线 37 · 关键帧 18 · 事件 38 · 装备 0 · 来源 21  — 0 错误，13 警告
+✓ poland-1939  地名 430 · 部队 212 · 路线 62 · 关键帧 23 · 事件 62 · 装备 39 · 来源 166  — 0 错误，3 警告
+✓ river-plate-1939  地名 26 · 部队 27 · 路线 0 · 关键帧 11 · 事件 45 · 装备 7 · 来源 59 · 海战条目 95  — 0 错误，0 警告
+✓ shanghai-1937  地名 37 · 部队 30 · 路线 12 · 关键帧 13 · 事件 25 · 装备 6 · 来源 17  — 0 错误，1 警告
+(!) Your Vite config uses features that are unsupported by `configLoader: 'native'`, which is planned to become the default in a future major version of Vite:
+  - import "./tools/vite/catalog" without a file extension (vite.config.ts:2:63). Add the file extension
+Set `VITE_CONFIG_NATIVE_IGNORE_WARNING=true` to suppress this warning.
+vite v8.3.1 building client environment for production...
+transforming...
+✓ 962 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                                    1.58 kB │ gzip:   0.95 kB
+dist/campaigns/dunkirk-1940/index.html             7.37 kB │ gzip:   3.31 kB
+dist/campaigns/river-plate-1939/index.html         7.38 kB │ gzip:   3.31 kB
+dist/campaigns/shanghai-1937/index.html            7.40 kB │ gzip:   3.35 kB
+dist/campaigns/barbarossa-1941/index.html          7.46 kB │ gzip:   3.32 kB
+dist/campaigns/france-1940/index.html              7.52 kB │ gzip:   3.38 kB
+dist/campaigns/poland-1939/index.html              7.52 kB │ gzip:   3.38 kB
+dist/campaigns/balkans-1941/index.html             7.62 kB │ gzip:   3.41 kB
+dist/campaigns/leningrad-1941/index.html           7.63 kB │ gzip:   3.39 kB
+dist/campaigns/crete-1941/index.html               7.69 kB │ gzip:   3.41 kB
+dist/campaigns/norway-1940/index.html              7.76 kB │ gzip:   3.43 kB
+dist/campaigns/britain-1940/index.html             7.79 kB │ gzip:   3.44 kB
+dist/assets/field.worker-B1A4QXnY.js              10.31 kB
+dist/assets/StardosStencil-700-1V8ii74z.woff2     14.64 kB
+dist/assets/StardosStencil-400-DHOYxAah.woff2     15.43 kB
+dist/assets/Oswald-400-NnI_rB8X.woff2             17.24 kB
+dist/assets/Oswald-700-O77XpFYs.woff2             17.67 kB
+dist/assets/SpecialElite-400-COB_L-TR.woff2       56.60 kB
+dist/assets/land.worker-qqAzdQiw.js              117.04 kB
+dist/assets/NotoSerifSC-400-Zp7L5NY9.woff2       442.61 kB
+dist/assets/NotoSerifSC-700-C6jl9dJr.woff2       456.51 kB
+dist/assets/hejnal-DleCgvWf.webm                 518.57 kB
+dist/assets/LXGWWenKai-400-CIPHJ3YO.woff2        546.99 kB
+dist/assets/hejnal-D-RwjTJ-.m4a                  588.37 kB
+dist/assets/operations-room-i926O1P-.m4a       1,031.89 kB
+dist/assets/operations-room-DYMxhz61.webm      1,063.76 kB
+dist/assets/sfx-gas3nZ7o.webm                  1,690.09 kB
+dist/assets/elegy-4tNmJAcl.webm                2,029.06 kB
+dist/assets/sfx-LtZH71dr.m4a                   2,311.75 kB
+dist/assets/elegy-DbyFoq3q.m4a                 2,405.72 kB
+dist/assets/polonaise-BeLBqppk.webm            4,422.59 kB
+dist/assets/polonaise-DAG_KQZw.m4a             5,097.87 kB
+dist/assets/barbarossa-1941-YTiYq9nv.css           0.24 kB │ gzip:   0.19 kB
+dist/assets/balkans-1941-XzSH8X82.css              0.44 kB │ gzip:   0.22 kB
+dist/assets/britain-1940-C8dl-nlQ.css              1.06 kB │ gzip:   0.50 kB
+dist/assets/norway-1940-2CbGFWEI.css               1.70 kB │ gzip:   0.72 kB
+dist/assets/leningrad-1941-BL6l2ier.css            5.20 kB │ gzip:   1.61 kB
+dist/assets/start-DN1RLnU4.css                     5.84 kB │ gzip:   2.00 kB
+dist/assets/hub-CR05ZwTO.css                      29.35 kB │ gzip:   7.95 kB
+dist/assets/boot-DqYEtyjw.css                     38.37 kB │ gzip:  10.02 kB
+dist/assets/api-Dfvzj6n2.js                        0.03 kB │ gzip:   0.05 kB
+dist/assets/camera-BU37M3Ao.js                     1.15 kB │ gzip:   0.62 kB
+dist/assets/narration-D_y-4-CD.js                  2.28 kB │ gzip:   1.30 kB
+dist/assets/store-Bzk1Y0My.js                      4.26 kB │ gzip:   2.13 kB
+dist/assets/eventCard-gKLBCTMH.js                  4.56 kB │ gzip:   2.37 kB
+dist/assets/ModelViewer-Bjl9D6OI.js                5.15 kB │ gzip:   2.16 kB
+dist/assets/core-CgoJwb5F.js                       5.41 kB │ gzip:   2.43 kB
+dist/assets/Sandbox-D5lUnM_o.js                   22.72 kB │ gzip:  10.24 kB
+dist/assets/boot-CC2cJhbD.js                      25.54 kB │ gzip:   9.96 kB
+dist/assets/NavalSandbox-C8G4Juxj.js              39.21 kB │ gzip:  15.84 kB
+dist/assets/library-DxfA7Kb9.js                   40.37 kB │ gzip:  11.89 kB
+dist/assets/france-1940-Cqcw8f5w.js               59.60 kB │ gzip:  19.08 kB
+dist/assets/gsap-CvDoa17S.js                      69.58 kB │ gzip:  27.29 kB
+dist/assets/d3-Absafda6.js                        71.53 kB │ gzip:  24.89 kB
+dist/assets/crete-1941-C8DZwSsC.js                82.70 kB │ gzip:  22.84 kB
+dist/assets/shanghai-1937-B41yZZ7_.js             99.05 kB │ gzip:  32.90 kB
+dist/assets/models-v611jDkN.js                   102.06 kB │ gzip:  35.60 kB
+dist/assets/hub-DVh96LR0.js                      133.05 kB │ gzip:  44.37 kB
+dist/assets/start-CTLuk8wL.js                    185.75 kB │ gzip:  67.20 kB
+dist/assets/river-plate-1939-DkK2DwAF.js         208.01 kB │ gzip:  63.67 kB
+dist/assets/norway-1940-Bfzsnlzu.js              244.44 kB │ gzip:  35.57 kB
+dist/assets/britain-1940-BbERJuso.js             277.11 kB │ gzip:  40.12 kB
+dist/assets/leningrad-1941-Bh894aG0.js           467.99 kB │ gzip: 116.00 kB
+dist/assets/three-Bc3jzZuZ.js                    600.30 kB │ gzip: 151.24 kB
+dist/assets/dunkirk-1940-goReKX8V.js             607.14 kB │ gzip: 138.54 kB
+dist/assets/poland-1939-C9pl3yzf.js              673.61 kB │ gzip: 161.97 kB
+dist/assets/balkans-1941-DtT6pRZQ.js           1,140.53 kB │ gzip: 320.56 kB
+dist/assets/barbarossa-1941-Bhk9KeZx.js        1,260.62 kB │ gzip: 280.61 kB
+
+✓ built in 786ms

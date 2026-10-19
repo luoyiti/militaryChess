@@ -1,0 +1,638 @@
+[
+  {
+    "id": "e.ration_cards_july",
+    "at": "1941-07-18T00:00",
+    "precision": "day",
+    "category": "political",
+    "importance": 2,
+    "title": {
+      "zh": "食品配给卡开始实行"
+    },
+    "body": "7月18日，列宁格勒开始凭卡供应面包等食品。普通工人的每日面包标准为800克，职员600克，受抚养者与儿童400克，另有特殊劳动类别。卡片把家庭生活与身份登记相连；纸面领取权利还取决于货源、商店供应和居民取食能力。",
+    "place": "@leningrad",
+    "sources": [
+      "civil_source_kovalchuk_rations",
+      "civil_source_bread_museum"
+    ],
+    "confidence": "high",
+    "side": "SU",
+    "units": []
+  },
+  {
+    "id": "e.ration_cut_sep",
+    "at": "1941-09-02T00:00",
+    "category": "political",
+    "importance": 2,
+    "title": {
+      "zh": "九月面包配给首次下调",
+      "orig": "Первое снижение норм хлеба в Ленинграде"
+    },
+    "body": "9月2日起，普通工人每日面包标准降为600克，职员400克，受抚养者及儿童300克。居民按不同身份和年龄领取食品，家庭还须面对店铺供应和取食困难。此时交通受战事威胁，城市尚未进入9月8日开始的陆上封锁阶段。",
+    "place": "@leningrad",
+    "zoomRel": 4.0,
+    "sources": [
+      "civil_source_kovalchuk_rations"
+    ],
+    "confidence": "high",
+    "side": "SU",
+    "units": [
+      "su.42a",
+      "su.55a"
+    ],
+    "sfx": [
+      "paper",
+      "typewriter"
+    ],
+    "precision": "day"
+  },
+  {
+    "id": "e.first_shelling",
+    "at": "1941-09-04T00:00",
+    "category": "siege",
+    "importance": 2,
+    "title": {
+      "zh": "德军远程炮兵开始轰击市区",
+      "orig": "Erster Artilleriebeschuss Leningrads"
+    },
+    "body": "9月4日，德军从托斯诺以北阵地以240毫米远程重炮轰击列宁格勒，工厂、车站和市区设施受到损害。炮击在陆上合围前已经开始，此后长期威胁居民与交通；防空警报、寻找掩蔽与救护伤员逐渐成为围城生活的一部分。",
+    "place": "@leningrad",
+    "zoomRel": 5.0,
+    "sources": [
+      "civil_source_shelling_study"
+    ],
+    "confidence": "high",
+    "side": "DE",
+    "units": [
+      "de.xxviii_ak",
+      "su.55a"
+    ],
+    "sfx": [
+      "artillery",
+      "explosion"
+    ],
+    "precision": "day"
+  },
+  {
+    "id": "e.badayev_fire",
+    "at": "1941-09-08T00:00",
+    "category": "air",
+    "importance": 1,
+    "title": {
+      "zh": "巴达耶夫仓库遭空袭起火",
+      "orig": "Luftangriff auf die Badajew-Lebensmittellager"
+    },
+    "body": "9月8日的空袭引燃巴达耶夫食品仓库，约3000吨面粉和2500吨食糖受损。大火成为围城饥荒的鲜明记忆，但这些储备仅相当于全市短期消耗；交通封锁、运输不足与分配困难持续叠加，不能把后来饥荒归因于一场火灾。",
+    "place": "@leningrad",
+    "zoomRel": 5.5,
+    "sources": [
+      "civil_source_kantor_mortality"
+    ],
+    "confidence": "high",
+    "side": "DE",
+    "units": [
+      "de.lf1",
+      "su.42a"
+    ],
+    "sfx": [
+      "bomber",
+      "explosion",
+      "siren"
+    ],
+    "precision": "day"
+  },
+  {
+    "id": "e.ladoga_first_barges",
+    "at": "1941-09-12T00:00",
+    "category": "naval",
+    "importance": 2,
+    "title": {
+      "zh": "拉多加湖首批补给驳船抵港",
+      "orig": "Первые баржи с продовольствием в Осиновце"
+    },
+    "body": "9月12日，两艘载粮驳船抵达拉多加湖西岸奥西诺韦茨，带来约800吨粮食，护航舰另运来弹药。港口、接驳铁路与船队此后不断扩充；风暴、敌机和入冬结冰使湖运受限，开通水路并不意味着城市立刻获得足够补给。",
+    "place": "@osinovets",
+    "zoomRel": 5.0,
+    "sources": [
+      "civil_source_water_1941",
+      "civil_source_kovalchuk_water1"
+    ],
+    "confidence": "high",
+    "side": "SU",
+    "units": [
+      "su.ladoga_flot"
+    ],
+    "sfx": [
+      "ship_gun"
+    ],
+    "precision": "day"
+  },
+  {
+    "id": "e.kronstadt_air_raid",
+    "at": "1941-09-23T00:00",
+    "category": "air",
+    "importance": 2,
+    "title": {
+      "zh": "喀琅施塔得空袭与马拉号重创",
+      "orig": "Luftangriffe auf Kronstadt · Линкор «Марат»"
+    },
+    "body": "9月23日，德军俯冲轰炸机袭击喀琅施塔得，炸弹引爆战列舰“马拉”号前部弹药库，舰艏严重毁坏，舰体在港内坐沉，数百名水兵遇难。波罗的海舰队遭受重大打击，舰员和修理人员此后持续抢修，幸存炮塔后来重新支援陆上防御。",
+    "place": "@kronstadt",
+    "zoomRel": 5.5,
+    "sources": [
+      "civil_source_marat_museum",
+      "civil_source_marat_shipmuseum"
+    ],
+    "confidence": "high",
+    "side": "DE",
+    "units": [
+      "de.lf1",
+      "su.kbf"
+    ],
+    "sfx": [
+      "stuka",
+      "explosion",
+      "ship_gun"
+    ],
+    "precision": "day"
+  },
+  {
+    "id": "e.hitler_starve_directive",
+    "at": "1941-09-29T00:00",
+    "category": "political",
+    "importance": 1,
+    "title": {
+      "zh": "毁城与拒绝接受投降的政策",
+      "orig": "Weisung Nr. 1601/41: „Leningrad vom Erdboden vertilgen“"
+    },
+    "body": "9月下旬的德国海军参谋文件记录了希特勒摧毁列宁格勒、以炮火和空袭围困城市并拒绝接受投降的意图。10月7日最高统帅部指令又加以重申。饥饿由此成为压迫城市人口的手段，守军抵抗、外部补给与平民生存紧密交织。",
+    "place": "@siverskaya",
+    "zoomRel": 4.0,
+    "sources": [
+      "civil_source_nuremberg",
+      "civil_source_destruction_catalog",
+      "civil_source_jodl_catalog"
+    ],
+    "confidence": "medium",
+    "side": "DE",
+    "units": [
+      "de.18a",
+      "de.lf1"
+    ],
+    "sfx": [
+      "typewriter",
+      "stamp"
+    ],
+    "precision": "day"
+  },
+  {
+    "id": "e.air_bridge_khvoynaya",
+    "at": "1941-10-10T00:00",
+    "category": "air",
+    "importance": 3,
+    "title": {
+      "zh": "民航特遣队投入围城补给空运",
+      "orig": "Воздушный мост Хвойная — Ленинград"
+    },
+    "body": "10月10日起，莫斯科民航特遣队参与向列宁格勒空运食品和军需。运输机在敌机、天气与机场能力限制下往返，并协助人员撤出。空运救急具有重要作用，但运量远不足以承担大城市日常供给，不能视为解除湖运危机的替代通道。",
+    "place": "@khvoynaya",
+    "zoomRel": 4.2,
+    "sources": [
+      "civil_source_kovalchuk_water1"
+    ],
+    "confidence": "medium",
+    "side": "SU",
+    "units": [
+      "su.4a"
+    ],
+    "sfx": [
+      "engine"
+    ],
+    "precision": "day"
+  },
+  {
+    "id": "e.ration_125g",
+    "at": "1941-11-20T00:00",
+    "category": "siege",
+    "importance": 1,
+    "title": {
+      "zh": "面包配给降至最低档",
+      "orig": "Блокадный минимум: 125 граммов хлеба в сутки"
+    },
+    "body": "11月20日起，普通工人每日面包标准降为250克，职员、受抚养者与12岁以下儿童为125克，最低档持续到12月24日。供应紧张使其他食品也未必能够足额领取；寒冷、取水困难和持续营养不良交织，家庭生活日益艰难。",
+    "place": "@leningrad",
+    "zoomRel": 5.2,
+    "sources": [
+      "civil_source_rations_order",
+      "civil_source_bread_museum",
+      "civil_source_kovalchuk_rations"
+    ],
+    "confidence": "high",
+    "side": "SU",
+    "units": [
+      "su.42a",
+      "su.55a"
+    ],
+    "sfx": [
+      "siren",
+      "bell"
+    ],
+    "precision": "day"
+  },
+  {
+    "id": "e.road_of_life_opens",
+    "at": "1941-11-22T00:00",
+    "category": "movement",
+    "importance": 1,
+    "title": {
+      "zh": "冰上生命之路开始汽车运输",
+      "orig": "Открытие ледовой «Дороги жизни» (ВАД-101)"
+    },
+    "body": "11月22日晚，首批主要汽车车队驶上拉多加湖冰道，此前已有马拉雪橇和少量汽车试行。司机以降低载荷、分散车距等办法应对薄冰与裂缝，随后不断调整路线。冰道兼运粮食、军需和撤离居民，开通初期的运力仍然有限。",
+    "place": "@kokkorevo",
+    "zoomRel": 5.0,
+    "sources": [
+      "civil_source_ice_1941",
+      "civil_source_kovalchuk_ice1"
+    ],
+    "confidence": "high",
+    "side": "SU",
+    "units": [
+      "su.ladoga_flot",
+      "su.54a"
+    ],
+    "sfx": [
+      "engine"
+    ],
+    "precision": "day"
+  },
+  {
+    "id": "e.hanko_evacuation",
+    "at": "1941-12-02T00:00",
+    "category": "naval",
+    "importance": 2,
+    "title": {
+      "zh": "汉科基地最后守军撤离",
+      "orig": "Эвакуация гарнизона военно-морской базы Ханко"
+    },
+    "body": "12月2日，苏军完成汉科基地的最后撤离。此前从10月下旬起，波罗的海舰队分批运走守军，航程面临水雷、恶劣天气与敌方火力，舰船和人员遭受损失。幸存官兵撤向喀琅施塔得和列宁格勒一带，随后被重新编组以补充防务。",
+    "place": "@kronstadt",
+    "zoomRel": 4.2,
+    "sources": [
+      "civil_source_hanko"
+    ],
+    "confidence": "high",
+    "side": "SU",
+    "units": [
+      "su.kbf"
+    ],
+    "sfx": [
+      "ship_gun"
+    ],
+    "precision": "day"
+  },
+  {
+    "id": "e.ration_increase_dec",
+    "at": "1941-12-25T00:00",
+    "category": "political",
+    "importance": 2,
+    "title": {
+      "zh": "面包配给第一次回升",
+      "orig": "Первое повышение норм хлеба 25 декабря 1941 года"
+    },
+    "body": "12月25日起，普通工人每日面包标准升至350克，职员、受抚养者及儿童升至200克。运输和供应改善带来希望，但长期饥饿、严寒与疾病仍使随后数周死亡惨重；标准提高是制度节点，不能理解成居民健康当天就已恢复。",
+    "place": "@leningrad",
+    "zoomRel": 5.0,
+    "sources": [
+      "civil_source_nlr_hunger",
+      "civil_source_kantor_mortality"
+    ],
+    "confidence": "high",
+    "side": "SU",
+    "units": [
+      "su.42a",
+      "su.ladoga_flot"
+    ],
+    "sfx": [
+      "bell",
+      "paper"
+    ],
+    "precision": "day"
+  },
+  {
+    "id": "e.kosygin_evacuation",
+    "at": "1942-01-22T00:00",
+    "category": "political",
+    "importance": 2,
+    "title": {
+      "zh": "决定扩大冰道居民撤离",
+      "orig": "Постановление ГКО об эвакуации 500 тысяч жителей Ленинграда"
+    },
+    "body": "1月22日，国防委员会决定经拉多加湖组织撤离50万列宁格勒居民，柯西金参与协调。此前已有人员撤出，此后冰道运输需同时安排粮食、军需和居民。离城后的铁路接送、救治与安置同样重要，不能把撤离人数直接当作最终生还人数。",
+    "place": "@borisova_griva",
+    "zoomRel": 5.0,
+    "sources": [
+      "civil_source_evacuation",
+      "civil_source_kovalchuk_ice1"
+    ],
+    "confidence": "high",
+    "side": "SU",
+    "units": [
+      "su.ladoga_flot"
+    ],
+    "sfx": [
+      "engine",
+      "paper"
+    ],
+    "precision": "day"
+  },
+  {
+    "id": "e.savicheva_starvation_peak",
+    "at": "1942-01-25T00:00",
+    "category": "siege",
+    "importance": 1,
+    "title": {
+      "zh": "饥寒中的家庭与塔妮娅日记",
+      "orig": "Пик смертности в Ленинграде · Дневник Тани Савичевой"
+    },
+    "body": "1月25日，塔妮娅·萨维切娃在日记中记下祖母去世的日期。这个冬季，饥饿、寒冷和疾病夺走大量居民生命，家庭也不断失去照护者。她关于母亲去世及孤独的最后几页直到5月才写下，不能提前放进这一天的叙事。",
+    "place": "@leningrad",
+    "zoomRel": 5.5,
+    "sources": [
+      "civil_source_tanya_archive",
+      "civil_source_tanya_encyclopedia",
+      "civil_source_kantor_mortality"
+    ],
+    "confidence": "high",
+    "side": "SU",
+    "units": [
+      "su.42a"
+    ],
+    "sfx": [
+      "bell"
+    ],
+    "precision": "day"
+  },
+  {
+    "id": "e.partisan_food_convoy",
+    "at": "1942-03-29T00:00",
+    "category": "movement",
+    "importance": 3,
+    "title": {
+      "zh": "游击区运粮代表团抵达城市",
+      "orig": "Партизанский обоз с продовольствием для блокадного Ленинграда"
+    },
+    "body": "3月29日，游击区运粮代表团抵达列宁格勒，访问工厂并传递后方居民的支持。此前游击队和村民募集食品，设法越过战线送往饥饿的城市。纪念叙事常把粮队与代表团合称同日到达，展示时须区分物资运输与代表团行程。",
+    "place": "@leningrad",
+    "zoomRel": 4.8,
+    "sources": [
+      "civil_source_partisan_museum",
+      "civil_source_partisan_library"
+    ],
+    "confidence": "high",
+    "side": "SU",
+    "units": [],
+    "sfx": [
+      "cavalry",
+      "bell"
+    ],
+    "precision": "day"
+  },
+  {
+    "id": "e.tram_restored",
+    "at": "1942-04-15T00:00",
+    "precision": "day",
+    "category": "movement",
+    "importance": 2,
+    "title": {
+      "zh": "客运电车恢复运行"
+    },
+    "body": "4月15日，停驶后的列宁格勒客运电车重新开行。修复电网、线路与车辆需要工人持续劳动，重新出现的交通帮助居民在城市中移动，也成为生活恢复的象征。与此同时，冻裂供水管线、住宅卫生与营养问题仍待分阶段处理。",
+    "place": "@leningrad",
+    "sources": [
+      "civil_source_tram_newspaper",
+      "civil_source_tram_library",
+      "civil_source_municipal"
+    ],
+    "confidence": "high",
+    "side": "SU",
+    "units": []
+  },
+  {
+    "id": "e.savicheva_diary_may",
+    "at": "1942-05-13T00:00",
+    "precision": "day",
+    "category": "siege",
+    "importance": 2,
+    "title": {
+      "zh": "塔妮娅记下母亲去世"
+    },
+    "body": "5月13日，塔妮娅·萨维切娃记下母亲去世，日记随后留下关于全家死亡与独自一人的短句。她当时不知道有兄姐仍然活着。夏季她被疏散，长期饥饿和疾病造成的损伤却未能挽回，1944年去世；这些日记页见证的是一个孩子所能知道的世界。",
+    "place": "@leningrad",
+    "sources": [
+      "civil_source_tanya_archive",
+      "civil_source_tanya_teacher"
+    ],
+    "confidence": "high",
+    "side": "SU",
+    "units": [],
+    "photo": {
+      "commons": "File:Tanya Savicheva Diary.jpg",
+      "caption": "日记页与约1936年肖像的拼图；日记跨1941年12月至1942年5月，并非同日写成。"
+    }
+  },
+  {
+    "id": "e.water_navigation_1942",
+    "at": "1942-05-23T00:00",
+    "precision": "day",
+    "category": "naval",
+    "importance": 2,
+    "title": {
+      "zh": "第二个水运季恢复常规短线"
+    },
+    "body": "5月23日，拉多加湖短航线开始常规运输，此前一天已有首批面粉到达西岸，长航线则在28日启用。湖运承担粮食、军需与人员运输，夏季扩大居民撤离；不同航线和船型的起止日期各异，不能用一个开湖日期概括整个运输体系。",
+    "place": "@osinovets",
+    "sources": [
+      "civil_source_kovalchuk_water2"
+    ],
+    "confidence": "high",
+    "side": "SU",
+    "units": [
+      "su.ladoga_flot"
+    ]
+  },
+  {
+    "id": "e.ladoga_pipeline",
+    "at": "1942-06-18T00:00",
+    "category": "movement",
+    "importance": 2,
+    "title": {
+      "zh": "拉多加湖底输油管投入使用",
+      "orig": "Ладожский подводный трубопровод («Артерия жизни»)"
+    },
+    "body": "6月18日，完成试压的拉多加湖底输油管投入使用，次日米高扬向斯大林报告工程情况。管线把燃料送往湖西岸，减轻船运压力并支持城市与军队。建设者先铺设湖底段，再以水和煤油试验；一条新的补给通道由此加入围城运输网络。",
+    "place": "@kobona",
+    "zoomRel": 5.0,
+    "sources": [
+      "civil_source_pipeline_report",
+      "civil_source_pipeline_collection",
+      "civil_source_kovalchuk_water2"
+    ],
+    "confidence": "high",
+    "side": "SU",
+    "units": [
+      "su.ladoga_flot"
+    ],
+    "sfx": [
+      "engine"
+    ],
+    "precision": "day"
+  },
+  {
+    "id": "e.leningrad_symphony",
+    "at": "1942-08-09T00:00",
+    "category": "political",
+    "importance": 1,
+    "title": {
+      "zh": "第七交响曲在围城城市演出",
+      "orig": "Ленинградская премьера Седьмой симфонии Д. Д. Шостаковича"
+    },
+    "body": "8月9日，埃利亚斯贝格指挥列宁格勒广播委员会乐团，在爱乐大厅演奏肖斯塔科维奇第七交响曲，并通过广播传播。乐队在人员死亡、疾病和抽调后艰难重组，演奏者坚持排练；音乐为仍受饥饿与炮火威胁的城市保留了公共生活的空间。",
+    "place": "@leningrad",
+    "zoomRel": 5.5,
+    "sources": [
+      "civil_source_philharmonia",
+      "civil_source_radio"
+    ],
+    "confidence": "high",
+    "side": "SU",
+    "units": [
+      "su.42a",
+      "su.kbf"
+    ],
+    "sfx": [
+      "fanfare",
+      "radio"
+    ],
+    "precision": "day"
+  },
+  {
+    "id": "e.ladoga_cable",
+    "at": "1942-09-23T00:00",
+    "precision": "day",
+    "category": "movement",
+    "importance": 2,
+    "title": {
+      "zh": "生命电缆向城市送电"
+    },
+    "body": "9月23日，首批拉多加湖底电缆把沃尔霍夫电站的电力送入列宁格勒。敷设与接网使重要工业和市政设施获得新的电源，后续还继续增加线路。电缆输电与夏季输油管工程各司其职，送电成功并不表示全体居民家庭同时恢复正常用电。",
+    "place": "@leningrad",
+    "sources": [
+      "civil_source_cable_operator",
+      "civil_source_cable_hydro"
+    ],
+    "confidence": "high",
+    "side": "SU",
+    "units": []
+  },
+  {
+    "id": "e.sukho_island_battle",
+    "at": "1942-10-22T00:00",
+    "category": "naval",
+    "importance": 2,
+    "title": {
+      "zh": "苏霍岛守军击退登陆",
+      "orig": "Бой у острова Сухо на Ладожском озере"
+    },
+    "body": "10月22日，德军主导的湖上部队进攻守护航线的苏霍岛。岛上岸炮守军在拉多加区舰队及航空兵支援下击退登陆，使岛屿继续掌握在苏军手中。灯塔岛与航路的联系，使这场规模有限的湖上战斗关系到向列宁格勒输送粮食和军需的安全。",
+    "place": "@novaya_ladoga",
+    "zoomRel": 4.8,
+    "sources": [
+      "civil_source_sukho",
+      "civil_source_kovalchuk_water2"
+    ],
+    "confidence": "high",
+    "side": "SU",
+    "units": [
+      "su.ladoga_flot"
+    ],
+    "sfx": [
+      "ship_gun",
+      "explosion"
+    ],
+    "precision": "day"
+  },
+  {
+    "id": "e.second_winter_ice_road",
+    "at": "1942-12-19T00:00",
+    "category": "movement",
+    "importance": 3,
+    "title": {
+      "zh": "第二季冰道先行开放步行",
+      "orig": "Вторая блокадная зима · Открытие ледовой трассы 1942/43 года"
+    },
+    "body": "12月19日，第二个冬季的拉多加冰道先允许行人通行，随后开放马运，24日开始常规汽车货运；部分船舶仍在冰区执行特殊运输。同期曾筹建湖上桩基铁路，但没有形成预定的跨湖运营线，不能与后来实际通车的胜利之路混为一谈。",
+    "place": "@osinovets",
+    "zoomRel": 5.0,
+    "sources": [
+      "civil_source_kovalchuk_ice2",
+      "civil_source_overlap_report"
+    ],
+    "confidence": "high",
+    "side": "SU",
+    "units": [
+      "su.ladoga_flot",
+      "su.67a"
+    ],
+    "sfx": [
+      "engine"
+    ],
+    "precision": "day"
+  },
+  {
+    "id": "e.road_of_victory_train",
+    "at": "1943-02-07T00:00",
+    "category": "movement",
+    "importance": 1,
+    "title": {
+      "zh": "胜利之路首列补给列车抵达",
+      "orig": "Первый поезд по «Дороге Победы» (Шлиссельбургская трасса)"
+    },
+    "body": "2月7日，沿新建什利谢利堡—波利亚内线路驶来的首列补给列车到达列宁格勒。铁路长约33公里，连同涅瓦河临时桥梁在极短时间内建成，但仍受德军观察与炮击。铁路、湖运和冰道继续互补，火车进城并不等于围城已经完全结束。",
+    "place": "@polyany",
+    "zoomRel": 5.2,
+    "sources": [
+      "civil_source_victory_rail",
+      "civil_source_river_transport"
+    ],
+    "confidence": "high",
+    "side": "SU",
+    "units": [
+      "su.67a",
+      "su.54a"
+    ],
+    "sfx": [
+      "bell",
+      "engine"
+    ],
+    "precision": "day"
+  },
+  {
+    "id": "e.ration_increase_feb1943",
+    "at": "1943-02-23T00:00",
+    "precision": "day",
+    "category": "political",
+    "importance": 2,
+    "title": {
+      "zh": "面包标准再次提高"
+    },
+    "body": "2月23日起，普通工人每日面包标准提高到600克，职员500克，受抚养者和儿童400克。火花行动后的陆上走廊与新铁路改善了城市供应，湖运仍继续承担任务；居民在营养、住房和医疗上的损失需要更长时间修复。",
+    "place": "@leningrad",
+    "sources": [
+      "civil_source_nlr_hunger",
+      "civil_source_victory_rail"
+    ],
+    "confidence": "high",
+    "side": "SU",
+    "units": []
+  }
+]

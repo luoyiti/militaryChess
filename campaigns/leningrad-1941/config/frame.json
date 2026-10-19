@@ -1,0 +1,55 @@
+{
+  "_doc": "由 tools/geo/emit_frame.mjs 根据 config/geo.config.json 生成，勿手改。d3.geoConicConformal().parallels(parallels).rotate(rotate).center(center).scale(scale).translate(translate)。世界坐标单位=像素@最高级瓦片(宽 width)。",
+  "projection": {
+    "type": "conicConformal",
+    "parallels": [
+      55,
+      61
+    ],
+    "rotate": [
+      -28,
+      0
+    ],
+    "center": [
+      0,
+      58.4
+    ]
+  },
+  "bbox": [
+    20,
+    54,
+    36,
+    62.8
+  ],
+  "width": 8192,
+  "height": 7862,
+  "scale": 49973.79086720126,
+  "translate": [
+    4096.000000000001,
+    4026.5139208925007
+  ],
+  "kmPerUnit": 0.12764017407481018,
+  "tiles": {
+    "size": 512,
+    "levels": [
+      1024,
+      2048,
+      4096,
+      8192
+    ],
+    "format": "webp",
+    "path": "tiles/base/{z}/{x}_{y}.webp"
+  },
+  "field": {
+    "cell": 10,
+    "w": 820,
+    "h": 787,
+    "clampKm": 60
+  },
+  "extentCheck": {
+    "minX": 0,
+    "maxX": 8192,
+    "minY": 7.275957614183426e-12,
+    "maxY": 7861.81036502582
+  }
+}

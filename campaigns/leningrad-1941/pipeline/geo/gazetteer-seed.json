@@ -1,0 +1,1140 @@
+[
+  {
+    "id": "ariogala",
+    "zh": "阿里奥加拉",
+    "orig": "Арёгала",
+    "alt": "Ariogala / Eiragola",
+    "pos": [
+      23.483,
+      55.263
+    ],
+    "kind": "crossing",
+    "rank": 4,
+    "country": "SU",
+    "sources": [
+      "geo_osm"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "beloostrov",
+    "zh": "白岛",
+    "orig": "Белоостров",
+    "alt": "Valkeasaari",
+    "pos": [
+      30.014,
+      60.144
+    ],
+    "kind": "village",
+    "rank": 4,
+    "country": "SU",
+    "sources": [
+      "geo_osm"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "budogoshch",
+    "zh": "布多戈希",
+    "orig": "Будогощь",
+    "alt": "Budogoschtsch",
+    "pos": [
+      32.445,
+      59.286
+    ],
+    "kind": "village",
+    "rank": 4,
+    "country": "SU",
+    "sources": [
+      "geo_osm"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "chudovo",
+    "zh": "丘多沃",
+    "orig": "Чудово",
+    "alt": "Tschudowo",
+    "pos": [
+      31.667,
+      59.12
+    ],
+    "kind": "town",
+    "rank": 4,
+    "country": "SU",
+    "sources": [
+      "geo_osm"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "dvinsk",
+    "zh": "陶格夫匹尔斯",
+    "orig": "Даугавпилс",
+    "alt": "Dünaburg / Dvinsk",
+    "pos": [
+      26.536,
+      55.875
+    ],
+    "kind": "city",
+    "rank": 2,
+    "country": "SU",
+    "sources": [
+      "geo_osm"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "gruzino",
+    "zh": "格鲁济诺",
+    "orig": "Грузино",
+    "alt": "Grusino（沃尔霍夫河渡口）",
+    "pos": [
+      31.882,
+      59.148
+    ],
+    "kind": "crossing",
+    "rank": 4,
+    "country": "SU",
+    "sources": [
+      "geo_osm"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "hanko",
+    "zh": "汉科",
+    "orig": "Hanko",
+    "alt": "Ханко / Hangö（苏联租借海军基地）",
+    "pos": [
+      22.95,
+      59.823
+    ],
+    "kind": "port",
+    "rank": 4,
+    "country": "SU",
+    "sources": [
+      "geo_osm"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "hiitola",
+    "zh": "希托拉",
+    "orig": "Хийтола",
+    "alt": "Hiitola",
+    "pos": [
+      29.693,
+      61.239
+    ],
+    "kind": "village",
+    "rank": 4,
+    "country": "SU",
+    "sources": [
+      "geo_osm"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "kaunas",
+    "zh": "考纳斯",
+    "orig": "Каунас",
+    "alt": "Kaunas / Kowno",
+    "pos": [
+      23.904,
+      54.898
+    ],
+    "kind": "city",
+    "rank": 2,
+    "country": "SU",
+    "sources": [
+      "geo_osm"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "kingisepp",
+    "zh": "金吉谢普",
+    "orig": "Кингисепп",
+    "alt": "Jamburg",
+    "pos": [
+      28.613,
+      59.373
+    ],
+    "kind": "town",
+    "rank": 4,
+    "country": "SU",
+    "sources": [
+      "geo_osm"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "kirishi",
+    "zh": "基里希",
+    "orig": "Кириши",
+    "alt": "Kirischi",
+    "pos": [
+      32.011,
+      59.45
+    ],
+    "kind": "village",
+    "rank": 4,
+    "country": "SU",
+    "sources": [
+      "geo_osm"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "kobona",
+    "zh": "科博纳",
+    "orig": "Кобона",
+    "alt": "Kobona（「生命之路」东岸）",
+    "pos": [
+      31.773,
+      60.021
+    ],
+    "kind": "port",
+    "rank": 4,
+    "country": "SU",
+    "sources": [
+      "geo_osm"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "koirinoja",
+    "zh": "科伊里诺亚",
+    "orig": "Койриноя",
+    "alt": "Koirinoja",
+    "pos": [
+      31.413,
+      61.651
+    ],
+    "kind": "village",
+    "rank": 4,
+    "country": "SU",
+    "sources": [
+      "geo_osm"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "kolpino",
+    "zh": "科尔皮诺",
+    "orig": "Колпино",
+    "alt": "Kolpino",
+    "pos": [
+      30.6,
+      59.75
+    ],
+    "kind": "town",
+    "rank": 4,
+    "country": "SU",
+    "sources": [
+      "geo_osm"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "konigsberg",
+    "zh": "柯尼斯堡",
+    "orig": "Königsberg",
+    "alt": "今加里宁格勒",
+    "pos": [
+      20.511,
+      54.71
+    ],
+    "kind": "city",
+    "rank": 1,
+    "country": "DE",
+    "sources": [
+      "geo_osm"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "koporye",
+    "zh": "科波里耶",
+    "orig": "Копорье",
+    "alt": "Koporje",
+    "pos": [
+      29.045,
+      59.704
+    ],
+    "kind": "village",
+    "rank": 4,
+    "country": "SU",
+    "sources": [
+      "geo_osm"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "krasnogvardeysk",
+    "zh": "红卫城",
+    "orig": "Красногвардейск",
+    "alt": "Гатчина / Gatschina",
+    "pos": [
+      30.128,
+      59.568
+    ],
+    "kind": "town",
+    "rank": 3,
+    "country": "SU",
+    "sources": [
+      "geo_osm"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "krasnoye_selo",
+    "zh": "红村",
+    "orig": "Красное Село",
+    "alt": "Krasnoje Selo",
+    "pos": [
+      30.085,
+      59.735
+    ],
+    "kind": "town",
+    "rank": 4,
+    "country": "SU",
+    "sources": [
+      "geo_osm"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "kronstadt",
+    "zh": "喀琅施塔得",
+    "orig": "Кронштадт",
+    "alt": "Kronstadt",
+    "pos": [
+      29.768,
+      59.991
+    ],
+    "kind": "port",
+    "rank": 3,
+    "country": "SU",
+    "sources": [
+      "geo_osm"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "kunda",
+    "zh": "孔达",
+    "orig": "Кунда",
+    "alt": "Kunda",
+    "pos": [
+      26.529,
+      59.506
+    ],
+    "kind": "port",
+    "rank": 4,
+    "country": "SU",
+    "sources": [
+      "geo_osm"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "leningrad",
+    "zh": "列宁格勒",
+    "orig": "Ленинград",
+    "alt": "今圣彼得堡",
+    "pos": [
+      30.316,
+      59.939
+    ],
+    "kind": "city",
+    "rank": 1,
+    "country": "SU",
+    "sources": [
+      "geo_osm"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "lodeynoye_pole",
+    "zh": "洛杰伊诺耶波列",
+    "orig": "Лодейное Поле",
+    "alt": "Lodeinoje Pole",
+    "pos": [
+      33.553,
+      60.731
+    ],
+    "kind": "town",
+    "rank": 4,
+    "country": "SU",
+    "sources": [
+      "geo_osm"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "luga",
+    "zh": "卢加",
+    "orig": "Луга",
+    "alt": "Luga",
+    "pos": [
+      29.846,
+      58.737
+    ],
+    "kind": "town",
+    "rank": 3,
+    "country": "SU",
+    "sources": [
+      "geo_osm"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "lyuban",
+    "zh": "留班",
+    "orig": "Любань",
+    "alt": "Ljuban",
+    "pos": [
+      31.249,
+      59.35
+    ],
+    "kind": "town",
+    "rank": 4,
+    "country": "SU",
+    "sources": [
+      "geo_osm"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "malaya_vishera",
+    "zh": "小维舍拉",
+    "orig": "Малая Вишера",
+    "alt": "Malaja Wischera",
+    "pos": [
+      32.219,
+      58.844
+    ],
+    "kind": "town",
+    "rank": 4,
+    "country": "SU",
+    "sources": [
+      "geo_osm"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "mga",
+    "zh": "姆加",
+    "orig": "Мга",
+    "alt": "Mga",
+    "pos": [
+      31.061,
+      59.757
+    ],
+    "kind": "village",
+    "rank": 4,
+    "country": "SU",
+    "sources": [
+      "geo_osm"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "narva",
+    "zh": "纳尔瓦",
+    "orig": "Нарва",
+    "alt": "Narva",
+    "pos": [
+      28.19,
+      59.377
+    ],
+    "kind": "town",
+    "rank": 3,
+    "country": "SU",
+    "sources": [
+      "geo_osm"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "nevsky_pyatachok",
+    "zh": "涅瓦河小块地",
+    "orig": "Невский пятачок",
+    "alt": "Московская Дубровка（涅瓦河左岸桥头堡）",
+    "pos": [
+      30.95,
+      59.84
+    ],
+    "kind": "crossing",
+    "rank": 4,
+    "country": "SU",
+    "sources": [
+      "geo_osm"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "novgorod",
+    "zh": "诺夫哥罗德",
+    "orig": "Новгород",
+    "alt": "Nowgorod",
+    "pos": [
+      31.275,
+      58.522
+    ],
+    "kind": "city",
+    "rank": 2,
+    "country": "SU",
+    "sources": [
+      "geo_osm"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "olonets",
+    "zh": "奥洛涅茨",
+    "orig": "Олонец",
+    "alt": "Aunus",
+    "pos": [
+      32.975,
+      60.979
+    ],
+    "kind": "town",
+    "rank": 4,
+    "country": "SU",
+    "sources": [
+      "geo_osm"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "oranienbaum",
+    "zh": "奥拉宁鲍姆",
+    "orig": "Ораниенбаум",
+    "alt": "今罗蒙诺索夫",
+    "pos": [
+      29.772,
+      59.916
+    ],
+    "kind": "town",
+    "rank": 4,
+    "country": "SU",
+    "sources": [
+      "geo_osm"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "osinovets",
+    "zh": "奥西诺韦茨",
+    "orig": "Осиновец",
+    "alt": "Осиновецкий маяк（「生命之路」西岸）",
+    "pos": [
+      31.081,
+      60.119
+    ],
+    "kind": "port",
+    "rank": 4,
+    "country": "SU",
+    "sources": [
+      "geo_osm"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "ostrov",
+    "zh": "奥斯特罗夫",
+    "orig": "Остров",
+    "alt": "Ostrow",
+    "pos": [
+      28.357,
+      57.345
+    ],
+    "kind": "town",
+    "rank": 4,
+    "country": "SU",
+    "sources": [
+      "geo_osm"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "peterhof",
+    "zh": "彼得霍夫",
+    "orig": "Петергоф",
+    "alt": "Peterhof",
+    "pos": [
+      29.908,
+      59.882
+    ],
+    "kind": "town",
+    "rank": 4,
+    "country": "SU",
+    "sources": [
+      "geo_osm"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "petrozavodsk",
+    "zh": "彼得罗扎沃茨克",
+    "orig": "Петрозаводск",
+    "alt": "Äänislinna（芬占时期）",
+    "pos": [
+      34.361,
+      61.789
+    ],
+    "kind": "city",
+    "rank": 2,
+    "country": "SU",
+    "sources": [
+      "geo_osm"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "podporozhye",
+    "zh": "波德波罗日耶",
+    "orig": "Подпорожье",
+    "alt": "Podporožje",
+    "pos": [
+      34.162,
+      60.914
+    ],
+    "kind": "village",
+    "rank": 4,
+    "country": "SU",
+    "sources": [
+      "geo_osm"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "porechye",
+    "zh": "波列奇耶",
+    "orig": "Поречье",
+    "alt": "Poretschje（卢加河桥头堡）",
+    "pos": [
+      28.847,
+      59.267
+    ],
+    "kind": "crossing",
+    "rank": 4,
+    "country": "SU",
+    "sources": [
+      "geo_osm"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "pskov",
+    "zh": "普斯科夫",
+    "orig": "Псков",
+    "alt": "Pleskau",
+    "pos": [
+      28.332,
+      57.819
+    ],
+    "kind": "city",
+    "rank": 2,
+    "country": "SU",
+    "sources": [
+      "geo_osm"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "pulkovo",
+    "zh": "普尔科沃高地",
+    "orig": "Пулковские высоты",
+    "alt": "Pulkowo",
+    "pos": [
+      30.332,
+      59.771
+    ],
+    "kind": "region",
+    "rank": 4,
+    "country": "SU",
+    "sources": [
+      "geo_osm"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "pushkin",
+    "zh": "普希金",
+    "orig": "Пушкин",
+    "alt": "Царское Село / Puschkin",
+    "pos": [
+      30.4,
+      59.715
+    ],
+    "kind": "town",
+    "rank": 4,
+    "country": "SU",
+    "sources": [
+      "geo_osm"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "raseiniai",
+    "zh": "拉塞尼艾",
+    "orig": "Raseiniai",
+    "alt": "Россиены / Rossieny",
+    "pos": [
+      23.117,
+      55.38
+    ],
+    "kind": "town",
+    "rank": 4,
+    "country": "SU",
+    "sources": [
+      "geo_osm"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "riga",
+    "zh": "里加",
+    "orig": "Рига",
+    "alt": "Rīga",
+    "pos": [
+      24.105,
+      56.949
+    ],
+    "kind": "city",
+    "rank": 1,
+    "country": "SU",
+    "sources": [
+      "geo_osm"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "ropsha",
+    "zh": "罗普沙",
+    "orig": "Ропша",
+    "alt": "Ropscha",
+    "pos": [
+      29.868,
+      59.732
+    ],
+    "kind": "village",
+    "rank": 4,
+    "country": "SU",
+    "sources": [
+      "geo_osm"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "shimsk",
+    "zh": "希姆斯克",
+    "orig": "Шимск",
+    "alt": "Schimsk",
+    "pos": [
+      30.725,
+      58.212
+    ],
+    "kind": "town",
+    "rank": 4,
+    "country": "SU",
+    "sources": [
+      "geo_osm"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "shlisselburg",
+    "zh": "什利谢利堡",
+    "orig": "Шлиссельбург",
+    "alt": "Schlüsselburg",
+    "pos": [
+      31.034,
+      59.944
+    ],
+    "kind": "town",
+    "rank": 3,
+    "country": "SU",
+    "sources": [
+      "geo_osm"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "siauliai",
+    "zh": "希奥利艾",
+    "orig": "Šiauliai",
+    "alt": "Шяуляй / Schaulen",
+    "pos": [
+      23.316,
+      55.934
+    ],
+    "kind": "town",
+    "rank": 3,
+    "country": "SU",
+    "sources": [
+      "geo_osm"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "sinyavino",
+    "zh": "旧锡尼亚维诺村",
+    "orig": "Синявино (довоенная деревня)",
+    "alt": "战毁旧村；与北侧现代同名镇分开",
+    "pos": [
+      31.1116784,
+      59.8371875
+    ],
+    "kind": "village",
+    "rank": 4,
+    "country": "SU",
+    "sources": [
+      "geo_osm",
+      "geo_sinyavino"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "siverskaya",
+    "zh": "西韦尔斯卡亚",
+    "orig": "Сиверская",
+    "alt": "Siwerskaja",
+    "pos": [
+      30.07,
+      59.352
+    ],
+    "kind": "village",
+    "rank": 4,
+    "country": "SU",
+    "sources": [
+      "geo_osm"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "soltsy",
+    "zh": "索利齐",
+    "orig": "Сольцы",
+    "alt": "Solzy",
+    "pos": [
+      30.31,
+      58.119
+    ],
+    "kind": "town",
+    "rank": 4,
+    "country": "SU",
+    "sources": [
+      "geo_osm"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "sortavala",
+    "zh": "索尔塔瓦拉",
+    "orig": "Сортавала",
+    "alt": "Sortavala",
+    "pos": [
+      30.693,
+      61.703
+    ],
+    "kind": "town",
+    "rank": 4,
+    "country": "SU",
+    "sources": [
+      "geo_osm"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "staraya_russa",
+    "zh": "旧鲁萨",
+    "orig": "Старая Русса",
+    "alt": "Staraja Russa",
+    "pos": [
+      31.355,
+      57.99
+    ],
+    "kind": "town",
+    "rank": 3,
+    "country": "SU",
+    "sources": [
+      "geo_osm"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "strelna",
+    "zh": "斯特列利纳",
+    "orig": "Стрельна",
+    "alt": "Strelna",
+    "pos": [
+      30.058,
+      59.853
+    ],
+    "kind": "village",
+    "rank": 4,
+    "country": "SU",
+    "sources": [
+      "geo_osm"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "svirstroy",
+    "zh": "斯维里斯特罗伊",
+    "orig": "Свирьстрой",
+    "alt": "Syväri（斯维里河 2 号水电站）",
+    "pos": [
+      33.725,
+      60.8
+    ],
+    "kind": "crossing",
+    "rank": 4,
+    "country": "SU",
+    "sources": [
+      "geo_osm"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "taipale",
+    "zh": "泰帕莱",
+    "orig": "Тайпале",
+    "alt": "Taipale",
+    "pos": [
+      30.506,
+      60.627
+    ],
+    "kind": "village",
+    "rank": 4,
+    "country": "SU",
+    "sources": [
+      "geo_osm"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "tallinn",
+    "zh": "塔林",
+    "orig": "Таллин",
+    "alt": "Tallinn / Reval",
+    "pos": [
+      24.745,
+      59.437
+    ],
+    "kind": "port",
+    "rank": 1,
+    "country": "SU",
+    "sources": [
+      "geo_osm"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "tartu",
+    "zh": "塔尔图",
+    "orig": "Тарту",
+    "alt": "Tartu / Dorpat",
+    "pos": [
+      26.729,
+      58.378
+    ],
+    "kind": "town",
+    "rank": 3,
+    "country": "SU",
+    "sources": [
+      "geo_osm"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "terijoki",
+    "zh": "泰里约基",
+    "orig": "Териоки",
+    "alt": "Terijoki / 今泽列诺戈尔斯克",
+    "pos": [
+      29.707,
+      60.197
+    ],
+    "kind": "town",
+    "rank": 4,
+    "country": "SU",
+    "sources": [
+      "geo_osm"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "tikhvin",
+    "zh": "季赫温",
+    "orig": "Тихвин",
+    "alt": "Tichwin",
+    "pos": [
+      33.6,
+      59.645
+    ],
+    "kind": "town",
+    "rank": 3,
+    "country": "SU",
+    "sources": [
+      "geo_osm"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "tilsit",
+    "zh": "蒂尔西特",
+    "orig": "Tilsit",
+    "alt": "今苏维埃茨克",
+    "pos": [
+      21.88,
+      55.083
+    ],
+    "kind": "town",
+    "rank": 3,
+    "country": "DE",
+    "sources": [
+      "geo_osm"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "tosno",
+    "zh": "托斯诺",
+    "orig": "Тосно",
+    "alt": "Tossno",
+    "pos": [
+      30.877,
+      59.541
+    ],
+    "kind": "town",
+    "rank": 4,
+    "country": "SU",
+    "sources": [
+      "geo_osm"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "uritsk",
+    "zh": "乌里茨克",
+    "orig": "Урицк",
+    "alt": "Лигово / Ligowo",
+    "pos": [
+      30.174,
+      59.834
+    ],
+    "kind": "town",
+    "rank": 4,
+    "country": "SU",
+    "sources": [
+      "geo_osm"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "utorgosh",
+    "zh": "乌托尔戈什",
+    "orig": "Уторгош",
+    "alt": "Utorgosch",
+    "pos": [
+      30.239,
+      58.277
+    ],
+    "kind": "village",
+    "rank": 4,
+    "country": "SU",
+    "sources": [
+      "geo_osm"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "vartsila",
+    "zh": "韦尔齐莱",
+    "orig": "Värtsilä",
+    "alt": "Вяртсиля",
+    "pos": [
+      30.696,
+      62.176
+    ],
+    "kind": "village",
+    "rank": 4,
+    "country": "SU",
+    "sources": [
+      "geo_osm"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "volosovo",
+    "zh": "沃洛索沃",
+    "orig": "Волосово",
+    "alt": "Wolossowo",
+    "pos": [
+      29.493,
+      59.444
+    ],
+    "kind": "village",
+    "rank": 4,
+    "country": "SU",
+    "sources": [
+      "geo_osm"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "vyborg",
+    "zh": "维堡",
+    "orig": "Выборг",
+    "alt": "Viipuri",
+    "pos": [
+      28.753,
+      60.71
+    ],
+    "kind": "city",
+    "rank": 2,
+    "country": "SU",
+    "sources": [
+      "geo_osm"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "voibokalo",
+    "zh": "沃伊博卡洛",
+    "orig": "Войбокало",
+    "alt": "Woibokalo",
+    "pos": [
+      31.772,
+      59.884
+    ],
+    "kind": "village",
+    "rank": 4,
+    "country": "SU",
+    "sources": [
+      "geo_osm"
+    ]
+  },
+  {
+    "id": "volkhov",
+    "zh": "沃尔霍夫斯特罗伊",
+    "orig": "Волховстрой",
+    "alt": "今沃尔霍夫",
+    "pos": [
+      32.338,
+      59.925
+    ],
+    "kind": "town",
+    "rank": 3,
+    "country": "SU",
+    "sources": [
+      "geo_osm"
+    ]
+  }
+]

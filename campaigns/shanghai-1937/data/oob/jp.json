@@ -1,0 +1,154 @@
+[
+  {
+    "id": "jp.third_fleet", "side": "JP", "echelon": "command", "type": "hq", "parent": null,
+    "name": { "zh": "第三舰队与上海海军兵力", "short": "第三舰队" }, "commander": { "zh": "长谷川清" },
+    "active": { "from": "1937-08-13T09:00" }, "display": "container", "model": "navy_token", "track": [], "schematic": true,
+    "history": "海军舰炮、运输与航空兵支持上海据点和登陆行动，海军系统不隶属于陆军上海派遣军。此树仅列上海特别陆战队及出云两个代表节点，不表示第三舰队全部舰艇或每天的编成。总部与下属质心是界面定位方式，不是旗舰或司令部的精确动态记录。",
+    "sources": ["sanlian_chronology_2005", "cacw_jianqiao", "jacar_hangzhou_landing"], "confidence": "medium"
+  },
+  {
+    "id": "jp.shanghai_marines", "side": "JP", "echelon": "regiment", "type": "marine", "parent": "jp.third_fleet",
+    "name": { "zh": "上海海军特别陆战队（市区据点）", "short": "海军陆战队" }, "commander": { "zh": "大川内传七" },
+    "active": { "from": "1937-08-13T09:00" }, "model": "inf_allied", "schematic": true, "equipment": [{ "id": "jp_infantry" }],
+    "track": [
+      { "at": "1937-08-13T09:00", "pos": "@hongkou", "status": "engaged", "note": "虹口据点地域示意，不是全队集中一点" },
+      { "at": "1937-08-22T12:00", "pos": "@yangshupu", "status": "engaged", "note": "虹口—杨树浦据点群概括，非实测队部移动" },
+      { "at": "1937-10-27T12:00", "pos": "@zhabei", "status": "engaged", "note": "闸北撤退后市区战地域概括；不确指四行直接攻击部队" }
+    ],
+    "history": "守备虹口、杨树浦等据点，并有舰炮和海上补给支持。它是海军组织，不应挂到陆军派遣军之下。棋子使用团级概略符号，不能据此推算全队人数；市区点间动画仅表示作战地域。四行直接对手的细部仍需原档专考，不把本标记当作已核实的全部攻仓部队。",
+    "sources": ["nmm_shanghai_overview", "sanlian_chronology_2005", "shanghai_sites_2017"], "confidence": "medium"
+  },
+  {
+    "id": "jp.izumo", "side": "JP", "echelon": "ship", "type": "naval", "parent": "jp.third_fleet",
+    "name": { "zh": "出云（舰队存在示意）", "orig": "出雲", "short": "出云" },
+    "active": { "from": "1937-08-13T09:00" }, "model": "navy_token", "schematic": true,
+    "modelNote": "通用舰船标记，不复原出云舰型、尺寸、炮塔或实测锚位。", "equipment": [{ "id": "jp_izumo" }],
+    "track": [{ "at": "1937-08-13T09:00", "pos": [121.511, 31.26], "status": "active", "movement": "sea", "note": "黄浦江海军存在的近似标记；没有据此重建逐时航迹或具体锚位" }],
+    "history": "出云为第三舰队旗舰，代表日本海军在黄浦江及上海战场的存在。中国空袭曾以舰船为目标，但本轮材料不足以确认击沉或重创战果，不采用这些说法。没有舰历逐时定位，故只设一个明确声明的示意点，不绘制装成精确巡航记录的航线。",
+    "sources": ["sanlian_chronology_2005", "shanghai_sites_2017", "commons_shanghai_gallery"], "confidence": "medium"
+  },
+  {
+    "id": "jp.shanghai_army", "side": "JP", "echelon": "army", "type": "hq", "parent": null,
+    "name": { "zh": "上海派遣军", "orig": "上海派遣軍", "short": "上海派遣军" }, "commander": { "zh": "松井石根（前期）" },
+    "active": { "from": "1937-08-23T00:00" }, "display": "container", "model": "inf_allied", "track": [], "schematic": true,
+    "history": "8月正式编成后，以第3、第11师团为初期主力在上海沿江登陆，9月后继续增援。本节点表示登陆后的战区兵力而不是编成当天即在岸上的军部。11月7日前与第10军平级；7日以后同属松井石根指挥的华中方面军。静态parent保持两军平级，不倒置全役隶属；主官名标注前期而非宣称贯穿全役。",
+    "sources": ["feng_command_2021", "japanese_oob_tables", "jacar_hangzhou_landing"], "confidence": "high"
+  },
+  {
+    "id": "jp.3div", "side": "JP", "echelon": "division", "type": "infantry", "parent": "jp.shanghai_army",
+    "name": { "zh": "第3师团", "orig": "第3師団", "short": "3师团" }, "commander": { "zh": "藤田进" },
+    "active": { "from": "1937-08-23T00:00" }, "model": "inf_allied", "schematic": true, "equipment": [{ "id": "jp_infantry" }],
+    "track": [
+      { "at": "1937-08-23T00:00", "pos": "@wusong", "status": "active", "note": "吴淞及张华浜方向8月23日日级登陆；午夜为显示边界非登陆实钟" },
+      { "at": "1937-09-12T12:00", "pos": "@jiangwan", "status": "engaged", "note": "江湾接触地域的阶段概括" },
+      { "at": "1937-10-07T12:00", "pos": "@wenzaobang", "status": "engaged", "note": "河浜争夺地域示意，非全线统一渡河时刻" },
+      { "at": "1937-10-31T12:00", "pos": "@suzhou_creek", "status": "engaged", "note": "苏州河阶段地域，不确指单一桥头" }
+    ],
+    "history": "第3师团由吴淞、张华浜方向登陆后参加上海北部与苏州河方向作战。8月23日是日级登陆节点，不能理解为全师所有梯队在午夜同时上岸。各轨迹点连接已知作战地域，点间为示意动画；不补造逐村占领日与逐日师部坐标。",
+    "sources": ["sanlian_chronology_2005", "japanese_oob_tables", "shanghai_sites_2017"], "confidence": "high"
+  },
+  {
+    "id": "jp.11div", "side": "JP", "echelon": "division", "type": "infantry", "parent": "jp.shanghai_army",
+    "name": { "zh": "第11师团", "orig": "第11師団", "short": "11师团" }, "commander": { "zh": "山室宗武" },
+    "active": { "from": "1937-08-23T00:00" }, "model": "inf_allied", "schematic": true, "equipment": [{ "id": "jp_infantry" }],
+    "track": [
+      { "at": "1937-08-23T00:00", "pos": [121.353, 31.477], "status": "active", "note": "北川沙地域登陆后陆上显示点；与文保地名锚点分开，坐标仅为地域内示意，不是原滩、史料实测阵地或登陆实钟" },
+      { "at": "1937-08-28T12:00", "pos": "@luodian", "status": "engaged", "note": "罗店反复争夺，不表示此日起永远稳定控制" },
+      { "at": "1937-09-12T12:00", "pos": "@liuhang", "status": "engaged", "note": "刘行方向阶段性概括，非实测日阵地" }
+    ],
+    "history": "第11师团由北部川沙口、狮子林方向登陆，随后参与罗店、刘行一带激战。日文编制表核主官为山室宗武；部分中文综述姓名需订正。天谷支队先在华北后归建等情况说明一师并非所有部队同日到齐。北川沙不是浦东川沙镇；地名锚点与登陆后陆上显示点分开，首点坐标只是该地域内的示意位置，不是原滩、文保史址或史料实测阵地。",
+    "sources": ["sanlian_chronology_2005", "japanese_oob_tables", "feng_command_2021"], "confidence": "high"
+  },
+  {
+    "id": "jp.9div", "side": "JP", "echelon": "division", "type": "infantry", "parent": "jp.shanghai_army",
+    "name": { "zh": "第9师团", "orig": "第9師団", "short": "9师团" }, "commander": { "zh": "吉住良辅" },
+    "active": { "from": "1937-10-01T00:00" }, "model": "inf_allied", "schematic": true, "equipment": [{ "id": "jp_infantry" }],
+    "track": [
+      { "at": "1937-10-01T00:00", "pos": "@wenzaobang", "status": "engaged", "note": "9月下旬增援窗口；10月1日为保守展示边界，不是确切登陆日" },
+      { "at": "1937-10-26T12:00", "pos": "@dachang", "status": "engaged", "note": "大场失守阶段的地域概括" },
+      { "at": "1937-11-02T12:00", "pos": "@suzhou_creek", "status": "engaged", "note": "苏州河方向作战地域示意" }
+    ],
+    "history": "9月下旬增援上海。派遣命令、各梯队登陆与实际投入不是同一天，本轮已读材料不足以给出完整登陆时刻表，故从10月1日保守展示已投入的河浜—大场方向。此日是数据编排边界，不是宣称整师于当日午夜登陆。",
+    "sources": ["feng_command_2021", "sanlian_chronology_2005", "nanjing_oob_review_2015"], "confidence": "medium"
+  },
+  {
+    "id": "jp.13div", "side": "JP", "echelon": "division", "type": "infantry", "parent": "jp.shanghai_army",
+    "name": { "zh": "第13师团", "orig": "第13師団", "short": "13师团" }, "commander": { "zh": "荻洲立兵" },
+    "active": { "from": "1937-10-01T00:00" }, "model": "inf_allied", "schematic": true, "equipment": [{ "id": "jp_infantry" }],
+    "track": [
+      { "at": "1937-10-01T00:00", "pos": "@luodian", "status": "engaged", "note": "9月末至10月初增援窗口；10月1日为保守展示起点，非登陆实钟" },
+      { "at": "1937-10-15T12:00", "pos": "@liuhang", "status": "engaged", "note": "北郊作战地域示意" },
+      { "at": "1937-11-09T12:00", "pos": "@jiading", "status": "active", "note": "嘉定方向阶段概括，不展开苏锡追击" }
+    ],
+    "history": "第13师团在9月末至10月初进入上海战场。本轮采用10月1日的保守可见窗口，不将编成命令、整师登陆与投入混为同一实钟。轨迹只概括罗店、刘行及嘉定方向；11月中下旬苏锡追击不在本卷截止范围内。",
+    "sources": ["feng_command_2021", "sanlian_chronology_2005", "nanjing_oob_review_2015"], "confidence": "medium"
+  },
+  {
+    "id": "jp.101div", "side": "JP", "echelon": "division", "type": "infantry", "parent": "jp.shanghai_army",
+    "name": { "zh": "第101师团", "orig": "第101師団", "short": "101师团" }, "commander": { "zh": "伊东政喜" },
+    "active": { "from": "1937-10-01T00:00" }, "model": "inf_allied", "schematic": true, "equipment": [{ "id": "jp_infantry" }],
+    "track": [
+      { "at": "1937-10-01T00:00", "pos": "@wenzaobang", "status": "engaged", "note": "9月下旬增援；10月1日为保守展示边界，不宣称全师登陆日" },
+      { "at": "1937-10-26T12:00", "pos": "@dachang", "status": "engaged", "note": "大场方向阶段概括，非每个团营同处一点" }
+    ],
+    "history": "9月下旬增援，参加蕰藻浜与大场方向作战。日文表核师团长为伊东政喜，排除部分中文转载的伊东政善错字。精确梯队抵达日未取得可复核完整表，故10月1日仅为保守上场边界，不作为历史登陆日的定论。",
+    "sources": ["feng_command_2021", "japanese_oob_tables"], "confidence": "medium"
+  },
+  {
+    "id": "jp.10army", "side": "JP", "echelon": "army", "type": "hq", "parent": null,
+    "name": { "zh": "第10军", "orig": "第10軍", "short": "第10军" }, "commander": { "zh": "柳川平助" },
+    "active": { "from": "1937-11-05T00:00" }, "display": "container", "model": "inf_allied", "track": [], "schematic": true,
+    "history": "10月20日下达战斗序列，11月5日才在杭州湾北岸开始登陆，两者不能混同。主力为第6、第18、第114师团及以第5师团步兵第9旅团为基干的国崎支队。最初与上海派遣军平级、直属参谋本部，11月7日以后同属华中方面军；静态树不把本军挂为上海派遣军子级。",
+    "sources": ["jacar_hangzhou_landing", "feng_command_2021"], "confidence": "high"
+  },
+  {
+    "id": "jp.6div", "side": "JP", "echelon": "division", "type": "infantry", "parent": "jp.10army",
+    "name": { "zh": "第6师团", "orig": "第6師団", "short": "6师团" }, "commander": { "zh": "谷寿夫" },
+    "active": { "from": "1937-11-05T00:00" }, "model": "inf_allied", "schematic": true, "equipment": [{ "id": "jp_infantry" }, { "id": "jp_sealift" }],
+    "track": [
+      { "at": "1937-11-05T00:00", "pos": "@jinshanwei", "status": "active", "note": "11月5日日级登陆地域；不表示午夜全师同时在此滩头" },
+      { "at": "1937-11-08T12:00", "pos": "@songjiang", "status": "engaged", "note": "趋向松江的迂回作战示意，不是攻城实钟" },
+      { "at": "1937-11-12T23:59", "pos": "@qingpu", "status": "active", "note": "青浦方向地域概括，截止以后不继续画追击" }
+    ],
+    "history": "第10军所属师团，11月5日自杭州湾北岸金山卫地区开始登陆，随后向松江、青浦方向发展。已读材料支持日期与地域，不足逐师核定每一个滩头，本图不为各师伪造精确上陆坐标。点间运动为迂回方向示意，主官来源仅用于本阶段对照，不导入南京阶段统计。",
+    "sources": ["jacar_hangzhou_landing", "nmm_shanghai_overview", "nanjing_oob_review_2015"], "confidence": "high"
+  },
+  {
+    "id": "jp.18div", "side": "JP", "echelon": "division", "type": "infantry", "parent": "jp.10army",
+    "name": { "zh": "第18师团", "orig": "第18師団", "short": "18师团" }, "commander": { "zh": "牛岛贞雄" },
+    "active": { "from": "1937-11-05T00:00" }, "model": "inf_allied", "schematic": true, "equipment": [{ "id": "jp_infantry" }, { "id": "jp_sealift" }],
+    "track": [
+      { "at": "1937-11-05T00:00", "pos": "@jinshanwei", "status": "active", "note": "共享金山卫地域标记，不声称与其他师在同一滩口同时登陆" },
+      { "at": "1937-11-09T12:00", "pos": "@pinghu", "status": "active", "note": "平湖方向阶段概括，不是确切占领日" },
+      { "at": "1937-11-12T23:59", "pos": "@jiashan", "status": "active", "note": "嘉善方向地域示意，不展开后续苏锡作战" }
+    ],
+    "history": "第10军第18师团参与11月5日杭州湾登陆，沿金山卫西侧向平湖、嘉善方向发展。个别次级转载的11月4日登陆说与JACAR内容摘要不符，本卷不采。地域轨迹不是各联队的精确行军表，也不表示某日某时全师同时占领该镇。",
+    "sources": ["jacar_hangzhou_landing", "nmm_shanghai_overview", "nanjing_oob_review_2015"], "confidence": "high"
+  },
+  {
+    "id": "jp.114div", "side": "JP", "echelon": "division", "type": "infantry", "parent": "jp.10army",
+    "name": { "zh": "第114师团", "orig": "第114師団", "short": "114师团" }, "commander": { "zh": "末松茂治" },
+    "active": { "from": "1937-11-05T00:00" }, "model": "inf_allied", "schematic": true, "equipment": [{ "id": "jp_infantry" }, { "id": "jp_sealift" }],
+    "track": [
+      { "at": "1937-11-05T00:00", "pos": "@jinshanwei", "status": "active", "note": "登陆日期与地域级上场，不伪精确每师滩头" },
+      { "at": "1937-11-09T12:00", "pos": "@fengjing", "status": "active", "note": "松江—枫泾方向地域概括，不是该镇确切占领实钟" }
+    ],
+    "history": "第114师团是第10军杭州湾登陆主力之一，11月5日后向上海西南交通地域发展。当前只掌握地域与阶段证据，金山卫和枫泾点为行动方向示意；不将现代岸线坐标冒充1937上陆滩头，更不导入随后南京阶段的兵力或伤亡。",
+    "sources": ["jacar_hangzhou_landing", "nmm_shanghai_overview", "nanjing_oob_review_2015"], "confidence": "high"
+  },
+  {
+    "id": "jp.kunisaki", "side": "JP", "echelon": "brigade", "type": "infantry", "parent": "jp.10army",
+    "name": { "zh": "国崎支队（第9旅团基干）", "orig": "国崎支隊", "short": "国崎支队" },
+    "active": { "from": "1937-11-05T00:00" }, "model": "inf_allied", "schematic": true,
+    "track": [{ "at": "1937-11-05T00:00", "pos": "@jinshanwei", "status": "active", "note": "杭州湾登陆的地域标记，不表明精确滩头或后续固定驻留" }],
+    "history": "以第5师团步兵第9旅团为基干编入第10军登陆编组，不能把这支支队画成完整第5师团。JACAR目录摘要明确列支队及11月5日开始登陆；本轮未读逐日行动原档，故不编后续精确路线。部分中文转载作国琦，统一用国崎。",
+    "sources": ["jacar_hangzhou_landing", "nanjing_oob_review_2015"], "confidence": "high"
+  },
+  {
+    "id": "jp.central_china", "side": "JP", "echelon": "command", "type": "hq", "parent": null,
+    "name": { "zh": "华中方面军（11月7日后关系说明）", "orig": "中支那方面軍", "short": "华中方面军" }, "commander": { "zh": "松井石根" },
+    "active": { "from": "1937-11-07T00:00" }, "model": "inf_allied", "track": [], "schematic": true,
+    "history": "11月7日成立，统辖上海派遣军和第10军。由于引擎只支持静态父级，本节点作为成立后的指挥关系说明，不设置虚构司令部坐标；两军保持独立根节点，在各卡片注明7日以后同属方面军。不得将本方面军倒置到8月，也不得认为第10军自成立就隶上海派遣军。",
+    "sources": ["feng_command_2021"], "confidence": "high"
+  }
+]

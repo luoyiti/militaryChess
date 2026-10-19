@@ -1,0 +1,35 @@
+{
+  "File:Shanghai1937KMT street88th.jpg": {
+    "src": "photos/street-position.webp",
+    "w": 473,
+    "h": 327,
+    "title": "上海街角的中国军队",
+    "author": "作者不详（Commons编目）",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Shanghai1937KMT_street88th.jpg",
+    "caption": "1937年上海街角阵地上的中国军人；Commons编目为第88师，具体拍摄日未详。"
+  },
+  "File:Shanghai1937KMT trench.jpg": {
+    "src": "photos/trench-position.webp",
+    "w": 300,
+    "h": 371,
+    "title": "淞沪会战中的中国军队壕阵",
+    "author": "作者不详（Commons编目）",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Shanghai1937KMT_trench.jpg",
+    "caption": "1937年淞沪会战中的中国军队壕阵；具体日期与阵地位置未详。"
+  },
+  "File:1937 Japan navy flagship in Shanghai.jpg": {
+    "src": "photos/izumo-1937.webp",
+    "w": 400,
+    "h": 201,
+    "title": "1937年上海附近的出云号",
+    "author": "作者不详（Commons编目）",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:1937_Japan_navy_flagship_in_Shanghai.jpg",
+    "caption": "1937年上海附近的日本海军出云号；照片不用于确定某日锚位或证明受创战果。"
+  }
+}

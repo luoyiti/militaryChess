@@ -1,0 +1,114 @@
+[
+  {
+    "workers": 800,
+    "employees": 600,
+    "dependents": 400,
+    "children": 400,
+    "note": "单位为克／人／日，四类仅列普通工人、职员、受抚养者及12岁以下儿童的法定面包标准；不等于全部食物或实际摄入。高温车间等另有标准。",
+    "sources": [
+      "civil_source_kovalchuk_rations"
+    ],
+    "from": "1941-07-18T00:00"
+  },
+  {
+    "workers": 600,
+    "employees": 400,
+    "dependents": 300,
+    "children": 300,
+    "note": "单位为克／人／日，四类仅列普通工人、职员、受抚养者及12岁以下儿童的法定面包标准；不等于全部食物或实际摄入。高温车间等另有标准。",
+    "sources": [
+      "civil_source_kovalchuk_rations"
+    ],
+    "from": "1941-09-02T00:00"
+  },
+  {
+    "workers": 500,
+    "employees": 300,
+    "dependents": 250,
+    "children": 300,
+    "note": "单位为克／人／日，四类仅列普通工人、职员、受抚养者及12岁以下儿童的法定面包标准；不等于全部食物或实际摄入。高温车间等另有标准。本次儿童为300克，受抚养者为250克，两类不能合并。",
+    "sources": [
+      "civil_source_kovalchuk_rations"
+    ],
+    "from": "1941-09-11T00:00"
+  },
+  {
+    "workers": 400,
+    "employees": 200,
+    "dependents": 200,
+    "children": 200,
+    "note": "单位为克／人／日，四类仅列普通工人、职员、受抚养者及12岁以下儿童的法定面包标准；不等于全部食物或实际摄入。高温车间等另有标准。",
+    "sources": [
+      "civil_source_kovalchuk_rations"
+    ],
+    "from": "1941-10-01T00:00"
+  },
+  {
+    "workers": 300,
+    "employees": 150,
+    "dependents": 150,
+    "children": 150,
+    "note": "单位为克／人／日，四类仅列普通工人、职员、受抚养者及12岁以下儿童的法定面包标准；不等于全部食物或实际摄入。高温车间等另有标准。",
+    "sources": [
+      "civil_source_kovalchuk_rations"
+    ],
+    "from": "1941-11-13T00:00"
+  },
+  {
+    "workers": 250,
+    "employees": 125,
+    "dependents": 125,
+    "children": 125,
+    "note": "单位为克／人／日，四类仅列普通工人、职员、受抚养者及12岁以下儿童的法定面包标准；不等于全部食物或实际摄入。高温车间等另有标准。这是11月20日至12月24日的最低档；125克不适用于全体居民。",
+    "sources": [
+      "civil_source_kovalchuk_rations",
+      "civil_source_rations_order",
+      "civil_source_bread_museum"
+    ],
+    "from": "1941-11-20T00:00"
+  },
+  {
+    "workers": 350,
+    "employees": 200,
+    "dependents": 200,
+    "children": 200,
+    "note": "单位为克／人／日，四类仅列普通工人、职员、受抚养者及12岁以下儿童的法定面包标准；不等于全部食物或实际摄入。高温车间等另有标准。提高配给并未立即扭转长期营养不良和冬季死亡高峰。",
+    "sources": [
+      "civil_source_nlr_hunger"
+    ],
+    "from": "1941-12-25T00:00"
+  },
+  {
+    "workers": 400,
+    "employees": 300,
+    "dependents": 250,
+    "children": 250,
+    "note": "单位为克／人／日，四类仅列普通工人、职员、受抚养者及12岁以下儿童的法定面包标准；不等于全部食物或实际摄入。高温车间等另有标准。",
+    "sources": [
+      "civil_source_nlr_hunger"
+    ],
+    "from": "1942-01-24T00:00"
+  },
+  {
+    "workers": 500,
+    "employees": 400,
+    "dependents": 300,
+    "children": 300,
+    "note": "单位为克／人／日，四类仅列普通工人、职员、受抚养者及12岁以下儿童的法定面包标准；不等于全部食物或实际摄入。高温车间等另有标准。",
+    "sources": [
+      "civil_source_nlr_hunger"
+    ],
+    "from": "1942-02-11T00:00"
+  },
+  {
+    "workers": 600,
+    "employees": 500,
+    "dependents": 400,
+    "children": 400,
+    "note": "单位为克／人／日，四类仅列普通工人、职员、受抚养者及12岁以下儿童的法定面包标准；不等于全部食物或实际摄入。高温车间等另有标准。",
+    "sources": [
+      "civil_source_nlr_hunger"
+    ],
+    "from": "1943-02-23T00:00"
+  }
+]

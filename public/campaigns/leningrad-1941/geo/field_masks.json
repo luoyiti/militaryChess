@@ -1,0 +1,22 @@
+{
+  "w": 820,
+  "h": 787,
+  "cell": 10,
+  "dtype": "uint8",
+  "order": "row-major (j*w+i)",
+  "cellCenter": "((i+0.5)*cell, (j+0.5)*cell) 世界坐标",
+  "bits": {
+    "4": "陆地",
+    "0": "SU",
+    "1": "DE",
+    "2": "FI",
+    "6": "其余陆地"
+  },
+  "source": "tools/geo/masks.py：countries1939 + Natural Earth 陆地，经 d3 投影后点内判定",
+  "waterCorrection": {
+    "clearedLakeCells": 30285,
+    "source": "Natural Earth lakes, projected with this campaign frame",
+    "script": "pipeline/geo/mask_lakes.py",
+    "note": "拉多加湖、伊尔门湖等湖区不视为可占领陆地；岸线与岛屿仍受场网格分辨率限制。"
+  }
+}

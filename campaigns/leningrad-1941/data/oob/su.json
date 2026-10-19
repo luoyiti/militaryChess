@@ -1,0 +1,2214 @@
+[
+  {
+    "id": "su.f_len",
+    "side": "SU",
+    "echelon": "front",
+    "type": "hq",
+    "parent": null,
+    "name": {
+      "zh": "列宁格勒方面军",
+      "orig": "Ленинградский фронт",
+      "short": "ЛенФ"
+    },
+    "track": [],
+    "history": "1941年8月由北方方面军分建，先后由波波夫、伏罗希洛夫、朱可夫、费久宁斯基、霍津和戈沃罗夫指挥。1942年6月起戈沃罗夫主持长期防御、反炮兵作战与破围攻势。第67集团军到1942年10月才以该番号出现。",
+    "sources": [
+      "mil_prlib_iskra",
+      "mil_cmh_decision_8",
+      "mil_cmh_defeat_12"
+    ],
+    "confidence": "medium",
+    "schematic": true,
+    "active": {
+      "from": "1941-08-23T00:00",
+      "to": "1944-01-31T23:59"
+    },
+    "commander": {
+      "zh": "历任：波波夫、伏罗希洛夫、朱可夫、费久宁斯基、霍津、戈沃罗夫",
+      "orig": "Commanders change during 1941–1942"
+    }
+  },
+  {
+    "id": "su.f_volkhov",
+    "side": "SU",
+    "echelon": "front",
+    "type": "hq",
+    "parent": null,
+    "name": {
+      "zh": "沃尔霍夫方面军",
+      "orig": "Волховский фронт",
+      "short": "ВолхФ"
+    },
+    "active": {
+      "from": "1941-12-17T00:00",
+      "to": "1944-01-31T23:59"
+    },
+    "track": [],
+    "history": "1941年12月建立；1942年春曾撤销并改为列宁格勒方面军沃尔霍夫集群，6月恢复。1944年1月与列宁格勒方面军共同进攻；图中司令部显示为战略标签，不能解释为始终不变的隶属关系。",
+    "sources": [
+      "mil_prlib_iskra",
+      "mil_cmh_decision_8",
+      "mil_cmh_defeat_12"
+    ],
+    "confidence": "medium",
+    "schematic": true,
+    "commander": {
+      "zh": "梅列茨科夫（1942年春改组期间另见事件）",
+      "orig": "Kirill Meretskov"
+    }
+  },
+  {
+    "id": "su.kbf",
+    "side": "SU",
+    "echelon": "army",
+    "type": "naval",
+    "parent": null,
+    "name": {
+      "zh": "红旗波罗的海舰队",
+      "orig": "Краснознамённый Балтийский флот",
+      "short": "КБФ"
+    },
+    "model": "navy_token",
+    "equipment": [
+      {
+        "id": "b13_130mm"
+      }
+    ],
+    "track": [
+      {
+        "at": "1941-06-22T00:00",
+        "pos": "@tallinn",
+        "status": "active"
+      },
+      {
+        "at": "1941-08-28T12:00",
+        "pos": "@tallinn",
+        "status": "withdrawing",
+        "note": "离开塔林并向喀琅施塔得转移；此处只表示基地迁移，舰队未退出战争。",
+        "movement": "sea"
+      },
+      {
+        "at": "1941-08-29T12:00",
+        "pos": "@kronstadt",
+        "status": "active",
+        "note": "舰队主力到达喀琅施塔得，救援行动随后继续。",
+        "movement": "sea"
+      },
+      {
+        "at": "1941-09-01T00:00",
+        "pos": "@kronstadt",
+        "status": "active",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1941-09-21T12:00",
+        "pos": "@kronstadt",
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1941-11-15T12:00",
+        "pos": "@kronstadt",
+        "status": "active",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1942-04-04T12:00",
+        "pos": "@leningrad",
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1943-11-15T12:00",
+        "pos": "@kronstadt",
+        "status": "active",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1944-01-14T09:00",
+        "pos": "@kronstadt",
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      }
+    ],
+    "history": "红旗波罗的海舰队原以塔林为主要基地，1941年8月经历危险的海上撤离后以喀琅施塔得和列宁格勒等地继续作战。舰炮、岸防、海军步兵与运输支援长期防御，1943年末至1944年初分批增援奥拉宁鲍姆，并支援一月反攻。",
+    "sources": [
+      "mil_prlib_iskra",
+      "mil_cmh_decision_8",
+      "mil_cmh_defeat_12"
+    ],
+    "confidence": "medium",
+    "schematic": true,
+    "active": {
+      "from": "1941-06-22T00:00",
+      "to": "1944-01-31T23:59"
+    },
+    "commander": {
+      "zh": "特里布茨",
+      "orig": "Vladimir Tributs"
+    }
+  },
+  {
+    "id": "su.ladoga_flot",
+    "side": "SU",
+    "echelon": "corps",
+    "type": "naval",
+    "parent": null,
+    "name": {
+      "zh": "拉多加湖区舰队",
+      "orig": "Ладожская военная флотилия",
+      "short": "Ладож.ВФ"
+    },
+    "model": "navy_token",
+    "track": [
+      {
+        "at": "1941-09-01T00:00",
+        "pos": "@shlisselburg",
+        "status": "active",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1941-09-12T12:00",
+        "pos": "@osinovets",
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1942-06-01T12:00",
+        "pos": "@novaya_ladoga",
+        "status": "active",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1942-10-22T07:00",
+        "pos": "@osinovets",
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1944-01-20T12:00",
+        "pos": "@novaya_ladoga",
+        "status": "active",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      }
+    ],
+    "history": "拉多加湖区舰队护卫运输与湖上交通，使陆上被隔断的城市仍可接收物资、撤出人员并调动部队。它与冬季冰道、港口、铁路和防空系统共同维持通路，不能把舰队活动简单等同于全年畅通、安全无阻的单条航线。",
+    "sources": [
+      "mil_prlib_iskra",
+      "mil_cmh_decision_8",
+      "mil_cmh_defeat_12"
+    ],
+    "confidence": "medium",
+    "schematic": true,
+    "active": {
+      "from": "1941-09-01T00:00",
+      "to": "1944-01-31T23:59"
+    }
+  },
+  {
+    "id": "su.23a",
+    "side": "SU",
+    "echelon": "army",
+    "type": "hq",
+    "parent": null,
+    "name": {
+      "zh": "第 23 集团军",
+      "orig": "23-я армия",
+      "short": "23 А"
+    },
+    "model": "inf_su",
+    "track": [
+      {
+        "at": "1941-06-22T00:00",
+        "pos": [
+          28.8,
+          61.05
+        ],
+        "status": "active"
+      },
+      {
+        "at": "1941-07-31T12:00",
+        "pos": [
+          29.6,
+          61.0
+        ],
+        "status": "engaged"
+      },
+      {
+        "at": "1941-08-29T12:00",
+        "pos": [
+          29.2,
+          60.55
+        ],
+        "status": "withdrawing"
+      },
+      {
+        "at": "1941-09-01T00:00",
+        "pos": "@beloostrov",
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1941-09-10T12:00",
+        "pos": "@sestroretsk",
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1942-06-01T12:00",
+        "pos": "@toksovo",
+        "status": "active",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1944-01-31T18:00",
+        "pos": "@toksovo",
+        "status": "active",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      }
+    ],
+    "history": "第23集团军在卡累利阿地峡抵抗芬军，1941年后退至列宁格勒北面的筑垒地域和河流一线。其部分力量曾被抽调支援南线，但北部正面并未随1944年1月解围而消失；1944年夏季战役不提前在本包内推演。",
+    "sources": [
+      "mil_prlib_iskra",
+      "mil_cmh_decision_8",
+      "mil_cmh_defeat_12"
+    ],
+    "confidence": "medium",
+    "schematic": true,
+    "active": {
+      "from": "1941-06-22T00:00",
+      "to": "1944-01-31T23:59"
+    }
+  },
+  {
+    "id": "su.8a",
+    "side": "SU",
+    "echelon": "army",
+    "type": "hq",
+    "parent": null,
+    "name": {
+      "zh": "第 8 集团军",
+      "orig": "8-я армия",
+      "short": "8 А"
+    },
+    "model": "inf_su",
+    "track": [
+      {
+        "at": "1941-06-22T00:00",
+        "pos": [
+          22.6,
+          55.85
+        ],
+        "status": "active"
+      },
+      {
+        "at": "1941-07-01T12:00",
+        "pos": [
+          24.4,
+          57.1
+        ],
+        "status": "withdrawing"
+      },
+      {
+        "at": "1941-07-20T12:00",
+        "pos": "@tartu",
+        "status": "engaged"
+      },
+      {
+        "at": "1941-08-08T12:00",
+        "pos": [
+          26.0,
+          59.0
+        ],
+        "status": "withdrawing"
+      },
+      {
+        "at": "1941-08-28T12:00",
+        "pos": [
+          27.8,
+          59.3
+        ],
+        "status": "withdrawing"
+      },
+      {
+        "at": "1941-09-01T00:00",
+        "pos": "@koporye",
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1941-09-16T18:00",
+        "pos": "@oranienbaum",
+        "status": "encircled",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1941-11-05T12:00",
+        "pos": "@nevskaya_dubrovka",
+        "status": "active",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1942-01-25T12:00",
+        "pos": "@voibokalo",
+        "status": "active",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1942-08-27T08:00",
+        "pos": "@gaytolovo",
+        "status": "engaged",
+        "note": "第8集团军先投入第一梯队，第4近卫步兵军随后进入战斗；不虚列近卫第6军。"
+      },
+      {
+        "at": "1942-09-28T12:00",
+        "pos": "@gaytolovo",
+        "status": "withdrawing",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1943-01-12T10:00",
+        "pos": "@voronovo",
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1943-07-22T06:35",
+        "pos": "@porechye_mga",
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1944-01-18T12:00",
+        "pos": "@mga",
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1944-01-31T18:00",
+        "pos": "@utorgosh",
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      }
+    ],
+    "history": "第8集团军在1941年经历波罗的海撤退与爱沙尼亚守军被分割，后在奥拉宁鲍姆防御，军部又转往涅瓦河及湖南岸外围。1942年在锡尼亚维诺率先主攻，后参加火花、姆加和1944年追击。隶属数次改变，不能永久挂在一个方面军下。",
+    "sources": [
+      "mil_prlib_iskra",
+      "mil_cmh_decision_8",
+      "mil_cmh_defeat_12"
+    ],
+    "confidence": "medium",
+    "schematic": true,
+    "active": {
+      "from": "1941-06-22T00:00",
+      "to": "1944-01-31T23:59"
+    }
+  },
+  {
+    "id": "su.og_primorsk",
+    "side": "SU",
+    "echelon": "army",
+    "type": "infantry",
+    "parent": null,
+    "name": {
+      "zh": "滨海战役集群（奥拉宁鲍姆）",
+      "orig": "Приморская оперативная группа",
+      "short": "ПОГ"
+    },
+    "model": "inf_su",
+    "active": {
+      "from": "1941-11-02T12:00",
+      "to": "1943-11-16T00:00"
+    },
+    "track": [
+      {
+        "at": "1941-11-02T12:00",
+        "pos": "@oranienbaum",
+        "status": "encircled",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1942-09-01T12:00",
+        "pos": "@oranienbaum",
+        "status": "encircled",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1943-11-15T12:00",
+        "pos": "@oranienbaum",
+        "status": "disbanded",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      }
+    ],
+    "history": "滨海战役集群接续奥拉宁鲍姆的长期防御，依靠舰队补给和岸防火力守住与主城陆路隔断的桥头堡。1943年末至1944年初与调入的第2突击集团军整合，桥头堡随后转为反攻出发地。",
+    "sources": [
+      "mil_prlib_iskra",
+      "mil_cmh_decision_8",
+      "mil_cmh_defeat_12"
+    ],
+    "confidence": "medium",
+    "schematic": true
+  },
+  {
+    "id": "su.42a",
+    "side": "SU",
+    "echelon": "army",
+    "type": "hq",
+    "parent": null,
+    "name": {
+      "zh": "第 42 集团军",
+      "orig": "42-я армия",
+      "short": "42 А"
+    },
+    "model": "inf_su",
+    "equipment": [
+      {
+        "id": "kv1"
+      },
+      {
+        "id": "t34"
+      },
+      {
+        "id": "bm13"
+      }
+    ],
+    "track": [
+      {
+        "at": "1941-09-01T00:00",
+        "pos": "@krasnoye_selo",
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1941-09-15T12:00",
+        "pos": "@pulkovo",
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1942-08-01T12:00",
+        "pos": "@pulkovo",
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1943-09-15T12:00",
+        "pos": "@pulkovo",
+        "status": "active",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1944-01-15T09:20",
+        "pos": "@pulkovo",
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1944-01-19T12:00",
+        "pos": "@krasnoye_selo",
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1944-01-26T12:00",
+        "pos": "@krasnogvardeysk",
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1944-01-31T18:00",
+        "pos": "@volosovo",
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      }
+    ],
+    "history": "第42集团军在1941年列宁格勒南郊危机中组织防御，长期守备普尔科沃等地。1944年1月15日从普尔科沃方向进攻红村，与从奥拉宁鲍姆出击的第2突击集团军相向推进；二者并非同一天、同一出发阵地发动攻击。",
+    "sources": [
+      "mil_prlib_iskra",
+      "mil_cmh_decision_8",
+      "mil_cmh_defeat_12"
+    ],
+    "confidence": "medium",
+    "schematic": true,
+    "active": {
+      "from": "1941-08-25T00:00",
+      "to": "1944-01-31T23:59"
+    }
+  },
+  {
+    "id": "su.55a",
+    "side": "SU",
+    "echelon": "army",
+    "type": "hq",
+    "parent": null,
+    "name": {
+      "zh": "第 55 集团军",
+      "orig": "55-я армия",
+      "short": "55 А"
+    },
+    "model": "inf_su",
+    "active": {
+      "from": "1941-09-01T00:00",
+      "to": "1943-12-26T00:00"
+    },
+    "track": [
+      {
+        "at": "1941-09-01T00:00",
+        "pos": "@kolpino",
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1941-09-18T12:00",
+        "pos": "@kolpino",
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1942-08-01T12:00",
+        "pos": "@kolpino",
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1943-02-10T08:40",
+        "pos": "@krasny_bor",
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1943-12-25T12:00",
+        "pos": "@kolpino",
+        "status": "disbanded",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      }
+    ],
+    "history": "第55集团军在科尔皮诺及城市东南方向作战，参加1942年乌斯季托斯诺方向攻击和1943年红博尔战斗。其后机关与部队发生整合，旧番号不延续为1944年独立参战集团军；战斗投入也不等于全军总兵力。",
+    "sources": [
+      "mil_prlib_iskra",
+      "mil_cmh_decision_8",
+      "mil_cmh_defeat_12"
+    ],
+    "confidence": "medium",
+    "schematic": true
+  },
+  {
+    "id": "su.67a",
+    "side": "SU",
+    "echelon": "army",
+    "type": "hq",
+    "parent": null,
+    "name": {
+      "zh": "第 67 集团军（原涅瓦战役集群）",
+      "orig": "67-я армия (Невская оперативная группа)",
+      "short": "67 А"
+    },
+    "model": "inf_su",
+    "equipment": [
+      {
+        "id": "t34"
+      },
+      {
+        "id": "kv1"
+      },
+      {
+        "id": "bm13"
+      }
+    ],
+    "track": [
+      {
+        "at": "1942-10-10T12:00",
+        "pos": "@nevskaya_dubrovka",
+        "status": "active",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1943-01-12T09:30",
+        "pos": "@marino",
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1943-01-18T09:30",
+        "pos": "@rabochiy_1",
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1943-07-22T06:35",
+        "pos": "@sinyavino",
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1944-01-21T12:00",
+        "pos": "@mga",
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1944-01-24T12:00",
+        "pos": "@pushkin",
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1944-01-31T18:00",
+        "pos": "@vyritsa",
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      }
+    ],
+    "history": "1942年10月由涅瓦战役集群改编。1943年1月在杜哈诺夫指挥下从西侧实施火花行动；后续指挥官与编制再有变化。1941年的涅瓦作战在独立前身记录中展示。",
+    "sources": [
+      "mil_prlib_iskra",
+      "mil_cmh_decision_8",
+      "mil_cmh_defeat_12"
+    ],
+    "confidence": "medium",
+    "schematic": true,
+    "active": {
+      "from": "1942-10-10T00:00",
+      "to": "1944-01-31T23:59"
+    },
+    "commander": {
+      "zh": "火花行动：杜哈诺夫；后续更替",
+      "orig": "Mikhail Dukhanov; later commanders"
+    }
+  },
+  {
+    "id": "su.54a",
+    "side": "SU",
+    "echelon": "army",
+    "type": "hq",
+    "parent": null,
+    "name": {
+      "zh": "第 54 集团军",
+      "orig": "54-я армия",
+      "short": "54 А"
+    },
+    "model": "inf_su",
+    "track": [
+      {
+        "at": "1941-09-05T12:00",
+        "pos": "@voibokalo",
+        "status": "active",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1941-09-10T12:00",
+        "pos": [
+          31.35,
+          59.82
+        ],
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1941-10-20T12:00",
+        "pos": "@gaytolovo",
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1941-12-03T12:00",
+        "pos": "@voibokalo",
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1942-03-16T12:00",
+        "pos": "@pogostye",
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1943-02-10T12:00",
+        "pos": "@smerdynya",
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1944-01-16T12:00",
+        "pos": "@pogostye",
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1944-01-28T12:00",
+        "pos": "@lyuban",
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1944-01-31T18:00",
+        "pos": [
+          30.65,
+          59.1
+        ],
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      }
+    ],
+    "history": "第54集团军在围城外侧尝试打通锡尼亚维诺方向联系，并在季赫温危机中守住沃尔霍夫城方向。1942年从波戈斯季耶方向配合柳班攻势；其在该阶段隶属列宁格勒方面军，不能因地理位置就提前归入沃尔霍夫方面军。",
+    "sources": [
+      "mil_prlib_iskra",
+      "mil_cmh_decision_8",
+      "mil_cmh_defeat_12"
+    ],
+    "confidence": "medium",
+    "schematic": true,
+    "active": {
+      "from": "1941-09-02T00:00",
+      "to": "1944-01-31T23:59"
+    }
+  },
+  {
+    "id": "su.4a",
+    "side": "SU",
+    "echelon": "army",
+    "type": "hq",
+    "parent": null,
+    "name": {
+      "zh": "第 4 集团军",
+      "orig": "4-я армия",
+      "short": "4 А"
+    },
+    "model": "inf_su",
+    "active": {
+      "from": "1941-09-26T12:00",
+      "to": "1943-11-20T00:00"
+    },
+    "track": [
+      {
+        "at": "1941-09-26T12:00",
+        "pos": "@kirishi",
+        "status": "active",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1941-10-23T12:00",
+        "pos": "@budogoshch",
+        "status": "withdrawing",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1941-11-09T12:00",
+        "pos": [
+          33.75,
+          59.72
+        ],
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1941-11-19T08:00",
+        "pos": [
+          33.65,
+          59.68
+        ],
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1941-12-09T09:00",
+        "pos": "@tikhvin",
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1941-12-28T12:00",
+        "pos": "@kirishi",
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1943-10-03T12:00",
+        "pos": "@kirishi",
+        "status": "active",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      }
+    ],
+    "history": "1941年秋在季赫温方向作战的第4独立集团军。梅列茨科夫11月7日接任，11月19日开始主要反攻，12月9日收复季赫温；沃尔霍夫方面军到12月才成立，不能提前作为十月的固定上级。",
+    "sources": [
+      "mil_prlib_iskra",
+      "mil_cmh_decision_8",
+      "mil_cmh_defeat_12"
+    ],
+    "confidence": "medium",
+    "schematic": true,
+    "commander": {
+      "zh": "历任：雅科夫列夫；1941年11月7日起梅列茨科夫；其后伊万诺夫",
+      "orig": "Yakovlev / Meretskov / Ivanov"
+    }
+  },
+  {
+    "id": "su.52a",
+    "side": "SU",
+    "echelon": "army",
+    "type": "hq",
+    "parent": null,
+    "name": {
+      "zh": "第 52 集团军",
+      "orig": "52-я армия",
+      "short": "52 А"
+    },
+    "model": "inf_su",
+    "active": {
+      "from": "1941-09-01T00:00",
+      "to": "1943-05-10T00:00"
+    },
+    "track": [
+      {
+        "at": "1941-09-01T00:00",
+        "pos": "@gruzino",
+        "status": "active",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1941-10-24T12:00",
+        "pos": "@malaya_vishera",
+        "status": "withdrawing",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1941-11-12T08:00",
+        "pos": [
+          32.45,
+          58.85
+        ],
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1941-11-20T12:00",
+        "pos": "@malaya_vishera",
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1941-12-20T12:00",
+        "pos": "@gruzino",
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1942-05-01T12:00",
+        "pos": "@podberezye",
+        "status": "active",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      }
+    ],
+    "history": "第52集团军在1941年季赫温突出部南翼反击并收复小维舍拉，随后参加沃尔霍夫方向作战。1941年十月还没有沃尔霍夫方面军，故不以前后期固定父节点暗示当时隶属关系。显示窗口结束只表示本包停止跟踪，不代表全军毁灭。",
+    "sources": [
+      "mil_prlib_iskra",
+      "mil_cmh_decision_8",
+      "mil_cmh_defeat_12"
+    ],
+    "confidence": "medium",
+    "schematic": true
+  },
+  {
+    "id": "su.2sh_a",
+    "side": "SU",
+    "echelon": "army",
+    "type": "hq",
+    "parent": null,
+    "name": {
+      "zh": "第 2 突击集团军",
+      "orig": "2-я ударная армия",
+      "short": "2 УА"
+    },
+    "model": "inf_su",
+    "equipment": [
+      {
+        "id": "t34"
+      },
+      {
+        "id": "kv1"
+      },
+      {
+        "id": "bm13"
+      }
+    ],
+    "active": {
+      "from": "1941-12-25T00:00",
+      "to": "1942-06-25T23:59"
+    },
+    "track": [
+      {
+        "at": "1941-12-25T12:00",
+        "pos": [
+          31.55,
+          58.85
+        ],
+        "status": "active",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1942-01-07T08:00",
+        "pos": "@myasnoy_bor",
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1942-02-28T12:00",
+        "pos": [
+          31.05,
+          59.1
+        ],
+        "status": "engaged",
+        "note": "柳班林沼突出部活动地段示意；不把未核实的村名视为精确驻地。"
+      },
+      {
+        "at": "1942-03-19T12:00",
+        "pos": [
+          31.05,
+          59.1
+        ],
+        "status": "encircled",
+        "note": "柳班林沼突出部活动地段示意；不把未核实的村名视为精确驻地。"
+      },
+      {
+        "at": "1942-06-05T12:00",
+        "pos": "@myasnoy_bor",
+        "status": "encircled",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1942-06-25T18:00",
+        "pos": "@myasnoy_bor",
+        "status": "ineffective",
+        "note": "六月下旬突围与指挥体系崩溃；逃出人数和伤亡口径不一，本包不合并成虚假的精确数字。"
+      }
+    ],
+    "history": "第2突击集团军首次战役记录。克雷科夫等先后指挥，1942年4月弗拉索夫接任。柳班突出部经三月与五月底通道被切断，六月下旬突围失败，指挥体系瓦解；并非全军同日阵亡。",
+    "sources": [
+      "mil_cmh_decision_8",
+      "mil_cmh_decision_9",
+      "mil_cmh_decision_12"
+    ],
+    "confidence": "medium",
+    "schematic": true,
+    "commander": {
+      "zh": "历任：克雷科夫；1942年4月起弗拉索夫",
+      "orig": "Nikolai Klykov / Andrey Vlasov"
+    }
+  },
+  {
+    "id": "su.59a",
+    "side": "SU",
+    "echelon": "army",
+    "type": "hq",
+    "parent": null,
+    "name": {
+      "zh": "第 59 集团军",
+      "orig": "59-я армия",
+      "short": "59 А"
+    },
+    "model": "inf_su",
+    "equipment": [
+      {
+        "id": "t34"
+      },
+      {
+        "id": "kv1"
+      }
+    ],
+    "active": {
+      "from": "1941-12-25T12:00",
+      "to": "1944-01-31T23:59"
+    },
+    "track": [
+      {
+        "at": "1941-12-25T12:00",
+        "pos": [
+          31.65,
+          58.95
+        ],
+        "status": "active",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1942-03-25T12:00",
+        "pos": "@spasskaya_polist",
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1943-03-15T12:00",
+        "pos": "@podberezye",
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1944-01-14T09:00",
+        "pos": [
+          31.2,
+          58.42
+        ],
+        "status": "engaged",
+        "note": "南部支队横越伊尔门湖北部冰面至西岸特罗伊察—旧拉科莫一带；螺旋桨雪橇参加，不是气垫船。"
+      },
+      {
+        "at": "1944-01-20T11:00",
+        "pos": "@novgorod",
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1944-01-26T12:00",
+        "pos": [
+          30.6,
+          58.64
+        ],
+        "status": "engaged",
+        "note": "巴捷茨卡亚东面作战地段；车站于2月12日解放，不在一月底提前占领。"
+      },
+      {
+        "at": "1944-01-31T18:00",
+        "pos": [
+          30.12,
+          58.62
+        ],
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      }
+    ],
+    "history": "第59集团军参加柳班方向作战，1944年1月承担诺夫哥罗德方向主攻。南部支队从伊尔门湖北部冰面向西岸突袭，主力从北侧进攻，20日解放古城；巴捷茨卡亚到2月12日才被收复，不能让一月底轨迹提前进入该站。",
+    "sources": [
+      "mil_prlib_iskra",
+      "mil_cmh_decision_8",
+      "mil_cmh_defeat_12"
+    ],
+    "confidence": "medium",
+    "schematic": true
+  },
+  {
+    "id": "su.7a",
+    "side": "SU",
+    "echelon": "army",
+    "type": "hq",
+    "parent": null,
+    "name": {
+      "zh": "第 7 独立集团军",
+      "orig": "7-я отдельная армия",
+      "short": "7 ОА"
+    },
+    "model": "inf_su",
+    "track": [
+      {
+        "at": "1941-06-22T00:00",
+        "pos": [
+          31.5,
+          61.9
+        ],
+        "status": "active"
+      },
+      {
+        "at": "1941-07-10T12:00",
+        "pos": [
+          31.7,
+          61.9
+        ],
+        "status": "engaged"
+      },
+      {
+        "at": "1941-08-01T12:00",
+        "pos": [
+          32.7,
+          61.2
+        ],
+        "status": "engaged"
+      },
+      {
+        "at": "1941-09-01T00:00",
+        "pos": "@olonets",
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1941-09-08T12:00",
+        "pos": "@lodeynoye_pole",
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1941-10-10T12:00",
+        "pos": [
+          33.65,
+          60.65
+        ],
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1942-04-15T12:00",
+        "pos": "@svirstroy",
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1944-01-31T18:00",
+        "pos": "@lodeynoye_pole",
+        "status": "active",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      }
+    ],
+    "history": "第7集团军在拉多加湖以东抵抗芬兰卡累利阿集团军，后沿斯维里河及局部桥头堡形成长期正面。芬军未攻克洛杰伊诺耶波列；德军季赫温攻势与芬军没有在湖南岸连成陆上包围圈。",
+    "sources": [
+      "mil_prlib_iskra",
+      "mil_cmh_decision_8",
+      "mil_cmh_defeat_12"
+    ],
+    "confidence": "medium",
+    "schematic": true,
+    "active": {
+      "from": "1941-06-22T00:00",
+      "to": "1944-01-31T23:59"
+    }
+  },
+  {
+    "id": "su.30gsk",
+    "side": "SU",
+    "echelon": "corps",
+    "type": "infantry",
+    "parent": null,
+    "name": {
+      "zh": "近卫第 30 步兵军",
+      "orig": "30-й гвардейский стрелковый корпус",
+      "short": "30 ГвСК"
+    },
+    "model": "inf_su",
+    "active": {
+      "from": "1943-04-30T12:00",
+      "to": "1944-01-31T23:59"
+    },
+    "track": [
+      {
+        "at": "1943-04-30T12:00",
+        "pos": "@leningrad",
+        "status": "active",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1943-09-15T08:00",
+        "pos": "@sinyavino",
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1944-01-15T09:20",
+        "pos": "@pulkovo",
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1944-01-19T12:00",
+        "pos": "@duderhof",
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1944-01-26T12:00",
+        "pos": "@krasnogvardeysk",
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1944-01-31T18:00",
+        "pos": "@volosovo",
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      }
+    ],
+    "history": "近卫第30步兵军在1943年组织形成，9月参加锡尼亚维诺高地攻坚，夺取部分高地但未夺主要50.1高地。1944年1月参加第42集团军从普尔科沃方向的突破，军级图标概括作战正面，不能当成每个近卫师的同时位置。",
+    "sources": [
+      "mil_prlib_iskra",
+      "mil_cmh_decision_8",
+      "mil_cmh_defeat_12"
+    ],
+    "confidence": "medium",
+    "schematic": true
+  },
+  {
+    "id": "su.136sd",
+    "side": "SU",
+    "echelon": "division",
+    "type": "infantry",
+    "parent": null,
+    "name": {
+      "zh": "第 136 步兵师（近卫第 63 步兵师）",
+      "orig": "136-я стрелковая дивизия (63-я гв. сд)",
+      "short": "136 СД"
+    },
+    "model": "inf_su",
+    "active": {
+      "from": "1942-03-20T12:00",
+      "to": "1943-01-18T23:59"
+    },
+    "track": [
+      {
+        "at": "1942-03-20T12:00",
+        "pos": "@vsevolozhsk",
+        "status": "active",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1942-08-25T12:00",
+        "pos": "@ust_izhora",
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1943-01-12T09:30",
+        "pos": "@marino",
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1943-01-18T09:30",
+        "pos": "@rabochiy_5",
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      }
+    ],
+    "history": "第136步兵师在火花行动中参加从涅瓦河西侧向工人村方向的突破，随后改称近卫第63步兵师。旧番号在本包中不继续延伸至1944年，也不能拿这条1942年开始的记录去代表1941年汉科撤离部队。",
+    "sources": [
+      "mil_prlib_iskra",
+      "mil_cmh_decision_8",
+      "mil_cmh_defeat_12"
+    ],
+    "confidence": "medium",
+    "schematic": true
+  },
+  {
+    "id": "su.86sd",
+    "side": "SU",
+    "echelon": "division",
+    "type": "infantry",
+    "parent": null,
+    "name": {
+      "zh": "第 86 步兵师",
+      "orig": "86-я стрелковая дивизия",
+      "short": "86 СД"
+    },
+    "model": "inf_su",
+    "active": {
+      "from": "1941-09-20T12:00",
+      "to": "1944-01-31T23:59"
+    },
+    "track": [
+      {
+        "at": "1941-09-20T12:00",
+        "pos": "@nevsky_pyatachok",
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1942-09-15T12:00",
+        "pos": "@nevskaya_dubrovka",
+        "status": "active",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1943-01-12T09:30",
+        "pos": "@shlisselburg",
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1943-01-18T14:00",
+        "pos": "@shlisselburg",
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1944-01-15T12:00",
+        "pos": "@pulkovo",
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1944-01-26T12:00",
+        "pos": "@krasnogvardeysk",
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1944-01-31T18:00",
+        "pos": [
+          29.72,
+          59.05
+        ],
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      }
+    ],
+    "history": "第 86 步兵师的战役活动地段示意。各次作战的参战范围见事件档案，地图点位不代表编制满员人数或司令部实测驻地；上级仅在整个显示窗口均适用时保留。",
+    "sources": [
+      "mil_prlib_iskra",
+      "mil_cmh_decision_8",
+      "mil_cmh_defeat_12"
+    ],
+    "confidence": "medium",
+    "schematic": true
+  },
+  {
+    "id": "su.115sd",
+    "side": "SU",
+    "echelon": "division",
+    "type": "infantry",
+    "parent": null,
+    "name": {
+      "zh": "第 115 步兵师",
+      "orig": "115-я стрелковая дивизия",
+      "short": "115 СД"
+    },
+    "model": "inf_su",
+    "track": [
+      {
+        "at": "1941-09-01T00:00",
+        "pos": "@nevskaya_dubrovka",
+        "status": "active",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1941-09-20T04:00",
+        "pos": "@nevsky_pyatachok",
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1941-11-15T12:00",
+        "pos": "@voibokalo",
+        "status": "engaged",
+        "movement": "rail",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1942-03-20T12:00",
+        "pos": "@pogostye",
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1943-02-15T12:00",
+        "pos": "@smerdynya",
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1944-01-28T12:00",
+        "pos": "@lyuban",
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1944-01-31T18:00",
+        "pos": [
+          30.85,
+          59.05
+        ],
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      }
+    ],
+    "history": "第 115 步兵师的战役活动地段示意。各次作战的参战范围见事件档案，地图点位不代表编制满员人数或司令部实测驻地；上级仅在整个显示窗口均适用时保留。",
+    "sources": [
+      "mil_prlib_iskra",
+      "mil_cmh_decision_8",
+      "mil_cmh_defeat_12"
+    ],
+    "confidence": "medium",
+    "schematic": true,
+    "active": {
+      "from": "1941-09-01T00:00",
+      "to": "1944-01-31T23:59"
+    }
+  },
+  {
+    "id": "su.125sd",
+    "side": "SU",
+    "echelon": "division",
+    "type": "infantry",
+    "parent": null,
+    "name": {
+      "zh": "第 125 步兵师",
+      "orig": "125-я стрелковая дивизия",
+      "short": "125 СД"
+    },
+    "model": "inf_su",
+    "track": [
+      {
+        "at": "1941-09-01T00:00",
+        "pos": "@krasnogvardeysk",
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1941-09-17T12:00",
+        "pos": "@pulkovo",
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1943-02-10T12:00",
+        "pos": "@kolpino",
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1944-01-15T09:20",
+        "pos": "@pulkovo",
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1944-01-19T12:00",
+        "pos": "@krasnoye_selo",
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1944-01-31T18:00",
+        "pos": "@kingisepp",
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      }
+    ],
+    "history": "第 125 步兵师的战役活动地段示意。各次作战的参战范围见事件档案，地图点位不代表编制满员人数或司令部实测驻地；上级仅在整个显示窗口均适用时保留。",
+    "sources": [
+      "mil_prlib_iskra",
+      "mil_cmh_decision_8",
+      "mil_cmh_defeat_12"
+    ],
+    "confidence": "medium",
+    "schematic": true,
+    "active": {
+      "from": "1941-09-01T00:00",
+      "to": "1944-01-31T23:59"
+    }
+  },
+  {
+    "id": "su.70sd",
+    "side": "SU",
+    "echelon": "division",
+    "type": "infantry",
+    "parent": null,
+    "name": {
+      "zh": "第 70 步兵师（近卫第 45 步兵师）",
+      "orig": "70-я стрелковая дивизия (45-я гв. сд)",
+      "short": "70 СД"
+    },
+    "model": "inf_su",
+    "active": {
+      "from": "1941-09-01T00:00",
+      "to": "1942-10-15T23:59"
+    },
+    "track": [
+      {
+        "at": "1941-09-01T00:00",
+        "pos": "@pushkin",
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1941-09-18T12:00",
+        "pos": "@pulkovo",
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1942-09-26T12:00",
+        "pos": "@nevsky_pyatachok",
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      }
+    ],
+    "history": "第70步兵师在1941年索尔齐等方向反击及列宁格勒防御中作战，后参与涅瓦河桥头堡战斗。1942年10月改称近卫第45步兵师；本记录只追踪旧番号，不与后继同时重复计算。",
+    "sources": [
+      "mil_prlib_iskra",
+      "mil_cmh_decision_8",
+      "mil_cmh_defeat_12"
+    ],
+    "confidence": "medium",
+    "schematic": true
+  },
+  {
+    "id": "su.1dno",
+    "side": "SU",
+    "echelon": "division",
+    "type": "reserve",
+    "parent": null,
+    "name": {
+      "zh": "列宁格勒人民民兵第 1（基洛夫）师",
+      "orig": "1-я Ленинградская дивизия народного ополчения (Кировская)",
+      "short": "1 ДНО"
+    },
+    "model": "inf_su",
+    "track": [
+      {
+        "at": "1941-09-01T00:00",
+        "pos": "@vyra",
+        "status": "encircled",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1941-09-15T12:00",
+        "pos": "@pulkovo",
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      }
+    ],
+    "history": "民兵师投入卢加与列宁格勒防御，后改编为正规步兵师；旧番号不贯穿至1944年。 位置是战役级示意，未核实的逐日战术位置不作为史实宣称。",
+    "sources": [
+      "mil_prlib_iskra",
+      "mil_cmh_decision_8",
+      "mil_cmh_defeat_12"
+    ],
+    "confidence": "medium",
+    "schematic": true,
+    "active": {
+      "from": "1941-09-01T00:00",
+      "to": "1941-09-22T23:59"
+    }
+  },
+  {
+    "id": "su.327sd",
+    "side": "SU",
+    "echelon": "division",
+    "type": "infantry",
+    "parent": null,
+    "name": {
+      "zh": "第 327 步兵师（近卫第 64 步兵师）",
+      "orig": "327-я стрелковая дивизия (64-я гв. сд)",
+      "short": "327 СД"
+    },
+    "model": "inf_su",
+    "active": {
+      "from": "1942-01-13T12:00",
+      "to": "1943-01-18T23:59"
+    },
+    "track": [
+      {
+        "at": "1942-01-13T12:00",
+        "pos": "@myasnoy_bor",
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1942-06-20T12:00",
+        "pos": "@myasnoy_bor",
+        "status": "withdrawing",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1943-01-12T09:30",
+        "pos": "@tortolovo",
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1943-01-18T12:00",
+        "pos": "@rabochiy_5",
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      }
+    ],
+    "history": "火花行动后改称近卫第64步兵师；柳班阶段重创与重建不以完整幸存暗示。 位置是战役级示意，未核实的逐日战术位置不作为史实宣称。",
+    "sources": [
+      "mil_prlib_iskra",
+      "mil_cmh_decision_8",
+      "mil_cmh_defeat_12"
+    ],
+    "confidence": "medium",
+    "schematic": true
+  },
+  {
+    "id": "su.372sd",
+    "side": "SU",
+    "echelon": "division",
+    "type": "infantry",
+    "parent": null,
+    "name": {
+      "zh": "第 372 步兵师",
+      "orig": "372-я стрелковая дивизия",
+      "short": "372 СД"
+    },
+    "model": "inf_su",
+    "active": {
+      "from": "1942-03-01T12:00",
+      "to": "1944-01-31T23:59"
+    },
+    "track": [
+      {
+        "at": "1942-03-01T12:00",
+        "pos": "@myasnoy_bor",
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1943-01-12T09:30",
+        "pos": "@rabochiy_8",
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1943-01-18T09:30",
+        "pos": "@rabochiy_1",
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1944-01-14T09:00",
+        "pos": [
+          31.18,
+          58.4
+        ],
+        "status": "engaged",
+        "note": "第59集团军南翼有关部队活动地段，非全师军部实测位置。"
+      },
+      {
+        "at": "1944-01-20T11:00",
+        "pos": "@novgorod",
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1944-01-31T18:00",
+        "pos": [
+          30.6,
+          58.64
+        ],
+        "status": "engaged",
+        "note": "巴捷茨卡亚东面作战地段；车站于2月12日解放，不在一月底提前占领。"
+      }
+    ],
+    "history": "第372步兵师参加沃尔霍夫方向战斗和火花行动，1944年诺夫哥罗德战役中有关部队投入南翼。整师、配属团与临时支队的行动范围并不相同，地图标记表示相关部队活动地段而非全部人员的集中驻地。",
+    "sources": [
+      "mil_prlib_iskra",
+      "mil_cmh_decision_8",
+      "mil_cmh_defeat_12"
+    ],
+    "confidence": "medium",
+    "schematic": true
+  },
+  {
+    "id": "su.61tbr",
+    "side": "SU",
+    "echelon": "brigade",
+    "type": "armor",
+    "parent": null,
+    "name": {
+      "zh": "第 61 轻型坦克旅（近卫第 30 坦克旅）",
+      "orig": "61-я легкотанковая бригада (30-я гв. тбр)",
+      "short": "61 ТБр"
+    },
+    "active": {
+      "from": "1942-11-01T12:00",
+      "to": "1943-01-18T23:59"
+    },
+    "track": [
+      {
+        "at": "1942-11-01T12:00",
+        "pos": "@vsevolozhsk",
+        "status": "active",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1943-01-14T08:00",
+        "pos": "@marino",
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1943-01-18T12:00",
+        "pos": "@shlisselburg",
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      }
+    ],
+    "history": "本记录仅展示第61坦克旅在火花行动的轻装甲支援阶段；后续改称近卫番号，不把旧番号和同一装备延续到1944年一月。",
+    "sources": [
+      "mil_prlib_iskra",
+      "mil_cmh_decision_8",
+      "mil_cmh_defeat_12"
+    ],
+    "confidence": "medium",
+    "schematic": true,
+    "modelNote": "火花行动轻装甲支援，不使用T34模型冒充全旅具体车型。"
+  },
+  {
+    "id": "su.122tbr",
+    "side": "SU",
+    "echelon": "brigade",
+    "type": "armor",
+    "parent": null,
+    "name": {
+      "zh": "第 122 坦克旅",
+      "orig": "122-я танковая бригада",
+      "short": "122 ТБр"
+    },
+    "model": "t34",
+    "equipment": [
+      {
+        "id": "t34"
+      },
+      {
+        "id": "kv1"
+      }
+    ],
+    "active": {
+      "from": "1941-11-18T12:00",
+      "to": "1944-01-31T23:59"
+    },
+    "track": [
+      {
+        "at": "1941-11-18T12:00",
+        "pos": [
+          33.68,
+          59.65
+        ],
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1941-12-09T12:00",
+        "pos": "@tikhvin",
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1942-08-28T12:00",
+        "pos": "@gaytolovo",
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1943-01-12T10:00",
+        "pos": "@rabochiy_8",
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1944-01-14T12:00",
+        "pos": "@podberezye",
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1944-01-31T18:00",
+        "pos": [
+          30.6,
+          58.64
+        ],
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      }
+    ],
+    "history": "第122坦克旅参加1941年季赫温反攻，装甲力量与步兵、炮兵协同攻坚。后续调动按战役地段示意，不给未经同口径核定的坦克数量；1944年一月底也不把符号提前放到尚未解放的巴捷茨卡亚车站。",
+    "sources": [
+      "mil_prlib_iskra",
+      "mil_cmh_decision_8",
+      "mil_cmh_defeat_12"
+    ],
+    "confidence": "medium",
+    "schematic": true
+  },
+  {
+    "id": "su.f_nw",
+    "side": "SU",
+    "echelon": "front",
+    "type": "hq",
+    "parent": null,
+    "name": {
+      "zh": "西北方面军",
+      "orig": "西北方面军",
+      "short": "西北方面军"
+    },
+    "active": {
+      "from": "1941-06-22T00:00",
+      "to": "1941-08-31T23:59"
+    },
+    "track": [],
+    "sources": [
+      "mil_cmh_decision_2"
+    ],
+    "confidence": "medium",
+    "schematic": true,
+    "history": "战略序章的西北方面军，主要展示第8、第11、第27集团军的波罗的海撤退；该显示窗口结束不代表方面军当日撤销。"
+  },
+  {
+    "id": "su.f_n",
+    "side": "SU",
+    "echelon": "front",
+    "type": "hq",
+    "parent": null,
+    "name": {
+      "zh": "北方方面军",
+      "orig": "北方方面军",
+      "short": "北方方面军"
+    },
+    "active": {
+      "from": "1941-06-22T00:00",
+      "to": "1941-08-22T23:59"
+    },
+    "track": [],
+    "sources": [
+      "mil_cmh_decision_2",
+      "mil_fndu_2026"
+    ],
+    "confidence": "medium",
+    "schematic": true,
+    "history": "波波夫指挥的北方方面军负责列宁格勒与芬兰方向。八月分建列宁格勒和卡累利阿方面军后，该记录结束。"
+  },
+  {
+    "id": "su.11a",
+    "side": "SU",
+    "echelon": "army",
+    "type": "infantry",
+    "parent": null,
+    "name": {
+      "zh": "第11集团军",
+      "orig": "第11集团军",
+      "short": "第11集团军"
+    },
+    "active": {
+      "from": "1941-06-22T00:00",
+      "to": "1941-08-31T23:59"
+    },
+    "track": [
+      {
+        "at": "1941-06-22T00:00",
+        "pos": "@kaunas",
+        "status": "active"
+      },
+      {
+        "at": "1941-06-26T12:00",
+        "pos": [
+          26.0,
+          55.5
+        ],
+        "status": "withdrawing"
+      },
+      {
+        "at": "1941-07-09T12:00",
+        "pos": [
+          29.0,
+          57.9
+        ],
+        "status": "withdrawing"
+      },
+      {
+        "at": "1941-07-14T12:00",
+        "pos": "@soltsy",
+        "status": "engaged"
+      },
+      {
+        "at": "1941-08-24T12:00",
+        "pos": "@staraya_russa",
+        "status": "engaged"
+      }
+    ],
+    "sources": [
+      "mil_cmh_decision_2",
+      "mil_soltsy_city"
+    ],
+    "confidence": "medium",
+    "schematic": true,
+    "history": "以战役级研究和地图概括作战地段。活动起止是本战役的显示窗口，坐标为战役示意，并非逐日司令部驻地。"
+  },
+  {
+    "id": "su.27a",
+    "side": "SU",
+    "echelon": "army",
+    "type": "infantry",
+    "parent": null,
+    "name": {
+      "zh": "第27集团军",
+      "orig": "第27集团军",
+      "short": "第27集团军"
+    },
+    "active": {
+      "from": "1941-06-22T00:00",
+      "to": "1941-08-31T23:59"
+    },
+    "track": [
+      {
+        "at": "1941-06-22T00:00",
+        "pos": [
+          24.3,
+          57.0
+        ],
+        "status": "reserve"
+      },
+      {
+        "at": "1941-06-29T12:00",
+        "pos": [
+          27.6,
+          56.3
+        ],
+        "status": "engaged"
+      },
+      {
+        "at": "1941-07-15T12:00",
+        "pos": [
+          29.2,
+          57.1
+        ],
+        "status": "withdrawing"
+      },
+      {
+        "at": "1941-08-24T12:00",
+        "pos": [
+          31.2,
+          57.8
+        ],
+        "status": "engaged"
+      }
+    ],
+    "sources": [
+      "mil_cmh_atlas_1941"
+    ],
+    "confidence": "medium",
+    "schematic": true,
+    "history": "以战役级研究和地图概括作战地段。活动起止是本战役的显示窗口，坐标为战役示意，并非逐日司令部驻地。"
+  },
+  {
+    "id": "su.10sk",
+    "side": "SU",
+    "echelon": "corps",
+    "type": "infantry",
+    "parent": null,
+    "name": {
+      "zh": "第10步兵军（塔林方向）",
+      "orig": "第10步兵军（塔林方向）",
+      "short": "第10步兵军（塔林方向）"
+    },
+    "active": {
+      "from": "1941-06-22T00:00",
+      "to": "1941-08-30T23:59"
+    },
+    "track": [
+      {
+        "at": "1941-06-22T00:00",
+        "pos": [
+          21.55,
+          55.95
+        ],
+        "status": "active"
+      },
+      {
+        "at": "1941-07-20T12:00",
+        "pos": [
+          24.7,
+          58.5
+        ],
+        "status": "withdrawing"
+      },
+      {
+        "at": "1941-08-27T12:00",
+        "pos": "@tallinn",
+        "status": "engaged"
+      },
+      {
+        "at": "1941-08-28T12:00",
+        "pos": "@tallinn",
+        "status": "withdrawing",
+        "movement": "sea",
+        "note": "塔林海上撤离阶段，图标仅代表搭舰撤出的有关陆军人员。"
+      },
+      {
+        "at": "1941-08-29T12:00",
+        "pos": "@kronstadt",
+        "status": "evacuated",
+        "note": "塔林守军一部由海路撤往喀琅施塔得，非所有陆军人员均成功撤离。",
+        "movement": "land"
+      }
+    ],
+    "sources": [
+      "mil_naval_tallinn"
+    ],
+    "confidence": "medium",
+    "schematic": true,
+    "history": "第10步兵军有关部队参与波罗的海撤退和塔林防御。1941年8月部分守军随舰船撤出，另有部队未能登船；本图的海运轨迹只概括成功撤出的有关人员，不能解读为全军完整保存。"
+  },
+  {
+    "id": "su.og_luga",
+    "side": "SU",
+    "echelon": "group",
+    "type": "infantry",
+    "parent": null,
+    "name": {
+      "zh": "卢加战役集群",
+      "orig": "卢加战役集群",
+      "short": "卢加战役集群"
+    },
+    "active": {
+      "from": "1941-07-10T00:00",
+      "to": "1941-09-15T23:59"
+    },
+    "track": [
+      {
+        "at": "1941-07-10T12:00",
+        "pos": "@luga",
+        "status": "engaged"
+      },
+      {
+        "at": "1941-08-08T12:00",
+        "pos": "@luga",
+        "status": "engaged"
+      },
+      {
+        "at": "1941-08-24T12:00",
+        "pos": "@mshinskaya",
+        "status": "withdrawing"
+      },
+      {
+        "at": "1941-09-15T12:00",
+        "pos": [
+          29.9,
+          59.3
+        ],
+        "status": "ineffective",
+        "note": "包围中的部队分批突围、失散和被俘，不能把整个集群视为同日整体投降。"
+      }
+    ],
+    "sources": [
+      "mil_luga_museum",
+      "mil_luga_archive"
+    ],
+    "confidence": "medium",
+    "schematic": true,
+    "history": "以战役级研究和地图概括作战地段。活动起止是本战役的显示窗口，坐标为战役示意，并非逐日司令部驻地。"
+  },
+  {
+    "id": "su.neva_group",
+    "side": "SU",
+    "echelon": "group",
+    "type": "infantry",
+    "parent": "su.f_len",
+    "name": {
+      "zh": "涅瓦战役集群（第67集团军前身）",
+      "orig": "涅瓦战役集群（第67集团军前身）",
+      "short": "涅瓦战役集群（第67集团军前身）"
+    },
+    "active": {
+      "from": "1941-09-10T00:00",
+      "to": "1942-10-09T23:59"
+    },
+    "track": [
+      {
+        "at": "1941-09-10T12:00",
+        "pos": "@nevskaya_dubrovka",
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1941-09-20T04:00",
+        "pos": "@nevsky_pyatachok",
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1942-04-28T12:00",
+        "pos": "@nevskaya_dubrovka",
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      }
+    ],
+    "sources": [
+      "mil_prlib_iskra",
+      "mil_cmh_decision_20"
+    ],
+    "confidence": "medium",
+    "schematic": true,
+    "history": "守备涅瓦河右岸并组织桥头堡作战的前身指挥机构；1942年10月才改编为第67集团军。为避免番号倒置，前身与后继分别记录。"
+  },
+  {
+    "id": "su.2sh_rebuilt",
+    "side": "SU",
+    "echelon": "army",
+    "type": "infantry",
+    "parent": null,
+    "name": {
+      "zh": "第2突击集团军（1942年重建）",
+      "orig": "第2突击集团军（1942年重建）",
+      "short": "第2突击集团军（1942年重建）"
+    },
+    "active": {
+      "from": "1942-07-15T00:00",
+      "to": "1944-01-31T23:59"
+    },
+    "track": [
+      {
+        "at": "1942-07-15T12:00",
+        "pos": [
+          31.6,
+          59.9
+        ],
+        "status": "reserve",
+        "note": "七月重建；与六月覆灭阶段分开记录。"
+      },
+      {
+        "at": "1942-09-05T12:00",
+        "pos": "@gaytolovo",
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1943-01-12T09:30",
+        "pos": "@lipka",
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1943-01-18T09:30",
+        "pos": "@rabochiy_5",
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1943-11-20T12:00",
+        "pos": "@oranienbaum",
+        "status": "active",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1944-01-14T09:35",
+        "pos": "@gostilitsy",
+        "status": "engaged",
+        "note": "09:35开始炮火准备；步兵进攻与战线突破不是同一时刻。"
+      },
+      {
+        "at": "1944-01-19T16:00",
+        "pos": "@ropsha",
+        "status": "engaged",
+        "note": "罗普沙解放；两军在俄国维索茨科耶附近会合。"
+      },
+      {
+        "at": "1944-01-31T18:00",
+        "pos": [
+          28.78,
+          59.4
+        ],
+        "status": "engaged",
+        "note": "在金吉谢普东面接近地作战；该城于2月1日才解放，已经超出本战役终点。"
+      }
+    ],
+    "sources": [
+      "mil_secondshock_rebuild",
+      "mil_cmh_decision_20",
+      "mil_prlib_iskra",
+      "mil_naval_1944"
+    ],
+    "confidence": "medium",
+    "schematic": true,
+    "history": "1942年7月恢复机关和部队。秋季参加锡尼亚维诺攻势，1943年罗曼诺夫斯基指挥火花行动；1943年末至1944年初由费久宁斯基指挥，经分批海运集结奥拉宁鲍姆。番号延续不等于旧部队和指挥机关完整幸存。",
+    "commander": {
+      "zh": "历任：克雷科夫、罗曼诺夫斯基；1944年1月费久宁斯基",
+      "orig": "Klykov / Romanovsky / Fedyuninsky"
+    }
+  }
+]

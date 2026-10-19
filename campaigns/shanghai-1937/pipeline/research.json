@@ -1,0 +1,283 @@
+{
+  "campaign": "shanghai-1937",
+  "researchVersion": 1,
+  "language": "zh-CN",
+  "accessedOn": "2026-10-18",
+  "status": "research_complete_with_explicit_uncertainties",
+  "method": {
+    "discovery": "AnySearch中英日聚焦批量检索；学术检索先发现academic子域后使用academic.search。",
+    "reading": "下列sourceReadings逐条声明实际读取范围；网页全文不等于读过其引用的整本书，档案目录摘要不等于读过扫描原件。",
+    "evidencePolicy": "关键转折尽量以不同编写机构材料互证；转载同一原文不计作独立双源。精确日期、分钟、兵力与损失不从搜索片段补造。",
+    "coordinatePolicy": "研究只给历史地名识别与方位约束；地图坐标由cartographer核查，部队轨迹表示作战地域而非实测指挥所位置。",
+    "copyrightPolicy": "下列短引文仅用于证据定位；史料网页可读取不代表照片可自由复制。"
+  },
+  "contract": {
+    "recommendedStart": "1937-08-13T09:00",
+    "recommendedEnd": "1937-11-12T23:59",
+    "recommendedDataEnd": "1937-11-12T23:59",
+    "startClockMeaning": "09:00为播放窗口的编排起点，不宣称为开战第一枪的确切分钟。",
+    "scope": "1937年八一三上海市区、北郊与杭州湾登陆及西撤阶段；不包含1932年一二八战事、11月中下旬苏州无锡追击战、南京保卫战和南京大屠杀统计。",
+    "endRationale": "纪念馆概述与冯明铭学术研究均明确11月12日日军占领上海；11月26日口径把苏锡、太湖沿岸退却等后续追击纳入更宽的京沪作战。这里采用上海会战的狭义地域和日期。上海失守不等于当日占领公共租界和法租界。",
+    "scopeSources": ["nmm_shanghai_overview", "feng_command_2021", "sanlian_chronology_2005"],
+    "uiCoalitions": "JP=axis、CN=allies只是引擎色系/筛选类别，不得称1937年中日已分别加入后来缔结的二战战时同盟。",
+    "recommendedPhases": [
+      {"from": "1937-08-13", "until": "1937-08-22", "name": "市区争夺", "meaning": "第87、88师及陆续抵达的36师围攻虹口、杨树浦日海军陆战队据点。", "sources": ["nmm_shanghai_overview", "division88_review_2018"]},
+      {"from": "1937-08-23", "until": "1937-09-11", "name": "沿江登陆与北郊激战", "meaning": "第3、第11师团登陆，战事转向宝山、罗店、吴淞。", "sources": ["sanlian_chronology_2005", "shanghai_sites_2017", "xinhua_yao_2018"]},
+      {"from": "1937-09-12", "until": "1937-10-25", "name": "蕰藻浜与大场防线", "meaning": "中国军队收缩阵地，日军持续增援；10月跨河进攻与中国军队反击。阶段边界为叙事分段，不是全线同时转移。", "sources": ["sanlian_chronology_2005", "feng_command_2021"]},
+      {"from": "1937-10-26", "until": "1937-11-04", "name": "苏州河与四行孤军", "meaning": "大场失守后撤出闸北，四行分队坚守并撤入租界，主力在苏州河一线继续抵抗。", "sources": ["sihang_museum_2024", "frus_gauss_19371030", "sanlian_chronology_2005"]},
+      {"from": "1937-11-05", "until": "1937-11-12", "name": "杭州湾登陆与西撤", "meaning": "第10军自南侧迂回，松江方向威胁迫使主力西撤，上海华界失守。", "sources": ["jacar_hangzhou_landing", "nmm_shanghai_overview", "feng_command_2021"]}
+    ],
+    "runtimeConstraints": [
+      "所有增援或分队均显式active.from；无此字段时引擎可能把首轨迹点回溯显示。",
+      "第3、第11师团的上海登陆棋子不得在8月23日前出现在陆上；可在8月23日开始后以日精度显示。",
+      "第10军成立与登陆是不同日期：10月20日成立，11月5日开始登陆。若棋子代表在华参战地域，active.from从11月5日开始；不要10月20日放在金山卫岸上。",
+      "第6、第18、第114师团及国崎支队不得在11月5日前出现在金山卫或上海南侧陆上。",
+      "华中方面军11月7日才成立；此前上海派遣军与第10军平级，第10军不隶属上海派遣军。静态parent无法表达变更时保持两军平级，并在卡片说明11月7日以后的关系。",
+      "四行守备分队是10月26日深夜至27日进驻的独立叙事棋子，不得在8月13日就出现在仓库；终态为interned，不是向日军surrendered或destroyed。",
+      "第16师团11月13日白茆口登陆在本战役截止之后，不列入已登陆作战棋子。",
+      "登陆和控制区突变在下一关键帧使用transition=step，避免11月5日前场插值已把金山卫染为日军占领。",
+      "四行分队退入公共租界不表示整个88师停止作战；不可把母师同步interned。",
+      "宝山县城在9月7日日级失守显示边界前须在生产SDF中仍非日军控制；只改文字、保留提前染色不算满足史实约束。",
+      "四行10月31日11:59仓库hold仅阻止跨日插值漂移，12:00为日级状态编排，不是史实实钟或已核过桥路线；生产单位插值仍有最后一分钟的显示过渡，不能声称引擎级瞬时step。",
+      "孤立守备点end为inclusive；宝山9月7日、四行10月31日的11:59是最后仍守备显示哨点，非史实钟点。12:00单位已destroyed或interned时不得仍列活跃或显示被围天数，应转终态标签。",
+      "后续位置未核的部队用active.to截断显示，不据此推断停战、撤退或覆灭；无可核定位的集团军容器不保留冻结的作战棋子。",
+      "北川沙和狮子林的地名锚点不为现代概化陆地掩膜移动；邻近陆上作战显示点必须与历史地名锚点区分，且公开为地域示意，不冒充1937原滩或实测阵地。"
+    ]
+  },
+  "sourceReadings": [
+    {
+      "id": "nmm_shanghai_overview", "scope": "AnySearch提取网页正文全文；未读其所引专著原页。", "kind": "museum_synthesis", "independence": "部分引四行仓库馆，与sihang_museum_2024不完全独立。",
+      "excerpt": "11月12日，上海沦陷，淞沪会战结束。", "supports": ["8月9日虹桥机场事件", "8月13日开战", "第87、88师先期部署", "11月5日登陆", "11月12日终点"],
+      "cautions": ["文中9时30分与另一些纪年9时15分不一，不能确定第一枪分钟。", "不采用三个月灭亡中国作为已核实的日方原始命令引文。"]
+    },
+    {
+      "id": "sihang_museum_2024", "scope": "2024年10月31日网页正文全文。", "kind": "museum_synthesis", "excerpt": "第88师262旅524团第一营420余名官兵，在中校团附谢晋元的率领下。",
+      "supports": ["谢晋元职务", "杨瑞符为第一营营长", "420余人与八百称号", "10月26日深夜进驻", "该馆采用10月31日凌晨撤离"],
+      "cautions": ["毙伤日军200余人是中方纪念叙述，未获独立战损表互证，不作为客观精确损失。", "10月31日凌晨与11月1日凌晨的其他叙述存在一天分歧，保留争议。"]
+    },
+    {
+      "id": "feng_command_2021", "scope": "博物馆转载的《民国档案》2021年第4期论文正文全文；网页注明注释从略，未读纸刊注释。", "kind": "academic_article_reprint", "excerpt": "第十军与上海派遣军级别相等。",
+      "supports": ["第10军序列与10月20日命令", "两军平级", "11月7日华中方面军", "11月12日占领上海", "后续制令线与南京追击属于另一决策阶段"],
+      "cautions": ["文中称8月10日下达编组派遣军命令，而其他资料以8月15日正式编成为准，须区分筹议/命令/成军。", "日军28万和伤亡4万余的概数不能外推出精确死伤拆分。"]
+    },
+    {
+      "id": "jacar_hangzhou_landing", "scope": "JACAR目录元数据及内容摘要已提取；未读取该档4帧扫描图。", "kind": "official_archive_catalogue", "reference": "C11110440100", "created": "1943-05-24", "excerpt": "自昭和十二年十一月五日(上陸開始ノ日)至昭和十二年十一月十九日。",
+      "supports": ["11月5日开始登陆", "10月20日下第10军战斗序列", "第6、18、114师团和国崎支队（步兵第9旅团）", "第四舰队、第三飞行团一部协力"],
+      "cautions": ["为1943年参谋本部编史摘要，不是1937年当天原始电报。", "目录表项约十一万四千位于直接交战敌兵力判定栏，不得误当日军第10军准确人数。", "摘要中第十章可能为OCR识别错误，不据此改番号。"]
+    },
+    {
+      "id": "sanlian_chronology_2005", "scope": "2005年《三联生活周刊》第15期龙灿文的2023年转载正文全文。", "kind": "secondary_chronology", "excerpt": "11月5日，晨，日军第10军……以第6、18、114师团及国琦支队为骨干。",
+      "supports": ["沿江登陆与罗店/蕰藻浜/大场行动的日级索引", "8月14日条明确记我空军炸弹误落大世界，仅采用这一窄项而非其外滩日军炮弹说", "11月8日下转移命令、9日后西撤", "11月中下旬苏锡后续阶段的范围差异"],
+      "aug14Excerpt": "我空军炸弹误落大世界",
+      "aug14UseLimit": "仅采用该责任/地点窄项，具体伤亡数字及同段外滩日军炮弹归因未采用。",
+      "cautions": ["把谢晋元写为团长、宝山陷落写9月5日，与更可靠资料矛盾。", "8月14日外滩爆炸归因、出云受创、舰船击沉、每次击毙数字等不予采用。", "不可把所有日期与战果当已核实官史；仅为检索/交叉索引。"]
+    },
+    {
+      "id": "shanghai_sites_2017", "scope": "2017年上观新闻35地标转载正文全文。", "kind": "heritage_geography_overview", "excerpt": "上海南站……位于今黄浦区中山南路南车站路，非现在的上海南站所在地。",
+      "supports": ["老南站/宝山县城/四行/大世界/海军陆战队司令部识别", "8月14日外滩华懋/汇中饭店与大世界落弹地点，外滩两弹原目标为出云的次级记述", "罗店交通地位", "川沙口为北部小川沙方向", "11月9日南市难民区"],
+      "aug14Excerpt": "两枚炸弹在外滩上空落下，原本它们的目标是黄浦江上的日军“出云舰”",
+      "aug14UseLimit": "该文不是逐弹归属调查；大世界段另叙坠弹惨案，不独立证明各枚炸弹或投弹人员的身份。",
+      "cautions": ["兼写1932与1937，不得把十九路军1932行动放入1937。", "同篇四行条写10月31日、孤军营条写11月1日凌晨，不能当独立的精确时间互证。", "地方暴行及空袭伤亡概数不并入双方军队伤亡表。"]
+    },
+    {
+      "id": "frus_gauss_19371004", "scope": "FRUS 1937第III卷第640号电报全文，1937年10月4日15时上海发。", "kind": "contemporary_diplomatic_dispatch", "excerpt": "a possible duplication [of] the sequence of what is known as bloody Saturday August 14th, if one of the bomb-laden Chinese planes should be hit and crash or drop its bombs",
+      "supports": ["10月4日电报回指8月14日血腥星期六，并警告载弹中国飞机被击中或投弹可能再次危及人口稠密中立区", "租界内外战区相嵌", "飞机与高射炮使非战斗人员面临风险的外交观察"],
+      "evidenceRole": "contextual_retrospective_risk_not_direct_attribution",
+      "cautions": ["关于中国载弹机被击中或投弹的语句是再发风险的假设，不是直接确认8月14日外滩或大世界误弹责任、逐弹归属及弹着地点。", "Gauss对两军、外国飞行员与中国战略的判断有外交观察立场，不把传闻或推测写成客观定论。", "本电报没有8月14日精确伤亡统计。"]
+    },
+    {
+      "id": "frus_gauss_19371030", "scope": "FRUS 1937第IV卷第444号电报全文，1937年10月30日16时上海发。", "kind": "contemporary_diplomatic_dispatch", "excerpt": "since the Chinese withdrawal from Chapei to the south bank of Soochow Creek",
+      "supports": ["10月30日前闸北主力已退到苏州河南岸", "西区居民受到炮火威胁", "外国防线对城市战空间的影响"],
+      "cautions": ["电报未点名四行仓库，不可用于证明四行分队撤离的具体日/时。", "炮弹来源电报自己称未明确，只作危险背景。"]
+    },
+    {
+      "id": "xinhua_yao_2018", "scope": "新华社李雄鹰2018年10月27日传记全文。", "kind": "official_news_biography", "excerpt": "至9月7日早晨……宝山县城陷落。",
+      "supports": ["姚子青为第18军98师292旅583团第3营营长", "9月7日阵亡、宝山县城失守"],
+      "cautions": ["敌方伤亡数字为纪念性战果叙述，未另核；不用作损失表。", "不能把一个营最终损失等同整个98师覆灭。"]
+    },
+    {
+      "id": "yang_shenbao_2017", "scope": "华东师大转载文汇报杨建党文章正文全文；所引1937年《申报》原件未逐版读取。", "kind": "academic_press_history", "excerpt": "中国军队51师在上海北郊的罗店……师长王耀武。",
+      "supports": ["51师/王耀武罗店代表性行动", "上海民众募捐和救济", "四行战事的传播与动员"],
+      "cautions": ["所引当时报纸把谢称团长、守军称八百，反映宣传口径不是真实编制人数。", "当时报纸毙敌、将领阵亡消息不可直接复制为日军战损事实。"]
+    },
+    {
+      "id": "cacw_jianqiao", "scope": "中国飞虎研究学会筧桥空战专题全文；不是飞虎队1937年参战证明。", "kind": "aviation_history_association", "excerpt": "第四大隊……高志航……霍克三型飛機。",
+      "supports": ["8月14日筧桥中国空军第四大队迎战日本海军鹿屋航空队", "日本海陆军各自航空兵而无独立日本空军", "战果口径区分击落、迫降损毁和宣称"],
+      "cautions": ["标题16时与正文18时30分冲突，不采分钟或6比0宣传数字。", "全国飞机总量不等于上海战区同时投入数量。", "杭州筧桥不在上海市中心，地图超界时只叙述关联空战不强放棋子。"]
+    },
+    {
+      "id": "nanjing_oob_review_2015", "scope": "南京党史网周金榜文章全文，使用仅限1937年部队主官对照。", "kind": "official_website_secondary_review", "excerpt": "第6师团……谷寿夫中将。",
+      "supports": ["谷寿夫/牛岛贞雄/末松茂治的第10军所属师团主官对照", "11月7日华中方面军编成"],
+      "cautions": ["多处姓名错字、11月4日18师团登陆和11月7日3师团占上海等与其他来源矛盾；不采这些日期。", "后期南京数字、1945年结局与政治判断不进入本战役。", "第101师团长该文误作伊东政善，依日文编制表为伊东政喜。"]
+    },
+    {
+      "id": "division88_review_2018", "scope": "铁血网文章经抗日战争纪念网转载全文，非官史。", "kind": "low_authority_secondary_review", "excerpt": "师长孙元良……第524团韩宪元。",
+      "supports": ["第36师宋希濂、87师王敬久、88师孙元良的对照", "36师8月中下旬到沪后投入汇山码头攻击", "88师与四行分队不是同一状态"],
+      "cautions": ["将突贯战术等同闪击战、宣称寸土未失等不采用。", "伤亡数字、装备表和逐分钟行动均未独立核实。", "以该页单源精确确定9月军长升任或师长交接日期不可靠。"]
+    },
+    {
+      "id": "japanese_oob_tables", "scope": "已提取并读取第3、第11、第101师团表网页全文；读到网页转录的联队史短段及JACAR链接，未读它所引整本联队史/《南京戦史資料集》。", "kind": "document_transcription_compilation",
+      "urlsRead": ["http://kk-nanking.main.jp/sougou/sosikizu/D003.htm", "http://kk-nanking.main.jp/sougou/sosikizu/D011.htm", "http://kk-nanking.main.jp/sougou/sosikizu/D101.htm"],
+      "excerpt": "第１１師団（善通寺） 山室宗武中将。",
+      "supports": ["藤田进为第3师团长", "山室宗武为第11师团长", "伊东政喜为第101师团长", "天谷直次郎为第10旅团长、师团非所有部队同日到达"],
+      "cautions": ["表的顶部会并列12月南京阶段番号，不能据此令第16师团在8月出现。", "应急动员编成日期不等于海上登陆日期；一师常分梯队续到。"]
+    },
+    {
+      "id": "wu_sihang_2015", "scope": "吴基民解放日报2015年6月9日文章在人民网转载全文。", "kind": "secondary_narrative", "excerpt": "于是他下令部队于10月31日撤离仓库。",
+      "supports": ["10月31日撤离口径的另一记述", "进入租界后被解除武装并羁留", "实际人数414与420余不同口径"],
+      "cautions": ["谢职务写副团长、敌军写第三师团、文末番号误写542，不能全盘照录。", "精确毙敌、坦克击毁等未作事实采用。", "不以其1941年谢遇害/孤军营后续设1937终态。"]
+    },
+    {
+      "id": "shanghai_archive_sihang", "scope": "上海档案信息网黎霞文章的转载全文与图注；原始照片底片及原站未读取。", "kind": "archive_website_reprint", "excerpt": "10月31日凌晨部队撤出四行仓库，进入公共租界。",
+      "supports": ["10月31日撤离口径", "进入租界被缴械而非向日军投降", "地理方位与照片候选索引"],
+      "cautions": ["该文写杨瑞符战死是明显错误，不采；照片也未因此自动获得公开许可。", "谢晋元仍写团长，依纪念馆团附订正。"]
+    },
+    {
+      "id": "commons_shanghai_gallery", "scope": "Battle of Shanghai图库页面全文已读；候选文件页与原馆藏核权交由team-lead，不在此宣称已核。", "kind": "media_discovery_index", "excerpt": "Japanese landing at Jinshanwei",
+      "supports": ["找到实际存在的照片文件页链接"], "cautions": ["图库图注不是充分地点、日期或版权证明。"]
+    }
+  ],
+  "timeline": [
+    {"id": "oyama_incident", "date": "1937-08-09", "precision": "day", "claim": "日本海军大山勇夫与同行水兵在虹桥机场附近与中国警卫发生冲突后死亡，日方继而要求撤退保安队、拆工事，成为开战前危机节点。", "confidence": "high", "sources": ["nmm_shanghai_overview", "shanghai_sites_2017"], "caution": "责任动机、是否有预谋侦察及现场先开枪等叙述存在立场差异；不把自导自演等判断当已重建的现场事实。该事是背景，不把战役播放起点移至8月9日。"},
+    {"id": "opening", "date": "1937-08-13", "precision": "day", "claim": "上海闸北、虹口接触线冲突扩大为会战；87、88师与日海军陆战队展开战斗。", "confidence": "high", "sources": ["nmm_shanghai_overview", "yang_shenbao_2017"], "caution": "09:15、09:30等纪年不一；用日精度，不把09:00编排值叙述为精确开火时刻。"},
+    {"id": "air_and_city_bombing", "date": "1937-08-14", "precision": "day", "claim": "外滩饭店附近与大世界先后发生落弹惨案；地标文记外滩两弹原目标为日舰出云，三联明确记中国空军炸弹误落大世界。杭州筧桥另有第四大队迎击日本海军航空兵。", "confidence": "medium", "sources": ["shanghai_sites_2017", "sanlian_chronology_2005", "frus_gauss_19371004", "cacw_jianqiao"], "sourceRoles": {"shanghai_sites_2017": "落弹地点及外滩炸弹原目标出云的次级记述，不是逐弹归属原始调查", "sanlian_chronology_2005": "仅采用中国机弹误落大世界句；不采其外滩日军炮弹归因及伤亡数字", "frus_gauss_19371004": "10月4日回顾血腥星期六并讨论再发风险，不独立确认8月14日责任或弹着点", "cacw_jianqiao": "仅支持杭州筧桥关联空战，非上海误弹归因"}, "caution": "不将两地点的责任简单合并，也不把当日全部死亡归日军。FRUS此电报是语境性回指而非误弹调查；不把筧桥战果称上海上空6比0。死亡、受伤、合计与地点分项未统一，不填唯一精确数字。"},
+    {"id": "city_assault", "dateFrom": "1937-08-14", "dateTo": "1937-08-22", "precision": "day", "claim": "中国军队攻击虹口陆战队司令部和杨树浦据点，36师增援后参加汇山码头攻势，但未能摧毁日军据点与海上补给。", "confidence": "medium", "sources": ["division88_review_2018", "shanghai_sites_2017", "sanlian_chronology_2005"], "caution": "36师到达8月16日、19日投入、21日汇山攻击是不同节点，不可统称13日已参战。"},
+    {"id": "river_landings", "date": "1937-08-23", "precision": "day", "claim": "上海派遣军第3、第11师团在沿江吴淞及川沙口、狮子林方向登陆，战事由市区围攻转向北部登陆场及罗店交通线。", "confidence": "high", "sources": ["sanlian_chronology_2005", "shanghai_sites_2017", "feng_command_2021"], "caution": "第3师团吴淞、第11师团川沙口/狮子林为地域级识别，实际各梯队分批续到，不设某分钟全师同时落地。"},
+    {"id": "luodian", "dateFrom": "1937-08-23", "dateTo": "1937-09-30", "precision": "day", "claim": "罗店及周边反复争夺，中国第11、98师等抵抗沿江登陆部队，后有51师等继续作战；其交通位置联系嘉定、刘行和南翔。", "confidence": "medium", "sources": ["shanghai_sites_2017", "sanlian_chronology_2005", "yang_shenbao_2017"], "caution": "不能用单一夺占日期呈现整月永久稳定控制；兵员损耗不凭血肉磨坊修辞倒算。"},
+    {"id": "south_station", "date": "1937-08-28", "precision": "day", "claim": "日军轰炸旧上海南站及南市，等待疏散的平民遭受严重伤亡，王小亭照片使灾难受到国际关注。", "confidence": "high", "sources": ["shanghai_sites_2017", "sanlian_chronology_2005"], "caution": "资料300余死伤与700余死亡等口径悬殊，本战役不选唯一数字；照片采用另核许可，不以著名照片自动公有领域。"},
+    {"id": "baoshan", "date": "1937-09-07", "precision": "day", "claim": "姚子青率98师583团第3营坚守宝山县城，最后阶段大部官兵阵亡，县城失守。", "confidence": "high", "sources": ["xinhua_yao_2018"], "caution": "大事记9月5日误日排除；新华稿也明确有已送后方伤员，勿称无一生还或98师全歼。"},
+    {"id": "northern_reorganization", "dateFrom": "1937-09-11", "dateTo": "1937-09-17", "precision": "day", "claim": "中国军队收缩至蕰藻浜、庙行、江湾、北站等据点线，日军继续增派第9、第13、第101师团等。", "confidence": "medium", "sources": ["sanlian_chronology_2005", "feng_command_2021"], "caution": "编成/派遣命令不等于登陆或投入日期；后增师团不能8月就在陆上出现。"},
+    {"id": "wenzaobang", "dateFrom": "1937-10-01", "dateTo": "1937-10-15", "precision": "day", "claim": "日军由罗店、刘行方向推进并争渡蕰藻浜，中国军队及税警部队在河岸反复阻击与反击，大场受到压力。", "confidence": "medium", "sources": ["sanlian_chronology_2005", "division88_review_2018"], "caution": "不同河段先后作战，不能把10月1、6、7日等某一日称整条河全线失守。"},
+    {"id": "guangxi_counterattack", "dateFrom": "1937-10-21", "dateTo": "1937-10-23", "precision": "day", "claim": "中国第21集团军等在蕰藻浜—大场方向反击，未能逆转日军火力与后续攻势造成的战局。", "confidence": "medium", "sources": ["sanlian_chronology_2005"], "caution": "只有可读次级编年支持本组具体日，置信度中；不填写未双核的全军人数与师级损失。"},
+    {"id": "dachang_falls", "date": "1937-10-26", "precision": "day", "claim": "大场失守使闸北、江湾守军侧后暴露，中国军队撤向苏州河以南及沪西。", "confidence": "high", "sources": ["sihang_museum_2024", "shanghai_sites_2017", "frus_gauss_19371030"], "caution": "少数叙述为25日晚至26日；本战役用26日日精度。Gauss只独立确认30日前撤退已发生，不证实26日分钟。"},
+    {"id": "sihang_defense", "dateFrom": "1937-10-26", "dateTo": "1937-10-31", "precision": "day", "claim": "26日深夜至27日，88师262旅524团第一营进入四行仓库，由团附谢晋元与营长杨瑞符指挥。实际约四百余人，对外称八百。", "confidence": "high", "sources": ["sihang_museum_2024", "wu_sihang_2015", "yang_shenbao_2017"], "caution": "不写谢为当时524团团长；不把88师全师、524团全团或电影角色/情节当守军。"},
+    {"id": "sihang_flag", "date": "1937-10-29", "precision": "day", "claim": "四行仓库楼顶升起国旗，租界一侧市民观战、捐物和传递消息，战斗具有强烈的公共传播与外交象征性。", "confidence": "high", "sources": ["sihang_museum_2024", "yang_shenbao_2017"], "caution": "杨惠敏送旗路线存在泅河、爬障碍等不同叙述，不设一条确证游泳路线。"},
+    {"id": "sihang_withdrawal", "dateWindowFrom": "1937-10-31", "dateWindowTo": "1937-11-01", "precision": "day", "claim": "四行守军奉命撤入公共租界后被解除武装、羁留，并非被日军歼灭或向日军投降。", "confidence": "high", "sources": ["sihang_museum_2024", "wu_sihang_2015", "shanghai_archive_sihang", "shanghai_sites_2017"], "caution": "馆文采用10月31日凌晨；另有10月31日夜至11月1日凌晨说。精确夜间日期置信度中，分钟低；可用10月31日日精度代表状态转变并在正文列明另一口径，不宣称唯一无争议日期。"},
+    {"id": "suzhou_creek_fighting", "dateFrom": "1937-10-31", "dateTo": "1937-11-04", "precision": "day", "claim": "日军继续争渡苏州河，中国军队在南岸抵抗；四行分队撤离并不表示会战当时已结束。", "confidence": "medium", "sources": ["sanlian_chronology_2005", "frus_gauss_19371030"], "caution": "不同渡河点战斗日期不一，避免唯一精确全线渡河时刻。"},
+    {"id": "hangzhou_bay_landing", "date": "1937-11-05", "precision": "day", "claim": "柳川平助第10军以第6、第18、第114师团及国崎支队在杭州湾北岸金山卫及其东西地区开始登陆，威胁上海守军南侧后方。", "confidence": "high", "sources": ["jacar_hangzhou_landing", "nmm_shanghai_overview", "sanlian_chronology_2005"], "caution": "11月4日单一网页记载与档案摘要不符，采用11月5日。漕泾、全公亭、金丝娘桥为地域名，不把未经核实的每师滩头精确分配当事实。"},
+    {"id": "central_china_army", "date": "1937-11-07", "precision": "day", "claim": "华中方面军成立，松井石根指挥，统辖上海派遣军与第10军，形式上整合原先平级的两军。", "confidence": "high", "sources": ["feng_command_2021", "nanjing_oob_review_2015"], "caution": "不倒置为8月已有方面军或第10军自成立就隶上海派遣军。"},
+    {"id": "songjiang_withdrawal", "dateFrom": "1937-11-08", "dateTo": "1937-11-12", "precision": "day", "claim": "日军由杭州湾趋近松江方向，第三战区下达转移命令，主力经青浦等地西撤；南市守军随后撤离，至12日上海华界失守。", "confidence": "high", "sources": ["nmm_shanghai_overview", "feng_command_2021", "sanlian_chronology_2005"], "caution": "8日命令与9日大部撤退不相矛盾；不能画成全军在同一时刻整齐退出，也不可把租界同时涂为日本占领。"}
+  ],
+  "orderOfBattle": {
+    "representation": "代表性作战地域的军/师级骨架与少数著名分队，不自称双方全量战斗序列。精确营团编制未证实者不扩写。司令官名称是相关阶段主官，阶段内更替不伪装成一人贯穿全役。",
+    "chineseCommands": [
+      {"name": "第三战区", "commanders": ["冯玉祥（前期）", "蒋介石（9月后兼任）"], "notes": "可简化为最高统帅蒋介石领导、战区长官前后调整；不要给前后主官错误的连续任期。", "sources": ["sanlian_chronology_2005"]},
+      {"name": "第9集团军", "commanders": ["张治中（前期）", "朱绍良（后期）"], "region": "虹口—杨树浦—闸北及北郊", "sources": ["sanlian_chronology_2005", "division88_review_2018"]},
+      {"name": "第8集团军", "commanders": ["张发奎"], "region": "浦东、苏州河以南及杭州湾警戒", "sources": ["sanlian_chronology_2005"]},
+      {"name": "第15集团军", "commanders": ["陈诚"], "region": "罗店、刘行、嘉定方向", "notBefore": "1937-08-22", "sources": ["sanlian_chronology_2005"]}
+    ],
+    "chineseParentageEvidence": [
+      {"children": ["第87师", "第88师", "第36师"], "parent": "第9集团军", "date": "1937-08-23", "relationship": "前期作战指挥", "excerpt": "第9集团军总司令张治中，派王敬久为淞沪前敌指挥官，指挥在虹口、杨树浦作战的第36师、87师、88师。", "confidence": "medium", "sources": ["sanlian_chronology_2005"], "limits": "此为所读次级编年明确列出的阶段性关系；静态树须注明后有调隶，不能代表全役不变。"},
+      {"children": ["第98师"], "parent": "第18军", "relationship": "编制归属", "confidence": "high", "sources": ["xinhua_yao_2018"], "limits": "姚子青传记明确列第18军98师292旅583团第3营，但不因此推出整个18军在全役均受15集团军指挥。"},
+      {"children": ["第98师", "第11师"], "parent": "第15集团军", "date": "1937-08-22", "relationship": "集团军成立时的作战指挥", "excerpt": "第15集团军成立，以陈诚为总司令，指挥早已到达的第98、11师及刚到嘉定的第67、14师。", "confidence": "medium", "sources": ["sanlian_chronology_2005"], "limits": "仅此篇次级编年明确支持；不能由98师个体所属反推18军整军→15集团军。第67师不等于第67军。"},
+      {"children": ["第11师", "第51师", "第18师"], "parent": null, "relationship": "未确定军级父级", "confidence": "unresolved", "sources": ["sanlian_chronology_2005", "yang_shenbao_2017"], "limits": "本轮可读正文不足以建立各师完整军级链。第11师可依8月22日条直接表示受15集团军指挥；51、18师可直挂第三战区并披露摘录未展开。不能按作战地域或未读常识补军级，第18师不等于第18军。"}
+    ],
+    "chineseRepresentativeUnits": [
+      {"name": "第87师", "commander": "王敬久（前期）", "arrival": {"by": "1937-08-12", "confidence": "high"}, "theatreFrom": "1937-08-13", "regions": ["江湾", "杨树浦", "吴淞", "蕰藻浜", "苏州河"], "notes": "前期围攻日军据点，登陆后抽兵抗击北部日军。后期师长有交接；不把前期师长写成全役无变化。", "confidence": "medium", "sources": ["nmm_shanghai_overview", "sanlian_chronology_2005", "division88_review_2018"]},
+      {"name": "第88师", "commander": "孙元良", "arrival": {"by": "1937-08-12", "confidence": "high"}, "theatreFrom": "1937-08-13", "regions": ["闸北", "八字桥", "北站", "苏州河南岸"], "notes": "四行只是其一支加强营；全师主力西撤后继续作战，不能全师终止为interned。", "confidence": "high", "sources": ["nmm_shanghai_overview", "sihang_museum_2024", "division88_review_2018"]},
+      {"name": "第36师", "commander": "宋希濂", "arrival": {"from": "1937-08-16", "to": "1937-08-19", "confidence": "medium"}, "theatreFromNotBefore": "1937-08-16", "regions": ["江湾", "汇山码头", "泗塘河", "苏州河"], "notes": "16日到达与19日投入、21日汇山攻势是不同节点。可从19日作为代表性上场日起点，且在卡片注明编排。", "confidence": "medium", "sources": ["sanlian_chronology_2005", "division88_review_2018"]},
+      {"name": "第98师", "commander": "夏楚中", "arrival": {"by": "1937-08-23", "confidence": "medium"}, "regions": ["狮子林", "月浦", "宝山", "罗店"], "notes": "到达的确切日时未双核；宝山营损失不等于全师损失。", "confidence": "medium", "sources": ["sanlian_chronology_2005", "xinhua_yao_2018"]},
+      {"name": "第11师", "commander": null, "arrival": {"by": "1937-08-23", "confidence": "medium"}, "regions": ["罗店", "川沙口"], "notes": "罗店反登陆的代表性师；本轮可读材料不足以精确界定该师主官更替，宁缺不编。", "confidence": "medium", "sources": ["sanlian_chronology_2005"]},
+      {"name": "第51师", "commander": "王耀武", "arrival": {"by": "1937-09-29", "confidence": "medium"}, "regions": ["罗店"], "notes": "杨建党引9月29、30日《申报》可证明该日前在罗店作战，不足确定最初到沪日。可使用9月下旬代表性上场，而不宣称这就是抵达日。", "confidence": "medium", "sources": ["yang_shenbao_2017"]},
+      {"name": "第18师", "commander": "朱耀华", "arrival": {"by": "1937-10-26", "confidence": "medium"}, "regions": ["大场", "庙行", "江湾"], "notes": "大场最后阶段代表；确切到沪日、兵力及主官后续命运不据单篇编年扩写。", "confidence": "medium", "sources": ["sanlian_chronology_2005"]},
+      {"name": "第21集团军所属桂军", "commander": null, "arrival": {"by": "1937-10-21", "confidence": "medium"}, "regions": ["蕰藻浜", "大场"], "notes": "可在集团军级叙述10月21日反击，不凭本轮材料把所有师数和伤亡补齐。", "confidence": "medium", "sources": ["sanlian_chronology_2005"]},
+      {"name": "第67军", "commander": null, "arrival": {"by": "1937-11-08", "confidence": "medium"}, "regions": ["松江"], "notes": "本轮仅确认松江阻击相关编年，不把吴克仁阵亡日期、指挥争议或全军覆灭写作已定论。", "confidence": "medium", "sources": ["sanlian_chronology_2005"]},
+      {"name": "第98师583团第3营（宝山守军）", "commander": "姚子青", "parent": "第98师", "theatreFromNotBefore": "1937-08-28", "terminal": {"date": "1937-09-07", "status": "destroyed", "meaning": "守城营作为战术单位瓦解；已后送伤员并非全部死亡。"}, "confidence": "high", "sources": ["xinhua_yao_2018"]},
+      {"name": "第88师262旅524团第一营（四行守备分队）", "commanders": ["谢晋元：中校团附，守备指挥", "杨瑞符：第一营营长"], "parent": "第88师", "theatreFromNotBefore": "1937-10-26T22:00", "suggestedDisplayFrom": "1937-10-27T00:00", "displayPrecision": "day", "strength": {"suggestedText": "四百余人，对外称八百", "museumAccount": "420余人", "otherAccount": "414人", "notExact": true}, "terminal": {"dateWindow": ["1937-10-31", "1937-11-01"], "status": "interned", "meaning": "撤入公共租界后缴械羁留，不是日军俘获、战死或全歼。"}, "confidence": "high", "sources": ["sihang_museum_2024", "wu_sihang_2015", "shanghai_sites_2017"]}
+    ],
+    "japaneseCommands": [
+      {"name": "上海海军特别陆战队", "commander": "大川内传七", "theatreFrom": "1937-08-13", "subordination": "海军系统，不隶陆军上海派遣军", "regions": ["虹口", "杨树浦", "闸北"], "confidence": "medium", "sources": ["nmm_shanghai_overview", "sanlian_chronology_2005"]},
+      {"name": "上海派遣军", "commander": "松井石根", "formed": "1937-08-15", "formationPrecision": "day", "formationCaution": "一些研究以8月10日命令/筹划表述，正式编成采用15日；不要由成立日推成陆军已登岸。", "theatreFrom": "1937-08-23", "initialDivisions": [3, 11], "laterDivisions": [9, 13, 101], "subordination": "11月7日前与第10军平级，11月7日后隶华中方面军", "confidence": "high", "sources": ["feng_command_2021", "nanjing_oob_review_2015", "japanese_oob_tables"]},
+      {"name": "第10军", "commander": "柳川平助", "formed": "1937-10-20", "theatreFrom": "1937-11-05", "divisions": [6, 18, 114], "detachments": ["国崎支队（第5师团步兵第9旅团基干）"], "subordination": "成立时直属参谋本部，与上海派遣军平级；11月7日起隶华中方面军", "confidence": "high", "sources": ["jacar_hangzhou_landing", "feng_command_2021"]},
+      {"name": "华中方面军（中支那方面军）", "commander": "松井石根", "formed": "1937-11-07", "children": ["上海派遣军", "第10军"], "notes": "设立后的协调与实际指挥仍有矛盾，不把静态树当全役不变的实况。", "confidence": "high", "sources": ["feng_command_2021"]},
+      {"name": "第三舰队", "commander": "长谷川清", "regions": ["黄浦江", "长江口", "近海"], "notes": "舰炮、运输与航空兵支援；海军组织与陆军军级树分列。", "confidence": "medium", "sources": ["sanlian_chronology_2005", "cacw_jianqiao"]}
+    ],
+    "japaneseRepresentativeUnits": [
+      {"division": 3, "commander": "藤田进", "landingDate": "1937-08-23", "landingArea": "吴淞及张华浜方向", "visibleNotBefore": "1937-08-23T00:00", "regions": ["吴淞", "江湾", "蕰藻浜", "苏州河"], "confidence": "high", "sources": ["sanlian_chronology_2005", "japanese_oob_tables", "shanghai_sites_2017"]},
+      {"division": 11, "commander": "山室宗武", "landingDate": "1937-08-23", "landingArea": "川沙口/狮子林", "visibleNotBefore": "1937-08-23T00:00", "regions": ["月浦", "罗店", "刘行"], "notes": "天谷支队先在华北后归建，不能写成全师所有单位23日同时到齐。", "confidence": "high", "sources": ["sanlian_chronology_2005", "japanese_oob_tables", "feng_command_2021"]},
+      {"division": 9, "commander": "吉住良辅", "arrivalWindow": "1937年9月下旬", "suggestedDisplayFrom": "1937-10-01T00:00", "arrivalPrecision": "window", "regions": ["蕰藻浜", "大场", "苏州河"], "notes": "命令9月上中旬、实际到沪在后；本轮只用10月初已投入地域作为保守显示起点，不把编排日写成确切登陆日。", "confidence": "medium", "sources": ["feng_command_2021", "sanlian_chronology_2005", "nanjing_oob_review_2015"]},
+      {"division": 13, "commander": "荻洲立兵", "arrivalWindow": "1937年9月末至10月初", "suggestedDisplayFrom": "1937-10-01T00:00", "arrivalPrecision": "window", "regions": ["罗店", "刘行", "嘉定方向"], "notes": "10月1日登陆见次级综述，精确梯队日期待原始战史进一步核；不在8月显示。", "confidence": "medium", "sources": ["feng_command_2021", "sanlian_chronology_2005", "nanjing_oob_review_2015"]},
+      {"division": 101, "commander": "伊东政喜", "arrivalWindow": "1937年9月下旬", "suggestedDisplayFrom": "1937-10-01T00:00", "arrivalPrecision": "window", "regions": ["蕰藻浜", "大场方向"], "notes": "日文表明确伊東政喜，排除伊东政善错字。不要把9月派遣命令当整师已在吴淞。", "confidence": "medium", "sources": ["feng_command_2021", "japanese_oob_tables"]},
+      {"division": 6, "commander": "谷寿夫", "landingDate": "1937-11-05", "landingArea": "杭州湾北岸金山卫地区", "visibleNotBefore": "1937-11-05T00:00", "regions": ["金山卫", "松江/青浦方向"], "confidence": "high", "sources": ["jacar_hangzhou_landing", "nmm_shanghai_overview", "nanjing_oob_review_2015"]},
+      {"division": 18, "commander": "牛岛贞雄", "landingDate": "1937-11-05", "landingArea": "杭州湾北岸金山卫地区", "visibleNotBefore": "1937-11-05T00:00", "regions": ["金山卫", "平湖/嘉善方向"], "confidence": "high", "sources": ["jacar_hangzhou_landing", "nmm_shanghai_overview", "nanjing_oob_review_2015"]},
+      {"division": 114, "commander": "末松茂治", "landingDate": "1937-11-05", "landingArea": "杭州湾北岸金山卫地区", "visibleNotBefore": "1937-11-05T00:00", "regions": ["金山卫", "松江/枫泾方向"], "confidence": "high", "sources": ["jacar_hangzhou_landing", "nmm_shanghai_overview", "nanjing_oob_review_2015"]},
+      {"name": "国崎支队", "commander": null, "parent": "第10军", "composition": "第5师团步兵第9旅团为基干", "landingDate": "1937-11-05", "visibleNotBefore": "1937-11-05T00:00", "notes": "不标成一个完整第5师团；支队番号国崎，部分中文转载国琦为字形差异。", "confidence": "high", "sources": ["jacar_hangzhou_landing", "nanjing_oob_review_2015"]}
+    ]
+  },
+  "navalAndAir": {
+    "naval": [
+      {"claim": "日本海军舰炮与运输能力支持守备据点、沿江登陆以及后续杭州湾迂回。", "sources": ["sanlian_chronology_2005", "jacar_hangzhou_landing"]},
+      {"claim": "出云是第三舰队旗舰，可作为黄浦江海军存在的示意单位；中国空袭多次以其为目标。", "sources": ["sanlian_chronology_2005", "shanghai_sites_2017", "commons_shanghai_gallery"], "limits": "不采用击沉或已核实重创的说法；无舰历逐时定位，航迹不装成精确巡航记录。"},
+      {"claim": "杭州湾登陆由海军协同第10军，JACAR目录提到第四舰队及第三飞行团一部。", "sources": ["jacar_hangzhou_landing"], "limits": "只读到目录摘要，不凭此为每艘舰炮击编逐分钟事件。"}
+    ],
+    "air": [
+      {"claim": "中国空军第四大队高志航与霍克III型飞机参与8月14日筧桥空战，对手为日本海军鹿屋航空队的陆上攻击机。", "sources": ["cacw_jianqiao"], "confidence": "medium", "limits": "不是美国志愿航空队/飞虎队；不引用全国飞机总数作上海同时投入。"},
+      {"claim": "8月14日上海落弹惨案、8月23日南京路空袭、8月28日南站空袭是不同对象/责任/地点的事件。", "sources": ["shanghai_sites_2017", "sanlian_chronology_2005", "frus_gauss_19371004"], "limits": "中国机弹误落大世界采用三联的明确窄项，外滩弹着点及出云目标据地标文，不将两地责任直接合并。FRUS10月4日只支持风险回顾，不独立确认当日逐弹归属；不以空战胜利掩盖平民灾难。"}
+    ],
+    "models": "模型受共享引擎库存约束只能示意1937军舰/步兵/飞机，不得把外形借用的1940式机型名称写成真实参战装备。装备卡与UI须声明示意。"
+  },
+  "civiliansAndSettlements": [
+    {"claim": "公共租界、法租界、华界和虹口日军据点交错，外国驻军的警戒线既约束战场又不能保证平民安全。租界不是一整片无条件安全或日本控制区。", "sources": ["frus_gauss_19371004", "frus_gauss_19371030", "shanghai_sites_2017"], "confidence": "high"},
+    {"claim": "难民经外白渡桥等通道进入租界，市民提供物资、募捐、伤员救济，并亲见四行战斗。", "sources": ["shanghai_sites_2017", "sihang_museum_2024", "yang_shenbao_2017"], "confidence": "high"},
+    {"claim": "南市难民区于11月9日建立，饶家驹及救济机构参与；长期庇护总人数不应写成11月9日当天人数。", "sources": ["shanghai_sites_2017"], "confidence": "medium"},
+    {"claim": "上海抵抗为工业、教育等内迁争取时间，但不把所有内迁成果或日本战略失败简化为某条预先完整制定的单一诱敌计谋。", "sources": ["nmm_shanghai_overview", "feng_command_2021"], "confidence": "medium"}
+  ],
+  "quantities": {
+    "displayPolicy": "forces.json如不能提供同一地域/时窗/军种、可复查死伤拆分，men/killed/wounded/captured均可null，以note解释。禁止为漂亮面板捏造数字或把总伤亡拆分为死伤。",
+    "troopCommitment": [
+      {"label": "中日累计投入近百万", "meaning": "通行累计投入量级，包含各次轮换增援；不是同一天同时在前线的兵力。", "sources": ["sihang_museum_2024", "nmm_shanghai_overview"], "confidence": "medium"},
+      {"label": "日军约28万", "meaning": "冯文归纳三次增兵的累计量级；军种、辅助人员和截止日仍需看其原注，不作为精确在场人数。", "sources": ["feng_command_2021"], "confidence": "medium"},
+      {"label": "中国70余万", "meaning": "新闻/纪念性综述常见累计投入估计；不是编制加总核算。本轮不落实每师满编人数。", "sources": ["wu_sihang_2015"], "confidence": "medium"}
+    ],
+    "militaryLosses": [
+      {"label": "中国伤亡30多万", "meaning": "杨建党综述使用的总伤亡概数，不能拆成死亡300000，也不能外加南京阶段。", "sources": ["yang_shenbao_2017"], "confidence": "low", "recommendedNumericFields": null},
+      {"label": "日军伤亡4万余", "meaning": "冯文概数，与其他常见大数差异反映统计范围/自报/对敌估算不同。本轮未取得同窗完整伤亡表。", "sources": ["feng_command_2021"], "confidence": "medium", "recommendedNumericFields": null},
+      {"label": "四行毙伤日军200余", "meaning": "中方纪念馆叙述，不是经过双方战损核对的统一数字。避免事件呈现为客观唯一精确数。", "sources": ["sihang_museum_2024"], "confidence": "low", "recommendedNumericFields": null}
+    ],
+    "civilianLosses": [
+      {"label": "8月14日落弹惨案", "meaning": "外滩和大世界分项、死亡与死伤合计的口径各异。FRUS10月4日只回指血腥星期六以讨论再发危险，不独立确认逐弹归属、地点或统一伤亡数字。", "sources": ["shanghai_sites_2017", "sanlian_chronology_2005", "frus_gauss_19371004"], "recommendedNumericFields": null},
+      {"label": "8月28日南站", "meaning": "转载记300余死伤与地标文700余死亡存在差异；不选唯一值，不计入军人伤亡。", "sources": ["sanlian_chronology_2005", "shanghai_sites_2017"], "recommendedNumericFields": null}
+    ],
+    "mustNeverImport": ["1932年一二八伤亡", "1937年12月至1938年南京大屠杀遇难者统计", "1938年后孤军营受难人数", "1937全国航空兵总量当上海在场飞机数"]
+  },
+  "gazetteerGuidance": [
+    {"name": "川沙口／小川沙", "identity": "1937年北部沿江登陆地，与吴淞、狮子林、月浦、罗店战区连贯；不是浦东川沙镇。", "sources": ["sanlian_chronology_2005", "shanghai_sites_2017"], "positionConfidence": "medium", "mappingRule": "以历史岸线附近示意，不用今日浦东川沙镇坐标。"},
+    {"name": "吴淞／吴淞口", "identity": "黄浦江与长江会合区域的镇与河口分别识别。", "sources": ["shanghai_sites_2017"], "positionConfidence": "medium", "mappingRule": "旧炮台、码头与今日行政区中心不要混为一点。"},
+    {"name": "宝山县城", "identity": "今临江公园、旧城墙及纪念地周边；不是泛指整个宝山区。", "sources": ["shanghai_sites_2017", "xinhua_yao_2018"], "positionConfidence": "high"},
+    {"name": "罗店／刘行／大场", "identity": "北上海相邻但不同交通节点。", "sources": ["shanghai_sites_2017", "sanlian_chronology_2005"], "positionConfidence": "medium", "mappingRule": "允许点位为旧镇地域中心，不把棋子位置当团营精确阵地。"},
+    {"name": "蕰藻浜", "alternatives": ["蕴藻浜", "蘊藻浜", "Wenzaobang"], "identity": "北郊东西向水障，分段争渡。", "sources": ["sanlian_chronology_2005", "division88_review_2018"], "positionConfidence": "medium", "mappingRule": "中文统一蕰藻浜，异写列alt；现代河道不得冒充1937逐米原貌。"},
+    {"name": "苏州河", "alternatives": ["吴淞江", "Soochow Creek"], "identity": "市区段战线与租界关系的重要水道。", "sources": ["frus_gauss_19371004", "frus_gauss_19371030"], "positionConfidence": "medium"},
+    {"name": "四行仓库", "identity": "光复路1号附近，苏州河北岸、西藏路桥西北侧。", "sources": ["shanghai_sites_2017", "sihang_museum_2024"], "positionConfidence": "high", "mappingRule": "精确建筑点可用；其附近公共租界边界须另绘，不能整片北岸都作华界或整片南岸都涂JP。"},
+    {"name": "上海北站", "identity": "今上海铁路博物馆、天目东路宝山路附近，不是今上海站。", "sources": ["shanghai_sites_2017"], "positionConfidence": "high"},
+    {"name": "上海南站（旧）", "identity": "今黄浦中山南路、南车站路附近，不是今徐汇上海南站。", "sources": ["shanghai_sites_2017"], "positionConfidence": "high"},
+    {"name": "金山卫／金山卫城", "identity": "杭州湾北岸，旧城及其东西岸登陆带；围垦后岸线和滩涂已变。", "sources": ["jacar_hangzhou_landing", "shanghai_sites_2017"], "positionConfidence": "medium"},
+    {"name": "漕泾／全公亭／金丝娘桥", "identity": "11月5日登陆相关地区，三者不是同一滩头名。", "sources": ["sanlian_chronology_2005"], "positionConfidence": "low", "mappingRule": "原史料坐标未获得，允许只保留金山卫地域而不伪精确每师登陆点。"},
+    {"name": "松江／青浦／嘉定／南翔", "identity": "防线和西撤路径的地域节点；只画11月12日前阶段。", "sources": ["sanlian_chronology_2005", "feng_command_2021"], "positionConfidence": "medium"},
+    {"name": "筧桥", "identity": "杭州近郊机场，不在上海市区。", "sources": ["cacw_jianqiao"], "positionConfidence": "medium", "mappingRule": "如果主地图不涵盖杭州，空战仅叙事关联，不能硬移机场到上海。"}
+  ],
+  "photoCandidates": [
+    {"commons": "File:Shanghai1937KMT_trench.jpg", "filePage": "https://commons.wikimedia.org/wiki/File:Shanghai1937KMT_trench.jpg", "discoveredFrom": "commons_shanghai_gallery", "subject": "1937中国军队壕阵", "status": "accepted_by_team_lead", "rightsVerifiedByHistorian": false, "verificationEvidence": "pipeline/photo-evidence.json", "author": "Unknown author", "license": "Public domain; PD-ROC-oldphoto", "originalImageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Shanghai1937KMT_trench.jpg", "handoff": "team-lead已核Commons元数据与文件wikitext；史料员已读其证据记录，未独立直读文件页。具体日期、阵地未详。"},
+    {"commons": "File:Shanghai1937KMT_street88th.jpg", "filePage": "https://commons.wikimedia.org/wiki/File:Shanghai1937KMT_street88th.jpg", "discoveredFrom": "commons_shanghai_gallery", "subject": "1937上海街区中国军队", "status": "accepted_by_team_lead", "rightsVerifiedByHistorian": false, "verificationEvidence": "pipeline/photo-evidence.json", "author": "Unknown author", "license": "Public domain; PD-ROC-oldphoto", "originalImageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Shanghai1937KMT_street88th.jpg", "handoff": "team-lead已核文件页，Commons编目为第88师；元数据日期仅1930年代、引源图注1937，具体拍摄日未详。不能标成8月13日或四行战斗现场。"},
+    {"commons": "File:Shanghai1937IJA_hangzhou_bay.jpg", "filePage": "https://commons.wikimedia.org/wiki/File:Shanghai1937IJA_hangzhou_bay.jpg", "discoveredFrom": "commons_shanghai_gallery", "subject": "原杭州湾登陆候选，已排除", "status": "excluded", "rightsVerifiedByHistorian": false, "verificationEvidence": "pipeline/photo-evidence.json", "author": null, "license": null, "originalImageUrl": null, "handoff": "team-lead核得文件描述标1937年8—10月，与11月5日登陆起点矛盾；不能用于证明11月5日登陆实景，不因文件名含杭州湾而忽略年代误配。"},
+    {"commons": "File:1937_Japan_navy_flagship_in_Shanghai.jpg", "filePage": "https://commons.wikimedia.org/wiki/File:1937_Japan_navy_flagship_in_Shanghai.jpg", "discoveredFrom": "commons_shanghai_gallery", "subject": "1937上海附近日本海军出云号", "status": "accepted_by_team_lead", "rightsVerifiedByHistorian": false, "verificationEvidence": "pipeline/photo-evidence.json", "author": "Unknown author", "license": "Public domain; PD-Japan-oldphoto", "originalImageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6e/1937_Japan_navy_flagship_in_Shanghai.jpg", "handoff": "team-lead已核文件页与舰型；不得据照片确定某日锚位或证明空袭重创战果。"},
+    {"commons": "File:Australian_War_Memorial_096905.jpg", "filePage": "https://commons.wikimedia.org/wiki/File:Australian_War_Memorial_096905.jpg", "discoveredFrom": "commons_shanghai_gallery", "subject": "1945年新不列颠获释人员，非1937战场", "status": "excluded", "rightsVerifiedByHistorian": false, "verificationEvidence": "pipeline/photo-evidence.json", "author": null, "license": null, "originalImageUrl": null, "handoff": "team-lead核得原编目1945-09-17、新不列颠获释88师人员营地，不是1937四行仓库现场；排除本战役配图。"}
+  ],
+  "disputesAndLimits": [
+    {"topic": "战役终点", "decision": "采用11月12日，不把11月26日说成绝对错误；后者体现扩大的苏锡追击范围。", "sources": ["nmm_shanghai_overview", "feng_command_2021", "sanlian_chronology_2005"]},
+    {"topic": "四行撤离跨午夜日期", "decision": "正文可写10月底奉命撤入租界并说明31日凌晨/31日夜至11月1日凌晨两说。模型若需唯一点，31日日精度可依馆文；不填写1时、2时等分钟级断言。", "sources": ["sihang_museum_2024", "wu_sihang_2015", "shanghai_archive_sihang", "shanghai_sites_2017"]},
+    {"topic": "四行实际人数", "decision": "约四百余、馆文420余，另414/452等不同统计；不把八百称号写成800名确数。", "sources": ["sihang_museum_2024", "wu_sihang_2015", "division88_review_2018"]},
+    {"topic": "谢晋元与杨瑞符", "decision": "谢为中校团附，杨为524团第一营营长；称谢团长须解释为尊称/后续称法，不是当时编制职。杨未在四行战斗战死，拒绝采信转载误文。", "sources": ["sihang_museum_2024", "shanghai_archive_sihang"]},
+    {"topic": "四行敌方与损失", "decision": "避免精确断言第三师团全师进攻、被歼二百等；相较陆军师级城市战，四行的直接对手与各口径战损需专门原档进一步核。", "sources": ["sihang_museum_2024", "wu_sihang_2015"]},
+    {"topic": "北郊与河岸态势场", "decision": "控制区为作战概势，不是逐村占领权、精确战壕或租界政治主权边界；罗店反复易手用叙事说明，不伪造逐日细线。", "sources": ["shanghai_sites_2017", "frus_gauss_19371004"]},
+    {"topic": "道路、海岸与河流", "decision": "现代开源地理只作底图，须披露围垦、河道整治、城市扩张和高程误差；1937岸滩与登陆点不能从现代陆地掩膜反推。", "sources": ["shanghai_sites_2017", "jacar_hangzhou_landing"]},
+    {"topic": "组织树与兵力叠加", "decision": "军、师和著名分队棋子不是独立可加总兵力；同一营既属于师又独立展示，不得重复计入forces。", "sources": ["sihang_museum_2024", "jacar_hangzhou_landing"]}
+  ],
+  "accessLimitations": [
+    {"url": "https://www.mod.go.jp/msdf/navcol/assets/pdf/ssg2016_07_04.pdf", "title": "日本軍の渡洋上陸作戦－水陸両用戦争の視点から再評価", "discovered": "AnySearch搜索实际返回", "attempt": "AnySearch extract两次失败/连接失败", "directFetch": "仅同URL直连已获准，但未执行；未读取原页", "usedAsEvidence": false, "note": "未读取PDF原页，不将搜索片段装成读过的专著材料。team-lead已批准仅对现有三份官方/学术PDF同URL直连作为降级；尚未执行，不把许可当作已读证据，当前实现不依赖此补查。"},
+    {"url": "https://www.drnh.gov.tw/var/file/3/1003/img/10/175698954.pdf", "title": "蔣中正對淞滬會戰之戰略再探（苏圣雄）", "discovered": "AnySearch搜索实际返回", "attempt": "AnySearch extract连接失败及extract_failed", "directFetch": "仅同URL直连已获准，但未执行；未读取原页", "usedAsEvidence": false, "note": "未读取论文原页，不能据标题或搜索摘要把诱敌战略说作定论。"},
+    {"url": "https://athena.westpoint.edu/bitstreams/1915d377-7159-4b19-a1fb-9d5a53f32f96/download", "title": "Strategy and Combat During the Battle of Shanghai", "discovered": "AnySearch搜索实际返回", "attempt": "AnySearch extract_failed", "directFetch": "仅同URL直连已获准，但未执行；未读取原页", "usedAsEvidence": false, "note": "未读作者页/全文，不标注该文作者或引用其页码。"},
+    {"url": "https://www.virtualshanghai.net/WMS/Papers?ID=130", "title": "August 1937: War and the death en masse of civilians", "discovered": "AnySearch搜索实际返回", "attempt": "AnySearch extract_failed", "usedAsEvidence": false, "note": "Christian Henriot学术研究线索；未读正文，不借其权威确认死亡数。"},
+    {"url": "https://www.jfdaily.com/news/detail?id=939053", "title": "四行仓库保卫战，当时的外媒如何记录这四昼夜？", "discovered": "AnySearch搜索实际返回", "attempt": "提取只有Vue占位模板，未取得文章正文", "usedAsEvidence": false},
+    {"url": "https://lightmaha.blogspot.com/2022/01/blog-post.html", "title": "背坿危槽倚堅壁──四行倉庫戰鬥實況與傳說探析", "discovered": "AnySearch搜索实际返回", "attempt": "取得较长提取结果但未完整审阅", "usedAsEvidence": false, "note": "私人研究博客仅作潜在线索，未以其争议结论建立数据。"}
+  ]
+}

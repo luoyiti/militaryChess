@@ -1,0 +1,58 @@
+{
+  "_doc": "地理管线参数（sh tools/geo/run.sh <id>）。frame 段决定投影与画布，改动后需重新生成全部地图资产并核对已有坐标。",
+  "seed": 1937,
+  "region": [120.5, 30.35, 122.35, 32.0],
+  "clip": [120.6, 30.45, 122.25, 31.9],
+  "frame": {
+    "bbox": [120.75, 30.60, 122.10, 31.75],
+    "parallels": [30.8, 31.5],
+    "rotate": [-121.425, 0],
+    "center": [0, 31.175],
+    "width": 4096,
+    "tileLevels": [
+      1024,
+      2048,
+      4096
+    ],
+    "fieldCell": 2,
+    "clampKm": 16
+  },
+  "dem": {"zoom": 9},
+  "borders": {
+    "source": "campaign_schematic_1937_not_world_1938_occupation",
+    "script": "pipeline/geo/borders.py",
+    "ids": {
+      "Empire of Japan": "JP",
+      "China": "CN"
+    },
+    "zh": {
+      "JP": "日本",
+      "CN": "中国"
+    },
+    "merge": {}
+  },
+  "masks": {
+    "landBit": 4,
+    "bits": {
+      "0": [
+        "CN"
+      ],
+      "1": [
+        "JP"
+      ]
+    },
+    "otherLandBit": 6
+  },
+  "rivers": {
+    "maxRank": 10,
+    "names": {},
+    "supplement": "pipeline/geo/run.sh adds anchor-based approximate Huangpu, Suzhou Creek and Wenzaobang; see pipeline/geo/evidence.json"
+  },
+  "lakes": {
+    "maxRank": 4,
+    "zh": {},
+    "drop": []
+  },
+  "forest": [],
+  "marsh": []
+}

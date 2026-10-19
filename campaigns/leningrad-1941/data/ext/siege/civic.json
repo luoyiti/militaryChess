@@ -1,0 +1,129 @@
+[
+  {
+    "from": "1941-06-22T00:00",
+    "title": "战争前奏",
+    "body": "德苏战争爆发时，列宁格勒尚未被围。此后动员、筑垒、工厂与居民疏散逐步展开；战略全图说明战线推进，生活面板从证据支持的日期起显示制度变化。",
+    "sources": [
+      "civil_source_kantor_mortality"
+    ]
+  },
+  {
+    "from": "1941-07-18T00:00",
+    "title": "凭卡领取生活物资",
+    "body": "面包等食品进入配给制度。卡片区分劳动、年龄与受供养身份；纸面标准表示领取权利，不意味着每一种食品都能按时足额供应。",
+    "sources": [
+      "civil_source_kovalchuk_rations",
+      "civil_source_bread_museum"
+    ]
+  },
+  {
+    "from": "1941-09-08T00:00",
+    "title": "陆路封锁与城市火灾",
+    "body": "陆上交通被切断，空袭和炮击损害粮库、住宅与水电设施。巴达耶夫仓库大火是重大损失，但其储量仅相当于短期消耗，饥荒不能归结为一场火。",
+    "sources": [
+      "civil_source_kantor_mortality"
+    ]
+  },
+  {
+    "from": "1941-11-20T00:00",
+    "title": "面包最低档与寒冬",
+    "body": "普通工人250克，职员、受抚养者及儿童125克。面包掺料随原料变化，不能写成固定木屑配方；燃料匮乏、步行取水与营养不良共同加重生活负担。",
+    "sources": [
+      "civil_source_rations_order",
+      "civil_source_bread_museum",
+      "civil_source_waterworks"
+    ]
+  },
+  {
+    "from": "1941-12-25T00:00",
+    "title": "提高配给仍需时间",
+    "body": "面包标准第一次回升，但身体衰竭、严寒和疾病仍在造成大量死亡。配给是制度记录，不能直接换算城市居民的营养状态或即时生存概率。",
+    "sources": [
+      "civil_source_nlr_hunger",
+      "civil_source_kantor_mortality"
+    ]
+  },
+  {
+    "from": "1942-01-22T00:00",
+    "title": "扩大冰道撤离",
+    "body": "国防委员会决定组织撤离50万居民，冰道同时承担运粮与军需。撤离早已开始；离开城市后仍需转运、医疗与安置，不能把登车人数等同最终获救人数。",
+    "sources": [
+      "civil_source_evacuation",
+      "civil_source_kovalchuk_ice1"
+    ]
+  },
+  {
+    "from": "1942-04-15T00:00",
+    "title": "电车、清洁与供水修复",
+    "body": "客运电车恢复运行。市政人员与居民清理街道、修补冻裂管网并恢复浴室等服务；恢复是分区分阶段进行，既不能说整个冬天绝无供水，也不能说春天设施立即正常。",
+    "sources": [
+      "civil_source_tram_newspaper",
+      "civil_source_waterworks",
+      "civil_source_municipal"
+    ]
+  },
+  {
+    "from": "1942-05-23T00:00",
+    "title": "夏季湖运、撤离与菜园",
+    "body": "水路重开后扩大供给与居民撤离。城市推广个人、单位菜园并印发种植指导，补充食物来源；菜园与互助降低风险，仍受劳力、体力、种子和土地限制。",
+    "sources": [
+      "civil_source_kovalchuk_water2",
+      "civil_source_nlr_hunger"
+    ]
+  },
+  {
+    "from": "1942-06-18T00:00",
+    "title": "燃料工程支撑生产",
+    "body": "湖底油管连接两岸输送燃料。城内工厂在疏散、缺电、缺料与空袭条件下继续部分军工生产；“继续生产”不表示工人获得充足食物或工业维持战前规模。",
+    "sources": [
+      "civil_source_kovalchuk_water2",
+      "civil_source_pipeline_collection"
+    ]
+  },
+  {
+    "from": "1942-08-09T00:00",
+    "title": "广播与音乐维系公共生活",
+    "body": "列宁格勒广播委员会乐团在爱乐大厅演奏第七交响曲，指挥为埃利亚斯贝格。广播既传递消息和警报，也播出文学与音乐；演出不能抵消持续的饥饿与哀痛。",
+    "sources": [
+      "civil_source_philharmonia",
+      "civil_source_radio"
+    ]
+  },
+  {
+    "from": "1942-09-23T00:00",
+    "title": "湖底电缆补充城市电力",
+    "body": "沃尔霍夫电站电力经“生命电缆”送达城市，支持重要设施与工业。输油与输电是两套工程，供电改善有其范围和次序，不能理解为所有家庭同时恢复照明采暖。",
+    "sources": [
+      "civil_source_cable_operator",
+      "civil_source_cable_hydro"
+    ]
+  },
+  {
+    "from": "1943-01-18T00:00",
+    "title": "突破封锁仍在围城",
+    "body": "火花行动打通湖岸走廊后，城市仍受炮击与交通威胁。铁路建设、湖运和冰运并行，物资改善需要运输、卸载与分配的后续环节，尚未恢复自由通行。",
+    "sources": [
+      "civil_source_victory_rail",
+      "civil_source_kovalchuk_ice2"
+    ]
+  },
+  {
+    "from": "1943-02-23T00:00",
+    "title": "铁路供给后的新标准",
+    "body": "面包配给提高为普通工人600克、职员500克、受抚养者和儿童400克。铁路成为主要通道后，湖上船舶仍运送军需、燃料和木材，运输结构改变而非一条路线完全取代另一条。",
+    "sources": [
+      "civil_source_nlr_hunger",
+      "civil_source_river_transport"
+    ]
+  },
+  {
+    "from": "1944-01-27T00:00",
+    "title": "完全解除封锁与幸存之后",
+    "body": "列宁格勒宣布完全解除封锁。幸存居民仍需恢复住房、营养与医疗，失散亲属未必能够重聚；死亡统计应区分市内登记、疏散途中与后来死亡，避免把单一数字表现为已知全貌。",
+    "sources": [
+      "civil_source_radio",
+      "civil_source_kantor_mortality",
+      "civil_source_mortality_historiography"
+    ]
+  }
+]

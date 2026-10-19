@@ -1,0 +1,617 @@
+[
+  {
+    "id": "fi.hq_mannerheim",
+    "side": "FI",
+    "echelon": "armygroup",
+    "type": "hq",
+    "parent": null,
+    "name": {
+      "zh": "芬兰国防军统帅部",
+      "orig": "Päämaja (Mannerheim)",
+      "short": "Päämaja"
+    },
+    "track": [],
+    "history": "芬兰国防军统帅部的战役活动地段示意。各次作战的参战范围见事件档案，地图点位不代表编制满员人数或司令部实测驻地；上级仅在整个显示窗口均适用时保留。",
+    "sources": [
+      "mil_fndu_2026",
+      "mil_finn_journal34"
+    ],
+    "confidence": "medium",
+    "schematic": true,
+    "active": {
+      "from": "1941-06-22T00:00",
+      "to": "1944-01-31T23:59"
+    },
+    "commander": {
+      "zh": "曼纳海姆",
+      "orig": "Carl Gustaf Emil Mannerheim"
+    }
+  },
+  {
+    "id": "fi.iv_ak",
+    "side": "FI",
+    "echelon": "corps",
+    "type": "infantry",
+    "parent": "fi.hq_mannerheim",
+    "name": {
+      "zh": "芬兰第 IV 军",
+      "orig": "IV Armeijakunta",
+      "short": "IV AK(芬)"
+    },
+    "model": "inf_fi",
+    "track": [
+      {
+        "at": "1941-06-22T00:00",
+        "pos": [
+          28.4,
+          60.92
+        ],
+        "status": "active"
+      },
+      {
+        "at": "1941-08-22T12:00",
+        "pos": [
+          28.7,
+          60.8
+        ],
+        "status": "engaged"
+      },
+      {
+        "at": "1941-08-29T12:00",
+        "pos": "@vyborg",
+        "status": "engaged"
+      },
+      {
+        "at": "1941-09-01T00:00",
+        "pos": "@vyborg",
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1941-09-04T12:00",
+        "pos": "@terijoki",
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1941-09-09T12:00",
+        "pos": "@terijoki",
+        "status": "active",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      }
+    ],
+    "history": "本记录展示1941年进攻阶段，显示终日不声称为正式撤销日。1942年初芬军改组为地峡、奥洛涅茨、马塞尔卡等集群；不能把1941年的卡累利阿集团军司令部原样延续至1944年。",
+    "sources": [
+      "mil_fndu_2026",
+      "mil_finn_journal34"
+    ],
+    "confidence": "medium",
+    "schematic": true,
+    "active": {
+      "from": "1941-06-22T00:00",
+      "to": "1941-12-31T23:59"
+    },
+    "commander": {
+      "zh": "厄施",
+      "orig": "Karl Lennart Oesch"
+    }
+  },
+  {
+    "id": "fi.ii_ak",
+    "side": "FI",
+    "echelon": "corps",
+    "type": "infantry",
+    "parent": "fi.hq_mannerheim",
+    "name": {
+      "zh": "芬兰第 II 军",
+      "orig": "II Armeijakunta",
+      "short": "II AK(芬)"
+    },
+    "model": "inf_fi",
+    "track": [
+      {
+        "at": "1941-06-22T00:00",
+        "pos": [
+          29.05,
+          61.3
+        ],
+        "status": "active"
+      },
+      {
+        "at": "1941-07-31T12:00",
+        "pos": [
+          29.3,
+          61.2
+        ],
+        "status": "engaged"
+      },
+      {
+        "at": "1941-08-09T12:00",
+        "pos": "@hiitola",
+        "status": "engaged"
+      },
+      {
+        "at": "1941-08-24T12:00",
+        "pos": [
+          29.9,
+          60.8
+        ],
+        "status": "engaged"
+      },
+      {
+        "at": "1941-09-01T00:00",
+        "pos": "@taipale",
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1941-09-07T12:00",
+        "pos": "@lembolovo",
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1941-09-15T12:00",
+        "pos": "@lembolovo",
+        "status": "active",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      }
+    ],
+    "history": "本记录展示1941年进攻阶段，显示终日不声称为正式撤销日。1942年初芬军改组为地峡、奥洛涅茨、马塞尔卡等集群；不能把1941年的卡累利阿集团军司令部原样延续至1944年。",
+    "sources": [
+      "mil_fndu_2026",
+      "mil_finn_journal34"
+    ],
+    "confidence": "medium",
+    "schematic": true,
+    "active": {
+      "from": "1941-06-22T00:00",
+      "to": "1941-12-31T23:59"
+    },
+    "commander": {
+      "zh": "拉蒂凯宁",
+      "orig": "Taavetti Laatikainen"
+    }
+  },
+  {
+    "id": "fi.karelian_army",
+    "side": "FI",
+    "echelon": "army",
+    "type": "hq",
+    "parent": "fi.hq_mannerheim",
+    "name": {
+      "zh": "芬兰卡累利阿集团军",
+      "orig": "Karjalan Armeija",
+      "short": "Karj.A"
+    },
+    "model": "inf_fi",
+    "track": [
+      {
+        "at": "1941-06-29T12:00",
+        "pos": [
+          30.5,
+          62.35
+        ],
+        "status": "reserve"
+      },
+      {
+        "at": "1941-07-10T16:00",
+        "pos": "@korpiselka",
+        "status": "engaged"
+      },
+      {
+        "at": "1941-07-16T12:00",
+        "pos": "@koirinoja",
+        "status": "engaged"
+      },
+      {
+        "at": "1941-07-24T12:00",
+        "pos": "@tuulosjoki",
+        "status": "active"
+      },
+      {
+        "at": "1941-09-01T00:00",
+        "pos": [
+          32.65,
+          61.2
+        ],
+        "status": "active",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1941-09-04T05:00",
+        "pos": "@olonets",
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1941-09-07T18:00",
+        "pos": [
+          33.35,
+          60.82
+        ],
+        "status": "engaged",
+        "note": "进抵斯维里河地段，洛杰伊诺耶波列未被芬军攻占；不能将北岸位置误作占领南岸城市。"
+      },
+      {
+        "at": "1941-09-22T12:00",
+        "pos": "@podporozhye",
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1941-10-15T12:00",
+        "pos": "@olonets",
+        "status": "active",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      }
+    ],
+    "history": "本记录展示1941年进攻阶段，显示终日不声称为正式撤销日。1942年初芬军改组为地峡、奥洛涅茨、马塞尔卡等集群；不能把1941年的卡累利阿集团军司令部原样延续至1944年。",
+    "sources": [
+      "mil_fndu_2026",
+      "mil_finn_journal34"
+    ],
+    "confidence": "medium",
+    "schematic": true,
+    "active": {
+      "from": "1941-06-29T12:00",
+      "to": "1941-12-31T23:59"
+    },
+    "commander": {
+      "zh": "海因里希斯",
+      "orig": "Erik Heinrichs"
+    }
+  },
+  {
+    "id": "fi.18d",
+    "side": "FI",
+    "echelon": "division",
+    "type": "infantry",
+    "parent": null,
+    "name": {
+      "zh": "芬兰第 18 步兵师",
+      "orig": "18. Divisioona",
+      "short": "18.D(芬)"
+    },
+    "model": "inf_fi",
+    "track": [
+      {
+        "at": "1941-09-01T00:00",
+        "pos": [
+          29.75,
+          60.45
+        ],
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1941-09-04T12:00",
+        "pos": "@beloostrov",
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1941-09-20T12:00",
+        "pos": [
+          29.98,
+          60.18
+        ],
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1944-01-31T18:00",
+        "pos": [
+          29.98,
+          60.18
+        ],
+        "status": "active",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      }
+    ],
+    "history": "芬兰第 18 步兵师的战役活动地段示意。各次作战的参战范围见事件档案，地图点位不代表编制满员人数或司令部实测驻地；上级仅在整个显示窗口均适用时保留。",
+    "sources": [
+      "mil_fndu_2026",
+      "mil_finn_journal34"
+    ],
+    "confidence": "medium",
+    "schematic": true,
+    "active": {
+      "from": "1941-09-01T00:00",
+      "to": "1944-01-31T23:59"
+    }
+  },
+  {
+    "id": "fi.5d",
+    "side": "FI",
+    "echelon": "division",
+    "type": "infantry",
+    "parent": null,
+    "name": {
+      "zh": "芬兰第 5 步兵师",
+      "orig": "5. Divisioona",
+      "short": "5.D(芬)"
+    },
+    "model": "inf_fi",
+    "track": [
+      {
+        "at": "1941-09-01T00:00",
+        "pos": [
+          32.75,
+          61.18
+        ],
+        "status": "active",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1941-09-05T12:00",
+        "pos": "@olonets",
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1941-09-08T12:00",
+        "pos": [
+          33.35,
+          60.82
+        ],
+        "status": "engaged",
+        "note": "进抵斯维里河地段，洛杰伊诺耶波列未被芬军攻占；不能将北岸位置误作占领南岸城市。"
+      },
+      {
+        "at": "1941-09-20T12:00",
+        "pos": "@svirstroy",
+        "status": "engaged",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      },
+      {
+        "at": "1944-01-31T18:00",
+        "pos": "@svirstroy",
+        "status": "active",
+        "note": "战役研究所示活动地段；坐标概括部队正面或行动轴线，不代表逐日精确驻地。"
+      }
+    ],
+    "history": "芬兰第 5 步兵师的战役活动地段示意。各次作战的参战范围见事件档案，地图点位不代表编制满员人数或司令部实测驻地；上级仅在整个显示窗口均适用时保留。",
+    "sources": [
+      "mil_fndu_2026",
+      "mil_finn_journal34"
+    ],
+    "confidence": "medium",
+    "schematic": true,
+    "active": {
+      "from": "1941-09-01T00:00",
+      "to": "1944-01-31T23:59"
+    }
+  },
+  {
+    "id": "fi.vi_ak",
+    "side": "FI",
+    "echelon": "corps",
+    "type": "infantry",
+    "parent": null,
+    "name": {
+      "zh": "第 VI 军",
+      "orig": "第 VI 军",
+      "short": "第 VI 军"
+    },
+    "active": {
+      "from": "1941-06-29T00:00",
+      "to": "1941-12-31T23:59"
+    },
+    "track": [
+      {
+        "at": "1941-06-29T12:00",
+        "pos": [
+          30.62,
+          62.25
+        ],
+        "status": "reserve"
+      },
+      {
+        "at": "1941-07-10T16:00",
+        "pos": "@korpiselka",
+        "status": "engaged"
+      },
+      {
+        "at": "1941-07-16T12:00",
+        "pos": "@koirinoja",
+        "status": "engaged"
+      },
+      {
+        "at": "1941-07-24T12:00",
+        "pos": "@tuulosjoki",
+        "status": "active"
+      },
+      {
+        "at": "1941-09-07T12:00",
+        "pos": [
+          33.35,
+          60.82
+        ],
+        "status": "engaged"
+      }
+    ],
+    "sources": [
+      "mil_finn_svir_2011",
+      "mil_fndu_2026"
+    ],
+    "confidence": "medium",
+    "schematic": true,
+    "history": "以战役级研究和地图概括作战地段。活动起止是本战役的显示窗口，坐标为战役示意，并非逐日司令部驻地。"
+  },
+  {
+    "id": "fi.vii_ak",
+    "side": "FI",
+    "echelon": "corps",
+    "type": "infantry",
+    "parent": null,
+    "name": {
+      "zh": "第 VII 军",
+      "orig": "第 VII 军",
+      "short": "第 VII 军"
+    },
+    "active": {
+      "from": "1941-06-29T00:00",
+      "to": "1941-12-31T23:59"
+    },
+    "track": [
+      {
+        "at": "1941-06-29T12:00",
+        "pos": [
+          30.35,
+          62.15
+        ],
+        "status": "reserve"
+      },
+      {
+        "at": "1941-07-10T12:00",
+        "pos": [
+          30.65,
+          61.95
+        ],
+        "status": "engaged"
+      },
+      {
+        "at": "1941-08-16T12:00",
+        "pos": "@sortavala",
+        "status": "engaged"
+      },
+      {
+        "at": "1941-09-01T12:00",
+        "pos": [
+          31.0,
+          61.65
+        ],
+        "status": "active"
+      }
+    ],
+    "sources": [
+      "mil_fndu_2026"
+    ],
+    "confidence": "medium",
+    "schematic": true,
+    "history": "以战役级研究和地图概括作战地段。活动起止是本战役的显示窗口，坐标为战役示意，并非逐日司令部驻地。"
+  },
+  {
+    "id": "fi.grp_oinonen",
+    "side": "FI",
+    "echelon": "group",
+    "type": "cavalry",
+    "parent": null,
+    "name": {
+      "zh": "奥伊诺宁集群",
+      "orig": "奥伊诺宁集群",
+      "short": "奥伊诺宁集群"
+    },
+    "active": {
+      "from": "1941-06-29T00:00",
+      "to": "1941-12-31T23:59"
+    },
+    "track": [
+      {
+        "at": "1941-06-29T12:00",
+        "pos": [
+          30.95,
+          62.55
+        ],
+        "status": "reserve"
+      },
+      {
+        "at": "1941-07-10T12:00",
+        "pos": [
+          31.4,
+          62.2
+        ],
+        "status": "engaged"
+      },
+      {
+        "at": "1941-07-24T12:00",
+        "pos": [
+          32.0,
+          61.8
+        ],
+        "status": "active"
+      }
+    ],
+    "sources": [
+      "mil_fndu_2026"
+    ],
+    "confidence": "medium",
+    "schematic": true,
+    "history": "以战役级研究和地图概括作战地段。活动起止是本战役的显示窗口，坐标为战役示意，并非逐日司令部驻地。"
+  },
+  {
+    "id": "fi.isthmus_group",
+    "side": "FI",
+    "echelon": "army",
+    "type": "infantry",
+    "parent": "fi.hq_mannerheim",
+    "name": {
+      "zh": "地峡集群（阵地战阶段）",
+      "orig": "地峡集群（阵地战阶段）",
+      "short": "地峡集群（阵地战阶段）"
+    },
+    "active": {
+      "from": "1942-06-01T00:00",
+      "to": "1944-01-31T23:59"
+    },
+    "track": [
+      {
+        "at": "1942-06-01T12:00",
+        "pos": [
+          29.6,
+          60.3
+        ],
+        "status": "active"
+      },
+      {
+        "at": "1944-01-31T12:00",
+        "pos": [
+          29.6,
+          60.3
+        ],
+        "status": "active"
+      }
+    ],
+    "sources": [
+      "mil_finn_journal34"
+    ],
+    "confidence": "medium",
+    "schematic": true,
+    "history": "1942年初司令部重组后负责卡累利阿地峡的战略集群。本图从1942年6月这一观察截面开始显示，起日不是声称正式组建日。北方封锁线仍在，1944年1月完全解围不等于芬兰战线消失。"
+  },
+  {
+    "id": "fi.aunus_group",
+    "side": "FI",
+    "echelon": "army",
+    "type": "infantry",
+    "parent": "fi.hq_mannerheim",
+    "name": {
+      "zh": "奥洛涅茨集群（阵地战阶段）",
+      "orig": "奥洛涅茨集群（阵地战阶段）",
+      "short": "奥洛涅茨集群（阵地战阶段）"
+    },
+    "active": {
+      "from": "1942-06-01T00:00",
+      "to": "1944-01-31T23:59"
+    },
+    "track": [
+      {
+        "at": "1942-06-01T12:00",
+        "pos": "@olonets",
+        "status": "active"
+      },
+      {
+        "at": "1944-01-31T12:00",
+        "pos": "@olonets",
+        "status": "active"
+      }
+    ],
+    "sources": [
+      "mil_finn_journal34"
+    ],
+    "confidence": "medium",
+    "schematic": true,
+    "history": "1942年初重组后的奥洛涅茨集群，负责斯维里河方向。本图从1942年6月观察截面显示，不把显示起日当组建日，也不暗示芬军曾攻克洛杰伊诺耶波列。"
+  }
+]

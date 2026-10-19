@@ -1,0 +1,171 @@
+{
+  "campaign": "leningrad-1941",
+  "checked": "2026-10-18",
+  "frame": {
+    "_doc": "由 tools/geo/emit_frame.mjs 根据 config/geo.config.json 生成，勿手改。d3.geoConicConformal().parallels(parallels).rotate(rotate).center(center).scale(scale).translate(translate)。世界坐标单位=像素@最高级瓦片(宽 width)。",
+    "projection": {
+      "type": "conicConformal",
+      "parallels": [
+        55,
+        61
+      ],
+      "rotate": [
+        -28,
+        0
+      ],
+      "center": [
+        0,
+        58.4
+      ]
+    },
+    "bbox": [
+      20,
+      54,
+      36,
+      62.8
+    ],
+    "width": 8192,
+    "height": 7862,
+    "scale": 49973.79086720126,
+    "translate": [
+      4096.000000000001,
+      4026.5139208925007
+    ],
+    "kmPerUnit": 0.12764017407481018,
+    "tiles": {
+      "size": 512,
+      "levels": [
+        1024,
+        2048,
+        4096,
+        8192
+      ],
+      "format": "webp",
+      "path": "tiles/base/{z}/{x}_{y}.webp"
+    },
+    "field": {
+      "cell": 10,
+      "w": 820,
+      "h": 787,
+      "clampKm": 60
+    },
+    "extentCheck": {
+      "minX": 0,
+      "maxX": 8192,
+      "minY": 7.275957614183426e-12,
+      "maxY": 7861.81036502582
+    }
+  },
+  "tiles": 340,
+  "maskCells": 645340,
+  "maskCounts": {
+    "0": 398479,
+    "1": 17924,
+    "2": 72070,
+    "4": 499683,
+    "6": 11210
+  },
+  "countryAndLakeChecks": {
+    "列宁格勒": [
+      [
+        30.316,
+        59.939
+      ],
+      17
+    ],
+    "维堡": [
+      [
+        28.753,
+        60.71
+      ],
+      17
+    ],
+    "索尔塔瓦拉": [
+      [
+        30.693,
+        61.703
+      ],
+      17
+    ],
+    "里加": [
+      [
+        24.105,
+        56.949
+      ],
+      17
+    ],
+    "塔林": [
+      [
+        24.745,
+        59.437
+      ],
+      17
+    ],
+    "考纳斯": [
+      [
+        23.904,
+        54.898
+      ],
+      17
+    ],
+    "蒂尔西特": [
+      [
+        21.88,
+        55.083
+      ],
+      18
+    ],
+    "梅梅尔": [
+      [
+        21.135,
+        55.713
+      ],
+      18
+    ],
+    "赫尔辛基": [
+      [
+        24.938,
+        60.17
+      ],
+      20
+    ],
+    "拉多加湖": [
+      [
+        31.5,
+        61
+      ],
+      0
+    ],
+    "伊尔门湖": [
+      [
+        31.3,
+        58.2
+      ],
+      0
+    ]
+  },
+  "vectorCounts": {
+    "land": 1,
+    "countries1939": 4,
+    "rivers": 281,
+    "lakes": 25,
+    "marsh": 7,
+    "forest": 11
+  },
+  "frameSha256": "ed859b3b59a2fe52386e75361c228ca5dcde77a790178a726844a0867bd55c80",
+  "rebuild": "sh campaigns/leningrad-1941/pipeline/geo/rebuild.sh",
+  "sources": [
+    "https://www.naturalearthdata.com/",
+    "https://registry.opendata.aws/terrain-tiles/",
+    "https://github.com/aourednik/historical-basemaps",
+    "https://nakanune.rusarchives.ru/en/node/214",
+    "https://www.maanmittauslaitos.fi/en/e-services/karelian-maps",
+    "https://www.openstreetmap.org/copyright"
+  ],
+  "limits": [
+    "政治底图为1941-06-22，实时控制以战线帧为准。",
+    "1940年苏芬界在本画幅内以现代边界近似，汉科租借区概略处理。",
+    "林区/沼泽为依据地形概括的示意范围；非1941年地籍或植被调查。",
+    "旧国界、战毁聚落和局部高地有明示的示意精度；约1.28公里的控制场不能解析街区或单个工事。"
+  ]
+}

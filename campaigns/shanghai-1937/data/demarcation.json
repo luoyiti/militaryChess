@@ -1,0 +1,16 @@
+[
+  {
+    "id": "d.north_defensive_regions", "name": { "zh": "北郊防御地域（阶段示意）", "short": "北郊防御" },
+    "at": "1937-09-12T12:00", "until": "1937-10-26T12:00",
+    "line": ["@liuhang", "@wenzaobang", "@miaohang", "@jiangwan", "@north_station"], "style": "pact",
+    "note": "依阶段记述串联河浜与据点地域，非精测战壕、逐日接触线或政治分界，不应读成各点全线同时转移。",
+    "sources": ["sanlian_chronology_2005"]
+  },
+  {
+    "id": "d.suzhou_defensive_regions", "name": { "zh": "苏州河防御地域（近似）", "short": "苏州河阶段" },
+    "at": "1937-10-27T12:00", "until": "1937-11-09T12:00",
+    "line": [[121.37,31.245], "@suzhou_creek", [121.465,31.241]], "style": "pact",
+    "note": "只提示苏州河沿岸防御地域，不复原1937精细河岸、外国警戒线或逐米阵地；不能把全河南岸都当中立，亦不能把整个租界涂成日占。",
+    "sources": ["frus_gauss_19371030", "sanlian_chronology_2005"]
+  }
+]

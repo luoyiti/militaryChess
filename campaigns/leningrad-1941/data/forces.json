@@ -1,0 +1,635 @@
+{
+  "sides": {
+    "SU": {
+      "name": "苏联",
+      "commander": "按阶段：波波夫、朱可夫、霍津、戈沃罗夫、梅列茨科夫等；详见事件",
+      "men": null,
+      "tanks": null,
+      "aircraft": null,
+      "guns": null,
+      "divisions": "列宁格勒方面军第23、42、55集团军；外围第54集团军及滨海守军",
+      "asOf": "1941年9月",
+      "losses": {
+        "killed": "未采用同口径数字",
+        "wounded": "未采用同口径数字"
+      },
+      "note": "本包OOB为有据可查的代表性作战单位；上下级不重复求和，战区、单役、累计轮换和军民伤亡分开。数字未同口径核实处留空。"
+    },
+    "DE": {
+      "name": "德国",
+      "commander": "按阶段：勒布、屈希勒尔、林德曼等；莫德尔1944年1月31日接任",
+      "men": null,
+      "tanks": null,
+      "aircraft": null,
+      "guns": null,
+      "divisions": "第18集团军、第4装甲集群与第16集团军有关部队",
+      "asOf": "1941年9月",
+      "losses": {
+        "killed": "未采用同口径数字",
+        "wounded": "未采用同口径数字"
+      },
+      "note": "本包OOB为有据可查的代表性作战单位；上下级不重复求和，战区、单役、累计轮换和军民伤亡分开。数字未同口径核实处留空。"
+    },
+    "FI": {
+      "name": "芬兰",
+      "commander": "曼纳海姆；各集群与军指挥另有更替",
+      "men": null,
+      "tanks": null,
+      "aircraft": null,
+      "guns": null,
+      "divisions": "地峡第II、第IV军、卡累利阿集团军有关部队",
+      "asOf": "1941年9月",
+      "losses": {
+        "killed": "未采用同口径数字",
+        "wounded": "未采用同口径数字"
+      },
+      "note": "本包OOB为有据可查的代表性作战单位；上下级不重复求和，战区、单役、累计轮换和军民伤亡分开。数字未同口径核实处留空。"
+    },
+    "ES": {
+      "name": "西班牙志愿部队",
+      "commander": "蓝色师团及后来的留驻军团分开记录",
+      "men": null,
+      "tanks": null,
+      "aircraft": null,
+      "guns": null,
+      "divisions": "尚未进入本战区",
+      "asOf": "1941年9月",
+      "losses": {
+        "killed": "未采用同口径数字",
+        "wounded": "未采用同口径数字"
+      },
+      "note": "本包OOB为有据可查的代表性作战单位；上下级不重复求和，战区、单役、累计轮换和军民伤亡分开。数字未同口径核实处留空。"
+    }
+  },
+  "byPhase": {
+    "baltic_advance": {
+      "SU": {
+        "name": "苏联",
+        "commander": "库兹涅佐夫（西北方面军）；波波夫（北方方面军）",
+        "men": null,
+        "tanks": null,
+        "aircraft": null,
+        "guns": null,
+        "divisions": "西北方面军第8、11、27集团军；北方方面军第7、23集团军",
+        "asOf": "1941年6月22日",
+        "losses": {
+          "killed": "未采用同口径数字",
+          "wounded": "未采用同口径数字"
+        },
+        "note": "战略序章：苏军边防与纵深部队的部署不同，不能把整个西部战区兵力搬进北方战场。"
+      },
+      "DE": {
+        "name": "德国",
+        "commander": "勒布（北方集团军群）；屈希勒尔、布施、霍普纳分领集团军与装甲集群",
+        "men": null,
+        "tanks": null,
+        "aircraft": null,
+        "guns": null,
+        "divisions": "北方集团军群第18、16集团军及第4装甲集群",
+        "asOf": "1941年6月22日",
+        "losses": {
+          "killed": "未采用同口径数字",
+          "wounded": "未采用同口径数字"
+        },
+        "note": "战略序章：苏军边防与纵深部队的部署不同，不能把整个西部战区兵力搬进北方战场。"
+      },
+      "FI": {
+        "name": "芬兰",
+        "commander": "曼纳海姆；各集群与军指挥另有更替",
+        "men": null,
+        "tanks": null,
+        "aircraft": null,
+        "guns": null,
+        "divisions": "芬兰军队在1940年国界一侧集结；6月29日形成卡累利阿集团军",
+        "asOf": "1941年6月22日",
+        "losses": {
+          "killed": "未采用同口径数字",
+          "wounded": "未采用同口径数字"
+        },
+        "note": "本表仅列本战区有关部队；未以全芬军总数替代地峡或斯维里河一线兵力。"
+      },
+      "ES": {
+        "name": "西班牙志愿部队",
+        "commander": "蓝色师团及后来的留驻军团分开记录",
+        "men": null,
+        "tanks": null,
+        "aircraft": null,
+        "guns": null,
+        "divisions": "尚未进入本战区",
+        "asOf": "1941年6月22日",
+        "losses": {
+          "killed": "未采用同口径数字",
+          "wounded": "未采用同口径数字"
+        },
+        "note": "不能把轮换累计人数、某次战斗投入人数和某日全师兵力混为同一个数字。"
+      }
+    },
+    "luga_defense": {
+      "SU": {
+        "name": "苏联",
+        "commander": "北方方面军与卢加战役集群；8月底方面军编制调整见事件",
+        "men": null,
+        "tanks": null,
+        "aircraft": null,
+        "guns": null,
+        "divisions": "西北与北方方面军、卢加战役集群及波罗的海舰队",
+        "asOf": "1941年7—8月",
+        "losses": {
+          "killed": "未采用同口径数字",
+          "wounded": "未采用同口径数字"
+        },
+        "note": "卢加阻击与芬军两路进攻并行；塔林撤离的是不同陆海军和居民群体。"
+      },
+      "DE": {
+        "name": "德国",
+        "commander": "勒布（北方集团军群）；各集团军分轴推进",
+        "men": null,
+        "tanks": null,
+        "aircraft": null,
+        "guns": null,
+        "divisions": "第18、16集团军及第4装甲集群，关键摩托化军分轴推进",
+        "asOf": "1941年7—8月",
+        "losses": {
+          "killed": "未采用同口径数字",
+          "wounded": "未采用同口径数字"
+        },
+        "note": "卢加阻击与芬军两路进攻并行；塔林撤离的是不同陆海军和居民群体。"
+      },
+      "FI": {
+        "name": "芬兰",
+        "commander": "曼纳海姆；各集群与军指挥另有更替",
+        "men": null,
+        "tanks": null,
+        "aircraft": null,
+        "guns": null,
+        "divisions": "卡累利阿集团军及独立的地峡第II、第IV军",
+        "asOf": "1941年7—8月",
+        "losses": {
+          "killed": "未采用同口径数字",
+          "wounded": "未采用同口径数字"
+        },
+        "note": "本表仅列本战区有关部队；未以全芬军总数替代地峡或斯维里河一线兵力。"
+      },
+      "ES": {
+        "name": "西班牙志愿部队",
+        "commander": "蓝色师团及后来的留驻军团分开记录",
+        "men": null,
+        "tanks": null,
+        "aircraft": null,
+        "guns": null,
+        "divisions": "尚未进入本战区",
+        "asOf": "1941年7—8月",
+        "losses": {
+          "killed": "未采用同口径数字",
+          "wounded": "未采用同口径数字"
+        },
+        "note": "不能把轮换累计人数、某次战斗投入人数和某日全师兵力混为同一个数字。"
+      }
+    },
+    "encirclement": {
+      "SU": {
+        "name": "苏联",
+        "commander": "朱可夫（9月13日起）；10月指挥交接见事件",
+        "men": null,
+        "tanks": null,
+        "aircraft": null,
+        "guns": null,
+        "divisions": "列宁格勒方面军第23、42、55集团军；外围第54集团军及滨海守军",
+        "asOf": "1941年9月",
+        "losses": {
+          "killed": "未采用同口径数字",
+          "wounded": "未采用同口径数字"
+        },
+        "note": "9月8日陆上封锁形成，奥列舍克和奥拉宁鲍姆继续抵抗；第67集团军番号此时尚不存在。"
+      },
+      "DE": {
+        "name": "德国",
+        "commander": "勒布（北方集团军群）；屈希勒尔（第18集团军）",
+        "men": null,
+        "tanks": null,
+        "aircraft": null,
+        "guns": null,
+        "divisions": "第18集团军、第4装甲集群与第16集团军有关部队",
+        "asOf": "1941年9月",
+        "losses": {
+          "killed": "未采用同口径数字",
+          "wounded": "未采用同口径数字"
+        },
+        "note": "9月8日陆上封锁形成，奥列舍克和奥拉宁鲍姆继续抵抗；第67集团军番号此时尚不存在。"
+      },
+      "FI": {
+        "name": "芬兰",
+        "commander": "曼纳海姆；各集群与军指挥另有更替",
+        "men": null,
+        "tanks": null,
+        "aircraft": null,
+        "guns": null,
+        "divisions": "地峡第II、第IV军、卡累利阿集团军有关部队",
+        "asOf": "1941年9月",
+        "losses": {
+          "killed": "未采用同口径数字",
+          "wounded": "未采用同口径数字"
+        },
+        "note": "本表仅列本战区有关部队；未以全芬军总数替代地峡或斯维里河一线兵力。"
+      },
+      "ES": {
+        "name": "西班牙志愿部队",
+        "commander": "蓝色师团及后来的留驻军团分开记录",
+        "men": null,
+        "tanks": null,
+        "aircraft": null,
+        "guns": null,
+        "divisions": "尚未进入本战区",
+        "asOf": "1941年9月",
+        "losses": {
+          "killed": "未采用同口径数字",
+          "wounded": "未采用同口径数字"
+        },
+        "note": "不能把轮换累计人数、某次战斗投入人数和某日全师兵力混为同一个数字。"
+      }
+    },
+    "tikhvin_winter": {
+      "SU": {
+        "name": "苏联",
+        "commander": "霍津（10月下旬起主持列方面军）；梅列茨科夫（第4集团军，后沃方面军）",
+        "men": null,
+        "tanks": null,
+        "aircraft": null,
+        "guns": null,
+        "divisions": "季赫温方向第4、52、54集团军；城内与滨海守军",
+        "asOf": "1941年10—12月",
+        "losses": {
+          "killed": "未采用同口径数字",
+          "wounded": "未采用同口径数字"
+        },
+        "note": "梅列茨科夫11月7日接任第4集团军；12月9日季赫温收复后补给改善仍需运输修复。"
+      },
+      "DE": {
+        "name": "德国",
+        "commander": "勒布（北方集团军群）；屈希勒尔、布施（相关集团军）",
+        "men": null,
+        "tanks": null,
+        "aircraft": null,
+        "guns": null,
+        "divisions": "第16集团军第XXXIX摩托化军等与第18集团军",
+        "asOf": "1941年10—12月",
+        "losses": {
+          "killed": "未采用同口径数字",
+          "wounded": "未采用同口径数字"
+        },
+        "note": "梅列茨科夫11月7日接任第4集团军；12月9日季赫温收复后补给改善仍需运输修复。"
+      },
+      "FI": {
+        "name": "芬兰",
+        "commander": "曼纳海姆；各集群与军指挥另有更替",
+        "men": null,
+        "tanks": null,
+        "aircraft": null,
+        "guns": null,
+        "divisions": "地峡与斯维里河方向守军",
+        "asOf": "1941年10—12月",
+        "losses": {
+          "killed": "未采用同口径数字",
+          "wounded": "未采用同口径数字"
+        },
+        "note": "本表仅列本战区有关部队；未以全芬军总数替代地峡或斯维里河一线兵力。"
+      },
+      "ES": {
+        "name": "西班牙志愿部队",
+        "commander": "蓝色师团及后来的留驻军团分开记录",
+        "men": null,
+        "tanks": null,
+        "aircraft": null,
+        "guns": null,
+        "divisions": "第250步兵师（蓝色师团）",
+        "asOf": "1941年10—12月",
+        "losses": {
+          "killed": "未采用同口径数字",
+          "wounded": "未采用同口径数字"
+        },
+        "note": "不能把轮换累计人数、某次战斗投入人数和某日全师兵力混为同一个数字。"
+      }
+    },
+    "lyuban": {
+      "SU": {
+        "name": "苏联",
+        "commander": "霍津（列）；梅列茨科夫（沃），春夏机关与指挥再调整见事件",
+        "men": null,
+        "tanks": null,
+        "aircraft": null,
+        "guns": null,
+        "divisions": "沃尔霍夫方面军第2突击、4、52、59集团军；列宁格勒方面军第54集团军",
+        "asOf": "1942年1—6月",
+        "losses": {
+          "killed": "未采用同口径数字",
+          "wounded": "未采用同口径数字"
+        },
+        "note": "第2突击集团军两次通道被切断，6月指挥体系瓦解；不拼接不同统计范围的伤亡。"
+      },
+      "DE": {
+        "name": "德国",
+        "commander": "屈希勒尔（1月17日起北方集团军群）；林德曼（后任第18集团军）",
+        "men": null,
+        "tanks": null,
+        "aircraft": null,
+        "guns": null,
+        "divisions": "第18集团军及第I、XXXVIII军等",
+        "asOf": "1942年1—6月",
+        "losses": {
+          "killed": "未采用同口径数字",
+          "wounded": "未采用同口径数字"
+        },
+        "note": "第2突击集团军两次通道被切断，6月指挥体系瓦解；不拼接不同统计范围的伤亡。"
+      },
+      "FI": {
+        "name": "芬兰",
+        "commander": "曼纳海姆；各集群与军指挥另有更替",
+        "men": null,
+        "tanks": null,
+        "aircraft": null,
+        "guns": null,
+        "divisions": "1942年初调整为地峡、奥洛涅茨、马塞尔卡等集群",
+        "asOf": "1942年1—6月",
+        "losses": {
+          "killed": "未采用同口径数字",
+          "wounded": "未采用同口径数字"
+        },
+        "note": "本表仅列本战区有关部队；未以全芬军总数替代地峡或斯维里河一线兵力。"
+      },
+      "ES": {
+        "name": "西班牙志愿部队",
+        "commander": "蓝色师团及后来的留驻军团分开记录",
+        "men": null,
+        "tanks": null,
+        "aircraft": null,
+        "guns": null,
+        "divisions": "第250步兵师（蓝色师团）",
+        "asOf": "1942年1—6月",
+        "losses": {
+          "killed": "未采用同口径数字",
+          "wounded": "未采用同口径数字"
+        },
+        "note": "不能把轮换累计人数、某次战斗投入人数和某日全师兵力混为同一个数字。"
+      }
+    },
+    "sinyavino": {
+      "SU": {
+        "name": "苏联",
+        "commander": "戈沃罗夫（列）；梅列茨科夫（沃）",
+        "men": null,
+        "tanks": null,
+        "aircraft": null,
+        "guns": null,
+        "divisions": "第8集团军、第4近卫步兵军和7月重建的第2突击集团军等",
+        "asOf": "1942年8—10月",
+        "losses": {
+          "killed": "未采用同口径数字",
+          "wounded": "未采用同口径数字"
+        },
+        "note": "北极光是未全面执行的攻城计划；苏军攻势打乱其部署，但并未解围。"
+      },
+      "DE": {
+        "name": "德国",
+        "commander": "屈希勒尔（北方集团军群）；林德曼（18）；曼施泰因（调入第11集团军）",
+        "men": null,
+        "tanks": null,
+        "aircraft": null,
+        "guns": null,
+        "divisions": "第18集团军及北调第11集团军机关和有关部队",
+        "asOf": "1942年8—10月",
+        "losses": {
+          "killed": "未采用同口径数字",
+          "wounded": "未采用同口径数字"
+        },
+        "note": "北极光是未全面执行的攻城计划；苏军攻势打乱其部署，但并未解围。"
+      },
+      "FI": {
+        "name": "芬兰",
+        "commander": "曼纳海姆；各集群与军指挥另有更替",
+        "men": null,
+        "tanks": null,
+        "aircraft": null,
+        "guns": null,
+        "divisions": "地峡与斯维里河阵地守军",
+        "asOf": "1942年8—10月",
+        "losses": {
+          "killed": "未采用同口径数字",
+          "wounded": "未采用同口径数字"
+        },
+        "note": "本表仅列本战区有关部队；未以全芬军总数替代地峡或斯维里河一线兵力。"
+      },
+      "ES": {
+        "name": "西班牙志愿部队",
+        "commander": "蓝色师团及后来的留驻军团分开记录",
+        "men": null,
+        "tanks": null,
+        "aircraft": null,
+        "guns": null,
+        "divisions": "第250步兵师（蓝色师团）",
+        "asOf": "1942年8—10月",
+        "losses": {
+          "killed": "未采用同口径数字",
+          "wounded": "未采用同口径数字"
+        },
+        "note": "不能把轮换累计人数、某次战斗投入人数和某日全师兵力混为同一个数字。"
+      }
+    },
+    "iskra": {
+      "SU": {
+        "name": "苏联",
+        "commander": "戈沃罗夫（列）；梅列茨科夫（沃）",
+        "men": 302800,
+        "tanks": null,
+        "aircraft": null,
+        "guns": null,
+        "divisions": "第67集团军与第2突击集团军主攻，第8集团军协助牵制",
+        "asOf": "1943年1月12日，火花行动参战部分",
+        "losses": {
+          "killed": "未采用同口径数字",
+          "wounded": "未采用同口径数字"
+        },
+        "note": "火花行动开始兵力302,800：列方面军参战部分133,300，沃方面军参战部分169,500，含指定航空集团军飞行人员；不是两个方面军全军总数。见克里沃舍耶夫等2010年p.118、独联体统计委员会2025年p.69。1月12—30日军事减员另见会师事件深入阅读，不与平民死亡相加。"
+      },
+      "DE": {
+        "name": "德国",
+        "commander": "屈希勒尔（北方集团军群）；林德曼（第18集团军）",
+        "men": null,
+        "tanks": null,
+        "aircraft": null,
+        "guns": null,
+        "divisions": "第18集团军湖南岸守军及增援",
+        "asOf": "1943年1月",
+        "losses": {
+          "killed": "未采用同口径数字",
+          "wounded": "未采用同口径数字"
+        },
+        "note": "1月18日打通陆上走廊，姆加和南侧高地仍属德军；这是破围而非完全解围。"
+      },
+      "FI": {
+        "name": "芬兰",
+        "commander": "曼纳海姆；各集群与军指挥另有更替",
+        "men": null,
+        "tanks": null,
+        "aircraft": null,
+        "guns": null,
+        "divisions": "地峡与斯维里河守军",
+        "asOf": "1943年1月",
+        "losses": {
+          "killed": "未采用同口径数字",
+          "wounded": "未采用同口径数字"
+        },
+        "note": "本表仅列本战区有关部队；未以全芬军总数替代地峡或斯维里河一线兵力。"
+      },
+      "ES": {
+        "name": "西班牙志愿部队",
+        "commander": "蓝色师团及后来的留驻军团分开记录",
+        "men": null,
+        "tanks": null,
+        "aircraft": null,
+        "guns": null,
+        "divisions": "第250步兵师（蓝色师团）",
+        "asOf": "1943年1月",
+        "losses": {
+          "killed": "未采用同口径数字",
+          "wounded": "未采用同口径数字"
+        },
+        "note": "不能把轮换累计人数、某次战斗投入人数和某日全师兵力混为同一个数字。"
+      }
+    },
+    "corridor_1943": {
+      "SU": {
+        "name": "苏联",
+        "commander": "戈沃罗夫（列）；梅列茨科夫（沃）",
+        "men": null,
+        "tanks": null,
+        "aircraft": null,
+        "guns": null,
+        "divisions": "列宁格勒、沃尔霍夫两方面军有关集团军及近卫第30步兵军",
+        "asOf": "1943年2—12月",
+        "losses": {
+          "killed": "未采用同口径数字",
+          "wounded": "未采用同口径数字"
+        },
+        "note": "红博尔和姆加攻势受阻；9月夺取部分高地，50.1仍属德军，铁路炮击威胁未彻底消失。"
+      },
+      "DE": {
+        "name": "德国",
+        "commander": "屈希勒尔（北方集团军群）；林德曼（第18集团军）",
+        "men": null,
+        "tanks": null,
+        "aircraft": null,
+        "guns": null,
+        "divisions": "第18集团军及战区内有关部队",
+        "asOf": "1943年2—12月",
+        "losses": {
+          "killed": "未采用同口径数字",
+          "wounded": "未采用同口径数字"
+        },
+        "note": "红博尔和姆加攻势受阻；9月夺取部分高地，50.1仍属德军，铁路炮击威胁未彻底消失。"
+      },
+      "FI": {
+        "name": "芬兰",
+        "commander": "曼纳海姆；各集群与军指挥另有更替",
+        "men": null,
+        "tanks": null,
+        "aircraft": null,
+        "guns": null,
+        "divisions": "地峡、奥洛涅茨等集群",
+        "asOf": "1943年2—12月",
+        "losses": {
+          "killed": "未采用同口径数字",
+          "wounded": "未采用同口径数字"
+        },
+        "note": "本表仅列本战区有关部队；未以全芬军总数替代地峡或斯维里河一线兵力。"
+      },
+      "ES": {
+        "name": "西班牙志愿部队",
+        "commander": "蓝色师团及后来的留驻军团分开记录",
+        "men": null,
+        "tanks": null,
+        "aircraft": null,
+        "guns": null,
+        "divisions": "第250步兵师（蓝色师团）",
+        "asOf": "1943年2—12月",
+        "losses": {
+          "killed": "未采用同口径数字",
+          "wounded": "未采用同口径数字"
+        },
+        "note": "不能把轮换累计人数、某次战斗投入人数和某日全师兵力混为同一个数字。"
+      }
+    },
+    "liberation": {
+      "SU": {
+        "name": "苏联",
+        "commander": "戈沃罗夫（列）；梅列茨科夫（沃）",
+        "men": null,
+        "tanks": null,
+        "aircraft": null,
+        "guns": null,
+        "divisions": "第2突击、42、67集团军与沃尔霍夫方面军第59、8、54集团军，波罗的海舰队",
+        "asOf": "1944年1月",
+        "losses": {
+          "killed": "未采用同口径数字",
+          "wounded": "未采用同口径数字"
+        },
+        "note": "1月27日完全解围；1月底金吉谢普与巴捷茨卡亚尚未解放，不向本包内倒填二月战果。"
+      },
+      "DE": {
+        "name": "德国",
+        "commander": "屈希勒尔；1月31日莫德尔接任北方集团军群",
+        "men": null,
+        "tanks": null,
+        "aircraft": null,
+        "guns": null,
+        "divisions": "第18集团军；集团军群由屈希勒尔指挥至1月31日后交莫德尔",
+        "asOf": "1944年1月",
+        "losses": {
+          "killed": "未采用同口径数字",
+          "wounded": "未采用同口径数字"
+        },
+        "note": "1月27日完全解围；1月底金吉谢普与巴捷茨卡亚尚未解放，不向本包内倒填二月战果。"
+      },
+      "FI": {
+        "name": "芬兰",
+        "commander": "曼纳海姆；各集群与军指挥另有更替",
+        "men": null,
+        "tanks": null,
+        "aircraft": null,
+        "guns": null,
+        "divisions": "北部阵地仍在；本战役不提前展示1944年6月地峡攻势",
+        "asOf": "1944年1月",
+        "losses": {
+          "killed": "未采用同口径数字",
+          "wounded": "未采用同口径数字"
+        },
+        "note": "本表仅列本战区有关部队；未以全芬军总数替代地峡或斯维里河一线兵力。"
+      },
+      "ES": {
+        "name": "西班牙志愿部队",
+        "commander": "蓝色师团及后来的留驻军团分开记录",
+        "men": null,
+        "tanks": null,
+        "aircraft": null,
+        "guns": null,
+        "divisions": "西班牙志愿军团，规模不同于已撤离的师团",
+        "asOf": "1944年1月",
+        "losses": {
+          "killed": "未采用同口径数字",
+          "wounded": "未采用同口径数字"
+        },
+        "note": "不能把轮换累计人数、某次战斗投入人数和某日全师兵力混为同一个数字。"
+      }
+    }
+  },
+  "sources": [
+    "mil_cmh_decision_2",
+    "mil_cmh_decision_8",
+    "mil_cmh_decision_20",
+    "mil_reglib_1943",
+    "mil_cmh_defeat_12",
+    "mil_fndu_2026",
+    "mil_ganino_2025",
+    "mil_krivosheev_2010",
+    "mil_cisstat_2025"
+  ]
+}

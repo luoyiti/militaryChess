@@ -1,0 +1,170 @@
+[
+  {
+    "id": "cn.third_war_area", "side": "CN", "echelon": "command", "type": "hq", "parent": null,
+    "name": { "zh": "第三战区（阶段性指挥关系）", "short": "第三战区" },
+    "commander": { "zh": "冯玉祥（前期）／蒋介石（9月后兼任）" },
+    "active": { "from": "1937-08-13T09:00" }, "display": "container", "model": "inf_allied", "track": [], "schematic": true,
+    "history": "上海战事由多个集团军和陆续增援的军师共同承担。战区长官及作战指挥关系在会战中调整，本树只列有依据的代表编制，不是全量序列。未确证军级链的师直接列于战区，不据地理位置补造隶属。中国军队最高统帅为蒋介石；不能将某一主官写成全役任期不变。",
+    "sources": ["sanlian_chronology_2005", "nmm_shanghai_overview"], "confidence": "medium"
+  },
+  {
+    "id": "cn.9army", "side": "CN", "echelon": "army", "type": "hq", "parent": "cn.third_war_area",
+    "name": { "zh": "第9集团军", "short": "第9集团军" }, "commander": { "zh": "张治中（前期）／朱绍良（后期）" },
+    "active": { "from": "1937-08-13T09:00" }, "display": "container", "model": "inf_allied", "track": [], "schematic": true,
+    "history": "负责早期虹口、杨树浦及闸北作战的主要指挥编组。次级编年8月23日条明确列36、87、88师受其前期作战指挥，因此在静态树中置于其下；这不表示三师全役从未调隶，也不据此推算集团军总人数。",
+    "sources": ["sanlian_chronology_2005", "division88_review_2018"], "confidence": "medium"
+  },
+  {
+    "id": "cn.8army", "side": "CN", "echelon": "army", "type": "hq", "parent": "cn.third_war_area",
+    "name": { "zh": "第8集团军（南侧责任说明）", "short": "第8集团军" }, "commander": { "zh": "张发奎" },
+    "active": { "from": "1937-08-13T09:00" }, "display": "container", "model": "inf_allied", "schematic": true,
+    "track": [],
+    "history": "承担浦东、苏州河以南及杭州湾一带警戒与作战任务。本节点仅在编制树说明南侧责任地域，不绘地图棋子或伪造司令部地址；本轮已读材料不足以展开全部所属军师及后续位置，因而不虚填下属、兵力或固定驻地，也不据缺少轨迹宣称集团军停战或覆灭。",
+    "sources": ["sanlian_chronology_2005"], "confidence": "medium"
+  },
+  {
+    "id": "cn.15army", "side": "CN", "echelon": "army", "type": "hq", "parent": "cn.third_war_area",
+    "name": { "zh": "第15集团军", "short": "第15集团军" }, "commander": { "zh": "陈诚" },
+    "active": { "from": "1937-08-22T00:00" }, "display": "container", "model": "inf_allied", "track": [], "schematic": true,
+    "history": "次级编年8月22日条记其成立并指挥第98、11等师。此处以成立阶段的作战关系组织代表节点，置信度为中；不由98师的编制归属反推出第18军全军始终隶属本集团军。北郊轨迹是作战地域连接，不是逐日指挥所移动记录。",
+    "sources": ["sanlian_chronology_2005"], "confidence": "medium"
+  },
+  {
+    "id": "cn.87div", "side": "CN", "echelon": "division", "type": "infantry", "parent": "cn.9army",
+    "name": { "zh": "第87师", "short": "87师" }, "commander": { "zh": "王敬久（前期）" },
+    "active": { "from": "1937-08-13T09:00" }, "model": "inf_allied", "schematic": true, "modelNote": "通用步兵象征，不复原1937制服、武器配备与人数。",
+    "equipment": [{ "id": "cn_infantry" }],
+    "track": [
+      { "at": "1937-08-13T09:00", "pos": "@jiangwan", "status": "active", "note": "先期部署地域；09:00仅播放起点" },
+      { "at": "1937-08-18T12:00", "pos": "@yangshupu", "status": "engaged", "note": "8月中旬市区围攻地域示意" },
+      { "at": "1937-08-26T12:00", "pos": "@wusong", "status": "engaged", "note": "登陆后北调抗击地域，不表示全师同时在一点" },
+      { "at": "1937-09-12T12:00", "pos": "@wenzaobang", "status": "engaged", "note": "北郊河浜防御阶段概括" },
+      { "at": "1937-10-27T12:00", "pos": "@suzhou_creek", "status": "withdrawing", "note": "大场失守后退向苏州河一线" },
+      { "at": "1937-11-09T12:00", "pos": "@nanxiang", "status": "withdrawing", "note": "西撤方向示意，非逐日实测" },
+      { "at": "1937-11-12T23:59", "pos": "@kunshan", "status": "withdrawing", "note": "地图西部退却边缘示意，部队未被全师消灭" }
+    ],
+    "history": "先期在江湾、杨树浦等地域围攻日军据点，沿江登陆后参与吴淞及北郊防御。前期主官王敬久与后续交接不能理解为全役不变任期。树中第9集团军为前期作战指挥关系。各点是有依据的作战地域在阶段节点上的示意，连接动画不是每日实测阵地。",
+    "sources": ["nmm_shanghai_overview", "sanlian_chronology_2005", "division88_review_2018"], "confidence": "medium"
+  },
+  {
+    "id": "cn.88div", "side": "CN", "echelon": "division", "type": "infantry", "parent": "cn.9army",
+    "name": { "zh": "第88师（主力）", "short": "88师" }, "commander": { "zh": "孙元良" },
+    "active": { "from": "1937-08-13T09:00" }, "model": "inf_allied", "schematic": true, "equipment": [{ "id": "cn_infantry" }],
+    "track": [
+      { "at": "1937-08-13T09:00", "pos": "@baziqiao", "status": "engaged", "note": "市区战初期地域" },
+      { "at": "1937-08-22T12:00", "pos": "@zhabei", "status": "engaged", "note": "闸北作战地域概括" },
+      { "at": "1937-10-25T12:00", "pos": "@north_station", "status": "engaged", "note": "大场失守前北站防御地域" },
+      { "at": "1937-10-27T12:00", "pos": [121.44, 31.23], "status": "withdrawing", "note": "主力退至苏州河南侧的地域示意；四行另列分队" },
+      { "at": "1937-11-09T12:00", "pos": "@qingpu", "status": "withdrawing", "note": "11月主力西撤方向，非指每个团同路同行" },
+      { "at": "1937-11-12T23:59", "pos": [120.92, 31.25], "status": "withdrawing", "note": "西部退却边缘示意，未终止为羁留" }
+    ],
+    "history": "主力在闸北、八字桥与北站等地域作战，大场失守后退至苏州河以南并继续会战。第524团第一营等四行守备分队仅为其一部分，实际约四百余人；该分队后来撤入租界被羁留，不是88师全师投降、全歼或停战。前期隶属采用第9集团军的作战指挥摘录。",
+    "sources": ["nmm_shanghai_overview", "sihang_museum_2024", "division88_review_2018", "sanlian_chronology_2005"], "confidence": "high"
+  },
+  {
+    "id": "cn.36div", "side": "CN", "echelon": "division", "type": "infantry", "parent": "cn.9army",
+    "name": { "zh": "第36师", "short": "36师" }, "commander": { "zh": "宋希濂" },
+    "active": { "from": "1937-08-19T00:00" }, "model": "inf_allied", "schematic": true, "equipment": [{ "id": "cn_infantry" }],
+    "track": [
+      { "at": "1937-08-19T00:00", "pos": "@jiangwan", "status": "active", "note": "16日到达与19日投入不同；以19日为保守展示起点" },
+      { "at": "1937-08-21T12:00", "pos": "@huishan_wharf", "status": "engaged", "note": "汇山码头攻势地域，日级示意" },
+      { "at": "1937-08-25T12:00", "pos": "@jiangwan", "status": "engaged", "note": "市区与北郊接合地域概括" },
+      { "at": "1937-09-12T12:00", "pos": "@miaohang", "status": "engaged", "note": "河浜防线阶段概括，非精测日阵地" },
+      { "at": "1937-10-28T12:00", "pos": "@suzhou_creek", "status": "withdrawing", "note": "主力后撤地域" },
+      { "at": "1937-11-12T23:59", "pos": "@qingpu", "status": "withdrawing", "note": "西撤通道示意" }
+    ],
+    "history": "8月中旬增援上海，随后参加汇山码头等市区攻势。到达、首次投入和具体攻击是不同节点，本棋子从19日显示，不表示该时刻就是全师登陆或抵沪的实钟。前期作战指挥置于第9集团军，后续位置仅概括防御和西撤地域。",
+    "sources": ["sanlian_chronology_2005", "division88_review_2018"], "confidence": "medium"
+  },
+  {
+    "id": "cn.98div", "side": "CN", "echelon": "division", "type": "infantry", "parent": "cn.15army",
+    "name": { "zh": "第98师", "short": "98师" }, "commander": { "zh": "夏楚中" },
+    "active": { "from": "1937-08-23T00:00", "to": "1937-09-18T23:59" }, "model": "inf_allied", "schematic": true, "equipment": [{ "id": "cn_infantry" }],
+    "track": [
+      { "at": "1937-08-23T00:00", "pos": [121.464, 31.425], "status": "engaged", "note": "狮子林反登陆地域内陆上显示点，与地名锚点分开；坐标仅为示意，不是史料实测阵地，确切抵沪日未定" },
+      { "at": "1937-08-30T12:00", "pos": "@yuepu", "status": "engaged", "note": "北郊作战地域示意" },
+      { "at": "1937-09-07T12:00", "pos": "@luodian", "status": "engaged", "note": "母师仍作战；宝山营结局另列" },
+      { "at": "1937-09-18T12:00", "pos": "@liuhang", "status": "engaged", "note": "北郊防御阶段概括" }
+    ],
+    "history": "编制上属第18军，姚子青营为其292旅583团第3营。次级编年记8月22日受陈诚第15集团军作战指挥，故静态树直接列于第15集团军，不据此补造第18军整军的全役父级。参与狮子林、月浦、罗店一带抵抗；首点与狮子林地名锚点分开，只是地域内陆上显示位置，不是史料实测阵地。宝山守城营瓦解不等于全师覆灭。地图显示证据窗止于9月18日，随后48小时淡出仅表示后续位置未核，不是全师停战、撤退或覆灭的史实日期。",
+    "sources": ["sanlian_chronology_2005", "xinhua_yao_2018"], "confidence": "medium"
+  },
+  {
+    "id": "cn.11div", "side": "CN", "echelon": "division", "type": "infantry", "parent": "cn.15army",
+    "name": { "zh": "第11师", "short": "11师" },
+    "active": { "from": "1937-08-23T00:00", "to": "1937-09-12T23:59" }, "model": "inf_allied", "schematic": true, "equipment": [{ "id": "cn_infantry" }],
+    "track": [
+      { "at": "1937-08-23T00:00", "pos": "@luodian", "status": "engaged", "note": "罗店反登陆阶段示意，不是首次抵达时刻" },
+      { "at": "1937-09-12T12:00", "pos": "@liuhang", "status": "engaged", "note": "北郊收缩防御地域概括" }
+    ],
+    "history": "罗店反登陆作战的代表师之一。依据8月22日的次级编年表示受第15集团军阶段性作战指挥，不再补写本轮未确认的军级隶属及主官更替。两点只概括北郊作战地域，未读取逐日战斗详报，不能将连接动画当成逐日师部位置。地图显示证据窗止于9月12日，随后48小时淡出仅表示后续位置未核，不是部队停战、撤退或覆灭的史实日期。",
+    "sources": ["sanlian_chronology_2005"], "confidence": "medium"
+  },
+  {
+    "id": "cn.51div", "side": "CN", "echelon": "division", "type": "infantry", "parent": "cn.third_war_area",
+    "name": { "zh": "第51师", "short": "51师" }, "commander": { "zh": "王耀武" },
+    "active": { "from": "1937-09-29T00:00", "to": "1937-09-30T23:59" }, "model": "inf_allied", "schematic": true, "equipment": [{ "id": "cn_infantry" }],
+    "track": [{ "at": "1937-09-29T00:00", "pos": "@luodian", "status": "engaged", "note": "《申报》相关记述可证此日前已在罗店；显示起点不是首次到沪日" }],
+    "history": "杨建党所引9月29、30日《申报》记王耀武第51师在罗店作战，足以支持代表性地域，不足确定最初抵沪日、满编人数及全役军级调隶。故从29日保守显示并直接列于战区，未展开未经本轮材料核实的军级链。单点只作该阶段标记；地图显示证据窗止于9月30日，随后48小时淡出仅表示后续位置未核，不是部队停战、撤退或覆灭的史实日期。",
+    "sources": ["yang_shenbao_2017"], "confidence": "medium"
+  },
+  {
+    "id": "cn.18div", "side": "CN", "echelon": "division", "type": "infantry", "parent": "cn.third_war_area",
+    "name": { "zh": "第18师", "short": "18师" }, "commander": { "zh": "朱耀华" },
+    "active": { "from": "1937-10-25T00:00", "to": "1937-10-27T23:59" }, "model": "inf_allied", "schematic": true,
+    "track": [
+      { "at": "1937-10-25T00:00", "pos": "@dachang", "status": "engaged", "note": "大场最后阶段的代表标记，不宣称是抵沪日" },
+      { "at": "1937-10-27T12:00", "pos": "@jiangwan", "status": "withdrawing", "note": "失守后撤退地域示意，不设全师覆灭" }
+    ],
+    "history": "第18师是大场最后阶段的代表部队。确切到沪日及军级隶属未由本轮已读材料充分证明，故直接列于第三战区；这里的第18师不是第18军。只表示大场与江湾方向的阶段性行动，不把主官后续命运、未统一损失和精确阵地补成定论。地图显示证据窗止于10月27日，随后48小时淡出仅表示后续位置未核，不是全师停战或覆灭的史实日期。",
+    "sources": ["sanlian_chronology_2005"], "confidence": "medium"
+  },
+  {
+    "id": "cn.21army", "side": "CN", "echelon": "army", "type": "hq", "parent": "cn.third_war_area",
+    "name": { "zh": "第21集团军（桂军反击地域）", "short": "第21集团军" },
+    "active": { "from": "1937-10-21T00:00", "to": "1937-10-26T23:59" }, "model": "inf_allied", "schematic": true,
+    "track": [
+      { "at": "1937-10-21T00:00", "pos": "@wenzaobang", "status": "engaged", "note": "21—23日反击地域示意，不是司令部地址" },
+      { "at": "1937-10-26T12:00", "pos": "@dachang", "status": "withdrawing", "note": "反击未改变大场战局；不代表全部部队同路" }
+    ],
+    "history": "10月21日前后桂军在蕰藻浜—大场方向反击。当前具体日期主要来自一篇可读次级编年，故置信度中，不扩写未经双核的全军人数、所属师数与伤亡。军级标记代表行动地域，绝非以该点复原集团军指挥所。地图显示证据窗止于10月26日，随后48小时淡出仅表示后续位置未核，不是部队停战或覆灭的史实日期。",
+    "sources": ["sanlian_chronology_2005"], "confidence": "medium"
+  },
+  {
+    "id": "cn.67corps", "side": "CN", "echelon": "corps", "type": "hq", "parent": "cn.third_war_area",
+    "name": { "zh": "第67军（松江阻击地域）", "short": "67军" },
+    "active": { "from": "1937-11-08T00:00" }, "model": "inf_allied", "schematic": true,
+    "track": [
+      { "at": "1937-11-08T00:00", "pos": "@songjiang", "status": "engaged", "note": "松江阻击的代表阶段，确切抵达钟点未定" },
+      { "at": "1937-11-10T12:00", "pos": "@qingpu", "status": "withdrawing", "note": "退却方向示意，不据争议记载设全军毁灭" }
+    ],
+    "history": "金山卫登陆后，第67军与松江方向阻击相关。本轮只确认这一地域及编年脉络，未将军长阵亡日期、指挥争议或全军覆灭写成定论；第67军亦不是8月编年中另提的第67师。退却点只为阅读方向，不是已核实的全军行军表。",
+    "sources": ["sanlian_chronology_2005"], "confidence": "medium"
+  },
+  {
+    "id": "cn.baoshan_battalion", "side": "CN", "echelon": "group", "type": "fortress", "parent": "cn.98div",
+    "name": { "zh": "第98师583团第3营（宝山守军）", "short": "宝山营" }, "commander": { "zh": "姚子青" },
+    "active": { "from": "1937-08-28T00:00" }, "model": "inf_allied", "schematic": true,
+    "track": [
+      { "at": "1937-08-28T00:00", "pos": "@baoshan", "status": "active", "note": "守备分队叙事起点为示意；不是确切进城时刻" },
+      { "at": "1937-09-06T12:00", "pos": "@baoshan", "status": "encircled", "note": "最后守城阶段" },
+      { "at": "1937-09-07T12:00", "pos": "@baoshan", "status": "destroyed", "note": "9月7日战术单位瓦解；日精度，不表示所有官兵死亡" }
+    ],
+    "history": "姚子青为第18军98师292旅583团第3营营长。新华社传记明确至9月7日早晨宝山县城失守、姚阵亡，排除部分次级编年9月5日误记。destroyed指守城营作为战术单位瓦解，不等于无一生还，已有伤员后送；更不能据此将整个98师设为覆灭。引擎没有营级梯队，采用分队符号。",
+    "sources": ["xinhua_yao_2018"], "confidence": "high"
+  },
+  {
+    "id": "cn.sihang_detachment", "side": "CN", "echelon": "group", "type": "fortress", "parent": "cn.88div",
+    "name": { "zh": "第88师524团第一营等（四行守备分队）", "short": "四行孤军" },
+    "commander": { "zh": "谢晋元（中校团附）／杨瑞符（第一营营长）" },
+    "active": { "from": "1937-10-27T00:00" }, "model": "inf_allied", "schematic": true, "equipment": [{ "id": "cn_infantry" }],
+    "track": [
+      { "at": "1937-10-27T00:00", "pos": "@sihang", "status": "encircled", "note": "26日深夜至27日进驻；以27日日级上场，不是午夜实钟" },
+      { "at": "1937-10-30T12:00", "pos": "@sihang", "status": "encircled", "note": "保留仓库守备节点，不以动画表现未经核实的送旗路线" },
+      { "at": "1937-10-31T11:59", "pos": "@sihang", "status": "encircled", "note": "仅防止跨日插值漂移的显示哨点，保持仓库至日级切换前；11:59不是史实撤离实钟，下一分钟不是已核过桥路线" },
+      { "at": "1937-10-31T12:00", "pos": "@settlement", "status": "interned", "note": "依馆文10月31日日精度表示，12:00仅显示编排；另有31日夜至11月1日凌晨说。点位为租界羁留地域近似" }
+    ],
+    "history": "守备分队以88师262旅524团第一营为骨干，团附谢晋元与营长杨瑞符指挥，实际约四百余人，馆文420余，另有414等统计，对外称八百，不填800确数。馆文采用10月31日凌晨撤入公共租界，另有31日夜至11月1日凌晨说；此处31日日精度切interned；切换前一分钟哨点仅防跨日插值漂移，不是撤离实钟或已核过桥路线。羁留不是向日军投降，亦非全88师终止。",
+    "sources": ["sihang_museum_2024", "wu_sihang_2015", "shanghai_archive_sihang", "shanghai_sites_2017"], "confidence": "high"
+  }
+]

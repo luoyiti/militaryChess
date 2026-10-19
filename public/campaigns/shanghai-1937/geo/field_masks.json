@@ -1,0 +1,16 @@
+{
+ "w": 2048,
+ "h": 2030,
+ "cell": 2,
+ "dtype": "uint8",
+ "order": "row-major (j*w+i)",
+ "cellCenter": "((i+0.5)*cell, (j+0.5)*cell) 世界坐标",
+ "bits": {
+  "4": "陆地",
+  "0": "CN",
+  "1": "JP",
+  "6": "其余陆地"
+ },
+ "source": "tools/geo/masks.py: campaign CN/INT countries and Natural Earth land, with local DEM-supported Baoshan land repair and explicitly schematic river corridors; see pipeline/geo/evidence.json",
+ "approximation": "Modern physical geography, not measured 1937 coast or river banks. Foreign-defended core is a conservative schematic inset, not whole concessions or exact defence lines. JP native-home bit is intentionally zero in this Chinese bbox."
+}

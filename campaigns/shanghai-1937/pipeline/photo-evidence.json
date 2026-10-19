@@ -1,0 +1,59 @@
+{
+  "excluded": [
+    {
+      "commons": "File:Shanghai1937IJA hangzhou bay.jpg",
+      "reason": "文件描述将金山卫登陆标作1937年8—10月，与11月5日开始登陆的档案依据冲突；不作为该日实景配图。"
+    },
+    {
+      "commons": "File:Australian War Memorial 096905.jpg",
+      "reason": "原编目日期为1945年9月17日，地点是新不列颠获释人员营地，不是1937年四行仓库战斗现场。"
+    }
+  ],
+  "accepted": [
+    {
+      "commons": "File:Shanghai1937KMT street88th.jpg",
+      "permissionTemplate": "PD-ROC-oldphoto",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Shanghai1937KMT_street88th.jpg",
+      "originalImageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Shanghai1937KMT_street88th.jpg",
+      "metadata": {
+        "ImageDescription": "Soldiers from the 88th Division looking over a street.",
+        "DateTimeOriginal": "1930s date QS:P,+1930-00-00T00:00:00Z/8",
+        "Credit": "Soldiers of Chinese 88th Division gathering at a street corner in Shanghai, China, 1937 ，WWII Database",
+        "Artist": "Unknown author Unknown author",
+        "LicenseShortName": "Public domain"
+      },
+      "filePageWikitext": "{{Information\n|Description\t= Soldiers from the 88th Division looking over a street.\n|Source\t\t= [http://ww2db.com/image.php?image_id=7771 Soldiers of Chinese 88th Division gathering at a street corner in Shanghai, China, 1937]，WWII Database\n|Date\t\t= {{other date|s|1930}}\n|Author\t\t= {{unknown|author}}\n|Permission\t= {{PD-ROC-oldphoto}}\n|other_versions\t=\n}}\n\n[[Category:Battle of Shanghai - Chinese forces]]\n[[Category:Stahlhelm M35 in Chinese service]]",
+      "limits": "1937年上海街角阵地上的中国军人；Commons编目为第88师，具体拍摄日未详。"
+    },
+    {
+      "commons": "File:Shanghai1937KMT trench.jpg",
+      "permissionTemplate": "PD-ROC-oldphoto",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Shanghai1937KMT_trench.jpg",
+      "originalImageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Shanghai1937KMT_trench.jpg",
+      "metadata": {
+        "ImageDescription": "A Chinese trench in the Battle of Shanghai, 1937",
+        "DateTimeOriginal": "1937",
+        "Credit": "A Chinese trench in the Battle of Shanghai, 1937 ，WWII Database",
+        "Artist": "Unknown author Unknown author",
+        "LicenseShortName": "Public domain"
+      },
+      "filePageWikitext": "{{Information\n|Description\t= A Chinese trench in the Battle of Shanghai, 1937\n|Source\t\t= [http://ww2db.com/image.php?image_id=7770 A Chinese trench in the Battle of Shanghai, 1937]，WWII Database\n|Date\t\t= 1937\n|Author\t\t= {{unknown|author}}\n|Permission\t= {{PD-ROC-oldphoto}}\n|other_versions\t=\n}}\n\n[[Category:Battle of Shanghai - Chinese forces]]",
+      "limits": "1937年淞沪会战中的中国军队壕阵；具体日期与阵地位置未详。"
+    },
+    {
+      "commons": "File:1937 Japan navy flagship in Shanghai.jpg",
+      "permissionTemplate": "PD-Japan-oldphoto",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:1937_Japan_navy_flagship_in_Shanghai.jpg",
+      "originalImageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6e/1937_Japan_navy_flagship_in_Shanghai.jpg",
+      "metadata": {
+        "ImageDescription": "1937 Japan navy flagship in Shanghai. 上海沖の海防艦「出雲」(1937年撮影)：日本海軍の第3艦隊(1937年10月以降は支那方面艦隊)旗艦で，排水量1万トン、主砲は20.3cm砲 連装２基４門の旧式艦。上海の日本人居留民保護を目的に，上海の中国軍を砲撃した。",
+        "DateTimeOriginal": "1937",
+        "Credit": "http://www.geocities.jp/torikai007/japanchina/1937.html",
+        "Artist": "Unknown author Unknown author",
+        "LicenseShortName": "Public domain"
+      },
+      "filePageWikitext": "{{Information\n|Description={{en|1=1937 Japan navy flagship in Shanghai. 上海沖の海防艦「出雲」(1937年撮影)：日本海軍の第3艦隊(1937年10月以降は支那方面艦隊)旗艦で，排水量1万トン、主砲は20.3cm砲 連装２基４門の旧式艦。上海の日本人居留民保護を目的に，上海の中国軍を砲撃した。}}\n|Source=http://www.geocities.jp/torikai007/japanchina/1937.html\n|Author={{unknown|author}}\n|Date=1937\n|Permission={{PD-Japan-oldphoto}}\n|other_versions=\n}}\n\n\n[[Category:Battle of Shanghai]]\n[[Category:Black and white photographs of Shanghai in the 1930s]]\n[[Category:1937 in China]]\n[[Category:Izumo (ship, 1900)]]",
+      "limits": "1937年上海附近的日本海军出云号；照片不用于确定某日锚位或证明受创战果。"
+    }
+  ]
+}

@@ -1,0 +1,2016 @@
+[
+  {
+    "id": "e.barbarossa_north_starts",
+    "at": "1941-06-22T12:00",
+    "precision": "day",
+    "category": "movement",
+    "importance": 1,
+    "title": {
+      "zh": "战略序章：北方集团军群自东普鲁士进攻",
+      "orig": "战略序章：北方集团军群自东普鲁士进攻"
+    },
+    "body": "德军北方集团军群自东普鲁士攻入波罗的海地区。第十八集团军沿海推进，第十六集团军负责东侧联系，第四装甲集群向西德维纳河和普斯科夫突进。此时列宁格勒尚未被围，地图开始展示的是通向围城的战略前奏。",
+    "place": "@tilsit",
+    "units": [
+      "de.hgr_nord",
+      "de.18a",
+      "de.16a",
+      "de.pzgr4",
+      "su.f_nw"
+    ],
+    "sources": [
+      "mil_latvia_museum",
+      "mil_cmh_decision_2"
+    ],
+    "confidence": "high",
+    "zoomRel": 2.6
+  },
+  {
+    "id": "e.dvinsk_bridges",
+    "at": "1941-06-26T12:00",
+    "precision": "day",
+    "category": "movement",
+    "importance": 2,
+    "title": {
+      "zh": "陶格夫匹尔斯陷落：西德维纳河防线告急",
+      "orig": "陶格夫匹尔斯陷落：西德维纳河防线告急"
+    },
+    "body": "德军推进至陶格夫匹尔斯，城市在六月二十六日被占。西德维纳河未能成为阻止装甲突进的稳定屏障，苏军边撤边组织反击。地图用渡河与向东北延伸的箭头表示作战轴线；夺桥部队的逐分钟行动及战果数字不在此作精确断言。",
+    "place": "@dvinsk",
+    "units": [
+      "de.lvi_mk",
+      "de.pzgr4",
+      "su.27a"
+    ],
+    "sources": [
+      "mil_daugavpils_city",
+      "mil_cmh_atlas_1941"
+    ],
+    "confidence": "medium",
+    "zoomRel": 2.6
+  },
+  {
+    "id": "e.riga_falls",
+    "at": "1941-07-01T12:00",
+    "precision": "day",
+    "category": "movement",
+    "importance": 2,
+    "title": {
+      "zh": "里加被占，德军沿海翼继续北进",
+      "orig": "里加被占，德军沿海翼继续北进"
+    },
+    "body": "里加被德军占领，苏军在波罗的海沿岸的防御继续后撤。第十八集团军随后向爱沙尼亚推进，塔林和波罗的海舰队主基地承受越来越大的陆上压力。占领城市并不意味着当地生活恢复正常，纳粹统治很快对犹太居民实施迫害与屠杀。",
+    "place": "@riga",
+    "units": [
+      "de.18a",
+      "su.8a",
+      "su.kbf"
+    ],
+    "sources": [
+      "mil_latvia_museum",
+      "mil_cmh_decision_2"
+    ],
+    "confidence": "medium",
+    "zoomRel": 2.6
+  },
+  {
+    "id": "e.pskov_falls",
+    "at": "1941-07-09T12:00",
+    "precision": "day",
+    "category": "battle",
+    "importance": 1,
+    "title": {
+      "zh": "奥斯特罗夫激战后，普斯科夫陷落",
+      "orig": "奥斯特罗夫激战后，普斯科夫陷落"
+    },
+    "body": "奥斯特罗夫筑垒地域自七月四日起经历激战，普斯科夫于九日被德军占领。苏军在维利卡亚河一带的抵抗未能阻止北进，列宁格勒西南通道迅速收窄。后方开始把卢加河及其交通节点作为新的阻击支点，以争取组织城市防御的时间。",
+    "place": "@pskov",
+    "units": [
+      "de.xli_mk",
+      "de.pzgr4",
+      "su.11a"
+    ],
+    "sources": [
+      "mil_pskov_museum",
+      "mil_ostrov_museum",
+      "mil_luga_museum"
+    ],
+    "confidence": "high",
+    "zoomRel": 2.6
+  },
+  {
+    "id": "e.luga_defense_begins",
+    "at": "1941-07-10T12:00",
+    "precision": "day",
+    "category": "siege",
+    "importance": 1,
+    "title": {
+      "zh": "卢加防线接战：为列宁格勒争取时间",
+      "orig": "卢加防线接战：为列宁格勒争取时间"
+    },
+    "body": "德军开始在卢加方向遭遇持续抵抗。苏军与动员居民修筑的防御带从纳尔瓦湾方向延伸至伊尔门湖，依托河流、森林和道路节点阻滞推进。守军并没有一条处处完整的工事墙，而是在兵力不足和战线延长的条件下争取宝贵时间。",
+    "place": "@luga",
+    "units": [
+      "su.og_luga",
+      "de.xli_mk",
+      "de.pzgr4"
+    ],
+    "sources": [
+      "mil_luga_museum",
+      "mil_luga_archive"
+    ],
+    "confidence": "high",
+    "zoomRel": 2.6
+  },
+  {
+    "id": "e.karelia_offensive",
+    "at": "1941-07-10T16:00",
+    "precision": "hour",
+    "category": "battle",
+    "importance": 2,
+    "title": {
+      "zh": "芬兰卡累利阿集团军在拉多加湖以北进攻",
+      "orig": "芬兰卡累利阿集团军在拉多加湖以北进攻"
+    },
+    "body": "芬兰卡累利阿集团军在拉多加湖以北发动进攻，第六军担任主突击力量。目标逐步指向湖岸交通线和东卡累利阿，苏军第七集团军被迫应战。芬军行动与德国战略存在协同，但由芬兰统帅部决策，不能把两军画成一支统一指挥的合围军。",
+    "place": "@korpiselka",
+    "units": [
+      "fi.karelian_army",
+      "fi.vi_ak",
+      "fi.vii_ak",
+      "fi.grp_oinonen",
+      "su.7a"
+    ],
+    "sources": [
+      "mil_finn_svir_2011",
+      "mil_fndu_2026"
+    ],
+    "confidence": "high",
+    "zoomRel": 2.6,
+    "mapNote": "原始讲稿记芬兰当地15:00（UTC+2）；本战役统一换算为莫斯科16:00（UTC+3）。"
+  },
+  {
+    "id": "e.soltsy_counterattack",
+    "at": "1941-07-14T12:00",
+    "precision": "day",
+    "category": "battle",
+    "importance": 2,
+    "title": {
+      "zh": "索尔齐反突击：装甲突进遭遇侧翼危机",
+      "orig": "索尔齐反突击：装甲突进遭遇侧翼危机"
+    },
+    "body": "苏军第十一集团军在索尔齐方向组织反突击，第七十和第二〇二师等部参战，迫使德军部分兵力后退。反击揭示快速推进中步兵、补给与侧翼保障脱节的风险。胜利争取了时间，却未建立长期稳定的防线，索尔齐随后仍在七月十九日被占。",
+    "place": "@soltsy",
+    "units": [
+      "su.11a",
+      "de.lvi_mk"
+    ],
+    "sources": [
+      "mil_soltsy_city",
+      "mil_cmh_decision_2"
+    ],
+    "confidence": "medium",
+    "zoomRel": 2.6
+  },
+  {
+    "id": "e.finnish_ii_corps_offensive",
+    "at": "1941-07-31T12:00",
+    "precision": "day",
+    "category": "battle",
+    "importance": 2,
+    "title": {
+      "zh": "芬兰第II军向拉多加湖与武奥克西河推进",
+      "orig": "芬兰第II军向拉多加湖与武奥克西河推进"
+    },
+    "body": "芬兰第二军开始向拉多加湖方向进攻，试图切断湖西北苏军与卡累利阿地峡之间的陆上联系。战斗围绕道路和铁路交会处展开，推进并非毫无阻力的直线冲锋。随后西部第四军的攻势再指向维堡，两路行动共同改变列宁格勒北翼态势。",
+    "place": "@hiitola",
+    "units": [
+      "fi.ii_ak",
+      "su.23a"
+    ],
+    "sources": [
+      "mil_finn_isthmus_2011",
+      "mil_fndu_2026"
+    ],
+    "confidence": "medium",
+    "zoomRel": 2.6
+  },
+  {
+    "id": "e.novgorod_falls",
+    "at": "1941-08-19T12:00",
+    "precision": "day",
+    "category": "battle",
+    "importance": 2,
+    "title": {
+      "zh": "诺夫哥罗德全城被占，南翼局势恶化",
+      "orig": "诺夫哥罗德全城被占，南翼局势恶化"
+    },
+    "body": "诺夫哥罗德的战斗在八月中旬持续进行，十九日全城被德军占领。早先部分城区和克里姆林宫失守，不能与全城战斗结束混作同一天。伊尔门湖以北的门户陷落，使卢加防线东翼及列宁格勒通往内地的铁路交通面临更大压力。",
+    "place": "@novgorod",
+    "units": [
+      "de.16a",
+      "su.11a"
+    ],
+    "sources": [
+      "mil_ganino_2025",
+      "mil_cmh_decision_2"
+    ],
+    "confidence": "medium",
+    "zoomRel": 2.6
+  },
+  {
+    "id": "e.luga_falls",
+    "at": "1941-08-24T12:00",
+    "precision": "day",
+    "category": "battle",
+    "importance": 2,
+    "title": {
+      "zh": "卢加城失守，守军在林沼中撤退与突围",
+      "orig": "卢加城失守，守军在林沼中撤退与突围"
+    },
+    "body": "卢加城被德军占领，但战役集群并未在同一天整体投降。失去连续阵线的部队在林沼中分散撤退、抵抗和突围，部分人员后来进入列宁格勒防御。地图将城市失守与包围圈中的后续战斗分开，避免把防线突破误画成守军瞬间消失。",
+    "place": "@luga",
+    "units": [
+      "su.og_luga",
+      "de.pzgr4"
+    ],
+    "sources": [
+      "mil_luga_archive",
+      "mil_luga_museum"
+    ],
+    "confidence": "medium",
+    "zoomRel": 2.6
+  },
+  {
+    "id": "e.tallinn_evacuation",
+    "at": "1941-08-28T12:00",
+    "precision": "day",
+    "category": "naval",
+    "importance": 1,
+    "title": {
+      "zh": "塔林撤离：舰队与撤退人员穿越雷区",
+      "orig": "塔林撤离：舰队与撤退人员穿越雷区"
+    },
+    "body": "塔林基地撤离进入主要海上航渡阶段，舰艇、运输船和撤退人员向喀琅施塔得转移，在雷区、空袭和海上混乱中付出重大代价。主航渡发生在二十八至二十九日，救援等行动继续到九月上旬；不能把所有船只写成同一晚同时离港。",
+    "place": "@tallinn",
+    "units": [
+      "su.kbf",
+      "su.10sk",
+      "de.18a"
+    ],
+    "sources": [
+      "mil_naval_tallinn"
+    ],
+    "confidence": "high",
+    "zoomRel": 2.6
+  },
+  {
+    "id": "e.vyborg_falls",
+    "at": "1941-08-29T12:00",
+    "precision": "day",
+    "category": "movement",
+    "importance": 2,
+    "title": {
+      "zh": "维堡被芬军占领，地峡战线继续南移",
+      "orig": "维堡被芬军占领，地峡战线继续南移"
+    },
+    "body": "芬军占领维堡，苏军沿卡累利阿地峡继续后撤。维堡在一九四〇年和约后已经属于苏联，不能沿用一九三九年底图把它画成战前芬兰控制区。随后芬军向旧界及部分越界地段推进，但这仍不等于已经与拉多加湖以南的德军会师。",
+    "place": "@vyborg",
+    "units": [
+      "fi.iv_ak",
+      "fi.ii_ak",
+      "su.23a"
+    ],
+    "sources": [
+      "mil_vyborg_sshs",
+      "mil_finlex_1940",
+      "mil_fndu_2026"
+    ],
+    "confidence": "medium",
+    "zoomRel": 2.6
+  },
+  {
+    "id": "e.mga_cut",
+    "at": "1941-09-01T12:00",
+    "precision": "day",
+    "category": "movement",
+    "importance": 2,
+    "title": {
+      "zh": "姆加方向铁路交通被切断",
+      "orig": "Fall von Mga · Кировская железная дорога перерезана"
+    },
+    "body": "八月底至九月初，姆加铁路枢纽及其周围成为争夺重点，通往列宁格勒的常规铁路交通被切断。德军随后向什利谢利堡推进，试图封闭拉多加湖南岸。铁路中断、什利谢利堡失守与九月八日围城开始是相连但不同的节点。",
+    "place": "@mga",
+    "units": [
+      "de.xxxix_mk",
+      "de.20idmot"
+    ],
+    "sources": [
+      "mil_cmh_decision_2",
+      "mil_garf_siege"
+    ],
+    "confidence": "medium",
+    "zoomRel": 5,
+    "mapNote": "按九月初形势展示；不以本事件锚点断言姆加各次易手的精确时刻。"
+  },
+  {
+    "id": "e.finnish_old_border",
+    "at": "1941-09-04T12:00",
+    "precision": "day",
+    "category": "battle",
+    "importance": 2,
+    "title": {
+      "zh": "芬军逼近旧界与卡累利阿筑垒地域",
+      "orig": "Suomen armeija saavuttaa vanhan rajan"
+    },
+    "body": "芬军沿地峡向一九三九年旧国界推进，部分地段越过旧界，与苏军卡累利阿筑垒地域守军交战。芬兰领导层对继续直攻列宁格勒设置政治与军事限制，但并非完全未越界，也不是单凭一项命令就能解释北翼战线为何逐步稳定。",
+    "place": "@beloostrov",
+    "units": [
+      "fi.iv_ak",
+      "fi.ii_ak",
+      "su.23a"
+    ],
+    "sources": [
+      "mil_finn_journal34",
+      "mil_fndu_2026"
+    ],
+    "confidence": "medium",
+    "zoomRel": 5
+  },
+  {
+    "id": "e.luga_pocket_breakout",
+    "at": "1941-09-06T12:00",
+    "precision": "day",
+    "category": "battle",
+    "importance": 3,
+    "title": {
+      "zh": "卢加包围部队在姆申斯卡亚方向突围",
+      "orig": "Прорыв Южной оперативной группы из Лужского котла"
+    },
+    "body": "卢加防线崩解后，苏军被围部队在姆申斯卡亚和周围林沼寻找向北的通路。战斗、断粮、失散和分批突围交织，部分人员进入列宁格勒南郊防线，另一些被俘或死亡。这里展示的是九月上旬持续行动，不把一个日间锚点当成全包围圈的共同结局。",
+    "place": "@mshinskaya",
+    "units": [
+      "su.og_luga",
+      "su.1dno",
+      "de.8pz"
+    ],
+    "sources": [
+      "mil_luga_archive",
+      "mil_cmh_decision_2"
+    ],
+    "confidence": "medium",
+    "zoomRel": 5,
+    "mapNote": "持续作战的叙事锚点，非所有部队同日突围。"
+  },
+  {
+    "id": "e.finnish_svir",
+    "at": "1941-09-07T12:00",
+    "precision": "day",
+    "category": "movement",
+    "importance": 2,
+    "title": {
+      "zh": "芬军进抵斯维里河，德芬仍未陆上会师",
+      "orig": "Karjalan armeija saavuttaa Syvärin"
+    },
+    "body": "芬军向斯维里河推进，并在随后战斗中建立局部南岸桥头堡。苏军第七集团军继续抵抗，洛杰伊诺耶波列没有被芬军攻占。河流以南仍存在苏军控制地带，德军季赫温方向的推进也尚未发生，不能画出贯通拉多加湖东岸的德芬封锁线。",
+    "place": "@svirstroy",
+    "units": [
+      "fi.karelian_army",
+      "fi.vi_ak",
+      "fi.5d",
+      "su.7a"
+    ],
+    "sources": [
+      "mil_finn_svir_2011",
+      "mil_fndu_2026"
+    ],
+    "confidence": "medium",
+    "zoomRel": 5,
+    "mapNote": "九月上旬进抵河流的阶段性锚点；各渡口到达日期并不相同。"
+  },
+  {
+    "id": "e.shlisselburg_falls",
+    "at": "1941-09-08T12:00",
+    "precision": "day",
+    "category": "siege",
+    "importance": 1,
+    "title": {
+      "zh": "什利谢利堡失守，列宁格勒陆上封锁形成",
+      "orig": "Einnahme von Schlüsselburg · Начало блокады Ленинграда"
+    },
+    "body": "德军攻占什利谢利堡，列宁格勒与苏联腹地的直接陆上交通被截断，围城由此开始。拉多加湖仍提供危险而脆弱的运输可能，城市并非完全没有对外联系。涅瓦河源头的奥列舍克岛上要塞继续由苏军坚守，不能随岸上城市一并涂为德军控制。",
+    "place": "@shlisselburg",
+    "units": [
+      "de.20idmot",
+      "de.xxxix_mk",
+      "su.54a"
+    ],
+    "sources": [
+      "mil_garf_siege",
+      "mil_oreshek_museum",
+      "mil_spb_oreshek"
+    ],
+    "confidence": "high",
+    "zoomRel": 5
+  },
+  {
+    "id": "e.final_assault_begins",
+    "at": "1941-09-09T12:00",
+    "precision": "day",
+    "category": "battle",
+    "importance": 2,
+    "title": {
+      "zh": "德军向列宁格勒南郊发动强攻",
+      "orig": "Letzter deutscher Großangriff auf Leningrad"
+    },
+    "body": "德军从西南向列宁格勒外缘加紧进攻，苏军第四十二集团军等依托红村、乌里茨克与普尔科沃方向组织防御。装甲突进与步兵清剿相互配合，守军也得到舰炮和工事支援。接下来十余日的战斗决定城市南面防线，而非一次冲锋便告结束。",
+    "place": "@krasnoye_selo",
+    "units": [
+      "de.pzgr4",
+      "de.xli_mk",
+      "su.42a"
+    ],
+    "sources": [
+      "mil_cmh_decision_2",
+      "mil_garf_siege"
+    ],
+    "confidence": "medium",
+    "zoomRel": 5
+  },
+  {
+    "id": "e.oreshek_holds",
+    "at": "1941-09-09T12:00",
+    "precision": "day",
+    "category": "siege",
+    "importance": 2,
+    "title": {
+      "zh": "岸上城市陷落后，奥列舍克要塞仍在抵抗",
+      "orig": "岸上城市陷落后，奥列舍克要塞仍在抵抗"
+    },
+    "body": "什利谢利堡岸上城市被占后，奥列舍克要塞守军仍控制涅瓦河源头的岛屿，并在持续炮击中抵抗。它没有阻止陆上封锁，却影响河口交通与局部火力态势。城市、河道和岛上要塞必须分开表示，小岛上的守军不能因地图比例较小而被抹去。",
+    "place": "@oreshek",
+    "units": [
+      "su.kbf",
+      "de.20idmot"
+    ],
+    "sources": [
+      "mil_oreshek_museum",
+      "mil_garf_siege",
+      "mil_spb_oreshek"
+    ],
+    "confidence": "medium",
+    "zoomRel": 5
+  },
+  {
+    "id": "e.first_sinyavino",
+    "at": "1941-09-10T12:00",
+    "precision": "day",
+    "category": "battle",
+    "importance": 2,
+    "title": {
+      "zh": "第54集团军向锡尼亚维诺方向解围反击",
+      "orig": "Первая Синявинская операция"
+    },
+    "body": "苏军从围城圈外向锡尼亚维诺方向发动反击，试图恢复与列宁格勒的陆上联系。第五十四集团军面临集结不足、林沼地形和德军顽强防御，城内外行动也难以充分协调。首次努力没有打通走廊，湖南岸狭窄地带此后成为反复争夺的战场。",
+    "place": "@sinyavino",
+    "units": [
+      "su.54a",
+      "de.xxxix_mk"
+    ],
+    "sources": [
+      "mil_cmh_decision_3",
+      "mil_reglib_1943"
+    ],
+    "confidence": "medium",
+    "zoomRel": 5
+  },
+  {
+    "id": "e.zhukov_takes_command",
+    "at": "1941-09-13T12:00",
+    "precision": "day",
+    "category": "movement",
+    "importance": 1,
+    "title": {
+      "zh": "朱可夫接掌列宁格勒方面军",
+      "orig": "Г. К. Жуков вступает в командование Ленинградским фронтом"
+    },
+    "body": "列宁格勒南郊形势危急，朱可夫接掌方面军指挥，整顿防线、调集兵力与炮火，要求守军继续抵抗。前任留下的部署、城市动员和舰队支援同样构成防御基础。此处按十三日的指挥阶段展示，不以未核实的飞抵分钟描述一次决定全部战局的个人行动。",
+    "place": "@leningrad",
+    "units": [
+      "su.f_len",
+      "su.42a",
+      "su.55a",
+      "su.kbf"
+    ],
+    "sources": [
+      "mil_garf_siege",
+      "mil_cmh_decision_3"
+    ],
+    "confidence": "high",
+    "zoomRel": 5
+  },
+  {
+    "id": "e.pulkovo_stand",
+    "at": "1941-09-15T12:00",
+    "precision": "day",
+    "category": "siege",
+    "importance": 1,
+    "title": {
+      "zh": "普尔科沃高地成为城市南面的防御支点",
+      "orig": "Оборона Пулковских высот и Урицка"
+    },
+    "body": "德军推进至列宁格勒南郊，普尔科沃高地和乌里茨克方向的守军依托地形、工事与集中炮火阻击。控制高地关系到城市南部和机场的安全，苏军不断补充防御。战线后来逐渐稳定，但围困、炮击和局部争夺继续威胁城市与前沿部队。",
+    "place": "@pulkovo",
+    "units": [
+      "su.42a",
+      "su.125sd",
+      "su.kbf",
+      "de.xli_mk"
+    ],
+    "sources": [
+      "mil_garf_siege",
+      "mil_cmh_decision_3"
+    ],
+    "confidence": "high",
+    "zoomRel": 5
+  },
+  {
+    "id": "e.oranienbaum_pocket",
+    "at": "1941-09-16T12:00",
+    "precision": "day",
+    "category": "siege",
+    "importance": 2,
+    "title": {
+      "zh": "奥拉宁鲍姆形成与主城分离的滨海桥头堡",
+      "orig": "Образование Ораниенбаумского плацдарма"
+    },
+    "body": "德军抵达芬兰湾沿岸，奥拉宁鲍姆地区与列宁格勒主城的陆路联系被切断。苏军依托海上补给、岸防和喀琅施塔得舰炮保住桥头堡。这里是孤立的防御阵地而非全封闭口袋，守军长期坚持，后来成为一九四四年从西面反攻的重要出发地。",
+    "place": "@oranienbaum",
+    "units": [
+      "su.8a",
+      "su.kbf",
+      "de.xxxviii_ak"
+    ],
+    "sources": [
+      "mil_naval_1944",
+      "mil_cmh_decision_3"
+    ],
+    "confidence": "medium",
+    "zoomRel": 5
+  },
+  {
+    "id": "e.zhukov_order_no_retreat",
+    "at": "1941-09-17T12:00",
+    "precision": "day",
+    "category": "siege",
+    "importance": 2,
+    "title": {
+      "zh": "方面军强化普尔科沃—科尔皮诺防御",
+      "orig": "Приказ Жукова: ни шагу назад с рубежа Урицк — Пулково — Колпино"
+    },
+    "body": "朱可夫主持下的方面军要求稳住乌里茨克、普尔科沃与科尔皮诺方向，加强阵地组织和炮火运用。守军在德军压力下继续抵抗，临时调动与严厉纪律措施并行。未经逐份核实的命令编号、原话和具体处罚条款不在此作为精确引文呈现。",
+    "place": "@pulkovo",
+    "units": [
+      "su.f_len",
+      "su.42a",
+      "su.55a"
+    ],
+    "sources": [
+      "mil_garf_siege",
+      "mil_cmh_decision_3"
+    ],
+    "confidence": "medium",
+    "zoomRel": 5,
+    "mapNote": "九月中旬防御整顿的叙事锚点；未把未核命令文本作为逐字引语。"
+  },
+  {
+    "id": "e.pushkin_falls",
+    "at": "1941-09-18T12:00",
+    "precision": "day",
+    "category": "battle",
+    "importance": 3,
+    "title": {
+      "zh": "普希金与巴甫洛夫斯克方向的防线后移",
+      "orig": "Падение Пушкина и Слуцка (Павловска)"
+    },
+    "body": "德军在列宁格勒南部继续推进，普希金及巴甫洛夫斯克周围的苏军阵地承受重压，防线向城市外缘后移。宫苑和居民区成为作战与占领空间。各城区的进入、清理和防御撤离并非同一时刻，事件按九月中下旬态势概括这一南线变化。",
+    "place": "@pushkin",
+    "units": [
+      "de.l_ak",
+      "de.ss_polizei",
+      "su.55a"
+    ],
+    "sources": [
+      "mil_garf_siege",
+      "mil_cmh_decision_3"
+    ],
+    "confidence": "medium",
+    "zoomRel": 5,
+    "mapNote": "阶段性位置示意；不声称两座城市同一分钟全部易手。"
+  },
+  {
+    "id": "e.nevsky_pyatachok_born",
+    "at": "1941-09-20T12:00",
+    "precision": "day",
+    "category": "battle",
+    "importance": 2,
+    "title": {
+      "zh": "苏军渡过涅瓦河，建立“小块地”桥头堡",
+      "orig": "Захват плацдарма «Невский пятачок»"
+    },
+    "body": "苏军部队从涅瓦河右岸渡河，在敌军火力下建立狭小的左岸桥头堡。这里后来被称作涅瓦河小块地，补给和增援必须跨过暴露的河面，伤亡极重。指挥这一时期作战的是涅瓦方向的前身机构，不能把一九四二年才出现的第六十七集团军提前到此时。",
+    "place": "@nevsky_pyatachok",
+    "units": [
+      "su.neva_group",
+      "su.115sd"
+    ],
+    "sources": [
+      "mil_cmh_decision_3",
+      "mil_reglib_1943"
+    ],
+    "confidence": "medium",
+    "zoomRel": 5
+  },
+  {
+    "id": "e.peterhof_landing",
+    "at": "1941-10-05T12:00",
+    "precision": "day",
+    "category": "naval",
+    "importance": 3,
+    "title": {
+      "zh": "彼得霍夫登陆试图牵动滨海围城线",
+      "orig": "Петергофский морской десант"
+    },
+    "body": "苏军海军步兵在彼得霍夫方向实施登陆，试图配合陆上部队改变芬兰湾南岸局势。登陆部队与友邻缺少稳定联系，在火力、地形和补给困难中遭受严重损失。行动不能被叙述为成功收复彼得霍夫，也不能据示意箭头推定整片海岸转归苏军控制。",
+    "place": "@peterhof",
+    "units": [
+      "su.kbf",
+      "su.8a",
+      "de.1id"
+    ],
+    "sources": [
+      "mil_naval_1944",
+      "mil_cmh_decision_3"
+    ],
+    "confidence": "medium",
+    "zoomRel": 5
+  },
+  {
+    "id": "e.zhukov_recalled_moscow",
+    "at": "1941-10-07T12:00",
+    "precision": "day",
+    "category": "movement",
+    "importance": 2,
+    "title": {
+      "zh": "朱可夫奉召离开，列宁格勒指挥继续调整",
+      "orig": "Отзыв Г. К. Жукова в Москву · Назначение Федюнинского и Хозина"
+    },
+    "body": "莫斯科方向危机加深，朱可夫奉召离开列宁格勒，方面军指挥随后由费久宁斯基、霍津先后承担。城市南线已由运动防御转向长期围困，外围仍需不断尝试破围。这里按十月上旬指挥交接阶段展示，未把召回、离城和正式接任日期混成一个精确时刻。",
+    "place": "@leningrad",
+    "units": [
+      "su.f_len",
+      "su.42a",
+      "su.54a"
+    ],
+    "sources": [
+      "mil_cmh_decision_3",
+      "mil_garf_siege"
+    ],
+    "confidence": "medium",
+    "zoomRel": 5
+  },
+  {
+    "id": "e.blue_division_arrives",
+    "at": "1941-10-12T12:00",
+    "precision": "day",
+    "category": "movement",
+    "importance": 2,
+    "title": {
+      "zh": "西班牙蓝色师团进入沃尔霍夫河战区",
+      "orig": "La División Azul entra en línea en Nóvgorod y el Vóljov"
+    },
+    "body": "西班牙志愿部队以德国陆军第二五〇步兵师的番号进入沃尔霍夫河与诺夫哥罗德一带，参加对苏战争。其最初驻地不同于后来红博尔防线，部队还经历轮换和转移。地图先展示该师的战区位置，不把未来战斗中的全部人员与装备倒推到刚抵达时。",
+    "place": "@novgorod",
+    "units": [
+      "es.250id",
+      "de.18a"
+    ],
+    "sources": [
+      "mil_cmh_decision_20",
+      "mil_reglib_1943"
+    ],
+    "confidence": "medium",
+    "zoomRel": 5,
+    "mapNote": "十月中旬部署的代表性锚点，团级逐日进入阵地时间未完全核实。"
+  },
+  {
+    "id": "e.tikhvin_offensive_starts",
+    "at": "1941-10-16T12:00",
+    "precision": "day",
+    "category": "battle",
+    "importance": 2,
+    "title": {
+      "zh": "德军越过沃尔霍夫河，向季赫温进攻",
+      "orig": "Deutscher Angriff über den Wolchow Richtung Tichwin"
+    },
+    "body": "德军越过沃尔霍夫河向季赫温方向推进，企图切断向拉多加湖输送补给的铁路并扩大对列宁格勒的封锁。第三十九摩托化军承担机动突进，步兵掩护侧翼。森林、道路条件、雨雪与延长的补给线，使这次东进逐渐超出可稳定维持的支援能力。",
+    "place": "@gruzino",
+    "units": [
+      "de.xxxix_mk",
+      "de.i_ak",
+      "su.4a",
+      "su.52a"
+    ],
+    "sources": [
+      "mil_cmh_decision_3"
+    ],
+    "confidence": "medium",
+    "zoomRel": 5
+  },
+  {
+    "id": "e.second_sinyavino",
+    "at": "1941-10-20T12:00",
+    "precision": "day",
+    "category": "battle",
+    "importance": 3,
+    "title": {
+      "zh": "锡尼亚维诺方向再攻，兵力被季赫温危机分散",
+      "orig": "Вторая Синявинская операция"
+    },
+    "body": "苏军再次从涅瓦河和锡尼亚维诺方向尝试破围，但城内外作战仍受兵力、协同和地形限制。与此同时德军向季赫温推进，外围防御与交通线告急，迫使苏军重新分配兵力。湖南岸的攻击没有打开陆路，战役重心一度转向更东面的铁路与补给支点。",
+    "place": "@sinyavino",
+    "units": [
+      "su.54a",
+      "su.neva_group",
+      "de.xxvi_ak"
+    ],
+    "sources": [
+      "mil_cmh_decision_3"
+    ],
+    "confidence": "medium",
+    "zoomRel": 5
+  },
+  {
+    "id": "e.udarnik_bridgehead",
+    "at": "1941-10-20T12:00",
+    "precision": "day",
+    "category": "battle",
+    "importance": 3,
+    "title": {
+      "zh": "蓝色师团参加沃尔霍夫河东岸桥头堡争夺",
+      "orig": "Cruce del río Vóljov por la División Azul en Udárnik y Posad"
+    },
+    "body": "蓝色师团在沃尔霍夫河方向参与渡河与桥头堡争夺，局部战斗围绕村庄、林地和有限道路展开。越河部队的补给线脆弱，苏军持续反击，气候转冷后形势更加困难。这里按十月下旬作战阶段展示，不以同一坐标把乌达尔尼克与波萨德视作同一村庄。",
+    "place": "@podberezye",
+    "units": [
+      "es.250id",
+      "su.52a"
+    ],
+    "sources": [
+      "mil_cmh_decision_3"
+    ],
+    "confidence": "medium",
+    "zoomRel": 5,
+    "mapNote": "具体团营渡河日与波萨德占领经过未以原始战斗日志逐日核实。"
+  },
+  {
+    "id": "e.meretskov_takes_4a",
+    "at": "1941-11-07T12:00",
+    "precision": "day",
+    "category": "movement",
+    "importance": 2,
+    "title": {
+      "zh": "梅列茨科夫接任第4集团军指挥",
+      "orig": "К. А. Мерецков возглавляет 4-ю армию под Тихвином"
+    },
+    "body": "梅列茨科夫在十一月七日接任第四集团军指挥，此时季赫温即将失守，不能把任命推迟到失守之后数日。新司令部整顿分散部队，逐步组织北、东、南方向的反击力量。后来取得的胜利依靠重新集中兵力与改善协同，不能归结为任命当天立即扭转战局。",
+    "place": "@tikhvin",
+    "units": [
+      "su.4a"
+    ],
+    "sources": [
+      "mil_cmh_decision_3"
+    ],
+    "confidence": "medium",
+    "zoomRel": 5
+  },
+  {
+    "id": "e.tikhvin_falls",
+    "at": "1941-11-08T12:00",
+    "precision": "day",
+    "category": "battle",
+    "importance": 1,
+    "title": {
+      "zh": "季赫温失守，通往拉多加湖的铁路受阻",
+      "orig": "Einnahme von Tichwin · Падение Тихвина"
+    },
+    "body": "德军攻占季赫温，向拉多加湖东岸输送物资的铁路运输受到严重打击，围城补给危机进一步加深。苏军继续依托东侧和南北两翼作战，德军突出部则承受补给不足与严寒压力。城市失守并未形成德芬陆上会师，斯维里河方向的苏军防御仍然存在。",
+    "place": "@tikhvin",
+    "units": [
+      "de.xxxix_mk",
+      "de.18idmot",
+      "su.4a"
+    ],
+    "sources": [
+      "mil_cmh_decision_3",
+      "mil_finn_svir_2011"
+    ],
+    "confidence": "high",
+    "zoomRel": 5
+  },
+  {
+    "id": "e.malaya_vishera_liberated",
+    "at": "1941-11-20T12:00",
+    "precision": "day",
+    "category": "battle",
+    "importance": 2,
+    "title": {
+      "zh": "第52集团军收复小维舍拉",
+      "orig": "Освобождение Малой Вишеры войсками 52-й армии"
+    },
+    "body": "苏军第五十二集团军在持续反击后收复小维舍拉，压迫德军在季赫温突出部的南侧支撑线。森林、积雪和交通困难同时限制双方行动，反攻依靠分段集结与不断调整方向。小维舍拉的收复是铁路与河流方向战局转变的一环，不能独立等同于季赫温已经光复。",
+    "place": "@malaya_vishera",
+    "units": [
+      "su.52a",
+      "de.16a"
+    ],
+    "sources": [
+      "mil_cmh_decision_3",
+      "mil_cmh_decision_4"
+    ],
+    "confidence": "medium",
+    "zoomRel": 5
+  },
+  {
+    "id": "e.volkhov_approaches_54a",
+    "at": "1941-11-28T12:00",
+    "precision": "day",
+    "category": "battle",
+    "importance": 2,
+    "title": {
+      "zh": "第54集团军守住沃尔霍夫城接近地并反击",
+      "orig": "Оборона подступов к Волхову и контрудар 54-й армии"
+    },
+    "body": "德军逼近沃尔霍夫城时，苏军第五十四集团军继续防守并组织反击，保卫通往拉多加湖的重要交通支点。这里的战斗与季赫温以东第四集团军、南侧第五十二集团军的压力相互作用。地图标出的是接近地作战范围，未将未经实测的距离当作每个部队的精确位置。",
+    "place": "@volkhov",
+    "units": [
+      "su.54a",
+      "de.i_ak"
+    ],
+    "sources": [
+      "mil_cmh_decision_3",
+      "mil_cmh_decision_4"
+    ],
+    "confidence": "medium",
+    "zoomRel": 5
+  },
+  {
+    "id": "e.posad_withdraw",
+    "at": "1941-12-08T12:00",
+    "precision": "day",
+    "category": "battle",
+    "importance": 3,
+    "title": {
+      "zh": "沃尔霍夫河东岸突出部难以维持",
+      "orig": "Repliegue de la División Azul en Posad y Otenski"
+    },
+    "body": "冬季战斗和补给困难使蓝色师团在沃尔霍夫河东岸的部分突出阵地难以维持，部队逐步撤回较易支援的防线。局部撤退与季赫温方向德军整体后撤相联系，却不是同一条战线、同一时刻发生的单一行动。未核实的逐团伤亡和撤退分钟不在此采用。",
+    "place": "@podberezye",
+    "units": [
+      "es.250id",
+      "su.52a"
+    ],
+    "sources": [
+      "mil_cmh_decision_3",
+      "mil_cmh_decision_4"
+    ],
+    "confidence": "medium",
+    "zoomRel": 5,
+    "mapNote": "十二月上旬撤离阶段的叙事锚点，不能据此认定整师同日离开河东。"
+  },
+  {
+    "id": "e.tikhvin_liberated",
+    "at": "1941-12-09T12:00",
+    "precision": "day",
+    "category": "battle",
+    "importance": 1,
+    "title": {
+      "zh": "苏军收复季赫温，打破德军东进企图",
+      "orig": "Освобождение Тихвина войсками 4-й армии"
+    },
+    "body": "第四集团军在持续反攻后收复季赫温，德军被迫向布多戈希和沃尔霍夫河方向撤退。夺回铁路节点为改善拉多加湖运输创造条件，但线路修复、运输组织和冰湖通行仍需时间。胜利挫败了德军从东面扩大封锁的企图，并未立即结束列宁格勒的饥荒。",
+    "place": "@tikhvin",
+    "units": [
+      "su.4a",
+      "su.122tbr",
+      "de.xxxix_mk"
+    ],
+    "sources": [
+      "mil_cmh_decision_3",
+      "mil_cmh_decision_4"
+    ],
+    "confidence": "high",
+    "zoomRel": 5
+  },
+  {
+    "id": "e.volkhov_front_formed",
+    "at": "1941-12-17T12:00",
+    "precision": "day",
+    "category": "movement",
+    "importance": 2,
+    "title": {
+      "zh": "沃尔霍夫方面军建立，准备扩大解围攻势",
+      "orig": "Образование Волховского фронта"
+    },
+    "body": "苏军建立沃尔霍夫方面军，统一河流东侧和外围方向的部分作战力量，为进一步进攻准备条件。第五十四集团军仍属列宁格勒方面军，不能简单把地理上靠近沃尔霍夫的所有集团军都挂到新方面军下。追击、补充和新的进攻计划在严冬中同步进行。",
+    "place": "@volkhov",
+    "units": [
+      "su.f_volkhov",
+      "su.4a",
+      "su.52a"
+    ],
+    "sources": [
+      "mil_cmh_decision_4",
+      "mil_cmh_decision_8"
+    ],
+    "confidence": "medium",
+    "zoomRel": 5
+  },
+  {
+    "id": "e.lyuban_offensive_starts",
+    "at": "1942-01-07T12:00",
+    "precision": "day",
+    "category": "battle",
+    "importance": 2,
+    "title": {
+      "zh": "柳班攻势开始：从沃尔霍夫河寻求破围",
+      "orig": "Начало Любанской наступательной операции"
+    },
+    "body": "沃尔霍夫方面军开始向西进攻，试图与列宁格勒方面军外围部队协同，切断德军交通并走向留班。最初攻击因火力、集结和补给不足进展艰难，第二突击集团军随后才在米亚斯诺伊博尔方向扩大突破。战役起日不能画成整条德军防线已经同时崩溃。",
+    "place": "@myasnoy_bor",
+    "units": [
+      "su.2sh_a",
+      "su.59a",
+      "su.52a",
+      "su.4a"
+    ],
+    "sources": [
+      "mil_cmh_decision_8"
+    ],
+    "confidence": "medium",
+    "zoomRel": 5
+  },
+  {
+    "id": "e.ilmen_ski_raid",
+    "at": "1942-01-10T12:00",
+    "precision": "day",
+    "category": "battle",
+    "importance": 3,
+    "title": {
+      "zh": "冰封伊尔门湖上的冬季机动作战",
+      "orig": "La Compañía de Esquiadores cruza el lago Ilmen"
+    },
+    "body": "伊尔门湖封冻后，双方试图利用冰面机动、联络和增援。西班牙部队参加了严冬条件下的滑雪行动，冻伤、方向辨识与暴露在火力下的风险同样威胁人员。这里将其作为一月战区冬季行动展示，未经原始行军记录核实的精确温度、人数和返还比例均不采用。",
+    "place": "@ilmen_north",
+    "units": [
+      "es.250id",
+      "de.xxxviii_ak"
+    ],
+    "sources": [
+      "mil_cmh_decision_8"
+    ],
+    "confidence": "medium",
+    "zoomRel": 5,
+    "mapNote": "阶段性冬季行动；旧稿精确气温和全连损失数字已撤去。"
+  },
+  {
+    "id": "e.kuchler_replaces_leeb",
+    "at": "1942-01-17T12:00",
+    "precision": "day",
+    "category": "movement",
+    "importance": 2,
+    "title": {
+      "zh": "北方集团军群指挥更替：屈希勒尔接替勒布",
+      "orig": "Küchler übernimmt den Oberbefehl der Heeresgruppe Nord"
+    },
+    "body": "德军北方集团军群在一月的指挥调整中由屈希勒尔接替勒布，季赫温失利与苏军冬季攻势暴露了德军战线和补给的困难。人员更替并没有改变长期封锁列宁格勒的战略。集团军群和第十八集团军的司令变化需要分开理解，不能给各阶段永久显示同一位司令。",
+    "place": "@leningrad",
+    "units": [
+      "de.hgr_nord",
+      "de.18a",
+      "de.16a"
+    ],
+    "sources": [
+      "mil_cmh_decision_8"
+    ],
+    "confidence": "medium",
+    "zoomRel": 5,
+    "mapNote": "一月中旬交接阶段，辞职批准、命令和实际接任可能使用不同日期口径。"
+  },
+  {
+    "id": "e.lyuban_deep_salient",
+    "at": "1942-02-28T12:00",
+    "precision": "day",
+    "category": "battle",
+    "importance": 2,
+    "title": {
+      "zh": "第2突击集团军深入林沼，突出部咽喉狭窄",
+      "orig": "2-я ударная армия выходит на подступы к Любани"
+    },
+    "body": "第二突击集团军从米亚斯诺伊博尔通道向西北深入林沼，前锋逼近留班方向，但没有夺取留班城。纵深推进未能相应扩大走廊宽度，补给、伤员后送与两翼防御越来越困难。地图用袋形突出部表达结构性风险，不将未经核实的村名作为军部精确驻地。",
+    "place": "@myasnoy_bor",
+    "units": [
+      "su.2sh_a",
+      "su.327sd",
+      "su.54a"
+    ],
+    "sources": [
+      "mil_cmh_decision_8"
+    ],
+    "confidence": "medium",
+    "zoomRel": 5
+  },
+  {
+    "id": "e.pogostye_54a",
+    "at": "1942-03-16T12:00",
+    "precision": "day",
+    "category": "battle",
+    "importance": 2,
+    "title": {
+      "zh": "第54集团军在波戈斯季耶方向艰难推进",
+      "orig": "Бои 54-й армии у Погостья и Смердыни"
+    },
+    "body": "列宁格勒方面军第五十四集团军在波戈斯季耶至斯梅尔德尼亚方向攻击，试图从北面配合柳班突出部。林沼、铁路路堤与德军支撑点使进攻代价高昂，突破后的兵力也难以充分展开。两路苏军仍未会师，不能把地图上接近的箭头解释为已经恢复陆上联系。",
+    "place": "@pogostye",
+    "units": [
+      "su.54a",
+      "su.115sd",
+      "de.xxviii_ak"
+    ],
+    "sources": [
+      "mil_cmh_decision_8",
+      "mil_cmh_decision_9"
+    ],
+    "confidence": "medium",
+    "zoomRel": 5
+  },
+  {
+    "id": "e.operation_raubtier",
+    "at": "1942-03-19T12:00",
+    "precision": "day",
+    "category": "battle",
+    "importance": 1,
+    "title": {
+      "zh": "德军“猛兽行动”切断突出部咽喉",
+      "orig": "Unternehmen „Raubtier“ · Перехват горловины у Мясного Бора"
+    },
+    "body": "德军从三月十五日开始实施猛兽行动，十九日前后在米亚斯诺伊博尔附近切断苏军深入林沼的狭窄通道。第二突击集团军的补给与后送顿时恶化，苏军随后反复争夺并重新打开有限通路。三月的短暂封闭与五月底再次合围必须分开，不能直接跳到六月结局。",
+    "place": "@myasnoy_bor",
+    "units": [
+      "de.i_ak",
+      "de.xxxviii_ak",
+      "su.2sh_a",
+      "su.59a"
+    ],
+    "sources": [
+      "mil_cmh_decision_9",
+      "mil_cmh_decision_12"
+    ],
+    "confidence": "high",
+    "zoomRel": 5
+  },
+  {
+    "id": "e.operation_eisstoss",
+    "at": "1942-04-04T12:00",
+    "precision": "day",
+    "category": "air",
+    "importance": 2,
+    "title": {
+      "zh": "“冰击行动”空袭舰队，舰炮支援仍继续",
+      "orig": "Unternehmen „Eisstoß“ gegen die Baltische Flotte"
+    },
+    "body": "德军空军对冰封水域中的波罗的海舰队实施冰击行动，试图削弱舰炮和海上力量。苏军以防空、伪装和抢修应对，舰艇遭受不同程度损伤，舰队支援陆地战场的能力并未因此整体消失。地图只标出行动区域，不把一次空袭等同于摧毁所有港内舰只。",
+    "place": "@leningrad",
+    "units": [
+      "de.lf1",
+      "su.kbf"
+    ],
+    "sources": [
+      "mil_cmh_decision_12",
+      "mil_naval_1944"
+    ],
+    "confidence": "medium",
+    "zoomRel": 5
+  },
+  {
+    "id": "e.nevsky_pyatachok_spring_1942",
+    "at": "1942-04-28T12:00",
+    "precision": "day",
+    "category": "battle",
+    "importance": 2,
+    "title": {
+      "zh": "春季流冰期间，“涅瓦河小块地”遭重创",
+      "orig": "Весенний ледоход на Неве и падение первого «Невского пятачка»"
+    },
+    "body": "春季流冰妨碍涅瓦河上的增援和补给，左岸小桥头堡在德军攻击下遭受毁灭性打击。少数幸存者的处境不能代表所有守军均成功撤出。苏军后来再次在这一地区渡河，因而地图需要区分首次桥头堡的丧失与后续重建，不能用一条不断增长的占领区表现。",
+    "place": "@nevsky_pyatachok",
+    "units": [
+      "su.neva_group",
+      "de.xxvi_ak"
+    ],
+    "sources": [
+      "mil_cmh_decision_12",
+      "mil_reglib_1943"
+    ],
+    "confidence": "medium",
+    "zoomRel": 5
+  },
+  {
+    "id": "e.govorov_takes_command",
+    "at": "1942-06-08T12:00",
+    "precision": "day",
+    "category": "movement",
+    "importance": 2,
+    "title": {
+      "zh": "戈沃罗夫主持列宁格勒方面军作战",
+      "orig": "Л. А. Говоров назначается командующим Ленинградским фронтом"
+    },
+    "body": "列宁格勒方面军进入由戈沃罗夫长期主持作战的新阶段。他重视炮兵侦察、反炮兵火力、阵地工程和有准备的突破，而城市的补给与兵员状态也关系到进攻能力。六月的指挥调整与沃尔霍夫方向的危机相连，不能把后来火花行动的成功提前写成此时已经实现。",
+    "place": "@leningrad",
+    "units": [
+      "su.f_len",
+      "su.42a",
+      "su.neva_group"
+    ],
+    "sources": [
+      "mil_cmh_decision_12",
+      "mil_prlib_iskra"
+    ],
+    "confidence": "medium",
+    "zoomRel": 5
+  },
+  {
+    "id": "e.myasnoy_bor_tragedy",
+    "at": "1942-06-25T12:00",
+    "precision": "day",
+    "category": "siege",
+    "importance": 1,
+    "title": {
+      "zh": "“死亡谷”突围失败，第2突击集团军指挥崩溃",
+      "orig": "Трагедия 2-й ударной армии в «Долине смерти» у Мясного Бора"
+    },
+    "body": "五月底再次合围后，第二突击集团军在六月下旬试图经米亚斯诺伊博尔向东突围。狭窄通路反复被封闭，伤员、饥饿和火力使撤出变成灾难。部分人员脱出，许多人阵亡或被俘，指挥体系瓦解；不同统计口径不能拼成一组貌似精确而互相矛盾的损失数字。",
+    "place": "@myasnoy_bor",
+    "units": [
+      "su.2sh_a",
+      "su.327sd",
+      "su.59a"
+    ],
+    "sources": [
+      "mil_cmh_decision_12"
+    ],
+    "confidence": "high",
+    "zoomRel": 5,
+    "mapNote": "不同战史将最后封闭记为22日或23—25日；按六月下旬灾难终局展示。"
+  },
+  {
+    "id": "e.secondshock_rebuilt",
+    "at": "1942-07-15T12:00",
+    "precision": "day",
+    "category": "movement",
+    "importance": 2,
+    "title": {
+      "zh": "大本营命令重建第2突击集团军",
+      "orig": "大本营命令重建第2突击集团军"
+    },
+    "body": "六月灾难后，大本营在七月十四、十五日下达恢复第二突击集团军机关与部队的指令。新机关和补充部队重新组成作战力量，并在秋季再次参战。保留番号不等于被围旧部完整幸存，本包因此把覆灭阶段与重建阶段分成两条记录，中间不画连续行军线。",
+    "place": "@voibokalo",
+    "units": [
+      "su.2sh_rebuilt",
+      "su.f_volkhov"
+    ],
+    "sources": [
+      "mil_secondshock_rebuild",
+      "mil_secondshock_command"
+    ],
+    "confidence": "medium",
+    "zoomRel": 5
+  },
+  {
+    "id": "e.ust_izhora_attack",
+    "at": "1942-08-19T12:00",
+    "precision": "day",
+    "category": "battle",
+    "importance": 3,
+    "title": {
+      "zh": "乌斯季托斯诺方向攻击拉开夏末攻势",
+      "orig": "Бои за Усть-Тосно и Ивановское (начало Синявинской операции)"
+    },
+    "body": "第五十五集团军在涅瓦河以南的乌斯季托斯诺、伊万诺夫斯科耶方向展开攻击，试图建立和扩大渡河支点。这里是夏末多方向进攻的一部分，与二十七日沃尔霍夫方面军的主攻相互关联。托斯纳河口与乌斯季伊若拉不能仅因译名相近就当作同一地点。",
+    "place": [
+      30.81,
+      59.77
+    ],
+    "units": [
+      "su.55a",
+      "su.136sd",
+      "de.18a"
+    ],
+    "sources": [
+      "mil_cmh_decision_20"
+    ],
+    "confidence": "medium",
+    "zoomRel": 5,
+    "mapNote": "乌斯季托斯诺与伊万诺夫斯科耶战斗地段示意，不能与更西侧的乌斯季伊若拉河口混同。"
+  },
+  {
+    "id": "e.operation_nordlicht_prep",
+    "at": "1942-08-20T12:00",
+    "precision": "day",
+    "category": "movement",
+    "importance": 2,
+    "title": {
+      "zh": "德第11集团军北调，筹备“北极光”攻城计划",
+      "orig": "Verlegung der 11. Armee für Unternehmen „Nordlicht“"
+    },
+    "body": "德军将第十一集团军机关和部分兵力从克里米亚北调，准备以北极光行动夺取列宁格勒。重炮、部队、道路和弹药均需重新集中，计划本身不是已经执行的全面攻城。随后苏军在锡尼亚维诺的进攻迫使德军转用这些力量，改变了原有作战安排。",
+    "place": "@mga",
+    "units": [
+      "de.11a",
+      "de.18a"
+    ],
+    "sources": [
+      "mil_cmh_decision_20"
+    ],
+    "confidence": "medium",
+    "zoomRel": 5
+  },
+  {
+    "id": "e.third_sinyavino_starts",
+    "at": "1942-08-27T12:00",
+    "precision": "day",
+    "category": "battle",
+    "importance": 1,
+    "title": {
+      "zh": "沃尔霍夫方面军在锡尼亚维诺发起主攻",
+      "orig": "Синявинская наступательная операция (август–октябрь 1942)"
+    },
+    "body": "沃尔霍夫方面军主力从东面进攻，试图穿过森林、泥炭沼和德军支撑点与城内苏军会合。第八集团军先投入战斗，后续梯队再进入狭窄突破口。攻势确实打乱了北极光部署，但不能因此断言苏军已经掌握德军全部计划并按其精确时间表先发制人。",
+    "place": "@gaytolovo",
+    "units": [
+      "su.8a",
+      "de.18a"
+    ],
+    "sources": [
+      "mil_cmh_decision_20"
+    ],
+    "confidence": "high",
+    "zoomRel": 5
+  },
+  {
+    "id": "e.tiger_combat_debut",
+    "at": "1942-08-29T12:00",
+    "precision": "day",
+    "category": "movement",
+    "importance": 3,
+    "title": {
+      "zh": "虎式坦克进入列宁格勒近郊战区",
+      "orig": "Erster Kampfeinsatz des Panzer VI „Tiger“ bei Tortolowo"
+    },
+    "body": "八月底至九月初，德军在列宁格勒近郊投入虎式重型坦克。重装甲与火炮并不能消除林沼、狭路和机械保障的困难，也未单独决定锡尼亚维诺战役的结果。关于首次出动日期、车辆故障数量与指挥过程存在不同记述，地图按这一阶段展示而不虚构分钟级战果。",
+    "place": "@tortolovo",
+    "units": [
+      "de.spz502",
+      "de.18a"
+    ],
+    "sources": [
+      "mil_cmh_decision_20"
+    ],
+    "confidence": "medium",
+    "zoomRel": 5,
+    "mapNote": "八月底至九月初参战阶段锚点；具体首次战斗日和故障数未独立核定。"
+  },
+  {
+    "id": "e.2sh_committed_sinyavino",
+    "at": "1942-09-05T12:00",
+    "precision": "day",
+    "category": "battle",
+    "importance": 2,
+    "title": {
+      "zh": "重建的第2突击集团军投入后续梯队",
+      "orig": "Ввод в сражение восстановленной 2-й ударной армии"
+    },
+    "body": "锡尼亚维诺突破口的推进趋缓，重建的第二突击集团军于九月五日起投入后续梯队，试图维持进攻势头。部队进入同一狭窄林沼地带，补给和横向机动困难加重。第一次组成的旧集团军与这支重建部队必须区分，不能让六月覆灭的符号直接继续向前行军。",
+    "place": "@gaytolovo",
+    "units": [
+      "su.2sh_rebuilt",
+      "su.8a"
+    ],
+    "sources": [
+      "mil_cmh_decision_20",
+      "mil_secondshock_rebuild"
+    ],
+    "confidence": "medium",
+    "zoomRel": 5
+  },
+  {
+    "id": "e.manstein_counterattack",
+    "at": "1942-09-21T12:00",
+    "precision": "day",
+    "category": "battle",
+    "importance": 1,
+    "title": {
+      "zh": "德军反击锡尼亚维诺突出部",
+      "orig": "Gegenangriff Mansteins bei Gajtolowo · Scheitern von „Nordlicht“"
+    },
+    "body": "曼施坦因统筹的德军从突出部两翼反击，争夺盖托洛沃周围的狭窄交通地带，至九月下旬切断苏军部分突入部队。苏军在重炮掩护下反复尝试突围。攻势未能解围，德军原准备用于北极光的兵力与弹药也消耗在这场反击中，全面攻城计划随之落空。",
+    "place": "@gaytolovo",
+    "units": [
+      "de.11a",
+      "de.18a",
+      "su.8a",
+      "su.2sh_rebuilt"
+    ],
+    "sources": [
+      "mil_cmh_decision_20"
+    ],
+    "confidence": "high",
+    "zoomRel": 5
+  },
+  {
+    "id": "e.67a_formed",
+    "at": "1942-10-10T12:00",
+    "precision": "day",
+    "category": "movement",
+    "importance": 2,
+    "title": {
+      "zh": "涅瓦战役集群改编为第67集团军",
+      "orig": "Преобразование Невской оперативной группы в 67-ю армию"
+    },
+    "body": "涅瓦方向的指挥与部队组织改编为第六十七集团军，杜哈诺夫担任司令，为新的破围作战训练、集中火力并准备渡河。前身部队早已在这里作战，但集团军番号不能倒推到一九四一年。地图从这一阶段开始使用新番号，前身记录同时结束显示。",
+    "place": "@nevskaya_dubrovka",
+    "units": [
+      "su.67a"
+    ],
+    "sources": [
+      "mil_prlib_iskra",
+      "mil_reglib_1943"
+    ],
+    "confidence": "medium",
+    "zoomRel": 5
+  },
+  {
+    "id": "e.iskra_plan_approved",
+    "at": "1942-12-02T12:00",
+    "precision": "day",
+    "category": "movement",
+    "importance": 1,
+    "title": {
+      "zh": "大本营批准“火花行动”计划",
+      "orig": "Директива Ставки ВГК о проведении операции «Искра»"
+    },
+    "body": "大本营以十二月二日第一七〇六九六号指令批准突破封锁的火花行动计划，要求列宁格勒和沃尔霍夫两方面军协同。十二月八日另有后续任务指令，不能把后者编号移用于首次批准。计划围绕湖南岸狭窄地带准备，目标是恢复陆上联系而非一次解放全部南郊。",
+    "place": "@leningrad",
+    "units": [
+      "su.f_len",
+      "su.f_volkhov",
+      "su.67a",
+      "su.2sh_rebuilt"
+    ],
+    "sources": [
+      "mil_prlib_directive170696",
+      "mil_prlib_iskra",
+      "mil_reglib_1943"
+    ],
+    "confidence": "high",
+    "zoomRel": 5
+  },
+  {
+    "id": "e.iskra_launches",
+    "at": "1943-01-12T12:00",
+    "precision": "day",
+    "category": "battle",
+    "importance": 1,
+    "title": {
+      "zh": "“火花行动”开始：两方面军相向攻击",
+      "orig": "Начало операции «Искра» · Форсирование Невы по льду"
+    },
+    "body": "列宁格勒方面军第六十七集团军从西侧渡过冰封涅瓦河，沃尔霍夫方面军第二突击集团军从东侧进攻，第八集团军协助牵制南翼。炮兵、工兵和突击部队需要在有限通道内协同。开始攻击不等于走廊已经贯通，德军仍控制中间工人村与泥炭地支撑点。",
+    "place": "@marino",
+    "units": [
+      "su.67a",
+      "su.2sh_rebuilt",
+      "su.8a"
+    ],
+    "sources": [
+      "mil_prlib_iskra",
+      "mil_reglib_1943"
+    ],
+    "confidence": "high",
+    "zoomRel": 5
+  },
+  {
+    "id": "e.tanks_on_neva_ice",
+    "at": "1943-01-14T12:00",
+    "precision": "day",
+    "category": "battle",
+    "importance": 2,
+    "title": {
+      "zh": "工兵加固冰面，装甲力量支援涅瓦河渡河",
+      "orig": "Переправа танков 61-й бригады по льду Невы и бои за Шлиссельбург"
+    },
+    "body": "涅瓦河的冰面并不是可以任意通过重装备的天然公路。苏军工兵加固通道、组织渡运，轻型装甲和步兵在炮火掩护下扩大桥头堡。地图显示的是渡河体系与突击方向，不把所有坦克都画成在同一刻、同一条冰路通过，也不以宣传画代替实际承载限制。",
+    "place": "@marino",
+    "units": [
+      "su.67a",
+      "su.61tbr"
+    ],
+    "sources": [
+      "mil_prlib_iskra",
+      "mil_reglib_1943"
+    ],
+    "confidence": "medium",
+    "zoomRel": 5,
+    "mapNote": "一月中旬渡河组织的阶段性锚点，具体营连过河时刻未独立核定。"
+  },
+  {
+    "id": "e.tiger_100_captured",
+    "at": "1943-01-17T12:00",
+    "precision": "day",
+    "category": "battle",
+    "importance": 3,
+    "title": {
+      "zh": "工人村与新式坦克争夺中的“火花”战场",
+      "orig": "Бои за Рабочий посёлок № 5 и захват танка «Тигр» № 100"
+    },
+    "body": "苏军在工人村和道路支撑点之间继续推进，德军以步兵、炮兵及装甲预备队阻滞两方面军靠拢。战场缴获装备为苏军认识德军新式坦克提供材料，但个别虎式坦克的车号、完整状态与缴获日记述并不完全一致。这里不把尚未独立核定的细节写成确定战果。",
+    "place": "@rabochiy_5",
+    "units": [
+      "su.67a",
+      "su.2sh_rebuilt",
+      "de.spz502"
+    ],
+    "sources": [
+      "mil_prlib_iskra",
+      "mil_reglib_1943"
+    ],
+    "confidence": "medium",
+    "zoomRel": 5,
+    "mapNote": "保留原事件ID供链接兼容；旧稿“17日完整缴获100号”的未经核定断言已撤去。"
+  },
+  {
+    "id": "e.iskra_linkup",
+    "at": "1943-01-18T12:00",
+    "precision": "day",
+    "category": "siege",
+    "importance": 1,
+    "title": {
+      "zh": "突破封锁：两方面军会师并收复什利谢利堡",
+      "orig": "Прорыв блокады Ленинграда! Встреча у Рабочих посёлков № 1 и № 5"
+    },
+    "body": "两方面军部队在工人村一带会师，苏军收复什利谢利堡，在拉多加湖南岸打开陆上走廊。列宁格勒终于恢复与内地直接联系，但姆加和部分锡尼亚维诺高地仍由德军控制，铁路还需修建并承受炮击。突破封锁应与一年后的一九四四年一月二十七日完全解围分开。",
+    "place": "@rabochiy_5",
+    "units": [
+      "su.67a",
+      "su.2sh_rebuilt"
+    ],
+    "sources": [
+      "mil_prlib_iskra",
+      "mil_garf_siege",
+      "mil_reglib_1943"
+    ],
+    "confidence": "high",
+    "zoomRel": 5
+  },
+  {
+    "id": "e.battle_of_krasny_bor",
+    "at": "1943-02-10T12:00",
+    "precision": "day",
+    "category": "battle",
+    "importance": 2,
+    "title": {
+      "zh": "红博尔战斗：第55集团军向南扩大战果",
+      "orig": "Красноборская операция · Batalla de Krasny Bor"
+    },
+    "body": "第五十五集团军向红博尔方向攻击，试图把湖南岸突破发展为更大范围的南线胜利。西班牙蓝色师团及随后增援的德军顽强防御，双方在聚落、铁路和河流间激战。苏军取得局部推进，却未完成原定纵深目标，不能把重创守军写成整条托斯诺防线已经崩溃。",
+    "place": "@krasny_bor",
+    "units": [
+      "su.55a",
+      "es.250id",
+      "de.18a"
+    ],
+    "sources": [
+      "mil_reglib_1943",
+      "mil_cmh_defeat_10"
+    ],
+    "confidence": "medium",
+    "zoomRel": 5
+  },
+  {
+    "id": "e.smerdynya_offensive",
+    "at": "1943-02-10T12:00",
+    "precision": "day",
+    "category": "battle",
+    "importance": 2,
+    "title": {
+      "zh": "斯梅尔德尼亚方向进攻与“北极星”计划受阻",
+      "orig": "Операция «Полярная звезда» · Бои у Смердыни и Синявино"
+    },
+    "body": "苏军试图把一月打通走廊的成果扩大为对北方集团军群的更大包围，斯梅尔德尼亚和托斯诺方向成为攻击目标。林沼、坚固阵地与兵力消耗限制突破，预期中的深远推进没有实现。地图以局部突出部表达进展，不能因作战计划的箭头很长就直接涂成实际控制区。",
+    "place": "@smerdynya",
+    "units": [
+      "su.54a",
+      "su.8a",
+      "de.18a"
+    ],
+    "sources": [
+      "mil_reglib_1943",
+      "mil_cmh_defeat_10"
+    ],
+    "confidence": "medium",
+    "zoomRel": 5
+  },
+  {
+    "id": "e.30_guards_corps_formed",
+    "at": "1943-04-30T12:00",
+    "precision": "day",
+    "category": "movement",
+    "importance": 2,
+    "title": {
+      "zh": "近卫第30步兵军组织形成",
+      "orig": "Формирование 30-го гвардейского стрелкового корпуса"
+    },
+    "body": "列宁格勒方面军集中有作战经验的近卫部队，组成第三十近卫步兵军，为后续突破训练与火力协同建立较稳定的军级组织。它后来参加锡尼亚维诺高地战和一九四四年一月攻势。旧番号步兵师改称近卫后不能继续以两个名字重复计数，部队树也不能倒推至组建前。",
+    "place": "@leningrad",
+    "units": [
+      "su.30gsk"
+    ],
+    "sources": [
+      "mil_reglib_1943",
+      "mil_cmh_defeat_12"
+    ],
+    "confidence": "medium",
+    "zoomRel": 5
+  },
+  {
+    "id": "e.counter_battery_duel_1943",
+    "at": "1943-05-15T12:00",
+    "precision": "day",
+    "category": "siege",
+    "importance": 2,
+    "title": {
+      "zh": "反炮兵侦察与火力协同逐步加强",
+      "orig": "Контрбатарейная борьба Ленинградского фронта и Балтийского флота"
+    },
+    "body": "戈沃罗夫指挥下的苏军加强炮兵侦察、测地、观察所与集中射击，舰炮和陆军炮兵共同压制德军攻城炮群。炮战关系到居民区和交通线安全，却不能彻底阻止炮击。这里以春夏阶段展示制度与技术改进，不把一个示意日期声称为全部反炮兵机构同时成立之日。",
+    "place": "@pulkovo",
+    "units": [
+      "su.f_len",
+      "su.42a",
+      "su.kbf"
+    ],
+    "sources": [
+      "mil_reglib_1943",
+      "mil_naval_1944"
+    ],
+    "confidence": "medium",
+    "zoomRel": 5,
+    "mapNote": "1943年春夏持续发展过程，不采用未经核实的单日建制断言。"
+  },
+  {
+    "id": "e.mga_offensive_1943",
+    "at": "1943-07-22T12:00",
+    "precision": "day",
+    "category": "battle",
+    "importance": 2,
+    "title": {
+      "zh": "姆加战役开始，苏军继续争夺湖南岸纵深",
+      "orig": "Мгинская наступательная операция (июль–август 1943)"
+    },
+    "body": "苏军第六十七和第八集团军向姆加与锡尼亚维诺方向进攻，试图扩大一月打通的狭窄走廊并改善铁路安全。德军依托高地、林沼和层层支撑点抵抗，战斗持续至八月，双方消耗很大。苏军取得有限地形收益，却未在这次战役中收复姆加铁路枢纽。",
+    "place": "@porechye_mga",
+    "units": [
+      "su.67a",
+      "su.8a",
+      "de.xxvi_ak"
+    ],
+    "sources": [
+      "mil_reglib_1943",
+      "mil_cmh_defeat_10"
+    ],
+    "confidence": "medium",
+    "zoomRel": 5
+  },
+  {
+    "id": "e.sinyavino_heights_captured",
+    "at": "1943-09-15T12:00",
+    "precision": "day",
+    "category": "battle",
+    "importance": 1,
+    "title": {
+      "zh": "锡尼亚维诺高地局部突破，50.1高地仍未攻克",
+      "orig": "Штурм и взятие Синявинских высот 30-м гвардейским корпусом"
+    },
+    "body": "近卫第三十步兵军在九月十五至十九日的攻击中夺取锡尼亚维诺部分高地，包括北侧四三点三高地，改善了湖南岸铁路的处境。但主要的五〇点一高地仍在德军手中，威胁只是明显减轻。不能把局部胜利写成两处高地全部攻克或铁路从此不再遭炮击。",
+    "place": "@sinyavino_43_3",
+    "units": [
+      "su.30gsk",
+      "su.67a",
+      "de.xxvi_ak"
+    ],
+    "sources": [
+      "mil_reglib_1943"
+    ],
+    "confidence": "high",
+    "zoomRel": 5
+  },
+  {
+    "id": "e.kirishi_liberated_blue_leaves",
+    "at": "1943-10-04T12:00",
+    "precision": "day",
+    "category": "movement",
+    "importance": 2,
+    "title": {
+      "zh": "德军撤出基里希桥头堡，苏军收复该地",
+      "orig": "Эвакуация Киришского плацдарма и вывод «Голубой дивизии»"
+    },
+    "body": "德军在十月初主动撤出难以继续维持的基里希桥头堡，苏军随即向前占领并调整河流沿线部署。撤退缩短了德军正面，也释放了部分兵力。西班牙蓝色师团稍后在十月撤离是另一事件，不能因为发生在同一个月就把桥头堡撤离日期改成师团离开的日期。",
+    "place": "@kirishi",
+    "units": [
+      "su.4a",
+      "de.i_ak"
+    ],
+    "sources": [
+      "mil_reglib_1943",
+      "mil_cmh_defeat_10"
+    ],
+    "confidence": "medium",
+    "zoomRel": 5,
+    "mapNote": "桥头堡撤退与清理在10月3—6日持续；4日为苏军进入阶段锚点。"
+  },
+  {
+    "id": "e.blue_division_withdraws",
+    "at": "1943-10-25T12:00",
+    "precision": "day",
+    "category": "movement",
+    "importance": 2,
+    "title": {
+      "zh": "蓝色师团主力撤回，西班牙军团另列",
+      "orig": "蓝色师团主力撤回，西班牙军团另列"
+    },
+    "body": "西班牙蓝色师团主力在十月退出东线，留驻人员组成规模较小的志愿军团，继续在德军序列中作战。师团的撤回不意味着同一地点所有西班牙人员同时离开，也不应把留下的军团再次算作一整个师。地图分别记录主力撤出和留驻部队，避免兵力重复统计。",
+    "place": "@krasnogvardeysk",
+    "units": [
+      "es.250id",
+      "es.legion"
+    ],
+    "sources": [
+      "mil_cmh_defeat_10",
+      "mil_reglib_1943"
+    ],
+    "confidence": "medium",
+    "zoomRel": 5,
+    "mapNote": "十月分批交接与撤离，未把本锚点声称为每个营团共同离线日。"
+  },
+  {
+    "id": "e.2sh_secret_sealift",
+    "at": "1943-11-15T12:00",
+    "precision": "day",
+    "category": "naval",
+    "importance": 2,
+    "title": {
+      "zh": "分批海运增援奥拉宁鲍姆，准备冬季反攻",
+      "orig": "Секретная переброска 2-й ударной армии на Ораниенбаумский плацдарм"
+    },
+    "body": "苏军利用芬兰湾航路分批将第二突击集团军机关和部队运入奥拉宁鲍姆桥头堡，结合当地守军准备冬季反攻。夜间航行与伪装力求隐蔽，但德军已注意到海上交通变化，不能写成完全毫不知情。海运延续数周，地图不把全部人员和装备压缩为一次夜航。",
+    "place": "@oranienbaum",
+    "units": [
+      "su.2sh_rebuilt",
+      "su.kbf",
+      "su.og_primorsk"
+    ],
+    "sources": [
+      "mil_naval_1944",
+      "mil_cmh_defeat_10"
+    ],
+    "confidence": "medium",
+    "zoomRel": 5,
+    "mapNote": "1943年末至1944年初的分批调动；本日为叙事锚点，不是全部舰船同航日。"
+  },
+  {
+    "id": "e.january_thunder_oranienbaum",
+    "at": "1944-01-14T09:35",
+    "precision": "minute",
+    "category": "battle",
+    "importance": 1,
+    "title": {
+      "zh": "“一月雷霆”：奥拉宁鲍姆方向开始炮火准备",
+      "orig": "Начало операции «Январский гром» с Ораниенбаумского плацдарма"
+    },
+    "body": "第二突击集团军从奥拉宁鲍姆桥头堡发起攻势，九时三十五分开始炮火准备，随后步兵与装甲向戈斯季利齐和罗普沙方向推进。波罗的海舰队以舰炮等力量支援，守军工事仍需逐段突破。炮火开始与步兵攻占目标不是同一时刻，不能把第一天画成德军全线溃散。",
+    "place": "@gostilitsy",
+    "units": [
+      "su.2sh_rebuilt",
+      "su.kbf",
+      "de.iii_ss_pzk"
+    ],
+    "sources": [
+      "mil_naval_1944",
+      "mil_cmh_defeat_12"
+    ],
+    "confidence": "high",
+    "zoomRel": 5
+  },
+  {
+    "id": "e.novgorod_offensive_starts",
+    "at": "1944-01-14T12:00",
+    "precision": "day",
+    "category": "battle",
+    "importance": 2,
+    "title": {
+      "zh": "第59集团军从南北夹攻诺夫哥罗德",
+      "orig": "Наступление 59-й армии под Новгородом и бросок через озеро Ильмень"
+    },
+    "body": "第五十九集团军从诺夫哥罗德南北发起进攻。南部支队夜间横越伊尔门湖北部冰面，向西岸特罗伊察和旧拉科莫一带渗透，随后切断交通线。参加行动的是螺旋桨雪橇部队而非气垫船，路线也不是横越到遥远的舍隆河口，地图将两者明确区分。",
+    "place": "@novgorod",
+    "units": [
+      "su.59a",
+      "su.372sd",
+      "de.xxxviii_ak"
+    ],
+    "sources": [
+      "mil_ganino_2025",
+      "mil_cmh_defeat_12"
+    ],
+    "confidence": "medium",
+    "zoomRel": 5
+  },
+  {
+    "id": "e.pulkovo_breakthrough_42a",
+    "at": "1944-01-15T12:00",
+    "precision": "day",
+    "category": "battle",
+    "importance": 1,
+    "title": {
+      "zh": "第42集团军从普尔科沃向红村进攻",
+      "orig": "Прорыв 42-й армии с Пулковских высот на Красное Село"
+    },
+    "body": "第四十二集团军在第二突击集团军进攻次日，从普尔科沃高地方向向红村发动攻击。密集炮火、工兵与突击部队配合突破多年构筑的德军阵地，推进仍遭遇雷场和据点抵抗。两支集团军的开始日期与出发阵地不同，只有随后继续推进才形成彼得霍夫方向的合围。",
+    "place": "@pulkovo",
+    "units": [
+      "su.42a",
+      "su.30gsk",
+      "su.kbf",
+      "de.l_ak"
+    ],
+    "sources": [
+      "mil_naval_1944",
+      "mil_cmh_defeat_12"
+    ],
+    "confidence": "high",
+    "zoomRel": 5
+  },
+  {
+    "id": "e.peterhof_pocket_crushed",
+    "at": "1944-01-17T12:00",
+    "precision": "day",
+    "category": "battle",
+    "importance": 2,
+    "title": {
+      "zh": "罗普沙方向突破加深，德军突出部受到威胁",
+      "orig": "Танковый прорыв к Ропше и разгром петергофско-стрельнинского выступа"
+    },
+    "body": "第二突击集团军与第四十二集团军继续扩大突破，罗普沙和红村周围的德军交通与退路受到威胁。此时尚不能把十九日的城市解放和两军会师提前完成。北方集团军群司令仍是屈希勒尔，莫德尔到一月三十一日才接任，不能让他提前指挥这一阶段。",
+    "place": "@ropsha",
+    "units": [
+      "su.2sh_rebuilt",
+      "su.42a",
+      "de.18a"
+    ],
+    "sources": [
+      "mil_cmh_defeat_12",
+      "mil_naval_1944"
+    ],
+    "confidence": "medium",
+    "zoomRel": 5
+  },
+  {
+    "id": "e.ropsha_krasnoye_selo_linkup",
+    "at": "1944-01-19T12:00",
+    "precision": "day",
+    "category": "battle",
+    "importance": 1,
+    "title": {
+      "zh": "红村、罗普沙解放，两军在俄国维索茨科耶附近会合",
+      "orig": "Освобождение Красного Села и Ропши · Окружение петергофской группировки"
+    },
+    "body": "苏军夺取红村与罗普沙，第二突击和第四十二集团军部队在俄国维索茨科耶附近会合，彼得霍夫至斯特列利纳一带德军的退路被切断。城市攻占、战术接触与随后肃清不是完全同一件事，部分德军此前已经后撤，不能把整个第十八集团军都画入一个口袋。",
+    "place": "@russko_vysotskoye",
+    "units": [
+      "su.2sh_rebuilt",
+      "su.42a",
+      "su.30gsk"
+    ],
+    "sources": [
+      "mil_naval_1944",
+      "mil_cmh_defeat_12"
+    ],
+    "confidence": "high",
+    "zoomRel": 5
+  },
+  {
+    "id": "e.novgorod_liberated",
+    "at": "1944-01-20T12:00",
+    "precision": "day",
+    "category": "battle",
+    "importance": 1,
+    "title": {
+      "zh": "诺夫哥罗德解放，苏军继续向卢加方向推进",
+      "orig": "Освобождение Новгорода войсками 59-й армии"
+    },
+    "body": "第五十九集团军从南北突破后切断诺夫哥罗德守军的主要退路，二十日解放这座古城。部分德军在外围和林沼中继续撤退或被围，战斗没有随旗帜升起立刻停止。苏军随后向卢加方向推进，巴捷茨卡亚仍在德军控制下，不能随诺夫哥罗德一起提前解放。",
+    "place": "@novgorod",
+    "units": [
+      "su.59a",
+      "su.372sd",
+      "de.xxxviii_ak"
+    ],
+    "sources": [
+      "mil_ganino_2025",
+      "mil_cmh_defeat_12"
+    ],
+    "confidence": "high",
+    "zoomRel": 5
+  },
+  {
+    "id": "e.mga_liberated",
+    "at": "1944-01-21T12:00",
+    "precision": "day",
+    "category": "movement",
+    "importance": 2,
+    "title": {
+      "zh": "姆加铁路枢纽解放",
+      "orig": "Освобождение Мги войсками 67-й и 8-й армий"
+    },
+    "body": "德军在南北压力下撤出姆加方向，苏军第六十七和第八集团军部队向前推进，收复长期争夺的铁路枢纽。姆加的解放与一九四三年湖南岸走廊开通相隔一年，不能将两次成果混同。铁路沿线仍需排雷、抢修与恢复运输，占领车站不等于首列通车已经同时完成。",
+    "place": "@mga",
+    "units": [
+      "su.67a",
+      "su.8a",
+      "de.xxvi_ak"
+    ],
+    "sources": [
+      "mil_reglib_1943",
+      "mil_cmh_defeat_12"
+    ],
+    "confidence": "medium",
+    "zoomRel": 5
+  },
+  {
+    "id": "e.pushkin_pavlovsk_liberated",
+    "at": "1944-01-24T12:00",
+    "precision": "day",
+    "category": "movement",
+    "importance": 2,
+    "title": {
+      "zh": "普希金与巴甫洛夫斯克解放",
+      "orig": "Освобождение Пушкина и Павловска (Слуцка)"
+    },
+    "body": "苏军继续压迫德军从列宁格勒南郊后撤，解放普希金和巴甫洛夫斯克，长期占领下遭受破坏的宫苑与居民区重新回到苏军控制。追击随后转向红卫城与托斯诺等铁路节点。地图按照推进阶段改变控制区，不能把稍后其他城市的解放一并提前到今天。",
+    "place": "@pushkin",
+    "units": [
+      "su.42a",
+      "su.67a",
+      "de.l_ak"
+    ],
+    "sources": [
+      "mil_cmh_defeat_12",
+      "mil_reglib_1943"
+    ],
+    "confidence": "medium",
+    "zoomRel": 5
+  },
+  {
+    "id": "e.gatchina_tosno_liberated",
+    "at": "1944-01-26T12:00",
+    "precision": "day",
+    "category": "movement",
+    "importance": 1,
+    "title": {
+      "zh": "红卫城与托斯诺解放，南郊围城线崩解",
+      "orig": "Освобождение Красногвардейска (Гатчины) и Тосно"
+    },
+    "body": "苏军收复红卫城和托斯诺，列宁格勒南部长期围城阵地进一步崩解，铁路和公路节点转入苏军控制。向西追击与向卢加方向推进仍在继续，不能把沃洛索沃和巴捷茨卡亚也写为同日解放。前者在二十七日被收复，后者的解放则要等到二月十二日。",
+    "place": "@krasnogvardeysk",
+    "units": [
+      "su.42a",
+      "su.67a",
+      "de.18a"
+    ],
+    "sources": [
+      "mil_cmh_defeat_12",
+      "mil_ganino_2025"
+    ],
+    "confidence": "high",
+    "zoomRel": 5
+  },
+  {
+    "id": "e.volosovo_liberated",
+    "at": "1944-01-27T12:00",
+    "precision": "day",
+    "category": "movement",
+    "importance": 2,
+    "title": {
+      "zh": "沃洛索沃解放，苏军继续西进",
+      "orig": "沃洛索沃解放，苏军继续西进"
+    },
+    "body": "苏军在继续追击中解放沃洛索沃，德军向卢加河和更西面的防线后撤。城镇解放日期应与二十六日红卫城、托斯诺的战果分开，不能为压缩叙事而合并。金吉谢普此时仍在前方，直到二月一日才被收复；本战役终点停在一月底，保留这一未完成的推进。",
+    "place": "@volosovo",
+    "units": [
+      "su.2sh_rebuilt",
+      "su.42a",
+      "de.18a"
+    ],
+    "sources": [
+      "mil_cmh_defeat_12",
+      "mil_kingisepp_museum"
+    ],
+    "confidence": "medium",
+    "zoomRel": 5
+  },
+  {
+    "id": "e.siege_lifted_salute",
+    "at": "1944-01-27T20:00",
+    "precision": "hour",
+    "category": "siege",
+    "importance": 1,
+    "title": {
+      "zh": "列宁格勒完全解围，324门炮鸣放24次齐射",
+      "orig": "Салют в честь полного освобождения Ленинграда от вражеской блокады"
+    },
+    "body": "列宁格勒宣告完全解除敌军封锁，晚间三百二十四门火炮鸣放二十四次齐射。这个节点标志南面围城体系被击破，与一九四三年一月十八日首次打通陆上走廊不同。战争尚未结束，芬兰方向仍有战线，受损交通与城市生活也需要漫长恢复。",
+    "place": "@leningrad",
+    "units": [
+      "su.f_len",
+      "su.2sh_rebuilt",
+      "su.42a",
+      "su.67a",
+      "su.kbf"
+    ],
+    "sources": [
+      "mil_prlib_salute",
+      "mil_garf_siege",
+      "mil_naval_1944"
+    ],
+    "confidence": "high",
+    "zoomRel": 5
+  },
+  {
+    "id": "e.october_railway_cleared",
+    "at": "1944-01-29T12:00",
+    "precision": "day",
+    "category": "movement",
+    "importance": 2,
+    "title": {
+      "zh": "留班与丘多沃方向推进，十月铁路沿线被收复",
+      "orig": "Освобождение Любани и Чудово · Очищение Октябрьской железной дороги"
+    },
+    "body": "苏军在一月底收复留班和丘多沃方向的重要节点，德军在列宁格勒南部的交通体系继续后撤。沿线被收复是恢复十月铁路运输的前提，但桥梁、路基和排雷仍需修复，不能直接等同全线立即通车。卢加和巴捷茨卡亚等地仍未解放，战役没有在所有方向同时结束。",
+    "place": "@chudovo",
+    "units": [
+      "su.54a",
+      "su.59a",
+      "de.18a"
+    ],
+    "sources": [
+      "mil_cmh_defeat_12",
+      "mil_ganino_2025"
+    ],
+    "confidence": "medium",
+    "zoomRel": 5
+  },
+  {
+    "id": "e.model_takes_command",
+    "at": "1944-01-31T12:00",
+    "precision": "day",
+    "category": "movement",
+    "importance": 2,
+    "title": {
+      "zh": "莫德尔接替屈希勒尔，德军继续后撤",
+      "orig": "莫德尔接替屈希勒尔，德军继续后撤"
+    },
+    "body": "莫德尔接替屈希勒尔指挥北方集团军群，面对苏军突破后持续后撤的局面。任命发生在一月三十一日，不能倒推为一月中旬罗普沙战斗时的指挥。金吉谢普要到次日才解放，卢加和巴捷茨卡亚更在二月；本包以一月底形势收束，保留后续战事的真实时间边界。",
+    "place": "@luga",
+    "units": [
+      "de.hgr_nord",
+      "de.18a"
+    ],
+    "sources": [
+      "mil_cmh_defeat_12",
+      "mil_kingisepp_museum",
+      "mil_ganino_2025"
+    ],
+    "confidence": "medium",
+    "zoomRel": 5
+  }
+]

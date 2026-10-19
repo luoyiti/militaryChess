@@ -1,0 +1,61 @@
+[
+  {
+    "id": "geo_natural_earth",
+    "title": "Natural Earth 1:10m：陆地、现代国界、水系与地名点；用于离线地理底图",
+    "author": "Natural Earth contributors",
+    "url": "https://www.naturalearthdata.com/about/terms-of-use/",
+    "license": "Public domain"
+  },
+  {
+    "id": "geo_osm",
+    "title": "OpenStreetMap / Nominatim：聚落、车站、港口与纪念地坐标，2026-10-18核查；查询与选点记录见pipeline/geo",
+    "author": "OpenStreetMap contributors",
+    "url": "https://www.openstreetmap.org/copyright",
+    "license": "ODbL 1.0"
+  },
+  {
+    "id": "geo_borders1941",
+    "title": "1941年6月北方战区边界重建：波罗的海并入苏联、东普鲁士与梅梅尔；本战役可再生处理记录",
+    "author": "本项目地理编辑；参考 historical-basemaps 与 Natural Earth",
+    "url": "https://github.com/aourednik/historical-basemaps",
+    "license": "Historical-basemaps GPL-3.0; derived historical boundary reference"
+  },
+  {
+    "id": "geo_moscow1940",
+    "title": "Map accompanying the peace treaty between Finland and the USSR, 12 March 1940",
+    "author": "俄罗斯联邦档案署：苏芬和约附图档案",
+    "year": 1940,
+    "url": "https://nakanune.rusarchives.ru/en/node/214"
+  },
+  {
+    "id": "geo_moscow1941_protocol",
+    "title": "苏芬混合边界委员会完成1940年界线测绘与批准：1941年5月驻芬使馆报告",
+    "author": "U.S. Department of State, Foreign Relations of the United States",
+    "year": 1941,
+    "url": "https://history.state.gov/historicaldocuments/frus1941v01/d38"
+  },
+  {
+    "id": "geo_karelia1939",
+    "title": "Karjalan Kartat：芬兰测绘局与军队测绘部门1939年前卡累利阿地图；旧国界参照",
+    "author": "National Land Survey of Finland",
+    "url": "https://www.maanmittauslaitos.fi/en/e-services/karelian-maps"
+  },
+  {
+    "id": "geo_sinyavino",
+    "title": "Синявинские высоты：43.3与50.1高地相对旧村教堂的位置及战斗记录",
+    "author": "圣彼得堡青少年创作宫历史博物馆",
+    "url": "https://dtdm.spb.ru/museum/qr0001.html"
+  },
+  {
+    "id": "geo_kirov_memorials",
+    "title": "基洛夫区政府战时遗址/纪念地名录：WGS84坐标、同名战毁村与1943年铁路遗址",
+    "author": "Администрация Кировского муниципального района Ленинградской области",
+    "url": "https://special.kirovsk-reg.ru/history/putevoditel_po_KMRLO/pamyatniki/_pamyatniki"
+  },
+  {
+    "id": "geo_oreshek",
+    "title": "奥列舍克要塞博物馆：涅瓦河源头奥列霍维岛与1941—1943年守城史",
+    "author": "Государственный музей истории Санкт-Петербурга",
+    "url": "https://www.spbmuseum.ru/themuseum/news/56034/?lang_ui=en"
+  }
+]

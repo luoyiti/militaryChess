@@ -1,0 +1,257 @@
+[
+  {
+    "id": "kv1",
+    "side": "SU",
+    "name": {
+      "zh": "KV-1重型坦克",
+      "orig": "КВ-1 (Клим Ворошилов)"
+    },
+    "class": "tank_medium",
+    "model": "kv1",
+    "photo": {
+      "commons": "File:KV-1 Model 1941 in the Breakthrough of the Siege of Leningrad Museum.jpg",
+      "caption": "2008年6月13日摄于“突破列宁格勒封锁”博物馆的KV-1展品；现代装备照片。"
+    },
+    "desc": "KV系列重型坦克与列宁格勒基洛夫工厂联系紧密，以厚重装甲为步兵提供近距离支援。1941年防御与后续解围作战中，坦克须面对林地、沼泽和有限渡河通道；各批次的炮塔、附加装甲和火炮配置有所变化，防护与机动始终需要权衡。",
+    "sources": [
+      "eq_kv",
+      "mil_prlib_iskra"
+    ]
+  },
+  {
+    "id": "t34",
+    "side": "SU",
+    "name": {
+      "zh": "T-34/76中型坦克",
+      "orig": "Т-34 образца 1941/1942 года"
+    },
+    "class": "tank_medium",
+    "model": "t34",
+    "photo": {
+      "commons": "File:Soviet T-34 with desant rushing into village.jpg",
+      "caption": "1941年12月苏军西方面军的T-34与搭载步兵进攻村庄；异地装备示意，非列宁格勒现场。"
+    },
+    "desc": "T-34/76结合倾斜装甲、履带机动与76.2毫米火炮，是苏军战争时期的重要中型坦克。早期车辆在1941年已投入作战，后续生产不断改进；列宁格勒方向的突破战中，装甲部队需要与步兵、炮兵和工兵协同，穿越冰河与林沼地带。",
+    "sources": [
+      "eq_t34",
+      "mil_prlib_iskra"
+    ],
+    "crew": 4,
+    "gun": "76.2毫米炮（型号随批次变化）"
+  },
+  {
+    "id": "t26",
+    "side": "SU",
+    "name": {
+      "zh": "T-26轻型坦克",
+      "orig": "Т-26 образца 1933/1939 года"
+    },
+    "class": "tank_light",
+    "model": "t26",
+    "photo": {
+      "commons": "File:Kilőtt T-26-os harckocsi a Kamenyec-Podolszk és Tulcsin közötti úton. Fortepan 78310.jpg",
+      "caption": "1941年乌克兰卡缅涅茨-波多利斯基至图利钦路上的被毁T-26；异地装备示意，Fortepan档案78310。"
+    },
+    "desc": "T-26是苏军战前大量装备的步兵支援坦克，单炮塔型以45毫米炮和同轴机枪为主要武器。它与列宁格勒第174工厂的生产联系紧密。各批次逐步改进炮塔和通信设备，薄装甲则使它在战争初期面对炮火与空袭时损失严重。",
+    "sources": [
+      "eq_t26"
+    ],
+    "gun": "45毫米20-K炮与7.62毫米DT机枪"
+  },
+  {
+    "id": "bm13",
+    "side": "SU",
+    "name": {
+      "zh": "BM-13「喀秋莎」火箭炮",
+      "orig": "БМ-13 «Катюша»"
+    },
+    "class": "gun",
+    "photo": {
+      "commons": "File:Dykanka Katiushi IMG 6036 53-210-0030.JPG",
+      "caption": "2008年摄于乌克兰季坎卡的喀秋莎纪念展品；现代纪念设施照片，非围城时期影像。"
+    },
+    "desc": "BM-13「喀秋莎」是安装在车辆上的多管火箭发射装备，能够在短时间内集中投射火力，并在射击后转移。苏军近卫迫击炮部队在突破作战中将火箭炮与常规火炮配合使用。战时存在不同底盘，后续标准化型号又随生产条件而发展。",
+    "sources": [
+      "eq_bm13",
+      "mil_prlib_iskra"
+    ]
+  },
+  {
+    "id": "b13_130mm",
+    "side": "SU",
+    "name": {
+      "zh": "130毫米B-13舰炮",
+      "orig": "130-мм морская пушка Б-13"
+    },
+    "class": "gun",
+    "desc": "B-13是苏联舰艇与部分岸防设施使用的130毫米火炮，拉多加区舰队的舰船也曾装备。红旗波罗的海舰队与湖上舰艇除运输和护航外，还用舰炮支援地面防御及反炮兵作战。舰载、岸置和其他大口径海军火炮共同组成火力体系。",
+    "sources": [
+      "eq_b13",
+      "mil_naval_1944"
+    ]
+  },
+  {
+    "id": "gaz_aa",
+    "side": "SU",
+    "name": {
+      "zh": "GAZ-AA「一吨半」载重卡车",
+      "orig": "ГАЗ-АА («Полуторка»)"
+    },
+    "class": "transport",
+    "desc": "载重1.5吨的GAZ-AA被称为「一吨半」，是拉多加湖冰道运输的重要车辆。车队经湖东接驳将粮食与军需送往西岸，也参与人员撤离。道路需要反复侦察、修整和改线，车辆载荷随冰况调整；驾驶员、道路工人与维修人员共同维持运输。",
+    "sources": [
+      "civil_source_gazaa",
+      "civil_source_kovalchuk_ice1"
+    ]
+  },
+  {
+    "id": "i16",
+    "side": "SU",
+    "name": {
+      "zh": "I-16战斗机",
+      "orig": "И-16"
+    },
+    "class": "fighter",
+    "photo": {
+      "commons": "File:Soviet damaged I-16 fighters captured by the Germans at Riga airfield. June 1941.jpg",
+      "caption": "1941年6月30日里加机场被德军缴获的受损伊-16；装备示意，非列宁格勒现场。许可状态按Commons页面记录。"
+    },
+    "desc": "I-16由波利卡尔波夫设计，短机身、单翼布局和可收放起落架体现了苏军战前战斗机的发展。早期与后续型号的机枪、机炮配置不同。战争初期这些飞机仍承担城市防空和交通线掩护，飞行员须在地面补给困难与敌机压力下持续出动。",
+    "sources": [
+      "eq_i16",
+      "mil_garf_siege"
+    ]
+  },
+  {
+    "id": "tiger1",
+    "side": "DE",
+    "name": {
+      "zh": "VI号「虎」式重型坦克",
+      "orig": "Panzerkampfwagen VI Ausf. E „Tiger I“ (Sd.Kfz. 181)"
+    },
+    "class": "tank_medium",
+    "photo": {
+      "commons": "File:Bundesarchiv Bild 101I-461-0212-12, Russland, Panzer VI (Tiger I).jpg",
+      "caption": "拉多加湖南侧的虎式坦克，档案记1943年8月；原战争宣传说明须审慎使用，这不是1942年首次参战的照片。"
+    },
+    "desc": "「虎」式是1942年开始投入作战的德国重型坦克，装备88毫米炮，正面防护强。它的重量、可靠性和狭窄地形下的机动能力限制了运用，列宁格勒周边的林沼尤其不利于自由展开。其在北方战场的初次部署也体现了重装备与地形之间的矛盾。",
+    "sources": [
+      "eq_tiger",
+      "mil_cmh_decision_20"
+    ],
+    "crew": 5,
+    "weightT": 57,
+    "gun": "88毫米坦克炮"
+  },
+  {
+    "id": "pz3",
+    "side": "DE",
+    "name": {
+      "zh": "III号中型坦克",
+      "orig": "Panzerkampfwagen III Ausf. H/J (Sd.Kfz. 141)"
+    },
+    "class": "tank_medium",
+    "model": "pz3",
+    "photo": {
+      "commons": "File:11. PzD Barbarossa.jpg",
+      "caption": "1941年“巴巴罗萨”行动初期，德军第11装甲师的III号坦克；装备示意，非列宁格勒战场记录。"
+    },
+    "desc": "III号坦克是德军1940年至1942年中期装甲部队的重要装备，火炮由早期37毫米逐步发展到50毫米，装甲也不断加强。第4装甲集群的北进依赖装甲突击与步兵跟进；系列后期型号继续改进，而它的底盘还用于III号突击炮生产。",
+    "sources": [
+      "eq_pz3",
+      "mil_cmh_decision_2"
+    ],
+    "gun": "37毫米或50毫米炮（按型号）"
+  },
+  {
+    "id": "pz4",
+    "side": "DE",
+    "name": {
+      "zh": "IV号中型坦克",
+      "orig": "Panzerkampfwagen IV Ausf. F1/G (Sd.Kfz. 161)"
+    },
+    "class": "tank_medium",
+    "model": "pz4",
+    "desc": "IV号坦克从早期短身管支援型逐渐发展为装备长身管75毫米炮的车型。它在战争中持续生产和改进，火力用途随型号变化。围城延续近两年半，战区内装甲部队的编制与补充不断调整，车辆在公路、林地和冬季地面的运用条件也随之改变。",
+    "sources": [
+      "eq_pz4",
+      "mil_cmh_decision_2"
+    ],
+    "gun": "75毫米炮（短管／长管按型号）"
+  },
+  {
+    "id": "pz38t",
+    "side": "DE",
+    "name": {
+      "zh": "38(t)轻型坦克",
+      "orig": "Panzerkampfwagen 38(t)"
+    },
+    "class": "tank_light",
+    "model": "pz38t",
+    "photo": {
+      "commons": "File:7 PzD 1941.jpg",
+      "caption": "1941年“巴巴罗萨”行动初期，德军第7装甲师的38(t)坦克；装备示意，非列宁格勒现场。"
+    },
+    "desc": "38(t)源自捷克斯洛伐克的轻型坦克设计，德国占领捷克地区后将其纳入装甲部队。37毫米炮使它在战争初期具有实用火力，1941年后面对T-34和KV等苏军新型坦克时战斗效能下降。坦克生产于1942年夏结束，底盘继续用于其他车辆。",
+    "sources": [
+      "eq_pz38",
+      "mil_cmh_decision_2"
+    ]
+  },
+  {
+    "id": "stug3",
+    "side": "DE",
+    "name": {
+      "zh": "III号突击炮",
+      "orig": "Sturmgeschütz III Ausf. B–G (Sd.Kfz. 142)"
+    },
+    "class": "tank_medium",
+    "model": "stug3",
+    "photo": {
+      "commons": "File:Bundesarchiv Bild 101I-136-0882-12, Sowjetunion, Deutsches Sturmgeschütz.jpg",
+      "caption": "德国联邦档案馆标记为1941年6月的III号突击炮照片；装备示意，拍摄地点未确认为列宁格勒。"
+    },
+    "desc": "III号突击炮采用III号坦克底盘和固定战斗室，以装甲火力支援步兵。系列经历从短身管支援炮到长身管火炮的变化。列宁格勒周边缺乏宽阔机动空间，突击炮须沿有限通道配合步兵推进或阻击，火力与步兵协同对林沼战斗尤其重要。",
+    "sources": [
+      "eq_pz3",
+      "mil_cmh_decision_20"
+    ]
+  },
+  {
+    "id": "flak88",
+    "side": "DE",
+    "name": {
+      "zh": "88毫米Flak防空／反坦克炮",
+      "orig": "8,8-cm-Flak 18/36 & Belagerungsartillerie"
+    },
+    "class": "gun",
+    "photo": {
+      "commons": "File:8.8 cm Flak 18-36-37 1.jpg",
+      "caption": "2007年8月14日摄于美国阿伯丁军械博物馆的88毫米高射炮展品；现代装备照片。"
+    },
+    "desc": "88毫米Flak高射炮既用于防空，也用于平射和反坦克作战。炮班需要在开阔射界、隐蔽和转移条件之间选择阵地。它是德军火力体系的一部分；围城炮击另由多种远程重炮承担，理解城市承受的火力需要区分这些装备及其部署。",
+    "sources": [
+      "eq_flak",
+      "mil_cmh_decision_20"
+    ]
+  },
+  {
+    "id": "ju87",
+    "side": "DE",
+    "name": {
+      "zh": "Ju 87「斯图卡」俯冲轰炸机",
+      "orig": "Junkers Ju 87 B/D „Stuka“"
+    },
+    "class": "dive_bomber",
+    "model": "ju87",
+    "photo": {
+      "commons": "File:Bundesarchiv Bild 101I-393-1402-06A, Russland, Junkers Ju 87.jpg",
+      "caption": "德国联邦档案馆标记为1942年1月的Ju 87照片；装备示意，不能据此确定所属航空队或1941年出击场景。"
+    },
+    "desc": "Ju 87「斯图卡」以俯冲方式攻击地面和海上目标，战争中发展出多种型号。其作战效果依赖空中掩护，面对有力战斗机拦截时损失可能迅速增加。列宁格勒方向的机场、港口、舰艇与运输联系均遭空袭，地面防空和护航因此持续承担压力。",
+    "sources": [
+      "eq_ju87",
+      "civil_source_marat_museum"
+    ]
+  }
+]

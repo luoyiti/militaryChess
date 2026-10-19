@@ -1,0 +1,164 @@
+[
+  {
+    "id": "p.leningrad",
+    "name": {
+      "zh": "列宁格勒陆上封锁圈",
+      "orig": "列宁格勒陆上封锁圈"
+    },
+    "start": "1941-09-08T12:00",
+    "end": "1943-01-18T12:00",
+    "anchor": "@leningrad",
+    "units": [
+      "su.42a",
+      "su.55a",
+      "su.23a",
+      "su.neva_group",
+      "su.67a",
+      "su.kbf"
+    ],
+    "fate": "relieved",
+    "note": "什利谢利堡失守后直接陆路被切断，但拉多加湖运输与奥列舍克守军继续存在。1943年1月18日突破陆上封锁；全面围城压力与炮击到1944年1月27日才宣告解除，不能把两个节点混同。",
+    "sources": [
+      "mil_garf_siege",
+      "mil_prlib_iskra",
+      "mil_oreshek_museum",
+      "mil_spb_oreshek"
+    ]
+  },
+  {
+    "id": "p.oranienbaum",
+    "name": {
+      "zh": "奥拉宁鲍姆滨海桥头堡",
+      "orig": "奥拉宁鲍姆滨海桥头堡"
+    },
+    "start": "1941-09-16T12:00",
+    "end": "1944-01-19T12:00",
+    "anchor": "@oranienbaum",
+    "units": [
+      "su.8a",
+      "su.og_primorsk",
+      "su.2sh_rebuilt"
+    ],
+    "fate": "relieved",
+    "note": "与主城的陆路分离，但长期得到海上补给和喀琅施塔得火力支援。1944年1月成为西侧进攻出发地，两军随后在俄国维索茨科耶附近会合。显示的是孤立桥头堡，非完全断绝一切交通。",
+    "sources": [
+      "mil_naval_1944",
+      "mil_cmh_defeat_12"
+    ]
+  },
+  {
+    "id": "p.luga_north",
+    "name": {
+      "zh": "卢加集群林沼包围地带",
+      "orig": "卢加集群林沼包围地带"
+    },
+    "start": "1941-08-27T12:00",
+    "end": "1941-09-15T12:00",
+    "anchor": "@mshinskaya",
+    "units": [
+      "su.og_luga",
+      "su.1dno"
+    ],
+    "fate": "broke_out",
+    "note": "八月底至九月中旬持续抵抗和分批突围，另有大量人员阵亡、被俘或失散。命运标签仅概括部分部队成功脱出，不宣称整个集群整体保存，也不把卢加8月24日失守当作全军同日覆灭。",
+    "sources": [
+      "mil_luga_archive",
+      "mil_luga_museum"
+    ]
+  },
+  {
+    "id": "p.myasnoy_bor_march",
+    "name": {
+      "zh": "柳班突出部第一次短暂封闭",
+      "orig": "柳班突出部第一次短暂封闭"
+    },
+    "start": "1942-03-19T12:00",
+    "end": "1942-03-27T12:00",
+    "anchor": "@myasnoy_bor",
+    "units": [
+      "su.2sh_a"
+    ],
+    "fate": "broke_out",
+    "note": "猛兽行动切断狭窄咽喉，苏军随后在三月下旬恢复有限通路。这一轮短暂隔断与五月底重新合围分开表示；标签表示重新打通通道，不表示全军撤回或战役成功。",
+    "sources": [
+      "mil_cmh_decision_9",
+      "mil_cmh_decision_12"
+    ]
+  },
+  {
+    "id": "p.myasnoy_bor",
+    "name": {
+      "zh": "柳班突出部再次合围与死亡谷",
+      "orig": "柳班突出部再次合围与死亡谷"
+    },
+    "start": "1942-05-31T12:00",
+    "end": "1942-06-25T18:00",
+    "anchor": "@myasnoy_bor",
+    "units": [
+      "su.2sh_a",
+      "su.327sd"
+    ],
+    "fate": "destroyed",
+    "note": "德军5月30—31日重新切断通道，6月下旬突围失败，指挥体系瓦解。部分人员脱出而大量人员阵亡或被俘，数字与范围存在分歧；destroyed只概括战役组织的毁坏，不表示每一名军人都死亡。",
+    "sources": [
+      "mil_cmh_decision_12"
+    ]
+  },
+  {
+    "id": "p.gaytolovo",
+    "name": {
+      "zh": "锡尼亚维诺突出部被围部队",
+      "orig": "锡尼亚维诺突出部被围部队"
+    },
+    "start": "1942-09-25T12:00",
+    "end": "1942-10-02T12:00",
+    "anchor": "@gaytolovo",
+    "units": [
+      "su.8a",
+      "su.2sh_rebuilt"
+    ],
+    "fate": "broke_out",
+    "note": "德军反击切断部分深入部队，苏军反复组织突围，部分人员返回出发地区，另有大量损失。不能把第8集团军与重建第2突击集团军的所有机关和部队都视为同时位于包围圈内。",
+    "sources": [
+      "mil_cmh_decision_20"
+    ]
+  },
+  {
+    "id": "p.shlisselburg_de",
+    "name": {
+      "zh": "什利谢利堡—利普卡德军残部",
+      "orig": "什利谢利堡—利普卡德军残部"
+    },
+    "start": "1943-01-18T12:00",
+    "end": "1943-01-20T12:00",
+    "anchor": "@shlisselburg",
+    "units": [
+      "de.227id"
+    ],
+    "fate": "broke_out",
+    "note": "湖南岸会师后德军北部残部失去原有联系，一部向南突围，一部阵亡或被俘。该示意不能解释为第227步兵师全师被歼，残部通路与清理过程也不等于同一时刻结束。",
+    "sources": [
+      "mil_prlib_iskra",
+      "mil_reglib_1943"
+    ]
+  },
+  {
+    "id": "p.peterhof_strelna",
+    "name": {
+      "zh": "彼得霍夫—斯特列利纳残部",
+      "orig": "彼得霍夫—斯特列利纳残部"
+    },
+    "start": "1944-01-19T12:00",
+    "end": "1944-01-21T18:00",
+    "anchor": "@peterhof",
+    "units": [
+      "de.9lw"
+    ],
+    "fate": "destroyed",
+    "note": "两支苏军在俄国维索茨科耶附近会合后切断德军突出部。部分德军此前已后撤，围困与肃清针对留在当地的残部；不能把整个军或集团军一并画成覆灭，也不采用未经同口径核实的俘虏和重炮数字。",
+    "sources": [
+      "mil_naval_1944",
+      "mil_cmh_defeat_12"
+    ]
+  }
+]

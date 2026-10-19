@@ -1,0 +1,853 @@
+{
+  "schemaVersion": 2,
+  "id": "leningrad-1941",
+  "status": "published",
+  "title": {
+    "mark": "1941—44",
+    "zh": "列宁格勒围城战",
+    "sub": "北方推进 · 围城与解围",
+    "en": "The Siege of Leningrad",
+    "orig": "Блокада Ленинграда · Belagerung von Leningrad",
+    "codename": "列宁格勒保卫战",
+    "html": "列宁格勒围城战 1941—1944 · 战旗推演",
+    "description": "从1941年夏季北方推进到1944年1月解围：中文交互地图、部队档案、战线、分类口粮与生命之路，呈现列宁格勒作战和城市生存史。",
+    "favicon": "#8f5a2b"
+  },
+  "time": {
+    "epoch": "1941-06-22T00:00",
+    "start": "1941-06-22T00:00",
+    "end": "1944-01-31T23:59",
+    "dataEnd": "1944-01-31T23:59",
+    "tzLabel": "莫斯科时间（UTC+3）；日精度事件的钟点仅供排序",
+    "utcOffset": 3,
+    "hoursPerSec": 48,
+    "pace": [
+      {
+        "from": "1941-06-22T00:00",
+        "hoursPerSec": 48
+      },
+      {
+        "from": "1941-07-10T00:00",
+        "hoursPerSec": 48
+      },
+      {
+        "from": "1941-09-08T00:00",
+        "hoursPerSec": 24
+      },
+      {
+        "from": "1941-10-16T00:00",
+        "hoursPerSec": 48
+      },
+      {
+        "from": "1942-01-07T00:00",
+        "hoursPerSec": 96
+      },
+      {
+        "from": "1942-08-19T00:00",
+        "hoursPerSec": 48
+      },
+      {
+        "from": "1943-01-12T00:00",
+        "hoursPerSec": 24
+      },
+      {
+        "from": "1943-02-10T00:00",
+        "hoursPerSec": 120
+      },
+      {
+        "from": "1944-01-14T00:00",
+        "hoursPerSec": 12
+      }
+    ]
+  },
+  "sides": [
+    {
+      "id": "DE",
+      "prefix": "de",
+      "name": "德国",
+      "coalition": "axis",
+      "counter": {
+        "bg": "#56708f",
+        "edge": "#2a3a52",
+        "text": "#f4efe2",
+        "box": "#eef0ea",
+        "ink": "#1f3558"
+      },
+      "css": {
+        "main": "#3a5887",
+        "dark": "#1f3558"
+      },
+      "arrow": {
+        "fill": "rgba(58,88,135,0.62)",
+        "stroke": "#1f3558"
+      },
+      "sandbox": "#3a5887",
+      "defaultModel": "inf_de"
+    },
+    {
+      "id": "FI",
+      "prefix": "fi",
+      "name": "芬兰",
+      "coalition": "axis",
+      "counter": {
+        "bg": "#6d8a9c",
+        "edge": "#36505e",
+        "text": "#f4efe2",
+        "box": "#eef0ea",
+        "ink": "#2c4c58"
+      },
+      "css": {
+        "main": "#4a7a8c",
+        "dark": "#2c4c58"
+      },
+      "arrow": {
+        "fill": "rgba(74,122,140,0.62)",
+        "stroke": "#2c4c58"
+      },
+      "sandbox": "#4a7a8c",
+      "defaultModel": "inf_fi"
+    },
+    {
+      "id": "ES",
+      "prefix": "es",
+      "name": "西班牙志愿部队",
+      "coalition": "axis",
+      "counter": {
+        "bg": "#8a8f6a",
+        "edge": "#4d5236",
+        "text": "#f4efe2",
+        "box": "#eef0ea",
+        "ink": "#4d5236"
+      },
+      "css": {
+        "main": "#788054",
+        "dark": "#4d5236"
+      },
+      "arrow": {
+        "fill": "rgba(120,128,84,0.62)",
+        "stroke": "#4d5236"
+      },
+      "sandbox": "#788054",
+      "defaultModel": "inf_de"
+    },
+    {
+      "id": "SU",
+      "prefix": "su",
+      "name": "苏联",
+      "coalition": "comintern",
+      "counter": {
+        "bg": "#a0683a",
+        "edge": "#5e3a1c",
+        "text": "#f4efe2",
+        "box": "#eef0ea",
+        "ink": "#5e3a1c"
+      },
+      "css": {
+        "main": "#8f5a2b",
+        "dark": "#5e3a1c"
+      },
+      "arrow": {
+        "fill": "rgba(143,90,43,0.62)",
+        "stroke": "#5e3a1c"
+      },
+      "sandbox": "#8f5a2b",
+      "defaultModel": "inf_su"
+    }
+  ],
+  "control": {
+    "mode": "territory",
+    "landBit": 4,
+    "theatreBits": [
+      0
+    ],
+    "slots": [
+      {
+        "key": "DE",
+        "label": "德军控制区",
+        "homeBits": [
+          1
+        ],
+        "line": "#294b73",
+        "sandboxFill": [
+          0.18,
+          0.28,
+          0.43
+        ],
+        "sandboxLine": [
+          0.16,
+          0.25,
+          0.39
+        ]
+      },
+      {
+        "key": "FI",
+        "label": "芬军控制区",
+        "homeBits": [
+          2
+        ],
+        "line": "#356c74",
+        "legend": "repeating-linear-gradient(0deg,#527e8566 0 2px,transparent 2px 6px)",
+        "sandboxFill": [
+          0.28,
+          0.44,
+          0.45
+        ],
+        "sandboxLine": [
+          0.2,
+          0.37,
+          0.39
+        ]
+      }
+    ],
+    "remainder": {
+      "label": "苏联控制区"
+    }
+  },
+  "phases": [
+    {
+      "id": "baltic_advance",
+      "from": "1941-06-22T00:00",
+      "name": "北方推进",
+      "short": "北方推进",
+      "sub": "东普鲁士至西德维纳河、普斯科夫；以集团军和关键军级标记呈现战略前奏。",
+      "center": [
+        27.3,
+        57.2
+      ],
+      "zoom": 1.1
+    },
+    {
+      "id": "luga_defense",
+      "from": "1941-07-10T00:00",
+      "name": "卢加阻击与两翼逼近",
+      "short": "卢加阻击",
+      "sub": "卢加防线延缓德军；爱沙尼亚、地峡和拉多加湖以北的战斗逐步压缩城市联系。",
+      "center": [
+        29.2,
+        59.0
+      ],
+      "zoom": 2.5
+    },
+    {
+      "id": "encirclement",
+      "from": "1941-09-08T00:00",
+      "name": "陆上合围与城市防御",
+      "short": "合围城防",
+      "sub": "什利谢利堡失守后陆路中断；普尔科沃、奥拉宁鲍姆与奥列舍克仍由苏军守卫。",
+      "center": [
+        30.65,
+        59.88
+      ],
+      "zoom": 3.5
+    },
+    {
+      "id": "tikhvin_winter",
+      "from": "1941-10-16T00:00",
+      "name": "季赫温与饥饿严冬",
+      "short": "饥饿严冬",
+      "sub": "季赫温攻防威胁湖东接驳；饥饿、严寒与薄冰运输构成城市的生存危机。",
+      "center": [
+        31.8,
+        59.6
+      ],
+      "zoom": 3.6
+    },
+    {
+      "id": "lyuban",
+      "from": "1942-01-07T00:00",
+      "name": "柳班攻势与城市恢复",
+      "short": "柳班攻势",
+      "sub": "解围攻势深入林沼并遭反包围；冰路撤离、春季卫生整治和市政修复并行。",
+      "center": [
+        31.05,
+        59.35
+      ],
+      "zoom": 4.8
+    },
+    {
+      "id": "sinyavino",
+      "from": "1942-08-19T00:00",
+      "name": "锡尼亚维诺与北极光计划",
+      "short": "锡尼亚维诺",
+      "sub": "解围攻势未能会师；德军原拟攻城的部队被投入战场，城市继续依靠湖上交通。",
+      "center": [
+        31.2,
+        59.85
+      ],
+      "zoom": 8.5
+    },
+    {
+      "id": "iskra",
+      "from": "1943-01-12T00:00",
+      "name": "火花行动与胜利铁路",
+      "short": "火花与铁路",
+      "sub": "两方面军在拉多加湖南岸会合；狭窄走廊与新铁路尚处德军炮火威胁之下。",
+      "center": [
+        31.2,
+        59.94
+      ],
+      "zoom": 11
+    },
+    {
+      "id": "corridor_1943",
+      "from": "1943-02-10T00:00",
+      "name": "走廊争夺与持续围城",
+      "short": "走廊争夺",
+      "sub": "红博尔、姆加和锡尼亚维诺作战继续；铁路、水运、城市劳动共同维持供应。",
+      "center": [
+        31.03,
+        59.8
+      ],
+      "zoom": 6
+    },
+    {
+      "id": "liberation",
+      "from": "1944-01-14T00:00",
+      "name": "一月雷霆与完全解围",
+      "short": "完全解围",
+      "sub": "奥拉宁鲍姆、普尔科沃和诺夫哥罗德方向突破；1月27日宣布完全解除围城。",
+      "center": [
+        30.12,
+        59.45
+      ],
+      "zoom": 3.8
+    }
+  ],
+  "marks": [
+    [
+      "1941-06-22T00:00",
+      "北方推进"
+    ],
+    [
+      "1941-09-08T00:00",
+      "陆上封锁"
+    ],
+    [
+      "1941-11-20T00:00",
+      "最低配给"
+    ],
+    [
+      "1941-11-22T00:00",
+      "冰道汽车运输"
+    ],
+    [
+      "1941-12-09T00:00",
+      "季赫温收复"
+    ],
+    [
+      "1943-01-18T00:00",
+      "突破封锁"
+    ],
+    [
+      "1943-02-07T00:00",
+      "首列抵城"
+    ],
+    [
+      "1944-01-27T00:00",
+      "完全解围"
+    ]
+  ],
+  "theme": {
+    "accent": "#8f5a2b",
+    "accentDark": "#5e3a1c",
+    "accentTint": "rgba(0,0,0,.06)",
+    "theatreBorder": "#8f5a2b",
+    "theatreHalo": "rgba(0,0,0,.14)",
+    "restFill": "rgba(0,0,0,.05)"
+  },
+  "map": {
+    "fit": "frame",
+    "home3d": [
+      30.65,
+      59.85
+    ],
+    "focus": [
+      30.7,
+      59.75
+    ],
+    "hexKm": 20,
+    "theatreCountries": [
+      "SU",
+      "FI"
+    ],
+    "labels": {
+      "countries": [
+        [
+          "芬 兰",
+          25.5,
+          61.7,
+          33,
+          0
+        ],
+        [
+          "苏 联",
+          34.6,
+          58.5,
+          34,
+          0
+        ],
+        [
+          "东普鲁士",
+          21.3,
+          54.7,
+          22,
+          0
+        ]
+      ],
+      "waters": [
+        [
+          "芬兰湾",
+          27.1,
+          59.6,
+          25,
+          false,
+          0
+        ],
+        [
+          "拉多加湖",
+          31.7,
+          60.9,
+          26,
+          false,
+          0
+        ],
+        [
+          "伊尔门湖",
+          31.35,
+          58.23,
+          18,
+          false,
+          1.8
+        ],
+        [
+          "楚德湖",
+          27.47,
+          58.65,
+          20,
+          false,
+          0
+        ]
+      ]
+    },
+    "returnZoom": 1.1,
+    "maxZoom": 24,
+    "liveInsets": true,
+    "sidebarInset": "measure",
+    "portMarkers": true,
+    "unitZoom": [
+      4.5,
+      7,
+      12
+    ],
+    "initialView": {
+      "center": [
+        27.9,
+        58.5
+      ],
+      "zoom": 1.1
+    },
+    "mobileZoomCap": 1.2,
+    "regions": [
+      {
+        "id": "north",
+        "label": "北方战区",
+        "center": [
+          27.9,
+          58.5
+        ],
+        "zoom": 1.1
+      },
+      {
+        "id": "city",
+        "label": "列宁格勒",
+        "center": [
+          30.4,
+          59.92
+        ],
+        "zoom": 5
+      },
+      {
+        "id": "iskra",
+        "label": "拉多加与火花",
+        "center": [
+          31.21,
+          59.96
+        ],
+        "zoom": 11
+      },
+      {
+        "id": "volkhov",
+        "label": "沃尔霍夫—诺夫哥罗德",
+        "center": [
+          31.8,
+          59.15
+        ],
+        "zoom": 3.5
+      }
+    ]
+  },
+  "sandbox": {
+    "exaggeration": 4,
+    "figScale": 17,
+    "target": [
+      30.65,
+      59.85
+    ],
+    "kind": "terrain",
+    "maxDistance": 16000,
+    "softwareFallback": true,
+    "typeModels": {
+      "naval": "navy_token",
+      "air": "air_token",
+      "aviation": "air_token"
+    }
+  },
+  "director": {
+    "returnTo": "phase",
+    "defaultZoom": [
+      7,
+      10
+    ],
+    "wideGoesHome": false,
+    "sirens": [
+      {
+        "events": [
+          "e.badayev_fire",
+          "e.kronstadt_air_raid"
+        ],
+        "sfx": "air_siren",
+        "volume": 0.28
+      }
+    ]
+  },
+  "audio": {
+    "music": [
+      {
+        "from": "1941-06-22T00:00",
+        "track": "operations"
+      },
+      {
+        "from": "1941-09-08T00:00",
+        "track": "elegy"
+      },
+      {
+        "from": "1943-01-12T00:00",
+        "track": "operations"
+      },
+      {
+        "from": "1943-02-10T00:00",
+        "track": "elegy"
+      },
+      {
+        "from": "1944-01-14T00:00",
+        "track": "operations"
+      },
+      {
+        "from": "1944-01-27T00:00",
+        "track": "elegy"
+      }
+    ],
+    "intensity": [
+      {
+        "from": "1941-06-22T00:00",
+        "value": 0.2
+      },
+      {
+        "from": "1941-09-08T00:00",
+        "value": 0.35
+      },
+      {
+        "from": "1941-11-20T00:00",
+        "value": 0.08
+      },
+      {
+        "from": "1943-01-12T00:00",
+        "value": 0.45
+      },
+      {
+        "from": "1943-02-10T00:00",
+        "value": 0.15
+      },
+      {
+        "from": "1944-01-14T00:00",
+        "value": 0.45
+      },
+      {
+        "from": "1944-01-27T00:00",
+        "value": 0.08
+      }
+    ],
+    "introSting": "none",
+    "volumePanel": true,
+    "musicVol": 0.3,
+    "introMusic": "elegy"
+  },
+  "ui": {
+    "layers": {
+      "routesFull": {
+        "default": false
+      },
+      "hex": {
+        "default": false
+      }
+    },
+    "chapterNav": "sidebar",
+    "brief": {
+      "title": "列宁格勒围城战",
+      "sub": "Блокада Ленинграда · 1941—1944",
+      "sub2": "战略前奏 1941.6.22 — 解围后续 1944.1.31",
+      "fine": "棋子代表编制或参战部分，不能相加为全战役兵力。分阶段数字注明时间、范围与统计口径，未知项留空；平民死亡见围城生活与史料说明。",
+      "byPhase": true,
+      "notes": "details",
+      "losses": false,
+      "sideColumns": 2,
+      "stamp": "北方战区 · 作战与生存档案",
+      "menFormat": "fixed1"
+    },
+    "status": {
+      "cells": [
+        {
+          "sides": [
+            "SU"
+          ],
+          "metric": "act",
+          "label": "苏军代表单位"
+        },
+        {
+          "sides": [
+            "SU"
+          ],
+          "metric": "enc",
+          "label": "被围参战部队",
+          "cls": "enc"
+        },
+        {
+          "sides": [
+            "DE"
+          ],
+          "metric": "act",
+          "label": "德军代表单位"
+        },
+        {
+          "sides": [
+            "FI",
+            "ES"
+          ],
+          "metric": "act",
+          "label": "芬军／西志愿部队"
+        }
+      ]
+    },
+    "legend": {
+      "counters": [
+        [
+          "DE",
+          "infantry",
+          "division",
+          "德国步兵"
+        ],
+        [
+          "FI",
+          "infantry",
+          "division",
+          "芬兰步兵"
+        ],
+        [
+          "ES",
+          "infantry",
+          "division",
+          "西班牙志愿部队"
+        ],
+        [
+          "SU",
+          "infantry",
+          "division",
+          "苏联步兵"
+        ]
+      ],
+      "items": [
+        "<i class=\"lg-fill a\"></i>德军控制区",
+        "<i class=\"lg-fill b\"></i>芬军控制区",
+        "<i class=\"lg-fill\"></i>苏联控制区",
+        "<i class=\"lg-front\"></i>接触线（近似）",
+        "<i class=\"lg-pocket\"></i>被围参战部队"
+      ],
+      "after": "<p class=\"fine\">蓝虚线：水运与冰道；褐虚线：胜利铁路。交通线路默认随时间过滤，换季可能重叠；全期对照模式呈现跨时期参考线。防御带为跨时期示意。3D线路统一采用示意虚线，时效与2D一致。</p><p class=\"fine\">芬兰以共同交战国身份参与北方封锁；西班牙志愿部队在德军序列服役，不表示西班牙国家全面参战。1939年苏芬旧界为历史参考，开战底图采用1940年和约边界。</p>"
+    },
+    "cardYear": "keep",
+    "precisionStyle": "note",
+    "treeActiveOnly": true,
+    "timeline": {
+      "jump": true,
+      "dateInput": true,
+      "lanes": 3,
+      "majorEvery": 168
+    },
+    "sandboxPhaseFocus": true,
+    "extraLayers": [
+      {
+        "key": "logistics",
+        "label": "交通联系（随时间）",
+        "default": true
+      },
+      {
+        "key": "fortlines",
+        "label": "防御带示意（跨时期）",
+        "default": false
+      },
+      {
+        "key": "siegeIceVisible",
+        "label": "冰道",
+        "default": false
+      },
+      {
+        "key": "siegeWaterVisible",
+        "label": "水运",
+        "default": false
+      },
+      {
+        "key": "siegeRailVisible",
+        "label": "胜利铁路",
+        "default": false
+      },
+      {
+        "key": "siegePipelineVisible",
+        "label": "湖底输油管",
+        "default": false
+      },
+      {
+        "key": "siegeCableVisible",
+        "label": "湖底电缆",
+        "default": false
+      },
+      {
+        "key": "siegeWaterLongVisible",
+        "label": "长航线",
+        "default": false
+      },
+      {
+        "key": "siegeWaterShortVisible",
+        "label": "短航线",
+        "default": false
+      }
+    ],
+    "layerOrder": [
+      "units",
+      "control",
+      "front",
+      "routes",
+      "routesFull",
+      "logistics",
+      "fortlines",
+      "pockets",
+      "demarcation",
+      "events",
+      "cities",
+      "rivers",
+      "forest",
+      "hex",
+      "terrain"
+    ],
+    "modelLabels": {
+      "inf_su": "苏军步兵标记（代表编制）",
+      "inf_fi": "芬军步兵标记（代表编制）",
+      "art_gun": "火炮符号模型（不区分口径）",
+      "air_token": "航空兵符号（非实际机型）",
+      "navy_token": "海军符号（非实际舰型）"
+    }
+  },
+  "intro": {
+    "stamp": "GEHEIM · SECRET · 绝密",
+    "kicker": "北方战区档案 · 1941—1944",
+    "title": "列宁格勒围城战",
+    "en": "The Siege of Leningrad",
+    "dates": "回放：1941.6.22 — 1944.1.31",
+    "paragraphs": [
+      "1941年夏，德军北方集团军群从东普鲁士经波罗的海地区逼近列宁格勒，芬军在地峡与拉多加湖以北推进。9月8日，什利谢利堡失守，城市陆路交通被切断；拉多加湖与空中联系仍在。",
+      "本档案把战线、解围攻势与居民生存放在同一条时间轴：配给、供水、劳动、撤离与湖上交通共同决定城市如何坚持。1943年1月18日突破封锁，1944年1月27日完全解除围城。"
+    ],
+    "how": "共 {units} 支代表部队、{events} 个事件、{keyframes} 个战线关键帧。6—8月为战略概览；9月起详述围城。坐标、战线与运输路径为有来源的近似示意。",
+    "note": "中文交互档案 · 章节可跳转 · 日精度钟点为排序示意 · 正式围城872天",
+    "photo": "File:RIAN archive 907 Leningradians queueing up for water.jpg",
+    "photoAlt": "1941年12月1日，列宁格勒市民在涅瓦大街炮弹坑旁取水",
+    "caption": "1941年12月1日 · 市民在涅瓦大街炮弹坑取水<small class=\"siege-cover-credit\">RIA Novosti archive, image #907 / Boris Kudoyarov / CC-BY-SA 3.0 · <a href=\"https://commons.wikimedia.org/wiki/File:RIAN_archive_907_Leningradians_queueing_up_for_water.jpg\" target=\"_blank\" rel=\"noopener noreferrer\">原页</a> · WebP展示文件</small>"
+  },
+  "credits": {
+    "geodata": [
+      "<b>historical-basemaps world_1938</b>（A. Ourednik 等）— GPL-3.0",
+      "<b>Natural Earth 1:10m</b>（河流、湖泊、海岸、陆地）— 公有领域",
+      "<b>Terrain Tiles (Terrarium)</b> — Mapzen / AWS Open Data；SRTM、GMTED2010、ETOPO1 等"
+    ],
+    "disclaimer": "本图用于历史理解，部队位置与接触线为按史料重建的近似示意。数字随日期、地域、登记与统计对象变化；不从配给标准推算真实摄入或逐日死亡。",
+    "extraHtml": "<h3>阅读与证据范围</h3><p>正式围城：1941年9月8日—1944年1月27日。1943年1月18日突破封锁后，狭窄走廊仍受德军火力威胁。回放另含夏季战略序章及解围后数日。</p><p>中文研究档案按军史、城市生活和地理分别整理，事件卡的「深入阅读」提供原文定位与分歧说明。档案目录仅作线索，未读取全文的材料不据以断言细节。照片摄影日期与事件日期可能不同，图注会说明资料图及元数据冲突。</p>",
+    "footerHtml": "<p>人员伤亡、编制数量与平民死亡不混合相加。湖上线路反映已核实的运输阶段，包含受限、试行与时效未确定状态；不表示逐日通行能力。3D手办为编制示意，非精确装备复原。</p>",
+    "sections": [
+      [
+        "照片",
+        "photos"
+      ],
+      [
+        "音效",
+        "audio"
+      ],
+      [
+        "音乐",
+        "music"
+      ],
+      [
+        "字体",
+        "fonts"
+      ],
+      [
+        "地理资产",
+        "geography"
+      ]
+    ]
+  },
+  "hub": {
+    "order": 9,
+    "codename": "列宁格勒保卫战",
+    "codenameOrig": "БЛОКАДА ЛЕНИНГРАДА · BELAGERUNG VON LENINGRAD",
+    "region": "europe",
+    "pin": [
+      30.32,
+      59.94
+    ],
+    "labelAt": "s",
+    "theatre": {
+      "bbox": [
+        27.4,
+        57.8,
+        35.6,
+        61.8
+      ]
+    },
+    "blurb": "从1941年夏季北方推进，到1944年1月完全解围：追踪战线、解围攻势与生命之路，理解列宁格勒军民如何度过872天围城。",
+    "stencil": "LENINGRAD",
+    "cover": "photos/rian-archive-907-leningradians-queueing-up-for-water-645265.webp"
+  },
+  "sideOrder": [
+    "SU",
+    "DE",
+    "FI",
+    "ES"
+  ],
+  "parentExceptions": [
+    [
+      "ES",
+      "DE"
+    ]
+  ],
+  "display": {
+    "hqPassThrough": true,
+    "statusEchelons": "leaves",
+    "counterSideCode": true
+  },
+  "validation": {
+    "bodyLength": [
+      80,
+      140
+    ],
+    "eventCount": 109
+  }
+}

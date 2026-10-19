@@ -1,0 +1,265 @@
+[
+  {
+    "id": "es.250id",
+    "side": "ES",
+    "echelon": "division",
+    "type": "infantry",
+    "parent": null,
+    "name": {
+      "zh": "第 250 步兵师（蓝色师团）",
+      "orig": "División Azul / 250. Infanterie-Division (span.)",
+      "short": "250.ID(西)"
+    },
+    "model": "inf_de",
+    "active": {
+      "from": "1941-10-12T12:00",
+      "to": "1943-10-26T00:00"
+    },
+    "track": [
+      {
+        "at": "1941-10-12T12:00",
+        "pos": "@novgorod",
+        "status": "active",
+        "note": "部队活动地段示意；不同月份的局部参战，不表示整个师团同时位于该点。"
+      },
+      {
+        "at": "1941-10-20T12:00",
+        "pos": "@podberezye",
+        "status": "engaged",
+        "note": "部队活动地段示意；不同月份的局部参战，不表示整个师团同时位于该点。"
+      },
+      {
+        "at": "1941-12-08T12:00",
+        "pos": "@podberezye",
+        "status": "engaged",
+        "note": "部队活动地段示意；不同月份的局部参战，不表示整个师团同时位于该点。"
+      },
+      {
+        "at": "1942-01-10T12:00",
+        "pos": "@novgorod",
+        "status": "engaged",
+        "note": "部队活动地段示意；不同月份的局部参战，不表示整个师团同时位于该点。"
+      },
+      {
+        "at": "1942-03-20T12:00",
+        "pos": "@myasnoy_bor",
+        "status": "engaged",
+        "note": "部队活动地段示意；不同月份的局部参战，不表示整个师团同时位于该点。"
+      },
+      {
+        "at": "1942-08-20T12:00",
+        "pos": "@pushkin",
+        "status": "active",
+        "note": "部队活动地段示意；不同月份的局部参战，不表示整个师团同时位于该点。"
+      },
+      {
+        "at": "1942-12-12T12:00",
+        "pos": "@pushkin",
+        "status": "active",
+        "note": "部队活动地段示意；不同月份的局部参战，不表示整个师团同时位于该点。"
+      },
+      {
+        "at": "1943-01-22T12:00",
+        "pos": "@sinyavino",
+        "status": "engaged",
+        "note": "部队活动地段示意；不同月份的局部参战，不表示整个师团同时位于该点。"
+      },
+      {
+        "at": "1943-02-10T08:40",
+        "pos": "@krasny_bor",
+        "status": "engaged",
+        "note": "部队活动地段示意；不同月份的局部参战，不表示整个师团同时位于该点。"
+      },
+      {
+        "at": "1943-10-12T12:00",
+        "pos": "@krasnogvardeysk",
+        "status": "withdrawing",
+        "note": "部队活动地段示意；不同月份的局部参战，不表示整个师团同时位于该点。"
+      },
+      {
+        "at": "1943-10-25T12:00",
+        "pos": "@luga",
+        "status": "disbanded",
+        "note": "部队活动地段示意；不同月份的局部参战，不表示整个师团同时位于该点。"
+      }
+    ],
+    "history": "西班牙志愿部队在德军序列中参加围城。蓝色师团先驻沃尔霍夫河，1942年转至列宁格勒南郊，1943年秋主力撤回，留驻军团另列。未核实的精确伤亡、单营覆没比例和团长名单不在此采用。",
+    "sources": [
+      "mil_cmh_decision_20",
+      "mil_reglib_1943"
+    ],
+    "confidence": "medium",
+    "schematic": true
+  },
+  {
+    "id": "es.262ir",
+    "side": "ES",
+    "echelon": "regiment",
+    "type": "infantry",
+    "parent": "es.250id",
+    "name": {
+      "zh": "西班牙第 262 步兵团",
+      "orig": "Infanterie-Regiment 262 (span.)",
+      "short": "IR 262"
+    },
+    "model": "inf_de",
+    "active": {
+      "from": "1941-10-12T12:00",
+      "to": "1943-10-21T00:00"
+    },
+    "track": [
+      {
+        "at": "1941-10-12T12:00",
+        "pos": "@novgorod",
+        "status": "active",
+        "note": "部队活动地段示意；不同月份的局部参战，不表示整个师团同时位于该点。"
+      },
+      {
+        "at": "1942-08-22T12:00",
+        "pos": "@krasny_bor",
+        "status": "active",
+        "note": "部队活动地段示意；不同月份的局部参战，不表示整个师团同时位于该点。"
+      },
+      {
+        "at": "1943-02-10T08:40",
+        "pos": "@krasny_bor",
+        "status": "engaged",
+        "note": "部队活动地段示意；不同月份的局部参战，不表示整个师团同时位于该点。"
+      },
+      {
+        "at": "1943-02-13T18:00",
+        "pos": [
+          30.65,
+          59.64
+        ],
+        "status": "engaged",
+        "note": "部队活动地段示意；不同月份的局部参战，不表示整个师团同时位于该点。"
+      },
+      {
+        "at": "1943-10-20T12:00",
+        "pos": "@krasnogvardeysk",
+        "status": "disbanded",
+        "note": "部队活动地段示意；不同月份的局部参战，不表示整个师团同时位于该点。"
+      }
+    ],
+    "history": "西班牙志愿部队在德军序列中参加围城。蓝色师团先驻沃尔霍夫河，1942年转至列宁格勒南郊，1943年秋主力撤回，留驻军团另列。未核实的精确伤亡、单营覆没比例和团长名单不在此采用。",
+    "sources": [
+      "mil_cmh_decision_20",
+      "mil_reglib_1943"
+    ],
+    "confidence": "medium",
+    "schematic": true
+  },
+  {
+    "id": "es.269ir",
+    "side": "ES",
+    "echelon": "regiment",
+    "type": "infantry",
+    "parent": "es.250id",
+    "name": {
+      "zh": "西班牙第 269 步兵团",
+      "orig": "Infanterie-Regiment 269 (span.)",
+      "short": "IR 269"
+    },
+    "model": "inf_de",
+    "active": {
+      "from": "1941-10-15T12:00",
+      "to": "1943-10-21T00:00"
+    },
+    "track": [
+      {
+        "at": "1941-10-15T12:00",
+        "pos": "@podberezye",
+        "status": "engaged",
+        "note": "部队活动地段示意；不同月份的局部参战，不表示整个师团同时位于该点。"
+      },
+      {
+        "at": "1941-12-08T12:00",
+        "pos": "@podberezye",
+        "status": "withdrawing",
+        "note": "部队活动地段示意；不同月份的局部参战，不表示整个师团同时位于该点。"
+      },
+      {
+        "at": "1942-05-15T12:00",
+        "pos": "@myasnoy_bor",
+        "status": "engaged",
+        "note": "部队活动地段示意；不同月份的局部参战，不表示整个师团同时位于该点。"
+      },
+      {
+        "at": "1942-08-22T12:00",
+        "pos": "@pushkin",
+        "status": "active",
+        "note": "部队活动地段示意；不同月份的局部参战，不表示整个师团同时位于该点。"
+      },
+      {
+        "at": "1943-01-22T12:00",
+        "pos": "@sinyavino",
+        "status": "engaged",
+        "note": "部队活动地段示意；不同月份的局部参战，不表示整个师团同时位于该点。"
+      },
+      {
+        "at": "1943-10-20T12:00",
+        "pos": "@krasnogvardeysk",
+        "status": "disbanded",
+        "note": "部队活动地段示意；不同月份的局部参战，不表示整个师团同时位于该点。"
+      }
+    ],
+    "history": "西班牙志愿部队在德军序列中参加围城。蓝色师团先驻沃尔霍夫河，1942年转至列宁格勒南郊，1943年秋主力撤回，留驻军团另列。未核实的精确伤亡、单营覆没比例和团长名单不在此采用。",
+    "sources": [
+      "mil_cmh_decision_20",
+      "mil_reglib_1943"
+    ],
+    "confidence": "medium",
+    "schematic": true
+  },
+  {
+    "id": "es.legion",
+    "side": "ES",
+    "echelon": "regiment",
+    "type": "infantry",
+    "parent": null,
+    "name": {
+      "zh": "西班牙志愿军团",
+      "orig": "Legión Española de Voluntarios (Spanische Legion)",
+      "short": "Leg.Esp"
+    },
+    "model": "inf_de",
+    "active": {
+      "from": "1943-10-25T12:00",
+      "to": "1944-01-31T23:59"
+    },
+    "track": [
+      {
+        "at": "1943-10-25T12:00",
+        "pos": "@lyuban",
+        "status": "active",
+        "note": "部队活动地段示意；不同月份的局部参战，不表示整个师团同时位于该点。"
+      },
+      {
+        "at": "1944-01-20T12:00",
+        "pos": "@lyuban",
+        "status": "engaged",
+        "note": "部队活动地段示意；不同月份的局部参战，不表示整个师团同时位于该点。"
+      },
+      {
+        "at": "1944-01-26T12:00",
+        "pos": "@mshinskaya",
+        "status": "withdrawing",
+        "note": "部队活动地段示意；不同月份的局部参战，不表示整个师团同时位于该点。"
+      },
+      {
+        "at": "1944-01-31T18:00",
+        "pos": "@luga",
+        "status": "withdrawing",
+        "note": "部队活动地段示意；不同月份的局部参战，不表示整个师团同时位于该点。"
+      }
+    ],
+    "history": "西班牙志愿部队在德军序列中参加围城。蓝色师团先驻沃尔霍夫河，1942年转至列宁格勒南郊，1943年秋主力撤回，留驻军团另列。未核实的精确伤亡、单营覆没比例和团长名单不在此采用。",
+    "sources": [
+      "mil_cmh_decision_20",
+      "mil_reglib_1943"
+    ],
+    "confidence": "medium",
+    "schematic": true
+  }
+]

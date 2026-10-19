@@ -1,0 +1,1103 @@
+{
+  "base": "http://127.0.0.1:4180",
+  "viewport": [
+    1440,
+    900
+  ],
+  "dpr": 2,
+  "browser": "System Chrome, headed, hardware rendering",
+  "browserPlugin": "Browser plugin not available; repository Playwright workflow used",
+  "errors": [],
+  "warnings": [],
+  "checks": [
+    {
+      "name": "页面身份、有效内容及硬件渲染",
+      "pass": true,
+      "evidence": {
+        "data": {
+          "campaign": "leningrad-1941",
+          "events": 109,
+          "units": 88,
+          "places": 120,
+          "sources": 102,
+          "keyframes": 48
+        },
+        "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M4 Pro, Unspecified Version)"
+      }
+    },
+    {
+      "name": "分类口粮、回跳、重叠航季、图层偏好与折叠状态",
+      "pass": true,
+      "evidence": "通过UI切换模式及总开关；章节重建后偏好保留，解围后计时固定"
+    },
+    {
+      "name": "事件档案、来源展开、章节与部队搜索",
+      "pass": true,
+      "evidence": "日精度、史料链接和深入阅读可操作"
+    },
+    {
+      "name": "3D沙盘",
+      "pass": true,
+      "evidence": {
+        "fps": 0,
+        "instances": 47,
+        "groups": 7,
+        "calls": 21,
+        "tris": 712094,
+        "ready": true,
+        "contextReady": false,
+        "contextStatus": "none",
+        "contextError": null,
+        "contextWorld": null,
+        "maxDistance": 16000,
+        "frame": 0
+      }
+    },
+    {
+      "name": "连续跳时、1×/8×播放与三轮切换",
+      "pass": true,
+      "evidence": "已采集帧间隔及主线程堆；Worker的有界关键帧缓存不计入此堆指标"
+    },
+    {
+      "name": "三轮完整8×回放",
+      "pass": true,
+      "evidence": "每轮从1941年6月22日播放至1944年1月31日；结束后GC采样，不跳过中间阶段"
+    },
+    {
+      "name": "窄屏布局",
+      "pass": true,
+      "evidence": {
+        "viewport": 390,
+        "width": 390
+      }
+    },
+    {
+      "name": "开场与导演推演",
+      "pass": true,
+      "evidence": "开场进入后自动呈现夏季序章首个事件"
+    },
+    {
+      "name": "来源与许可面板",
+      "pass": true,
+      "evidence": {
+        "sourceCount": 102
+      }
+    },
+    {
+      "name": "总台卷宗进入战役",
+      "pass": true,
+      "evidence": "http://127.0.0.1:4180/campaigns/leningrad-1941/?nointro"
+    },
+    {
+      "name": "返回导航",
+      "pass": true,
+      "evidence": "由战役工具栏返回作战总台"
+    },
+    {
+      "name": "控制台与本地资源健康",
+      "pass": true,
+      "evidence": "无页面异常、控制台错误或HTTP失败"
+    }
+  ],
+  "scenes": [
+    {
+      "name": "prelude",
+      "at": "1941-06-22T12:00",
+      "stats": {
+        "performance": {
+          "mapReadyMs": 285.69999998807907,
+          "sandboxCreateMs": 0,
+          "updates2d": 1,
+          "mapDraws": 9
+        },
+        "units": {
+          "shown": 13,
+          "overlap": 0
+        },
+        "lod": 0,
+        "relK": 1.1,
+        "geomCount": 2,
+        "t": 12,
+        "coverage": {
+          "bounds": [
+            0,
+            0,
+            8192,
+            7862
+          ],
+          "visible": [
+            -5069.514266568889,
+            -295.27890252688945,
+            9803.423200588231,
+            9000.30701444631
+          ],
+          "minScale": 0.17578125,
+          "view": {
+            "k": 0.0968201475451539,
+            "x": 490.8311192714625,
+            "y": 28.588946909624553
+          },
+          "size": {
+            "width": 1440,
+            "height": 900
+          },
+          "tilesReady": 20,
+          "tileErrors": 0
+        },
+        "sandbox": null,
+        "naval": null
+      }
+    },
+    {
+      "name": "encirclement",
+      "at": "1941-09-08T20:00",
+      "stats": {
+        "performance": {
+          "mapReadyMs": 285.69999998807907,
+          "sandboxCreateMs": 0,
+          "updates2d": 2,
+          "mapDraws": 13
+        },
+        "units": {
+          "shown": 32,
+          "overlap": 0
+        },
+        "lod": 0,
+        "relK": 4.8,
+        "geomCount": 3,
+        "t": 1892,
+        "coverage": {
+          "bounds": [
+            0,
+            0,
+            8192,
+            7862
+          ],
+          "visible": [
+            3120.225440053347,
+            1728.2307824802629,
+            6528.60694294352,
+            3858.4692217866213
+          ],
+          "minScale": 0.17578125,
+          "view": {
+            "k": 0.4224879165606716,
+            "x": -1318.2575453677432,
+            "y": -730.1566226261054
+          },
+          "size": {
+            "width": 1440,
+            "height": 900
+          },
+          "tilesReady": 55,
+          "tileErrors": 0
+        },
+        "sandbox": null,
+        "naval": null
+      }
+    },
+    {
+      "name": "winter",
+      "at": "1941-11-22T12:00",
+      "stats": {
+        "performance": {
+          "mapReadyMs": 285.69999998807907,
+          "sandboxCreateMs": 0,
+          "updates2d": 3,
+          "mapDraws": 16
+        },
+        "units": {
+          "shown": 35,
+          "overlap": 0
+        },
+        "lod": 0,
+        "relK": 5,
+        "geomCount": 5,
+        "t": 3684,
+        "coverage": {
+          "bounds": [
+            0,
+            0,
+            8192,
+            7862
+          ],
+          "visible": [
+            3439.995669354718,
+            1669.9371669256816,
+            6712.041912129284,
+            3714.9660686597854
+          ],
+          "minScale": 0.17578125,
+          "view": {
+            "k": 0.44009157975069957,
+            "x": -1513.913128461883,
+            "y": -734.9252858767309
+          },
+          "size": {
+            "width": 1440,
+            "height": 900
+          },
+          "tilesReady": 60,
+          "tileErrors": 0
+        },
+        "sandbox": null,
+        "naval": null
+      }
+    },
+    {
+      "name": "lyuban",
+      "at": "1942-06-25T12:00",
+      "stats": {
+        "performance": {
+          "mapReadyMs": 285.69999998807907,
+          "sandboxCreateMs": 0,
+          "updates2d": 4,
+          "mapDraws": 20
+        },
+        "units": {
+          "shown": 33,
+          "overlap": 0
+        },
+        "lod": 0,
+        "relK": 5,
+        "geomCount": 7,
+        "t": 8844,
+        "coverage": {
+          "bounds": [
+            0,
+            0,
+            8192,
+            7862
+          ],
+          "visible": [
+            3551.395328221456,
+            2624.176096626748,
+            6823.441570996022,
+            4669.204998360852
+          ],
+          "minScale": 0.17578125,
+          "view": {
+            "k": 0.44009157975069957,
+            "x": -1562.9391803162348,
+            "y": -1154.87780390849
+          },
+          "size": {
+            "width": 1440,
+            "height": 900
+          },
+          "tilesReady": 76,
+          "tileErrors": 0
+        },
+        "sandbox": null,
+        "naval": null
+      }
+    },
+    {
+      "name": "iskra",
+      "at": "1943-01-18T20:00",
+      "stats": {
+        "performance": {
+          "mapReadyMs": 285.69999998807907,
+          "sandboxCreateMs": 0,
+          "updates2d": 5,
+          "mapDraws": 22
+        },
+        "units": {
+          "shown": 29,
+          "overlap": 0
+        },
+        "lod": 1,
+        "relK": 11,
+        "geomCount": 9,
+        "t": 13820,
+        "coverage": {
+          "bounds": [
+            0,
+            0,
+            8192,
+            7862
+          ],
+          "visible": [
+            4568.138234812909,
+            2246.324169813273,
+            6055.431981528622,
+            3175.882761510593
+          ],
+          "minScale": 0.17578125,
+          "view": {
+            "k": 0.968201475451539,
+            "x": -4422.878179012448,
+            "y": -2174.8943755556643
+          },
+          "size": {
+            "width": 1440,
+            "height": 900
+          },
+          "tilesReady": 76,
+          "tileErrors": 0
+        },
+        "sandbox": null,
+        "naval": null
+      }
+    },
+    {
+      "name": "corridor",
+      "at": "1943-09-18T12:00",
+      "stats": {
+        "performance": {
+          "mapReadyMs": 285.69999998807907,
+          "sandboxCreateMs": 0,
+          "updates2d": 6,
+          "mapDraws": 24
+        },
+        "units": {
+          "shown": 24,
+          "overlap": 0
+        },
+        "lod": 1,
+        "relK": 10,
+        "geomCount": 11,
+        "t": 19644,
+        "coverage": {
+          "bounds": [
+            0,
+            0,
+            8192,
+            7862
+          ],
+          "visible": [
+            4469.837249526684,
+            2239.2074248711588,
+            6105.860370913967,
+            3261.7218757382107
+          ],
+          "minScale": 0.17578125,
+          "view": {
+            "k": 0.8801831595013991,
+            "x": -3934.2754727454403,
+            "y": -1970.9126660020884
+          },
+          "size": {
+            "width": 1440,
+            "height": 900
+          },
+          "tilesReady": 76,
+          "tileErrors": 0
+        },
+        "sandbox": null,
+        "naval": null
+      }
+    },
+    {
+      "name": "liberation",
+      "at": "1944-01-27T20:00",
+      "stats": {
+        "performance": {
+          "mapReadyMs": 285.69999998807907,
+          "sandboxCreateMs": 0,
+          "updates2d": 7,
+          "mapDraws": 27
+        },
+        "units": {
+          "shown": 31,
+          "overlap": 0
+        },
+        "lod": 0,
+        "relK": 4,
+        "geomCount": 12,
+        "t": 22796,
+        "coverage": {
+          "bounds": [
+            0,
+            0,
+            8192,
+            7862
+          ],
+          "visible": [
+            2578.448779193807,
+            1756.5345055951386,
+            6668.506582662014,
+            4312.820632762769
+          ],
+          "minScale": 0.17578125,
+          "view": {
+            "k": 0.35207326380055964,
+            "x": -907.8028772333321,
+            "y": -618.4288363631829
+          },
+          "size": {
+            "width": 1440,
+            "height": 900
+          },
+          "tilesReady": 82,
+          "tileErrors": 0
+        },
+        "sandbox": null,
+        "naval": null
+      }
+    }
+  ],
+  "performance": [
+    {
+      "mode": "3d",
+      "speed": 1,
+      "frames": 421,
+      "p50": 8.299999999999272,
+      "p95": 9.299999999999272,
+      "max": 9.400000000001455,
+      "stats": {
+        "performance": {
+          "mapReadyMs": 285.69999998807907,
+          "sandboxCreateMs": 24.299999952316284,
+          "updates2d": 21,
+          "mapDraws": 383
+        },
+        "units": {
+          "shown": 26,
+          "overlap": 0
+        },
+        "lod": 1,
+        "relK": 8,
+        "geomCount": 181,
+        "t": 22518.09960000028,
+        "coverage": {
+          "bounds": [
+            0,
+            0,
+            8192,
+            7862
+          ],
+          "visible": [
+            4226.13813628427,
+            2087.524577064981,
+            6271.167038018374,
+            3365.667640648796
+          ],
+          "minScale": 0.17578125,
+          "view": {
+            "k": 0.7041465276011193,
+            "x": -2975.8204938272347,
+            "y": -1469.9231822223014
+          },
+          "size": {
+            "width": 1440,
+            "height": 900
+          },
+          "tilesReady": 87,
+          "tileErrors": 0
+        },
+        "sandbox": {
+          "fps": 120,
+          "instances": 35,
+          "groups": 8,
+          "calls": 24,
+          "tris": 681772,
+          "ready": true,
+          "contextReady": false,
+          "contextStatus": "none",
+          "contextError": null,
+          "contextWorld": null,
+          "maxDistance": 16000,
+          "frame": 0
+        },
+        "naval": null
+      }
+    },
+    {
+      "mode": "3d",
+      "speed": 8,
+      "frames": 421,
+      "p50": 8.299999999999272,
+      "p95": 9.299999999999272,
+      "max": 9.400000000001455,
+      "stats": {
+        "performance": {
+          "mapReadyMs": 285.69999998807907,
+          "sandboxCreateMs": 24.299999952316284,
+          "updates2d": 21,
+          "mapDraws": 383
+        },
+        "units": {
+          "shown": 26,
+          "overlap": 0
+        },
+        "lod": 1,
+        "relK": 8,
+        "geomCount": 322,
+        "t": 22812.79680000014,
+        "coverage": {
+          "bounds": [
+            0,
+            0,
+            8192,
+            7862
+          ],
+          "visible": [
+            4226.13813628427,
+            2087.524577064981,
+            6271.167038018374,
+            3365.667640648796
+          ],
+          "minScale": 0.17578125,
+          "view": {
+            "k": 0.7041465276011193,
+            "x": -2975.8204938272347,
+            "y": -1469.9231822223014
+          },
+          "size": {
+            "width": 1440,
+            "height": 900
+          },
+          "tilesReady": 87,
+          "tileErrors": 0
+        },
+        "sandbox": {
+          "fps": 120,
+          "instances": 34,
+          "groups": 8,
+          "calls": 27,
+          "tris": 682370,
+          "ready": true,
+          "contextReady": false,
+          "contextStatus": "none",
+          "contextError": null,
+          "contextWorld": null,
+          "maxDistance": 16000,
+          "frame": 0
+        },
+        "naval": null
+      }
+    },
+    {
+      "mode": "2d",
+      "speed": 1,
+      "frames": 388,
+      "p50": 8.30000000000291,
+      "p95": 16.599999999998545,
+      "max": 25.299999999995634,
+      "stats": {
+        "performance": {
+          "mapReadyMs": 285.69999998807907,
+          "sandboxCreateMs": 24.299999952316284,
+          "updates2d": 410,
+          "mapDraws": 492
+        },
+        "units": {
+          "shown": 31,
+          "overlap": 0
+        },
+        "lod": 0,
+        "relK": 5.000000000000001,
+        "geomCount": 443,
+        "t": 22518.08880000018,
+        "coverage": {
+          "bounds": [
+            0,
+            0,
+            8192,
+            7862
+          ],
+          "visible": [
+            3112.4909249310635,
+            1882.8411032109964,
+            6384.53716770563,
+            3927.8700049451
+          ],
+          "minScale": 0.17578125,
+          "view": {
+            "k": 0.4400915797506996,
+            "x": -1369.781048112628,
+            "y": -828.6225155316774
+          },
+          "size": {
+            "width": 1440,
+            "height": 900
+          },
+          "tilesReady": 88,
+          "tileErrors": 0
+        },
+        "sandbox": {
+          "fps": 120,
+          "instances": 34,
+          "groups": 8,
+          "calls": 27,
+          "tris": 682370,
+          "ready": true,
+          "contextReady": false,
+          "contextStatus": "none",
+          "contextError": null,
+          "contextWorld": null,
+          "maxDistance": 16000,
+          "frame": 0
+        },
+        "naval": null
+      }
+    },
+    {
+      "mode": "2d",
+      "speed": 8,
+      "frames": 331,
+      "p50": 8.400000000001455,
+      "p95": 17.5,
+      "max": 33.400000000001455,
+      "stats": {
+        "performance": {
+          "mapReadyMs": 285.69999998807907,
+          "sandboxCreateMs": 24.299999952316284,
+          "updates2d": 742,
+          "mapDraws": 748
+        },
+        "units": {
+          "shown": 24,
+          "overlap": 0
+        },
+        "lod": 0,
+        "relK": 4.88222970083979,
+        "geomCount": 553,
+        "t": 22812.796800000084,
+        "coverage": {
+          "bounds": [
+            0,
+            0,
+            8192,
+            7862
+          ],
+          "visible": [
+            3875.4858231053076,
+            2817.3123569151576,
+            7283.082722669582,
+            4947.060419142829
+          ],
+          "minScale": 0.17578125,
+          "view": {
+            "k": 0.42258519491672597,
+            "x": -1637.7229319539647,
+            "y": -1190.5544914882926
+          },
+          "size": {
+            "width": 1440,
+            "height": 900
+          },
+          "tilesReady": 90,
+          "tileErrors": 0
+        },
+        "sandbox": {
+          "fps": 120,
+          "instances": 34,
+          "groups": 8,
+          "calls": 27,
+          "tris": 682370,
+          "ready": true,
+          "contextReady": false,
+          "contextStatus": "none",
+          "contextError": null,
+          "contextWorld": null,
+          "maxDistance": 16000,
+          "frame": 0
+        },
+        "naval": null
+      }
+    }
+  ],
+  "loops": [
+    {
+      "loop": 1,
+      "mainHeapBytes": 13781324,
+      "stats": {
+        "performance": {
+          "mapReadyMs": 285.69999998807907,
+          "sandboxCreateMs": 24.299999952316284,
+          "updates2d": 746,
+          "mapDraws": 759
+        },
+        "units": {
+          "shown": 30,
+          "overlap": 0
+        },
+        "lod": 0,
+        "relK": 4.8,
+        "geomCount": 563,
+        "t": 22796,
+        "coverage": {
+          "bounds": [
+            0,
+            0,
+            8192,
+            7862
+          ],
+          "visible": [
+            3187.475856983055,
+            1769.2215233796157,
+            6595.857359873229,
+            3899.459962685974
+          ],
+          "minScale": 0.17578125,
+          "view": {
+            "k": 0.4224879165606716,
+            "x": -1346.6700339042122,
+            "y": -747.4747153469514
+          },
+          "size": {
+            "width": 1440,
+            "height": 900
+          },
+          "tilesReady": 90,
+          "tileErrors": 0
+        },
+        "sandbox": {
+          "fps": 6,
+          "instances": 34,
+          "groups": 8,
+          "calls": 27,
+          "tris": 679620,
+          "ready": true,
+          "contextReady": false,
+          "contextStatus": "none",
+          "contextError": null,
+          "contextWorld": null,
+          "maxDistance": 16000,
+          "frame": 0
+        },
+        "naval": null
+      }
+    },
+    {
+      "loop": 2,
+      "mainHeapBytes": 13798724,
+      "stats": {
+        "performance": {
+          "mapReadyMs": 285.69999998807907,
+          "sandboxCreateMs": 24.299999952316284,
+          "updates2d": 750,
+          "mapDraws": 769
+        },
+        "units": {
+          "shown": 30,
+          "overlap": 0
+        },
+        "lod": 0,
+        "relK": 4.8,
+        "geomCount": 573,
+        "t": 22796,
+        "coverage": {
+          "bounds": [
+            0,
+            0,
+            8192,
+            7862
+          ],
+          "visible": [
+            3187.475856983055,
+            1769.2215233796157,
+            6595.857359873229,
+            3899.459962685974
+          ],
+          "minScale": 0.17578125,
+          "view": {
+            "k": 0.4224879165606716,
+            "x": -1346.6700339042122,
+            "y": -747.4747153469514
+          },
+          "size": {
+            "width": 1440,
+            "height": 900
+          },
+          "tilesReady": 90,
+          "tileErrors": 0
+        },
+        "sandbox": {
+          "fps": 2,
+          "instances": 34,
+          "groups": 8,
+          "calls": 29,
+          "tris": 682370,
+          "ready": true,
+          "contextReady": false,
+          "contextStatus": "none",
+          "contextError": null,
+          "contextWorld": null,
+          "maxDistance": 16000,
+          "frame": 0
+        },
+        "naval": null
+      }
+    },
+    {
+      "loop": 3,
+      "mainHeapBytes": 13868840,
+      "stats": {
+        "performance": {
+          "mapReadyMs": 285.69999998807907,
+          "sandboxCreateMs": 24.299999952316284,
+          "updates2d": 754,
+          "mapDraws": 779
+        },
+        "units": {
+          "shown": 30,
+          "overlap": 0
+        },
+        "lod": 0,
+        "relK": 4.8,
+        "geomCount": 583,
+        "t": 22796,
+        "coverage": {
+          "bounds": [
+            0,
+            0,
+            8192,
+            7862
+          ],
+          "visible": [
+            3187.475856983055,
+            1769.2215233796157,
+            6595.857359873229,
+            3899.459962685974
+          ],
+          "minScale": 0.17578125,
+          "view": {
+            "k": 0.4224879165606716,
+            "x": -1346.6700339042122,
+            "y": -747.4747153469514
+          },
+          "size": {
+            "width": 1440,
+            "height": 900
+          },
+          "tilesReady": 90,
+          "tileErrors": 0
+        },
+        "sandbox": {
+          "fps": 2,
+          "instances": 34,
+          "groups": 8,
+          "calls": 29,
+          "tris": 682370,
+          "ready": true,
+          "contextReady": false,
+          "contextStatus": "none",
+          "contextError": null,
+          "contextWorld": null,
+          "maxDistance": 16000,
+          "frame": 0
+        },
+        "naval": null
+      }
+    }
+  ],
+  "browserVersion": "155.0.8059.80",
+  "data": {
+    "campaign": "leningrad-1941",
+    "events": 109,
+    "units": 88,
+    "places": 120,
+    "sources": 102,
+    "keyframes": 48
+  },
+  "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M4 Pro, Unspecified Version)",
+  "sandbox": {
+    "fps": 0,
+    "instances": 47,
+    "groups": 7,
+    "calls": 21,
+    "tris": 712094,
+    "ready": true,
+    "contextReady": false,
+    "contextStatus": "none",
+    "contextError": null,
+    "contextWorld": null,
+    "maxDistance": 16000,
+    "frame": 0
+  },
+  "fullPlaybacks": [
+    {
+      "cycle": 1,
+      "elapsedMs": 47812,
+      "mainHeapBytes": 13889788,
+      "stats": {
+        "performance": {
+          "mapReadyMs": 285.69999998807907,
+          "sandboxCreateMs": 24.299999952316284,
+          "updates2d": 5649,
+          "mapDraws": 2986
+        },
+        "units": {
+          "shown": 28,
+          "overlap": 0
+        },
+        "lod": 0,
+        "relK": 5.000000000000001,
+        "geomCount": 2146,
+        "t": 22895.983333333334,
+        "coverage": {
+          "bounds": [
+            0,
+            0,
+            8192,
+            7862
+          ],
+          "visible": [
+            3488.279594278428,
+            1721.2525474191903,
+            6815.6137525868835,
+            3800.836396361975
+          ],
+          "minScale": 0.17578125,
+          "view": {
+            "k": 0.43277889490127575,
+            "x": -1509.6537879184884,
+            "y": -744.9217753180828
+          },
+          "size": {
+            "width": 1440,
+            "height": 900
+          },
+          "tilesReady": 169,
+          "tileErrors": 0
+        },
+        "sandbox": {
+          "fps": 2,
+          "instances": 34,
+          "groups": 8,
+          "calls": 29,
+          "tris": 682370,
+          "ready": true,
+          "contextReady": false,
+          "contextStatus": "none",
+          "contextError": null,
+          "contextWorld": null,
+          "maxDistance": 16000,
+          "frame": 0
+        },
+        "naval": null
+      }
+    },
+    {
+      "cycle": 2,
+      "elapsedMs": 47879,
+      "mainHeapBytes": 13965752,
+      "stats": {
+        "performance": {
+          "mapReadyMs": 285.69999998807907,
+          "sandboxCreateMs": 24.299999952316284,
+          "updates2d": 10453,
+          "mapDraws": 5125
+        },
+        "units": {
+          "shown": 28,
+          "overlap": 0
+        },
+        "lod": 0,
+        "relK": 4.999999999999999,
+        "geomCount": 3620,
+        "t": 22895.983333333334,
+        "coverage": {
+          "bounds": [
+            0,
+            0,
+            8192,
+            7862
+          ],
+          "visible": [
+            3488.279594278427,
+            1721.2525474191898,
+            6815.613752586884,
+            3800.8363963619754
+          ],
+          "minScale": 0.17578125,
+          "view": {
+            "k": 0.4327788949012756,
+            "x": -1509.6537879184875,
+            "y": -744.9217753180824
+          },
+          "size": {
+            "width": 1440,
+            "height": 900
+          },
+          "tilesReady": 169,
+          "tileErrors": 0
+        },
+        "sandbox": {
+          "fps": 2,
+          "instances": 34,
+          "groups": 8,
+          "calls": 29,
+          "tris": 682370,
+          "ready": true,
+          "contextReady": false,
+          "contextStatus": "none",
+          "contextError": null,
+          "contextWorld": null,
+          "maxDistance": 16000,
+          "frame": 0
+        },
+        "naval": null
+      }
+    },
+    {
+      "cycle": 3,
+      "elapsedMs": 47913,
+      "mainHeapBytes": 14018216,
+      "stats": {
+        "performance": {
+          "mapReadyMs": 285.69999998807907,
+          "sandboxCreateMs": 24.299999952316284,
+          "updates2d": 14366,
+          "mapDraws": 6501
+        },
+        "units": {
+          "shown": 28,
+          "overlap": 0
+        },
+        "lod": 0,
+        "relK": 5,
+        "geomCount": 4599,
+        "t": 22895.983333333334,
+        "coverage": {
+          "bounds": [
+            0,
+            0,
+            8192,
+            7862
+          ],
+          "visible": [
+            3488.2795942784273,
+            1721.25254741919,
+            6815.613752586884,
+            3800.8363963619754
+          ],
+          "minScale": 0.17578125,
+          "view": {
+            "k": 0.43277889490127563,
+            "x": -1509.653787918488,
+            "y": -744.9217753180826
+          },
+          "size": {
+            "width": 1440,
+            "height": 900
+          },
+          "tilesReady": 169,
+          "tileErrors": 0
+        },
+        "sandbox": {
+          "fps": 2,
+          "instances": 34,
+          "groups": 8,
+          "calls": 29,
+          "tris": 682370,
+          "ready": true,
+          "contextReady": false,
+          "contextStatus": "none",
+          "contextError": null,
+          "contextWorld": null,
+          "maxDistance": 16000,
+          "frame": 0
+        },
+        "naval": null
+      }
+    }
+  ],
+  "mobile": {
+    "viewport": 390,
+    "width": 390
+  }
+}

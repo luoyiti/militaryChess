@@ -1,33 +1,181 @@
 {
   "schemaVersion": 2,
   "id": "shanghai-1937",
-  "status": "planned",
+  "status": "published",
   "title": {
     "mark": "1937",
     "zh": "淞沪会战",
-    "sub": "八一三抗战 · 筹备中",
+    "sub": "八一三抗战 · 上海市区与北郊",
     "en": "The Battle of Shanghai",
     "orig": "淞滬會戰 · 第二次上海事変",
-    "codename": "淞沪会战"
+    "codename": "淞沪会战",
+    "html": "1937 · 淞沪会战 — 战旗推演",
+    "description": "1937年8月13日至11月12日淞沪会战中文历史推演：上海市区、吴淞罗店、蕰藻浜大场、四行仓库与金山卫登陆后的西撤。",
+    "favicon": "#2f5d8c"
   },
   "time": {
     "epoch": "1937-08-13T00:00",
     "start": "1937-08-13T09:00",
-    "end": "1937-11-26T23:59",
-    "tzLabel": "UTC+8"
+    "end": "1937-11-12T23:59",
+    "dataEnd": "1937-11-12T23:59",
+    "tzLabel": "UTC+8",
+    "utcOffset": 8,
+    "hoursPerSec": 8,
+    "pace": [
+      { "from": "1937-08-13T09:00", "hoursPerSec": 6 },
+      { "from": "1937-08-23T00:00", "hoursPerSec": 9 },
+      { "from": "1937-09-12T00:00", "hoursPerSec": 18 },
+      { "from": "1937-10-26T00:00", "hoursPerSec": 6 },
+      { "from": "1937-11-05T00:00", "hoursPerSec": 4 }
+    ]
   },
   "sides": [
-    { "id": "CN", "name": "中国", "coalition": "allies", "css": { "main": "#2f5d8c" } },
-    { "id": "JP", "name": "日本", "coalition": "axis", "css": { "main": "#8a6d3b" } }
+    {
+      "id": "JP", "prefix": "jp", "name": "日本", "coalition": "axis", "defaultModel": "inf_allied",
+      "counter": { "bg": "#9a8050", "edge": "#5e4826", "text": "#fff8e8", "box": "#f3e8cf", "ink": "#4d391d" },
+      "css": { "main": "#8a6d3b", "dark": "#5e4826" },
+      "arrow": { "fill": "rgba(138,109,59,0.60)", "stroke": "#5e4826" },
+      "sandbox": "#8a6d3b", "planesFrom": "E", "planeColor": "#665138"
+    },
+    {
+      "id": "CN", "prefix": "cn", "name": "中国", "coalition": "allies", "defaultModel": "inf_allied",
+      "counter": { "bg": "#4c7198", "edge": "#234364", "text": "#f5f1e7", "box": "#e5edf2", "ink": "#1d3e60" },
+      "css": { "main": "#2f5d8c", "dark": "#1d3e60" },
+      "arrow": { "fill": "rgba(47,93,140,0.60)", "stroke": "#1d3e60" },
+      "sandbox": "#2f5d8c", "planesFrom": "W", "planeColor": "#2f506c"
+    }
   ],
+  "sideOrder": ["CN", "JP"],
+  "control": {
+    "mode": "territory", "landBit": 4, "theatreBits": [0],
+    "slots": [{
+      "key": "JP", "label": "日军控制概势", "homeBits": [1],
+      "pattern": { "size": 9, "svg": "<path d=\"M-2 2L2-2M0 9L9 0M7 11L11 7\" stroke=\"#8a6d3b\" stroke-width=\"1.5\" opacity=\".48\"/>" },
+      "legend": "repeating-linear-gradient(135deg,#ede5d2 0 3px,#a58b59 3px 4px)",
+      "line": "#8a6d3b", "sandboxFill": [0.57, 0.45, 0.26], "sandboxLine": [0.38, 0.28, 0.13]
+    }],
+    "remainder": { "label": "中国军队抵抗地域（租界另示）" }
+  },
+  "phases": [
+    { "id": "city", "from": "1937-08-13T00:00", "name": "第1阶段 · 市区争夺", "short": "市区争夺", "sub": "闸北、虹口与杨树浦：围攻据点未能切断海上增援", "center": [121.49, 31.27], "zoom": 4 },
+    { "id": "river_landings", "from": "1937-08-23T00:00", "name": "第2阶段 · 沿江登陆与北郊激战", "short": "吴淞与罗店", "sub": "第3、第11师团登陆；宝山与罗店反复争夺", "center": [121.4, 31.4], "zoom": 2.5 },
+    { "id": "dachang", "from": "1937-09-12T00:00", "name": "第3阶段 · 蕰藻浜与大场防线", "short": "蕰藻浜—大场", "sub": "增援、跨河与反击：阶段划分不代表全线同时转移", "center": [121.39, 31.34], "zoom": 3 },
+    { "id": "sihang", "from": "1937-10-26T00:00", "name": "第4阶段 · 苏州河与四行孤军", "short": "苏州河与四行", "sub": "大场失守、闸北主力后撤；约四百余名守军留守仓库", "center": [121.43, 31.245], "zoom": 4.5 },
+    { "id": "withdrawal", "from": "1937-11-05T00:00", "name": "第5阶段 · 杭州湾登陆与西撤", "short": "金山卫与西撤", "sub": "第10军从南侧迂回，松江方向受压，中国军队分路西撤", "center": [121.14, 30.96], "zoom": 1.5 }
+  ],
+  "marks": [
+    ["1937-08-13T09:00", "八一三"], ["1937-08-23T00:00", "沿江登陆"],
+    ["1937-09-07T12:00", "宝山"], ["1937-10-01T00:00", "蕰藻浜"],
+    ["1937-10-26T12:00", "大场失守"], ["1937-10-27T00:00", "四行"],
+    ["1937-11-05T00:00", "金山卫"], ["1937-11-09T12:00", "西撤"],
+    ["1937-11-12T23:59", "上海华界失守"]
+  ],
+  "theme": { "accent": "#2f5d8c", "accentDark": "#1d3e60", "accentTint": "rgba(47,93,140,.08)", "theatreBorder": "#2f5d8c", "theatreHalo": "rgba(47,93,140,.14)", "restFill": "rgba(47,93,140,.06)" },
+  "map": {
+    "fit": "frame", "home3d": [121.43, 31.27], "focus": [121.39, 31.2],
+    "hexKm": 3, "theatreCountries": ["CN"], "maxZoom": 26,
+    "labels": {
+      "countries": [["上 海 战 区", 121.15, 31.61, 20, 0.4]],
+      "waters": [["长 江 口", 121.84, 31.62, 17, false], ["杭 州 湾", 121.52, 30.65, 17, false], ["东 海", 122.0, 31.12, 17, false]]
+    },
+    "regions": [
+      { "id": "city", "label": "市区与四行", "center": [121.48, 31.26], "zoom": 5 },
+      { "id": "north", "label": "吴淞与罗店", "center": [121.4, 31.4], "zoom": 3 },
+      { "id": "river", "label": "蕰藻浜与大场", "center": [121.4, 31.34], "zoom": 4 },
+      { "id": "south", "label": "金山卫与松江", "center": [121.15, 30.94], "zoom": 2 }
+    ],
+    "returnZoom": 1.15, "liveInsets": true, "portMarkers": true,
+    "transportStyle": "dashed", "routesFullStandalone": true,
+    "initialView": { "center": [121.46, 31.28], "zoom": 3 },
+    "unitZoom": [2.0, 3.5, 5.0],
+    "mapKey": "1937 淞沪会战 · 控制场与轨迹为作战地域示意；租界警戒区不等于日军占领"
+  },
+  "display": { "hqPassThrough": true, "hideTransport": { "map2d": true, "sandbox": true }, "statusEchelons": "divisions", "counterSideCode": true },
+  "sandbox": {
+    "kind": "terrain", "exaggeration": 2, "figScale": 12,
+    "target": [121.43, 31.27], "softwareFallback": true, "follow": true,
+    "typeModels": { "infantry": "inf_allied", "marine": "inf_allied", "hq": "inf_allied", "naval": "navy_token", "air": "air_token", "fighter": "air_token", "bomber": "air_token", "artillery": "art_gun" }
+  },
+  "director": { "camera": "point", "returnTo": "phase", "returnCenter": [121.39, 31.2], "wideGoesHome": true, "dwell": [9500, 14000], "defaultZoom": [4, 5] },
+  "audio": {
+    "mode": "cues", "music": [{ "from": "1937-08-13T09:00", "track": "operations" }, { "from": "1937-11-09T18:00", "track": "elegy" }],
+    "musicVol": 0.28, "introSting": "none", "battleSfx": ["artillery", "mg"], "volumePanel": true,
+    "intensity": [
+      { "from": "1937-08-13T00:00", "value": 0.12 }, { "from": "1937-08-13T09:00", "value": 0.55 },
+      { "from": "1937-08-23T00:00", "value": 0.7 }, { "from": "1937-09-12T00:00", "value": 0.42 },
+      { "from": "1937-10-21T00:00", "value": 0.65 }, { "from": "1937-10-27T00:00", "value": 0.45 },
+      { "from": "1937-11-05T00:00", "value": 0.65 }, { "from": "1937-11-09T00:00", "value": 0.35 },
+      { "from": "1937-11-12T12:00", "value": 0.1 }
+    ]
+  },
+  "ui": {
+    "layers": { "routes": { "label": "作战方向与海运" }, "demarcation": { "label": "防御地域示意" }, "pockets": { "label": "孤立守备点" } },
+    "extraLayers": [{ "key": "historical_geography", "label": "历史地理与外国守备核心（近似）", "default": true }],
+    "chapterNav": "sidebar", "treeActiveOnly": false, "precisionStyle": "note",
+    "timeline": { "jump": true, "dateInput": true, "lanes": 2 }, "tourOpensFirstEvent": true, "sandboxPhaseFocus": true,
+    "brief": {
+      "title": "1937 淞沪会战", "sub": "淞滬會戰 · 第二次上海事変", "sub2": "1937.8.13 — 1937.11.12",
+      "fine": "狭义上海会战：截止11月12日，不含苏锡追击及南京阶段。近百万是累计投入量级，不是同时在场兵力；— 表示缺少同口径可核数字。棋子是代表编制，不能加总军、师和分队人数。",
+      "forceNotes": true, "notesTitle": "兵力、伤亡与阅读口径", "sideColumns": 2, "showEmptyRows": false
+    },
+    "status": {
+      "cells": [
+        { "sides": ["CN"], "metric": "act", "label": "中方师级标记在战" },
+        { "sides": ["CN"], "metric": "enc", "label": "孤立标记", "cls": "enc", "hideZero": true },
+        { "sides": ["CN"], "metric": "out", "label": "师级标记退出", "cls": "out", "hideZero": true },
+        { "sides": ["JP"], "metric": "act", "label": "日方师级标记在战" }
+      ],
+      "latestEvent": true, "pocketsLabel": "孤立守备点（非全师被围）"
+    },
+    "legend": {
+      "counters": [["CN", "infantry", "division", "中国军队代表师"], ["JP", "infantry", "division", "日本陆军代表师团"], ["JP", "marine", "regiment", "海军陆战队据点"], ["CN", "fortress", "group", "著名守备分队（非全师）"], ["JP", "naval", "ship", "舰船存在示意"]],
+      "items": [
+        "<i class=\"lg-fill a\"></i>日军控制概势（不表示逐村确占）",
+        "<i class=\"lg-fill\"></i>中国军队抵抗地域；租界另见叠加层",
+        "<i class=\"lg-front\"></i>接触地域边缘（近似）",
+        "→ 陆上作战／撤退方向；··· 海上输送虚线",
+        "<i class=\"lg-demarc\"></i>阶段性防御地域，不是精测战壕",
+        "<i class=\"lg-pocket\"></i>宝山／四行孤立守备点"
+      ],
+      "statuses": "交战 · 撤退 · 战术单位瓦解 · 撤入租界后羁留；营的结局不等于母师结局",
+      "after": "<p>轨迹仅连接有史料支持的作战地域，点间动画为示意，不是逐日实测。部分标记在位置证据窗结束后48小时淡出；消失不代表部队停战、撤退或覆灭，编制仍可在序列树查阅。海运不能读成陆上占领；8月23日与11月5日登陆均按日级状态切换。</p><p>中国与日本的阵营标签仅供界面分类，不表示1937年已加入后来建立的二战同盟。</p>"
+    },
+    "modelLabels": { "inf_allied": "通用步兵符号（非1937制服复原）", "navy_token": "通用舰船示意标记", "air_token": "通用飞机示意标记", "art_gun": "通用火炮示意模型" },
+    "categoryLabels": { "air": "航空", "movement": "行动" },
+    "pocketFate": { "destroyed": "守备单位瓦解", "handed_over": "撤入租界后羁留" },
+    "labels": { "echelons": { "command": "战区／方面军", "army": "集团军／军", "corps": "军", "division": "师／师团", "group": "守备分队" } }
+  },
+  "intro": {
+    "stamp": "史料重建 · 作战档案", "kicker": "中国战区 · No. 1937/VIII", "title": "淞沪会战", "en": "THE BATTLE OF SHANGHAI", "dates": "1937年8月13日 — 11月12日",
+    "paragraphs": [
+      "上海的华界、租界和日军据点彼此嵌合。8月9日虹桥机场大山事件后紧张升级。八一三战事由市区接触线扩大，中国军队试图夺取虹口、杨树浦据点；日军随后在吴淞与北川沙方向登陆，把会战拖入北郊的河浜和村镇。",
+      "罗店、宝山、蕰藻浜与大场的争夺持续消耗双方。大场失守后，主力退向苏州河；四行仓库的约四百余名守军留在北岸。11月5日第10军从杭州湾迂回登陆，威胁松江与退路，中国军队继而分路西撤。",
+      "本卷采用11月12日上海华界失守的会战终点，不把租界同时视为日军占领。11月中下旬苏锡地区追击另属后续作战，不展开为本卷战局数据。"
+    ],
+    "how": "共 {units} 个代表性编制与标记、{events} 个中文事件、{keyframes} 个控制关键帧。按章节或导演模式观察转折。09:00只是播放起点；日精度事件、稀疏地域轨迹及控制场均不等于精测战况。",
+    "note": "滚轮缩放 · 拖动地图 · 空格播放 · H 全图 · M 切换3D；步兵、舰船与飞机模型为通用象征，并非1937具体制服或型号复原。",
+    "photo": "File:Shanghai1937KMT street88th.jpg",
+    "photoAlt": "1937年上海街角的中国军队，Commons编目为第88师，具体拍摄日未详",
+    "caption": "1937年上海街角阵地；Commons编目为第88师，拍摄日未详，不指认某日战斗现场。",
+    "operation": { "code": "SHANGHAI 1937", "coords": "31° N / 121° E", "label": "淞沪会战 · 八一三抗战" }
+  },
+  "credits": {
+    "sections": [["照片", "photos"], ["音效", "audio"], ["音乐", "music"], ["字体", "fonts"], ["地理署名", "geography"]],
+    "geodata": [
+      "<b>historical-basemaps world_1938</b>（A. Ourednik 等）— GPL-3.0；China映射中国战区，不把全中国并为日本本土。1938年国界不是1937年上海市区占领图。",
+      "<b>Natural Earth 1:10m</b> — 公有领域；现代海岸、河湖仅作背景。金山卫与长江口围垦、河道整治及城市扩张均使今日地貌不同于1937年。",
+      "<b>Terrain Tiles (Terrarium)</b> — Mapzen / AWS Open Data；SRTM、GMTED2010、ETOPO1等。上海平原高差很小，沙盘高程及垂直夸张不用于判断工事或街道高低。",
+      "<b>中文地名与叠加层</b> — 历史地域识别与近似重建。北川沙不是浦东川沙镇，旧南站、旧北站不是今日同名车站；城市小河仅为有文献锚点的粗略连线，宽度为示意，未下载到OSM或读到历史精细岸图。",
+      "<b>外国守备核心</b> — 文献空间关系支持的保守内区示意，不是完整租界、精确外防线或无炮击区；没有把1935扫描图的未读下载线索冒充数字化成果。1938政治图不用于1937占领归属。"
+    ],
+    "disclaimer": "这是有来源且保留不确定性的战役级叙事，不是全量战斗序列或逐日阵地复原。师、军、守备分队不能重复计入兵力。",
+    "extraHtml": "<p><b>四行口径：</b>馆方采用10月31日凌晨撤离，另有31日夜至11月1日凌晨说；时间轴以31日日精度表示羁留状态转变，不宣称唯一无争议钟点。实际守军约四百余，‘八百’是对外称号。</p><p><b>指挥与模型：</b>静态树保留上海派遣军与第10军平级，卡片说明11月7日以后同属华中方面军。通用步兵、舰船和飞机只作象征，不以1940年代专用型号冒充1937装备。史料读取范围及未使用的检索线索记录于研究JSON。</p><p><b>伤亡：</b>累计投入、军人死伤、平民空袭受难和后续南京阶段分别处理；未取得同一时窗的完整拆分，不为面板补造数字。</p><p><b>背景配乐：</b>共享作战室器乐与肖邦作品的演奏录音仅用于现代叙事气氛，不是1937年现场录音，也不表示这些曲目当时在上海演奏或播送。</p>"
+  },
   "hub": {
-    "order": 10,
-    "codename": "淞沪会战",
-    "codenameOrig": "八一三",
-    "stencil": "SHANGHAI 1937",
-    "pin": [121.47, 31.23],
-    "labelAt": "e",
-    "theatre": { "bbox": [119.6, 30.5, 122.2, 32.1] },
-    "blurb": "日军在上海登陆受阻，中日双方投入近百万兵力在市区与郊野鏖战三个月；日军自杭州湾金山卫登陆迂回后，中国军队西撤，日军随即进逼南京。"
-  }
+    "order": 10, "codename": "淞沪会战", "codenameOrig": "八一三", "stencil": "SHANGHAI 1937", "region": "china",
+    "pin": [121.47, 31.23], "labelAt": "e", "theatre": { "bbox": [120.75, 30.6, 122.1, 31.75] },
+    "cover": "photos/street-position.webp",
+    "blurb": "中日双方累计投入近百万兵力，在上海市区、罗店与蕰藻浜鏖战；金山卫登陆从南侧迂回，中国军队西撤。本卷止于11月12日上海华界失守，不将租界同时视为日军占领。"
+  },
+  "validation": { "eventCount": 25, "bodyLength": [80, 140] }
 }

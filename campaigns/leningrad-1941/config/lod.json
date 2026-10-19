@@ -1,0 +1,49 @@
+{
+  "_doc": "相对全北方战区的缩放；更近的阶段与地区镜头保持师旅级可读性。海军代表标记随对应梯队出现。",
+  "levels": [
+    {
+      "name": "army",
+      "echelons": [
+        "army",
+        "air_fleet",
+        "air_group"
+      ],
+      "minK": 0,
+      "maxK": 5,
+      "fallbackUp": true
+    },
+    {
+      "name": "corps",
+      "echelons": [
+        "corps",
+        "sector",
+        "wing"
+      ],
+      "minK": 5,
+      "maxK": 10.5,
+      "fallbackUp": true
+    },
+    {
+      "name": "division",
+      "echelons": [
+        "division",
+        "brigade",
+        "regiment",
+        "group",
+        "ship",
+        "squadron",
+        "gruppe"
+      ],
+      "minK": 10.5,
+      "maxK": 99,
+      "fallbackUp": true
+    }
+  ],
+  "hysteresis": 0.15,
+  "counterPx": {
+    "army": 34,
+    "corps": 30,
+    "division": 26
+  },
+  "stackMax": 3
+}

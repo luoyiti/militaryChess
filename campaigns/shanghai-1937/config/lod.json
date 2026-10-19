@@ -1,0 +1,11 @@
+{
+  "_doc": "棋子分级显示。k = d3-zoom 缩放系数（1 = 全图适配屏幕）。hysteresis 为切换滞回比例。",
+  "levels": [
+    { "name": "army", "echelons": ["army"], "minK": 0, "maxK": 1.55 },
+    { "name": "corps", "echelons": ["corps"], "minK": 1.55, "maxK": 2.8, "fallbackUp": true },
+    { "name": "division", "echelons": ["division", "brigade", "regiment", "group"], "minK": 2.8, "maxK": 99, "fallbackUp": true }
+  ],
+  "hysteresis": 0.15,
+  "counterPx": { "army": 34, "corps": 30, "division": 26 },
+  "stackMax": 3
+}

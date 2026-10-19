@@ -1,0 +1,578 @@
+{
+  "photos": [
+    {
+      "file": "photos/09c1b0.webp",
+      "title": "Жительницы Ленинграда роют противотанковый ров",
+      "author": "Леонид Великжанин",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%D0%96%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%B8%D1%86%D1%8B_%D0%9B%D0%B5%D0%BD%D0%B8%D0%BD%D0%B3%D1%80%D0%B0%D0%B4%D0%B0_%D1%80%D0%BE%D1%8E%D1%82_%D0%BF%D1%80%D0%BE%D1%82%D0%B8%D0%B2%D0%BE%D1%82%D0%B0%D0%BD%D0%BA%D0%BE%D0%B2%D1%8B%D0%B9_%D1%80%D0%BE%D0%B2.jpg"
+    },
+    {
+      "file": "photos/11-pzd-barbarossa-4a1ea3.webp",
+      "title": "11. PzD Barbarossa",
+      "author": "sconosciuto",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:11._PzD_Barbarossa.jpg"
+    },
+    {
+      "file": "photos/7-pzd-1941-f4e7b3.webp",
+      "title": "7 PzD 1941",
+      "author": "Unknown author",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:7_PzD_1941.jpg"
+    },
+    {
+      "file": "photos/8-8-cm-flak-18-36-37-1-9334b1.webp",
+      "title": "8.8 cm Flak 18-36-37 1",
+      "author": "Mark Pellegrini",
+      "license": "CC BY-SA 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:8.8_cm_Flak_18-36-37_1.jpg"
+    },
+    {
+      "file": "photos/anti-aircraft-leningrad-1941-2203a5.webp",
+      "title": "Anti aircraft Leningrad 1941",
+      "author": "Boris Kudoyarov",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Anti_aircraft_Leningrad_1941.JPG"
+    },
+    {
+      "file": "photos/ba-101i-136-0882-12-sowjetunion-deutsches-sturmgeschutz-0ebfdb.webp",
+      "title": "Russland, StuG III der StuG.Abt.192",
+      "author": "Cusian, Albert",
+      "license": "CC BY-SA 3.0 de",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_101I-136-0882-12,_Sowjetunion,_Deutsches_Sturmgesch%C3%BCtz.jpg"
+    },
+    {
+      "file": "photos/ba-101i-393-1402-06a-russland-junkers-ju-87-d555ef.webp",
+      "title": "Russland, Junkers Ju 87",
+      "author": "Schalber",
+      "license": "CC BY-SA 3.0 de",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_101I-393-1402-06A,_Russland,_Junkers_Ju_87.jpg"
+    },
+    {
+      "file": "photos/ba-101i-461-0212-12-russland-panzer-vi-tiger-i-3b99e9.webp",
+      "title": "Russland, Panzer VI (Tiger I)",
+      "author": "Zwirner",
+      "license": "CC BY-SA 3.0 de",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_101I-461-0212-12,_Russland,_Panzer_VI_(Tiger_I).jpg"
+    },
+    {
+      "file": "photos/ba-101i-725-0190-18-russland-ruckzug-deutscher-truppen-p-e26c5b.webp",
+      "title": "Russland, Rückzug deutscher Truppen, Panzer IV",
+      "author": "Reimers",
+      "license": "CC BY-SA 3.0 de",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_101I-725-0190-18,_Russland,_R%C3%BCckzug_deutscher_Truppen,_Panzer_IV.jpg"
+    },
+    {
+      "file": "photos/dykanka-katiushi-img-6036-53-210-0030-07fa6b.webp",
+      "title": "Dykanka Katiushi IMG 6036 53-210-0030",
+      "author": "Сергій Криниця (Haidamac)",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dykanka_Katiushi_IMG_6036_53-210-0030.JPG"
+    },
+    {
+      "file": "photos/finnish-forces-cross-vuoksi-in-baryshevo-ayrapaa-in-1941-b47b62.webp",
+      "title": "Finnish forces cross Vuoksi in Baryshevo (Äyräpää) in 1941",
+      "author": "P. Währn",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Finnish_forces_cross_Vuoksi_in_Baryshevo_(%C3%84yr%C3%A4p%C3%A4%C3%A4)_in_1941.jpg"
+    },
+    {
+      "file": "photos/kilott-t-26-os-harckocsi-a-kamenyec-podolszk-es-tulcsin-4a3efd.webp",
+      "title": "Kilőtt T-26-os harckocsi a Kamenyec-Podolszk és Tulcsin közötti úton. Fortepan 78310",
+      "author": "FOTO:Fortepan — ID 78310 : Adományozó/Donor: Berkó Pál. archive copy at the Wayback Machine",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kil%C5%91tt_T-26-os_harckocsi_a_Kamenyec-Podolszk_%C3%A9s_Tulcsin_k%C3%B6z%C3%B6tti_%C3%BAton._Fortepan_78310.jpg"
+    },
+    {
+      "file": "photos/kv-1-model-1941-in-the-breakthrough-of-the-siege-of-leni-2c1678.webp",
+      "title": "KV-1 Model 1941 in the Breakthrough of the Siege of Leningrad Museum",
+      "author": "WolfDW",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:KV-1_Model_1941_in_the_Breakthrough_of_the_Siege_of_Leningrad_Museum.jpg"
+    },
+    {
+      "file": "photos/rian-archive-308-defenders-of-besieged-leningrad-415bad.webp",
+      "title": "RIAN archive 308 Defenders of besieged Leningrad",
+      "author": "Boris Kudoyarov / Борис Кудояров",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:RIAN_archive_308_Defenders_of_besieged_Leningrad.jpg"
+    },
+    {
+      "file": "photos/rian-archive-309-battles-in-pushkin-d47264.webp",
+      "title": "RIAN archive 309 Battles in Pushkin",
+      "author": "Boris Kudoyarov / Борис Кудояров",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:RIAN_archive_309_Battles_in_Pushkin.jpg"
+    },
+    {
+      "file": "photos/rian-archive-310-foodstuffs-for-leningrad-2dbb07.webp",
+      "title": "RIAN archive 310 Foodstuffs for Leningrad",
+      "author": "Boris Kudoyarov / Борис Кудояров",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:RIAN_archive_310_Foodstuffs_for_Leningrad.jpg"
+    },
+    {
+      "file": "photos/rian-archive-324-in-besieged-leningrad-aa7aac.webp",
+      "title": "RIAN archive 324 In besieged Leningrad",
+      "author": "Boris Kudoyarov / Борис Кудояров",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:RIAN_archive_324_In_besieged_Leningrad.jpg"
+    },
+    {
+      "file": "photos/rian-archive-381-sea-defense-of-leningrad-764594.webp",
+      "title": "RIAN archive 381 Sea defense of Leningrad",
+      "author": "А. Brodskiy / А. Бродский",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:RIAN_archive_381_Sea_defense_of_Leningrad.jpg"
+    },
+    {
+      "file": "photos/rian-archive-397-cutters-carrying-foodstuffs-to-besieged-612d0b.webp",
+      "title": "RIAN archive 397 Cutters carrying foodstuffs to besieged Leningrad on Ladoga Lake",
+      "author": "Boris Kudoyarov / Борис Кудояров",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:RIAN_archive_397_Cutters_carrying_foodstuffs_to_besieged_Leningrad_on_Ladoga_Lake.jpg"
+    },
+    {
+      "file": "photos/rian-archive-478314-st-isaac-s-cathedral-in-leningrad-in-a7ae68.webp",
+      "title": "RIAN archive 478314 St. Isaac's Cathedral in Leningrad in 1942",
+      "author": "A. Brodsky / A. Бродский",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:RIAN_archive_478314_St._Isaac%27s_Cathedral_in_Leningrad_in_1942.jpg"
+    },
+    {
+      "file": "photos/rian-archive-58228-leningrad-front-soldiers-before-offen-00244a.webp",
+      "title": "RIAN archive 58228 Leningrad Front Soldiers Before Offensive",
+      "author": "Vsevolod Tarasevich / Всеволод Тарасевич",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:RIAN_archive_58228_Leningrad_Front_Soldiers_Before_Offensive.jpg"
+    },
+    {
+      "file": "photos/rian-archive-601168-leningrad-offensive-operation-66cf68.webp",
+      "title": "RIAN archive 601168 Leningrad offensive operation",
+      "author": "Michael Trahman / Михаил Трахман",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:RIAN_archive_601168_Leningrad_offensive_operation.jpg"
+    },
+    {
+      "file": "photos/rian-archive-601181-in-a-street-of-leningrad-after-germa-cafa28.webp",
+      "title": "RIAN archive 601181 In a street of Leningrad after German air raid",
+      "author": "Boris Kudoyarov / Борис Кудояров",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:RIAN_archive_601181_In_a_street_of_Leningrad_after_German_air_raid.jpg"
+    },
+    {
+      "file": "photos/rian-archive-601183-soviet-soldiers-awarded-with-the-def-6539c0.webp",
+      "title": "RIAN archive 601183 Soviet soldiers awarded with the Defense of Leningrad Medal",
+      "author": "Boris Kudoyarov / Борис Кудояров Aleksandr Glichev / Александр Гличев (newspaper attribution)",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:RIAN_archive_601183_Soviet_soldiers_awarded_with_the_Defense_of_Leningrad_Medal.jpg"
+    },
+    {
+      "file": "photos/rian-archive-602484-joining-of-leningrad-and-volkhov-fro-2d8885.webp",
+      "title": "RIAN archive 602484 Joining of Leningrad and Volkhov Fronts",
+      "author": "Dmitriy Kozlov / Дмитрий Козлов",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:RIAN_archive_602484_Joining_of_Leningrad_and_Volkhov_Fronts.jpg"
+    },
+    {
+      "file": "photos/rian-archive-604176-workers-at-kirovsky-plant-walking-to-da564f.webp",
+      "title": "RIAN archive 604176 Workers at Kirovsky Plant walking to front line",
+      "author": "Boris Kudoyarov / Борис Кудояров",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:RIAN_archive_604176_Workers_at_Kirovsky_Plant_walking_to_front_line.jpg"
+    },
+    {
+      "file": "photos/rian-archive-62364-soviet-anti-aircraft-gunners-in-lenin-342001.webp",
+      "title": "RIAN archive 62364 Soviet anti-aircraft gunners in Leningrad",
+      "author": "Boris Kudoyarov / Борис Кудояров",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:RIAN_archive_62364_Soviet_anti-aircraft_gunners_in_Leningrad.jpg"
+    },
+    {
+      "file": "photos/rian-archive-633054-starting-attack-in-leningrad-battlef-18ec5a.webp",
+      "title": "RIAN archive 633054 Starting attack in Leningrad battlefront",
+      "author": "Vsevolod Tarasevich / Всеволод Тарасевич",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:RIAN_archive_633054_Starting_attack_in_Leningrad_battlefront.jpg"
+    },
+    {
+      "file": "photos/rian-archive-637341-wood-procurement-in-leningrad-octobe-ccb925.webp",
+      "title": "RIAN archive 637341 Wood procurement in Leningrad, October 1941",
+      "author": "Anatoliy Garanin / Анатолий Гаранин",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:RIAN_archive_637341_Wood_procurement_in_Leningrad,_October_1941.jpg"
+    },
+    {
+      "file": "photos/rian-archive-637354-placards-on-facade-of-the-kazan-cath-fd240b.webp",
+      "title": "RIAN archive 637354 Placards on facade of the Kazan Cathedral in Leningrad, October 1941",
+      "author": "Anatoliy Garanin / Анатолий Гаранин",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:RIAN_archive_637354_Placards_on_facade_of_the_Kazan_Cathedral_in_Leningrad,_October_1941.jpg"
+    },
+    {
+      "file": "photos/rian-archive-660791-red-army-soldiers-leningrad-defender-853dd2.webp",
+      "title": "RIAN archive 660791 Red Army soldiers. Leningrad defenders",
+      "author": "Anatoliy Garanin / Анатолий Гаранин",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:RIAN_archive_660791_Red_Army_soldiers._Leningrad_defenders.jpg"
+    },
+    {
+      "file": "photos/rian-archive-762-in-besieged-leningrad-5aba02.webp",
+      "title": "RIAN archive 762 In besieged Leningrad",
+      "author": "Michael Trahman / Михаил Трахман",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:RIAN_archive_762_In_besieged_Leningrad.jpg"
+    },
+    {
+      "file": "photos/rian-archive-764-a-battle-in-the-outskirts-40b67a.webp",
+      "title": "RIAN archive 764 A battle in the outskirts",
+      "author": "Boris Kudoyarov / Борис Кудояров",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:RIAN_archive_764_A_battle_in_the_outskirts.jpg"
+    },
+    {
+      "file": "photos/rian-archive-888-nurses-helping-people-wounded-in-the-fi-d24cd1.webp",
+      "title": "RIAN archive 888 Nurses helping people wounded in the first bombardment in Leningrad",
+      "author": "Vsevolod Tarasevich / Всеволод Тарасевич",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:RIAN_archive_888_Nurses_helping_people_wounded_in_the_first_bombardment_in_Leningrad.jpg"
+    },
+    {
+      "file": "photos/rian-archive-907-leningradians-queueing-up-for-water-645265.webp",
+      "title": "RIAN archive 907 Leningradians queueing up for water",
+      "author": "Boris Kudoyarov / Борис Кудояров",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:RIAN_archive_907_Leningradians_queueing_up_for_water.jpg"
+    },
+    {
+      "file": "photos/soviet-damaged-i-16-fighters-captured-by-the-germans-at-e7b570.webp",
+      "title": "Soviet damaged I-16 fighters captured by the Germans at Riga airfield. June 1941",
+      "author": "Unknown author",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Soviet_damaged_I-16_fighters_captured_by_the_Germans_at_Riga_airfield._June_1941.jpg"
+    },
+    {
+      "file": "photos/soviet-t-34-with-desant-rushing-into-village-a52539.webp",
+      "title": "Soviet T-34 with desant rushing into village",
+      "author": "Unknown author",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Soviet_T-34_with_desant_rushing_into_village.jpg"
+    },
+    {
+      "file": "photos/spanisch-blaue-division-obergefreiter-626307.webp",
+      "title": "Spanisch Blaue Division Obergefreiter",
+      "author": "Unknown author",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Spanisch_Blaue_Division_Obergefreiter.jpg"
+    },
+    {
+      "file": "photos/tanya-savicheva-diary-127fab.webp",
+      "title": "Tanya Savicheva Diary",
+      "author": "Pages of a diary written by Tanya, photocopy and page order don't produce a new copyright. Photo of Tanya (in the upper right corner) is also in the public domain (see the appropriate picture )",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tanya_Savicheva_Diary.jpg"
+    }
+  ],
+  "audio": [
+    {
+      "file": "audio/sfx.webm#typewriter",
+      "title": "typewriter：WWS Typewriter.ogg",
+      "author": "Work With Sounds / Konrad Gutkowski",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:WWS_Typewriter.ogg"
+    },
+    {
+      "file": "audio/sfx.webm#bell",
+      "title": "bell：406243 stubb typewriter-ding-near-mono.wav",
+      "author": "_stubb",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:406243_stubb_typewriter-ding-near-mono.wav"
+    },
+    {
+      "file": "audio/sfx.webm#stamp",
+      "title": "stamp：traditional stamp.wav by I.fekry",
+      "author": "Unknown",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "sourceUrl": "https://freesound.org/people/I.fekry/sounds/470710/"
+    },
+    {
+      "file": "audio/sfx.webm#paper",
+      "title": "paper：PageRustle by Tomoyo Ichijouji",
+      "author": "Unknown",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "sourceUrl": "https://freesound.org/people/Tomoyo%20Ichijouji/sounds/211246/"
+    },
+    {
+      "file": "audio/sfx.webm#explosion",
+      "title": "explosion：Explosion 10.ogg",
+      "author": "tcpp",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Explosion_10.ogg"
+    },
+    {
+      "file": "audio/sfx.webm#artillery",
+      "title": "artillery：Sexton artillery firing.oga",
+      "author": "LouiseBrown1981",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sexton_artillery_firing.oga"
+    },
+    {
+      "file": "audio/sfx.webm#stuka",
+      "title": "stuka：property War Airplane Stuka Siren Sound Effect by Mastersoundboy2005",
+      "author": "Unknown",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "sourceUrl": "https://freesound.org/people/Mastersoundboy2005/sounds/758467/"
+    },
+    {
+      "file": "audio/sfx.webm#bomber",
+      "title": "bomber：War Planes Overhead! by SoundsExciting",
+      "author": "Unknown",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "sourceUrl": "https://freesound.org/people/SoundsExciting/sounds/213099/"
+    },
+    {
+      "file": "audio/sfx.webm#engine",
+      "title": "engine：G14-16-Old Truck with Sputtering Idle.wav by craigsmith",
+      "author": "Unknown",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "sourceUrl": "https://freesound.org/people/craigsmith/sounds/438085/"
+    },
+    {
+      "file": "audio/sfx.webm#tank",
+      "title": "tank：t26_moving_01.wav by greatmganga",
+      "author": "Unknown",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "sourceUrl": "https://freesound.org/people/greatmganga/sounds/329800/"
+    },
+    {
+      "file": "audio/sfx.webm#ship_gun",
+      "title": "ship_gun：Cannon Shot by qubodup",
+      "author": "Unknown",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "sourceUrl": "https://freesound.org/people/qubodup/sounds/187767/"
+    },
+    {
+      "file": "audio/sfx.webm#siren",
+      "title": "siren：Motorsirene - Feuerwehralarm.ogg",
+      "author": "Nallchen",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Motorsirene_-_Feuerwehralarm.ogg"
+    },
+    {
+      "file": "audio/sfx.webm#radio",
+      "title": "radio：Static B.wav",
+      "author": "Oreocooke",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Static_B.wav"
+    },
+    {
+      "file": "audio/sfx.webm#morse",
+      "title": "morse：SOS.ogg",
+      "author": "Dave Aton",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:SOS.ogg"
+    },
+    {
+      "file": "audio/sfx.webm#mg",
+      "title": "mg：Heavy Machine Gun by ShawnyBoy",
+      "author": "Unknown",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "sourceUrl": "https://freesound.org/people/ShawnyBoy/sounds/165394/"
+    },
+    {
+      "file": "audio/sfx.webm#rifle",
+      "title": "rifle：Gunshots 8.ogg",
+      "author": "aradlaw",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gunshots_8.ogg"
+    },
+    {
+      "file": "audio/sfx.webm#march",
+      "title": "march：marching-concrete-loop.aif by stib",
+      "author": "Unknown",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "sourceUrl": "https://freesound.org/people/stib/sounds/240732/"
+    },
+    {
+      "file": "audio/sfx.webm#cavalry",
+      "title": "cavalry：Six Horses Galloping By.ogg",
+      "author": "Freesound Community https://pixabay.com/users/freesound_community-46691455/ Bruno Auzet https://pixabay.com/sound-effects/nature-6-horses-gallopwav-14467/",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Six_Horses_Galloping_By.ogg"
+    },
+    {
+      "file": "audio/sfx.webm#ui_click",
+      "title": "ui_click：Computer mouse single click.ogg",
+      "author": "Darklanlan",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Computer_mouse_single_click.ogg"
+    },
+    {
+      "file": "audio/sfx.webm#fanfare",
+      "title": "fanfare：Cracow trumpet signal.ogg",
+      "author": "uploader Szczebrzeszynski",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cracow_trumpet_signal.ogg"
+    },
+    {
+      "file": "audio/sfx.webm#amb_wind",
+      "title": "amb_wind：Wind in Swedish pine forest at 25 mps.ogg",
+      "author": "W.carter",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wind_in_Swedish_pine_forest_at_25_mps.ogg"
+    },
+    {
+      "file": "audio/sfx.webm#amb_front",
+      "title": "amb_front：Explosion Distant  by Johnnyfarmer",
+      "author": "Unknown",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "sourceUrl": "https://freesound.org/people/Johnnyfarmer/sounds/209769/"
+    },
+    {
+      "file": "audio/sfx.webm#amb_radio",
+      "title": "amb_radio：am band static.wav by cognito perceptu",
+      "author": "Unknown",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "sourceUrl": "https://freesound.org/people/cognito%20perceptu/sounds/38693/"
+    }
+  ],
+  "music": [],
+  "fonts": [
+    {
+      "file": "fonts/NotoSerifSC-400.woff2, fonts/NotoSerifSC-700.woff2",
+      "title": "Noto Serif SC（思源宋体，子集）",
+      "author": "Google / Adobe",
+      "license": "SIL Open Font License 1.1",
+      "licenseUrl": "https://openfontlicense.org/",
+      "sourceUrl": "https://github.com/google/fonts/tree/main/ofl/notoserifsc"
+    },
+    {
+      "file": "fonts/LXGWWenKai-400.woff2",
+      "title": "霞鹜文楷 LXGW WenKai（子集）",
+      "author": "LXGW（落霞与孤鹜）",
+      "license": "SIL Open Font License 1.1",
+      "licenseUrl": "https://openfontlicense.org/",
+      "sourceUrl": "https://github.com/lxgw/LxgwWenKai"
+    },
+    {
+      "file": "fonts/SpecialElite-400.woff2",
+      "title": "Special Elite",
+      "author": "Astigmatic",
+      "license": "Apache License 2.0",
+      "licenseUrl": "https://www.apache.org/licenses/LICENSE-2.0",
+      "sourceUrl": "https://github.com/google/fonts/tree/main/apache/specialelite"
+    },
+    {
+      "file": "fonts/StardosStencil-400.woff2, fonts/StardosStencil-700.woff2",
+      "title": "Stardos Stencil",
+      "author": "Vernon Adams",
+      "license": "SIL Open Font License 1.1",
+      "licenseUrl": "https://openfontlicense.org/",
+      "sourceUrl": "https://github.com/google/fonts/tree/main/ofl/stardosstencil"
+    },
+    {
+      "file": "fonts/Oswald-400.woff2, fonts/Oswald-700.woff2",
+      "title": "Oswald",
+      "author": "Vernon Adams, Kalapi Gajjar, Cyreal",
+      "license": "SIL Open Font License 1.1",
+      "licenseUrl": "https://openfontlicense.org/",
+      "sourceUrl": "https://github.com/google/fonts/tree/main/ofl/oswald"
+    }
+  ],
+  "geography": [
+    {
+      "file": "geo/vectors.topo.json, tiles/base/, terrain/",
+      "title": "Natural Earth 1:10m物理地理与现代国界",
+      "author": "Natural Earth contributors",
+      "license": "Public domain",
+      "licenseUrl": "https://www.naturalearthdata.com/about/terms-of-use/",
+      "sourceUrl": "https://www.naturalearthdata.com/"
+    },
+    {
+      "file": "geo/vectors.topo.json",
+      "title": "1941北方战区历史边界：东普鲁士、梅梅尔、波罗的海与1940年苏芬界重建",
+      "author": "A. Ourednik 等 historical-basemaps；本项目修订",
+      "license": "GPL-3.0（历史边界参考）",
+      "licenseUrl": "https://www.gnu.org/licenses/gpl-3.0.html",
+      "sourceUrl": "https://github.com/aourednik/historical-basemaps"
+    },
+    {
+      "file": "terrain/height.png",
+      "title": "Terrarium离线地形：SRTM/GMTED2010/ETOPO1等综合高程",
+      "author": "Mapzen / AWS Open Data",
+      "license": "依原始综合来源署名",
+      "sourceUrl": "https://registry.opendata.aws/terrain-tiles/"
+    },
+    {
+      "file": "data/gazetteer/places.json",
+      "title": "OpenStreetMap地名坐标，经过同名地物与战时身份审阅",
+      "author": "OpenStreetMap contributors",
+      "license": "ODbL 1.0",
+      "licenseUrl": "https://www.openstreetmap.org/copyright",
+      "sourceUrl": "https://www.openstreetmap.org/"
+    }
+  ]
+}

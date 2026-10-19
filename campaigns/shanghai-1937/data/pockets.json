@@ -1,0 +1,14 @@
+[
+  {
+    "id": "p.baoshan", "name": { "zh": "宝山县城孤立守备点", "short": "宝山守军" },
+    "start": "1937-09-06T12:00", "end": "1937-09-07T11:59", "anchor": "@baoshan", "fate": "destroyed", "units": ["cn.baoshan_battalion"],
+    "note": "日级最后阶段的屏幕符号，不是精确包围圈面积。11:59仅为最后仍守备的显示哨点，非史实钟点；12:00显示战术营瓦解，不等于全部人员死亡，也不把母98师记作覆灭。",
+    "sources": ["xinhua_yao_2018"]
+  },
+  {
+    "id": "p.sihang", "name": { "zh": "四行仓库孤立守备点", "short": "四行孤军" },
+    "start": "1937-10-27T00:00", "end": "1937-10-31T11:59", "anchor": "@sihang", "fate": "handed_over", "units": ["cn.sihang_detachment"],
+    "note": "仅表示仓库建筑的孤立守备，不在粗控制场为建筑挖巨大洞。11:59仅为最后仍守备的显示哨点，非史实钟点；12:00按馆文日精度显示羁留，另有31日夜至11月1日凌晨说，不是交给日军或全师投降。",
+    "sources": ["sihang_museum_2024", "wu_sihang_2015", "shanghai_sites_2017"]
+  }
+]

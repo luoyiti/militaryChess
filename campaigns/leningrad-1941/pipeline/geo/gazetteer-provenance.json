@@ -1,0 +1,665 @@
+{
+  "ariogala": {
+    "url": "https://www.openstreetmap.org/relation/2712050",
+    "identity": "Ariogala, Ariogalos miesto seniūnija, Raseinių rajono savivaldybė, Kauno apskritis, Lietuva",
+    "checked": "2026-10-18"
+  },
+  "batetskiy": {
+    "url": "https://www.openstreetmap.org/relation/3061892",
+    "identity": "Батецкий, Батецкий муниципальный округ, Новгородская область, Северо-Западный федеральный округ, 175055, Россия",
+    "checked": "2026-10-18"
+  },
+  "beloostrov": {
+    "url": "https://www.openstreetmap.org/node/2012627810",
+    "identity": "Белоостров, ЗСД, Дюны, Белоостров, Санкт-Петербург, Северо-Западный федеральный округ, 197730, Россия",
+    "checked": "2026-10-18"
+  },
+  "bolshoy_sabsk": {
+    "url": "https://www.openstreetmap.org/relation/18445859",
+    "identity": "Большой Сабск, Сабское сельское поселение, Волосовский район, Ленинградская область, Северо-Западный федеральный округ, 188444, Россия",
+    "checked": "2026-10-18"
+  },
+  "borisova_griva": {
+    "url": "https://www.openstreetmap.org/relation/2572614",
+    "identity": "Борисова Грива, Рахьинское городское поселение, Всеволожский район, Ленинградская область, Северо-Западный федеральный округ, 188672, Россия",
+    "checked": "2026-10-18"
+  },
+  "budogoshch": {
+    "url": "https://www.openstreetmap.org/way/145436492",
+    "identity": "Будогощь, Будогощское городское поселение, Киришский район, Ленинградская область, Северо-Западный федеральный округ, 187120, Россия",
+    "checked": "2026-10-18"
+  },
+  "chudovo": {
+    "url": "https://www.openstreetmap.org/relation/1729377",
+    "identity": "Чудово, Чудовский муниципальный округ, Новгородская область, Северо-Западный федеральный округ, 174210, Россия",
+    "checked": "2026-10-18"
+  },
+  "duderhof": {
+    "url": "https://www.openstreetmap.org/node/1372144308",
+    "identity": "Дудергоф, Красное Село, Санкт-Петербург, Северо-Западный федеральный округ, 198320, Россия",
+    "checked": "2026-10-18"
+  },
+  "dvinsk": {
+    "url": "https://www.openstreetmap.org/relation/13048683",
+    "identity": "Daugavpils, Latvija",
+    "checked": "2026-10-18"
+  },
+  "gaytolovo": {
+    "url": "https://www.openstreetmap.org/relation/12608726",
+    "identity": "урочище Гайтолово, Мгинское городское поселение, Кировский район, Ленинградская область, Северо-Западный федеральный округ, Россия",
+    "checked": "2026-10-18"
+  },
+  "gostilitsy": {
+    "url": "https://www.openstreetmap.org/relation/3992499",
+    "identity": "Гостилицы, Гостилицкое сельское поселение, Ломоносовский район, Ленинградская область, Северо-Западный федеральный округ, Россия",
+    "checked": "2026-10-18"
+  },
+  "gruzino": {
+    "url": "https://www.openstreetmap.org/relation/2307567",
+    "identity": "Грузино, Чудовский муниципальный округ, Новгородская область, Северо-Западный федеральный округ, Россия",
+    "checked": "2026-10-18"
+  },
+  "gumbinnen": {
+    "url": "https://www.openstreetmap.org/relation/19338643",
+    "identity": "Гусев, Гусевский городской округ, Калининградская область, Северо-Западный федеральный округ, Россия",
+    "checked": "2026-10-18"
+  },
+  "hanko": {
+    "url": "https://www.openstreetmap.org/relation/38033",
+    "identity": "Hanko, Raseborgs ekonomiska region, Uusimaa, Manner-Suomi, Suomi / Finland",
+    "checked": "2026-10-18"
+  },
+  "hiitola": {
+    "url": "https://www.openstreetmap.org/relation/3225746",
+    "identity": "Хийтола, Лахденпохский муниципальный округ, Карелия, Северо-Западный федеральный округ, 196700, Россия",
+    "checked": "2026-10-18"
+  },
+  "kareji": {
+    "url": "https://www.openstreetmap.org/node/3662343190",
+    "identity": "мыс Кареджский нос, Суховское сельское поселение, Кировский район, Ленинградская область, Северо-Западный федеральный округ, 187353, Россия",
+    "checked": "2026-10-18"
+  },
+  "kaunas": {
+    "url": "https://www.openstreetmap.org/relation/1567544",
+    "identity": "Kaunas, Kauno miesto savivaldybė, Kauno apskritis, Lietuva",
+    "checked": "2026-10-18"
+  },
+  "khvoynaya": {
+    "url": "https://www.openstreetmap.org/relation/15457567",
+    "identity": "Хвойная, Хвойнинский муниципальный округ, Новгородская область, Северо-Западный федеральный округ, 174580, Россия",
+    "checked": "2026-10-18"
+  },
+  "kingisepp": {
+    "url": "https://www.openstreetmap.org/relation/1663601",
+    "identity": "Кингисепп, Кингисеппское городское поселение, Кингисеппский район, Ленинградская область, Северо-Западный федеральный округ, 188480, Россия",
+    "checked": "2026-10-18"
+  },
+  "kirishi": {
+    "url": "https://www.openstreetmap.org/relation/2768205",
+    "identity": "Кириши, Киришский район, Ленинградская область, Северо-Западный федеральный округ, Россия",
+    "checked": "2026-10-18"
+  },
+  "kobona": {
+    "url": "https://www.openstreetmap.org/way/121082211",
+    "identity": "Кобона, Суховское сельское поселение, Кировский район, Ленинградская область, Северо-Западный федеральный округ, Россия",
+    "checked": "2026-10-18"
+  },
+  "koirinoja": {
+    "url": "https://www.openstreetmap.org/way/300092856",
+    "identity": "Койриноя, Питкярантский муниципальный округ, Карелия, Северо-Западный федеральный округ, Россия",
+    "checked": "2026-10-18"
+  },
+  "kokkorevo": {
+    "url": "https://www.openstreetmap.org/relation/1430463",
+    "identity": "Коккорево, Рахьинское городское поселение, Всеволожский район, Ленинградская область, Северо-Западный федеральный округ, 188672, Россия",
+    "checked": "2026-10-18"
+  },
+  "kolpino": {
+    "url": "https://www.openstreetmap.org/relation/337423",
+    "identity": "Колпино, Санкт-Петербург, Северо-Западный федеральный округ, Россия",
+    "checked": "2026-10-18"
+  },
+  "konigsberg": {
+    "url": "https://www.openstreetmap.org/relation/1674442",
+    "identity": "Калининград, городской округ Калининград, Калининградская область, Северо-Западный федеральный округ, Россия",
+    "checked": "2026-10-18"
+  },
+  "koporye": {
+    "url": "https://www.openstreetmap.org/relation/3202340",
+    "identity": "Копорье, Копорское сельское поселение, Ломоносовский район, Ленинградская область, Северо-Западный федеральный округ, Россия",
+    "checked": "2026-10-18"
+  },
+  "krasnogvardeysk": {
+    "url": "https://www.openstreetmap.org/relation/1316250",
+    "identity": "Гатчина, Гатчинский муниципальный округ, Ленинградская область, Северо-Западный федеральный округ, 188309, Россия",
+    "checked": "2026-10-18"
+  },
+  "krasnoye_selo": {
+    "url": "https://www.openstreetmap.org/relation/363092",
+    "identity": "Красное Село, Санкт-Петербург, Северо-Западный федеральный округ, 198320, Россия",
+    "checked": "2026-10-18"
+  },
+  "krasny_bor": {
+    "url": "https://www.openstreetmap.org/relation/5961840",
+    "identity": "Красный Бор, Красноборское городское поселение, Тосненский район, Ленинградская область, Северо-Западный федеральный округ, 187015, Россия",
+    "checked": "2026-10-18"
+  },
+  "kronstadt": {
+    "url": "https://www.openstreetmap.org/relation/1185387",
+    "identity": "Кронштадт, Санкт-Петербург, Северо-Западный федеральный округ, Россия",
+    "checked": "2026-10-18"
+  },
+  "kunda": {
+    "url": "https://www.openstreetmap.org/node/29120272",
+    "identity": "Kunda, Viru-Nigula vald, Lääne-Viru maakond, 44108, Eesti",
+    "checked": "2026-10-18"
+  },
+  "lembolovo": {
+    "url": "https://www.openstreetmap.org/relation/11807968",
+    "identity": "Лемболово, Куйвозовское сельское поселение, Всеволожский район, Ленинградская область, Северо-Западный федеральный округ, Россия",
+    "checked": "2026-10-18"
+  },
+  "leningrad": {
+    "url": "https://www.openstreetmap.org/relation/421007",
+    "identity": "Санкт-Петербург, Северо-Западный федеральный округ, Россия",
+    "checked": "2026-10-18"
+  },
+  "lodeynoye_pole": {
+    "url": "https://www.openstreetmap.org/relation/2244775",
+    "identity": "Лодейное Поле, Лодейнопольское городское поселение, Лодейнопольский район, Ленинградская область, Северо-Западный федеральный округ, Россия",
+    "checked": "2026-10-18"
+  },
+  "luga": {
+    "url": "https://www.openstreetmap.org/relation/2705630",
+    "identity": "Луга, Лужское городское поселение, Лужский район, Ленинградская область, Северо-Западный федеральный округ, 188230, Россия",
+    "checked": "2026-10-18"
+  },
+  "lyuban": {
+    "url": "https://www.openstreetmap.org/relation/1559870",
+    "identity": "Любань, Любанское городское поселение, Тосненский район, Ленинградская область, Северо-Западный федеральный округ, 187050, Россия",
+    "checked": "2026-10-18"
+  },
+  "lyubolyady": {
+    "pos": [
+      30.835468,
+      58.611397
+    ],
+    "note": "诺夫哥罗德西北柳博利亚德村；地区内另有同名村与车站，部队位置为地区代表点",
+    "checked": "2026-10-18",
+    "url": "https://nominatim.openstreetmap.org/search?q=Люболяды&format=jsonv2"
+  },
+  "malaya_vishera": {
+    "url": "https://www.openstreetmap.org/relation/15451884",
+    "identity": "Малая Вишера, Маловишерский муниципальный округ, Новгородская область, Северо-Западный федеральный округ, 174260, Россия",
+    "checked": "2026-10-18"
+  },
+  "marino": {
+    "url": "https://www.openstreetmap.org/node/1967441830",
+    "identity": "Марьино, Кировск, Кировское городское поселение, Кировский район, Ленинградская область, Северо-Западный федеральный округ, 187341, Россия",
+    "checked": "2026-10-18"
+  },
+  "memel": {
+    "url": "https://www.openstreetmap.org/relation/1713458",
+    "identity": "Klaipėda, Klaipėdos miesto savivaldybė, Klaipėdos apskritis, Lietuva",
+    "checked": "2026-10-18"
+  },
+  "mga": {
+    "url": "https://www.openstreetmap.org/relation/3440860",
+    "identity": "Мга, Мгинское городское поселение, Кировский район, Ленинградская область, Северо-Западный федеральный округ, 187300, Россия",
+    "checked": "2026-10-18"
+  },
+  "mshinskaya": {
+    "url": "https://www.openstreetmap.org/relation/1748791",
+    "identity": "Мшинская, Мшинское сельское поселение, Лужский район, Ленинградская область, Северо-Западный федеральный округ, 188268, Россия",
+    "checked": "2026-10-18"
+  },
+  "myasnoy_bor": {
+    "url": "https://www.openstreetmap.org/relation/2900415",
+    "identity": "Мясной Бор, Новгородский муниципальный округ, Новгородская область, Северо-Западный федеральный округ, Россия",
+    "checked": "2026-10-18"
+  },
+  "narva": {
+    "url": "https://www.openstreetmap.org/relation/2832959",
+    "identity": "Narva linn, Ida-Viru maakond, Eesti",
+    "checked": "2026-10-18"
+  },
+  "nevskaya_dubrovka": {
+    "url": "https://www.openstreetmap.org/relation/2342402",
+    "identity": "Невская Дубровка, Дубровское городское поселение, Всеволожский район, Ленинградская область, Северо-Западный федеральный округ, 188684, Россия",
+    "checked": "2026-10-18"
+  },
+  "novaya_ladoga": {
+    "url": "https://www.openstreetmap.org/relation/2241785",
+    "identity": "Новая Ладога, Новоладожское городское поселение, Волховский район, Ленинградская область, Северо-Западный федеральный округ, Россия",
+    "checked": "2026-10-18"
+  },
+  "novgorod": {
+    "url": "https://www.openstreetmap.org/relation/2417529",
+    "identity": "городской округ Великий Новгород, Новгородский район, Новгородская область, Северо-Западный федеральный округ, Россия",
+    "checked": "2026-10-18"
+  },
+  "olonets": {
+    "url": "https://www.openstreetmap.org/relation/14089320",
+    "identity": "Олонец, Олонецкое городское поселение, Олонецкий район, Карелия, Северо-Западный федеральный округ, 186000, Россия",
+    "checked": "2026-10-18"
+  },
+  "oranienbaum": {
+    "url": "https://www.openstreetmap.org/node/411691832",
+    "identity": "Ломоносов, Санкт-Петербург, Северо-Западный федеральный округ, 188412, Россия",
+    "checked": "2026-10-18"
+  },
+  "oreshek": {
+    "pos": [
+      31.0387628,
+      59.9541652
+    ],
+    "note": "奥列霍维岛要塞博物馆范围点；与南岸什利谢利堡城和渡口区分。岛小于控制场网格，守城史以事件与原始几何洞为准",
+    "checked": "2026-10-18",
+    "url": "https://www.spbmuseum.ru/themuseum/news/56034/?lang_ui=en"
+  },
+  "osinovets": {
+    "url": "https://www.openstreetmap.org/node/1626752375",
+    "identity": "мыс Осиновец, Рахьинское городское поселение, Всеволожский район, Ленинградская область, Северо-Западный федеральный округ, 188675, Россия",
+    "checked": "2026-10-18"
+  },
+  "ostrov": {
+    "url": "https://www.openstreetmap.org/relation/4498726",
+    "identity": "Остров, Островский муниципальный округ, Псковская область, Северо-Западный федеральный округ, Россия",
+    "checked": "2026-10-18"
+  },
+  "pavlovsk": {
+    "url": "https://www.openstreetmap.org/relation/359180",
+    "identity": "Павловск, Санкт-Петербург, Северо-Западный федеральный округ, Россия",
+    "checked": "2026-10-18"
+  },
+  "peterhof": {
+    "url": "https://www.openstreetmap.org/relation/367377",
+    "identity": "Петергоф, Санкт-Петербург, Северо-Западный федеральный округ, Россия",
+    "checked": "2026-10-18"
+  },
+  "petrozavodsk": {
+    "url": "https://www.openstreetmap.org/relation/1701311",
+    "identity": "Петрозаводск, Петрозаводский городской округ, Карелия, Северо-Западный федеральный округ, 185000, Россия",
+    "checked": "2026-10-18"
+  },
+  "podberezye": {
+    "url": "https://www.openstreetmap.org/node/1161986939",
+    "identity": "Подберезье, Новгородский муниципальный округ, Новгородская область, Северо-Западный федеральный округ, 173502, Россия",
+    "checked": "2026-10-18"
+  },
+  "podporozhye": {
+    "url": "https://www.openstreetmap.org/relation/1547448",
+    "identity": "Подпорожье, Подпорожское городское поселение, Подпорожский район, Ленинградская область, Северо-Западный федеральный округ, 187783, Россия",
+    "checked": "2026-10-18"
+  },
+  "pogostye": {
+    "url": "https://www.openstreetmap.org/way/406162571",
+    "identity": "Погостье, Мгинское городское поселение, Кировский район, Ленинградская область, Северо-Западный федеральный округ, Россия",
+    "checked": "2026-10-18"
+  },
+  "polyany": {
+    "url": "https://www.openstreetmap.org/node/491500598",
+    "identity": "Поляны, 41К-546, Поляны, Путиловское сельское поселение, Кировский район, Ленинградская область, Северо-Западный федеральный округ, Россия",
+    "checked": "2026-10-18"
+  },
+  "porechye": {
+    "url": "https://www.openstreetmap.org/node/1229180558",
+    "identity": "Поречье, Пустомержское сельское поселение, Кингисеппский район, Ленинградская область, Северо-Западный федеральный округ, Россия",
+    "checked": "2026-10-18"
+  },
+  "pskov": {
+    "url": "https://www.openstreetmap.org/relation/1050399",
+    "identity": "городской округ Псков, Псковская область, Северо-Западный федеральный округ, Россия",
+    "checked": "2026-10-18"
+  },
+  "pushkin": {
+    "url": "https://www.openstreetmap.org/relation/359179",
+    "identity": "Пушкин, Санкт-Петербург, Северо-Западный федеральный округ, Россия",
+    "checked": "2026-10-18"
+  },
+  "rabochiy_5": {
+    "pos": [
+      31.12594111111111,
+      59.87504
+    ],
+    "note": "第5工人村/VIMT旧址与1943年会师纪念点；定位为遗址范围",
+    "checked": "2026-10-18",
+    "url": "https://special.kirovsk-reg.ru/history/putevoditel_po_KMRLO/pamyatniki/_pamyatniki"
+  },
+  "raseiniai": {
+    "url": "https://www.openstreetmap.org/relation/2521385",
+    "identity": "Raseiniai, Raseinių miesto seniūnija, Raseinių rajono savivaldybė, Kauno apskritis, Lietuva",
+    "checked": "2026-10-18"
+  },
+  "riga": {
+    "url": "https://www.openstreetmap.org/relation/13048688",
+    "identity": "Rīga, Latvija",
+    "checked": "2026-10-18"
+  },
+  "ropsha": {
+    "url": "https://www.openstreetmap.org/way/121705993",
+    "identity": "Ропша, Ропшинское сельское поселение, Ломоносовский район, Ленинградская область, Северо-Западный федеральный округ, Россия",
+    "checked": "2026-10-18"
+  },
+  "russko_vysotskoye": {
+    "url": "https://www.openstreetmap.org/way/1378842459",
+    "identity": "Русско-Высоцкое, Русско-Высоцкое сельское поселение, Ломоносовский район, Ленинградская область, Северо-Западный федеральный округ, 188516, Россия",
+    "checked": "2026-10-18"
+  },
+  "sestroretsk": {
+    "url": "https://www.openstreetmap.org/relation/1115677",
+    "identity": "Сестрорецк, Санкт-Петербург, Северо-Западный федеральный округ, 197706, Россия",
+    "checked": "2026-10-18"
+  },
+  "shimsk": {
+    "url": "https://www.openstreetmap.org/relation/3080402",
+    "identity": "Шимск, Шимский муниципальный округ, Новгородская область, Северо-Западный федеральный округ, 174150, Россия",
+    "checked": "2026-10-18"
+  },
+  "shlisselburg": {
+    "url": "https://www.openstreetmap.org/relation/1430462",
+    "identity": "Шлиссельбург, Шлиссельбургское городское поселение, Кировский район, Ленинградская область, Северо-Западный федеральный округ, 187320, Россия",
+    "checked": "2026-10-18"
+  },
+  "siauliai": {
+    "url": "https://www.openstreetmap.org/relation/1714886",
+    "identity": "Šiauliai, Šiaulių miesto savivaldybė, Šiaulių apskritis, Lietuva",
+    "checked": "2026-10-18"
+  },
+  "sinyavino_modern": {
+    "url": "https://www.openstreetmap.org/relation/3376023",
+    "identity": "Синявино, Кировский район, Ленинградская область, Северо-Западный федеральный округ, Россия",
+    "checked": "2026-10-18"
+  },
+  "sitomlya": {
+    "url": "https://www.openstreetmap.org/node/1343163065",
+    "identity": "Ситомля, Цвылёвское сельское поселение, Тихвинский район, Ленинградская область, Северо-Западный федеральный округ, Россия",
+    "checked": "2026-10-18"
+  },
+  "siverskaya": {
+    "url": "https://www.openstreetmap.org/node/7397289567",
+    "identity": "Сиверская, Крамское шоссе, Сиверский, Гатчинский муниципальный округ, Ленинградская область, Северо-Западный федеральный округ, 188330, Россия",
+    "checked": "2026-10-18"
+  },
+  "smerdynya": {
+    "url": "https://www.openstreetmap.org/relation/19141309",
+    "identity": "Смердыня, Любанское городское поселение, Тосненский район, Ленинградская область, Северо-Западный федеральный округ, 187040, Россия",
+    "checked": "2026-10-18"
+  },
+  "soltsy": {
+    "url": "https://www.openstreetmap.org/relation/3089649",
+    "identity": "Сольцы, Солецкий муниципальный округ, Новгородская область, Северо-Западный федеральный округ, Россия",
+    "checked": "2026-10-18"
+  },
+  "sortavala": {
+    "url": "https://www.openstreetmap.org/relation/3225729",
+    "identity": "Сортавала, Сортавальский муниципальный округ, Карелия, Северо-Западный федеральный округ, Россия",
+    "checked": "2026-10-18"
+  },
+  "spasskaya_polist": {
+    "url": "https://www.openstreetmap.org/way/27129326",
+    "identity": "Спасская Полисть, Чудовский муниципальный округ, Новгородская область, Северо-Западный федеральный округ, Россия",
+    "checked": "2026-10-18"
+  },
+  "staraya_russa": {
+    "url": "https://www.openstreetmap.org/relation/2872044",
+    "identity": "Старая Русса, Старорусский муниципальный округ, Новгородская область, Северо-Западный федеральный округ, Россия",
+    "checked": "2026-10-18"
+  },
+  "strelna": {
+    "url": "https://www.openstreetmap.org/relation/367376",
+    "identity": "Стрельна, Санкт-Петербург, Северо-Западный федеральный округ, 198515, Россия",
+    "checked": "2026-10-18"
+  },
+  "svirstroy": {
+    "url": "https://www.openstreetmap.org/relation/2088587",
+    "identity": "Свирьстрой, Лодейнопольский район, Ленинградская область, Северо-Западный федеральный округ, 187725, Россия",
+    "checked": "2026-10-18"
+  },
+  "taipale": {
+    "url": "https://www.openstreetmap.org/way/1242347609",
+    "identity": "Укрепузел «Тайпале» финской оборонительной линии Энкеля, Громовское сельское поселение, Приозерский район, Ленинградская область, Северо-Западный федеральный округ, 188744, Россия",
+    "checked": "2026-10-18"
+  },
+  "tallinn": {
+    "url": "https://www.openstreetmap.org/relation/2164745",
+    "identity": "Tallinn, Harju maakond, Eesti",
+    "checked": "2026-10-18"
+  },
+  "tartu": {
+    "url": "https://www.openstreetmap.org/relation/2153396",
+    "identity": "Tartu linn, Tartu maakond, Eesti",
+    "checked": "2026-10-18"
+  },
+  "taurogen": {
+    "url": "https://www.openstreetmap.org/relation/2629724",
+    "identity": "Tauragė, Tauragės miesto seniūnija, Tauragės rajono savivaldybė, Tauragės apskritis, Lietuva",
+    "checked": "2026-10-18"
+  },
+  "terijoki": {
+    "url": "https://www.openstreetmap.org/relation/1119502",
+    "identity": "Зеленогорск, Санкт-Петербург, Северо-Западный федеральный округ, 189810, Россия",
+    "checked": "2026-10-18"
+  },
+  "tikhvin": {
+    "url": "https://www.openstreetmap.org/relation/1116705",
+    "identity": "Тихвин, Тихвинское городское поселение, Тихвинский район, Ленинградская область, Северо-Западный федеральный округ, Россия",
+    "checked": "2026-10-18"
+  },
+  "tilsit": {
+    "url": "https://www.openstreetmap.org/relation/3616563",
+    "identity": "Советск, Советский городской округ, Калининградская область, Северо-Западный федеральный округ, Россия",
+    "checked": "2026-10-18"
+  },
+  "toksovo": {
+    "url": "https://www.openstreetmap.org/relation/2155572",
+    "identity": "Токсово, Токсовское городское поселение, Всеволожский район, Ленинградская область, Северо-Западный федеральный округ, 188664, Россия",
+    "checked": "2026-10-18"
+  },
+  "tortolovo": {
+    "url": "https://www.openstreetmap.org/way/137702558",
+    "identity": "урочище Тортолово, Мгинское городское поселение, Кировский район, Ленинградская область, Северо-Западный федеральный округ, Россия",
+    "checked": "2026-10-18"
+  },
+  "tosno": {
+    "url": "https://www.openstreetmap.org/relation/1547533",
+    "identity": "Тосно, Тосненское городское поселение, Тосненский район, Ленинградская область, Северо-Западный федеральный округ, 187000, Россия",
+    "checked": "2026-10-18"
+  },
+  "tuulosjoki": {
+    "url": "https://www.openstreetmap.org/relation/13966830",
+    "identity": "Тулокса, Олонецкий район, Карелия, Северо-Западный федеральный округ, Россия",
+    "checked": "2026-10-18"
+  },
+  "uritsk": {
+    "url": "https://www.openstreetmap.org/relation/363612",
+    "identity": "округ Урицк, Санкт-Петербург, Северо-Западный федеральный округ, Россия",
+    "checked": "2026-10-18"
+  },
+  "ust_izhora": {
+    "url": "https://www.openstreetmap.org/relation/337851",
+    "identity": "Усть-Ижора, Санкт-Петербург, Северо-Западный федеральный округ, 196645, Россия",
+    "checked": "2026-10-18"
+  },
+  "utorgosh": {
+    "url": "https://www.openstreetmap.org/way/26970366",
+    "identity": "Уторгош, Шимский муниципальный округ, Новгородская область, Северо-Западный федеральный округ, Россия",
+    "checked": "2026-10-18"
+  },
+  "vaganovo": {
+    "url": "https://www.openstreetmap.org/relation/9713203",
+    "identity": "Ваганово, Рахьинское городское поселение, Всеволожский район, Ленинградская область, Северо-Западный федеральный округ, 188674, Россия",
+    "checked": "2026-10-18"
+  },
+  "vartsila": {
+    "url": "https://www.openstreetmap.org/way/46885580",
+    "identity": "Вяртсиля, Сортавальский муниципальный округ, Карелия, Северо-Западный федеральный округ, 186757, Россия",
+    "checked": "2026-10-18"
+  },
+  "volkhov": {
+    "aliasOf": "volkhovstroy"
+  },
+  "volosovo": {
+    "url": "https://www.openstreetmap.org/way/30151725",
+    "identity": "Волосово, Волосовское городское поселение, Волосовский район, Ленинградская область, Северо-Западный федеральный округ, 188410, Россия",
+    "checked": "2026-10-18"
+  },
+  "voronovo": {
+    "pos": [
+      31.309426944444446,
+      59.75237
+    ],
+    "note": "战毁沃罗诺沃村旧址防线纪念点",
+    "checked": "2026-10-18",
+    "url": "https://special.kirovsk-reg.ru/history/putevoditel_po_KMRLO/pamyatniki/_pamyatniki"
+  },
+  "vsevolozhsk": {
+    "url": "https://www.openstreetmap.org/relation/1668250",
+    "identity": "Всеволожск, Всеволожское городское поселение, Всеволожский район, Ленинградская область, Северо-Западный федеральный округ, 188640, Россия",
+    "checked": "2026-10-18"
+  },
+  "vyborg": {
+    "url": "https://www.openstreetmap.org/relation/1572051",
+    "identity": "Выборг, Выборгское городское поселение, Выборгский район, Ленинградская область, Северо-Западный федеральный округ, Россия",
+    "checked": "2026-10-18"
+  },
+  "vyra": {
+    "url": "https://www.openstreetmap.org/relation/2740070",
+    "identity": "Выра, Гатчинский муниципальный округ, Ленинградская область, Северо-Западный федеральный округ, Россия",
+    "checked": "2026-10-18"
+  },
+  "vyritsa": {
+    "url": "https://www.openstreetmap.org/way/28340333",
+    "identity": "Вырица, Гатчинский муниципальный округ, Ленинградская область, Северо-Западный федеральный округ, 188380, Россия",
+    "checked": "2026-10-18"
+  },
+  "sinyavino": {
+    "pos": [
+      31.1116784,
+      59.8371875
+    ],
+    "note": "战毁旧锡尼亚维诺村遗址；与北侧现代同名镇分开",
+    "checked": "2026-10-18",
+    "url": "https://www.openstreetmap.org/node/1640978891"
+  },
+  "sinyavino_43_3": {
+    "pos": [
+      31.1275449,
+      59.845917
+    ],
+    "note": "以43.3高地纪念区定位；不是精密复测的1930年代等高点",
+    "checked": "2026-10-18",
+    "url": "https://www.openstreetmap.org/way/137872367"
+  },
+  "sinyavino_50_1": {
+    "pos": [
+      31.111,
+      59.828
+    ],
+    "note": "依据旧村教堂以南的相对位置绘制约1公里范围示意；未将现代纪念碑冒充实测峰顶",
+    "checked": "2026-10-18",
+    "url": "https://dtdm.spb.ru/museum/qr0001.html"
+  },
+  "rabochiy_1": {
+    "pos": [
+      31.077,
+      59.907
+    ],
+    "note": "战时第1工人村地区示意；具体村界已消失，不与纳济亚同号工人村混同",
+    "checked": "2026-10-18",
+    "url": "https://special.kirovsk-reg.ru/history/putevoditel_po_KMRLO/pamyatniki/_pamyatniki"
+  },
+  "rabochiy_8": {
+    "pos": [
+      31.164,
+      59.888
+    ],
+    "note": "战时第8工人村地区示意；约2公里定位误差，不作为单格控制断言的依据",
+    "checked": "2026-10-18",
+    "url": "https://special.kirovsk-reg.ru/history/putevoditel_po_KMRLO/pamyatniki/_pamyatniki"
+  },
+  "lipka": {
+    "pos": [
+      31.19494611111111,
+      59.90769888888889
+    ],
+    "note": "利普卡战毁村旧址纪念点，区别于贡托瓦亚利普卡",
+    "checked": "2026-10-18",
+    "url": "https://special.kirovsk-reg.ru/history/putevoditel_po_KMRLO/pamyatniki/_pamyatniki"
+  },
+  "gontovaya_lipka": {
+    "pos": [
+      31.23198,
+      59.82674
+    ],
+    "note": "贡托瓦亚利普卡战毁村纪念地，区别于拉多加湖岸利普卡",
+    "checked": "2026-10-18",
+    "url": "https://special.kirovsk-reg.ru/history/putevoditel_po_KMRLO/pamyatniki/_pamyatniki"
+  },
+  "porechye_mga": {
+    "pos": [
+      31.285570000000003,
+      59.762191944444446
+    ],
+    "note": "姆加方向旧波列奇耶/纳济亚河前线纪念点，区别于卢加河同名桥头堡",
+    "checked": "2026-10-18",
+    "url": "https://special.kirovsk-reg.ru/history/putevoditel_po_KMRLO/pamyatniki/_pamyatniki"
+  },
+  "kobona_harbour": {
+    "pos": [
+      31.54989,
+      60.022169999999996
+    ],
+    "note": "科博纳湖岸港区生命之路纪念点；不使用同名河流的几何中心",
+    "checked": "2026-10-18",
+    "url": "https://special.kirovsk-reg.ru/history/putevoditel_po_KMRLO/pamyatniki/_pamyatniki"
+  },
+  "shlisselburg_bridge": {
+    "pos": [
+      31.008735,
+      59.93346805555555
+    ],
+    "note": "1943年涅瓦河铁路渡桥所在位置的纪念点",
+    "checked": "2026-10-18",
+    "url": "https://special.kirovsk-reg.ru/history/putevoditel_po_KMRLO/pamyatniki/_pamyatniki"
+  },
+  "victory_rail_mid": {
+    "pos": [
+      31.335491944444442,
+      59.879938055555556
+    ],
+    "note": "普里拉多日斯基东北侧胜利之路铁路旧线纪念点；线路整体为概略走向",
+    "checked": "2026-10-18",
+    "url": "https://special.kirovsk-reg.ru/history/putevoditel_po_KMRLO/pamyatniki/_pamyatniki"
+  },
+  "nevsky_pyatachok": {
+    "pos": [
+      30.95419,
+      59.838228
+    ],
+    "note": "涅瓦河左岸桥头堡旧址；不是对岸涅瓦杜布罗夫卡镇中心",
+    "checked": "2026-10-18",
+    "url": "https://special.kirovsk-reg.ru/history/putevoditel_po_KMRLO/pamyatniki/_pamyatniki"
+  },
+  "voibokalo": {
+    "aliasOf": "voybokalo"
+  },
+  "korpiselka": {
+    "pos": [
+      31.458,
+      62.677
+    ],
+    "note": "战时科尔皮塞尔凯村/道路节点范围示意，位于1940年边界苏方；不是今芬兰同名大区中心",
+    "checked": "2026-10-18",
+    "url": "https://www.maanmittauslaitos.fi/en/e-services/karelian-maps"
+  },
+  "ilmen_north": {
+    "pos": [
+      31.3,
+      58.45
+    ],
+    "note": "伊尔门湖北部水域参考点，非1944年南集团具体登陆点",
+    "checked": "2026-10-18",
+    "url": "https://www.naturalearthdata.com/"
+  }
+}
