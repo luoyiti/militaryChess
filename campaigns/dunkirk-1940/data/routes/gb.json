@@ -351,7 +351,7 @@
   "unit": "gb.12lancers",
   "style": "counter",
   "widthKm": 7,
-  "label": "第 12 枪骑兵团在纽波特—尼乌波特一线的装甲车迟滞（5-28/29）",
+  "label": "第 12 枪骑兵团在纽波特—纽波特一线的装甲车迟滞（5-28/29）",
   "waypoints": [
    { "at": "1940-05-28T06:00", "pos": "@veurne" },
    { "at": "1940-05-28T12:00", "pos": "@nieuwpoort" },
@@ -460,7 +460,7 @@
   "widthKm": 2,
   "movement": "air",
   "role": "intercept",
-  "label": "5-31 布雷迪讷—尼乌波特一线巡逻（74 中队）",
+  "label": "5-31 布雷迪讷—纽波特一线巡逻（74 中队）",
   "waypoints": [
    { "at": "1940-05-31T07:30", "pos": "@manston" },
    { "at": "1940-05-31T07:55", "pos": "@la_panne" },

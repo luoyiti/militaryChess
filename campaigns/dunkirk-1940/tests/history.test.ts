@@ -12,7 +12,10 @@ import { describe, expect, it } from 'vitest';
 import { haversineKm, resolvePos, tryResolvePos, unitStateAt } from '../../../engine/model/core';
 import { isoToHours, H_END } from '../../../engine/core/time';
 import { SHIP_KINDS, type HistEvent, type LonLat, type Place, type Route, type Unit } from '../../../engine/core/types';
-import { openCampaign } from '../../../tests/helpers';
+import { fieldAt, sample } from '../../../engine/geo/field/field';
+import { toGrid } from '../../../engine/geo/field/client';
+import { GRID } from '../../../engine/geo/frame';
+import { openCampaign, fieldModelFor } from '../../../tests/helpers';
 
 const o = openCampaign('dunkirk-1940');
 const files = o.def.data as Record<string, unknown>;
@@ -31,6 +34,10 @@ const forces = files['./data/forces.json'] as {
 };
 const navalParts = of<Record<string, unknown[]>>(/\/data\/naval\//);
 
+const model = fieldModelFor(o);
+const g = { w: GRID.w, h: GRID.h, cell: GRID.cell };
+const gaz = o.db.gaz;
+const navalHitsAll = navalParts.flatMap((pp) => (pp.hits ?? []) as { id: string; at: string; target: string; killed?: number; effect?: string }[]);
 const byId = (id: string) => units.find((u) => u.id === id);
 const stateAt = (id: string, at: string) => unitStateAt(id, o.db.units, isoToHours(at));
 const kil = (id: string, at: string) => stateAt(id, at)?.status;
@@ -337,10 +344,10 @@ describe('dunkirk-1940 · 舰船航速与战损（用 haversineKm 自己算）',
       const text = `${x.note ?? ''} ${x.effect ?? ''}`;
       for (const m of text.matchAll(/\bS-?(\d{1,2})\b/g)) {
         const want = `de.s${m[1]}`;
+        // damage 记录按 schema 没有 shooter 字段（只有 hits 有），不能要求它存在；
+        // 这里只校验「有 shooter 就必须与正文一致」。
         if (x.shooter && x.shooter !== want) {
           bad.push(`${x.id ?? `${x.at}`}: 正文写「S-${m[1]}」但 shooter=${x.shooter}（应为 ${want}）`);
-        } else if (!x.shooter && /鱼雷|torpedo/i.test(text) && boats.has(want)) {
-          bad.push(`${x.id ?? `${x.at}`}: 正文写「S-${m[1]}」但缺 shooter 字段`);
         }
       }
     }
@@ -680,5 +687,89 @@ describe('dunkirk-1940 · 契约一致性（CONTRACT ↔ manifest ↔ fronts）'
     for (let i = 1; i < pace.length; i++) {
       expect(pace[i].hoursPerSec, `pace ${pace[i].from} 速率应不高于前一段`).toBeLessThanOrEqual(pace[i - 1].hoursPerSec);
     }
+  });
+});
+
+describe('dunkirk-1940 · 审查修复回归（REVIEW.md 高危项）', () => {
+  it('韦克福号伤亡不再把士兵与舰员相加成不可能的总数', () => {
+    const h = navalHitsAll.find((x) => x.id === 'h.wakeful_torp');
+    expect(h, 'h.wakeful_torp 缺失').toBeTruthy();
+    const wakeful = units.find((u) => u.id === 'gb.wakeful')!;
+    const crew = wakeful.ship!.crew!;
+    const troops = 640;
+    // killed 只能是有据的「640 名士兵中约 635 人丧生」；不能再叠上舰员死亡数
+    expect(h!.killed, `killed=${h!.killed} 不应超过载运士兵数`).toBeLessThanOrEqual(troops);
+    // 全船总人数（士兵 + 编制）必须容得下：killed + 生还者
+    const survivors = 5 + 25;
+    expect(h!.killed! + survivors, 'killed + 生还者 超过全船人数').toBeLessThanOrEqual(troops + crew);
+    // 正文不应再把两组人相加
+    expect(h!.effect).not.toMatch(/士兵与\s*\d+\s*名舰员丧生/);
+  });
+
+  it('航线史载海里数：Z=39 · X=55 · Y=87（与 overlays 一致）', () => {
+    for (const [id, nmi] of [['r.dk_sea_route_z', 39], ['r.dk_sea_route_x', 55], ['r.dk_sea_route_y', 87]] as [string, number][]) {
+      const r = routes.find((x) => x.id === id)!;
+      expect(r, id).toBeTruthy();
+      expect(r.label, `${id} 的史载海里数应为 ${nmi}`).toContain(`史载 ${nmi} 海里`);
+    }
+    // routes 与 overlays 不得互相矛盾
+    const ovY = (files['./data/overlays.json'] as { id?: string; label?: string }[]).find((o) => /route_y/.test(o.id ?? ''));
+    if (ovY?.label) expect(ovY.label).toContain('87');
+  });
+
+  it('U-62 是 II C 型近海潜艇（不是 IX C 型远洋）', () => {
+    const u = units.find((x) => x.id === 'de.u62')!;
+    expect(u, 'de.u62 缺失').toBeTruthy();
+    const s = u.ship!;
+    expect(s.class?.zh ?? '').toMatch(/II\s*C/);
+    expect(s.lengthM!).toBeLessThan(50);          // IIC ≈ 43.9 m；IXC 为 76.8 m
+    expect(s.tonnage!).toBeLessThan(400);          // IIC ≈ 291 t；IXC 为 1120 t
+    expect(s.maxKn!).toBeLessThan(14);             // IIC 水面 12 节
+  });
+
+  it('同级舰不再整块复制：Coventry / Keith 用自己的数值', () => {
+    const cov = units.find((u) => u.id === 'gb.coventry')!.ship!;
+    const cal = units.find((u) => u.id === 'gb.calcutta')!.ship!;
+    expect(cov.tonnage, 'Coventry 4,190 t（非 Calcutta 的 4,290）').toBe(4190);
+    expect(cov.crew, 'Coventry 编制 327').toBe(327);
+    expect(cov.tonnage).not.toBe(cal.tonnage);
+    const keith = units.find((u) => u.id === 'gb.keith')!.ship!;
+    const bas = units.find((u) => u.id === 'gb.basilisk')!.ship!;
+    expect(keith.tonnage, 'Keith 领舰 1,400 t').toBe(1400);
+    expect(keith.crew, 'Keith 编制 175').toBe(175);
+    expect(keith.tonnage).not.toBe(bas.tonnage);
+  });
+
+  it('帕拉迪屠杀地点在 Lestrem 乡（约 50.595/2.648），不在南边 5 km 处', () => {
+    const p = gaz.get('le_paradis')!;
+    expect(p, 'le_paradis 缺失').toBeTruthy();
+    expect(p.pos[1], '纬度应接近 50.595').toBeGreaterThan(50.57);
+    expect(p.pos[1]).toBeLessThan(50.63);
+    expect(p.pos[0], '经度应接近 2.648').toBeGreaterThan(2.61);
+    expect(p.pos[0]).toBeLessThan(2.69);
+  });
+
+  it('贝尔格在 06-02 夜陷落之前始终属盟军（不再先德后盟再德地翻动）', () => {
+    const [gx, gy] = toGrid(resolvePos('@bergues', o.db.gaz));
+    const holder = (at: string) => sample(fieldAt(model, isoToHours(at), 0), g, gx, gy) < 0 ? 'DE' : 'AL';
+    for (const at of ['1940-05-29T12:00', '1940-05-30T12:00', '1940-05-31T12:00', '1940-06-01T12:00', '1940-06-02T12:00']) {
+      expect(holder(at), `${at} 贝尔格应仍在盟军手中`).toBe('AL');
+    }
+    for (const at of ['1940-06-02T22:00', '1940-06-03T12:00']) {
+      expect(holder(at), `${at} 贝尔格应已属德军`).toBe('DE');
+    }
+  });
+
+  it('导演警报引用的空袭事件都存在（否则该日无警报音）', () => {
+    const ids = new Set(events.map((e) => e.id));
+    for (const rule of (o.m.director as { sirens?: { events?: string[] }[] }).sirens ?? []) {
+      for (const id of rule.events ?? []) expect(ids.has(id), `警报引用了不存在的事件 ${id}`).toBe(true);
+    }
+  });
+
+  it('简介与 forces.json 的德军师数口径一致（不再有孤立的「十九个师」）', () => {
+    const text = [o.m.title.description, ...o.m.intro.paragraphs].join('\n');
+    expect(text, '简介不应出现无出处的「十九个师」').not.toContain('十九个师');
+    expect(o.m.time.tzLabel, 'tzLabel 应说明比利时为 UTC+2').toMatch(/比利时/);
   });
 });

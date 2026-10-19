@@ -56,7 +56,7 @@
   { "id": "la_bassee", "zh": "拉巴塞", "orig": "La Bassée", "pos": [2.8064, 50.5347], "kind": "town", "rank": 3, "country": "FR" },
   { "id": "bethune", "zh": "贝蒂讷", "orig": "Béthune", "pos": [2.6400, 50.5300], "kind": "city", "rank": 2, "country": "FR" },
   { "id": "robeck", "zh": "罗贝克", "orig": "Robecq", "pos": [2.5600, 50.6000], "kind": "village", "rank": 4, "country": "FR" },
-  { "id": "le_paradis", "zh": "勒帕拉迪", "orig": "Le Paradis", "pos": [2.7000, 50.5600], "kind": "village", "rank": 4, "country": "FR" },
+  { "id": "le_paradis", "zh": "勒帕拉迪", "orig": "Le Paradis (hameau, commune de Lestrem)", "pos": [2.6478, 50.5950], "kind": "village", "rank": 4, "country": "FR" },
   { "id": "carvin", "zh": "卡尔万", "orig": "Carvin", "pos": [2.9581, 50.4914], "kind": "town", "rank": 3, "country": "FR" },
   { "id": "lens", "zh": "朗斯", "orig": "Lens", "pos": [2.8300, 50.4300], "kind": "city", "rank": 2, "country": "FR" },
   { "id": "arras", "zh": "阿拉斯", "orig": "Arras", "pos": [2.7800, 50.2900], "kind": "city", "rank": 2, "country": "FR" },

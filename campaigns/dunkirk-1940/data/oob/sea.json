@@ -214,10 +214,10 @@
    },
    "lengthM": 137.2,
    "beamM": 13.3,
-   "tonnage": 4290,
+   "tonnage": 4190,
    "tonnageKind": "std",
    "maxKn": 29,
-   "crew": 400,
+   "crew": 327,
    "pennant": "D43",
    "silhouette": "leander",
    "weapons": [
@@ -1185,10 +1185,10 @@
    },
    "lengthM": 98.5,
    "beamM": 9.83,
-   "tonnage": 1360,
+   "tonnage": 1400,
    "tonnageKind": "std",
    "maxKn": 35,
-   "crew": 138,
+   "crew": 175,
    "pennant": "H06",
    "silhouette": "destroyer",
    "weapons": [
@@ -5811,20 +5811,20 @@
    "short": "U-62"
   },
   "strength": {
-   "men": 46
+   "men": 25
   },
   "ship": {
    "kind": "submarine",
    "class": {
-    "zh": "IX C 型远洋潜艇",
-    "orig": "Type IXC U-boat"
+    "zh": "II C 型近海潜艇",
+    "orig": "Type IIC U-boat"
    },
-   "lengthM": 76.8,
-   "beamM": 6.8,
-   "tonnage": 1120,
+   "lengthM": 43.9,
+   "beamM": 4.08,
+   "tonnage": 291,
    "tonnageKind": "std",
-   "maxKn": 18.2,
-   "crew": 48,
+   "maxKn": 12,
+   "crew": 25,
    "silhouette": "submarine",
    "weapons": [
     {
@@ -5833,19 +5833,19 @@
      "cal": "53.3 cm G7a T1",
      "kind": "torpedo",
      "mounts": 1,
-     "perMount": 4,
-     "rangeKm": 8,
-     "atPct": 22
+     "perMount": 3,
+     "rangeKm": 6,
+     "atPct": 20
     },
     {
      "id": "gun",
-     "label": "甲板炮",
-     "cal": "10.5 cm SK C/32",
+     "label": "甲板机炮",
+     "cal": "2 cm C/30",
      "kind": "secondary",
      "mounts": 1,
      "perMount": 1,
-     "rangeKm": 15,
-     "atPct": 32
+     "rangeKm": 4,
+     "atPct": 34
     }
    ]
   },

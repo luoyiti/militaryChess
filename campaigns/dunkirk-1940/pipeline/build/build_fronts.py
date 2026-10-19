@@ -41,6 +41,9 @@ EAST_DX = 0.42
 # 每帧的内/外点核对：CHECK_INSIDE 必须在德军控制区内；CHECK_OUTSIDE 必须在桥头堡（缺口）内
 CHECK_INSIDE = ['lille', 'arras', 'saint_quentin', 'cambrai', 'mons', 'brussel', 'antwerpen']
 CHECK_OUTSIDE = ['dunkirk', 'dunkirk_port', 'malo_les_bains', 'la_panne', 'bray_dunes', 'nieuwpoort']
+# 贝尔格到 1940-06-02 夜才失守：在此之前每一帧都必须留在桥头堡（缺口）内。
+# 曾经 05-31 帧把它当作战线锚点（线穿过该镇），使填充区在该处先变德军、次日又退回盟军 —— 画面上闪一下。
+CHECK_OUTSIDE_UNTIL = {'bergues': '1940-06-02T22:00'}
 
 # 缺口边缘的修正点（字面经纬度）：用来绕开仍在盟军手里的据点，使它们留在缺口（桥头堡）内。
 #   加来：1940-05-26T18:00 之前仍在围城中 → 战线在其南侧绕行
@@ -91,12 +94,12 @@ FRAMES: list[dict] = [
                 'gent', 'terneuzen'],
          outside=['dunkirk', 'la_panne', 'oostende', 'brugge'],
          confidence='medium'),
-    dict(at='1940-05-31T12:00', note='里尔法军 35,000 人投降；桥头堡仍据守运河线',
-         front=['bourbourg', 'spycker', 'bergues', 'veurne', 'diksmuide', 'tielt', 'deinze',
-                'gent', 'terneuzen'],
-         outside=['dunkirk', 'la_panne', 'oostende', 'brugge'],
+    dict(at='1940-05-31T12:00', note='里尔法军 35,000 人投降；桥头堡仍据守运河线，贝尔格尚在盟军手中',
+         front=['bourbourg', 'spycker'] + BERGUES_POCKET + ['veurne', 'diksmuide', 'tielt',
+                'deinze', 'gent', 'terneuzen'],
+         outside=['bergues', 'dunkirk', 'la_panne', 'oostende', 'brugge'],
          confidence='medium'),
-    dict(at='1940-06-01T12:00', note='德军猛攻贝尔格；东段退向尼乌波特—拉帕讷',
+    dict(at='1940-06-01T12:00', note='德军猛攻贝尔格；东段退向纽波特—拉帕讷',
          front=['loon_plage', 'grande_synthe', 'spycker'] + BERGUES_POCKET + ['ghyvelde', 'adinkerke',
                 'nieuwpoort', 'oostende', 'brugge', 'eeklo', 'terneuzen'],
          outside=['bergues', 'dunkirk', 'la_panne'],
@@ -181,6 +184,19 @@ def validate(fr: dict) -> None:
         for cid in CHECK_OUTSIDE + fr.get('outside', []):
             if cid in POS and poly.contains(Point(POS[cid])):
                 raise SystemExit(f'✗ {where}: {cid} 落在德军控制区内（应为桥头堡或英方领土）')
+    # 「某时刻之前必须仍在盟军手中」的地点（如贝尔格）：不仅不能在德军多边形内，
+    # 还必须与战线保持安全距离 —— 战线恰好穿过该镇时（点在环上）contains() 为假，
+    # 但引擎把它栅格化进 SDF 后该格会落到德军一侧，填充区在那里闪一下。
+    for cid, until in CHECK_OUTSIDE_UNTIL.items():
+        if where >= until or cid not in POS:
+            continue
+        pt = Point(POS[cid])
+        d_km = poly.exterior.distance(pt) * 111.0
+        if poly.contains(pt) or d_km < 2.0:
+            raise SystemExit(
+                f'✗ {where}: {cid} 应在 {until} 之前仍属盟军，但现在'
+                + ('落在德军控制区内' if poly.contains(pt) else f'距战线仅 {d_km:.1f} km（需 ≥2 km）')
+            )
 
 
 def main() -> int:
