@@ -1,0 +1,648 @@
+{
+ "sides": {
+  "DE": {
+   "name": "德国",
+   "commander": "埃里希·雷德尔（1939-09 至 1943-01）／卡尔·邓尼茨（1943-01 起）",
+   "men": null,
+   "divisions": "U 艇部队（BdU）与水面舰队",
+   "tanks": null,
+   "aircraft": null,
+   "guns": null,
+   "losses": {
+    "killed": "约 30,000（U 艇人员）",
+    "wounded": "—",
+    "captured": "—",
+    "tanks": "—",
+    "aircraft": "—"
+   },
+   "note": "U 艇建造总数约 1,150 艘，参战 830 余艘，损失 783 艘（另有 785/793 说），损失率约 70%；水面舰队另有 47 艘损失。商船吨位一律为 GRT。",
+   "asOf": "1945-05-08T23:59"
+  },
+  "GB": {
+   "name": "英国",
+   "commander": "达德利·庞德（至 1943-10）／安德鲁·坎宁安；西部海口：诺布尔 → 霍顿",
+   "men": null,
+   "divisions": "皇家海军本土舰队、西部海口司令部、海岸司令部",
+   "tanks": null,
+   "aircraft": null,
+   "guns": null,
+   "losses": {
+    "killed": "约 36,200（海军）＋ 约 36,000（商船海员）",
+    "wounded": "—",
+    "aircraft": "741（海岸司令部反潜飞行）",
+    "tanks": "—",
+    "captured": "—"
+   },
+   "note": "商船损失全战区约 3,500 艘；U 艇击沉吨位 14,668,692 GRT 为本包逐月表九段合计（研究稿另作 14,668,785，差 93 GRT 系四舍五入与分月取整，不再强求一致），含其他战区。",
+   "asOf": "1945-05-08T23:59"
+  },
+  "US": {
+   "name": "美国",
+   "commander": "欧内斯特·金；大西洋舰队：罗亚尔·英格索尔",
+   "men": null,
+   "divisions": "大西洋舰队、第 10 舰队、猎杀群",
+   "tanks": null,
+   "aircraft": null,
+   "guns": null,
+   "losses": {
+    "killed": "—",
+    "wounded": "—",
+    "tanks": "—",
+    "aircraft": "—",
+    "captured": "—"
+   },
+   "note": "1941-09 起实际参战；1942 年东岸与加勒比的损失是美军最大的护航教训。",
+   "asOf": "1945-05-08T23:59"
+  },
+  "CA": {
+   "name": "加拿大",
+   "commander": "伦纳德·默里（纽芬兰护航部队）",
+   "men": null,
+   "divisions": "纽芬兰护航部队 → 西北大西洋司令部",
+   "tanks": null,
+   "aircraft": null,
+   "guns": null,
+   "losses": {
+    "killed": "—",
+    "wounded": "—",
+    "tanks": "—",
+    "aircraft": "—",
+    "captured": "—"
+   },
+   "note": "从 6 艘驱逐舰扩张到 100 余艘护航舰，承担西经 35°（后 47°）以西的全程护航。",
+   "asOf": "1945-05-08T23:59"
+  }
+ },
+ "byPhase": {
+  "ph1": {
+   "DE": {
+    "name": "德国",
+    "commander": "埃里希·雷德尔（至 1943-01）／卡尔·邓尼茨",
+    "men": null,
+    "divisions": "约 20–30 艘在海上（多为短腿 II 型）",
+    "tanks": null,
+    "aircraft": null,
+    "guns": null,
+    "losses": {
+     "killed": "—",
+     "wounded": "—"
+    },
+    "note": "开战时 U 艇 57 艘可用，多数只能在英近岸活动；英国把航母编队派去猎杀，9 月损失勇敢号；10 月 U-47 潜入斯卡帕湾击沉皇家橡树号。本阶段 U 艇击沉商船 1,136,926 GRT（10 个月，月均 113,692 GRT）。",
+    "asOf": "1940-06-21T23:59"
+   },
+   "GB": {
+    "name": "英国",
+    "commander": "达德利·庞德（至 1943-10）／安德鲁·坎宁安",
+    "men": null,
+    "divisions": "驱逐舰约 40 艘、反潜拖网船若干",
+    "tanks": null,
+    "aircraft": null,
+    "guns": null,
+    "losses": {
+     "killed": "—",
+     "wounded": "—"
+    },
+    "note": "护航限于本土接近航道，永久护航群尚未成立。",
+    "asOf": "1940-06-21T23:59"
+   },
+   "US": {
+    "name": "美国",
+    "commander": "欧内斯特·金",
+    "men": null,
+    "divisions": "大西洋舰队",
+    "tanks": null,
+    "aircraft": null,
+    "guns": null,
+    "losses": {
+     "killed": "—",
+     "wounded": "—"
+    },
+    "note": "中立巡逻，以「中立巡航」名义为大西洋船团提供位置通报。",
+    "asOf": "1940-06-21T23:59"
+   },
+   "CA": {
+    "name": "加拿大",
+    "commander": "伦纳德·默里",
+    "men": null,
+    "divisions": "纽芬兰护航部队 → 西北大西洋司令部",
+    "tanks": null,
+    "aircraft": null,
+    "guns": null,
+    "losses": {
+     "killed": "—",
+     "wounded": "—"
+    },
+    "note": "6 艘驱逐舰，尚未承担远洋护航。",
+    "asOf": "1940-06-21T23:59"
+   }
+  },
+  "ph2": {
+   "DE": {
+    "name": "德国",
+    "commander": "埃里希·雷德尔（至 1943-01）／卡尔·邓尼茨",
+    "men": null,
+    "divisions": "约 30–40 艘在海上",
+    "tanks": null,
+    "aircraft": null,
+    "guns": null,
+    "losses": {
+     "killed": "—",
+     "wounded": "—"
+    },
+    "note": "法国基地使在航率由约三分之一升到三分之二；SC 7 与 HX 79 在 48 小时内被击沉 28 艘。本阶段 U 艇击沉商船 2,036,973 GRT（9 个月，月均 226,330 GRT）。",
+    "asOf": "1941-03-31T23:59"
+   },
+   "GB": {
+    "name": "英国",
+    "commander": "达德利·庞德（至 1943-10）／安德鲁·坎宁安",
+    "men": null,
+    "divisions": "驱逐舰 60+、花级轻护陆续服役",
+    "tanks": null,
+    "aircraft": null,
+    "guns": null,
+    "losses": {
+     "killed": "—",
+     "wounded": "—"
+    },
+    "note": "永久护航群成立，护航线推到西经 26°；冰岛基地启用。",
+    "asOf": "1941-03-31T23:59"
+   },
+   "US": {
+    "name": "美国",
+    "commander": "欧内斯特·金",
+    "men": null,
+    "divisions": "大西洋舰队",
+    "tanks": null,
+    "aircraft": null,
+    "guns": null,
+    "losses": {
+     "killed": "—",
+     "wounded": "—"
+    },
+    "note": "租借法案与美洲安全区，海军在大西洋执行巡逻与通报。",
+    "asOf": "1941-03-31T23:59"
+   },
+   "CA": {
+    "name": "加拿大",
+    "commander": "伦纳德·默里",
+    "men": null,
+    "divisions": "纽芬兰护航部队 → 西北大西洋司令部",
+    "tanks": null,
+    "aircraft": null,
+    "guns": null,
+    "losses": {
+     "killed": "—",
+     "wounded": "—"
+    },
+    "note": "西段护航起步，驱逐舰不足，训练与装备均待改善。",
+    "asOf": "1941-03-31T23:59"
+   }
+  },
+  "ph3a": {
+   "DE": {
+    "name": "德国",
+    "commander": "埃里希·雷德尔（至 1943-01）／卡尔·邓尼茨",
+    "men": null,
+    "divisions": "约 30–40 艘在海上",
+    "tanks": null,
+    "aircraft": null,
+    "guns": null,
+    "losses": {
+     "killed": "—",
+     "wounded": "—"
+    },
+    "note": "水面舰队集中于挪威，大西洋上暂以 U 艇为主。本阶段 U 艇击沉商船 249,375 GRT（1 个月，月均 249,375 GRT）。",
+    "asOf": "1941-05-22T23:59"
+   },
+   "GB": {
+    "name": "英国",
+    "commander": "达德利·庞德（至 1943-10）／安德鲁·坎宁安",
+    "men": null,
+    "divisions": "驱逐舰 60+、轻护陆续服役",
+    "tanks": null,
+    "aircraft": null,
+    "guns": null,
+    "losses": {
+     "killed": "—",
+     "wounded": "—"
+    },
+    "note": "美洲安全区扩至西经 26°，冰岛防务移交美国。",
+    "asOf": "1941-05-22T23:59"
+   },
+   "US": {
+    "name": "美国",
+    "commander": "欧内斯特·金",
+    "men": null,
+    "divisions": "大西洋舰队",
+    "tanks": null,
+    "aircraft": null,
+    "guns": null,
+    "losses": {
+     "killed": "—",
+     "wounded": "—"
+    },
+    "note": "1941-03 租借法案、04 美洲安全区、07 冰岛；尚未参战。",
+    "asOf": "1941-05-22T23:59"
+   },
+   "CA": {
+    "name": "加拿大",
+    "commander": "伦纳德·默里",
+    "men": null,
+    "divisions": "纽芬兰护航部队 → 西北大西洋司令部",
+    "tanks": null,
+    "aircraft": null,
+    "guns": null,
+    "losses": {
+     "killed": "—",
+     "wounded": "—"
+    },
+    "note": "纽芬兰护航部队成立在即（6 月 13 日）。",
+    "asOf": "1941-05-22T23:59"
+   }
+  },
+  "bismarck": {
+   "DE": {
+    "name": "德国",
+    "commander": "埃里希·雷德尔（至 1943-01）／卡尔·邓尼茨",
+    "men": null,
+    "divisions": "两艘水面舰艇出海（俾斯麦号、欧根亲王号）",
+    "tanks": null,
+    "aircraft": null,
+    "guns": null,
+    "losses": {
+     "killed": "—",
+     "wounded": "—"
+    },
+    "note": "莱茵演习：丹麦海峡击沉胡德号，五日后俾斯麦号被围歼；希特勒据此禁止水面舰队再入大西洋。本阶段 U 艇击沉商船 325,492 GRT（1 个月，月均 325,492 GRT）。",
+    "asOf": "1941-05-27T23:59"
+   },
+   "GB": {
+    "name": "英国",
+    "commander": "达德利·庞德（至 1943-10）／安德鲁·坎宁安",
+    "men": null,
+    "divisions": "本土舰队主力尽出",
+    "tanks": null,
+    "aircraft": null,
+    "guns": null,
+    "losses": {
+     "killed": "—",
+     "wounded": "—"
+    },
+    "note": "胡德号损失后一度收缩水面兵力，护航与反潜资源未减。",
+    "asOf": "1941-05-27T23:59"
+   },
+   "US": {
+    "name": "美国",
+    "commander": "欧内斯特·金",
+    "men": null,
+    "divisions": "大西洋舰队",
+    "tanks": null,
+    "aircraft": null,
+    "guns": null,
+    "losses": {
+     "killed": "—",
+     "wounded": "—"
+    },
+    "note": "「见即击沉」尚未发布，美舰仍限于巡逻与通报。",
+    "asOf": "1941-05-27T23:59"
+   },
+   "CA": {
+    "name": "加拿大",
+    "commander": "伦纳德·默里",
+    "men": null,
+    "divisions": "纽芬兰护航部队 → 西北大西洋司令部",
+    "tanks": null,
+    "aircraft": null,
+    "guns": null,
+    "losses": {
+     "killed": "—",
+     "wounded": "—"
+    },
+    "note": "西段护航继续。",
+    "asOf": "1941-05-27T23:59"
+   }
+  },
+  "ph3": {
+   "DE": {
+    "name": "德国",
+    "commander": "埃里希·雷德尔（至 1943-01）／卡尔·邓尼茨",
+    "men": null,
+    "divisions": "约 40–60 艘在海上",
+    "tanks": null,
+    "aircraft": null,
+    "guns": null,
+    "losses": {
+     "killed": "—",
+     "wounded": "—"
+    },
+    "note": "美国东岸与加勒比成为第二个「快乐时光」；PQ-17 解散令使 24 艘商船沉没。本阶段 U 艇击沉商船 4,111,236 GRT（13 个月，月均 316,248 GRT）。",
+    "asOf": "1942-06-30T23:59"
+   },
+   "GB": {
+    "name": "英国",
+    "commander": "达德利·庞德（至 1943-10）／安德鲁·坎宁安",
+    "men": null,
+    "divisions": "驱逐舰 150+、轻护 100+（含美加）",
+    "tanks": null,
+    "aircraft": null,
+    "guns": null,
+    "losses": {
+     "killed": "—",
+     "wounded": "—"
+    },
+    "note": "护航线 1942 年 7 月才接到西经 35°；密码失明十个月。",
+    "asOf": "1942-06-30T23:59"
+   },
+   "US": {
+    "name": "美国",
+    "commander": "欧内斯特·金",
+    "men": null,
+    "divisions": "大西洋舰队",
+    "tanks": null,
+    "aircraft": null,
+    "guns": null,
+    "losses": {
+     "killed": "—",
+     "wounded": "—"
+    },
+    "note": "1941-09 起实际参战；1942 年东岸与墨西哥湾几乎无护航。",
+    "asOf": "1942-06-30T23:59"
+   },
+   "CA": {
+    "name": "加拿大",
+    "commander": "伦纳德·默里",
+    "men": null,
+    "divisions": "纽芬兰护航部队 → 西北大西洋司令部",
+    "tanks": null,
+    "aircraft": null,
+    "guns": null,
+    "losses": {
+     "killed": "—",
+     "wounded": "—"
+    },
+    "note": "纽芬兰护航部队承担西经 35° 以西的全程护航。",
+    "asOf": "1942-06-30T23:59"
+   }
+  },
+  "ph4": {
+   "DE": {
+    "name": "德国",
+    "commander": "埃里希·雷德尔（至 1943-01）／卡尔·邓尼茨",
+    "men": null,
+    "divisions": "100–120 艘在海上（1943-05 达 118 艘）",
+    "tanks": null,
+    "aircraft": null,
+    "guns": null,
+    "losses": {
+     "killed": "—",
+     "wounded": "—"
+    },
+    "note": "空白区的航空覆盖在 1943 年 4 月闭合；三月船队战盟军损失 22 艘商船，5 月反手击沉 41 艘 U 艇，邓尼茨撤出北大西洋。本阶段 U 艇击沉商船 4,967,910 GRT（11 个月，月均 451,628 GRT）。",
+    "asOf": "1943-05-31T23:59"
+   },
+   "GB": {
+    "name": "英国",
+    "commander": "达德利·庞德（至 1943-10）／安德鲁·坎宁安",
+    "men": null,
+    "divisions": "护航航母 6+、支援群 8、远程飞机 4 个中队",
+    "tanks": null,
+    "aircraft": null,
+    "guns": null,
+    "losses": {
+     "killed": "—",
+     "wounded": "—"
+    },
+    "note": "霍顿组建支援群并推广「按住」战术；1943-03-01 华盛顿护航会议重划分界。",
+    "asOf": "1943-05-31T23:59"
+   },
+   "US": {
+    "name": "美国",
+    "commander": "欧内斯特·金",
+    "men": null,
+    "divisions": "大西洋舰队",
+    "tanks": null,
+    "aircraft": null,
+    "guns": null,
+    "losses": {
+     "killed": "—",
+     "wounded": "—"
+    },
+    "note": "猎杀群与护航航母建成，接手中南大西洋油船航线。",
+    "asOf": "1943-05-31T23:59"
+   },
+   "CA": {
+    "name": "加拿大",
+    "commander": "伦纳德·默里",
+    "men": null,
+    "divisions": "纽芬兰护航部队 → 西北大西洋司令部",
+    "tanks": null,
+    "aircraft": null,
+    "guns": null,
+    "losses": {
+     "killed": "—",
+     "wounded": "—"
+    },
+    "note": "西北大西洋司令部成立（1943-04-01），承担西经 47° 以西。",
+    "asOf": "1943-05-31T23:59"
+   }
+  },
+  "ph5": {
+   "DE": {
+    "name": "德国",
+    "commander": "埃里希·雷德尔（至 1943-01）／卡尔·邓尼茨",
+    "men": null,
+    "divisions": "60–90 艘，1944-01 降至 41 次巡逻/月",
+    "tanks": null,
+    "aircraft": null,
+    "guns": null,
+    "losses": {
+     "killed": "—",
+     "wounded": "—"
+    },
+    "note": "比斯开湾被航空封锁，基地逐个失守；1944 年 1 月可用 121 艘，5 月降至 89 艘，巡逻从 41 次降到 10 次。本阶段 U 艇击沉商船 1,268,870 GRT（13 个月，月均 97,605 GRT）。",
+    "asOf": "1944-06-05T23:59"
+   },
+   "GB": {
+    "name": "英国",
+    "commander": "达德利·庞德（至 1943-10）／安德鲁·坎宁安",
+    "men": null,
+    "divisions": "护航航母 20+（含猎杀群）、护卫舰大量服役",
+    "tanks": null,
+    "aircraft": null,
+    "guns": null,
+    "losses": {
+     "killed": "—",
+     "wounded": "—"
+    },
+    "note": "比斯开湾攻势与亚速尔基地使空白区彻底闭合。",
+    "asOf": "1944-06-05T23:59"
+   },
+   "US": {
+    "name": "美国",
+    "commander": "欧内斯特·金",
+    "men": null,
+    "divisions": "大西洋舰队",
+    "tanks": null,
+    "aircraft": null,
+    "guns": null,
+    "losses": {
+     "killed": "—",
+     "wounded": "—"
+    },
+    "note": "猎杀群 14 个，1944-06-04 俘获 U-505。",
+    "asOf": "1944-06-05T23:59"
+   },
+   "CA": {
+    "name": "加拿大",
+    "commander": "伦纳德·默里",
+    "men": null,
+    "divisions": "纽芬兰护航部队 → 西北大西洋司令部",
+    "tanks": null,
+    "aircraft": null,
+    "guns": null,
+    "losses": {
+     "killed": "—",
+     "wounded": "—"
+    },
+    "note": "护航任务转地中海与英吉利海峡。",
+    "asOf": "1944-06-05T23:59"
+   }
+  },
+  "ph6": {
+   "DE": {
+    "name": "德国",
+    "commander": "埃里希·雷德尔（至 1943-01）／卡尔·邓尼茨",
+    "men": null,
+    "divisions": "20–40 艘（1945-05-05 仅 29 艘在海上）",
+    "tanks": null,
+    "aircraft": null,
+    "guns": null,
+    "losses": {
+     "killed": "—",
+     "wounded": "—"
+    },
+    "note": "通气管与电艇未能挽回颓势；1945 年前五个月 125 次巡逻，损失 65 艘 VII 型。本阶段 U 艇击沉商船 560,471 GRT（10 个月，月均 56,047 GRT）。",
+    "asOf": "1945-04-30T23:59"
+   },
+   "GB": {
+    "name": "英国",
+    "commander": "达德利·庞德（至 1943-10）／安德鲁·坎宁安",
+    "men": null,
+    "divisions": "本土舰队与海岸司令部绝对优势",
+    "tanks": null,
+    "aircraft": null,
+    "guns": null,
+    "losses": {
+     "killed": "—",
+     "wounded": "—"
+    },
+    "note": "反潜兵力转向英近岸与挪威海域。",
+    "asOf": "1945-04-30T23:59"
+   },
+   "US": {
+    "name": "美国",
+    "commander": "欧内斯特·金",
+    "men": null,
+    "divisions": "大西洋舰队",
+    "tanks": null,
+    "aircraft": null,
+    "guns": null,
+    "losses": {
+     "killed": "—",
+     "wounded": "—"
+    },
+    "note": "大西洋舰队抽调太平洋，护航任务缩减。",
+    "asOf": "1945-04-30T23:59"
+   },
+   "CA": {
+    "name": "加拿大",
+    "commander": "伦纳德·默里",
+    "men": null,
+    "divisions": "纽芬兰护航部队 → 西北大西洋司令部",
+    "tanks": null,
+    "aircraft": null,
+    "guns": null,
+    "losses": {
+     "killed": "—",
+     "wounded": "—"
+    },
+    "note": "护航与登陆补给。",
+    "asOf": "1945-04-30T23:59"
+   }
+  },
+  "final": {
+   "DE": {
+    "name": "德国",
+    "commander": "埃里希·雷德尔（至 1943-01）／卡尔·邓尼茨",
+    "men": null,
+    "divisions": "29 艘在海上（1945-05-05）",
+    "tanks": null,
+    "aircraft": null,
+    "guns": null,
+    "losses": {
+     "killed": "—",
+     "wounded": "—"
+    },
+    "note": "5 月 4 日停火令未能送达每一艘艇，5 月 7 日仍有最后两艘商船被击沉；5 月 8 日投降生效。本阶段 U 艇击沉商船 11,439 GRT（1 个月，月均 11,439 GRT）。",
+    "asOf": "1945-05-08T23:59"
+   },
+   "GB": {
+    "name": "英国",
+    "commander": "达德利·庞德（至 1943-10）／安德鲁·坎宁安",
+    "men": null,
+    "divisions": "护航与航空兵力绝对优势",
+    "tanks": null,
+    "aircraft": null,
+    "guns": null,
+    "losses": {
+     "killed": "—",
+     "wounded": "—"
+    },
+    "note": "受降与「彩虹」自沉处理。",
+    "asOf": "1945-05-08T23:59"
+   },
+   "US": {
+    "name": "美国",
+    "commander": "欧内斯特·金",
+    "men": null,
+    "divisions": "大西洋舰队",
+    "tanks": null,
+    "aircraft": null,
+    "guns": null,
+    "losses": {
+     "killed": "—",
+     "wounded": "—"
+    },
+    "note": "受降与战后处置。",
+    "asOf": "1945-05-08T23:59"
+   },
+   "CA": {
+    "name": "加拿大",
+    "commander": "伦纳德·默里",
+    "men": null,
+    "divisions": "纽芬兰护航部队 → 西北大西洋司令部",
+    "tanks": null,
+    "aircraft": null,
+    "guns": null,
+    "losses": {
+     "killed": "—",
+     "wounded": "—"
+    },
+    "note": "受降与战后处置。",
+    "asOf": "1945-05-08T23:59"
+   }
+  }
+ },
+ "sources": [
+  "roskill_1954",
+  "roskill_1956",
+  "roskill_1960",
+  "roskill_1961",
+  "battleatlantic_1946",
+  "wiki_en_atlantic",
+  "wiki_en_black_may",
+  "blair_1996",
+  "blair_1998",
+  "schull_1950"
+ ]
+}

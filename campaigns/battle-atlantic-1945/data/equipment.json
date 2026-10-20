@@ -1,0 +1,337 @@
+[
+ {
+  "id": "uboat_viia",
+  "side": "DE",
+  "name": {
+   "zh": "VII A 型 U 艇",
+   "orig": "Typ VII A",
+   "short": "VII A"
+  },
+  "class": "ship",
+  "crew": 44,
+  "weightT": 626,
+  "count": 10,
+  "desc": "开战时的主力艇。水面 17 节、水下 8 节，五具鱼雷管、十一枚鱼雷，一门 8.8 厘米甲板炮。航程只有六千余海里，只能在英伦近岸与北海活动；1940 年法国基地到手后才真正进入大西洋。",
+  "sources": [
+   "uboat_net_types",
+   "roskill_1954",
+   "navweaps"
+  ]
+ },
+ {
+  "id": "uboat_viib",
+  "side": "DE",
+  "name": {
+   "zh": "VII B 型 U 艇",
+   "orig": "Typ VII B",
+   "short": "VII B"
+  },
+  "class": "ship",
+  "crew": 46,
+  "weightT": 753,
+  "count": 24,
+  "desc": "在 VII A 基础上加长艇体、增加燃油，航程升到八千七百海里，足以从比斯开湾直抵美国东岸。1940–41 年「快乐时光」的主角，普里恩、克雷奇马尔、舍普克三位王牌都指挥此型；水面航速约 17.9 节。",
+  "sources": [
+   "uboat_net_types",
+   "blair_1996",
+   "navweaps"
+  ]
+ },
+ {
+  "id": "uboat_viic",
+  "side": "DE",
+  "name": {
+   "zh": "VII C 型 U 艇",
+   "orig": "Typ VII C",
+   "short": "VII C"
+  },
+  "class": "ship",
+  "crew": 48,
+  "weightT": 769,
+  "count": 568,
+  "desc": "战争中建造最多的一型（568 艘），被称作 U 艇部队的「驮马」。水面 17.7 节、水下 7.6 节，航程八千五百海里。1943 年后加装通气管，可全程潜航充电，但速度与探测能力的差距已无法弥补。",
+  "sources": [
+   "uboat_net_types",
+   "roessler_uboot",
+   "navweaps"
+  ]
+ },
+ {
+  "id": "uboat_viic41",
+  "side": "DE",
+  "name": {
+   "zh": "VII C/41 型 U 艇",
+   "orig": "Type VII C/41",
+   "short": "VII C/41"
+  },
+  "class": "ship",
+  "crew": 48,
+  "weightT": 871,
+  "count": 91,
+  "desc": "VII C 型的加强耐压壳改型，艇体同尺度，最大潜深由 220 米提到 250 米，多数加装通气管以便水下充电。建成服役 91 艘，1944 年后成为大西洋与北海主力；U-320 与 U-1006 即此型。",
+  "sources": [
+   "uboat_net_types",
+   "blair_1998",
+   "roessler_uboot"
+  ]
+ },
+ {
+  "id": "uboat_ix",
+  "side": "DE",
+  "name": {
+   "zh": "IX 型 U 艇",
+   "orig": "Type IX",
+   "short": "IX"
+  },
+  "class": "ship",
+  "crew": 48,
+  "weightT": 1152,
+  "count": 8,
+  "desc": "IX 型的原型批次，仅建成 8 艘，是 IXB/IXC/IXD 远洋系列的起点。艇体比 VII 型长近十米，燃油搭载量大，可远赴美洲东岸与西非。U-39 即此型，1939 年 9 月成为战争中第一艘被击沉的 U 艇。",
+  "sources": [
+   "uboat_net_types",
+   "blair_1998",
+   "roessler_uboot"
+  ]
+ },
+ {
+  "id": "uboat_ixb",
+  "side": "DE",
+  "name": {
+   "zh": "IX B 型 U 艇",
+   "orig": "Typ IX B",
+   "short": "IX B"
+  },
+  "class": "ship",
+  "crew": 50,
+  "weightT": 1178,
+  "count": 14,
+  "desc": "远洋型，航程一万二千海里，六具鱼雷管、二十二枚鱼雷。1942 年 1 月「鼓点行动」派往美国东岸的五艘艇全是 IX 型，单艇可在美洲海域停留一月以上；水面航速约 18.2 节。",
+  "sources": [
+   "uboat_net_types",
+   "roskill_1956",
+   "navweaps"
+  ]
+ },
+ {
+  "id": "uboat_ixc",
+  "side": "DE",
+  "name": {
+   "zh": "IX C 型 U 艇",
+   "orig": "Typ IX C",
+   "short": "IX C"
+  },
+  "class": "ship",
+  "crew": 52,
+  "weightT": 1120,
+  "count": 54,
+  "desc": "IX B 的加长型（54 艘）：水面排水 1120 吨、水下 1232 吨，航程 13,450 海里/10 节，可往返加勒比与巴西外海。艇体大、下潜慢，1943 年后生存率明显低于 VII 型；水面航速 18.3 节。",
+  "sources": [
+   "uboat_net_types",
+   "blair_1998",
+   "navweaps"
+  ]
+ },
+ {
+  "id": "uboat_ixc40",
+  "side": "DE",
+  "name": {
+   "zh": "IX C/40 型 U 艇",
+   "orig": "Typ IX C/40",
+   "short": "IX C/40"
+  },
+  "class": "ship",
+  "crew": 52,
+  "weightT": 1144,
+  "count": 87,
+  "desc": "IX C 的微改型（87 艘，IX 家族最多）：艇体略宽，排水 1144/1257 吨，航程 13,850 海里/10 节，水面航速 18.3 节（uboat.net 记 19 节）。1943 年秋起拆除甲板炮，64 艘战沉；U-532、U-549 即此型。",
+  "sources": [
+   "uboat_net_types",
+   "blair_1998",
+   "navweaps"
+  ]
+ },
+ {
+  "id": "uboat_ixd2",
+  "side": "DE",
+  "name": {
+   "zh": "IX D2 型 U 艇",
+   "orig": "Typ IX D2",
+   "short": "IX D2"
+  },
+  "class": "ship",
+  "crew": 58,
+  "weightT": 1616,
+  "count": 28,
+  "desc": "IX D 型的远洋主力（28 艘；另 2 艘 IXD1 为高速试验型，不在内）：水面 1616 吨、水下 1804 吨，双巡航柴油机组，续航 23,700 海里/12 节，水面 19.2 节、水下 6.9 节。多编入「季风」集团赴印度洋，U-864 即此型。",
+  "sources": [
+   "uboat_net_types",
+   "blair_1998",
+   "navweaps"
+  ]
+ },
+ {
+  "id": "uboat_xxiii",
+  "side": "DE",
+  "name": {
+   "zh": "XXIII 型近岸电艇",
+   "orig": "Typ XXIII",
+   "short": "XXIII"
+  },
+  "class": "ship",
+  "crew": 16,
+  "weightT": 234,
+  "count": 61,
+  "desc": "「电艇」的近岸型：柴电—电池混合推进，水下可达 12.5 节，通气管使其几乎不必上浮。只带两枚鱼雷且无法再装填，但足以在英吉利海峡与福斯湾伏击。U-2336 即此型，1945 年 5 月 7 日击沉最后两艘商船。",
+  "sources": [
+   "uboat_net_types",
+   "roskill_1961",
+   "navweaps"
+  ]
+ },
+ {
+  "id": "corvette_flower",
+  "side": "GB",
+  "name": {
+   "zh": "花级轻护舰",
+   "orig": "Flower-class corvette",
+   "short": "Flower"
+  },
+  "class": "ship",
+  "crew": 85,
+  "weightT": 925,
+  "count": 267,
+  "desc": "以捕鲸船为基础设计的应急护航舰，一批 267 艘。武器只有一门 4 英寸炮与深弹，航速 16 节，被船员戏称为「海况一坏就全身湿透」。但它数量足够多，1941 年起把护航线一直铺到西经 35°。",
+  "sources": [
+   "nh_convoy_escorts",
+   "roskill_1956",
+   "navweaps"
+  ]
+ },
+ {
+  "id": "escort_carrier",
+  "side": "GB",
+  "name": {
+   "zh": "护航航空母舰",
+   "orig": "Escort carrier (CVE)",
+   "short": "CVE"
+  },
+  "class": "ship",
+  "crew": 555,
+  "weightT": 8200,
+  "count": 116,
+  "desc": "商船船体加装飞行甲板的应急航母，英美合计一百余艘。载机二十余架，航速十六到十九节，只能起降剑鱼、Martlet 一类低速机。它的价值不在击沉数，而在让 U 艇无法在中大西洋水面安全跟踪船团。",
+  "sources": [
+   "wiki_en_escort_carrier",
+   "roskill_1960",
+   "navweaps"
+  ]
+ },
+ {
+  "id": "b24_liberator_vlr",
+  "side": "GB",
+  "name": {
+   "zh": "B-24「解放者」超远程反潜型",
+   "orig": "B-24 Liberator GR Mk V (VLR)",
+   "short": "Liberator"
+  },
+  "class": "bomber",
+  "crew": 10,
+  "weightT": 29.5,
+  "speedKmh": 346,
+  "count": 60,
+  "desc": "拆去装甲与部分自卫武器、加装一千一百加仑燃油的岸基巡逻机，航程可覆盖冰岛—格陵兰—亚速尔之间的整个空白区。1943 年 3 月罗斯福下令从太平洋抽调六十架后，U 艇在中大西洋的水面航行自由宣告结束。",
+  "sources": [
+   "wiki_en_midgap",
+   "roskill_1960",
+   "blair_1998"
+  ]
+ },
+ {
+  "id": "sunderland",
+  "side": "GB",
+  "name": {
+   "zh": "「桑德兰」水上飞机",
+   "orig": "Short Sunderland Mk III",
+   "short": "Sunderland"
+  },
+  "class": "seaplane",
+  "crew": 11,
+  "weightT": 26.3,
+  "speedKmh": 286,
+  "desc": "四发水上飞机，续航十三小时，被德军称作「飞行豪猪」——它那八到十二挺机枪让上浮对空作战的 U 艇吃尽苦头。1940 年起从奥本、洛西茅斯与北爱尔兰起飞，是大西洋航线最早的远程反潜眼线。",
+  "sources": [
+   "wiki_en_atlantic",
+   "roskill_1960"
+  ]
+ },
+ {
+  "id": "fw200",
+  "side": "DE",
+  "name": {
+   "zh": "Fw 200「秃鹰」",
+   "orig": "Focke-Wulf Fw 200 C-3 Condor",
+   "short": "Condor"
+  },
+  "class": "bomber",
+  "crew": 5,
+  "weightT": 24.5,
+  "speedKmh": 335,
+  "desc": "由客机改装的远程侦察轰炸机，从波尔多起飞可绕到英国战斗机航程之外，发现船团后既可直接投弹也可呼叫 U 艇。1940–41 年它与 U 艇的协同是德军效率最高的组合；1943 年护航航母与远程战斗机到位后退出大西洋。",
+  "sources": [
+   "wiki_en_atlantic",
+   "roskill_1954"
+  ]
+ },
+ {
+  "id": "enigma_m4",
+  "side": "DE",
+  "name": {
+   "zh": "恩尼格玛 M4 密码机",
+   "orig": "Enigma-M4 (Schlüssel M)",
+   "short": "Enigma M4"
+  },
+  "class": "small_arms",
+  "desc": "1942 年 2 月「海豚」密钥换用四转子 M4，一度让布莱切利园失明十个月，直接对应 1942 年损失高峰。但密码机本身没有错——错在密钥分发、操作惰性与过多无线电报务：U 艇越依赖无线电协同，泄漏的位置就越多。",
+  "sources": [
+   "wiki_en_enigma",
+   "hinsley_1988",
+   "kahn_1991"
+  ]
+ },
+ {
+  "id": "hedgehog",
+  "side": "GB",
+  "name": {
+   "zh": "「刺猬」前投深弹",
+   "orig": "Hedgehog ASW mortar",
+   "short": "Hedgehog"
+  },
+  "class": "gun",
+  "weightT": 0.3,
+  "desc": "二十四枚接触引信深弹成环状前投，只有直接命中才爆炸，因此不会搅乱水听接触。1942 年底起装舰，配合改进声呐与「乌贼」深弹，护航舰第一次能在保持接触的情况下连续攻击。",
+  "sources": [
+   "roskill_1956",
+   "mori_atlantic_won",
+   "nh_convoy_escorts"
+  ]
+ },
+ {
+  "id": "dixie_arrow",
+  "side": "US",
+  "name": {
+   "zh": "T2 型油轮（迪克西·阿罗号）",
+   "orig": "SS Dixie Arrow (T2 tanker)",
+   "short": "T2"
+  },
+  "class": "ship",
+  "crew": 33,
+  "weightT": 8100,
+  "desc": "战时标准 T2 型油轮，一万余总吨，是 1942 年美国东岸与加勒比损失的主角。1942 年 3 月 26 日在哈特拉斯角外被 U-71 命中两雷，燃油起火断裂，三十三名船员中二十二人获救；水面航速约 14 节。",
+  "sources": [
+   "roskill_1956",
+   "wiki_en_atlantic",
+   "nh_rn_losses"
+  ]
+ }
+]

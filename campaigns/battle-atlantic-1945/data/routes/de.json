@@ -1,0 +1,614 @@
+[
+ {
+  "id": "r.rheinubung",
+  "side": "DE",
+  "unit": "de.bismarck",
+  "style": "main",
+  "widthKm": 12,
+  "movement": "sea",
+  "role": "raid",
+  "label": "莱茵演习 · 驶向丹麦海峡",
+  "until": "1941-05-27T11:00",
+  "waypoints": [
+   {
+    "at": "1941-05-19T18:00",
+    "pos": [
+     18.47,
+     54.52
+    ]
+   },
+   {
+    "at": "1941-05-20T12:00",
+    "pos": [
+     12.0,
+     56.5
+    ]
+   },
+   {
+    "at": "1941-05-21T12:00",
+    "pos": [
+     5.32,
+     60.39
+    ]
+   },
+   {
+    "at": "1941-05-22T06:00",
+    "pos": [
+     2.0,
+     64.0
+    ]
+   },
+   {
+    "at": "1941-05-23T12:00",
+    "pos": [
+     -15.0,
+     68.0
+    ]
+   },
+   {
+    "at": "1941-05-24T05:52",
+    "pos": [
+     -28.0,
+     66.5
+    ]
+   },
+   {
+    "at": "1941-05-26T12:00",
+    "pos": [
+     -22.0,
+     52.0
+    ]
+   },
+   {
+    "at": "1941-05-27T08:47",
+    "pos": [
+     -16.2,
+     48.5
+    ]
+   }
+  ],
+  "schematic": true,
+  "sources": [
+   "roskill_1956",
+   "wiki_en_atlantic",
+   "nh_ship_histories"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "r.berlin_op",
+  "side": "DE",
+  "unit": "de.scharnhorst",
+  "style": "main",
+  "widthKm": 10,
+  "movement": "sea",
+  "role": "raid",
+  "label": "柏林行动 · 大西洋袭击",
+  "until": "1941-03-23T00:00",
+  "waypoints": [
+   {
+    "at": "1941-01-22T12:00",
+    "pos": [
+     8.15,
+     53.52
+    ]
+   },
+   {
+    "at": "1941-01-23T12:00",
+    "pos": [
+     5.42,
+     53.84
+    ]
+   },
+   {
+    "at": "1941-01-24T12:00",
+    "pos": [
+     2.7,
+     54.16
+    ]
+   },
+   {
+    "at": "1941-01-26T12:00",
+    "pos": [
+     -2.75,
+     54.8
+    ]
+   },
+   {
+    "at": "1941-02-05T12:00",
+    "pos": [
+     -30.0,
+     58.0
+    ]
+   },
+   {
+    "at": "1941-02-22T12:00",
+    "pos": [
+     -20.36,
+     54.37
+    ]
+   },
+   {
+    "at": "1941-03-22T12:00",
+    "pos": [
+     -4.486,
+     48.39
+    ]
+   }
+  ],
+  "schematic": true,
+  "sources": [
+   "roskill_1954",
+   "wiki_en_atlantic"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "r.scheer_atlantic",
+  "side": "DE",
+  "unit": "de.admiral_scheer",
+  "style": "main",
+  "widthKm": 10,
+  "movement": "sea",
+  "role": "raid",
+  "label": "舍尔号 · 大西洋与印度洋袭击",
+  "until": "1941-04-03T00:00",
+  "waypoints": [
+   {
+    "at": "1940-10-31T21:00",
+    "pos": [
+     -25.0,
+     60.5
+    ]
+   },
+   {
+    "at": "1940-11-05T09:40",
+    "pos": [
+     -32.5,
+     52.5
+    ]
+   },
+   {
+    "at": "1940-12-01T12:00",
+    "pos": [
+     -30.0,
+     20.0
+    ]
+   },
+   {
+    "at": "1941-02-14T12:00",
+    "pos": [
+     -10.5,
+     -5.2
+    ]
+   },
+   {
+    "at": "1941-03-30T12:00",
+    "pos": [
+     -2.0,
+     58.5
+    ]
+   }
+  ],
+  "schematic": true,
+  "sources": [
+   "roskill_1954",
+   "wiki_en_atlantic"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "r.sls64_intercept",
+  "side": "DE",
+  "unit": "de.admiral_hipper",
+  "style": "secondary",
+  "widthKm": 8,
+  "movement": "sea",
+  "role": "intercept",
+  "label": "希佩尔号 · 拦截 SLS 64",
+  "until": "1941-02-15T00:00",
+  "waypoints": [
+   {
+    "at": "1941-02-10T12:00",
+    "pos": [
+     -18.0,
+     44.0
+    ]
+   },
+   {
+    "at": "1941-02-12T08:00",
+    "pos": [
+     -21.0,
+     43.0
+    ]
+   },
+   {
+    "at": "1941-02-14T12:00",
+    "pos": [
+     -5.0,
+     42.0
+    ]
+   }
+  ],
+  "schematic": true,
+  "sources": [
+   "roskill_1954",
+   "mori_battle_atlantic"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "r.cerberus",
+  "side": "DE",
+  "unit": "de.gneisenau",
+  "style": "main",
+  "widthKm": 6,
+  "movement": "sea",
+  "role": "raid",
+  "label": "雷霆行动 · 海峡冲刺",
+  "until": "1942-02-14T00:00",
+  "waypoints": [
+   {
+    "at": "1942-02-11T22:00",
+    "pos": [
+     -1.6,
+     49.7
+    ]
+   },
+   {
+    "at": "1942-02-12T10:00",
+    "pos": [
+     1.4,
+     51.1
+    ]
+   },
+   {
+    "at": "1942-02-12T20:00",
+    "pos": [
+     5.0,
+     53.0
+    ]
+   },
+   {
+    "at": "1942-02-13T12:00",
+    "pos": [
+     8.15,
+     53.52
+    ]
+   }
+  ],
+  "schematic": true,
+  "sources": [
+   "roskill_1956",
+   "wiki_en_atlantic"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "r.drumbeat_out",
+  "side": "DE",
+  "unit": "de.u123",
+  "style": "main",
+  "widthKm": 10,
+  "movement": "sea",
+  "role": "raid",
+  "label": "鼓点行动 · 驶向美国东岸",
+  "until": "1942-01-15T00:00",
+  "waypoints": [
+   {
+    "at": "1941-12-23T12:00",
+    "pos": [
+     -3.37,
+     47.748
+    ]
+   },
+   {
+    "at": "1942-01-05T12:00",
+    "pos": [
+     -30.0,
+     45.0
+    ]
+   },
+   {
+    "at": "1942-01-14T05:00",
+    "pos": [
+     -72.5,
+     40.6
+    ]
+   }
+  ],
+  "schematic": true,
+  "sources": [
+   "roskill_1956",
+   "gannon_1990"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "r.drumbeat_south",
+  "side": "DE",
+  "unit": "de.u123",
+  "style": "secondary",
+  "widthKm": 8,
+  "movement": "sea",
+  "role": "raid",
+  "label": "鼓点行动 · 哈特拉斯角与返航",
+  "until": "1942-02-10T00:00",
+  "waypoints": [
+   {
+    "at": "1942-01-14T05:00",
+    "pos": [
+     -72.5,
+     40.6
+    ]
+   },
+   {
+    "at": "1942-01-19T02:00",
+    "pos": [
+     -75.8,
+     35.2
+    ]
+   },
+   {
+    "at": "1942-02-09T12:00",
+    "pos": [
+     -3.37,
+     47.748
+    ]
+   }
+  ],
+  "schematic": true,
+  "sources": [
+   "roskill_1956",
+   "gannon_1990"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "r.pq17_intercept",
+  "side": "DE",
+  "unit": "de.tirpitz",
+  "style": "counter",
+  "widthKm": 12,
+  "movement": "sea",
+  "role": "intercept",
+  "label": "提尔皮茨号 · 出击后取消",
+  "until": "1942-07-06T00:00",
+  "waypoints": [
+   {
+    "at": "1942-07-04T19:36",
+    "pos": [
+     23.0,
+     69.9
+    ]
+   },
+   {
+    "at": "1942-07-05T12:00",
+    "pos": [
+     25.0,
+     72.0
+    ]
+   },
+   {
+    "at": "1942-07-05T20:00",
+    "pos": [
+     23.0,
+     69.9
+    ]
+   }
+  ],
+  "schematic": true,
+  "sources": [
+   "nh_pq17",
+   "roskill_1956"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "r.ons5_intercept",
+  "side": "DE",
+  "unit": "de.u532",
+  "style": "counter",
+  "widthKm": 10,
+  "movement": "sea",
+  "role": "intercept",
+  "label": "ONS 5 · 狼群拦截线",
+  "until": "1943-05-07T00:00",
+  "waypoints": [
+   {
+    "at": "1943-04-26T12:00",
+    "pos": [
+     -33.0,
+     57.0
+    ]
+   },
+   {
+    "at": "1943-04-29T12:00",
+    "pos": [
+     -38.0,
+     56.0
+    ]
+   },
+   {
+    "at": "1943-05-03T12:00",
+    "pos": [
+     -41.0,
+     54.0
+    ]
+   },
+   {
+    "at": "1943-05-06T12:00",
+    "pos": [
+     -44.0,
+     52.0
+    ]
+   }
+  ],
+  "schematic": true,
+  "sources": [
+   "roskill_1956",
+   "wiki_en_ons5"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "r.hx229_intercept",
+  "side": "DE",
+  "unit": "de.u338",
+  "style": "counter",
+  "widthKm": 10,
+  "movement": "sea",
+  "role": "intercept",
+  "label": "HX 229 / SC 122 · 狼群拦截线",
+  "until": "1943-03-20T00:00",
+  "waypoints": [
+   {
+    "at": "1943-03-13T12:00",
+    "pos": [
+     -28.0,
+     56.0
+    ]
+   },
+   {
+    "at": "1943-03-16T09:00",
+    "pos": [
+     -35.0,
+     55.0
+    ]
+   },
+   {
+    "at": "1943-03-19T12:00",
+    "pos": [
+     -42.0,
+     53.0
+    ]
+   }
+  ],
+  "schematic": true,
+  "sources": [
+   "roskill_1956",
+   "wiki_en_black_may"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "r.biscay_transit",
+  "side": "DE",
+  "unit": "de.u552",
+  "style": "secondary",
+  "widthKm": 6,
+  "movement": "sea",
+  "role": "raid",
+  "label": "比斯开湾出航走廊",
+  "until": "1941-11-01T00:00",
+  "waypoints": [
+   {
+    "at": "1941-10-10T12:00",
+    "pos": [
+     -3.37,
+     47.748
+    ]
+   },
+   {
+    "at": "1941-10-18T12:00",
+    "pos": [
+     -8.0,
+     45.5
+    ]
+   },
+   {
+    "at": "1941-10-31T05:00",
+    "pos": [
+     -27.5,
+     52.0
+    ]
+   }
+  ],
+  "schematic": true,
+  "sources": [
+   "roskill_1956",
+   "blair_1996"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "r.norway_patrol",
+  "side": "DE",
+  "unit": "de.u864",
+  "style": "secondary",
+  "widthKm": 6,
+  "movement": "sea",
+  "role": "raid",
+  "label": "挪威近岸 · 最后一次远洋运输",
+  "until": "1945-02-10T00:00",
+  "waypoints": [
+   {
+    "at": "1945-02-07T12:00",
+    "pos": [
+     5.0,
+     60.7
+    ]
+   },
+   {
+    "at": "1945-02-09T12:00",
+    "pos": [
+     4.58,
+     60.77
+    ]
+   }
+  ],
+  "schematic": true,
+  "sources": [
+   "roskill_1961",
+   "uboat_net"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "r.scharnhorst_last",
+  "side": "DE",
+  "unit": "de.scharnhorst",
+  "style": "main",
+  "widthKm": 8,
+  "movement": "sea",
+  "role": "raid",
+  "label": "北角 · 沙恩霍斯特号最后一次出击",
+  "until": "1943-12-27T00:00",
+  "waypoints": [
+   {
+    "at": "1943-12-25T19:00",
+    "pos": [
+     23.0,
+     69.9
+    ]
+   },
+   {
+    "at": "1943-12-26T09:00",
+    "pos": [
+     22.0,
+     72.0
+    ]
+   },
+   {
+    "at": "1943-12-26T18:45",
+    "pos": [
+     25.5,
+     72.5
+    ]
+   },
+   {
+    "at": "1943-12-26T19:45",
+    "pos": [
+     25.6,
+     72.55
+    ]
+   }
+  ],
+  "schematic": true,
+  "sources": [
+   "roskill_1960",
+   "wiki_en_atlantic"
+  ],
+  "confidence": "high"
+ }
+]

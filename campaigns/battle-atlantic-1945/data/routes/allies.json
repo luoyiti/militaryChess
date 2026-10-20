@@ -1,0 +1,774 @@
+[
+ {
+  "id": "r.hx_outbound",
+  "side": "GB",
+  "unit": "gb.wa",
+  "style": "main",
+  "widthKm": 22,
+  "movement": "sea",
+  "role": "escort",
+  "label": "HX 快速船团 · 哈利法克斯—利物浦",
+  "until": "1945-05-08T00:00",
+  "waypoints": [
+   {
+    "at": "1939-09-16T12:00",
+    "pos": [
+     -63.575,
+     44.648
+    ]
+   },
+   {
+    "at": "1939-09-20T12:00",
+    "pos": [
+     -50.0,
+     48.0
+    ]
+   },
+   {
+    "at": "1939-09-24T12:00",
+    "pos": [
+     -30.0,
+     52.0
+    ]
+   },
+   {
+    "at": "1939-09-28T12:00",
+    "pos": [
+     -12.0,
+     54.5
+    ]
+   },
+   {
+    "at": "1939-10-02T12:00",
+    "pos": [
+     -2.992,
+     53.408
+    ]
+   }
+  ],
+  "schematic": true,
+  "sources": [
+   "roskill_1954",
+   "battleatlantic_1946"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "r.sc_slow",
+  "side": "CA",
+  "unit": "ca.nef",
+  "style": "secondary",
+  "widthKm": 18,
+  "movement": "sea",
+  "role": "escort",
+  "label": "SC 慢速船团 · 布雷顿角—英国",
+  "until": "1945-05-08T00:00",
+  "waypoints": [
+   {
+    "at": "1941-06-13T12:00",
+    "pos": [
+     -60.18,
+     46.14
+    ]
+   },
+   {
+    "at": "1941-07-01T12:00",
+    "pos": [
+     -48.0,
+     50.0
+    ]
+   },
+   {
+    "at": "1941-07-20T12:00",
+    "pos": [
+     -32.0,
+     54.0
+    ]
+   },
+   {
+    "at": "1941-08-10T12:00",
+    "pos": [
+     -14.0,
+     55.5
+    ]
+   }
+  ],
+  "schematic": true,
+  "sources": [
+   "schull_1950",
+   "roskill_1956"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "r.on_return",
+  "side": "GB",
+  "unit": "gb.wa",
+  "style": "secondary",
+  "widthKm": 18,
+  "movement": "sea",
+  "role": "escort",
+  "label": "ON / ONS 空载返航船团",
+  "until": "1945-05-08T00:00",
+  "waypoints": [
+   {
+    "at": "1941-01-01T12:00",
+    "pos": [
+     -4.76,
+     55.948
+    ]
+   },
+   {
+    "at": "1941-01-08T12:00",
+    "pos": [
+     -22.0,
+     56.0
+    ]
+   },
+   {
+    "at": "1941-01-16T12:00",
+    "pos": [
+     -40.0,
+     53.0
+    ]
+   },
+   {
+    "at": "1941-01-24T12:00",
+    "pos": [
+     -55.0,
+     48.0
+    ]
+   },
+   {
+    "at": "1941-02-01T12:00",
+    "pos": [
+     -63.575,
+     44.648
+    ]
+   }
+  ],
+  "schematic": true,
+  "sources": [
+   "roskill_1954",
+   "battleatlantic_1946"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "r.hg_gibraltar",
+  "side": "GB",
+  "unit": "gb.audacity",
+  "style": "main",
+  "widthKm": 14,
+  "movement": "sea",
+  "role": "escort",
+  "label": "HG 76 · 直布罗陀—英国",
+  "until": "1941-12-24T00:00",
+  "waypoints": [
+   {
+    "at": "1941-12-19T08:00",
+    "pos": [
+     -5.355,
+     36.14
+    ]
+   },
+   {
+    "at": "1941-12-20T12:00",
+    "pos": [
+     -12.0,
+     38.0
+    ]
+   },
+   {
+    "at": "1941-12-21T18:00",
+    "pos": [
+     -19.9,
+     43.75
+    ]
+   },
+   {
+    "at": "1941-12-23T12:00",
+    "pos": [
+     -6.0,
+     50.0
+    ]
+   }
+  ],
+  "schematic": true,
+  "sources": [
+   "roskill_1956",
+   "nh_convoy_escorts"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "r.hg_regular",
+  "side": "GB",
+  "unit": "gb.starling",
+  "style": "secondary",
+  "widthKm": 14,
+  "movement": "sea",
+  "role": "escort",
+  "label": "HG / OG 直布罗陀船团",
+  "until": "1943-12-31T00:00",
+  "waypoints": [
+   {
+    "at": "1941-01-01T12:00",
+    "pos": [
+     -5.355,
+     36.14
+    ]
+   },
+   {
+    "at": "1941-01-06T12:00",
+    "pos": [
+     -10.0,
+     40.0
+    ]
+   },
+   {
+    "at": "1941-01-12T12:00",
+    "pos": [
+     -6.0,
+     50.0
+    ]
+   },
+   {
+    "at": "1941-01-15T12:00",
+    "pos": [
+     -4.143,
+     50.375
+    ]
+   }
+  ],
+  "schematic": true,
+  "sources": [
+   "roskill_1954",
+   "nh_convoy_escorts"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "r.sl_freetown",
+  "side": "GB",
+  "unit": "gb.wa",
+  "style": "secondary",
+  "widthKm": 20,
+  "movement": "sea",
+  "role": "escort",
+  "label": "SL 塞拉利昂—英国船团",
+  "until": "1945-05-08T00:00",
+  "waypoints": [
+   {
+    "at": "1939-10-01T12:00",
+    "pos": [
+     -13.23,
+     8.48
+    ]
+   },
+   {
+    "at": "1939-10-10T12:00",
+    "pos": [
+     -20.0,
+     20.0
+    ]
+   },
+   {
+    "at": "1939-10-20T12:00",
+    "pos": [
+     -20.0,
+     35.0
+    ]
+   },
+   {
+    "at": "1939-10-28T12:00",
+    "pos": [
+     -8.0,
+     50.0
+    ]
+   }
+  ],
+  "schematic": true,
+  "sources": [
+   "roskill_1954",
+   "battleatlantic_1946"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "r.sls64_escort",
+  "side": "GB",
+  "unit": "gb.wa",
+  "style": "secondary",
+  "widthKm": 12,
+  "movement": "sea",
+  "role": "escort",
+  "label": "SLS 64 · 被希佩尔号拦截",
+  "until": "1941-02-16T00:00",
+  "waypoints": [
+   {
+    "at": "1941-02-08T12:00",
+    "pos": [
+     -15.0,
+     12.0
+    ]
+   },
+   {
+    "at": "1941-02-11T12:00",
+    "pos": [
+     -20.0,
+     35.0
+    ]
+   },
+   {
+    "at": "1941-02-15T12:00",
+    "pos": [
+     -10.0,
+     47.0
+    ]
+   }
+  ],
+  "schematic": true,
+  "sources": [
+   "roskill_1954",
+   "mori_battle_atlantic"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "r.pq_arctic",
+  "side": "GB",
+  "unit": "gb.wa",
+  "style": "main",
+  "widthKm": 16,
+  "movement": "sea",
+  "role": "escort",
+  "label": "PQ / JW 北极出航船团 · 埃韦湾—摩尔曼斯克",
+  "until": "1945-05-08T00:00",
+  "waypoints": [
+   {
+    "at": "1941-08-21T12:00",
+    "pos": [
+     -5.83,
+     57.83
+    ]
+   },
+   {
+    "at": "1941-08-24T12:00",
+    "pos": [
+     -8.5,
+     71.0
+    ]
+   },
+   {
+    "at": "1941-08-28T12:00",
+    "pos": [
+     15.0,
+     75.0
+    ]
+   },
+   {
+    "at": "1941-08-31T12:00",
+    "pos": [
+     33.08,
+     68.97
+    ]
+   }
+  ],
+  "schematic": true,
+  "sources": [
+   "wiki_en_atlantic",
+   "roskill_1956"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "r.qp_arctic",
+  "side": "GB",
+  "unit": "gb.belfast",
+  "style": "counter",
+  "widthKm": 16,
+  "movement": "sea",
+  "role": "escort",
+  "label": "QP / RA 北极返航船团 · 摩尔曼斯克—埃韦湾",
+  "until": "1945-05-08T00:00",
+  "waypoints": [
+   {
+    "at": "1942-07-10T12:00",
+    "pos": [
+     33.08,
+     68.97
+    ]
+   },
+   {
+    "at": "1942-07-13T12:00",
+    "pos": [
+     20.0,
+     74.0
+    ]
+   },
+   {
+    "at": "1942-07-17T12:00",
+    "pos": [
+     -5.83,
+     57.83
+    ]
+   }
+  ],
+  "schematic": true,
+  "sources": [
+   "nh_pq17",
+   "roskill_1956"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "r.jw55b_cover",
+  "side": "GB",
+  "unit": "gb.duke_of_york",
+  "style": "main",
+  "widthKm": 12,
+  "movement": "sea",
+  "role": "escort",
+  "label": "JW 55B · 约克公爵号远程掩护",
+  "until": "1943-12-27T00:00",
+  "waypoints": [
+   {
+    "at": "1943-12-23T12:00",
+    "pos": [
+     -5.83,
+     57.83
+    ]
+   },
+   {
+    "at": "1943-12-25T12:00",
+    "pos": [
+     5.0,
+     71.0
+    ]
+   },
+   {
+    "at": "1943-12-26T16:17",
+    "pos": [
+     25.0,
+     72.2
+    ]
+   },
+   {
+    "at": "1943-12-26T18:45",
+    "pos": [
+     25.5,
+     72.5
+    ]
+   }
+  ],
+  "schematic": true,
+  "sources": [
+   "roskill_1960",
+   "wiki_en_atlantic"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "r.ons5_support",
+  "side": "GB",
+  "unit": "gb.wa",
+  "style": "counter",
+  "widthKm": 10,
+  "movement": "sea",
+  "role": "escort",
+  "label": "ONS 5 · 第 1 支援群增援",
+  "until": "1943-05-07T00:00",
+  "waypoints": [
+   {
+    "at": "1943-04-26T12:00",
+    "pos": [
+     -38.0,
+     59.0
+    ]
+   },
+   {
+    "at": "1943-04-29T12:00",
+    "pos": [
+     -40.0,
+     58.0
+    ]
+   },
+   {
+    "at": "1943-05-03T12:00",
+    "pos": [
+     -42.0,
+     55.0
+    ]
+   },
+   {
+    "at": "1943-05-06T12:00",
+    "pos": [
+     -44.0,
+     52.0
+    ]
+   }
+  ],
+  "schematic": true,
+  "sources": [
+   "roskill_1956",
+   "wiki_en_ons5",
+   "nh_convoy_escorts"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "r.hx229_escort",
+  "side": "GB",
+  "unit": "gb.highlander",
+  "style": "main",
+  "widthKm": 10,
+  "movement": "sea",
+  "role": "escort",
+  "label": "HX 229 / SC 122 · 护航线",
+  "until": "1943-03-20T00:00",
+  "waypoints": [
+   {
+    "at": "1943-03-14T12:00",
+    "pos": [
+     -28.0,
+     56.0
+    ]
+   },
+   {
+    "at": "1943-03-16T09:00",
+    "pos": [
+     -35.0,
+     55.0
+    ]
+   },
+   {
+    "at": "1943-03-19T12:00",
+    "pos": [
+     -42.0,
+     53.0
+    ]
+   }
+  ],
+  "schematic": true,
+  "sources": [
+   "roskill_1956",
+   "wiki_en_black_may"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "r.biscay_asw",
+  "side": "GB",
+  "unit": "gb.wa",
+  "style": "secondary",
+  "widthKm": 16,
+  "movement": "sea",
+  "role": "intercept",
+  "label": "比斯开湾攻势 · 航空与水面封锁",
+  "until": "1944-08-31T00:00",
+  "waypoints": [
+   {
+    "at": "1943-04-13T12:00",
+    "pos": [
+     -9.27,
+     42.88
+    ]
+   },
+   {
+    "at": "1943-05-10T12:00",
+    "pos": [
+     -8.0,
+     45.5
+    ]
+   },
+   {
+    "at": "1943-07-30T12:00",
+    "pos": [
+     -9.0,
+     45.0
+    ]
+   },
+   {
+    "at": "1943-08-31T12:00",
+    "pos": [
+     -8.0,
+     46.0
+    ]
+   }
+  ],
+  "schematic": true,
+  "sources": [
+   "roskill_1960",
+   "wiki_en_atlantic"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "r.hunt_u505",
+  "side": "US",
+  "unit": "us.guadalcanal",
+  "style": "main",
+  "widthKm": 12,
+  "movement": "sea",
+  "role": "intercept",
+  "label": "第 22.3 猎杀群 · 追击 U-505",
+  "until": "1944-06-11T00:00",
+  "waypoints": [
+   {
+    "at": "1944-05-30T12:00",
+    "pos": [
+     -20.0,
+     24.0
+    ]
+   },
+   {
+    "at": "1944-06-02T12:00",
+    "pos": [
+     -19.6,
+     22.6
+    ]
+   },
+   {
+    "at": "1944-06-04T11:00",
+    "pos": [
+     -19.2,
+     21.3
+    ]
+   },
+   {
+    "at": "1944-06-10T12:00",
+    "pos": [
+     -27.0,
+     23.5
+    ]
+   }
+  ],
+  "schematic": true,
+  "sources": [
+   "mori_atlantic_won",
+   "nh_ship_histories"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "r.torch_cover",
+  "side": "US",
+  "unit": "us.atl",
+  "style": "main",
+  "widthKm": 20,
+  "movement": "sea",
+  "role": "escort",
+  "label": "火炬行动 · 跨大西洋登陆输送",
+  "until": "1942-11-12T00:00",
+  "waypoints": [
+   {
+    "at": "1942-10-28T12:00",
+    "pos": [
+     -76.3,
+     36.97
+    ]
+   },
+   {
+    "at": "1942-11-03T12:00",
+    "pos": [
+     -30.0,
+     40.0
+    ]
+   },
+   {
+    "at": "1942-11-08T01:00",
+    "pos": [
+     -7.6,
+     33.6
+    ]
+   }
+  ],
+  "schematic": true,
+  "sources": [
+   "roskill_1956",
+   "mori_atlantic_won"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "r.normandy_supply",
+  "side": "GB",
+  "unit": "gb.wa",
+  "style": "main",
+  "widthKm": 12,
+  "movement": "sea",
+  "role": "escort",
+  "label": "诺曼底 · 跨海峡补给",
+  "until": "1944-08-31T00:00",
+  "waypoints": [
+   {
+    "at": "1944-06-06T04:30",
+    "pos": [
+     -1.404,
+     50.91
+    ]
+   },
+   {
+    "at": "1944-06-07T12:00",
+    "pos": [
+     -0.62,
+     49.34
+    ]
+   },
+   {
+    "at": "1944-06-12T12:00",
+    "pos": [
+     -0.6,
+     49.4
+    ]
+   }
+  ],
+  "schematic": true,
+  "sources": [
+   "roskill_1960",
+   "nh_normandy"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "r.coastal_convoy",
+  "side": "US",
+  "unit": "us.atl",
+  "style": "secondary",
+  "widthKm": 10,
+  "movement": "sea",
+  "role": "escort",
+  "label": "美国沿岸船团 · 汉普顿锚地—基韦斯特",
+  "until": "1943-06-01T00:00",
+  "waypoints": [
+   {
+    "at": "1942-05-14T06:00",
+    "pos": [
+     -76.3,
+     36.97
+    ]
+   },
+   {
+    "at": "1942-05-18T12:00",
+    "pos": [
+     -80.19,
+     25.76
+    ]
+   },
+   {
+    "at": "1942-05-20T12:00",
+    "pos": [
+     -81.78,
+     24.555
+    ]
+   }
+  ],
+  "schematic": true,
+  "sources": [
+   "roskill_1956",
+   "mori_battle_atlantic"
+  ],
+  "confidence": "medium"
+ }
+]

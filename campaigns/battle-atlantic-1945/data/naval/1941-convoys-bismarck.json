@@ -1,0 +1,683 @@
+{
+ "fire": [
+  {
+   "id": "f.vanoc_u100",
+   "shooter": "gb.vanoc",
+   "target": "de.u100",
+   "weapon": "main",
+   "from": "1941-03-17T03:06",
+   "to": "1941-03-17T03:14",
+   "rounds": 10,
+   "salvoSec": 8,
+   "note": "瓦诺克号以早期雷达在暗夜中发现水面航行的 U-100，接近到不足 1,000 米后以四英寸炮平射并直冲撞击。OOB 的示意航迹把两舰绘成相距约 2 公里，实战距离见本注。",
+   "sources": [
+    "roskill_1954",
+    "blair_1996",
+    "uboat_net"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "f.bulldog_u110",
+   "shooter": "gb.bulldog",
+   "target": "de.u110",
+   "weapon": "main",
+   "from": "1941-05-09T10:30",
+   "to": "1941-05-09T10:52",
+   "rounds": 20,
+   "salvoSec": 8,
+   "note": "U-110 被深水炸弹逼出水面后，斗牛犬号与百老汇号先开炮阻止艇员破坏设备，再靠帮登艇。OOB 航迹上两舰在 09:00 之后相向接近。",
+   "sources": [
+    "uboat_net",
+    "sebag_2000",
+    "nh_ship_histories"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "f.hood_bismarck",
+   "shooter": "gb.hood",
+   "target": "de.bismarck",
+   "weapon": "A",
+   "from": "1941-05-24T05:52",
+   "to": "1941-05-24T06:00",
+   "rounds": 20,
+   "salvoSec": 20,
+   "note": "胡德号于舰钟 05:52 向约 24,000 米外的德舰开火，误把欧根亲王号当作俾斯麦号，前几轮齐射落在其附近。本包统一采用 sources 给的舰钟读数（见事件 e.denmark_strait 的时钟说明），折算成 UTC 会有约两小时差。",
+   "sources": [
+    "gazette_38038",
+    "roskill_1954",
+    "nh_ship_histories"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "f.pow_bismarck",
+   "shooter": "gb.prince_of_wales",
+   "target": "de.bismarck",
+   "weapon": "A",
+   "from": "1941-05-24T05:53",
+   "to": "1941-05-24T06:04",
+   "rounds": 55,
+   "salvoSec": 22,
+   "note": "威尔士亲王号在 24,000 米开火，第十八轮齐射后转向脱离；主炮塔频繁故障，实际射速低于设计值（十八轮齐射时只有七门炮可用）。",
+   "sources": [
+    "gazette_38038",
+    "nh_ship_histories"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "f.bismarck_hood",
+   "shooter": "de.bismarck",
+   "target": "gb.hood",
+   "weapon": "A",
+   "from": "1941-05-24T05:55",
+   "to": "1941-05-24T06:00",
+   "rounds": 20,
+   "salvoSec": 20,
+   "note": "俾斯麦号在约 22,000 米开火（德方记录 05:55，英方 05:53），第三次齐射夹叉，第五次齐射击穿胡德号后部弹药库。舰长林德曼在炮术长三次请示后才喊出「开火许可」。",
+   "sources": [
+    "gazette_38038",
+    "roskill_1954"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "f.pe_hood",
+   "shooter": "de.prinz_eugen",
+   "target": "gb.hood",
+   "weapon": "A",
+   "from": "1941-05-24T05:55",
+   "to": "1941-05-24T06:00",
+   "rounds": 30,
+   "salvoSec": 12,
+   "note": "欧根亲王号以 20.3 厘米主炮先于俾斯麦号开火，命中胡德号中部并引发舰上火灾——这团火常被误认为胡德号自己的爆炸。",
+   "sources": [
+    "gazette_38038",
+    "nh_ship_histories"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "f.bismarck_pow",
+   "shooter": "de.bismarck",
+   "target": "gb.prince_of_wales",
+   "weapon": "B",
+   "from": "1941-05-24T06:02",
+   "to": "1941-05-24T06:12",
+   "rounds": 24,
+   "salvoSec": 22,
+   "note": "击沉胡德号后德舰转移火力，威尔士亲王号被命中七发（含一发水下弹），舰桥人员大量伤亡。",
+   "sources": [
+    "gazette_38038",
+    "roskill_1954",
+    "nh_ship_histories"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "f.pow_bismarck_2",
+   "shooter": "gb.prince_of_wales",
+   "target": "de.bismarck",
+   "weapon": "Y",
+   "from": "1941-05-24T06:02",
+   "to": "1941-05-24T06:12",
+   "rounds": 24,
+   "salvoSec": 22,
+   "note": "转向脱离后由后部炮塔在本地控制下继续射击，直到弹链卡死。",
+   "sources": [
+    "nh_ship_histories",
+    "gazette_38038"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "f.rodney_bismarck",
+   "shooter": "gb.rodney",
+   "target": "de.bismarck",
+   "weapon": "A",
+   "from": "1941-05-27T08:47",
+   "to": "1941-05-27T09:31",
+   "rounds": 380,
+   "salvoSec": 28,
+   "note": "罗德尼号从约 15,000 米起持续轰击，距离一度缩到 3,000 米以内；四十四分钟内打哑俾斯麦号全部四座主炮。OOB 把终局压成同一点，实战距离见本注。",
+   "sources": [
+    "roskill_1954",
+    "gazette_38038",
+    "nh_ship_histories"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "f.kgv_bismarck",
+   "shooter": "gb.king_george_v",
+   "target": "de.bismarck",
+   "weapon": "A",
+   "from": "1941-05-27T08:47",
+   "to": "1941-05-27T09:15",
+   "rounds": 300,
+   "salvoSec": 26,
+   "note": "英王乔治五世号在约 11,000–16,000 米射击；九时十五分后因燃油吃紧先行转向，由罗德尼号继续。",
+   "sources": [
+    "roskill_1954",
+    "gazette_38038"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "f.bismarck_rodney",
+   "shooter": "de.bismarck",
+   "target": "gb.rodney",
+   "weapon": "C",
+   "from": "1941-05-27T08:49",
+   "to": "1941-05-27T09:10",
+   "rounds": 40,
+   "salvoSec": 26,
+   "note": "俾斯麦号前三轮齐射即夹叉罗德尼号，但因舵机卡死、舰体打圈而无法稳定测距，无一命中。此后各炮塔被逐一打哑。",
+   "sources": [
+    "roskill_1954",
+    "gazette_38038"
+   ],
+   "confidence": "high"
+  }
+ ],
+ "hits": [
+  {
+   "id": "h.u100_ram",
+   "at": "1941-03-17T03:14",
+   "shooter": "gb.vanoc",
+   "target": "de.u100",
+   "weapon": "main",
+   "location": "指挥塔与耐压壳体",
+   "effect": "瓦诺克号撞击并投下深水炸弹，把 U-100 压到水面以下；艇长舍普克与多数艇员阵亡，仅 6 人生还。这是舰载雷达首次在夜战中发现并撞沉 U 艇。",
+   "killed": 38,
+   "severity": 1,
+   "precision": "minute",
+   "sources": [
+    "roskill_1954",
+    "blair_1996",
+    "uboat_net"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "h.u99_dc",
+   "at": "1941-03-17T03:25",
+   "target": "de.u99",
+   "location": "艇体（深水炸弹）",
+   "effect": "沃克号连续投下十枚深水炸弹，U-99 耐压壳体破损、无法下潜；克雷奇默尔上浮后下令自沉。OOB 无沃克号驱逐舰档案（本包以第 2 护航群旗舰「燕八哥」号代表该群），故不填 shooter。",
+   "severity": 2,
+   "gunsOut": [
+    "tt"
+   ],
+   "sources": [
+    "roskill_1954",
+    "blair_1996",
+    "uboat_net"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "h.u110_dc",
+   "at": "1941-05-09T10:20",
+   "shooter": "gb.bulldog",
+   "target": "de.u110",
+   "location": "艇体（深水炸弹）",
+   "effect": "奥布里蒂亚号、斗牛犬号与百老汇号连续投掷深水炸弹，把 U-110 逼出水面；艇员弃艇时未能打开全部通海阀，也来不及销毁密码本。",
+   "severity": 2,
+   "gunsOut": [
+    "tt"
+   ],
+   "sources": [
+    "uboat_net",
+    "sebag_2000",
+    "nh_ship_histories"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "h.hood_pe_hit",
+   "at": "1941-05-24T05:57",
+   "shooter": "de.prinz_eugen",
+   "target": "gb.hood",
+   "weapon": "A",
+   "location": "舰体中部",
+   "effect": "20.3 厘米弹命中中部引发大火，火势从甲板蔓延；这团火与随后的大爆炸常被混为一谈。",
+   "severity": 2,
+   "precision": "minute",
+   "sources": [
+    "gazette_38038",
+    "nh_ship_histories"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "h.hood_fatal",
+   "at": "1941-05-24T06:00",
+   "shooter": "de.bismarck",
+   "target": "gb.hood",
+   "weapon": "A",
+   "location": "后部主弹药库附近",
+   "effect": "38 厘米弹穿透薄装甲进入弹药库，cordite 起火后整舰后部殉爆；胡德号在约三分钟内断成两截沉没，1,418 人中仅 3 人生还。",
+   "killed": 1415,
+   "severity": 1,
+   "gunsOut": [
+    "A",
+    "B",
+    "X",
+    "Y"
+   ],
+   "precision": "minute",
+   "sources": [
+    "gazette_38038",
+    "roskill_1954",
+    "nh_ship_histories"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "h.pow_bridge",
+   "at": "1941-05-24T06:05",
+   "shooter": "de.bismarck",
+   "target": "gb.prince_of_wales",
+   "weapon": "B",
+   "location": "舰桥",
+   "effect": "38 厘米弹击中舰桥，除舰长与一名信号官外几乎全部人员伤亡；紧接着一发水下弹命中舰体，主炮塔故障频发。",
+   "killed": 13,
+   "severity": 2,
+   "gunsOut": [
+    "Y"
+   ],
+   "precision": "minute",
+   "sources": [
+    "gazette_38038",
+    "nh_ship_histories"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "h.bismarck_bow",
+   "at": "1941-05-24T05:59",
+   "shooter": "gb.prince_of_wales",
+   "target": "de.bismarck",
+   "weapon": "A",
+   "location": "舰艏（水下）",
+   "effect": "14 英寸弹从舰艏水线附近穿入并在内部爆炸，前部燃油舱进水；俾斯麦号航速损失、艏倾，被迫放弃破交转向法国。",
+   "severity": 2,
+   "precision": "minute",
+   "sources": [
+    "gazette_38038",
+    "nh_ship_histories",
+    "roskill_1954"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "h.bismarck_rudder",
+   "at": "1941-05-26T21:07",
+   "target": "de.bismarck",
+   "location": "舰尾舵机舱",
+   "effect": "剑鱼式机投下的 18 英寸鱼雷在舰尾爆炸，舵机卡死在左 12°；俾斯麦号从此只能打圈，航向无法保持。机队来自皇家方舟号，OOB 无舰载机档案，故不填 shooter。",
+   "severity": 1,
+   "precision": "minute",
+   "sources": [
+    "roskill_1954",
+    "nh_ship_histories",
+    "gazette_38038"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "h.bismarck_guidance",
+   "at": "1941-05-27T09:02",
+   "shooter": "gb.rodney",
+   "target": "de.bismarck",
+   "weapon": "A",
+   "location": "前部指挥塔与前主炮",
+   "effect": "16 英寸弹打掉前部指挥塔与「安东」「布鲁诺」两座主炮塔，舰体失去火控；此后各炮塔只能由炮长本地控制。前部指挥塔人员大量伤亡（战报未逐项列出，全舰阵亡数记在当日 10:39 的沉没条目上，避免重复计数）。",
+   "severity": 2,
+   "gunsOut": [
+    "A",
+    "B"
+   ],
+   "precision": "minute",
+   "sources": [
+    "roskill_1954",
+    "gazette_38038"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "h.bismarck_silenced",
+   "at": "1941-05-27T09:20",
+   "shooter": "gb.rodney",
+   "target": "de.bismarck",
+   "weapon": "A",
+   "location": "「凯撒」「多拉」炮塔",
+   "effect": "四座主炮塔全部被打哑，舰上火灾连成一片；九时三十分德方下令自沉并弃舰。舰上约 2,200 人（一说 2,092 人），最终仅 114 人生还。",
+   "severity": 1,
+   "gunsOut": [
+    "C",
+    "D"
+   ],
+   "precision": "minute",
+   "sources": [
+    "roskill_1954",
+    "nh_ship_histories"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "h.bismarck_foundered",
+   "at": "1941-05-27T10:39",
+   "target": "de.bismarck",
+   "location": "全舰",
+   "effect": "在自沉令与英舰鱼雷的共同作用下倾覆沉没；舰上约 2,200 人中仅 114 人生还，包括舰长林德曼与舰队司令吕特晏斯在内的大多数官兵随舰沉没。「是被击沉的还是自沉的」在战后长期争论，本包按「自沉加速了必然的沉没」记。",
+   "killed": 1995,
+   "severity": 1,
+   "precision": "minute",
+   "sources": [
+    "roskill_1954",
+    "nh_ship_histories",
+    "battleatlantic_1946"
+   ],
+   "confidence": "high"
+  }
+ ],
+ "torpedoes": [
+  {
+   "id": "t.u552_reuben_james",
+   "at": "1941-10-31T05:25",
+   "shooter": "de.u552",
+   "count": 2,
+   "target": "us.reuben_james",
+   "spreadDeg": 4,
+   "result": "托普在黎明前向船团发射两雷，其中一雷命中为商船瞄准的航路上的鲁本·詹姆斯号舰艏，弹药库殉爆，舰艏立即沉没。",
+   "sources": [
+    "uboat_net",
+    "mori_battle_atlantic",
+    "nh_ship_histories"
+   ],
+   "confidence": "high"
+  }
+ ],
+ "smoke": [
+  {
+   "id": "s.hood_fire_smoke",
+   "ship": "gb.hood",
+   "from": "1941-05-24T05:57",
+   "to": "1941-05-24T06:00",
+   "kind": "funnel",
+   "widthKm": 0.6,
+   "persistMin": 4,
+   "driftDeg": 70,
+   "note": "中部中弹后腾起的大股黑烟，是胡德号沉没前最后可见的影像；丹麦海峡的水兵回忆「像一座塔」。",
+   "sources": [
+    "gazette_38038",
+    "nh_ship_histories"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "s.pow_withdraw",
+   "ship": "gb.prince_of_wales",
+   "from": "1941-05-24T06:04",
+   "to": "1941-05-24T06:18",
+   "kind": "screen",
+   "widthKm": 1.0,
+   "persistMin": 25,
+   "driftDeg": 90,
+   "note": "李奇舰长下令施放烟幕撤离，「以待更有利的时机」；英方战报与德方观测都记录到这道烟幕。",
+   "sources": [
+    "nh_ship_histories",
+    "gazette_38038"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "s.bismarck_burning",
+   "ship": "de.bismarck",
+   "from": "1941-05-27T09:05",
+   "to": "1941-05-27T10:39",
+   "kind": "funnel",
+   "widthKm": 1.4,
+   "persistMin": 60,
+   "driftDeg": 120,
+   "note": "舰体中部与上层建筑持续燃烧，浓烟在十五公里外可见；英舰放慢速度绕着这团烟航行。",
+   "sources": [
+    "roskill_1954",
+    "nh_ship_histories"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "s.audacity_screen",
+   "ship": "gb.audacity",
+   "from": "1941-12-21T17:55",
+   "to": "1941-12-21T21:50",
+   "kind": "funnel",
+   "widthKm": 1.2,
+   "persistMin": 30,
+   "driftDeg": 200,
+   "note": "HG 76 最后阶段：大胆号被 U-751 的鱼雷击中后起火停船，浓烟在夜色中清晰可见，护航舰借这团烟与照明弹定位来袭 U 艇并反击；二十二时大胆号爆炸沉没。",
+   "sources": [
+    "blair_1996",
+    "roskill_1954"
+   ],
+   "confidence": "medium"
+  }
+ ],
+ "damage": [
+  {
+   "ship": "de.u100",
+   "at": "1941-03-17T03:16",
+   "integrity": 0,
+   "speedKn": 0,
+   "note": "被撞沉于冰岛以南，38 人阵亡。舍普克是邓尼茨麾下三位「二百艘」王牌之一，十天内三王牌尽失。",
+   "sources": [
+    "roskill_1954",
+    "uboat_net"
+   ]
+  },
+  {
+   "ship": "de.u99",
+   "at": "1941-03-17T03:26",
+   "integrity": 0.18,
+   "speedKn": 0,
+   "note": "被沃克号深水炸弹重创，耐压壳体破损、无法下潜；克雷奇默尔下令自沉，43 人被俘。",
+   "sources": [
+    "roskill_1954",
+    "blair_1996",
+    "uboat_net"
+   ]
+  },
+  {
+   "ship": "de.u99",
+   "at": "1941-03-17T03:43",
+   "integrity": 0,
+   "speedKn": 0,
+   "note": "自沉于 61°00′N 11°48′W；克雷奇默尔在救生艇上被英舰救起，此后在加拿大战俘营度过余战。",
+   "sources": [
+    "uboat_net",
+    "roskill_1954"
+   ]
+  },
+  {
+   "ship": "de.u110",
+   "at": "1941-05-09T10:50",
+   "integrity": 0.35,
+   "speedKn": 0,
+   "gunsOut": [
+    "tt"
+   ],
+   "note": "弃艇后被英方登艇搜走恩尼格玛机、密钥表与双字母表；英舰试图拖带，次日晨艇沉。俘虏被隔离关押以掩盖这次缴获。",
+   "sources": [
+    "uboat_net",
+    "sebag_2000",
+    "kahn_1991"
+   ]
+  },
+  {
+   "ship": "gb.hood",
+   "at": "1941-05-24T05:57",
+   "integrity": 0.82,
+   "speedKn": 28,
+   "fire": true,
+   "note": "欧根亲王号命中引发中部火灾，火势向弹药提升通道蔓延；胡德号仍在射击。",
+   "sources": [
+    "gazette_38038"
+   ]
+  },
+  {
+   "ship": "gb.hood",
+   "at": "1941-05-24T06:00",
+   "integrity": 0,
+   "speedKn": 0,
+   "fire": true,
+   "listDeg": 20,
+   "note": "后部弹药库殉爆，舰体断成两截，三分钟内沉没。1,418 人中 3 人生还。",
+   "sources": [
+    "gazette_38038",
+    "nh_ship_histories"
+   ]
+  },
+  {
+   "ship": "gb.prince_of_wales",
+   "at": "1941-05-24T06:08",
+   "integrity": 0.78,
+   "speedKn": 27,
+   "gunsOut": [
+    "Y"
+   ],
+   "note": "舰桥中弹、水下弹命中、主炮塔多次故障；李奇舰长判断继续交战只会白白损失本舰，下令脱离。",
+   "sources": [
+    "gazette_38038",
+    "nh_ship_histories"
+   ]
+  },
+  {
+   "ship": "de.bismarck",
+   "at": "1941-05-24T06:00",
+   "integrity": 0.9,
+   "speedKn": 28,
+   "note": "舰艏中弹、前部油舱进水，航速降至 28 节并留下油迹；吕特晏斯决定放弃破交驶向圣纳泽尔。",
+   "sources": [
+    "gazette_38038",
+    "roskill_1954"
+   ]
+  },
+  {
+   "ship": "de.bismarck",
+   "at": "1941-05-27T08:50",
+   "integrity": 0.7,
+   "speedKn": 7,
+   "note": "舵机被鱼雷卡死在左 12°，舰体开始打圈、无法保持射向；这是它最终被追上的直接原因。",
+   "sources": [
+    "roskill_1954",
+    "nh_ship_histories"
+   ]
+  },
+  {
+   "ship": "de.bismarck",
+   "at": "1941-05-27T09:10",
+   "integrity": 0.35,
+   "speedKn": 0,
+   "fire": true,
+   "listDeg": -6,
+   "gunsOut": [
+    "A",
+    "B"
+   ],
+   "note": "前部指挥塔被毁，两座前主炮塔失去火控；舰体多处进水，速度接近于零。",
+   "sources": [
+    "roskill_1954",
+    "gazette_38038"
+   ]
+  },
+  {
+   "ship": "de.bismarck",
+   "at": "1941-05-27T09:31",
+   "integrity": 0.15,
+   "speedKn": 0,
+   "fire": true,
+   "listDeg": -10,
+   "gunsOut": [
+    "C",
+    "D"
+   ],
+   "note": "全部主炮与副炮被压制，舰上火灾失控；舰长林德曼与吕特晏斯先后下令自沉并打开通海阀。",
+   "sources": [
+    "roskill_1954",
+    "nh_ship_histories"
+   ]
+  },
+  {
+   "ship": "de.bismarck",
+   "at": "1941-05-27T10:39",
+   "integrity": 0,
+   "speedKn": 0,
+   "fire": true,
+   "listDeg": 30,
+   "note": "倾覆沉没；2,200 余人中 114 人生还。英舰多塞特郡号与毛利人号救起幸存者后因 U 艇警报撤离。",
+   "sources": [
+    "roskill_1954",
+    "nh_ship_histories",
+    "battleatlantic_1946"
+   ]
+  },
+  {
+   "ship": "us.reuben_james",
+   "at": "1941-10-31T05:31",
+   "integrity": 0,
+   "speedKn": 0,
+   "fire": true,
+   "note": "舰艏被鱼雷炸断后弹药库殉爆，前段立即沉没，后段浮了约五分钟才沉；144 名官兵中 100 人阵亡，44 人获救。",
+   "sources": [
+    "mori_battle_atlantic",
+    "uboat_net",
+    "nh_ship_histories"
+   ]
+  },
+  {
+   "ship": "gb.audacity",
+   "at": "1941-12-21T18:10",
+   "integrity": 0.4,
+   "speedKn": 6,
+   "listDeg": 8,
+   "note": "被 U-751 的鱼雷击中后部，舵机与主机受损，无法跟随船团；舰载机已全部损失或转场。",
+   "sources": [
+    "blair_1996",
+    "roskill_1954"
+   ]
+  },
+  {
+   "ship": "gb.audacity",
+   "at": "1941-12-21T22:00",
+   "integrity": 0,
+   "speedKn": 0,
+   "fire": true,
+   "listDeg": 25,
+   "note": "第二次被击中后爆炸沉没，85 人阵亡；它证明护航航母能覆盖空白区，也证明单艘护航航母在夜战中的脆弱。",
+   "sources": [
+    "blair_1996",
+    "roskill_1954"
+   ]
+  },
+  {
+   "ship": "de.u110",
+   "at": "1941-05-10T11:00",
+   "integrity": 0,
+   "speedKn": 0,
+   "gunsOut": [
+    "tt"
+   ],
+   "note": "拖带失败后艇体进水沉没；英方把这次俘获列为最高机密，俘虏被隔离关押，文件直到战后才解密。",
+   "sources": [
+    "sebag_2000",
+    "kahn_1991",
+    "uboat_net"
+   ]
+  }
+ ]
+}

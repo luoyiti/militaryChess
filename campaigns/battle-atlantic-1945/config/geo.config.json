@@ -1,0 +1,1465 @@
+{
+  "_doc": "大西洋海战（1939-09-03 — 1945-05-08）地理管线参数（sh tools/geo/run.sh battle-atlantic-1945）。frame 为北大西洋全幅圆锥；borders 为 1938 年国界（historical-basemaps world_1938），殖民地、自治领、托管地各给独立 id；sea.bathymetry 启用水深设色与等深线；dem.zoom 5（全洋盆）。",
+  "seed": 1939,
+  "frame": {
+    "bbox": [
+      -85,
+      -12,
+      45,
+      78
+    ],
+    "parallels": [
+      25,
+      62
+    ],
+    "rotate": [
+      -25,
+      0
+    ],
+    "center": [
+      0,
+      36
+    ],
+    "width": 8192,
+    "tileLevels": [
+      1024,
+      2048,
+      4096,
+      8192
+    ],
+    "fieldCell": 16,
+    "clampKm": 60,
+    "kmProbe": [
+      -25,
+      30
+    ],
+    "_doc": "bbox 85°W–45°E、12°S–78°N；画布 8192×6464（1 单位 ≈ 2.0 km，kmProbe 在 25°W 30°N）。标准纬线 25°N / 62°N 夹住中大西洋与 U 艇主战区，比例误差在 30–55°N 内约 ±3%；中央经线 25°W。画布四边反算到约 100°W–140°E、36°S–88°N（圆锥顶端在画布上缘之外），故 clip / region 取画布反算范围，避免矢量与底图错位。"
+  },
+  "region": [
+    -102,
+    -39,
+    142,
+    90
+  ],
+  "clip": [
+    -101,
+    -38,
+    141,
+    89
+  ],
+  "dem": {
+    "zoom": 5
+  },
+  "borders": {
+    "source": "world_1938",
+    "ids": {
+      "Afghanistan": "AF",
+      "Albania": "AL",
+      "Algeria (France)": "DZA",
+      "Andorra": "AD",
+      "Angola (Portugal)": "AO",
+      "Anguilla": "AI",
+      "Antigua and Barbuda": "AG",
+      "Argentina": "AR",
+      "Armenia": "ARM",
+      "Australia": "AU",
+      "Bahamas": "BS",
+      "Barbados": "BB",
+      "Belgian Congo": "BCG",
+      "Belgium": "BE",
+      "Belize": "BZ",
+      "Bhutan": "BT",
+      "Bolivia": "BO",
+      "Botswana": "BEC",
+      "Brazil": "BR",
+      "British Raj": "IN",
+      "British Somaliland": "BSO",
+      "Brunei": "BRU",
+      "Bulgaria": "BG",
+      "Burundi": "RU",
+      "Cambodia": "FIC",
+      "Canada": "CA",
+      "Ceylon": "CE",
+      "Chile": "CL",
+      "Chinese warlords": "CN",
+      "Cochin China": "FIC",
+      "Colombia": "CO",
+      "Congo (France)": "AEF",
+      "Costa Rica": "CR",
+      "Cuba": "CU",
+      "Czechoslovakia": "CS",
+      "Denmark": "DK",
+      "Dominica": "DM",
+      "Dominican Republic": "DO",
+      "Dominion of Newfoundland": "NF",
+      "Dutch East Indies": "DEI",
+      "Ecuador": "EC",
+      "Egypt": "EG",
+      "El Salvador": "SV",
+      "Emirate of Bin Shal'an": "SA",
+      "Empire of Japan": "JP",
+      "Equatorial Guinea": "GQ",
+      "Eritrea (Italy)": "IEA",
+      "Estonia": "EE",
+      "Ethiopia (Italy)": "IEA",
+      "Finland": "FI",
+      "France": "FR",
+      "French Cameroons": "CMF",
+      "French Equatorial Africa": "AEF",
+      "French Guiana": "GF",
+      "French Indo-China": "FIC",
+      "French Somaliland": "FSO",
+      "French West Africa": "AOF",
+      "Gambia, The": "GM",
+      "Germany": "DE",
+      "Gold Coast": "GC",
+      "Greece": "GR",
+      "Grenada": "GD",
+      "Guadeloupe": "GP",
+      "Guatemala": "GT",
+      "Guinea-Bissau": "PTG",
+      "Guyana": "GY",
+      "Hail": "SA",
+      "Haiti": "HT",
+      "Hejaz": "SA",
+      "Honduras": "HN",
+      "Hong Kong": "HK",
+      "Hungary": "HU",
+      "India": "IN",
+      "Iran": "IR",
+      "Ireland": "IE",
+      "Israel": "PAL",
+      "Italian Somaliland": "IEA",
+      "Italy": "IT",
+      "Jamaica": "JM",
+      "Kenya": "KE",
+      "Laos": "FIC",
+      "Latvia": "LV",
+      "Lesotho": "BAS",
+      "Liberia": "LR",
+      "Libya": "LY",
+      "Lithuania": "LT",
+      "Luxembourg": "LU",
+      "Madagascar (France)": "MG",
+      "Malawi": "NYA",
+      "Malaysia": "MY",
+      "Mandatory Palestine (GB)": "PAL",
+      "Martinique": "MQ",
+      "Mesopotamia (GB)": "IRQ",
+      "Mexico": "MX",
+      "Mongolia": "MN",
+      "Montserrat": "MS",
+      "Morocco (France)": "MAR",
+      "Mozambique (Portugal)": "MZ",
+      "Muscat and Oman": "MUS",
+      "Nepal": "NP",
+      "Netherlands": "NL",
+      "Netherlands Antilles": "ANT",
+      "Nicaragua": "NIC",
+      "Nigeria": "NG",
+      "Northern Rhodesia": "NRH",
+      "Norway": "NO",
+      "Oman (British Raj)": "MUS",
+      "Panama": "PA",
+      "Paraguay": "PY",
+      "Peru": "PE",
+      "Philippines": "PH",
+      "Poland": "PL",
+      "Portugal": "PT",
+      "Puerto Rico": "PR",
+      "Qatar": "QAT",
+      "Rio De Oro": "SAH",
+      "Romania": "RO",
+      "Rwanda (Belgium)": "RU",
+      "Saint Barthelemy": "BL",
+      "Saint Kitts and Nevis": "KN",
+      "Saint Lucia": "LC",
+      "Saint Martin": "MF",
+      "Saint Vincent and the Grenadines": "VC",
+      "Saudi Arabia": "SA",
+      "Siam": "TH",
+      "Sierra Leone": "SL",
+      "Southern Rhodesia": "SRH",
+      "Spain": "ES",
+      "Spanish Sahara": "SAH",
+      "Sudan": "SD",
+      "Suriname": "SR",
+      "Swaziland": "SWZ",
+      "Sweden": "SE",
+      "Switzerland": "CH",
+      "Syria (France)": "SY",
+      "Tanzania, United Republic of": "TZ",
+      "Tibet": "CN",
+      "Togo": "TG",
+      "Trinidad": "TT",
+      "Trucial Oman": "TRU",
+      "Tunisia": "TUN",
+      "Turkey": "TR",
+      "Turks and Caicos Islands": "TC",
+      "USSR": "SU",
+      "Uganda": "UG",
+      "Union of South Africa": "ZA",
+      "United Kingdom": "GB",
+      "United States": "US",
+      "United States Virgin Islands": "VI",
+      "Uruguay": "UY",
+      "Venezuela": "VE",
+      "Walbis Bay": "ZA",
+      "Xinjiang": "CN",
+      "Yemen": "YE",
+      "Yemen (UK)": "YE",
+      "Yugoslavia": "YU"
+    },
+    "zh": {
+      "AD": "安道尔",
+      "AEF": "法属赤道非洲",
+      "AF": "阿富汗",
+      "AG": "安提瓜和巴布达（英）",
+      "AI": "安圭拉（英）",
+      "AL": "阿尔巴尼亚",
+      "ANT": "荷属安的列斯",
+      "AO": "葡属安哥拉",
+      "AOF": "法属西非",
+      "AR": "阿根廷",
+      "ARM": "亚美尼亚（苏）",
+      "AU": "澳大利亚",
+      "BAS": "巴苏陀兰（英）",
+      "BB": "巴巴多斯（英）",
+      "BCG": "比属刚果",
+      "BE": "比利时",
+      "BEC": "贝专纳兰（英）",
+      "BG": "保加利亚",
+      "BL": "圣巴泰勒米（法）",
+      "BO": "玻利维亚",
+      "BR": "巴西",
+      "BRU": "文莱（英保护）",
+      "BS": "巴哈马（英）",
+      "BSO": "英属索马里兰",
+      "BT": "不丹",
+      "BZ": "英属洪都拉斯",
+      "CA": "加拿大",
+      "CE": "锡兰（英）",
+      "CH": "瑞士",
+      "CL": "智利",
+      "CMF": "法属喀麦隆（托管）",
+      "CN": "中国",
+      "CO": "哥伦比亚",
+      "CR": "哥斯达黎加",
+      "CS": "捷克斯洛伐克",
+      "CU": "古巴",
+      "DE": "德国",
+      "DEI": "荷属东印度",
+      "DK": "丹麦",
+      "DM": "多米尼克（英）",
+      "DO": "多米尼加共和国",
+      "DZA": "阿尔及利亚（法）",
+      "EC": "厄瓜多尔",
+      "EE": "爱沙尼亚",
+      "EG": "埃及",
+      "ES": "西班牙",
+      "FI": "芬兰",
+      "FIC": "法属印度支那",
+      "FO": "法罗群岛（丹麦）",
+      "FR": "法国",
+      "FSO": "法属索马里兰",
+      "GB": "英国",
+      "GC": "黄金海岸（英）",
+      "GD": "格林纳达（英）",
+      "GF": "法属圭亚那",
+      "GL": "格陵兰（丹麦）",
+      "GM": "冈比亚（英）",
+      "GP": "瓜德罗普（法）",
+      "GQ": "西属几内亚",
+      "GR": "希腊",
+      "GT": "危地马拉",
+      "GY": "英属圭亚那",
+      "HK": "香港（英）",
+      "HN": "洪都拉斯",
+      "HT": "海地",
+      "HU": "匈牙利",
+      "IE": "爱尔兰",
+      "IEA": "意属东非",
+      "IN": "英属印度",
+      "IR": "伊朗",
+      "IRQ": "伊拉克（英托管）",
+      "IS": "冰岛",
+      "IT": "意大利",
+      "JM": "牙买加（英）",
+      "JP": "日本",
+      "KE": "肯尼亚（英）",
+      "KN": "圣基茨和尼维斯（英）",
+      "LC": "圣卢西亚（英）",
+      "LR": "利比里亚",
+      "LT": "立陶宛",
+      "LU": "卢森堡",
+      "LV": "拉脱维亚",
+      "LY": "利比亚（意）",
+      "MAR": "摩洛哥（法保护领）",
+      "MF": "圣马丁（法）",
+      "MG": "马达加斯加（法）",
+      "MN": "蒙古",
+      "MQ": "马提尼克（法）",
+      "MS": "蒙特塞拉特（英）",
+      "MUS": "马斯喀特和阿曼（英）",
+      "MX": "墨西哥",
+      "MY": "马来亚（英）",
+      "MZ": "葡属莫桑比克",
+      "NF": "纽芬兰自治领",
+      "NG": "尼日利亚（英）",
+      "NIC": "尼加拉瓜",
+      "NL": "荷兰",
+      "NO": "挪威",
+      "NP": "尼泊尔",
+      "NRH": "北罗得西亚（英）",
+      "NYA": "尼亚萨兰（英）",
+      "PA": "巴拿马",
+      "PAL": "巴勒斯坦（英托管）",
+      "PE": "秘鲁",
+      "PH": "菲律宾（美）",
+      "PL": "波兰",
+      "PR": "波多黎各（美）",
+      "PT": "葡萄牙",
+      "PTG": "葡属几内亚",
+      "PY": "巴拉圭",
+      "QAT": "卡塔尔（英保护）",
+      "RO": "罗马尼亚",
+      "RU": "卢安达-乌隆迪（比托管）",
+      "SA": "沙特阿拉伯",
+      "SAH": "西属撒哈拉",
+      "SD": "英埃苏丹",
+      "SE": "瑞典",
+      "SL": "塞拉利昂（英）",
+      "SR": "荷属苏里南",
+      "SRH": "南罗得西亚（英）",
+      "SU": "苏联",
+      "SV": "萨尔瓦多",
+      "SWA": "西南非洲（南非托管）",
+      "SWZ": "斯威士兰（英）",
+      "SY": "叙利亚（法托管）",
+      "TC": "特克斯和凯科斯（英）",
+      "TG": "多哥（法托管）",
+      "TH": "泰国",
+      "TR": "土耳其",
+      "TRU": "特鲁西尔阿曼（英）",
+      "TT": "特立尼达（英）",
+      "TUN": "突尼斯（法保护领）",
+      "TZ": "坦噶尼喀（英托管）",
+      "UG": "乌干达（英）",
+      "US": "美国",
+      "UY": "乌拉圭",
+      "VC": "圣文森特和格林纳丁斯（英）",
+      "VE": "委内瑞拉",
+      "VI": "美属维尔京群岛",
+      "YE": "也门",
+      "YU": "南斯拉夫",
+      "ZA": "南非联邦"
+    },
+    "merge": {
+      "AEF": [
+        "French Equatorial Africa",
+        "Congo (France)"
+      ],
+      "AU": [
+        "Australia"
+      ],
+      "BRU": [
+        "Brunei"
+      ],
+      "CN": [
+        "Chinese warlords",
+        "Tibet",
+        "Xinjiang"
+      ],
+      "FIC": [
+        "French Indo-China",
+        "Cochin China",
+        "Cambodia",
+        "Laos"
+      ],
+      "HK": [
+        "Hong Kong"
+      ],
+      "IEA": [
+        "Eritrea (Italy)",
+        "Italian Somaliland",
+        "Ethiopia (Italy)"
+      ],
+      "IN": [
+        "British Raj",
+        "Ceylon",
+        "India"
+      ],
+      "MUS": [
+        "Muscat and Oman",
+        "Oman (British Raj)"
+      ],
+      "MY": [
+        "Malaysia"
+      ],
+      "PAL": [
+        "Mandatory Palestine (GB)",
+        "Israel"
+      ],
+      "RU": [
+        "Rwanda (Belgium)",
+        "Burundi"
+      ],
+      "SA": [
+        "Saudi Arabia",
+        "Hejaz",
+        "Hail",
+        "Emirate of Bin Shal'an"
+      ],
+      "SAH": [
+        "Spanish Sahara",
+        "Rio De Oro"
+      ],
+      "YE": [
+        "Yemen",
+        "Yemen (UK)"
+      ],
+      "ZA": [
+        "Union of South Africa",
+        "Walbis Bay"
+      ]
+    },
+    "carve": [
+      {
+        "from": "Denmark",
+        "ne": "Iceland",
+        "id": "IS",
+        "zh": "冰岛"
+      },
+      {
+        "from": "Denmark",
+        "ne": "Greenland",
+        "id": "GL",
+        "zh": "格陵兰（丹麦）"
+      },
+      {
+        "from": "Union of South Africa",
+        "ne": "Namibia",
+        "id": "SWA",
+        "zh": "西南非洲（南非托管）"
+      }
+    ],
+    "ne": {
+      "Bermuda": "GB",
+      "Malta": "GB",
+      "Cyprus": "GB",
+      "Jersey": "GB",
+      "Guernsey": "GB",
+      "Isle of Man": "GB",
+      "Saint Pierre and Miquelon": "FR",
+      "Cabo Verde": "PT",
+      "Portugal": "PT",
+      "Trinidad and Tobago": "GB",
+      "Curaçao": "NL",
+      "Aruba": "NL",
+      "Bahamas": "GB",
+      "Faroe Islands": "FO",
+      "Iceland": "IS",
+      "Greenland": "GL"
+    },
+    "_doc": "1938 年国界。ids 覆盖画布内全部 world_1938 国名与殖民地（NAME → 短 id），zh 为中文名；merge 合并同一政治实体的多块与飞地（意属东非、卢安达-乌隆迪、法属赤道非洲、南非联邦、沙特阿拉伯、也门、巴勒斯坦等）；carve 从丹麦切出冰岛、格陵兰、法罗，从南非联邦切出西南非洲托管地；ne 补充 1938 数据缺失的岛屿。国界为 1938 年政治边界（波兰未瓜分、捷克斯洛伐克独立、阿尔巴尼亚独立），1939–1945 的占领与吞并未逐帧重绘——陆上国界在本战役只是海图的底衬。"
+  },
+  "masks": {
+    "landBit": 4,
+    "air": true,
+    "bits": {
+      "0": [
+        "DE",
+        "IT",
+        "AL",
+        "LY",
+        "IEA"
+      ],
+      "1": [
+        "GB",
+        "CA",
+        "US",
+        "FR",
+        "NL",
+        "BE",
+        "NO",
+        "PL",
+        "GR",
+        "YU",
+        "SU",
+        "IE",
+        "NF",
+        "ZA"
+      ]
+    },
+    "otherLandBit": 6,
+    "_doc": "控制区用空战模式（control.mode=\"air\"：raider / convoy 两个可重叠的跨海区域，见 docs/NAVAL.md §3），因此掩膜只写陆地位（bit 4）；air=true 时 bits 不参与掩膜计算，仅作文档：位 0 为轴心相关国家、位 1 为盟军相关国家。otherLandBit 6 为其余陆地。若将来改为领土模式，把 air 改为 false 即可得到 bits 掩膜。"
+  },
+  "rivers": {
+    "maxRank": 6,
+    "names": {
+      "Saint Lawrence": [
+        "Saint Lawrence",
+        "圣劳伦斯河",
+        1
+      ],
+      "St. Lawrence": [
+        "Saint Lawrence",
+        "圣劳伦斯河",
+        1
+      ],
+      "Ottawa": [
+        "Ottawa",
+        "渥太华河",
+        2
+      ],
+      "R. des Outaouais": [
+        "Rivière des Outaouais",
+        "渥太华河",
+        3
+      ],
+      "Saguenay": [
+        "Saguenay",
+        "萨格奈河",
+        2
+      ],
+      "Saint John": [
+        "Saint John",
+        "圣约翰河",
+        2
+      ],
+      "Hudson": [
+        "Hudson",
+        "哈得孙河",
+        1
+      ],
+      "Potomac": [
+        "Potomac",
+        "波托马克河",
+        2
+      ],
+      "S. Branch Potomac": [
+        "Potomac",
+        "波托马克河",
+        4
+      ],
+      "Susquehanna": [
+        "Susquehanna",
+        "萨斯奎哈纳河",
+        3
+      ],
+      "Delaware": [
+        "Delaware",
+        "特拉华河",
+        3
+      ],
+      "James": [
+        "James",
+        "詹姆斯河",
+        4
+      ],
+      "Savannah": [
+        "Savannah",
+        "萨凡纳河",
+        3
+      ],
+      "Altamaha": [
+        "Altamaha",
+        "阿尔塔马哈河",
+        4
+      ],
+      "Chattahoochee": [
+        "Chattahoochee",
+        "查塔胡奇河",
+        4
+      ],
+      "Alabama": [
+        "Alabama",
+        "亚拉巴马河",
+        4
+      ],
+      "Mississippi": [
+        "Mississippi",
+        "密西西比河",
+        1
+      ],
+      "Ohio": [
+        "Ohio",
+        "俄亥俄河",
+        2
+      ],
+      "Tennessee": [
+        "Tennessee",
+        "田纳西河",
+        3
+      ],
+      "Missouri": [
+        "Missouri",
+        "密苏里河",
+        2
+      ],
+      "Arkansas": [
+        "Arkansas",
+        "阿肯色河",
+        3
+      ],
+      "Red": [
+        "Red River",
+        "红河",
+        3
+      ],
+      "Rio Grande": [
+        "Rio Grande",
+        "格兰德河",
+        2
+      ],
+      "Colorado": [
+        "Colorado",
+        "科罗拉多河",
+        2
+      ],
+      "Saskatchewan": [
+        "Saskatchewan",
+        "萨斯喀彻温河",
+        2
+      ],
+      "Nelson": [
+        "Nelson",
+        "纳尔逊河",
+        2
+      ],
+      "Churchill": [
+        "Churchill",
+        "丘吉尔河",
+        3
+      ],
+      "La Grande": [
+        "La Grande",
+        "拉格兰德河",
+        4
+      ],
+      "Rupert": [
+        "Rupert",
+        "鲁珀特河",
+        4
+      ],
+      "Albany": [
+        "Albany",
+        "奥尔巴尼河",
+        4
+      ],
+      "St. Clair": [
+        "St. Clair",
+        "圣克莱尔河",
+        4
+      ],
+      "Niagara": [
+        "Niagara",
+        "尼亚加拉河",
+        4
+      ],
+      "Thames": [
+        "Thames",
+        "泰晤士河",
+        1
+      ],
+      "Avon": [
+        "Avon",
+        "埃文河",
+        4
+      ],
+      "Trent": [
+        "Trent",
+        "特伦特河",
+        3
+      ],
+      "Great Ouse": [
+        "Great Ouse",
+        "大乌斯河",
+        4
+      ],
+      "Severn": [
+        "Severn",
+        "塞文河",
+        3
+      ],
+      "Shannon": [
+        "Shannon",
+        "香农河",
+        2
+      ],
+      "Lee": [
+        "Lee",
+        "利河",
+        4
+      ],
+      "Barrow": [
+        "Barrow",
+        "巴罗河",
+        4
+      ],
+      "Clyde": [
+        "Clyde",
+        "克莱德河",
+        3
+      ],
+      "Forh": [
+        "Forth",
+        "福斯河",
+        4
+      ],
+      "Tay": [
+        "Tay",
+        "泰河",
+        4
+      ],
+      "Spey": [
+        "Spey",
+        "斯佩河",
+        4
+      ],
+      "Seine": [
+        "Seine",
+        "塞纳河",
+        1
+      ],
+      "Loire": [
+        "Loire",
+        "卢瓦尔河",
+        2
+      ],
+      "Garonne": [
+        "Garonne",
+        "加龙河",
+        2
+      ],
+      "Rhône": [
+        "Rhône",
+        "罗讷河",
+        2
+      ],
+      "Rhein": [
+        "Rhein / Rhine",
+        "莱茵河",
+        1
+      ],
+      "Rhine": [
+        "Rhein / Rhine",
+        "莱茵河",
+        1
+      ],
+      "Rhin": [
+        "Rhein / Rhine",
+        "莱茵河",
+        1
+      ],
+      "Nederrijn": [
+        "Nederrijn",
+        "下莱茵河",
+        3
+      ],
+      "Waal": [
+        "Waal",
+        "瓦尔河",
+        3
+      ],
+      "Lek": [
+        "Lek",
+        "莱克河",
+        4
+      ],
+      "IJssel": [
+        "IJssel",
+        "艾瑟尔河",
+        3
+      ],
+      "Maas": [
+        "Maas / Meuse",
+        "马斯河",
+        3
+      ],
+      "Schelde": [
+        "Schelde",
+        "斯海尔德河",
+        3
+      ],
+      "Elbe": [
+        "Elbe",
+        "易北河",
+        2
+      ],
+      "Weser": [
+        "Weser",
+        "威悉河",
+        3
+      ],
+      "Ems": [
+        "Ems",
+        "埃姆斯河",
+        4
+      ],
+      "Oder": [
+        "Oder",
+        "奥得河",
+        2
+      ],
+      "Vistula": [
+        "Vistula / Wisła",
+        "维斯瓦河",
+        2
+      ],
+      "Skagerrak": [],
+      "Glomma": [
+        "Glomma",
+        "格洛马河",
+        2
+      ],
+      "Göta älv": [
+        "Göta älv",
+        "约塔河",
+        3
+      ],
+      "Dalälven": [
+        "Dalälven",
+        "达尔河",
+        3
+      ],
+      "Kemijoki": [
+        "Kemijoki",
+        "凯米约基河",
+        3
+      ],
+      "Vorma": [
+        "Vorma",
+        "沃尔马河",
+        4
+      ],
+      "Kem": [
+        "Kem",
+        "凯姆河",
+        4
+      ],
+      "Mur": [
+        "Mur",
+        "穆尔河",
+        4
+      ],
+      "Ebro": [
+        "Ebro",
+        "埃布罗河",
+        2
+      ],
+      "Tajo": [
+        "Tajo / Tejo",
+        "塔霍河",
+        2
+      ],
+      "Tejo": [
+        "Tajo / Tejo",
+        "塔霍河",
+        2
+      ],
+      "Duero": [
+        "Duero / Douro",
+        "杜罗河",
+        3
+      ],
+      "Guadiana": [
+        "Guadiana",
+        "瓜迪亚纳河",
+        3
+      ],
+      "Guadalquivir": [
+        "Guadalquivir",
+        "瓜达尔基维尔河",
+        3
+      ],
+      "Júcar": [
+        "Júcar",
+        "胡卡尔河",
+        4
+      ],
+      "Po": [
+        "Po",
+        "波河",
+        2
+      ],
+      "Tevere": [
+        "Tevere",
+        "台伯河",
+        3
+      ],
+      "Arno": [
+        "Arno",
+        "阿尔诺河",
+        4
+      ],
+      "Neva": [
+        "Нева",
+        "涅瓦河",
+        1
+      ],
+      "Svir": [
+        "Свирь",
+        "斯维里河",
+        3
+      ],
+      "Volkhov": [
+        "Волхов",
+        "沃尔霍夫河",
+        4
+      ],
+      "Daugava": [
+        "Daugava / Западная Двина",
+        "西德维纳河",
+        2
+      ],
+      "Neman": [
+        "Неман",
+        "涅曼河",
+        3
+      ],
+      "Dnipro": [
+        "Днепр",
+        "第聂伯河",
+        2
+      ],
+      "Dnepre": [
+        "Днепр",
+        "第聂伯河",
+        2
+      ],
+      "Don": [
+        "Дон",
+        "顿河",
+        2
+      ],
+      "Volga": [
+        "Волга",
+        "伏尔加河",
+        1
+      ],
+      "Kama": [
+        "Кама",
+        "卡马河",
+        3
+      ],
+      "Oka": [
+        "Ока",
+        "奥卡河",
+        3
+      ],
+      "Severnaya Dvina": [
+        "Северная Двина",
+        "北德维纳河",
+        2
+      ],
+      "Pechora": [
+        "Печора",
+        "佩乔拉河",
+        3
+      ],
+      "Ural": [
+        "Урал",
+        "乌拉尔河",
+        3
+      ],
+      "Dniester": [
+        "Днестр",
+        "德涅斯特河",
+        3
+      ],
+      "Danube": [
+        "Donau / Danube",
+        "多瑙河",
+        1
+      ],
+      "Donau": [
+        "Donau / Danube",
+        "多瑙河",
+        1
+      ],
+      "Tisza": [
+        "Tisza",
+        "蒂萨河",
+        3
+      ],
+      "Tisa": [
+        "Tisza",
+        "蒂萨河",
+        3
+      ],
+      "Nile": [
+        "Nile",
+        "尼罗河",
+        1
+      ],
+      "El Bahr el Abyad": [
+        "White Nile",
+        "白尼罗河",
+        2
+      ],
+      "El Bahr el Azraq": [
+        "Blue Nile",
+        "青尼罗河",
+        2
+      ],
+      "Atbara": [
+        "Atbara",
+        "阿特巴拉河",
+        3
+      ],
+      "Rosetta Branch": [
+        "Rosetta",
+        "罗塞塔汊河",
+        3
+      ],
+      "Damietta Branch": [
+        "Damietta",
+        "达米埃塔汊河",
+        3
+      ],
+      "Niger": [
+        "Niger",
+        "尼日尔河",
+        1
+      ],
+      "Bénoué": [
+        "Bénoué",
+        "贝努埃河",
+        3
+      ],
+      "Benue": [
+        "Benue",
+        "贝努埃河",
+        3
+      ],
+      "Sénégal": [
+        "Sénégal",
+        "塞内加尔河",
+        2
+      ],
+      "Gambia": [
+        "Gambia",
+        "冈比亚河",
+        3
+      ],
+      "Volta": [
+        "Volta",
+        "沃尔特河",
+        2
+      ],
+      "Mouhoun": [
+        "Mouhoun (Black Volta)",
+        "黑沃尔特河",
+        3
+      ],
+      "Sassandra": [
+        "Sassandra",
+        "萨桑德拉河",
+        3
+      ],
+      "Bandama": [
+        "Bandama",
+        "班达马河",
+        3
+      ],
+      "Congo": [
+        "Congo",
+        "刚果河",
+        1
+      ],
+      "Ubangi": [
+        "Ubangi",
+        "乌班吉河",
+        2
+      ],
+      "Kasai": [
+        "Kasai",
+        "开赛河",
+        2
+      ],
+      "Kwango": [
+        "Kwango",
+        "宽果河",
+        3
+      ],
+      "Lualaba": [
+        "Lualaba",
+        "卢阿拉巴河",
+        2
+      ],
+      "Zambezi": [
+        "Zambezi",
+        "赞比西河",
+        2
+      ],
+      "Orange": [
+        "Orange",
+        "奥兰治河",
+        2
+      ],
+      "Vaal": [
+        "Vaal",
+        "瓦尔河",
+        3
+      ],
+      "Limpopo": [
+        "Limpopo",
+        "林波波河",
+        3
+      ],
+      "Chari": [
+        "Chari",
+        "沙里河",
+        3
+      ],
+      "Omo": [
+        "Omo",
+        "奥莫河",
+        3
+      ],
+      "Jubba": [
+        "Jubba",
+        "朱巴河",
+        3
+      ],
+      "Amazonas": [
+        "Amazonas",
+        "亚马孙河",
+        1
+      ],
+      "Rio Negro": [
+        "Rio Negro",
+        "内格罗河",
+        2
+      ],
+      "Madeira": [
+        "Madeira",
+        "马德拉河",
+        2
+      ],
+      "Tapajós": [
+        "Tapajós",
+        "塔帕若斯河",
+        3
+      ],
+      "Xingu": [
+        "Xingu",
+        "欣古河",
+        3
+      ],
+      "Tocantins": [
+        "Tocantins",
+        "托坎廷斯河",
+        2
+      ],
+      "Araguaia": [
+        "Araguaia",
+        "阿拉瓜亚河",
+        3
+      ],
+      "São Francisco": [
+        "São Francisco",
+        "圣弗朗西斯科河",
+        2
+      ],
+      "São  Francisco": [
+        "São Francisco",
+        "圣弗朗西斯科河",
+        2
+      ],
+      "Paraná": [
+        "Paraná",
+        "巴拉那河",
+        1
+      ],
+      "Paraguay": [
+        "Paraguay",
+        "巴拉圭河",
+        2
+      ],
+      "Uruguay": [
+        "Uruguay",
+        "乌拉圭河",
+        2
+      ],
+      "Pilcomayo": [
+        "Pilcomayo",
+        "皮科马约河",
+        3
+      ],
+      "Orinoco": [
+        "Orinoco",
+        "奥里诺科河",
+        2
+      ],
+      "Magdalena": [
+        "Magdalena",
+        "马格达莱纳河",
+        2
+      ],
+      "Cauca": [
+        "Cauca",
+        "考卡河",
+        3
+      ],
+      "Meta": [
+        "Meta",
+        "梅塔河",
+        3
+      ],
+      "Guaviare": [
+        "Guaviare",
+        "瓜维亚雷河",
+        3
+      ],
+      "Euphrates": [
+        "Euphrates / الفرات",
+        "幼发拉底河",
+        1
+      ],
+      "Al Furat": [
+        "Euphrates / الفرات",
+        "幼发拉底河",
+        2
+      ],
+      "Firat": [
+        "Euphrates / الفرات",
+        "幼发拉底河",
+        2
+      ],
+      "Tigris": [
+        "Tigris / دجلة",
+        "底格里斯河",
+        1
+      ],
+      "Dicle": [
+        "Tigris / دجلة",
+        "底格里斯河",
+        2
+      ],
+      "Shatt al-Arab": [
+        "Shatt al-Arab",
+        "阿拉伯河",
+        4
+      ],
+      "Jordan": [
+        "Jordan",
+        "约旦河",
+        3
+      ],
+      "Volga-Don Canal": [
+        "Волго-Донской канал",
+        "伏尔加—顿河运河",
+        4
+      ],
+      "Suez Canal": [
+        "Suez Canal",
+        "苏伊士运河",
+        1
+      ],
+      "Yangtze": [
+        "扬子江",
+        "长江",
+        1
+      ],
+      "Chang Jiang": [
+        "扬子江",
+        "长江",
+        1
+      ],
+      "Huang": [
+        "黄河",
+        "黄河",
+        1
+      ],
+      "Mekong": [
+        "Mekong",
+        "湄公河",
+        2
+      ],
+      "Ganges": [
+        "Ganges",
+        "恒河",
+        2
+      ],
+      "Indus": [
+        "Indus",
+        "印度河",
+        2
+      ],
+      "Brahmaputra": [
+        "Brahmaputra",
+        "布拉马普特拉河",
+        3
+      ],
+      "Amur": [
+        "Amur",
+        "阿穆尔河（黑龙江）",
+        2
+      ],
+      "Lena": [
+        "Лена",
+        "勒拿河",
+        2
+      ],
+      "Yenisey": [
+        "Енисей",
+        "叶尼塞河",
+        2
+      ],
+      "Ob": [
+        "Обь",
+        "鄂毕河",
+        2
+      ],
+      "Irtysh": [
+        "Иртыш",
+        "额尔齐斯河",
+        2
+      ],
+      "Ertis": [
+        "Иртыш",
+        "额尔齐斯河",
+        3
+      ]
+    }
+  },
+  "lakes": {
+    "maxRank": 4,
+    "keep": [
+      "IJsselmeer",
+      "Lake Il'Men'",
+      "Lake Ladoga",
+      "Lake Onega",
+      "Vättern",
+      "Mälaren",
+      "Lake Saimaa",
+      "Lake Peipus",
+      "Lake Pskov",
+      "Lake Ontario",
+      "Lake Erie",
+      "Lake Huron",
+      "Lake Michigan",
+      "Lake Superior",
+      "Lake Winnipeg",
+      "Lake Champlain",
+      "Lake Okeechobee",
+      "Lago de Nicaragua",
+      "Lough Neagh",
+      "Lake Geneva",
+      "Vänern"
+    ],
+    "zh": {
+      "Dead Sea": "死海",
+      "IJsselmeer": "艾瑟尔湖",
+      "Lac Moeru": "姆韦鲁湖",
+      "Lago de Izabal": "伊萨瓦尔湖",
+      "Lago de Managua": "马那瓜湖",
+      "Lago de Nicaragua": "尼加拉瓜湖",
+      "Lake Albert": "艾伯特湖",
+      "Lake Bangweulu": "班韦乌卢湖",
+      "Lake Baringo": "巴林戈湖",
+      "Lake Chad": "乍得湖",
+      "Lake Champlain": "尚普兰湖",
+      "Lake Edward": "爱德华湖",
+      "Lake Enriquillo": "恩里基约湖",
+      "Lake Erie": "伊利湖",
+      "Lake Geneva": "日内瓦湖",
+      "Lake Geneva ": "日内瓦湖",
+      "Lake Huron": "休伦湖",
+      "Lake Il'Men'": "伊尔门湖",
+      "Lake Kariba": "卡里巴湖",
+      "Lake Kivu": "基伍湖",
+      "Lake Kyoga": "基奥加湖",
+      "Lake Ladoga": "拉多加湖",
+      "Lake Malawi": "尼亚萨湖",
+      "Lake Maracaibo": "马拉开波湖",
+      "Lake Michigan": "密歇根湖",
+      "Lake Mweru": "姆韦鲁湖",
+      "Lake Naivasha": "奈瓦沙湖",
+      "Lake Nasser": "纳赛尔湖",
+      "Lake Okeechobee": "奥基乔比湖",
+      "Lake Onega": "奥涅加湖",
+      "Lake Ontario": "安大略湖",
+      "Lake Peipus": "楚德湖",
+      "Lake Pskov": "普斯科夫湖",
+      "Lake Rukwa": "鲁夸湖",
+      "Lake Saimaa": "塞马湖",
+      "Lake Superior": "苏必利尔湖",
+      "Lake Tana": "塔纳湖",
+      "Lake Tanganyika": "坦噶尼喀湖",
+      "Lake Titicaca": "的的喀喀湖",
+      "Lake Turkana": "鲁道夫湖",
+      "Lake Urmia": "乌尔米耶湖",
+      "Lake Van": "凡湖",
+      "Lake Victoria": "维多利亚湖",
+      "Lake Volta": "沃尔特湖",
+      "Lake Winnipeg": "温尼伯湖",
+      "Lough Neagh": "内伊湖",
+      "Mälaren": "梅拉伦湖",
+      "Sea of Galilee": "加利利海",
+      "Vänern": "维纳恩湖",
+      "Vättern": "韦特恩湖"
+    },
+    "drop": [],
+    "_doc": "只保留有中文名的大湖与战前已有的水体；Natural Earth 标为 Reservoir 的战后水库缺省不画（keep 里列出战前已存在的天然湖或水库，如艾瑟尔湖、伊尔门湖）。"
+  },
+  "forest": [],
+  "marsh": [],
+  "sea": {
+    "_doc": "水深设色与等深线（海战战役）；isobaths 为水深米数（负数），tint 由浅到深覆盖复古海图配色（近岸几乎纸色，越深越灰蓝）。",
+    "bathymetry": true,
+    "isobaths": [
+      -5,
+      -10,
+      -20,
+      -50,
+      -200,
+      -1000,
+      -2000,
+      -3000,
+      -4000,
+      -5000
+    ],
+    "tint": [
+      [
+        0,
+        "#e7ead9"
+      ],
+      [
+        -20,
+        "#dde6dc"
+      ],
+      [
+        -50,
+        "#d4e0d9"
+      ],
+      [
+        -200,
+        "#c9d8d3"
+      ],
+      [
+        -1000,
+        "#bccfcc"
+      ],
+      [
+        -2000,
+        "#b1c8c7"
+      ],
+      [
+        -3000,
+        "#a8c1c2"
+      ],
+      [
+        -4000,
+        "#9fb9bc"
+      ],
+      [
+        -5000,
+        "#96b2b6"
+      ]
+    ],
+    "smooth": 3.4
+  }
+}

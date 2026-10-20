@@ -1,0 +1,45 @@
+/* 大西洋海战专属版式：两槽活动海域图例、九段时间轴带（窄段裁切而不压字）、船团/航迹说明排版。 */
+.timeline { height: 146px; }
+.tl-phase-band { overflow: hidden; }
+.tl-phase-band > span { white-space: nowrap; letter-spacing: .1em; }
+.tl-mark { max-width: 132px; }
+.tl-mark[data-end] { transform: translateX(-100%); }
+.tl-mark[data-end] span { left: auto; right: 3px; }
+.tl-ev { z-index: 2; }
+.tl-needle { z-index: 3; }
+
+/* 侧栏简报：海域两槽的图例、阶段说明 */
+.sidebar .brief-title h1 { font-size: 21px; letter-spacing: .1em; }
+.sidebar .brief-title .sub { font-size: 10.5px; letter-spacing: .02em; }
+.sidebar .brief-title .sub2 { font-size: 11px; }
+.sidebar .st-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 4px; }
+.sidebar .st-grid > div { min-width: 0; padding: 7px 3px; }
+.sidebar .st-grid span { font-size: 9px; line-height: 1.45; }
+.sidebar .chapter-nav { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 4px; margin: 12px 0; }
+.sidebar .chapter-nav button { padding: 7px 3px; font-size: 11px; line-height: 1.5; }
+.sidebar .chapter-nav button:last-child { grid-column: auto; }
+
+/* 开场档案：长标题与年份章 */
+.intro h1 { font-size: 56px; letter-spacing: .1em; }
+.intro .intro-dates { font-size: 17px; letter-spacing: .05em; }
+.intro-folder { max-height: 90vh; overflow: auto; }
+
+/* 海图图例条 */
+.map-key b { letter-spacing: .1em; }
+
+@media (max-width: 1100px) {
+  .tb-phase { display: none; }
+  .region-nav { left: 294px; max-width: calc(100% - 312px); }
+  .intro h1 { font-size: 44px; }
+}
+@media (max-width: 760px) {
+  .region-nav { left: 12px; right: 12px; top: 71px; max-width: none; width: calc(100% - 24px); gap: 0; overflow-x: auto; }
+  .region-nav > span { display: none; }
+  .region-nav button { padding: 5px 8px; font-size: 10px; flex: 1; }
+  .timeline { height: 180px; }
+  .sidebar { bottom: 194px; }
+  .intro h1 { font-size: 32px; letter-spacing: .04em; }
+  .intro .intro-dates { font-size: 14px; }
+  .tl-phase-band span, .tl-mark span { display: none; }
+  .tl-ev.imp3 { display: none; }
+}

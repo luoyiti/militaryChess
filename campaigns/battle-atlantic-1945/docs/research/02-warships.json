@@ -1,0 +1,1670 @@
+{
+  "meta": {
+    "campaign": "battle-atlantic-1945",
+    "task": "R2 / t2",
+    "title": "代表舰船档案（护航舰、护航航母、袭击舰与主力舰）",
+    "generated": "2026-10-19",
+    "counts": {
+      "ships": 22,
+      "classes": 15
+    },
+    "conventions": {
+      "tonnage": "军舰用标准排水量（std，公吨或长吨，来源单位换算为公吨）；audacity/avenger 等改装航母用 normal displacement；商船改装船另注。",
+      "units": "长度/宽度/吃水：米；航速：节；武备：口径 + 身倍 + 门数 + 炮塔数；乘员：人。",
+      "engineMapping": "给 data/oob 用的 kind 采用引擎 SHIP_KINDS：battleship / battlecruiser / pocket_battleship / carrier / heavy_cruiser / light_cruiser / destroyer / submarine / auxiliary / tanker / merchant / liner / tug / boat。护航航母归 carrier，单桅帆船与轻护舰归 destroyer（引擎无 corvette/sloop 类目，剪影另给 silhouette）。",
+      "silhouette": "引擎 2D 剪影样式名，供 data/oob 的 ship.silhouette 引用；需与 engine/map2d/naval.ts 的样式表兼容，未列出的样式按 kind 缺省处理。",
+      "speedNote": "护航舰的『最大航速』是试航值；实际护航时受海况与燃油影响，编队航速通常只有 8–12 节。",
+      "confidence": "high = 主尺度与武备在 Conway's / 官方舰史中有明确数值且多源一致；medium = 改装频繁、不同年份配置不同（如 Flower 级后期加装刺猬弹与雷达），本表取 1943 年典型配置；low = 数据来源单一或有争议。"
+    },
+    "sources": [
+      "uboat_net_allies",
+      "nh_ship_histories",
+      "navweaps",
+      "roskill_1954",
+      "roskill_1956",
+      "roskill_1960",
+      "roskill_1961",
+      "mori_battle_atlantic",
+      "mori_atlantic_won",
+      "schull_1950",
+      "wiki_en_escort_carrier",
+      "winton_1983"
+    ],
+    "notes": [
+      "本表只收与『大西洋战役』直接相关的舰船；德国主力舰（俾斯麦、沙恩霍斯特、舍尔）仅作为海上袭击与护航牵制的背景条目。",
+      "所有战历只写到与 U 艇/护航直接相关的事件；不展开该舰在太平洋或地中海的完整战史。",
+      "武备按 1943 年前后的典型配置写；早期（1939—1941）的 Flower 级没有刺猬弹、雷达与高频测向仪，改装时间见 02-uboat.md §5。"
+    ],
+    "articleCitations": [
+      "wiki_en_flower",
+      "wiki_en_river",
+      "wiki_en_black_swan",
+      "wiki_en_loch",
+      "wiki_en_bogue",
+      "wiki_en_casablanca",
+      "win_1983_convoy"
+    ],
+    "articleIndex": {
+      "wiki_en_admiral_scheer": {
+        "title": "Admiral Scheer",
+        "url": "https://en.wikipedia.org/wiki/German_cruiser_Admiral_Scheer"
+      },
+      "wiki_en_ark_royal": {
+        "title": "HMS Ark Royal (91)",
+        "url": "https://en.wikipedia.org/wiki/HMS_Ark_Royal_(91)"
+      },
+      "wiki_en_audacity": {
+        "title": "HMS Audacity",
+        "url": "https://en.wikipedia.org/wiki/HMS_Audacity"
+      },
+      "wiki_en_avenger": {
+        "title": "HMS Avenger (D14)",
+        "url": "https://en.wikipedia.org/wiki/HMS_Avenger_(D14)"
+      },
+      "wiki_en_bismarck": {
+        "title": "German battleship Bismarck",
+        "url": "https://en.wikipedia.org/wiki/German_battleship_Bismarck"
+      },
+      "wiki_en_biter": {
+        "title": "HMS Biter (D97)",
+        "url": "https://en.wikipedia.org/wiki/HMS_Biter_(D97)"
+      },
+      "wiki_en_black_swan": {
+        "title": "Black Swan-class sloop",
+        "url": "https://en.wikipedia.org/wiki/Black_Swan-class_sloop"
+      },
+      "wiki_en_bogue": {
+        "title": "USS Bogue",
+        "url": "https://en.wikipedia.org/wiki/USS_Bogue"
+      },
+      "wiki_en_bogue_class": {
+        "title": "Bogue-class escort carrier",
+        "url": "https://en.wikipedia.org/wiki/Bogue-class_escort_carrier"
+      },
+      "wiki_en_borie": {
+        "title": "USS Borie (DD-215)",
+        "url": "https://en.wikipedia.org/wiki/USS_Borie_(DD-215)"
+      },
+      "wiki_en_bv138": {
+        "title": "Blohm & Voss BV 138",
+        "url": "https://en.wikipedia.org/wiki/Blohm_%26_Voss_BV_138"
+      },
+      "wiki_en_card": {
+        "title": "USS Card",
+        "url": "https://en.wikipedia.org/wiki/USS_Card"
+      },
+      "wiki_en_casablanca": {
+        "title": "Casablanca-class escort carrier",
+        "url": "https://en.wikipedia.org/wiki/Casablanca-class_escort_carrier"
+      },
+      "wiki_en_catalina": {
+        "title": "Consolidated PBY Catalina",
+        "url": "https://en.wikipedia.org/wiki/Consolidated_PBY_Catalina"
+      },
+      "wiki_en_courageous": {
+        "title": "HMS Courageous (50)",
+        "url": "https://en.wikipedia.org/wiki/HMS_Courageous_(50)"
+      },
+      "wiki_en_flower": {
+        "title": "Flower-class corvette",
+        "url": "https://en.wikipedia.org/wiki/Flower-class_corvette"
+      },
+      "wiki_en_fw200": {
+        "title": "Focke-Wulf Fw 200 Condor",
+        "url": "https://en.wikipedia.org/wiki/Focke-Wulf_Fw_200_Condor"
+      },
+      "wiki_en_guadalcanal": {
+        "title": "USS Guadalcanal (CVE-60)",
+        "url": "https://en.wikipedia.org/wiki/USS_Guadalcanal_(CVE-60)"
+      },
+      "wiki_en_halifax": {
+        "title": "Handley Page Halifax",
+        "url": "https://en.wikipedia.org/wiki/Handley_Page_Halifax"
+      },
+      "wiki_en_hudson": {
+        "title": "Lockheed Hudson",
+        "url": "https://en.wikipedia.org/wiki/Lockheed_Hudson"
+      },
+      "wiki_en_ju88": {
+        "title": "Junkers Ju 88",
+        "url": "https://en.wikipedia.org/wiki/Junkers_Ju_88"
+      },
+      "wiki_en_liberator": {
+        "title": "Consolidated B-24 Liberator",
+        "url": "https://en.wikipedia.org/wiki/Consolidated_B-24_Liberator"
+      },
+      "wiki_en_loch": {
+        "title": "Loch-class frigate",
+        "url": "https://en.wikipedia.org/wiki/Loch-class_frigate"
+      },
+      "wiki_en_mosquito": {
+        "title": "de Havilland Mosquito",
+        "url": "https://en.wikipedia.org/wiki/De_Havilland_Mosquito"
+      },
+      "wiki_en_reuben_james": {
+        "title": "USS Reuben James (DD-245)",
+        "url": "https://en.wikipedia.org/wiki/USS_Reuben_James_(DD-245)"
+      },
+      "wiki_en_river": {
+        "title": "River-class frigate",
+        "url": "https://en.wikipedia.org/wiki/River-class_frigate"
+      },
+      "wiki_en_royal_oak": {
+        "title": "HMS Royal Oak (08)",
+        "url": "https://en.wikipedia.org/wiki/HMS_Royal_Oak_(08)"
+      },
+      "wiki_en_scharnhorst": {
+        "title": "German battleship Scharnhorst",
+        "url": "https://en.wikipedia.org/wiki/German_battleship_Scharnhorst"
+      },
+      "wiki_en_squid": {
+        "title": "Squid (weapon)",
+        "url": "https://en.wikipedia.org/wiki/Squid_(weapon)"
+      },
+      "wiki_en_starling": {
+        "title": "HMS Starling (U66)",
+        "url": "https://en.wikipedia.org/wiki/HMS_Starling_(U66)"
+      },
+      "wiki_en_sunderland": {
+        "title": "Short Sunderland",
+        "url": "https://en.wikipedia.org/wiki/Short_Sunderland"
+      },
+      "wiki_en_swordfish": {
+        "title": "Fairey Swordfish",
+        "url": "https://en.wikipedia.org/wiki/Fairey_Swordfish"
+      },
+      "wiki_en_u505": {
+        "title": "German submarine U-505",
+        "url": "https://en.wikipedia.org/wiki/German_submarine_U-505"
+      },
+      "wiki_en_u530": {
+        "title": "German submarine U-530",
+        "url": "https://en.wikipedia.org/wiki/German_submarine_U-530"
+      },
+      "wiki_en_walker": {
+        "title": "HMS Walker (D27)",
+        "url": "https://en.wikipedia.org/wiki/HMS_Walker_(D27)"
+      },
+      "wiki_en_wellington": {
+        "title": "Vickers Wellington",
+        "url": "https://en.wikipedia.org/wiki/Vickers_Wellington"
+      }
+    },
+    "sourceNote": "sources[] 只使用 05-sources.json 中已登记的 id；逐条维基条目用 articleCitations 记录 id，其题名与链接见本文件 meta.articleIndex。这样 data/sources/main.json 引用不会出现悬空 id。"
+  },
+  "ships": [
+    {
+      "id": "gb.starling",
+      "name": {
+        "zh": "燕八哥号",
+        "orig": "HMS Starling",
+        "short": "Starling"
+      },
+      "side": "GB",
+      "kind": "destroyer",
+      "className": {
+        "zh": "黑天鹅级改进型单桅帆船",
+        "orig": "Modified Black Swan-class sloop"
+      },
+      "pennant": "U66",
+      "builder": "Fairfield Shipbuilding and Engineering Company, Govan",
+      "laidDown": "1941-10-21",
+      "launched": "1942-10-14",
+      "commissioned": "1943-04-01",
+      "displacementT": 1350,
+      "displacementKind": "std",
+      "lengthM": 91.29,
+      "beamM": 11.73,
+      "draughtM": 3.35,
+      "speedKn": 20,
+      "rangeNm": "7500/12",
+      "crew": 192,
+      "armament": [
+        {
+          "mount": "3 × 双联装",
+          "guns": 6,
+          "cal": "4 英寸 QF Mk XVI",
+          "kind": "secondary",
+          "note": "高平两用"
+        },
+        {
+          "mount": "2 磅「乒乓」四联装",
+          "guns": 4,
+          "cal": "40 mm",
+          "kind": "aa"
+        },
+        {
+          "mount": "双联装",
+          "guns": 12,
+          "cal": "20 mm 厄利孔",
+          "kind": "aa",
+          "note": "6 × 双联"
+        }
+      ],
+      "asw": {
+        "depthCharges": 110,
+        "throwers": 8,
+        "rails": 2,
+        "hedgehog": true,
+        "squid": false,
+        "note": "1944 年加装刺猬弹；雷达 Type 271/291、HF/DF"
+      },
+      "silhouette": "black_swan",
+      "record": "英国皇家海军最著名的反潜单桅帆船：与第 2 支援群（2SG）共同确认击沉 14–15 艘 U 艇（不同统计口径）；黑天鹅级整体击沉 29 艘 U 艇。1943-06-01 参与 15 小时追猎击沉 U-202（当时大西洋战役中最长的连续猎潜）；1943-06-24 撞沉 U-119 时自身受损；1944-02「一次出航六杀」中参与击沉 U-592、U-734、U-238、U-264；1944-05 追猎 U-473 达 18 小时。",
+      "commander": {
+        "zh": "约翰·沃克上校",
+        "orig": "Captain Frederic John Walker"
+      },
+      "sources": [
+        "uboat_net_allies",
+        "nh_ship_histories"
+      ],
+      "confidence": "high",
+      "articleCitations": [
+        "wiki_en_starling"
+      ]
+    },
+    {
+      "id": "gb.walker",
+      "name": {
+        "zh": "沃克号",
+        "orig": "HMS Walker",
+        "short": "Walker"
+      },
+      "side": "GB",
+      "kind": "destroyer",
+      "className": {
+        "zh": "V/W 级驱逐舰",
+        "orig": "V and W-class destroyer"
+      },
+      "pennant": "D27",
+      "builder": "William Denny and Brothers, Dumbarton",
+      "laidDown": "1917-03-26",
+      "launched": "1917-11-29",
+      "commissioned": "1918-02-12",
+      "displacementT": 1100,
+      "displacementKind": "std",
+      "lengthM": 91.4,
+      "beamM": 8.15,
+      "draughtM": 2.74,
+      "speedKn": 34,
+      "rangeNm": "3500/15",
+      "crew": 110,
+      "armament": [
+        {
+          "mount": "4 × 单装",
+          "guns": 4,
+          "cal": "4 英寸 QF Mk V",
+          "kind": "secondary"
+        },
+        {
+          "mount": "深弹投放轨",
+          "guns": 0,
+          "cal": "深水炸弹",
+          "kind": "aa",
+          "note": "1941 年典型配置约 30–40 枚"
+        }
+      ],
+      "asw": {
+        "depthCharges": 40,
+        "throwers": 2,
+        "rails": 2,
+        "hedgehog": false,
+        "squid": false,
+        "note": "1941 年尚未装刺猬弹；HF/DF 与 286 型雷达陆续加装"
+      },
+      "silhouette": "v_w_destroyer",
+      "record": "1941-03-17 在 HX 112 船团战中与『瓦诺克』号协同击沉 U-99（Kretschmer 被俘）与 U-100（Schepke 阵亡），是「第一次快乐时光」终结的直接执行者。此后长期担任西 approaches 护航舰。",
+      "sources": [
+        "uboat_net_allies",
+        "nh_ship_histories"
+      ],
+      "confidence": "high",
+      "articleCitations": [
+        "wiki_en_walker"
+      ]
+    },
+    {
+      "id": "gb.campbell",
+      "name": {
+        "zh": "坎贝尔号",
+        "orig": "HMS Campbell",
+        "short": "Campbell"
+      },
+      "side": "GB",
+      "kind": "destroyer",
+      "className": {
+        "zh": "海军部型驱逐领舰",
+        "orig": "Admiralty type destroyer leader"
+      },
+      "pennant": "D60",
+      "builder": "Cammell Laird, Birkenhead",
+      "laidDown": "1917-11-10",
+      "launched": "1918-09-21",
+      "commissioned": "1918-12-21",
+      "displacementT": 1580,
+      "displacementKind": "std",
+      "lengthM": 101.35,
+      "beamM": 9.68,
+      "draughtM": 3.81,
+      "speedKn": 36.5,
+      "rangeNm": "5000/15",
+      "crew": 183,
+      "armament": [
+        {
+          "mount": "5 × 单装",
+          "guns": 5,
+          "cal": "4.7 英寸 BL Mk I",
+          "kind": "secondary"
+        },
+        {
+          "mount": "单装高炮",
+          "guns": 1,
+          "cal": "3 英寸 20 cwt",
+          "kind": "aa"
+        },
+        {
+          "mount": "鱼雷发射管",
+          "guns": 6,
+          "cal": "21 英寸",
+          "kind": "torpedo"
+        }
+      ],
+      "asw": {
+        "depthCharges": 60,
+        "throwers": 4,
+        "rails": 2,
+        "hedgehog": true,
+        "squid": false,
+        "note": "1943 年改装为护航舰，加装刺猬弹与 271 型雷达"
+      },
+      "silhouette": "v_w_destroyer",
+      "record": "1939-09-13 与 U-30 交火；1940 年挪威战役中运送部队。1943 年后转任西 approaches 护航舰，是 1943-05 前后「支援群」编成的老式驱逐舰之一。",
+      "sources": [
+        "uboat_net_allies",
+        "nh_ship_histories"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "gb.sunflower",
+      "name": {
+        "zh": "向日葵号",
+        "orig": "HMS Sunflower",
+        "short": "Sunflower"
+      },
+      "side": "GB",
+      "kind": "destroyer",
+      "className": {
+        "zh": "花级轻护舰",
+        "orig": "Flower-class corvette"
+      },
+      "pennant": "K41",
+      "builder": "Smith's Dock Co., South Bank-on-Tees",
+      "laidDown": "1940-05-24",
+      "launched": "1940-08-19",
+      "commissioned": "1941-01-25",
+      "displacementT": 925,
+      "displacementKind": "std",
+      "lengthM": 62.48,
+      "beamM": 10.06,
+      "draughtM": 3.51,
+      "speedKn": 16,
+      "rangeNm": "3500/12",
+      "crew": 85,
+      "armament": [
+        {
+          "mount": "单装",
+          "guns": 1,
+          "cal": "4 英寸 BL Mk IX",
+          "kind": "secondary"
+        },
+        {
+          "mount": "单装",
+          "guns": 2,
+          "cal": "20 mm 厄利孔",
+          "kind": "aa"
+        },
+        {
+          "mount": "深弹投放轨",
+          "guns": 0,
+          "cal": "深水炸弹",
+          "kind": "aa",
+          "note": "约 40 枚"
+        }
+      ],
+      "asw": {
+        "depthCharges": 40,
+        "throwers": 2,
+        "rails": 2,
+        "hedgehog": false,
+        "squid": false,
+        "note": "SW1C/2C 雷达、123A/127DV 声呐；后期加装刺猬弹"
+      },
+      "silhouette": "flower",
+      "record": "花级是 1939—1941 年英国最紧急的护航舰，用捕鲸船式商船标准建造，可在小型船厂批量生产。1941—1942 年大量部署于西 approaches 与中大西洋护航。",
+      "sources": [
+        "uboat_net_allies",
+        "nh_ship_histories",
+        "roskill_1954"
+      ],
+      "confidence": "high",
+      "articleCitations": [
+        "wiki_en_flower"
+      ]
+    },
+    {
+      "id": "ca.chambly",
+      "name": {
+        "zh": "尚布利号",
+        "orig": "HMCS Chambly",
+        "short": "Chambly"
+      },
+      "side": "CA",
+      "kind": "destroyer",
+      "className": {
+        "zh": "花级轻护舰（加拿大建造）",
+        "orig": "Flower-class corvette"
+      },
+      "pennant": "K116",
+      "builder": "Canadian Vickers, Montreal",
+      "laidDown": "1940-02-20",
+      "launched": "1940-07-29",
+      "commissioned": "1940-12-18",
+      "displacementT": 925,
+      "displacementKind": "std",
+      "lengthM": 62.48,
+      "beamM": 10.06,
+      "draughtM": 3.51,
+      "speedKn": 16,
+      "rangeNm": "3500/12",
+      "crew": 85,
+      "armament": [
+        {
+          "mount": "单装",
+          "guns": 1,
+          "cal": "4 英寸 BL Mk IX",
+          "kind": "secondary"
+        },
+        {
+          "mount": "单装",
+          "guns": 2,
+          "cal": "20 mm 厄利孔",
+          "kind": "aa"
+        }
+      ],
+      "asw": {
+        "depthCharges": 40,
+        "throwers": 2,
+        "rails": 2,
+        "hedgehog": false,
+        "squid": false
+      },
+      "silhouette": "flower",
+      "record": "加拿大皇家海军最早一批花级之一。1941-09 与『穆斯乔』号等共同击沉 U-501（加拿大海军在大西洋战役中的早期战果）。纽芬兰护航部队（NEF）的核心舰型。",
+      "sources": [
+        "uboat_net_allies",
+        "schull_1950",
+        "milner_1985"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "gb.leith",
+      "name": {
+        "zh": "利斯号",
+        "orig": "HMS Leith",
+        "short": "Leith"
+      },
+      "side": "GB",
+      "kind": "destroyer",
+      "className": {
+        "zh": "格里姆斯比级单桅帆船",
+        "orig": "Grimsby-class sloop"
+      },
+      "pennant": "U36",
+      "builder": "HM Dockyard, Devonport",
+      "laidDown": "1933-02-06",
+      "launched": "1933-09-09",
+      "commissioned": "1934-07-10",
+      "displacementT": 990,
+      "displacementKind": "std",
+      "lengthM": 76.2,
+      "beamM": 10.97,
+      "draughtM": 2.29,
+      "speedKn": 16.5,
+      "rangeNm": "5700/10",
+      "crew": 100,
+      "armament": [
+        {
+          "mount": "2 × 单装",
+          "guns": 2,
+          "cal": "4.7 英寸 QF Mk IX",
+          "kind": "secondary"
+        },
+        {
+          "mount": "单装高炮",
+          "guns": 1,
+          "cal": "3 英寸",
+          "kind": "aa"
+        }
+      ],
+      "asw": {
+        "depthCharges": 40,
+        "throwers": 2,
+        "rails": 2,
+        "hedgehog": false,
+        "squid": false,
+        "note": "1941 年后加装雷达与更多深弹"
+      },
+      "silhouette": "grimsby",
+      "record": "1939—1940 年在北海与西 approaches 护航；1940 年挪威战役中参与救援。格里姆斯比级是 1930 年代英国为殖民巡逻设计的单桅帆船，战争爆发后大量投入护航。",
+      "sources": [
+        "uboat_net_allies",
+        "nh_ship_histories"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "gb.egret",
+      "name": {
+        "zh": "白鹭号",
+        "orig": "HMS Egret",
+        "short": "Egret"
+      },
+      "side": "GB",
+      "kind": "destroyer",
+      "className": {
+        "zh": "白鹭级单桅帆船",
+        "orig": "Egret-class sloop"
+      },
+      "pennant": "L75",
+      "builder": "J. Samuel White, Cowes",
+      "laidDown": "1937-09-21",
+      "launched": "1938-05-31",
+      "commissioned": "1938-11-11",
+      "displacementT": 1200,
+      "displacementKind": "std",
+      "lengthM": 84.12,
+      "beamM": 11.28,
+      "draughtM": 3.4,
+      "speedKn": 19.25,
+      "crew": 188,
+      "armament": [
+        {
+          "mount": "4 × 双联装",
+          "guns": 8,
+          "cal": "4 英寸 QF Mk XVI",
+          "kind": "secondary"
+        },
+        {
+          "mount": "四联装",
+          "guns": 4,
+          "cal": "2 磅「乒乓」",
+          "kind": "aa"
+        }
+      ],
+      "asw": {
+        "depthCharges": 60,
+        "throwers": 2,
+        "rails": 2,
+        "hedgehog": false,
+        "squid": false
+      },
+      "silhouette": "egret",
+      "record": "1940—1943 年任西 approaches 护航舰。1943-08-27 在比斯开湾被德国 Do 217 投放的 Hs 293 滑翔制导炸弹击沉，198 人全部阵亡——史上第一艘被制导武器击沉的军舰。",
+      "sources": [
+        "uboat_net_allies",
+        "nh_ship_histories",
+        "roskill_1960"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "gb.loch_killin",
+      "name": {
+        "zh": "洛赫基林号",
+        "orig": "HMS Loch Killin",
+        "short": "Loch Killin"
+      },
+      "side": "GB",
+      "kind": "destroyer",
+      "className": {
+        "zh": "洛赫级护卫舰",
+        "orig": "Loch-class frigate"
+      },
+      "pennant": "K391",
+      "builder": "Burntisland Shipbuilding Company",
+      "laidDown": "1943-06-02",
+      "launched": "1943-11-29",
+      "commissioned": "1944-04-01",
+      "displacementT": 1435,
+      "displacementKind": "std",
+      "lengthM": 93.8,
+      "beamM": 11.73,
+      "draughtM": 4.04,
+      "speedKn": 20,
+      "rangeNm": "9500/12",
+      "crew": 114,
+      "armament": [
+        {
+          "mount": "单装",
+          "guns": 1,
+          "cal": "4 英寸 QF Mk V",
+          "kind": "secondary"
+        },
+        {
+          "mount": "四联装",
+          "guns": 4,
+          "cal": "2 磅「乒乓」",
+          "kind": "aa"
+        }
+      ],
+      "asw": {
+        "depthCharges": 110,
+        "throwers": 2,
+        "rails": 2,
+        "hedgehog": true,
+        "squid": true,
+        "note": "双联装『乌贼』（Squid）前投深弹；271 型厘米波雷达"
+      },
+      "silhouette": "loch",
+      "record": "1944 年服役，装备 Squid 与刺猬弹。1944-07-31 与『燕八哥』号共同击沉 U-333（Cremer 艇，45 人全亡）。洛赫级是英国为「支援群」专门设计的反潜护卫舰。",
+      "sources": [
+        "uboat_net_allies",
+        "nh_ship_histories"
+      ],
+      "confidence": "high",
+      "articleCitations": [
+        "wiki_en_loch"
+      ]
+    },
+    {
+      "id": "ca.swansea",
+      "name": {
+        "zh": "斯旺西号",
+        "orig": "HMCS Swansea",
+        "short": "Swansea"
+      },
+      "side": "CA",
+      "kind": "destroyer",
+      "className": {
+        "zh": "河级护卫舰（加拿大建造）",
+        "orig": "River-class frigate"
+      },
+      "pennant": "K328",
+      "builder": "Yarrow Shipbuilders, Esquimalt",
+      "laidDown": "1942-07-15",
+      "launched": "1942-12-19",
+      "commissioned": "1943-10-04",
+      "displacementT": 1445,
+      "displacementKind": "std",
+      "lengthM": 86.26,
+      "beamM": 11.13,
+      "draughtM": 2.74,
+      "speedKn": 20,
+      "rangeNm": "7500/15",
+      "crew": 157,
+      "armament": [
+        {
+          "mount": "2 × 单装",
+          "guns": 2,
+          "cal": "4 英寸 QF Mk XVI",
+          "kind": "secondary"
+        },
+        {
+          "mount": "四联装",
+          "guns": 4,
+          "cal": "2 磅「乒乓」",
+          "kind": "aa"
+        }
+      ],
+      "asw": {
+        "depthCharges": 100,
+        "throwers": 2,
+        "rails": 2,
+        "hedgehog": true,
+        "squid": false,
+        "note": "271 型雷达、HF/DF"
+      },
+      "silhouette": "river",
+      "record": "加拿大皇家海军河级护卫舰，1943 年底服役后编入中大西洋护航部队。河级比花级更大、更快、续航更远，是 1943 年后加拿大护航兵力的主力。",
+      "sources": [
+        "uboat_net_allies",
+        "schull_1950",
+        "nh_ship_histories"
+      ],
+      "confidence": "high",
+      "articleCitations": [
+        "wiki_en_river"
+      ]
+    },
+    {
+      "id": "us.reuben_james_dd245",
+      "name": {
+        "zh": "鲁本·詹姆斯号",
+        "orig": "USS Reuben James",
+        "short": "Reuben James"
+      },
+      "side": "US",
+      "kind": "destroyer",
+      "className": {
+        "zh": "克莱姆森级驱逐舰",
+        "orig": "Clemson-class destroyer"
+      },
+      "pennant": "DD-245",
+      "builder": "New York Shipbuilding, Camden",
+      "laidDown": "1919-04-02",
+      "launched": "1919-10-04",
+      "commissioned": "1920-09-24",
+      "displacementT": 1215,
+      "displacementKind": "std",
+      "lengthM": 95.83,
+      "beamM": 9.65,
+      "draughtM": 2.82,
+      "speedKn": 35,
+      "rangeNm": "4900/15",
+      "crew": 159,
+      "armament": [
+        {
+          "mount": "4 × 单装",
+          "guns": 4,
+          "cal": "4 英寸/50",
+          "kind": "secondary"
+        },
+        {
+          "mount": "单装",
+          "guns": 1,
+          "cal": "3 英寸/23",
+          "kind": "aa"
+        },
+        {
+          "mount": "四联装鱼雷管",
+          "guns": 12,
+          "cal": "21 英寸",
+          "kind": "torpedo"
+        }
+      ],
+      "asw": {
+        "depthCharges": 20,
+        "throwers": 0,
+        "rails": 2,
+        "hedgehog": false,
+        "squid": false
+      },
+      "silhouette": "clemson",
+      "record": "1941-10-31 在冰岛以南为 HX 156 船团护航时被 U-552（Topp）击沉，115 人死亡——珍珠港事件前美军最大单次伤亡，也是美国海军第一艘在二战中损失的军舰。这次事件使美国国会修改中立法，允许武装商船并扩大护航区。",
+      "sources": [
+        "uboat_net_allies",
+        "mori_battle_atlantic"
+      ],
+      "confidence": "high",
+      "articleCitations": [
+        "wiki_en_reuben_james"
+      ]
+    },
+    {
+      "id": "us.borie",
+      "name": {
+        "zh": "博里号",
+        "orig": "USS Borie",
+        "short": "Borie"
+      },
+      "side": "US",
+      "kind": "destroyer",
+      "className": {
+        "zh": "克莱姆森级驱逐舰",
+        "orig": "Clemson-class destroyer"
+      },
+      "pennant": "DD-215",
+      "builder": "William Cramp & Sons, Philadelphia",
+      "laidDown": "1919-09-30",
+      "launched": "1919-10-04",
+      "commissioned": "1920-03-24",
+      "displacementT": 1215,
+      "displacementKind": "std",
+      "lengthM": 95.81,
+      "beamM": 9.68,
+      "speedKn": 35,
+      "crew": 122,
+      "armament": [
+        {
+          "mount": "4 × 单装",
+          "guns": 4,
+          "cal": "4 英寸/50",
+          "kind": "secondary"
+        },
+        {
+          "mount": "单装",
+          "guns": 1,
+          "cal": "3 英寸/23",
+          "kind": "aa"
+        },
+        {
+          "mount": "四联装鱼雷管",
+          "guns": 12,
+          "cal": "21 英寸",
+          "kind": "torpedo"
+        }
+      ],
+      "asw": {
+        "depthCharges": 30,
+        "throwers": 2,
+        "rails": 2,
+        "hedgehog": true,
+        "squid": false,
+        "note": "1943 年改装为护航驱逐舰，加装刺猬弹"
+      },
+      "silhouette": "clemson",
+      "record": "1943-11-01 在亚速尔群岛以北与 U-405 进行了海战史上罕见的「近距离肉搏」：深弹、炮击、撞击，最后 U-405 沉没，Borie 因损伤过重次日自沉，27 人死亡。",
+      "sources": [
+        "uboat_net_allies",
+        "mori_atlantic_won"
+      ],
+      "confidence": "high",
+      "articleCitations": [
+        "wiki_en_borie"
+      ]
+    },
+    {
+      "id": "us.reuben_james_de153",
+      "name": {
+        "zh": "鲁本·詹姆斯号（第二艘）",
+        "orig": "USS Reuben James",
+        "short": "Reuben James II"
+      },
+      "side": "US",
+      "kind": "destroyer",
+      "className": {
+        "zh": "巴克利级护航驱逐舰",
+        "orig": "Buckley-class destroyer escort"
+      },
+      "pennant": "DE-153",
+      "builder": "Norfolk Navy Yard, Portsmouth, Virginia",
+      "laidDown": "1943-02-06",
+      "launched": "1943-04-05",
+      "commissioned": "1943-04-01",
+      "displacementT": 1740,
+      "displacementKind": "std",
+      "lengthM": 93.27,
+      "beamM": 11.28,
+      "speedKn": 23.6,
+      "crew": 213,
+      "armament": [
+        {
+          "mount": "3 × 单装",
+          "guns": 3,
+          "cal": "3 英寸/50",
+          "kind": "secondary"
+        },
+        {
+          "mount": "双联装",
+          "guns": 2,
+          "cal": "40 mm 博福斯",
+          "kind": "aa"
+        },
+        {
+          "mount": "刺猬弹发射器",
+          "guns": 24,
+          "cal": "7 英寸",
+          "kind": "aa"
+        }
+      ],
+      "asw": {
+        "depthCharges": 120,
+        "throwers": 8,
+        "rails": 2,
+        "hedgehog": true,
+        "squid": false
+      },
+      "silhouette": "buckley_de",
+      "record": "以 1941 年被击沉的第一艘「鲁本·詹姆斯」号命名。1944 年 4 月 29 日在大西洋与 U-548 交战，是美军护航驱逐舰「刺猬弹 + 深弹」标准的代表。",
+      "sources": [
+        "uboat_net_allies",
+        "mori_atlantic_won"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "gb.audacity",
+      "name": {
+        "zh": "大胆号",
+        "orig": "HMS Audacity",
+        "short": "Audacity"
+      },
+      "side": "GB",
+      "kind": "carrier",
+      "className": {
+        "zh": "商船改装护航航母（『大胆』号）",
+        "orig": "HMS Audacity (converted German merchant)"
+      },
+      "pennant": "D10",
+      "builder": "Bremer Vulkan（原德国货轮『汉诺威』号，1940 年被俘获改装）",
+      "launched": "1939-03-29",
+      "commissioned": "1941-06-20",
+      "displacementT": 11000,
+      "displacementKind": "std",
+      "lengthM": 142.4,
+      "beamM": 17.15,
+      "draughtM": 8.38,
+      "speedKn": 15,
+      "power": "1 × 7 缸 MAN 柴油机，5,200 hp",
+      "crew": 480,
+      "armament": [
+        {
+          "mount": "单装",
+          "guns": 1,
+          "cal": "4 英寸",
+          "kind": "secondary"
+        },
+        {
+          "mount": "单装",
+          "guns": 4,
+          "cal": "2 磅「乒乓」",
+          "kind": "aa"
+        },
+        {
+          "mount": "单装",
+          "guns": 4,
+          "cal": "20 mm 厄利孔",
+          "kind": "aa"
+        }
+      ],
+      "aircraft": {
+        "operational": 6,
+        "stored": 8,
+        "types": [
+          "Fairey Martlet（野猫）"
+        ],
+        "note": "无弹射器，飞行甲板 138 m"
+      },
+      "sensors": "279 型空中警戒雷达",
+      "silhouette": "escort_carrier_small",
+      "record": "英国第一艘护航航母（由俘获的德国货轮改装）。1941 年 9—12 月为 OG 76 与 HG 76 船团提供空中掩护，其野猫机击落多架 Fw 200，并迫使 U 艇下潜。1941-12-21 在 HG 76 船团战中被 U-751 击沉，73 人死亡——证明「护航航母 + 船团」的价值，也暴露了单舰护航的脆弱。",
+      "sources": [
+        "uboat_net_allies",
+        "wiki_en_escort_carrier",
+        "roskill_1954"
+      ],
+      "confidence": "high",
+      "articleCitations": [
+        "wiki_en_audacity"
+      ]
+    },
+    {
+      "id": "gb.biter",
+      "name": {
+        "zh": "比特号",
+        "orig": "HMS Biter",
+        "short": "Biter"
+      },
+      "side": "GB",
+      "kind": "carrier",
+      "className": {
+        "zh": "复仇者级护航航母",
+        "orig": "Avenger-class escort carrier"
+      },
+      "pennant": "D97",
+      "builder": "Sun Shipbuilding & Drydock Co., Chester（C3 型货轮改装）",
+      "laidDown": "1939-12-28",
+      "launched": "1940-12-18",
+      "commissioned": "1942-05-01",
+      "displacementT": 8200,
+      "displacementKind": "std",
+      "lengthM": 150.0,
+      "beamM": 20.2,
+      "draughtM": 7.09,
+      "speedKn": 16.5,
+      "power": "4 × 柴油机，8,500 hp，单轴",
+      "crew": 555,
+      "armament": [
+        {
+          "mount": "3 × 单装",
+          "guns": 3,
+          "cal": "4 英寸 QF Mk XVI",
+          "kind": "secondary"
+        },
+        {
+          "mount": "单装/双联装",
+          "guns": 15,
+          "cal": "20 mm 厄利孔",
+          "kind": "aa"
+        }
+      ],
+      "aircraft": {
+        "operational": 15,
+        "max": 21,
+        "types": [
+          "Fairey Swordfish",
+          "Grumman Martlet",
+          "Hawker Sea Hurricane",
+          "Grumman Avenger"
+        ]
+      },
+      "silhouette": "escort_carrier",
+      "record": "1943-04-25 其 811 中队剑鱼机在法韦尔角以南发现并攻击 U-203，随后由驱逐舰『探路者』号击沉——护航航母「搜索—攻击—引导」的标准流程。1943 年 5 月参加 HX 237 船团战。战后移交法国，改名『迪克斯缪德』号。",
+      "sources": [
+        "uboat_net_allies",
+        "wiki_en_escort_carrier",
+        "mori_atlantic_won"
+      ],
+      "confidence": "high",
+      "articleCitations": [
+        "wiki_en_biter"
+      ]
+    },
+    {
+      "id": "gb.avenger",
+      "name": {
+        "zh": "复仇者号",
+        "orig": "HMS Avenger",
+        "short": "Avenger"
+      },
+      "side": "GB",
+      "kind": "carrier",
+      "className": {
+        "zh": "复仇者级护航航母",
+        "orig": "Avenger-class escort carrier"
+      },
+      "pennant": "D14",
+      "builder": "Sun Shipbuilding & Drydock Co., Chester（C3 型货轮改装）",
+      "laidDown": "1939-11-28",
+      "launched": "1940-11-27",
+      "commissioned": "1942-03-02",
+      "displacementT": 8200,
+      "displacementKind": "std",
+      "lengthM": 150.05,
+      "beamM": 20.19,
+      "draughtM": 7.09,
+      "speedKn": 16.5,
+      "power": "4 × 柴油机，8,500 bhp，单轴",
+      "crew": 555,
+      "armament": [
+        {
+          "mount": "3 × 单装",
+          "guns": 3,
+          "cal": "4 英寸 QF Mk XVI",
+          "kind": "secondary"
+        },
+        {
+          "mount": "单装/双联装",
+          "guns": 15,
+          "cal": "20 mm 厄利孔",
+          "kind": "aa"
+        }
+      ],
+      "aircraft": {
+        "operational": 15,
+        "types": [
+          "Fairey Swordfish",
+          "Hawker Sea Hurricane"
+        ]
+      },
+      "silhouette": "escort_carrier",
+      "record": "1942 年 9 月参加 PQ 18 北极护航（舰载飓风对抗 Ju 88 与 Ju 87）；1942 年 11 月参加『火炬行动』。1942-11-15 在直布罗陀以西被 U-155 击沉，是唯一一艘被 U 艇击沉的英国护航航母，损失惨重。",
+      "sources": [
+        "uboat_net_allies",
+        "wiki_en_escort_carrier",
+        "woodman_1994"
+      ],
+      "confidence": "high",
+      "articleCitations": [
+        "wiki_en_avenger"
+      ]
+    },
+    {
+      "id": "us.bogue",
+      "name": {
+        "zh": "博格号",
+        "orig": "USS Bogue",
+        "short": "Bogue"
+      },
+      "side": "US",
+      "kind": "carrier",
+      "className": {
+        "zh": "博格级护航航母",
+        "orig": "Bogue-class escort carrier"
+      },
+      "pennant": "CVE-9",
+      "builder": "Seattle-Tacoma Shipbuilding, Tacoma",
+      "laidDown": "1941-10-01",
+      "launched": "1942-01-15",
+      "commissioned": "1942-09-26",
+      "displacementT": 8390,
+      "displacementKind": "std",
+      "lengthM": 151.1,
+      "beamM": 21.18,
+      "draughtM": 7.52,
+      "speedKn": 18,
+      "rangeNm": "26300/15",
+      "crew": 890,
+      "armament": [
+        {
+          "mount": "2 × 单装",
+          "guns": 2,
+          "cal": "5 英寸/38",
+          "kind": "secondary"
+        },
+        {
+          "mount": "单装/双联装",
+          "guns": 20,
+          "cal": "40 mm 博福斯",
+          "kind": "aa"
+        },
+        {
+          "mount": "单装",
+          "guns": 27,
+          "cal": "20 mm 厄利孔",
+          "kind": "aa"
+        }
+      ],
+      "aircraft": {
+        "operational": 24,
+        "types": [
+          "Grumman TBF Avenger",
+          "Grumman F4F Wildcat"
+        ]
+      },
+      "silhouette": "escort_carrier",
+      "record": "美国海军在大西洋的第一艘「猎杀群」核心舰。1943-05-22 首次战果（U-569），1943-06-05 击沉 U-217，1943-06-12 击沉 U-118，1943-07-23 击沉 U-527，1943-12-13 与驱逐舰协同击沉 U-172（Fido 鱼雷经典战例）。其 VC-9/VC-19 中队是大西洋反潜航空兵战果最高的单位之一。",
+      "sources": [
+        "uboat_net_allies",
+        "mori_atlantic_won",
+        "wiki_en_escort_carrier"
+      ],
+      "confidence": "high",
+      "articleCitations": [
+        "wiki_en_bogue",
+        "wiki_en_bogue_class"
+      ]
+    },
+    {
+      "id": "us.card",
+      "name": {
+        "zh": "卡德号",
+        "orig": "USS Card",
+        "short": "Card"
+      },
+      "side": "US",
+      "kind": "carrier",
+      "className": {
+        "zh": "博格级护航航母",
+        "orig": "Bogue-class escort carrier"
+      },
+      "pennant": "CVE-11",
+      "builder": "Seattle-Tacoma Shipbuilding, Tacoma",
+      "laidDown": "1941-10-27",
+      "launched": "1942-02-21",
+      "commissioned": "1942-11-08",
+      "displacementT": 8390,
+      "displacementKind": "std",
+      "lengthM": 151.1,
+      "beamM": 21.18,
+      "speedKn": 18,
+      "rangeNm": "26300/15",
+      "crew": 890,
+      "armament": [
+        {
+          "mount": "2 × 单装",
+          "guns": 2,
+          "cal": "5 英寸/38",
+          "kind": "secondary"
+        },
+        {
+          "mount": "单装/双联装",
+          "guns": 20,
+          "cal": "40 mm 博福斯",
+          "kind": "aa"
+        }
+      ],
+      "aircraft": {
+        "operational": 24,
+        "types": [
+          "Grumman TBF Avenger",
+          "Grumman F4F Wildcat"
+        ]
+      },
+      "silhouette": "escort_carrier",
+      "record": "1943 年 5 月起从「船团随行」转向「独立猎杀群」。1943 年下半年其 VC-1 中队在大西洋击沉多艘 U 艇（含 U-422、U-402 等），是美军「以 Ultra 情报引导猎杀群」战法的代表。",
+      "sources": [
+        "uboat_net_allies",
+        "mori_atlantic_won",
+        "wiki_en_escort_carrier"
+      ],
+      "confidence": "high",
+      "articleCitations": [
+        "wiki_en_card"
+      ]
+    },
+    {
+      "id": "us.guadalcanal",
+      "name": {
+        "zh": "瓜达尔卡纳尔号",
+        "orig": "USS Guadalcanal",
+        "short": "Guadalcanal"
+      },
+      "side": "US",
+      "kind": "carrier",
+      "className": {
+        "zh": "卡萨布兰卡级护航航母",
+        "orig": "Casablanca-class escort carrier"
+      },
+      "pennant": "CVE-60",
+      "builder": "Kaiser Shipyards, Vancouver, Washington",
+      "laidDown": "1943-01-05",
+      "launched": "1943-06-05",
+      "commissioned": "1943-09-25",
+      "displacementT": 8188,
+      "displacementKind": "std",
+      "lengthM": 156.13,
+      "beamM": 19.81,
+      "draughtM": 6.32,
+      "speedKn": 19,
+      "rangeNm": "10240/15",
+      "crew": 860,
+      "armament": [
+        {
+          "mount": "单装（艉部）",
+          "guns": 1,
+          "cal": "5 英寸/38",
+          "kind": "secondary"
+        },
+        {
+          "mount": "单装/双联装",
+          "guns": 16,
+          "cal": "40 mm 博福斯",
+          "kind": "aa"
+        },
+        {
+          "mount": "单装",
+          "guns": 20,
+          "cal": "20 mm 厄利孔",
+          "kind": "aa"
+        }
+      ],
+      "aircraft": {
+        "operational": 27,
+        "types": [
+          "Grumman TBF Avenger",
+          "Grumman F4F Wildcat"
+        ]
+      },
+      "silhouette": "escort_carrier",
+      "record": "1944-06-04 其猎杀群（TF 22.3）在毛里塔尼亚外海俘获 U-505——美军在二战中唯一一次海上夺取敌舰，艇上恩尼格玛与密码本被完整缴获。此前 1944-04-10 其 VC-58 中队击沉 U-68。",
+      "sources": [
+        "uboat_net_allies",
+        "mori_atlantic_won",
+        "wiki_en_escort_carrier"
+      ],
+      "confidence": "high",
+      "articleCitations": [
+        "wiki_en_guadalcanal",
+        "wiki_en_casablanca"
+      ]
+    },
+    {
+      "id": "gb.royal_oak",
+      "name": {
+        "zh": "皇家橡树号",
+        "orig": "HMS Royal Oak",
+        "short": "Royal Oak"
+      },
+      "side": "GB",
+      "kind": "battleship",
+      "className": {
+        "zh": "复仇级战列舰",
+        "orig": "Revenge-class battleship"
+      },
+      "pennant": "08",
+      "builder": "HM Dockyard, Devonport",
+      "laidDown": "1914-01-15",
+      "launched": "1914-11-17",
+      "commissioned": "1916-05-01",
+      "displacementT": 29970,
+      "displacementKind": "std",
+      "lengthM": 189.2,
+      "beamM": 26.97,
+      "draughtM": 10.26,
+      "speedKn": 22,
+      "rangeNm": "7000/10",
+      "crew": 1200,
+      "armament": [
+        {
+          "mount": "4 × 双联装",
+          "guns": 8,
+          "cal": "15 英寸 BL Mk I",
+          "kind": "main"
+        },
+        {
+          "mount": "12 × 单装",
+          "guns": 12,
+          "cal": "6 英寸",
+          "kind": "secondary"
+        },
+        {
+          "mount": "4 × 单装",
+          "guns": 4,
+          "cal": "4 英寸高炮",
+          "kind": "aa"
+        }
+      ],
+      "silhouette": "revenge",
+      "record": "1939-10-14 凌晨在斯卡帕湾锚地被 U-47（Prien）三雷命中，13 分钟内倾覆沉没，835 人死亡（含舰队司令 Blagrove 少将）。这是二战中英国本土舰队最惨重的单次损失，也暴露了锚地防潜网与警戒的漏洞。",
+      "sources": [
+        "uboat_net_allies",
+        "roskill_1954",
+        "wiki_en_atlantic"
+      ],
+      "confidence": "high",
+      "articleCitations": [
+        "wiki_en_royal_oak"
+      ]
+    },
+    {
+      "id": "gb.courageous",
+      "name": {
+        "zh": "勇敢号",
+        "orig": "HMS Courageous",
+        "short": "Courageous"
+      },
+      "side": "GB",
+      "kind": "carrier",
+      "className": {
+        "zh": "勇敢级航空母舰（由战列巡洋舰改装）",
+        "orig": "Courageous-class aircraft carrier"
+      },
+      "pennant": "50",
+      "builder": "Armstrong Whitworth, Newcastle",
+      "laidDown": "1915-03-28",
+      "launched": "1916-02-05",
+      "commissioned": "1916-11-04",
+      "displacementT": 24210,
+      "displacementKind": "std",
+      "lengthM": 239.6,
+      "beamM": 27.6,
+      "draughtM": 8.5,
+      "speedKn": 30,
+      "rangeNm": "5860/16",
+      "crew": 814,
+      "armament": [
+        {
+          "mount": "16 × 单装",
+          "guns": 16,
+          "cal": "4.7 英寸 QF Mk VIII",
+          "kind": "secondary"
+        },
+        {
+          "mount": "单装",
+          "guns": 4,
+          "cal": "2 磅「乒乓」",
+          "kind": "aa"
+        }
+      ],
+      "aircraft": {
+        "operational": 48,
+        "types": [
+          "Fairey Swordfish"
+        ]
+      },
+      "silhouette": "carrier_early",
+      "record": "1939-09-17 在爱尔兰西南执行反潜巡逻时被 U-29（Schuhart）两雷命中，20 分钟内沉没，518 人死亡（含舰长 Makeig-Jones）。这是二战中第一艘被潜艇击沉的航母，英国海军随即停止在西部海域使用航母单独反潜。",
+      "sources": [
+        "uboat_net_allies",
+        "roskill_1954",
+        "wiki_en_atlantic"
+      ],
+      "confidence": "high",
+      "articleCitations": [
+        "wiki_en_courageous"
+      ]
+    },
+    {
+      "id": "gb.ark_royal",
+      "name": {
+        "zh": "皇家方舟号",
+        "orig": "HMS Ark Royal",
+        "short": "Ark Royal"
+      },
+      "side": "GB",
+      "kind": "carrier",
+      "className": {
+        "zh": "皇家方舟号航空母舰",
+        "orig": "Ark Royal-class aircraft carrier"
+      },
+      "pennant": "91",
+      "builder": "Cammell Laird, Birkenhead",
+      "laidDown": "1935-09-16",
+      "launched": "1937-04-13",
+      "commissioned": "1938-12-16",
+      "displacementT": 22000,
+      "displacementKind": "std",
+      "lengthM": 243.8,
+      "beamM": 28.9,
+      "draughtM": 8.5,
+      "speedKn": 30,
+      "rangeNm": "7600/20",
+      "crew": 1580,
+      "armament": [
+        {
+          "mount": "8 × 双联装",
+          "guns": 16,
+          "cal": "4.5 英寸",
+          "kind": "secondary"
+        },
+        {
+          "mount": "四联装",
+          "guns": 32,
+          "cal": "2 磅「乒乓」",
+          "kind": "aa"
+        }
+      ],
+      "aircraft": {
+        "operational": 60,
+        "max": 72,
+        "types": [
+          "Fairey Swordfish",
+          "Blackburn Skua",
+          "Fairey Fulmar"
+        ]
+      },
+      "silhouette": "carrier_fleet",
+      "record": "1941 年 5 月其剑鱼机在追击『俾斯麦』号中发射鱼雷打坏其舵机，被认为是击沉俾斯麦的决定性一击。1941-11-14 在直布罗陀外海被 U-81 单雷命中，次日沉没，是英国在地中海战区的重大损失（该舰官兵死伤 1 人）。",
+      "sources": [
+        "uboat_net_allies",
+        "roskill_1956",
+        "wiki_en_escort_carrier"
+      ],
+      "confidence": "high",
+      "articleCitations": [
+        "wiki_en_ark_royal"
+      ]
+    },
+    {
+      "id": "de.bismarck",
+      "name": {
+        "zh": "俾斯麦号",
+        "orig": "Bismarck",
+        "short": "Bismarck"
+      },
+      "side": "DE",
+      "kind": "battleship",
+      "className": {
+        "zh": "俾斯麦级战列舰",
+        "orig": "Bismarck-Klasse Schlachtschiff"
+      },
+      "builder": "Blohm & Voss, Hamburg",
+      "laidDown": "1936-07-01",
+      "launched": "1939-02-14",
+      "commissioned": "1940-08-24",
+      "displacementT": 41700,
+      "displacementKind": "std",
+      "lengthM": 241.6,
+      "beamM": 36.0,
+      "draughtM": 9.9,
+      "speedKn": 30.01,
+      "crew": 2065,
+      "armament": [
+        {
+          "mount": "4 × 双联装",
+          "guns": 8,
+          "cal": "38 cm SK C/34",
+          "kind": "main"
+        },
+        {
+          "mount": "6 × 双联装",
+          "guns": 12,
+          "cal": "15 cm SK C/28",
+          "kind": "secondary"
+        },
+        {
+          "mount": "8 × 双联装",
+          "guns": 16,
+          "cal": "10.5 cm SK C/33",
+          "kind": "aa"
+        }
+      ],
+      "aircraft": {
+        "operational": 4,
+        "types": [
+          "Arado Ar 196"
+        ]
+      },
+      "silhouette": "bismarck",
+      "record": "1941 年 5 月『莱茵演习』（Operation Rheinübung）出击大西洋，5 月 24 日在丹麦海峡击沉英国战列巡洋舰『胡德』号；5 月 27 日在追击中被『皇家方舟』号剑鱼机打坏舵机，随后被英国本土舰队击沉，2,000 余人死亡。它牵制了英国本土舰队近一周，间接造成 HX 126 等船团护航兵力不足。",
+      "sources": [
+        "roskill_1956",
+        "wiki_en_atlantic",
+        "mulligan_1999"
+      ],
+      "confidence": "high",
+      "articleCitations": [
+        "wiki_en_bismarck"
+      ]
+    },
+    {
+      "id": "de.scharnhorst",
+      "name": {
+        "zh": "沙恩霍斯特号",
+        "orig": "Scharnhorst",
+        "short": "Scharnhorst"
+      },
+      "side": "DE",
+      "kind": "battleship",
+      "className": {
+        "zh": "沙恩霍斯特级战列舰",
+        "orig": "Scharnhorst-Klasse Schlachtschiff"
+      },
+      "builder": "Kriegsmarinewerft, Wilhelmshaven",
+      "laidDown": "1935-06-15",
+      "launched": "1936-10-03",
+      "commissioned": "1939-01-07",
+      "displacementT": 32100,
+      "displacementKind": "std",
+      "lengthM": 234.9,
+      "beamM": 30.0,
+      "draughtM": 9.91,
+      "speedKn": 31,
+      "crew": 1669,
+      "armament": [
+        {
+          "mount": "3 × 三联装",
+          "guns": 9,
+          "cal": "28 cm SK C/34",
+          "kind": "main"
+        },
+        {
+          "mount": "4 × 双联装 + 4 × 单装",
+          "guns": 12,
+          "cal": "15 cm SK C/28",
+          "kind": "secondary"
+        },
+        {
+          "mount": "7 × 双联装",
+          "guns": 14,
+          "cal": "10.5 cm SK C/33",
+          "kind": "aa"
+        }
+      ],
+      "aircraft": {
+        "operational": 3,
+        "types": [
+          "Arado Ar 196"
+        ]
+      },
+      "silhouette": "scharnhorst",
+      "record": "1940-06-08 与『格奈森瑙』号共同击沉英国航母『光荣』号（HMS Glorious），是史上最远距离的舰炮命中之一。1943-12-26 在北角海战（Battle of the North Cape）中被约克公爵号与巡洋舰编队击沉，1,932 人死亡——北极航线护航战的终点。",
+      "sources": [
+        "roskill_1956",
+        "roskill_1960",
+        "wiki_en_atlantic",
+        "woodman_1994"
+      ],
+      "confidence": "high",
+      "articleCitations": [
+        "wiki_en_scharnhorst"
+      ]
+    },
+    {
+      "id": "de.admiral_scheer",
+      "name": {
+        "zh": "舍尔海军上将号",
+        "orig": "Admiral Scheer",
+        "short": "Scheer"
+      },
+      "side": "DE",
+      "kind": "pocket_battleship",
+      "className": {
+        "zh": "德意志级装甲舰",
+        "orig": "Deutschland-Klasse Panzerschiff"
+      },
+      "builder": "Kriegsmarinewerft, Wilhelmshaven",
+      "laidDown": "1931-06-25",
+      "launched": "1933-04-01",
+      "commissioned": "1934-11-12",
+      "displacementT": 12100,
+      "displacementKind": "std",
+      "lengthM": 186.0,
+      "beamM": 21.34,
+      "draughtM": 7.25,
+      "speedKn": 28.3,
+      "crew": 1150,
+      "armament": [
+        {
+          "mount": "2 × 三联装",
+          "guns": 6,
+          "cal": "28 cm SK C/28",
+          "kind": "main"
+        },
+        {
+          "mount": "8 × 单装",
+          "guns": 8,
+          "cal": "15 cm SK C/28",
+          "kind": "secondary"
+        },
+        {
+          "mount": "3 × 双联装",
+          "guns": 6,
+          "cal": "10.5 cm SK C/33",
+          "kind": "aa"
+        }
+      ],
+      "aircraft": {
+        "operational": 1,
+        "types": [
+          "Arado Ar 196"
+        ]
+      },
+      "silhouette": "deutschland",
+      "record": "1940 年 10 月—1941 年 4 月的远洋袭击（『北方游猎』）击沉 16 艘商船（约 113,000 GRT），是二战中最成功的德国水面袭击舰。它迫使英国本土舰队抽调兵力搜索，间接加剧了大西洋护航兵力紧张。1945-04-09 在基尔被英军空袭击沉。",
+      "sources": [
+        "roskill_1956",
+        "wiki_en_atlantic",
+        "mori_battle_atlantic"
+      ],
+      "confidence": "high",
+      "articleCitations": [
+        "wiki_en_admiral_scheer"
+      ]
+    }
+  ]
+}

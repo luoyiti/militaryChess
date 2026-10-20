@@ -12,6 +12,7 @@ __pycache__/
 *.pyc
 .DS_Store
 # third-party agent tool state
+.agent-teams/
 .workbuddy/
 .wbapp_*
 .playwright-cli/

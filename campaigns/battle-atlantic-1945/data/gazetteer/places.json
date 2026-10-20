@@ -1,0 +1,693 @@
+[
+ {
+  "id": "london",
+  "zh": "伦敦",
+  "orig": "London",
+  "pos": [
+   -0.128,
+   51.507
+  ],
+  "kind": "capital",
+  "rank": 1,
+  "country": "GB",
+  "sources": [
+   "roskill_1954"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "liverpool",
+  "zh": "利物浦",
+  "orig": "Liverpool",
+  "pos": [
+   -2.992,
+   53.408
+  ],
+  "kind": "city",
+  "rank": 1,
+  "alt": "西部海口司令部（德比大厦）驻地",
+  "country": "GB",
+  "sources": [
+   "roskill_1954"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "greenock",
+  "zh": "格里诺克",
+  "orig": "Greenock",
+  "pos": [
+   -4.76,
+   55.948
+  ],
+  "kind": "port",
+  "rank": 2,
+  "alt": "克莱德湾船团集结点",
+  "country": "GB",
+  "sources": [
+   "battleatlantic_1946"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "glasgow",
+  "zh": "格拉斯哥",
+  "orig": "Glasgow",
+  "pos": [
+   -4.252,
+   55.864
+  ],
+  "kind": "city",
+  "rank": 2,
+  "country": "GB",
+  "sources": [
+   "roskill_1954"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "loch_ewe",
+  "zh": "埃韦湾",
+  "orig": "Loch Ewe",
+  "pos": [
+   -5.83,
+   57.83
+  ],
+  "kind": "port",
+  "rank": 3,
+  "alt": "北极船团集结点",
+  "country": "GB",
+  "sources": [
+   "woodman_1994"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "scapa_flow",
+  "zh": "斯卡帕湾",
+  "orig": "Scapa Flow",
+  "pos": [
+   -2.96,
+   58.9
+  ],
+  "kind": "port",
+  "rank": 1,
+  "alt": "本土舰队主锚地",
+  "country": "GB",
+  "sources": [
+   "roskill_1954",
+   "oni_prien_u47"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "tobermory",
+  "zh": "托伯莫里",
+  "orig": "Tobermory",
+  "pos": [
+   -6.07,
+   56.62
+  ],
+  "kind": "port",
+  "rank": 4,
+  "alt": "护航舰训练基地",
+  "country": "GB",
+  "sources": [
+   "roskill_1954"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "belfast",
+  "zh": "贝尔法斯特",
+  "orig": "Belfast",
+  "pos": [
+   -5.93,
+   54.597
+  ],
+  "kind": "city",
+  "rank": 2,
+  "country": "GB",
+  "sources": [
+   "roskill_1954"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "londonderry",
+  "zh": "伦敦德里",
+  "orig": "Londonderry",
+  "pos": [
+   -7.31,
+   55.0
+  ],
+  "kind": "port",
+  "rank": 2,
+  "alt": "北大西洋护航终点之一",
+  "country": "GB",
+  "sources": [
+   "roskill_1954"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "plymouth",
+  "zh": "普利茅斯",
+  "orig": "Plymouth",
+  "pos": [
+   -4.143,
+   50.375
+  ],
+  "kind": "port",
+  "rank": 2,
+  "country": "GB",
+  "sources": [
+   "roskill_1954"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "portsmouth",
+  "zh": "朴次茅斯",
+  "orig": "Portsmouth",
+  "pos": [
+   -1.088,
+   50.805
+  ],
+  "kind": "port",
+  "rank": 2,
+  "country": "GB",
+  "sources": [
+   "roskill_1954"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "dover",
+  "zh": "多佛",
+  "orig": "Dover",
+  "pos": [
+   1.313,
+   51.127
+  ],
+  "kind": "port",
+  "rank": 2,
+  "country": "GB",
+  "sources": [
+   "nh_ship_histories"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "southampton",
+  "zh": "南安普敦",
+  "orig": "Southampton",
+  "pos": [
+   -1.404,
+   50.91
+  ],
+  "kind": "port",
+  "rank": 2,
+  "country": "GB",
+  "sources": [
+   "roskill_1954"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "saint_nazaire",
+  "zh": "圣纳泽尔",
+  "orig": "Saint-Nazaire",
+  "pos": [
+   -2.213,
+   47.273
+  ],
+  "kind": "port",
+  "rank": 2,
+  "alt": "U 艇基地与船坞",
+  "country": "FR",
+  "sources": [
+   "uboat_net"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "brest",
+  "zh": "布雷斯特",
+  "orig": "Brest",
+  "pos": [
+   -4.486,
+   48.39
+  ],
+  "kind": "port",
+  "rank": 1,
+  "alt": "U 艇基地",
+  "country": "FR",
+  "sources": [
+   "uboat_net"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "lorient",
+  "zh": "洛里昂",
+  "orig": "Lorient",
+  "pos": [
+   -3.37,
+   47.748
+  ],
+  "kind": "port",
+  "rank": 1,
+  "alt": "U 艇基地，狼群司令部所在",
+  "country": "FR",
+  "sources": [
+   "uboat_net"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "la_pallice",
+  "zh": "拉帕利斯",
+  "orig": "La Pallice",
+  "pos": [
+   -1.151,
+   46.16
+  ],
+  "kind": "port",
+  "rank": 3,
+  "alt": "拉罗谢尔外港，U 艇掩体",
+  "country": "FR",
+  "sources": [
+   "uboat_net"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "bordeaux",
+  "zh": "波尔多",
+  "orig": "Bordeaux",
+  "pos": [
+   -0.579,
+   44.837
+  ],
+  "kind": "port",
+  "rank": 2,
+  "alt": "BETASOM 意大利潜艇基地",
+  "country": "FR",
+  "sources": [
+   "uboat_net"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "cherbourg",
+  "zh": "瑟堡",
+  "orig": "Cherbourg",
+  "pos": [
+   -1.617,
+   49.633
+  ],
+  "kind": "port",
+  "rank": 2,
+  "country": "FR",
+  "sources": [
+   "nh_normandy"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "quiberon",
+  "zh": "基伯龙湾",
+  "orig": "Quiberon Bay",
+  "pos": [
+   -3.12,
+   47.48
+  ],
+  "kind": "sea",
+  "rank": 3,
+  "country": "FR",
+  "sources": [
+   "roskill_1961"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "dunkirk",
+  "zh": "敦刻尔克",
+  "orig": "Dunkerque",
+  "pos": [
+   2.37,
+   51.03
+  ],
+  "kind": "port",
+  "rank": 2,
+  "country": "FR",
+  "sources": [
+   "roskill_1954"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "paris",
+  "zh": "巴黎",
+  "orig": "Paris",
+  "pos": [
+   2.35,
+   48.86
+  ],
+  "kind": "capital",
+  "rank": 1,
+  "country": "FR",
+  "sources": [
+   "roskill_1954"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "reykjavik",
+  "zh": "雷克雅未克",
+  "orig": "Reykjavík",
+  "pos": [
+   -21.94,
+   64.15
+  ],
+  "kind": "capital",
+  "rank": 1,
+  "country": "IS",
+  "sources": [
+   "roskill_1954"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "hvalfjord",
+  "zh": "赫瓦尔峡湾",
+  "orig": "Hvalfjörður",
+  "pos": [
+   -21.68,
+   64.38
+  ],
+  "kind": "port",
+  "rank": 3,
+  "alt": "船团集结点",
+  "country": "IS",
+  "sources": [
+   "woodman_1994"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "faroe",
+  "zh": "法罗群岛",
+  "orig": "Færøerne",
+  "pos": [
+   -6.9,
+   62.0
+  ],
+  "kind": "region",
+  "rank": 3,
+  "country": "DK",
+  "sources": [
+   "roskill_1954"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "cape_farewell",
+  "zh": "法韦尔角",
+  "orig": "Cape Farewell",
+  "pos": [
+   -43.9,
+   59.8
+  ],
+  "kind": "region",
+  "rank": 3,
+  "country": "GL",
+  "sources": [
+   "roskill_1956"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "halifax",
+  "zh": "哈利法克斯",
+  "orig": "Halifax",
+  "pos": [
+   -63.575,
+   44.648
+  ],
+  "kind": "port",
+  "rank": 1,
+  "alt": "HX/SC 船团起点",
+  "country": "CA",
+  "sources": [
+   "schull_1950"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "sydney_ns",
+  "zh": "悉尼（布雷顿角）",
+  "orig": "Sydney, C.B.",
+  "pos": [
+   -60.18,
+   46.14
+  ],
+  "kind": "port",
+  "rank": 1,
+  "alt": "SC 船团起点",
+  "country": "CA",
+  "sources": [
+   "hague_convoy"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "st_johns",
+  "zh": "圣约翰斯",
+  "orig": "St John's",
+  "pos": [
+   -52.706,
+   47.561
+  ],
+  "kind": "port",
+  "rank": 1,
+  "alt": "纽芬兰护航部队司令部",
+  "country": "NF",
+  "sources": [
+   "schull_1950"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "argentia",
+  "zh": "阿真舍",
+  "orig": "Argentia",
+  "pos": [
+   -53.99,
+   47.3
+  ],
+  "kind": "port",
+  "rank": 3,
+  "country": "NF",
+  "sources": [
+   "roskill_1956"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "cape_race",
+  "zh": "雷斯角",
+  "orig": "Cape Race",
+  "pos": [
+   -53.07,
+   46.66
+  ],
+  "kind": "region",
+  "rank": 2,
+  "country": "NF",
+  "sources": [
+   "hague_convoy"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "grand_banks",
+  "zh": "大浅滩",
+  "orig": "Grand Banks",
+  "pos": [
+   -49.0,
+   44.5
+  ],
+  "kind": "sea",
+  "rank": 2,
+  "country": "NF",
+  "sources": [
+   "hague_convoy"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "saint_lawrence",
+  "zh": "圣劳伦斯湾",
+  "orig": "Gulf of St Lawrence",
+  "pos": [
+   -63.0,
+   48.5
+  ],
+  "kind": "sea",
+  "rank": 2,
+  "country": "CA",
+  "sources": [
+   "battleatlantic_1946"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "quebec",
+  "zh": "魁北克",
+  "orig": "Québec",
+  "pos": [
+   -71.21,
+   46.81
+  ],
+  "kind": "city",
+  "rank": 2,
+  "country": "CA",
+  "sources": [
+   "battleatlantic_1946"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "montreal",
+  "zh": "蒙特利尔",
+  "orig": "Montréal",
+  "pos": [
+   -73.57,
+   45.5
+  ],
+  "kind": "city",
+  "rank": 2,
+  "country": "CA",
+  "sources": [
+   "battleatlantic_1946"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "new_york",
+  "zh": "纽约",
+  "orig": "New York",
+  "pos": [
+   -74.006,
+   40.713
+  ],
+  "kind": "port",
+  "rank": 1,
+  "country": "US",
+  "sources": [
+   "mori_battle_atlantic"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "hampton_roads",
+  "zh": "汉普顿锚地",
+  "orig": "Hampton Roads",
+  "pos": [
+   -76.3,
+   36.97
+  ],
+  "kind": "port",
+  "rank": 2,
+  "alt": "美国沿岸船团起点",
+  "country": "US",
+  "sources": [
+   "mori_battle_atlantic"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "boston",
+  "zh": "波士顿",
+  "orig": "Boston",
+  "pos": [
+   -71.06,
+   42.36
+  ],
+  "kind": "port",
+  "rank": 2,
+  "country": "US",
+  "sources": [
+   "mori_battle_atlantic"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "cape_hatteras",
+  "zh": "哈特拉斯角",
+  "orig": "Cape Hatteras",
+  "pos": [
+   -75.52,
+   35.22
+  ],
+  "kind": "region",
+  "rank": 2,
+  "alt": "1942 年 U 艇猎场",
+  "country": "US",
+  "sources": [
+   "gannon_1990"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "miami",
+  "zh": "迈阿密",
+  "orig": "Miami",
+  "pos": [
+   -80.19,
+   25.76
+  ],
+  "kind": "port",
+  "rank": 3,
+  "country": "US",
+  "sources": [
+   "mori_battle_atlantic"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "key_west",
+  "zh": "基韦斯特",
+  "orig": "Key West",
+  "pos": [
+   -81.78,
+   24.555
+  ],
+  "kind": "port",
+  "rank": 3,
+  "alt": "墨西哥湾船团终点",
+  "country": "US",
+  "sources": [
+   "mori_battle_atlantic"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "trinidad",
+  "zh": "特立尼达",
+  "orig": "Trinidad",
+  "pos": [
+   -61.3,
+   10.4
+  ],
+  "kind": "port",
+  "rank": 2,
+  "country": "GB",
+  "sources": [
+   "roskill_1956"
+  ],
+  "confidence": "high"
+ }
+]

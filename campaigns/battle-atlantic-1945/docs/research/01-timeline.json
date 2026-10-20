@@ -1,0 +1,2144 @@
+{
+ "about": "大西洋海战（1939-09-03 — 1945-05-08）事件候选表。R1/t1 研究产出，供 R3 与 data 层改造；不是可直接使用的 data/events.json。",
+ "timeStandard": "at 一律折算为 UTC。atOriginal 保留来源原写法；clockBasis 标明原时钟：utc/gmt/bst(UTC+1)/bdst(UTC+2)/cet(UTC+1 或 CEST=UTC+2)/mez/cest/ewt(UTC−4)/ship(舰钟)/local(当地)。",
+ "clockNotes": "英国 1940-02-25 起全年 BST(UTC+1)；1941–45 年夏季再拨快一小时为 BDST(UTC+2)，1945-07-15 退回 BST、1945-10-07 退回 GMT。德国冬季 MEZ/CET=UTC+1，夏季 MESZ/CEST=UTC+2。美国东岸 1942 年全年 EWT=UTC−4。",
+ "counts": {
+  "events": 69,
+  "bodies": 35,
+  "epilogue": 1
+ },
+ "window": "1939-09-03T00:00 — 1945-05-08T23:59（campaign.json 的 time.start / time.end）",
+ "sourceTable": "见 01-strategy.md §2；id 可直接用于 data/sources/*.json。",
+ "altTimeRule": "atAlt/atAltNote 只在来源时区确有争议时给出第二版本（皇家橡树、丹麦海峡、俾斯麦）；其余事件均已折算为单一 UTC 值。",
+ "caveats": [
+  "e.river_plate / e.graf_spee_scuttle 的纬度在画布南界（−12°）之外，不宜写入 data/events.json。",
+  "e.deadlight（1945-11-17）在战役时间窗之外，已移入 epilogue，不进入 events。",
+  "e.weseruebung / e.iceland_landing 等在图幅边缘，坐标精度按战役级取整。",
+  "e.denmark_strait / e.bismarck_sunk 保留来源的英舰时钟原值（clockBasis=ship），未强行折算；数据层若统一为 UTC，须先在两条之间保持一致并注明。",
+  "e.black_may 的撤令日期有 5-22（Roskill）与 5-24（wiki/Blair）两说。",
+  "e.u320_last 的日期有 5-07（Actions of 7–8 May）与 5-08（U-320 条目）两说。"
+ ],
+ "events": [
+  {
+   "id": "e.uk_declares_war",
+   "at": "1939-09-03T10:00",
+   "clockBasis": "bst",
+   "atOriginal": "11:00 BST",
+   "precision": "minute",
+   "category": "political",
+   "importance": 2,
+   "side": "GB",
+   "title": {
+    "zh": "英国对德宣战",
+    "orig": "British declaration of war"
+   },
+   "place": [
+    -0.13,
+    51.5
+   ],
+   "placeNote": "伦敦",
+   "zoomRel": 1,
+   "sources": [
+    "wiki_boa",
+    "roskill_v1"
+   ],
+   "confidence": "high",
+   "notes": "法国同日 17:00（CEST）宣战。"
+  },
+  {
+   "id": "e.athenia",
+   "at": "1939-09-03T19:40",
+   "clockBasis": "unstated",
+   "atOriginal": "19:40（来源未注时区；若为德方 MEZ 则 UTC 18:40）",
+   "precision": "minute",
+   "category": "naval",
+   "importance": 2,
+   "side": "DE",
+   "title": {
+    "zh": "雅典娜号被击沉",
+    "orig": "SS Athenia"
+   },
+   "body": "开战当天傍晚，U-30 在罗卡尔岩以南追上一艘驶往加拿大的客轮。艇长误判为武装商船，19 时 40 分发射两雷，一雷命中机舱。船上 1418 人中有 117 人丧生，包括 28 名美国公民。柏林否认责任并篡改艇长日志，真相直到纽伦堡审判才公开。",
+   "place": [
+    -14.5,
+    56.5
+   ],
+   "placeNote": "罗卡尔岩以南约 60 海里",
+   "zoomRel": 8,
+   "unitsSuggestion": [
+    "de.u30"
+   ],
+   "sfxSuggestion": [
+    "torpedo",
+    "radio"
+   ],
+   "sources": [
+    "wiki_athenia",
+    "uboat_net"
+   ],
+   "confidence": "high",
+   "notes": "117 = 98 乘客 + 19 船员；uboat.net 旧统计作 112。德国宣传曾称「英国自沉」。中文文献常写「19:40」而不注时区，若为 MEZ 则 UTC 18:40。"
+  },
+  {
+   "id": "e.u39_ark_royal",
+   "at": "1939-09-14T12:00",
+   "clockBasis": "unstated",
+   "atOriginal": "当日（时刻未详）",
+   "precision": "day",
+   "category": "naval",
+   "importance": 3,
+   "side": "DE",
+   "title": {
+    "zh": "U-39 攻击皇家方舟号失败",
+    "orig": "U-39 vs HMS Ark Royal"
+   },
+   "place": [
+    -9.5,
+    56.0
+   ],
+   "placeNote": "赫布里底群岛以西",
+   "zoomRel": 8,
+   "unitsSuggestion": [
+    "de.u39",
+    "gb.ark_royal"
+   ],
+   "sources": [
+    "wiki_boa"
+   ],
+   "confidence": "medium",
+   "notes": "三雷提前爆炸，U-39 被护航驱逐舰击沉，为战争第一艘损失 U 艇。此后英国航母退出反潜猎杀。 （day 精度：时分为编排值 12:00Z，正式数据用 precision=\"day\" 显示「当日」）",
+   "nominalTime": true
+  },
+  {
+   "id": "e.courageous",
+   "at": "1939-09-17T18:00",
+   "clockBasis": "unstated",
+   "atOriginal": "傍晚（时刻未详）",
+   "precision": "hour",
+   "category": "naval",
+   "importance": 2,
+   "side": "DE",
+   "title": {
+    "zh": "勇敢号航空母舰被击沉",
+    "orig": "HMS Courageous"
+   },
+   "place": [
+    -13.5,
+    50.2
+   ],
+   "placeNote": "爱尔兰西南海域",
+   "zoomRel": 8,
+   "unitsSuggestion": [
+    "de.u29",
+    "gb.courageous"
+   ],
+   "sfxSuggestion": [
+    "torpedo",
+    "explosion"
+   ],
+   "sources": [
+    "wiki_courageous",
+    "uboat_net"
+   ],
+   "confidence": "medium",
+   "notes": "U-29（Schuhart）两雷命中，20 分钟沉没，519 人死亡。原始时刻只记「傍晚」，本表取 18:00Z 作编排值。"
+  },
+  {
+   "id": "e.raiding_authorized",
+   "at": "1939-09-26T16:43",
+   "clockBasis": "mez",
+   "atOriginal": "17:43 MEZ（SKL 电报 1743/26）",
+   "precision": "minute",
+   "category": "political",
+   "importance": 3,
+   "side": "DE",
+   "title": {
+    "zh": "德国解禁对商船的攻击",
+    "orig": "Handelskrieg freigegeben"
+   },
+   "place": [
+    8.15,
+    53.52
+   ],
+   "placeNote": "威廉港（海军战争指挥部）",
+   "zoomRel": 2,
+   "sources": [
+    "roskill_v1"
+   ],
+   "confidence": "high",
+   "notes": "此前 U 艇与袭击舰按捕获法行动并受政治限制；9-26 起依《战利品法规》攻击，对法国船的禁令延至 10 月中旬。"
+  },
+  {
+   "id": "e.panama_declaration",
+   "at": "1939-10-03T12:00",
+   "clockBasis": "unstated",
+   "atOriginal": "当日",
+   "precision": "day",
+   "category": "political",
+   "importance": 2,
+   "side": "US",
+   "title": {
+    "zh": "巴拿马宣言划定美洲安全区",
+    "orig": "Declaration of Panama"
+   },
+   "place": [
+    -79.5,
+    8.98
+   ],
+   "placeNote": "巴拿马城",
+   "zoomRel": 1,
+   "sources": [
+    "wiki_panama",
+    "roskill_v1"
+   ],
+   "confidence": "high",
+   "notes": "21 个美洲国家宣布沿岸约 300 海里内为中立区，交战国不得作战；无强制力，德国舰艇照常进入。 （day 精度：时分为编排值 12:00Z，正式数据用 precision=\"day\" 显示「当日」）",
+   "nominalTime": true
+  },
+  {
+   "id": "e.royal_oak",
+   "at": "1939-10-14T00:58",
+   "clockBasis": "unstated",
+   "atOriginal": "00:58（来源未注时区；若为德方 MEZ 则 UTC 为 10-13 23:58）",
+   "precision": "minute",
+   "category": "naval",
+   "importance": 2,
+   "side": "DE",
+   "title": {
+    "zh": "皇家橡树号在斯卡帕湾被击沉",
+    "orig": "HMS Royal Oak"
+   },
+   "body": "深夜的斯卡帕湾被认为潜艇无法潜入。U-47 借潮水穿过霍尔姆海峡，0 时 58 分发射三雷，仅一雷命中舰艏；装填后再射三雷，1 时 16 分全部命中，舰体 1 时 29 分倾覆。835 人死亡，其中 134 名未满十八岁。",
+   "place": [
+    -2.99,
+    58.87
+   ],
+   "placeNote": "斯卡帕湾",
+   "zoomRel": 10,
+   "unitsSuggestion": [
+    "de.u47",
+    "gb.royal_oak"
+   ],
+   "sfxSuggestion": [
+    "torpedo",
+    "explosion",
+    "siren"
+   ],
+   "sources": [
+    "wiki_royal_oak",
+    "uboat_net"
+   ],
+   "confidence": "high",
+   "atAlt": "1939-10-13T23:58",
+   "atAltNote": "若来源为德方 MEZ，则 UTC 为 10-13 23:58",
+   "notes": "MEZ/GMT 混读风险（相差 1 小时）：本表保留广泛引用的 00:58 并标为未注时区，数据层若采用 UTC 需二选一并全篇统一。835 人为 2019 年核定值，旧统计有 833/786。"
+  },
+  {
+   "id": "e.rawalpindi",
+   "at": "1939-11-23T16:03",
+   "clockBasis": "mez",
+   "atOriginal": "17:03 MEZ（沙恩霍斯特号）；16:07 发现目标",
+   "precision": "minute",
+   "category": "naval",
+   "importance": 2,
+   "side": "DE",
+   "title": {
+    "zh": "拉瓦尔品第号被沙恩霍斯特号击沉",
+    "orig": "HMS Rawalpindi"
+   },
+   "place": [
+    -3.5,
+    63.0
+   ],
+   "placeNote": "法罗群岛以北",
+   "zoomRel": 7,
+   "unitsSuggestion": [
+    "de.scharnhorst",
+    "de.gneisenau",
+    "gb.rawalpindi"
+   ],
+   "sources": [
+    "wiki_rawalpindi",
+    "wiki_scharnhorst"
+   ],
+   "confidence": "high",
+   "notes": "德方 16:07 发现、17:03 开火、17:16 停止射击；折 UTC 为 15:07/16:03/16:16。238 人死亡、37 人被俘。"
+  },
+  {
+   "id": "e.river_plate",
+   "at": "1939-12-13T08:14",
+   "clockBasis": "ship",
+   "atOriginal": "06:14 英舰 Zone +2（UTC−2）",
+   "precision": "minute",
+   "category": "naval",
+   "importance": 2,
+   "side": "GB",
+   "title": {
+    "zh": "拉普拉塔河口海战",
+    "orig": "Battle of the River Plate"
+   },
+   "place": [
+    -49.2,
+    -34.4
+   ],
+   "placeNote": "拉普拉塔河口外",
+   "zoomRel": 5,
+   "unitsSuggestion": [
+    "de.graf_spee",
+    "gb.exeter",
+    "gb.ajax",
+    "gb.achilles"
+   ],
+   "sources": [
+    "roskill_v1"
+   ],
+   "confidence": "high",
+   "frameNote": "纬度 −34.4 在画布南界（−12°）之外；只宜作背景注记或不入 data/events.json。",
+   "notes": "详见 campaigns/river-plate-1939；本战役不重复其海战数据。"
+  },
+  {
+   "id": "e.graf_spee_scuttle",
+   "at": "1939-12-17T20:44",
+   "clockBasis": "local",
+   "atOriginal": "17:44 蒙得维的亚当地时间（UTC−3）",
+   "precision": "minute",
+   "category": "naval",
+   "importance": 2,
+   "side": "DE",
+   "title": {
+    "zh": "施佩伯爵号自沉",
+    "orig": "Admiral Graf Spee"
+   },
+   "place": [
+    -56.2,
+    -34.9
+   ],
+   "placeNote": "蒙得维的亚港外",
+   "zoomRel": 9,
+   "unitsSuggestion": [
+    "de.graf_spee"
+   ],
+   "sources": [
+    "roskill_v1"
+   ],
+   "confidence": "high",
+   "frameNote": "同 e.river_plate：在图幅南界之外。",
+   "notes": "与 river-plate-1939 的口径一致（当地 17:44 = 20:44Z）。"
+  },
+  {
+   "id": "e.weseruebung",
+   "at": "1940-04-09T03:00",
+   "clockBasis": "cest",
+   "atOriginal": "05:00 CEST（德军登陆时刻，各地不同）",
+   "precision": "hour",
+   "category": "movement",
+   "importance": 2,
+   "side": "DE",
+   "title": {
+    "zh": "威悉演习：德军入侵挪威",
+    "orig": "Unternehmen Weserübung"
+   },
+   "place": [
+    17.43,
+    68.44
+   ],
+   "placeNote": "纳尔维克",
+   "zoomRel": 3,
+   "sources": [
+    "roskill_v1",
+    "wiki_boa"
+   ],
+   "confidence": "high",
+   "notes": "德国水面舰队集中于挪威作战，1940 年上半年大西洋上没有水面袭击舰。"
+  },
+  {
+   "id": "e.iceland_landing",
+   "at": "1940-05-10T12:00",
+   "clockBasis": "unstated",
+   "atOriginal": "当日",
+   "precision": "day",
+   "category": "movement",
+   "importance": 2,
+   "side": "GB",
+   "title": {
+    "zh": "英军登陆冰岛",
+    "orig": "Invasion of Iceland"
+   },
+   "place": [
+    -21.94,
+    64.15
+   ],
+   "placeNote": "雷克雅未克",
+   "zoomRel": 4,
+   "sources": [
+    "wiki_iceland"
+   ],
+   "confidence": "high",
+   "notes": "冰岛成为中大西洋护航与岸基航空兵的关键跳板；1941-07-07 防务移交美国。 （day 精度：时分为编排值 12:00Z，正式数据用 precision=\"day\" 显示「当日」）",
+   "nominalTime": true
+  },
+  {
+   "id": "e.france_armistice",
+   "at": "1940-06-22T16:50",
+   "clockBasis": "cest",
+   "atOriginal": "18:50 CEST（贡比涅签字）",
+   "precision": "minute",
+   "category": "political",
+   "importance": 1,
+   "side": "DE",
+   "title": {
+    "zh": "法国停战与比斯开湾基地",
+    "orig": "Armistice du 22 juin 1940"
+   },
+   "body": "法国停战协定签字后，德国海军接管比斯开湾的布雷斯特、洛里昂、圣纳泽尔、拉罗谢尔与波尔多。U 艇从此不必绕过不列颠北部，出港一天即可进入大西洋，在航时间由约三分之一提高到三分之二。7 月初 U-30 第一个驶入洛里昂，此后这里成为狼群的巢穴。",
+   "place": [
+    -3.37,
+    47.75
+   ],
+   "placeNote": "洛里昂",
+   "zoomRel": 3,
+   "sources": [
+    "wiki_boa",
+    "wiki_u30",
+    "roskill_v2"
+   ],
+   "confidence": "high",
+   "notes": "在航时间比例是通行估计（1/3→2/3 或 1/4→3/4），不是精确统计。"
+  },
+  {
+   "id": "e.u30_lorient",
+   "at": "1940-07-07T12:00",
+   "clockBasis": "unstated",
+   "atOriginal": "当日",
+   "precision": "day",
+   "category": "naval",
+   "importance": 3,
+   "side": "DE",
+   "title": {
+    "zh": "U-30 成为第一艘进驻洛里昂的 U 艇",
+    "orig": "U-30 enters Lorient"
+   },
+   "place": [
+    -3.37,
+    47.75
+   ],
+   "placeNote": "洛里昂",
+   "zoomRel": 9,
+   "unitsSuggestion": [
+    "de.u30"
+   ],
+   "sources": [
+    "wiki_u30",
+    "uboat_net"
+   ],
+   "confidence": "high",
+   "notes": "uboat.net 巡逻表：6 月 8 日自威廉港出海，7 月 7 日抵洛里昂；部分叙述写 7 月 6 日。差一日。 （day 精度：时分为编排值 12:00Z，正式数据用 precision=\"day\" 显示「当日」）",
+   "nominalTime": true
+  },
+  {
+   "id": "e.betasom",
+   "at": "1940-08-15T12:00",
+   "clockBasis": "unstated",
+   "atOriginal": "1940 年 8 月（开基）",
+   "precision": "day",
+   "category": "political",
+   "importance": 3,
+   "side": "DE",
+   "title": {
+    "zh": "意大利 BETASOM 潜艇基地在波尔多开设",
+    "orig": "BETASOM"
+   },
+   "place": [
+    -0.58,
+    44.84
+   ],
+   "placeNote": "波尔多",
+   "zoomRel": 6,
+   "sources": [
+    "wiki_betasom"
+   ],
+   "confidence": "high",
+   "notes": "至 1940-11 有 26 艘意大利潜艇驻泊；1943-09 意大利投降后被德军接管。 （day 精度：时分为编排值 12:00Z，正式数据用 precision=\"day\" 显示「当日」）",
+   "nominalTime": true
+  },
+  {
+   "id": "e.destroyers_for_bases",
+   "at": "1940-09-02T12:00",
+   "clockBasis": "unstated",
+   "atOriginal": "当日（换文）",
+   "precision": "day",
+   "category": "political",
+   "importance": 2,
+   "side": "US",
+   "title": {
+    "zh": "驱逐舰换基地协定",
+    "orig": "Destroyers-for-bases deal"
+   },
+   "body": "英国以纽芬兰、百慕大、巴哈马、牙买加等地的海空军基地九十九年租借权，换取美国五十艘超龄驱逐舰，其中四十三艘加入皇家海军、七艘加入加拿大海军。这批四烟囱驱逐舰装备陈旧，却填补了 1940 年秋天护航兵力最紧张的空缺，也把美国从中立推向半参战。",
+   "place": [
+    -77.04,
+    38.9
+   ],
+   "placeNote": "华盛顿",
+   "zoomRel": 1,
+   "sources": [
+    "wiki_dfb",
+    "wiki_boa"
+   ],
+   "confidence": "high",
+   "notes": "罗斯福 8-30 晚批准，9-02 国务卿赫尔换文，9-03 海军认证。 （day 精度：时分为编排值 12:00Z，正式数据用 precision=\"day\" 显示「当日」）",
+   "nominalTime": true
+  },
+  {
+   "id": "e.hx72",
+   "at": "1940-09-21T21:00",
+   "clockBasis": "ship",
+   "atOriginal": "日落之后（英舰与船团日志，Zone 时间）",
+   "precision": "hour",
+   "category": "naval",
+   "importance": 2,
+   "side": "DE",
+   "title": {
+    "zh": "HX 72 船团遭狼群攻击",
+    "orig": "Convoy HX 72"
+   },
+   "place": [
+    -18.0,
+    54.0
+   ],
+   "placeNote": "爱尔兰以西",
+   "zoomRel": 7,
+   "unitsSuggestion": [
+    "de.u47",
+    "de.u99",
+    "de.u100"
+   ],
+   "sources": [
+    "wiki_hx72",
+    "uboat_net"
+   ],
+   "confidence": "high",
+   "notes": "43 艘中 11 沉 2 伤，U 艇无损失。杰维斯湾号 20 日日落时脱离，船团一度无护航。"
+  },
+  {
+   "id": "e.sc7",
+   "at": "1940-10-18T20:00",
+   "clockBasis": "mez",
+   "atOriginal": "18/19 夜（各艇 KTB 为 MEZ）",
+   "precision": "hour",
+   "category": "naval",
+   "importance": 1,
+   "side": "DE",
+   "title": {
+    "zh": "SC 7 船团被狼群击溃",
+    "orig": "Convoy SC 7"
+   },
+   "body": "10 月 18 日夜，慢速船团 SC 7 在爱尔兰以西被五艘 U 艇咬住。船团仅有两艘单桅帆船与两艘护卫舰，无法阻止潜艇在队列间的水面夜袭。六小时内十六艘船被击沉，全团三十五艘中二十艘沉没，七万九千余总吨。这是整场海战中最成功的单次狼群攻击。",
+   "place": [
+    -13.0,
+    57.0
+   ],
+   "placeNote": "北纬 57°、西经 13° 一带",
+   "zoomRel": 8,
+   "unitsSuggestion": [
+    "de.u46",
+    "de.u99",
+    "de.u100",
+    "de.u101",
+    "de.u123"
+   ],
+   "sfxSuggestion": [
+    "torpedo",
+    "explosion",
+    "radio"
+   ],
+   "sources": [
+    "wiki_sc7",
+    "uboat_net"
+   ],
+   "confidence": "high",
+   "notes": "20/35（连同掉队者 21 艘）两种口径；79,592 GRT。事件时刻取夜袭开始，具体为编排值。"
+  },
+  {
+   "id": "e.hx79",
+   "at": "1940-10-19T21:00",
+   "clockBasis": "mez",
+   "atOriginal": "19/20 夜（各艇 KTB 为 MEZ）",
+   "precision": "hour",
+   "category": "naval",
+   "importance": 2,
+   "side": "DE",
+   "title": {
+    "zh": "HX 79 船团遭夜袭",
+    "orig": "Convoy HX 79"
+   },
+   "place": [
+    -13.0,
+    57.5
+   ],
+   "placeNote": "与 SC 7 相近海域",
+   "zoomRel": 8,
+   "unitsSuggestion": [
+    "de.u47",
+    "de.u48",
+    "de.u100",
+    "de.u46"
+   ],
+   "sources": [
+    "wiki_hx79",
+    "uboat_net"
+   ],
+   "confidence": "high",
+   "notes": "49 艘中 12 沉、75,069 GRT；德方当时宣称 17 艘。SC 7 与 HX 79 合计 48 小时内沉 28 艘。"
+  },
+  {
+   "id": "e.scheer_breakout",
+   "at": "1940-10-31T21:00",
+   "clockBasis": "mez",
+   "atOriginal": "31 日夜间（德方 MEZ）",
+   "precision": "hour",
+   "category": "movement",
+   "importance": 3,
+   "side": "DE",
+   "title": {
+    "zh": "舍尔号穿越丹麦海峡",
+    "orig": "Admiral Scheer sortie"
+   },
+   "place": [
+    -25.0,
+    66.5
+   ],
+   "placeNote": "丹麦海峡",
+   "zoomRel": 5,
+   "unitsSuggestion": [
+    "de.admiral_scheer"
+   ],
+   "sources": [
+    "wiki_scheer"
+   ],
+   "confidence": "medium",
+   "notes": "整役击沉 113,223 GRT，是二战最成功的水面袭击舰。"
+  },
+  {
+   "id": "e.hx84",
+   "at": "1940-11-05T16:00",
+   "clockBasis": "mez",
+   "atOriginal": "约 17:00 MEZ（德方）；09:40 放机、12:05 发现船团",
+   "precision": "hour",
+   "category": "naval",
+   "importance": 2,
+   "side": "DE",
+   "title": {
+    "zh": "HX 84 与杰维斯湾号",
+    "orig": "Convoy HX 84 / HMS Jervis Bay"
+   },
+   "body": "11 月 5 日，舍尔号在北大西洋截住 HX 84。唯一的护航舰、改装巡洋舰杰维斯湾号主动迎战，二十分钟内被击沉，一百九十人阵亡，却为船团争取到散开的时间。舍尔击沉五艘商船后转向南大西洋。英国一度暂停北大西洋船团，本土舰队出海搜索无果。",
+   "place": [
+    -32.87,
+    52.68
+   ],
+   "placeNote": "北纬 52°41′、西经 32°52′",
+   "zoomRel": 7,
+   "unitsSuggestion": [
+    "de.admiral_scheer",
+    "gb.jervis_bay"
+   ],
+   "sfxSuggestion": [
+    "ship_gun",
+    "explosion"
+   ],
+   "sources": [
+    "wiki_hx84",
+    "wiki_scheer"
+   ],
+   "confidence": "high",
+   "notes": "船团 38 艘、护航仅 1 艘 AMC；舍尔击沉 5 艘、空军另击沉 1 艘。Jervis Bay 阵亡 190 人（一说 187）。"
+  },
+  {
+   "id": "e.ws5a",
+   "at": "1940-12-25T12:00",
+   "clockBasis": "mez",
+   "atOriginal": "圣诞节（时刻未详）",
+   "precision": "day",
+   "category": "naval",
+   "importance": 3,
+   "side": "DE",
+   "title": {
+    "zh": "希佩尔号攻击 WS 5A 船团被击退",
+    "orig": "Admiral Hipper vs WS 5A"
+   },
+   "place": [
+    -21.0,
+    43.0
+   ],
+   "placeNote": "亚速尔群岛以北",
+   "zoomRel": 6,
+   "unitsSuggestion": [
+    "de.admiral_hipper"
+   ],
+   "sources": [
+    "wiki_boa"
+   ],
+   "confidence": "medium",
+   "notes": "护航巡洋舰逼退希佩尔号；两个月后（1941-02-12）它才在 SLS 64 得手。 （day 精度：时分为编排值 12:00Z，正式数据用 precision=\"day\" 显示「当日」）",
+   "nominalTime": true
+  },
+  {
+   "id": "e.berlin_op",
+   "at": "1941-01-22T12:00",
+   "clockBasis": "mez",
+   "atOriginal": "1941-01-22（德方）",
+   "precision": "day",
+   "category": "movement",
+   "importance": 2,
+   "side": "DE",
+   "title": {
+    "zh": "柏林行动：两艘战列巡洋舰突入大西洋",
+    "orig": "Unternehmen Berlin"
+   },
+   "place": [
+    -24.0,
+    66.0
+   ],
+   "placeNote": "丹麦海峡方向",
+   "zoomRel": 4,
+   "unitsSuggestion": [
+    "de.scharnhorst",
+    "de.gneisenau"
+   ],
+   "sources": [
+    "wiki_berlin"
+   ],
+   "confidence": "high",
+   "notes": "1-22 → 3-22，击沉或捕获 22 艘；2-8 与 3-7/8 三次因英国战列舰护航而放弃攻击船团。 （day 精度：时分为编排值 12:00Z，正式数据用 precision=\"day\" 显示「当日」）",
+   "nominalTime": true
+  },
+  {
+   "id": "e.sls64",
+   "at": "1941-02-12T12:00",
+   "clockBasis": "mez",
+   "atOriginal": "当日（时刻未详）",
+   "precision": "day",
+   "category": "naval",
+   "importance": 3,
+   "side": "DE",
+   "title": {
+    "zh": "希佩尔号击沉 SLS 64 船团七艘",
+    "orig": "SLS 64"
+   },
+   "place": [
+    -21.0,
+    43.0
+   ],
+   "placeNote": "亚速尔群岛以北",
+   "zoomRel": 7,
+   "unitsSuggestion": [
+    "de.admiral_hipper"
+   ],
+   "sources": [
+    "wiki_boa"
+   ],
+   "confidence": "medium",
+   "notes": "19 艘无护航商船中 7 艘被击沉。 （day 精度：时分为编排值 12:00Z，正式数据用 precision=\"day\" 显示「当日」）",
+   "nominalTime": true
+  },
+  {
+   "id": "e.u47_lost",
+   "at": "1941-03-07T03:54",
+   "clockBasis": "mez",
+   "atOriginal": "04:54 MEZ（U-47 最后一次发报）",
+   "precision": "minute",
+   "category": "naval",
+   "importance": 3,
+   "side": "DE",
+   "title": {
+    "zh": "U-47 失踪",
+    "orig": "U-47 lost"
+   },
+   "place": [
+    -13.0,
+    60.0
+   ],
+   "placeNote": "冰岛以南（约 60°N 13°W）",
+   "zoomRel": 7,
+   "unitsSuggestion": [
+    "de.u47"
+   ],
+   "sources": [
+    "uboat_net"
+   ],
+   "confidence": "medium",
+   "notes": "1941-03-07 最后发报后失踪；战后评估称沉没原因不明（旧说 Wolverine 击沉已被推翻）。时刻为德方 MEZ。"
+  },
+  {
+   "id": "e.lend_lease",
+   "at": "1941-03-11T12:00",
+   "clockBasis": "unstated",
+   "atOriginal": "当日（华盛顿）",
+   "precision": "day",
+   "category": "political",
+   "importance": 2,
+   "side": "US",
+   "title": {
+    "zh": "租借法案生效",
+    "orig": "Lend-Lease Act"
+   },
+   "place": [
+    -77.04,
+    38.9
+   ],
+   "placeNote": "华盛顿",
+   "zoomRel": 1,
+   "sources": [
+    "wiki_boa"
+   ],
+   "confidence": "high",
+   "notes": "法案使美国物资大量流入英国与后来的苏联，直接加大跨大西洋货运量。 （day 精度：时分为编排值 12:00Z，正式数据用 precision=\"day\" 显示「当日」）",
+   "nominalTime": true
+  },
+  {
+   "id": "e.hx112",
+   "at": "1941-03-17T03:18",
+   "clockBasis": "ship",
+   "atOriginal": "03:18（英舰时钟）；U-99 自沉 03:43",
+   "precision": "minute",
+   "category": "naval",
+   "importance": 2,
+   "side": "GB",
+   "title": {
+    "zh": "HX 112 船团战与三王牌之失",
+    "orig": "Convoy HX 112"
+   },
+   "body": "3 月 17 日凌晨，第 3 护航群在冰岛以南咬住狼群。瓦诺克号用早期雷达在暗夜中发现 U-100，将其撞沉；沃克号以深水炸弹重创 U-99，艇长克雷奇默尔下令自沉。一周前普里恩的 U-47 已失踪。邓尼茨在一周内失去三位王牌，狼群战术被迫向西转移。",
+   "place": [
+    -15.0,
+    61.0
+   ],
+   "placeNote": "冰岛以南海域",
+   "zoomRel": 8,
+   "unitsSuggestion": [
+    "de.u99",
+    "de.u100",
+    "gb.vanoc",
+    "gb.walker"
+   ],
+   "sfxSuggestion": [
+    "explosion",
+    "radio"
+   ],
+   "sources": [
+    "uboat_net",
+    "wiki_boa",
+    "roskill_v2"
+   ],
+   "confidence": "high",
+   "notes": "U-100 被撞沉 03:18、U-99 自沉 03:43，均为英舰时钟（约 GMT，该海域 Zone −1）。"
+  },
+  {
+   "id": "e.pan_american_zone",
+   "at": "1941-04-18T12:00",
+   "clockBasis": "unstated",
+   "atOriginal": "当日",
+   "precision": "day",
+   "category": "political",
+   "importance": 2,
+   "side": "US",
+   "title": {
+    "zh": "美洲安全区扩至西经 26 度",
+    "orig": "Pan-American Security Zone extended"
+   },
+   "place": [
+    -77.04,
+    38.9
+   ],
+   "placeNote": "华盛顿",
+   "zoomRel": 1,
+   "sources": [
+    "wiki_panama",
+    "wiki_boa"
+   ],
+   "confidence": "high",
+   "notes": "安全区东界推到冰岛以西，美军开始为西大西洋船团护航并公开报告 U 艇位置。 （day 精度：时分为编排值 12:00Z，正式数据用 precision=\"day\" 显示「当日」）",
+   "nominalTime": true
+  },
+  {
+   "id": "e.u110_capture",
+   "at": "1941-05-09T12:00",
+   "clockBasis": "unstated",
+   "atOriginal": "当日（时刻未详）",
+   "precision": "day",
+   "category": "naval",
+   "importance": 2,
+   "side": "GB",
+   "title": {
+    "zh": "U-110 被俘与恩尼格玛缴获",
+    "orig": "Capture of U-110"
+   },
+   "body": "5 月 9 日，U-110 在冰岛以南攻击船团后上浮过久，被护航舰发现。深水炸弹迫使艇员弃艇，而艇并未下沉。皇家海军登艇搜出恩尼格玛机、密钥表与双字母表，此后数周 U 艇通信可读。这次俘获被列为最高机密，连艇员本人都不知道。",
+   "place": [
+    -25.0,
+    60.0
+   ],
+   "placeNote": "冰岛以南",
+   "zoomRel": 8,
+   "unitsSuggestion": [
+    "de.u110",
+    "gb.bulldog",
+    "gb.aubretia"
+   ],
+   "sfxSuggestion": [
+    "radio",
+    "morse"
+   ],
+   "sources": [
+    "uboat_net",
+    "wiki_boa"
+   ],
+   "confidence": "high",
+   "notes": "Lemp 弃艇后失踪；艇在拖航中沉没。缴获包括双字母表与当前密钥。 （day 精度：时分为编排值 12:00Z，正式数据用 precision=\"day\" 显示「当日」）",
+   "nominalTime": true
+  },
+  {
+   "id": "e.denmark_strait",
+   "at": "1941-05-24T05:52",
+   "clockBasis": "ship",
+   "atOriginal": "05:52.5 胡德号开火（英舰时钟；该条注明「舰钟比当地时间早 4 小时」；德方 05:55 开火）",
+   "precision": "minute",
+   "category": "naval",
+   "importance": 2,
+   "side": "GB",
+   "title": {
+    "zh": "丹麦海峡海战",
+    "orig": "Battle of the Denmark Strait"
+   },
+   "body": "5 月 24 日清晨，胡德号与威尔士亲王号在丹麦海峡迎战俾斯麦号与欧根亲王号。英舰误将欧根亲王号当作目标，胡德号在转向时被俾斯麦号第五次齐射击穿弹药库，约六分钟内爆炸沉没，全舰一千四百一十八人中仅三人生还。威尔士亲王号中弹后退出战斗。",
+   "place": [
+    -28.0,
+    66.5
+   ],
+   "placeNote": "丹麦海峡",
+   "zoomRel": 7,
+   "unitsSuggestion": [
+    "de.bismarck",
+    "de.prinz_eugen",
+    "gb.hood",
+    "gb.prince_of_wales"
+   ],
+   "sfxSuggestion": [
+    "ship_gun",
+    "explosion"
+   ],
+   "sources": [
+    "wiki_denmark",
+    "wiki_bismarck"
+   ],
+   "confidence": "medium",
+   "atAlt": "1941-05-24T03:52",
+   "atAltNote": "若舰钟为 BDST(UTC+2)，则 UTC 为 03:52；若舰钟即 GMT，则为 05:52。德方 05:55 开火与后者只差 3 分钟，故多数研究把双方时刻视为同一基准（用 MEZ 记号）",
+   "notes": "05:52 为英舰时钟。该条明确「舰钟比当地时间早 4 小时」，1941-05 该海域当地时约 UTC−2，故舰钟 ≈ UTC+2；折 UTC 约 03:52，与德方 05:55 MEZ（=04:55Z）仍差一小时。两种折算都无法同时对上德方记录，**本表保留来源原值 05:52 并标 clock=ship**，数据层须择一并注明。"
+  },
+  {
+   "id": "e.bismarck_sunk",
+   "at": "1941-05-27T08:47",
+   "clockBasis": "ship",
+   "atOriginal": "08:47 英舰时钟（BDST = UTC+2）；德方 09:47 MEZ",
+   "precision": "minute",
+   "category": "naval",
+   "importance": 2,
+   "side": "GB",
+   "title": {
+    "zh": "俾斯麦号沉没",
+    "orig": "Last battle of Bismarck"
+   },
+   "body": "5 月 27 日晨，英舰在法国以西追上俾斯麦号。罗德尼号与英王乔治五世号从八时四十七分起持续轰击，四十四分钟内打哑全部四座主炮。德方在九时三十分下令自沉并弃舰，十时三十九分倾覆。两千二百余名官兵中仅一百一十四人生还。战沉与自沉之争延续至今。",
+   "place": [
+    -16.2,
+    48.5
+   ],
+   "placeNote": "布雷斯特以西约 400 海里",
+   "zoomRel": 7,
+   "unitsSuggestion": [
+    "de.bismarck",
+    "gb.rodney",
+    "gb.king_george_v",
+    "gb.dorsetshire"
+   ],
+   "sfxSuggestion": [
+    "ship_gun",
+    "explosion"
+   ],
+   "sources": [
+    "wiki_bismarck"
+   ],
+   "confidence": "medium",
+   "atAlt": "1941-05-27T06:47",
+   "atAltNote": "若英舰为 BDST(UTC+2)，则 UTC 为 06:47",
+   "notes": "08:47 / 09:30 / 10:39 均为英舰时钟；若该日英舰为 BDST(UTC+2) 则折 UTC 06:47 / 07:30 / 08:39，若为 GMT 则即原值。本表保留原值并标 clock=ship。自沉与战沉并存：Oels 09:30 下令自沉，英方 10:39 记录倾覆。"
+  },
+  {
+   "id": "e.nef",
+   "at": "1941-06-13T12:00",
+   "clockBasis": "unstated",
+   "atOriginal": "当日",
+   "precision": "day",
+   "category": "political",
+   "importance": 2,
+   "side": "CA",
+   "title": {
+    "zh": "纽芬兰护航部队成立",
+    "orig": "Newfoundland Escort Force"
+   },
+   "body": "6 月 13 日，加拿大海军默里准将在纽芬兰圣约翰斯就任纽芬兰护航部队司令，负责西经三十五度以西的船团。加拿大海军从战前的六艘驱逐舰扩张到数十艘护卫舰与花级轻护，承担起北大西洋最西一段的护航。全程护航制度自此成形。",
+   "place": [
+    -52.7,
+    47.56
+   ],
+   "placeNote": "圣约翰斯",
+   "zoomRel": 4,
+   "sources": [
+    "wiki_boa",
+    "roskill_v2"
+   ],
+   "confidence": "high",
+   "notes": "5-23 海军部提出请求，6-13 默里就任；初期 6 艘加驱逐舰 + 17 艘轻护，另有英舰加强。 （day 精度：时分为编排值 12:00Z，正式数据用 precision=\"day\" 显示「当日」）",
+   "nominalTime": true
+  },
+  {
+   "id": "e.iceland_us",
+   "at": "1941-07-07T12:00",
+   "clockBasis": "unstated",
+   "atOriginal": "当日",
+   "precision": "day",
+   "category": "political",
+   "importance": 2,
+   "side": "US",
+   "title": {
+    "zh": "冰岛防务移交美国",
+    "orig": "US occupation of Iceland"
+   },
+   "place": [
+    -21.94,
+    64.15
+   ],
+   "placeNote": "雷克雅未克",
+   "zoomRel": 4,
+   "sources": [
+    "wiki_iceland"
+   ],
+   "confidence": "high",
+   "notes": "美国仍为中立国，但美军接防后其舰机开始为西大西洋船团提供掩护。 （day 精度：时分为编排值 12:00Z，正式数据用 precision=\"day\" 显示「当日」）",
+   "nominalTime": true
+  },
+  {
+   "id": "e.atlantic_charter",
+   "at": "1941-08-14T12:00",
+   "clockBasis": "unstated",
+   "atOriginal": "当日公布（会谈自 8-09 起）",
+   "precision": "day",
+   "category": "political",
+   "importance": 2,
+   "side": "GB",
+   "title": {
+    "zh": "《大西洋宪章》发表",
+    "orig": "Atlantic Charter"
+   },
+   "body": "8 月 9 日，丘吉尔乘威尔士亲王号抵达纽芬兰普拉森舍湾，与罗斯福在奥古斯塔号上会谈。14 日公布联合声明，即《大西洋宪章》，宣布不使用武力、民族自决、公海自由等原则。文件没有签字文本，却把美国从「中立巡逻」推向非交战国的同盟。",
+   "place": [
+    -54.0,
+    47.3
+   ],
+   "placeNote": "普拉森舍湾",
+   "zoomRel": 3,
+   "sources": [
+    "wiki_charter"
+   ],
+   "confidence": "high",
+   "notes": "无正式签署文本；8-14 以「联合声明」公布，Daily Herald 首称「大西洋宪章」。 （day 精度：时分为编排值 12:00Z，正式数据用 precision=\"day\" 显示「当日」）",
+   "nominalTime": true
+  },
+  {
+   "id": "e.first_arctic_convoy",
+   "at": "1941-08-21T12:00",
+   "clockBasis": "unstated",
+   "atOriginal": "21 日启航，31 日抵阿尔汉格尔斯克",
+   "precision": "day",
+   "category": "movement",
+   "importance": 2,
+   "side": "GB",
+   "title": {
+    "zh": "第一支北极船团启航",
+    "orig": "Operation Dervish"
+   },
+   "body": "8 月 21 日，第一支北极船团「德维希行动」从冰岛雷克雅未克出发，31 日抵达阿尔汉格尔斯克。船上载有十五架拆箱的飓风与空军人员，另有二十四架由百眼巨人号航母运抵，飞往摩尔曼斯克附近的瓦延加机场。此后 PQ/QP 与 JW/RA 航线相继开通。",
+   "place": [
+    -21.94,
+    64.15
+   ],
+   "placeNote": "雷克雅未克（启航点）",
+   "zoomRel": 4,
+   "sources": [
+    "wiki_pq17",
+    "wiki_151wing",
+    "wiki_arctic"
+   ],
+   "confidence": "high",
+   "notes": "Dervish 共 6 艘商船 + 1 艘油轮 + 1 艘荷兰船；15 架装箱飓风在 Llanstephan Castle，24 架由 Argus 起飞（Operation Strength）。 （day 精度：时分为编排值 12:00Z，正式数据用 precision=\"day\" 显示「当日」）",
+   "nominalTime": true
+  },
+  {
+   "id": "e.shoot_on_sight",
+   "at": "1941-09-11T12:00",
+   "clockBasis": "unstated",
+   "atOriginal": "当日（罗斯福广播）",
+   "precision": "day",
+   "category": "political",
+   "importance": 2,
+   "side": "US",
+   "title": {
+    "zh": "「见即击沉」命令",
+    "orig": "Shoot on sight"
+   },
+   "place": [
+    -77.04,
+    38.9
+   ],
+   "placeNote": "华盛顿",
+   "zoomRel": 1,
+   "sources": [
+    "wiki_boa"
+   ],
+   "confidence": "medium",
+   "notes": "此前 9-04 格雷尔号事件；原始命令文本未取得，时刻为编排值。 （day 精度：时分为编排值 12:00Z，正式数据用 precision=\"day\" 显示「当日」）",
+   "nominalTime": true
+  },
+  {
+   "id": "e.reuben_james",
+   "at": "1941-10-31T05:00",
+   "clockBasis": "ewt",
+   "atOriginal": "约 01:00 美东战时时间（EWT = UTC−4）",
+   "precision": "hour",
+   "category": "naval",
+   "importance": 3,
+   "side": "DE",
+   "title": {
+    "zh": "鲁本·詹姆斯号被击沉",
+    "orig": "USS Reuben James"
+   },
+   "place": [
+    -27.5,
+    52.0
+   ],
+   "placeNote": "冰岛以南",
+   "zoomRel": 7,
+   "unitsSuggestion": [
+    "de.u552",
+    "us.reuben_james"
+   ],
+   "sources": [
+    "wiki_boa",
+    "wiki_reuben"
+   ],
+   "confidence": "medium",
+   "notes": "美国海军第一艘被 U 艇击沉的军舰，100 人死亡（部分文献作 115）。时刻为编排值。"
+  },
+  {
+   "id": "e.ger_declares_war_us",
+   "at": "1941-12-11T12:00",
+   "clockBasis": "cet",
+   "atOriginal": "当日（柏林）；12-11 德美互相宣战",
+   "precision": "day",
+   "category": "political",
+   "importance": 2,
+   "side": "DE",
+   "title": {
+    "zh": "德国对美宣战",
+    "orig": "Kriegserklärung an die USA"
+   },
+   "place": [
+    13.38,
+    52.52
+   ],
+   "placeNote": "柏林",
+   "zoomRel": 1,
+   "sources": [
+    "wiki_boa",
+    "roskill_v2"
+   ],
+   "confidence": "high",
+   "notes": "宣战当日邓尼茨即决定派艇赴美国东岸（Paukenschlag），12-12 定案。 （day 精度：时分为编排值 12:00Z，正式数据用 precision=\"day\" 显示「当日」）",
+   "nominalTime": true
+  },
+  {
+   "id": "e.hg76",
+   "at": "1941-12-19T12:00",
+   "clockBasis": "gmt",
+   "atOriginal": "19–23 日（船团日志 GMT）",
+   "precision": "day",
+   "category": "naval",
+   "importance": 2,
+   "side": "GB",
+   "title": {
+    "zh": "HG 76 船团战",
+    "orig": "Convoy HG 76"
+   },
+   "body": "12 月 19 日至 23 日，直布罗陀驶往英国的 HG 76 船团遭到狼群拦截。沃克上校的第 36 护航群与护航航母大胆号协同，五天内击沉五艘 U 艇，自身损失三艘商船、一艘驱逐舰与大胆号。这是开战以来盟军第一次明确赢得的船团防御战，也确立了沃克在反潜战术上的声望。",
+   "place": [
+    -9.0,
+    36.0
+   ],
+   "placeNote": "直布罗陀以西",
+   "zoomRel": 6,
+   "unitsSuggestion": [
+    "gb.audacity",
+    "gb.walker",
+    "de.u567"
+   ],
+   "sfxSuggestion": [
+    "explosion",
+    "ship_gun"
+   ],
+   "sources": [
+    "wiki_hg76",
+    "wiki_boa"
+   ],
+   "confidence": "high",
+   "notes": "第 36 护航群 2 艘单桅帆船 + 6 艘轻护；大胆号 12-21 被击沉。德方 5 艇沉没中有 1 艘由直布罗陀打击部队击沉。商船损失 wiki 条目内同时出现「两艘」（导言）与「三艘」（Aftermath），本表取三艘。 （day 精度：时分为编排值 12:00Z，正式数据用 precision=\"day\" 显示「当日」）",
+   "nominalTime": true
+  },
+  {
+   "id": "e.drumbeat",
+   "at": "1942-01-14T05:00",
+   "clockBasis": "ewt",
+   "atOriginal": "凌晨（EWT = UTC−4，Norness 被击沉）",
+   "precision": "hour",
+   "category": "naval",
+   "importance": 1,
+   "side": "DE",
+   "title": {
+    "zh": "鼓点行动：U 艇抵达美国东岸",
+    "orig": "Operation Paukenschlag"
+   },
+   "body": "德国对美宣战后，邓尼茨立即派出五艘 IX 型 U 艇赴美国东岸，代号「鼓点」。1 月 14 日凌晨，U-123 在长岛外海击沉挪威油轮诺尼斯号。美国沿岸不实行灯火管制，城市灯光把船影衬在海上。此后半年，东岸与加勒比成为 U 艇的第二个「快乐时光」。",
+   "place": [
+    -72.5,
+    40.6
+   ],
+   "placeNote": "长岛外海",
+   "zoomRel": 6,
+   "unitsSuggestion": [
+    "de.u123"
+   ],
+   "sfxSuggestion": [
+    "torpedo",
+    "explosion"
+   ],
+   "sources": [
+    "wiki_secondhappy",
+    "roskill_v2",
+    "uboat_net"
+   ],
+   "confidence": "high",
+   "notes": "1-02 五艘出海（原定 12 艘，被上级砍半）；1 月前两周击沉 13 艘约 10 万吨（Roskill）。Norness 为 9,500 吨挪威油轮。"
+  },
+  {
+   "id": "e.triton",
+   "at": "1942-02-01T00:00",
+   "clockBasis": "mez",
+   "atOriginal": "1942-02-01（德国海军换用 TRITON 网）",
+   "precision": "day",
+   "category": "political",
+   "importance": 2,
+   "side": "DE",
+   "title": {
+    "zh": "U 艇改用四转子恩尼格玛（TRITON）",
+    "orig": "TRITON / M4"
+   },
+   "body": "2 月 1 日，德国海军把 U 艇通信切换到使用四转子恩尼格玛的「海神」网。布莱奇利园此前依赖的三转子密钥全部失效，此后十个月无法读出 U 艇的巡逻线位置。盟军只能靠测向与旧密钥的辅助电报推断潜艇动向，船团规避能力大幅下降。",
+   "place": [
+    8.15,
+    53.52
+   ],
+   "placeNote": "威廉港（海军通信）",
+   "zoomRel": 2,
+   "unitsSuggestion": [],
+   "sources": [
+    "wiki_boa"
+   ],
+   "confidence": "high",
+   "notes": "wiki_boa 记为 2-01；德方称 Schlüssel M / M4。破译在 1942-10-30 缴获 U-559 材料后恢复。"
+  },
+  {
+   "id": "e.channel_dash",
+   "at": "1942-02-11T22:00",
+   "clockBasis": "cet",
+   "atOriginal": "23:00 CET（布雷斯特启航）",
+   "precision": "minute",
+   "category": "movement",
+   "importance": 2,
+   "side": "DE",
+   "title": {
+    "zh": "海峡冲刺",
+    "orig": "Unternehmen Cerberus"
+   },
+   "body": "2 月 11 日深夜，沙恩霍斯特号、格奈森瑙号与欧根亲王号从布雷斯特出港，沿法国海岸以二十七节向东疾驶。英国雷达与空中巡逻均未及时反应，三舰 12 日穿过多佛海峡，13 日抵达德国。战术上是一次成功，战略上却结束了德国水面舰队在大西洋的存在。",
+   "place": [
+    1.4,
+    51.1
+   ],
+   "placeNote": "多佛海峡",
+   "zoomRel": 4,
+   "unitsSuggestion": [
+    "de.scharnhorst",
+    "de.gneisenau",
+    "de.prinz_eugen"
+   ],
+   "sources": [
+    "wiki_channel",
+    "wiki_scharnhorst"
+   ],
+   "confidence": "high",
+   "notes": "11 日 23:00 CET = 22:00Z；12 日 13:00 过加来，13 日抵威廉港。"
+  },
+  {
+   "id": "e.us_coastal_convoy",
+   "at": "1942-05-14T12:00",
+   "clockBasis": "ewt",
+   "atOriginal": "当日（美东时间）",
+   "precision": "day",
+   "category": "movement",
+   "importance": 2,
+   "side": "US",
+   "title": {
+    "zh": "美国沿岸第一支船团",
+    "orig": "First US coastal convoy"
+   },
+   "body": "5 月 14 日，第一支美国沿岸船团从汉普顿锚地驶往基韦斯特。此前 U 艇在美国东岸与墨西哥湾几乎自由猎杀，5 月仅在墨西哥湾就击沉一百一十五艘船。船团制与灯火管制逐步推行后，沿岸损失迅速下降，邓尼茨被迫在 7 月撤走东岸最后一批 U 艇。",
+   "place": [
+    -76.3,
+    37.0
+   ],
+   "placeNote": "汉普顿锚地",
+   "zoomRel": 5,
+   "sources": [
+    "wiki_boa",
+    "wiki_secondhappy"
+   ],
+   "confidence": "high",
+   "notes": "5 月墨西哥湾 115 艘（101 艘单独航行），6 月 122 艘（108 艘单独航行）。 （day 精度：时分为编排值 12:00Z，正式数据用 precision=\"day\" 显示「当日」）",
+   "nominalTime": true
+  },
+  {
+   "id": "e.pq17",
+   "at": "1942-07-04T19:36",
+   "clockBasis": "bdst",
+   "atOriginal": "21:36 英国双夏令时 BDST（UTC+2，海军部第三电）；前两电 21:11 / 21:23",
+   "precision": "minute",
+   "category": "naval",
+   "importance": 2,
+   "side": "GB",
+   "title": {
+    "zh": "PQ 17 船团被解散",
+    "orig": "Convoy PQ 17"
+   },
+   "body": "7 月 4 日，英国海军部连续三次电令 PQ 17 解散：21 时 11 分令巡洋舰高速西撤，21 时 23 分令船团分散，21 时 36 分改为「解散」。三十五艘船团失去护航，在挪威以北被飞机与潜艇逐一猎杀，二十四艘沉没，仅十一艘到达。提尔皮茨号始终没有出港。",
+   "place": [
+    15.0,
+    75.0
+   ],
+   "placeNote": "熊岛东北",
+   "zoomRel": 5,
+   "unitsSuggestion": [
+    "de.tirpitz"
+   ],
+   "sfxSuggestion": [
+    "radio",
+    "bomber"
+   ],
+   "sources": [
+    "wiki_pq17"
+   ],
+   "confidence": "high",
+   "notes": "1942 年 7 月英国为 BDST(UTC+2)，21:36 BDST = 19:36Z；若按 BST(UTC+1) 折算则为 20:36Z，须全篇统一。提尔皮茨 7-05 出动后即取消。损失 24 艘、11 艘到达（一说 25 艘，含重创弃船者）。"
+  },
+  {
+   "id": "e.drumbeat_end",
+   "at": "1942-07-19T12:00",
+   "clockBasis": "mez",
+   "atOriginal": "当日",
+   "precision": "day",
+   "category": "movement",
+   "importance": 2,
+   "side": "DE",
+   "title": {
+    "zh": "U 艇撤出美国东岸",
+    "orig": "Withdrawal from US East Coast"
+   },
+   "place": [
+    -72.5,
+    38.0
+   ],
+   "placeNote": "美国东岸外海",
+   "zoomRel": 4,
+   "sources": [
+    "wiki_boa",
+    "roskill_v2"
+   ],
+   "confidence": "high",
+   "notes": "邓尼茨 7-19 下令最后一批撤离，7 月底把重心转回北大西洋空白区。 （day 精度：时分为编排值 12:00Z，正式数据用 precision=\"day\" 显示「当日」）",
+   "nominalTime": true
+  },
+  {
+   "id": "e.laconia",
+   "at": "1942-09-12T22:00",
+   "clockBasis": "ship",
+   "atOriginal": "22:00（船钟，约 GMT）；22:22 发 SSS",
+   "precision": "hour",
+   "category": "atrocity",
+   "importance": 2,
+   "side": "DE",
+   "title": {
+    "zh": "拉科尼亚号事件",
+    "orig": "Laconia incident"
+   },
+   "place": [
+    -11.42,
+    -4.0
+   ],
+   "placeNote": "利比里亚与阿森松之间",
+   "zoomRel": 5,
+   "unitsSuggestion": [
+    "de.u156"
+   ],
+   "sources": [
+    "wiki_laconia"
+   ],
+   "confidence": "high",
+   "notes": "U-156 救起幸存者并悬挂红十字，被美军 B-24 攻击；9-17 与维希法国舰艇会合。随后邓尼茨下达「拉科尼亚命令」。坐标按 4°34′S 11°25′W 取近似。"
+  },
+  {
+   "id": "e.u559",
+   "at": "1942-10-30T12:00",
+   "clockBasis": "unstated",
+   "atOriginal": "当日（塞得港外）",
+   "precision": "day",
+   "category": "naval",
+   "importance": 2,
+   "side": "GB",
+   "title": {
+    "zh": "U-559 被击沉与密码材料缴获",
+    "orig": "U-559"
+   },
+   "place": [
+    32.3,
+    31.45
+   ],
+   "placeNote": "塞得港外",
+   "zoomRel": 5,
+   "unitsSuggestion": [
+    "de.u559",
+    "gb.petard"
+   ],
+   "sources": [
+    "wiki_boa"
+   ],
+   "confidence": "high",
+   "notes": "英舰 Petard 的登艇组抢出材料后艇沉没，两名水兵溺亡；材料使布莱奇利园在 12 月恢复读 TRITON。位置在画布东界（45°E）内，但在地中海，属战区外，宜作背景注记。 （day 精度：时分为编排值 12:00Z，正式数据用 precision=\"day\" 显示「当日」）",
+   "nominalTime": true
+  },
+  {
+   "id": "e.torch",
+   "at": "1942-11-08T01:00",
+   "clockBasis": "local",
+   "atOriginal": "登陆前数小时（各滩头当地时间）",
+   "precision": "hour",
+   "category": "movement",
+   "importance": 1,
+   "side": "US",
+   "title": {
+    "zh": "火炬行动：北非登陆",
+    "orig": "Operation Torch"
+   },
+   "body": "11 月 8 日，盟军在摩洛哥与阿尔及利亚登陆。邓尼茨把二十五艘大西洋 U 艇调往直布罗陀与摩洛哥海域，北大西洋只留下十艘，船团航线的攻势几乎停摆。两栖作战与护航战争夺同一批驱逐舰与护航航母，这是 1942 年底盟军最大的资源矛盾。",
+   "place": [
+    -7.6,
+    33.6
+   ],
+   "placeNote": "卡萨布兰卡",
+   "zoomRel": 3,
+   "unitsSuggestion": [],
+   "sfxSuggestion": [
+    "ship_gun",
+    "bomber"
+   ],
+   "sources": [
+    "wiki_torch"
+   ],
+   "confidence": "high",
+   "notes": "三个特混编队分别在卡萨布兰卡、奥兰、阿尔及尔登陆；19 艘 U 艇集结于巴利阿里—阿尔及尔之间。"
+  },
+  {
+   "id": "e.horton",
+   "at": "1942-11-19T12:00",
+   "clockBasis": "gmt",
+   "atOriginal": "当日",
+   "precision": "day",
+   "category": "political",
+   "importance": 2,
+   "side": "GB",
+   "title": {
+    "zh": "霍顿接任西部航道司令部",
+    "orig": "Max Horton at Western Approaches"
+   },
+   "body": "11 月 19 日，霍顿海军上将接任西部航道司令部司令。他把日益增多的护航舰编成不承担固定船团责任的「支援群」，可以连续数日追猎一艘 U 艇，并推广「按住」战术：以多舰轮番压制，直到潜艇耗尽空气被迫上浮。这些组织改革是 1943 年 5 月胜利的前提。",
+   "place": [
+    -3.0,
+    53.4
+   ],
+   "placeNote": "利物浦",
+   "zoomRel": 3,
+   "sources": [
+    "wiki_boa",
+    "roskill_v2"
+   ],
+   "confidence": "high",
+   "notes": "前任诺布尔（Percy Noble）；支援群与「按住」（hold-down）战术由沃克等舰长实践。 （day 精度：时分为编排值 12:00Z，正式数据用 precision=\"day\" 显示「当日」）",
+   "nominalTime": true
+  },
+  {
+   "id": "e.casablanca",
+   "at": "1943-01-14T12:00",
+   "clockBasis": "local",
+   "atOriginal": "当日（摩洛哥时间）",
+   "precision": "day",
+   "category": "political",
+   "importance": 3,
+   "side": "US",
+   "title": {
+    "zh": "卡萨布兰卡会议",
+    "orig": "Casablanca Conference"
+   },
+   "place": [
+    -7.6,
+    33.6
+   ],
+   "placeNote": "卡萨布兰卡",
+   "zoomRel": 2,
+   "sources": [
+    "roskill_v2"
+   ],
+   "confidence": "high",
+   "notes": "Roskill 记载会议 1-14 开幕，1-21 决定把 U 艇工业与比斯开湾基地列为首要轰炸目标。 （day 精度：时分为编排值 12:00Z，正式数据用 precision=\"day\" 显示「当日」）",
+   "nominalTime": true
+  },
+  {
+   "id": "e.atlantic_convoy_conference",
+   "at": "1943-03-01T12:00",
+   "clockBasis": "unstated",
+   "atOriginal": "3 月 1 日开幕（华盛顿）",
+   "precision": "day",
+   "category": "political",
+   "importance": 1,
+   "side": "GB",
+   "title": {
+    "zh": "华盛顿大西洋护航会议",
+    "orig": "Atlantic Convoy Conference"
+   },
+   "body": "3 月 1 日，美、英、加三国海军在华盛顿举行大西洋护航会议。美国提出退出北大西洋船团护航，改由英加承担，自己接手中南大西洋油船航线并派出一支护航航母支援群。会议把责任分界移到西经四十七度，加拿大成立西北大西洋司令部，新安排 4 月 1 日生效。",
+   "place": [
+    -77.04,
+    38.9
+   ],
+   "placeNote": "华盛顿",
+   "zoomRel": 1,
+   "sources": [
+    "roskill_v2",
+    "wiki_boa"
+   ],
+   "confidence": "high",
+   "notes": "Roskill 第 14 章有会议内容概述（3-01 开幕），但逐日议程与闭幕日期未载；4-01 生效、分界西经 47°、纽芬兰远程飞机增至 4 个中队（48 架）。 （day 精度：时分为编排值 12:00Z，正式数据用 precision=\"day\" 显示「当日」）",
+   "nominalTime": true
+  },
+  {
+   "id": "e.sc121",
+   "at": "1943-03-05T12:00",
+   "clockBasis": "gmt",
+   "atOriginal": "3 月上旬（SC 121、HX 228、UGS 6 连续交战）",
+   "precision": "day",
+   "category": "naval",
+   "importance": 2,
+   "side": "GB",
+   "title": {
+    "zh": "三月上旬的三场船团战",
+    "orig": "SC 121 / HX 228 / UGS 6"
+   },
+   "place": [
+    -35.0,
+    52.0
+   ],
+   "placeNote": "中大西洋",
+   "zoomRel": 6,
+   "sources": [
+    "wiki_blackmay",
+    "wiki_boa"
+   ],
+   "confidence": "medium",
+   "notes": "Black May 条目把 HX 228、SC 121、UGS 6 列为三月船队战的序幕；具体日期与损失在各船团条目中，本笔记未逐一核实。 （day 精度：时分为编排值 12:00Z，正式数据用 precision=\"day\" 显示「当日」）",
+   "nominalTime": true
+  },
+  {
+   "id": "e.enigma_blackout",
+   "at": "1943-03-10T00:00",
+   "clockBasis": "mez",
+   "atOriginal": "当日（德国海军换钥）",
+   "precision": "day",
+   "category": "political",
+   "importance": 2,
+   "side": "DE",
+   "title": {
+    "zh": "U 艇密钥增设，盟军情报盲期九天",
+    "orig": "Enigma key change"
+   },
+   "body": "3 月 10 日，德国海军给 U 艇密钥增设一层加密，布莱奇利园在此后九天无法解读 U 艇通信。邓尼茨恰好在这段时间集中狼群攻击船团。等到破译恢复，三月船队战已经打完。这一巧合说明：情报优势是必要工具，但不能单独决定船团战的胜负。",
+   "place": [
+    -0.74,
+    51.95
+   ],
+   "placeNote": "布莱奇利园",
+   "zoomRel": 2,
+   "sources": [
+    "wiki_boa",
+    "wiki_blackmay"
+   ],
+   "confidence": "medium",
+   "notes": "「九天」为 wiki 转引 Blair 的说法；ONS 5 期间（4-26）也发生换钥，导致 5-5 前无法解读。"
+  },
+  {
+   "id": "e.hx229_sc122",
+   "at": "1943-03-16T09:00",
+   "clockBasis": "gmt",
+   "atOriginal": "16 日晨（各舰时钟混用，取 GMT）",
+   "precision": "hour",
+   "category": "naval",
+   "importance": 1,
+   "side": "DE",
+   "title": {
+    "zh": "HX 229 与 SC 122 船团战",
+    "orig": "Convoys HX 229/SC 122"
+   },
+   "body": "3 月 16 日至 19 日，东行的 HX 229 与慢速的 SC 122 在北大西洋同时被三群狼群咬住。九十艘商船、十六艘护航舰面对三十八艘 U 艇，二十二艘商船沉没，十四万六千总吨，三百六十一名海员死亡。盟军只击沉 U-384 一艘。这是整场战役中最大的一次船团战。",
+   "place": [
+    -35.0,
+    55.0
+   ],
+   "placeNote": "中大西洋",
+   "zoomRel": 6,
+   "unitsSuggestion": [
+    "de.u653",
+    "de.u338",
+    "gb.highlander"
+   ],
+   "sfxSuggestion": [
+    "torpedo",
+    "explosion",
+    "radio"
+   ],
+   "sources": [
+    "wiki_hx229",
+    "wiki_blackmay"
+   ],
+   "confidence": "high",
+   "notes": "22 艘 = HX 229 13 艘 + SC 122 9 艘；361 死（249+112）；38 艘 U 艇参战，仅 U-384 被击沉。"
+  },
+  {
+   "id": "e.biscay_offensive",
+   "at": "1943-04-13T12:00",
+   "clockBasis": "bst",
+   "atOriginal": "当日（英国夏令时）",
+   "precision": "day",
+   "category": "air",
+   "importance": 2,
+   "side": "GB",
+   "title": {
+    "zh": "比斯开湾攻势（德兰奇作战）",
+    "orig": "Operation Derange"
+   },
+   "body": "4 月 13 日起，海岸司令部发动「德兰奇」作战，以七十五架装有厘米波 ASV III 雷达的远程飞机巡逻比斯开湾。德国 U 艇装备的 Metox 只能探测米波，无法预警。邓尼茨命令 U 艇上浮对空作战，改装的「高炮艇」损失惨重，5 月五艘被击沉、七艘被迫返航。",
+   "place": [
+    -8.0,
+    45.5
+   ],
+   "placeNote": "比斯开湾",
+   "zoomRel": 4,
+   "unitsSuggestion": [],
+   "sfxSuggestion": [
+    "bomber",
+    "explosion"
+   ],
+   "sources": [
+    "wiki_boa",
+    "wiki_biscay"
+   ],
+   "confidence": "high",
+   "notes": "ASV III 厘米波雷达 + PPI；Metox 为米波接收机。5 月「5 沉 7 伤退」出自 Costello & Hughes / Blair。 （day 精度：时分为编排值 12:00Z，正式数据用 precision=\"day\" 显示「当日」）",
+   "nominalTime": true
+  },
+  {
+   "id": "e.ons5",
+   "at": "1943-04-28T09:00",
+   "clockBasis": "gmt",
+   "atOriginal": "28 日 09:00（船团日志 GMT）；U-650 首次接触",
+   "precision": "minute",
+   "category": "naval",
+   "importance": 1,
+   "side": "GB",
+   "title": {
+    "zh": "ONS 5 船团战",
+    "orig": "Convoy ONS 5"
+   },
+   "body": "4 月 28 日至 5 月 6 日，慢速西行船团 ONS 5 在格陵兰以东遭遇三十余艘 U 艇。护航群与支援群在风暴中轮番反击，击沉六艘 U 艇，自身损失十三艘商船。5 月 6 日船团进入岸基航空兵覆盖圈，邓尼茨下令停止追击。护航战术的转折点由此开始。",
+   "place": [
+    -40.0,
+    58.0
+   ],
+   "placeNote": "格陵兰以东",
+   "zoomRel": 6,
+   "unitsSuggestion": [
+    "gb.gretton",
+    "de.u650",
+    "de.u532"
+   ],
+   "sfxSuggestion": [
+    "explosion",
+    "ship_gun"
+   ],
+   "sources": [
+    "wiki_ons5",
+    "wiki_boa",
+    "roskill_v2"
+   ],
+   "confidence": "high",
+   "notes": "42–43 艘商船、16 艘护航舰、30+ U 艇；13 商船沉、6 U 艇沉（Roskill 记 7 艘，含岸基飞机战果）；一说 12/7。4-26 换钥使盟军 5-5 前无法解读。"
+  },
+  {
+   "id": "e.sc130",
+   "at": "1943-05-11T12:00",
+   "clockBasis": "gmt",
+   "atOriginal": "5-11 自哈利法克斯启航；5-15 起遭四群 U 艇",
+   "precision": "day",
+   "category": "naval",
+   "importance": 2,
+   "side": "GB",
+   "title": {
+    "zh": "SC 130：船团无一损失",
+    "orig": "Convoy SC 130"
+   },
+   "place": [
+    -40.0,
+    52.0
+   ],
+   "placeNote": "纽芬兰以东",
+   "zoomRel": 6,
+   "sources": [
+    "roskill_v2",
+    "wiki_blackmay"
+   ],
+   "confidence": "high",
+   "notes": "Roskill：38 艘、四群 U 艇、无一损失、击沉 5 艘 U 艇（Liberator 2 艘、Hudson 1 艘、1 护航群 1 艘、Duncan 参与 1 艘）。 wiki 记 5 艘。 （day 精度：时分为编排值 12:00Z，正式数据用 precision=\"day\" 显示「当日」）",
+   "nominalTime": true
+  },
+  {
+   "id": "e.black_may",
+   "at": "1943-05-23T12:00",
+   "clockBasis": "mez",
+   "atOriginal": "5 月 22–24 日（Roskill：22 日决定撤退；wiki/Blair：24 日下令）",
+   "precision": "day",
+   "category": "political",
+   "importance": 1,
+   "side": "DE",
+   "title": {
+    "zh": "「黑色五月」与撤出北大西洋",
+    "orig": "Black May"
+   },
+   "body": "5 月，盟军在大西洋击沉约三十四艘 U 艇，全战区共四十一艘，占 U 艇部队作战实力的四分之一。当月商船损失降至三十四艘。5 月下旬，邓尼茨下令 U 艇撤出北大西洋航线，承认「我们输掉了大西洋战役」。狼群的水面夜袭战术从此再未恢复。",
+   "place": [
+    -30.0,
+    50.0
+   ],
+   "placeNote": "北大西洋",
+   "zoomRel": 4,
+   "sources": [
+    "roskill_v2",
+    "wiki_blackmay",
+    "wiki_boa",
+    "wiki_losses"
+   ],
+   "confidence": "high",
+   "notes": "撤令日期两说：Roskill 记 5-22「德军决定撤退」、5-23 前后「U 艇活动骤停」；wiki/Blair 记 5-24。41 艘为全战区，大西洋约 34 艘；商船 34 艘 134,000 GRT（大西洋）。「我们输掉了大西洋战役」为二手转引，未见德方原文。 （day 精度：时分为编排值 12:00Z，正式数据用 precision=\"day\" 显示「当日」）",
+   "nominalTime": true
+  },
+  {
+   "id": "e.leuthen",
+   "at": "1943-09-15T12:00",
+   "clockBasis": "mez",
+   "atOriginal": "9 月 15–24 日",
+   "precision": "day",
+   "category": "naval",
+   "importance": 2,
+   "side": "DE",
+   "title": {
+    "zh": "莱特恩狼群反扑 ONS 18/ON 202",
+    "orig": "Wolfpack Leuthen"
+   },
+   "place": [
+    -35.0,
+    57.0
+   ],
+   "placeNote": "北大西洋",
+   "zoomRel": 6,
+   "sources": [
+    "wiki_leuthen",
+    "wiki_boa"
+   ],
+   "confidence": "high",
+   "notes": "击沉 6 艘商船 + 3 艘护航舰，损失 U-229、U-338、U-341；罗斯巴赫等后续狼群再无所获，11 月解散狼群战术。 （day 精度：时分为编排值 12:00Z，正式数据用 precision=\"day\" 显示「当日」）",
+   "nominalTime": true
+  },
+  {
+   "id": "e.north_cape",
+   "at": "1943-12-26T18:45",
+   "clockBasis": "cet",
+   "atOriginal": "19:45 CET（德方）；英方记录 18:45 GMT",
+   "precision": "minute",
+   "category": "naval",
+   "importance": 2,
+   "side": "GB",
+   "title": {
+    "zh": "北角海战：沙恩霍斯特号沉没",
+    "orig": "Battle of the North Cape"
+   },
+   "body": "12 月 26 日，沙恩霍斯特号出击 JW 55B 船团。贝尔法斯特号以雷达在八时四十分发现目标，约克公爵号在十六时五十分开火。沙恩霍斯特号被多次命中、失去动力，十九时四十五分沉没。一千九百六十八名官兵中仅三十六人生还。德国水面舰队的最后一次出击就此结束。",
+   "place": [
+    25.5,
+    72.5
+   ],
+   "placeNote": "北角以北",
+   "zoomRel": 5,
+   "unitsSuggestion": [
+    "de.scharnhorst",
+    "gb.duke_of_york",
+    "gb.belfast"
+   ],
+   "sfxSuggestion": [
+    "ship_gun",
+    "explosion"
+   ],
+   "sources": [
+    "wiki_scharnhorst"
+   ],
+   "confidence": "high",
+   "notes": "08:40 雷达接触、09:24 贝尔法斯特开火、16:17 约克公爵雷达接触、16:50 开火、18:50 驱逐舰鱼雷、19:45 沉没（CET）。"
+  },
+  {
+   "id": "e.exercise_tiger",
+   "at": "1944-04-27T23:30",
+   "clockBasis": "bdst",
+   "atOriginal": "01:30（4-28）英国双夏令时 BDST（UTC+2）",
+   "precision": "minute",
+   "category": "naval",
+   "importance": 3,
+   "side": "DE",
+   "title": {
+    "zh": "老虎演习：莱姆湾夜袭",
+    "orig": "Exercise Tiger"
+   },
+   "place": [
+    -3.6,
+    50.3
+   ],
+   "placeNote": "莱姆湾",
+   "zoomRel": 6,
+   "unitsSuggestion": [
+    "de.s130"
+   ],
+   "sources": [
+    "wiki_tiger"
+   ],
+   "confidence": "high",
+   "notes": "9 艘 E 艇自瑟堡出击，8 艘 LST 中 2 艘被击沉，749 名美军死亡（551 陆军 + 198 海军）。攻击 01:30–03:30 BDST（4-28）= 4-27 23:30Z 至 4-28 01:30Z。"
+  },
+  {
+   "id": "e.u505_capture",
+   "at": "1944-06-04T11:00",
+   "clockBasis": "unstated",
+   "atOriginal": "当日",
+   "precision": "hour",
+   "category": "naval",
+   "importance": 2,
+   "side": "US",
+   "title": {
+    "zh": "U-505 被俘",
+    "orig": "Capture of U-505"
+   },
+   "body": "6 月 4 日，美国海军第 22.3 特混编队在佛得角以西俘获 U-505。舰载机与驱逐舰配合，深水炸弹迫使艇员弃艇，登艇队抢在进水前关闭阀门，取出恩尼格玛机与密码本。这是美军在二战中唯一一次海上俘获敌潜艇，也再次为破译提供了密钥。",
+   "place": [
+    -20.0,
+    20.0
+   ],
+   "placeNote": "佛得角以西",
+   "zoomRel": 6,
+   "unitsSuggestion": [
+    "us.tg22_3",
+    "de.u505"
+   ],
+   "sfxSuggestion": [
+    "explosion",
+    "radio"
+   ],
+   "sources": [
+    "wiki_u505",
+    "wiki_deadlight"
+   ],
+   "confidence": "high",
+   "notes": "艇后被拖至百慕大，战后成为芝加哥博物馆舰。"
+  },
+  {
+   "id": "e.normandy",
+   "at": "1944-06-06T04:30",
+   "clockBasis": "bdst",
+   "atOriginal": "06:30 英国双夏令时 BDST（UTC+2），美军滩头 H 时；英军滩头 07:25",
+   "precision": "minute",
+   "category": "movement",
+   "importance": 1,
+   "side": "GB",
+   "title": {
+    "zh": "诺曼底登陆与 U 艇封锁",
+    "orig": "Operation Neptune"
+   },
+   "body": "6 月 6 日，盟军在诺曼底登陆。大西洋 U 艇行动暂停，三十六艘艇奉命出击，后增派七艘。面对五千三百余艘参战舰船与密集的空中巡逻，它们只击沉八艘，自身损失十三艘。没有通气管的艇被迫撤回，随后赶来的通气管艇也只击沉两艘、损失七艘。",
+   "place": [
+    -0.6,
+    49.4
+   ],
+   "placeNote": "诺曼底滩头",
+   "zoomRel": 4,
+   "unitsSuggestion": [],
+   "sfxSuggestion": [
+    "ship_gun",
+    "bomber"
+   ],
+   "sources": [
+    "wiki_boa",
+    "wiki_normandy"
+   ],
+   "confidence": "high",
+   "notes": "5,339 艘参战舰船；U 艇 36+7 艘，损失 13+7，击沉 8+2 艘。美军滩头 H 时 06:30 BDST=04:30Z，英军滩头 07:25 BDST=05:25Z。"
+  },
+  {
+   "id": "e.bordeaux_falls",
+   "at": "1944-08-25T12:00",
+   "clockBasis": "cest",
+   "atOriginal": "当日",
+   "precision": "day",
+   "category": "movement",
+   "importance": 2,
+   "side": "GB",
+   "title": {
+    "zh": "比斯开湾基地失守",
+    "orig": "Loss of the Biscay bases"
+   },
+   "body": "8 月，盟军推进至比斯开湾。波尔多在 8 月 25 日被收复，布雷斯特在 9 月易手。洛里昂、圣纳泽尔与拉罗谢尔被围困却守到战争结束，已无法出击。三十艘残余 U 艇撤往挪威。持续四年的法国基地群就此失去意义，U 艇被迫从遥远的北方出发。",
+   "place": [
+    -0.58,
+    44.84
+   ],
+   "placeNote": "波尔多",
+   "zoomRel": 4,
+   "sources": [
+    "wiki_boa",
+    "wiki_betasom"
+   ],
+   "confidence": "high",
+   "notes": "布雷斯特 9 月被美军攻克；三座被围港口守到 1945-05。30 艘 U 艇撤往挪威。 （day 精度：时分为编排值 12:00Z，正式数据用 precision=\"day\" 显示「当日」）",
+   "nominalTime": true
+  },
+  {
+   "id": "e.surrender_order",
+   "at": "1945-05-04T12:00",
+   "clockBasis": "cet",
+   "atOriginal": "5-04（邓尼茨令全部 U 艇停止攻击）",
+   "precision": "day",
+   "category": "surrender",
+   "importance": 3,
+   "side": "DE",
+   "title": {
+    "zh": "U 艇部队接到停火令",
+    "orig": "U-Boot-Waffe ceasefire"
+   },
+   "body": "5 月 4 日，邓尼茨下令所有 U 艇停止攻击、上浮并驶往指定港口。命令通过海军通信网播发，但并非每艘艇都收到。此后仍有艇长按既定命令攻击，5 月 7 日福斯湾的两艘商船因此沉没。部分艇长选择自沉而不是投降。",
+   "place": [
+    9.99,
+    53.55
+   ],
+   "placeNote": "弗伦斯堡—米尔维克（邓尼茨驻地）",
+   "zoomRel": 2,
+   "sources": [
+    "wiki_last45",
+    "wiki_u2336",
+    "wiki_boa"
+   ],
+   "confidence": "medium",
+   "notes": "U-2336 未收到该命令（wiki_u2336 / wiki_last45 均如此说）；命令原文未见，日期取 5-04。 （day 精度：时分为编排值 12:00Z，正式数据用 precision=\"day\" 显示「当日」）",
+   "nominalTime": true
+  },
+  {
+   "id": "e.regenbogen",
+   "at": "1945-05-05T12:00",
+   "clockBasis": "cet",
+   "atOriginal": "5 月初（各地先后）",
+   "precision": "day",
+   "category": "surrender",
+   "importance": 2,
+   "side": "DE",
+   "title": {
+    "zh": "「彩虹」自沉",
+    "orig": "Operation Regenbogen"
+   },
+   "body": "5 月 5 日起，德国海军执行「彩虹」计划，由艇员自行凿沉港内与船坞中的 U 艇。战争结束时共有二百二十二艘 U 艇被己方凿沉，一百五十六艘向盟军投降。凿沉是拒绝交出装备的最后手段，也让战后清点变得困难，许多艇的最终状态至今存疑。",
+   "place": [
+    9.4,
+    54.8
+   ],
+   "placeNote": "弗伦斯堡（主要自沉地）",
+   "zoomRel": 3,
+   "sources": [
+    "wiki_boa",
+    "wiki_deadlight"
+   ],
+   "confidence": "medium",
+   "notes": "222 艘自沉（wiki_boa）/ 156 艘投降（Deadlight 口径）；另有 174 艘投降（Battle of the Atlantic 口径），差别在统计范围。 （day 精度：时分为编排值 12:00Z，正式数据用 precision=\"day\" 显示「当日」）",
+   "nominalTime": true
+  },
+  {
+   "id": "e.u320_last",
+   "at": "1945-05-07T12:00",
+   "clockBasis": "bst",
+   "atOriginal": "7 日上午（英方）；U-320 条目作 5-08",
+   "precision": "day",
+   "category": "air",
+   "importance": 3,
+   "side": "GB",
+   "title": {
+    "zh": "U-320 被加泰林纳机重创",
+    "orig": "U-320 sinking"
+   },
+   "place": [
+    2.0,
+    57.0
+   ],
+   "placeNote": "北海",
+   "zoomRel": 6,
+   "unitsSuggestion": [
+    "de.u320"
+   ],
+   "sources": [
+    "wiki_last45",
+    "wiki_u320"
+   ],
+   "confidence": "medium",
+   "notes": "210 中队加泰林纳机（Murray 机长）深弹攻击，艇受损后弃艇自沉，为最后一艘战沉的 U 艇；全体艇员生还。日期两说：Actions of 7–8 May 作 5-07，U-320 条目作 5-08。 （day 精度：时分为编排值 12:00Z，正式数据用 precision=\"day\" 显示「当日」）",
+   "nominalTime": true
+  },
+  {
+   "id": "e.last_ships",
+   "at": "1945-05-07T20:45",
+   "clockBasis": "bdst",
+   "atOriginal": "22:45 英国双夏令时 BDST（UTC+2，Sneland I）；23:00 BDST（Avondale Park）",
+   "precision": "minute",
+   "category": "naval",
+   "importance": 2,
+   "side": "DE",
+   "title": {
+    "zh": "最后两艘商船被击沉",
+    "orig": "Sneland I and Avondale Park"
+   },
+   "body": "5 月 7 日晚，U-2336 在福斯湾内向 EN 491 船团发射两雷。挪威货轮斯内兰一号约 22 时 45 分爆炸沉没，七人死亡；加拿大建造、英国登记的阿冯代尔公园号约 23 时中雷，次日凌晨沉没，两人死亡。此时距德国投降生效还有约二十五小时，它们成为二战最后被击沉的商船。",
+   "place": [
+    -2.6,
+    56.05
+   ],
+   "placeNote": "福斯湾（梅岛外）",
+   "zoomRel": 8,
+   "unitsSuggestion": [
+    "de.u2336"
+   ],
+   "sfxSuggestion": [
+    "torpedo",
+    "explosion"
+   ],
+   "sources": [
+    "wiki_u2336",
+    "wiki_last45",
+    "wiki_sneland"
+   ],
+   "confidence": "high",
+   "notes": "1945 年 5 月英国仍为 BDST(UTC+2)，22:45/23:00 折 UTC 20:45/21:00；投降生效 8 日 23:01 CET = 22:01Z，相距约 25 小时。中文常见「不到一小时」是把 5-07 当地时钟与 5-08 中欧时间混读。"
+  },
+  {
+   "id": "e.german_surrender",
+   "at": "1945-05-08T22:01",
+   "clockBasis": "cet",
+   "atOriginal": "23:01 CET；签署 5-07 02:41 兰斯",
+   "precision": "minute",
+   "category": "surrender",
+   "importance": 1,
+   "side": "DE",
+   "title": {
+    "zh": "德国投降生效，U 艇停战",
+    "orig": "German Instrument of Surrender"
+   },
+   "body": "5 月 8 日 23 时 01 分（中欧时间），德国无条件投降生效。U 艇部队接到停止攻击与上浮命令，部分艇长因未收到命令仍在攻击。整场大西洋海战历时五年八个月，盟军损失约三千五百艘商船与一百七十五艘军舰，德国损失约七百八十三艘 U 艇。",
+   "place": [
+    4.03,
+    49.25
+   ],
+   "placeNote": "兰斯（签署地）",
+   "zoomRel": 1,
+   "sources": [
+    "wiki_boa",
+    "wiki_deadlight"
+   ],
+   "confidence": "high",
+   "notes": "兰斯签署 5-07 02:41，柏林批准文件 5-08 23:01 CET 生效。统计为 wiki_boa 信息框口径，另有 785/793 艘说。"
+  }
+ ],
+ "epilogue": [
+  {
+   "id": "e.deadlight",
+   "at": "1945-11-17T12:00",
+   "clockBasis": "gmt",
+   "atOriginal": "1945-11-17 → 1946-02-11",
+   "precision": "day",
+   "category": "surrender",
+   "importance": 3,
+   "side": "GB",
+   "title": {
+    "zh": "「死光行动」凿沉投降 U 艇",
+    "orig": "Operation Deadlight"
+   },
+   "place": [
+    -12.0,
+    55.5
+   ],
+   "placeNote": "爱尔兰西北海域",
+   "zoomRel": 4,
+   "sources": [
+    "wiki_deadlight"
+   ],
+   "confidence": "high",
+   "campaignWindow": false,
+   "notes": "156 艘投降艇中 116 艘被凿沉（另 30 艘由英、美、苏均分保留）；U-505、U-995 例外。时间在战役窗口（1945-05-08）之外，只能作尾声注记，不得写入 data/events.json。 （day 精度：时分为编排值 12:00Z，正式数据用 precision=\"day\" 显示「当日」）",
+   "nominalTime": true,
+   "excludeReason": "在战役时间窗（1939-09-03 00:00 — 1945-05-08 23:59）之外"
+  }
+ ]
+}

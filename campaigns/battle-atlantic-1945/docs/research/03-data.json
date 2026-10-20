@@ -1,0 +1,9594 @@
+{
+ "about": "大西洋海战（1939-09-03 — 1945-05-08）数据表：事件、地名、控制区关键帧、舰艇航迹、分阶段兵力与损失。R3/t3 研究产出，供工程-数据 转成 data/ 下的 JSON；本身不是可直接加载的 data/ 文件。",
+ "generated": "2026-10-19",
+ "scope": {
+  "campaign": "battle-atlantic-1945",
+  "frame": [
+   -85,
+   -12,
+   45,
+   78
+  ],
+  "window": [
+   "1939-09-03T00:00",
+   "1945-05-08T23:59"
+  ],
+  "sides": [
+   "DE",
+   "GB",
+   "US",
+   "CA"
+  ],
+  "prefixes": [
+   "de",
+   "gb",
+   "us",
+   "ca"
+  ]
+ },
+ "conventions": {
+  "time": "所有 at/endAt 为 UTC（叙事时钟见 01-strategy.md §1）；day 精度的时分是编排值",
+  "coord": "[经度, 纬度]，WGS84 十进制度；dms 为反算值，note 保留来源表述",
+  "body": "80–140 个汉字，中性叙述，不用 Markdown",
+  "ids": "事件 e.*，地名 [a-z0-9_]+，控制区槽位 raider/convoy，单位 de./gb./us./ca.",
+  "sources": "id 来自 docs/research/05-sources.json（98 条），全部可解析"
+ },
+ "counts": {
+  "events": 106,
+  "epilogue": 1,
+  "background": 1,
+  "places": 84,
+  "frontFrames": 18,
+  "units": 24
+ },
+ "events": [
+  {
+   "id": "e.war_declared",
+   "at": "1939-09-03T10:00",
+   "precision": "minute",
+   "category": "political",
+   "importance": 2,
+   "side": "GB",
+   "title": {
+    "zh": "英国对德宣战",
+    "orig": "British declaration of war"
+   },
+   "body": "9 月 3 日上午十一时，英国首相张伯伦通过广播宣布对德宣战，法国在当天下午跟进。宣战令生效时，德国海军已有二十余艘 U 艇在海上，两艘装甲舰也提前驶入大西洋。大西洋上的第一轮交火在宣战当日就发生了。",
+   "place": [
+    -0.128,
+    51.507
+   ],
+   "unitsSuggestion": [],
+   "photoSuggestion": null,
+   "sfx": [
+    "radio"
+   ],
+   "zoomRel": 1,
+   "sources": [
+    "roskill_1954",
+    "grand_strategy_2",
+    "battleatlantic_1946"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "e.athenia",
+   "at": "1939-09-03T19:40",
+   "precision": "minute",
+   "category": "naval",
+   "importance": 2,
+   "side": "DE",
+   "title": {
+    "zh": "雅典娜号被击沉",
+    "orig": "SS Athenia"
+   },
+   "body": "宣战当晚，U-30 在罗卡尔岩以南追上一艘驶往加拿大的客轮。艇长兰普误判为武装商船，十九时四十分发射两雷，一雷命中机舱。船上 1418 人中有 117 人丧生，包括 28 名美国公民。柏林否认责任并篡改艇长日志，真相直到纽伦堡审判才公开。",
+   "place": [
+    -14.5,
+    56.5
+   ],
+   "unitsSuggestion": [
+    "de.u30"
+   ],
+   "photoSuggestion": null,
+   "sfx": [
+    "explosion",
+    "radio"
+   ],
+   "zoomRel": 8,
+   "sources": [
+    "uboat_net",
+    "ktb_skl",
+    "blair_1996"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "e.hunter_groups",
+   "at": "1939-09-14T12:00",
+   "precision": "day",
+   "category": "naval",
+   "importance": 3,
+   "side": "GB",
+   "title": {
+    "zh": "猎杀群的失败",
+    "orig": "Carrier hunting groups"
+   },
+   "body": "开战之初，英国把航母编队派去搜猎 U 艇。9 月 14 日 U-39 攻击皇家方舟号，鱼雷提前爆炸，反被护航驱逐舰击沉。三天后 U-29 击沉勇敢号，519 人丧生。航母随即退出反潜巡逻，英国转向护航制度，但直到 1941 年才真正制度化。",
+   "place": [
+    -9.5,
+    56.0
+   ],
+   "unitsSuggestion": [],
+   "photoSuggestion": null,
+   "sfx": [
+    "explosion"
+   ],
+   "zoomRel": 8,
+   "sources": [
+    "roskill_1954",
+    "battleatlantic_1946"
+   ],
+   "confidence": "high",
+   "unitsMentioned": [
+    "de.u39",
+    "gb.ark_royal"
+   ]
+  },
+  {
+   "id": "e.courageous",
+   "at": "1939-09-17T18:00",
+   "precision": "hour",
+   "category": "naval",
+   "importance": 2,
+   "side": "DE",
+   "title": {
+    "zh": "勇敢号航空母舰被击沉",
+    "orig": "HMS Courageous"
+   },
+   "body": "9 月 17 日傍晚，勇敢号在爱尔兰西南海域执行反潜巡逻。两艘护航驱逐舰被调去支援一艘遭袭商船，航母转向迎风准备放飞飞机，正好横在 U-29 的艇艏前方。两雷命中左舷，二十分钟后沉没，519 人死亡，包括舰长。",
+   "place": [
+    -13.5,
+    50.2
+   ],
+   "unitsSuggestion": [
+    "gb.courageous"
+   ],
+   "photoSuggestion": null,
+   "sfx": [
+    "explosion",
+    "siren"
+   ],
+   "zoomRel": 8,
+   "sources": [
+    "roskill_1954",
+    "nh_ship_histories",
+    "uboat_net"
+   ],
+   "confidence": "high",
+   "unitsMentioned": [
+    "de.u29"
+   ]
+  },
+  {
+   "id": "e.raiding_rules",
+   "at": "1939-09-26T16:43",
+   "precision": "minute",
+   "category": "political",
+   "importance": 3,
+   "side": "DE",
+   "title": {
+    "zh": "德国解禁对商船的攻击",
+    "orig": "Handelskrieg freigegeben"
+   },
+   "body": "9 月 26 日，德国海军战争指挥部电令海上舰艇恢复对商船的攻击，但要求依照捕获法先检查、后击沉，对法国船的禁令再延两周。这道命令把此前的政治克制变成正式的商船战。十月中旬以后，捕获法在实际执行中迅速失效。",
+   "place": [
+    8.15,
+    53.52
+   ],
+   "unitsSuggestion": [],
+   "photoSuggestion": null,
+   "sfx": [
+    "morse"
+   ],
+   "zoomRel": 2,
+   "sources": [
+    "ktb_skl",
+    "roskill_1954"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "e.panama_declaration",
+   "at": "1939-10-03T12:00",
+   "precision": "day",
+   "category": "political",
+   "importance": 2,
+   "side": "US",
+   "title": {
+    "zh": "巴拿马宣言划定美洲安全区",
+    "orig": "Declaration of Panama"
+   },
+   "body": "10 月 3 日，二十一个美洲国家在巴拿马城宣布，美洲沿岸约三百海里内为中立安全区，交战国不得在此作战。宣言没有强制力，德国舰艇照旧进入，美国却借此把中立巡逻扩展到西大西洋，为日后的护航埋下伏笔。",
+   "place": [
+    -79.5,
+    8.983
+   ],
+   "unitsSuggestion": [],
+   "photoSuggestion": null,
+   "sfx": [
+    "typewriter"
+   ],
+   "zoomRel": 1,
+   "sources": [
+    "avalon_panama",
+    "roskill_1954",
+    "mori_battle_atlantic"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "e.royal_oak",
+   "at": "1939-10-14T00:58",
+   "precision": "minute",
+   "category": "naval",
+   "importance": 2,
+   "side": "DE",
+   "title": {
+    "zh": "皇家橡树号在斯卡帕湾被击沉",
+    "orig": "HMS Royal Oak"
+   },
+   "body": "深夜的斯卡帕湾被认为潜艇无法潜入。U-47 借潮水穿过霍尔姆海峡，零时五十八分发射三雷，仅一雷命中舰艏；装填后再射三雷，一时十六分全部命中，舰体一时二十九分倾覆。835 人死亡，其中 134 名未满十八岁。",
+   "place": [
+    -2.96,
+    58.9
+   ],
+   "unitsSuggestion": [
+    "de.u47"
+   ],
+   "photoSuggestion": null,
+   "sfx": [
+    "explosion",
+    "siren"
+   ],
+   "zoomRel": 10,
+   "sources": [
+    "oni_prien_u47",
+    "roskill_1954",
+    "uboat_net"
+   ],
+   "confidence": "high",
+   "unitsMentioned": [
+    "gb.royal_oak"
+   ]
+  },
+  {
+   "id": "e.rawalpindi",
+   "at": "1939-11-23T16:03",
+   "precision": "minute",
+   "category": "naval",
+   "importance": 2,
+   "side": "DE",
+   "title": {
+    "zh": "拉瓦尔品第号被击沉",
+    "orig": "HMS Rawalpindi"
+   },
+   "body": "11 月 23 日，沙恩霍斯特号与格奈森瑙号在法罗群岛以北截住英国武装商船巡洋舰拉瓦尔品第号。舰长肯尼迪拒绝投降，下令施放烟幕并还击，十七时零三分德舰开火，十三分钟后英舰沉没，238 人死亡。三十七名幸存者被德军救起。",
+   "place": [
+    -3.5,
+    63.0
+   ],
+   "unitsSuggestion": [
+    "de.scharnhorst",
+    "gb.rawalpindi"
+   ],
+   "photoSuggestion": null,
+   "sfx": [
+    "ship_gun",
+    "explosion"
+   ],
+   "zoomRel": 7,
+   "sources": [
+    "nh_ship_histories",
+    "roskill_1954",
+    "battleatlantic_1946"
+   ],
+   "confidence": "high",
+   "unitsMentioned": [
+    "de.gneisenau"
+   ]
+  },
+  {
+   "id": "e.scapa_defences",
+   "at": "1939-12-01T12:00",
+   "precision": "day",
+   "category": "political",
+   "importance": 3,
+   "side": "GB",
+   "title": {
+    "zh": "斯卡帕湾防务重建",
+    "orig": "Scapa Flow defences"
+   },
+   "body": "皇家橡树号沉没后，英国本土舰队被迫分散到其他锚地。海军部调查认为，沉没主因是防空战位让大量舰员留在装甲甲板以下，加之水密门关闭阻碍逃生。此后斯卡帕湾加筑防潜网与堤坝，即后来的邱吉尔堤坝。",
+   "place": [
+    -2.96,
+    58.9
+   ],
+   "unitsSuggestion": [],
+   "photoSuggestion": null,
+   "sfx": [
+    "typewriter"
+   ],
+   "zoomRel": 3,
+   "sources": [
+    "roskill_1954",
+    "nh_war_diaries"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "e.mine_warfare",
+   "at": "1940-01-10T12:00",
+   "precision": "day",
+   "category": "naval",
+   "importance": 3,
+   "side": "DE",
+   "title": {
+    "zh": "磁性与水雷战",
+    "orig": "Mine warfare 1939–40"
+   },
+   "body": "开战头四个月，德国以驱逐舰、飞机与 U 艇在英国东岸与河口布雷，英国则用气球防空与扫雷队应对。1939 年 11 月，英军在泰晤士河口捞起一枚完整的磁性水雷，据此研制消磁线圈。水雷造成的吨位损失一度超过 U 艇。",
+   "place": [
+    1.4,
+    51.4
+   ],
+   "unitsSuggestion": [],
+   "photoSuggestion": null,
+   "sfx": [
+    "explosion"
+   ],
+   "zoomRel": 4,
+   "sources": [
+    "roskill_1954",
+    "battleatlantic_1946",
+    "nh_rn_losses"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "e.altmark",
+   "at": "1940-02-16T22:00",
+   "precision": "hour",
+   "category": "political",
+   "importance": 2,
+   "side": "GB",
+   "title": {
+    "zh": "阿尔特马克号事件",
+    "orig": "Altmark incident"
+   },
+   "body": "2 月 16 日夜，英国驱逐舰哥萨克号驶入挪威约辛峡湾，强行登上德国补给舰阿尔特马克号，救出 299 名被俘的英国商船船员。挪威抗议英国侵犯中立，德国则指责挪威纵容。此事件强化了希特勒对挪威战略的担忧，一个月后德军入侵挪威。",
+   "place": [
+    6.7,
+    58.32
+   ],
+   "unitsSuggestion": [],
+   "photoSuggestion": null,
+   "sfx": [
+    "siren"
+   ],
+   "zoomRel": 6,
+   "sources": [
+    "roskill_1954",
+    "grand_strategy_2"
+   ],
+   "confidence": "medium",
+   "unitsMentioned": [
+    "gb.cossack"
+   ]
+  },
+  {
+   "id": "e.weseruebung",
+   "at": "1940-04-09T03:00",
+   "precision": "hour",
+   "category": "movement",
+   "importance": 2,
+   "side": "DE",
+   "title": {
+    "zh": "威悉演习：德军入侵挪威",
+    "orig": "Unternehmen Weserübung"
+   },
+   "body": "4 月 9 日，德军同时登陆纳尔维克、特隆赫姆、卑尔根与奥斯陆。德国水面舰队几乎全部投入，大西洋上因此半年没有水面袭击舰。英国本土舰队在挪威海域苦战，护航兵力被抽走，北大西洋船团的掩护一度出现空缺。",
+   "place": [
+    17.427,
+    68.438
+   ],
+   "unitsSuggestion": [
+    "de.scharnhorst"
+   ],
+   "photoSuggestion": null,
+   "sfx": [
+    "ship_gun",
+    "bomber"
+   ],
+   "zoomRel": 3,
+   "sources": [
+    "roskill_1954",
+    "grand_strategy_2"
+   ],
+   "confidence": "high",
+   "unitsMentioned": [
+    "de.gneisenau"
+   ]
+  },
+  {
+   "id": "e.iceland_landing",
+   "at": "1940-05-10T06:00",
+   "precision": "day",
+   "category": "movement",
+   "importance": 2,
+   "side": "GB",
+   "title": {
+    "zh": "英军登陆冰岛",
+    "orig": "Invasion of Iceland"
+   },
+   "body": "丹麦沦陷当天，英国海军陆战队在雷克雅未克登陆，未遇抵抗。冰岛从此成为北大西洋护航与岸基航空兵的关键跳板：船团在此加煤加油，飞机从这里起飞掩护中大西洋。1941 年 7 月，防务移交美国。",
+   "place": [
+    -21.94,
+    64.15
+   ],
+   "unitsSuggestion": [],
+   "photoSuggestion": null,
+   "sfx": [
+    "engine"
+   ],
+   "zoomRel": 4,
+   "sources": [
+    "roskill_1954",
+    "battleatlantic_1946"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "e.dunkirk",
+   "at": "1940-05-26T18:00",
+   "precision": "day",
+   "category": "movement",
+   "importance": 2,
+   "side": "GB",
+   "title": {
+    "zh": "发电机行动与海峡护航",
+    "orig": "Operation Dynamo"
+   },
+   "body": "5 月 26 日起，英国动员驱逐舰、渡船与民间小船从敦刻尔克撤出三十三万八千人。九艘驱逐舰被击沉，海峡与北海的护航兵力被紧急抽调。这次撤退证明英吉利海峡的制海权仍在英方手中，也预演了四年后的登陆组织。",
+   "place": [
+    2.37,
+    51.03
+   ],
+   "unitsSuggestion": [],
+   "photoSuggestion": null,
+   "sfx": [
+    "engine",
+    "explosion"
+   ],
+   "zoomRel": 4,
+   "sources": [
+    "roskill_1954",
+    "nh_normandy"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "e.lancastria",
+   "at": "1940-06-17T15:48",
+   "precision": "minute",
+   "category": "atrocity",
+   "importance": 2,
+   "side": "DE",
+   "title": {
+    "zh": "兰开斯特里亚号被击沉",
+    "orig": "RMS Lancastria"
+   },
+   "body": "6 月 17 日，正在圣纳泽尔外海撤离英军人员的兰开斯特里亚号被德军轰炸机击中，二十分钟内倾覆。估计有三千至四千人丧生，是英国海运史上最惨重的单船伤亡。丘吉尔下令封锁消息，以免打击士气。",
+   "place": [
+    -2.4,
+    47.2
+   ],
+   "unitsSuggestion": [],
+   "photoSuggestion": null,
+   "sfx": [
+    "bomber",
+    "explosion"
+   ],
+   "zoomRel": 7,
+   "sources": [
+    "roskill_1954",
+    "nh_rn_losses"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "e.france_armistice",
+   "at": "1940-06-22T16:50",
+   "precision": "minute",
+   "category": "political",
+   "importance": 1,
+   "side": "DE",
+   "title": {
+    "zh": "法国停战与比斯开湾基地",
+    "orig": "Armistice du 22 juin 1940"
+   },
+   "body": "法国停战后，德国接管布雷斯特、洛里昂、圣纳泽尔、拉罗谢尔与波尔多。U 艇不必再绕行不列颠北部，出港一天即可进入大西洋，在航时间由约三分之一升到三分之二。7 月，U-30 第一个驶入洛里昂，此后这里成为狼群的巢穴。",
+   "place": [
+    -3.37,
+    47.748
+   ],
+   "unitsSuggestion": [
+    "de.u30"
+   ],
+   "photoSuggestion": "Bundesarchiv Bild 101II-MW-3712-04A, St. Nazaire, U-96 einlaufend.jpg",
+   "sfx": [
+    "engine"
+   ],
+   "zoomRel": 3,
+   "sources": [
+    "roskill_1954",
+    "battleatlantic_1946",
+    "uboat_net"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "e.betasom",
+   "at": "1940-08-15T12:00",
+   "precision": "day",
+   "category": "political",
+   "importance": 3,
+   "side": "DE",
+   "title": {
+    "zh": "意大利潜艇进驻波尔多",
+    "orig": "BETASOM"
+   },
+   "body": "1940 年 8 月，意大利海军在波尔多设立潜艇基地 BETASOM。到 11 月已驻有二十六艘艇，负责里斯本以南的大西洋海域。意大利艇设计不适合狼群战术，通信与协同也常出问题，但在远洋单船猎杀上仍有战果。1943 年 9 月后被德军接管。",
+   "place": [
+    -0.58,
+    44.84
+   ],
+   "unitsSuggestion": [],
+   "photoSuggestion": null,
+   "sfx": [
+    "engine"
+   ],
+   "zoomRel": 6,
+   "sources": [
+    "battleatlantic_1946",
+    "blair_1996"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "e.fw200",
+   "at": "1940-08-20T12:00",
+   "precision": "day",
+   "category": "air",
+   "importance": 2,
+   "side": "DE",
+   "title": {
+    "zh": "秃鹰进驻波尔多",
+    "orig": "Fw 200 Condor"
+   },
+   "body": "1940 年夏，德军把远程侦察轰炸机 Fw 200「秃鹰」部署到波尔多，成立大西洋航空指挥部。它们从比斯开湾起飞，搜索并跟踪船团，再把位置报告给 U 艇。1940 年下半年到 1941 年初，秃鹰的侦察比它的炸弹更致命。",
+   "place": [
+    -0.7,
+    44.83
+   ],
+   "unitsSuggestion": [],
+   "photoSuggestion": null,
+   "sfx": [
+    "bomber"
+   ],
+   "zoomRel": 4,
+   "sources": [
+    "roskill_1954",
+    "blair_1996",
+    "uboat_net_technical"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "e.destroyers_for_bases",
+   "at": "1940-09-02T18:00",
+   "precision": "day",
+   "category": "political",
+   "importance": 2,
+   "side": "US",
+   "title": {
+    "zh": "驱逐舰换基地协定",
+    "orig": "Destroyers-for-bases deal"
+   },
+   "body": "英国以纽芬兰、百慕大、巴哈马、牙买加等地的基地九十九年租借权，换取美国五十艘超龄驱逐舰，其中四十三艘加入皇家海军、七艘加入加拿大海军。这批四烟囱驱逐舰装备陈旧，却填补了 1940 年秋天护航兵力最紧张的空缺。",
+   "place": [
+    -77.037,
+    38.895
+   ],
+   "unitsSuggestion": [],
+   "photoSuggestion": null,
+   "sfx": [
+    "typewriter"
+   ],
+   "zoomRel": 1,
+   "sources": [
+    "roskill_1954",
+    "mori_battle_atlantic",
+    "battleatlantic_1946"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "e.hx72",
+   "at": "1940-09-21T21:00",
+   "precision": "hour",
+   "category": "naval",
+   "importance": 2,
+   "side": "DE",
+   "title": {
+    "zh": "HX 72 船团遭狼群攻击",
+    "orig": "Convoy HX 72"
+   },
+   "body": "9 月 21 日夜，四十三艘商船的 HX 72 在爱尔兰以西被四艘 U 艇咬住。护航的武装商船巡洋舰前一天已离队，接应的护航舰尚未到达。两夜之间十一艘船被击沉、两艘受伤，U 艇无一损失，狼群战术第一次显出威力。",
+   "place": [
+    -18.0,
+    54.0
+   ],
+   "unitsSuggestion": [
+    "de.u47",
+    "de.u99"
+   ],
+   "photoSuggestion": null,
+   "sfx": [
+    "explosion",
+    "radio"
+   ],
+   "zoomRel": 7,
+   "sources": [
+    "roskill_1954",
+    "blair_1996",
+    "hague_convoy"
+   ],
+   "confidence": "high",
+   "endAt": "1940-09-23T06:00",
+   "unitsMentioned": [
+    "de.u100"
+   ]
+  },
+  {
+   "id": "e.sc7",
+   "at": "1940-10-18T20:00",
+   "precision": "hour",
+   "category": "naval",
+   "importance": 1,
+   "side": "DE",
+   "title": {
+    "zh": "SC 7 船团被狼群击溃",
+    "orig": "Convoy SC 7"
+   },
+   "body": "10 月 18 日夜，慢速船团 SC 7 在爱尔兰以西被五艘 U 艇咬住。船团只有两艘单桅帆船与两艘轻护，无法阻止潜艇在队列间的水面夜袭。六小时内十六艘船被击沉，全团三十五艘中二十艘沉没，七万九千余总吨。这是整场海战最成功的单次狼群攻击。",
+   "place": [
+    -13.0,
+    57.0
+   ],
+   "unitsSuggestion": [
+    "de.u99",
+    "de.u123"
+   ],
+   "photoSuggestion": null,
+   "sfx": [
+    "explosion",
+    "radio"
+   ],
+   "zoomRel": 8,
+   "sources": [
+    "roskill_1954",
+    "blair_1996",
+    "rohwer_chronology"
+   ],
+   "confidence": "high",
+   "endAt": "1940-10-19T06:00",
+   "unitsMentioned": [
+    "de.u46",
+    "de.u100",
+    "de.u101"
+   ]
+  },
+  {
+   "id": "e.hx79",
+   "at": "1940-10-19T21:00",
+   "precision": "hour",
+   "category": "naval",
+   "importance": 2,
+   "side": "DE",
+   "title": {
+    "zh": "HX 79 船团遭夜袭",
+    "orig": "Convoy HX 79"
+   },
+   "body": "10 月 19 日夜，四十九艘船的 HX 79 在同一海域被六艘 U 艇围攻。护航舰临时拼凑，四艘新服役的轻护缺乏训练，甚至没有统一战术。十二艘商船被击沉，七万五千总吨，U 艇无一损失。SC 7 与 HX 79 两天内共损失二十八艘船。",
+   "place": [
+    -13.0,
+    57.5
+   ],
+   "unitsSuggestion": [
+    "de.u47"
+   ],
+   "photoSuggestion": null,
+   "sfx": [
+    "explosion"
+   ],
+   "zoomRel": 8,
+   "sources": [
+    "roskill_1954",
+    "blair_1996",
+    "rohwer_critical"
+   ],
+   "confidence": "high",
+   "endAt": "1940-10-20T06:00",
+   "unitsMentioned": [
+    "de.u48",
+    "de.u100",
+    "de.u46"
+   ]
+  },
+  {
+   "id": "e.scheer_breakout",
+   "at": "1940-10-31T21:00",
+   "precision": "hour",
+   "category": "movement",
+   "importance": 3,
+   "side": "DE",
+   "title": {
+    "zh": "舍尔号穿越丹麦海峡",
+    "orig": "Admiral Scheer sortie"
+   },
+   "body": "10 月 31 日夜，舍尔号装甲舰趁恶劣天气穿过丹麦海峡进入大西洋。它依靠 B 处的无线电侦察寻找船团，一个月后在北大西洋截住 HX 84。整个航程击沉十一万三千余总吨，是二战战果最大的水面袭击舰。",
+   "place": [
+    -25.0,
+    66.5
+   ],
+   "unitsSuggestion": [
+    "de.admiral_scheer"
+   ],
+   "photoSuggestion": null,
+   "sfx": [
+    "engine"
+   ],
+   "zoomRel": 5,
+   "sources": [
+    "roskill_1954",
+    "blair_1996",
+    "ktb_skl"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "e.hx84",
+   "at": "1940-11-05T16:00",
+   "precision": "hour",
+   "category": "naval",
+   "importance": 2,
+   "side": "DE",
+   "title": {
+    "zh": "HX 84 与杰维斯湾号",
+    "orig": "Convoy HX 84 / HMS Jervis Bay"
+   },
+   "body": "11 月 5 日，舍尔号在北大西洋截住 HX 84。唯一的护航舰、改装巡洋舰杰维斯湾号主动迎战，二十分钟内被击沉，一百九十人阵亡，却为船团争取到散开的时间。舍尔击沉五艘商船后转向南大西洋，英国一度暂停北大西洋船团。",
+   "place": [
+    -32.87,
+    52.68
+   ],
+   "unitsSuggestion": [
+    "de.admiral_scheer",
+    "gb.jervis_bay"
+   ],
+   "photoSuggestion": null,
+   "sfx": [
+    "ship_gun",
+    "explosion"
+   ],
+   "zoomRel": 7,
+   "sources": [
+    "roskill_1954",
+    "blair_1996",
+    "hague_convoy"
+   ],
+   "confidence": "high",
+   "endAt": "1940-11-05T22:00"
+  },
+  {
+   "id": "e.ws5a",
+   "at": "1940-12-25T12:00",
+   "precision": "day",
+   "category": "naval",
+   "importance": 3,
+   "side": "DE",
+   "title": {
+    "zh": "希佩尔号袭击 WS 5A",
+    "orig": "Admiral Hipper vs WS 5A"
+   },
+   "body": "圣诞节当天，希佩尔号重巡洋舰在亚速尔以北截住运兵船团 WS 5A，与护航巡洋舰交火后撤退。两个月后它再出大西洋，在地中海口外击沉无护航船团 SLS 64 的七艘船。德国重巡洋舰的这两次行动说明，单舰袭击仍能迫使英国分散护航兵力。",
+   "place": [
+    -21.0,
+    43.0
+   ],
+   "unitsSuggestion": [
+    "de.admiral_hipper"
+   ],
+   "photoSuggestion": null,
+   "sfx": [
+    "ship_gun"
+   ],
+   "zoomRel": 6,
+   "sources": [
+    "roskill_1954",
+    "ktb_skl"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "e.liverpool_hq",
+   "at": "1940-12-31T12:00",
+   "precision": "day",
+   "category": "political",
+   "importance": 3,
+   "side": "GB",
+   "title": {
+    "zh": "西部海口司令部迁往利物浦",
+    "orig": "Western Approaches Command"
+   },
+   "body": "1940 年底，西部海口司令部从普利茅斯迁到利物浦德比大厦，与船团调度、情报和海岸司令部航空兵在同一栋楼里办公。作战室墙上是一幅覆盖整面墙的大西洋海图。这种把情报、护航与航空合在一处的组织，是 1943 年胜利的制度基础。",
+   "place": [
+    -2.992,
+    53.408
+   ],
+   "unitsSuggestion": [],
+   "photoSuggestion": "The Operations Room at Derby House in Liverpool, the headquarters of the Commander-in-Chief Western Approaches, September 1944. A25746.jpg",
+   "sfx": [
+    "typewriter"
+   ],
+   "zoomRel": 3,
+   "sources": [
+    "roskill_1954",
+    "battleatlantic_1946"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "e.condor_losses",
+   "at": "1940-12-31T12:00",
+   "precision": "day",
+   "category": "air",
+   "importance": 3,
+   "side": "GB",
+   "title": {
+    "zh": "船团防空与秃鹰的局限",
+    "orig": "Convoy AA defences"
+   },
+   "body": "1940 年冬，英国给部分船团配属防空巡洋舰与改装防空船，用密集火力压制跟踪的秃鹰。秃鹰数量少、机体脆弱，一旦被逼到高炮射程外就难以保持接触。到 1941 年，德军改派 ju 88 与 he 111 鱼雷机，北极与地中海方向压力更大。",
+   "place": [
+    -15.0,
+    55.0
+   ],
+   "unitsSuggestion": [],
+   "photoSuggestion": null,
+   "sfx": [
+    "bomber",
+    "artillery"
+   ],
+   "zoomRel": 4,
+   "sources": [
+    "roskill_1954",
+    "blair_1996"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "e.berlin_op",
+   "at": "1941-01-22T12:00",
+   "precision": "day",
+   "category": "movement",
+   "importance": 2,
+   "side": "DE",
+   "title": {
+    "zh": "柏林行动：两艘战列巡洋舰突入大西洋",
+    "orig": "Unternehmen Berlin"
+   },
+   "body": "1 月 22 日，沙恩霍斯特号与格奈森瑙号从德国出航，经丹麦海峡进入大西洋。两个月里它们击沉或捕获二十二艘商船，却三次在接近船团时发现英国战列舰护航而放弃攻击。3 月 22 日两舰驶入布雷斯特，德国水面舰队的远洋攻势到此为止。",
+   "place": [
+    -24.0,
+    66.0
+   ],
+   "unitsSuggestion": [
+    "de.scharnhorst"
+   ],
+   "photoSuggestion": null,
+   "sfx": [
+    "engine"
+   ],
+   "zoomRel": 4,
+   "sources": [
+    "roskill_1954",
+    "ktb_skl",
+    "blair_1996"
+   ],
+   "confidence": "high",
+   "unitsMentioned": [
+    "de.gneisenau"
+   ]
+  },
+  {
+   "id": "e.sls64",
+   "at": "1941-02-12T12:00",
+   "precision": "day",
+   "category": "naval",
+   "importance": 3,
+   "side": "DE",
+   "title": {
+    "zh": "希佩尔号击沉 SLS 64 七艘",
+    "orig": "SLS 64"
+   },
+   "body": "2 月 12 日，希佩尔号在亚速尔以北发现从塞拉利昂返航的 SLS 64，十九艘商船没有护航。德舰用主炮与鱼雷攻击两个多小时，击沉七艘，其余趁能见度下降逃脱。这次行动后，英国给南大西洋航线加派了护航兵力。",
+   "place": [
+    -21.0,
+    43.0
+   ],
+   "unitsSuggestion": [
+    "de.admiral_hipper"
+   ],
+   "photoSuggestion": null,
+   "sfx": [
+    "ship_gun"
+   ],
+   "zoomRel": 7,
+   "sources": [
+    "roskill_1954",
+    "ktb_skl"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "e.u47_lost",
+   "at": "1941-03-07T03:54",
+   "precision": "minute",
+   "category": "naval",
+   "importance": 3,
+   "side": "DE",
+   "title": {
+    "zh": "U-47 失踪",
+    "orig": "U-47 lost"
+   },
+   "body": "3 月 7 日凌晨，U-47 在追击 OB 293 船团时发出最后一份电报，此后失去联系。艇长普里恩是击沉皇家橡树号的英雄，他的失踪对 U 艇部队士气打击极大。战后调查认为，沉没原因可能是水雷、自身鱼雷或护航舰攻击。",
+   "place": [
+    -13.0,
+    60.0
+   ],
+   "unitsSuggestion": [
+    "de.u47"
+   ],
+   "photoSuggestion": null,
+   "sfx": [
+    "morse"
+   ],
+   "zoomRel": 7,
+   "sources": [
+    "uboat_net",
+    "blair_1996"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "e.lend_lease",
+   "at": "1941-03-11T12:00",
+   "precision": "day",
+   "category": "political",
+   "importance": 2,
+   "side": "US",
+   "title": {
+    "zh": "租借法案生效",
+    "orig": "Lend-Lease Act"
+   },
+   "body": "3 月 11 日，罗斯福签署租借法案，授权向英国、中国与后来的苏联提供武器与物资，不再要求现金支付。法案把跨大西洋货运量推到新高，也让美国船厂与商船队成为英国补给的第二支柱。大西洋航线的吨位压力因此转向「运得进来」。",
+   "place": [
+    -77.037,
+    38.895
+   ],
+   "unitsSuggestion": [],
+   "photoSuggestion": null,
+   "sfx": [
+    "typewriter"
+   ],
+   "zoomRel": 1,
+   "sources": [
+    "roskill_1954",
+    "mori_battle_atlantic",
+    "grand_strategy_2"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "e.hx112",
+   "at": "1941-03-17T03:18",
+   "precision": "minute",
+   "category": "naval",
+   "importance": 2,
+   "side": "GB",
+   "title": {
+    "zh": "HX 112 船团战与三王牌之失",
+    "orig": "Convoy HX 112"
+   },
+   "body": "3 月 17 日凌晨，第 3 护航群在冰岛以南咬住狼群。瓦诺克号用早期雷达在暗夜中发现 U-100，将其撞沉；沃克号以深水炸弹重创 U-99，艇长克雷奇默尔下令自沉。十天前普里恩的 U-47 已失踪。邓尼茨在一周内失去三位王牌。",
+   "place": [
+    -15.0,
+    61.0
+   ],
+   "unitsSuggestion": [
+    "de.u99"
+   ],
+   "photoSuggestion": null,
+   "sfx": [
+    "explosion",
+    "radio"
+   ],
+   "zoomRel": 8,
+   "sources": [
+    "roskill_1954",
+    "blair_1996",
+    "uboat_net"
+   ],
+   "confidence": "high",
+   "unitsMentioned": [
+    "de.u100",
+    "gb.vanoc"
+   ]
+  },
+  {
+   "id": "e.sc26",
+   "at": "1941-04-03T12:00",
+   "precision": "day",
+   "category": "naval",
+   "importance": 3,
+   "side": "DE",
+   "title": {
+    "zh": "SC 26 与狼群西移",
+    "orig": "Convoy SC 26"
+   },
+   "body": "4 月初，邓尼茨把狼群西移，抢在护航舰接应之前拦截船团。SC 26 因此被咬住，损失十艘船，另有一艘 U 艇被击沉。狼群西移的战术此后成为常态，也让中大西洋空白区逐渐成形。",
+   "place": [
+    -35.0,
+    55.0
+   ],
+   "unitsSuggestion": [],
+   "photoSuggestion": null,
+   "sfx": [
+    "explosion"
+   ],
+   "zoomRel": 6,
+   "sources": [
+    "roskill_1954",
+    "blair_1996"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "e.pan_american_zone",
+   "at": "1941-04-18T12:00",
+   "precision": "day",
+   "category": "political",
+   "importance": 2,
+   "side": "US",
+   "title": {
+    "zh": "美洲安全区扩至西经 26 度",
+    "orig": "Pan-American Security Zone extended"
+   },
+   "body": "4 月 18 日，罗斯福把美洲安全区东界推到西经二十六度，距冰岛只有几百海里。美国海军开始在区内护航并公开报告 U 艇位置，实际上已在大西洋参战。德国被要求避免与美舰冲突，但摩擦不断累积。",
+   "place": [
+    -77.037,
+    38.895
+   ],
+   "unitsSuggestion": [],
+   "photoSuggestion": null,
+   "sfx": [
+    "radio"
+   ],
+   "zoomRel": 1,
+   "sources": [
+    "roskill_1954",
+    "mori_battle_atlantic"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "e.u110_capture",
+   "at": "1941-05-09T12:00",
+   "precision": "day",
+   "category": "naval",
+   "importance": 2,
+   "side": "GB",
+   "title": {
+    "zh": "U-110 被俘与恩尼格玛缴获",
+    "orig": "Capture of U-110"
+   },
+   "body": "5 月 9 日，U-110 在冰岛以南攻击船团后上浮过久，被护航舰发现。深水炸弹迫使艇员弃艇，艇却没有下沉。皇家海军登艇搜出恩尼格玛机、密钥表与双字母表，此后数周 U 艇通信可读。这次俘获被列为最高机密。",
+   "place": [
+    -25.0,
+    60.0
+   ],
+   "unitsSuggestion": [],
+   "photoSuggestion": "U-110 and HMS Bulldog.jpg",
+   "sfx": [
+    "morse",
+    "radio"
+   ],
+   "zoomRel": 8,
+   "sources": [
+    "sebag_2000",
+    "kahn_1991",
+    "uboat_net"
+   ],
+   "confidence": "high",
+   "unitsMentioned": [
+    "de.u110",
+    "gb.bulldog"
+   ]
+  },
+  {
+   "id": "e.denmark_strait",
+   "at": "1941-05-24T05:52",
+   "precision": "minute",
+   "category": "naval",
+   "importance": 2,
+   "side": "GB",
+   "title": {
+    "zh": "丹麦海峡海战",
+    "orig": "Battle of the Denmark Strait"
+   },
+   "body": "5 月 24 日清晨，胡德号与威尔士亲王号在丹麦海峡迎战俾斯麦号与欧根亲王号。英舰误将欧根亲王号当作目标，胡德号在转向时被俾斯麦号第五次齐射击穿弹药库，约六分钟内爆炸沉没，一千四百一十八人中仅三人生还。",
+   "place": [
+    -28.0,
+    66.5
+   ],
+   "unitsSuggestion": [
+    "de.bismarck",
+    "gb.hood"
+   ],
+   "photoSuggestion": null,
+   "sfx": [
+    "ship_gun",
+    "explosion"
+   ],
+   "zoomRel": 7,
+   "sources": [
+    "gazette_38038",
+    "roskill_1954",
+    "nh_ship_histories"
+   ],
+   "confidence": "high",
+   "unitsMentioned": [
+    "de.prinz_eugen",
+    "gb.prince_of_wales"
+   ]
+  },
+  {
+   "id": "e.bismarck_sunk",
+   "at": "1941-05-27T08:47",
+   "precision": "minute",
+   "category": "naval",
+   "importance": 2,
+   "side": "GB",
+   "title": {
+    "zh": "俾斯麦号沉没",
+    "orig": "Last battle of Bismarck"
+   },
+   "body": "5 月 27 日晨，英舰在法国以西追上俾斯麦号。罗德尼号与英王乔治五世号从八时四十七分起持续轰击，四十四分钟内打哑全部四座主炮。德方在九时三十分下令自沉并弃舰，十时三十九分倾覆。两千二百余人中仅一百一十四人生还。",
+   "place": [
+    -16.2,
+    48.5
+   ],
+   "unitsSuggestion": [
+    "de.bismarck"
+   ],
+   "photoSuggestion": null,
+   "sfx": [
+    "ship_gun",
+    "explosion"
+   ],
+   "zoomRel": 7,
+   "sources": [
+    "roskill_1954",
+    "gazette_38038",
+    "nh_ship_histories"
+   ],
+   "confidence": "high",
+   "unitsMentioned": [
+    "gb.rodney",
+    "gb.king_george_v"
+   ]
+  },
+  {
+   "id": "e.hood_loss_effect",
+   "at": "1941-05-28T12:00",
+   "precision": "day",
+   "category": "political",
+   "importance": 3,
+   "side": "GB",
+   "title": {
+    "zh": "胡德号沉没的政治冲击",
+    "orig": "Sinking of HMS Hood"
+   },
+   "body": "胡德号沉没的消息在英国引起震动，海军部一度担心公众质疑舰队的战斗力。此后英国在拦截德国主力舰时更强调集中兵力与航空侦察，不再让单舰或小分队硬拼。一个月后，本土舰队用航母与多艘战列舰围歼俾斯麦号。",
+   "place": [
+    -4.0,
+    50.3
+   ],
+   "unitsSuggestion": [],
+   "photoSuggestion": null,
+   "sfx": [
+    "typewriter"
+   ],
+   "zoomRel": 2,
+   "sources": [
+    "roskill_1954",
+    "battleatlantic_1946"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "e.nef",
+   "at": "1941-06-13T12:00",
+   "precision": "day",
+   "category": "political",
+   "importance": 2,
+   "side": "CA",
+   "title": {
+    "zh": "纽芬兰护航部队成立",
+    "orig": "Newfoundland Escort Force"
+   },
+   "body": "6 月 13 日，加拿大海军默里准将在圣约翰斯就任纽芬兰护航部队司令，负责西经三十五度以西的船团。加拿大海军从战前的六艘驱逐舰扩张到数十艘护卫舰与花级轻护，承担起北大西洋最西一段的护航。全程护航制度自此成形。",
+   "place": [
+    -52.7,
+    47.56
+   ],
+   "unitsSuggestion": [],
+   "photoSuggestion": null,
+   "sfx": [
+    "bell"
+   ],
+   "zoomRel": 4,
+   "sources": [
+    "roskill_1954",
+    "schull_1950",
+    "battleatlantic_1946"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "e.iceland_us",
+   "at": "1941-07-07T12:00",
+   "precision": "day",
+   "category": "political",
+   "importance": 2,
+   "side": "US",
+   "title": {
+    "zh": "冰岛防务移交美国",
+    "orig": "US occupation of Iceland"
+   },
+   "body": "7 月 7 日，美军接替英军负责冰岛防务。美国仍是中立国，但美军舰机开始为西大西洋船团提供掩护，并公开报告 U 艇位置。冰岛从英国的补给站变成美英加三方共用的护航枢纽，也是北极航线的起点。",
+   "place": [
+    -21.94,
+    64.15
+   ],
+   "unitsSuggestion": [],
+   "photoSuggestion": null,
+   "sfx": [
+    "engine"
+   ],
+   "zoomRel": 4,
+   "sources": [
+    "roskill_1954",
+    "mori_battle_atlantic"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "e.enigma_1941",
+   "at": "1941-08-01T12:00",
+   "precision": "day",
+   "category": "political",
+   "importance": 3,
+   "side": "GB",
+   "title": {
+    "zh": "1941 年夏的破译红利",
+    "orig": "Enigma decrypts, 1941"
+   },
+   "body": "1941 年 6 月到 11 月，英国靠破译与测向连续掌握 U 艇巡逻线位置，把船团绕开狼群。7 月商船损失比 6 月下降三分之二。红利来自三件事：U-110 的缴获、登陆艇与捕鲸船改装的气象船缴获，以及德方密钥程序的固定习惯。",
+   "place": [
+    -0.74,
+    51.95
+   ],
+   "unitsSuggestion": [],
+   "photoSuggestion": "EnigmaMachine.jpg",
+   "sfx": [
+    "morse",
+    "radio"
+   ],
+   "zoomRel": 2,
+   "sources": [
+    "hinsley_1979",
+    "sebag_2000",
+    "beesly_1977"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "e.cam_ships",
+   "at": "1941-08-01T12:00",
+   "precision": "day",
+   "category": "air",
+   "importance": 3,
+   "side": "GB",
+   "title": {
+    "zh": "弹射商船与海上防空",
+    "orig": "CAM ships"
+   },
+   "body": "1941 年起，英国在货船上加装弹射轨道，载一架飓风战斗机，遇到秃鹰就弹射起飞，飞行员跳伞后由护航舰救回。整个战争只有九次实战弹射，击落八架德机。代价是每架飞机只能用一次，但足以逼退跟踪的侦察机。",
+   "place": [
+    -20.0,
+    56.0
+   ],
+   "unitsSuggestion": [],
+   "photoSuggestion": null,
+   "sfx": [
+    "fighter"
+   ],
+   "zoomRel": 4,
+   "sources": [
+    "roskill_1954",
+    "battleatlantic_1946"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "e.atlantic_charter",
+   "at": "1941-08-14T12:00",
+   "precision": "day",
+   "category": "political",
+   "importance": 2,
+   "side": "GB",
+   "title": {
+    "zh": "《大西洋宪章》发表",
+    "orig": "Atlantic Charter"
+   },
+   "body": "8 月 9 日，丘吉尔乘威尔士亲王号抵达纽芬兰普拉森舍湾，与罗斯福在奥古斯塔号上会谈。14 日公布联合声明，即《大西洋宪章》，宣布不使用武力、民族自决、公海自由等原则。文件没有签字文本，却把美国推向非交战国的同盟。",
+   "place": [
+    -54.0,
+    47.3
+   ],
+   "unitsSuggestion": [],
+   "photoSuggestion": "President Roosevelt and Winston Churchill seated on the quarterdeck of HMS PRINCE OF WALES for a Sunday service during the Atlantic Conference, 10 August 1941. A4816.jpg",
+   "sfx": [
+    "fanfare"
+   ],
+   "zoomRel": 3,
+   "sources": [
+    "avalon_atlantic_charter",
+    "roskill_1954"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "e.first_arctic",
+   "at": "1941-08-21T12:00",
+   "precision": "day",
+   "category": "movement",
+   "importance": 2,
+   "side": "GB",
+   "title": {
+    "zh": "第一支北极船团启航",
+    "orig": "Operation Dervish"
+   },
+   "body": "8 月 21 日，第一支北极船团「德维希行动」从冰岛雷克雅未克出发，31 日抵达阿尔汉格尔斯克。船上载有十五架拆箱的飓风与空军人员，另有二十四架由百眼巨人号运抵，飞往摩尔曼斯克附近的瓦延加机场。此后 PQ/QP 航线开通。",
+   "place": [
+    -21.94,
+    64.15
+   ],
+   "unitsSuggestion": [],
+   "photoSuggestion": null,
+   "sfx": [
+    "engine"
+   ],
+   "zoomRel": 4,
+   "sources": [
+    "roskill_1954",
+    "woodman_1994",
+    "nh_pq17"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "e.sc42",
+   "at": "1941-09-09T12:00",
+   "precision": "day",
+   "category": "naval",
+   "importance": 2,
+   "side": "DE",
+   "title": {
+    "zh": "SC 42 船团战",
+    "orig": "Convoy SC 42"
+   },
+   "body": "9 月 9 日起，六十五艘船的 SC 42 在格陵兰以南被狼群连续攻击三夜。船团损失十六艘、伤四艘，是 SC 7 之后最惨重的一次；两艘 U 艇被击沉。加拿大护航群缺乏夜战训练，暴露出护航制度在人员与装备上的短板。",
+   "place": [
+    -45.0,
+    58.0
+   ],
+   "unitsSuggestion": [],
+   "photoSuggestion": null,
+   "sfx": [
+    "explosion"
+   ],
+   "zoomRel": 6,
+   "sources": [
+    "roskill_1954",
+    "blair_1996",
+    "hague_convoy"
+   ],
+   "confidence": "high",
+   "endAt": "1941-09-12T12:00"
+  },
+  {
+   "id": "e.shoot_on_sight",
+   "at": "1941-09-11T12:00",
+   "precision": "day",
+   "category": "political",
+   "importance": 2,
+   "side": "US",
+   "title": {
+    "zh": "「见即击沉」命令",
+    "orig": "Shoot on sight"
+   },
+   "body": "9 月 4 日，美国驱逐舰格雷尔号在冰岛以南与 U 艇交火。11 日，罗斯福发表广播讲话，宣布美国海军将保护所有在大西洋航行的船只，对轴心国舰艇「见即击沉」。美国在法律上仍是中立国，海上却已与德国处于事实上的战争状态。",
+   "place": [
+    -77.037,
+    38.895
+   ],
+   "unitsSuggestion": [],
+   "photoSuggestion": null,
+   "sfx": [
+    "radio"
+   ],
+   "zoomRel": 1,
+   "sources": [
+    "mori_battle_atlantic",
+    "roskill_1954"
+   ],
+   "confidence": "high",
+   "unitsMentioned": [
+    "us.greer"
+   ]
+  },
+  {
+   "id": "e.moef",
+   "at": "1941-09-30T12:00",
+   "precision": "day",
+   "category": "political",
+   "importance": 2,
+   "side": "CA",
+   "title": {
+    "zh": "中大西洋护航部队成立",
+    "orig": "Mid-Ocean Escort Force"
+   },
+   "body": "1941 年秋，英美加把大西洋护航分成三段：西段由加拿大负责，中段由新成立的中大西洋护航部队负责，东段归英国西部海口司令部。船团在冰岛以南的会合点交接。这套分段接力制度一直用到战争结束，也是 1943 年支援群的基础。",
+   "place": [
+    -24.0,
+    58.0
+   ],
+   "unitsSuggestion": [],
+   "photoSuggestion": null,
+   "sfx": [
+    "bell"
+   ],
+   "zoomRel": 3,
+   "sources": [
+    "roskill_1954",
+    "schull_1950",
+    "battleatlantic_1946"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "e.reuben_james",
+   "at": "1941-10-31T05:00",
+   "precision": "hour",
+   "category": "naval",
+   "importance": 3,
+   "side": "DE",
+   "title": {
+    "zh": "鲁本·詹姆斯号被击沉",
+    "orig": "USS Reuben James"
+   },
+   "body": "10 月 31 日凌晨，美国驱逐舰鲁本·詹姆斯号在冰岛以南为船团护航时被 U-552 的鱼雷击中，弹药舱爆炸，舰体断成两截，一百人死亡。它是美国海军在二战中第一艘被击沉的军舰，此时距珍珠港事件还有五周。",
+   "place": [
+    -27.5,
+    52.0
+   ],
+   "unitsSuggestion": [
+    "de.u552",
+    "us.reuben_james"
+   ],
+   "photoSuggestion": null,
+   "sfx": [
+    "explosion"
+   ],
+   "zoomRel": 7,
+   "sources": [
+    "mori_battle_atlantic",
+    "uboat_net",
+    "nh_ship_histories"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "e.huffduff",
+   "at": "1941-11-01T12:00",
+   "precision": "day",
+   "category": "political",
+   "importance": 3,
+   "side": "GB",
+   "title": {
+    "zh": "高频测向与护航截击",
+    "orig": "HF/DF"
+   },
+   "body": "1941 年起，英国给护航舰加装高频测向仪，可以测定 U 艇短促发报的方位。狼群必须靠无线电协调，测向于是把德军的组织优势变成暴露源。配合密码破译，英国在 1941 年下半年多次把船团绕开巡逻线，商船损失一度下降三分之二。",
+   "place": [
+    -3.0,
+    53.4
+   ],
+   "unitsSuggestion": [],
+   "photoSuggestion": null,
+   "sfx": [
+    "morse"
+   ],
+   "zoomRel": 2,
+   "sources": [
+    "hinsley_1979",
+    "roskill_1954",
+    "beesly_1977"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "e.ger_declares_war_us",
+   "at": "1941-12-11T12:00",
+   "precision": "day",
+   "category": "political",
+   "importance": 2,
+   "side": "DE",
+   "title": {
+    "zh": "德国对美宣战",
+    "orig": "Kriegserklärung an die USA"
+   },
+   "body": "12 月 11 日，德国对美宣战。对邓尼茨来说，这意味着可以放手攻击美国东岸的航运。当天他就提出派十二艘大型 U 艇赴美，上级只批准一半。美国拥有世界上最发达的工业与最缺乏护航经验的海岸线。",
+   "place": [
+    13.38,
+    52.52
+   ],
+   "unitsSuggestion": [],
+   "photoSuggestion": null,
+   "sfx": [
+    "typewriter"
+   ],
+   "zoomRel": 1,
+   "sources": [
+    "roskill_1954",
+    "mori_battle_atlantic",
+    "blair_1996"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "e.hg76",
+   "at": "1941-12-19T08:00",
+   "precision": "day",
+   "category": "naval",
+   "importance": 2,
+   "side": "GB",
+   "title": {
+    "zh": "HG 76 船团战",
+    "orig": "Convoy HG 76"
+   },
+   "body": "12 月 19 日至 23 日，直布罗陀驶往英国的 HG 76 遭狼群拦截。沃克上校的第 36 护航群与护航航母大胆号协同，五天内击沉五艘 U 艇，自身损失三艘商船、一艘驱逐舰与大胆号。这是开战以来盟军第一次明确赢得的船团防御战。",
+   "place": [
+    -9.0,
+    36.0
+   ],
+   "unitsSuggestion": [
+    "gb.audacity",
+    "gb.starling"
+   ],
+   "photoSuggestion": "HMS AUDACITY, 1941. FL1204.jpg",
+   "sfx": [
+    "explosion",
+    "ship_gun"
+   ],
+   "zoomRel": 6,
+   "sources": [
+    "roskill_1954",
+    "blair_1996",
+    "hague_convoy"
+   ],
+   "confidence": "high",
+   "endAt": "1941-12-23T12:00"
+  },
+  {
+   "id": "e.drumbeat",
+   "at": "1942-01-14T05:00",
+   "precision": "hour",
+   "category": "naval",
+   "importance": 1,
+   "side": "DE",
+   "title": {
+    "zh": "鼓点行动：U 艇抵达美国东岸",
+    "orig": "Operation Paukenschlag"
+   },
+   "body": "德国对美宣战后，邓尼茨立即派出五艘 IX 型 U 艇赴美国东岸，代号「鼓点」。1 月 14 日凌晨，U-123 在长岛外海击沉挪威油轮诺尼斯号。美国沿岸不实行灯火管制，城市灯光把船影衬在海上。此后半年，东岸与加勒比成为第二个「快乐时光」。",
+   "place": [
+    -72.5,
+    40.6
+   ],
+   "unitsSuggestion": [
+    "de.u123"
+   ],
+   "photoSuggestion": "Allied tanker torpedoed.jpg",
+   "sfx": [
+    "explosion",
+    "radio"
+   ],
+   "zoomRel": 6,
+   "sources": [
+    "roskill_1956",
+    "gannon_1990",
+    "mori_battle_atlantic"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "e.triton",
+   "at": "1942-02-01T00:00",
+   "precision": "day",
+   "category": "political",
+   "importance": 2,
+   "side": "DE",
+   "title": {
+    "zh": "U 艇改用四转子恩尼格玛",
+    "orig": "TRITON / M4"
+   },
+   "body": "2 月 1 日，德国海军把 U 艇通信切换到使用四转子恩尼格玛的「海神」网。布莱奇利园此前依赖的三转子密钥全部失效，此后十个月无法读出巡逻线位置。盟军只能靠测向与辅助电报推断潜艇动向，船团规避能力大幅下降。",
+   "place": [
+    8.15,
+    53.52
+   ],
+   "unitsSuggestion": [],
+   "photoSuggestion": "EnigmaMachine.jpg",
+   "sfx": [
+    "morse"
+   ],
+   "zoomRel": 2,
+   "sources": [
+    "hinsley_1979",
+    "sebag_2000",
+    "kahn_1991"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "e.channel_dash",
+   "at": "1942-02-11T22:00",
+   "precision": "minute",
+   "category": "movement",
+   "importance": 2,
+   "side": "DE",
+   "title": {
+    "zh": "海峡冲刺",
+    "orig": "Unternehmen Cerberus"
+   },
+   "body": "2 月 11 日深夜，沙恩霍斯特号、格奈森瑙号与欧根亲王号从布雷斯特出港，沿法国海岸以二十七节向东疾驶。英国雷达与空中巡逻均未及时反应，三舰 12 日穿过多佛海峡，13 日抵达德国。战术上是一次成功，战略上却结束了德国水面舰队在大西洋的存在。",
+   "place": [
+    1.4,
+    51.1
+   ],
+   "unitsSuggestion": [
+    "de.scharnhorst"
+   ],
+   "photoSuggestion": null,
+   "sfx": [
+    "engine",
+    "siren"
+   ],
+   "zoomRel": 4,
+   "sources": [
+    "roskill_1956",
+    "nh_ship_histories"
+   ],
+   "confidence": "high",
+   "unitsMentioned": [
+    "de.gneisenau",
+    "de.prinz_eugen"
+   ]
+  },
+  {
+   "id": "e.st_nazaire",
+   "at": "1942-03-28T01:34",
+   "precision": "minute",
+   "category": "naval",
+   "importance": 2,
+   "side": "GB",
+   "title": {
+    "zh": "圣纳泽尔突袭",
+    "orig": "St Nazaire Raid"
+   },
+   "body": "3 月 28 日凌晨，英国驱逐舰坎贝尔敦号满载炸药冲入圣纳泽尔船坞闸门，引爆后摧毁了能容纳大型舰船的干船坞。六百余名突击队员中近四百人伤亡或被俘，但德国再无法在此修理主力舰。这是大西洋海战中最著名的一次特种作战。",
+   "place": [
+    -2.2,
+    47.27
+   ],
+   "unitsSuggestion": [],
+   "photoSuggestion": "Bundesarchiv Bild 101II-MW-3712-04A, St. Nazaire, U-96 einlaufend.jpg",
+   "sfx": [
+    "explosion",
+    "siren"
+   ],
+   "zoomRel": 8,
+   "sources": [
+    "roskill_1956",
+    "nh_ship_histories"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "e.us_coastal_convoy",
+   "at": "1942-05-14T06:00",
+   "precision": "day",
+   "category": "movement",
+   "importance": 2,
+   "side": "US",
+   "title": {
+    "zh": "美国沿岸第一支船团",
+    "orig": "First US coastal convoy"
+   },
+   "body": "5 月 14 日，第一支美国沿岸船团从汉普顿锚地驶往基韦斯特。此前 U 艇在美国东岸与墨西哥湾几乎自由猎杀，5 月仅在墨西哥湾就击沉一百一十五艘船。船团制与灯火管制推行后，沿岸损失迅速下降，邓尼茨被迫在 7 月撤走东岸最后一批 U 艇。",
+   "place": [
+    -76.3,
+    37.0
+   ],
+   "unitsSuggestion": [],
+   "photoSuggestion": null,
+   "sfx": [
+    "engine"
+   ],
+   "zoomRel": 5,
+   "sources": [
+    "roskill_1956",
+    "mori_battle_atlantic",
+    "king_usnavy_at_war"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "e.mexico_gulf",
+   "at": "1942-05-31T12:00",
+   "precision": "day",
+   "category": "naval",
+   "importance": 2,
+   "side": "DE",
+   "title": {
+    "zh": "墨西哥湾与加勒比的油轮屠杀",
+    "orig": "Gulf and Caribbean tanker losses"
+   },
+   "body": "1942 年 5 月，U 艇在墨西哥湾击沉一百一十五艘船，其中一百零一艘单独航行；6 月再击沉一百二十二艘。油轮从得克萨斯与委内瑞拉驶出，航线固定、灯火通明，被艇长称为「油轮巷」。美国护航兵力不足，直到夏末才逐段闭合。",
+   "place": [
+    -90.0,
+    27.0
+   ],
+   "unitsSuggestion": [],
+   "photoSuggestion": null,
+   "sfx": [
+    "explosion"
+   ],
+   "zoomRel": 5,
+   "sources": [
+    "roskill_1956",
+    "mori_battle_atlantic",
+    "blair_1998"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "e.pq17",
+   "at": "1942-07-04T19:36",
+   "precision": "minute",
+   "category": "naval",
+   "importance": 2,
+   "side": "GB",
+   "title": {
+    "zh": "PQ 17 船团被解散",
+    "orig": "Convoy PQ 17"
+   },
+   "body": "7 月 4 日，英国海军部连续三次电令 PQ 17 解散：先令巡洋舰高速西撤，再令船团分散，最后改为「解散」。三十五艘船失去护航，在挪威以北被飞机与潜艇逐一猎杀，二十四艘沉没，仅十一艘到达。提尔皮茨号始终没有出港。",
+   "place": [
+    15.0,
+    75.0
+   ],
+   "unitsSuggestion": [],
+   "photoSuggestion": null,
+   "sfx": [
+    "radio",
+    "bomber"
+   ],
+   "zoomRel": 5,
+   "sources": [
+    "roskill_1956",
+    "nh_pq17",
+    "woodman_1994"
+   ],
+   "confidence": "high",
+   "endAt": "1942-07-10T12:00",
+   "unitsMentioned": [
+    "de.tirpitz"
+   ]
+  },
+  {
+   "id": "e.drumbeat_end",
+   "at": "1942-07-19T12:00",
+   "precision": "day",
+   "category": "movement",
+   "importance": 2,
+   "side": "DE",
+   "title": {
+    "zh": "U 艇撤出美国东岸",
+    "orig": "Withdrawal from US East Coast"
+   },
+   "body": "7 月 19 日，邓尼茨下令最后一批 U 艇撤离美国东岸。沿岸船团与灯火管制让猎杀成本上升，他把重心转回北大西洋空白区：那里超出岸基飞机航程，船团密集，护航薄弱。8 月起，狼群重新出现在格陵兰以南。",
+   "place": [
+    -72.5,
+    38.0
+   ],
+   "unitsSuggestion": [],
+   "photoSuggestion": null,
+   "sfx": [
+    "engine"
+   ],
+   "zoomRel": 4,
+   "sources": [
+    "roskill_1956",
+    "blair_1998"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "e.sc94",
+   "at": "1942-08-06T12:00",
+   "precision": "day",
+   "category": "naval",
+   "importance": 2,
+   "side": "DE",
+   "title": {
+    "zh": "SC 94 与狼群重返北大西洋",
+    "orig": "Convoy SC 94"
+   },
+   "body": "8 月初，狼群在格陵兰以南截住 SC 94，击沉十一艘船。这是 U 艇重返北大西洋船团航线的信号。此后数月，邓尼茨把尽可能多的艇摆在空白区，用无线电协调多群同时攻击，护航兵力与航程都不足以覆盖这片海域。",
+   "place": [
+    -40.0,
+    57.0
+   ],
+   "unitsSuggestion": [],
+   "photoSuggestion": null,
+   "sfx": [
+    "explosion"
+   ],
+   "zoomRel": 6,
+   "sources": [
+    "roskill_1956",
+    "blair_1998",
+    "hague_convoy"
+   ],
+   "confidence": "high",
+   "endAt": "1942-08-10T12:00"
+  },
+  {
+   "id": "e.laconia",
+   "at": "1942-09-12T22:00",
+   "precision": "hour",
+   "category": "atrocity",
+   "importance": 2,
+   "side": "DE",
+   "title": {
+    "zh": "拉科尼亚号事件",
+    "orig": "Laconia incident"
+   },
+   "body": "9 月 12 日夜，U-156 在利比里亚外海击沉运兵船拉科尼亚号，发现船上有意大利战俘后开始救援，并公开呼叫援助。美军轰炸机攻击了悬挂红十字的 U 艇。邓尼茨随后下达「拉科尼亚命令」，禁止 U 艇救助幸存者。",
+   "place": [
+    -11.42,
+    -4.0
+   ],
+   "unitsSuggestion": [
+    "de.u156"
+   ],
+   "photoSuggestion": null,
+   "sfx": [
+    "explosion",
+    "radio"
+   ],
+   "zoomRel": 5,
+   "sources": [
+    "peillard_1983",
+    "nuremberg_imt_blue",
+    "blair_1998"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "e.u559",
+   "at": "1942-10-30T12:00",
+   "precision": "day",
+   "category": "naval",
+   "importance": 2,
+   "side": "GB",
+   "title": {
+    "zh": "U-559 与四转子密钥的突破",
+    "orig": "U-559"
+   },
+   "body": "10 月 30 日，U-559 在塞得港外被英舰逼得上浮。三名水兵抢在艇沉前取出密钥表与「短信号簿」，其中两人随艇沉没。这批材料让布莱奇利园在 12 月重新读出 U 艇通信，1943 年初的船团规避能力随之恢复。",
+   "place": [
+    32.3,
+    31.45
+   ],
+   "unitsSuggestion": [
+    "gb.petard"
+   ],
+   "photoSuggestion": null,
+   "sfx": [
+    "morse",
+    "explosion"
+   ],
+   "zoomRel": 5,
+   "sources": [
+    "sebag_2000",
+    "kahn_1991",
+    "hinsley_1979"
+   ],
+   "confidence": "high",
+   "unitsMentioned": [
+    "de.u559"
+   ]
+  },
+  {
+   "id": "e.torch",
+   "at": "1942-11-08T01:00",
+   "precision": "hour",
+   "category": "movement",
+   "importance": 1,
+   "side": "US",
+   "title": {
+    "zh": "火炬行动：北非登陆",
+    "orig": "Operation Torch"
+   },
+   "body": "11 月 8 日，盟军在摩洛哥与阿尔及利亚登陆。邓尼茨把二十五艘大西洋 U 艇调往直布罗陀与摩洛哥海域，北大西洋只留十艘，船团航线的攻势几乎停摆。两栖作战与护航战争夺同一批驱逐舰与护航航母，这是 1942 年底盟军最大的资源矛盾。",
+   "place": [
+    -7.6,
+    33.6
+   ],
+   "unitsSuggestion": [],
+   "photoSuggestion": null,
+   "sfx": [
+    "ship_gun",
+    "bomber"
+   ],
+   "zoomRel": 3,
+   "sources": [
+    "mori_battle_atlantic",
+    "roskill_1956",
+    "king_usnavy_at_war"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "e.horton",
+   "at": "1942-11-19T12:00",
+   "precision": "day",
+   "category": "political",
+   "importance": 2,
+   "side": "GB",
+   "title": {
+    "zh": "霍顿接任西部航道司令部",
+    "orig": "Max Horton at Western Approaches"
+   },
+   "body": "11 月 19 日，霍顿海军上将接任西部航道司令部司令。他把日益增多的护航舰编成不承担固定船团责任的「支援群」，可以连续数日追猎一艘 U 艇，并推广「按住」战术：多舰轮番压制，直到潜艇耗尽空气被迫上浮。这是 1943 年 5 月胜利的组织前提。",
+   "place": [
+    -3.0,
+    53.4
+   ],
+   "unitsSuggestion": [],
+   "photoSuggestion": "The Operations Room at Derby House in Liverpool, the headquarters of the Commander-in-Chief Western Approaches, September 1944. A25746.jpg",
+   "sfx": [
+    "typewriter"
+   ],
+   "zoomRel": 3,
+   "sources": [
+    "roskill_1956",
+    "battleatlantic_1946",
+    "beesly_1977"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "e.rn_zones",
+   "at": "1942-12-12T12:00",
+   "precision": "day",
+   "category": "political",
+   "importance": 3,
+   "side": "GB",
+   "title": {
+    "zh": "护航责任区与加拿大海军",
+    "orig": "Northwest Atlantic command"
+   },
+   "body": "1942 年底，加拿大皇家海军已承担哈利法克斯与悉尼出发船团的主要护航，但装备落后、训练不足。1943 年 3 月的华盛顿护航会议为此专门调整：加拿大成立西北大西洋司令部，英国提供驱逐舰与训练支援，责任区划分更清楚。",
+   "place": [
+    -63.58,
+    44.65
+   ],
+   "unitsSuggestion": [],
+   "photoSuggestion": null,
+   "sfx": [
+    "bell"
+   ],
+   "zoomRel": 3,
+   "sources": [
+    "schull_1950",
+    "roskill_1956",
+    "milner_1985"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "e.on154",
+   "at": "1942-12-26T12:00",
+   "precision": "day",
+   "category": "naval",
+   "importance": 2,
+   "side": "DE",
+   "title": {
+    "zh": "ON 154 船团战",
+    "orig": "Convoy ON 154"
+   },
+   "body": "12 月下旬，西行的 ON 154 在空白区被狼群连续攻击，五十艘船中十三艘沉没，一艘 U 艇被击沉。此时盟军刚失去破译能力，船团只能靠测向规避，效果有限。冬季风暴随后短暂缓解了压力，但 1943 年 2 月起战斗更烈。",
+   "place": [
+    -38.0,
+    54.0
+   ],
+   "unitsSuggestion": [],
+   "photoSuggestion": null,
+   "sfx": [
+    "explosion"
+   ],
+   "zoomRel": 6,
+   "sources": [
+    "roskill_1956",
+    "blair_1998",
+    "hague_convoy"
+   ],
+   "confidence": "high",
+   "endAt": "1942-12-30T12:00"
+  },
+  {
+   "id": "e.casablanca",
+   "at": "1943-01-14T12:00",
+   "precision": "day",
+   "category": "political",
+   "importance": 3,
+   "side": "US",
+   "title": {
+    "zh": "卡萨布兰卡会议",
+    "orig": "Casablanca Conference"
+   },
+   "body": "1943 年 1 月 14 日，罗斯福与丘吉尔在卡萨布兰卡会晤，确认先欧后亚、加强对德战略轰炸，并要求反潜兵力优先保障大西洋航线。会议还决定把 U 艇工业与比斯开湾基地列为轰炸重点。此时大西洋船团战正走向最危险的三个月。",
+   "place": [
+    -7.6,
+    33.6
+   ],
+   "unitsSuggestion": [],
+   "photoSuggestion": null,
+   "sfx": [
+    "typewriter"
+   ],
+   "zoomRel": 2,
+   "sources": [
+    "roskill_1956",
+    "grand_strategy_2"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "e.sc118",
+   "at": "1943-02-04T12:00",
+   "precision": "day",
+   "category": "naval",
+   "importance": 2,
+   "side": "DE",
+   "title": {
+    "zh": "SC 118 船团战",
+    "orig": "Convoy SC 118"
+   },
+   "body": "2 月 4 日起，SC 118 在格陵兰以南被狼群攻击四天，损失十三艘船。盟军击沉三艘 U 艇。此时破译尚未恢复，船团只能靠测向与经验规避；加拿大护航群的雷达与声呐老旧，暴露出装备差距。这是 1943 年春季危机的开端。",
+   "place": [
+    -42.0,
+    56.0
+   ],
+   "unitsSuggestion": [],
+   "photoSuggestion": null,
+   "sfx": [
+    "explosion"
+   ],
+   "zoomRel": 6,
+   "sources": [
+    "roskill_1956",
+    "blair_1998",
+    "rohwer_critical"
+   ],
+   "confidence": "high",
+   "endAt": "1943-02-08T12:00"
+  },
+  {
+   "id": "e.atlantic_conference",
+   "at": "1943-03-01T12:00",
+   "precision": "day",
+   "category": "political",
+   "importance": 1,
+   "side": "GB",
+   "title": {
+    "zh": "华盛顿大西洋护航会议",
+    "orig": "Atlantic Convoy Conference"
+   },
+   "body": "3 月 1 日，美、英、加三国海军在华盛顿举行大西洋护航会议。美国提出退出北大西洋船团护航，改由英加承担，自己接手中南大西洋油船航线并派出一支护航航母支援群。会议把责任分界移到西经四十七度，加拿大成立西北大西洋司令部，新安排 4 月 1 日生效。",
+   "place": [
+    -77.037,
+    38.895
+   ],
+   "unitsSuggestion": [],
+   "photoSuggestion": null,
+   "sfx": [
+    "typewriter"
+   ],
+   "zoomRel": 1,
+   "sources": [
+    "roskill_1956",
+    "schull_1950",
+    "milner_1985"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "e.sc121",
+   "at": "1943-03-08T12:00",
+   "precision": "day",
+   "category": "naval",
+   "importance": 2,
+   "side": "DE",
+   "title": {
+    "zh": "SC 121 与 HX 228 船团战",
+    "orig": "SC 121 / HX 228"
+   },
+   "body": "3 月上旬，SC 121 与 HX 228 先后在空白区被狼群咬住。SC 121 损失十三艘船，护航舰有三艘声呐故障、三艘雷达失效；HX 228 损失四艘，护航群指挥官泰特随哈维斯特号沉没。两场战斗都说明，空白区的护航兵力已不足以应付集中攻击。",
+   "place": [
+    -35.0,
+    54.0
+   ],
+   "unitsSuggestion": [],
+   "photoSuggestion": null,
+   "sfx": [
+    "explosion",
+    "radio"
+   ],
+   "zoomRel": 6,
+   "sources": [
+    "roskill_1956",
+    "rohwer_critical",
+    "blair_1998"
+   ],
+   "confidence": "high",
+   "endAt": "1943-03-10T12:00"
+  },
+  {
+   "id": "e.enigma_blackout",
+   "at": "1943-03-10T00:00",
+   "precision": "day",
+   "category": "political",
+   "importance": 2,
+   "side": "DE",
+   "title": {
+    "zh": "密钥增设与九天盲期",
+    "orig": "Enigma key change"
+   },
+   "body": "3 月 10 日，德国海军给 U 艇密钥增设一层加密，布莱奇利园在此后九天无法解读 U 艇通信。邓尼茨恰好在这段时间集中狼群攻击船团。等到破译恢复，三月船队战已经打完。这说明情报优势是必要工具，但不能单独决定胜负。",
+   "place": [
+    -0.74,
+    51.95
+   ],
+   "unitsSuggestion": [],
+   "photoSuggestion": "EnigmaMachine.jpg",
+   "sfx": [
+    "morse"
+   ],
+   "zoomRel": 2,
+   "sources": [
+    "hinsley_1988",
+    "blair_1998",
+    "beesly_1977"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "e.hx229_sc122",
+   "at": "1943-03-16T09:00",
+   "precision": "hour",
+   "category": "naval",
+   "importance": 1,
+   "side": "DE",
+   "title": {
+    "zh": "HX 229 与 SC 122 船团战",
+    "orig": "Convoys HX 229/SC 122"
+   },
+   "body": "3 月 16 日至 19 日，东行的 HX 229 与慢速的 SC 122 在北大西洋同时被三群狼群咬住。九十艘商船、十六艘护航舰面对三十八艘 U 艇，二十二艘商船沉没，十四万六千总吨，三百六十一名海员死亡。盟军只击沉 U-384 一艘。这是整场战役最大的船团战。",
+   "place": [
+    -35.0,
+    55.0
+   ],
+   "unitsSuggestion": [],
+   "photoSuggestion": null,
+   "sfx": [
+    "explosion",
+    "radio"
+   ],
+   "zoomRel": 6,
+   "sources": [
+    "roskill_1956",
+    "rohwer_critical",
+    "blair_1998"
+   ],
+   "confidence": "high",
+   "endAt": "1943-03-19T12:00",
+   "unitsMentioned": [
+    "de.u338",
+    "gb.highlander"
+   ]
+  },
+  {
+   "id": "e.mid_atlantic_gap",
+   "at": "1943-03-18T12:00",
+   "precision": "day",
+   "category": "air",
+   "importance": 1,
+   "side": "US",
+   "title": {
+    "zh": "罗斯福下令抽调 B-24 关闭空白区",
+    "orig": "The Mid-Atlantic Gap"
+   },
+   "body": "3 月 18 日，罗斯福直接下令从太平洋抽调六十架 B-24 到北大西洋。超远程解放者从纽芬兰、冰岛与北爱尔兰起飞，把岸基航空兵的覆盖圈推到大西洋中部。4 月起，空白区迅速缩小，船团一旦进入覆盖圈，狼群就难以集结。",
+   "place": [
+    -45.0,
+    55.0
+   ],
+   "unitsSuggestion": [],
+   "photoSuggestion": "The Battle of the Atlantic 1939-1945 CH14001.jpg",
+   "sfx": [
+    "bomber",
+    "engine"
+   ],
+   "zoomRel": 4,
+   "sources": [
+    "roskill_1956",
+    "mori_atlantic_won",
+    "hinsley_1988"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "e.convoy_abandon_debate",
+   "at": "1943-03-25T12:00",
+   "precision": "day",
+   "category": "political",
+   "importance": 2,
+   "side": "GB",
+   "title": {
+    "zh": "英国讨论放弃船团制",
+    "orig": "Convoy system debate"
+   },
+   "body": "三月船队战之后，英国海军部内部一度认真讨论是否暂停北大西洋船团，让商船分散单航。反对意见认为，分散只会让 U 艇更容易找到目标。事后证明，德军的狼群体系此时也已接近极限，盟军只需再撑两个月。",
+   "place": [
+    -0.13,
+    51.507
+   ],
+   "unitsSuggestion": [],
+   "photoSuggestion": null,
+   "sfx": [
+    "typewriter"
+   ],
+   "zoomRel": 2,
+   "sources": [
+    "roskill_1956",
+    "blair_1998",
+    "dimbleby_2015"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "e.hedgehog",
+   "at": "1943-04-01T12:00",
+   "precision": "day",
+   "category": "political",
+   "importance": 3,
+   "side": "GB",
+   "title": {
+    "zh": "刺猬弹与前投武器",
+    "orig": "Hedgehog"
+   },
+   "body": "1942 年底起，英国给护航舰加装「刺猬」前投深弹：二十四枚接触引信炸弹成环状齐射，只有命中才爆炸，因此不会搅乱水听接触。配合改进的声呐与「乌贼」深弹，护航舰第一次能在保持接触的情况下连续攻击。",
+   "place": [
+    -3.0,
+    53.4
+   ],
+   "unitsSuggestion": [],
+   "photoSuggestion": null,
+   "sfx": [
+    "explosion"
+   ],
+   "zoomRel": 3,
+   "sources": [
+    "roskill_1956",
+    "battleatlantic_1946"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "e.biscay_offensive",
+   "at": "1943-04-13T12:00",
+   "precision": "day",
+   "category": "air",
+   "importance": 2,
+   "side": "GB",
+   "title": {
+    "zh": "比斯开湾攻势（德兰奇作战）",
+    "orig": "Operation Derange"
+   },
+   "body": "4 月 13 日起，海岸司令部发动「德兰奇」作战，以七十五架装有厘米波 ASV III 雷达的远程飞机巡逻比斯开湾。德国 U 艇装备的 Metox 只能探测米波，无法预警。邓尼茨命令 U 艇上浮对空作战，改装的「高炮艇」损失惨重，5 月五艘被击沉。",
+   "place": [
+    -8.0,
+    45.5
+   ],
+   "unitsSuggestion": [],
+   "photoSuggestion": "German submarine U-243 under attack by Sunderland aircraft of No. 10 Squadron RAAF in the Bay of Biscay, 8 July 1944 (AWM 135145).jpg",
+   "sfx": [
+    "bomber",
+    "explosion"
+   ],
+   "zoomRel": 4,
+   "sources": [
+    "roskill_1960",
+    "blair_1998",
+    "hinsley_1988"
+   ],
+   "confidence": "high",
+   "endAt": "1943-05-31T12:00"
+  },
+  {
+   "id": "e.ons5",
+   "at": "1943-04-28T09:00",
+   "precision": "minute",
+   "category": "naval",
+   "importance": 1,
+   "side": "GB",
+   "title": {
+    "zh": "ONS 5 船团战",
+    "orig": "Convoy ONS 5"
+   },
+   "body": "4 月 28 日至 5 月 6 日，慢速西行船团 ONS 5 在格陵兰以东遭遇三十余艘 U 艇。护航群与支援群在风暴中轮番反击，击沉六艘 U 艇，自身损失十三艘商船。5 月 6 日船团进入岸基航空兵覆盖圈，邓尼茨下令停止追击。护航战术的转折点由此开始。",
+   "place": [
+    -40.0,
+    58.0
+   ],
+   "unitsSuggestion": [
+    "gb.starling"
+   ],
+   "photoSuggestion": "HMS Starling (U66) underway 1943.jpg",
+   "sfx": [
+    "explosion",
+    "ship_gun"
+   ],
+   "zoomRel": 6,
+   "sources": [
+    "roskill_1956",
+    "blair_1998",
+    "rohwer_critical"
+   ],
+   "confidence": "high",
+   "endAt": "1943-05-06T12:00",
+   "unitsMentioned": [
+    "de.u532"
+   ]
+  },
+  {
+   "id": "e.escort_carriers",
+   "at": "1943-05-01T12:00",
+   "precision": "day",
+   "category": "air",
+   "importance": 2,
+   "side": "GB",
+   "title": {
+    "zh": "护航航母进入大西洋",
+    "orig": "Escort carriers in the Atlantic"
+   },
+   "body": "1943 年春，英美把商船改装的护航航母投入大西洋。它们航速慢、载机少，却能给船团提供连续空中巡逻，逼得 U 艇不敢在白天上浮。5 月起，护航航母与支援群组成猎杀群，专门搜索 U 艇与补给艇。",
+   "place": [
+    -30.0,
+    55.0
+   ],
+   "unitsSuggestion": [],
+   "photoSuggestion": "HMS Biter (D97) underway c1943.jpg",
+   "sfx": [
+    "fighter"
+   ],
+   "zoomRel": 4,
+   "sources": [
+    "roskill_1956",
+    "mori_atlantic_won",
+    "battleatlantic_1946"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "e.sc130",
+   "at": "1943-05-11T12:00",
+   "precision": "day",
+   "category": "naval",
+   "importance": 2,
+   "side": "GB",
+   "title": {
+    "zh": "SC 130：船团无一损失",
+    "orig": "Convoy SC 130"
+   },
+   "body": "5 月 11 日，三十八艘船的 SC 130 从哈利法克斯出航。四群 U 艇在 15 日至 20 日之间集中攻击，船团在几乎不间断的空中掩护下无一损失，盟军击沉五艘 U 艇。邓尼茨的儿子也在其中一艘艇上丧生。这是狼群战术彻底失效的标志。",
+   "place": [
+    -40.0,
+    52.0
+   ],
+   "unitsSuggestion": [],
+   "photoSuggestion": null,
+   "sfx": [
+    "bomber",
+    "explosion"
+   ],
+   "zoomRel": 6,
+   "sources": [
+    "roskill_1956",
+    "blair_1998",
+    "hague_convoy"
+   ],
+   "confidence": "high",
+   "endAt": "1943-05-25T12:00"
+  },
+  {
+   "id": "e.black_may",
+   "at": "1943-05-23T12:00",
+   "precision": "day",
+   "category": "political",
+   "importance": 1,
+   "side": "DE",
+   "title": {
+    "zh": "「黑色五月」与撤出北大西洋",
+    "orig": "Black May"
+   },
+   "body": "5 月，盟军在大西洋击沉约三十四艘 U 艇，全战区共四十一艘，占 U 艇部队作战实力的四分之一。当月商船损失降至三十四艘。5 月下旬，邓尼茨下令 U 艇撤出北大西洋航线，承认「我们输掉了大西洋战役」。狼群的水面夜袭战术从此再未恢复。",
+   "place": [
+    -30.0,
+    50.0
+   ],
+   "unitsSuggestion": [],
+   "photoSuggestion": null,
+   "sfx": [
+    "radio"
+   ],
+   "zoomRel": 4,
+   "sources": [
+    "roskill_1956",
+    "blair_1998",
+    "battleatlantic_1946"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "e.escort_carrier_groups",
+   "at": "1943-06-01T12:00",
+   "precision": "day",
+   "category": "air",
+   "importance": 2,
+   "side": "US",
+   "title": {
+    "zh": "护航航母猎杀群封锁补给线",
+    "orig": "Hunter-killer groups"
+   },
+   "body": "1943 年 6 月起，美国以卡德、博格、桑蒂三艘护航航母为核心组建猎杀群，在中大西洋搜索 U 艇与「乳牛」补给艇。三个月里击沉十七艘 U 艇，自身只损失一艘商船。补给艇被清剿后，U 艇再难在远洋长时间停留。",
+   "place": [
+    -35.0,
+    40.0
+   ],
+   "unitsSuggestion": [],
+   "photoSuggestion": "HMS Biter (D97) underway c1943.jpg",
+   "sfx": [
+    "fighter",
+    "explosion"
+   ],
+   "zoomRel": 4,
+   "sources": [
+    "roskill_1960",
+    "mori_atlantic_won",
+    "blair_1998"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "e.august_1943_biscay",
+   "at": "1943-07-30T12:00",
+   "precision": "day",
+   "category": "air",
+   "importance": 3,
+   "side": "GB",
+   "title": {
+    "zh": "比斯开湾的第二次攻势",
+    "orig": "Bay offensive, Musketry"
+   },
+   "body": "7 月底起，海岸司令部发动「火枪射击」「海蛞蝓」等连续行动，把比斯开湾的巡逻密度推到每天数十架次。德军改用 Hs 293 滑翔炸弹反击，8 月击沉英舰埃格灵顿号。双方在这条 U 艇出入航道上的消耗战持续到年底。",
+   "place": [
+    -9.0,
+    45.0
+   ],
+   "unitsSuggestion": [],
+   "photoSuggestion": "German submarine U-243 under attack by Sunderland aircraft of No. 10 Squadron RAAF in the Bay of Biscay, 8 July 1944 (AWM 135145).jpg",
+   "sfx": [
+    "bomber",
+    "explosion"
+   ],
+   "zoomRel": 4,
+   "sources": [
+    "roskill_1960",
+    "blair_1998"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "e.leuthen",
+   "at": "1943-09-15T12:00",
+   "precision": "day",
+   "category": "naval",
+   "importance": 2,
+   "side": "DE",
+   "title": {
+    "zh": "莱特恩狼群反扑",
+    "orig": "Wolfpack Leuthen"
+   },
+   "body": "9 月中旬，邓尼茨用新装备的狼群「莱特恩」重回北大西洋航线，首次大规模使用声自导鱼雷，先打护航舰再打商船。头两天击沉六艘商船与三艘护航舰，随后被支援群与护航航母击退，损失三艘 U 艇。10 月以后，狼群战术再未恢复。",
+   "place": [
+    -35.0,
+    57.0
+   ],
+   "unitsSuggestion": [],
+   "photoSuggestion": null,
+   "sfx": [
+    "explosion",
+    "ship_gun"
+   ],
+   "zoomRel": 6,
+   "sources": [
+    "roskill_1960",
+    "blair_1998",
+    "rohwer_chronology"
+   ],
+   "confidence": "high",
+   "endAt": "1943-09-24T12:00"
+  },
+  {
+   "id": "e.azores",
+   "at": "1943-10-12T12:00",
+   "precision": "day",
+   "category": "political",
+   "importance": 2,
+   "side": "GB",
+   "title": {
+    "zh": "亚速尔群岛基地启用",
+    "orig": "Azores bases"
+   },
+   "body": "10 月 12 日，英国与葡萄牙签订协议，使用亚速尔群岛的机场。岸基飞机从中大西洋正中起飞，空白区彻底闭合。此后船团一旦被狼群咬住，支援群与飞机可以在数小时内赶到，U 艇再难组织持续攻击。",
+   "place": [
+    -28.0,
+    38.5
+   ],
+   "unitsSuggestion": [],
+   "photoSuggestion": null,
+   "sfx": [
+    "engine"
+   ],
+   "zoomRel": 4,
+   "sources": [
+    "roskill_1960",
+    "hinsley_1988",
+    "battleatlantic_1946"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "e.north_cape",
+   "at": "1943-12-26T18:45",
+   "precision": "minute",
+   "category": "naval",
+   "importance": 2,
+   "side": "GB",
+   "title": {
+    "zh": "北角海战：沙恩霍斯特号沉没",
+    "orig": "Battle of the North Cape"
+   },
+   "body": "12 月 26 日，沙恩霍斯特号出击 JW 55B 船团。贝尔法斯特号以雷达在八时四十分发现目标，约克公爵号在十六时五十分开火。沙恩霍斯特号被多次命中、失去动力，十九时四十五分沉没。一千九百六十八名官兵中仅三十六人生还。",
+   "place": [
+    25.5,
+    72.5
+   ],
+   "unitsSuggestion": [
+    "de.scharnhorst",
+    "gb.duke_of_york"
+   ],
+   "photoSuggestion": null,
+   "sfx": [
+    "ship_gun",
+    "explosion"
+   ],
+   "zoomRel": 5,
+   "sources": [
+    "roskill_1960",
+    "nh_ship_histories",
+    "gazette_38038"
+   ],
+   "confidence": "high",
+   "endAt": "1943-12-26T20:30",
+   "unitsMentioned": [
+    "gb.belfast"
+   ]
+  },
+  {
+   "id": "e.schnorchel",
+   "at": "1944-03-01T12:00",
+   "precision": "day",
+   "category": "political",
+   "importance": 2,
+   "side": "DE",
+   "title": {
+    "zh": "通气管改装",
+    "orig": "Schnorchel"
+   },
+   "body": "1944 年春起，德国给 VII 型与 IX 型 U 艇加装通气管，使柴油机可以在潜望镜深度运行，不必再浮出水面充电。雷达与飞机因此难以发现它们。但通气管航速慢、机械故障多，只能延缓而不能扭转劣势。",
+   "place": [
+    8.5,
+    54.3
+   ],
+   "unitsSuggestion": [],
+   "photoSuggestion": null,
+   "sfx": [
+    "engine"
+   ],
+   "zoomRel": 3,
+   "sources": [
+    "roskill_1961",
+    "blair_1998",
+    "roessler_uboot"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "e.exercise_tiger",
+   "at": "1944-04-27T23:30",
+   "precision": "minute",
+   "category": "naval",
+   "importance": 3,
+   "side": "DE",
+   "title": {
+    "zh": "老虎演习：莱姆湾夜袭",
+    "orig": "Exercise Tiger"
+   },
+   "body": "4 月 27 日深夜，九艘德国鱼雷艇从瑟堡出发，袭击莱姆湾内的登陆演习船队。两艘坦克登陆舰被击沉，七百四十九名美军死亡。通信混乱与护航缺口让损失扩大。这次事故被严格保密，但促使盟军重新检查登陆前的海上警戒。",
+   "place": [
+    -3.6,
+    50.3
+   ],
+   "unitsSuggestion": [],
+   "photoSuggestion": null,
+   "sfx": [
+    "explosion",
+    "ship_gun"
+   ],
+   "zoomRel": 6,
+   "sources": [
+    "nh_normandy",
+    "roskill_1961"
+   ],
+   "confidence": "high",
+   "endAt": "1944-04-28T03:30"
+  },
+  {
+   "id": "e.escort_carrier_sunk",
+   "at": "1944-05-29T12:00",
+   "precision": "day",
+   "category": "naval",
+   "importance": 3,
+   "side": "DE",
+   "title": {
+    "zh": "布洛克岛号护航航母被击沉",
+    "orig": "USS Block Island"
+   },
+   "body": "5 月 29 日，美国护航航母布洛克岛号在亚速尔以西被 U-549 的两枚鱼雷击中，舰体进水倾斜，由护航驱逐舰击沉。它是美国海军在大西洋损失的唯一一艘护航航母。U-549 随后被护航舰击沉，全艇无人生还。",
+   "place": [
+    -30.5,
+    30.5
+   ],
+   "unitsSuggestion": [],
+   "photoSuggestion": null,
+   "sfx": [
+    "explosion",
+    "ship_gun"
+   ],
+   "zoomRel": 7,
+   "sources": [
+    "mori_atlantic_won",
+    "uboat_net",
+    "nh_ship_histories"
+   ],
+   "confidence": "high",
+   "unitsMentioned": [
+    "de.u549"
+   ]
+  },
+  {
+   "id": "e.elektroboot",
+   "at": "1944-06-01T12:00",
+   "precision": "day",
+   "category": "political",
+   "importance": 3,
+   "side": "DE",
+   "title": {
+    "zh": "XXI 型电艇的延误",
+    "orig": "Type XXI Elektroboot"
+   },
+   "body": "德国把希望寄托在 XXI 型「电艇」上：水下航速十八节，可在水下充电，理论上能突破护航网。但分段建造与工人短缺让进度一再推迟，第一艘 1944 年 4 月才下水。到战争结束，只有一艘 XXI 型出海巡逻，未及交战。",
+   "place": [
+    8.7,
+    54.4
+   ],
+   "unitsSuggestion": [],
+   "photoSuggestion": null,
+   "sfx": [
+    "engine"
+   ],
+   "zoomRel": 3,
+   "sources": [
+    "roessler_uboot",
+    "blair_1998",
+    "roskill_1961"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "e.u505_capture",
+   "at": "1944-06-04T11:00",
+   "precision": "hour",
+   "category": "naval",
+   "importance": 2,
+   "side": "US",
+   "title": {
+    "zh": "U-505 被俘",
+    "orig": "Capture of U-505"
+   },
+   "body": "6 月 4 日，美国海军第 22.3 特混编队在佛得角以西俘获 U-505。舰载机与驱逐舰配合，深水炸弹迫使艇员弃艇，登艇队抢在进水前关闭阀门，取出恩尼格玛机与密码本。这是美军在二战中唯一一次海上俘获敌潜艇，也再次为破译提供密钥。",
+   "place": [
+    -20.0,
+    20.0
+   ],
+   "unitsSuggestion": [
+    "de.u505",
+    "us.guadalcanal"
+   ],
+   "photoSuggestion": null,
+   "sfx": [
+    "explosion",
+    "morse"
+   ],
+   "zoomRel": 6,
+   "sources": [
+    "mori_atlantic_won",
+    "uboat_net",
+    "sebag_2000"
+   ],
+   "confidence": "high",
+   "endAt": "1944-06-04T20:00"
+  },
+  {
+   "id": "e.normandy",
+   "at": "1944-06-06T04:30",
+   "precision": "minute",
+   "category": "movement",
+   "importance": 1,
+   "side": "GB",
+   "title": {
+    "zh": "诺曼底登陆与 U 艇封锁",
+    "orig": "Operation Neptune"
+   },
+   "body": "6 月 6 日，盟军在诺曼底登陆。大西洋 U 艇行动暂停，三十六艘艇奉命出击，后增派七艘。面对五千三百余艘参战舰船与密集空中巡逻，它们只击沉八艘，自身损失十三艘。没有通气管的艇被迫撤回，随后赶来的通气管艇也只击沉两艘、损失七艘。",
+   "place": [
+    -0.6,
+    49.4
+   ],
+   "unitsSuggestion": [],
+   "photoSuggestion": "The Mulberry artificial harbour at Arromanches in Normandy, June 1944. A24675.jpg",
+   "sfx": [
+    "ship_gun",
+    "bomber"
+   ],
+   "zoomRel": 4,
+   "sources": [
+    "roskill_1961",
+    "mori_atlantic_won",
+    "nh_normandy"
+   ],
+   "confidence": "high",
+   "endAt": "1944-06-12T12:00"
+  },
+  {
+   "id": "e.channel_1944",
+   "at": "1944-07-01T12:00",
+   "precision": "day",
+   "category": "naval",
+   "importance": 2,
+   "side": "GB",
+   "title": {
+    "zh": "英吉利海峡的 U 艇封锁",
+    "orig": "Channel operations 1944"
+   },
+   "body": "登陆后，盟军用航空巡逻、水雷与护航舰把英吉利海峡西口封住。U 艇从挪威或德国南下必须绕过苏格兰，航程增加一周以上。7 月起，德军只能用通气管艇零星渗透，多数被巡逻机或驱逐舰发现击沉。海峡制海权牢牢在盟军手中。",
+   "place": [
+    -4.5,
+    49.8
+   ],
+   "unitsSuggestion": [],
+   "photoSuggestion": null,
+   "sfx": [
+    "explosion"
+   ],
+   "zoomRel": 4,
+   "sources": [
+    "roskill_1961",
+    "nh_normandy",
+    "mori_atlantic_won"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "e.quiberon",
+   "at": "1944-08-15T12:00",
+   "precision": "day",
+   "category": "naval",
+   "importance": 3,
+   "side": "GB",
+   "title": {
+    "zh": "基伯龙湾封锁",
+    "orig": "Quiberon Bay"
+   },
+   "body": "8 月，布列塔尼半岛的德军被围在洛里昂与圣纳泽尔等港口。盟军以军舰与飞机封锁基伯龙湾一带，阻止德军从海上撤离或增援。此后 U 艇再无法利用法国西岸的补给与修理设施，只能退往挪威。",
+   "place": [
+    -3.12,
+    47.48
+   ],
+   "unitsSuggestion": [],
+   "photoSuggestion": null,
+   "sfx": [
+    "ship_gun"
+   ],
+   "zoomRel": 5,
+   "sources": [
+    "roskill_1961",
+    "nh_normandy"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "e.bordeaux_falls",
+   "at": "1944-08-25T12:00",
+   "precision": "day",
+   "category": "movement",
+   "importance": 2,
+   "side": "GB",
+   "title": {
+    "zh": "比斯开湾基地失守",
+    "orig": "Loss of the Biscay bases"
+   },
+   "body": "8 月，盟军推进至比斯开湾。波尔多在 8 月 25 日被收复，布雷斯特在 9 月易手。洛里昂、圣纳泽尔与拉罗谢尔被围困却守到战争结束，已无法出击。三十艘残余 U 艇撤往挪威。持续四年的法国基地群就此失去意义。",
+   "place": [
+    -0.58,
+    44.84
+   ],
+   "unitsSuggestion": [],
+   "photoSuggestion": null,
+   "sfx": [
+    "engine"
+   ],
+   "zoomRel": 4,
+   "sources": [
+    "roskill_1961",
+    "battleatlantic_1946",
+    "grand_strategy_5"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "e.liberation_paris",
+   "at": "1944-08-25T12:00",
+   "precision": "day",
+   "category": "political",
+   "importance": 3,
+   "side": "GB",
+   "title": {
+    "zh": "法国解放与大西洋港口",
+    "orig": "Liberation of France"
+   },
+   "body": "1944 年 8 月巴黎解放，法国大西洋沿岸的 U 艇基地陆续被围或被放弃。布雷斯特、洛里昂、圣纳泽尔、拉罗谢尔与波尔多的潜艇掩体大多完好，却已无出击能力。盟军接管后，用其中几个掩体作为潜艇修理与试验场所。",
+   "place": [
+    2.35,
+    48.86
+   ],
+   "unitsSuggestion": [],
+   "photoSuggestion": null,
+   "sfx": [
+    "march"
+   ],
+   "zoomRel": 2,
+   "sources": [
+    "roskill_1961",
+    "grand_strategy_5"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "e.norway_patrols",
+   "at": "1944-09-01T12:00",
+   "precision": "day",
+   "category": "naval",
+   "importance": 2,
+   "side": "DE",
+   "title": {
+    "zh": "从挪威出发的最后攻势",
+    "orig": "U-boat operations from Norway"
+   },
+   "body": "法国基地失守后，U 艇只能从挪威与德国北部出航，航程增加数天，留在大洋的时间缩短。1944 年下半年，德军从挪威派出六十八次巡逻，主要在英国近岸活动，损失十六艘。通气管让它们能存活，却无法改变战果。",
+   "place": [
+    10.0,
+    59.0
+   ],
+   "unitsSuggestion": [],
+   "photoSuggestion": null,
+   "sfx": [
+    "engine"
+   ],
+   "zoomRel": 4,
+   "sources": [
+    "roskill_1961",
+    "blair_1998"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "e.falaise_effect",
+   "at": "1944-09-01T12:00",
+   "precision": "day",
+   "category": "political",
+   "importance": 3,
+   "side": "DE",
+   "title": {
+    "zh": "基地失守后的 U 艇后勤",
+    "orig": "U-boat logistics after France"
+   },
+   "body": "法国基地失守后，U 艇的修理、补给与人员轮换全部北移。挪威的卑尔根、特隆赫姆与德国北部的港口承担起主要任务，但船厂能力有限，备件短缺。1944 年秋冬，许多艇因机械故障而非战损而返航。",
+   "place": [
+    5.32,
+    60.39
+   ],
+   "unitsSuggestion": [],
+   "photoSuggestion": null,
+   "sfx": [
+    "engine"
+   ],
+   "zoomRel": 3,
+   "sources": [
+    "roskill_1961",
+    "blair_1998"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "e.black_pit_1944",
+   "at": "1944-11-01T12:00",
+   "precision": "day",
+   "category": "naval",
+   "importance": 3,
+   "side": "DE",
+   "title": {
+    "zh": "1944 年秋的最后战果",
+    "orig": "Autumn 1944 U-boat operations"
+   },
+   "body": "1944 年 8 月到年底，U 艇在英国近岸与北海击沉十余艘商船与数艘军舰，代价是损失数十艘艇。9 月，U-482 在爱尔兰以北击沉护航舰赫斯特号；10 月，U-1006 击沉一艘商船。战果已无法影响航运总量。",
+   "place": [
+    -8.0,
+    55.0
+   ],
+   "unitsSuggestion": [],
+   "photoSuggestion": null,
+   "sfx": [
+    "explosion",
+    "radio"
+   ],
+   "zoomRel": 5,
+   "sources": [
+    "roskill_1961",
+    "blair_1998",
+    "nh_rn_losses"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "e.u864",
+   "at": "1945-02-09T12:00",
+   "precision": "day",
+   "category": "naval",
+   "importance": 3,
+   "side": "GB",
+   "title": {
+    "zh": "U-864 被潜艇击沉",
+    "orig": "U-864"
+   },
+   "body": "2 月 9 日，正在挪威外海运送喷气发动机部件的 U-864 被英国潜艇冒险者号发现。冒险者号在水下发射鱼雷，全部命中，艇上七十三人无人生还。这是海战史上唯一一次双方都在水下的潜艇交战，也说明德国对日技术输送已近断绝。",
+   "place": [
+    4.8,
+    60.7
+   ],
+   "unitsSuggestion": [],
+   "photoSuggestion": null,
+   "sfx": [
+    "explosion",
+    "ship_gun"
+   ],
+   "zoomRel": 7,
+   "sources": [
+    "nh_ship_histories",
+    "uboat_net"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "e.aircraft_1945",
+   "at": "1945-03-01T12:00",
+   "precision": "day",
+   "category": "air",
+   "importance": 3,
+   "side": "GB",
+   "title": {
+    "zh": "1945 年春的空中封锁",
+    "orig": "Coastal Command 1945"
+   },
+   "body": "1945 年春，海岸司令部与护航航母把巡逻重点转向英国近岸与北海。德军 U 艇从挪威出航后不久即被雷达发现，只能长时间潜航，通气管状态航速不到六节。3 月与 4 月，U 艇损失数创下开战以来最高。",
+   "place": [
+    1.0,
+    58.0
+   ],
+   "unitsSuggestion": [],
+   "photoSuggestion": null,
+   "sfx": [
+    "bomber"
+   ],
+   "zoomRel": 4,
+   "sources": [
+    "roskill_1961",
+    "battleatlantic_1946"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "e.surrender_order",
+   "at": "1945-05-04T12:00",
+   "precision": "day",
+   "category": "surrender",
+   "importance": 3,
+   "side": "DE",
+   "title": {
+    "zh": "U 艇部队接到停火令",
+    "orig": "U-Boot-Waffe ceasefire"
+   },
+   "body": "5 月 4 日，邓尼茨下令所有 U 艇停止攻击、上浮并驶往指定港口。命令通过海军通信网播发，但并非每艘艇都收到。此后仍有艇长按既定命令攻击，5 月 7 日福斯湾的两艘商船因此沉没。部分艇长选择自沉而不是投降。",
+   "place": [
+    9.99,
+    53.55
+   ],
+   "unitsSuggestion": [],
+   "photoSuggestion": "German submarine U-541 in the Atlantic Ocean on 11 May 1945 (80-G-319661).jpg",
+   "sfx": [
+    "radio",
+    "morse"
+   ],
+   "zoomRel": 2,
+   "sources": [
+    "roskill_1961",
+    "battleatlantic_1946",
+    "uboat_net_fates"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "e.regenbogen",
+   "at": "1945-05-05T12:00",
+   "precision": "day",
+   "category": "surrender",
+   "importance": 2,
+   "side": "DE",
+   "title": {
+    "zh": "「彩虹」自沉",
+    "orig": "Operation Regenbogen"
+   },
+   "body": "5 月 5 日起，德国海军执行「彩虹」计划，由艇员自行凿沉港内与船坞中的 U 艇。战争结束时共有二百二十二艘 U 艇被己方凿沉，一百五十六艘向盟军投降。凿沉是拒绝交出装备的最后手段，也让战后清点变得困难。",
+   "place": [
+    9.4,
+    54.8
+   ],
+   "unitsSuggestion": [],
+   "photoSuggestion": null,
+   "sfx": [
+    "explosion"
+   ],
+   "zoomRel": 3,
+   "sources": [
+    "uboat_net_fates",
+    "battleatlantic_1946",
+    "roskill_1961"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "e.u320_last",
+   "at": "1945-05-07T12:00",
+   "precision": "day",
+   "category": "air",
+   "importance": 3,
+   "side": "GB",
+   "title": {
+    "zh": "U-320 被加泰林纳机重创",
+    "orig": "U-320 sinking"
+   },
+   "body": "5 月 7 日上午，英国第 210 中队的加泰林纳机在北海发现 U-320，投下深水炸弹。艇体受损但未沉没，艇员次日弃艇自沉，全体生还。它是最后一艘在战斗中被击沉的 U 艇，此时距德国投降只剩一天。",
+   "place": [
+    2.0,
+    57.0
+   ],
+   "unitsSuggestion": [],
+   "photoSuggestion": null,
+   "sfx": [
+    "bomber",
+    "explosion"
+   ],
+   "zoomRel": 6,
+   "sources": [
+    "nh_ship_histories",
+    "uboat_net",
+    "roskill_1961"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "e.last_ships",
+   "at": "1945-05-07T20:45",
+   "precision": "minute",
+   "category": "naval",
+   "importance": 2,
+   "side": "DE",
+   "title": {
+    "zh": "最后两艘商船被击沉",
+    "orig": "Sneland I and Avondale Park"
+   },
+   "body": "5 月 7 日晚，U-2336 在福斯湾内向 EN 491 船团发射两雷。挪威货轮斯内兰一号约二十二时四十五分爆炸沉没，七人死亡；加拿大建造、英国登记的阿冯代尔公园号约二十三时中雷，次日凌晨沉没，两人死亡。此时距德国投降生效还有约二十五小时。",
+   "place": [
+    -2.6,
+    56.05
+   ],
+   "unitsSuggestion": [
+    "de.u2336"
+   ],
+   "photoSuggestion": null,
+   "sfx": [
+    "explosion",
+    "ship_gun"
+   ],
+   "zoomRel": 8,
+   "sources": [
+    "uboat_net",
+    "nh_ship_histories",
+    "battleatlantic_1946"
+   ],
+   "confidence": "high",
+   "endAt": "1945-05-08T02:00"
+  },
+  {
+   "id": "e.scapa_home",
+   "at": "1945-05-08T12:00",
+   "precision": "day",
+   "category": "surrender",
+   "importance": 3,
+   "side": "GB",
+   "title": {
+    "zh": "投降 U 艇的集中",
+    "orig": "Surrendered U-boats"
+   },
+   "body": "5 月中旬起，投降的 U 艇陆续驶入斯卡帕湾、利斯与伦敦德里。艇员被送往战俘营，艇上文件与设备由技术情报组接管。这些艇中有一部分后来被拆解研究，另一些在 1945 年 11 月起的「死光行动」中被凿沉。",
+   "place": [
+    -2.96,
+    58.9
+   ],
+   "unitsSuggestion": [],
+   "photoSuggestion": "German submarine U-541 in the Atlantic Ocean on 11 May 1945 (80-G-319661).jpg",
+   "sfx": [
+    "bell"
+   ],
+   "zoomRel": 4,
+   "sources": [
+    "uboat_net_fates",
+    "battleatlantic_1946",
+    "roskill_1961"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "e.german_surrender",
+   "at": "1945-05-08T22:01",
+   "precision": "minute",
+   "category": "surrender",
+   "importance": 1,
+   "side": "DE",
+   "title": {
+    "zh": "德国投降生效，U 艇停战",
+    "orig": "German Instrument of Surrender"
+   },
+   "body": "5 月 8 日二十三时零一分，德国无条件投降生效。U 艇部队接到停止攻击与上浮命令，部分艇长因未收到命令仍在攻击。整场大西洋海战历时五年八个月，盟军损失约三千五百艘商船与一百七十五艘军舰，德国损失约七百八十三艘 U 艇。",
+   "place": [
+    4.03,
+    49.25
+   ],
+   "unitsSuggestion": [],
+   "photoSuggestion": "German submarine U-541 in the Atlantic Ocean on 11 May 1945 (80-G-319661).jpg",
+   "sfx": [
+    "radio"
+   ],
+   "zoomRel": 1,
+   "sources": [
+    "battleatlantic_1946",
+    "roskill_1961",
+    "uboat_net_fates"
+   ],
+   "confidence": "high"
+  }
+ ],
+ "epilogue": [
+  {
+   "id": "e.deadlight",
+   "at": "1945-11-17T12:00",
+   "precision": "day",
+   "category": "surrender",
+   "importance": 3,
+   "side": "GB",
+   "outsideWindow": true,
+   "title": {
+    "zh": "「死光行动」凿沉投降 U 艇",
+    "orig": "Operation Deadlight"
+   },
+   "body": "1945 年 11 月 17 日起，英国把移交的投降 U 艇拖到爱尔兰西北海域凿沉。一百一十六艘在「死光行动」中沉没，另有约三十艘由英、美、苏均分留作研究。少数艇成为博物馆舰，U-505 在芝加哥，U-995 在拉博埃。",
+   "place": [
+    -12.0,
+    55.5
+   ],
+   "unitsSuggestion": [],
+   "photoSuggestion": null,
+   "sfx": [
+    "explosion"
+   ],
+   "zoomRel": 4,
+   "sources": [
+    "uboat_net_fates",
+    "roskill_1961"
+   ],
+   "confidence": "high",
+   "excludeReason": "在战役时间窗（1939-09-03 00:00 — 1945-05-08 23:59）之外"
+  }
+ ],
+ "backgroundEvents": [
+  {
+   "id": "e.graf_spee",
+   "at": "1939-12-13T08:14",
+   "precision": "minute",
+   "category": "naval",
+   "importance": 2,
+   "side": "GB",
+   "title": {
+    "zh": "拉普拉塔河口海战",
+    "orig": "Battle of the River Plate"
+   },
+   "body": "12 月 13 日，施佩伯爵号在拉普拉塔河口外遭遇三艘英舰。它重创埃克塞特号，自身也中弹、燃油系统受损。舰长朗斯多夫驶入蒙得维的亚，四天后在港外自沉。这场海战终结了德国装甲舰的第一轮远洋袭击，也让英国看清单舰难以覆盖大洋。",
+   "place": [
+    -49.2,
+    -34.4
+   ],
+   "unitsSuggestion": [
+    "de.graf_spee"
+   ],
+   "photoSuggestion": null,
+   "sfx": [
+    "ship_gun",
+    "explosion"
+   ],
+   "zoomRel": 5,
+   "sources": [
+    "gazette_37989",
+    "roskill_1954"
+   ],
+   "confidence": "high",
+   "excludeReason": "坐标在图幅（−85…45 E，−12…78 N）之外，只作背景注记",
+   "unitsMentioned": [
+    "gb.exeter",
+    "gb.ajax",
+    "gb.achilles"
+   ]
+  }
+ ],
+ "places": [
+  {
+   "id": "london",
+   "zh": "伦敦",
+   "orig": "London",
+   "pos": [
+    -0.128,
+    51.507
+   ],
+   "kind": "capital",
+   "rank": 1,
+   "country": "GB",
+   "confidence": "high",
+   "sources": [
+    "roskill_1954"
+   ],
+   "note": "51°30′N 0°08′W",
+   "dms": [
+    "0°07′40.8″W",
+    "51°30′25.2″N"
+   ],
+   "dmsNote": "由十进制坐标反算（WGS84），来源表述见 note"
+  },
+  {
+   "id": "liverpool",
+   "zh": "利物浦",
+   "orig": "Liverpool",
+   "pos": [
+    -2.992,
+    53.408
+   ],
+   "kind": "city",
+   "rank": 1,
+   "country": "GB",
+   "confidence": "high",
+   "sources": [
+    "roskill_1954"
+   ],
+   "note": "53°24′N 2°59′W；西部海口司令部（德比大厦）驻地",
+   "dms": [
+    "2°59′31.2″W",
+    "53°24′28.8″N"
+   ],
+   "dmsNote": "由十进制坐标反算（WGS84），来源表述见 note"
+  },
+  {
+   "id": "greenock",
+   "zh": "格里诺克",
+   "orig": "Greenock",
+   "pos": [
+    -4.76,
+    55.948
+   ],
+   "kind": "port",
+   "rank": 2,
+   "country": "GB",
+   "confidence": "high",
+   "sources": [
+    "battleatlantic_1946"
+   ],
+   "note": "55°57′N 4°46′W；克莱德湾船团集结点",
+   "dms": [
+    "4°45′36.0″W",
+    "55°56′52.8″N"
+   ],
+   "dmsNote": "由十进制坐标反算（WGS84），来源表述见 note"
+  },
+  {
+   "id": "glasgow",
+   "zh": "格拉斯哥",
+   "orig": "Glasgow",
+   "pos": [
+    -4.252,
+    55.864
+   ],
+   "kind": "city",
+   "rank": 2,
+   "country": "GB",
+   "confidence": "high",
+   "sources": [
+    "roskill_1954"
+   ],
+   "dms": [
+    "4°15′07.2″W",
+    "55°51′50.4″N"
+   ],
+   "dmsNote": "由十进制坐标反算（WGS84），来源表述见 note",
+   "note": "55°51′50.4″N 4°15′07.2″W（反算值；来源未给原始 DMS）"
+  },
+  {
+   "id": "loch_ewe",
+   "zh": "埃韦湾",
+   "orig": "Loch Ewe",
+   "pos": [
+    -5.83,
+    57.83
+   ],
+   "kind": "port",
+   "rank": 3,
+   "country": "GB",
+   "confidence": "high",
+   "sources": [
+    "woodman_1994"
+   ],
+   "note": "57°50′N 5°50′W；北极船团集结点",
+   "dms": [
+    "5°49′48.0″W",
+    "57°49′48.0″N"
+   ],
+   "dmsNote": "由十进制坐标反算（WGS84），来源表述见 note"
+  },
+  {
+   "id": "scapa_flow",
+   "zh": "斯卡帕湾",
+   "orig": "Scapa Flow",
+   "pos": [
+    -2.96,
+    58.9
+   ],
+   "kind": "port",
+   "rank": 1,
+   "country": "GB",
+   "confidence": "high",
+   "sources": [
+    "roskill_1954",
+    "oni_prien_u47"
+   ],
+   "note": "58°54′N 2°58′W；本土舰队主锚地",
+   "dms": [
+    "2°57′36.0″W",
+    "58°53′60.0″N"
+   ],
+   "dmsNote": "由十进制坐标反算（WGS84），来源表述见 note"
+  },
+  {
+   "id": "tobermory",
+   "zh": "托伯莫里",
+   "orig": "Tobermory",
+   "pos": [
+    -6.07,
+    56.62
+   ],
+   "kind": "port",
+   "rank": 4,
+   "country": "GB",
+   "confidence": "high",
+   "sources": [
+    "roskill_1954"
+   ],
+   "note": "56°37′N 6°04′W；护航舰训练基地",
+   "dms": [
+    "6°04′12.0″W",
+    "56°37′12.0″N"
+   ],
+   "dmsNote": "由十进制坐标反算（WGS84），来源表述见 note"
+  },
+  {
+   "id": "belfast",
+   "zh": "贝尔法斯特",
+   "orig": "Belfast",
+   "pos": [
+    -5.93,
+    54.597
+   ],
+   "kind": "city",
+   "rank": 2,
+   "country": "GB",
+   "confidence": "high",
+   "sources": [
+    "roskill_1954"
+   ],
+   "dms": [
+    "5°55′48.0″W",
+    "54°35′49.2″N"
+   ],
+   "dmsNote": "由十进制坐标反算（WGS84），来源表述见 note",
+   "note": "54°35′49.2″N 5°55′48.0″W（反算值；来源未给原始 DMS）"
+  },
+  {
+   "id": "londonderry",
+   "zh": "伦敦德里",
+   "orig": "Londonderry",
+   "pos": [
+    -7.31,
+    55.0
+   ],
+   "kind": "port",
+   "rank": 2,
+   "country": "GB",
+   "confidence": "high",
+   "sources": [
+    "roskill_1954"
+   ],
+   "note": "55°00′N 7°19′W；北大西洋护航终点之一",
+   "dms": [
+    "7°18′36.0″W",
+    "55°00′00.0″N"
+   ],
+   "dmsNote": "由十进制坐标反算（WGS84），来源表述见 note"
+  },
+  {
+   "id": "plymouth",
+   "zh": "普利茅斯",
+   "orig": "Plymouth",
+   "pos": [
+    -4.143,
+    50.375
+   ],
+   "kind": "port",
+   "rank": 2,
+   "country": "GB",
+   "confidence": "high",
+   "sources": [
+    "roskill_1954"
+   ],
+   "dms": [
+    "4°08′34.8″W",
+    "50°22′30.0″N"
+   ],
+   "dmsNote": "由十进制坐标反算（WGS84），来源表述见 note",
+   "note": "50°22′30.0″N 4°08′34.8″W（反算值；来源未给原始 DMS）"
+  },
+  {
+   "id": "portsmouth",
+   "zh": "朴次茅斯",
+   "orig": "Portsmouth",
+   "pos": [
+    -1.088,
+    50.805
+   ],
+   "kind": "port",
+   "rank": 2,
+   "country": "GB",
+   "confidence": "high",
+   "sources": [
+    "roskill_1954"
+   ],
+   "dms": [
+    "1°05′16.8″W",
+    "50°48′18.0″N"
+   ],
+   "dmsNote": "由十进制坐标反算（WGS84），来源表述见 note",
+   "note": "50°48′18.0″N 1°05′16.8″W（反算值；来源未给原始 DMS）"
+  },
+  {
+   "id": "dover",
+   "zh": "多佛",
+   "orig": "Dover",
+   "pos": [
+    1.313,
+    51.127
+   ],
+   "kind": "port",
+   "rank": 2,
+   "country": "GB",
+   "confidence": "high",
+   "sources": [
+    "nh_ship_histories"
+   ],
+   "dms": [
+    "1°18′46.8″E",
+    "51°07′37.2″N"
+   ],
+   "dmsNote": "由十进制坐标反算（WGS84），来源表述见 note",
+   "note": "51°07′37.2″N 1°18′46.8″E（反算值；来源未给原始 DMS）"
+  },
+  {
+   "id": "southampton",
+   "zh": "南安普敦",
+   "orig": "Southampton",
+   "pos": [
+    -1.404,
+    50.91
+   ],
+   "kind": "port",
+   "rank": 2,
+   "country": "GB",
+   "confidence": "high",
+   "sources": [
+    "roskill_1954"
+   ],
+   "dms": [
+    "1°24′14.4″W",
+    "50°54′36.0″N"
+   ],
+   "dmsNote": "由十进制坐标反算（WGS84），来源表述见 note",
+   "note": "50°54′36.0″N 1°24′14.4″W（反算值；来源未给原始 DMS）"
+  },
+  {
+   "id": "saint_nazaire",
+   "zh": "圣纳泽尔",
+   "orig": "Saint-Nazaire",
+   "pos": [
+    -2.213,
+    47.273
+   ],
+   "kind": "port",
+   "rank": 2,
+   "country": "FR",
+   "confidence": "high",
+   "sources": [
+    "uboat_net"
+   ],
+   "note": "47°16′N 2°12′W；U 艇基地与船坞",
+   "dms": [
+    "2°12′46.8″W",
+    "47°16′22.8″N"
+   ],
+   "dmsNote": "由十进制坐标反算（WGS84），来源表述见 note"
+  },
+  {
+   "id": "brest",
+   "zh": "布雷斯特",
+   "orig": "Brest",
+   "pos": [
+    -4.486,
+    48.39
+   ],
+   "kind": "port",
+   "rank": 1,
+   "country": "FR",
+   "confidence": "high",
+   "sources": [
+    "uboat_net"
+   ],
+   "note": "48°23′N 4°29′W；U 艇基地",
+   "dms": [
+    "4°29′09.6″W",
+    "48°23′24.0″N"
+   ],
+   "dmsNote": "由十进制坐标反算（WGS84），来源表述见 note"
+  },
+  {
+   "id": "lorient",
+   "zh": "洛里昂",
+   "orig": "Lorient",
+   "pos": [
+    -3.37,
+    47.748
+   ],
+   "kind": "port",
+   "rank": 1,
+   "country": "FR",
+   "confidence": "high",
+   "sources": [
+    "uboat_net"
+   ],
+   "note": "47°45′N 3°22′W；U 艇基地，狼群司令部所在",
+   "dms": [
+    "3°22′12.0″W",
+    "47°44′52.8″N"
+   ],
+   "dmsNote": "由十进制坐标反算（WGS84），来源表述见 note"
+  },
+  {
+   "id": "la_pallice",
+   "zh": "拉帕利斯",
+   "orig": "La Pallice",
+   "pos": [
+    -1.151,
+    46.16
+   ],
+   "kind": "port",
+   "rank": 3,
+   "country": "FR",
+   "confidence": "high",
+   "sources": [
+    "uboat_net"
+   ],
+   "note": "46°10′N 1°09′W；拉罗谢尔外港，U 艇掩体",
+   "dms": [
+    "1°09′03.6″W",
+    "46°09′36.0″N"
+   ],
+   "dmsNote": "由十进制坐标反算（WGS84），来源表述见 note"
+  },
+  {
+   "id": "bordeaux",
+   "zh": "波尔多",
+   "orig": "Bordeaux",
+   "pos": [
+    -0.579,
+    44.837
+   ],
+   "kind": "port",
+   "rank": 2,
+   "country": "FR",
+   "confidence": "high",
+   "sources": [
+    "uboat_net"
+   ],
+   "note": "44°50′N 0°34′W；BETASOM 意大利潜艇基地",
+   "dms": [
+    "0°34′44.4″W",
+    "44°50′13.2″N"
+   ],
+   "dmsNote": "由十进制坐标反算（WGS84），来源表述见 note"
+  },
+  {
+   "id": "cherbourg",
+   "zh": "瑟堡",
+   "orig": "Cherbourg",
+   "pos": [
+    -1.617,
+    49.633
+   ],
+   "kind": "port",
+   "rank": 2,
+   "country": "FR",
+   "confidence": "high",
+   "sources": [
+    "nh_normandy"
+   ],
+   "dms": [
+    "1°37′01.2″W",
+    "49°37′58.8″N"
+   ],
+   "dmsNote": "由十进制坐标反算（WGS84），来源表述见 note",
+   "note": "49°37′58.8″N 1°37′01.2″W（反算值；来源未给原始 DMS）"
+  },
+  {
+   "id": "quiberon",
+   "zh": "基伯龙湾",
+   "orig": "Quiberon Bay",
+   "pos": [
+    -3.12,
+    47.48
+   ],
+   "kind": "sea",
+   "rank": 3,
+   "country": "FR",
+   "confidence": "medium",
+   "sources": [
+    "roskill_1961"
+   ],
+   "dms": [
+    "3°07′12.0″W",
+    "47°28′48.0″N"
+   ],
+   "dmsNote": "由十进制坐标反算（WGS84），来源表述见 note",
+   "note": "47°28′48.0″N 3°07′12.0″W（反算值；来源未给原始 DMS）"
+  },
+  {
+   "id": "dunkirk",
+   "zh": "敦刻尔克",
+   "orig": "Dunkerque",
+   "pos": [
+    2.37,
+    51.03
+   ],
+   "kind": "port",
+   "rank": 2,
+   "country": "FR",
+   "confidence": "high",
+   "sources": [
+    "roskill_1954"
+   ],
+   "dms": [
+    "2°22′12.0″E",
+    "51°01′48.0″N"
+   ],
+   "dmsNote": "由十进制坐标反算（WGS84），来源表述见 note",
+   "note": "51°01′48.0″N 2°22′12.0″E（反算值；来源未给原始 DMS）"
+  },
+  {
+   "id": "paris",
+   "zh": "巴黎",
+   "orig": "Paris",
+   "pos": [
+    2.35,
+    48.86
+   ],
+   "kind": "capital",
+   "rank": 1,
+   "country": "FR",
+   "confidence": "high",
+   "sources": [
+    "roskill_1954"
+   ],
+   "dms": [
+    "2°21′00.0″E",
+    "48°51′36.0″N"
+   ],
+   "dmsNote": "由十进制坐标反算（WGS84），来源表述见 note",
+   "note": "48°51′36.0″N 2°21′00.0″E（反算值；来源未给原始 DMS）"
+  },
+  {
+   "id": "reykjavik",
+   "zh": "雷克雅未克",
+   "orig": "Reykjavík",
+   "pos": [
+    -21.94,
+    64.15
+   ],
+   "kind": "capital",
+   "rank": 1,
+   "country": "IS",
+   "confidence": "high",
+   "sources": [
+    "roskill_1954"
+   ],
+   "note": "64°09′N 21°56′W",
+   "dms": [
+    "21°56′24.0″W",
+    "64°09′00.0″N"
+   ],
+   "dmsNote": "由十进制坐标反算（WGS84），来源表述见 note"
+  },
+  {
+   "id": "hvalfjord",
+   "zh": "赫瓦尔峡湾",
+   "orig": "Hvalfjörður",
+   "pos": [
+    -21.68,
+    64.38
+   ],
+   "kind": "port",
+   "rank": 3,
+   "country": "IS",
+   "confidence": "high",
+   "sources": [
+    "woodman_1994"
+   ],
+   "note": "64°23′N 21°41′W；船团集结点",
+   "dms": [
+    "21°40′48.0″W",
+    "64°22′48.0″N"
+   ],
+   "dmsNote": "由十进制坐标反算（WGS84），来源表述见 note"
+  },
+  {
+   "id": "faroe",
+   "zh": "法罗群岛",
+   "orig": "Færøerne",
+   "pos": [
+    -6.9,
+    62.0
+   ],
+   "kind": "region",
+   "rank": 3,
+   "country": "DK",
+   "confidence": "medium",
+   "sources": [
+    "roskill_1954"
+   ],
+   "dms": [
+    "6°54′00.0″W",
+    "62°00′00.0″N"
+   ],
+   "dmsNote": "由十进制坐标反算（WGS84），来源表述见 note",
+   "note": "62°00′00.0″N 6°54′00.0″W（反算值；来源未给原始 DMS）"
+  },
+  {
+   "id": "cape_farewell",
+   "zh": "法韦尔角",
+   "orig": "Cape Farewell",
+   "pos": [
+    -43.9,
+    59.8
+   ],
+   "kind": "region",
+   "rank": 3,
+   "country": "GL",
+   "confidence": "medium",
+   "sources": [
+    "roskill_1956"
+   ],
+   "dms": [
+    "43°53′60.0″W",
+    "59°47′60.0″N"
+   ],
+   "dmsNote": "由十进制坐标反算（WGS84），来源表述见 note",
+   "note": "59°47′60.0″N 43°53′60.0″W（反算值；来源未给原始 DMS）"
+  },
+  {
+   "id": "halifax",
+   "zh": "哈利法克斯",
+   "orig": "Halifax",
+   "pos": [
+    -63.575,
+    44.648
+   ],
+   "kind": "port",
+   "rank": 1,
+   "country": "CA",
+   "confidence": "high",
+   "sources": [
+    "schull_1950"
+   ],
+   "note": "44°39′N 63°34′W；HX/SC 船团起点",
+   "dms": [
+    "63°34′30.0″W",
+    "44°38′52.8″N"
+   ],
+   "dmsNote": "由十进制坐标反算（WGS84），来源表述见 note"
+  },
+  {
+   "id": "sydney_ns",
+   "zh": "悉尼（布雷顿角）",
+   "orig": "Sydney, C.B.",
+   "pos": [
+    -60.18,
+    46.14
+   ],
+   "kind": "port",
+   "rank": 1,
+   "country": "CA",
+   "confidence": "high",
+   "sources": [
+    "hague_convoy"
+   ],
+   "note": "46°08′N 60°11′W；SC 船团起点",
+   "dms": [
+    "60°10′48.0″W",
+    "46°08′24.0″N"
+   ],
+   "dmsNote": "由十进制坐标反算（WGS84），来源表述见 note"
+  },
+  {
+   "id": "st_johns",
+   "zh": "圣约翰斯",
+   "orig": "St John's",
+   "pos": [
+    -52.706,
+    47.561
+   ],
+   "kind": "port",
+   "rank": 1,
+   "country": "NF",
+   "confidence": "high",
+   "sources": [
+    "schull_1950"
+   ],
+   "note": "47°34′N 52°42′W；纽芬兰护航部队司令部",
+   "dms": [
+    "52°42′21.6″W",
+    "47°33′39.6″N"
+   ],
+   "dmsNote": "由十进制坐标反算（WGS84），来源表述见 note"
+  },
+  {
+   "id": "argentia",
+   "zh": "阿真舍",
+   "orig": "Argentia",
+   "pos": [
+    -53.99,
+    47.3
+   ],
+   "kind": "port",
+   "rank": 3,
+   "country": "NF",
+   "confidence": "high",
+   "sources": [
+    "roskill_1956"
+   ],
+   "dms": [
+    "53°59′24.0″W",
+    "47°17′60.0″N"
+   ],
+   "dmsNote": "由十进制坐标反算（WGS84），来源表述见 note",
+   "note": "47°17′60.0″N 53°59′24.0″W（反算值；来源未给原始 DMS）"
+  },
+  {
+   "id": "cape_race",
+   "zh": "雷斯角",
+   "orig": "Cape Race",
+   "pos": [
+    -53.07,
+    46.66
+   ],
+   "kind": "region",
+   "rank": 2,
+   "country": "NF",
+   "confidence": "high",
+   "sources": [
+    "hague_convoy"
+   ],
+   "dms": [
+    "53°04′12.0″W",
+    "46°39′36.0″N"
+   ],
+   "dmsNote": "由十进制坐标反算（WGS84），来源表述见 note",
+   "note": "46°39′36.0″N 53°04′12.0″W（反算值；来源未给原始 DMS）"
+  },
+  {
+   "id": "grand_banks",
+   "zh": "大浅滩",
+   "orig": "Grand Banks",
+   "pos": [
+    -49.0,
+    44.5
+   ],
+   "kind": "sea",
+   "rank": 2,
+   "country": "NF",
+   "confidence": "high",
+   "sources": [
+    "hague_convoy"
+   ],
+   "dms": [
+    "49°00′00.0″W",
+    "44°30′00.0″N"
+   ],
+   "dmsNote": "由十进制坐标反算（WGS84），来源表述见 note",
+   "note": "44°30′00.0″N 49°00′00.0″W（反算值；来源未给原始 DMS）"
+  },
+  {
+   "id": "saint_lawrence",
+   "zh": "圣劳伦斯湾",
+   "orig": "Gulf of St Lawrence",
+   "pos": [
+    -63.0,
+    48.5
+   ],
+   "kind": "sea",
+   "rank": 2,
+   "country": "CA",
+   "confidence": "high",
+   "sources": [
+    "battleatlantic_1946"
+   ],
+   "dms": [
+    "63°00′00.0″W",
+    "48°30′00.0″N"
+   ],
+   "dmsNote": "由十进制坐标反算（WGS84），来源表述见 note",
+   "note": "48°30′00.0″N 63°00′00.0″W（反算值；来源未给原始 DMS）"
+  },
+  {
+   "id": "quebec",
+   "zh": "魁北克",
+   "orig": "Québec",
+   "pos": [
+    -71.21,
+    46.81
+   ],
+   "kind": "city",
+   "rank": 2,
+   "country": "CA",
+   "confidence": "medium",
+   "sources": [
+    "battleatlantic_1946"
+   ],
+   "dms": [
+    "71°12′36.0″W",
+    "46°48′36.0″N"
+   ],
+   "dmsNote": "由十进制坐标反算（WGS84），来源表述见 note",
+   "note": "46°48′36.0″N 71°12′36.0″W（反算值；来源未给原始 DMS）"
+  },
+  {
+   "id": "montreal",
+   "zh": "蒙特利尔",
+   "orig": "Montréal",
+   "pos": [
+    -73.57,
+    45.5
+   ],
+   "kind": "city",
+   "rank": 2,
+   "country": "CA",
+   "confidence": "medium",
+   "sources": [
+    "battleatlantic_1946"
+   ],
+   "dms": [
+    "73°34′12.0″W",
+    "45°30′00.0″N"
+   ],
+   "dmsNote": "由十进制坐标反算（WGS84），来源表述见 note",
+   "note": "45°30′00.0″N 73°34′12.0″W（反算值；来源未给原始 DMS）"
+  },
+  {
+   "id": "new_york",
+   "zh": "纽约",
+   "orig": "New York",
+   "pos": [
+    -74.006,
+    40.713
+   ],
+   "kind": "port",
+   "rank": 1,
+   "country": "US",
+   "confidence": "high",
+   "sources": [
+    "mori_battle_atlantic"
+   ],
+   "note": "40°43′N 74°00′W",
+   "dms": [
+    "74°00′21.6″W",
+    "40°42′46.8″N"
+   ],
+   "dmsNote": "由十进制坐标反算（WGS84），来源表述见 note"
+  },
+  {
+   "id": "hampton_roads",
+   "zh": "汉普顿锚地",
+   "orig": "Hampton Roads",
+   "pos": [
+    -76.3,
+    36.97
+   ],
+   "kind": "port",
+   "rank": 2,
+   "country": "US",
+   "confidence": "high",
+   "sources": [
+    "mori_battle_atlantic"
+   ],
+   "note": "36°58′N 76°18′W；美国沿岸船团起点",
+   "dms": [
+    "76°17′60.0″W",
+    "36°58′12.0″N"
+   ],
+   "dmsNote": "由十进制坐标反算（WGS84），来源表述见 note"
+  },
+  {
+   "id": "boston",
+   "zh": "波士顿",
+   "orig": "Boston",
+   "pos": [
+    -71.06,
+    42.36
+   ],
+   "kind": "port",
+   "rank": 2,
+   "country": "US",
+   "confidence": "high",
+   "sources": [
+    "mori_battle_atlantic"
+   ],
+   "dms": [
+    "71°03′36.0″W",
+    "42°21′36.0″N"
+   ],
+   "dmsNote": "由十进制坐标反算（WGS84），来源表述见 note",
+   "note": "42°21′36.0″N 71°03′36.0″W（反算值；来源未给原始 DMS）"
+  },
+  {
+   "id": "cape_hatteras",
+   "zh": "哈特拉斯角",
+   "orig": "Cape Hatteras",
+   "pos": [
+    -75.52,
+    35.22
+   ],
+   "kind": "region",
+   "rank": 2,
+   "country": "US",
+   "confidence": "high",
+   "sources": [
+    "gannon_1990"
+   ],
+   "note": "35°13′N 75°31′W；1942 年 U 艇猎场",
+   "dms": [
+    "75°31′12.0″W",
+    "35°13′12.0″N"
+   ],
+   "dmsNote": "由十进制坐标反算（WGS84），来源表述见 note"
+  },
+  {
+   "id": "miami",
+   "zh": "迈阿密",
+   "orig": "Miami",
+   "pos": [
+    -80.19,
+    25.76
+   ],
+   "kind": "port",
+   "rank": 3,
+   "country": "US",
+   "confidence": "medium",
+   "sources": [
+    "mori_battle_atlantic"
+   ],
+   "dms": [
+    "80°11′24.0″W",
+    "25°45′36.0″N"
+   ],
+   "dmsNote": "由十进制坐标反算（WGS84），来源表述见 note",
+   "note": "25°45′36.0″N 80°11′24.0″W（反算值；来源未给原始 DMS）"
+  },
+  {
+   "id": "key_west",
+   "zh": "基韦斯特",
+   "orig": "Key West",
+   "pos": [
+    -81.78,
+    24.555
+   ],
+   "kind": "port",
+   "rank": 3,
+   "country": "US",
+   "confidence": "high",
+   "sources": [
+    "mori_battle_atlantic"
+   ],
+   "note": "24°33′N 81°47′W；墨西哥湾船团终点",
+   "dms": [
+    "81°46′48.0″W",
+    "24°33′18.0″N"
+   ],
+   "dmsNote": "由十进制坐标反算（WGS84），来源表述见 note"
+  },
+  {
+   "id": "trinidad",
+   "zh": "特立尼达",
+   "orig": "Trinidad",
+   "pos": [
+    -61.3,
+    10.4
+   ],
+   "kind": "port",
+   "rank": 2,
+   "country": "GB",
+   "confidence": "high",
+   "sources": [
+    "roskill_1956"
+   ],
+   "dms": [
+    "61°17′60.0″W",
+    "10°24′00.0″N"
+   ],
+   "dmsNote": "由十进制坐标反算（WGS84），来源表述见 note",
+   "note": "10°24′00.0″N 61°17′60.0″W（反算值；来源未给原始 DMS）"
+  },
+  {
+   "id": "gibraltar",
+   "zh": "直布罗陀",
+   "orig": "Gibraltar",
+   "pos": [
+    -5.355,
+    36.14
+   ],
+   "kind": "fort",
+   "rank": 1,
+   "country": "GB",
+   "confidence": "high",
+   "sources": [
+    "roskill_1954"
+   ],
+   "note": "36°08′N 5°21′W",
+   "dms": [
+    "5°21′18.0″W",
+    "36°08′24.0″N"
+   ],
+   "dmsNote": "由十进制坐标反算（WGS84），来源表述见 note"
+  },
+  {
+   "id": "freetown",
+   "zh": "弗里敦",
+   "orig": "Freetown",
+   "pos": [
+    -13.23,
+    8.48
+   ],
+   "kind": "port",
+   "rank": 1,
+   "country": "GB",
+   "confidence": "high",
+   "sources": [
+    "roskill_1954"
+   ],
+   "note": "08°29′N 13°14′W",
+   "dms": [
+    "13°13′48.0″W",
+    "8°28′48.0″N"
+   ],
+   "dmsNote": "由十进制坐标反算（WGS84），来源表述见 note"
+  },
+  {
+   "id": "dakar",
+   "zh": "达喀尔",
+   "orig": "Dakar",
+   "pos": [
+    -17.45,
+    14.69
+   ],
+   "kind": "port",
+   "rank": 2,
+   "country": "FR",
+   "confidence": "high",
+   "sources": [
+    "roskill_1954"
+   ],
+   "dms": [
+    "17°26′60.0″W",
+    "14°41′24.0″N"
+   ],
+   "dmsNote": "由十进制坐标反算（WGS84），来源表述见 note",
+   "note": "14°41′24.0″N 17°26′60.0″W（反算值；来源未给原始 DMS）"
+  },
+  {
+   "id": "casablanca",
+   "zh": "卡萨布兰卡",
+   "orig": "Casablanca",
+   "pos": [
+    -7.6,
+    33.6
+   ],
+   "kind": "port",
+   "rank": 1,
+   "country": "FR",
+   "confidence": "high",
+   "sources": [
+    "mori_battle_atlantic"
+   ],
+   "note": "33°36′N 7°36′W",
+   "dms": [
+    "7°35′60.0″W",
+    "33°36′00.0″N"
+   ],
+   "dmsNote": "由十进制坐标反算（WGS84），来源表述见 note"
+  },
+  {
+   "id": "oran",
+   "zh": "奥兰",
+   "orig": "Oran",
+   "pos": [
+    -0.64,
+    35.7
+   ],
+   "kind": "port",
+   "rank": 2,
+   "country": "FR",
+   "confidence": "high",
+   "sources": [
+    "mori_battle_atlantic"
+   ],
+   "dms": [
+    "0°38′24.0″W",
+    "35°42′00.0″N"
+   ],
+   "dmsNote": "由十进制坐标反算（WGS84），来源表述见 note",
+   "note": "35°42′00.0″N 0°38′24.0″W（反算值；来源未给原始 DMS）"
+  },
+  {
+   "id": "algiers",
+   "zh": "阿尔及尔",
+   "orig": "Alger",
+   "pos": [
+    3.06,
+    36.75
+   ],
+   "kind": "port",
+   "rank": 2,
+   "country": "FR",
+   "confidence": "high",
+   "sources": [
+    "mori_battle_atlantic"
+   ],
+   "dms": [
+    "3°03′36.0″E",
+    "36°45′00.0″N"
+   ],
+   "dmsNote": "由十进制坐标反算（WGS84），来源表述见 note",
+   "note": "36°45′00.0″N 3°03′36.0″E（反算值；来源未给原始 DMS）"
+  },
+  {
+   "id": "azores",
+   "zh": "亚速尔群岛",
+   "orig": "Açores",
+   "pos": [
+    -28.0,
+    38.5
+   ],
+   "kind": "region",
+   "rank": 1,
+   "country": "PT",
+   "confidence": "high",
+   "sources": [
+    "roskill_1960"
+   ],
+   "note": "38°30′N 28°00′W；1943-10 起盟军使用机场",
+   "dms": [
+    "28°00′00.0″W",
+    "38°30′00.0″N"
+   ],
+   "dmsNote": "由十进制坐标反算（WGS84），来源表述见 note"
+  },
+  {
+   "id": "bergen",
+   "zh": "卑尔根",
+   "orig": "Bergen",
+   "pos": [
+    5.32,
+    60.39
+   ],
+   "kind": "port",
+   "rank": 1,
+   "country": "NO",
+   "confidence": "high",
+   "sources": [
+    "uboat_net"
+   ],
+   "note": "60°23′N 5°19′W；U 艇基地",
+   "dms": [
+    "5°19′12.0″E",
+    "60°23′24.0″N"
+   ],
+   "dmsNote": "由十进制坐标反算（WGS84），来源表述见 note"
+  },
+  {
+   "id": "trondheim",
+   "zh": "特隆赫姆",
+   "orig": "Trondheim",
+   "pos": [
+    10.4,
+    63.43
+   ],
+   "kind": "port",
+   "rank": 2,
+   "country": "NO",
+   "confidence": "high",
+   "sources": [
+    "uboat_net"
+   ],
+   "dms": [
+    "10°24′00.0″E",
+    "63°25′48.0″N"
+   ],
+   "dmsNote": "由十进制坐标反算（WGS84），来源表述见 note",
+   "note": "63°25′48.0″N 10°24′00.0″E（反算值；来源未给原始 DMS）"
+  },
+  {
+   "id": "narvik",
+   "zh": "纳尔维克",
+   "orig": "Narvik",
+   "pos": [
+    17.427,
+    68.438
+   ],
+   "kind": "port",
+   "rank": 2,
+   "country": "NO",
+   "confidence": "high",
+   "sources": [
+    "roskill_1954"
+   ],
+   "dms": [
+    "17°25′37.2″E",
+    "68°26′16.8″N"
+   ],
+   "dmsNote": "由十进制坐标反算（WGS84），来源表述见 note",
+   "note": "68°26′16.8″N 17°25′37.2″E（反算值；来源未给原始 DMS）"
+  },
+  {
+   "id": "tromso",
+   "zh": "特罗姆瑟",
+   "orig": "Tromsø",
+   "pos": [
+    18.96,
+    69.65
+   ],
+   "kind": "port",
+   "rank": 2,
+   "country": "NO",
+   "confidence": "medium",
+   "sources": [
+    "woodman_1994"
+   ],
+   "dms": [
+    "18°57′36.0″E",
+    "69°39′00.0″N"
+   ],
+   "dmsNote": "由十进制坐标反算（WGS84），来源表述见 note",
+   "note": "69°39′00.0″N 18°57′36.0″E（反算值；来源未给原始 DMS）"
+  },
+  {
+   "id": "altenfjord",
+   "zh": "阿尔塔峡湾",
+   "orig": "Altafjord",
+   "pos": [
+    23.0,
+    69.9
+   ],
+   "kind": "sea",
+   "rank": 2,
+   "country": "NO",
+   "confidence": "high",
+   "sources": [
+    "roskill_1956"
+   ],
+   "note": "提尔皮茨号锚地",
+   "dms": [
+    "23°00′00.0″E",
+    "69°54′00.0″N"
+   ],
+   "dmsNote": "由十进制坐标反算（WGS84），来源表述见 note"
+  },
+  {
+   "id": "north_cape",
+   "zh": "北角",
+   "orig": "Nordkapp",
+   "pos": [
+    25.78,
+    71.17
+   ],
+   "kind": "region",
+   "rank": 2,
+   "country": "NO",
+   "confidence": "high",
+   "sources": [
+    "roskill_1960"
+   ],
+   "note": "71°10′N 25°47′E",
+   "dms": [
+    "25°46′48.0″E",
+    "71°10′12.0″N"
+   ],
+   "dmsNote": "由十进制坐标反算（WGS84），来源表述见 note"
+  },
+  {
+   "id": "bear_island",
+   "zh": "熊岛",
+   "orig": "Bjørnøya",
+   "pos": [
+    19.0,
+    74.5
+   ],
+   "kind": "region",
+   "rank": 2,
+   "country": "NO",
+   "confidence": "high",
+   "sources": [
+    "woodman_1994"
+   ],
+   "dms": [
+    "19°00′00.0″E",
+    "74°30′00.0″N"
+   ],
+   "dmsNote": "由十进制坐标反算（WGS84），来源表述见 note",
+   "note": "74°30′00.0″N 19°00′00.0″E（反算值；来源未给原始 DMS）"
+  },
+  {
+   "id": "jan_mayen",
+   "zh": "扬马延",
+   "orig": "Jan Mayen",
+   "pos": [
+    -8.5,
+    71.0
+   ],
+   "kind": "region",
+   "rank": 3,
+   "country": "NO",
+   "confidence": "medium",
+   "sources": [
+    "woodman_1994"
+   ],
+   "dms": [
+    "8°30′00.0″W",
+    "71°00′00.0″N"
+   ],
+   "dmsNote": "由十进制坐标反算（WGS84），来源表述见 note",
+   "note": "71°00′00.0″N 8°30′00.0″W（反算值；来源未给原始 DMS）"
+  },
+  {
+   "id": "murmansk",
+   "zh": "摩尔曼斯克",
+   "orig": "Мурманск",
+   "pos": [
+    33.08,
+    68.97
+   ],
+   "kind": "port",
+   "rank": 1,
+   "country": "SU",
+   "confidence": "high",
+   "sources": [
+    "nh_pq17"
+   ],
+   "note": "68°58′N 33°05′E",
+   "dms": [
+    "33°04′48.0″E",
+    "68°58′12.0″N"
+   ],
+   "dmsNote": "由十进制坐标反算（WGS84），来源表述见 note"
+  },
+  {
+   "id": "polyarny",
+   "zh": "波利亚尔内",
+   "orig": "Полярный",
+   "pos": [
+    33.45,
+    69.2
+   ],
+   "kind": "port",
+   "rank": 3,
+   "country": "SU",
+   "confidence": "high",
+   "sources": [
+    "nh_pq17"
+   ],
+   "dms": [
+    "33°27′00.0″E",
+    "69°12′00.0″N"
+   ],
+   "dmsNote": "由十进制坐标反算（WGS84），来源表述见 note",
+   "note": "69°12′00.0″N 33°27′00.0″E（反算值；来源未给原始 DMS）"
+  },
+  {
+   "id": "vaenga",
+   "zh": "瓦延加",
+   "orig": "Ваенга",
+   "pos": [
+    33.42,
+    69.07
+   ],
+   "kind": "airfield",
+   "rank": 3,
+   "country": "SU",
+   "confidence": "high",
+   "sources": [
+    "woodman_1994"
+   ],
+   "note": "今北莫尔斯克；151 联队驻地",
+   "dms": [
+    "33°25′12.0″E",
+    "69°04′12.0″N"
+   ],
+   "dmsNote": "由十进制坐标反算（WGS84），来源表述见 note"
+  },
+  {
+   "id": "arkhangelsk",
+   "zh": "阿尔汉格尔斯克",
+   "orig": "Архангельск",
+   "pos": [
+    40.55,
+    64.54
+   ],
+   "kind": "port",
+   "rank": 1,
+   "country": "SU",
+   "confidence": "high",
+   "sources": [
+    "nh_pq17"
+   ],
+   "note": "64°32′N 40°33′E",
+   "dms": [
+    "40°32′60.0″E",
+    "64°32′24.0″N"
+   ],
+   "dmsNote": "由十进制坐标反算（WGS84），来源表述见 note"
+  },
+  {
+   "id": "kola_inlet",
+   "zh": "科拉湾",
+   "orig": "Кольский залив",
+   "pos": [
+    33.0,
+    69.1
+   ],
+   "kind": "sea",
+   "rank": 3,
+   "country": "SU",
+   "confidence": "high",
+   "sources": [
+    "nh_pq17"
+   ],
+   "dms": [
+    "33°00′00.0″E",
+    "69°05′60.0″N"
+   ],
+   "dmsNote": "由十进制坐标反算（WGS84），来源表述见 note",
+   "note": "69°05′60.0″N 33°00′00.0″E（反算值；来源未给原始 DMS）"
+  },
+  {
+   "id": "wilhelmshaven",
+   "zh": "威廉港",
+   "orig": "Wilhelmshaven",
+   "pos": [
+    8.15,
+    53.52
+   ],
+   "kind": "port",
+   "rank": 1,
+   "country": "DE",
+   "confidence": "high",
+   "sources": [
+    "ktb_skl"
+   ],
+   "dms": [
+    "8°09′00.0″E",
+    "53°31′12.0″N"
+   ],
+   "dmsNote": "由十进制坐标反算（WGS84），来源表述见 note",
+   "note": "53°31′12.0″N 8°09′00.0″E（反算值；来源未给原始 DMS）"
+  },
+  {
+   "id": "kiel",
+   "zh": "基尔",
+   "orig": "Kiel",
+   "pos": [
+    10.14,
+    54.32
+   ],
+   "kind": "port",
+   "rank": 1,
+   "country": "DE",
+   "confidence": "high",
+   "sources": [
+    "uboat_net"
+   ],
+   "dms": [
+    "10°08′24.0″E",
+    "54°19′12.0″N"
+   ],
+   "dmsNote": "由十进制坐标反算（WGS84），来源表述见 note",
+   "note": "54°19′12.0″N 10°08′24.0″E（反算值；来源未给原始 DMS）"
+  },
+  {
+   "id": "berlin",
+   "zh": "柏林",
+   "orig": "Berlin",
+   "pos": [
+    13.38,
+    52.52
+   ],
+   "kind": "capital",
+   "rank": 1,
+   "country": "DE",
+   "confidence": "high",
+   "sources": [
+    "ktb_skl"
+   ],
+   "dms": [
+    "13°22′48.0″E",
+    "52°31′12.0″N"
+   ],
+   "dmsNote": "由十进制坐标反算（WGS84），来源表述见 note",
+   "note": "52°31′12.0″N 13°22′48.0″E（反算值；来源未给原始 DMS）"
+  },
+  {
+   "id": "flensburg",
+   "zh": "弗伦斯堡",
+   "orig": "Flensburg",
+   "pos": [
+    9.4,
+    54.8
+   ],
+   "kind": "port",
+   "rank": 3,
+   "country": "DE",
+   "confidence": "high",
+   "sources": [
+    "uboat_net_fates"
+   ],
+   "note": "邓尼茨最后驻地",
+   "dms": [
+    "9°24′00.0″E",
+    "54°47′60.0″N"
+   ],
+   "dmsNote": "由十进制坐标反算（WGS84），来源表述见 note"
+  },
+  {
+   "id": "western_approaches",
+   "zh": "西部海口",
+   "orig": "Western Approaches",
+   "pos": [
+    -15.0,
+    50.5
+   ],
+   "kind": "sea",
+   "rank": 1,
+   "country": "—",
+   "confidence": "high",
+   "sources": [
+    "roskill_1954"
+   ],
+   "note": "英国以西的大西洋入口",
+   "dms": [
+    "15°00′00.0″W",
+    "50°30′00.0″N"
+   ],
+   "dmsNote": "由十进制坐标反算（WGS84），来源表述见 note"
+  },
+  {
+   "id": "mid_atlantic_gap",
+   "zh": "中大西洋空白区",
+   "orig": "Mid-Atlantic Gap",
+   "pos": [
+    -40.0,
+    54.0
+   ],
+   "kind": "sea",
+   "rank": 1,
+   "country": "—",
+   "confidence": "high",
+   "sources": [
+    "roskill_1956",
+    "wiki_en_midgap"
+   ],
+   "note": "岸基飞机航程之外的区域",
+   "dms": [
+    "40°00′00.0″W",
+    "54°00′00.0″N"
+   ],
+   "dmsNote": "由十进制坐标反算（WGS84），来源表述见 note"
+  },
+  {
+   "id": "denmark_strait",
+   "zh": "丹麦海峡",
+   "orig": "Denmark Strait",
+   "pos": [
+    -28.0,
+    66.5
+   ],
+   "kind": "sea",
+   "rank": 1,
+   "country": "—",
+   "confidence": "high",
+   "sources": [
+    "gazette_38038"
+   ],
+   "note": "格陵兰与冰岛之间",
+   "dms": [
+    "28°00′00.0″W",
+    "66°30′00.0″N"
+   ],
+   "dmsNote": "由十进制坐标反算（WGS84），来源表述见 note"
+  },
+  {
+   "id": "norwegian_sea",
+   "zh": "挪威海",
+   "orig": "Norwegian Sea",
+   "pos": [
+    2.0,
+    68.0
+   ],
+   "kind": "sea",
+   "rank": 2,
+   "country": "—",
+   "confidence": "high",
+   "sources": [
+    "woodman_1994"
+   ],
+   "dms": [
+    "2°00′00.0″E",
+    "68°00′00.0″N"
+   ],
+   "dmsNote": "由十进制坐标反算（WGS84），来源表述见 note",
+   "note": "68°00′00.0″N 2°00′00.0″E（反算值；来源未给原始 DMS）"
+  },
+  {
+   "id": "barents_sea",
+   "zh": "巴伦支海",
+   "orig": "Barents Sea",
+   "pos": [
+    35.0,
+    73.0
+   ],
+   "kind": "sea",
+   "rank": 2,
+   "country": "—",
+   "confidence": "high",
+   "sources": [
+    "woodman_1994"
+   ],
+   "dms": [
+    "35°00′00.0″E",
+    "73°00′00.0″N"
+   ],
+   "dmsNote": "由十进制坐标反算（WGS84），来源表述见 note",
+   "note": "73°00′00.0″N 35°00′00.0″E（反算值；来源未给原始 DMS）"
+  },
+  {
+   "id": "biscay",
+   "zh": "比斯开湾",
+   "orig": "Golfe de Gascogne",
+   "pos": [
+    -8.0,
+    45.5
+   ],
+   "kind": "sea",
+   "rank": 1,
+   "country": "—",
+   "confidence": "high",
+   "sources": [
+    "roskill_1960"
+   ],
+   "dms": [
+    "8°00′00.0″W",
+    "45°30′00.0″N"
+   ],
+   "dmsNote": "由十进制坐标反算（WGS84），来源表述见 note",
+   "note": "45°30′00.0″N 8°00′00.0″W（反算值；来源未给原始 DMS）"
+  },
+  {
+   "id": "channel",
+   "zh": "英吉利海峡",
+   "orig": "English Channel",
+   "pos": [
+    0.0,
+    50.2
+   ],
+   "kind": "sea",
+   "rank": 1,
+   "country": "—",
+   "confidence": "high",
+   "sources": [
+    "nh_normandy"
+   ],
+   "dms": [
+    "0°00′00.0″E",
+    "50°12′00.0″N"
+   ],
+   "dmsNote": "由十进制坐标反算（WGS84），来源表述见 note",
+   "note": "50°12′00.0″N 0°00′00.0″E（反算值；来源未给原始 DMS）"
+  },
+  {
+   "id": "north_sea",
+   "zh": "北海",
+   "orig": "North Sea",
+   "pos": [
+    3.0,
+    56.0
+   ],
+   "kind": "sea",
+   "rank": 2,
+   "country": "—",
+   "confidence": "high",
+   "sources": [
+    "roskill_1954"
+   ],
+   "dms": [
+    "3°00′00.0″E",
+    "56°00′00.0″N"
+   ],
+   "dmsNote": "由十进制坐标反算（WGS84），来源表述见 note",
+   "note": "56°00′00.0″N 3°00′00.0″E（反算值；来源未给原始 DMS）"
+  },
+  {
+   "id": "caribbean",
+   "zh": "加勒比海",
+   "orig": "Caribbean Sea",
+   "pos": [
+    -75.0,
+    15.0
+   ],
+   "kind": "sea",
+   "rank": 2,
+   "country": "—",
+   "confidence": "high",
+   "sources": [
+    "mori_battle_atlantic"
+   ],
+   "dms": [
+    "75°00′00.0″W",
+    "15°00′00.0″N"
+   ],
+   "dmsNote": "由十进制坐标反算（WGS84），来源表述见 note",
+   "note": "15°00′00.0″N 75°00′00.0″W（反算值；来源未给原始 DMS）"
+  },
+  {
+   "id": "gulf_of_mexico",
+   "zh": "墨西哥湾",
+   "orig": "Gulf of Mexico",
+   "pos": [
+    -90.0,
+    25.0
+   ],
+   "kind": "sea",
+   "rank": 2,
+   "country": "—",
+   "confidence": "high",
+   "sources": [
+    "mori_battle_atlantic"
+   ],
+   "dms": [
+    "90°00′00.0″W",
+    "25°00′00.0″N"
+   ],
+   "dmsNote": "由十进制坐标反算（WGS84），来源表述见 note",
+   "note": "25°00′00.0″N 90°00′00.0″W（反算值；来源未给原始 DMS）"
+  },
+  {
+   "id": "gibraltar_strait",
+   "zh": "直布罗陀海峡",
+   "orig": "Strait of Gibraltar",
+   "pos": [
+    -5.6,
+    35.95
+   ],
+   "kind": "sea",
+   "rank": 2,
+   "country": "—",
+   "confidence": "high",
+   "sources": [
+    "roskill_1954"
+   ],
+   "dms": [
+    "5°35′60.0″W",
+    "35°57′00.0″N"
+   ],
+   "dmsNote": "由十进制坐标反算（WGS84），来源表述见 note",
+   "note": "35°57′00.0″N 5°35′60.0″W（反算值；来源未给原始 DMS）"
+  },
+  {
+   "id": "labrador_sea",
+   "zh": "拉布拉多海",
+   "orig": "Labrador Sea",
+   "pos": [
+    -52.0,
+    57.0
+   ],
+   "kind": "sea",
+   "rank": 2,
+   "country": "—",
+   "confidence": "medium",
+   "sources": [
+    "roskill_1956"
+   ],
+   "dms": [
+    "52°00′00.0″W",
+    "57°00′00.0″N"
+   ],
+   "dmsNote": "由十进制坐标反算（WGS84），来源表述见 note",
+   "note": "57°00′00.0″N 52°00′00.0″W（反算值；来源未给原始 DMS）"
+  },
+  {
+   "id": "rockall",
+   "zh": "罗卡尔岩",
+   "orig": "Rockall",
+   "pos": [
+    -13.7,
+    57.6
+   ],
+   "kind": "region",
+   "rank": 3,
+   "country": "GB",
+   "confidence": "high",
+   "sources": [
+    "uboat_net"
+   ],
+   "note": "57°36′N 13°41′W；雅典娜号沉没海域附近",
+   "dms": [
+    "13°41′60.0″W",
+    "57°36′00.0″N"
+   ],
+   "dmsNote": "由十进制坐标反算（WGS84），来源表述见 note"
+  },
+  {
+   "id": "firth_of_forth",
+   "zh": "福斯湾",
+   "orig": "Firth of Forth",
+   "pos": [
+    -2.6,
+    56.05
+   ],
+   "kind": "sea",
+   "rank": 3,
+   "country": "GB",
+   "confidence": "high",
+   "sources": [
+    "nh_ship_histories"
+   ],
+   "dms": [
+    "2°36′00.0″W",
+    "56°02′60.0″N"
+   ],
+   "dmsNote": "由十进制坐标反算（WGS84），来源表述见 note",
+   "note": "56°02′60.0″N 2°36′00.0″W（反算值；来源未给原始 DMS）"
+  },
+  {
+   "id": "holm_sound",
+   "zh": "霍尔姆海峡",
+   "orig": "Holm Sound",
+   "pos": [
+    -2.9,
+    58.88
+   ],
+   "kind": "sea",
+   "rank": 4,
+   "country": "GB",
+   "confidence": "high",
+   "sources": [
+    "oni_prien_u47"
+   ],
+   "dms": [
+    "2°53′60.0″W",
+    "58°52′48.0″N"
+   ],
+   "dmsNote": "由十进制坐标反算（WGS84），来源表述见 note",
+   "note": "58°52′48.0″N 2°53′60.0″W（反算值；来源未给原始 DMS）"
+  },
+  {
+   "id": "medan",
+   "zh": "梅岛",
+   "orig": "Isle of May",
+   "pos": [
+    -2.55,
+    56.18
+   ],
+   "kind": "region",
+   "rank": 4,
+   "country": "GB",
+   "confidence": "medium",
+   "sources": [
+    "uboat_net"
+   ],
+   "dms": [
+    "2°32′60.0″W",
+    "56°10′48.0″N"
+   ],
+   "dmsNote": "由十进制坐标反算（WGS84），来源表述见 note",
+   "note": "56°10′48.0″N 2°32′60.0″W（反算值；来源未给原始 DMS）"
+  },
+  {
+   "id": "arromanches",
+   "zh": "阿罗芒什",
+   "orig": "Arromanches",
+   "pos": [
+    -0.62,
+    49.34
+   ],
+   "kind": "port",
+   "rank": 4,
+   "country": "FR",
+   "confidence": "high",
+   "sources": [
+    "nh_normandy"
+   ],
+   "dms": [
+    "0°37′12.0″W",
+    "49°20′24.0″N"
+   ],
+   "dmsNote": "由十进制坐标反算（WGS84），来源表述见 note",
+   "note": "49°20′24.0″N 0°37′12.0″W（反算值；来源未给原始 DMS）"
+  },
+  {
+   "id": "cape_finisterre",
+   "zh": "菲尼斯特雷角",
+   "orig": "Cabo Finisterre",
+   "pos": [
+    -9.27,
+    42.88
+   ],
+   "kind": "region",
+   "rank": 3,
+   "country": "ES",
+   "confidence": "medium",
+   "sources": [
+    "roskill_1954"
+   ],
+   "dms": [
+    "9°16′12.0″W",
+    "42°52′48.0″N"
+   ],
+   "dmsNote": "由十进制坐标反算（WGS84），来源表述见 note",
+   "note": "42°52′48.0″N 9°16′12.0″W（反算值；来源未给原始 DMS）"
+  }
+ ],
+ "fronts": [
+  {
+   "at": "1939-09-03T00:00",
+   "control": {
+    "raider": [
+     [
+      [
+       [
+        -45,
+        45
+       ],
+       [
+        -5,
+        45
+       ],
+       [
+        -5,
+        62
+       ],
+       [
+        -45,
+        62
+       ]
+      ]
+     ],
+     [
+      [
+       [
+        -30,
+        60
+       ],
+       [
+        5,
+        60
+       ],
+       [
+        5,
+        70
+       ],
+       [
+        -30,
+        70
+       ]
+      ]
+     ]
+    ],
+    "convoy": [
+     [
+      [
+       [
+        -25,
+        45
+       ],
+       [
+        -5,
+        45
+       ],
+       [
+        -5,
+        60
+       ],
+       [
+        -25,
+        60
+       ]
+      ]
+     ],
+     [
+      [
+       [
+        -70,
+        38
+       ],
+       [
+        -55,
+        38
+       ],
+       [
+        -55,
+        48
+       ],
+       [
+        -70,
+        48
+       ]
+      ]
+     ]
+    ]
+   },
+   "note": "开战：德国袭击舰已出海，英国船团制尚未铺开，护航限于本土与北美岸边。",
+   "sources": [
+    "roskill_1954",
+    "battleatlantic_1946"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "at": "1939-11-15T00:00",
+   "control": {
+    "raider": [
+     [
+      [
+       [
+        -40,
+        40
+       ],
+       [
+        0,
+        40
+       ],
+       [
+        0,
+        62
+       ],
+       [
+        -40,
+        62
+       ]
+      ]
+     ],
+     [
+      [
+       [
+        -45,
+        5
+       ],
+       [
+        20,
+        5
+       ],
+       [
+        20,
+        35
+       ],
+       [
+        -45,
+        35
+       ]
+      ]
+     ]
+    ],
+    "convoy": [
+     [
+      [
+       [
+        -30,
+        45
+       ],
+       [
+        -5,
+        45
+       ],
+       [
+        -5,
+        60
+       ],
+       [
+        -30,
+        60
+       ]
+      ]
+     ],
+     [
+      [
+       [
+        -70,
+        35
+       ],
+       [
+        -50,
+        35
+       ],
+       [
+        -50,
+        50
+       ],
+       [
+        -70,
+        50
+       ]
+      ]
+     ],
+     [
+      [
+       [
+        -25,
+        -5
+       ],
+       [
+        0,
+        -5
+       ],
+       [
+        0,
+        20
+       ],
+       [
+        -25,
+        20
+       ]
+      ]
+     ]
+    ]
+   },
+   "note": "施佩伯爵号在南大西洋，拉瓦尔品第号事件后英国扩大巡洋舰巡逻圈。",
+   "sources": [
+    "roskill_1954",
+    "battleatlantic_1946"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "at": "1940-06-25T00:00",
+   "control": {
+    "raider": [
+     [
+      [
+       [
+        -35,
+        42
+       ],
+       [
+        -2,
+        42
+       ],
+       [
+        -2,
+        60
+       ],
+       [
+        -35,
+        60
+       ]
+      ]
+     ],
+     [
+      [
+       [
+        -20,
+        30
+       ],
+       [
+        -8,
+        30
+       ],
+       [
+        -8,
+        45
+       ],
+       [
+        -20,
+        45
+       ]
+      ]
+     ]
+    ],
+    "convoy": [
+     [
+      [
+       [
+        -30,
+        42
+       ],
+       [
+        -6,
+        42
+       ],
+       [
+        -6,
+        60
+       ],
+       [
+        -30,
+        60
+       ]
+      ]
+     ],
+     [
+      [
+       [
+        -55,
+        40
+       ],
+       [
+        -35,
+        40
+       ],
+       [
+        -35,
+        55
+       ],
+       [
+        -55,
+        55
+       ]
+      ]
+     ],
+     [
+      [
+       [
+        -72,
+        35
+       ],
+       [
+        -55,
+        35
+       ],
+       [
+        -55,
+        48
+       ],
+       [
+        -72,
+        48
+       ]
+      ]
+     ]
+    ]
+   },
+   "note": "法国停战：U 艇基地前移到比斯开湾，出航距离骤减。",
+   "sources": [
+    "roskill_1954",
+    "battleatlantic_1946"
+   ],
+   "confidence": "high"
+  },
+  {
+   "at": "1940-10-19T00:00",
+   "control": {
+    "raider": [
+     [
+      [
+       [
+        -25,
+        50
+       ],
+       [
+        -5,
+        50
+       ],
+       [
+        -5,
+        62
+       ],
+       [
+        -25,
+        62
+       ]
+      ]
+     ]
+    ],
+    "convoy": [
+     [
+      [
+       [
+        -22,
+        48
+       ],
+       [
+        -6,
+        48
+       ],
+       [
+        -6,
+        60
+       ],
+       [
+        -22,
+        60
+       ]
+      ]
+     ],
+     [
+      [
+       [
+        -50,
+        42
+       ],
+       [
+        -30,
+        42
+       ],
+       [
+        -30,
+        55
+       ],
+       [
+        -50,
+        55
+       ]
+      ]
+     ],
+     [
+      [
+       [
+        -72,
+        35
+       ],
+       [
+        -55,
+        35
+       ],
+       [
+        -55,
+        48
+       ],
+       [
+        -72,
+        48
+       ]
+      ]
+     ]
+    ]
+   },
+   "note": "苏格兰以西与爱尔兰以西成为狼群集中区；SC 7 与 HX 79 在此被击溃。",
+   "sources": [
+    "roskill_1954",
+    "battleatlantic_1946"
+   ],
+   "confidence": "high"
+  },
+  {
+   "at": "1941-01-01T00:00",
+   "control": {
+    "raider": [
+     [
+      [
+       [
+        -35,
+        40
+       ],
+       [
+        -3,
+        40
+       ],
+       [
+        -3,
+        62
+       ],
+       [
+        -35,
+        62
+       ]
+      ]
+     ],
+     [
+      [
+       [
+        -40,
+        10
+       ],
+       [
+        15,
+        10
+       ],
+       [
+        15,
+        40
+       ],
+       [
+        -40,
+        40
+       ]
+      ]
+     ]
+    ],
+    "convoy": [
+     [
+      [
+       [
+        -35,
+        42
+       ],
+       [
+        -6,
+        42
+       ],
+       [
+        -6,
+        60
+       ],
+       [
+        -35,
+        60
+       ]
+      ]
+     ],
+     [
+      [
+       [
+        -60,
+        38
+       ],
+       [
+        -35,
+        38
+       ],
+       [
+        -35,
+        55
+       ],
+       [
+        -60,
+        55
+       ]
+      ]
+     ],
+     [
+      [
+       [
+        -72,
+        32
+       ],
+       [
+        -55,
+        32
+       ],
+       [
+        -55,
+        48
+       ],
+       [
+        -72,
+        48
+       ]
+      ]
+     ]
+    ]
+   },
+   "note": "1940 年底：狼群在西部海口，舍尔号在南大西洋与印度洋。",
+   "sources": [
+    "roskill_1954",
+    "battleatlantic_1946"
+   ],
+   "confidence": "high"
+  },
+  {
+   "at": "1941-03-20T00:00",
+   "control": {
+    "raider": [
+     [
+      [
+       [
+        -30,
+        48
+       ],
+       [
+        -5,
+        48
+       ],
+       [
+        -5,
+        62
+       ],
+       [
+        -30,
+        62
+       ]
+      ]
+     ]
+    ],
+    "convoy": [
+     [
+      [
+       [
+        -28,
+        45
+       ],
+       [
+        -6,
+        45
+       ],
+       [
+        -6,
+        60
+       ],
+       [
+        -28,
+        60
+       ]
+      ]
+     ],
+     [
+      [
+       [
+        -55,
+        40
+       ],
+       [
+        -32,
+        40
+       ],
+       [
+        -32,
+        55
+       ],
+       [
+        -55,
+        55
+       ]
+      ]
+     ]
+    ]
+   },
+   "note": "HX 112 之后狼群西移，护航群开始常设化。",
+   "sources": [
+    "roskill_1954",
+    "battleatlantic_1946"
+   ],
+   "confidence": "high"
+  },
+  {
+   "at": "1941-07-01T00:00",
+   "control": {
+    "raider": [
+     [
+      [
+       [
+        -32,
+        45
+       ],
+       [
+        -5,
+        45
+       ],
+       [
+        -5,
+        62
+       ],
+       [
+        -32,
+        62
+       ]
+      ]
+     ]
+    ],
+    "convoy": [
+     [
+      [
+       [
+        -55,
+        40
+       ],
+       [
+        -6,
+        40
+       ],
+       [
+        -6,
+        62
+       ],
+       [
+        -55,
+        62
+       ]
+      ]
+     ],
+     [
+      [
+       [
+        -72,
+        35
+       ],
+       [
+        -55,
+        35
+       ],
+       [
+        -55,
+        48
+       ],
+       [
+        -72,
+        48
+       ]
+      ]
+     ]
+    ]
+   },
+   "note": "纽芬兰护航部队成立，冰岛—纽芬兰—英国连成一线。",
+   "sources": [
+    "roskill_1954",
+    "battleatlantic_1946"
+   ],
+   "confidence": "high"
+  },
+  {
+   "at": "1942-01-20T00:00",
+   "control": {
+    "raider": [
+     [
+      [
+       [
+        -78,
+        33
+       ],
+       [
+        -65,
+        33
+       ],
+       [
+        -65,
+        45
+       ],
+       [
+        -78,
+        45
+       ]
+      ]
+     ],
+     [
+      [
+       [
+        -32,
+        45
+       ],
+       [
+        -5,
+        45
+       ],
+       [
+        -5,
+        62
+       ],
+       [
+        -32,
+        62
+       ]
+      ]
+     ]
+    ],
+    "convoy": [
+     [
+      [
+       [
+        -55,
+        40
+       ],
+       [
+        -6,
+        40
+       ],
+       [
+        -6,
+        62
+       ],
+       [
+        -55,
+        62
+       ]
+      ]
+     ],
+     [
+      [
+       [
+        -76,
+        34
+       ],
+       [
+        -66,
+        34
+       ],
+       [
+        -66,
+        44
+       ],
+       [
+        -76,
+        44
+       ]
+      ]
+     ]
+    ]
+   },
+   "note": "鼓点行动：U 艇进入美国东岸，北美沿岸首次出现密集猎场。",
+   "sources": [
+    "roskill_1954",
+    "battleatlantic_1946"
+   ],
+   "confidence": "high"
+  },
+  {
+   "at": "1942-05-20T00:00",
+   "control": {
+    "raider": [
+     [
+      [
+       [
+        -95,
+        18
+       ],
+       [
+        -60,
+        18
+       ],
+       [
+        -60,
+        42
+       ],
+       [
+        -95,
+        42
+       ]
+      ]
+     ]
+    ],
+    "convoy": [
+     [
+      [
+       [
+        -90,
+        22
+       ],
+       [
+        -60,
+        22
+       ],
+       [
+        -60,
+        40
+       ],
+       [
+        -90,
+        40
+       ]
+      ]
+     ],
+     [
+      [
+       [
+        -55,
+        40
+       ],
+       [
+        -6,
+        40
+       ],
+       [
+        -6,
+        62
+       ],
+       [
+        -55,
+        62
+       ]
+      ]
+     ]
+    ]
+   },
+   "note": "加勒比与墨西哥湾成为主猎场；美国沿岸船团刚起步。",
+   "sources": [
+    "roskill_1954",
+    "battleatlantic_1946"
+   ],
+   "confidence": "high"
+  },
+  {
+   "at": "1942-07-10T00:00",
+   "control": {
+    "raider": [
+     [
+      [
+       [
+        -45,
+        40
+       ],
+       [
+        -5,
+        40
+       ],
+       [
+        -5,
+        62
+       ],
+       [
+        -45,
+        62
+       ]
+      ]
+     ],
+     [
+      [
+       [
+        5,
+        68
+       ],
+       [
+        35,
+        68
+       ],
+       [
+        35,
+        78
+       ],
+       [
+        5,
+        78
+       ]
+      ]
+     ],
+     [
+      [
+       [
+        -95,
+        18
+       ],
+       [
+        -60,
+        18
+       ],
+       [
+        -60,
+        42
+       ],
+       [
+        -95,
+        42
+       ]
+      ]
+     ]
+    ],
+    "convoy": [
+     [
+      [
+       [
+        -55,
+        40
+       ],
+       [
+        -6,
+        40
+       ],
+       [
+        -6,
+        62
+       ],
+       [
+        -55,
+        62
+       ]
+      ]
+     ],
+     [
+      [
+       [
+        -20,
+        62
+       ],
+       [
+        35,
+        62
+       ],
+       [
+        35,
+        78
+       ],
+       [
+        -20,
+        78
+       ]
+      ]
+     ]
+    ]
+   },
+   "note": "北极航线开通；PQ 17 在挪威以北被解散后遭猎杀。",
+   "sources": [
+    "roskill_1954",
+    "battleatlantic_1946"
+   ],
+   "confidence": "high"
+  },
+  {
+   "at": "1942-11-05T00:00",
+   "control": {
+    "raider": [
+     [
+      [
+       [
+        -45,
+        35
+       ],
+       [
+        -5,
+        35
+       ],
+       [
+        -5,
+        60
+       ],
+       [
+        -45,
+        60
+       ]
+      ]
+     ],
+     [
+      [
+       [
+        -20,
+        25
+       ],
+       [
+        -5,
+        25
+       ],
+       [
+        -5,
+        45
+       ],
+       [
+        -20,
+        45
+       ]
+      ]
+     ]
+    ],
+    "convoy": [
+     [
+      [
+       [
+        -55,
+        40
+       ],
+       [
+        -6,
+        40
+       ],
+       [
+        -6,
+        62
+       ],
+       [
+        -55,
+        62
+       ]
+      ]
+     ],
+     [
+      [
+       [
+        -20,
+        28
+       ],
+       [
+        -5,
+        28
+       ],
+       [
+        -5,
+        45
+       ],
+       [
+        -20,
+        45
+       ]
+      ]
+     ]
+    ]
+   },
+   "note": "火炬行动前夜：U 艇向直布罗陀与摩洛哥集中，北大西洋压力暂缓。",
+   "sources": [
+    "roskill_1954",
+    "battleatlantic_1946"
+   ],
+   "confidence": "high"
+  },
+  {
+   "at": "1943-03-16T00:00",
+   "control": {
+    "raider": [
+     [
+      [
+       [
+        -48,
+        48
+       ],
+       [
+        -25,
+        48
+       ],
+       [
+        -25,
+        62
+       ],
+       [
+        -48,
+        62
+       ]
+      ]
+     ]
+    ],
+    "convoy": [
+     [
+      [
+       [
+        -55,
+        42
+       ],
+       [
+        -6,
+        42
+       ],
+       [
+        -6,
+        62
+       ],
+       [
+        -55,
+        62
+       ]
+      ]
+     ]
+    ]
+   },
+   "note": "中大西洋空白区：狼群与船团的主战场，岸基飞机无法覆盖。",
+   "sources": [
+    "roskill_1954",
+    "battleatlantic_1946"
+   ],
+   "confidence": "high"
+  },
+  {
+   "at": "1943-05-24T00:00",
+   "control": {
+    "raider": [
+     [
+      [
+       [
+        -48,
+        45
+       ],
+       [
+        -20,
+        45
+       ],
+       [
+        -20,
+        62
+       ],
+       [
+        -48,
+        62
+       ]
+      ]
+     ],
+     [
+      [
+       [
+        -15,
+        43
+       ],
+       [
+        -3,
+        43
+       ],
+       [
+        -3,
+        50
+       ],
+       [
+        -15,
+        50
+       ]
+      ]
+     ]
+    ],
+    "convoy": [
+     [
+      [
+       [
+        -58,
+        40
+       ],
+       [
+        -6,
+        40
+       ],
+       [
+        -6,
+        64
+       ],
+       [
+        -58,
+        64
+       ]
+      ]
+     ],
+     [
+      [
+       [
+        -15,
+        42
+       ],
+       [
+        -3,
+        42
+       ],
+       [
+        -3,
+        52
+       ],
+       [
+        -15,
+        52
+       ]
+      ]
+     ]
+    ]
+   },
+   "note": "1943 年 5 月：护航航母与支援群闭合空白区，U 艇撤出北大西洋。",
+   "sources": [
+    "roskill_1954",
+    "battleatlantic_1946"
+   ],
+   "confidence": "high"
+  },
+  {
+   "at": "1943-09-20T00:00",
+   "control": {
+    "raider": [
+     [
+      [
+       [
+        -42,
+        52
+       ],
+       [
+        -20,
+        52
+       ],
+       [
+        -20,
+        62
+       ],
+       [
+        -42,
+        62
+       ]
+      ]
+     ]
+    ],
+    "convoy": [
+     [
+      [
+       [
+        -58,
+        40
+       ],
+       [
+        -6,
+        40
+       ],
+       [
+        -6,
+        64
+       ],
+       [
+        -58,
+        64
+       ]
+      ]
+     ],
+     [
+      [
+       [
+        -30,
+        45
+       ],
+       [
+        -5,
+        45
+       ],
+       [
+        -5,
+        60
+       ],
+       [
+        -30,
+        60
+       ]
+      ]
+     ]
+    ]
+   },
+   "note": "莱特恩狼群短暂反扑，随后被支援群击退。",
+   "sources": [
+    "roskill_1954",
+    "battleatlantic_1946"
+   ],
+   "confidence": "high"
+  },
+  {
+   "at": "1944-03-01T00:00",
+   "control": {
+    "raider": [
+     [
+      [
+       [
+        -15,
+        43
+       ],
+       [
+        -2,
+        43
+       ],
+       [
+        -2,
+        52
+       ],
+       [
+        -15,
+        52
+       ]
+      ]
+     ],
+     [
+      [
+       [
+        0,
+        58
+       ],
+       [
+        15,
+        58
+       ],
+       [
+        15,
+        70
+       ],
+       [
+        0,
+        70
+       ]
+      ]
+     ]
+    ],
+    "convoy": [
+     [
+      [
+       [
+        -20,
+        43
+       ],
+       [
+        -2,
+        43
+       ],
+       [
+        -2,
+        55
+       ],
+       [
+        -20,
+        55
+       ]
+      ]
+     ],
+     [
+      [
+       [
+        -45,
+        50
+       ],
+       [
+        -15,
+        50
+       ],
+       [
+        -15,
+        62
+       ],
+       [
+        -45,
+        62
+       ]
+      ]
+     ]
+    ]
+   },
+   "note": "1944 年春：比斯开湾成为 U 艇出入的死亡走廊，通气管艇转往挪威。",
+   "sources": [
+    "roskill_1954",
+    "battleatlantic_1946"
+   ],
+   "confidence": "high"
+  },
+  {
+   "at": "1944-06-06T00:00",
+   "control": {
+    "raider": [
+     [
+      [
+       [
+        -12,
+        47
+       ],
+       [
+        -2,
+        47
+       ],
+       [
+        -2,
+        52
+       ],
+       [
+        -12,
+        52
+       ]
+      ]
+     ],
+     [
+      [
+       [
+        0,
+        57
+       ],
+       [
+        15,
+        57
+       ],
+       [
+        15,
+        70
+       ],
+       [
+        0,
+        70
+       ]
+      ]
+     ]
+    ],
+    "convoy": [
+     [
+      [
+       [
+        -10,
+        48
+       ],
+       [
+        2,
+        48
+       ],
+       [
+        2,
+        52
+       ],
+       [
+        -10,
+        52
+       ]
+      ]
+     ],
+     [
+      [
+       [
+        -25,
+        49
+       ],
+       [
+        -5,
+        49
+       ],
+       [
+        -5,
+        58
+       ],
+       [
+        -25,
+        58
+       ]
+      ]
+     ]
+    ]
+   },
+   "note": "诺曼底登陆：海峡与比斯开湾被严密封锁，U 艇只能从挪威远道而来。",
+   "sources": [
+    "roskill_1954",
+    "battleatlantic_1946"
+   ],
+   "confidence": "high"
+  },
+  {
+   "at": "1944-09-01T00:00",
+   "control": {
+    "raider": [
+     [
+      [
+       [
+        -5,
+        55
+       ],
+       [
+        12,
+        55
+       ],
+       [
+        12,
+        70
+       ],
+       [
+        -5,
+        70
+       ]
+      ]
+     ]
+    ],
+    "convoy": [
+     [
+      [
+       [
+        -12,
+        50
+       ],
+       [
+        3,
+        50
+       ],
+       [
+        3,
+        60
+       ],
+       [
+        -12,
+        60
+       ]
+      ]
+     ],
+     [
+      [
+       [
+        -30,
+        52
+       ],
+       [
+        -5,
+        52
+       ],
+       [
+        -5,
+        62
+       ],
+       [
+        -30,
+        62
+       ]
+      ]
+     ]
+    ]
+   },
+   "note": "法国基地失守：U 艇只能从挪威与德国北部出航。",
+   "sources": [
+    "roskill_1954",
+    "battleatlantic_1946"
+   ],
+   "confidence": "high"
+  },
+  {
+   "at": "1945-05-08T00:00",
+   "control": {
+    "raider": [
+     [
+      [
+       [
+        -3,
+        54
+       ],
+       [
+        12,
+        54
+       ],
+       [
+        12,
+        68
+       ],
+       [
+        -3,
+        68
+       ]
+      ]
+     ]
+    ],
+    "convoy": [
+     [
+      [
+       [
+        -10,
+        50
+       ],
+       [
+        2,
+        50
+       ],
+       [
+        2,
+        60
+       ],
+       [
+        -10,
+        60
+       ]
+      ]
+     ]
+    ]
+   },
+   "note": "1945 年 5 月：U 艇停战与自沉，北大西洋航线恢复自由通行。",
+   "sources": [
+    "roskill_1954",
+    "battleatlantic_1946"
+   ],
+   "confidence": "high"
+  }
+ ],
+ "units": [
+  {
+   "id": "de.bismarck",
+   "side": "DE",
+   "echelon": "ship",
+   "type": "naval",
+   "parent": null,
+   "name": {
+    "zh": "俾斯麦号战列舰",
+    "orig": "Bismarck",
+    "short": "Bismarck"
+   },
+   "model": "navy_token",
+   "ship": {
+    "kind": "battleship",
+    "class": {
+     "zh": "俾斯麦级",
+     "orig": "Bismarck-Klasse"
+    },
+    "lengthM": 251.0,
+    "beamM": 36.0,
+    "tonnage": 41700,
+    "tonnageKind": "std",
+    "maxKn": 30.1,
+    "crew": 2200,
+    "silhouette": "battleship"
+   },
+   "track": [
+    {
+     "at": "1941-05-19T18:00",
+     "pos": [
+      18.47,
+      54.52
+     ],
+     "status": "active"
+    },
+    {
+     "at": "1941-05-20T12:00",
+     "pos": [
+      12.0,
+      56.5
+     ],
+     "status": "active",
+     "course": 301,
+     "speedKn": 13.9
+    },
+    {
+     "at": "1941-05-21T12:00",
+     "pos": [
+      5.32,
+      60.39
+     ],
+     "status": "active",
+     "course": 321,
+     "speedKn": 13.1
+    },
+    {
+     "at": "1941-05-22T06:00",
+     "pos": [
+      2.0,
+      64.0
+     ],
+     "status": "active",
+     "course": 338,
+     "speedKn": 13.1
+    },
+    {
+     "at": "1941-05-23T12:00",
+     "pos": [
+      -15.0,
+      68.0
+     ],
+     "status": "active",
+     "course": 308,
+     "speedKn": 15.9
+    },
+    {
+     "at": "1941-05-24T05:52",
+     "pos": [
+      -28.0,
+      66.5
+     ],
+     "status": "engaged",
+     "course": 259,
+     "speedKn": 17.6
+    },
+    {
+     "at": "1941-05-25T12:00",
+     "pos": [
+      -30.0,
+      58.0
+     ],
+     "status": "active",
+     "course": 187,
+     "speedKn": 17.0
+    },
+    {
+     "at": "1941-05-26T12:00",
+     "pos": [
+      -22.0,
+      52.0
+     ],
+     "status": "active",
+     "course": 139,
+     "speedKn": 18.9
+    },
+    {
+     "at": "1941-05-27T08:47",
+     "pos": [
+      -16.2,
+      48.5
+     ],
+     "status": "engaged",
+     "course": 131,
+     "speedKn": 14.7
+    },
+    {
+     "at": "1941-05-27T10:39",
+     "pos": [
+      -16.15,
+      48.48
+     ],
+     "status": "destroyed",
+     "course": 121,
+     "speedKn": 1.2
+    }
+   ],
+   "history": "1941 年 5 月莱茵演习。丹麦海峡击沉胡德号，三日后被本土舰队围歼于布雷斯特以西，自沉与战沉并存。",
+   "sources": [
+    "roskill_1954",
+    "gazette_38038",
+    "nh_ship_histories"
+   ],
+   "confidence": "high",
+   "note": null
+  },
+  {
+   "id": "de.scharnhorst",
+   "side": "DE",
+   "echelon": "ship",
+   "type": "naval",
+   "parent": null,
+   "name": {
+    "zh": "沙恩霍斯特号战列巡洋舰",
+    "orig": "Scharnhorst",
+    "short": "Scharnhorst"
+   },
+   "model": "navy_token",
+   "ship": {
+    "kind": "battlecruiser",
+    "class": {
+     "zh": "沙恩霍斯特级",
+     "orig": "Scharnhorst-Klasse"
+    },
+    "lengthM": 234.9,
+    "beamM": 30.0,
+    "tonnage": 32100,
+    "tonnageKind": "std",
+    "maxKn": 31.5,
+    "crew": 1968,
+    "silhouette": "battlecruiser"
+   },
+   "track": [
+    {
+     "at": "1939-11-21T18:00",
+     "pos": [
+      8.15,
+      53.52
+     ],
+     "status": "active"
+    },
+    {
+     "at": "1939-11-23T16:07",
+     "pos": [
+      -3.5,
+      63.0
+     ],
+     "status": "engaged",
+     "course": 332,
+     "speedKn": 14.6
+    },
+    {
+     "at": "1939-11-26T12:00",
+     "pos": [
+      5.0,
+      62.0
+     ],
+     "status": "active",
+     "course": 100,
+     "speedKn": 3.6
+    },
+    {
+     "at": "1939-11-27T12:00",
+     "pos": [
+      8.15,
+      53.52
+     ],
+     "status": "active",
+     "course": 167,
+     "speedKn": 21.6
+    },
+    {
+     "at": "1943-12-25T19:00",
+     "pos": [
+      23.0,
+      69.9
+     ],
+     "status": "active",
+     "course": 17,
+     "speedKn": 0.0
+    },
+    {
+     "at": "1943-12-26T09:00",
+     "pos": [
+      22.0,
+      72.0
+     ],
+     "status": "engaged",
+     "course": 352,
+     "speedKn": 9.1
+    },
+    {
+     "at": "1943-12-26T18:45",
+     "pos": [
+      25.5,
+      72.5
+     ],
+     "status": "engaged",
+     "course": 63,
+     "speedKn": 7.3
+    },
+    {
+     "at": "1943-12-26T19:45",
+     "pos": [
+      25.6,
+      72.55
+     ],
+     "status": "destroyed",
+     "course": 31,
+     "speedKn": 3.5
+    }
+   ],
+   "history": "1939 年 11 月击沉拉瓦尔品第号；1943 年 12 月 26 日北角海战被约克公爵号编队击沉，1968 人中 36 人生还。",
+   "sources": [
+    "roskill_1954",
+    "roskill_1960",
+    "nh_ship_histories"
+   ],
+   "confidence": "high",
+   "note": null
+  },
+  {
+   "id": "de.admiral_scheer",
+   "side": "DE",
+   "echelon": "ship",
+   "type": "naval",
+   "parent": null,
+   "name": {
+    "zh": "舍尔海军上将号装甲舰",
+    "orig": "Admiral Scheer",
+    "short": "Scheer"
+   },
+   "model": "navy_token",
+   "ship": {
+    "kind": "pocket_battleship",
+    "class": {
+     "zh": "德意志级",
+     "orig": "Deutschland-Klasse"
+    },
+    "lengthM": 186.0,
+    "beamM": 21.3,
+    "tonnage": 13660,
+    "tonnageKind": "std",
+    "maxKn": 28.3,
+    "crew": 1040,
+    "silhouette": "graf_spee"
+   },
+   "track": [
+    {
+     "at": "1940-10-27T12:00",
+     "pos": [
+      8.15,
+      53.52
+     ],
+     "status": "active"
+    },
+    {
+     "at": "1940-10-31T21:00",
+     "pos": [
+      -25.0,
+      66.5
+     ],
+     "status": "active",
+     "course": 322,
+     "speedKn": 11.8
+    },
+    {
+     "at": "1940-11-05T09:40",
+     "pos": [
+      -32.5,
+      52.5
+     ],
+     "status": "engaged",
+     "course": 199,
+     "speedKn": 8.0
+    },
+    {
+     "at": "1941-02-14T12:00",
+     "pos": [
+      40.0,
+      -10.5
+     ],
+     "status": "active",
+     "course": 110,
+     "speedKn": 2.2
+    },
+    {
+     "at": "1941-03-30T12:00",
+     "pos": [
+      10.0,
+      55.0
+     ],
+     "status": "active",
+     "course": 342,
+     "speedKn": 4.0
+    },
+    {
+     "at": "1941-04-03T12:00",
+     "pos": [
+      13.5,
+      54.3
+     ],
+     "status": "active",
+     "course": 108,
+     "speedKn": 1.3
+    }
+   ],
+   "history": "1940-10-31 穿丹麦海峡，HX 84 一役击沉 5 艘；整役 113,223 GRT，为二战战果最大的水面袭击舰。1941-04 返基尔。",
+   "sources": [
+    "roskill_1954",
+    "ktb_skl"
+   ],
+   "confidence": "medium",
+   "note": null
+  },
+  {
+   "id": "de.admiral_hipper",
+   "side": "DE",
+   "echelon": "ship",
+   "type": "naval",
+   "parent": null,
+   "name": {
+    "zh": "希佩尔海军上将号重巡洋舰",
+    "orig": "Admiral Hipper",
+    "short": "Hipper"
+   },
+   "model": "navy_token",
+   "ship": {
+    "kind": "heavy_cruiser",
+    "class": {
+     "zh": "希佩尔海军上将级",
+     "orig": "Admiral-Hipper-Klasse"
+    },
+    "lengthM": 210.0,
+    "beamM": 21.8,
+    "tonnage": 14050,
+    "tonnageKind": "std",
+    "maxKn": 32.5,
+    "crew": 1600,
+    "silhouette": "county"
+   },
+   "track": [
+    {
+     "at": "1940-11-30T12:00",
+     "pos": [
+      9.9,
+      53.55
+     ],
+     "status": "active"
+    },
+    {
+     "at": "1940-12-25T09:00",
+     "pos": [
+      -21.0,
+      43.0
+     ],
+     "status": "engaged",
+     "course": 255,
+     "speedKn": 2.3
+    },
+    {
+     "at": "1941-01-10T12:00",
+     "pos": [
+      -3.0,
+      48.5
+     ],
+     "status": "active",
+     "course": 60,
+     "speedKn": 2.1
+    },
+    {
+     "at": "1941-02-12T08:00",
+     "pos": [
+      -21.0,
+      43.0
+     ],
+     "status": "engaged",
+     "course": 253,
+     "speedKn": 1.0
+    },
+    {
+     "at": "1941-02-14T12:00",
+     "pos": [
+      -5.0,
+      42.0
+     ],
+     "status": "active",
+     "course": 89,
+     "speedKn": 13.6
+    }
+   ],
+   "history": "1940-12-25 攻击 WS 5A 被击退；1941-02-12 击沉 SLS 64 七艘。此后调往挪威。",
+   "sources": [
+    "roskill_1954",
+    "ktb_skl"
+   ],
+   "confidence": "medium",
+   "note": null
+  },
+  {
+   "id": "de.graf_spee",
+   "side": "DE",
+   "echelon": "ship",
+   "type": "naval",
+   "parent": null,
+   "name": {
+    "zh": "施佩伯爵海军上将号装甲舰",
+    "orig": "Admiral Graf Spee",
+    "short": "Graf Spee"
+   },
+   "model": "navy_token",
+   "ship": {
+    "kind": "pocket_battleship",
+    "class": {
+     "zh": "德意志级",
+     "orig": "Deutschland-Klasse"
+    },
+    "lengthM": 186.0,
+    "beamM": 21.65,
+    "tonnage": 12340,
+    "tonnageKind": "std",
+    "maxKn": 28.5,
+    "crew": 1150,
+    "silhouette": "graf_spee"
+   },
+   "track": [
+    {
+     "at": "1939-09-03T00:00",
+     "pos": [
+      7.5,
+      55.0
+     ],
+     "status": "active"
+    },
+    {
+     "at": "1939-09-30T12:00",
+     "pos": [
+      -35.0,
+      -8.0
+     ],
+     "status": "engaged",
+     "course": 225,
+     "speedKn": 6.6
+    },
+    {
+     "at": "1939-11-15T12:00",
+     "pos": [
+      -30.0,
+      -10.5
+     ],
+     "status": "active",
+     "course": 117,
+     "speedKn": 0.3
+    },
+    {
+     "at": "1939-12-17T20:44",
+     "pos": [
+      -30.0,
+      -10.5
+     ],
+     "status": "destroyed",
+     "course": 0,
+     "speedKn": 0.0
+    }
+   ],
+   "history": "开战前出海，击沉 9 艘商船；1939-12-13 拉普拉塔河口海战后自沉于蒙得维的亚港外。",
+   "sources": [
+    "gazette_37989",
+    "roskill_1954"
+   ],
+   "confidence": "high",
+   "note": null
+  },
+  {
+   "id": "de.u30",
+   "side": "DE",
+   "echelon": "ship",
+   "type": "naval",
+   "parent": null,
+   "name": {
+    "zh": "U-30 潜艇",
+    "orig": "U-30",
+    "short": "U-30"
+   },
+   "model": "navy_token",
+   "ship": {
+    "kind": "submarine",
+    "class": {
+     "zh": "VIIA 型",
+     "orig": "Typ VII A"
+    },
+    "lengthM": 64.5,
+    "beamM": 5.85,
+    "tonnage": 626,
+    "tonnageKind": "std",
+    "maxKn": 17.2,
+    "crew": 42,
+    "silhouette": "submarine"
+   },
+   "track": [
+    {
+     "at": "1939-09-03T00:00",
+     "pos": [
+      -11.5,
+      57.0
+     ],
+     "status": "active"
+    },
+    {
+     "at": "1939-09-03T19:40",
+     "pos": [
+      -14.5,
+      56.5
+     ],
+     "status": "engaged",
+     "course": 254,
+     "speedKn": 5.2
+    },
+    {
+     "at": "1939-09-14T12:00",
+     "pos": [
+      -9.5,
+      56.0
+     ],
+     "status": "engaged",
+     "course": 98,
+     "speedKn": 0.7
+    },
+    {
+     "at": "1939-09-27T12:00",
+     "pos": [
+      8.15,
+      53.52
+     ],
+     "status": "active",
+     "course": 96,
+     "speedKn": 2.0
+    },
+    {
+     "at": "1940-07-07T12:00",
+     "pos": [
+      -3.37,
+      47.748
+     ],
+     "status": "active",
+     "course": 236,
+     "speedKn": 0.1
+    }
+   ],
+   "history": "开战当日击沉雅典娜号（误判为武装商船），成为战争第一天最大的政治事件；1940-07-07 第一个进驻洛里昂。",
+   "sources": [
+    "uboat_net",
+    "ktb_skl"
+   ],
+   "confidence": "high",
+   "note": null
+  },
+  {
+   "id": "de.u47",
+   "side": "DE",
+   "echelon": "ship",
+   "type": "naval",
+   "parent": null,
+   "name": {
+    "zh": "U-47 潜艇",
+    "orig": "U-47",
+    "short": "U-47"
+   },
+   "model": "navy_token",
+   "ship": {
+    "kind": "submarine",
+    "class": {
+     "zh": "VIIB 型",
+     "orig": "Typ VII B"
+    },
+    "lengthM": 66.5,
+    "beamM": 6.2,
+    "tonnage": 753,
+    "tonnageKind": "std",
+    "maxKn": 17.9,
+    "crew": 45,
+    "silhouette": "submarine"
+   },
+   "track": [
+    {
+     "at": "1939-10-08T12:00",
+     "pos": [
+      10.14,
+      54.32
+     ],
+     "status": "active"
+    },
+    {
+     "at": "1939-10-13T20:00",
+     "pos": [
+      -3.3,
+      58.9
+     ],
+     "status": "active",
+     "course": 307,
+     "speedKn": 4.1
+    },
+    {
+     "at": "1939-10-14T00:58",
+     "pos": [
+      -2.96,
+      58.9
+     ],
+     "status": "engaged",
+     "course": 90,
+     "speedKn": 2.1
+    },
+    {
+     "at": "1939-10-14T02:00",
+     "pos": [
+      -3.2,
+      58.95
+     ],
+     "status": "active",
+     "course": 292,
+     "speedKn": 7.8
+    },
+    {
+     "at": "1939-10-17T12:00",
+     "pos": [
+      10.14,
+      54.32
+     ],
+     "status": "active",
+     "course": 117,
+     "speedKn": 6.3
+    },
+    {
+     "at": "1941-02-20T12:00",
+     "pos": [
+      -3.37,
+      47.748
+     ],
+     "status": "active",
+     "course": 238,
+     "speedKn": 0.1
+    },
+    {
+     "at": "1941-03-07T03:54",
+     "pos": [
+      -13.0,
+      60.0
+     ],
+     "status": "destroyed",
+     "course": 339,
+     "speedKn": 2.3
+    }
+   ],
+   "history": "1939-10-14 潜入斯卡帕湾击沉皇家橡树号；1941-03-07 在冰岛以南失踪。",
+   "sources": [
+    "oni_prien_u47",
+    "uboat_net"
+   ],
+   "confidence": "high",
+   "note": null
+  },
+  {
+   "id": "de.u99",
+   "side": "DE",
+   "echelon": "ship",
+   "type": "naval",
+   "parent": null,
+   "name": {
+    "zh": "U-99 潜艇",
+    "orig": "U-99",
+    "short": "U-99"
+   },
+   "model": "navy_token",
+   "ship": {
+    "kind": "submarine",
+    "class": {
+     "zh": "VIIB 型",
+     "orig": "Typ VII B"
+    },
+    "lengthM": 66.5,
+    "beamM": 6.2,
+    "tonnage": 753,
+    "tonnageKind": "std",
+    "maxKn": 17.7,
+    "crew": 44,
+    "silhouette": "submarine"
+   },
+   "track": [
+    {
+     "at": "1940-11-14T12:00",
+     "pos": [
+      -3.37,
+      47.748
+     ],
+     "status": "active"
+    },
+    {
+     "at": "1940-12-02T12:00",
+     "pos": [
+      -12.0,
+      55.0
+     ],
+     "status": "engaged",
+     "course": 327,
+     "speedKn": 1.3
+    },
+    {
+     "at": "1941-01-20T12:00",
+     "pos": [
+      -15.0,
+      56.0
+     ],
+     "status": "active",
+     "course": 302,
+     "speedKn": 0.1
+    },
+    {
+     "at": "1941-03-17T03:43",
+     "pos": [
+      -15.0,
+      61.0
+     ],
+     "status": "destroyed",
+     "course": 0,
+     "speedKn": 0.2
+    }
+   ],
+   "history": "克雷奇默尔指挥，击沉 35 艘商船；1941-03-17 HX 112 一役被沃克号深弹重创后自沉。",
+   "sources": [
+    "uboat_net",
+    "blair_1996"
+   ],
+   "confidence": "high",
+   "note": null
+  },
+  {
+   "id": "de.u123",
+   "side": "DE",
+   "echelon": "ship",
+   "type": "naval",
+   "parent": null,
+   "name": {
+    "zh": "U-123 潜艇",
+    "orig": "U-123",
+    "short": "U-123"
+   },
+   "model": "navy_token",
+   "ship": {
+    "kind": "submarine",
+    "class": {
+     "zh": "IXB 型",
+     "orig": "Typ IX B"
+    },
+    "lengthM": 76.5,
+    "beamM": 6.76,
+    "tonnage": 1051,
+    "tonnageKind": "std",
+    "maxKn": 18.2,
+    "crew": 48,
+    "silhouette": "submarine"
+   },
+   "track": [
+    {
+     "at": "1941-12-23T12:00",
+     "pos": [
+      -3.37,
+      47.748
+     ],
+     "status": "active"
+    },
+    {
+     "at": "1942-01-14T05:00",
+     "pos": [
+      -72.5,
+      40.6
+     ],
+     "status": "engaged",
+     "course": 288,
+     "speedKn": 5.6
+    },
+    {
+     "at": "1942-01-19T02:00",
+     "pos": [
+      -75.8,
+      35.2
+     ],
+     "status": "engaged",
+     "course": 207,
+     "speedKn": 3.1
+    },
+    {
+     "at": "1942-02-09T12:00",
+     "pos": [
+      -3.37,
+      47.748
+     ],
+     "status": "active",
+     "course": 53,
+     "speedKn": 6.3
+    }
+   ],
+   "history": "1942 年 1 月首个抵达美国东岸，击沉诺尼斯号；哈德根艇长在日志中写下「可惜昨晚只有一艘艇」。",
+   "sources": [
+    "uboat_net",
+    "gannon_1990"
+   ],
+   "confidence": "high",
+   "note": null
+  },
+  {
+   "id": "de.u552",
+   "side": "DE",
+   "echelon": "ship",
+   "type": "naval",
+   "parent": null,
+   "name": {
+    "zh": "U-552 潜艇",
+    "orig": "U-552",
+    "short": "U-552"
+   },
+   "model": "navy_token",
+   "ship": {
+    "kind": "submarine",
+    "class": {
+     "zh": "VII C 型",
+     "orig": "Typ VII C"
+    },
+    "lengthM": 67.1,
+    "beamM": 6.2,
+    "tonnage": 769,
+    "tonnageKind": "std",
+    "maxKn": 17.7,
+    "crew": 44,
+    "silhouette": "submarine"
+   },
+   "track": [
+    {
+     "at": "1941-10-10T12:00",
+     "pos": [
+      -3.37,
+      47.748
+     ],
+     "status": "active"
+    },
+    {
+     "at": "1941-10-31T05:00",
+     "pos": [
+      -27.5,
+      52.0
+     ],
+     "status": "engaged",
+     "course": 294,
+     "speedKn": 1.9
+    },
+    {
+     "at": "1941-11-10T12:00",
+     "pos": [
+      -3.37,
+      47.748
+     ],
+     "status": "active",
+     "course": 96,
+     "speedKn": 3.9
+    }
+   ],
+   "history": "1941-10-31 击沉美国驱逐舰鲁本·詹姆斯号，为美军在二战中第一艘被击沉的军舰。",
+   "sources": [
+    "uboat_net",
+    "mori_battle_atlantic"
+   ],
+   "confidence": "high",
+   "note": null
+  },
+  {
+   "id": "de.u156",
+   "side": "DE",
+   "echelon": "ship",
+   "type": "naval",
+   "parent": null,
+   "name": {
+    "zh": "U-156 潜艇",
+    "orig": "U-156",
+    "short": "U-156"
+   },
+   "model": "navy_token",
+   "ship": {
+    "kind": "submarine",
+    "class": {
+     "zh": "IX C 型",
+     "orig": "Typ IX C"
+    },
+    "lengthM": 76.8,
+    "beamM": 6.8,
+    "tonnage": 1120,
+    "tonnageKind": "std",
+    "maxKn": 18.2,
+    "crew": 48,
+    "silhouette": "submarine"
+   },
+   "track": [
+    {
+     "at": "1942-08-20T12:00",
+     "pos": [
+      -3.37,
+      47.748
+     ],
+     "status": "active"
+    },
+    {
+     "at": "1942-09-12T22:00",
+     "pos": [
+      -11.42,
+      -4.0
+     ],
+     "status": "engaged",
+     "course": 190,
+     "speedKn": 5.6
+    },
+    {
+     "at": "1942-09-17T14:00",
+     "pos": [
+      -11.0,
+      -3.5
+     ],
+     "status": "active",
+     "course": 40,
+     "speedKn": 0.3
+    }
+   ],
+   "history": "1942-09-12 击沉拉科尼亚号并展开救援，被美军轰炸机攻击；该事件直接导致「拉科尼亚命令」。",
+   "sources": [
+    "peillard_1983",
+    "uboat_net"
+   ],
+   "confidence": "high",
+   "note": null
+  },
+  {
+   "id": "de.u505",
+   "side": "DE",
+   "echelon": "ship",
+   "type": "naval",
+   "parent": null,
+   "name": {
+    "zh": "U-505 潜艇",
+    "orig": "U-505",
+    "short": "U-505"
+   },
+   "model": "navy_token",
+   "ship": {
+    "kind": "submarine",
+    "class": {
+     "zh": "IX C 型",
+     "orig": "Typ IX C"
+    },
+    "lengthM": 76.8,
+    "beamM": 6.8,
+    "tonnage": 1120,
+    "tonnageKind": "std",
+    "maxKn": 18.2,
+    "crew": 48,
+    "silhouette": "submarine"
+   },
+   "track": [
+    {
+     "at": "1944-05-20T12:00",
+     "pos": [
+      -10.0,
+      20.0
+     ],
+     "status": "active"
+    },
+    {
+     "at": "1944-06-04T11:00",
+     "pos": [
+      -20.0,
+      20.0
+     ],
+     "status": "engaged",
+     "course": 272,
+     "speedKn": 1.6
+    },
+    {
+     "at": "1944-06-04T18:00",
+     "pos": [
+      -20.5,
+      20.2
+     ],
+     "status": "interned",
+     "course": 293,
+     "speedKn": 4.4
+    }
+   ],
+   "history": "1944-06-04 被美军第 22.3 特混编队俘获，艇上恩尼格玛与密码本被完整缴获；战后成为芝加哥博物馆舰。",
+   "sources": [
+    "mori_atlantic_won",
+    "uboat_net"
+   ],
+   "confidence": "high",
+   "note": null
+  },
+  {
+   "id": "de.u2336",
+   "side": "DE",
+   "echelon": "ship",
+   "type": "naval",
+   "parent": null,
+   "name": {
+    "zh": "U-2336 潜艇",
+    "orig": "U-2336",
+    "short": "U-2336"
+   },
+   "model": "navy_token",
+   "ship": {
+    "kind": "submarine",
+    "class": {
+     "zh": "XXIII 型",
+     "orig": "Typ XXIII"
+    },
+    "lengthM": 34.7,
+    "beamM": 3.0,
+    "tonnage": 234,
+    "tonnageKind": "std",
+    "maxKn": 12.5,
+    "crew": 14,
+    "silhouette": "submarine"
+   },
+   "track": [
+    {
+     "at": "1945-05-01T12:00",
+     "pos": [
+      10.03,
+      59.03
+     ],
+     "status": "active"
+    },
+    {
+     "at": "1945-05-07T22:45",
+     "pos": [
+      -2.6,
+      56.05
+     ],
+     "status": "engaged",
+     "course": 252,
+     "speedKn": 2.9
+    },
+    {
+     "at": "1945-05-08T22:00",
+     "pos": [
+      4.0,
+      55.5
+     ],
+     "status": "active",
+     "course": 96,
+     "speedKn": 9.7
+    }
+   ],
+   "history": "1945-05-07 在福斯湾击沉最后两艘商船（Sneland I、Avondale Park），未收到停火令。",
+   "sources": [
+    "uboat_net",
+    "nh_ship_histories"
+   ],
+   "confidence": "high",
+   "note": null
+  },
+  {
+   "id": "gb.hood",
+   "side": "GB",
+   "echelon": "ship",
+   "type": "naval",
+   "parent": null,
+   "name": {
+    "zh": "胡德号战列巡洋舰",
+    "orig": "HMS Hood",
+    "short": "Hood"
+   },
+   "model": "navy_token",
+   "ship": {
+    "kind": "battlecruiser",
+    "class": {
+     "zh": "海军上将级",
+     "orig": "Admiral-class"
+    },
+    "lengthM": 262.0,
+    "beamM": 31.7,
+    "tonnage": 42670,
+    "tonnageKind": "std",
+    "maxKn": 31.0,
+    "crew": 1418,
+    "silhouette": "battlecruiser"
+   },
+   "track": [
+    {
+     "at": "1941-05-22T12:00",
+     "pos": [
+      -4.5,
+      60.0
+     ],
+     "status": "active"
+    },
+    {
+     "at": "1941-05-24T03:52",
+     "pos": [
+      -28.0,
+      66.5
+     ],
+     "status": "engaged",
+     "course": 312,
+     "speedKn": 18.5
+    },
+    {
+     "at": "1941-05-24T04:00",
+     "pos": [
+      -28.1,
+      66.48
+     ],
+     "status": "destroyed",
+     "course": 243,
+     "speedKn": 20.1
+    }
+   ],
+   "history": "1941-05-24 丹麦海峡被俾斯麦号击穿弹药库，约六分钟沉没，1418 人中 3 人生还。",
+   "sources": [
+    "gazette_38038",
+    "nh_ship_histories"
+   ],
+   "confidence": "high",
+   "note": null
+  },
+  {
+   "id": "gb.courageous",
+   "side": "GB",
+   "echelon": "ship",
+   "type": "naval",
+   "parent": null,
+   "name": {
+    "zh": "勇敢号航空母舰",
+    "orig": "HMS Courageous",
+    "short": "Courageous"
+   },
+   "model": "navy_token",
+   "ship": {
+    "kind": "carrier",
+    "class": {
+     "zh": "勇敢级",
+     "orig": "Courageous-class"
+    },
+    "lengthM": 239.0,
+    "beamM": 27.6,
+    "tonnage": 22500,
+    "tonnageKind": "std",
+    "maxKn": 30.0,
+    "crew": 1259,
+    "silhouette": "carrier"
+   },
+   "track": [
+    {
+     "at": "1939-09-17T12:00",
+     "pos": [
+      -11.0,
+      51.0
+     ],
+     "status": "active"
+    },
+    {
+     "at": "1939-09-17T18:00",
+     "pos": [
+      -13.5,
+      50.2
+     ],
+     "status": "engaged",
+     "course": 244,
+     "speedKn": 17.8
+    },
+    {
+     "at": "1939-09-17T18:20",
+     "pos": [
+      -13.55,
+      50.18
+     ],
+     "status": "destroyed",
+     "course": 238,
+     "speedKn": 6.8
+    }
+   ],
+   "history": "1939-09-17 反潜巡逻时被 U-29 两雷命中，20 分钟沉没，519 人死亡；此后英国航母退出反潜猎杀。",
+   "sources": [
+    "roskill_1954",
+    "nh_ship_histories"
+   ],
+   "confidence": "high",
+   "note": null
+  },
+  {
+   "id": "gb.rawalpindi",
+   "side": "GB",
+   "echelon": "ship",
+   "type": "naval",
+   "parent": null,
+   "name": {
+    "zh": "拉瓦尔品第号武装商船巡洋舰",
+    "orig": "HMS Rawalpindi",
+    "short": "Rawalpindi"
+   },
+   "model": "navy_token",
+   "ship": {
+    "kind": "auxiliary",
+    "class": {
+     "zh": "P&O R 级改装",
+     "orig": "R-class AMC"
+    },
+    "lengthM": 167.0,
+    "beamM": 20.0,
+    "tonnage": 16697,
+    "tonnageKind": "grt",
+    "maxKn": 17.0,
+    "crew": 276,
+    "silhouette": "merchant"
+   },
+   "track": [
+    {
+     "at": "1939-11-23T12:00",
+     "pos": [
+      -3.8,
+      63.3
+     ],
+     "status": "active"
+    },
+    {
+     "at": "1939-11-23T16:03",
+     "pos": [
+      -3.5,
+      63.0
+     ],
+     "status": "engaged",
+     "course": 156,
+     "speedKn": 4.9
+    },
+    {
+     "at": "1939-11-23T16:16",
+     "pos": [
+      -3.48,
+      62.99
+     ],
+     "status": "destroyed",
+     "course": 138,
+     "speedKn": 3.7
+    }
+   ],
+   "history": "1939-11-23 在法罗群岛以北遭遇沙恩霍斯特号与格奈森瑙号，拒降后 13 分钟被击沉，238 人死亡。",
+   "sources": [
+    "nh_ship_histories",
+    "roskill_1954"
+   ],
+   "confidence": "high",
+   "note": null
+  },
+  {
+   "id": "gb.jervis_bay",
+   "side": "GB",
+   "echelon": "ship",
+   "type": "naval",
+   "parent": null,
+   "name": {
+    "zh": "杰维斯湾号武装商船巡洋舰",
+    "orig": "HMS Jervis Bay",
+    "short": "Jervis Bay"
+   },
+   "model": "navy_token",
+   "ship": {
+    "kind": "auxiliary",
+    "class": {
+     "zh": "阿伯丁—英联邦级改装",
+     "orig": "AMC"
+    },
+    "lengthM": 168.0,
+    "beamM": 20.7,
+    "tonnage": 14164,
+    "tonnageKind": "grt",
+    "maxKn": 15.0,
+    "crew": 254,
+    "silhouette": "merchant"
+   },
+   "track": [
+    {
+     "at": "1940-11-05T09:40",
+     "pos": [
+      -32.9,
+      52.7
+     ],
+     "status": "active"
+    },
+    {
+     "at": "1940-11-05T17:00",
+     "pos": [
+      -32.87,
+      52.68
+     ],
+     "status": "engaged",
+     "course": 138,
+     "speedKn": 0.2
+    },
+    {
+     "at": "1940-11-05T17:30",
+     "pos": [
+      -32.86,
+      52.67
+     ],
+     "status": "destroyed",
+     "course": 149,
+     "speedKn": 1.4
+    }
+   ],
+   "history": "1940-11-05 为掩护 HX 84 独自迎战舍尔号，20 分钟后沉没，190 人阵亡；舰长费根获追授维多利亚十字勋章。",
+   "sources": [
+    "roskill_1954",
+    "hague_convoy"
+   ],
+   "confidence": "high",
+   "note": null
+  },
+  {
+   "id": "gb.audacity",
+   "side": "GB",
+   "echelon": "ship",
+   "type": "naval",
+   "parent": null,
+   "name": {
+    "zh": "大胆号护航航母",
+    "orig": "HMS Audacity",
+    "short": "Audacity"
+   },
+   "model": "navy_token",
+   "ship": {
+    "kind": "carrier",
+    "class": {
+     "zh": "汉诺威号改装",
+     "orig": "Ex-Hannover"
+    },
+    "lengthM": 144.6,
+    "beamM": 17.5,
+    "tonnage": 11000,
+    "tonnageKind": "grt",
+    "maxKn": 15.0,
+    "crew": 480,
+    "silhouette": "carrier"
+   },
+   "track": [
+    {
+     "at": "1941-12-19T08:00",
+     "pos": [
+      -9.5,
+      36.2
+     ],
+     "status": "active"
+    },
+    {
+     "at": "1941-12-21T18:00",
+     "pos": [
+      -19.9,
+      43.75
+     ],
+     "status": "engaged",
+     "course": 317,
+     "speedKn": 11.3
+    },
+    {
+     "at": "1941-12-21T22:00",
+     "pos": [
+      -19.95,
+      43.8
+     ],
+     "status": "destroyed",
+     "course": 324,
+     "speedKn": 0.9
+    }
+   ],
+   "history": "英国第一艘护航航母，1941-12-21 护航 HG 76 时被 U-751 击沉，但其存在已让狼群难以接近船团。",
+   "sources": [
+    "roskill_1954",
+    "nh_ship_histories"
+   ],
+   "confidence": "high",
+   "note": null
+  },
+  {
+   "id": "gb.starling",
+   "side": "GB",
+   "echelon": "ship",
+   "type": "naval",
+   "parent": null,
+   "name": {
+    "zh": "斯塔林号单桅帆船",
+    "orig": "HMS Starling",
+    "short": "Starling"
+   },
+   "model": "navy_token",
+   "ship": {
+    "kind": "destroyer",
+    "class": {
+     "zh": "改进型黑天鹅级",
+     "orig": "Modified Black Swan"
+    },
+    "lengthM": 91.3,
+    "beamM": 11.4,
+    "tonnage": 1350,
+    "tonnageKind": "std",
+    "maxKn": 19.4,
+    "crew": 180,
+    "silhouette": "destroyer"
+   },
+   "track": [
+    {
+     "at": "1943-04-26T12:00",
+     "pos": [
+      -38.0,
+      59.0
+     ],
+     "status": "active"
+    },
+    {
+     "at": "1943-04-29T12:00",
+     "pos": [
+      -40.0,
+      58.0
+     ],
+     "status": "engaged",
+     "course": 227,
+     "speedKn": 1.2
+    },
+    {
+     "at": "1943-05-06T12:00",
+     "pos": [
+      -42.0,
+      54.0
+     ],
+     "status": "engaged",
+     "course": 196,
+     "speedKn": 1.5
+    },
+    {
+     "at": "1943-05-20T12:00",
+     "pos": [
+      -3.0,
+      53.4
+     ],
+     "status": "active",
+     "course": 76,
+     "speedKn": 4.1
+    }
+   ],
+   "history": "沃克上校第 2 护航群旗舰，1943–44 年在北大西洋参加多次猎杀；ONS 5 战役中与支援群协同击退狼群。",
+   "sources": [
+    "roskill_1956",
+    "nh_convoy_escorts"
+   ],
+   "confidence": "high",
+   "note": null
+  },
+  {
+   "id": "gb.duke_of_york",
+   "side": "GB",
+   "echelon": "ship",
+   "type": "naval",
+   "parent": null,
+   "name": {
+    "zh": "约克公爵号战列舰",
+    "orig": "HMS Duke of York",
+    "short": "Duke of York"
+   },
+   "model": "navy_token",
+   "ship": {
+    "kind": "battleship",
+    "class": {
+     "zh": "英王乔治五世级",
+     "orig": "King George V-class"
+    },
+    "lengthM": 227.1,
+    "beamM": 31.4,
+    "tonnage": 36727,
+    "tonnageKind": "std",
+    "maxKn": 28.3,
+    "crew": 1556,
+    "silhouette": "battleship"
+   },
+   "track": [
+    {
+     "at": "1943-12-25T12:00",
+     "pos": [
+      -5.0,
+      68.0
+     ],
+     "status": "active"
+    },
+    {
+     "at": "1943-12-26T16:17",
+     "pos": [
+      25.0,
+      72.2
+     ],
+     "status": "engaged",
+     "course": 54,
+     "speedKn": 23.1
+    },
+    {
+     "at": "1943-12-26T18:45",
+     "pos": [
+      25.5,
+      72.5
+     ],
+     "status": "engaged",
+     "course": 27,
+     "speedKn": 8.2
+    }
+   ],
+   "history": "1943-12-26 北角海战中以雷达火控击伤并最终击沉沙恩霍斯特号。",
+   "sources": [
+    "roskill_1960",
+    "nh_ship_histories"
+   ],
+   "confidence": "high",
+   "note": null
+  },
+  {
+   "id": "gb.petard",
+   "side": "GB",
+   "echelon": "ship",
+   "type": "naval",
+   "parent": null,
+   "name": {
+    "zh": "佩塔德号驱逐舰",
+    "orig": "HMS Petard",
+    "short": "Petard"
+   },
+   "model": "navy_token",
+   "ship": {
+    "kind": "destroyer",
+    "class": {
+     "zh": "P 级",
+     "orig": "P-class"
+    },
+    "lengthM": 105.0,
+    "beamM": 10.7,
+    "tonnage": 1550,
+    "tonnageKind": "std",
+    "maxKn": 36.75,
+    "crew": 176,
+    "silhouette": "destroyer"
+   },
+   "track": [
+    {
+     "at": "1942-10-28T12:00",
+     "pos": [
+      32.0,
+      31.7
+     ],
+     "status": "active"
+    },
+    {
+     "at": "1942-10-30T12:00",
+     "pos": [
+      32.3,
+      31.45
+     ],
+     "status": "engaged",
+     "course": 134,
+     "speedKn": 0.4
+    },
+    {
+     "at": "1942-11-02T12:00",
+     "pos": [
+      32.5,
+      31.3
+     ],
+     "status": "active",
+     "course": 131,
+     "speedKn": 0.2
+    }
+   ],
+   "history": "1942-10-30 在塞得港外逼沉 U-559，登艇组抢出密钥材料；两名水兵随艇沉没。",
+   "sources": [
+    "sebag_2000",
+    "nh_ship_histories"
+   ],
+   "confidence": "high",
+   "note": null
+  },
+  {
+   "id": "us.reuben_james",
+   "side": "US",
+   "echelon": "ship",
+   "type": "naval",
+   "parent": null,
+   "name": {
+    "zh": "鲁本·詹姆斯号驱逐舰",
+    "orig": "USS Reuben James",
+    "short": "Reuben James"
+   },
+   "model": "navy_token",
+   "ship": {
+    "kind": "destroyer",
+    "class": {
+     "zh": "克莱姆森级",
+     "orig": "Clemson-class"
+    },
+    "lengthM": 95.8,
+    "beamM": 9.4,
+    "tonnage": 1190,
+    "tonnageKind": "std",
+    "maxKn": 35.0,
+    "crew": 159,
+    "silhouette": "destroyer"
+   },
+   "track": [
+    {
+     "at": "1941-10-30T12:00",
+     "pos": [
+      -24.0,
+      53.5
+     ],
+     "status": "active"
+    },
+    {
+     "at": "1941-10-31T05:00",
+     "pos": [
+      -27.5,
+      52.0
+     ],
+     "status": "engaged",
+     "course": 236,
+     "speedKn": 9.2
+    },
+    {
+     "at": "1941-10-31T05:30",
+     "pos": [
+      -27.55,
+      51.98
+     ],
+     "status": "destroyed",
+     "course": 237,
+     "speedKn": 4.4
+    }
+   ],
+   "history": "1941-10-31 为 HX 156 护航时被 U-552 击沉，100 人死亡，是美国海军在二战中第一艘被击沉的军舰。",
+   "sources": [
+    "mori_battle_atlantic",
+    "nh_ship_histories"
+   ],
+   "confidence": "high",
+   "note": null
+  },
+  {
+   "id": "us.guadalcanal",
+   "side": "US",
+   "echelon": "ship",
+   "type": "naval",
+   "parent": null,
+   "name": {
+    "zh": "瓜达尔卡纳尔号护航航母",
+    "orig": "USS Guadalcanal",
+    "short": "Guadalcanal"
+   },
+   "model": "navy_token",
+   "ship": {
+    "kind": "carrier",
+    "class": {
+     "zh": "卡萨布兰卡级",
+     "orig": "Casablanca-class"
+    },
+    "lengthM": 156.0,
+    "beamM": 20.0,
+    "tonnage": 7800,
+    "tonnageKind": "std",
+    "maxKn": 19.0,
+    "crew": 860,
+    "silhouette": "carrier"
+   },
+   "track": [
+    {
+     "at": "1944-05-30T12:00",
+     "pos": [
+      -12.0,
+      22.0
+     ],
+     "status": "active"
+    },
+    {
+     "at": "1944-06-04T11:00",
+     "pos": [
+      -20.0,
+      20.0
+     ],
+     "status": "engaged",
+     "course": 256,
+     "speedKn": 3.9
+    },
+    {
+     "at": "1944-06-10T12:00",
+     "pos": [
+      -30.0,
+      24.0
+     ],
+     "status": "active",
+     "course": 295,
+     "speedKn": 4.2
+    }
+   ],
+   "history": "第 22.3 特混编队旗舰，1944-06-04 捕获 U-505；此前在 1943–44 年猎杀群作战中多次击沉 U 艇。",
+   "sources": [
+    "mori_atlantic_won",
+    "nh_ship_histories"
+   ],
+   "confidence": "high",
+   "note": null
+  },
+  {
+   "id": "ca.escort",
+   "side": "CA",
+   "echelon": "ship",
+   "type": "naval",
+   "parent": null,
+   "name": {
+    "zh": "加拿大护航群（示意）",
+    "orig": "RCN escort group",
+    "short": "RCN"
+   },
+   "model": "navy_token",
+   "ship": {
+    "kind": "destroyer",
+    "class": {
+     "zh": "花级轻护（示意）",
+     "orig": "Flower-class"
+    },
+    "lengthM": 62.5,
+    "beamM": 10.1,
+    "tonnage": 950,
+    "tonnageKind": "std",
+    "maxKn": 16.0,
+    "crew": 85,
+    "silhouette": "destroyer"
+   },
+   "track": [
+    {
+     "at": "1941-06-13T12:00",
+     "pos": [
+      -52.7,
+      47.56
+     ],
+     "status": "active"
+    },
+    {
+     "at": "1941-09-09T12:00",
+     "pos": [
+      -45.0,
+      58.0
+     ],
+     "status": "engaged",
+     "course": 21,
+     "speedKn": 0.3
+    },
+    {
+     "at": "1943-03-16T12:00",
+     "pos": [
+      -40.0,
+      55.0
+     ],
+     "status": "engaged",
+     "course": 135,
+     "speedKn": 0.0
+    },
+    {
+     "at": "1943-05-11T12:00",
+     "pos": [
+      -42.0,
+      52.0
+     ],
+     "status": "engaged",
+     "course": 202,
+     "speedKn": 0.1
+    },
+    {
+     "at": "1944-06-06T12:00",
+     "pos": [
+      -20.0,
+      50.0
+     ],
+     "status": "active",
+     "course": 90,
+     "speedKn": 0.1
+    }
+   ],
+   "history": "加拿大皇家海军护航群示意单位：从 1941 年纽芬兰护航部队到 1943 年西北大西洋司令部，承担西段护航。",
+   "sources": [
+    "schull_1950",
+    "roskill_1956"
+   ],
+   "confidence": "medium",
+   "note": null
+  }
+ ],
+ "forces": {
+  "sides": {
+   "DE": {
+    "name": "德国",
+    "commander": "埃里希·雷德尔（至 1943-01）／卡尔·邓尼茨",
+    "men": null,
+    "divisions": "U 艇部队（BdU）；水面舰队",
+    "losses": {
+     "killed": "约 30,000（U 艇人员）",
+     "wounded": "—",
+     "ships": "783 艘 U 艇、47 艘水面舰艇"
+    },
+    "note": "U 艇建造总数约 1,150 艘，参战 830 余艘；损失率约 70%"
+   },
+   "GB": {
+    "name": "英国",
+    "commander": "达德利·庞德（至 1943-10）／安德鲁·坎宁安；西部海口：诺布尔→霍顿",
+    "men": null,
+    "divisions": "皇家海军本土舰队、西部海口司令部、海岸司令部",
+    "losses": {
+     "killed": "约 36,200（海军）+ 约 36,000（商船海员）",
+     "wounded": "—",
+     "ships": "商船约 3,500 艘（全战区）"
+    },
+    "note": "海岸司令部反潜飞行损失 741 架"
+   },
+   "US": {
+    "name": "美国",
+    "commander": "欧内斯特·金；大西洋舰队：罗亚尔·英格索尔",
+    "men": null,
+    "divisions": "大西洋舰队、第 10 舰队、猎杀群",
+    "losses": {
+     "killed": "—",
+     "wounded": "—",
+     "ships": "含在 175 艘盟军军舰内"
+    },
+    "note": "1941-09 起实际参战；1942 年东岸损失为美军最大教训"
+   },
+   "CA": {
+    "name": "加拿大",
+    "commander": "伦纳德·默里",
+    "men": null,
+    "divisions": "纽芬兰护航部队 → 西北大西洋司令部",
+    "losses": {
+     "killed": "—",
+     "wounded": "—",
+     "ships": "含在盟军损失内"
+    },
+    "note": "从 6 艘驱逐舰扩张到 100+ 艘护航舰，承担西段护航"
+   }
+  },
+  "byPhase": {
+   "ph1": {
+    "name": "袭击舰与猎杀群",
+    "to": "1940-06",
+    "months": 10,
+    "merchantSunkByUboatGRT": 1136926,
+    "merchantSunkByAirGRT": 313139,
+    "merchantSunkByWarshipGRT": 137206,
+    "merchantSunkByMineGRT": 583206,
+    "uboatsLost": 23,
+    "avgMonthlyUboatGRT": 113693,
+    "forces": {
+     "uboatAtSea": "约 20–30 艘（多为短腿 II 型）",
+     "escorts": "驱逐舰约 40 艘、反潜拖网船若干",
+     "note": "开战时 U 艇 57 艘可用，多数只能在英近岸活动"
+    }
+   },
+   "ph2": {
+    "name": "法国基地与快乐时光",
+    "to": "1941-03",
+    "months": 9,
+    "merchantSunkByUboatGRT": 2036973,
+    "merchantSunkByAirGRT": 551100,
+    "merchantSunkByWarshipGRT": 760765,
+    "merchantSunkByMineGRT": 244050,
+    "uboatsLost": 14,
+    "avgMonthlyUboatGRT": 226330,
+    "forces": {
+     "uboatAtSea": "约 30–40 艘",
+     "escorts": "驱逐舰 60+、花级轻护陆续服役",
+     "note": "法国基地前移，U 艇在航率由约 1/3 升到 2/3"
+    }
+   },
+   "ph3": {
+    "name": "美国入场与全域扩张",
+    "to": "1942-06",
+    "months": 15,
+    "merchantSunkByUboatGRT": 4686103,
+    "merchantSunkByAirGRT": 1179478,
+    "merchantSunkByWarshipGRT": 433534,
+    "merchantSunkByMineGRT": 261559,
+    "uboatsLost": 51,
+    "avgMonthlyUboatGRT": 312407,
+    "forces": {
+     "uboatAtSea": "约 40–60 艘",
+     "escorts": "美加英合计驱逐舰 150+、轻护 100+",
+     "note": "全程护航铺开；美国参战带来新造护航舰"
+    }
+   },
+   "ph4": {
+    "name": "转折",
+    "to": "1943-05",
+    "months": 11,
+    "merchantSunkByUboatGRT": 4967910,
+    "merchantSunkByAirGRT": 371460,
+    "merchantSunkByWarshipGRT": 181968,
+    "merchantSunkByMineGRT": 83713,
+    "uboatsLost": 159,
+    "avgMonthlyUboatGRT": 451628,
+    "forces": {
+     "uboatAtSea": "100–120 艘（1943-05 达 118 艘在海上）",
+     "escorts": "护航航母 6+、支援群 8、远程飞机 4 个中队",
+     "note": "1943-05 U 艇部队作战实力 240 艘，其中 118 艘在海上"
+    }
+   },
+   "ph5": {
+    "name": "反攻",
+    "to": "1944-06",
+    "months": 13,
+    "merchantSunkByUboatGRT": 1268870,
+    "merchantSunkByAirGRT": 387218,
+    "merchantSunkByWarshipGRT": 61503,
+    "merchantSunkByMineGRT": 80353,
+    "uboatsLost": 273,
+    "avgMonthlyUboatGRT": 97605,
+    "forces": {
+     "uboatAtSea": "60–90 艘，1944-01 降至 41 次巡逻/月",
+     "escorts": "护航航母 20+（含猎杀群）、护卫舰大量服役",
+     "note": "1944-01 可用 121 艘，5 月降至 89 艘；巡逻 41→10 次"
+    }
+   },
+   "ph6": {
+    "name": "终局",
+    "to": "1945-05",
+    "months": 11,
+    "merchantSunkByUboatGRT": 571910,
+    "merchantSunkByAirGRT": 87518,
+    "merchantSunkByWarshipGRT": 25768,
+    "merchantSunkByMineGRT": 136090,
+    "uboatsLost": 273,
+    "avgMonthlyUboatGRT": 51992,
+    "forces": {
+     "uboatAtSea": "20–40 艘（1945-05-05 仅 29 艘在海上）",
+     "escorts": "盟军护航与航空兵力绝对优势",
+     "note": "1945 年前五个月 125 次巡逻，损失 65 艘 VII 型"
+    }
+   }
+  },
+  "monthlySeries": [
+   {
+    "ym": "1939-09",
+    "imports": 3297070,
+    "uboat": 153879,
+    "air": 0,
+    "warship": 5051,
+    "mine": 29537,
+    "total": 158930,
+    "uboatsLost": 2
+   },
+   {
+    "ym": "1939-10",
+    "imports": 3576135,
+    "uboat": 134807,
+    "air": 0,
+    "warship": 32058,
+    "mine": 29490,
+    "total": 166865,
+    "uboatsLost": 5
+   },
+   {
+    "ym": "1939-11",
+    "imports": 4408689,
+    "uboat": 51589,
+    "air": 0,
+    "warship": 1722,
+    "mine": 120958,
+    "total": 53311,
+    "uboatsLost": 1
+   },
+   {
+    "ym": "1939-12",
+    "imports": 4466664,
+    "uboat": 80881,
+    "air": 2949,
+    "warship": 22506,
+    "mine": 82712,
+    "total": 106336,
+    "uboatsLost": 1
+   },
+   {
+    "ym": "1940-01",
+    "imports": 4847044,
+    "uboat": 111263,
+    "air": 23693,
+    "warship": 0,
+    "mine": 77116,
+    "total": 134956,
+    "uboatsLost": 1
+   },
+   {
+    "ym": "1940-02",
+    "imports": 4348820,
+    "uboat": 169566,
+    "air": 853,
+    "warship": 1761,
+    "mine": 54740,
+    "total": 172180,
+    "uboatsLost": 6
+   },
+   {
+    "ym": "1940-03",
+    "imports": 4970525,
+    "uboat": 62781,
+    "air": 8694,
+    "warship": 0,
+    "mine": 35051,
+    "total": 71475,
+    "uboatsLost": 1
+   },
+   {
+    "ym": "1940-04",
+    "imports": 5336917,
+    "uboat": 32467,
+    "air": 13409,
+    "warship": 5358,
+    "mine": 19799,
+    "total": 51083,
+    "uboatsLost": 5
+   },
+   {
+    "ym": "1940-05",
+    "imports": 5362873,
+    "uboat": 55580,
+    "air": 158348,
+    "warship": 6893,
+    "mine": 47716,
+    "total": 220127,
+    "uboatsLost": 1
+   },
+   {
+    "ym": "1940-06",
+    "imports": null,
+    "uboat": 284113,
+    "air": 105193,
+    "warship": 61857,
+    "mine": 86087,
+    "total": null,
+    "uboatsLost": 0
+   },
+   {
+    "ym": "1940-07",
+    "imports": null,
+    "uboat": 195825,
+    "air": 70193,
+    "warship": 80796,
+    "mine": 33598,
+    "total": null,
+    "uboatsLost": 2
+   },
+   {
+    "ym": "1940-08",
+    "imports": null,
+    "uboat": 267618,
+    "air": 53283,
+    "warship": 63350,
+    "mine": 11433,
+    "total": null,
+    "uboatsLost": 3
+   },
+   {
+    "ym": "1940-09",
+    "imports": null,
+    "uboat": 295335,
+    "air": 56328,
+    "warship": 96288,
+    "mine": 8269,
+    "total": null,
+    "uboatsLost": 1
+   },
+   {
+    "ym": "1940-10",
+    "imports": null,
+    "uboat": 352407,
+    "air": 8752,
+    "warship": 32134,
+    "mine": 32548,
+    "total": null,
+    "uboatsLost": 1
+   },
+   {
+    "ym": "1940-11",
+    "imports": null,
+    "uboat": 146613,
+    "air": 66438,
+    "warship": 123671,
+    "mine": 46672,
+    "total": null,
+    "uboatsLost": 2
+   },
+   {
+    "ym": "1940-12",
+    "imports": null,
+    "uboat": 212590,
+    "air": 14890,
+    "warship": 55728,
+    "mine": 54331,
+    "total": null,
+    "uboatsLost": 0
+   },
+   {
+    "ym": "1941-01",
+    "imports": 2651399,
+    "uboat": 126782,
+    "air": 78597,
+    "warship": 80796,
+    "mine": 17107,
+    "total": 302601,
+    "uboatsLost": 0
+   },
+   {
+    "ym": "1941-02",
+    "imports": 2621795,
+    "uboat": 196783,
+    "air": 89305,
+    "warship": 89096,
+    "mine": 16507,
+    "total": 372205,
+    "uboatsLost": 0
+   },
+   {
+    "ym": "1941-03",
+    "imports": 2864121,
+    "uboat": 243020,
+    "air": 113314,
+    "warship": 138906,
+    "mine": 23585,
+    "total": 474879,
+    "uboatsLost": 5
+   },
+   {
+    "ym": "1941-04",
+    "imports": 2620531,
+    "uboat": 249375,
+    "air": 323454,
+    "warship": 91579,
+    "mine": 24888,
+    "total": 616469,
+    "uboatsLost": 2
+   },
+   {
+    "ym": "1941-05",
+    "imports": 3466204,
+    "uboat": 325492,
+    "air": 146302,
+    "warship": 15002,
+    "mine": 23194,
+    "total": 486796,
+    "uboatsLost": 1
+   },
+   {
+    "ym": "1941-06",
+    "imports": 3594684,
+    "uboat": 310143,
+    "air": 61414,
+    "warship": 17759,
+    "mine": 15326,
+    "total": 389316,
+    "uboatsLost": 4
+   },
+   {
+    "ym": "1941-07",
+    "imports": 3765724,
+    "uboat": 94209,
+    "air": 9275,
+    "warship": 5792,
+    "mine": 8583,
+    "total": 109276,
+    "uboatsLost": 0
+   },
+   {
+    "ym": "1941-08",
+    "imports": 4002450,
+    "uboat": 80310,
+    "air": 23862,
+    "warship": 24897,
+    "mine": 1400,
+    "total": 125550,
+    "uboatsLost": 4
+   },
+   {
+    "ym": "1941-09",
+    "imports": 4267134,
+    "uboat": 202820,
+    "air": 40812,
+    "warship": 22910,
+    "mine": 14948,
+    "total": 259866,
+    "uboatsLost": 2
+   },
+   {
+    "ym": "1941-10",
+    "imports": 4203224,
+    "uboat": 156554,
+    "air": 35222,
+    "warship": 3305,
+    "mine": 19737,
+    "total": 191776,
+    "uboatsLost": 2
+   },
+   {
+    "ym": "1941-11",
+    "imports": 3336789,
+    "uboat": 62196,
+    "air": 23015,
+    "warship": 17715,
+    "mine": 1714,
+    "total": 85211,
+    "uboatsLost": 5
+   },
+   {
+    "ym": "1941-12",
+    "imports": 3735419,
+    "uboat": 124070,
+    "air": 72850,
+    "warship": 6661,
+    "mine": 63853,
+    "total": 203581,
+    "uboatsLost": 10
+   },
+   {
+    "ym": "1942-01",
+    "imports": null,
+    "uboat": 327357,
+    "air": 57086,
+    "warship": 3275,
+    "mine": 10079,
+    "total": null,
+    "uboatsLost": 3
+   },
+   {
+    "ym": "1942-02",
+    "imports": null,
+    "uboat": 476451,
+    "air": 133746,
+    "warship": 0,
+    "mine": 7242,
+    "total": null,
+    "uboatsLost": 2
+   },
+   {
+    "ym": "1942-03",
+    "imports": null,
+    "uboat": 537980,
+    "air": 55706,
+    "warship": 25614,
+    "mine": 16862,
+    "total": null,
+    "uboatsLost": 6
+   },
+   {
+    "ym": "1942-04",
+    "imports": null,
+    "uboat": 431664,
+    "air": 82924,
+    "warship": 131188,
+    "mine": 15002,
+    "total": null,
+    "uboatsLost": 3
+   },
+   {
+    "ym": "1942-05",
+    "imports": null,
+    "uboat": 607247,
+    "air": 59041,
+    "warship": 19363,
+    "mine": 18795,
+    "total": null,
+    "uboatsLost": 4
+   },
+   {
+    "ym": "1942-06",
+    "imports": null,
+    "uboat": 700235,
+    "air": 54769,
+    "warship": 48474,
+    "mine": 19936,
+    "total": null,
+    "uboatsLost": 3
+   },
+   {
+    "ym": "1942-07",
+    "imports": null,
+    "uboat": 476065,
+    "air": 74313,
+    "warship": 54358,
+    "mine": 8905,
+    "total": null,
+    "uboatsLost": 11
+   },
+   {
+    "ym": "1942-08",
+    "imports": null,
+    "uboat": 544410,
+    "air": 60532,
+    "warship": 50516,
+    "mine": 0,
+    "total": null,
+    "uboatsLost": 9
+   },
+   {
+    "ym": "1942-09",
+    "imports": null,
+    "uboat": 485413,
+    "air": 57526,
+    "warship": 24388,
+    "mine": 0,
+    "total": null,
+    "uboatsLost": 10
+   },
+   {
+    "ym": "1942-10",
+    "imports": null,
+    "uboat": 619417,
+    "air": 5686,
+    "warship": 7576,
+    "mine": 5157,
+    "total": null,
+    "uboatsLost": 16
+   },
+   {
+    "ym": "1942-11",
+    "imports": null,
+    "uboat": 729160,
+    "air": 53868,
+    "warship": 19178,
+    "mine": 992,
+    "total": null,
+    "uboatsLost": 13
+   },
+   {
+    "ym": "1942-12",
+    "imports": null,
+    "uboat": 330816,
+    "air": 4853,
+    "warship": 12312,
+    "mine": 1618,
+    "total": null,
+    "uboatsLost": 4
+   },
+   {
+    "ym": "1943-01",
+    "imports": null,
+    "uboat": 203128,
+    "air": 25503,
+    "warship": 7040,
+    "mine": 18475,
+    "total": null,
+    "uboatsLost": 6
+   },
+   {
+    "ym": "1943-02",
+    "imports": null,
+    "uboat": 359328,
+    "air": 75,
+    "warship": 4858,
+    "mine": 34153,
+    "total": null,
+    "uboatsLost": 19
+   },
+   {
+    "ym": "1943-03",
+    "imports": null,
+    "uboat": 627377,
+    "air": 65128,
+    "warship": 0,
+    "mine": 884,
+    "total": null,
+    "uboatsLost": 15
+   },
+   {
+    "ym": "1943-04",
+    "imports": null,
+    "uboat": 327943,
+    "air": 3034,
+    "warship": 1742,
+    "mine": 11961,
+    "total": null,
+    "uboatsLost": 15
+   },
+   {
+    "ym": "1943-05",
+    "imports": null,
+    "uboat": 264853,
+    "air": 20942,
+    "warship": 0,
+    "mine": 1568,
+    "total": null,
+    "uboatsLost": 41
+   },
+   {
+    "ym": "1943-06",
+    "imports": null,
+    "uboat": 97753,
+    "air": 6083,
+    "warship": 17655,
+    "mine": 4334,
+    "total": null,
+    "uboatsLost": 17
+   },
+   {
+    "ym": "1943-07",
+    "imports": null,
+    "uboat": 242145,
+    "air": 106005,
+    "warship": 7176,
+    "mine": 72,
+    "total": null,
+    "uboatsLost": 37
+   },
+   {
+    "ym": "1943-08",
+    "imports": null,
+    "uboat": 86579,
+    "air": 14133,
+    "warship": 0,
+    "mine": 19,
+    "total": null,
+    "uboatsLost": 25
+   },
+   {
+    "ym": "1943-09",
+    "imports": null,
+    "uboat": 118841,
+    "air": 22905,
+    "warship": 9977,
+    "mine": 4396,
+    "total": null,
+    "uboatsLost": 10
+   },
+   {
+    "ym": "1943-10",
+    "imports": null,
+    "uboat": 97407,
+    "air": 22680,
+    "warship": 0,
+    "mine": 19774,
+    "total": null,
+    "uboatsLost": 26
+   },
+   {
+    "ym": "1943-11",
+    "imports": null,
+    "uboat": 66585,
+    "air": 62452,
+    "warship": 8538,
+    "mine": 6666,
+    "total": null,
+    "uboatsLost": 19
+   },
+   {
+    "ym": "1943-12",
+    "imports": null,
+    "uboat": 86967,
+    "air": 75471,
+    "warship": 0,
+    "mine": 6086,
+    "total": null,
+    "uboatsLost": 8
+   },
+   {
+    "ym": "1944-01",
+    "imports": null,
+    "uboat": 92278,
+    "air": 24237,
+    "warship": 6420,
+    "mine": 7176,
+    "total": null,
+    "uboatsLost": 16
+   },
+   {
+    "ym": "1944-02",
+    "imports": null,
+    "uboat": 92923,
+    "air": 21616,
+    "warship": 2085,
+    "mine": 0,
+    "total": null,
+    "uboatsLost": 20
+   },
+   {
+    "ym": "1944-03",
+    "imports": null,
+    "uboat": 142944,
+    "air": 0,
+    "warship": 7840,
+    "mine": 7176,
+    "total": null,
+    "uboatsLost": 25
+   },
+   {
+    "ym": "1944-04",
+    "imports": null,
+    "uboat": 62149,
+    "air": 19755,
+    "warship": 0,
+    "mine": 0,
+    "total": null,
+    "uboatsLost": 21
+   },
+   {
+    "ym": "1944-05",
+    "imports": null,
+    "uboat": 24424,
+    "air": 2873,
+    "warship": 0,
+    "mine": 0,
+    "total": null,
+    "uboatsLost": 24
+   },
+   {
+    "ym": "1944-06",
+    "imports": null,
+    "uboat": 57875,
+    "air": 9008,
+    "warship": 1812,
+    "mine": 24654,
+    "total": null,
+    "uboatsLost": 25
+   },
+   {
+    "ym": "1944-07",
+    "imports": null,
+    "uboat": 63351,
+    "air": 0,
+    "warship": 7219,
+    "mine": 8114,
+    "total": null,
+    "uboatsLost": 24
+   },
+   {
+    "ym": "1944-08",
+    "imports": null,
+    "uboat": 98729,
+    "air": 0,
+    "warship": 7176,
+    "mine": 7194,
+    "total": null,
+    "uboatsLost": 35
+   },
+   {
+    "ym": "1944-09",
+    "imports": null,
+    "uboat": 43368,
+    "air": 0,
+    "warship": 0,
+    "mine": 1437,
+    "total": null,
+    "uboatsLost": 22
+   },
+   {
+    "ym": "1944-10",
+    "imports": null,
+    "uboat": 7176,
+    "air": 0,
+    "warship": 0,
+    "mine": 4492,
+    "total": null,
+    "uboatsLost": 13
+   },
+   {
+    "ym": "1944-11",
+    "imports": null,
+    "uboat": 29592,
+    "air": 7247,
+    "warship": 1141,
+    "mine": 0,
+    "total": null,
+    "uboatsLost": 8
+   },
+   {
+    "ym": "1944-12",
+    "imports": null,
+    "uboat": 58518,
+    "air": 35920,
+    "warship": 0,
+    "mine": 35612,
+    "total": null,
+    "uboatsLost": 15
+   },
+   {
+    "ym": "1945-01",
+    "imports": null,
+    "uboat": 56988,
+    "air": 7176,
+    "warship": 2365,
+    "mine": 16368,
+    "total": null,
+    "uboatsLost": 14
+   },
+   {
+    "ym": "1945-02",
+    "imports": null,
+    "uboat": 65233,
+    "air": 7177,
+    "warship": 3899,
+    "mine": 18076,
+    "total": null,
+    "uboatsLost": 21
+   },
+   {
+    "ym": "1945-03",
+    "imports": null,
+    "uboat": 65077,
+    "air": 0,
+    "warship": 3968,
+    "mine": 36064,
+    "total": null,
+    "uboatsLost": 33
+   },
+   {
+    "ym": "1945-04",
+    "imports": null,
+    "uboat": 72439,
+    "air": 22822,
+    "warship": 0,
+    "mine": 8733,
+    "total": null,
+    "uboatsLost": 53
+   },
+   {
+    "ym": "1945-05",
+    "imports": null,
+    "uboat": 11439,
+    "air": 7176,
+    "warship": 0,
+    "mine": 0,
+    "total": null,
+    "uboatsLost": 35
+   }
+  ],
+  "sources": [
+   "battleatlantic_1946",
+   "roskill_1956",
+   "roskill_1961",
+   "mori_atlantic_won",
+   "blair_1998",
+   "wiki_en_atlantic"
+  ],
+  "confidence": "medium",
+  "note": "吨位按月表口径（GRT），逐月表见 monthlySeries；ph1 的 total 列与分项之和不一致，故只采用 U 艇分项。人员数字为全战区口径，不可与单战役相加。"
+ },
+ "audit": {
+  "checkedAt": "2026-10-19",
+  "checks": [
+   {
+    "name": "events >= 90",
+    "result": "passed",
+    "detail": "106 in-window"
+   },
+   {
+    "name": "event body 80-140 chars",
+    "result": "passed",
+    "detail": "106/106"
+   },
+   {
+    "name": "event id unique + strictly increasing",
+    "result": "passed"
+   },
+   {
+    "name": "endAt after at",
+    "result": "passed",
+    "detail": "21"
+   },
+   {
+    "name": "sources resolvable",
+    "result": "passed",
+    "detail": "all ids present in 05-sources.json"
+   },
+   {
+    "name": "sfx ids registered",
+    "result": "passed",
+    "detail": "sprite + synth tables"
+   },
+   {
+    "name": "photoSuggestion in photos/index.json",
+    "result": "passed"
+   },
+   {
+    "name": "event/place coords within frame + 10% padding",
+    "result": "passed"
+   },
+   {
+    "name": "gazetteer 60-100",
+    "result": "passed",
+    "detail": "84"
+   },
+   {
+    "name": "front frames 12-20",
+    "result": "passed",
+    "detail": "18"
+   },
+   {
+    "name": "front polygons self-intersection free",
+    "result": "passed",
+    "detail": "engine ringSelfIntersects algorithm"
+   },
+   {
+    "name": "unit track speed <= maxKn",
+    "result": "passed",
+    "detail": "24/24 units"
+   },
+   {
+    "name": "unit track within window + strictly increasing",
+    "result": "passed"
+   },
+   {
+    "name": "silhouette keys valid",
+    "result": "passed",
+    "detail": "15 known keys"
+   },
+   {
+    "name": "model id registered",
+    "result": "passed",
+    "detail": "navy_token only"
+   }
+  ]
+ },
+ "notes": [
+  "events 中 photoSuggestion 为 Commons 文件名（不含 File: 前缀），全部对应 public/campaigns/battle-atlantic-1945/photos/index.json 的 20 张已核实照片。",
+  "fronts 的 raider / convoy 是「活动海域」示意多边形，跨海、粗粒度，不是战线；引擎会把控制区裁剪到战区，但本战役 control.mode 应设为 air。",
+  "units 只给代表舰艇（24 个），不是完整 OOB；航迹为逐周/逐月示意，course/speedKn 由相邻点反算，均未超过 maxKn。",
+  "events[].unitsSuggestion 只含本表 units 中存在的 id；凡指向未建档案的舰艇（如 de.gneisenau、gb.rodney）已移入同一事件的 unitsMentioned，供工程-数据 决定是否扩 OOB，或仅作为文字提及。",
+  "forces.byPhase 的吨位来自逐月损失表（U 艇分项），兵力数字另注来源；两者不可混用为单一「战果」。",
+  "e.graf_spee 的纬度 −34.4° 在画布南界（−12°）之外，已移入 backgroundEvents，只作背景注记。",
+  "e.deadlight（1945-11-17）在战役时间窗之外，已移入 epilogue。"
+ ]
+}

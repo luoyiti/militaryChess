@@ -1,0 +1,672 @@
+[
+ {
+  "id": "gibraltar",
+  "zh": "直布罗陀",
+  "orig": "Gibraltar",
+  "pos": [
+   -5.355,
+   36.14
+  ],
+  "kind": "fort",
+  "rank": 1,
+  "country": "GB",
+  "sources": [
+   "roskill_1954"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "freetown",
+  "zh": "弗里敦",
+  "orig": "Freetown",
+  "pos": [
+   -13.23,
+   8.48
+  ],
+  "kind": "port",
+  "rank": 1,
+  "country": "GB",
+  "sources": [
+   "roskill_1954"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "dakar",
+  "zh": "达喀尔",
+  "orig": "Dakar",
+  "pos": [
+   -17.45,
+   14.69
+  ],
+  "kind": "port",
+  "rank": 2,
+  "country": "FR",
+  "sources": [
+   "roskill_1954"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "casablanca",
+  "zh": "卡萨布兰卡",
+  "orig": "Casablanca",
+  "pos": [
+   -7.6,
+   33.6
+  ],
+  "kind": "port",
+  "rank": 1,
+  "country": "FR",
+  "sources": [
+   "mori_battle_atlantic"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "oran",
+  "zh": "奥兰",
+  "orig": "Oran",
+  "pos": [
+   -0.64,
+   35.7
+  ],
+  "kind": "port",
+  "rank": 2,
+  "country": "FR",
+  "sources": [
+   "mori_battle_atlantic"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "algiers",
+  "zh": "阿尔及尔",
+  "orig": "Alger",
+  "pos": [
+   3.06,
+   36.75
+  ],
+  "kind": "port",
+  "rank": 2,
+  "country": "FR",
+  "sources": [
+   "mori_battle_atlantic"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "azores",
+  "zh": "亚速尔群岛",
+  "orig": "Açores",
+  "pos": [
+   -28.0,
+   38.5
+  ],
+  "kind": "region",
+  "rank": 1,
+  "alt": "1943-10 起盟军使用机场",
+  "country": "PT",
+  "sources": [
+   "roskill_1960"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "bergen",
+  "zh": "卑尔根",
+  "orig": "Bergen",
+  "pos": [
+   5.32,
+   60.39
+  ],
+  "kind": "port",
+  "rank": 1,
+  "alt": "U 艇基地",
+  "country": "NO",
+  "sources": [
+   "uboat_net"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "trondheim",
+  "zh": "特隆赫姆",
+  "orig": "Trondheim",
+  "pos": [
+   10.4,
+   63.43
+  ],
+  "kind": "port",
+  "rank": 2,
+  "country": "NO",
+  "sources": [
+   "uboat_net"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "narvik",
+  "zh": "纳尔维克",
+  "orig": "Narvik",
+  "pos": [
+   17.427,
+   68.438
+  ],
+  "kind": "port",
+  "rank": 2,
+  "country": "NO",
+  "sources": [
+   "roskill_1954"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "tromso",
+  "zh": "特罗姆瑟",
+  "orig": "Tromsø",
+  "pos": [
+   18.96,
+   69.65
+  ],
+  "kind": "port",
+  "rank": 2,
+  "country": "NO",
+  "sources": [
+   "woodman_1994"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "altenfjord",
+  "zh": "阿尔塔峡湾",
+  "orig": "Altafjord",
+  "pos": [
+   23.0,
+   69.9
+  ],
+  "kind": "sea",
+  "rank": 2,
+  "alt": "提尔皮茨号锚地",
+  "country": "NO",
+  "sources": [
+   "roskill_1956"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "north_cape",
+  "zh": "北角",
+  "orig": "Nordkapp",
+  "pos": [
+   25.78,
+   71.17
+  ],
+  "kind": "region",
+  "rank": 2,
+  "country": "NO",
+  "sources": [
+   "roskill_1960"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "bear_island",
+  "zh": "熊岛",
+  "orig": "Bjørnøya",
+  "pos": [
+   19.0,
+   74.5
+  ],
+  "kind": "region",
+  "rank": 2,
+  "country": "NO",
+  "sources": [
+   "woodman_1994"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "jan_mayen",
+  "zh": "扬马延",
+  "orig": "Jan Mayen",
+  "pos": [
+   -8.5,
+   71.0
+  ],
+  "kind": "region",
+  "rank": 3,
+  "country": "NO",
+  "sources": [
+   "woodman_1994"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "murmansk",
+  "zh": "摩尔曼斯克",
+  "orig": "Мурманск",
+  "pos": [
+   33.08,
+   68.97
+  ],
+  "kind": "port",
+  "rank": 1,
+  "country": "SU",
+  "sources": [
+   "nh_pq17"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "polyarny",
+  "zh": "波利亚尔内",
+  "orig": "Полярный",
+  "pos": [
+   33.45,
+   69.2
+  ],
+  "kind": "port",
+  "rank": 3,
+  "country": "SU",
+  "sources": [
+   "nh_pq17"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "vaenga",
+  "zh": "瓦延加",
+  "orig": "Ваенга",
+  "pos": [
+   33.42,
+   69.07
+  ],
+  "kind": "airfield",
+  "rank": 3,
+  "alt": "今北莫尔斯克；151 联队驻地",
+  "country": "SU",
+  "sources": [
+   "woodman_1994"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "arkhangelsk",
+  "zh": "阿尔汉格尔斯克",
+  "orig": "Архангельск",
+  "pos": [
+   40.55,
+   64.54
+  ],
+  "kind": "port",
+  "rank": 1,
+  "country": "SU",
+  "sources": [
+   "nh_pq17"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "kola_inlet",
+  "zh": "科拉湾",
+  "orig": "Кольский залив",
+  "pos": [
+   33.0,
+   69.1
+  ],
+  "kind": "sea",
+  "rank": 3,
+  "country": "SU",
+  "sources": [
+   "nh_pq17"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "wilhelmshaven",
+  "zh": "威廉港",
+  "orig": "Wilhelmshaven",
+  "pos": [
+   8.15,
+   53.52
+  ],
+  "kind": "port",
+  "rank": 1,
+  "country": "DE",
+  "sources": [
+   "ktb_skl"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "kiel",
+  "zh": "基尔",
+  "orig": "Kiel",
+  "pos": [
+   10.14,
+   54.32
+  ],
+  "kind": "port",
+  "rank": 1,
+  "country": "DE",
+  "sources": [
+   "uboat_net"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "berlin",
+  "zh": "柏林",
+  "orig": "Berlin",
+  "pos": [
+   13.38,
+   52.52
+  ],
+  "kind": "capital",
+  "rank": 1,
+  "country": "DE",
+  "sources": [
+   "ktb_skl"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "flensburg",
+  "zh": "弗伦斯堡",
+  "orig": "Flensburg",
+  "pos": [
+   9.4,
+   54.8
+  ],
+  "kind": "port",
+  "rank": 3,
+  "alt": "邓尼茨最后驻地",
+  "country": "DE",
+  "sources": [
+   "uboat_net_fates"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "western_approaches",
+  "zh": "西部海口",
+  "orig": "Western Approaches",
+  "pos": [
+   -15.0,
+   50.5
+  ],
+  "kind": "sea",
+  "rank": 1,
+  "alt": "英国以西的大西洋入口",
+  "sources": [
+   "roskill_1954"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "mid_atlantic_gap",
+  "zh": "中大西洋空白区",
+  "orig": "Mid-Atlantic Gap",
+  "pos": [
+   -40.0,
+   54.0
+  ],
+  "kind": "sea",
+  "rank": 1,
+  "alt": "岸基飞机航程之外的区域",
+  "sources": [
+   "roskill_1956",
+   "wiki_en_midgap"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "denmark_strait",
+  "zh": "丹麦海峡",
+  "orig": "Denmark Strait",
+  "pos": [
+   -28.0,
+   66.5
+  ],
+  "kind": "sea",
+  "rank": 1,
+  "alt": "格陵兰与冰岛之间",
+  "sources": [
+   "gazette_38038"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "norwegian_sea",
+  "zh": "挪威海",
+  "orig": "Norwegian Sea",
+  "pos": [
+   2.0,
+   68.0
+  ],
+  "kind": "sea",
+  "rank": 2,
+  "sources": [
+   "woodman_1994"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "barents_sea",
+  "zh": "巴伦支海",
+  "orig": "Barents Sea",
+  "pos": [
+   35.0,
+   73.0
+  ],
+  "kind": "sea",
+  "rank": 2,
+  "sources": [
+   "woodman_1994"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "biscay",
+  "zh": "比斯开湾",
+  "orig": "Golfe de Gascogne",
+  "pos": [
+   -8.0,
+   45.5
+  ],
+  "kind": "sea",
+  "rank": 1,
+  "sources": [
+   "roskill_1960"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "channel",
+  "zh": "英吉利海峡",
+  "orig": "English Channel",
+  "pos": [
+   0.0,
+   50.2
+  ],
+  "kind": "sea",
+  "rank": 1,
+  "sources": [
+   "nh_normandy"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "north_sea",
+  "zh": "北海",
+  "orig": "North Sea",
+  "pos": [
+   3.0,
+   56.0
+  ],
+  "kind": "sea",
+  "rank": 2,
+  "sources": [
+   "roskill_1954"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "caribbean",
+  "zh": "加勒比海",
+  "orig": "Caribbean Sea",
+  "pos": [
+   -75.0,
+   15.0
+  ],
+  "kind": "sea",
+  "rank": 2,
+  "sources": [
+   "mori_battle_atlantic"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "gulf_of_mexico",
+  "zh": "墨西哥湾",
+  "orig": "Gulf of Mexico",
+  "pos": [
+   -90.0,
+   25.0
+  ],
+  "kind": "sea",
+  "rank": 2,
+  "sources": [
+   "mori_battle_atlantic"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "gibraltar_strait",
+  "zh": "直布罗陀海峡",
+  "orig": "Strait of Gibraltar",
+  "pos": [
+   -5.6,
+   35.95
+  ],
+  "kind": "sea",
+  "rank": 2,
+  "sources": [
+   "roskill_1954"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "labrador_sea",
+  "zh": "拉布拉多海",
+  "orig": "Labrador Sea",
+  "pos": [
+   -52.0,
+   57.0
+  ],
+  "kind": "sea",
+  "rank": 2,
+  "sources": [
+   "roskill_1956"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "rockall",
+  "zh": "罗卡尔岩",
+  "orig": "Rockall",
+  "pos": [
+   -13.7,
+   57.6
+  ],
+  "kind": "region",
+  "rank": 3,
+  "alt": "雅典娜号沉没海域附近",
+  "country": "GB",
+  "sources": [
+   "uboat_net"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "firth_of_forth",
+  "zh": "福斯湾",
+  "orig": "Firth of Forth",
+  "pos": [
+   -2.6,
+   56.05
+  ],
+  "kind": "sea",
+  "rank": 3,
+  "country": "GB",
+  "sources": [
+   "nh_ship_histories"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "holm_sound",
+  "zh": "霍尔姆海峡",
+  "orig": "Holm Sound",
+  "pos": [
+   -2.9,
+   58.88
+  ],
+  "kind": "sea",
+  "rank": 4,
+  "country": "GB",
+  "sources": [
+   "oni_prien_u47"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "medan",
+  "zh": "梅岛",
+  "orig": "Isle of May",
+  "pos": [
+   -2.55,
+   56.18
+  ],
+  "kind": "region",
+  "rank": 4,
+  "country": "GB",
+  "sources": [
+   "uboat_net"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "arromanches",
+  "zh": "阿罗芒什",
+  "orig": "Arromanches",
+  "pos": [
+   -0.62,
+   49.34
+  ],
+  "kind": "port",
+  "rank": 4,
+  "country": "FR",
+  "sources": [
+   "nh_normandy"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "cape_finisterre",
+  "zh": "菲尼斯特雷角",
+  "orig": "Cabo Finisterre",
+  "pos": [
+   -9.27,
+   42.88
+  ],
+  "kind": "region",
+  "rank": 3,
+  "country": "ES",
+  "sources": [
+   "roskill_1954"
+  ],
+  "confidence": "medium"
+ }
+]

@@ -13,6 +13,7 @@
 | 克里特岛战役 | `campaigns/crete-1941` | 1941.5.20 — 6.1 |
 | 巴巴罗萨行动 | `campaigns/barbarossa-1941` | 1941.6.22 — 12.5 |
 | 淞沪会战 | `campaigns/shanghai-1937` | 1937.8.13 — 11.12 |
+| 大西洋海战 | `campaigns/battle-atlantic-1945` | 1939.9.3 — 1945.5.8 |
 | 阿拉曼战役（筹备中） | `campaigns/el-alamein-1942` | 1942.10.23 — 11.11 |
 | 瓜达尔卡纳尔岛战役（筹备中） | `campaigns/guadalcanal-1942` | 1942.8.7 — 1943.2.9 |
 

@@ -1,0 +1,3411 @@
+{
+  "meta": {
+    "campaign": "battle-atlantic-1945",
+    "task": "R2 / t2",
+    "title": "代表 U 艇档案（40–60 艘）与逐年建造 / 损失 / 在航统计",
+    "generated": "2026-10-19",
+    "unitConventions": "吨位：商船用 GRT（总登记吨），军舰用标准排水量（t），两者不混算。时刻：uboat.net 逐艇页面的日期按德方战争日志（KTB，多为 MEZ=UTC+1）记事；本表只保留日精度，不换算小时，理由见 02-uboat.md §1。位置为度分（N/S、E/W）换算的十进制度，[经度, 纬度]，与引擎 Pos 一致。",
+    "confidenceRule": "high = 建造/服役/结局的日期与位置在 uboat.net 逐艇档案中明确给出且与 Blair/Rohwer 一致；medium = 日期明确但位置只有大致海域、或战果含『搭载损失』等口径歧义；low = 结局有争议（如 U-47 失踪原因）。",
+    "counts": {
+      "boats": 60,
+      "types": 15,
+      "withPosition": 58,
+      "sunk": 32,
+      "surrenderedOrScuttled": 21,
+      "captured": 3,
+      "trainingOrDecommissioned": 4,
+      "representativeSuccesses": {
+        "merchantShipsSunk": 779,
+        "merchantGrtSunk": 4159399,
+        "warshipsSunk": 26
+      }
+    },
+    "fieldNotes": {
+      "successes.shipsSunk/grtSunk": "只计商船（含捕鱼船、帆船），不含军舰；与 uboat.net 逐艇页『N ships sunk, total tonnage X GRT』一致。",
+      "successes.warshipsSunk/warshipsTons": "军舰（含辅助巡洋舰、驱逐舰、护航舰、登陆艇等），吨位口径为 uboat.net 所列排水量或登记吨，混合口径，仅供参照。",
+      "wolfpacks": "该艇参加过的狼群代号（Rudeltaktik 编组），数目本身即『被编入狼群次数』，不是战果。",
+      "fate.class": "sunk / aircraft / air_raid_port / mine / missing / scuttled / scuttled_damaged / captured / surrendered / decommissioned / transferred / accident",
+      "fate.position": "仅在来源给出明确坐标时填写；只写海域者留 null，避免编造。"
+    },
+    "sources": [
+      "uboat_net",
+      "uboat_net_types",
+      "uboat_net_fates",
+      "uboat_net_ops",
+      "blair_1996",
+      "blair_1998",
+      "roessler_uboot",
+      "wynn_uboats",
+      "rohwer_chronology"
+    ],
+    "articleIndex": {
+      "wiki_en_admiral_scheer": {
+        "title": "Admiral Scheer",
+        "url": "https://en.wikipedia.org/wiki/German_cruiser_Admiral_Scheer"
+      },
+      "wiki_en_ark_royal": {
+        "title": "HMS Ark Royal (91)",
+        "url": "https://en.wikipedia.org/wiki/HMS_Ark_Royal_(91)"
+      },
+      "wiki_en_audacity": {
+        "title": "HMS Audacity",
+        "url": "https://en.wikipedia.org/wiki/HMS_Audacity"
+      },
+      "wiki_en_avenger": {
+        "title": "HMS Avenger (D14)",
+        "url": "https://en.wikipedia.org/wiki/HMS_Avenger_(D14)"
+      },
+      "wiki_en_bismarck": {
+        "title": "German battleship Bismarck",
+        "url": "https://en.wikipedia.org/wiki/German_battleship_Bismarck"
+      },
+      "wiki_en_biter": {
+        "title": "HMS Biter (D97)",
+        "url": "https://en.wikipedia.org/wiki/HMS_Biter_(D97)"
+      },
+      "wiki_en_black_swan": {
+        "title": "Black Swan-class sloop",
+        "url": "https://en.wikipedia.org/wiki/Black_Swan-class_sloop"
+      },
+      "wiki_en_bogue": {
+        "title": "USS Bogue",
+        "url": "https://en.wikipedia.org/wiki/USS_Bogue"
+      },
+      "wiki_en_bogue_class": {
+        "title": "Bogue-class escort carrier",
+        "url": "https://en.wikipedia.org/wiki/Bogue-class_escort_carrier"
+      },
+      "wiki_en_borie": {
+        "title": "USS Borie (DD-215)",
+        "url": "https://en.wikipedia.org/wiki/USS_Borie_(DD-215)"
+      },
+      "wiki_en_bv138": {
+        "title": "Blohm & Voss BV 138",
+        "url": "https://en.wikipedia.org/wiki/Blohm_%26_Voss_BV_138"
+      },
+      "wiki_en_card": {
+        "title": "USS Card",
+        "url": "https://en.wikipedia.org/wiki/USS_Card"
+      },
+      "wiki_en_casablanca": {
+        "title": "Casablanca-class escort carrier",
+        "url": "https://en.wikipedia.org/wiki/Casablanca-class_escort_carrier"
+      },
+      "wiki_en_catalina": {
+        "title": "Consolidated PBY Catalina",
+        "url": "https://en.wikipedia.org/wiki/Consolidated_PBY_Catalina"
+      },
+      "wiki_en_courageous": {
+        "title": "HMS Courageous (50)",
+        "url": "https://en.wikipedia.org/wiki/HMS_Courageous_(50)"
+      },
+      "wiki_en_flower": {
+        "title": "Flower-class corvette",
+        "url": "https://en.wikipedia.org/wiki/Flower-class_corvette"
+      },
+      "wiki_en_fw200": {
+        "title": "Focke-Wulf Fw 200 Condor",
+        "url": "https://en.wikipedia.org/wiki/Focke-Wulf_Fw_200_Condor"
+      },
+      "wiki_en_guadalcanal": {
+        "title": "USS Guadalcanal (CVE-60)",
+        "url": "https://en.wikipedia.org/wiki/USS_Guadalcanal_(CVE-60)"
+      },
+      "wiki_en_halifax": {
+        "title": "Handley Page Halifax",
+        "url": "https://en.wikipedia.org/wiki/Handley_Page_Halifax"
+      },
+      "wiki_en_hudson": {
+        "title": "Lockheed Hudson",
+        "url": "https://en.wikipedia.org/wiki/Lockheed_Hudson"
+      },
+      "wiki_en_ju88": {
+        "title": "Junkers Ju 88",
+        "url": "https://en.wikipedia.org/wiki/Junkers_Ju_88"
+      },
+      "wiki_en_liberator": {
+        "title": "Consolidated B-24 Liberator",
+        "url": "https://en.wikipedia.org/wiki/Consolidated_B-24_Liberator"
+      },
+      "wiki_en_loch": {
+        "title": "Loch-class frigate",
+        "url": "https://en.wikipedia.org/wiki/Loch-class_frigate"
+      },
+      "wiki_en_mosquito": {
+        "title": "de Havilland Mosquito",
+        "url": "https://en.wikipedia.org/wiki/De_Havilland_Mosquito"
+      },
+      "wiki_en_reuben_james": {
+        "title": "USS Reuben James (DD-245)",
+        "url": "https://en.wikipedia.org/wiki/USS_Reuben_James_(DD-245)"
+      },
+      "wiki_en_river": {
+        "title": "River-class frigate",
+        "url": "https://en.wikipedia.org/wiki/River-class_frigate"
+      },
+      "wiki_en_royal_oak": {
+        "title": "HMS Royal Oak (08)",
+        "url": "https://en.wikipedia.org/wiki/HMS_Royal_Oak_(08)"
+      },
+      "wiki_en_scharnhorst": {
+        "title": "German battleship Scharnhorst",
+        "url": "https://en.wikipedia.org/wiki/German_battleship_Scharnhorst"
+      },
+      "wiki_en_squid": {
+        "title": "Squid (weapon)",
+        "url": "https://en.wikipedia.org/wiki/Squid_(weapon)"
+      },
+      "wiki_en_starling": {
+        "title": "HMS Starling (U66)",
+        "url": "https://en.wikipedia.org/wiki/HMS_Starling_(U66)"
+      },
+      "wiki_en_sunderland": {
+        "title": "Short Sunderland",
+        "url": "https://en.wikipedia.org/wiki/Short_Sunderland"
+      },
+      "wiki_en_swordfish": {
+        "title": "Fairey Swordfish",
+        "url": "https://en.wikipedia.org/wiki/Fairey_Swordfish"
+      },
+      "wiki_en_u505": {
+        "title": "German submarine U-505",
+        "url": "https://en.wikipedia.org/wiki/German_submarine_U-505"
+      },
+      "wiki_en_u530": {
+        "title": "German submarine U-530",
+        "url": "https://en.wikipedia.org/wiki/German_submarine_U-530"
+      },
+      "wiki_en_walker": {
+        "title": "HMS Walker (D27)",
+        "url": "https://en.wikipedia.org/wiki/HMS_Walker_(D27)"
+      },
+      "wiki_en_wellington": {
+        "title": "Vickers Wellington",
+        "url": "https://en.wikipedia.org/wiki/Vickers_Wellington"
+      }
+    },
+    "sourceNote": "sources[] 只使用 05-sources.json 中已登记的 id；逐条维基条目用 articleCitations 记录 id，其题名与链接见本文件 meta.articleIndex。这样 data/sources/main.json 引用不会出现悬空 id。逐艇的艇型、建造厂、服役与沉没日期及位置、战果，来自 uboat.net 逐艇页面（uboat_net / uboat_net_types / uboat_net_fates / uboat_net_ops），只保留日精度，德方 KTB 时钟（多 MEZ=UTC+1）未换算，理由见 02-uboat.md §1；data/sources/main.json 只登记被 data/ 实际引用的条目，两者是「研究底稿」与「发布引用」的分工，id 不一致时以 05-sources.json 为准。"
+  },
+  "byYear": [
+    {
+      "year": 1939,
+      "commissioned": 18,
+      "lost": 9,
+      "lostMen": 204,
+      "atSeaMean": 17.8,
+      "atSeaMax": 43,
+      "note": "1939 年 9 月 3 日开战时在役 57 艘（含训练艇），其中远洋艇仅 26 艘；当年在航均值被 8 月末的大规模出航拉高，9 月 3 日当日约 40 艘在航（多为短程 II 型）。",
+      "caliber": "committed = uboat.net 逐艇 commissioned 日期落在该年；lost = uboat.net『Losses during YYYY』表行数；atSea = 逐艇巡逻记录（5,195 条）按出发日+天数还原的『至少一艘艇在海上』的艇·日集合，按天去重后取年均与峰值。",
+      "sources": [
+        "uboat_net",
+        "uboat_net_fates"
+      ],
+      "confidence": "high"
+    },
+    {
+      "year": 1940,
+      "commissioned": 50,
+      "lost": 24,
+      "lostMen": 643,
+      "atSeaMean": 14.1,
+      "atSeaMax": 36,
+      "note": "挪威战役（4–6 月）把 U 艇吸到北海，大西洋攻势几乎停摆；6 月法国沦陷后获得洛里昂、圣纳泽尔、拉罗谢尔、波尔多基地，航程缩短约 1,000 海里。",
+      "caliber": "同上",
+      "sources": [
+        "uboat_net",
+        "uboat_net_fates",
+        "roskill_1954"
+      ],
+      "confidence": "high"
+    },
+    {
+      "year": 1941,
+      "commissioned": 199,
+      "lost": 35,
+      "lostMen": 887,
+      "atSeaMean": 30.0,
+      "atSeaMax": 52,
+      "note": "3 月 HX 112 船团战十天之内 Prien 阵亡、Schepke 阵亡、Kretschmer 被俘；5 月起 Bletchley Park 稳定破译『海豚』（Dolphin），8 月起可密码分析破译。",
+      "caliber": "同上",
+      "sources": [
+        "uboat_net",
+        "blair_1996",
+        "hinsley_1979"
+      ],
+      "confidence": "high"
+    },
+    {
+      "year": 1942,
+      "commissioned": 237,
+      "lost": 87,
+      "lostMen": 3248,
+      "atSeaMean": 87.4,
+      "atSeaMax": 129,
+      "note": "Paukenschlag（1–8 月美国东岸与加勒比）造成 609 艘、约 310 万吨损失；2 月 1 日四转子 M4 启用，Bletchley 对『鲨鱼』（Shark）失明 10 个月；全年商船损失 6.27 百万吨（U 艇口径）。",
+      "caliber": "同上；此外 1942 年损失人数含被击沉与失踪，未计被俘。",
+      "sources": [
+        "uboat_net",
+        "blair_1996",
+        "hinsley_1988"
+      ],
+      "confidence": "high"
+    },
+    {
+      "year": 1943,
+      "commissioned": 284,
+      "lost": 244,
+      "lostMen": 10065,
+      "atSeaMean": 103.6,
+      "atSeaMax": 158,
+      "note": "4 月 29 日在航 158 艘为全战争峰值；5 月损失 41 艘（uboat.net 口径；Black May 词条作 43 艘），5 月 24 日邓尼茨撤出北大西洋。全年损失首次超过建造（244 vs 284 建造中的大部分未及服役）。",
+      "caliber": "同上；1943 年峰值日期 4 月 29 日与 uboat.net『1943-04-29 达 159 艘』的官方口径相差 1 艘（本表按巡逻记录还原，不含基地间转场）。",
+      "sources": [
+        "uboat_net",
+        "uboat_net_fates",
+        "blair_1998"
+      ],
+      "confidence": "high"
+    },
+    {
+      "year": 1944,
+      "commissioned": 221,
+      "lost": 249,
+      "lostMen": 7876,
+      "atSeaMean": 74.2,
+      "atSeaMax": 112,
+      "note": "6 月诺曼底前后在航短暂回升，随后因比斯开湾基地失守与通气管改装大量艇退出一线；新服役艇以 XXI/XXIII 为主但多数未完成战备训练。",
+      "caliber": "同上",
+      "sources": [
+        "uboat_net",
+        "uboat_net_fates",
+        "roskill_1961"
+      ],
+      "confidence": "high"
+    },
+    {
+      "year": 1945,
+      "commissioned": 88,
+      "lost": 135,
+      "lostMen": 4048,
+      "atSeaMean": 38.8,
+      "atSeaMax": 79,
+      "note": "5 月 4 日邓尼茨下令停止攻击，5 月 5 日起自沉（Regenbogen）；uboat.net 记 1945 年 1–5 月损失 135 艘，其中相当部分在港内被炸或自沉。",
+      "caliber": "同上；1945 年只到 5 月。",
+      "sources": [
+        "uboat_net",
+        "uboat_net_fates",
+        "rohwer_chronology"
+      ],
+      "confidence": "high"
+    }
+  ],
+  "totals": {
+    "commissionedAll": 1142,
+    "commissionedAllNote": "本表按 uboat.net 逐艇档案（1,142 个有效艇页，含 1935–1945 全部服役艇与未服役的 projects）统计；uboat.net 首页与巡逻索引常用『1,153』（含 14 艘外国艇），维基《U-boat》词条引 Haskell/Middlebrook 作『1,181 艘在投降前服役、863 艘执行作战巡逻、785 艘损失』。三套数字的差异在于：是否含外国艇、是否含未服役/未完成艇、以及 U-31 二次沉没是否重复计数。",
+    "commissionedTo19390903": 57,
+    "boatsWithPatrols": 848,
+    "boatsWithPatrolsNote": "本表口径：uboat.net 逐艇巡逻页的『N War patrol(s) located』字段，≥1 次作战巡逻的艇共 848 艘，作战巡逻合计 3,475 次、艇·日合计 118,952 天。维基《U-boat》词条引 Haskell/Middlebrook 作『863 艘执行作战巡逻』，与本表差 15 艘，主要差在 14 艘外国艇（UA、UD 系列、UIT 系列等）与少数只做过训练性短巡逻的艇是否计入。另有 550 艘从未执行作战巡逻（训练艇、未完成战备、或战沉于港内）。",
+    "lostAll": 783,
+    "lostAllNote": "uboat.net 逐年损失表合计（1939:9、1940:24、1941:35、1942:87、1943:244、1944:249、1945:135）。文献常引 785 或 793，差异来自 U-31 二次沉没、1945 年港内自沉与战后处置是否计入。",
+    "menKilled": 26971,
+    "menKilledNote": "逐年表 dead 列合计（1939:204、1940:643、1941:887、1942:3,248、1943:10,065、1944:7,876、1945:4,048 = 26,971）。uboat.net 另给『约 30,000 名 U 艇人员死亡』（含训练事故、岸上死亡与被俘后死亡），维基/Blair 常用 28,000–30,000。本表 26,971 只含『艇沉没时死亡』，是最窄口径。",
+    "merchantSunkGrt": 4159399,
+    "merchantSunkGrtNote": "本表统计的 60 艘代表艇合计战果：商船 779 艘 / 4,159,399 GRT、军舰 26 艘，不是全 U 艇部队战果。全 U 艇部队的常见口径是『约 2,600 艘商船 + 175 艘军舰』（维基《U-boat》词条引 Ireland 2003）；『2,919 艘 / 14,878,463 GRT』是 Blair 的**德意潜艇合计**（含布雷战果），不可直接当作 U 艇数字。见 02-uboat.md §7.2。",
+    "alliedSeamenKilled": 72200,
+    "alliedSeamenKilledNote": "盟军海军与商船船员合计（White 2008 / Bennett 2007 口径），非本表独立核算。"
+  },
+  "types": [
+    {
+      "id": "iia",
+      "zh": "IIA 型",
+      "role": "近岸训练/短程作战",
+      "commissioned": 6,
+      "displacementSf": 254,
+      "displacementSm": 303,
+      "lengthM": 40.9,
+      "beamM": 4.08,
+      "draughtM": 3.83,
+      "speedKnSf": 13,
+      "speedKnSm": 6.9,
+      "rangeNm": "1600/8（水面）",
+      "torpedoes": 5,
+      "tubes": "3/0",
+      "crew": "22–24",
+      "maxDepthM": 150,
+      "deckGun": "无",
+      "sources": [
+        "uboat_net_types"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "iib",
+      "zh": "IIB 型",
+      "role": "近岸（含黑海）",
+      "commissioned": 20,
+      "displacementSf": 279,
+      "displacementSm": 328,
+      "lengthM": 42.7,
+      "beamM": 4.08,
+      "draughtM": 3.9,
+      "speedKnSf": 13,
+      "speedKnSm": 7.0,
+      "rangeNm": "3100/8",
+      "torpedoes": 5,
+      "tubes": "3/0",
+      "crew": "22–24",
+      "maxDepthM": 150,
+      "deckGun": "无",
+      "sources": [
+        "uboat_net_types"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "iic",
+      "zh": "IIC 型",
+      "role": "近岸",
+      "commissioned": 8,
+      "displacementSf": 291,
+      "displacementSm": 341,
+      "lengthM": 43.9,
+      "beamM": 4.08,
+      "draughtM": 3.82,
+      "speedKnSf": 12,
+      "speedKnSm": 7.0,
+      "rangeNm": "3800/8",
+      "torpedoes": 5,
+      "tubes": "3/0",
+      "crew": "22–24",
+      "maxDepthM": 150,
+      "deckGun": "无",
+      "sources": [
+        "uboat_net_types"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "iid",
+      "zh": "IID 型",
+      "role": "近岸（黑海主力）",
+      "commissioned": 16,
+      "displacementSf": 314,
+      "displacementSm": 364,
+      "lengthM": 44.0,
+      "beamM": 4.33,
+      "draughtM": 3.88,
+      "speedKnSf": 12.7,
+      "speedKnSm": 7.4,
+      "rangeNm": "5650/8",
+      "torpedoes": 5,
+      "tubes": "3/0",
+      "crew": "23–25",
+      "maxDepthM": 150,
+      "deckGun": "无",
+      "sources": [
+        "uboat_net_types"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "viia",
+      "zh": "VIIA 型",
+      "role": "大西洋主力（首批）",
+      "commissioned": 10,
+      "displacementSf": 626,
+      "displacementSm": 745,
+      "lengthM": 64.51,
+      "beamM": 5.85,
+      "draughtM": 4.37,
+      "speedKnSf": 17,
+      "speedKnSm": 8.0,
+      "rangeNm": "6200/15",
+      "torpedoes": 11,
+      "tubes": "4/1",
+      "crew": "42–46",
+      "maxDepthM": 220,
+      "deckGun": "88/45",
+      "sources": [
+        "uboat_net_types"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "viib",
+      "zh": "VIIB 型",
+      "role": "大西洋主力（1939–41）",
+      "commissioned": 24,
+      "displacementSf": 753,
+      "displacementSm": 857,
+      "lengthM": 66.5,
+      "beamM": 6.2,
+      "draughtM": 4.74,
+      "speedKnSf": 17.9,
+      "speedKnSm": 8.0,
+      "rangeNm": "8700/10",
+      "torpedoes": 14,
+      "tubes": "4/1",
+      "crew": "44–48",
+      "maxDepthM": 220,
+      "deckGun": "88/45",
+      "sources": [
+        "uboat_net_types"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "viic",
+      "zh": "VIIC 型",
+      "role": "大西洋『主力驮马』",
+      "commissioned": 568,
+      "displacementSf": 769,
+      "displacementSm": 871,
+      "displacementTotal": 1070,
+      "lengthM": 67.1,
+      "lengthPhM": 50.5,
+      "beamM": 6.2,
+      "draughtM": 4.74,
+      "heightM": 9.6,
+      "speedKnSf": 17.7,
+      "speedKnSm": 7.6,
+      "rangeNm": "8500/10（水面）、80/4（水下）",
+      "torpedoes": 14,
+      "tubes": "4/1",
+      "mines": "26 TMA",
+      "crew": "44–52",
+      "maxDepthM": 220,
+      "deckGun": "88/45（220 发）",
+      "sources": [
+        "uboat_net_types"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "viic-41",
+      "zh": "VIIC/41 型",
+      "role": "加压艇体、可下潜更深",
+      "commissioned": 91,
+      "displacementSf": 759,
+      "displacementSm": 860,
+      "lengthM": 67.1,
+      "beamM": 6.2,
+      "draughtM": 4.8,
+      "speedKnSf": 17.7,
+      "speedKnSm": 7.6,
+      "rangeNm": "8500/10",
+      "torpedoes": 14,
+      "tubes": "4/1",
+      "crew": "44–52",
+      "maxDepthM": 250,
+      "deckGun": "88/45",
+      "sources": [
+        "uboat_net_types"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "viid",
+      "zh": "VIID 型",
+      "role": "布雷艇（VIIC 改）",
+      "commissioned": 6,
+      "displacementSf": 965,
+      "displacementSm": 1080,
+      "lengthM": 76.9,
+      "beamM": 6.38,
+      "draughtM": 5.0,
+      "speedKnSf": 16.7,
+      "speedKnSm": 7.3,
+      "rangeNm": "11200/10",
+      "torpedoes": 12,
+      "tubes": "4/1",
+      "mines": "15 SMA",
+      "crew": "46–52",
+      "maxDepthM": 200,
+      "deckGun": "88/45",
+      "sources": [
+        "uboat_net_types"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "viif",
+      "zh": "VIIF 型",
+      "role": "鱼雷运输艇",
+      "commissioned": 4,
+      "displacementSf": 1081,
+      "displacementSm": 1204,
+      "lengthM": 77.63,
+      "beamM": 7.3,
+      "draughtM": 4.91,
+      "speedKnSf": 16.9,
+      "speedKnSm": 7.9,
+      "rangeNm": "14700/10",
+      "torpedoes": 39,
+      "tubes": "4/1",
+      "crew": "46–52",
+      "maxDepthM": 200,
+      "deckGun": "无",
+      "sources": [
+        "uboat_net_types"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "ix",
+      "zh": "IX 型",
+      "role": "远洋（美洲东岸、南大西洋）",
+      "commissioned": 8,
+      "displacementSf": 1032,
+      "displacementSm": 1153,
+      "lengthM": 76.5,
+      "beamM": 6.51,
+      "draughtM": 4.7,
+      "speedKnSf": 18.2,
+      "speedKnSm": 7.7,
+      "rangeNm": "10500/10",
+      "torpedoes": 22,
+      "tubes": "4/2",
+      "crew": "48–56",
+      "maxDepthM": 230,
+      "deckGun": "105/45",
+      "sources": [
+        "uboat_net_types"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "ixb",
+      "zh": "IXB 型",
+      "role": "远洋（最成功的 IX 亚型）",
+      "commissioned": 14,
+      "displacementSf": 1051,
+      "displacementSm": 1178,
+      "lengthM": 76.5,
+      "beamM": 6.76,
+      "draughtM": 4.7,
+      "speedKnSf": 18.2,
+      "speedKnSm": 7.3,
+      "rangeNm": "12000/10",
+      "torpedoes": 22,
+      "tubes": "4/2",
+      "crew": "48–56",
+      "maxDepthM": 230,
+      "deckGun": "105/45",
+      "sources": [
+        "uboat_net_types"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "ixc",
+      "zh": "IXC 型",
+      "role": "远洋（加勒比与南大西洋）",
+      "commissioned": 54,
+      "displacementSf": 1120,
+      "displacementSm": 1232,
+      "lengthM": 76.76,
+      "beamM": 6.76,
+      "draughtM": 4.7,
+      "speedKnSf": 18.3,
+      "speedKnSm": 7.3,
+      "rangeNm": "13450/10",
+      "torpedoes": 22,
+      "tubes": "4/2",
+      "crew": "48–56",
+      "maxDepthM": 230,
+      "deckGun": "105/45",
+      "sources": [
+        "uboat_net_types"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "ixc40",
+      "zh": "IXC/40 型",
+      "role": "远洋（IXC 加长）",
+      "commissioned": 87,
+      "displacementSf": 1144,
+      "displacementSm": 1257,
+      "lengthM": 76.76,
+      "beamM": 6.86,
+      "draughtM": 4.67,
+      "speedKnSf": 18.3,
+      "speedKnSm": 7.3,
+      "rangeNm": "13850/10",
+      "torpedoes": 22,
+      "tubes": "4/2",
+      "crew": "48–56",
+      "maxDepthM": 230,
+      "deckGun": "105/45",
+      "sources": [
+        "uboat_net_types"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "ixd",
+      "zh": "IXD 型",
+      "role": "超远洋（印度洋、Monsun 集团）",
+      "commissioned": 30,
+      "displacementSf": 1610,
+      "displacementSm": 1799,
+      "lengthM": 87.58,
+      "beamM": 7.5,
+      "draughtM": 5.35,
+      "speedKnSf": 19.2,
+      "speedKnSm": 6.9,
+      "rangeNm": "31500/10",
+      "torpedoes": 24,
+      "tubes": "4/2",
+      "crew": "55–63",
+      "maxDepthM": 230,
+      "deckGun": "105/45",
+      "sources": [
+        "uboat_net_types"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "xb",
+      "zh": "XB 型",
+      "role": "远洋布雷艇 / 运输",
+      "commissioned": 8,
+      "displacementSf": 1763,
+      "displacementSm": 2177,
+      "lengthM": 89.8,
+      "beamM": 9.2,
+      "draughtM": 4.71,
+      "speedKnSf": 17,
+      "speedKnSm": 7.0,
+      "rangeNm": "18450/10",
+      "torpedoes": 15,
+      "tubes": "0/2",
+      "mines": "66 SMA",
+      "crew": "48–60",
+      "maxDepthM": 220,
+      "deckGun": "105/45",
+      "sources": [
+        "uboat_net_types"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "xiv",
+      "zh": "XIV 型「乳牛」",
+      "role": "海上补给（供油、鱼雷、食品）",
+      "commissioned": 10,
+      "displacementSf": 1668,
+      "displacementSm": 1932,
+      "lengthM": 67.1,
+      "beamM": 9.35,
+      "draughtM": 6.51,
+      "speedKnSf": 14.9,
+      "speedKnSm": 6.2,
+      "rangeNm": "12350/10",
+      "torpedoes": 0,
+      "tubes": "0/0",
+      "crew": "53–60",
+      "maxDepthM": 240,
+      "deckGun": "无（4×2 cm 高炮）",
+      "sources": [
+        "uboat_net_types"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "xxi",
+      "zh": "XXI 型（Elektro）",
+      "role": "通气管+大电池，水下高速",
+      "commissioned": 118,
+      "displacementSf": 1621,
+      "displacementSm": 1819,
+      "lengthM": 76.7,
+      "beamM": 8.0,
+      "draughtM": 6.32,
+      "speedKnSf": 15.6,
+      "speedKnSm": 17.2,
+      "rangeNm": "15500/10（水面）、340/5（水下）",
+      "torpedoes": 23,
+      "tubes": "6/0",
+      "mines": "12 TMC",
+      "crew": "57–60",
+      "maxDepthM": 280,
+      "deckGun": "无",
+      "sources": [
+        "uboat_net_types"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "xxiii",
+      "zh": "XXIII 型（Elektro 近岸）",
+      "role": "近岸伏击（英吉利海峡、北海）",
+      "commissioned": 61,
+      "displacementSf": 234,
+      "displacementSm": 258,
+      "lengthM": 34.68,
+      "beamM": 3.02,
+      "draughtM": 3.66,
+      "speedKnSf": 9.7,
+      "speedKnSm": 12.5,
+      "rangeNm": "2600/8（水面）、194/4（水下）",
+      "torpedoes": 2,
+      "tubes": "2/0",
+      "crew": "14–18",
+      "maxDepthM": 180,
+      "deckGun": "无",
+      "sources": [
+        "uboat_net_types"
+      ],
+      "confidence": "high"
+    }
+  ],
+  "boats": [
+    {
+      "id": "u9",
+      "boat": "U-9",
+      "type": "iib",
+      "typeZh": "IIB 型",
+      "builder": "F. Krupp Germaniawerft AG, Kiel",
+      "werk": "543",
+      "laidDown": "1935-04-08",
+      "launched": "1935-07-30",
+      "commissioned": "1935-08-21",
+      "firstCommander": "Kapitänleutnant Hans-Günther Looff",
+      "patrols": 19,
+      "successes": {
+        "shipsSunk": 7,
+        "grtSunk": 16669,
+        "warshipsSunk": 1,
+        "warshipsTons": 552,
+        "damagedShips": 1,
+        "damagedGrt": 412
+      },
+      "notable": "1940-05-09 击沉法国潜艇『多里斯』号（Q 135，552 t）——二战中少见的潜艇对潜艇战果。",
+      "wolfpacks": [],
+      "fate": {
+        "class": "air_raid_port",
+        "date": "1944-08-20",
+        "position": [
+          28.65,
+          44.17
+        ],
+        "text": "1944-08-20 在黑海康斯坦察被苏军空袭击沉；残骸 1944-10-22 由苏方打捞，1945-04-19 改名 TS-16 计划重建，1946-12-12 判定全损拆解。",
+        "place": "黑海 康斯坦察"
+      },
+      "zh": "IIB 型近岸艇，1935 年服役，是二战中最早参战的 U 艇之一。1939 年 9—10 月在北海与比斯开湾作战，1940 年后转波罗的海与黑海。1944 年 8 月在罗马尼亚康斯坦察港内被苏军空袭击沉。",
+      "sources": [
+        "uboat_net"
+      ],
+      "confidence": "high",
+      "daysAtSea": 370
+    },
+    {
+      "id": "u29",
+      "boat": "U-29",
+      "type": "viia",
+      "typeZh": "VIIA 型",
+      "builder": "AG Weser, Bremen",
+      "werk": "910",
+      "laidDown": "1936-01-02",
+      "launched": "1936-08-29",
+      "commissioned": "1936-11-16",
+      "firstCommander": "Kapitänleutnant Heinz Fischer",
+      "patrols": 7,
+      "successes": {
+        "shipsSunk": 12,
+        "grtSunk": 67277,
+        "warshipsSunk": 1,
+        "warshipsTons": 22500,
+        "damagedShips": 0,
+        "damagedGrt": 0
+      },
+      "notable": "1939-09-17 由 Otto Schuhart 在爱尔兰西南海域击沉英国航空母舰『勇敢』号（HMS Courageous，22,500 t，518 人死亡）——二战中第一艘被 U 艇击沉的航母。",
+      "wolfpacks": [],
+      "fate": {
+        "class": "scuttled",
+        "date": "1945-05-05",
+        "position": [
+          9.43,
+          54.83
+        ],
+        "text": "1944-04-17 退役作训练艇；1945-05-05 在弗伦斯堡附近 Kupfermühlen 湾自沉（Regenbogen 行动），残骸 1993 年仍在。",
+        "place": "弗伦斯堡 Kupfermühlen 湾"
+      },
+      "zh": "VIIA 型。Schuhart 指挥期间在开战两周内击沉英国航母「勇敢」号，是二战中第一艘被潜艇击沉的航空母舰，直接促使英国海军收缩航母在大西洋西部的反潜巡逻。",
+      "sources": [
+        "uboat_net"
+      ],
+      "confidence": "high",
+      "daysAtSea": 219
+    },
+    {
+      "id": "u30",
+      "boat": "U-30",
+      "type": "viia",
+      "typeZh": "VIIA 型",
+      "builder": "AG Weser, Bremen",
+      "werk": "911",
+      "laidDown": "1936-01-24",
+      "launched": "1936-09-04",
+      "commissioned": "1936-10-08",
+      "firstCommander": "Kapitänleutnant Hans Cohausz",
+      "patrols": 8,
+      "successes": {
+        "shipsSunk": 16,
+        "grtSunk": 86165,
+        "warshipsSunk": 1,
+        "warshipsTons": 325,
+        "damagedShips": 1,
+        "damagedGrt": 5642
+      },
+      "notable": "1939-09-03 由 Fritz-Julius Lemp 在赫布里底以西误击英国客轮『雅典娜』号（SS Athenia，13,581 GRT），造成 117 名平民与船员死亡，其中 28 名美国人——二战中第一艘被 U 艇击沉的英国船，也是德国被指战争罪行的起点。德国宣传部反诬英方自沉，并伪造 Lemp 的日志。",
+      "wolfpacks": [
+        "Prien"
+      ],
+      "fate": {
+        "class": "scuttled",
+        "date": "1945-05-05",
+        "position": [
+          9.43,
+          54.83
+        ],
+        "text": "1945-01-23 退役作训练艇；1945-05-05 在 Kupfermühlen 湾自沉，1948 年拆解。",
+        "place": "弗伦斯堡 Kupfermühlen 湾"
+      },
+      "zh": "VIIA 型。开战当日击沉「雅典娜」号客轮，117 人死亡（含 28 名美国公民），几乎引发美德外交危机；德国宣传部反诬英方自沉。此事件确立了早期 U 艇「无限制潜艇战」的实际做法，也让希特勒在最初几个月对 U 艇作战施加了严格限制。",
+      "sources": [
+        "uboat_net",
+        "blair_1996"
+      ],
+      "confidence": "high",
+      "daysAtSea": 189
+    },
+    {
+      "id": "u32",
+      "boat": "U-32",
+      "type": "viia",
+      "typeZh": "VIIA 型",
+      "builder": "AG Weser, Bremen",
+      "werk": "913",
+      "laidDown": "1936-03-15",
+      "launched": "1937-02-25",
+      "commissioned": "1937-04-15",
+      "firstCommander": "Kapitänleutnant Werner Lott",
+      "patrols": 9,
+      "successes": {
+        "shipsSunk": 20,
+        "grtSunk": 116836,
+        "warshipsSunk": 0,
+        "warshipsTons": 0,
+        "damagedShips": 4,
+        "damagedGrt": 32274
+      },
+      "notable": "1939-10-17 捕获英国货轮，并曾击伤英国轻巡洋舰『斐济』号（HMS Fiji，8,000 t）。",
+      "wolfpacks": [
+        "Prien"
+      ],
+      "fate": {
+        "class": "sunk",
+        "date": "1940-10-30",
+        "position": [
+          -12.32,
+          55.62
+        ],
+        "text": "1940-10-30 在爱尔兰西北被英国驱逐舰『哈维斯特』号（HMS Harvester）与『高地人』号（HMS Highlander）深弹击沉，9 人死亡、33 人获救。",
+        "place": "爱尔兰西北 55°37′N 12°19′W"
+      },
+      "zh": "VIIA 型。开战初期在北大西洋执行《 Prize 条例》式的商船捕获战，1939 年 10 月捕获并击沉多艘英国货轮。1940 年 10 月在爱尔兰西北被两艘英国驱逐舰击沉。",
+      "sources": [
+        "uboat_net"
+      ],
+      "confidence": "high",
+      "daysAtSea": 172
+    },
+    {
+      "id": "u37",
+      "boat": "U-37",
+      "type": "ix",
+      "typeZh": "IX 型",
+      "builder": "AG Weser, Bremen",
+      "werk": "942",
+      "laidDown": "1937-03-15",
+      "launched": "1938-05-14",
+      "commissioned": "1938-08-04",
+      "firstCommander": "Kapitänleutnant Heinrich Schuch",
+      "patrols": 11,
+      "successes": {
+        "shipsSunk": 53,
+        "grtSunk": 200063,
+        "warshipsSunk": 2,
+        "warshipsTons": 2404,
+        "damagedShips": 1,
+        "damagedGrt": 9494
+      },
+      "notable": "开战初期最成功的 U 艇之一：1939 年 8—9 月首航即在北大西洋与比斯开湾连续击沉商船，击沉英国辅助巡洋舰『彭赞斯』号（HMS Penzance，1,025 t）。",
+      "wolfpacks": [
+        "Hartmann"
+      ],
+      "fate": {
+        "class": "scuttled",
+        "date": "1945-05-05",
+        "position": [
+          9.78,
+          54.92
+        ],
+        "text": "1945-05-05 在弗伦斯堡 Hörup Haff 自沉（54°55′N 09°47′E），1946 年拆解。",
+        "place": "Hörup Haff"
+      },
+      "zh": "IX 型远洋艇。首任艇长 Schuch 在开战头两个月击沉 20 余艘商船，是「快乐时光」前夜德国海军宣传的重点。此后长期在地中海与南大西洋作战，1945 年 5 月自沉。",
+      "sources": [
+        "uboat_net"
+      ],
+      "confidence": "high",
+      "daysAtSea": 280
+    },
+    {
+      "id": "u38",
+      "boat": "U-38",
+      "type": "ix",
+      "typeZh": "IX 型",
+      "builder": "AG Weser, Bremen",
+      "werk": "943",
+      "laidDown": "1937-04-15",
+      "launched": "1938-08-09",
+      "commissioned": "1938-10-24",
+      "firstCommander": "Kapitänleutnant Heinrich Liebe",
+      "patrols": 11,
+      "successes": {
+        "shipsSunk": 35,
+        "grtSunk": 188967,
+        "warshipsSunk": 0,
+        "warshipsTons": 0,
+        "damagedShips": 1,
+        "damagedGrt": 3670
+      },
+      "notable": "Heinrich Liebe（橡叶骑士十字勋章）指挥期间的战果几乎全部在 1939—1941 年取得，是 IX 型在「快乐时光」中的代表。",
+      "wolfpacks": [
+        "West",
+        "Grönland",
+        "Markgraf",
+        "Seewolf",
+        "Brandenburg"
+      ],
+      "fate": {
+        "class": "scuttled",
+        "date": "1945-05-05",
+        "position": [
+          8.53,
+          53.57
+        ],
+        "text": "1945-05-05 在韦瑟蒙德以西自沉（53°34′N 08°32′E），1948 年拆解。",
+        "place": "韦瑟蒙德（Wesermünde）"
+      },
+      "zh": "IX 型。Liebe 指挥期间主要在北大西洋与比斯开湾作战，1941 年后转波罗的海训练部队。1945 年 5 月自沉。",
+      "sources": [
+        "uboat_net"
+      ],
+      "confidence": "high",
+      "daysAtSea": 406
+    },
+    {
+      "id": "u39",
+      "boat": "U-39",
+      "type": "ix",
+      "typeZh": "IX 型",
+      "builder": "AG Weser, Bremen",
+      "werk": "944",
+      "laidDown": "1937-06-02",
+      "launched": "1938-08-22",
+      "commissioned": "1938-12-10",
+      "firstCommander": "Kapitänleutnant Gerhard Glattes",
+      "patrols": 1,
+      "successes": {
+        "shipsSunk": 0,
+        "grtSunk": 0,
+        "warshipsSunk": 0,
+        "warshipsTons": 0,
+        "damagedShips": 0,
+        "damagedGrt": 0
+      },
+      "notable": "1939-09-14 在攻击英国航母『皇家方舟』号时鱼雷提前爆炸暴露位置，被『福克诺』『猎狐犬』『火蜥蜴』号驱逐舰深弹击伤后浮出水面投降——二战中第一艘被击沉、也是第一艘向盟军投降的 U 艇。",
+      "wolfpacks": [],
+      "fate": {
+        "class": "sunk",
+        "date": "1939-09-14",
+        "position": [
+          -11.82,
+          58.53
+        ],
+        "text": "1939-09-14 在赫布里底以西被英国驱逐舰深弹击沉（58°32′N 11°49′W），44 人全部获救。",
+        "place": "赫布里底以西"
+      },
+      "zh": "IX 型。开战第 12 天即因鱼雷磁性引信故障暴露而被击沉，44 名艇员全部生还。这次事件与随后 U-30 的鱼雷问题共同促成德国海军 1939—1940 年对 G7a/G7e 鱼雷引信的大规模整改。",
+      "sources": [
+        "uboat_net",
+        "blair_1996"
+      ],
+      "confidence": "high",
+      "daysAtSea": 27
+    },
+    {
+      "id": "u47",
+      "boat": "U-47",
+      "type": "viib",
+      "typeZh": "VIIB 型",
+      "builder": "F. Krupp Germaniawerft AG, Kiel",
+      "werk": "582",
+      "laidDown": "1937-02-27",
+      "launched": "1938-10-29",
+      "commissioned": "1938-12-17",
+      "firstCommander": "Oberleutnant zur See Günther Prien",
+      "patrols": 10,
+      "successes": {
+        "shipsSunk": 30,
+        "grtSunk": 162769,
+        "warshipsSunk": 1,
+        "warshipsTons": 29150,
+        "damagedShips": 8,
+        "damagedGrt": 62751
+      },
+      "notable": "1939-10-14 凌晨潜入斯卡帕湾，击沉英国战列舰『皇家橡树』号（HMS Royal Oak，29,150 t，835 人死亡）——二战中最著名的潜艇突袭，也是英国本土舰队锚地首次被突破。",
+      "wolfpacks": [
+        "Prien"
+      ],
+      "fate": {
+        "class": "missing",
+        "date": "1941-03-07",
+        "position": [
+          -13.0,
+          60.0
+        ],
+        "text": "1941-03-07 04:54 发出最后一次电文，此后在追击 OB-293 船团时失踪（约 60°00′N 13°00′W）；45 人全部死亡。战后评估（FDS/NHB 1991）排除了『被『狼獾』号击沉』的旧说，可能原因为水雷、自身鱼雷或护航舰深弹，至今无定论。",
+        "place": "冰岛以南 北大西洋"
+      },
+      "zh": "VIIB 型，Prien 指挥。1939 年 10 月夜袭斯卡帕湾击沉「皇家橡树」号，使德国宣传机器把 Prien 塑造成国民英雄。此后在大西洋与比斯开湾作战，1941 年 3 月在冰岛以南失踪，全艇 45 人无生还，沉没原因至今是海战史悬案。",
+      "sources": [
+        "uboat_net",
+        "blair_1996",
+        "oni_prien_u47"
+      ],
+      "confidence": "low",
+      "daysAtSea": 238
+    },
+    {
+      "id": "u48",
+      "boat": "U-48",
+      "type": "viib",
+      "typeZh": "VIIB 型",
+      "builder": "F. Krupp Germaniawerft AG, Kiel",
+      "werk": "583",
+      "laidDown": "1937-03-10",
+      "launched": "1939-04-08",
+      "commissioned": "1939-04-22",
+      "firstCommander": "Kapitänleutnant Herbert Schultze",
+      "patrols": 12,
+      "successes": {
+        "shipsSunk": 51,
+        "grtSunk": 306874,
+        "warshipsSunk": 1,
+        "warshipsTons": 1060,
+        "damagedShips": 3,
+        "damagedGrt": 20480
+      },
+      "notable": "全战争战果最高的 U 艇（51 艘、306,874 GRT，不含军舰）。历任 Schultze、Rösing、Ites；1940 年 9 月 15 日击沉英国辅助防空舰『邓迪』号（HMS Dundee，1,060 t）。",
+      "wolfpacks": [
+        "Prien",
+        "West"
+      ],
+      "fate": {
+        "class": "scuttled",
+        "date": "1945-05-03",
+        "position": [
+          10.83,
+          54.1
+        ],
+        "text": "1943-09-25 退役作训练艇；1945-05-03 在诺伊施塔特（Neustadt）自沉。",
+        "place": "诺伊施塔特（Neustadt in Holstein）"
+      },
+      "zh": "VIIB 型，全战争吨位战果第一。1940—1941 年在北大西洋与比斯开湾的高效作战，体现了 VIIB 型「水下续航 + 水面航速」的均衡设计。1943 年后退出前线，改为训练艇。",
+      "sources": [
+        "uboat_net",
+        "uboat_net_ops"
+      ],
+      "confidence": "high",
+      "daysAtSea": 325
+    },
+    {
+      "id": "u99",
+      "boat": "U-99",
+      "type": "viib",
+      "typeZh": "VIIB 型",
+      "builder": "F. Krupp Germaniawerft AG, Kiel",
+      "werk": "593",
+      "laidDown": "1939-03-31",
+      "launched": "1940-03-12",
+      "commissioned": "1940-04-18",
+      "firstCommander": "Kapitänleutnant Otto Kretschmer",
+      "patrols": 8,
+      "successes": {
+        "shipsSunk": 35,
+        "grtSunk": 198218,
+        "warshipsSunk": 3,
+        "warshipsTons": 46440,
+        "damagedShips": 5,
+        "damagedGrt": 37965,
+        "captured": 1
+      },
+      "notable": "Kretschmer 的「一次一雷」水面夜袭战术的典范。1940-11-03/04 一夜击沉英国辅助巡洋舰『劳伦蒂克』号（18,724 t）与『帕特罗克洛斯』号（11,314 t）；1940-12-02 击沉『福法尔』号（16,402 t）。",
+      "wolfpacks": [],
+      "fate": {
+        "class": "scuttled_damaged",
+        "date": "1941-03-17",
+        "position": [
+          -11.8,
+          61.0
+        ],
+        "text": "1941-03-17 03:43 在 HX 112 船团战中被英国驱逐舰『沃克』号（HMS Walker）深弹重创后自沉（61°00′N 11°48′W）；3 人死亡、40 人获救，Kretschmer 被俘。",
+        "place": "冰岛东南 北大西洋"
+      },
+      "zh": "VIIB 型，Kretschmer 指挥。8 次巡逻击沉 35 艘商船（198,218 GRT），是「夜间水面突袭」战术的化身。1941 年 3 月 17 日在 HX 112 船团战中被击沉，Kretschmer 被俘；他与两天前阵亡的 Schepke、十天前失踪的 Prien 一起，标志德国 U 艇部队第一代王牌的集体谢幕。",
+      "sources": [
+        "uboat_net",
+        "blair_1996"
+      ],
+      "confidence": "high",
+      "daysAtSea": 127
+    },
+    {
+      "id": "u100",
+      "boat": "U-100",
+      "type": "viib",
+      "typeZh": "VIIB 型",
+      "builder": "F. Krupp Germaniawerft AG, Kiel",
+      "werk": "594",
+      "laidDown": "1939-05-22",
+      "launched": "1940-04-10",
+      "commissioned": "1940-05-30",
+      "firstCommander": "Kapitänleutnant Joachim Schepke",
+      "patrols": 6,
+      "successes": {
+        "shipsSunk": 25,
+        "grtSunk": 135614,
+        "warshipsSunk": 0,
+        "warshipsTons": 0,
+        "damagedShips": 4,
+        "damagedGrt": 17229
+      },
+      "notable": "1941-03-17 在 HX 112 船团战中被英国驱逐舰『瓦诺克』号（HMS Vanoc）撞击，随后与『沃克』号的深弹夹击下沉没；Schepke 阵亡。",
+      "wolfpacks": [],
+      "fate": {
+        "class": "sunk",
+        "date": "1941-03-17",
+        "position": [
+          -11.5,
+          61.07
+        ],
+        "text": "1941-03-17 03:18 在冰岛东南被『瓦诺克』号撞击与两舰深弹击沉（61°04′N 11°30′W）；38 人死亡、6 人获救。",
+        "place": "冰岛东南 北大西洋"
+      },
+      "zh": "VIIB 型，Schepke 指挥。与 Prien、Kretschmer 并称开战初期「三王牌」，以在指挥塔上高调喊话闻名。1941 年 3 月 17 日与 U-99 同日被歼，德国 U 艇部队在一天内失去两位顶级指挥官。",
+      "sources": [
+        "uboat_net",
+        "blair_1996"
+      ],
+      "confidence": "high",
+      "daysAtSea": 112
+    },
+    {
+      "id": "u73",
+      "boat": "U-73",
+      "type": "viib",
+      "typeZh": "VIIB 型",
+      "builder": "Bremer Vulkan-Vegesacker Werft, Bremen-Vegesack",
+      "werk": "1",
+      "laidDown": "1939-11-05",
+      "launched": "1940-07-27",
+      "commissioned": "1940-09-30",
+      "firstCommander": "Kapitänleutnant Helmut Rosenbaum",
+      "patrols": 15,
+      "successes": {
+        "shipsSunk": 8,
+        "grtSunk": 43945,
+        "warshipsSunk": 4,
+        "warshipsTons": 22947,
+        "damagedShips": 3,
+        "damagedGrt": 22928
+      },
+      "notable": "1942-08-11 在地中海击沉英国航空母舰『鹰』号（HMS Eagle，22,600 t）——『基座行动』（Operation Pedestal）护航战的一部分。",
+      "wolfpacks": [
+        "West",
+        "Grönland",
+        "Markgraf",
+        "Seewolf",
+        "Brandenburg"
+      ],
+      "fate": {
+        "class": "sunk",
+        "date": "1943-12-16",
+        "position": [
+          -0.83,
+          36.12
+        ],
+        "text": "1943-12-16 在奥兰（Oran）以北被美国驱逐舰『伍尔西』号（USS Woolsey）与『特里普』号（USS Trippe）深弹与炮火击沉；16 人死亡、34 人获救。",
+        "place": "地中海 奥兰以北"
+      },
+      "zh": "VIIB 型，Rosenbaum 指挥。1942 年 8 月击沉英国航母「鹰」号，是地中海战区 U 艇最重要的单舰战果之一。1943 年底在奥兰外海被两艘美军驱逐舰击沉。",
+      "sources": [
+        "uboat_net"
+      ],
+      "confidence": "high",
+      "daysAtSea": 387
+    },
+    {
+      "id": "u101",
+      "boat": "U-101",
+      "type": "viib",
+      "typeZh": "VIIB 型",
+      "builder": "F. Krupp Germaniawerft AG, Kiel",
+      "werk": "595",
+      "laidDown": "1939-03-31",
+      "launched": "1939-09-13",
+      "commissioned": "1940-03-11",
+      "firstCommander": "Kapitänleutnant Fritz Frauenheim",
+      "patrols": 10,
+      "successes": {
+        "shipsSunk": 22,
+        "grtSunk": 111673,
+        "warshipsSunk": 1,
+        "warshipsTons": 1190,
+        "damagedShips": 2,
+        "damagedGrt": 9113
+      },
+      "notable": "1941-10-18 击沉英国驱逐舰『布罗德沃特』号（HMS Broadwater，1,190 t）。",
+      "wolfpacks": [
+        "Markgraf",
+        "Seewolf",
+        "Brandenburg",
+        "Grönland"
+      ],
+      "fate": {
+        "class": "decommissioned",
+        "date": "1943-10-22",
+        "position": null,
+        "text": "1943-10-22 退役作训练艇；1945-05-03 在诺伊施塔特被四架英国『台风』式火箭攻击击沉（54°07′N 10°50′E），战后拆解。",
+        "place": "诺伊施塔特（Neustadt in Holstein）"
+      },
+      "zh": "VIIB 型。1940—1941 年在大西洋作战，战果稳定；1943 年退出一线后仍以训练艇身份服役到战争结束，最终在港内被火箭击沉。",
+      "sources": [
+        "uboat_net"
+      ],
+      "confidence": "high",
+      "daysAtSea": 286
+    },
+    {
+      "id": "u96",
+      "boat": "U-96",
+      "type": "viic",
+      "typeZh": "VIIC 型",
+      "builder": "F. Krupp Germaniawerft AG, Kiel",
+      "werk": "601",
+      "laidDown": "1939-09-16",
+      "launched": "1940-08-01",
+      "commissioned": "1940-09-14",
+      "firstCommander": "Kapitänleutnant Heinrich Lehmann-Willenbrock",
+      "patrols": 11,
+      "successes": {
+        "shipsSunk": 27,
+        "grtSunk": 181206,
+        "warshipsSunk": 0,
+        "warshipsTons": 0,
+        "damagedShips": 4,
+        "damagedGrt": 33043
+      },
+      "notable": "1941 年 12 月被派往地中海；1942 年 1 月在美国东岸（Drumbeat）作战。1981 年电影《从海底出击》（Das Boot）即以该艇 1941 年 7 次巡逻为原型。",
+      "wolfpacks": [
+        "Störtebecker",
+        "Grönland",
+        "Markgraf",
+        "Reissewolf",
+        "Stosstrupp",
+        "Raubritter",
+        "West",
+        "Seewolf",
+        "Brandenburg",
+        "Breslau"
+      ],
+      "fate": {
+        "class": "air_raid_port",
+        "date": "1945-03-30",
+        "position": [
+          8.13,
+          53.53
+        ],
+        "text": "1945-02-15 在威廉港退役；1945-03-30 在威廉港『希佩尔池』被美国第 8 航空队轰炸机炸沉。",
+        "place": "威廉港（Wilhelmshaven）"
+      },
+      "zh": "VIIC 型，Lehmann-Willenbrock 指挥，是 VIIC 型最著名的一艘。11 次巡逻击沉 27 艘商船（181,206 GRT），1941—1942 年活跃于北大西洋与比斯开湾；电影《从海底出击》以该艇为原型，其叙事来源是随艇记者 Lothar-Günther Buchheim 的战时记录。",
+      "sources": [
+        "uboat_net",
+        "blair_1996"
+      ],
+      "confidence": "high",
+      "daysAtSea": 425
+    },
+    {
+      "id": "u552",
+      "boat": "U-552",
+      "type": "viic",
+      "typeZh": "VIIC 型",
+      "builder": "Blohm & Voss, Hamburg",
+      "werk": "528",
+      "laidDown": "1939-12-01",
+      "launched": "1940-09-07",
+      "commissioned": "1940-12-04",
+      "firstCommander": "Oberleutnant zur See Erich Topp",
+      "patrols": 15,
+      "successes": {
+        "shipsSunk": 30,
+        "grtSunk": 163756,
+        "warshipsSunk": 1,
+        "warshipsTons": 1190,
+        "damagedShips": 3,
+        "damagedGrt": 26910
+      },
+      "notable": "1941-10-31 击沉美国驱逐舰『鲁本·詹姆斯』号（USS Reuben James，DD-245，1,190 t，115 人死亡）——珍珠港事件前美军最大单次伤亡，美国海军据此把中立巡逻改为护航。",
+      "wolfpacks": [
+        "Brandenburg",
+        "Grönland",
+        "Markgraf",
+        "Reissewolf",
+        "Stosstrupp",
+        "West",
+        "Seewolf",
+        "Raubritter",
+        "Störtebecker",
+        "Stier",
+        "Streitaxt",
+        "Seydlitz",
+        "Lerche",
+        "Luchs"
+      ],
+      "fate": {
+        "class": "scuttled",
+        "date": "1945-05-05",
+        "position": [
+          8.13,
+          53.53
+        ],
+        "text": "1945-02 退役；1945-05-05 在威廉港西入口 Readerschleuse 自沉，战后拆解。",
+        "place": "威廉港（Wilhelmshaven）"
+      },
+      "zh": "VIIC 型，Topp 指挥。1941 年 10 月击沉美国驱逐舰「鲁本·詹姆斯」号，是美德两国在正式开战前的准战争状态的高潮。Topp 后来成为联邦德国海军军官，官至少将。",
+      "sources": [
+        "uboat_net",
+        "blair_1996"
+      ],
+      "confidence": "high",
+      "daysAtSea": 615
+    },
+    {
+      "id": "u203",
+      "boat": "U-203",
+      "type": "viic",
+      "typeZh": "VIIC 型",
+      "builder": "F. Krupp Germaniawerft AG, Kiel",
+      "werk": "632",
+      "laidDown": "1940-03-28",
+      "launched": "1940-12-04",
+      "commissioned": "1941-02-18",
+      "firstCommander": "Kapitänleutnant Rolf Mützelburg",
+      "patrols": 11,
+      "successes": {
+        "shipsSunk": 19,
+        "grtSunk": 91577,
+        "warshipsSunk": 0,
+        "warshipsTons": 0,
+        "damagedShips": 3,
+        "damagedGrt": 17052
+      },
+      "notable": "1942 年 1 月在美国东岸（Drumbeat）作战。1943-04-25 被护航航母『比特』号（HMS Biter）的剑鱼式飞机与驱逐舰『探路者』号击沉——护航航母反潜的典型战例。",
+      "wolfpacks": [
+        "West",
+        "Grönland",
+        "Markgraf",
+        "Reissewolf",
+        "Stosstrupp",
+        "Raubritter",
+        "Störtebecker",
+        "Seewolf",
+        "Brandenburg",
+        "Breslau",
+        "Stier"
+      ],
+      "fate": {
+        "class": "sunk",
+        "date": "1943-04-25",
+        "position": [
+          -42.42,
+          55.08
+        ],
+        "text": "1943-04-25 在法韦尔角以南被『比特』号护航航母的剑鱼机深弹与英国驱逐舰『探路者』号（HMS Pathfinder）击沉（55°05′N 42°25′W）；10 人死亡、38 人获救。",
+        "place": "法韦尔角以南"
+      },
+      "zh": "VIIC 型。1942 年参加 Drumbeat 美国东岸攻势，1943 年 4 月在北大西洋被护航航母的剑鱼机发现并配合驱逐舰击沉，是「护航航母 + 驱逐舰」反潜编组奏效的早期样本。",
+      "sources": [
+        "uboat_net"
+      ],
+      "confidence": "high",
+      "daysAtSea": 329
+    },
+    {
+      "id": "u201",
+      "boat": "U-201",
+      "type": "viic",
+      "typeZh": "VIIC 型",
+      "builder": "F. Krupp Germaniawerft AG, Kiel",
+      "werk": "630",
+      "laidDown": "1940-01-20",
+      "launched": "1940-12-07",
+      "commissioned": "1941-01-25",
+      "firstCommander": "Oberleutnant zur See Adalbert Schnee",
+      "patrols": 9,
+      "successes": {
+        "shipsSunk": 22,
+        "grtSunk": 102697,
+        "warshipsSunk": 2,
+        "warshipsTons": 5700,
+        "damagedShips": 2,
+        "damagedGrt": 13386
+      },
+      "notable": "Adalbert Schnee（橡叶骑士十字勋章）以在船团正前方「贴身」攻击闻名；1941-09-27 击沉英国辅助巡洋舰『斯普林班克』号（HMS Springbank，5,155 t）。",
+      "wolfpacks": [
+        "West",
+        "Grönland",
+        "Markgraf",
+        "Reissewolf",
+        "Stosstrupp",
+        "Raubritter",
+        "Brandenburg",
+        "Breslau"
+      ],
+      "fate": {
+        "class": "sunk",
+        "date": "1943-02-17",
+        "position": [
+          -40.83,
+          50.83
+        ],
+        "text": "1943-02-17 在纽芬兰以东被英国驱逐舰『子爵』号（HMS Viscount）深弹击沉（50°50′N 40°50′W）；49 人全部死亡（FDS/NHB 1997 订正）。",
+        "place": "纽芬兰以东 50°50′N 40°50′W"
+      },
+      "zh": "VIIC 型，Schnee 指挥。Schnee 以「潜入船团纵列之间逐艘点名」的攻击方式著称，是狼群战术中「贴身近战」派的代表。1943 年 2 月在纽芬兰以东被单艘驱逐舰击沉，全艇无生还。",
+      "sources": [
+        "uboat_net"
+      ],
+      "confidence": "high",
+      "daysAtSea": 339
+    },
+    {
+      "id": "u333",
+      "boat": "U-333",
+      "type": "viic",
+      "typeZh": "VIIC 型",
+      "builder": "Nordseewerke, Emden",
+      "werk": "205",
+      "laidDown": "1940-03-11",
+      "launched": "1941-06-14",
+      "commissioned": "1941-08-25",
+      "firstCommander": "Kapitänleutnant Peter Erich Cremer",
+      "patrols": 12,
+      "successes": {
+        "shipsSunk": 7,
+        "grtSunk": 32107,
+        "warshipsSunk": 0,
+        "warshipsTons": 0,
+        "damagedShips": 1,
+        "damagedGrt": 8327,
+        "note": "1942-01-31 误击德国 blockade runner『施普雷瓦尔德』号（Spreewald），造成包括 86 名战俘在内的重大伤亡——U 艇误击己方船只的著名案例。"
+      },
+      "notable": "1942-10-06 在塞拉利昂外海与英国轻护舰『藏红花』号（HMS Crocus）近距离炮战并被两次撞击，3 人死亡（含副艇长）、艇长 Cremer 重伤，带伤返航；Cremer 住院三个月后重返指挥。",
+      "wolfpacks": [
+        "West",
+        "Grönland",
+        "Markgraf",
+        "Reissewolf",
+        "Stosstrupp",
+        "Raubritter",
+        "Störtebecker",
+        "Breslau",
+        "Stier"
+      ],
+      "fate": {
+        "class": "sunk",
+        "date": "1944-07-31",
+        "position": [
+          -7.47,
+          49.65
+        ],
+        "text": "1944-07-31 在锡利群岛以西被英国单桅帆船『燕八哥』号（HMS Starling）与护卫舰『洛赫基林』号（HMS Loch Killin）深弹击沉（49°39′N 07°28′W）；45 人全部死亡。",
+        "place": "锡利群岛以西"
+      },
+      "zh": "VIIC 型，Cremer 指挥。1942 年 10 月与英国轻护舰「藏红花」号在塞拉利昂外海爆发罕见的水面炮战，U-333 被撞击两次、副艇长阵亡、Cremer 重伤，仍带伤返航——这场战斗是 U 艇与护航舰「对等交火」的少数样本，也说明 1942 年 U 艇仍敢在水面与轻护舰对抗。1944 年 7 月在锡利群岛以西被约翰·沃克的第 2 支援群击沉，45 人全部死亡。",
+      "sources": [
+        "uboat_net"
+      ],
+      "confidence": "high",
+      "daysAtSea": 482
+    },
+    {
+      "id": "u441",
+      "boat": "U-441",
+      "type": "viic",
+      "typeZh": "VIIC 型（U-Flak 改装）",
+      "builder": "F. Schichau GmbH, Danzig",
+      "werk": "1492",
+      "laidDown": "1940-10-15",
+      "launched": "1941-12-13",
+      "commissioned": "1942-02-21",
+      "firstCommander": "Kapitänleutnant Klaus Hartmann",
+      "patrols": 9,
+      "successes": {
+        "shipsSunk": 1,
+        "grtSunk": 7051,
+        "warshipsSunk": 0,
+        "warshipsTons": 0,
+        "damagedShips": 0,
+        "damagedGrt": 0
+      },
+      "notable": "1943 年 5 月起改装为「高射炮艇」（U-Flak），加装 2×2 cm 四联 + 1×3.7 cm 高炮，专在比斯开湾诱击飞机；1943-05-24 击落一架英军桑德兰，但自身也被重创，改装被证明失败并撤除。",
+      "wolfpacks": [
+        "Panther",
+        "Puma",
+        "Spitz",
+        "Falke",
+        "Neuland",
+        "Dränger",
+        "Seewolf",
+        "Schill",
+        "Hinein",
+        "Igel 1",
+        "Hai 1",
+        "Preussen",
+        "Dragoner"
+      ],
+      "fate": {
+        "class": "sunk",
+        "date": "1944-06-30",
+        "position": [
+          -3.68,
+          49.62
+        ],
+        "text": "1944-06-30 在根西岛以西被英国 224 中队解放者机深弹与四艘护卫舰（Essington、Duckworth、Domett、Cooke）击沉（49°37′N 03°41′W）；51 人全部死亡（Niestlé 2006 订正）。",
+        "place": "英吉利海峡 根西岛以西"
+      },
+      "zh": "VIIC 型改装的高射炮艇。1943 年德国海军试图用加强防空火力的 U 艇在比斯开湾「以艇诱机」，实战证明 U 艇在水面与飞机对射极为不利，U-441 的改装被撤回。1944 年 6 月在英吉利海峡被飞机与护卫舰协同击沉。",
+      "sources": [
+        "uboat_net"
+      ],
+      "confidence": "high",
+      "daysAtSea": 262
+    },
+    {
+      "id": "u570",
+      "boat": "U-570",
+      "type": "viic",
+      "typeZh": "VIIC 型",
+      "builder": "Blohm & Voss, Hamburg",
+      "werk": "546",
+      "laidDown": "1940-05-21",
+      "launched": "1941-03-20",
+      "commissioned": "1941-05-15",
+      "firstCommander": "Kapitänleutnant Hans-Joachim Rahmlow",
+      "patrols": 1,
+      "successes": {
+        "shipsSunk": 0,
+        "grtSunk": 0,
+        "warshipsSunk": 0,
+        "warshipsTons": 0,
+        "damagedShips": 0,
+        "damagedGrt": 0
+      },
+      "notable": "1941-08-27 在冰岛以南被 269 中队哈德逊机深弹重创后向英军投降，改编号 HMS Graph 在英国海军服役至 1944 年——盟军第一次完整俘获并试飞一艘 U 艇。",
+      "wolfpacks": [],
+      "fate": {
+        "class": "captured",
+        "date": "1941-08-27",
+        "position": [
+          -18.58,
+          62.25
+        ],
+        "text": "1941-08-27 在冰岛以南被英国哈德逊机重创后投降（62°15′N 18°35′W），拖至冰岛 Thorlakshafn 修复，1941-09-19 编入英国海军为 HMS Graph。1944 年 3 月触礁报废。",
+        "place": "冰岛以南"
+      },
+      "zh": "VIIC 型。首次巡逻即被单架哈德逊机俘获，艇员 44 人全部生还。英国海军把它修好编为「格拉夫」号，用于测试 U 艇的潜航性能与战术，并多次以「假 U 艇」身份参加反潜演习。",
+      "sources": [
+        "uboat_net",
+        "blair_1996"
+      ],
+      "confidence": "high",
+      "daysAtSea": 7
+    },
+    {
+      "id": "u559",
+      "boat": "U-559",
+      "type": "viic",
+      "typeZh": "VIIC 型",
+      "builder": "Blohm & Voss, Hamburg",
+      "werk": "535",
+      "laidDown": "1940-02-01",
+      "launched": "1940-12-21",
+      "commissioned": "1941-02-27",
+      "firstCommander": "Oberleutnant zur See Hans Heidtmann",
+      "patrols": 10,
+      "successes": {
+        "shipsSunk": 4,
+        "grtSunk": 11811,
+        "warshipsSunk": 1,
+        "warshipsTons": 1060,
+        "damagedShips": 0,
+        "damagedGrt": 0,
+        "totalLoss": 2,
+        "totalLossGrt": 6117
+      },
+      "notable": "1942-10-30 在塞得港东北被英舰深弹击沉前，『佩塔德』号（HMS Petard）三名船员攀上艇体取出「气象短码本」第二版与「短信号本」——直接促成 Bletchley Park 1942 年 12 月重新攻破四转子「鲨鱼」。",
+      "wolfpacks": [
+        "West"
+      ],
+      "fate": {
+        "class": "sunk",
+        "date": "1942-10-30",
+        "position": [
+          33.0,
+          32.5
+        ],
+        "text": "1942-10-30 在塞得港东北被英国驱逐舰『佩塔德』『帕克纳姆』『英雄』与护航驱逐舰『达尔弗顿』『赫沃思』深弹击沉（32°30′N 33°00′E）；7 人死亡、38 人获救。",
+        "place": "地中海 塞得港东北"
+      },
+      "zh": "VIIC 型。这艘艇的战果不大，却在密码战史上极为重要：沉没前英军从其艇内取出气象短码本与短信号本，使 Bletchley Park 在四转子轰炸机服役前重新读懂「鲨鱼」。攀艇的 Anthony Fasson 与 Colin Grazier 追授乔治十字勋章，16 岁的 Tommy Brown 获乔治勋章。",
+      "sources": [
+        "uboat_net",
+        "kahn_1991",
+        "sebag_2000"
+      ],
+      "confidence": "high",
+      "daysAtSea": 247
+    },
+    {
+      "id": "u556",
+      "boat": "U-556",
+      "type": "viic",
+      "typeZh": "VIIC 型",
+      "builder": "Blohm & Voss, Hamburg",
+      "werk": "532",
+      "laidDown": "1940-01-02",
+      "launched": "1941-01-08",
+      "commissioned": "1941-02-06",
+      "firstCommander": "Kapitänleutnant Herbert Wohlfarth",
+      "patrols": 2,
+      "successes": {
+        "shipsSunk": 6,
+        "grtSunk": 29552,
+        "warshipsSunk": 0,
+        "warshipsTons": 0,
+        "damagedShips": 1,
+        "damagedGrt": 4986
+      },
+      "notable": "1941-05-26/27 在「俾斯麦」号最后战斗中被派去为其传递消息、并试图拖救；艇长 Wohlfarth 与 Bismarck 舰长 Lindemann 有私人约定（「我会救你」）。U-556 因燃料与鱼雷耗尽未能施救。",
+      "wolfpacks": [
+        "West"
+      ],
+      "fate": {
+        "class": "sunk",
+        "date": "1941-06-27",
+        "position": [
+          -29.0,
+          60.4
+        ],
+        "text": "1941-06-27 在冰岛西南被英国花级轻护舰『纳斯塔蒂姆』『白屈菜』『剑兰』号深弹击沉（60°24′N 29°00′W）；5 人死亡、41 人获救。",
+        "place": "冰岛西南 60°24′N 29°00′W"
+      },
+      "zh": "VIIC 型。因在「俾斯麦」号最后战斗中的角色而著名：艇长 Wohlfarth 与 Bismarck 舰长 Lindemann 曾有「互相救援」的非正式约定，U-556 也确实在 1941 年 5 月 26 日夜接近战场，但鱼雷已尽、燃料不足，只能目送。一个月后被三艘花级轻护舰击沉。",
+      "sources": [
+        "uboat_net"
+      ],
+      "confidence": "high",
+      "daysAtSea": 39
+    },
+    {
+      "id": "u758",
+      "boat": "U-758",
+      "type": "viic",
+      "typeZh": "VIIC 型",
+      "builder": "Kriegsmarinewerft (KMW), Wilhelmshaven",
+      "werk": "141",
+      "laidDown": "1940-05-18",
+      "launched": "1942-02-21",
+      "commissioned": "1942-05-05",
+      "firstCommander": "Kapitänleutnant Helmut Manseck",
+      "patrols": 7,
+      "successes": {
+        "shipsSunk": 2,
+        "grtSunk": 13989,
+        "warshipsSunk": 0,
+        "warshipsTons": 0,
+        "damagedShips": 0,
+        "damagedGrt": 0
+      },
+      "notable": "1943 年 3 月 HX 229 / SC 122 船团战中首次使用 T4「隼」（Falke）声自导鱼雷；此后加装通气管（Schnorchel）。",
+      "wolfpacks": [
+        "Stier",
+        "Streitaxt",
+        "Seydlitz",
+        "Lerche",
+        "Luchs",
+        "Panzer",
+        "Trutz",
+        "Borkum",
+        "Rügen"
+      ],
+      "fate": {
+        "class": "decommissioned",
+        "date": "1945-03-16",
+        "position": null,
+        "text": "1945-03-11 在基尔被美机炸伤，1945-03-16 退役；艇体 1945 年 5 月被英军俘获，1946/47 年拆解。",
+        "place": "基尔（Kiel）"
+      },
+      "zh": "VIIC 型。该艇的价值主要在「技术试验」：1943 年 3 月的船团战中首次实战发射 T4 声自导鱼雷，1944 年又成为通气管改装的测试艇之一，是德军「技术对抗」阶段的一手样本。",
+      "sources": [
+        "uboat_net",
+        "uboat_net_technical"
+      ],
+      "confidence": "high",
+      "daysAtSea": 268
+    },
+    {
+      "id": "u615",
+      "boat": "U-615",
+      "type": "viic",
+      "typeZh": "VIIC 型",
+      "builder": "Blohm & Voss, Hamburg",
+      "werk": "591",
+      "laidDown": "1941-05-20",
+      "launched": "1942-02-08",
+      "commissioned": "1942-03-26",
+      "firstCommander": "Oberleutnant zur See Ralph Kapitzky",
+      "patrols": 4,
+      "successes": {
+        "shipsSunk": 4,
+        "grtSunk": 27231,
+        "warshipsSunk": 0,
+        "warshipsTons": 0,
+        "damagedShips": 0,
+        "damagedGrt": 0
+      },
+      "notable": "1943-08-07 在格林纳达西北被 5 架美军「水手」（Mariner）与 1 架「冒险者」（Ventura）飞机连续攻击后沉没——加勒比海反潜航空兵的战例。",
+      "wolfpacks": [
+        "Panther",
+        "Puma",
+        "Spitz",
+        "Falke",
+        "Neuland",
+        "Dränger",
+        "Seewolf",
+        "Schill",
+        "Hinein"
+      ],
+      "fate": {
+        "class": "aircraft",
+        "date": "1943-08-07",
+        "position": [
+          -64.25,
+          12.63
+        ],
+        "text": "1943-08-07 在格林纳达西北被 5 架美国海军『水手』（VP-204/VP-205）与 1 架『冒险者』（VB-130）深弹击沉（12°38′N 64°15′W）；4 人死亡、43 人获救。",
+        "place": "加勒比海 格林纳达西北"
+      },
+      "zh": "VIIC 型。1943 年在加勒比海作战。8 月 7 日被 6 架美军巡逻机轮番攻击后沉没，43 人获救——这场战斗说明 1943 年后 U 艇在加勒比海已无法在水面安全充电。",
+      "sources": [
+        "uboat_net"
+      ],
+      "confidence": "high",
+      "daysAtSea": 221
+    },
+    {
+      "id": "u300",
+      "boat": "U-300",
+      "type": "viic-41",
+      "typeZh": "VIIC/41 型",
+      "builder": "Bremer Vulkan-Vegesacker Werft, Bremen-Vegesack",
+      "werk": "65",
+      "laidDown": "1943-04-09",
+      "launched": "1943-11-11",
+      "commissioned": "1943-12-29",
+      "firstCommander": "Oberleutnant zur See Fritz Hein",
+      "patrols": 3,
+      "successes": {
+        "shipsSunk": 2,
+        "grtSunk": 7559,
+        "warshipsSunk": 0,
+        "warshipsTons": 0,
+        "damagedShips": 1,
+        "damagedGrt": 7176,
+        "totalLoss": 1,
+        "totalLossGrt": 9551
+      },
+      "notable": "1945-02-22 在加的斯以西被英国扫雷舰『雷克鲁特』『平彻』号炮火击沉——此前已先被武装游艇『伊瓦德尼』号深弹重创。",
+      "wolfpacks": [],
+      "fate": {
+        "class": "sunk",
+        "date": "1945-02-22",
+        "position": [
+          -8.33,
+          36.48
+        ],
+        "text": "1945-02-22 在加的斯以西被英国扫雷舰炮火击沉（36°29′N 08°20′W）；此前 1945-02-19 已在 35°54′N 05°43′W 被深弹重创。9 人死亡、41 人获救。",
+        "place": "加的斯以西"
+      },
+      "zh": "VIIC/41 型（加压艇体，最大下潜深度约 250 米）。1945 年 2 月在直布罗陀海峡外被反潜编队连续追踪两天后击沉，是战争末期「多舰种协同猎潜」的样本。",
+      "sources": [
+        "uboat_net"
+      ],
+      "confidence": "high",
+      "daysAtSea": 124
+    },
+    {
+      "id": "u1009",
+      "boat": "U-1009",
+      "type": "viic-41",
+      "typeZh": "VIIC/41 型",
+      "builder": "Blohm & Voss, Hamburg",
+      "werk": "209",
+      "laidDown": "1943-02-24",
+      "launched": "1943-12-08",
+      "commissioned": "1944-02-10",
+      "firstCommander": "Oberleutnant zur See Klaus Hilgendorf",
+      "patrols": 2,
+      "successes": {
+        "shipsSunk": 0,
+        "grtSunk": 0,
+        "warshipsSunk": 0,
+        "warshipsTons": 0,
+        "damagedShips": 0,
+        "damagedGrt": 0
+      },
+      "notable": "1945-05-10 在苏格兰 Loch Eriboll 投降，战后在「曙光行动」（Operation Deadlight）中被击沉。",
+      "wolfpacks": [],
+      "fate": {
+        "class": "surrendered",
+        "date": "1945-05-10",
+        "position": [
+          -4.67,
+          58.55
+        ],
+        "text": "1945-05-10 在苏格兰 Loch Eriboll 投降；转至 Loch Ryan 后，1945-12-16 在 55°31′N 07°24′W 被海军炮火击沉（Operation Deadlight）。",
+        "place": "Loch Eriboll / Loch Ryan"
+      },
+      "zh": "VIIC/41 型。1945 年 5 月投降，是 156 艘投降 U 艇之一。战后被纳入「曙光行动」，1945 年 12 月作为靶船击沉——这条结局线是战役包「结束阶段」的重要素材。",
+      "sources": [
+        "uboat_net",
+        "uboat_net_fates"
+      ],
+      "confidence": "high",
+      "daysAtSea": 103
+    },
+    {
+      "id": "u1105",
+      "boat": "U-1105",
+      "type": "viic-41",
+      "typeZh": "VIIC/41 型（通气管）",
+      "builder": "Nordseewerke, Emden",
+      "werk": "227",
+      "laidDown": "1943-07-06",
+      "launched": "1944-04-20",
+      "commissioned": "1944-06-03",
+      "firstCommander": "Oberleutnant zur See Hans-Joachim Schwarz",
+      "patrols": 1,
+      "successes": {
+        "shipsSunk": 0,
+        "grtSunk": 0,
+        "warshipsSunk": 0,
+        "warshipsTons": 0,
+        "damagedShips": 0,
+        "damagedGrt": 0,
+        "totalLoss": 1,
+        "totalLossGrt": 1300
+      },
+      "notable": "加装通气管，1944 年涂成黑色（绰号「黑豹」）；1945-04-27 用 T5 声自导鱼雷把英国护卫舰『雷德米尔』号（HMS Redmill，1,300 t）打成全损。",
+      "wolfpacks": [],
+      "fate": {
+        "class": "surrendered",
+        "date": "1945-05-10",
+        "position": [
+          -4.67,
+          58.55
+        ],
+        "text": "1945-05-10 在 Loch Eriboll 投降；战后作为 N-16 交英国海军试验，1946 年 1 月转交美国，1948/49 年在切萨皮克湾两次深弹试验中沉没，现为马里兰州潜水点。",
+        "place": "Loch Eriboll → 切萨皮克湾"
+      },
+      "zh": "VIIC/41 型通气管艇，涂黑以降低夜间被雷达发现的概率。投降前两周用 T5 声自导鱼雷重创英国护卫舰，说明战争最后阶段 U 艇仍具威胁；战后成为美英测试通气管与声自导鱼雷的试验艇。",
+      "sources": [
+        "uboat_net"
+      ],
+      "confidence": "high",
+      "daysAtSea": 29
+    },
+    {
+      "id": "u1274",
+      "boat": "U-1274",
+      "type": "viic-41",
+      "typeZh": "VIIC/41 型",
+      "builder": "Bremer Vulkan-Vegesacker Werft, Bremen-Vegesack",
+      "werk": "69",
+      "laidDown": "1943-06-21",
+      "launched": "1944-02-25",
+      "commissioned": "1944-03-01",
+      "firstCommander": "Oberleutnant zur See Fedor Kuscher",
+      "patrols": 1,
+      "successes": {
+        "shipsSunk": 1,
+        "grtSunk": 8966,
+        "warshipsSunk": 0,
+        "warshipsTons": 0,
+        "damagedShips": 0,
+        "damagedGrt": 0
+      },
+      "notable": "1945-04-16 在纽卡斯尔以北被英国驱逐舰『总督』号（HMS Viceroy）深弹击沉，44 人全部死亡。",
+      "wolfpacks": [],
+      "fate": {
+        "class": "sunk",
+        "date": "1945-04-16",
+        "position": [
+          -1.4,
+          55.6
+        ],
+        "text": "1945-04-16 在北海纽卡斯尔以北被英国驱逐舰『总督』号深弹击沉（55°36′N 01°24′W）；44 人全部死亡。",
+        "place": "北海 纽卡斯尔以北"
+      },
+      "zh": "VIIC/41 型。1945 年 4 月在英国东海岸外被驱逐舰击沉，全艇无生还。这是战争最后三周 U 艇仍在英国近海活动的证据，也是「通气管时代」并未根本改变战局的注脚。",
+      "sources": [
+        "uboat_net"
+      ],
+      "confidence": "high",
+      "daysAtSea": 16
+    },
+    {
+      "id": "u110",
+      "boat": "U-110",
+      "type": "ixb",
+      "typeZh": "IXB 型",
+      "builder": "AG Weser, Bremen",
+      "werk": "973",
+      "laidDown": "1940-02-01",
+      "launched": "1940-08-25",
+      "commissioned": "1940-11-21",
+      "firstCommander": "Kapitänleutnant Fritz-Julius Lemp",
+      "patrols": 2,
+      "successes": {
+        "shipsSunk": 3,
+        "grtSunk": 10149,
+        "warshipsSunk": 0,
+        "warshipsTons": 0,
+        "damagedShips": 2,
+        "damagedGrt": 8675
+      },
+      "notable": "1941-05-09 在格陵兰以东被英国驱逐舰『斗牛犬』（HMS Bulldog）等深弹重创后，英军登艇取走完整的恩尼格玛 M3 与密钥文件——密码战史上最重要的俘获之一。",
+      "wolfpacks": [],
+      "fate": {
+        "class": "captured",
+        "date": "1941-05-09",
+        "position": [
+          -42.0,
+          60.0
+        ],
+        "text": "1941-05-09 在格陵兰以东被『斗牛犬』『百老汇』号与轻护舰『奥布里蒂亚』号深弹重创后投降；英军取走恩尼格玛与密钥文件，次日任其沉没以保密。15 人死亡、32 人获救。",
+        "place": "格陵兰以东 北大西洋"
+      },
+      "zh": "IXB 型，首任艇长即开战当日击沉「雅典娜」号的 Lemp。1941 年 5 月被俘，英军从其艇上取得完整的恩尼格玛 M3 与密钥，Bletchley Park 因此在 1941 年 6—7 月首次稳定读懂「海豚」密码，直接促成此后数月船团绕开 U 艇群。",
+      "sources": [
+        "uboat_net",
+        "kahn_1991",
+        "sebag_2000",
+        "wiki_en_u110"
+      ],
+      "confidence": "high",
+      "daysAtSea": 46
+    },
+    {
+      "id": "u107",
+      "boat": "U-107",
+      "type": "ixb",
+      "typeZh": "IXB 型",
+      "builder": "AG Weser, Bremen",
+      "werk": "970",
+      "laidDown": "1939-12-06",
+      "launched": "1940-07-02",
+      "commissioned": "1940-10-08",
+      "firstCommander": "Kapitänleutnant Günther Hessler",
+      "patrols": 13,
+      "successes": {
+        "shipsSunk": 37,
+        "grtSunk": 207375,
+        "warshipsSunk": 2,
+        "warshipsTons": 10411,
+        "damagedShips": 3,
+        "damagedGrt": 17392
+      },
+      "notable": "Hessler（邓尼茨的女婿）1941 年 3—4 月在弗里敦以西创下 U 艇单次巡逻击沉吨位纪录（约 8.6 万吨）。",
+      "wolfpacks": [
+        "West",
+        "Grönland",
+        "Markgraf",
+        "Reissewolf",
+        "Stosstrupp",
+        "Raubritter",
+        "Störtebecker",
+        "Breslau",
+        "Stier",
+        "Streitaxt",
+        "Seydlitz",
+        "Lerche",
+        "Luchs",
+        "Panzer",
+        "Trutz"
+      ],
+      "fate": {
+        "class": "aircraft",
+        "date": "1944-08-18",
+        "position": [
+          -3.82,
+          46.77
+        ],
+        "text": "1944-08-18 在比斯开湾圣纳泽尔西南被英国 201 中队桑德兰机深弹击沉（46°46′N 03°49′W）；58 人全部死亡。",
+        "place": "比斯开湾 圣纳泽尔西南"
+      },
+      "zh": "IXB 型，Hessler 指挥。1941 年弗里敦外海的单次巡逻战果是 U 艇战史上最高的单次巡逻之一。1944 年 8 月在比斯开湾被桑德兰水上飞机击沉，是「比斯开湾攻势」的收官样本。",
+      "sources": [
+        "uboat_net",
+        "roskill_1960"
+      ],
+      "confidence": "high",
+      "daysAtSea": 743
+    },
+    {
+      "id": "u123",
+      "boat": "U-123",
+      "type": "ixb",
+      "typeZh": "IXB 型",
+      "builder": "AG Weser, Bremen",
+      "werk": "955",
+      "laidDown": "1939-04-15",
+      "launched": "1940-03-02",
+      "commissioned": "1940-05-30",
+      "firstCommander": "Kapitänleutnant Karl-Heinz Moehle",
+      "patrols": 12,
+      "successes": {
+        "shipsSunk": 43,
+        "grtSunk": 220158,
+        "warshipsSunk": 1,
+        "warshipsTons": 683,
+        "damagedShips": 5,
+        "damagedGrt": 39584
+      },
+      "notable": "1942 年 1 月由 Reinhard Hardegen 指挥参加 Paukenschlag，在美国东岸击沉多艘油轮；1942-04-18 击沉英国潜艇『P-615』（683 t）。",
+      "wolfpacks": [
+        "West",
+        "Grönland",
+        "Markgraf",
+        "Reissewolf",
+        "Stosstrupp"
+      ],
+      "fate": {
+        "class": "scuttled",
+        "date": "1944-08-19",
+        "position": [
+          -0.83,
+          47.72
+        ],
+        "text": "1944-06-17 在洛里昂退役，置于 U 艇掩体 K3 号箱；1944-08-19 在掩体内自沉。战后被美军俘获并交法国，改名『布莱松』号（Blaison，Q165）服役至 1959 年。",
+        "place": "洛里昂（Lorient）"
+      },
+      "zh": "IXB 型。1942 年 1 月在 Hardegen 指挥下参加 Drumbeat，是攻击美国东岸油轮的主力之一。1944 年 8 月在洛里昂 U 艇掩体内自沉，战后被法国重新服役——一艘 U 艇的「三重身份」样本。",
+      "sources": [
+        "uboat_net",
+        "gannon_1990"
+      ],
+      "confidence": "high",
+      "daysAtSea": 690
+    },
+    {
+      "id": "u124",
+      "boat": "U-124",
+      "type": "ixb",
+      "typeZh": "IXB 型",
+      "builder": "AG Weser, Bremen",
+      "werk": "956",
+      "laidDown": "1939-08-11",
+      "launched": "1940-03-09",
+      "commissioned": "1940-06-11",
+      "firstCommander": "Kapitänleutnant Georg-Wilhelm Schulz",
+      "patrols": 11,
+      "successes": {
+        "shipsSunk": 46,
+        "grtSunk": 219862,
+        "warshipsSunk": 2,
+        "warshipsTons": 5775,
+        "damagedShips": 4,
+        "damagedGrt": 30067
+      },
+      "notable": "1941-11-24 在弗里敦以西击沉英国轻巡洋舰『达尼丁』号（HMS Dunedin，4,850 t，419 人死亡）——U 艇对巡洋舰的罕见单艇战果。",
+      "wolfpacks": [
+        "West",
+        "Grönland"
+      ],
+      "fate": {
+        "class": "sunk",
+        "date": "1943-04-02",
+        "position": [
+          -15.65,
+          41.03
+        ],
+        "text": "1943-04-02 在波尔图以西被英国轻护舰『石豆』号（HMS Stonecrop）与单桅帆船『黑天鹅』号（HMS Black Swan）深弹击沉（41°02′N 15°39′W）；53 人全部死亡。",
+        "place": "波尔图以西"
+      },
+      "zh": "IXB 型。11 次巡逻击沉 46 艘商船（219,862 GRT）与两艘军舰，包括轻巡洋舰「达尼丁」号。1943 年 4 月在葡萄牙外海被两艘护航舰击沉，全艇无生还。",
+      "sources": [
+        "uboat_net"
+      ],
+      "confidence": "high",
+      "daysAtSea": 490
+    },
+    {
+      "id": "u66",
+      "boat": "U-66",
+      "type": "ixc",
+      "typeZh": "IXC 型",
+      "builder": "AG Weser, Bremen",
+      "werk": "985",
+      "laidDown": "1940-03-20",
+      "launched": "1940-12-10",
+      "commissioned": "1941-01-02",
+      "firstCommander": "Kapitänleutnant Richard Zapp",
+      "patrols": 10,
+      "successes": {
+        "shipsSunk": 33,
+        "grtSunk": 200021,
+        "warshipsSunk": 0,
+        "warshipsTons": 0,
+        "damagedShips": 2,
+        "damagedGrt": 22674
+      },
+      "notable": "1944-05-06 在佛得角以西被护航航母『布洛克岛』号（USS Block Island）的复仇者与野猫机、及驱逐护航舰『巴克利』号击沉——U 艇与护航航母「猎杀群」正面对抗的战例。",
+      "wolfpacks": [
+        "West",
+        "Grönland",
+        "Markgraf"
+      ],
+      "fate": {
+        "class": "sunk",
+        "date": "1944-05-06",
+        "position": [
+          -32.48,
+          17.28
+        ],
+        "text": "1944-05-06 在佛得角群岛以西被『布洛克岛』号护航航母的 VC-55 中队飞机（深弹、火箭、机炮）与驱逐护航舰『巴克利』号（USS Buckley）击沉（17°17′N 32°29′W）；24 人死亡、36 人获救。",
+        "place": "佛得角群岛以西"
+      },
+      "zh": "IXC 型。1941—1943 年在南大西洋与加勒比海作战，战果 33 艘（200,021 GRT）。1944 年 5 月被美军「护航航母 + 驱逐护航舰」猎杀群击沉，是「猎杀群」战术成熟的标志性战例。",
+      "sources": [
+        "uboat_net",
+        "mori_atlantic_won"
+      ],
+      "confidence": "high",
+      "daysAtSea": 684
+    },
+    {
+      "id": "u68",
+      "boat": "U-68",
+      "type": "ixc",
+      "typeZh": "IXC 型",
+      "builder": "AG Weser, Bremen",
+      "werk": "987",
+      "laidDown": "1940-04-20",
+      "launched": "1941-01-30",
+      "commissioned": "1941-02-11",
+      "firstCommander": "Kapitänleutnant Karl-Friedrich Merten",
+      "patrols": 10,
+      "successes": {
+        "shipsSunk": 32,
+        "grtSunk": 197453,
+        "warshipsSunk": 0,
+        "warshipsTons": 0,
+        "damagedShips": 0,
+        "damagedGrt": 0
+      },
+      "notable": "Merten（橡叶骑士十字勋章）在南大西洋与印度洋的战果几乎全部为商船；1944-04-10 在马德拉西北被『瓜达尔卡纳尔』号护航航母的飞机击沉。",
+      "wolfpacks": [
+        "West"
+      ],
+      "fate": {
+        "class": "aircraft",
+        "date": "1944-04-10",
+        "position": [
+          -18.98,
+          33.4
+        ],
+        "text": "1944-04-10 在马德拉西北被『瓜达尔卡纳尔』号护航航母的 VC-58 中队两架复仇者与一架野猫（深弹、火箭）击沉（33°24′N 18°59′W）；56 人死亡、1 人获救。",
+        "place": "马德拉西北"
+      },
+      "zh": "IXC 型，Merten 指挥。Merten 以「先跟踪、再在夜间浮出水面逐艘击沉」的南大西洋战法著称。1944 年 4 月被「瓜达尔卡纳尔」号猎杀群的飞机击沉，仅 1 人生还。",
+      "sources": [
+        "uboat_net"
+      ],
+      "confidence": "high",
+      "daysAtSea": 596
+    },
+    {
+      "id": "u156",
+      "boat": "U-156",
+      "type": "ixc",
+      "typeZh": "IXC 型",
+      "builder": "AG Weser, Bremen",
+      "werk": "998",
+      "laidDown": "1940-10-11",
+      "launched": "1941-08-21",
+      "commissioned": "1941-09-04",
+      "firstCommander": "Kapitänleutnant Werner Hartenstein",
+      "patrols": 5,
+      "successes": {
+        "shipsSunk": 19,
+        "grtSunk": 97489,
+        "warshipsSunk": 0,
+        "warshipsTons": 0,
+        "damagedShips": 3,
+        "damagedGrt": 18811
+      },
+      "notable": "1942-09-12 在阿森松岛附近击沉英国运兵船『拉科尼亚』号（RMS Laconia），随后违令开展救援并公开呼救，引发德军「拉科尼亚命令」（禁止救援）——海战法与人道主义的标志性事件。",
+      "wolfpacks": [
+        "West"
+      ],
+      "fate": {
+        "class": "aircraft",
+        "date": "1943-03-08",
+        "position": [
+          -54.65,
+          12.63
+        ],
+        "text": "1943-03-08 在巴巴多斯以东被美国 VP-53 中队卡塔琳娜机深弹击沉（12°38′N 54°39′W）；53 人全部死亡。",
+        "place": "巴巴多斯以东"
+      },
+      "zh": "IXC 型，Hartenstein 指挥。1942 年 9 月击沉「拉科尼亚」号后主动救援并挂红十字旗呼救，遭美军飞机攻击；邓尼茨据此下达「拉科尼亚命令」，禁止 U 艇救援沉船幸存者。这条命令后来成为纽伦堡审判的证据之一。",
+      "sources": [
+        "uboat_net",
+        "peillard_1983",
+        "nuremberg_imt_blue"
+      ],
+      "confidence": "high",
+      "daysAtSea": 294
+    },
+    {
+      "id": "u172",
+      "boat": "U-172",
+      "type": "ixc",
+      "typeZh": "IXC 型",
+      "builder": "AG Weser, Bremen",
+      "werk": "1012",
+      "laidDown": "1940-12-11",
+      "launched": "1941-08-05",
+      "commissioned": "1941-11-05",
+      "firstCommander": "Kapitänleutnant Carl Emmermann",
+      "patrols": 6,
+      "successes": {
+        "shipsSunk": 26,
+        "grtSunk": 152080,
+        "warshipsSunk": 0,
+        "warshipsTons": 0,
+        "damagedShips": 0,
+        "damagedGrt": 0
+      },
+      "notable": "1943-12-13 在加那利群岛以西被『博格』号（USS Bogue）护航航母的 VC-19 中队用深弹与 Mk 24「Fido」声自导鱼雷攻击 27 小时后沉没——Fido 的经典战例。",
+      "wolfpacks": [
+        "West",
+        "Grönland",
+        "Markgraf"
+      ],
+      "fate": {
+        "class": "aircraft",
+        "date": "1943-12-13",
+        "position": [
+          -29.97,
+          26.48
+        ],
+        "text": "1943-12-13 在加那利群岛以西被『博格』号护航航母的复仇者/野猫机（深弹、火箭、Fido）与四艘美军驱逐舰（约 200 枚深弹）击沉（26°29′N 29°58′W）；13 人死亡、46 人获救。",
+        "place": "加那利群岛以西"
+      },
+      "zh": "IXC 型，Emmermann 指挥。1943 年 12 月被「博格」号猎杀群追猎 27 小时，是 Mk 24「Fido」声自导鱼雷最早的成功战例之一。46 人获救，是后期 U 艇少见的「多数生还」结局。",
+      "sources": [
+        "uboat_net",
+        "mori_atlantic_won"
+      ],
+      "confidence": "high",
+      "daysAtSea": 395
+    },
+    {
+      "id": "u505",
+      "boat": "U-505",
+      "type": "ixc",
+      "typeZh": "IXC 型",
+      "builder": "Deutsche Werft AG, Hamburg",
+      "werk": "295",
+      "laidDown": "1940-06-12",
+      "launched": "1941-05-25",
+      "commissioned": "1941-08-26",
+      "firstCommander": "Kapitänleutnant Axel-Olaf Loewe",
+      "patrols": 12,
+      "successes": {
+        "shipsSunk": 8,
+        "grtSunk": 45005,
+        "warshipsSunk": 0,
+        "warshipsTons": 0,
+        "damagedShips": 0,
+        "damagedGrt": 0
+      },
+      "notable": "1944-06-04 在毛里塔尼亚外海被『瓜达尔卡纳尔』号护航航母的猎杀群俘获，美军登艇取走恩尼格玛与密码本；艇体拖至百慕大，现藏芝加哥科学工业博物馆。",
+      "wolfpacks": [
+        "West"
+      ],
+      "fate": {
+        "class": "captured",
+        "date": "1944-06-04",
+        "position": [
+          -19.33,
+          21.5
+        ],
+        "text": "1944-06-04 在毛里塔尼亚外海被 TF 22.3（『瓜达尔卡纳尔』号 + 5 艘驱逐护航舰）的深弹与野猫机机枪击伤后俘获（21°30′N 19°20′W）；1 人死亡、59 人获救。战后作为战利品陈列于芝加哥。",
+        "place": "西非外海 21°30′N 19°20′W"
+      },
+      "zh": "IXC 型。1944 年 6 月被美军完整俘获，是二战中美国海军唯一一次在海上夺取敌方军舰；艇上的密码资料与恩尼格玛直接服务于后续破译。今天它是世界上保存最完整的 IXC 型 U 艇。",
+      "sources": [
+        "uboat_net",
+        "wiki_en_escort_carrier",
+        "mori_atlantic_won"
+      ],
+      "confidence": "high",
+      "articleCitations": [
+        "wiki_en_u505"
+      ],
+      "daysAtSea": 404
+    },
+    {
+      "id": "u507",
+      "boat": "U-507",
+      "type": "ixc",
+      "typeZh": "IXC 型",
+      "builder": "Deutsche Werft AG, Hamburg",
+      "werk": "303",
+      "laidDown": "1940-09-11",
+      "launched": "1941-07-01",
+      "commissioned": "1941-10-08",
+      "firstCommander": "Korvettenkapitän Harro Schacht",
+      "patrols": 4,
+      "successes": {
+        "shipsSunk": 19,
+        "grtSunk": 77143,
+        "warshipsSunk": 0,
+        "warshipsTons": 0,
+        "damagedShips": 1,
+        "damagedGrt": 6561
+      },
+      "notable": "1942 年 8 月在巴西沿海击沉多艘巴西商船（含『巴埃彭迪』号等），直接导致巴西于 8 月 22 日对德宣战——U 艇战果转化为外交后果的典型。",
+      "wolfpacks": [],
+      "fate": {
+        "class": "aircraft",
+        "date": "1943-01-13",
+        "position": [
+          -39.87,
+          -1.63
+        ],
+        "text": "1943-01-13 在巴西福塔莱萨西北被美国 VP-83 中队卡塔琳娜机深弹击沉（01°38′S 39°52′W）；54 人全部死亡。",
+        "place": "南大西洋 福塔莱萨西北"
+      },
+      "zh": "IXC 型。1942 年 8 月在巴西沿海的无限制潜艇战直接促使巴西对德宣战并派出远征军。1943 年 1 月在南大西洋被美军卡塔琳娜机击沉，全艇无生还。",
+      "sources": [
+        "uboat_net",
+        "blair_1996"
+      ],
+      "confidence": "high",
+      "daysAtSea": 227
+    },
+    {
+      "id": "u185",
+      "boat": "U-185",
+      "type": "ixc40",
+      "typeZh": "IXC/40 型",
+      "builder": "AG Weser, Bremen",
+      "werk": "1025",
+      "laidDown": "1941-07-01",
+      "launched": "1942-04-21",
+      "commissioned": "1942-06-13",
+      "firstCommander": "Kapitänleutnant August Maus",
+      "patrols": 3,
+      "successes": {
+        "shipsSunk": 9,
+        "grtSunk": 62761,
+        "warshipsSunk": 0,
+        "warshipsTons": 0,
+        "damagedShips": 1,
+        "damagedGrt": 6840
+      },
+      "notable": "1943-08-24 在加那利群岛以西被『科尔』号（USS Core）护航航母的 VC-13 中队复仇者击沉——「乳牛」补给艇 U-459 的救援者，也是猎杀群的目标。",
+      "wolfpacks": [
+        "West"
+      ],
+      "fate": {
+        "class": "aircraft",
+        "date": "1943-08-24",
+        "position": [
+          -37.1,
+          27.0
+        ],
+        "text": "1943-08-24 在加那利群岛以西被『科尔』号护航航母的 VC-13 中队复仇者（深弹）与野猫击沉（27°00′N 37°06′W）；29 人死亡、22 人获救。",
+        "place": "加那利群岛以西"
+      },
+      "zh": "IXC/40 型。1943 年 8 月刚参加完对「乳牛」U-459 的救援，即被美军猎杀群击沉；它的命运说明 1943 年下半年美军护航航母猎杀群已能主动寻歼补给艇，切断 U 艇的海上后勤。",
+      "sources": [
+        "uboat_net"
+      ],
+      "confidence": "high",
+      "daysAtSea": 229
+    },
+    {
+      "id": "u190",
+      "boat": "U-190",
+      "type": "ixc40",
+      "typeZh": "IXC/40 型",
+      "builder": "AG Weser, Bremen",
+      "werk": "1036",
+      "laidDown": "1941-10-07",
+      "launched": "1942-06-03",
+      "commissioned": "1942-09-24",
+      "firstCommander": "Kapitänleutnant Max Wintermeyer",
+      "patrols": 6,
+      "successes": {
+        "shipsSunk": 1,
+        "grtSunk": 7015,
+        "warshipsSunk": 1,
+        "warshipsTons": 590,
+        "damagedShips": 0,
+        "damagedGrt": 0
+      },
+      "notable": "1945-04-16 在加拿大新斯科舍外海击沉加拿大扫雷舰『埃斯奎莫尔特』号（HMCS Esquimalt，590 t，44 人死亡）——加拿大水域最后一艘被 U 艇击沉的军舰。",
+      "wolfpacks": [
+        "West",
+        "Grönland",
+        "Markgraf"
+      ],
+      "fate": {
+        "class": "surrendered",
+        "date": "1945-05-14",
+        "position": [
+          -52.75,
+          47.35
+        ],
+        "text": "1945-05-14 在纽芬兰 Bay Bulls 投降；战后被加拿大用于试验，1947-10-21 在新斯科舍外海被炸弹与炮火击沉。",
+        "place": "纽芬兰 Bay Bulls"
+      },
+      "zh": "IXC/40 型。1945 年 4 月在加拿大水域击沉扫雷舰「埃斯奎莫尔特」号，是加拿大海军在二战中损失的最后一批军舰之一。5 月 14 日投降，战后被加拿大击沉。",
+      "sources": [
+        "uboat_net"
+      ],
+      "confidence": "high",
+      "daysAtSea": 482
+    },
+    {
+      "id": "u530",
+      "boat": "U-530",
+      "type": "ixc40",
+      "typeZh": "IXC/40 型",
+      "builder": "Deutsche Werft AG, Hamburg",
+      "werk": "345",
+      "laidDown": "1941-12-08",
+      "launched": "1942-07-07",
+      "commissioned": "1942-10-14",
+      "firstCommander": "Kapitänleutnant Kurt Lange",
+      "patrols": 7,
+      "successes": {
+        "shipsSunk": 2,
+        "grtSunk": 12063,
+        "warshipsSunk": 0,
+        "warshipsTons": 0,
+        "damagedShips": 1,
+        "damagedGrt": 10195
+      },
+      "notable": "1945-07-10 在阿根廷马德普拉塔投降，是战争结束后最晚投降的 U 艇之一（与 U-977 同地），长期被「希特勒逃亡」阴谋论附会。",
+      "wolfpacks": [
+        "West",
+        "Grönland"
+      ],
+      "fate": {
+        "class": "surrendered",
+        "date": "1945-07-10",
+        "position": [
+          -57.53,
+          -38.0
+        ],
+        "text": "1945-07-10 在阿根廷马德普拉塔投降；战后移交美国，1947-11-28 在科德角东北作为靶标被鱼雷击沉。",
+        "place": "阿根廷 马德普拉塔"
+      },
+      "zh": "IXC/40 型。5 月 8 日德国投降时该艇仍在海上，7 月 10 日才在阿根廷投降。此事与 U-977 一起成为战后阴谋论的素材，但盟军审讯与档案并未发现运送要人的证据。",
+      "sources": [
+        "uboat_net",
+        "wiki_en_atlantic"
+      ],
+      "confidence": "high",
+      "articleCitations": [
+        "wiki_en_u530"
+      ],
+      "daysAtSea": 499
+    },
+    {
+      "id": "u853",
+      "boat": "U-853",
+      "type": "ixc40",
+      "typeZh": "IXC/40 型",
+      "builder": "AG Weser, Bremen",
+      "werk": "1059",
+      "laidDown": "1942-08-21",
+      "launched": "1943-04-11",
+      "commissioned": "1943-06-25",
+      "firstCommander": "Kapitänleutnant Helmut Sommer",
+      "patrols": 3,
+      "successes": {
+        "shipsSunk": 1,
+        "grtSunk": 5353,
+        "warshipsSunk": 1,
+        "warshipsTons": 430,
+        "damagedShips": 0,
+        "damagedGrt": 0
+      },
+      "notable": "1945-05-05 在新伦敦外海击沉美国 collier『黑点』号（SS Black Point）——美国东岸最后一艘被 U 艇击沉的船；次日被美军深弹击沉。",
+      "wolfpacks": [],
+      "fate": {
+        "class": "sunk",
+        "date": "1945-05-06",
+        "position": [
+          -71.45,
+          41.22
+        ],
+        "text": "1945-05-06 在新伦敦东南被美国驱逐护航舰『阿瑟顿』号（USS Atherton）与巡逻护卫舰『莫伯利』号（USS Moberly）深弹击沉（41°13′N 71°27′W）；55 人全部死亡。",
+        "place": "新伦敦外海"
+      },
+      "zh": "IXC/40 型。1945 年 5 月 5 日击沉美国运煤船「黑点」号，成为美国东岸最后一艘被 U 艇击沉的船；次日被两艘美军护航舰击沉。该艇现为康涅狄格州潜水点，是「战争最后一周」的象征。",
+      "sources": [
+        "uboat_net"
+      ],
+      "confidence": "high",
+      "daysAtSea": 189
+    },
+    {
+      "id": "u877",
+      "boat": "U-877",
+      "type": "ixc40",
+      "typeZh": "IXC/40 型",
+      "builder": "AG Weser, Bremen",
+      "werk": "1085",
+      "laidDown": "1943-05-22",
+      "launched": "1943-12-10",
+      "commissioned": "1944-03-24",
+      "firstCommander": "Kapitänleutnant Eberhard Findeisen",
+      "patrols": 1,
+      "successes": {
+        "shipsSunk": 0,
+        "grtSunk": 0,
+        "warshipsSunk": 0,
+        "warshipsTons": 0,
+        "damagedShips": 0,
+        "damagedGrt": 0
+      },
+      "notable": "1944-12-27 在亚速尔群岛西北被加拿大轻护舰『圣托马斯』号（HMCS St. Thomas）的「刺猬弹」（Squid）击沉——Squid 前投深弹的经典战例，56 人全部生还。",
+      "wolfpacks": [],
+      "fate": {
+        "class": "sunk",
+        "date": "1944-12-27",
+        "position": [
+          -36.63,
+          46.42
+        ],
+        "text": "1944-12-27 在亚速尔群岛西北被加拿大轻护舰『圣托马斯』号 Squid 前投深弹击沉（46°25′N 36°38′W）；56 人全部获救、无死亡。",
+        "place": "亚速尔群岛西北"
+      },
+      "zh": "IXC/40 型。首次巡逻即被加拿大轻护舰用「刺猬弹」的继任者 Squid 击沉，56 人全部生还——Squid 的「前投 + 触爆」使护航舰可以在不失去声呐接触的情况下连续攻击，是 1944 年反潜武器的关键进步。",
+      "sources": [
+        "uboat_net",
+        "nh_atlantic_2"
+      ],
+      "confidence": "high",
+      "articleCitations": [
+        "wiki_en_squid"
+      ],
+      "daysAtSea": 33
+    },
+    {
+      "id": "u177",
+      "boat": "U-177",
+      "type": "ixd",
+      "typeZh": "IXD 型",
+      "builder": "AG Weser, Bremen",
+      "werk": "1017",
+      "laidDown": "1940-11-25",
+      "launched": "1942-01-01",
+      "commissioned": "1942-03-14",
+      "firstCommander": "Kapitänleutnant Wilhelm Schulze",
+      "patrols": 3,
+      "successes": {
+        "shipsSunk": 14,
+        "grtSunk": 87388,
+        "warshipsSunk": 0,
+        "warshipsTons": 0,
+        "damagedShips": 1,
+        "damagedGrt": 2588
+      },
+      "notable": "1943 年在南大西洋与印度洋作战，曾击沉多艘油轮；1944-02-06 在阿森松岛以西被美国 VB-107 中队解放者机击沉。",
+      "wolfpacks": [],
+      "fate": {
+        "class": "aircraft",
+        "date": "1944-02-06",
+        "position": [
+          -23.25,
+          -10.58
+        ],
+        "text": "1944-02-06 在阿森松岛以西被美国 VB-107 中队解放者机深弹击沉（10°35′S 23°15′W）；50 人死亡、15 人获救。",
+        "place": "南大西洋 阿森松岛以西"
+      },
+      "zh": "IXD 型远洋艇。1942—1943 年在南大西洋与印度洋执行长程巡逻，是「Monsun 集团」外围活动的艇只之一。1944 年 2 月被美军解放者机击沉。",
+      "sources": [
+        "uboat_net"
+      ],
+      "confidence": "high",
+      "daysAtSea": 348
+    },
+    {
+      "id": "u181",
+      "boat": "U-181",
+      "type": "ixd",
+      "typeZh": "IXD 型",
+      "builder": "AG Weser, Bremen",
+      "werk": "1021",
+      "laidDown": "1941-03-15",
+      "launched": "1942-04-30",
+      "commissioned": "1942-05-09",
+      "firstCommander": "Kapitänleutnant Wolfgang Lüth",
+      "patrols": 4,
+      "successes": {
+        "shipsSunk": 27,
+        "grtSunk": 138779,
+        "warshipsSunk": 0,
+        "warshipsTons": 0,
+        "damagedShips": 0,
+        "damagedGrt": 0
+      },
+      "notable": "Lüth（橡叶双剑骑士十字勋章）指挥期间在南大西洋与印度洋创下 U 艇单次巡逻（1942 年 8—10 月，约 200 天）的航程纪录；1945-05-05 在新加坡移交日本，改名 I-501。",
+      "wolfpacks": [],
+      "fate": {
+        "class": "transferred",
+        "date": "1945-05-05",
+        "position": [
+          103.85,
+          1.29
+        ],
+        "text": "1945-05-05 在新加坡移交日本，1945-07-15 改名 I-501；1946-02-15 由英国拖至马六甲海峡击沉。",
+        "place": "新加坡"
+      },
+      "zh": "IXD 型，Lüth 指挥。Lüth 的两次长程巡逻（南大西洋、印度洋）是 U 艇战史上最长的作战航程之一；他后来出任海军学院院长，1945 年 5 月被己方哨兵误杀。该艇在新加坡移交日本，是「Monsun 集团」终局的样本。",
+      "sources": [
+        "uboat_net",
+        "uboat_net_ops"
+      ],
+      "confidence": "high",
+      "daysAtSea": 560
+    },
+    {
+      "id": "u198",
+      "boat": "U-198",
+      "type": "ixd",
+      "typeZh": "IXD 型",
+      "builder": "AG Weser, Bremen",
+      "werk": "1044",
+      "laidDown": "1941-08-01",
+      "launched": "1942-06-15",
+      "commissioned": "1942-11-03",
+      "firstCommander": "Fregattenkapitän Werner Musenberg",
+      "patrols": 2,
+      "successes": {
+        "shipsSunk": 11,
+        "grtSunk": 59690,
+        "warshipsSunk": 0,
+        "warshipsTons": 0,
+        "damagedShips": 0,
+        "damagedGrt": 0
+      },
+      "notable": "1943 年在印度洋执行「Monsun」任务；1944-08-12 在塞舌尔附近被英国护卫舰『芬德霍恩』号与印度单桅帆船『戈达瓦里』号击沉，66 人全部死亡。",
+      "wolfpacks": [],
+      "fate": {
+        "class": "sunk",
+        "date": "1944-08-12",
+        "position": [
+          52.82,
+          -3.58
+        ],
+        "text": "1944-08-12 在塞舌尔附近被英国护卫舰『芬德霍恩』号（HMS Findhorn）与印度单桅帆船『戈达瓦里』号（HMIS Godavari）深弹击沉（03°35′S 52°49′E）；66 人全部死亡。",
+        "place": "印度洋 塞舌尔"
+      },
+      "zh": "IXD 型。1943 年经南大西洋进入印度洋，是「Monsun 集团」的补给与作战艇之一。1944 年 8 月被英印海军联合击沉，全艇无生还，标志德国在印度洋的存在基本终结。",
+      "sources": [
+        "uboat_net"
+      ],
+      "confidence": "high",
+      "daysAtSea": 315
+    },
+    {
+      "id": "u862",
+      "boat": "U-862",
+      "type": "ixd",
+      "typeZh": "IXD 型",
+      "builder": "AG Weser, Bremen",
+      "werk": "1068",
+      "laidDown": "1942-08-15",
+      "launched": "1943-07-08",
+      "commissioned": "1943-10-07",
+      "firstCommander": "Kapitänleutnant Heinrich Timm",
+      "patrols": 2,
+      "successes": {
+        "shipsSunk": 7,
+        "grtSunk": 42374,
+        "warshipsSunk": 0,
+        "warshipsTons": 0,
+        "damagedShips": 0,
+        "damagedGrt": 0
+      },
+      "notable": "1944 年在澳大利亚东岸与印度洋作战，是唯一一艘在澳大利亚海域击沉船只的 U 艇之一；1945-05-05 在新加坡移交日本，改名 I-502。",
+      "wolfpacks": [],
+      "fate": {
+        "class": "transferred",
+        "date": "1945-05-05",
+        "position": [
+          103.85,
+          1.29
+        ],
+        "text": "1945-05-05 在新加坡移交日本，1945-07-15 改名 I-502；1946-02-15 在马六甲海峡被英国击沉。",
+        "place": "新加坡"
+      },
+      "zh": "IXD 型。1944 年远赴澳大利亚东岸，是德国 U 艇在太平洋方向最远的作战行动之一；1945 年在新加坡移交日本。它的航迹是「Monsun 集团」战略失败的注脚：远离主战场，无法影响大西洋战局。",
+      "sources": [
+        "uboat_net",
+        "uboat_net_ops"
+      ],
+      "confidence": "high",
+      "daysAtSea": 189
+    },
+    {
+      "id": "u864",
+      "boat": "U-864",
+      "type": "ixd",
+      "typeZh": "IXD 型",
+      "builder": "AG Weser, Bremen",
+      "werk": "1070",
+      "laidDown": "1942-10-15",
+      "launched": "1943-09-05",
+      "commissioned": "1943-12-09",
+      "firstCommander": "Korvettenkapitän Ralf-Reimar Wolfram",
+      "patrols": 1,
+      "successes": {
+        "shipsSunk": 0,
+        "grtSunk": 0,
+        "warshipsSunk": 0,
+        "warshipsTons": 0,
+        "damagedShips": 0,
+        "damagedGrt": 0
+      },
+      "notable": "1945-02-09 在北海卑尔根以西被英国潜艇『冒险者』号（HMS Venturer）用鱼雷击沉——这是海战史上唯一一次双方都在水下的潜艇交战中一方被击沉（Venturer 依据声呐与计算发射定深齐射）；该艇正执行『凯撒』行动，运送喷气发动机零件与汞去日本。",
+      "wolfpacks": [],
+      "fate": {
+        "class": "sunk",
+        "date": "1945-02-09",
+        "position": [
+          4.58,
+          60.77
+        ],
+        "text": "1945-02-09 在北海卑尔根以西被英国潜艇『冒险者』号（HMS Venturer）击沉（60°46′N 04°35′E）；73 人全部死亡。",
+        "place": "北海 卑尔根以西"
+      },
+      "zh": "IXD 型。1945 年 2 月执行「凯撒」行动，运送喷气发动机零件与汞去日本，在卑尔根外海被英国潜艇「冒险者」号击沉。这是史上唯一一次水下对水下的潜艇击沉，也是「德国—日本技术转运」的终点。",
+      "sources": [
+        "uboat_net"
+      ],
+      "confidence": "high",
+      "daysAtSea": 3
+    },
+    {
+      "id": "u234",
+      "boat": "U-234",
+      "type": "xb",
+      "typeZh": "XB 型",
+      "builder": "F. Krupp Germaniawerft AG, Kiel",
+      "werk": "664",
+      "laidDown": "1941-10-01",
+      "launched": "1943-12-23",
+      "commissioned": "1944-03-02",
+      "firstCommander": "Kapitänleutnant Johann-Heinrich Fehler",
+      "patrols": 1,
+      "successes": {
+        "shipsSunk": 0,
+        "grtSunk": 0,
+        "warshipsSunk": 0,
+        "warshipsTons": 0,
+        "damagedShips": 0,
+        "damagedGrt": 0
+      },
+      "notable": "1945 年 5 月运送 560 公斤氧化铀、喷气机图纸与日本军官去远东，5 月 19 日在朴次茅斯投降——「铀与喷气机」的著名 cargo。",
+      "wolfpacks": [],
+      "fate": {
+        "class": "surrendered",
+        "date": "1945-05-19",
+        "position": [
+          -70.75,
+          43.08
+        ],
+        "text": "1945-05-19 在新罕布什尔州朴次茅斯投降；战后用于有限试验，1947-11-20 在科德角东北作为靶标被美国潜艇『绿鱼』号（USS Greenfish）鱼雷击沉。",
+        "place": "美国 朴次茅斯（新罕布什尔）"
+      },
+      "zh": "XB 型运输艇。1945 年 5 月满载氧化铀、喷气发动机图纸与日本军官驶向远东，德国投降后被令驶往朴次茅斯投降。这批铀的去向与「德国原子弹计划」的关系至今仍被讨论，但档案并未证明它可用于武器。",
+      "sources": [
+        "uboat_net"
+      ],
+      "confidence": "high",
+      "daysAtSea": 34
+    },
+    {
+      "id": "u459",
+      "boat": "U-459",
+      "type": "xiv",
+      "typeZh": "XIV 型「乳牛」",
+      "builder": "Deutsche Werke AG, Kiel",
+      "werk": "290",
+      "laidDown": "1940-11-22",
+      "launched": "1941-09-13",
+      "commissioned": "1941-11-15",
+      "firstCommander": "Kapitänleutnant Georg von Wilamowitz-Moellendorff",
+      "patrols": 6,
+      "successes": {
+        "shipsSunk": 0,
+        "grtSunk": 0,
+        "warshipsSunk": 0,
+        "warshipsTons": 0,
+        "damagedShips": 0,
+        "damagedGrt": 0
+      },
+      "notable": "第一艘服役的 XIV 型「乳牛」补给艇；1943-07-24 在西班牙西北被两架英国威灵顿机攻击后自沉——「乳牛」体系的转折点之一。",
+      "wolfpacks": [
+        "Eisbär"
+      ],
+      "fate": {
+        "class": "scuttled_damaged",
+        "date": "1943-07-24",
+        "position": [
+          -10.63,
+          45.88
+        ],
+        "text": "1943-07-24 在西班牙科鲁尼亚西北被英国 172 与 547 中队威灵顿机攻击后自沉（45°53′N 10°38′W）；18 人死亡、41 人获救。",
+        "place": "比斯开湾 科鲁尼亚西北"
+      },
+      "zh": "XIV 型「乳牛」。作为第一艘服役的补给艇，它把 U 艇的作战半径从「必须返航补给」变成「海上加油加雷」，是 1942 年 U 艇能在美国东岸与加勒比持续作战的关键。1943 年 7 月被威灵顿机击沉，标志盟军开始系统性猎杀补给艇。",
+      "sources": [
+        "uboat_net",
+        "uboat_net_types"
+      ],
+      "confidence": "high",
+      "daysAtSea": 297
+    },
+    {
+      "id": "u461",
+      "boat": "U-461",
+      "type": "xiv",
+      "typeZh": "XIV 型「乳牛」",
+      "builder": "Deutsche Werke AG, Kiel",
+      "werk": "292",
+      "laidDown": "1940-12-09",
+      "launched": "1941-11-08",
+      "commissioned": "1942-01-30",
+      "firstCommander": "Oberleutnant zur See Hinrich-Oscar Bernbeck",
+      "patrols": 6,
+      "successes": {
+        "shipsSunk": 0,
+        "grtSunk": 0,
+        "warshipsSunk": 0,
+        "warshipsTons": 0,
+        "damagedShips": 0,
+        "damagedGrt": 0
+      },
+      "notable": "1943-07-30 在比斯开湾被澳大利亚 461 中队桑德兰机击沉，53 人死亡——「乳牛」在比斯开湾被迫白天浮航的代价。",
+      "wolfpacks": [
+        "Eisbär",
+        "West",
+        "Markgraf"
+      ],
+      "fate": {
+        "class": "aircraft",
+        "date": "1943-07-30",
+        "position": [
+          -10.8,
+          45.55
+        ],
+        "text": "1943-07-30 在西班牙奥尔特加尔角西北被澳大利亚 461 中队桑德兰机深弹击沉（45°33′N 10°48′W）；53 人死亡、15 人获救。",
+        "place": "比斯开湾 奥尔特加尔角西北"
+      },
+      "zh": "XIV 型。1943 年 7 月 30 日在比斯开湾被澳大利亚桑德兰机击沉，与 U-459（7 月 24 日）相隔不到一周——两艘「乳牛」的连续损失，直接削弱了 U 艇在北大西洋的持续作战能力。",
+      "sources": [
+        "uboat_net"
+      ],
+      "confidence": "high",
+      "daysAtSea": 227
+    },
+    {
+      "id": "u488",
+      "boat": "U-488",
+      "type": "xiv",
+      "typeZh": "XIV 型「乳牛」",
+      "builder": "F. Krupp Germaniawerft AG, Kiel",
+      "werk": "557",
+      "laidDown": "1942-01-03",
+      "launched": "1942-12-03",
+      "commissioned": "1943-02-01",
+      "firstCommander": "Leutnant zur See Erwin Bartke",
+      "patrols": 3,
+      "successes": {
+        "shipsSunk": 0,
+        "grtSunk": 0,
+        "warshipsSunk": 0,
+        "warshipsTons": 0,
+        "damagedShips": 0,
+        "damagedGrt": 0
+      },
+      "notable": "1944-04-26 在佛得角以西被美军四艘驱逐护航舰（Frost、Huse、Barber、Snowden）组成的猎杀群击沉，64 人全部死亡——「猎杀群专打乳牛」的典型。",
+      "wolfpacks": [
+        "Eisbär"
+      ],
+      "fate": {
+        "class": "sunk",
+        "date": "1944-04-26",
+        "position": [
+          -38.08,
+          17.9
+        ],
+        "text": "1944-04-26 在佛得角以西被美国驱逐护航舰『弗罗斯特』『休斯』『巴伯』『斯诺登』深弹击沉（17°54′N 38°05′W）；64 人全部死亡。",
+        "place": "中大西洋 佛得角以西"
+      },
+      "zh": "XIV 型。1944 年 4 月被美军四艘驱逐护航舰组成的猎杀群击沉，全艇无生还。美军以 Ultra 情报定位补给艇，再由猎杀群「点名清除」，是 1943—1944 年大西洋反潜战的关键一环。",
+      "sources": [
+        "uboat_net",
+        "mori_atlantic_won"
+      ],
+      "confidence": "high",
+      "daysAtSea": 216
+    },
+    {
+      "id": "u213",
+      "boat": "U-213",
+      "type": "viid",
+      "typeZh": "VIID 型（布雷）",
+      "builder": "F. Krupp Germaniawerft AG, Kiel",
+      "werk": "645",
+      "laidDown": "1940-10-01",
+      "launched": "1941-07-24",
+      "commissioned": "1941-08-30",
+      "firstCommander": "Oberleutnant zur See Amelung von Varendorff",
+      "patrols": 3,
+      "successes": {
+        "shipsSunk": 0,
+        "grtSunk": 0,
+        "warshipsSunk": 0,
+        "warshipsTons": 0,
+        "damagedShips": 0,
+        "damagedGrt": 0
+      },
+      "notable": "VIID 型布雷艇，1942-07-31 在亚速尔东南被英国三艘单桅帆船（Erne、Rochester、Sandwich）深弹击沉，50 人全部死亡。",
+      "wolfpacks": [
+        "West",
+        "Markgraf",
+        "Seewolf"
+      ],
+      "fate": {
+        "class": "sunk",
+        "date": "1942-07-31",
+        "position": [
+          -22.83,
+          36.75
+        ],
+        "text": "1942-07-31 在亚速尔群岛东南被英国单桅帆船『厄恩』『罗切斯特』『桑威奇』深弹击沉（36°45′N 22°50′W）；50 人全部死亡。",
+        "place": "亚速尔群岛东南"
+      },
+      "zh": "VIID 型布雷艇。VIID 型是 VIIC 的布雷改型，可在艇体后方携带 15 枚 SMA 水雷；U-213 的损失说明布雷任务在盟军护航与航空巡逻下同样危险。",
+      "sources": [
+        "uboat_net",
+        "uboat_net_types"
+      ],
+      "confidence": "high",
+      "daysAtSea": 120
+    },
+    {
+      "id": "u2501",
+      "boat": "U-2501",
+      "type": "xxi",
+      "typeZh": "XXI 型（Elektro）",
+      "builder": "Blohm & Voss, Hamburg",
+      "werk": "2501",
+      "laidDown": "1944-04-03",
+      "launched": "1944-05-30",
+      "commissioned": "1944-06-27",
+      "firstCommander": "Oberleutnant zur See Otto Hübschen",
+      "patrols": 0,
+      "successes": {
+        "shipsSunk": 0,
+        "grtSunk": 0,
+        "warshipsSunk": 0,
+        "warshipsTons": 0,
+        "damagedShips": 0,
+        "damagedGrt": 0
+      },
+      "notable": "第一艘服役的 XXI 型；1945-05-03 07:08 在汉堡自沉，战后拆解。分段建造（Sektionsbau）模式的产物，从铺设龙骨到服役仅 85 天。",
+      "wolfpacks": [],
+      "fate": {
+        "class": "scuttled",
+        "date": "1945-05-03",
+        "position": [
+          9.97,
+          53.55
+        ],
+        "text": "1945-05-03 07:08 在汉堡自沉，战后拆解。",
+        "place": "汉堡（Hamburg）"
+      },
+      "zh": "XXI 型首艇。XXI 型采用分段建造与通气管 + 大容量电池，水下航速 17 节、水下续航 340 海里，理论上可在水下完成整个攻击循环。但 U-2501 服役时德国已失去训练与燃料条件，最终在港内自沉。",
+      "sources": [
+        "uboat_net",
+        "uboat_net_types",
+        "roessler_uboot"
+      ],
+      "confidence": "high",
+      "daysAtSea": 0
+    },
+    {
+      "id": "u2511",
+      "boat": "U-2511",
+      "type": "xxi",
+      "typeZh": "XXI 型（Elektro）",
+      "builder": "Blohm & Voss, Hamburg",
+      "werk": "2511",
+      "laidDown": "1944-07-07",
+      "launched": "1944-09-21",
+      "commissioned": "1944-09-29",
+      "firstCommander": "Korvettenkapitän Adalbert Schnee",
+      "patrols": 1,
+      "successes": {
+        "shipsSunk": 0,
+        "grtSunk": 0,
+        "warshipsSunk": 0,
+        "warshipsTons": 0,
+        "damagedShips": 0,
+        "damagedGrt": 0
+      },
+      "notable": "由原 U-201 指挥官 Schnee 指挥；1945 年 5 月初出击，据 Schnee 战后陈述曾在水下接近英国巡洋舰编队并模拟攻击，但未发射——「XXI 型若早一年服役」的著名假设。",
+      "wolfpacks": [],
+      "fate": {
+        "class": "surrendered",
+        "date": "1945-05-09",
+        "position": [
+          5.32,
+          60.4
+        ],
+        "text": "1945-05-09 在卑尔根投降；经 Lerwick、Lisahally，1946-01-07 在 55°33′N 07°38′W 被击沉（Operation Deadlight）。",
+        "place": "卑尔根 / Lisahally"
+      },
+      "zh": "XXI 型。1945 年 5 月初的最后一次出击中，Schnee 声称曾在通气管深度从英国巡洋舰编队下方通过并完成模拟攻击。这个说法被战后文献广泛引用，用以说明 XXI 型的技术潜力，但也提醒读者：它没有改变战争结局。",
+      "sources": [
+        "uboat_net",
+        "roessler_uboot"
+      ],
+      "confidence": "medium",
+      "daysAtSea": 4
+    },
+    {
+      "id": "u3008",
+      "boat": "U-3008",
+      "type": "xxi",
+      "typeZh": "XXI 型（Elektro）",
+      "builder": "AG Weser, Bremen",
+      "werk": "1167",
+      "laidDown": "1944-07-02",
+      "launched": "1944-09-14",
+      "commissioned": "1944-10-19",
+      "firstCommander": "Kapitänleutnant Fokko Schlömer",
+      "patrols": 0,
+      "successes": {
+        "shipsSunk": 0,
+        "grtSunk": 0,
+        "warshipsSunk": 0,
+        "warshipsTons": 0,
+        "damagedShips": 0,
+        "damagedGrt": 0
+      },
+      "notable": "1945-05-03 从威廉港出航执行唯一一次巡逻，5 月 11 日在波罗的海投降；战后移交美国海军作试验艇（USS U-3008）。",
+      "wolfpacks": [],
+      "fate": {
+        "class": "surrendered",
+        "date": "1945-05-11",
+        "position": [
+          10.13,
+          54.33
+        ],
+        "text": "1945-05-11 在波罗的海投降；1945-08 秘密移交美国海军，1954 年 5 月作爆破试验沉没，1955 年出售拆解。",
+        "place": "波罗的海 / 美国"
+      },
+      "zh": "XXI 型。1945 年 5 月 3 日才出海执行第一次也是唯一一次巡逻，德国投降后返航投降。战后作为 USS U-3008 在美国海军服役到 1948 年，是「Elektro 型」实际使用记录的少数样本。",
+      "sources": [
+        "uboat_net",
+        "roessler_uboot"
+      ],
+      "confidence": "high",
+      "daysAtSea": 19
+    },
+    {
+      "id": "u3503",
+      "boat": "U-3503",
+      "type": "xxi",
+      "typeZh": "XXI 型（Elektro）",
+      "builder": "F. Schichau GmbH, Danzig",
+      "werk": "1648",
+      "laidDown": "1944-06-17",
+      "launched": "1944-08-04",
+      "commissioned": "1944-09-09",
+      "firstCommander": "Oberleutnant zur See Hugo Deiring",
+      "patrols": 0,
+      "successes": {
+        "shipsSunk": 0,
+        "grtSunk": 0,
+        "warshipsSunk": 0,
+        "warshipsTons": 0,
+        "damagedShips": 0,
+        "damagedGrt": 0
+      },
+      "notable": "1945-05-08 在卡特加特海峡哥德堡以西自沉（57°39′N 11°44′E），1946 年打捞拆解——战后「Regenbogen」自沉潮的一艘。",
+      "wolfpacks": [],
+      "fate": {
+        "class": "scuttled",
+        "date": "1945-05-08",
+        "position": [
+          11.73,
+          57.65
+        ],
+        "text": "1945-05-08 在卡特加特海峡哥德堡以西自沉（57°39′N 11°44′E）；1946 年打捞拆解。",
+        "place": "卡特加特海峡"
+      },
+      "zh": "XXI 型。德国投降当日自沉于卡特加特海峡，属于「彩虹行动」（Regenbogen）自沉潮的一部分。它的结局说明：即使是最先进的 XXI 型，在 1945 年 5 月也已没有可用的战场。",
+      "sources": [
+        "uboat_net",
+        "uboat_net_fates"
+      ],
+      "confidence": "high",
+      "daysAtSea": 0
+    },
+    {
+      "id": "u2326",
+      "boat": "U-2326",
+      "type": "xxiii",
+      "typeZh": "XXIII 型（Elektro 近岸）",
+      "builder": "Deutsche Werft AG, Hamburg",
+      "werk": "480",
+      "laidDown": "1944-05-08",
+      "launched": "1944-07-26",
+      "commissioned": "1944-08-10",
+      "firstCommander": "Oberleutnant zur See Karl Jobst",
+      "patrols": 2,
+      "successes": {
+        "shipsSunk": 0,
+        "grtSunk": 0,
+        "warshipsSunk": 0,
+        "warshipsTons": 0,
+        "damagedShips": 0,
+        "damagedGrt": 0
+      },
+      "notable": "XXIII 型近岸艇，1945-05-14 在苏格兰邓迪投降；战后成为英国潜艇 N-35，1946 年移交法国，同年在土伦因事故沉没。",
+      "wolfpacks": [],
+      "fate": {
+        "class": "surrendered",
+        "date": "1945-05-14",
+        "position": [
+          -2.97,
+          56.47
+        ],
+        "text": "1945-05-14 在苏格兰邓迪投降；战后改名 N-35 交英国海军，1946 年移交法国，1946-12-06 在土伦因事故沉没。",
+        "place": "邓迪（Dundee）/ 土伦"
+      },
+      "zh": "XXIII 型。XXIII 型是「小型 Elektro」，只有两个艏鱼雷管，专为英吉利海峡与北海的近岸伏击设计。U-2326 战后辗转英法两国，最终在土伦因事故沉没。",
+      "sources": [
+        "uboat_net",
+        "uboat_net_types"
+      ],
+      "confidence": "high",
+      "daysAtSea": 20
+    },
+    {
+      "id": "u2336",
+      "boat": "U-2336",
+      "type": "xxiii",
+      "typeZh": "XXIII 型（Elektro 近岸）",
+      "builder": "Deutsche Werft AG, Hamburg",
+      "werk": "490",
+      "laidDown": "1944-07-27",
+      "launched": "1944-09-10",
+      "commissioned": "1944-09-30",
+      "firstCommander": "Leutnant zur See Jürgen Vockel",
+      "patrols": 1,
+      "successes": {
+        "shipsSunk": 2,
+        "grtSunk": 4669,
+        "warshipsSunk": 0,
+        "warshipsTons": 0,
+        "damagedShips": 0,
+        "damagedGrt": 0
+      },
+      "notable": "1945-05-07 在福斯湾击沉英国货轮『斯内兰二号』（Sneland I）与『埃文代尔公园』号（Avondale Park）——德国投降生效（5 月 8 日 23:01 CET）前最后被 U 艇击沉的商船；实际相隔约 25 小时，常见『投降前不到一小时』的说法是时区混读。",
+      "wolfpacks": [],
+      "fate": {
+        "class": "surrendered",
+        "date": "1945-05-15",
+        "position": [
+          10.13,
+          54.33
+        ],
+        "text": "1945-05-15 在基尔投降；经 Lisahally，1946-01-03 在 56°06′N 09°00′W 被英国驱逐舰『奥法』号炮火击沉（Operation Deadlight）。",
+        "place": "基尔 / Lisahally"
+      },
+      "zh": "XXIII 型。1945 年 5 月 7 日在福斯湾击沉两艘英国货轮，是德国投降生效前最后被 U 艇击沉的商船。这个时间点常被误传为「投降前不到一小时」，实际距投降生效约 25 小时（详见 01-strategy.md 的时钟讨论）。",
+      "sources": [
+        "uboat_net",
+        "blair_1998"
+      ],
+      "confidence": "high",
+      "daysAtSea": 14
+    },
+    {
+      "id": "u4706",
+      "boat": "U-4706",
+      "type": "xxiii",
+      "typeZh": "XXIII 型（Elektro 近岸）",
+      "builder": "F. Krupp Germaniawerft AG, Kiel",
+      "werk": "948",
+      "laidDown": "1944-11-14",
+      "launched": "1945-01-06",
+      "commissioned": "1945-02-07",
+      "firstCommander": "Oberleutnant zur See Manfred Schneider",
+      "patrols": 0,
+      "successes": {
+        "shipsSunk": 0,
+        "grtSunk": 0,
+        "warshipsSunk": 0,
+        "warshipsTons": 0,
+        "damagedShips": 0,
+        "damagedGrt": 0
+      },
+      "notable": "1945-05-09 在挪威克里斯蒂安桑投降；1948 年移交挪威，改名 KNM Knerter，1954 年拆解。",
+      "wolfpacks": [],
+      "fate": {
+        "class": "surrendered",
+        "date": "1945-05-09",
+        "position": [
+          8.0,
+          58.15
+        ],
+        "text": "1945-05-09 在挪威克里斯蒂安桑投降；1948 年 10 月移交挪威，改名 KNM Knerter，1954 年拆解。",
+        "place": "克里斯蒂安桑（Kristiansand）"
+      },
+      "zh": "XXIII 型。1945 年 2 月才服役，未及执行作战巡逻即投降。战后移交挪威，是战后盟国瓜分 U 艇技术的众多小案例之一。",
+      "sources": [
+        "uboat_net"
+      ],
+      "confidence": "high",
+      "daysAtSea": 0
+    }
+  ],
+  "lossCauses": {
+    "caliber": "uboat.net 逐年损失表（783 行）的『Notes』列逐条归类；同一行可能同时标注多种原因（如『Aircraft & warship』），本表把复合原因单列，不做拆分。『Stricken from Naval records』指被除籍（多为港内损失或战后处置），『unknown』为空白的 29 行。",
+    "total": 783,
+    "buckets": [
+      {
+        "cause": "warship",
+        "zh": "被水面舰艇击沉（深弹/刺猬弹/Squid/炮火/撞击）",
+        "n": 272,
+        "pct": 34.7
+      },
+      {
+        "cause": "aircraft",
+        "zh": "被飞机击沉（炸弹/深弹/火箭/Fido）",
+        "n": 250,
+        "pct": 31.9
+      },
+      {
+        "cause": "air_raid_port",
+        "zh": "港内被空袭击沉",
+        "n": 45,
+        "pct": 5.7
+      },
+      {
+        "cause": "aircraft_and_warship",
+        "zh": "飞机与舰艇协同",
+        "n": 43,
+        "pct": 5.5
+      },
+      {
+        "cause": "missing",
+        "zh": "失踪（原因不明）",
+        "n": 41,
+        "pct": 5.2
+      },
+      {
+        "cause": "mine",
+        "zh": "触雷",
+        "n": 39,
+        "pct": 5.0
+      },
+      {
+        "cause": "accident",
+        "zh": "事故（碰撞、下潜失败、自身鱼雷）",
+        "n": 38,
+        "pct": 4.9
+      },
+      {
+        "cause": "stricken",
+        "zh": "除籍（多为港内损失/战后处置）",
+        "n": 23,
+        "pct": 2.9
+      },
+      {
+        "cause": "unknown",
+        "zh": "原因未注明",
+        "n": 29,
+        "pct": 3.7
+      },
+      {
+        "cause": "scuttled",
+        "zh": "自沉",
+        "n": 3,
+        "pct": 0.4
+      }
+    ],
+    "note": "把『aircraft』与『aircraft_and_warship』合并为『航空相关』共 293 艘（37.4%），与『warship』的 272 艘（34.7%）相加为 72.1%，这就是 1943 年后 U 艇损失的主干。另有约 220 艘在 1945 年 5 月投降前后自沉（Regenbogen），不计入本表的战斗损失。",
+    "sources": [
+      "uboat_net_fates"
+    ],
+    "confidence": "medium",
+    "caveat": "uboat.net 的 cause 页自述数据『不保证 100% 准确』，且战后修订频繁（FDS/NHB 1991、Niestlé 2006/2010）。战役包如引用，应写『约』并注明来源年份。"
+  }
+}

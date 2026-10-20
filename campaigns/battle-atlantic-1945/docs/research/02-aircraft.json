@@ -1,0 +1,835 @@
+{
+  "meta": {
+    "campaign": "battle-atlantic-1945",
+    "task": "R2 / t2",
+    "title": "代表机型档案（岸基反潜巡逻机、舰载机、德军海上侦察机）",
+    "generated": "2026-10-19",
+    "counts": {
+      "aircraft": 12
+    },
+    "conventions": {
+      "units": "尺寸：米；速度：km/h（括注节）；航程：km（括注海里）；升限：米；武备：口径 + 门数 + 挂载。",
+      "crewNote": "乘员数为典型反潜巡逻配置，可能少于轰炸型。",
+      "aswFit": "反潜改装（Leigh Light、ASV 雷达、深弹、火箭、Fido、MAD）因型号与年份差异很大，本表按参战时典型配置写，并在 note 里说明差异。",
+      "confidence": "high = 主尺度与性能在 Jane's / 型别专著中多源一致；medium = 反潜改装差异大、或性能数据随载荷变化明显；low = 单一来源。"
+    },
+    "sources": [
+      "wiki_en_midgap",
+      "wiki_en_atlantic",
+      "nh_atlantic_2",
+      "wiki_en_escort_carrier",
+      "roskill_1954",
+      "roskill_1960",
+      "roskill_1961",
+      "blair_1996",
+      "blair_1998"
+    ],
+    "articleCitations": [
+      "wiki_en_liberator",
+      "wiki_en_sunderland",
+      "wiki_en_catalina",
+      "wiki_en_fw200",
+      "wiki_en_wellington",
+      "wiki_en_halifax",
+      "wiki_en_hudson",
+      "wiki_en_swordfish",
+      "wiki_en_avenger",
+      "wiki_en_mosquito",
+      "wiki_en_ju88",
+      "wiki_en_bv138"
+    ],
+    "articleIndex": {
+      "wiki_en_admiral_scheer": {
+        "title": "Admiral Scheer",
+        "url": "https://en.wikipedia.org/wiki/German_cruiser_Admiral_Scheer"
+      },
+      "wiki_en_ark_royal": {
+        "title": "HMS Ark Royal (91)",
+        "url": "https://en.wikipedia.org/wiki/HMS_Ark_Royal_(91)"
+      },
+      "wiki_en_audacity": {
+        "title": "HMS Audacity",
+        "url": "https://en.wikipedia.org/wiki/HMS_Audacity"
+      },
+      "wiki_en_avenger": {
+        "title": "HMS Avenger (D14)",
+        "url": "https://en.wikipedia.org/wiki/HMS_Avenger_(D14)"
+      },
+      "wiki_en_bismarck": {
+        "title": "German battleship Bismarck",
+        "url": "https://en.wikipedia.org/wiki/German_battleship_Bismarck"
+      },
+      "wiki_en_biter": {
+        "title": "HMS Biter (D97)",
+        "url": "https://en.wikipedia.org/wiki/HMS_Biter_(D97)"
+      },
+      "wiki_en_black_swan": {
+        "title": "Black Swan-class sloop",
+        "url": "https://en.wikipedia.org/wiki/Black_Swan-class_sloop"
+      },
+      "wiki_en_bogue": {
+        "title": "USS Bogue",
+        "url": "https://en.wikipedia.org/wiki/USS_Bogue"
+      },
+      "wiki_en_bogue_class": {
+        "title": "Bogue-class escort carrier",
+        "url": "https://en.wikipedia.org/wiki/Bogue-class_escort_carrier"
+      },
+      "wiki_en_borie": {
+        "title": "USS Borie (DD-215)",
+        "url": "https://en.wikipedia.org/wiki/USS_Borie_(DD-215)"
+      },
+      "wiki_en_bv138": {
+        "title": "Blohm & Voss BV 138",
+        "url": "https://en.wikipedia.org/wiki/Blohm_%26_Voss_BV_138"
+      },
+      "wiki_en_card": {
+        "title": "USS Card",
+        "url": "https://en.wikipedia.org/wiki/USS_Card"
+      },
+      "wiki_en_casablanca": {
+        "title": "Casablanca-class escort carrier",
+        "url": "https://en.wikipedia.org/wiki/Casablanca-class_escort_carrier"
+      },
+      "wiki_en_catalina": {
+        "title": "Consolidated PBY Catalina",
+        "url": "https://en.wikipedia.org/wiki/Consolidated_PBY_Catalina"
+      },
+      "wiki_en_courageous": {
+        "title": "HMS Courageous (50)",
+        "url": "https://en.wikipedia.org/wiki/HMS_Courageous_(50)"
+      },
+      "wiki_en_flower": {
+        "title": "Flower-class corvette",
+        "url": "https://en.wikipedia.org/wiki/Flower-class_corvette"
+      },
+      "wiki_en_fw200": {
+        "title": "Focke-Wulf Fw 200 Condor",
+        "url": "https://en.wikipedia.org/wiki/Focke-Wulf_Fw_200_Condor"
+      },
+      "wiki_en_guadalcanal": {
+        "title": "USS Guadalcanal (CVE-60)",
+        "url": "https://en.wikipedia.org/wiki/USS_Guadalcanal_(CVE-60)"
+      },
+      "wiki_en_halifax": {
+        "title": "Handley Page Halifax",
+        "url": "https://en.wikipedia.org/wiki/Handley_Page_Halifax"
+      },
+      "wiki_en_hudson": {
+        "title": "Lockheed Hudson",
+        "url": "https://en.wikipedia.org/wiki/Lockheed_Hudson"
+      },
+      "wiki_en_ju88": {
+        "title": "Junkers Ju 88",
+        "url": "https://en.wikipedia.org/wiki/Junkers_Ju_88"
+      },
+      "wiki_en_liberator": {
+        "title": "Consolidated B-24 Liberator",
+        "url": "https://en.wikipedia.org/wiki/Consolidated_B-24_Liberator"
+      },
+      "wiki_en_loch": {
+        "title": "Loch-class frigate",
+        "url": "https://en.wikipedia.org/wiki/Loch-class_frigate"
+      },
+      "wiki_en_mosquito": {
+        "title": "de Havilland Mosquito",
+        "url": "https://en.wikipedia.org/wiki/De_Havilland_Mosquito"
+      },
+      "wiki_en_reuben_james": {
+        "title": "USS Reuben James (DD-245)",
+        "url": "https://en.wikipedia.org/wiki/USS_Reuben_James_(DD-245)"
+      },
+      "wiki_en_river": {
+        "title": "River-class frigate",
+        "url": "https://en.wikipedia.org/wiki/River-class_frigate"
+      },
+      "wiki_en_royal_oak": {
+        "title": "HMS Royal Oak (08)",
+        "url": "https://en.wikipedia.org/wiki/HMS_Royal_Oak_(08)"
+      },
+      "wiki_en_scharnhorst": {
+        "title": "German battleship Scharnhorst",
+        "url": "https://en.wikipedia.org/wiki/German_battleship_Scharnhorst"
+      },
+      "wiki_en_squid": {
+        "title": "Squid (weapon)",
+        "url": "https://en.wikipedia.org/wiki/Squid_(weapon)"
+      },
+      "wiki_en_starling": {
+        "title": "HMS Starling (U66)",
+        "url": "https://en.wikipedia.org/wiki/HMS_Starling_(U66)"
+      },
+      "wiki_en_sunderland": {
+        "title": "Short Sunderland",
+        "url": "https://en.wikipedia.org/wiki/Short_Sunderland"
+      },
+      "wiki_en_swordfish": {
+        "title": "Fairey Swordfish",
+        "url": "https://en.wikipedia.org/wiki/Fairey_Swordfish"
+      },
+      "wiki_en_u505": {
+        "title": "German submarine U-505",
+        "url": "https://en.wikipedia.org/wiki/German_submarine_U-505"
+      },
+      "wiki_en_u530": {
+        "title": "German submarine U-530",
+        "url": "https://en.wikipedia.org/wiki/German_submarine_U-530"
+      },
+      "wiki_en_walker": {
+        "title": "HMS Walker (D27)",
+        "url": "https://en.wikipedia.org/wiki/HMS_Walker_(D27)"
+      },
+      "wiki_en_wellington": {
+        "title": "Vickers Wellington",
+        "url": "https://en.wikipedia.org/wiki/Vickers_Wellington"
+      }
+    },
+    "sourceNote": "sources[] 只使用 05-sources.json 中已登记的 id；逐条维基条目用 articleCitations 记录 id，其题名与链接见本文件 meta.articleIndex。这样 data/sources/main.json 引用不会出现悬空 id。"
+  },
+  "aircraft": [
+    {
+      "id": "b24_liberator_vlr",
+      "name": {
+        "zh": "B-24「解放者」远程反潜型（GR Mk V / B-24D）",
+        "orig": "Consolidated B-24 Liberator (VLR GR Mk V)",
+        "short": "Liberator"
+      },
+      "side": "GB",
+      "role": "very_long_range_asw",
+      "operator": "英国皇家空军海岸司令部（第 120、86、547 中队）；美国海军 VB-105/107/110 等",
+      "crew": 10,
+      "lengthM": 20.47,
+      "spanM": 33.53,
+      "heightM": 5.49,
+      "emptyKg": 16556,
+      "maxTakeoffKg": 29484,
+      "powerplant": "4 × 普拉特·惠特尼 R-1830-43/65「双黄蜂」星型发动机，各 1,200 hp",
+      "maxSpeedKmh": 478,
+      "cruiseKmh": 346,
+      "rangeKm": 3700,
+      "enduranceH": 16,
+      "ceilingM": 8500,
+      "armament": [
+        {
+          "type": "机炮",
+          "count": 4,
+          "cal": "20 mm 西斯潘诺",
+          "note": "GR Mk V 的机头「刺猬」武装，用于压制 U 艇高炮"
+        },
+        {
+          "type": "机枪",
+          "count": 6,
+          "cal": ".303 英寸 勃朗宁",
+          "note": "机背与腰部"
+        },
+        {
+          "type": "深弹",
+          "count": 4,
+          "cal": "250 lb Mk XI",
+          "note": "典型反潜挂载；也可挂 6–8 枚"
+        },
+        {
+          "type": "火箭",
+          "count": 8,
+          "cal": "RP-3 60 lb",
+          "note": "1943 年后加装，用于压制水面 U 艇"
+        }
+      ],
+      "asw": {
+        "radar": "ASV Mk III（10 cm 厘米波）",
+        "leighLight": true,
+        "mad": "部分装 Mark III MAD",
+        "fido": true,
+        "note": "VLR 型拆除装甲与部分自卫武器，增加 1,100 加仑燃油，航程覆盖中大西洋空白区"
+      },
+      "silhouette": "b24",
+      "record": "关闭中大西洋空白区的决定性装备。1943 年 3 月起第 120 中队从北爱尔兰、冰岛起飞，可在冰岛—格陵兰—亚速尔之间覆盖整个空白区。1943 年 5 月后 U 艇在空白区的水面航行自由结束；1944 年 8 月 201 中队解放者击沉 U-107。",
+      "sources": [
+        "wiki_en_midgap",
+        "roskill_1960",
+        "blair_1998",
+        "nh_atlantic_2"
+      ],
+      "confidence": "high",
+      "articleCitations": [
+        "wiki_en_liberator"
+      ]
+    },
+    {
+      "id": "sunderland",
+      "name": {
+        "zh": "「桑德兰」水上飞机 Mk III/V",
+        "orig": "Short Sunderland",
+        "short": "Sunderland"
+      },
+      "side": "GB",
+      "role": "maritime_patrol_flying_boat",
+      "operator": "英国皇家空军海岸司令部（第 201、204、210、228、461 中队等）；加拿大、澳大利亚、新西兰、南非中队",
+      "crew": 11,
+      "lengthM": 26.01,
+      "spanM": 34.39,
+      "heightM": 10.02,
+      "emptyKg": 15649,
+      "maxTakeoffKg": 26308,
+      "powerplant": "4 × 布里斯托「飞马」XVIII 星型发动机，各 1,065 hp",
+      "maxSpeedKmh": 338,
+      "cruiseKmh": 286,
+      "rangeKm": 2865,
+      "enduranceH": 13,
+      "ceilingM": 5243,
+      "armament": [
+        {
+          "type": "机枪",
+          "count": 8,
+          "cal": ".303 英寸 勃朗宁",
+          "note": "Mk III 典型：机头 2、机背 2、机尾 4；Mk V 增至 12 挺"
+        },
+        {
+          "type": "深弹",
+          "count": 8,
+          "cal": "250 lb",
+          "note": "翼下挂架，从机腹舱门推出"
+        },
+        {
+          "type": "炸弹/水雷",
+          "count": 4,
+          "cal": "500 lb",
+          "note": "内挂，最大 2,000 lb"
+        }
+      ],
+      "asw": {
+        "radar": "ASV Mk II（1.5 m）→ Mk III（10 cm）",
+        "leighLight": true,
+        "mad": "后期部分装",
+        "fido": true,
+        "note": "1943 年后加装 4 门 20 mm 或 .5 英寸机枪以对抗 U 艇高炮"
+      },
+      "silhouette": "sunderland",
+      "record": "「 flying porcupine 」（飞行豪猪）——德军给它的绰号，源于其密集的自卫火力。1943 年 6 月起在比斯开湾执行「水手」与「执法」行动，与 U 艇高炮艇反复交战；1943-07-30 澳大利亚 461 中队击沉「乳牛」U-461，1944-08-18 201 中队击沉 U-107。它的航程虽不及解放者，但在比斯开湾与北海的覆盖率极高。",
+      "sources": [
+        "wiki_en_atlantic",
+        "roskill_1960",
+        "blair_1998"
+      ],
+      "confidence": "high",
+      "articleCitations": [
+        "wiki_en_sunderland"
+      ]
+    },
+    {
+      "id": "catalina",
+      "name": {
+        "zh": "PBY「卡塔琳娜」水上飞机（PBY-5/5A）",
+        "orig": "Consolidated PBY Catalina",
+        "short": "Catalina"
+      },
+      "side": "US",
+      "role": "maritime_patrol_flying_boat",
+      "operator": "美国海军 VP 中队；英国皇家空军海岸司令部（第 209、210、240 中队等）；加拿大皇家空军",
+      "crew": 8,
+      "lengthM": 19.46,
+      "spanM": 31.7,
+      "heightM": 6.15,
+      "emptyKg": 9485,
+      "maxTakeoffKg": 16066,
+      "powerplant": "2 × 普拉特·惠特尼 R-1830-92「双黄蜂」星型发动机，各 1,200 hp",
+      "maxSpeedKmh": 315,
+      "cruiseKmh": 201,
+      "rangeKm": 4055,
+      "enduranceH": 20,
+      "ceilingM": 4816,
+      "armament": [
+        {
+          "type": "机枪",
+          "count": 3,
+          "cal": ".50/.30 英寸",
+          "note": "机头、腰部、机腹"
+        },
+        {
+          "type": "深弹",
+          "count": 4,
+          "cal": "325 lb",
+          "note": "翼下挂架"
+        },
+        {
+          "type": "鱼雷",
+          "count": 2,
+          "cal": "Mk 13",
+          "note": "反舰任务"
+        }
+      ],
+      "asw": {
+        "radar": "ASV Mk II / US SCR-517",
+        "leighLight": true,
+        "mad": "后期装 Mark IV MAD（MAD Catalina）",
+        "fido": true,
+        "note": "航程与滞空时间优于桑德兰，但速度慢、易被击落"
+      },
+      "silhouette": "catalina",
+      "record": "大西洋战役中最重要的「长航时」巡逻机之一。1941-05 其观察员发现「俾斯麦」号；1943-01-13 美国 VP-83 击沉 U-507；1943-03-08 VP-53 击沉 U-156（「拉科尼亚」号事件的艇）；1943-07-31「黑五月」后仍在亚速尔与比斯开湾执行夜间攻击。",
+      "sources": [
+        "wiki_en_atlantic",
+        "mori_atlantic_won",
+        "roskill_1960"
+      ],
+      "confidence": "high",
+      "articleCitations": [
+        "wiki_en_catalina"
+      ]
+    },
+    {
+      "id": "fw200",
+      "name": {
+        "zh": "Fw 200「秃鹰」C-3",
+        "orig": "Focke-Wulf Fw 200 Condor",
+        "short": "Condor"
+      },
+      "side": "DE",
+      "role": "maritime_reconnaissance_bomber",
+      "operator": "德国空军第 40 轰炸航空团（KG 40）第 I 大队，波尔多—梅里尼亚克",
+      "crew": 5,
+      "lengthM": 23.45,
+      "spanM": 32.85,
+      "heightM": 6.3,
+      "emptyKg": 17005,
+      "maxTakeoffKg": 22714,
+      "powerplant": "4 × 布拉莫 323R-2「法夫纳」星型发动机，各 809 kW（1,100 hp）",
+      "maxSpeedKmh": 380,
+      "cruiseKmh": 335,
+      "rangeKm": 3560,
+      "enduranceH": 14,
+      "ceilingM": 6000,
+      "armament": [
+        {
+          "type": "机枪/机炮",
+          "count": 5,
+          "cal": "7.92 mm / 20 mm",
+          "note": "机头、机背、机腹、两侧"
+        },
+        {
+          "type": "炸弹",
+          "count": 4,
+          "cal": "250 kg",
+          "note": "翼下挂架，最大外挂 5,400 kg"
+        },
+        {
+          "type": "Hs 293 滑翔炸弹",
+          "count": 2,
+          "cal": "1,000 kg",
+          "note": "1943 年后部分改装"
+        }
+      ],
+      "asw": {
+        "radar": "FuG 200「霍恩特维尔」（1943 年后）",
+        "note": "无 Leigh Light；主要任务是远程侦察与引导 U 艇，而非直接反潜"
+      },
+      "silhouette": "fw200",
+      "record": "「大西洋的 scourge」：1940 年 6 月法国沦陷后从波尔多起飞，可在英国岸基战斗机航程之外发现并跟踪船团，向 U 艇通报位置，或直接投弹。1940—1941 年其引导使 U 艇拦截效率大幅提高。1943 年后因盟军护航航母与远程战斗机出现而退出大西洋，转往挪威与苏联战场。",
+      "sources": [
+        "wiki_en_atlantic",
+        "roskill_1954",
+        "blair_1996"
+      ],
+      "confidence": "high",
+      "articleCitations": [
+        "wiki_en_fw200"
+      ]
+    },
+    {
+      "id": "wellington",
+      "name": {
+        "zh": "「威灵顿」GR Mk VIII/XIV",
+        "orig": "Vickers Wellington GR",
+        "short": "Wellington"
+      },
+      "side": "GB",
+      "role": "medium_asw_bomber",
+      "operator": "英国皇家空军海岸司令部（第 172、179、221、224、304、311、407、502 中队等）",
+      "crew": 6,
+      "lengthM": 19.69,
+      "spanM": 26.26,
+      "heightM": 5.31,
+      "emptyKg": 8417,
+      "maxTakeoffKg": 12927,
+      "powerplant": "2 × 布里斯托「飞马」XVIII 星型发动机，各 1,050 hp",
+      "maxSpeedKmh": 378,
+      "cruiseKmh": 290,
+      "rangeKm": 4100,
+      "ceilingM": 5486,
+      "armament": [
+        {
+          "type": "机枪",
+          "count": 6,
+          "cal": ".303 英寸 勃朗宁",
+          "note": "机头 2、机背 2、机尾 2"
+        },
+        {
+          "type": "深弹",
+          "count": 8,
+          "cal": "250 lb Mk XI",
+          "note": "弹舱内；GR 型以深弹为主武器"
+        },
+        {
+          "type": "火箭",
+          "count": 8,
+          "cal": "RP-3 60 lb",
+          "note": "1943 年后加装"
+        }
+      ],
+      "asw": {
+        "radar": "ASV Mk II → Mk III（GR Mk XIV）",
+        "leighLight": true,
+        "mad": "部分装",
+        "fido": true,
+        "note": "GR Mk VIII 装 1.5 m 雷达，GR Mk XIV 装 10 cm 雷达"
+      },
+      "silhouette": "wellington",
+      "record": "海岸司令部数量最多的岸基反潜机。1943 年比斯开湾攻势中，第 172 与 547 中队用威灵顿夜间攻击 U 艇：1943-07-24 击伤 U-459（该艇自沉）；同月击沉多艘 U 艇。其「Leigh Light + 深弹」的夜间攻击是 1943 年比斯开湾封锁的关键。",
+      "sources": [
+        "wiki_en_atlantic",
+        "roskill_1960",
+        "blair_1998"
+      ],
+      "confidence": "high",
+      "articleCitations": [
+        "wiki_en_wellington"
+      ]
+    },
+    {
+      "id": "halifax",
+      "name": {
+        "zh": "「哈利法克斯」GR Mk III/V",
+        "orig": "Handley Page Halifax GR",
+        "short": "Halifax"
+      },
+      "side": "GB",
+      "role": "heavy_asw_bomber",
+      "operator": "英国皇家空军海岸司令部（第 58、502、517 中队等）",
+      "crew": 7,
+      "lengthM": 21.82,
+      "spanM": 31.75,
+      "heightM": 6.32,
+      "emptyKg": 17178,
+      "maxTakeoffKg": 29484,
+      "powerplant": "4 × 布里斯托「大力神」XVI 星型发动机，各 1,615 hp",
+      "maxSpeedKmh": 454,
+      "rangeKm": 2990,
+      "ceilingM": 7315,
+      "armament": [
+        {
+          "type": "机枪",
+          "count": 8,
+          "cal": ".303 英寸 勃朗宁",
+          "note": "机背 4、机尾 4；机头另 1 挺维克斯 K"
+        },
+        {
+          "type": "深弹",
+          "count": 6,
+          "cal": "250 lb",
+          "note": "弹舱内，GR 型以深弹为主"
+        }
+      ],
+      "asw": {
+        "radar": "ASV Mk III / H2S",
+        "leighLight": true,
+        "note": "海岸司令部 1943—1945 年的重型反潜机之一，续航与载弹优于威灵顿"
+      },
+      "silhouette": "halifax",
+      "record": "1943 年起装备海岸司令部第 58 与 502 中队，在比斯开湾与挪威沿岸执行远程反潜。其航程与载弹量介于威灵顿与解放者之间，是「比斯开湾攻势」中的中型/重型混编力量。",
+      "sources": [
+        "nh_atlantic_2",
+        "roskill_1960"
+      ],
+      "confidence": "medium",
+      "articleCitations": [
+        "wiki_en_halifax"
+      ]
+    },
+    {
+      "id": "hudson",
+      "name": {
+        "zh": "「哈德逊」Mk I/III",
+        "orig": "Lockheed Hudson",
+        "short": "Hudson"
+      },
+      "side": "GB",
+      "role": "light_maritime_patrol",
+      "operator": "英国皇家空军海岸司令部（第 206、220、224、233、269 中队等）；加拿大皇家空军",
+      "crew": 5,
+      "lengthM": 13.51,
+      "spanM": 19.96,
+      "heightM": 3.62,
+      "emptyKg": 5275,
+      "maxTakeoffKg": 7938,
+      "powerplant": "2 × 莱特 GR-1820-G102A「旋风」星型发动机，各 1,100 hp",
+      "maxSpeedKmh": 396,
+      "cruiseKmh": 354,
+      "rangeKm": 3154,
+      "ceilingM": 7620,
+      "armament": [
+        {
+          "type": "机枪",
+          "count": 4,
+          "cal": ".303 英寸 勃朗宁",
+          "note": "机背炮塔 2、机头 2"
+        },
+        {
+          "type": "深弹",
+          "count": 4,
+          "cal": "250 lb",
+          "note": "弹舱内，最大挂载 1,400 lb"
+        }
+      ],
+      "asw": {
+        "radar": "ASV Mk II",
+        "leighLight": false,
+        "note": "航程短，主要在北海、英吉利海峡与冰岛—法罗群岛一线"
+      },
+      "silhouette": "hudson",
+      "record": "1941-08-27 第 269 中队一架哈德逊在冰岛以南重创 U-570，使其投降——盟军第一次完整俘获 U 艇。1941-10 起在北海与比斯开湾执行反潜巡逻，是 1941—1942 年海岸司令部数量最多的机型之一。",
+      "sources": [
+        "wiki_en_atlantic",
+        "roskill_1954",
+        "blair_1996"
+      ],
+      "confidence": "high",
+      "articleCitations": [
+        "wiki_en_hudson"
+      ]
+    },
+    {
+      "id": "swordfish",
+      "name": {
+        "zh": "「剑鱼」Mk I/II",
+        "orig": "Fairey Swordfish",
+        "short": "Swordfish"
+      },
+      "side": "GB",
+      "role": "carrier_torpedo_asw",
+      "operator": "英国海军航空兵（第 811、816、825、833 中队等）；护航航母与 MAC 船",
+      "crew": 3,
+      "lengthM": 10.87,
+      "spanM": 13.87,
+      "heightM": 3.76,
+      "emptyKg": 1903,
+      "maxTakeoffKg": 3438,
+      "powerplant": "1 × 布里斯托「飞马」IIIM.3 星型发动机，690 hp",
+      "maxSpeedKmh": 230,
+      "rangeKm": 840,
+      "enduranceH": 5.5,
+      "ceilingM": 5029,
+      "armament": [
+        {
+          "type": "鱼雷",
+          "count": 1,
+          "cal": "18 英寸 Mk XII",
+          "note": "760 kg"
+        },
+        {
+          "type": "深弹/炸弹",
+          "count": 3,
+          "cal": "250 lb",
+          "note": "翼下挂架"
+        },
+        {
+          "type": "火箭",
+          "count": 8,
+          "cal": "RP-3 60 lb",
+          "note": "Mk II 以后"
+        }
+      ],
+      "asw": {
+        "radar": "ASV Mk II（部分装于机腹）",
+        "leighLight": true,
+        "note": "Mk II 加装火箭与 ASV；护航航母上的剑鱼是 1942—1943 年最重要的舰载反潜机"
+      },
+      "silhouette": "swordfish",
+      "record": "虽然速度慢、外形老旧，但航程与低速操控性极佳。1941 年 5 月其鱼雷打坏「俾斯麦」号舵机；1943-04-25「比特」号上的 811 中队剑鱼发现并攻击 U-203，引导「探路者」号击沉；MAC 船与护航航母上的剑鱼是 1943 年船团防空与反潜的核心。",
+      "sources": [
+        "wiki_en_atlantic",
+        "roskill_1956",
+        "wiki_en_escort_carrier"
+      ],
+      "confidence": "high",
+      "articleCitations": [
+        "wiki_en_swordfish",
+        "wiki_en_biter"
+      ]
+    },
+    {
+      "id": "avenger",
+      "name": {
+        "zh": "TBF/TBM「复仇者」",
+        "orig": "Grumman TBF Avenger",
+        "short": "Avenger"
+      },
+      "side": "US",
+      "role": "carrier_asw_torpedo",
+      "operator": "美国海军 VC 中队（护航航母）；英国海军航空兵（Tarpon/Avenger）",
+      "crew": 3,
+      "lengthM": 12.48,
+      "spanM": 16.51,
+      "heightM": 5.0,
+      "emptyKg": 4788,
+      "maxTakeoffKg": 7876,
+      "powerplant": "1 × 莱特 R-2600-8「双旋风」星型发动机，1,700 hp",
+      "maxSpeedKmh": 447,
+      "cruiseKmh": 346,
+      "rangeKm": 1456,
+      "ceilingM": 6888,
+      "armament": [
+        {
+          "type": "机枪",
+          "count": 3,
+          "cal": ".50/.30 英寸",
+          "note": "机头 .50、机背 .50、机腹 .30"
+        },
+        {
+          "type": "鱼雷",
+          "count": 1,
+          "cal": "Mk 13",
+          "note": "弹舱内"
+        },
+        {
+          "type": "深弹",
+          "count": 4,
+          "cal": "325 lb Mk 44",
+          "note": "弹舱内"
+        },
+        {
+          "type": "火箭",
+          "count": 8,
+          "cal": "5 英寸 HVAR",
+          "note": "1944 年后"
+        }
+      ],
+      "asw": {
+        "radar": "ASB / APS-4 雷达",
+        "leighLight": true,
+        "mad": "后期装",
+        "fido": true,
+        "note": "1943—1944 年美军猎杀群的主力机型；可挂 Mk 24 Fido"
+      },
+      "silhouette": "avenger",
+      "record": "护航航母猎杀群的核心。1943-06-05「博格」号复仇者击沉 U-217，1943-12-13 用 Fido 与深弹击沉 U-172，1944-04-10「瓜达尔卡纳尔」号复仇者击沉 U-68，1944-06-04 参与俘获 U-505。其「雷达 + Fido + 深弹 + 火箭」的组合是 1943 年后 U 艇最怕的对手。",
+      "sources": [
+        "wiki_en_escort_carrier",
+        "mori_atlantic_won"
+      ],
+      "confidence": "high",
+      "articleCitations": [
+        "wiki_en_avenger",
+        "wiki_en_bogue"
+      ]
+    },
+    {
+      "id": "ju88",
+      "name": {
+        "zh": "Ju 88 C-6 / A-17",
+        "orig": "Junkers Ju 88",
+        "short": "Ju 88"
+      },
+      "side": "DE",
+      "role": "maritime_strike_recon",
+      "operator": "德国空军 KG 40、KG 26、KG 30；比斯开湾与挪威沿岸",
+      "crew": 4,
+      "lengthM": 14.4,
+      "spanM": 20.0,
+      "heightM": 4.8,
+      "emptyKg": 9860,
+      "maxTakeoffKg": 14000,
+      "powerplant": "2 × 容克斯 Jumo 211J-1/J-2 倒 V12 液冷发动机，各 1,340 hp",
+      "maxSpeedKmh": 470,
+      "cruiseKmh": 370,
+      "rangeKm": 1790,
+      "ferryKm": 2730,
+      "ceilingM": 8200,
+      "armament": [
+        {
+          "type": "机枪/机炮",
+          "count": 5,
+          "cal": "7.92 mm / 20 mm",
+          "note": "C-6 重型战斗机改型：机头 3 × 20 mm + 3 × 7.92 mm"
+        },
+        {
+          "type": "炸弹",
+          "count": 4,
+          "cal": "250 kg",
+          "note": "A-17 反舰型"
+        },
+        {
+          "type": "Hs 293 / Fritz X",
+          "count": 2,
+          "cal": "制导炸弹",
+          "note": "KG 40 与 KG 100 的 anti-shipping 改型"
+        }
+      ],
+      "asw": {
+        "radar": "FuG 200「霍恩特维尔」（1943 年后）",
+        "note": "主要任务是对船团与护航舰的袭击，而非反潜"
+      },
+      "silhouette": "ju88",
+      "record": "1943 年比斯开湾「空中绞杀」的另一方：Ju 88 C-6 重型战斗机与 Fw 200 协同攻击海岸司令部的桑德兰与威灵顿。1943-08-27 一架 Do 217 用 Hs 293 击沉「白鹭」号；Ju 88 也在挪威—北极航线攻击 PQ/JW 船团。它代表德国在「飞机 vs U 艇 vs 反潜机」三角中的空中一角。",
+      "sources": [
+        "wiki_en_atlantic",
+        "roskill_1960",
+        "blair_1998"
+      ],
+      "confidence": "high",
+      "articleCitations": [
+        "wiki_en_ju88"
+      ]
+    },
+    {
+      "id": "bv138",
+      "name": {
+        "zh": "Bv 138 C-1「飞行木屐」",
+        "orig": "Blohm & Voss BV 138",
+        "short": "BV 138"
+      },
+      "side": "DE",
+      "role": "maritime_reconnaissance_flying_boat",
+      "operator": "德国空军第 40 轰炸航空团（KG 40）、第 406 岸基侦察大队；挪威与比斯开湾",
+      "crew": 6,
+      "lengthM": 19.85,
+      "spanM": 26.94,
+      "heightM": 5.9,
+      "emptyKg": 11770,
+      "maxTakeoffKg": 17650,
+      "powerplant": "3 × 容克斯 Jumo 205D 六缸对置活塞柴油机，各 647 kW（880 hp）",
+      "maxSpeedKmh": 285,
+      "cruiseKmh": 235,
+      "rangeKm": 4300,
+      "enduranceH": 18,
+      "ceilingM": 5000,
+      "armament": [
+        {
+          "type": "机枪/机炮",
+          "count": 4,
+          "cal": "7.92 mm / 20 mm",
+          "note": "机头、机背、机尾"
+        },
+        {
+          "type": "深弹/炸弹",
+          "count": 6,
+          "cal": "50–150 kg",
+          "note": "翼下挂架"
+        }
+      ],
+      "asw": {
+        "radar": "FuG 200「霍恩特维尔」（1943 年后部分装）",
+        "note": "主要任务是远程海上侦察与反舰，速度慢、易被击落"
+      },
+      "silhouette": "bv138",
+      "record": "德国在大西洋与北极的远程海上侦察机。三发柴油机、航程 4,300 km、滞空 18 小时，可在挪威—冰岛—法罗群岛之间长时间跟踪船团。因速度只有 285 km/h，1943 年后在盟军护航航母战斗机面前损失惨重。",
+      "sources": [
+        "wiki_en_atlantic",
+        "roskill_1956"
+      ],
+      "confidence": "medium",
+      "articleCitations": [
+        "wiki_en_bv138"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1018 @@
+{
+ "meta": {
+  "campaign": "battle-atlantic-1945",
+  "title": "大西洋海战（1939-09 — 1945-05）史料来源表",
+  "generated": "2026-10-19",
+  "count": 100,
+  "verified": "2026-10-19 用 pipeline/scripts/verify_sources.py 逐条探测 URL（HTTP 状态码 + 响应体字节数，网络层失败重试 2 次）：96 条可达，4 条列入 unreachable 白名单；archive.org 条目另以 metadata API 核对标题、作者与年份；照片许可见 06-photos.md",
+  "idRule": "^[a-z0-9_]+$（与 engine/schema/zod.ts 的 Source.id 一致）",
+  "tierLegend": {
+   "official": "官方战史 / 官方机构出版物",
+   "archive": "档案与一手文件（含译本）",
+   "reference": "工具书、数据库与检索入口",
+   "secondary": "严肃专著与专题研究",
+   "tertiary": "百科与普及读物（仅旁证）"
+  },
+  "unreachable": [
+   "nhc_collections（history.navy.mil 本机 DNS 不可解析，正文未验证）",
+   "frus_1939_v5（history.state.gov TLS 失败，正文未验证）",
+   "gazette_index（thegazette.co.uk 自动化抓取返回 202 挑战页，正文未验证）",
+   "bama_rm（invenio.bundesarchiv.de 为 JS 单页应用，只返回 1.4 KB 框架页；仅作档案存放地指引）"
+  ],
+  "tierCounts": {
+   "official": 20,
+   "archive": 20,
+   "secondary": 25,
+   "reference": 26,
+   "tertiary": 9
+  },
+  "checkScript": "pipeline/scripts/verify_sources.py（--json 输出机器可读结果）",
+  "photoScript": "pipeline/scripts/fetch_photos.py（--verify-only 只校验）"
+ },
+ "sources": [
+  {
+   "id": "roskill_1954",
+   "author": "S. W. Roskill",
+   "title": "The War at Sea 1939–1945, Vol. I: The Defensive（英国官方二战史·海军卷）",
+   "year": 1954,
+   "url": "https://archive.org/details/worldat-sea-1939-1945-vol-1",
+   "supports": "1939-09 至 1941 的护航制度、猎杀群、挪威与法国沦陷后的 U 艇基地；英方官方损失口径。HyperWar 另载部分章节",
+   "tier": "official"
+  },
+  {
+   "id": "roskill_1956",
+   "author": "S. W. Roskill",
+   "title": "The War at Sea 1939–1945, Vol. II: The Period of Balance（第 4、8、14 章为大西洋战役）",
+   "year": 1956,
+   "url": "https://www.ibiblio.org/hyperwar/UN/UK/UK-RN-II/UK-RN-II-14.html",
+   "supports": "1942 年美国水域（第 4 章）、1942 下半年护航战（第 8 章）、1943 年 1–5 月「护航舰的胜利」（第 14 章）：SC 122/HX 229、1943-03 大西洋护航会议、5 月 41 艘 U 艇被击沉与撤出北大西洋",
+   "tier": "official",
+   "holdings": "HyperWar 全文（第 14 章）"
+  },
+  {
+   "id": "roskill_1960",
+   "author": "S. W. Roskill",
+   "title": "The War at Sea 1939–1945, Vol. III Part 1: The Offensive, 1 June 1943 – 31 May 1944",
+   "year": 1960,
+   "url": "https://archive.org/details/war-at-sea-1939-1945-vol-3-part-1",
+   "supports": "1943-06 后比斯开湾攻势、护航航母猎杀群、诺曼底前后的海峡与登陆补给",
+   "tier": "official",
+   "note": "archive.org 借阅制扫描，未逐页核对；引用处标二手"
+  },
+  {
+   "id": "roskill_1961",
+   "author": "S. W. Roskill",
+   "title": "The War at Sea 1939–1945, Vol. III Part 2: The Offensive, 1 June 1944 – 14 August 1945",
+   "year": 1961,
+   "url": "https://archive.org/details/war-at-sea-1939-1945-vol-3-part-2",
+   "supports": "1944–45 挪威海域与最后阶段 U 艇战、德国投降时的 U 艇受降与自沉",
+   "tier": "official",
+   "note": "archive.org 借阅制扫描，未逐页核对"
+  },
+  {
+   "id": "battleatlantic_1946",
+   "author": "Admiralty / HMSO（英国海军部）",
+   "title": "The Battle of the Atlantic: The Official Account of the Fight Against the U-Boats, 1939–1945",
+   "year": 1946,
+   "url": "https://archive.org/details/battleatlantic",
+   "supports": "战后第一本官方综述：各年损失吨位、护航队规模、击沉 U 艇数与战役分期框架",
+   "tier": "official",
+   "note": "1946 年官方宣传史，行文带战时报章色彩；与 Roskill/Behrens 不同处以后者为准"
+  },
+  {
+   "id": "behrens_1955",
+   "author": "C. B. A. Behrens",
+   "title": "Merchant Shipping and the Demands of War（英国官方二战史·民用卷）",
+   "year": 1955,
+   "url": "https://archive.org/details/merchant-shipping-demands-of-war",
+   "supports": "商船吨位、船员、运输需求与损失对英国经济的压力；进口吨位与配给",
+   "tier": "official"
+  },
+  {
+   "id": "hancock_gowing_1949",
+   "author": "W. K. Hancock & M. M. Gowing",
+   "title": "British War Economy（英国官方二战史·民用卷）",
+   "year": 1949,
+   "url": "https://archive.org/details/britishwareconom0000wkha",
+   "supports": "战时经济框架：进口削减、船吨分配、1941 与 1942 年吨位危机的政策后果",
+   "tier": "official"
+  },
+  {
+   "id": "medlicott_1952",
+   "author": "W. N. Medlicott",
+   "title": "The Economic Blockade, Vol. I（英国官方二战史·民用卷）",
+   "year": 1952,
+   "url": "https://archive.org/details/economic-blockade-v-1",
+   "supports": "封锁与反封锁的经济逻辑：英国对德封锁与德国以 U 艇反制英国的对称性",
+   "tier": "official"
+  },
+  {
+   "id": "grand_strategy_2",
+   "author": "J. R. M. Butler",
+   "title": "Grand Strategy, Vol. II: September 1939 – June 1941（英国官方二战史·战略卷）",
+   "year": 1957,
+   "url": "https://archive.org/details/grandstrategypri0000coll",
+   "supports": "英美参谋会谈（ABC-1）、1941 年「先德后日」与大西洋护航责任的分配",
+   "tier": "official",
+   "note": "archive.org 标识对应本卷；引用以卷次与章节为准"
+  },
+  {
+   "id": "grand_strategy_5",
+   "author": "John Ehrman",
+   "title": "Grand Strategy, Vol. V: August 1943 – September 1944",
+   "year": 1956,
+   "url": "https://archive.org/details/grand-strategy-vol-5",
+   "supports": "1943-08 后盟军战略：比斯开湾、诺曼底与 U 艇战在整体战略中的位置",
+   "tier": "official"
+  },
+  {
+   "id": "mori_battle_atlantic",
+   "author": "Samuel Eliot Morison",
+   "title": "History of United States Naval Operations in World War II, Vol. I: The Battle of the Atlantic, September 1939 – May 1943",
+   "year": 1947,
+   "url": "https://archive.org/details/battleofatlantic0000mori",
+   "supports": "1941–43 年美国大西洋水域、Drumbeat 期间东岸损失、护航制度在美国的推行、火炬行动的海上准备",
+   "tier": "official"
+  },
+  {
+   "id": "mori_atlantic_won",
+   "author": "Samuel Eliot Morison",
+   "title": "History of United States Naval Operations in World War II, Vol. X: The Atlantic Battle Won, May 1943 – May 1945",
+   "year": 1956,
+   "url": "https://archive.org/details/atlanticbattlewo0000samu_q0k9",
+   "supports": "1943-05 后猎杀群（Bogue、Card、Guadalcanal）与 U 艇补给艇的覆灭、U-505 俘获、1945 年受降",
+   "tier": "official"
+  },
+  {
+   "id": "king_usnavy_at_war",
+   "author": "Ernest J. King（美国海军作战部长）",
+   "title": "U.S. Navy at War, 1941–1945: Official Reports to the Secretary of the Navy",
+   "year": 1946,
+   "url": "https://archive.org/details/usnavyatwar0000unse",
+   "supports": "美方年度官方报告：大西洋护航责任、猎杀群战果、1942 年东岸危机的官方承认与辩解",
+   "tier": "official"
+  },
+  {
+   "id": "schull_1950",
+   "author": "Joseph Schull",
+   "title": "The Far Distant Ships: An Official Account of Canadian Naval Operations in the Second World War",
+   "year": 1950,
+   "url": "https://archive.org/details/fardistantshipso0000schu",
+   "supports": "加拿大皇家海军（RCN）在大西洋护航中的角色：纽芬兰与哈利法克斯护航队、1943-03 后西北大西洋指挥权、C 组与第 9 护航群",
+   "tier": "official"
+  },
+  {
+   "id": "rcaf_official_2",
+   "author": "W. A. B. Douglas 等（加拿大官方战史）",
+   "title": "The Official History of the Royal Canadian Air Force, Vol. II: The Creation of a National Air Force",
+   "year": 1986,
+   "url": "https://archive.org/details/officialhistoryo0000unse",
+   "supports": "加拿大东岸航空反潜（RCAF 东岸司令部）、Canso/Catalina 与 Liberator 中队在西北大西洋的覆盖",
+   "tier": "official"
+  },
+  {
+   "id": "hinsley_1979",
+   "author": "F. H. Hinsley 等",
+   "title": "British Intelligence in the Second World War, Vol. I: Its Influence on Strategy and Operations",
+   "year": 1979,
+   "url": "https://archive.org/details/britishintellige00hins_0",
+   "supports": "官方情报史：1941–43 年 Enigma 与 OIC 情报如何影响护航改道；1942-02「Triton」换钥导致的失明",
+   "tier": "official"
+  },
+  {
+   "id": "hinsley_1988",
+   "author": "F. H. Hinsley, E. E. Thomas, C. G. Ransom, R. C. Knight",
+   "title": "British Intelligence in the Second World War, Vol. 3 Part 2",
+   "year": 1988,
+   "url": "https://archive.org/details/britishintellige0003fhhi",
+   "supports": "1943–44 年情报与反潜：Black May 前后的破译节奏、比斯开湾与德国海军密码",
+   "tier": "official"
+  },
+  {
+   "id": "hyperwar_amh22",
+   "author": "Maurice Matloff 等（美国陆军官方战史）",
+   "title": "American Military History, ch. 22: World War II — The War Against Germany and Italy（HyperWar 转录）",
+   "year": 1989,
+   "url": "https://www.ibiblio.org/hyperwar/AMH/AMH/AMH-22.html",
+   "supports": "美方总体战略叙述：先德后日、火炬行动与 1942 年海上危机的战略背景",
+   "tier": "official"
+  },
+  {
+   "id": "nhc_collections",
+   "author": "Naval History and Heritage Command（美国海军历史与遗产司令部）",
+   "title": "NHHC Photographic Collections（80-G 系列与二战专题）",
+   "year": 2026,
+   "url": "https://www.history.navy.mil/",
+   "supports": "美国海军官方照片与舰史；照片 80-G 编号的权威出处",
+   "tier": "official",
+   "note": "**本机 DNS 无法解析 history.navy.mil**，正文未验证；照片改用 Commons 同编号副本并注明 80-G 号"
+  },
+  {
+   "id": "ktb_skl",
+   "author": "Kriegsmarine Seekriegsleitung（德国海军作战部）；美国海军情报局（ONI）译",
+   "title": "War Diary: German Naval Staff Operations Division（Kriegstagebuch der Seekriegsleitung, Part A，ONI 英译本，多卷）",
+   "year": 1948,
+   "url": "https://archive.org/details/wardiarygermanna11939germ",
+   "supports": "德方逐日作战决策：U 艇部署、狼群组编、与 OKM/元首会议的关系、1943-05 撤出北大西洋的命令链",
+   "tier": "archive",
+   "holdings": "多卷：1939 A–D / 1940 / 1941 / 1942 / 1943 / 1944，如 https://archive.org/details/wardiarygermann431943germ 、https://archive.org/details/wardiarygermann551944germ"
+  },
+  {
+   "id": "fuehrer_conferences",
+   "author": "Adolf Hitler / Erich Raeder / Karl Dönitz；英国海军部 1948 年英译",
+   "title": "Führer Conferences on Naval Affairs, 1939–1945（元首与海军总司令会议记录选编）",
+   "year": 1948,
+   "url": "https://archive.org/details/brasseys-naval-annual-1948-ocr",
+   "supports": "希特勒与雷德尔/邓尼茨关于 U 艇建造优先权、1943-01 雷德尔辞职、1943-05「潜艇战失败」表态的直接记录",
+   "tier": "archive",
+   "note": "德方会议速记英译本，选编有取舍；转述需与 KTB 对照"
+  },
+  {
+   "id": "kdvb_doenitz_1946",
+   "author": "Karl Dönitz（美国海军情报局 ONI 1946 年译印，附审讯记录）",
+   "title": "The Conduct of the War at Sea: An Essay by Admiral Karl Doenitz",
+   "year": 1946,
+   "url": "https://www.ibiblio.org/hyperwar/Germany/KM/WarAtSea/index.html",
+   "supports": "邓尼茨对 U 艇战战略、吨位战、1943-05 撤退理由的自述；ONI 的批判性导言",
+   "tier": "archive",
+   "note": "**立场警示**：作者自述，为自身战略与纽伦堡辩护；数字与因果须与 Roskill、Blair 对照，不单独作为事实依据"
+  },
+  {
+   "id": "nuremberg_imt_blue",
+   "author": "International Military Tribunal（纽伦堡国际军事法庭）",
+   "title": "Trial of the Major War Criminals before the International Military Tribunal（「蓝皮卷」42 卷，含判决与邓尼茨案）",
+   "year": 1947,
+   "url": "https://avalon.law.yale.edu/imt/10-01-46.asp",
+   "supports": "1946-10-01 判决书正文（含对 U 艇战与 Laconia 命令的认定）、邓尼茨量刑理由",
+   "tier": "archive",
+   "holdings": "Avalon Project 全文（卷 22 为判决日）；archive.org 另有全套扫描"
+  },
+  {
+   "id": "nuremberg_nca",
+   "author": "Office of U.S. Chief of Counsel",
+   "title": "Nazi Conspiracy and Aggression（「红皮卷」NCA：C 系列与 UK 系列文件英译）",
+   "year": 1946,
+   "url": "https://avalon.law.yale.edu/subject_menus/imt.asp",
+   "supports": "德军作战指令、元首令与海军文件（如邓尼茨 1942 年 Laconia 命令）的英译档案集",
+   "tier": "archive"
+  },
+  {
+   "id": "uboatarchive_bduktb",
+   "author": "Befehlshaber der Unterseeboote（BdU）；U-boat Archive 英译",
+   "title": "BdU Kriegstagebücher and Standing War Orders（B.d.U. KTB / Stehender Kriegsbefehl）",
+   "year": 1941,
+   "url": "https://www.uboatarchive.net/BDU/BDUKTB.htm",
+   "supports": "邓尼茨司令部逐日战争日志与「常备作战命令」：狼群编组、巡逻线、无线电静默与攻击准则的一手德文档案英译",
+   "tier": "archive"
+  },
+  {
+   "id": "uboatarchive_ktb",
+   "author": "U-boat Archive（多艇 KTB 协作翻译）",
+   "title": "U-boat Kriegstagebücher（单艇战争日志英译：U-61、U-106、U-172、U-621、U-636 等）",
+   "year": 2020,
+   "url": "https://www.uboatarchive.net/KTB/KTBList.htm",
+   "supports": "单艇巡逻日志：下潜/上浮时刻、接触报告、鱼雷消耗、规避深弹，用于校验「某日某艇在何处」",
+   "tier": "archive"
+  },
+  {
+   "id": "grand_strategy_3_1",
+   "author": "J. M. A. Gwyer",
+   "title": "Grand Strategy, Vol. III, Part 1: June 1941 – August 1942（英国官方二战史·战略卷）",
+   "year": 1964,
+   "url": "https://archive.org/details/grand-strategy-vol-3-part-1",
+   "supports": "美国参战前后的大战略：ABC-1 之后的护航责任、1942 年船吨危机与「先德后日」的执行",
+   "tier": "official"
+  },
+  {
+   "id": "bama_rm",
+   "author": "Bundesarchiv-Militärarchiv（弗赖堡）",
+   "title": "Bestand RM 7（OKM Seekriegsleitung）、RM 8（Kriegswissenschaftliche Abteilung）、RM 97（BdU / U 艇部队）",
+   "year": 2026,
+   "url": "https://invenio.bundesarchiv.de/",
+   "supports": "德方档案的原始存放与检索系统：KTB、作战命令、U 艇档案；用于标明「原始出处」而非网文",
+   "tier": "archive",
+   "note": "**检索系统为 JS 单页应用**，自动化抓取只得到 1.4 KB 的框架页，未取得任何卷宗；本条只作「档案在哪里」的指引，具体档案号一律标「据二手文献转引」"
+  },
+  {
+   "id": "avalon_atlantic_charter",
+   "author": "Franklin D. Roosevelt & Winston S. Churchill（Avalon Project 转录）",
+   "title": "The Atlantic Charter, 14 August 1941",
+   "year": 1941,
+   "url": "https://avalon.law.yale.edu/wwii/atlantic.asp",
+   "supports": "大西洋宪章八条全文：公海自由、民族自决与战后秩序，是「大西洋会议」政治成果的一手文本",
+   "tier": "archive"
+  },
+  {
+   "id": "avalon_panama",
+   "author": "American Republics（巴拿马会议；Avalon Project 转录）",
+   "title": "Declaration of Panama, 3 October 1939（美洲中立区界线）",
+   "year": 1939,
+   "url": "https://avalon.law.yale.edu/20th_century/dec99-03.asp",
+   "supports": "美洲中立安全区（西经约 300 海里线）的法律文本：1939–41 年美洲水域交战的法律约束与其后的名存实亡",
+   "tier": "archive"
+  },
+  {
+   "id": "frus_1939_v5",
+   "author": "U.S. Department of State",
+   "title": "Foreign Relations of the United States, 1939, Vol. V: The American Republics",
+   "year": 1957,
+   "url": "https://history.state.gov/historicaldocuments/frus1939v05",
+   "supports": "美方外交档案：中立巡逻、巴拿马宣言执行、与英国的护航交涉",
+   "tier": "archive",
+   "note": "history.state.gov 在本机 TLS 失败，正文未抓取；按官方卷次与 URL 记录"
+  },
+  {
+   "id": "gazette_38038",
+   "author": "Admiral Sir Bruce Fraser（北角海战战报）；The London Gazette",
+   "title": "Supplement to The London Gazette, 7 August 1947, No. 38038: Sinking of the German Battlecruiser Scharnhorst, 26 December 1943",
+   "year": 1947,
+   "url": "https://www.ibiblio.org/hyperwar/UN/UK/LondonGazette/38038.pdf",
+   "supports": "北极航线 JW.55A/JW.55B 的掩护与沙恩霍斯特号被击沉；直接说明北极护航与本土舰队的关系，及「All times are Zone minus one」的时区惯例",
+   "tier": "archive"
+  },
+  {
+   "id": "gazette_37989",
+   "author": "Rear-Admiral H. H. Harwood；The London Gazette",
+   "title": "Supplement to The London Gazette, 19 June 1947, No. 37989: The River Plate Battle（1939-12-30 战报）",
+   "year": 1947,
+   "url": "https://www.ibiblio.org/hyperwar/UN/UK/LondonGazette/37989.pdf",
+   "supports": "1939-12 拉普拉塔河口海战：大西洋海战开战阶段「单独袭击舰」模式的实例，与 1940 年后 U 艇战对比",
+   "tier": "archive"
+  },
+  {
+   "id": "gazette_34759",
+   "author": "Admiralty（伦敦公报授勋公告）；naval-history.net 转录",
+   "title": "London Gazette No. 34759（1939-12-22 增刊）等：拉普拉塔河口与阿尔特马克号授勋、商船船长嘉奖",
+   "year": 1939,
+   "url": "https://www.naval-history.net/WW2LGGrafSpee.htm",
+   "supports": "开战阶段英方荣誉与商船船员嘉奖原文（Doric Star、Tairoa、Huntsman、Trevanion 等），可作「商船船员」叙事的一手依据",
+   "tier": "archive"
+  },
+  {
+   "id": "oni_204",
+   "author": "U.S. Navy, Office of the Chief of Naval Operations（ONI）",
+   "title": "ONI-204: German Naval Vessels（1942-08-13 识别手册）",
+   "year": 1942,
+   "url": "https://www.ibiblio.org/hyperwar/USN/ref/ONI/ONI-204/index.html",
+   "supports": "1942 年美军对德国舰艇（含 U 艇型号、干舷、指挥塔外形）的识别资料，用于舰船剪影与识别特征",
+   "tier": "archive"
+  },
+  {
+   "id": "oni_prien_u47",
+   "author": "Office of Naval Intelligence（ONI）/ Fregattenkapitän Wagner Fürbringer 口述",
+   "title": "ONI Report 155-C-48: Kapitaenleutnant Guenther Prien's (U-47) Attack on Scapa Flow",
+   "year": 1948,
+   "url": "https://www.ibiblio.org/hyperwar/Germany/KM/Prien.html",
+   "supports": "U-47 潜入斯卡帕湾击沉皇家橡树号（1939-10-14）：开战初期 U 艇对本土舰队的直接威胁与舰队基地转移",
+   "tier": "archive"
+  },
+  {
+   "id": "maritime_commission",
+   "author": "U.S. Maritime Commission / War Shipping Administration",
+   "title": "Wartime Instructions for United States Merchant Vessels（HyperWar 转录）",
+   "year": 1942,
+   "url": "https://www.ibiblio.org/hyperwar/USN/ref/WarInst-Merch/index.html",
+   "supports": "美国商船战时规程：航行灯、无线电静默、遇袭报告、救生艇操作，支撑「商船船员如何面对 U 艇」的细节",
+   "tier": "archive"
+  },
+  {
+   "id": "abandon_ship",
+   "author": "U.S. Navy（HyperWar 转录）",
+   "title": "How to Abandon Ship（战时小册子）",
+   "year": 1943,
+   "url": "https://www.ibiblio.org/hyperwar/USN/ref/AbandonShip/index.html",
+   "supports": "弃船程序与救生筏操作；解释被鱼雷击中后的生还率与救援窗口",
+   "tier": "archive"
+  },
+  {
+   "id": "doenitz_memoir_1958",
+   "author": "Karl Dönitz",
+   "title": "Memoirs: Ten Years and Twenty Days（德文原题 Zehn Jahre und Zwanzig Tage）",
+   "year": 1958,
+   "url": "https://archive.org/details/memoirstenyearst0000doni",
+   "supports": "U 艇部队建设、狼群战术形成、与希特勒的冲突、1943-05 决策的个人视角",
+   "tier": "secondary",
+   "note": "**立场警示**：战后回忆录，写作时作者正为纽伦堡判决与形象经营；日期与数字多有不确，仅作德方语气与视角参考"
+  },
+  {
+   "id": "blair_1996",
+   "author": "Clay Blair",
+   "title": "Hitler's U-Boat War, Vol. 1: The Hunters, 1939–1942",
+   "year": 1996,
+   "url": "https://archive.org/details/hitlersuboatwarh0000blai_w0c3",
+   "supports": "以德方档案为主轴的逐艇逐月叙述；对盟军官方战史数字的修正（尤其 1942 年东岸与 1942 下半年）",
+   "tier": "secondary",
+   "note": "Blair 对 Morison/Roskill 多有尖锐批评，吨位与击沉数常与英国官方口径不同，引用时并列口径"
+  },
+  {
+   "id": "blair_1998",
+   "author": "Clay Blair",
+   "title": "Hitler's U-Boat War, Vol. 2: The Hunted, 1942–1945",
+   "year": 1998,
+   "url": "https://archive.org/details/hitlersuboatwarh0000blai",
+   "supports": "1943–45 年：Black May、比斯开湾、通气管、1944–45 年最后一波巡逻与投降",
+   "tier": "secondary"
+  },
+  {
+   "id": "dimbleby_2015",
+   "author": "Jonathan Dimbleby",
+   "title": "The Battle of the Atlantic: How the Allies Won the War",
+   "year": 2015,
+   "url": "https://archive.org/details/battleofatlantic0000dimb",
+   "supports": "近年综合叙述：把大西洋战役与租借、斯大林格勒、北非战场的战略联动写在一起；叙事结构可参考，细节需回档案",
+   "tier": "secondary"
+  },
+  {
+   "id": "milner_2005",
+   "author": "Marc Milner",
+   "title": "The Battle of the Atlantic",
+   "year": 2005,
+   "url": "https://archive.org/details/battleofatlantic0000miln",
+   "supports": "加拿大视角的简明战役史：护航制度、RCN 的扩张与 1943 年后的专业化",
+   "tier": "secondary"
+  },
+  {
+   "id": "milner_1985",
+   "author": "Marc Milner",
+   "title": "North Atlantic Run: The Royal Canadian Navy and the Battle for the Convoys",
+   "year": 1985,
+   "url": "https://archive.org/details/northatlanticrun00miln",
+   "supports": "RCN 护航群 1941–43 年的具体战例（SC 42、ONS 154 等）与训练、装备不足",
+   "tier": "secondary"
+  },
+  {
+   "id": "terraine_1989",
+   "author": "John Terraine",
+   "title": "Business in Great Waters: The U-Boat Wars, 1916–1945",
+   "year": 1989,
+   "url": "https://archive.org/details/businessingreatw0000adri",
+   "supports": "把两次大战的 U 艇战连成一条线，强调护航与航空兵力；英国视角的综合叙述",
+   "tier": "secondary"
+  },
+  {
+   "id": "van_der_vat_1988",
+   "author": "Dan van der Vat",
+   "title": "The Atlantic Campaign: World War II's Great Struggle at Sea",
+   "year": 1988,
+   "url": "https://archive.org/details/atlanticcampaign00vand",
+   "supports": "战役全景（含密码战与政治层面）；「谁赢得大西洋战役」的争论梳理",
+   "tier": "secondary"
+  },
+  {
+   "id": "mulligan_1999",
+   "author": "Timothy P. Mulligan",
+   "title": "Neither Sharks nor Wolves: The Men of Nazi Germany's U-Boat Arm, 1939–1945",
+   "year": 1999,
+   "url": "https://archive.org/details/neithersharksnor0000mull",
+   "supports": "U 艇艇员的来源、训练、士气与伤亡率（约四分之三阵亡），支撑「人」的层面叙事",
+   "tier": "secondary"
+  },
+  {
+   "id": "gannon_1990",
+   "author": "Michael Gannon",
+   "title": "Operation Drumbeat: The Dramatic True Story of Germany's First U-Boat Attacks Along the American Coast in World War II",
+   "year": 1990,
+   "url": "https://archive.org/details/operationdrumbea00gann",
+   "supports": "1942 年 1–6 月美国东岸（Paukenschlag）的逐艇叙述，尤其 U-123 的巡逻",
+   "tier": "secondary"
+  },
+  {
+   "id": "padfield_1984",
+   "author": "Peter Padfield",
+   "title": "Dönitz: The Last Führer",
+   "year": 1984,
+   "url": "https://archive.org/details/bwb_KU-109-399",
+   "supports": "邓尼茨传记（批判性）：U 艇部队建设、与纳粹政权的关系、纽伦堡；对回忆录的祛魅",
+   "tier": "secondary"
+  },
+  {
+   "id": "peillard_1983",
+   "author": "Léonce Peillard",
+   "title": "The Laconia Affair",
+   "year": 1983,
+   "url": "https://archive.org/details/laconiaaffair0000peil",
+   "supports": "1942-09-12 Laconia 事件：U-156 救援、盟军空袭、邓尼茨「Laconia 命令」的来龙去脉",
+   "tier": "secondary"
+  },
+  {
+   "id": "woodman_1994",
+   "author": "Richard Woodman",
+   "title": "The Arctic Convoys, 1941–1945",
+   "year": 1994,
+   "url": "https://archive.org/details/arcticconvoys1940000wood_a9c1",
+   "supports": "北极航线（PQ/QP、JW/RA）完整叙述、PQ-17 与 JW-51B 细节，及与北大西洋主战场的资源竞争",
+   "tier": "secondary"
+  },
+  {
+   "id": "irving_1969",
+   "author": "David Irving",
+   "title": "The Destruction of Convoy PQ.17",
+   "year": 1969,
+   "url": "https://archive.org/details/destructionofcon0000irvi",
+   "supports": "PQ-17 的争议叙述；仅作「争议如何被构造」的案例",
+   "tier": "secondary",
+   "note": "**立场警示**：作者后因否认大屠杀与伪造史料在 2000 年诽谤案败诉，本书论点（尤对第一海务大臣的指责）不可采信；事实以 Roskill、Woodman 为准"
+  },
+  {
+   "id": "kahn_1991",
+   "author": "David Kahn",
+   "title": "Seizing the Enigma: The Race to Break the German U-Boat Codes, 1939–1943",
+   "year": 1991,
+   "url": "https://archive.org/details/seizingenigmarac0000kahn",
+   "supports": "U-110（1941-05-09）、U-559（1942-10-30）等缴获与破译的关键节点",
+   "tier": "secondary"
+  },
+  {
+   "id": "sebag_2000",
+   "author": "Hugh Sebag-Montefiore",
+   "title": "Enigma: The Battle for the Code",
+   "year": 2000,
+   "url": "https://archive.org/details/enigmabattleforc0000seba_c6j4",
+   "supports": "恩尼格玛破译的人员与行动细节（含 U-110 缴获）；对 Bletchley 作用的评估",
+   "tier": "secondary"
+  },
+  {
+   "id": "beesly_1977",
+   "author": "Patrick Beesly",
+   "title": "Very Special Intelligence: The Story of the Admiralty's Operational Intelligence Centre, 1939–1945",
+   "year": 1977,
+   "url": "https://archive.org/details/veryspecialintel00bees",
+   "supports": "海军部作战情报中心（OIC）的运作与罗杰·温；护航改道决策的内部视角",
+   "tier": "secondary"
+  },
+  {
+   "id": "winton_1983",
+   "author": "John Winton",
+   "title": "Convoy: The Defence of Sea Trade, 1890–1990",
+   "year": 1983,
+   "url": "https://archive.org/details/isbn_0718121635",
+   "supports": "护航制度的长期演变与 1939–45 年的组织细节（队形、信号、护航群轮换）",
+   "tier": "secondary"
+  },
+  {
+   "id": "rohwer_critical",
+   "author": "Jürgen Rohwer",
+   "title": "The Critical Convoy Battles of March 1943",
+   "year": 1977,
+   "url": "https://archive.org/details/criticalconvoyba00jurg",
+   "supports": "1943-03 SC 122/HX 229 的逐时分析（德英档案对照），狼群战术的高峰与双方情报失误",
+   "tier": "secondary"
+  },
+  {
+   "id": "roessler_uboot",
+   "author": "Eberhard Rössler",
+   "title": "The U-Boat: The Evolution and Technical History of German Submarines",
+   "year": 1981,
+   "url": "https://archive.org/details/bwb_P9-EIZ-548",
+   "supports": "U 艇型号技术参数（VII、IX、XXI、XXIII 的尺度、排水量、航速、潜深、鱼雷数）",
+   "tier": "secondary"
+  },
+  {
+   "id": "naval_history_net",
+   "author": "Gordon Smith / Don Kindell 等",
+   "title": "Naval-History.Net — Battle of the Atlantic, Part 1 (1939–1942)",
+   "year": 2026,
+   "url": "https://www.naval-history.net/WW2CampaignsAtlanticDev.htm",
+   "supports": "按月编排的战役进程（1939-09 至 1942-12）：护航制度、猎杀群、狼群、雷达与武器对抗；引 Roskill 与官方战史",
+   "tier": "secondary"
+  },
+  {
+   "id": "nh_atlantic_2",
+   "author": "Gordon Smith / Don Kindell 等",
+   "title": "Naval-History.Net — Battle of the Atlantic, Part 2 (1943–1945)",
+   "year": 2026,
+   "url": "https://www.naval-history.net/WW2CampaignsAtlanticDev2.htm",
+   "supports": "1943–45 年逐月进程：1943-03 大西洋护航会议与指挥区划分、Black May、比斯开湾、诺曼底、1945 年受降",
+   "tier": "secondary"
+  },
+  {
+   "id": "nh_pq17",
+   "author": "Gordon Smith 等",
+   "title": "Naval-History.Net — Convoy PQ.17（俄罗斯护航队专题）",
+   "year": 2026,
+   "url": "https://www.naval-history.net/Cr03-53-00PQ17.htm",
+   "supports": "PQ-17（1942-06-27 出发、7-04 散队）的逐日记录与损失清单",
+   "tier": "secondary"
+  },
+  {
+   "id": "nh_pq18",
+   "author": "Gordon Smith 等",
+   "title": "Naval-History.Net — Convoy PQ.18",
+   "year": 2026,
+   "url": "https://www.naval-history.net/Cr03-54-00PQ18.htm",
+   "supports": "PQ-18（1942-09）在护航航母与更强掩护下的对比，说明 1942 年北极护航的转折",
+   "tier": "secondary"
+  },
+  {
+   "id": "nh_normandy",
+   "author": "Gordon Smith 等",
+   "title": "Naval-History.Net — Normandy Landings, June 1944",
+   "year": 2026,
+   "url": "https://www.naval-history.net/WW2CampaignsNormandy.htm",
+   "supports": "诺曼底登陆的海军侧：登陆舰队、护航、扫雷与 U 艇反制",
+   "tier": "secondary"
+  },
+  {
+   "id": "rohwer_chronology",
+   "author": "Jürgen Rohwer & Gerhard Hümmelchen",
+   "title": "Chronology of the War at Sea, 1939–1945（德文原版 Chronik des Seekrieges）",
+   "year": 1968,
+   "url": "https://archive.org/details/chronologyofwara0000rohw_v7p9",
+   "supports": "逐日海战年表（双方）：U 艇出航/返航/沉没日期、护航队编号与交战，交叉核对时刻的首选工具书",
+   "tier": "reference",
+   "note": "德方视角但力求双方并列；与英方档案差一天时并列两说"
+  },
+  {
+   "id": "rohwer_axis_successes",
+   "author": "Jürgen Rohwer",
+   "title": "Axis Submarine Successes, 1939–1945",
+   "year": 1983,
+   "url": "https://archive.org/details/axissubmarinesuc0000rohw",
+   "supports": "逐条商船损失（船名、吨位、时刻、位置、加害 U 艇），是「每月吨位」统计的底账",
+   "tier": "reference"
+  },
+  {
+   "id": "wynn_uboats",
+   "author": "Kenneth G. Wynn",
+   "title": "U-Boat Operations of the Second World War, Vol. 1–2",
+   "year": 1997,
+   "url": "https://archive.org/details/isbn_9781840675252",
+   "supports": "逐艇作战记录（巡逻次数、击沉、结局），校验「U-xxx 于某日沉没于某海域」",
+   "tier": "reference"
+  },
+  {
+   "id": "hague_convoy",
+   "author": "Arnold Hague（与 John K. Burgess、Don Kindell 合作）",
+   "title": "Arnold Hague Convoy Database（27,892 个护航队、322,483 条船舶动态）",
+   "year": 2026,
+   "url": "https://www.convoyweb.org.uk/hague/index.html",
+   "supports": "护航队编号、日期、起止港与护航舰名单（HX/SC/ONS/ON/PQ/JW 等），校验「某队某日在哪里」的权威数据库",
+   "tier": "reference",
+   "seeAlso": [
+    "https://www.convoyweb.org.uk/ons/index.html（ONS 序列）",
+    "https://www.convoyweb.org.uk/hx/index.html（HX 序列）"
+   ]
+  },
+  {
+   "id": "uboat_net",
+   "author": "Guðmundur Helgason 等",
+   "title": "uboat.net — The U-boats（逐艇档案、巡逻记录、指挥官与结局）",
+   "year": 2026,
+   "url": "https://uboat.net/boats/",
+   "supports": "每艘 U 艇的建造厂、服役/沉没日期与位置、指挥官、击沉记录；代表艇的主数据源",
+   "tier": "reference",
+   "seeAlso": [
+    "https://uboat.net/boats/u96.htm",
+    "https://uboat.net/boats/u110.htm",
+    "https://uboat.net/boats/u123.htm",
+    "https://uboat.net/boats/u459.htm",
+    "https://uboat.net/boats/u505.htm",
+    "https://uboat.net/boats/u541.htm",
+    "https://uboat.net/boats/u1009.htm",
+    "https://uboat.net/boats/patrols/"
+   ]
+  },
+  {
+   "id": "uboat_net_types",
+   "author": "Guðmundur Helgason 等",
+   "title": "uboat.net — U-boat Types（II、VII、IX、X、XIV、XXI、XXIII 型技术页）",
+   "year": 2026,
+   "url": "https://uboat.net/types/",
+   "supports": "各型 U 艇的排水量、主尺度、航速、潜深、鱼雷数与艇员编制",
+   "tier": "reference",
+   "seeAlso": [
+    "https://uboat.net/types/viic.htm",
+    "https://uboat.net/types/ixc.htm",
+    "https://uboat.net/types/xxi.htm"
+   ]
+  },
+  {
+   "id": "uboat_net_ops",
+   "author": "Guðmundur Helgason 等",
+   "title": "uboat.net — Operations（Drumbeat、狼群、护航战、布雷、Monsun）",
+   "year": 2026,
+   "url": "https://uboat.net/ops/",
+   "supports": "各作战阶段总览：Paukenschlag（Drumbeat）、狼群列表、护航战索引、地中海与印度洋分遣；逐月在航数与损失曲线",
+   "tier": "reference",
+   "seeAlso": [
+    "https://uboat.net/ops/drumbeat.htm",
+    "https://uboat.net/ops/wolfpacks/",
+    "https://uboat.net/ops/wolfpacks/overview.htm",
+    "https://uboat.net/ops/convoys/battles.htm",
+    "https://uboat.net/ops/convoys/convoys.php",
+    "https://uboat.net/ops/combat_strength.html",
+    "https://uboat.net/fates/losses/chart.htm"
+   ]
+  },
+  {
+   "id": "uboat_net_technical",
+   "author": "Guðmundur Helgason 等",
+   "title": "uboat.net — Technical（Enigma、通气管、雷达告警、FW-200、基地与船厂）",
+   "year": 2026,
+   "url": "https://uboat.net/technical/",
+   "supports": "技术对抗的时间线：Enigma M3/M4 与钥匙网、通气管改装、Metox/Naxos、FW-200 侦察、法国基地",
+   "tier": "reference",
+   "seeAlso": [
+    "https://uboat.net/technical/enigma.htm",
+    "https://uboat.net/technical/schnorchel.htm",
+    "https://uboat.net/technical/detectors.htm",
+    "https://uboat.net/technical/fw200.htm",
+    "https://uboat.net/flotillas/bases/"
+   ]
+  },
+  {
+   "id": "uboat_net_allies",
+   "author": "Guðmundur Helgason 等",
+   "title": "uboat.net — Allied Warships（逐舰战历，含护航航母与护卫舰）",
+   "year": 2026,
+   "url": "https://uboat.net/allies/warships/",
+   "supports": "盟军护航舰艇（Bogue、Card、Guadalcanal、Starling、Biter 等）的战历与 U 艇战果",
+   "tier": "reference",
+   "seeAlso": [
+    "https://uboat.net/allies/warships/ship/1175.html（USS Bogue）"
+   ]
+  },
+  {
+   "id": "uboat_net_fates",
+   "author": "Guðmundur Helgason 等",
+   "title": "uboat.net — U-boat Fates（损失年报、1943-05 清单、自沉、投降、Deadlight）",
+   "year": 2026,
+   "url": "https://uboat.net/fates/",
+   "supports": "逐月在役与损失、1943-05 被击沉逐艇清单、1945 年「彩虹」自沉与投降港、战后 Deadlight 凿沉",
+   "tier": "reference",
+   "seeAlso": [
+    "https://uboat.net/fates/losses/chart.htm",
+    "https://uboat.net/fates/may43.htm",
+    "https://uboat.net/fates/scuttled.htm",
+    "https://uboat.net/fates/surrendered.htm",
+    "https://uboat.net/fates/deadlight.htm"
+   ]
+  },
+  {
+   "id": "uboat_net_men",
+   "author": "Guðmundur Helgason 等",
+   "title": "uboat.net — The Men（邓尼茨、指挥官名录、艇员伤亡）",
+   "year": 2026,
+   "url": "https://uboat.net/men/",
+   "supports": "邓尼茨履历与纽伦堡判决、指挥官任期（克雷奇默、吕特、托普、舍普克等）",
+   "tier": "reference",
+   "seeAlso": [
+    "https://uboat.net/men/doenitz.htm",
+    "https://uboat.net/men/commanders/"
+   ]
+  },
+  {
+   "id": "uboat_net_glossary",
+   "author": "Guðmundur Helgason 等",
+   "title": "uboat.net — Glossary（BdU、FdU、KTB、Rudeltaktik 等术语）",
+   "year": 2026,
+   "url": "https://uboat.net/glossary.htm",
+   "supports": "德方术语的英文对照，供中文术语表定名",
+   "tier": "reference"
+  },
+  {
+   "id": "nh_convoy_escorts",
+   "author": "Don Kindell（据 Arnold Hague 整理）",
+   "title": "Naval-History.Net — Convoy Escort Movements of Royal and Dominion Navy Warships（1,218 艘舰）",
+   "year": 2026,
+   "url": "https://www.naval-history.net/xDKEscorts00Contents.htm",
+   "supports": "逐舰护航履历：某舰在某年某月护送某队，编成与航迹的核对底册",
+   "tier": "reference"
+  },
+  {
+   "id": "nh_daily_1939",
+   "author": "Don Kindell",
+   "title": "Naval-History.Net — World War 2 at Sea, Daily (1939–1942)",
+   "year": 2026,
+   "url": "https://www.naval-history.net/xDKWW2-3900Intro.htm",
+   "supports": "逐日海战记录（含 U 艇击沉商船、护航舰行动），用于事件卡的日期与地点",
+   "tier": "reference"
+  },
+  {
+   "id": "nh_war_diaries",
+   "author": "Don Kindell",
+   "title": "Naval-History.Net — Admiralty War Diaries（海军部战争日记转录）",
+   "year": 2026,
+   "url": "https://www.naval-history.net/xDKWarDiaries-Contents.htm",
+   "supports": "海军部逐日战争日记：护航队动态、潜艇警报与命令，英方一手记录",
+   "tier": "archive"
+  },
+  {
+   "id": "nh_ship_histories",
+   "author": "Gordon Smith 等",
+   "title": "Naval-History.Net — 1,000 Warship Service Histories",
+   "year": 2026,
+   "url": "https://www.naval-history.net/xGM-aContents.htm",
+   "supports": "逐舰战历（Biter、Audacity、Starling、Kite 等），供舰船卡与事件核实",
+   "tier": "reference"
+  },
+  {
+   "id": "nh_maps",
+   "author": "Gordon Smith 等",
+   "title": "Naval-History.Net — Campaign and Battle Maps（含大西洋护航航线图）",
+   "year": 2026,
+   "url": "https://www.naval-history.net/Map00Index.htm",
+   "supports": "战役地图索引：北大西洋航线、比斯开湾、北极航线；作为控制区几何的参考（非精确底图）",
+   "tier": "reference"
+  },
+  {
+   "id": "nh_rn_losses",
+   "author": "Gordon Smith 等",
+   "title": "Naval-History.Net — Battles, Major Warship Losses",
+   "year": 2026,
+   "url": "https://www.naval-history.net/NAVAL1939-45RN.htm",
+   "supports": "逐舰损失日期、位置与原因，校验「某舰某日沉没」",
+   "tier": "reference"
+  },
+  {
+   "id": "nh_honours",
+   "author": "Gordon Smith 等",
+   "title": "Naval-History.Net — Royal Navy, Royal Marine, Single-Ship Battle Honours 1939–45",
+   "year": 2026,
+   "url": "https://www.naval-history.net/WW2CampaignsRNHons.htm",
+   "supports": "战功荣誉（含「Atlantic 1939–45」战役荣誉的授予条件），解释为何许多舰艇都带该荣誉",
+   "tier": "reference"
+  },
+  {
+   "id": "navweaps",
+   "author": "Tony DiGiulian 等",
+   "title": "NavWeaps — Naval Weapons of the World（各国舰炮、鱼雷、引信技术页）",
+   "year": 2026,
+   "url": "https://www.navweaps.com/",
+   "supports": "舰炮与鱼雷的技术参数（射程、射速、弹重），用于舰船卡武备",
+   "tier": "reference",
+   "seeAlso": [
+    "https://www.navweaps.com/Weapons/WNBR_4-45_mk16.php（4 英寸 Mk XVI）",
+    "https://www.navweaps.com/Weapons/WNBR_6-50_mk23.php（6 英寸 Mk XXIII）",
+    "https://www.navweaps.com/Weapons/WNBR_8-50_mk8.php（8 英寸 Mk VIII）",
+    "https://www.navweaps.com/Weapons/WNGER_11-52_skc28.php（28 cm SK C/28）"
+   ]
+  },
+  {
+   "id": "nara_catalog",
+   "author": "U.S. National Archives and Records Administration",
+   "title": "NARA Catalog（RG 38 海军、RG 80 海军人事等；照片 80-G 系列）",
+   "year": 2026,
+   "url": "https://catalog.archives.gov/search?q=battle%20of%20the%20atlantic",
+   "supports": "美方档案检索入口：80-G 海军照片、作战报告、潜艇战记录；照片署名与馆藏号核对",
+   "tier": "reference",
+   "seeAlso": [
+    "https://www.archives.gov/research/military/ww2/photos（二战照片集与公版说明）"
+   ]
+  },
+  {
+   "id": "tzdb_europe",
+   "author": "IANA tz database（eggert/tz）",
+   "title": "europe（Berlin、London、Paris 等时区规则，含 1940–45 战时夏令时）",
+   "year": 2026,
+   "url": "https://github.com/eggert/tz/blob/main/europe",
+   "supports": "德国 MEZ/MESZ 与英国 GMT/BST 的历史换算规则（含 1940 年「双倍夏令时」）",
+   "tier": "reference"
+  },
+  {
+   "id": "tzdb_northamerica",
+   "author": "IANA tz database（eggert/tz）",
+   "title": "northamerica（Newfoundland、Halifax、Eastern 等时区规则）",
+   "year": 2026,
+   "url": "https://github.com/eggert/tz/blob/main/northamerica",
+   "supports": "北美东岸（哈利法克斯、纽芬兰、纽约）在 1942 年「战时时间」下的换算，解释 Drumbeat 期间的时刻差异",
+   "tier": "reference"
+  },
+  {
+   "id": "gazette_index",
+   "author": "The Gazette（英国官方公告网）",
+   "title": "The Gazette — London Gazette 档案检索（1665 至今，可按编号与日期定位增刊）",
+   "year": 2026,
+   "url": "https://www.thegazette.co.uk/",
+   "supports": "检索与核对任何伦敦公报编号（如 34759、37989、38038）",
+   "tier": "reference",
+   "note": "自动化抓取返回 HTTP 202（未取得正文）；引用公报以 HyperWar 的 PDF 副本为准"
+  },
+  {
+   "id": "hyperwar_uk_official",
+   "author": "HyperWar Foundation",
+   "title": "United Kingdom Official Histories（英国官方二战史在线索引：Roskill、Behrens、Hancock & Gowing、Hinsley 等）",
+   "year": 2026,
+   "url": "https://www.ibiblio.org/hyperwar/UN/UK/index.html",
+   "supports": "英国官方战史在线目录与卷次（含 Roskill 第 I、II 卷正文）；核对版本、章节与转写来源的入口",
+   "tier": "reference"
+  },
+  {
+   "id": "hyperwar_eto",
+   "author": "HyperWar Foundation",
+   "title": "European Theater of Operations — Battle of the Atlantic（专题索引）",
+   "year": 2026,
+   "url": "https://www.ibiblio.org/hyperwar/ETO/Atlantic/index.html",
+   "supports": "大西洋战役专题页：ONI 的德国海军文件、美国商船战时规程、USCG 北大西洋与格陵兰巡逻专题",
+   "tier": "reference"
+  },
+  {
+   "id": "hyperwar_germany_km",
+   "author": "HyperWar Foundation",
+   "title": "The Kriegsmarine in World War II（德方资料索引）",
+   "year": 2026,
+   "url": "https://www.ibiblio.org/hyperwar/Germany/KM/index.html",
+   "supports": "ONI 的德方文件索引：邓尼茨文章、Prien/U-47 报告、印度洋 U 艇、ONI-204；德方一手材料在英文世界的入口",
+   "tier": "reference"
+  },
+  {
+   "id": "hyperwar_london_gazette",
+   "author": "HyperWar Foundation",
+   "title": "London Gazette Despatches（PDF 在线副本）",
+   "year": 2026,
+   "url": "https://www.ibiblio.org/hyperwar/UN/UK/LondonGazette/37989.pdf",
+   "supports": "伦敦公报战报 PDF 的在线副本（37989 拉普拉塔、38038 沙恩霍斯特），可下载核对原文、时间说明与页码",
+   "tier": "archive"
+  },
+  {
+   "id": "wiki_en_atlantic",
+   "author": "Wikipedia EN",
+   "title": "Battle of the Atlantic",
+   "year": 2026,
+   "url": "https://en.wikipedia.org/wiki/Battle_of_the_Atlantic",
+   "supports": "总览、数字汇总与争议点的快速索引；仅作旁证，凡引用必回一手来源",
+   "tier": "tertiary",
+   "note": "百科条目，脚注质量不均；不能单独支撑关键数字"
+  },
+  {
+   "id": "wiki_en_black_may",
+   "author": "Wikipedia EN",
+   "title": "Black May (World War II)",
+   "year": 2026,
+   "url": "https://en.wikipedia.org/wiki/Black_May_%28World_War_II%29",
+   "supports": "1943 年 5 月逐日战况与「41 艘」数字，交叉 Roskill 第 14 章",
+   "tier": "tertiary",
+   "note": "百科条目，脚注质量不均；不能单独支撑关键数字"
+  },
+  {
+   "id": "wiki_en_ons5",
+   "author": "Wikipedia EN",
+   "title": "Convoy ONS 5",
+   "year": 2026,
+   "url": "https://en.wikipedia.org/wiki/Convoy_ONS_5",
+   "supports": "ONS 5（1943-04-29 至 05-06）的编成、交战与损失",
+   "tier": "tertiary",
+   "note": "百科条目，脚注质量不均；不能单独支撑关键数字"
+  },
+  {
+   "id": "wiki_en_midgap",
+   "author": "Wikipedia EN",
+   "title": "Mid-Atlantic gap",
+   "year": 2026,
+   "url": "https://en.wikipedia.org/wiki/Mid-Atlantic_gap",
+   "supports": "「中大西洋空白区」的地理范围与闭合时间（1943 年护航航母与 VLR Liberator）",
+   "tier": "tertiary",
+   "note": "百科条目，脚注质量不均；不能单独支撑关键数字"
+  },
+  {
+   "id": "wiki_en_escort_carrier",
+   "author": "Wikipedia EN",
+   "title": "Escort carrier",
+   "year": 2026,
+   "url": "https://en.wikipedia.org/wiki/Escort_carrier",
+   "supports": "护航航母（CVE）的起源、Bogue 级与 MAC/CAM 船的区别",
+   "tier": "tertiary",
+   "note": "百科条目，脚注质量不均；不能单独支撑关键数字"
+  },
+  {
+   "id": "wiki_en_enigma",
+   "author": "Wikipedia EN",
+   "title": "Enigma machine",
+   "year": 2026,
+   "url": "https://en.wikipedia.org/wiki/Enigma_machine",
+   "supports": "恩尼格玛的结构、转子与钥匙网；M4 四转子（1942-02 起用于 U 艇）",
+   "tier": "tertiary",
+   "note": "百科条目，脚注质量不均；不能单独支撑关键数字"
+  },
+  {
+   "id": "wiki_en_u110",
+   "author": "Wikipedia EN",
+   "title": "German submarine U-110 (1940)",
+   "year": 2026,
+   "url": "https://en.wikipedia.org/wiki/German_submarine_U-110_%281940%29",
+   "supports": "U-110（1941-05-09）被 HMS Bulldog 俘获、恩尼格玛与密码表被缴的经过",
+   "tier": "tertiary",
+   "note": "百科条目，脚注质量不均；不能单独支撑关键数字"
+  },
+  {
+   "id": "wiki_en_type_vii",
+   "author": "Wikipedia EN",
+   "title": "Type VII submarine",
+   "year": 2026,
+   "url": "https://en.wikipedia.org/wiki/Type_VII_submarine",
+   "supports": "VII 型各亚型参数与建造数量",
+   "tier": "tertiary",
+   "note": "百科条目，脚注质量不均；不能单独支撑关键数字"
+  },
+  {
+   "id": "wiki_de_atlantikschlacht",
+   "author": "Wikipedia DE",
+   "title": "Atlantikschlacht",
+   "year": 2026,
+   "url": "https://de.wikipedia.org/wiki/Atlantikschlacht",
+   "supports": "德方视角的战役分期与术语（Geleitzugschlacht、Rudeltaktik）",
+   "tier": "tertiary",
+   "note": "百科条目，脚注质量不均；不能单独支撑关键数字"
+  }
+ ]
+}

@@ -1,0 +1,1672 @@
+{
+ "schemaVersion": 2,
+ "id": "battle-atlantic-1945",
+ "status": "published",
+ "title": {
+  "mark": "1939",
+  "zh": "大西洋海战",
+  "sub": "通商破坏与护航 · 1939—1945",
+  "en": "The Battle of the Atlantic",
+  "orig": "Schlacht im Atlantik",
+  "codename": "大西洋海战",
+  "html": "1939 · 大西洋海战 — 战旗推演",
+  "description": "1939—1945 年大西洋海战复古作战室推演：U 艇狼群、水面袭击舰、跨大西洋船团与护航体系，从开战第一夜到 1945 年 5 月的投降。",
+  "favicon": "#b3262e"
+ },
+ "time": {
+  "epoch": "1939-09-01T00:00",
+  "start": "1939-09-03T00:00",
+  "end": "1945-05-08T23:59",
+  "dataEnd": "1945-05-08T23:59",
+  "tzLabel": "世界时 UTC（= 当时通用的 GMT）。原始记录时钟不一：英方电文用 GMT、舰艇日志常用 BST/BDST（UTC+1/+2），德方 U 艇战报用 MEZ/MESZ（UTC+1/+2），美方东岸用 EWT（UTC−4）；本包时刻统一折成 UTC，逐条原时钟见事件注记",
+  "hoursPerSec": 38,
+  "utcOffset": 0,
+  "pace": [
+   {
+    "from": "1939-09-03T00:00",
+    "hoursPerSec": 38
+   },
+   {
+    "from": "1939-09-03T19:34",
+    "hoursPerSec": 0.020833
+   },
+   {
+    "from": "1939-09-03T19:51",
+    "hoursPerSec": 38
+   },
+   {
+    "from": "1939-09-04T08:52",
+    "hoursPerSec": 0.11
+   },
+   {
+    "from": "1939-09-04T09:08",
+    "hoursPerSec": 38
+   },
+   {
+    "from": "1939-09-17T17:38",
+    "hoursPerSec": 0.12
+   },
+   {
+    "from": "1939-09-17T18:26",
+    "hoursPerSec": 38
+   },
+   {
+    "from": "1939-10-14T00:52",
+    "hoursPerSec": 0.103333
+   },
+   {
+    "from": "1939-10-14T01:35",
+    "hoursPerSec": 38
+   },
+   {
+    "from": "1939-11-23T15:57",
+    "hoursPerSec": 0.043333
+   },
+   {
+    "from": "1939-11-23T16:22",
+    "hoursPerSec": 38
+   },
+   {
+    "from": "1940-04-09T04:24",
+    "hoursPerSec": 0.166667
+   },
+   {
+    "from": "1940-04-09T05:26",
+    "hoursPerSec": 38
+   },
+   {
+    "from": "1940-06-08T19:24",
+    "hoursPerSec": 0.020833
+   },
+   {
+    "from": "1940-06-08T19:41",
+    "hoursPerSec": 38
+   },
+   {
+    "from": "1940-06-22T00:00",
+    "hoursPerSec": 36
+   },
+   {
+    "from": "1940-06-30T11:52",
+    "hoursPerSec": 0.11
+   },
+   {
+    "from": "1940-06-30T12:08",
+    "hoursPerSec": 36
+   },
+   {
+    "from": "1940-10-16T12:00",
+    "hoursPerSec": 6
+   },
+   {
+    "from": "1940-10-20T12:00",
+    "hoursPerSec": 36
+   },
+   {
+    "from": "1940-10-30T19:52",
+    "hoursPerSec": 0.11
+   },
+   {
+    "from": "1940-10-30T20:08",
+    "hoursPerSec": 36
+   },
+   {
+    "from": "1940-11-05T16:54",
+    "hoursPerSec": 0.1
+   },
+   {
+    "from": "1940-11-05T17:36",
+    "hoursPerSec": 36
+   },
+   {
+    "from": "1941-03-15T00:00",
+    "hoursPerSec": 6
+   },
+   {
+    "from": "1941-03-17T03:00",
+    "hoursPerSec": 0.123333
+   },
+   {
+    "from": "1941-03-17T03:49",
+    "hoursPerSec": 6
+   },
+   {
+    "from": "1941-03-18T12:00",
+    "hoursPerSec": 14
+   },
+   {
+    "from": "1941-05-09T10:14",
+    "hoursPerSec": 0.106667
+   },
+   {
+    "from": "1941-05-09T10:58",
+    "hoursPerSec": 20
+   },
+   {
+    "from": "1941-05-10T10:52",
+    "hoursPerSec": 0.11
+   },
+   {
+    "from": "1941-05-10T11:08",
+    "hoursPerSec": 20
+   },
+   {
+    "from": "1941-05-23T00:00",
+    "hoursPerSec": 3
+   },
+   {
+    "from": "1941-05-24T05:46",
+    "hoursPerSec": 0.086667
+   },
+   {
+    "from": "1941-05-24T06:24",
+    "hoursPerSec": 3
+   },
+   {
+    "from": "1941-05-26T20:59",
+    "hoursPerSec": 0.11
+   },
+   {
+    "from": "1941-05-26T21:15",
+    "hoursPerSec": 4
+   },
+   {
+    "from": "1941-05-27T08:41",
+    "hoursPerSec": 0.229633
+   },
+   {
+    "from": "1941-05-27T10:45",
+    "hoursPerSec": 3
+   },
+   {
+    "from": "1941-05-28T00:00",
+    "hoursPerSec": 38
+   },
+   {
+    "from": "1941-10-31T05:19",
+    "hoursPerSec": 0.09
+   },
+   {
+    "from": "1941-10-31T05:58",
+    "hoursPerSec": 38
+   },
+   {
+    "from": "1941-12-07T00:00",
+    "hoursPerSec": 34
+   },
+   {
+    "from": "1941-12-21T17:49",
+    "hoursPerSec": 0.0625
+   },
+   {
+    "from": "1941-12-21T18:16",
+    "hoursPerSec": 34
+   },
+   {
+    "from": "1941-12-21T21:44",
+    "hoursPerSec": 0.041667
+   },
+   {
+    "from": "1941-12-21T22:06",
+    "hoursPerSec": 34
+   },
+   {
+    "from": "1942-01-12T00:00",
+    "hoursPerSec": 8
+   },
+   {
+    "from": "1942-01-14T04:52",
+    "hoursPerSec": 0.04
+   },
+   {
+    "from": "1942-01-14T05:16",
+    "hoursPerSec": 8
+   },
+   {
+    "from": "1942-01-14T10:54",
+    "hoursPerSec": 0.25
+   },
+   {
+    "from": "1942-01-14T12:06",
+    "hoursPerSec": 8
+   },
+   {
+    "from": "1942-01-20T00:00",
+    "hoursPerSec": 34
+   },
+   {
+    "from": "1942-07-02T00:00",
+    "hoursPerSec": 5
+   },
+   {
+    "from": "1942-07-08T00:00",
+    "hoursPerSec": 34
+   },
+   {
+    "from": "1942-10-30T05:59",
+    "hoursPerSec": 0.145833
+   },
+   {
+    "from": "1942-10-30T06:46",
+    "hoursPerSec": 34
+   },
+   {
+    "from": "1942-11-05T00:00",
+    "hoursPerSec": 6
+   },
+   {
+    "from": "1942-11-10T00:00",
+    "hoursPerSec": 34
+   },
+   {
+    "from": "1943-03-13T00:00",
+    "hoursPerSec": 4
+   },
+   {
+    "from": "1943-03-16T08:04",
+    "hoursPerSec": 0.041667
+   },
+   {
+    "from": "1943-03-16T08:26",
+    "hoursPerSec": 4
+   },
+   {
+    "from": "1943-03-21T00:00",
+    "hoursPerSec": 38
+   },
+   {
+    "from": "1943-04-28T00:00",
+    "hoursPerSec": 1.5
+   },
+   {
+    "from": "1943-04-29T05:54",
+    "hoursPerSec": 0.75
+   },
+   {
+    "from": "1943-04-29T09:06",
+    "hoursPerSec": 1.5
+   },
+   {
+    "from": "1943-05-05T18:22",
+    "hoursPerSec": 0.11
+   },
+   {
+    "from": "1943-05-05T18:38",
+    "hoursPerSec": 1.5
+   },
+   {
+    "from": "1943-05-06T01:54",
+    "hoursPerSec": 0.5
+   },
+   {
+    "from": "1943-05-06T04:06",
+    "hoursPerSec": 1.5
+   },
+   {
+    "from": "1943-05-07T00:00",
+    "hoursPerSec": 10
+   },
+   {
+    "from": "1943-06-01T00:00",
+    "hoursPerSec": 38
+   },
+   {
+    "from": "1943-12-24T00:00",
+    "hoursPerSec": 8
+   },
+   {
+    "from": "1943-12-26T16:44",
+    "hoursPerSec": 0.259725
+   },
+   {
+    "from": "1943-12-26T19:51",
+    "hoursPerSec": 8
+   },
+   {
+    "from": "1943-12-28T00:00",
+    "hoursPerSec": 36
+   },
+   {
+    "from": "1944-05-29T11:09",
+    "hoursPerSec": 0.033333
+   },
+   {
+    "from": "1944-05-29T11:31",
+    "hoursPerSec": 36
+   },
+   {
+    "from": "1944-05-29T20:54",
+    "hoursPerSec": 0.1
+   },
+   {
+    "from": "1944-05-29T21:36",
+    "hoursPerSec": 36
+   },
+   {
+    "from": "1944-06-04T00:00",
+    "hoursPerSec": 3
+   },
+   {
+    "from": "1944-06-04T11:04",
+    "hoursPerSec": 0.116667
+   },
+   {
+    "from": "1944-06-04T11:51",
+    "hoursPerSec": 3
+   },
+   {
+    "from": "1944-06-10T00:00",
+    "hoursPerSec": 38
+   },
+   {
+    "from": "1944-10-16T04:14",
+    "hoursPerSec": 0.166667
+   },
+   {
+    "from": "1944-10-16T05:06",
+    "hoursPerSec": 38
+   },
+   {
+    "from": "1944-11-25T09:24",
+    "hoursPerSec": 0.166667
+   },
+   {
+    "from": "1944-11-25T10:16",
+    "hoursPerSec": 38
+   },
+   {
+    "from": "1945-02-09T12:04",
+    "hoursPerSec": 0.11
+   },
+   {
+    "from": "1945-02-09T12:20",
+    "hoursPerSec": 38
+   },
+   {
+    "from": "1945-05-04T00:00",
+    "hoursPerSec": 4
+   },
+   {
+    "from": "1945-05-07T09:27",
+    "hoursPerSec": 0.11
+   },
+   {
+    "from": "1945-05-07T09:43",
+    "hoursPerSec": 4
+   },
+   {
+    "from": "1945-05-07T20:34",
+    "hoursPerSec": 0.066667
+   },
+   {
+    "from": "1945-05-07T21:06",
+    "hoursPerSec": 4
+   },
+   {
+    "from": "1945-05-08T01:54",
+    "hoursPerSec": 0.416667
+   },
+   {
+    "from": "1945-05-08T03:46",
+    "hoursPerSec": 4
+   }
+  ]
+ },
+ "sides": [
+  {
+   "id": "DE",
+   "prefix": "de",
+   "name": "德国",
+   "nation": "DE",
+   "coalition": "axis",
+   "counter": {
+    "bg": "#56708f",
+    "edge": "#2a3a52",
+    "text": "#f4efe2",
+    "box": "#eef0ea",
+    "ink": "#1f3558"
+   },
+   "css": {
+    "main": "#3a5887",
+    "dark": "#1f3558"
+   },
+   "arrow": {
+    "fill": "rgba(58,88,135,0.62)",
+    "stroke": "#1f3558"
+   },
+   "sandbox": "#3a5887",
+   "restHeading": 0,
+   "planesFrom": "E",
+   "defaultModel": "navy_token"
+  },
+  {
+   "id": "GB",
+   "prefix": "gb",
+   "name": "英国",
+   "nation": "GB",
+   "coalition": "allies",
+   "counter": {
+    "bg": "#b8443f",
+    "edge": "#6e1f1f",
+    "text": "#f4efe2",
+    "box": "#eef0ea",
+    "ink": "#7a1a1f"
+   },
+   "css": {
+    "main": "#b3262e",
+    "dark": "#7a1a1f"
+   },
+   "arrow": {
+    "fill": "rgba(179,38,46,0.62)",
+    "stroke": "#7a1a1f"
+   },
+   "sandbox": "#b3262e",
+   "restHeading": 1,
+   "planesFrom": "W",
+   "defaultModel": "navy_token"
+  },
+  {
+   "id": "US",
+   "prefix": "us",
+   "name": "美国",
+   "nation": "US",
+   "coalition": "allies",
+   "counter": {
+    "bg": "#2a5a94",
+    "edge": "#163864",
+    "text": "#f4efe2",
+    "box": "#eef0ea",
+    "ink": "#163864"
+   },
+   "css": {
+    "main": "#1f4e89",
+    "dark": "#163864"
+   },
+   "arrow": {
+    "fill": "rgba(31,78,137,0.62)",
+    "stroke": "#163864"
+   },
+   "sandbox": "#1f4e89",
+   "restHeading": 1,
+   "planesFrom": "W",
+   "defaultModel": "navy_token"
+  },
+  {
+   "id": "CA",
+   "prefix": "ca",
+   "name": "加拿大",
+   "nation": "CA",
+   "coalition": "allies",
+   "counter": {
+    "bg": "#8d7346",
+    "edge": "#5c4a28",
+    "text": "#f4efe2",
+    "box": "#eef0ea",
+    "ink": "#5c4a28"
+   },
+   "css": {
+    "main": "#8a7044",
+    "dark": "#5c4a28"
+   },
+   "arrow": {
+    "fill": "rgba(138,112,68,0.62)",
+    "stroke": "#5c4a28"
+   },
+   "sandbox": "#8a7044",
+   "restHeading": 1,
+   "planesFrom": "N",
+   "defaultModel": "navy_token"
+  }
+ ],
+ "control": {
+  "mode": "air",
+  "landBit": 4,
+  "theatreBits": [],
+  "slots": [
+   {
+    "key": "raider",
+    "label": "德军 U 艇与水面袭击舰活动海域（示意）",
+    "opacity": 0.68,
+    "line": "#1f3558",
+    "pattern": {
+     "size": 9,
+     "svg": "<rect width=\"9\" height=\"9\" fill=\"rgba(58,88,135,0.13)\"/><path d=\"M-2,2 L2,-2 M0,9 L9,0 M7,11 L11,7\" stroke=\"rgba(38,64,110,0.55)\" stroke-width=\"1.1\"/>"
+    },
+    "legend": "repeating-linear-gradient(-45deg, rgba(38,64,110,.6) 0 1.5px, rgba(58,88,135,.15) 1.5px 6px)",
+    "sandboxFill": [
+     0.18,
+     0.32,
+     0.62
+    ],
+    "sandboxLine": [
+     0.12,
+     0.2,
+     0.36
+    ]
+   },
+   {
+    "key": "convoy",
+    "label": "盟军护航与航空掩护海域（示意）",
+    "opacity": 0.6,
+    "line": "#7a1a1f",
+    "pattern": {
+     "size": 10,
+     "svg": "<rect width=\"10\" height=\"10\" fill=\"rgba(179,38,46,0.10)\"/><path d=\"M0,10 L10,0 M-2,2 L2,-2 M8,12 L12,8 M0,0 L10,10 M-2,8 L2,12 M8,-2 L12,2\" stroke=\"rgba(150,38,46,0.34)\" stroke-width=\"0.9\"/>"
+    },
+    "legend": "repeating-linear-gradient(45deg,rgba(179,38,46,.2) 0 2px,transparent 2px 6px)",
+    "sandboxFill": [
+     0.62,
+     0.18,
+     0.2
+    ],
+    "sandboxLine": [
+     0.44,
+     0.12,
+     0.14
+    ]
+   }
+  ]
+ },
+ "phases": [
+  {
+   "id": "ph1",
+   "from": "1939-09-03T00:00",
+   "name": "袭击舰与护航制度",
+   "short": "袭击舰与护航",
+   "sub": "斯卡帕湾、拉瓦尔品第与南大西洋的猎杀群；英国从本土向外逐段建立船团制，远洋仍无全程护航",
+   "center": [
+    -20,
+    50
+   ],
+   "zoom": 3.6
+  },
+  {
+   "id": "ph2",
+   "from": "1940-06-22T00:00",
+   "name": "法国基地与「快乐时光」",
+   "short": "快乐时光",
+   "sub": "比斯开湾港口让 U 艇往返航程缩短约三分之一；狼群在 SC 7 与 HX 79 两夜之间证明多艇水面夜袭",
+   "center": [
+    -18,
+    50
+   ],
+   "zoom": 4.0
+  },
+  {
+   "id": "ph3a",
+   "from": "1941-04-01T00:00",
+   "name": "美国介入",
+   "short": "美国介入",
+   "sub": "租借法案、美洲安全区西扩与纽芬兰护航部队：美国从中立巡逻走向事实上的西大西洋护航",
+   "center": [
+    -40,
+    44
+   ],
+   "zoom": 2.0
+  },
+  {
+   "id": "bismarck",
+   "from": "1941-05-23T00:00",
+   "name": "俾斯麦追击",
+   "short": "俾斯麦",
+   "sub": "胡德号在丹麦海峡爆炸；本土舰队主力尽出追击，5 月 27 日俾斯麦号在比斯开湾以西沉没（两场炮战在时间轴上各放慢到半分钟上下）",
+   "center": [
+    -28,
+    56
+   ],
+   "zoom": 3.0
+  },
+  {
+   "id": "ph3",
+   "from": "1941-05-28T00:00",
+   "name": "全域扩张",
+   "short": "全域扩张",
+   "sub": "大西洋宪章、冰岛防务移交与「见即击沉」；对美宣战后 U 艇扑向无人护航的美国东岸与加勒比",
+   "center": [
+    -42,
+    38
+   ],
+   "zoom": 1.7
+  },
+  {
+   "id": "ph4",
+   "from": "1942-07-01T00:00",
+   "name": "转折",
+   "short": "转折",
+   "sub": "PQ-17 解散、火炬行动与狼群集中打中大西洋空白区；1943 年 3 月的船团战与 5 月的崩盘只隔八周",
+   "center": [
+    -36,
+    50
+   ],
+   "zoom": 3.2
+  },
+  {
+   "id": "ph5",
+   "from": "1943-06-01T00:00",
+   "name": "反攻",
+   "short": "反攻",
+   "sub": "护航航母猎杀群与超远程航空兵关闭空白区；比斯开湾封锁、莱特恩反扑与北角海战",
+   "center": [
+    -25,
+    47
+   ],
+   "zoom": 3.0
+  },
+  {
+   "id": "ph6",
+   "from": "1944-06-06T00:00",
+   "name": "诺曼底与基地失守",
+   "short": "诺曼底",
+   "sub": "登陆海域的反潜封锁、通气管 U 艇的短暂回潮，以及 8 月比斯开湾基地的陷落",
+   "center": [
+    -4,
+    49
+   ],
+   "zoom": 6.4
+  },
+  {
+   "id": "final",
+   "from": "1945-05-01T00:00",
+   "to": "1945-05-08T23:59",
+   "name": "最后一周",
+   "short": "最后一周",
+   "sub": "5 月 4 日停火令、5 月 5 日「彩虹」自沉与 5 月 8 日的投降生效；最后两艘商船在停战生效前约 25 小时被击沉",
+   "center": [
+    -2,
+    56
+   ],
+   "zoom": 5.5
+  }
+ ],
+ "marks": [
+  [
+   "1939-09-03T10:00",
+   "开战 · 雅典娜号"
+  ],
+  [
+   "1940-06-22T00:00",
+   "法国停战"
+  ],
+  [
+   "1940-10-18T00:00",
+   "SC 7"
+  ],
+  [
+   "1941-03-17T00:00",
+   "HX 112"
+  ],
+  [
+   "1941-05-24T00:00",
+   "丹麦海峡"
+  ],
+  [
+   "1941-08-14T00:00",
+   "大西洋宪章"
+  ],
+  [
+   "1941-12-11T00:00",
+   "对美宣战"
+  ],
+  [
+   "1942-07-04T00:00",
+   "PQ-17"
+  ],
+  [
+   "1942-11-08T00:00",
+   "火炬行动"
+  ],
+  [
+   "1943-03-16T00:00",
+   "HX 229 / SC 122"
+  ],
+  [
+   "1943-05-23T00:00",
+   "黑色五月"
+  ],
+  [
+   "1943-12-26T00:00",
+   "北角"
+  ],
+  [
+   "1944-06-06T00:00",
+   "诺曼底"
+  ],
+  [
+   "1945-05-08T00:00",
+   "投降生效"
+  ]
+ ],
+ "theme": {
+  "accent": "#b3262e",
+  "accentDark": "#7a1a1f",
+  "accentTint": "rgba(0,0,0,.06)",
+  "theatreBorder": "#b3262e",
+  "theatreHalo": "rgba(0,0,0,.14)",
+  "restFill": "rgba(0,0,0,.05)"
+ },
+ "map": {
+  "fit": "frame",
+  "home3d": [
+   -33,
+   50
+  ],
+  "focus": [
+   -33,
+   44
+  ],
+  "hexKm": 0,
+  "theatreCountries": [
+   "GB",
+   "CA",
+   "US",
+   "NF",
+   "GL",
+   "IS",
+   "IE",
+   "NO",
+   "DE",
+   "FR",
+   "ES",
+   "PT",
+   "DK",
+   "NL",
+   "BE"
+  ],
+  "labels": {
+   "countries": [
+    [
+     "加 拿 大",
+     -72,
+     52,
+     24,
+     0.32
+    ],
+    [
+     "美 国",
+     -86,
+     40,
+     30,
+     0.3
+    ],
+    [
+     "格 陵 兰",
+     -42,
+     72,
+     26,
+     0.4
+    ],
+    [
+     "冰 岛",
+     -18.8,
+     64.9,
+     13,
+     0.85
+    ],
+    [
+     "英 国",
+     -2.2,
+     53.2,
+     19,
+     0.4
+    ],
+    [
+     "爱 尔 兰",
+     -8,
+     53.2,
+     12,
+     0.85
+    ],
+    [
+     "德 国",
+     10,
+     51.2,
+     18,
+     0.45
+    ],
+    [
+     "挪 威",
+     8.8,
+     61,
+     15,
+     0.55
+    ],
+    [
+     "法 国",
+     2.5,
+     47.2,
+     20,
+     0.45
+    ],
+    [
+     "西 班 牙",
+     -3.6,
+     40.2,
+     15,
+     0.65
+    ],
+    [
+     "葡 萄 牙",
+     -8.2,
+     39.5,
+     9,
+     1.05
+    ],
+    [
+     "摩 洛 哥",
+     -6.5,
+     32,
+     12,
+     0.85
+    ],
+    [
+     "纽 芬 兰",
+     -56,
+     49,
+     11,
+     0.8
+    ],
+    [
+     "古 巴",
+     -79,
+     22,
+     11,
+     0.85
+    ],
+    [
+     "巴 西",
+     -52,
+     -8,
+     22,
+     0.6
+    ],
+    [
+     "阿 尔 及 利 亚",
+     3,
+     30,
+     14,
+     0.85
+    ]
+   ],
+   "waters": [
+    [
+     "大 西 洋",
+     -35,
+     32,
+     34,
+     false,
+     0
+    ],
+    [
+     "北 大 西 洋",
+     -45,
+     57,
+     20,
+     false,
+     0
+    ],
+    [
+     "中 大 西 洋",
+     -27,
+     47,
+     15,
+     false,
+     1.1
+    ],
+    [
+     "拉 布 拉 多 海",
+     -54,
+     56,
+     13,
+     false,
+     1.3
+    ],
+    [
+     "加 勒 比 海",
+     -76,
+     15.5,
+     18,
+     false,
+     0.9
+    ],
+    [
+     "北 海",
+     3.2,
+     56.4,
+     18,
+     false,
+     0.8
+    ],
+    [
+     "挪 威 海",
+     4,
+     67.8,
+     16,
+     false,
+     0.9
+    ],
+    [
+     "巴 伦 支 海",
+     38,
+     73.5,
+     15,
+     false,
+     1.1
+    ],
+    [
+     "格 陵 兰 海",
+     -18,
+     74,
+     13,
+     false,
+     1.4
+    ],
+    [
+     "丹 麦 海 峡",
+     -30,
+     67,
+     11,
+     false,
+     1.8
+    ],
+    [
+     "比 斯 开 湾",
+     -7.5,
+     45.4,
+     13,
+     false,
+     1.5
+    ],
+    [
+     "英 吉 利 海 峡",
+     -2.6,
+     50,
+     11,
+     false,
+     2.4
+    ],
+    [
+     "爱 尔 兰 海",
+     -5.6,
+     53.8,
+     10,
+     false,
+     2.8
+    ],
+    [
+     "圣 劳 伦 斯 湾",
+     -61.5,
+     48.5,
+     10,
+     false,
+     2.6
+    ],
+    [
+     "地 中 海",
+     12,
+     36,
+     18,
+     false,
+     0.7
+    ]
+   ]
+  },
+  "portMarkers": true,
+  "initialView": {
+   "center": [
+    -33.8,
+    40
+   ],
+   "zoom": 1.67
+  },
+  "unitZoom": [
+   3.2,
+   6.5,
+   14
+  ],
+  "returnZoom": 1.15,
+  "maxZoom": 120,
+  "regions": [
+   {
+    "id": "all",
+    "label": "全战区",
+    "center": [
+     -33,
+     44
+    ],
+    "zoom": 1
+   },
+   {
+    "id": "midatl",
+    "label": "中大西洋",
+    "center": [
+     -36.7,
+     50.4
+    ],
+    "zoom": 3.2
+   },
+   {
+    "id": "uscoast",
+    "label": "美国东岸",
+    "center": [
+     -69.8,
+     33.9
+    ],
+    "zoom": 3.6
+   },
+   {
+    "id": "carib",
+    "label": "加勒比",
+    "center": [
+     -68.7,
+     17.6
+    ],
+    "zoom": 2.5
+   },
+   {
+    "id": "arctic",
+    "label": "北极航线",
+    "center": [
+     15.2,
+     72.1
+    ],
+    "zoom": 4.0
+   },
+   {
+    "id": "biscay",
+    "label": "比斯开湾",
+    "center": [
+     -10.8,
+     46.3
+    ],
+    "zoom": 5.2
+   },
+   {
+    "id": "channel",
+    "label": "海峡与登陆海域",
+    "center": [
+     -2.3,
+     50.5
+    ],
+    "zoom": 8.5
+   }
+  ],
+  "mapKey": "<b>N ↑</b><span>1939—1945 / ATLANTIC</span><small>━━▶ 舰艇航迹　⋯▶ 船团航线　⌁ 活动海域（斜线＝德方，网格＝盟方）</small><small>航迹为据战报与航迹图重建的示意，不是实测航线</small>"
+ },
+ "display": {
+  "counterSideCode": true,
+  "statusEchelons": "markers"
+ },
+ "sandbox": {
+  "kind": "naval",
+  "target": [
+   -33,
+   50
+  ],
+  "softwareFallback": true,
+  "maxDistance": 26000
+ },
+ "naval": {
+  "tacticalZoom": 10,
+  "shipPx": [
+   26,
+   100
+  ],
+  "trackTicks": 10,
+  "fleetTicks": 24,
+  "wakeMin": 20,
+  "chartGrid": 6,
+  "rangeUnit": "nm",
+  "signals": true
+ },
+ "director": {
+  "camera": "point",
+  "dwell": [
+   11000,
+   16000
+  ],
+  "defaultZoom": [
+   1.7,
+   2.4
+  ],
+  "returnTo": "point",
+  "returnCenter": [
+   -33,
+   47
+  ]
+ },
+ "audio": {
+  "mode": "cues",
+  "musicVol": 0.24,
+  "volumePanel": true,
+  "music": [
+   {
+    "from": "1939-09-03T00:00",
+    "track": "operations"
+   },
+   {
+    "from": "1940-06-22T00:00",
+    "track": "elegy"
+   },
+   {
+    "from": "1941-03-20T00:00",
+    "track": "operations"
+   },
+   {
+    "from": "1942-01-12T00:00",
+    "track": "elegy"
+   },
+   {
+    "from": "1943-05-07T00:00",
+    "track": "operations"
+   },
+   {
+    "from": "1945-04-30T00:00",
+    "track": "elegy"
+   }
+  ],
+  "intensity": [
+   {
+    "from": "1939-09-03T00:00",
+    "value": 0.18
+   },
+   {
+    "from": "1940-06-22T00:00",
+    "value": 0.5
+   },
+   {
+    "from": "1940-10-16T00:00",
+    "value": 0.66
+   },
+   {
+    "from": "1941-03-20T00:00",
+    "value": 0.34
+   },
+   {
+    "from": "1941-05-23T00:00",
+    "value": 0.7
+   },
+   {
+    "from": "1941-05-28T00:00",
+    "value": 0.4
+   },
+   {
+    "from": "1941-12-07T00:00",
+    "value": 0.52
+   },
+   {
+    "from": "1942-01-12T00:00",
+    "value": 0.72
+   },
+   {
+    "from": "1942-07-02T00:00",
+    "value": 0.76
+   },
+   {
+    "from": "1942-07-12T00:00",
+    "value": 0.46
+   },
+   {
+    "from": "1943-03-13T00:00",
+    "value": 0.8
+   },
+   {
+    "from": "1943-04-28T00:00",
+    "value": 0.84
+   },
+   {
+    "from": "1943-05-07T00:00",
+    "value": 0.66
+   },
+   {
+    "from": "1943-06-01T00:00",
+    "value": 0.34
+   },
+   {
+    "from": "1943-12-24T00:00",
+    "value": 0.58
+   },
+   {
+    "from": "1944-06-04T00:00",
+    "value": 0.62
+   },
+   {
+    "from": "1944-06-10T00:00",
+    "value": 0.3
+   },
+   {
+    "from": "1945-05-04T00:00",
+    "value": 0.42
+   },
+   {
+    "from": "1945-05-08T00:00",
+    "value": 0.14
+   }
+  ],
+  "introSting": "morse",
+  "introStingVolume": 0.3,
+  "battleSfx": [
+   "ship_gun",
+   "explosion"
+  ],
+  "introMusic": "elegy"
+ },
+ "ui": {
+  "layers": {
+   "control": {
+    "label": "活动海域（斜线＝德方，网格＝盟方）"
+   },
+   "front": {
+    "label": "活动海域边缘"
+   },
+   "routes": {
+    "label": "当前航迹与航线"
+   },
+   "routesFull": {
+    "label": "完整示意航线（含未来）",
+    "default": false
+   },
+   "demarcation": {
+    "label": "安全区与分界线"
+   },
+   "events": {
+    "label": "历史事件"
+   },
+   "cities": {
+    "label": "港口、船厂与基地"
+   },
+   "pockets": {
+    "hidden": true,
+    "default": false
+   },
+   "hex": {
+    "hidden": true,
+    "default": false
+   },
+   "forest": {
+    "hidden": true,
+    "default": false
+   }
+  },
+  "layerOrder": [
+   "units",
+   "control",
+   "front",
+   "routes",
+   "routesFull",
+   "tracks",
+   "gunfire",
+   "ranges",
+   "chart",
+   "zones",
+   "demarcation",
+   "events",
+   "cities",
+   "rivers",
+   "terrain"
+  ],
+  "chapterNav": "sidebar",
+  "treeActiveOnly": true,
+  "precisionStyle": "dot",
+  "timeline": {
+   "jump": true,
+   "dateInput": true,
+   "lanes": 3,
+   "majorEvery": 30
+  },
+  "categoryLabels": {
+   "battle": "战斗",
+   "air": "空袭",
+   "naval": "海战",
+   "political": "政治",
+   "atrocity": "暴行",
+   "movement": "行动",
+   "surrender": "投降",
+   "siege": "围城"
+  },
+  "extraLayers": [
+   {
+    "key": "tracks",
+    "label": "航迹图",
+    "default": true
+   },
+   {
+    "key": "gunfire",
+    "label": "炮火、鱼雷与深弹",
+    "default": true
+   },
+   {
+    "key": "ranges",
+    "label": "射程圈",
+    "default": false
+   },
+   {
+    "key": "chart",
+    "label": "海图网格与比例尺",
+    "default": true
+   },
+   {
+    "key": "zones",
+    "label": "安全区与封锁线",
+    "default": true
+   }
+  ],
+  "brief": {
+   "layout": "forces",
+   "stamp": "MOST SECRET · 大西洋战区 · 绝密",
+   "title": "1939—1945 大西洋海战",
+   "sub": "The Battle of the Atlantic · Schlacht im Atlantik",
+   "sub2": "1939.9.3 — 1945.5.8 · 世界时（UTC）",
+   "fine": "舰艇、U 艇与船团为代表性标绘，不是完整编制表：图上只画双方主力舰艇与代表战例，每个阶段实际在航的 U 艇有数十艘，不可能逐一标绘。商船吨位一律总登记吨（GRT），军舰为排水量，两种口径不混算；U 艇损失按「艘」计。所有时刻统一折为世界时（UTC），原始记录里的英方 BST/BDST 与德方 MEZ/MESZ 见事件注记。活动海域是示意多边形，不是战线或精确巡逻区。",
+   "paragraphs": [
+    "这张图是一场消耗战，不是舰队决战：德国从未争夺制海权，只争夺航线上的时间与空间；盟军的胜负标准不是击沉多少 U 艇，而是跨大西洋的货物流量是否始终高于被击沉的速度。",
+    "两个活动海域槽位可以重叠：斜线是德方 U 艇与袭击舰的活动海域，网格是盟军护航与航空掩护的海域。两者在 1942 年至 1943 年春的中大西洋「空白区」大面积重叠，那正是本战役的叙事高点。",
+    "放大到交战海域后，舰船按真实舰长画成俯视剪影，可以看到炮火、鱼雷航迹、烟幕与深弹水柱；右上角的电文纸带按时刻打出狼群无线电报与西部海口司令部的命令。时间轴按播放时长展开：五年半的漫长巡航压缩成半个多小时，1941 年 5 月、1943 年 3 月与 1943 年 5 月的关键战斗会明显放慢。"
+   ],
+   "byPhase": true,
+   "notes": "list",
+   "losses": false,
+   "sideColumns": 2,
+   "notesTitle": "本阶段兵力与吨位口径"
+  },
+  "status": {
+   "cells": [
+    {
+     "sides": [
+      "DE"
+     ],
+     "metric": "act",
+     "label": "德军在航舰艇与 U 艇"
+    },
+    {
+     "sides": [
+      "GB"
+     ],
+     "metric": "act",
+     "label": "英国舰艇与船团"
+    },
+    {
+     "sides": [
+      "US",
+      "CA"
+     ],
+     "metric": "act",
+     "label": "美国与加拿大舰艇"
+    }
+   ]
+  },
+  "legend": {
+   "title": "舰艇与机群标绘",
+   "counterLabels": true,
+   "counters": [
+    [
+     "DE",
+     "naval",
+     "ship",
+     "德国 U 艇与袭击舰|U-Boot"
+    ],
+    [
+     "GB",
+     "naval",
+     "ship",
+     "英国舰艇与船团|RN"
+    ],
+    [
+     "US",
+     "naval",
+     "ship",
+     "美国舰艇与船团|USN"
+    ],
+    [
+     "CA",
+     "naval",
+     "ship",
+     "加拿大护航舰|RCN"
+    ],
+    [
+     "GB",
+     "fighter",
+     "squadron",
+     "岸基反潜航空兵|RAF"
+    ],
+    [
+     "DE",
+     "bomber",
+     "gruppe",
+     "远程侦察轰炸机|Fw 200"
+    ]
+   ],
+   "echelonsTitle": "显示层级",
+   "echelonsHtml": "<p class=\"fine\">全图：活动海域与船团队位<br/>中景：舰艇与护航群<br/>近景：单舰航迹、射程与电文</p>",
+   "listTitle": "海图与态势",
+   "showSides": false,
+   "items": [
+    "<i class=\"sw side-DE\"></i>德国海军 · 蓝色",
+    "<i class=\"sw side-GB\"></i>英国与英联邦 · 红色",
+    "<i class=\"sw side-US\"></i>美国 · 深蓝",
+    "<i class=\"sw side-CA\"></i>加拿大 · 褐",
+    "<i class=\"lg-fill a\"></i>德军 U 艇与袭击舰活动海域",
+    "<i class=\"lg-fill b\"></i>盟军护航与航空掩护海域",
+    "<i class=\"lg-demarc\"></i>安全区与封锁分界线",
+    "━━ 实线：航迹图（刻度为时刻）　⋯ 虚线：船团航线"
+   ],
+   "statuses": "<div><span class=\"lg-st\">★</span>交战中</div><div><span class=\"lg-st enc\">▢</span>遭围攻 / 被合围</div><div><span class=\"lg-st\">✕</span>沉没 / 投降 / 自沉</div>",
+   "after": "<p class=\"fine\">海战层的舰船剪影按真实舰长放大，放大后可见炮口闪光、弹道、水柱、鱼雷与烟幕；暂停时显示射击线与距离（海里）。活动海域可以重叠，不等同于领土占领。3D 海战沙盘的昼夜按 UTC 计算，对应北大西洋中部。</p>",
+   "keys": "<span><kbd>空格</kbd> 播放／暂停</span><span><kbd>←</kbd><kbd>→</kbd> 上／下一事件</span><span><kbd>H</kbd> 全战区</span><span><kbd>M</kbd> 2D／3D</span><span><kbd>Esc</kbd> 关闭卡片</span>"
+  },
+  "modelLabels": {
+   "navy_token": "海军符号（非实际舰型）",
+   "air_token": "航空兵符号（非实际机型）"
+  }
+ },
+ "intro": {
+  "stamp": "MOST SECRET · GEHEIM · 绝密",
+  "kicker": "作战档案 No. 1939—1945 / ATLANTIC",
+  "title": "大西洋海战",
+  "en": "The Battle of the Atlantic",
+  "dates": "1939年9月3日 — 1945年5月8日",
+  "paragraphs": [
+   "1939 年 9 月 3 日英国宣战的当晚，U-30 在赫布里底群岛以西击沉客轮雅典娜号。此后五年零八个月，德国以潜艇、水面袭击舰与飞机反复切断横渡大西洋的航线，盟军则用护航队、密码破译、雷达、护航航母与超远程航空兵，一寸一寸把航线夺回来。",
+   "这是一场关于吨位与流量的战争：德国从未有能力争夺制海权，只要让沉没吨位逼近补充吨位就能扼住英国；盟军的胜负标准不是击沉多少 U 艇，而是货物是否始终运到。1943 年 3 至 5 月，护航兵力、空中覆盖、厘米波雷达与破译四条曲线同时交叉，狼群战术失效；但 U 艇直到最后一周仍在击沉商船。",
+   "四条战线同时进行：中大西洋的狼群与护航群、美国东岸与加勒比的近岸猎杀、往返摩尔曼斯克的北极船团，以及比斯开湾与英吉利海峡的封锁与反封锁。侧栏的「交战各方」按阶段给出双方在航兵力与当阶段被击沉的商船吨位。"
+  ],
+  "how": "共 {units} 个作战标记、{events} 个历史事件、{keyframes} 个活动海域关键帧。时间轴按播放时长展开：五年半的巡航压缩成半个多小时，1941 年 5 月、1943 年 3 月与 5 月的关键战斗放慢到分钟级。",
+  "note": "建议开启声音 · 滚轮放大到交战海域可看到舰船剪影与炮火 · 时刻为世界时（UTC）· 历史示意图，航迹与活动海域为重建示意",
+  "photo": "File:German submarine U-541 in the Atlantic Ocean on 11 May 1945 (80-G-319661).jpg",
+  "photoAlt": "1945 年 5 月 11 日，U-541 在大西洋向英国驱逐舰马尔科姆号投降",
+  "caption": "1945 年 5 月 11 日，U-541 在大西洋向英国驱逐舰马尔科姆号投降，照片摄自美军 PBY-5A 卡塔琳娜（美国国家档案馆 80-G-319661）"
+ },
+ "credits": {
+  "disclaimer": "本页面为历史教学用示意推演。舰艇位置、航迹与活动海域依据公开史料与研究文献整理重建，存在近似与简化；有争议的时钟与时刻（皇家橡树号、丹麦海峡、北角、俾斯麦终局）已在对应事件的说明（mapNote）里逐条注明来源钟点与 UTC 的换算关系或两种读法。地图完全离线自绘，未使用任何在线地图瓦片服务。",
+  "geodata": [
+   "<b>historical-basemaps world_1938</b>（A. Ourednik 等）— GPL-3.0：1939 年前后的国界与政治实体",
+   "<b>Natural Earth 1:10m</b>（海岸、陆地、河流、湖泊、岛屿补充）— 公有领域",
+   "<b>Terrain Tiles (Terrarium)</b> — Mapzen / AWS Open Data；SRTM、GMTED2010、ETOPO1 等，用于高程、水深与等深线",
+   "<b>d3-geo 兰勃特等角圆锥投影</b>（标准纬线 25°N / 62°N，中央经线 25°W）— ISC"
+  ],
+  "extraHtml": "<h3>主要史料（54 条，完整清单见「资料来源与许可」）</h3><p><b>官方战史</b>　Roskill《The War at Sea 1939–1945》第 I–III 卷（四册，1954–1961）· 英国海军部《The Battle of the Atlantic》（HMSO，1946）· Morison《US Naval Operations in World War II》第一卷与第十卷（1947/1956）· Schull《The Far Distant Ships》（加拿大官方史，1950）· King《U.S. Navy at War》（1946）</p><p><b>档案与电文</b>　德国海军作战部战争日志（Kriegstagebuch der Seekriegsleitung，ONI 译本）· 海军部战争日记与护航队动态（Naval-History.Net / Arnold Hague 数据库）· 纽伦堡国际军事法庭蓝皮卷与「红皮卷」NCA（Avalon Project 转录）· 伦敦公报第 37989 号（拉普拉塔河口战报）与第 38038 号（北角战报）· 大西洋宪章与巴拿马宣言（Avalon Project 转录）</p><p><b>研究文献</b>　Blair《Hitler's U-Boat War》两卷（1996/1998）· Rohwer & Hümmelchen《Chronology of the War at Sea》与 Rohwer《The Critical Convoy Battles of March 1943》· Hinsley 等《British Intelligence in the Second World War》（1979–1988）· Beesly《Very Special Intelligence》· Kahn《Seizing the Enigma》· Sebag-Montefiore《Enigma》· Gannon《Operation Drumbeat》· Milner《North Atlantic Run》· Rössler《The U-Boat》· Woodman《The Arctic Convoys》· Dimbleby《The Battle of the Atlantic》· Dönitz《Ten Years and Twenty Days》· uboat.net 逐艇与逐舰档案 · NavWeaps 火炮与鱼雷技术页</p><p class=\"fine\">U 艇战果与吨位口径见事件注记：商船吨位为总登记吨（GRT），军舰为排水量；各国累计数字（U 艇损失 783/785/793、投降 156/174 等）并列不同口径，不相加、不取平均。皇家橡树号 00:58、丹麦海峡与俾斯麦最后两战、北角 19:45 的时钟换算存在两种读法，已在事件正文与注记中并列。本战役未启用英语旁白。</p>",
+  "sections": [
+   [
+    "照片",
+    "photos"
+   ],
+   [
+    "音效",
+    "audio"
+   ],
+   [
+    "音乐",
+    "music"
+   ],
+   [
+    "字体",
+    "fonts"
+   ]
+  ]
+ },
+ "hub": {
+  "order": 12,
+  "codename": "大西洋海战",
+  "codenameOrig": "SCHLACHT IM ATLANTIK",
+  "stencil": "ATLANTIC",
+  "pin": [
+   -33,
+   48
+  ],
+  "labelAt": "e",
+  "region": "atlantic",
+  "theatre": {
+   "kind": "sea",
+   "polygon": [
+    [
+     -80,
+     18
+    ],
+    [
+     -70,
+     20
+    ],
+    [
+     -60,
+     22
+    ],
+    [
+     -72,
+     32
+    ],
+    [
+     -70,
+     38
+    ],
+    [
+     -66,
+     44
+    ],
+    [
+     -56,
+     46
+    ],
+    [
+     -52,
+     50
+    ],
+    [
+     -45,
+     56
+    ],
+    [
+     -40,
+     60
+    ],
+    [
+     -32,
+     64
+    ],
+    [
+     -25,
+     68
+    ],
+    [
+     -10,
+     70
+    ],
+    [
+     0,
+     72
+    ],
+    [
+     10,
+     74
+    ],
+    [
+     20,
+     76
+    ],
+    [
+     30,
+     78
+    ],
+    [
+     40,
+     74
+    ],
+    [
+     38,
+     70
+    ],
+    [
+     25,
+     70
+    ],
+    [
+     15,
+     68
+    ],
+    [
+     10,
+     64
+    ],
+    [
+     5,
+     60
+    ],
+    [
+     3,
+     56
+    ],
+    [
+     1,
+     51
+    ],
+    [
+     -4,
+     48
+    ],
+    [
+     -10,
+     44
+    ],
+    [
+     -14,
+     40
+    ],
+    [
+     -16,
+     36
+    ],
+    [
+     -20,
+     30
+    ],
+    [
+     -24,
+     24
+    ],
+    [
+     -34,
+     18
+    ],
+    [
+     -48,
+     14
+    ],
+    [
+     -62,
+     14
+    ],
+    [
+     -72,
+     15
+    ]
+   ]
+  },
+  "cover": "photos/convoy-aerial-1941.webp",
+  "blurb": "德国以 U 艇、袭击舰与飞机切断横渡大西洋的航线；盟军用护航队、破译、雷达与护航航母把航线夺回。1943 年 5 月狼群攻势崩盘，但 U 艇直到最后一周仍在击沉商船。"
+ },
+ "validation": {
+  "eventCount": 107,
+  "bodyLength": [
+   80,
+   140
+  ]
+ }
+}

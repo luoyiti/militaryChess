@@ -1,0 +1,864 @@
+{
+ "fire": [
+  {
+   "id": "f.duke_of_york_scharnhorst",
+   "shooter": "gb.duke_of_york",
+   "target": "de.scharnhorst",
+   "weapon": "A",
+   "from": "1943-12-26T16:50",
+   "to": "1943-12-26T18:20",
+   "rounds": 52,
+   "salvoSec": 26,
+   "note": "约克公爵号在约 11,900 码（10,900 米）开火，首轮齐射即命中并打哑「安东」「布鲁诺」两座前主炮塔。OOB 示意航迹把两舰压到 20 公里以内，实战距离见本注。",
+   "sources": [
+    "roskill_1960",
+    "nh_ship_histories",
+    "gazette_38038"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "f.belfast_scharnhorst",
+   "shooter": "gb.belfast",
+   "target": "de.scharnhorst",
+   "weapon": "A",
+   "from": "1943-12-26T17:30",
+   "to": "1943-12-26T19:15",
+   "rounds": 90,
+   "salvoSec": 10,
+   "note": "贝尔法斯特号与牙买加号以六英寸炮从北面持续射击，十八时四十八分发射照明弹照亮目标；十九时十五分再次加入。",
+   "sources": [
+    "roskill_1960",
+    "nh_ship_histories"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "f.scharnhorst_duke_of_york",
+   "shooter": "de.scharnhorst",
+   "target": "gb.duke_of_york",
+   "weapon": "A",
+   "from": "1943-12-26T17:20",
+   "to": "1943-12-26T18:20",
+   "rounds": 40,
+   "salvoSec": 24,
+   "note": "沙恩霍斯特号在 17:20 后以 28 厘米炮还击，两发命中约克公爵号前桅，切断部分无线电天线并掀翻 284 型火控雷达天线；英舰电工在八级风与黑夜中爬桅复位。",
+   "sources": [
+    "roskill_1960",
+    "gazette_38038"
+   ],
+   "confidence": "high"
+  }
+ ],
+ "hits": [
+  {
+   "id": "h.highlander_u338_near",
+   "at": "1943-03-16T08:10",
+   "shooter": "gb.highlander",
+   "target": "de.u338",
+   "location": "艇体附近（深水炸弹）",
+   "effect": "（示意）护航驱逐舰「高地人」号在 SC 122 船团战中投放的深水炸弹在 U-338 附近爆炸，U-338 被迫长时间潜航、失去与船团的接触；该艇未受损沉没，此后继续在「施蒂尔默」群作战，并在 17 日与 U-665 合力击沉 Fort Cedar Lake。本包无商船单位，故只记录这次反潜接触。",
+   "severity": 3,
+   "precision": "approx",
+   "sources": [
+    "roskill_1956",
+    "rohwer_critical",
+    "uboat_net"
+   ],
+   "confidence": "low"
+  },
+  {
+   "id": "h.reuben_james_torp",
+   "at": "1941-10-31T05:26",
+   "shooter": "de.u552",
+   "target": "us.reuben_james",
+   "location": "舰艏",
+   "effect": "鱼雷命中舰艏，弹药库殉爆把整个舰艏炸掉；前段立即沉没，后段浮了约五分钟。这是一艘当时尚未参战国家的军舰。",
+   "killed": 100,
+   "severity": 1,
+   "gunsOut": [
+    "main",
+    "tt"
+   ],
+   "precision": "minute",
+   "sources": [
+    "mori_battle_atlantic",
+    "uboat_net",
+    "nh_ship_histories"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "h.u559_forced_up",
+   "at": "1942-10-30T06:05",
+   "shooter": "gb.petard",
+   "target": "de.u559",
+   "location": "艇体（深水炸弹）",
+   "effect": "深水炸弹迫使 U-559 上浮，艇员弃艇时未打开全部通海阀；法森中尉、格雷泽水兵与食堂助理布朗登艇取出密钥表与短信号簿，前两人随艇沉没，被迫授乔治十字勋章。",
+   "killed": 7,
+   "severity": 1,
+   "gunsOut": [
+    "tt"
+   ],
+   "precision": "minute",
+   "sources": [
+    "sebag_2000",
+    "kahn_1991",
+    "uboat_net"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "h.scharnhorst_first_salvo",
+   "at": "1943-12-26T16:51",
+   "shooter": "gb.duke_of_york",
+   "target": "de.scharnhorst",
+   "location": "「安东」「布鲁诺」炮塔",
+   "effect": "首轮齐射即命中，两座前主炮塔被打哑（布鲁诺后经抢修恢复一座炮），机库被另一轮齐射摧毁；沙恩霍斯特号转向北试图脱离。",
+   "severity": 2,
+   "gunsOut": [
+    "A"
+   ],
+   "precision": "minute",
+   "sources": [
+    "roskill_1960",
+    "nh_ship_histories",
+    "gazette_38038"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "h.scharnhorst_boiler",
+   "at": "1943-12-26T18:20",
+   "shooter": "gb.duke_of_york",
+   "target": "de.scharnhorst",
+   "weapon": "A",
+   "location": "一号锅炉舱",
+   "effect": "一发 14 英寸弹在极限射程上穿透下装甲甲板并炸毁一号锅炉舱，航速掉到 10 节，随后勉强恢复到 22 节；贝少将在此前后发出「我们被主力舰包围」的电报。锅炉舱人员的伤亡计入当日 19:45 沉没条目的全舰阵亡数。",
+   "severity": 1,
+   "precision": "minute",
+   "sources": [
+    "roskill_1960",
+    "gazette_38038"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "h.scharnhorst_torpedoes",
+   "at": "1943-12-26T18:50",
+   "target": "de.scharnhorst",
+   "location": "右舷与左舷水中部分",
+   "effect": "英方驱逐舰「蝎子」「斯托德」「野人」「索马雷兹」在 18:50–19:00 间命中五雷（右舷两雷、左舷三雷），航速再次掉到 10 节。鱼雷手与舰名见战报，OOB 无这些驱逐舰，故不填 shooter。",
+   "severity": 1,
+   "precision": "minute",
+   "sources": [
+    "roskill_1960",
+    "nh_ship_histories",
+    "gazette_38038"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "h.scharnhorst_sinking",
+   "at": "1943-12-26T19:45",
+   "target": "de.scharnhorst",
+   "location": "全舰",
+   "effect": "在英舰密集炮火与十九雷攻击后倾覆沉没于 72°16′N 28°41′E，螺旋桨仍在转动；1,968 人中仅 36 人被救起，包括舰长在内的全部军官阵亡。",
+   "killed": 1932,
+   "severity": 1,
+   "gunsOut": [
+    "A",
+    "B",
+    "C",
+    "sec",
+    "aa105",
+    "tt"
+   ],
+   "precision": "minute",
+   "sources": [
+    "roskill_1960",
+    "nh_ship_histories",
+    "gazette_38038"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "h.duke_of_york_mast",
+   "at": "1943-12-26T18:00",
+   "shooter": "de.scharnhorst",
+   "target": "gb.duke_of_york",
+   "weapon": "A",
+   "location": "前桅与雷达天线",
+   "effect": "两发 28 厘米弹命中前桅，切断部分无线电天线并把 284 型火控雷达天线掀翻；电工贝茨在八级风与黑暗中爬桅复位，几分钟后雷达恢复工作。",
+   "severity": 3,
+   "precision": "minute",
+   "sources": [
+    "gazette_38038",
+    "roskill_1960"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "h.block_island_two_torpedoes",
+   "at": "1944-05-29T11:18",
+   "shooter": "de.u549",
+   "target": "us.block_island",
+   "location": "舰尾与右舷中部",
+   "effect": "U-549 穿过反潜警戒幕，向布洛克岛号齐射三雷，两雷命中；舰体进水、失去动力，舰长下令弃舰。它是美国海军在大西洋损失的唯一一艘护航航母。",
+   "killed": 6,
+   "severity": 1,
+   "gunsOut": [
+    "main"
+   ],
+   "precision": "minute",
+   "sources": [
+    "mori_atlantic_won",
+    "uboat_net",
+    "nh_ship_histories"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "h.block_island_scuttled",
+   "at": "1944-05-29T21:00",
+   "target": "us.block_island",
+   "location": "全舰",
+   "effect": "由护航驱逐舰以鱼雷与炮火击沉，避免被德军缴获；舰载机与多数舰员已被救走。全舰 6 人阵亡、951 人获救（阵亡数已记在 11:18 的中雷条目上）。U-549 随后被「埃尔莫尔」号与「阿伦斯」号深水炸弹击沉，57 人全部阵亡。",
+   "severity": 1,
+   "precision": "approx",
+   "sources": [
+    "mori_atlantic_won",
+    "uboat_net"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "h.u505_depth_charges",
+   "at": "1944-06-04T11:10",
+   "shooter": "us.guadalcanal",
+   "target": "de.u505",
+   "location": "艇体（深水炸弹）",
+   "effect": "「查特兰」号的深水炸弹与两架野猫式机的扫射使艇长朗格误以为艇已重创，下令上浮——上浮点距「查特兰」号仅约 700 码。OOB 以特混编队核心「瓜达尔卡纳尔」号代表投弹舰。",
+   "severity": 2,
+   "gunsOut": [
+    "tt"
+   ],
+   "precision": "minute",
+   "sources": [
+    "mori_atlantic_won",
+    "uboat_net",
+    "nh_ship_histories"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "h.u505_boarding",
+   "at": "1944-06-04T11:40",
+   "shooter": "us.guadalcanal",
+   "target": "de.u505",
+   "location": "指挥塔与艇内",
+   "effect": "八人登艇组由皮尔斯伯里号放艇，经指挥塔进入艇内，关闭注水阀、拆除炸药、取出密码本与恩尼格玛机；艇内一具艇员遗体，是这次行动唯一的死亡。",
+   "killed": 1,
+   "severity": 1,
+   "precision": "minute",
+   "sources": [
+    "mori_atlantic_won",
+    "sebag_2000",
+    "uboat_net"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "h.sneland_torpedo",
+   "at": "1945-05-07T20:45",
+   "shooter": "de.u2336",
+   "target": "gb.sneland_i",
+   "location": "舰体中部",
+   "effect": "挪威货轮斯内兰一号被一雷命中后立即爆炸，两分钟内沉没，七名船员死亡，包括船长。此时距德国投降生效还有约二十五小时。",
+   "killed": 7,
+   "severity": 1,
+   "precision": "minute",
+   "sources": [
+    "uboat_net",
+    "nh_ship_histories",
+    "battleatlantic_1946"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "h.avondale_torpedo",
+   "at": "1945-05-07T21:00",
+   "shooter": "de.u2336",
+   "target": "gb.avondale_park",
+   "location": "舰尾",
+   "effect": "阿冯代尔公园号被第二雷命中舰尾，两人死亡，其余船员乘救生艇或跳水逃生；船在次日凌晨沉没。这是二战中被潜艇击沉的最后一艘盟国商船。",
+   "killed": 2,
+   "severity": 1,
+   "precision": "minute",
+   "sources": [
+    "uboat_net",
+    "nh_ship_histories",
+    "battleatlantic_1946"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "h.u864_torpedoed",
+   "at": "1945-02-09T12:12",
+   "target": "de.u864",
+   "location": "艇体中部",
+   "effect": "「冒险者」号在水下以声呐跟踪并发射四雷，第三雷命中；U-864 断成两截沉没，73 人全部阵亡。这是海战史上唯一一次双方都在水下的潜艇交战。该艇不在本包编制表内，故以舰名记录。",
+   "killed": 73,
+   "severity": 1,
+   "precision": "minute",
+   "sources": [
+    "nh_ship_histories",
+    "uboat_net",
+    "roskill_1961"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "h.u320_catalina",
+   "at": "1945-05-07T09:35",
+   "target": "de.u320",
+   "location": "艇体",
+   "effect": "卡塔琳娜机投下深水炸弹，艇体受损但未沉没；艇员次日凌晨在卑尔根以西弃艇自沉，全体生还。它是最后一艘在战斗中被击沉的 U 艇。",
+   "severity": 1,
+   "gunsOut": [
+    "tt"
+   ],
+   "precision": "minute",
+   "sources": [
+    "nh_ship_histories",
+    "uboat_net",
+    "roskill_1961"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "h.norness_torpedo",
+   "at": "1942-01-14T05:02",
+   "shooter": "de.u123",
+   "target": "us.norness",
+   "location": "舰尾右舷",
+   "effect": "「鼓点行动」的首个战果：U-123 在长岛外海向单独航行的挪威油轮诺尼斯号发射两雷，一雷命中舰尾。美国沿岸未实行灯火管制，油轮在城灯光影里被看得一清二楚。伤亡记载不一：一说 31 名船员中 1 人、一说 40 人中 2 人死亡，本包取 2 人并注明两说。",
+   "killed": 2,
+   "severity": 1,
+   "precision": "minute",
+   "sources": [
+    "mori_battle_atlantic",
+    "gannon_1990",
+    "uboat_net",
+    "nh_ship_histories"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "h.u1006_annan",
+   "at": "1944-10-16T04:20",
+   "target": "de.u1006",
+   "location": "艇体（深水炸弹与炮火）",
+   "effect": "加拿大护卫舰「安南」号（HMCS Annan）以深水炸弹与炮火击沉 U-1006 于法罗群岛东南 60°59′N 04°49′W，6 人死亡、44 人生还。它是通气管艇在英近岸被水面舰艇抓住的典型战例。该舰不在本包编制表内，故不填 shooter。",
+   "killed": 6,
+   "severity": 1,
+   "gunsOut": [
+    "tt"
+   ],
+   "precision": "minute",
+   "sources": [
+    "uboat_net",
+    "roskill_1961",
+    "nh_rn_losses"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "h.u482_ascension",
+   "at": "1944-11-25T09:30",
+   "target": "de.u482",
+   "location": "艇体（深水炸弹）",
+   "effect": "英国护卫舰「阿森松」号（HMS Ascension）以深水炸弹击沉 U-482 于设得兰以西 60°18′N 04°52′W，48 人全部阵亡。该艇 9 月刚在爱尔兰以北击沉护航舰赫斯特号。该舰不在本包编制表内，故不填 shooter。",
+   "killed": 48,
+   "severity": 1,
+   "gunsOut": [
+    "tt"
+   ],
+   "precision": "minute",
+   "sources": [
+    "uboat_net",
+    "roskill_1961",
+    "nh_rn_losses"
+   ],
+   "confidence": "high"
+  }
+ ],
+ "torpedoes": [
+  {
+   "id": "t.u549_block_island",
+   "at": "1944-05-29T11:15",
+   "shooter": "de.u549",
+   "count": 3,
+   "target": "us.block_island",
+   "spreadDeg": 6,
+   "result": "三雷齐射两雷命中；四十分钟后 U-549 又向「巴尔」号发射声自导鱼雷，重创该舰。",
+   "sources": [
+    "uboat_net",
+    "mori_atlantic_won",
+    "nh_ship_histories"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "t.u2336_last_two",
+   "at": "1945-05-07T20:40",
+   "shooter": "de.u2336",
+   "count": 2,
+   "target": "gb.sneland_i",
+   "spreadDeg": 4,
+   "result": "U-2336 在福斯湾内向 EN 491 船团发射两雷：第一雷击中斯内兰一号，第二雷击中阿冯代尔公园号。艇长希尔比希未收到停火令。",
+   "sources": [
+    "uboat_net",
+    "nh_ship_histories",
+    "battleatlantic_1946"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "t.u123_norness",
+   "at": "1942-01-14T04:58",
+   "shooter": "de.u123",
+   "count": 2,
+   "target": "us.norness",
+   "spreadDeg": 4,
+   "result": "两雷齐射一雷命中舰尾；诺尼斯号在长岛外海缓慢沉没，成为「鼓点行动」的第一个牺牲者。",
+   "sources": [
+    "mori_battle_atlantic",
+    "gannon_1990",
+    "uboat_net"
+   ],
+   "confidence": "high"
+  }
+ ],
+ "smoke": [
+  {
+   "id": "s.scharnhorst_screen",
+   "ship": "de.scharnhorst",
+   "from": "1943-12-26T17:10",
+   "to": "1943-12-26T17:40",
+   "kind": "screen",
+   "widthKm": 1.2,
+   "persistMin": 25,
+   "driftDeg": 200,
+   "note": "沙恩霍斯特号在首次交火后以烟幕掩护转向，试图摆脱约克公爵号的雷达接触；北角的风雪很快把烟幕与雪幕混在一起。",
+   "sources": [
+    "roskill_1960",
+    "nh_ship_histories"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "s.scharnhorst_burning",
+   "ship": "de.scharnhorst",
+   "from": "1943-12-26T18:30",
+   "to": "1943-12-26T19:45",
+   "kind": "funnel",
+   "widthKm": 1.0,
+   "persistMin": 40,
+   "driftDeg": 210,
+   "note": "舰体多处中弹起火，加上锅炉舱被毁后泄出的蒸汽，整舰被一团白烟与黑烟裹住；英舰靠雷达而非目视保持射向。",
+   "sources": [
+    "roskill_1960",
+    "gazette_38038"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "s.block_island_smoke",
+   "ship": "us.block_island",
+   "from": "1944-05-29T11:25",
+   "to": "1944-05-29T21:00",
+   "kind": "funnel",
+   "widthKm": 1.1,
+   "persistMin": 45,
+   "driftDeg": 300,
+   "note": "两雷命中后舰尾起火，燃油泄出；护航驱逐舰在周围投下深水炸弹并在烟雾中搜索 U-549。",
+   "sources": [
+    "mori_atlantic_won",
+    "nh_ship_histories"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "s.norness_burning",
+   "ship": "us.norness",
+   "from": "1942-01-14T05:10",
+   "to": "1942-01-14T11:00",
+   "kind": "funnel",
+   "widthKm": 0.7,
+   "persistMin": 40,
+   "driftDeg": 110,
+   "note": "油轮起火后拖出一条长长的黑烟，附近船只与岸上都能看见——这正是美国东岸「灯火与烟柱」暴露船位的写照。",
+   "sources": [
+    "mori_battle_atlantic",
+    "gannon_1990"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "s.ons5_screen",
+   "ship": "gb.starling",
+   "from": "1943-05-05T18:30",
+   "to": "1943-05-06T04:00",
+   "kind": "screen",
+   "widthKm": 1.4,
+   "persistMin": 35,
+   "driftDeg": 230,
+   "note": "风暴中的夜间混战：护航舰以烟幕与照明弹掩护船团转向，U 艇则借浪高与烟幕接近。ONS 5 的能见度一度不到一海里。",
+   "sources": [
+    "roskill_1956",
+    "blair_1998",
+    "wiki_en_ons5"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "s.ons5_starling_wake",
+   "ship": "gb.starling",
+   "from": "1943-04-29T06:00",
+   "to": "1943-04-29T09:00",
+   "kind": "funnel",
+   "widthKm": 0.5,
+   "persistMin": 15,
+   "driftDeg": 240,
+   "note": "第 2 支援群在八级风中高速接近船团，烟囱与浪花拖出一条长尾迹；沃克上校的「按住不放」战术要求护航舰不救落水者、回头追打接触。",
+   "sources": [
+    "roskill_1956",
+    "blair_1998"
+   ],
+   "confidence": "medium"
+  }
+ ],
+ "damage": [
+  {
+   "ship": "de.u338",
+   "at": "1943-03-16T08:20",
+   "integrity": 0.9,
+   "speedKn": 16,
+   "note": "（示意）受深水炸弹近失震荡，被迫长时间潜航，失去与船团的接触；艇体无损。",
+   "sources": [
+    "roskill_1956",
+    "uboat_net"
+   ]
+  },
+  {
+   "ship": "de.u559",
+   "at": "1942-10-30T06:10",
+   "integrity": 0.25,
+   "speedKn": 0,
+   "gunsOut": [
+    "tt"
+   ],
+   "note": "被深水炸弹重创后上浮，艇员弃艇；英方登艇组取走密钥材料后艇沉。这批材料让布莱奇利园在 12 月重新读出 U 艇通信。",
+   "sources": [
+    "sebag_2000",
+    "kahn_1991",
+    "uboat_net"
+   ]
+  },
+  {
+   "ship": "de.u559",
+   "at": "1942-10-30T06:40",
+   "integrity": 0,
+   "speedKn": 0,
+   "note": "在塞得港外沉没；7 人阵亡，包括两名登艇的英军水兵。",
+   "sources": [
+    "uboat_net",
+    "nh_ship_histories"
+   ]
+  },
+  {
+   "ship": "de.scharnhorst",
+   "at": "1943-12-26T16:52",
+   "integrity": 0.82,
+   "speedKn": 26,
+   "gunsOut": [
+    "A"
+   ],
+   "fire": true,
+   "note": "前主炮塔被打哑、机库被毁，航速略降；贝少将转向北，试图以 31 节的最大航速脱离。",
+   "sources": [
+    "roskill_1960",
+    "gazette_38038"
+   ]
+  },
+  {
+   "ship": "de.scharnhorst",
+   "at": "1943-12-26T18:22",
+   "integrity": 0.52,
+   "speedKn": 22,
+   "fire": true,
+   "listDeg": 4,
+   "note": "一号锅炉舱被毁，航速一度掉到 10 节，抢修后恢复到 22 节；此时它已无法摆脱英舰。",
+   "sources": [
+    "roskill_1960",
+    "gazette_38038"
+   ]
+  },
+  {
+   "ship": "de.scharnhorst",
+   "at": "1943-12-26T19:00",
+   "integrity": 0.25,
+   "speedKn": 10,
+   "fire": true,
+   "listDeg": 8,
+   "note": "五雷命中后大量进水，航速再次掉到 10 节；十九时前后贝发出最后一封电报「我们将打到最后一发炮弹」。",
+   "sources": [
+    "roskill_1960",
+    "nh_ship_histories"
+   ]
+  },
+  {
+   "ship": "de.scharnhorst",
+   "at": "1943-12-26T19:45",
+   "integrity": 0,
+   "speedKn": 0,
+   "fire": true,
+   "listDeg": 40,
+   "note": "倾覆沉没；1,968 人中 36 人生还。对英方而言，这是北冰洋航线最后一次水面舰队威胁。",
+   "sources": [
+    "roskill_1960",
+    "nh_ship_histories",
+    "gazette_38038"
+   ]
+  },
+  {
+   "ship": "gb.duke_of_york",
+   "at": "1943-12-26T18:05",
+   "integrity": 0.94,
+   "speedKn": 24,
+   "note": "前桅中弹、雷达天线被掀翻，电工在风暴中爬桅复位；舰体与主炮无损，21 人阵亡（多数在护航驱逐舰上）。",
+   "sources": [
+    "gazette_38038",
+    "roskill_1960"
+   ]
+  },
+  {
+   "ship": "us.block_island",
+   "at": "1944-05-29T11:20",
+   "integrity": 0.35,
+   "speedKn": 0,
+   "fire": true,
+   "listDeg": 9,
+   "note": "两雷命中后失去动力、尾部下沉；舰长下令弃舰，舰载机与大部分舰员被护航舰救起。",
+   "sources": [
+    "mori_atlantic_won",
+    "uboat_net"
+   ]
+  },
+  {
+   "ship": "us.block_island",
+   "at": "1944-05-29T21:00",
+   "integrity": 0,
+   "speedKn": 0,
+   "fire": true,
+   "listDeg": 25,
+   "note": "由护航驱逐舰击沉；6 人死亡。它是美国海军在大西洋损失的唯一一艘护航航母。",
+   "sources": [
+    "mori_atlantic_won",
+    "nh_ship_histories"
+   ]
+  },
+  {
+   "ship": "de.u549",
+   "at": "1944-05-29T21:30",
+   "integrity": 0,
+   "speedKn": 0,
+   "note": "被「埃尔莫尔」号与「阿伦斯」号深水炸弹击沉于 31°13′N 23°03′W，57 人全部阵亡。",
+   "sources": [
+    "uboat_net",
+    "mori_atlantic_won"
+   ]
+  },
+  {
+   "ship": "de.u505",
+   "at": "1944-06-04T11:15",
+   "integrity": 0.3,
+   "speedKn": 0,
+   "gunsOut": [
+    "tt"
+   ],
+   "note": "深水炸弹与扫射造成进水，艇长误判艇将沉没而下令上浮；艇员弃艇时未能打开全部通海阀，也未及销毁密码本。",
+   "sources": [
+    "uboat_net",
+    "mori_atlantic_won"
+   ]
+  },
+  {
+   "ship": "de.u505",
+   "at": "1944-06-04T11:45",
+   "integrity": 0.12,
+   "speedKn": 0,
+   "note": "登艇组关闭注水阀、拆除炸药后由瓜达尔卡纳尔号拖带；艇内一人死亡，其余 59 人被俘。此后它被秘密拖到百慕大，战后成为芝加哥博物馆舰。",
+   "sources": [
+    "mori_atlantic_won",
+    "uboat_net",
+    "sebag_2000"
+   ]
+  },
+  {
+   "ship": "gb.sneland_i",
+   "at": "1945-05-07T20:45",
+   "integrity": 0,
+   "speedKn": 0,
+   "fire": true,
+   "note": "中雷后立即爆炸，两分钟内沉没，7 人死亡。它是二战中被潜艇击沉的最后一批盟国商船之一。",
+   "sources": [
+    "uboat_net",
+    "nh_ship_histories"
+   ]
+  },
+  {
+   "ship": "gb.avondale_park",
+   "at": "1945-05-07T21:00",
+   "integrity": 0.2,
+   "speedKn": 0,
+   "fire": true,
+   "listDeg": 6,
+   "note": "舰尾中雷、逐渐尾倾；船员弃船，2 人死亡。",
+   "sources": [
+    "uboat_net",
+    "nh_ship_histories"
+   ]
+  },
+  {
+   "ship": "gb.avondale_park",
+   "at": "1945-05-08T02:00",
+   "integrity": 0,
+   "speedKn": 0,
+   "fire": true,
+   "listDeg": 28,
+   "note": "沉没于福斯湾。它是二战中被潜艇击沉的最后一艘盟国商船。",
+   "sources": [
+    "uboat_net",
+    "battleatlantic_1946"
+   ]
+  },
+  {
+   "ship": "de.u864",
+   "at": "1945-02-09T12:12",
+   "integrity": 0,
+   "speedKn": 0,
+   "note": "被「冒险者」号在水下击沉，73 人全部阵亡；艇上载有发往日本的光学瞄准镜与喷气发动机部件。",
+   "sources": [
+    "uboat_net",
+    "nh_ship_histories"
+   ]
+  },
+  {
+   "ship": "de.u320",
+   "at": "1945-05-07T09:35",
+   "integrity": 0.35,
+   "speedKn": 0,
+   "gunsOut": [
+    "tt"
+   ],
+   "note": "被卡塔琳娜机投弹重创，无法下潜；艇长决定坚持到夜里再决断。",
+   "sources": [
+    "uboat_net",
+    "nh_ship_histories"
+   ]
+  },
+  {
+   "ship": "de.u320",
+   "at": "1945-05-08T03:40",
+   "integrity": 0,
+   "speedKn": 0,
+   "note": "在卑尔根以西弃艇自沉，全体生还。它是最后一艘在战斗中被击沉的 U 艇。",
+   "sources": [
+    "uboat_net",
+    "roskill_1961"
+   ]
+  },
+  {
+   "ship": "us.norness",
+   "at": "1942-01-14T05:05",
+   "integrity": 0.25,
+   "speedKn": 0,
+   "fire": true,
+   "listDeg": 8,
+   "note": "舰尾中雷、机舱进水，失去动力；船员弃船后被美国海岸警卫队与驱逐舰救起，1–2 人死亡（两说并存）。",
+   "sources": [
+    "mori_battle_atlantic",
+    "nh_ship_histories"
+   ]
+  },
+  {
+   "ship": "us.norness",
+   "at": "1942-01-14T12:00",
+   "integrity": 0,
+   "speedKn": 0,
+   "fire": true,
+   "listDeg": 25,
+   "note": "沉没于长岛外海。此时距珍珠港事件仅五周，美国东岸尚未实行沿岸护航与灯火管制。",
+   "sources": [
+    "mori_battle_atlantic",
+    "gannon_1990"
+   ]
+  },
+  {
+   "ship": "gb.starling",
+   "at": "1943-05-06T02:00",
+   "integrity": 0.96,
+   "speedKn": 19,
+   "note": "风暴中舰体与上层建筑受轻微浪损，航速略降；第 2 支援群在 ONS 5 期间无一舰被击沉。",
+   "sources": [
+    "roskill_1956",
+    "blair_1998"
+   ]
+  },
+  {
+   "ship": "de.u1006",
+   "at": "1944-10-16T04:25",
+   "integrity": 0.3,
+   "speedKn": 0,
+   "note": "深水炸弹造成进水与舵机故障，被迫上浮后遭炮击；44 人弃艇获救。",
+   "sources": [
+    "uboat_net",
+    "nh_rn_losses"
+   ]
+  },
+  {
+   "ship": "de.u1006",
+   "at": "1944-10-16T05:00",
+   "integrity": 0,
+   "speedKn": 0,
+   "note": "沉没于法罗群岛东南，是英近岸水域 1944 年秋少数被水面舰艇击沉的通气管艇之一。",
+   "sources": [
+    "uboat_net",
+    "roskill_1961"
+   ]
+  },
+  {
+   "ship": "de.u482",
+   "at": "1944-11-25T09:35",
+   "integrity": 0.25,
+   "speedKn": 0,
+   "note": "深水炸弹在艇体附近连续爆炸，艇内进水、失去纵倾控制，未能上浮。",
+   "sources": [
+    "uboat_net"
+   ]
+  },
+  {
+   "ship": "de.u482",
+   "at": "1944-11-25T10:10",
+   "integrity": 0,
+   "speedKn": 0,
+   "note": "沉没于设得兰以西，48 人全部阵亡；此后德军在英近岸的活动进一步收缩。",
+   "sources": [
+    "uboat_net",
+    "nh_rn_losses"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,380 @@
+[
+ {
+  "id": "avalon_atlantic_charter",
+  "title": "The Atlantic Charter, 14 August 1941",
+  "author": "Franklin D. Roosevelt & Winston S. Churchill（Avalon Project 转录）",
+  "year": 1941,
+  "url": "https://avalon.law.yale.edu/wwii/atlantic.asp"
+ },
+ {
+  "id": "avalon_panama",
+  "title": "Declaration of Panama, 3 October 1939（美洲中立区界线）",
+  "author": "American Republics（巴拿马会议；Avalon Project 转录）",
+  "year": 1939,
+  "url": "https://avalon.law.yale.edu/20th_century/dec99-03.asp"
+ },
+ {
+  "id": "battleatlantic_1946",
+  "title": "The Battle of the Atlantic: The Official Account of the Fight Against the U-Boats, 1939–1945",
+  "author": "Admiralty / HMSO（英国海军部）",
+  "year": 1946,
+  "url": "https://archive.org/details/battleatlantic"
+ },
+ {
+  "id": "beesly_1977",
+  "title": "Very Special Intelligence: The Story of the Admiralty's Operational Intelligence Centre, 1939–1945",
+  "author": "Patrick Beesly",
+  "year": 1977,
+  "url": "https://archive.org/details/veryspecialintel00bees"
+ },
+ {
+  "id": "blair_1996",
+  "title": "Hitler's U-Boat War, Vol. 1: The Hunters, 1939–1942",
+  "author": "Clay Blair",
+  "year": 1996,
+  "url": "https://archive.org/details/hitlersuboatwarh0000blai_w0c3"
+ },
+ {
+  "id": "blair_1998",
+  "title": "Hitler's U-Boat War, Vol. 2: The Hunted, 1942–1945",
+  "author": "Clay Blair",
+  "year": 1998,
+  "url": "https://archive.org/details/hitlersuboatwarh0000blai"
+ },
+ {
+  "id": "dimbleby_2015",
+  "title": "The Battle of the Atlantic: How the Allies Won the War",
+  "author": "Jonathan Dimbleby",
+  "year": 2015,
+  "url": "https://archive.org/details/battleofatlantic0000dimb"
+ },
+ {
+  "id": "doenitz_memoir_1958",
+  "title": "Memoirs: Ten Years and Twenty Days（德文原题 Zehn Jahre und Zwanzig Tage）",
+  "author": "Karl Dönitz",
+  "year": 1958,
+  "url": "https://archive.org/details/memoirstenyearst0000doni"
+ },
+ {
+  "id": "gannon_1990",
+  "title": "Operation Drumbeat: The Dramatic True Story of Germany's First U-Boat Attacks Along the American Coast in World War II",
+  "author": "Michael Gannon",
+  "year": 1990,
+  "url": "https://archive.org/details/operationdrumbea00gann"
+ },
+ {
+  "id": "gazette_37989",
+  "title": "Supplement to The London Gazette, 19 June 1947, No. 37989: The River Plate Battle（1939-12-30 战报）",
+  "author": "Rear-Admiral H. H. Harwood；The London Gazette",
+  "year": 1947,
+  "url": "https://www.ibiblio.org/hyperwar/UN/UK/LondonGazette/37989.pdf"
+ },
+ {
+  "id": "gazette_38038",
+  "title": "Supplement to The London Gazette, 7 August 1947, No. 38038: Sinking of the German Battlecruiser Scharnhorst, 26 December 1943",
+  "author": "Admiral Sir Bruce Fraser（北角海战战报）；The London Gazette",
+  "year": 1947,
+  "url": "https://www.ibiblio.org/hyperwar/UN/UK/LondonGazette/38038.pdf"
+ },
+ {
+  "id": "grand_strategy_2",
+  "title": "Grand Strategy, Vol. II: September 1939 – June 1941（英国官方二战史·战略卷）",
+  "author": "J. R. M. Butler",
+  "year": 1957,
+  "url": "https://archive.org/details/grandstrategypri0000coll"
+ },
+ {
+  "id": "grand_strategy_5",
+  "title": "Grand Strategy, Vol. V: August 1943 – September 1944",
+  "author": "John Ehrman",
+  "year": 1956,
+  "url": "https://archive.org/details/grand-strategy-vol-5"
+ },
+ {
+  "id": "hague_convoy",
+  "title": "Arnold Hague Convoy Database（27,892 个护航队、322,483 条船舶动态）",
+  "author": "Arnold Hague（与 John K. Burgess、Don Kindell 合作）",
+  "year": 2026,
+  "url": "https://www.convoyweb.org.uk/hague/index.html"
+ },
+ {
+  "id": "hinsley_1979",
+  "title": "British Intelligence in the Second World War, Vol. I: Its Influence on Strategy and Operations",
+  "author": "F. H. Hinsley 等",
+  "year": 1979,
+  "url": "https://archive.org/details/britishintellige00hins_0"
+ },
+ {
+  "id": "hinsley_1988",
+  "title": "British Intelligence in the Second World War, Vol. 3 Part 2",
+  "author": "F. H. Hinsley, E. E. Thomas, C. G. Ransom, R. C. Knight",
+  "year": 1988,
+  "url": "https://archive.org/details/britishintellige0003fhhi"
+ },
+ {
+  "id": "kahn_1991",
+  "title": "Seizing the Enigma: The Race to Break the German U-Boat Codes, 1939–1943",
+  "author": "David Kahn",
+  "year": 1991,
+  "url": "https://archive.org/details/seizingenigmarac0000kahn"
+ },
+ {
+  "id": "king_usnavy_at_war",
+  "title": "U.S. Navy at War, 1941–1945: Official Reports to the Secretary of the Navy",
+  "author": "Ernest J. King（美国海军作战部长）",
+  "year": 1946,
+  "url": "https://archive.org/details/usnavyatwar0000unse"
+ },
+ {
+  "id": "ktb_skl",
+  "title": "War Diary: German Naval Staff Operations Division（Kriegstagebuch der Seekriegsleitung, Part A，ONI 英译本，多卷）",
+  "author": "Kriegsmarine Seekriegsleitung（德国海军作战部）；美国海军情报局（ONI）译",
+  "year": 1948,
+  "url": "https://archive.org/details/wardiarygermanna11939germ"
+ },
+ {
+  "id": "milner_1985",
+  "title": "North Atlantic Run: The Royal Canadian Navy and the Battle for the Convoys",
+  "author": "Marc Milner",
+  "year": 1985,
+  "url": "https://archive.org/details/northatlanticrun00miln"
+ },
+ {
+  "id": "mori_atlantic_won",
+  "title": "History of United States Naval Operations in World War II, Vol. X: The Atlantic Battle Won, May 1943 – May 1945",
+  "author": "Samuel Eliot Morison",
+  "year": 1956,
+  "url": "https://archive.org/details/atlanticbattlewo0000samu_q0k9"
+ },
+ {
+  "id": "mori_battle_atlantic",
+  "title": "History of United States Naval Operations in World War II, Vol. I: The Battle of the Atlantic, September 1939 – May 1943",
+  "author": "Samuel Eliot Morison",
+  "year": 1947,
+  "url": "https://archive.org/details/battleofatlantic0000mori"
+ },
+ {
+  "id": "navweaps",
+  "title": "NavWeaps — Naval Weapons of the World（各国舰炮、鱼雷、引信技术页）",
+  "author": "Tony DiGiulian 等",
+  "year": 2026,
+  "url": "https://www.navweaps.com/"
+ },
+ {
+  "id": "nh_convoy_escorts",
+  "title": "Naval-History.Net — Convoy Escort Movements of Royal and Dominion Navy Warships（1,218 艘舰）",
+  "author": "Don Kindell（据 Arnold Hague 整理）",
+  "year": 2026,
+  "url": "https://www.naval-history.net/xDKEscorts00Contents.htm"
+ },
+ {
+  "id": "nh_normandy",
+  "title": "Naval-History.Net — Normandy Landings, June 1944",
+  "author": "Gordon Smith 等",
+  "year": 2026,
+  "url": "https://www.naval-history.net/WW2CampaignsNormandy.htm"
+ },
+ {
+  "id": "nh_pq17",
+  "title": "Naval-History.Net — Convoy PQ.17（俄罗斯护航队专题）",
+  "author": "Gordon Smith 等",
+  "year": 2026,
+  "url": "https://www.naval-history.net/Cr03-53-00PQ17.htm"
+ },
+ {
+  "id": "nh_rn_losses",
+  "title": "Naval-History.Net — Battles, Major Warship Losses",
+  "author": "Gordon Smith 等",
+  "year": 2026,
+  "url": "https://www.naval-history.net/NAVAL1939-45RN.htm"
+ },
+ {
+  "id": "nh_ship_histories",
+  "title": "Naval-History.Net — 1,000 Warship Service Histories",
+  "author": "Gordon Smith 等",
+  "year": 2026,
+  "url": "https://www.naval-history.net/xGM-aContents.htm"
+ },
+ {
+  "id": "nh_war_diaries",
+  "title": "Naval-History.Net — Admiralty War Diaries（海军部战争日记转录）",
+  "author": "Don Kindell",
+  "year": 2026,
+  "url": "https://www.naval-history.net/xDKWarDiaries-Contents.htm"
+ },
+ {
+  "id": "nuremberg_imt_blue",
+  "title": "Trial of the Major War Criminals before the International Military Tribunal（「蓝皮卷」42 卷，含判决与邓尼茨案）",
+  "author": "International Military Tribunal（纽伦堡国际军事法庭）",
+  "year": 1947,
+  "url": "https://avalon.law.yale.edu/imt/10-01-46.asp"
+ },
+ {
+  "id": "oni_prien_u47",
+  "title": "ONI Report 155-C-48: Kapitaenleutnant Guenther Prien's (U-47) Attack on Scapa Flow",
+  "author": "Office of Naval Intelligence（ONI）/ Fregattenkapitän Wagner Fürbringer 口述",
+  "year": 1948,
+  "url": "https://www.ibiblio.org/hyperwar/Germany/KM/Prien.html"
+ },
+ {
+  "id": "peillard_1983",
+  "title": "The Laconia Affair",
+  "author": "Léonce Peillard",
+  "year": 1983,
+  "url": "https://archive.org/details/laconiaaffair0000peil"
+ },
+ {
+  "id": "roessler_uboot",
+  "title": "The U-Boat: The Evolution and Technical History of German Submarines",
+  "author": "Eberhard Rössler",
+  "year": 1981,
+  "url": "https://archive.org/details/bwb_P9-EIZ-548"
+ },
+ {
+  "id": "rohwer_chronology",
+  "title": "Chronology of the War at Sea, 1939–1945（德文原版 Chronik des Seekrieges）",
+  "author": "Jürgen Rohwer & Gerhard Hümmelchen",
+  "year": 1968,
+  "url": "https://archive.org/details/chronologyofwara0000rohw_v7p9"
+ },
+ {
+  "id": "rohwer_critical",
+  "title": "The Critical Convoy Battles of March 1943",
+  "author": "Jürgen Rohwer",
+  "year": 1977,
+  "url": "https://archive.org/details/criticalconvoyba00jurg"
+ },
+ {
+  "id": "roskill_1954",
+  "title": "The War at Sea 1939–1945, Vol. I: The Defensive（英国官方二战史·海军卷）",
+  "author": "S. W. Roskill",
+  "year": 1954,
+  "url": "https://archive.org/details/worldat-sea-1939-1945-vol-1"
+ },
+ {
+  "id": "roskill_1956",
+  "title": "The War at Sea 1939–1945, Vol. II: The Period of Balance（第 4、8、14 章为大西洋战役）",
+  "author": "S. W. Roskill",
+  "year": 1956,
+  "url": "https://www.ibiblio.org/hyperwar/UN/UK/UK-RN-II/UK-RN-II-14.html"
+ },
+ {
+  "id": "roskill_1960",
+  "title": "The War at Sea 1939–1945, Vol. III Part 1: The Offensive, 1 June 1943 – 31 May 1944",
+  "author": "S. W. Roskill",
+  "year": 1960,
+  "url": "https://archive.org/details/war-at-sea-1939-1945-vol-3-part-1"
+ },
+ {
+  "id": "roskill_1961",
+  "title": "The War at Sea 1939–1945, Vol. III Part 2: The Offensive, 1 June 1944 – 14 August 1945",
+  "author": "S. W. Roskill",
+  "year": 1961,
+  "url": "https://archive.org/details/war-at-sea-1939-1945-vol-3-part-2"
+ },
+ {
+  "id": "schull_1950",
+  "title": "The Far Distant Ships: An Official Account of Canadian Naval Operations in the Second World War",
+  "author": "Joseph Schull",
+  "year": 1950,
+  "url": "https://archive.org/details/fardistantshipso0000schu"
+ },
+ {
+  "id": "sebag_2000",
+  "title": "Enigma: The Battle for the Code",
+  "author": "Hugh Sebag-Montefiore",
+  "year": 2000,
+  "url": "https://archive.org/details/enigmabattleforc0000seba_c6j4"
+ },
+ {
+  "id": "uboat_net",
+  "title": "uboat.net — The U-boats（逐艇档案、巡逻记录、指挥官与结局）",
+  "author": "Guðmundur Helgason 等",
+  "year": 2026,
+  "url": "https://uboat.net/boats/"
+ },
+ {
+  "id": "uboat_net_allies",
+  "title": "uboat.net — Allied Warships（逐舰战历，含护航航母与护卫舰）",
+  "author": "Guðmundur Helgason 等",
+  "year": 2026,
+  "url": "https://uboat.net/allies/warships/"
+ },
+ {
+  "id": "uboat_net_fates",
+  "title": "uboat.net — U-boat Fates（损失年报、1943-05 清单、自沉、投降、Deadlight）",
+  "author": "Guðmundur Helgason 等",
+  "year": 2026,
+  "url": "https://uboat.net/fates/"
+ },
+ {
+  "id": "uboat_net_ops",
+  "title": "uboat.net — Operations（Drumbeat、狼群、护航战、布雷、Monsun）",
+  "author": "Guðmundur Helgason 等",
+  "year": 2026,
+  "url": "https://uboat.net/ops/"
+ },
+ {
+  "id": "uboat_net_technical",
+  "title": "uboat.net — Technical（Enigma、通气管、雷达告警、FW-200、基地与船厂）",
+  "author": "Guðmundur Helgason 等",
+  "year": 2026,
+  "url": "https://uboat.net/technical/"
+ },
+ {
+  "id": "uboat_net_types",
+  "title": "uboat.net — U-boat Types（II、VII、IX、X、XIV、XXI、XXIII 型技术页）",
+  "author": "Guðmundur Helgason 等",
+  "year": 2026,
+  "url": "https://uboat.net/types/"
+ },
+ {
+  "id": "wiki_en_atlantic",
+  "title": "Battle of the Atlantic",
+  "author": "Wikipedia EN",
+  "year": 2026,
+  "url": "https://en.wikipedia.org/wiki/Battle_of_the_Atlantic"
+ },
+ {
+  "id": "wiki_en_black_may",
+  "title": "Black May (World War II)",
+  "author": "Wikipedia EN",
+  "year": 2026,
+  "url": "https://en.wikipedia.org/wiki/Black_May_%28World_War_II%29"
+ },
+ {
+  "id": "wiki_en_enigma",
+  "title": "Enigma machine",
+  "author": "Wikipedia EN",
+  "year": 2026,
+  "url": "https://en.wikipedia.org/wiki/Enigma_machine"
+ },
+ {
+  "id": "wiki_en_escort_carrier",
+  "title": "Escort carrier",
+  "author": "Wikipedia EN",
+  "year": 2026,
+  "url": "https://en.wikipedia.org/wiki/Escort_carrier"
+ },
+ {
+  "id": "wiki_en_midgap",
+  "title": "Mid-Atlantic gap",
+  "author": "Wikipedia EN",
+  "year": 2026,
+  "url": "https://en.wikipedia.org/wiki/Mid-Atlantic_gap"
+ },
+ {
+  "id": "wiki_en_ons5",
+  "title": "Convoy ONS 5",
+  "author": "Wikipedia EN",
+  "year": 2026,
+  "url": "https://en.wikipedia.org/wiki/Convoy_ONS_5"
+ },
+ {
+  "id": "woodman_1994",
+  "title": "The Arctic Convoys, 1941–1945",
+  "author": "Richard Woodman",
+  "year": 1994,
+  "url": "https://archive.org/details/arcticconvoys1940000wood_a9c1"
+ }
+]

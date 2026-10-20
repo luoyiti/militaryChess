@@ -1,0 +1,666 @@
+{
+  "fire": [
+    {
+      "id": "f.scharnhorst_rawalpindi",
+      "shooter": "de.scharnhorst",
+      "target": "gb.rawalpindi",
+      "weapon": "A",
+      "from": "1939-11-23T16:03",
+      "to": "1939-11-23T16:16",
+      "rounds": 60,
+      "salvoSec": 25,
+      "note": "十七时零三分在 7,500 米距离开火，前主炮塔先射，随后全舰舷侧齐射。OOB 的示意航迹把两舰压在同一个图上点，实战距离见本注。",
+      "sources": [
+        "nh_ship_histories",
+        "roskill_1954",
+        "battleatlantic_1946"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "f.gneisenau_rawalpindi",
+      "shooter": "de.gneisenau",
+      "target": "gb.rawalpindi",
+      "weapon": "A",
+      "from": "1939-11-23T16:11",
+      "to": "1939-11-23T16:16",
+      "rounds": 24,
+      "salvoSec": 25,
+      "note": "十七时十一分加入射击，六分钟后德方指挥官见英舰发出「请派救生艇」信号而下令停火。",
+      "sources": [
+        "nh_ship_histories",
+        "roskill_1954"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "f.rawalpindi_scharnhorst",
+      "shooter": "gb.rawalpindi",
+      "target": "de.scharnhorst",
+      "weapon": "main",
+      "from": "1939-11-23T16:04",
+      "to": "1939-11-23T16:12",
+      "rounds": 18,
+      "salvoSec": 18,
+      "note": "六英寸炮在德舰第一次齐射后立即还击，仅在后甲板取得一发近失破片命中。",
+      "sources": [
+        "nh_ship_histories",
+        "roskill_1954"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "f.rawalpindi_gneisenau",
+      "shooter": "gb.rawalpindi",
+      "target": "de.gneisenau",
+      "weapon": "main",
+      "from": "1939-11-23T16:11",
+      "to": "1939-11-23T16:14",
+      "rounds": 6,
+      "salvoSec": 18,
+      "note": "两面受敌后火力分散，弹着偏远。",
+      "sources": [
+        "nh_ship_histories"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "f.scheer_jervis_bay",
+      "shooter": "de.admiral_scheer",
+      "target": "gb.jervis_bay",
+      "weapon": "A",
+      "from": "1940-11-05T17:00",
+      "to": "1940-11-05T17:26",
+      "rounds": 90,
+      "salvoSec": 20,
+      "note": "十七时前后在约 17,000 米（一说 15,000 米）开火，六门 28 厘米炮交替齐射，距离随后缩短到 10,000 米以内；杰维斯湾号的六英寸炮在同一时段还击，十五厘米副炮也在近距离加入，但两者的最大射程都不足以覆盖本包示意航迹上的 31 公里间距，故只把德方主炮记入本时段，英方还击与副炮压制记在命中与损伤条目的说明里。",
+      "sources": [
+        "nh_ship_histories",
+        "roskill_1954",
+        "ktb_skl"
+      ],
+      "confidence": "high"
+    }
+  ],
+  "hits": [
+    {
+      "id": "h.athenia_torpedo",
+      "at": "1939-09-03T19:41",
+      "shooter": "de.u30",
+      "target": "gb.athenia",
+      "weapon": "tt",
+      "location": "左舷机舱",
+      "effect": "两雷齐射中一雷命中左舷机舱，另一雷哑火；主机停车、尾部开始进水，客轮在原地缓慢下沉。莱姆普当时误认为目标是武装商船巡洋舰。",
+      "killed": 117,
+      "severity": 1,
+      "precision": "approx",
+      "sources": [
+        "uboat_net",
+        "blair_1996",
+        "nh_ship_histories"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "h.courageous_torp_1",
+      "at": "1939-09-17T17:52",
+      "shooter": "de.u29",
+      "target": "gb.courageous",
+      "weapon": "tt",
+      "location": "左舷中部",
+      "effect": "两雷命中左舷，一雷在机舱附近爆炸，全舰失去电力；航母正在转向迎风准备放飞飞机，恰好横在 U-29 的艇艏前方。",
+      "severity": 1,
+      "sources": [
+        "uboat_net",
+        "nh_ship_histories",
+        "roskill_1954"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "h.courageous_torp_2",
+      "at": "1939-09-17T17:53",
+      "shooter": "de.u29",
+      "target": "gb.courageous",
+      "weapon": "tt",
+      "location": "左舷后部",
+      "effect": "第二雷在左舷后部爆炸，舰体迅速左倾，护航驱逐舰只能救起落水者。",
+      "severity": 1,
+      "sources": [
+        "nh_ship_histories",
+        "roskill_1954"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "h.royal_oak_bow",
+      "at": "1939-10-14T00:59",
+      "shooter": "de.u47",
+      "target": "gb.royal_oak",
+      "weapon": "tt",
+      "location": "舰艏",
+      "effect": "第一次齐射三雷只有一雷命中舰艏，爆炸把锚链与舰艏外板撕开，损伤起初不显眼；普里恩随即下令装填后再射。",
+      "severity": 2,
+      "sources": [
+        "oni_prien_u47",
+        "nh_ship_histories",
+        "roskill_1954"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "h.royal_oak_three",
+      "at": "1939-10-14T01:16",
+      "shooter": "de.u47",
+      "target": "gb.royal_oak",
+      "weapon": "tt",
+      "location": "舰体中部",
+      "effect": "第二次齐射三雷全部命中中部，弹药库与锅炉舱被引爆，桅杆与上层建筑被抛起；舰体在十三分钟内倾覆。835 人死亡，其中 134 人未满十八岁。",
+      "killed": 835,
+      "severity": 1,
+      "sources": [
+        "oni_prien_u47",
+        "nh_ship_histories",
+        "battleatlantic_1946"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "h.rawalpindi_hit_1",
+      "at": "1939-11-23T16:06",
+      "shooter": "de.scharnhorst",
+      "target": "gb.rawalpindi",
+      "weapon": "A",
+      "location": "舰桥与前部上层建筑",
+      "effect": "开火三分钟后首轮命中，舰桥与无线电室被毁，前部起火；舰长肯尼迪负伤仍留在指挥位置。",
+      "severity": 2,
+      "sources": [
+        "nh_ship_histories",
+        "roskill_1954"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "h.rawalpindi_hit_2",
+      "at": "1939-11-23T16:10",
+      "shooter": "de.scharnhorst",
+      "target": "gb.rawalpindi",
+      "weapon": "A",
+      "location": "舰体中部",
+      "effect": "十一英寸弹穿透商船薄壳在机舱附近爆炸，主炮失去扬弹动力，只能由炮手手动供弹。",
+      "severity": 2,
+      "gunsOut": [
+        "main"
+      ],
+      "sources": [
+        "nh_ship_histories",
+        "battleatlantic_1946"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "h.rawalpindi_hit_3",
+      "at": "1939-11-23T16:14",
+      "shooter": "de.gneisenau",
+      "target": "gb.rawalpindi",
+      "weapon": "A",
+      "location": "全舰",
+      "effect": "近距离齐射把舰体打成火球，十六时十六分沉没；238 人死亡，包括舰长肯尼迪，37 人被德舰救起。",
+      "killed": 238,
+      "severity": 1,
+      "sources": [
+        "nh_ship_histories",
+        "roskill_1954",
+        "battleatlantic_1946"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "h.scharnhorst_deck",
+      "at": "1939-11-23T16:09",
+      "shooter": "gb.rawalpindi",
+      "target": "de.scharnhorst",
+      "weapon": "main",
+      "location": "后甲板",
+      "effect": "六英寸弹在后甲板近失爆炸，破片轻伤舰体与一名水兵；这是拉瓦尔品第号此役唯一的命中。",
+      "severity": 3,
+      "sources": [
+        "nh_ship_histories",
+        "roskill_1954"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "h.jervis_bay_hit_1",
+      "at": "1940-11-05T17:07",
+      "shooter": "de.admiral_scheer",
+      "target": "gb.jervis_bay",
+      "weapon": "A",
+      "location": "舰桥与操舵室",
+      "effect": "首批齐射即夹叉命中，舰桥被毁、舵机失灵，舰体开始起火并向右舷倾斜。",
+      "severity": 2,
+      "sources": [
+        "nh_ship_histories",
+        "roskill_1954"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "h.jervis_bay_hit_2",
+      "at": "1940-11-05T17:18",
+      "shooter": "de.admiral_scheer",
+      "target": "gb.jervis_bay",
+      "weapon": "A",
+      "location": "舰体中部",
+      "effect": "机舱被击穿，全舰失去动力与消防水压，火势蔓延到弹药提升通道。",
+      "severity": 1,
+      "gunsOut": [
+        "main"
+      ],
+      "sources": [
+        "nh_ship_histories",
+        "battleatlantic_1946"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "h.jervis_bay_hit_3",
+      "at": "1940-11-05T17:26",
+      "shooter": "de.admiral_scheer",
+      "target": "gb.jervis_bay",
+      "weapon": "A",
+      "location": "全舰",
+      "effect": "十七时三十分前后沉没，190 人阵亡；舰长费根获追授维多利亚十字勋章。它用一个小时的抵抗换来了船团解散的时间。",
+      "killed": 190,
+      "severity": 1,
+      "sources": [
+        "nh_ship_histories",
+        "battleatlantic_1946",
+        "roskill_1954"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "h.gneisenau_lofoten",
+      "at": "1940-04-09T04:30",
+      "target": "de.gneisenau",
+      "location": "前部测距仪与后主炮塔",
+      "effect": "罗弗敦外海：英舰「声望」号在暴风雪中以 15 英寸炮夹叉格奈森瑙号，一发打坏前部测距仪、一发使「布鲁诺」后炮塔失效，另有一发击中左舷高炮。德舰以烟幕掩护转向脱离。「声望」号不在本包编制表内，故不填 shooter。",
+      "severity": 2,
+      "precision": "minute",
+      "gunsOut": [
+        "B"
+      ],
+      "sources": [
+        "roskill_1954",
+        "nh_ship_histories",
+        "ktb_skl"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "h.scharnhorst_acasta",
+      "at": "1940-06-08T19:30",
+      "target": "de.scharnhorst",
+      "location": "舰尾右舷（鱼雷）",
+      "effect": "护送被击沉的「光荣」号时，英驱逐舰「阿卡斯塔」号在沉没前发射鱼雷，一雷命中沙恩霍斯特号舰尾，炸开右舷外板并灌入约 2,500 吨海水，两台主机受损。德舰勉强返航，进坞修理四个月。「阿卡斯塔」号不在本包编制表内，故不填 shooter。",
+      "severity": 2,
+      "precision": "minute",
+      "sources": [
+        "nh_ship_histories",
+        "roskill_1954",
+        "ktb_skl"
+      ],
+      "confidence": "high"
+    }
+  ],
+  "torpedoes": [
+    {
+      "id": "t.u30_athenia",
+      "at": "1939-09-03T19:40",
+      "shooter": "de.u30",
+      "count": 2,
+      "target": "gb.athenia",
+      "spreadDeg": 4,
+      "result": "两雷齐射，一雷命中左舷机舱，另一雷哑火。U-30 随即下潜脱离，艇长莱姆普数分钟后从客轮电台得知目标是客轮，但直到 23 天后返港才上报。",
+      "sources": [
+        "uboat_net",
+        "blair_1996",
+        "nh_ship_histories"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "t.u29_courageous",
+      "at": "1939-09-17T17:44",
+      "shooter": "de.u29",
+      "count": 3,
+      "target": "gb.courageous",
+      "spreadDeg": 5,
+      "result": "三雷齐射，两雷命中左舷。U-29 在航母转向迎风的瞬间占据了垂直于航线的阵位。",
+      "sources": [
+        "uboat_net",
+        "nh_ship_histories",
+        "roskill_1954"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "t.u47_royal_oak_1",
+      "at": "1939-10-14T00:58",
+      "shooter": "de.u47",
+      "count": 3,
+      "target": "gb.royal_oak",
+      "spreadDeg": 6,
+      "result": "第一次齐射三雷仅一雷命中舰艏；普里恩下令艏管重新装填，同时转向用艉管补射。",
+      "sources": [
+        "oni_prien_u47",
+        "nh_ship_histories"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "t.u47_royal_oak_2",
+      "at": "1939-10-14T01:16",
+      "shooter": "de.u47",
+      "count": 3,
+      "target": "gb.royal_oak",
+      "spreadDeg": 6,
+      "result": "第二次齐射三雷全部命中，弹药库殉爆；U-47 借落潮冲出霍尔姆海峡，英方直到战后才确认是潜艇所为。",
+      "sources": [
+        "oni_prien_u47",
+        "nh_ship_histories",
+        "roskill_1954"
+      ],
+      "confidence": "high"
+    }
+  ],
+  "smoke": [
+    {
+      "id": "s.rawalpindi_screen",
+      "ship": "gb.rawalpindi",
+      "from": "1939-11-23T16:03",
+      "to": "1939-11-23T16:15",
+      "kind": "screen",
+      "widthKm": 1.2,
+      "persistMin": 35,
+      "driftDeg": 130,
+      "note": "回答德舰「停船！哪条船？」的盘问后，拉瓦尔品第号挂出 F-A-M 旗号、转向并施放烟幕，试图把德舰引离航线。",
+      "sources": [
+        "nh_ship_histories",
+        "roskill_1954"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s.jervis_bay_screen",
+      "ship": "gb.jervis_bay",
+      "from": "1940-11-05T17:00",
+      "to": "1940-11-05T17:30",
+      "kind": "screen",
+      "widthKm": 1.6,
+      "persistMin": 40,
+      "driftDeg": 120,
+      "note": "船团按费根的命令向右转向并投下烟幕浮标四散；杰维斯湾号则向左单独迎战，把舍尔号的火力引到自己身上。",
+      "sources": [
+        "nh_ship_histories",
+        "battleatlantic_1946"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s.royal_oak_fire",
+      "ship": "gb.royal_oak",
+      "from": "1939-10-14T01:20",
+      "to": "1939-10-14T01:29",
+      "kind": "funnel",
+      "widthKm": 0.5,
+      "persistMin": 18,
+      "driftDeg": 250,
+      "note": "第二次齐射后中部起火，黑烟从破口涌出；附近浮动船坞「代西二号」在烟与油污中救起 386 人。",
+      "sources": [
+        "nh_ship_histories",
+        "oni_prien_u47"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "s.gneisenau_lofoten_screen",
+      "ship": "de.gneisenau",
+      "from": "1940-04-09T04:36",
+      "to": "1940-04-09T05:20",
+      "kind": "screen",
+      "widthKm": 1.3,
+      "persistMin": 30,
+      "driftDeg": 250,
+      "note": "沙恩霍斯特号前出以烟幕遮蔽受伤的格奈森瑙号，这是「声望」号转移火力的直接原因。",
+      "sources": [
+        "roskill_1954",
+        "nh_ship_histories"
+      ],
+      "confidence": "high"
+    }
+  ],
+  "damage": [
+    {
+      "ship": "gb.athenia",
+      "at": "1939-09-03T19:45",
+      "integrity": 0.72,
+      "speedKn": 0,
+      "fire": false,
+      "listDeg": 5,
+      "note": "机舱被淹、主机停车，客轮在原地缓慢尾倾；船上 1,418 人开始弃船，救生艇不足。",
+      "sources": [
+        "nh_ship_histories",
+        "blair_1996"
+      ]
+    },
+    {
+      "ship": "gb.athenia",
+      "at": "1939-09-04T09:00",
+      "integrity": 0.12,
+      "speedKn": 0,
+      "listDeg": 14,
+      "note": "在拖带途中沉没于爱尔兰西北；117 人死亡，其中 28 名美国公民，这起事件把美国舆论推向英国一边。",
+      "sources": [
+        "nh_ship_histories",
+        "battleatlantic_1946"
+      ]
+    },
+    {
+      "ship": "gb.courageous",
+      "at": "1939-09-17T17:55",
+      "integrity": 0.3,
+      "speedKn": 0,
+      "listDeg": 12,
+      "note": "两雷命中后全舰失电，水泵与照明失效；舰长下令弃舰，护航驱逐舰靠帮救人。",
+      "sources": [
+        "nh_ship_histories",
+        "roskill_1954"
+      ]
+    },
+    {
+      "ship": "gb.courageous",
+      "at": "1939-09-17T18:20",
+      "integrity": 0,
+      "speedKn": 0,
+      "listDeg": 30,
+      "note": "沉没，519 人死亡，包括舰长；此后英国航母退出反潜猎杀巡逻，改由护航舰与岸基航空兵承担。",
+      "sources": [
+        "nh_ship_histories",
+        "battleatlantic_1946"
+      ]
+    },
+    {
+      "ship": "gb.royal_oak",
+      "at": "1939-10-14T01:00",
+      "integrity": 0.92,
+      "speedKn": 0,
+      "listDeg": 1,
+      "note": "舰艏中雷，损伤起初局限在锚链舱与前部水舱，舰上多数人以为是空袭投弹。",
+      "sources": [
+        "oni_prien_u47",
+        "nh_ship_histories"
+      ]
+    },
+    {
+      "ship": "gb.royal_oak",
+      "at": "1939-10-14T01:18",
+      "integrity": 0.22,
+      "speedKn": 0,
+      "fire": true,
+      "listDeg": 18,
+      "note": "三雷命中中部，弹药库殉爆，主桅与上层建筑被抛起；舰体迅速右倾。",
+      "sources": [
+        "oni_prien_u47",
+        "battleatlantic_1946"
+      ]
+    },
+    {
+      "ship": "gb.royal_oak",
+      "at": "1939-10-14T01:29",
+      "integrity": 0,
+      "speedKn": 0,
+      "fire": true,
+      "listDeg": 40,
+      "note": "倾覆沉没于斯卡帕湾锚地，835 人死亡；这是二战中英国战列舰第一次被潜艇击沉。",
+      "sources": [
+        "oni_prien_u47",
+        "nh_ship_histories"
+      ]
+    },
+    {
+      "ship": "gb.rawalpindi",
+      "at": "1939-11-23T16:07",
+      "integrity": 0.6,
+      "speedKn": 12,
+      "fire": true,
+      "note": "舰桥被毁、无线电室失火，只能由后部指挥位操舰；航速掉到 12 节。",
+      "sources": [
+        "nh_ship_histories",
+        "roskill_1954"
+      ]
+    },
+    {
+      "ship": "gb.rawalpindi",
+      "at": "1939-11-23T16:12",
+      "integrity": 0.25,
+      "speedKn": 5,
+      "fire": true,
+      "listDeg": 6,
+      "note": "机舱中弹、主炮停止射击，全舰成为火球；肯尼迪下令发出「请派救生艇」信号。",
+      "sources": [
+        "nh_ship_histories",
+        "battleatlantic_1946"
+      ]
+    },
+    {
+      "ship": "gb.rawalpindi",
+      "at": "1939-11-23T16:16",
+      "integrity": 0,
+      "speedKn": 0,
+      "fire": true,
+      "listDeg": 25,
+      "note": "沉没。238 人死亡；德舰救起 37 人，另有 11 人三十六小时后被武装商船巡洋舰「吉特拉尔」号救起。",
+      "sources": [
+        "nh_ship_histories",
+        "roskill_1954"
+      ]
+    },
+    {
+      "ship": "de.scharnhorst",
+      "at": "1939-11-23T16:09",
+      "integrity": 0.98,
+      "speedKn": 29,
+      "note": "后甲板被一发六英寸弹的近失破片擦伤，无人阵亡；此役德舰无一伤亡。",
+      "sources": [
+        "nh_ship_histories"
+      ]
+    },
+    {
+      "ship": "gb.jervis_bay",
+      "at": "1940-11-05T17:08",
+      "integrity": 0.6,
+      "speedKn": 8,
+      "fire": true,
+      "listDeg": 5,
+      "note": "舰桥中弹、舵机失灵，费根负伤仍命令保持航向；六英寸炮改用本地控制继续射击。",
+      "sources": [
+        "nh_ship_histories",
+        "battleatlantic_1946"
+      ]
+    },
+    {
+      "ship": "gb.jervis_bay",
+      "at": "1940-11-05T17:20",
+      "integrity": 0.22,
+      "speedKn": 0,
+      "fire": true,
+      "listDeg": 10,
+      "note": "机舱被毁、全舰失去动力，火势蔓延到弹药提升通道；舰员开始弃舰。",
+      "sources": [
+        "nh_ship_histories",
+        "roskill_1954"
+      ]
+    },
+    {
+      "ship": "gb.jervis_bay",
+      "at": "1940-11-05T17:30",
+      "integrity": 0,
+      "speedKn": 0,
+      "fire": true,
+      "listDeg": 22,
+      "note": "沉没，190 人阵亡。HX 84 的三十八艘船中只有五艘被击沉，其余趁德舰停船救人与追击的时间四散脱险。",
+      "sources": [
+        "nh_ship_histories",
+        "battleatlantic_1946"
+      ]
+    },
+    {
+      "ship": "de.gneisenau",
+      "at": "1940-04-09T04:35",
+      "integrity": 0.82,
+      "speedKn": 28,
+      "fire": true,
+      "gunsOut": [
+        "B"
+      ],
+      "note": "罗弗敦外海受损：后炮塔失效、前部测距仪被毁，电气系统在暴风雪中接连故障，射速下降；以烟幕脱离。",
+      "sources": [
+        "roskill_1954",
+        "nh_ship_histories"
+      ]
+    },
+    {
+      "ship": "de.gneisenau",
+      "at": "1940-06-30T12:00",
+      "integrity": 0.95,
+      "speedKn": 30,
+      "note": "入坞修理后恢复；此后数月在大西洋与布雷斯特之间活动，1941 年 4 月又被英机鱼雷击中。",
+      "sources": [
+        "nh_ship_histories"
+      ]
+    },
+    {
+      "ship": "de.scharnhorst",
+      "at": "1940-06-08T19:35",
+      "integrity": 0.7,
+      "speedKn": 25,
+      "note": "舰尾中雷、进水约 2,500 吨，两台主机受损，只能以 25 节返航；这是它整场战争中最重的一次战伤。",
+      "sources": [
+        "nh_ship_histories",
+        "roskill_1954"
+      ]
+    },
+    {
+      "ship": "de.scharnhorst",
+      "at": "1940-10-30T20:00",
+      "integrity": 0.98,
+      "speedKn": 31,
+      "note": "修理完成后恢复战备；此后参加「柏林行动」与 1942 年海峡冲刺。",
+      "sources": [
+        "nh_ship_histories"
+      ]
+    }
+  ]
+}

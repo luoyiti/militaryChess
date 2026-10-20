@@ -1,0 +1,1357 @@
+{
+ "signals": [
+  {
+   "id": "sig.athenia_sss",
+   "at": "1939-09-03T19:44",
+   "from": "gb.athenia",
+   "kind": "distress",
+   "text": "[概述] [SSS … Athenia torpedoed … require immediate assistance]",
+   "zh": "「SSS……雅典娜号被鱼雷击中……请立即救援。」（遇险电文，方括号内为按当时格式复原的报文内容；多艘舰船与德国班轮「不来梅」号都收到，后者为免被俘未应答。）",
+   "sources": [
+    "nh_ship_histories",
+    "blair_1996"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "sig.u30_silence",
+   "at": "1939-09-03T20:30",
+   "from": "de.u30",
+   "to": "de.bdu",
+   "kind": "radio",
+   "text": "[概述] [No report of the sinking was made until the boat returned to port 23 days later]",
+   "zh": "U-30 没有发报。莱姆普直到 9 月 27 日返港才向邓尼茨当面报告；艇上战争日志随后被抽换一页，柏林公开否认德国潜艇在场，直到 1946 年纽伦堡才承认。",
+   "sources": [
+    "blair_1996",
+    "ktb_skl",
+    "nuremberg_imt_blue"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "sig.royal_oak_boats",
+   "at": "1939-10-14T01:34",
+   "from": "gb.royal_oak",
+   "kind": "signal",
+   "text": "General. Send all boats.",
+   "zh": "「全体：派所有小艇来。」（锚地信号灯，沉没约五分钟后由「柏伽索斯」号发出。）",
+   "sources": [
+    "nh_ship_histories",
+    "battleatlantic_1946"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "sig.royal_oak_sinking",
+   "at": "1939-10-14T01:59",
+   "from": "gb.royal_oak",
+   "kind": "signal",
+   "text": "Royal Oak is sinking after several internal explosions.",
+   "zh": "「皇家橡树号在数次内部爆炸后正在下沉。」（信号灯，凌晨一时五十九分。）",
+   "sources": [
+    "nh_ship_histories"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "sig.scharnhorst_halt",
+   "at": "1939-11-23T15:47",
+   "from": "de.scharnhorst",
+   "to": "gb.rawalpindi",
+   "kind": "signal",
+   "text": "Stop! What ship?",
+   "zh": "「停船！哪条船？」（德舰以信号灯与无线电反复盘问，拉瓦尔品第号不予回答。）",
+   "sources": [
+    "nh_ship_histories",
+    "roskill_1954"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "sig.rawalpindi_fam",
+   "at": "1939-11-23T15:58",
+   "from": "gb.rawalpindi",
+   "kind": "signal",
+   "text": "F-A-M (F: 'What ship?'); reply: F-A-M",
+   "zh": "「F-A-M」（英方信号书中「我舰为武装商船巡洋舰」的组合旗号，同时转向并施放烟幕——这是英国商船护航舰回答敌舰盘问的标准动作。肯尼迪不回答德舰的「哪条船」，只挂出这组旗号。）",
+   "sources": [
+    "nh_ship_histories"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "sig.rawalpindi_sight",
+   "at": "1939-11-23T16:02",
+   "from": "gb.rawalpindi",
+   "to": "gb.wa",
+   "kind": "report",
+   "text": "[概述] [Enemy battlecruiser in sight]",
+   "zh": "「发现敌战列巡洋舰。」（拉瓦尔品第号发出的第一封电报。方括号内为报文内容摘要，原件未存。）",
+   "sources": [
+    "nh_ship_histories",
+    "roskill_1954"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "sig.rawalpindi_deutschland",
+   "at": "1939-11-23T16:10",
+   "from": "gb.rawalpindi",
+   "to": "gb.wa",
+   "kind": "report",
+   "text": "[概述] [Under attack by the heavy cruiser Deutschland]",
+   "zh": "「正遭重巡洋舰『德意志』号攻击。」（第二封电报。肯尼迪把沙恩霍斯特号误认作德意志级装甲舰，英方据此派出多支编队拦截，直到战后才纠正。）",
+   "sources": [
+    "nh_ship_histories",
+    "roskill_1954"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "sig.rawalpindi_boats",
+   "at": "1939-11-23T16:16",
+   "from": "gb.rawalpindi",
+   "kind": "signal",
+   "text": "Please send boats.",
+   "zh": "「请派救生艇。」（德方指挥官见到这组信号后下令停火，两舰开始捞救幸存者。）",
+   "sources": [
+    "nh_ship_histories",
+    "battleatlantic_1946"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "sig.churchill_altmark",
+   "at": "1940-02-16T20:40",
+   "from": "英国海军部",
+   "to": "gb.wa",
+   "kind": "order",
+   "text": "Unless Norwegian torpedo-boat undertakes to convoy Altmark to Bergen with a joint Anglo-Norwegian guard on board, and a joint escort, you should board Altmark, liberate the prisoners, and take possession of the ship pending further instructions. If Norwegian torpedo-boat interferes, you should warn her to stand off. If she fires upon you, you should not reply unless attack is serious, in which case you should defend yourself, using no more force than is necessary, and ceasing fire when she desists. Suggest to Norwegian destroyer that honour is served by submitting to superior force.",
+   "zh": "「除非挪威鱼雷艇答应在英挪联合押解下把阿尔特马克号押往卑尔根，否则你应登船、解救俘虏并在接到进一步命令前占有该船。若挪威鱼雷艇阻拦，警告其退开；若其向你开火，除非攻击严重否则不要还击，还击时亦不得使用超过必要的武力，对方停火即停火。可向挪威驱逐舰指出：服从优势兵力并不损其荣誉。」（丘吉尔以第一海军大臣身份直接口授，由「哥萨克」号舰长维安执行。）",
+   "sources": [
+    "roskill_1954",
+    "grand_strategy_2",
+    "nh_war_diaries"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "sig.altmark_navy_here",
+   "at": "1940-02-16T22:20",
+   "from": "被救英籍俘虏",
+   "kind": "signal",
+   "text": "Any Englishmen here? — Yes! We are all British! — Well, the Navy's here!",
+   "zh": "「有英国人在吗？」——「有！我们都是英国人！」——「那么，海军来了！」（「哥萨克」号登艇组在约辛峡湾打开舱门时的对话，成为 1940 年英国最著名的一句宣传语。）",
+   "sources": [
+    "roskill_1954",
+    "nh_ship_histories"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "sig.glowworm_report",
+   "at": "1940-04-08T08:55",
+   "from": "英国驱逐舰「萤火虫」号（HMS Glowworm）",
+   "to": "gb.wa",
+   "kind": "report",
+   "text": "[概述] [Enemy forces in sight; am engaging a heavy cruiser]",
+   "zh": "「发现敌军，正与一艘重巡洋舰交战。」（「萤火虫」号在挪威海域与希佩尔号遭遇后发出的最后报告之一；它随后冲撞德舰并沉没，舰长鲁普获追授维多利亚十字勋章。该舰不在本包编制表内。）",
+   "sources": [
+    "roskill_1954",
+    "nh_ship_histories"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "sig.weseruebung",
+   "at": "1940-04-09T04:15",
+   "from": "de.scharnhorst",
+   "to": "de.bdu",
+   "kind": "order",
+   "text": "[概述] [Weserübung: the battle group is to cover the landings in Norway; do not engage superior forces]",
+   "zh": "「威悉演习：战斗群为挪威登陆提供掩护；不要与优势兵力交战。」（沙恩霍斯特号与格奈森瑙号担任远程掩护。当日清晨德舰在挪威外海与英国战列巡洋舰「声望」号短暂交火，双方均未重创对方。方括号内为命令要点。）",
+   "sources": [
+    "roskill_1954",
+    "ktb_skl",
+    "grand_strategy_2"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "sig.lofoten_action",
+   "at": "1940-04-09T05:20",
+   "from": "de.scharnhorst",
+   "to": "de.bdu",
+   "kind": "report",
+   "text": "[概述] [Action with a British battlecruiser; Gneisenau hit forward, aft turret out of action; radar out of action. Breaking off to the westward.]",
+   "zh": "「与一艘英国战列巡洋舰交战；格奈森瑙号前部中弹、后炮塔失效；本舰雷达失效。转向西撤退。」（罗弗敦外海之战：英舰「声望」号在暴风雪中与两艘德舰交火，格奈森瑙号被击伤两座炮塔、沙恩霍斯特号雷达被打坏；德方误判对手兵力而脱离。方括号内为战报要点。）",
+   "sources": [
+    "roskill_1954",
+    "nh_ship_histories",
+    "ktb_skl"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "sig.dunkirk_dynamo",
+   "at": "1940-05-26T18:57",
+   "from": "英国海军部",
+   "to": "gb.wa",
+   "kind": "order",
+   "text": "Operation Dynamo is to commence.",
+   "zh": "「发电机行动开始。」（海军部给多佛司令部的电报，敦刻尔克大撤退当夜启动；此后九天，英吉利海峡的驱逐舰与民船在空袭与 U 艇威胁下撤出三十三万人。同一批驱逐舰正是大西洋护航兵力。）",
+   "sources": [
+    "roskill_1954",
+    "grand_strategy_2",
+    "nh_war_diaries"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "sig.scharnhorst_acasta_note",
+   "at": "1940-06-08T19:35",
+   "from": "de.scharnhorst",
+   "to": "de.bdu",
+   "kind": "report",
+   "text": "[概述] [Torpedo hit aft; two shafts damaged; proceeding to Trondheim at reduced speed]",
+   "zh": "「舰尾中雷，两根轴受损，正以减低的航速驶往特隆赫姆。」（沙恩霍斯特号在击沉「光荣」号后被「阿卡斯塔」号的鱼雷击中；英国护航航母与两艘驱逐舰此役全部损失，1,500 余人阵亡。方括号内为报告要点。）",
+   "sources": [
+    "nh_ship_histories",
+    "roskill_1954"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "sig.biscay_bases",
+   "at": "1940-06-22T16:50",
+   "from": "de.bdu",
+   "kind": "order",
+   "text": "[概述] [U-boats are to move to the Biscay ports; the distance to the Atlantic approaches is cut by more than half]",
+   "zh": "「U 艇将进驻比斯开湾港口；到北大西洋航线的距离缩短一半以上。」（法国停战后，洛里昂、圣纳泽尔、拉罗谢尔、波尔多相继成为 U 艇基地，这是「快乐时光」的物质前提。方括号内为命令要点。）",
+   "sources": [
+    "blair_1996",
+    "ktb_skl",
+    "roskill_1954"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "sig.destroyers_for_bases",
+   "at": "1940-09-02T20:00",
+   "from": "温斯顿·丘吉尔（W. S. Churchill）",
+   "to": "富兰克林·罗斯福（F. D. Roosevelt）",
+   "kind": "diplomatic",
+   "text": "[概述] [Fifty destroyers in exchange for bases in Newfoundland and the Caribbean]",
+   "zh": "「以五十艘驱逐舰换取纽芬兰与加勒比的基地。」（「驱逐舰换基地」协定在华盛顿签署；这批一次大战的老驱逐舰成为 1941 年大西洋护航的应急兵力，也是美国从「中立」走向「非交战国」的关键一步。）",
+   "sources": [
+    "grand_strategy_2",
+    "roskill_1954",
+    "mori_battle_atlantic"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "sig.sc7_contact",
+   "at": "1940-10-18T19:40",
+   "from": "de.u100",
+   "to": "de.bdu",
+   "kind": "radio",
+   "text": "[概述] [Convoy in sight, grid AM 2981, course 090, speed 7 knots]",
+   "zh": "「发现船团，方格 AM 2981，航向 090，航速 7 节。」（舍普克的接触报告。方括号内为按狼群短信号格式写的内容摘要，实际报文不足 30 秒。）",
+   "sources": [
+    "blair_1996",
+    "ktb_skl",
+    "roskill_1954"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "sig.sc7_attack_order",
+   "at": "1940-10-18T20:05",
+   "from": "de.bdu",
+   "to": "de.u99",
+   "kind": "order",
+   "text": "[概述] [All boats close and attack from the surface; report contact but do not break radio silence otherwise]",
+   "zh": "「各艇靠近，从水面攻击；报告接触后保持无线电静默。」（邓尼茨在洛里昂指挥这次协同攻击，五艘艇在六小时内击沉十六艘。方括号内为内容摘要。）",
+   "sources": [
+    "blair_1996",
+    "ktb_skl"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "sig.hx79_contact",
+   "at": "1940-10-19T21:10",
+   "from": "de.u47",
+   "to": "de.bdu",
+   "kind": "radio",
+   "text": "[概述] [Convoy in sight, forty-plus ships, heavy seas, no effective escort]",
+   "zh": "「发现船团，四十余艘，海况恶劣，护航薄弱。」（HX 79 的接触报告；当夜六艘艇击沉十二艘，U 艇无一损失。方括号内为内容摘要。）",
+   "sources": [
+    "blair_1996",
+    "roskill_1954"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "sig.condor_report",
+   "at": "1940-10-20T14:30",
+   "from": "德国第 40 轰炸机联队（KG 40）",
+   "to": "de.bdu",
+   "kind": "report",
+   "text": "[概述] [Convoy in sight, grid AM 4655, course 070, twelve ships; shadowing]",
+   "zh": "「发现船团，方格 AM 4655，航向 070，十二艘；正在跟踪。」（驻波尔多的福克-沃尔夫 200「秃鹰」式机给 U 艇的船团定位电报。1940 年秋到 1941 年春，秃鹰的侦察把狼群引向船团，但它的航程与载弹量都不足以自行击沉。方括号内为按格式写的内容摘要。）",
+   "sources": [
+    "blair_1996",
+    "roskill_1954",
+    "uboat_net_technical"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "sig.scheer_hx84",
+   "at": "1940-11-05T15:42",
+   "from": "de.admiral_scheer",
+   "to": "de.bdu",
+   "kind": "report",
+   "text": "[概述] [Convoy in sight, course 090, about 38 ships; one armed merchant cruiser as escort]",
+   "zh": "「发现船团，航向 090，约三十八艘；护航为一艘武装商船巡洋舰。」（舍尔号的接触报告，方括号内为内容摘要；克拉恩克随即转向截击。）",
+   "sources": [
+    "ktb_skl",
+    "roskill_1954"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "sig.hx84_scatter",
+   "at": "1940-11-05T16:48",
+   "from": "gb.jervis_bay",
+   "kind": "order",
+   "text": "[概述] [Convoy to turn to starboard and scatter; I am going out to port to engage the enemy]",
+   "zh": "「船团向右转向并解散；我舰向左前出迎敌。」（费根舰长通过船团指挥官下达，随即单舰向舍尔号驶去。方括号内为内容摘要。）",
+   "sources": [
+    "nh_ship_histories",
+    "battleatlantic_1946"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "sig.hx112_contact",
+   "at": "1941-03-16T22:40",
+   "from": "de.u110",
+   "to": "de.bdu",
+   "kind": "radio",
+   "text": "[概述] [Convoy in sight, grid AD 8791, course 070, speed 9 knots]",
+   "zh": "「发现船团，方格 AD 8791，航向 070，航速 9 节。」（HX 112 的接触报告，狼群随即合围。方括号内为按短信号格式写的内容摘要。）",
+   "sources": [
+    "blair_1996",
+    "roskill_1954"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "sig.walker_hx112",
+   "at": "1941-03-17T03:05",
+   "from": "gb.vanoc",
+   "to": "gb.starling",
+   "kind": "report",
+   "text": "[概述] [Radar contact, range 2,000 yards, bearing 040 — attacking]",
+   "zh": "「雷达接触，距离 2,000 码，方位 040——开始攻击。」（瓦诺克号向第 3 护航群旗舰报告。这是早期舰载雷达在暗夜中首次决定性地发现水面 U 艇。）",
+   "sources": [
+    "roskill_1954",
+    "blair_1996"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "sig.u99_scuttle",
+   "at": "1941-03-17T03:40",
+   "from": "de.u99",
+   "to": "de.bdu",
+   "kind": "radio",
+   "text": "[概述] [Boat unable to dive, badly damaged by depth charges; scuttling. Kretschmer]",
+   "zh": "「艇不能下潜，被深水炸弹重创，准备自沉。克雷奇默尔。」（最后一封电报，三分钟后自沉。方括号内为内容摘要。）",
+   "sources": [
+    "uboat_net",
+    "blair_1996"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "sig.bdu_three_aces",
+   "at": "1941-03-18T10:00",
+   "from": "de.bdu",
+   "kind": "order",
+   "text": "[概述] [Wolfpack tactics are to continue; the loss of three aces does not change the conduct of the campaign]",
+   "zh": "「狼群战术照旧；损失三位王牌不改变战役的实施方式。」（邓尼茨在 U-47、U-99、U-100 相继损失后的内部指示要点。方括号内为依据战史叙述写的内容摘要，非逐字原文。）",
+   "sources": [
+    "doenitz_memoir_1958",
+    "blair_1996"
+   ],
+   "confidence": "low"
+  },
+  {
+   "id": "sig.u110_last",
+   "at": "1941-05-09T10:15",
+   "from": "de.u110",
+   "to": "de.bdu",
+   "kind": "radio",
+   "text": "[概述] [Depth-charged, forced to surface, unable to dive]",
+   "zh": "「遭深水炸弹攻击，被迫上浮，无法下潜。」（U-110 最后一次发报；此后艇员弃艇，密码本与恩尼格玛机被英方完整缴获。）",
+   "sources": [
+    "uboat_net",
+    "sebag_2000"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "sig.bulldog_capture",
+   "at": "1941-05-09T12:30",
+   "from": "gb.bulldog",
+   "to": "gb.wa",
+   "kind": "report",
+   "text": "[概述] [U-boat abandoned and boarded; coding material secured. No further signals on this matter.]",
+   "zh": "「敌艇已弃艇并被登临，密码材料已到手。此事不再发报。」（贝克-克雷斯韦尔舰长决定不发详细电报，以免德方得知 U-110 落于英手；艇长与艇员被隔离关押。）",
+   "sources": [
+    "sebag_2000",
+    "kahn_1991",
+    "nh_ship_histories"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "sig.suffolk_sighting",
+   "at": "1941-05-23T19:22",
+   "from": "萨福克号（HMS Suffolk）",
+   "to": "gb.wa",
+   "kind": "report",
+   "text": "[概述] [Two large German units in the Denmark Strait, course 190, speed 24 knots]",
+   "zh": "「丹麦海峡发现两艘大型德舰，航向 190，航速 24 节。」（萨福克号于十九时二十二分以水听与雷达发现德舰后发出的接触报告，此后它整夜用雷达跟踪。该舰不在本包编制表内，故以舰名记录。）",
+   "sources": [
+    "gazette_38038",
+    "nh_ship_histories"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "sig.bismarck_opening",
+   "at": "1941-05-24T05:52",
+   "from": "de.bismarck",
+   "to": "de.bdu",
+   "kind": "report",
+   "text": "…am in a fight with two heavy units.",
+   "zh": "「……正与两艘大型军舰交战。」（俾斯麦号战争日志记载的开火时电报；吕特晏斯在林德曼催促下才下达开火令。）",
+   "sources": [
+    "gazette_38038",
+    "nh_ship_histories"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "sig.bismarck_hood_sunk",
+   "at": "1941-05-24T06:06",
+   "from": "de.bismarck",
+   "to": "de.bdu",
+   "kind": "report",
+   "text": "Battlecruiser, probably Hood, sunk. Another battleship, King George V or Renown, turned away damaged. Two heavy cruisers maintain contact.",
+   "zh": "「战列巡洋舰，可能是胡德号，已沉没。另一艘战列舰——英王乔治五世号或声望号——受伤脱离。两艘重巡洋舰保持接触。」（吕特晏斯给海军集团西指挥部的战报。）",
+   "sources": [
+    "gazette_38038",
+    "roskill_1954"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "sig.catalina_sighting",
+   "at": "1941-05-26T10:30",
+   "from": "第 209 中队卡特林纳（Catalina Z/209）",
+   "to": "gb.wa",
+   "kind": "report",
+   "text": "[概述] [One battleship, bearing 240, distance 5 miles, course 150 — looks like Bismarck]",
+   "zh": "「一艘战列舰，方位 240，距离 5 海里，航向 150——像是俾斯麦号。」（布列斯特西北约 690 海里发现德舰，机上还有美国海军观察员；此后英舰得以向法国方向合围。）",
+   "sources": [
+    "roskill_1954",
+    "nh_ship_histories"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "sig.ark_royal_strike",
+   "at": "1941-05-26T20:50",
+   "from": "gb.ark_royal",
+   "to": "gb.wa",
+   "kind": "report",
+   "text": "[概述] [Torpedo hit on stern; steering gear believed damaged]",
+   "zh": "「舰尾中雷，估计舵机受损。」（皇家方舟号剑鱼式机队返航后的报告要点；十五架机在恶劣天气中起飞，两雷命中，其中一雷打坏舵机。方括号内为内容摘要。）",
+   "sources": [
+    "roskill_1954",
+    "nh_ship_histories"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "sig.bismarck_unmanoeuvrable",
+   "at": "1941-05-26T21:15",
+   "from": "de.bismarck",
+   "to": "de.bdu",
+   "kind": "report",
+   "text": "[概述] [Ship unmanoeuvrable]",
+   "zh": "「舰已无法操纵。」（吕特晏斯报告舵机卡死。方括号内为战史转述的报文，德方战争日志原文见 KTB。）",
+   "sources": [
+    "roskill_1954",
+    "nh_ship_histories"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "sig.bismarck_last_shell",
+   "at": "1941-05-26T21:40",
+   "from": "de.bismarck",
+   "to": "de.bdu",
+   "kind": "radio",
+   "text": "Ship unmanoeuvrable. We will fight to the last shell. Long live the Führer.",
+   "zh": "「舰已无法操纵。我们将打到最后一发炮弹。元首万岁。」（吕特晏斯于五月二十六日二十一时四十分发给海军总司令部的电报。）",
+   "sources": [
+    "roskill_1954",
+    "nh_ship_histories",
+    "gazette_38038"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "sig.tovey_close",
+   "at": "1941-05-27T08:47",
+   "from": "gb.king_george_v",
+   "to": "gb.rodney",
+   "kind": "order",
+   "text": "[概述] [Engage the enemy at close range; do not let her escape]",
+   "zh": "「接近射击；不许让它跑掉。」（托维坐镇英王乔治五世号，通过信号旗与无线电指挥最后合围。方括号内为内容摘要。）",
+   "sources": [
+    "roskill_1954",
+    "battleatlantic_1946"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "sig.bismarck_scuttle_order",
+   "at": "1941-05-27T09:30",
+   "from": "de.bismarck",
+   "kind": "order",
+   "text": "[概述] [Scuttle the ship. Abandon ship.]",
+   "zh": "「自沉本舰。弃舰。」（自沉令常被归给舰长林德曼或第一军官厄尔斯；打开通海阀与安放炸药同时进行，因此「俾斯麦号究竟是被击沉还是自沉」在战后长期争论。）",
+   "sources": [
+    "roskill_1954",
+    "nh_ship_histories",
+    "gazette_38038"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "sig.cam_ship",
+   "at": "1941-08-01T13:00",
+   "from": "英国海军部",
+   "kind": "order",
+   "text": "[概述] [Equip merchant ships with catapult fighters to drive off shadowing aircraft]",
+   "zh": "「为商船装备弹射战斗机，用以驱散跟踪的敌机。」（弹射商船 CAM 的来历：一次弹射之后飞行员只能弃机跳伞或迫降，所以它只用于对付「秃鹰」这类慢速巡逻机。CAM 船共 35 艘，另有 19 艘 MAC 船。）",
+   "sources": [
+    "roskill_1954",
+    "battleatlantic_1946",
+    "uboat_net_technical"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "sig.charter_signed",
+   "at": "1941-08-14T12:00",
+   "from": "富兰克林·罗斯福（F. D. Roosevelt）",
+   "to": "温斯顿·丘吉尔（W. S. Churchill）",
+   "kind": "diplomatic",
+   "text": "Seventh, such a peace should enable all men to traverse the high seas and oceans without hindrance.",
+   "zh": "「第七，这样的和平应使所有人得以无障碍地通行公海与大洋。」（《大西洋宪章》第七条。会议在威尔士亲王号上举行，宪章把美国从「中立巡逻」推向「非交战国同盟」，对护航与租借都有直接影响。）",
+   "sources": [
+    "avalon_atlantic_charter",
+    "roskill_1954"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "sig.roosevelt_shoot_on_sight",
+   "at": "1941-09-11T12:00",
+   "from": "美国总统罗斯福（F. D. Roosevelt）",
+   "kind": "order",
+   "text": "When you see a rattlesnake poised to strike, you do not wait until he has struck before you crush him.",
+   "zh": "「当你看见一条响尾蛇盘起准备攻击时，不会等它咬过一口才去踩它。」（罗斯福「炉边谈话」宣布「见即击沉」令；格雷尔号事件后美国海军在大西洋的实际交战规则随之改变。）",
+   "sources": [
+    "mori_battle_atlantic",
+    "king_usnavy_at_war"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "sig.reuben_james_loss",
+   "at": "1941-10-31T06:20",
+   "from": "第 4 护航群（USN）",
+   "to": "us.atl",
+   "kind": "distress",
+   "text": "[概述] [Reuben James torpedoed; magazine exploded; only the stern afloat]",
+   "zh": "「鲁本·詹姆斯号中雷，弹药库爆炸，只剩舰尾浮在水面。」（护航群代发的遇险电文要点；144 名官兵中 100 人阵亡。方括号内为内容摘要，原件未存。）",
+   "sources": [
+    "mori_battle_atlantic",
+    "nh_ship_histories"
+   ],
+   "confidence": "low"
+  },
+  {
+   "id": "sig.u552_last_ship",
+   "at": "1941-10-31T06:40",
+   "from": "de.u552",
+   "to": "de.bdu",
+   "kind": "radio",
+   "text": "[概述] [One destroyer sunk, Reuben James class; two torpedoes, one hit. Continuing with convoy.]",
+   "zh": "「击沉驱逐舰一艘，鲁本·詹姆斯级；发射两雷，一雷命中。继续跟踪船团。」（托普的战后报告要点。德方当时并不知道这是美国军舰。方括号内为内容摘要。）",
+   "sources": [
+    "uboat_net",
+    "blair_1996"
+   ],
+   "confidence": "low"
+  },
+  {
+   "id": "sig.hfdf_direction",
+   "at": "1941-11-01T10:00",
+   "from": "gb.wa",
+   "kind": "order",
+   "text": "[概述] [Two HF/DF sets per escort group: a single bearing is not enough, two give a fix]",
+   "zh": "「每个护航群配备两部高频测向仪：单个方位不够，两个方位才能定出位置。」（西部海口司令部的技术通报。1943 年起高频测向成为护航舰截击狼群接触报告的主要手段。）",
+   "sources": [
+    "roskill_1954",
+    "hinsley_1979",
+    "beesly_1977"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "sig.starling_hg76",
+   "at": "1941-12-21T23:30",
+   "from": "gb.starling",
+   "to": "gb.wa",
+   "kind": "report",
+   "text": "[概述] [HG 76: five U-boats destroyed, convoy saved; Audacity lost]",
+   "zh": "「HG 76：击沉五艘 U 艇，船团得救；大胆号损失。」（沃克上校第 36 护航群的战果报告要点。这是开战以来盟军第一次明确赢得的船团防御战。方括号内为内容摘要。）",
+   "sources": [
+    "blair_1996",
+    "roskill_1954",
+    "battleatlantic_1946"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "sig.u123_drumbeat_start",
+   "at": "1942-01-14T05:30",
+   "from": "de.u123",
+   "to": "de.bdu",
+   "kind": "radio",
+   "text": "[概述] [Tanker torpedoed and burning off Long Island; no blackout, shipping silhouetted against the shore lights]",
+   "zh": "「在长岛外海击沉一艘油轮，正在燃烧；岸上没有灯火管制，船影衬在灯光里。」（U-123 艇长哈尔德根的报告要点。金上将在回忆录里承认，沿岸船团与灯火管制推行得太晚。方括号内为内容摘要。）",
+   "sources": [
+    "mori_battle_atlantic",
+    "gannon_1990",
+    "ktb_skl"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "sig.pq17_withdraw",
+   "at": "1942-07-04T19:11",
+   "from": "英国海军部",
+   "to": "gb.wa",
+   "kind": "order",
+   "text": "Cruiser Force withdraw to the westward at high speed.",
+   "zh": "「巡洋舰编队高速向西撤退。」（等级「特急」。本包时刻为按英国双倍夏令时折算的 UTC；当时电文记的是当地 21:11。）",
+   "sources": [
+    "nh_pq17",
+    "roskill_1956",
+    "woodman_1994"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "sig.pq17_disperse",
+   "at": "1942-07-04T19:23",
+   "from": "英国海军部",
+   "to": "gb.wa",
+   "kind": "order",
+   "text": "Owing to threat from surface ships, convoy is to disperse and proceed to Russian ports.",
+   "zh": "「鉴于敌水面舰艇的威胁，船团应解散，各自驶往俄国港口。」（等级「急」。当地 21:23。）",
+   "sources": [
+    "nh_pq17",
+    "roskill_1956"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "sig.pq17_scatter",
+   "at": "1942-07-04T19:36",
+   "from": "英国海军部",
+   "to": "gb.wa",
+   "kind": "order",
+   "text": "Convoy is to scatter.",
+   "zh": "「船团立即解散。」（等级「特急」，当地 21:36。事后才知道这道令只是把上一封的「disperse」改成信号书里的正式用语「scatter」，当时却按「敌水面舰艇即将来袭」的最坏情况执行。）",
+   "sources": [
+    "nh_pq17",
+    "roskill_1956",
+    "hinsley_1979"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "sig.pq17_merchant_1",
+   "at": "1942-07-05T04:20",
+   "from": "PQ 17 商船（商船波段）",
+   "kind": "distress",
+   "text": "Am being bombed by a large number of planes.",
+   "zh": "「正遭大批飞机轰炸。」（船团解散后，驱逐舰在商船波段上收到的第一批呼救之一。）",
+   "sources": [
+    "nh_pq17",
+    "woodman_1994"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "sig.pq17_merchant_2",
+   "at": "1942-07-05T06:05",
+   "from": "PQ 17 商船（商船波段）",
+   "kind": "distress",
+   "text": "Six U-boats approaching on the surface.",
+   "zh": "「六艘 U 艇正以水面状态靠近。」（同一批呼救电文之一，记录于英方船团档案。）",
+   "sources": [
+    "nh_pq17",
+    "woodman_1994"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "sig.pq17_tirpitz_stay",
+   "at": "1942-07-05T12:00",
+   "from": "de.tirpitz",
+   "to": "de.bdu",
+   "kind": "report",
+   "text": "[概述] [Operation Rösselsprung cancelled; the battle group is to return to Altenfjord]",
+   "zh": "「「跳马」行动取消；战斗群返回阿尔塔峡湾。」（提尔皮茨号与舍尔号、希佩尔号在 7 月 5 日出港后即被召回——PQ 17 已在一天前被英国海军部自己的三道电令解散。这是整场战役里最沉重的一次「不战而胜」。方括号内为命令要点。）",
+   "sources": [
+    "roskill_1956",
+    "nh_pq17",
+    "woodman_1994"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "sig.laconia_sss",
+   "at": "1942-09-12T22:22",
+   "from": "拉科尼亚号（RMS Laconia）",
+   "kind": "distress",
+   "text": "SSS SSS 0434 South / 1125 West Laconia torpedoed.",
+   "zh": "「SSS SSS 南纬 04°34′／西经 11°25′ 拉科尼亚号被鱼雷击中。」（「SSS」是「遭潜艇攻击」的专用信号；这封电报被多艘船只与多个岸台收到，也把 U-156 引向了救援。）",
+   "sources": [
+    "peillard_1983",
+    "blair_1998"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "sig.laconia_hartenstein",
+   "at": "1942-09-13T01:25",
+   "from": "de.u156",
+   "to": "de.bdu",
+   "kind": "radio",
+   "text": "Sunk by Hartenstein, British Laconia, Qu FF7721, 310 deg. Unfortunately with 1,500 Italian POWs; 90 fished out of the water so far. Request orders.",
+   "zh": "「哈滕施泰因击沉英国船拉科尼亚号，方格 FF7721，方位 310。不幸的是船上有一千五百名意大利战俘；目前已捞起九十人。请求指示。」（这封电报促成了邓尼茨的救援命令，也引来了美军 B-24 的轰炸。）",
+   "sources": [
+    "peillard_1983",
+    "blair_1998",
+    "doenitz_memoir_1958"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "sig.laconia_open_broadcast",
+   "at": "1942-09-13T06:00",
+   "from": "de.u156",
+   "kind": "distress",
+   "text": "If any ship will assist the shipwrecked Laconia crew I will not attack her, providing I am not being attacked by ship or air force. I picked up 193 men. 4°-53\" South, 11°-26\" West. – German submarine.",
+   "zh": "「任何前来救援拉科尼亚号遇难船员的船只，只要不遭到舰艇或飞机的攻击，我不会攻击它。我已捞起一百九十三人。南纬 4°53′，西经 11°26′。——德国潜艇。」（用英语在 25 米波段明码广播；弗里敦的英方电台收到但以为是诡计。）",
+   "sources": [
+    "peillard_1983",
+    "blair_1998"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "sig.laconia_order",
+   "at": "1942-09-17T12:00",
+   "from": "de.bdu",
+   "kind": "order",
+   "text": "All efforts to save survivors of sunken ships, such as the fishing out of swimming men and putting them on board lifeboats, the righting of overturned lifeboats, or the handing over of food and water, must stop. Rescue contradicts the most basic demands of the war: the destruction of hostile ships and their crews. The orders concerning the bringing-in of captains and chief engineers stay in effect. Survivors are to be saved only if their statements are important for the boat. Be harsh. Remember that the enemy has no regard for women and children when bombing German cities!",
+   "zh": "「一切抢救沉船幸存者的努力——包括打捞落水者、把救生艇扶正、给予食物与饮水——统统停止。救援与战争最基本的要求相矛盾：摧毁敌船及其船员。关于带走船长与轮机长的命令继续有效。只有当幸存者的口供对艇有用时才施救。要强硬。记住敌人在轰炸德国城市时对妇女儿童毫无顾忌！」（「拉科尼亚命令」全文；纽伦堡审判以此起诉邓尼茨，但法庭认定证据不足以证明他蓄意杀害幸存者。）",
+   "sources": [
+    "nuremberg_imt_blue",
+    "doenitz_memoir_1958",
+    "peillard_1983"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "sig.torch_u_boats",
+   "at": "1942-11-08T06:00",
+   "from": "de.bdu",
+   "to": "de.u552",
+   "kind": "order",
+   "text": "[概述] [All boats in the Atlantic west of 20 degrees are to proceed to the Gibraltar area]",
+   "zh": "「大西洋西经 20 度以西的所有艇向直布罗陀海域集中。」（火炬行动当夜邓尼茨的命令。二十五艘大西洋 U 艇被南调，北大西洋只余十艘，船团航线的攻势几乎停摆。方括号内为命令要点。）",
+   "sources": [
+    "roskill_1956",
+    "mori_battle_atlantic",
+    "ktb_skl"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "sig.churchill_atlantic_conference",
+   "at": "1943-03-01T10:00",
+   "from": "温斯顿·丘吉尔（W. S. Churchill）",
+   "to": "富兰克林·罗斯福（F. D. Roosevelt）",
+   "kind": "diplomatic",
+   "text": "[概述] [The gravest danger of the whole war is the U-boat campaign; we must close the mid-Atlantic gap with very-long-range aircraft]",
+   "zh": "「整场战争中最严重的危险是 U 艇战役；我们必须用超远程飞机封住中大西洋空白区。」（华盛顿大西洋护航会议开幕时英方立场的要点。这次会议把北大西洋船团的护航责任基本交给英加，美国转向中南大西洋与护航航母支援群。方括号内为立场摘要，非电报原文。）",
+   "sources": [
+    "grand_strategy_2",
+    "roskill_1956",
+    "mori_atlantic_won"
+   ],
+   "confidence": "low"
+  },
+  {
+   "id": "sig.hx229_sighting",
+   "at": "1943-03-16T09:15",
+   "from": "de.u338",
+   "to": "de.bdu",
+   "kind": "radio",
+   "text": "[概述] [Convoy in sight, grid BD 3115, course 070, speed 9 knots]",
+   "zh": "「发现船团，方格 BD 3115，航向 070，航速 9 节。」（HX 229 的接触报告，接着邓尼茨立即下令「劳布格拉夫」群追击、「施蒂尔默」与「德伦格」群西进。方括号内为按短信号格式写的摘要。）",
+   "sources": [
+    "rohwer_critical",
+    "blair_1998",
+    "roskill_1956"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "sig.roosevelt_liberators",
+   "at": "1943-03-18T14:00",
+   "from": "美国总统罗斯福（F. D. Roosevelt）",
+   "to": "us.atl",
+   "kind": "order",
+   "text": "[概述] [Transfer sixty B-24 Liberators from the Pacific to the Atlantic for anti-submarine work]",
+   "zh": "「从太平洋抽调六十架 B-24 解放者到北大西洋执行反潜任务。」（罗斯福直接给金上将的命令，是他二战中仅有的两次直接干预之一。方括号内为命令要点。）",
+   "sources": [
+    "mori_atlantic_won",
+    "roskill_1956",
+    "king_usnavy_at_war"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "sig.hx229_greatest",
+   "at": "1943-03-19T18:00",
+   "from": "德国广播（Deutsche Rundfunk）",
+   "kind": "report",
+   "text": "Die grösste Geleitzugschlacht aller Zeiten.",
+   "zh": "「有史以来最大的船团战。」（德方广播对 HX 229／SC 122 战果的宣传用语；英方战史后来沿用这个说法。）",
+   "sources": [
+    "roskill_1956",
+    "rohwer_critical"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "sig.hx229_sc122_crisis",
+   "at": "1943-03-20T12:00",
+   "from": "英国海军部",
+   "to": "gb.wa",
+   "kind": "report",
+   "text": "It appeared possible that we should not be able to regard convoy as an effective system of defence.",
+   "zh": "「看来我们可能无法再把船团视为有效的防御制度。」（HX 229／SC 122 之后的内部评估；英国一度认真讨论放弃船团制。这句话常被引用为 1943 年 3 月危机的最直白表述。）",
+   "sources": [
+    "roskill_1956",
+    "rohwer_critical",
+    "wiki_en_black_may"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "sig.biscay_u338_halifax",
+   "at": "1943-03-22T09:58",
+   "from": "de.u338",
+   "to": "de.bdu",
+   "kind": "report",
+   "text": "[概述] [Attacked by Halifax; one aircraft shot down; boat slightly damaged]",
+   "zh": "「遭哈利法克斯式机攻击，击落敌机一架，本艇轻伤。」（U-338 在比斯开湾外海以 20 毫米高炮击落 502 中队 B 机，机上八人中仅一名飞行工程师被救起；这是「上浮对抗」短暂奏效的少数例子。方括号内为报告要点。）",
+   "sources": [
+    "uboat_net",
+    "blair_1998"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "sig.roslill_march",
+   "at": "1943-04-01T12:00",
+   "from": "英国海军部战史处（S. W. Roskill）",
+   "kind": "report",
+   "text": "The Germans never came so near to disrupting communications between the New World and the Old as in the first twenty days of March 1943.",
+   "zh": "「德国人从未像 1943 年 3 月头二十天那样接近切断新旧大陆之间的交通。」（英国官方战史家罗斯基尔的结论，后来成为描述三月危机的标准引语。）",
+   "sources": [
+    "roskill_1956",
+    "battleatlantic_1946"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "sig.biscay_derange",
+   "at": "1943-04-13T06:00",
+   "from": "英国海岸司令部",
+   "kind": "order",
+   "text": "[概述] [Operation Derange: continuous ASV III patrols over the Bay of Biscay transit routes]",
+   "zh": "「德兰奇作战：以装有 ASV III 厘米波雷达的飞机持续巡逻比斯开湾的 U 艇出入航道。」（德军 Metox 告警器只能探测米波，无法预警厘米波雷达；邓尼茨命令 U 艇上浮对空作战，「高炮艇」损失惨重。方括号内为命令要点。）",
+   "sources": [
+    "roskill_1960",
+    "blair_1998",
+    "hinsley_1988"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "sig.biscay_metox",
+   "at": "1943-05-03T08:00",
+   "from": "de.bdu",
+   "kind": "order",
+   "text": "[概述] [Boats in the Biscay are to remain on the surface and fight it out with aircraft; do not dive]",
+   "zh": "「比斯开湾的艇应留在水面与飞机对抗；不要下潜。」（邓尼茨对「高炮艇」的指示。结果是五月里五艘被击沉、七艘被迫返航——上浮对抗厘米波雷达巡逻机是失败的战术。方括号内为命令要点。）",
+   "sources": [
+    "roskill_1960",
+    "blair_1998",
+    "hinsley_1988"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "sig.ons5_support",
+   "at": "1943-05-05T18:30",
+   "from": "gb.wa",
+   "to": "gb.belfast",
+   "kind": "report",
+   "text": "[概述] [Support group in contact, U-boat surfaced, engaging with gunfire]",
+   "zh": "「支援群已接触目标，U 艇在水面，正以炮火攻击。」（第 1 支援群的典型战报格式。ONS 5 一役共有六艘 U 艇被击沉，多由 B7 护航群与第 1、第 3 支援群协同击沉。方括号内为内容摘要。）",
+   "sources": [
+    "roskill_1956",
+    "blair_1998"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "sig.ons5_call_off",
+   "at": "1943-05-06T12:00",
+   "from": "de.bdu",
+   "kind": "order",
+   "text": "[概述] [Break off the operation against ONS 5. Finke group to retire.]",
+   "zh": "「停止对 ONS 5 的进攻。芬克群撤退。」（五月六日船团进入岸基航空兵覆盖圈，邓尼茨下令放弃追击。方括号内为战史转述的命令内容。）",
+   "sources": [
+    "roskill_1956",
+    "blair_1998",
+    "wiki_en_ons5"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "sig.sc130_hedgehog",
+   "at": "1943-05-19T18:30",
+   "from": "第 1 支援群（1st Support Group）",
+   "to": "gb.wa",
+   "kind": "report",
+   "text": "[概述] [Hedgehog attack by Sennen and Jed — probable kill]",
+   "zh": "「森嫩号与杰德号以刺猬弹攻击——可能击沉。」（SC 130 战斗中 U-954 被刺猬弹击沉，邓尼茨之子彼得随艇阵亡。方括号内为战报要点。）",
+   "sources": [
+    "roskill_1956",
+    "blair_1998",
+    "hague_convoy"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "sig.bdu_withdraw_24may",
+   "at": "1943-05-24T12:00",
+   "from": "de.bdu",
+   "kind": "order",
+   "text": "[概述] [Suspend operations in the North Atlantic. The withdrawal is temporary, to avoid unnecessary losses in a period when our weapons are shown to be at a disadvantage. The battle in the north Atlantic — the decisive area — will be resumed.]",
+   "zh": "「暂停北大西洋作战。撤退是暂时的，是为避免在我方武器明显处于劣势的时期遭受不必要的损失。北大西洋——决定性海域——的战斗将会恢复。」（邓尼茨五月二十四日的命令；「黑色五月」以这道命令告终。方括号内为命令要点的译文，非逐字原文。）",
+   "sources": [
+    "roskill_1956",
+    "doenitz_memoir_1958",
+    "wiki_en_black_may"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "sig.bdu_lost_atlantic",
+   "at": "1943-05-24T18:00",
+   "from": "de.bdu",
+   "kind": "report",
+   "text": "We had lost the Battle of the Atlantic.",
+   "zh": "「我们输掉了大西洋海战。」（邓尼茨对幕僚的结论；德方战史与英美战史都引用了这句话。）",
+   "sources": [
+    "doenitz_memoir_1958",
+    "roskill_1956",
+    "wiki_en_black_may"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "sig.biscay_second_offensive",
+   "at": "1943-07-30T09:00",
+   "from": "英国海岸司令部",
+   "kind": "report",
+   "text": "[概述] [Second Biscay offensive: patrol density of dozens of sorties a day; U-boats to be engaged on transit]",
+   "zh": "「比斯开湾第二次攻势：每日数十架次巡逻，凡出入航道上发现的 U 艇一律攻击。」（「火枪射击」「海蛞蝓」等连续行动把巡逻密度推高；德军改用 Hs 293 滑翔炸弹反击，8 月击沉英舰埃格灵顿号。方括号内为作战要点。）",
+   "sources": [
+    "roskill_1960",
+    "blair_1998"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "sig.leuthen_t5",
+   "at": "1943-09-15T20:00",
+   "from": "de.bdu",
+   "kind": "order",
+   "text": "[概述] [Use acoustic torpedoes against escorts first, then attack the merchant ships]",
+   "zh": "「先用声自导鱼雷打护航舰，再攻击商船。」（「莱特恩」狼群首次大规模使用 T5／「鹪鹩」声自导鱼雷。头两天击沉六艘商船与三艘护航舰，随后被支援群与护航航母击退。）",
+   "sources": [
+    "roskill_1960",
+    "blair_1998",
+    "rohwer_chronology"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "sig.north_cape_dawn",
+   "at": "1943-12-26T08:40",
+   "from": "gb.belfast",
+   "to": "gb.duke_of_york",
+   "kind": "report",
+   "text": "[概述] [Radar contact, large unit, bearing 010, range 32,000 yards — shadowing]",
+   "zh": "「雷达接触，大型目标，方位 010，距离三万二千码——保持跟踪。」（贝尔法斯特号在 08:40 前后以雷达发现沙恩霍斯特号，随后伯内特的巡洋舰分队与德舰在约 12,000 米距离交火；本包示意航迹把两舰画得更远，射击记录只取雷达接触与战报，不再单列炮火时段。）",
+   "sources": [
+    "roskill_1960",
+    "nh_ship_histories",
+    "gazette_38038"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "sig.bey_surrounded",
+   "at": "1943-12-26T17:24",
+   "from": "de.scharnhorst",
+   "to": "de.bdu",
+   "kind": "radio",
+   "text": "[概述] [Am surrounded by heavy units]",
+   "zh": "「我被主力舰包围。」（贝少将的求援电报；此时约克公爵号与牙买加号正从南面、贝尔法斯特号与诺福克号从北面同时射击。方括号内为战史转述的报文。）",
+   "sources": [
+    "roskill_1960",
+    "gazette_38038"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "sig.bey_last_shell",
+   "at": "1943-12-26T18:25",
+   "from": "de.scharnhorst",
+   "to": "de.bdu",
+   "kind": "radio",
+   "text": "We will fight on until the last shell is fired.",
+   "zh": "「我们将战斗到打出最后一发炮弹。」（贝少将的最后一封电报，发出时舰体已中弹、航速掉到 10 节。）",
+   "sources": [
+    "roskill_1960",
+    "gazette_38038"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "sig.fraser_scharnhorst_sunk",
+   "at": "1943-12-26T20:30",
+   "from": "gb.duke_of_york",
+   "to": "gb.wa",
+   "kind": "report",
+   "text": "Scharnhorst sunk.",
+   "zh": "「沙恩霍斯特号已沉没。」（弗雷泽上将至海军部的电报；海军部的回电是「精彩，干得好」。）",
+   "sources": [
+    "roskill_1960",
+    "nh_ship_histories",
+    "gazette_38038"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "sig.fraser_stord",
+   "at": "1943-12-26T22:00",
+   "from": "gb.duke_of_york",
+   "to": "gb.wa",
+   "kind": "report",
+   "text": "Please convey to the C-in-C Norwegian Navy. Stord played a very daring role in the fight and I am very proud of her.",
+   "zh": "「请转告挪威海军总司令：斯托德号在这场战斗中表现得极为勇敢，我为您感到骄傲。」（弗雷泽上将在战后发给海军部的电报。）",
+   "sources": [
+    "roskill_1960",
+    "gazette_38038"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "sig.schnorchel_order",
+   "at": "1944-03-01T12:00",
+   "from": "de.bdu",
+   "kind": "order",
+   "text": "[概述] [All boats are to be fitted with the Schnorchel before the next patrol]",
+   "zh": "「所有艇在下一次巡逻前必须装设通气管。」（通气管让柴油机可在潜望镜深度进气排气，U 艇不必再浮出水面充电；但它只能让艇活下来，不能恢复战果——通气管状态航速不到六节。）",
+   "sources": [
+    "roskill_1961",
+    "uboat_net_technical",
+    "blair_1998"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "sig.u549_last",
+   "at": "1944-05-29T21:35",
+   "from": "de.u549",
+   "to": "de.bdu",
+   "kind": "radio",
+   "text": "[概述] [Carrier sunk. Depth charges close. Am being hunted.]",
+   "zh": "「击沉航母一艘。深水炸弹逼近，正被追击。」（U-549 的最后一次发报；数分钟后被「埃尔莫尔」号与「阿伦斯」号击沉。方括号内为内容摘要。）",
+   "sources": [
+    "uboat_net",
+    "mori_atlantic_won"
+   ],
+   "confidence": "low"
+  },
+  {
+   "id": "sig.block_island_loss",
+   "at": "1944-05-29T22:00",
+   "from": "us.atl",
+   "kind": "report",
+   "text": "[概述] [Block Island sunk by torpedo; 6 dead; U-boat destroyed by escorts]",
+   "zh": "「布洛克岛号中雷沉没，6 人死亡；U 艇已被护航舰击沉。」（大西洋舰队司令部的通报要点。它是美国海军在大西洋损失的唯一一艘护航航母；U-549 全艇 57 人阵亡。）",
+   "sources": [
+    "mori_atlantic_won",
+    "uboat_net",
+    "nh_ship_histories"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "sig.elektro_delay",
+   "at": "1944-06-01T12:00",
+   "from": "de.bdu",
+   "kind": "report",
+   "text": "[概述] [The first Type XXI will not be operational before the autumn; the training and the dockyards are the bottleneck]",
+   "zh": "「第一批 XXI 型艇不会在秋季之前具备作战能力；瓶颈在训练与船厂。」（XXI 型与 XXIII 型最终无一完成有效作战巡逻。方括号内为报告要点。）",
+   "sources": [
+    "roskill_1961",
+    "uboat_net_types",
+    "roessler_uboot"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "sig.u505_capture_report",
+   "at": "1944-06-04T13:00",
+   "from": "us.guadalcanal",
+   "to": "us.atl",
+   "kind": "report",
+   "text": "[概述] [U-boat captured intact; boarding party aboard; codebooks and machine secured. Request instructions regarding secrecy.]",
+   "zh": "「敌艇被完整俘获，登艇组已在艇上，密码本与机器已到手。请示保密处置。」（加勒里上校的初步报告要点。金上将得知后曾考虑把加勒里送军事法庭，因为担心这次俘获会让德方察觉密码已泄；最终这批材料被封存到战后。）",
+   "sources": [
+    "mori_atlantic_won",
+    "uboat_net",
+    "sebag_2000"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "sig.normandy_u_boat_order",
+   "at": "1944-06-06T04:30",
+   "from": "de.bdu",
+   "kind": "order",
+   "text": "[概述] [All boats in the Channel to attack the invasion fleet; do not wait for further orders]",
+   "zh": "「海峡内所有艇立即攻击登陆舰队，不必等待进一步命令。」（诺曼底登陆日凌晨给比斯开湾与挪威各艇的命令要点。三十六艘艇出击，十三艘被击沉，只击沉八艘舰船。方括号内为内容摘要。）",
+   "sources": [
+    "roskill_1961",
+    "mori_atlantic_won",
+    "nh_normandy"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "sig.normandy_u_boats_fail",
+   "at": "1944-06-30T12:00",
+   "from": "de.bdu",
+   "kind": "report",
+   "text": "[概述] [Of 36 boats committed off Normandy, 13 have been sunk; eight enemy ships sunk in return]",
+   "zh": "「诺曼底海域投入三十六艘艇，已损失十三艘；换取击沉敌舰八艘。」（邓尼茨给最高统帅部的战果与损失对照。面对五千三百余艘参战舰船与密集空中巡逻，U 艇已无法影响登陆。）",
+   "sources": [
+    "roskill_1961",
+    "mori_atlantic_won",
+    "battleatlantic_1946"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "sig.normandy_channel_closed",
+   "at": "1944-07-01T06:00",
+   "from": "英国海军部",
+   "to": "gb.wa",
+   "kind": "report",
+   "text": "[概述] [The western Channel is closed by air patrols, mines and escort forces; U-boats must round Scotland]",
+   "zh": "「英吉利海峡西口已由空中巡逻、水雷与护航兵力封锁；U 艇必须绕行苏格兰。」（登陆后盟军的反潜封锁要点。绕行使 U 艇南下航程增加一周以上，多数通气管艇在途中即被发现。方括号内为内容摘要。）",
+   "sources": [
+    "roskill_1961",
+    "nh_normandy",
+    "mori_atlantic_won"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "sig.bases_lost",
+   "at": "1944-08-25T18:00",
+   "from": "de.bdu",
+   "kind": "order",
+   "text": "[概述] [Boats unable to reach Norway are to be scuttled; the Biscay bases are lost]",
+   "zh": "「无法驶往挪威的艇应自沉；比斯开湾基地已失。」（波尔多 8 月 25 日被收复、布雷斯特 9 月易手后，三十艘残余 U 艇撤往挪威。方括号内为命令要点。）",
+   "sources": [
+    "roskill_1961",
+    "battleatlantic_1946",
+    "grand_strategy_5"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "sig.norway_patrols",
+   "at": "1944-09-01T12:00",
+   "from": "de.bdu",
+   "kind": "report",
+   "text": "[概述] [Sixty-eight patrols from Norway in the second half of 1944; sixteen boats lost, few results]",
+   "zh": "「1944 年下半年从挪威出航六十八次巡逻，损失十六艘，战果寥寥。」（法国基地失守后航程增加数天，留在大洋的时间缩短；通气管让艇能存活，却无法改变战果。）",
+   "sources": [
+    "roskill_1961",
+    "blair_1998"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "sig.u864_last_cargo",
+   "at": "1945-02-05T12:00",
+   "from": "de.u864",
+   "to": "de.bdu",
+   "kind": "report",
+   "text": "[概述] [Cargo for Japan: Messerschmitt parts, mercury, optical instruments; sailing from Bergen]",
+   "zh": "「运往日本的货物：梅塞施密特部件、水银、光学仪器；自卑尔根出航。」（U-864 的「凯撒」行动。四天后它在卑尔根以西被英国潜艇「冒险者」号以水下鱼雷击沉，73 人无人生还。）",
+   "sources": [
+    "uboat_net",
+    "nh_ship_histories",
+    "roskill_1961"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "sig.doenitz_ceasefire",
+   "at": "1945-05-04T18:00",
+   "from": "de.bdu",
+   "kind": "order",
+   "text": "[概述] [Cease combat operations. All U-boats are to surface and proceed to the nearest Allied port or to a designated Norwegian port.]",
+   "zh": "「停止作战。所有 U 艇上浮，驶往最近的盟军港口或指定的挪威港口。」（邓尼茨在吕讷堡荒原投降后下达的停火令。命令经海军通信网播发，但并非每艘艇都收到。方括号内为内容摘要。）",
+   "sources": [
+    "roskill_1961",
+    "battleatlantic_1946",
+    "uboat_net_fates"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "sig.regenbogen",
+   "at": "1945-05-05T08:00",
+   "from": "de.bdu",
+   "kind": "order",
+   "text": "[概述] [Rainbow: scuttle the boats rather than let them fall into enemy hands.]",
+   "zh": "「彩虹：宁可自沉，也不让艇落入敌手。」（战前就有的自沉预案，五月四日被撤销，但许多艇长仍执行。战争结束时共二百二十二艘 U 艇被己方凿沉，一百五十六艘投降。）",
+   "sources": [
+    "uboat_net_fates",
+    "battleatlantic_1946",
+    "nuremberg_imt_blue"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "sig.u320_last_boat",
+   "at": "1945-05-07T10:30",
+   "from": "第 210 中队卡塔琳娜机（Catalina X/210）",
+   "to": "gb.wa",
+   "kind": "report",
+   "text": "[概述] [Depth-charge attack on U-boat in 61°32'N 01°53'E; boat damaged, appears unable to dive]",
+   "zh": "「在 61°32′N 01°53′E 对 U 艇实施深水炸弹攻击；艇体受损，似已无法下潜。」（U-320 是最后一艘在战斗中被击沉的 U 艇；艇员次日凌晨弃艇自沉，全体生还。）",
+   "sources": [
+    "nh_ship_histories",
+    "uboat_net",
+    "roskill_1961"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "sig.last_ships_warning",
+   "at": "1945-05-07T20:50",
+   "from": "EN 491 船团护航舰",
+   "kind": "distress",
+   "text": "[概述] [Torpedo hit on Sneland I; Avondale Park torpedoed; U-boat inside the Firth]",
+   "zh": "「斯内兰一号中雷；阿冯代尔公园号中雷；U 艇已进入福斯湾。」（护航舰在投降生效前约二十五小时发出的警报。这两艘是二战中被潜艇击沉的最后一批盟国商船。）",
+   "sources": [
+    "uboat_net",
+    "nh_ship_histories",
+    "battleatlantic_1946"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "sig.u2336_did_not_hear",
+   "at": "1945-05-07T21:10",
+   "from": "de.u2336",
+   "to": "de.bdu",
+   "kind": "radio",
+   "text": "[概述] [Two ships sunk off the Isle of May; returning to base]",
+   "zh": "「在梅岛外击沉两艘船，正在返航。」（U-2336 的战后报告要点。艇长希尔比希声称未收到停火令——这道命令经海军通信网播发，而 U-2336 当时在福斯湾内，通信条件极差。方括号内为内容摘要。）",
+   "sources": [
+    "uboat_net",
+    "nh_ship_histories"
+   ],
+   "confidence": "low"
+  },
+  {
+   "id": "sig.deadlight",
+   "at": "1945-05-08T22:01",
+   "from": "同盟国海军指挥部",
+   "kind": "order",
+   "text": "All forces under German control to cease active operations at 23:01 hours Central European Time on 8 May 1945.",
+   "zh": "「德国控制下的所有部队自 1945 年 5 月 8 日中欧时间 23:01 起停止作战行动。」（投降书原文的关键条款。中欧时间 23:01 折成 UTC 即 22:01，与本包事件表 e.german_surrender 一致；此后投降的 U 艇在 1945 年 11 月至 1946 年 2 月的「死光行动」中被凿沉 116 艘。）",
+   "sources": [
+    "nuremberg_imt_blue",
+    "battleatlantic_1946",
+    "uboat_net_fates"
+   ],
+   "confidence": "high"
+  }
+ ]
+}

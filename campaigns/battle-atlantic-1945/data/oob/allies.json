@@ -1,0 +1,8421 @@
+[
+ {
+  "id": "gb.hood",
+  "side": "GB",
+  "echelon": "ship",
+  "type": "naval",
+  "parent": "gb.wa",
+  "name": {
+   "zh": "胡德号战列巡洋舰",
+   "orig": "HMS Hood",
+   "short": "Hood"
+  },
+  "model": "navy_token",
+  "ship": {
+   "kind": "battlecruiser",
+   "class": {
+    "zh": "海军上将级",
+    "orig": "Admiral-class"
+   },
+   "lengthM": 262.0,
+   "beamM": 31.7,
+   "tonnage": 42670,
+   "tonnageKind": "std",
+   "maxKn": 31.0,
+   "crew": 1418,
+   "silhouette": "battlecruiser",
+   "weapons": [
+    {
+     "id": "A",
+     "label": "前主炮塔「A」（双联装 15 英寸）",
+     "cal": "15 in BL Mk I",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 2,
+     "rangeKm": 29.0,
+     "atPct": 22
+    },
+    {
+     "id": "B",
+     "label": "前主炮塔「B」（双联装 15 英寸）",
+     "cal": "15 in BL Mk I",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 2,
+     "rangeKm": 29.0,
+     "atPct": 33
+    },
+    {
+     "id": "X",
+     "label": "后主炮塔「X」（双联装 15 英寸）",
+     "cal": "15 in BL Mk I",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 2,
+     "rangeKm": 29.0,
+     "atPct": 70
+    },
+    {
+     "id": "Y",
+     "label": "后主炮塔「Y」（双联装 15 英寸）",
+     "cal": "15 in BL Mk I",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 2,
+     "rangeKm": 29.0,
+     "atPct": 80
+    },
+    {
+     "id": "sec",
+     "label": "4 英寸高射炮（单装 ×14）",
+     "cal": "4 in QF Mk XVI",
+     "kind": "secondary",
+     "mounts": 14,
+     "perMount": 1,
+     "rangeKm": 15.0
+    },
+    {
+     "id": "aa",
+     "label": "2 磅「乒乓」高射炮（单装 ×4）",
+     "cal": "40 mm Vickers",
+     "kind": "aa",
+     "mounts": 4,
+     "perMount": 1,
+     "rangeKm": 6.4
+    },
+    {
+     "id": "tt",
+     "label": "21 英寸鱼雷发射管（四联装 ×2，水上）",
+     "cal": "21 in Mk IV",
+     "kind": "torpedo",
+     "mounts": 2,
+     "perMount": 4,
+     "rangeKm": 13.7,
+     "atPct": 55
+    }
+   ]
+  },
+  "track": [
+   {
+    "at": "1941-05-22T12:00",
+    "pos": [
+     -4.5,
+     60.0
+    ],
+    "status": "active",
+    "course": 299.3,
+    "speedKn": 20.4
+   },
+   {
+    "at": "1941-05-22T13:14",
+    "pos": [
+     -5.235,
+     60.203
+    ],
+    "status": "engaged",
+    "course": 299.3,
+    "speedKn": 20.4
+   },
+   {
+    "at": "1941-05-22T14:29",
+    "pos": [
+     -5.969,
+     60.406
+    ],
+    "status": "engaged",
+    "course": 299.6,
+    "speedKn": 19.9
+   },
+   {
+    "at": "1941-05-22T15:44",
+    "pos": [
+     -6.704,
+     60.609
+    ],
+    "status": "engaged",
+    "course": 299.6,
+    "speedKn": 19.9
+   },
+   {
+    "at": "1941-05-22T16:59",
+    "pos": [
+     -7.438,
+     60.812
+    ],
+    "status": "engaged",
+    "course": 300.1,
+    "speedKn": 20.0
+   },
+   {
+    "at": "1941-05-22T18:13",
+    "pos": [
+     -8.172,
+     61.016
+    ],
+    "status": "engaged",
+    "course": 300.1,
+    "speedKn": 20.0
+   },
+   {
+    "at": "1941-05-22T19:28",
+    "pos": [
+     -8.906,
+     61.219
+    ],
+    "status": "engaged",
+    "course": 300.3,
+    "speedKn": 19.5
+   },
+   {
+    "at": "1941-05-22T20:43",
+    "pos": [
+     -9.64,
+     61.422
+    ],
+    "status": "engaged",
+    "course": 300.3,
+    "speedKn": 19.5
+   },
+   {
+    "at": "1941-05-22T21:58",
+    "pos": [
+     -10.375,
+     61.625
+    ],
+    "status": "engaged",
+    "course": 301.0,
+    "speedKn": 19.4
+   },
+   {
+    "at": "1941-05-23T00:27",
+    "pos": [
+     -11.844,
+     62.031
+    ],
+    "status": "engaged",
+    "course": 301.4,
+    "speedKn": 19.1
+   },
+   {
+    "at": "1941-05-23T02:57",
+    "pos": [
+     -13.312,
+     62.438
+    ],
+    "status": "engaged",
+    "course": 301.7,
+    "speedKn": 19.0
+   },
+   {
+    "at": "1941-05-23T05:26",
+    "pos": [
+     -14.781,
+     62.844
+    ],
+    "status": "engaged",
+    "course": 302.0,
+    "speedKn": 18.7
+   },
+   {
+    "at": "1941-05-23T07:56",
+    "pos": [
+     -16.25,
+     63.25
+    ],
+    "status": "engaged",
+    "course": 302.4,
+    "speedKn": 18.7
+   },
+   {
+    "at": "1941-05-23T10:25",
+    "pos": [
+     -17.719,
+     63.656
+    ],
+    "status": "engaged",
+    "course": 302.8,
+    "speedKn": 18.3
+   },
+   {
+    "at": "1941-05-23T12:55",
+    "pos": [
+     -19.188,
+     64.062
+    ],
+    "status": "engaged",
+    "course": 303.2,
+    "speedKn": 18.3
+   },
+   {
+    "at": "1941-05-23T15:24",
+    "pos": [
+     -20.656,
+     64.469
+    ],
+    "status": "engaged",
+    "course": 303.5,
+    "speedKn": 18.0
+   },
+   {
+    "at": "1941-05-23T17:54",
+    "pos": [
+     -22.125,
+     64.875
+    ],
+    "status": "engaged",
+    "course": 303.9,
+    "speedKn": 17.9
+   },
+   {
+    "at": "1941-05-23T20:23",
+    "pos": [
+     -23.594,
+     65.281
+    ],
+    "status": "engaged",
+    "course": 304.4,
+    "speedKn": 17.6
+   },
+   {
+    "at": "1941-05-23T22:53",
+    "pos": [
+     -25.062,
+     65.688
+    ],
+    "status": "engaged",
+    "course": 304.8,
+    "speedKn": 17.5
+   },
+   {
+    "at": "1941-05-24T01:22",
+    "pos": [
+     -26.531,
+     66.094
+    ],
+    "status": "engaged",
+    "course": 305.2,
+    "speedKn": 17.2
+   },
+   {
+    "at": "1941-05-24T05:52",
+    "pos": [
+     -28.0,
+     66.5
+    ],
+    "status": "engaged",
+    "course": 243.4,
+    "speedKn": 20.1
+   },
+   {
+    "at": "1941-05-24T06:00",
+    "pos": [
+     -28.1,
+     66.48
+    ],
+    "status": "destroyed",
+    "course": 243.4,
+    "speedKn": 2.0
+   }
+  ],
+  "history": "1941-05-24 丹麦海峡被俾斯麦号击穿弹药库，约六分钟沉没，1418 人中 3 人生还。",
+  "sources": [
+   "gazette_38038",
+   "nh_ship_histories",
+   "uboat_net_allies"
+  ],
+  "confidence": "high",
+  "active": {
+   "from": "1941-05-20T12:00",
+   "to": "1941-05-24T06:00"
+  }
+ },
+ {
+  "id": "gb.courageous",
+  "side": "GB",
+  "echelon": "ship",
+  "type": "naval",
+  "parent": "gb.wa",
+  "name": {
+   "zh": "勇敢号航空母舰",
+   "orig": "HMS Courageous",
+   "short": "Courageous"
+  },
+  "model": "navy_token",
+  "ship": {
+   "kind": "carrier",
+   "class": {
+    "zh": "勇敢级",
+    "orig": "Courageous-class"
+   },
+   "lengthM": 239.6,
+   "beamM": 27.6,
+   "tonnage": 24210,
+   "tonnageKind": "std",
+   "maxKn": 30.0,
+   "crew": 814,
+   "silhouette": "carrier",
+   "weapons": [
+    {
+     "id": "sec",
+     "label": "4.7 英寸炮（单装 ×16）",
+     "cal": "4.7 in QF Mk VIII",
+     "kind": "secondary",
+     "mounts": 16,
+     "perMount": 1,
+     "rangeKm": 15.5
+    },
+    {
+     "id": "aa",
+     "label": "3 英寸高射炮（单装 ×4）",
+     "cal": "3 in QF",
+     "kind": "aa",
+     "mounts": 4,
+     "perMount": 1,
+     "rangeKm": 13.0
+    },
+    {
+     "id": "aa40",
+     "label": "2 磅「乒乓」高射炮（单装 ×4）",
+     "cal": "40 mm Vickers",
+     "kind": "aa",
+     "mounts": 4,
+     "perMount": 1,
+     "rangeKm": 6.4
+    }
+   ]
+  },
+  "track": [
+   {
+    "at": "1939-09-17T12:00",
+    "pos": [
+     -11.0,
+     51.0
+    ],
+    "status": "active",
+    "course": 243.4,
+    "speedKn": 17.7
+   },
+   {
+    "at": "1939-09-17T14:00",
+    "pos": [
+     -11.833,
+     50.733
+    ],
+    "status": "engaged",
+    "course": 243.6,
+    "speedKn": 17.8
+   },
+   {
+    "at": "1939-09-17T16:00",
+    "pos": [
+     -12.667,
+     50.467
+    ],
+    "status": "engaged",
+    "course": 243.7,
+    "speedKn": 17.9
+   },
+   {
+    "at": "1939-09-17T18:00",
+    "pos": [
+     -13.5,
+     50.2
+    ],
+    "status": "engaged",
+    "course": 238.0,
+    "speedKn": 6.8
+   },
+   {
+    "at": "1939-09-17T18:20",
+    "pos": [
+     -13.55,
+     50.18
+    ],
+    "status": "destroyed",
+    "course": 238.0,
+    "speedKn": 6.8
+   }
+  ],
+  "history": "1939-09-17 反潜巡逻时被 U-29 两雷命中，20 分钟沉没，519 人死亡；此后英国航母退出反潜猎杀。",
+  "sources": [
+   "roskill_1954",
+   "nh_ship_histories",
+   "uboat_net_allies"
+  ],
+  "confidence": "high",
+  "active": {
+   "from": "1939-09-15T12:00",
+   "to": "1939-09-17T18:20"
+  }
+ },
+ {
+  "id": "gb.rawalpindi",
+  "side": "GB",
+  "echelon": "ship",
+  "type": "naval",
+  "parent": "gb.wa",
+  "name": {
+   "zh": "拉瓦尔品第号武装商船巡洋舰",
+   "orig": "HMS Rawalpindi",
+   "short": "Rawalpindi"
+  },
+  "model": "navy_token",
+  "ship": {
+   "kind": "auxiliary",
+   "class": {
+    "zh": "P&O R 级改装",
+    "orig": "R-class AMC"
+   },
+   "lengthM": 167.0,
+   "beamM": 20.0,
+   "tonnage": 16697,
+   "tonnageKind": "grt",
+   "maxKn": 17.0,
+   "crew": 276,
+   "silhouette": "merchant",
+   "weapons": [
+    {
+     "id": "main",
+     "label": "6 英寸炮（单装 ×8）",
+     "cal": "6 in BL Mk XII",
+     "kind": "main",
+     "mounts": 8,
+     "perMount": 1,
+     "rangeKm": 23.0
+    },
+    {
+     "id": "aa",
+     "label": "3 英寸高射炮（单装 ×2）",
+     "cal": "3 in QF",
+     "kind": "aa",
+     "mounts": 2,
+     "perMount": 1,
+     "rangeKm": 13.0
+    },
+    {
+     "id": "aa40",
+     "label": "2 磅「乒乓」高射炮（单装 ×2）",
+     "cal": "40 mm Vickers",
+     "kind": "aa",
+     "mounts": 2,
+     "perMount": 1,
+     "rangeKm": 6.4
+    }
+   ]
+  },
+  "track": [
+   {
+    "at": "1939-11-23T12:00",
+    "pos": [
+     -3.8,
+     63.3
+    ],
+    "status": "active",
+    "course": 155.6,
+    "speedKn": 4.9
+   },
+   {
+    "at": "1939-11-23T16:03",
+    "pos": [
+     -3.5,
+     63.0
+    ],
+    "status": "engaged",
+    "course": 137.7,
+    "speedKn": 3.7
+   },
+   {
+    "at": "1939-11-23T16:16",
+    "pos": [
+     -3.48,
+     62.99
+    ],
+    "status": "destroyed",
+    "course": 137.7,
+    "speedKn": 3.7
+   }
+  ],
+  "history": "1939-11-23 在法罗群岛以北遭遇沙恩霍斯特号与格奈森瑙号，拒降后 13 分钟被击沉，238 人死亡。",
+  "sources": [
+   "nh_ship_histories",
+   "roskill_1954",
+   "uboat_net_allies"
+  ],
+  "confidence": "high",
+  "active": {
+   "from": "1939-11-21T12:00",
+   "to": "1939-11-23T16:16"
+  }
+ },
+ {
+  "id": "gb.jervis_bay",
+  "side": "GB",
+  "echelon": "ship",
+  "type": "naval",
+  "parent": "gb.wa",
+  "name": {
+   "zh": "杰维斯湾号武装商船巡洋舰",
+   "orig": "HMS Jervis Bay",
+   "short": "Jervis Bay"
+  },
+  "model": "navy_token",
+  "ship": {
+   "kind": "auxiliary",
+   "class": {
+    "zh": "阿伯丁—英联邦级改装",
+    "orig": "AMC"
+   },
+   "lengthM": 168.0,
+   "beamM": 20.7,
+   "tonnage": 14164,
+   "tonnageKind": "grt",
+   "maxKn": 15.0,
+   "crew": 254,
+   "silhouette": "merchant",
+   "weapons": [
+    {
+     "id": "main",
+     "label": "6 英寸炮（单装 ×7）",
+     "cal": "6 in BL Mk XII",
+     "kind": "main",
+     "mounts": 7,
+     "perMount": 1,
+     "rangeKm": 23.0
+    },
+    {
+     "id": "aa",
+     "label": "3 英寸高射炮（单装 ×2）",
+     "cal": "3 in QF",
+     "kind": "aa",
+     "mounts": 2,
+     "perMount": 1,
+     "rangeKm": 13.0
+    },
+    {
+     "id": "aa40",
+     "label": "2 磅「乒乓」高射炮（单装 ×2）",
+     "cal": "40 mm Vickers",
+     "kind": "aa",
+     "mounts": 2,
+     "perMount": 1,
+     "rangeKm": 6.4
+    }
+   ]
+  },
+  "track": [
+   {
+    "at": "1940-11-05T09:40",
+    "pos": [
+     -32.35,
+     52.62
+    ],
+    "status": "active",
+    "course": 137.7,
+    "speedKn": 0.2
+   },
+   {
+    "at": "1940-11-05T17:00",
+    "pos": [
+     -32.32,
+     52.6
+    ],
+    "status": "engaged",
+    "course": 148.8,
+    "speedKn": 1.4
+   },
+   {
+    "at": "1940-11-05T17:30",
+    "pos": [
+     -32.38,
+     52.56
+    ],
+    "status": "destroyed",
+    "course": 148.8,
+    "speedKn": 1.4
+   }
+  ],
+  "history": "1940-11-05 为掩护 HX 84 独自迎战舍尔号，20 分钟后沉没，190 人阵亡；舰长费根获追授维多利亚十字勋章。",
+  "sources": [
+   "roskill_1954",
+   "hague_convoy",
+   "uboat_net_allies"
+  ],
+  "confidence": "high",
+  "active": {
+   "from": "1940-11-03T09:40",
+   "to": "1940-11-05T17:30"
+  }
+ },
+ {
+  "id": "gb.audacity",
+  "side": "GB",
+  "echelon": "ship",
+  "type": "naval",
+  "parent": "gb.wa",
+  "name": {
+   "zh": "大胆号护航航母",
+   "orig": "HMS Audacity",
+   "short": "Audacity"
+  },
+  "model": "navy_token",
+  "ship": {
+   "kind": "carrier",
+   "class": {
+    "zh": "汉诺威号改装",
+    "orig": "Ex-Hannover"
+   },
+   "lengthM": 142.4,
+   "beamM": 17.1,
+   "tonnage": 11000,
+   "tonnageKind": "std",
+   "maxKn": 15.0,
+   "crew": 480,
+   "silhouette": "carrier",
+   "weapons": [
+    {
+     "id": "main",
+     "label": "4 英寸高射炮（单装 ×1）",
+     "cal": "4 in QF Mk XVI",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 15.0,
+     "atPct": 10
+    },
+    {
+     "id": "aa40",
+     "label": "2 磅「乒乓」高射炮（单装 ×4）",
+     "cal": "40 mm Vickers",
+     "kind": "aa",
+     "mounts": 4,
+     "perMount": 1,
+     "rangeKm": 6.4
+    },
+    {
+     "id": "aa20",
+     "label": "20 毫米厄利孔（单装 ×4）",
+     "cal": "20 mm Oerlikon",
+     "kind": "aa",
+     "mounts": 4,
+     "perMount": 1,
+     "rangeKm": 4.8
+    }
+   ]
+  },
+  "track": [
+   {
+    "at": "1941-12-19T08:00",
+    "pos": [
+     -9.5,
+     36.2
+    ],
+    "status": "active",
+    "course": 312.2,
+    "speedKn": 11.7
+   },
+   {
+    "at": "1941-12-19T10:54",
+    "pos": [
+     -10.02,
+     36.578
+    ],
+    "status": "engaged",
+    "course": 312.3,
+    "speedKn": 11.6
+   },
+   {
+    "at": "1941-12-19T13:48",
+    "pos": [
+     -10.54,
+     36.955
+    ],
+    "status": "engaged",
+    "course": 312.4,
+    "speedKn": 11.6
+   },
+   {
+    "at": "1941-12-19T16:42",
+    "pos": [
+     -11.06,
+     37.332
+    ],
+    "status": "engaged",
+    "course": 312.7,
+    "speedKn": 11.6
+   },
+   {
+    "at": "1941-12-19T19:36",
+    "pos": [
+     -11.58,
+     37.71
+    ],
+    "status": "engaged",
+    "course": 312.8,
+    "speedKn": 11.6
+   },
+   {
+    "at": "1941-12-19T22:30",
+    "pos": [
+     -12.1,
+     38.088
+    ],
+    "status": "engaged",
+    "course": 312.9,
+    "speedKn": 11.5
+   },
+   {
+    "at": "1941-12-20T01:24",
+    "pos": [
+     -12.62,
+     38.465
+    ],
+    "status": "engaged",
+    "course": 313.1,
+    "speedKn": 11.5
+   },
+   {
+    "at": "1941-12-20T04:18",
+    "pos": [
+     -13.14,
+     38.843
+    ],
+    "status": "engaged",
+    "course": 313.2,
+    "speedKn": 11.4
+   },
+   {
+    "at": "1941-12-20T07:12",
+    "pos": [
+     -13.66,
+     39.22
+    ],
+    "status": "engaged",
+    "course": 313.3,
+    "speedKn": 11.4
+   },
+   {
+    "at": "1941-12-20T10:06",
+    "pos": [
+     -14.18,
+     39.597
+    ],
+    "status": "engaged",
+    "course": 313.6,
+    "speedKn": 11.4
+   },
+   {
+    "at": "1941-12-20T13:00",
+    "pos": [
+     -14.7,
+     39.975
+    ],
+    "status": "engaged",
+    "course": 313.7,
+    "speedKn": 11.3
+   },
+   {
+    "at": "1941-12-20T15:54",
+    "pos": [
+     -15.22,
+     40.352
+    ],
+    "status": "engaged",
+    "course": 313.9,
+    "speedKn": 11.3
+   },
+   {
+    "at": "1941-12-20T18:48",
+    "pos": [
+     -15.74,
+     40.73
+    ],
+    "status": "engaged",
+    "course": 314.1,
+    "speedKn": 11.3
+   },
+   {
+    "at": "1941-12-20T21:42",
+    "pos": [
+     -16.26,
+     41.108
+    ],
+    "status": "engaged",
+    "course": 314.2,
+    "speedKn": 11.2
+   },
+   {
+    "at": "1941-12-21T00:36",
+    "pos": [
+     -16.78,
+     41.485
+    ],
+    "status": "engaged",
+    "course": 314.3,
+    "speedKn": 11.2
+   },
+   {
+    "at": "1941-12-21T03:30",
+    "pos": [
+     -17.3,
+     41.862
+    ],
+    "status": "engaged",
+    "course": 314.6,
+    "speedKn": 11.2
+   },
+   {
+    "at": "1941-12-21T06:24",
+    "pos": [
+     -17.82,
+     42.24
+    ],
+    "status": "engaged",
+    "course": 314.7,
+    "speedKn": 11.1
+   },
+   {
+    "at": "1941-12-21T09:18",
+    "pos": [
+     -18.34,
+     42.617
+    ],
+    "status": "engaged",
+    "course": 314.9,
+    "speedKn": 11.1
+   },
+   {
+    "at": "1941-12-21T12:12",
+    "pos": [
+     -18.86,
+     42.995
+    ],
+    "status": "engaged",
+    "course": 315.1,
+    "speedKn": 11.1
+   },
+   {
+    "at": "1941-12-21T15:06",
+    "pos": [
+     -19.38,
+     43.373
+    ],
+    "status": "engaged",
+    "course": 315.2,
+    "speedKn": 11.0
+   },
+   {
+    "at": "1941-12-21T18:00",
+    "pos": [
+     -19.9,
+     43.75
+    ],
+    "status": "engaged",
+    "course": 324.2,
+    "speedKn": 0.9
+   },
+   {
+    "at": "1941-12-21T22:00",
+    "pos": [
+     -19.95,
+     43.8
+    ],
+    "status": "destroyed",
+    "course": 324.2,
+    "speedKn": 0.9
+   }
+  ],
+  "history": "英国第一艘护航航母，1941-12-21 护航 HG 76 时被 U-751 击沉，但其存在已让狼群难以接近船团。",
+  "sources": [
+   "roskill_1954",
+   "nh_ship_histories",
+   "uboat_net_allies"
+  ],
+  "confidence": "high",
+  "equipment": [
+   {
+    "id": "escort_carrier"
+   }
+  ],
+  "active": {
+   "from": "1941-12-17T08:00",
+   "to": "1941-12-21T22:00"
+  }
+ },
+ {
+  "id": "gb.starling",
+  "side": "GB",
+  "echelon": "ship",
+  "type": "naval",
+  "parent": "gb.wa",
+  "name": {
+   "zh": "斯塔林号单桅帆船",
+   "orig": "HMS Starling",
+   "short": "Starling"
+  },
+  "model": "navy_token",
+  "ship": {
+   "kind": "destroyer",
+   "class": {
+    "zh": "改进型黑天鹅级",
+    "orig": "Modified Black Swan"
+   },
+   "lengthM": 91.3,
+   "beamM": 11.7,
+   "tonnage": 1350,
+   "tonnageKind": "std",
+   "maxKn": 20.0,
+   "crew": 192,
+   "silhouette": "destroyer",
+   "weapons": [
+    {
+     "id": "A",
+     "label": "4 英寸高平两用炮（双联装 ×3）",
+     "cal": "4 in QF Mk XVI",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 2,
+     "rangeKm": 15.0,
+     "atPct": 22
+    },
+    {
+     "id": "B",
+     "label": "4 英寸高平两用炮（双联装 ×3）",
+     "cal": "4 in QF Mk XVI",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 2,
+     "rangeKm": 15.0,
+     "atPct": 32
+    },
+    {
+     "id": "X",
+     "label": "4 英寸高平两用炮（双联装 ×3）",
+     "cal": "4 in QF Mk XVI",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 2,
+     "rangeKm": 15.0,
+     "atPct": 74
+    },
+    {
+     "id": "aa40",
+     "label": "2 磅「乒乓」高射炮（四联装 ×2）",
+     "cal": "40 mm Vickers",
+     "kind": "aa",
+     "mounts": 2,
+     "perMount": 4,
+     "rangeKm": 6.4
+    },
+    {
+     "id": "aa20",
+     "label": "20 毫米厄利孔（双联装 ×6）",
+     "cal": "20 mm Oerlikon",
+     "kind": "aa",
+     "mounts": 6,
+     "perMount": 2,
+     "rangeKm": 4.8
+    }
+   ]
+  },
+  "track": [
+   {
+    "at": "1943-04-26T12:00",
+    "pos": [
+     -38.0,
+     59.0
+    ],
+    "status": "active",
+    "course": 226.5,
+    "speedKn": 1.2
+   },
+   {
+    "at": "1943-04-28T00:00",
+    "pos": [
+     -39.0,
+     58.5
+    ],
+    "status": "engaged",
+    "course": 226.5,
+    "speedKn": 1.2
+   },
+   {
+    "at": "1943-04-29T12:00",
+    "pos": [
+     -40.0,
+     58.0
+    ],
+    "status": "engaged",
+    "course": 0.0,
+    "speedKn": 0.0
+   },
+   {
+    "at": "1943-05-05T15:13",
+    "pos": [
+     -40.0,
+     58.0
+    ],
+    "status": "engaged",
+    "course": 195.1,
+    "speedKn": 12.0
+   },
+   {
+    "at": "1943-05-05T18:40",
+    "pos": [
+     -40.333,
+     57.333
+    ],
+    "status": "engaged",
+    "course": 195.1,
+    "speedKn": 12.0
+   },
+   {
+    "at": "1943-05-05T22:08",
+    "pos": [
+     -40.667,
+     56.667
+    ],
+    "status": "engaged",
+    "course": 195.4,
+    "speedKn": 12.0
+   },
+   {
+    "at": "1943-05-06T01:36",
+    "pos": [
+     -41.0,
+     56.0
+    ],
+    "status": "engaged",
+    "course": 195.6,
+    "speedKn": 12.0
+   },
+   {
+    "at": "1943-05-06T05:04",
+    "pos": [
+     -41.333,
+     55.333
+    ],
+    "status": "engaged",
+    "course": 195.9,
+    "speedKn": 12.0
+   },
+   {
+    "at": "1943-05-06T08:32",
+    "pos": [
+     -41.667,
+     54.667
+    ],
+    "status": "engaged",
+    "course": 196.2,
+    "speedKn": 12.0
+   },
+   {
+    "at": "1943-05-06T12:00",
+    "pos": [
+     -42.0,
+     54.0
+    ],
+    "status": "engaged",
+    "course": 0.0,
+    "speedKn": 0.0
+   },
+   {
+    "at": "1943-05-15T17:54",
+    "pos": [
+     -42.0,
+     54.0
+    ],
+    "status": "engaged",
+    "course": 91.0,
+    "speedKn": 12.1
+   },
+   {
+    "at": "1943-05-15T21:50",
+    "pos": [
+     -40.655,
+     53.979
+    ],
+    "status": "active",
+    "course": 91.0,
+    "speedKn": 12.1
+   },
+   {
+    "at": "1943-05-16T01:46",
+    "pos": [
+     -39.31,
+     53.959
+    ],
+    "status": "active",
+    "course": 90.9,
+    "speedKn": 12.1
+   },
+   {
+    "at": "1943-05-16T05:42",
+    "pos": [
+     -37.966,
+     53.938
+    ],
+    "status": "active",
+    "course": 91.0,
+    "speedKn": 12.1
+   },
+   {
+    "at": "1943-05-16T09:38",
+    "pos": [
+     -36.621,
+     53.917
+    ],
+    "status": "active",
+    "course": 91.0,
+    "speedKn": 12.1
+   },
+   {
+    "at": "1943-05-16T13:34",
+    "pos": [
+     -35.276,
+     53.897
+    ],
+    "status": "active",
+    "course": 90.9,
+    "speedKn": 12.1
+   },
+   {
+    "at": "1943-05-16T17:30",
+    "pos": [
+     -33.931,
+     53.876
+    ],
+    "status": "active",
+    "course": 91.0,
+    "speedKn": 12.1
+   },
+   {
+    "at": "1943-05-16T21:26",
+    "pos": [
+     -32.586,
+     53.855
+    ],
+    "status": "active",
+    "course": 91.0,
+    "speedKn": 12.1
+   },
+   {
+    "at": "1943-05-17T01:22",
+    "pos": [
+     -31.241,
+     53.834
+    ],
+    "status": "active",
+    "course": 91.0,
+    "speedKn": 12.1
+   },
+   {
+    "at": "1943-05-17T05:18",
+    "pos": [
+     -29.897,
+     53.814
+    ],
+    "status": "active",
+    "course": 90.9,
+    "speedKn": 12.1
+   },
+   {
+    "at": "1943-05-17T09:14",
+    "pos": [
+     -28.552,
+     53.793
+    ],
+    "status": "active",
+    "course": 91.0,
+    "speedKn": 12.1
+   },
+   {
+    "at": "1943-05-17T13:10",
+    "pos": [
+     -27.207,
+     53.772
+    ],
+    "status": "active",
+    "course": 91.0,
+    "speedKn": 12.1
+   },
+   {
+    "at": "1943-05-17T17:06",
+    "pos": [
+     -25.862,
+     53.752
+    ],
+    "status": "active",
+    "course": 90.9,
+    "speedKn": 12.1
+   },
+   {
+    "at": "1943-05-17T21:02",
+    "pos": [
+     -24.517,
+     53.731
+    ],
+    "status": "active",
+    "course": 91.0,
+    "speedKn": 12.1
+   },
+   {
+    "at": "1943-05-18T00:58",
+    "pos": [
+     -23.172,
+     53.71
+    ],
+    "status": "active",
+    "course": 91.0,
+    "speedKn": 12.2
+   },
+   {
+    "at": "1943-05-18T04:55",
+    "pos": [
+     -21.828,
+     53.69
+    ],
+    "status": "active",
+    "course": 90.9,
+    "speedKn": 12.1
+   },
+   {
+    "at": "1943-05-18T08:51",
+    "pos": [
+     -20.483,
+     53.669
+    ],
+    "status": "active",
+    "course": 91.0,
+    "speedKn": 12.2
+   },
+   {
+    "at": "1943-05-18T12:47",
+    "pos": [
+     -19.138,
+     53.648
+    ],
+    "status": "active",
+    "course": 91.0,
+    "speedKn": 12.2
+   },
+   {
+    "at": "1943-05-18T16:43",
+    "pos": [
+     -17.793,
+     53.628
+    ],
+    "status": "active",
+    "course": 90.9,
+    "speedKn": 12.2
+   },
+   {
+    "at": "1943-05-18T20:39",
+    "pos": [
+     -16.448,
+     53.607
+    ],
+    "status": "active",
+    "course": 91.0,
+    "speedKn": 12.2
+   },
+   {
+    "at": "1943-05-19T00:35",
+    "pos": [
+     -15.103,
+     53.586
+    ],
+    "status": "active",
+    "course": 91.0,
+    "speedKn": 12.2
+   },
+   {
+    "at": "1943-05-19T04:31",
+    "pos": [
+     -13.759,
+     53.566
+    ],
+    "status": "active",
+    "course": 90.9,
+    "speedKn": 12.2
+   },
+   {
+    "at": "1943-05-19T08:27",
+    "pos": [
+     -12.414,
+     53.545
+    ],
+    "status": "active",
+    "course": 91.0,
+    "speedKn": 12.2
+   },
+   {
+    "at": "1943-05-19T12:23",
+    "pos": [
+     -11.069,
+     53.524
+    ],
+    "status": "active",
+    "course": 91.0,
+    "speedKn": 12.2
+   },
+   {
+    "at": "1943-05-19T16:19",
+    "pos": [
+     -9.724,
+     53.503
+    ],
+    "status": "active",
+    "course": 91.0,
+    "speedKn": 12.2
+   },
+   {
+    "at": "1943-05-19T20:15",
+    "pos": [
+     -8.379,
+     53.483
+    ],
+    "status": "active",
+    "course": 90.9,
+    "speedKn": 12.2
+   },
+   {
+    "at": "1943-05-20T00:11",
+    "pos": [
+     -7.034,
+     53.462
+    ],
+    "status": "active",
+    "course": 91.0,
+    "speedKn": 12.2
+   },
+   {
+    "at": "1943-05-20T04:07",
+    "pos": [
+     -5.69,
+     53.441
+    ],
+    "status": "active",
+    "course": 91.0,
+    "speedKn": 12.2
+   },
+   {
+    "at": "1943-05-20T08:03",
+    "pos": [
+     -4.345,
+     53.421
+    ],
+    "status": "active",
+    "course": 90.9,
+    "speedKn": 12.2
+   },
+   {
+    "at": "1943-05-20T12:00",
+    "pos": [
+     -3.0,
+     53.4
+    ],
+    "status": "active",
+    "course": 91.0,
+    "speedKn": 12.2
+   }
+  ],
+  "history": "改进型黑天鹅级单桅帆船，1943 年 4 月 1 日服役，随即成为沃克上校第 2 支援群旗舰。该群不绑定船团，可自由追猎；1943–44 年参加 ONS 5 之后的多次猎杀，是皇家海军战果最高的反潜舰。",
+  "sources": [
+   "roskill_1956",
+   "nh_convoy_escorts",
+   "uboat_net_allies"
+  ],
+  "confidence": "high",
+  "equipment": [
+   {
+    "id": "corvette_flower"
+   }
+  ],
+  "active": {
+   "from": "1943-04-26T12:00",
+   "to": "1943-05-20T12:00"
+  }
+ },
+ {
+  "id": "gb.duke_of_york",
+  "side": "GB",
+  "echelon": "ship",
+  "type": "naval",
+  "parent": "gb.wa",
+  "name": {
+   "zh": "约克公爵号战列舰",
+   "orig": "HMS Duke of York",
+   "short": "Duke of York"
+  },
+  "model": "navy_token",
+  "ship": {
+   "kind": "battleship",
+   "class": {
+    "zh": "英王乔治五世级",
+    "orig": "King George V-class"
+   },
+   "lengthM": 227.1,
+   "beamM": 31.4,
+   "tonnage": 36727,
+   "tonnageKind": "std",
+   "maxKn": 28.3,
+   "crew": 1556,
+   "silhouette": "battleship",
+   "weapons": [
+    {
+     "id": "A",
+     "label": "前主炮塔「A」（四联装 14 英寸）",
+     "cal": "14 in BL Mk VII",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 4,
+     "rangeKm": 35.0,
+     "atPct": 20
+    },
+    {
+     "id": "B",
+     "label": "前主炮塔「B」（双联装 14 英寸，背负）",
+     "cal": "14 in BL Mk VII",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 2,
+     "rangeKm": 35.0,
+     "atPct": 31
+    },
+    {
+     "id": "Y",
+     "label": "后主炮塔「Y」（四联装 14 英寸）",
+     "cal": "14 in BL Mk VII",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 4,
+     "rangeKm": 35.0,
+     "atPct": 78
+    },
+    {
+     "id": "sec",
+     "label": "5.25 英寸高平两用炮（双联装 ×8）",
+     "cal": "5.25 in QF Mk I",
+     "kind": "secondary",
+     "mounts": 8,
+     "perMount": 2,
+     "rangeKm": 21.0
+    },
+    {
+     "id": "aa40",
+     "label": "2 磅「乒乓」高射炮（八联装 ×6）",
+     "cal": "40 mm Vickers",
+     "kind": "aa",
+     "mounts": 6,
+     "perMount": 8,
+     "rangeKm": 6.4
+    }
+   ]
+  },
+  "track": [
+   {
+    "at": "1943-12-25T12:00",
+    "pos": [
+     -5.0,
+     68.0
+    ],
+    "status": "active",
+    "course": 69.3,
+    "speedKn": 25.5
+   },
+   {
+    "at": "1943-12-25T12:25",
+    "pos": [
+     -4.556,
+     68.062
+    ],
+    "status": "active",
+    "course": 69.3,
+    "speedKn": 25.5
+   },
+   {
+    "at": "1943-12-25T12:50",
+    "pos": [
+     -4.111,
+     68.124
+    ],
+    "status": "active",
+    "course": 69.3,
+    "speedKn": 25.5
+   },
+   {
+    "at": "1943-12-25T13:15",
+    "pos": [
+     -3.667,
+     68.187
+    ],
+    "status": "active",
+    "course": 68.9,
+    "speedKn": 25.5
+   },
+   {
+    "at": "1943-12-25T13:40",
+    "pos": [
+     -3.222,
+     68.249
+    ],
+    "status": "active",
+    "course": 69.2,
+    "speedKn": 25.4
+   },
+   {
+    "at": "1943-12-25T14:05",
+    "pos": [
+     -2.778,
+     68.311
+    ],
+    "status": "active",
+    "course": 69.1,
+    "speedKn": 25.3
+   },
+   {
+    "at": "1943-12-25T14:30",
+    "pos": [
+     -2.333,
+     68.373
+    ],
+    "status": "active",
+    "course": 69.1,
+    "speedKn": 25.3
+   },
+   {
+    "at": "1943-12-25T14:55",
+    "pos": [
+     -1.889,
+     68.436
+    ],
+    "status": "active",
+    "course": 68.7,
+    "speedKn": 25.2
+   },
+   {
+    "at": "1943-12-25T15:20",
+    "pos": [
+     -1.444,
+     68.498
+    ],
+    "status": "active",
+    "course": 69.0,
+    "speedKn": 25.2
+   },
+   {
+    "at": "1943-12-25T15:46",
+    "pos": [
+     -1.0,
+     68.56
+    ],
+    "status": "active",
+    "course": 68.9,
+    "speedKn": 24.1
+   },
+   {
+    "at": "1943-12-25T16:11",
+    "pos": [
+     -0.556,
+     68.622
+    ],
+    "status": "active",
+    "course": 68.9,
+    "speedKn": 25.0
+   },
+   {
+    "at": "1943-12-25T16:36",
+    "pos": [
+     -0.111,
+     68.684
+    ],
+    "status": "active",
+    "course": 68.8,
+    "speedKn": 25.0
+   },
+   {
+    "at": "1943-12-25T17:01",
+    "pos": [
+     0.333,
+     68.747
+    ],
+    "status": "active",
+    "course": 68.4,
+    "speedKn": 24.9
+   },
+   {
+    "at": "1943-12-25T17:26",
+    "pos": [
+     0.778,
+     68.809
+    ],
+    "status": "active",
+    "course": 68.7,
+    "speedKn": 24.9
+   },
+   {
+    "at": "1943-12-25T17:51",
+    "pos": [
+     1.222,
+     68.871
+    ],
+    "status": "active",
+    "course": 68.6,
+    "speedKn": 24.8
+   },
+   {
+    "at": "1943-12-25T18:16",
+    "pos": [
+     1.667,
+     68.933
+    ],
+    "status": "active",
+    "course": 68.6,
+    "speedKn": 24.8
+   },
+   {
+    "at": "1943-12-25T18:41",
+    "pos": [
+     2.111,
+     68.996
+    ],
+    "status": "active",
+    "course": 68.2,
+    "speedKn": 24.7
+   },
+   {
+    "at": "1943-12-25T19:06",
+    "pos": [
+     2.556,
+     69.058
+    ],
+    "status": "active",
+    "course": 68.5,
+    "speedKn": 24.6
+   },
+   {
+    "at": "1943-12-25T19:32",
+    "pos": [
+     3.0,
+     69.12
+    ],
+    "status": "active",
+    "course": 68.2,
+    "speedKn": 24.5
+   },
+   {
+    "at": "1943-12-25T19:58",
+    "pos": [
+     3.462,
+     69.185
+    ],
+    "status": "active",
+    "course": 68.2,
+    "speedKn": 24.5
+   },
+   {
+    "at": "1943-12-25T20:24",
+    "pos": [
+     3.923,
+     69.249
+    ],
+    "status": "active",
+    "course": 68.4,
+    "speedKn": 24.3
+   },
+   {
+    "at": "1943-12-25T20:50",
+    "pos": [
+     4.385,
+     69.314
+    ],
+    "status": "active",
+    "course": 68.1,
+    "speedKn": 24.4
+   },
+   {
+    "at": "1943-12-25T21:16",
+    "pos": [
+     4.846,
+     69.378
+    ],
+    "status": "active",
+    "course": 68.3,
+    "speedKn": 24.2
+   },
+   {
+    "at": "1943-12-25T21:42",
+    "pos": [
+     5.308,
+     69.443
+    ],
+    "status": "active",
+    "course": 68.0,
+    "speedKn": 24.2
+   },
+   {
+    "at": "1943-12-25T22:08",
+    "pos": [
+     5.769,
+     69.508
+    ],
+    "status": "active",
+    "course": 67.9,
+    "speedKn": 24.1
+   },
+   {
+    "at": "1943-12-25T22:34",
+    "pos": [
+     6.231,
+     69.572
+    ],
+    "status": "active",
+    "course": 68.2,
+    "speedKn": 24.1
+   },
+   {
+    "at": "1943-12-25T23:00",
+    "pos": [
+     6.692,
+     69.637
+    ],
+    "status": "active",
+    "course": 67.8,
+    "speedKn": 24.0
+   },
+   {
+    "at": "1943-12-25T23:26",
+    "pos": [
+     7.154,
+     69.702
+    ],
+    "status": "active",
+    "course": 67.7,
+    "speedKn": 24.0
+   },
+   {
+    "at": "1943-12-25T23:52",
+    "pos": [
+     7.615,
+     69.766
+    ],
+    "status": "active",
+    "course": 67.9,
+    "speedKn": 23.8
+   },
+   {
+    "at": "1943-12-26T00:18",
+    "pos": [
+     8.077,
+     69.831
+    ],
+    "status": "active",
+    "course": 67.6,
+    "speedKn": 23.9
+   },
+   {
+    "at": "1943-12-26T00:44",
+    "pos": [
+     8.538,
+     69.895
+    ],
+    "status": "active",
+    "course": 67.8,
+    "speedKn": 23.7
+   },
+   {
+    "at": "1943-12-26T01:11",
+    "pos": [
+     9.0,
+     69.96
+    ],
+    "status": "active",
+    "course": 67.5,
+    "speedKn": 24.1
+   },
+   {
+    "at": "1943-12-26T01:37",
+    "pos": [
+     9.471,
+     70.026
+    ],
+    "status": "active",
+    "course": 67.5,
+    "speedKn": 24.1
+   },
+   {
+    "at": "1943-12-26T02:04",
+    "pos": [
+     9.941,
+     70.092
+    ],
+    "status": "active",
+    "course": 67.4,
+    "speedKn": 23.1
+   },
+   {
+    "at": "1943-12-26T02:30",
+    "pos": [
+     10.412,
+     70.158
+    ],
+    "status": "active",
+    "course": 67.4,
+    "speedKn": 24.0
+   },
+   {
+    "at": "1943-12-26T02:57",
+    "pos": [
+     10.882,
+     70.224
+    ],
+    "status": "active",
+    "course": 67.3,
+    "speedKn": 23.0
+   },
+   {
+    "at": "1943-12-26T03:24",
+    "pos": [
+     11.353,
+     70.289
+    ],
+    "status": "active",
+    "course": 67.6,
+    "speedKn": 22.9
+   },
+   {
+    "at": "1943-12-26T03:50",
+    "pos": [
+     11.824,
+     70.355
+    ],
+    "status": "active",
+    "course": 67.2,
+    "speedKn": 23.8
+   },
+   {
+    "at": "1943-12-26T04:17",
+    "pos": [
+     12.294,
+     70.421
+    ],
+    "status": "active",
+    "course": 67.1,
+    "speedKn": 22.8
+   },
+   {
+    "at": "1943-12-26T04:44",
+    "pos": [
+     12.765,
+     70.487
+    ],
+    "status": "active",
+    "course": 67.1,
+    "speedKn": 22.8
+   },
+   {
+    "at": "1943-12-26T05:10",
+    "pos": [
+     13.235,
+     70.553
+    ],
+    "status": "active",
+    "course": 66.9,
+    "speedKn": 23.6
+   },
+   {
+    "at": "1943-12-26T05:37",
+    "pos": [
+     13.706,
+     70.619
+    ],
+    "status": "active",
+    "course": 66.9,
+    "speedKn": 22.7
+   },
+   {
+    "at": "1943-12-26T06:04",
+    "pos": [
+     14.176,
+     70.685
+    ],
+    "status": "active",
+    "course": 66.8,
+    "speedKn": 22.6
+   },
+   {
+    "at": "1943-12-26T06:30",
+    "pos": [
+     14.647,
+     70.751
+    ],
+    "status": "active",
+    "course": 66.8,
+    "speedKn": 23.4
+   },
+   {
+    "at": "1943-12-26T06:57",
+    "pos": [
+     15.118,
+     70.816
+    ],
+    "status": "active",
+    "course": 67.0,
+    "speedKn": 22.4
+   },
+   {
+    "at": "1943-12-26T07:24",
+    "pos": [
+     15.588,
+     70.882
+    ],
+    "status": "active",
+    "course": 66.6,
+    "speedKn": 22.4
+   },
+   {
+    "at": "1943-12-26T07:50",
+    "pos": [
+     16.059,
+     70.948
+    ],
+    "status": "active",
+    "course": 66.6,
+    "speedKn": 23.2
+   },
+   {
+    "at": "1943-12-26T08:17",
+    "pos": [
+     16.529,
+     71.014
+    ],
+    "status": "active",
+    "course": 66.5,
+    "speedKn": 22.3
+   },
+   {
+    "at": "1943-12-26T08:44",
+    "pos": [
+     17.0,
+     71.08
+    ],
+    "status": "active",
+    "course": 66.4,
+    "speedKn": 22.7
+   },
+   {
+    "at": "1943-12-26T09:12",
+    "pos": [
+     17.5,
+     71.15
+    ],
+    "status": "active",
+    "course": 66.4,
+    "speedKn": 22.7
+   },
+   {
+    "at": "1943-12-26T09:40",
+    "pos": [
+     18.0,
+     71.22
+    ],
+    "status": "active",
+    "course": 66.3,
+    "speedKn": 22.6
+   },
+   {
+    "at": "1943-12-26T10:08",
+    "pos": [
+     18.5,
+     71.29
+    ],
+    "status": "active",
+    "course": 66.2,
+    "speedKn": 22.5
+   },
+   {
+    "at": "1943-12-26T10:37",
+    "pos": [
+     19.0,
+     71.36
+    ],
+    "status": "active",
+    "course": 66.1,
+    "speedKn": 21.7
+   },
+   {
+    "at": "1943-12-26T11:05",
+    "pos": [
+     19.5,
+     71.43
+    ],
+    "status": "active",
+    "course": 66.1,
+    "speedKn": 22.4
+   },
+   {
+    "at": "1943-12-26T11:33",
+    "pos": [
+     20.0,
+     71.5
+    ],
+    "status": "active",
+    "course": 66.0,
+    "speedKn": 22.3
+   },
+   {
+    "at": "1943-12-26T12:01",
+    "pos": [
+     20.5,
+     71.57
+    ],
+    "status": "active",
+    "course": 65.9,
+    "speedKn": 22.3
+   },
+   {
+    "at": "1943-12-26T12:30",
+    "pos": [
+     21.0,
+     71.64
+    ],
+    "status": "active",
+    "course": 65.8,
+    "speedKn": 21.4
+   },
+   {
+    "at": "1943-12-26T12:58",
+    "pos": [
+     21.5,
+     71.71
+    ],
+    "status": "active",
+    "course": 65.8,
+    "speedKn": 22.1
+   },
+   {
+    "at": "1943-12-26T13:26",
+    "pos": [
+     22.0,
+     71.78
+    ],
+    "status": "active",
+    "course": 65.7,
+    "speedKn": 22.1
+   },
+   {
+    "at": "1943-12-26T13:54",
+    "pos": [
+     22.5,
+     71.85
+    ],
+    "status": "active",
+    "course": 65.6,
+    "speedKn": 22.0
+   },
+   {
+    "at": "1943-12-26T14:23",
+    "pos": [
+     23.0,
+     71.92
+    ],
+    "status": "active",
+    "course": 54.4,
+    "speedKn": 22.8
+   },
+   {
+    "at": "1943-12-26T14:47",
+    "pos": [
+     23.4,
+     72.008
+    ],
+    "status": "engaged",
+    "course": 54.4,
+    "speedKn": 22.8
+   },
+   {
+    "at": "1943-12-26T15:12",
+    "pos": [
+     23.8,
+     72.097
+    ],
+    "status": "engaged",
+    "course": 54.0,
+    "speedKn": 21.9
+   },
+   {
+    "at": "1943-12-26T15:36",
+    "pos": [
+     24.2,
+     72.185
+    ],
+    "status": "engaged",
+    "course": 54.2,
+    "speedKn": 22.7
+   },
+   {
+    "at": "1943-12-26T16:01",
+    "pos": [
+     24.6,
+     72.273
+    ],
+    "status": "engaged",
+    "course": 54.0,
+    "speedKn": 21.7
+   },
+   {
+    "at": "1943-12-26T16:25",
+    "pos": [
+     25.0,
+     72.362
+    ],
+    "status": "engaged",
+    "course": 53.6,
+    "speedKn": 22.6
+   },
+   {
+    "at": "1943-12-26T16:50",
+    "pos": [
+     25.4,
+     72.45
+    ],
+    "status": "engaged",
+    "course": 104.6,
+    "speedKn": 24.7
+   },
+   {
+    "at": "1943-12-26T17:10",
+    "pos": [
+     25.84,
+     72.415
+    ],
+    "status": "engaged",
+    "course": 104.6,
+    "speedKn": 24.7
+   },
+   {
+    "at": "1943-12-26T17:30",
+    "pos": [
+     26.28,
+     72.38
+    ],
+    "status": "engaged",
+    "course": 98.9,
+    "speedKn": 22.6
+   },
+   {
+    "at": "1943-12-26T17:55",
+    "pos": [
+     26.79,
+     72.355
+    ],
+    "status": "engaged",
+    "course": 98.9,
+    "speedKn": 22.6
+   },
+   {
+    "at": "1943-12-26T18:20",
+    "pos": [
+     27.3,
+     72.33
+    ],
+    "status": "engaged",
+    "course": 102.2,
+    "speedKn": 16.8
+   },
+   {
+    "at": "1943-12-26T18:40",
+    "pos": [
+     27.6,
+     72.31
+    ],
+    "status": "engaged",
+    "course": 102.2,
+    "speedKn": 16.8
+   },
+   {
+    "at": "1943-12-26T19:00",
+    "pos": [
+     27.9,
+     72.29
+    ],
+    "status": "engaged",
+    "course": 115.3,
+    "speedKn": 13.0
+   },
+   {
+    "at": "1943-12-26T19:45",
+    "pos": [
+     28.38,
+     72.22
+    ],
+    "status": "active",
+    "course": 115.3,
+    "speedKn": 13.0
+   }
+  ],
+  "history": "1943-12-26 北角海战中以雷达火控击伤并最终击沉沙恩霍斯特号。",
+  "sources": [
+   "roskill_1960",
+   "nh_ship_histories",
+   "uboat_net_allies"
+  ],
+  "confidence": "high",
+  "active": {
+   "from": "1943-12-25T10:00",
+   "to": "1943-12-26T19:45"
+  }
+ },
+ {
+  "id": "gb.petard",
+  "side": "GB",
+  "echelon": "ship",
+  "type": "naval",
+  "parent": "gb.wa",
+  "name": {
+   "zh": "佩塔德号驱逐舰",
+   "orig": "HMS Petard",
+   "short": "Petard"
+  },
+  "model": "navy_token",
+  "ship": {
+   "kind": "destroyer",
+   "class": {
+    "zh": "P 级",
+    "orig": "P-class"
+   },
+   "lengthM": 105.0,
+   "beamM": 10.7,
+   "tonnage": 1550,
+   "tonnageKind": "std",
+   "maxKn": 36.75,
+   "crew": 176,
+   "silhouette": "destroyer",
+   "weapons": [
+    {
+     "id": "main",
+     "label": "4 英寸高平两用炮（单装 ×4）",
+     "cal": "4 in QF Mk XVI",
+     "kind": "main",
+     "mounts": 4,
+     "perMount": 1,
+     "rangeKm": 15.0
+    },
+    {
+     "id": "aa40",
+     "label": "2 磅「乒乓」高射炮（四联装 ×1）",
+     "cal": "40 mm Vickers",
+     "kind": "aa",
+     "mounts": 1,
+     "perMount": 4,
+     "rangeKm": 6.4
+    },
+    {
+     "id": "aa20",
+     "label": "20 毫米厄利孔（单装 ×4）",
+     "cal": "20 mm Oerlikon",
+     "kind": "aa",
+     "mounts": 4,
+     "perMount": 1,
+     "rangeKm": 4.8
+    },
+    {
+     "id": "tt",
+     "label": "21 英寸鱼雷发射管（四联装 ×2）",
+     "cal": "21 in Mk IX",
+     "kind": "torpedo",
+     "mounts": 2,
+     "perMount": 4,
+     "rangeKm": 13.7,
+     "atPct": 58
+    }
+   ]
+  },
+  "track": [
+   {
+    "at": "1942-10-28T12:00",
+    "pos": [
+     32.0,
+     31.7
+    ],
+    "status": "active",
+    "course": 134.3,
+    "speedKn": 0.4
+   },
+   {
+    "at": "1942-10-30T12:00",
+    "pos": [
+     32.3,
+     31.45
+    ],
+    "status": "engaged",
+    "course": 131.2,
+    "speedKn": 0.2
+   },
+   {
+    "at": "1942-11-02T12:00",
+    "pos": [
+     32.5,
+     31.3
+    ],
+    "status": "active",
+    "course": 131.2,
+    "speedKn": 0.2
+   }
+  ],
+  "history": "1942-10-30 在塞得港外逼沉 U-559，登艇组抢出密钥材料；两名水兵随艇沉没。",
+  "sources": [
+   "sebag_2000",
+   "nh_ship_histories",
+   "uboat_net_allies"
+  ],
+  "confidence": "high",
+  "active": {
+   "from": "1942-10-26T12:00",
+   "to": "1942-11-02T12:00"
+  }
+ },
+ {
+  "id": "us.reuben_james",
+  "side": "US",
+  "echelon": "ship",
+  "type": "naval",
+  "parent": "us.atl",
+  "name": {
+   "zh": "鲁本·詹姆斯号驱逐舰",
+   "orig": "USS Reuben James",
+   "short": "Reuben James"
+  },
+  "model": "navy_token",
+  "ship": {
+   "kind": "destroyer",
+   "class": {
+    "zh": "克莱姆森级",
+    "orig": "Clemson-class"
+   },
+   "lengthM": 95.8,
+   "beamM": 9.4,
+   "tonnage": 1190,
+   "tonnageKind": "std",
+   "maxKn": 35.0,
+   "crew": 159,
+   "silhouette": "destroyer",
+   "weapons": [
+    {
+     "id": "main",
+     "label": "4 英寸/50 炮（单装 ×4）",
+     "cal": "4 in/50 Mk 9",
+     "kind": "main",
+     "mounts": 4,
+     "perMount": 1,
+     "rangeKm": 15.0
+    },
+    {
+     "id": "aa",
+     "label": "3 英寸/23 高射炮（单装 ×1）",
+     "cal": "3 in/23",
+     "kind": "aa",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 13.0
+    },
+    {
+     "id": "tt",
+     "label": "21 英寸鱼雷发射管（三联装 ×4）",
+     "cal": "21 in Mk 8",
+     "kind": "torpedo",
+     "mounts": 4,
+     "perMount": 3,
+     "rangeKm": 13.7
+    }
+   ]
+  },
+  "track": [
+   {
+    "at": "1941-10-30T12:00",
+    "pos": [
+     -24.0,
+     53.5
+    ],
+    "status": "active",
+    "course": 234.7,
+    "speedKn": 9.1
+   },
+   {
+    "at": "1941-10-30T16:15",
+    "pos": [
+     -24.875,
+     53.125
+    ],
+    "status": "engaged",
+    "course": 234.7,
+    "speedKn": 9.1
+   },
+   {
+    "at": "1941-10-30T20:30",
+    "pos": [
+     -25.75,
+     52.75
+    ],
+    "status": "engaged",
+    "course": 234.9,
+    "speedKn": 9.1
+   },
+   {
+    "at": "1941-10-31T00:45",
+    "pos": [
+     -26.625,
+     52.375
+    ],
+    "status": "engaged",
+    "course": 235.2,
+    "speedKn": 9.2
+   },
+   {
+    "at": "1941-10-31T05:00",
+    "pos": [
+     -27.5,
+     52.0
+    ],
+    "status": "engaged",
+    "course": 237.0,
+    "speedKn": 4.4
+   },
+   {
+    "at": "1941-10-31T05:30",
+    "pos": [
+     -27.55,
+     51.98
+    ],
+    "status": "destroyed",
+    "course": 237.0,
+    "speedKn": 4.4
+   }
+  ],
+  "history": "1941-10-31 为 HX 156 护航时被 U-552 击沉，100 人死亡，是美国海军在二战中第一艘被击沉的军舰。",
+  "sources": [
+   "mori_battle_atlantic",
+   "nh_ship_histories",
+   "uboat_net_allies"
+  ],
+  "confidence": "high",
+  "active": {
+   "from": "1941-10-28T12:00",
+   "to": "1941-10-31T05:30"
+  }
+ },
+ {
+  "id": "us.guadalcanal",
+  "side": "US",
+  "echelon": "ship",
+  "type": "naval",
+  "parent": "us.atl",
+  "name": {
+   "zh": "瓜达尔卡纳尔号护航航母",
+   "orig": "USS Guadalcanal",
+   "short": "Guadalcanal"
+  },
+  "model": "navy_token",
+  "ship": {
+   "kind": "carrier",
+   "class": {
+    "zh": "卡萨布兰卡级",
+    "orig": "Casablanca-class"
+   },
+   "lengthM": 156.1,
+   "beamM": 19.8,
+   "tonnage": 8188,
+   "tonnageKind": "std",
+   "maxKn": 19.0,
+   "crew": 860,
+   "silhouette": "carrier",
+   "weapons": [
+    {
+     "id": "main",
+     "label": "5 英寸/38 高平两用炮（单装 ×1，艉部）",
+     "cal": "5 in/38 Mk 12",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 18.0,
+     "atPct": 88
+    },
+    {
+     "id": "aa40",
+     "label": "40 毫米博福斯（双联装 ×8）",
+     "cal": "40 mm Bofors",
+     "kind": "aa",
+     "mounts": 8,
+     "perMount": 2,
+     "rangeKm": 9.8
+    },
+    {
+     "id": "aa20",
+     "label": "20 毫米厄利孔（单装 ×20）",
+     "cal": "20 mm Oerlikon",
+     "kind": "aa",
+     "mounts": 20,
+     "perMount": 1,
+     "rangeKm": 4.8
+    }
+   ]
+  },
+  "track": [
+   {
+    "at": "1944-05-30T12:00",
+    "pos": [
+     -20.0,
+     24.0
+    ],
+    "status": "active",
+    "course": 165.3,
+    "speedKn": 1.2
+   },
+   {
+    "at": "1944-05-31T02:24",
+    "pos": [
+     -19.92,
+     23.72
+    ],
+    "status": "active",
+    "course": 165.3,
+    "speedKn": 1.2
+   },
+   {
+    "at": "1944-05-31T16:48",
+    "pos": [
+     -19.84,
+     23.44
+    ],
+    "status": "active",
+    "course": 165.3,
+    "speedKn": 1.2
+   },
+   {
+    "at": "1944-06-01T07:12",
+    "pos": [
+     -19.76,
+     23.16
+    ],
+    "status": "active",
+    "course": 165.3,
+    "speedKn": 1.2
+   },
+   {
+    "at": "1944-06-01T21:36",
+    "pos": [
+     -19.68,
+     22.88
+    ],
+    "status": "active",
+    "course": 165.3,
+    "speedKn": 1.2
+   },
+   {
+    "at": "1944-06-02T12:00",
+    "pos": [
+     -19.6,
+     22.6
+    ],
+    "status": "active",
+    "course": 164.1,
+    "speedKn": 1.7
+   },
+   {
+    "at": "1944-06-02T23:45",
+    "pos": [
+     -19.5,
+     22.275
+    ],
+    "status": "engaged",
+    "course": 164.1,
+    "speedKn": 1.7
+   },
+   {
+    "at": "1944-06-03T11:30",
+    "pos": [
+     -19.4,
+     21.95
+    ],
+    "status": "engaged",
+    "course": 164.1,
+    "speedKn": 1.7
+   },
+   {
+    "at": "1944-06-03T23:15",
+    "pos": [
+     -19.3,
+     21.625
+    ],
+    "status": "engaged",
+    "course": 164.0,
+    "speedKn": 1.7
+   },
+   {
+    "at": "1944-06-04T11:00",
+    "pos": [
+     -19.2,
+     21.3
+    ],
+    "status": "engaged",
+    "course": 285.0,
+    "speedKn": 1.7
+   },
+   {
+    "at": "1944-06-04T23:07",
+    "pos": [
+     -19.55,
+     21.387
+    ],
+    "status": "active",
+    "course": 285.0,
+    "speedKn": 1.7
+   },
+   {
+    "at": "1944-06-05T11:15",
+    "pos": [
+     -19.9,
+     21.475
+    ],
+    "status": "active",
+    "course": 285.2,
+    "speedKn": 1.7
+   },
+   {
+    "at": "1944-06-05T23:22",
+    "pos": [
+     -20.25,
+     21.562
+    ],
+    "status": "active",
+    "course": 285.0,
+    "speedKn": 1.7
+   },
+   {
+    "at": "1944-06-06T11:30",
+    "pos": [
+     -20.6,
+     21.65
+    ],
+    "status": "active",
+    "course": 285.2,
+    "speedKn": 1.7
+   },
+   {
+    "at": "1944-06-06T23:37",
+    "pos": [
+     -20.95,
+     21.738
+    ],
+    "status": "active",
+    "course": 285.2,
+    "speedKn": 1.7
+   },
+   {
+    "at": "1944-06-07T11:45",
+    "pos": [
+     -21.3,
+     21.825
+    ],
+    "status": "active",
+    "course": 285.1,
+    "speedKn": 1.7
+   },
+   {
+    "at": "1944-06-07T23:52",
+    "pos": [
+     -21.65,
+     21.913
+    ],
+    "status": "active",
+    "course": 285.2,
+    "speedKn": 1.7
+   },
+   {
+    "at": "1944-06-08T12:00",
+    "pos": [
+     -22.0,
+     22.0
+    ],
+    "status": "active",
+    "course": 288.0,
+    "speedKn": 6.1
+   },
+   {
+    "at": "1944-06-08T15:25",
+    "pos": [
+     -22.357,
+     22.107
+    ],
+    "status": "active",
+    "course": 288.0,
+    "speedKn": 6.1
+   },
+   {
+    "at": "1944-06-08T18:51",
+    "pos": [
+     -22.714,
+     22.214
+    ],
+    "status": "active",
+    "course": 288.0,
+    "speedKn": 6.1
+   },
+   {
+    "at": "1944-06-08T22:17",
+    "pos": [
+     -23.071,
+     22.321
+    ],
+    "status": "active",
+    "course": 288.0,
+    "speedKn": 6.1
+   },
+   {
+    "at": "1944-06-09T01:42",
+    "pos": [
+     -23.429,
+     22.429
+    ],
+    "status": "active",
+    "course": 288.1,
+    "speedKn": 6.1
+   },
+   {
+    "at": "1944-06-09T05:08",
+    "pos": [
+     -23.786,
+     22.536
+    ],
+    "status": "active",
+    "course": 288.0,
+    "speedKn": 6.1
+   },
+   {
+    "at": "1944-06-09T08:34",
+    "pos": [
+     -24.143,
+     22.643
+    ],
+    "status": "active",
+    "course": 288.1,
+    "speedKn": 6.1
+   },
+   {
+    "at": "1944-06-09T12:00",
+    "pos": [
+     -24.5,
+     22.75
+    ],
+    "status": "active",
+    "course": 288.1,
+    "speedKn": 6.1
+   },
+   {
+    "at": "1944-06-09T15:25",
+    "pos": [
+     -24.857,
+     22.857
+    ],
+    "status": "active",
+    "course": 288.1,
+    "speedKn": 6.1
+   },
+   {
+    "at": "1944-06-09T18:51",
+    "pos": [
+     -25.214,
+     22.964
+    ],
+    "status": "active",
+    "course": 288.1,
+    "speedKn": 6.0
+   },
+   {
+    "at": "1944-06-09T22:17",
+    "pos": [
+     -25.571,
+     23.071
+    ],
+    "status": "active",
+    "course": 288.1,
+    "speedKn": 6.0
+   },
+   {
+    "at": "1944-06-10T01:42",
+    "pos": [
+     -25.929,
+     23.179
+    ],
+    "status": "active",
+    "course": 288.2,
+    "speedKn": 6.1
+   },
+   {
+    "at": "1944-06-10T05:08",
+    "pos": [
+     -26.286,
+     23.286
+    ],
+    "status": "active",
+    "course": 288.1,
+    "speedKn": 6.0
+   },
+   {
+    "at": "1944-06-10T08:34",
+    "pos": [
+     -26.643,
+     23.393
+    ],
+    "status": "active",
+    "course": 288.1,
+    "speedKn": 6.0
+   },
+   {
+    "at": "1944-06-10T12:00",
+    "pos": [
+     -27.0,
+     23.5
+    ],
+    "status": "active",
+    "course": 288.2,
+    "speedKn": 6.0
+   }
+  ],
+  "history": "第 22.3 特混编队旗舰，1944-06-04 捕获 U-505；此前在 1943–44 年猎杀群作战中多次击沉 U 艇。",
+  "sources": [
+   "mori_atlantic_won",
+   "nh_ship_histories",
+   "uboat_net_allies"
+  ],
+  "confidence": "high",
+  "equipment": [
+   {
+    "id": "escort_carrier"
+   }
+  ],
+  "active": {
+   "from": "1944-05-28T12:00",
+   "to": "1944-06-10T12:00"
+  }
+ },
+ {
+  "id": "gb.royal_oak",
+  "side": "GB",
+  "echelon": "ship",
+  "type": "naval",
+  "parent": "gb.wa",
+  "name": {
+   "zh": "皇家橡树号战列舰",
+   "orig": "HMS Royal Oak",
+   "short": "Royal Oak"
+  },
+  "model": "navy_token",
+  "ship": {
+   "kind": "battleship",
+   "class": {
+    "zh": "复仇级",
+    "orig": "Revenge-class"
+   },
+   "lengthM": 189.2,
+   "beamM": 27.0,
+   "tonnage": 29970,
+   "tonnageKind": "std",
+   "maxKn": 22.0,
+   "crew": 1200,
+   "silhouette": "battleship",
+   "weapons": [
+    {
+     "id": "A",
+     "label": "前主炮塔「A」（双联装 15 英寸）",
+     "cal": "15 in BL Mk I",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 2,
+     "rangeKm": 29.0,
+     "atPct": 22
+    },
+    {
+     "id": "B",
+     "label": "前主炮塔「B」（双联装 15 英寸）",
+     "cal": "15 in BL Mk I",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 2,
+     "rangeKm": 29.0,
+     "atPct": 33
+    },
+    {
+     "id": "X",
+     "label": "后主炮塔「X」（双联装 15 英寸）",
+     "cal": "15 in BL Mk I",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 2,
+     "rangeKm": 29.0,
+     "atPct": 70
+    },
+    {
+     "id": "Y",
+     "label": "后主炮塔「Y」（双联装 15 英寸）",
+     "cal": "15 in BL Mk I",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 2,
+     "rangeKm": 29.0,
+     "atPct": 80
+    },
+    {
+     "id": "sec",
+     "label": "6 英寸炮（单装 ×12）",
+     "cal": "6 in BL Mk XII",
+     "kind": "secondary",
+     "mounts": 12,
+     "perMount": 1,
+     "rangeKm": 23.0
+    },
+    {
+     "id": "aa",
+     "label": "4 英寸高射炮（单装 ×4）",
+     "cal": "4 in QF Mk XVI",
+     "kind": "aa",
+     "mounts": 4,
+     "perMount": 1,
+     "rangeKm": 15.0
+    }
+   ]
+  },
+  "track": [
+   {
+    "at": "1939-10-13T18:00",
+    "pos": [
+     -2.96,
+     58.9
+    ],
+    "status": "active",
+    "course": 0.0,
+    "speedKn": 0.0
+   },
+   {
+    "at": "1939-10-14T00:58",
+    "pos": [
+     -2.96,
+     58.9
+    ],
+    "status": "engaged",
+    "course": 0.0,
+    "speedKn": 0.0
+   },
+   {
+    "at": "1939-10-14T01:29",
+    "pos": [
+     -2.96,
+     58.9
+    ],
+    "status": "destroyed",
+    "course": 0.0,
+    "speedKn": 0.0
+   }
+  ],
+  "history": "一战老舰，1939 年泊于斯卡帕湾。10 月 14 日凌晨 U-47 潜入港内，以三雷将其击沉，835 人丧生。此后英国本土舰队分散驻地并重建斯卡帕湾防务。（时刻取英方叙述（来源未注时区，若为德方 MEZ 则整体提前 1 小时）。）",
+  "sources": [
+   "roskill_1954",
+   "nh_ship_histories",
+   "uboat_net_allies"
+  ],
+  "confidence": "high",
+  "active": {
+   "from": "1939-10-11T18:00",
+   "to": "1939-10-14T01:29"
+  }
+ },
+ {
+  "id": "gb.ark_royal",
+  "side": "GB",
+  "echelon": "ship",
+  "type": "naval",
+  "parent": "gb.wa",
+  "name": {
+   "zh": "皇家方舟号航空母舰",
+   "orig": "HMS Ark Royal",
+   "short": "Ark Royal"
+  },
+  "model": "navy_token",
+  "ship": {
+   "kind": "carrier",
+   "class": {
+    "zh": "皇家方舟级",
+    "orig": "Ark Royal-class"
+   },
+   "lengthM": 243.8,
+   "beamM": 28.9,
+   "tonnage": 22000,
+   "tonnageKind": "std",
+   "maxKn": 30.0,
+   "crew": 1580,
+   "silhouette": "carrier",
+   "weapons": [
+    {
+     "id": "sec",
+     "label": "4.5 英寸高平两用炮（双联装 ×8）",
+     "cal": "4.5 in QF",
+     "kind": "secondary",
+     "mounts": 8,
+     "perMount": 2,
+     "rangeKm": 18.5
+    },
+    {
+     "id": "aa40",
+     "label": "2 磅「乒乓」高射炮（八联装 ×4）",
+     "cal": "40 mm Vickers",
+     "kind": "aa",
+     "mounts": 4,
+     "perMount": 8,
+     "rangeKm": 6.4
+    },
+    {
+     "id": "aa20",
+     "label": "20 毫米厄利孔（单装 ×8）",
+     "cal": "20 mm Oerlikon",
+     "kind": "aa",
+     "mounts": 8,
+     "perMount": 1,
+     "rangeKm": 4.8
+    }
+   ]
+  },
+  "track": [
+   {
+    "at": "1939-09-14T12:00",
+    "pos": [
+     -9.5,
+     56.0
+    ],
+    "status": "engaged",
+    "course": 0.0,
+    "speedKn": 0.0
+   },
+   {
+    "at": "1939-09-24T20:48",
+    "pos": [
+     -9.5,
+     56.0
+    ],
+    "status": "engaged",
+    "course": 51.0,
+    "speedKn": 18.4
+   },
+   {
+    "at": "1939-09-24T23:20",
+    "pos": [
+     -8.41,
+     56.483
+    ],
+    "status": "active",
+    "course": 51.0,
+    "speedKn": 18.4
+   },
+   {
+    "at": "1939-09-25T01:52",
+    "pos": [
+     -7.32,
+     56.967
+    ],
+    "status": "active",
+    "course": 50.6,
+    "speedKn": 18.2
+   },
+   {
+    "at": "1939-09-25T04:24",
+    "pos": [
+     -6.23,
+     57.45
+    ],
+    "status": "active",
+    "course": 50.3,
+    "speedKn": 18.1
+   },
+   {
+    "at": "1939-09-25T06:56",
+    "pos": [
+     -5.14,
+     57.933
+    ],
+    "status": "active",
+    "course": 49.9,
+    "speedKn": 17.9
+   },
+   {
+    "at": "1939-09-25T09:28",
+    "pos": [
+     -4.05,
+     58.417
+    ],
+    "status": "active",
+    "course": 49.4,
+    "speedKn": 17.8
+   },
+   {
+    "at": "1939-09-25T12:00",
+    "pos": [
+     -2.96,
+     58.9
+    ],
+    "status": "active",
+    "course": 0.0,
+    "speedKn": 0.0
+   },
+   {
+    "at": "1941-05-24T16:43",
+    "pos": [
+     -2.96,
+     58.9
+    ],
+    "status": "active",
+    "course": 213.9,
+    "speedKn": 17.4
+   },
+   {
+    "at": "1941-05-24T19:15",
+    "pos": [
+     -3.739,
+     58.288
+    ],
+    "status": "engaged",
+    "course": 213.9,
+    "speedKn": 17.4
+   },
+   {
+    "at": "1941-05-24T21:48",
+    "pos": [
+     -4.518,
+     57.676
+    ],
+    "status": "engaged",
+    "course": 214.3,
+    "speedKn": 17.4
+   },
+   {
+    "at": "1941-05-25T00:21",
+    "pos": [
+     -5.296,
+     57.065
+    ],
+    "status": "engaged",
+    "course": 214.8,
+    "speedKn": 17.5
+   },
+   {
+    "at": "1941-05-25T02:54",
+    "pos": [
+     -6.075,
+     56.453
+    ],
+    "status": "engaged",
+    "course": 215.2,
+    "speedKn": 17.6
+   },
+   {
+    "at": "1941-05-25T05:26",
+    "pos": [
+     -6.854,
+     55.841
+    ],
+    "status": "engaged",
+    "course": 215.7,
+    "speedKn": 17.8
+   },
+   {
+    "at": "1941-05-25T07:59",
+    "pos": [
+     -7.633,
+     55.229
+    ],
+    "status": "engaged",
+    "course": 216.1,
+    "speedKn": 17.8
+   },
+   {
+    "at": "1941-05-25T10:32",
+    "pos": [
+     -8.412,
+     54.618
+    ],
+    "status": "engaged",
+    "course": 216.5,
+    "speedKn": 17.8
+   },
+   {
+    "at": "1941-05-25T13:05",
+    "pos": [
+     -9.191,
+     54.006
+    ],
+    "status": "engaged",
+    "course": 216.9,
+    "speedKn": 17.9
+   },
+   {
+    "at": "1941-05-25T15:37",
+    "pos": [
+     -9.969,
+     53.394
+    ],
+    "status": "engaged",
+    "course": 217.3,
+    "speedKn": 18.2
+   },
+   {
+    "at": "1941-05-25T18:10",
+    "pos": [
+     -10.748,
+     52.782
+    ],
+    "status": "engaged",
+    "course": 217.7,
+    "speedKn": 18.1
+   },
+   {
+    "at": "1941-05-25T20:43",
+    "pos": [
+     -11.527,
+     52.171
+    ],
+    "status": "engaged",
+    "course": 218.1,
+    "speedKn": 18.2
+   },
+   {
+    "at": "1941-05-25T23:16",
+    "pos": [
+     -12.306,
+     51.559
+    ],
+    "status": "engaged",
+    "course": 218.5,
+    "speedKn": 18.3
+   },
+   {
+    "at": "1941-05-26T01:48",
+    "pos": [
+     -13.085,
+     50.947
+    ],
+    "status": "engaged",
+    "course": 218.8,
+    "speedKn": 18.5
+   },
+   {
+    "at": "1941-05-26T04:21",
+    "pos": [
+     -13.864,
+     50.335
+    ],
+    "status": "engaged",
+    "course": 219.2,
+    "speedKn": 18.5
+   },
+   {
+    "at": "1941-05-26T06:54",
+    "pos": [
+     -14.642,
+     49.724
+    ],
+    "status": "engaged",
+    "course": 219.6,
+    "speedKn": 18.6
+   },
+   {
+    "at": "1941-05-26T09:27",
+    "pos": [
+     -15.421,
+     49.112
+    ],
+    "status": "engaged",
+    "course": 219.9,
+    "speedKn": 18.7
+   },
+   {
+    "at": "1941-05-26T12:00",
+    "pos": [
+     -16.2,
+     48.5
+    ],
+    "status": "engaged",
+    "course": 220.3,
+    "speedKn": 18.8
+   }
+  ],
+  "history": "1939 年 9 月 14 日遭 U-39 攻击，鱼雷提前爆炸，护航驱逐舰击沉 U-39——战争中被击沉的第一艘 U 艇。1941 年 5 月 26 日其剑鱼机打坏俾斯麦号舵机，决定了最后的追击战。（航迹为示意。）",
+  "sources": [
+   "roskill_1954",
+   "nh_ship_histories",
+   "uboat_net_allies"
+  ],
+  "confidence": "high",
+  "active": {
+   "from": "1939-09-12T12:00",
+   "to": "1941-05-26T12:00"
+  }
+ },
+ {
+  "id": "gb.prince_of_wales",
+  "side": "GB",
+  "echelon": "ship",
+  "type": "naval",
+  "parent": "gb.wa",
+  "name": {
+   "zh": "威尔士亲王号战列舰",
+   "orig": "HMS Prince of Wales",
+   "short": "PoW"
+  },
+  "model": "navy_token",
+  "ship": {
+   "kind": "battleship",
+   "class": {
+    "zh": "英王乔治五世级",
+    "orig": "King George V-class"
+   },
+   "lengthM": 227.1,
+   "beamM": 31.4,
+   "tonnage": 36727,
+   "tonnageKind": "std",
+   "maxKn": 28.0,
+   "crew": 1521,
+   "silhouette": "battleship",
+   "weapons": [
+    {
+     "id": "A",
+     "label": "前主炮塔「A」（四联装 14 英寸）",
+     "cal": "14 in BL Mk VII",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 4,
+     "rangeKm": 35.0,
+     "atPct": 20
+    },
+    {
+     "id": "B",
+     "label": "前主炮塔「B」（双联装 14 英寸，背负）",
+     "cal": "14 in BL Mk VII",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 2,
+     "rangeKm": 35.0,
+     "atPct": 31
+    },
+    {
+     "id": "Y",
+     "label": "后主炮塔「Y」（四联装 14 英寸）",
+     "cal": "14 in BL Mk VII",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 4,
+     "rangeKm": 35.0,
+     "atPct": 78
+    },
+    {
+     "id": "sec",
+     "label": "5.25 英寸高平两用炮（双联装 ×8）",
+     "cal": "5.25 in QF Mk I",
+     "kind": "secondary",
+     "mounts": 8,
+     "perMount": 2,
+     "rangeKm": 21.0
+    }
+   ]
+  },
+  "track": [
+   {
+    "at": "1941-05-24T05:52",
+    "pos": [
+     -28.0,
+     66.5
+    ],
+    "status": "engaged",
+    "course": 129.1,
+    "speedKn": 6.6
+   },
+   {
+    "at": "1941-05-24T11:53",
+    "pos": [
+     -26.74,
+     66.08
+    ],
+    "status": "active",
+    "course": 129.1,
+    "speedKn": 6.6
+   },
+   {
+    "at": "1941-05-24T17:55",
+    "pos": [
+     -25.48,
+     65.66
+    ],
+    "status": "active",
+    "course": 128.6,
+    "speedKn": 6.6
+   },
+   {
+    "at": "1941-05-24T23:56",
+    "pos": [
+     -24.22,
+     65.24
+    ],
+    "status": "active",
+    "course": 128.2,
+    "speedKn": 6.7
+   },
+   {
+    "at": "1941-05-25T05:58",
+    "pos": [
+     -22.96,
+     64.82
+    ],
+    "status": "active",
+    "course": 127.7,
+    "speedKn": 6.7
+   },
+   {
+    "at": "1941-05-25T12:00",
+    "pos": [
+     -21.7,
+     64.4
+    ],
+    "status": "active",
+    "course": 0.0,
+    "speedKn": 0.0
+   },
+   {
+    "at": "1941-08-06T20:41",
+    "pos": [
+     -21.7,
+     64.4
+    ],
+    "status": "active",
+    "course": 220.0,
+    "speedKn": 15.2
+   },
+   {
+    "at": "1941-08-06T23:30",
+    "pos": [
+     -22.742,
+     63.848
+    ],
+    "status": "active",
+    "course": 220.0,
+    "speedKn": 15.2
+   },
+   {
+    "at": "1941-08-07T02:19",
+    "pos": [
+     -23.783,
+     63.297
+    ],
+    "status": "active",
+    "course": 220.5,
+    "speedKn": 15.3
+   },
+   {
+    "at": "1941-08-07T05:08",
+    "pos": [
+     -24.825,
+     62.745
+    ],
+    "status": "active",
+    "course": 221.0,
+    "speedKn": 15.5
+   },
+   {
+    "at": "1941-08-07T07:57",
+    "pos": [
+     -25.866,
+     62.194
+    ],
+    "status": "active",
+    "course": 221.6,
+    "speedKn": 15.6
+   },
+   {
+    "at": "1941-08-07T10:46",
+    "pos": [
+     -26.908,
+     61.642
+    ],
+    "status": "active",
+    "course": 222.1,
+    "speedKn": 15.7
+   },
+   {
+    "at": "1941-08-07T13:35",
+    "pos": [
+     -27.95,
+     61.09
+    ],
+    "status": "active",
+    "course": 222.6,
+    "speedKn": 15.9
+   },
+   {
+    "at": "1941-08-07T16:24",
+    "pos": [
+     -28.991,
+     60.539
+    ],
+    "status": "active",
+    "course": 223.1,
+    "speedKn": 16.0
+   },
+   {
+    "at": "1941-08-07T19:13",
+    "pos": [
+     -30.033,
+     59.987
+    ],
+    "status": "active",
+    "course": 223.6,
+    "speedKn": 16.1
+   },
+   {
+    "at": "1941-08-07T22:02",
+    "pos": [
+     -31.075,
+     59.435
+    ],
+    "status": "active",
+    "course": 224.0,
+    "speedKn": 16.2
+   },
+   {
+    "at": "1941-08-08T00:51",
+    "pos": [
+     -32.116,
+     58.884
+    ],
+    "status": "active",
+    "course": 224.5,
+    "speedKn": 16.4
+   },
+   {
+    "at": "1941-08-08T03:40",
+    "pos": [
+     -33.158,
+     58.332
+    ],
+    "status": "active",
+    "course": 225.0,
+    "speedKn": 16.5
+   },
+   {
+    "at": "1941-08-08T06:29",
+    "pos": [
+     -34.199,
+     57.781
+    ],
+    "status": "active",
+    "course": 225.4,
+    "speedKn": 16.6
+   },
+   {
+    "at": "1941-08-08T09:18",
+    "pos": [
+     -35.241,
+     57.229
+    ],
+    "status": "active",
+    "course": 225.8,
+    "speedKn": 16.8
+   },
+   {
+    "at": "1941-08-08T12:07",
+    "pos": [
+     -36.283,
+     56.677
+    ],
+    "status": "active",
+    "course": 226.3,
+    "speedKn": 16.9
+   },
+   {
+    "at": "1941-08-08T14:56",
+    "pos": [
+     -37.324,
+     56.126
+    ],
+    "status": "active",
+    "course": 226.7,
+    "speedKn": 17.0
+   },
+   {
+    "at": "1941-08-08T17:45",
+    "pos": [
+     -38.366,
+     55.574
+    ],
+    "status": "active",
+    "course": 227.1,
+    "speedKn": 17.1
+   },
+   {
+    "at": "1941-08-08T20:34",
+    "pos": [
+     -39.407,
+     55.023
+    ],
+    "status": "active",
+    "course": 227.5,
+    "speedKn": 17.2
+   },
+   {
+    "at": "1941-08-08T23:23",
+    "pos": [
+     -40.449,
+     54.471
+    ],
+    "status": "active",
+    "course": 227.9,
+    "speedKn": 17.4
+   },
+   {
+    "at": "1941-08-09T02:12",
+    "pos": [
+     -41.491,
+     53.919
+    ],
+    "status": "active",
+    "course": 228.3,
+    "speedKn": 17.5
+   },
+   {
+    "at": "1941-08-09T05:01",
+    "pos": [
+     -42.532,
+     53.368
+    ],
+    "status": "active",
+    "course": 228.7,
+    "speedKn": 17.6
+   },
+   {
+    "at": "1941-08-09T07:50",
+    "pos": [
+     -43.574,
+     52.816
+    ],
+    "status": "active",
+    "course": 229.0,
+    "speedKn": 17.8
+   },
+   {
+    "at": "1941-08-09T10:39",
+    "pos": [
+     -44.615,
+     52.265
+    ],
+    "status": "active",
+    "course": 229.4,
+    "speedKn": 17.9
+   },
+   {
+    "at": "1941-08-09T13:28",
+    "pos": [
+     -45.657,
+     51.713
+    ],
+    "status": "active",
+    "course": 229.7,
+    "speedKn": 18.0
+   },
+   {
+    "at": "1941-08-09T16:17",
+    "pos": [
+     -46.699,
+     51.161
+    ],
+    "status": "active",
+    "course": 230.1,
+    "speedKn": 18.2
+   },
+   {
+    "at": "1941-08-09T19:06",
+    "pos": [
+     -47.74,
+     50.61
+    ],
+    "status": "active",
+    "course": 230.4,
+    "speedKn": 18.3
+   },
+   {
+    "at": "1941-08-09T21:55",
+    "pos": [
+     -48.782,
+     50.058
+    ],
+    "status": "active",
+    "course": 230.7,
+    "speedKn": 18.4
+   },
+   {
+    "at": "1941-08-10T00:44",
+    "pos": [
+     -49.824,
+     49.506
+    ],
+    "status": "active",
+    "course": 231.0,
+    "speedKn": 18.6
+   },
+   {
+    "at": "1941-08-10T03:33",
+    "pos": [
+     -50.865,
+     48.955
+    ],
+    "status": "active",
+    "course": 231.4,
+    "speedKn": 18.7
+   },
+   {
+    "at": "1941-08-10T06:22",
+    "pos": [
+     -51.907,
+     48.403
+    ],
+    "status": "active",
+    "course": 231.7,
+    "speedKn": 18.8
+   },
+   {
+    "at": "1941-08-10T09:11",
+    "pos": [
+     -52.948,
+     47.852
+    ],
+    "status": "active",
+    "course": 232.0,
+    "speedKn": 18.9
+   },
+   {
+    "at": "1941-08-10T12:00",
+    "pos": [
+     -53.99,
+     47.3
+    ],
+    "status": "active",
+    "course": 0.0,
+    "speedKn": 0.0
+   },
+   {
+    "at": "1941-08-14T12:00",
+    "pos": [
+     -53.99,
+     47.3
+    ],
+    "status": "active",
+    "course": 0.0,
+    "speedKn": 0.0
+   },
+   {
+    "at": "1941-08-16T20:42",
+    "pos": [
+     -53.99,
+     47.3
+    ],
+    "status": "active",
+    "course": 51.5,
+    "speedKn": 19.2
+   },
+   {
+    "at": "1941-08-16T23:30",
+    "pos": [
+     -52.948,
+     47.851
+    ],
+    "status": "active",
+    "course": 51.5,
+    "speedKn": 19.2
+   },
+   {
+    "at": "1941-08-17T02:19",
+    "pos": [
+     -51.905,
+     48.402
+    ],
+    "status": "active",
+    "course": 51.3,
+    "speedKn": 18.9
+   },
+   {
+    "at": "1941-08-17T05:08",
+    "pos": [
+     -50.863,
+     48.953
+    ],
+    "status": "active",
+    "course": 50.9,
+    "speedKn": 18.8
+   },
+   {
+    "at": "1941-08-17T07:57",
+    "pos": [
+     -49.821,
+     49.504
+    ],
+    "status": "active",
+    "course": 50.6,
+    "speedKn": 18.7
+   },
+   {
+    "at": "1941-08-17T10:46",
+    "pos": [
+     -48.779,
+     50.055
+    ],
+    "status": "active",
+    "course": 50.3,
+    "speedKn": 18.5
+   },
+   {
+    "at": "1941-08-17T13:35",
+    "pos": [
+     -47.736,
+     50.606
+    ],
+    "status": "active",
+    "course": 50.0,
+    "speedKn": 18.4
+   },
+   {
+    "at": "1941-08-17T16:24",
+    "pos": [
+     -46.694,
+     51.157
+    ],
+    "status": "active",
+    "course": 49.6,
+    "speedKn": 18.3
+   },
+   {
+    "at": "1941-08-17T19:13",
+    "pos": [
+     -45.652,
+     51.708
+    ],
+    "status": "active",
+    "course": 49.3,
+    "speedKn": 18.2
+   },
+   {
+    "at": "1941-08-17T22:02",
+    "pos": [
+     -44.61,
+     52.259
+    ],
+    "status": "active",
+    "course": 48.9,
+    "speedKn": 18.0
+   },
+   {
+    "at": "1941-08-18T00:51",
+    "pos": [
+     -43.567,
+     52.81
+    ],
+    "status": "active",
+    "course": 48.6,
+    "speedKn": 17.9
+   },
+   {
+    "at": "1941-08-18T03:40",
+    "pos": [
+     -42.525,
+     53.361
+    ],
+    "status": "active",
+    "course": 48.2,
+    "speedKn": 17.8
+   },
+   {
+    "at": "1941-08-18T06:29",
+    "pos": [
+     -41.483,
+     53.912
+    ],
+    "status": "active",
+    "course": 47.9,
+    "speedKn": 17.6
+   },
+   {
+    "at": "1941-08-18T09:18",
+    "pos": [
+     -40.441,
+     54.463
+    ],
+    "status": "active",
+    "course": 47.5,
+    "speedKn": 17.5
+   },
+   {
+    "at": "1941-08-18T12:07",
+    "pos": [
+     -39.398,
+     55.014
+    ],
+    "status": "active",
+    "course": 47.1,
+    "speedKn": 17.4
+   },
+   {
+    "at": "1941-08-18T14:56",
+    "pos": [
+     -38.356,
+     55.565
+    ],
+    "status": "active",
+    "course": 46.7,
+    "speedKn": 17.3
+   },
+   {
+    "at": "1941-08-18T17:45",
+    "pos": [
+     -37.314,
+     56.115
+    ],
+    "status": "active",
+    "course": 46.3,
+    "speedKn": 17.1
+   },
+   {
+    "at": "1941-08-18T20:34",
+    "pos": [
+     -36.272,
+     56.666
+    ],
+    "status": "active",
+    "course": 45.9,
+    "speedKn": 17.0
+   },
+   {
+    "at": "1941-08-18T23:23",
+    "pos": [
+     -35.229,
+     57.217
+    ],
+    "status": "active",
+    "course": 45.5,
+    "speedKn": 16.9
+   },
+   {
+    "at": "1941-08-19T02:12",
+    "pos": [
+     -34.187,
+     57.768
+    ],
+    "status": "active",
+    "course": 45.0,
+    "speedKn": 16.7
+   },
+   {
+    "at": "1941-08-19T05:01",
+    "pos": [
+     -33.145,
+     58.319
+    ],
+    "status": "active",
+    "course": 44.6,
+    "speedKn": 16.6
+   },
+   {
+    "at": "1941-08-19T07:50",
+    "pos": [
+     -32.103,
+     58.87
+    ],
+    "status": "active",
+    "course": 44.1,
+    "speedKn": 16.5
+   },
+   {
+    "at": "1941-08-19T10:39",
+    "pos": [
+     -31.06,
+     59.421
+    ],
+    "status": "active",
+    "course": 43.7,
+    "speedKn": 16.4
+   },
+   {
+    "at": "1941-08-19T13:28",
+    "pos": [
+     -30.018,
+     59.972
+    ],
+    "status": "active",
+    "course": 43.2,
+    "speedKn": 16.2
+   },
+   {
+    "at": "1941-08-19T16:17",
+    "pos": [
+     -28.976,
+     60.523
+    ],
+    "status": "active",
+    "course": 42.7,
+    "speedKn": 16.1
+   },
+   {
+    "at": "1941-08-19T19:06",
+    "pos": [
+     -27.934,
+     61.074
+    ],
+    "status": "active",
+    "course": 42.2,
+    "speedKn": 16.0
+   },
+   {
+    "at": "1941-08-19T21:55",
+    "pos": [
+     -26.891,
+     61.625
+    ],
+    "status": "active",
+    "course": 41.8,
+    "speedKn": 15.9
+   },
+   {
+    "at": "1941-08-20T00:44",
+    "pos": [
+     -25.849,
+     62.176
+    ],
+    "status": "active",
+    "course": 41.2,
+    "speedKn": 15.7
+   },
+   {
+    "at": "1941-08-20T03:33",
+    "pos": [
+     -24.807,
+     62.727
+    ],
+    "status": "active",
+    "course": 40.7,
+    "speedKn": 15.6
+   },
+   {
+    "at": "1941-08-20T06:22",
+    "pos": [
+     -23.765,
+     63.278
+    ],
+    "status": "active",
+    "course": 40.2,
+    "speedKn": 15.5
+   },
+   {
+    "at": "1941-08-20T09:11",
+    "pos": [
+     -22.722,
+     63.829
+    ],
+    "status": "active",
+    "course": 39.7,
+    "speedKn": 15.4
+   },
+   {
+    "at": "1941-08-20T12:00",
+    "pos": [
+     -21.68,
+     64.38
+    ],
+    "status": "active",
+    "course": 39.1,
+    "speedKn": 15.2
+   }
+  ],
+  "history": "1941 年 5 月 24 日在丹麦海峡与胡德号并肩交战，命中俾斯麦号燃油舱，自身受创后撤离；8 月 10 日在大西洋会议上载罗斯福与丘吉尔举行礼拜。1941 年 12 月在马来海域被日军航空兵击沉。（航迹为示意。）",
+  "sources": [
+   "roskill_1954",
+   "nh_ship_histories",
+   "uboat_net_allies"
+  ],
+  "confidence": "high",
+  "active": {
+   "from": "1941-05-22T05:52",
+   "to": "1941-08-20T12:00"
+  }
+ },
+ {
+  "id": "gb.rodney",
+  "side": "GB",
+  "echelon": "ship",
+  "type": "naval",
+  "parent": "gb.wa",
+  "name": {
+   "zh": "罗德尼号战列舰",
+   "orig": "HMS Rodney",
+   "short": "Rodney"
+  },
+  "model": "navy_token",
+  "ship": {
+   "kind": "battleship",
+   "class": {
+    "zh": "纳尔逊级",
+    "orig": "Nelson-class"
+   },
+   "lengthM": 216.6,
+   "beamM": 32.3,
+   "tonnage": 33950,
+   "tonnageKind": "std",
+   "maxKn": 23.8,
+   "crew": 1640,
+   "silhouette": "battleship",
+   "weapons": [
+    {
+     "id": "A",
+     "label": "前主炮塔「A」（三联装 16 英寸）",
+     "cal": "16 in BL Mk I",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 3,
+     "rangeKm": 32.0,
+     "atPct": 22
+    },
+    {
+     "id": "B",
+     "label": "前主炮塔「B」（三联装 16 英寸）",
+     "cal": "16 in BL Mk I",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 3,
+     "rangeKm": 32.0,
+     "atPct": 34
+    },
+    {
+     "id": "X",
+     "label": "后主炮塔「X」（三联装 16 英寸）",
+     "cal": "16 in BL Mk I",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 3,
+     "rangeKm": 32.0,
+     "atPct": 70
+    },
+    {
+     "id": "sec",
+     "label": "6 英寸副炮（双联装 ×6）",
+     "cal": "6 in BL Mk XXII",
+     "kind": "secondary",
+     "mounts": 6,
+     "perMount": 2,
+     "rangeKm": 23.0
+    },
+    {
+     "id": "aa40",
+     "label": "2 磅「乒乓」高射炮（八联装 ×4）",
+     "cal": "40 mm Vickers",
+     "kind": "aa",
+     "mounts": 4,
+     "perMount": 8,
+     "rangeKm": 6.4
+    }
+   ]
+  },
+  "track": [
+   {
+    "at": "1941-05-26T12:00",
+    "pos": [
+     -22.0,
+     52.0
+    ],
+    "status": "active",
+    "course": 133.9,
+    "speedKn": 14.5
+   },
+   {
+    "at": "1941-05-26T14:58",
+    "pos": [
+     -21.171,
+     51.5
+    ],
+    "status": "engaged",
+    "course": 133.6,
+    "speedKn": 14.6
+   },
+   {
+    "at": "1941-05-26T17:56",
+    "pos": [
+     -20.343,
+     51.0
+    ],
+    "status": "engaged",
+    "course": 133.3,
+    "speedKn": 14.7
+   },
+   {
+    "at": "1941-05-26T20:54",
+    "pos": [
+     -19.514,
+     50.5
+    ],
+    "status": "engaged",
+    "course": 133.0,
+    "speedKn": 14.7
+   },
+   {
+    "at": "1941-05-26T23:52",
+    "pos": [
+     -18.686,
+     50.0
+    ],
+    "status": "engaged",
+    "course": 132.7,
+    "speedKn": 14.8
+   },
+   {
+    "at": "1941-05-27T02:50",
+    "pos": [
+     -17.857,
+     49.5
+    ],
+    "status": "engaged",
+    "course": 132.5,
+    "speedKn": 14.9
+   },
+   {
+    "at": "1941-05-27T05:48",
+    "pos": [
+     -17.029,
+     49.0
+    ],
+    "status": "engaged",
+    "course": 132.1,
+    "speedKn": 14.9
+   },
+   {
+    "at": "1941-05-27T08:47",
+    "pos": [
+     -16.2,
+     48.5
+    ],
+    "status": "engaged",
+    "course": 132.1,
+    "speedKn": 14.9
+   },
+   {
+    "at": "1941-05-27T09:31",
+    "pos": [
+     -16.2,
+     48.5
+    ],
+    "status": "active",
+    "course": 132.1,
+    "speedKn": 2.0
+   }
+  ],
+  "history": "1941 年 5 月 27 日与英王乔治五世号一同追及俾斯麦号，在近距离炮战中倾泻主炮弹药，是最后战斗中火力最猛的一舰。（航迹为示意，仅保留追击两日。）",
+  "sources": [
+   "roskill_1954",
+   "nh_ship_histories",
+   "uboat_net_allies"
+  ],
+  "confidence": "high",
+  "active": {
+   "from": "1941-05-24T12:00",
+   "to": "1941-05-27T09:31"
+  }
+ },
+ {
+  "id": "gb.king_george_v",
+  "side": "GB",
+  "echelon": "ship",
+  "type": "naval",
+  "parent": "gb.wa",
+  "name": {
+   "zh": "英王乔治五世号战列舰",
+   "orig": "HMS King George V",
+   "short": "KGV"
+  },
+  "model": "navy_token",
+  "ship": {
+   "kind": "battleship",
+   "class": {
+    "zh": "英王乔治五世级",
+    "orig": "King George V-class"
+   },
+   "lengthM": 227.1,
+   "beamM": 31.4,
+   "tonnage": 36727,
+   "tonnageKind": "std",
+   "maxKn": 28.0,
+   "crew": 1556,
+   "silhouette": "battleship",
+   "weapons": [
+    {
+     "id": "A",
+     "label": "前主炮塔「A」（四联装 14 英寸）",
+     "cal": "14 in BL Mk VII",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 4,
+     "rangeKm": 35.0,
+     "atPct": 20
+    },
+    {
+     "id": "B",
+     "label": "前主炮塔「B」（双联装 14 英寸，背负）",
+     "cal": "14 in BL Mk VII",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 2,
+     "rangeKm": 35.0,
+     "atPct": 31
+    },
+    {
+     "id": "Y",
+     "label": "后主炮塔「Y」（四联装 14 英寸）",
+     "cal": "14 in BL Mk VII",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 4,
+     "rangeKm": 35.0,
+     "atPct": 78
+    },
+    {
+     "id": "sec",
+     "label": "5.25 英寸高平两用炮（双联装 ×8）",
+     "cal": "5.25 in QF Mk I",
+     "kind": "secondary",
+     "mounts": 8,
+     "perMount": 2,
+     "rangeKm": 21.0
+    }
+   ]
+  },
+  "track": [
+   {
+    "at": "1941-05-26T12:00",
+    "pos": [
+     -22.0,
+     52.0
+    ],
+    "status": "active",
+    "course": 133.9,
+    "speedKn": 14.5
+   },
+   {
+    "at": "1941-05-26T14:58",
+    "pos": [
+     -21.171,
+     51.5
+    ],
+    "status": "engaged",
+    "course": 133.9,
+    "speedKn": 14.5
+   },
+   {
+    "at": "1941-05-26T17:56",
+    "pos": [
+     -20.343,
+     51.0
+    ],
+    "status": "engaged",
+    "course": 133.6,
+    "speedKn": 14.6
+   },
+   {
+    "at": "1941-05-26T20:54",
+    "pos": [
+     -19.514,
+     50.5
+    ],
+    "status": "engaged",
+    "course": 133.3,
+    "speedKn": 14.7
+   },
+   {
+    "at": "1941-05-26T23:52",
+    "pos": [
+     -18.686,
+     50.0
+    ],
+    "status": "engaged",
+    "course": 133.0,
+    "speedKn": 14.7
+   },
+   {
+    "at": "1941-05-27T02:50",
+    "pos": [
+     -17.857,
+     49.5
+    ],
+    "status": "engaged",
+    "course": 132.7,
+    "speedKn": 14.8
+   },
+   {
+    "at": "1941-05-27T05:48",
+    "pos": [
+     -17.029,
+     49.0
+    ],
+    "status": "engaged",
+    "course": 132.5,
+    "speedKn": 14.9
+   },
+   {
+    "at": "1941-05-27T08:47",
+    "pos": [
+     -16.2,
+     48.5
+    ],
+    "status": "engaged",
+    "course": 132.1,
+    "speedKn": 14.9
+   },
+   {
+    "at": "1941-05-27T09:31",
+    "pos": [
+     -16.2,
+     48.5
+    ],
+    "status": "active",
+    "course": 132.1,
+    "speedKn": 2.0
+   }
+  ],
+  "history": "本土舰队旗舰，1941 年 5 月 27 日与罗德尼号共同击毁俾斯麦号；同月在丹麦海峡随威尔士亲王号行动。（航迹为示意。）",
+  "sources": [
+   "roskill_1954",
+   "nh_ship_histories",
+   "uboat_net_allies"
+  ],
+  "confidence": "high",
+  "active": {
+   "from": "1941-05-24T12:00",
+   "to": "1941-05-27T09:31"
+  }
+ },
+ {
+  "id": "gb.vanoc",
+  "side": "GB",
+  "echelon": "ship",
+  "type": "naval",
+  "parent": "gb.wa",
+  "name": {
+   "zh": "瓦诺克号驱逐舰",
+   "orig": "HMS Vanoc",
+   "short": "Vanoc"
+  },
+  "model": "navy_token",
+  "ship": {
+   "kind": "destroyer",
+   "class": {
+    "zh": "V 级改（V&W）",
+    "orig": "V-class destroyer"
+   },
+   "lengthM": 95.1,
+   "beamM": 8.2,
+   "tonnage": 1100,
+   "tonnageKind": "std",
+   "maxKn": 34.0,
+   "crew": 110,
+   "silhouette": "destroyer",
+   "weapons": [
+    {
+     "id": "main",
+     "label": "4 英寸炮（单装 ×4）",
+     "cal": "4 in QF Mk V",
+     "kind": "main",
+     "mounts": 4,
+     "perMount": 1,
+     "rangeKm": 15.0
+    },
+    {
+     "id": "aa40",
+     "label": "2 磅「乒乓」高射炮（单装 ×2）",
+     "cal": "40 mm Vickers",
+     "kind": "aa",
+     "mounts": 2,
+     "perMount": 1,
+     "rangeKm": 6.4
+    }
+   ]
+  },
+  "track": [
+   {
+    "at": "1941-03-15T12:00",
+    "pos": [
+     -13.0,
+     60.0
+    ],
+    "status": "active",
+    "course": 35.0,
+    "speedKn": 2.0
+   },
+   {
+    "at": "1941-03-16T07:39",
+    "pos": [
+     -12.25,
+     60.525
+    ],
+    "status": "engaged",
+    "course": 35.0,
+    "speedKn": 2.0
+   },
+   {
+    "at": "1941-03-17T03:18",
+    "pos": [
+     -11.5,
+     61.05
+    ],
+    "status": "engaged",
+    "course": 34.6,
+    "speedKn": 2.0
+   }
+  ],
+  "history": "1941 年 3 月 17 日晨，在 HX 112 船团战中用雷达发现上浮的 U-100，将其撞沉——雷达反潜的早期战例。（航迹为示意。）",
+  "sources": [
+   "roskill_1956",
+   "nh_ship_histories",
+   "uboat_net_allies"
+  ],
+  "confidence": "high",
+  "active": {
+   "from": "1941-03-13T12:00",
+   "to": "1941-03-17T03:18"
+  }
+ },
+ {
+  "id": "gb.bulldog",
+  "side": "GB",
+  "echelon": "ship",
+  "type": "naval",
+  "parent": "gb.wa",
+  "name": {
+   "zh": "斗牛犬号驱逐舰",
+   "orig": "HMS Bulldog",
+   "short": "Bulldog"
+  },
+  "model": "navy_token",
+  "ship": {
+   "kind": "destroyer",
+   "class": {
+    "zh": "B 级驱逐舰",
+    "orig": "B-class destroyer"
+   },
+   "lengthM": 98.5,
+   "beamM": 9.8,
+   "tonnage": 1380,
+   "tonnageKind": "std",
+   "maxKn": 35.0,
+   "crew": 138,
+   "silhouette": "destroyer",
+   "weapons": [
+    {
+     "id": "main",
+     "label": "4.7 英寸炮（单装 ×4）",
+     "cal": "4.7 in BL Mk IX",
+     "kind": "main",
+     "mounts": 4,
+     "perMount": 1,
+     "rangeKm": 15.5
+    },
+    {
+     "id": "aa",
+     "label": "3 英寸高射炮（单装 ×1）",
+     "cal": "3 in QF",
+     "kind": "aa",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 13.0
+    }
+   ]
+  },
+  "track": [
+   {
+    "at": "1941-05-08T12:00",
+    "pos": [
+     -38.0,
+     60.0
+    ],
+    "status": "active",
+    "course": 270.6,
+    "speedKn": 5.0
+   },
+   {
+    "at": "1941-05-08T20:00",
+    "pos": [
+     -39.333,
+     60.0
+    ],
+    "status": "engaged",
+    "course": 270.6,
+    "speedKn": 5.0
+   },
+   {
+    "at": "1941-05-09T04:00",
+    "pos": [
+     -40.667,
+     60.0
+    ],
+    "status": "engaged",
+    "course": 270.6,
+    "speedKn": 5.0
+   },
+   {
+    "at": "1941-05-09T12:00",
+    "pos": [
+     -42.0,
+     60.0
+    ],
+    "status": "engaged",
+    "course": 270.6,
+    "speedKn": 5.0
+   }
+  ],
+  "history": "1941 年 5 月 9 日在冰岛以南逼出 U-110，靠帮夺取恩尼格玛机与密码表；缴获物使布莱切利园在此后数月稳定读懂「海豚」密钥。（航迹为示意。）",
+  "sources": [
+   "roskill_1956",
+   "nh_ship_histories",
+   "uboat_net_allies"
+  ],
+  "confidence": "high",
+  "active": {
+   "from": "1941-05-06T12:00",
+   "to": "1941-05-09T12:00"
+  }
+ },
+ {
+  "id": "gb.highlander",
+  "side": "GB",
+  "echelon": "ship",
+  "type": "naval",
+  "parent": "gb.wa",
+  "name": {
+   "zh": "高地人号驱逐舰",
+   "orig": "HMS Highlander",
+   "short": "Highlander"
+  },
+  "model": "navy_token",
+  "ship": {
+   "kind": "destroyer",
+   "class": {
+    "zh": "H 级驱逐舰",
+    "orig": "H-class destroyer"
+   },
+   "lengthM": 98.5,
+   "beamM": 10.1,
+   "tonnage": 1340,
+   "tonnageKind": "std",
+   "maxKn": 36.0,
+   "crew": 145,
+   "silhouette": "destroyer",
+   "weapons": [
+    {
+     "id": "main",
+     "label": "4.7 英寸炮（单装 ×4）",
+     "cal": "4.7 in QF Mk IX",
+     "kind": "main",
+     "mounts": 4,
+     "perMount": 1,
+     "rangeKm": 15.5
+    },
+    {
+     "id": "aa40",
+     "label": "2 磅「乒乓」高射炮（四联装 ×1）",
+     "cal": "40 mm Vickers",
+     "kind": "aa",
+     "mounts": 1,
+     "perMount": 4,
+     "rangeKm": 6.4
+    },
+    {
+     "id": "tt",
+     "label": "21 英寸鱼雷发射管（四联装 ×2）",
+     "cal": "21 in Mk IX",
+     "kind": "torpedo",
+     "mounts": 2,
+     "perMount": 4,
+     "rangeKm": 13.7
+    }
+   ]
+  },
+  "track": [
+   {
+    "at": "1943-03-14T12:00",
+    "pos": [
+     -32.0,
+     55.0
+    ],
+    "status": "active",
+    "course": 270.4,
+    "speedKn": 2.3
+   },
+   {
+    "at": "1943-03-15T03:00",
+    "pos": [
+     -33.0,
+     55.0
+    ],
+    "status": "engaged",
+    "course": 270.4,
+    "speedKn": 2.3
+   },
+   {
+    "at": "1943-03-15T18:00",
+    "pos": [
+     -34.0,
+     55.0
+    ],
+    "status": "engaged",
+    "course": 270.4,
+    "speedKn": 2.3
+   },
+   {
+    "at": "1943-03-16T09:00",
+    "pos": [
+     -35.0,
+     55.0
+    ],
+    "status": "engaged",
+    "course": 270.4,
+    "speedKn": 2.3
+   }
+  ],
+  "history": "1943 年 3 月在 HX 229/SC 122 船团战中担任护航舰；该战中英加护航兵力严重不足，22 艘商船被击沉。（航迹为示意；本舰在该战中的具体机动未逐条核实。）",
+  "sources": [
+   "roskill_1956",
+   "nh_ship_histories",
+   "uboat_net_allies"
+  ],
+  "confidence": "medium",
+  "active": {
+   "from": "1943-03-12T12:00",
+   "to": "1943-03-16T09:00"
+  }
+ },
+ {
+  "id": "gb.belfast",
+  "side": "GB",
+  "echelon": "ship",
+  "type": "naval",
+  "parent": "gb.wa",
+  "name": {
+   "zh": "贝尔法斯特号轻巡洋舰",
+   "orig": "HMS Belfast",
+   "short": "Belfast"
+  },
+  "model": "navy_token",
+  "ship": {
+   "kind": "light_cruiser",
+   "class": {
+    "zh": "城级（爱丁堡亚型）",
+    "orig": "Town-class (Edinburgh)"
+   },
+   "lengthM": 187.0,
+   "beamM": 19.3,
+   "tonnage": 11550,
+   "tonnageKind": "std",
+   "maxKn": 32.5,
+   "crew": 781,
+   "silhouette": "leander",
+   "weapons": [
+    {
+     "id": "A",
+     "label": "前主炮塔「A」（三联装 6 英寸）",
+     "cal": "6 in BL Mk XXIII",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 3,
+     "rangeKm": 23.0,
+     "atPct": 24
+    },
+    {
+     "id": "B",
+     "label": "前主炮塔「B」（三联装 6 英寸）",
+     "cal": "6 in BL Mk XXIII",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 3,
+     "rangeKm": 23.0,
+     "atPct": 35
+    },
+    {
+     "id": "X",
+     "label": "后主炮塔「X」（三联装 6 英寸）",
+     "cal": "6 in BL Mk XXIII",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 3,
+     "rangeKm": 23.0,
+     "atPct": 72
+    },
+    {
+     "id": "sec",
+     "label": "4 英寸高射炮（双联装 ×6）",
+     "cal": "4 in QF Mk XVI",
+     "kind": "secondary",
+     "mounts": 6,
+     "perMount": 2,
+     "rangeKm": 15.0
+    },
+    {
+     "id": "aa40",
+     "label": "2 磅「乒乓」高射炮（八联装 ×2）",
+     "cal": "40 mm Vickers",
+     "kind": "aa",
+     "mounts": 2,
+     "perMount": 8,
+     "rangeKm": 6.4
+    }
+   ]
+  },
+  "track": [
+   {
+    "at": "1943-12-25T06:00",
+    "pos": [
+     -5.0,
+     68.0
+    ],
+    "status": "active",
+    "course": 71.5,
+    "speedKn": 26.2
+   },
+   {
+    "at": "1943-12-25T06:25",
+    "pos": [
+     -4.539,
+     68.057
+    ],
+    "status": "active",
+    "course": 71.5,
+    "speedKn": 26.2
+   },
+   {
+    "at": "1943-12-25T06:51",
+    "pos": [
+     -4.079,
+     68.114
+    ],
+    "status": "active",
+    "course": 71.4,
+    "speedKn": 25.1
+   },
+   {
+    "at": "1943-12-25T07:17",
+    "pos": [
+     -3.618,
+     68.171
+    ],
+    "status": "active",
+    "course": 71.4,
+    "speedKn": 25.1
+   },
+   {
+    "at": "1943-12-25T07:42",
+    "pos": [
+     -3.157,
+     68.229
+    ],
+    "status": "active",
+    "course": 71.1,
+    "speedKn": 26.0
+   },
+   {
+    "at": "1943-12-25T08:08",
+    "pos": [
+     -2.696,
+     68.286
+    ],
+    "status": "active",
+    "course": 71.3,
+    "speedKn": 24.9
+   },
+   {
+    "at": "1943-12-25T08:34",
+    "pos": [
+     -2.236,
+     68.343
+    ],
+    "status": "active",
+    "course": 71.2,
+    "speedKn": 24.8
+   },
+   {
+    "at": "1943-12-25T09:00",
+    "pos": [
+     -1.775,
+     68.4
+    ],
+    "status": "active",
+    "course": 71.2,
+    "speedKn": 24.8
+   },
+   {
+    "at": "1943-12-25T09:25",
+    "pos": [
+     -1.314,
+     68.457
+    ],
+    "status": "active",
+    "course": 71.2,
+    "speedKn": 25.8
+   },
+   {
+    "at": "1943-12-25T09:51",
+    "pos": [
+     -0.854,
+     68.514
+    ],
+    "status": "active",
+    "course": 71.1,
+    "speedKn": 24.7
+   },
+   {
+    "at": "1943-12-25T10:17",
+    "pos": [
+     -0.393,
+     68.571
+    ],
+    "status": "active",
+    "course": 71.1,
+    "speedKn": 24.7
+   },
+   {
+    "at": "1943-12-25T10:42",
+    "pos": [
+     0.068,
+     68.629
+    ],
+    "status": "active",
+    "course": 70.8,
+    "speedKn": 25.6
+   },
+   {
+    "at": "1943-12-25T11:08",
+    "pos": [
+     0.529,
+     68.686
+    ],
+    "status": "active",
+    "course": 71.0,
+    "speedKn": 24.6
+   },
+   {
+    "at": "1943-12-25T11:34",
+    "pos": [
+     0.989,
+     68.743
+    ],
+    "status": "active",
+    "course": 70.9,
+    "speedKn": 24.4
+   },
+   {
+    "at": "1943-12-25T12:00",
+    "pos": [
+     1.45,
+     68.8
+    ],
+    "status": "active",
+    "course": 70.9,
+    "speedKn": 24.4
+   },
+   {
+    "at": "1943-12-25T12:25",
+    "pos": [
+     1.911,
+     68.857
+    ],
+    "status": "active",
+    "course": 70.9,
+    "speedKn": 25.4
+   },
+   {
+    "at": "1943-12-25T12:51",
+    "pos": [
+     2.371,
+     68.914
+    ],
+    "status": "active",
+    "course": 70.8,
+    "speedKn": 24.3
+   },
+   {
+    "at": "1943-12-25T13:17",
+    "pos": [
+     2.832,
+     68.971
+    ],
+    "status": "active",
+    "course": 70.8,
+    "speedKn": 24.3
+   },
+   {
+    "at": "1943-12-25T13:42",
+    "pos": [
+     3.293,
+     69.029
+    ],
+    "status": "active",
+    "course": 70.4,
+    "speedKn": 25.2
+   },
+   {
+    "at": "1943-12-25T14:08",
+    "pos": [
+     3.754,
+     69.086
+    ],
+    "status": "active",
+    "course": 70.7,
+    "speedKn": 24.2
+   },
+   {
+    "at": "1943-12-25T14:34",
+    "pos": [
+     4.214,
+     69.143
+    ],
+    "status": "active",
+    "course": 70.6,
+    "speedKn": 24.1
+   },
+   {
+    "at": "1943-12-25T15:00",
+    "pos": [
+     4.675,
+     69.2
+    ],
+    "status": "active",
+    "course": 70.6,
+    "speedKn": 24.0
+   },
+   {
+    "at": "1943-12-25T15:25",
+    "pos": [
+     5.136,
+     69.257
+    ],
+    "status": "active",
+    "course": 70.6,
+    "speedKn": 24.9
+   },
+   {
+    "at": "1943-12-25T15:51",
+    "pos": [
+     5.596,
+     69.314
+    ],
+    "status": "active",
+    "course": 70.5,
+    "speedKn": 23.9
+   },
+   {
+    "at": "1943-12-25T16:17",
+    "pos": [
+     6.057,
+     69.371
+    ],
+    "status": "active",
+    "course": 70.5,
+    "speedKn": 23.9
+   },
+   {
+    "at": "1943-12-25T16:42",
+    "pos": [
+     6.518,
+     69.429
+    ],
+    "status": "active",
+    "course": 70.1,
+    "speedKn": 24.8
+   },
+   {
+    "at": "1943-12-25T17:08",
+    "pos": [
+     6.979,
+     69.486
+    ],
+    "status": "active",
+    "course": 70.4,
+    "speedKn": 23.8
+   },
+   {
+    "at": "1943-12-25T17:34",
+    "pos": [
+     7.439,
+     69.543
+    ],
+    "status": "active",
+    "course": 70.3,
+    "speedKn": 23.7
+   },
+   {
+    "at": "1943-12-25T18:00",
+    "pos": [
+     7.9,
+     69.6
+    ],
+    "status": "active",
+    "course": 69.6,
+    "speedKn": 22.8
+   },
+   {
+    "at": "1943-12-25T18:28",
+    "pos": [
+     8.378,
+     69.661
+    ],
+    "status": "active",
+    "course": 69.6,
+    "speedKn": 22.8
+   },
+   {
+    "at": "1943-12-25T18:56",
+    "pos": [
+     8.856,
+     69.722
+    ],
+    "status": "active",
+    "course": 69.6,
+    "speedKn": 22.7
+   },
+   {
+    "at": "1943-12-25T19:25",
+    "pos": [
+     9.333,
+     69.783
+    ],
+    "status": "active",
+    "course": 69.5,
+    "speedKn": 21.9
+   },
+   {
+    "at": "1943-12-25T19:53",
+    "pos": [
+     9.811,
+     69.844
+    ],
+    "status": "active",
+    "course": 69.5,
+    "speedKn": 22.6
+   },
+   {
+    "at": "1943-12-25T20:21",
+    "pos": [
+     10.289,
+     69.906
+    ],
+    "status": "active",
+    "course": 69.1,
+    "speedKn": 22.6
+   },
+   {
+    "at": "1943-12-25T20:50",
+    "pos": [
+     10.767,
+     69.967
+    ],
+    "status": "active",
+    "course": 69.4,
+    "speedKn": 21.7
+   },
+   {
+    "at": "1943-12-25T21:18",
+    "pos": [
+     11.244,
+     70.028
+    ],
+    "status": "active",
+    "course": 69.3,
+    "speedKn": 22.4
+   },
+   {
+    "at": "1943-12-25T21:46",
+    "pos": [
+     11.722,
+     70.089
+    ],
+    "status": "active",
+    "course": 69.3,
+    "speedKn": 22.4
+   },
+   {
+    "at": "1943-12-25T22:15",
+    "pos": [
+     12.2,
+     70.15
+    ],
+    "status": "active",
+    "course": 69.2,
+    "speedKn": 21.6
+   },
+   {
+    "at": "1943-12-25T22:43",
+    "pos": [
+     12.678,
+     70.211
+    ],
+    "status": "active",
+    "course": 69.1,
+    "speedKn": 22.3
+   },
+   {
+    "at": "1943-12-25T23:11",
+    "pos": [
+     13.156,
+     70.272
+    ],
+    "status": "active",
+    "course": 69.1,
+    "speedKn": 22.2
+   },
+   {
+    "at": "1943-12-25T23:40",
+    "pos": [
+     13.633,
+     70.333
+    ],
+    "status": "active",
+    "course": 69.0,
+    "speedKn": 21.4
+   },
+   {
+    "at": "1943-12-26T00:08",
+    "pos": [
+     14.111,
+     70.394
+    ],
+    "status": "active",
+    "course": 69.0,
+    "speedKn": 22.1
+   },
+   {
+    "at": "1943-12-26T00:36",
+    "pos": [
+     14.589,
+     70.456
+    ],
+    "status": "active",
+    "course": 68.6,
+    "speedKn": 22.1
+   },
+   {
+    "at": "1943-12-26T01:05",
+    "pos": [
+     15.067,
+     70.517
+    ],
+    "status": "active",
+    "course": 68.9,
+    "speedKn": 21.2
+   },
+   {
+    "at": "1943-12-26T01:33",
+    "pos": [
+     15.544,
+     70.578
+    ],
+    "status": "active",
+    "course": 68.8,
+    "speedKn": 21.9
+   },
+   {
+    "at": "1943-12-26T02:01",
+    "pos": [
+     16.022,
+     70.639
+    ],
+    "status": "active",
+    "course": 68.7,
+    "speedKn": 21.9
+   },
+   {
+    "at": "1943-12-26T02:30",
+    "pos": [
+     16.5,
+     70.7
+    ],
+    "status": "active",
+    "course": 69.2,
+    "speedKn": 22.7
+   },
+   {
+    "at": "1943-12-26T02:58",
+    "pos": [
+     17.0,
+     70.762
+    ],
+    "status": "engaged",
+    "course": 69.2,
+    "speedKn": 22.7
+   },
+   {
+    "at": "1943-12-26T03:26",
+    "pos": [
+     17.5,
+     70.823
+    ],
+    "status": "engaged",
+    "course": 69.4,
+    "speedKn": 22.6
+   },
+   {
+    "at": "1943-12-26T03:55",
+    "pos": [
+     18.0,
+     70.885
+    ],
+    "status": "engaged",
+    "course": 69.1,
+    "speedKn": 21.8
+   },
+   {
+    "at": "1943-12-26T04:23",
+    "pos": [
+     18.5,
+     70.946
+    ],
+    "status": "engaged",
+    "course": 69.3,
+    "speedKn": 22.4
+   },
+   {
+    "at": "1943-12-26T04:52",
+    "pos": [
+     19.0,
+     71.008
+    ],
+    "status": "engaged",
+    "course": 68.9,
+    "speedKn": 21.7
+   },
+   {
+    "at": "1943-12-26T05:20",
+    "pos": [
+     19.5,
+     71.069
+    ],
+    "status": "engaged",
+    "course": 69.2,
+    "speedKn": 22.3
+   },
+   {
+    "at": "1943-12-26T05:49",
+    "pos": [
+     20.0,
+     71.131
+    ],
+    "status": "engaged",
+    "course": 68.8,
+    "speedKn": 21.5
+   },
+   {
+    "at": "1943-12-26T06:17",
+    "pos": [
+     20.5,
+     71.192
+    ],
+    "status": "engaged",
+    "course": 69.1,
+    "speedKn": 22.2
+   },
+   {
+    "at": "1943-12-26T06:46",
+    "pos": [
+     21.0,
+     71.254
+    ],
+    "status": "engaged",
+    "course": 68.7,
+    "speedKn": 21.4
+   },
+   {
+    "at": "1943-12-26T07:14",
+    "pos": [
+     21.5,
+     71.315
+    ],
+    "status": "engaged",
+    "course": 68.9,
+    "speedKn": 22.1
+   },
+   {
+    "at": "1943-12-26T07:43",
+    "pos": [
+     22.0,
+     71.377
+    ],
+    "status": "engaged",
+    "course": 68.6,
+    "speedKn": 21.3
+   },
+   {
+    "at": "1943-12-26T08:11",
+    "pos": [
+     22.5,
+     71.438
+    ],
+    "status": "engaged",
+    "course": 68.8,
+    "speedKn": 22.0
+   },
+   {
+    "at": "1943-12-26T08:40",
+    "pos": [
+     23.0,
+     71.5
+    ],
+    "status": "engaged",
+    "course": 32.2,
+    "speedKn": 12.8
+   },
+   {
+    "at": "1943-12-26T09:30",
+    "pos": [
+     23.3,
+     71.65
+    ],
+    "status": "engaged",
+    "course": 32.2,
+    "speedKn": 12.8
+   },
+   {
+    "at": "1943-12-26T10:20",
+    "pos": [
+     23.6,
+     71.8
+    ],
+    "status": "engaged",
+    "course": 32.0,
+    "speedKn": 12.8
+   },
+   {
+    "at": "1943-12-26T11:10",
+    "pos": [
+     23.9,
+     71.95
+    ],
+    "status": "engaged",
+    "course": 31.7,
+    "speedKn": 12.7
+   },
+   {
+    "at": "1943-12-26T12:00",
+    "pos": [
+     24.2,
+     72.1
+    ],
+    "status": "engaged",
+    "course": 38.4,
+    "speedKn": 8.3
+   },
+   {
+    "at": "1943-12-26T13:12",
+    "pos": [
+     24.538,
+     72.23
+    ],
+    "status": "engaged",
+    "course": 38.4,
+    "speedKn": 8.3
+   },
+   {
+    "at": "1943-12-26T14:25",
+    "pos": [
+     24.875,
+     72.36
+    ],
+    "status": "engaged",
+    "course": 38.1,
+    "speedKn": 8.2
+   },
+   {
+    "at": "1943-12-26T15:37",
+    "pos": [
+     25.212,
+     72.49
+    ],
+    "status": "engaged",
+    "course": 37.9,
+    "speedKn": 8.3
+   },
+   {
+    "at": "1943-12-26T16:50",
+    "pos": [
+     25.55,
+     72.62
+    ],
+    "status": "engaged",
+    "course": 104.9,
+    "speedKn": 24.3
+   },
+   {
+    "at": "1943-12-26T17:10",
+    "pos": [
+     25.985,
+     72.585
+    ],
+    "status": "engaged",
+    "course": 104.9,
+    "speedKn": 24.3
+   },
+   {
+    "at": "1943-12-26T17:30",
+    "pos": [
+     26.42,
+     72.55
+    ],
+    "status": "engaged",
+    "course": 104.6,
+    "speedKn": 24.2
+   },
+   {
+    "at": "1943-12-26T17:55",
+    "pos": [
+     26.96,
+     72.507
+    ],
+    "status": "engaged",
+    "course": 104.6,
+    "speedKn": 24.2
+   },
+   {
+    "at": "1943-12-26T18:20",
+    "pos": [
+     27.5,
+     72.463
+    ],
+    "status": "engaged",
+    "course": 104.9,
+    "speedKn": 24.3
+   },
+   {
+    "at": "1943-12-26T18:45",
+    "pos": [
+     28.04,
+     72.42
+    ],
+    "status": "engaged",
+    "course": 123.4,
+    "speedKn": 10.9
+   },
+   {
+    "at": "1943-12-26T19:15",
+    "pos": [
+     28.29,
+     72.37
+    ],
+    "status": "engaged",
+    "course": 119.2,
+    "speedKn": 6.9
+   },
+   {
+    "at": "1943-12-26T20:30",
+    "pos": [
+     28.7,
+     72.3
+    ],
+    "status": "active",
+    "course": 119.2,
+    "speedKn": 6.9
+   }
+  ],
+  "history": "1943 年 12 月 26 日北角海战中，贝尔法斯特号的雷达在 08:40 首先发现沙恩霍斯特号，此后以照明弹与炮火引导约克公爵号编队。（航迹为示意。）",
+  "sources": [
+   "roskill_1960",
+   "nh_ship_histories",
+   "uboat_net_allies"
+  ],
+  "confidence": "high",
+  "active": {
+   "from": "1943-12-25T06:00",
+   "to": "1943-12-26T20:30"
+  }
+ },
+ {
+  "id": "us.greer",
+  "side": "US",
+  "echelon": "ship",
+  "type": "naval",
+  "parent": "us.atl",
+  "name": {
+   "zh": "格雷尔号驱逐舰",
+   "orig": "USS Greer",
+   "short": "Greer"
+  },
+  "model": "navy_token",
+  "ship": {
+   "kind": "destroyer",
+   "class": {
+    "zh": "威克斯级",
+    "orig": "Wickes-class"
+   },
+   "lengthM": 95.8,
+   "beamM": 9.4,
+   "tonnage": 1190,
+   "tonnageKind": "std",
+   "maxKn": 35.0,
+   "crew": 159,
+   "silhouette": "destroyer",
+   "weapons": [
+    {
+     "id": "main",
+     "label": "4 英寸/50 炮（单装 ×4）",
+     "cal": "4 in/50 Mk 9",
+     "kind": "main",
+     "mounts": 4,
+     "perMount": 1,
+     "rangeKm": 15.0
+    },
+    {
+     "id": "aa",
+     "label": "3 英寸/23 高射炮（单装 ×1）",
+     "cal": "3 in/23",
+     "kind": "aa",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 13.0
+    },
+    {
+     "id": "tt",
+     "label": "21 英寸鱼雷发射管（三联装 ×4）",
+     "cal": "21 in Mk 8",
+     "kind": "torpedo",
+     "mounts": 4,
+     "perMount": 3,
+     "rangeKm": 13.7
+    }
+   ]
+  },
+  "track": [
+   {
+    "at": "1941-09-04T12:00",
+    "pos": [
+     -27.0,
+     58.5
+    ],
+    "status": "engaged",
+    "course": 0.0,
+    "speedKn": 0.0
+   },
+   {
+    "at": "1941-09-10T01:30",
+    "pos": [
+     -27.0,
+     58.5
+    ],
+    "status": "engaged",
+    "course": 163.0,
+    "speedKn": 20.9
+   },
+   {
+    "at": "1941-09-10T03:36",
+    "pos": [
+     -26.6,
+     57.8
+    ],
+    "status": "active",
+    "course": 163.0,
+    "speedKn": 20.9
+   },
+   {
+    "at": "1941-09-10T05:42",
+    "pos": [
+     -26.2,
+     57.1
+    ],
+    "status": "active",
+    "course": 162.7,
+    "speedKn": 20.9
+   },
+   {
+    "at": "1941-09-10T07:48",
+    "pos": [
+     -25.8,
+     56.4
+    ],
+    "status": "active",
+    "course": 162.4,
+    "speedKn": 21.0
+   },
+   {
+    "at": "1941-09-10T09:54",
+    "pos": [
+     -25.4,
+     55.7
+    ],
+    "status": "active",
+    "course": 162.1,
+    "speedKn": 21.0
+   },
+   {
+    "at": "1941-09-10T12:00",
+    "pos": [
+     -25.0,
+     55.0
+    ],
+    "status": "active",
+    "course": 161.8,
+    "speedKn": 21.0
+   },
+   {
+    "at": "1941-09-14T12:00",
+    "pos": [
+     -24.0,
+     55.6
+    ],
+    "status": "active",
+    "course": 100,
+    "speedKn": 12.0
+   }
+  ],
+  "history": "1941 年 9 月 4 日在冰岛以南追踪 U-652 时被鱼雷攻击，随即深弹还击。事件被罗斯福用作「见即击沉」命令的依据，美舰自此实际参战。（航迹为示意。）",
+  "sources": [
+   "roskill_1956",
+   "mori_battle_atlantic",
+   "uboat_net_allies"
+  ],
+  "confidence": "medium",
+  "active": {
+   "from": "1941-09-02T12:00",
+   "to": "1941-09-14T12:00"
+  }
+ },
+ {
+  "id": "gb.biter",
+  "side": "GB",
+  "echelon": "ship",
+  "type": "naval",
+  "parent": "gb.wa",
+  "name": {
+   "zh": "比特号护航航母",
+   "orig": "HMS Biter",
+   "short": "Biter"
+  },
+  "model": "navy_token",
+  "ship": {
+   "kind": "carrier",
+   "class": {
+    "zh": "复仇者级（商船改装）",
+    "orig": "Avenger-class escort carrier"
+   },
+   "lengthM": 150.0,
+   "beamM": 20.2,
+   "tonnage": 8200,
+   "tonnageKind": "std",
+   "maxKn": 16.5,
+   "crew": 555,
+   "silhouette": "carrier",
+   "weapons": [
+    {
+     "id": "main",
+     "label": "4 英寸高射炮（单装 ×3）",
+     "cal": "4 in QF Mk XVI",
+     "kind": "main",
+     "mounts": 3,
+     "perMount": 1,
+     "rangeKm": 15.0
+    },
+    {
+     "id": "aa40",
+     "label": "2 磅「乒乓」高射炮（单装/双联装）",
+     "cal": "40 mm Vickers",
+     "kind": "aa",
+     "mounts": 8,
+     "perMount": 1,
+     "rangeKm": 6.4
+    },
+    {
+     "id": "aa20",
+     "label": "20 毫米厄利孔（单装 ×8）",
+     "cal": "20 mm Oerlikon",
+     "kind": "aa",
+     "mounts": 8,
+     "perMount": 1,
+     "rangeKm": 4.8
+    }
+   ]
+  },
+  "track": [
+   {
+    "at": "1943-04-25T12:00",
+    "pos": [
+     -30.0,
+     50.0
+    ],
+    "status": "engaged",
+    "course": 0.0,
+    "speedKn": 0.0
+   },
+   {
+    "at": "1943-05-19T12:42",
+    "pos": [
+     -30.0,
+     50.0
+    ],
+    "status": "engaged",
+    "course": 238.6,
+    "speedKn": 9.8
+   },
+   {
+    "at": "1943-05-19T17:21",
+    "pos": [
+     -31.0,
+     49.6
+    ],
+    "status": "active",
+    "course": 238.6,
+    "speedKn": 9.8
+   },
+   {
+    "at": "1943-05-19T22:01",
+    "pos": [
+     -32.0,
+     49.2
+    ],
+    "status": "active",
+    "course": 238.8,
+    "speedKn": 9.8
+   },
+   {
+    "at": "1943-05-20T02:40",
+    "pos": [
+     -33.0,
+     48.8
+    ],
+    "status": "active",
+    "course": 239.0,
+    "speedKn": 9.9
+   },
+   {
+    "at": "1943-05-20T07:20",
+    "pos": [
+     -34.0,
+     48.4
+    ],
+    "status": "active",
+    "course": 239.2,
+    "speedKn": 9.9
+   },
+   {
+    "at": "1943-05-20T12:00",
+    "pos": [
+     -35.0,
+     48.0
+    ],
+    "status": "active",
+    "course": 0.0,
+    "speedKn": 0.0
+   },
+   {
+    "at": "1944-01-29T22:54",
+    "pos": [
+     -35.0,
+     48.0
+    ],
+    "status": "active",
+    "course": 39.5,
+    "speedKn": 10.2
+   },
+   {
+    "at": "1944-01-30T03:36",
+    "pos": [
+     -34.231,
+     48.615
+    ],
+    "status": "active",
+    "course": 39.5,
+    "speedKn": 10.2
+   },
+   {
+    "at": "1944-01-30T08:18",
+    "pos": [
+     -33.462,
+     49.231
+    ],
+    "status": "active",
+    "course": 39.1,
+    "speedKn": 10.2
+   },
+   {
+    "at": "1944-01-30T13:00",
+    "pos": [
+     -32.692,
+     49.846
+    ],
+    "status": "active",
+    "course": 38.8,
+    "speedKn": 10.1
+   },
+   {
+    "at": "1944-01-30T17:42",
+    "pos": [
+     -31.923,
+     50.462
+    ],
+    "status": "active",
+    "course": 38.4,
+    "speedKn": 10.1
+   },
+   {
+    "at": "1944-01-30T22:24",
+    "pos": [
+     -31.154,
+     51.077
+    ],
+    "status": "active",
+    "course": 38.0,
+    "speedKn": 10.0
+   },
+   {
+    "at": "1944-01-31T03:06",
+    "pos": [
+     -30.385,
+     51.692
+    ],
+    "status": "active",
+    "course": 37.7,
+    "speedKn": 10.0
+   },
+   {
+    "at": "1944-01-31T07:48",
+    "pos": [
+     -29.615,
+     52.308
+    ],
+    "status": "active",
+    "course": 37.3,
+    "speedKn": 9.9
+   },
+   {
+    "at": "1944-01-31T12:30",
+    "pos": [
+     -28.846,
+     52.923
+    ],
+    "status": "active",
+    "course": 36.9,
+    "speedKn": 9.9
+   },
+   {
+    "at": "1944-01-31T17:12",
+    "pos": [
+     -28.077,
+     53.538
+    ],
+    "status": "active",
+    "course": 36.5,
+    "speedKn": 9.8
+   },
+   {
+    "at": "1944-01-31T21:54",
+    "pos": [
+     -27.308,
+     54.154
+    ],
+    "status": "active",
+    "course": 36.1,
+    "speedKn": 9.8
+   },
+   {
+    "at": "1944-02-01T02:36",
+    "pos": [
+     -26.538,
+     54.769
+    ],
+    "status": "active",
+    "course": 35.7,
+    "speedKn": 9.7
+   },
+   {
+    "at": "1944-02-01T07:18",
+    "pos": [
+     -25.769,
+     55.385
+    ],
+    "status": "active",
+    "course": 35.2,
+    "speedKn": 9.7
+   },
+   {
+    "at": "1944-02-01T12:00",
+    "pos": [
+     -25.0,
+     56.0
+    ],
+    "status": "active",
+    "course": 34.9,
+    "speedKn": 9.6
+   }
+  ],
+  "history": "由商船改装的护航航母，1943 年 4 月 25 日其剑鱼机发现并攻击 U-203，引导「探路者」号将其击沉。此后随猎杀群在中大西洋作战。（航迹为示意。）",
+  "sources": [
+   "nh_ship_histories",
+   "roskill_1960",
+   "uboat_net_allies"
+  ],
+  "confidence": "high",
+  "equipment": [
+   {
+    "id": "escort_carrier"
+   }
+  ],
+  "active": {
+   "from": "1943-04-23T12:00",
+   "to": "1944-02-01T12:00"
+  }
+ },
+ {
+  "id": "us.bogue",
+  "side": "US",
+  "echelon": "ship",
+  "type": "naval",
+  "parent": "us.atl",
+  "name": {
+   "zh": "博格号护航航母",
+   "orig": "USS Bogue",
+   "short": "Bogue"
+  },
+  "model": "navy_token",
+  "ship": {
+   "kind": "carrier",
+   "class": {
+    "zh": "博格级护航航母",
+    "orig": "Bogue-class escort carrier"
+   },
+   "lengthM": 151.1,
+   "beamM": 21.2,
+   "tonnage": 8390,
+   "tonnageKind": "std",
+   "maxKn": 18.0,
+   "crew": 890,
+   "silhouette": "carrier",
+   "weapons": [
+    {
+     "id": "main",
+     "label": "5 英寸/38 高平两用炮（单装 ×2）",
+     "cal": "5 in/38 Mk 12",
+     "kind": "main",
+     "mounts": 2,
+     "perMount": 1,
+     "rangeKm": 18.0
+    },
+    {
+     "id": "aa40",
+     "label": "40 毫米博福斯（双联装 ×10）",
+     "cal": "40 mm Bofors",
+     "kind": "aa",
+     "mounts": 10,
+     "perMount": 2,
+     "rangeKm": 9.8
+    },
+    {
+     "id": "aa20",
+     "label": "20 毫米厄利孔（单装 ×8）",
+     "cal": "20 mm Oerlikon",
+     "kind": "aa",
+     "mounts": 8,
+     "perMount": 1,
+     "rangeKm": 4.8
+    }
+   ]
+  },
+  "track": [
+   {
+    "at": "1943-03-01T12:00",
+    "pos": [
+     -30.0,
+     40.0
+    ],
+    "status": "active",
+    "course": 0.0,
+    "speedKn": 0.0
+   },
+   {
+    "at": "1943-04-30T14:42",
+    "pos": [
+     -30.0,
+     40.0
+    ],
+    "status": "active",
+    "course": 270.3,
+    "speedKn": 10.8
+   },
+   {
+    "at": "1943-04-30T18:57",
+    "pos": [
+     -31.0,
+     40.0
+    ],
+    "status": "engaged",
+    "course": 270.3,
+    "speedKn": 10.8
+   },
+   {
+    "at": "1943-04-30T23:13",
+    "pos": [
+     -32.0,
+     40.0
+    ],
+    "status": "engaged",
+    "course": 270.3,
+    "speedKn": 10.8
+   },
+   {
+    "at": "1943-05-01T03:28",
+    "pos": [
+     -33.0,
+     40.0
+    ],
+    "status": "engaged",
+    "course": 270.3,
+    "speedKn": 10.8
+   },
+   {
+    "at": "1943-05-01T07:44",
+    "pos": [
+     -34.0,
+     40.0
+    ],
+    "status": "engaged",
+    "course": 270.3,
+    "speedKn": 10.8
+   },
+   {
+    "at": "1943-05-01T12:00",
+    "pos": [
+     -35.0,
+     40.0
+    ],
+    "status": "engaged",
+    "course": 0.0,
+    "speedKn": 0.0
+   },
+   {
+    "at": "1943-06-01T12:00",
+    "pos": [
+     -35.0,
+     40.0
+    ],
+    "status": "engaged",
+    "course": 0.0,
+    "speedKn": 0.0
+   },
+   {
+    "at": "1943-11-29T20:04",
+    "pos": [
+     -35.0,
+     40.0
+    ],
+    "status": "engaged",
+    "course": 46.6,
+    "speedKn": 11.0
+   },
+   {
+    "at": "1943-11-30T00:30",
+    "pos": [
+     -34.222,
+     40.556
+    ],
+    "status": "active",
+    "course": 46.6,
+    "speedKn": 11.0
+   },
+   {
+    "at": "1943-11-30T04:56",
+    "pos": [
+     -33.444,
+     41.111
+    ],
+    "status": "active",
+    "course": 46.4,
+    "speedKn": 11.0
+   },
+   {
+    "at": "1943-11-30T09:22",
+    "pos": [
+     -32.667,
+     41.667
+    ],
+    "status": "active",
+    "course": 46.1,
+    "speedKn": 10.9
+   },
+   {
+    "at": "1943-11-30T13:48",
+    "pos": [
+     -31.889,
+     42.222
+    ],
+    "status": "active",
+    "course": 45.9,
+    "speedKn": 10.9
+   },
+   {
+    "at": "1943-11-30T18:15",
+    "pos": [
+     -31.111,
+     42.778
+    ],
+    "status": "active",
+    "course": 45.6,
+    "speedKn": 10.8
+   },
+   {
+    "at": "1943-11-30T22:41",
+    "pos": [
+     -30.333,
+     43.333
+    ],
+    "status": "active",
+    "course": 45.4,
+    "speedKn": 10.8
+   },
+   {
+    "at": "1943-12-01T03:07",
+    "pos": [
+     -29.556,
+     43.889
+    ],
+    "status": "active",
+    "course": 45.1,
+    "speedKn": 10.7
+   },
+   {
+    "at": "1943-12-01T07:33",
+    "pos": [
+     -28.778,
+     44.444
+    ],
+    "status": "active",
+    "course": 44.9,
+    "speedKn": 10.7
+   },
+   {
+    "at": "1943-12-01T12:00",
+    "pos": [
+     -28.0,
+     45.0
+    ],
+    "status": "active",
+    "course": 0.0,
+    "speedKn": 0.0
+   },
+   {
+    "at": "1944-05-30T20:12",
+    "pos": [
+     -28.0,
+     45.0
+    ],
+    "status": "active",
+    "course": 191.6,
+    "speedKn": 10.8
+   },
+   {
+    "at": "1944-05-31T00:37",
+    "pos": [
+     -28.222,
+     44.222
+    ],
+    "status": "active",
+    "course": 191.6,
+    "speedKn": 10.8
+   },
+   {
+    "at": "1944-05-31T05:02",
+    "pos": [
+     -28.444,
+     43.444
+    ],
+    "status": "active",
+    "course": 191.7,
+    "speedKn": 10.8
+   },
+   {
+    "at": "1944-05-31T09:28",
+    "pos": [
+     -28.667,
+     42.667
+    ],
+    "status": "active",
+    "course": 191.9,
+    "speedKn": 10.8
+   },
+   {
+    "at": "1944-05-31T13:53",
+    "pos": [
+     -28.889,
+     41.889
+    ],
+    "status": "active",
+    "course": 192.0,
+    "speedKn": 10.8
+   },
+   {
+    "at": "1944-05-31T18:18",
+    "pos": [
+     -29.111,
+     41.111
+    ],
+    "status": "active",
+    "course": 192.1,
+    "speedKn": 10.8
+   },
+   {
+    "at": "1944-05-31T22:44",
+    "pos": [
+     -29.333,
+     40.333
+    ],
+    "status": "active",
+    "course": 192.3,
+    "speedKn": 10.8
+   },
+   {
+    "at": "1944-06-01T03:09",
+    "pos": [
+     -29.556,
+     39.556
+    ],
+    "status": "active",
+    "course": 192.5,
+    "speedKn": 10.8
+   },
+   {
+    "at": "1944-06-01T07:34",
+    "pos": [
+     -29.778,
+     38.778
+    ],
+    "status": "active",
+    "course": 192.5,
+    "speedKn": 10.8
+   },
+   {
+    "at": "1944-06-01T12:00",
+    "pos": [
+     -30.0,
+     38.0
+    ],
+    "status": "active",
+    "course": 192.7,
+    "speedKn": 10.8
+   }
+  ],
+  "history": "美国第一艘专职猎杀群的护航航母。1943 年 6 月起其舰载机与护航驱逐舰在中大西洋与亚速尔海域独立搜索狼群，是「猎杀群」战术的样板。（航迹为示意。）",
+  "sources": [
+   "mori_atlantic_won",
+   "wiki_en_escort_carrier",
+   "uboat_net_allies"
+  ],
+  "confidence": "high",
+  "active": {
+   "from": "1943-02-27T12:00",
+   "to": "1944-06-01T12:00"
+  }
+ },
+ {
+  "id": "ca.chambly",
+  "side": "CA",
+  "echelon": "ship",
+  "type": "naval",
+  "parent": "ca.nef",
+  "name": {
+   "zh": "尚布利号轻护舰",
+   "orig": "HMCS Chambly",
+   "short": "Chambly"
+  },
+  "model": "navy_token",
+  "ship": {
+   "kind": "destroyer",
+   "class": {
+    "zh": "花级轻护舰",
+    "orig": "Flower-class corvette"
+   },
+   "lengthM": 62.5,
+   "beamM": 10.1,
+   "tonnage": 925,
+   "tonnageKind": "std",
+   "maxKn": 16.0,
+   "crew": 85,
+   "silhouette": "destroyer",
+   "weapons": [
+    {
+     "id": "main",
+     "label": "4 英寸炮（单装 ×1，艏部）",
+     "cal": "4 in BL Mk IX",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 15.0,
+     "atPct": 14
+    },
+    {
+     "id": "aa20",
+     "label": "20 毫米厄利孔（单装 ×2）",
+     "cal": "20 mm Oerlikon",
+     "kind": "aa",
+     "mounts": 2,
+     "perMount": 1,
+     "rangeKm": 4.8
+    }
+   ]
+  },
+  "track": [
+   {
+    "at": "1941-09-09T12:00",
+    "pos": [
+     -45.0,
+     58.0
+    ],
+    "status": "engaged",
+    "course": 0.0,
+    "speedKn": 0.0
+   },
+   {
+    "at": "1942-06-29T03:48",
+    "pos": [
+     -45.0,
+     58.0
+    ],
+    "status": "engaged",
+    "course": 205.3,
+    "speedKn": 9.4
+   },
+   {
+    "at": "1942-06-29T08:29",
+    "pos": [
+     -45.583,
+     57.333
+    ],
+    "status": "active",
+    "course": 205.3,
+    "speedKn": 9.4
+   },
+   {
+    "at": "1942-06-29T13:10",
+    "pos": [
+     -46.167,
+     56.667
+    ],
+    "status": "active",
+    "course": 205.8,
+    "speedKn": 9.5
+   },
+   {
+    "at": "1942-06-29T17:51",
+    "pos": [
+     -46.75,
+     56.0
+    ],
+    "status": "active",
+    "course": 206.1,
+    "speedKn": 9.5
+   },
+   {
+    "at": "1942-06-29T22:32",
+    "pos": [
+     -47.333,
+     55.333
+    ],
+    "status": "active",
+    "course": 206.5,
+    "speedKn": 9.5
+   },
+   {
+    "at": "1942-06-30T03:13",
+    "pos": [
+     -47.917,
+     54.667
+    ],
+    "status": "active",
+    "course": 206.9,
+    "speedKn": 9.6
+   },
+   {
+    "at": "1942-06-30T07:54",
+    "pos": [
+     -48.5,
+     54.0
+    ],
+    "status": "active",
+    "course": 207.2,
+    "speedKn": 9.6
+   },
+   {
+    "at": "1942-06-30T12:35",
+    "pos": [
+     -49.083,
+     53.333
+    ],
+    "status": "active",
+    "course": 207.6,
+    "speedKn": 9.6
+   },
+   {
+    "at": "1942-06-30T17:16",
+    "pos": [
+     -49.667,
+     52.667
+    ],
+    "status": "active",
+    "course": 208.1,
+    "speedKn": 9.7
+   },
+   {
+    "at": "1942-06-30T21:57",
+    "pos": [
+     -50.25,
+     52.0
+    ],
+    "status": "active",
+    "course": 208.3,
+    "speedKn": 9.7
+   },
+   {
+    "at": "1942-07-01T02:38",
+    "pos": [
+     -50.833,
+     51.333
+    ],
+    "status": "active",
+    "course": 208.7,
+    "speedKn": 9.7
+   },
+   {
+    "at": "1942-07-01T07:19",
+    "pos": [
+     -51.417,
+     50.667
+    ],
+    "status": "active",
+    "course": 209.1,
+    "speedKn": 9.8
+   },
+   {
+    "at": "1942-07-01T12:00",
+    "pos": [
+     -52.0,
+     50.0
+    ],
+    "status": "active",
+    "course": 0.0,
+    "speedKn": 0.0
+   },
+   {
+    "at": "1943-08-30T04:45",
+    "pos": [
+     -52.0,
+     50.0
+    ],
+    "status": "active",
+    "course": 56.5,
+    "speedKn": 10.0
+   },
+   {
+    "at": "1943-08-30T09:46",
+    "pos": [
+     -50.909,
+     50.455
+    ],
+    "status": "engaged",
+    "course": 56.5,
+    "speedKn": 10.0
+   },
+   {
+    "at": "1943-08-30T14:47",
+    "pos": [
+     -49.818,
+     50.909
+    ],
+    "status": "engaged",
+    "course": 56.3,
+    "speedKn": 9.9
+   },
+   {
+    "at": "1943-08-30T19:49",
+    "pos": [
+     -48.727,
+     51.364
+    ],
+    "status": "engaged",
+    "course": 56.0,
+    "speedKn": 9.8
+   },
+   {
+    "at": "1943-08-31T00:50",
+    "pos": [
+     -47.636,
+     51.818
+    ],
+    "status": "engaged",
+    "course": 55.8,
+    "speedKn": 9.8
+   },
+   {
+    "at": "1943-08-31T05:51",
+    "pos": [
+     -46.545,
+     52.273
+    ],
+    "status": "engaged",
+    "course": 55.4,
+    "speedKn": 9.7
+   },
+   {
+    "at": "1943-08-31T10:53",
+    "pos": [
+     -45.455,
+     52.727
+    ],
+    "status": "engaged",
+    "course": 55.2,
+    "speedKn": 9.6
+   },
+   {
+    "at": "1943-08-31T15:54",
+    "pos": [
+     -44.364,
+     53.182
+    ],
+    "status": "engaged",
+    "course": 54.9,
+    "speedKn": 9.6
+   },
+   {
+    "at": "1943-08-31T20:55",
+    "pos": [
+     -43.273,
+     53.636
+    ],
+    "status": "engaged",
+    "course": 54.6,
+    "speedKn": 9.5
+   },
+   {
+    "at": "1943-09-01T01:57",
+    "pos": [
+     -42.182,
+     54.091
+    ],
+    "status": "engaged",
+    "course": 54.3,
+    "speedKn": 9.4
+   },
+   {
+    "at": "1943-09-01T06:58",
+    "pos": [
+     -41.091,
+     54.545
+    ],
+    "status": "engaged",
+    "course": 54.1,
+    "speedKn": 9.4
+   },
+   {
+    "at": "1943-09-01T12:00",
+    "pos": [
+     -40.0,
+     55.0
+    ],
+    "status": "engaged",
+    "course": 53.7,
+    "speedKn": 9.3
+   }
+  ],
+  "history": "加拿大皇家海军花级轻护舰，1941 年 9 月 9 日在 SC 42 船团战中与莫斯利号等共同攻击 U-501，是加拿大护航群早期的代表性战例。（航迹为示意。）",
+  "sources": [
+   "schull_1950",
+   "nh_convoy_escorts",
+   "uboat_net_allies"
+  ],
+  "confidence": "high",
+  "equipment": [
+   {
+    "id": "corvette_flower"
+   }
+  ],
+  "active": {
+   "from": "1941-09-07T12:00",
+   "to": "1943-09-01T12:00"
+  }
+ },
+ {
+  "id": "ca.swansea",
+  "side": "CA",
+  "echelon": "ship",
+  "type": "naval",
+  "parent": "ca.nef",
+  "name": {
+   "zh": "斯旺西号轻护舰",
+   "orig": "HMCS Swansea",
+   "short": "Swansea"
+  },
+  "model": "navy_token",
+  "ship": {
+   "kind": "destroyer",
+   "class": {
+    "zh": "河级护卫舰",
+    "orig": "River-class frigate"
+   },
+   "lengthM": 86.3,
+   "beamM": 11.1,
+   "tonnage": 1445,
+   "tonnageKind": "std",
+   "maxKn": 20.0,
+   "crew": 157,
+   "silhouette": "destroyer",
+   "weapons": [
+    {
+     "id": "A",
+     "label": "4 英寸高平两用炮（双联装 ×1，艏部）",
+     "cal": "4 in QF Mk XVI",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 2,
+     "rangeKm": 15.0,
+     "atPct": 16
+    },
+    {
+     "id": "X",
+     "label": "4 英寸高平两用炮（双联装 ×1，艉部）",
+     "cal": "4 in QF Mk XVI",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 2,
+     "rangeKm": 15.0,
+     "atPct": 82
+    },
+    {
+     "id": "aa40",
+     "label": "2 磅「乒乓」高射炮（四联装 ×1）",
+     "cal": "40 mm Vickers",
+     "kind": "aa",
+     "mounts": 1,
+     "perMount": 4,
+     "rangeKm": 6.4
+    }
+   ]
+  },
+  "track": [
+   {
+    "at": "1944-02-01T12:00",
+    "pos": [
+     -35.0,
+     50.0
+    ],
+    "status": "engaged",
+    "course": 0.0,
+    "speedKn": 0.0
+   },
+   {
+    "at": "1944-02-29T17:21",
+    "pos": [
+     -35.0,
+     50.0
+    ],
+    "status": "engaged",
+    "course": 57.6,
+    "speedKn": 12.2
+   },
+   {
+    "at": "1944-02-29T21:04",
+    "pos": [
+     -34.0,
+     50.4
+    ],
+    "status": "active",
+    "course": 57.6,
+    "speedKn": 12.2
+   },
+   {
+    "at": "1944-03-01T00:48",
+    "pos": [
+     -33.0,
+     50.8
+    ],
+    "status": "active",
+    "course": 57.4,
+    "speedKn": 12.1
+   },
+   {
+    "at": "1944-03-01T04:32",
+    "pos": [
+     -32.0,
+     51.2
+    ],
+    "status": "active",
+    "course": 57.2,
+    "speedKn": 12.0
+   },
+   {
+    "at": "1944-03-01T08:16",
+    "pos": [
+     -31.0,
+     51.6
+    ],
+    "status": "active",
+    "course": 56.9,
+    "speedKn": 11.9
+   },
+   {
+    "at": "1944-03-01T12:00",
+    "pos": [
+     -30.0,
+     52.0
+    ],
+    "status": "active",
+    "course": 56.7,
+    "speedKn": 11.8
+   }
+  ],
+  "history": "加拿大皇家海军河级护卫舰，1944 年起随西北大西洋司令部的支援群行动，是加拿大海军从「数量」转向「质量」的代表舰。（航迹为示意。）",
+  "sources": [
+   "schull_1950",
+   "roskill_1961",
+   "uboat_net_allies"
+  ],
+  "confidence": "medium",
+  "active": {
+   "from": "1944-01-30T12:00",
+   "to": "1944-03-01T12:00"
+  }
+ },
+ {
+  "id": "gb.campbeltown",
+  "side": "GB",
+  "echelon": "ship",
+  "type": "naval",
+  "parent": "gb.wa",
+  "name": {
+   "zh": "坎贝尔敦号驱逐舰",
+   "orig": "HMS Campbeltown",
+   "short": "Campbeltown"
+  },
+  "model": "navy_token",
+  "ship": {
+   "kind": "destroyer",
+   "class": {
+    "zh": "城级（改）驱逐舰",
+    "orig": "Town-class destroyer"
+   },
+   "lengthM": 95.9,
+   "beamM": 9.1,
+   "tonnage": 1190,
+   "tonnageKind": "std",
+   "maxKn": 25.0,
+   "crew": 164,
+   "silhouette": "destroyer",
+   "weapons": [
+    {
+     "id": "main",
+     "label": "4 英寸炮（单装 ×3）",
+     "cal": "4 in QF Mk IX",
+     "kind": "main",
+     "mounts": 3,
+     "perMount": 1,
+     "rangeKm": 15.0
+    },
+    {
+     "id": "aa40",
+     "label": "2 磅「乒乓」高射炮（单装 ×1）",
+     "cal": "40 mm Vickers",
+     "kind": "aa",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 6.4
+    },
+    {
+     "id": "tt",
+     "label": "21 英寸鱼雷发射管（三联装 ×1）",
+     "cal": "21 in Mk IX",
+     "kind": "torpedo",
+     "mounts": 1,
+     "perMount": 3,
+     "rangeKm": 13.7
+    }
+   ]
+  },
+  "track": [
+   {
+    "at": "1942-03-26T12:00",
+    "pos": [
+     -4.5,
+     49.5
+    ],
+    "status": "active",
+    "course": 145.8,
+    "speedKn": 4.3
+   },
+   {
+    "at": "1942-03-26T21:23",
+    "pos": [
+     -3.925,
+     48.943
+    ],
+    "status": "engaged",
+    "course": 145.8,
+    "speedKn": 4.3
+   },
+   {
+    "at": "1942-03-27T06:47",
+    "pos": [
+     -3.35,
+     48.385
+    ],
+    "status": "engaged",
+    "course": 145.5,
+    "speedKn": 4.3
+   },
+   {
+    "at": "1942-03-27T16:10",
+    "pos": [
+     -2.775,
+     47.828
+    ],
+    "status": "engaged",
+    "course": 145.2,
+    "speedKn": 4.3
+   },
+   {
+    "at": "1942-03-28T01:34",
+    "pos": [
+     -2.2,
+     47.27
+    ],
+    "status": "engaged",
+    "course": 0.0,
+    "speedKn": 0.0
+   },
+   {
+    "at": "1942-03-28T10:00",
+    "pos": [
+     -2.2,
+     47.27
+    ],
+    "status": "destroyed",
+    "course": 0.0,
+    "speedKn": 0.0
+   }
+  ],
+  "history": "1942 年 3 月 28 日圣纳泽尔突袭中，改装为炸药船撞入船坞闸门后引爆，摧毁了能容纳大型舰船的干船坞；五名艇员获授维多利亚十字勋章。（航迹为示意。）",
+  "sources": [
+   "roskill_1956",
+   "nh_ship_histories",
+   "uboat_net_allies"
+  ],
+  "confidence": "high",
+  "active": {
+   "from": "1942-03-24T12:00",
+   "to": "1942-03-28T10:00"
+  }
+ },
+ {
+  "id": "us.block_island",
+  "side": "US",
+  "echelon": "ship",
+  "type": "naval",
+  "parent": "us.atl",
+  "name": {
+   "zh": "布洛克岛号护航航母",
+   "orig": "USS Block Island",
+   "short": "Block Island"
+  },
+  "model": "navy_token",
+  "ship": {
+   "kind": "carrier",
+   "class": {
+    "zh": "博格级护航航母",
+    "orig": "Bogue-class escort carrier"
+   },
+   "lengthM": 151.1,
+   "beamM": 21.2,
+   "tonnage": 8390,
+   "tonnageKind": "std",
+   "maxKn": 18.0,
+   "crew": 890,
+   "silhouette": "carrier",
+   "weapons": [
+    {
+     "id": "main",
+     "label": "5 英寸/38 高平两用炮（单装 ×2）",
+     "cal": "5 in/38 Mk 12",
+     "kind": "main",
+     "mounts": 2,
+     "perMount": 1,
+     "rangeKm": 18.0
+    },
+    {
+     "id": "aa40",
+     "label": "40 毫米博福斯（双联装 ×8）",
+     "cal": "40 mm Bofors",
+     "kind": "aa",
+     "mounts": 8,
+     "perMount": 2,
+     "rangeKm": 9.8
+    },
+    {
+     "id": "aa20",
+     "label": "20 毫米厄利孔（单装 ×8）",
+     "cal": "20 mm Oerlikon",
+     "kind": "aa",
+     "mounts": 8,
+     "perMount": 1,
+     "rangeKm": 4.8
+    }
+   ]
+  },
+  "track": [
+   {
+    "at": "1944-05-28T12:00",
+    "pos": [
+     -28.0,
+     31.5
+    ],
+    "status": "active",
+    "course": 93.9,
+    "speedKn": 10.5
+   },
+   {
+    "at": "1944-05-28T16:00",
+    "pos": [
+     -27.183,
+     31.45
+    ],
+    "status": "destroyed",
+    "course": 93.9,
+    "speedKn": 10.5
+   },
+   {
+    "at": "1944-05-28T20:00",
+    "pos": [
+     -26.367,
+     31.4
+    ],
+    "status": "destroyed",
+    "course": 93.9,
+    "speedKn": 10.5
+   },
+   {
+    "at": "1944-05-29T00:00",
+    "pos": [
+     -25.55,
+     31.35
+    ],
+    "status": "destroyed",
+    "course": 93.9,
+    "speedKn": 10.5
+   },
+   {
+    "at": "1944-05-29T04:00",
+    "pos": [
+     -24.733,
+     31.3
+    ],
+    "status": "destroyed",
+    "course": 93.9,
+    "speedKn": 10.5
+   },
+   {
+    "at": "1944-05-29T08:00",
+    "pos": [
+     -23.917,
+     31.25
+    ],
+    "status": "destroyed",
+    "course": 93.9,
+    "speedKn": 10.5
+   },
+   {
+    "at": "1944-05-29T12:00",
+    "pos": [
+     -23.1,
+     31.2
+    ],
+    "status": "destroyed",
+    "course": 93.9,
+    "speedKn": 10.5
+   }
+  ],
+  "history": "美国海军在大西洋损失的唯一一艘护航航母：1944 年 5 月 29 日在亚速尔以西被 U-549 的两枚鱼雷击中，由护航驱逐舰击沉。（航迹为示意。）",
+  "sources": [
+   "mori_atlantic_won",
+   "nh_ship_histories",
+   "uboat_net_allies"
+  ],
+  "confidence": "high",
+  "active": {
+   "from": "1944-05-26T12:00",
+   "to": "1944-05-29T12:00"
+  }
+ },
+ {
+  "id": "gb.athenia",
+  "side": "GB",
+  "echelon": "ship",
+  "type": "naval",
+  "parent": "gb.wa",
+  "name": {
+   "zh": "雅典娜号客轮",
+   "orig": "SS Athenia",
+   "short": "Athenia"
+  },
+  "model": "navy_token",
+  "ship": {
+   "kind": "liner",
+   "class": {
+    "zh": "唐纳森大西洋航线客轮",
+    "orig": "Donaldson Atlantic liner"
+   },
+   "lengthM": 160.8,
+   "beamM": 20.2,
+   "tonnage": 13581,
+   "tonnageKind": "grt",
+   "maxKn": 15.0,
+   "crew": 315,
+   "silhouette": "liner",
+   "weapons": [
+    {
+     "id": "deck",
+     "label": "艉部甲板炮（单装 ×1）",
+     "cal": "4 in BL Mk IX",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 12.0,
+     "atPct": 88
+    },
+    {
+     "id": "aa",
+     "label": "高射机枪（单装 ×2）",
+     "cal": "20 mm Oerlikon",
+     "kind": "aa",
+     "mounts": 2,
+     "perMount": 1,
+     "rangeKm": 4.8
+    }
+   ],
+   "flag": "GB"
+  },
+  "track": [
+   {
+    "at": "1939-09-03T12:00",
+    "pos": [
+     -14.0,
+     56.6
+    ],
+    "status": "active",
+    "course": 250.3,
+    "speedKn": 2.3
+   },
+   {
+    "at": "1939-09-03T19:40",
+    "pos": [
+     -14.5,
+     56.5
+    ],
+    "status": "engaged",
+    "course": 0.0,
+    "speedKn": 0.0
+   },
+   {
+    "at": "1939-09-04T10:00",
+    "pos": [
+     -14.5,
+     56.5
+    ],
+    "status": "destroyed",
+    "course": 0.0,
+    "speedKn": 0.0
+   }
+  ],
+  "history": "1939 年 9 月 3 日晚由 U-30 误判为武装商船击沉，1,418 人在船，117 人丧生（含 28 名美国公民）。德国宣传部反诬英方自沉并篡改艇长日志，真相到纽伦堡审判才公开。",
+  "sources": [
+   "roskill_1954",
+   "battleatlantic_1946",
+   "uboat_net_allies"
+  ],
+  "confidence": "high",
+  "active": {
+   "from": "1939-09-03T00:00",
+   "to": "1939-09-04T10:00"
+  }
+ },
+ {
+  "id": "gb.sneland_i",
+  "side": "GB",
+  "echelon": "ship",
+  "type": "naval",
+  "parent": "gb.wa",
+  "name": {
+   "zh": "斯内兰一号货轮",
+   "orig": "SS Sneland I",
+   "short": "Sneland I"
+  },
+  "model": "navy_token",
+  "ship": {
+   "kind": "merchant",
+   "class": {
+    "zh": "战时标准货轮",
+    "orig": "Tramp steamer"
+   },
+   "lengthM": 120.0,
+   "beamM": 16.0,
+   "tonnage": 1791,
+   "tonnageKind": "grt",
+   "maxKn": 10.0,
+   "crew": 24,
+   "silhouette": "merchant",
+   "weapons": [
+    {
+     "id": "deck",
+     "label": "艉部甲板炮（单装 ×1）",
+     "cal": "4 in BL Mk IX",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 12.0,
+     "atPct": 88
+    },
+    {
+     "id": "aa",
+     "label": "高射机枪（单装 ×2）",
+     "cal": "20 mm Oerlikon",
+     "kind": "aa",
+     "mounts": 2,
+     "perMount": 1,
+     "rangeKm": 4.8
+    }
+   ],
+   "flag": "NO"
+  },
+  "track": [
+   {
+    "at": "1945-05-07T18:00",
+    "pos": [
+     -2.6,
+     56.05
+    ],
+    "status": "active",
+    "course": 0.0,
+    "speedKn": 0.0
+   },
+   {
+    "at": "1945-05-07T20:45",
+    "pos": [
+     -2.6,
+     56.05
+    ],
+    "status": "engaged",
+    "course": 0.0,
+    "speedKn": 0.0
+   },
+   {
+    "at": "1945-05-07T22:00",
+    "pos": [
+     -2.6,
+     56.05
+    ],
+    "status": "destroyed",
+    "course": 0.0,
+    "speedKn": 0.0
+   }
+  ],
+  "history": "挪威货轮，1945 年 5 月 7 日晚随 EN 491 船团在福斯湾被 U-2336 击沉，七人死亡。此时距德国投降生效还有约二十五小时。",
+  "sources": [
+   "roskill_1961",
+   "uboat_net",
+   "uboat_net_allies"
+  ],
+  "confidence": "high",
+  "active": {
+   "from": "1945-05-05T18:00",
+   "to": "1945-05-07T22:00"
+  }
+ },
+ {
+  "id": "gb.avondale_park",
+  "side": "GB",
+  "echelon": "ship",
+  "type": "naval",
+  "parent": "gb.wa",
+  "name": {
+   "zh": "阿冯代尔公园号货轮",
+   "orig": "SS Avondale Park",
+   "short": "Avondale Pk"
+  },
+  "model": "navy_token",
+  "ship": {
+   "kind": "merchant",
+   "class": {
+    "zh": "加拿大建造的「公园」级货轮",
+    "orig": "Park-class freighter"
+   },
+   "lengthM": 129.5,
+   "beamM": 17.1,
+   "tonnage": 2878,
+   "tonnageKind": "grt",
+   "maxKn": 11.0,
+   "crew": 41,
+   "silhouette": "merchant",
+   "weapons": [
+    {
+     "id": "deck",
+     "label": "艉部甲板炮（单装 ×1）",
+     "cal": "4 in BL Mk IX",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 12.0,
+     "atPct": 88
+    },
+    {
+     "id": "aa",
+     "label": "高射机枪（单装 ×2）",
+     "cal": "20 mm Oerlikon",
+     "kind": "aa",
+     "mounts": 2,
+     "perMount": 1,
+     "rangeKm": 4.8
+    }
+   ],
+   "flag": "GB"
+  },
+  "track": [
+   {
+    "at": "1945-05-07T18:00",
+    "pos": [
+     -2.6,
+     56.05
+    ],
+    "status": "active",
+    "course": 0.0,
+    "speedKn": 0.0
+   },
+   {
+    "at": "1945-05-07T21:00",
+    "pos": [
+     -2.6,
+     56.05
+    ],
+    "status": "engaged",
+    "course": 0.0,
+    "speedKn": 0.0
+   },
+   {
+    "at": "1945-05-08T02:00",
+    "pos": [
+     -2.6,
+     56.05
+    ],
+    "status": "destroyed",
+    "course": 0.0,
+    "speedKn": 0.0
+   }
+  ],
+  "history": "加拿大建造、英国登记的货轮，1945 年 5 月 7 日 21 时（UTC）在福斯湾被 U-2336 命中，次日凌晨沉没，两人死亡。它是二战中被 U 艇击沉的最后一艘商船。",
+  "sources": [
+   "roskill_1961",
+   "uboat_net",
+   "uboat_net_allies"
+  ],
+  "confidence": "high",
+  "active": {
+   "from": "1945-05-05T18:00",
+   "to": "1945-05-08T02:00"
+  }
+ },
+ {
+  "id": "us.dixie_arrow",
+  "side": "US",
+  "echelon": "ship",
+  "type": "naval",
+  "parent": "us.atl",
+  "name": {
+   "zh": "迪克西·阿罗号油轮",
+   "orig": "SS Dixie Arrow",
+   "short": "Dixie Arrow"
+  },
+  "model": "navy_token",
+  "ship": {
+   "kind": "tanker",
+   "class": {
+    "zh": "T2 型油轮",
+    "orig": "T2 tanker"
+   },
+   "lengthM": 159.6,
+   "beamM": 20.7,
+   "tonnage": 8100,
+   "tonnageKind": "grt",
+   "maxKn": 14.0,
+   "crew": 33,
+   "silhouette": "tanker",
+   "weapons": [
+    {
+     "id": "deck",
+     "label": "艉部甲板炮（单装 ×1）",
+     "cal": "4 in BL Mk IX",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 12.0,
+     "atPct": 88
+    },
+    {
+     "id": "aa",
+     "label": "高射机枪（单装 ×2）",
+     "cal": "20 mm Oerlikon",
+     "kind": "aa",
+     "mounts": 2,
+     "perMount": 1,
+     "rangeKm": 4.8
+    }
+   ],
+   "flag": "US"
+  },
+  "track": [
+   {
+    "at": "1942-03-26T06:00",
+    "pos": [
+     -75.3,
+     35.2
+    ],
+    "status": "active",
+    "course": 238.6,
+    "speedKn": 1.0
+   },
+   {
+    "at": "1942-03-26T12:00",
+    "pos": [
+     -75.4,
+     35.15
+    ],
+    "status": "engaged",
+    "course": 238.6,
+    "speedKn": 0.4
+   },
+   {
+    "at": "1942-03-27T02:00",
+    "pos": [
+     -75.5,
+     35.1
+    ],
+    "status": "destroyed",
+    "course": 238.6,
+    "speedKn": 0.4
+   }
+  ],
+  "history": "T2 型油轮，1942 年 3 月 26 日在哈特拉斯角外被 U-71 命中两雷，燃油起火断裂，当晚沉没；三十三名船员中二十二人获救。",
+  "sources": [
+   "roskill_1956",
+   "wiki_en_atlantic",
+   "uboat_net_allies"
+  ],
+  "confidence": "high",
+  "active": {
+   "from": "1942-03-24T06:00",
+   "to": "1942-03-27T02:00"
+  }
+ },
+ {
+  "id": "us.norness",
+  "side": "US",
+  "echelon": "ship",
+  "type": "naval",
+  "parent": "us.atl",
+  "name": {
+   "zh": "诺尼斯号油轮",
+   "orig": "MT Norness",
+   "short": "Norness"
+  },
+  "model": "navy_token",
+  "ship": {
+   "kind": "tanker",
+   "class": {
+    "zh": "挪威籍远洋油轮",
+    "orig": "Motor tanker"
+   },
+   "lengthM": 150.0,
+   "beamM": 19.0,
+   "tonnage": 9577,
+   "tonnageKind": "grt",
+   "maxKn": 12.0,
+   "crew": 40,
+   "silhouette": "tanker",
+   "weapons": [
+    {
+     "id": "deck",
+     "label": "艉部甲板炮（单装 ×1）",
+     "cal": "4 in BL Mk IX",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 1,
+     "rangeKm": 12.0,
+     "atPct": 88
+    },
+    {
+     "id": "aa",
+     "label": "高射机枪（单装 ×2）",
+     "cal": "20 mm Oerlikon",
+     "kind": "aa",
+     "mounts": 2,
+     "perMount": 1,
+     "rangeKm": 4.8
+    }
+   ],
+   "flag": "NO"
+  },
+  "track": [
+   {
+    "at": "1942-01-14T00:00",
+    "pos": [
+     -72.5,
+     40.61
+    ],
+    "status": "active",
+    "course": 180.0,
+    "speedKn": 0.1
+   },
+   {
+    "at": "1942-01-14T05:00",
+    "pos": [
+     -72.5,
+     40.6
+    ],
+    "status": "engaged",
+    "course": 236.7,
+    "speedKn": 0.8
+   },
+   {
+    "at": "1942-01-14T12:00",
+    "pos": [
+     -72.6,
+     40.55
+    ],
+    "status": "destroyed",
+    "course": 236.7,
+    "speedKn": 0.8
+   }
+  ],
+  "history": "挪威籍油轮，1942 年 1 月 14 日凌晨在长岛外海被 U-123 击沉，是「鼓点行动」的第一个战果，也是美国东岸「快乐时光」的开端。",
+  "sources": [
+   "roskill_1956",
+   "gannon_1990",
+   "uboat_net_allies"
+  ],
+  "confidence": "high",
+  "active": {
+   "from": "1942-01-12T00:00",
+   "to": "1942-01-14T12:00"
+  }
+ },
+ {
+  "id": "gb.wa",
+  "side": "GB",
+  "echelon": "command",
+  "type": "hq",
+  "parent": null,
+  "name": {
+   "zh": "西部海口司令部",
+   "orig": "Commander-in-Chief, Western Approaches",
+   "short": "WA"
+  },
+  "model": "navy_token",
+  "track": [
+   {
+    "at": "1939-09-03T00:00",
+    "pos": [
+     -4.143,
+     50.375
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1940-12-31T00:00",
+    "pos": [
+     -2.992,
+     53.408
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1945-05-08T00:00",
+    "pos": [
+     -2.992,
+     53.408
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "负责大西洋船团护航的指挥机构，1940 年底从普利茅斯迁至利物浦德比大厦，把船团调度、密码情报与海岸司令部航空兵合在一处。1942 年 11 月霍顿接任后组建支援群。",
+  "sources": [
+   "roskill_1954",
+   "nh_war_diaries"
+  ],
+  "confidence": "high",
+  "display": "container",
+  "active": {
+   "from": "1939-09-03T00:00",
+   "to": "1945-05-08T23:59"
+  }
+ },
+ {
+  "id": "us.atl",
+  "side": "US",
+  "echelon": "command",
+  "type": "hq",
+  "parent": null,
+  "name": {
+   "zh": "美国大西洋舰队",
+   "orig": "United States Atlantic Fleet",
+   "short": "AtlantFlt"
+  },
+  "model": "navy_token",
+  "track": [
+   {
+    "at": "1941-02-01T00:00",
+    "pos": [
+     -76.3,
+     36.97
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1942-01-15T00:00",
+    "pos": [
+     -74.006,
+     40.713
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1944-06-06T00:00",
+    "pos": [
+     -76.3,
+     36.97
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "1941 年起承担西大西洋与冰岛防务，1942 年东岸危机后逐步接管中大西洋与地中海方向的两栖与护航任务。",
+  "sources": [
+   "king_usnavy_at_war",
+   "mori_atlantic_won"
+  ],
+  "confidence": "high",
+  "display": "container",
+  "active": {
+   "from": "1941-01-30T00:00",
+   "to": "1945-05-08T23:59"
+  }
+ },
+ {
+  "id": "ca.nef",
+  "side": "CA",
+  "echelon": "command",
+  "type": "hq",
+  "parent": null,
+  "name": {
+   "zh": "纽芬兰护航部队",
+   "orig": "Newfoundland Escort Force",
+   "short": "NEF"
+  },
+  "model": "navy_token",
+  "track": [
+   {
+    "at": "1941-06-13T00:00",
+    "pos": [
+     -52.706,
+     47.561
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1943-04-01T00:00",
+    "pos": [
+     -63.575,
+     44.648
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1945-05-08T00:00",
+    "pos": [
+     -63.575,
+     44.648
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "1941 年 6 月成立，司令部设圣约翰斯，负责西经 35° 以西的全程护航。从 6 艘驱逐舰起家，1943 年后扩为西北大西洋司令部，是加拿大海军在二战中的主要贡献。",
+  "sources": [
+   "schull_1950",
+   "roskill_1956"
+  ],
+  "confidence": "high",
+  "display": "container",
+  "active": {
+   "from": "1941-06-11T00:00",
+   "to": "1945-05-08T23:59"
+  }
+ },
+ {
+  "id": "gb.stork",
+  "side": "GB",
+  "echelon": "ship",
+  "type": "naval",
+  "parent": "gb.wa",
+  "name": {
+   "zh": "斯托克号单桅帆船",
+   "orig": "HMS Stork",
+   "short": "Stork"
+  },
+  "model": "navy_token",
+  "ship": {
+   "kind": "destroyer",
+   "class": {
+    "zh": "比特恩级单桅帆船",
+    "orig": "Bittern-class sloop"
+   },
+   "lengthM": 81.0,
+   "beamM": 11.0,
+   "tonnage": 1190,
+   "tonnageKind": "std",
+   "maxKn": 18.8,
+   "crew": 151,
+   "silhouette": "destroyer",
+   "weapons": [
+    {
+     "id": "main",
+     "label": "4 英寸高平两用炮（双联装 ×1，艏部）",
+     "cal": "4 in QF Mk XVI",
+     "kind": "main",
+     "mounts": 1,
+     "perMount": 2,
+     "rangeKm": 15.0,
+     "atPct": 18
+    },
+    {
+     "id": "aa40",
+     "label": "2 磅「乒乓」高射炮（四联装 ×1）",
+     "cal": "40 mm Vickers",
+     "kind": "aa",
+     "mounts": 1,
+     "perMount": 4,
+     "rangeKm": 6.4
+    }
+   ]
+  },
+  "track": [
+   {
+    "at": "1941-12-19T08:00",
+    "pos": [
+     -5.6,
+     36.1
+    ],
+    "status": "active",
+    "course": 287.8,
+    "speedKn": 11.1
+   },
+   {
+    "at": "1941-12-19T12:20",
+    "pos": [
+     -6.55,
+     36.342
+    ],
+    "status": "engaged",
+    "course": 287.8,
+    "speedKn": 11.1
+   },
+   {
+    "at": "1941-12-19T16:40",
+    "pos": [
+     -7.5,
+     36.583
+    ],
+    "status": "engaged",
+    "course": 287.9,
+    "speedKn": 11.1
+   },
+   {
+    "at": "1941-12-19T21:00",
+    "pos": [
+     -8.45,
+     36.825
+    ],
+    "status": "engaged",
+    "course": 288.0,
+    "speedKn": 11.0
+   },
+   {
+    "at": "1941-12-20T01:20",
+    "pos": [
+     -9.4,
+     37.067
+    ],
+    "status": "engaged",
+    "course": 287.9,
+    "speedKn": 11.0
+   },
+   {
+    "at": "1941-12-20T05:40",
+    "pos": [
+     -10.35,
+     37.308
+    ],
+    "status": "engaged",
+    "course": 288.1,
+    "speedKn": 11.0
+   },
+   {
+    "at": "1941-12-20T10:00",
+    "pos": [
+     -11.3,
+     37.55
+    ],
+    "status": "engaged",
+    "course": 288.1,
+    "speedKn": 10.9
+   },
+   {
+    "at": "1941-12-20T14:20",
+    "pos": [
+     -12.25,
+     37.792
+    ],
+    "status": "engaged",
+    "course": 288.1,
+    "speedKn": 10.9
+   },
+   {
+    "at": "1941-12-20T18:40",
+    "pos": [
+     -13.2,
+     38.033
+    ],
+    "status": "engaged",
+    "course": 288.2,
+    "speedKn": 10.9
+   },
+   {
+    "at": "1941-12-20T23:00",
+    "pos": [
+     -14.15,
+     38.275
+    ],
+    "status": "engaged",
+    "course": 288.3,
+    "speedKn": 10.8
+   },
+   {
+    "at": "1941-12-21T03:20",
+    "pos": [
+     -15.1,
+     38.517
+    ],
+    "status": "engaged",
+    "course": 288.3,
+    "speedKn": 10.8
+   },
+   {
+    "at": "1941-12-21T07:40",
+    "pos": [
+     -16.05,
+     38.758
+    ],
+    "status": "engaged",
+    "course": 288.4,
+    "speedKn": 10.8
+   },
+   {
+    "at": "1941-12-21T12:00",
+    "pos": [
+     -17.0,
+     39.0
+    ],
+    "status": "engaged",
+    "course": 37.7,
+    "speedKn": 17.5
+   },
+   {
+    "at": "1941-12-21T13:24",
+    "pos": [
+     -16.677,
+     39.323
+    ],
+    "status": "active",
+    "course": 37.7,
+    "speedKn": 17.5
+   },
+   {
+    "at": "1941-12-21T14:49",
+    "pos": [
+     -16.353,
+     39.647
+    ],
+    "status": "active",
+    "course": 37.4,
+    "speedKn": 17.5
+   },
+   {
+    "at": "1941-12-21T16:13",
+    "pos": [
+     -16.029,
+     39.971
+    ],
+    "status": "active",
+    "course": 37.4,
+    "speedKn": 17.5
+   },
+   {
+    "at": "1941-12-21T17:38",
+    "pos": [
+     -15.706,
+     40.294
+    ],
+    "status": "active",
+    "course": 37.2,
+    "speedKn": 17.2
+   },
+   {
+    "at": "1941-12-21T19:03",
+    "pos": [
+     -15.383,
+     40.617
+    ],
+    "status": "active",
+    "course": 37.2,
+    "speedKn": 17.2
+   },
+   {
+    "at": "1941-12-21T20:28",
+    "pos": [
+     -15.059,
+     40.941
+    ],
+    "status": "active",
+    "course": 36.9,
+    "speedKn": 17.3
+   },
+   {
+    "at": "1941-12-21T21:52",
+    "pos": [
+     -14.736,
+     41.264
+    ],
+    "status": "active",
+    "course": 36.9,
+    "speedKn": 17.3
+   },
+   {
+    "at": "1941-12-21T23:17",
+    "pos": [
+     -14.412,
+     41.588
+    ],
+    "status": "active",
+    "course": 36.4,
+    "speedKn": 17.1
+   },
+   {
+    "at": "1941-12-22T02:07",
+    "pos": [
+     -13.765,
+     42.235
+    ],
+    "status": "active",
+    "course": 36.2,
+    "speedKn": 17.1
+   },
+   {
+    "at": "1941-12-22T04:56",
+    "pos": [
+     -13.118,
+     42.882
+    ],
+    "status": "active",
+    "course": 35.9,
+    "speedKn": 17.1
+   },
+   {
+    "at": "1941-12-22T07:45",
+    "pos": [
+     -12.471,
+     43.529
+    ],
+    "status": "active",
+    "course": 35.6,
+    "speedKn": 16.9
+   },
+   {
+    "at": "1941-12-22T10:35",
+    "pos": [
+     -11.824,
+     44.176
+    ],
+    "status": "active",
+    "course": 35.3,
+    "speedKn": 17.0
+   },
+   {
+    "at": "1941-12-22T13:24",
+    "pos": [
+     -11.176,
+     44.824
+    ],
+    "status": "active",
+    "course": 35.0,
+    "speedKn": 16.8
+   },
+   {
+    "at": "1941-12-22T16:14",
+    "pos": [
+     -10.529,
+     45.471
+    ],
+    "status": "active",
+    "course": 34.7,
+    "speedKn": 16.8
+   },
+   {
+    "at": "1941-12-22T19:03",
+    "pos": [
+     -9.882,
+     46.118
+    ],
+    "status": "active",
+    "course": 34.3,
+    "speedKn": 16.7
+   },
+   {
+    "at": "1941-12-22T21:52",
+    "pos": [
+     -9.235,
+     46.765
+    ],
+    "status": "active",
+    "course": 34.0,
+    "speedKn": 16.6
+   },
+   {
+    "at": "1941-12-23T00:42",
+    "pos": [
+     -8.588,
+     47.412
+    ],
+    "status": "active",
+    "course": 33.7,
+    "speedKn": 16.6
+   },
+   {
+    "at": "1941-12-23T03:31",
+    "pos": [
+     -7.941,
+     48.059
+    ],
+    "status": "active",
+    "course": 33.3,
+    "speedKn": 16.5
+   },
+   {
+    "at": "1941-12-23T06:21",
+    "pos": [
+     -7.294,
+     48.706
+    ],
+    "status": "active",
+    "course": 33.0,
+    "speedKn": 16.5
+   },
+   {
+    "at": "1941-12-23T09:10",
+    "pos": [
+     -6.647,
+     49.353
+    ],
+    "status": "active",
+    "course": 32.7,
+    "speedKn": 16.3
+   },
+   {
+    "at": "1941-12-23T12:00",
+    "pos": [
+     -6.0,
+     50.0
+    ],
+    "status": "active",
+    "course": 32.7,
+    "speedKn": 16.3
+   }
+  ],
+  "history": "比特恩级单桅帆船。1941 年 8 月起由沃克中校指挥，任第 36 护航群旗舰；12 月 19–23 日在 HG 76 船团战中与护航航母大胆号协同，五天内击沉五艘 U 艇，是开战以来盟军第一次明确赢得的船团防御战。",
+  "sources": [
+   "roskill_1954",
+   "nh_ship_histories",
+   "nh_convoy_escorts"
+  ],
+  "confidence": "high",
+  "active": {
+   "from": "1941-12-17T08:00",
+   "to": "1941-12-23T12:00"
+  }
+ },
+ {
+  "id": "gb.walker",
+  "side": "GB",
+  "echelon": "ship",
+  "type": "naval",
+  "parent": "gb.wa",
+  "name": {
+   "zh": "沃克号驱逐舰",
+   "orig": "HMS Walker",
+   "short": "Walker"
+  },
+  "model": "navy_token",
+  "ship": {
+   "kind": "destroyer",
+   "class": {
+    "zh": "V/W 级驱逐舰",
+    "orig": "V and W-class destroyer"
+   },
+   "pennant": "D27",
+   "lengthM": 91.4,
+   "beamM": 8.15,
+   "tonnage": 1100,
+   "tonnageKind": "std",
+   "maxKn": 34.0,
+   "crew": 110,
+   "silhouette": "destroyer",
+   "weapons": [
+    {
+     "id": "main",
+     "label": "4 英寸炮（单装 ×4）",
+     "cal": "4 in QF Mk V",
+     "kind": "main",
+     "mounts": 4,
+     "perMount": 1,
+     "rangeKm": 15.0
+    },
+    {
+     "id": "aa40",
+     "label": "2 磅「乒乓」高射炮（单装 ×2）",
+     "cal": "40 mm Vickers",
+     "kind": "aa",
+     "mounts": 2,
+     "perMount": 1,
+     "rangeKm": 6.4
+    }
+   ]
+  },
+  "track": [
+   {
+    "at": "1941-03-15T12:00",
+    "pos": [
+     -14.0,
+     61.5
+    ],
+    "status": "active",
+    "course": 111.1,
+    "speedKn": 1.9
+   },
+   {
+    "at": "1941-03-16T01:06",
+    "pos": [
+     -13.2,
+     61.35
+    ],
+    "status": "engaged",
+    "course": 111.1,
+    "speedKn": 1.9
+   },
+   {
+    "at": "1941-03-16T14:12",
+    "pos": [
+     -12.4,
+     61.2
+    ],
+    "status": "engaged",
+    "course": 111.0,
+    "speedKn": 1.9
+   },
+   {
+    "at": "1941-03-17T03:18",
+    "pos": [
+     -11.6,
+     61.05
+    ],
+    "status": "engaged",
+    "course": 228.4,
+    "speedKn": 10.8
+   },
+   {
+    "at": "1941-03-17T06:12",
+    "pos": [
+     -12.4,
+     60.7
+    ],
+    "status": "active",
+    "course": 228.4,
+    "speedKn": 10.8
+   },
+   {
+    "at": "1941-03-17T09:06",
+    "pos": [
+     -13.2,
+     60.35
+    ],
+    "status": "active",
+    "course": 228.7,
+    "speedKn": 10.9
+   },
+   {
+    "at": "1941-03-17T12:00",
+    "pos": [
+     -14.0,
+     60.0
+    ],
+    "status": "active",
+    "course": 148.7,
+    "speedKn": 4.9
+   },
+   {
+    "at": "1941-03-17T18:00",
+    "pos": [
+     -13.5,
+     59.583
+    ],
+    "status": "active",
+    "course": 148.7,
+    "speedKn": 4.9
+   },
+   {
+    "at": "1941-03-18T00:00",
+    "pos": [
+     -13.0,
+     59.167
+    ],
+    "status": "active",
+    "course": 148.3,
+    "speedKn": 4.9
+   },
+   {
+    "at": "1941-03-18T06:00",
+    "pos": [
+     -12.5,
+     58.75
+    ],
+    "status": "active",
+    "course": 148.1,
+    "speedKn": 4.9
+   },
+   {
+    "at": "1941-03-18T12:00",
+    "pos": [
+     -12.0,
+     58.333
+    ],
+    "status": "active",
+    "course": 147.7,
+    "speedKn": 4.9
+   },
+   {
+    "at": "1941-03-18T18:00",
+    "pos": [
+     -11.5,
+     57.917
+    ],
+    "status": "active",
+    "course": 147.4,
+    "speedKn": 4.9
+   },
+   {
+    "at": "1941-03-19T00:00",
+    "pos": [
+     -11.0,
+     57.5
+    ],
+    "status": "active",
+    "course": 147.1,
+    "speedKn": 5.0
+   },
+   {
+    "at": "1941-03-19T06:00",
+    "pos": [
+     -10.5,
+     57.083
+    ],
+    "status": "active",
+    "course": 146.8,
+    "speedKn": 5.0
+   },
+   {
+    "at": "1941-03-19T12:00",
+    "pos": [
+     -10.0,
+     56.667
+    ],
+    "status": "active",
+    "course": 146.5,
+    "speedKn": 5.0
+   },
+   {
+    "at": "1941-03-19T18:00",
+    "pos": [
+     -9.5,
+     56.25
+    ],
+    "status": "active",
+    "course": 146.3,
+    "speedKn": 5.0
+   },
+   {
+    "at": "1941-03-20T00:00",
+    "pos": [
+     -9.0,
+     55.833
+    ],
+    "status": "active",
+    "course": 146.0,
+    "speedKn": 5.0
+   },
+   {
+    "at": "1941-03-20T06:00",
+    "pos": [
+     -8.5,
+     55.417
+    ],
+    "status": "active",
+    "course": 145.6,
+    "speedKn": 5.0
+   },
+   {
+    "at": "1941-03-20T12:00",
+    "pos": [
+     -8.0,
+     55.0
+    ],
+    "status": "active",
+    "course": 145.4,
+    "speedKn": 5.1
+   }
+  ],
+  "history": "V/W 级驱逐舰。1941 年 3 月 17 日在 HX 112 船团战中与瓦诺克号协同，以深水炸弹重创 U-99、迫使克雷奇默尔自沉，同日瓦诺克号撞沉 U-100；此后长期在西海口司令部担任护航舰。",
+  "sources": [
+   "roskill_1956",
+   "nh_ship_histories",
+   "uboat_net_allies"
+  ],
+  "confidence": "high",
+  "active": {
+   "from": "1941-03-15T12:00",
+   "to": "1941-03-20T12:00"
+  }
+ }
+]
