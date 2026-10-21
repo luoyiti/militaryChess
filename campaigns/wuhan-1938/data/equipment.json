@@ -1,0 +1,137 @@
+[
+ {
+  "id": "cn_type30_mg",
+  "side": "CN",
+  "name": {
+   "zh": "三十节式重机枪",
+   "orig": "三十節式重機槍",
+   "short": "三十节机枪"
+  },
+  "class": "small_arms",
+  "model": "inf_allied",
+  "desc": "三十节式重机枪为中国仿制勃朗宁M1917的水冷重机枪，是国民革命军步兵营的主要支援火力。武汉会战中广泛用于阵地防御。本卡用通用步兵符号概括，不给未经核实的全军装备数量，也不复原具体连排配属。",
+  "photo": {
+   "commons": "File:Wuhan 1938.jpg",
+   "caption": "武汉会战中操作三十节式重机枪的中国军队；Commons编目，拍摄日未详。"
+  },
+  "sources": [
+   "zhwiki_wuhan",
+   "commons_wuhan_gallery"
+  ]
+ },
+ {
+  "id": "cn_i15_i16",
+  "side": "CN",
+  "name": {
+   "zh": "伊-15／伊-16（苏联援华）",
+   "orig": "Polikarpov I-15 / I-16",
+   "short": "伊-15/16"
+  },
+  "class": "fighter",
+  "model": "air_token",
+  "desc": "武汉空战以中国空军与苏联援华航空志愿队的苏制波利卡尔波夫伊-15、伊-16为主力，合计约390架作战机。二一八、四二九、五三一、八三诸空战均以这两种机型迎战日机。本卡为通用飞机标记的象征，并非具体机体或准确参战数量的复原。",
+  "photo": {
+   "commons": "File:Soviet Aviators in China.jpg",
+   "caption": "在中国的苏联援华航空志愿队员；Commons编目。"
+  },
+  "sources": [
+   "zhwiki_wuhan",
+   "enwiki_wuhan"
+  ]
+ },
+ {
+  "id": "cn_zhongshan_ship",
+  "side": "CN",
+  "name": {
+   "zh": "中山舰",
+   "orig": "中山艦（原永豐艦）",
+   "short": "中山舰"
+  },
+  "class": "ship",
+  "model": "navy_token",
+  "desc": "中山舰原为永丰舰，因孙中山避难事迹更名，是抗战初期中国海军在长江的代表性炮舰。1938年10月24日在武昌金口执行航道封锁任务时遭日机轰炸，舰长萨师俊与全舰25名官兵殉国。1997年打捞出水，今藏武汉中山舰博物馆。本卡为通用舰船示意标记。",
+  "sources": [
+   "zhwiki_wuhan",
+   "huangbowen_navy"
+  ]
+ },
+ {
+  "id": "jp_ki27",
+  "side": "JP",
+  "name": {
+   "zh": "九七式战斗机",
+   "orig": "中島 Ki-27（九七戦）",
+   "short": "九七战"
+  },
+  "class": "fighter",
+  "model": "air_token",
+  "desc": "日军陆军航空兵团在武汉作战的主力战斗机为中岛Ki-27（九七战），配属第59、第64、第77飞行战队等，与海军的A5M（九六舰战）共同承担制空与护航。本卡为通用飞机标记，不复原具体涂装或队属。",
+  "sources": [
+   "enwiki_wuhan_oob",
+   "jacar_senshi_chugoku"
+  ]
+ },
+ {
+  "id": "jp_type97_bomber",
+  "side": "JP",
+  "name": {
+   "zh": "九七式重轰炸机",
+   "orig": "三菱 Ki-21（九七重爆）",
+   "short": "九七重爆"
+  },
+  "class": "bomber",
+  "model": "air_token",
+  "desc": "三菱Ki-21（九七重爆）为日军陆军航空兵团对武汉及后方实施战略轰炸的主力机型（第60飞行战队等），另有菲亚特BR.20意式重爆（第98飞行战队）。对武汉三镇及交通线的轰炸造成大量平民伤亡。本卡为通用飞机标记。",
+  "sources": [
+   "enwiki_wuhan_oob",
+   "jacar_senshi_chugoku"
+  ]
+ },
+ {
+  "id": "jp_gas",
+  "side": "JP",
+  "name": {
+   "zh": "『赤筒』毒气弹（战争罪行）",
+   "orig": "赤筒（催涙・嘔吐性ガス）",
+   "short": "赤筒"
+  },
+  "class": "small_arms",
+  "desc": "会战期间日军奉最高统帅部命令在375处使用有害气体（1938年8—10月，闲院宫载仁传达）。潢川一役日军自认发射835枚『赤筒』毒气弹。此举违反海牙公约与凡尔赛条约，会战期中方中毒约13410人、死亡4342人（吉见义明引日方资料推算）。本卡记录战争罪行，不作装备复原。",
+  "sources": [
+   "yoshimi_gas",
+   "zhwiki_wuhan"
+  ]
+ },
+ {
+  "id": "cn_fortress_gun",
+  "side": "CN",
+  "name": {
+   "zh": "江防要塞炮",
+   "orig": "艦炮改岸炮",
+   "short": "要塞炮"
+  },
+  "class": "gun",
+  "model": "art_gun",
+  "desc": "马当、湖口、田家镇、富池口等江防要塞以海军舰炮拆移上岸为岸炮（10.5—12cm），配合沉船阻塞线与两岸水雷封锁长江。要塞正面强而侧后空，日军多以迂回登陆加毒气攻克。本卡为通用火炮示意模型，不给未经核实的逐炮位复原。",
+  "sources": [
+   "danganju_youxue_14",
+   "huangbowen_navy"
+  ]
+ },
+ {
+  "id": "jp_naval_gunboat",
+  "side": "JP",
+  "name": {
+   "zh": "第11战队炮舰",
+   "orig": "第十一戦隊砲艦",
+   "short": "炮舰"
+  },
+  "class": "ship",
+  "model": "navy_token",
+  "desc": "日军第3舰队第11战队（旗舰安宅）率炮舰、驱逐舰与鱼雷艇溯长江作战，以舰炮压制两岸阵地、扫雷开路、输送陆战队，是溯江作战的水上主力。本卡为通用舰船示意标记，不表示某日确切舰位或全部舰艇编成。",
+  "sources": [
+   "enwiki_wuhan_oob",
+   "huangbowen_navy"
+  ]
+ }
+]

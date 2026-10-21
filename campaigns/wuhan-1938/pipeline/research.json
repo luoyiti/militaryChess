@@ -1,0 +1,21 @@
+{
+  "sourceReadings": [
+    { "id": "jacar_senshi_chugoku", "scope": "《中国事变陆军作战史》第2卷：日军伤亡31486、决策链（大陆命119/188号）", "supports": ["e.dalu119", "e.qianshan", "forces"] },
+    { "id": "jacar_archives", "scope": "JACAR 检索门户：军级补充人员记录、人马现员表入口", "supports": ["sources"] },
+    { "id": "kumamoto_heitanshi", "scope": "《熊本兵团战史》转引：第6师团潜山战斗、田家镇第13联队死伤3000余", "supports": ["e.tianjiazhen", "e.qianshan"] },
+    { "id": "kyodo_butaishi", "scope": "日方乡土部队奋战史转引：联队级补充与伤亡推算", "supports": ["e.fujinshan", "e.wanjialing"] },
+    { "id": "qianxi_wuhan_1999", "scope": "《浅析武汉会战中日双方作战指导之得失》：太湖/宿松/黄梅陷落日期系统、富金山弃尸数字", "supports": ["e.huangmei", "e.fujinshan", "fronts"] },
+    { "id": "chijiu_xiaohao_zhanlue", "scope": "《武汉会战与持久消耗战略》：持久消耗方针与『守武汉而不战于武汉』", "supports": ["intro", "campaign.json"] },
+    { "id": "liu_fenghan_1985", "scope": "刘凤翰《武汉保卫战研究》1985：中方指挥体系与兵力", "supports": ["oob", "forces"] },
+    { "id": "geng_wei_1987", "scope": "耿成宽/韦显文《抗日战争时期的侵华日军》1987：日军序列与将官", "supports": ["oob"] },
+    { "id": "fukukawa_jikan", "scope": "福川秀树《日本陆军将官辞典》2001：日军将官生卒与任职", "supports": ["oob"] },
+    { "id": "yoshimi_gas", "scope": "吉见义明/松野诚也：毒气战375处、潢川835枚赤筒、中方中毒13410/死4342", "supports": ["e.gas", "e.huangchuan"] },
+    { "id": "pengpai_yangxiaochen", "scope": "澎湃杨晓辰：日军部队史伤亡推算5.5—7万+战病10万", "supports": ["e.tianjiazhen", "e.wanjialing", "forces"] },
+    { "id": "huangbowen_navy", "scope": "黄博文《武汉会战中的日本海军》：沉船阻塞线、要塞炮、中山舰", "supports": ["e.zhongshan", "equipment"] },
+    { "id": "mazhonglian_huayuankou", "scope": "马仲廉《花园口决堤的军事意义》：决堤军事价值修正说", "supports": ["e.huayuankou", "e.dabieshan_start"] }
+  ],
+  "accessLimitations": [
+    { "url": "https://commons.wikimedia.org/w/api.php", "directFetch": "API 域名在当前网络限流（HTTP 429/403），改用 upload.wikimedia.org 原图直链抓取", "usedAsEvidence": false },
+    { "url": "https://www.jacar.go.jp/", "directFetch": "未在线逐条核对 JACAR 档案编号，以战史丛书与二手研究转引为准", "usedAsEvidence": false }
+  ]
+}

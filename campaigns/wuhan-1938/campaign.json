@@ -1,0 +1,875 @@
+{
+ "schemaVersion": 2,
+ "id": "wuhan-1938",
+ "status": "published",
+ "title": {
+  "mark": "1938",
+  "zh": "武汉会战",
+  "sub": "保卫大武汉 · 豫皖赣鄂四省外围消耗战",
+  "en": "The Battle of Wuhan",
+  "orig": "武漢會戰 · 武漢攻略戦",
+  "codename": "武汉会战",
+  "html": "1938 · 武汉会战 — 战旗推演",
+  "description": "1938年2月至10月武汉会战中文历史推演：二一八与四二九空战、花园口决堤、马当九江江防、富金山潢川大别山北麓、田家镇要塞、万家岭大捷与10月下旬三镇易手。",
+  "favicon": "#2f5d8c"
+ },
+ "time": {
+  "epoch": "1938-02-18T00:00",
+  "start": "1938-02-18T00:00",
+  "end": "1938-10-27T23:59",
+  "dataEnd": "1938-10-27T23:59",
+  "tzLabel": "UTC+8",
+  "utcOffset": 8,
+  "hoursPerSec": 48,
+  "pace": [
+   {
+    "from": "1938-02-18T00:00",
+    "hoursPerSec": 24
+   },
+   {
+    "from": "1938-03-01T00:00",
+    "hoursPerSec": 120
+   },
+   {
+    "from": "1938-04-29T00:00",
+    "hoursPerSec": 24
+   },
+   {
+    "from": "1938-05-01T00:00",
+    "hoursPerSec": 120
+   },
+   {
+    "from": "1938-06-09T00:00",
+    "hoursPerSec": 48
+   },
+   {
+    "from": "1938-06-15T00:00",
+    "hoursPerSec": 96
+   },
+   {
+    "from": "1938-06-22T00:00",
+    "hoursPerSec": 24
+   },
+   {
+    "from": "1938-07-01T00:00",
+    "hoursPerSec": 72
+   },
+   {
+    "from": "1938-07-22T00:00",
+    "hoursPerSec": 24
+   },
+   {
+    "from": "1938-08-01T00:00",
+    "hoursPerSec": 72
+   },
+   {
+    "from": "1938-09-01T00:00",
+    "hoursPerSec": 24
+   },
+   {
+    "from": "1938-10-01T00:00",
+    "hoursPerSec": 12
+   },
+   {
+    "from": "1938-10-21T00:00",
+    "hoursPerSec": 6
+   }
+  ]
+ },
+ "sides": [
+  {
+   "id": "JP",
+   "prefix": "jp",
+   "name": "日本",
+   "coalition": "axis",
+   "defaultModel": "inf_allied",
+   "counter": {
+    "bg": "#9a8050",
+    "edge": "#5e4826",
+    "text": "#fff8e8",
+    "box": "#f3e8cf",
+    "ink": "#4d391d"
+   },
+   "css": {
+    "main": "#8a6d3b",
+    "dark": "#5e4826"
+   },
+   "arrow": {
+    "fill": "rgba(138,109,59,0.60)",
+    "stroke": "#5e4826"
+   },
+   "sandbox": "#8a6d3b",
+   "planesFrom": "E",
+   "planeColor": "#665138"
+  },
+  {
+   "id": "CN",
+   "prefix": "cn",
+   "name": "中国",
+   "coalition": "allies",
+   "defaultModel": "inf_allied",
+   "counter": {
+    "bg": "#4c7198",
+    "edge": "#234364",
+    "text": "#f5f1e7",
+    "box": "#e5edf2",
+    "ink": "#1d3e60"
+   },
+   "css": {
+    "main": "#2f5d8c",
+    "dark": "#1d3e60"
+   },
+   "arrow": {
+    "fill": "rgba(47,93,140,0.60)",
+    "stroke": "#1d3e60"
+   },
+   "sandbox": "#2f5d8c",
+   "planesFrom": "W",
+   "planeColor": "#2f506c"
+  }
+ ],
+ "sideOrder": [
+  "CN",
+  "JP"
+ ],
+ "control": {
+  "mode": "territory",
+  "landBit": 4,
+  "theatreBits": [
+   0
+  ],
+  "slots": [
+   {
+    "key": "JP",
+    "label": "日军控制概势",
+    "homeBits": [
+     1
+    ],
+    "pattern": {
+     "size": 9,
+     "svg": "<path d=\"M-2 2L2-2M0 9L9 0M7 11L11 7\" stroke=\"#8a6d3b\" stroke-width=\"1.5\" opacity=\".48\"/>"
+    },
+    "legend": "repeating-linear-gradient(135deg,#ede5d2 0 3px,#a58b59 3px 4px)",
+    "line": "#8a6d3b",
+    "sandboxFill": [
+     0.57,
+     0.45,
+     0.26
+    ],
+    "sandboxLine": [
+     0.38,
+     0.28,
+     0.13
+    ]
+   }
+  ],
+  "remainder": {
+   "label": "中国军队抵抗地域"
+  }
+ },
+ "phases": [
+  {
+   "id": "prelude",
+   "from": "1938-02-18T00:00",
+   "name": "第1阶段 · 前奏：空战与花园口",
+   "short": "空战与决堤",
+   "sub": "二一八、四二九武汉空战；徐州失守后6月9日花园口决堤，黄泛迟滞日军西路集结",
+   "center": [
+    114.3,
+    30.6
+   ],
+   "zoom": 4
+  },
+  {
+   "id": "upriver",
+   "from": "1938-06-01T00:00",
+   "name": "第2阶段 · 溯江开局：安庆—潜山",
+   "short": "安庆溯江",
+   "sub": "波田支队6月12日陷安庆，第6师团连下舒城、桐城、潜山，直指马当锁钥",
+   "center": [
+    117.0,
+    30.5
+   ],
+   "zoom": 3
+  },
+  {
+   "id": "fortresses",
+   "from": "1938-06-22T00:00",
+   "name": "第3阶段 · 江防崩解：马当—湖口—九江",
+   "short": "江防要塞",
+   "sub": "马当6月26日、湖口7月4日、九江7月26日相继失守；张发奎去职，薛岳接掌赣北",
+   "center": [
+    116.1,
+    29.85
+   ],
+   "zoom": 3.5
+  },
+  {
+   "id": "race",
+   "from": "1938-08-01T00:00",
+   "name": "第4阶段 · 两军竞进：瑞昌与六安霍山",
+   "short": "两军竞进",
+   "sub": "第11军沿江西进陷瑞昌，第2军8月底出合肥占六安、霍山；南浔线金官桥拉锯",
+   "center": [
+    115.9,
+    30.4
+   ],
+   "zoom": 2.8
+  },
+  {
+   "id": "attrition",
+   "from": "1938-09-01T00:00",
+   "name": "第5阶段 · 外围绞杀：富金山—田家镇—万家岭",
+   "short": "外围绞杀",
+   "sub": "富金山十昼夜、潢川毒气、田家镇9月29日陷落；第106师团9月底孤军陷入万家岭",
+   "center": [
+    115.5,
+    30.7
+   ],
+   "zoom": 2.8
+  },
+  {
+   "id": "encirclement",
+   "from": "1938-10-05T00:00",
+   "name": "第6阶段 · 三面合围：信阳—阳新—黄陂",
+   "short": "三面合围",
+   "sub": "万家岭10月10日大捷；信阳10月12日失守，阳新大冶10月22日、黄陂10月24日相继陷落",
+   "center": [
+    114.7,
+    30.9
+   ],
+   "zoom": 3
+  },
+  {
+   "id": "abandon",
+   "from": "1938-10-21T00:00",
+   "name": "第7阶段 · 弃守：三镇易手",
+   "short": "弃守武汉",
+   "sub": "广州10月21日沦陷，外援线断；10月24日下令弃守，25—27日汉口、武昌、汉阳相继易手",
+   "center": [
+    114.3,
+    30.58
+   ],
+   "zoom": 4
+  }
+ ],
+ "marks": [
+  [
+   "1938-02-18T00:00",
+   "二一八空战"
+  ],
+  [
+   "1938-04-29T00:00",
+   "四二九空战"
+  ],
+  [
+   "1938-06-09T00:00",
+   "花园口决堤"
+  ],
+  [
+   "1938-06-12T00:00",
+   "安庆失守"
+  ],
+  [
+   "1938-06-26T00:00",
+   "马当陷落"
+  ],
+  [
+   "1938-07-04T00:00",
+   "湖口失守"
+  ],
+  [
+   "1938-07-26T00:00",
+   "九江陷落"
+  ],
+  [
+   "1938-08-24T00:00",
+   "瑞昌失守"
+  ],
+  [
+   "1938-09-11T00:00",
+   "富金山"
+  ],
+  [
+   "1938-09-19T00:00",
+   "潢川"
+  ],
+  [
+   "1938-09-29T00:00",
+   "田家镇陷落"
+  ],
+  [
+   "1938-10-10T00:00",
+   "万家岭大捷"
+  ],
+  [
+   "1938-10-12T00:00",
+   "信阳失守"
+  ],
+  [
+   "1938-10-21T00:00",
+   "广州沦陷"
+  ],
+  [
+   "1938-10-25T00:00",
+   "放弃武汉"
+  ],
+  [
+   "1938-10-27T23:59",
+   "三镇易手"
+  ]
+ ],
+ "theme": {
+  "accent": "#2f5d8c",
+  "accentDark": "#1d3e60",
+  "accentTint": "rgba(47,93,140,.08)",
+  "theatreBorder": "#2f5d8c",
+  "theatreHalo": "rgba(47,93,140,.14)",
+  "restFill": "rgba(47,93,140,.06)"
+ },
+ "map": {
+  "fit": "frame",
+  "home3d": [
+   114.3,
+   30.58
+  ],
+  "focus": [
+   115.0,
+   30.5
+  ],
+  "hexKm": 12,
+  "theatreCountries": [
+   "CN"
+  ],
+  "maxZoom": 22,
+  "labels": {
+   "countries": [
+    [
+     "中 国",
+     113.0,
+     32.6,
+     34,
+     0.35
+    ]
+   ],
+   "waters": [
+    [
+     "长 江",
+     114.9,
+     30.32,
+     17,
+     false,
+     0.12
+    ],
+    [
+     "汉 水",
+     112.75,
+     31.35,
+     12,
+     false,
+     0.5
+    ],
+    [
+     "鄱 阳 湖",
+     116.35,
+     29.2,
+     13,
+     false
+    ],
+    [
+     "洞 庭 湖",
+     112.6,
+     29.25,
+     12,
+     false
+    ],
+    [
+     "大 别 山",
+     115.55,
+     31.25,
+     15,
+     true,
+     0.35
+    ],
+    [
+     "幕 阜 山",
+     114.15,
+     29.35,
+     12,
+     true,
+     0.3
+    ],
+    [
+     "黄 河",
+     114.35,
+     33.75,
+     13,
+     false,
+     0.2
+    ],
+    [
+     "东 海",
+     117.95,
+     28.7,
+     13,
+     false
+    ]
+   ]
+  },
+  "regions": [
+   {
+    "id": "wuhan",
+    "label": "武汉三镇",
+    "center": [
+     114.3,
+     30.58
+    ],
+    "zoom": 5
+   },
+   {
+    "id": "river",
+    "label": "沿江要塞线",
+    "center": [
+     115.9,
+     29.95
+    ],
+    "zoom": 3
+   },
+   {
+    "id": "jiangbei",
+    "label": "江北第6师团轴线",
+    "center": [
+     115.8,
+     30.35
+    ],
+    "zoom": 3.2
+   },
+   {
+    "id": "gannan",
+    "label": "赣北·南浔·万家岭",
+    "center": [
+     115.7,
+     29.45
+    ],
+    "zoom": 3.6
+   },
+   {
+    "id": "dabie",
+    "label": "大别山北麓",
+    "center": [
+     115.6,
+     31.55
+    ],
+    "zoom": 3.2
+   },
+   {
+    "id": "yuan",
+    "label": "豫南·信阳",
+    "center": [
+     114.4,
+     32.1
+    ],
+    "zoom": 3.6
+   },
+   {
+    "id": "flood",
+    "label": "黄泛区",
+    "center": [
+     114.5,
+     33.0
+    ],
+    "zoom": 3.2
+   }
+  ],
+  "returnZoom": 1.15,
+  "liveInsets": true,
+  "portMarkers": true,
+  "transportStyle": "dashed",
+  "routesFullStandalone": true,
+  "initialView": {
+   "center": [
+    115.0,
+    30.5
+   ],
+   "zoom": 2
+  },
+  "unitZoom": [
+   1.8,
+   3.2,
+   5.0
+  ],
+  "mapKey": "1938 武汉会战 · 控制场与轨迹为作战地域示意；首帧南京以东为1937年战事形成的概势，非精确界线"
+ },
+ "display": {
+  "hqPassThrough": true,
+  "hideTransport": {
+   "map2d": true,
+   "sandbox": true
+  },
+  "statusEchelons": "divisions",
+  "counterSideCode": true
+ },
+ "sandbox": {
+  "kind": "terrain",
+  "exaggeration": 3,
+  "figScale": 14,
+  "target": [
+   114.3,
+   30.58
+  ],
+  "softwareFallback": true,
+  "follow": true,
+  "typeModels": {
+   "infantry": "inf_allied",
+   "marine": "inf_allied",
+   "hq": "inf_allied",
+   "fortress": "art_gun",
+   "naval": "navy_token",
+   "air": "air_token",
+   "fighter": "air_token",
+   "bomber": "air_token",
+   "artillery": "art_gun",
+   "cavalry": "inf_allied",
+   "mountain": "inf_allied"
+  }
+ },
+ "director": {
+  "camera": "point",
+  "returnTo": "phase",
+  "returnCenter": [
+   115.0,
+   30.5
+  ],
+  "wideGoesHome": true,
+  "dwell": [
+   9500,
+   14000
+  ],
+  "defaultZoom": [
+   3,
+   4
+  ]
+ },
+ "audio": {
+  "mode": "cues",
+  "music": [
+   {
+    "from": "1938-02-18T00:00",
+    "track": "operations"
+   },
+   {
+    "from": "1938-10-24T18:00",
+    "track": "elegy"
+   }
+  ],
+  "musicVol": 0.28,
+  "introSting": "none",
+  "battleSfx": [
+   "artillery",
+   "mg"
+  ],
+  "volumePanel": true,
+  "intensity": [
+   {
+    "from": "1938-02-18T00:00",
+    "value": 0.5
+   },
+   {
+    "from": "1938-03-01T00:00",
+    "value": 0.15
+   },
+   {
+    "from": "1938-04-29T00:00",
+    "value": 0.55
+   },
+   {
+    "from": "1938-05-01T00:00",
+    "value": 0.2
+   },
+   {
+    "from": "1938-06-09T00:00",
+    "value": 0.5
+   },
+   {
+    "from": "1938-06-22T00:00",
+    "value": 0.65
+   },
+   {
+    "from": "1938-07-22T00:00",
+    "value": 0.6
+   },
+   {
+    "from": "1938-08-01T00:00",
+    "value": 0.5
+   },
+   {
+    "from": "1938-09-01T00:00",
+    "value": 0.75
+   },
+   {
+    "from": "1938-09-28T00:00",
+    "value": 0.85
+   },
+   {
+    "from": "1938-10-10T00:00",
+    "value": 0.7
+   },
+   {
+    "from": "1938-10-21T00:00",
+    "value": 0.6
+   },
+   {
+    "from": "1938-10-25T00:00",
+    "value": 0.25
+   },
+   {
+    "from": "1938-10-27T12:00",
+    "value": 0.1
+   }
+  ]
+ },
+ "ui": {
+  "layers": {
+   "routes": {
+    "label": "作战方向与溯江航运"
+   },
+   "demarcation": {
+    "label": "防线与防御地域示意"
+   },
+   "pockets": {
+    "label": "合围地域"
+   }
+  },
+  "extraLayers": [
+   {
+    "key": "yellow_flood",
+    "label": "黄泛区与长江阻塞线（历史叠加，近似）",
+    "default": true
+   }
+  ],
+  "chapterNav": "sidebar",
+  "treeActiveOnly": false,
+  "precisionStyle": "note",
+  "timeline": {
+   "jump": true,
+   "dateInput": true,
+   "lanes": 2
+  },
+  "tourOpensFirstEvent": true,
+  "sandboxPhaseFocus": true,
+  "brief": {
+   "title": "1938 武汉会战",
+   "sub": "武漢會戰 · 武漢攻略戦",
+   "sub2": "1938.2.18 — 1938.10.27",
+   "fine": "口径：本卷以1938年2月18日武汉首次空战为前奏起点，以6月11日日军通告溯江作战为会战主体开端，10月25—27日三镇易手结束。中方约110万为累计投入量级，日方直接作战约25万（9个师团又波田支队）、全期投入30—35万为双轨口径；伤亡各说并存，面板不为任一方补造单一数字。棋子是代表编制，不能加总军、师人数。",
+   "forceNotes": true,
+   "notesTitle": "兵力、伤亡与阅读口径",
+   "sideColumns": 2,
+   "showEmptyRows": false
+  },
+  "status": {
+   "cells": [
+    {
+     "sides": [
+      "CN"
+     ],
+     "metric": "act",
+     "label": "中方师级标记在战"
+    },
+    {
+     "sides": [
+      "CN"
+     ],
+     "metric": "enc",
+     "label": "被合围标记",
+     "cls": "enc",
+     "hideZero": true
+    },
+    {
+     "sides": [
+      "CN"
+     ],
+     "metric": "out",
+     "label": "师级标记退出",
+     "cls": "out",
+     "hideZero": true
+    },
+    {
+     "sides": [
+      "JP"
+     ],
+     "metric": "act",
+     "label": "日方师级标记在战"
+    },
+    {
+     "sides": [
+      "JP"
+     ],
+     "metric": "enc",
+     "label": "被合围标记",
+     "cls": "enc",
+     "hideZero": true
+    }
+   ],
+   "latestEvent": true,
+   "pocketsLabel": "合围地域（非全师覆灭）"
+  },
+  "legend": {
+   "counters": [
+    [
+     "CN",
+     "infantry",
+     "division",
+     "中国军队代表军/师"
+    ],
+    [
+     "JP",
+     "infantry",
+     "division",
+     "日本陆军代表师团"
+    ],
+    [
+     "JP",
+     "marine",
+     "regiment",
+     "海军特别陆战队"
+    ],
+    [
+     "CN",
+     "fortress",
+     "group",
+     "江防要塞守备"
+    ],
+    [
+     "JP",
+     "naval",
+     "ship",
+     "溯江舰艇存在示意"
+    ],
+    [
+     "CN",
+     "fighter",
+     "squadron",
+     "中苏空军参战示意"
+    ]
+   ],
+   "items": [
+    "<i class=\"lg-fill a\"></i>日军控制概势（不表示逐村确占）",
+    "<i class=\"lg-fill\"></i>中国军队抵抗地域",
+    "<i class=\"lg-front\"></i>接触地域边缘（近似）",
+    "→ 陆上作战／撤退方向；··· 溯江海运虚线",
+    "<i class=\"lg-demarc\"></i>阶段性防线与防御地域，不是精测战壕",
+    "<i class=\"lg-pocket\"></i>万家岭合围地域"
+   ],
+   "statuses": "交战 · 撤退 · 战术单位重创瓦解 · 要塞陷落后撤编；军/师的退出不等于永久覆灭",
+   "after": "<p>轨迹仅连接有史料支持的作战地域，点间动画为示意，不是逐日实测。控制场按日级或阶段级概势着色，不等于逐村占领；首帧南京—芜湖以东为1937年淞沪、南京战事形成的出发概势，非精确界线。中国与日本的阵营标签仅供界面分类。黄泛区为1938年6月9日决堤后形成的历史叠加层，现代地图河道已与1938年不同。</p>"
+  },
+  "modelLabels": {
+   "inf_allied": "通用步兵符号（非1938制服复原）",
+   "navy_token": "通用舰船示意标记",
+   "air_token": "通用飞机示意标记",
+   "art_gun": "通用火炮示意模型"
+  },
+  "categoryLabels": {
+   "air": "航空",
+   "naval": "长江航运",
+   "movement": "行动",
+   "atrocity": "战争罪行"
+  },
+  "pocketFate": {
+   "destroyed": "主力被歼、残部突围"
+  },
+  "labels": {
+   "echelons": {
+    "command": "派遣军／战区",
+    "army": "军／兵团／集团军",
+    "corps": "军",
+    "division": "师团／师",
+    "group": "支队／要塞守备"
+   }
+  }
+ },
+ "intro": {
+  "stamp": "史料重建 · 作战档案",
+  "kicker": "中国战区 · No. 1938/II",
+  "title": "武汉会战",
+  "en": "THE BATTLE OF WUHAN",
+  "dates": "1938年2月18日 — 10月27日",
+  "paragraphs": [
+   "南京沦陷后，国民政府西迁重庆，军政中枢却驻节武汉，三镇成为事实上的战时首都。1938年2月与4月，中国空军与苏联志愿队两度在武汉上空击退日机；5月徐州失守，6月9日花园口黄河决堤以水代兵，日军沿平汉路直下武汉的方案就此作废，改以主力溯长江仰攻。",
+   "中国第五、第九战区约110万人依托大别山、鄱阳湖与长江两岸构成千里弧形防线，方针是『守武汉而不战于武汉』——在外围消耗，不在城内决战。日军华中派遣军以第11军沿江西进、第2军出大别山北麓，先后突破马当、九江、田家镇锁钥；9月富金山十昼夜、潢川毒气、10月万家岭围歼第106师团主力，战况至为惨烈。",
+   "10月12日信阳失守、21日广州沦陷，粤汉外援线断绝，武汉战略价值已失。10月24日军事委员会下令弃守，25—27日汉口、武昌、汉阳相继易手。日军虽占武汉，却未能围歼中国军队主力，速战速决就此破产，抗战转入战略相持。"
+  ],
+  "how": "共 {units} 个代表性编制与标记、{events} 个中文事件、{keyframes} 个控制关键帧。按章节或导演模式观察转折。日精度事件、稀疏地域轨迹及控制场均不等于精测战况；首帧南京以东为1937年战事形成的出发概势。",
+  "note": "滚轮缩放 · 拖动地图 · 空格播放 · H 全图 · M 切换3D；步兵、舰船与飞机模型为通用象征，并非1938具体制服或型号复原。",
+  "photo": "File:Wuhan 1938.jpg",
+  "photoAlt": "武汉会战中的中国军队三十节式重机枪阵地，拍摄日与地点未详",
+  "caption": "1938年武汉会战中的中国军队重机枪组；Commons编目，具体拍摄日未详，不指认某日战斗现场。",
+  "operation": {
+   "code": "WUHAN 1938",
+   "coords": "31° N / 114° E",
+   "label": "武汉会战 · 保卫大武汉"
+  }
+ },
+ "credits": {
+  "sections": [
+   [
+    "照片",
+    "photos"
+   ],
+   [
+    "音效",
+    "audio"
+   ],
+   [
+    "音乐",
+    "music"
+   ],
+   [
+    "字体",
+    "fonts"
+   ],
+   [
+    "地理署名",
+    "geography"
+   ]
+  ],
+  "geodata": [
+   "<b>historical-basemaps world_1938</b>（A. Ourednik 等）— GPL-3.0；China映射中国战区。1938年政治国界不是1938年华中占领图：本卷首帧南京—芜湖以东的日军概势来自1937年淞沪、南京战事结果的另行绘制，不取自该图。",
+   "<b>Natural Earth 1:10m</b> — 公有领域；现代海岸、河湖仅作背景。1938年黄河在花园口决堤后夺淮入海，黄泛区轮廓为历史叠加示意，与现代河道不同；广济县治时在梅川（今武穴市梅川镇），箬溪今为武宁县鲁溪镇，星子今为庐山市，地名对照见各卡注记。",
+   "<b>Terrain Tiles (Terrarium)</b> — Mapzen / AWS Open Data；SRTM、GMTED2010、ETOPO1等。大别山、幕阜山为林区与地形示意，沙盘高程及垂直夸张不用于判断工事或隘口高低。",
+   "<b>中文地名与叠加层</b> — 历史地域识别与近似重建。长江阻塞线（马当、田家镇沉船与水雷）与黄泛区为文献支持的近似范围，不是精测工程图。"
+  ],
+  "disclaimer": "这是有来源且保留不确定性的战役级叙事，不是全量战斗序列或逐日阵地复原。军、师、支队不能重复计入兵力；伤亡各说并存，面板不为任一方补造单一数字。",
+  "extraHtml": "<p><b>伤亡口径：</b>日方官方《中国事变陆军作战史》作约3.1—3.5万；日方部队史推算5.5—7万另加战病10万以上；现代学界推论自5万至20万以上不等；中方战时战报25.6万系高估。中方军委会统计自身伤亡254,628人，官方通说约40万。各说并存，本卷不取单一数字。</p><p><b>万家岭：</b>中方战报称歼敌万余；日方人马现员表推算第106师团及配属在战役期间自定员除名约6,500—6,600人（不含轻伤现地住院者），两种口径都写入事件注记。所谓『奇袭张古山』的某名将演绎说无同期电报佐证，本卷不采用。</p><p><b>日期异说：</b>安庆（6月12/13日）、湖口（7月4/5日）、太湖—宿松—黄梅（7月26日—8月4日逐次 vs 8月3日同陷）等存在来源分歧，时间轴取多数中方档案与《畑俊六日誌》交叉后的日期，并在事件注记标明异说。</p><p><b>背景配乐：</b>共享作战室器乐与挽歌录音仅用于现代叙事气氛，不是1938年现场录音。</p>"
+ },
+ "hub": {
+  "order": 11,
+  "codename": "武汉会战",
+  "codenameOrig": "武漢攻略戦",
+  "stencil": "WUHAN 1938",
+  "region": "china",
+  "pin": [
+   114.28,
+   30.58
+  ],
+  "labelAt": "e",
+  "theatre": {
+   "bbox": [
+    112.0,
+    28.0,
+    118.5,
+    33.5
+   ]
+  },
+  "cover": "photos/machine-gun.webp",
+  "blurb": "抗战初期最大规模会战：约110万中国军队依托大别山与长江阻击溯江西进的日军四个半月；富金山、田家镇、万家岭喋血之后，1938年10月下旬三镇易手，战争转入相持。"
+ },
+ "validation": {
+  "eventCount": 34,
+  "bodyLength": [
+   80,
+   140
+  ]
+ }
+}

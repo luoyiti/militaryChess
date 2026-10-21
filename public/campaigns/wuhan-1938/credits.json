@@ -1,0 +1,405 @@
+{
+ "photos": [
+  {
+   "src": "photos/machine-gun.webp",
+   "w": 592,
+   "h": 371,
+   "title": "武汉会战中操作三十节式重机枪的中国军队",
+   "author": "作者不详（Commons编目）",
+   "license": "Public domain",
+   "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wuhan_1938.jpg",
+   "caption": "武汉会战中操作三十节式重机枪的中国军队；Commons编目，具体拍摄日与地点未详。"
+  },
+  {
+   "src": "photos/wanjialing-charge.webp",
+   "w": 400,
+   "h": 302,
+   "title": "万家岭战役中的国民革命军",
+   "author": "作者不详（Commons编目）",
+   "license": "Public domain",
+   "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:NRAWanjialing1.jpg",
+   "caption": "万家岭战役中的国民革命军；Commons编目。"
+  },
+  {
+   "src": "photos/german-divs.webp",
+   "w": 1247,
+   "h": 843,
+   "title": "开赴武汉方向的德械师部队",
+   "author": "作者不详（Commons编目）",
+   "license": "Public domain",
+   "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wuhan_german_divs.jpg",
+   "caption": "开赴武汉方向的德械师部队；Commons编目。"
+  },
+  {
+   "src": "photos/snlf-june11.webp",
+   "w": 1263,
+   "h": 921,
+   "title": "1938年6月11日在军舰甲板上的日本海军特别陆战队，向安庆方向输送",
+   "author": "作者不详（Commons编目）",
+   "license": "Public domain",
+   "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Japanese_Special_Naval_Landing_Forces_on_the_deck_board_of_the_IJN_xxx%2C_June_11th.jpg",
+   "caption": "1938年6月11日在军舰甲板上的日本海军特别陆战队，向安庆方向输送；Commons编目。"
+  },
+  {
+   "src": "photos/hankou-fallen.webp",
+   "w": 708,
+   "h": 500,
+   "title": "1938年10月沦陷后的汉口",
+   "author": "作者不详（Commons编目）",
+   "license": "Public domain",
+   "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hankou_city_has_fallen_No.1_1938.jpg",
+   "caption": "1938年10月沦陷后的汉口；Commons编目（日方写真）。"
+  },
+  {
+   "src": "photos/defenders-river.webp",
+   "w": 400,
+   "h": 256,
+   "title": "武汉战役中防守长江地区的中国军队",
+   "author": "作者不详（Commons编目）",
+   "license": "Public domain",
+   "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Defenders_Around_River.jpg",
+   "caption": "武汉战役中防守长江地区的中国军队；Commons编目，具体地点未详。"
+  },
+  {
+   "src": "photos/yellow-flood.webp",
+   "w": 840,
+   "h": 560,
+   "title": "1938年6月黄河决堤后涉水行进的中国军队",
+   "author": "作者不详（Commons编目）",
+   "license": "Public domain",
+   "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:1938_Yellow_River_flood.jpg",
+   "caption": "1938年6月黄河决堤后涉水行进的中国军队；Commons编目。"
+  },
+  {
+   "src": "photos/xinyang-troops.webp",
+   "w": 1600,
+   "h": 1056,
+   "title": "武汉会战期间防守信阳地区的国民革命军第十七军团",
+   "author": "作者不详（Commons编目）",
+   "license": "Public domain",
+   "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chinese_Troops_in_Xinyang.jpg",
+   "caption": "武汉会战期间防守信阳地区的国民革命军第十七军团；Commons编目。"
+  },
+  {
+   "src": "photos/tankettes-naxi.webp",
+   "w": 846,
+   "h": 575,
+   "title": "向武汉推进的日军装甲车队（近南昌方向）",
+   "author": "作者不详（Commons编目）",
+   "license": "Public domain",
+   "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Japanese_tankettes_with_pioneer_troops_marching_towards_Wu-han%2C_near_Na-hsi.jpg",
+   "caption": "向武汉推进的日军装甲车队（近南昌方向）；Commons编目（日方写真）。"
+  },
+  {
+   "src": "photos/japan-capture.webp",
+   "w": 1494,
+   "h": 1042,
+   "title": "庆祝攻占武汉的日军",
+   "author": "作者不详（Commons编目）",
+   "license": "Public domain",
+   "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Japan_Capture_of_Wuhan.jpg",
+   "caption": "庆祝攻占武汉的日军；Commons编目（日方写真）。"
+  },
+  {
+   "src": "photos/soviet-aviators.webp",
+   "w": 960,
+   "h": 621,
+   "title": "在中国的苏联援华航空志愿队员",
+   "author": "作者不详（Commons编目）",
+   "license": "Public domain",
+   "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Soviet_Aviators_in_China.jpg",
+   "caption": "在中国的苏联援华航空志愿队员；Commons编目。"
+  }
+ ],
+ "audio": [
+  {
+   "file": "audio/sfx.webm#typewriter",
+   "title": "typewriter：WWS Typewriter.ogg",
+   "author": "Work With Sounds / Konrad Gutkowski",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:WWS_Typewriter.ogg"
+  },
+  {
+   "file": "audio/sfx.webm#bell",
+   "title": "bell：406243 stubb typewriter-ding-near-mono.wav",
+   "author": "_stubb",
+   "license": "CC0",
+   "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:406243_stubb_typewriter-ding-near-mono.wav"
+  },
+  {
+   "file": "audio/sfx.webm#stamp",
+   "title": "stamp：traditional stamp.wav by I.fekry",
+   "author": "Unknown",
+   "license": "CC0 1.0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "sourceUrl": "https://freesound.org/people/I.fekry/sounds/470710/"
+  },
+  {
+   "file": "audio/sfx.webm#paper",
+   "title": "paper：PageRustle by Tomoyo Ichijouji",
+   "author": "Unknown",
+   "license": "CC0 1.0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "sourceUrl": "https://freesound.org/people/Tomoyo%20Ichijouji/sounds/211246/"
+  },
+  {
+   "file": "audio/sfx.webm#explosion",
+   "title": "explosion：Explosion 10.ogg",
+   "author": "tcpp",
+   "license": "Public domain",
+   "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Explosion_10.ogg"
+  },
+  {
+   "file": "audio/sfx.webm#artillery",
+   "title": "artillery：Sexton artillery firing.oga",
+   "author": "LouiseBrown1981",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sexton_artillery_firing.oga"
+  },
+  {
+   "file": "audio/sfx.webm#stuka",
+   "title": "stuka：property War Airplane Stuka Siren Sound Effect by Mastersoundboy2005",
+   "author": "Unknown",
+   "license": "CC0 1.0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "sourceUrl": "https://freesound.org/people/Mastersoundboy2005/sounds/758467/"
+  },
+  {
+   "file": "audio/sfx.webm#bomber",
+   "title": "bomber：War Planes Overhead! by SoundsExciting",
+   "author": "Unknown",
+   "license": "CC0 1.0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "sourceUrl": "https://freesound.org/people/SoundsExciting/sounds/213099/"
+  },
+  {
+   "file": "audio/sfx.webm#engine",
+   "title": "engine：G14-16-Old Truck with Sputtering Idle.wav by craigsmith",
+   "author": "Unknown",
+   "license": "CC0 1.0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "sourceUrl": "https://freesound.org/people/craigsmith/sounds/438085/"
+  },
+  {
+   "file": "audio/sfx.webm#tank",
+   "title": "tank：t26_moving_01.wav by greatmganga",
+   "author": "Unknown",
+   "license": "CC0 1.0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "sourceUrl": "https://freesound.org/people/greatmganga/sounds/329800/"
+  },
+  {
+   "file": "audio/sfx.webm#ship_gun",
+   "title": "ship_gun：Cannon Shot by qubodup",
+   "author": "Unknown",
+   "license": "CC0 1.0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "sourceUrl": "https://freesound.org/people/qubodup/sounds/187767/"
+  },
+  {
+   "file": "audio/sfx.webm#siren",
+   "title": "siren：Motorsirene - Feuerwehralarm.ogg",
+   "author": "Nallchen",
+   "license": "Public domain",
+   "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Motorsirene_-_Feuerwehralarm.ogg"
+  },
+  {
+   "file": "audio/sfx.webm#radio",
+   "title": "radio：Static B.wav",
+   "author": "Oreocooke",
+   "license": "CC0",
+   "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Static_B.wav"
+  },
+  {
+   "file": "audio/sfx.webm#morse",
+   "title": "morse：SOS.ogg",
+   "author": "Dave Aton",
+   "license": "Public domain",
+   "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:SOS.ogg"
+  },
+  {
+   "file": "audio/sfx.webm#mg",
+   "title": "mg：Heavy Machine Gun by ShawnyBoy",
+   "author": "Unknown",
+   "license": "CC0 1.0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "sourceUrl": "https://freesound.org/people/ShawnyBoy/sounds/165394/"
+  },
+  {
+   "file": "audio/sfx.webm#rifle",
+   "title": "rifle：Gunshots 8.ogg",
+   "author": "aradlaw",
+   "license": "Public domain",
+   "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gunshots_8.ogg"
+  },
+  {
+   "file": "audio/sfx.webm#march",
+   "title": "march：marching-concrete-loop.aif by stib",
+   "author": "Unknown",
+   "license": "CC0 1.0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "sourceUrl": "https://freesound.org/people/stib/sounds/240732/"
+  },
+  {
+   "file": "audio/sfx.webm#cavalry",
+   "title": "cavalry：Six Horses Galloping By.ogg",
+   "author": "Freesound Community https://pixabay.com/users/freesound_community-46691455/ Bruno Auzet https://pixabay.com/sound-effects/nature-6-horses-gallopwav-14467/",
+   "license": "CC0",
+   "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Six_Horses_Galloping_By.ogg"
+  },
+  {
+   "file": "audio/sfx.webm#ui_click",
+   "title": "ui_click：Computer mouse single click.ogg",
+   "author": "Darklanlan",
+   "license": "CC0",
+   "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Computer_mouse_single_click.ogg"
+  },
+  {
+   "file": "audio/sfx.webm#fanfare",
+   "title": "fanfare：Cracow trumpet signal.ogg",
+   "author": "uploader Szczebrzeszynski",
+   "license": "Public domain",
+   "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cracow_trumpet_signal.ogg"
+  },
+  {
+   "file": "audio/sfx.webm#amb_wind",
+   "title": "amb_wind：Wind in Swedish pine forest at 25 mps.ogg",
+   "author": "W.carter",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wind_in_Swedish_pine_forest_at_25_mps.ogg"
+  },
+  {
+   "file": "audio/sfx.webm#amb_front",
+   "title": "amb_front：Explosion Distant  by Johnnyfarmer",
+   "author": "Unknown",
+   "license": "CC0 1.0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "sourceUrl": "https://freesound.org/people/Johnnyfarmer/sounds/209769/"
+  },
+  {
+   "file": "audio/sfx.webm#amb_radio",
+   "title": "amb_radio：am band static.wav by cognito perceptu",
+   "author": "Unknown",
+   "license": "CC0 1.0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "sourceUrl": "https://freesound.org/people/cognito%20perceptu/sounds/38693/"
+  }
+ ],
+ "music": [
+  {
+   "file": "audio/music/operations-room.webm, audio/music/operations-room.m4a",
+   "title": "作战室纯器乐背景（共享现代背景，非1938实录）",
+   "author": "本项目原创；离线程序化钢琴与弦乐音色",
+   "license": "CC0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "sourceUrl": ""
+  },
+  {
+   "file": "audio/music/elegy.webm, audio/music/elegy.m4a",
+   "title": "肖邦降b小调第二钢琴奏鸣曲第三乐章节选（现代背景配乐，非1938实录）",
+   "author": "作曲：弗雷德里克·肖邦；演奏：Paul Pitman（Musopen）",
+   "license": "Public domain",
+   "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+   "sourceUrl": "https://musopen.org/"
+  }
+ ],
+ "fonts": [
+  {
+   "file": "fonts/NotoSerifSC-400.woff2, fonts/NotoSerifSC-700.woff2",
+   "title": "Noto Serif SC（思源宋体，子集）",
+   "author": "Google / Adobe",
+   "license": "SIL Open Font License 1.1",
+   "licenseUrl": "https://openfontlicense.org/",
+   "sourceUrl": "https://github.com/google/fonts/tree/main/ofl/notoserifsc"
+  },
+  {
+   "file": "fonts/LXGWWenKai-400.woff2",
+   "title": "霞鹜文楷 LXGW WenKai（子集）",
+   "author": "LXGW（落霞与孤鹜）",
+   "license": "SIL Open Font License 1.1",
+   "licenseUrl": "https://openfontlicense.org/",
+   "sourceUrl": "https://github.com/lxgw/LxgwWenKai"
+  },
+  {
+   "file": "fonts/SpecialElite-400.woff2",
+   "title": "Special Elite",
+   "author": "Astigmatic",
+   "license": "Apache License 2.0",
+   "licenseUrl": "https://www.apache.org/licenses/LICENSE-2.0",
+   "sourceUrl": "https://github.com/google/fonts/tree/main/apache/specialelite"
+  },
+  {
+   "file": "fonts/StardosStencil-400.woff2, fonts/StardosStencil-700.woff2",
+   "title": "Stardos Stencil",
+   "author": "Vernon Adams",
+   "license": "SIL Open Font License 1.1",
+   "licenseUrl": "https://openfontlicense.org/",
+   "sourceUrl": "https://github.com/google/fonts/tree/main/ofl/stardosstencil"
+  },
+  {
+   "file": "fonts/Oswald-400.woff2, fonts/Oswald-700.woff2",
+   "title": "Oswald",
+   "author": "Vernon Adams, Kalapi Gajjar, Cyreal",
+   "license": "SIL Open Font License 1.1",
+   "licenseUrl": "https://openfontlicense.org/",
+   "sourceUrl": "https://github.com/google/fonts/tree/main/ofl/oswald"
+  }
+ ],
+ "geography": [
+  {
+   "file": "geo/vectors.topo.json, geo/field_masks.bin, tiles/**, terrain/**",
+   "title": "Natural Earth 1:10m 现代陆地、海岸与水系：并非1938岸线；长江、鄱阳湖、洞庭湖等河湖仅作背景，1938年黄河花园口决堤后河道与黄泛区已与现代地图不同。",
+   "author": "Natural Earth（公有领域）",
+   "license": "公有领域",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "sourceUrl": "https://www.naturalearthdata.com/"
+  },
+  {
+   "file": "geo/field_masks.bin, geo/vectors.topo.json",
+   "title": "historical-basemaps world_1938 开战国界：China 映射中国战区（源数据名为 Chinese warlords），日本本土不在本画布，JP 本土位为零；日军推进由 1938 逐时控制帧表达，1938 政治图不用于认定华中占领。",
+   "author": "A. Ourednik 等（historical-basemaps）",
+   "license": "GPL-3.0",
+   "licenseUrl": "https://www.gnu.org/licenses/gpl-3.0.html",
+   "sourceUrl": "https://github.com/aourednik/historical-basemaps"
+  },
+  {
+   "file": "terrain/height.png, terrain/terrain.json, terrain/albedo.webp, tiles/**",
+   "title": "Mapzen Terrarium z9 现代高程（本区约260米原始像元）：非1938地形，大别山、幕阜山为地形示意，城市建筑、河道整治不能反推原貌。",
+   "author": "Mapzen / AWS Open Data（SRTM、GMTED2010、ETOPO1）",
+   "license": "公有领域/CC",
+   "licenseUrl": "https://github.com/tilezen/joerd/blob/master/docs/attribution.md",
+   "sourceUrl": "https://registry.opendata.aws/terrain-tiles/"
+  },
+  {
+   "file": "campaigns/wuhan-1938/data/gazetteer/places.json, data/overlays.json",
+   "title": "中文历史地名与叠加层：1938 年县治与今治有迁移（广济=今武穴梅川镇、星子=今庐山市、鄂城=今鄂州、应山=今广水、经扶=今新县、箬溪=今武宁鲁溪镇等），坐标为现代地物参考；黄泛区与长江阻塞线为文献支持的近似范围，非精测工程图。",
+   "author": "本项目历史地理考订",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "sourceUrl": ""
+  }
+ ]
+}

@@ -1,766 +1,3865 @@
 {
-  "$comment": "作战总台的世界形势数据：总台底图 public/hub/world1938.topo.json 的国家 id 在 1937-07-07 至 1945-09-02 间的阵营状态、地图上的地名、电报纸带与战区分区。状态写法：<阵营>（交战国）、<阵营>-aligned（附庸 / 合作政权 / 共同交战国）、<阵营>-occupied（被该阵营占领）、contested（交战中）、neutral（中立）；阵营 id 与 campaign.json 的 sides[].coalition 一致。没有时间表的殖民地继承宗主国（底图的 sov 或下面的 sovereign）的交战国 / 附庸状态。小比例尺示意：部分割让与局部占领只写进 note，不改变整国着色。",
-  "window": { "start": "1937-07-07", "end": "1945-09-02" },
-  "blocs": {
-    "axis": { "zh": "轴心国", "en": "Axis", "color": "#4c5e7a" },
-    "allies": { "zh": "同盟国", "en": "Allies", "color": "#5a7744" },
-    "comintern": { "zh": "苏联", "en": "Soviet Union", "color": "#9c4632" }
+ "$comment": "作战总台的世界形势数据：总台底图 public/hub/world1938.topo.json 的国家 id 在 1937-07-07 至 1945-09-02 间的阵营状态、地图上的地名、电报纸带与战区分区。状态写法：<阵营>（交战国）、<阵营>-aligned（附庸 / 合作政权 / 共同交战国）、<阵营>-occupied（被该阵营占领）、contested（交战中）、neutral（中立）；阵营 id 与 campaign.json 的 sides[].coalition 一致。没有时间表的殖民地继承宗主国（底图的 sov 或下面的 sovereign）的交战国 / 附庸状态。小比例尺示意：部分割让与局部占领只写进 note，不改变整国着色。",
+ "window": {
+  "start": "1937-07-07",
+  "end": "1945-09-02"
+ },
+ "blocs": {
+  "axis": {
+   "zh": "轴心国",
+   "en": "Axis",
+   "color": "#4c5e7a"
   },
-  "kinds": {
-    "member": { "zh": "{bloc}", "desc": "交战国及其直属领土" },
-    "aligned": { "zh": "{bloc}阵营", "desc": "附庸国、合作政权或共同交战国" },
-    "occupied": { "zh": "{bloc}占领", "desc": "被该阵营军队占领或接管" },
-    "contested": { "zh": "交战中", "desc": "遭到入侵、战斗仍在进行" },
-    "neutral": { "zh": "中立", "desc": "未参战或保持中立" }
+  "allies": {
+   "zh": "同盟国",
+   "en": "Allies",
+   "color": "#5a7744"
   },
-  "theatres": [
-    { "id": "europe", "zh": "欧洲", "en": "Europe", "view": [-11, 43, 42, 71] },
-    { "id": "med", "zh": "地中海与非洲", "en": "Mediterranean & Africa", "view": [-12, 22, 42, 46] },
-    { "id": "atlantic", "zh": "大西洋", "en": "Atlantic", "view": [-75, -48, 30, 40] },
-    { "id": "china", "zh": "中国", "en": "China", "view": [97, 18, 128, 46] },
-    { "id": "pacific", "zh": "太平洋", "en": "Pacific", "view": [100, -25, 200, 48] }
-  ],
-  "nations": {
-    "DE": { "zh": "德国", "countries": ["Germany"] },
-    "IT": { "zh": "意大利", "countries": ["Italy"] },
-    "JP": { "zh": "日本", "countries": ["Empire of Japan"] },
-    "HU": { "zh": "匈牙利", "countries": ["Hungary"] },
-    "RO": { "zh": "罗马尼亚", "countries": ["Romania"] },
-    "BG": { "zh": "保加利亚", "countries": ["Bulgaria"] },
-    "SK": { "zh": "斯洛伐克", "countries": ["Czechoslovakia"] },
-    "FI": { "zh": "芬兰", "countries": ["Finland"] },
-    "TH": { "zh": "泰国", "countries": ["Siam"] },
-    "GB": { "zh": "英国", "countries": ["United Kingdom"] },
-    "UK": { "zh": "英国", "alias": "GB", "countries": ["United Kingdom"] },
-    "FR": { "zh": "法国", "countries": ["France (N)", "France (S)"] },
-    "PL": { "zh": "波兰", "countries": ["Poland (W)", "Poland (E)"] },
-    "SU": { "zh": "苏联", "countries": ["USSR"] },
-    "US": { "zh": "美国", "countries": ["United States"] },
-    "CN": { "zh": "中国", "countries": ["China"] },
-    "BE": { "zh": "比利时", "countries": ["Belgium"] },
-    "NL": { "zh": "荷兰", "countries": ["Netherlands"] },
-    "NO": { "zh": "挪威", "countries": ["Norway"] },
-    "GR": { "zh": "希腊", "countries": ["Greece", "Greece (Crete)"] },
-    "YU": { "zh": "南斯拉夫", "countries": ["Yugoslavia"] },
-    "AU": { "zh": "澳大利亚", "countries": ["Australia"] },
-    "NZ": { "zh": "新西兰", "countries": ["New Zealand"] },
-    "CA": { "zh": "加拿大", "countries": ["Canada"] },
-    "IN": { "zh": "英属印度", "countries": ["British Raj"] },
-    "ZA": { "zh": "南非", "countries": ["Union of South Africa"] }
-  },
-  "sovereign": {
-    "Mandatory Palestine (GB)": "United Kingdom", "Ceylon": "United Kingdom", "Fiji": "United Kingdom", "Gambia, The": "United Kingdom",
-    "Jamaica": "United Kingdom", "Bahamas": "United Kingdom", "Barbados": "United Kingdom", "Belize": "United Kingdom", "Trinidad": "United Kingdom",
-    "Grenada": "United Kingdom", "Dominica": "United Kingdom", "Saint Lucia": "United Kingdom", "Saint Vincent and the Grenadines": "United Kingdom",
-    "Saint Kitts and Nevis": "United Kingdom", "Antigua and Barbuda": "United Kingdom", "Anguilla": "United Kingdom", "Montserrat": "United Kingdom",
-    "Turks and Caicos Islands": "United Kingdom", "Guyana": "United Kingdom", "Malawi": "United Kingdom", "Tonga": "United Kingdom",
-    "Qatar": "United Kingdom", "Trucial Oman": "United Kingdom", "Walbis Bay": "Union of South Africa",
-    "French Somaliland": "France", "Saint Barthelemy": "France", "Saint Martin": "France", "Wallis and Futuna Islands": "France",
-    "Puerto Rico": "United States", "United States Virgin Islands": "United States", "Niue": "New Zealand", "Samoa": "New Zealand",
-    "Guinea-Bissau": "Portugal"
-  },
-  "countries": {
-    "Germany": [
-      { "from": "1937-07-07", "status": "axis", "note": "1936 年与意大利结成柏林—罗马轴心、与日本签订《反共产国际协定》；1938 年合并奥地利与苏台德区", "source": "anticomintern" },
-      { "from": "1944-09-12", "status": "contested", "note": "美军在亚琛以南首次攻入德国本土；10 月苏军攻入东普鲁士", "source": "ww2" },
-      { "from": "1945-05-08", "status": "allies-occupied", "note": "无条件投降，由美、英、苏、法四国分区占领", "source": "veday" }
-    ],
-    "Italy": [
-      { "from": "1937-07-07", "status": "axis", "note": "1936 年柏林—罗马轴心，1937 年 11 月加入《反共产国际协定》；1940 年 6 月 10 日对英法宣战", "source": "steel" },
-      { "from": "1943-07-10", "status": "contested", "note": "盟军登陆西西里；9 月 8 日停战后南部王国政府转与同盟国共同作战，北部由德军占领并扶植意大利社会共和国", "source": "italy" },
-      { "from": "1945-05-02", "status": "allies-occupied", "note": "驻意大利德军投降", "source": "italy" }
-    ],
-    "Libya": [
-      { "from": "1937-07-07", "status": "axis", "note": "意属利比亚" },
-      { "from": "1941-01-03", "status": "contested", "note": "罗盘行动：英联邦军队攻入昔兰尼加；此后两年沙漠战线在利比亚与埃及之间往复", "source": "desert" },
-      { "from": "1943-01-23", "status": "allies-occupied", "note": "英军攻占的黎波里，轴心国军队退入突尼斯", "source": "desert" }
-    ],
-    "Ethiopia (Italy)": [
-      { "from": "1937-07-07", "status": "axis", "note": "1936 年被意大利吞并，与厄立特里亚、意属索马里组成意属东非" },
-      { "from": "1941-01-19", "status": "contested", "note": "东非战役：英联邦军队自苏丹、肯尼亚反攻", "source": "eastafrica" },
-      { "from": "1941-05-05", "status": "allies", "note": "海尔·塞拉西一世重返亚的斯亚贝巴（意军残部 11 月在贡德尔投降）", "source": "eastafrica" }
-    ],
-    "Eritrea (Italy)": [
-      { "from": "1937-07-07", "status": "axis" },
-      { "from": "1941-01-19", "status": "contested", "source": "eastafrica" },
-      { "from": "1941-04-01", "status": "allies-occupied", "note": "克伦战役后英军攻占阿斯马拉", "source": "eastafrica" }
-    ],
-    "Italian Somaliland": [
-      { "from": "1937-07-07", "status": "axis" },
-      { "from": "1941-02-11", "status": "contested", "source": "eastafrica" },
-      { "from": "1941-02-25", "status": "allies-occupied", "note": "英联邦军队占领摩加迪沙", "source": "eastafrica" }
-    ],
-    "British Somaliland": [
-      { "from": "1939-09-03", "status": "allies" },
-      { "from": "1940-08-03", "status": "contested", "note": "意军入侵", "source": "eastafrica" },
-      { "from": "1940-08-19", "status": "axis-occupied", "note": "英军自柏培拉撤离", "source": "eastafrica" },
-      { "from": "1941-03-16", "status": "allies", "note": "英军在柏培拉登陆收复", "source": "eastafrica" }
-    ],
-    "Albania": [
-      { "from": "1939-04-07", "status": "axis-occupied", "note": "意大利入侵并吞并；1943 年 9 月起由德军占领" },
-      { "from": "1944-11-29", "status": "allies", "note": "阿尔巴尼亚游击队解放全境" }
-    ],
-    "Czechoslovakia": [
-      { "from": "1939-03-15", "status": "axis-occupied", "note": "捷克部分成为德国的波希米亚—摩拉维亚保护国，斯洛伐克成为德国附庸国（1940 年 11 月加入三国同盟）" },
-      { "from": "1944-09-08", "status": "contested", "note": "苏军与捷克斯洛伐克军团发起东喀尔巴阡攻势；8 月斯洛伐克民族起义" },
-      { "from": "1945-05-11", "status": "allies", "note": "布拉格解放，捷克斯洛伐克复国", "source": "veday" }
-    ],
-    "Poland (W)": [
-      { "from": "1939-09-01", "status": "contested", "note": "德军自北、西、南三面入侵", "source": "pl" },
-      { "from": "1939-10-06", "status": "axis-occupied", "note": "西部并入德国，其余设为总督府", "source": "frontier" },
-      { "from": "1944-07-22", "status": "contested", "note": "苏军越过布格河，解放卢布林；8 月 1 日华沙起义", "source": "bagration" },
-      { "from": "1945-02-02", "status": "comintern-occupied", "note": "维斯瓦河—奥得河攻势结束，波兰全境处于苏军控制下", "source": "veday" }
-    ],
-    "Poland (E)": [
-      { "from": "1939-09-01", "status": "contested", "note": "9 月 17 日苏军自东越境", "source": "pl" },
-      { "from": "1939-09-28", "status": "comintern", "note": "《德苏边界友好条约》划定分界线，东部并入苏联", "source": "frontier" },
-      { "from": "1941-06-22", "status": "contested", "note": "巴巴罗萨行动首日即遭突击", "source": "t1941" },
-      { "from": "1941-07-05", "status": "axis-occupied", "note": "6 月 30 日利沃夫失守，七月初全境被德军占领", "source": "t1941" },
-      { "from": "1944-01-04", "status": "contested", "note": "苏军越过 1939 年的波兰东部边界", "source": "bagration" },
-      { "from": "1944-07-28", "status": "comintern", "note": "利沃夫、布列斯特相继被苏军收复", "source": "bagration" }
-    ],
-    "United Kingdom": [{ "from": "1939-09-03", "status": "allies", "note": "9 月 3 日对德宣战" }],
-    "France": [
-      { "from": "1939-09-03", "status": "allies", "note": "（法国殖民地继承用）9 月 3 日对德宣战" },
-      { "from": "1940-06-22", "status": "axis-aligned", "note": "停战后由维希政府管辖", "source": "armistice" },
-      { "from": "1944-09-12", "status": "allies", "note": "法兰西共和国临时政府", "source": "liberation" }
-    ],
-    "France (N)": [
-      { "from": "1939-09-03", "status": "allies", "note": "9 月 3 日对德宣战" },
-      { "from": "1940-05-10", "status": "contested", "note": "黄色方案：德军经阿登突破", "source": "fr" },
-      { "from": "1940-06-22", "status": "axis-occupied", "note": "停战协定后的德国占领区", "source": "armistice" },
-      { "from": "1944-06-06", "status": "contested", "note": "诺曼底登陆", "source": "overlord" },
-      { "from": "1944-09-12", "status": "allies", "note": "法国大部解放，诺曼底与普罗旺斯两路登陆部队在第戎附近会师；阿尔萨斯至 1945 年初才全部收复", "source": "liberation" }
-    ],
-    "France (S)": [
-      { "from": "1939-09-03", "status": "allies", "note": "9 月 3 日对德宣战" },
-      { "from": "1940-06-22", "status": "axis-aligned", "note": "非占领区，由维希政府管辖", "source": "armistice" },
-      { "from": "1942-11-11", "status": "axis-occupied", "note": "安东行动：盟军登陆北非后，德意军队占领非占领区", "source": "torch" },
-      { "from": "1944-08-15", "status": "contested", "note": "龙骑兵行动：盟军在普罗旺斯登陆", "source": "liberation" },
-      { "from": "1944-09-12", "status": "allies", "source": "liberation" }
-    ],
-    "Algeria (France)": [
-      { "from": "1939-09-03", "status": "allies" },
-      { "from": "1940-06-22", "status": "axis-aligned", "note": "维希政府管辖", "source": "armistice" },
-      { "from": "1942-11-08", "status": "contested", "note": "火炬行动：英美军队在奥兰、阿尔及尔登陆", "source": "torch" },
-      { "from": "1942-11-11", "status": "allies", "note": "维希军队停火，法属北非转入同盟国阵营", "source": "torch" }
-    ],
-    "Morocco (France)": [
-      { "from": "1939-09-03", "status": "allies" },
-      { "from": "1940-06-22", "status": "axis-aligned", "note": "维希政府管辖", "source": "armistice" },
-      { "from": "1942-11-08", "status": "contested", "note": "火炬行动：美军在卡萨布兰卡附近登陆", "source": "torch" },
-      { "from": "1942-11-11", "status": "allies", "source": "torch" }
-    ],
-    "Tunisia": [
-      { "from": "1939-09-03", "status": "allies", "note": "法国保护国" },
-      { "from": "1940-06-22", "status": "axis-aligned", "source": "armistice" },
-      { "from": "1942-11-09", "status": "axis-occupied", "note": "德意军队空运进驻突尼斯", "source": "tunisia" },
-      { "from": "1942-11-17", "status": "contested", "note": "突尼斯战役", "source": "tunisia" },
-      { "from": "1943-05-13", "status": "allies", "note": "北非的轴心国军队投降", "source": "tunisia" }
-    ],
-    "Syria (France)": [
-      { "from": "1939-09-03", "status": "allies", "note": "含黎巴嫩" },
-      { "from": "1940-06-22", "status": "axis-aligned", "source": "armistice" },
-      { "from": "1941-06-08", "status": "contested", "note": "出口者行动：英联邦与自由法国军队进攻叙利亚和黎巴嫩", "source": "syria" },
-      { "from": "1941-07-14", "status": "allies", "note": "阿卡停战协定，转由自由法国管辖", "source": "syria" }
-    ],
-    "French West Africa": [
-      { "from": "1939-09-03", "status": "allies" },
-      { "from": "1940-06-22", "status": "axis-aligned", "note": "维希政权；9 月达喀尔之战击退英国与自由法国", "source": "armistice" },
-      { "from": "1942-11-23", "status": "allies", "note": "随法属北非转入同盟国阵营", "source": "torch" }
-    ],
-    "Togo": [
-      { "from": "1939-09-03", "status": "allies", "note": "法属多哥" },
-      { "from": "1940-06-22", "status": "axis-aligned", "source": "armistice" },
-      { "from": "1942-11-23", "status": "allies", "source": "torch" }
-    ],
-    "French Equatorial Africa": [
-      { "from": "1939-09-03", "status": "allies" },
-      { "from": "1940-06-22", "status": "axis-aligned", "source": "armistice" },
-      { "from": "1940-08-28", "status": "allies", "note": "乍得、刚果相继宣布支持自由法国（加蓬 11 月易手）", "source": "freefrance" }
-    ],
-    "Congo (France)": [
-      { "from": "1939-09-03", "status": "allies" },
-      { "from": "1940-06-22", "status": "axis-aligned", "source": "armistice" },
-      { "from": "1940-08-28", "status": "allies", "source": "freefrance" }
-    ],
-    "French Cameroons": [
-      { "from": "1939-09-03", "status": "allies" },
-      { "from": "1940-06-22", "status": "axis-aligned", "source": "armistice" },
-      { "from": "1940-08-27", "status": "allies", "note": "宣布支持自由法国", "source": "freefrance" }
-    ],
-    "Madagascar (France)": [
-      { "from": "1939-09-03", "status": "allies" },
-      { "from": "1940-06-22", "status": "axis-aligned", "source": "armistice" },
-      { "from": "1942-05-05", "status": "contested", "note": "英军发动装甲行动，在迭戈苏瓦雷斯登陆", "source": "madagascar" },
-      { "from": "1942-11-08", "status": "allies-occupied", "note": "维希守军投降，岛屿交由自由法国管理", "source": "madagascar" }
-    ],
-    "French Indo-China": [
-      { "from": "1939-09-03", "status": "allies" },
-      { "from": "1940-06-22", "status": "axis-aligned", "note": "维希政府管辖；1940 年 9 月日军进驻北部", "source": "indochina" },
-      { "from": "1941-07-28", "status": "axis-occupied", "note": "日军进驻南部，印度支那实际处于日本控制下；1945 年 3 月日军政变解除法军武装", "source": "indochina" }
-    ],
-    "New Caledonia": [
-      { "from": "1939-09-03", "status": "allies" },
-      { "from": "1940-06-22", "status": "axis-aligned", "source": "armistice" },
-      { "from": "1940-09-19", "status": "allies", "note": "宣布支持自由法国，后成为美军在南太平洋的基地", "source": "freefrance" }
-    ],
-    "New Hebrides": [{ "from": "1939-09-03", "status": "allies", "note": "英法共管" }],
-    "French Guiana": [
-      { "from": "1939-09-03", "status": "allies" },
-      { "from": "1940-06-22", "status": "axis-aligned", "source": "armistice" },
-      { "from": "1943-03-18", "status": "allies", "source": "freefrance" }
-    ],
-    "Martinique": [
-      { "from": "1939-09-03", "status": "allies" },
-      { "from": "1940-06-22", "status": "axis-aligned", "source": "armistice" },
-      { "from": "1943-07-14", "status": "allies", "source": "freefrance" }
-    ],
-    "Guadeloupe": [
-      { "from": "1939-09-03", "status": "allies" },
-      { "from": "1940-06-22", "status": "axis-aligned", "source": "armistice" },
-      { "from": "1943-07-14", "status": "allies", "source": "freefrance" }
-    ],
-    "Belgium": [
-      { "from": "1940-05-10", "status": "contested", "source": "fr" },
-      { "from": "1940-05-28", "status": "axis-occupied", "note": "5 月 28 日比利时军队投降", "source": "fr" },
-      { "from": "1944-09-02", "status": "contested", "note": "盟军攻入比利时，9 月 3 日布鲁塞尔解放", "source": "liberation" },
-      { "from": "1944-11-08", "status": "allies", "note": "斯海尔德河口肃清", "source": "liberation" },
-      { "from": "1944-12-16", "status": "contested", "note": "阿登反击战", "source": "bulge" },
-      { "from": "1945-01-25", "status": "allies", "note": "阿登战役结束", "source": "bulge" }
-    ],
-    "Belgian Congo": [{ "from": "1940-05-10", "status": "allies", "note": "比利时流亡政府继续作战，殖民地站在同盟国一边" }],
-    "Rwanda (Belgium)": [{ "from": "1940-05-10", "status": "allies" }],
-    "Burundi": [{ "from": "1940-05-10", "status": "allies", "note": "比属卢旺达—乌隆迪" }],
-    "Netherlands": [
-      { "from": "1940-05-10", "status": "contested", "source": "fr" },
-      { "from": "1940-05-15", "status": "axis-occupied", "note": "5 月 14 日鹿特丹遭轰炸，次日荷军投降", "source": "fr" },
-      { "from": "1944-09-12", "status": "contested", "note": "盟军攻入荷兰南部；9 月 17 日市场花园行动", "source": "liberation" },
-      { "from": "1945-05-05", "status": "allies", "note": "驻荷兰德军投降", "source": "veday" }
-    ],
-    "Dutch East Indies": [
-      { "from": "1940-05-10", "status": "allies", "note": "荷兰本土沦陷后，殖民地继续作战" },
-      { "from": "1942-01-11", "status": "contested", "note": "日军登陆塔拉坎，荷属东印度战役开始", "source": "dei" },
-      { "from": "1942-03-09", "status": "axis-occupied", "note": "荷印军队在爪哇投降；1944—1945 年盟军只收复新几内亚与婆罗洲的部分地区", "source": "dei" }
-    ],
-    "Netherlands Antilles": [{ "from": "1940-05-10", "status": "allies" }],
-    "Suriname": [{ "from": "1940-05-10", "status": "allies" }],
-    "Luxembourg": [
-      { "from": "1940-05-10", "status": "axis-occupied", "note": "开战当天即被占领，1942 年被并入德国", "source": "fr" },
-      { "from": "1944-09-10", "status": "allies", "note": "美军解放卢森堡市", "source": "liberation" },
-      { "from": "1944-12-16", "status": "contested", "note": "阿登反击战", "source": "bulge" },
-      { "from": "1945-02-12", "status": "allies", "note": "全境收复", "source": "bulge" }
-    ],
-    "Denmark": [
-      { "from": "1940-04-09", "status": "axis-occupied", "note": "4 月 9 日几乎未经抵抗被占领", "source": "no" },
-      { "from": "1945-05-05", "status": "allies", "note": "驻丹麦德军投降", "source": "veday" }
-    ],
-    "Faroe Islands": [{ "from": "1940-04-12", "status": "allies-occupied", "note": "英军和平占领" }],
-    "Iceland": [{ "from": "1940-05-10", "status": "allies-occupied", "note": "英军登陆，1941 年 7 月起由美军接防", "source": "iceland" }],
-    "Greenland": [{ "from": "1941-04-09", "status": "allies-occupied", "note": "丹麦驻美公使签约，由美国保护并设立基地", "source": "greenland" }],
-    "Norway": [
-      { "from": "1940-04-09", "status": "contested", "note": "威悉演习：德军突袭沿岸各港", "source": "no" },
-      { "from": "1940-06-10", "status": "axis-occupied", "note": "本土守军停止抵抗，国王与政府流亡伦敦；1944 年 10 月苏军解放芬马克", "source": "no" },
-      { "from": "1945-05-08", "status": "allies", "note": "驻挪威德军投降", "source": "veday" }
-    ],
-    "Spain": [
-      { "from": "1937-07-07", "status": "contested", "note": "西班牙内战（1936—1939），德意支持国民军，苏联援助共和政府", "source": "spain" },
-      { "from": "1939-04-01", "status": "neutral", "note": "内战结束；二战中保持中立（1940—1943 年自称“非交战国”，派蓝色师团赴东线）", "source": "spain" }
-    ],
-    "Finland": [
-      { "from": "1939-11-30", "status": "contested", "note": "冬季战争：苏联进攻芬兰", "source": "winter" },
-      { "from": "1940-03-13", "status": "neutral", "note": "《莫斯科和约》，割让卡累利阿地峡等领土", "source": "winter" },
-      { "from": "1941-06-25", "status": "axis-aligned", "note": "继续战争：与德国并肩对苏作战（芬方称“共同交战国”）", "source": "t1941" },
-      { "from": "1944-06-09", "status": "contested", "note": "苏军发动维堡—彼得罗扎沃茨克攻势", "source": "finland" },
-      { "from": "1944-09-19", "status": "neutral", "note": "《莫斯科停战协定》，随后在拉普兰与德军作战", "source": "finland" }
-    ],
-    "Estonia": [
-      { "from": "1940-06-17", "status": "comintern", "note": "苏军进驻，8 月并入苏联", "source": "baltic" },
-      { "from": "1941-07-07", "status": "contested", "source": "t1941" },
-      { "from": "1941-08-28", "status": "axis-occupied", "note": "8 月 28 日塔林失守", "source": "t1941" },
-      { "from": "1944-02-02", "status": "contested", "note": "苏军攻至纳尔瓦", "source": "baltic" },
-      { "from": "1944-11-24", "status": "comintern", "note": "苏军收复全境", "source": "baltic" }
-    ],
-    "Latvia": [
-      { "from": "1940-06-17", "status": "comintern", "note": "苏军进驻，8 月并入苏联", "source": "baltic" },
-      { "from": "1941-06-22", "status": "contested", "source": "t1941" },
-      { "from": "1941-07-08", "status": "axis-occupied", "note": "7 月 1 日德军进入里加", "source": "t1941" },
-      { "from": "1944-07-27", "status": "contested", "note": "苏军攻入拉脱维亚；10 月收复里加，德军在库尔兰坚守到战争结束", "source": "baltic" },
-      { "from": "1945-05-09", "status": "comintern", "note": "库尔兰包围圈德军投降", "source": "veday" }
-    ],
-    "Lithuania": [
-      { "from": "1940-06-15", "status": "comintern", "note": "苏军进驻，8 月并入苏联", "source": "baltic" },
-      { "from": "1941-06-22", "status": "contested", "source": "t1941" },
-      { "from": "1941-06-28", "status": "axis-occupied", "note": "一周内被德军占领", "source": "t1941" },
-      { "from": "1944-07-04", "status": "contested", "note": "巴格拉季昂行动：苏军攻入立陶宛，7 月 13 日收复维尔纽斯", "source": "bagration" },
-      { "from": "1945-01-28", "status": "comintern", "note": "克莱佩达收复", "source": "baltic" }
-    ],
-    "USSR": [
-      { "from": "1937-07-07", "status": "comintern", "note": "1939 年 8 月 23 日签订《苏德互不侵犯条约》；同年在诺门罕击败日军" },
-      { "from": "1941-06-22", "status": "contested", "note": "巴巴罗萨行动：德军入侵；1941 年底推进至列宁格勒—莫斯科—罗斯托夫一线，1942 年夏攻至斯大林格勒与高加索", "source": "t1941" },
-      { "from": "1944-08-29", "status": "comintern", "note": "巴格拉季昂与利沃夫—桑多梅日攻势后，苏联 1941 年前的领土基本收复；1945 年 8 月 8 日对日宣战", "source": "bagration" }
-    ],
-    "Mongolia": [{ "from": "1937-07-07", "status": "comintern-aligned", "note": "蒙古人民共和国，苏联卫星国；1939 年与苏军在诺门罕击退日军，1945 年 8 月对日宣战" }],
-    "Romania": [
-      { "from": "1940-11-23", "status": "axis-aligned", "note": "加入三国同盟；同年已被迫割让比萨拉比亚与北布科维纳（予苏联）、北特兰西瓦尼亚（予匈牙利）、南多布罗加（予保加利亚）", "source": "tripartite" },
-      { "from": "1944-04-08", "status": "contested", "note": "苏军攻入罗马尼亚北部", "source": "romania" },
-      { "from": "1944-08-23", "status": "comintern-aligned", "note": "米哈伊一世发动政变，罗马尼亚倒戈对德作战，苏军随即进驻", "source": "romania" }
-    ],
-    "Hungary": [
-      { "from": "1940-11-20", "status": "axis-aligned", "note": "加入三国同盟，1941 年 6 月对苏作战", "source": "tripartite" },
-      { "from": "1944-03-19", "status": "axis-occupied", "note": "玛格丽特行动：德军占领匈牙利", "source": "hungary" },
-      { "from": "1944-09-23", "status": "contested", "note": "苏军攻入匈牙利；12 月起围攻布达佩斯", "source": "hungary" },
-      { "from": "1945-04-04", "status": "comintern-occupied", "note": "苏军占领匈牙利全境", "source": "hungary" }
-    ],
-    "Bulgaria": [
-      { "from": "1941-03-01", "status": "axis-aligned", "note": "加入三国同盟，德军借道进攻希腊（保加利亚未对苏宣战）", "source": "tripartite" },
-      { "from": "1944-09-09", "status": "comintern-aligned", "note": "苏军进入保加利亚，祖国阵线发动政变并对德宣战", "source": "bulgaria" }
-    ],
-    "Yugoslavia": [
-      { "from": "1941-04-06", "status": "contested", "note": "3 月 27 日政变推翻亲轴心政府后遭多路入侵", "source": "bk" },
-      { "from": "1941-04-17", "status": "axis-occupied", "note": "投降后被德、意、匈、保瓜分，另立克罗地亚独立国；游击战贯穿整个占领期", "source": "bk" },
-      { "from": "1944-09-28", "status": "contested", "note": "贝尔格莱德攻势：南斯拉夫游击队与苏军反攻", "source": "ww2" },
-      { "from": "1945-05-15", "status": "allies", "note": "南斯拉夫全境解放", "source": "veday" }
-    ],
-    "Greece": [
-      { "from": "1940-10-28", "status": "allies", "note": "意军自阿尔巴尼亚入侵，希军反攻入阿尔巴尼亚南部", "source": "bk" },
-      { "from": "1941-04-06", "status": "contested", "note": "德军自保加利亚入侵", "source": "bk" },
-      { "from": "1941-04-30", "status": "axis-occupied", "note": "4 月 27 日德军进入雅典，英联邦远征军撤离本土", "source": "bk" },
-      { "from": "1944-10-12", "status": "allies", "note": "德军撤离雅典，希腊解放", "source": "ww2" }
-    ],
-    "Greece (Crete)": [
-      { "from": "1940-10-28", "status": "allies", "note": "英军进驻苏达湾", "source": "bk" },
-      { "from": "1941-05-20", "status": "contested", "note": "水星行动：德军空降", "source": "cr" },
-      { "from": "1941-06-01", "status": "axis-occupied", "note": "英联邦守军撤离", "source": "cr" },
-      { "from": "1945-05-09", "status": "allies", "note": "克里特德军投降", "source": "veday" }
-    ],
-    "Turkey": [{ "from": "1945-02-23", "status": "allies", "note": "对德、日宣战", "source": "unitednations" }],
-    "Egypt": [
-      { "from": "1939-09-03", "status": "allies-aligned", "note": "名义独立，英军依条约驻扎；与德国断交", "source": "desert" },
-      { "from": "1940-09-13", "status": "contested", "note": "意军自利比亚入侵埃及", "source": "desert" },
-      { "from": "1940-12-16", "status": "allies-aligned", "note": "罗盘行动将意军逐出埃及", "source": "desert" },
-      { "from": "1942-06-23", "status": "contested", "note": "隆美尔攻入埃及，推进至阿拉曼", "source": "desert" },
-      { "from": "1942-11-11", "status": "allies-aligned", "note": "第二次阿拉曼战役后轴心国军队被逐出埃及", "source": "alamein" },
-      { "from": "1945-02-24", "status": "allies", "note": "对德、日宣战", "source": "unitednations" }
-    ],
-    "Sudan": [
-      { "from": "1939-09-03", "status": "allies", "note": "英埃共管" },
-      { "from": "1940-07-04", "status": "contested", "note": "意军攻占卡萨拉", "source": "eastafrica" },
-      { "from": "1941-01-19", "status": "allies", "note": "英军收复卡萨拉，转入反攻", "source": "eastafrica" }
-    ],
-    "Mesopotamia (GB)": [
-      { "from": "1939-09-03", "status": "allies-aligned", "note": "伊拉克王国，依英伊条约与德国断交", "source": "iraq" },
-      { "from": "1941-05-02", "status": "contested", "note": "英伊战争", "source": "iraq" },
-      { "from": "1941-05-31", "status": "allies-occupied", "note": "英军占领巴格达；1943 年 1 月伊拉克对轴心国宣战", "source": "iraq" }
-    ],
-    "Iran": [{ "from": "1941-08-25", "status": "allies-occupied", "note": "英苏联合入侵：北部由苏军、南部由英军占领，成为援苏通道", "source": "iran" }],
-    "Saudi Arabia": [{ "from": "1945-03-01", "status": "allies", "note": "对德、日宣战", "source": "unitednations" }],
-    "Nepal": [{ "from": "1939-09-04", "status": "allies", "note": "向英国派兵参战" }],
-    "British Raj": [
-      { "from": "1939-09-03", "status": "allies" },
-      { "from": "1944-03-08", "status": "contested", "note": "日军发动乌号作战，进攻英帕尔与科希马", "source": "burma" },
-      { "from": "1944-07-03", "status": "allies", "note": "日军败退", "source": "burma" }
-    ],
-    "Burma": [
-      { "from": "1939-09-03", "status": "allies", "note": "1937 年起为单独的英国殖民地" },
-      { "from": "1942-01-16", "status": "contested", "note": "日军自泰国攻入缅甸", "source": "burma" },
-      { "from": "1942-05-20", "status": "axis-occupied", "note": "英印军撤入印度，中国远征军退入云南与印度", "source": "burma" },
-      { "from": "1944-12-03", "status": "contested", "note": "盟军渡过钦敦江，全面反攻缅甸", "source": "burma" },
-      { "from": "1945-05-03", "status": "allies", "note": "盟军收复仰光", "source": "burma" }
-    ],
-    "Malaysia": [
-      { "from": "1939-09-03", "status": "allies", "note": "英属马来亚与北婆罗洲" },
-      { "from": "1941-12-08", "status": "contested", "note": "日军在哥打巴鲁登陆，马来亚战役开始", "source": "malaya" },
-      { "from": "1942-02-15", "status": "axis-occupied", "note": "新加坡英军投降", "source": "malaya" }
-    ],
-    "Brunei": [
-      { "from": "1939-09-03", "status": "allies", "note": "英国保护国" },
-      { "from": "1941-12-16", "status": "axis-occupied", "source": "malaya" }
-    ],
-    "Hong Kong": [
-      { "from": "1939-09-03", "status": "allies" },
-      { "from": "1941-12-08", "status": "contested", "note": "香港保卫战", "source": "pacific" },
-      { "from": "1941-12-25", "status": "axis-occupied", "note": "港英政府投降", "source": "pacific" }
-    ],
-    "Siam": [
-      { "from": "1941-12-08", "status": "contested", "note": "日军登陆，当日停火", "source": "thailand" },
-      { "from": "1941-12-21", "status": "axis-aligned", "note": "与日本缔结同盟，1942 年 1 月对英美宣战", "source": "thailand" },
-      { "from": "1945-08-16", "status": "neutral", "note": "宣布对英美宣战无效", "source": "thailand" }
-    ],
-    "Philippines": [
-      { "from": "1941-12-08", "status": "contested", "note": "日军空袭克拉克机场并登陆吕宋", "source": "philippines1" },
-      { "from": "1942-05-06", "status": "axis-occupied", "note": "科雷希多岛美军投降", "source": "philippines1" },
-      { "from": "1944-10-20", "status": "contested", "note": "美军登陆莱特岛", "source": "philippines2" },
-      { "from": "1945-07-05", "status": "allies", "note": "麦克阿瑟宣布菲律宾解放", "source": "philippines2" }
-    ],
-    "Guam": [
-      { "from": "1941-12-08", "status": "contested", "source": "pacific" },
-      { "from": "1941-12-10", "status": "axis-occupied", "source": "pacific" },
-      { "from": "1944-07-21", "status": "contested", "note": "美军登陆关岛", "source": "marianas" },
-      { "from": "1944-08-10", "status": "allies", "source": "marianas" }
-    ],
-    "Saipan": [
-      { "from": "1937-07-07", "status": "axis", "note": "日本的南洋委任统治地" },
-      { "from": "1944-06-15", "status": "contested", "note": "美军登陆塞班岛", "source": "marianas" },
-      { "from": "1944-07-09", "status": "allies-occupied", "note": "美军占领塞班岛，B-29 由此轰炸日本本土", "source": "marianas" }
-    ],
-    "Gilbert and Ellice Islands": [
-      { "from": "1939-09-03", "status": "allies" },
-      { "from": "1941-12-10", "status": "axis-occupied", "note": "日军占领吉尔伯特群岛", "source": "pacific" },
-      { "from": "1943-11-20", "status": "contested", "note": "美军登陆塔拉瓦", "source": "pacific" },
-      { "from": "1943-11-23", "status": "allies", "source": "pacific" }
-    ],
-    "Empire of Japan": [
-      { "from": "1937-07-07", "status": "axis", "note": "1936 年签订《反共产国际协定》，1940 年加入三国同盟；版图含朝鲜、台湾、南库页岛及伪满洲国", "source": "anticomintern" },
-      { "from": "1945-08-09", "status": "contested", "note": "苏联对日宣战，攻入中国东北；8 月 6 日、9 日广岛、长崎遭原子弹轰炸", "source": "manchuria" },
-      { "from": "1945-09-02", "status": "allies-occupied", "note": "签署投降书，盟军占领日本", "source": "surrender" }
-    ],
-    "China": [
-      { "from": "1937-07-07", "status": "contested", "note": "卢沟桥事变，全面抗战爆发；日军先后占领华北、华东与华南沿海，中国军民坚持抗战至 1945 年", "source": "sinojapanese" },
-      { "from": "1945-08-15", "status": "allies", "note": "日本宣布投降，抗日战争胜利", "source": "sinojapanese" }
-    ],
-    "Xinjiang": [
-      { "from": "1937-07-07", "status": "comintern-aligned", "note": "盛世才统治，依附苏联" },
-      { "from": "1942-10-01", "status": "allies", "note": "盛世才转向国民政府" }
-    ],
-    "Ceylon": [{ "from": "1939-09-03", "status": "allies", "note": "英国直辖殖民地，1942 年 4 月遭日本舰载机空袭" }],
-    "Australia": [{ "from": "1939-09-03", "status": "allies", "note": "1942 年 2 月起达尔文等北部港口多次遭日军空袭" }],
-    "New Guinea (Australia)": [
-      { "from": "1939-09-03", "status": "allies", "note": "澳大利亚管辖的巴布亚与新几内亚委任统治地" },
-      { "from": "1942-01-23", "status": "contested", "note": "日军攻占拉包尔，新几内亚战役开始，战斗持续到 1945 年", "source": "newguinea" },
-      { "from": "1945-08-15", "status": "allies", "note": "日本宣布投降，新几内亚与布干维尔的战事结束", "source": "newguinea" }
-    ],
-    "Solomon Islands": [
-      { "from": "1939-09-03", "status": "allies", "note": "英属所罗门群岛保护地" },
-      { "from": "1942-05-03", "status": "axis-occupied", "note": "日军占领图拉吉", "source": "guadalcanal" },
-      { "from": "1942-08-07", "status": "contested", "note": "美军登陆瓜达尔卡纳尔岛", "source": "guadalcanal" },
-      { "from": "1943-10-07", "status": "allies", "note": "新乔治亚群岛战役结束（布干维尔岛属澳属新几内亚）", "source": "guadalcanal" }
-    ],
-    "New Zealand": [{ "from": "1939-09-03", "status": "allies" }],
-    "Fiji": [{ "from": "1939-09-03", "status": "allies" }],
-    "Canada": [{ "from": "1939-09-10", "status": "allies" }],
-    "Dominion of Newfoundland": [{ "from": "1939-09-03", "status": "allies" }],
-    "Union of South Africa": [{ "from": "1939-09-06", "status": "allies" }],
-    "Liberia": [{ "from": "1944-01-27", "status": "allies", "note": "对德、日宣战", "source": "unitednations" }],
-    "United States": [{ "from": "1941-12-08", "status": "allies", "note": "珍珠港事件后对日宣战；12 月 11 日德、意对美宣战", "source": "pearl" }],
-    "Mexico": [{ "from": "1942-05-22", "status": "allies", "source": "latam" }],
-    "Brazil": [{ "from": "1942-08-22", "status": "allies", "note": "1944 年派远征军赴意大利作战", "source": "latam" }],
-    "Cuba": [{ "from": "1941-12-09", "status": "allies", "source": "latam" }],
-    "Dominican Republic": [{ "from": "1941-12-11", "status": "allies", "source": "latam" }],
-    "Haiti": [{ "from": "1941-12-08", "status": "allies", "source": "latam" }],
-    "Guatemala": [{ "from": "1941-12-09", "status": "allies", "source": "latam" }],
-    "Honduras": [{ "from": "1941-12-08", "status": "allies", "source": "latam" }],
-    "Nicaragua": [{ "from": "1941-12-09", "status": "allies", "source": "latam" }],
-    "El Salvador": [{ "from": "1941-12-08", "status": "allies", "source": "latam" }],
-    "Costa Rica": [{ "from": "1941-12-08", "status": "allies", "source": "latam" }],
-    "Panama": [{ "from": "1941-12-07", "status": "allies", "source": "latam" }],
-    "Colombia": [{ "from": "1943-11-26", "status": "allies", "source": "latam" }],
-    "Bolivia": [{ "from": "1943-04-07", "status": "allies", "source": "latam" }],
-    "Ecuador": [{ "from": "1945-02-02", "status": "allies", "source": "latam" }],
-    "Paraguay": [{ "from": "1945-02-07", "status": "allies", "source": "latam" }],
-    "Peru": [{ "from": "1945-02-12", "status": "allies", "source": "latam" }],
-    "Venezuela": [{ "from": "1945-02-16", "status": "allies", "source": "latam" }],
-    "Uruguay": [
-      { "from": "1942-01-25", "status": "neutral", "note": "里约热内卢外长会议期间与轴心国断交，仍未参战（1939 年 12 月“施佩伯爵”号曾在蒙得维的亚港停留 72 小时）", "source": "latam" },
-      { "from": "1945-02-22", "status": "allies", "source": "latam" }
-    ],
-    "Argentina": [
-      { "from": "1944-01-26", "status": "neutral", "note": "与德、日断交，仍保持中立（1939 年 12 月“施佩伯爵”号自沉后，其官兵被送往阿根廷拘留）", "source": "latam" },
-      { "from": "1945-03-27", "status": "allies", "source": "latam" }
-    ],
-    "Chile": [{ "from": "1945-04-11", "status": "allies", "note": "对日宣战", "source": "latam" }]
-  },
-  "labels": [
-    { "id": "Germany", "zh": "德国", "at": [10.6, 50.6], "size": 22 },
-    { "id": "Poland (W)", "zh": "波兰", "at": [22.3, 52.9], "size": 16 },
-    { "id": "France (S)", "zh": "法国", "at": [2.4, 46.4], "size": 22 },
-    { "id": "United Kingdom", "zh": "英国", "at": [-2.4, 54.7], "size": 16 },
-    { "id": "Ireland", "zh": "爱尔兰", "at": [-8.0, 53.2], "size": 11 },
-    { "id": "Spain", "zh": "西班牙", "at": [-3.7, 40.0], "size": 20 },
-    { "id": "Portugal", "zh": "葡萄牙", "at": [-8.1, 39.7], "size": 10 },
-    { "id": "Italy", "zh": "意大利", "at": [13.4, 42.4], "size": 17 },
-    { "id": "Switzerland", "zh": "瑞士", "at": [8.2, 46.8], "size": 9 },
-    { "id": "Belgium", "zh": "比利时", "at": [4.7, 50.55], "size": 8 },
-    { "id": "Netherlands", "zh": "荷兰", "at": [5.7, 52.3], "size": 9 },
-    { "id": "Denmark", "zh": "丹麦", "at": [9.2, 56.1], "size": 10 },
-    { "id": "Norway", "zh": "挪威", "at": [8.8, 61.0], "size": 15 },
-    { "id": "Sweden", "zh": "瑞典", "at": [15.2, 58.8], "size": 16 },
-    { "id": "Finland", "zh": "芬兰", "at": [26.2, 62.8], "size": 16 },
-    { "id": "Estonia", "zh": "爱沙尼亚", "at": [25.9, 58.75], "size": 8 },
-    { "id": "Latvia", "zh": "拉脱维亚", "at": [25.6, 56.9], "size": 8 },
-    { "id": "Lithuania", "zh": "立陶宛", "at": [23.9, 55.4], "size": 8 },
-    { "id": "USSR", "zh": "苏联", "at": [40.5, 57.5], "size": 26 },
-    { "id": "USSR", "zh": "苏 联", "at": [98, 62], "size": 36 },
-    { "id": "Czechoslovakia", "zh": "捷克斯洛伐克", "at": [17.6, 49.25], "size": 8 },
-    { "id": "Hungary", "zh": "匈牙利", "at": [19.3, 47.1], "size": 10 },
-    { "id": "Romania", "zh": "罗马尼亚", "at": [25.0, 45.9], "size": 13 },
-    { "id": "Yugoslavia", "zh": "南斯拉夫", "at": [18.6, 44.5], "size": 12 },
-    { "id": "Bulgaria", "zh": "保加利亚", "at": [25.3, 42.75], "size": 10 },
-    { "id": "Greece", "zh": "希腊", "at": [22.1, 39.4], "size": 12 },
-    { "id": "Albania", "zh": "阿尔巴尼亚", "at": [19.75, 40.55], "size": 7 },
-    { "id": "Turkey", "zh": "土耳其", "at": [33.5, 39.2], "size": 18 },
-    { "id": "Libya", "zh": "意属利比亚", "at": [18.0, 28.5], "size": 13 },
-    { "id": "Algeria (France)", "zh": "法属阿尔及利亚", "at": [2.5, 30.5], "size": 12 },
-    { "id": "Tunisia", "zh": "突尼斯", "at": [9.4, 33.9], "size": 8 },
-    { "id": "Morocco (France)", "zh": "法属摩洛哥", "at": [-6.0, 32.6], "size": 10 },
-    { "id": "Iceland", "zh": "冰岛", "at": [-18.6, 64.9], "size": 10 },
-    { "id": "Greenland", "zh": "格陵兰", "at": [-41, 73], "size": 15 },
-    { "id": "Egypt", "zh": "埃及", "at": [29.8, 26.5], "size": 15 },
-    { "id": "Sudan", "zh": "英埃苏丹", "at": [30, 15], "size": 15 },
-    { "id": "Ethiopia (Italy)", "zh": "埃塞俄比亚", "at": [39.5, 8.5], "size": 13 },
-    { "id": "Eritrea (Italy)", "zh": "厄立特里亚", "at": [38.6, 15.6], "size": 7 },
-    { "id": "Italian Somaliland", "zh": "意属索马里", "at": [45.5, 4.5], "size": 8 },
-    { "id": "French West Africa", "zh": "法属西非", "at": [-2, 17], "size": 22 },
-    { "id": "French Equatorial Africa", "zh": "法属赤道非洲", "at": [19.5, 12.5], "size": 13 },
-    { "id": "French Cameroons", "zh": "喀麦隆", "at": [12.5, 5.5], "size": 7 },
-    { "id": "Nigeria", "zh": "尼日利亚", "at": [8, 9.6], "size": 11 },
-    { "id": "Liberia", "zh": "利比里亚", "at": [-9.4, 6.5], "size": 7 },
-    { "id": "Spanish Sahara", "zh": "西属撒哈拉", "at": [-13.2, 24.6], "size": 7 },
-    { "id": "Belgian Congo", "zh": "比属刚果", "at": [23.5, -2.8], "size": 15 },
-    { "id": "Kenya", "zh": "肯尼亚", "at": [37.9, 0.4], "size": 9 },
-    { "id": "Tanzania, United Republic of", "zh": "坦噶尼喀", "at": [34.8, -6.3], "size": 10 },
-    { "id": "Angola (Portugal)", "zh": "安哥拉", "at": [17.5, -12.5], "size": 12 },
-    { "id": "Northern Rhodesia", "zh": "北罗得西亚", "at": [27.5, -13.8], "size": 9 },
-    { "id": "Southern Rhodesia", "zh": "南罗得西亚", "at": [29.8, -19.2], "size": 8 },
-    { "id": "Mozambique (Portugal)", "zh": "莫桑比克", "at": [37.5, -15.5], "size": 10 },
-    { "id": "Madagascar (France)", "zh": "马达加斯加", "at": [46.8, -19.5], "size": 10 },
-    { "id": "Union of South Africa", "zh": "南非联邦", "at": [24.5, -30], "size": 15 },
-    { "id": "Syria (France)", "zh": "叙利亚", "at": [38.4, 35.0], "size": 9 },
-    { "id": "Mandatory Palestine (GB)", "zh": "巴勒斯坦", "at": [34.9, 31.2], "size": 6 },
-    { "id": "Jordan", "zh": "外约旦", "at": [36.8, 31.0], "size": 7 },
-    { "id": "Mesopotamia (GB)", "zh": "伊拉克", "at": [43.6, 33.2], "size": 11 },
-    { "id": "Saudi Arabia", "zh": "沙特阿拉伯", "at": [45, 23.8], "size": 15 },
-    { "id": "Yemen", "zh": "也门", "at": [47.5, 15.6], "size": 9 },
-    { "id": "Muscat and Oman", "zh": "阿曼", "at": [56.5, 20.5], "size": 9 },
-    { "id": "Iran", "zh": "伊朗", "at": [54, 32.5], "size": 16 },
-    { "id": "Afghanistan", "zh": "阿富汗", "at": [66, 33.8], "size": 12 },
-    { "id": "British Raj", "zh": "英属印度", "at": [78.5, 22.5], "size": 24 },
-    { "id": "Nepal", "zh": "尼泊尔", "at": [84, 28.3], "size": 7 },
-    { "id": "Ceylon", "zh": "锡兰", "at": [80.7, 7.7], "size": 7 },
-    { "id": "Burma", "zh": "缅甸", "at": [96, 21.5], "size": 12 },
-    { "id": "Siam", "zh": "暹罗", "at": [101, 15.5], "size": 11 },
-    { "id": "French Indo-China", "zh": "法属印度支那", "at": [105.6, 17.8], "size": 9 },
-    { "id": "Malaysia", "zh": "英属马来亚", "at": [102.2, 4.2], "size": 8 },
-    { "id": "Dutch East Indies", "zh": "荷属东印度", "at": [114, -1.2], "size": 15 },
-    { "id": "Philippines", "zh": "菲律宾", "at": [122.5, 12.5], "size": 10 },
-    { "id": "China", "zh": "中 国", "at": [106, 33.5], "size": 30 },
-    { "id": "Xinjiang", "zh": "新疆", "at": [85, 41.8], "size": 14 },
-    { "id": "Tibet", "zh": "西藏", "at": [88, 32], "size": 14 },
-    { "id": "Mongolia", "zh": "蒙古", "at": [103, 46.8], "size": 18 },
-    { "id": "Empire of Japan", "zh": "日本", "at": [138.8, 36.8], "size": 15 },
-    { "id": "Empire of Japan", "zh": "伪满洲国", "at": [126.5, 45.8], "size": 14 },
-    { "id": "Empire of Japan", "zh": "朝鲜", "at": [127.4, 40.2], "size": 10 },
-    { "id": "Empire of Japan", "zh": "台湾", "at": [121.0, 23.7], "size": 7 },
-    { "id": "Australia", "zh": "澳大利亚", "at": [134, -25], "size": 26 },
-    { "id": "New Guinea (Australia)", "zh": "新几内亚", "at": [144.5, -6.2], "size": 9 },
-    { "id": "Solomon Islands", "zh": "所罗门群岛", "at": [159.5, -8.0], "size": 7 },
-    { "id": "New Zealand", "zh": "新西兰", "at": [172.5, -41.5], "size": 10 },
-    { "id": "United States", "zh": "美国", "at": [-98, 39], "size": 26 },
-    { "id": "United States", "zh": "阿拉斯加", "at": [-152, 64.5], "size": 12 },
-    { "id": "United States", "zh": "夏威夷", "at": [-156.5, 21.6], "size": 7 },
-    { "id": "Canada", "zh": "加拿大", "at": [-102, 58], "size": 24 },
-    { "id": "Dominion of Newfoundland", "zh": "纽芬兰", "at": [-61, 53.5], "size": 9 },
-    { "id": "Mexico", "zh": "墨西哥", "at": [-102.5, 24], "size": 14 },
-    { "id": "Cuba", "zh": "古巴", "at": [-79, 21.8], "size": 7 },
-    { "id": "Colombia", "zh": "哥伦比亚", "at": [-73.5, 4], "size": 10 },
-    { "id": "Venezuela", "zh": "委内瑞拉", "at": [-66, 7.5], "size": 9 },
-    { "id": "Brazil", "zh": "巴西", "at": [-52, -9], "size": 22 },
-    { "id": "Peru", "zh": "秘鲁", "at": [-75, -9.5], "size": 10 },
-    { "id": "Bolivia", "zh": "玻利维亚", "at": [-64.5, -16.5], "size": 9 },
-    { "id": "Argentina", "zh": "阿根廷", "at": [-65, -35], "size": 14 },
-    { "id": "Chile", "zh": "智利", "at": [-71, -30], "size": 8 },
-    { "id": "@sea", "zh": "大 西 洋", "at": [-10.5, 47.5], "size": 18 },
-    { "id": "@sea", "zh": "大 西 洋", "at": [-38, 30], "size": 30 },
-    { "id": "@sea", "zh": "南 大 西 洋", "at": [-14, -23], "size": 30 },
-    { "id": "@sea", "zh": "拉普拉塔河口", "at": [-56.3, -35.6], "size": 6 },
-    { "id": "Uruguay", "zh": "乌拉圭", "at": [-56, -32.8], "size": 6 },
-    { "id": "Paraguay", "zh": "巴拉圭", "at": [-58.2, -23.2], "size": 7 },
-    { "id": "@sea", "zh": "北 海", "at": [3.6, 56.6], "size": 15 },
-    { "id": "@sea", "zh": "挪 威 海", "at": [3.0, 66.0], "size": 15 },
-    { "id": "@sea", "zh": "巴伦支海", "at": [42, 72.5], "size": 11 },
-    { "id": "@sea", "zh": "波 罗 的 海", "at": [18.6, 56.1], "size": 10 },
-    { "id": "@sea", "zh": "地 中 海", "at": [17.0, 34.6], "size": 17 },
-    { "id": "@sea", "zh": "黑 海", "at": [34.4, 43.2], "size": 15 },
-    { "id": "@sea", "zh": "里 海", "at": [50.6, 42], "size": 8 },
-    { "id": "@sea", "zh": "比斯开湾", "at": [-4.6, 45.4], "size": 9 },
-    { "id": "@sea", "zh": "爱琴海", "at": [25.0, 38.9], "size": 8 },
-    { "id": "@sea", "zh": "红 海", "at": [38.6, 20.5], "size": 7 },
-    { "id": "@sea", "zh": "波斯湾", "at": [51.5, 27.0], "size": 6 },
-    { "id": "@sea", "zh": "阿拉伯海", "at": [63.5, 15], "size": 13 },
-    { "id": "@sea", "zh": "孟加拉湾", "at": [89, 15], "size": 12 },
-    { "id": "@sea", "zh": "印 度 洋", "at": [78, -18], "size": 30 },
-    { "id": "@sea", "zh": "南 海", "at": [114, 13.5], "size": 12 },
-    { "id": "@sea", "zh": "东 海", "at": [125.5, 29.5], "size": 9 },
-    { "id": "@sea", "zh": "黄 海", "at": [123.8, 36.2], "size": 8 },
-    { "id": "@sea", "zh": "日 本 海", "at": [134.5, 40.5], "size": 10 },
-    { "id": "@sea", "zh": "鄂霍次克海", "at": [150, 53.5], "size": 10 },
-    { "id": "@sea", "zh": "菲律宾海", "at": [132, 18.5], "size": 13 },
-    { "id": "@sea", "zh": "珊 瑚 海", "at": [155, -16], "size": 12 },
-    { "id": "@sea", "zh": "塔斯曼海", "at": [161, -38], "size": 10 },
-    { "id": "@sea", "zh": "太 平 洋", "at": [178, 18], "size": 36 },
-    { "id": "@sea", "zh": "太 平 洋", "at": [-128, 16], "size": 24 },
-    { "id": "@sea", "zh": "白 令 海", "at": [-178, 58], "size": 10 },
-    { "id": "@sea", "zh": "北 冰 洋", "at": [100, 78.3], "size": 14 },
-    { "id": "@sea", "zh": "哈德逊湾", "at": [-85, 59], "size": 10 },
-    { "id": "@sea", "zh": "墨西哥湾", "at": [-90, 25], "size": 10 },
-    { "id": "@sea", "zh": "加勒比海", "at": [-75, 15], "size": 11 }
-  ],
-  "dispatches": [
-    { "date": "1937-07-07", "text": "卢沟桥事变，中国全面抗战爆发" },
-    { "date": "1937-08-13", "text": "淞沪会战爆发，中日两军在上海激战" },
-    { "date": "1937-11-12", "text": "上海失守，中国军队西撤" },
-    { "date": "1937-12-13", "text": "日军攻陷南京，随即制造南京大屠杀" },
-    { "date": "1938-03-12", "text": "德国吞并奥地利" },
-    { "date": "1938-04-07", "text": "台儿庄战役，中国军队击退日军" },
-    { "date": "1938-09-30", "text": "慕尼黑协定：苏台德区割让德国" },
-    { "date": "1938-10-25", "text": "武汉会战结束，日军占领武汉" },
-    { "date": "1939-03-15", "text": "德军占领捷克" },
-    { "date": "1939-04-01", "text": "西班牙内战结束" },
-    { "date": "1939-04-07", "text": "意大利入侵阿尔巴尼亚" },
-    { "date": "1939-05-11", "text": "诺门罕战役爆发，苏蒙军队与日军交战" },
-    { "date": "1939-08-23", "text": "苏德签订互不侵犯条约，附有瓜分东欧的秘密议定书" },
-    { "date": "1939-09-01", "text": "德军越境进攻波兰" },
-    { "date": "1939-09-03", "text": "英国、法国对德宣战" },
-    { "date": "1939-09-17", "text": "苏军自东越过波兰边境" },
-    { "date": "1939-09-28", "text": "华沙投降；德苏签订边界友好条约" },
-    { "date": "1939-10-06", "text": "科克战斗结束，波兰战役落幕" },
-    { "date": "1939-11-30", "text": "苏联进攻芬兰，冬季战争爆发" },
-    { "date": "1939-12-13", "text": "拉普拉塔河口海战：英国巡洋舰围攻“施佩伯爵”号，该舰退入蒙得维的亚" },
-    { "date": "1939-12-17", "text": "“施佩伯爵”号在河口外自沉" },
-    { "date": "1940-03-13", "text": "苏芬签订莫斯科和约" },
-    { "date": "1940-04-09", "text": "德军占领丹麦、突袭挪威——威悉演习" },
-    { "date": "1940-05-10", "text": "德军进攻荷兰、比利时、卢森堡与法国——黄色方案" },
-    { "date": "1940-05-15", "text": "荷兰投降" },
-    { "date": "1940-05-28", "text": "比利时投降" },
-    { "date": "1940-06-04", "text": "敦刻尔克撤退结束，三十余万盟军渡过海峡" },
-    { "date": "1940-06-10", "text": "意大利对英法宣战；挪威本土停止抵抗" },
-    { "date": "1940-06-14", "text": "德军进入巴黎" },
-    { "date": "1940-06-22", "text": "法德在贡比涅签署停战协定" },
-    { "date": "1940-07-10", "text": "海峡上空的船队空战开始——不列颠空战" },
-    { "date": "1940-08-03", "text": "波罗的海三国陆续被并入苏联" },
-    { "date": "1940-08-13", "text": "鹰日：德国空军全力攻击英国机场" },
-    { "date": "1940-09-07", "text": "德国空军转向轰炸伦敦" },
-    { "date": "1940-09-13", "text": "意军自利比亚入侵埃及" },
-    { "date": "1940-09-15", "text": "不列颠空战日，德军昼间空袭遭重创" },
-    { "date": "1940-09-27", "text": "德意日签订三国同盟条约" },
-    { "date": "1940-10-28", "text": "意军自阿尔巴尼亚入侵希腊" },
-    { "date": "1940-10-31", "text": "不列颠空战结束（英方定义）" },
-    { "date": "1940-11-20", "text": "匈牙利、罗马尼亚、斯洛伐克相继加入三国同盟" },
-    { "date": "1940-12-09", "text": "英军在埃及发动罗盘行动" },
-    { "date": "1941-02-12", "text": "隆美尔抵达的黎波里，德国非洲军开始参战" },
-    { "date": "1941-03-01", "text": "保加利亚加入三国同盟" },
-    { "date": "1941-03-27", "text": "贝尔格莱德政变，南斯拉夫退出三国同盟" },
-    { "date": "1941-04-06", "text": "德军入侵南斯拉夫与希腊" },
-    { "date": "1941-04-13", "text": "苏日签订中立条约" },
-    { "date": "1941-04-17", "text": "南斯拉夫军队投降" },
-    { "date": "1941-04-27", "text": "德军进入雅典" },
-    { "date": "1941-05-05", "text": "海尔·塞拉西一世重返亚的斯亚贝巴" },
-    { "date": "1941-05-20", "text": "德军空降克里特——水星行动" },
-    { "date": "1941-06-01", "text": "英联邦守军撤离克里特" },
-    { "date": "1941-06-22", "text": "德军入侵苏联——巴巴罗萨行动" },
-    { "date": "1941-06-25", "text": "芬兰对苏开战，继续战争开始" },
-    { "date": "1941-08-25", "text": "英苏联合进驻伊朗" },
-    { "date": "1941-09-08", "text": "列宁格勒被围" },
-    { "date": "1941-10-02", "text": "德军发动台风行动，进逼莫斯科" },
-    { "date": "1941-12-05", "text": "苏军在莫斯科城下转入反攻" },
-    { "date": "1941-12-07", "text": "日军偷袭珍珠港，太平洋战争爆发" },
-    { "date": "1941-12-08", "text": "日军在马来亚登陆，进攻香港与菲律宾；美、英对日宣战" },
-    { "date": "1941-12-11", "text": "德国、意大利对美国宣战" },
-    { "date": "1941-12-25", "text": "香港沦陷" },
-    { "date": "1942-01-01", "text": "二十六国签署《联合国家宣言》" },
-    { "date": "1942-02-15", "text": "新加坡英军投降" },
-    { "date": "1942-03-09", "text": "荷属东印度投降" },
-    { "date": "1942-05-06", "text": "科雷希多岛美军投降" },
-    { "date": "1942-05-08", "text": "珊瑚海海战结束" },
-    { "date": "1942-06-04", "text": "中途岛海战，日军损失四艘航空母舰" },
-    { "date": "1942-06-21", "text": "隆美尔攻陷托布鲁克" },
-    { "date": "1942-08-07", "text": "美军登陆瓜达尔卡纳尔岛" },
-    { "date": "1942-08-23", "text": "德军空袭斯大林格勒，斯大林格勒战役全面展开" },
-    { "date": "1942-10-23", "text": "第二次阿拉曼战役开始" },
-    { "date": "1942-11-08", "text": "火炬行动：英美军队登陆法属北非" },
-    { "date": "1942-11-19", "text": "苏军发动天王星行动，合围斯大林格勒德军" },
-    { "date": "1943-02-02", "text": "斯大林格勒德军投降" },
-    { "date": "1943-02-09", "text": "日军撤离瓜达尔卡纳尔岛" },
-    { "date": "1943-05-13", "text": "北非轴心国军队投降" },
-    { "date": "1943-07-05", "text": "库尔斯克会战开始" },
-    { "date": "1943-07-10", "text": "盟军登陆西西里" },
-    { "date": "1943-09-08", "text": "意大利宣布停战" },
-    { "date": "1943-11-20", "text": "美军登陆塔拉瓦" },
-    { "date": "1943-11-22", "text": "中美英三国首脑举行开罗会议" },
-    { "date": "1944-01-27", "text": "列宁格勒解围" },
-    { "date": "1944-06-06", "text": "诺曼底登陆" },
-    { "date": "1944-06-15", "text": "美军登陆塞班岛" },
-    { "date": "1944-06-19", "text": "菲律宾海海战" },
-    { "date": "1944-06-22", "text": "苏军发动巴格拉季昂行动" },
-    { "date": "1944-08-01", "text": "华沙起义" },
-    { "date": "1944-08-25", "text": "巴黎解放" },
-    { "date": "1944-10-20", "text": "美军登陆莱特岛" },
-    { "date": "1944-12-16", "text": "德军发动阿登反击" },
-    { "date": "1945-02-19", "text": "美军登陆硫磺岛" },
-    { "date": "1945-04-01", "text": "美军登陆冲绳" },
-    { "date": "1945-04-25", "text": "美苏军队在易北河会师" },
-    { "date": "1945-05-02", "text": "柏林守军投降" },
-    { "date": "1945-05-08", "text": "德国无条件投降，欧洲战事结束" },
-    { "date": "1945-07-26", "text": "中美英发表《波茨坦公告》" },
-    { "date": "1945-08-06", "text": "美国在广岛投下原子弹" },
-    { "date": "1945-08-09", "text": "苏联对日宣战并攻入中国东北；美国在长崎投下原子弹" },
-    { "date": "1945-08-15", "text": "日本宣布无条件投降" },
-    { "date": "1945-09-02", "text": "日本在密苏里号上签署投降书，第二次世界大战结束" }
-  ],
-  "sources": {
-    "ww2": { "title": "World War II", "url": "https://en.wikipedia.org/wiki/World_War_II" },
-    "sinojapanese": { "title": "Second Sino-Japanese War", "url": "https://en.wikipedia.org/wiki/Second_Sino-Japanese_War" },
-    "anticomintern": { "title": "Anti-Comintern Pact", "url": "https://en.wikipedia.org/wiki/Anti-Comintern_Pact" },
-    "spain": { "title": "Spanish Civil War", "url": "https://en.wikipedia.org/wiki/Spanish_Civil_War" },
-    "pl": { "title": "Invasion of Poland", "url": "https://en.wikipedia.org/wiki/Invasion_of_Poland" },
-    "frontier": { "title": "German–Soviet Frontier Treaty (1939-09-28)", "url": "https://en.wikipedia.org/wiki/German%E2%80%93Soviet_Frontier_Treaty" },
-    "steel": { "title": "Pact of Steel", "url": "https://en.wikipedia.org/wiki/Pact_of_Steel" },
-    "winter": { "title": "Winter War", "url": "https://en.wikipedia.org/wiki/Winter_War" },
-    "no": { "title": "Operation Weserübung", "url": "https://en.wikipedia.org/wiki/Operation_Weser%C3%BCbung" },
-    "fr": { "title": "Battle of France", "url": "https://en.wikipedia.org/wiki/Battle_of_France" },
-    "armistice": { "title": "Armistice of 22 June 1940", "url": "https://en.wikipedia.org/wiki/Armistice_of_22_June_1940" },
-    "freefrance": { "title": "Free France", "url": "https://en.wikipedia.org/wiki/Free_France" },
-    "baltic": { "title": "Occupation of the Baltic states", "url": "https://en.wikipedia.org/wiki/Occupation_of_the_Baltic_states" },
-    "tripartite": { "title": "Tripartite Pact", "url": "https://en.wikipedia.org/wiki/Tripartite_Pact" },
-    "bk": { "title": "Balkans campaign (World War II)", "url": "https://en.wikipedia.org/wiki/Balkans_campaign_(World_War_II)" },
-    "cr": { "title": "Battle of Crete", "url": "https://en.wikipedia.org/wiki/Battle_of_Crete" },
-    "t1941": { "title": "Operation Barbarossa", "url": "https://en.wikipedia.org/wiki/Operation_Barbarossa" },
-    "desert": { "title": "Western Desert campaign", "url": "https://en.wikipedia.org/wiki/Western_Desert_campaign" },
-    "alamein": { "title": "Second Battle of El Alamein", "url": "https://en.wikipedia.org/wiki/Second_Battle_of_El_Alamein" },
-    "eastafrica": { "title": "East African campaign (World War II)", "url": "https://en.wikipedia.org/wiki/East_African_campaign_(World_War_II)" },
-    "torch": { "title": "Operation Torch", "url": "https://en.wikipedia.org/wiki/Operation_Torch" },
-    "tunisia": { "title": "Tunisian campaign", "url": "https://en.wikipedia.org/wiki/Tunisian_campaign" },
-    "syria": { "title": "Syria–Lebanon campaign", "url": "https://en.wikipedia.org/wiki/Syria%E2%80%93Lebanon_campaign" },
-    "iraq": { "title": "Anglo-Iraqi War", "url": "https://en.wikipedia.org/wiki/Anglo-Iraqi_War" },
-    "iran": { "title": "Anglo-Soviet invasion of Iran", "url": "https://en.wikipedia.org/wiki/Anglo-Soviet_invasion_of_Iran" },
-    "madagascar": { "title": "Battle of Madagascar", "url": "https://en.wikipedia.org/wiki/Battle_of_Madagascar" },
-    "iceland": { "title": "Invasion of Iceland", "url": "https://en.wikipedia.org/wiki/Invasion_of_Iceland" },
-    "greenland": { "title": "Greenland in World War II", "url": "https://en.wikipedia.org/wiki/Greenland_in_World_War_II" },
-    "italy": { "title": "Italian campaign (World War II)", "url": "https://en.wikipedia.org/wiki/Italian_campaign_(World_War_II)" },
-    "overlord": { "title": "Operation Overlord", "url": "https://en.wikipedia.org/wiki/Operation_Overlord" },
-    "liberation": { "title": "Liberation of France", "url": "https://en.wikipedia.org/wiki/Liberation_of_France" },
-    "bulge": { "title": "Battle of the Bulge", "url": "https://en.wikipedia.org/wiki/Battle_of_the_Bulge" },
-    "bagration": { "title": "Operation Bagration", "url": "https://en.wikipedia.org/wiki/Operation_Bagration" },
-    "finland": { "title": "Moscow Armistice", "url": "https://en.wikipedia.org/wiki/Moscow_Armistice" },
-    "romania": { "title": "King Michael's Coup", "url": "https://en.wikipedia.org/wiki/King_Michael%27s_Coup" },
-    "hungary": { "title": "Hungary in World War II", "url": "https://en.wikipedia.org/wiki/Hungary_in_World_War_II" },
-    "bulgaria": { "title": "Bulgaria in World War II", "url": "https://en.wikipedia.org/wiki/Bulgaria_in_World_War_II" },
-    "veday": { "title": "Victory in Europe Day", "url": "https://en.wikipedia.org/wiki/Victory_in_Europe_Day" },
-    "pacific": { "title": "Pacific War", "url": "https://en.wikipedia.org/wiki/Pacific_War" },
-    "pearl": { "title": "Attack on Pearl Harbor", "url": "https://en.wikipedia.org/wiki/Attack_on_Pearl_Harbor" },
-    "malaya": { "title": "Malayan campaign", "url": "https://en.wikipedia.org/wiki/Malayan_campaign" },
-    "dei": { "title": "Dutch East Indies campaign", "url": "https://en.wikipedia.org/wiki/Dutch_East_Indies_campaign" },
-    "thailand": { "title": "Thailand in World War II", "url": "https://en.wikipedia.org/wiki/Thailand_in_World_War_II" },
-    "indochina": { "title": "Japanese invasion of French Indochina", "url": "https://en.wikipedia.org/wiki/Japanese_invasion_of_French_Indochina" },
-    "philippines1": { "title": "Philippines campaign (1941–1942)", "url": "https://en.wikipedia.org/wiki/Philippines_campaign_(1941%E2%80%931942)" },
-    "philippines2": { "title": "Philippines campaign (1944–1945)", "url": "https://en.wikipedia.org/wiki/Philippines_campaign_(1944%E2%80%931945)" },
-    "burma": { "title": "Burma campaign", "url": "https://en.wikipedia.org/wiki/Burma_campaign" },
-    "newguinea": { "title": "New Guinea campaign", "url": "https://en.wikipedia.org/wiki/New_Guinea_campaign" },
-    "guadalcanal": { "title": "Guadalcanal campaign", "url": "https://en.wikipedia.org/wiki/Guadalcanal_campaign" },
-    "marianas": { "title": "Mariana and Palau Islands campaign", "url": "https://en.wikipedia.org/wiki/Mariana_and_Palau_Islands_campaign" },
-    "manchuria": { "title": "Soviet invasion of Manchuria", "url": "https://en.wikipedia.org/wiki/Soviet_invasion_of_Manchuria" },
-    "surrender": { "title": "Surrender of Japan", "url": "https://en.wikipedia.org/wiki/Surrender_of_Japan" },
-    "latam": { "title": "Latin America during World War II", "url": "https://en.wikipedia.org/wiki/Latin_America_during_World_War_II" },
-    "unitednations": { "title": "Declaration by United Nations", "url": "https://en.wikipedia.org/wiki/Declaration_by_United_Nations" }
+  "comintern": {
+   "zh": "苏联",
+   "en": "Soviet Union",
+   "color": "#9c4632"
   }
+ },
+ "kinds": {
+  "member": {
+   "zh": "{bloc}",
+   "desc": "交战国及其直属领土"
+  },
+  "aligned": {
+   "zh": "{bloc}阵营",
+   "desc": "附庸国、合作政权或共同交战国"
+  },
+  "occupied": {
+   "zh": "{bloc}占领",
+   "desc": "被该阵营军队占领或接管"
+  },
+  "contested": {
+   "zh": "交战中",
+   "desc": "遭到入侵、战斗仍在进行"
+  },
+  "neutral": {
+   "zh": "中立",
+   "desc": "未参战或保持中立"
+  }
+ },
+ "theatres": [
+  {
+   "id": "europe",
+   "zh": "欧洲",
+   "en": "Europe",
+   "view": [
+    -11,
+    43,
+    42,
+    71
+   ]
+  },
+  {
+   "id": "med",
+   "zh": "地中海与非洲",
+   "en": "Mediterranean & Africa",
+   "view": [
+    -12,
+    22,
+    42,
+    46
+   ]
+  },
+  {
+   "id": "atlantic",
+   "zh": "大西洋",
+   "en": "Atlantic",
+   "view": [
+    -75,
+    -48,
+    30,
+    40
+   ]
+  },
+  {
+   "id": "china",
+   "zh": "中国",
+   "en": "China",
+   "view": [
+    97,
+    18,
+    128,
+    46
+   ]
+  },
+  {
+   "id": "pacific",
+   "zh": "太平洋",
+   "en": "Pacific",
+   "view": [
+    100,
+    -25,
+    200,
+    48
+   ]
+  }
+ ],
+ "nations": {
+  "DE": {
+   "zh": "德国",
+   "countries": [
+    "Germany"
+   ]
+  },
+  "IT": {
+   "zh": "意大利",
+   "countries": [
+    "Italy"
+   ]
+  },
+  "JP": {
+   "zh": "日本",
+   "countries": [
+    "Empire of Japan"
+   ]
+  },
+  "HU": {
+   "zh": "匈牙利",
+   "countries": [
+    "Hungary"
+   ]
+  },
+  "RO": {
+   "zh": "罗马尼亚",
+   "countries": [
+    "Romania"
+   ]
+  },
+  "BG": {
+   "zh": "保加利亚",
+   "countries": [
+    "Bulgaria"
+   ]
+  },
+  "SK": {
+   "zh": "斯洛伐克",
+   "countries": [
+    "Czechoslovakia"
+   ]
+  },
+  "FI": {
+   "zh": "芬兰",
+   "countries": [
+    "Finland"
+   ]
+  },
+  "TH": {
+   "zh": "泰国",
+   "countries": [
+    "Siam"
+   ]
+  },
+  "GB": {
+   "zh": "英国",
+   "countries": [
+    "United Kingdom"
+   ]
+  },
+  "UK": {
+   "zh": "英国",
+   "alias": "GB",
+   "countries": [
+    "United Kingdom"
+   ]
+  },
+  "FR": {
+   "zh": "法国",
+   "countries": [
+    "France (N)",
+    "France (S)"
+   ]
+  },
+  "PL": {
+   "zh": "波兰",
+   "countries": [
+    "Poland (W)",
+    "Poland (E)"
+   ]
+  },
+  "SU": {
+   "zh": "苏联",
+   "countries": [
+    "USSR"
+   ]
+  },
+  "US": {
+   "zh": "美国",
+   "countries": [
+    "United States"
+   ]
+  },
+  "CN": {
+   "zh": "中国",
+   "countries": [
+    "China"
+   ]
+  },
+  "BE": {
+   "zh": "比利时",
+   "countries": [
+    "Belgium"
+   ]
+  },
+  "NL": {
+   "zh": "荷兰",
+   "countries": [
+    "Netherlands"
+   ]
+  },
+  "NO": {
+   "zh": "挪威",
+   "countries": [
+    "Norway"
+   ]
+  },
+  "GR": {
+   "zh": "希腊",
+   "countries": [
+    "Greece",
+    "Greece (Crete)"
+   ]
+  },
+  "YU": {
+   "zh": "南斯拉夫",
+   "countries": [
+    "Yugoslavia"
+   ]
+  },
+  "AU": {
+   "zh": "澳大利亚",
+   "countries": [
+    "Australia"
+   ]
+  },
+  "NZ": {
+   "zh": "新西兰",
+   "countries": [
+    "New Zealand"
+   ]
+  },
+  "CA": {
+   "zh": "加拿大",
+   "countries": [
+    "Canada"
+   ]
+  },
+  "IN": {
+   "zh": "英属印度",
+   "countries": [
+    "British Raj"
+   ]
+  },
+  "ZA": {
+   "zh": "南非",
+   "countries": [
+    "Union of South Africa"
+   ]
+  }
+ },
+ "sovereign": {
+  "Mandatory Palestine (GB)": "United Kingdom",
+  "Ceylon": "United Kingdom",
+  "Fiji": "United Kingdom",
+  "Gambia, The": "United Kingdom",
+  "Jamaica": "United Kingdom",
+  "Bahamas": "United Kingdom",
+  "Barbados": "United Kingdom",
+  "Belize": "United Kingdom",
+  "Trinidad": "United Kingdom",
+  "Grenada": "United Kingdom",
+  "Dominica": "United Kingdom",
+  "Saint Lucia": "United Kingdom",
+  "Saint Vincent and the Grenadines": "United Kingdom",
+  "Saint Kitts and Nevis": "United Kingdom",
+  "Antigua and Barbuda": "United Kingdom",
+  "Anguilla": "United Kingdom",
+  "Montserrat": "United Kingdom",
+  "Turks and Caicos Islands": "United Kingdom",
+  "Guyana": "United Kingdom",
+  "Malawi": "United Kingdom",
+  "Tonga": "United Kingdom",
+  "Qatar": "United Kingdom",
+  "Trucial Oman": "United Kingdom",
+  "Walbis Bay": "Union of South Africa",
+  "French Somaliland": "France",
+  "Saint Barthelemy": "France",
+  "Saint Martin": "France",
+  "Wallis and Futuna Islands": "France",
+  "Puerto Rico": "United States",
+  "United States Virgin Islands": "United States",
+  "Niue": "New Zealand",
+  "Samoa": "New Zealand",
+  "Guinea-Bissau": "Portugal"
+ },
+ "countries": {
+  "Germany": [
+   {
+    "from": "1937-07-07",
+    "status": "axis",
+    "note": "1936 年与意大利结成柏林—罗马轴心、与日本签订《反共产国际协定》；1938 年合并奥地利与苏台德区",
+    "source": "anticomintern"
+   },
+   {
+    "from": "1944-09-12",
+    "status": "contested",
+    "note": "美军在亚琛以南首次攻入德国本土；10 月苏军攻入东普鲁士",
+    "source": "ww2"
+   },
+   {
+    "from": "1945-05-08",
+    "status": "allies-occupied",
+    "note": "无条件投降，由美、英、苏、法四国分区占领",
+    "source": "veday"
+   }
+  ],
+  "Italy": [
+   {
+    "from": "1937-07-07",
+    "status": "axis",
+    "note": "1936 年柏林—罗马轴心，1937 年 11 月加入《反共产国际协定》；1940 年 6 月 10 日对英法宣战",
+    "source": "steel"
+   },
+   {
+    "from": "1943-07-10",
+    "status": "contested",
+    "note": "盟军登陆西西里；9 月 8 日停战后南部王国政府转与同盟国共同作战，北部由德军占领并扶植意大利社会共和国",
+    "source": "italy"
+   },
+   {
+    "from": "1945-05-02",
+    "status": "allies-occupied",
+    "note": "驻意大利德军投降",
+    "source": "italy"
+   }
+  ],
+  "Libya": [
+   {
+    "from": "1937-07-07",
+    "status": "axis",
+    "note": "意属利比亚"
+   },
+   {
+    "from": "1941-01-03",
+    "status": "contested",
+    "note": "罗盘行动：英联邦军队攻入昔兰尼加；此后两年沙漠战线在利比亚与埃及之间往复",
+    "source": "desert"
+   },
+   {
+    "from": "1943-01-23",
+    "status": "allies-occupied",
+    "note": "英军攻占的黎波里，轴心国军队退入突尼斯",
+    "source": "desert"
+   }
+  ],
+  "Ethiopia (Italy)": [
+   {
+    "from": "1937-07-07",
+    "status": "axis",
+    "note": "1936 年被意大利吞并，与厄立特里亚、意属索马里组成意属东非"
+   },
+   {
+    "from": "1941-01-19",
+    "status": "contested",
+    "note": "东非战役：英联邦军队自苏丹、肯尼亚反攻",
+    "source": "eastafrica"
+   },
+   {
+    "from": "1941-05-05",
+    "status": "allies",
+    "note": "海尔·塞拉西一世重返亚的斯亚贝巴（意军残部 11 月在贡德尔投降）",
+    "source": "eastafrica"
+   }
+  ],
+  "Eritrea (Italy)": [
+   {
+    "from": "1937-07-07",
+    "status": "axis"
+   },
+   {
+    "from": "1941-01-19",
+    "status": "contested",
+    "source": "eastafrica"
+   },
+   {
+    "from": "1941-04-01",
+    "status": "allies-occupied",
+    "note": "克伦战役后英军攻占阿斯马拉",
+    "source": "eastafrica"
+   }
+  ],
+  "Italian Somaliland": [
+   {
+    "from": "1937-07-07",
+    "status": "axis"
+   },
+   {
+    "from": "1941-02-11",
+    "status": "contested",
+    "source": "eastafrica"
+   },
+   {
+    "from": "1941-02-25",
+    "status": "allies-occupied",
+    "note": "英联邦军队占领摩加迪沙",
+    "source": "eastafrica"
+   }
+  ],
+  "British Somaliland": [
+   {
+    "from": "1939-09-03",
+    "status": "allies"
+   },
+   {
+    "from": "1940-08-03",
+    "status": "contested",
+    "note": "意军入侵",
+    "source": "eastafrica"
+   },
+   {
+    "from": "1940-08-19",
+    "status": "axis-occupied",
+    "note": "英军自柏培拉撤离",
+    "source": "eastafrica"
+   },
+   {
+    "from": "1941-03-16",
+    "status": "allies",
+    "note": "英军在柏培拉登陆收复",
+    "source": "eastafrica"
+   }
+  ],
+  "Albania": [
+   {
+    "from": "1939-04-07",
+    "status": "axis-occupied",
+    "note": "意大利入侵并吞并；1943 年 9 月起由德军占领"
+   },
+   {
+    "from": "1944-11-29",
+    "status": "allies",
+    "note": "阿尔巴尼亚游击队解放全境"
+   }
+  ],
+  "Czechoslovakia": [
+   {
+    "from": "1939-03-15",
+    "status": "axis-occupied",
+    "note": "捷克部分成为德国的波希米亚—摩拉维亚保护国，斯洛伐克成为德国附庸国（1940 年 11 月加入三国同盟）"
+   },
+   {
+    "from": "1944-09-08",
+    "status": "contested",
+    "note": "苏军与捷克斯洛伐克军团发起东喀尔巴阡攻势；8 月斯洛伐克民族起义"
+   },
+   {
+    "from": "1945-05-11",
+    "status": "allies",
+    "note": "布拉格解放，捷克斯洛伐克复国",
+    "source": "veday"
+   }
+  ],
+  "Poland (W)": [
+   {
+    "from": "1939-09-01",
+    "status": "contested",
+    "note": "德军自北、西、南三面入侵",
+    "source": "pl"
+   },
+   {
+    "from": "1939-10-06",
+    "status": "axis-occupied",
+    "note": "西部并入德国，其余设为总督府",
+    "source": "frontier"
+   },
+   {
+    "from": "1944-07-22",
+    "status": "contested",
+    "note": "苏军越过布格河，解放卢布林；8 月 1 日华沙起义",
+    "source": "bagration"
+   },
+   {
+    "from": "1945-02-02",
+    "status": "comintern-occupied",
+    "note": "维斯瓦河—奥得河攻势结束，波兰全境处于苏军控制下",
+    "source": "veday"
+   }
+  ],
+  "Poland (E)": [
+   {
+    "from": "1939-09-01",
+    "status": "contested",
+    "note": "9 月 17 日苏军自东越境",
+    "source": "pl"
+   },
+   {
+    "from": "1939-09-28",
+    "status": "comintern",
+    "note": "《德苏边界友好条约》划定分界线，东部并入苏联",
+    "source": "frontier"
+   },
+   {
+    "from": "1941-06-22",
+    "status": "contested",
+    "note": "巴巴罗萨行动首日即遭突击",
+    "source": "t1941"
+   },
+   {
+    "from": "1941-07-05",
+    "status": "axis-occupied",
+    "note": "6 月 30 日利沃夫失守，七月初全境被德军占领",
+    "source": "t1941"
+   },
+   {
+    "from": "1944-01-04",
+    "status": "contested",
+    "note": "苏军越过 1939 年的波兰东部边界",
+    "source": "bagration"
+   },
+   {
+    "from": "1944-07-28",
+    "status": "comintern",
+    "note": "利沃夫、布列斯特相继被苏军收复",
+    "source": "bagration"
+   }
+  ],
+  "United Kingdom": [
+   {
+    "from": "1939-09-03",
+    "status": "allies",
+    "note": "9 月 3 日对德宣战"
+   }
+  ],
+  "France": [
+   {
+    "from": "1939-09-03",
+    "status": "allies",
+    "note": "（法国殖民地继承用）9 月 3 日对德宣战"
+   },
+   {
+    "from": "1940-06-22",
+    "status": "axis-aligned",
+    "note": "停战后由维希政府管辖",
+    "source": "armistice"
+   },
+   {
+    "from": "1944-09-12",
+    "status": "allies",
+    "note": "法兰西共和国临时政府",
+    "source": "liberation"
+   }
+  ],
+  "France (N)": [
+   {
+    "from": "1939-09-03",
+    "status": "allies",
+    "note": "9 月 3 日对德宣战"
+   },
+   {
+    "from": "1940-05-10",
+    "status": "contested",
+    "note": "黄色方案：德军经阿登突破",
+    "source": "fr"
+   },
+   {
+    "from": "1940-06-22",
+    "status": "axis-occupied",
+    "note": "停战协定后的德国占领区",
+    "source": "armistice"
+   },
+   {
+    "from": "1944-06-06",
+    "status": "contested",
+    "note": "诺曼底登陆",
+    "source": "overlord"
+   },
+   {
+    "from": "1944-09-12",
+    "status": "allies",
+    "note": "法国大部解放，诺曼底与普罗旺斯两路登陆部队在第戎附近会师；阿尔萨斯至 1945 年初才全部收复",
+    "source": "liberation"
+   }
+  ],
+  "France (S)": [
+   {
+    "from": "1939-09-03",
+    "status": "allies",
+    "note": "9 月 3 日对德宣战"
+   },
+   {
+    "from": "1940-06-22",
+    "status": "axis-aligned",
+    "note": "非占领区，由维希政府管辖",
+    "source": "armistice"
+   },
+   {
+    "from": "1942-11-11",
+    "status": "axis-occupied",
+    "note": "安东行动：盟军登陆北非后，德意军队占领非占领区",
+    "source": "torch"
+   },
+   {
+    "from": "1944-08-15",
+    "status": "contested",
+    "note": "龙骑兵行动：盟军在普罗旺斯登陆",
+    "source": "liberation"
+   },
+   {
+    "from": "1944-09-12",
+    "status": "allies",
+    "source": "liberation"
+   }
+  ],
+  "Algeria (France)": [
+   {
+    "from": "1939-09-03",
+    "status": "allies"
+   },
+   {
+    "from": "1940-06-22",
+    "status": "axis-aligned",
+    "note": "维希政府管辖",
+    "source": "armistice"
+   },
+   {
+    "from": "1942-11-08",
+    "status": "contested",
+    "note": "火炬行动：英美军队在奥兰、阿尔及尔登陆",
+    "source": "torch"
+   },
+   {
+    "from": "1942-11-11",
+    "status": "allies",
+    "note": "维希军队停火，法属北非转入同盟国阵营",
+    "source": "torch"
+   }
+  ],
+  "Morocco (France)": [
+   {
+    "from": "1939-09-03",
+    "status": "allies"
+   },
+   {
+    "from": "1940-06-22",
+    "status": "axis-aligned",
+    "note": "维希政府管辖",
+    "source": "armistice"
+   },
+   {
+    "from": "1942-11-08",
+    "status": "contested",
+    "note": "火炬行动：美军在卡萨布兰卡附近登陆",
+    "source": "torch"
+   },
+   {
+    "from": "1942-11-11",
+    "status": "allies",
+    "source": "torch"
+   }
+  ],
+  "Tunisia": [
+   {
+    "from": "1939-09-03",
+    "status": "allies",
+    "note": "法国保护国"
+   },
+   {
+    "from": "1940-06-22",
+    "status": "axis-aligned",
+    "source": "armistice"
+   },
+   {
+    "from": "1942-11-09",
+    "status": "axis-occupied",
+    "note": "德意军队空运进驻突尼斯",
+    "source": "tunisia"
+   },
+   {
+    "from": "1942-11-17",
+    "status": "contested",
+    "note": "突尼斯战役",
+    "source": "tunisia"
+   },
+   {
+    "from": "1943-05-13",
+    "status": "allies",
+    "note": "北非的轴心国军队投降",
+    "source": "tunisia"
+   }
+  ],
+  "Syria (France)": [
+   {
+    "from": "1939-09-03",
+    "status": "allies",
+    "note": "含黎巴嫩"
+   },
+   {
+    "from": "1940-06-22",
+    "status": "axis-aligned",
+    "source": "armistice"
+   },
+   {
+    "from": "1941-06-08",
+    "status": "contested",
+    "note": "出口者行动：英联邦与自由法国军队进攻叙利亚和黎巴嫩",
+    "source": "syria"
+   },
+   {
+    "from": "1941-07-14",
+    "status": "allies",
+    "note": "阿卡停战协定，转由自由法国管辖",
+    "source": "syria"
+   }
+  ],
+  "French West Africa": [
+   {
+    "from": "1939-09-03",
+    "status": "allies"
+   },
+   {
+    "from": "1940-06-22",
+    "status": "axis-aligned",
+    "note": "维希政权；9 月达喀尔之战击退英国与自由法国",
+    "source": "armistice"
+   },
+   {
+    "from": "1942-11-23",
+    "status": "allies",
+    "note": "随法属北非转入同盟国阵营",
+    "source": "torch"
+   }
+  ],
+  "Togo": [
+   {
+    "from": "1939-09-03",
+    "status": "allies",
+    "note": "法属多哥"
+   },
+   {
+    "from": "1940-06-22",
+    "status": "axis-aligned",
+    "source": "armistice"
+   },
+   {
+    "from": "1942-11-23",
+    "status": "allies",
+    "source": "torch"
+   }
+  ],
+  "French Equatorial Africa": [
+   {
+    "from": "1939-09-03",
+    "status": "allies"
+   },
+   {
+    "from": "1940-06-22",
+    "status": "axis-aligned",
+    "source": "armistice"
+   },
+   {
+    "from": "1940-08-28",
+    "status": "allies",
+    "note": "乍得、刚果相继宣布支持自由法国（加蓬 11 月易手）",
+    "source": "freefrance"
+   }
+  ],
+  "Congo (France)": [
+   {
+    "from": "1939-09-03",
+    "status": "allies"
+   },
+   {
+    "from": "1940-06-22",
+    "status": "axis-aligned",
+    "source": "armistice"
+   },
+   {
+    "from": "1940-08-28",
+    "status": "allies",
+    "source": "freefrance"
+   }
+  ],
+  "French Cameroons": [
+   {
+    "from": "1939-09-03",
+    "status": "allies"
+   },
+   {
+    "from": "1940-06-22",
+    "status": "axis-aligned",
+    "source": "armistice"
+   },
+   {
+    "from": "1940-08-27",
+    "status": "allies",
+    "note": "宣布支持自由法国",
+    "source": "freefrance"
+   }
+  ],
+  "Madagascar (France)": [
+   {
+    "from": "1939-09-03",
+    "status": "allies"
+   },
+   {
+    "from": "1940-06-22",
+    "status": "axis-aligned",
+    "source": "armistice"
+   },
+   {
+    "from": "1942-05-05",
+    "status": "contested",
+    "note": "英军发动装甲行动，在迭戈苏瓦雷斯登陆",
+    "source": "madagascar"
+   },
+   {
+    "from": "1942-11-08",
+    "status": "allies-occupied",
+    "note": "维希守军投降，岛屿交由自由法国管理",
+    "source": "madagascar"
+   }
+  ],
+  "French Indo-China": [
+   {
+    "from": "1939-09-03",
+    "status": "allies"
+   },
+   {
+    "from": "1940-06-22",
+    "status": "axis-aligned",
+    "note": "维希政府管辖；1940 年 9 月日军进驻北部",
+    "source": "indochina"
+   },
+   {
+    "from": "1941-07-28",
+    "status": "axis-occupied",
+    "note": "日军进驻南部，印度支那实际处于日本控制下；1945 年 3 月日军政变解除法军武装",
+    "source": "indochina"
+   }
+  ],
+  "New Caledonia": [
+   {
+    "from": "1939-09-03",
+    "status": "allies"
+   },
+   {
+    "from": "1940-06-22",
+    "status": "axis-aligned",
+    "source": "armistice"
+   },
+   {
+    "from": "1940-09-19",
+    "status": "allies",
+    "note": "宣布支持自由法国，后成为美军在南太平洋的基地",
+    "source": "freefrance"
+   }
+  ],
+  "New Hebrides": [
+   {
+    "from": "1939-09-03",
+    "status": "allies",
+    "note": "英法共管"
+   }
+  ],
+  "French Guiana": [
+   {
+    "from": "1939-09-03",
+    "status": "allies"
+   },
+   {
+    "from": "1940-06-22",
+    "status": "axis-aligned",
+    "source": "armistice"
+   },
+   {
+    "from": "1943-03-18",
+    "status": "allies",
+    "source": "freefrance"
+   }
+  ],
+  "Martinique": [
+   {
+    "from": "1939-09-03",
+    "status": "allies"
+   },
+   {
+    "from": "1940-06-22",
+    "status": "axis-aligned",
+    "source": "armistice"
+   },
+   {
+    "from": "1943-07-14",
+    "status": "allies",
+    "source": "freefrance"
+   }
+  ],
+  "Guadeloupe": [
+   {
+    "from": "1939-09-03",
+    "status": "allies"
+   },
+   {
+    "from": "1940-06-22",
+    "status": "axis-aligned",
+    "source": "armistice"
+   },
+   {
+    "from": "1943-07-14",
+    "status": "allies",
+    "source": "freefrance"
+   }
+  ],
+  "Belgium": [
+   {
+    "from": "1940-05-10",
+    "status": "contested",
+    "source": "fr"
+   },
+   {
+    "from": "1940-05-28",
+    "status": "axis-occupied",
+    "note": "5 月 28 日比利时军队投降",
+    "source": "fr"
+   },
+   {
+    "from": "1944-09-02",
+    "status": "contested",
+    "note": "盟军攻入比利时，9 月 3 日布鲁塞尔解放",
+    "source": "liberation"
+   },
+   {
+    "from": "1944-11-08",
+    "status": "allies",
+    "note": "斯海尔德河口肃清",
+    "source": "liberation"
+   },
+   {
+    "from": "1944-12-16",
+    "status": "contested",
+    "note": "阿登反击战",
+    "source": "bulge"
+   },
+   {
+    "from": "1945-01-25",
+    "status": "allies",
+    "note": "阿登战役结束",
+    "source": "bulge"
+   }
+  ],
+  "Belgian Congo": [
+   {
+    "from": "1940-05-10",
+    "status": "allies",
+    "note": "比利时流亡政府继续作战，殖民地站在同盟国一边"
+   }
+  ],
+  "Rwanda (Belgium)": [
+   {
+    "from": "1940-05-10",
+    "status": "allies"
+   }
+  ],
+  "Burundi": [
+   {
+    "from": "1940-05-10",
+    "status": "allies",
+    "note": "比属卢旺达—乌隆迪"
+   }
+  ],
+  "Netherlands": [
+   {
+    "from": "1940-05-10",
+    "status": "contested",
+    "source": "fr"
+   },
+   {
+    "from": "1940-05-15",
+    "status": "axis-occupied",
+    "note": "5 月 14 日鹿特丹遭轰炸，次日荷军投降",
+    "source": "fr"
+   },
+   {
+    "from": "1944-09-12",
+    "status": "contested",
+    "note": "盟军攻入荷兰南部；9 月 17 日市场花园行动",
+    "source": "liberation"
+   },
+   {
+    "from": "1945-05-05",
+    "status": "allies",
+    "note": "驻荷兰德军投降",
+    "source": "veday"
+   }
+  ],
+  "Dutch East Indies": [
+   {
+    "from": "1940-05-10",
+    "status": "allies",
+    "note": "荷兰本土沦陷后，殖民地继续作战"
+   },
+   {
+    "from": "1942-01-11",
+    "status": "contested",
+    "note": "日军登陆塔拉坎，荷属东印度战役开始",
+    "source": "dei"
+   },
+   {
+    "from": "1942-03-09",
+    "status": "axis-occupied",
+    "note": "荷印军队在爪哇投降；1944—1945 年盟军只收复新几内亚与婆罗洲的部分地区",
+    "source": "dei"
+   }
+  ],
+  "Netherlands Antilles": [
+   {
+    "from": "1940-05-10",
+    "status": "allies"
+   }
+  ],
+  "Suriname": [
+   {
+    "from": "1940-05-10",
+    "status": "allies"
+   }
+  ],
+  "Luxembourg": [
+   {
+    "from": "1940-05-10",
+    "status": "axis-occupied",
+    "note": "开战当天即被占领，1942 年被并入德国",
+    "source": "fr"
+   },
+   {
+    "from": "1944-09-10",
+    "status": "allies",
+    "note": "美军解放卢森堡市",
+    "source": "liberation"
+   },
+   {
+    "from": "1944-12-16",
+    "status": "contested",
+    "note": "阿登反击战",
+    "source": "bulge"
+   },
+   {
+    "from": "1945-02-12",
+    "status": "allies",
+    "note": "全境收复",
+    "source": "bulge"
+   }
+  ],
+  "Denmark": [
+   {
+    "from": "1940-04-09",
+    "status": "axis-occupied",
+    "note": "4 月 9 日几乎未经抵抗被占领",
+    "source": "no"
+   },
+   {
+    "from": "1945-05-05",
+    "status": "allies",
+    "note": "驻丹麦德军投降",
+    "source": "veday"
+   }
+  ],
+  "Faroe Islands": [
+   {
+    "from": "1940-04-12",
+    "status": "allies-occupied",
+    "note": "英军和平占领"
+   }
+  ],
+  "Iceland": [
+   {
+    "from": "1940-05-10",
+    "status": "allies-occupied",
+    "note": "英军登陆，1941 年 7 月起由美军接防",
+    "source": "iceland"
+   }
+  ],
+  "Greenland": [
+   {
+    "from": "1941-04-09",
+    "status": "allies-occupied",
+    "note": "丹麦驻美公使签约，由美国保护并设立基地",
+    "source": "greenland"
+   }
+  ],
+  "Norway": [
+   {
+    "from": "1940-04-09",
+    "status": "contested",
+    "note": "威悉演习：德军突袭沿岸各港",
+    "source": "no"
+   },
+   {
+    "from": "1940-06-10",
+    "status": "axis-occupied",
+    "note": "本土守军停止抵抗，国王与政府流亡伦敦；1944 年 10 月苏军解放芬马克",
+    "source": "no"
+   },
+   {
+    "from": "1945-05-08",
+    "status": "allies",
+    "note": "驻挪威德军投降",
+    "source": "veday"
+   }
+  ],
+  "Spain": [
+   {
+    "from": "1937-07-07",
+    "status": "contested",
+    "note": "西班牙内战（1936—1939），德意支持国民军，苏联援助共和政府",
+    "source": "spain"
+   },
+   {
+    "from": "1939-04-01",
+    "status": "neutral",
+    "note": "内战结束；二战中保持中立（1940—1943 年自称“非交战国”，派蓝色师团赴东线）",
+    "source": "spain"
+   }
+  ],
+  "Finland": [
+   {
+    "from": "1939-11-30",
+    "status": "contested",
+    "note": "冬季战争：苏联进攻芬兰",
+    "source": "winter"
+   },
+   {
+    "from": "1940-03-13",
+    "status": "neutral",
+    "note": "《莫斯科和约》，割让卡累利阿地峡等领土",
+    "source": "winter"
+   },
+   {
+    "from": "1941-06-25",
+    "status": "axis-aligned",
+    "note": "继续战争：与德国并肩对苏作战（芬方称“共同交战国”）",
+    "source": "t1941"
+   },
+   {
+    "from": "1944-06-09",
+    "status": "contested",
+    "note": "苏军发动维堡—彼得罗扎沃茨克攻势",
+    "source": "finland"
+   },
+   {
+    "from": "1944-09-19",
+    "status": "neutral",
+    "note": "《莫斯科停战协定》，随后在拉普兰与德军作战",
+    "source": "finland"
+   }
+  ],
+  "Estonia": [
+   {
+    "from": "1940-06-17",
+    "status": "comintern",
+    "note": "苏军进驻，8 月并入苏联",
+    "source": "baltic"
+   },
+   {
+    "from": "1941-07-07",
+    "status": "contested",
+    "source": "t1941"
+   },
+   {
+    "from": "1941-08-28",
+    "status": "axis-occupied",
+    "note": "8 月 28 日塔林失守",
+    "source": "t1941"
+   },
+   {
+    "from": "1944-02-02",
+    "status": "contested",
+    "note": "苏军攻至纳尔瓦",
+    "source": "baltic"
+   },
+   {
+    "from": "1944-11-24",
+    "status": "comintern",
+    "note": "苏军收复全境",
+    "source": "baltic"
+   }
+  ],
+  "Latvia": [
+   {
+    "from": "1940-06-17",
+    "status": "comintern",
+    "note": "苏军进驻，8 月并入苏联",
+    "source": "baltic"
+   },
+   {
+    "from": "1941-06-22",
+    "status": "contested",
+    "source": "t1941"
+   },
+   {
+    "from": "1941-07-08",
+    "status": "axis-occupied",
+    "note": "7 月 1 日德军进入里加",
+    "source": "t1941"
+   },
+   {
+    "from": "1944-07-27",
+    "status": "contested",
+    "note": "苏军攻入拉脱维亚；10 月收复里加，德军在库尔兰坚守到战争结束",
+    "source": "baltic"
+   },
+   {
+    "from": "1945-05-09",
+    "status": "comintern",
+    "note": "库尔兰包围圈德军投降",
+    "source": "veday"
+   }
+  ],
+  "Lithuania": [
+   {
+    "from": "1940-06-15",
+    "status": "comintern",
+    "note": "苏军进驻，8 月并入苏联",
+    "source": "baltic"
+   },
+   {
+    "from": "1941-06-22",
+    "status": "contested",
+    "source": "t1941"
+   },
+   {
+    "from": "1941-06-28",
+    "status": "axis-occupied",
+    "note": "一周内被德军占领",
+    "source": "t1941"
+   },
+   {
+    "from": "1944-07-04",
+    "status": "contested",
+    "note": "巴格拉季昂行动：苏军攻入立陶宛，7 月 13 日收复维尔纽斯",
+    "source": "bagration"
+   },
+   {
+    "from": "1945-01-28",
+    "status": "comintern",
+    "note": "克莱佩达收复",
+    "source": "baltic"
+   }
+  ],
+  "USSR": [
+   {
+    "from": "1937-07-07",
+    "status": "comintern",
+    "note": "1939 年 8 月 23 日签订《苏德互不侵犯条约》；同年在诺门罕击败日军"
+   },
+   {
+    "from": "1941-06-22",
+    "status": "contested",
+    "note": "巴巴罗萨行动：德军入侵；1941 年底推进至列宁格勒—莫斯科—罗斯托夫一线，1942 年夏攻至斯大林格勒与高加索",
+    "source": "t1941"
+   },
+   {
+    "from": "1944-08-29",
+    "status": "comintern",
+    "note": "巴格拉季昂与利沃夫—桑多梅日攻势后，苏联 1941 年前的领土基本收复；1945 年 8 月 8 日对日宣战",
+    "source": "bagration"
+   }
+  ],
+  "Mongolia": [
+   {
+    "from": "1937-07-07",
+    "status": "comintern-aligned",
+    "note": "蒙古人民共和国，苏联卫星国；1939 年与苏军在诺门罕击退日军，1945 年 8 月对日宣战"
+   }
+  ],
+  "Romania": [
+   {
+    "from": "1940-11-23",
+    "status": "axis-aligned",
+    "note": "加入三国同盟；同年已被迫割让比萨拉比亚与北布科维纳（予苏联）、北特兰西瓦尼亚（予匈牙利）、南多布罗加（予保加利亚）",
+    "source": "tripartite"
+   },
+   {
+    "from": "1944-04-08",
+    "status": "contested",
+    "note": "苏军攻入罗马尼亚北部",
+    "source": "romania"
+   },
+   {
+    "from": "1944-08-23",
+    "status": "comintern-aligned",
+    "note": "米哈伊一世发动政变，罗马尼亚倒戈对德作战，苏军随即进驻",
+    "source": "romania"
+   }
+  ],
+  "Hungary": [
+   {
+    "from": "1940-11-20",
+    "status": "axis-aligned",
+    "note": "加入三国同盟，1941 年 6 月对苏作战",
+    "source": "tripartite"
+   },
+   {
+    "from": "1944-03-19",
+    "status": "axis-occupied",
+    "note": "玛格丽特行动：德军占领匈牙利",
+    "source": "hungary"
+   },
+   {
+    "from": "1944-09-23",
+    "status": "contested",
+    "note": "苏军攻入匈牙利；12 月起围攻布达佩斯",
+    "source": "hungary"
+   },
+   {
+    "from": "1945-04-04",
+    "status": "comintern-occupied",
+    "note": "苏军占领匈牙利全境",
+    "source": "hungary"
+   }
+  ],
+  "Bulgaria": [
+   {
+    "from": "1941-03-01",
+    "status": "axis-aligned",
+    "note": "加入三国同盟，德军借道进攻希腊（保加利亚未对苏宣战）",
+    "source": "tripartite"
+   },
+   {
+    "from": "1944-09-09",
+    "status": "comintern-aligned",
+    "note": "苏军进入保加利亚，祖国阵线发动政变并对德宣战",
+    "source": "bulgaria"
+   }
+  ],
+  "Yugoslavia": [
+   {
+    "from": "1941-04-06",
+    "status": "contested",
+    "note": "3 月 27 日政变推翻亲轴心政府后遭多路入侵",
+    "source": "bk"
+   },
+   {
+    "from": "1941-04-17",
+    "status": "axis-occupied",
+    "note": "投降后被德、意、匈、保瓜分，另立克罗地亚独立国；游击战贯穿整个占领期",
+    "source": "bk"
+   },
+   {
+    "from": "1944-09-28",
+    "status": "contested",
+    "note": "贝尔格莱德攻势：南斯拉夫游击队与苏军反攻",
+    "source": "ww2"
+   },
+   {
+    "from": "1945-05-15",
+    "status": "allies",
+    "note": "南斯拉夫全境解放",
+    "source": "veday"
+   }
+  ],
+  "Greece": [
+   {
+    "from": "1940-10-28",
+    "status": "allies",
+    "note": "意军自阿尔巴尼亚入侵，希军反攻入阿尔巴尼亚南部",
+    "source": "bk"
+   },
+   {
+    "from": "1941-04-06",
+    "status": "contested",
+    "note": "德军自保加利亚入侵",
+    "source": "bk"
+   },
+   {
+    "from": "1941-04-30",
+    "status": "axis-occupied",
+    "note": "4 月 27 日德军进入雅典，英联邦远征军撤离本土",
+    "source": "bk"
+   },
+   {
+    "from": "1944-10-12",
+    "status": "allies",
+    "note": "德军撤离雅典，希腊解放",
+    "source": "ww2"
+   }
+  ],
+  "Greece (Crete)": [
+   {
+    "from": "1940-10-28",
+    "status": "allies",
+    "note": "英军进驻苏达湾",
+    "source": "bk"
+   },
+   {
+    "from": "1941-05-20",
+    "status": "contested",
+    "note": "水星行动：德军空降",
+    "source": "cr"
+   },
+   {
+    "from": "1941-06-01",
+    "status": "axis-occupied",
+    "note": "英联邦守军撤离",
+    "source": "cr"
+   },
+   {
+    "from": "1945-05-09",
+    "status": "allies",
+    "note": "克里特德军投降",
+    "source": "veday"
+   }
+  ],
+  "Turkey": [
+   {
+    "from": "1945-02-23",
+    "status": "allies",
+    "note": "对德、日宣战",
+    "source": "unitednations"
+   }
+  ],
+  "Egypt": [
+   {
+    "from": "1939-09-03",
+    "status": "allies-aligned",
+    "note": "名义独立，英军依条约驻扎；与德国断交",
+    "source": "desert"
+   },
+   {
+    "from": "1940-09-13",
+    "status": "contested",
+    "note": "意军自利比亚入侵埃及",
+    "source": "desert"
+   },
+   {
+    "from": "1940-12-16",
+    "status": "allies-aligned",
+    "note": "罗盘行动将意军逐出埃及",
+    "source": "desert"
+   },
+   {
+    "from": "1942-06-23",
+    "status": "contested",
+    "note": "隆美尔攻入埃及，推进至阿拉曼",
+    "source": "desert"
+   },
+   {
+    "from": "1942-11-11",
+    "status": "allies-aligned",
+    "note": "第二次阿拉曼战役后轴心国军队被逐出埃及",
+    "source": "alamein"
+   },
+   {
+    "from": "1945-02-24",
+    "status": "allies",
+    "note": "对德、日宣战",
+    "source": "unitednations"
+   }
+  ],
+  "Sudan": [
+   {
+    "from": "1939-09-03",
+    "status": "allies",
+    "note": "英埃共管"
+   },
+   {
+    "from": "1940-07-04",
+    "status": "contested",
+    "note": "意军攻占卡萨拉",
+    "source": "eastafrica"
+   },
+   {
+    "from": "1941-01-19",
+    "status": "allies",
+    "note": "英军收复卡萨拉，转入反攻",
+    "source": "eastafrica"
+   }
+  ],
+  "Mesopotamia (GB)": [
+   {
+    "from": "1939-09-03",
+    "status": "allies-aligned",
+    "note": "伊拉克王国，依英伊条约与德国断交",
+    "source": "iraq"
+   },
+   {
+    "from": "1941-05-02",
+    "status": "contested",
+    "note": "英伊战争",
+    "source": "iraq"
+   },
+   {
+    "from": "1941-05-31",
+    "status": "allies-occupied",
+    "note": "英军占领巴格达；1943 年 1 月伊拉克对轴心国宣战",
+    "source": "iraq"
+   }
+  ],
+  "Iran": [
+   {
+    "from": "1941-08-25",
+    "status": "allies-occupied",
+    "note": "英苏联合入侵：北部由苏军、南部由英军占领，成为援苏通道",
+    "source": "iran"
+   }
+  ],
+  "Saudi Arabia": [
+   {
+    "from": "1945-03-01",
+    "status": "allies",
+    "note": "对德、日宣战",
+    "source": "unitednations"
+   }
+  ],
+  "Nepal": [
+   {
+    "from": "1939-09-04",
+    "status": "allies",
+    "note": "向英国派兵参战"
+   }
+  ],
+  "British Raj": [
+   {
+    "from": "1939-09-03",
+    "status": "allies"
+   },
+   {
+    "from": "1944-03-08",
+    "status": "contested",
+    "note": "日军发动乌号作战，进攻英帕尔与科希马",
+    "source": "burma"
+   },
+   {
+    "from": "1944-07-03",
+    "status": "allies",
+    "note": "日军败退",
+    "source": "burma"
+   }
+  ],
+  "Burma": [
+   {
+    "from": "1939-09-03",
+    "status": "allies",
+    "note": "1937 年起为单独的英国殖民地"
+   },
+   {
+    "from": "1942-01-16",
+    "status": "contested",
+    "note": "日军自泰国攻入缅甸",
+    "source": "burma"
+   },
+   {
+    "from": "1942-05-20",
+    "status": "axis-occupied",
+    "note": "英印军撤入印度，中国远征军退入云南与印度",
+    "source": "burma"
+   },
+   {
+    "from": "1944-12-03",
+    "status": "contested",
+    "note": "盟军渡过钦敦江，全面反攻缅甸",
+    "source": "burma"
+   },
+   {
+    "from": "1945-05-03",
+    "status": "allies",
+    "note": "盟军收复仰光",
+    "source": "burma"
+   }
+  ],
+  "Malaysia": [
+   {
+    "from": "1939-09-03",
+    "status": "allies",
+    "note": "英属马来亚与北婆罗洲"
+   },
+   {
+    "from": "1941-12-08",
+    "status": "contested",
+    "note": "日军在哥打巴鲁登陆，马来亚战役开始",
+    "source": "malaya"
+   },
+   {
+    "from": "1942-02-15",
+    "status": "axis-occupied",
+    "note": "新加坡英军投降",
+    "source": "malaya"
+   }
+  ],
+  "Brunei": [
+   {
+    "from": "1939-09-03",
+    "status": "allies",
+    "note": "英国保护国"
+   },
+   {
+    "from": "1941-12-16",
+    "status": "axis-occupied",
+    "source": "malaya"
+   }
+  ],
+  "Hong Kong": [
+   {
+    "from": "1939-09-03",
+    "status": "allies"
+   },
+   {
+    "from": "1941-12-08",
+    "status": "contested",
+    "note": "香港保卫战",
+    "source": "pacific"
+   },
+   {
+    "from": "1941-12-25",
+    "status": "axis-occupied",
+    "note": "港英政府投降",
+    "source": "pacific"
+   }
+  ],
+  "Siam": [
+   {
+    "from": "1941-12-08",
+    "status": "contested",
+    "note": "日军登陆，当日停火",
+    "source": "thailand"
+   },
+   {
+    "from": "1941-12-21",
+    "status": "axis-aligned",
+    "note": "与日本缔结同盟，1942 年 1 月对英美宣战",
+    "source": "thailand"
+   },
+   {
+    "from": "1945-08-16",
+    "status": "neutral",
+    "note": "宣布对英美宣战无效",
+    "source": "thailand"
+   }
+  ],
+  "Philippines": [
+   {
+    "from": "1941-12-08",
+    "status": "contested",
+    "note": "日军空袭克拉克机场并登陆吕宋",
+    "source": "philippines1"
+   },
+   {
+    "from": "1942-05-06",
+    "status": "axis-occupied",
+    "note": "科雷希多岛美军投降",
+    "source": "philippines1"
+   },
+   {
+    "from": "1944-10-20",
+    "status": "contested",
+    "note": "美军登陆莱特岛",
+    "source": "philippines2"
+   },
+   {
+    "from": "1945-07-05",
+    "status": "allies",
+    "note": "麦克阿瑟宣布菲律宾解放",
+    "source": "philippines2"
+   }
+  ],
+  "Guam": [
+   {
+    "from": "1941-12-08",
+    "status": "contested",
+    "source": "pacific"
+   },
+   {
+    "from": "1941-12-10",
+    "status": "axis-occupied",
+    "source": "pacific"
+   },
+   {
+    "from": "1944-07-21",
+    "status": "contested",
+    "note": "美军登陆关岛",
+    "source": "marianas"
+   },
+   {
+    "from": "1944-08-10",
+    "status": "allies",
+    "source": "marianas"
+   }
+  ],
+  "Saipan": [
+   {
+    "from": "1937-07-07",
+    "status": "axis",
+    "note": "日本的南洋委任统治地"
+   },
+   {
+    "from": "1944-06-15",
+    "status": "contested",
+    "note": "美军登陆塞班岛",
+    "source": "marianas"
+   },
+   {
+    "from": "1944-07-09",
+    "status": "allies-occupied",
+    "note": "美军占领塞班岛，B-29 由此轰炸日本本土",
+    "source": "marianas"
+   }
+  ],
+  "Gilbert and Ellice Islands": [
+   {
+    "from": "1939-09-03",
+    "status": "allies"
+   },
+   {
+    "from": "1941-12-10",
+    "status": "axis-occupied",
+    "note": "日军占领吉尔伯特群岛",
+    "source": "pacific"
+   },
+   {
+    "from": "1943-11-20",
+    "status": "contested",
+    "note": "美军登陆塔拉瓦",
+    "source": "pacific"
+   },
+   {
+    "from": "1943-11-23",
+    "status": "allies",
+    "source": "pacific"
+   }
+  ],
+  "Empire of Japan": [
+   {
+    "from": "1937-07-07",
+    "status": "axis",
+    "note": "1936 年签订《反共产国际协定》，1940 年加入三国同盟；版图含朝鲜、台湾、南库页岛及伪满洲国",
+    "source": "anticomintern"
+   },
+   {
+    "from": "1945-08-09",
+    "status": "contested",
+    "note": "苏联对日宣战，攻入中国东北；8 月 6 日、9 日广岛、长崎遭原子弹轰炸",
+    "source": "manchuria"
+   },
+   {
+    "from": "1945-09-02",
+    "status": "allies-occupied",
+    "note": "签署投降书，盟军占领日本",
+    "source": "surrender"
+   }
+  ],
+  "China": [
+   {
+    "from": "1937-07-07",
+    "status": "contested",
+    "note": "卢沟桥事变，全面抗战爆发；日军先后占领华北、华东与华南沿海，中国军民坚持抗战至 1945 年",
+    "source": "sinojapanese"
+   },
+   {
+    "from": "1945-08-15",
+    "status": "allies",
+    "note": "日本宣布投降，抗日战争胜利",
+    "source": "sinojapanese"
+   }
+  ],
+  "Xinjiang": [
+   {
+    "from": "1937-07-07",
+    "status": "comintern-aligned",
+    "note": "盛世才统治，依附苏联"
+   },
+   {
+    "from": "1942-10-01",
+    "status": "allies",
+    "note": "盛世才转向国民政府"
+   }
+  ],
+  "Ceylon": [
+   {
+    "from": "1939-09-03",
+    "status": "allies",
+    "note": "英国直辖殖民地，1942 年 4 月遭日本舰载机空袭"
+   }
+  ],
+  "Australia": [
+   {
+    "from": "1939-09-03",
+    "status": "allies",
+    "note": "1942 年 2 月起达尔文等北部港口多次遭日军空袭"
+   }
+  ],
+  "New Guinea (Australia)": [
+   {
+    "from": "1939-09-03",
+    "status": "allies",
+    "note": "澳大利亚管辖的巴布亚与新几内亚委任统治地"
+   },
+   {
+    "from": "1942-01-23",
+    "status": "contested",
+    "note": "日军攻占拉包尔，新几内亚战役开始，战斗持续到 1945 年",
+    "source": "newguinea"
+   },
+   {
+    "from": "1945-08-15",
+    "status": "allies",
+    "note": "日本宣布投降，新几内亚与布干维尔的战事结束",
+    "source": "newguinea"
+   }
+  ],
+  "Solomon Islands": [
+   {
+    "from": "1939-09-03",
+    "status": "allies",
+    "note": "英属所罗门群岛保护地"
+   },
+   {
+    "from": "1942-05-03",
+    "status": "axis-occupied",
+    "note": "日军占领图拉吉",
+    "source": "guadalcanal"
+   },
+   {
+    "from": "1942-08-07",
+    "status": "contested",
+    "note": "美军登陆瓜达尔卡纳尔岛",
+    "source": "guadalcanal"
+   },
+   {
+    "from": "1943-10-07",
+    "status": "allies",
+    "note": "新乔治亚群岛战役结束（布干维尔岛属澳属新几内亚）",
+    "source": "guadalcanal"
+   }
+  ],
+  "New Zealand": [
+   {
+    "from": "1939-09-03",
+    "status": "allies"
+   }
+  ],
+  "Fiji": [
+   {
+    "from": "1939-09-03",
+    "status": "allies"
+   }
+  ],
+  "Canada": [
+   {
+    "from": "1939-09-10",
+    "status": "allies"
+   }
+  ],
+  "Dominion of Newfoundland": [
+   {
+    "from": "1939-09-03",
+    "status": "allies"
+   }
+  ],
+  "Union of South Africa": [
+   {
+    "from": "1939-09-06",
+    "status": "allies"
+   }
+  ],
+  "Liberia": [
+   {
+    "from": "1944-01-27",
+    "status": "allies",
+    "note": "对德、日宣战",
+    "source": "unitednations"
+   }
+  ],
+  "United States": [
+   {
+    "from": "1941-12-08",
+    "status": "allies",
+    "note": "珍珠港事件后对日宣战；12 月 11 日德、意对美宣战",
+    "source": "pearl"
+   }
+  ],
+  "Mexico": [
+   {
+    "from": "1942-05-22",
+    "status": "allies",
+    "source": "latam"
+   }
+  ],
+  "Brazil": [
+   {
+    "from": "1942-08-22",
+    "status": "allies",
+    "note": "1944 年派远征军赴意大利作战",
+    "source": "latam"
+   }
+  ],
+  "Cuba": [
+   {
+    "from": "1941-12-09",
+    "status": "allies",
+    "source": "latam"
+   }
+  ],
+  "Dominican Republic": [
+   {
+    "from": "1941-12-11",
+    "status": "allies",
+    "source": "latam"
+   }
+  ],
+  "Haiti": [
+   {
+    "from": "1941-12-08",
+    "status": "allies",
+    "source": "latam"
+   }
+  ],
+  "Guatemala": [
+   {
+    "from": "1941-12-09",
+    "status": "allies",
+    "source": "latam"
+   }
+  ],
+  "Honduras": [
+   {
+    "from": "1941-12-08",
+    "status": "allies",
+    "source": "latam"
+   }
+  ],
+  "Nicaragua": [
+   {
+    "from": "1941-12-09",
+    "status": "allies",
+    "source": "latam"
+   }
+  ],
+  "El Salvador": [
+   {
+    "from": "1941-12-08",
+    "status": "allies",
+    "source": "latam"
+   }
+  ],
+  "Costa Rica": [
+   {
+    "from": "1941-12-08",
+    "status": "allies",
+    "source": "latam"
+   }
+  ],
+  "Panama": [
+   {
+    "from": "1941-12-07",
+    "status": "allies",
+    "source": "latam"
+   }
+  ],
+  "Colombia": [
+   {
+    "from": "1943-11-26",
+    "status": "allies",
+    "source": "latam"
+   }
+  ],
+  "Bolivia": [
+   {
+    "from": "1943-04-07",
+    "status": "allies",
+    "source": "latam"
+   }
+  ],
+  "Ecuador": [
+   {
+    "from": "1945-02-02",
+    "status": "allies",
+    "source": "latam"
+   }
+  ],
+  "Paraguay": [
+   {
+    "from": "1945-02-07",
+    "status": "allies",
+    "source": "latam"
+   }
+  ],
+  "Peru": [
+   {
+    "from": "1945-02-12",
+    "status": "allies",
+    "source": "latam"
+   }
+  ],
+  "Venezuela": [
+   {
+    "from": "1945-02-16",
+    "status": "allies",
+    "source": "latam"
+   }
+  ],
+  "Uruguay": [
+   {
+    "from": "1942-01-25",
+    "status": "neutral",
+    "note": "里约热内卢外长会议期间与轴心国断交，仍未参战（1939 年 12 月“施佩伯爵”号曾在蒙得维的亚港停留 72 小时）",
+    "source": "latam"
+   },
+   {
+    "from": "1945-02-22",
+    "status": "allies",
+    "source": "latam"
+   }
+  ],
+  "Argentina": [
+   {
+    "from": "1944-01-26",
+    "status": "neutral",
+    "note": "与德、日断交，仍保持中立（1939 年 12 月“施佩伯爵”号自沉后，其官兵被送往阿根廷拘留）",
+    "source": "latam"
+   },
+   {
+    "from": "1945-03-27",
+    "status": "allies",
+    "source": "latam"
+   }
+  ],
+  "Chile": [
+   {
+    "from": "1945-04-11",
+    "status": "allies",
+    "note": "对日宣战",
+    "source": "latam"
+   }
+  ]
+ },
+ "labels": [
+  {
+   "id": "Germany",
+   "zh": "德国",
+   "at": [
+    10.6,
+    50.6
+   ],
+   "size": 22
+  },
+  {
+   "id": "Poland (W)",
+   "zh": "波兰",
+   "at": [
+    22.3,
+    52.9
+   ],
+   "size": 16
+  },
+  {
+   "id": "France (S)",
+   "zh": "法国",
+   "at": [
+    2.4,
+    46.4
+   ],
+   "size": 22
+  },
+  {
+   "id": "United Kingdom",
+   "zh": "英国",
+   "at": [
+    -2.4,
+    54.7
+   ],
+   "size": 16
+  },
+  {
+   "id": "Ireland",
+   "zh": "爱尔兰",
+   "at": [
+    -8.0,
+    53.2
+   ],
+   "size": 11
+  },
+  {
+   "id": "Spain",
+   "zh": "西班牙",
+   "at": [
+    -3.7,
+    40.0
+   ],
+   "size": 20
+  },
+  {
+   "id": "Portugal",
+   "zh": "葡萄牙",
+   "at": [
+    -8.1,
+    39.7
+   ],
+   "size": 10
+  },
+  {
+   "id": "Italy",
+   "zh": "意大利",
+   "at": [
+    13.4,
+    42.4
+   ],
+   "size": 17
+  },
+  {
+   "id": "Switzerland",
+   "zh": "瑞士",
+   "at": [
+    8.2,
+    46.8
+   ],
+   "size": 9
+  },
+  {
+   "id": "Belgium",
+   "zh": "比利时",
+   "at": [
+    4.7,
+    50.55
+   ],
+   "size": 8
+  },
+  {
+   "id": "Netherlands",
+   "zh": "荷兰",
+   "at": [
+    5.7,
+    52.3
+   ],
+   "size": 9
+  },
+  {
+   "id": "Denmark",
+   "zh": "丹麦",
+   "at": [
+    9.2,
+    56.1
+   ],
+   "size": 10
+  },
+  {
+   "id": "Norway",
+   "zh": "挪威",
+   "at": [
+    8.8,
+    61.0
+   ],
+   "size": 15
+  },
+  {
+   "id": "Sweden",
+   "zh": "瑞典",
+   "at": [
+    15.2,
+    58.8
+   ],
+   "size": 16
+  },
+  {
+   "id": "Finland",
+   "zh": "芬兰",
+   "at": [
+    26.2,
+    62.8
+   ],
+   "size": 16
+  },
+  {
+   "id": "Estonia",
+   "zh": "爱沙尼亚",
+   "at": [
+    25.9,
+    58.75
+   ],
+   "size": 8
+  },
+  {
+   "id": "Latvia",
+   "zh": "拉脱维亚",
+   "at": [
+    25.6,
+    56.9
+   ],
+   "size": 8
+  },
+  {
+   "id": "Lithuania",
+   "zh": "立陶宛",
+   "at": [
+    23.9,
+    55.4
+   ],
+   "size": 8
+  },
+  {
+   "id": "USSR",
+   "zh": "苏联",
+   "at": [
+    40.5,
+    57.5
+   ],
+   "size": 26
+  },
+  {
+   "id": "USSR",
+   "zh": "苏 联",
+   "at": [
+    98,
+    62
+   ],
+   "size": 36
+  },
+  {
+   "id": "Czechoslovakia",
+   "zh": "捷克斯洛伐克",
+   "at": [
+    17.6,
+    49.25
+   ],
+   "size": 8
+  },
+  {
+   "id": "Hungary",
+   "zh": "匈牙利",
+   "at": [
+    19.3,
+    47.1
+   ],
+   "size": 10
+  },
+  {
+   "id": "Romania",
+   "zh": "罗马尼亚",
+   "at": [
+    25.0,
+    45.9
+   ],
+   "size": 13
+  },
+  {
+   "id": "Yugoslavia",
+   "zh": "南斯拉夫",
+   "at": [
+    18.6,
+    44.5
+   ],
+   "size": 12
+  },
+  {
+   "id": "Bulgaria",
+   "zh": "保加利亚",
+   "at": [
+    25.3,
+    42.75
+   ],
+   "size": 10
+  },
+  {
+   "id": "Greece",
+   "zh": "希腊",
+   "at": [
+    22.1,
+    39.4
+   ],
+   "size": 12
+  },
+  {
+   "id": "Albania",
+   "zh": "阿尔巴尼亚",
+   "at": [
+    19.75,
+    40.55
+   ],
+   "size": 7
+  },
+  {
+   "id": "Turkey",
+   "zh": "土耳其",
+   "at": [
+    33.5,
+    39.2
+   ],
+   "size": 18
+  },
+  {
+   "id": "Libya",
+   "zh": "意属利比亚",
+   "at": [
+    18.0,
+    28.5
+   ],
+   "size": 13
+  },
+  {
+   "id": "Algeria (France)",
+   "zh": "法属阿尔及利亚",
+   "at": [
+    2.5,
+    30.5
+   ],
+   "size": 12
+  },
+  {
+   "id": "Tunisia",
+   "zh": "突尼斯",
+   "at": [
+    9.4,
+    33.9
+   ],
+   "size": 8
+  },
+  {
+   "id": "Morocco (France)",
+   "zh": "法属摩洛哥",
+   "at": [
+    -6.0,
+    32.6
+   ],
+   "size": 10
+  },
+  {
+   "id": "Iceland",
+   "zh": "冰岛",
+   "at": [
+    -18.6,
+    64.9
+   ],
+   "size": 10
+  },
+  {
+   "id": "Greenland",
+   "zh": "格陵兰",
+   "at": [
+    -41,
+    73
+   ],
+   "size": 15
+  },
+  {
+   "id": "Egypt",
+   "zh": "埃及",
+   "at": [
+    29.8,
+    26.5
+   ],
+   "size": 15
+  },
+  {
+   "id": "Sudan",
+   "zh": "英埃苏丹",
+   "at": [
+    30,
+    15
+   ],
+   "size": 15
+  },
+  {
+   "id": "Ethiopia (Italy)",
+   "zh": "埃塞俄比亚",
+   "at": [
+    39.5,
+    8.5
+   ],
+   "size": 13
+  },
+  {
+   "id": "Eritrea (Italy)",
+   "zh": "厄立特里亚",
+   "at": [
+    38.6,
+    15.6
+   ],
+   "size": 7
+  },
+  {
+   "id": "Italian Somaliland",
+   "zh": "意属索马里",
+   "at": [
+    45.5,
+    4.5
+   ],
+   "size": 8
+  },
+  {
+   "id": "French West Africa",
+   "zh": "法属西非",
+   "at": [
+    -2,
+    17
+   ],
+   "size": 22
+  },
+  {
+   "id": "French Equatorial Africa",
+   "zh": "法属赤道非洲",
+   "at": [
+    19.5,
+    12.5
+   ],
+   "size": 13
+  },
+  {
+   "id": "French Cameroons",
+   "zh": "喀麦隆",
+   "at": [
+    12.5,
+    5.5
+   ],
+   "size": 7
+  },
+  {
+   "id": "Nigeria",
+   "zh": "尼日利亚",
+   "at": [
+    8,
+    9.6
+   ],
+   "size": 11
+  },
+  {
+   "id": "Liberia",
+   "zh": "利比里亚",
+   "at": [
+    -9.4,
+    6.5
+   ],
+   "size": 7
+  },
+  {
+   "id": "Spanish Sahara",
+   "zh": "西属撒哈拉",
+   "at": [
+    -13.2,
+    24.6
+   ],
+   "size": 7
+  },
+  {
+   "id": "Belgian Congo",
+   "zh": "比属刚果",
+   "at": [
+    23.5,
+    -2.8
+   ],
+   "size": 15
+  },
+  {
+   "id": "Kenya",
+   "zh": "肯尼亚",
+   "at": [
+    37.9,
+    0.4
+   ],
+   "size": 9
+  },
+  {
+   "id": "Tanzania, United Republic of",
+   "zh": "坦噶尼喀",
+   "at": [
+    34.8,
+    -6.3
+   ],
+   "size": 10
+  },
+  {
+   "id": "Angola (Portugal)",
+   "zh": "安哥拉",
+   "at": [
+    17.5,
+    -12.5
+   ],
+   "size": 12
+  },
+  {
+   "id": "Northern Rhodesia",
+   "zh": "北罗得西亚",
+   "at": [
+    27.5,
+    -13.8
+   ],
+   "size": 9
+  },
+  {
+   "id": "Southern Rhodesia",
+   "zh": "南罗得西亚",
+   "at": [
+    29.8,
+    -19.2
+   ],
+   "size": 8
+  },
+  {
+   "id": "Mozambique (Portugal)",
+   "zh": "莫桑比克",
+   "at": [
+    37.5,
+    -15.5
+   ],
+   "size": 10
+  },
+  {
+   "id": "Madagascar (France)",
+   "zh": "马达加斯加",
+   "at": [
+    46.8,
+    -19.5
+   ],
+   "size": 10
+  },
+  {
+   "id": "Union of South Africa",
+   "zh": "南非联邦",
+   "at": [
+    24.5,
+    -30
+   ],
+   "size": 15
+  },
+  {
+   "id": "Syria (France)",
+   "zh": "叙利亚",
+   "at": [
+    38.4,
+    35.0
+   ],
+   "size": 9
+  },
+  {
+   "id": "Mandatory Palestine (GB)",
+   "zh": "巴勒斯坦",
+   "at": [
+    34.9,
+    31.2
+   ],
+   "size": 6
+  },
+  {
+   "id": "Jordan",
+   "zh": "外约旦",
+   "at": [
+    36.8,
+    31.0
+   ],
+   "size": 7
+  },
+  {
+   "id": "Mesopotamia (GB)",
+   "zh": "伊拉克",
+   "at": [
+    43.6,
+    33.2
+   ],
+   "size": 11
+  },
+  {
+   "id": "Saudi Arabia",
+   "zh": "沙特阿拉伯",
+   "at": [
+    45,
+    23.8
+   ],
+   "size": 15
+  },
+  {
+   "id": "Yemen",
+   "zh": "也门",
+   "at": [
+    47.5,
+    15.6
+   ],
+   "size": 9
+  },
+  {
+   "id": "Muscat and Oman",
+   "zh": "阿曼",
+   "at": [
+    56.5,
+    20.5
+   ],
+   "size": 9
+  },
+  {
+   "id": "Iran",
+   "zh": "伊朗",
+   "at": [
+    54,
+    32.5
+   ],
+   "size": 16
+  },
+  {
+   "id": "Afghanistan",
+   "zh": "阿富汗",
+   "at": [
+    66,
+    33.8
+   ],
+   "size": 12
+  },
+  {
+   "id": "British Raj",
+   "zh": "英属印度",
+   "at": [
+    78.5,
+    22.5
+   ],
+   "size": 24
+  },
+  {
+   "id": "Nepal",
+   "zh": "尼泊尔",
+   "at": [
+    84,
+    28.3
+   ],
+   "size": 7
+  },
+  {
+   "id": "Ceylon",
+   "zh": "锡兰",
+   "at": [
+    80.7,
+    7.7
+   ],
+   "size": 7
+  },
+  {
+   "id": "Burma",
+   "zh": "缅甸",
+   "at": [
+    96,
+    21.5
+   ],
+   "size": 12
+  },
+  {
+   "id": "Siam",
+   "zh": "暹罗",
+   "at": [
+    101,
+    15.5
+   ],
+   "size": 11
+  },
+  {
+   "id": "French Indo-China",
+   "zh": "法属印度支那",
+   "at": [
+    105.6,
+    17.8
+   ],
+   "size": 9
+  },
+  {
+   "id": "Malaysia",
+   "zh": "英属马来亚",
+   "at": [
+    102.2,
+    4.2
+   ],
+   "size": 8
+  },
+  {
+   "id": "Dutch East Indies",
+   "zh": "荷属东印度",
+   "at": [
+    114,
+    -1.2
+   ],
+   "size": 15
+  },
+  {
+   "id": "Philippines",
+   "zh": "菲律宾",
+   "at": [
+    122.5,
+    12.5
+   ],
+   "size": 10
+  },
+  {
+   "id": "China",
+   "zh": "中 国",
+   "at": [
+    106,
+    33.5
+   ],
+   "size": 30
+  },
+  {
+   "id": "Xinjiang",
+   "zh": "新疆",
+   "at": [
+    85,
+    41.8
+   ],
+   "size": 14
+  },
+  {
+   "id": "Tibet",
+   "zh": "西藏",
+   "at": [
+    88,
+    32
+   ],
+   "size": 14
+  },
+  {
+   "id": "Mongolia",
+   "zh": "蒙古",
+   "at": [
+    103,
+    46.8
+   ],
+   "size": 18
+  },
+  {
+   "id": "Empire of Japan",
+   "zh": "日本",
+   "at": [
+    138.8,
+    36.8
+   ],
+   "size": 15
+  },
+  {
+   "id": "Empire of Japan",
+   "zh": "伪满洲国",
+   "at": [
+    126.5,
+    45.8
+   ],
+   "size": 14
+  },
+  {
+   "id": "Empire of Japan",
+   "zh": "朝鲜",
+   "at": [
+    127.4,
+    40.2
+   ],
+   "size": 10
+  },
+  {
+   "id": "Empire of Japan",
+   "zh": "台湾",
+   "at": [
+    121.0,
+    23.7
+   ],
+   "size": 7
+  },
+  {
+   "id": "Australia",
+   "zh": "澳大利亚",
+   "at": [
+    134,
+    -25
+   ],
+   "size": 26
+  },
+  {
+   "id": "New Guinea (Australia)",
+   "zh": "新几内亚",
+   "at": [
+    144.5,
+    -6.2
+   ],
+   "size": 9
+  },
+  {
+   "id": "Solomon Islands",
+   "zh": "所罗门群岛",
+   "at": [
+    159.5,
+    -8.0
+   ],
+   "size": 7
+  },
+  {
+   "id": "New Zealand",
+   "zh": "新西兰",
+   "at": [
+    172.5,
+    -41.5
+   ],
+   "size": 10
+  },
+  {
+   "id": "United States",
+   "zh": "美国",
+   "at": [
+    -98,
+    39
+   ],
+   "size": 26
+  },
+  {
+   "id": "United States",
+   "zh": "阿拉斯加",
+   "at": [
+    -152,
+    64.5
+   ],
+   "size": 12
+  },
+  {
+   "id": "United States",
+   "zh": "夏威夷",
+   "at": [
+    -156.5,
+    21.6
+   ],
+   "size": 7
+  },
+  {
+   "id": "Canada",
+   "zh": "加拿大",
+   "at": [
+    -102,
+    58
+   ],
+   "size": 24
+  },
+  {
+   "id": "Dominion of Newfoundland",
+   "zh": "纽芬兰",
+   "at": [
+    -61,
+    53.5
+   ],
+   "size": 9
+  },
+  {
+   "id": "Mexico",
+   "zh": "墨西哥",
+   "at": [
+    -102.5,
+    24
+   ],
+   "size": 14
+  },
+  {
+   "id": "Cuba",
+   "zh": "古巴",
+   "at": [
+    -79,
+    21.8
+   ],
+   "size": 7
+  },
+  {
+   "id": "Colombia",
+   "zh": "哥伦比亚",
+   "at": [
+    -73.5,
+    4
+   ],
+   "size": 10
+  },
+  {
+   "id": "Venezuela",
+   "zh": "委内瑞拉",
+   "at": [
+    -66,
+    7.5
+   ],
+   "size": 9
+  },
+  {
+   "id": "Brazil",
+   "zh": "巴西",
+   "at": [
+    -52,
+    -9
+   ],
+   "size": 22
+  },
+  {
+   "id": "Peru",
+   "zh": "秘鲁",
+   "at": [
+    -75,
+    -9.5
+   ],
+   "size": 10
+  },
+  {
+   "id": "Bolivia",
+   "zh": "玻利维亚",
+   "at": [
+    -64.5,
+    -16.5
+   ],
+   "size": 9
+  },
+  {
+   "id": "Argentina",
+   "zh": "阿根廷",
+   "at": [
+    -65,
+    -35
+   ],
+   "size": 14
+  },
+  {
+   "id": "Chile",
+   "zh": "智利",
+   "at": [
+    -71,
+    -30
+   ],
+   "size": 8
+  },
+  {
+   "id": "@sea",
+   "zh": "大 西 洋",
+   "at": [
+    -10.5,
+    47.5
+   ],
+   "size": 18
+  },
+  {
+   "id": "@sea",
+   "zh": "大 西 洋",
+   "at": [
+    -38,
+    30
+   ],
+   "size": 30
+  },
+  {
+   "id": "@sea",
+   "zh": "南 大 西 洋",
+   "at": [
+    -14,
+    -23
+   ],
+   "size": 30
+  },
+  {
+   "id": "@sea",
+   "zh": "拉普拉塔河口",
+   "at": [
+    -56.3,
+    -35.6
+   ],
+   "size": 6
+  },
+  {
+   "id": "Uruguay",
+   "zh": "乌拉圭",
+   "at": [
+    -56,
+    -32.8
+   ],
+   "size": 6
+  },
+  {
+   "id": "Paraguay",
+   "zh": "巴拉圭",
+   "at": [
+    -58.2,
+    -23.2
+   ],
+   "size": 7
+  },
+  {
+   "id": "@sea",
+   "zh": "北 海",
+   "at": [
+    3.6,
+    56.6
+   ],
+   "size": 15
+  },
+  {
+   "id": "@sea",
+   "zh": "挪 威 海",
+   "at": [
+    3.0,
+    66.0
+   ],
+   "size": 15
+  },
+  {
+   "id": "@sea",
+   "zh": "巴伦支海",
+   "at": [
+    42,
+    72.5
+   ],
+   "size": 11
+  },
+  {
+   "id": "@sea",
+   "zh": "波 罗 的 海",
+   "at": [
+    18.6,
+    56.1
+   ],
+   "size": 10
+  },
+  {
+   "id": "@sea",
+   "zh": "地 中 海",
+   "at": [
+    17.0,
+    34.6
+   ],
+   "size": 17
+  },
+  {
+   "id": "@sea",
+   "zh": "黑 海",
+   "at": [
+    34.4,
+    43.2
+   ],
+   "size": 15
+  },
+  {
+   "id": "@sea",
+   "zh": "里 海",
+   "at": [
+    50.6,
+    42
+   ],
+   "size": 8
+  },
+  {
+   "id": "@sea",
+   "zh": "比斯开湾",
+   "at": [
+    -4.6,
+    45.4
+   ],
+   "size": 9
+  },
+  {
+   "id": "@sea",
+   "zh": "爱琴海",
+   "at": [
+    25.0,
+    38.9
+   ],
+   "size": 8
+  },
+  {
+   "id": "@sea",
+   "zh": "红 海",
+   "at": [
+    38.6,
+    20.5
+   ],
+   "size": 7
+  },
+  {
+   "id": "@sea",
+   "zh": "波斯湾",
+   "at": [
+    51.5,
+    27.0
+   ],
+   "size": 6
+  },
+  {
+   "id": "@sea",
+   "zh": "阿拉伯海",
+   "at": [
+    63.5,
+    15
+   ],
+   "size": 13
+  },
+  {
+   "id": "@sea",
+   "zh": "孟加拉湾",
+   "at": [
+    89,
+    15
+   ],
+   "size": 12
+  },
+  {
+   "id": "@sea",
+   "zh": "印 度 洋",
+   "at": [
+    78,
+    -18
+   ],
+   "size": 30
+  },
+  {
+   "id": "@sea",
+   "zh": "南 海",
+   "at": [
+    114,
+    13.5
+   ],
+   "size": 12
+  },
+  {
+   "id": "@sea",
+   "zh": "东 海",
+   "at": [
+    125.5,
+    29.5
+   ],
+   "size": 9
+  },
+  {
+   "id": "@sea",
+   "zh": "黄 海",
+   "at": [
+    123.8,
+    36.2
+   ],
+   "size": 8
+  },
+  {
+   "id": "@sea",
+   "zh": "日 本 海",
+   "at": [
+    134.5,
+    40.5
+   ],
+   "size": 10
+  },
+  {
+   "id": "@sea",
+   "zh": "鄂霍次克海",
+   "at": [
+    150,
+    53.5
+   ],
+   "size": 10
+  },
+  {
+   "id": "@sea",
+   "zh": "菲律宾海",
+   "at": [
+    132,
+    18.5
+   ],
+   "size": 13
+  },
+  {
+   "id": "@sea",
+   "zh": "珊 瑚 海",
+   "at": [
+    155,
+    -16
+   ],
+   "size": 12
+  },
+  {
+   "id": "@sea",
+   "zh": "塔斯曼海",
+   "at": [
+    161,
+    -38
+   ],
+   "size": 10
+  },
+  {
+   "id": "@sea",
+   "zh": "太 平 洋",
+   "at": [
+    178,
+    18
+   ],
+   "size": 36
+  },
+  {
+   "id": "@sea",
+   "zh": "太 平 洋",
+   "at": [
+    -128,
+    16
+   ],
+   "size": 24
+  },
+  {
+   "id": "@sea",
+   "zh": "白 令 海",
+   "at": [
+    -178,
+    58
+   ],
+   "size": 10
+  },
+  {
+   "id": "@sea",
+   "zh": "北 冰 洋",
+   "at": [
+    100,
+    78.3
+   ],
+   "size": 14
+  },
+  {
+   "id": "@sea",
+   "zh": "哈德逊湾",
+   "at": [
+    -85,
+    59
+   ],
+   "size": 10
+  },
+  {
+   "id": "@sea",
+   "zh": "墨西哥湾",
+   "at": [
+    -90,
+    25
+   ],
+   "size": 10
+  },
+  {
+   "id": "@sea",
+   "zh": "加勒比海",
+   "at": [
+    -75,
+    15
+   ],
+   "size": 11
+  }
+ ],
+ "dispatches": [
+  {
+   "date": "1937-07-07",
+   "text": "卢沟桥事变，中国全面抗战爆发"
+  },
+  {
+   "date": "1937-08-13",
+   "text": "淞沪会战爆发，中日两军在上海激战"
+  },
+  {
+   "date": "1937-11-12",
+   "text": "上海失守，中国军队西撤"
+  },
+  {
+   "date": "1937-12-13",
+   "text": "日军攻陷南京，随即制造南京大屠杀"
+  },
+  {
+   "date": "1938-03-12",
+   "text": "德国吞并奥地利"
+  },
+  {
+   "date": "1938-04-07",
+   "text": "台儿庄战役，中国军队击退日军"
+  },
+  {
+   "date": "1938-06-11",
+   "text": "日军通告溯江进攻，武汉会战（1938年6—10月，抗战初期最大会战）开始"
+  },
+  {
+   "date": "1938-09-30",
+   "text": "慕尼黑协定：苏台德区割让德国"
+  },
+  {
+   "date": "1938-10-10",
+   "text": "万家岭大捷：中国军队在江西德安以西围歼日军第106师团主力"
+  },
+  {
+   "date": "1938-10-25",
+   "text": "武汉会战结束，日军占领武汉"
+  },
+  {
+   "date": "1939-03-15",
+   "text": "德军占领捷克"
+  },
+  {
+   "date": "1939-04-01",
+   "text": "西班牙内战结束"
+  },
+  {
+   "date": "1939-04-07",
+   "text": "意大利入侵阿尔巴尼亚"
+  },
+  {
+   "date": "1939-05-11",
+   "text": "诺门罕战役爆发，苏蒙军队与日军交战"
+  },
+  {
+   "date": "1939-08-23",
+   "text": "苏德签订互不侵犯条约，附有瓜分东欧的秘密议定书"
+  },
+  {
+   "date": "1939-09-01",
+   "text": "德军越境进攻波兰"
+  },
+  {
+   "date": "1939-09-03",
+   "text": "英国、法国对德宣战"
+  },
+  {
+   "date": "1939-09-17",
+   "text": "苏军自东越过波兰边境"
+  },
+  {
+   "date": "1939-09-28",
+   "text": "华沙投降；德苏签订边界友好条约"
+  },
+  {
+   "date": "1939-10-06",
+   "text": "科克战斗结束，波兰战役落幕"
+  },
+  {
+   "date": "1939-11-30",
+   "text": "苏联进攻芬兰，冬季战争爆发"
+  },
+  {
+   "date": "1939-12-13",
+   "text": "拉普拉塔河口海战：英国巡洋舰围攻“施佩伯爵”号，该舰退入蒙得维的亚"
+  },
+  {
+   "date": "1939-12-17",
+   "text": "“施佩伯爵”号在河口外自沉"
+  },
+  {
+   "date": "1940-03-13",
+   "text": "苏芬签订莫斯科和约"
+  },
+  {
+   "date": "1940-04-09",
+   "text": "德军占领丹麦、突袭挪威——威悉演习"
+  },
+  {
+   "date": "1940-05-10",
+   "text": "德军进攻荷兰、比利时、卢森堡与法国——黄色方案"
+  },
+  {
+   "date": "1940-05-15",
+   "text": "荷兰投降"
+  },
+  {
+   "date": "1940-05-28",
+   "text": "比利时投降"
+  },
+  {
+   "date": "1940-06-04",
+   "text": "敦刻尔克撤退结束，三十余万盟军渡过海峡"
+  },
+  {
+   "date": "1940-06-10",
+   "text": "意大利对英法宣战；挪威本土停止抵抗"
+  },
+  {
+   "date": "1940-06-14",
+   "text": "德军进入巴黎"
+  },
+  {
+   "date": "1940-06-22",
+   "text": "法德在贡比涅签署停战协定"
+  },
+  {
+   "date": "1940-07-10",
+   "text": "海峡上空的船队空战开始——不列颠空战"
+  },
+  {
+   "date": "1940-08-03",
+   "text": "波罗的海三国陆续被并入苏联"
+  },
+  {
+   "date": "1940-08-13",
+   "text": "鹰日：德国空军全力攻击英国机场"
+  },
+  {
+   "date": "1940-09-07",
+   "text": "德国空军转向轰炸伦敦"
+  },
+  {
+   "date": "1940-09-13",
+   "text": "意军自利比亚入侵埃及"
+  },
+  {
+   "date": "1940-09-15",
+   "text": "不列颠空战日，德军昼间空袭遭重创"
+  },
+  {
+   "date": "1940-09-27",
+   "text": "德意日签订三国同盟条约"
+  },
+  {
+   "date": "1940-10-28",
+   "text": "意军自阿尔巴尼亚入侵希腊"
+  },
+  {
+   "date": "1940-10-31",
+   "text": "不列颠空战结束（英方定义）"
+  },
+  {
+   "date": "1940-11-20",
+   "text": "匈牙利、罗马尼亚、斯洛伐克相继加入三国同盟"
+  },
+  {
+   "date": "1940-12-09",
+   "text": "英军在埃及发动罗盘行动"
+  },
+  {
+   "date": "1941-02-12",
+   "text": "隆美尔抵达的黎波里，德国非洲军开始参战"
+  },
+  {
+   "date": "1941-03-01",
+   "text": "保加利亚加入三国同盟"
+  },
+  {
+   "date": "1941-03-27",
+   "text": "贝尔格莱德政变，南斯拉夫退出三国同盟"
+  },
+  {
+   "date": "1941-04-06",
+   "text": "德军入侵南斯拉夫与希腊"
+  },
+  {
+   "date": "1941-04-13",
+   "text": "苏日签订中立条约"
+  },
+  {
+   "date": "1941-04-17",
+   "text": "南斯拉夫军队投降"
+  },
+  {
+   "date": "1941-04-27",
+   "text": "德军进入雅典"
+  },
+  {
+   "date": "1941-05-05",
+   "text": "海尔·塞拉西一世重返亚的斯亚贝巴"
+  },
+  {
+   "date": "1941-05-20",
+   "text": "德军空降克里特——水星行动"
+  },
+  {
+   "date": "1941-06-01",
+   "text": "英联邦守军撤离克里特"
+  },
+  {
+   "date": "1941-06-22",
+   "text": "德军入侵苏联——巴巴罗萨行动"
+  },
+  {
+   "date": "1941-06-25",
+   "text": "芬兰对苏开战，继续战争开始"
+  },
+  {
+   "date": "1941-08-25",
+   "text": "英苏联合进驻伊朗"
+  },
+  {
+   "date": "1941-09-08",
+   "text": "列宁格勒被围"
+  },
+  {
+   "date": "1941-10-02",
+   "text": "德军发动台风行动，进逼莫斯科"
+  },
+  {
+   "date": "1941-12-05",
+   "text": "苏军在莫斯科城下转入反攻"
+  },
+  {
+   "date": "1941-12-07",
+   "text": "日军偷袭珍珠港，太平洋战争爆发"
+  },
+  {
+   "date": "1941-12-08",
+   "text": "日军在马来亚登陆，进攻香港与菲律宾；美、英对日宣战"
+  },
+  {
+   "date": "1941-12-11",
+   "text": "德国、意大利对美国宣战"
+  },
+  {
+   "date": "1941-12-25",
+   "text": "香港沦陷"
+  },
+  {
+   "date": "1942-01-01",
+   "text": "二十六国签署《联合国家宣言》"
+  },
+  {
+   "date": "1942-02-15",
+   "text": "新加坡英军投降"
+  },
+  {
+   "date": "1942-03-09",
+   "text": "荷属东印度投降"
+  },
+  {
+   "date": "1942-05-06",
+   "text": "科雷希多岛美军投降"
+  },
+  {
+   "date": "1942-05-08",
+   "text": "珊瑚海海战结束"
+  },
+  {
+   "date": "1942-06-04",
+   "text": "中途岛海战，日军损失四艘航空母舰"
+  },
+  {
+   "date": "1942-06-21",
+   "text": "隆美尔攻陷托布鲁克"
+  },
+  {
+   "date": "1942-08-07",
+   "text": "美军登陆瓜达尔卡纳尔岛"
+  },
+  {
+   "date": "1942-08-23",
+   "text": "德军空袭斯大林格勒，斯大林格勒战役全面展开"
+  },
+  {
+   "date": "1942-10-23",
+   "text": "第二次阿拉曼战役开始"
+  },
+  {
+   "date": "1942-11-08",
+   "text": "火炬行动：英美军队登陆法属北非"
+  },
+  {
+   "date": "1942-11-19",
+   "text": "苏军发动天王星行动，合围斯大林格勒德军"
+  },
+  {
+   "date": "1943-02-02",
+   "text": "斯大林格勒德军投降"
+  },
+  {
+   "date": "1943-02-09",
+   "text": "日军撤离瓜达尔卡纳尔岛"
+  },
+  {
+   "date": "1943-05-13",
+   "text": "北非轴心国军队投降"
+  },
+  {
+   "date": "1943-07-05",
+   "text": "库尔斯克会战开始"
+  },
+  {
+   "date": "1943-07-10",
+   "text": "盟军登陆西西里"
+  },
+  {
+   "date": "1943-09-08",
+   "text": "意大利宣布停战"
+  },
+  {
+   "date": "1943-11-20",
+   "text": "美军登陆塔拉瓦"
+  },
+  {
+   "date": "1943-11-22",
+   "text": "中美英三国首脑举行开罗会议"
+  },
+  {
+   "date": "1944-01-27",
+   "text": "列宁格勒解围"
+  },
+  {
+   "date": "1944-06-06",
+   "text": "诺曼底登陆"
+  },
+  {
+   "date": "1944-06-15",
+   "text": "美军登陆塞班岛"
+  },
+  {
+   "date": "1944-06-19",
+   "text": "菲律宾海海战"
+  },
+  {
+   "date": "1944-06-22",
+   "text": "苏军发动巴格拉季昂行动"
+  },
+  {
+   "date": "1944-08-01",
+   "text": "华沙起义"
+  },
+  {
+   "date": "1944-08-25",
+   "text": "巴黎解放"
+  },
+  {
+   "date": "1944-10-20",
+   "text": "美军登陆莱特岛"
+  },
+  {
+   "date": "1944-12-16",
+   "text": "德军发动阿登反击"
+  },
+  {
+   "date": "1945-02-19",
+   "text": "美军登陆硫磺岛"
+  },
+  {
+   "date": "1945-04-01",
+   "text": "美军登陆冲绳"
+  },
+  {
+   "date": "1945-04-25",
+   "text": "美苏军队在易北河会师"
+  },
+  {
+   "date": "1945-05-02",
+   "text": "柏林守军投降"
+  },
+  {
+   "date": "1945-05-08",
+   "text": "德国无条件投降，欧洲战事结束"
+  },
+  {
+   "date": "1945-07-26",
+   "text": "中美英发表《波茨坦公告》"
+  },
+  {
+   "date": "1945-08-06",
+   "text": "美国在广岛投下原子弹"
+  },
+  {
+   "date": "1945-08-09",
+   "text": "苏联对日宣战并攻入中国东北；美国在长崎投下原子弹"
+  },
+  {
+   "date": "1945-08-15",
+   "text": "日本宣布无条件投降"
+  },
+  {
+   "date": "1945-09-02",
+   "text": "日本在密苏里号上签署投降书，第二次世界大战结束"
+  }
+ ],
+ "sources": {
+  "ww2": {
+   "title": "World War II",
+   "url": "https://en.wikipedia.org/wiki/World_War_II"
+  },
+  "sinojapanese": {
+   "title": "Second Sino-Japanese War",
+   "url": "https://en.wikipedia.org/wiki/Second_Sino-Japanese_War"
+  },
+  "anticomintern": {
+   "title": "Anti-Comintern Pact",
+   "url": "https://en.wikipedia.org/wiki/Anti-Comintern_Pact"
+  },
+  "spain": {
+   "title": "Spanish Civil War",
+   "url": "https://en.wikipedia.org/wiki/Spanish_Civil_War"
+  },
+  "pl": {
+   "title": "Invasion of Poland",
+   "url": "https://en.wikipedia.org/wiki/Invasion_of_Poland"
+  },
+  "frontier": {
+   "title": "German–Soviet Frontier Treaty (1939-09-28)",
+   "url": "https://en.wikipedia.org/wiki/German%E2%80%93Soviet_Frontier_Treaty"
+  },
+  "steel": {
+   "title": "Pact of Steel",
+   "url": "https://en.wikipedia.org/wiki/Pact_of_Steel"
+  },
+  "winter": {
+   "title": "Winter War",
+   "url": "https://en.wikipedia.org/wiki/Winter_War"
+  },
+  "no": {
+   "title": "Operation Weserübung",
+   "url": "https://en.wikipedia.org/wiki/Operation_Weser%C3%BCbung"
+  },
+  "fr": {
+   "title": "Battle of France",
+   "url": "https://en.wikipedia.org/wiki/Battle_of_France"
+  },
+  "armistice": {
+   "title": "Armistice of 22 June 1940",
+   "url": "https://en.wikipedia.org/wiki/Armistice_of_22_June_1940"
+  },
+  "freefrance": {
+   "title": "Free France",
+   "url": "https://en.wikipedia.org/wiki/Free_France"
+  },
+  "baltic": {
+   "title": "Occupation of the Baltic states",
+   "url": "https://en.wikipedia.org/wiki/Occupation_of_the_Baltic_states"
+  },
+  "tripartite": {
+   "title": "Tripartite Pact",
+   "url": "https://en.wikipedia.org/wiki/Tripartite_Pact"
+  },
+  "bk": {
+   "title": "Balkans campaign (World War II)",
+   "url": "https://en.wikipedia.org/wiki/Balkans_campaign_(World_War_II)"
+  },
+  "cr": {
+   "title": "Battle of Crete",
+   "url": "https://en.wikipedia.org/wiki/Battle_of_Crete"
+  },
+  "t1941": {
+   "title": "Operation Barbarossa",
+   "url": "https://en.wikipedia.org/wiki/Operation_Barbarossa"
+  },
+  "desert": {
+   "title": "Western Desert campaign",
+   "url": "https://en.wikipedia.org/wiki/Western_Desert_campaign"
+  },
+  "alamein": {
+   "title": "Second Battle of El Alamein",
+   "url": "https://en.wikipedia.org/wiki/Second_Battle_of_El_Alamein"
+  },
+  "eastafrica": {
+   "title": "East African campaign (World War II)",
+   "url": "https://en.wikipedia.org/wiki/East_African_campaign_(World_War_II)"
+  },
+  "torch": {
+   "title": "Operation Torch",
+   "url": "https://en.wikipedia.org/wiki/Operation_Torch"
+  },
+  "tunisia": {
+   "title": "Tunisian campaign",
+   "url": "https://en.wikipedia.org/wiki/Tunisian_campaign"
+  },
+  "syria": {
+   "title": "Syria–Lebanon campaign",
+   "url": "https://en.wikipedia.org/wiki/Syria%E2%80%93Lebanon_campaign"
+  },
+  "iraq": {
+   "title": "Anglo-Iraqi War",
+   "url": "https://en.wikipedia.org/wiki/Anglo-Iraqi_War"
+  },
+  "iran": {
+   "title": "Anglo-Soviet invasion of Iran",
+   "url": "https://en.wikipedia.org/wiki/Anglo-Soviet_invasion_of_Iran"
+  },
+  "madagascar": {
+   "title": "Battle of Madagascar",
+   "url": "https://en.wikipedia.org/wiki/Battle_of_Madagascar"
+  },
+  "iceland": {
+   "title": "Invasion of Iceland",
+   "url": "https://en.wikipedia.org/wiki/Invasion_of_Iceland"
+  },
+  "greenland": {
+   "title": "Greenland in World War II",
+   "url": "https://en.wikipedia.org/wiki/Greenland_in_World_War_II"
+  },
+  "italy": {
+   "title": "Italian campaign (World War II)",
+   "url": "https://en.wikipedia.org/wiki/Italian_campaign_(World_War_II)"
+  },
+  "overlord": {
+   "title": "Operation Overlord",
+   "url": "https://en.wikipedia.org/wiki/Operation_Overlord"
+  },
+  "liberation": {
+   "title": "Liberation of France",
+   "url": "https://en.wikipedia.org/wiki/Liberation_of_France"
+  },
+  "bulge": {
+   "title": "Battle of the Bulge",
+   "url": "https://en.wikipedia.org/wiki/Battle_of_the_Bulge"
+  },
+  "bagration": {
+   "title": "Operation Bagration",
+   "url": "https://en.wikipedia.org/wiki/Operation_Bagration"
+  },
+  "finland": {
+   "title": "Moscow Armistice",
+   "url": "https://en.wikipedia.org/wiki/Moscow_Armistice"
+  },
+  "romania": {
+   "title": "King Michael's Coup",
+   "url": "https://en.wikipedia.org/wiki/King_Michael%27s_Coup"
+  },
+  "hungary": {
+   "title": "Hungary in World War II",
+   "url": "https://en.wikipedia.org/wiki/Hungary_in_World_War_II"
+  },
+  "bulgaria": {
+   "title": "Bulgaria in World War II",
+   "url": "https://en.wikipedia.org/wiki/Bulgaria_in_World_War_II"
+  },
+  "veday": {
+   "title": "Victory in Europe Day",
+   "url": "https://en.wikipedia.org/wiki/Victory_in_Europe_Day"
+  },
+  "pacific": {
+   "title": "Pacific War",
+   "url": "https://en.wikipedia.org/wiki/Pacific_War"
+  },
+  "pearl": {
+   "title": "Attack on Pearl Harbor",
+   "url": "https://en.wikipedia.org/wiki/Attack_on_Pearl_Harbor"
+  },
+  "malaya": {
+   "title": "Malayan campaign",
+   "url": "https://en.wikipedia.org/wiki/Malayan_campaign"
+  },
+  "dei": {
+   "title": "Dutch East Indies campaign",
+   "url": "https://en.wikipedia.org/wiki/Dutch_East_Indies_campaign"
+  },
+  "thailand": {
+   "title": "Thailand in World War II",
+   "url": "https://en.wikipedia.org/wiki/Thailand_in_World_War_II"
+  },
+  "indochina": {
+   "title": "Japanese invasion of French Indochina",
+   "url": "https://en.wikipedia.org/wiki/Japanese_invasion_of_French_Indochina"
+  },
+  "philippines1": {
+   "title": "Philippines campaign (1941–1942)",
+   "url": "https://en.wikipedia.org/wiki/Philippines_campaign_(1941%E2%80%931942)"
+  },
+  "philippines2": {
+   "title": "Philippines campaign (1944–1945)",
+   "url": "https://en.wikipedia.org/wiki/Philippines_campaign_(1944%E2%80%931945)"
+  },
+  "burma": {
+   "title": "Burma campaign",
+   "url": "https://en.wikipedia.org/wiki/Burma_campaign"
+  },
+  "newguinea": {
+   "title": "New Guinea campaign",
+   "url": "https://en.wikipedia.org/wiki/New_Guinea_campaign"
+  },
+  "guadalcanal": {
+   "title": "Guadalcanal campaign",
+   "url": "https://en.wikipedia.org/wiki/Guadalcanal_campaign"
+  },
+  "marianas": {
+   "title": "Mariana and Palau Islands campaign",
+   "url": "https://en.wikipedia.org/wiki/Mariana_and_Palau_Islands_campaign"
+  },
+  "manchuria": {
+   "title": "Soviet invasion of Manchuria",
+   "url": "https://en.wikipedia.org/wiki/Soviet_invasion_of_Manchuria"
+  },
+  "surrender": {
+   "title": "Surrender of Japan",
+   "url": "https://en.wikipedia.org/wiki/Surrender_of_Japan"
+  },
+  "latam": {
+   "title": "Latin America during World War II",
+   "url": "https://en.wikipedia.org/wiki/Latin_America_during_World_War_II"
+  },
+  "unitednations": {
+   "title": "Declaration by United Nations",
+   "url": "https://en.wikipedia.org/wiki/Declaration_by_United_Nations"
+  }
+ }
 }

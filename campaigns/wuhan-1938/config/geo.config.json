@@ -1,0 +1,88 @@
+{
+  "_doc": "地理管线参数（sh tools/geo/run.sh <id>）。frame 段决定投影与画布，改动后需重新生成全部地图资产并核对已有坐标。",
+  "frame": {
+    "bbox": [
+      112,
+      28,
+      118.5,
+      33.5
+    ],
+    "parallels": [
+      29,
+      32.5
+    ],
+    "rotate": [
+      -115.25,
+      0
+    ],
+    "center": [
+      0,
+      30.75
+    ],
+    "width": 8192,
+    "tileLevels": [
+      1024,
+      2048,
+      4096,
+      8192
+    ],
+    "fieldCell": 16,
+    "clampKm": 60
+  },
+  "borders": {
+    "source": "world_1938",
+    "ids": {
+      "Empire of Japan": "JP",
+      "Chinese warlords": "CN"
+    },
+    "zh": {
+      "JP": "日本",
+      "CN": "中国"
+    },
+    "merge": {}
+  },
+  "masks": {
+    "landBit": 4,
+    "bits": {
+      "0": [
+        "CN"
+      ],
+      "1": [
+        "JP"
+      ]
+    },
+    "otherLandBit": 6
+  },
+  "rivers": {
+    "maxRank": 10,
+    "names": {
+      "Yangtze": ["Yangtze", "长 江", 1],
+      "Chang Jiang": ["Yangtze", "长 江", 1],
+      "Han": ["Han", "汉 水", 2],
+      "Gan": ["Gan", "赣 江", 3],
+      "Huang": ["Huang", "黄 河", 2],
+      "Huai": ["Huai", "淮 河", 3]
+    }
+  },
+  "lakes": {
+    "maxRank": 5,
+    "zh": {
+      "Poyang Hu": "鄱阳湖",
+      "Dongting Hu": "洞庭湖",
+      "Liangzi Hu": "梁子湖",
+      "Chao Hu": "巢湖",
+      "Hongze Hu": "洪泽湖",
+      "Tai Hu": "太湖"
+    },
+    "keep": ["Dongting Hu"],
+    "drop": []
+  },
+  "forest": [
+    { "zh": "大别山林区", "name": "", "blobs": [[115.6, 31.1, 95, 55, 25, 19381], [115.1, 30.9, 45, 30, 15, 19385]] },
+    { "zh": "幕阜山—九宫山林区", "name": "", "blobs": [[114.4, 29.5, 85, 45, 20, 19382]] },
+    { "zh": "庐山林区", "name": "", "blobs": [[115.98, 29.55, 22, 14, 30, 19383]] }
+  ],
+  "marsh": [
+    { "zh": "黄泛区（1938年决堤后，历史示意）", "name": "", "blobs": [[114.6, 33.0, 130, 40, 15, 19384]] }
+  ]
+}

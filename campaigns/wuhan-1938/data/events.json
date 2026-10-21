@@ -1,0 +1,908 @@
+[
+ {
+  "id": "e.218air",
+  "at": "1938-02-18T00:00",
+  "precision": "day",
+  "category": "air",
+  "importance": 2,
+  "title": {
+   "zh": "二一八空战：武汉上空首挫日机"
+  },
+  "place": "@hankou",
+  "units": [
+   "cn.air4",
+   "cn.soviet",
+   "jp.air2"
+  ],
+  "body": "2月18日，日机来袭武汉，中国空军第4大队代大队长李桂丹率29架迎击，宣布击落日机12—14架（英文维基确认至少7架A5M），自损4—5架。李桂丹与日军指挥官金子隆司均阵亡；中方另殉吕基淳、李鹏翔、巴清正、王怡。两万余民众祝捷，为武汉空战首捷。",
+  "mapNote": "战果双方口径有出入，中方宣布数与英文维基核实数并列。",
+  "zoomRel": 6,
+  "sfx": [
+   "fighter"
+  ],
+  "photo": {
+   "commons": "File:Soviet Aviators in China.jpg",
+   "caption": "在中国的苏联援华航空志愿队员；Commons编目，具体拍摄日未详。"
+  },
+  "sources": [
+   "zhwiki_wuhan",
+   "enwiki_wuhan",
+   "mackinnon_wuhan_1996"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "e.429air",
+  "at": "1938-04-29T00:00",
+  "precision": "day",
+  "category": "air",
+  "importance": 2,
+  "title": {
+   "zh": "四二九空战：天长节大空战"
+  },
+  "place": "@hankou",
+  "units": [
+   "cn.air4",
+   "cn.soviet",
+   "jp.air2"
+  ],
+  "body": "4月29日（天长节，天皇生日），日机60余架空袭武汉祝寿，中方预获情报集中67架伏击，宣布击落21架、自损12架。飞行员陈怀民击落日机1架后遭5机围攻，驾机撞毁日王牌高桥宪一之机同归于尽，年22岁。日方承认损失远低（2—4架），但日编队被击溃未有效投弹属实。武汉今有陈怀民路。",
+  "mapNote": "中方宣布战果与日方承认数差距大，本卷并列两口径，不取单一数字。",
+  "zoomRel": 6,
+  "sfx": [
+   "fighter"
+  ],
+  "photo": {
+   "commons": "File:Soviet Aviators in China.jpg",
+   "caption": "在中国的苏联援华航空志愿队员；Commons编目，四二九空战中苏联合抗击日机。"
+  },
+  "sources": [
+   "zhwiki_wuhan",
+   "enwiki_wuhan",
+   "mackinnon_wuhan_1996"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "e.531air",
+  "at": "1938-05-31T00:00",
+  "precision": "day",
+  "category": "air",
+  "importance": 3,
+  "title": {
+   "zh": "五三一空战"
+  },
+  "place": "@hankou",
+  "units": [
+   "cn.air4",
+   "cn.soviet",
+   "jp.air2"
+  ],
+  "body": "5月31日，日机再次空袭武汉，中苏空军迎战，宣布击落日机14架、自损2架。连同二一八、四二九，官方累计称三次空战击落日机47架；会战全程中方宣布击落62架、炸毁16架。苏联志愿队古边科以撞击战法击落1架。",
+  "zoomRel": 5,
+  "sfx": [
+   "fighter"
+  ],
+  "sources": [
+   "zhwiki_wuhan",
+   "enwiki_wuhan"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "e.huayuankou",
+  "at": "1938-06-09T00:00",
+  "precision": "day",
+  "category": "atrocity",
+  "importance": 1,
+  "title": {
+   "zh": "花园口决堤：以水代兵"
+  },
+  "place": "@huayuankou",
+  "body": "6月9日，为阻止日军沿平汉路直下武汉，国民政府军在郑州以北花园口炸开黄河大堤（先掘赵口未成）。黄河夺淮入海，淹没豫皖苏44县、约5.4万平方公里，直接淹死约8.9万人，含后续水疫饥荒总死亡有38万—89万诸说，难民390余万。",
+  "mapNote": "国民政府当时对外宣传为日机轰炸所致，赴台后档案解密始证实自决；本卷据档案如实标注。",
+  "wide": true,
+  "zoomRel": 5,
+  "photo": {
+   "commons": "File:1938 Yellow River flood.jpg",
+   "caption": "1938年6月黄河决堤后涉水行进的中国军队；Commons编目。"
+  },
+  "sources": [
+   "mazhonglian_huayuankou",
+   "zhwiki_wuhan",
+   "mackinnon_wuhan_1996"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "e.anqing",
+  "at": "1938-06-12T00:00",
+  "precision": "day",
+  "category": "battle",
+  "importance": 1,
+  "title": {
+   "zh": "安庆失守：会战主体开端"
+  },
+  "place": "@anqing",
+  "units": [
+   "jp.hata",
+   "jp.sentai11",
+   "cn.army20"
+  ],
+  "body": "6月11日日本海军通告驻汉口各国领事溯江作战开始，当夜波田支队乘雨在安庆下游20公里登陆，12日下午占安庆机场，当日晚安庆（时安徽省会）陷落（日期有12/13日两说）。守军第27集团军杨森部第20军未经力战即撤，蒋介石电斥杨森『轻弃名城，腾笑友邦』。此为武汉会战主体的开端。",
+  "mapNote": "安庆陷落日期12日与13日两说并存，本卷取多数中方档案的12日登陆—陷落口径。",
+  "zoomRel": 5,
+  "sfx": [
+   "ship_gun"
+  ],
+  "photo": {
+   "commons": "File:Japanese Special Naval Landing Forces on the deck board of the IJN xxx, June 11th.jpg",
+   "caption": "1938年6月11日在军舰甲板上的日本海军特别陆战队，正向安庆方向输送；Commons编目。"
+  },
+  "sources": [
+   "danganju_youxue_14",
+   "sushengxiong_hata",
+   "zhwiki_wuhan"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "e.qianshan",
+  "at": "1938-06-17T00:00",
+  "precision": "day",
+  "category": "battle",
+  "importance": 3,
+  "title": {
+   "zh": "第6师团占潜山"
+  },
+  "place": "@qianshan",
+  "units": [
+   "jp.div6"
+  ],
+  "body": "6月8日第6师团占舒城、13日占桐城，17日占潜山（《熊本兵团战史》记6月6日进攻合肥以南警戒阵地为进攻武汉第一枪）。潜山战后第6师团伤亡颇大（仅第4野战医院即收容伤员2307人），休整至7月下旬，再沿太湖—宿松—黄梅西进，成为长江北岸主攻矛头。",
+  "zoomRel": 5,
+  "sources": [
+   "jacar_senshi_chugoku",
+   "zhwiki_wuhan",
+   "pengpai_yangxiaochen"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "e.dalu119",
+  "at": "1938-06-18T00:00",
+  "precision": "day",
+  "category": "political",
+  "importance": 3,
+  "title": {
+   "zh": "大陆命第119号：汉口作战准备令"
+  },
+  "place": "@nanjing",
+  "units": [
+   "jp.ccaa"
+  ],
+  "body": "6月15日御前会议正式决定攻占武汉，裕仁称要给国民政府『最后致命一击』；6月18日大本营以《大陆命第119号》下达汉口作战准备命令。此前6月17日第6师团已占潜山，安庆—潜山走廊打通，为溯江与北路两军的前进基地。",
+  "zoomRel": 4,
+  "sources": [
+   "jacar_senshi_chugoku",
+   "sushengxiong_hata"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "e.madang",
+  "at": "1938-06-26T00:00",
+  "precision": "day",
+  "category": "battle",
+  "importance": 1,
+  "title": {
+   "zh": "马当要塞陷落"
+  },
+  "place": "@madang",
+  "units": [
+   "jp.hata",
+   "cn.madang"
+  ],
+  "body": "6月22日起波田支队攻马当，水路被沉船与600余枚水雷阻塞，改陆路迂回。6月24日守军第16军李韫珩正办训练班结业典礼、各级指挥官集体脱岗，黄山、香山、香口失守；26日拂晓日军放毒气后在娘娘庙、牛山矶登陆迂回要塞侧后，长山阵地弹尽援绝，马当陷落。",
+  "mapNote": "要塞6月26日陷落与舰队6月29日扫雷通过封锁线分属不同日期、不同地点。",
+  "zoomRel": 6,
+  "sfx": [
+   "artillery"
+  ],
+  "sources": [
+   "danganju_youxue_14",
+   "zhwiki_wuhan",
+   "tan_feicheng_2010"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "e.pengze",
+  "at": "1938-06-29T00:00",
+  "precision": "day",
+  "category": "battle",
+  "importance": 3,
+  "title": {
+   "zh": "彭泽失守，舰队通过封锁线"
+  },
+  "place": "@pengze",
+  "units": [
+   "jp.hata",
+   "jp.sentai11"
+  ],
+  "body": "6月29日，波田支队占彭泽县城；日军舰队扫雷后于29—30日通过马当封锁线。中方第16、第53、第167师反攻马当，28日一度克复香山等地，终未能夺回要塞。蒋介石悬赏5万反攻，第60师、第105师收复香山获奖2万，但要塞易手已成定局，长江第二道封锁线告破。",
+  "zoomRel": 5,
+  "sfx": [
+   "ship_gun"
+  ],
+  "sources": [
+   "danganju_youxue_14",
+   "zhwiki_wuhan"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "e.hukou",
+  "at": "1938-07-04T00:00",
+  "precision": "day",
+  "category": "battle",
+  "importance": 2,
+  "title": {
+   "zh": "湖口失守"
+  },
+  "place": "@hukou",
+  "units": [
+   "jp.hata",
+   "jp.div106",
+   "cn.hukou"
+  ],
+  "body": "7月4日（《畑俊六日誌》作5日），波田支队舰艇西上、第106师团沿公路合攻，湖口（鄱阳湖入江之口）失守，守军抵抗五天、日军再放毒气。第26师撤退时船只不足，3100余非战斗人员中1300余人失踪，多溺死于鄱阳湖。长江封锁线节节被突破，九江门户洞开。",
+  "zoomRel": 5,
+  "sfx": [
+   "ship_gun"
+  ],
+  "sources": [
+   "danganju_youxue_14",
+   "sushengxiong_hata",
+   "zhwiki_wuhan"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "e.jiujiang",
+  "at": "1938-07-26T00:00",
+  "precision": "day",
+  "category": "battle",
+  "importance": 1,
+  "title": {
+   "zh": "九江陷落与张发奎去职"
+  },
+  "place": "@jiujiang",
+  "units": [
+   "jp.hata",
+   "jp.div106",
+   "cn.army29"
+  ],
+  "body": "7月22—23日波田支队冒雨在九江东南姑塘登陆，第70军反击一度击退；24日夜波田支队联合第106师团一部总攻，26日晚九江陷落，同日江北小池口失守、第6师团占太湖。第2兵团总司令张发奎因速败被蒋介石严斥、责令交出指挥权，赣北实归薛岳接掌。",
+  "mapNote": "九江背水绝地本难久守，蒋处分为马当事件杀一儆百；九江屠杀规模仅见转引，标『一说』。",
+  "zoomRel": 6,
+  "sfx": [
+   "artillery"
+  ],
+  "sources": [
+   "danganju_youxue_14",
+   "sushengxiong_hata",
+   "mackinnon_wuhan_1996",
+   "zhwiki_wuhan"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "e.jinguangqiao",
+  "at": "1938-08-03T00:00",
+  "precision": "day",
+  "category": "battle",
+  "importance": 3,
+  "title": {
+   "zh": "金官桥拉锯：第106师团受创"
+  },
+  "place": "@jinguanqiao",
+  "units": [
+   "jp.div106",
+   "cn.army29"
+  ],
+  "body": "8月上旬，第106师团沿南浔铁路南犯，薛岳第1兵团在南浔沿线山地设『反八字阵』，依托庐山北麓阵地阻击。金官桥、沙河一带战斗毙伤日军约8000人（中方战报）、击毙联队长2名，第106师团约16000人伤亡过半，冈村宁次被迫令其停攻休整、数次补员。同日（八三）武汉空战再捷。",
+  "zoomRel": 6,
+  "sfx": [
+   "mg"
+  ],
+  "sources": [
+   "zhwiki_wuhan",
+   "er_shi_guan_minglu"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "e.air83",
+  "at": "1938-08-03T12:00",
+  "precision": "day",
+  "category": "air",
+  "importance": 3,
+  "title": {
+   "zh": "八三空战"
+  },
+  "place": "@hankou",
+  "units": [
+   "cn.air4",
+   "cn.soviet"
+  ],
+  "body": "8月3日，中方52架（伊15、伊16、格斗士、霍克III）拦截日机（A5M、G3M）。朱嘉勋、何信及华裔美籍陈瑞钿、雷炎均驾格斗士式宣称击落多架A5M。连同二一八、四二九、五三一，武汉空战以中苏联合力量屡挫日军战略轰炸，为会战前奏的重要篇章。",
+  "zoomRel": 5,
+  "sfx": [
+   "fighter"
+  ],
+  "sources": [
+   "zhwiki_wuhan",
+   "enwiki_wuhan"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "e.huangmei",
+  "at": "1938-08-04T00:00",
+  "precision": "day",
+  "category": "battle",
+  "importance": 3,
+  "title": {
+   "zh": "江北：宿松、黄梅失守"
+  },
+  "place": "@huangmei",
+  "units": [
+   "jp.div6"
+  ],
+  "body": "江北第6师团自太湖（7月26日陷落）续进，8月1日占宿松、4日占黄梅（日期采日方战史系统；英文维基8月3日连占三地说不取）。第五战区第4兵团李品仙以第11集团军、第68军在黄梅布防，第21集团军廖磊、第26军萧之楚、第29集团军南下侧击。",
+  "zoomRel": 5,
+  "sources": [
+   "qianxi_wuhan_1999",
+   "zhwiki_wuhan"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "e.xingzi",
+  "at": "1938-08-21T00:00",
+  "precision": "day",
+  "category": "battle",
+  "importance": 3,
+  "title": {
+   "zh": "第101师团渡湖：星子失守"
+  },
+  "place": "@xingzi",
+  "units": [
+   "jp.div101",
+   "cn.army25"
+  ],
+  "body": "8月20日，第101师团（伊东政喜）自湖口渡鄱阳湖，在星子登陆，突破第25军防线，21日星子失守，与第106师团协同企图攻占德安、南昌以保障西进日军南翼。薛岳令第66军、第74军、第4军、第29军会同第25军在德安以北阻击，战事陷入僵持。",
+  "zoomRel": 5,
+  "sfx": [
+   "ship_gun"
+  ],
+  "sources": [
+   "zhwiki_wuhan",
+   "er_shi_guan_minglu"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "e.ruichang",
+  "at": "1938-08-24T00:00",
+  "precision": "day",
+  "category": "battle",
+  "importance": 2,
+  "title": {
+   "zh": "瑞昌失守"
+  },
+  "place": "@ruichang",
+  "units": [
+   "jp.hata",
+   "jp.div9",
+   "cn.army30"
+  ],
+  "body": "8月10日波田支队在瑞昌东北登陆进攻，第2兵团（获第32集团军关麟征增援）阻击；8月22日日军进攻受挫后施放毒气。第9师团（吉住良辅）8月16日九江登陆加入后，8月24日瑞昌失守。",
+  "zoomRel": 5,
+  "sfx": [
+   "artillery"
+  ],
+  "sources": [
+   "danganju_youxue_14",
+   "zhwiki_wuhan",
+   "er_shi_guan_minglu"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "e.dabieshan_start",
+  "at": "1938-08-28T00:00",
+  "precision": "day",
+  "category": "movement",
+  "importance": 2,
+  "title": {
+   "zh": "第2军出合肥：大别山北麓展开"
+  },
+  "place": "@luan",
+  "units": [
+   "jp.army2",
+   "jp.div10",
+   "jp.div13"
+  ],
+  "body": "因黄泛转进困难而迟滞两个半月的第2军（东久迩宫稔彦王），8月下旬在合肥完成集结，27—28日分两路西进：北路第10师团突破第51军防线、28日占六安；南路第13师团突破第77军、28—29日占霍山转叶家集。大别山北麓战事自此展开，与沿江第11军形成对武汉的两路钳形攻势。",
+  "mapNote": "黄泛对日军集结的迟滞有日方战史支持，但『决堤改变进攻路线』说存学术争议（马仲廉），见花园口事件注。",
+  "wide": true,
+  "zoomRel": 4,
+  "sources": [
+   "zhwiki_wuhan",
+   "er_shi_guan_minglu",
+   "qianxi_wuhan_1999",
+   "mazhonglian_huayuankou"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "e.fujinshan",
+  "at": "1938-09-11T00:00",
+  "precision": "day",
+  "category": "battle",
+  "importance": 1,
+  "title": {
+   "zh": "富金山战役：十昼夜阻击"
+  },
+  "place": "@fujinshan",
+  "units": [
+   "cn.army71",
+   "jp.div13",
+   "jp.div16"
+  ],
+  "body": "9月2—11日，宋希濂第71军（第36、第88、第61师）联合第51军在河南固始东南富金山阻击第13师团（荻洲立兵）十昼夜。第36师正面死守，撤下时仅剩800余人；日军第26旅团长沼田德重负伤，9月7日放毒气一度突破。9月11日日军增援第16师团自结合部突破，主阵地失守。",
+  "mapNote": "日军伤亡中方战报与日方部队史差异大，两口径并列；此战为大别山北麓最惨烈阻击。",
+  "zoomRel": 6,
+  "sfx": [
+   "artillery"
+  ],
+  "sources": [
+   "zhwiki_wuhan",
+   "danganju_youxue_14",
+   "qianxi_wuhan_1999"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "e.gas",
+  "at": "1938-09-15T00:00",
+  "precision": "day",
+  "category": "atrocity",
+  "importance": 2,
+  "title": {
+   "zh": "日军的毒气战"
+  },
+  "place": "@tianjiazhen",
+  "body": "据吉见义明、松野诚也的档案研究，会战期间闲院宫载仁亲王传达天皇命令，1938年8—10月日军在375处使用有害气体；东久迩宫稔彦王8月16日有书面授权。马当、九江、瑞昌、富金山、潢川（835枚赤筒，日方自认）、广济、田家镇等处均见毒气使用。",
+  "mapNote": "毒气战为日本最高统帅部授权的战争罪行，有日方档案证实。",
+  "wide": true,
+  "zoomRel": 4,
+  "sources": [
+   "yoshimi_gas",
+   "zhwiki_wuhan"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "e.shangcheng",
+  "at": "1938-09-16T00:00",
+  "precision": "day",
+  "category": "battle",
+  "importance": 3,
+  "title": {
+   "zh": "商城失守，退守小界岭"
+  },
+  "place": "@shangcheng",
+  "units": [
+   "jp.div13",
+   "jp.div16",
+   "cn.army71"
+  ],
+  "body": "9月16日，日军第13、第16师团攻占商城，守军撤至商城以南，依托大别山小界岭—沙窝一线继续抵抗。自9月18日起，第71军、第30军、第42军在此防守沙窝、新店——此为武汉会战北线唯一未被日军突破的战略防线，日军久攻不下，直至10月25日（中方已弃武汉）始占麻城。",
+  "zoomRel": 5,
+  "sfx": [
+   "mg"
+  ],
+  "sources": [
+   "zhwiki_wuhan",
+   "zhwiki_wuhan"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "e.huangchuan",
+  "at": "1938-09-19T00:00",
+  "precision": "day",
+  "category": "battle",
+  "importance": 2,
+  "title": {
+   "zh": "潢川之役：毒气下的十二昼夜"
+  },
+  "place": "@huangchuan",
+  "units": [
+   "cn.army27",
+   "jp.div10"
+  ],
+  "body": "9月中旬，张自忠第59军（第27集团军）在潢川（光州）掩护战区转移，苦战约十二昼夜，中方称歼敌约3000、自损4000余。9月17日，日军第2军第2号瓦斯部队对潢川东门发射835枚『赤筒』毒气弹——日方1942年《支那事变化学战例证集》第52例自认。",
+  "mapNote": "毒气弹使用有日方自认档案；潢川确切陷落日期存区间异说。",
+  "zoomRel": 5,
+  "sfx": [
+   "artillery"
+  ],
+  "sources": [
+   "zhwiki_wuhan",
+   "danganju_youxue_14",
+   "yoshimi_gas"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "e.kunlongguan",
+  "at": "1938-09-20T00:00",
+  "precision": "day",
+  "category": "battle",
+  "importance": 3,
+  "title": {
+   "zh": "困龙关阻击三十二天"
+  },
+  "place": "@kunlongguan",
+  "units": [
+   "cn.army55",
+   "jp.div6"
+  ],
+  "body": "9月6日至10月初，第6师团第36旅团（牛岛满）攻蕲广线困龙关，曹福林第55军等凭险阻击三十二天未让通过，白崇禧称歼敌2000余、缴炮36门。日军被迫放弃沿陆路西进，转攻田家镇要塞。此为长江北岸迟滞日军的重要阻击战。",
+  "zoomRel": 5,
+  "sfx": [
+   "mg"
+  ],
+  "sources": [
+   "zhwiki_wuhan",
+   "qianxi_wuhan_1999"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "e.fuchikou",
+  "at": "1938-09-24T00:00",
+  "precision": "day",
+  "category": "battle",
+  "importance": 2,
+  "title": {
+   "zh": "富池口、马头镇失守"
+  },
+  "place": "@fuchikou",
+  "units": [
+   "jp.hata",
+   "cn.fuchi",
+   "cn.army54"
+  ],
+  "body": "9月24日，江南马头镇（今码头镇）、富池口（半壁山）相继失守。守军第54军血战八昼夜后阵地被突破，第18师师长李芳郴弃职潜逃，军心动摇。富池口一失，田家镇要塞失去南岸犄角，长江水路门户洞开。此处『马头镇』（瑞昌县）与下游的『马当』（彭泽/东至界）是两个不同地点，史料常混。",
+  "mapNote": "马头镇≠马当，两地相距约百公里，本卷分别标注。",
+  "zoomRel": 6,
+  "sfx": [
+   "artillery"
+  ],
+  "sources": [
+   "danganju_youxue_14",
+   "zhwiki_wuhan"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "e.wanjialing_encircle",
+  "at": "1938-09-28T00:00",
+  "precision": "day",
+  "category": "battle",
+  "importance": 2,
+  "title": {
+   "zh": "第106师团陷入万家岭"
+  },
+  "place": "@wanjialing",
+  "units": [
+   "jp.div106",
+   "cn.corps1"
+  ],
+  "body": "9月下旬，冈村宁次从空中侦察发现南浔路与瑞武路间空隙，令第106师团（留一部守九江，实进约1.3万人）向西迂回。该师团因地图失误迷路，9月24日突破德安以西一线后遭欧震第4军、俞济时第74军堵截，9月28日前后孤军深入万家岭。薛岳发现战机，集10余万人从侧后迂回四面包围；",
+  "zoomRel": 6,
+  "sfx": [
+   "mg"
+  ],
+  "sources": [
+   "danganju_youxue_15",
+   "danganju_youxue_15",
+   "zhwiki_wuhan"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "e.tianjiazhen",
+  "at": "1938-09-29T00:00",
+  "precision": "day",
+  "category": "battle",
+  "importance": 1,
+  "title": {
+   "zh": "田家镇要塞陷落"
+  },
+  "place": "@tianjiazhen",
+  "units": [
+   "cn.army2t",
+   "cn.tianjia",
+   "jp.div6",
+   "jp.hata"
+  ],
+  "body": "9月15—29日，田家镇要塞保卫战。守军第11军团李延年以第2军第9师、第57师据要塞，第26、第48、第86军外围策应；日军第6师团今村支队约1.5万陆海空协同猛攻，放毒气。9月26—28日总攻核心，工事全毁，守军大部殉国，29日要塞陷落，长江门户洞开。",
+  "mapNote": "田家镇为武汉下游最后一道江防锁钥；日方联队级惨重损失见其部队史。",
+  "zoomRel": 6,
+  "sfx": [
+   "artillery"
+  ],
+  "photo": {
+   "commons": "File:Defenders Around River.jpg",
+   "caption": "武汉战役中防守长江地区的中国军队；Commons编目，具体地点未详。"
+  },
+  "sources": [
+   "danganju_youxue_14",
+   "zhwiki_wuhan",
+   "pengpai_yangxiaochen"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "e.ruoxi",
+  "at": "1938-10-05T00:00",
+  "precision": "day",
+  "category": "battle",
+  "importance": 3,
+  "title": {
+   "zh": "箬溪失守"
+  },
+  "place": "@ruoxi",
+  "units": [
+   "jp.div27",
+   "cn.army30"
+  ],
+  "body": "10月5日，第27师团攻占箬溪（今武宁县鲁溪镇，地名雅化改写），转向西北进犯。此前第30集团军王陵基部、第18军沿瑞昌—箬溪公路及附近地区抵抗，与日军僵持一个多月。箬溪一失，日军南翼打开，10月18日占湖北辛潭铺，向阳新、大冶方向进犯。",
+  "zoomRel": 5,
+  "sources": [
+   "zhwiki_wuhan",
+   "danganju_youxue_14"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "e.wanjialing",
+  "at": "1938-10-10T00:00",
+  "precision": "day",
+  "category": "battle",
+  "importance": 1,
+  "title": {
+   "zh": "万家岭大捷"
+  },
+  "place": "@wanjialing",
+  "units": [
+   "jp.div106",
+   "cn.army4",
+   "cn.army66",
+   "cn.army74",
+   "cn.army32"
+  ],
+  "body": "10月7日起中方总攻三昼夜；第74军第51师与日军第147联队反复争夺张古山，日军10月9日起空投军官约200名补充（侵华战史首次，多被击毙）。10月10日（双十节）宣布大捷：第106师团主力被歼，松浦淳六郎率约1500残部突围。中方战报称歼敌万余；",
+  "mapNote": "中方『歼敌万余』与日方档案推算『自定员除名6500+』口径不同，本卷并列。",
+  "zoomRel": 6,
+  "sfx": [
+   "artillery",
+   "mg"
+  ],
+  "photo": {
+   "commons": "File:NRAWanjialing1.jpg",
+   "caption": "万家岭战役中的国民革命军；Commons编目。"
+  },
+  "sources": [
+   "danganju_youxue_15",
+   "danganju_youxue_15",
+   "pengpai_yangxiaochen"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "e.xinyang",
+  "at": "1938-10-12T00:00",
+  "precision": "day",
+  "category": "battle",
+  "importance": 1,
+  "title": {
+   "zh": "信阳失守：北路合围成形"
+  },
+  "place": "@xinyang",
+  "units": [
+   "jp.army2",
+   "jp.div10",
+   "jp.div3",
+   "cn.army17"
+  ],
+  "body": "10月6日第3师团迂回占平汉路柳林站，断信阳以南铁路；10月12日第2军（第10、第3师团）攻占信阳，推进至武胜关方向，从北面对武汉形成包围。胡宗南第17军团撤守，致李宗仁桂系部队侧翼暴露（Mitter 批评）。中方资料称信阳方向歼敌2600人。至此武汉已处东、南、北三面包围。",
+  "zoomRel": 5,
+  "sfx": [
+   "artillery"
+  ],
+  "photo": {
+   "commons": "File:Chinese Troops in Xinyang.jpg",
+   "caption": "武汉会战期间防守信阳地区的国民革命军第十七军团；Commons编目。"
+  },
+  "sources": [
+   "zhwiki_wuhan",
+   "danganju_youxue_14",
+   "mackinnon_wuhan_1996"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "e.xiaojieling",
+  "at": "1938-10-20T00:00",
+  "precision": "day",
+  "category": "battle",
+  "importance": 3,
+  "title": {
+   "zh": "小界岭：未被突破的防线"
+  },
+  "place": "@xiaojieling",
+  "units": [
+   "cn.army71",
+   "cn.army30t",
+   "cn.army42",
+   "jp.div13",
+   "jp.div16"
+  ],
+  "body": "9月18日至10月下旬，小界岭战役（豫鄂界商城—经扶—麻城福田河一带）。第71军、第30军、第42军防守沙窝、新店一线，第13、第16师团久攻不下——此为武汉会战北线唯一未被日军突破的战略防线。中方资料称日军突破大别山付出战死千余、伤约3400人，平均每连减员至40人；",
+  "zoomRel": 5,
+  "sfx": [
+   "mg"
+  ],
+  "sources": [
+   "zhwiki_wuhan",
+   "zhwiki_wuhan"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "e.guangzhou",
+  "at": "1938-10-21T00:00",
+  "precision": "day",
+  "category": "political",
+  "importance": 2,
+  "title": {
+   "zh": "广州沦陷：外援线断绝"
+  },
+  "place": "@wuhan",
+  "body": "10月12日日军第21军（古庄干郎）奇袭广东大亚湾登陆，10月21日广州沦陷——粤汉、九广铁路被切断，中国自南方港口输入外援的通道断绝，武汉作为补给枢纽的战略价值就此丧失。此为促使国民政府决心弃守武汉的关键因素。10月14日军事委员会已正式决定放弃武汉、机构迁重庆；",
+  "mapNote": "广州在本图之外，此事件以武汉为落点，说明弃守决策的战略动因。",
+  "wide": true,
+  "zoomRel": 4,
+  "sources": [
+   "zhwiki_wuhan",
+   "enwiki_wuhan",
+   "mackinnon_wuhan_1996"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "e.yangxin",
+  "at": "1938-10-22T00:00",
+  "precision": "day",
+  "category": "battle",
+  "importance": 2,
+  "title": {
+   "zh": "阳新、大冶失守"
+  },
+  "place": "@yangxin",
+  "units": [
+   "jp.div9",
+   "jp.hata"
+  ],
+  "body": "10月22日，阳新、大冶、鄂城（今鄂州）方向要点相继失守。第2兵团以第6、第54、第75、第98军及第26、第30军团在阳新、大冶加强防御亦未能挽回；第9师团及波田支队向岳阳急进，企图截断粤汉铁路，从南面直逼武昌。武汉三镇已无外围屏障。",
+  "zoomRel": 5,
+  "sfx": [
+   "artillery"
+  ],
+  "sources": [
+   "zhwiki_wuhan",
+   "danganju_youxue_14"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "e.zhongshan",
+  "at": "1938-10-24T00:00",
+  "precision": "day",
+  "category": "naval",
+  "importance": 2,
+  "title": {
+   "zh": "中山舰金口战沉"
+  },
+  "place": "@jinkou",
+  "units": [
+   "cn.zhongshan"
+  ],
+  "body": "10月24日，中山舰（原永丰舰）在武昌金口龙床矶执行航道封锁任务，遭6架日机轰炸。舰长萨师俊（萨镇冰侄孙）双腿被炸断仍倚栏指挥，拒不弃舰；部属强抬下舢板，舢板复被炸，萨师俊与全舰25名官兵殉国，舰沉金口。此为抗战期间中国海军阵亡最高级别军官。",
+  "mapNote": "中方宣称击落日机3架，日方记录未核，本卷不取。",
+  "zoomRel": 6,
+  "sfx": [
+   "ship_gun"
+  ],
+  "sources": [
+   "zhwiki_wuhan",
+   "huangbowen_navy"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "e.abandon",
+  "at": "1938-10-24T18:00",
+  "precision": "day",
+  "category": "political",
+  "importance": 1,
+  "title": {
+   "zh": "下令弃守武汉"
+  },
+  "place": "@wuhan",
+  "units": [
+   "cn.jmc"
+  ],
+  "body": "10月24日，国民政府军事委员会正式下令放弃武汉，撤退武汉地区部队，并在汉举行中外记者招待会宣布；蒋介石当日飞离。撤退时机此前一再延迟（原定8月底，屡改至10月），致部分残破部队在金牛、保安一线苦撑。10月25日中国军队按预定计划整师向平汉铁路以西撤退完毕，放弃武汉，只余空城。",
+  "mapNote": "中方以10月25日为会战结束日；武汉自2004年起每年此日鸣防空警报纪念。",
+  "zoomRel": 5,
+  "sfx": [
+   "radio"
+  ],
+  "sources": [
+   "zhwiki_wuhan",
+   "mackinnon_wuhan_1996",
+   "chencheng_huiyilu"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "e.fall",
+  "at": "1938-10-27T12:00",
+  "precision": "day",
+  "category": "surrender",
+  "importance": 1,
+  "title": {
+   "zh": "武汉三镇易手"
+  },
+  "place": "@wuhan",
+  "units": [
+   "jp.div6",
+   "jp.hata",
+   "jp.div116"
+  ],
+  "body": "10月25日下午日军自汉口东北角入城，汉口沦陷；26日第6师团全占汉口、波田支队占武昌；27日第116师团占汉阳——武汉三镇全陷（英文维基以27日为会战结束日）。日军虽占武汉，却未能围歼中国军队主力，速战速决破产，抗战转入战略相持。",
+  "mapNote": "中方以10月25日（弃守）为会战结束，英文维基以10月27日（三镇全陷）为结束，本卷时间轴覆盖至27日。",
+  "zoomRel": 6,
+  "sfx": [
+   "march"
+  ],
+  "photo": {
+   "commons": "File:Japan Capture of Wuhan.jpg",
+   "caption": "庆祝攻占武汉的日军；Commons编目。"
+  },
+  "sources": [
+   "zhwiki_wuhan",
+   "enwiki_wuhan",
+   "mackinnon_wuhan_1996"
+  ],
+  "confidence": "high"
+ }
+]

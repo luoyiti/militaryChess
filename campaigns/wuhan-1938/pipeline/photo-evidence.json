@@ -1,0 +1,92 @@
+{
+ "accepted": [
+  {
+   "commons": "File:Wuhan 1938.jpg",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AWuhan_1938.jpg",
+   "permissionTemplate": "Public domain",
+   "limits": "Commons编目；拍摄日与具体地点多未详，不指认某日战斗现场。"
+  },
+  {
+   "commons": "File:NRAWanjialing1.jpg",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANRAWanjialing1.jpg",
+   "permissionTemplate": "Public domain",
+   "limits": "Commons编目；拍摄日与具体地点多未详，不指认某日战斗现场。"
+  },
+  {
+   "commons": "File:Wuhan german divs.jpg",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AWuhan_german_divs.jpg",
+   "permissionTemplate": "Public domain",
+   "limits": "Commons编目；拍摄日与具体地点多未详，不指认某日战斗现场。"
+  },
+  {
+   "commons": "File:Japanese Special Naval Landing Forces on the deck board of the IJN xxx, June 11th.jpg",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AJapanese_Special_Naval_Landing_Forces_on_the_deck_board_of_the_IJN_xxx%2C_June_11th.jpg",
+   "permissionTemplate": "Public domain",
+   "limits": "Commons编目；拍摄日与具体地点多未详，不指认某日战斗现场。"
+  },
+  {
+   "commons": "File:Hankou city has fallen No.1 1938.jpg",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHankou_city_has_fallen_No.1_1938.jpg",
+   "permissionTemplate": "Public domain",
+   "limits": "Commons编目；拍摄日与具体地点多未详，不指认某日战斗现场。"
+  },
+  {
+   "commons": "File:Defenders Around River.jpg",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ADefenders_Around_River.jpg",
+   "permissionTemplate": "Public domain",
+   "limits": "Commons编目；拍摄日与具体地点多未详，不指认某日战斗现场。"
+  },
+  {
+   "commons": "File:1938 Yellow River flood.jpg",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A1938_Yellow_River_flood.jpg",
+   "permissionTemplate": "Public domain",
+   "limits": "Commons编目；拍摄日与具体地点多未详，不指认某日战斗现场。"
+  },
+  {
+   "commons": "File:Chinese Troops in Xinyang.jpg",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChinese_Troops_in_Xinyang.jpg",
+   "permissionTemplate": "Public domain",
+   "limits": "Commons编目；拍摄日与具体地点多未详，不指认某日战斗现场。"
+  },
+  {
+   "commons": "File:Japanese tankettes with pioneer troops marching towards Wu-han, near Na-hsi.jpg",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AJapanese_tankettes_with_pioneer_troops_marching_towards_Wu-han%2C_near_Na-hsi.jpg",
+   "permissionTemplate": "Public domain",
+   "limits": "Commons编目；拍摄日与具体地点多未详，不指认某日战斗现场。"
+  },
+  {
+   "commons": "File:Japan Capture of Wuhan.jpg",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AJapan_Capture_of_Wuhan.jpg",
+   "permissionTemplate": "Public domain",
+   "limits": "Commons编目。"
+  },
+  {
+   "commons": "File:Soviet Aviators in China.jpg",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASoviet_Aviators_in_China.jpg",
+   "permissionTemplate": "Public domain",
+   "limits": "Commons编目。"
+  }
+ ],
+ "excluded": [
+  {
+   "commons": "File:Battle of Wanjialing 1938.png",
+   "reason": "战局示意图 PNG，仅作 fronts 绘图参照，不贴入照片。"
+  },
+  {
+   "commons": "File:The Japanese 11th Army's assault on Wuhan, 1938.png",
+   "reason": "战局示意图 PNG，仅作 fronts 参照。"
+  },
+  {
+   "commons": "File:429武漢空戰.png",
+   "reason": "空战示意图 PNG，仅作参照。"
+  },
+  {
+   "commons": "File:Rippei Ogisu.jpg",
+   "reason": "人物肖像，非战役现场照片，本卷不采用。"
+  },
+  {
+   "commons": "File:Japanese_soldiers_tie_a_young_man.jpg",
+   "reason": "战争罪行照片，本卷不用于事件配图，保留于研究记录。"
+  }
+ ]
+}

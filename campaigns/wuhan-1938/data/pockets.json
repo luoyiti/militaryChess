@@ -1,0 +1,12 @@
+[
+  {
+    "id": "p.wanjialing",
+    "name": { "zh": "万家岭合围地域", "short": "万家岭" },
+    "start": "1938-09-28T00:00", "end": "1938-10-10T23:59",
+    "anchor": [115.63, 29.28],
+    "fate": "destroyed",
+    "units": ["jp.div106"],
+    "note": "第106师团（实进约1.3万人）主力被歼，松浦淳六郎率约1500残部突围。中方战报称歼敌万余；日方人马现员表推算自定员除名约6500—6600人（不含轻伤现地住院者）。",
+    "sources": ["danganju_youxue_15", "zhwiki_wuhan", "pengpai_yangxiaochen"]
+  }
+]

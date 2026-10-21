@@ -1,0 +1,2847 @@
+[
+ {
+  "id": "cn.jmc",
+  "side": "CN",
+  "echelon": "command",
+  "type": "hq",
+  "parent": null,
+  "name": {
+   "zh": "国民政府军事委员会",
+   "short": "军委会"
+  },
+  "commander": {
+   "zh": "蒋中正"
+  },
+  "active": {
+   "from": "1938-02-18T00:00"
+  },
+  "display": "container",
+  "model": "inf_allied",
+  "track": [
+   {
+    "at": "1938-02-18T00:00",
+    "pos": [
+     114.28,
+     30.6
+    ],
+    "status": "active",
+    "note": "南京沦陷后军政中枢实际驻节武汉，此处为汉口统帅部示意"
+   },
+   {
+    "at": "1938-10-24T18:00",
+    "pos": [
+     114.28,
+     30.6
+    ],
+    "status": "withdrawing",
+    "note": "10月24日蒋介石乘机离汉，当晚正式下令放弃武汉，统帅部离汉"
+   }
+  ],
+  "history": "军事委员会委员长蒋中正是武汉会战最高指挥，南京沦陷后统帅部驻武汉近一年。会战方针为『守武汉而不战于武汉』，以第五、第九战区在外围逐次消耗日军。撤退时机由8月底一改再改至10月下旬，10月24日方正式下令弃守，导致部分残破部队转移不及。",
+  "sources": [
+   "zhwiki_wuhan",
+   "enwiki_wuhan",
+   "qianxi_wuhan_1999",
+   "chencheng_huiyilu",
+   "liu_fenghan_1985"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "cn.wz9",
+  "side": "CN",
+  "echelon": "command",
+  "type": "hq",
+  "parent": "cn.jmc",
+  "name": {
+   "zh": "第九战区",
+   "short": "九战区"
+  },
+  "commander": {
+   "zh": "陈诚"
+  },
+  "active": {
+   "from": "1938-06-14T00:00"
+  },
+  "display": "container",
+  "model": "inf_allied",
+  "track": [
+   {
+    "at": "1938-06-14T00:00",
+    "pos": [
+     114.28,
+     30.6
+    ],
+    "status": "active",
+    "note": "6月14日军委会新编第九战区，陈诚任司令长官，负责长江以南防务"
+   },
+   {
+    "at": "1938-10-25T00:00",
+    "pos": [
+     114.28,
+     30.6
+    ],
+    "status": "withdrawing",
+    "note": "随武汉放弃，战区指挥体系向湘鄂西转移"
+   }
+  ],
+  "history": "第九战区1938年6月中旬编成，陈诚任司令长官，统薛岳第1兵团、张发奎第2兵团共27个军，依托幕阜山、庐山与鄱阳湖担任长江以南防御。战区经历了九江失守、南浔线拉锯与万家岭大捷，是赣北战场的指挥主体。",
+  "sources": [
+   "zhwiki_wuhan",
+   "enwiki_wuhan",
+   "qianxi_wuhan_1999",
+   "liu_fenghan_1985"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "cn.corps1",
+  "side": "CN",
+  "echelon": "army",
+  "type": "hq",
+  "parent": "cn.wz9",
+  "name": {
+   "zh": "第1兵团",
+   "short": "1兵团"
+  },
+  "commander": {
+   "zh": "薛岳"
+  },
+  "active": {
+   "from": "1938-06-14T00:00"
+  },
+  "display": "container",
+  "model": "inf_allied",
+  "track": [
+   {
+    "at": "1938-06-14T00:00",
+    "pos": [
+     116.0,
+     29.71
+    ],
+    "status": "active",
+    "note": "任南浔线及两侧防务，兵团部在九江—德安方向（示意）"
+   },
+   {
+    "at": "1938-07-26T00:00",
+    "pos": [
+     115.76,
+     29.31
+    ],
+    "status": "active",
+    "note": "九江失守后退守德安方向，取外线侧击态势"
+   },
+   {
+    "at": "1938-09-28T00:00",
+    "pos": [
+     115.63,
+     29.28
+    ],
+    "status": "engaged",
+    "note": "薛岳调集第4、66、74军等十余万人在万家岭合围第106师团"
+   },
+   {
+    "at": "1938-10-12T00:00",
+    "pos": [
+     115.76,
+     29.31
+    ],
+    "status": "active",
+    "note": "万家岭目的已达，主力撤出战斗，退守永丰桥、柘林一线"
+   }
+  ],
+  "history": "第1兵团总司令薛岳率25个师任南浔线及鄱阳湖方向防务，依托庐山北麓以『反八字阵』阻击第106师团南下。9月底抓住战机，调第4、66、74、29军等十余万人四面包围深入万家岭的第106师团，10月10日达成万家岭大捷，为抗战中罕见的成建制围歼师团主力的战例。",
+  "sources": [
+   "danganju_youxue_15",
+   "zhwiki_wuhan",
+   "qianxi_wuhan_1999",
+   "geng_wei_1987"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "cn.army4",
+  "side": "CN",
+  "echelon": "corps",
+  "type": "infantry",
+  "parent": "cn.corps1",
+  "name": {
+   "zh": "第4军",
+   "short": "4A"
+  },
+  "commander": {
+   "zh": "欧震"
+  },
+  "active": {
+   "from": "1938-07-01T00:00"
+  },
+  "model": "inf_allied",
+  "track": [
+   {
+    "at": "1938-07-01T00:00",
+    "pos": [
+     116.0,
+     29.71
+    ],
+    "status": "active",
+    "note": "北伐『铁军』底子，隶属吴奇伟第9集团军，在九江方向"
+   },
+   {
+    "at": "1938-08-10T00:00",
+    "pos": [
+     115.72,
+     29.45
+    ],
+    "status": "engaged",
+    "note": "金官桥—沙河一线依托庐山北麓阻击第106师团"
+   },
+   {
+    "at": "1938-09-28T00:00",
+    "pos": [
+     115.63,
+     29.28
+    ],
+    "status": "engaged",
+    "note": "万家岭合围：10月1—3日第58师等向万家岭、哔叽街连续攻击"
+   },
+   {
+    "at": "1938-10-10T00:00",
+    "pos": [
+     115.63,
+     29.28
+    ],
+    "status": "engaged",
+    "note": "万家岭大捷达成，第106师团主力被歼"
+   },
+   {
+    "at": "1938-10-16T00:00",
+    "pos": [
+     115.76,
+     29.31
+    ],
+    "status": "active",
+    "note": "撤出战斗，向德安方向整理"
+   }
+  ],
+  "history": "第4军（欧震）为北伐铁军旧部，辖第59、90师。8月在南浔线金官桥一线阻击第106师团，9月底投入万家岭合围，10月1—3日连续攻击万家岭当面日军，是围歼战的主力之一。10月中旬随主力撤出战斗，退向德安方向整理。",
+  "sources": [
+   "danganju_youxue_15",
+   "zhwiki_wuhan",
+   "danganju_youxue_15"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "cn.army66",
+  "side": "CN",
+  "echelon": "corps",
+  "type": "infantry",
+  "parent": "cn.corps1",
+  "name": {
+   "zh": "第66军",
+   "short": "66A"
+  },
+  "commander": {
+   "zh": "叶肇"
+  },
+  "active": {
+   "from": "1938-07-01T00:00"
+  },
+  "model": "inf_allied",
+  "track": [
+   {
+    "at": "1938-07-01T00:00",
+    "pos": [
+     115.98,
+     29.56
+    ],
+    "status": "active",
+    "note": "庐山—星子方向布防"
+   },
+   {
+    "at": "1938-08-21T00:00",
+    "pos": [
+     116.05,
+     29.46
+    ],
+    "status": "engaged",
+    "note": "第101师团星子登陆后与第66军等部在德安以北僵持"
+   },
+   {
+    "at": "1938-09-28T00:00",
+    "pos": [
+     115.63,
+     29.28
+    ],
+    "status": "engaged",
+    "note": "投入万家岭合围"
+   },
+   {
+    "at": "1938-10-12T00:00",
+    "pos": [
+     115.6,
+     29.28
+    ],
+    "status": "engaged",
+    "note": "主力撤出后奉命留驻监视雷鸣鼓刘—石马坑刘残敌，至10月16日"
+   }
+  ],
+  "history": "第66军（叶肇）辖第159、160师，先在庐山—星子方向抗击第101师团登陆部队，后投入万家岭合围。10月12日主力撤收后，奉命留第66军监视退守雷鸣鼓刘一带不足5平方公里的第106师团残部，至10月16日各部完全退出战斗。",
+  "sources": [
+   "danganju_youxue_15",
+   "zhwiki_wuhan",
+   "danganju_youxue_15"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "cn.army74",
+  "side": "CN",
+  "echelon": "corps",
+  "type": "infantry",
+  "parent": "cn.corps1",
+  "name": {
+   "zh": "第74军",
+   "short": "74A"
+  },
+  "commander": {
+   "zh": "俞济时"
+  },
+  "active": {
+   "from": "1938-07-01T00:00"
+  },
+  "model": "inf_allied",
+  "track": [
+   {
+    "at": "1938-07-01T00:00",
+    "pos": [
+     115.76,
+     29.31
+    ],
+    "status": "active",
+    "note": "第37军团序列，驻德安方向，辖第51、58师"
+   },
+   {
+    "at": "1938-10-05T00:00",
+    "pos": [
+     115.62,
+     29.29
+    ],
+    "status": "engaged",
+    "note": "10月5—6日在长岭、背溪街、张古山、狮子岩与第106师团激战"
+   },
+   {
+    "at": "1938-10-09T00:00",
+    "pos": [
+     115.62,
+     29.29
+    ],
+    "status": "engaged",
+    "note": "张古山血战：第51师第153旅与第147联队反复争夺，305团团长唐生海重伤，9日23时一度收复张古山"
+   },
+   {
+    "at": "1938-10-16T00:00",
+    "pos": [
+     115.76,
+     29.31
+    ],
+    "status": "active",
+    "note": "随主力撤出战斗，回德安方向"
+   }
+  ],
+  "history": "第74军（俞济时）辖第51师（王耀武）、第58师（冯圣法），是万家岭围歼战的突击主力。10月5日起在长岭、张古山与日军反复争夺，第153旅八至十日间数度易手；第305团团长唐生海重伤、团附于清祥殉国，奋勇队深入敌阵全部壮烈牺牲。此役奠定第74军日后『抗日铁军』声名。",
+  "sources": [
+   "danganju_youxue_15",
+   "danganju_youxue_15",
+   "zhwiki_wuhan"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "cn.army29",
+  "side": "CN",
+  "echelon": "corps",
+  "type": "infantry",
+  "parent": "cn.corps1",
+  "name": {
+   "zh": "第29军",
+   "short": "29A"
+  },
+  "commander": {
+   "zh": "陈安宝"
+  },
+  "active": {
+   "from": "1938-07-01T00:00"
+  },
+  "model": "inf_allied",
+  "track": [
+   {
+    "at": "1938-07-22T00:00",
+    "pos": [
+     116.07,
+     29.73
+    ],
+    "status": "engaged",
+    "note": "姑塘阻击：波田支队冒雨登陆，第29军团守军损失惨重"
+   },
+   {
+    "at": "1938-08-10T00:00",
+    "pos": [
+     115.95,
+     29.55
+    ],
+    "status": "engaged",
+    "note": "撤至马家垅、庐山南麓方向续战"
+   },
+   {
+    "at": "1938-09-28T00:00",
+    "pos": [
+     115.63,
+     29.28
+    ],
+    "status": "engaged",
+    "note": "投入万家岭合围"
+   },
+   {
+    "at": "1938-10-16T00:00",
+    "pos": [
+     115.76,
+     29.31
+    ],
+    "status": "active",
+    "note": "撤出战斗，德安方向整理"
+   }
+  ],
+  "history": "第29军（陈安宝）辖第40、79师，属第29军团序列。7月22—23日波田支队在姑塘登陆时首当其冲，阻击损失惨重；后退至庐山南麓与第101、106师团对峙，9月底投入万家岭合围。战后陈安宝翌年战殁于南昌反攻。",
+  "sources": [
+   "zhwiki_wuhan",
+   "danganju_youxue_15",
+   "danganju_youxue_14"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "cn.army25",
+  "side": "CN",
+  "echelon": "corps",
+  "type": "infantry",
+  "parent": "cn.corps1",
+  "name": {
+   "zh": "第25军",
+   "short": "25A"
+  },
+  "commander": {
+   "zh": "王敬久"
+  },
+  "active": {
+   "from": "1938-07-01T00:00"
+  },
+  "model": "inf_allied",
+  "track": [
+   {
+    "at": "1938-07-01T00:00",
+    "pos": [
+     116.05,
+     29.46
+    ],
+    "status": "active",
+    "note": "第37军团序列，驻星子方向"
+   },
+   {
+    "at": "1938-08-21T00:00",
+    "pos": [
+     116.05,
+     29.46
+    ],
+    "status": "engaged",
+    "note": "第101师团渡鄱阳湖登陆星子，突破第25军防线"
+   },
+   {
+    "at": "1938-09-24T00:00",
+    "pos": [
+     115.9,
+     29.4
+    ],
+    "status": "engaged",
+    "note": "沿星子—隘口街节节阻击第101师团南进"
+   },
+   {
+    "at": "1938-10-09T00:00",
+    "pos": [
+     115.85,
+     29.38
+    ],
+    "status": "engaged",
+    "note": "第101师团30公里路程耗时50日始抵隘口街，南浔线作战彻底失败"
+   }
+  ],
+  "history": "第25军（王敬久兼）辖第52、109师，守星子—德安公路方向。8月20—21日第101师团登陆星子后，该军且战且退，与友军在隘口街一线迟滞日军；第101师团自星子至德安仅30公里竟走了50天，师团长伊东政喜负重伤，南浔线助攻完全落空。",
+  "sources": [
+   "zhwiki_wuhan",
+   "danganju_youxue_15"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "cn.army32",
+  "side": "CN",
+  "echelon": "corps",
+  "type": "infantry",
+  "parent": "cn.corps1",
+  "name": {
+   "zh": "第32军",
+   "short": "32A"
+  },
+  "commander": {
+   "zh": "商震"
+  },
+  "active": {
+   "from": "1938-07-01T00:00"
+  },
+  "model": "inf_allied",
+  "track": [
+   {
+    "at": "1938-07-01T00:00",
+    "pos": [
+     115.9,
+     29.45
+    ],
+    "status": "active",
+    "note": "第20集团军序列，辖第139、141、142师，赣北机动位置"
+   },
+   {
+    "at": "1938-10-05T00:00",
+    "pos": [
+     115.5,
+     29.3
+    ],
+    "status": "engaged",
+    "note": "白水街（百岁街）阻援：击退自箬溪东来解围的第27师团"
+   },
+   {
+    "at": "1938-10-12T00:00",
+    "pos": [
+     115.55,
+     29.32
+    ],
+    "status": "active",
+    "note": "万家岭收束后维持阻击线"
+   }
+  ],
+  "history": "第32军（商震兼）辖第139、141、142师。万家岭战役中奉命在万家岭以西白水街、百岁街地区阻击自箬溪东来解围的第27师团，保障合围圈侧背，是围歼得以达成的关键阻援力量。",
+  "sources": [
+   "danganju_youxue_15",
+   "zhwiki_wuhan"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "cn.corps2",
+  "side": "CN",
+  "echelon": "army",
+  "type": "hq",
+  "parent": "cn.wz9",
+  "name": {
+   "zh": "第2兵团",
+   "short": "2兵团"
+  },
+  "commander": {
+   "zh": "张发奎"
+  },
+  "active": {
+   "from": "1938-06-14T00:00"
+  },
+  "display": "container",
+  "model": "inf_allied",
+  "track": [
+   {
+    "at": "1938-06-14T00:00",
+    "pos": [
+     116.0,
+     29.71
+    ],
+    "status": "active",
+    "note": "任瑞昌至武昌间长江南岸正面，兵团部初在九江方向（示意）"
+   },
+   {
+    "at": "1938-07-26T00:00",
+    "pos": [
+     115.68,
+     29.68
+    ],
+    "status": "withdrawing",
+    "note": "九江陷落，主力西移瑞昌方向；张发奎因九江速败一度被令交出指挥权回汉"
+   },
+   {
+    "at": "1938-08-24T00:00",
+    "pos": [
+     115.59,
+     29.82
+    ],
+    "status": "engaged",
+    "note": "瑞昌失守后沿瑞昌—马头镇一线续战"
+   },
+   {
+    "at": "1938-10-05T00:00",
+    "pos": [
+     115.22,
+     29.84
+    ],
+    "status": "engaged",
+    "note": "阳新、大冶方向组织防御"
+   },
+   {
+    "at": "1938-10-25T00:00",
+    "pos": [
+     113.81,
+     29.25
+    ],
+    "status": "withdrawing",
+    "note": "武汉弃守，第2兵团余部向通城方向撤退"
+   }
+  ],
+  "history": "第2兵团总司令张发奎率33个师任瑞昌至武昌间长江南岸正面防御。九江失守后张因被蒋介石认为保存第4军实力、擅自后撤而遭严斥，一度被令交出指挥权回汉，赣北指挥实际归薛岳体系；后世史家多认为在陆海空火力绝对劣势下九江本不可久守。兵团主力随后在瑞昌、阳新方向逐次抵抗，10月下旬武汉弃守后向通城方向撤退。",
+  "sources": [
+   "zhwiki_wuhan",
+   "enwiki_wuhan",
+   "qianxi_wuhan_1999",
+   "chencheng_huiyilu",
+   "geng_wei_1987"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "cn.army30",
+  "side": "CN",
+  "echelon": "army",
+  "type": "infantry",
+  "parent": "cn.corps2",
+  "name": {
+   "zh": "第30集团军",
+   "short": "30GA"
+  },
+  "commander": {
+   "zh": "王陵基"
+  },
+  "active": {
+   "from": "1938-08-01T00:00"
+  },
+  "model": "inf_allied",
+  "track": [
+   {
+    "at": "1938-08-01T00:00",
+    "pos": [
+     115.68,
+     29.68
+    ],
+    "status": "active",
+    "note": "辖第72、78军（川军新编各师），瑞昌方向布防"
+   },
+   {
+    "at": "1938-08-24T00:00",
+    "pos": [
+     115.45,
+     29.5
+    ],
+    "status": "engaged",
+    "note": "瑞昌失守后与第18军沿瑞昌—箬溪公路阻击第27师团"
+   },
+   {
+    "at": "1938-10-05T00:00",
+    "pos": [
+     115.14,
+     29.41
+    ],
+    "status": "engaged",
+    "note": "箬溪陷落，对峙月余的防线被突破，向武宁方向续退"
+   },
+   {
+    "at": "1938-10-20T00:00",
+    "pos": [
+     115.1,
+     29.26
+    ],
+    "status": "withdrawing",
+    "note": "武宁方向整理"
+   }
+  ],
+  "history": "第30集团军（王陵基）辖第72、78军川军新编各师，装备较差。8月底起与第18军沿瑞昌—箬溪公路阻击日军第27师团，僵持月余，至10月5日箬溪陷落，是赣北西段最重要的迟滞作战。",
+  "sources": [
+   "zhwiki_wuhan",
+   "enwiki_wuhan"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "cn.army18",
+  "side": "CN",
+  "echelon": "corps",
+  "type": "infantry",
+  "parent": "cn.corps2",
+  "name": {
+   "zh": "第18军",
+   "short": "18A"
+  },
+  "commander": {
+   "zh": "黄维"
+  },
+  "active": {
+   "from": "1938-08-01T00:00"
+  },
+  "model": "inf_allied",
+  "track": [
+   {
+    "at": "1938-08-01T00:00",
+    "pos": [
+     115.68,
+     29.68
+    ],
+    "status": "active",
+    "note": "辖第11、16、60师（第11师为德械调整师），瑞昌方向"
+   },
+   {
+    "at": "1938-08-24T00:00",
+    "pos": [
+     115.45,
+     29.5
+    ],
+    "status": "engaged",
+    "note": "与第30集团军沿瑞昌—箬溪公路阻击第27师团"
+   },
+   {
+    "at": "1938-10-05T00:00",
+    "pos": [
+     115.14,
+     29.41
+    ],
+    "status": "engaged",
+    "note": "箬溪方向防线被突破，续向西北抵抗"
+   },
+   {
+    "at": "1938-10-20T00:00",
+    "pos": [
+     115.1,
+     29.26
+    ],
+    "status": "withdrawing",
+    "note": "武宁方向整理"
+   }
+  ],
+  "history": "第18军（黄维）辖第11、16、60师，第11师为德械调整师。马当失守后其第60师曾参加反攻收复香山。8月底起与第30集团军在瑞昌—箬溪公路与第27师团对峙月余，10月5日箬溪陷落后向武宁方向转移。",
+  "sources": [
+   "zhwiki_wuhan",
+   "enwiki_wuhan"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "cn.army31group",
+  "side": "CN",
+  "echelon": "army",
+  "type": "infantry",
+  "parent": "cn.corps2",
+  "name": {
+   "zh": "第31集团军",
+   "short": "31GA"
+  },
+  "commander": {
+   "zh": "汤恩伯"
+  },
+  "active": {
+   "from": "1938-08-01T00:00"
+  },
+  "model": "inf_allied",
+  "track": [
+   {
+    "at": "1938-08-01T00:00",
+    "pos": [
+     115.68,
+     29.68
+    ],
+    "status": "active",
+    "note": "辖第13军、第98军，向瑞昌方向增援"
+   },
+   {
+    "at": "1938-08-24T00:00",
+    "pos": [
+     115.59,
+     29.82
+    ],
+    "status": "engaged",
+    "note": "瑞昌失守后在马头镇方向续战"
+   },
+   {
+    "at": "1938-09-24T00:00",
+    "pos": [
+     115.55,
+     29.75
+    ],
+    "status": "engaged",
+    "note": "马头镇、富池口相继失守，向西南转移"
+   },
+   {
+    "at": "1938-10-22T00:00",
+    "pos": [
+     115.18,
+     29.9
+    ],
+    "status": "withdrawing",
+    "note": "阳新失守后西撤"
+   }
+  ],
+  "history": "第31集团军（汤恩伯）辖第13军、第98军（含德械第89师），会战中期增援瑞昌方向。瑞昌、马头镇相继失守后转入阳新方向防御，10月下旬随全线西撤。",
+  "sources": [
+   "zhwiki_wuhan",
+   "enwiki_wuhan"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "cn.army2t",
+  "side": "CN",
+  "echelon": "corps",
+  "type": "infantry",
+  "parent": "cn.corps2",
+  "name": {
+   "zh": "第2军（田家镇要塞总指挥）",
+   "short": "2A"
+  },
+  "commander": {
+   "zh": "李延年"
+  },
+  "active": {
+   "from": "1938-08-15T00:00"
+  },
+  "model": "inf_allied",
+  "track": [
+   {
+    "at": "1938-08-15T00:00",
+    "pos": [
+     115.56,
+     29.85
+    ],
+    "status": "active",
+    "note": "李延年兼第11军团军团长、第2军军长、田南田北要塞总指挥，辖第9师（郑作民）、第57师（施中诚）"
+   },
+   {
+    "at": "1938-09-15T00:00",
+    "pos": [
+     115.38,
+     29.92
+    ],
+    "status": "engaged",
+    "note": "今村支队一日突破四望山、铁石墩警戒阵地，进抵松山口；田家镇保卫战开始"
+   },
+   {
+    "at": "1938-09-28T00:00",
+    "pos": [
+     115.38,
+     29.92
+    ],
+    "status": "engaged",
+    "note": "日军陆海空总攻要塞核心，工事全毁，核心阵地守军大部殉国"
+   },
+   {
+    "at": "1938-09-29T00:00",
+    "pos": [
+     115.38,
+     29.92
+    ],
+    "status": "withdrawing",
+    "note": "田家镇要塞陷落，守军余部撤退"
+   },
+   {
+    "at": "1938-10-05T00:00",
+    "pos": [
+     115.05,
+     29.98
+    ],
+    "status": "withdrawing",
+    "note": "残部向浠水方向收容整理"
+   }
+  ],
+  "history": "第2军（李延年，兼田家镇要塞总指挥）以德械第9师、第57师为田家镇要塞守备主体。9月15—29日要塞保卫战期间，日军第6师团今村支队以迂回、毒气、舰炮与航空兵轮番猛攻，仅第13联队即死伤3000余人几乎全联队覆没；中方核心阵地工事全毁、守军大部殉国。9月29日要塞陷落，长江门户洞开，守军余部西撤收容。",
+  "sources": [
+   "danganju_youxue_14",
+   "zhwiki_wuhan",
+   "tan_feicheng_2010",
+   "qianxi_wuhan_1999"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "cn.army54",
+  "side": "CN",
+  "echelon": "corps",
+  "type": "infantry",
+  "parent": "cn.corps2",
+  "name": {
+   "zh": "第54军",
+   "short": "54A"
+  },
+  "commander": {
+   "zh": "霍揆章"
+  },
+  "active": {
+   "from": "1938-08-15T00:00"
+  },
+  "model": "inf_allied",
+  "track": [
+   {
+    "at": "1938-08-15T00:00",
+    "pos": [
+     115.42,
+     29.89
+    ],
+    "status": "active",
+    "note": "兼田南要塞指挥，辖第14师（陈烈）、第18师（李芳郴），守富池口、半壁山"
+   },
+   {
+    "at": "1938-09-16T00:00",
+    "pos": [
+     115.42,
+     29.89
+    ],
+    "status": "engaged",
+    "note": "田南（富池口、半壁山）血战八昼夜"
+   },
+   {
+    "at": "1938-09-24T00:00",
+    "pos": [
+     115.42,
+     29.89
+    ],
+    "status": "withdrawing",
+    "note": "富池口要塞失守，第18师师长李芳郴弃职潜逃，军心动摇"
+   },
+   {
+    "at": "1938-10-05T00:00",
+    "pos": [
+     115.12,
+     29.86
+    ],
+    "status": "withdrawing",
+    "note": "向西南方向收容"
+   }
+  ],
+  "history": "第54军（霍揆章）兼田南要塞指挥，守江南富池口、半壁山，与田家镇夹江犄角。9月中下旬血战八昼夜后，第18师师长李芳郴弃职潜逃致军心动摇，9月24日富池口失守，田家镇遂失南岸犄角，长江水路洞开。",
+  "sources": [
+   "zhwiki_wuhan",
+   "danganju_youxue_14",
+   "tan_feicheng_2010"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "cn.army26",
+  "side": "CN",
+  "echelon": "corps",
+  "type": "infantry",
+  "parent": "cn.corps2",
+  "name": {
+   "zh": "第26军",
+   "short": "26A"
+  },
+  "commander": {
+   "zh": "萧之楚"
+  },
+  "active": {
+   "from": "1938-08-01T00:00"
+  },
+  "model": "inf_allied",
+  "track": [
+   {
+    "at": "1938-08-01T00:00",
+    "pos": [
+     115.94,
+     30.07
+    ],
+    "status": "active",
+    "note": "黄梅—广济方向布防（第26军于第3兵团、第2兵团序列中均有配属记录，本树列田家镇外围侧击）"
+   },
+   {
+    "at": "1938-09-06T00:00",
+    "pos": [
+     115.59,
+     30.07
+    ],
+    "status": "engaged",
+    "note": "广济失守后退守外围"
+   },
+   {
+    "at": "1938-09-17T00:00",
+    "pos": [
+     115.45,
+     29.95
+    ],
+    "status": "engaged",
+    "note": "与第86、48军协同围攻今村支队，一度将其逐下松山顶"
+   },
+   {
+    "at": "1938-09-30T00:00",
+    "pos": [
+     115.34,
+     29.96
+    ],
+    "status": "withdrawing",
+    "note": "田家镇陷落后西撤"
+   }
+  ],
+  "history": "第26军（萧之楚）辖第32、44师。8月底增援广济方向，9月中旬在田家镇外围与第86军等部四面围攻今村支队，一度把日军逐下松山顶；要塞陷落后西撤。",
+  "sources": [
+   "zhwiki_wuhan",
+   "danganju_youxue_14"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "cn.army86",
+  "side": "CN",
+  "echelon": "corps",
+  "type": "infantry",
+  "parent": "cn.corps2",
+  "name": {
+   "zh": "第86军",
+   "short": "86A"
+  },
+  "commander": {
+   "zh": "何知重"
+  },
+  "active": {
+   "from": "1938-08-01T00:00"
+  },
+  "model": "inf_allied",
+  "track": [
+   {
+    "at": "1938-08-01T00:00",
+    "pos": [
+     115.94,
+     30.07
+    ],
+    "status": "active",
+    "note": "黔军，辖第103师（何绍周）、第121师（莫挺芳），黄梅—广济方向"
+   },
+   {
+    "at": "1938-09-06T00:00",
+    "pos": [
+     115.59,
+     30.07
+    ],
+    "status": "engaged",
+    "note": "广济失守后退守外围"
+   },
+   {
+    "at": "1938-09-17T00:00",
+    "pos": [
+     115.4,
+     29.95
+    ],
+    "status": "engaged",
+    "note": "第103师参加松山（崇山）顶反复争夺，协同围攻今村支队"
+   },
+   {
+    "at": "1938-09-30T00:00",
+    "pos": [
+     115.28,
+     29.9
+    ],
+    "status": "withdrawing",
+    "note": "田家镇陷落后西撤"
+   }
+  ],
+  "history": "第86军（何知重，黔军）辖第103、121师。田家镇保卫战中，第103师（何绍周）与第26、48军协同在松山口—崇山方向反复争夺，一度把今村支队逐下山顶；日军以毒气与轰炸再占后，该军随要塞陷落西撤。",
+  "sources": [
+   "zhwiki_wuhan",
+   "danganju_youxue_14",
+   "tan_feicheng_2010"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "cn.army68",
+  "side": "CN",
+  "echelon": "corps",
+  "type": "infantry",
+  "parent": "cn.corps2",
+  "name": {
+   "zh": "第68军",
+   "short": "68A"
+  },
+  "commander": {
+   "zh": "刘汝明"
+  },
+  "active": {
+   "from": "1938-07-01T00:00"
+  },
+  "model": "inf_allied",
+  "track": [
+   {
+    "at": "1938-07-24T00:00",
+    "pos": [
+     116.31,
+     30.45
+    ],
+    "status": "engaged",
+    "note": "第6师团自潜山突破第31军、第68军防线"
+   },
+   {
+    "at": "1938-08-04T00:00",
+    "pos": [
+     115.94,
+     30.07
+    ],
+    "status": "engaged",
+    "note": "黄梅失守，与第11集团军续在江北抵抗"
+   },
+   {
+    "at": "1938-08-30T00:00",
+    "pos": [
+     115.59,
+     30.07
+    ],
+    "status": "engaged",
+    "note": "反攻失利后退守广济一线"
+   },
+   {
+    "at": "1938-09-20T00:00",
+    "pos": [
+     115.45,
+     29.95
+    ],
+    "status": "engaged",
+    "note": "田家镇外围策应"
+   },
+   {
+    "at": "1938-09-30T00:00",
+    "pos": [
+     115.38,
+     30.02
+    ],
+    "status": "withdrawing",
+    "note": "要塞陷落后西撤"
+   }
+  ],
+  "history": "第68军（刘汝明）辖第119、143师，战初在潜山—太湖一线被第6师团突破，退守黄梅、广济。田家镇保卫战期间在江北外围策应，要塞陷落后西撤。该军隶属在会战期间多次调整，本树按田家镇外围侧击阶段列入第2兵团方向。",
+  "sources": [
+   "zhwiki_wuhan",
+   "enwiki_wuhan"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "cn.garrison",
+  "side": "CN",
+  "echelon": "army",
+  "type": "hq",
+  "parent": "cn.wz9",
+  "name": {
+   "zh": "武汉卫戍总司令部",
+   "short": "卫戍部"
+  },
+  "commander": {
+   "zh": "罗卓英"
+  },
+  "active": {
+   "from": "1938-02-18T00:00"
+  },
+  "display": "container",
+  "model": "inf_allied",
+  "track": [
+   {
+    "at": "1938-02-18T00:00",
+    "pos": [
+     114.32,
+     30.55
+    ],
+    "status": "active",
+    "note": "1938年1月已设武汉卫戍总司令部，负责武汉卫戍及江防，后归并第九战区体系"
+   },
+   {
+    "at": "1938-09-29T00:00",
+    "pos": [
+     114.32,
+     30.55
+    ],
+    "status": "active",
+    "note": "田家镇失守后，军委会放弃卫戍部队死守三镇的计划"
+   },
+   {
+    "at": "1938-10-25T00:00",
+    "pos": [
+     114.32,
+     30.55
+    ],
+    "status": "withdrawing",
+    "note": "卫戍部队按预定计划向平汉路以西撤退完毕"
+   }
+  ],
+  "history": "武汉卫戍总司令罗卓英统辖卫戍部队与江防体系。原定守城计划在9月29日田家镇失守后被放弃，改为按预定计划撤退；10月25日中国军队整师而退、秩序整肃，卫戍部队随全军撤出武汉。",
+  "sources": [
+   "zhwiki_wuhan",
+   "qianxi_wuhan_1999",
+   "chencheng_huiyilu"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "cn.army75",
+  "side": "CN",
+  "echelon": "corps",
+  "type": "infantry",
+  "parent": "cn.garrison",
+  "name": {
+   "zh": "第75军",
+   "short": "75A"
+  },
+  "commander": {
+   "zh": "周碞"
+  },
+  "active": {
+   "from": "1938-02-18T00:00"
+  },
+  "model": "inf_allied",
+  "track": [
+   {
+    "at": "1938-02-18T00:00",
+    "pos": [
+     114.32,
+     30.55
+    ],
+    "status": "active",
+    "note": "辖第6师、第13师及黄鄂要塞部队，任武昌外围与黄鄂要塞警备"
+   },
+   {
+    "at": "1938-10-22T00:00",
+    "pos": [
+     114.89,
+     30.39
+    ],
+    "status": "engaged",
+    "note": "鄂城方向告急，黄鄂外围最后警戒"
+   },
+   {
+    "at": "1938-10-25T00:00",
+    "pos": [
+     114.13,
+     30.32
+    ],
+    "status": "withdrawing",
+    "movement": "land",
+    "note": "撤出武汉，向金口—宜昌方向西撤"
+   }
+  ],
+  "history": "第75军（周碞兼）辖第6、13师，长期担任武昌外围与黄鄂要塞警备。10月下旬日军第9师团、波田支队连下阳新、大冶、鄂城逼近武昌后，该军于10月25日随全军撤出武汉，西向宜昌方向转移。",
+  "sources": [
+   "zhwiki_wuhan",
+   "qianxi_wuhan_1999"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "cn.army94",
+  "side": "CN",
+  "echelon": "corps",
+  "type": "infantry",
+  "parent": "cn.garrison",
+  "name": {
+   "zh": "第94军",
+   "short": "94A"
+  },
+  "commander": {
+   "zh": "郭忏"
+  },
+  "active": {
+   "from": "1938-02-18T00:00"
+  },
+  "model": "inf_allied",
+  "track": [
+   {
+    "at": "1938-02-18T00:00",
+    "pos": [
+     114.28,
+     30.6
+    ],
+    "status": "active",
+    "note": "兼武汉警备司令部，辖第55师、第185师，任武汉市区警备"
+   },
+   {
+    "at": "1938-10-24T00:00",
+    "pos": [
+     114.28,
+     30.6
+    ],
+    "status": "active",
+    "note": "撤退命令下达，组织市区疏散与撤退"
+   },
+   {
+    "at": "1938-10-25T00:00",
+    "pos": [
+     113.92,
+     30.92
+    ],
+    "status": "withdrawing",
+    "note": "撤出汉口，向孝感—平汉路以西转移"
+   }
+  ],
+  "history": "第94军（郭忏兼武汉警备司令）辖第55、185师，负责武汉市区警备与防空。10月24日撤退命令下达后组织疏散，25日随全军撤出，向平汉路以西转移。",
+  "sources": [
+   "zhwiki_wuhan",
+   "qianxi_wuhan_1999"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "cn.wz5",
+  "side": "CN",
+  "echelon": "command",
+  "type": "hq",
+  "parent": "cn.jmc",
+  "name": {
+   "zh": "第五战区",
+   "short": "五战区"
+  },
+  "commander": {
+   "zh": "李宗仁（7月中—9月中白崇禧代）"
+  },
+  "active": {
+   "from": "1938-02-18T00:00"
+  },
+  "display": "container",
+  "model": "inf_allied",
+  "track": [
+   {
+    "at": "1938-02-18T00:00",
+    "pos": [
+     115.05,
+     32.13
+    ],
+    "status": "active",
+    "note": "负责长江以北防务，长官部位置随战局在潢川、麻城间（示意）"
+   },
+   {
+    "at": "1938-09-01T00:00",
+    "pos": [
+     115.01,
+     31.17
+    ],
+    "status": "active",
+    "note": "大别山北麓吃紧，长官部移麻城方向（示意）"
+   },
+   {
+    "at": "1938-10-15T00:00",
+    "pos": [
+     112.75,
+     32.13
+    ],
+    "status": "withdrawing",
+    "note": "信阳失守后战区主力向枣阳方向撤退"
+   }
+  ],
+  "history": "第五战区司令长官李宗仁（7月中旬—9月中旬因病住院，由白崇禧代理），统孙连仲第3兵团、李品仙第4兵团共23个军，依托大别山、大洪山担任江北防御。战区指挥了富金山、潢川、小界岭与广济、田家镇外围诸役；10月信阳失守后，战区主力向枣阳方向撤退。",
+  "sources": [
+   "zhwiki_wuhan",
+   "enwiki_wuhan",
+   "qianxi_wuhan_1999",
+   "liu_fenghan_1985"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "cn.corps3",
+  "side": "CN",
+  "echelon": "army",
+  "type": "hq",
+  "parent": "cn.wz5",
+  "name": {
+   "zh": "第3兵团",
+   "short": "3兵团"
+  },
+  "commander": {
+   "zh": "孙连仲"
+  },
+  "active": {
+   "from": "1938-06-14T00:00"
+  },
+  "display": "container",
+  "model": "inf_allied",
+  "track": [
+   {
+    "at": "1938-06-14T00:00",
+    "pos": [
+     115.41,
+     31.8
+    ],
+    "status": "active",
+    "note": "任大别山北麓正面防御，兵团部在商城方向（示意）"
+   },
+   {
+    "at": "1938-09-11T00:00",
+    "pos": [
+     115.05,
+     31.67
+    ],
+    "status": "engaged",
+    "note": "富金山失守后组织沙窝—小界岭防线"
+   },
+   {
+    "at": "1938-10-20T00:00",
+    "pos": [
+     115.08,
+     31.42
+    ],
+    "status": "engaged",
+    "note": "小界岭防线坚持至10月下旬，日军始终未能突破"
+   }
+  ],
+  "history": "第3兵团总司令孙连仲（兼第2集团军总司令）率8个师任大别山北麓正面防御。富金山战役后组织沙窝—小界岭防线，面对第13、第16师团久攻不下，成为武汉会战北线唯一未被突破的战略防线，直至中国军队主动放弃武汉。",
+  "sources": [
+   "zhwiki_wuhan",
+   "qianxi_wuhan_1999",
+   "geng_wei_1987"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "cn.army71",
+  "side": "CN",
+  "echelon": "corps",
+  "type": "infantry",
+  "parent": "cn.corps3",
+  "name": {
+   "zh": "第71军",
+   "short": "71A"
+  },
+  "commander": {
+   "zh": "宋希濂"
+  },
+  "active": {
+   "from": "1938-08-20T00:00"
+  },
+  "model": "inf_allied",
+  "track": [
+   {
+    "at": "1938-08-20T00:00",
+    "pos": [
+     115.65,
+     32.18
+    ],
+    "status": "active",
+    "note": "辖第36师（陈瑞河）、第88师（钟彬）、第61师，开进固始方向"
+   },
+   {
+    "at": "1938-09-02T00:00",
+    "pos": [
+     115.78,
+     31.9
+    ],
+    "status": "engaged",
+    "note": "富金山战役开始：9月2日夜第13师团强渡史河，第36师正面死守"
+   },
+   {
+    "at": "1938-09-11T00:00",
+    "pos": [
+     115.78,
+     31.9
+    ],
+    "status": "engaged",
+    "note": "阻击十昼夜后黄昏主峰失守；10天阵亡2618、负伤12401，36师撤下时仅剩800余人"
+   },
+   {
+    "at": "1938-09-20T00:00",
+    "pos": [
+     115.05,
+     31.67
+    ],
+    "status": "engaged",
+    "note": "残部退沙窝、小界岭续阻第13、16师团，为北线唯一未被突破防线"
+   },
+   {
+    "at": "1938-10-25T00:00",
+    "pos": [
+     114.9,
+     31.6
+    ],
+    "status": "withdrawing",
+    "note": "武汉放弃后随第3兵团西撤"
+   }
+  ],
+  "history": "第71军（宋希濂）以两个德械师为基干，是富金山战役主力：9月2—11日凭山地扼守十昼夜，日军一日进攻多达5次、施放毒气并增调第16师团才自结合部突破。第71军10天伤亡约1.5万，第36师由万余人锐减至800余；日军第13师团亦伤亡惨重、锐气大挫。残部退入小界岭防线继续阻击至10月下旬，随后西撤。",
+  "sources": [
+   "zhwiki_wuhan",
+   "zhwiki_wuhan",
+   "danganju_youxue_14",
+   "qianxi_wuhan_1999"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "cn.army30t",
+  "side": "CN",
+  "echelon": "corps",
+  "type": "infantry",
+  "parent": "cn.corps3",
+  "name": {
+   "zh": "第30军",
+   "short": "30A"
+  },
+  "commander": {
+   "zh": "田镇南"
+  },
+  "active": {
+   "from": "1938-08-20T00:00"
+  },
+  "model": "inf_allied",
+  "track": [
+   {
+    "at": "1938-08-20T00:00",
+    "pos": [
+     115.05,
+     31.67
+    ],
+    "status": "active",
+    "note": "第2集团军序列，辖第30、31师，沙窝方向布防"
+   },
+   {
+    "at": "1938-09-18T00:00",
+    "pos": [
+     115.08,
+     31.42
+    ],
+    "status": "engaged",
+    "note": "小界岭战役：与第42军防守沙窝、新店一线"
+   },
+   {
+    "at": "1938-10-25T00:00",
+    "pos": [
+     115.0,
+     31.5
+    ],
+    "status": "withdrawing",
+    "note": "日军始占麻城当日，中国军队已主动放弃武汉，防线奉命西撤"
+   }
+  ],
+  "history": "第30军（田镇南）辖第30、31师，第2集团军基干。9月18日起与第42军在小界岭—沙窝一线防守大别山北麓最后一道稳固防线，第13、第16师团久攻不下，直至武汉弃守后防线才奉命西撤。",
+  "sources": [
+   "zhwiki_wuhan",
+   "zhwiki_wuhan"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "cn.army42",
+  "side": "CN",
+  "echelon": "corps",
+  "type": "infantry",
+  "parent": "cn.corps3",
+  "name": {
+   "zh": "第42军",
+   "short": "42A"
+  },
+  "commander": {
+   "zh": "冯安邦"
+  },
+  "active": {
+   "from": "1938-08-20T00:00"
+  },
+  "model": "inf_allied",
+  "track": [
+   {
+    "at": "1938-08-20T00:00",
+    "pos": [
+     115.05,
+     31.67
+    ],
+    "status": "active",
+    "note": "辖第27师（黄樵松，德械）、独立第44旅，沙窝方向布防"
+   },
+   {
+    "at": "1938-09-18T00:00",
+    "pos": [
+     115.08,
+     31.42
+    ],
+    "status": "engaged",
+    "note": "小界岭战役：与第30军共守沙窝、新店一线"
+   },
+   {
+    "at": "1938-10-25T00:00",
+    "pos": [
+     115.0,
+     31.5
+    ],
+    "status": "withdrawing",
+    "note": "随防线西撤"
+   }
+  ],
+  "history": "第42军（冯安邦）辖德械第27师与独立第44旅，与第30军共同把守小界岭—沙窝防线，顶住日军两个师团月余攻击，为北线唯一未被突破的战略防线的主力之一。",
+  "sources": [
+   "zhwiki_wuhan",
+   "zhwiki_wuhan"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "cn.army77",
+  "side": "CN",
+  "echelon": "corps",
+  "type": "infantry",
+  "parent": "cn.corps3",
+  "name": {
+   "zh": "第77军",
+   "short": "77A"
+  },
+  "commander": {
+   "zh": "冯治安"
+  },
+  "active": {
+   "from": "1938-08-01T00:00"
+  },
+  "model": "inf_allied",
+  "track": [
+   {
+    "at": "1938-08-01T00:00",
+    "pos": [
+     116.33,
+     31.39
+    ],
+    "status": "active",
+    "note": "第19军团序列，辖第37、132师，霍山方向布防"
+   },
+   {
+    "at": "1938-08-28T00:00",
+    "pos": [
+     116.52,
+     31.74
+    ],
+    "status": "engaged",
+    "note": "第13师团突破第77军防线，六安、霍山失守"
+   },
+   {
+    "at": "1938-09-05T00:00",
+    "pos": [
+     115.9,
+     31.95
+    ],
+    "status": "withdrawing",
+    "note": "撤向叶家集方向，参加富金山侧翼阻击"
+   },
+   {
+    "at": "1938-09-12T00:00",
+    "pos": [
+     115.6,
+     31.9
+    ],
+    "status": "withdrawing",
+    "note": "富金山战后随第3兵团向商城方向转移"
+   }
+  ],
+  "history": "第77军（冯治安兼）辖第37、132师，守六安、霍山方向。8月28日第13师团突破其防线连陷两城，该军后撤参加富金山侧翼阻击，富金山失守后随第3兵团转移。",
+  "sources": [
+   "zhwiki_wuhan",
+   "zhwiki_wuhan"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "cn.army51",
+  "side": "CN",
+  "echelon": "corps",
+  "type": "infantry",
+  "parent": "cn.corps3",
+  "name": {
+   "zh": "第51军",
+   "short": "51A"
+  },
+  "commander": {
+   "zh": "于学忠"
+  },
+  "active": {
+   "from": "1938-08-01T00:00"
+  },
+  "model": "inf_allied",
+  "track": [
+   {
+    "at": "1938-08-01T00:00",
+    "pos": [
+     116.52,
+     31.74
+    ],
+    "status": "active",
+    "note": "东北军，辖第113、114师，六安方向布防"
+   },
+   {
+    "at": "1938-08-28T00:00",
+    "pos": [
+     116.2,
+     31.85
+    ],
+    "status": "engaged",
+    "note": "第10师团突破第51军防线，8月28日占六安"
+   },
+   {
+    "at": "1938-09-05T00:00",
+    "pos": [
+     115.85,
+     31.92
+    ],
+    "status": "engaged",
+    "note": "退至富金山方向，在第36师侧翼协同防守"
+   },
+   {
+    "at": "1938-09-12T00:00",
+    "pos": [
+     115.6,
+     31.9
+    ],
+    "status": "withdrawing",
+    "note": "结合部被突破后随第71军残部后撤"
+   }
+  ],
+  "history": "第51军（于学忠，东北军）辖第113、114师，守六安方向。8月28日防线被第10师团突破后西撤，富金山战役中在第36师侧翼协同；9月11日拂晓日军正是自第36师与第51军结合部突破，致主峰失守。",
+  "sources": [
+   "zhwiki_wuhan",
+   "zhwiki_wuhan"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "cn.corps4",
+  "side": "CN",
+  "echelon": "army",
+  "type": "hq",
+  "parent": "cn.wz5",
+  "name": {
+   "zh": "第4兵团",
+   "short": "4兵团"
+  },
+  "commander": {
+   "zh": "李品仙"
+  },
+  "active": {
+   "from": "1938-06-14T00:00"
+  },
+  "display": "container",
+  "model": "inf_allied",
+  "track": [
+   {
+    "at": "1938-06-14T00:00",
+    "pos": [
+     116.58,
+     30.63
+    ],
+    "status": "active",
+    "note": "在长江北岸与大别山南麓之间布防，兵团部在潜山—太湖方向（示意）"
+   },
+   {
+    "at": "1938-08-04T00:00",
+    "pos": [
+     115.94,
+     30.07
+    ],
+    "status": "engaged",
+    "note": "黄梅失守后组织大别山南麓侧击第6师团"
+   },
+   {
+    "at": "1938-09-06T00:00",
+    "pos": [
+     115.59,
+     30.07
+    ],
+    "status": "engaged",
+    "note": "广济失守，兵团退守广济—田家镇外围"
+   },
+   {
+    "at": "1938-09-29T00:00",
+    "pos": [
+     115.45,
+     29.95
+    ],
+    "status": "withdrawing",
+    "note": "田家镇陷落，兵团向西转移"
+   }
+  ],
+  "history": "第4兵团总司令李品仙率13个师在长江北岸与大别山南麓之间作战。8月16日白崇禧令其率7个军侧击孤立的第6师团，一度收复太湖、宿松；9月广济、田家镇相继失守后向西转移，是江北战场的主力兵团。",
+  "sources": [
+   "zhwiki_wuhan",
+   "qianxi_wuhan_1999",
+   "enwiki_wuhan",
+   "geng_wei_1987"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "cn.army84",
+  "side": "CN",
+  "echelon": "corps",
+  "type": "infantry",
+  "parent": "cn.corps4",
+  "name": {
+   "zh": "第84军",
+   "short": "84A"
+  },
+  "commander": {
+   "zh": "覃联芳"
+  },
+  "active": {
+   "from": "1938-08-01T00:00"
+  },
+  "model": "inf_allied",
+  "track": [
+   {
+    "at": "1938-08-01T00:00",
+    "pos": [
+     115.94,
+     30.07
+    ],
+    "status": "active",
+    "note": "桂军，辖第188、189师，黄梅方向布防"
+   },
+   {
+    "at": "1938-09-06T00:00",
+    "pos": [
+     115.59,
+     30.07
+    ],
+    "status": "engaged",
+    "note": "广济方向作战"
+   },
+   {
+    "at": "1938-09-20T00:00",
+    "pos": [
+     115.45,
+     29.95
+    ],
+    "status": "engaged",
+    "note": "田家镇外围策应"
+   },
+   {
+    "at": "1938-09-30T00:00",
+    "pos": [
+     115.42,
+     29.98
+    ],
+    "status": "withdrawing",
+    "note": "要塞陷落后西撤"
+   }
+  ],
+  "history": "第84军（覃联芳，桂军）辖第188、189师，属第11集团军序列。广济战役后在田家镇外围策应守军，要塞陷落后随第4兵团西撤。",
+  "sources": [
+   "zhwiki_wuhan",
+   "danganju_youxue_14"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "cn.army48",
+  "side": "CN",
+  "echelon": "corps",
+  "type": "infantry",
+  "parent": "cn.corps4",
+  "name": {
+   "zh": "第48军",
+   "short": "48A"
+  },
+  "commander": {
+   "zh": "张义纯"
+  },
+  "active": {
+   "from": "1938-08-01T00:00"
+  },
+  "model": "inf_allied",
+  "track": [
+   {
+    "at": "1938-08-01T00:00",
+    "pos": [
+     115.94,
+     30.07
+    ],
+    "status": "active",
+    "note": "桂军，辖第173、174、176师，黄梅方向布防"
+   },
+   {
+    "at": "1938-09-06T00:00",
+    "pos": [
+     115.59,
+     30.07
+    ],
+    "status": "engaged",
+    "note": "广济方向作战"
+   },
+   {
+    "at": "1938-09-17T00:00",
+    "pos": [
+     115.45,
+     29.95
+    ],
+    "status": "engaged",
+    "note": "与第26、86军协同围攻今村支队于松山方向"
+   },
+   {
+    "at": "1938-09-30T00:00",
+    "pos": [
+     115.46,
+     29.92
+    ],
+    "status": "withdrawing",
+    "note": "要塞陷落后西撤"
+   }
+  ],
+  "history": "第48军（张义纯，桂军）辖第173、174、176师。田家镇保卫战期间在外围协同围攻今村支队，一度把日军逐下松山顶；要塞陷落后西撤。",
+  "sources": [
+   "zhwiki_wuhan",
+   "danganju_youxue_14"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "cn.army21",
+  "side": "CN",
+  "echelon": "army",
+  "type": "infantry",
+  "parent": "cn.corps4",
+  "name": {
+   "zh": "第21集团军（中央兵团）",
+   "short": "21GA"
+  },
+  "commander": {
+   "zh": "廖磊"
+  },
+  "active": {
+   "from": "1938-06-14T00:00"
+  },
+  "model": "inf_allied",
+  "track": [
+   {
+    "at": "1938-06-14T00:00",
+    "pos": [
+     116.5,
+     30.7
+    ],
+    "status": "active",
+    "note": "置于太湖、潜山西北山地为中央兵团，建立大别山游击根据地"
+   },
+   {
+    "at": "1938-08-27T00:00",
+    "pos": [
+     116.31,
+     30.45
+    ],
+    "status": "engaged",
+    "note": "配合收复太湖、宿松，侧击第6师团后方联络线"
+   },
+   {
+    "at": "1938-10-20T00:00",
+    "pos": [
+     116.2,
+     30.8
+    ],
+    "status": "active",
+    "note": "留大别山坚持敌后牵制"
+   }
+  ],
+  "history": "第21集团军（廖磊，桂军）辖第7、31军，作为中央兵团置于太湖、潜山西北山地，建立大别山游击根据地。8月下旬配合主力侧击第6师团、收复太宿，其后长期留驻大别山进行敌后牵制，未随主力西撤。",
+  "sources": [
+   "zhwiki_wuhan",
+   "qianxi_wuhan_1999"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "cn.army11",
+  "side": "CN",
+  "echelon": "army",
+  "type": "infantry",
+  "parent": "cn.corps4",
+  "name": {
+   "zh": "第11集团军",
+   "short": "11GA"
+  },
+  "commander": {
+   "zh": "李品仙（兼）"
+  },
+  "active": {
+   "from": "1938-07-01T00:00"
+  },
+  "model": "inf_allied",
+  "track": [
+   {
+    "at": "1938-07-01T00:00",
+    "pos": [
+     116.31,
+     30.45
+    ],
+    "status": "active",
+    "note": "太湖方向布防，屏障大别山南麓"
+   },
+   {
+    "at": "1938-08-04T00:00",
+    "pos": [
+     115.94,
+     30.07
+    ],
+    "status": "engaged",
+    "note": "黄梅失守后在黄梅—广济间布防"
+   },
+   {
+    "at": "1938-08-30T00:00",
+    "pos": [
+     115.59,
+     30.07
+    ],
+    "status": "engaged",
+    "note": "反攻失利后退守广济一线"
+   },
+   {
+    "at": "1938-09-08T00:00",
+    "pos": [
+     115.59,
+     30.07
+    ],
+    "status": "engaged",
+    "note": "9月8日反攻一度收复广济县城一部，旋得旋失"
+   },
+   {
+    "at": "1938-09-30T00:00",
+    "pos": [
+     115.5,
+     30.06
+    ],
+    "status": "withdrawing",
+    "note": "田家镇陷落后西撤"
+   }
+  ],
+  "history": "第11集团军（李品仙兼）在黄梅、广济方向与第6师团反复争夺，9月8日一度反攻收复广济县城一部。田家镇陷落后随第4兵团西撤。",
+  "sources": [
+   "zhwiki_wuhan",
+   "qianxi_wuhan_1999"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "cn.army20",
+  "side": "CN",
+  "echelon": "corps",
+  "type": "infantry",
+  "parent": "cn.corps4",
+  "name": {
+   "zh": "第20军",
+   "short": "20A"
+  },
+  "commander": {
+   "zh": "杨森"
+  },
+  "active": {
+   "from": "1938-06-01T00:00"
+  },
+  "model": "inf_allied",
+  "track": [
+   {
+    "at": "1938-06-01T00:00",
+    "pos": [
+     117.06,
+     30.53
+    ],
+    "status": "active",
+    "note": "川军，第27集团军基干，守安庆、无为、桐城一线"
+   },
+   {
+    "at": "1938-06-12T00:00",
+    "pos": [
+     117.06,
+     30.53
+    ],
+    "status": "withdrawing",
+    "note": "波田支队冒雨登陆，安庆当日陷落；蒋介石电斥杨森『轻弃名城，腾笑友邦』"
+   },
+   {
+    "at": "1938-06-20T00:00",
+    "pos": [
+     116.94,
+     31.05
+    ],
+    "status": "withdrawing",
+    "note": "撤至桐城方向"
+   },
+   {
+    "at": "1938-08-01T00:00",
+    "pos": [
+     116.58,
+     30.63
+    ],
+    "status": "active",
+    "note": "潜山西部整补"
+   }
+  ],
+  "history": "第20军（杨森兼，川军）会战开始时守安庆一线。6月12日波田支队登陆，守军未经力战安庆即陷，蒋介石电斥杨森『轻弃名城，腾笑友邦』。该军随后撤至桐城、潜山以西整补，会战初期损耗后长期整训。",
+  "sources": [
+   "zhwiki_wuhan",
+   "enwiki_wuhan"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "cn.army55",
+  "side": "CN",
+  "echelon": "corps",
+  "type": "infantry",
+  "parent": "cn.corps4",
+  "name": {
+   "zh": "第55军",
+   "short": "55A"
+  },
+  "commander": {
+   "zh": "曹福林"
+  },
+  "active": {
+   "from": "1938-08-01T00:00"
+  },
+  "model": "inf_allied",
+  "track": [
+   {
+    "at": "1938-08-01T00:00",
+    "pos": [
+     115.59,
+     30.07
+    ],
+    "status": "active",
+    "note": "辖第29、74师，广济方向布防"
+   },
+   {
+    "at": "1938-09-06T00:00",
+    "pos": [
+     115.5,
+     30.0
+    ],
+    "status": "engaged",
+    "note": "困龙关阻击战开始：凭蕲广线隘路阻击第36旅团西进"
+   },
+   {
+    "at": "1938-10-08T00:00",
+    "pos": [
+     115.5,
+     30.0
+    ],
+    "status": "engaged",
+    "note": "困龙关阻敌32天，日军被迫放弃陆路经困龙关西进，转攻田家镇"
+   },
+   {
+    "at": "1938-10-15T00:00",
+    "pos": [
+     115.35,
+     30.08
+    ],
+    "status": "withdrawing",
+    "note": "田家镇已失，阻击任务完成，向西转移"
+   }
+  ],
+  "history": "第55军（曹福林）辖第29、74师。9月6日起在困龙关凭隘路阻击日军第6师团第36旅团达32天，白崇禧总结称『困龙颈关隘打了个大胜仗，歼日军2000余名，缴山炮野炮36门』；日军被迫放弃经困龙关陆路西进，转而专攻田家镇，此阻击战间接加重了田家镇方向的压力。",
+  "sources": [
+   "zhwiki_wuhan",
+   "qianxi_wuhan_1999",
+   "danganju_youxue_14"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "cn.army27",
+  "side": "CN",
+  "echelon": "army",
+  "type": "infantry",
+  "parent": "cn.wz5",
+  "name": {
+   "zh": "第27集团军（第59军）",
+   "short": "59A"
+  },
+  "commander": {
+   "zh": "张自忠"
+  },
+  "active": {
+   "from": "1938-08-20T00:00"
+  },
+  "model": "inf_allied",
+  "track": [
+   {
+    "at": "1938-08-20T00:00",
+    "pos": [
+     115.65,
+     32.18
+    ],
+    "status": "active",
+    "note": "张自忠兼第59军军长，辖第38、180师等，开进固始方向（军团/集团军番号记载不一，本树合并为一节点）"
+   },
+   {
+    "at": "1938-09-06T00:00",
+    "pos": [
+     115.3,
+     32.15
+    ],
+    "status": "engaged",
+    "note": "第10师团9月6日占固始后西进，第59军在潢川布防掩护战区主力转移"
+   },
+   {
+    "at": "1938-09-16T00:00",
+    "pos": [
+     115.05,
+     32.13
+    ],
+    "status": "engaged",
+    "note": "潢川之役：孤军苦战12昼夜，日军发射835枚赤筒毒气弹，城垣轰毁殆尽"
+   },
+   {
+    "at": "1938-09-19T00:00",
+    "pos": [
+     115.05,
+     32.13
+    ],
+    "status": "withdrawing",
+    "note": "潢川失守；9月22日蒋介石通令嘉奖『张自忠部潢川之役英勇作战，应为各军表率』"
+   },
+   {
+    "at": "1938-10-10T00:00",
+    "pos": [
+     114.51,
+     32.2
+    ],
+    "status": "withdrawing",
+    "note": "10月随豫南部队向罗山以西撤退"
+   }
+  ],
+  "history": "张自忠以第27集团军（第59军基干，辖第38、180师）守潢川，掩护第五战区主力转移与信阳方向布防。9月中旬孤军苦战约12昼夜，日军炮空轰城并发射835枚毒气弹，守军伤亡4000余、中方战报称歼敌3000，约9月19日城陷。9月22日蒋介石通令嘉奖为各军表率；该部随后参加豫南撤退。张自忠1940年枣宜会战殉国。",
+  "sources": [
+   "zhwiki_wuhan",
+   "qianxi_wuhan_1999",
+   "mackinnon_wuhan_1996"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "cn.army17",
+  "side": "CN",
+  "echelon": "army",
+  "type": "infantry",
+  "parent": "cn.wz5",
+  "name": {
+   "zh": "第17军团",
+   "short": "17GA"
+  },
+  "commander": {
+   "zh": "胡宗南"
+  },
+  "active": {
+   "from": "1938-08-20T00:00"
+  },
+  "model": "inf_allied",
+  "track": [
+   {
+    "at": "1938-08-20T00:00",
+    "pos": [
+     114.09,
+     32.15
+    ],
+    "status": "active",
+    "note": "辖第1军（第1、78师）等，守信阳方向，屏障平汉路"
+   },
+   {
+    "at": "1938-09-21T00:00",
+    "pos": [
+     114.51,
+     32.2
+    ],
+    "status": "engaged",
+    "note": "罗山方向节节阻击，在信阳以东反击一度迫敌后撤"
+   },
+   {
+    "at": "1938-10-12T00:00",
+    "pos": [
+     114.09,
+     32.15
+    ],
+    "status": "withdrawing",
+    "note": "信阳失守：胡宗南部西调撤守，致友军侧翼暴露（见history）"
+   },
+   {
+    "at": "1938-10-20T00:00",
+    "pos": [
+     113.43,
+     32.38
+    ],
+    "status": "withdrawing",
+    "note": "撤向桐柏方向"
+   }
+  ],
+  "history": "第17军团（胡宗南）守信阳方向，曾在信阳以东反击使日军一度后撤。但10月12日信阳失守前后，胡部西调撤守，致李宗仁桂系部队侧翼暴露（Rana Mitter引述批评：『他们期待胡宗南部来接防，但胡却把部队带离了该城』）。信阳失陷后日军沿平汉路南下武胜关，从北面完成对武汉的包围。",
+  "sources": [
+   "zhwiki_wuhan",
+   "enwiki_wuhan",
+   "mackinnon_wuhan_1996"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "cn.jiangfang",
+  "side": "CN",
+  "echelon": "army",
+  "type": "hq",
+  "parent": "cn.jmc",
+  "name": {
+   "zh": "江防总司令部",
+   "short": "江防部"
+  },
+  "commander": {
+   "zh": "刘兴"
+  },
+  "active": {
+   "from": "1938-02-18T00:00"
+  },
+  "display": "container",
+  "model": "inf_allied",
+  "track": [
+   {
+    "at": "1938-02-18T00:00",
+    "pos": [
+     116.23,
+     29.73
+    ],
+    "status": "active",
+    "note": "统辖马当、湖口、田家镇、富池口、黄鄂等沿江要塞（司令部位置示意）"
+   },
+   {
+    "at": "1938-09-29T00:00",
+    "pos": [
+     115.38,
+     29.92
+    ],
+    "status": "withdrawing",
+    "note": "田家镇陷落，长江要塞体系瓦解，江防残部随全线撤退"
+   }
+  ],
+  "history": "江防总司令刘兴统辖长江沿线要塞体系。各要塞正面火力强但侧后空虚、守备兵力过少，日军以毒气、舰炮加迂回登陆的固定模式，先后攻破马当（6/26）、湖口（7/4）、田家镇（9/29）、富池口（9/24），江防体系四个半月内瓦解。",
+  "sources": [
+   "zhwiki_wuhan",
+   "qianxi_wuhan_1999",
+   "tan_feicheng_2010"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "cn.madang",
+  "side": "CN",
+  "echelon": "group",
+  "type": "fortress",
+  "parent": "cn.jiangfang",
+  "name": {
+   "zh": "马当要塞守备队",
+   "short": "马当"
+  },
+  "commander": {
+   "zh": "李韫珩（第16军军长兼要塞区司令）"
+  },
+  "active": {
+   "from": "1938-06-01T00:00",
+   "to": "1938-06-26T23:59"
+  },
+  "model": "art_gun",
+  "track": [
+   {
+    "at": "1938-06-01T00:00",
+    "pos": [
+     116.67,
+     30.01
+    ],
+    "status": "active",
+    "note": "三级锁江炮台12门12cm舰炮改岸炮，江面沉船4艘8791吨、水雷600余枚"
+   },
+   {
+    "at": "1938-06-22T00:00",
+    "pos": [
+     116.67,
+     30.01
+    ],
+    "status": "engaged",
+    "note": "波田支队进攻，水路被水雷沉船阻滞改陆路迂回；运输船『利华』号触雷沉没死108人"
+   },
+   {
+    "at": "1938-06-24T00:00",
+    "pos": [
+     116.75,
+     30.0
+    ],
+    "status": "engaged",
+    "note": "李韫珩正办『抗日军政大学』结业典礼，守备空虚，日军占香山、香口"
+   },
+   {
+    "at": "1938-06-26T00:00",
+    "pos": [
+     116.67,
+     30.01
+    ],
+    "status": "destroyed",
+    "note": "日军施放毒气后自娘娘庙、牛山矶登陆迂回侧后，守军弹尽援绝，要塞陷落；第167师师长薛蔚英增援迟缓后被枪决"
+   }
+  ],
+  "history": "马当要塞为长江第二道封锁线核心，守军为第16军（李韫珩兼要塞区司令）、第53师、第167师及海军陆战队，核心长山阵地守军不足5个营。6月24日因各级指挥官集体赴李韫珩自办学校结业典礼致前沿空虚，香山、香口失守；26日日军毒气加侧后登陆，要塞陷落。事后李韫珩被撤职军法审判，增援失期的第167师师长薛蔚英被枪决、该师番号撤销。",
+  "sources": [
+   "danganju_youxue_14",
+   "zhwiki_wuhan",
+   "tan_feicheng_2010",
+   "qianxi_wuhan_1999"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "cn.hukou",
+  "side": "CN",
+  "echelon": "group",
+  "type": "fortress",
+  "parent": "cn.jiangfang",
+  "name": {
+   "zh": "湖口要塞守备队",
+   "short": "湖口"
+  },
+  "commander": {
+   "zh": "郭汝栋（第43军军长兼湖口守备司令）"
+  },
+  "active": {
+   "from": "1938-06-30T00:00"
+  },
+  "model": "art_gun",
+  "track": [
+   {
+    "at": "1938-06-30T00:00",
+    "pos": [
+     116.23,
+     29.73
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1938-07-04T00:00",
+    "pos": [
+     116.23,
+     29.73
+    ],
+    "status": "engaged",
+    "note": "日军合攻湖口，守军抵抗五天"
+   },
+   {
+    "at": "1938-07-04T12:00",
+    "pos": [
+     116.23,
+     29.73
+    ],
+    "status": "withdrawing",
+    "note": "第26师放弃湖口突围西撤，撤退时船只不足，1300余非战斗人员多溺亡鄱阳湖。要塞部队突围撤编，非工事整体移动。"
+   }
+  ],
+  "history": "湖口要塞守军为第43军（郭汝栋）第26师等，抵抗5天后于7月4日失守（日方记录7月5日晨）。撤退时船只不足，第26师3100余非战斗人员中仅1800余人被收容，1300余人失踪、多溺死于鄱阳湖，为江防作战中最惨重的非战斗损失之一。",
+  "sources": [
+   "danganju_youxue_14",
+   "zhwiki_wuhan",
+   "tan_feicheng_2010"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "cn.tianjia",
+  "side": "CN",
+  "echelon": "group",
+  "type": "fortress",
+  "parent": "cn.jiangfang",
+  "name": {
+   "zh": "田家镇要塞守备队",
+   "short": "田家镇"
+  },
+  "commander": {
+   "zh": "施中诚（第57师师长）／杨宗鼎（要塞司令，第57师171旅旅长）"
+  },
+  "active": {
+   "from": "1938-08-15T00:00"
+  },
+  "model": "art_gun",
+  "track": [
+   {
+    "at": "1938-08-15T00:00",
+    "pos": [
+     115.38,
+     29.92
+    ],
+    "status": "active",
+    "note": "武汉最后一道江防核心要塞，江面最窄处约600米，16门10.5cm炮，1937年末苏联顾问协助构筑"
+   },
+   {
+    "at": "1938-09-15T00:00",
+    "pos": [
+     115.38,
+     29.92
+    ],
+    "status": "engaged",
+    "note": "今村支队突破四望山、铁石墩进抵松山口，保卫战开始；9/17要塞改隶第五战区就近指挥"
+   },
+   {
+    "at": "1938-09-28T00:00",
+    "pos": [
+     115.38,
+     29.92
+    ],
+    "status": "engaged",
+    "note": "日军陆海空总攻要塞核心，日方承认田家镇为『唯一靠毒气才得手』的据点"
+   },
+   {
+    "at": "1938-09-29T00:00",
+    "pos": [
+     115.38,
+     29.92
+    ],
+    "status": "destroyed",
+    "note": "要塞陷落：核心阵地工事全毁，守军（第9师龙子育团等）大部殉国"
+   }
+  ],
+  "history": "田家镇要塞守备以第2军第9师、第57师为主体，第57师171旅旅长杨宗鼎任要塞司令，核心阵地由第341团把守。9月15—29日抗击今村支队陆海空协同猛攻，日方承认此为其唯一靠毒气才得手的据点；核心阵地工事全毁、守军大部殉国。日军步兵第13联队在此死伤3000余人几乎全联队覆没。要塞陷落，长江门户洞开。",
+  "sources": [
+   "danganju_youxue_14",
+   "zhwiki_wuhan",
+   "tan_feicheng_2010",
+   "qianxi_wuhan_1999"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "cn.fuchi",
+  "side": "CN",
+  "echelon": "group",
+  "type": "fortress",
+  "parent": "cn.jiangfang",
+  "name": {
+   "zh": "富池口要塞守备队",
+   "short": "富池口"
+  },
+  "commander": {
+   "zh": "李芳郴（第54军第18师师长）"
+  },
+  "active": {
+   "from": "1938-08-15T00:00"
+  },
+  "model": "art_gun",
+  "track": [
+   {
+    "at": "1938-08-15T00:00",
+    "pos": [
+     115.42,
+     29.89
+    ],
+    "status": "active",
+    "note": "田南要塞（富池口、半壁山），与田家镇夹江犄角"
+   },
+   {
+    "at": "1938-09-16T00:00",
+    "pos": [
+     115.42,
+     29.89
+    ],
+    "status": "engaged",
+    "note": "波田支队一部与海军陆战队沿南岸进攻，守军血战八昼夜"
+   },
+   {
+    "at": "1938-09-24T00:00",
+    "pos": [
+     115.42,
+     29.89
+    ],
+    "status": "destroyed",
+    "note": "第18师师长李芳郴弃职潜逃，军心动摇，富池口要塞失守；田家镇失南岸犄角"
+   }
+  ],
+  "history": "富池口要塞（田南要塞，含半壁山炮台）由第54军第18师等守备，与田家镇夹江犄角。9月中下旬血战八昼夜后，师长李芳郴弃职潜逃致军心动摇，9月24日要塞失守，长江水路随之洞开，田家镇五日后亦陷。",
+  "sources": [
+   "zhwiki_wuhan",
+   "danganju_youxue_14",
+   "tan_feicheng_2010"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "cn.navy",
+  "side": "CN",
+  "echelon": "command",
+  "type": "naval",
+  "parent": "cn.jmc",
+  "name": {
+   "zh": "海军（长江作战）",
+   "short": "海军"
+  },
+  "commander": {
+   "zh": "陈绍宽"
+  },
+  "active": {
+   "from": "1938-02-18T00:00"
+  },
+  "display": "container",
+  "model": "navy_token",
+  "track": [
+   {
+    "at": "1938-02-18T00:00",
+    "pos": [
+     114.28,
+     30.6
+    ],
+    "status": "active",
+    "note": "海军主力舰炮多已拆上岸充要塞炮，残存舰艇任巡防、布雷"
+   },
+   {
+    "at": "1938-10-25T00:00",
+    "pos": [
+     113.13,
+     29.36
+    ],
+    "status": "withdrawing",
+    "note": "海军司令部时已迁岳阳；会战后中国海军作为舰队力量基本不复存在"
+   }
+  ],
+  "history": "海军部长陈绍宽指挥长江作战：以沉船、水雷构筑马当、田家镇等阻塞线，主力舰艇主副炮拆下装于两岸要塞充当要塞炮，余舰任巡防与布雷。会战中舰艇基本损失殆尽，此后长江作战转入以水雷游击为主，中国海军作为舰队力量基本不复存在。",
+  "sources": [
+   "zhwiki_wuhan",
+   "qianxi_wuhan_1999",
+   "tan_feicheng_2010"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "cn.zhongshan",
+  "side": "CN",
+  "echelon": "ship",
+  "type": "naval",
+  "parent": "cn.navy",
+  "name": {
+   "zh": "中山舰",
+   "orig": "中山艦",
+   "short": "中山舰"
+  },
+  "commander": {
+   "zh": "萨师俊"
+  },
+  "active": {
+   "from": "1938-02-18T00:00"
+  },
+  "model": "navy_token",
+  "track": [
+   {
+    "at": "1938-02-18T00:00",
+    "pos": [
+     114.28,
+     30.6
+    ],
+    "status": "active",
+    "note": "在武汉江面巡防；主副炮已拆移陆上要塞，反击能力极弱"
+   },
+   {
+    "at": "1938-10-20T00:00",
+    "pos": [
+     114.13,
+     30.32
+    ],
+    "status": "active",
+    "note": "任金口—嘉鱼—新堤航道封锁任务"
+   },
+   {
+    "at": "1938-10-24T12:00",
+    "pos": [
+     114.13,
+     30.32
+    ],
+    "status": "destroyed",
+    "note": "在金口龙床矶江面遭日机轮番轰炸，舰长萨师俊右腿炸断仍倚瞭望台指挥，与25名官兵殉国，舰沉金口"
+   }
+  ],
+  "history": "中山舰（原永丰舰，因孙中山广州蒙难闻名）时任金口航道封锁任务，因主副炮已拆移陆上要塞而火力极弱。10月24日在金口龙床矶江面遭日军6架水上轻轰炸机轮番轰炸，舰长萨师俊（萨镇冰侄孙）右腿被炸断仍指挥作战，拒绝弃舰，被部属强抬下舢板后日机复炸舢板，萨师俊与全舰25名官兵殉国。1997年打捞出水，今藏武汉江夏中山舰博物馆。",
+  "sources": [
+   "zhwiki_wuhan",
+   "qianxi_wuhan_1999"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "cn.airforce",
+  "side": "CN",
+  "echelon": "air_group",
+  "type": "fighter",
+  "parent": "cn.jmc",
+  "name": {
+   "zh": "中国空军（武汉方向）",
+   "short": "空军"
+  },
+  "commander": {
+   "zh": "（航空委员会直辖）"
+  },
+  "active": {
+   "from": "1938-02-18T00:00"
+  },
+  "model": "air_token",
+  "schematic": true,
+  "base": [
+   114.28,
+   30.6
+  ],
+  "track": [
+   {
+    "at": "1938-02-18T00:00",
+    "pos": [
+     114.28,
+     30.6
+    ],
+    "status": "engaged",
+    "note": "以汉口机场为基地，会战期间作战飞机约200架"
+   },
+   {
+    "at": "1938-10-24T00:00",
+    "pos": [
+     114.28,
+     30.6
+    ],
+    "status": "withdrawing",
+    "note": "随武汉弃守向西南后方机场转移"
+   }
+  ],
+  "history": "中国空军在1938年初以苏制伊-15、伊-16为主力，会战期间作战飞机约200架。与苏联志愿队协同进行二一八、四二九、五三一、八三四次武汉大空战，中方宣布会战期间击落日机62架、炸毁16架（日方承认数远低于此，战果口径并存）。10月下旬随武汉弃守向西南后方机场转移。",
+  "sources": [
+   "zhwiki_wuhan",
+   "enwiki_wuhan"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "cn.air4",
+  "side": "CN",
+  "echelon": "squadron",
+  "type": "fighter",
+  "parent": "cn.airforce",
+  "name": {
+   "zh": "空军第4大队",
+   "short": "4PG"
+  },
+  "commander": {
+   "zh": "李桂丹（2/18殉国）→毛瀛初"
+  },
+  "active": {
+   "from": "1938-02-18T00:00"
+  },
+  "model": "air_token",
+  "schematic": true,
+  "base": [
+   114.28,
+   30.6
+  ],
+  "track": [
+   {
+    "at": "1938-02-18T10:00",
+    "pos": [
+     114.28,
+     30.6
+    ],
+    "status": "engaged",
+    "note": "二一八空战：率第21、22、23中队29架自汉口王家墩机场迎战，中方宣布击落12—14架，代大队长李桂丹等5人殉国"
+   },
+   {
+    "at": "1938-04-29T12:00",
+    "pos": [
+     114.28,
+     30.6
+    ],
+    "status": "engaged",
+    "note": "四二九空战（天长节）：中苏67架预设伏击，宣布击落21架自损12架；陈怀民撞机与敌同归于尽"
+   },
+   {
+    "at": "1938-05-31T12:00",
+    "pos": [
+     114.28,
+     30.6
+    ],
+    "status": "engaged",
+    "note": "五三一空战：中方宣布击落14架，自损2架"
+   },
+   {
+    "at": "1938-08-03T12:00",
+    "pos": [
+     114.28,
+     30.6
+    ],
+    "status": "engaged",
+    "note": "八三空战：中方52架拦截，宣布击落12架"
+   }
+  ],
+  "history": "空军第4大队装备伊-15、伊-16与霍克III，是武汉大空战的主力。二一八空战代大队长李桂丹殉国；四二九空战飞行员陈怀民击落1架后遭围攻，驾机撞击日机与高桥宪一同归于尽，为世界空战史上撞机第一人（武汉今有陈怀民路）。中方战果与日方承认数差异较大，此处均按中方宣布口径标注。",
+  "sources": [
+   "zhwiki_wuhan",
+   "danganju_youxue_14",
+   "enwiki_wuhan"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "cn.soviet",
+  "side": "CN",
+  "echelon": "air_group",
+  "type": "fighter",
+  "parent": "cn.jmc",
+  "name": {
+   "zh": "苏联援华航空志愿队",
+   "short": "苏志愿队"
+  },
+  "commander": {
+   "zh": "日加列夫／特霍尔"
+  },
+  "active": {
+   "from": "1938-02-18T00:00"
+  },
+  "model": "air_token",
+  "schematic": true,
+  "base": [
+   114.28,
+   30.6
+  ],
+  "track": [
+   {
+    "at": "1938-02-18T10:00",
+    "pos": [
+     114.28,
+     30.6
+    ],
+    "status": "engaged",
+    "note": "二一八空战与第4大队协同作战"
+   },
+   {
+    "at": "1938-04-29T12:00",
+    "pos": [
+     114.28,
+     30.6
+    ],
+    "status": "engaged",
+    "note": "四二九空战：苏方乌斯片斯基大尉、舒斯特尔中尉牺牲"
+   },
+   {
+    "at": "1938-05-31T12:00",
+    "pos": [
+     114.28,
+     30.6
+    ],
+    "status": "engaged",
+    "note": "五三一空战参战"
+   },
+   {
+    "at": "1938-08-03T12:00",
+    "pos": [
+     114.28,
+     30.6
+    ],
+    "status": "engaged",
+    "note": "八三空战参战"
+   }
+  ],
+  "history": "苏联援华航空志愿队1937年10月起援华，先后2000余人次飞行员轮战，武汉方向高峰时约5个大队规模，装备SB轰炸机与伊-16战斗机，高级顾问日加列夫、轰炸机群指挥特霍尔。四次武汉大空战均与中国空军协同；2月23日还曾联合奇袭台北松山机场。整个抗战期间苏志愿队牺牲200余人（武汉方向约100人），武汉解放公园建有苏联空军志愿队烈士墓。",
+  "sources": [
+   "zhwiki_wuhan",
+   "enwiki_wuhan",
+   "mackinnon_wuhan_1996"
+  ],
+  "confidence": "medium"
+ }
+]

@@ -1,0 +1,1586 @@
+[
+ {
+  "id": "wuhan",
+  "zh": "武汉三镇",
+  "orig": "Wuhan (Hankou-Wuchang-Hanyang)",
+  "alt": "武汉三镇总称；1938年行政上汉口特别市、武昌市、汉阳县分立",
+  "pos": [
+   114.267,
+   30.5667
+  ],
+  "kind": "region",
+  "rank": 1,
+  "country": "CN",
+  "confidence": "medium",
+  "sources": [
+   "enwiki_wuhan",
+   "zhwiki_wuhan"
+  ]
+ },
+ {
+  "id": "hankou",
+  "zh": "汉口",
+  "orig": "Hankow",
+  "alt": "汉口市中心（江汉关一带）；1938年为特别市/院辖市",
+  "pos": [
+   114.283,
+   30.6
+  ],
+  "kind": "city",
+  "rank": 1,
+  "country": "CN",
+  "confidence": "medium",
+  "sources": [
+   "zhwiki_wuhan",
+   "tan_feicheng_2010"
+  ]
+ },
+ {
+  "id": "wuchang",
+  "zh": "武昌",
+  "orig": "Wuchang",
+  "alt": "武昌城（阅马场/黄鹤楼一带）",
+  "pos": [
+   114.316,
+   30.5542
+  ],
+  "kind": "city",
+  "rank": 1,
+  "country": "CN",
+  "confidence": "medium",
+  "sources": [
+   "zhwiki_wuhan",
+   "tan_feicheng_2010"
+  ]
+ },
+ {
+  "id": "hanyang",
+  "zh": "汉阳",
+  "orig": "Hanyang",
+  "alt": "汉阳兵工厂在龟山北麓",
+  "pos": [
+   114.255,
+   30.554
+  ],
+  "kind": "city",
+  "rank": 2,
+  "country": "CN",
+  "confidence": "medium",
+  "sources": [
+   "zhwiki_wuhan",
+   "tan_feicheng_2010"
+  ]
+ },
+ {
+  "id": "anqing",
+  "zh": "安庆",
+  "orig": "Anking",
+  "alt": "1938年为安徽省会（省会1945年后迁合肥）；6月12—13日沦陷",
+  "pos": [
+   117.063,
+   30.533
+  ],
+  "kind": "city",
+  "rank": 2,
+  "country": "CN",
+  "confidence": "medium",
+  "sources": [
+   "zhwiki_wuhan",
+   "tan_feicheng_2010"
+  ]
+ },
+ {
+  "id": "madang",
+  "zh": "马当要塞",
+  "orig": "Matang Fortress",
+  "alt": "长江封锁线要塞，马当山在今江西彭泽县马当镇对岸；6月26日陷落；近似，建议历史地图校准",
+  "pos": [
+   116.673,
+   30.008
+  ],
+  "kind": "fort",
+  "rank": 3,
+  "country": "CN",
+  "confidence": "medium",
+  "sources": [
+   "jacar_senshi_chugoku",
+   "tan_feicheng_2010"
+  ]
+ },
+ {
+  "id": "pengze",
+  "zh": "彭泽",
+  "orig": "Pengtse",
+  "alt": "6月29日陷落",
+  "pos": [
+   116.549,
+   29.897
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "CN",
+  "confidence": "medium",
+  "sources": [
+   "zhwiki_wuhan",
+   "tan_feicheng_2010"
+  ]
+ },
+ {
+  "id": "hukou",
+  "zh": "湖口",
+  "orig": "Hukow",
+  "alt": "鄱阳湖入江之口；7月4—5日陷落",
+  "pos": [
+   116.227,
+   29.732
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "CN",
+  "confidence": "medium",
+  "sources": [
+   "zhwiki_wuhan",
+   "er_shi_guan_minglu"
+  ]
+ },
+ {
+  "id": "jiujiang",
+  "zh": "九江",
+  "orig": "Kiukiang",
+  "alt": "7月26日陷落；姑塘登陆点在九江东郊",
+  "pos": [
+   115.999,
+   29.705
+  ],
+  "kind": "city",
+  "rank": 2,
+  "country": "CN",
+  "confidence": "medium",
+  "sources": [
+   "zhwiki_wuhan",
+   "enwiki_wuhan"
+  ]
+ },
+ {
+  "id": "ruichang",
+  "zh": "瑞昌",
+  "orig": "Juichang",
+  "alt": "8月24日陷落",
+  "pos": [
+   115.681,
+   29.676
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "CN",
+  "confidence": "medium",
+  "sources": [
+   "zhwiki_wuhan",
+   "tan_feicheng_2010"
+  ]
+ },
+ {
+  "id": "matouzhen",
+  "zh": "马头镇",
+  "orig": "Matouchen",
+  "alt": "今作码头镇（瑞昌市）；与彭泽「马当」为不同地点，史料常混淆；9月24日陷落",
+  "pos": [
+   115.587,
+   29.816
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "CN",
+  "confidence": "medium",
+  "sources": [
+   "zhwiki_wuhan",
+   "tan_feicheng_2010"
+  ]
+ },
+ {
+  "id": "fuchikou",
+  "zh": "富池口",
+  "orig": "Fuchihkow",
+  "alt": "田南要塞（今阳新县富池镇）；9月24日陷落",
+  "pos": [
+   115.421,
+   29.886
+  ],
+  "kind": "fort",
+  "rank": 3,
+  "country": "CN",
+  "confidence": "medium",
+  "sources": [
+   "zhwiki_wuhan",
+   "tan_feicheng_2010"
+  ]
+ },
+ {
+  "id": "tianjiazhen",
+  "zh": "田家镇要塞",
+  "orig": "Tienchiachen Fortress",
+  "alt": "长江北岸最后江防核心要塞（今武穴市田家镇街道）；9月29日陷落；近似，建议历史地图校准",
+  "pos": [
+   115.377,
+   29.915
+  ],
+  "kind": "fort",
+  "rank": 2,
+  "country": "CN",
+  "confidence": "medium",
+  "sources": [
+   "jacar_senshi_chugoku",
+   "danganju_youxue_14"
+  ]
+ },
+ {
+  "id": "wuxue",
+  "zh": "武穴",
+  "orig": "Wusueh",
+  "alt": "9月8日陷落；1987年撤广济县设武穴市",
+  "pos": [
+   115.561,
+   29.853
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "CN",
+  "confidence": "medium",
+  "sources": [
+   "zhwiki_wuhan",
+   "tan_feicheng_2010"
+  ]
+ },
+ {
+  "id": "yangxin",
+  "zh": "阳新",
+  "orig": "Yangsin",
+  "alt": "10月22日陷落",
+  "pos": [
+   115.215,
+   29.835
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "CN",
+  "confidence": "medium",
+  "sources": [
+   "zhwiki_wuhan",
+   "tan_feicheng_2010"
+  ]
+ },
+ {
+  "id": "daye",
+  "zh": "大冶",
+  "orig": "Tayeh",
+  "alt": "10月22日陷落",
+  "pos": [
+   114.98,
+   30.096
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "CN",
+  "confidence": "medium",
+  "sources": [
+   "zhwiki_wuhan",
+   "tan_feicheng_2010"
+  ]
+ },
+ {
+  "id": "echeng",
+  "zh": "鄂城",
+  "orig": "Och'eng",
+  "alt": "今鄂州市（1983年改名）；10月下旬陷落",
+  "pos": [
+   114.885,
+   30.391
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "CN",
+  "confidence": "medium",
+  "sources": [
+   "zhwiki_wuhan",
+   "tan_feicheng_2010"
+  ]
+ },
+ {
+  "id": "huangzhou",
+  "zh": "黄冈（黄州）",
+  "orig": "Hwangchow",
+  "alt": "黄鄂要塞；今黄冈市黄州区",
+  "pos": [
+   114.872,
+   30.434
+  ],
+  "kind": "fort",
+  "rank": 3,
+  "country": "CN",
+  "confidence": "medium",
+  "sources": [
+   "zhwiki_wuhan",
+   "tan_feicheng_2010"
+  ]
+ },
+ {
+  "id": "xishui",
+  "zh": "浠水",
+  "orig": "Hsishui",
+  "alt": "第五战区长官部转移途经；10月21日陷落",
+  "pos": [
+   115.263,
+   30.452
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "CN",
+  "confidence": "medium",
+  "sources": [
+   "zhwiki_wuhan",
+   "tan_feicheng_2010"
+  ]
+ },
+ {
+  "id": "qizhou",
+  "zh": "蕲州",
+  "orig": "Kichow",
+  "alt": "1938年蕲春县治蕲州镇；县治今在漕河镇（30.23,115.44）",
+  "pos": [
+   115.32,
+   30.138
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "CN",
+  "confidence": "medium",
+  "sources": [
+   "zhwiki_wuhan",
+   "tan_feicheng_2010"
+  ]
+ },
+ {
+  "id": "xianning",
+  "zh": "咸宁",
+  "orig": "Sienning",
+  "alt": "粤汉线要点；10月下旬陷落",
+  "pos": [
+   114.322,
+   29.841
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "CN",
+  "confidence": "medium",
+  "sources": [
+   "zhwiki_wuhan",
+   "tan_feicheng_2010"
+  ]
+ },
+ {
+  "id": "yueyang",
+  "zh": "岳阳",
+  "orig": "Yoyang",
+  "alt": "11月11日陷落（会战尾声南翼）",
+  "pos": [
+   113.129,
+   29.357
+  ],
+  "kind": "city",
+  "rank": 2,
+  "country": "CN",
+  "confidence": "medium",
+  "sources": [
+   "zhwiki_wuhan",
+   "enwiki_wuhan"
+  ]
+ },
+ {
+  "id": "dean",
+  "zh": "德安",
+  "orig": "Te-an",
+  "alt": "南浔线枢纽；10月27日陷落",
+  "pos": [
+   115.756,
+   29.313
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "CN",
+  "confidence": "medium",
+  "sources": [
+   "zhwiki_wuhan",
+   "danganju_youxue_15"
+  ]
+ },
+ {
+  "id": "wanjialing",
+  "zh": "万家岭",
+  "orig": "Wanchialing",
+  "alt": "万家岭大捷战场核心（德安县磨溪乡西南，含张古山、麒麟峰、哔叽街等）；近似，建议历史地图校准",
+  "pos": [
+   115.63,
+   29.28
+  ],
+  "kind": "village",
+  "rank": 3,
+  "country": "CN",
+  "confidence": "medium",
+  "sources": [
+   "danganju_youxue_15",
+   "zhwiki_wuhan"
+  ]
+ },
+ {
+  "id": "xingzi",
+  "zh": "星子",
+  "orig": "Hsingtzu",
+  "alt": "今庐山市（2016年撤星子县设庐山市）；8月21日陷落",
+  "pos": [
+   116.045,
+   29.455
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "CN",
+  "confidence": "medium",
+  "sources": [
+   "zhwiki_wuhan",
+   "er_shi_guan_minglu"
+  ]
+ },
+ {
+  "id": "lushan",
+  "zh": "庐山",
+  "orig": "Lushan (Kuling)",
+  "alt": "第1兵团依托山地（牯岭）",
+  "pos": [
+   115.977,
+   29.556
+  ],
+  "kind": "region",
+  "rank": 2,
+  "country": "CN",
+  "confidence": "medium",
+  "sources": [
+   "zhwiki_wuhan",
+   "tan_feicheng_2010"
+  ]
+ },
+ {
+  "id": "nanchang",
+  "zh": "南昌",
+  "orig": "Nanchang",
+  "alt": "第九战区长官部驻地",
+  "pos": [
+   115.858,
+   28.682
+  ],
+  "kind": "city",
+  "rank": 1,
+  "country": "CN",
+  "confidence": "medium",
+  "sources": [
+   "zhwiki_wuhan",
+   "enwiki_wuhan"
+  ]
+ },
+ {
+  "id": "ruoxi",
+  "zh": "箬溪",
+  "orig": "Joch'i",
+  "alt": "今武宁县鲁溪镇（地名雅化改写）；10月5日陷落；地名对应建议校准",
+  "pos": [
+   115.135,
+   29.41
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "CN",
+  "confidence": "medium",
+  "sources": [
+   "zhwiki_wuhan",
+   "tan_feicheng_2010"
+  ]
+ },
+ {
+  "id": "wuning",
+  "zh": "武宁",
+  "orig": "Wuning",
+  "alt": "第九战区支撑点",
+  "pos": [
+   115.1,
+   29.256
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "CN",
+  "confidence": "medium",
+  "sources": [
+   "zhwiki_wuhan",
+   "tan_feicheng_2010"
+  ]
+ },
+ {
+  "id": "qianshan",
+  "zh": "潜山",
+  "orig": "Ch'ienshan",
+  "alt": "今潜山市（2018年撤县设市）；6月17日陷落",
+  "pos": [
+   116.581,
+   30.631
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "CN",
+  "confidence": "medium",
+  "sources": [
+   "zhwiki_wuhan",
+   "jacar_senshi_chugoku"
+  ]
+ },
+ {
+  "id": "taihu",
+  "zh": "太湖",
+  "orig": "T'aihu",
+  "alt": "安徽太湖县（非江苏太湖）；7月26日陷落，8月27日一度收复",
+  "pos": [
+   116.309,
+   30.454
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "CN",
+  "confidence": "medium",
+  "sources": [
+   "qianxi_wuhan_1999",
+   "zhwiki_wuhan"
+  ]
+ },
+ {
+  "id": "susong",
+  "zh": "宿松",
+  "orig": "Susung",
+  "alt": "8月1日陷落，8月28日一度收复",
+  "pos": [
+   116.129,
+   30.154
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "CN",
+  "confidence": "medium",
+  "sources": [
+   "qianxi_wuhan_1999",
+   "zhwiki_wuhan"
+  ]
+ },
+ {
+  "id": "huangmei",
+  "zh": "黄梅",
+  "orig": "Hwangmei",
+  "alt": "8月4日陷落",
+  "pos": [
+   115.944,
+   30.07
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "CN",
+  "confidence": "medium",
+  "sources": [
+   "qianxi_wuhan_1999",
+   "zhwiki_wuhan"
+  ]
+ },
+ {
+  "id": "guangji",
+  "zh": "广济",
+  "orig": "Kwangtsi (Meich'uan)",
+  "alt": "1938年广济县治在今武穴市梅川镇（1953年迁武穴）；9月6日陷落；史料「广济失陷」指梅川",
+  "pos": [
+   115.59,
+   30.07
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "CN",
+  "confidence": "medium",
+  "sources": [
+   "zhwiki_wuhan",
+   "tan_feicheng_2010"
+  ]
+ },
+ {
+  "id": "xiaochikou",
+  "zh": "小池口",
+  "orig": "Hsiaoch'ihkow",
+  "alt": "九江对岸（今黄梅县小池镇）；7月26日陷落，7月31日一度收复",
+  "pos": [
+   115.955,
+   29.77
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "CN",
+  "confidence": "medium",
+  "sources": [
+   "zhwiki_wuhan",
+   "tan_feicheng_2010"
+  ]
+ },
+ {
+  "id": "luan",
+  "zh": "六安",
+  "orig": "Lu-an",
+  "alt": "8月28日陷落",
+  "pos": [
+   116.522,
+   31.735
+  ],
+  "kind": "city",
+  "rank": 2,
+  "country": "CN",
+  "confidence": "medium",
+  "sources": [
+   "zhwiki_wuhan",
+   "enwiki_wuhan"
+  ]
+ },
+ {
+  "id": "huoshan",
+  "zh": "霍山",
+  "orig": "Hwoshan",
+  "alt": "8月28日陷落",
+  "pos": [
+   116.332,
+   31.393
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "CN",
+  "confidence": "medium",
+  "sources": [
+   "zhwiki_wuhan",
+   "enwiki_wuhan"
+  ]
+ },
+ {
+  "id": "gushi",
+  "zh": "固始",
+  "orig": "Kushih",
+  "alt": "富金山在县境东南部；9月6日陷落",
+  "pos": [
+   115.654,
+   32.183
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "CN",
+  "confidence": "medium",
+  "sources": [
+   "zhwiki_wuhan",
+   "enwiki_wuhan"
+  ]
+ },
+ {
+  "id": "fujinshan",
+  "zh": "富金山",
+  "orig": "Fuchinshan",
+  "alt": "9月2—11日富金山战役主阵地（固始县陈淋子镇/祖师庙乡一带，史河南岸）；近似，建议历史地图校准",
+  "pos": [
+   115.78,
+   31.9
+  ],
+  "kind": "region",
+  "rank": 3,
+  "country": "CN",
+  "confidence": "medium",
+  "sources": [
+   "zhwiki_wuhan",
+   "krzzjn_wuhan"
+  ]
+ },
+ {
+  "id": "shangcheng",
+  "zh": "商城",
+  "orig": "Shangch'eng",
+  "alt": "9月16日陷落",
+  "pos": [
+   115.406,
+   31.799
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "CN",
+  "confidence": "medium",
+  "sources": [
+   "zhwiki_wuhan",
+   "tan_feicheng_2010"
+  ]
+ },
+ {
+  "id": "shawo",
+  "zh": "沙窝",
+  "orig": "Shawo",
+  "alt": "小界岭防线北段（今新县沙窝镇）",
+  "pos": [
+   115.05,
+   31.67
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "CN",
+  "confidence": "medium",
+  "sources": [
+   "zhwiki_wuhan",
+   "tan_feicheng_2010"
+  ]
+ },
+ {
+  "id": "xiaojieling",
+  "zh": "小界岭",
+  "orig": "Hsiaochiehling",
+  "alt": "9月18日—10月下旬大别山北麓防线（麻城市福田河镇小界岭村一带，豫鄂界）；近似，建议历史地图校准",
+  "pos": [
+   115.08,
+   31.42
+  ],
+  "kind": "crossing",
+  "rank": 3,
+  "country": "CN",
+  "confidence": "medium",
+  "sources": [
+   "zhwiki_wuhan",
+   "krzzjn_wuhan"
+  ]
+ },
+ {
+  "id": "macheng",
+  "zh": "麻城",
+  "orig": "Mach'eng",
+  "alt": "10月25日陷落",
+  "pos": [
+   115.008,
+   31.173
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "CN",
+  "confidence": "medium",
+  "sources": [
+   "zhwiki_wuhan",
+   "tan_feicheng_2010"
+  ]
+ },
+ {
+  "id": "huangchuan",
+  "zh": "潢川",
+  "orig": "Kwangchow (Hwangch'uan)",
+  "alt": "旧称光州，史料常混称；9月中旬潢川之役（张自忠第59军），约9月19日陷落",
+  "pos": [
+   115.051,
+   32.131
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "CN",
+  "confidence": "medium",
+  "sources": [
+   "zhwiki_wuhan",
+   "tan_feicheng_2010"
+  ]
+ },
+ {
+  "id": "luoshan",
+  "zh": "罗山",
+  "orig": "Loshan",
+  "alt": "9月21日失守",
+  "pos": [
+   114.513,
+   32.203
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "CN",
+  "confidence": "medium",
+  "sources": [
+   "zhwiki_wuhan",
+   "enwiki_wuhan"
+  ]
+ },
+ {
+  "id": "xinyang",
+  "zh": "信阳",
+  "orig": "Sinyang",
+  "alt": "平汉线枢纽；10月12日陷落",
+  "pos": [
+   114.091,
+   32.147
+  ],
+  "kind": "city",
+  "rank": 2,
+  "country": "CN",
+  "confidence": "medium",
+  "sources": [
+   "zhwiki_wuhan",
+   "enwiki_wuhan"
+  ]
+ },
+ {
+  "id": "wushengguan",
+  "zh": "武胜关",
+  "orig": "Wusheng Pass",
+  "alt": "平汉线隘口（豫鄂界）；近似，建议历史地图校准",
+  "pos": [
+   113.99,
+   31.85
+  ],
+  "kind": "crossing",
+  "rank": 3,
+  "country": "CN",
+  "confidence": "medium",
+  "sources": [
+   "zhwiki_wuhan",
+   "tan_feicheng_2010"
+  ]
+ },
+ {
+  "id": "pingjingguan",
+  "zh": "平靖关",
+  "orig": "P'ingching Pass",
+  "alt": "大别山—桐柏山隘口（武胜关西）；近似，建议历史地图校准",
+  "pos": [
+   113.85,
+   31.85
+  ],
+  "kind": "crossing",
+  "rank": 4,
+  "country": "CN",
+  "confidence": "medium",
+  "sources": [
+   "zhwiki_wuhan",
+   "tan_feicheng_2010"
+  ]
+ },
+ {
+  "id": "tongbai",
+  "zh": "桐柏",
+  "orig": "T'ungpo",
+  "alt": "第五战区后撤方向",
+  "pos": [
+   113.428,
+   32.379
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "CN",
+  "confidence": "medium",
+  "sources": [
+   "zhwiki_wuhan",
+   "tan_feicheng_2010"
+  ]
+ },
+ {
+  "id": "yingshan",
+  "zh": "应山",
+  "orig": "Yingshan",
+  "alt": "今广水市（1988年改名）",
+  "pos": [
+   113.826,
+   31.617
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "CN",
+  "confidence": "medium",
+  "sources": [
+   "zhwiki_wuhan",
+   "tan_feicheng_2010"
+  ]
+ },
+ {
+  "id": "anlu",
+  "zh": "安陆",
+  "orig": "Anlu",
+  "alt": "日军后续警备点",
+  "pos": [
+   113.69,
+   31.261
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "CN",
+  "confidence": "medium",
+  "sources": [
+   "zhwiki_wuhan",
+   "tan_feicheng_2010"
+  ]
+ },
+ {
+  "id": "yunmeng",
+  "zh": "云梦",
+  "orig": "Yunmeng",
+  "alt": "撤退通道",
+  "pos": [
+   113.75,
+   31.021
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "CN",
+  "confidence": "medium",
+  "sources": [
+   "zhwiki_wuhan",
+   "tan_feicheng_2010"
+  ]
+ },
+ {
+  "id": "xiaogan",
+  "zh": "孝感",
+  "orig": "Hsiaokan",
+  "alt": "撤退通道",
+  "pos": [
+   113.917,
+   30.917
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "CN",
+  "confidence": "medium",
+  "sources": [
+   "zhwiki_wuhan",
+   "tan_feicheng_2010"
+  ]
+ },
+ {
+  "id": "huangpi",
+  "zh": "黄陂",
+  "orig": "Hwangp'i",
+  "alt": "10月24日陷落",
+  "pos": [
+   114.374,
+   30.874
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "CN",
+  "confidence": "medium",
+  "sources": [
+   "zhwiki_wuhan",
+   "tan_feicheng_2010"
+  ]
+ },
+ {
+  "id": "jingfu",
+  "zh": "经扶",
+  "orig": "Chingfu",
+  "alt": "今新县（1932—1947年称经扶县，以刘峙字经扶命名；1947年改新县）",
+  "pos": [
+   114.879,
+   31.643
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "CN",
+  "confidence": "medium",
+  "sources": [
+   "zhwiki_wuhan",
+   "tan_feicheng_2010"
+  ]
+ },
+ {
+  "id": "huayuankou",
+  "zh": "花园口",
+  "orig": "Huayuank'ow",
+  "alt": "实际决口处在郑州以北花园口镇（约34.9,113.7），位于本图北缘之外约150公里；此处为画布内代表点，决口位置以正文为准。",
+  "pos": [
+   113.9,
+   33.42
+  ],
+  "kind": "river",
+  "rank": 2,
+  "country": "CN",
+  "confidence": "medium",
+  "sources": [
+   "mazhonglian_huayuankou",
+   "zhwiki_wuhan"
+  ]
+ },
+ {
+  "id": "tongcheng",
+  "zh": "通城",
+  "orig": "T'ungch'eng",
+  "alt": "张发奎部撤退守备方向",
+  "pos": [
+   113.814,
+   29.245
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "CN",
+  "confidence": "medium",
+  "sources": [
+   "zhwiki_wuhan",
+   "tan_feicheng_2010"
+  ]
+ },
+ {
+  "id": "chongyang",
+  "zh": "崇阳",
+  "orig": "Ch'ungyang",
+  "alt": "日军11月后警备线",
+  "pos": [
+   114.04,
+   29.556
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "CN",
+  "confidence": "medium",
+  "sources": [
+   "zhwiki_wuhan",
+   "tan_feicheng_2010"
+  ]
+ },
+ {
+  "id": "gutang",
+  "zh": "姑塘",
+  "orig": "Kut'ang",
+  "alt": "九江东郊鄱阳湖西岸登陆点（7月22—23日波田支队）；近似，建议历史地图校准",
+  "pos": [
+   116.07,
+   29.73
+  ],
+  "kind": "crossing",
+  "rank": 4,
+  "country": "CN",
+  "confidence": "medium",
+  "sources": [
+   "zhwiki_wuhan",
+   "er_shi_guan_minglu"
+  ]
+ },
+ {
+  "id": "jinguanqiao",
+  "zh": "金官桥",
+  "orig": "Chinkuanch'iao",
+  "alt": "德安以北南浔线战场（8—9月初第106师团受阻处）；近似，建议历史地图校准",
+  "pos": [
+   115.72,
+   29.45
+  ],
+  "kind": "village",
+  "rank": 4,
+  "country": "CN",
+  "confidence": "medium",
+  "sources": [
+   "zhwiki_wuhan",
+   "tan_feicheng_2010"
+  ]
+ },
+ {
+  "id": "mahuiling",
+  "zh": "马回岭",
+  "orig": "Mahuiling",
+  "alt": "德安以北南浔线要点，9月4日第106师团占领；近似，建议历史地图校准",
+  "pos": [
+   115.72,
+   29.5
+  ],
+  "kind": "village",
+  "rank": 4,
+  "country": "CN",
+  "confidence": "medium",
+  "sources": [
+   "zhwiki_wuhan",
+   "tan_feicheng_2010"
+  ]
+ },
+ {
+  "id": "zhanggushan",
+  "zh": "张古山",
+  "orig": "Changkushan",
+  "alt": "万家岭核心制高点，10月7—10日反复争夺；近似，建议历史地图校准",
+  "pos": [
+   115.62,
+   29.29
+  ],
+  "kind": "village",
+  "rank": 4,
+  "country": "CN",
+  "confidence": "medium",
+  "sources": [
+   "danganju_youxue_15",
+   "zhwiki_wuhan"
+  ]
+ },
+ {
+  "id": "baishuijie",
+  "zh": "白水街",
+  "orig": "Paishuichieh",
+  "alt": "又称百岁街；万家岭以西第32军阻击第27师团增援处；近似，建议历史地图校准",
+  "pos": [
+   115.5,
+   29.3
+  ],
+  "kind": "village",
+  "rank": 4,
+  "country": "CN",
+  "confidence": "medium",
+  "sources": [
+   "danganju_youxue_15",
+   "zhwiki_wuhan"
+  ]
+ },
+ {
+  "id": "leimingguliu",
+  "zh": "雷鸣鼓刘",
+  "orig": "Leimingkuliou",
+  "alt": "万家岭残敌10月11日起退守处（不足5平方公里）；近似，建议历史地图校准",
+  "pos": [
+   115.6,
+   29.28
+  ],
+  "kind": "village",
+  "rank": 4,
+  "country": "CN",
+  "confidence": "medium",
+  "sources": [
+   "danganju_youxue_15",
+   "zhwiki_wuhan"
+  ]
+ },
+ {
+  "id": "bijijie",
+  "zh": "哔叽街",
+  "orig": "Pichichieh",
+  "alt": "万家岭战场村落（一作白槎）；10月1—3日第58师攻击方向；近似，建议历史地图校准",
+  "pos": [
+   115.64,
+   29.28
+  ],
+  "kind": "village",
+  "rank": 4,
+  "country": "CN",
+  "confidence": "medium",
+  "sources": [
+   "danganju_youxue_15",
+   "zhwiki_wuhan"
+  ]
+ },
+ {
+  "id": "xingou",
+  "zh": "新沟（香口）",
+  "orig": "Hsinkow / Hsiangk'ow",
+  "alt": "马当以东登陆点（6月23日黄昏第3舰队特遣陆战队）；近似，建议历史地图校准",
+  "pos": [
+   116.75,
+   30.0
+  ],
+  "kind": "crossing",
+  "rank": 4,
+  "country": "CN",
+  "confidence": "medium",
+  "sources": [
+   "zhwiki_wuhan",
+   "tan_feicheng_2010"
+  ]
+ },
+ {
+  "id": "niangniangmiao",
+  "zh": "娘娘庙（牛山矶）",
+  "orig": "Niangniangmiao / Niushanchi",
+  "alt": "马当登陆迂回点（6月26日拂晓日军施放毒气后在此登陆）；近似，建议历史地图校准",
+  "pos": [
+   116.7,
+   30.0
+  ],
+  "kind": "crossing",
+  "rank": 4,
+  "country": "CN",
+  "confidence": "medium",
+  "sources": [
+   "zhwiki_wuhan",
+   "tan_feicheng_2010"
+  ]
+ },
+ {
+  "id": "changshan",
+  "zh": "长山",
+  "orig": "Ch'angshan",
+  "alt": "马当要塞核心阵地（守军击退日军三次集团冲锋）；近似，建议历史地图校准",
+  "pos": [
+   116.68,
+   30.01
+  ],
+  "kind": "fort",
+  "rank": 4,
+  "country": "CN",
+  "confidence": "medium",
+  "sources": [
+   "zhwiki_wuhan",
+   "tan_feicheng_2010"
+  ]
+ },
+ {
+  "id": "songshankou",
+  "zh": "松山口（崇山）",
+  "orig": "Sungshank'ow / Ch'ungshan",
+  "alt": "田家镇以北阵地，9月15—18日今村支队与守军反复争夺；近似，建议历史地图校准",
+  "pos": [
+   115.4,
+   29.95
+  ],
+  "kind": "fort",
+  "rank": 4,
+  "country": "CN",
+  "confidence": "medium",
+  "sources": [
+   "zhwiki_wuhan",
+   "jacar_senshi_chugoku"
+  ]
+ },
+ {
+  "id": "banbishan",
+  "zh": "半壁山",
+  "orig": "Panpishan",
+  "alt": "富池口对岸炮台，田家镇南岸犄角；9月下旬失守",
+  "pos": [
+   115.42,
+   29.9
+  ],
+  "kind": "fort",
+  "rank": 3,
+  "country": "CN",
+  "confidence": "medium",
+  "sources": [
+   "zhwiki_wuhan",
+   "tan_feicheng_2010"
+  ]
+ },
+ {
+  "id": "siwangshan",
+  "zh": "四望山（铁石墩）",
+  "orig": "Ssuwangshan / T'iehshihtun",
+  "alt": "田家镇外围警戒阵地，9月15日被今村支队突破；近似，建议历史地图校准",
+  "pos": [
+   115.43,
+   29.93
+  ],
+  "kind": "fort",
+  "rank": 4,
+  "country": "CN",
+  "confidence": "medium",
+  "sources": [
+   "zhwiki_wuhan",
+   "tan_feicheng_2010"
+  ]
+ },
+ {
+  "id": "kunlongguan",
+  "zh": "困龙关",
+  "orig": "K'unlungkuan",
+  "alt": "蕲广线隘路，第55军等阻击第36旅团32天（9月6日—10月初）；近似，建议历史地图校准",
+  "pos": [
+   115.5,
+   30.1
+  ],
+  "kind": "crossing",
+  "rank": 4,
+  "country": "CN",
+  "confidence": "medium",
+  "sources": [
+   "zhwiki_wuhan",
+   "tan_feicheng_2010"
+  ]
+ },
+ {
+  "id": "yejiaji",
+  "zh": "叶家集",
+  "orig": "Yehchiachi",
+  "alt": "固始以东，第13师团9月2日夜强渡史河后占领；近似，建议历史地图校准",
+  "pos": [
+   115.9,
+   31.95
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "CN",
+  "confidence": "medium",
+  "sources": [
+   "zhwiki_wuhan",
+   "tan_feicheng_2010"
+  ]
+ },
+ {
+  "id": "shihe",
+  "zh": "史河",
+  "orig": "Shihho",
+  "alt": "富金山旁河流，第13师团9月2日夜强渡处（示意锚点）；近似，建议历史地图校准",
+  "pos": [
+   115.85,
+   31.9
+  ],
+  "kind": "river",
+  "rank": 4,
+  "country": "CN",
+  "confidence": "medium",
+  "sources": [
+   "zhwiki_wuhan",
+   "tan_feicheng_2010"
+  ]
+ },
+ {
+  "id": "liulinzhan",
+  "zh": "柳林站",
+  "orig": "Liulin Station",
+  "alt": "平汉路信阳以南车站，第3师团10月6日迂回占领切断铁路；近似，建议历史地图校准",
+  "pos": [
+   114.05,
+   32.05
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "CN",
+  "confidence": "medium",
+  "sources": [
+   "zhwiki_wuhan",
+   "tan_feicheng_2010"
+  ]
+ },
+ {
+  "id": "hengdian",
+  "zh": "横店",
+  "orig": "Hengtien",
+  "alt": "黄陂以南，汉口外围（10月24日黄陂失守后日军直逼）；近似，建议历史地图校准",
+  "pos": [
+   114.35,
+   30.8
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "CN",
+  "confidence": "medium",
+  "sources": [
+   "zhwiki_wuhan",
+   "tan_feicheng_2010"
+  ]
+ },
+ {
+  "id": "jinkou",
+  "zh": "金口",
+  "orig": "Chink'ow",
+  "alt": "武昌西南江面，中山舰10月24日沉没处（今武汉江夏区金口）",
+  "pos": [
+   114.13,
+   30.32
+  ],
+  "kind": "port",
+  "rank": 4,
+  "country": "CN",
+  "confidence": "medium",
+  "sources": [
+   "zhwiki_wuhan",
+   "danganju_youxue_14"
+  ]
+ },
+ {
+  "id": "longchuangji",
+  "zh": "龙床矶",
+  "orig": "Lungch'uangchi",
+  "alt": "金口江面，中山舰沉没具体位置；近似，建议历史地图校准",
+  "pos": [
+   114.13,
+   30.32
+  ],
+  "kind": "river",
+  "rank": 4,
+  "country": "CN",
+  "confidence": "medium",
+  "sources": [
+   "zhwiki_wuhan",
+   "tan_feicheng_2010"
+  ]
+ },
+ {
+  "id": "xindi",
+  "zh": "新堤",
+  "orig": "Hsinti",
+  "alt": "今洪湖市；金口—嘉鱼—新堤航道封锁段",
+  "pos": [
+   113.4,
+   29.8
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "CN",
+  "confidence": "medium",
+  "sources": [
+   "zhwiki_wuhan",
+   "tan_feicheng_2010"
+  ]
+ },
+ {
+  "id": "jiayu",
+  "zh": "嘉鱼",
+  "orig": "Chiayu",
+  "alt": "金口—嘉鱼—新堤航道封锁段",
+  "pos": [
+   113.93,
+   29.97
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "CN",
+  "confidence": "medium",
+  "sources": [
+   "zhwiki_wuhan",
+   "tan_feicheng_2010"
+  ]
+ },
+ {
+  "id": "yichang",
+  "zh": "宜昌",
+  "orig": "Ichang",
+  "alt": "撤退与转运终点（宜昌大撤退）（宜昌实际在本图西缘之外，此为画布内代表点；撤退方向示意）",
+  "pos": [
+   112.05,
+   30.75
+  ],
+  "kind": "city",
+  "rank": 2,
+  "country": "CN",
+  "confidence": "medium",
+  "sources": [
+   "zhwiki_wuhan",
+   "mackinnon_wuhan_1996"
+  ]
+ },
+ {
+  "id": "changsha",
+  "zh": "长沙",
+  "orig": "Changsha",
+  "alt": "后方基地",
+  "pos": [
+   112.94,
+   28.23
+  ],
+  "kind": "city",
+  "rank": 1,
+  "country": "CN",
+  "confidence": "medium",
+  "sources": [
+   "zhwiki_wuhan",
+   "enwiki_wuhan"
+  ]
+ },
+ {
+  "id": "hefei",
+  "zh": "合肥",
+  "orig": "Hofei",
+  "alt": "第2军集结地（8月下旬完成集结）；1938年为小县城，非今日省会规模",
+  "pos": [
+   117.28,
+   31.86
+  ],
+  "kind": "city",
+  "rank": 2,
+  "country": "CN",
+  "confidence": "medium",
+  "sources": [
+   "zhwiki_wuhan",
+   "jacar_senshi_chugoku"
+  ]
+ },
+ {
+  "id": "shucheng",
+  "zh": "舒城",
+  "orig": "Shuch'eng",
+  "alt": "第6师团6月8日占领",
+  "pos": [
+   116.95,
+   31.46
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "CN",
+  "confidence": "medium",
+  "sources": [
+   "zhwiki_wuhan",
+   "kumamoto_heitanshi"
+  ]
+ },
+ {
+  "id": "tongcheng_anhui",
+  "zh": "桐城",
+  "orig": "T'ungch'eng",
+  "alt": "第6师团6月13日占领",
+  "pos": [
+   116.94,
+   31.05
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "CN",
+  "confidence": "medium",
+  "sources": [
+   "zhwiki_wuhan",
+   "kumamoto_heitanshi"
+  ]
+ },
+ {
+  "id": "wuwei",
+  "zh": "无为",
+  "orig": "Wuwei",
+  "alt": "第27集团军6月防守安庆—无为—桐城一线",
+  "pos": [
+   117.9,
+   31.3
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "CN",
+  "confidence": "medium",
+  "sources": [
+   "zhwiki_wuhan",
+   "tan_feicheng_2010"
+  ]
+ },
+ {
+  "id": "wuhu",
+  "zh": "芜湖",
+  "orig": "Wuhu",
+  "alt": "波田支队溯江出发地（6月上旬）",
+  "pos": [
+   118.37,
+   31.35
+  ],
+  "kind": "city",
+  "rank": 2,
+  "country": "CN",
+  "confidence": "medium",
+  "sources": [
+   "zhwiki_wuhan",
+   "jacar_senshi_chugoku"
+  ]
+ },
+ {
+  "id": "nanjing",
+  "zh": "南京",
+  "orig": "Nanking",
+  "alt": "1937年12月13日沦陷；华中派遣军出发地与警备中枢（南京实际在本图东缘之外，此为画布内代表点；日军1937年占领出发地）",
+  "pos": [
+   118.45,
+   32.05
+  ],
+  "kind": "capital",
+  "rank": 1,
+  "country": "CN",
+  "confidence": "medium",
+  "sources": [
+   "zhwiki_wuhan",
+   "enwiki_wuhan"
+  ]
+ }
+]
