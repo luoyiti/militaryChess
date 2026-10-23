@@ -1,0 +1,63 @@
+[
+ {
+  "id": "strat_okh_35",
+  "title": "OKW 第 35 号指令（1941-09-06）：台风的作战依据——经美国陆军军史第二章与德文维基转述，未见可核原文",
+  "author": "OKW；转述见 Ziemke/Bauer《Moscow to Stalingrad》第二章、德文维基「Schlacht um Moskau」",
+  "url": "https://de.wikipedia.org/wiki/Schlacht_um_Moskau",
+  "year": 1941,
+  "license": "转述来源：CC BY-SA 3.0（维基百科）"
+ },
+ {
+  "id": "strat_cmh_tomoscow",
+  "title": "美国陆军军史《Moscow to Stalingrad》第三章「To Moscow」：台风计划、维亚济马与布良斯克合围、莫扎伊防线、十一月攻势（HyperWar 全文）",
+  "author": "Earl F. Ziemke / Magna E. Bauer；U.S. Army Center of Military History",
+  "url": "https://www.ibiblio.org/hyperwar/USA/USA-EF-Decision/USA-EF-Decision-3.html",
+  "year": 1987
+ },
+ {
+  "id": "strat_cmh_counter1",
+  "title": "美国陆军军史《Moscow to Stalingrad》第四章「The Counteroffensive: First Phase」：12 月 5—31 日反攻（HyperWar 全文）",
+  "author": "Earl F. Ziemke / Magna E. Bauer；U.S. Army CMH",
+  "url": "https://www.ibiblio.org/hyperwar/USA/USA-EF-Decision/USA-EF-Decision-4.html",
+  "year": 1987
+ },
+ {
+  "id": "strat_cmh_counter2",
+  "title": "美国陆军军史《Moscow to Stalingrad》第五章「The Counteroffensive: Second Phase」：1942 年 1 月勒热夫—维亚济马总攻（HyperWar 全文）",
+  "author": "Earl F. Ziemke / Magna E. Bauer；U.S. Army CMH",
+  "url": "https://www.ibiblio.org/hyperwar/USA/USA-EF-Decision/USA-EF-Decision-5.html",
+  "year": 1987
+ },
+ {
+  "id": "strat_cmh_blitz",
+  "title": "美国陆军军史《Moscow to Stalingrad》第二章「The Blitzkrieg」：巴巴罗萨至斯摩棱斯克，台风的战略前史（HyperWar 全文）",
+  "author": "Earl F. Ziemke / Magna E. Bauer；U.S. Army CMH",
+  "url": "https://www.ibiblio.org/hyperwar/USA/USA-EF-Decision/USA-EF-Decision-2.html",
+  "year": 1987
+ },
+ {
+  "id": "strat_wiki_en",
+  "title": "英文维基百科「Battle of Moscow」：作战序列、日期、伤亡段的可核查综述（用于交叉核对，不单独作为事实依据）",
+  "author": "Wikipedia contributors",
+  "url": "https://en.wikipedia.org/wiki/Battle_of_Moscow"
+ },
+ {
+  "id": "strat_wiki_ru",
+  "title": "俄文维基百科「Битва за Москву」：战役分期、各阶段数据与伤亡口径综述（用于交叉核对）",
+  "author": "Википедия",
+  "url": "https://ru.wikipedia.org/wiki/Битва_за_Москву"
+ },
+ {
+  "id": "strat_zh_wiki",
+  "title": "中文维基百科「莫斯科战役」：中文译名与阶段划分参照",
+  "author": "维基百科",
+  "url": "https://zh.wikipedia.org/wiki/莫斯科戰役"
+ },
+ {
+  "id": "strat_okh_taifun_order",
+  "title": "台风作战令（博克 1941-09-26 第 1620/41 号）与 10 月 2 日主攻序列——经俄文维基与 CMH 第二章转述",
+  "author": "中央集团军群司令部；转述见俄文维基「Битва за Москву」与 CMH 第二章",
+  "year": 1941,
+  "url": "https://ru.wikipedia.org/wiki/Битва_за_Москву"
+ }
+]

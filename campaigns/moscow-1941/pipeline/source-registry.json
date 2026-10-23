@@ -1,0 +1,269 @@
+[
+ {
+  "id": "geo_histbasemaps",
+  "title": "historical-basemaps world_1938（A. Ourednik 等，GPL-3.0）：1938 年国界，用于确认全图属苏联境内",
+  "author": "A. Ourednik et al.",
+  "url": "https://github.com/aourednik/historical-basemaps"
+ },
+ {
+  "id": "geo_moscow_plan",
+  "title": "1941 年莫斯科城防三环与防御地带示意（俄方研究与城防地图）",
+  "author": "转引自城防研究"
+ },
+ {
+  "id": "geo_naturalearth",
+  "title": "Natural Earth 1:10m：陆地、河湖、居民点（公有领域），本战役底图与地名坐标的几何基础",
+  "author": "Natural Earth",
+  "url": "https://www.naturalearthdata.com/"
+ },
+ {
+  "id": "geo_terrarium",
+  "title": "Terrain Tiles (Terrarium)，Mapzen / AWS Open Data：DEM 高程，含 SRTM 等",
+  "author": "Mapzen / AWS"
+ },
+ {
+  "id": "ger_4a",
+  "title": "第 4 集团军 1941 年作战序列与作战地域",
+  "author": "Lexikon der Wehrmacht",
+  "url": "https://www.lexikon-der-wehrmacht.de/Gliederungen/Armeen/4Armee.htm"
+ },
+ {
+  "id": "ger_9a",
+  "title": "第 9 集团军 1941 年作战序列（瑟乔夫卡、勒热夫方向）",
+  "author": "Lexikon der Wehrmacht",
+  "url": "https://www.lexikon-der-wehrmacht.de/Gliederungen/Armeen/9Armee.htm"
+ },
+ {
+  "id": "ger_bock_diary",
+  "title": "博克元帅 1941 年作战日记选段（10 月 19 日战俘与缴获数字）——仅经二手转述，未取得原日记，数字标注「德方战时宣称、未独立核对」",
+  "author": "Fedor von Bock；转述见俄文维基「Битва за Москву」与 CMH 第二章",
+  "year": 1941,
+  "url": "https://en.wikipedia.org/wiki/Battle_of_Moscow",
+  "license": "转述来源：CC BY-SA 3.0（维基百科）"
+ },
+ {
+  "id": "ger_guderian_panzerleader",
+  "title": "古德里安《闪击英雄》(Panzer Leader) 关于 10—12 月图拉方向与 12 月 25 日去职的记述（回忆录，用于指挥官视角，数字须交叉核对）",
+  "author": "Heinz Guderian",
+  "year": 1952
+ },
+ {
+  "id": "ger_halder_diary",
+  "title": "哈尔德日记 1941 年 8—12 月（关于台风、冬季装备与补给的关键条目，转引）",
+  "author": "Franz Halder",
+  "year": 1941
+ },
+ {
+  "id": "ger_hgr_center",
+  "title": "中央集团军群 1941 年 9—12 月作战序列（各集团军、装甲集群、军、师）",
+  "author": "Lexikon der Wehrmacht",
+  "url": "https://www.lexikon-der-wehrmacht.de/Gliederungen/Heeresgruppen/HeeresgruppeMitte.htm"
+ },
+ {
+  "id": "ger_la_8flieger",
+  "title": "第 8 航空军与第 2 航空队 1941 年秋冬兵力与出动（柏林空袭莫斯科的空中作战）",
+  "author": "Lexikon der Wehrmacht",
+  "url": "https://www.lexikon-der-wehrmacht.de/Gliederungen/Luftflotten/Luftflotte2.htm"
+ },
+ {
+  "id": "ger_pzgr2",
+  "title": "第 2 装甲集群（古德里安，1941-10-05 起称第 2 装甲集团军）作战序列（原链接已失效，经二手转述）",
+  "author": "Lexikon der Wehrmacht",
+  "url": "https://www.lexikon-der-wehrmacht.de/inhaltsverzeichnis1.htm"
+ },
+ {
+  "id": "ger_pzgr3",
+  "title": "第 3 装甲集群（1942-01-01 起为第 3 装甲集团军）作战序列（原链接已失效，经二手转述）",
+  "author": "Lexikon der Wehrmacht",
+  "url": "https://www.lexikon-der-wehrmacht.de/inhaltsverzeichnis1.htm"
+ },
+ {
+  "id": "ger_pzgr4",
+  "title": "第 4 装甲集群（霍普纳）作战序列（原链接已失效，经二手转述）",
+  "author": "Lexikon der Wehrmacht",
+  "url": "https://www.lexikon-der-wehrmacht.de/inhaltsverzeichnis1.htm"
+ },
+ {
+  "id": "ger_weiss_101",
+  "title": "第 2 装甲师在维亚济马—莫扎伊防线—克林方向的战史（师史转引）",
+  "author": "Divisionsgeschichte / 转引"
+ },
+ {
+  "id": "ger_winter_equipment",
+  "title": "德军 1941 年冬装与御寒准备不足的档案与战史研究综述（含希特勒对冬装的乐观判断）",
+  "author": "转引自战史研究"
+ },
+ {
+  "id": "pho_bundesarchiv",
+  "title": "德国联邦档案馆（Bundesarchiv）照片在 Commons 的 CC BY-SA 3.0 de 授权条目",
+  "author": "Bundesarchiv / Wikimedia Commons"
+ },
+ {
+  "id": "pho_commons",
+  "title": "Wikimedia Commons 文件页与元数据 API（许可证、作者、原始说明）",
+  "author": "Wikimedia Commons",
+  "url": "https://commons.wikimedia.org/"
+ },
+ {
+  "id": "pho_rian",
+  "title": "俄新社（РИА Новости）历史照片档案在 Commons 的公有领域/CC 授权条目",
+  "author": "РИА Новости / Wikimedia Commons"
+ },
+ {
+  "id": "stat_casualty_debate",
+  "title": "莫斯科会战双方伤亡的多口径比较研究（苏方 514,338/143,941；德方 145,000 与 436,900 等）",
+  "author": "转引自伤亡统计研究"
+ },
+ {
+  "id": "stat_german_10_12",
+  "title": "中央集团军群 1941 年 10—12 月兵力、坦克与火炮可用数（德军十日报告口径）",
+  "author": "德军十日报告 / 转引"
+ },
+ {
+  "id": "stat_soviet_10_12",
+  "title": "苏军 1941 年 10—12 月莫斯科方向兵力与装备（方面军、集团军级统计）",
+  "author": "俄方战史统计"
+ },
+ {
+  "id": "strat_cmh_blitz",
+  "title": "美国陆军军史《Moscow to Stalingrad》第二章「The Blitzkrieg」：巴巴罗萨至斯摩棱斯克，台风的战略前史（HyperWar 全文）",
+  "author": "Earl F. Ziemke / Magna E. Bauer；U.S. Army CMH",
+  "url": "https://www.ibiblio.org/hyperwar/USA/USA-EF-Decision/USA-EF-Decision-2.html",
+  "year": 1987
+ },
+ {
+  "id": "strat_cmh_counter1",
+  "title": "美国陆军军史《Moscow to Stalingrad》第四章「The Counteroffensive: First Phase」：12 月 5—31 日反攻（HyperWar 全文）",
+  "author": "Earl F. Ziemke / Magna E. Bauer；U.S. Army CMH",
+  "url": "https://www.ibiblio.org/hyperwar/USA/USA-EF-Decision/USA-EF-Decision-4.html",
+  "year": 1987
+ },
+ {
+  "id": "strat_cmh_counter2",
+  "title": "美国陆军军史《Moscow to Stalingrad》第五章「The Counteroffensive: Second Phase」：1942 年 1 月勒热夫—维亚济马总攻（HyperWar 全文）",
+  "author": "Earl F. Ziemke / Magna E. Bauer；U.S. Army CMH",
+  "url": "https://www.ibiblio.org/hyperwar/USA/USA-EF-Decision/USA-EF-Decision-5.html",
+  "year": 1987
+ },
+ {
+  "id": "strat_cmh_tomoscow",
+  "title": "美国陆军军史《Moscow to Stalingrad》第三章「To Moscow」：台风计划、维亚济马与布良斯克合围、莫扎伊防线、十一月攻势（HyperWar 全文）",
+  "author": "Earl F. Ziemke / Magna E. Bauer；U.S. Army Center of Military History",
+  "url": "https://www.ibiblio.org/hyperwar/USA/USA-EF-Decision/USA-EF-Decision-3.html",
+  "year": 1987
+ },
+ {
+  "id": "strat_okh_35",
+  "title": "OKW 第 35 号指令（1941-09-06）：台风的作战依据——经美国陆军军史第二章与德文维基转述，未见可核原文",
+  "author": "OKW；转述见 Ziemke/Bauer《Moscow to Stalingrad》第二章、德文维基「Schlacht um Moskau」",
+  "url": "https://de.wikipedia.org/wiki/Schlacht_um_Moskau",
+  "year": 1941,
+  "license": "转述来源：CC BY-SA 3.0（维基百科）"
+ },
+ {
+  "id": "strat_okh_taifun_order",
+  "title": "台风作战令（博克 1941-09-26 第 1620/41 号）与 10 月 2 日主攻序列——经俄文维基与 CMH 第二章转述",
+  "author": "中央集团军群司令部；转述见俄文维基「Битва за Москву」与 CMH 第二章",
+  "year": 1941,
+  "url": "https://ru.wikipedia.org/wiki/Битва_за_Москву"
+ },
+ {
+  "id": "strat_wiki_en",
+  "title": "英文维基百科「Battle of Moscow」：作战序列、日期、伤亡段的可核查综述（用于交叉核对，不单独作为事实依据）",
+  "author": "Wikipedia contributors",
+  "url": "https://en.wikipedia.org/wiki/Battle_of_Moscow"
+ },
+ {
+  "id": "strat_wiki_ru",
+  "title": "俄文维基百科「Битва за Москву」：战役分期、各阶段数据与伤亡口径综述（用于交叉核对）",
+  "author": "Википедия",
+  "url": "https://ru.wikipedia.org/wiki/Битва_за_Москву"
+ },
+ {
+  "id": "strat_zh_wiki",
+  "title": "中文维基百科「莫斯科战役」：中文译名与阶段划分参照",
+  "author": "维基百科",
+  "url": "https://zh.wikipedia.org/wiki/莫斯科戰役"
+ },
+ {
+  "id": "su_28_panfilov",
+  "title": "「28 名潘菲洛夫战士」报道的争议：1980—2000 年代档案核实与 2016 年俄罗斯总检察院认定报道系虚构（战役本身存在）",
+  "author": "俄罗斯联邦总检察院 2016 年结论 / 俄方研究",
+  "year": 2016
+ },
+ {
+  "id": "su_belov",
+  "title": "别洛夫骑兵军在 1941 年 11—12 月图拉以南与 1942 年 1—6 月维亚济马以南的作战（回忆与研究）",
+  "author": "П. А. Белов / 转引"
+ },
+ {
+  "id": "su_cmd_konev",
+  "title": "加里宁方面军（1941 年 10 月 17 日组建，科涅夫）作战与 12 月加里宁反攻",
+  "author": "俄方战史"
+ },
+ {
+  "id": "su_cmd_zhukov_wf",
+  "title": "西方面军 1941 年 10—12 月指挥关系与各集团军隶属变化（含 10 月 10 日合并预备方面军）",
+  "author": "俄方战史"
+ },
+ {
+  "id": "su_katukov",
+  "title": "卡图科夫《坦克出击》关于第 4 坦克旅姆岑斯克伏击与第 1 近卫坦克旅的记述（回忆录）",
+  "author": "М. Е. Катуков",
+  "year": 1958
+ },
+ {
+  "id": "su_krivosheev",
+  "title": "克里沃舍耶夫主编《苏联武装力量在 20 世纪战争中的损失》：莫斯科会战苏军不可恢复损失与卫生减员（防御阶段与反攻阶段分列）（原链接已失效，经二手转述）",
+  "author": "Г. Ф. Кривошеев（主编）",
+  "url": "https://www.soldat.ru/doc/casualties/"
+ },
+ {
+  "id": "su_opolcheniye",
+  "title": "莫斯科民兵师（1941 年 7 月与 10 月两次组建，共 12 个师约 12 万人）的编制与参战（俄方研究）",
+  "author": "转引自莫斯科市志与战史"
+ },
+ {
+  "id": "su_parade_1941",
+  "title": "1941 年 11 月 7 日红场阅兵：受阅部队直接开赴前线的史料与研究",
+  "author": "俄方档案与研究"
+ },
+ {
+  "id": "su_podolsk",
+  "title": "波多利斯克步兵与炮兵学校学员 1941 年 10 月在小雅罗斯拉韦茨—尤赫诺夫一线的阻击（人数与战果的争议口径并列）",
+  "author": "俄方研究与莫斯科州档案"
+ },
+ {
+  "id": "su_pvo_moscow",
+  "title": "莫斯科防空（PVO）1941 年兵力、空袭次数与战果统计（俄方研究综述）",
+  "author": "转引自防空兵战史研究"
+ },
+ {
+  "id": "su_rokossovsky",
+  "title": "罗科索夫斯基《军人的天职》关于第 16 集团军在沃洛科拉姆斯克—伊斯特拉—克林方向的作战（回忆录）",
+  "author": "К. К. Рокоссовский",
+  "year": 1968
+ },
+ {
+  "id": "su_siberia",
+  "title": "远东与中亚师团 1941 年秋西调莫斯科的档期与规模（含佐尔格情报作用的争议）",
+  "author": "转引自战史研究"
+ },
+ {
+  "id": "su_special_moscow",
+  "title": "1941 年 10 月 15—16 日政府机构迁古比雪夫、莫斯科「十月十六日」恐慌与 10 月 19 日戒严的档案研究",
+  "author": "俄方档案与研究"
+ },
+ {
+  "id": "su_vasilevsky",
+  "title": "华西列夫斯基《毕生事业》关于总参谋部在 10—12 月莫斯科防御中的调度（回忆录）",
+  "author": "А. М. Василевский",
+  "year": 1973
+ },
+ {
+  "id": "su_zhukov_memoirs",
+  "title": "朱可夫《回忆与思考》关于 10 月 10 日接管西方面军、11 月危机与 12 月反攻计划的记述（回忆录，需交叉核对）",
+  "author": "Г. К. Жуков",
+  "year": 1969
+ }
+]

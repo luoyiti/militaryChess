@@ -1,0 +1,610 @@
+[
+ {
+  "id": "kalinin",
+  "zh": "加里宁（特维尔）",
+  "orig": "Калинин / Тверь",
+  "pos": [
+   35.9,
+   56.858
+  ],
+  "kind": "city",
+  "rank": 1,
+  "country": "SU",
+  "sources": [
+   "geo_naturalearth"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "torzhok",
+  "zh": "托尔若克",
+  "orig": "Торжок",
+  "pos": [
+   34.962,
+   57.043
+  ],
+  "kind": "city",
+  "rank": 3,
+  "country": "SU",
+  "sources": [
+   "geo_naturalearth"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "staritsa",
+  "zh": "斯塔里察",
+  "orig": "Старица",
+  "pos": [
+   34.93,
+   56.507
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU",
+  "sources": [
+   "geo_naturalearth"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "rzhev",
+  "zh": "勒热夫",
+  "orig": "Ржев",
+  "pos": [
+   34.33,
+   56.257
+  ],
+  "kind": "city",
+  "rank": 2,
+  "country": "SU",
+  "sources": [
+   "geo_naturalearth"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "zubtsov",
+  "zh": "祖布佐夫",
+  "orig": "Зубцов",
+  "pos": [
+   34.59,
+   56.17
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU",
+  "sources": [
+   "geo_naturalearth"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "kholm_zhirkovsky",
+  "zh": "霍尔姆-日尔科夫斯基",
+  "orig": "Холм-Жирковский",
+  "pos": [
+   33.467,
+   55.517
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU",
+  "sources": [
+   "geo_naturalearth"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "sychevka",
+  "zh": "瑟乔夫卡",
+  "orig": "Сычёвка",
+  "pos": [
+   34.283,
+   55.833
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU",
+  "sources": [
+   "geo_naturalearth"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "gzhatsk",
+  "zh": "格扎茨克（加加林）",
+  "orig": "Гжатск / Гагарин",
+  "pos": [
+   34.99,
+   55.55
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "SU",
+  "sources": [
+   "geo_naturalearth"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "vyazma",
+  "zh": "维亚济马",
+  "orig": "Вязьма",
+  "pos": [
+   34.292,
+   55.212
+  ],
+  "kind": "city",
+  "rank": 2,
+  "country": "SU",
+  "sources": [
+   "geo_naturalearth"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "lotoshino",
+  "zh": "洛托希诺",
+  "orig": "Лотошино",
+  "pos": [
+   35.64,
+   56.23
+  ],
+  "kind": "village",
+  "rank": 4,
+  "country": "SU",
+  "sources": [
+   "geo_naturalearth"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "shakhovskaya",
+  "zh": "沙霍夫斯卡亚",
+  "orig": "Шаховская",
+  "pos": [
+   35.48,
+   56.03
+  ],
+  "kind": "village",
+  "rank": 4,
+  "country": "SU",
+  "sources": [
+   "geo_naturalearth"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "yaropolets",
+  "zh": "亚罗波列茨",
+  "orig": "Ярополец",
+  "pos": [
+   35.8,
+   56.13
+  ],
+  "kind": "village",
+  "rank": 4,
+  "country": "SU",
+  "sources": [
+   "geo_naturalearth"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "konakovo",
+  "zh": "科纳科沃",
+  "orig": "Конаково",
+  "pos": [
+   36.81,
+   56.7
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU",
+  "sources": [
+   "geo_naturalearth"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "kimry",
+  "zh": "金雷",
+  "orig": "Кимры",
+  "pos": [
+   37.34,
+   56.87
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "SU",
+  "sources": [
+   "geo_naturalearth"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "kashin",
+  "zh": "卡申",
+  "orig": "Кашин",
+  "pos": [
+   37.6,
+   57.35
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "SU",
+  "sources": [
+   "geo_naturalearth"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "bezhetsk",
+  "zh": "别热茨克",
+  "orig": "Бежецк",
+  "pos": [
+   36.69,
+   57.77
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "SU",
+  "sources": [
+   "geo_naturalearth"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "vyshny_volochek",
+  "zh": "维什尼沃洛乔克",
+  "orig": "Вышний Волочёк",
+  "pos": [
+   34.563,
+   57.583
+  ],
+  "kind": "city",
+  "rank": 3,
+  "country": "SU",
+  "sources": [
+   "geo_naturalearth"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "bologoye",
+  "zh": "博洛戈耶",
+  "orig": "Бологое",
+  "pos": [
+   34.052,
+   57.872
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU",
+  "sources": [
+   "geo_naturalearth"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "toropets",
+  "zh": "托罗佩茨",
+  "orig": "Торопец",
+  "pos": [
+   31.64,
+   56.5
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "SU",
+  "sources": [
+   "geo_naturalearth"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "kholm",
+  "zh": "霍尔姆",
+  "orig": "Холм",
+  "pos": [
+   31.18,
+   57.15
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU",
+  "sources": [
+   "geo_naturalearth"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "staraya_russa",
+  "zh": "旧鲁萨",
+  "orig": "Старая Русса",
+  "pos": [
+   31.354,
+   57.995
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "SU",
+  "sources": [
+   "geo_naturalearth"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "demyansk",
+  "zh": "杰米扬斯克",
+  "orig": "Демянск",
+  "pos": [
+   32.47,
+   57.64
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU",
+  "sources": [
+   "geo_naturalearth"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "ostashkov",
+  "zh": "奥斯塔什科夫",
+  "orig": "Осташков",
+  "pos": [
+   33.11,
+   57.15
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU",
+  "sources": [
+   "geo_naturalearth"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "selizharovo",
+  "zh": "谢利扎罗沃",
+  "orig": "Селижарово",
+  "pos": [
+   33.45,
+   56.86
+  ],
+  "kind": "village",
+  "rank": 4,
+  "country": "SU",
+  "sources": [
+   "geo_naturalearth"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "velikie_luki",
+  "zh": "大卢基",
+  "orig": "Великие Луки",
+  "pos": [
+   30.52,
+   56.32
+  ],
+  "kind": "city",
+  "rank": 3,
+  "country": "SU",
+  "sources": [
+   "geo_naturalearth"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "velizh",
+  "zh": "韦利日",
+  "orig": "Велиж",
+  "pos": [
+   31.2,
+   55.6
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU",
+  "sources": [
+   "geo_naturalearth"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "demidov",
+  "zh": "杰米多夫",
+  "orig": "Демидов",
+  "pos": [
+   31.51,
+   55.27
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU",
+  "sources": [
+   "geo_naturalearth"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "rudnya",
+  "zh": "鲁德尼亚",
+  "orig": "Рудня",
+  "pos": [
+   31.09,
+   54.95
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU",
+  "sources": [
+   "geo_naturalearth"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "dukhovshchina",
+  "zh": "杜霍夫希纳",
+  "orig": "Духовщина",
+  "pos": [
+   32.4,
+   55.2
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU",
+  "sources": [
+   "geo_naturalearth"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "yartsevo",
+  "zh": "亚尔采沃",
+  "orig": "Ярцево",
+  "pos": [
+   32.7,
+   55.07
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU",
+  "sources": [
+   "geo_naturalearth"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "safonovo",
+  "zh": "萨福诺沃",
+  "orig": "Сафоново",
+  "pos": [
+   33.22,
+   55.15
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU",
+  "sources": [
+   "geo_naturalearth"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "dorogobuzh",
+  "zh": "多罗戈布日",
+  "orig": "Дорогобуж",
+  "pos": [
+   33.3,
+   54.92
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU",
+  "sources": [
+   "geo_naturalearth"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "smolensk",
+  "zh": "斯摩棱斯克",
+  "orig": "Смоленск",
+  "pos": [
+   32.047,
+   54.783
+  ],
+  "kind": "city",
+  "rank": 1,
+  "country": "SU",
+  "sources": [
+   "geo_naturalearth"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "moscow_canal",
+  "zh": "莫斯科运河",
+  "orig": "Канал имени Москвы",
+  "pos": [
+   37.3,
+   56.3
+  ],
+  "kind": "river",
+  "rank": 2,
+  "country": "SU",
+  "sources": [
+   "geo_naturalearth"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "ivankovo_res",
+  "zh": "伊万科沃水库（莫斯科海）",
+  "orig": "Иваньковское водохранилище",
+  "pos": [
+   37.0,
+   56.75
+  ],
+  "kind": "region",
+  "rank": 3,
+  "country": "SU",
+  "sources": [
+   "geo_naturalearth"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "volga_r",
+  "zh": "伏尔加河",
+  "orig": "Волга",
+  "pos": [
+   36.9,
+   57.1
+  ],
+  "kind": "river",
+  "rank": 1,
+  "country": "SU",
+  "sources": [
+   "geo_naturalearth"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "lama_r",
+  "zh": "拉马河",
+  "orig": "Лама",
+  "pos": [
+   35.9,
+   56.1
+  ],
+  "kind": "river",
+  "rank": 4,
+  "country": "SU",
+  "sources": [
+   "geo_naturalearth"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "valdai",
+  "zh": "瓦尔代丘陵",
+  "orig": "Валдайская возвышенность",
+  "pos": [
+   33.0,
+   57.3
+  ],
+  "kind": "region",
+  "rank": 2,
+  "country": "SU",
+  "sources": [
+   "geo_naturalearth"
+  ],
+  "confidence": "high"
+ }
+]

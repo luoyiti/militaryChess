@@ -1,0 +1,384 @@
+{
+  "_doc": "照片核验记录：accepted 为实际写入 photos/ 的条目（含 Commons 原始元数据与使用限制），excluded 为明确拒绝的候选及理由。由 fetch_photos.py 生成。",
+  "station": "Wikimedia Commons API（action=query, prop=imageinfo, iiurlwidth=1280）",
+  "retrieved": "2026-10-22",
+  "accepted": [
+    {
+      "commons": "File:Battle of Moscow.jpg",
+      "file": "photos/moscow-tank-trap-digging.webp",
+      "permissionTemplate": "Public domain",
+      "licenseAsRead": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Battle_of_Moscow.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Battle_of_Moscow.jpg/1280px-Battle_of_Moscow.jpg",
+      "metadata": {
+        "ObjectName": "Battle of Moscow",
+        "ImageDescription": "Armed with heavy shovels, a hastily assembled work force of Moscow women and elderly men gouge a huge tank trap out of the earth to halt German Panzers advancing on the Russian capital. In the feverish effort to save the city, more than 100,000 citizens labored from mid-October until late November digging ditches and building other obstructions. When completed, the ditches extended more than 100 miles. Source: Scanned from \"Russia Besieged\" (ISBN 705405273), page 165 Image originally from the United States Information Agency",
+        "DateTimeOriginal": "2004-08-07",
+        "Credit": "Scanned from \"Russia Besieged\" (ISBN 705405273), page 165",
+        "Artist": "United States Information Agency",
+        "LicenseShortName": "Public domain"
+      },
+      "limits": "拍摄日期未详；不能用于确定 10 月某日防线位置。"
+    },
+    {
+      "commons": "File:RIAN archive 46802 The defense of Moscow.jpg",
+      "file": "photos/rian-46802-heavy-gun-crew.webp",
+      "permissionTemplate": "CC BY-SA 3.0",
+      "licenseAsRead": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:RIAN_archive_46802_The_defense_of_Moscow.jpg",
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c6/RIAN_archive_46802_The_defense_of_Moscow.jpg",
+      "metadata": {
+        "ObjectName": "RIAN archive 46802 The defense of Moscow",
+        "ImageDescription": "“The defense of Moscow”. Heavy gun crew firing at enemy positions during the Great Patriotic War.",
+        "DateTimeOriginal": "Taken on 3 December 1941",
+        "Credit": "RIA Novosti archive, image #46802, http://visualrian.ru/ru/site/gallery/#46802 6x8 film / 6х8 негатив",
+        "Artist": "Victor Antonovich Temin",
+        "LicenseShortName": "CC BY-SA 3.0",
+        "LicenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      "limits": "只证明「12 月初有重炮射击」，不指认部队番号。"
+    },
+    {
+      "commons": "File:RIAN archive 887721 Defense of Moscow.jpg",
+      "file": "photos/rian-887721-aa-guns-hotel-moskva.webp",
+      "permissionTemplate": "CC BY-SA 3.0",
+      "licenseAsRead": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:RIAN_archive_887721_Defense_of_Moscow.jpg",
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ad/RIAN_archive_887721_Defense_of_Moscow.jpg",
+      "metadata": {
+        "ObjectName": "RIAN archive 887721 Defense of Moscow",
+        "ImageDescription": "“Defense of Moscow” . Anti-aircraft gunners on the roof of Moscow's central Hotel \"Moskva\". The Great Patriotic War (1941-1945). Reprophoto.",
+        "DateTimeOriginal": "Taken on 1 August 1941",
+        "Credit": "RIA Novosti archive, image #887721, http://visualrian.ru/ru/site/gallery/#887721 6x7 film / 6х7 негатив",
+        "Artist": "Knorring / Олег Кнорринг",
+        "LicenseShortName": "CC BY-SA 3.0",
+        "LicenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      "limits": "8 月拍摄，不能直接配 10—12 月的空袭事件而不加说明。"
+    },
+    {
+      "commons": "File:RIAN archive 403 Antiaircraft balloons in Moscow.jpg",
+      "file": "photos/rian-403-barrage-balloons.webp",
+      "permissionTemplate": "CC BY-SA 3.0",
+      "licenseAsRead": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:RIAN_archive_403_Antiaircraft_balloons_in_Moscow.jpg",
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1c/RIAN_archive_403_Antiaircraft_balloons_in_Moscow.jpg",
+      "metadata": {
+        "ObjectName": "RIAN archive 403 Antiaircraft balloons in Moscow",
+        "ImageDescription": "“Refill gas balloons for barrage balloons in Moscow”. Refill gas balloons for barrage balloons in Moscow.",
+        "DateTimeOriginal": "1941-11",
+        "Credit": "RIA Novosti archive, image #403, http://visualrian.ru/ru/site/gallery/#403 35 mm film / 35 мм негатив",
+        "Artist": "Knorring / Олег Кнорринг",
+        "LicenseShortName": "CC BY-SA 3.0",
+        "LicenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      "limits": "月份精度；不能据此判断空袭次数。"
+    },
+    {
+      "commons": "File:RIAN archive 38689 Defending the Moscow sky.jpg",
+      "file": "photos/rian-38689-acoustic-detector.webp",
+      "permissionTemplate": "CC BY-SA 3.0",
+      "licenseAsRead": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:RIAN_archive_38689_Defending_the_Moscow_sky.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/RIAN_archive_38689_Defending_the_Moscow_sky.jpg/1280px-RIAN_archive_38689_Defending_the_Moscow_sky.jpg",
+      "metadata": {
+        "ObjectName": "RIAN archive 38689 Defending the Moscow sky",
+        "ImageDescription": "“Defending the Moscow sky”. Soviet soldiers manning an acoustic aircraft detector near Moscow, in 1941 during World War 2, to detect German bombers. Before radar was developed in World War 2, air defense forces used acoustic horn sound detectors like this one to listen for the sound of approaching enemy planes. The sound collected by the horns was conducted by rubber tubes to \"stethoscope-like\" earphones on the technician at left. Separate horns connected to each ear allowed the technician to judge the direction of the aircraft by stereophonic hearing. The 4 horns were used in pairs; the horizontal pair to determine direction and the vertical pair to determine elevation.",
+        "DateTimeOriginal": "Taken on 1 October 1941",
+        "Credit": "RIA Novosti archive, image #38689, http://visualrian.ru/ru/site/gallery/#38689 6x8 film / 6х8 негатив",
+        "Artist": "Naum Granovsky",
+        "LicenseShortName": "CC BY-SA 3.0",
+        "LicenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      "limits": "10 月 1 日拍摄；装备为声学探测，不是雷达。"
+    },
+    {
+      "commons": "File:RIAN archive 14 Anti-aircraft gunners defending Moscow.jpg",
+      "file": "photos/rian-14-aa-gunners.webp",
+      "permissionTemplate": "CC BY-SA 3.0",
+      "licenseAsRead": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:RIAN_archive_14_Anti-aircraft_gunners_defending_Moscow.jpg",
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/5/57/RIAN_archive_14_Anti-aircraft_gunners_defending_Moscow.jpg",
+      "metadata": {
+        "ObjectName": "RIAN archive 14 Anti-aircraft gunners defending Moscow",
+        "ImageDescription": "“Anti-aircraft gunners defending Moscow”. Anti-aircraft gunners defending Moscow.",
+        "DateTimeOriginal": "Taken on 1 November 1941",
+        "Credit": "RIA Novosti archive, image #14, http://visualrian.ru/ru/site/gallery/#14 35 mm film / 35 мм негатив",
+        "Artist": "Knorring / Олег Кнорринг",
+        "LicenseShortName": "CC BY-SA 3.0",
+        "LicenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      "limits": "月份精度；不表示德军突破防空网。"
+    },
+    {
+      "commons": "File:RIAN archive 669663 Soviet troops head to front lines after 1941 Red Square parade.jpg",
+      "file": "photos/rian-669663-red-square-parade.webp",
+      "permissionTemplate": "CC BY-SA 3.0",
+      "licenseAsRead": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:RIAN_archive_669663_Soviet_troops_head_to_front_lines_after_1941_Red_Square_parade.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/RIAN_archive_669663_Soviet_troops_head_to_front_lines_after_1941_Red_Square_parade.jpg/1280px-RIAN_archive_669663_Soviet_troops_head_to_front_lines_after_1941_Red_Square_parade.jpg",
+      "metadata": {
+        "ObjectName": "RIAN archive 669663 Soviet troops head to front lines after 1941 Red Square parade",
+        "ImageDescription": "“Soviet troops head to front lines after 1941 Red Square parade”. Soviet troops heading straight to the front lines after the parade held on Moscow's Red Square on November 7, 1941.",
+        "DateTimeOriginal": "Taken on 7 November 1941",
+        "Credit": "RIA Novosti archive, image #669663, http://visualrian.ru/ru/site/gallery/#669663 35 mm film / 35 мм негатив",
+        "Artist": "Anatoliy Garanin / Анатолий Гаранин",
+        "LicenseShortName": "CC BY-SA 3.0",
+        "LicenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      "limits": "照片证明阅兵与开拔，不能证明具体部队去向与到达时间。"
+    },
+    {
+      "commons": "File:Bundesarchiv Bild 183-B15500, Russland, Dorf vor Moskau.jpg",
+      "file": "photos/ba-183-b15500-village-before-moscow.webp",
+      "permissionTemplate": "CC BY-SA 3.0 de",
+      "licenseAsRead": "CC BY-SA 3.0 de",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-B15500,_Russland,_Dorf_vor_Moskau.jpg",
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Bundesarchiv_Bild_183-B15500%2C_Russland%2C_Dorf_vor_Moskau.jpg",
+      "metadata": {
+        "ObjectName": "Russland, Dorf vor Moskau",
+        "Artist": "Britting",
+        "ImageDescription": "For documentary purposes the German Federal Archive often retained the original image captions , which may be erroneous, biased, obsolete or politically extreme . Scherl: An der Sowjetfront: Verschlammte Strasse im Raum von Moskau. PK-Aufnahme: Kriegsberichter: Britting 10322-41 Nov. 41",
+        "DateTimeOriginal": "November 1941 date QS:P571,+1941-11-00T00:00:00Z/10",
+        "Credit": "This image was provided to Wikimedia Commons by the German Federal Archive (Deutsches Bundesarchiv) as part of a cooperation project . The German Federal Archive guarantees an authentic representation only using the originals (negative and/or positive), resp. the digitalization of the originals as provided by the Digital Image Archive .",
+        "LicenseShortName": "CC BY-SA 3.0 de",
+        "LicenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en"
+      },
+      "limits": "德方原注可能错误或带宣传性；地点只能按「莫斯科城前」理解。"
+    },
+    {
+      "commons": "File:Bundesarchiv Bild 183-B15686, Russland, bei Istra, Flüchtlinge.jpg",
+      "file": "photos/ba-183-b15686-refugees-istra.webp",
+      "permissionTemplate": "CC BY-SA 3.0 de",
+      "licenseAsRead": "CC BY-SA 3.0 de",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-B15686,_Russland,_bei_Istra,_Fl%C3%BCchtlinge.jpg",
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Bundesarchiv_Bild_183-B15686%2C_Russland%2C_bei_Istra%2C_Fl%C3%BCchtlinge.jpg",
+      "metadata": {
+        "ObjectName": "Russland, bei Istra, Flüchtlinge",
+        "Artist": "Gebauer",
+        "ImageDescription": "For documentary purposes the German Federal Archive often retained the original image captions , which may be erroneous, biased, obsolete or politically extreme . An der Sowjetfront: [bei Istra] Vor den deutschen Truppen geflüchtete Bauern kehren in ihre Dörfer zurück. PK-Aufnahme: Kriegsberichter: Gebauer 332-42 \"Fr.\" \"Fr.OKW\" Dez. 41",
+        "DateTimeOriginal": "December 1941 date QS:P571,+1941-12-00T00:00:00Z/10",
+        "Credit": "This image was provided to Wikimedia Commons by the German Federal Archive (Deutsches Bundesarchiv) as part of a cooperation project . The German Federal Archive guarantees an authentic representation only using the originals (negative and/or positive), resp. the digitalization of the originals as provided by the Digital Image Archive .",
+        "LicenseShortName": "CC BY-SA 3.0 de",
+        "LicenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en"
+      },
+      "limits": "月份精度；地点为德方原注「伊斯特拉附近」。"
+    },
+    {
+      "commons": "File:Bundesarchiv Bild 183-B17220, Sowjetunion, Panzerangriff bei Istra.jpg",
+      "file": "photos/ba-183-b17220-tank-attack-istra.webp",
+      "permissionTemplate": "CC BY-SA 3.0 de",
+      "licenseAsRead": "CC BY-SA 3.0 de",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-B17220,_Sowjetunion,_Panzerangriff_bei_Istra.jpg",
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Bundesarchiv_Bild_183-B17220%2C_Sowjetunion%2C_Panzerangriff_bei_Istra.jpg",
+      "metadata": {
+        "ObjectName": "Sowjetunion, Panzerangriff bei Istra",
+        "Artist": "Tannenberg",
+        "ImageDescription": "For documentary purposes the German Federal Archive often retained the original image captions , which may be erroneous, biased, obsolete or politically extreme . An der Sowjetfront: [bei Istra / Studamm] Panzerangriff auf ein von den Sowjets hartnäckig verteidigtes Dorf. PK-Aufnahme: Kriegsberichter: Tannenberg 10710-41 \"Fr\" \"Fr. OKW\" Nov. 1941 aufgenommen am 25.11.1941",
+        "DateTimeOriginal": "25 November 1941 date QS:P571,+1941-11-25T00:00:00Z/11",
+        "Credit": "This image was provided to Wikimedia Commons by the German Federal Archive (Deutsches Bundesarchiv) as part of a cooperation project . The German Federal Archive guarantees an authentic representation only using the originals (negative and/or positive), resp. the digitalization of the originals as provided by the Digital Image Archive .",
+        "LicenseShortName": "CC BY-SA 3.0 de",
+        "LicenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en"
+      },
+      "limits": "德方战地摄影；拍摄日期按档案馆标注，地点按原始说明。"
+    },
+    {
+      "commons": "File:Bundesarchiv Bild 146-2008-0317, Russland, Bergung eines Verwundeten.jpg",
+      "file": "photos/ba-146-2008-0317-wounded-evacuation.webp",
+      "permissionTemplate": "CC BY-SA 3.0 de",
+      "licenseAsRead": "CC BY-SA 3.0 de",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_146-2008-0317,_Russland,_Bergung_eines_Verwundeten.jpg",
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Bundesarchiv_Bild_146-2008-0317%2C_Russland%2C_Bergung_eines_Verwundeten.jpg",
+      "metadata": {
+        "ObjectName": "Russland, Bergung eines Verwundeten",
+        "Artist": "Unknown author Unknown author",
+        "DateTimeOriginal": "November 1941 date QS:P571,+1941-11-00T00:00:00Z/10",
+        "Credit": "This image was provided to Wikimedia Commons by the German Federal Archive (Deutsches Bundesarchiv) as part of a cooperation project . The German Federal Archive guarantees an authentic representation only using the originals (negative and/or positive), resp. the digitalization of the originals as provided by the Digital Image Archive .",
+        "LicenseShortName": "CC BY-SA 3.0 de",
+        "LicenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en"
+      },
+      "limits": "无地点、无部队番号；不能用于伤亡统计。"
+    },
+    {
+      "commons": "File:Duitse tanks rukken op tijdens de Kesselschlacht bij Wjasma (2155 078762b).jpg",
+      "file": "photos/kl-wjasma-german-tanks.webp",
+      "permissionTemplate": "CC BY-SA 4.0",
+      "licenseAsRead": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Duitse_tanks_rukken_op_tijdens_de_Kesselschlacht_bij_Wjasma_(2155_078762b).jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Duitse_tanks_rukken_op_tijdens_de_Kesselschlacht_bij_Wjasma_%282155_078762b%29.jpg/1280px-Duitse_tanks_rukken_op_tijdens_de_Kesselschlacht_bij_Wjasma_%282155_078762b%29.jpg",
+      "metadata": {
+        "ObjectName": "Duitse tanks rukken op tijdens de Kesselschlacht bij Wjasma (2155 078762b)",
+        "ImageDescription": "Duitse tanks rukken op tijdens de Kesselschlacht bij Wjasma.",
+        "DateTimeOriginal": "1941-10",
+        "Credit": "https://nimh-beeldbank.defensie.nl/foto-s/detail/58ce8050-eb18-11df-a391-13966e870614/media/5e6f5dd8-5b8b-f2e6-e1b9-913b8d16a97b",
+        "Artist": "Fotoafdrukken Koninklijke Landmacht",
+        "LicenseShortName": "CC BY-SA 4.0",
+        "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "limits": "收藏方为战后缴获/翻拍照片，原始摄影者与具体日期未详。"
+    },
+    {
+      "commons": "File:Captured Germans in Tula 1941.jpg",
+      "file": "photos/tula-captured-germans-1941.webp",
+      "permissionTemplate": "Public domain",
+      "licenseAsRead": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Captured_Germans_in_Tula_1941.jpg",
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/8/88/Captured_Germans_in_Tula_1941.jpg",
+      "metadata": {
+        "ObjectName": "Captured Germans in Tula 1941",
+        "ImageDescription": "Captured German soldiers in Tula",
+        "DateTimeOriginal": "17-31 December 1941",
+        "Credit": "https://russiainphoto.ru/photos/64756/",
+        "Artist": "Troshkin, Pavel Artemyevich",
+        "LicenseShortName": "Public domain"
+      },
+      "limits": "日期为 Commons 标注区间；不能据此推算俘虏总数。"
+    },
+    {
+      "commons": "File:Horsemen of 1st Guard Cavalry Corps entering Odoev.jpg",
+      "file": "photos/belov-cavalry-odoev.webp",
+      "permissionTemplate": "Public domain",
+      "licenseAsRead": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Horsemen_of_1st_Guard_Cavalry_Corps_entering_Odoev.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Horsemen_of_1st_Guard_Cavalry_Corps_entering_Odoev.jpg/1280px-Horsemen_of_1st_Guard_Cavalry_Corps_entering_Odoev.jpg",
+      "metadata": {
+        "ObjectName": "Horsemen of 1st Guard Cavalry Corps entering Odoev",
+        "ImageDescription": "Конники 1-го гвардейского кавалерийский корпуса генерала Павла Алексеевича Белова вступают в город Одоев. На переднем плане захваченная немецкая 37-мм противотанковая пушка PaK 35/36. Одоев, Тульская область, 22.12.1941.",
+        "DateTimeOriginal": "1941-12-22",
+        "Credit": "http://waralbum.ru/178238/",
+        "Artist": "Unknown author Unknown author",
+        "LicenseShortName": "Public domain"
+      },
+      "limits": "摄影者未详；日期与地点按 Commons 编目。"
+    },
+    {
+      "commons": "File:Komsomolskaya-Pravda-77-1941-11-19-all (page 3 crop).jpg",
+      "file": "photos/panfilov-316-division-recon.webp",
+      "permissionTemplate": "Public domain",
+      "licenseAsRead": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Komsomolskaya-Pravda-77-1941-11-19-all_(page_3_crop).jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Komsomolskaya-Pravda-77-1941-11-19-all_%28page_3_crop%29.jpg/1280px-Komsomolskaya-Pravda-77-1941-11-19-all_%28page_3_crop%29.jpg",
+      "metadata": {
+        "ObjectName": "Komsomolskaya-Pravda-77-1941-11-19-all (page 3 crop)",
+        "ImageDescription": "Командир 8-й гвардейской (316-й) стрелковой дивизии генерал-майор И. В. Панфилов (слева), начальник штаба дивизии полковник И. И. Серебряков и военком дивизии старший батальонный комиссар С. А. Егоров на рекогносцировке в деревне Гусенёво Волоколамского района. Последний снимок генерал-майора Ивана Панфилова",
+        "DateTimeOriginal": "1941-11",
+        "Credit": "Комсомольская правда от 19.11.1941",
+        "Artist": "Mikhail Mikhaylovich Kalashnikov",
+        "LicenseShortName": "Public domain"
+      },
+      "limits": "报纸版面裁剪；不能作为「28 名潘菲洛夫战士」叙事的证据。"
+    },
+    {
+      "commons": "File:Masking of Bolshoi Theatre 01.jpg",
+      "file": "photos/bolshoi-theatre-camouflage.webp",
+      "permissionTemplate": "CC BY 4.0",
+      "licenseAsRead": "CC BY 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Masking_of_Bolshoi_Theatre_01.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Masking_of_Bolshoi_Theatre_01.jpg/1280px-Masking_of_Bolshoi_Theatre_01.jpg",
+      "metadata": {
+        "ObjectName": "Masking of Bolshoi Theatre 01",
+        "ImageDescription": "\"Маскировка Большого театра СССР в годы Великой Отечественной войны. 1941–1945 годы. Главархив Москвы",
+        "DateTimeOriginal": "1941-10",
+        "Credit": "https://www.mos.ru/news/item/153515073/",
+        "Artist": "Главархив Москвы",
+        "LicenseShortName": "CC BY 4.0",
+        "LicenseUrl": "https://creativecommons.org/licenses/by/4.0"
+      },
+      "limits": "月份精度；为档案馆藏，非战地摄影。"
+    },
+    {
+      "commons": "File:Defenders of Tula ready to fight.jpg",
+      "file": "photos/tula-defenders.webp",
+      "permissionTemplate": "Public domain",
+      "licenseAsRead": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Defenders_of_Tula_ready_to_fight.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Defenders_of_Tula_ready_to_fight.jpg/1280px-Defenders_of_Tula_ready_to_fight.jpg",
+      "metadata": {
+        "ObjectName": "Defenders of Tula ready to fight",
+        "ImageDescription": "Защитники города готовы к бою. Тула, перекресток улиц Советской и Коммунаров (ныне проспект Ленина), октябрь-ноябрь 1941 года.",
+        "DateTimeOriginal": "1941",
+        "Credit": "Выставка \"На Тульских рубежах\" , посвящённая 70-летию героической обороны Тулы и 35-летию присвоения городу почетного звания \"Город-Герой\".",
+        "Artist": "Unknown author Unknown author",
+        "LicenseShortName": "Public domain"
+      },
+      "limits": "摄影者未详；月份精度。"
+    },
+    {
+      "commons": "File:Alexander Lisyukov at observation post.jpg",
+      "file": "photos/lisyukov-observation-post.webp",
+      "permissionTemplate": "Public domain",
+      "licenseAsRead": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alexander_Lisyukov_at_observation_post.jpg",
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/7/77/Alexander_Lisyukov_at_observation_post.jpg",
+      "metadata": {
+        "ObjectName": "Alexander Lisyukov at observation post",
+        "ImageDescription": "Герой Советского Союза командир 1-й гвардейской Московской мотострелковой дивизии полковник А.И. Лизюков (первый справа) на наблюдательном пункте. Западный фронт, Московская область, ноябрь 1941. Слева вверху: командующий 20-й армией генерал-лейтенант А. А. Власов. Источник: E.E. Колоскова, Л.А. Денисова, Е.Н. Лебедева «В объективе война 1941—1945».",
+        "DateTimeOriginal": "1941",
+        "Credit": "http://waralbum.ru/110692/",
+        "Artist": "Дмитрий Чернов",
+        "LicenseShortName": "Public domain"
+      },
+      "limits": "地点只到「莫斯科州」；不能指认具体高地。"
+    },
+    {
+      "commons": "File:Mosca 1941 sovietici.jpg",
+      "file": "photos/moscow-soviet-riflemen-attack.webp",
+      "permissionTemplate": "Public domain",
+      "licenseAsRead": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mosca_1941_sovietici.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Mosca_1941_sovietici.jpg/1280px-Mosca_1941_sovietici.jpg",
+      "metadata": {
+        "ObjectName": "Mosca 1941 sovietici",
+        "ImageDescription": "Fucilieri sovietici all'assalto durante la battaglia di Mosca",
+        "DateTimeOriginal": "dicembre 1941",
+        "Credit": "scan da: Y. Buffetaut, \"La bataille de Moscou\", Edition Heimdal",
+        "Artist": "sconosciuto",
+        "LicenseShortName": "Public domain"
+      },
+      "limits": "摄影者、地点、具体日期均未详，只能作类型照片。"
+    },
+    {
+      "commons": "File:Mosca 1941 prigionieri tedeschi.jpg",
+      "file": "photos/moscow-german-prisoners-dec41.webp",
+      "permissionTemplate": "Public domain",
+      "licenseAsRead": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mosca_1941_prigionieri_tedeschi.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Mosca_1941_prigionieri_tedeschi.jpg/1280px-Mosca_1941_prigionieri_tedeschi.jpg",
+      "metadata": {
+        "ObjectName": "Mosca 1941 prigionieri tedeschi",
+        "ImageDescription": "Soldati tedeschi prigionieri durante la battaglia di Mosca",
+        "DateTimeOriginal": "dicembre 1941",
+        "Credit": "scan da: Y. Buffetaut, \"La bataille de Moscou\", Edition Heimdal",
+        "Artist": "sconosciuto",
+        "LicenseShortName": "Public domain"
+      },
+      "limits": "月份精度；不能用于统计俘虏人数。"
+    }
+  ],
+  "excluded": [
+    {
+      "commons": "File:1941 Parade in Red Square reconstruction in 2014 02.jpg",
+      "reason": "2014 年重演活动照片，不是 1941 年实况，不得作历史配图。"
+    },
+    {
+      "commons": "File:Mosca 41-42 bis due.jpg",
+      "reason": "Commons 未给出摄影者与可靠日期，无法核实，按纪律不采用。"
+    },
+    {
+      "commons": "File:Downed Nazi plane in Moscow on 15 August 1941, colorized.png",
+      "reason": "现代上色版本，颜色为后期添加；如需使用应改用原始黑白文件。"
+    },
+    {
+      "commons": "File:Central Archive of the Soviet Ministry of Defence - Stock 208 inventory 2511 case 1039.pdf",
+      "reason": "档案 PDF，不是可用于事件卡的照片；本战役不引用未读全文的档案。"
+    },
+    {
+      "commons": "File:Bundesarchiv Bild 183-B17220, Sowjetunion, Panzerangriff bei Istra (cropped).jpg",
+      "reason": "同一底片的裁切重复件，已采用未裁切的原始条目。"
+    },
+    {
+      "commons": "File:German Panzer Group 2, Battle of Moscow, 27 SEP 41.png",
+      "reason": "现代绘制的态势图（2018 年上传），非战时照片；战线另由 data/fronts 承担。"
+    }
+  ]
+}

@@ -1,0 +1,7609 @@
+[
+ {
+  "id": "de.id251",
+  "side": "DE",
+  "echelon": "division",
+  "type": "infantry",
+  "parent": "de.xxiii_corps",
+  "name": {
+   "zh": "第 251 步兵师",
+   "orig": "251. Infanterie-Division",
+   "short": "251.ID"
+  },
+  "commander": {
+   "zh": "卡尔·布尔达赫",
+   "orig": "Karl Burdach"
+  },
+  "model": "inf_de",
+  "track": [
+   {
+    "at": "1941-09-30T00:00",
+    "pos": [
+     33.8,
+     56.3
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-08T00:00",
+    "pos": [
+     34.2,
+     56.4
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-20T00:00",
+    "pos": [
+     34.7,
+     56.5
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-01T00:00",
+    "pos": [
+     35.0,
+     56.55
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-12-05T00:00",
+    "pos": [
+     35.1,
+     56.5
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-20T00:00",
+    "pos": [
+     34.8,
+     56.4
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1942-01-31T00:00",
+    "pos": [
+     34.5,
+     56.3
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "1941 年 10 月 2 日起在第 23 军编成内参加台风行动，随所属军沿轴线东进；莫斯科城下攻势停顿后于 12 月转入防御并西撤，冬季的严寒、冻伤与补给短缺造成的减员往往超过战斗伤亡。",
+  "sources": [
+   "ger_9a",
+   "strat_cmh_tomoscow",
+   "ger_hgr_center"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "de.id102",
+  "side": "DE",
+  "echelon": "division",
+  "type": "infantry",
+  "parent": "de.xxiii_corps",
+  "name": {
+   "zh": "第 102 步兵师",
+   "orig": "102. Infanterie-Division",
+   "short": "102.ID"
+  },
+  "commander": {
+   "zh": "约翰·安萨特",
+   "orig": "John Ansat"
+  },
+  "model": "inf_de",
+  "track": [
+   {
+    "at": "1941-09-30T00:00",
+    "pos": [
+     33.8,
+     56.3
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-08T00:00",
+    "pos": [
+     34.2,
+     56.4
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-20T00:00",
+    "pos": [
+     34.7,
+     56.5
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-01T00:00",
+    "pos": [
+     35.0,
+     56.55
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-12-05T00:00",
+    "pos": [
+     35.1,
+     56.5
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-20T00:00",
+    "pos": [
+     34.8,
+     56.4
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1942-01-31T00:00",
+    "pos": [
+     34.5,
+     56.3
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "1941 年 10 月 2 日起在第 23 军编成内参加台风行动，随所属军沿轴线东进；莫斯科城下攻势停顿后于 12 月转入防御并西撤，冬季的严寒、冻伤与补给短缺造成的减员往往超过战斗伤亡。",
+  "sources": [
+   "ger_9a",
+   "strat_cmh_tomoscow",
+   "ger_hgr_center"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "de.id256",
+  "side": "DE",
+  "echelon": "division",
+  "type": "infantry",
+  "parent": "de.xxiii_corps",
+  "name": {
+   "zh": "第 256 步兵师",
+   "orig": "256. Infanterie-Division",
+   "short": "256.ID"
+  },
+  "commander": {
+   "zh": "格哈德·考夫曼",
+   "orig": "Gerhard Kauffmann"
+  },
+  "model": "inf_de",
+  "track": [
+   {
+    "at": "1941-09-30T00:00",
+    "pos": [
+     33.8,
+     56.3
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-08T00:00",
+    "pos": [
+     34.2,
+     56.4
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-20T00:00",
+    "pos": [
+     34.7,
+     56.5
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-01T00:00",
+    "pos": [
+     35.0,
+     56.55
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-12-05T00:00",
+    "pos": [
+     35.1,
+     56.5
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-20T00:00",
+    "pos": [
+     34.8,
+     56.4
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1942-01-31T00:00",
+    "pos": [
+     34.5,
+     56.3
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "1941 年 10 月 2 日起在第 23 军编成内参加台风行动，随所属军沿轴线东进；莫斯科城下攻势停顿后于 12 月转入防御并西撤，冬季的严寒、冻伤与补给短缺造成的减员往往超过战斗伤亡。",
+  "sources": [
+   "ger_9a",
+   "strat_cmh_tomoscow",
+   "ger_hgr_center"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "de.id206",
+  "side": "DE",
+  "echelon": "division",
+  "type": "infantry",
+  "parent": "de.xxiii_corps",
+  "name": {
+   "zh": "第 206 步兵师",
+   "orig": "206. Infanterie-Division",
+   "short": "206.ID"
+  },
+  "commander": {
+   "zh": "胡戈·赫夫尔",
+   "orig": "Hugo Höfl"
+  },
+  "model": "inf_de",
+  "track": [
+   {
+    "at": "1941-09-30T00:00",
+    "pos": [
+     33.8,
+     56.3
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-08T00:00",
+    "pos": [
+     34.2,
+     56.4
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-20T00:00",
+    "pos": [
+     34.7,
+     56.5
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-01T00:00",
+    "pos": [
+     35.0,
+     56.55
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-12-05T00:00",
+    "pos": [
+     35.1,
+     56.5
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-20T00:00",
+    "pos": [
+     34.8,
+     56.4
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1942-01-31T00:00",
+    "pos": [
+     34.5,
+     56.3
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "1941 年 10 月 2 日起在第 23 军编成内参加台风行动，随所属军沿轴线东进；莫斯科城下攻势停顿后于 12 月转入防御并西撤，冬季的严寒、冻伤与补给短缺造成的减员往往超过战斗伤亡。",
+  "sources": [
+   "ger_9a",
+   "strat_cmh_tomoscow",
+   "ger_hgr_center"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "de.id161",
+  "side": "DE",
+  "echelon": "division",
+  "type": "infantry",
+  "parent": "de.9a",
+  "name": {
+   "zh": "第 161 步兵师",
+   "orig": "161. Infanterie-Division",
+   "short": "161.ID"
+  },
+  "commander": {
+   "zh": "海因里希·雷克",
+   "orig": "Heinrich Recke"
+  },
+  "model": "inf_de",
+  "track": [
+   {
+    "at": "1941-09-30T00:00",
+    "pos": [
+     34.0,
+     55.95
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-08T00:00",
+    "pos": [
+     34.4,
+     56.05
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-20T00:00",
+    "pos": [
+     34.8,
+     56.15
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-10T00:00",
+    "pos": [
+     34.95,
+     56.2
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-12-05T00:00",
+    "pos": [
+     34.9,
+     56.15
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-20T00:00",
+    "pos": [
+     34.6,
+     56.1
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1942-01-31T00:00",
+    "pos": [
+     34.35,
+     56.15
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "1941 年 10 月 2 日起在army编成内参加台风行动，随所属军沿轴线东进；莫斯科城下攻势停顿后于 12 月转入防御并西撤，冬季的严寒、冻伤与补给短缺造成的减员往往超过战斗伤亡。",
+  "sources": [
+   "ger_9a",
+   "strat_cmh_tomoscow",
+   "ger_hgr_center"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "de.id28",
+  "side": "DE",
+  "echelon": "division",
+  "type": "infantry",
+  "parent": "de.viii_corps",
+  "name": {
+   "zh": "第 28 步兵师",
+   "orig": "28. Infanterie-Division",
+   "short": "28.ID"
+  },
+  "commander": {
+   "zh": "约翰·辛胡贝尔",
+   "orig": "Johann Sinnhuber"
+  },
+  "model": "inf_de",
+  "track": [
+   {
+    "at": "1941-09-30T00:00",
+    "pos": [
+     34.0,
+     55.95
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-08T00:00",
+    "pos": [
+     34.4,
+     56.05
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-20T00:00",
+    "pos": [
+     34.8,
+     56.15
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-10T00:00",
+    "pos": [
+     34.95,
+     56.2
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-12-05T00:00",
+    "pos": [
+     34.9,
+     56.15
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-20T00:00",
+    "pos": [
+     34.6,
+     56.1
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1942-01-31T00:00",
+    "pos": [
+     34.35,
+     56.15
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "1941 年 10 月 2 日起在第 8 军编成内参加台风行动，随所属军沿轴线东进；莫斯科城下攻势停顿后于 12 月转入防御并西撤，冬季的严寒、冻伤与补给短缺造成的减员往往超过战斗伤亡。",
+  "sources": [
+   "ger_9a",
+   "strat_cmh_tomoscow",
+   "ger_hgr_center"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "de.id8",
+  "side": "DE",
+  "echelon": "division",
+  "type": "infantry",
+  "parent": "de.viii_corps",
+  "name": {
+   "zh": "第 8 步兵师",
+   "orig": "8. Infanterie-Division",
+   "short": "8.ID"
+  },
+  "commander": {
+   "zh": "古斯塔夫·赫内",
+   "orig": "Gustav Höhne"
+  },
+  "model": "inf_de",
+  "track": [
+   {
+    "at": "1941-09-30T00:00",
+    "pos": [
+     34.0,
+     55.95
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-08T00:00",
+    "pos": [
+     34.4,
+     56.05
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-20T00:00",
+    "pos": [
+     34.8,
+     56.15
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-10T00:00",
+    "pos": [
+     34.95,
+     56.2
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-12-05T00:00",
+    "pos": [
+     34.9,
+     56.15
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-20T00:00",
+    "pos": [
+     34.6,
+     56.1
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1942-01-31T00:00",
+    "pos": [
+     34.35,
+     56.15
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "1941 年 10 月 2 日起在第 8 军编成内参加台风行动，随所属军沿轴线东进；莫斯科城下攻势停顿后于 12 月转入防御并西撤，冬季的严寒、冻伤与补给短缺造成的减员往往超过战斗伤亡。",
+  "sources": [
+   "ger_9a",
+   "strat_cmh_tomoscow",
+   "ger_hgr_center"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "de.id87",
+  "side": "DE",
+  "echelon": "division",
+  "type": "infantry",
+  "parent": "de.viii_corps",
+  "name": {
+   "zh": "第 87 步兵师",
+   "orig": "87. Infanterie-Division",
+   "short": "87.ID"
+  },
+  "commander": {
+   "zh": "博吉斯拉夫·冯·施图德尼茨",
+   "orig": "Bogislav von Studnitz"
+  },
+  "model": "inf_de",
+  "track": [
+   {
+    "at": "1941-09-30T00:00",
+    "pos": [
+     34.0,
+     55.95
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-08T00:00",
+    "pos": [
+     34.4,
+     56.05
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-20T00:00",
+    "pos": [
+     34.8,
+     56.15
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-10T00:00",
+    "pos": [
+     34.95,
+     56.2
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-12-05T00:00",
+    "pos": [
+     34.9,
+     56.15
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-20T00:00",
+    "pos": [
+     34.6,
+     56.1
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1942-01-31T00:00",
+    "pos": [
+     34.35,
+     56.15
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "1941 年 10 月 2 日起在第 8 军编成内参加台风行动，随所属军沿轴线东进；莫斯科城下攻势停顿后于 12 月转入防御并西撤，冬季的严寒、冻伤与补给短缺造成的减员往往超过战斗伤亡。",
+  "sources": [
+   "ger_9a",
+   "strat_cmh_tomoscow",
+   "ger_hgr_center"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "de.id255",
+  "side": "DE",
+  "echelon": "division",
+  "type": "infantry",
+  "parent": "de.xxvii_corps",
+  "name": {
+   "zh": "第 255 步兵师",
+   "orig": "255. Infanterie-Division",
+   "short": "255.ID"
+  },
+  "commander": {
+   "zh": "威廉·韦策尔",
+   "orig": "Wilhelm Wetzel"
+  },
+  "model": "inf_de",
+  "track": [
+   {
+    "at": "1941-09-30T00:00",
+    "pos": [
+     34.2,
+     55.7
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-08T00:00",
+    "pos": [
+     34.5,
+     55.85
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-15T00:00",
+    "pos": [
+     34.6,
+     56.0
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-01T00:00",
+    "pos": [
+     34.55,
+     56.1
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-12-05T00:00",
+    "pos": [
+     34.5,
+     56.1
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-20T00:00",
+    "pos": [
+     34.3,
+     56.15
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1942-01-31T00:00",
+    "pos": [
+     34.2,
+     56.15
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "1941 年 10 月 2 日起在第 27 军编成内参加台风行动，随所属军沿轴线东进；莫斯科城下攻势停顿后于 12 月转入防御并西撤，冬季的严寒、冻伤与补给短缺造成的减员往往超过战斗伤亡。",
+  "sources": [
+   "ger_9a",
+   "strat_cmh_tomoscow",
+   "ger_hgr_center"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "de.id162",
+  "side": "DE",
+  "echelon": "division",
+  "type": "infantry",
+  "parent": "de.xxvii_corps",
+  "name": {
+   "zh": "第 162 步兵师",
+   "orig": "162. Infanterie-Division",
+   "short": "162.ID"
+  },
+  "commander": {
+   "zh": "赫尔曼·弗兰克",
+   "orig": "Hermann Franke"
+  },
+  "model": "inf_de",
+  "track": [
+   {
+    "at": "1941-09-30T00:00",
+    "pos": [
+     34.2,
+     55.7
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-08T00:00",
+    "pos": [
+     34.5,
+     55.85
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-15T00:00",
+    "pos": [
+     34.6,
+     56.0
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-01T00:00",
+    "pos": [
+     34.55,
+     56.1
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-12-05T00:00",
+    "pos": [
+     34.5,
+     56.1
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-20T00:00",
+    "pos": [
+     34.3,
+     56.15
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1942-01-31T00:00",
+    "pos": [
+     34.2,
+     56.15
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "1941 年 10 月 2 日起在第 27 军编成内参加台风行动，随所属军沿轴线东进；莫斯科城下攻势停顿后于 12 月转入防御并西撤，冬季的严寒、冻伤与补给短缺造成的减员往往超过战斗伤亡。",
+  "sources": [
+   "ger_9a",
+   "strat_cmh_tomoscow",
+   "ger_hgr_center"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "de.id86",
+  "side": "DE",
+  "echelon": "division",
+  "type": "infantry",
+  "parent": "de.xxvii_corps",
+  "name": {
+   "zh": "第 86 步兵师",
+   "orig": "86. Infanterie-Division",
+   "short": "86.ID"
+  },
+  "commander": {
+   "zh": "约阿希姆·维特赫夫特",
+   "orig": "Joachim Witthöft"
+  },
+  "model": "inf_de",
+  "track": [
+   {
+    "at": "1941-09-30T00:00",
+    "pos": [
+     34.2,
+     55.7
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-08T00:00",
+    "pos": [
+     34.5,
+     55.85
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-15T00:00",
+    "pos": [
+     34.6,
+     56.0
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-01T00:00",
+    "pos": [
+     34.55,
+     56.1
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-12-05T00:00",
+    "pos": [
+     34.5,
+     56.1
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-20T00:00",
+    "pos": [
+     34.3,
+     56.15
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1942-01-31T00:00",
+    "pos": [
+     34.2,
+     56.15
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "1941 年 10 月 2 日起在第 27 军编成内参加台风行动，随所属军沿轴线东进；莫斯科城下攻势停顿后于 12 月转入防御并西撤，冬季的严寒、冻伤与补给短缺造成的减员往往超过战斗伤亡。",
+  "sources": [
+   "ger_9a",
+   "strat_cmh_tomoscow",
+   "ger_hgr_center"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "de.id110",
+  "side": "DE",
+  "echelon": "division",
+  "type": "infantry",
+  "parent": "de.vi_corps",
+  "name": {
+   "zh": "第 110 步兵师",
+   "orig": "110. Infanterie-Division",
+   "short": "110.ID"
+  },
+  "commander": {
+   "zh": "恩斯特·赛费特",
+   "orig": "Ernst Seifert"
+  },
+  "model": "inf_de",
+  "track": [
+   {
+    "at": "1941-09-30T00:00",
+    "pos": [
+     32.7,
+     55.6
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-03T00:00",
+    "pos": [
+     33.2,
+     55.65
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-07T00:00",
+    "pos": [
+     33.9,
+     55.6
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-15T00:00",
+    "pos": [
+     35.25,
+     56.2
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-20T00:00",
+    "pos": [
+     35.45,
+     56.35
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-15T00:00",
+    "pos": [
+     35.6,
+     56.45
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-05T00:00",
+    "pos": [
+     35.5,
+     56.4
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-16T00:00",
+    "pos": [
+     35.3,
+     56.35
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1942-01-31T00:00",
+    "pos": [
+     35.0,
+     56.3
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "1941 年 10 月 2 日起在第 6 军编成内参加台风行动，随所属军沿轴线东进；莫斯科城下攻势停顿后于 12 月转入防御并西撤，冬季的严寒、冻伤与补给短缺造成的减员往往超过战斗伤亡。",
+  "sources": [
+   "ger_pzgr3",
+   "strat_cmh_tomoscow",
+   "ger_hgr_center"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "de.id26",
+  "side": "DE",
+  "echelon": "division",
+  "type": "infantry",
+  "parent": "de.vi_corps",
+  "name": {
+   "zh": "第 26 步兵师",
+   "orig": "26. Infanterie-Division",
+   "short": "26.ID"
+  },
+  "commander": {
+   "zh": "瓦尔特·魏斯",
+   "orig": "Walter Weiß"
+  },
+  "model": "inf_de",
+  "track": [
+   {
+    "at": "1941-09-30T00:00",
+    "pos": [
+     32.7,
+     55.6
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-03T00:00",
+    "pos": [
+     33.2,
+     55.65
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-07T00:00",
+    "pos": [
+     33.9,
+     55.6
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-15T00:00",
+    "pos": [
+     35.25,
+     56.2
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-20T00:00",
+    "pos": [
+     35.45,
+     56.35
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-15T00:00",
+    "pos": [
+     35.6,
+     56.45
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-05T00:00",
+    "pos": [
+     35.5,
+     56.4
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-16T00:00",
+    "pos": [
+     35.3,
+     56.35
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1942-01-31T00:00",
+    "pos": [
+     35.0,
+     56.3
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "1941 年 10 月 2 日起在第 6 军编成内参加台风行动，随所属军沿轴线东进；莫斯科城下攻势停顿后于 12 月转入防御并西撤，冬季的严寒、冻伤与补给短缺造成的减员往往超过战斗伤亡。",
+  "sources": [
+   "ger_pzgr3",
+   "strat_cmh_tomoscow",
+   "ger_hgr_center"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "de.id6",
+  "side": "DE",
+  "echelon": "division",
+  "type": "infantry",
+  "parent": "de.pz41_korps",
+  "name": {
+   "zh": "第 6 步兵师",
+   "orig": "6. Infanterie-Division",
+   "short": "6.ID"
+  },
+  "commander": {
+   "zh": "赫尔格·奥莱布",
+   "orig": "Helge Auleb"
+  },
+  "model": "inf_de",
+  "track": [
+   {
+    "at": "1941-09-30T00:00",
+    "pos": [
+     32.5,
+     55.45
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-03T00:00",
+    "pos": [
+     33.2,
+     55.5
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-07T00:00",
+    "pos": [
+     33.9,
+     55.5
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-10T00:00",
+    "pos": [
+     34.7,
+     55.85
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-14T00:00",
+    "pos": [
+     35.8,
+     56.7
+    ],
+    "status": "engaged",
+    "note": "第 1 装甲师突入加里宁"
+   },
+   {
+    "at": "1941-10-20T00:00",
+    "pos": [
+     35.95,
+     56.85
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-10T00:00",
+    "pos": [
+     36.3,
+     56.45
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-11-16T00:00",
+    "pos": [
+     36.4,
+     56.4
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-23T00:00",
+    "pos": [
+     36.65,
+     56.36
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-27T00:00",
+    "pos": [
+     37.1,
+     56.33
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-03T00:00",
+    "pos": [
+     37.3,
+     56.28
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-06T00:00",
+    "pos": [
+     37.1,
+     56.28
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1941-12-12T00:00",
+    "pos": [
+     36.8,
+     56.42
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1941-12-16T00:00",
+    "pos": [
+     36.6,
+     56.4
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1941-12-25T00:00",
+    "pos": [
+     36.2,
+     56.2
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1942-01-10T00:00",
+    "pos": [
+     35.9,
+     56.1
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1942-01-31T00:00",
+    "pos": [
+     35.7,
+     56.05
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "1941 年 10 月 2 日起在第 41 装甲军编成内参加台风行动，随所属军沿轴线东进；莫斯科城下攻势停顿后于 12 月转入防御并西撤，冬季的严寒、冻伤与补给短缺造成的减员往往超过战斗伤亡。",
+  "sources": [
+   "ger_pzgr3",
+   "strat_cmh_tomoscow",
+   "ger_hgr_center"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "de.id5",
+  "side": "DE",
+  "echelon": "division",
+  "type": "infantry",
+  "parent": "de.v_corps",
+  "name": {
+   "zh": "第 5 步兵师",
+   "orig": "5. Infanterie-Division",
+   "short": "5.ID"
+  },
+  "commander": {
+   "zh": "卡尔·阿尔门丁格",
+   "orig": "Karl Allmendinger"
+  },
+  "model": "inf_de",
+  "track": [
+   {
+    "at": "1941-09-30T00:00",
+    "pos": [
+     32.9,
+     55.35
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-04T00:00",
+    "pos": [
+     33.6,
+     55.4
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-08T00:00",
+    "pos": [
+     34.2,
+     55.45
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-14T00:00",
+    "pos": [
+     34.8,
+     55.6
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-01T00:00",
+    "pos": [
+     35.2,
+     55.9
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-11-15T00:00",
+    "pos": [
+     35.5,
+     56.2
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-05T00:00",
+    "pos": [
+     35.4,
+     56.15
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-20T00:00",
+    "pos": [
+     35.1,
+     56.0
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1942-01-31T00:00",
+    "pos": [
+     34.8,
+     55.95
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "1941 年 10 月 2 日起在第 5 军编成内参加台风行动，随所属军沿轴线东进；莫斯科城下攻势停顿后于 12 月转入防御并西撤，冬季的严寒、冻伤与补给短缺造成的减员往往超过战斗伤亡。",
+  "sources": [
+   "ger_pzgr3",
+   "strat_cmh_tomoscow",
+   "ger_hgr_center"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "de.id35",
+  "side": "DE",
+  "echelon": "division",
+  "type": "infantry",
+  "parent": "de.v_corps",
+  "name": {
+   "zh": "第 35 步兵师",
+   "orig": "35. Infanterie-Division",
+   "short": "35.ID"
+  },
+  "commander": {
+   "zh": "瓦尔特·菲舍尔·冯·魏克尔斯塔尔",
+   "orig": "Walther Fischer von Weikersthal"
+  },
+  "model": "inf_de",
+  "track": [
+   {
+    "at": "1941-09-30T00:00",
+    "pos": [
+     32.9,
+     55.35
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-04T00:00",
+    "pos": [
+     33.6,
+     55.4
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-08T00:00",
+    "pos": [
+     34.2,
+     55.45
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-14T00:00",
+    "pos": [
+     34.8,
+     55.6
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-01T00:00",
+    "pos": [
+     35.2,
+     55.9
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-11-15T00:00",
+    "pos": [
+     35.5,
+     56.2
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-05T00:00",
+    "pos": [
+     35.4,
+     56.15
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-20T00:00",
+    "pos": [
+     35.1,
+     56.0
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1942-01-31T00:00",
+    "pos": [
+     34.8,
+     55.95
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "1941 年 10 月 2 日起在第 5 军编成内参加台风行动，随所属军沿轴线东进；莫斯科城下攻势停顿后于 12 月转入防御并西撤，冬季的严寒、冻伤与补给短缺造成的减员往往超过战斗伤亡。",
+  "sources": [
+   "ger_pzgr3",
+   "strat_cmh_tomoscow",
+   "ger_hgr_center"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "de.id106",
+  "side": "DE",
+  "echelon": "division",
+  "type": "infantry",
+  "parent": "de.v_corps",
+  "name": {
+   "zh": "第 106 步兵师",
+   "orig": "106. Infanterie-Division",
+   "short": "106.ID"
+  },
+  "commander": {
+   "zh": "恩斯特·德纳",
+   "orig": "Ernst Dehner"
+  },
+  "model": "inf_de",
+  "track": [
+   {
+    "at": "1941-09-30T00:00",
+    "pos": [
+     32.9,
+     55.35
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-04T00:00",
+    "pos": [
+     33.6,
+     55.4
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-08T00:00",
+    "pos": [
+     34.2,
+     55.45
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-14T00:00",
+    "pos": [
+     34.8,
+     55.6
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-01T00:00",
+    "pos": [
+     35.2,
+     55.9
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-11-15T00:00",
+    "pos": [
+     35.5,
+     56.2
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-05T00:00",
+    "pos": [
+     35.4,
+     56.15
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-20T00:00",
+    "pos": [
+     35.1,
+     56.0
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1942-01-31T00:00",
+    "pos": [
+     34.8,
+     55.95
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "1941 年 10 月 2 日起在第 5 军编成内参加台风行动，随所属军沿轴线东进；莫斯科城下攻势停顿后于 12 月转入防御并西撤，冬季的严寒、冻伤与补给短缺造成的减员往往超过战斗伤亡。",
+  "sources": [
+   "ger_pzgr3",
+   "strat_cmh_tomoscow",
+   "ger_hgr_center"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "de.id129",
+  "side": "DE",
+  "echelon": "division",
+  "type": "infantry",
+  "parent": "de.pz56_korps",
+  "name": {
+   "zh": "第 129 步兵师",
+   "orig": "129. Infanterie-Division",
+   "short": "129.ID"
+  },
+  "commander": {
+   "zh": "斯特凡·里陶",
+   "orig": "Stephan Rittau"
+  },
+  "model": "inf_de",
+  "track": [
+   {
+    "at": "1941-09-30T00:00",
+    "pos": [
+     32.9,
+     55.15
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-04T00:00",
+    "pos": [
+     33.6,
+     55.15
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-08T00:00",
+    "pos": [
+     34.2,
+     55.2
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-15T00:00",
+    "pos": [
+     34.9,
+     55.5
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-01T00:00",
+    "pos": [
+     35.7,
+     56.0
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-11-15T00:00",
+    "pos": [
+     36.1,
+     56.2
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-20T00:00",
+    "pos": [
+     36.4,
+     56.28
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-23T00:00",
+    "pos": [
+     36.7,
+     56.3
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-27T00:00",
+    "pos": [
+     37.2,
+     56.24
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-28T00:00",
+    "pos": [
+     37.45,
+     56.22
+    ],
+    "status": "engaged",
+    "note": "第 7 装甲师在亚赫罗马渡运河"
+   },
+   {
+    "at": "1941-12-05T00:00",
+    "pos": [
+     37.3,
+     56.2
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-08T00:00",
+    "pos": [
+     37.0,
+     56.3
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1941-12-15T00:00",
+    "pos": [
+     36.7,
+     56.3
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1941-12-25T00:00",
+    "pos": [
+     36.3,
+     56.2
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1942-01-31T00:00",
+    "pos": [
+     35.9,
+     56.1
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "1941 年 10 月 2 日起在第 56 装甲军编成内参加台风行动，随所属军沿轴线东进；莫斯科城下攻势停顿后于 12 月转入防御并西撤，冬季的严寒、冻伤与补给短缺造成的减员往往超过战斗伤亡。",
+  "sources": [
+   "ger_pzgr3",
+   "strat_cmh_tomoscow",
+   "ger_hgr_center"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "de.id137",
+  "side": "DE",
+  "echelon": "division",
+  "type": "infantry",
+  "parent": "de.ix_corps",
+  "name": {
+   "zh": "第 137 步兵师",
+   "orig": "137. Infanterie-Division",
+   "short": "137.ID"
+  },
+  "commander": {
+   "zh": "弗里德里希·贝格曼",
+   "orig": "Friedrich Bergmann"
+  },
+  "model": "inf_de",
+  "track": [
+   {
+    "at": "1941-09-30T00:00",
+    "pos": [
+     34.0,
+     55.05
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-05T00:00",
+    "pos": [
+     34.5,
+     55.1
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-10T00:00",
+    "pos": [
+     34.85,
+     55.15
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-20T00:00",
+    "pos": [
+     35.4,
+     55.5
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-27T00:00",
+    "pos": [
+     35.9,
+     55.55
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-10T00:00",
+    "pos": [
+     36.15,
+     55.55
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-11-20T00:00",
+    "pos": [
+     36.35,
+     55.5
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-05T00:00",
+    "pos": [
+     36.4,
+     55.45
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-15T00:00",
+    "pos": [
+     36.15,
+     55.35
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1942-01-05T00:00",
+    "pos": [
+     35.9,
+     55.3
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1942-01-31T00:00",
+    "pos": [
+     35.6,
+     55.25
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "1941 年 10 月 2 日起在第 9 军编成内参加台风行动，随所属军沿轴线东进；莫斯科城下攻势停顿后于 12 月转入防御并西撤，冬季的严寒、冻伤与补给短缺造成的减员往往超过战斗伤亡。",
+  "sources": [
+   "ger_4a",
+   "strat_cmh_tomoscow",
+   "ger_hgr_center"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "de.id263",
+  "side": "DE",
+  "echelon": "division",
+  "type": "infantry",
+  "parent": "de.ix_corps",
+  "name": {
+   "zh": "第 263 步兵师",
+   "orig": "263. Infanterie-Division",
+   "short": "263.ID"
+  },
+  "commander": {
+   "zh": "恩斯特·黑克尔",
+   "orig": "Ernst Häckel"
+  },
+  "model": "inf_de",
+  "track": [
+   {
+    "at": "1941-09-30T00:00",
+    "pos": [
+     34.0,
+     55.05
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-05T00:00",
+    "pos": [
+     34.5,
+     55.1
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-10T00:00",
+    "pos": [
+     34.85,
+     55.15
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-20T00:00",
+    "pos": [
+     35.4,
+     55.5
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-27T00:00",
+    "pos": [
+     35.9,
+     55.55
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-10T00:00",
+    "pos": [
+     36.15,
+     55.55
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-11-20T00:00",
+    "pos": [
+     36.35,
+     55.5
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-05T00:00",
+    "pos": [
+     36.4,
+     55.45
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-15T00:00",
+    "pos": [
+     36.15,
+     55.35
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1942-01-05T00:00",
+    "pos": [
+     35.9,
+     55.3
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1942-01-31T00:00",
+    "pos": [
+     35.6,
+     55.25
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "1941 年 10 月 2 日起在第 9 军编成内参加台风行动，随所属军沿轴线东进；莫斯科城下攻势停顿后于 12 月转入防御并西撤，冬季的严寒、冻伤与补给短缺造成的减员往往超过战斗伤亡。",
+  "sources": [
+   "ger_4a",
+   "strat_cmh_tomoscow",
+   "ger_hgr_center"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "de.id183",
+  "side": "DE",
+  "echelon": "division",
+  "type": "infantry",
+  "parent": "de.ix_corps",
+  "name": {
+   "zh": "第 183 步兵师",
+   "orig": "183. Infanterie-Division",
+   "short": "183.ID"
+  },
+  "commander": {
+   "zh": "理夏德·施滕佩尔",
+   "orig": "Richard Stempel"
+  },
+  "model": "inf_de",
+  "track": [
+   {
+    "at": "1941-09-30T00:00",
+    "pos": [
+     34.0,
+     55.05
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-05T00:00",
+    "pos": [
+     34.5,
+     55.1
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-10T00:00",
+    "pos": [
+     34.85,
+     55.15
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-20T00:00",
+    "pos": [
+     35.4,
+     55.5
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-27T00:00",
+    "pos": [
+     35.9,
+     55.55
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-10T00:00",
+    "pos": [
+     36.15,
+     55.55
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-11-20T00:00",
+    "pos": [
+     36.35,
+     55.5
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-05T00:00",
+    "pos": [
+     36.4,
+     55.45
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-15T00:00",
+    "pos": [
+     36.15,
+     55.35
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1942-01-05T00:00",
+    "pos": [
+     35.9,
+     55.3
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1942-01-31T00:00",
+    "pos": [
+     35.6,
+     55.25
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "1941 年 10 月 2 日起在第 9 军编成内参加台风行动，随所属军沿轴线东进；莫斯科城下攻势停顿后于 12 月转入防御并西撤，冬季的严寒、冻伤与补给短缺造成的减员往往超过战斗伤亡。",
+  "sources": [
+   "ger_4a",
+   "strat_cmh_tomoscow",
+   "ger_hgr_center"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "de.id292",
+  "side": "DE",
+  "echelon": "division",
+  "type": "infantry",
+  "parent": "de.ix_corps",
+  "name": {
+   "zh": "第 292 步兵师",
+   "orig": "292. Infanterie-Division",
+   "short": "292.ID"
+  },
+  "commander": {
+   "zh": "维利·泽格尔",
+   "orig": "Willy Seeger"
+  },
+  "model": "inf_de",
+  "track": [
+   {
+    "at": "1941-09-30T00:00",
+    "pos": [
+     34.0,
+     55.05
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-05T00:00",
+    "pos": [
+     34.5,
+     55.1
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-10T00:00",
+    "pos": [
+     34.85,
+     55.15
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-20T00:00",
+    "pos": [
+     35.4,
+     55.5
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-27T00:00",
+    "pos": [
+     35.9,
+     55.55
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-10T00:00",
+    "pos": [
+     36.15,
+     55.55
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-11-20T00:00",
+    "pos": [
+     36.35,
+     55.5
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-05T00:00",
+    "pos": [
+     36.4,
+     55.45
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-15T00:00",
+    "pos": [
+     36.15,
+     55.35
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1942-01-05T00:00",
+    "pos": [
+     35.9,
+     55.3
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1942-01-31T00:00",
+    "pos": [
+     35.6,
+     55.25
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "1941 年 10 月 2 日起在第 9 军编成内参加台风行动，随所属军沿轴线东进；莫斯科城下攻势停顿后于 12 月转入防御并西撤，冬季的严寒、冻伤与补给短缺造成的减员往往超过战斗伤亡。",
+  "sources": [
+   "ger_4a",
+   "strat_cmh_tomoscow",
+   "ger_hgr_center"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "de.id78",
+  "side": "DE",
+  "echelon": "division",
+  "type": "infantry",
+  "parent": "de.xx_corps",
+  "name": {
+   "zh": "第 78 步兵师",
+   "orig": "78. Infanterie-Division",
+   "short": "78.ID"
+  },
+  "commander": {
+   "zh": "埃米尔·马克格拉夫",
+   "orig": "Emil Markgraf"
+  },
+  "model": "inf_de",
+  "track": [
+   {
+    "at": "1941-09-30T00:00",
+    "pos": [
+     34.3,
+     54.8
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-06T00:00",
+    "pos": [
+     34.7,
+     54.9
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-12T00:00",
+    "pos": [
+     35.0,
+     55.0
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-20T00:00",
+    "pos": [
+     35.6,
+     55.3
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-01T00:00",
+    "pos": [
+     35.95,
+     55.4
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-11-15T00:00",
+    "pos": [
+     36.15,
+     55.35
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-05T00:00",
+    "pos": [
+     36.2,
+     55.3
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-15T00:00",
+    "pos": [
+     35.95,
+     55.2
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1942-01-31T00:00",
+    "pos": [
+     35.5,
+     55.15
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "1941 年 10 月 2 日起在第 20 军编成内参加台风行动，随所属军沿轴线东进；莫斯科城下攻势停顿后于 12 月转入防御并西撤，冬季的严寒、冻伤与补给短缺造成的减员往往超过战斗伤亡。",
+  "sources": [
+   "ger_4a",
+   "strat_cmh_tomoscow",
+   "ger_hgr_center"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "de.id15",
+  "side": "DE",
+  "echelon": "division",
+  "type": "infantry",
+  "parent": "de.xx_corps",
+  "name": {
+   "zh": "第 15 步兵师",
+   "orig": "15. Infanterie-Division",
+   "short": "15.ID"
+  },
+  "commander": {
+   "zh": "恩斯特-埃伯哈德·黑尔",
+   "orig": "Ernst-Eberhard Hell"
+  },
+  "model": "inf_de",
+  "track": [
+   {
+    "at": "1941-09-30T00:00",
+    "pos": [
+     34.3,
+     54.8
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-06T00:00",
+    "pos": [
+     34.7,
+     54.9
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-12T00:00",
+    "pos": [
+     35.0,
+     55.0
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-20T00:00",
+    "pos": [
+     35.6,
+     55.3
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-01T00:00",
+    "pos": [
+     35.95,
+     55.4
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-11-15T00:00",
+    "pos": [
+     36.15,
+     55.35
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-05T00:00",
+    "pos": [
+     36.2,
+     55.3
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-15T00:00",
+    "pos": [
+     35.95,
+     55.2
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1942-01-31T00:00",
+    "pos": [
+     35.5,
+     55.15
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "1941 年 10 月 2 日起在第 20 军编成内参加台风行动，随所属军沿轴线东进；莫斯科城下攻势停顿后于 12 月转入防御并西撤，冬季的严寒、冻伤与补给短缺造成的减员往往超过战斗伤亡。",
+  "sources": [
+   "ger_4a",
+   "strat_cmh_tomoscow",
+   "ger_hgr_center"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "de.id268",
+  "side": "DE",
+  "echelon": "division",
+  "type": "infantry",
+  "parent": "de.xx_corps",
+  "name": {
+   "zh": "第 268 步兵师",
+   "orig": "268. Infanterie-Division",
+   "short": "268.ID"
+  },
+  "commander": {
+   "zh": "埃里希·施特劳贝",
+   "orig": "Erich Straube"
+  },
+  "model": "inf_de",
+  "track": [
+   {
+    "at": "1941-09-30T00:00",
+    "pos": [
+     34.3,
+     54.8
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-06T00:00",
+    "pos": [
+     34.7,
+     54.9
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-12T00:00",
+    "pos": [
+     35.0,
+     55.0
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-20T00:00",
+    "pos": [
+     35.6,
+     55.3
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-01T00:00",
+    "pos": [
+     35.95,
+     55.4
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-11-15T00:00",
+    "pos": [
+     36.15,
+     55.35
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-05T00:00",
+    "pos": [
+     36.2,
+     55.3
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-15T00:00",
+    "pos": [
+     35.95,
+     55.2
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1942-01-31T00:00",
+    "pos": [
+     35.5,
+     55.15
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "1941 年 10 月 2 日起在第 20 军编成内参加台风行动，随所属军沿轴线东进；莫斯科城下攻势停顿后于 12 月转入防御并西撤，冬季的严寒、冻伤与补给短缺造成的减员往往超过战斗伤亡。",
+  "sources": [
+   "ger_4a",
+   "strat_cmh_tomoscow",
+   "ger_hgr_center"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "de.id7",
+  "side": "DE",
+  "echelon": "division",
+  "type": "infantry",
+  "parent": "de.vii_corps",
+  "name": {
+   "zh": "第 7 步兵师",
+   "orig": "7. Infanterie-Division",
+   "short": "7.ID"
+  },
+  "commander": {
+   "zh": "埃卡德·冯·加布伦茨",
+   "orig": "Eccard von Gablenz"
+  },
+  "model": "inf_de",
+  "track": [
+   {
+    "at": "1941-09-30T00:00",
+    "pos": [
+     34.5,
+     54.6
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-06T00:00",
+    "pos": [
+     34.9,
+     54.75
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-14T00:00",
+    "pos": [
+     35.3,
+     54.85
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-22T00:00",
+    "pos": [
+     35.9,
+     55.0
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-01T00:00",
+    "pos": [
+     36.2,
+     55.1
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-11-15T00:00",
+    "pos": [
+     36.4,
+     55.15
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-05T00:00",
+    "pos": [
+     36.4,
+     55.1
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-20T00:00",
+    "pos": [
+     36.1,
+     55.0
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1942-01-31T00:00",
+    "pos": [
+     35.8,
+     55.0
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "1941 年 10 月 2 日起在第 7 军编成内参加台风行动，随所属军沿轴线东进；莫斯科城下攻势停顿后于 12 月转入防御并西撤，冬季的严寒、冻伤与补给短缺造成的减员往往超过战斗伤亡。",
+  "sources": [
+   "ger_4a",
+   "strat_cmh_tomoscow",
+   "ger_hgr_center"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "de.id267",
+  "side": "DE",
+  "echelon": "division",
+  "type": "infantry",
+  "parent": "de.vii_corps",
+  "name": {
+   "zh": "第 267 步兵师",
+   "orig": "267. Infanterie-Division",
+   "short": "267.ID"
+  },
+  "commander": {
+   "zh": "弗里德里希-卡尔·冯·瓦赫特",
+   "orig": "Friedrich-Karl von Wachter"
+  },
+  "model": "inf_de",
+  "track": [
+   {
+    "at": "1941-09-30T00:00",
+    "pos": [
+     34.5,
+     54.6
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-06T00:00",
+    "pos": [
+     34.9,
+     54.75
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-14T00:00",
+    "pos": [
+     35.3,
+     54.85
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-22T00:00",
+    "pos": [
+     35.9,
+     55.0
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-01T00:00",
+    "pos": [
+     36.2,
+     55.1
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-11-15T00:00",
+    "pos": [
+     36.4,
+     55.15
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-05T00:00",
+    "pos": [
+     36.4,
+     55.1
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-20T00:00",
+    "pos": [
+     36.1,
+     55.0
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1942-01-31T00:00",
+    "pos": [
+     35.8,
+     55.0
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "1941 年 10 月 2 日起在第 7 军编成内参加台风行动，随所属军沿轴线东进；莫斯科城下攻势停顿后于 12 月转入防御并西撤，冬季的严寒、冻伤与补给短缺造成的减员往往超过战斗伤亡。",
+  "sources": [
+   "ger_4a",
+   "strat_cmh_tomoscow",
+   "ger_hgr_center"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "de.id23",
+  "side": "DE",
+  "echelon": "division",
+  "type": "infantry",
+  "parent": "de.vii_corps",
+  "name": {
+   "zh": "第 23 步兵师",
+   "orig": "23. Infanterie-Division",
+   "short": "23.ID"
+  },
+  "commander": {
+   "zh": "海因茨·赫尔米希",
+   "orig": "Heinz Hellmich"
+  },
+  "model": "inf_de",
+  "track": [
+   {
+    "at": "1941-09-30T00:00",
+    "pos": [
+     34.5,
+     54.6
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-06T00:00",
+    "pos": [
+     34.9,
+     54.75
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-14T00:00",
+    "pos": [
+     35.3,
+     54.85
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-22T00:00",
+    "pos": [
+     35.9,
+     55.0
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-01T00:00",
+    "pos": [
+     36.2,
+     55.1
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-11-15T00:00",
+    "pos": [
+     36.4,
+     55.15
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-05T00:00",
+    "pos": [
+     36.4,
+     55.1
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-20T00:00",
+    "pos": [
+     36.1,
+     55.0
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1942-01-31T00:00",
+    "pos": [
+     35.8,
+     55.0
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "1941 年 10 月 2 日起在第 7 军编成内参加台风行动，随所属军沿轴线东进；莫斯科城下攻势停顿后于 12 月转入防御并西撤，冬季的严寒、冻伤与补给短缺造成的减员往往超过战斗伤亡。",
+  "sources": [
+   "ger_4a",
+   "strat_cmh_tomoscow",
+   "ger_hgr_center"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "de.id197",
+  "side": "DE",
+  "echelon": "division",
+  "type": "infantry",
+  "parent": "de.vii_corps",
+  "name": {
+   "zh": "第 197 步兵师",
+   "orig": "197. Infanterie-Division",
+   "short": "197.ID"
+  },
+  "commander": {
+   "zh": "赫尔曼·迈尔-拉宾根",
+   "orig": "Hermann Meyer-Rabingen"
+  },
+  "model": "inf_de",
+  "track": [
+   {
+    "at": "1941-09-30T00:00",
+    "pos": [
+     34.5,
+     54.6
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-06T00:00",
+    "pos": [
+     34.9,
+     54.75
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-14T00:00",
+    "pos": [
+     35.3,
+     54.85
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-22T00:00",
+    "pos": [
+     35.9,
+     55.0
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-01T00:00",
+    "pos": [
+     36.2,
+     55.1
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-11-15T00:00",
+    "pos": [
+     36.4,
+     55.15
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-05T00:00",
+    "pos": [
+     36.4,
+     55.1
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-20T00:00",
+    "pos": [
+     36.1,
+     55.0
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1942-01-31T00:00",
+    "pos": [
+     35.8,
+     55.0
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "1941 年 10 月 2 日起在第 7 军编成内参加台风行动，随所属军沿轴线东进；莫斯科城下攻势停顿后于 12 月转入防御并西撤，冬季的严寒、冻伤与补给短缺造成的减员往往超过战斗伤亡。",
+  "sources": [
+   "ger_4a",
+   "strat_cmh_tomoscow",
+   "ger_hgr_center"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "de.id252",
+  "side": "DE",
+  "echelon": "division",
+  "type": "infantry",
+  "parent": "de.pz46_korps",
+  "name": {
+   "zh": "第 252 步兵师",
+   "orig": "252. Infanterie-Division",
+   "short": "252.ID"
+  },
+  "commander": {
+   "zh": "迪特·冯·伯姆-贝青",
+   "orig": "Diether von Böhm-Bezing"
+  },
+  "model": "inf_de",
+  "track": [
+   {
+    "at": "1941-09-30T00:00",
+    "pos": [
+     34.3,
+     54.35
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-04T00:00",
+    "pos": [
+     34.7,
+     54.4
+    ],
+    "status": "engaged",
+    "note": "斯帕斯杰缅斯克"
+   },
+   {
+    "at": "1941-10-08T00:00",
+    "pos": [
+     35.1,
+     54.6
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-12T00:00",
+    "pos": [
+     35.5,
+     54.9
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-18T00:00",
+    "pos": [
+     35.9,
+     55.2
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-25T00:00",
+    "pos": [
+     36.1,
+     55.5
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-01T00:00",
+    "pos": [
+     36.3,
+     55.6
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-11-15T00:00",
+    "pos": [
+     36.45,
+     55.6
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-25T00:00",
+    "pos": [
+     36.6,
+     55.7
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-01T00:00",
+    "pos": [
+     36.65,
+     55.72
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-06T00:00",
+    "pos": [
+     36.6,
+     55.7
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-15T00:00",
+    "pos": [
+     36.35,
+     55.6
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1942-01-31T00:00",
+    "pos": [
+     36.0,
+     55.5
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "1941 年 10 月 2 日起在第 46 装甲军编成内参加台风行动，随所属军沿轴线东进；莫斯科城下攻势停顿后于 12 月转入防御并西撤，冬季的严寒、冻伤与补给短缺造成的减员往往超过战斗伤亡。",
+  "sources": [
+   "ger_pzgr4",
+   "strat_cmh_tomoscow",
+   "ger_hgr_center"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "de.id258",
+  "side": "DE",
+  "echelon": "division",
+  "type": "infantry",
+  "parent": "de.pz40_korps",
+  "name": {
+   "zh": "第 258 步兵师",
+   "orig": "258. Infanterie-Division",
+   "short": "258.ID"
+  },
+  "commander": {
+   "zh": "卡尔·普夫劳姆",
+   "orig": "Karl Pflaum"
+  },
+  "model": "inf_de",
+  "track": [
+   {
+    "at": "1941-10-02T00:00",
+    "pos": [
+     33.9,
+     54.25
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-06T00:00",
+    "pos": [
+     34.6,
+     54.4
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-12T00:00",
+    "pos": [
+     35.2,
+     54.65
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-18T00:00",
+    "pos": [
+     35.8,
+     54.85
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-25T00:00",
+    "pos": [
+     36.05,
+     55.1
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-16T00:00",
+    "pos": [
+     36.3,
+     55.3
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-01T00:00",
+    "pos": [
+     36.6,
+     55.32
+    ],
+    "status": "engaged",
+    "note": "在莫斯科—斯摩棱斯克公路以南突破苏军阵地"
+   },
+   {
+    "at": "1941-12-04T00:00",
+    "pos": [
+     36.55,
+     55.3
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1941-12-20T00:00",
+    "pos": [
+     36.1,
+     55.22
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1942-01-31T12:00",
+    "pos": [
+     35.7,
+     55.2
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "1941 年 10 月 2 日起在第 40 装甲军编成内参加台风行动，随所属军沿轴线东进；莫斯科城下攻势停顿后于 12 月转入防御并西撤，冬季的严寒、冻伤与补给短缺造成的减员往往超过战斗伤亡。",
+  "sources": [
+   "ger_pzgr4",
+   "strat_cmh_tomoscow",
+   "ger_hgr_center"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "de.id98",
+  "side": "DE",
+  "echelon": "division",
+  "type": "infantry",
+  "parent": "de.xii_corps",
+  "name": {
+   "zh": "第 98 步兵师",
+   "orig": "98. Infanterie-Division",
+   "short": "98.ID"
+  },
+  "commander": {
+   "zh": "埃里希·施勒克",
+   "orig": "Erich Schröck"
+  },
+  "model": "inf_de",
+  "track": [
+   {
+    "at": "1941-09-30T00:00",
+    "pos": [
+     34.2,
+     54.5
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-06T00:00",
+    "pos": [
+     34.7,
+     54.6
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-14T00:00",
+    "pos": [
+     35.2,
+     54.75
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-22T00:00",
+    "pos": [
+     35.7,
+     54.9
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-01T00:00",
+    "pos": [
+     36.0,
+     55.0
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-11-20T00:00",
+    "pos": [
+     36.2,
+     55.05
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-05T00:00",
+    "pos": [
+     36.2,
+     55.0
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-20T00:00",
+    "pos": [
+     35.9,
+     54.9
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1942-01-31T00:00",
+    "pos": [
+     35.6,
+     54.85
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "1941 年 10 月 2 日起在第 12 军编成内参加台风行动，随所属军沿轴线东进；莫斯科城下攻势停顿后于 12 月转入防御并西撤，冬季的严寒、冻伤与补给短缺造成的减员往往超过战斗伤亡。",
+  "sources": [
+   "ger_pzgr4",
+   "strat_cmh_tomoscow",
+   "ger_hgr_center"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "de.id34",
+  "side": "DE",
+  "echelon": "division",
+  "type": "infantry",
+  "parent": "de.xii_corps",
+  "name": {
+   "zh": "第 34 步兵师",
+   "orig": "34. Infanterie-Division",
+   "short": "34.ID"
+  },
+  "commander": {
+   "zh": "汉斯·贝伦多夫",
+   "orig": "Hans Behlendorff"
+  },
+  "model": "inf_de",
+  "track": [
+   {
+    "at": "1941-09-30T00:00",
+    "pos": [
+     34.2,
+     54.5
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-06T00:00",
+    "pos": [
+     34.7,
+     54.6
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-14T00:00",
+    "pos": [
+     35.2,
+     54.75
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-22T00:00",
+    "pos": [
+     35.7,
+     54.9
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-01T00:00",
+    "pos": [
+     36.0,
+     55.0
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-11-20T00:00",
+    "pos": [
+     36.2,
+     55.05
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-05T00:00",
+    "pos": [
+     36.2,
+     55.0
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-20T00:00",
+    "pos": [
+     35.9,
+     54.9
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1942-01-31T00:00",
+    "pos": [
+     35.6,
+     54.85
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "1941 年 10 月 2 日起在第 12 军编成内参加台风行动，随所属军沿轴线东进；莫斯科城下攻势停顿后于 12 月转入防御并西撤，冬季的严寒、冻伤与补给短缺造成的减员往往超过战斗伤亡。",
+  "sources": [
+   "ger_pzgr4",
+   "strat_cmh_tomoscow",
+   "ger_hgr_center"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "de.id17",
+  "side": "DE",
+  "echelon": "division",
+  "type": "infantry",
+  "parent": "de.xiii_corps",
+  "name": {
+   "zh": "第 17 步兵师",
+   "orig": "17. Infanterie-Division",
+   "short": "17.ID"
+  },
+  "commander": {
+   "zh": "赫伯特·洛赫",
+   "orig": "Herbert Loch"
+  },
+  "model": "inf_de",
+  "track": [
+   {
+    "at": "1941-09-30T00:00",
+    "pos": [
+     34.4,
+     52.9
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-06T00:00",
+    "pos": [
+     34.5,
+     53.3
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-15T00:00",
+    "pos": [
+     35.1,
+     53.45
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-01T00:00",
+    "pos": [
+     36.3,
+     53.5
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-11-20T00:00",
+    "pos": [
+     37.2,
+     53.4
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-05T00:00",
+    "pos": [
+     37.9,
+     53.25
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-10T00:00",
+    "pos": [
+     37.5,
+     53.2
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1942-01-31T00:00",
+    "pos": [
+     36.9,
+     53.2
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "1941 年 10 月 2 日起在第 13 军编成内参加台风行动，随所属军沿轴线东进；莫斯科城下攻势停顿后于 12 月转入防御并西撤，冬季的严寒、冻伤与补给短缺造成的减员往往超过战斗伤亡。",
+  "sources": [
+   "ger_hgr_center",
+   "strat_cmh_tomoscow",
+   "ger_hgr_center"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "de.id260",
+  "side": "DE",
+  "echelon": "division",
+  "type": "infantry",
+  "parent": "de.xiii_corps",
+  "name": {
+   "zh": "第 260 步兵师",
+   "orig": "260. Infanterie-Division",
+   "short": "260.ID"
+  },
+  "commander": {
+   "zh": "汉斯·施密特",
+   "orig": "Hans Schmidt"
+  },
+  "model": "inf_de",
+  "track": [
+   {
+    "at": "1941-09-30T00:00",
+    "pos": [
+     34.4,
+     52.9
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-06T00:00",
+    "pos": [
+     34.5,
+     53.3
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-15T00:00",
+    "pos": [
+     35.1,
+     53.45
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-01T00:00",
+    "pos": [
+     36.3,
+     53.5
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-11-20T00:00",
+    "pos": [
+     37.2,
+     53.4
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-05T00:00",
+    "pos": [
+     37.9,
+     53.25
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-10T00:00",
+    "pos": [
+     37.5,
+     53.2
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1942-01-31T00:00",
+    "pos": [
+     36.9,
+     53.2
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "1941 年 10 月 2 日起在第 13 军编成内参加台风行动，随所属军沿轴线东进；莫斯科城下攻势停顿后于 12 月转入防御并西撤，冬季的严寒、冻伤与补给短缺造成的减员往往超过战斗伤亡。",
+  "sources": [
+   "ger_hgr_center",
+   "strat_cmh_tomoscow",
+   "ger_hgr_center"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "de.id52",
+  "side": "DE",
+  "echelon": "division",
+  "type": "infantry",
+  "parent": "de.xxxxiii_corps",
+  "name": {
+   "zh": "第 52 步兵师",
+   "orig": "52. Infanterie-Division",
+   "short": "52.ID"
+  },
+  "commander": {
+   "zh": "洛塔尔·伦杜利奇",
+   "orig": "Lothar Rendulic"
+  },
+  "model": "inf_de",
+  "track": [
+   {
+    "at": "1941-09-30T00:00",
+    "pos": [
+     34.2,
+     53.3
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-05T00:00",
+    "pos": [
+     34.6,
+     53.5
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-15T00:00",
+    "pos": [
+     35.2,
+     53.55
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-01T00:00",
+    "pos": [
+     35.9,
+     53.5
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-11-20T00:00",
+    "pos": [
+     36.6,
+     53.4
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-05T00:00",
+    "pos": [
+     37.0,
+     53.3
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-12T00:00",
+    "pos": [
+     36.6,
+     53.25
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1942-01-31T00:00",
+    "pos": [
+     36.2,
+     53.2
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "1941 年 10 月 2 日起在第 43 军编成内参加台风行动，随所属军沿轴线东进；莫斯科城下攻势停顿后于 12 月转入防御并西撤，冬季的严寒、冻伤与补给短缺造成的减员往往超过战斗伤亡。",
+  "sources": [
+   "ger_hgr_center",
+   "strat_cmh_tomoscow",
+   "ger_hgr_center"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "de.id131",
+  "side": "DE",
+  "echelon": "division",
+  "type": "infantry",
+  "parent": "de.xxxxiii_corps",
+  "name": {
+   "zh": "第 131 步兵师",
+   "orig": "131. Infanterie-Division",
+   "short": "131.ID"
+  },
+  "commander": {
+   "zh": "海因里希·迈尔-布尔格多夫",
+   "orig": "Heinrich Meyer-Burgdorf"
+  },
+  "model": "inf_de",
+  "track": [
+   {
+    "at": "1941-09-30T00:00",
+    "pos": [
+     34.2,
+     53.3
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-05T00:00",
+    "pos": [
+     34.6,
+     53.5
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-15T00:00",
+    "pos": [
+     35.2,
+     53.55
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-01T00:00",
+    "pos": [
+     35.9,
+     53.5
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-11-20T00:00",
+    "pos": [
+     36.6,
+     53.4
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-05T00:00",
+    "pos": [
+     37.0,
+     53.3
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-12T00:00",
+    "pos": [
+     36.6,
+     53.25
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1942-01-31T00:00",
+    "pos": [
+     36.2,
+     53.2
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "1941 年 10 月 2 日起在第 43 军编成内参加台风行动，随所属军沿轴线东进；莫斯科城下攻势停顿后于 12 月转入防御并西撤，冬季的严寒、冻伤与补给短缺造成的减员往往超过战斗伤亡。",
+  "sources": [
+   "ger_hgr_center",
+   "strat_cmh_tomoscow",
+   "ger_hgr_center"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "de.id56",
+  "side": "DE",
+  "echelon": "division",
+  "type": "infantry",
+  "parent": "de.liii_corps",
+  "name": {
+   "zh": "第 56 步兵师",
+   "orig": "56. Infanterie-Division",
+   "short": "56.ID"
+  },
+  "commander": {
+   "zh": "卡尔·冯·奥文",
+   "orig": "Karl von Oven"
+  },
+  "model": "inf_de",
+  "track": [
+   {
+    "at": "1941-09-30T00:00",
+    "pos": [
+     34.0,
+     53.6
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-05T00:00",
+    "pos": [
+     34.5,
+     53.7
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-15T00:00",
+    "pos": [
+     35.1,
+     53.65
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-01T00:00",
+    "pos": [
+     35.8,
+     53.55
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-12-05T00:00",
+    "pos": [
+     36.3,
+     53.4
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-15T00:00",
+    "pos": [
+     36.0,
+     53.35
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1942-01-31T00:00",
+    "pos": [
+     35.6,
+     53.25
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "1941 年 10 月 2 日起在第 53 军编成内参加台风行动，随所属军沿轴线东进；莫斯科城下攻势停顿后于 12 月转入防御并西撤，冬季的严寒、冻伤与补给短缺造成的减员往往超过战斗伤亡。",
+  "sources": [
+   "ger_hgr_center",
+   "strat_cmh_tomoscow",
+   "ger_hgr_center"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "de.id31",
+  "side": "DE",
+  "echelon": "division",
+  "type": "infantry",
+  "parent": "de.liii_corps",
+  "name": {
+   "zh": "第 31 步兵师",
+   "orig": "31. Infanterie-Division",
+   "short": "31.ID"
+  },
+  "commander": {
+   "zh": "格哈德·贝特霍尔德",
+   "orig": "Gerhard Berthold"
+  },
+  "model": "inf_de",
+  "track": [
+   {
+    "at": "1941-09-30T00:00",
+    "pos": [
+     34.0,
+     53.6
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-05T00:00",
+    "pos": [
+     34.5,
+     53.7
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-15T00:00",
+    "pos": [
+     35.1,
+     53.65
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-01T00:00",
+    "pos": [
+     35.8,
+     53.55
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-12-05T00:00",
+    "pos": [
+     36.3,
+     53.4
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-15T00:00",
+    "pos": [
+     36.0,
+     53.35
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1942-01-31T00:00",
+    "pos": [
+     35.6,
+     53.25
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "1941 年 10 月 2 日起在第 53 军编成内参加台风行动，随所属军沿轴线东进；莫斯科城下攻势停顿后于 12 月转入防御并西撤，冬季的严寒、冻伤与补给短缺造成的减员往往超过战斗伤亡。",
+  "sources": [
+   "ger_hgr_center",
+   "strat_cmh_tomoscow",
+   "ger_hgr_center"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "de.id167",
+  "side": "DE",
+  "echelon": "division",
+  "type": "infantry",
+  "parent": "de.liii_corps",
+  "name": {
+   "zh": "第 167 步兵师",
+   "orig": "167. Infanterie-Division",
+   "short": "167.ID"
+  },
+  "commander": {
+   "zh": "沃尔夫-京特·特里恩贝格",
+   "orig": "Wolf-Günther Trierenberg"
+  },
+  "model": "inf_de",
+  "track": [
+   {
+    "at": "1941-09-30T00:00",
+    "pos": [
+     34.0,
+     53.6
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-05T00:00",
+    "pos": [
+     34.5,
+     53.7
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-15T00:00",
+    "pos": [
+     35.1,
+     53.65
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-01T00:00",
+    "pos": [
+     35.8,
+     53.55
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-12-05T00:00",
+    "pos": [
+     36.3,
+     53.4
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-15T00:00",
+    "pos": [
+     36.0,
+     53.35
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1942-01-31T00:00",
+    "pos": [
+     35.6,
+     53.25
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "1941 年 10 月 2 日起在第 53 军编成内参加台风行动，随所属军沿轴线东进；莫斯科城下攻势停顿后于 12 月转入防御并西撤，冬季的严寒、冻伤与补给短缺造成的减员往往超过战斗伤亡。",
+  "sources": [
+   "ger_hgr_center",
+   "strat_cmh_tomoscow",
+   "ger_hgr_center"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "de.id95",
+  "side": "DE",
+  "echelon": "division",
+  "type": "infantry",
+  "parent": "de.hk35",
+  "name": {
+   "zh": "第 95 步兵师",
+   "orig": "95. Infanterie-Division",
+   "short": "95.ID"
+  },
+  "commander": {
+   "zh": "汉斯-海因里希·西克斯特·冯·阿尼姆",
+   "orig": "Hans-Heinrich Sixt von Arnim"
+  },
+  "model": "inf_de",
+  "track": [
+   {
+    "at": "1941-09-30T00:00",
+    "pos": [
+     35.2,
+     52.6
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-05T00:00",
+    "pos": [
+     35.6,
+     52.9
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-12T00:00",
+    "pos": [
+     36.0,
+     53.1
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-25T00:00",
+    "pos": [
+     36.4,
+     53.3
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-10T00:00",
+    "pos": [
+     36.9,
+     53.4
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-11-25T00:00",
+    "pos": [
+     37.6,
+     53.4
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-05T00:00",
+    "pos": [
+     37.8,
+     53.3
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-12T00:00",
+    "pos": [
+     37.4,
+     53.2
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1942-01-31T00:00",
+    "pos": [
+     36.9,
+     53.15
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "1941 年 10 月 2 日起在第 35 高级司令部编成内参加台风行动，随所属军沿轴线东进；莫斯科城下攻势停顿后于 12 月转入防御并西撤，冬季的严寒、冻伤与补给短缺造成的减员往往超过战斗伤亡。",
+  "sources": [
+   "ger_pzgr2",
+   "strat_cmh_tomoscow",
+   "ger_hgr_center"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "de.id296",
+  "side": "DE",
+  "echelon": "division",
+  "type": "infantry",
+  "parent": "de.hk35",
+  "name": {
+   "zh": "第 296 步兵师",
+   "orig": "296. Infanterie-Division",
+   "short": "296.ID"
+  },
+  "commander": {
+   "zh": "威廉·施特默曼",
+   "orig": "Wilhelm Stemmermann"
+  },
+  "model": "inf_de",
+  "track": [
+   {
+    "at": "1941-09-30T00:00",
+    "pos": [
+     35.2,
+     52.6
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-05T00:00",
+    "pos": [
+     35.6,
+     52.9
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-12T00:00",
+    "pos": [
+     36.0,
+     53.1
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-25T00:00",
+    "pos": [
+     36.4,
+     53.3
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-10T00:00",
+    "pos": [
+     36.9,
+     53.4
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-11-25T00:00",
+    "pos": [
+     37.6,
+     53.4
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-05T00:00",
+    "pos": [
+     37.8,
+     53.3
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-12T00:00",
+    "pos": [
+     37.4,
+     53.2
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1942-01-31T00:00",
+    "pos": [
+     36.9,
+     53.15
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "1941 年 10 月 2 日起在第 35 高级司令部编成内参加台风行动，随所属军沿轴线东进；莫斯科城下攻势停顿后于 12 月转入防御并西撤，冬季的严寒、冻伤与补给短缺造成的减员往往超过战斗伤亡。",
+  "sources": [
+   "ger_pzgr2",
+   "strat_cmh_tomoscow",
+   "ger_hgr_center"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "de.id262",
+  "side": "DE",
+  "echelon": "division",
+  "type": "infantry",
+  "parent": "de.hk35",
+  "name": {
+   "zh": "第 262 步兵师",
+   "orig": "262. Infanterie-Division",
+   "short": "262.ID"
+  },
+  "commander": {
+   "zh": "埃德加·泰森",
+   "orig": "Edgar Theisen"
+  },
+  "model": "inf_de",
+  "track": [
+   {
+    "at": "1941-09-30T00:00",
+    "pos": [
+     35.2,
+     52.6
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-05T00:00",
+    "pos": [
+     35.6,
+     52.9
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-12T00:00",
+    "pos": [
+     36.0,
+     53.1
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-25T00:00",
+    "pos": [
+     36.4,
+     53.3
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-10T00:00",
+    "pos": [
+     36.9,
+     53.4
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-11-25T00:00",
+    "pos": [
+     37.6,
+     53.4
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-05T00:00",
+    "pos": [
+     37.8,
+     53.3
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-12T00:00",
+    "pos": [
+     37.4,
+     53.2
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1942-01-31T00:00",
+    "pos": [
+     36.9,
+     53.15
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "1941 年 10 月 2 日起在第 35 高级司令部编成内参加台风行动，随所属军沿轴线东进；莫斯科城下攻势停顿后于 12 月转入防御并西撤，冬季的严寒、冻伤与补给短缺造成的减员往往超过战斗伤亡。",
+  "sources": [
+   "ger_pzgr2",
+   "strat_cmh_tomoscow",
+   "ger_hgr_center"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "de.id293",
+  "side": "DE",
+  "echelon": "division",
+  "type": "infantry",
+  "parent": "de.hk35",
+  "name": {
+   "zh": "第 293 步兵师",
+   "orig": "293. Infanterie-Division",
+   "short": "293.ID"
+  },
+  "commander": {
+   "zh": "尤斯廷·冯·奥伯尼茨",
+   "orig": "Justin von Obernitz"
+  },
+  "model": "inf_de",
+  "track": [
+   {
+    "at": "1941-09-30T00:00",
+    "pos": [
+     35.2,
+     52.6
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-05T00:00",
+    "pos": [
+     35.6,
+     52.9
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-12T00:00",
+    "pos": [
+     36.0,
+     53.1
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-25T00:00",
+    "pos": [
+     36.4,
+     53.3
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-10T00:00",
+    "pos": [
+     36.9,
+     53.4
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-11-25T00:00",
+    "pos": [
+     37.6,
+     53.4
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-05T00:00",
+    "pos": [
+     37.8,
+     53.3
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-12T00:00",
+    "pos": [
+     37.4,
+     53.2
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1942-01-31T00:00",
+    "pos": [
+     36.9,
+     53.15
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "1941 年 10 月 2 日起在第 35 高级司令部编成内参加台风行动，随所属军沿轴线东进；莫斯科城下攻势停顿后于 12 月转入防御并西撤，冬季的严寒、冻伤与补给短缺造成的减员往往超过战斗伤亡。",
+  "sources": [
+   "ger_pzgr2",
+   "strat_cmh_tomoscow",
+   "ger_hgr_center"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "de.id45",
+  "side": "DE",
+  "echelon": "division",
+  "type": "infantry",
+  "parent": "de.hk34",
+  "name": {
+   "zh": "第 45 步兵师",
+   "orig": "45. Infanterie-Division",
+   "short": "45.ID"
+  },
+  "commander": {
+   "zh": "弗里茨·施利佩尔",
+   "orig": "Fritz Schlieper"
+  },
+  "model": "inf_de",
+  "track": [
+   {
+    "at": "1941-09-30T00:00",
+    "pos": [
+     35.6,
+     52.1
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-10T00:00",
+    "pos": [
+     35.95,
+     52.35
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-25T00:00",
+    "pos": [
+     36.4,
+     52.6
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-15T00:00",
+    "pos": [
+     37.1,
+     52.75
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-28T00:00",
+    "pos": [
+     37.7,
+     52.68
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-05T00:00",
+    "pos": [
+     38.15,
+     52.6
+    ],
+    "status": "engaged",
+    "note": "叶列茨方向"
+   },
+   {
+    "at": "1941-12-10T00:00",
+    "pos": [
+     37.7,
+     52.6
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1941-12-20T00:00",
+    "pos": [
+     37.15,
+     52.55
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1942-01-31T12:00",
+    "pos": [
+     36.6,
+     52.5
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "1941 年 10 月 2 日起在第 34 高级司令部编成内参加台风行动，随所属军沿轴线东进；莫斯科城下攻势停顿后于 12 月转入防御并西撤，冬季的严寒、冻伤与补给短缺造成的减员往往超过战斗伤亡。",
+  "sources": [
+   "ger_pzgr2",
+   "strat_cmh_tomoscow",
+   "ger_hgr_center"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "de.id134",
+  "side": "DE",
+  "echelon": "division",
+  "type": "infantry",
+  "parent": "de.hk34",
+  "name": {
+   "zh": "第 134 步兵师",
+   "orig": "134. Infanterie-Division",
+   "short": "134.ID"
+  },
+  "commander": {
+   "zh": "康拉德·冯·科亨豪森",
+   "orig": "Conrad von Cochenhausen"
+  },
+  "model": "inf_de",
+  "track": [
+   {
+    "at": "1941-09-30T00:00",
+    "pos": [
+     35.6,
+     52.1
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-10T00:00",
+    "pos": [
+     35.95,
+     52.35
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-25T00:00",
+    "pos": [
+     36.4,
+     52.6
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-15T00:00",
+    "pos": [
+     37.1,
+     52.75
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-28T00:00",
+    "pos": [
+     37.7,
+     52.68
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-05T00:00",
+    "pos": [
+     38.15,
+     52.6
+    ],
+    "status": "engaged",
+    "note": "叶列茨方向"
+   },
+   {
+    "at": "1941-12-10T00:00",
+    "pos": [
+     37.7,
+     52.6
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1941-12-20T00:00",
+    "pos": [
+     37.15,
+     52.55
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1942-01-31T12:00",
+    "pos": [
+     36.6,
+     52.5
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "1941 年 10 月 2 日起在第 34 高级司令部编成内参加台风行动，随所属军沿轴线东进；莫斯科城下攻势停顿后于 12 月转入防御并西撤，冬季的严寒、冻伤与补给短缺造成的减员往往超过战斗伤亡。",
+  "sources": [
+   "ger_pzgr2",
+   "strat_cmh_tomoscow",
+   "ger_hgr_center"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "de.pz1",
+  "side": "DE",
+  "echelon": "division",
+  "type": "armor",
+  "parent": "de.pz41_korps",
+  "name": {
+   "zh": "第 1 装甲师",
+   "orig": "1. Panzer-Division",
+   "short": "1.Pz"
+  },
+  "commander": {
+   "zh": "瓦尔特·克吕格尔",
+   "orig": "Walter Krüger"
+  },
+  "model": "pz3",
+  "track": [
+   {
+    "at": "1941-09-30T00:00",
+    "pos": [
+     32.5,
+     55.45
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-03T00:00",
+    "pos": [
+     33.2,
+     55.5
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-07T00:00",
+    "pos": [
+     33.9,
+     55.5
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-10T00:00",
+    "pos": [
+     34.7,
+     55.85
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-14T00:00",
+    "pos": [
+     35.8,
+     56.7
+    ],
+    "status": "engaged",
+    "note": "第 1 装甲师突入加里宁"
+   },
+   {
+    "at": "1941-10-20T00:00",
+    "pos": [
+     35.95,
+     56.85
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-10T00:00",
+    "pos": [
+     36.3,
+     56.45
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-11-16T00:00",
+    "pos": [
+     36.4,
+     56.4
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-23T00:00",
+    "pos": [
+     36.65,
+     56.36
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-27T00:00",
+    "pos": [
+     37.1,
+     56.33
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-03T00:00",
+    "pos": [
+     37.3,
+     56.28
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-06T00:00",
+    "pos": [
+     37.1,
+     56.28
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1941-12-12T00:00",
+    "pos": [
+     36.8,
+     56.42
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1941-12-16T00:00",
+    "pos": [
+     36.6,
+     56.4
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1941-12-25T00:00",
+    "pos": [
+     36.2,
+     56.2
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1942-01-10T00:00",
+    "pos": [
+     35.9,
+     56.1
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1942-01-31T00:00",
+    "pos": [
+     35.7,
+     56.05
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "10 月 13—14 日突入加里宁，是台风行动中德军到达最北的装甲矛头；此后在加里宁方向防御，12 月撤退。",
+  "sources": [
+   "ger_pzgr3",
+   "strat_cmh_tomoscow",
+   "ger_hgr_center"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "de.pz6",
+  "side": "DE",
+  "echelon": "division",
+  "type": "armor",
+  "parent": "de.pz56_korps",
+  "name": {
+   "zh": "第 6 装甲师",
+   "orig": "6. Panzer-Division",
+   "short": "6.Pz"
+  },
+  "commander": {
+   "zh": "弗朗茨·兰德格拉夫",
+   "orig": "Franz Landgraf"
+  },
+  "model": "pz4",
+  "track": [
+   {
+    "at": "1941-09-30T00:00",
+    "pos": [
+     32.9,
+     55.15
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-04T00:00",
+    "pos": [
+     33.6,
+     55.15
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-08T00:00",
+    "pos": [
+     34.2,
+     55.2
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-15T00:00",
+    "pos": [
+     34.9,
+     55.5
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-01T00:00",
+    "pos": [
+     35.7,
+     56.0
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-11-15T00:00",
+    "pos": [
+     36.1,
+     56.2
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-20T00:00",
+    "pos": [
+     36.4,
+     56.28
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-23T00:00",
+    "pos": [
+     36.7,
+     56.3
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-27T00:00",
+    "pos": [
+     37.2,
+     56.24
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-28T00:00",
+    "pos": [
+     37.45,
+     56.22
+    ],
+    "status": "engaged",
+    "note": "第 7 装甲师在亚赫罗马渡运河"
+   },
+   {
+    "at": "1941-12-05T00:00",
+    "pos": [
+     37.3,
+     56.2
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-08T00:00",
+    "pos": [
+     37.0,
+     56.3
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1941-12-15T00:00",
+    "pos": [
+     36.7,
+     56.3
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1941-12-25T00:00",
+    "pos": [
+     36.3,
+     56.2
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1942-01-31T00:00",
+    "pos": [
+     35.9,
+     56.1
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "10 月参加维亚济马合围，11 月沿克林—莫斯科方向进攻，12 月撤回。",
+  "sources": [
+   "ger_pzgr3",
+   "strat_cmh_tomoscow",
+   "ger_hgr_center"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "de.pz7",
+  "side": "DE",
+  "echelon": "division",
+  "type": "armor",
+  "parent": "de.pz56_korps",
+  "name": {
+   "zh": "第 7 装甲师",
+   "orig": "7. Panzer-Division",
+   "short": "7.Pz"
+  },
+  "commander": {
+   "zh": "汉斯·冯·丰克",
+   "orig": "Hans Freiherr von Funck"
+  },
+  "model": "pz38t",
+  "track": [
+   {
+    "at": "1941-10-02T00:00",
+    "pos": [
+     32.85,
+     55.2
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-06T00:00",
+    "pos": [
+     33.6,
+     55.3
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-10T00:00",
+    "pos": [
+     34.3,
+     55.45
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-16T00:00",
+    "pos": [
+     35.1,
+     55.8
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-15T00:00",
+    "pos": [
+     35.95,
+     56.1
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-11-17T00:00",
+    "pos": [
+     36.2,
+     56.2
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-20T00:00",
+    "pos": [
+     36.5,
+     56.28
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-23T00:00",
+    "pos": [
+     36.71,
+     56.33
+    ],
+    "status": "engaged",
+    "note": "攻占克林"
+   },
+   {
+    "at": "1941-11-25T00:00",
+    "pos": [
+     36.95,
+     56.3
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-27T00:00",
+    "pos": [
+     37.3,
+     56.28
+    ],
+    "status": "engaged",
+    "note": "进抵莫斯科运河"
+   },
+   {
+    "at": "1941-11-28T00:00",
+    "pos": [
+     37.48,
+     56.28
+    ],
+    "status": "engaged",
+    "note": "在亚赫罗马强渡运河，建立东岸桥头"
+   },
+   {
+    "at": "1941-12-05T00:00",
+    "pos": [
+     37.35,
+     56.24
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-08T00:00",
+    "pos": [
+     37.05,
+     56.3
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1941-12-15T00:00",
+    "pos": [
+     36.76,
+     56.32
+    ],
+    "status": "withdrawing",
+    "note": "克林失守"
+   },
+   {
+    "at": "1941-12-25T00:00",
+    "pos": [
+     36.3,
+     56.15
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1942-01-31T12:00",
+    "pos": [
+     35.85,
+     56.1
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "11 月 23 日参加攻占克林，27 日进抵莫斯科运河，28 日在亚赫罗马建立东岸桥头；是德军最接近莫斯科的部队之一。",
+  "sources": [
+   "ger_pzgr3",
+   "strat_cmh_tomoscow",
+   "ger_hgr_center"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "de.pz2",
+  "side": "DE",
+  "echelon": "division",
+  "type": "armor",
+  "parent": "de.pz40_korps",
+  "name": {
+   "zh": "第 2 装甲师",
+   "orig": "2. Panzer-Division",
+   "short": "2.Pz"
+  },
+  "commander": {
+   "zh": "鲁道夫·法伊尔",
+   "orig": "Rudolf Veiel"
+  },
+  "model": "pz3",
+  "track": [
+   {
+    "at": "1941-10-02T00:00",
+    "pos": [
+     33.75,
+     54.6
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-06T00:00",
+    "pos": [
+     34.55,
+     54.78
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-10T00:00",
+    "pos": [
+     35.05,
+     55.1
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-16T00:00",
+    "pos": [
+     35.75,
+     55.35
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-25T00:00",
+    "pos": [
+     36.05,
+     55.6
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-16T00:00",
+    "pos": [
+     36.35,
+     55.8
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-23T00:00",
+    "pos": [
+     36.85,
+     55.98
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-27T00:00",
+    "pos": [
+     36.98,
+     55.92
+    ],
+    "status": "engaged",
+    "note": "伊斯特拉"
+   },
+   {
+    "at": "1941-11-30T00:00",
+    "pos": [
+     37.28,
+     55.85
+    ],
+    "status": "engaged",
+    "note": "前锋抵克拉斯纳亚波利亚纳，距莫斯科约 20 公里"
+   },
+   {
+    "at": "1941-12-05T00:00",
+    "pos": [
+     37.3,
+     55.85
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-12T00:00",
+    "pos": [
+     36.9,
+     55.92
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1941-12-20T00:00",
+    "pos": [
+     36.4,
+     55.92
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1942-01-31T12:00",
+    "pos": [
+     35.95,
+     55.9
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "11 月底作为第 4 装甲集群前锋逼近克拉斯纳亚波利亚纳，距莫斯科约 20 公里，12 月初停止进攻。",
+  "sources": [
+   "ger_pzgr4",
+   "strat_cmh_tomoscow",
+   "ger_hgr_center"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "de.pz10",
+  "side": "DE",
+  "echelon": "division",
+  "type": "armor",
+  "parent": "de.pz40_korps",
+  "name": {
+   "zh": "第 10 装甲师",
+   "orig": "10. Panzer-Division",
+   "short": "10.Pz"
+  },
+  "commander": {
+   "zh": "沃尔夫冈·菲舍尔",
+   "orig": "Wolfgang Fischer"
+  },
+  "model": "pz3",
+  "track": [
+   {
+    "at": "1941-10-02T05:30",
+    "pos": [
+     33.76,
+     54.2
+    ],
+    "status": "engaged",
+    "note": "自罗斯拉夫尔方向突破"
+   },
+   {
+    "at": "1941-10-04T00:00",
+    "pos": [
+     34.3,
+     54.09
+    ],
+    "status": "engaged",
+    "note": "基洛夫"
+   },
+   {
+    "at": "1941-10-04T18:00",
+    "pos": [
+     34.78,
+     54.49
+    ],
+    "status": "engaged",
+    "note": "莫萨利斯克，已深入 110 公里"
+   },
+   {
+    "at": "1941-10-07T00:00",
+    "pos": [
+     35.1,
+     54.55
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-12T00:00",
+    "pos": [
+     35.55,
+     54.85
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-18T00:00",
+    "pos": [
+     35.95,
+     55.1
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-25T00:00",
+    "pos": [
+     36.2,
+     55.3
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-16T00:00",
+    "pos": [
+     36.4,
+     55.5
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-23T00:00",
+    "pos": [
+     36.75,
+     55.75
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-26T00:00",
+    "pos": [
+     36.86,
+     55.92
+    ],
+    "status": "engaged",
+    "note": "伊斯特拉"
+   },
+   {
+    "at": "1941-11-30T00:00",
+    "pos": [
+     36.92,
+     55.88
+    ],
+    "status": "engaged",
+    "note": "杰多夫斯克、斯涅吉里一线"
+   },
+   {
+    "at": "1941-12-05T00:00",
+    "pos": [
+     36.95,
+     55.88
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-15T00:00",
+    "pos": [
+     36.5,
+     55.85
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1942-01-31T12:00",
+    "pos": [
+     36.05,
+     55.8
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "10 月 4 日攻占基洛夫与莫萨利斯克，是维亚济马合围圈东南最远的矛头，此后参加莫扎伊斯克方向进攻。",
+  "sources": [
+   "ger_pzgr4",
+   "strat_cmh_tomoscow",
+   "ger_hgr_center"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "de.pz5",
+  "side": "DE",
+  "echelon": "division",
+  "type": "armor",
+  "parent": "de.pz46_korps",
+  "name": {
+   "zh": "第 5 装甲师",
+   "orig": "5. Panzer-Division",
+   "short": "5.Pz"
+  },
+  "commander": {
+   "zh": "古斯塔夫·芬",
+   "orig": "Gustav Fehn"
+  },
+  "model": "pz3",
+  "track": [
+   {
+    "at": "1941-10-02T00:00",
+    "pos": [
+     33.7,
+     54.35
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-06T00:00",
+    "pos": [
+     34.45,
+     54.55
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-12T00:00",
+    "pos": [
+     35.1,
+     54.85
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-20T00:00",
+    "pos": [
+     35.8,
+     55.2
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-27T00:00",
+    "pos": [
+     36.0,
+     55.75
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-16T00:00",
+    "pos": [
+     36.3,
+     55.9
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-25T00:00",
+    "pos": [
+     36.65,
+     55.95
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-05T00:00",
+    "pos": [
+     36.75,
+     55.95
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-15T00:00",
+    "pos": [
+     36.4,
+     55.9
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1942-01-31T12:00",
+    "pos": [
+     36.05,
+     55.85
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "在维亚济马合围后随第 4 装甲集群沿沃洛科拉姆斯克—伊斯特拉方向进攻，11 月底在克拉斯纳亚波利亚纳以西受阻。",
+  "sources": [
+   "ger_pzgr4",
+   "strat_cmh_tomoscow",
+   "ger_hgr_center"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "de.pz11",
+  "side": "DE",
+  "echelon": "division",
+  "type": "armor",
+  "parent": "de.pz46_korps",
+  "name": {
+   "zh": "第 11 装甲师",
+   "orig": "11. Panzer-Division",
+   "short": "11.Pz"
+  },
+  "commander": {
+   "zh": "汉斯-卡尔·冯·埃泽贝克",
+   "orig": "Hans-Karl Freiherr von Esebeck"
+  },
+  "model": "pz38t",
+  "track": [
+   {
+    "at": "1941-09-30T00:00",
+    "pos": [
+     34.3,
+     54.35
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-04T00:00",
+    "pos": [
+     34.7,
+     54.4
+    ],
+    "status": "engaged",
+    "note": "斯帕斯杰缅斯克"
+   },
+   {
+    "at": "1941-10-08T00:00",
+    "pos": [
+     35.1,
+     54.6
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-12T00:00",
+    "pos": [
+     35.5,
+     54.9
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-18T00:00",
+    "pos": [
+     35.9,
+     55.2
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-25T00:00",
+    "pos": [
+     36.1,
+     55.5
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-01T00:00",
+    "pos": [
+     36.3,
+     55.6
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-11-15T00:00",
+    "pos": [
+     36.45,
+     55.6
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-25T00:00",
+    "pos": [
+     36.6,
+     55.7
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-01T00:00",
+    "pos": [
+     36.65,
+     55.72
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-06T00:00",
+    "pos": [
+     36.6,
+     55.7
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-15T00:00",
+    "pos": [
+     36.35,
+     55.6
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1942-01-31T00:00",
+    "pos": [
+     36.0,
+     55.5
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "11 月在第 4 装甲集群编成内沿伊斯特拉方向进攻，参加对莫斯科西北接近地的最后一次突击。",
+  "sources": [
+   "ger_pzgr4",
+   "strat_cmh_tomoscow",
+   "ger_hgr_center"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "de.pz20",
+  "side": "DE",
+  "echelon": "division",
+  "type": "armor",
+  "parent": "de.pz57_korps",
+  "name": {
+   "zh": "第 20 装甲师",
+   "orig": "20. Panzer-Division",
+   "short": "20.Pz"
+  },
+  "commander": {
+   "zh": "格奥尔格·冯·俾斯麦",
+   "orig": "Georg von Bismarck"
+  },
+  "model": "pz38t",
+  "track": [
+   {
+    "at": "1941-09-30T00:00",
+    "pos": [
+     33.8,
+     54.9
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-03T00:00",
+    "pos": [
+     34.6,
+     54.9
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-06T00:00",
+    "pos": [
+     35.2,
+     55.0
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-10T00:00",
+    "pos": [
+     35.6,
+     55.2
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-16T00:00",
+    "pos": [
+     35.85,
+     55.45
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-20T00:00",
+    "pos": [
+     35.95,
+     55.5
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-27T00:00",
+    "pos": [
+     35.98,
+     56.0
+    ],
+    "status": "engaged",
+    "note": "沃洛科拉姆斯克失守"
+   },
+   {
+    "at": "1941-11-10T00:00",
+    "pos": [
+     36.2,
+     56.05
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-11-16T00:00",
+    "pos": [
+     36.4,
+     56.1
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-23T00:00",
+    "pos": [
+     36.7,
+     56.2
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-28T00:00",
+    "pos": [
+     36.9,
+     56.1
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-05T00:00",
+    "pos": [
+     36.9,
+     56.05
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-10T00:00",
+    "pos": [
+     36.6,
+     56.05
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1941-12-20T00:00",
+    "pos": [
+     36.3,
+     56.0
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1942-01-31T00:00",
+    "pos": [
+     36.0,
+     55.95
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "经尤赫诺夫、沃洛科拉姆斯克方向进攻，10 月中旬已损失约 43 辆坦克，11 月在伊斯特拉方向作战。",
+  "sources": [
+   "ger_pzgr4",
+   "strat_cmh_tomoscow",
+   "ger_hgr_center"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "de.pz3",
+  "side": "DE",
+  "echelon": "division",
+  "type": "armor",
+  "parent": "de.pz24_korps",
+  "name": {
+   "zh": "第 3 装甲师",
+   "orig": "3. Panzer-Division",
+   "short": "3.Pz"
+  },
+  "commander": {
+   "zh": "瓦尔特·莫德尔",
+   "orig": "Walter Model"
+  },
+  "model": "pz3",
+  "track": [
+   {
+    "at": "1941-09-30T00:00",
+    "pos": [
+     34.3,
+     52.4
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-01T00:00",
+    "pos": [
+     34.9,
+     53.1
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-03T00:00",
+    "pos": [
+     36.05,
+     52.95
+    ],
+    "status": "engaged",
+    "note": "奥廖尔"
+   },
+   {
+    "at": "1941-10-06T00:00",
+    "pos": [
+     36.5,
+     53.25
+    ],
+    "status": "engaged",
+    "note": "姆岑斯克"
+   },
+   {
+    "at": "1941-10-12T00:00",
+    "pos": [
+     36.55,
+     53.3
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-18T00:00",
+    "pos": [
+     36.6,
+     53.6
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-24T00:00",
+    "pos": [
+     36.9,
+     53.9
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-29T00:00",
+    "pos": [
+     37.3,
+     54.1
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-10T00:00",
+    "pos": [
+     37.35,
+     54.05
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-11-18T00:00",
+    "pos": [
+     37.8,
+     54.0
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-25T00:00",
+    "pos": [
+     38.1,
+     54.6
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-05T00:00",
+    "pos": [
+     38.0,
+     54.5
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-12T00:00",
+    "pos": [
+     37.6,
+     54.3
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1941-12-20T00:00",
+    "pos": [
+     37.2,
+     54.0
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1942-01-31T00:00",
+    "pos": [
+     36.6,
+     53.6
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "随第 24 装甲军经奥廖尔、姆岑斯克向图拉方向东进，11 月在图拉以北作战，12 月随集团军西撤。",
+  "sources": [
+   "ger_pzgr2",
+   "strat_cmh_tomoscow",
+   "ger_hgr_center"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "de.pz4",
+  "side": "DE",
+  "echelon": "division",
+  "type": "armor",
+  "parent": "de.pz24_korps",
+  "name": {
+   "zh": "第 4 装甲师",
+   "orig": "4. Panzer-Division",
+   "short": "4.Pz"
+  },
+  "commander": {
+   "zh": "维利巴尔德·冯·朗格曼",
+   "orig": "Willibald von Langermann und Erlencamp"
+  },
+  "model": "pz3",
+  "track": [
+   {
+    "at": "1941-09-30T00:00",
+    "pos": [
+     34.3,
+     52.4
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-01T00:00",
+    "pos": [
+     34.9,
+     53.1
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-03T00:00",
+    "pos": [
+     36.05,
+     52.95
+    ],
+    "status": "engaged",
+    "note": "奥廖尔"
+   },
+   {
+    "at": "1941-10-06T00:00",
+    "pos": [
+     36.5,
+     53.25
+    ],
+    "status": "engaged",
+    "note": "姆岑斯克"
+   },
+   {
+    "at": "1941-10-12T00:00",
+    "pos": [
+     36.55,
+     53.3
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-18T00:00",
+    "pos": [
+     36.6,
+     53.6
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-24T00:00",
+    "pos": [
+     36.9,
+     53.9
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-29T00:00",
+    "pos": [
+     37.3,
+     54.1
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-10T00:00",
+    "pos": [
+     37.35,
+     54.05
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-11-18T00:00",
+    "pos": [
+     37.8,
+     54.0
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-25T00:00",
+    "pos": [
+     38.1,
+     54.6
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-05T00:00",
+    "pos": [
+     38.0,
+     54.5
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-12T00:00",
+    "pos": [
+     37.6,
+     54.3
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1941-12-20T00:00",
+    "pos": [
+     37.2,
+     54.0
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1942-01-31T00:00",
+    "pos": [
+     36.6,
+     53.6
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "10 月 3 日攻占奥廖尔，10 月 6 日在姆岑斯克遭第 4 坦克旅伏击损失惨重，至 10 月 12 日才占领该城，此后仅剩约 38 辆坦克可用。",
+  "sources": [
+   "ger_pzgr2",
+   "strat_cmh_tomoscow",
+   "ger_hgr_center"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "de.pz17",
+  "side": "DE",
+  "echelon": "division",
+  "type": "armor",
+  "parent": "de.pz47_korps",
+  "name": {
+   "zh": "第 17 装甲师",
+   "orig": "17. Panzer-Division",
+   "short": "17.Pz"
+  },
+  "commander": {
+   "zh": "汉斯-于尔根·冯·阿尼姆",
+   "orig": "Hans-Jürgen von Arnim"
+  },
+  "model": "pz3",
+  "track": [
+   {
+    "at": "1941-09-30T00:00",
+    "pos": [
+     34.1,
+     52.3
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-01T12:00",
+    "pos": [
+     34.6,
+     52.9
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-03T00:00",
+    "pos": [
+     35.4,
+     53.1
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-06T00:00",
+    "pos": [
+     34.42,
+     53.3
+    ],
+    "status": "engaged",
+    "note": "布良斯克"
+   },
+   {
+    "at": "1941-10-12T00:00",
+    "pos": [
+     35.6,
+     53.55
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-20T00:00",
+    "pos": [
+     36.3,
+     53.75
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-29T00:00",
+    "pos": [
+     37.4,
+     54.1
+    ],
+    "status": "engaged",
+    "note": "图拉城下"
+   },
+   {
+    "at": "1941-11-10T00:00",
+    "pos": [
+     37.55,
+     54.1
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-11-18T00:00",
+    "pos": [
+     37.95,
+     54.05
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-22T00:00",
+    "pos": [
+     38.1,
+     54.45
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-25T00:00",
+    "pos": [
+     38.16,
+     54.83
+    ],
+    "status": "engaged",
+    "note": "突至卡希拉，距莫斯科约 65 公里"
+   },
+   {
+    "at": "1941-12-04T00:00",
+    "pos": [
+     38.1,
+     54.32
+    ],
+    "status": "engaged",
+    "note": "被逐回莫尔德韦斯"
+   },
+   {
+    "at": "1941-12-09T00:00",
+    "pos": [
+     37.7,
+     54.2
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1941-12-20T00:00",
+    "pos": [
+     37.1,
+     53.85
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1942-01-31T12:00",
+    "pos": [
+     36.5,
+     53.55
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "10 月 6 日参加攻占布良斯克，11 月 25 日突至卡希拉，是莫斯科南面最远的德军装甲矛头，随后被苏军骑兵与坦克击退。",
+  "sources": [
+   "ger_pzgr2",
+   "strat_cmh_tomoscow",
+   "ger_hgr_center"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "de.pz18",
+  "side": "DE",
+  "echelon": "division",
+  "type": "armor",
+  "parent": "de.pz47_korps",
+  "name": {
+   "zh": "第 18 装甲师",
+   "orig": "18. Panzer-Division",
+   "short": "18.Pz"
+  },
+  "commander": {
+   "zh": "瓦尔特·内林",
+   "orig": "Walther Nehring"
+  },
+  "model": "pz3",
+  "track": [
+   {
+    "at": "1941-09-30T00:00",
+    "pos": [
+     34.2,
+     52.6
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-01T00:00",
+    "pos": [
+     34.6,
+     52.85
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-03T00:00",
+    "pos": [
+     35.0,
+     53.1
+    ],
+    "status": "engaged",
+    "note": "卡拉切夫"
+   },
+   {
+    "at": "1941-10-06T00:00",
+    "pos": [
+     34.4,
+     53.3
+    ],
+    "status": "engaged",
+    "note": "布良斯克"
+   },
+   {
+    "at": "1941-10-12T00:00",
+    "pos": [
+     34.9,
+     53.5
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-20T00:00",
+    "pos": [
+     35.6,
+     53.6
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-01T00:00",
+    "pos": [
+     36.3,
+     53.7
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-11-18T00:00",
+    "pos": [
+     36.9,
+     53.7
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-05T00:00",
+    "pos": [
+     37.3,
+     53.6
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-12T00:00",
+    "pos": [
+     36.9,
+     53.5
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1942-01-31T00:00",
+    "pos": [
+     36.4,
+     53.4
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "随第 47 装甲军参加布良斯克合围，此后在图拉—卡希拉方向作战，12 月随第 2 装甲集团军西撤。",
+  "sources": [
+   "ger_pzgr2",
+   "strat_cmh_tomoscow",
+   "ger_hgr_center"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "de.pz9",
+  "side": "DE",
+  "echelon": "division",
+  "type": "armor",
+  "parent": "de.pz48_korps",
+  "name": {
+   "zh": "第 9 装甲师",
+   "orig": "9. Panzer-Division",
+   "short": "9.Pz"
+  },
+  "commander": {
+   "zh": "阿尔弗雷德·里特尔·冯·胡比茨基",
+   "orig": "Alfred Ritter von Hubicki"
+  },
+  "model": "pz3",
+  "track": [
+   {
+    "at": "1941-09-30T00:00",
+    "pos": [
+     34.0,
+     52.35
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-01T00:00",
+    "pos": [
+     34.4,
+     52.5
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-03T00:00",
+    "pos": [
+     34.8,
+     52.8
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-06T00:00",
+    "pos": [
+     35.2,
+     53.0
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-12T00:00",
+    "pos": [
+     35.8,
+     53.1
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-20T00:00",
+    "pos": [
+     36.2,
+     53.2
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-01T00:00",
+    "pos": [
+     36.6,
+     53.3
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-11-18T00:00",
+    "pos": [
+     37.1,
+     53.5
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-25T00:00",
+    "pos": [
+     37.6,
+     53.6
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-05T00:00",
+    "pos": [
+     37.6,
+     53.5
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-12T00:00",
+    "pos": [
+     37.2,
+     53.4
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1942-01-31T00:00",
+    "pos": [
+     36.7,
+     53.3
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "10 月 1 日突破苏军第 13 集团军左翼，此后在图拉以东方向作战，12 月撤退。",
+  "sources": [
+   "ger_pzgr2",
+   "strat_cmh_tomoscow",
+   "ger_hgr_center"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "de.pz19",
+  "side": "DE",
+  "echelon": "division",
+  "type": "armor",
+  "parent": "de.hgr_center",
+  "name": {
+   "zh": "第 19 装甲师",
+   "orig": "19. Panzer-Division",
+   "short": "19.Pz"
+  },
+  "commander": {
+   "zh": "奥托·冯·克诺贝斯多夫",
+   "orig": "Otto von Knobelsdorff"
+  },
+  "model": "pz3",
+  "track": [
+   {
+    "at": "1941-10-02T00:00",
+    "pos": [
+     34.0,
+     55.0
+    ],
+    "status": "reserve"
+   },
+   {
+    "at": "1941-10-20T00:00",
+    "pos": [
+     35.0,
+     55.3
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-11-01T00:00",
+    "pos": [
+     35.8,
+     55.6
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-01T00:00",
+    "pos": [
+     36.2,
+     55.7
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-20T00:00",
+    "pos": [
+     35.8,
+     55.6
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1942-01-31T12:00",
+    "pos": [
+     35.4,
+     55.5
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "集团军群预备队，11 月起投入莫斯科以北方向，12 月掩护撤退。",
+  "sources": [
+   "ger_hgr_center",
+   "strat_cmh_tomoscow",
+   "ger_hgr_center"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "de.id36mot",
+  "side": "DE",
+  "echelon": "division",
+  "type": "motorized",
+  "parent": "de.pz41_korps",
+  "name": {
+   "zh": "第 36 摩托化步兵师",
+   "orig": "36. Infanterie-Division (mot.)",
+   "short": "36.ID(m)"
+  },
+  "commander": {
+   "zh": "奥托-恩斯特·奥滕巴赫",
+   "orig": "Otto-Ernst Ottenbacher"
+  },
+  "model": "inf_de",
+  "track": [
+   {
+    "at": "1941-09-30T00:00",
+    "pos": [
+     32.5,
+     55.45
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-03T00:00",
+    "pos": [
+     33.2,
+     55.5
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-07T00:00",
+    "pos": [
+     33.9,
+     55.5
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-10T00:00",
+    "pos": [
+     34.7,
+     55.85
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-14T00:00",
+    "pos": [
+     35.8,
+     56.7
+    ],
+    "status": "engaged",
+    "note": "第 1 装甲师突入加里宁"
+   },
+   {
+    "at": "1941-10-20T00:00",
+    "pos": [
+     35.95,
+     56.85
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-10T00:00",
+    "pos": [
+     36.3,
+     56.45
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-11-16T00:00",
+    "pos": [
+     36.4,
+     56.4
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-23T00:00",
+    "pos": [
+     36.65,
+     56.36
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-27T00:00",
+    "pos": [
+     37.1,
+     56.33
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-03T00:00",
+    "pos": [
+     37.3,
+     56.28
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-06T00:00",
+    "pos": [
+     37.1,
+     56.28
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1941-12-12T00:00",
+    "pos": [
+     36.8,
+     56.42
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1941-12-16T00:00",
+    "pos": [
+     36.6,
+     56.4
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1941-12-25T00:00",
+    "pos": [
+     36.2,
+     56.2
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1942-01-10T00:00",
+    "pos": [
+     35.9,
+     56.1
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1942-01-31T00:00",
+    "pos": [
+     35.7,
+     56.05
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "随第 41 装甲军行动，参加加里宁方向的突击与防御。",
+  "sources": [
+   "ger_pzgr3",
+   "strat_cmh_tomoscow",
+   "ger_hgr_center"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "de.id14mot",
+  "side": "DE",
+  "echelon": "division",
+  "type": "motorized",
+  "parent": "de.pz56_korps",
+  "name": {
+   "zh": "第 14 摩托化步兵师",
+   "orig": "14. Infanterie-Division (mot.)",
+   "short": "14.ID(m)"
+  },
+  "commander": {
+   "zh": "海因里希·沃施",
+   "orig": "Heinrich Wosch"
+  },
+  "model": "inf_de",
+  "track": [
+   {
+    "at": "1941-09-30T00:00",
+    "pos": [
+     32.9,
+     55.15
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-04T00:00",
+    "pos": [
+     33.6,
+     55.15
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-08T00:00",
+    "pos": [
+     34.2,
+     55.2
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-15T00:00",
+    "pos": [
+     34.9,
+     55.5
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-01T00:00",
+    "pos": [
+     35.7,
+     56.0
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-11-15T00:00",
+    "pos": [
+     36.1,
+     56.2
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-20T00:00",
+    "pos": [
+     36.4,
+     56.28
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-23T00:00",
+    "pos": [
+     36.7,
+     56.3
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-27T00:00",
+    "pos": [
+     37.2,
+     56.24
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-28T00:00",
+    "pos": [
+     37.45,
+     56.22
+    ],
+    "status": "engaged",
+    "note": "第 7 装甲师在亚赫罗马渡运河"
+   },
+   {
+    "at": "1941-12-05T00:00",
+    "pos": [
+     37.3,
+     56.2
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-08T00:00",
+    "pos": [
+     37.0,
+     56.3
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1941-12-15T00:00",
+    "pos": [
+     36.7,
+     56.3
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1941-12-25T00:00",
+    "pos": [
+     36.3,
+     56.2
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1942-01-31T00:00",
+    "pos": [
+     35.9,
+     56.1
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "随第 56 装甲军沿克林方向推进，11 月底在莫斯科运河一线作战。",
+  "sources": [
+   "ger_pzgr3",
+   "strat_cmh_tomoscow",
+   "ger_hgr_center"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "de.id3mot",
+  "side": "DE",
+  "echelon": "division",
+  "type": "motorized",
+  "parent": "de.pz57_korps",
+  "name": {
+   "zh": "第 3 摩托化步兵师",
+   "orig": "3. Infanterie-Division (mot.)",
+   "short": "3.ID(m)"
+  },
+  "commander": {
+   "zh": "库尔特·雅恩",
+   "orig": "Curt Jahn"
+  },
+  "model": "inf_de",
+  "track": [
+   {
+    "at": "1941-09-30T00:00",
+    "pos": [
+     33.8,
+     54.9
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-03T00:00",
+    "pos": [
+     34.6,
+     54.9
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-06T00:00",
+    "pos": [
+     35.2,
+     55.0
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-10T00:00",
+    "pos": [
+     35.6,
+     55.2
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-16T00:00",
+    "pos": [
+     35.85,
+     55.45
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-20T00:00",
+    "pos": [
+     35.95,
+     55.5
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-27T00:00",
+    "pos": [
+     35.98,
+     56.0
+    ],
+    "status": "engaged",
+    "note": "沃洛科拉姆斯克失守"
+   },
+   {
+    "at": "1941-11-10T00:00",
+    "pos": [
+     36.2,
+     56.05
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-11-16T00:00",
+    "pos": [
+     36.4,
+     56.1
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-23T00:00",
+    "pos": [
+     36.7,
+     56.2
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-28T00:00",
+    "pos": [
+     36.9,
+     56.1
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-05T00:00",
+    "pos": [
+     36.9,
+     56.05
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-10T00:00",
+    "pos": [
+     36.6,
+     56.05
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1941-12-20T00:00",
+    "pos": [
+     36.3,
+     56.0
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1942-01-31T00:00",
+    "pos": [
+     36.0,
+     55.95
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "随第 57 装甲军经尤赫诺夫向沃洛科拉姆斯克推进。",
+  "sources": [
+   "ger_pzgr4",
+   "strat_cmh_tomoscow",
+   "ger_hgr_center"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "de.id10mot",
+  "side": "DE",
+  "echelon": "division",
+  "type": "motorized",
+  "parent": "de.pz24_korps",
+  "name": {
+   "zh": "第 10 摩托化步兵师",
+   "orig": "10. Infanterie-Division (mot.)",
+   "short": "10.ID(m)"
+  },
+  "commander": {
+   "zh": "弗里德里希-威廉·冯·洛佩尔",
+   "orig": "Friedrich-Wilhelm von Loeper"
+  },
+  "model": "inf_de",
+  "track": [
+   {
+    "at": "1941-09-30T00:00",
+    "pos": [
+     34.3,
+     52.4
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-01T00:00",
+    "pos": [
+     34.9,
+     53.1
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-03T00:00",
+    "pos": [
+     36.05,
+     52.95
+    ],
+    "status": "engaged",
+    "note": "奥廖尔"
+   },
+   {
+    "at": "1941-10-06T00:00",
+    "pos": [
+     36.5,
+     53.25
+    ],
+    "status": "engaged",
+    "note": "姆岑斯克"
+   },
+   {
+    "at": "1941-10-12T00:00",
+    "pos": [
+     36.55,
+     53.3
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-18T00:00",
+    "pos": [
+     36.6,
+     53.6
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-24T00:00",
+    "pos": [
+     36.9,
+     53.9
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-29T00:00",
+    "pos": [
+     37.3,
+     54.1
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-10T00:00",
+    "pos": [
+     37.35,
+     54.05
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-11-18T00:00",
+    "pos": [
+     37.8,
+     54.0
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-25T00:00",
+    "pos": [
+     38.1,
+     54.6
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-05T00:00",
+    "pos": [
+     38.0,
+     54.5
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-12T00:00",
+    "pos": [
+     37.6,
+     54.3
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1941-12-20T00:00",
+    "pos": [
+     37.2,
+     54.0
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1942-01-31T00:00",
+    "pos": [
+     36.6,
+     53.6
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "随第 24 装甲军经奥廖尔东进，在姆岑斯克—图拉方向作战。",
+  "sources": [
+   "ger_pzgr2",
+   "strat_cmh_tomoscow",
+   "ger_hgr_center"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "de.id16mot",
+  "side": "DE",
+  "echelon": "division",
+  "type": "motorized",
+  "parent": "de.pz48_korps",
+  "name": {
+   "zh": "第 16 摩托化步兵师",
+   "orig": "16. Infanterie-Division (mot.)",
+   "short": "16.ID(m)"
+  },
+  "commander": {
+   "zh": "约翰内斯·施特赖希",
+   "orig": "Johannes Streich"
+  },
+  "model": "inf_de",
+  "track": [
+   {
+    "at": "1941-09-30T00:00",
+    "pos": [
+     34.0,
+     52.35
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-01T00:00",
+    "pos": [
+     34.4,
+     52.5
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-03T00:00",
+    "pos": [
+     34.8,
+     52.8
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-06T00:00",
+    "pos": [
+     35.2,
+     53.0
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-12T00:00",
+    "pos": [
+     35.8,
+     53.1
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-20T00:00",
+    "pos": [
+     36.2,
+     53.2
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-01T00:00",
+    "pos": [
+     36.6,
+     53.3
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-11-18T00:00",
+    "pos": [
+     37.1,
+     53.5
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-25T00:00",
+    "pos": [
+     37.6,
+     53.6
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-05T00:00",
+    "pos": [
+     37.6,
+     53.5
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-12T00:00",
+    "pos": [
+     37.2,
+     53.4
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1942-01-31T00:00",
+    "pos": [
+     36.7,
+     53.3
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "随第 48 装甲军参加布良斯克合围，此后在图拉方向作战。",
+  "sources": [
+   "ger_pzgr2",
+   "strat_cmh_tomoscow",
+   "ger_hgr_center"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "de.id25mot",
+  "side": "DE",
+  "echelon": "division",
+  "type": "motorized",
+  "parent": "de.pz48_korps",
+  "name": {
+   "zh": "第 25 摩托化步兵师",
+   "orig": "25. Infanterie-Division (mot.)",
+   "short": "25.ID(m)"
+  },
+  "commander": {
+   "zh": "埃里希·克勒斯纳",
+   "orig": "Erich Clößner"
+  },
+  "model": "inf_de",
+  "track": [
+   {
+    "at": "1941-09-30T00:00",
+    "pos": [
+     34.0,
+     52.35
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-01T00:00",
+    "pos": [
+     34.4,
+     52.5
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-03T00:00",
+    "pos": [
+     34.8,
+     52.8
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-06T00:00",
+    "pos": [
+     35.2,
+     53.0
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-12T00:00",
+    "pos": [
+     35.8,
+     53.1
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-20T00:00",
+    "pos": [
+     36.2,
+     53.2
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-01T00:00",
+    "pos": [
+     36.6,
+     53.3
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-11-18T00:00",
+    "pos": [
+     37.1,
+     53.5
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-25T00:00",
+    "pos": [
+     37.6,
+     53.6
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-05T00:00",
+    "pos": [
+     37.6,
+     53.5
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-12T00:00",
+    "pos": [
+     37.2,
+     53.4
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1942-01-31T00:00",
+    "pos": [
+     36.7,
+     53.3
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "随第 48 装甲军东进，11 月在图拉—卡希拉方向作战。",
+  "sources": [
+   "ger_pzgr2",
+   "strat_cmh_tomoscow",
+   "ger_hgr_center"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "de.id29mot",
+  "side": "DE",
+  "echelon": "division",
+  "type": "motorized",
+  "parent": "de.pz47_korps",
+  "name": {
+   "zh": "第 29 摩托化步兵师",
+   "orig": "29. Infanterie-Division (mot.)",
+   "short": "29.ID(m)"
+  },
+  "commander": {
+   "zh": "马克斯·弗雷梅雷",
+   "orig": "Max Fremerey"
+  },
+  "model": "inf_de",
+  "track": [
+   {
+    "at": "1941-09-30T00:00",
+    "pos": [
+     34.2,
+     52.6
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-01T00:00",
+    "pos": [
+     34.6,
+     52.85
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-03T00:00",
+    "pos": [
+     35.0,
+     53.1
+    ],
+    "status": "engaged",
+    "note": "卡拉切夫"
+   },
+   {
+    "at": "1941-10-06T00:00",
+    "pos": [
+     34.4,
+     53.3
+    ],
+    "status": "engaged",
+    "note": "布良斯克"
+   },
+   {
+    "at": "1941-10-12T00:00",
+    "pos": [
+     34.9,
+     53.5
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-20T00:00",
+    "pos": [
+     35.6,
+     53.6
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-01T00:00",
+    "pos": [
+     36.3,
+     53.7
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-11-18T00:00",
+    "pos": [
+     36.9,
+     53.7
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-05T00:00",
+    "pos": [
+     37.3,
+     53.6
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-12T00:00",
+    "pos": [
+     36.9,
+     53.5
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1942-01-31T00:00",
+    "pos": [
+     36.4,
+     53.4
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "随第 47 装甲军参加布良斯克合围与图拉方向进攻。",
+  "sources": [
+   "ger_pzgr2",
+   "strat_cmh_tomoscow",
+   "ger_hgr_center"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "de.ss_reich",
+  "side": "DE",
+  "echelon": "division",
+  "type": "motorized",
+  "parent": "de.pz57_korps",
+  "name": {
+   "zh": "党卫军「帝国」师",
+   "orig": "SS-Division Das Reich (mot.)",
+   "short": "SS-R"
+  },
+  "commander": {
+   "zh": "保罗·豪塞尔",
+   "orig": "Paul Hausser"
+  },
+  "model": "inf_de",
+  "track": [
+   {
+    "at": "1941-09-30T00:00",
+    "pos": [
+     33.6,
+     54.55
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-04T00:00",
+    "pos": [
+     34.6,
+     54.7
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-09T00:00",
+    "pos": [
+     34.95,
+     55.0
+    ],
+    "status": "engaged",
+    "note": "格扎茨克外围"
+   },
+   {
+    "at": "1941-10-14T00:00",
+    "pos": [
+     35.45,
+     55.25
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-20T00:00",
+    "pos": [
+     35.85,
+     55.45
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-27T00:00",
+    "pos": [
+     35.97,
+     56.02
+    ],
+    "status": "engaged",
+    "note": "沃洛科拉姆斯克"
+   },
+   {
+    "at": "1941-11-16T00:00",
+    "pos": [
+     36.3,
+     56.0
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-25T00:00",
+    "pos": [
+     36.65,
+     56.0
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-05T00:00",
+    "pos": [
+     36.72,
+     55.98
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-15T00:00",
+    "pos": [
+     36.35,
+     55.9
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1942-01-31T12:00",
+    "pos": [
+     36.0,
+     55.85
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "党卫军摩托化师，随第 57 装甲军向沃洛科拉姆斯克、伊斯特拉方向进攻。",
+  "sources": [
+   "ger_hgr_center",
+   "strat_cmh_tomoscow",
+   "ger_bock_diary"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "de.kd1",
+  "side": "DE",
+  "echelon": "division",
+  "type": "cavalry",
+  "parent": "de.hk35",
+  "name": {
+   "zh": "第 1 骑兵师",
+   "orig": "1. Kavallerie-Division",
+   "short": "1.KD"
+  },
+  "commander": {
+   "zh": "库尔特·费尔特",
+   "orig": "Kurt Feldt"
+  },
+  "model": "inf_de",
+  "track": [
+   {
+    "at": "1941-09-30T00:00",
+    "pos": [
+     35.2,
+     52.6
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-05T00:00",
+    "pos": [
+     35.6,
+     52.9
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-12T00:00",
+    "pos": [
+     36.0,
+     53.1
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-25T00:00",
+    "pos": [
+     36.4,
+     53.3
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-10T00:00",
+    "pos": [
+     36.9,
+     53.4
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-11-25T00:00",
+    "pos": [
+     37.6,
+     53.4
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-05T00:00",
+    "pos": [
+     37.8,
+     53.3
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-12T00:00",
+    "pos": [
+     37.4,
+     53.2
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1942-01-31T00:00",
+    "pos": [
+     36.9,
+     53.15
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "德军在东线唯一的骑兵师，随第 35 高级司令部掩护第 2 装甲集团军南翼。",
+  "sources": [
+   "ger_hgr_center",
+   "strat_cmh_tomoscow",
+   "ger_bock_diary"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ }
+]

@@ -1,0 +1,3955 @@
+[
+ {
+  "id": "de.hgr_center",
+  "side": "DE",
+  "echelon": "armygroup",
+  "type": "hq",
+  "parent": null,
+  "name": {
+   "zh": "中央集团军群",
+   "orig": "Heeresgruppe Mitte",
+   "short": "HGr Mitte"
+  },
+  "commander": {
+   "zh": "博克（12 月 19 日由克鲁格接任）",
+   "orig": "Fedor von Bock / Günther von Kluge"
+  },
+  "track": [
+   {
+    "at": "1941-09-30T00:00",
+    "pos": [
+     34.0,
+     54.6
+    ],
+    "status": "active",
+    "note": "博克元帅指挥所，随攻势东移"
+   },
+   {
+    "at": "1941-10-10T00:00",
+    "pos": [
+     34.6,
+     54.9
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-11-01T00:00",
+    "pos": [
+     35.4,
+     55.2
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-12-05T00:00",
+    "pos": [
+     35.6,
+     55.2
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-12-19T00:00",
+    "pos": [
+     35.2,
+     55.1
+    ],
+    "status": "active",
+    "note": "博克去职，克鲁格接任"
+   },
+   {
+    "at": "1942-01-31T00:00",
+    "pos": [
+     34.6,
+     55.0
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "东线三个集团军群中兵力最强者。1941 年 7—8 月第 33、第 34 号指令把它的装甲部队抽给北方与南方两个集团军群（基辅、列宁格勒方向），是台风行动推迟约两个月的直接原因；9 月底第 4 装甲集群自北方转调归建。作战代号 9 月 19 日下达，博克 9 月 26 日以第 1620/41 号作战令部署。台风行动时下辖第 9、第 4、第 2 集团军与第 2、第 3、第 4 装甲集群，另有第 2 航空队支援；10 月 2 日主攻，10 月上中旬在维亚济马与布良斯克两度合围，11 月再攻，12 月初在莫斯科城下停顿。博克 12 月 19 日去职，克鲁格继任。",
+  "sources": [
+   "ger_hgr_center",
+   "strat_cmh_tomoscow",
+   "stat_german_10_12"
+  ],
+  "confidence": "high",
+  "schematic": true
+ },
+ {
+  "id": "de.9a",
+  "side": "DE",
+  "echelon": "army",
+  "type": "hq",
+  "parent": "de.hgr_center",
+  "name": {
+   "zh": "第 9 集团军",
+   "orig": "9. Armee",
+   "short": "9.A"
+  },
+  "commander": {
+   "zh": "施特劳斯（1942 年 1 月 14—16 日去职）",
+   "orig": "Adolf Strauß"
+  },
+  "track": [
+   {
+    "at": "1941-09-30T00:00",
+    "pos": [
+     33.3,
+     56.0
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-02T00:00",
+    "pos": [
+     33.7,
+     56.1
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-08T00:00",
+    "pos": [
+     34.3,
+     56.3
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-15T00:00",
+    "pos": [
+     35.2,
+     56.55
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-01T00:00",
+    "pos": [
+     35.35,
+     56.6
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-11-15T00:00",
+    "pos": [
+     35.55,
+     56.5
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-05T00:00",
+    "pos": [
+     35.4,
+     56.45
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-16T00:00",
+    "pos": [
+     35.25,
+     56.4
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1942-01-01T00:00",
+    "pos": [
+     34.9,
+     56.3
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1942-01-31T00:00",
+    "pos": [
+     34.6,
+     56.2
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "施特劳斯指挥（1942 年 1 月 14—16 日去职，由施密特胡贝尔接任），担负集团军群北翼，自瑟乔夫卡、勒热夫以北向东南推进；10 月中旬掩护第 3 装甲集群突向加里宁，此后在加里宁以北与伏尔加河一线苦守，12 月苏军反攻后被逐出加里宁。",
+  "sources": [
+   "ger_9a",
+   "ger_hgr_center",
+   "strat_cmh_tomoscow"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "de.4a",
+  "side": "DE",
+  "echelon": "army",
+  "type": "hq",
+  "parent": "de.hgr_center",
+  "name": {
+   "zh": "第 4 集团军",
+   "orig": "4. Armee",
+   "short": "4.A"
+  },
+  "commander": {
+   "zh": "克鲁格（12 月 19 日升任集团军群司令）",
+   "orig": "Günther von Kluge"
+  },
+  "track": [
+   {
+    "at": "1941-09-30T00:00",
+    "pos": [
+     33.9,
+     55.05
+    ],
+    "status": "active",
+    "note": "沿斯摩棱斯克—莫斯科公路两侧展开"
+   },
+   {
+    "at": "1941-10-02T00:00",
+    "pos": [
+     34.2,
+     55.1
+    ],
+    "status": "engaged",
+    "note": "台风行动主攻"
+   },
+   {
+    "at": "1941-10-07T00:00",
+    "pos": [
+     34.55,
+     55.22
+    ],
+    "status": "engaged",
+    "note": "维亚济马合围圈闭合"
+   },
+   {
+    "at": "1941-10-14T00:00",
+    "pos": [
+     34.99,
+     55.52
+    ],
+    "status": "engaged",
+    "note": "格扎茨克"
+   },
+   {
+    "at": "1941-10-18T00:00",
+    "pos": [
+     35.95,
+     55.51
+    ],
+    "status": "engaged",
+    "note": "莫扎伊斯克"
+   },
+   {
+    "at": "1941-10-25T00:00",
+    "pos": [
+     36.2,
+     55.45
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-15T00:00",
+    "pos": [
+     36.4,
+     55.4
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-30T00:00",
+    "pos": [
+     36.6,
+     55.35
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-05T00:00",
+    "pos": [
+     36.62,
+     55.32
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-15T00:00",
+    "pos": [
+     36.3,
+     55.25
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1941-12-25T00:00",
+    "pos": [
+     35.9,
+     55.3
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1942-01-15T00:00",
+    "pos": [
+     35.6,
+     55.3
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1942-01-31T12:00",
+    "pos": [
+     35.3,
+     55.2
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "克鲁格指挥，正面沿斯摩棱斯克—莫斯科公路推进，是维亚济马合围的南钳；此后沿莫扎伊斯克防线正面进攻，11 月逼近纳罗福明斯克与兹韦尼戈罗德一线，12 月初转入防御并西撤。",
+  "sources": [
+   "ger_4a",
+   "ger_hgr_center",
+   "strat_cmh_tomoscow"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "de.2a",
+  "side": "DE",
+  "echelon": "army",
+  "type": "hq",
+  "parent": "de.hgr_center",
+  "name": {
+   "zh": "第 2 集团军",
+   "orig": "2. Armee",
+   "short": "2.A"
+  },
+  "commander": {
+   "zh": "魏克斯",
+   "orig": "Maximilian von Weichs"
+  },
+  "track": [
+   {
+    "at": "1941-09-30T00:00",
+    "pos": [
+     34.4,
+     52.9
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-06T00:00",
+    "pos": [
+     34.5,
+     53.2
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-10T00:00",
+    "pos": [
+     35.0,
+     53.4
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-20T00:00",
+    "pos": [
+     36.0,
+     53.6
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-01T00:00",
+    "pos": [
+     37.0,
+     53.6
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-11-15T00:00",
+    "pos": [
+     37.5,
+     53.4
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-05T00:00",
+    "pos": [
+     38.0,
+     53.2
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-10T00:00",
+    "pos": [
+     37.6,
+     53.2
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1942-01-01T00:00",
+    "pos": [
+     36.8,
+     53.3
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1942-01-31T00:00",
+    "pos": [
+     36.4,
+     53.2
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "魏克斯指挥，负责集团军群南翼，掩护第 2 装甲集群的东进并清剿布良斯克包围圈；11 月向叶列茨、利夫内方向推进，12 月苏军西南方面军反攻时是受影响最重的集团军之一。",
+  "sources": [
+   "ger_hgr_center",
+   "strat_cmh_tomoscow",
+   "strat_wiki_en"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "de.pzgr3",
+  "side": "DE",
+  "echelon": "army",
+  "type": "armor",
+  "parent": "de.hgr_center",
+  "name": {
+   "zh": "第 3 装甲集群",
+   "orig": "Panzergruppe 3",
+   "short": "PzGr 3"
+  },
+  "commander": {
+   "zh": "霍特（10 月 8 日起赖因哈特）",
+   "orig": "Hermann Hoth / Georg-Hans Reinhardt"
+  },
+  "track": [
+   {
+    "at": "1941-09-30T00:00",
+    "pos": [
+     32.6,
+     55.45
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-02T00:00",
+    "pos": [
+     32.9,
+     55.5
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-05T00:00",
+    "pos": [
+     34.1,
+     55.6
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-07T00:00",
+    "pos": [
+     34.0,
+     55.35
+    ],
+    "status": "engaged",
+    "note": "与第 4 装甲集群在维亚济马以东会师"
+   },
+   {
+    "at": "1941-10-13T00:00",
+    "pos": [
+     35.85,
+     56.7
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-17T00:00",
+    "pos": [
+     35.9,
+     56.85
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-15T00:00",
+    "pos": [
+     36.3,
+     56.25
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-23T00:00",
+    "pos": [
+     36.7,
+     56.33
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-28T00:00",
+    "pos": [
+     37.45,
+     56.28
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-05T00:00",
+    "pos": [
+     37.2,
+     56.15
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-08T00:00",
+    "pos": [
+     36.9,
+     56.4
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1941-12-15T00:00",
+    "pos": [
+     36.75,
+     56.35
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1941-12-25T00:00",
+    "pos": [
+     35.9,
+     56.05
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1942-01-31T00:00",
+    "pos": [
+     35.3,
+     55.95
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "霍特指挥，10 月 8 日起由赖因哈特接任。作战上隶属第 9 集团军（集团军群保留对装甲集群的直接指挥权），自杜霍夫希纳两侧突破，10 月 7 日与第 4 装甲集群在维亚济马以东会师；10 月中旬以第 41 装甲军突入加里宁，11 月沿拉马河向克林、亚赫罗马推进，12 月撤回。",
+  "sources": [
+   "ger_pzgr3",
+   "ger_hgr_center"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "de.pzgr4",
+  "side": "DE",
+  "echelon": "army",
+  "type": "armor",
+  "parent": "de.hgr_center",
+  "name": {
+   "zh": "第 4 装甲集群",
+   "orig": "Panzergruppe 4",
+   "short": "PzGr 4"
+  },
+  "commander": {
+   "zh": "赫普纳（1942 年 1 月 8 日去职）",
+   "orig": "Erich Hoepner"
+  },
+  "track": [
+   {
+    "at": "1941-09-30T00:00",
+    "pos": [
+     33.35,
+     54.75
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-02T00:00",
+    "pos": [
+     33.7,
+     54.7
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-04T00:00",
+    "pos": [
+     34.6,
+     54.65
+    ],
+    "status": "engaged",
+    "note": "第 10 装甲师进抵基洛夫、莫萨利斯克"
+   },
+   {
+    "at": "1941-10-07T00:00",
+    "pos": [
+     34.9,
+     55.05
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-10T00:00",
+    "pos": [
+     35.2,
+     55.15
+    ],
+    "status": "engaged",
+    "note": "维亚济马合围圈闭合"
+   },
+   {
+    "at": "1941-10-14T00:00",
+    "pos": [
+     35.8,
+     55.45
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-18T00:00",
+    "pos": [
+     36.0,
+     55.5
+    ],
+    "status": "engaged",
+    "note": "莫扎伊斯克"
+   },
+   {
+    "at": "1941-10-24T00:00",
+    "pos": [
+     36.3,
+     55.6
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-27T00:00",
+    "pos": [
+     36.5,
+     55.75
+    ],
+    "status": "engaged",
+    "note": "沃洛科拉姆斯克"
+   },
+   {
+    "at": "1941-11-10T00:00",
+    "pos": [
+     36.6,
+     55.85
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-11-15T00:00",
+    "pos": [
+     36.7,
+     55.9
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-20T00:00",
+    "pos": [
+     36.85,
+     56.05
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-23T00:00",
+    "pos": [
+     36.95,
+     56.15
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-27T00:00",
+    "pos": [
+     36.9,
+     55.95
+    ],
+    "status": "engaged",
+    "note": "伊斯特拉"
+   },
+   {
+    "at": "1941-11-30T00:00",
+    "pos": [
+     37.2,
+     55.85
+    ],
+    "status": "engaged",
+    "note": "前锋抵克拉斯纳亚波利亚纳"
+   },
+   {
+    "at": "1941-12-05T00:00",
+    "pos": [
+     37.25,
+     55.84
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-10T00:00",
+    "pos": [
+     37.0,
+     55.9
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1941-12-15T00:00",
+    "pos": [
+     36.8,
+     56.0
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1941-12-22T00:00",
+    "pos": [
+     36.5,
+     55.95
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1942-01-05T00:00",
+    "pos": [
+     36.3,
+     55.9
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1942-01-31T00:00",
+    "pos": [
+     36.0,
+     55.85
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "赫普纳指挥，1942 年 1 月 8 日去职。1941 年 9 月最后一周自北方集团军群（此前一直在列宁格勒方向）转调中央集团军群，编入第 4 集团军作战序列，10 月 2 日自罗斯拉夫尔—莫斯科公路一线投入；第 10 装甲师 10 月 4 日进抵基洛夫与莫萨利斯克，随后北转闭合维亚济马合围圈。10 月下旬攻莫扎伊斯克防线，11 月沿伊斯特拉向莫斯科西北接近地进攻。",
+  "sources": [
+   "ger_pzgr4",
+   "ger_hgr_center"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "de.pzgr2",
+  "side": "DE",
+  "echelon": "army",
+  "type": "armor",
+  "parent": "de.hgr_center",
+  "name": {
+   "zh": "第 2 装甲集群／第 2 装甲集团军",
+   "orig": "Panzergruppe 2 / 2. Panzerarmee",
+   "short": "PzGr 2"
+  },
+  "commander": {
+   "zh": "古德里安（12 月 25 日去职）",
+   "orig": "Heinz Guderian"
+  },
+  "track": [
+   {
+    "at": "1941-09-30T00:00",
+    "pos": [
+     34.05,
+     52.2
+    ],
+    "status": "active",
+    "note": "古德里安集群自格卢霍夫以东出击"
+   },
+   {
+    "at": "1941-10-01T00:00",
+    "pos": [
+     34.6,
+     53.0
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-03T00:00",
+    "pos": [
+     36.05,
+     52.95
+    ],
+    "status": "engaged",
+    "note": "奥廖尔"
+   },
+   {
+    "at": "1941-10-06T00:00",
+    "pos": [
+     36.5,
+     53.25
+    ],
+    "status": "engaged",
+    "note": "姆岑斯克"
+   },
+   {
+    "at": "1941-10-12T00:00",
+    "pos": [
+     36.55,
+     53.27
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-20T00:00",
+    "pos": [
+     36.7,
+     53.7
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-29T00:00",
+    "pos": [
+     37.35,
+     54.1
+    ],
+    "status": "engaged",
+    "note": "图拉城下"
+   },
+   {
+    "at": "1941-11-10T00:00",
+    "pos": [
+     37.3,
+     54.05
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-11-18T00:00",
+    "pos": [
+     37.9,
+     54.0
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-22T00:00",
+    "pos": [
+     38.1,
+     54.4
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-25T00:00",
+    "pos": [
+     38.15,
+     54.8
+    ],
+    "status": "engaged",
+    "note": "第 17 装甲师突至卡希拉"
+   },
+   {
+    "at": "1941-11-30T00:00",
+    "pos": [
+     38.2,
+     54.7
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-05T00:00",
+    "pos": [
+     38.0,
+     54.5
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-08T00:00",
+    "pos": [
+     37.7,
+     54.3
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1941-12-12T00:00",
+    "pos": [
+     37.4,
+     54.1
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1941-12-20T00:00",
+    "pos": [
+     37.0,
+     53.8
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1942-01-05T00:00",
+    "pos": [
+     36.7,
+     53.6
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1942-01-31T00:00",
+    "pos": [
+     36.3,
+     53.5
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "古德里安指挥，10 月 5 日起改称第 2 装甲集团军。9 月 30 日最先发动，10 月 3 日取奥廖尔，10 月 6 日在姆岑斯克遭卡图科夫第 4 坦克旅伏击，此后沿图拉方向进攻，11 月底以第 17 装甲师突至卡希拉，12 月 25 日古德里安去职（12 月 16 日已获准离职，25 日正式卸任）。",
+  "sources": [
+   "ger_pzgr2",
+   "ger_guderian_panzerleader",
+   "ger_hgr_center"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "de.luftflotte2",
+  "side": "DE",
+  "echelon": "air_fleet",
+  "type": "air",
+  "parent": "de.hgr_center",
+  "name": {
+   "zh": "第 2 航空队",
+   "orig": "Luftflotte 2",
+   "short": "Lfl.2"
+  },
+  "commander": {
+   "zh": "凯塞林",
+   "orig": "Albert Kesselring"
+  },
+  "track": [
+   {
+    "at": "1941-09-30T00:00",
+    "pos": [
+     33.5,
+     54.6
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-15T00:00",
+    "pos": [
+     34.3,
+     54.8
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-11-01T00:00",
+    "pos": [
+     35.0,
+     55.0
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-12-05T00:00",
+    "pos": [
+     35.3,
+     55.1
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1942-01-31T00:00",
+    "pos": [
+     34.7,
+     55.0
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "凯塞林指挥。台风行动开始时可用飞机约 549 架；第 8 航空军（里希特霍芬）支援北路，第 2 航空军（勒尔策）支援南路，另配第 1 高炮军。冬季机场条件与备件短缺使出动率持续下降。",
+  "sources": [
+   "ger_la_8flieger",
+   "strat_cmh_tomoscow",
+   "strat_wiki_en"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "de.fliegerkorps8",
+  "side": "DE",
+  "echelon": "air_group",
+  "type": "air",
+  "parent": "de.luftflotte2",
+  "name": {
+   "zh": "第 8 航空军",
+   "orig": "VIII. Fliegerkorps",
+   "short": "VIII.Fl.K"
+  },
+  "track": [
+   {
+    "at": "1941-09-30T00:00",
+    "pos": [
+     33.3,
+     54.9
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-10T00:00",
+    "pos": [
+     34.4,
+     55.1
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-11-01T00:00",
+    "pos": [
+     35.4,
+     55.6
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-11-25T00:00",
+    "pos": [
+     36.2,
+     55.9
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-12-10T00:00",
+    "pos": [
+     35.8,
+     55.7
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1942-01-31T00:00",
+    "pos": [
+     35.3,
+     55.5
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "里希特霍芬指挥，支援第 3、第 4 装甲集群方向；装备 Ju 87 俯冲轰炸机与 Bf 109 战斗机，负责压制维亚济马、加里宁与克林方向的苏军部队与交通线。",
+  "sources": [
+   "ger_la_8flieger",
+   "strat_cmh_tomoscow"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "de.fliegerkorps2",
+  "side": "DE",
+  "echelon": "air_group",
+  "type": "air",
+  "parent": "de.luftflotte2",
+  "name": {
+   "zh": "第 2 航空军",
+   "orig": "II. Fliegerkorps",
+   "short": "II.Fl.K"
+  },
+  "track": [
+   {
+    "at": "1941-09-30T00:00",
+    "pos": [
+     33.6,
+     53.3
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-10T00:00",
+    "pos": [
+     34.3,
+     53.5
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-11-01T00:00",
+    "pos": [
+     35.4,
+     53.7
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-12-10T00:00",
+    "pos": [
+     35.0,
+     53.6
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1942-01-31T00:00",
+    "pos": [
+     34.6,
+     53.5
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "勒尔策指挥，支援第 2 装甲集团军与第 2 集团军方向，轰炸奥廖尔、姆岑斯克、图拉一线的苏军集结与铁路。",
+  "sources": [
+   "ger_la_8flieger",
+   "strat_cmh_tomoscow"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "de.flakkorps1",
+  "side": "DE",
+  "echelon": "corps",
+  "type": "artillery",
+  "parent": "de.luftflotte2",
+  "name": {
+   "zh": "第 1 高炮军",
+   "orig": "I. Flakkorps",
+   "short": "I.Flak"
+  },
+  "track": [
+   {
+    "at": "1941-09-30T00:00",
+    "pos": [
+     33.9,
+     54.4
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-11-01T00:00",
+    "pos": [
+     35.2,
+     55.2
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-12-10T00:00",
+    "pos": [
+     35.0,
+     55.1
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1942-01-31T00:00",
+    "pos": [
+     34.6,
+     55.0
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "冯·阿克斯泰尔姆指挥，下辖第 101、第 104 高炮团，随装甲前锋推进，兼作反坦克火力使用。",
+  "sources": [
+   "ger_la_8flieger",
+   "ger_winter_equipment"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "de.rueck_gebiet",
+  "side": "DE",
+  "echelon": "command",
+  "type": "hq",
+  "parent": "de.hgr_center",
+  "name": {
+   "zh": "中央集团军群后方地域司令部",
+   "orig": "Befehlshaber rückwärtiges Heeresgebiet Mitte",
+   "short": "Rück.Geb."
+  },
+  "track": [
+   {
+    "at": "1941-09-30T00:00",
+    "pos": [
+     33.5,
+     53.8
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-11-01T00:00",
+    "pos": [
+     34.2,
+     54.0
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-12-15T00:00",
+    "pos": [
+     33.9,
+     53.9
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1942-01-31T00:00",
+    "pos": [
+     33.6,
+     53.8
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "申肯多夫指挥，负责后方交通线、战俘与治安作战，下辖若干警备师与党卫军骑兵旅。",
+  "sources": [
+   "ger_hgr_center",
+   "strat_wiki_en"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "de.xxiii_corps",
+  "side": "DE",
+  "echelon": "corps",
+  "type": "infantry",
+  "parent": "de.9a",
+  "name": {
+   "zh": "第 23 军",
+   "orig": "XXIII. Armeekorps",
+   "short": "XXIII"
+  },
+  "model": "inf_de",
+  "track": [
+   {
+    "at": "1941-09-30T00:00",
+    "pos": [
+     33.8,
+     56.3
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-08T00:00",
+    "pos": [
+     34.2,
+     56.4
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-20T00:00",
+    "pos": [
+     34.7,
+     56.5
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-01T00:00",
+    "pos": [
+     35.0,
+     56.55
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-12-05T00:00",
+    "pos": [
+     35.1,
+     56.5
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-20T00:00",
+    "pos": [
+     34.8,
+     56.4
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1942-01-31T00:00",
+    "pos": [
+     34.5,
+     56.3
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "舒伯特指挥，第 9 集团军北翼，自霍尔姆-日尔科夫斯基以北向勒热夫方向推进。",
+  "sources": [
+   "ger_hgr_center",
+   "strat_cmh_tomoscow"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "de.viii_corps",
+  "side": "DE",
+  "echelon": "corps",
+  "type": "infantry",
+  "parent": "de.9a",
+  "name": {
+   "zh": "第 8 军",
+   "orig": "VIII. Armeekorps",
+   "short": "VIII"
+  },
+  "model": "inf_de",
+  "track": [
+   {
+    "at": "1941-09-30T00:00",
+    "pos": [
+     34.0,
+     55.95
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-08T00:00",
+    "pos": [
+     34.4,
+     56.05
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-20T00:00",
+    "pos": [
+     34.8,
+     56.15
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-10T00:00",
+    "pos": [
+     34.95,
+     56.2
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-12-05T00:00",
+    "pos": [
+     34.9,
+     56.15
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-20T00:00",
+    "pos": [
+     34.6,
+     56.1
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1942-01-31T00:00",
+    "pos": [
+     34.35,
+     56.15
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "海茨指挥，沿第 9 集团军正面中部向勒热夫以东推进，冬季据守勒热夫突出部。",
+  "sources": [
+   "ger_hgr_center",
+   "strat_cmh_tomoscow"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "de.xxvii_corps",
+  "side": "DE",
+  "echelon": "corps",
+  "type": "infantry",
+  "parent": "de.9a",
+  "name": {
+   "zh": "第 27 军",
+   "orig": "XXVII. Armeekorps",
+   "short": "XXVII"
+  },
+  "model": "inf_de",
+  "track": [
+   {
+    "at": "1941-09-30T00:00",
+    "pos": [
+     34.2,
+     55.7
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-08T00:00",
+    "pos": [
+     34.5,
+     55.85
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-15T00:00",
+    "pos": [
+     34.6,
+     56.0
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-01T00:00",
+    "pos": [
+     34.55,
+     56.1
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-12-05T00:00",
+    "pos": [
+     34.5,
+     56.1
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-20T00:00",
+    "pos": [
+     34.3,
+     56.15
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1942-01-31T00:00",
+    "pos": [
+     34.2,
+     56.15
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "韦格尔指挥，位于第 9 集团军南翼、第 3 装甲集群左侧，向勒热夫—祖布佐夫一线推进。",
+  "sources": [
+   "ger_hgr_center",
+   "strat_cmh_tomoscow"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "de.vi_corps",
+  "side": "DE",
+  "echelon": "corps",
+  "type": "infantry",
+  "parent": "de.pzgr3",
+  "name": {
+   "zh": "第 6 军",
+   "orig": "VI. Armeekorps",
+   "short": "VI"
+  },
+  "model": "inf_de",
+  "track": [
+   {
+    "at": "1941-09-30T00:00",
+    "pos": [
+     32.7,
+     55.6
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-03T00:00",
+    "pos": [
+     33.2,
+     55.65
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-07T00:00",
+    "pos": [
+     33.9,
+     55.6
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-15T00:00",
+    "pos": [
+     35.25,
+     56.2
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-20T00:00",
+    "pos": [
+     35.45,
+     56.35
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-15T00:00",
+    "pos": [
+     35.6,
+     56.45
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-05T00:00",
+    "pos": [
+     35.5,
+     56.4
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-16T00:00",
+    "pos": [
+     35.3,
+     56.35
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1942-01-31T00:00",
+    "pos": [
+     35.0,
+     56.3
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "弗尔斯特指挥，随第 3 装甲集群跟进，经斯塔里察向加里宁以北发展。",
+  "sources": [
+   "ger_hgr_center",
+   "strat_cmh_tomoscow"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "de.v_corps",
+  "side": "DE",
+  "echelon": "corps",
+  "type": "infantry",
+  "parent": "de.pzgr3",
+  "name": {
+   "zh": "第 5 军",
+   "orig": "V. Armeekorps",
+   "short": "V"
+  },
+  "model": "inf_de",
+  "track": [
+   {
+    "at": "1941-09-30T00:00",
+    "pos": [
+     32.9,
+     55.35
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-04T00:00",
+    "pos": [
+     33.6,
+     55.4
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-08T00:00",
+    "pos": [
+     34.2,
+     55.45
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-14T00:00",
+    "pos": [
+     34.8,
+     55.6
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-01T00:00",
+    "pos": [
+     35.2,
+     55.9
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-11-15T00:00",
+    "pos": [
+     35.5,
+     56.2
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-05T00:00",
+    "pos": [
+     35.4,
+     56.15
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-20T00:00",
+    "pos": [
+     35.1,
+     56.0
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1942-01-31T00:00",
+    "pos": [
+     34.8,
+     55.95
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "鲁奥夫指挥，在第 3 装甲集群编成内沿公路轴线跟进，参加维亚济马合围与加里宁方向作战。",
+  "sources": [
+   "ger_hgr_center",
+   "strat_cmh_tomoscow"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "de.pz41_korps",
+  "side": "DE",
+  "echelon": "corps",
+  "type": "motorized",
+  "parent": "de.pzgr3",
+  "name": {
+   "zh": "第 41 装甲军",
+   "orig": "XXXXI. Armeekorps (mot.)",
+   "short": "XXXXI"
+  },
+  "model": "pz3",
+  "track": [
+   {
+    "at": "1941-09-30T00:00",
+    "pos": [
+     32.5,
+     55.45
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-03T00:00",
+    "pos": [
+     33.2,
+     55.5
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-07T00:00",
+    "pos": [
+     33.9,
+     55.5
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-10T00:00",
+    "pos": [
+     34.7,
+     55.85
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-14T00:00",
+    "pos": [
+     35.8,
+     56.7
+    ],
+    "status": "engaged",
+    "note": "第 1 装甲师突入加里宁"
+   },
+   {
+    "at": "1941-10-20T00:00",
+    "pos": [
+     35.95,
+     56.85
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-10T00:00",
+    "pos": [
+     36.3,
+     56.45
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-11-16T00:00",
+    "pos": [
+     36.4,
+     56.4
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-23T00:00",
+    "pos": [
+     36.65,
+     56.36
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-27T00:00",
+    "pos": [
+     37.1,
+     56.33
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-03T00:00",
+    "pos": [
+     37.3,
+     56.28
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-06T00:00",
+    "pos": [
+     37.1,
+     56.28
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1941-12-12T00:00",
+    "pos": [
+     36.8,
+     56.42
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1941-12-16T00:00",
+    "pos": [
+     36.6,
+     56.4
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1941-12-25T00:00",
+    "pos": [
+     36.2,
+     56.2
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1942-01-10T00:00",
+    "pos": [
+     35.9,
+     56.1
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1942-01-31T00:00",
+    "pos": [
+     35.7,
+     56.05
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "赖因哈特指挥，10 月 13—14 日以第 1 装甲师突入加里宁，是德军在莫斯科方向最远的北翼突击；11 月转用于克林方向。",
+  "sources": [
+   "ger_hgr_center",
+   "strat_cmh_tomoscow"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "de.pz56_korps",
+  "side": "DE",
+  "echelon": "corps",
+  "type": "motorized",
+  "parent": "de.pzgr3",
+  "name": {
+   "zh": "第 56 装甲军",
+   "orig": "LVI. Armeekorps (mot.)",
+   "short": "LVI"
+  },
+  "model": "pz3",
+  "track": [
+   {
+    "at": "1941-09-30T00:00",
+    "pos": [
+     32.9,
+     55.15
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-04T00:00",
+    "pos": [
+     33.6,
+     55.15
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-08T00:00",
+    "pos": [
+     34.2,
+     55.2
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-15T00:00",
+    "pos": [
+     34.9,
+     55.5
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-01T00:00",
+    "pos": [
+     35.7,
+     56.0
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-11-15T00:00",
+    "pos": [
+     36.1,
+     56.2
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-20T00:00",
+    "pos": [
+     36.4,
+     56.28
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-23T00:00",
+    "pos": [
+     36.7,
+     56.3
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-27T00:00",
+    "pos": [
+     37.2,
+     56.24
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-28T00:00",
+    "pos": [
+     37.45,
+     56.22
+    ],
+    "status": "engaged",
+    "note": "第 7 装甲师在亚赫罗马渡运河"
+   },
+   {
+    "at": "1941-12-05T00:00",
+    "pos": [
+     37.3,
+     56.2
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-08T00:00",
+    "pos": [
+     37.0,
+     56.3
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1941-12-15T00:00",
+    "pos": [
+     36.7,
+     56.3
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1941-12-25T00:00",
+    "pos": [
+     36.3,
+     56.2
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1942-01-31T00:00",
+    "pos": [
+     35.9,
+     56.1
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "沙尔指挥，下辖第 6、第 7 装甲师；11 月 23 日参加攻占克林，11 月 27—28 日以第 7 装甲师在亚赫罗马强渡莫斯科运河。",
+  "sources": [
+   "ger_hgr_center",
+   "strat_cmh_tomoscow"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "de.ix_corps",
+  "side": "DE",
+  "echelon": "corps",
+  "type": "infantry",
+  "parent": "de.4a",
+  "name": {
+   "zh": "第 9 军",
+   "orig": "IX. Armeekorps",
+   "short": "IX"
+  },
+  "model": "inf_de",
+  "track": [
+   {
+    "at": "1941-09-30T00:00",
+    "pos": [
+     34.0,
+     55.05
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-05T00:00",
+    "pos": [
+     34.5,
+     55.1
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-10T00:00",
+    "pos": [
+     34.85,
+     55.15
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-20T00:00",
+    "pos": [
+     35.4,
+     55.5
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-27T00:00",
+    "pos": [
+     35.9,
+     55.55
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-10T00:00",
+    "pos": [
+     36.15,
+     55.55
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-11-20T00:00",
+    "pos": [
+     36.35,
+     55.5
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-05T00:00",
+    "pos": [
+     36.4,
+     55.45
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-15T00:00",
+    "pos": [
+     36.15,
+     55.35
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1942-01-05T00:00",
+    "pos": [
+     35.9,
+     55.3
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1942-01-31T00:00",
+    "pos": [
+     35.6,
+     55.25
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "盖尔指挥，第 4 集团军北翼，沿公路北侧向莫扎伊斯克方向推进。",
+  "sources": [
+   "ger_hgr_center",
+   "strat_cmh_tomoscow"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "de.xx_corps",
+  "side": "DE",
+  "echelon": "corps",
+  "type": "infantry",
+  "parent": "de.4a",
+  "name": {
+   "zh": "第 20 军",
+   "orig": "XX. Armeekorps",
+   "short": "XX"
+  },
+  "model": "inf_de",
+  "track": [
+   {
+    "at": "1941-09-30T00:00",
+    "pos": [
+     34.3,
+     54.8
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-05T00:00",
+    "pos": [
+     34.75,
+     54.85
+    ],
+    "status": "engaged",
+    "note": "尤赫诺夫方向"
+   },
+   {
+    "at": "1941-10-12T00:00",
+    "pos": [
+     35.05,
+     55.0
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-20T00:00",
+    "pos": [
+     35.6,
+     55.3
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-01T00:00",
+    "pos": [
+     35.95,
+     55.4
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-11-15T00:00",
+    "pos": [
+     36.15,
+     55.35
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-05T00:00",
+    "pos": [
+     36.2,
+     55.3
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-15T00:00",
+    "pos": [
+     35.95,
+     55.2
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1942-01-31T12:00",
+    "pos": [
+     35.5,
+     55.15
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "马特纳指挥，维亚济马合围圈东侧，此后沿莫斯科公路正面进攻，12 月初在纳罗福明斯克方向作战。",
+  "sources": [
+   "ger_hgr_center",
+   "strat_cmh_tomoscow"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "de.vii_corps",
+  "side": "DE",
+  "echelon": "corps",
+  "type": "infantry",
+  "parent": "de.4a",
+  "name": {
+   "zh": "第 7 军",
+   "orig": "VII. Armeekorps",
+   "short": "VII"
+  },
+  "model": "inf_de",
+  "track": [
+   {
+    "at": "1941-09-30T00:00",
+    "pos": [
+     34.5,
+     54.6
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-06T00:00",
+    "pos": [
+     34.9,
+     54.75
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-14T00:00",
+    "pos": [
+     35.3,
+     54.85
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-22T00:00",
+    "pos": [
+     35.9,
+     55.0
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-01T00:00",
+    "pos": [
+     36.2,
+     55.1
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-11-15T00:00",
+    "pos": [
+     36.4,
+     55.15
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-05T00:00",
+    "pos": [
+     36.4,
+     55.1
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-20T00:00",
+    "pos": [
+     36.1,
+     55.0
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1942-01-31T00:00",
+    "pos": [
+     35.8,
+     55.0
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "法尔姆巴赫指挥，第 4 集团军南翼，经梅登、博罗季诺向莫扎伊斯克以南推进。",
+  "sources": [
+   "ger_hgr_center",
+   "strat_cmh_tomoscow"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "de.xii_corps",
+  "side": "DE",
+  "echelon": "corps",
+  "type": "infantry",
+  "parent": "de.pzgr4",
+  "name": {
+   "zh": "第 12 军",
+   "orig": "XII. Armeekorps",
+   "short": "XII"
+  },
+  "model": "inf_de",
+  "track": [
+   {
+    "at": "1941-09-30T00:00",
+    "pos": [
+     34.2,
+     54.5
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-06T00:00",
+    "pos": [
+     34.7,
+     54.6
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-14T00:00",
+    "pos": [
+     35.2,
+     54.75
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-22T00:00",
+    "pos": [
+     35.7,
+     54.9
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-01T00:00",
+    "pos": [
+     36.0,
+     55.0
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-11-20T00:00",
+    "pos": [
+     36.2,
+     55.05
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-05T00:00",
+    "pos": [
+     36.2,
+     55.0
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-20T00:00",
+    "pos": [
+     35.9,
+     54.9
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1942-01-31T00:00",
+    "pos": [
+     35.6,
+     54.85
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "施罗特指挥，随第 4 装甲集群行动，参加维亚济马合围后在集团军群中段转入正面作战。",
+  "sources": [
+   "ger_hgr_center",
+   "strat_cmh_tomoscow"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "de.pz57_korps",
+  "side": "DE",
+  "echelon": "corps",
+  "type": "motorized",
+  "parent": "de.pzgr4",
+  "name": {
+   "zh": "第 57 装甲军",
+   "orig": "LVII. Armeekorps (mot.)",
+   "short": "LVII"
+  },
+  "model": "pz3",
+  "track": [
+   {
+    "at": "1941-09-30T00:00",
+    "pos": [
+     33.8,
+     54.9
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-03T00:00",
+    "pos": [
+     34.6,
+     54.9
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-06T00:00",
+    "pos": [
+     35.2,
+     55.0
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-10T00:00",
+    "pos": [
+     35.6,
+     55.2
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-16T00:00",
+    "pos": [
+     35.85,
+     55.45
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-20T00:00",
+    "pos": [
+     35.95,
+     55.5
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-27T00:00",
+    "pos": [
+     35.98,
+     56.0
+    ],
+    "status": "engaged",
+    "note": "沃洛科拉姆斯克失守"
+   },
+   {
+    "at": "1941-11-10T00:00",
+    "pos": [
+     36.2,
+     56.05
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-11-16T00:00",
+    "pos": [
+     36.4,
+     56.1
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-23T00:00",
+    "pos": [
+     36.7,
+     56.2
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-28T00:00",
+    "pos": [
+     36.9,
+     56.1
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-05T00:00",
+    "pos": [
+     36.9,
+     56.05
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-10T00:00",
+    "pos": [
+     36.6,
+     56.05
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1941-12-20T00:00",
+    "pos": [
+     36.3,
+     56.0
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1942-01-31T00:00",
+    "pos": [
+     36.0,
+     55.95
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "昆岑指挥，经尤赫诺夫向沃洛科拉姆斯克方向推进，是莫斯科西北方向的主要突击力量。",
+  "sources": [
+   "ger_hgr_center",
+   "strat_cmh_tomoscow"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "de.pz46_korps",
+  "side": "DE",
+  "echelon": "corps",
+  "type": "motorized",
+  "parent": "de.pzgr4",
+  "name": {
+   "zh": "第 46 装甲军",
+   "orig": "XXXXVI. Armeekorps (mot.)",
+   "short": "XXXXVI"
+  },
+  "model": "pz3",
+  "track": [
+   {
+    "at": "1941-09-30T00:00",
+    "pos": [
+     34.3,
+     54.35
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-04T00:00",
+    "pos": [
+     34.7,
+     54.4
+    ],
+    "status": "engaged",
+    "note": "斯帕斯杰缅斯克"
+   },
+   {
+    "at": "1941-10-08T00:00",
+    "pos": [
+     35.1,
+     54.6
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-12T00:00",
+    "pos": [
+     35.5,
+     54.9
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-18T00:00",
+    "pos": [
+     35.9,
+     55.2
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-25T00:00",
+    "pos": [
+     36.1,
+     55.5
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-01T00:00",
+    "pos": [
+     36.3,
+     55.6
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-11-15T00:00",
+    "pos": [
+     36.45,
+     55.6
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-25T00:00",
+    "pos": [
+     36.6,
+     55.7
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-01T00:00",
+    "pos": [
+     36.65,
+     55.72
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-06T00:00",
+    "pos": [
+     36.6,
+     55.7
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-15T00:00",
+    "pos": [
+     36.35,
+     55.6
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1942-01-31T00:00",
+    "pos": [
+     36.0,
+     55.5
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "菲廷霍夫指挥，10 月 4 日取斯帕斯杰缅斯克，随后北转构造维亚济马合围圈南缘。",
+  "sources": [
+   "ger_hgr_center",
+   "strat_cmh_tomoscow"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "de.pz40_korps",
+  "side": "DE",
+  "echelon": "corps",
+  "type": "motorized",
+  "parent": "de.pzgr4",
+  "name": {
+   "zh": "第 40 装甲军",
+   "orig": "XXXX. Armeekorps (mot.)",
+   "short": "XXXX"
+  },
+  "model": "pz3",
+  "track": [
+   {
+    "at": "1941-09-30T00:00",
+    "pos": [
+     33.9,
+     54.3
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-04T00:00",
+    "pos": [
+     34.3,
+     54.4
+    ],
+    "status": "engaged",
+    "note": "基洛夫、莫萨利斯克"
+   },
+   {
+    "at": "1941-10-07T00:00",
+    "pos": [
+     34.8,
+     54.6
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-12T00:00",
+    "pos": [
+     35.4,
+     54.85
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-18T00:00",
+    "pos": [
+     35.9,
+     55.05
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-25T00:00",
+    "pos": [
+     36.15,
+     55.25
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-01T00:00",
+    "pos": [
+     36.3,
+     55.35
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-11-20T00:00",
+    "pos": [
+     36.5,
+     55.45
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-05T00:00",
+    "pos": [
+     36.55,
+     55.45
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-15T00:00",
+    "pos": [
+     36.3,
+     55.35
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1942-01-31T00:00",
+    "pos": [
+     36.0,
+     55.3
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "施通默指挥，以第 10 装甲师于 10 月 4 日进抵基洛夫与莫萨利斯克，是合围圈东南最远的突击矛头。",
+  "sources": [
+   "ger_hgr_center",
+   "strat_cmh_tomoscow"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "de.xiii_corps",
+  "side": "DE",
+  "echelon": "corps",
+  "type": "infantry",
+  "parent": "de.2a",
+  "name": {
+   "zh": "第 13 军",
+   "orig": "XIII. Armeekorps",
+   "short": "XIII"
+  },
+  "model": "inf_de",
+  "track": [
+   {
+    "at": "1941-09-30T00:00",
+    "pos": [
+     34.4,
+     52.9
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-06T00:00",
+    "pos": [
+     34.5,
+     53.3
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-15T00:00",
+    "pos": [
+     35.1,
+     53.45
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-01T00:00",
+    "pos": [
+     36.3,
+     53.5
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-11-20T00:00",
+    "pos": [
+     37.2,
+     53.4
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-05T00:00",
+    "pos": [
+     37.9,
+     53.25
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-10T00:00",
+    "pos": [
+     37.5,
+     53.2
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1942-01-31T00:00",
+    "pos": [
+     36.9,
+     53.2
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "费尔伯指挥，第 2 集团军北翼，参加布良斯克合围并向叶夫列莫夫方向推进。",
+  "sources": [
+   "ger_hgr_center",
+   "strat_cmh_tomoscow"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "de.xxxxiii_corps",
+  "side": "DE",
+  "echelon": "corps",
+  "type": "infantry",
+  "parent": "de.2a",
+  "name": {
+   "zh": "第 43 军",
+   "orig": "XXXXIII. Armeekorps",
+   "short": "XXXXIII"
+  },
+  "model": "inf_de",
+  "track": [
+   {
+    "at": "1941-09-30T00:00",
+    "pos": [
+     34.2,
+     53.3
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-05T00:00",
+    "pos": [
+     34.6,
+     53.5
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-15T00:00",
+    "pos": [
+     35.2,
+     53.55
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-01T00:00",
+    "pos": [
+     35.9,
+     53.5
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-11-20T00:00",
+    "pos": [
+     36.6,
+     53.4
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-05T00:00",
+    "pos": [
+     37.0,
+     53.3
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-12T00:00",
+    "pos": [
+     36.6,
+     53.25
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1942-01-31T00:00",
+    "pos": [
+     36.2,
+     53.2
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "海因里希指挥，第 2 集团军中路，经佳季科沃向布良斯克以南推进。",
+  "sources": [
+   "ger_hgr_center",
+   "strat_cmh_tomoscow"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "de.liii_corps",
+  "side": "DE",
+  "echelon": "corps",
+  "type": "infantry",
+  "parent": "de.2a",
+  "name": {
+   "zh": "第 53 军",
+   "orig": "LIII. Armeekorps",
+   "short": "LIII"
+  },
+  "model": "inf_de",
+  "track": [
+   {
+    "at": "1941-09-30T00:00",
+    "pos": [
+     34.0,
+     53.6
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-05T00:00",
+    "pos": [
+     34.5,
+     53.7
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-15T00:00",
+    "pos": [
+     35.1,
+     53.65
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-01T00:00",
+    "pos": [
+     35.8,
+     53.55
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-12-05T00:00",
+    "pos": [
+     36.3,
+     53.4
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-15T00:00",
+    "pos": [
+     36.0,
+     53.35
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1942-01-31T00:00",
+    "pos": [
+     35.6,
+     53.25
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "魏森贝格尔指挥，第 2 集团军南翼，向日兹德拉、布良斯克方向推进。",
+  "sources": [
+   "ger_hgr_center",
+   "strat_cmh_tomoscow"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "de.pz48_korps",
+  "side": "DE",
+  "echelon": "corps",
+  "type": "motorized",
+  "parent": "de.pzgr2",
+  "name": {
+   "zh": "第 48 装甲军",
+   "orig": "XXXXVIII. Armeekorps (mot.)",
+   "short": "XXXXVIII"
+  },
+  "model": "pz3",
+  "track": [
+   {
+    "at": "1941-09-30T00:00",
+    "pos": [
+     34.0,
+     52.35
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-01T00:00",
+    "pos": [
+     34.4,
+     52.5
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-03T00:00",
+    "pos": [
+     34.8,
+     52.8
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-06T00:00",
+    "pos": [
+     35.2,
+     53.0
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-12T00:00",
+    "pos": [
+     35.8,
+     53.1
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-20T00:00",
+    "pos": [
+     36.2,
+     53.2
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-01T00:00",
+    "pos": [
+     36.6,
+     53.3
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-11-18T00:00",
+    "pos": [
+     37.1,
+     53.5
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-25T00:00",
+    "pos": [
+     37.6,
+     53.6
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-05T00:00",
+    "pos": [
+     37.6,
+     53.5
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-12T00:00",
+    "pos": [
+     37.2,
+     53.4
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1942-01-31T00:00",
+    "pos": [
+     36.7,
+     53.3
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "肯普夫指挥，10 月 1 日突破叶尔马科夫集群左翼，向谢夫斯克、姆岑斯克方向发展。",
+  "sources": [
+   "ger_hgr_center",
+   "strat_cmh_tomoscow",
+   "ger_pzgr2"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "de.pz47_korps",
+  "side": "DE",
+  "echelon": "corps",
+  "type": "motorized",
+  "parent": "de.pzgr2",
+  "name": {
+   "zh": "第 47 装甲军",
+   "orig": "XXXXVII. Armeekorps (mot.)",
+   "short": "XXXXVII"
+  },
+  "model": "pz3",
+  "track": [
+   {
+    "at": "1941-09-30T00:00",
+    "pos": [
+     34.2,
+     52.6
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-01T00:00",
+    "pos": [
+     34.6,
+     52.85
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-03T00:00",
+    "pos": [
+     35.0,
+     53.1
+    ],
+    "status": "engaged",
+    "note": "卡拉切夫"
+   },
+   {
+    "at": "1941-10-06T00:00",
+    "pos": [
+     34.4,
+     53.3
+    ],
+    "status": "engaged",
+    "note": "布良斯克"
+   },
+   {
+    "at": "1941-10-12T00:00",
+    "pos": [
+     34.9,
+     53.5
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-20T00:00",
+    "pos": [
+     35.6,
+     53.6
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-01T00:00",
+    "pos": [
+     36.3,
+     53.7
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-11-18T00:00",
+    "pos": [
+     36.9,
+     53.7
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-05T00:00",
+    "pos": [
+     37.3,
+     53.6
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-12T00:00",
+    "pos": [
+     36.9,
+     53.5
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1942-01-31T00:00",
+    "pos": [
+     36.4,
+     53.4
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "莱梅尔森指挥，经卡拉切夫于 10 月 6 日攻占布良斯克，切断布良斯克方面军的交通线。",
+  "sources": [
+   "ger_hgr_center",
+   "strat_cmh_tomoscow",
+   "ger_pzgr2"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "de.pz24_korps",
+  "side": "DE",
+  "echelon": "corps",
+  "type": "motorized",
+  "parent": "de.pzgr2",
+  "name": {
+   "zh": "第 24 装甲军",
+   "orig": "XXIV. Armeekorps (mot.)",
+   "short": "XXIV"
+  },
+  "model": "pz3",
+  "track": [
+   {
+    "at": "1941-09-30T00:00",
+    "pos": [
+     34.3,
+     52.4
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-01T00:00",
+    "pos": [
+     34.9,
+     53.1
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-03T00:00",
+    "pos": [
+     36.05,
+     52.95
+    ],
+    "status": "engaged",
+    "note": "奥廖尔"
+   },
+   {
+    "at": "1941-10-06T00:00",
+    "pos": [
+     36.5,
+     53.25
+    ],
+    "status": "engaged",
+    "note": "姆岑斯克"
+   },
+   {
+    "at": "1941-10-12T00:00",
+    "pos": [
+     36.55,
+     53.3
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-18T00:00",
+    "pos": [
+     36.6,
+     53.6
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-24T00:00",
+    "pos": [
+     36.9,
+     53.9
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-29T00:00",
+    "pos": [
+     37.3,
+     54.1
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-10T00:00",
+    "pos": [
+     37.35,
+     54.05
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-11-18T00:00",
+    "pos": [
+     37.8,
+     54.0
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-25T00:00",
+    "pos": [
+     38.1,
+     54.6
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-05T00:00",
+    "pos": [
+     38.0,
+     54.5
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-12T00:00",
+    "pos": [
+     37.6,
+     54.3
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1941-12-20T00:00",
+    "pos": [
+     37.2,
+     54.0
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1942-01-31T00:00",
+    "pos": [
+     36.6,
+     53.6
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "盖尔·冯·施韦彭堡指挥，10 月 3 日以第 4 装甲师攻占奥廖尔，随后沿图拉方向东进。",
+  "sources": [
+   "ger_hgr_center",
+   "strat_cmh_tomoscow",
+   "ger_pzgr2"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "de.hk35",
+  "side": "DE",
+  "echelon": "corps",
+  "type": "infantry",
+  "parent": "de.pzgr2",
+  "name": {
+   "zh": "第 35 高级司令部",
+   "orig": "Höheres Kommando XXXV",
+   "short": "HK XXXV"
+  },
+  "model": "inf_de",
+  "track": [
+   {
+    "at": "1941-09-30T00:00",
+    "pos": [
+     35.2,
+     52.6
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-05T00:00",
+    "pos": [
+     35.6,
+     52.9
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-12T00:00",
+    "pos": [
+     36.0,
+     53.1
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-25T00:00",
+    "pos": [
+     36.4,
+     53.3
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-10T00:00",
+    "pos": [
+     36.9,
+     53.4
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-11-25T00:00",
+    "pos": [
+     37.6,
+     53.4
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-05T00:00",
+    "pos": [
+     37.8,
+     53.3
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-12T00:00",
+    "pos": [
+     37.4,
+     53.2
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1942-01-31T00:00",
+    "pos": [
+     36.9,
+     53.15
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "肯普费指挥，下辖第 95、第 296、第 262、第 293 步兵师与第 1 骑兵师，掩护第 2 装甲集团军南翼。",
+  "sources": [
+   "ger_hgr_center",
+   "strat_cmh_tomoscow",
+   "ger_pzgr2"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "de.hk34",
+  "side": "DE",
+  "echelon": "corps",
+  "type": "infantry",
+  "parent": "de.pzgr2",
+  "name": {
+   "zh": "第 34 高级司令部",
+   "orig": "Höheres Kommando XXXIV",
+   "short": "HK XXXIV"
+  },
+  "model": "inf_de",
+  "track": [
+   {
+    "at": "1941-09-30T00:00",
+    "pos": [
+     35.6,
+     52.1
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-10T00:00",
+    "pos": [
+     35.95,
+     52.35
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-25T00:00",
+    "pos": [
+     36.4,
+     52.6
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-15T00:00",
+    "pos": [
+     37.1,
+     52.75
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-28T00:00",
+    "pos": [
+     37.7,
+     52.68
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-05T00:00",
+    "pos": [
+     38.15,
+     52.6
+    ],
+    "status": "engaged",
+    "note": "叶列茨方向"
+   },
+   {
+    "at": "1941-12-10T00:00",
+    "pos": [
+     37.7,
+     52.6
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1941-12-20T00:00",
+    "pos": [
+     37.15,
+     52.55
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1942-01-31T12:00",
+    "pos": [
+     36.6,
+     52.5
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "梅茨指挥，下辖第 45、第 134 步兵师，在最南翼担任掩护。",
+  "sources": [
+   "ger_hgr_center",
+   "strat_cmh_tomoscow",
+   "ger_pzgr2"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "de.gd_rgt",
+  "side": "DE",
+  "echelon": "regiment",
+  "type": "motorized",
+  "parent": "de.hgr_center",
+  "name": {
+   "zh": "「大德意志」步兵团",
+   "orig": "Infanterie-Regiment Großdeutschland",
+   "short": "GD"
+  },
+  "commander": {
+   "zh": "瓦尔特·赫尔莱因",
+   "orig": "Walter Hörnlein"
+  },
+  "model": "inf_de",
+  "track": [
+   {
+    "at": "1941-10-02T00:00",
+    "pos": [
+     34.0,
+     55.0
+    ],
+    "status": "reserve"
+   },
+   {
+    "at": "1941-10-20T00:00",
+    "pos": [
+     35.0,
+     55.3
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-11-01T00:00",
+    "pos": [
+     35.8,
+     55.6
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-01T00:00",
+    "pos": [
+     36.2,
+     55.7
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-20T00:00",
+    "pos": [
+     35.8,
+     55.6
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1942-01-31T00:00",
+    "pos": [
+     35.4,
+     55.5
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "集团军群直属精锐团，10 月参加维亚济马合围，此后在莫斯科方向作战。",
+  "sources": [
+   "ger_hgr_center",
+   "strat_cmh_tomoscow",
+   "ger_bock_diary"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "de.brigade900",
+  "side": "DE",
+  "echelon": "brigade",
+  "type": "motorized",
+  "parent": "de.hgr_center",
+  "name": {
+   "zh": "第 900 摩托化教导旅",
+   "orig": "Lehr-Brigade (mot.) 900",
+   "short": "Br.900"
+  },
+  "commander": {
+   "zh": "瓦尔特·克劳泽",
+   "orig": "Walter Krause"
+  },
+  "model": "inf_de",
+  "track": [
+   {
+    "at": "1941-09-30T00:00",
+    "pos": [
+     32.9,
+     55.15
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-04T00:00",
+    "pos": [
+     33.6,
+     55.15
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-08T00:00",
+    "pos": [
+     34.2,
+     55.2
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-15T00:00",
+    "pos": [
+     34.9,
+     55.5
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-01T00:00",
+    "pos": [
+     35.7,
+     56.0
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-11-15T00:00",
+    "pos": [
+     36.1,
+     56.2
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-20T00:00",
+    "pos": [
+     36.4,
+     56.28
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-23T00:00",
+    "pos": [
+     36.7,
+     56.3
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-27T00:00",
+    "pos": [
+     37.2,
+     56.24
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-28T00:00",
+    "pos": [
+     37.45,
+     56.22
+    ],
+    "status": "engaged",
+    "note": "第 7 装甲师在亚赫罗马渡运河"
+   },
+   {
+    "at": "1941-12-05T00:00",
+    "pos": [
+     37.3,
+     56.2
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-08T00:00",
+    "pos": [
+     37.0,
+     56.3
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1941-12-15T00:00",
+    "pos": [
+     36.7,
+     56.3
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1941-12-25T00:00",
+    "pos": [
+     36.3,
+     56.2
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1942-01-31T00:00",
+    "pos": [
+     35.9,
+     56.1
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "集团军群最后一支预备队，11 月 28 日投入第 3 装甲集群方向；实际只有一个营的兵力。",
+  "sources": [
+   "ger_hgr_center",
+   "strat_cmh_tomoscow",
+   "ger_bock_diary"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "de.sec707",
+  "side": "DE",
+  "echelon": "division",
+  "type": "infantry",
+  "parent": "de.rueck_gebiet",
+  "name": {
+   "zh": "第 707 警备师",
+   "orig": "707. Infanterie-Division",
+   "short": "707.Sich"
+  },
+  "commander": {
+   "zh": "古斯塔夫·冯·毛肯海姆",
+   "orig": "Gustav Freiherr von Mauchenheim"
+  },
+  "model": "inf_de",
+  "track": [
+   {
+    "at": "1941-09-30T00:00",
+    "pos": [
+     33.5,
+     53.8
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-11-01T00:00",
+    "pos": [
+     34.2,
+     54.0
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-12-15T00:00",
+    "pos": [
+     33.9,
+     53.9
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1942-01-31T00:00",
+    "pos": [
+     33.6,
+     53.8
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "后方警备师，担负交通线与占领区治安任务，不参加一线进攻。",
+  "sources": [
+   "ger_hgr_center",
+   "strat_cmh_tomoscow",
+   "ger_bock_diary"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "de.sec339",
+  "side": "DE",
+  "echelon": "division",
+  "type": "infantry",
+  "parent": "de.rueck_gebiet",
+  "name": {
+   "zh": "第 339 警备师",
+   "orig": "339. Infanterie-Division",
+   "short": "339.Sich"
+  },
+  "commander": {
+   "zh": "格奥尔格·黑韦尔克",
+   "orig": "Georg Hewelke"
+  },
+  "model": "inf_de",
+  "track": [
+   {
+    "at": "1941-09-30T00:00",
+    "pos": [
+     33.5,
+     53.8
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-11-01T00:00",
+    "pos": [
+     34.2,
+     54.0
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-12-15T00:00",
+    "pos": [
+     33.9,
+     53.9
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1942-01-31T00:00",
+    "pos": [
+     33.6,
+     53.8
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "后方警备师，担负交通线与占领区治安任务。",
+  "sources": [
+   "ger_hgr_center",
+   "strat_cmh_tomoscow",
+   "ger_bock_diary"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "de.ss_kav_brigade",
+  "side": "DE",
+  "echelon": "brigade",
+  "type": "cavalry",
+  "parent": "de.rueck_gebiet",
+  "name": {
+   "zh": "党卫军骑兵旅",
+   "orig": "SS-Kavallerie-Brigade",
+   "short": "SS-Kav"
+  },
+  "commander": {
+   "zh": "赫尔曼·费格莱因",
+   "orig": "Hermann Fegelein"
+  },
+  "model": "inf_de",
+  "track": [
+   {
+    "at": "1941-09-30T00:00",
+    "pos": [
+     33.5,
+     53.8
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-11-01T00:00",
+    "pos": [
+     34.2,
+     54.0
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-12-15T00:00",
+    "pos": [
+     33.9,
+     53.9
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1942-01-31T00:00",
+    "pos": [
+     33.6,
+     53.8
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "党卫军骑兵旅，1941 年秋冬在普里皮亚季沼泽与后方地域执行清剿任务。",
+  "sources": [
+   "ger_hgr_center",
+   "strat_cmh_tomoscow",
+   "ger_bock_diary"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ }
+]

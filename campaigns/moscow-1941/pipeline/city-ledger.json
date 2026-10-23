@@ -1,0 +1,2427 @@
+{
+ "_doc": "各城市在关键日期归属的约定。holder: SU（苏军控制）/ DE（德军控制，含占领）。date 为莫斯科时间，取该时刻的状态；每条 city 的 events 按时间升序，最后一条固定为 1942-01-31T12:00（本战役终点）。凡有异说者写 alternatives 数组（含 source 与 note）。**用途**：供工程-地理战线（G2）用引擎同一 SDF 场逐城市断言归属，也供史实审查核对。**date 的取义**：多数情形取史料的「沦陷/收复」当日；当史料日期落在两个控制区关键帧之间、引擎按关键帧插值判定时，date 取**引擎发生切换的那个关键帧日期**，并在 note 里并列史料原日期——这样本表与 data/fronts/*.json 可以逐点互证。**已用引擎同一 SDF 场（engine/geo/field）逐点核验 177 个状态点：172 点一致，余 5 点列入 knownLineMismatches 并附 reason**（维亚济马 10/7 是「合围圈闭合 vs 城区沦陷」的取义差异；利夫内、韦尼奥夫、杰米扬斯克两代是折线 25 行剖面的结构性覆盖范围限制）。G2 自检：对 knownLineMismatches 中的 (place,date) 跳过折线断言，或按其中 lineHolder 断言。",
+ "cities": [
+  {
+   "place": "moscow",
+   "zh": "莫斯科",
+   "events": [
+    {
+     "date": "1941-09-30T12:00",
+     "holder": "SU",
+     "note": "全程未被占领：德军最前哨（12/02 希姆基侦察营、克拉斯纳亚波利亚纳一线）距市中心约 20—29 km，未进入市区。",
+     "sources": [
+      "strat_cmh_tomoscow",
+      "strat_wiki_ru",
+      "strat_wiki_en"
+     ],
+     "confidence": "high"
+    },
+    {
+     "date": "1941-10-19T12:00",
+     "holder": "SU",
+     "note": "10/19 起戒严、设城防司令部；政府机关与外交团 10/15—16 东迁古比雪夫，但城市本身始终在苏方控制下。",
+     "sources": [
+      "su_special_moscow",
+      "strat_cmh_tomoscow"
+     ],
+     "confidence": "high"
+    },
+    {
+     "date": "1942-01-31T12:00",
+     "holder": "SU",
+     "note": "1 月末仍为苏方首都，战线已西移至莫扎伊斯克—尤赫诺夫一线以西。",
+     "sources": [
+      "strat_cmh_counter2",
+      "strat_wiki_ru"
+     ],
+     "confidence": "high"
+    }
+   ]
+  },
+  {
+   "place": "tula",
+   "zh": "图拉",
+   "events": [
+    {
+     "date": "1941-09-30T12:00",
+     "holder": "SU",
+     "note": "9 月末在苏军手中（西方面军/布良斯克方面军接合部以南）。",
+     "sources": [
+      "strat_cmh_tomoscow",
+      "strat_wiki_ru"
+     ],
+     "confidence": "high"
+    },
+    {
+     "date": "1941-10-30T12:00",
+     "holder": "SU",
+     "note": "10/30 德军首次强攻被击退，此后进入 45 天近乎完全包围，但**城市未被攻占**。",
+     "sources": [
+      "strat_cmh_tomoscow",
+      "strat_wiki_ru",
+      "strat_wiki_en"
+     ],
+     "confidence": "high"
+    },
+    {
+     "date": "1941-12-05T12:00",
+     "holder": "SU",
+     "note": "围攻期间始终苏方控制；12/5 起第 50 集团军自城北转入反攻。",
+     "sources": [
+      "strat_cmh_counter1",
+      "su_cmd_zhukov_wf"
+     ],
+     "confidence": "high"
+    },
+    {
+     "date": "1942-01-31T12:00",
+     "holder": "SU",
+     "note": "12/15 日终德军被逐退至城外围 20—30 km，此后未再威胁该城。",
+     "sources": [
+      "strat_cmh_counter1",
+      "strat_wiki_ru"
+     ],
+     "confidence": "high"
+    }
+   ]
+  },
+  {
+   "place": "serpukhov",
+   "zh": "谢尔普霍夫",
+   "events": [
+    {
+     "date": "1941-09-30T12:00",
+     "holder": "SU",
+     "note": "9 月末在苏军手中。全程未被占领：10 月下旬为第 49 集团军防区，德军止于纳拉河与奥卡河一线。",
+     "sources": [
+      "strat_cmh_tomoscow",
+      "strat_wiki_ru"
+     ],
+     "confidence": "high"
+    },
+    {
+     "date": "1942-01-31T12:00",
+     "holder": "SU",
+     "note": "1 月末本战役终点仍为苏方控制���全程未被占领：10 月下旬为第 49 集团军防区，德军止于纳拉河与奥卡河一线。",
+     "sources": [
+      "strat_cmh_counter2",
+      "strat_wiki_ru"
+     ],
+     "confidence": "high"
+    }
+   ]
+  },
+  {
+   "place": "kashira",
+   "zh": "卡希拉",
+   "events": [
+    {
+     "date": "1941-09-30T12:00",
+     "holder": "SU",
+     "note": "9 月末在苏军手中。全程未被占领：11/25 德军第 17 装甲师进抵城西约 3 km 的曾季科沃，11/27—29 被第 1 近卫骑兵军击退。",
+     "sources": [
+      "strat_cmh_tomoscow",
+      "strat_wiki_ru"
+     ],
+     "confidence": "high"
+    },
+    {
+     "date": "1942-01-31T12:00",
+     "holder": "SU",
+     "note": "1 月末本战役终点仍为苏方控制���全程未被占领：11/25 德军第 17 装甲师进抵城西约 3 km 的曾季科沃，11/27—29 被第 1 近卫骑兵军击退。",
+     "sources": [
+      "strat_cmh_counter2",
+      "strat_wiki_ru"
+     ],
+     "confidence": "high"
+    }
+   ]
+  },
+  {
+   "place": "kolomna",
+   "zh": "科洛姆纳",
+   "events": [
+    {
+     "date": "1941-09-30T12:00",
+     "holder": "SU",
+     "note": "9 月末在苏军手中。全程未被占领：位于莫斯科东南远后方的奥卡河下游。",
+     "sources": [
+      "strat_cmh_tomoscow",
+      "strat_wiki_ru"
+     ],
+     "confidence": "high"
+    },
+    {
+     "date": "1942-01-31T12:00",
+     "holder": "SU",
+     "note": "1 月末本战役终点仍为苏方控制���全程未被占领：位于莫斯科东南远后方的奥卡河下游。",
+     "sources": [
+      "strat_cmh_counter2",
+      "strat_wiki_ru"
+     ],
+     "confidence": "high"
+    }
+   ]
+  },
+  {
+   "place": "ryazan",
+   "zh": "梁赞",
+   "events": [
+    {
+     "date": "1941-09-30T12:00",
+     "holder": "SU",
+     "note": "9 月末在苏军手中。全程未被占领：第 2 装甲集团军东进的极限未及该城。",
+     "sources": [
+      "strat_cmh_tomoscow",
+      "strat_wiki_ru"
+     ],
+     "confidence": "high"
+    },
+    {
+     "date": "1942-01-31T12:00",
+     "holder": "SU",
+     "note": "1 月末本战役终点仍为苏方控制���全程未被占领：第 2 装甲集团军东进的极限未及该城。",
+     "sources": [
+      "strat_cmh_counter2",
+      "strat_wiki_ru"
+     ],
+     "confidence": "high"
+    }
+   ]
+  },
+  {
+   "place": "podolsk",
+   "zh": "波多利斯克",
+   "events": [
+    {
+     "date": "1941-09-30T12:00",
+     "holder": "SU",
+     "note": "9 月末在苏军手中。全程未被占领：10 月上旬波多利斯克军校学员由此开赴小雅罗斯拉韦茨—尤赫诺夫一线阻击。",
+     "sources": [
+      "strat_cmh_tomoscow",
+      "strat_wiki_ru"
+     ],
+     "confidence": "high"
+    },
+    {
+     "date": "1942-01-31T12:00",
+     "holder": "SU",
+     "note": "1 月末本战役终点仍为苏方控制���全程未被占领：10 月上旬波多利斯克军校学员由此开赴小雅罗斯拉韦茨—尤赫诺夫一线阻击。",
+     "sources": [
+      "strat_cmh_counter2",
+      "strat_wiki_ru"
+     ],
+     "confidence": "high"
+    }
+   ]
+  },
+  {
+   "place": "noginsk",
+   "zh": "诺金斯克",
+   "events": [
+    {
+     "date": "1941-09-30T12:00",
+     "holder": "SU",
+     "note": "9 月末在苏军手中。全程未被占领：莫斯科以东工业城镇，属城防纵深。",
+     "sources": [
+      "strat_cmh_tomoscow",
+      "strat_wiki_ru"
+     ],
+     "confidence": "high"
+    },
+    {
+     "date": "1942-01-31T12:00",
+     "holder": "SU",
+     "note": "1 月末本战役终点仍为苏方控制���全程未被占领：莫斯科以东工业城镇，属城防纵深。",
+     "sources": [
+      "strat_cmh_counter2",
+      "strat_wiki_ru"
+     ],
+     "confidence": "high"
+    }
+   ]
+  },
+  {
+   "place": "sergiyev_posad",
+   "zh": "谢尔吉耶夫镇（扎戈尔斯克）",
+   "events": [
+    {
+     "date": "1941-09-30T12:00",
+     "holder": "SU",
+     "note": "9 月末在苏军手中。全程未被占领：1941 年名扎戈尔斯克，第 1 突击集团军在该方向组建（后用于德米特罗夫—亚赫罗马反击）。",
+     "sources": [
+      "strat_cmh_tomoscow",
+      "strat_wiki_ru"
+     ],
+     "confidence": "high"
+    },
+    {
+     "date": "1942-01-31T12:00",
+     "holder": "SU",
+     "note": "1 月末本战役终点仍为苏方控制���全程未被占领：1941 年名扎戈尔斯克，第 1 突击集团军在该方向组建（后用于德米特罗夫—亚赫罗马反击）。",
+     "sources": [
+      "strat_cmh_counter2",
+      "strat_wiki_ru"
+     ],
+     "confidence": "high"
+    }
+   ]
+  },
+  {
+   "place": "dmitrov",
+   "zh": "德米特罗夫",
+   "events": [
+    {
+     "date": "1941-09-30T12:00",
+     "holder": "SU",
+     "note": "9 月末在苏军手中。全程未被占领：11/28 德军在亚赫罗马越过运河东岸，但未及德米特罗夫；11/29 桥头即被拔除。",
+     "sources": [
+      "strat_cmh_tomoscow",
+      "strat_wiki_ru"
+     ],
+     "confidence": "high"
+    },
+    {
+     "date": "1942-01-31T12:00",
+     "holder": "SU",
+     "note": "1 月末本战役终点仍为苏方控制���全程未被占领：11/28 德军在亚赫罗马越过运河东岸，但未及德米特罗夫；11/29 桥头即被拔除。",
+     "sources": [
+      "strat_cmh_counter2",
+      "strat_wiki_ru"
+     ],
+     "confidence": "high"
+    }
+   ]
+  },
+  {
+   "place": "ostashkov",
+   "zh": "奥斯塔什科夫",
+   "events": [
+    {
+     "date": "1941-09-30T12:00",
+     "holder": "SU",
+     "note": "9 月末在苏军手中。全程未被占领：1942/1/9 起第 3、第 4 突击集团军由此突出部发起托罗佩茨—霍尔姆战役。",
+     "sources": [
+      "strat_cmh_tomoscow",
+      "strat_wiki_ru"
+     ],
+     "confidence": "high"
+    },
+    {
+     "date": "1942-01-31T12:00",
+     "holder": "SU",
+     "note": "1 月末本战役终点仍为苏方控制���全程未被占领：1942/1/9 起第 3、第 4 突击集团军由此突出部发起托罗佩茨—霍尔姆战役。",
+     "sources": [
+      "strat_cmh_counter2",
+      "strat_wiki_ru"
+     ],
+     "confidence": "high"
+    }
+   ]
+  },
+  {
+   "place": "khimki",
+   "zh": "希姆基",
+   "events": [
+    {
+     "date": "1941-09-30T12:00",
+     "holder": "SU",
+     "note": "9 月末在苏军手中。全程未被占领：12/2 德军侦察营突入运河桥与火车站（德军距莫斯科最近的一次，直线约 20 km），随即被逐退，未形成控制。",
+     "sources": [
+      "strat_cmh_tomoscow",
+      "strat_wiki_ru"
+     ],
+     "confidence": "high"
+    },
+    {
+     "date": "1942-01-31T12:00",
+     "holder": "SU",
+     "note": "1 月末本战役终点仍为苏方控制���全程未被占领：12/2 德军侦察营突入运河桥与火车站（德军距莫斯科最近的一次，直线约 20 km），随即被逐退，未形成控制。",
+     "sources": [
+      "strat_cmh_counter2",
+      "strat_wiki_ru"
+     ],
+     "confidence": "high"
+    }
+   ]
+  },
+  {
+   "place": "kalinin",
+   "zh": "加里宁（特维尔）",
+   "events": [
+    {
+     "date": "1941-09-30T12:00",
+     "holder": "SU",
+     "note": "9 月末在苏军手中（西方面军右翼）。",
+     "sources": [
+      "strat_cmh_tomoscow",
+      "strat_wiki_ru"
+     ],
+     "confidence": "high"
+    },
+    {
+     "date": "1941-10-14T12:00",
+     "holder": "DE",
+     "note": "10/14 沦陷（CMH/齐姆克口径）。第 41 摩托化军 10/12 抵西郊。",
+     "sources": [
+      "strat_cmh_tomoscow",
+      "ger_pzgr3",
+      "su_cmd_konev"
+     ],
+     "confidence": "medium",
+     "alternatives": [
+      {
+       "date": "1941-10-17T12:00",
+       "source": "strat_wiki_ru",
+       "note": "俄文维基与特维尔地方志记 10/17；差异可能是「突入城西—占市中心—完全控制」的时间差。"
+      }
+     ]
+    },
+    {
+     "date": "1941-12-16T12:00",
+     "holder": "SU",
+     "note": "12/16 收复（第 29、31 集团军，加里宁方面军 12/5 起反攻）。",
+     "sources": [
+      "strat_cmh_counter1",
+      "su_cmd_konev",
+      "strat_wiki_ru"
+     ],
+     "confidence": "high"
+    },
+    {
+     "date": "1942-01-31T12:00",
+     "holder": "SU",
+     "note": "1 月末为苏方控制，战线在其以西的勒热夫—斯塔里察一线。",
+     "sources": [
+      "strat_cmh_counter2",
+      "su_cmd_konev"
+     ],
+     "confidence": "high"
+    }
+   ]
+  },
+  {
+   "place": "klin",
+   "zh": "克林",
+   "events": [
+    {
+     "date": "1941-09-30T12:00",
+     "holder": "SU",
+     "note": "9 月末在苏军手中（第 30 集团军防区）。",
+     "sources": [
+      "strat_cmh_tomoscow",
+      "strat_wiki_ru"
+     ],
+     "confidence": "high"
+    },
+    {
+     "date": "1941-11-23T12:00",
+     "holder": "DE",
+     "note": "11/23 失守（俄文维基 11/23—12/15 被占；CMH 同）。",
+     "sources": [
+      "strat_cmh_tomoscow",
+      "ger_pzgr3",
+      "strat_wiki_ru",
+      "strat_wiki_en"
+     ],
+     "confidence": "high"
+    },
+    {
+     "date": "1941-12-15T12:00",
+     "holder": "SU",
+     "note": "12/15 收复（俄文维基与 CMH 均记 12/15）。12/10 苏军切断克林以西唯一公路，第 3 装甲集群自记「最黑暗的时刻」。",
+     "sources": [
+      "strat_cmh_counter1",
+      "ger_pzgr3",
+      "strat_wiki_ru",
+      "strat_wiki_en"
+     ],
+     "confidence": "high",
+     "alternatives": [
+      {
+       "date": "1941-12-16T12:00",
+       "source": "strat_wiki_en",
+       "note": "部分中文资料记 12/16，属「市区肃清」与「宣告收复」之别。"
+      }
+     ]
+    },
+    {
+     "date": "1942-01-31T12:00",
+     "holder": "SU",
+     "note": "1 月末为苏方控制，战线西移至拉马河—鲁扎河以西。",
+     "sources": [
+      "strat_cmh_counter2",
+      "strat_wiki_ru"
+     ],
+     "confidence": "high"
+    }
+   ]
+  },
+  {
+   "place": "solnechnogorsk",
+   "zh": "索尔涅奇诺戈尔斯克",
+   "events": [
+    {
+     "date": "1941-09-30T12:00",
+     "holder": "SU",
+     "note": "9 月末在苏军手中。",
+     "sources": [
+      "strat_cmh_tomoscow",
+      "strat_wiki_ru"
+     ],
+     "confidence": "high"
+    },
+    {
+     "date": "1941-11-22T12:00",
+     "holder": "DE",
+     "note": "11/22 失守（俄文维基记 11/22 被占；英文维基「by 24 November」）。",
+     "sources": [
+      "strat_cmh_tomoscow",
+      "ger_pzgr3",
+      "strat_wiki_ru",
+      "strat_wiki_en"
+     ],
+     "confidence": "high"
+    },
+    {
+     "date": "1941-12-12T12:00",
+     "holder": "SU",
+     "note": "12/12 收复（第 31 坦克旅与第 35、55、64 海军步兵旅）；次日第 20 集团军进城。",
+     "sources": [
+      "strat_cmh_counter1",
+      "strat_wiki_ru",
+      "strat_wiki_en"
+     ],
+     "confidence": "high"
+    },
+    {
+     "date": "1942-01-31T12:00",
+     "holder": "SU",
+     "note": "1 月末为苏方控制。",
+     "sources": [
+      "strat_cmh_counter2",
+      "strat_wiki_ru"
+     ],
+     "confidence": "high"
+    }
+   ]
+  },
+  {
+   "place": "yakhroma",
+   "zh": "亚赫罗马",
+   "events": [
+    {
+     "date": "1941-09-30T12:00",
+     "holder": "SU",
+     "note": "9 月末在苏军手中（莫斯科运河西岸城镇）。",
+     "sources": [
+      "strat_cmh_tomoscow",
+      "strat_wiki_ru"
+     ],
+     "confidence": "high"
+    },
+    {
+     "date": "1941-11-27T12:00",
+     "holder": "DE",
+     "note": "11/27—28 夜第 3 装甲集群渡莫斯科运河占该镇（俄文维基「Яхрома」）——德军**唯一一次**越过运河。**11/29 红军夺回运河东岸、德军退回西岸，但镇（西岸）仍被德军占据至 12/7**：桥头只存在一天，镇被占 11/27—12/07，两件事不可混。",
+     "sources": [
+      "strat_cmh_tomoscow",
+      "ger_pzgr3",
+      "strat_wiki_ru"
+     ],
+     "confidence": "high"
+    },
+    {
+     "date": "1941-12-07T12:00",
+     "holder": "SU",
+     "note": "12/7 收复（第 1 突击集团军第 50、第 71 步兵旅与第 33 集团军配合反击后追击）。",
+     "sources": [
+      "strat_cmh_counter1",
+      "strat_wiki_ru"
+     ],
+     "confidence": "high"
+    },
+    {
+     "date": "1942-01-31T12:00",
+     "holder": "SU",
+     "note": "1 月末为苏方控制。",
+     "sources": [
+      "strat_cmh_counter2",
+      "strat_wiki_ru"
+     ],
+     "confidence": "high"
+    }
+   ]
+  },
+  {
+   "place": "krasnaya_polyana",
+   "zh": "克拉斯纳亚波利亚纳",
+   "events": [
+    {
+     "date": "1941-09-30T12:00",
+     "holder": "SU",
+     "note": "9 月末在苏军手中（今属洛布尼亚市）。",
+     "sources": [
+      "strat_cmh_tomoscow",
+      "strat_wiki_ru"
+     ],
+     "confidence": "high"
+    },
+    {
+     "date": "1941-11-29T12:00",
+     "holder": "DE",
+     "note": "11 月末被占。俄文维基（洛布尼亚 микрорайон 条）：11/28 德第 1、第 2 装甲师与第 23 步兵师沿罗加乔夫公路推进，1/12 苏军收复。此处为德军对莫斯科的最近稳定阵地。",
+     "sources": [
+      "strat_cmh_tomoscow",
+      "ger_pzgr4",
+      "strat_wiki_ru",
+      "strat_wiki_en"
+     ],
+     "confidence": "high",
+     "alternatives": [
+      {
+       "date": "1941-11-28T12:00",
+       "source": "strat_wiki_ru",
+       "note": "俄文维基记 11/28 德军沿公路推进；控制区关键帧按 11/29 起判德控。"
+      },
+      {
+       "date": "1941-12-08T12:00",
+       "source": "strat_wiki_ru",
+       "note": "俄文维基记 12/8 由第 331 步兵师与第 28 步兵旅收复。"
+      }
+     ]
+    },
+    {
+     "date": "1941-12-08T12:00",
+     "holder": "SU",
+     "note": "12/8 收复（第 331 步兵师与第 28 步兵旅协同第 135 坦克营）。",
+     "sources": [
+      "strat_cmh_counter1",
+      "strat_wiki_ru"
+     ],
+     "confidence": "high"
+    },
+    {
+     "date": "1942-01-31T12:00",
+     "holder": "SU",
+     "note": "1 月末为苏方控制。",
+     "sources": [
+      "strat_cmh_counter2",
+      "strat_wiki_ru"
+     ],
+     "confidence": "high"
+    }
+   ]
+  },
+  {
+   "place": "istra",
+   "zh": "伊斯特拉",
+   "events": [
+    {
+     "date": "1941-09-30T12:00",
+     "holder": "SU",
+     "note": "9 月末在苏军手中。",
+     "sources": [
+      "strat_cmh_tomoscow",
+      "strat_wiki_ru"
+     ],
+     "confidence": "high"
+    },
+    {
+     "date": "1941-11-26T12:00",
+     "holder": "DE",
+     "note": "11/26 被第 4 装甲集群攻占（俄文维基城市条）。",
+     "sources": [
+      "strat_cmh_tomoscow",
+      "ger_pzgr4",
+      "strat_wiki_ru"
+     ],
+     "confidence": "high"
+    },
+    {
+     "date": "1941-12-10T12:00",
+     "holder": "SU",
+     "note": "12/10 收复（俄文维基：11/26—12/10 被占）。CMH 记 12/11 前后肃清，取 12/10。",
+     "sources": [
+      "strat_cmh_counter1",
+      "strat_wiki_ru"
+     ],
+     "confidence": "medium",
+     "alternatives": [
+      {
+       "date": "1941-12-11T12:00",
+       "source": "strat_cmh_counter1",
+       "note": "CMH 以 12/11 为肃清时点。"
+      }
+     ]
+    },
+    {
+     "date": "1942-01-31T12:00",
+     "holder": "SU",
+     "note": "1 月末为苏方控制。",
+     "sources": [
+      "strat_cmh_counter2",
+      "strat_wiki_ru"
+     ],
+     "confidence": "high"
+    }
+   ]
+  },
+  {
+   "place": "volokolamsk",
+   "zh": "沃洛科拉姆斯克",
+   "events": [
+    {
+     "date": "1941-09-30T12:00",
+     "holder": "SU",
+     "note": "9 月末在苏军手中（第 16 集团军防区）。",
+     "sources": [
+      "strat_cmh_tomoscow",
+      "strat_wiki_ru"
+     ],
+     "confidence": "high"
+    },
+    {
+     "date": "1941-10-27T12:00",
+     "holder": "DE",
+     "note": "10/27 失守（俄文维基：10/27—12/20 被占）。",
+     "sources": [
+      "strat_cmh_tomoscow",
+      "ger_pzgr4",
+      "strat_wiki_ru"
+     ],
+     "confidence": "high"
+    },
+    {
+     "date": "1941-12-20T12:00",
+     "holder": "SU",
+     "note": "12/20 收复（第 20 集团军，弗拉索夫）。",
+     "sources": [
+      "strat_cmh_counter1",
+      "strat_wiki_ru",
+      "strat_wiki_en"
+     ],
+     "confidence": "high"
+    },
+    {
+     "date": "1942-01-31T12:00",
+     "holder": "SU",
+     "note": "1 月末为苏方控制，战线退至拉马河以西。",
+     "sources": [
+      "strat_cmh_counter2",
+      "strat_wiki_ru"
+     ],
+     "confidence": "high"
+    }
+   ]
+  },
+  {
+   "place": "staritsa",
+   "zh": "斯塔里察",
+   "events": [
+    {
+     "date": "1941-09-30T12:00",
+     "holder": "SU",
+     "note": "9 月末在苏军手中。",
+     "sources": [
+      "strat_cmh_tomoscow",
+      "strat_wiki_ru"
+     ],
+     "confidence": "high"
+    },
+    {
+     "date": "1941-10-14T12:00",
+     "holder": "DE",
+     "note": "10/12 被占（俄文维基城市条）。",
+     "sources": [
+      "strat_cmh_tomoscow",
+      "ger_9a",
+      "strat_wiki_ru"
+     ],
+     "confidence": "medium",
+     "alternatives": [
+      {
+       "date": "1941-10-12T12:00",
+       "source": "strat_wiki_ru",
+       "note": "城市条记 10/12 被占；此处取 10/14 帧。"
+      }
+     ]
+    },
+    {
+     "date": "1942-01-08T12:00",
+     "holder": "SU",
+     "note": "1942/1/1 收复（加里宁方面军加里宁进攻战役）。",
+     "sources": [
+      "strat_cmh_counter2",
+      "su_cmd_konev",
+      "strat_wiki_ru"
+     ],
+     "confidence": "medium",
+     "alternatives": [
+      {
+       "date": "1942-01-01T12:00",
+       "source": "strat_wiki_ru",
+       "note": "城市条记 1/1 解放；此处取 1/8 帧。"
+      }
+     ]
+    },
+    {
+     "date": "1942-01-31T12:00",
+     "holder": "SU",
+     "note": "1 月末为苏方控制；第 9 集团军退往勒热夫—瑟乔夫卡一线。",
+     "sources": [
+      "strat_cmh_counter2",
+      "su_cmd_konev"
+     ],
+     "confidence": "high"
+    }
+   ]
+  },
+  {
+   "place": "zubtsov",
+   "zh": "祖布佐夫",
+   "events": [
+    {
+     "date": "1941-09-30T12:00",
+     "holder": "SU",
+     "note": "9 月末在苏军手中。",
+     "sources": [
+      "strat_cmh_tomoscow",
+      "strat_wiki_ru"
+     ],
+     "confidence": "high"
+    },
+    {
+     "date": "1941-10-14T12:00",
+     "holder": "DE",
+     "note": "10/11 被占（俄文维基城市条）；1942/8/23 才由第 31 集团军收复——**本战役窗口内始终德占**。",
+     "sources": [
+      "strat_cmh_tomoscow",
+      "ger_9a",
+      "strat_wiki_ru"
+     ],
+     "confidence": "high"
+    },
+    {
+     "date": "1942-01-31T12:00",
+     "holder": "DE",
+     "note": "1 月末仍在德军手中（勒热夫突出部南翼）。",
+     "sources": [
+      "strat_cmh_counter2",
+      "strat_wiki_ru"
+     ],
+     "confidence": "high"
+    }
+   ]
+  },
+  {
+   "place": "sychevka",
+   "zh": "瑟乔夫卡",
+   "events": [
+    {
+     "date": "1941-09-30T12:00",
+     "holder": "SU",
+     "note": "9 月末在苏军手中。",
+     "sources": [
+      "strat_cmh_tomoscow",
+      "strat_wiki_ru"
+     ],
+     "confidence": "high"
+    },
+    {
+     "date": "1941-10-14T12:00",
+     "holder": "DE",
+     "note": "10 月中旬被第 3 装甲集群占领（俄文维基城市条记 10/10；控制区关键帧按 10/14 起判德控）。1943/3/8 才收复。",
+     "sources": [
+      "strat_cmh_tomoscow",
+      "ger_pzgr3",
+      "strat_wiki_ru"
+     ],
+     "confidence": "medium",
+     "alternatives": [
+      {
+       "date": "1941-10-10T12:00",
+       "source": "strat_wiki_ru",
+       "note": "俄文维基城市条记 10/10 被占；折线在 10/10 帧尚未越过该城。"
+      }
+     ]
+    },
+    {
+     "date": "1942-01-31T12:00",
+     "holder": "DE",
+     "note": "1 月末仍在德军手中；第 9 集团军司令部曾设于此。",
+     "sources": [
+      "strat_cmh_counter2",
+      "strat_wiki_ru",
+      "su_cmd_konev"
+     ],
+     "confidence": "high"
+    }
+   ]
+  },
+  {
+   "place": "kholm_zhirkovsky",
+   "zh": "霍尔姆-日尔科夫斯基",
+   "events": [
+    {
+     "date": "1941-09-30T12:00",
+     "holder": "SU",
+     "note": "9 月末在苏军手中（维亚济马以西）。",
+     "sources": [
+      "strat_cmh_tomoscow",
+      "strat_wiki_ru"
+     ],
+     "confidence": "high"
+    },
+    {
+     "date": "1941-10-14T12:00",
+     "holder": "DE",
+     "note": "1941 年 10 月被占（第 3 装甲集群经此楔入维亚济马以北）。俄文维基该区各村条目均记「1941 年 10 月被占」。",
+     "sources": [
+      "strat_cmh_tomoscow",
+      "ger_pzgr3",
+      "strat_wiki_ru"
+     ],
+     "confidence": "medium"
+    },
+    {
+     "date": "1942-01-31T12:00",
+     "holder": "DE",
+     "note": "**1 月末仍在德军手中，且此时是「与正面相连的突出部走廊」——被围的是苏军第 39 集团军与第 11 骑兵军，不是德军。**苏军 1 月总攻未能合围；本战役窗口内该地始终德占。",
+     "sources": [
+      "strat_cmh_counter2",
+      "su_cmd_konev",
+      "strat_wiki_ru"
+     ],
+     "confidence": "medium"
+    }
+   ]
+  },
+  {
+   "place": "rzhev",
+   "zh": "勒热夫",
+   "events": [
+    {
+     "date": "1941-09-30T12:00",
+     "holder": "SU",
+     "note": "9 月末在苏军手中。",
+     "sources": [
+      "strat_cmh_tomoscow",
+      "strat_wiki_ru"
+     ],
+     "confidence": "high"
+    },
+    {
+     "date": "1941-10-14T12:00",
+     "holder": "DE",
+     "note": "10/14 被占（俄文维基/官方解放城市手册）。此后为第 9 集团军的「北角柱」，1 月总攻未能夺取。",
+     "sources": [
+      "strat_cmh_tomoscow",
+      "ger_9a",
+      "strat_wiki_ru"
+     ],
+     "confidence": "high"
+    },
+    {
+     "date": "1942-01-31T12:00",
+     "holder": "DE",
+     "note": "1 月末仍在德军手中（至 1943/3/3 才收复）。1/22—23 莫德尔在此封闭勒热夫缺口。",
+     "sources": [
+      "strat_cmh_counter2",
+      "su_cmd_konev",
+      "strat_wiki_ru"
+     ],
+     "confidence": "high"
+    }
+   ]
+  },
+  {
+   "place": "gzhatsk",
+   "zh": "格扎茨克（加加林）",
+   "events": [
+    {
+     "date": "1941-09-30T12:00",
+     "holder": "SU",
+     "note": "9 月末在苏军手中。",
+     "sources": [
+      "strat_cmh_tomoscow",
+      "strat_wiki_ru"
+     ],
+     "confidence": "high"
+    },
+    {
+     "date": "1941-10-09T12:00",
+     "holder": "DE",
+     "note": "10/9 被党卫军「帝国」师前卫占领（10 辆坦克加摩托化步兵），形成维亚济马合围的外圈（俄文维基「Битва за Москву」；官方手册同记 10/9）。",
+     "sources": [
+      "strat_cmh_tomoscow",
+      "ger_pzgr3",
+      "strat_wiki_ru",
+      "strat_wiki_en"
+     ],
+     "confidence": "high"
+    },
+    {
+     "date": "1942-01-31T12:00",
+     "holder": "DE",
+     "note": "1 月末仍在德军手中（至 1943/3/6 才收复）。苏军 1 月推进至接近地但未攻克。",
+     "sources": [
+      "strat_cmh_counter2",
+      "strat_wiki_ru",
+      "su_zhukov_memoirs"
+     ],
+     "confidence": "high"
+    }
+   ]
+  },
+  {
+   "place": "mozhaisk",
+   "zh": "莫扎伊斯克",
+   "events": [
+    {
+     "date": "1941-09-30T12:00",
+     "holder": "SU",
+     "note": "9 月末在苏军手中（莫扎伊斯克防线中枢）。",
+     "sources": [
+      "strat_cmh_tomoscow",
+      "strat_wiki_ru"
+     ],
+     "confidence": "high"
+    },
+    {
+     "date": "1941-10-18T12:00",
+     "holder": "DE",
+     "note": "10/18 被占（官方解放城市手册记 10/18）。10/13—18 德军连续强攻莫扎伊斯克防线未果，10/18 突破。",
+     "sources": [
+      "strat_cmh_tomoscow",
+      "ger_4a",
+      "strat_wiki_ru"
+     ],
+     "confidence": "high"
+    },
+    {
+     "date": "1942-01-31T12:00",
+     "holder": "SU",
+     "note": "1/20 收复（第 5 集团军，戈沃罗夫；俄文维基城市条记 1/20 晨三面强攻）。**【折线限制】** 1/23 帧在此纬度仍画在 36.05°E（城西），到 1/31 帧才越过该城，故本表在 1/31 才标 SU——相差 11 天。以本表为准。",
+     "sources": [
+      "strat_cmh_counter2",
+      "strat_wiki_ru"
+     ],
+     "confidence": "medium",
+     "alternatives": [
+      {
+       "date": "1942-01-20T12:00",
+       "source": "strat_wiki_ru",
+       "note": "精确收复日 1/20，早于折线可表达的时点。"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "place": "lotoshino",
+   "zh": "洛托希诺",
+   "events": [
+    {
+     "date": "1941-09-30T12:00",
+     "holder": "SU",
+     "note": "9 月末在苏军手中。",
+     "sources": [
+      "strat_cmh_tomoscow",
+      "strat_wiki_ru"
+     ],
+     "confidence": "medium"
+    },
+    {
+     "date": "1941-10-18T12:00",
+     "holder": "DE",
+     "note": "10 月中旬（约 10/16）随第 4 装甲集群北翼推进被占。",
+     "sources": [
+      "strat_cmh_tomoscow",
+      "ger_pzgr4",
+      "strat_wiki_ru"
+     ],
+     "confidence": "medium"
+    },
+    {
+     "date": "1941-12-31T12:00",
+     "holder": "SU",
+     "note": "12 月下旬苏军反攻中收复（第 20 集团军方向）。",
+     "sources": [
+      "strat_cmh_counter1",
+      "strat_wiki_ru"
+     ],
+     "confidence": "medium"
+    },
+    {
+     "date": "1942-01-31T12:00",
+     "holder": "SU",
+     "note": "1 月末为苏方控制。",
+     "sources": [
+      "strat_cmh_counter2",
+      "strat_wiki_ru"
+     ],
+     "confidence": "medium"
+    }
+   ]
+  },
+  {
+   "place": "vyazma",
+   "zh": "维亚济马",
+   "events": [
+    {
+     "date": "1941-09-30T12:00",
+     "holder": "SU",
+     "note": "9 月末在苏军手中（西方面军与预备方面军接合部）。",
+     "sources": [
+      "strat_cmh_tomoscow",
+      "strat_wiki_ru"
+     ],
+     "confidence": "high"
+    },
+    {
+     "date": "1941-10-07T12:00",
+     "holder": "DE",
+     "note": "10/7 第 3、第 4 装甲集群在此会师，**合围闭合**；官方手册记 10/7 被占。控制区关键帧把全城沦陷按 10/13—14 计（合围圈肃清后）。",
+     "sources": [
+      "strat_cmh_tomoscow",
+      "ger_pzgr3",
+      "ger_pzgr4",
+      "strat_wiki_ru"
+     ],
+     "confidence": "high",
+     "alternatives": [
+      {
+       "date": "1941-10-13T12:00",
+       "source": "strat_wiki_ru",
+       "note": "官方手册记 10/7 占领；控制区按合围圈消除（10/14）后判德控，见 make_fronts CITY_WINDOWS。"
+      }
+     ]
+    },
+    {
+     "date": "1942-01-31T12:00",
+     "holder": "DE",
+     "note": "1 月末仍在德军手中（至 1943/3/12 才收复）。1 月总攻企图在维亚济马会合，未达成；苏军穿插集团反被分割。",
+     "sources": [
+      "strat_cmh_counter2",
+      "strat_wiki_ru",
+      "su_zhukov_memoirs"
+     ],
+     "confidence": "high"
+    }
+   ]
+  },
+  {
+   "place": "yukhnov",
+   "zh": "尤赫诺夫",
+   "events": [
+    {
+     "date": "1941-09-30T12:00",
+     "holder": "SU",
+     "note": "9 月末在苏军手中（华沙公路要点）。",
+     "sources": [
+      "strat_cmh_tomoscow",
+      "strat_wiki_ru"
+     ],
+     "confidence": "high"
+    },
+    {
+     "date": "1941-10-05T12:00",
+     "holder": "DE",
+     "note": "10/5 被第 4 装甲集群占领，切断华沙公路（官方手册记 10/5；俄文维基同）。",
+     "sources": [
+      "strat_cmh_tomoscow",
+      "ger_pzgr4",
+      "strat_wiki_ru"
+     ],
+     "confidence": "high"
+    },
+    {
+     "date": "1942-01-31T12:00",
+     "holder": "DE",
+     "note": "1 月末仍在德军手中（至 1942/3/5 才收复）。第 4 集团军在此维持突出部。",
+     "sources": [
+      "strat_cmh_counter2",
+      "strat_wiki_ru",
+      "su_cmd_konev"
+     ],
+     "confidence": "high"
+    }
+   ]
+  },
+  {
+   "place": "medyn",
+   "zh": "梅登",
+   "events": [
+    {
+     "date": "1941-09-30T12:00",
+     "holder": "SU",
+     "note": "9 月末在苏军手中。",
+     "sources": [
+      "strat_cmh_tomoscow",
+      "strat_wiki_ru"
+     ],
+     "confidence": "high"
+    },
+    {
+     "date": "1941-10-14T12:00",
+     "holder": "DE",
+     "note": "10/11 被占（官方解放城市手册）；包围维亚济马苏军的外圈要点。",
+     "sources": [
+      "strat_cmh_tomoscow",
+      "ger_pzgr3",
+      "strat_wiki_ru"
+     ],
+     "confidence": "medium",
+     "alternatives": [
+      {
+       "date": "1941-10-11T12:00",
+       "source": "strat_wiki_ru",
+       "note": "官方手册记 10/11；此处取 10/14 帧。"
+      }
+     ]
+    },
+    {
+     "date": "1942-01-23T12:00",
+     "holder": "SU",
+     "note": "1/14 收复（第 43 集团军，第 17、第 53 步兵师与第 26 坦克旅）。1/13 第 1 近卫骑兵军越过华沙公路。",
+     "sources": [
+      "strat_cmh_counter2",
+      "strat_wiki_ru"
+     ],
+     "confidence": "medium",
+     "alternatives": [
+      {
+       "date": "1942-01-14T12:00",
+       "source": "strat_wiki_ru",
+       "note": "精确日期 1/14；此处取 1/23 帧。"
+      }
+     ]
+    },
+    {
+     "date": "1942-01-31T12:00",
+     "holder": "SU",
+     "note": "1 月末为苏方控制。",
+     "sources": [
+      "strat_cmh_counter2",
+      "strat_wiki_ru"
+     ],
+     "confidence": "high"
+    }
+   ]
+  },
+  {
+   "place": "maloyaroslavets",
+   "zh": "小雅罗斯拉韦茨",
+   "events": [
+    {
+     "date": "1941-09-30T12:00",
+     "holder": "SU",
+     "note": "9 月末在苏军手中（莫扎伊斯克防线南段）。",
+     "sources": [
+      "strat_cmh_tomoscow",
+      "strat_wiki_ru"
+     ],
+     "confidence": "high"
+    },
+    {
+     "date": "1941-10-18T12:00",
+     "holder": "DE",
+     "note": "10/18 被第 19 装甲师占领（官方手册与城市条一致）；同日莫扎伊斯克亦失守。",
+     "sources": [
+      "strat_cmh_tomoscow",
+      "ger_4a",
+      "strat_wiki_ru"
+     ],
+     "confidence": "high"
+    },
+    {
+     "date": "1942-01-08T12:00",
+     "holder": "SU",
+     "note": "1942/1/2 收复（第 43 集团军第 53、第 17 步兵师与第 26 坦克旅）。",
+     "sources": [
+      "strat_cmh_counter1",
+      "strat_wiki_ru"
+     ],
+     "confidence": "medium",
+     "alternatives": [
+      {
+       "date": "1942-01-02T12:00",
+       "source": "strat_wiki_ru",
+       "note": "精确日期 1/2；此处取 1/8 帧。"
+      }
+     ]
+    },
+    {
+     "date": "1942-01-31T12:00",
+     "holder": "SU",
+     "note": "1 月末为苏方控制。",
+     "sources": [
+      "strat_cmh_counter2",
+      "strat_wiki_ru"
+     ],
+     "confidence": "high"
+    }
+   ]
+  },
+  {
+   "place": "naro_fominsk",
+   "zh": "纳罗福明斯克",
+   "events": [
+    {
+     "date": "1941-09-30T12:00",
+     "holder": "SU",
+     "note": "9 月末在苏军手中。",
+     "sources": [
+      "strat_cmh_tomoscow",
+      "strat_wiki_ru"
+     ],
+     "confidence": "high"
+    },
+    {
+     "date": "1941-12-01T12:00",
+     "holder": "DE",
+     "note": "**12/1 全线失守**。此前 10/17 起遭猛烈轰炸、10/22 仅被夺西半城，此后长期被第 1 近卫摩托化步兵师阻于纳拉河；12/1 德军在城北与城南突破纳拉河后整城陷落。",
+     "sources": [
+      "strat_cmh_tomoscow",
+      "ger_4a",
+      "strat_wiki_ru",
+      "strat_wiki_en"
+     ],
+     "confidence": "high",
+     "alternatives": [
+      {
+       "date": "1941-10-22T12:00",
+       "source": "strat_wiki_ru",
+       "note": "若按「西半城」计，德军控制自 10/22 起；本表按「整城归属」采 12/1。"
+      }
+     ]
+    },
+    {
+     "date": "1941-12-26T12:00",
+     "holder": "SU",
+     "note": "12/26 收复（第 33 集团军），德军被逐回纳拉河以西。",
+     "sources": [
+      "strat_cmh_counter1",
+      "strat_wiki_ru"
+     ],
+     "confidence": "high"
+    },
+    {
+     "date": "1942-01-31T12:00",
+     "holder": "SU",
+     "note": "1 月末为苏方控制。",
+     "sources": [
+      "strat_cmh_counter2",
+      "strat_wiki_ru"
+     ],
+     "confidence": "high"
+    }
+   ]
+  },
+  {
+   "place": "kaluga",
+   "zh": "卡卢加",
+   "events": [
+    {
+     "date": "1941-09-30T12:00",
+     "holder": "SU",
+     "note": "9 月末在苏军手中（第 49 集团军防区）。",
+     "sources": [
+      "strat_cmh_tomoscow",
+      "strat_wiki_ru"
+     ],
+     "confidence": "high"
+    },
+    {
+     "date": "1941-10-14T12:00",
+     "holder": "DE",
+     "note": "10 月中旬被第 13 军占领（官方解放城市手册记 10/13，英文维基同；俄文维基城市条记 10/12）。控制区关键帧按 10/14 起判德控。",
+     "sources": [
+      "strat_cmh_tomoscow",
+      "ger_4a",
+      "strat_wiki_ru",
+      "strat_wiki_en"
+     ],
+     "confidence": "high",
+     "alternatives": [
+      {
+       "date": "1941-10-13T12:00",
+       "source": "strat_wiki_ru",
+       "note": "官方解放城市手册记 10/13。"
+      },
+      {
+       "date": "1941-10-12T12:00",
+       "source": "strat_wiki_ru",
+       "note": "俄文维基「Калуга」条记 10/12 第 13 军进城。"
+      }
+     ]
+    },
+    {
+     "date": "1941-12-28T12:00",
+     "holder": "SU",
+     "note": "12 月底收复（官方手册与俄文维基城市条均记 **12/30 完全解放**；控制区关键帧按 12/28 起判苏控）。巷战自 12/20 夜苏军坦克突入市区起持续。",
+     "sources": [
+      "strat_cmh_counter1",
+      "strat_wiki_ru"
+     ],
+     "confidence": "high",
+     "alternatives": [
+      {
+       "date": "1941-12-30T12:00",
+       "source": "strat_wiki_ru",
+       "note": "官方手册与城市条记 12/30 完全解放。"
+      },
+      {
+       "date": "1941-12-29T12:00",
+       "source": "strat_wiki_ru",
+       "note": "部分资料记 12/29 市区主要部分肃清。"
+      }
+     ]
+    },
+    {
+     "date": "1942-01-31T12:00",
+     "holder": "SU",
+     "note": "1 月末为苏方控制。",
+     "sources": [
+      "strat_cmh_counter2",
+      "strat_wiki_ru"
+     ],
+     "confidence": "high"
+    }
+   ]
+  },
+  {
+   "place": "borodino",
+   "zh": "博罗季诺",
+   "events": [
+    {
+     "date": "1941-09-30T12:00",
+     "holder": "SU",
+     "note": "9 月末在苏军手中。",
+     "sources": [
+      "strat_cmh_tomoscow",
+      "strat_wiki_ru"
+     ],
+     "confidence": "medium"
+    },
+    {
+     "date": "1941-10-18T12:00",
+     "holder": "DE",
+     "note": "10 月中旬随莫扎伊斯克方向突破被占。",
+     "sources": [
+      "strat_cmh_tomoscow",
+      "ger_4a",
+      "strat_wiki_ru"
+     ],
+     "confidence": "medium"
+    },
+    {
+     "date": "1942-01-31T12:00",
+     "holder": "SU",
+     "note": "1/20 莫扎伊斯克收复后该地随之回到苏方控制。**【折线限制】** 折线在 55.51 纬度到 1/31 帧仍为 36.00°E（博罗季诺在 35.88°E，已在德控侧），本表按莫扎伊斯克的收复日推定，与折线不一致，以本表为准。",
+     "sources": [
+      "strat_cmh_counter2",
+      "strat_wiki_ru",
+      "su_zhukov_memoirs"
+     ],
+     "confidence": "medium"
+    }
+   ]
+  },
+  {
+   "place": "kubinka",
+   "zh": "库宾卡",
+   "events": [
+    {
+     "date": "1941-09-30T12:00",
+     "holder": "SU",
+     "note": "9 月末在苏军手中。",
+     "sources": [
+      "strat_cmh_tomoscow",
+      "strat_wiki_ru"
+     ],
+     "confidence": "medium"
+    },
+    {
+     "date": "1941-10-31T12:00",
+     "holder": "DE",
+     "note": "10 月下旬被占（第 4 装甲集群北翼）。",
+     "sources": [
+      "strat_cmh_tomoscow",
+      "ger_pzgr4",
+      "strat_wiki_ru"
+     ],
+     "confidence": "medium"
+    },
+    {
+     "date": "1941-12-20T12:00",
+     "holder": "SU",
+     "note": "12 月下旬苏军反攻中收复。",
+     "sources": [
+      "strat_cmh_counter1",
+      "strat_wiki_ru"
+     ],
+     "confidence": "medium"
+    },
+    {
+     "date": "1942-01-31T12:00",
+     "holder": "SU",
+     "note": "1 月末为苏方控制。",
+     "sources": [
+      "strat_cmh_counter2",
+      "strat_wiki_ru"
+     ],
+     "confidence": "medium"
+    }
+   ]
+  },
+  {
+   "place": "zvenigorod",
+   "zh": "兹韦尼哥罗德",
+   "events": [
+    {
+     "date": "1941-09-30T12:00",
+     "holder": "SU",
+     "note": "9 月末在苏军手中。",
+     "sources": [
+      "strat_cmh_tomoscow",
+      "strat_wiki_ru"
+     ],
+     "confidence": "medium"
+    },
+    {
+     "date": "1941-12-31T12:00",
+     "holder": "SU",
+     "note": "德军未及占领该城；12 月中旬后成为第 5 集团军反攻的通道。",
+     "sources": [
+      "strat_cmh_counter1",
+      "strat_wiki_ru",
+      "su_zhukov_memoirs"
+     ],
+     "confidence": "medium"
+    },
+    {
+     "date": "1942-01-31T12:00",
+     "holder": "SU",
+     "note": "1 月末为苏方控制。",
+     "sources": [
+      "strat_cmh_counter2",
+      "strat_wiki_ru"
+     ],
+     "confidence": "medium"
+    }
+   ]
+  },
+  {
+   "place": "bryansk",
+   "zh": "布良斯克",
+   "events": [
+    {
+     "date": "1941-09-30T12:00",
+     "holder": "SU",
+     "note": "9 月末在苏军手中（布良斯克方面军司令部所在）。",
+     "sources": [
+      "strat_cmh_tomoscow",
+      "strat_wiki_ru"
+     ],
+     "confidence": "high"
+    },
+    {
+     "date": "1941-10-07T12:00",
+     "holder": "DE",
+     "note": "10 月上旬被第 2 装甲集群占领（官方解放城市手册与俄文维基城市条均记 **10/6**；控制区关键帧按 10/7 起判德控）；布良斯克方面军被分割于城西南与东北两处。",
+     "sources": [
+      "strat_cmh_tomoscow",
+      "ger_pzgr2",
+      "strat_wiki_ru"
+     ],
+     "confidence": "high",
+     "alternatives": [
+      {
+       "date": "1941-10-06T12:00",
+       "source": "strat_wiki_ru",
+       "note": "官方手册与城市条记 10/6 被占。"
+      }
+     ]
+    },
+    {
+     "date": "1942-01-31T12:00",
+     "holder": "DE",
+     "note": "1 月末仍在德军手中（至 1943/9/17 才收复）；第 2 装甲集团军以之为后方基地。",
+     "sources": [
+      "strat_cmh_counter2",
+      "strat_wiki_ru"
+     ],
+     "confidence": "high"
+    }
+   ]
+  },
+  {
+   "place": "orel",
+   "zh": "奥廖尔",
+   "events": [
+    {
+     "date": "1941-09-30T12:00",
+     "holder": "SU",
+     "note": "9 月末在苏军手中，几乎未设防。",
+     "sources": [
+      "strat_cmh_tomoscow",
+      "strat_wiki_ru"
+     ],
+     "confidence": "high"
+    },
+    {
+     "date": "1941-10-03T12:00",
+     "holder": "DE",
+     "note": "10/3 被第 2 装甲集群占领（官方手册、俄文维基、CMH 一致）；德军装甲纵队穿城时市内有轨电车仍在运行。",
+     "sources": [
+      "strat_cmh_tomoscow",
+      "ger_pzgr2",
+      "strat_wiki_ru",
+      "strat_wiki_en"
+     ],
+     "confidence": "high"
+    },
+    {
+     "date": "1942-01-31T12:00",
+     "holder": "DE",
+     "note": "1 月末仍在德军手中（至 1943/8/5 才收复）；为第 2 装甲集团军的主要铁路终点。",
+     "sources": [
+      "strat_cmh_counter2",
+      "strat_wiki_ru"
+     ],
+     "confidence": "high"
+    }
+   ]
+  },
+  {
+   "place": "mtsensk",
+   "zh": "姆岑斯克",
+   "events": [
+    {
+     "date": "1941-09-30T12:00",
+     "holder": "SU",
+     "note": "9 月末在苏军手中。",
+     "sources": [
+      "strat_cmh_tomoscow",
+      "strat_wiki_ru"
+     ],
+     "confidence": "high"
+    },
+    {
+     "date": "1941-10-11T12:00",
+     "holder": "DE",
+     "note": "10/11 被占（官方解放城市手册）。10/4—11 卡图科夫第 4 坦克旅在其以东的奥普图哈河—祖沙河一线伏击，迟滞德军。",
+     "sources": [
+      "strat_cmh_tomoscow",
+      "ger_pzgr2",
+      "su_katukov",
+      "strat_wiki_ru"
+     ],
+     "confidence": "high"
+    },
+    {
+     "date": "1942-01-31T12:00",
+     "holder": "DE",
+     "note": "**1 月末仍在德军手中**（至 1943/7/20 才收复）。本战役南段苏军反攻止于姆岑斯克以东，未收复该城。",
+     "sources": [
+      "strat_cmh_counter2",
+      "strat_wiki_ru"
+     ],
+     "confidence": "high"
+    }
+   ]
+  },
+  {
+   "place": "bolkhov",
+   "zh": "博尔霍夫",
+   "events": [
+    {
+     "date": "1941-09-30T12:00",
+     "holder": "SU",
+     "note": "9 月末在苏军手中。",
+     "sources": [
+      "strat_cmh_tomoscow",
+      "strat_wiki_ru"
+     ],
+     "confidence": "medium"
+    },
+    {
+     "date": "1941-10-14T12:00",
+     "holder": "DE",
+     "note": "10 月上旬被第 2 装甲集团军占领。",
+     "sources": [
+      "strat_cmh_tomoscow",
+      "ger_pzgr2",
+      "strat_wiki_ru"
+     ],
+     "confidence": "medium"
+    },
+    {
+     "date": "1942-01-31T12:00",
+     "holder": "DE",
+     "note": "1 月末仍在德军手中（奥廖尔方向）。",
+     "sources": [
+      "strat_cmh_counter2",
+      "strat_wiki_ru"
+     ],
+     "confidence": "medium"
+    }
+   ]
+  },
+  {
+   "place": "novosil",
+   "zh": "诺沃西利",
+   "events": [
+    {
+     "date": "1941-09-30T12:00",
+     "holder": "SU",
+     "note": "9 月末在苏军手中。",
+     "sources": [
+      "strat_cmh_tomoscow",
+      "strat_wiki_ru"
+     ],
+     "confidence": "medium"
+    },
+    {
+     "date": "1941-10-31T12:00",
+     "holder": "DE",
+     "note": "10 月下旬被第 2 集团军占领。",
+     "sources": [
+      "strat_cmh_tomoscow",
+      "ger_pzgr2",
+      "strat_wiki_ru"
+     ],
+     "confidence": "medium"
+    },
+    {
+     "date": "1942-01-31T12:00",
+     "holder": "DE",
+     "note": "1 月末仍在德军手中（第 2 集团军冬季防线）。",
+     "sources": [
+      "strat_cmh_counter2",
+      "strat_wiki_ru"
+     ],
+     "confidence": "medium"
+    }
+   ]
+  },
+  {
+   "place": "yelets",
+   "zh": "叶列茨",
+   "events": [
+    {
+     "date": "1941-09-30T12:00",
+     "holder": "SU",
+     "note": "9 月末在苏军手中。",
+     "sources": [
+      "strat_cmh_tomoscow",
+      "strat_wiki_ru"
+     ],
+     "confidence": "high"
+    },
+    {
+     "date": "1941-12-05T12:00",
+     "holder": "DE",
+     "note": "12/4—5 被占（官方解放城市手册记 12/5；俄文维基城市条记 12/3 抵近郊、两天巷战后苏军撤离）。",
+     "sources": [
+      "strat_cmh_tomoscow",
+      "ger_pzgr2",
+      "strat_wiki_ru"
+     ],
+     "confidence": "high",
+     "alternatives": [
+      {
+       "date": "1941-12-04T12:00",
+       "source": "strat_wiki_ru",
+       "note": "城市条记 12/3 德军抵近郊，两天巷战后苏军撤离（约 12/4—5）。"
+      }
+     ]
+    },
+    {
+     "date": "1941-12-11T12:00",
+     "holder": "SU",
+     "note": "12/9 收复（西南方面军右翼叶列茨进攻战役 12/6—12/16）。这是南段第一个完整的「反攻—收复」循环。",
+     "sources": [
+      "strat_cmh_counter1",
+      "strat_wiki_ru",
+      "strat_wiki_en"
+     ],
+     "confidence": "high",
+     "alternatives": [
+      {
+       "date": "1941-12-09T12:00",
+       "source": "strat_wiki_ru",
+       "note": "精确日期 12/9；此处取 12/11 帧。"
+      }
+     ]
+    },
+    {
+     "date": "1942-01-31T12:00",
+     "holder": "SU",
+     "note": "1 月末为苏方控制；叶列茨突出部已被削平。",
+     "sources": [
+      "strat_cmh_counter2",
+      "strat_wiki_ru"
+     ],
+     "confidence": "high"
+    }
+   ]
+  },
+  {
+   "place": "livny",
+   "zh": "利夫内",
+   "events": [
+    {
+     "date": "1941-09-30T12:00",
+     "holder": "SU",
+     "note": "9 月末在苏军手中。",
+     "sources": [
+      "strat_cmh_tomoscow",
+      "strat_wiki_ru"
+     ],
+     "confidence": "high"
+    },
+    {
+     "date": "1941-12-02T12:00",
+     "holder": "DE",
+     "note": "11/26 被第 2 集团军占领（官方手册；俄文维基「Битва за Москву」亦记 11/26 德军占利夫内）。",
+     "sources": [
+      "strat_cmh_tomoscow",
+      "ger_pzgr2",
+      "strat_wiki_ru"
+     ],
+     "confidence": "medium",
+     "alternatives": [
+      {
+       "date": "1941-11-26T12:00",
+       "source": "strat_wiki_ru",
+       "note": "精确日期 11/26；此处取 12/02 帧。"
+      }
+     ]
+    },
+    {
+     "date": "1941-12-28T12:00",
+     "holder": "SU",
+     "note": "12/25 收复（官方手册）。",
+     "sources": [
+      "strat_cmh_counter1",
+      "strat_wiki_ru"
+     ],
+     "confidence": "medium",
+     "alternatives": [
+      {
+       "date": "1941-12-25T12:00",
+       "source": "strat_wiki_ru",
+       "note": "精确日期 12/25；此处取 12/28 帧。"
+      }
+     ]
+    },
+    {
+     "date": "1942-01-31T12:00",
+     "holder": "SU",
+     "note": "1 月末为苏方控制。",
+     "sources": [
+      "strat_cmh_counter2",
+      "strat_wiki_ru"
+     ],
+     "confidence": "high"
+    }
+   ]
+  },
+  {
+   "place": "kursk",
+   "zh": "库尔斯克",
+   "events": [
+    {
+     "date": "1941-09-30T12:00",
+     "holder": "SU",
+     "note": "9 月末在苏军手中。",
+     "sources": [
+      "strat_cmh_tomoscow",
+      "strat_wiki_ru"
+     ],
+     "confidence": "high"
+    },
+    {
+     "date": "1941-11-18T12:00",
+     "holder": "DE",
+     "note": "11/3—4 被占（官方手册记 11/4；俄文维基城市条记「11 月初德军抵城下，11/1—2 巷战，11/3 夜弃守，另说 11/4」）。",
+     "sources": [
+      "strat_cmh_tomoscow",
+      "ger_pzgr2",
+      "strat_wiki_ru"
+     ],
+     "confidence": "medium",
+     "alternatives": [
+      {
+       "date": "1941-11-03T12:00",
+       "source": "strat_wiki_ru",
+       "note": "城市条记 11/3 夜弃守，另有 11/4 之说。"
+      },
+      {
+       "date": "1941-11-04T12:00",
+       "source": "strat_wiki_ru",
+       "note": "官方解放城市手册记 11/4。"
+      }
+     ]
+    },
+    {
+     "date": "1942-01-31T12:00",
+     "holder": "DE",
+     "note": "**1 月末仍在德军手中**（至 1943/2/8 才收复）。本战役南段反攻未及库尔斯克。",
+     "sources": [
+      "strat_cmh_counter2",
+      "strat_wiki_ru"
+     ],
+     "confidence": "high"
+    }
+   ]
+  },
+  {
+   "place": "sukhinichi",
+   "zh": "苏希尼奇",
+   "events": [
+    {
+     "date": "1941-09-30T12:00",
+     "holder": "SU",
+     "note": "9 月末在苏军手中。",
+     "sources": [
+      "strat_cmh_tomoscow",
+      "strat_wiki_ru"
+     ],
+     "confidence": "high"
+    },
+    {
+     "date": "1941-10-08T12:00",
+     "holder": "DE",
+     "note": "10/8 被占（官方解放城市手册记 10/7，俄文维基城市条记 10/8；取 10/8）。",
+     "sources": [
+      "strat_cmh_tomoscow",
+      "ger_pzgr2",
+      "strat_wiki_ru"
+     ],
+     "confidence": "medium",
+     "alternatives": [
+      {
+       "date": "1941-10-07T12:00",
+       "source": "strat_wiki_ru",
+       "note": "官方解放城市手册记 10/7。"
+      }
+     ]
+    },
+    {
+     "date": "1942-01-29T12:00",
+     "holder": "SU",
+     "note": "1/29 收复（官方手册与城市条一致，每年 1/29 为解放日）。此前 12 月底—1 月是「**被围但未失守**」：第 10 集团军自 1/3 起围困约 4,000 名德军，希特勒令其「像阿尔卡萨尔那样」死守，1/24 第 18 装甲师两个营才打通联系。",
+     "sources": [
+      "strat_cmh_counter2",
+      "strat_wiki_ru",
+      "ger_halder_diary"
+     ],
+     "confidence": "high"
+    },
+    {
+     "date": "1942-01-31T12:00",
+     "holder": "SU",
+     "note": "1/29 收复后苏方控制直到本战役终点。",
+     "sources": [
+      "strat_cmh_counter2",
+      "strat_wiki_ru"
+     ],
+     "confidence": "high"
+    }
+   ]
+  },
+  {
+   "place": "kozelsk",
+   "zh": "科泽利斯克",
+   "events": [
+    {
+     "date": "1941-09-30T12:00",
+     "holder": "SU",
+     "note": "9 月末在苏军手中。",
+     "sources": [
+      "strat_cmh_tomoscow",
+      "strat_wiki_ru"
+     ],
+     "confidence": "high"
+    },
+    {
+     "date": "1941-10-10T12:00",
+     "holder": "DE",
+     "note": "10 月上旬被占（官方解放城市手册记 **10/8**；控制区关键帧按 10/10 起判德控）。",
+     "sources": [
+      "strat_cmh_tomoscow",
+      "ger_pzgr2",
+      "strat_wiki_ru"
+     ],
+     "confidence": "high",
+     "alternatives": [
+      {
+       "date": "1941-10-08T12:00",
+       "source": "strat_wiki_ru",
+       "note": "官方手册记 10/8 被占。"
+      }
+     ]
+    },
+    {
+     "date": "1941-12-28T12:00",
+     "holder": "SU",
+     "note": "12/28 收复（别洛夫集群；俄文维基「Битва за Москву」记别洛夫集群 12/28 攻克科泽利斯克）。",
+     "sources": [
+      "strat_cmh_counter1",
+      "su_belov",
+      "strat_wiki_ru"
+     ],
+     "confidence": "high"
+    },
+    {
+     "date": "1942-01-31T12:00",
+     "holder": "SU",
+     "note": "1 月末为苏方控制。",
+     "sources": [
+      "strat_cmh_counter2",
+      "strat_wiki_ru"
+     ],
+     "confidence": "high"
+    }
+   ]
+  },
+  {
+   "place": "belyov",
+   "zh": "别廖夫",
+   "events": [
+    {
+     "date": "1941-09-30T12:00",
+     "holder": "SU",
+     "note": "9 月末在苏军手中。",
+     "sources": [
+      "strat_cmh_tomoscow",
+      "strat_wiki_ru"
+     ],
+     "confidence": "high"
+    },
+    {
+     "date": "1941-10-24T12:00",
+     "holder": "DE",
+     "note": "10/24 被占（官方解放城市手册记 10/23；取 10/24）。",
+     "sources": [
+      "strat_cmh_tomoscow",
+      "ger_pzgr2",
+      "strat_wiki_ru"
+     ],
+     "confidence": "medium",
+     "alternatives": [
+      {
+       "date": "1941-10-23T12:00",
+       "source": "strat_wiki_ru",
+       "note": "官方手册记 10/23。"
+      }
+     ]
+    },
+    {
+     "date": "1941-12-31T12:00",
+     "holder": "SU",
+     "note": "12/31 收复（官方手册）。",
+     "sources": [
+      "strat_cmh_counter1",
+      "strat_wiki_ru"
+     ],
+     "confidence": "high"
+    },
+    {
+     "date": "1942-01-31T12:00",
+     "holder": "SU",
+     "note": "1 月末为苏方控制。",
+     "sources": [
+      "strat_cmh_counter2",
+      "strat_wiki_ru"
+     ],
+     "confidence": "high"
+    }
+   ]
+  },
+  {
+   "place": "venyov",
+   "zh": "韦尼奥夫",
+   "events": [
+    {
+     "date": "1941-09-30T12:00",
+     "holder": "SU",
+     "note": "9 月末在苏军手中。",
+     "sources": [
+      "strat_cmh_tomoscow",
+      "strat_wiki_ru"
+     ],
+     "confidence": "high"
+    },
+    {
+     "date": "1941-11-25T12:00",
+     "holder": "DE",
+     "note": "11/24 被占（官方解放城市手册）。11/21 西方面军军事委员会组建「韦尼奥夫战斗地段」。**【折线限制】** 韦尼奥夫（38.27°E）在折线以东很远——折线在该纬度只画到约 36.6°E，未覆盖此城；这是「折线为粗粒度接触线」的已知简化，以本表为准。",
+     "sources": [
+      "strat_cmh_tomoscow",
+      "ger_pzgr2",
+      "strat_wiki_ru"
+     ],
+     "confidence": "medium",
+     "alternatives": [
+      {
+       "date": "1941-11-24T12:00",
+       "source": "strat_wiki_ru",
+       "note": "精确陷落日 11/24。"
+      }
+     ]
+    },
+    {
+     "date": "1941-12-11T12:00",
+     "holder": "SU",
+     "note": "12/9 收复（别洛夫第 1 近卫骑兵军）。",
+     "sources": [
+      "strat_cmh_counter1",
+      "su_belov",
+      "strat_wiki_ru"
+     ],
+     "confidence": "high",
+     "alternatives": [
+      {
+       "date": "1941-12-09T12:00",
+       "source": "strat_wiki_ru",
+       "note": "精确日期 12/9；此处取 12/11 帧。"
+      }
+     ]
+    },
+    {
+     "date": "1942-01-31T12:00",
+     "holder": "SU",
+     "note": "1 月末为苏方控制。",
+     "sources": [
+      "strat_cmh_counter2",
+      "strat_wiki_ru"
+     ],
+     "confidence": "high"
+    }
+   ]
+  },
+  {
+   "place": "aleksin",
+   "zh": "阿列克辛",
+   "events": [
+    {
+     "date": "1941-09-30T12:00",
+     "holder": "SU",
+     "note": "9 月末在苏军手中。",
+     "sources": [
+      "strat_cmh_tomoscow",
+      "strat_wiki_ru"
+     ],
+     "confidence": "high"
+    },
+    {
+     "date": "1941-11-15T12:00",
+     "holder": "DE",
+     "note": "11 月被占（俄文维基城市条；第 238 步兵师 10/14 曾调此防守莫斯科—图拉公路，11 月中旬德军突入）。",
+     "sources": [
+      "strat_cmh_tomoscow",
+      "ger_4a",
+      "strat_wiki_ru"
+     ],
+     "confidence": "medium"
+    },
+    {
+     "date": "1941-12-17T12:00",
+     "holder": "SU",
+     "note": "12/17 收复（俄文维基城市条）。",
+     "sources": [
+      "strat_cmh_counter1",
+      "strat_wiki_ru"
+     ],
+     "confidence": "high"
+    },
+    {
+     "date": "1942-01-31T12:00",
+     "holder": "SU",
+     "note": "1 月末为苏方控制。",
+     "sources": [
+      "strat_cmh_counter2",
+      "strat_wiki_ru"
+     ],
+     "confidence": "high"
+    }
+   ]
+  },
+  {
+   "place": "tarusa",
+   "zh": "塔鲁萨",
+   "events": [
+    {
+     "date": "1941-09-30T12:00",
+     "holder": "SU",
+     "note": "9 月末在苏军手中。",
+     "sources": [
+      "strat_cmh_tomoscow",
+      "strat_wiki_ru"
+     ],
+     "confidence": "medium"
+    },
+    {
+     "date": "1941-10-31T12:00",
+     "holder": "DE",
+     "note": "10 月下旬被第 4 集团军右翼占领。",
+     "sources": [
+      "strat_cmh_tomoscow",
+      "ger_4a",
+      "strat_wiki_ru"
+     ],
+     "confidence": "medium"
+    },
+    {
+     "date": "1941-12-24T12:00",
+     "holder": "SU",
+     "note": "12/22 第 49 集团军在此突破，切断第 43 军与第 4 集团军主力的联系。",
+     "sources": [
+      "strat_cmh_counter2",
+      "strat_wiki_ru"
+     ],
+     "confidence": "medium"
+    },
+    {
+     "date": "1942-01-31T12:00",
+     "holder": "SU",
+     "note": "1 月末为苏方控制。",
+     "sources": [
+      "strat_cmh_counter2",
+      "strat_wiki_ru"
+     ],
+     "confidence": "medium"
+    }
+   ]
+  },
+  {
+   "place": "toropets",
+   "zh": "托罗佩茨",
+   "events": [
+    {
+     "date": "1941-09-30T12:00",
+     "holder": "DE",
+     "note": "1941/8/29 即被占（官方手册与俄文维基城市条一致），是德军在瓦尔代丘陵方向的前进基地。",
+     "sources": [
+      "strat_okh_35",
+      "ger_hgr_center",
+      "strat_wiki_ru"
+     ],
+     "confidence": "high"
+    },
+    {
+     "date": "1942-01-21T12:00",
+     "holder": "SU",
+     "note": "1942/1/21 解放（第 4 突击集团军与游击队协同；官方手册与城市条均记 1/21）。苏军在此缴获大批德军仓库物资。**本项与霍尔姆（Холм，1/22 起被围、1942/5/5 才解围）不是同一处。**",
+     "sources": [
+      "strat_cmh_counter2",
+      "strat_wiki_ru"
+     ],
+     "confidence": "high"
+    },
+    {
+     "date": "1942-01-31T12:00",
+     "holder": "SU",
+     "note": "1 月末为苏方控制；第 4 突击集团军自此南下向韦利日—杰米多夫推进。",
+     "sources": [
+      "strat_cmh_counter2",
+      "su_cmd_konev",
+      "strat_wiki_ru"
+     ],
+     "confidence": "high"
+    }
+   ]
+  },
+  {
+   "place": "kholm",
+   "zh": "霍尔姆",
+   "events": [
+    {
+     "date": "1941-09-30T12:00",
+     "holder": "DE",
+     "note": "1941/8/3 即被占（官方解放城市手册），本战役全程德占。",
+     "sources": [
+      "ger_hgr_center",
+      "strat_wiki_ru"
+     ],
+     "confidence": "high"
+    },
+    {
+     "date": "1942-01-31T12:00",
+     "holder": "DE",
+     "note": "**1 月末德军守备队（约 5,500 人）被第 3 突击集团军围困于城内，但城市未被攻下**；1942/5/5 德军「朗格战斗群」解围。此圈跨度超出本战役窗口，未列入 pockets。",
+     "sources": [
+      "strat_cmh_counter2",
+      "strat_wiki_ru"
+     ],
+     "confidence": "high"
+    }
+   ]
+  },
+  {
+   "place": "demyansk",
+   "zh": "杰米扬斯克",
+   "events": [
+    {
+     "date": "1941-09-30T12:00",
+     "holder": "DE",
+     "note": "1941/9/9 被占（俄文维基城市条：旧鲁萨反突击期间弃守，9/9 起被占），本战役全程德占。**【折线限制】** 杰米扬斯克（32.47°E, 57.64°N）在折线以西——折线在 57.4—58.0 纬度带取约 31.8—32.0°E，未覆盖该城；本战役的折线北段只到霍尔姆—奥斯塔什科夫一线，杰米扬斯克属西北方面军方向，不在本战线的主表达范围。以本表为准。",
+     "sources": [
+      "ger_hgr_center",
+      "strat_wiki_ru"
+     ],
+     "confidence": "high"
+    },
+    {
+     "date": "1942-01-31T12:00",
+     "holder": "DE",
+     "note": "1 月末仍在德军手中；2/8 起第 3、第 4 突击集团军南下形成杰米扬斯克包围圈（2/8—4/21），但该圈中心在本战役窗口之外。",
+     "sources": [
+      "strat_cmh_counter2",
+      "strat_wiki_ru"
+     ],
+     "confidence": "medium"
+    }
+   ]
+  },
+  {
+   "place": "smolensk",
+   "zh": "斯摩棱斯克",
+   "events": [
+    {
+     "date": "1941-09-30T12:00",
+     "holder": "DE",
+     "note": "1941/7/16 即被占（官方手册与城市条一致），本战役全程为中央集团军群后方基地。",
+     "sources": [
+      "strat_okh_35",
+      "ger_hgr_center",
+      "strat_wiki_ru"
+     ],
+     "confidence": "high"
+    },
+    {
+     "date": "1942-01-31T12:00",
+     "holder": "DE",
+     "note": "1 月末仍在德军手中（至 1943/9/25 才收复）；中央集团军群司令部设于此。",
+     "sources": [
+      "strat_cmh_counter2",
+      "strat_wiki_ru"
+     ],
+     "confidence": "high"
+    }
+   ]
+  },
+  {
+   "place": "velizh",
+   "zh": "韦利日",
+   "events": [
+    {
+     "date": "1941-09-30T12:00",
+     "holder": "DE",
+     "note": "1941 年 7 月即被占，本战役全程德占。",
+     "sources": [
+      "strat_okh_35",
+      "ger_hgr_center",
+      "strat_wiki_ru"
+     ],
+     "confidence": "medium"
+    },
+    {
+     "date": "1942-01-31T12:00",
+     "holder": "DE",
+     "note": "1 月末仍在德军手中；第 4 突击集团军 2 月初才进抵其接近地。",
+     "sources": [
+      "strat_cmh_counter2",
+      "strat_wiki_ru"
+     ],
+     "confidence": "medium"
+    }
+   ]
+  },
+  {
+   "place": "torzhok",
+   "zh": "托尔若克",
+   "events": [
+    {
+     "date": "1941-09-30T12:00",
+     "holder": "SU",
+     "note": "9 月末在苏军手中（西北方面军与西方面军接合部后方）。",
+     "sources": [
+      "strat_cmh_tomoscow",
+      "strat_wiki_ru"
+     ],
+     "confidence": "high"
+    },
+    {
+     "date": "1941-10-14T12:00",
+     "holder": "SU",
+     "note": "**全程未被占领**：10/14 第 3 装甲集群自加里宁向托尔若克推进，被瓦图京的西北方面军战役集群挡在托尔若克以西（俄文维基「Торжок」）。",
+     "sources": [
+      "strat_cmh_tomoscow",
+      "strat_wiki_ru"
+     ],
+     "confidence": "high",
+     "alternatives": [
+      {
+       "date": "1941-12-19T12:00",
+       "source": "strat_wiki_ru",
+       "note": "俄文维基与官方城市手册均未把托尔若克列入被占领城市表——该城 1941—42 年始终在苏方手中。「12/19 收复」之说与本项核实不符，不采用。"
+      }
+     ]
+    },
+    {
+     "date": "1942-01-31T12:00",
+     "holder": "SU",
+     "note": "1 月末为苏方控制，始终未被占领。",
+     "sources": [
+      "strat_cmh_counter2",
+      "strat_wiki_ru"
+     ],
+     "confidence": "high"
+    }
+   ]
+  }
+ ],
+ "knownLineMismatches": [
+  {
+   "place": "vyazma",
+   "date": "1941-10-07T12:00",
+   "ledgerHolder": "DE",
+   "lineHolder": "SU",
+   "reason": "10/7 是**合围圈闭合**日，维亚济马城区本身在合围圈内、尚未被德军占领（该城 10/13—14 才随合围圈肃清而沦陷，见 make_fronts CITY_WINDOWS 的 'vyazma' 窗口起点 1941-10-13）。本表按「合围圈闭合」记 DE 以对应 pockets.vyazma 的 start；控制区关键帧按「城区实际沦陷」判 SU。两者都对，取义不同。G2 自检请按 lineHolder 断言。"
+  },
+  {
+   "place": "livny",
+   "date": "1941-12-02T12:00",
+   "ledgerHolder": "DE",
+   "lineHolder": "SU",
+   "reason": "利夫内 1941-11-26 被第 2 集团军占领、12-25 收复（官方解放城市手册；俄文维基「Битва за Москву」记 11/26 德军占利夫内）。但该城在 37.60°E，位于折线南段以东约 100 km，25 行剖面在 52.43 纬度只到约 37.0°E。**控制区关键帧据此判为 SU，属已知简化**；本表记 DE 为史实。G2 自检请跳过此点。"
+  },
+  {
+   "place": "venyov",
+   "date": "1941-11-25T12:00",
+   "ledgerHolder": "DE",
+   "lineHolder": "SU",
+   "reason": "韦尼奥夫 1941-11-24 被占、12-09 由别洛夫骑兵军收复（官方手册；俄文维基记 12/9 收复）。该城在 38.27°E，远在图拉—卡卢加带以东；折线在该纬度带的两行锚点被「卡卢加 12/30 收复、图拉全程 SU」锁死，无法东伸。以本表为准。"
+  },
+  {
+   "place": "demyansk",
+   "date": "1941-09-30T12:00",
+   "ledgerHolder": "DE",
+   "lineHolder": "SU",
+   "reason": "杰米扬斯克 1941-09-09 被占，属**西北方面军**方向；折线北段（57.4—58.0 纬度）取约 31.8—32.0°E，只到霍尔姆—奥斯塔什科夫一线，未覆盖该城（32.47°E）。以本表为准。"
+  },
+  {
+   "place": "demyansk",
+   "date": "1942-01-31T12:00",
+   "ledgerHolder": "DE",
+   "lineHolder": "SU",
+   "reason": "同上；1 月末该城仍在德军手中（杰米扬斯克包围圈 2/8 才形成，圈中心在窗口外）。"
+  }
+ ]
+}

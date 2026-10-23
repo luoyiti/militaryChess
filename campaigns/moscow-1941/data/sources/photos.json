@@ -1,0 +1,18 @@
+[
+ {
+  "id": "pho_commons",
+  "title": "Wikimedia Commons 文件页与元数据 API（许可证、作者、原始说明）",
+  "author": "Wikimedia Commons",
+  "url": "https://commons.wikimedia.org/"
+ },
+ {
+  "id": "pho_rian",
+  "title": "俄新社（РИА Новости）历史照片档案在 Commons 的公有领域/CC 授权条目",
+  "author": "РИА Новости / Wikimedia Commons"
+ },
+ {
+  "id": "pho_bundesarchiv",
+  "title": "德国联邦档案馆（Bundesarchiv）照片在 Commons 的 CC BY-SA 3.0 de 授权条目",
+  "author": "Bundesarchiv / Wikimedia Commons"
+ }
+]

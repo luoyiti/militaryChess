@@ -1,0 +1,445 @@
+{
+  "photos": [
+    {
+      "file": "photos/ba-146-2008-0317-wounded-evacuation.webp",
+      "commons": "File:Bundesarchiv Bild 146-2008-0317, Russland, Bergung eines Verwundeten.jpg",
+      "title": "后送伤员",
+      "author": "摄影者未详（Commons 编目）",
+      "license": "CC BY-SA 3.0 de",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_146-2008-0317,_Russland,_Bergung_eines_Verwundeten.jpg"
+    },
+    {
+      "file": "photos/ba-183-b15500-village-before-moscow.webp",
+      "commons": "File:Bundesarchiv Bild 183-B15500, Russland, Dorf vor Moskau.jpg",
+      "title": "莫斯科城前的村庄与泥泞道路",
+      "author": "Britting",
+      "license": "CC BY-SA 3.0 de",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-B15500,_Russland,_Dorf_vor_Moskau.jpg"
+    },
+    {
+      "file": "photos/ba-183-b15686-refugees-istra.webp",
+      "commons": "File:Bundesarchiv Bild 183-B15686, Russland, bei Istra, Flüchtlinge.jpg",
+      "title": "伊斯特拉附近的逃难居民",
+      "author": "Gebauer",
+      "license": "CC BY-SA 3.0 de",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-B15686,_Russland,_bei_Istra,_Fl%C3%BCchtlinge.jpg"
+    },
+    {
+      "file": "photos/ba-183-b17220-tank-attack-istra.webp",
+      "commons": "File:Bundesarchiv Bild 183-B17220, Sowjetunion, Panzerangriff bei Istra.jpg",
+      "title": "伊斯特拉方向的坦克攻击",
+      "author": "Tannenberg",
+      "license": "CC BY-SA 3.0 de",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-B17220,_Sowjetunion,_Panzerangriff_bei_Istra.jpg"
+    },
+    {
+      "file": "photos/belov-cavalry-odoev.webp",
+      "commons": "File:Horsemen of 1st Guard Cavalry Corps entering Odoev.jpg",
+      "title": "近卫骑兵第 1 军进入奥多耶夫",
+      "author": "摄影者未详（Commons 编目）",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Horsemen_of_1st_Guard_Cavalry_Corps_entering_Odoev.jpg"
+    },
+    {
+      "file": "photos/bolshoi-theatre-camouflage.webp",
+      "commons": "File:Masking of Bolshoi Theatre 01.jpg",
+      "title": "伪装中的大剧院",
+      "author": "Главархив Москвы",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Masking_of_Bolshoi_Theatre_01.jpg"
+    },
+    {
+      "file": "photos/kl-wjasma-german-tanks.webp",
+      "commons": "File:Duitse tanks rukken op tijdens de Kesselschlacht bij Wjasma (2155 078762b).jpg",
+      "title": "维亚济马合围中的德军坦克",
+      "author": "Fotoafdrukken Koninklijke Landmacht",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Duitse_tanks_rukken_op_tijdens_de_Kesselschlacht_bij_Wjasma_(2155_078762b).jpg"
+    },
+    {
+      "file": "photos/lisyukov-observation-post.webp",
+      "commons": "File:Alexander Lisyukov at observation post.jpg",
+      "title": "利久科夫上校在观察所",
+      "author": "Дмитрий Чернов",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alexander_Lisyukov_at_observation_post.jpg"
+    },
+    {
+      "file": "photos/moscow-german-prisoners-dec41.webp",
+      "commons": "File:Mosca 1941 prigionieri tedeschi.jpg",
+      "title": "莫斯科战役中的德军俘虏",
+      "author": "摄影者未详（Commons 编目）",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mosca_1941_prigionieri_tedeschi.jpg"
+    },
+    {
+      "file": "photos/moscow-soviet-riflemen-attack.webp",
+      "commons": "File:Mosca 1941 sovietici.jpg",
+      "title": "莫斯科战役中的苏军步兵冲击",
+      "author": "摄影者未详（Commons 编目）",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mosca_1941_sovietici.jpg"
+    },
+    {
+      "file": "photos/moscow-tank-trap-digging.webp",
+      "commons": "File:Battle of Moscow.jpg",
+      "title": "莫斯科市民挖掘反坦克壕",
+      "author": "United States Information Agency",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Battle_of_Moscow.jpg"
+    },
+    {
+      "file": "photos/panfilov-316-division-recon.webp",
+      "commons": "File:Komsomolskaya-Pravda-77-1941-11-19-all (page 3 crop).jpg",
+      "title": "潘菲洛夫与第 316 步兵师指挥员",
+      "author": "Mikhail Mikhaylovich Kalashnikov",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Komsomolskaya-Pravda-77-1941-11-19-all_(page_3_crop).jpg"
+    },
+    {
+      "file": "photos/rian-14-aa-gunners.webp",
+      "commons": "File:RIAN archive 14 Anti-aircraft gunners defending Moscow.jpg",
+      "title": "保卫莫斯科的高射炮手",
+      "author": "Knorring / Олег Кнорринг",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:RIAN_archive_14_Anti-aircraft_gunners_defending_Moscow.jpg"
+    },
+    {
+      "file": "photos/rian-38689-acoustic-detector.webp",
+      "commons": "File:RIAN archive 38689 Defending the Moscow sky.jpg",
+      "title": "声学测音器",
+      "author": "Naum Granovsky",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:RIAN_archive_38689_Defending_the_Moscow_sky.jpg"
+    },
+    {
+      "file": "photos/rian-403-barrage-balloons.webp",
+      "commons": "File:RIAN archive 403 Antiaircraft balloons in Moscow.jpg",
+      "title": "为拦阻气球充气",
+      "author": "Knorring / Олег Кнорринг",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:RIAN_archive_403_Antiaircraft_balloons_in_Moscow.jpg"
+    },
+    {
+      "file": "photos/rian-46802-heavy-gun-crew.webp",
+      "commons": "File:RIAN archive 46802 The defense of Moscow.jpg",
+      "title": "重炮组向敌阵地射击",
+      "author": "Victor Antonovich Temin",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:RIAN_archive_46802_The_defense_of_Moscow.jpg"
+    },
+    {
+      "file": "photos/rian-669663-red-square-parade.webp",
+      "commons": "File:RIAN archive 669663 Soviet troops head to front lines after 1941 Red Square parade.jpg",
+      "title": "红场阅兵后直接开赴前线",
+      "author": "Anatoliy Garanin / Анатолий Гаранин",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:RIAN_archive_669663_Soviet_troops_head_to_front_lines_after_1941_Red_Square_parade.jpg"
+    },
+    {
+      "file": "photos/rian-887721-aa-guns-hotel-moskva.webp",
+      "commons": "File:RIAN archive 887721 Defense of Moscow.jpg",
+      "title": "莫斯科饭店屋顶的高射炮",
+      "author": "Knorring / Олег Кнорринг",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:RIAN_archive_887721_Defense_of_Moscow.jpg"
+    },
+    {
+      "file": "photos/tula-captured-germans-1941.webp",
+      "commons": "File:Captured Germans in Tula 1941.jpg",
+      "title": "图拉城下的德军俘虏",
+      "author": "Troshkin, Pavel Artemyevich",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Captured_Germans_in_Tula_1941.jpg"
+    },
+    {
+      "file": "photos/tula-defenders.webp",
+      "commons": "File:Defenders of Tula ready to fight.jpg",
+      "title": "图拉守军准备战斗",
+      "author": "摄影者未详（Commons 编目）",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Defenders_of_Tula_ready_to_fight.jpg"
+    }
+  ],
+  "audio": [
+    {
+      "file": "audio/sfx.webm#typewriter",
+      "title": "typewriter：WWS Typewriter.ogg",
+      "author": "Work With Sounds / Konrad Gutkowski",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:WWS_Typewriter.ogg"
+    },
+    {
+      "file": "audio/sfx.webm#bell",
+      "title": "bell：406243 stubb typewriter-ding-near-mono.wav",
+      "author": "_stubb",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:406243_stubb_typewriter-ding-near-mono.wav"
+    },
+    {
+      "file": "audio/sfx.webm#stamp",
+      "title": "stamp：traditional stamp.wav by I.fekry",
+      "author": "Unknown",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "sourceUrl": "https://freesound.org/people/I.fekry/sounds/470710/"
+    },
+    {
+      "file": "audio/sfx.webm#paper",
+      "title": "paper：PageRustle by Tomoyo Ichijouji",
+      "author": "Unknown",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "sourceUrl": "https://freesound.org/people/Tomoyo%20Ichijouji/sounds/211246/"
+    },
+    {
+      "file": "audio/sfx.webm#explosion",
+      "title": "explosion：Explosion 10.ogg",
+      "author": "tcpp",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Explosion_10.ogg"
+    },
+    {
+      "file": "audio/sfx.webm#artillery",
+      "title": "artillery：Sexton artillery firing.oga",
+      "author": "LouiseBrown1981",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sexton_artillery_firing.oga"
+    },
+    {
+      "file": "audio/sfx.webm#stuka",
+      "title": "stuka：property War Airplane Stuka Siren Sound Effect by Mastersoundboy2005",
+      "author": "Unknown",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "sourceUrl": "https://freesound.org/people/Mastersoundboy2005/sounds/758467/"
+    },
+    {
+      "file": "audio/sfx.webm#bomber",
+      "title": "bomber：War Planes Overhead! by SoundsExciting",
+      "author": "Unknown",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "sourceUrl": "https://freesound.org/people/SoundsExciting/sounds/213099/"
+    },
+    {
+      "file": "audio/sfx.webm#engine",
+      "title": "engine：G14-16-Old Truck with Sputtering Idle.wav by craigsmith",
+      "author": "Unknown",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "sourceUrl": "https://freesound.org/people/craigsmith/sounds/438085/"
+    },
+    {
+      "file": "audio/sfx.webm#tank",
+      "title": "tank：t26_moving_01.wav by greatmganga",
+      "author": "Unknown",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "sourceUrl": "https://freesound.org/people/greatmganga/sounds/329800/"
+    },
+    {
+      "file": "audio/sfx.webm#ship_gun",
+      "title": "ship_gun：Cannon Shot by qubodup",
+      "author": "Unknown",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "sourceUrl": "https://freesound.org/people/qubodup/sounds/187767/"
+    },
+    {
+      "file": "audio/sfx.webm#siren",
+      "title": "siren：Motorsirene - Feuerwehralarm.ogg",
+      "author": "Nallchen",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Motorsirene_-_Feuerwehralarm.ogg"
+    },
+    {
+      "file": "audio/sfx.webm#radio",
+      "title": "radio：Static B.wav",
+      "author": "Oreocooke",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Static_B.wav"
+    },
+    {
+      "file": "audio/sfx.webm#morse",
+      "title": "morse：SOS.ogg",
+      "author": "Dave Aton",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:SOS.ogg"
+    },
+    {
+      "file": "audio/sfx.webm#mg",
+      "title": "mg：Heavy Machine Gun by ShawnyBoy",
+      "author": "Unknown",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "sourceUrl": "https://freesound.org/people/ShawnyBoy/sounds/165394/"
+    },
+    {
+      "file": "audio/sfx.webm#rifle",
+      "title": "rifle：Gunshots 8.ogg",
+      "author": "aradlaw",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gunshots_8.ogg"
+    },
+    {
+      "file": "audio/sfx.webm#march",
+      "title": "march：marching-concrete-loop.aif by stib",
+      "author": "Unknown",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "sourceUrl": "https://freesound.org/people/stib/sounds/240732/"
+    },
+    {
+      "file": "audio/sfx.webm#cavalry",
+      "title": "cavalry：Six Horses Galloping By.ogg",
+      "author": "Freesound Community https://pixabay.com/users/freesound_community-46691455/ Bruno Auzet https://pixabay.com/sound-effects/nature-6-horses-gallopwav-14467/",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Six_Horses_Galloping_By.ogg"
+    },
+    {
+      "file": "audio/sfx.webm#ui_click",
+      "title": "ui_click：Computer mouse single click.ogg",
+      "author": "Darklanlan",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Computer_mouse_single_click.ogg"
+    },
+    {
+      "file": "audio/sfx.webm#fanfare",
+      "title": "fanfare：Cracow trumpet signal.ogg",
+      "author": "uploader Szczebrzeszynski",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cracow_trumpet_signal.ogg"
+    },
+    {
+      "file": "audio/sfx.webm#amb_wind",
+      "title": "amb_wind：Wind in Swedish pine forest at 25 mps.ogg",
+      "author": "W.carter",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wind_in_Swedish_pine_forest_at_25_mps.ogg"
+    },
+    {
+      "file": "audio/sfx.webm#amb_front",
+      "title": "amb_front：Explosion Distant  by Johnnyfarmer",
+      "author": "Unknown",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "sourceUrl": "https://freesound.org/people/Johnnyfarmer/sounds/209769/"
+    },
+    {
+      "file": "audio/sfx.webm#amb_radio",
+      "title": "amb_radio：am band static.wav by cognito perceptu",
+      "author": "Unknown",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "sourceUrl": "https://freesound.org/people/cognito%20perceptu/sounds/38693/"
+    }
+  ],
+  "music": [],
+  "fonts": [
+    {
+      "file": "fonts/NotoSerifSC-400.woff2, fonts/NotoSerifSC-700.woff2",
+      "title": "Noto Serif SC（思源宋体，子集）",
+      "author": "Google / Adobe",
+      "license": "SIL Open Font License 1.1",
+      "licenseUrl": "https://openfontlicense.org/",
+      "sourceUrl": "https://github.com/google/fonts/tree/main/ofl/notoserifsc"
+    },
+    {
+      "file": "fonts/LXGWWenKai-400.woff2",
+      "title": "霞鹜文楷 LXGW WenKai（子集）",
+      "author": "LXGW（落霞与孤鹜）",
+      "license": "SIL Open Font License 1.1",
+      "licenseUrl": "https://openfontlicense.org/",
+      "sourceUrl": "https://github.com/lxgw/LxgwWenKai"
+    },
+    {
+      "file": "fonts/SpecialElite-400.woff2",
+      "title": "Special Elite",
+      "author": "Astigmatic",
+      "license": "Apache License 2.0",
+      "licenseUrl": "https://www.apache.org/licenses/LICENSE-2.0",
+      "sourceUrl": "https://github.com/google/fonts/tree/main/apache/specialelite"
+    },
+    {
+      "file": "fonts/StardosStencil-400.woff2, fonts/StardosStencil-700.woff2",
+      "title": "Stardos Stencil",
+      "author": "Vernon Adams",
+      "license": "SIL Open Font License 1.1",
+      "licenseUrl": "https://openfontlicense.org/",
+      "sourceUrl": "https://github.com/google/fonts/tree/main/ofl/stardosstencil"
+    },
+    {
+      "file": "fonts/Oswald-400.woff2, fonts/Oswald-700.woff2",
+      "title": "Oswald",
+      "author": "Vernon Adams, Kalapi Gajjar, Cyreal",
+      "license": "SIL Open Font License 1.1",
+      "licenseUrl": "https://openfontlicense.org/",
+      "sourceUrl": "https://github.com/google/fonts/tree/main/ofl/oswald"
+    }
+  ],
+  "geography": [
+    {
+      "file": "geo/vectors.topo.json, tiles/base/, terrain/",
+      "title": "Natural Earth 1:10m：陆地、海岸、河流、湖泊与居民点",
+      "author": "Natural Earth contributors",
+      "license": "Public domain",
+      "licenseUrl": "https://www.naturalearthdata.com/about/terms-of-use/",
+      "sourceUrl": "https://www.naturalearthdata.com/"
+    },
+    {
+      "file": "geo/vectors.topo.json",
+      "title": "1938 年国界参考（本战役全图位于 1938 年苏联境内，未作边界修补）",
+      "author": "A. Ourednik 等 historical-basemaps；本项目核查",
+      "license": "GPL-3.0（历史边界参考）",
+      "licenseUrl": "https://www.gnu.org/licenses/gpl-3.0.html",
+      "sourceUrl": "https://github.com/aourednik/historical-basemaps"
+    },
+    {
+      "file": "terrain/height.png, terrain/albedo.webp",
+      "title": "离线地形晕渲：SRTM / GMTED2010 / ETOPO1 综合高程（Terrarium 瓦片）",
+      "author": "Mapzen / AWS Open Data",
+      "license": "依原始综合来源署名",
+      "sourceUrl": "https://registry.opendata.aws/terrain-tiles/"
+    },
+    {
+      "file": "data/ext/moscow/weather.json",
+      "title": "莫斯科逐日气温（站 27612）：Погода и климат 月报汇编，俄罗斯水文气象中心档案的第三方整理",
+      "author": "Погода и климат（А. Б. Колесов）",
+      "license": "事实数据；转载自站点的月报表格",
+      "sourceUrl": "http://www.pogodaiklimat.ru/monitor.php?id=27612"
+    }
+  ]
+}

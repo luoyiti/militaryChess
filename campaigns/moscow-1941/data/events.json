@@ -1,0 +1,2787 @@
+[
+  {
+    "id": "e.campaign_opens",
+    "at": "1941-09-30T00:00",
+    "precision": "day",
+    "category": "political",
+    "importance": 1,
+    "title": {
+      "zh": "莫斯科会战开始：台风行动的企图"
+    },
+    "body": "莫斯科会战自一九四一年九月三十日开始。中央集团军群投入第9、第4、第2集团军与三个装甲集群，企图先在维亚济马与布良斯克两次合围消灭莫斯科正面苏军，再南北迂回夺取首都。这是德军当年最后一次战略进攻。",
+    "place": "@moscow",
+    "sources": [
+      "strat_okh_35",
+      "strat_okh_taifun_order",
+      "strat_zh_wiki",
+      "strat_cmh_tomoscow",
+      "strat_cmh_blitz"
+    ],
+    "confidence": "high",
+    "zoomRel": 1.5,
+    "wide": true
+  },
+  {
+    "id": "e.typhoon_begins",
+    "at": "1941-09-30T04:00",
+    "precision": "hour",
+    "category": "movement",
+    "importance": 1,
+    "title": {
+      "zh": "古德里安自绍斯特卡东进，指向奥廖尔"
+    },
+    "body": "九月三十日，古德里安的第2装甲集群自绍斯特卡与格卢霍夫一线东进，指向奥廖尔—图拉。这是台风行动最早的突击，比中央方向的主攻早两天。德军意图以三次深远突破合围莫斯科以西的苏军，而非正面平推。",
+    "place": "@orel",
+    "units": [
+      "de.pzgr2",
+      "su.front_bryansk"
+    ],
+    "sources": [
+      "strat_cmh_tomoscow",
+      "ger_pzgr2",
+      "ger_guderian_panzerleader"
+    ],
+    "confidence": "high",
+    "zoomRel": 2.2
+  },
+  {
+    "id": "e.taifun_main_push",
+    "at": "1941-10-02T05:00",
+    "precision": "hour",
+    "category": "movement",
+    "importance": 1,
+    "title": {
+      "zh": "十月二日主攻：维亚济马方向的突破"
+    },
+    "body": "十月二日清晨，第9、第4集团军与第3、第4装甲集群在维亚济马方向转入主攻。德军在狭窄地段集中数倍优势，当日即突破防御。苏军西方面军第30集团军与第19集团军的接合部被撕开宽达三四十公里的缺口。",
+    "place": "@kholm_zhirkovsky",
+    "units": [
+      "de.9a",
+      "de.4a",
+      "de.pzgr3",
+      "de.pzgr4",
+      "su.front_w",
+      "su.30a",
+      "su.19a"
+    ],
+    "sources": [
+      "strat_cmh_tomoscow",
+      "strat_wiki_ru",
+      "ger_pzgr3",
+      "ger_pzgr4"
+    ],
+    "confidence": "high",
+    "zoomRel": 1.9,
+    "wide": true
+  },
+  {
+    "id": "e.orel_falls",
+    "at": "1941-10-03T12:00",
+    "precision": "day",
+    "category": "movement",
+    "importance": 2,
+    "title": {
+      "zh": "奥廖尔失守，南翼门户洞开"
+    },
+    "body": "十月三日，第2装甲集群前卫突入奥廖尔。城市几乎没有设防，德军沿奥廖尔—图拉公路继续东进。奥廖尔的失守使布良斯克方面军的侧后暴露，莫斯科南面的公路与铁路门户就此被打开。",
+    "place": "@orel",
+    "units": [
+      "de.pzgr2",
+      "su.front_bryansk"
+    ],
+    "sources": [
+      "strat_cmh_tomoscow",
+      "ger_pzgr2"
+    ],
+    "confidence": "high",
+    "zoomRel": 2.4
+  },
+  {
+    "id": "e.mtsensk_ambush",
+    "at": "1941-10-04T12:00",
+    "precision": "day",
+    "category": "battle",
+    "importance": 2,
+    "title": {
+      "zh": "姆岑斯克伏击：卡图科夫的第4坦克旅"
+    },
+    "body": "十月四日起，卡图科夫的第4坦克旅在姆岑斯克以东公路两侧设伏，以T-34从掩体内短距射击德军行军纵队。德军第4装甲师被迫放慢速度并改换路线。这次阻击为图拉方向的集结赢得时间，但未改变德军整体推进。",
+    "place": "@mtsensk",
+    "units": [
+      "de.pzgr2",
+      "su.4tbr"
+    ],
+    "sources": [
+      "su_katukov",
+      "strat_cmh_tomoscow",
+      "strat_wiki_ru"
+    ],
+    "confidence": "high",
+    "zoomRel": 3.2
+  },
+  {
+    "id": "e.spas_demensk_kirov",
+    "at": "1941-10-04T18:00",
+    "precision": "day",
+    "category": "movement",
+    "importance": 2,
+    "title": {
+      "zh": "斯帕斯杰缅斯克与基洛夫失守"
+    },
+    "body": "至十月四日日终，德军占领斯帕斯杰缅斯克与基洛夫（卡卢加州），并前出至维亚济马接近地。苏军预备方面军第24、第43集团军的地段被撕开，退却中的部队与后方失去联系，莫斯科方向已无完整预备队。",
+    "place": "@spas_demensk",
+    "units": [
+      "su.front_reserve",
+      "su.43a",
+      "de.pzgr4"
+    ],
+    "sources": [
+      "strat_cmh_tomoscow",
+      "strat_wiki_ru"
+    ],
+    "confidence": "high",
+    "zoomRel": 2.2
+  },
+  {
+    "id": "e.yukhnov_falls",
+    "at": "1941-10-05T12:00",
+    "precision": "day",
+    "category": "movement",
+    "importance": 2,
+    "title": {
+      "zh": "尤赫诺夫失守：通往首都的公路要点"
+    },
+    "body": "十月五日上午，德军第57摩托化军前卫自行进间夺取尤赫诺夫。此处距莫斯科约两百公里，是通往小雅罗斯拉韦茨与首都的公路要点。最高统帅部当天下午才确认失守，随即下令军校学员与空降分队前出堵口。",
+    "place": "@yukhnov",
+    "units": [
+      "de.4a",
+      "de.xx_corps"
+    ],
+    "sources": [
+      "strat_wiki_ru",
+      "strat_cmh_tomoscow"
+    ],
+    "confidence": "high",
+    "zoomRel": 2.6
+  },
+  {
+    "id": "e.podolsk_cadets",
+    "at": "1941-10-05T20:00",
+    "precision": "day",
+    "category": "battle",
+    "importance": 1,
+    "title": {
+      "zh": "波多利斯克军校生前出小雅罗斯拉韦茨"
+    },
+    "body": "十月五日，波多利斯克步兵与炮兵学校约三千五百名学员和教员被紧急调往小雅罗斯拉韦茨—尤赫诺夫一线，在乌格拉河与伊利因斯科耶一带阻击。他们迟滞德军前卫数日，为莫扎伊斯克防线争取时间；具体战果与人数仍有争议。",
+    "place": "@maloyaroslavets",
+    "units": [
+      "su.front_w"
+    ],
+    "sources": [
+      "su_podolsk",
+      "strat_cmh_tomoscow",
+      "strat_wiki_ru"
+    ],
+    "confidence": "medium",
+    "zoomRel": 3.2
+  },
+  {
+    "id": "e.panfilov_316_deploy",
+    "at": "1941-10-06T18:00",
+    "precision": "day",
+    "category": "movement",
+    "importance": 2,
+    "title": {
+      "zh": "第316步兵师展开于沃洛科拉姆斯克以东"
+    },
+    "body": "十月六日，刚从阿拉木图调来的第316步兵师在沃洛科拉姆斯克以东的利沃沃—博雷切沃一线展开。按条令该师应防守八到十二公里正面，实际却要覆盖约四十一公里，只能以支撑点与火力配系弥补兵力不足。",
+    "place": "@volokolamsk",
+    "units": [
+      "su.316id",
+      "su.16a"
+    ],
+    "sources": [
+      "su_28_panfilov",
+      "strat_wiki_ru",
+      "su_rokossovsky",
+      "pho_commons"
+    ],
+    "confidence": "high",
+    "zoomRel": 2.8,
+    "photo": {
+      "commons": "File:Komsomolskaya-Pravda-77-1941-11-19-all (page 3 crop).jpg",
+      "caption": "第 316 步兵师指挥员在现地勘察；该师防御正面远超条令规定，是十月防御的关键细节。照片为十一月刊出，不代表十月部署当日。"
+    }
+  },
+  {
+    "id": "e.first_snow_rasputitsa",
+    "at": "1941-10-06T23:00",
+    "precision": "day",
+    "category": "movement",
+    "importance": 2,
+    "title": {
+      "zh": "初雪与泥泞：道路成为第三战场"
+    },
+    "body": "十月六日夜间降下第一场雪。此后雨雪交替，加上坦克与卡车反复碾压，土路迅速变成深泥。德军装甲矛头被拉长到二三十公里，步兵有时反而走在坦克前面，补给车队大面积抛锚，推进节奏被迫放缓。",
+    "place": "@smolensk_heights",
+    "sources": [
+      "strat_cmh_tomoscow",
+      "ger_halder_diary",
+      "pho_commons",
+      "pho_bundesarchiv"
+    ],
+    "confidence": "high",
+    "zoomRel": 1.8,
+    "wide": true,
+    "photo": {
+      "commons": "File:Bundesarchiv Bild 183-B15500, Russland, Dorf vor Moskau.jpg",
+      "caption": "德方宣传连拍摄的泥泞道路，说明十至十一月道路对双方机动的共同限制；原注可能带宣传色彩。"
+    }
+  },
+  {
+    "id": "e.vyazma_ring_closed",
+    "at": "1941-10-07T12:00",
+    "precision": "day",
+    "category": "battle",
+    "importance": 1,
+    "title": {
+      "zh": "维亚济马合围圈封闭"
+    },
+    "body": "十月七日，第7装甲师与第10装甲师在维亚济马以东会合，封闭合围圈。西方面军与预备方面军的第19、第20、第24、第32集团军主力被困。这是台风行动中最大的一次合围，被围兵力估计在五十万以上。",
+    "place": "@vyazma",
+    "units": [
+      "de.pzgr3",
+      "de.pzgr4",
+      "su.front_w",
+      "su.front_reserve"
+    ],
+    "sources": [
+      "strat_cmh_tomoscow",
+      "strat_wiki_ru",
+      "ger_pzgr3",
+      "pho_commons"
+    ],
+    "confidence": "high",
+    "zoomRel": 2.2,
+    "wide": true,
+    "photo": {
+      "commons": "File:Duitse tanks rukken op tijdens de Kesselschlacht bij Wjasma (2155 078762b).jpg",
+      "caption": "合围中的德军装甲纵队；照片为十月合围阶段，不用于指认合围圈闭合的具体时刻与地点。"
+    }
+  },
+  {
+    "id": "e.volokolamsk_ur_cadets",
+    "at": "1941-10-08T12:00",
+    "precision": "day",
+    "category": "movement",
+    "importance": 3,
+    "title": {
+      "zh": "沃洛科拉姆斯克筑垒地域由军校学员占领"
+    },
+    "body": "十月八日，第35沃洛科拉姆斯克筑垒地域由莫斯科步兵学校学员约一千人、两个反坦克炮连和一个步兵营占领。工事尚未完工，火炮与弹药不足，守军只能在道路上设置反坦克支撑点，以火力网封锁接近路。",
+    "place": "@volokolamsk",
+    "units": [
+      "su.front_w"
+    ],
+    "sources": [
+      "strat_wiki_ru",
+      "geo_moscow_plan"
+    ],
+    "confidence": "medium",
+    "zoomRel": 3
+  },
+  {
+    "id": "e.dietrich_declares_decided",
+    "at": "1941-10-09T12:00",
+    "precision": "day",
+    "category": "political",
+    "importance": 3,
+    "title": {
+      "zh": "柏林宣布东线战事『已经决定』"
+    },
+    "body": "十月九日，德国宣传部国务秘书迪特里希对柏林外国记者宣布东线战事『已经决定』。这一表态与前线仍在泥泞中苦战的实况形成反差；同期美国驻莫斯科武官也报告说，俄国的抵抗大概即将结束。",
+    "place": "@kremlin",
+    "sources": [
+      "strat_cmh_tomoscow",
+      "ger_halder_diary"
+    ],
+    "confidence": "high",
+    "zoomRel": 2
+  },
+  {
+    "id": "e.gzhatsk_outer_ring",
+    "at": "1941-10-09T12:00",
+    "precision": "day",
+    "category": "movement",
+    "importance": 2,
+    "title": {
+      "zh": "格扎茨克被占，合围的对外正面形成"
+    },
+    "body": "十月九日，党卫军『帝国』师先遣队夺取格扎茨克，合围的对外正面由此形成。明斯克公路与维亚济马—瑟兹兰、莫斯科—斯摩棱斯克铁路被切断，被围苏军与后方的联系进一步恶化。",
+    "place": "@gzhatsk",
+    "units": [
+      "de.ss_reich",
+      "de.pzgr4"
+    ],
+    "sources": [
+      "strat_wiki_ru",
+      "strat_cmh_tomoscow",
+      "ger_hgr_center"
+    ],
+    "confidence": "high",
+    "zoomRel": 2.6
+  },
+  {
+    "id": "e.bryansk_pockets",
+    "at": "1941-10-09T18:00",
+    "precision": "day",
+    "category": "battle",
+    "importance": 2,
+    "title": {
+      "zh": "布良斯克方向三个集团军被围"
+    },
+    "body": "布良斯克方向，第2装甲集群与第2集团军合围了布良斯克方面军第3、第13、第50集团军主力。十月十三日方面军司令叶廖缅科在空袭中负伤，由扎哈罗夫接替指挥；部分部队化整为零向东突围，另有不少人留在森林中转入游击。",
+    "place": "@bryansk",
+    "units": [
+      "su.front_bryansk",
+      "su.3a",
+      "su.13a",
+      "su.50a",
+      "de.pzgr2",
+      "de.2a"
+    ],
+    "sources": [
+      "strat_cmh_tomoscow",
+      "strat_wiki_ru",
+      "ger_pzgr2"
+    ],
+    "confidence": "high",
+    "zoomRel": 2
+  },
+  {
+    "id": "e.zhukov_takes_command",
+    "at": "1941-10-10T12:00",
+    "precision": "day",
+    "category": "political",
+    "importance": 1,
+    "title": {
+      "zh": "朱可夫统一指挥西方面军与预备方面军"
+    },
+    "body": "十月十日，朱可夫奉命统一指挥西方面军与预备方面军，科涅夫留任副手。他接手的是一条已被撕开、兵力不足的防线，只能以维亚济马突围部队、新征召兵员与少量西伯利亚部队堵塞莫扎伊斯克一线。",
+    "place": "@mozhaisk",
+    "units": [
+      "su.front_w",
+      "su.front_reserve"
+    ],
+    "sources": [
+      "su_zhukov_memoirs",
+      "su_cmd_zhukov_wf",
+      "strat_cmh_tomoscow"
+    ],
+    "confidence": "high",
+    "zoomRel": 2.2
+  },
+  {
+    "id": "e.mozhaisk_line_manned",
+    "at": "1941-10-10T18:00",
+    "precision": "day",
+    "category": "movement",
+    "importance": 2,
+    "title": {
+      "zh": "莫扎伊斯克防线改为战斗地段"
+    },
+    "body": "十月十日，方面军军事委员会把莫扎伊斯克防线的各筑垒地域改为战斗地段。从莫斯科海到卡卢加，整条防线只有约九万人，多数地段只能守住坦克最可能通行的方向，其余以障碍、巡逻与火力机动补空。",
+    "place": "@mozhaisk",
+    "units": [
+      "su.front_w"
+    ],
+    "sources": [
+      "geo_moscow_plan",
+      "strat_cmh_tomoscow",
+      "strat_wiki_ru"
+    ],
+    "confidence": "high",
+    "zoomRel": 2.4
+  },
+  {
+    "id": "e.vyazma_breakout",
+    "at": "1941-10-11T12:00",
+    "precision": "day",
+    "category": "battle",
+    "importance": 2,
+    "title": {
+      "zh": "维亚济马被围部队的突围"
+    },
+    "body": "维亚济马合围圈内，被围各集团军多次组织突围，损失惨重。第19集团军司令卢金与前来接应的第32集团军司令维什涅夫斯基被俘，第24集团军司令拉库京阵亡。据俄方研究，约八万五千人最终突出合围或散入森林。",
+    "place": "@vyazma",
+    "units": [
+      "su.19a",
+      "su.20a",
+      "de.pzgr3",
+      "de.pzgr4"
+    ],
+    "sources": [
+      "strat_wiki_ru",
+      "strat_cmh_tomoscow",
+      "ger_bock_diary"
+    ],
+    "confidence": "medium",
+    "zoomRel": 2.6
+  },
+  {
+    "id": "e.kaluga_medyn_fall",
+    "at": "1941-10-12T12:00",
+    "precision": "day",
+    "category": "movement",
+    "importance": 2,
+    "title": {
+      "zh": "卡卢加与梅登失守"
+    },
+    "body": "十月十二日，卡卢加与梅登相继失守。德军沿奥卡河与莫斯科—基辅公路推进，逼近小雅罗斯拉韦茨；塔鲁萨于十月二十四日失守。莫斯科南面的公路与铁路枢纽受到直接威胁，第49集团军被迫沿奥卡河设防。",
+    "place": "@kaluga",
+    "units": [
+      "de.pzgr4",
+      "de.4a",
+      "su.49a"
+    ],
+    "sources": [
+      "strat_wiki_ru",
+      "strat_cmh_tomoscow"
+    ],
+    "confidence": "high",
+    "zoomRel": 2.4
+  },
+  {
+    "id": "e.moscow_zone_defense",
+    "at": "1941-10-12T16:00",
+    "precision": "day",
+    "category": "political",
+    "importance": 2,
+    "title": {
+      "zh": "莫斯科防御区与三道防线"
+    },
+    "body": "十月十二日，国防委员会决定在首都近接近地构筑防御地带，并组建莫斯科防御区，由阿尔捷米耶夫中将指挥。三道防线分别沿市郊、距城十五至二十公里处与环城铁路一线展开，由市民、民兵与工兵共同施工。",
+    "place": "@moscow",
+    "units": [
+      "su.pvo_moscow",
+      "su.moscow_militia"
+    ],
+    "sources": [
+      "geo_moscow_plan",
+      "su_special_moscow",
+      "su_opolcheniye",
+      "pho_commons"
+    ],
+    "confidence": "high",
+    "zoomRel": 2.2,
+    "photo": {
+      "commons": "File:Battle of Moscow.jpg",
+      "caption": "城防动员示意：市民与工兵在近郊开挖反坦克壕，与十月起构筑三道防御地带的进程对应。照片未注明地段，不用于指认某条防线。"
+    }
+  },
+  {
+    "id": "e.hitler_raze_moscow",
+    "at": "1941-10-12T20:00",
+    "precision": "day",
+    "category": "political",
+    "importance": 1,
+    "title": {
+      "zh": "希特勒下令合围莫斯科、以饥饿迫降"
+    },
+    "body": "十月十二日，希特勒下令对莫斯科采取与列宁格勒相同的办法：合围城市，以饥饿与恐惧迫使投降，德军士兵不得入城。这一命令意味着德军不准备进行城市巷战，而准备让居民承担后果。",
+    "place": "@kremlin",
+    "sources": [
+      "strat_cmh_tomoscow",
+      "ger_halder_diary",
+      "strat_wiki_ru"
+    ],
+    "confidence": "high",
+    "zoomRel": 2
+  },
+  {
+    "id": "e.vyazma_falls",
+    "at": "1941-10-13T12:00",
+    "precision": "day",
+    "category": "movement",
+    "importance": 1,
+    "title": {
+      "zh": "维亚济马陷落，合围战结束"
+    },
+    "body": "十月十三日，德军占领维亚济马城，维亚济马合围战至此结束。德军宣称俘虏六十六万三千人，这一数字属战时宣称口径；苏军被围部队一部分被俘，一部分突出合围或散入森林，后来成为敌后游击力量的基础。",
+    "place": "@vyazma",
+    "units": [
+      "de.pzgr3",
+      "de.pzgr4",
+      "su.front_w",
+      "su.front_reserve"
+    ],
+    "sources": [
+      "strat_cmh_tomoscow",
+      "ger_bock_diary",
+      "stat_casualty_debate",
+      "strat_wiki_ru"
+    ],
+    "confidence": "medium",
+    "zoomRel": 2.2
+  },
+  {
+    "id": "e.borovsk_rzhev_fall",
+    "at": "1941-10-14T12:00",
+    "precision": "day",
+    "category": "movement",
+    "importance": 2,
+    "title": {
+      "zh": "博罗夫斯克与勒热夫相继失守"
+    },
+    "body": "十月十四日，德军第57摩托化军夺取博罗夫斯克，第3装甲集群同时占领勒热夫。勒热夫的失守使加里宁方向暴露，也意味着从西北包抄莫斯科的道路被打开；苏军右翼各集团军被迫向伏尔加河左岸退却。",
+    "place": "@rzhev",
+    "units": [
+      "de.pzgr3",
+      "de.9a",
+      "su.22a",
+      "su.29a"
+    ],
+    "sources": [
+      "strat_wiki_ru",
+      "strat_cmh_tomoscow",
+      "ger_pzgr3"
+    ],
+    "confidence": "high",
+    "zoomRel": 2.2
+  },
+  {
+    "id": "e.kalinin_falls",
+    "at": "1941-10-14T18:00",
+    "precision": "day",
+    "category": "movement",
+    "importance": 1,
+    "title": {
+      "zh": "加里宁失守，德军转向伏尔加河"
+    },
+    "body": "十月十四日，第3装甲集群攻占加里宁。德军原本意在由此向东包抄莫斯科，苏军随即以右翼各集团军反复突击其侧翼。十月二十三日，博克下令停止经加里宁继续进攻，这次转向未能达成围歼目的。",
+    "place": "@kalinin",
+    "units": [
+      "de.pzgr3",
+      "de.9a",
+      "su.front_w",
+      "su.22a",
+      "su.29a",
+      "su.31a"
+    ],
+    "sources": [
+      "strat_cmh_tomoscow",
+      "strat_wiki_ru",
+      "su_cmd_konev",
+      "ger_9a"
+    ],
+    "confidence": "high",
+    "zoomRel": 2.2
+  },
+  {
+    "id": "e.moscow_evacuation",
+    "at": "1941-10-15T22:00",
+    "precision": "day",
+    "category": "political",
+    "importance": 1,
+    "title": {
+      "zh": "国防委员会决定撤出首都机关"
+    },
+    "body": "十月十五日，国防委员会决定把政府机关、外交使团与部分工厂撤往古比雪夫等地。次日开始，总参谋部各部门、军事学院与各人民委员部陆续东迁，部分工厂开始布雷并准备炸毁。这是一次真实的疏散，而非城市陷落的宣告。",
+    "place": "@moscow",
+    "sources": [
+      "su_special_moscow",
+      "strat_wiki_ru",
+      "strat_cmh_tomoscow",
+      "pho_commons",
+      "pho_rian"
+    ],
+    "confidence": "high",
+    "zoomRel": 1.8,
+    "photo": {
+      "commons": "File:RIAN archive 887721 Defense of Moscow.jpg",
+      "caption": "照片摄于疏散与戒严之前两个月，仅用于说明莫斯科防空在秋季前已就位，不代表十月十六日当天的城市状态。"
+    }
+  },
+  {
+    "id": "e.october_sixteenth_panic",
+    "at": "1941-10-16T12:00",
+    "precision": "day",
+    "category": "political",
+    "importance": 1,
+    "title": {
+      "zh": "十月十六日：莫斯科的恐慌与逃亡"
+    },
+    "body": "十月十六日，莫扎伊斯克防线被突破的消息传开，莫斯科出现抢购、焚烧档案与人员外逃。地铁一度停运，部分工厂停工。关于斯大林是否留在城中的细节多属后来传说，可靠的事实是政府机构确已东迁、市内秩序一度失控。",
+    "place": "@moscow",
+    "sources": [
+      "su_special_moscow",
+      "strat_wiki_ru",
+      "su_zhukov_memoirs"
+    ],
+    "confidence": "medium",
+    "zoomRel": 1.8
+  },
+  {
+    "id": "e.kalinin_front_formed",
+    "at": "1941-10-17T12:00",
+    "precision": "day",
+    "category": "political",
+    "importance": 2,
+    "title": {
+      "zh": "加里宁方面军组建"
+    },
+    "body": "十月十七日，最高统帅部以西方方面军右翼的第22、第29、第31、第30集团军为基础组建加里宁方面军，由科涅夫指挥。朱可夫的责任范围收窄到莫斯科正西与西南方向，两个方向得以分别指挥。",
+    "place": "@kalinin",
+    "units": [
+      "su.front_kalinin",
+      "su.22a",
+      "su.29a",
+      "su.31a",
+      "su.30a"
+    ],
+    "sources": [
+      "su_cmd_konev",
+      "strat_cmh_tomoscow",
+      "strat_wiki_ru"
+    ],
+    "confidence": "high",
+    "zoomRel": 2
+  },
+  {
+    "id": "e.mozhaisk_maloyaroslavets_fall",
+    "at": "1941-10-18T12:00",
+    "precision": "day",
+    "category": "movement",
+    "importance": 1,
+    "title": {
+      "zh": "莫扎伊斯克与小雅罗斯拉韦茨失守"
+    },
+    "body": "十月十八日，德军在猛烈空袭与炮火准备后攻占莫扎伊斯克，同日进入小雅罗斯拉韦茨。莫扎伊斯克防线的正面被撕开，莫斯科河与普罗特瓦河之间再无完整工事，只有零散支撑点继续抵抗到十月底。",
+    "place": "@mozhaisk",
+    "units": [
+      "de.pzgr4",
+      "de.4a",
+      "su.5a",
+      "su.33a"
+    ],
+    "sources": [
+      "strat_wiki_ru",
+      "strat_cmh_tomoscow",
+      "geo_moscow_plan"
+    ],
+    "confidence": "high",
+    "zoomRel": 2.4
+  },
+  {
+    "id": "e.moscow_siege",
+    "at": "1941-10-19T12:00",
+    "precision": "day",
+    "category": "political",
+    "importance": 1,
+    "title": {
+      "zh": "莫斯科及近郊实行戒严"
+    },
+    "body": "十月十九日，国防委员会宣布莫斯科及其近郊进入戒严状态，市内秩序交由军事当局维持，擅自离城与散布谣言者交军事法庭。部分研究把戒严日期记为十月二十日，此处取国防委员会决议的通行日期。",
+    "place": "@moscow",
+    "units": [
+      "su.nkvd_div",
+      "su.moscow_militia"
+    ],
+    "sources": [
+      "su_special_moscow",
+      "strat_cmh_tomoscow",
+      "strat_wiki_ru"
+    ],
+    "confidence": "high",
+    "zoomRel": 1.9
+  },
+  {
+    "id": "e.bock_prisoner_claim",
+    "at": "1941-10-19T20:00",
+    "precision": "day",
+    "category": "political",
+    "importance": 2,
+    "title": {
+      "zh": "博克的战俘数字：德方战时宣称口径"
+    },
+    "body": "十月十九日，博克发布命令，宣称在维亚济马与布良斯克两次合围中俘获苏军六十七万三千余人、坦克一千二百七十七辆、火炮四千三百七十八门。这组数字是德方战时宣传与统计口径，需与当代研究并列使用。",
+    "place": "@smolensk",
+    "units": [
+      "de.hgr_center"
+    ],
+    "sources": [
+      "ger_bock_diary",
+      "stat_casualty_debate",
+      "strat_cmh_tomoscow"
+    ],
+    "confidence": "medium",
+    "zoomRel": 2
+  },
+  {
+    "id": "e.vyazma_pow_camp",
+    "at": "1941-10-20T12:00",
+    "precision": "day",
+    "category": "atrocity",
+    "importance": 2,
+    "title": {
+      "zh": "维亚济马附近战俘营的死亡"
+    },
+    "body": "维亚济马合围之后，大量被俘苏军被关押在城郊的临时战俘营。据战后调查与德方档案，冬季的饥饿、伤寒与露天看押造成极高死亡率。具体死亡人数在俄德两国研究中差别很大，只能确认这是这场战役最沉重的人道后果之一。",
+    "place": "@vyazma",
+    "sources": [
+      "strat_cmh_tomoscow",
+      "stat_casualty_debate",
+      "strat_wiki_ru"
+    ],
+    "confidence": "low",
+    "zoomRel": 2.6
+  },
+  {
+    "id": "e.moscow_fortified_rings",
+    "at": "1941-10-21T12:00",
+    "precision": "day",
+    "category": "movement",
+    "importance": 2,
+    "title": {
+      "zh": "莫斯科市内三道防御地带开工"
+    },
+    "body": "十月二十一日，莫斯科防御区司令阿尔捷米耶夫下令在市内与近郊构筑支撑点与街垒，三道地带分别沿环城铁路、花园环与林荫环展开。工厂、桥梁与高层建筑被纳入火力配系，居民被组织起来开挖反坦克壕。",
+    "place": "@moscow",
+    "units": [
+      "su.moscow_militia",
+      "su.pvo_moscow"
+    ],
+    "sources": [
+      "geo_moscow_plan",
+      "su_opolcheniye",
+      "strat_wiki_ru",
+      "pho_commons"
+    ],
+    "confidence": "high",
+    "zoomRel": 2,
+    "photo": {
+      "commons": "File:Masking of Bolshoi Theatre 01.jpg",
+      "caption": "城市伪装与灯火管制是空袭防御的日常部分；大剧院的伪装与市内支撑点构筑同期进行，不表示该建筑曾作为火力点。"
+    }
+  },
+  {
+    "id": "e.naro_fominsk_street",
+    "at": "1941-10-22T12:00",
+    "precision": "day",
+    "category": "battle",
+    "importance": 2,
+    "title": {
+      "zh": "纳罗福明斯克巷战"
+    },
+    "body": "十月二十二日起，第33集团军与德军第258步兵师在纳罗福明斯克城内展开持续多日的巷战。苏军第1近卫摩托化步兵师于二十八日反击城东北郊未果，此后纳拉河一线转入相对沉寂，德军前沿距莫斯科约五十至七十公里。",
+    "place": "@naro_fominsk",
+    "units": [
+      "su.33a",
+      "su.43a",
+      "de.id258"
+    ],
+    "sources": [
+      "strat_wiki_ru",
+      "strat_cmh_tomoscow",
+      "pho_commons"
+    ],
+    "confidence": "high",
+    "zoomRel": 2.8,
+    "photo": {
+      "commons": "File:Alexander Lisyukov at observation post.jpg",
+      "caption": "第 1 近卫摩托化步兵师指挥员在观察所，该师参加了纳罗福明斯克方向的反击；照片未注明具体地段。"
+    }
+  },
+  {
+    "id": "e.tarusa_falls",
+    "at": "1941-10-24T12:00",
+    "precision": "day",
+    "category": "movement",
+    "importance": 3,
+    "title": {
+      "zh": "塔鲁萨失守，奥卡河一线受威胁"
+    },
+    "body": "十月二十四日，德军占领塔鲁萨，奥卡河北岸出现敌军前哨。苏军第49集团军沿河设防，阻止德军由此向谢尔普霍夫与莫斯科南郊推进；此后该方向长期保持对峙，未再出现大规模突破。",
+    "place": "@tarusa",
+    "units": [
+      "su.49a",
+      "de.4a"
+    ],
+    "sources": [
+      "strat_wiki_ru",
+      "strat_cmh_tomoscow"
+    ],
+    "confidence": "medium",
+    "zoomRel": 2.6
+  },
+  {
+    "id": "e.volokolamsk_falls",
+    "at": "1941-10-27T12:00",
+    "precision": "day",
+    "category": "movement",
+    "importance": 2,
+    "title": {
+      "zh": "沃洛科拉姆斯克失守"
+    },
+    "body": "十月二十七日，德军攻占沃洛科拉姆斯克。第16集团军退守城东与伊斯特拉河一线，第316步兵师在沃洛科拉姆斯克方向继续以支撑点防御。该城直到十二月二十日才被苏军收复。",
+    "place": "@volokolamsk",
+    "units": [
+      "su.16a",
+      "su.316id",
+      "de.pzgr4",
+      "de.pz2"
+    ],
+    "sources": [
+      "su_rokossovsky",
+      "strat_wiki_ru",
+      "strat_cmh_tomoscow"
+    ],
+    "confidence": "high",
+    "zoomRel": 2.4
+  },
+  {
+    "id": "e.workers_divisions",
+    "at": "1941-10-28T12:00",
+    "precision": "day",
+    "category": "political",
+    "importance": 3,
+    "title": {
+      "zh": "莫斯科工人师的组建"
+    },
+    "body": "十月二十八日，莫斯科防御计划获批，同时下令组建一个师与两个旅的莫斯科工人部队。此前七月与十月两次组建的民兵师共十二个、约十二万人，装备与训练不足，却被直接投入莫扎伊斯克一线的堵口作战。",
+    "place": "@moscow",
+    "units": [
+      "su.moscow_militia"
+    ],
+    "sources": [
+      "su_opolcheniye",
+      "geo_moscow_plan",
+      "strat_wiki_ru"
+    ],
+    "confidence": "high",
+    "zoomRel": 2
+  },
+  {
+    "id": "e.nara_line_holds",
+    "at": "1941-10-29T18:00",
+    "precision": "day",
+    "category": "battle",
+    "importance": 2,
+    "title": {
+      "zh": "纳拉河一线稳住"
+    },
+    "body": "十月底，第43集团军在纳拉河一线以极大代价挡住德军，迫使其转入防御。至十月底，中央集团军群在加里宁到奥卡河之间基本停滞，中线距莫斯科约五十五公里，台风行动的第一轮攻势已到极限。",
+    "place": "@nara_r",
+    "units": [
+      "su.43a",
+      "su.33a",
+      "de.4a"
+    ],
+    "sources": [
+      "strat_wiki_ru",
+      "strat_cmh_tomoscow",
+      "ger_halder_diary"
+    ],
+    "confidence": "high",
+    "zoomRel": 2.2
+  },
+  {
+    "id": "e.taifun_resume_order",
+    "at": "1941-10-30T12:00",
+    "precision": "day",
+    "category": "political",
+    "importance": 2,
+    "title": {
+      "zh": "博克下令重启台风"
+    },
+    "body": "十月三十日，博克下令台风行动恢复，等待天气与道路条件改善。此时德军补给线已被拉长，铁路换轨与公路泥泞同时制约运输；各装甲师可用坦克数大幅下降，攻势只能靠抽调兵力勉强维持。",
+    "place": "@smolensk",
+    "units": [
+      "de.hgr_center",
+      "de.pzgr3",
+      "de.pzgr4",
+      "de.pzgr2"
+    ],
+    "sources": [
+      "strat_cmh_tomoscow",
+      "ger_hgr_center",
+      "ger_halder_diary"
+    ],
+    "confidence": "high",
+    "zoomRel": 1.9,
+    "wide": true
+  },
+  {
+    "id": "e.tula_first_assault",
+    "at": "1941-10-30T12:00",
+    "precision": "day",
+    "category": "siege",
+    "importance": 1,
+    "title": {
+      "zh": "图拉：德军首次强攻被击退"
+    },
+    "body": "十月二十九日，古德里安的前卫抵近图拉；三十日起德军连续强攻。守军以第50集团军残部、内务人民委员部第156团、第732高射炮团与图拉工人团据城防守，十一月初的正面突击均被击退，城市未被攻下。",
+    "place": "@tula",
+    "units": [
+      "su.50a",
+      "su.nkvd_div",
+      "de.pzgr2",
+      "de.pz17"
+    ],
+    "sources": [
+      "strat_wiki_ru",
+      "strat_wiki_en",
+      "ger_guderian_panzerleader",
+      "pho_commons"
+    ],
+    "confidence": "high",
+    "zoomRel": 2.4,
+    "photo": {
+      "commons": "File:Defenders of Tula ready to fight.jpg",
+      "caption": "图拉街头的守军，与工人团、内务部队和第 50 集团军残部共同守城的记载对应；不指认某次具体突击。"
+    }
+  },
+  {
+    "id": "e.moscow_air_defense",
+    "at": "1941-11-01T21:00",
+    "precision": "day",
+    "category": "air",
+    "importance": 3,
+    "title": {
+      "zh": "莫斯科防空：夜间拦阻与气球阻塞"
+    },
+    "body": "秋季，德国第2航空队持续夜袭莫斯科。苏军以拦阻气球、探照灯与高射炮组成纵深配系，战斗机在探照灯引导下拦截。空袭造成平民伤亡与建筑损坏，但未能瓦解城市运转，也未能摧毁军工生产。",
+    "place": "@moscow",
+    "units": [
+      "su.pvo_moscow",
+      "de.luftflotte2",
+      "de.fliegerkorps8"
+    ],
+    "sources": [
+      "su_pvo_moscow",
+      "ger_la_8flieger",
+      "strat_wiki_ru",
+      "pho_commons",
+      "pho_rian"
+    ],
+    "confidence": "medium",
+    "zoomRel": 2.2,
+    "photo": {
+      "commons": "File:RIAN archive 38689 Defending the Moscow sky.jpg",
+      "caption": "这是声学测音器而非雷达：以听音与探照灯协同搜索轰炸机，是当时苏军防空的搜索手段。照片为十月初，不能据此确定某次具体空袭的拦截过程。"
+    }
+  },
+  {
+    "id": "e.frost_ends_mud",
+    "at": "1941-11-04T12:00",
+    "precision": "day",
+    "category": "movement",
+    "importance": 2,
+    "title": {
+      "zh": "寒潮到来，泥泞期结束"
+    },
+    "body": "十一月四日，气温骤降，地面冻结，持续近一个月的泥泞期结束。德军装甲与卡车重新可以越野机动，双方都加紧调整部署；但冻结的道路也使伪装与工事更难构筑，冬季作战的条件正在形成。",
+    "place": "@mozhaisk",
+    "sources": [
+      "strat_wiki_ru",
+      "strat_cmh_tomoscow",
+      "ger_winter_equipment"
+    ],
+    "confidence": "high",
+    "zoomRel": 1.8,
+    "wide": true
+  },
+  {
+    "id": "e.bryansk_forest_partisans",
+    "at": "1941-11-05T12:00",
+    "precision": "day",
+    "category": "political",
+    "importance": 3,
+    "title": {
+      "zh": "布良斯克森林中的游击战"
+    },
+    "body": "布良斯克合围之后，未能突围的苏军官兵大量散入布良斯克与斯摩棱斯克之间的森林，与地方党组织取得联系，组成游击支队。他们袭击铁路与补给车队，迫使德军长期在后方保留警备兵力。",
+    "place": "@bryansk",
+    "units": [
+      "su.front_bryansk"
+    ],
+    "sources": [
+      "strat_cmh_tomoscow",
+      "strat_wiki_ru"
+    ],
+    "confidence": "medium",
+    "zoomRel": 2.2
+  },
+  {
+    "id": "e.november_seventh_eve",
+    "at": "1941-11-06T20:00",
+    "precision": "day",
+    "category": "political",
+    "importance": 2,
+    "title": {
+      "zh": "十月革命纪念日前夜的莫斯科"
+    },
+    "body": "十一月六日，莫斯科苏维埃举行十月革命二十四周年庆祝会议，斯大林在会上讲话，强调德军的闪击战已在莫斯科城下受挫，并援引涅夫斯基、顿斯科伊、苏沃洛夫与库图佐夫的名字鼓舞士气。",
+    "place": "@moscow",
+    "sources": [
+      "su_parade_1941",
+      "strat_cmh_tomoscow",
+      "strat_wiki_ru"
+    ],
+    "confidence": "high",
+    "zoomRel": 1.9
+  },
+  {
+    "id": "e.red_square_parade",
+    "at": "1941-11-07T08:00",
+    "precision": "hour",
+    "category": "political",
+    "importance": 1,
+    "title": {
+      "zh": "红场阅兵：受阅部队直接开赴前线"
+    },
+    "body": "十一月七日清晨，莫斯科红场举行阅兵，斯大林在列宁墓上检阅。受阅部队在分列式后直接开赴莫斯科近郊前线，部分坦克与火炮未及返回营区即投入战斗。这次阅兵的政治意义远大于其军事规模。",
+    "place": "@kremlin",
+    "units": [
+      "su.moscow_militia",
+      "su.pvo_moscow",
+      "su.front_w"
+    ],
+    "sources": [
+      "su_parade_1941",
+      "strat_cmh_tomoscow",
+      "strat_wiki_ru",
+      "pho_commons",
+      "pho_rian"
+    ],
+    "confidence": "high",
+    "zoomRel": 2,
+    "photo": {
+      "commons": "File:RIAN archive 669663 Soviet troops head to front lines after 1941 Red Square parade.jpg",
+      "caption": "阅兵结束后部队直接开赴前线，是这次阅兵最核心的事实；照片不显示具体部队番号。"
+    }
+  },
+  {
+    "id": "e.zhukov_takes_50a",
+    "at": "1941-11-10T12:00",
+    "precision": "day",
+    "category": "political",
+    "importance": 3,
+    "title": {
+      "zh": "西方面军接管第50集团军"
+    },
+    "body": "十一月十日，布良斯克方面军撤销，其第50集团军转隶西方面军，朱可夫的控制范围由此从加里宁以南延伸到图拉。一周后第30集团军也由加里宁方面军转隶，两个方面军的接合部得以统一指挥。",
+    "place": "@tula",
+    "units": [
+      "su.front_w",
+      "su.50a",
+      "su.front_bryansk"
+    ],
+    "sources": [
+      "strat_cmh_tomoscow",
+      "su_cmd_zhukov_wf"
+    ],
+    "confidence": "high",
+    "zoomRel": 2
+  },
+  {
+    "id": "e.fourth_tank_brigade_guards",
+    "at": "1941-11-11T12:00",
+    "precision": "day",
+    "category": "political",
+    "importance": 2,
+    "title": {
+      "zh": "第4坦克旅改称第1近卫坦克旅"
+    },
+    "body": "十一月十一日，因姆岑斯克一带的阻击作战，第4坦克旅被授予近卫称号，改称第1近卫坦克旅，旅长卡图科夫。这是苏军最早获得近卫称号的坦克部队之一，称号的背后是十月初那次短促而有效的伏击。",
+    "place": "@mtsensk",
+    "units": [
+      "su.1gv_tbr",
+      "su.4tbr",
+      "su.316id"
+    ],
+    "sources": [
+      "su_katukov",
+      "strat_wiki_ru"
+    ],
+    "confidence": "high",
+    "zoomRel": 2.6
+  },
+  {
+    "id": "e.november_offensive_opens",
+    "at": "1941-11-15T08:00",
+    "precision": "hour",
+    "category": "movement",
+    "importance": 1,
+    "title": {
+      "zh": "十一月十五日：第二波攻势开始"
+    },
+    "body": "十一月十五日，第9集团军一部在加里宁以南首先出击，第30集团军未作有力抵抗即行后撤。次日，第3与第4装甲集群在拉马河与沃洛科拉姆斯克方向同时发起主攻，德军第二次向莫斯科扑来。",
+    "place": "@klin",
+    "units": [
+      "de.9a",
+      "de.pzgr3",
+      "de.pzgr4",
+      "su.30a",
+      "su.front_kalinin"
+    ],
+    "sources": [
+      "strat_cmh_tomoscow",
+      "strat_wiki_ru",
+      "ger_pzgr3"
+    ],
+    "confidence": "high",
+    "zoomRel": 2,
+    "wide": true
+  },
+  {
+    "id": "e.volokolamsk_counterblow",
+    "at": "1941-11-16T12:00",
+    "precision": "day",
+    "category": "battle",
+    "importance": 2,
+    "title": {
+      "zh": "第16集团军右翼的反突击被击溃"
+    },
+    "body": "十一月十六日，第16集团军右翼以一个坦克师与五个骑兵师的兵力向沃洛科拉姆斯克以东反击，正撞上第4装甲集群的进攻队形。反突击在德军装甲与火力压制下瓦解，苏军被迫继续向东退守。",
+    "place": "@volokolamsk",
+    "units": [
+      "su.16a",
+      "su.2gv_kk",
+      "de.pzgr4",
+      "de.pz2"
+    ],
+    "sources": [
+      "strat_cmh_tomoscow",
+      "su_rokossovsky",
+      "ger_weiss_101"
+    ],
+    "confidence": "high",
+    "zoomRel": 2.6
+  },
+  {
+    "id": "e.dubosekovo_fight",
+    "at": "1941-11-16T14:00",
+    "precision": "day",
+    "category": "battle",
+    "importance": 1,
+    "title": {
+      "zh": "杜博谢科沃一带的阻击与『二十八人』传说"
+    },
+    "body": "十一月十六日，第316步兵师在杜博谢科沃会让站一带与德军装甲部队激战，第1075团一部在此阻击。苏联时期广为流传的『二十八名潘菲洛夫战士』报道，二零一六年被俄总检察院认定系虚构；但该地段的真实战斗确实发生过。",
+    "place": [
+      36.05,
+      55.98
+    ],
+    "units": [
+      "su.316id",
+      "de.pz2"
+    ],
+    "sources": [
+      "su_28_panfilov",
+      "strat_wiki_ru",
+      "su_rokossovsky"
+    ],
+    "confidence": "medium",
+    "zoomRel": 3.2
+  },
+  {
+    "id": "e.thirtieth_army_kalinin",
+    "at": "1941-11-17T12:00",
+    "precision": "day",
+    "category": "movement",
+    "importance": 2,
+    "title": {
+      "zh": "第30集团军转隶西方面军"
+    },
+    "body": "十一月十七日，第30集团军由加里宁方面军转隶西方面军，朱可夫的正面由加里宁以南延伸到图拉。该军此前已被压入伏尔加河与莫斯科运河之间的夹角地带，一时无力阻止德军向东与向南推进，只能收拢残部。",
+    "place": "@konakovo",
+    "units": [
+      "su.30a",
+      "su.front_w",
+      "de.pzgr3"
+    ],
+    "sources": [
+      "strat_cmh_tomoscow",
+      "su_cmd_konev"
+    ],
+    "confidence": "high",
+    "zoomRel": 2.2
+  },
+  {
+    "id": "e.guderian_south_tula",
+    "at": "1941-11-18T08:00",
+    "precision": "hour",
+    "category": "movement",
+    "importance": 1,
+    "title": {
+      "zh": "古德里安绕行图拉，指向卡希拉"
+    },
+    "body": "十一月十八日，第2装甲集团军在图拉以南发起进攻，一个军当日推进近四十公里。地面冻结使装甲得以越野机动，德军企图绕过久攻不下的图拉，经卡希拉与科洛姆纳从南面完成对莫斯科的合围。",
+    "place": "@tula",
+    "units": [
+      "de.pzgr2",
+      "de.pz17",
+      "su.50a"
+    ],
+    "sources": [
+      "strat_cmh_tomoscow",
+      "ger_guderian_panzerleader",
+      "strat_wiki_ru"
+    ],
+    "confidence": "high",
+    "zoomRel": 2.2
+  },
+  {
+    "id": "e.stalin_calls_zhukov",
+    "at": "1941-11-19T22:00",
+    "precision": "day",
+    "category": "political",
+    "importance": 2,
+    "title": {
+      "zh": "斯大林电话询问：莫斯科能否守住"
+    },
+    "body": "十一月十九日，斯大林致电朱可夫，直言询问莫斯科能否守住，并要求『像共产党员那样诚实回答』。朱可夫答称可以守住，但需要至少两个集团军与两百辆坦克。斯大林答应给两个集团军，坦克则未给。",
+    "place": "@kremlin",
+    "units": [
+      "su.front_w"
+    ],
+    "sources": [
+      "su_zhukov_memoirs",
+      "strat_cmh_tomoscow",
+      "strat_wiki_ru"
+    ],
+    "confidence": "medium",
+    "zoomRel": 1.9
+  },
+  {
+    "id": "e.stalinogorsk_falls",
+    "at": "1941-11-22T12:00",
+    "precision": "day",
+    "category": "movement",
+    "importance": 3,
+    "title": {
+      "zh": "斯大林诺戈尔斯克失守"
+    },
+    "body": "十一月二十二日，德军占领斯大林诺戈尔斯克（今新莫斯科夫斯克）。这一带是莫斯科外围的煤化工与电力基地，失守使首都南面的工业支撑进一步削弱，德军装甲矛头也由此更接近卡希拉与奥卡河。",
+    "place": "@novomoskovsk",
+    "units": [
+      "de.pzgr2",
+      "su.50a"
+    ],
+    "sources": [
+      "strat_wiki_ru",
+      "strat_cmh_tomoscow"
+    ],
+    "confidence": "high",
+    "zoomRel": 2.4
+  },
+  {
+    "id": "e.klin_falls",
+    "at": "1941-11-23T18:00",
+    "precision": "day",
+    "category": "movement",
+    "importance": 1,
+    "title": {
+      "zh": "克林失守"
+    },
+    "body": "十一月二十三日，经过数日激战，第3装甲集群占领克林。德军随即沿克林—莫斯科铁路与公路向东南推进，直指索尔涅奇诺戈尔斯克。克林本身距克里姆林宫约八十五公里，此后数日德军前锋才推进到六十公里一线。",
+    "place": "@klin",
+    "units": [
+      "de.pzgr3",
+      "de.pz7",
+      "su.30a",
+      "su.16a"
+    ],
+    "sources": [
+      "strat_cmh_tomoscow",
+      "strat_wiki_ru",
+      "ger_pzgr3"
+    ],
+    "confidence": "high",
+    "zoomRel": 2.4
+  },
+  {
+    "id": "e.solnechnogorsk_falls",
+    "at": "1941-11-24T12:00",
+    "precision": "day",
+    "category": "movement",
+    "importance": 1,
+    "title": {
+      "zh": "索尔涅奇诺戈尔斯克失守"
+    },
+    "body": "十一月二十四日，德军占领索尔涅奇诺戈尔斯克。第16集团军为避免被合围，右翼退往伊斯特拉水库东岸。该城距克里姆林宫约六十公里，莫斯科—列宁格勒公路被切断，德军已逼近首都西北的最后一道水障。",
+    "place": "@solnechnogorsk",
+    "units": [
+      "de.pzgr4",
+      "de.pz2",
+      "su.16a"
+    ],
+    "sources": [
+      "strat_cmh_tomoscow",
+      "strat_wiki_ru",
+      "su_rokossovsky",
+      "ger_weiss_101"
+    ],
+    "confidence": "high",
+    "zoomRel": 2.6
+  },
+  {
+    "id": "e.istra_falls",
+    "at": "1941-11-26T12:00",
+    "precision": "day",
+    "category": "movement",
+    "importance": 2,
+    "title": {
+      "zh": "伊斯特拉失守与水库放水"
+    },
+    "body": "十一月二十六日，德军第10装甲师突入伊斯特拉。苏军在撤退时放空伊斯特拉水库，水位骤降，冰面塌陷并被薄水覆盖，德军沿水库东岸的进攻受阻。此后双方在伊斯特拉河一线反复争夺。",
+    "place": "@istra",
+    "units": [
+      "de.pz10",
+      "de.pzgr4",
+      "su.16a"
+    ],
+    "sources": [
+      "strat_wiki_ru",
+      "strat_cmh_tomoscow",
+      "su_rokossovsky",
+      "pho_commons",
+      "pho_bundesarchiv"
+    ],
+    "confidence": "high",
+    "zoomRel": 2.6,
+    "photo": {
+      "commons": "File:Bundesarchiv Bild 183-B17220, Sowjetunion, Panzerangriff bei Istra.jpg",
+      "caption": "伊斯特拉方向的德军坦克攻击，说明十一月末该方向是主攻轴线之一；不能据此确定水库放水的具体时刻。"
+    }
+  },
+  {
+    "id": "e.kashira_raid",
+    "at": "1941-11-26T12:00",
+    "precision": "day",
+    "category": "movement",
+    "importance": 1,
+    "title": {
+      "zh": "德军突至卡希拉，莫斯科南面告急"
+    },
+    "body": "十一月二十五日前后，第2装甲集团军一部绕过图拉东北，突至卡希拉接近地。卡希拉是通往莫斯科的公路要点，其失守将使首都南面失去屏障。最高统帅部急调骑兵与坦克部队南援。",
+    "place": "@kashira",
+    "units": [
+      "de.pzgr2",
+      "de.pz17",
+      "su.50a",
+      "su.2gv_kk"
+    ],
+    "sources": [
+      "strat_cmh_tomoscow",
+      "strat_wiki_ru",
+      "ger_guderian_panzerleader"
+    ],
+    "confidence": "high",
+    "zoomRel": 2.4
+  },
+  {
+    "id": "e.kashira_counterblow",
+    "at": "1941-11-27T12:00",
+    "precision": "day",
+    "category": "battle",
+    "importance": 2,
+    "title": {
+      "zh": "卡希拉反击：第2近卫骑兵军投入"
+    },
+    "body": "十一月底起，别洛夫的骑兵军与坦克部队在卡希拉以北反击，把突入的德军逐回。十二月四日，第1近卫骑兵军再次击退德军第17装甲师与埃贝巴赫集群，将其从卡希拉赶至莫尔德韦斯，莫斯科南面的战线由此稳住。",
+    "place": "@kashira",
+    "units": [
+      "su.2gv_kk",
+      "su.1gv_kd",
+      "su.2gv_kd",
+      "de.pz17",
+      "su.50a"
+    ],
+    "sources": [
+      "strat_cmh_tomoscow",
+      "su_belov",
+      "strat_wiki_ru"
+    ],
+    "confidence": "high",
+    "zoomRel": 2.4
+  },
+  {
+    "id": "e.krasnaya_polyana",
+    "at": "1941-11-27T20:00",
+    "precision": "day",
+    "category": "battle",
+    "importance": 1,
+    "title": {
+      "zh": "克拉斯纳亚波利亚纳：德军最接近莫斯科之处"
+    },
+    "body": "十一月底，第4装甲集群前锋进至克拉斯纳亚波利亚纳一带，对莫斯科市界约二十公里、对克里姆林宫约三十二公里，是德军在整个战役中推进到的最接近首都之处。战史常见的「二十七公里」按公路里程与更靠前的前哨点计算。它与运河北段的德米特罗夫之间留有宽约四十公里的缺口。",
+    "place": "@krasnaya_polyana",
+    "units": [
+      "de.pz2",
+      "de.pzgr4",
+      "su.16a",
+      "su.20a"
+    ],
+    "sources": [
+      "strat_cmh_tomoscow",
+      "strat_wiki_ru",
+      "su_zhukov_memoirs"
+    ],
+    "confidence": "high",
+    "zoomRel": 3.2
+  },
+  {
+    "id": "e.yakhroma_canal",
+    "at": "1941-11-28T12:00",
+    "precision": "day",
+    "category": "battle",
+    "importance": 1,
+    "title": {
+      "zh": "亚赫罗马桥头堡：德军越莫斯科运河"
+    },
+    "body": "十一月二十七日，第7装甲师进抵莫斯科—伏尔加运河；二十八日，第3装甲集群夺取亚赫罗马附近未被炸毁的桥梁，在东岸建立桥头堡。运河是莫斯科北面最后一道天然屏障，此处距克里姆林宫约六十公里。",
+    "place": "@yakhroma",
+    "units": [
+      "de.pz7",
+      "de.pzgr3",
+      "su.1sh_a"
+    ],
+    "sources": [
+      "strat_wiki_ru",
+      "strat_cmh_tomoscow",
+      "ger_pzgr3"
+    ],
+    "confidence": "high",
+    "zoomRel": 2.6
+  },
+  {
+    "id": "e.bock_last_regiment",
+    "at": "1941-11-28T23:00",
+    "precision": "day",
+    "category": "political",
+    "importance": 2,
+    "title": {
+      "zh": "博克投入最后一个团"
+    },
+    "body": "十一月二十八日夜，博克把手里唯一的预备队——第900教导旅（实际仅一个营）——交给第3装甲集群，命令放弃亚赫罗马桥头堡，沿运河西岸南下，与第4装甲集群会攻莫斯科。这已是他能投入的最后兵力。",
+    "place": "@smolensk",
+    "units": [
+      "de.hgr_center",
+      "de.pzgr3",
+      "de.pzgr4"
+    ],
+    "sources": [
+      "strat_cmh_tomoscow",
+      "ger_bock_diary",
+      "ger_halder_diary"
+    ],
+    "confidence": "high",
+    "zoomRel": 1.9
+  },
+  {
+    "id": "e.stalin_gives_reserve_armies",
+    "at": "1941-11-29T22:00",
+    "precision": "day",
+    "category": "political",
+    "importance": 1,
+    "title": {
+      "zh": "第1突击、第20、第10集团军转隶西方面军"
+    },
+    "body": "十一月二十九日，在朱可夫保证德军短期内不会投入新的重兵集团后，斯大林把第1突击集团军、第20集团军与第10集团军交给西方面军，用于即将开始的反突击。这是莫斯科防御最危急时刻的转折。",
+    "place": "@kremlin",
+    "units": [
+      "su.1sh_a",
+      "su.20a",
+      "su.10a",
+      "su.front_w"
+    ],
+    "sources": [
+      "strat_cmh_tomoscow",
+      "su_cmd_zhukov_wf",
+      "su_vasilevsky"
+    ],
+    "confidence": "high",
+    "zoomRel": 1.9
+  },
+  {
+    "id": "e.dedovsk_snegiri",
+    "at": "1941-11-30T12:00",
+    "precision": "day",
+    "category": "battle",
+    "importance": 1,
+    "title": {
+      "zh": "杰多夫斯克与斯涅吉里：第9近卫师的最后阵地"
+    },
+    "body": "十一月三十日，德军占领杰多夫斯克、彼得罗夫斯科耶、谢利瓦尼哈与斯涅吉里，逼近沃洛科拉姆斯克公路四十二公里处。别洛博罗多夫的第9近卫步兵师在此守住最后一道防线，德军未能沿公路突入莫斯科。",
+    "place": [
+      37.128,
+      55.869
+    ],
+    "units": [
+      "su.9id",
+      "de.pzgr4",
+      "de.pz10"
+    ],
+    "sources": [
+      "strat_wiki_ru",
+      "strat_cmh_tomoscow"
+    ],
+    "confidence": "high",
+    "zoomRel": 2.8
+  },
+  {
+    "id": "e.november_toll",
+    "at": "1941-11-30T23:00",
+    "precision": "day",
+    "category": "political",
+    "importance": 2,
+    "title": {
+      "zh": "十一月的代价"
+    },
+    "body": "十月初至十二月初的防御阶段，苏军不可恢复损失五十一万四千三百三十八人，卫生减员十四万三千九百四十一人；同期中央集团军群伤亡逾十四万五千人。两组数字的统计口径不同，只能并置，不能简单比较或相加。",
+    "place": "@moscow",
+    "sources": [
+      "stat_casualty_debate",
+      "su_krivosheev",
+      "stat_german_10_12",
+      "stat_soviet_10_12",
+      "pho_commons",
+      "pho_bundesarchiv"
+    ],
+    "confidence": "medium",
+    "zoomRel": 1.8,
+    "photo": {
+      "commons": "File:Bundesarchiv Bild 146-2008-0317, Russland, Bergung eines Verwundeten.jpg",
+      "caption": "冬季战场的卫生勤务压力；照片用于说明后送困难，不用于推算任何一方的伤亡数字。"
+    }
+  },
+  {
+    "id": "e.army_group_center_toll",
+    "at": "1941-11-30T23:30",
+    "precision": "day",
+    "category": "political",
+    "importance": 3,
+    "title": {
+      "zh": "德军装备的冬季折损"
+    },
+    "body": "到十一月底，中央集团军群各装甲师可用的坦克已降到很低的水平，个别师只剩数十辆；卡车因严寒与道路损坏大量报废，补给列车在换轨站与冻住的道岔前排队，前送吨位远低于夏季水平，攻势已难以为继。",
+    "place": "@smolensk",
+    "units": [
+      "de.hgr_center",
+      "de.pzgr2",
+      "de.pzgr3",
+      "de.pzgr4"
+    ],
+    "sources": [
+      "stat_german_10_12",
+      "ger_winter_equipment",
+      "strat_cmh_tomoscow"
+    ],
+    "confidence": "medium",
+    "zoomRel": 1.8
+  },
+  {
+    "id": "e.id258_breakthrough",
+    "at": "1941-12-01T12:00",
+    "precision": "day",
+    "category": "battle",
+    "importance": 2,
+    "title": {
+      "zh": "第258步兵师在公路以南的突破"
+    },
+    "body": "十二月一日，德军第258步兵师在莫斯科—斯摩棱斯克公路以南突入苏军防线，出乎双方预料。苏军以第33集团军与邻近部队堵击，至三日在反突击中把该师逐回，突破未能扩大为战役性进展。",
+    "place": "@naro_fominsk",
+    "units": [
+      "de.id258",
+      "de.4a",
+      "su.33a",
+      "su.43a"
+    ],
+    "sources": [
+      "strat_cmh_tomoscow",
+      "ger_4a"
+    ],
+    "confidence": "high",
+    "zoomRel": 2.8
+  },
+  {
+    "id": "e.khimki_reconnaissance",
+    "at": "1941-12-02T12:00",
+    "precision": "day",
+    "category": "battle",
+    "importance": 3,
+    "title": {
+      "zh": "希姆基方向的德军侦察分队"
+    },
+    "body": "十二月初，德军摩托车侦察分队出现在希姆基一带，距克里姆林宫约十九公里。此类渗透多为侦察性质，具体兵力与到达时刻在史料中说法不一，但德军前锋抵近首都近郊这一事实确凿。",
+    "place": "@khimki",
+    "units": [
+      "de.pzgr4",
+      "su.20a"
+    ],
+    "sources": [
+      "strat_cmh_tomoscow",
+      "strat_wiki_ru"
+    ],
+    "confidence": "low",
+    "zoomRel": 3.2
+  },
+  {
+    "id": "e.guderian_tula_fails",
+    "at": "1941-12-03T20:00",
+    "precision": "day",
+    "category": "battle",
+    "importance": 2,
+    "title": {
+      "zh": "古德里安放弃合围图拉"
+    },
+    "body": "十二月初，第2装甲集团军企图从东北合围图拉，但暴雪与苏军抵抗使进展停滞。古德里安在给上级的报告中称坦克在严寒中大量故障，而苏军坦克仍能开动，主张从图拉以东的突出部逐步后撤。",
+    "place": "@tula",
+    "units": [
+      "de.pzgr2",
+      "su.50a",
+      "su.49a"
+    ],
+    "sources": [
+      "ger_guderian_panzerleader",
+      "strat_cmh_tomoscow",
+      "strat_wiki_ru"
+    ],
+    "confidence": "high",
+    "zoomRel": 2.2
+  },
+  {
+    "id": "e.december_cold",
+    "at": "1941-12-04T06:00",
+    "precision": "day",
+    "category": "movement",
+    "importance": 1,
+    "title": {
+      "zh": "十二月四日：零下二十五度的早晨"
+    },
+    "body": "十二月四日前后，气温骤降至零下二十五度上下。坦克无法启动，机枪与火炮的润滑油凝固，一个夜行军的德军团出现三百余名冻伤。苏军同样受冻，但冬装与防冻准备相对充分，装备也更适应低温。",
+    "place": "@moscow",
+    "sources": [
+      "strat_cmh_tomoscow",
+      "ger_winter_equipment",
+      "strat_wiki_ru",
+      "pho_commons"
+    ],
+    "confidence": "high",
+    "zoomRel": 1.8,
+    "wide": true,
+    "units": [
+      "de.hgr_center",
+      "su.front_w"
+    ],
+    "photo": {
+      "commons": "File:Mosca 1941 sovietici.jpg",
+      "caption": "苏军步兵在雪原冲击；照片用于说明十二月的战场条件与苏军冬装状况，不表示当日气温或具体地段。"
+    }
+  },
+  {
+    "id": "e.fourth_army_defensive",
+    "at": "1941-12-04T18:00",
+    "precision": "day",
+    "category": "movement",
+    "importance": 1,
+    "title": {
+      "zh": "第4集团军转入防御"
+    },
+    "body": "十二月四日，第4集团军率先转入防御，其正面趋于沉寂；第4装甲集群击退克拉斯纳亚波利亚纳西南的苏军反击，但自认在协同到位前无力继续推进。德军全线攻势至此实际上已经停止。",
+    "place": "@naro_fominsk",
+    "units": [
+      "de.4a",
+      "de.pzgr4",
+      "su.33a"
+    ],
+    "sources": [
+      "strat_cmh_tomoscow",
+      "ger_4a",
+      "ger_halder_diary"
+    ],
+    "confidence": "high",
+    "zoomRel": 2.2
+  },
+  {
+    "id": "e.kalinin_counteroffensive",
+    "at": "1941-12-05T06:00",
+    "precision": "hour",
+    "category": "battle",
+    "importance": 1,
+    "title": {
+      "zh": "十二月五日：加里宁方面军率先反攻"
+    },
+    "body": "十二月五日拂晓，加里宁方面军第29集团军越过冰封的伏尔加河，在西岸突入第9集团军防线约一英里后被阻。同日起，西方面军与西南方面军也转入反攻。苏军选择在德军停止进攻却尚未转入防御之际动手。",
+    "place": "@kalinin",
+    "units": [
+      "su.front_kalinin",
+      "su.29a",
+      "su.31a",
+      "de.9a"
+    ],
+    "sources": [
+      "strat_cmh_counter1",
+      "strat_wiki_ru",
+      "su_cmd_konev"
+    ],
+    "confidence": "high",
+    "zoomRel": 2.2,
+    "wide": true
+  },
+  {
+    "id": "e.western_front_attacks",
+    "at": "1941-12-06T06:00",
+    "precision": "hour",
+    "category": "battle",
+    "importance": 1,
+    "title": {
+      "zh": "十二月六日：西方面军全线出击"
+    },
+    "body": "十二月六日，西方面军第30集团军自北向南突击，当日突破两个摩托化师的防御，至七日推进约二十五公里。第1突击集团军把主力集中在亚赫罗马方向，第16与第20集团军随后跟进，目标是把德军赶离莫斯科。",
+    "place": "@dmitrov",
+    "units": [
+      "su.front_w",
+      "su.30a",
+      "su.1sh_a",
+      "su.16a",
+      "su.20a",
+      "de.pzgr3"
+    ],
+    "sources": [
+      "strat_cmh_counter1",
+      "strat_wiki_ru",
+      "su_zhukov_memoirs",
+      "pho_commons",
+      "pho_rian"
+    ],
+    "confidence": "high",
+    "zoomRel": 2,
+    "wide": true,
+    "photo": {
+      "commons": "File:RIAN archive 46802 The defense of Moscow.jpg",
+      "caption": "反攻开始前的炮火准备，与十二月初转入反攻的时序吻合；不指认具体阵地与部队。"
+    }
+  },
+  {
+    "id": "e.sixteenth_army_joins",
+    "at": "1941-12-07T08:00",
+    "precision": "day",
+    "category": "battle",
+    "importance": 2,
+    "title": {
+      "zh": "第16集团军在克拉斯纳亚波利亚纳以西转入进攻"
+    },
+    "body": "十二月七日，西方面军最强的第16集团军在克拉斯纳亚波利亚纳以西正面加入反攻。此前一夜，第30集团军已把对克林的突击加深；德军中央集团军群向邻部求援，连『最后一个骑自行车的人』也要。",
+    "place": "@krasnaya_polyana",
+    "units": [
+      "su.16a",
+      "su.20a",
+      "de.pzgr4",
+      "de.pzgr3"
+    ],
+    "sources": [
+      "strat_cmh_counter1",
+      "su_rokossovsky",
+      "ger_halder_diary"
+    ],
+    "confidence": "high",
+    "zoomRel": 2.8
+  },
+  {
+    "id": "e.hitler_directive_39",
+    "at": "1941-12-08T15:00",
+    "precision": "day",
+    "category": "political",
+    "importance": 1,
+    "title": {
+      "zh": "希特勒第39号指令：全线转入防御"
+    },
+    "body": "十二月八日，希特勒签署第39号指令，命令东线德军在整条战线上转入防御，放弃以夺取莫斯科为目标的大规模进攻。指令同时要求部队就地坚守、不得擅自后撤，这道命令后来演变为十二月十六日的严禁撤退令。",
+    "place": "@smolensk",
+    "units": [
+      "de.hgr_center"
+    ],
+    "sources": [
+      "strat_cmh_counter1",
+      "strat_wiki_ru",
+      "ger_halder_diary"
+    ],
+    "confidence": "high",
+    "zoomRel": 1.9
+  },
+  {
+    "id": "e.yelets_operation",
+    "at": "1941-12-09T12:00",
+    "precision": "day",
+    "category": "battle",
+    "importance": 2,
+    "title": {
+      "zh": "叶列茨收复：南翼的反突击"
+    },
+    "body": "十二月九日，西南方面军收复叶列茨。六日起，第3与第13集团军在叶列茨—利夫内方向对德军第2集团军实施反突击，把战线向西推回，并威胁德军第34军一部。南翼的这次胜利使中央集团军群的右翼出现更大缺口。",
+    "place": "@yelets",
+    "units": [
+      "su.front_sw",
+      "su.13a",
+      "su.3a",
+      "de.2a"
+    ],
+    "sources": [
+      "strat_wiki_ru",
+      "strat_cmh_counter1"
+    ],
+    "confidence": "medium",
+    "zoomRel": 2.2
+  },
+  {
+    "id": "e.thirty_first_army_breakthrough",
+    "at": "1941-12-09T18:00",
+    "precision": "day",
+    "category": "battle",
+    "importance": 2,
+    "title": {
+      "zh": "第31集团军突破加里宁德军防御"
+    },
+    "body": "经过三日苦战，第31集团军于十二月九日日终突破德军防御，推进约十五公里，威胁加里宁德军的后方。与此同时，第30集团军的进攻威胁到第9集团军的补给线，德军被迫考虑放弃加里宁。",
+    "place": "@kalinin",
+    "units": [
+      "su.31a",
+      "su.29a",
+      "su.30a",
+      "de.9a"
+    ],
+    "sources": [
+      "strat_wiki_ru",
+      "su_cmd_konev",
+      "strat_cmh_counter1"
+    ],
+    "confidence": "high",
+    "zoomRel": 2.4
+  },
+  {
+    "id": "e.klin_liberated",
+    "at": "1941-12-15T06:00",
+    "precision": "day",
+    "category": "battle",
+    "importance": 1,
+    "title": {
+      "zh": "克林收复"
+    },
+    "body": "十二月十五日，第30集团军的机动部队与第1突击集团军一部进入克林（俄方记载为十四日夜间入城）。德军第3装甲集群在撤退中遗弃大量车辆与火炮，冻坏与拥塞造成的损失超过一周激战之数，十六日城内基本肃清。",
+    "place": "@klin",
+    "units": [
+      "su.30a",
+      "su.1sh_a",
+      "de.pzgr3",
+      "de.pz7"
+    ],
+    "sources": [
+      "strat_cmh_counter1",
+      "strat_wiki_ru",
+      "ger_pzgr3",
+      "pho_commons"
+    ],
+    "confidence": "high",
+    "zoomRel": 2.6,
+    "photo": {
+      "commons": "File:Mosca 1941 prigionieri tedeschi.jpg",
+      "caption": "克林与加里宁方向德军后撤后的俘虏；照片为十二月类型照片，不表示克林城内的具体场景。"
+    }
+  },
+  {
+    "id": "e.istra_reservoir_crossing",
+    "at": "1941-12-15T12:00",
+    "precision": "day",
+    "category": "battle",
+    "importance": 2,
+    "title": {
+      "zh": "伊斯特拉水库：冰面与放水"
+    },
+    "body": "十二月中旬，第16与第20集团军从水库南北两翼包抄，德军被迫放弃伊斯特拉水库一线向西退去。苏军工程兵在低水位与薄冰条件下架设渡场，追击部队沿淤泥与碎冰推进，速度受到很大限制。",
+    "place": "@istra",
+    "units": [
+      "su.16a",
+      "su.20a",
+      "de.pzgr4"
+    ],
+    "sources": [
+      "strat_wiki_ru",
+      "strat_cmh_counter1",
+      "su_rokossovsky",
+      "pho_commons",
+      "pho_bundesarchiv"
+    ],
+    "confidence": "high",
+    "zoomRel": 2.6,
+    "photo": {
+      "commons": "File:Bundesarchiv Bild 183-B15686, Russland, bei Istra, Flüchtlinge.jpg",
+      "caption": "战线两侧平民的处境：逃难居民与被放弃的村镇，是伊斯特拉—克林方向撤退的直接后果。"
+    }
+  },
+  {
+    "id": "e.kalinin_liberated",
+    "at": "1941-12-16T12:00",
+    "precision": "day",
+    "category": "battle",
+    "importance": 1,
+    "title": {
+      "zh": "加里宁收复"
+    },
+    "body": "十二月十六日凌晨，第9集团军下令撤出加里宁；上午，第31与第29集团军恢复进攻，当日收复该城。加里宁自十月十四日失守至此整整两个月，德军在莫斯科西北方向的支点被拔除。",
+    "place": "@kalinin",
+    "units": [
+      "su.31a",
+      "su.29a",
+      "de.9a"
+    ],
+    "sources": [
+      "strat_wiki_ru",
+      "su_cmd_konev",
+      "strat_cmh_counter1"
+    ],
+    "confidence": "high",
+    "zoomRel": 2.4
+  },
+  {
+    "id": "e.hitler_haltebefehl",
+    "at": "1941-12-16T20:00",
+    "precision": "day",
+    "category": "political",
+    "importance": 1,
+    "title": {
+      "zh": "严禁撤退令"
+    },
+    "body": "十二月十六日，希特勒下达严禁撤退令，禁止陆军大兵团作长距离后撤，要求各级指挥官亲自督战、坚守阵地。这道命令在德军内部评价两极：有人认为它避免了溃退，也有人认为它造成无谓损失。",
+    "place": "@smolensk",
+    "units": [
+      "de.hgr_center"
+    ],
+    "sources": [
+      "strat_wiki_ru",
+      "ger_halder_diary",
+      "strat_cmh_counter1"
+    ],
+    "confidence": "high",
+    "zoomRel": 1.9
+  },
+  {
+    "id": "e.dovator_killed",
+    "at": "1941-12-19T12:00",
+    "precision": "day",
+    "category": "battle",
+    "importance": 2,
+    "title": {
+      "zh": "多瓦托尔阵亡于鲁扎河"
+    },
+    "body": "十二月十九日，第2近卫骑兵军军长多瓦托尔少将在鲁扎河畔指挥强渡时中弹阵亡。此时苏军追击已在拉马河与鲁扎河一线被德军新的防御阵地挡住，五个集团军压到河岸却无法继续西进。",
+    "place": "@ruza_r",
+    "units": [
+      "su.2gv_kk",
+      "su.5a",
+      "de.pzgr3"
+    ],
+    "sources": [
+      "strat_cmh_counter1",
+      "strat_wiki_ru"
+    ],
+    "confidence": "high",
+    "zoomRel": 2.4
+  },
+  {
+    "id": "e.brauchitsch_bock_relieved",
+    "at": "1941-12-19T18:00",
+    "precision": "day",
+    "category": "political",
+    "importance": 2,
+    "title": {
+      "zh": "布劳希奇去职，博克被免"
+    },
+    "body": "十二月十九日，陆军总司令布劳希奇元帅因心脏病与指挥分歧去职，希特勒亲自兼任陆军总司令；同日博克元帅被免去中央集团军群司令，由第4集团军司令克卢格接任。德军高层在撤退问题上全面洗牌。",
+    "place": "@smolensk",
+    "units": [
+      "de.hgr_center",
+      "de.4a"
+    ],
+    "sources": [
+      "strat_wiki_ru",
+      "strat_cmh_counter1",
+      "ger_bock_diary"
+    ],
+    "confidence": "high",
+    "zoomRel": 1.9
+  },
+  {
+    "id": "e.lama_line_stopped",
+    "at": "1941-12-19T18:00",
+    "precision": "day",
+    "category": "movement",
+    "importance": 2,
+    "title": {
+      "zh": "北翼追击在拉马河与鲁扎河终止"
+    },
+    "body": "十二月十九日前后，第3与第4装甲集群先后在拉马河、鲁扎河一线稳住阵脚，苏军五个集团军压到河岸却未能立即突破。德军利用河流与村落构筑支撑点，北翼的追击由此转为对峙，战线直到春季无大变化。",
+    "place": "@lama_r",
+    "units": [
+      "de.pzgr3",
+      "de.pzgr4",
+      "su.1sh_a",
+      "su.16a",
+      "su.20a"
+    ],
+    "sources": [
+      "strat_cmh_counter2",
+      "strat_cmh_counter1"
+    ],
+    "confidence": "medium",
+    "zoomRel": 2.2
+  },
+  {
+    "id": "e.volokolamsk_liberated",
+    "at": "1941-12-20T12:00",
+    "precision": "day",
+    "category": "battle",
+    "importance": 2,
+    "title": {
+      "zh": "沃洛科拉姆斯克收复"
+    },
+    "body": "十二月二十日，德军被逐出沃洛科拉姆斯克，同一天第1突击集团军右翼进抵拉马河。该城自十月二十七日失守，至此收复。苏军随后在拉马河一线与德军对峙，正面强攻未能立即突破。",
+    "place": "@volokolamsk",
+    "units": [
+      "su.1sh_a",
+      "su.16a",
+      "su.20a",
+      "de.pzgr4"
+    ],
+    "sources": [
+      "strat_wiki_ru",
+      "strat_cmh_counter1",
+      "su_rokossovsky"
+    ],
+    "confidence": "high",
+    "zoomRel": 2.4
+  },
+  {
+    "id": "e.belov_cavalry_raid",
+    "at": "1941-12-24T12:00",
+    "precision": "day",
+    "category": "movement",
+    "importance": 2,
+    "title": {
+      "zh": "别洛夫骑兵集群向尤赫诺夫突进"
+    },
+    "body": "十二月二十四日，别洛夫的骑兵集群进抵卡卢加以南，受领的任务是前出奥卡河、在别廖夫以北渡河，再转向西北夺取尤赫诺夫。骑兵沿德军间隙深入，补给靠就地征集与空投，行动速度远快于正面步兵集团军。",
+    "place": "@belyov",
+    "units": [
+      "su.2gv_kk",
+      "su.50a",
+      "su.1gv_kd"
+    ],
+    "sources": [
+      "strat_wiki_ru",
+      "su_belov",
+      "pho_commons"
+    ],
+    "confidence": "medium",
+    "zoomRel": 2.2,
+    "photo": {
+      "commons": "File:Horsemen of 1st Guard Cavalry Corps entering Odoev.jpg",
+      "caption": "骑兵军在反攻中承担深远穿插，前景为缴获的德军反坦克炮；照片摄于奥多耶夫，与别洛夫支队的行动方向一致。"
+    }
+  },
+  {
+    "id": "e.bryansk_front_reactivated",
+    "at": "1941-12-24T12:00",
+    "precision": "day",
+    "category": "political",
+    "importance": 2,
+    "title": {
+      "zh": "布良斯克方面军重建"
+    },
+    "body": "十二月二十四日，最高统帅部重建布良斯克方面军，由切列维琴科指挥，下辖第3、第13集团军与预备队调来的第61集团军，任务是自南向北包抄中央集团军群的右翼，向姆岑斯克方向发展。",
+    "place": "@yefremov",
+    "units": [
+      "su.front_bryansk",
+      "su.3a",
+      "su.13a",
+      "su.61a",
+      "de.2a"
+    ],
+    "sources": [
+      "strat_wiki_ru",
+      "strat_cmh_counter1"
+    ],
+    "confidence": "high",
+    "zoomRel": 2.2
+  },
+  {
+    "id": "e.naro_fominsk_liberated",
+    "at": "1941-12-26T20:00",
+    "precision": "day",
+    "category": "battle",
+    "importance": 2,
+    "title": {
+      "zh": "纳罗福明斯克收复"
+    },
+    "body": "十二月二十六日，第33集团军以第93步兵师在邻部接合部突破，与第113步兵师一起向东南发展，德军被迫放弃纳罗福明斯克。同日第43集团军与第33集团军一部收复巴拉巴诺沃车站。",
+    "place": "@naro_fominsk",
+    "units": [
+      "su.33a",
+      "su.43a",
+      "su.93id",
+      "de.4a"
+    ],
+    "sources": [
+      "strat_wiki_ru",
+      "strat_cmh_counter1"
+    ],
+    "confidence": "high",
+    "zoomRel": 2.6
+  },
+  {
+    "id": "e.guderian_relieved",
+    "at": "1941-12-26T22:00",
+    "precision": "day",
+    "category": "political",
+    "importance": 2,
+    "title": {
+      "zh": "古德里安被解职"
+    },
+    "body": "十二月二十六日，古德里安被解除第2装甲集团军司令职务，调回预备役。直接起因是他擅自下令从图拉以东后撤，并与上级在撤退问题上公开冲突。德军在南翼的指挥由此改组为施密特集群。",
+    "place": "@orel",
+    "units": [
+      "de.pzgr2",
+      "de.2a"
+    ],
+    "sources": [
+      "strat_cmh_counter1",
+      "ger_guderian_panzerleader",
+      "strat_wiki_ru",
+      "pho_commons"
+    ],
+    "confidence": "high",
+    "zoomRel": 2,
+    "photo": {
+      "commons": "File:Captured Germans in Tula 1941.jpg",
+      "caption": "图拉解围后的德军俘虏，与第 2 装甲集团军在图拉方向的失利相关；不指认被俘部队番号。"
+    }
+  },
+  {
+    "id": "e.army_group_center_snowbound",
+    "at": "1941-12-27T12:00",
+    "precision": "day",
+    "category": "movement",
+    "importance": 2,
+    "title": {
+      "zh": "雪阻：中央集团军群的补给崩溃"
+    },
+    "body": "十二月下旬，暴雪把道路埋住，机车冻结，铁路运输几近瘫痪。各集团军报告兵力因战斗与冻伤急剧下降，第二装甲集团军每日能前送的物资只剩三百余吨。德军在莫斯科城下的后勤体系已经无法支撑继续作战。",
+    "place": "@smolensk",
+    "units": [
+      "de.hgr_center",
+      "de.pzgr2",
+      "de.2a"
+    ],
+    "sources": [
+      "strat_cmh_counter2",
+      "ger_winter_equipment",
+      "stat_german_10_12"
+    ],
+    "confidence": "high",
+    "zoomRel": 1.9,
+    "wide": true
+  },
+  {
+    "id": "e.kluge_requests_withdrawal",
+    "at": "1941-12-29T16:00",
+    "precision": "day",
+    "category": "political",
+    "importance": 2,
+    "title": {
+      "zh": "克卢格请求撤退，希特勒拒绝"
+    },
+    "body": "十二月二十九日，克卢格电话请求希特勒批准放弃卡卢加、让第9集团军逐步退向预设阵地，并把第4集团军正面后撤十至十五英里以腾出三个师。希特勒迟疑许久，只同意撤出卡卢加，其余一概禁止。",
+    "place": "@smolensk",
+    "units": [
+      "de.hgr_center",
+      "de.4a",
+      "de.9a"
+    ],
+    "sources": [
+      "strat_cmh_counter2",
+      "ger_halder_diary"
+    ],
+    "confidence": "high",
+    "zoomRel": 2
+  },
+  {
+    "id": "e.kaluga_liberated",
+    "at": "1941-12-30T03:00",
+    "precision": "day",
+    "category": "battle",
+    "importance": 1,
+    "title": {
+      "zh": "卡卢加收复"
+    },
+    "body": "十二月三十日凌晨，第50集团军第258、第340步兵师与波波夫支队的部队把德军逐出卡卢加。残部向孔德罗沃与尤赫诺夫退去。苏军在车站缴获待发的列车，内有坦克三十辆、榴弹炮十一门与大量弹药。",
+    "place": "@kaluga",
+    "units": [
+      "su.50a",
+      "su.49a",
+      "de.4a"
+    ],
+    "sources": [
+      "strat_wiki_ru",
+      "strat_cmh_counter1"
+    ],
+    "confidence": "high",
+    "zoomRel": 2.4
+  },
+  {
+    "id": "e.december_german_toll",
+    "at": "1941-12-31T23:00",
+    "precision": "day",
+    "category": "political",
+    "importance": 2,
+    "title": {
+      "zh": "十二月的伤亡数字"
+    },
+    "body": "据德方统计，中央集团军群十二月伤亡约十万三千六百人；苏军在反攻阶段（十二月初至一月初）不可恢复损失十三万九千五百八十六人，卫生减员二十三万一千三百六十九人。两套统计口径不同，不能直接比较。",
+    "place": "@moscow",
+    "sources": [
+      "stat_casualty_debate",
+      "strat_wiki_ru",
+      "stat_german_10_12"
+    ],
+    "confidence": "medium",
+    "zoomRel": 1.8
+  },
+  {
+    "id": "e.maloyaroslavets_liberated",
+    "at": "1942-01-02T12:00",
+    "precision": "day",
+    "category": "battle",
+    "importance": 2,
+    "title": {
+      "zh": "小雅罗斯拉韦茨收复"
+    },
+    "body": "一月二日，第43集团军第5空降军一部与第33集团军第93步兵师收复小雅罗斯拉韦茨。该城十月中旬曾是莫扎伊斯克防线南段的关键支撑点，也是波多利斯克军校生当年阻击的地域，至此重归苏军。",
+    "place": "@maloyaroslavets",
+    "units": [
+      "su.43a",
+      "su.4vdk",
+      "su.93id",
+      "de.4a"
+    ],
+    "sources": [
+      "strat_wiki_ru",
+      "strat_cmh_counter1"
+    ],
+    "confidence": "high",
+    "zoomRel": 2.6
+  },
+  {
+    "id": "e.borovski_liberated",
+    "at": "1942-01-04T06:00",
+    "precision": "day",
+    "category": "battle",
+    "importance": 3,
+    "title": {
+      "zh": "博罗夫斯克收复"
+    },
+    "body": "一月四日凌晨，经过四天巷战与白刃格斗，苏军收复博罗夫斯克。第93步兵师第129团绕过城市切断三条公路，第201拉脱维亚师与第338步兵师自东、东北方向压上，德军的防御集团被彻底合围并歼灭。",
+    "place": [
+      36.487,
+      55.207
+    ],
+    "units": [
+      "su.93id",
+      "su.33a",
+      "de.4a"
+    ],
+    "sources": [
+      "strat_wiki_ru",
+      "strat_cmh_counter1"
+    ],
+    "confidence": "high",
+    "zoomRel": 2.8
+  },
+  {
+    "id": "e.protva_defense",
+    "at": "1942-01-05T12:00",
+    "precision": "day",
+    "category": "battle",
+    "importance": 3,
+    "title": {
+      "zh": "普罗特瓦河一线的德军新防线"
+    },
+    "body": "一月初，第4集团军沿普罗特瓦河与鲁扎河组织新的防御，兵力密度虽低但有河流依托。苏军第33、第43、第49集团军的正面进攻收效有限，只得以滑雪分队与骑兵从间隙渗透，战线开始由追击转为对峙。",
+    "place": "@protva_r",
+    "units": [
+      "de.4a",
+      "su.33a",
+      "su.43a",
+      "su.49a"
+    ],
+    "sources": [
+      "strat_cmh_counter2",
+      "strat_wiki_ru"
+    ],
+    "confidence": "medium",
+    "zoomRel": 2.2
+  },
+  {
+    "id": "e.sukhinichi_encircled",
+    "at": "1942-01-06T12:00",
+    "precision": "day",
+    "category": "battle",
+    "importance": 2,
+    "title": {
+      "zh": "苏希尼奇：德军被围于城内"
+    },
+    "body": "一月二日，第10集团军各师进抵苏希尼奇接近地，第323步兵师自北面绕过城市夺取米哈列维奇并攻击苏希尼奇—主站。至一月六日，城内德军被完全合围，战斗转为阵地对峙，直到一月二十九日苏军才彻底肃清该城。",
+    "place": "@sukhinichi",
+    "units": [
+      "su.10a",
+      "de.4a"
+    ],
+    "sources": [
+      "strat_wiki_ru",
+      "strat_cmh_counter2"
+    ],
+    "confidence": "high",
+    "zoomRel": 2.6
+  },
+  {
+    "id": "e.january_general_offensive_order",
+    "at": "1942-01-07T12:00",
+    "precision": "day",
+    "category": "political",
+    "importance": 1,
+    "title": {
+      "zh": "一月七日：最高统帅部下令总攻"
+    },
+    "body": "一月七日，最高统帅部下达训令，要求加里宁方面军自勒热夫西北向瑟乔夫卡与维亚济马、西方面军左翼自卡卢加向尤赫诺夫实施向心突击，围歼中央集团军群主力。反攻由此转为全面总攻。",
+    "place": "@kremlin",
+    "units": [
+      "su.front_kalinin",
+      "su.front_w"
+    ],
+    "sources": [
+      "strat_wiki_ru",
+      "strat_cmh_counter2"
+    ],
+    "confidence": "high",
+    "zoomRel": 1.9,
+    "wide": true
+  },
+  {
+    "id": "e.volga_line_rzhev",
+    "at": "1942-01-07T18:00",
+    "precision": "day",
+    "category": "battle",
+    "importance": 2,
+    "title": {
+      "zh": "第39集团军前出伏尔加河，合围勒热夫西部"
+    },
+    "body": "一月二日至七日，加里宁方面军右翼前出至伏尔加河一线，中央方向突破德军沿伏尔加河右岸组织的新防线，从西面与西南面威胁勒热夫。第39集团军投入第22与第29集团军之间的接合部，力图扩大突破口。",
+    "place": "@rzhev",
+    "units": [
+      "su.22a",
+      "su.29a",
+      "de.9a"
+    ],
+    "sources": [
+      "strat_wiki_ru",
+      "strat_cmh_counter2"
+    ],
+    "confidence": "high",
+    "zoomRel": 2.4
+  },
+  {
+    "id": "e.rzhev_vyazma_offensive",
+    "at": "1942-01-08T06:00",
+    "precision": "hour",
+    "category": "battle",
+    "importance": 1,
+    "title": {
+      "zh": "一月八日：勒热夫—维亚济马总攻开始"
+    },
+    "body": "一月八日，加里宁方面军与西方面军按训令发起总攻。加里宁方面军自勒热夫西北向瑟乔夫卡与维亚济马，西方面军左翼自卡卢加向尤赫诺夫，企图以向心突击合围中央集团军群主力。",
+    "place": "@rzhev",
+    "units": [
+      "su.front_kalinin",
+      "su.front_w",
+      "su.22a",
+      "su.29a"
+    ],
+    "sources": [
+      "strat_cmh_counter2",
+      "strat_wiki_ru"
+    ],
+    "confidence": "high",
+    "zoomRel": 2,
+    "wide": true
+  },
+  {
+    "id": "e.konev_kalinin_drive",
+    "at": "1942-01-15T12:00",
+    "precision": "day",
+    "category": "movement",
+    "importance": 2,
+    "title": {
+      "zh": "加里宁方面军向瑟乔夫卡推进"
+    },
+    "body": "一月中旬起，加里宁方面军以第22、第29、第39集团军向瑟乔夫卡与维亚济马方向推进，试图前出至德军中央集团军群后方。部队在雪原与森林中行动缓慢，补给靠雪橇与马拉运输，进展远低于预期。",
+    "place": "@sychevka",
+    "units": [
+      "su.front_kalinin",
+      "su.22a",
+      "su.29a",
+      "de.9a"
+    ],
+    "sources": [
+      "strat_cmh_counter2",
+      "su_cmd_konev"
+    ],
+    "confidence": "medium",
+    "zoomRel": 2.2
+  },
+  {
+    "id": "e.vyazma_airborne_drop",
+    "at": "1942-01-18T02:00",
+    "precision": "hour",
+    "category": "air",
+    "importance": 1,
+    "title": {
+      "zh": "维亚济马空降：第201旅与第250团"
+    },
+    "body": "一月十八日至二十二日夜间，苏军第201空降旅与第250空降团在维亚济马以南空降，任务是切断维亚济马—尤赫诺夫公路与维亚济马—布良斯克铁路，配合第33集团军与第1近卫骑兵军合围德军。",
+    "place": "@vyazma",
+    "units": [
+      "su.4vdk",
+      "su.33a",
+      "su.1gv_kd"
+    ],
+    "sources": [
+      "strat_cmh_counter2",
+      "strat_wiki_ru"
+    ],
+    "confidence": "high",
+    "zoomRel": 2.4
+  },
+  {
+    "id": "e.mozhaisk_liberated",
+    "at": "1942-01-20T12:00",
+    "precision": "day",
+    "category": "battle",
+    "importance": 2,
+    "title": {
+      "zh": "莫扎伊斯克收复"
+    },
+    "body": "一月二十日，第5集团军收复莫扎伊斯克。该城自十月十八日失守，历时三个月。苏军随后沿莫斯科—斯摩棱斯克公路向西推进，但在德军预设的防御阵地前进展缓慢，公路两侧的战斗持续到春季。",
+    "place": "@mozhaisk",
+    "units": [
+      "su.5a",
+      "de.4a"
+    ],
+    "sources": [
+      "strat_wiki_ru",
+      "strat_cmh_counter2"
+    ],
+    "confidence": "medium",
+    "zoomRel": 2.4
+  },
+  {
+    "id": "e.rzhev_west_encirclement_threat",
+    "at": "1942-01-20T12:00",
+    "precision": "day",
+    "category": "movement",
+    "importance": 1,
+    "title": {
+      "zh": "苏军逼近勒热夫与维亚济马的交通线"
+    },
+    "body": "一月下旬，加里宁方面军第39集团军与第29集团军在勒热夫以西持续推进，逼近并威胁勒热夫—维亚济马铁路。西方面军第33集团军与近卫骑兵军向维亚济马接近，德军中央集团军群的后方交通受到直接威胁。",
+    "place": "@sychevka",
+    "units": [
+      "su.29a",
+      "su.33a",
+      "su.1gv_kd",
+      "su.2gv_kk",
+      "de.9a",
+      "de.4a"
+    ],
+    "sources": [
+      "strat_cmh_counter2",
+      "su_belov"
+    ],
+    "confidence": "medium",
+    "zoomRel": 2.2
+  },
+  {
+    "id": "e.toropets_offensive",
+    "at": "1942-01-21T12:00",
+    "precision": "day",
+    "category": "battle",
+    "importance": 1,
+    "title": {
+      "zh": "托罗佩茨：西北方面军的深远突击"
+    },
+    "body": "一月九日起，西北方面军第3、第4突击集团军在托罗佩茨—霍尔姆方向发起进攻，一月二十一日收复托罗佩茨，并向大卢基与霍尔姆推进。这次突击在南侧撕开德军第16集团军与中央集团军群的接合部。",
+    "place": "@toropets",
+    "sources": [
+      "strat_cmh_counter2",
+      "strat_wiki_ru"
+    ],
+    "confidence": "medium",
+    "zoomRel": 2.2
+  },
+  {
+    "id": "e.kholm_pocket",
+    "at": "1942-01-23T12:00",
+    "precision": "day",
+    "category": "siege",
+    "importance": 2,
+    "title": {
+      "zh": "霍尔姆包围圈形成"
+    },
+    "body": "一月二十三日，苏军第3突击集团军一部在托罗佩茨—霍尔姆进攻中包围霍尔姆，德军约五千五百人据守城内。包围圈由空运维持，直到五月才被德军解围。这一包围圈与杰米扬斯克一起，牵制了苏军大量兵力。",
+    "place": "@kholm",
+    "sources": [
+      "strat_wiki_ru",
+      "strat_cmh_counter2"
+    ],
+    "confidence": "medium",
+    "zoomRel": 2.2
+  },
+  {
+    "id": "e.vyazma_airborne_second",
+    "at": "1942-01-27T02:00",
+    "precision": "hour",
+    "category": "air",
+    "importance": 2,
+    "title": {
+      "zh": "第4空降军投入维亚济马地区"
+    },
+    "body": "一月二十七日夜起，第4空降军军部与第8空降旅在奥泽列奇尼亚一带空降。运输机不足，只能分批投送，德机对机场与运输机实施打击，七架TB-3被毁。至二月一日仅空投约两千一百人，且散布过广。",
+    "place": "@vyazma",
+    "units": [
+      "su.4vdk",
+      "su.33a"
+    ],
+    "sources": [
+      "strat_wiki_ru",
+      "strat_cmh_counter2"
+    ],
+    "confidence": "high",
+    "zoomRel": 2.6
+  },
+  {
+    "id": "e.sukhinichi_liberated",
+    "at": "1942-01-29T06:00",
+    "precision": "day",
+    "category": "battle",
+    "importance": 2,
+    "title": {
+      "zh": "苏希尼奇肃清"
+    },
+    "body": "一月二十九日清晨，苏希尼奇被完全收复。城内德军自一月六日起即被合围，靠空运与有限突围维持；肃清后，苏军获得通往罗斯拉夫尔与布良斯克的铁路枢纽，为春季作战提供了出发阵地。",
+    "place": "@sukhinichi",
+    "units": [
+      "su.10a",
+      "su.61a",
+      "de.4a"
+    ],
+    "sources": [
+      "strat_wiki_ru",
+      "strat_cmh_counter2"
+    ],
+    "confidence": "high",
+    "zoomRel": 2.6
+  },
+  {
+    "id": "e.demyansk_pocket",
+    "at": "1942-01-29T12:00",
+    "precision": "day",
+    "category": "siege",
+    "importance": 2,
+    "title": {
+      "zh": "杰米扬斯克方向的进攻"
+    },
+    "body": "一月初起，西北方面军向杰米扬斯克方向发起进攻，至一月底已切断德军第2军与后方的部分联系。合围圈在二月初才最终封闭，此后德军靠空运维持，直到四月才打通走廊，这个突出部长期牵制苏军兵力。",
+    "place": "@demyansk",
+    "sources": [
+      "strat_wiki_ru",
+      "strat_cmh_counter2"
+    ],
+    "confidence": "medium",
+    "zoomRel": 2
+  },
+  {
+    "id": "e.efremov_33a_breakthrough",
+    "at": "1942-01-30T12:00",
+    "precision": "day",
+    "category": "battle",
+    "importance": 2,
+    "title": {
+      "zh": "第33集团军突入维亚济马接近地"
+    },
+    "body": "一月下旬至二月初，第33集团军在第43集团军方向上打开缺口，向维亚济马接近地推进，与空降兵、近卫骑兵军会合。但这支部队随后被德军反突击切断，长时间在敌后作战，成为维亚济马地区的又一处包围。",
+    "place": "@vyazma",
+    "units": [
+      "su.33a",
+      "su.43a",
+      "su.4vdk",
+      "de.4a"
+    ],
+    "sources": [
+      "strat_cmh_counter2",
+      "strat_wiki_ru"
+    ],
+    "confidence": "medium",
+    "zoomRel": 2.4
+  },
+  {
+    "id": "e.airborne_linkup",
+    "at": "1942-01-31T09:00",
+    "precision": "day",
+    "category": "battle",
+    "importance": 3,
+    "title": {
+      "zh": "维亚济马以南空降兵的破袭"
+    },
+    "body": "一月底，维亚济马以南的空降兵已在德军后方展开破袭：切断维亚济马—尤赫诺夫公路与铁路，袭击司令部与车队。由于运输机不足、空投散布过广，他们始终未能与正面部队打通，二月初才与别洛夫的近卫骑兵军会合。",
+    "place": "@vyazma",
+    "units": [
+      "su.4vdk",
+      "su.1gv_kd",
+      "de.4a"
+    ],
+    "sources": [
+      "strat_cmh_counter2",
+      "strat_wiki_ru"
+    ],
+    "confidence": "medium",
+    "zoomRel": 2.6
+  },
+  {
+    "id": "e.toropets_kholm_results",
+    "at": "1942-01-31T12:00",
+    "precision": "day",
+    "category": "political",
+    "importance": 3,
+    "title": {
+      "zh": "托罗佩茨—霍尔姆方向的战果与代价"
+    },
+    "body": "托罗佩茨—霍尔姆进攻战役自一月九日开始，至一月底苏军已收复托罗佩茨并向西推进百余公里。整个战役打到二月六日，苏军减员约两万九千二百人，其中不可恢复约一万零四百人，未能在该方向围歼德军主力。",
+    "place": "@toropets",
+    "sources": [
+      "strat_wiki_ru",
+      "strat_cmh_counter2"
+    ],
+    "confidence": "medium",
+    "zoomRel": 2
+  },
+  {
+    "id": "e.winter_general_myth",
+    "at": "1942-01-31T16:00",
+    "precision": "day",
+    "category": "political",
+    "importance": 1,
+    "title": {
+      "zh": "『冬将军』不是唯一解释"
+    },
+    "body": "把莫斯科城下的失败归因于严寒并不完整。十月泥泞、十一月道路冻结、十二月零下二十度以下的低温、德军冬装与防冻准备不足、铁路换轨与补给瓶颈，以及苏军预备队与远东师团的投入，共同决定了战局。苏军同样受冻。",
+    "place": "@moscow",
+    "sources": [
+      "ger_winter_equipment",
+      "strat_cmh_tomoscow",
+      "su_siberia",
+      "stat_casualty_debate"
+    ],
+    "confidence": "high",
+    "zoomRel": 1.8,
+    "units": [
+      "de.hgr_center",
+      "su.front_w"
+    ]
+  },
+  {
+    "id": "e.siberia_divisions",
+    "at": "1942-01-31T17:00",
+    "precision": "day",
+    "category": "political",
+    "importance": 2,
+    "title": {
+      "zh": "远东师团西调与佐尔格情报"
+    },
+    "body": "到十二月一日，最高统帅部已从远东调来七十个师，另从中亚与外高加索调出二十七个师。佐尔格关于日本将南进的情报影响了这一调度，但其作用大小在史学界仍有争议，不宜写成唯一原因。",
+    "place": "@moscow",
+    "units": [
+      "su.front_w",
+      "su.16a"
+    ],
+    "sources": [
+      "su_siberia",
+      "strat_cmh_tomoscow",
+      "strat_wiki_ru"
+    ],
+    "confidence": "medium",
+    "zoomRel": 1.8
+  },
+  {
+    "id": "e.moscow_not_taken",
+    "at": "1942-01-31T20:00",
+    "precision": "day",
+    "category": "political",
+    "importance": 1,
+    "title": {
+      "zh": "战役终点：莫斯科仍在苏军手中"
+    },
+    "body": "至一九四二年一月底，苏军把德军向西逐退一百至二百五十公里，图拉州、梁赞州与莫斯科州全境及加里宁州、斯摩棱斯克州、奥廖尔州各一部获得解放。中央集团军群保住了勒热夫—维亚济马突出部，合围未能实现。",
+    "place": "@moscow",
+    "sources": [
+      "strat_wiki_ru",
+      "strat_cmh_counter2",
+      "strat_zh_wiki"
+    ],
+    "confidence": "high",
+    "zoomRel": 1.8,
+    "wide": true,
+    "units": [
+      "su.front_w",
+      "de.hgr_center",
+      "de.pzgr2",
+      "de.pzgr3",
+      "de.pzgr4"
+    ]
+  },
+  {
+    "id": "e.rzhev_salient_holds",
+    "at": "1942-01-31T22:00",
+    "precision": "day",
+    "category": "battle",
+    "importance": 2,
+    "title": {
+      "zh": "勒热夫突出部的延续"
+    },
+    "body": "一月底，苏军未能围歼中央集团军群，德军仍守住勒热夫—维亚济马突出部。加里宁方面军第39集团军与西方面军第33集团军部分兵力反而陷入德军反包围，这一突出部一直延续到一九四三年三月德军自行撤出。",
+    "place": "@rzhev",
+    "units": [
+      "su.30a",
+      "su.33a",
+      "de.9a",
+      "de.4a"
+    ],
+    "sources": [
+      "strat_cmh_counter2",
+      "strat_wiki_ru",
+      "strat_wiki_en"
+    ],
+    "confidence": "medium",
+    "zoomRel": 2.2
+  }
+]

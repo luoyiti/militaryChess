@@ -1,0 +1,2158 @@
+[
+ {
+  "id": "r.de.pzgr3_vyazma",
+  "side": "DE",
+  "unit": "de.pzgr3",
+  "style": "main",
+  "widthKm": 26,
+  "label": "第 3 装甲集群：杜霍夫希纳—维亚济马合围圈北钳",
+  "waypoints": [
+   {
+    "at": "1941-09-30T00:00",
+    "pos": [
+     32.55,
+     55.45
+    ]
+   },
+   {
+    "at": "1941-10-02T00:00",
+    "pos": "@dukhovshchina"
+   },
+   {
+    "at": "1941-10-05T00:00",
+    "pos": "@kholm_zhirkovsky"
+   },
+   {
+    "at": "1941-10-07T00:00",
+    "pos": [
+     34.05,
+     55.45
+    ]
+   },
+   {
+    "at": "1941-10-10T00:00",
+    "pos": "@vyazma"
+   }
+  ],
+  "sources": [
+   "ger_pzgr3",
+   "strat_cmh_tomoscow",
+   "strat_okh_taifun_order",
+   "strat_cmh_blitz"
+  ],
+  "confidence": "high",
+  "schematic": true
+ },
+ {
+  "id": "r.de.pzgr4_vyazma",
+  "side": "DE",
+  "unit": "de.pzgr4",
+  "style": "main",
+  "widthKm": 26,
+  "label": "第 4 装甲集群：罗斯拉夫尔—尤赫诺夫—维亚济马合围圈南钳",
+  "waypoints": [
+   {
+    "at": "1941-09-30T00:00",
+    "pos": [
+     33.3,
+     54.72
+    ]
+   },
+   {
+    "at": "1941-10-02T00:00",
+    "pos": [
+     33.55,
+     54.68
+    ]
+   },
+   {
+    "at": "1941-10-04T00:00",
+    "pos": "@spas_demensk"
+   },
+   {
+    "at": "1941-10-05T00:00",
+    "pos": "@yukhnov"
+   },
+   {
+    "at": "1941-10-07T00:00",
+    "pos": "@vyazma"
+   }
+  ],
+  "sources": [
+   "ger_pzgr4",
+   "strat_cmh_tomoscow",
+   "strat_okh_taifun_order",
+   "strat_cmh_blitz"
+  ],
+  "confidence": "high",
+  "schematic": true
+ },
+ {
+  "id": "r.de.pz40_kirov",
+  "side": "DE",
+  "unit": "de.pz40_korps",
+  "style": "main",
+  "widthKm": 20,
+  "label": "第 40 装甲军：第 10 装甲师经基洛夫直插莫萨利斯克",
+  "waypoints": [
+   {
+    "at": "1941-10-02T05:30",
+    "pos": [
+     33.7,
+     54.2
+    ]
+   },
+   {
+    "at": "1941-10-04T12:00",
+    "pos": "@kirov_kaluga"
+   },
+   {
+    "at": "1941-10-04T20:00",
+    "pos": "@mosalsk"
+   },
+   {
+    "at": "1941-10-06T12:00",
+    "pos": [
+     34.6,
+     54.6
+    ]
+   },
+   {
+    "at": "1941-10-09T12:00",
+    "pos": "@mozhaisk"
+   }
+  ],
+  "sources": [
+   "ger_pzgr4",
+   "strat_cmh_tomoscow"
+  ],
+  "confidence": "high",
+  "schematic": true
+ },
+ {
+  "id": "r.de.pz41_kalinin",
+  "side": "DE",
+  "unit": "de.pz41_korps",
+  "style": "main",
+  "widthKm": 22,
+  "label": "第 41 装甲军：自维亚济马转向加里宁",
+  "waypoints": [
+   {
+    "at": "1941-10-08T00:00",
+    "pos": [
+     34.6,
+     55.85
+    ]
+   },
+   {
+    "at": "1941-10-10T12:00",
+    "pos": [
+     35.2,
+     56.28
+    ]
+   },
+   {
+    "at": "1941-10-12T12:00",
+    "pos": [
+     35.6,
+     56.55
+    ]
+   },
+   {
+    "at": "1941-10-14T00:00",
+    "pos": "@kalinin"
+   }
+  ],
+  "sources": [
+   "ger_pzgr3",
+   "strat_cmh_tomoscow",
+   "strat_cmh_tomoscow"
+  ],
+  "confidence": "high",
+  "schematic": true
+ },
+ {
+  "id": "r.de.pz56_klin",
+  "side": "DE",
+  "unit": "de.pz56_korps",
+  "style": "main",
+  "widthKm": 22,
+  "label": "第 56 装甲军：拉马河—克林—亚赫罗马运河",
+  "waypoints": [
+   {
+    "at": "1941-11-16T00:00",
+    "pos": [
+     35.95,
+     56.15
+    ]
+   },
+   {
+    "at": "1941-11-20T12:00",
+    "pos": "@lotoshino"
+   },
+   {
+    "at": "1941-11-23T00:00",
+    "pos": "@klin"
+   },
+   {
+    "at": "1941-11-25T12:00",
+    "pos": [
+     36.95,
+     56.3
+    ]
+   },
+   {
+    "at": "1941-11-27T12:00",
+    "pos": "@yakhroma"
+   }
+  ],
+  "sources": [
+   "ger_pzgr3",
+   "strat_cmh_tomoscow"
+  ],
+  "confidence": "high",
+  "schematic": true
+ },
+ {
+  "id": "r.de.pz57_istra",
+  "side": "DE",
+  "unit": "de.pz57_korps",
+  "style": "main",
+  "widthKm": 22,
+  "label": "第 57 装甲军：沃洛科拉姆斯克—伊斯特拉",
+  "waypoints": [
+   {
+    "at": "1941-10-25T00:00",
+    "pos": "@volokolamsk"
+   },
+   {
+    "at": "1941-11-16T00:00",
+    "pos": [
+     36.35,
+     56.05
+    ]
+   },
+   {
+    "at": "1941-11-23T00:00",
+    "pos": "@solnechnogorsk"
+   },
+   {
+    "at": "1941-11-26T00:00",
+    "pos": "@istra"
+   },
+   {
+    "at": "1941-11-30T00:00",
+    "pos": [
+     37.2,
+     55.9
+    ]
+   }
+  ],
+  "sources": [
+   "ger_pzgr4",
+   "strat_cmh_tomoscow"
+  ],
+  "confidence": "high",
+  "schematic": true
+ },
+ {
+  "id": "r.de.pz2_krasnaya",
+  "side": "DE",
+  "unit": "de.pz2",
+  "style": "main",
+  "widthKm": 16,
+  "label": "第 2 装甲师：伊斯特拉河—克拉斯纳亚波利亚纳",
+  "waypoints": [
+   {
+    "at": "1941-11-22T00:00",
+    "pos": [
+     36.75,
+     55.85
+    ]
+   },
+   {
+    "at": "1941-11-26T00:00",
+    "pos": "@istra"
+   },
+   {
+    "at": "1941-11-28T00:00",
+    "pos": [
+     37.05,
+     55.85
+    ]
+   },
+   {
+    "at": "1941-11-30T00:00",
+    "pos": "@krasnaya_polyana"
+   }
+  ],
+  "sources": [
+   "ger_pzgr4",
+   "strat_cmh_tomoscow"
+  ],
+  "confidence": "high",
+  "schematic": true
+ },
+ {
+  "id": "r.de.pzgr2_orel",
+  "side": "DE",
+  "unit": "de.pzgr2",
+  "style": "main",
+  "widthKm": 28,
+  "label": "第 2 装甲集群：格卢霍夫—奥廖尔—姆岑斯克",
+  "waypoints": [
+   {
+    "at": "1941-09-30T00:00",
+    "pos": [
+     34.0,
+     52.2
+    ]
+   },
+   {
+    "at": "1941-10-01T12:00",
+    "pos": "@sevsk"
+   },
+   {
+    "at": "1941-10-03T00:00",
+    "pos": "@orel"
+   },
+   {
+    "at": "1941-10-06T00:00",
+    "pos": "@mtsensk"
+   }
+  ],
+  "sources": [
+   "ger_pzgr2",
+   "ger_guderian_panzerleader",
+   "strat_okh_taifun_order",
+   "strat_cmh_blitz"
+  ],
+  "confidence": "high",
+  "schematic": true
+ },
+ {
+  "id": "r.de.pz24_orel",
+  "side": "DE",
+  "unit": "de.pz24_korps",
+  "style": "main",
+  "widthKm": 20,
+  "label": "第 24 装甲军：第 4 装甲师经奥廖尔东进",
+  "waypoints": [
+   {
+    "at": "1941-10-01T00:00",
+    "pos": "@sevsk"
+   },
+   {
+    "at": "1941-10-03T00:00",
+    "pos": "@orel"
+   },
+   {
+    "at": "1941-10-06T00:00",
+    "pos": "@mtsensk"
+   },
+   {
+    "at": "1941-10-12T00:00",
+    "pos": [
+     36.55,
+     53.3
+    ]
+   }
+  ],
+  "sources": [
+   "ger_pzgr2",
+   "ger_guderian_panzerleader"
+  ],
+  "confidence": "high",
+  "schematic": true
+ },
+ {
+  "id": "r.de.pz47_bryansk",
+  "side": "DE",
+  "unit": "de.pz47_korps",
+  "style": "main",
+  "widthKm": 20,
+  "label": "第 47 装甲军：卡拉切夫—布良斯克",
+  "waypoints": [
+   {
+    "at": "1941-09-30T00:00",
+    "pos": [
+     34.15,
+     52.55
+    ]
+   },
+   {
+    "at": "1941-10-03T00:00",
+    "pos": "@karachev"
+   },
+   {
+    "at": "1941-10-06T00:00",
+    "pos": "@bryansk"
+   }
+  ],
+  "sources": [
+   "ger_pzgr2",
+   "ger_guderian_panzerleader"
+  ],
+  "confidence": "high",
+  "schematic": true
+ },
+ {
+  "id": "r.de.pz48_sevsk",
+  "side": "DE",
+  "unit": "de.pz48_korps",
+  "style": "main",
+  "widthKm": 18,
+  "label": "第 48 装甲军：谢夫斯克—布良斯克以南",
+  "waypoints": [
+   {
+    "at": "1941-09-30T00:00",
+    "pos": [
+     34.0,
+     52.3
+    ]
+   },
+   {
+    "at": "1941-10-01T12:00",
+    "pos": "@sevsk"
+   },
+   {
+    "at": "1941-10-04T12:00",
+    "pos": [
+     34.6,
+     53.0
+    ]
+   },
+   {
+    "at": "1941-10-09T12:00",
+    "pos": "@trubchevsk"
+   }
+  ],
+  "sources": [
+   "ger_pzgr2",
+   "ger_guderian_panzerleader"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "r.de.pz17_tula",
+  "side": "DE",
+  "unit": "de.pz17",
+  "style": "main",
+  "widthKm": 16,
+  "label": "第 17 装甲师：姆岑斯克—图拉—卡希拉",
+  "waypoints": [
+   {
+    "at": "1941-10-12T00:00",
+    "pos": "@mtsensk"
+   },
+   {
+    "at": "1941-10-20T12:00",
+    "pos": [
+     36.95,
+     53.85
+    ]
+   },
+   {
+    "at": "1941-10-29T00:00",
+    "pos": "@tula"
+   },
+   {
+    "at": "1941-11-18T00:00",
+    "pos": [
+     37.85,
+     54.05
+    ]
+   },
+   {
+    "at": "1941-11-25T00:00",
+    "pos": "@kashira"
+   }
+  ],
+  "sources": [
+   "ger_pzgr2",
+   "ger_guderian_panzerleader"
+  ],
+  "confidence": "high",
+  "schematic": true
+ },
+ {
+  "id": "r.de.pzgr2_tula",
+  "side": "DE",
+  "unit": "de.pzgr2",
+  "style": "main",
+  "widthKm": 26,
+  "label": "第 2 装甲集团军：图拉以东—卡希拉—梁赞方向",
+  "waypoints": [
+   {
+    "at": "1941-10-29T00:00",
+    "pos": [
+     37.35,
+     54.1
+    ]
+   },
+   {
+    "at": "1941-11-18T00:00",
+    "pos": [
+     37.9,
+     54.0
+    ]
+   },
+   {
+    "at": "1941-11-22T00:00",
+    "pos": "@venyov"
+   },
+   {
+    "at": "1941-11-25T00:00",
+    "pos": "@kashira"
+   }
+  ],
+  "sources": [
+   "ger_pzgr2",
+   "ger_guderian_panzerleader"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "r.de.2a_yelets",
+  "side": "DE",
+  "unit": "de.2a",
+  "style": "main",
+  "widthKm": 24,
+  "label": "第 2 集团军：布良斯克以南—叶列茨方向",
+  "waypoints": [
+   {
+    "at": "1941-10-06T00:00",
+    "pos": [
+     34.5,
+     53.2
+    ]
+   },
+   {
+    "at": "1941-10-15T00:00",
+    "pos": [
+     35.2,
+     53.4
+    ]
+   },
+   {
+    "at": "1941-11-10T00:00",
+    "pos": [
+     36.9,
+     53.3
+    ]
+   },
+   {
+    "at": "1941-12-05T00:00",
+    "pos": "@yelets"
+   }
+  ],
+  "sources": [
+   "ger_hgr_center",
+   "strat_cmh_tomoscow",
+   "strat_cmh_counter1"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "r.de.9a_kalinin",
+  "side": "DE",
+  "unit": "de.9a",
+  "style": "main",
+  "widthKm": 24,
+  "label": "第 9 集团军：瑟乔夫卡—勒热夫—加里宁以北",
+  "waypoints": [
+   {
+    "at": "1941-10-02T00:00",
+    "pos": [
+     33.85,
+     56.1
+    ]
+   },
+   {
+    "at": "1941-10-08T00:00",
+    "pos": "@sychevka"
+   },
+   {
+    "at": "1941-10-12T00:00",
+    "pos": "@rzhev"
+   },
+   {
+    "at": "1941-10-16T00:00",
+    "pos": "@staritsa"
+   },
+   {
+    "at": "1941-11-15T00:00",
+    "pos": [
+     35.55,
+     56.5
+    ]
+   }
+  ],
+  "sources": [
+   "ger_hgr_center",
+   "strat_cmh_tomoscow"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "r.de.4a_mozhaisk",
+  "side": "DE",
+  "unit": "de.4a",
+  "style": "main",
+  "widthKm": 26,
+  "label": "第 4 集团军：格扎茨克—莫扎伊斯克—纳拉河",
+  "waypoints": [
+   {
+    "at": "1941-10-10T00:00",
+    "pos": [
+     34.85,
+     55.2
+    ]
+   },
+   {
+    "at": "1941-10-14T00:00",
+    "pos": "@gzhatsk"
+   },
+   {
+    "at": "1941-10-18T00:00",
+    "pos": "@mozhaisk"
+   },
+   {
+    "at": "1941-10-25T00:00",
+    "pos": [
+     36.45,
+     55.35
+    ]
+   },
+   {
+    "at": "1941-11-30T00:00",
+    "pos": [
+     36.6,
+     55.33
+    ]
+   }
+  ],
+  "sources": [
+   "ger_hgr_center",
+   "strat_cmh_tomoscow"
+  ],
+  "confidence": "high",
+  "schematic": true
+ },
+ {
+  "id": "r.de.vii_borodino",
+  "side": "DE",
+  "unit": "de.vii_corps",
+  "style": "secondary",
+  "widthKm": 16,
+  "label": "第 7 军：梅登—博罗季诺—莫扎伊斯克以南",
+  "waypoints": [
+   {
+    "at": "1941-10-14T00:00",
+    "pos": [
+     35.3,
+     54.9
+    ]
+   },
+   {
+    "at": "1941-10-18T00:00",
+    "pos": "@borodino"
+   },
+   {
+    "at": "1941-10-22T00:00",
+    "pos": "@naro_fominsk"
+   }
+  ],
+  "sources": [
+   "ger_hgr_center",
+   "strat_cmh_tomoscow",
+   "ger_4a"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "r.de.xx_naro",
+  "side": "DE",
+  "unit": "de.xx_corps",
+  "style": "secondary",
+  "widthKm": 16,
+  "label": "第 20 军：沿明斯克公路向纳罗福明斯克",
+  "waypoints": [
+   {
+    "at": "1941-10-14T00:00",
+    "pos": [
+     35.1,
+     55.05
+    ]
+   },
+   {
+    "at": "1941-10-22T00:00",
+    "pos": [
+     36.1,
+     55.25
+    ]
+   },
+   {
+    "at": "1941-11-20T00:00",
+    "pos": "@naro_fominsk"
+   }
+  ],
+  "sources": [
+   "ger_hgr_center",
+   "strat_cmh_tomoscow",
+   "ger_4a"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "r.de.ix_mozhaisk",
+  "side": "DE",
+  "unit": "de.ix_corps",
+  "style": "secondary",
+  "widthKm": 16,
+  "label": "第 9 军：格扎茨克以北—莫扎伊斯克",
+  "waypoints": [
+   {
+    "at": "1941-10-12T00:00",
+    "pos": [
+     35.0,
+     55.35
+    ]
+   },
+   {
+    "at": "1941-10-18T00:00",
+    "pos": "@mozhaisk"
+   }
+  ],
+  "sources": [
+   "ger_hgr_center",
+   "strat_cmh_tomoscow",
+   "ger_4a"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "r.de.hk34_yelets",
+  "side": "DE",
+  "unit": "de.hk34",
+  "style": "secondary",
+  "widthKm": 18,
+  "label": "第 34 高级司令部：最南翼向叶列茨以东",
+  "waypoints": [
+   {
+    "at": "1941-10-10T00:00",
+    "pos": [
+     35.95,
+     52.4
+    ]
+   },
+   {
+    "at": "1941-11-15T00:00",
+    "pos": [
+     36.6,
+     52.9
+    ]
+   },
+   {
+    "at": "1941-12-05T00:00",
+    "pos": [
+     37.1,
+     52.9
+    ]
+   }
+  ],
+  "sources": [
+   "ger_pzgr2",
+   "ger_guderian_panzerleader"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "r.de.pzgr3_retreat",
+  "side": "DE",
+  "unit": "de.pzgr3",
+  "style": "retreat",
+  "widthKm": 22,
+  "label": "第 3 装甲集群：亚赫罗马—克林—拉马河西撤",
+  "waypoints": [
+   {
+    "at": "1941-12-06T00:00",
+    "pos": [
+     37.2,
+     56.15
+    ]
+   },
+   {
+    "at": "1941-12-09T00:00",
+    "pos": [
+     36.95,
+     56.35
+    ]
+   },
+   {
+    "at": "1941-12-16T00:00",
+    "pos": "@klin"
+   },
+   {
+    "at": "1941-12-25T00:00",
+    "pos": [
+     35.9,
+     56.05
+    ]
+   },
+   {
+    "at": "1942-01-10T00:00",
+    "pos": [
+     35.5,
+     56.0
+    ]
+   }
+  ],
+  "sources": [
+   "ger_pzgr3",
+   "strat_cmh_tomoscow",
+   "strat_cmh_counter1"
+  ],
+  "confidence": "high",
+  "schematic": true
+ },
+ {
+  "id": "r.de.pzgr4_retreat",
+  "side": "DE",
+  "unit": "de.pzgr4",
+  "style": "retreat",
+  "widthKm": 22,
+  "label": "第 4 装甲集群：克拉斯纳亚波利亚纳—伊斯特拉河西撤",
+  "waypoints": [
+   {
+    "at": "1941-12-06T00:00",
+    "pos": [
+     37.25,
+     55.85
+    ]
+   },
+   {
+    "at": "1941-12-12T00:00",
+    "pos": [
+     36.95,
+     55.92
+    ]
+   },
+   {
+    "at": "1941-12-20T00:00",
+    "pos": [
+     36.3,
+     55.95
+    ]
+   },
+   {
+    "at": "1942-01-05T00:00",
+    "pos": [
+     36.05,
+     55.9
+    ]
+   }
+  ],
+  "sources": [
+   "ger_pzgr4",
+   "strat_cmh_tomoscow",
+   "strat_cmh_counter1"
+  ],
+  "confidence": "high",
+  "schematic": true
+ },
+ {
+  "id": "r.de.4a_retreat",
+  "side": "DE",
+  "unit": "de.4a",
+  "style": "retreat",
+  "widthKm": 24,
+  "label": "第 4 集团军：纳拉河—普罗特瓦河西撤",
+  "waypoints": [
+   {
+    "at": "1941-12-06T00:00",
+    "pos": [
+     36.6,
+     55.3
+    ]
+   },
+   {
+    "at": "1941-12-20T00:00",
+    "pos": [
+     36.1,
+     55.25
+    ]
+   },
+   {
+    "at": "1942-01-10T00:00",
+    "pos": [
+     35.7,
+     55.25
+    ]
+   }
+  ],
+  "sources": [
+   "ger_hgr_center",
+   "strat_cmh_tomoscow",
+   "strat_cmh_counter1"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "r.de.pzgr2_retreat",
+  "side": "DE",
+  "unit": "de.pzgr2",
+  "style": "retreat",
+  "widthKm": 24,
+  "label": "第 2 装甲集团军：卡希拉—图拉以东—奥卡河以西后撤",
+  "waypoints": [
+   {
+    "at": "1941-12-05T00:00",
+    "pos": [
+     38.0,
+     54.5
+    ]
+   },
+   {
+    "at": "1941-12-08T00:00",
+    "pos": [
+     37.7,
+     54.3
+    ]
+   },
+   {
+    "at": "1941-12-12T00:00",
+    "pos": [
+     37.3,
+     54.1
+    ]
+   },
+   {
+    "at": "1941-12-20T00:00",
+    "pos": [
+     36.9,
+     53.8
+    ]
+   }
+  ],
+  "sources": [
+   "ger_pzgr2",
+   "ger_guderian_panzerleader",
+   "strat_cmh_counter1"
+  ],
+  "confidence": "high",
+  "schematic": true
+ },
+ {
+  "id": "r.de.9a_retreat",
+  "side": "DE",
+  "unit": "de.9a",
+  "style": "retreat",
+  "widthKm": 22,
+  "label": "第 9 集团军：加里宁—勒热夫以西后撤",
+  "waypoints": [
+   {
+    "at": "1941-12-06T00:00",
+    "pos": [
+     35.4,
+     56.45
+    ]
+   },
+   {
+    "at": "1941-12-16T00:00",
+    "pos": [
+     35.25,
+     56.4
+    ]
+   },
+   {
+    "at": "1942-01-01T00:00",
+    "pos": [
+     34.9,
+     56.3
+    ]
+   }
+  ],
+  "sources": [
+   "ger_hgr_center",
+   "strat_cmh_tomoscow",
+   "strat_cmh_counter1"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "r.de.hk35_breakout",
+  "side": "DE",
+  "unit": "de.hk35",
+  "style": "breakout",
+  "widthKm": 16,
+  "label": "第 35 高级司令部：自图拉以东合围圈向西突围",
+  "waypoints": [
+   {
+    "at": "1941-12-06T00:00",
+    "pos": [
+     37.8,
+     53.3
+    ]
+   },
+   {
+    "at": "1941-12-10T00:00",
+    "pos": [
+     37.5,
+     53.25
+    ]
+   },
+   {
+    "at": "1941-12-20T00:00",
+    "pos": [
+     37.05,
+     53.2
+    ]
+   }
+  ],
+  "sources": [
+   "ger_pzgr2",
+   "ger_guderian_panzerleader",
+   "strat_cmh_counter1"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "r.su.front_w_counter",
+  "side": "SU",
+  "unit": "su.front_w",
+  "style": "counter",
+  "widthKm": 32,
+  "label": "西方面军反攻：克林—索尔涅奇诺戈尔斯克—伊斯特拉三向",
+  "waypoints": [
+   {
+    "at": "1941-12-06T00:00",
+    "pos": [
+     37.1,
+     55.8
+    ]
+   },
+   {
+    "at": "1941-12-09T00:00",
+    "pos": [
+     36.9,
+     56.1
+    ]
+   },
+   {
+    "at": "1941-12-15T00:00",
+    "pos": [
+     36.8,
+     56.2
+    ]
+   },
+   {
+    "at": "1941-12-20T00:00",
+    "pos": [
+     36.3,
+     55.95
+    ]
+   },
+   {
+    "at": "1942-01-05T00:00",
+    "pos": [
+     35.9,
+     55.85
+    ]
+   }
+  ],
+  "sources": [
+   "strat_cmh_tomoscow",
+   "su_cmd_zhukov_wf",
+   "strat_cmh_counter1"
+  ],
+  "confidence": "high",
+  "schematic": true
+ },
+ {
+  "id": "r.su.16a_counter",
+  "side": "SU",
+  "unit": "su.16a",
+  "style": "counter",
+  "widthKm": 20,
+  "label": "第 16 集团军：伊斯特拉—沃洛科拉姆斯克",
+  "waypoints": [
+   {
+    "at": "1941-12-06T00:00",
+    "pos": [
+     37.0,
+     55.86
+    ]
+   },
+   {
+    "at": "1941-12-12T00:00",
+    "pos": [
+     36.86,
+     55.92
+    ]
+   },
+   {
+    "at": "1941-12-20T00:00",
+    "pos": "@volokolamsk"
+   }
+  ],
+  "sources": [
+   "strat_cmh_tomoscow",
+   "su_cmd_zhukov_wf",
+   "su_rokossovsky"
+  ],
+  "confidence": "high",
+  "schematic": true
+ },
+ {
+  "id": "r.su.20a_counter",
+  "side": "SU",
+  "unit": "su.20a",
+  "style": "counter",
+  "widthKm": 18,
+  "label": "第 20 集团军：克拉斯纳亚波利亚纳—伊斯特拉水库",
+  "waypoints": [
+   {
+    "at": "1941-12-06T00:00",
+    "pos": [
+     37.16,
+     55.82
+    ]
+   },
+   {
+    "at": "1941-12-12T00:00",
+    "pos": [
+     37.0,
+     55.9
+    ]
+   },
+   {
+    "at": "1941-12-20T00:00",
+    "pos": [
+     36.6,
+     55.95
+    ]
+   }
+  ],
+  "sources": [
+   "strat_cmh_tomoscow",
+   "su_cmd_zhukov_wf"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "r.su.1sh_counter",
+  "side": "SU",
+  "unit": "su.1sh_a",
+  "style": "counter",
+  "widthKm": 18,
+  "label": "第 1 突击集团军：运河西岸—索尔涅奇诺戈尔斯克",
+  "waypoints": [
+   {
+    "at": "1941-12-06T00:00",
+    "pos": [
+     37.4,
+     56.35
+    ]
+   },
+   {
+    "at": "1941-12-12T00:00",
+    "pos": [
+     37.0,
+     56.3
+    ]
+   },
+   {
+    "at": "1941-12-20T00:00",
+    "pos": [
+     36.7,
+     56.25
+    ]
+   },
+   {
+    "at": "1942-01-05T00:00",
+    "pos": [
+     36.2,
+     56.2
+    ]
+   }
+  ],
+  "sources": [
+   "strat_cmh_tomoscow",
+   "su_cmd_zhukov_wf"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "r.su.30a_counter",
+  "side": "SU",
+  "unit": "su.30a",
+  "style": "counter",
+  "widthKm": 20,
+  "label": "第 30 集团军：自伏尔加河以北向克林",
+  "waypoints": [
+   {
+    "at": "1941-12-06T00:00",
+    "pos": [
+     36.5,
+     56.6
+    ]
+   },
+   {
+    "at": "1941-12-09T00:00",
+    "pos": [
+     36.65,
+     56.42
+    ]
+   },
+   {
+    "at": "1941-12-15T00:00",
+    "pos": "@klin"
+   }
+  ],
+  "sources": [
+   "strat_cmh_tomoscow",
+   "su_cmd_konev"
+  ],
+  "confidence": "high",
+  "schematic": true
+ },
+ {
+  "id": "r.su.front_kalinin_counter",
+  "side": "SU",
+  "unit": "su.front_kalinin",
+  "style": "counter",
+  "widthKm": 26,
+  "label": "加里宁方面军反攻：强渡伏尔加河、收复加里宁",
+  "waypoints": [
+   {
+    "at": "1941-12-05T00:00",
+    "pos": [
+     34.7,
+     56.3
+    ]
+   },
+   {
+    "at": "1941-12-09T00:00",
+    "pos": [
+     35.1,
+     56.3
+    ]
+   },
+   {
+    "at": "1941-12-16T00:00",
+    "pos": "@kalinin"
+   },
+   {
+    "at": "1942-01-08T00:00",
+    "pos": [
+     35.2,
+     56.4
+    ]
+   }
+  ],
+  "sources": [
+   "strat_cmh_tomoscow",
+   "su_cmd_konev",
+   "strat_cmh_counter1"
+  ],
+  "confidence": "high",
+  "schematic": true
+ },
+ {
+  "id": "r.su.31a_kalinin",
+  "side": "SU",
+  "unit": "su.31a",
+  "style": "counter",
+  "widthKm": 18,
+  "label": "第 31 集团军：勒热夫东南—加里宁",
+  "waypoints": [
+   {
+    "at": "1941-12-05T00:00",
+    "pos": [
+     35.4,
+     56.3
+    ]
+   },
+   {
+    "at": "1941-12-12T00:00",
+    "pos": [
+     35.6,
+     56.45
+    ]
+   },
+   {
+    "at": "1941-12-16T00:00",
+    "pos": "@kalinin"
+   }
+  ],
+  "sources": [
+   "strat_cmh_tomoscow",
+   "su_cmd_konev"
+  ],
+  "confidence": "high",
+  "schematic": true
+ },
+ {
+  "id": "r.su.29a_rzhev",
+  "side": "SU",
+  "unit": "su.29a",
+  "style": "counter",
+  "widthKm": 18,
+  "label": "第 29 集团军：伏尔加河—勒热夫以东",
+  "waypoints": [
+   {
+    "at": "1941-12-05T00:00",
+    "pos": [
+     34.7,
+     56.3
+    ]
+   },
+   {
+    "at": "1941-12-20T00:00",
+    "pos": [
+     34.8,
+     56.32
+    ]
+   },
+   {
+    "at": "1942-01-08T00:00",
+    "pos": [
+     34.95,
+     56.3
+    ]
+   },
+   {
+    "at": "1942-01-31T00:00",
+    "pos": [
+     34.85,
+     56.25
+    ]
+   }
+  ],
+  "sources": [
+   "strat_cmh_tomoscow",
+   "su_cmd_konev"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "r.su.33a_naro",
+  "side": "SU",
+  "unit": "su.33a",
+  "style": "counter",
+  "widthKm": 18,
+  "label": "第 33 集团军：纳拉河—纳罗福明斯克—博罗夫斯克—维亚济马",
+  "waypoints": [
+   {
+    "at": "1941-12-06T00:00",
+    "pos": [
+     36.76,
+     55.35
+    ]
+   },
+   {
+    "at": "1941-12-26T00:00",
+    "pos": "@naro_fominsk"
+   },
+   {
+    "at": "1942-01-04T00:00",
+    "pos": [
+     36.3,
+     55.15
+    ]
+   },
+   {
+    "at": "1942-01-30T00:00",
+    "pos": [
+     35.5,
+     55.15
+    ]
+   }
+  ],
+  "sources": [
+   "strat_cmh_tomoscow",
+   "su_cmd_zhukov_wf",
+   "strat_cmh_counter1"
+  ],
+  "confidence": "high",
+  "schematic": true
+ },
+ {
+  "id": "r.su.43a_maloyar",
+  "side": "SU",
+  "unit": "su.43a",
+  "style": "counter",
+  "widthKm": 18,
+  "label": "第 43 集团军：普罗特瓦河—小雅罗斯拉韦茨",
+  "waypoints": [
+   {
+    "at": "1941-12-06T00:00",
+    "pos": [
+     36.6,
+     55.0
+    ]
+   },
+   {
+    "at": "1941-12-26T00:00",
+    "pos": [
+     36.5,
+     55.04
+    ]
+   },
+   {
+    "at": "1942-01-02T00:00",
+    "pos": "@maloyaroslavets"
+   }
+  ],
+  "sources": [
+   "strat_cmh_tomoscow",
+   "su_cmd_zhukov_wf"
+  ],
+  "confidence": "high",
+  "schematic": true
+ },
+ {
+  "id": "r.su.49a_kaluga",
+  "side": "SU",
+  "unit": "su.49a",
+  "style": "counter",
+  "widthKm": 18,
+  "label": "第 49 集团军：塔鲁萨—卡卢加",
+  "waypoints": [
+   {
+    "at": "1941-12-06T00:00",
+    "pos": [
+     36.95,
+     54.7
+    ]
+   },
+   {
+    "at": "1941-12-20T00:00",
+    "pos": [
+     36.6,
+     54.62
+    ]
+   },
+   {
+    "at": "1941-12-30T00:00",
+    "pos": "@kaluga"
+   }
+  ],
+  "sources": [
+   "strat_cmh_tomoscow",
+   "su_cmd_zhukov_wf",
+   "strat_cmh_counter1"
+  ],
+  "confidence": "high",
+  "schematic": true
+ },
+ {
+  "id": "r.su.5a_mozhaisk",
+  "side": "SU",
+  "unit": "su.5a",
+  "style": "counter",
+  "widthKm": 18,
+  "label": "第 5 集团军：兹韦尼戈罗德—莫扎伊斯克",
+  "waypoints": [
+   {
+    "at": "1941-12-06T00:00",
+    "pos": [
+     37.05,
+     55.42
+    ]
+   },
+   {
+    "at": "1942-01-10T00:00",
+    "pos": [
+     36.4,
+     55.48
+    ]
+   },
+   {
+    "at": "1942-01-20T00:00",
+    "pos": "@mozhaisk"
+   }
+  ],
+  "sources": [
+   "strat_cmh_tomoscow",
+   "su_cmd_zhukov_wf"
+  ],
+  "confidence": "high",
+  "schematic": true
+ },
+ {
+  "id": "r.su.50a_tula",
+  "side": "SU",
+  "unit": "su.50a",
+  "style": "counter",
+  "widthKm": 20,
+  "label": "第 50 集团军：图拉—卡卢加以南—苏希尼奇方向",
+  "waypoints": [
+   {
+    "at": "1941-12-06T00:00",
+    "pos": [
+     37.8,
+     54.16
+    ]
+   },
+   {
+    "at": "1941-12-17T00:00",
+    "pos": [
+     37.4,
+     54.0
+    ]
+   },
+   {
+    "at": "1941-12-30T00:00",
+    "pos": [
+     36.6,
+     54.05
+    ]
+   },
+   {
+    "at": "1942-01-20T00:00",
+    "pos": [
+     35.6,
+     54.05
+    ]
+   }
+  ],
+  "sources": [
+   "strat_cmh_tomoscow",
+   "su_cmd_zhukov_wf"
+  ],
+  "confidence": "high",
+  "schematic": true
+ },
+ {
+  "id": "r.su.10a_mikhailov",
+  "side": "SU",
+  "unit": "su.10a",
+  "style": "counter",
+  "widthKm": 20,
+  "label": "第 10 集团军：米哈伊洛夫—苏希尼奇",
+  "waypoints": [
+   {
+    "at": "1941-12-06T00:00",
+    "pos": [
+     38.3,
+     54.1
+    ]
+   },
+   {
+    "at": "1941-12-15T00:00",
+    "pos": [
+     37.6,
+     54.0
+    ]
+   },
+   {
+    "at": "1941-12-30T00:00",
+    "pos": [
+     36.6,
+     54.0
+    ]
+   },
+   {
+    "at": "1942-01-29T00:00",
+    "pos": "@sukhinichi"
+   }
+  ],
+  "sources": [
+   "strat_cmh_tomoscow",
+   "su_cmd_zhukov_wf",
+   "strat_cmh_counter2"
+  ],
+  "confidence": "high",
+  "schematic": true
+ },
+ {
+  "id": "r.su.61a_sukhinichi",
+  "side": "SU",
+  "unit": "su.61a",
+  "style": "counter",
+  "widthKm": 18,
+  "label": "第 61 集团军：奥廖尔以南—苏希尼奇",
+  "waypoints": [
+   {
+    "at": "1941-12-15T00:00",
+    "pos": [
+     37.6,
+     53.5
+    ]
+   },
+   {
+    "at": "1941-12-30T00:00",
+    "pos": [
+     36.8,
+     53.4
+    ]
+   },
+   {
+    "at": "1942-01-29T00:00",
+    "pos": "@sukhinichi"
+   }
+  ],
+  "sources": [
+   "strat_cmh_tomoscow",
+   "su_cmd_zhukov_wf",
+   "strat_cmh_counter2"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "r.su.3a_yelets",
+  "side": "SU",
+  "unit": "su.3a",
+  "style": "counter",
+  "widthKm": 20,
+  "label": "第 3 集团军：叶列茨进攻战役",
+  "waypoints": [
+   {
+    "at": "1941-12-06T00:00",
+    "pos": [
+     36.6,
+     53.2
+    ]
+   },
+   {
+    "at": "1941-12-09T00:00",
+    "pos": [
+     37.2,
+     53.0
+    ]
+   },
+   {
+    "at": "1941-12-30T00:00",
+    "pos": [
+     36.6,
+     53.1
+    ]
+   }
+  ],
+  "sources": [
+   "strat_cmh_tomoscow",
+   "strat_cmh_counter1"
+  ],
+  "confidence": "high",
+  "schematic": true
+ },
+ {
+  "id": "r.su.13a_yelets",
+  "side": "SU",
+  "unit": "su.13a",
+  "style": "counter",
+  "widthKm": 20,
+  "label": "第 13 集团军：向叶列茨以北突击",
+  "waypoints": [
+   {
+    "at": "1941-12-06T00:00",
+    "pos": [
+     36.8,
+     52.6
+    ]
+   },
+   {
+    "at": "1941-12-09T00:00",
+    "pos": "@yelets"
+   },
+   {
+    "at": "1942-01-10T00:00",
+    "pos": [
+     36.9,
+     52.5
+    ]
+   }
+  ],
+  "sources": [
+   "strat_cmh_tomoscow",
+   "strat_cmh_counter1"
+  ],
+  "confidence": "high",
+  "schematic": true
+ },
+ {
+  "id": "r.su.1gv_kk_kashira",
+  "side": "SU",
+  "unit": "su.1gv_kk",
+  "style": "counter",
+  "widthKm": 14,
+  "label": "近卫骑兵第 1 军：卡希拉反击至莫尔德韦斯",
+  "waypoints": [
+   {
+    "at": "1941-11-26T00:00",
+    "pos": [
+     38.0,
+     54.6
+    ]
+   },
+   {
+    "at": "1941-11-28T00:00",
+    "pos": [
+     38.05,
+     54.42
+    ]
+   },
+   {
+    "at": "1941-12-04T00:00",
+    "pos": [
+     38.1,
+     54.3
+    ]
+   }
+  ],
+  "sources": [
+   "su_belov",
+   "strat_cmh_tomoscow"
+  ],
+  "confidence": "high",
+  "schematic": true
+ },
+ {
+  "id": "r.su.1gv_kk_raid",
+  "side": "SU",
+  "unit": "su.1gv_kk",
+  "style": "counter",
+  "widthKm": 14,
+  "label": "近卫骑兵第 1 军：向尤赫诺夫方向的敌后突进",
+  "waypoints": [
+   {
+    "at": "1941-12-24T00:00",
+    "pos": [
+     37.1,
+     54.0
+    ]
+   },
+   {
+    "at": "1942-01-10T00:00",
+    "pos": [
+     36.3,
+     54.3
+    ]
+   },
+   {
+    "at": "1942-01-20T00:00",
+    "pos": [
+     35.6,
+     54.6
+    ]
+   }
+  ],
+  "sources": [
+   "su_belov",
+   "strat_cmh_counter2"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "r.su.2gv_kk_raid",
+  "side": "SU",
+  "unit": "su.2gv_kk",
+  "style": "counter",
+  "widthKm": 14,
+  "label": "近卫骑兵第 2 军：沃洛科拉姆斯克以东的敌后袭扰",
+  "waypoints": [
+   {
+    "at": "1941-11-15T00:00",
+    "pos": [
+     35.9,
+     56.05
+    ]
+   },
+   {
+    "at": "1941-11-26T00:00",
+    "pos": [
+     36.3,
+     56.0
+    ]
+   },
+   {
+    "at": "1941-12-15T00:00",
+    "pos": [
+     35.9,
+     56.25
+    ]
+   }
+  ],
+  "sources": [
+   "su_belov",
+   "strat_cmh_tomoscow"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "r.su.112td_kashira",
+  "side": "SU",
+  "unit": "su.112td",
+  "style": "counter",
+  "widthKm": 12,
+  "label": "第 112 坦克师：卡希拉方向的阻击与反击",
+  "waypoints": [
+   {
+    "at": "1941-11-25T00:00",
+    "pos": [
+     37.85,
+     54.25
+    ]
+   },
+   {
+    "at": "1941-11-28T00:00",
+    "pos": [
+     38.0,
+     54.45
+    ]
+   },
+   {
+    "at": "1941-12-04T00:00",
+    "pos": [
+     38.05,
+     54.32
+    ]
+   }
+  ],
+  "sources": [
+   "su_katukov"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "r.su.4tbr_mtsensk",
+  "side": "SU",
+  "unit": "su.4tbr",
+  "style": "counter",
+  "widthKm": 12,
+  "label": "第 4 坦克旅：姆岑斯克伏击",
+  "waypoints": [
+   {
+    "at": "1941-10-04T12:00",
+    "pos": [
+     36.4,
+     53.2
+    ]
+   },
+   {
+    "at": "1941-10-06T00:00",
+    "pos": "@mtsensk"
+   },
+   {
+    "at": "1941-10-09T12:00",
+    "pos": [
+     36.6,
+     53.3
+    ]
+   }
+  ],
+  "sources": [
+   "su_katukov",
+   "strat_cmh_tomoscow"
+  ],
+  "confidence": "high",
+  "schematic": true
+ },
+ {
+  "id": "r.su.2gv_kk_volokolamsk",
+  "side": "SU",
+  "unit": "su.2gv_kk",
+  "style": "secondary",
+  "widthKm": 12,
+  "label": "第 3 骑兵军（后近卫第 2）：沃洛科拉姆斯克以东的出击",
+  "waypoints": [
+   {
+    "at": "1941-10-12T00:00",
+    "pos": [
+     34.4,
+     56.1
+    ]
+   },
+   {
+    "at": "1941-10-20T00:00",
+    "pos": [
+     35.2,
+     56.2
+    ]
+   },
+   {
+    "at": "1941-11-01T00:00",
+    "pos": [
+     35.6,
+     56.1
+    ]
+   }
+  ],
+  "sources": [
+   "su_belov"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "r.su.podolsk_line",
+  "side": "SU",
+  "unit": "su.33a",
+  "style": "secondary",
+  "widthKm": 14,
+  "label": "波多利斯克军校生：小雅罗斯拉韦茨—尤赫诺夫方向的阻击",
+  "waypoints": [
+   {
+    "at": "1941-10-05T00:00",
+    "pos": "@podolsk"
+   },
+   {
+    "at": "1941-10-08T00:00",
+    "pos": [
+     36.55,
+     54.9
+    ]
+   },
+   {
+    "at": "1941-10-14T00:00",
+    "pos": "@maloyaroslavets"
+   }
+  ],
+  "sources": [
+   "su_podolsk",
+   "strat_cmh_tomoscow"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "r.su.front_reserve_vyazma",
+  "side": "SU",
+  "unit": "su.front_reserve",
+  "style": "retreat",
+  "widthKm": 22,
+  "label": "预备方面军：维亚济马合围圈内的突围",
+  "waypoints": [
+   {
+    "at": "1941-10-08T00:00",
+    "pos": [
+     34.3,
+     54.95
+    ]
+   },
+   {
+    "at": "1941-10-13T00:00",
+    "pos": [
+     34.8,
+     55.0
+    ]
+   },
+   {
+    "at": "1941-10-20T00:00",
+    "pos": [
+     35.6,
+     54.9
+    ]
+   }
+  ],
+  "sources": [
+   "strat_cmh_tomoscow",
+   "su_cmd_zhukov_wf"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "r.su.50a_tula_retreat",
+  "side": "SU",
+  "unit": "su.50a",
+  "style": "retreat",
+  "widthKm": 20,
+  "label": "第 50 集团军：布良斯克合围圈向图拉突围",
+  "waypoints": [
+   {
+    "at": "1941-10-09T00:00",
+    "pos": [
+     35.3,
+     53.6
+    ]
+   },
+   {
+    "at": "1941-10-14T00:00",
+    "pos": [
+     35.9,
+     53.8
+    ]
+   },
+   {
+    "at": "1941-10-20T00:00",
+    "pos": [
+     36.5,
+     53.95
+    ]
+   },
+   {
+    "at": "1941-10-29T00:00",
+    "pos": "@tula"
+   }
+  ],
+  "sources": [
+   "strat_cmh_tomoscow",
+   "strat_cmh_counter1"
+  ],
+  "confidence": "high",
+  "schematic": true
+ },
+ {
+  "id": "r.su.3a_breakout",
+  "side": "SU",
+  "unit": "su.3a",
+  "style": "breakout",
+  "widthKm": 18,
+  "label": "第 3 集团军：沿纳夫利亚方向突围",
+  "waypoints": [
+   {
+    "at": "1941-10-09T00:00",
+    "pos": [
+     34.3,
+     53.3
+    ]
+   },
+   {
+    "at": "1941-10-16T00:00",
+    "pos": [
+     34.9,
+     53.2
+    ]
+   },
+   {
+    "at": "1941-10-22T00:00",
+    "pos": "@navlya"
+   }
+  ],
+  "sources": [
+   "strat_cmh_tomoscow",
+   "strat_cmh_counter1"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "r.su.13a_breakout",
+  "side": "SU",
+  "unit": "su.13a",
+  "style": "breakout",
+  "widthKm": 18,
+  "label": "第 13 集团军：霍穆托夫卡方向突围",
+  "waypoints": [
+   {
+    "at": "1941-10-09T00:00",
+    "pos": [
+     34.5,
+     52.9
+    ]
+   },
+   {
+    "at": "1941-10-16T00:00",
+    "pos": [
+     35.1,
+     52.8
+    ]
+   },
+   {
+    "at": "1941-10-23T00:00",
+    "pos": [
+     35.5,
+     52.7
+    ]
+   }
+  ],
+  "sources": [
+   "strat_cmh_tomoscow",
+   "strat_cmh_counter1"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "r.su.19a_vyazma",
+  "side": "SU",
+  "unit": "su.19a",
+  "style": "retreat",
+  "widthKm": 16,
+  "label": "第 19 集团军：维亚济马以西合围圈内的抵抗与突围",
+  "waypoints": [
+   {
+    "at": "1941-10-07T00:00",
+    "pos": [
+     34.7,
+     55.15
+    ]
+   },
+   {
+    "at": "1941-10-11T00:00",
+    "pos": [
+     34.95,
+     55.12
+    ]
+   },
+   {
+    "at": "1941-10-14T00:00",
+    "pos": [
+     35.1,
+     55.05
+    ]
+   }
+  ],
+  "sources": [
+   "strat_cmh_tomoscow",
+   "su_cmd_zhukov_wf"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "r.su.moscow_ring",
+  "side": "SU",
+  "unit": "su.moscow_militia",
+  "style": "secondary",
+  "widthKm": 14,
+  "label": "莫斯科城防：市内防御地带的构筑",
+  "waypoints": [
+   {
+    "at": "1941-10-12T00:00",
+    "pos": "@moscow"
+   },
+   {
+    "at": "1941-10-21T00:00",
+    "pos": [
+     37.45,
+     55.8
+    ]
+   },
+   {
+    "at": "1941-11-15T00:00",
+    "pos": [
+     37.0,
+     55.75
+    ]
+   }
+  ],
+  "sources": [
+   "su_opolcheniye",
+   "su_special_moscow"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ }
+]

@@ -1,0 +1,69 @@
+{
+  "_doc": "德军前锋「最远处」的史料说法表：每条只记录文献中确实出现过的距离说法，不与地图几何互相代替。插件把它与按战线关键帧算出的距离并列显示；两者口径不同，不得混用。距离指与克里姆林宫的直线距离（km），来源里没有明确说明测量点时按「常见说法」标注。",
+  "kremlin": "@kremlin",
+  "reports": [
+    {
+      "id": "krasnaya_polyana",
+      "at": "1941-12-02T00:00",
+      "place": "@krasnaya_polyana",
+      "km": 27,
+      "kmAlt": [
+        30
+      ],
+      "label": "克拉斯纳亚波利亚纳",
+      "text": "12 月初德军在克拉斯纳亚波利亚纳（Красная Поляна）一带出现，常见说法是距克里姆林宫约 27 km，也有 30 km 的写法：差别来自以村镇中心还是以最前哨、以直线还是以公路里程计算。",
+      "sources": [
+        "strat_cmh_tomoscow",
+        "strat_wiki_en"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "khimki_scouts",
+      "at": "1941-12-02T00:00",
+      "place": "@khimki",
+      "km": 20,
+      "kmAlt": [],
+      "label": "希姆基（侦察分队）",
+      "text": "12 月初德军侦察分队出现在希姆基（Химки）一带，常见说法是距城约 20 km；这是小股侦察，不是师级部队到达，不能当作「德军攻到希姆基」的表述。",
+      "sources": [
+        "strat_wiki_en",
+        "su_zhukov_memoirs"
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "yakhroma_canal",
+      "at": "1941-11-28T00:00",
+      "place": "@yakhroma",
+      "km": 55,
+      "kmAlt": [],
+      "label": "亚赫罗马与莫斯科运河",
+      "text": "11 月 27—28 日德军抵达亚赫罗马（Яхрома）附近的莫斯科运河东岸，并短暂越过运河；苏军随即以反击夺回。这里是德军在莫斯科以北推进的极限。",
+      "sources": [
+        "strat_cmh_tomoscow",
+        "strat_wiki_ru"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "kashira_south",
+      "at": "1941-11-27T00:00",
+      "place": "@kashira",
+      "km": 105,
+      "kmAlt": [],
+      "label": "卡希拉方向",
+      "text": "11 月下旬德军第 2 装甲集团军一部冲向卡希拉（Кашира）并一度切断铁路，是德军在莫斯科以南最远的推进方向，被苏军反击阻止在图拉—卡希拉以南。",
+      "sources": [
+        "strat_cmh_tomoscow"
+      ],
+      "confidence": "medium"
+    }
+  ],
+  "sources": [
+    "strat_cmh_tomoscow",
+    "strat_wiki_en",
+    "strat_wiki_ru",
+    "su_zhukov_memoirs"
+  ]
+}

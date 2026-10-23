@@ -1,0 +1,1256 @@
+{
+ "_doc": "莫斯科逐日气温（莫斯科时间日历日）。站点：WMO 27612（莫斯科，全俄展览中心／ВДНХ 气象站）。字段 tMin/tAvg/tMax 为摄氏度，precipMm 为日降水量毫米。只收录 1941-09-30 至 1942-01-31（战役时间窗）的实测日值，不作插值、不补缺；如某日原站缺测则整条省略。数据取自 pogodaiklimat.ru 的月报（该站转载俄罗斯水文气象中心档案的数字化结果），不是原始手抄档案；使用时按「汇编口径」对待，不用它反推某次战斗的确切气温。出处写在 meta 段：插件数据（data/ext/）不参与 data/sources 的引用完整性校验，故不把气象站登记为战役来源 id——登记进去只会变成一条永远无人引用的 WARN。days[].sources 里的 wmo_27612_daily 只是本文件内部的口径标记。",
+ "meta": {
+  "station": "27612",
+  "stationName": "Москва (ВДНХ) / 莫斯科（全俄展览中心）",
+  "stationNameZh": "莫斯科（全俄展览中心站）",
+  "elevationM": 147,
+  "unit": "°C",
+  "retrieved": "2026-10-22",
+  "sourceTitle": "Погода и климат — Архив погоды в Москве (станция 27612), месячные сводки за 1941-09 … 1942-01",
+  "sourceUrl": "http://www.pogodaiklimat.ru/monitor.php?id=27612",
+  "sourceNote": "站点日值汇编（тmin / средняя / тmax / осадки）；俄罗斯水文气象中心（Росгидромет）档案的第三方整理。战役叙述中的「−20℃ 以下」「12 月 5 日前后严寒」以本表校核，但单日极值与德军记载的体感温度可能不一致（测站位置、观测时次、风寒效应）。"
+ },
+ "days": [
+  {
+   "date": "1941-09-30",
+   "tMin": 5.5,
+   "tAvg": 6.3,
+   "tMax": 7.0,
+   "precipMm": 2.1,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1941-10-01",
+   "tMin": 5.2,
+   "tAvg": 8.5,
+   "tMax": 12.7,
+   "precipMm": 0.0,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1941-10-02",
+   "tMin": 3.4,
+   "tAvg": 5.1,
+   "tMax": 6.8,
+   "precipMm": 0.0,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1941-10-03",
+   "tMin": 8.5,
+   "tAvg": 9.7,
+   "tMax": 11.7,
+   "precipMm": 0.6,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1941-10-04",
+   "tMin": 6.2,
+   "tAvg": 8.4,
+   "tMax": 9.8,
+   "precipMm": 0.0,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1941-10-05",
+   "tMin": 3.3,
+   "tAvg": 6.0,
+   "tMax": 9.0,
+   "precipMm": 0.0,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1941-10-06",
+   "tMin": -0.2,
+   "tAvg": 1.7,
+   "tMax": 4.1,
+   "precipMm": 2.0,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1941-10-07",
+   "tMin": 0.0,
+   "tAvg": 0.8,
+   "tMax": 1.4,
+   "precipMm": 0.0,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1941-10-08",
+   "tMin": -0.1,
+   "tAvg": 0.4,
+   "tMax": 1.4,
+   "precipMm": 0.0,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1941-10-09",
+   "tMin": 0.8,
+   "tAvg": 2.7,
+   "tMax": 4.8,
+   "precipMm": 1.4,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1941-10-10",
+   "tMin": -4.3,
+   "tAvg": -1.7,
+   "tMax": 1.2,
+   "precipMm": 0.9,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1941-10-11",
+   "tMin": -3.0,
+   "tAvg": -1.7,
+   "tMax": -0.3,
+   "precipMm": 0.0,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1941-10-12",
+   "tMin": -3.2,
+   "tAvg": -1.9,
+   "tMax": 0.5,
+   "precipMm": 0.6,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1941-10-13",
+   "tMin": -3.4,
+   "tAvg": -0.9,
+   "tMax": 2.1,
+   "precipMm": 0.0,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1941-10-14",
+   "tMin": -1.9,
+   "tAvg": -1.3,
+   "tMax": -0.8,
+   "precipMm": 0.0,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1941-10-15",
+   "tMin": -4.6,
+   "tAvg": -1.8,
+   "tMax": 0.3,
+   "precipMm": 2.6,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1941-10-16",
+   "tMin": -4.7,
+   "tAvg": -2.1,
+   "tMax": 0.6,
+   "precipMm": 0.6,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1941-10-17",
+   "tMin": -4.8,
+   "tAvg": -2.2,
+   "tMax": 0.0,
+   "precipMm": 0.0,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1941-10-18",
+   "tMin": -5.5,
+   "tAvg": -1.1,
+   "tMax": 2.4,
+   "precipMm": 0.0,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1941-10-19",
+   "tMin": -2.4,
+   "tAvg": -0.3,
+   "tMax": 2.5,
+   "precipMm": 7.2,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1941-10-20",
+   "tMin": 2.4,
+   "tAvg": 3.9,
+   "tMax": 6.2,
+   "precipMm": 3.5,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1941-10-21",
+   "tMin": 5.8,
+   "tAvg": 6.2,
+   "tMax": 6.8,
+   "precipMm": 0.1,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1941-10-22",
+   "tMin": 5.0,
+   "tAvg": 5.4,
+   "tMax": 5.8,
+   "precipMm": 0.8,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1941-10-23",
+   "tMin": 3.2,
+   "tAvg": 3.8,
+   "tMax": 4.9,
+   "precipMm": 2.2,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1941-10-24",
+   "tMin": 1.4,
+   "tAvg": 2.1,
+   "tMax": 2.9,
+   "precipMm": 0.2,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1941-10-25",
+   "tMin": 1.7,
+   "tAvg": 2.3,
+   "tMax": 3.4,
+   "precipMm": 0.0,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1941-10-26",
+   "tMin": 0.1,
+   "tAvg": 3.7,
+   "tMax": 7.8,
+   "precipMm": 4.3,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1941-10-27",
+   "tMin": 1.4,
+   "tAvg": 4.1,
+   "tMax": 8.5,
+   "precipMm": 8.8,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1941-10-28",
+   "tMin": -0.3,
+   "tAvg": 1.6,
+   "tMax": 2.9,
+   "precipMm": 1.8,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1941-10-29",
+   "tMin": -1.0,
+   "tAvg": 1.6,
+   "tMax": 3.6,
+   "precipMm": 0.0,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1941-10-30",
+   "tMin": 0.6,
+   "tAvg": 3.3,
+   "tMax": 6.5,
+   "precipMm": 9.5,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1941-10-31",
+   "tMin": 0.6,
+   "tAvg": 1.2,
+   "tMax": 1.4,
+   "precipMm": 0.8,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1941-11-01",
+   "tMin": 1.9,
+   "tAvg": 3.4,
+   "tMax": 6.0,
+   "precipMm": 2.8,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1941-11-02",
+   "tMin": 4.4,
+   "tAvg": 5.2,
+   "tMax": 6.5,
+   "precipMm": 0.0,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1941-11-03",
+   "tMin": -0.9,
+   "tAvg": 1.5,
+   "tMax": 3.4,
+   "precipMm": 0.0,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1941-11-04",
+   "tMin": -3.2,
+   "tAvg": -2.6,
+   "tMax": -2.0,
+   "precipMm": 0.0,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1941-11-05",
+   "tMin": -4.6,
+   "tAvg": -3.7,
+   "tMax": -2.0,
+   "precipMm": 0.0,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1941-11-06",
+   "tMin": -7.8,
+   "tAvg": -4.0,
+   "tMax": -0.3,
+   "precipMm": 0.0,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1941-11-07",
+   "tMin": -4.8,
+   "tAvg": -3.8,
+   "tMax": -2.9,
+   "precipMm": 4.4,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1941-11-08",
+   "tMin": -2.8,
+   "tAvg": -0.3,
+   "tMax": 1.6,
+   "precipMm": 0.9,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1941-11-09",
+   "tMin": 0.3,
+   "tAvg": 1.0,
+   "tMax": 1.8,
+   "precipMm": 0.8,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1941-11-10",
+   "tMin": -0.6,
+   "tAvg": -0.2,
+   "tMax": 0.2,
+   "precipMm": 0.0,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1941-11-11",
+   "tMin": -15.0,
+   "tAvg": -9.3,
+   "tMax": -4.8,
+   "precipMm": 0.2,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1941-11-12",
+   "tMin": -15.3,
+   "tAvg": -14.2,
+   "tMax": -12.1,
+   "precipMm": 0.0,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1941-11-13",
+   "tMin": -16.8,
+   "tAvg": -14.9,
+   "tMax": -12.9,
+   "precipMm": 0.0,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1941-11-14",
+   "tMin": -12.8,
+   "tAvg": -9.4,
+   "tMax": -6.6,
+   "precipMm": 0.0,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1941-11-15",
+   "tMin": -7.4,
+   "tAvg": -6.4,
+   "tMax": -5.0,
+   "precipMm": 0.0,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1941-11-16",
+   "tMin": -7.7,
+   "tAvg": -6.4,
+   "tMax": -4.8,
+   "precipMm": 0.0,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1941-11-17",
+   "tMin": -9.5,
+   "tAvg": -8.7,
+   "tMax": -7.5,
+   "precipMm": 0.0,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1941-11-18",
+   "tMin": -10.7,
+   "tAvg": -9.2,
+   "tMax": -7.7,
+   "precipMm": 0.0,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1941-11-19",
+   "tMin": -7.9,
+   "tAvg": -7.2,
+   "tMax": -5.9,
+   "precipMm": 0.0,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1941-11-20",
+   "tMin": -5.8,
+   "tAvg": -5.1,
+   "tMax": -4.6,
+   "precipMm": 0.0,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1941-11-21",
+   "tMin": -5.2,
+   "tAvg": -4.6,
+   "tMax": -3.9,
+   "precipMm": 0.2,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1941-11-22",
+   "tMin": -6.3,
+   "tAvg": -5.5,
+   "tMax": -4.9,
+   "precipMm": 0.0,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1941-11-23",
+   "tMin": -9.0,
+   "tAvg": -8.4,
+   "tMax": -7.9,
+   "precipMm": 0.0,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1941-11-24",
+   "tMin": -9.7,
+   "tAvg": -9.4,
+   "tMax": -9.1,
+   "precipMm": 0.0,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1941-11-25",
+   "tMin": -10.2,
+   "tAvg": -8.5,
+   "tMax": -6.8,
+   "precipMm": 0.1,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1941-11-26",
+   "tMin": -8.3,
+   "tAvg": -7.6,
+   "tMax": -6.6,
+   "precipMm": 0.2,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1941-11-27",
+   "tMin": -8.7,
+   "tAvg": -8.5,
+   "tMax": -7.8,
+   "precipMm": 0.4,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1941-11-28",
+   "tMin": -9.2,
+   "tAvg": -8.1,
+   "tMax": -6.9,
+   "precipMm": 0.0,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1941-11-29",
+   "tMin": -6.2,
+   "tAvg": -4.2,
+   "tMax": -2.7,
+   "precipMm": 2.0,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1941-11-30",
+   "tMin": -1.3,
+   "tAvg": -0.7,
+   "tMax": 0.0,
+   "precipMm": 0.6,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1941-12-01",
+   "tMin": -13.0,
+   "tAvg": -8.0,
+   "tMax": -3.1,
+   "precipMm": 0.0,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1941-12-02",
+   "tMin": -17.0,
+   "tAvg": -13.4,
+   "tMax": -11.0,
+   "precipMm": 0.9,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1941-12-03",
+   "tMin": -10.6,
+   "tAvg": -6.2,
+   "tMax": -4.1,
+   "precipMm": 1.0,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1941-12-04",
+   "tMin": -21.2,
+   "tAvg": -15.6,
+   "tMax": -7.7,
+   "precipMm": 0.2,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1941-12-05",
+   "tMin": -24.9,
+   "tAvg": -23.6,
+   "tMax": -22.4,
+   "precipMm": 0.3,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1941-12-06",
+   "tMin": -24.5,
+   "tAvg": -22.6,
+   "tMax": -20.3,
+   "precipMm": 0.2,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1941-12-07",
+   "tMin": -24.5,
+   "tAvg": -21.7,
+   "tMax": -19.2,
+   "precipMm": 0.2,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1941-12-08",
+   "tMin": -16.0,
+   "tAvg": -7.9,
+   "tMax": -0.3,
+   "precipMm": 3.4,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1941-12-09",
+   "tMin": -0.6,
+   "tAvg": 0.1,
+   "tMax": 0.8,
+   "precipMm": 6.1,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1941-12-10",
+   "tMin": -3.6,
+   "tAvg": -2.4,
+   "tMax": -0.6,
+   "precipMm": 4.7,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1941-12-11",
+   "tMin": -8.8,
+   "tAvg": -5.2,
+   "tMax": -2.9,
+   "precipMm": 3.6,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1941-12-12",
+   "tMin": -9.5,
+   "tAvg": -3.9,
+   "tMax": 3.7,
+   "precipMm": 2.3,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1941-12-13",
+   "tMin": -18.4,
+   "tAvg": -16.4,
+   "tMax": -14.6,
+   "precipMm": 5.0,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1941-12-14",
+   "tMin": -19.1,
+   "tAvg": -17.1,
+   "tMax": -14.3,
+   "precipMm": 2.4,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1941-12-15",
+   "tMin": -20.7,
+   "tAvg": -19.2,
+   "tMax": -15.9,
+   "precipMm": 0.0,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1941-12-16",
+   "tMin": -11.5,
+   "tAvg": -7.2,
+   "tMax": -4.5,
+   "precipMm": 8.1,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1941-12-17",
+   "tMin": -12.2,
+   "tAvg": -10.7,
+   "tMax": -9.4,
+   "precipMm": 0.7,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1941-12-18",
+   "tMin": -13.2,
+   "tAvg": -11.8,
+   "tMax": -10.7,
+   "precipMm": 0.4,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1941-12-19",
+   "tMin": -15.7,
+   "tAvg": -12.4,
+   "tMax": -11.2,
+   "precipMm": 0.4,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1941-12-20",
+   "tMin": -16.9,
+   "tAvg": -14.0,
+   "tMax": -12.4,
+   "precipMm": 0.7,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1941-12-21",
+   "tMin": -14.4,
+   "tAvg": -10.1,
+   "tMax": -6.5,
+   "precipMm": 0.1,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1941-12-22",
+   "tMin": -5.2,
+   "tAvg": -3.7,
+   "tMax": -2.7,
+   "precipMm": 3.3,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1941-12-23",
+   "tMin": -1.1,
+   "tAvg": -0.5,
+   "tMax": 0.4,
+   "precipMm": 1.3,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1941-12-24",
+   "tMin": -11.5,
+   "tAvg": -9.5,
+   "tMax": -6.5,
+   "precipMm": 1.1,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1941-12-25",
+   "tMin": -20.2,
+   "tAvg": -16.8,
+   "tMax": -13.4,
+   "precipMm": 0.0,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1941-12-26",
+   "tMin": -22.3,
+   "tAvg": -17.6,
+   "tMax": -15.6,
+   "precipMm": 4.1,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1941-12-27",
+   "tMin": -15.9,
+   "tAvg": -14.2,
+   "tMax": -13.3,
+   "precipMm": 6.5,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1941-12-28",
+   "tMin": -20.8,
+   "tAvg": -19.2,
+   "tMax": -15.5,
+   "precipMm": 2.8,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1941-12-29",
+   "tMin": -22.1,
+   "tAvg": -19.4,
+   "tMax": -17.2,
+   "precipMm": 1.7,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1941-12-30",
+   "tMin": -28.5,
+   "tAvg": -27.4,
+   "tMax": -25.9,
+   "precipMm": 0.0,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1941-12-31",
+   "tMin": -29.3,
+   "tAvg": -23.6,
+   "tMax": -20.3,
+   "precipMm": 0.0,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1942-01-01",
+   "tMin": -27.2,
+   "tAvg": -25.4,
+   "tMax": -23.6,
+   "precipMm": 0.4,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1942-01-02",
+   "tMin": -31.2,
+   "tAvg": -29.0,
+   "tMax": -27.8,
+   "precipMm": 0.0,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1942-01-03",
+   "tMin": -35.9,
+   "tAvg": -31.4,
+   "tMax": -26.8,
+   "precipMm": 0.1,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1942-01-04",
+   "tMin": -28.0,
+   "tAvg": -23.4,
+   "tMax": -17.7,
+   "precipMm": 0.0,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1942-01-05",
+   "tMin": -15.4,
+   "tAvg": -11.8,
+   "tMax": -9.1,
+   "precipMm": 0.4,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1942-01-06",
+   "tMin": -9.5,
+   "tAvg": -5.5,
+   "tMax": -1.6,
+   "precipMm": 2.8,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1942-01-07",
+   "tMin": -11.4,
+   "tAvg": -10.6,
+   "tMax": -9.3,
+   "precipMm": 0.3,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1942-01-08",
+   "tMin": -13.4,
+   "tAvg": -9.6,
+   "tMax": -6.4,
+   "precipMm": 0.0,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1942-01-09",
+   "tMin": -10.1,
+   "tAvg": -9.2,
+   "tMax": -8.3,
+   "precipMm": 0.1,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1942-01-10",
+   "tMin": -11.3,
+   "tAvg": -10.3,
+   "tMax": -9.7,
+   "precipMm": 3.7,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1942-01-11",
+   "tMin": -22.5,
+   "tAvg": -17.4,
+   "tMax": -12.7,
+   "precipMm": 0.3,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1942-01-12",
+   "tMin": -25.8,
+   "tAvg": -24.2,
+   "tMax": -23.3,
+   "precipMm": 0.0,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1942-01-13",
+   "tMin": -30.6,
+   "tAvg": -27.2,
+   "tMax": -23.3,
+   "precipMm": 0.0,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1942-01-14",
+   "tMin": -23.9,
+   "tAvg": -19.3,
+   "tMax": -14.4,
+   "precipMm": 0.2,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1942-01-15",
+   "tMin": -14.1,
+   "tAvg": -11.4,
+   "tMax": -10.0,
+   "precipMm": 0.4,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1942-01-16",
+   "tMin": -21.2,
+   "tAvg": -16.2,
+   "tMax": -10.9,
+   "precipMm": 0.1,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1942-01-17",
+   "tMin": -18.9,
+   "tAvg": -17.8,
+   "tMax": -16.4,
+   "precipMm": 0.0,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1942-01-18",
+   "tMin": -20.7,
+   "tAvg": -17.8,
+   "tMax": -15.9,
+   "precipMm": 0.2,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1942-01-19",
+   "tMin": -21.0,
+   "tAvg": -19.8,
+   "tMax": -17.1,
+   "precipMm": 1.0,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1942-01-20",
+   "tMin": -34.0,
+   "tAvg": -30.7,
+   "tMax": -28.0,
+   "precipMm": 0.0,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1942-01-21",
+   "tMin": -34.0,
+   "tAvg": -30.6,
+   "tMax": -27.2,
+   "precipMm": 0.0,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1942-01-22",
+   "tMin": -24.1,
+   "tAvg": -21.8,
+   "tMax": -20.2,
+   "precipMm": 0.7,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1942-01-23",
+   "tMin": -31.2,
+   "tAvg": -29.4,
+   "tMax": -28.3,
+   "precipMm": 0.9,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1942-01-24",
+   "tMin": -31.8,
+   "tAvg": -29.9,
+   "tMax": -28.6,
+   "precipMm": 0.3,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1942-01-25",
+   "tMin": -35.6,
+   "tAvg": -29.5,
+   "tMax": -22.5,
+   "precipMm": 0.0,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1942-01-26",
+   "tMin": -26.7,
+   "tAvg": -24.5,
+   "tMax": -23.1,
+   "precipMm": 0.1,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1942-01-27",
+   "tMin": -31.0,
+   "tAvg": -28.0,
+   "tMax": -24.2,
+   "precipMm": 0.0,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1942-01-28",
+   "tMin": -30.8,
+   "tAvg": -25.2,
+   "tMax": -19.3,
+   "precipMm": 0.0,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1942-01-29",
+   "tMin": -16.3,
+   "tAvg": -14.1,
+   "tMax": -11.5,
+   "precipMm": 0.0,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1942-01-30",
+   "tMin": -16.9,
+   "tAvg": -15.8,
+   "tMax": -14.2,
+   "precipMm": 0.0,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  },
+  {
+   "date": "1942-01-31",
+   "tMin": -15.8,
+   "tAvg": -14.4,
+   "tMax": -12.7,
+   "precipMm": 0.0,
+   "sources": [
+    "wmo_27612_daily"
+   ]
+  }
+ ]
+}

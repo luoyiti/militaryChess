@@ -1,0 +1,381 @@
+[
+ {
+  "id": "pz3",
+  "side": "DE",
+  "name": {
+   "zh": "三号坦克（J 型前后）",
+   "orig": "Panzerkampfwagen III"
+  },
+  "class": "tank_medium",
+  "crew": 5,
+  "weightT": 21.5,
+  "armorMm": [
+   10,
+   50
+  ],
+  "gun": "常见资料记为 50 mm KwK 38 L/42",
+  "speedKmh": 40,
+  "model": "pz3",
+  "desc": "1941 年德军装甲师的主力中型坦克，多数仍装备 37 mm 或短管 50 mm 炮，在 1000 米外难以击穿 T-34 与 KV 的正面装甲。台风行动中约有一半以上的坦克属于此型或其捷克仿制型。",
+  "sources": [
+   "ger_hgr_center",
+   "strat_cmh_tomoscow"
+  ]
+ },
+ {
+  "id": "pz4",
+  "side": "DE",
+  "name": {
+   "zh": "四号坦克（F1 型）",
+   "orig": "Panzerkampfwagen IV Ausf. F1"
+  },
+  "class": "tank_medium",
+  "crew": 5,
+  "weightT": 22.3,
+  "armorMm": [
+   10,
+   50
+  ],
+  "gun": "常见资料记为 75 mm KwK 37 L/24",
+  "speedKmh": 42,
+  "model": "pz4",
+  "desc": "装甲师中唯一的 75 mm 支援坦克，短管炮擅长打步兵工事而反装甲能力不足。1941 年冬尚无长管型，德军在东线首次遇到 T-34 时正是此型无法正面击穿的困境。",
+  "sources": [
+   "ger_hgr_center",
+   "ger_weiss_101"
+  ]
+ },
+ {
+  "id": "pz38t",
+  "side": "DE",
+  "name": {
+   "zh": "38(t) 坦克",
+   "orig": "Panzerkampfwagen 38(t)"
+  },
+  "class": "tank_light",
+  "crew": 4,
+  "weightT": 9.7,
+  "armorMm": [
+   8,
+   25
+  ],
+  "gun": "常见资料记为 37 mm KwK 38(t) L/48",
+  "speedKmh": 42,
+  "model": "pz38t",
+  "desc": "捷克制造的轻型坦克，机械可靠、数量可观，装备第 7、第 12、第 19、第 20 等装甲师。装甲与火力在 1941 年冬均已明显落后，但在道路条件差时仍是最可用的机动力量。",
+  "sources": [
+   "ger_hgr_center",
+   "ger_pzgr3"
+  ]
+ },
+ {
+  "id": "stug3",
+  "side": "DE",
+  "name": {
+   "zh": "三号突击炮（B 型）",
+   "orig": "Sturmgeschütz III Ausf. B"
+  },
+  "class": "tank_medium",
+  "crew": 4,
+  "weightT": 20.7,
+  "armorMm": [
+   10,
+   50
+  ],
+  "gun": "常见资料记为 75 mm StuK 37 L/24",
+  "speedKmh": 40,
+  "model": "stug3",
+  "desc": "以三号坦克底盘改装的步兵支援装甲车，隶属突击炮营而非装甲师。低矮车体便于隐蔽，在防御战中常被当作机动反坦克火力使用，1941 年冬多配属步兵师。",
+  "sources": [
+   "ger_hgr_center",
+   "ger_winter_equipment"
+  ]
+ },
+ {
+  "id": "sdkfz231",
+  "side": "DE",
+  "name": {
+   "zh": "Sd.Kfz. 231 重型装甲车",
+   "orig": "Sd.Kfz. 231 (8-rad)"
+  },
+  "class": "armored_car",
+  "crew": 4,
+  "weightT": 8.3,
+  "armorMm": [
+   8,
+   15
+  ],
+  "gun": "常见资料记为 20 mm KwK 30",
+  "speedKmh": 85,
+  "model": "sdkfz231",
+  "desc": "八轮重型装甲车，装备装甲师的侦察营。公路机动性极佳，但在泥泞与深雪中通过能力有限，冬季常被用于公路巡逻与前卫搜索，缺乏与 T-34 正面对抗的能力。",
+  "sources": [
+   "ger_pzgr2",
+   "ger_winter_equipment"
+  ]
+ },
+ {
+  "id": "ju87",
+  "side": "DE",
+  "name": {
+   "zh": "Ju 87 俯冲轰炸机（B/R 型）",
+   "orig": "Junkers Ju 87 Stuka"
+  },
+  "class": "dive_bomber",
+  "crew": 2,
+  "speedKmh": 320,
+  "gun": "常见资料记为 1×500 kg 炸弹 · 3×7.92 mm 机枪",
+  "model": "ju87",
+  "desc": "第 8 航空军对地支援的核心，以俯冲精度打击苏军坦克集群与桥梁。低云、降雪与能见度差使 1941 年 11 月后的出动率骤降，护航战斗机不足时损失尤其严重。第 2 航空队 1941 年 10 月的中型与俯冲轰炸机合计约 158 架，这是类别口径，无法拆分到 Ju 87 单型号。",
+  "sources": [
+   "ger_la_8flieger",
+   "strat_cmh_tomoscow"
+  ]
+ },
+ {
+  "id": "bf109",
+  "side": "DE",
+  "name": {
+   "zh": "Bf 109 战斗机（F 型）",
+   "orig": "Messerschmitt Bf 109F"
+  },
+  "class": "fighter",
+  "crew": 1,
+  "speedKmh": 570,
+  "gun": "常见资料记为 1×20 mm 机炮 · 2×7.92 mm 机枪",
+  "model": "bf109",
+  "desc": "1941 年冬第 2 航空队可用的主力战斗机。性能优于苏军多数机型，但严寒使发动机启动困难、润滑油凝固，出击准备时间大幅延长。第 2 航空队 1941 年 10 月的全部战斗机合计约 172 架，为类别口径，其中 Bf 109F 占大部分但无单型号数字。",
+  "sources": [
+   "ger_la_8flieger",
+   "strat_cmh_tomoscow"
+  ]
+ },
+ {
+  "id": "he111",
+  "side": "DE",
+  "name": {
+   "zh": "He 111 中型轰炸机（H 型）",
+   "orig": "Heinkel He 111H"
+  },
+  "class": "bomber",
+  "crew": 5,
+  "speedKmh": 400,
+  "gun": "常见资料记为最多 2500 kg 炸弹 · 若干 7.92 mm 机枪",
+  "model": "he111",
+  "desc": "第 2 航空队夜间轰炸莫斯科的主力机型。1941 年秋冬对莫斯科的大规模空袭多由此型与 Ju 88 执行，多数架次被苏军防空拦阻在远接近地之外。该机队规模无可靠单型号数字：1941 年 10 月第 2 航空队的中型与俯冲轰炸机合计约 158 架，无法拆分。",
+  "sources": [
+   "ger_la_8flieger",
+   "su_pvo_moscow"
+  ]
+ },
+ {
+  "id": "t34",
+  "side": "SU",
+  "name": {
+   "zh": "T-34 中型坦克（1941 年型）",
+   "orig": "Т-34 образца 1941 г."
+  },
+  "class": "tank_medium",
+  "crew": 4,
+  "weightT": 26.5,
+  "armorMm": [
+   15,
+   45
+  ],
+  "gun": "常见资料记为 76.2 mm Ф-34",
+  "speedKmh": 54,
+  "model": "t34",
+  "desc": "倾斜装甲与新式 76 mm 炮使德军现役反坦克武器在常规交战距离难以击穿。1941 年秋数量仍然有限，集中使用于姆岑斯克、卡希拉等要点时才形成局部优势。",
+  "sources": [
+   "su_katukov",
+   "strat_cmh_tomoscow"
+  ]
+ },
+ {
+  "id": "kv1",
+  "side": "SU",
+  "name": {
+   "zh": "KV-1 重型坦克",
+   "orig": "КВ-1"
+  },
+  "class": "tank_medium",
+  "crew": 5,
+  "weightT": 47.5,
+  "armorMm": [
+   25,
+   75
+  ],
+  "gun": "常见资料记为 76.2 mm ЗИС-5",
+  "speedKmh": 35,
+  "model": "kv1",
+  "desc": "1941 年德军反坦克炮几乎无法从正面击穿的重型坦克（引擎数据模型库无重型坦克分类，此处按中型坦克类别登记）。可靠性差、离合器与变速箱故障率高，长途行军掉队严重，冬季低温又加剧了机械问题。",
+  "sources": [
+   "su_katukov",
+   "strat_cmh_tomoscow"
+  ]
+ },
+ {
+  "id": "t26",
+  "side": "SU",
+  "name": {
+   "zh": "T-26 轻型坦克",
+   "orig": "Т-26 образца 1933 г."
+  },
+  "class": "tank_light",
+  "crew": 3,
+  "weightT": 9.5,
+  "armorMm": [
+   6,
+   15
+  ],
+  "gun": "常见资料记为 45 mm 20-К",
+  "speedKmh": 30,
+  "model": "t26",
+  "desc": "1941 年苏军数量最多的轻型坦克之一，装甲薄弱、汽油机易起火。独立坦克旅与步兵师直属坦克营中仍大量使用，损失率极高，多用于步兵直接支援。",
+  "sources": [
+   "su_katukov",
+   "strat_cmh_tomoscow"
+  ]
+ },
+ {
+  "id": "bt7",
+  "side": "SU",
+  "name": {
+   "zh": "BT-7 快速坦克",
+   "orig": "БТ-7"
+  },
+  "class": "tank_light",
+  "crew": 3,
+  "weightT": 13.9,
+  "armorMm": [
+   6,
+   22
+  ],
+  "gun": "常见资料记为 45 mm 20-К",
+  "speedKmh": 52,
+  "model": "bt7",
+  "desc": "克里斯蒂悬挂的高速坦克，公路机动性优异但装甲薄、抗寒准备不足。莫斯科防御阶段多用于反击与侦察，泥泞和深雪中机动优势难以发挥。",
+  "sources": [
+   "su_katukov",
+   "strat_cmh_tomoscow"
+  ]
+ },
+ {
+  "id": "art_gun",
+  "side": "SU",
+  "name": {
+   "zh": "76 mm 师属野炮（ЗИС-3 前身）",
+   "orig": "76-мм дивизионная пушка"
+  },
+  "class": "gun",
+  "crew": 6,
+  "weightT": 1.6,
+  "gun": "76.2 mm",
+  "model": "art_gun",
+  "desc": "苏军步兵师与反坦克炮兵团的通用火炮，兼作直瞄反坦克火力。1941 年秋莫斯科方向集中了大量独立反坦克炮兵团，是阻止德军装甲纵队沿公路突入的主要手段。三个方面军 1941 年 10 月的火炮与迫击炮合计约 7,600 门，属统计类别口径，不能归到 76 mm 野炮单型号。",
+  "sources": [
+   "stat_soviet_10_12",
+   "strat_cmh_tomoscow"
+  ]
+ },
+ {
+  "id": "katyusha",
+  "side": "SU",
+  "name": {
+   "zh": "BM-13 火箭炮（喀秋莎）",
+   "orig": "БМ-13 «Катюша»"
+  },
+  "class": "gun",
+  "crew": 7,
+  "speedKmh": 40,
+  "gun": "常见资料记为 16×132 mm 火箭弹",
+  "model": "art_gun",
+  "desc": "1941 年秋首次成建制使用（莫斯科民兵炮兵连与独立火箭炮营）。齐射覆盖面积大但精度差、装填慢，多在反击与拦阻射击时使用。模型库无专用型号，以通用火炮符号表示。",
+  "sources": [
+   "strat_cmh_tomoscow",
+   "su_opolcheniye"
+  ]
+ },
+ {
+  "id": "yak1",
+  "side": "SU",
+  "name": {
+   "zh": "雅克-1 战斗机",
+   "orig": "Як-1"
+  },
+  "class": "fighter",
+  "crew": 1,
+  "speedKmh": 570,
+  "gun": "常见资料记为 1×20 mm ШВАК · 2×7.62 mm ШКАС",
+  "model": "air_token",
+  "desc": "1941 年夏开始装备的新型战斗机，性能接近 Bf 109F 但生产数量与飞行员训练仍不足。莫斯科防空与前线航空兵混编使用，冬季出动受机场条件严重制约。该方向可用的战斗机合计约 285 架（其中 201 架可用），这是类别口径，并非雅克-1 单项。",
+  "sources": [
+   "su_pvo_moscow",
+   "strat_cmh_tomoscow"
+  ]
+ },
+ {
+  "id": "il2",
+  "side": "SU",
+  "name": {
+   "zh": "伊尔-2 强击机（早期单座型）",
+   "orig": "Ил-2"
+  },
+  "class": "bomber",
+  "crew": 1,
+  "speedKmh": 420,
+  "gun": "常见资料记为 2×20 mm ШВАК · 400 kg 炸弹",
+  "model": "air_token",
+  "desc": "1941 年秋刚进入部队的装甲强击机，数量少、掩护不足，损失很大。主要用于攻击德军装甲纵队与渡口。模型库无该型，以通用空中符号表示。",
+  "sources": [
+   "su_pvo_moscow",
+   "strat_cmh_tomoscow"
+  ]
+ },
+ {
+  "id": "mg34",
+  "side": "DE",
+  "name": {
+   "zh": "MG 34 通用机枪",
+   "orig": "MG 34"
+  },
+  "class": "small_arms",
+  "crew": 2,
+  "gun": "7.92×57 mm",
+  "desc": "德军步兵班的核心火力。严寒中润滑油凝固导致抽壳困难，1941 年 12 月德军报告大量机枪无法连发，是冬季战斗力下降的直接原因之一。",
+  "sources": [
+   "ger_winter_equipment",
+   "strat_cmh_tomoscow"
+  ]
+ },
+ {
+  "id": "ppsh41",
+  "side": "SU",
+  "name": {
+   "zh": "PPSh-41 冲锋枪",
+   "orig": "ППШ-41"
+  },
+  "class": "small_arms",
+  "crew": 1,
+  "gun": "7.62×25 mm",
+  "desc": "苏军 1941 年大量装备的冲锋枪，结构简单、耐寒可靠，在近战与堑壕战中火力密集。民兵师与滑雪营的装备比例尤其高，是冬季近战的主要自动火器。",
+  "sources": [
+   "su_opolcheniye",
+   "strat_cmh_tomoscow"
+  ]
+ },
+ {
+  "id": "snow_camo",
+  "side": "DE",
+  "name": {
+   "zh": "白色冬季伪装",
+   "orig": "Tarnanstrich Winter"
+  },
+  "class": "transport",
+  "desc": "1941 年 11 月起德军以白垩与石灰浆临时涂白坦克、火炮与车辆。冬季伪装使装备在雪原上不易被发现，但也表明德军对冬季作战缺乏系统准备：冬装、防冻液与滑雪装备均严重不足。",
+  "sources": [
+   "ger_winter_equipment",
+   "strat_cmh_tomoscow"
+  ]
+ }
+]

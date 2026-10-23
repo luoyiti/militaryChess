@@ -1,0 +1,530 @@
+[
+ {
+  "id": "moscow",
+  "zh": "莫斯科",
+  "orig": "Москва",
+  "pos": [
+   37.617,
+   55.755
+  ],
+  "kind": "capital",
+  "rank": 1,
+  "country": "SU",
+  "sources": [
+   "geo_naturalearth"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "kremlin",
+  "zh": "克里姆林宫",
+  "orig": "Московский Кремль",
+  "pos": [
+   37.617,
+   55.752
+  ],
+  "kind": "fort",
+  "rank": 2,
+  "country": "SU",
+  "sources": [
+   "geo_naturalearth"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "krasnaya_polyana",
+  "zh": "克拉斯纳亚波利亚纳",
+  "orig": "Красная Поляна",
+  "pos": [
+   37.428,
+   56.023
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU",
+  "sources": [
+   "geo_naturalearth"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "khimki",
+  "zh": "希姆基",
+  "orig": "Химки",
+  "pos": [
+   37.444,
+   55.89
+  ],
+  "kind": "city",
+  "rank": 3,
+  "country": "SU",
+  "sources": [
+   "geo_naturalearth"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "mytishchi",
+  "zh": "梅季希",
+  "orig": "Мытищи",
+  "pos": [
+   37.733,
+   55.911
+  ],
+  "kind": "city",
+  "rank": 3,
+  "country": "SU",
+  "sources": [
+   "geo_naturalearth"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "pushkino",
+  "zh": "普希金诺",
+  "orig": "Пушкино",
+  "pos": [
+   37.85,
+   56.01
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "SU",
+  "sources": [
+   "geo_naturalearth"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "yakhroma",
+  "zh": "亚赫罗马",
+  "orig": "Яхрома",
+  "pos": [
+   37.483,
+   56.283
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU",
+  "sources": [
+   "geo_naturalearth"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "dmitrov",
+  "zh": "德米特罗夫",
+  "orig": "Дмитров",
+  "pos": [
+   37.52,
+   56.35
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "SU",
+  "sources": [
+   "geo_naturalearth"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "klin",
+  "zh": "克林",
+  "orig": "Клин",
+  "pos": [
+   36.708,
+   56.333
+  ],
+  "kind": "city",
+  "rank": 2,
+  "country": "SU",
+  "sources": [
+   "geo_naturalearth"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "solnechnogorsk",
+  "zh": "索尔涅奇诺戈尔斯克",
+  "orig": "Солнечногорск",
+  "pos": [
+   36.981,
+   56.181
+  ],
+  "kind": "city",
+  "rank": 3,
+  "country": "SU",
+  "sources": [
+   "geo_naturalearth"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "istra",
+  "zh": "伊斯特拉",
+  "orig": "Истра",
+  "pos": [
+   36.863,
+   55.921
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "SU",
+  "sources": [
+   "geo_naturalearth"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "voskresensk",
+  "zh": "沃斯克列先斯克",
+  "orig": "Воскресенск",
+  "pos": [
+   38.7,
+   55.317
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "SU",
+  "sources": [
+   "geo_naturalearth"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "volokolamsk",
+  "zh": "沃洛科拉姆斯克",
+  "orig": "Волоколамск",
+  "pos": [
+   35.958,
+   56.033
+  ],
+  "kind": "city",
+  "rank": 2,
+  "country": "SU",
+  "sources": [
+   "geo_naturalearth"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "mozhaisk",
+  "zh": "莫扎伊斯克",
+  "orig": "Можайск",
+  "pos": [
+   36.027,
+   55.506
+  ],
+  "kind": "city",
+  "rank": 2,
+  "country": "SU",
+  "sources": [
+   "geo_naturalearth"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "borodino",
+  "zh": "博罗季诺",
+  "orig": "Бородино",
+  "pos": [
+   35.878,
+   55.51
+  ],
+  "kind": "village",
+  "rank": 4,
+  "country": "SU",
+  "sources": [
+   "geo_naturalearth"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "naro_fominsk",
+  "zh": "纳罗福明斯克",
+  "orig": "Наро-Фоминск",
+  "pos": [
+   36.74,
+   55.387
+  ],
+  "kind": "city",
+  "rank": 3,
+  "country": "SU",
+  "sources": [
+   "geo_naturalearth"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "maloyaroslavets",
+  "zh": "小雅罗斯拉韦茨",
+  "orig": "Малоярославец",
+  "pos": [
+   36.47,
+   55.014
+  ],
+  "kind": "city",
+  "rank": 3,
+  "country": "SU",
+  "sources": [
+   "geo_naturalearth"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "podolsk",
+  "zh": "波多利斯克",
+  "orig": "Подольск",
+  "pos": [
+   37.545,
+   55.431
+  ],
+  "kind": "city",
+  "rank": 2,
+  "country": "SU",
+  "sources": [
+   "geo_naturalearth"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "kubinka",
+  "zh": "库宾卡",
+  "orig": "Кубинка",
+  "pos": [
+   36.7,
+   55.578
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU",
+  "sources": [
+   "geo_naturalearth"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "zvenigorod",
+  "zh": "兹韦尼戈罗德",
+  "orig": "Звенигород",
+  "pos": [
+   36.855,
+   55.73
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU",
+  "sources": [
+   "geo_naturalearth"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "serpukhov",
+  "zh": "谢尔普霍夫",
+  "orig": "Серпухов",
+  "pos": [
+   37.433,
+   54.93
+  ],
+  "kind": "city",
+  "rank": 2,
+  "country": "SU",
+  "sources": [
+   "geo_naturalearth"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "kashira",
+  "zh": "卡希拉",
+  "orig": "Кашира",
+  "pos": [
+   38.167,
+   54.833
+  ],
+  "kind": "city",
+  "rank": 3,
+  "country": "SU",
+  "sources": [
+   "geo_naturalearth"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "kolomna",
+  "zh": "科洛姆纳",
+  "orig": "Коломна",
+  "pos": [
+   38.785,
+   55.08
+  ],
+  "kind": "city",
+  "rank": 2,
+  "country": "SU",
+  "sources": [
+   "geo_naturalearth"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "noginsk",
+  "zh": "诺金斯克",
+  "orig": "Ногинск",
+  "pos": [
+   38.48,
+   55.87
+  ],
+  "kind": "city",
+  "rank": 2,
+  "country": "SU",
+  "sources": [
+   "geo_naturalearth"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "orekhovo_zuevo",
+  "zh": "奥列霍沃-祖耶沃",
+  "orig": "Орехово-Зуево",
+  "pos": [
+   38.98,
+   55.82
+  ],
+  "kind": "city",
+  "rank": 3,
+  "country": "SU",
+  "sources": [
+   "geo_naturalearth"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "sergiyev_posad",
+  "zh": "谢尔吉耶夫镇（扎戈尔斯克）",
+  "orig": "Сергиев Посад / Загорск",
+  "pos": [
+   38.13,
+   56.3
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "SU",
+  "sources": [
+   "geo_naturalearth"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "yegoryevsk",
+  "zh": "叶戈里耶夫斯克",
+  "orig": "Егорьевск",
+  "pos": [
+   39.029,
+   55.385
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU",
+  "sources": [
+   "geo_naturalearth"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "ramenskoye",
+  "zh": "拉缅斯科耶",
+  "orig": "Раменское",
+  "pos": [
+   38.33,
+   55.57
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU",
+  "sources": [
+   "geo_naturalearth"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "lyubertsy",
+  "zh": "柳别尔齐",
+  "orig": "Люберцы",
+  "pos": [
+   37.89,
+   55.68
+  ],
+  "kind": "town",
+  "rank": 4,
+  "country": "SU",
+  "sources": [
+   "geo_naturalearth"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "vnukovo",
+  "zh": "伏努科沃",
+  "orig": "Внуково",
+  "pos": [
+   37.27,
+   55.6
+  ],
+  "kind": "airfield",
+  "rank": 4,
+  "country": "SU",
+  "sources": [
+   "geo_naturalearth"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "monino",
+  "zh": "莫尼诺",
+  "orig": "Монино",
+  "pos": [
+   38.15,
+   55.84
+  ],
+  "kind": "airfield",
+  "rank": 4,
+  "country": "SU",
+  "sources": [
+   "geo_naturalearth"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "bykovo",
+  "zh": "贝科沃",
+  "orig": "Быково",
+  "pos": [
+   38.06,
+   55.62
+  ],
+  "kind": "airfield",
+  "rank": 4,
+  "country": "SU",
+  "sources": [
+   "geo_naturalearth"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "pereslavl",
+  "zh": "佩列斯拉夫尔-扎列斯基",
+  "orig": "Переславль-Залесский",
+  "pos": [
+   38.855,
+   56.74
+  ],
+  "kind": "town",
+  "rank": 3,
+  "country": "SU",
+  "sources": [
+   "geo_naturalearth"
+  ],
+  "confidence": "high"
+ }
+]

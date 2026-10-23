@@ -1,0 +1,39 @@
+[
+ {
+  "id": "geo_naturalearth",
+  "title": "Natural Earth 1:10m：陆地、河湖、居民点（公有领域），本战役底图与地名坐标的几何基础",
+  "author": "Natural Earth",
+  "url": "https://www.naturalearthdata.com/"
+ },
+ {
+  "id": "geo_histbasemaps",
+  "title": "historical-basemaps world_1938（A. Ourednik 等，GPL-3.0）：1938 年国界，用于确认全图属苏联境内",
+  "author": "A. Ourednik et al.",
+  "url": "https://github.com/aourednik/historical-basemaps"
+ },
+ {
+  "id": "geo_terrarium",
+  "title": "Terrain Tiles (Terrarium)，Mapzen / AWS Open Data：DEM 高程，含 SRTM 等",
+  "author": "Mapzen / AWS"
+ },
+ {
+  "id": "geo_moscow_plan",
+  "title": "1941 年莫斯科城防三环与防御地带示意（俄方研究与城防地图）",
+  "author": "转引自城防研究"
+ },
+ {
+  "id": "stat_soviet_10_12",
+  "title": "苏军 1941 年 10—12 月莫斯科方向兵力与装备（方面军、集团军级统计）",
+  "author": "俄方战史统计"
+ },
+ {
+  "id": "stat_german_10_12",
+  "title": "中央集团军群 1941 年 10—12 月兵力、坦克与火炮可用数（德军十日报告口径）",
+  "author": "德军十日报告 / 转引"
+ },
+ {
+  "id": "stat_casualty_debate",
+  "title": "莫斯科会战双方伤亡的多口径比较研究（苏方 514,338/143,941；德方 145,000 与 436,900 等）",
+  "author": "转引自伤亡统计研究"
+ }
+]

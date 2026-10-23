@@ -1,0 +1,586 @@
+[
+ {
+  "id": "fl.mozhaisk_line",
+  "layer": "mozhaisk_line",
+  "kind": "line",
+  "style": "fortline",
+  "label": "莫扎伊斯克防线（1941 年 10 月 10 日起仓促占领）",
+  "line": [
+   [
+    35.3,
+    55.95
+   ],
+   [
+    35.6,
+    55.75
+   ],
+   [
+    35.9,
+    55.6
+   ],
+   [
+    36.05,
+    55.5
+   ],
+   [
+    36.3,
+    55.35
+   ],
+   [
+    36.6,
+    55.2
+   ],
+   [
+    36.9,
+    55.05
+   ],
+   [
+    37.1,
+    54.9
+   ],
+   [
+    37.3,
+    54.75
+   ]
+  ],
+  "sources": [
+   "geo_moscow_plan",
+   "strat_cmh_tomoscow",
+   "ger_4a"
+  ]
+ },
+ {
+  "id": "fl.mozhaisk_second",
+  "layer": "mozhaisk_line",
+  "kind": "line",
+  "style": "fortline",
+  "label": "莫扎伊斯克防线第二带（诺沃扎维多夫斯克—库宾卡方向）",
+  "line": [
+   [
+    36.1,
+    55.85
+   ],
+   [
+    36.4,
+    55.72
+   ],
+   [
+    36.7,
+    55.62
+   ],
+   [
+    36.95,
+    55.52
+   ],
+   [
+    37.15,
+    55.42
+   ]
+  ],
+  "sources": [
+   "geo_moscow_plan",
+   "su_cmd_zhukov_wf"
+  ]
+ },
+ {
+  "id": "fl.volokolamsk_ur",
+  "layer": "mozhaisk_line",
+  "kind": "line",
+  "style": "fortline",
+  "label": "沃洛科拉姆斯克筑垒地域",
+  "line": [
+   [
+    35.85,
+    56.12
+   ],
+   [
+    36.0,
+    56.0
+   ],
+   [
+    36.15,
+    55.92
+   ],
+   [
+    36.35,
+    55.86
+   ]
+  ],
+  "sources": [
+   "geo_moscow_plan",
+   "su_rokossovsky"
+  ]
+ },
+ {
+  "id": "fl.kalinin_defence",
+  "layer": "mozhaisk_line",
+  "kind": "line",
+  "style": "fortline",
+  "label": "加里宁方向的防御地带",
+  "line": [
+   [
+    35.2,
+    56.75
+   ],
+   [
+    35.55,
+    56.65
+   ],
+   [
+    35.8,
+    56.55
+   ],
+   [
+    35.95,
+    56.45
+   ]
+  ],
+  "sources": [
+   "geo_moscow_plan",
+   "su_cmd_konev"
+  ]
+ },
+ {
+  "id": "rg.moscow_outer",
+  "layer": "moscow_rings",
+  "kind": "polygon",
+  "style": "ring",
+  "label": "莫斯科城防外围环（距城 15—20 公里，1941 年 10 月起构筑）",
+  "polygons": [
+   [
+    [
+     [
+      36.95,
+      55.98
+     ],
+     [
+      37.3,
+      56.02
+     ],
+     [
+      37.62,
+      56.0
+     ],
+     [
+      37.9,
+      55.92
+     ],
+     [
+      38.1,
+      55.78
+     ],
+     [
+      38.12,
+      55.62
+     ],
+     [
+      38.02,
+      55.5
+     ],
+     [
+      37.85,
+      55.42
+     ],
+     [
+      37.62,
+      55.38
+     ],
+     [
+      37.38,
+      55.4
+     ],
+     [
+      37.15,
+      55.47
+     ],
+     [
+      36.97,
+      55.58
+     ],
+     [
+      36.88,
+      55.72
+     ],
+     [
+      36.88,
+      55.86
+     ]
+    ]
+   ]
+  ],
+  "sources": [
+   "geo_moscow_plan",
+   "su_special_moscow"
+  ]
+ },
+ {
+  "id": "rg.moscow_inner",
+  "layer": "moscow_rings",
+  "kind": "polygon",
+  "style": "ring",
+  "label": "莫斯科市内防御地带（环城铁路—花园环—林荫环）",
+  "polygons": [
+   [
+    [
+     [
+      37.36,
+      55.86
+     ],
+     [
+      37.6,
+      55.88
+     ],
+     [
+      37.82,
+      55.84
+     ],
+     [
+      37.9,
+      55.75
+     ],
+     [
+      37.84,
+      55.66
+     ],
+     [
+      37.64,
+      55.63
+     ],
+     [
+      37.44,
+      55.64
+     ],
+     [
+      37.33,
+      55.7
+     ],
+     [
+      37.3,
+      55.79
+     ]
+    ]
+   ]
+  ],
+  "sources": [
+   "geo_moscow_plan",
+   "su_special_moscow"
+  ]
+ },
+ {
+  "id": "rg.kremlin",
+  "layer": "moscow_rings",
+  "kind": "range",
+  "style": "ring",
+  "label": "克里姆林宫与市中心要地防空核心",
+  "pos": "@kremlin",
+  "rangeKm": 4.5,
+  "sources": [
+   "geo_moscow_plan",
+   "su_pvo_moscow"
+  ]
+ },
+ {
+  "id": "cn.moscow_canal",
+  "layer": "moscow_canal",
+  "kind": "line",
+  "style": "canal",
+  "label": "莫斯科运河（伊万科沃水库—德米特罗夫—亚赫罗马—莫斯科）",
+  "line": [
+   [
+    37.0,
+    56.75
+   ],
+   [
+    37.2,
+    56.62
+   ],
+   [
+    37.4,
+    56.48
+   ],
+   [
+    37.5,
+    56.35
+   ],
+   [
+    37.48,
+    56.25
+   ],
+   [
+    37.4,
+    56.1
+   ],
+   [
+    37.36,
+    55.95
+   ],
+   [
+    37.4,
+    55.85
+   ]
+  ],
+  "sources": [
+   "geo_naturalearth",
+   "strat_cmh_tomoscow",
+   "ger_pzgr3"
+  ]
+ },
+ {
+  "id": "cn.ivankovo",
+  "layer": "moscow_canal",
+  "kind": "polygon",
+  "style": "water",
+  "label": "伊万科沃水库（莫斯科海）",
+  "polygons": [
+   [
+    [
+     [
+      36.9,
+      56.82
+     ],
+     [
+      37.1,
+      56.84
+     ],
+     [
+      37.22,
+      56.75
+     ],
+     [
+      37.18,
+      56.66
+     ],
+     [
+      37.0,
+      56.66
+     ],
+     [
+      36.86,
+      56.74
+     ]
+    ]
+   ]
+  ],
+  "sources": [
+   "geo_naturalearth",
+   "geo_histbasemaps"
+  ]
+ },
+ {
+  "id": "cn.yakhroma_ford",
+  "layer": "moscow_canal",
+  "kind": "range",
+  "style": "crossing",
+  "label": "亚赫罗马渡口（11 月 28 日德军第 7 装甲师在此渡河）",
+  "pos": "@yakhroma",
+  "rangeKm": 3,
+  "sources": [
+   "ger_pzgr3",
+   "strat_cmh_tomoscow"
+  ]
+ },
+ {
+  "id": "cn.dmitrov_bridge",
+  "layer": "moscow_canal",
+  "kind": "range",
+  "style": "crossing",
+  "label": "德米特罗夫运河桥",
+  "pos": "@dmitrov",
+  "rangeKm": 3,
+  "sources": [
+   "ger_pzgr3",
+   "su_cmd_zhukov_wf"
+  ]
+ },
+ {
+  "id": "pv.moscow_zone",
+  "layer": "moscow_pvo",
+  "kind": "polygon",
+  "style": "pvo",
+  "label": "莫斯科防空区（PVO）责任区，含歼击航空兵与高炮群",
+  "polygons": [
+   [
+    [
+     [
+      36.6,
+      56.25
+     ],
+     [
+      37.2,
+      56.4
+     ],
+     [
+      37.9,
+      56.28
+     ],
+     [
+      38.3,
+      56.0
+     ],
+     [
+      38.35,
+      55.55
+     ],
+     [
+      38.1,
+      55.25
+     ],
+     [
+      37.55,
+      55.18
+     ],
+     [
+      36.95,
+      55.3
+     ],
+     [
+      36.55,
+      55.65
+     ],
+     [
+      36.45,
+      55.98
+     ]
+    ]
+   ]
+  ],
+  "sources": [
+   "su_pvo_moscow",
+   "strat_cmh_tomoscow"
+  ]
+ },
+ {
+  "id": "pv.vnukovo",
+  "layer": "moscow_pvo",
+  "kind": "range",
+  "style": "airbase",
+  "label": "伏努科沃机场（歼击航空兵基地）",
+  "pos": "@vnukovo",
+  "rangeKm": 12,
+  "sources": [
+   "su_pvo_moscow"
+  ]
+ },
+ {
+  "id": "pv.monino",
+  "layer": "moscow_pvo",
+  "kind": "range",
+  "style": "airbase",
+  "label": "莫尼诺机场",
+  "pos": "@monino",
+  "rangeKm": 12,
+  "sources": [
+   "su_pvo_moscow"
+  ]
+ },
+ {
+  "id": "pv.bykovo",
+  "layer": "moscow_pvo",
+  "kind": "range",
+  "style": "airbase",
+  "label": "贝科沃机场",
+  "pos": "@bykovo",
+  "rangeKm": 12,
+  "sources": [
+   "su_pvo_moscow"
+  ]
+ },
+ {
+  "id": "md.mud_october",
+  "layer": "mud_period",
+  "kind": "polygon",
+  "style": "mud",
+  "label": "十月泥泞期：公路网通行严重受限的地带（10 月中旬—11 月中旬）",
+  "polygons": [
+   [
+    [
+     [
+      34.6,
+      55.9
+     ],
+     [
+      35.6,
+      56.0
+     ],
+     [
+      36.6,
+      55.85
+     ],
+     [
+      37.3,
+      55.55
+     ],
+     [
+      37.6,
+      55.1
+     ],
+     [
+      37.2,
+      54.8
+     ],
+     [
+      36.4,
+      54.85
+     ],
+     [
+      35.6,
+      55.15
+     ],
+     [
+      34.9,
+      55.45
+     ]
+    ]
+   ]
+  ],
+  "sources": [
+   "strat_cmh_tomoscow",
+   "ger_halder_diary"
+  ]
+ },
+ {
+  "id": "md.mud_south",
+  "layer": "mud_period",
+  "kind": "polygon",
+  "style": "mud",
+  "label": "图拉—奥卡河之间的泥泞与道路瓶颈（11 月）",
+  "polygons": [
+   [
+    [
+     [
+      36.6,
+      54.35
+     ],
+     [
+      37.3,
+      54.4
+     ],
+     [
+      38.0,
+      54.3
+     ],
+     [
+      38.2,
+      54.0
+     ],
+     [
+      37.6,
+      53.85
+     ],
+     [
+      36.9,
+      53.9
+     ],
+     [
+      36.55,
+      54.1
+     ]
+    ]
+   ]
+  ],
+  "sources": [
+   "strat_cmh_tomoscow",
+   "ger_guderian_panzerleader"
+  ]
+ }
+]

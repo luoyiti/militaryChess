@@ -1,0 +1,2511 @@
+[
+ {
+  "id": "su.front_w",
+  "side": "SU",
+  "echelon": "front",
+  "type": "hq",
+  "parent": null,
+  "name": {
+   "zh": "西方面军",
+   "orig": "Западный фронт",
+   "short": "ЗапФ"
+  },
+  "commander": {
+   "zh": "科涅夫（10 月 10 日起朱可夫）",
+   "orig": "И. С. Конев / Г. К. Жуков"
+  },
+  "track": [],
+  "history": "台风行动的主防线。10 月 2 日德军突破后，西方面军与预备方面军在维亚济马被合围；10 月 10 日朱可夫接管，合并预备方面军与莫扎伊斯克防线部队，此后一直担任莫斯科正面防御与 12 月反攻的主力。",
+  "sources": [
+   "su_cmd_zhukov_wf",
+   "strat_cmh_tomoscow",
+   "su_zhukov_memoirs"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "su.front_reserve",
+  "side": "SU",
+  "echelon": "front",
+  "type": "hq",
+  "parent": null,
+  "name": {
+   "zh": "预备方面军",
+   "orig": "Резервный фронт",
+   "short": "РезФ"
+  },
+  "commander": {
+   "zh": "布琼尼",
+   "orig": "С. М. Будённый"
+  },
+  "track": [],
+  "history": "部署在西方方面军后方、勒热夫—维亚济马—叶利尼亚一线。10 月上中旬其第 24、第 32 集团军在维亚济马合围圈内覆灭，10 月 10 日方面军机关并入西方面军。",
+  "sources": [
+   "strat_cmh_tomoscow",
+   "su_cmd_zhukov_wf"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "su.front_bryansk",
+  "side": "SU",
+  "echelon": "front",
+  "type": "hq",
+  "parent": null,
+  "name": {
+   "zh": "布良斯克方面军",
+   "orig": "Брянский фронт",
+   "short": "БрФ"
+  },
+  "commander": {
+   "zh": "叶廖缅科",
+   "orig": "А. И. Ерёменко"
+  },
+  "track": [],
+  "history": "掩护莫斯科西南接近地。9 月 30 日首当其冲，10 月上旬第 3、第 13 集团军在特鲁布切夫斯克附近、第 50 集团军在布良斯克以南被合围；突围后在别廖夫—法捷日一线重组，12 月参加叶列茨进攻。",
+  "sources": [
+   "strat_cmh_tomoscow",
+   "su_cmd_zhukov_wf"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "su.front_kalinin",
+  "side": "SU",
+  "echelon": "front",
+  "type": "hq",
+  "parent": null,
+  "name": {
+   "zh": "加里宁方面军",
+   "orig": "Калининский фронт",
+   "short": "КалФ"
+  },
+  "commander": {
+   "zh": "科涅夫",
+   "orig": "И. С. Конев"
+  },
+  "track": [],
+  "history": "1941 年 10 月 17 日以西方方面军右翼第 22、第 29、第 30 集团军组建，任务是从北面威胁中央集团军群。12 月 5 日率先转入反攻，12 月 16 日收复加里宁，此后向勒热夫推进。",
+  "sources": [
+   "su_cmd_konev",
+   "strat_cmh_tomoscow"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "su.front_sw",
+  "side": "SU",
+  "echelon": "front",
+  "type": "hq",
+  "parent": null,
+  "name": {
+   "zh": "西南方面军",
+   "orig": "Юго-Западный фронт",
+   "short": "ЮЗФ"
+  },
+  "commander": {
+   "zh": "铁木辛哥",
+   "orig": "С. К. Тимошенко"
+  },
+  "track": [
+   {
+    "at": "1941-10-01T00:00",
+    "pos": [
+     36.226,
+     52.25
+    ],
+    "status": "active",
+    "note": "西南方面军右翼，库尔斯克—叶列茨方向"
+   },
+   {
+    "at": "1941-12-05T00:00",
+    "pos": [
+     37.126,
+     52.4
+    ],
+    "status": "active",
+    "note": "右翼第 3、第 13 集团军参加叶列茨进攻"
+   },
+   {
+    "at": "1941-12-09T00:00",
+    "pos": [
+     37.976,
+     52.45
+    ],
+    "status": "engaged",
+    "note": "收复叶列茨"
+   },
+   {
+    "at": "1942-01-10T00:00",
+    "pos": [
+     37.226,
+     52.35
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1942-01-31T12:00",
+    "pos": [
+     36.826,
+     52.3
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "主战场在库尔斯克—哈尔科夫方向；12 月其右翼与西方面军南翼配合，参加叶列茨进攻战役，是莫斯科反攻的外围一翼。",
+  "sources": [
+   "strat_cmh_tomoscow",
+   "strat_cmh_counter1"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "su.22a",
+  "side": "SU",
+  "echelon": "army",
+  "type": "hq",
+  "parent": "su.front_w",
+  "name": {
+   "zh": "第 22 集团军",
+   "orig": "22-я армия",
+   "short": "22 А"
+  },
+  "commander": {
+   "zh": "尤什克维奇",
+   "orig": "В. А. Юшкевич"
+  },
+  "track": [
+   {
+    "at": "1941-10-01T00:00",
+    "pos": [
+     31.627,
+     56.583
+    ],
+    "status": "active",
+    "note": "托罗佩茨—大卢基方向"
+   },
+   {
+    "at": "1941-10-12T00:00",
+    "pos": [
+     31.937,
+     56.433
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1941-11-01T00:00",
+    "pos": [
+     32.287,
+     56.483
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-12-05T00:00",
+    "pos": [
+     32.387,
+     56.483
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1942-01-09T00:00",
+    "pos": [
+     32.187,
+     56.383
+    ],
+    "status": "engaged",
+    "note": "加里宁方面军左翼向大卢基—霍尔姆方向进攻"
+   },
+   {
+    "at": "1942-01-31T12:00",
+    "pos": [
+     31.887,
+     56.433
+    ],
+    "status": "engaged"
+   }
+  ],
+  "history": "部署在托罗佩茨—大卢基方向，是西方面军最北的一翼；10 月中旬后转属加里宁方面军，冬季在勒热夫以北与大卢基方向作战。",
+  "sources": [
+   "strat_cmh_tomoscow",
+   "su_cmd_zhukov_wf"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "su.29a",
+  "side": "SU",
+  "echelon": "army",
+  "type": "hq",
+  "parent": "su.front_kalinin",
+  "name": {
+   "zh": "第 29 集团军",
+   "orig": "29-я армия",
+   "short": "29 А"
+  },
+  "commander": {
+   "zh": "马斯连尼科夫",
+   "orig": "И. И. Масленников"
+  },
+  "track": [
+   {
+    "at": "1941-10-01T00:00",
+    "pos": [
+     33.488,
+     56.825
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-12T00:00",
+    "pos": [
+     33.338,
+     56.665
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1941-10-20T00:00",
+    "pos": [
+     34.138,
+     56.415
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-15T00:00",
+    "pos": [
+     34.488,
+     56.315
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-05T00:00",
+    "pos": [
+     34.738,
+     56.264
+    ],
+    "status": "engaged",
+    "note": "强渡冰封的伏尔加河"
+   },
+   {
+    "at": "1941-12-16T00:00",
+    "pos": [
+     34.888,
+     56.285
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1942-01-08T00:00",
+    "pos": [
+     34.988,
+     56.264
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1942-01-31T12:00",
+    "pos": [
+     34.888,
+     56.215
+    ],
+    "status": "engaged"
+   }
+  ],
+  "history": "在谢利扎罗沃—奥斯塔什科夫一线，加里宁失守后据守伏尔加河上游；12 月 5 日参加加里宁反攻，1 月向勒热夫以西推进。",
+  "sources": [
+   "strat_cmh_tomoscow",
+   "su_cmd_konev"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "su.30a",
+  "side": "SU",
+  "echelon": "army",
+  "type": "hq",
+  "parent": "su.front_kalinin",
+  "name": {
+   "zh": "第 30 集团军",
+   "orig": "30-я армия",
+   "short": "30 А"
+  },
+  "commander": {
+   "zh": "霍缅科（11 月 18 日起列柳申科）",
+   "orig": "В. А. Хоменко / Д. Д. Лелюшенко"
+  },
+  "track": [
+   {
+    "at": "1941-10-01T00:00",
+    "pos": [
+     33.88,
+     56.127
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-08T00:00",
+    "pos": [
+     34.28,
+     56.227
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1941-10-14T00:00",
+    "pos": [
+     35.28,
+     56.527
+    ],
+    "status": "withdrawing",
+    "note": "加里宁失守后北撤至伏尔加河以北"
+   },
+   {
+    "at": "1941-10-20T00:00",
+    "pos": [
+     35.88,
+     56.727
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1941-11-15T00:00",
+    "pos": [
+     36.28,
+     56.627
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-11-17T00:00",
+    "pos": [
+     36.38,
+     56.577
+    ],
+    "status": "engaged",
+    "note": "列柳申科接任，重新掌握部队"
+   },
+   {
+    "at": "1941-12-05T00:00",
+    "pos": [
+     36.48,
+     56.527
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-09T00:00",
+    "pos": [
+     36.681,
+     56.327
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-15T00:00",
+    "pos": [
+     36.88,
+     56.227
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-25T00:00",
+    "pos": [
+     36.28,
+     56.127
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1942-01-31T12:00",
+    "pos": [
+     35.88,
+     56.027
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "在勒热夫以西担任防御。11 月 15 日德军第 9 集团军一部进攻时几乎未作有力抵抗即后撤，部队几乎被压入伏尔加河与莫斯科运河之间的死角；列柳申科接任后重整，12 月向克林方向反攻。",
+  "sources": [
+   "strat_cmh_tomoscow",
+   "su_cmd_konev"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "su.31a",
+  "side": "SU",
+  "echelon": "army",
+  "type": "hq",
+  "parent": "su.front_kalinin",
+  "name": {
+   "zh": "第 31 集团军",
+   "orig": "31-я армия",
+   "short": "31 А"
+  },
+  "commander": {
+   "zh": "达尔马托夫（后尤什克维奇）",
+   "orig": "В. Н. Далматов"
+  },
+  "track": [
+   {
+    "at": "1941-10-01T00:00",
+    "pos": [
+     34.554,
+     56.17
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-08T00:00",
+    "pos": [
+     34.654,
+     56.07
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-14T00:00",
+    "pos": [
+     34.854,
+     56.02
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1941-11-01T00:00",
+    "pos": [
+     35.054,
+     56.12
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-12-05T00:00",
+    "pos": [
+     35.354,
+     56.32
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-16T00:00",
+    "pos": [
+     35.704,
+     56.62
+    ],
+    "status": "engaged",
+    "note": "收复加里宁"
+   },
+   {
+    "at": "1941-12-25T00:00",
+    "pos": [
+     35.554,
+     56.52
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1942-01-08T00:00",
+    "pos": [
+     35.154,
+     56.42
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1942-01-31T12:00",
+    "pos": [
+     34.854,
+     56.37
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "在勒热夫东南，12 月 5 日与第 29 集团军一起进攻加里宁，12 月 16 日参加收复该城，此后向西追击。",
+  "sources": [
+   "strat_cmh_tomoscow",
+   "su_cmd_konev"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "su.16a",
+  "side": "SU",
+  "echelon": "army",
+  "type": "hq",
+  "parent": "su.front_w",
+  "name": {
+   "zh": "第 16 集团军",
+   "orig": "16-я армия",
+   "short": "16 А"
+  },
+  "commander": {
+   "zh": "罗科索夫斯基",
+   "orig": "К. К. Рокоссовский"
+  },
+  "track": [
+   {
+    "at": "1941-10-01T00:00",
+    "pos": [
+     35.6,
+     55.984
+    ],
+    "status": "reserve"
+   },
+   {
+    "at": "1941-10-10T00:00",
+    "pos": [
+     35.9,
+     56.084
+    ],
+    "status": "active",
+    "note": "罗科索夫斯基接管沃洛科拉姆斯克方向"
+   },
+   {
+    "at": "1941-10-27T00:00",
+    "pos": [
+     36.1,
+     56.035
+    ],
+    "status": "withdrawing",
+    "note": "沃洛科拉姆斯克失守"
+   },
+   {
+    "at": "1941-11-15T00:00",
+    "pos": [
+     36.3,
+     56.035
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-23T00:00",
+    "pos": [
+     36.7,
+     56.134
+    ],
+    "status": "withdrawing",
+    "note": "克林失守，右翼被拉开"
+   },
+   {
+    "at": "1941-11-26T00:00",
+    "pos": [
+     36.85,
+     56.035
+    ],
+    "status": "withdrawing",
+    "note": "伊斯特拉失守"
+   },
+   {
+    "at": "1941-12-01T00:00",
+    "pos": [
+     37.0,
+     55.984
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-06T00:00",
+    "pos": [
+     37.0,
+     55.934
+    ],
+    "status": "engaged",
+    "note": "西方面军转入反攻"
+   },
+   {
+    "at": "1941-12-15T00:00",
+    "pos": [
+     36.85,
+     55.984
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-20T00:00",
+    "pos": [
+     36.2,
+     56.084
+    ],
+    "status": "engaged",
+    "note": "收复沃洛科拉姆斯克"
+   },
+   {
+    "at": "1942-01-31T12:00",
+    "pos": [
+     36.0,
+     56.035
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "防守沃洛科拉姆斯克方向，是莫斯科西北正面最关键的集团军。11 月承受第 4 装甲集群主攻，被迫退守伊斯特拉—克留科沃一线，12 月 6 日转入反攻并收复沃洛科拉姆斯克。",
+  "sources": [
+   "su_rokossovsky",
+   "strat_cmh_tomoscow",
+   "su_28_panfilov"
+  ],
+  "confidence": "high",
+  "schematic": true
+ },
+ {
+  "id": "su.19a",
+  "side": "SU",
+  "echelon": "army",
+  "type": "hq",
+  "parent": "su.front_w",
+  "name": {
+   "zh": "第 19 集团军",
+   "orig": "19-я армия",
+   "short": "19 А"
+  },
+  "commander": {
+   "zh": "卢金",
+   "orig": "М. Ф. Лукин"
+  },
+  "track": [
+   {
+    "at": "1941-10-01T00:00",
+    "pos": [
+     34.194,
+     55.24
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-02T00:00",
+    "pos": [
+     34.344,
+     55.24
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-07T00:00",
+    "pos": [
+     34.694,
+     55.19
+    ],
+    "status": "encircled",
+    "note": "维亚济马以西被合围"
+   },
+   {
+    "at": "1941-10-11T00:00",
+    "pos": [
+     34.894,
+     55.14
+    ],
+    "status": "encircled"
+   },
+   {
+    "at": "1941-10-14T12:00",
+    "pos": [
+     35.094,
+     55.09
+    ],
+    "status": "destroyed",
+    "note": "卢金被俘，集团军主力在合围圈内覆灭"
+   }
+  ],
+  "history": "在维亚济马以西防御。10 月 7 日与第 20 集团军一起被合围，卢金统一指挥圈内部队坚持到 10 月中旬，掩护了莫扎伊斯克防线的组织。",
+  "sources": [
+   "strat_cmh_tomoscow",
+   "su_zhukov_memoirs"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "su.20a",
+  "side": "SU",
+  "echelon": "army",
+  "type": "hq",
+  "parent": "su.front_w",
+  "name": {
+   "zh": "第 20 集团军",
+   "orig": "20-я армия",
+   "short": "20 А"
+  },
+  "commander": {
+   "zh": "叶尔沙科夫（12 月起弗拉索夫）",
+   "orig": "Ф. А. Ершаков / А. А. Власов"
+  },
+  "track": [
+   {
+    "at": "1941-10-01T00:00",
+    "pos": [
+     34.427,
+     55.375
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-02T00:00",
+    "pos": [
+     34.527,
+     55.325
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-07T00:00",
+    "pos": [
+     34.727,
+     55.275
+    ],
+    "status": "encircled"
+   },
+   {
+    "at": "1941-10-11T00:00",
+    "pos": [
+     34.927,
+     55.225
+    ],
+    "status": "encircled"
+   },
+   {
+    "at": "1941-10-13T00:00",
+    "pos": [
+     35.077,
+     55.225
+    ],
+    "status": "withdrawing",
+    "note": "指挥机关在合围中损失，余部向东突围"
+   },
+   {
+    "at": "1941-11-30T00:00",
+    "pos": [
+     37.077,
+     55.875
+    ],
+    "status": "active",
+    "note": "同番号重建（弗拉索夫），克拉斯纳亚波利亚纳方向"
+   },
+   {
+    "at": "1941-12-05T00:00",
+    "pos": [
+     37.127,
+     55.855
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-06T00:00",
+    "pos": [
+     37.077,
+     55.825
+    ],
+    "status": "engaged",
+    "note": "自克拉斯纳亚波利亚纳南缘反击"
+   },
+   {
+    "at": "1941-12-12T00:00",
+    "pos": [
+     36.927,
+     55.925
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-20T00:00",
+    "pos": [
+     36.527,
+     55.975
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1942-01-31T12:00",
+    "pos": [
+     36.127,
+     55.925
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "维亚济马合围中指挥机关损失；11 月底以同一番号重建，担任克拉斯纳亚波利亚纳方向防御，是 12 月反攻中距莫斯科最近的突击集团军之一。番号沿用，两个时期的指挥与编成不同。",
+  "sources": [
+   "strat_cmh_tomoscow",
+   "su_zhukov_memoirs"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "su.24a",
+  "side": "SU",
+  "echelon": "army",
+  "type": "hq",
+  "parent": "su.front_reserve",
+  "name": {
+   "zh": "第 24 集团军",
+   "orig": "24-я армия",
+   "short": "24 А"
+  },
+  "commander": {
+   "zh": "拉库京",
+   "orig": "К. И. Ракутин"
+  },
+  "track": [
+   {
+    "at": "1941-10-01T00:00",
+    "pos": [
+     33.599,
+     54.794
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-05T00:00",
+    "pos": [
+     33.999,
+     54.844
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-08T00:00",
+    "pos": [
+     34.299,
+     54.894
+    ],
+    "status": "encircled",
+    "note": "维亚济马合围圈南缘"
+   },
+   {
+    "at": "1941-10-12T00:00",
+    "pos": [
+     34.499,
+     54.844
+    ],
+    "status": "encircled"
+   },
+   {
+    "at": "1941-10-20T12:00",
+    "pos": [
+     34.599,
+     54.794
+    ],
+    "status": "destroyed",
+    "note": "拉库京阵亡，集团军被歼灭"
+   }
+  ],
+  "history": "在叶利尼亚—多罗戈布日方向，10 月上旬被卷入维亚济马合围，拉库京阵亡，集团军主力覆灭。",
+  "sources": [
+   "strat_cmh_tomoscow",
+   "su_opolcheniye"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "su.32a",
+  "side": "SU",
+  "echelon": "army",
+  "type": "hq",
+  "parent": "su.front_reserve",
+  "name": {
+   "zh": "第 32 集团军",
+   "orig": "32-я армия",
+   "short": "32 А"
+  },
+  "commander": {
+   "zh": "维什涅夫斯基",
+   "orig": "С. В. Вишневский"
+  },
+  "track": [
+   {
+    "at": "1941-10-01T00:00",
+    "pos": [
+     35.36,
+     55.104
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-05T00:00",
+    "pos": [
+     35.56,
+     55.204
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-08T00:00",
+    "pos": [
+     35.86,
+     55.254
+    ],
+    "status": "encircled"
+   },
+   {
+    "at": "1941-10-12T00:00",
+    "pos": [
+     36.06,
+     55.303
+    ],
+    "status": "encircled"
+   },
+   {
+    "at": "1941-10-14T12:00",
+    "pos": [
+     36.16,
+     55.303
+    ],
+    "status": "destroyed",
+    "note": "维什涅夫斯基被俘，集团军覆灭"
+   }
+  ],
+  "history": "在维亚济马以北，10 月中旬在合围圈内被歼灭，维什涅夫斯基被俘。",
+  "sources": [
+   "strat_cmh_tomoscow"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "su.43a",
+  "side": "SU",
+  "echelon": "army",
+  "type": "hq",
+  "parent": "su.front_reserve",
+  "name": {
+   "zh": "第 43 集团军",
+   "orig": "43-я армия",
+   "short": "43 А"
+  },
+  "commander": {
+   "zh": "索边尼科夫（10 月 10 日起阿基莫夫）",
+   "orig": "П. П. Собенников / С. Д. Акимов"
+  },
+  "track": [
+   {
+    "at": "1941-10-01T00:00",
+    "pos": [
+     34.66,
+     54.701
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-05T00:00",
+    "pos": [
+     34.959,
+     54.651
+    ],
+    "status": "withdrawing",
+    "note": "尤赫诺夫失守"
+   },
+   {
+    "at": "1941-10-10T00:00",
+    "pos": [
+     35.359,
+     54.751
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1941-10-18T00:00",
+    "pos": [
+     35.66,
+     54.851
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1941-10-24T00:00",
+    "pos": [
+     36.059,
+     54.901
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-29T00:00",
+    "pos": [
+     36.359,
+     55.001
+    ],
+    "status": "engaged",
+    "note": "纳拉河一线稳住正面"
+   },
+   {
+    "at": "1941-11-15T00:00",
+    "pos": [
+     36.559,
+     55.051
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-01T00:00",
+    "pos": [
+     36.559,
+     55.001
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-06T00:00",
+    "pos": [
+     36.66,
+     55.001
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-26T00:00",
+    "pos": [
+     36.559,
+     55.051
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1942-01-02T00:00",
+    "pos": [
+     36.51,
+     55.001
+    ],
+    "status": "engaged",
+    "note": "收复小雅罗斯拉韦茨"
+   },
+   {
+    "at": "1942-01-31T12:00",
+    "pos": [
+     36.16,
+     54.951
+    ],
+    "status": "engaged"
+   }
+  ],
+  "history": "在尤赫诺夫—梅登方向，是维亚济马合围南缘的屏障；退守纳拉河后参加 12 月反攻，收复小雅罗斯拉韦茨。",
+  "sources": [
+   "strat_cmh_tomoscow",
+   "su_cmd_zhukov_wf"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "su.33a",
+  "side": "SU",
+  "echelon": "army",
+  "type": "hq",
+  "parent": "su.front_reserve",
+  "name": {
+   "zh": "第 33 集团军",
+   "orig": "33-я армия",
+   "short": "33 А"
+  },
+  "commander": {
+   "zh": "奥努普里延科（后叶夫列莫夫）",
+   "orig": "Д. П. Онуприенко / М. Г. Ефремов"
+  },
+  "track": [
+   {
+    "at": "1941-10-01T00:00",
+    "pos": [
+     35.253,
+     55.046
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-06T00:00",
+    "pos": [
+     35.653,
+     55.146
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1941-10-12T00:00",
+    "pos": [
+     36.053,
+     55.246
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1941-10-18T00:00",
+    "pos": [
+     36.352,
+     55.296
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1941-10-25T00:00",
+    "pos": [
+     36.653,
+     55.346
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-01T00:00",
+    "pos": [
+     36.852,
+     55.396
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-01T00:00",
+    "pos": [
+     36.852,
+     55.346
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-06T00:00",
+    "pos": [
+     36.803,
+     55.346
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-26T00:00",
+    "pos": [
+     36.773,
+     55.396
+    ],
+    "status": "engaged",
+    "note": "收复纳罗福明斯克"
+   },
+   {
+    "at": "1942-01-04T00:00",
+    "pos": [
+     36.352,
+     55.146
+    ],
+    "status": "engaged",
+    "note": "收复博罗夫斯克"
+   },
+   {
+    "at": "1942-01-14T00:00",
+    "pos": [
+     35.953,
+     55.096
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1942-01-30T00:00",
+    "pos": [
+     35.553,
+     55.146
+    ],
+    "status": "engaged",
+    "note": "突入维亚济马接近地"
+   },
+   {
+    "at": "1942-01-31T12:00",
+    "pos": [
+     35.503,
+     55.146
+    ],
+    "status": "engaged"
+   }
+  ],
+  "history": "在纳拉河一线阻止德军自纳罗福明斯克突入莫斯科，12 月反攻中收复纳罗福明斯克与博罗夫斯克；1942 年 1 月突入维亚济马接近地后被德军反突击切断。",
+  "sources": [
+   "strat_cmh_tomoscow",
+   "su_podolsk"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "su.49a",
+  "side": "SU",
+  "echelon": "army",
+  "type": "hq",
+  "parent": "su.front_reserve",
+  "name": {
+   "zh": "第 49 集团军",
+   "orig": "49-я армия",
+   "short": "49 А"
+  },
+  "commander": {
+   "zh": "扎哈尔金",
+   "orig": "И. Г. Захаркин"
+  },
+  "track": [
+   {
+    "at": "1941-10-01T00:00",
+    "pos": [
+     36.027,
+     54.549
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-08T00:00",
+    "pos": [
+     36.127,
+     54.549
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-13T00:00",
+    "pos": [
+     36.227,
+     54.499
+    ],
+    "status": "withdrawing",
+    "note": "卡卢加失守"
+   },
+   {
+    "at": "1941-10-24T00:00",
+    "pos": [
+     36.627,
+     54.549
+    ],
+    "status": "withdrawing",
+    "note": "塔鲁萨失守"
+   },
+   {
+    "at": "1941-10-30T00:00",
+    "pos": [
+     36.927,
+     54.599
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-15T00:00",
+    "pos": [
+     37.027,
+     54.649
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-06T00:00",
+    "pos": [
+     36.927,
+     54.649
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-30T00:00",
+    "pos": [
+     36.327,
+     54.499
+    ],
+    "status": "engaged",
+    "note": "收复卡卢加"
+   },
+   {
+    "at": "1942-01-31T12:00",
+    "pos": [
+     35.977,
+     54.449
+    ],
+    "status": "engaged"
+   }
+  ],
+  "history": "在卡卢加—塔鲁萨方向掩护西方面军左翼；12 月 30 日收复卡卢加。",
+  "sources": [
+   "strat_cmh_tomoscow",
+   "su_cmd_zhukov_wf"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "su.50a",
+  "side": "SU",
+  "echelon": "army",
+  "type": "hq",
+  "parent": "su.front_bryansk",
+  "name": {
+   "zh": "第 50 集团军",
+   "orig": "50-я армия",
+   "short": "50 А"
+  },
+  "commander": {
+   "zh": "彼得罗夫（后博尔金；11 月 10 日转属西方面军）",
+   "orig": "М. П. Петров / И. В. Болдин"
+  },
+  "track": [
+   {
+    "at": "1941-10-01T00:00",
+    "pos": [
+     34.878,
+     53.311
+    ],
+    "status": "active",
+    "note": "布良斯克以南，掩护布良斯克方面军南翼"
+   },
+   {
+    "at": "1941-10-06T00:00",
+    "pos": [
+     35.078,
+     53.511
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-09T00:00",
+    "pos": [
+     35.378,
+     53.611
+    ],
+    "status": "encircled",
+    "note": "布良斯克以南被合围"
+   },
+   {
+    "at": "1941-10-12T00:00",
+    "pos": [
+     35.778,
+     53.711
+    ],
+    "status": "encircled"
+   },
+   {
+    "at": "1941-10-20T00:00",
+    "pos": [
+     36.378,
+     53.861
+    ],
+    "status": "withdrawing",
+    "note": "突围后向图拉方向退却"
+   },
+   {
+    "at": "1941-10-29T00:00",
+    "pos": [
+     36.978,
+     54.011
+    ],
+    "status": "withdrawing",
+    "note": "退守图拉"
+   },
+   {
+    "at": "1941-11-05T00:00",
+    "pos": [
+     37.578,
+     54.111
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-18T00:00",
+    "pos": [
+     37.778,
+     54.161
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-03T00:00",
+    "pos": [
+     37.878,
+     54.211
+    ],
+    "status": "engaged",
+    "note": "击退对图拉的最后一次强攻"
+   },
+   {
+    "at": "1941-12-06T00:00",
+    "pos": [
+     37.878,
+     54.161
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-17T00:00",
+    "pos": [
+     37.478,
+     54.011
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-30T00:00",
+    "pos": [
+     36.678,
+     54.061
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1942-01-31T12:00",
+    "pos": [
+     35.978,
+     54.061
+    ],
+    "status": "engaged"
+   }
+  ],
+  "history": "布良斯克合围中损失惨重，突围后退守图拉。11 月 10 日转属西方面军，在图拉防御战中守住城市，12 月转入反攻。",
+  "sources": [
+   "strat_cmh_tomoscow",
+   "su_cmd_zhukov_wf"
+  ],
+  "confidence": "high",
+  "schematic": true
+ },
+ {
+  "id": "su.3a",
+  "side": "SU",
+  "echelon": "army",
+  "type": "hq",
+  "parent": "su.front_bryansk",
+  "name": {
+   "zh": "第 3 集团军",
+   "orig": "3-я армия",
+   "short": "3 А"
+  },
+  "commander": {
+   "zh": "克赖泽尔",
+   "orig": "Я. Г. Крейзер"
+  },
+  "track": [
+   {
+    "at": "1941-10-01T00:00",
+    "pos": [
+     34.664,
+     52.86
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-06T00:00",
+    "pos": [
+     34.464,
+     53.06
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-09T00:00",
+    "pos": [
+     34.364,
+     53.26
+    ],
+    "status": "encircled",
+    "note": "特鲁布切夫斯克以北被合围"
+   },
+   {
+    "at": "1941-10-13T00:00",
+    "pos": [
+     34.664,
+     53.36
+    ],
+    "status": "encircled"
+   },
+   {
+    "at": "1941-10-22T00:00",
+    "pos": [
+     35.464,
+     53.16
+    ],
+    "status": "withdrawing",
+    "note": "沿纳夫利亚方向突围"
+   },
+   {
+    "at": "1941-11-01T00:00",
+    "pos": [
+     35.964,
+     53.26
+    ],
+    "status": "active",
+    "note": "在别廖夫—法捷日一线重组"
+   },
+   {
+    "at": "1941-12-06T00:00",
+    "pos": [
+     37.164,
+     52.91
+    ],
+    "status": "engaged",
+    "note": "叶列茨进攻战役，自北翼向叶列茨—利夫内方向"
+   },
+   {
+    "at": "1941-12-09T00:00",
+    "pos": [
+     38.114,
+     52.71
+    ],
+    "status": "engaged",
+    "note": "与第 13 集团军合力收复叶列茨"
+   },
+   {
+    "at": "1941-12-30T00:00",
+    "pos": [
+     37.464,
+     52.86
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1942-01-31T12:00",
+    "pos": [
+     36.864,
+     52.81
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "在布良斯克以南，10 月 9 日与第 13 集团军在特鲁布切夫斯克以北被合围，沿纳夫利亚方向突围；12 月参加叶列茨进攻。",
+  "sources": [
+   "strat_cmh_tomoscow",
+   "strat_cmh_counter1"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "su.13a",
+  "side": "SU",
+  "echelon": "army",
+  "type": "hq",
+  "parent": "su.front_bryansk",
+  "name": {
+   "zh": "第 13 集团军",
+   "orig": "13-я армия",
+   "short": "13 А"
+  },
+  "commander": {
+   "zh": "戈罗德尼扬斯基",
+   "orig": "А. М. Городнянский"
+  },
+  "track": [
+   {
+    "at": "1941-10-01T00:00",
+    "pos": [
+     34.221,
+     52.526
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-10-06T00:00",
+    "pos": [
+     34.321,
+     52.726
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-09T00:00",
+    "pos": [
+     34.421,
+     52.926
+    ],
+    "status": "encircled"
+   },
+   {
+    "at": "1941-10-14T00:00",
+    "pos": [
+     34.721,
+     52.926
+    ],
+    "status": "encircled"
+   },
+   {
+    "at": "1941-10-23T00:00",
+    "pos": [
+     35.421,
+     52.726
+    ],
+    "status": "withdrawing",
+    "note": "霍穆托夫卡方向突围"
+   },
+   {
+    "at": "1941-11-01T00:00",
+    "pos": [
+     36.021,
+     52.776
+    ],
+    "status": "active",
+    "note": "在别廖夫—法捷日一线重组"
+   },
+   {
+    "at": "1941-12-06T00:00",
+    "pos": [
+     37.321,
+     52.626
+    ],
+    "status": "engaged",
+    "note": "叶列茨进攻战役"
+   },
+   {
+    "at": "1941-12-09T00:00",
+    "pos": [
+     38.271,
+     52.606
+    ],
+    "status": "engaged",
+    "note": "收复叶列茨"
+   },
+   {
+    "at": "1941-12-20T00:00",
+    "pos": [
+     37.821,
+     52.576
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1942-01-31T12:00",
+    "pos": [
+     37.221,
+     52.476
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "在布良斯克以南，突围时损失全部炮兵与后方机关；12 月在西南方面军右翼参加叶列茨进攻，收复叶列茨。",
+  "sources": [
+   "strat_cmh_tomoscow",
+   "strat_cmh_counter1"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "su.5a",
+  "side": "SU",
+  "echelon": "army",
+  "type": "hq",
+  "parent": "su.front_w",
+  "name": {
+   "zh": "第 5 集团军",
+   "orig": "5-я армия",
+   "short": "5 А"
+  },
+  "commander": {
+   "zh": "列柳申科（10 月 18 日起戈沃罗夫）",
+   "orig": "Д. Д. Лелюшенко / Л. А. Говоров"
+  },
+  "track": [
+   {
+    "at": "1941-10-10T00:00",
+    "pos": [
+     36.14,
+     55.399
+    ],
+    "status": "active",
+    "note": "以莫扎伊斯克防线部队组建"
+   },
+   {
+    "at": "1941-10-18T00:00",
+    "pos": [
+     36.34,
+     55.349
+    ],
+    "status": "withdrawing",
+    "note": "莫扎伊斯克失守"
+   },
+   {
+    "at": "1941-10-24T00:00",
+    "pos": [
+     36.64,
+     55.399
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1941-11-01T00:00",
+    "pos": [
+     36.94,
+     55.449
+    ],
+    "status": "engaged",
+    "note": "据守兹韦尼戈罗德—库宾卡一线"
+   },
+   {
+    "at": "1941-11-20T00:00",
+    "pos": [
+     37.09,
+     55.449
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-01T00:00",
+    "pos": [
+     37.14,
+     55.399
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-06T00:00",
+    "pos": [
+     37.09,
+     55.349
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-20T00:00",
+    "pos": [
+     36.24,
+     55.449
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1942-01-20T00:00",
+    "pos": [
+     36.09,
+     55.449
+    ],
+    "status": "engaged",
+    "note": "收复莫扎伊斯克"
+   },
+   {
+    "at": "1942-01-31T12:00",
+    "pos": [
+     35.79,
+     55.399
+    ],
+    "status": "engaged"
+   }
+  ],
+  "history": "10 月 10 日以莫扎伊斯克防线部队组建，接防莫扎伊斯克正面；莫扎伊斯克失守后退守兹韦尼戈罗德—库宾卡，12 月反攻中收复莫扎伊斯克。",
+  "sources": [
+   "strat_cmh_tomoscow",
+   "su_cmd_zhukov_wf"
+  ],
+  "confidence": "high",
+  "schematic": true
+ },
+ {
+  "id": "su.10a",
+  "side": "SU",
+  "echelon": "army",
+  "type": "hq",
+  "parent": "su.front_w",
+  "name": {
+   "zh": "第 10 集团军",
+   "orig": "10-я армия",
+   "short": "10 А"
+  },
+  "commander": {
+   "zh": "戈利科夫",
+   "orig": "Ф. И. Голиков"
+  },
+  "track": [
+   {
+    "at": "1941-11-25T00:00",
+    "pos": [
+     39.179,
+     54.265
+    ],
+    "status": "reserve",
+    "note": "自伏尔加河沿岸铁路输送中"
+   },
+   {
+    "at": "1941-12-02T00:00",
+    "pos": [
+     38.679,
+     54.115
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-12-06T00:00",
+    "pos": [
+     38.279,
+     54.065
+    ],
+    "status": "engaged",
+    "note": "以米哈伊洛夫为目标开始进攻"
+   },
+   {
+    "at": "1941-12-15T00:00",
+    "pos": [
+     37.579,
+     53.965
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-30T00:00",
+    "pos": [
+     36.579,
+     53.965
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1942-01-06T00:00",
+    "pos": [
+     35.579,
+     53.965
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1942-01-29T00:00",
+    "pos": [
+     35.329,
+     54.065
+    ],
+    "status": "engaged",
+    "note": "收复苏希尼奇"
+   },
+   {
+    "at": "1942-01-31T12:00",
+    "pos": [
+     35.279,
+     54.065
+    ],
+    "status": "engaged"
+   }
+  ],
+  "history": "11 月底自伏尔加河沿岸输送而来，约十万人、七个预备步兵师，几乎没有汽车；12 月在米哈伊洛夫方向投入反攻，1 月参加苏希尼奇作战。",
+  "sources": [
+   "strat_cmh_tomoscow",
+   "su_cmd_zhukov_wf"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "su.61a",
+  "side": "SU",
+  "echelon": "army",
+  "type": "hq",
+  "parent": "su.front_bryansk",
+  "name": {
+   "zh": "第 61 集团军",
+   "orig": "61-я армия",
+   "short": "61 А"
+  },
+  "commander": {
+   "zh": "波波夫",
+   "orig": "М. М. Попов"
+  },
+  "track": [
+   {
+    "at": "1941-12-01T00:00",
+    "pos": [
+     38.46,
+     53.563
+    ],
+    "status": "active",
+    "note": "12 月由布良斯克方面军新编"
+   },
+   {
+    "at": "1941-12-15T00:00",
+    "pos": [
+     37.66,
+     53.463
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-30T00:00",
+    "pos": [
+     36.86,
+     53.363
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1942-01-20T00:00",
+    "pos": [
+     35.86,
+     53.863
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1942-01-29T00:00",
+    "pos": [
+     35.46,
+     54.013
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1942-01-31T12:00",
+    "pos": [
+     35.36,
+     54.013
+    ],
+    "status": "engaged"
+   }
+  ],
+  "history": "1941 年 12 月新编，在奥廖尔以南展开，1 月向苏希尼奇方向进攻。",
+  "sources": [
+   "strat_cmh_counter2",
+   "strat_cmh_tomoscow"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "su.1sh_a",
+  "side": "SU",
+  "echelon": "army",
+  "type": "hq",
+  "parent": "su.front_w",
+  "name": {
+   "zh": "第 1 突击集团军",
+   "orig": "1-я ударная армия",
+   "short": "1 УдА"
+  },
+  "commander": {
+   "zh": "库兹涅佐夫",
+   "orig": "В. И. Кузнецов"
+  },
+  "track": [
+   {
+    "at": "1941-11-23T00:00",
+    "pos": [
+     37.192,
+     56.506
+    ],
+    "status": "active",
+    "note": "库兹涅佐夫在德米特罗夫组建"
+   },
+   {
+    "at": "1941-11-28T00:00",
+    "pos": [
+     37.292,
+     56.456
+    ],
+    "status": "engaged",
+    "note": "在亚赫罗马与德军第 3 装甲集群接触"
+   },
+   {
+    "at": "1941-12-01T00:00",
+    "pos": [
+     37.342,
+     56.456
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-06T00:00",
+    "pos": [
+     37.392,
+     56.406
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-12T00:00",
+    "pos": [
+     36.992,
+     56.356
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-20T00:00",
+    "pos": [
+     36.692,
+     56.306
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1942-01-05T00:00",
+    "pos": [
+     36.192,
+     56.256
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1942-01-31T12:00",
+    "pos": [
+     35.792,
+     56.206
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "11 月 23 日在德米特罗夫组建，起初只有一个步兵旅，月底扩充到 1 个步兵师、9 个步兵旅与若干炮兵团；在莫斯科运河一线挡住德军第 3 装甲集群，12 月参加反攻。",
+  "sources": [
+   "strat_cmh_tomoscow",
+   "su_cmd_zhukov_wf"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "su.1gv_kk",
+  "side": "SU",
+  "echelon": "corps",
+  "type": "cavalry",
+  "parent": "su.50a",
+  "name": {
+   "zh": "近卫骑兵第 1 军",
+   "orig": "1-й гвардейский кавалерийский корпус",
+   "short": "1 гв. КК"
+  },
+  "commander": {
+   "zh": "别洛夫",
+   "orig": "П. А. Белов"
+  },
+  "track": [
+   {
+    "at": "1941-11-26T00:00",
+    "pos": [
+     38.102,
+     54.774
+    ],
+    "status": "active",
+    "note": "由第 2 骑兵军改称，别洛夫指挥，自卡希拉以北展开"
+   },
+   {
+    "at": "1941-11-28T00:00",
+    "pos": [
+     38.202,
+     54.714
+    ],
+    "status": "engaged",
+    "note": "卡希拉反击"
+   },
+   {
+    "at": "1941-12-04T00:00",
+    "pos": [
+     38.352,
+     54.954
+    ],
+    "status": "engaged",
+    "note": "把德军第 17 装甲师逐回莫尔德韦斯（卡希拉以北）"
+   },
+   {
+    "at": "1941-12-10T00:00",
+    "pos": [
+     37.652,
+     54.254
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-24T00:00",
+    "pos": [
+     37.152,
+     54.054
+    ],
+    "status": "engaged",
+    "note": "别洛夫骑兵集群向尤赫诺夫突进"
+   },
+   {
+    "at": "1942-01-10T00:00",
+    "pos": [
+     36.352,
+     54.354
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1942-01-20T00:00",
+    "pos": [
+     35.652,
+     54.654
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1942-01-31T12:00",
+    "pos": [
+     35.252,
+     54.854
+    ],
+    "status": "engaged",
+    "note": "在维亚济马以南敌后作战"
+   }
+  ],
+  "history": "由第 2 骑兵军改称（1941 年 11 月 26 日）。在卡希拉反击中把德军第 17 装甲师逐回莫尔德韦斯，12 月起深入敌后，1 月在维亚济马以南与空降兵会合。",
+  "sources": [
+   "strat_cmh_tomoscow",
+   "su_belov"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "su.2gv_kk",
+  "side": "SU",
+  "echelon": "corps",
+  "type": "cavalry",
+  "parent": "su.16a",
+  "name": {
+   "zh": "近卫骑兵第 2 军",
+   "orig": "2-й гвардейский кавалерийский корпус",
+   "short": "2 гв. КК"
+  },
+  "commander": {
+   "zh": "多瓦托尔（12 月 19 日阵亡，后由克留科夫接任）",
+   "orig": "Л. М. Доватор"
+  },
+  "track": [
+   {
+    "at": "1941-10-01T00:00",
+    "pos": [
+     34.096,
+     56.008
+    ],
+    "status": "active",
+    "note": "第 3 骑兵军，多瓦托尔指挥"
+   },
+   {
+    "at": "1941-10-12T00:00",
+    "pos": [
+     34.396,
+     56.058
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-20T00:00",
+    "pos": [
+     35.196,
+     56.158
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-11-15T00:00",
+    "pos": [
+     35.896,
+     56.008
+    ],
+    "status": "engaged",
+    "note": "在沃洛科拉姆斯克以东袭扰德军后方"
+   },
+   {
+    "at": "1941-11-26T00:00",
+    "pos": [
+     36.296,
+     55.958
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-05T00:00",
+    "pos": [
+     36.196,
+     56.108
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-15T00:00",
+    "pos": [
+     35.896,
+     56.208
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-19T00:00",
+    "pos": [
+     35.946,
+     56.158
+    ],
+    "status": "engaged",
+    "note": "多瓦托尔在鲁扎河畔阵亡"
+   },
+   {
+    "at": "1942-01-10T00:00",
+    "pos": [
+     35.596,
+     56.108
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1942-01-31T12:00",
+    "pos": [
+     35.296,
+     56.058
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "由第 3 骑兵军改称。在沃洛科拉姆斯克—伊斯特拉方向深入德军后方袭扰，是第 16 集团军最机动的力量；多瓦托尔 12 月 19 日在鲁扎河畔阵亡。",
+  "sources": [
+   "strat_cmh_tomoscow",
+   "su_belov"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "su.1gsk",
+  "side": "SU",
+  "echelon": "corps",
+  "type": "infantry",
+  "parent": "su.front_bryansk",
+  "name": {
+   "zh": "近卫步兵第 1 军",
+   "orig": "1-й гвардейский стрелковый корпус",
+   "short": "1 гв. СК"
+  },
+  "commander": {
+   "zh": "列柳申科",
+   "orig": "Д. Д. Лелюшенко"
+  },
+  "track": [
+   {
+    "at": "1941-10-01T00:00",
+    "pos": [
+     36.241,
+     53.244
+    ],
+    "status": "active",
+    "note": "姆岑斯克方向的第一近卫步兵军"
+   },
+   {
+    "at": "1941-10-06T00:00",
+    "pos": [
+     36.441,
+     53.294
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-10-20T00:00",
+    "pos": [
+     36.741,
+     53.644
+    ],
+    "status": "withdrawing"
+   },
+   {
+    "at": "1941-11-01T00:00",
+    "pos": [
+     37.041,
+     53.844
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-05T00:00",
+    "pos": [
+     37.241,
+     53.944
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1942-01-31T12:00",
+    "pos": [
+     36.741,
+     53.744
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "10 月初在姆岑斯克方向组建，下辖第 5、第 6 近卫步兵师与第 4、第 11 坦克旅；参加姆岑斯克防御，后成为第 26 集团军的骨干。",
+  "sources": [
+   "su_katukov",
+   "strat_cmh_tomoscow"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "su.4vdk",
+  "side": "SU",
+  "echelon": "corps",
+  "type": "airborne",
+  "parent": "su.front_w",
+  "name": {
+   "zh": "空降第 4 军",
+   "orig": "4-й воздушно-десантный корпус",
+   "short": "4 ВДК"
+  },
+  "commander": {
+   "zh": "列瓦绍夫",
+   "orig": "А. Ф. Левашов"
+  },
+  "track": [
+   {
+    "at": "1941-12-15T00:00",
+    "pos": [
+     37.878,
+     55.251
+    ],
+    "status": "active",
+    "note": "空降兵在莫斯科近郊集结"
+   },
+   {
+    "at": "1942-01-18T00:00",
+    "pos": [
+     35.078,
+     55.001
+    ],
+    "status": "engaged",
+    "note": "第 201 空降旅在维亚济马以南空降"
+   },
+   {
+    "at": "1942-01-27T00:00",
+    "pos": [
+     34.978,
+     55.051
+    ],
+    "status": "engaged",
+    "note": "军部与第 8 空降旅在奥泽列奇尼亚空降"
+   },
+   {
+    "at": "1942-01-31T12:00",
+    "pos": [
+     34.928,
+     55.001
+    ],
+    "status": "engaged",
+    "note": "在德军后方破袭维亚济马—尤赫诺夫公路"
+   }
+  ],
+  "history": "1942 年 1 月在维亚济马以南空降，任务是切断维亚济马—尤赫诺夫公路与铁路；运输机不足，只能分批投送，至 2 月 1 日仅空投约两千一百人。",
+  "sources": [
+   "strat_cmh_counter2",
+   "strat_cmh_tomoscow"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "su.pvo_moscow",
+  "side": "SU",
+  "echelon": "sector",
+  "type": "air",
+  "parent": "su.front_w",
+  "name": {
+   "zh": "莫斯科防空区",
+   "orig": "Московская зона ПВО",
+   "short": "ПВО"
+  },
+  "commander": {
+   "zh": "格罗马金",
+   "orig": "М. С. Громадин"
+  },
+  "track": [
+   {
+    "at": "1941-10-01T00:00",
+    "pos": [
+     37.639,
+     55.792
+    ],
+    "status": "active",
+    "note": "莫斯科防空区，含歼击航空兵与高炮群"
+   },
+   {
+    "at": "1941-11-01T00:00",
+    "pos": [
+     37.639,
+     55.792
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-05T00:00",
+    "pos": [
+     37.639,
+     55.792
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1942-01-31T12:00",
+    "pos": [
+     37.639,
+     55.792
+    ],
+    "status": "active"
+   }
+  ],
+  "history": "负责首都防空：歼击航空兵、高炮与拦阻气球。1941 年秋冬德军对莫斯科实施数十次大规模空袭，绝大多数轰炸机被拦阻在远接近地之外。",
+  "sources": [
+   "su_pvo_moscow",
+   "strat_cmh_tomoscow"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ },
+ {
+  "id": "su.moscow_militia",
+  "side": "SU",
+  "echelon": "group",
+  "type": "infantry",
+  "parent": "su.front_w",
+  "name": {
+   "zh": "莫斯科民兵师群",
+   "orig": "Дивизии народного ополчения Москвы",
+   "short": "ДНО"
+  },
+  "commander": {
+   "zh": "阿尔捷米耶夫（莫斯科防御区司令）",
+   "orig": "П. А. Артемьев"
+  },
+  "track": [
+   {
+    "at": "1941-10-10T00:00",
+    "pos": [
+     37.574,
+     55.763
+    ],
+    "status": "active",
+    "note": "民兵师与工人营在市内与近郊构筑防线"
+   },
+   {
+    "at": "1941-10-20T00:00",
+    "pos": [
+     36.757,
+     55.758
+    ],
+    "status": "active"
+   },
+   {
+    "at": "1941-11-15T00:00",
+    "pos": [
+     36.557,
+     55.658
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1941-12-10T00:00",
+    "pos": [
+     36.157,
+     55.558
+    ],
+    "status": "engaged"
+   },
+   {
+    "at": "1942-01-31T12:00",
+    "pos": [
+     35.857,
+     55.508
+    ],
+    "status": "engaged"
+   }
+  ],
+  "history": "1941 年 7 月与 10 月两次组建，共 12 个师约 12 万人，另有工人营与歼击营；装备与训练不足，被直接投入莫扎伊斯克一线的堵口作战与市内防御地带的构筑。",
+  "sources": [
+   "su_opolcheniye",
+   "su_special_moscow"
+  ],
+  "confidence": "medium",
+  "schematic": true
+ }
+]

@@ -1,0 +1,86 @@
+/* 莫斯科保卫战：展示插件（城门态势 + 逐日气温）、图例补充与少量版式微调。
+   引擎样式在 engine/styles；这里只写本战役专属的部分，颜色沿用主题与阵营变量。 */
+
+/* ---------- 插件面板 ---------- */
+.mx-panel { margin: 16px 0 22px; padding: 16px 0 0; border-top: 2px solid #795b3b; }
+.mx-heading { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; }
+.mx-heading h3 { margin: 0 0 10px; }
+.mx-heading > span { color: #80532d; font-size: 16px; font-weight: 700; white-space: nowrap; font-variant-numeric: tabular-nums; }
+.mx-block { margin-bottom: 18px; }
+.mx-panel h4 { margin: 14px 0 8px; color: #5b412c; font-size: 12px; letter-spacing: .09em; }
+.mx-panel h4:first-child { margin-top: 2px; }
+
+.mx-distance { display: flex; align-items: baseline; gap: 5px; padding: 8px 11px; background: #b58b4e16; border-left: 3px solid #986d36; }
+.mx-distance b { font-size: 30px; line-height: 1.1; color: #5e3a1c; font-variant-numeric: tabular-nums; }
+.mx-distance span { font-size: 12px; color: #6f5b47; }
+.mx-distance.is-suspect { border-left-color: #b3262e; background: #b3262e12; }
+.mx-distance.is-suspect b { color: #8a1c22; }
+.mx-distance em { margin-left: auto; font-size: 10px; font-style: normal; letter-spacing: .08em; color: #8a1c22; border: 1px solid #b3262e77; padding: 1px 5px; }
+
+.mx-report { margin-top: 11px; padding: 9px 11px; border: 1px solid #9d866b55; background: #fff8e538; }
+.mx-report-head { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; }
+.mx-report-head b { font-size: 12.5px; }
+.mx-report-head span { font-size: 12px; color: #7a5630; font-weight: 700; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.mx-report p { margin: 6px 0 0; font-size: 11.5px; line-height: 1.72; }
+
+.mx-caption, .mx-caution { margin: 7px 0; font-size: 11px; line-height: 1.68; color: #72614d; }
+.mx-caution { color: #84745e; border-left: 2px solid #b9a48855; padding-left: 8px; }
+
+.mx-weather { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); border: 1px solid #9d866b55; background: #fff8e538; }
+.mx-weather > div { padding: 9px 2px; text-align: center; border-right: 1px solid #9d866b44; }
+.mx-weather > div:last-child { border: 0; }
+.mx-weather span { display: block; font-size: 10px; color: #6f5b47; }
+.mx-weather strong { font-size: 17px; color: #5e3a1c; line-height: 1.9; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.mx-weather small { font-size: 10px; margin-left: 1px; }
+
+.mx-spark { margin: 10px 0 4px; }
+.mx-spark svg { display: block; width: 100%; height: 30px; color: #7b8ba6; }
+.mx-spark figcaption { margin-top: 4px; font-size: 10.5px; color: #72614d; font-variant-numeric: tabular-nums; }
+
+.mx-sources, .mx-meta { margin: 7px 0; font-size: 10px; color: #786650; }
+.mx-sources summary, .mx-meta summary { cursor: pointer; line-height: 1.6; }
+.mx-sources ul { padding-left: 15px; margin: 5px 0; }
+.mx-sources li { margin-bottom: 5px; overflow-wrap: anywhere; }
+.mx-meta p { margin: 5px 0; line-height: 1.7; }
+.mx-panel a { color: #76532f; }
+
+.mx-event-weather { margin: 8px 0 0; font-size: 10.5px; line-height: 1.65; color: #786650; font-variant-numeric: tabular-nums; }
+
+/* ---------- 开场与总台 ---------- */
+.moscow-cover-credit { display: block; margin-top: 5px; font-size: 9px; line-height: 1.5; overflow-wrap: anywhere; color: #786650; }
+.intro .intro-photo > .credit { display: none; }
+
+/* ---------- 侧栏版式（阶段名较长，收紧一段） ---------- */
+.sidebar .brief-title h1 { font-size: 22px; letter-spacing: .12em; margin-top: 5px; }
+.sidebar .stamp-top { font-size: 11px; letter-spacing: .16em; padding: 1px 6px; }
+.sidebar .brief-title .sub { font-size: 10.5px; }
+.sidebar .brief-title .sub2 { font-size: 11px; }
+.sidebar .chapter-nav { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 4px; margin: 12px 0; }
+.sidebar .chapter-nav button { padding: 7px 3px; font-size: 10px; letter-spacing: .02em; line-height: 1.45; white-space: normal; overflow-wrap: anywhere; }
+.sidebar .chapter-nav button:last-child { grid-column: 1 / -1; }
+.sidebar .sb-status h3 { margin: 9px 0 6px; }
+.sidebar .st-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 4px; }
+.sidebar .st-grid > div { min-width: 0; padding: 7px 2px; }
+.sidebar .st-grid span { font-size: 9px; line-height: 1.45; }
+
+/* ---------- 开场 ---------- */
+.intro h1 { font-size: 46px; letter-spacing: .07em; }
+.intro .intro-dates { font-size: 16px; letter-spacing: .04em; }
+
+/* ---------- 叠加层样式：按图层键着色（data/overlays.json 的 layer），线型与战线区分 ---------- */
+.ov-layer.ov-mozhaisk_line .sector-line { stroke: #7a563a; stroke-width: 2.4; stroke-dasharray: 8 3; opacity: .78; }
+.ov-layer.ov-moscow_rings .sector-line { stroke: #6b5334; stroke-width: 1.6; stroke-dasharray: 4 3; opacity: .62; }
+.ov-layer.ov-moscow_canal .sector-line { stroke: #36678c; stroke-width: 2.6; stroke-dasharray: 2 2.5; opacity: .88; }
+.ov-layer.ov-moscow_pvo .sector-line { stroke: #7d5f8a; stroke-width: 1.8; stroke-dasharray: 10 4 2 4; opacity: .7; }
+.ov-layer.ov-moscow_pvo .radar-range { fill: rgba(125, 95, 138, .08); stroke: #7d5f8a; stroke-dasharray: 6 4; stroke-width: 1.2; }
+.ov-layer.ov-mud_period .sector-line { stroke: #8a6d3c; stroke-width: 1.5; stroke-dasharray: 1 4; opacity: .6; }
+
+@media (max-width: 759px) {
+  .mx-heading > span { font-size: 14px; }
+  .mx-distance b { font-size: 25px; }
+  .mx-weather strong { font-size: 15px; }
+  .intro h1 { font-size: 31px; }
+  .intro .intro-dates { font-size: 13px; }
+  .tl-phase-band span, .tl-mark span, .tl-tick span { display: none; }
+  .tl-ev.imp3 { display: none; }
+}
